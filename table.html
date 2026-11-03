@@ -1,0 +1,24 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><link rel="stylesheet" href="assets/style.css"><script src="assets/i18n.js"></script><script src="assets/app.js"></script><title>Mega table — Robot Catalog</title></head>
+<body><script>nav("table.html")</script>
+<main style="max-width:none">
+<h1 data-i18n="table_title"></h1><p class="muted" data-i18n="table_sub"></p>
+<div class="controls"><input type="search" id="q" data-i18n-ph="filter"><select id="cat"></select><button class="btn" id="csv" data-i18n="csv"></button><span class="small muted" id="n"></span></div>
+<div class="tablewrap"><table class="mega" id="t"></table></div>
+</main><div id="foot"></div>
+<script>
+document.title=t("table_title")+" — "+t("brand");
+const COLS=[["name","robot"],["manufacturer","col_maker"],["country","col_country",0,1],["category","category",0,1],["locomotion","col_loco",0,1],["status","col_status",0,1],["release_year","col_year",1],["length_mm","L mm",1],["width_mm","W mm",1],["height_mm","H mm",1],["weight_kg","weight",1,0,"kg"],["payload_kg","payload",1,0,"kg"],["max_speed_mps","max_speed",1,0,"m/s"],["min_speed_mps","min_speed",1,0,"m/s"],["wheel_diameter_mm","wheel_d",1,0,"mm"],["wheel_count","wheels",1],["dof","dof",1],["runtime_h","runtime",1,0,"h"],["battery_wh","battery",1,0,"Wh"],["ip_rating","ip"],["api_support","api","b"],["sdk_available","sdk","b"],["sdk_name","col_sdkname"],["ros_support","ros","b"],["onboard_compute","onboard","b"],["compute_detail","compute"],["sensors","sensors"],["price_usd","price",1,0,"USD"],["price_note","col_pricenote"]];
+const head=([k,l,,,u])=>t(l)+(u?` (${u})`:"");
+let all=[],key="manufacturer",asc=true;
+function rows(){const q=document.getElementById("q").value.toLowerCase(),c=document.getElementById("cat").value;
+return all.filter(r=>(c==="All"||r.category===c)&&(!q||JSON.stringify(r).toLowerCase().includes(q))).sort((a,b)=>{let x=a[key],y=b[key];if(x==null&&y==null)return 0;if(x==null)return 1;if(y==null)return -1;if(typeof x==="string")return asc?x.localeCompare(y):y.localeCompare(x);return asc?(x>y)-(x<y):(y>x)-(y<x)});}
+function cell(r,[k,,ty,tr]){const v=r[k];if(k==="name")return `<td><a href="robot.html?id=${encodeURIComponent(r.id)}">${esc(v)}</a></td>`;if(ty==="b")return `<td>${yn(v)}</td>`;if(Array.isArray(v))return `<td>${esc(v.join(", "))||"—"}</td>`;return `<td class="${ty?"num":""}">${fmt(tr?tv(v):v)}</td>`}
+function render(){const R=rows();document.getElementById("n").textContent=`${R.length} ${t("robots")}`;
+document.getElementById("t").innerHTML=`<thead><tr>${COLS.map(c=>`<th data-k="${c[0]}" class="${c[0]===key?"sorted"+(asc?" asc":""):""}">${head(c)}</th>`).join("")}</tr></thead><tbody>${R.map(r=>`<tr>${COLS.map(c=>cell(r,c)).join("")}</tr>`).join("")}</tbody>`;}
+document.getElementById("t").onclick=e=>{const k=e.target.dataset.k;if(!k)return;if(k===key)asc=!asc;else{key=k;asc=true}render()};
+document.getElementById("csv").onclick=()=>{const R=rows();const q=v=>{v=Array.isArray(v)?v.join("; "):v??"";v=String(v);return /[",\n]/.test(v)?`"${v.replace(/"/g,'""')}"`:v};
+const out="\ufeff"+[COLS.map(head).concat(["Official URL"]).map(q).join(","),...R.map(r=>COLS.map(([k])=>q(r[k])).concat([q(r.official_url)]).join(","))].join("\n");
+const a=document.createElement("a");a.href=URL.createObjectURL(new Blob([out],{type:"text/csv"}));a.download="robot-catalog.csv";a.click();};
+(async()=>{const d=await loadData();all=d.robots;document.getElementById("foot").innerHTML=footer(d.meta);
+const sel=document.getElementById("cat");sel.add(new Option(t("all_cats"),"All"));CATS.filter(c=>all.some(r=>r.category===c)).forEach(c=>sel.add(new Option(tv(c),c)));sel.onchange=render;document.getElementById("q").oninput=render;render();})();
+</script></body></html>

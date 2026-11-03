@@ -1,0 +1,24 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><link rel="stylesheet" href="assets/style.css"><script src="assets/i18n.js"></script><script src="assets/app.js"></script><title>Robot Catalog</title></head>
+<body><script>nav("")</script><main id="m"><p class="muted">…</p></main><div id="foot"></div>
+<script>
+(async()=>{const d=await loadData();const id=new URLSearchParams(location.search).get("id");
+const r=d.robots.find(x=>x.id===id);const m=document.getElementById("m");document.getElementById("foot").innerHTML=footer(d.meta);
+if(!r){m.innerHTML=`<h1>${t("not_found")}</h1><p><a href="index.html">${t("back")}</a></p>`;return;}
+document.title=`${r.manufacturer} ${r.name} — ${t("brand")}`;
+const row=(k,v)=>`<tr><td>${t(k)}</td><td>${v}</td></tr>`;
+const dims=[r.length_mm,r.width_mm,r.height_mm].some(v=>v!=null)?[r.length_mm,r.width_mm,r.height_mm].map(v=>v??"?").join(" × ")+" mm":"—";
+const peers=d.robots.filter(x=>x.category===r.category&&x.id!==r.id);
+const price=r.price_usd==null?(r.price_note?esc(r.price_note):"—"):`$${r.price_usd.toLocaleString()}${r.price_note?` <span class="muted small">(${esc(r.price_note)})</span>`:""}`;
+m.innerHTML=`<p class="small"><a href="index.html">${t("back")}</a></p>
+<div class="muted" style="text-transform:uppercase;font-size:12px;letter-spacing:.5px">${esc(r.manufacturer)} · ${esc(tv(r.country))}</div>
+<h1>${esc(r.name)}</h1>
+<p><span class="tag" style="background:${CAT_COLORS[r.category]}22;color:${CAT_COLORS[r.category]}">${esc(tv(r.category))}</span><span class="tag plain">${esc(tv(r.locomotion))}</span><span class="tag plain">${esc(tv(r.status))}</span></p>
+<p>${esc(LANG==="ko"&&r.summary_ko?r.summary_ko:r.summary)}${LANG==="ko"&&!r.summary_ko&&r.summary?` <span class="muted small">(${t("summary_lang_note")})</span>`:""}</p>
+<div class="spec">
+<div class="panel"><h2>${t("body_motion")}</h2><table>${row("dims",dims)}${row("weight",fmt(r.weight_kg,"kg"))}${row("payload",fmt(r.payload_kg,"kg"))}${row("max_speed",r.max_speed_mps==null?"—":`${fmt(r.max_speed_mps,"m/s")} (${fmt(kmh(r.max_speed_mps),"km/h")})`)}${row("min_speed",fmt(r.min_speed_mps,"m/s"))}${row("wheel_d",fmt(r.wheel_diameter_mm,"mm"))}${row("wheels",fmt(r.wheel_count))}${row("dof",fmt(r.dof))}</table></div>
+<div class="panel"><h2>${t("power_env")}</h2><table>${row("runtime",fmt(r.runtime_h,"h"))}${row("battery",fmt(r.battery_wh,"Wh"))}${row("ip",fmt(r.ip_rating))}${row("released",fmt(r.release_year))}${row("price",price)}</table></div>
+<div class="panel"><h2>${t("soft_compute")}</h2><table>${row("api",yn(r.api_support))}${row("sdk",yn(r.sdk_available)+(r.sdk_name?` <span class="small">${esc(r.sdk_name)}</span>`:""))}${row("ros",yn(r.ros_support))}${row("onboard",yn(r.onboard_compute))}${row("compute",fmt(r.compute_detail))}${row("sensors",(r.sensors||[]).map(esc).join(", ")||"—")}</table></div>
+</div>
+<div class="panel"><h2>${t("sources")}</h2>${r.official_url?`<p><a href="${esc(r.official_url)}" target="_blank" rel="noopener">${t("official")}</a></p>`:""}<ul class="small">${(r.sources||[]).map(s=>`<li><a href="${esc(s)}" target="_blank" rel="noopener">${esc(s)}</a></li>`).join("")}</ul></div>
+${peers.length?`<div class="panel"><h2>${t("other_in")}: ${esc(tv(r.category))}</h2><p>${peers.map(p=>`<a href="robot.html?id=${encodeURIComponent(p.id)}">${esc(p.manufacturer)} ${esc(p.name)}</a>`).join(" · ")}</p></div>`:""}`;})();
+</script></body></html>

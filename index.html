@@ -1,0 +1,26 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><link rel="stylesheet" href="assets/style.css"><script src="assets/i18n.js"></script><script src="assets/app.js"></script><title>Robot Catalog</title></head>
+<body><script>nav("index.html")</script>
+<main>
+<h1 data-i18n="home_title"></h1>
+<p class="muted" data-i18n="home_sub"></p>
+<div class="stats" id="stats"></div>
+<div class="controls"><input type="search" id="q" data-i18n-ph="search"><div id="chips"></div></div>
+<div class="grid" id="grid"></div>
+</main><div id="foot"></div>
+<script>
+document.title=t("brand");
+let robots=[],cat="All";
+function render(){const q=document.getElementById("q").value.toLowerCase();
+const list=robots.filter(r=>(cat==="All"||r.category===cat)&&(!q||(r.name+" "+r.manufacturer).toLowerCase().includes(q))).sort((a,b)=>a.manufacturer.localeCompare(b.manufacturer)||a.name.localeCompare(b.name));
+document.getElementById("grid").innerHTML=list.map(r=>`<a class="card" href="robot.html?id=${encodeURIComponent(r.id)}">
+<div class="mk">${esc(r.manufacturer)}</div><div class="nm">${esc(r.name)}</div>
+<div><span class="tag" style="background:${CAT_COLORS[r.category]}22;color:${CAT_COLORS[r.category]}">${esc(tv(r.category))}</span><span class="tag plain">${esc(tv(r.locomotion))}</span></div>
+<div class="kv"><span>${t("max_speed")}</span><span>${fmt(r.max_speed_mps,"m/s")}</span><span>${t("payload")}</span><span>${fmt(r.payload_kg,"kg")}</span><span>${t("ip")}</span><span>${fmt(r.ip_rating)}</span></div>
+<div class="small">${FEATURES.map(([k,l])=>`${t(l)} ${yn(r[k])}`).join(" ")}</div></a>`).join("")||`<p class="muted">${t("no_match")}</p>`;}
+(async()=>{const d=await loadData();robots=d.robots;
+const makers=new Set(robots.map(r=>r.manufacturer)).size;
+document.getElementById("stats").innerHTML=`<div class="stat"><b>${robots.length}</b>${t("robots")}</div><div class="stat"><b>${makers}</b>${t("manufacturers")}</div><div class="stat"><b>${new Set(robots.map(r=>r.category)).size}</b>${t("categories")}</div>`;
+document.getElementById("chips").innerHTML=["All",...CATS.filter(c=>robots.some(r=>r.category===c))].map(c=>`<button class="chip ${c===cat?"on":""}" data-c="${c}">${c==="All"?t("all"):esc(tv(c))}</button>`).join(" ");
+document.getElementById("chips").onclick=e=>{if(e.target.dataset.c){cat=e.target.dataset.c;document.querySelectorAll(".chip").forEach(b=>b.classList.toggle("on",b.dataset.c===cat));render();}};
+document.getElementById("q").oninput=render;document.getElementById("foot").innerHTML=footer(d.meta);render();})();
+</script></body></html>

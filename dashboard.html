@@ -1,0 +1,57 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><link rel="stylesheet" href="assets/style.css"><script src="assets/i18n.js"></script><script src="assets/app.js"></script><title>Dashboard — Robot Catalog</title>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.4/dist/chart.umd.min.js"></script></head>
+<body><script>nav("dashboard.html")</script>
+<main>
+<h1 data-i18n="dash_title"></h1><p class="muted" data-i18n="dash_sub"></p>
+<div class="controls"><select id="cat"></select></div>
+<div class="cols">
+<div class="panel"><h2 data-i18n="wheel_dist"></h2><p class="small muted" id="wheelN"></p><div class="chartbox"><canvas id="wheel"></canvas></div></div>
+<div class="panel"><h2><span data-i18n="ip_ratings"></span> <button class="btn" id="ipToggle" style="float:right"></button></h2><p class="small muted" id="ipN"></p><div class="chartbox"><canvas id="ip"></canvas></div></div>
+</div>
+<div class="panel"><h2 data-i18n="speed_range"></h2><p class="small muted" id="spdN"></p><div class="chartbox tall"><canvas id="speed"></canvas></div></div>
+<div class="cols">
+<div class="panel"><h2 data-i18n="speed_cat"></h2><div class="chartbox"><canvas id="spdCat"></canvas></div></div>
+<div class="panel"><h2 data-i18n="features"></h2><p class="small muted" data-i18n="ns_note"></p><div class="chartbox"><canvas id="feat"></canvas></div></div>
+</div>
+<div class="panel"><h2 data-i18n="feature_matrix"></h2><div class="tablewrap" style="max-height:60vh"><table class="mega" id="fm"></table></div></div>
+</main><div id="foot"></div>
+<script>
+document.title=t("dash_title")+" — "+t("brand");
+Chart.defaults.font.family='-apple-system,BlinkMacSystemFont,"Segoe UI",Inter,Roboto,sans-serif';
+let all=[],charts={},ipPie=false;
+const label=r=>`${r.manufacturer} ${r.name}`;
+function kill(){Object.values(charts).forEach(c=>c.destroy());charts={};}
+function draw(){kill();Chart.defaults.color=css("--chartink");Chart.defaults.borderColor=css("--grid");
+const c=document.getElementById("cat").value;const R=all.filter(r=>c==="All"||r.category===c);
+document.getElementById("ipToggle").textContent=ipPie?t("show_bars"):t("show_pie");
+// wheel histogram
+const W=R.filter(r=>r.wheel_diameter_mm!=null);const bins=[[0,100],[100,150],[150,200],[200,250],[250,300],[300,400],[400,600],[600,10000]];
+const bl=bins.map(([a,b])=>b>=10000?`${a}+ mm`:`${a}–${b} mm`);const cats=[...new Set(W.map(r=>r.category))];
+document.getElementById("wheelN").textContent=t("n_wheel",{a:W.length,b:R.length});
+charts.w=new Chart(wheel,{type:"bar",data:{labels:bl,datasets:cats.map(ct=>({label:tv(ct),cat:ct,backgroundColor:CAT_COLORS[ct],data:bins.map(([a,b])=>W.filter(r=>r.category===ct&&r.wheel_diameter_mm>=a&&r.wheel_diameter_mm<b).length)}))},
+options:{maintainAspectRatio:false,scales:{x:{stacked:true},y:{stacked:true,ticks:{precision:0},title:{display:true,text:t("robots")}}},plugins:{tooltip:{callbacks:{afterBody:(it)=>{const [a,b]=bins[it[0].dataIndex];return W.filter(r=>r.category===it[0].dataset.cat&&r.wheel_diameter_mm>=a&&r.wheel_diameter_mm<b).map(r=>`${label(r)}: ${r.wheel_diameter_mm} mm`)}}}}}});
+// IP
+const NS="__ns";const ipc={};R.forEach(r=>{const k=r.ip_rating||NS;ipc[k]=(ipc[k]||0)+1});const ipk=Object.keys(ipc).sort((a,b)=>a===NS?1:b===NS?-1:a.localeCompare(b));
+document.getElementById("ipN").textContent=t("n_ip",{a:R.filter(r=>r.ip_rating).length,b:R.length});
+const pal=["#2f5bea","#16b364","#e04f16","#7a5af8","#0ba5ec","#eaaa08","#ee46bc","#12b76a","#f04438","#8a94a6","#9e77ed","#f79009"];
+charts.ip=new Chart(ip,{type:ipPie?"pie":"bar",data:{labels:ipk.map(k=>k===NS?t("not_stated"):k),datasets:[{label:t("robots"),data:ipk.map(k=>ipc[k]),borderColor:css("--card"),backgroundColor:ipk.map((k,i)=>k===NS?css("--unkbg"):pal[i%pal.length])}]},
+options:{maintainAspectRatio:false,plugins:{legend:{display:ipPie,position:"right"},tooltip:{callbacks:{afterLabel:(it)=>R.filter(r=>(r.ip_rating||NS)===ipk[it.dataIndex]).map(label)}}},scales:ipPie?{}:{y:{ticks:{precision:0}}}}});
+// speed range
+const S=R.filter(r=>r.max_speed_mps!=null).sort((a,b)=>b.max_speed_mps-a.max_speed_mps);
+document.getElementById("spdN").textContent=t("n_speed",{a:S.length,b:R.length});
+speed.parentElement.style.height=Math.max(200,S.length*20+60)+"px";
+charts.s=new Chart(speed,{type:"bar",data:{labels:S.map(label),datasets:[{data:S.map(r=>[r.min_speed_mps??0,r.max_speed_mps]),backgroundColor:S.map(r=>CAT_COLORS[r.category]),borderSkipped:false,borderRadius:4}]},
+options:{indexAxis:"y",maintainAspectRatio:false,plugins:{legend:{display:false},tooltip:{callbacks:{label:(it)=>{const r=S[it.dataIndex];return `${r.min_speed_mps!=null?`min ${r.min_speed_mps} · `:""}max ${r.max_speed_mps} m/s (${(r.max_speed_mps*3.6).toFixed(1)} km/h) · ${tv(r.category)}`}}}},scales:{x:{title:{display:true,text:"m/s"}},y:{ticks:{autoSkip:false,font:{size:11}}}}}});
+// speed by category
+const sc=CATS.filter(ct=>S.some(r=>r.category===ct));
+charts.sc=new Chart(spdCat,{type:"bar",data:{labels:sc.map(tv),datasets:[{data:sc.map(ct=>{const v=S.filter(r=>r.category===ct).map(r=>r.max_speed_mps);return [Math.min(...v),Math.max(...v)]}),backgroundColor:sc.map(ct=>CAT_COLORS[ct]),borderSkipped:false,borderRadius:4,minBarLength:4}]},
+options:{maintainAspectRatio:false,plugins:{legend:{display:false},tooltip:{callbacks:{label:(it)=>{const ct=sc[it.dataIndex];const v=S.filter(r=>r.category===ct);const lo=v.reduce((a,b)=>a.max_speed_mps<b.max_speed_mps?a:b),hi=v.reduce((a,b)=>a.max_speed_mps>b.max_speed_mps?a:b);return [`${t("slowest")}: ${label(lo)} ${lo.max_speed_mps} m/s`,`${t("fastest")}: ${label(hi)} ${hi.max_speed_mps} m/s`,`${v.length} ${t("robots")}`]}}}},scales:{y:{title:{display:true,text:"m/s"}}}}});
+// features
+charts.f=new Chart(feat,{type:"bar",data:{labels:FEATURES.map(f=>t(f[1])),datasets:[[t("yes"),true,"#16b364"],[t("no"),false,"#f04438"],[t("ns"),null,css("--unk")]].map(([l,v,col])=>({label:l,backgroundColor:col,data:FEATURES.map(([k])=>R.filter(r=>(r[k]??null)===v).length)}))},
+options:{indexAxis:"y",maintainAspectRatio:false,scales:{x:{stacked:true,ticks:{precision:0}},y:{stacked:true}}}});
+// matrix
+document.getElementById("fm").innerHTML=`<thead><tr><th>${t("robot")}</th><th>${t("category")}</th>${FEATURES.map(f=>`<th>${t(f[1])}</th>`).join("")}<th>${t("compute")}</th></tr></thead><tbody>${R.map(r=>`<tr><td><a href="robot.html?id=${encodeURIComponent(r.id)}">${esc(label(r))}</a></td><td>${esc(tv(r.category))}</td>${FEATURES.map(([k])=>`<td>${yn(r[k])}</td>`).join("")}<td>${fmt(r.compute_detail)}</td></tr>`).join("")}</tbody>`;}
+(async()=>{const d=await loadData();all=d.robots;document.getElementById("foot").innerHTML=footer(d.meta);
+const sel=document.getElementById("cat");sel.add(new Option(t("all_cats"),"All"));CATS.filter(c=>all.some(r=>r.category===c)).forEach(c=>sel.add(new Option(tv(c),c)));sel.onchange=draw;
+document.getElementById("ipToggle").onclick=()=>{ipPie=!ipPie;draw()};document.addEventListener("themechange",draw);draw();})();
+</script></body></html>
