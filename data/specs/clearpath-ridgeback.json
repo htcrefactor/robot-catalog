@@ -1,0 +1,504 @@
+{
+ "id": "clearpath-ridgeback",
+ "checked": "2026-11-04",
+ "documents": [
+  {
+   "title": "Ridgeback Data Sheet (May 2025)",
+   "url": "https://storage.pardot.com/92812/1748526548LF9RMqfY/RIDGEBACK_DATA_SHEET_May2025.pdf"
+  },
+  {
+   "title": "Ridgeback User Manual (Clearpath docs, updated May 2025)",
+   "url": "https://docs.clearpathrobotics.com/docs_robots/indoor_robots/ridgeback/user_manual_ridgeback"
+  },
+  {
+   "title": "Ridgeback product page",
+   "url": "https://clearpathrobotics.com/ridgeback-indoor-robot-platform/"
+  }
+ ],
+ "specs": [
+  {
+   "group": "Identity",
+   "key": "manufacturer_address",
+   "label": "Manufacturer address",
+   "value": "Clearpath Robotics, by Rockwell Automation, 1425 Strasburg Rd. Suite 2A, Kitchener, ON N2R 1H2, Canada",
+   "unit": "",
+   "note": "",
+   "source": "https://clearpathrobotics.com/ridgeback-indoor-robot-platform/"
+  },
+  {
+   "group": "Dimensions & Mass",
+   "key": "length",
+   "label": "Length",
+   "value": 960,
+   "unit": "mm",
+   "note": "",
+   "source": "https://storage.pardot.com/92812/1748526548LF9RMqfY/RIDGEBACK_DATA_SHEET_May2025.pdf"
+  },
+  {
+   "group": "Dimensions & Mass",
+   "key": "width",
+   "label": "Width",
+   "value": 793,
+   "unit": "mm",
+   "note": "",
+   "source": "https://storage.pardot.com/92812/1748526548LF9RMqfY/RIDGEBACK_DATA_SHEET_May2025.pdf"
+  },
+  {
+   "group": "Dimensions & Mass",
+   "key": "height",
+   "label": "Height",
+   "value": 311,
+   "unit": "mm",
+   "note": "from serial R100-0111; older units 296 mm",
+   "source": "https://docs.clearpathrobotics.com/docs_robots/indoor_robots/ridgeback/user_manual_ridgeback",
+   "ref": "System Specifications"
+  },
+  {
+   "group": "Dimensions & Mass",
+   "key": "weight",
+   "label": "Weight",
+   "value": 135,
+   "unit": "kg",
+   "note": "",
+   "source": "https://storage.pardot.com/92812/1748526548LF9RMqfY/RIDGEBACK_DATA_SHEET_May2025.pdf"
+  },
+  {
+   "group": "Dimensions & Mass",
+   "key": "ground_clearance",
+   "label": "Ground / obstacle clearance",
+   "value": 18,
+   "unit": "mm",
+   "note": "",
+   "source": "https://storage.pardot.com/92812/1748526548LF9RMqfY/RIDGEBACK_DATA_SHEET_May2025.pdf"
+  },
+  {
+   "group": "Mobility & Performance",
+   "key": "max_speed",
+   "label": "Max speed",
+   "value": 1.1,
+   "unit": "m/s",
+   "note": "",
+   "source": "https://storage.pardot.com/92812/1748526548LF9RMqfY/RIDGEBACK_DATA_SHEET_May2025.pdf"
+  },
+  {
+   "group": "Mobility & Performance",
+   "key": "min_speed",
+   "label": "Minimum controllable speed",
+   "value": 0.1,
+   "unit": "m/s",
+   "note": "control loops accurately maintain velocities as low as 0.1 m/s",
+   "source": "https://docs.clearpathrobotics.com/docs_robots/indoor_robots/ridgeback/user_manual_ridgeback",
+   "ref": "General Warnings"
+  },
+  {
+   "group": "Mobility & Performance",
+   "key": "max_payload",
+   "label": "Max payload",
+   "value": 100,
+   "unit": "kg",
+   "note": "",
+   "source": "https://storage.pardot.com/92812/1748526548LF9RMqfY/RIDGEBACK_DATA_SHEET_May2025.pdf"
+  },
+  {
+   "group": "Mobility & Performance",
+   "key": "drive_train",
+   "label": "Drive configuration",
+   "value": "4 independently driven omnidirectional (mecanum) wheels",
+   "unit": "",
+   "note": "",
+   "source": "https://storage.pardot.com/92812/1748526548LF9RMqfY/RIDGEBACK_DATA_SHEET_May2025.pdf"
+  },
+  {
+   "group": "Mobility & Performance",
+   "key": "encoder_resolution",
+   "label": "Encoder resolution",
+   "value": 35840,
+   "unit": "pulses/rev",
+   "note": "high resolution encoders",
+   "source": "https://clearpathrobotics.com/ridgeback-indoor-robot-platform/",
+   "ref": "Features"
+  },
+  {
+   "group": "Mobility & Performance",
+   "key": "rotation_accuracy",
+   "label": "Position control",
+   "value": "exact position control within 3 degrees of maneuverability",
+   "unit": "",
+   "note": "",
+   "source": "https://clearpathrobotics.com/ridgeback-indoor-robot-platform/",
+   "ref": "Features"
+  },
+  {
+   "group": "Mobility & Performance",
+   "key": "drive_power",
+   "label": "Power",
+   "value": 800,
+   "unit": "W",
+   "note": "typical use",
+   "source": "https://storage.pardot.com/92812/1748526548LF9RMqfY/RIDGEBACK_DATA_SHEET_May2025.pdf"
+  },
+  {
+   "group": "Terrain & Navigation Limits",
+   "key": "min_corridor_width",
+   "label": "Door fit",
+   "value": "fits through a standard 32 in (80 cm) door",
+   "unit": "",
+   "note": "",
+   "source": "https://clearpathrobotics.com/ridgeback-indoor-robot-platform/",
+   "ref": "Features"
+  },
+  {
+   "group": "Terrain & Navigation Limits",
+   "key": "suspension",
+   "label": "Suspension",
+   "value": "Passive suspension for floor transitions (e.g. concrete to carpet)",
+   "unit": "",
+   "note": "",
+   "source": "https://clearpathrobotics.com/ridgeback-indoor-robot-platform/",
+   "ref": "Features"
+  },
+  {
+   "group": "Terrain & Navigation Limits",
+   "key": "surface_types",
+   "label": "Operating environment",
+   "value": "Indoor",
+   "unit": "",
+   "note": "",
+   "source": "https://storage.pardot.com/92812/1748526548LF9RMqfY/RIDGEBACK_DATA_SHEET_May2025.pdf"
+  },
+  {
+   "group": "Power & Battery",
+   "key": "battery_chemistry",
+   "label": "Battery chemistry",
+   "value": "Marine-grade AGM sealed lead acid",
+   "unit": "",
+   "note": "two 8A31DTM Group-31 deep-cycle AGM batteries",
+   "source": "https://docs.clearpathrobotics.com/docs_robots/indoor_robots/ridgeback/user_manual_ridgeback",
+   "ref": "Battery Charging"
+  },
+  {
+   "group": "Power & Battery",
+   "key": "battery_voltage",
+   "label": "Battery voltage",
+   "value": 24,
+   "unit": "V",
+   "note": "nominal",
+   "source": "https://storage.pardot.com/92812/1748526548LF9RMqfY/RIDGEBACK_DATA_SHEET_May2025.pdf"
+  },
+  {
+   "group": "Power & Battery",
+   "key": "battery_capacity_ah",
+   "label": "Battery capacity",
+   "value": 100,
+   "unit": "Ah",
+   "note": "",
+   "source": "https://storage.pardot.com/92812/1748526548LF9RMqfY/RIDGEBACK_DATA_SHEET_May2025.pdf"
+  },
+  {
+   "group": "Power & Battery",
+   "key": "runtime",
+   "label": "Operating time",
+   "value": 15,
+   "unit": "h",
+   "note": "with max payload",
+   "source": "https://storage.pardot.com/92812/1748526548LF9RMqfY/RIDGEBACK_DATA_SHEET_May2025.pdf"
+  },
+  {
+   "group": "Power & Battery",
+   "key": "max_power_output",
+   "label": "Battery peak power",
+   "value": "over 2000",
+   "unit": "W",
+   "note": "short durations",
+   "source": "https://docs.clearpathrobotics.com/docs_robots/indoor_robots/ridgeback/user_manual_ridgeback",
+   "ref": "Electrical System"
+  },
+  {
+   "group": "Power & Battery",
+   "key": "max_depth_of_discharge",
+   "label": "Max depth of discharge",
+   "value": 80,
+   "unit": "%",
+   "note": "do not allow batteries to reach 80% DoD",
+   "source": "https://docs.clearpathrobotics.com/docs_robots/indoor_robots/ridgeback/user_manual_ridgeback",
+   "ref": "Battery Charging"
+  },
+  {
+   "group": "Charging & Docking",
+   "key": "charge_time",
+   "label": "Charge time",
+   "value": 8,
+   "unit": "h",
+   "note": "approx.",
+   "source": "https://storage.pardot.com/92812/1748526548LF9RMqfY/RIDGEBACK_DATA_SHEET_May2025.pdf"
+  },
+  {
+   "group": "Charging & Docking",
+   "key": "charging_method",
+   "label": "Charger",
+   "value": "Integrated onboard charger; mains cord in User Bay",
+   "unit": "",
+   "note": "times out after 12 h",
+   "source": "https://docs.clearpathrobotics.com/docs_robots/indoor_robots/ridgeback/user_manual_ridgeback",
+   "ref": "Battery Charging"
+  },
+  {
+   "group": "Charging & Docking",
+   "key": "charger_input",
+   "label": "Charger input",
+   "value": "85-270 VAC 50/60 Hz",
+   "unit": "",
+   "note": "",
+   "source": "https://docs.clearpathrobotics.com/docs_robots/indoor_robots/ridgeback/user_manual_ridgeback",
+   "ref": "Battery Charging"
+  },
+  {
+   "group": "Charging & Docking",
+   "key": "charging_temperature",
+   "label": "Min battery temperature to charge",
+   "value": 10,
+   "unit": "°C",
+   "note": "",
+   "source": "https://docs.clearpathrobotics.com/docs_robots/indoor_robots/ridgeback/user_manual_ridgeback",
+   "ref": "Battery Charging"
+  },
+  {
+   "group": "Charging & Docking",
+   "key": "shore_power",
+   "label": "Shore power",
+   "value": true,
+   "unit": "",
+   "note": "",
+   "source": "https://storage.pardot.com/92812/1748526548LF9RMqfY/RIDGEBACK_DATA_SHEET_May2025.pdf"
+  },
+  {
+   "group": "Environment & Protection",
+   "key": "storage_temperature",
+   "label": "Storage / operating temperature limits",
+   "value": "-20 to 50",
+   "unit": "°C",
+   "note": "batteries and robot",
+   "source": "https://docs.clearpathrobotics.com/docs_robots/indoor_robots/ridgeback/user_manual_ridgeback",
+   "ref": "Battery Charging"
+  },
+  {
+   "group": "Sensors & Perception",
+   "key": "lidar_type",
+   "label": "LiDAR",
+   "value": "Forward-facing 2D LiDAR included; optional rear LiDAR for 360° FOV",
+   "unit": "",
+   "note": "",
+   "source": "https://docs.clearpathrobotics.com/docs_robots/indoor_robots/ridgeback/user_manual_ridgeback",
+   "ref": "Shipment Contents"
+  },
+  {
+   "group": "Sensors & Perception",
+   "key": "imu",
+   "label": "IMU",
+   "value": "Onboard IMU (gyroscope)",
+   "unit": "",
+   "note": "",
+   "source": "https://storage.pardot.com/92812/1748526548LF9RMqfY/RIDGEBACK_DATA_SHEET_May2025.pdf"
+  },
+  {
+   "group": "Sensors & Perception",
+   "key": "wheel_encoders",
+   "label": "Feedback",
+   "value": "Encoders, onboard IMU, battery status, motor currents, wheel odometry",
+   "unit": "",
+   "note": "",
+   "source": "https://docs.clearpathrobotics.com/docs_robots/indoor_robots/ridgeback/user_manual_ridgeback",
+   "ref": "System Specifications"
+  },
+  {
+   "group": "Compute & Software",
+   "key": "computer_form_factor",
+   "label": "Computer",
+   "value": "Onboard computer (Intel-based or Jetson developer kit) running Ubuntu",
+   "unit": "",
+   "note": "",
+   "source": "https://docs.clearpathrobotics.com/docs_robots/indoor_robots/ridgeback/user_manual_ridgeback",
+   "ref": "System Architecture"
+  },
+  {
+   "group": "Compute & Software",
+   "key": "mcu",
+   "label": "Microcontroller",
+   "value": "32-bit MCU, Gigabit Ethernet to computer (MCU at 192.168.131.2)",
+   "unit": "",
+   "note": "",
+   "source": "https://docs.clearpathrobotics.com/docs_robots/indoor_robots/ridgeback/user_manual_ridgeback"
+  },
+  {
+   "group": "Compute & Software",
+   "key": "operating_system",
+   "label": "Operating system",
+   "value": "Ubuntu",
+   "unit": "",
+   "note": "",
+   "source": "https://docs.clearpathrobotics.com/docs_robots/indoor_robots/ridgeback/user_manual_ridgeback"
+  },
+  {
+   "group": "Compute & Software",
+   "key": "ros_version",
+   "label": "ROS version",
+   "value": "ROS 2 Jazzy",
+   "unit": "",
+   "note": "",
+   "source": "https://storage.pardot.com/92812/1748526548LF9RMqfY/RIDGEBACK_DATA_SHEET_May2025.pdf"
+  },
+  {
+   "group": "Compute & Software",
+   "key": "motion_planning",
+   "label": "Motion planning",
+   "value": "MoveIt motion planner; MoveIt Pro",
+   "unit": "",
+   "note": "",
+   "source": "https://clearpathrobotics.com/ridgeback-indoor-robot-platform/",
+   "ref": "Tech Specs"
+  },
+  {
+   "group": "Connectivity & Interfaces",
+   "key": "communication",
+   "label": "Communication",
+   "value": "Ethernet, USB 3.0, RS232",
+   "unit": "",
+   "note": "",
+   "source": "https://storage.pardot.com/92812/1748526548LF9RMqfY/RIDGEBACK_DATA_SHEET_May2025.pdf"
+  },
+  {
+   "group": "Connectivity & Interfaces",
+   "key": "usb_ports",
+   "label": "USB",
+   "value": "USB3 ports in User Bay (to onboard computer)",
+   "unit": "",
+   "note": "",
+   "source": "https://docs.clearpathrobotics.com/docs_robots/indoor_robots/ridgeback/user_manual_ridgeback",
+   "ref": "User Bay"
+  },
+  {
+   "group": "Connectivity & Interfaces",
+   "key": "ethernet",
+   "label": "Ethernet",
+   "value": "Ethernet ports in User Bay to onboard switch; subnet 192.168.131.x/24",
+   "unit": "",
+   "note": "",
+   "source": "https://docs.clearpathrobotics.com/docs_robots/indoor_robots/ridgeback/user_manual_ridgeback",
+   "ref": "User Bay"
+  },
+  {
+   "group": "Payload & Mounting",
+   "key": "payload_port_power",
+   "label": "User power",
+   "value": "5 V @ 5 A; 12 V @ 7 A; 25.6 V @ 16 A",
+   "unit": "",
+   "note": "datasheet",
+   "source": "https://storage.pardot.com/92812/1748526548LF9RMqfY/RIDGEBACK_DATA_SHEET_May2025.pdf"
+  },
+  {
+   "group": "Payload & Mounting",
+   "key": "payload_port_power",
+   "label": "User power",
+   "value": "20 A @ VBAT (24 V); 5 A @ 12 V; 5 A @ 5 V",
+   "unit": "",
+   "note": "user manual",
+   "source": "https://docs.clearpathrobotics.com/docs_robots/indoor_robots/ridgeback/user_manual_ridgeback",
+   "ref": "System Specifications"
+  },
+  {
+   "group": "Payload & Mounting",
+   "key": "top_module_interface",
+   "label": "Payload interface",
+   "value": "Payload Integration Plate (e.g. UR5/UR10 arms); User Bay with user power panel",
+   "unit": "",
+   "note": "",
+   "source": "https://docs.clearpathrobotics.com/docs_robots/indoor_robots/ridgeback/user_manual_ridgeback"
+  },
+  {
+   "group": "Safety & Compliance",
+   "key": "emergency_stop",
+   "label": "Emergency stop",
+   "value": "4 red mushroom stop buttons (2 front, 2 rear) + stop reset; external motion-stop breakout on MCU",
+   "unit": "",
+   "note": "",
+   "source": "https://docs.clearpathrobotics.com/docs_robots/indoor_robots/ridgeback/user_manual_ridgeback",
+   "ref": "Stop Buttons"
+  },
+  {
+   "group": "Safety & Compliance",
+   "key": "max_push_speed",
+   "label": "Max manual push speed",
+   "value": 0.5,
+   "unit": "m/s",
+   "note": "",
+   "source": "https://docs.clearpathrobotics.com/docs_robots/indoor_robots/ridgeback/user_manual_ridgeback",
+   "ref": "Lifting and Transport"
+  },
+  {
+   "group": "Controls & Operation",
+   "key": "control_modes",
+   "label": "Control modes",
+   "value": "Kinematic (forward, sideways, rotation); individual wheel velocities",
+   "unit": "",
+   "note": "",
+   "source": "https://storage.pardot.com/92812/1748526548LF9RMqfY/RIDGEBACK_DATA_SHEET_May2025.pdf"
+  },
+  {
+   "group": "Controls & Operation",
+   "key": "controller",
+   "label": "Controller",
+   "value": "Sony PS4 Bluetooth controller",
+   "unit": "",
+   "note": "",
+   "source": "https://docs.clearpathrobotics.com/docs_robots/indoor_robots/ridgeback/user_manual_ridgeback"
+  },
+  {
+   "group": "Audio, Lights & HMI",
+   "key": "status_lights",
+   "label": "Body lights",
+   "value": "8 RGB lights (pair per corner), ROS-commandable",
+   "unit": "",
+   "note": "",
+   "source": "https://docs.clearpathrobotics.com/docs_robots/indoor_robots/ridgeback/user_manual_ridgeback",
+   "ref": "Body Lights"
+  },
+  {
+   "group": "Transport & Storage",
+   "key": "shipping_method",
+   "label": "Shipping",
+   "value": "Crate with fold-out ramp and ratchet straps",
+   "unit": "",
+   "note": "",
+   "source": "https://docs.clearpathrobotics.com/docs_robots/indoor_robots/ridgeback/user_manual_ridgeback",
+   "ref": "Getting Started"
+  },
+  {
+   "group": "Commercial",
+   "key": "included_accessories",
+   "label": "Included",
+   "value": "Onboard computer, front LiDAR, gyroscope/IMU, batteries, integrated charger, PS4 controller, quick start guide",
+   "unit": "",
+   "note": "",
+   "source": "https://docs.clearpathrobotics.com/docs_robots/indoor_robots/ridgeback/user_manual_ridgeback",
+   "ref": "Shipment Contents"
+  },
+  {
+   "group": "Commercial",
+   "key": "optional_accessories",
+   "label": "Compatible accessories",
+   "value": "Franka Panda, UR10, SICK LMS-111 lidar, rear lidar",
+   "unit": "",
+   "note": "",
+   "source": "https://clearpathrobotics.com/ridgeback-indoor-robot-platform/"
+  },
+  {
+   "group": "Commercial",
+   "key": "price",
+   "label": "Price",
+   "value": "Contact sales for pricing",
+   "unit": "",
+   "note": "",
+   "source": "https://storage.pardot.com/92812/1748526548LF9RMqfY/RIDGEBACK_DATA_SHEET_May2025.pdf"
+  }
+ ]
+}

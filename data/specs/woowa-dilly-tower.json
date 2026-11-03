@@ -1,0 +1,151 @@
+{
+ "id": "woowa-dilly-tower",
+ "checked": "2026-11-04",
+ "documents": [
+  {
+   "title": "ZDNet Korea – 배달의민족 배달로봇 '딜리타워' 커피 배달한다 (2020-05-18)",
+   "url": "https://zdnet.co.kr/view/?no=20200518084101"
+  },
+  {
+   "title": "Herald Business – 국내 최초 '실내 로봇배달' 딜리타워 (2021-07-12)",
+   "url": "https://biz.heraldcorp.com/article/2650656"
+  }
+ ],
+ "specs": [
+  {
+   "group": "Mobility & Performance",
+   "key": "max_speed",
+   "label": "Travel speed",
+   "value": 1.2,
+   "unit": "m/s",
+   "note": "automatically slows in narrow passages and uneven floors",
+   "source": "https://zdnet.co.kr/view/?no=20200518084101"
+  },
+  {
+   "group": "Mobility & Performance",
+   "key": "max_payload",
+   "label": "Max load weight",
+   "value": 20,
+   "unit": "kg",
+   "note": "",
+   "source": "https://biz.heraldcorp.com/article/2650656"
+  },
+  {
+   "group": "Payload & Mounting",
+   "key": "storage_compartments",
+   "label": "Compartments",
+   "value": 2,
+   "unit": "",
+   "note": "upper and lower",
+   "source": "https://zdnet.co.kr/view/?no=20200518084101"
+  },
+  {
+   "group": "Payload & Mounting",
+   "key": "cargo_volume",
+   "label": "Cargo volume (upper)",
+   "value": 23,
+   "unit": "L",
+   "note": "",
+   "source": "https://biz.heraldcorp.com/article/2650656"
+  },
+  {
+   "group": "Payload & Mounting",
+   "key": "cargo_volume",
+   "label": "Cargo volume (lower)",
+   "value": 15,
+   "unit": "L",
+   "note": "",
+   "source": "https://biz.heraldcorp.com/article/2650656"
+  },
+  {
+   "group": "Payload & Mounting",
+   "key": "cargo_capacity_description",
+   "label": "Drink capacity",
+   "value": "up to 12 cups per trip",
+   "unit": "",
+   "note": "2020 pilot",
+   "source": "https://zdnet.co.kr/view/?no=20200518084101"
+  },
+  {
+   "group": "Power & Battery",
+   "key": "runtime",
+   "label": "Battery runtime",
+   "value": 6,
+   "unit": "h",
+   "note": "full charge",
+   "source": "https://zdnet.co.kr/view/?no=20200518084101"
+  },
+  {
+   "group": "Charging & Docking",
+   "key": "charging_method",
+   "label": "Charging",
+   "value": "Auto-charges while waiting at store/base",
+   "unit": "",
+   "note": "",
+   "source": "https://zdnet.co.kr/view/?no=20200518084101"
+  },
+  {
+   "group": "Terrain & Navigation Limits",
+   "key": "navigation_method",
+   "label": "Navigation",
+   "value": "Autonomous indoor driving along pre-entered routes",
+   "unit": "",
+   "note": "",
+   "source": "https://biz.heraldcorp.com/article/2650656"
+  },
+  {
+   "group": "Controls & Operation",
+   "key": "elevator_integration",
+   "label": "Elevator integration",
+   "value": "Calls, boards and exits elevators; enters floor numbers via wireless link",
+   "unit": "",
+   "note": "",
+   "source": "https://biz.heraldcorp.com/article/2650656"
+  },
+  {
+   "group": "Controls & Operation",
+   "key": "door_integration",
+   "label": "Door integration",
+   "value": "Opens building common entrance doors / automatic doors via wireless communication",
+   "unit": "",
+   "note": "",
+   "source": "https://biz.heraldcorp.com/article/2650656"
+  },
+  {
+   "group": "Controls & Operation",
+   "key": "order_system_integration",
+   "label": "Order integration",
+   "value": "Linked to cafe order-reception system; order shown on top screen",
+   "unit": "",
+   "note": "",
+   "source": "https://zdnet.co.kr/view/?no=20200518084101"
+  },
+  {
+   "group": "Safety & Compliance",
+   "key": "access_control",
+   "label": "Recipient authentication",
+   "value": "Recipient enters phone number (last 4 digits) on screen to open compartment",
+   "unit": "",
+   "note": "",
+   "source": "https://zdnet.co.kr/view/?no=20200518084101"
+  },
+  {
+   "group": "Controls & Operation",
+   "key": "notifications",
+   "label": "Arrival notification",
+   "value": "Calls the recipient and sends text/KakaoTalk notification on arrival",
+   "unit": "",
+   "note": "",
+   "source": "https://biz.heraldcorp.com/article/2650656"
+  },
+  {
+   "group": "Audio, Lights & HMI",
+   "key": "display",
+   "label": "Display",
+   "value": "Top screen (touch input for phone number)",
+   "unit": "",
+   "note": "",
+   "source": "https://zdnet.co.kr/view/?no=20200518084101"
+  }
+ ]
+}

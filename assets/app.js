@@ -20,7 +20,7 @@ const fmt=(v,u="")=>v===null||v===undefined||v===""?"—":(typeof v==="number"?(
 const yn=v=>v===true?`<span class="badge yes">${t("yes")}</span>`:v===false?`<span class="badge no">${t("no")}</span>`:`<span class="badge unk">${t("ns")}</span>`;
 const kmh=mps=>mps==null?null:mps*3.6;
 const css=n=>getComputedStyle(document.documentElement).getPropertyValue(n).trim();
-function nav(on){const links=[["index.html","nav_robots"],["dashboard.html","nav_dash"],["table.html","nav_table"]];
+function nav(on){const links=[["index.html","nav_robots"],["dashboard.html","nav_dash"],["table.html","nav_table"],["specs.html","nav_specs"]];
 document.write(`<header class="top"><a class="brand" href="index.html">🤖 ${t("brand")}</a><nav>${links.map(([h,k])=>`<a href="${h}" class="${on===h?"on":""}">${t(k)}</a>`).join("")}</nav>
 <div class="tools"><div class="seg">${Object.entries(LANGS).map(([k,l])=>`<button class="${k===LANG?"on":""}" onclick="setLang('${k}')">${l}</button>`).join("")}</div>
 <button class="iconbtn" id="themeBtn" title="${t("theme_dark")} / ${t("theme_light")}" onclick="toggleTheme()">${THEME==="dark"?"☀️":"🌙"}</button></div></header>`);}

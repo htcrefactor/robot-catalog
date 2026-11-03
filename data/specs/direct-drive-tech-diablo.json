@@ -1,0 +1,505 @@
+{
+ "id": "direct-drive-tech-diablo",
+ "checked": "2026-11-04",
+ "documents": [
+  {
+   "title": "Direct Drive Tech DIABLO product page (spec table)",
+   "url": "https://robotics.directdrive.com/en/products/xingtian-robot/1653337674873306"
+  },
+  {
+   "title": "Direct Drive Tech shop – DIABLO product page",
+   "url": "https://shop.directdrive.com/products/diablo-world-s-first-direct-drive-self-balancing-wheeled-leg-robot"
+  },
+  {
+   "title": "Direct Drive Tech blog – Inside Diablo (Aug 2026)",
+   "url": "https://shop.directdrive.com/blogs/robotics-blog/inside-diablo-direct-drive-self-balancing-wheeled-leg-robot-platform"
+  },
+  {
+   "title": "Weston Robot (distributor) DIABLO user guide specs",
+   "url": "https://westonrobot.github.io/docs-legacy/robot_user_guide/directdrive/diablo.html"
+  },
+  {
+   "title": "Direct Drive Tech DIABLO product page (older EN site)",
+   "url": "https://en.directdrive.com/product_diablo"
+  }
+ ],
+ "specs": [
+  {
+   "group": "Identity",
+   "key": "variants",
+   "label": "Configurations",
+   "value": "Diablo (Standard); Diablo + Navigation Tower; Diablo + Quad Wheel-Legs",
+   "unit": "",
+   "note": "",
+   "source": "https://robotics.directdrive.com/en/products/xingtian-robot/1653337674873306"
+  },
+  {
+   "group": "Dimensions & Mass",
+   "key": "length",
+   "label": "Length",
+   "value": 540,
+   "unit": "mm",
+   "note": "standing and crouched",
+   "source": "https://robotics.directdrive.com/en/products/xingtian-robot/1653337674873306"
+  },
+  {
+   "group": "Dimensions & Mass",
+   "key": "width",
+   "label": "Width",
+   "value": 371,
+   "unit": "mm",
+   "note": "",
+   "source": "https://robotics.directdrive.com/en/products/xingtian-robot/1653337674873306"
+  },
+  {
+   "group": "Dimensions & Mass",
+   "key": "height_standing",
+   "label": "Height (standing)",
+   "value": 491,
+   "unit": "mm",
+   "note": "",
+   "source": "https://robotics.directdrive.com/en/products/xingtian-robot/1653337674873306"
+  },
+  {
+   "group": "Dimensions & Mass",
+   "key": "height_sitting",
+   "label": "Height (crouched/creeping)",
+   "value": 270,
+   "unit": "mm",
+   "note": "",
+   "source": "https://robotics.directdrive.com/en/products/xingtian-robot/1653337674873306"
+  },
+  {
+   "group": "Dimensions & Mass",
+   "key": "body_material",
+   "label": "Material",
+   "value": "Aluminium alloy + high-strength engineering plastic",
+   "unit": "",
+   "note": "",
+   "source": "https://robotics.directdrive.com/en/products/xingtian-robot/1653337674873306"
+  },
+  {
+   "group": "Dimensions & Mass",
+   "key": "weight",
+   "label": "Weight",
+   "value": 22.9,
+   "unit": "kg",
+   "note": "incl. docking mechanism",
+   "source": "https://robotics.directdrive.com/en/products/xingtian-robot/1653337674873306"
+  },
+  {
+   "group": "Compute & Software",
+   "key": "cpu",
+   "label": "Processor",
+   "value": "Raspberry Pi 4 Model B",
+   "unit": "",
+   "note": "application control panel",
+   "source": "https://robotics.directdrive.com/en/products/xingtian-robot/1653337674873306"
+  },
+  {
+   "group": "Mobility & Performance",
+   "key": "degrees_of_freedom",
+   "label": "Degrees of freedom",
+   "value": 6,
+   "unit": "",
+   "note": "",
+   "source": "https://robotics.directdrive.com/en/products/xingtian-robot/1653337674873306"
+  },
+  {
+   "group": "Power & Battery",
+   "key": "battery_capacity",
+   "label": "Battery capacity",
+   "value": 0.178,
+   "unit": "kWh",
+   "note": "stated '0.178 kWh, 220V, 235.2W'",
+   "source": "https://robotics.directdrive.com/en/products/xingtian-robot/1653337674873306"
+  },
+  {
+   "group": "Power & Battery",
+   "key": "runtime",
+   "label": "Runtime",
+   "value": 1.5,
+   "unit": "h",
+   "note": "≈1.5 h (product page)",
+   "source": "https://robotics.directdrive.com/en/products/xingtian-robot/1653337674873306"
+  },
+  {
+   "group": "Power & Battery",
+   "key": "runtime",
+   "label": "Runtime (creeping, high speed)",
+   "value": 3,
+   "unit": "h",
+   "note": "≈3 h at 34 °C ambient (shop/blog; Weston guide says ≈4 h)",
+   "source": "https://shop.directdrive.com/products/diablo-world-s-first-direct-drive-self-balancing-wheeled-leg-robot"
+  },
+  {
+   "group": "Power & Battery",
+   "key": "runtime",
+   "label": "Runtime (standing, low speed)",
+   "value": 3,
+   "unit": "h",
+   "note": "≈3 h at 34 °C ambient",
+   "source": "https://westonrobot.github.io/docs-legacy/robot_user_guide/directdrive/diablo.html"
+  },
+  {
+   "group": "Power & Battery",
+   "key": "standby_time",
+   "label": "Standing time upright",
+   "value": 3,
+   "unit": "h",
+   "note": "≈3 h at 25 °C",
+   "source": "https://shop.directdrive.com/products/diablo-world-s-first-direct-drive-self-balancing-wheeled-leg-robot"
+  },
+  {
+   "group": "Power & Battery",
+   "key": "standby_time",
+   "label": "Standing time half-squat",
+   "value": 15,
+   "unit": "min",
+   "note": "≈15 min at 25 °C",
+   "source": "https://shop.directdrive.com/products/diablo-world-s-first-direct-drive-self-balancing-wheeled-leg-robot"
+  },
+  {
+   "group": "Charging & Docking",
+   "key": "charge_time",
+   "label": "Standard charging time",
+   "value": 1,
+   "unit": "h",
+   "note": "≈1 h",
+   "source": "https://robotics.directdrive.com/en/products/xingtian-robot/1653337674873306"
+  },
+  {
+   "group": "Mobility & Performance",
+   "key": "max_payload",
+   "label": "Payload (crouched/creeping mode)",
+   "value": 80,
+   "unit": "kg",
+   "note": "",
+   "source": "https://robotics.directdrive.com/en/products/xingtian-robot/1653337674873306"
+  },
+  {
+   "group": "Mobility & Performance",
+   "key": "rated_payload",
+   "label": "Payload (standing mode)",
+   "value": 4,
+   "unit": "kg",
+   "note": "",
+   "source": "https://robotics.directdrive.com/en/products/xingtian-robot/1653337674873306"
+  },
+  {
+   "group": "Mobility & Performance",
+   "key": "max_speed",
+   "label": "Max continuous speed",
+   "value": 2,
+   "unit": "m/s",
+   "note": "",
+   "source": "https://robotics.directdrive.com/en/products/xingtian-robot/1653337674873306"
+  },
+  {
+   "group": "Mobility & Performance",
+   "key": "max_jump_height",
+   "label": "Jump height",
+   "value": 80,
+   "unit": "mm",
+   "note": "no load",
+   "source": "https://robotics.directdrive.com/en/products/xingtian-robot/1653337674873306"
+  },
+  {
+   "group": "Terrain & Navigation Limits",
+   "key": "max_obstacle_height",
+   "label": "Obstacle crossing",
+   "value": 8,
+   "unit": "cm",
+   "note": "about, on flat ground",
+   "source": "https://shop.directdrive.com/blogs/robotics-blog/inside-diablo-direct-drive-self-balancing-wheeled-leg-robot-platform"
+  },
+  {
+   "group": "Dimensions & Mass",
+   "key": "height_adjustment_range",
+   "label": "Head height adjustment",
+   "value": 20,
+   "unit": "cm",
+   "note": "up to about 20 cm (published paper)",
+   "source": "https://shop.directdrive.com/blogs/robotics-blog/inside-diablo-direct-drive-self-balancing-wheeled-leg-robot-platform"
+  },
+  {
+   "group": "Compute & Software",
+   "key": "operating_system",
+   "label": "Operating system",
+   "value": "Ubuntu 20.04",
+   "unit": "",
+   "note": "Weston guide: Ubuntu Mate",
+   "source": "https://robotics.directdrive.com/en/products/xingtian-robot/1653337674873306"
+  },
+  {
+   "group": "Safety & Compliance",
+   "key": "power_failure_protection",
+   "label": "Power-failure protection",
+   "value": "Supported",
+   "unit": "",
+   "note": "",
+   "source": "https://robotics.directdrive.com/en/products/xingtian-robot/1653337674873306"
+  },
+  {
+   "group": "Compute & Software",
+   "key": "ota_updates",
+   "label": "OTA updates",
+   "value": "Supported",
+   "unit": "",
+   "note": "",
+   "source": "https://robotics.directdrive.com/en/products/xingtian-robot/1653337674873306"
+  },
+  {
+   "group": "Commercial",
+   "key": "optional_accessories",
+   "label": "Optional accessories",
+   "value": "Navigation tower; food-delivery module",
+   "unit": "",
+   "note": "",
+   "source": "https://robotics.directdrive.com/en/products/xingtian-robot/1653337674873306"
+  },
+  {
+   "group": "Safety & Compliance",
+   "key": "max_noise_level",
+   "label": "Operating noise",
+   "value": "<49",
+   "unit": "dB",
+   "note": "",
+   "source": "https://shop.directdrive.com/products/diablo-world-s-first-direct-drive-self-balancing-wheeled-leg-robot"
+  },
+  {
+   "group": "Actuation & Joints",
+   "key": "actuator_type",
+   "label": "Joints",
+   "value": "6 × M1502D direct-drive joint modules (no gearbox), built-in driver and angle sensor",
+   "unit": "",
+   "note": "https://shop.directdrive.com/blogs/robotics-blog/inside-diablo-direct-drive-self-balancing-wheeled-leg-robot-platform",
+   "source": "https://robotics.directdrive.com/en/products/xingtian-robot/1653337674873306"
+  },
+  {
+   "group": "Actuation & Joints",
+   "key": "rated_joint_torque",
+   "label": "Joint rated torque",
+   "value": 9.6,
+   "unit": "N·m",
+   "note": "M1502D",
+   "source": "https://shop.directdrive.com/blogs/robotics-blog/inside-diablo-direct-drive-self-balancing-wheeled-leg-robot-platform"
+  },
+  {
+   "group": "Actuation & Joints",
+   "key": "max_joint_torque",
+   "label": "Joint stall/peak torque",
+   "value": 17,
+   "unit": "N·m",
+   "note": "M1502D (Weston guide lists 20 N·m stall)",
+   "source": "https://shop.directdrive.com/blogs/robotics-blog/inside-diablo-direct-drive-self-balancing-wheeled-leg-robot-platform"
+  },
+  {
+   "group": "Actuation & Joints",
+   "key": "joint_speed",
+   "label": "Joint rated speed",
+   "value": 115,
+   "unit": "rpm",
+   "note": "no-load 220 rpm",
+   "source": "https://shop.directdrive.com/blogs/robotics-blog/inside-diablo-direct-drive-self-balancing-wheeled-leg-robot-platform"
+  },
+  {
+   "group": "Actuation & Joints",
+   "key": "rated_voltage",
+   "label": "Joint rated voltage",
+   "value": 24,
+   "unit": "V",
+   "note": "M1502D (Weston guide: 32 V rated, 28–32 V operating)",
+   "source": "https://shop.directdrive.com/blogs/robotics-blog/inside-diablo-direct-drive-self-balancing-wheeled-leg-robot-platform"
+  },
+  {
+   "group": "Actuation & Joints",
+   "key": "joint_efficiency",
+   "label": "Joint max efficiency",
+   "value": "≥76",
+   "unit": "%",
+   "note": "",
+   "source": "https://shop.directdrive.com/blogs/robotics-blog/inside-diablo-direct-drive-self-balancing-wheeled-leg-robot-platform"
+  },
+  {
+   "group": "Actuation & Joints",
+   "key": "joint_mass",
+   "label": "Joint motor mass",
+   "value": "2.6 ± 0.1",
+   "unit": "kg",
+   "note": "Weston guide: 2.3 kg",
+   "source": "https://shop.directdrive.com/blogs/robotics-blog/inside-diablo-direct-drive-self-balancing-wheeled-leg-robot-platform"
+  },
+  {
+   "group": "Actuation & Joints",
+   "key": "joint_encoder",
+   "label": "Joint encoder resolution",
+   "value": 16384,
+   "unit": "counts",
+   "note": "16-bit; accuracy within 0.01° (older product page)",
+   "source": "https://shop.directdrive.com/blogs/robotics-blog/inside-diablo-direct-drive-self-balancing-wheeled-leg-robot-platform"
+  },
+  {
+   "group": "Actuation & Joints",
+   "key": "joint_operating_temperature",
+   "label": "Joint ambient temperature",
+   "value": "−15 to 45",
+   "unit": "°C",
+   "note": "",
+   "source": "https://shop.directdrive.com/blogs/robotics-blog/inside-diablo-direct-drive-self-balancing-wheeled-leg-robot-platform"
+  },
+  {
+   "group": "Actuation & Joints",
+   "key": "joint_dimensions",
+   "label": "Joint motor dimensions",
+   "value": "Φ144 × 41.8",
+   "unit": "mm",
+   "note": "",
+   "source": "https://westonrobot.github.io/docs-legacy/robot_user_guide/directdrive/diablo.html"
+  },
+  {
+   "group": "Actuation & Joints",
+   "key": "stall_current",
+   "label": "Joint stall current",
+   "value": 28,
+   "unit": "A",
+   "note": "rated 12 A (non-continuous)",
+   "source": "https://westonrobot.github.io/docs-legacy/robot_user_guide/directdrive/diablo.html"
+  },
+  {
+   "group": "Compute & Software",
+   "key": "mcu",
+   "label": "Low-level controller",
+   "value": "Microcontroller on ChibiOS/RT; CAN bus to motor drivers",
+   "unit": "",
+   "note": "https://shop.directdrive.com/blogs/robotics-blog/inside-diablo-direct-drive-self-balancing-wheeled-leg-robot-platform",
+   "source": "https://robotics.directdrive.com/en/products/xingtian-robot/1653337674873306"
+  },
+  {
+   "group": "Sensors & Perception",
+   "key": "imu",
+   "label": "IMU",
+   "value": "BMI088 (SPI)",
+   "unit": "",
+   "note": "https://shop.directdrive.com/blogs/robotics-blog/inside-diablo-direct-drive-self-balancing-wheeled-leg-robot-platform",
+   "source": "https://robotics.directdrive.com/en/products/xingtian-robot/1653337674873306"
+  },
+  {
+   "group": "Compute & Software",
+   "key": "ai_performance_tops",
+   "label": "Mini PC edge inference",
+   "value": 5,
+   "unit": "TOPS",
+   "note": "quad-core ARM A53 mini PC; H.264/H.265 video; UART link",
+   "source": "https://shop.directdrive.com/blogs/robotics-blog/inside-diablo-direct-drive-self-balancing-wheeled-leg-robot-platform"
+  },
+  {
+   "group": "Compute & Software",
+   "key": "ros_support",
+   "label": "ROS",
+   "value": "Open-source ROS framework (ROS 2 package diablo_ros2)",
+   "unit": "",
+   "note": "https://shop.directdrive.com/blogs/robotics-blog/inside-diablo-direct-drive-self-balancing-wheeled-leg-robot-platform",
+   "source": "https://robotics.directdrive.com/en/products/xingtian-robot/1653337674873306"
+  },
+  {
+   "group": "Safety & Compliance",
+   "key": "emergency_stop",
+   "label": "Emergency stop",
+   "value": "Handle-mounted emergency stop; BMS; watchdog",
+   "unit": "",
+   "note": "https://shop.directdrive.com/blogs/robotics-blog/inside-diablo-direct-drive-self-balancing-wheeled-leg-robot-platform",
+   "source": "https://robotics.directdrive.com/en/products/xingtian-robot/1653337674873306"
+  },
+  {
+   "group": "Mobility & Performance",
+   "key": "balance_tilt_range",
+   "label": "Controllable tilt angle",
+   "value": 37,
+   "unit": "°",
+   "note": "self-balance",
+   "source": "https://en.directdrive.com/product_diablo"
+  },
+  {
+   "group": "Mobility & Performance",
+   "key": "impact_absorption",
+   "label": "Impact absorption",
+   "value": 60,
+   "unit": "%",
+   "note": "leg impedance control absorbs 60% impact force",
+   "source": "https://en.directdrive.com/product_diablo"
+  },
+  {
+   "group": "Mobility & Performance",
+   "key": "balance_controller",
+   "label": "Balance control",
+   "value": "LQR on inverted-pendulum model; stable within ~30° of equilibrium; jump and fall recovery",
+   "unit": "",
+   "note": "https://shop.directdrive.com/blogs/robotics-blog/inside-diablo-direct-drive-self-balancing-wheeled-leg-robot-platform",
+   "source": "https://robotics.directdrive.com/en/products/xingtian-robot/1653337674873306"
+  },
+  {
+   "group": "Charging & Docking",
+   "key": "charger_output",
+   "label": "Power adapter output",
+   "value": "32.9 V / 3 A",
+   "unit": "",
+   "note": "model XVE126-3290300; input 110 V AC",
+   "source": "https://westonrobot.github.io/docs-legacy/robot_user_guide/directdrive/diablo.html"
+  },
+  {
+   "group": "Power & Battery",
+   "key": "battery_chemistry",
+   "label": "Battery type",
+   "value": "Li-ion",
+   "unit": "",
+   "note": "",
+   "source": "https://westonrobot.github.io/docs-legacy/robot_user_guide/directdrive/diablo.html"
+  },
+  {
+   "group": "Power & Battery",
+   "key": "battery_capacity_ah",
+   "label": "Battery capacity",
+   "value": 6,
+   "unit": "Ah",
+   "note": "",
+   "source": "https://westonrobot.github.io/docs-legacy/robot_user_guide/directdrive/diablo.html"
+  },
+  {
+   "group": "Power & Battery",
+   "key": "battery_cycle_life",
+   "label": "Cycle life",
+   "value": 1000,
+   "unit": "cycles",
+   "note": ">80% capacity retained after 1000 cycles",
+   "source": "https://westonrobot.github.io/docs-legacy/robot_user_guide/directdrive/diablo.html"
+  },
+  {
+   "group": "Controls & Operation",
+   "key": "controller",
+   "label": "Remote control",
+   "value": "RadioLink T8S, 2.4 GHz, −104 dBm sensitivity",
+   "unit": "",
+   "note": "https://westonrobot.github.io/docs-legacy/robot_user_guide/directdrive/diablo.html",
+   "source": "https://robotics.directdrive.com/en/products/xingtian-robot/1653337674873306"
+  },
+  {
+   "group": "Connectivity & Interfaces",
+   "key": "remote_range",
+   "label": "Max safe remote control distance",
+   "value": 150,
+   "unit": "m",
+   "note": "",
+   "source": "https://westonrobot.github.io/docs-legacy/robot_user_guide/directdrive/diablo.html"
+  },
+  {
+   "group": "Payload & Mounting",
+   "key": "top_module_interface",
+   "label": "Payload space",
+   "value": "Top cargo space and front sensor space (LiDAR, GPS, anti-collision modules)",
+   "unit": "",
+   "note": "https://shop.directdrive.com/products/diablo-world-s-first-direct-drive-self-balancing-wheeled-leg-robot",
+   "source": "https://robotics.directdrive.com/en/products/xingtian-robot/1653337674873306"
+  }
+ ]
+}

@@ -1,0 +1,403 @@
+{
+ "id": "neubility-neubie",
+ "checked": "2026-11-04",
+ "documents": [
+  {
+   "title": "Neubie product page (Neubility)",
+   "url": "https://www.neubility.ai/en/product"
+  },
+  {
+   "title": "KIRIA outdoor mobile robot operation safety certification list",
+   "url": "https://www.kiria.org/portal/cert/portalCertEstiStats.do"
+  }
+ ],
+ "specs": [
+  {
+   "group": "Identity",
+   "key": "model_number",
+   "label": "Model",
+   "value": "NB015",
+   "unit": "",
+   "note": "KIRIA cert KIRIA-01-24-002-04; NB015R2 also certified (KIRIA-01-24-009-03)",
+   "source": "https://www.kiria.org/portal/cert/portalCertEstiStats.do"
+  },
+  {
+   "group": "Identity",
+   "key": "variants",
+   "label": "Models",
+   "value": "Delivery; Patrol (built-in CCTV); Open Cargo",
+   "unit": "",
+   "note": "",
+   "source": "https://www.neubility.ai/en/product"
+  },
+  {
+   "group": "Identity",
+   "key": "manufacturer_address",
+   "label": "Manufacturer address",
+   "value": "Heyground 2F, 115 Wangsimni-ro, Seongdong-gu, Seoul, Republic of Korea (04768)",
+   "unit": "",
+   "note": "",
+   "source": "https://www.neubility.ai/en/product"
+  },
+  {
+   "group": "Dimensions & Mass",
+   "key": "length",
+   "label": "Length",
+   "value": 704,
+   "unit": "mm",
+   "note": "",
+   "source": "https://www.neubility.ai/en/product"
+  },
+  {
+   "group": "Dimensions & Mass",
+   "key": "width",
+   "label": "Width",
+   "value": 553,
+   "unit": "mm",
+   "note": "without flagpole; 617 mm with flagpole",
+   "source": "https://www.neubility.ai/en/product"
+  },
+  {
+   "group": "Dimensions & Mass",
+   "key": "height",
+   "label": "Height",
+   "value": 693,
+   "unit": "mm",
+   "note": "without flagpole",
+   "source": "https://www.neubility.ai/en/product"
+  },
+  {
+   "group": "Dimensions & Mass",
+   "key": "height_max",
+   "label": "Height with flagpole",
+   "value": 1303,
+   "unit": "mm",
+   "note": "",
+   "source": "https://www.neubility.ai/en/product"
+  },
+  {
+   "group": "Dimensions & Mass",
+   "key": "weight",
+   "label": "Unladen weight",
+   "value": 61.5,
+   "unit": "kg",
+   "note": "",
+   "source": "https://www.neubility.ai/en/product"
+  },
+  {
+   "group": "Dimensions & Mass",
+   "key": "weight",
+   "label": "Max mass (certified)",
+   "value": 81.5,
+   "unit": "kg",
+   "note": "NB015 incl. 20 kg payload; NB015R2: 82 kg",
+   "source": "https://www.kiria.org/portal/cert/portalCertEstiStats.do"
+  },
+  {
+   "group": "Dimensions & Mass",
+   "key": "width",
+   "label": "Width (certified)",
+   "value": 617,
+   "unit": "mm",
+   "note": "NB015; NB015R2: 616 mm",
+   "source": "https://www.kiria.org/portal/cert/portalCertEstiStats.do"
+  },
+  {
+   "group": "Mobility & Performance",
+   "key": "max_payload",
+   "label": "Safe payload capacity",
+   "value": 20,
+   "unit": "kg",
+   "note": "",
+   "source": "https://www.neubility.ai/en/product"
+  },
+  {
+   "group": "Mobility & Performance",
+   "key": "max_speed",
+   "label": "Max speed",
+   "value": 5.76,
+   "unit": "km/h",
+   "note": "",
+   "source": "https://www.neubility.ai/en/product"
+  },
+  {
+   "group": "Mobility & Performance",
+   "key": "drive_system",
+   "label": "Drive system",
+   "value": "4-wheel drive, independent suspension, skid steer",
+   "unit": "",
+   "note": "",
+   "source": "https://www.neubility.ai/en/product"
+  },
+  {
+   "group": "Mobility & Performance",
+   "key": "steering_method",
+   "label": "Steering",
+   "value": "Skid steering",
+   "unit": "",
+   "note": "",
+   "source": "https://www.neubility.ai/en/product"
+  },
+  {
+   "group": "Mobility & Performance",
+   "key": "suspension",
+   "label": "Suspension",
+   "value": "Double wishbone (front/rear)",
+   "unit": "",
+   "note": "",
+   "source": "https://www.neubility.ai/en/product"
+  },
+  {
+   "group": "Mobility & Performance",
+   "key": "wheel_diameter",
+   "label": "Wheel size",
+   "value": 206,
+   "unit": "mm",
+   "note": "",
+   "source": "https://www.neubility.ai/en/product"
+  },
+  {
+   "group": "Mobility & Performance",
+   "key": "wheel_count",
+   "label": "Wheels",
+   "value": 4,
+   "unit": "",
+   "note": "",
+   "source": "https://www.neubility.ai/en/product"
+  },
+  {
+   "group": "Actuation & Joints",
+   "key": "motor_rated_speed",
+   "label": "Motor rated speed",
+   "value": 200,
+   "unit": "rpm",
+   "note": "max 300 rpm",
+   "source": "https://www.neubility.ai/en/product"
+  },
+  {
+   "group": "Actuation & Joints",
+   "key": "motor_payload_rating",
+   "label": "Motor payload rating",
+   "value": "< 150",
+   "unit": "kg",
+   "note": "",
+   "source": "https://www.neubility.ai/en/product"
+  },
+  {
+   "group": "Terrain & Navigation Limits",
+   "key": "max_slope",
+   "label": "Climbing ability",
+   "value": "approx. 15",
+   "unit": "°",
+   "note": "27%",
+   "source": "https://www.neubility.ai/en/product"
+  },
+  {
+   "group": "Terrain & Navigation Limits",
+   "key": "max_slope",
+   "label": "Max climbing angle (certified)",
+   "value": 15,
+   "unit": "°",
+   "note": "",
+   "source": "https://www.kiria.org/portal/cert/portalCertEstiStats.do"
+  },
+  {
+   "group": "Terrain & Navigation Limits",
+   "key": "navigation_method",
+   "label": "Navigation",
+   "value": "Camera sensor-fusion autonomy; dynamic map with low GPS dependency",
+   "unit": "",
+   "note": "",
+   "source": "https://www.neubility.ai/en/product"
+  },
+  {
+   "group": "Terrain & Navigation Limits",
+   "key": "mapping",
+   "label": "Mapping",
+   "value": "Front camera + LTE antenna mapping in a single run",
+   "unit": "",
+   "note": "",
+   "source": "https://www.neubility.ai/en/product"
+  },
+  {
+   "group": "Power & Battery",
+   "key": "battery_capacity",
+   "label": "Battery capacity",
+   "value": 1500,
+   "unit": "Wh",
+   "note": "25.9 V, 60 Ah",
+   "source": "https://www.neubility.ai/en/product"
+  },
+  {
+   "group": "Power & Battery",
+   "key": "battery_voltage",
+   "label": "Battery voltage",
+   "value": 25.9,
+   "unit": "V",
+   "note": "",
+   "source": "https://www.neubility.ai/en/product"
+  },
+  {
+   "group": "Power & Battery",
+   "key": "runtime",
+   "label": "Driving time",
+   "value": "approx. 8",
+   "unit": "h",
+   "note": "",
+   "source": "https://www.neubility.ai/en/product"
+  },
+  {
+   "group": "Charging & Docking",
+   "key": "charger_input",
+   "label": "Charger input",
+   "value": "AC 100–220 V, 4.5 A, 50/60 Hz",
+   "unit": "",
+   "note": "",
+   "source": "https://www.neubility.ai/en/product"
+  },
+  {
+   "group": "Charging & Docking",
+   "key": "charger_output",
+   "label": "Charger output",
+   "value": "DC 29.4 V, 6 A",
+   "unit": "",
+   "note": "",
+   "source": "https://www.neubility.ai/en/product"
+  },
+  {
+   "group": "Charging & Docking",
+   "key": "dock_available",
+   "label": "Charging station",
+   "value": true,
+   "unit": "",
+   "note": "",
+   "source": "https://www.neubility.ai/en/product"
+  },
+  {
+   "group": "Environment & Protection",
+   "key": "operating_temperature",
+   "label": "Operating temperature",
+   "value": "−20 to 50",
+   "unit": "°C",
+   "note": "",
+   "source": "https://www.neubility.ai/en/product"
+  },
+  {
+   "group": "Environment & Protection",
+   "key": "storage_temperature",
+   "label": "Storage temperature",
+   "value": "−40 to 80",
+   "unit": "°C",
+   "note": "",
+   "source": "https://www.neubility.ai/en/product"
+  },
+  {
+   "group": "Sensors & Perception",
+   "key": "camera_type",
+   "label": "Cameras",
+   "value": "Multi camera (mono, front and rear) + depth camera",
+   "unit": "",
+   "note": "",
+   "source": "https://www.neubility.ai/en/product"
+  },
+  {
+   "group": "Sensors & Perception",
+   "key": "ultrasonic_sensors",
+   "label": "Ultrasonic sensors",
+   "value": "Side ultrasonic sensors",
+   "unit": "",
+   "note": "",
+   "source": "https://www.neubility.ai/en/product"
+  },
+  {
+   "group": "Sensors & Perception",
+   "key": "gps",
+   "label": "GPS",
+   "value": true,
+   "unit": "",
+   "note": "",
+   "source": "https://www.neubility.ai/en/product"
+  },
+  {
+   "group": "Sensors & Perception",
+   "key": "lidar_type",
+   "label": "LiDAR",
+   "value": "None (camera-based)",
+   "unit": "",
+   "note": "",
+   "source": "https://www.neubility.ai/en/product"
+  },
+  {
+   "group": "Connectivity & Interfaces",
+   "key": "cellular",
+   "label": "Communication",
+   "value": "LTE",
+   "unit": "",
+   "note": "",
+   "source": "https://www.neubility.ai/en/product"
+  },
+  {
+   "group": "Safety & Compliance",
+   "key": "certifications",
+   "label": "Certification",
+   "value": "KIRIA outdoor mobile robot operation safety certification",
+   "unit": "",
+   "note": "changed cert 2026-06-15",
+   "source": "https://www.kiria.org/portal/cert/portalCertEstiStats.do"
+  },
+  {
+   "group": "Safety & Compliance",
+   "key": "certification_limits",
+   "label": "Certification conditions",
+   "value": "Unsignalized crosswalks: autonomous after remote approval from control center",
+   "unit": "",
+   "note": "",
+   "source": "https://www.kiria.org/portal/cert/portalCertEstiStats.do"
+  },
+  {
+   "group": "Compute & Software",
+   "key": "fleet_software",
+   "label": "Fleet software",
+   "value": "Neubie-Go dashboard; Neubie Manager; Neubility Order; NCC (Neubility Control Center) 1.0",
+   "unit": "",
+   "note": "",
+   "source": "https://www.neubility.ai/en/product"
+  },
+  {
+   "group": "Audio, Lights & HMI",
+   "key": "status_lights",
+   "label": "Lights",
+   "value": "Head lamp; eye ring; dot matrix; belt LED",
+   "unit": "",
+   "note": "",
+   "source": "https://www.neubility.ai/en/product"
+  },
+  {
+   "group": "Audio, Lights & HMI",
+   "key": "display",
+   "label": "Display",
+   "value": true,
+   "unit": "",
+   "note": "",
+   "source": "https://www.neubility.ai/en/product"
+  },
+  {
+   "group": "Payload & Mounting",
+   "key": "compartment_doors",
+   "label": "Door",
+   "value": "Door & door locker",
+   "unit": "",
+   "note": "",
+   "source": "https://www.neubility.ai/en/product"
+  },
+  {
+   "group": "Payload & Mounting",
+   "key": "cargo_box",
+   "label": "Cargo box",
+   "value": true,
+   "unit": "",
+   "note": "add-on modules: cargo, patrol",
+   "source": "https://www.neubility.ai/en/product"
+  }
+ ]
+}

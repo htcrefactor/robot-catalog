@@ -1,0 +1,191 @@
+{
+ "id": "woowa-dilly-x3",
+ "checked": "2026-11-04",
+ "documents": [
+  {
+   "title": "KIRIA outdoor mobile robot operation safety certification list",
+   "url": "https://www.kiria.org/portal/cert/portalCertEstiStats.do"
+  },
+  {
+   "title": "Yonhap – 배민, 배달로봇 딜리 새 모델 선보여 (2025-06-23)",
+   "url": "https://www.yna.co.kr/view/AKR20250623023400030"
+  },
+  {
+   "title": "Maeil Business – 배달 로봇이 강남 달린다 (2025-10-28)",
+   "url": "https://www.mk.co.kr/news/business/11453878"
+  }
+ ],
+ "specs": [
+  {
+   "group": "Identity",
+   "key": "model_number",
+   "label": "Model",
+   "value": "dilly X3",
+   "unit": "",
+   "note": "KIRIA outdoor mobile robot certification",
+   "source": "https://www.kiria.org/portal/cert/portalCertEstiStats.do"
+  },
+  {
+   "group": "Identity",
+   "key": "release_date",
+   "label": "Operation safety certification date",
+   "value": "2025-06-17",
+   "unit": "",
+   "note": "KIRIA-01-25-003-01 (initial certification); deployed from Aug 2025",
+   "source": "https://www.kiria.org/portal/cert/portalCertEstiStats.do"
+  },
+  {
+   "group": "Identity",
+   "key": "variants",
+   "label": "Successor",
+   "value": "dilly X3-R1.4 (certified 2026-07-08)",
+   "unit": "",
+   "note": "",
+   "source": "https://www.kiria.org/portal/cert/portalCertEstiStats.do"
+  },
+  {
+   "group": "Dimensions & Mass",
+   "key": "width",
+   "label": "Width",
+   "value": 625.3,
+   "unit": "mm",
+   "note": "",
+   "source": "https://www.kiria.org/portal/cert/portalCertEstiStats.do"
+  },
+  {
+   "group": "Dimensions & Mass",
+   "key": "weight",
+   "label": "Max mass",
+   "value": 106.5,
+   "unit": "kg",
+   "note": "including max payload",
+   "source": "https://www.kiria.org/portal/cert/portalCertEstiStats.do"
+  },
+  {
+   "group": "Mobility & Performance",
+   "key": "max_payload",
+   "label": "Max payload",
+   "value": 20,
+   "unit": "kg",
+   "note": "",
+   "source": "https://www.kiria.org/portal/cert/portalCertEstiStats.do"
+  },
+  {
+   "group": "Mobility & Performance",
+   "key": "max_speed",
+   "label": "Max speed",
+   "value": 9,
+   "unit": "km/h",
+   "note": "certified",
+   "source": "https://www.kiria.org/portal/cert/portalCertEstiStats.do"
+  },
+  {
+   "group": "Mobility & Performance",
+   "key": "max_speed",
+   "label": "Max speed on slopes",
+   "value": 7.2,
+   "unit": "km/h",
+   "note": "when climbing slopes",
+   "source": "https://www.kiria.org/portal/cert/portalCertEstiStats.do"
+  },
+  {
+   "group": "Terrain & Navigation Limits",
+   "key": "max_slope",
+   "label": "Max climbing angle",
+   "value": 15,
+   "unit": "°",
+   "note": "",
+   "source": "https://www.kiria.org/portal/cert/portalCertEstiStats.do"
+  },
+  {
+   "group": "Terrain & Navigation Limits",
+   "key": "max_obstacle_height",
+   "label": "Curb climbing",
+   "value": "Larger wheels than previous model to cross low curbs",
+   "unit": "",
+   "note": "no height stated",
+   "source": "https://www.yna.co.kr/view/AKR20250623023400030"
+  },
+  {
+   "group": "Payload & Mounting",
+   "key": "cargo_capacity_description",
+   "label": "Cargo capacity",
+   "value": "up to 18 × 2 L water bottles",
+   "unit": "",
+   "note": "previous model ~6 bottles",
+   "source": "https://www.yna.co.kr/view/AKR20250623023400030"
+  },
+  {
+   "group": "Power & Battery",
+   "key": "battery_capacity",
+   "label": "Battery capacity",
+   "value": "about 30% larger than previous model",
+   "unit": "",
+   "note": "absolute value not published",
+   "source": "https://www.yna.co.kr/view/AKR20250623023400030"
+  },
+  {
+   "group": "Sensors & Perception",
+   "key": "camera_count",
+   "label": "Cameras",
+   "value": 6,
+   "unit": "",
+   "note": "Dilly in Gangnam service (Oct 2025)",
+   "source": "https://www.mk.co.kr/news/business/11453878"
+  },
+  {
+   "group": "Sensors & Perception",
+   "key": "lidar_type",
+   "label": "LiDAR sensors",
+   "value": 2,
+   "unit": "",
+   "note": "",
+   "source": "https://www.mk.co.kr/news/business/11453878"
+  },
+  {
+   "group": "Sensors & Perception",
+   "key": "gps",
+   "label": "GPS",
+   "value": true,
+   "unit": "",
+   "note": "approximate positioning; supplemented by in-house map data",
+   "source": "https://www.mk.co.kr/news/business/11453878"
+  },
+  {
+   "group": "Safety & Compliance",
+   "key": "certifications",
+   "label": "Certification",
+   "value": "KIRIA outdoor mobile robot operation safety certification (Intelligent Robots Act)",
+   "unit": "",
+   "note": "cert no. KIRIA-01-25-003-01",
+   "source": "https://www.kiria.org/portal/cert/portalCertEstiStats.do"
+  },
+  {
+   "group": "Safety & Compliance",
+   "key": "certification_limits",
+   "label": "Certification conditions",
+   "value": "Cannot detect transparent obstacles",
+   "unit": "",
+   "note": "listed limitation",
+   "source": "https://www.kiria.org/portal/cert/portalCertEstiStats.do"
+  },
+  {
+   "group": "Controls & Operation",
+   "key": "fleet_software",
+   "label": "Control system",
+   "value": "로봇 관제 서비스 (Robot control service) 1.0",
+   "unit": "",
+   "note": "",
+   "source": "https://www.kiria.org/portal/cert/portalCertEstiStats.do"
+  },
+  {
+   "group": "Audio, Lights & HMI",
+   "key": "status_lights",
+   "label": "LED flag",
+   "value": "LED flagpole for visibility to drivers",
+   "unit": "",
+   "note": "",
+   "source": "https://www.yna.co.kr/view/AKR20250623023400030"
+  }
+ ]
+}

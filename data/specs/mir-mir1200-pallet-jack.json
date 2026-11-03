@@ -1,0 +1,686 @@
+{
+ "id": "mir-mir1200-pallet-jack",
+ "checked": "2026-11-04",
+ "documents": [
+  {
+   "title": "MiR1200 Pallet Jack Specifications v2.102 (2025-09-01, MiR, distributor-hosted PDF)",
+   "url": "https://einsrobotics.com/wp-content/uploads/2026/03/MiR1200_20Pallet_20Jack_20Specifications_202.102.pdf"
+  },
+  {
+   "title": "MiR1200 Pallet Jack specifications page (MiR)",
+   "url": "https://mobile-industrial-robots.com/products/robots/mir1200-pallet-jack/specifications"
+  },
+  {
+   "title": "MiR1200 Pallet Jack launch press release (MiR, 2024-03-19)",
+   "url": "https://mobile-industrial-robots.com/blog/mir1200-pallet-jack-using-ai-to-revolutionize-pallet-handling"
+  }
+ ],
+ "specs": [
+  {
+   "group": "Identity",
+   "key": "robot_type",
+   "label": "Robot type",
+   "value": "Autonomous Mobile Robot (AMR), pallet jack",
+   "unit": "",
+   "note": "",
+   "source": "https://einsrobotics.com/wp-content/uploads/2026/03/MiR1200_20Pallet_20Jack_20Specifications_202.102.pdf"
+  },
+  {
+   "group": "Safety & Compliance",
+   "key": "intended_use",
+   "label": "Designated use",
+   "value": "Automated driverless conveyance of heavy loads",
+   "unit": "",
+   "note": "",
+   "source": "https://einsrobotics.com/wp-content/uploads/2026/03/MiR1200_20Pallet_20Jack_20Specifications_202.102.pdf"
+  },
+  {
+   "group": "Identity",
+   "key": "color",
+   "label": "Color",
+   "value": "RAL 7011 / Iron Gray",
+   "unit": "",
+   "note": "",
+   "source": "https://einsrobotics.com/wp-content/uploads/2026/03/MiR1200_20Pallet_20Jack_20Specifications_202.102.pdf"
+  },
+  {
+   "group": "Identity",
+   "key": "design_life",
+   "label": "Product design life",
+   "value": "5 years or 20 000 hours of active operation, whichever comes first",
+   "unit": "",
+   "note": "",
+   "source": "https://einsrobotics.com/wp-content/uploads/2026/03/MiR1200_20Pallet_20Jack_20Specifications_202.102.pdf"
+  },
+  {
+   "group": "Identity",
+   "key": "spec_document_date",
+   "label": "Specification document date",
+   "value": "2025-09-01",
+   "unit": "",
+   "note": "spec v2.102",
+   "source": "https://einsrobotics.com/wp-content/uploads/2026/03/MiR1200_20Pallet_20Jack_20Specifications_202.102.pdf"
+  },
+  {
+   "group": "Environment & Protection",
+   "key": "ip_rating",
+   "label": "IP rating",
+   "value": "IP52",
+   "unit": "",
+   "note": "",
+   "source": "https://einsrobotics.com/wp-content/uploads/2026/03/MiR1200_20Pallet_20Jack_20Specifications_202.102.pdf"
+  },
+  {
+   "group": "Dimensions & Mass",
+   "key": "length",
+   "label": "Length",
+   "value": 1934,
+   "unit": "mm",
+   "note": "",
+   "source": "https://einsrobotics.com/wp-content/uploads/2026/03/MiR1200_20Pallet_20Jack_20Specifications_202.102.pdf"
+  },
+  {
+   "group": "Dimensions & Mass",
+   "key": "width",
+   "label": "Width",
+   "value": 820,
+   "unit": "mm",
+   "note": "",
+   "source": "https://einsrobotics.com/wp-content/uploads/2026/03/MiR1200_20Pallet_20Jack_20Specifications_202.102.pdf"
+  },
+  {
+   "group": "Dimensions & Mass",
+   "key": "height",
+   "label": "Height",
+   "value": 2120,
+   "unit": "mm",
+   "note": "",
+   "source": "https://einsrobotics.com/wp-content/uploads/2026/03/MiR1200_20Pallet_20Jack_20Specifications_202.102.pdf"
+  },
+  {
+   "group": "Dimensions & Mass",
+   "key": "weight",
+   "label": "Weight",
+   "value": 750,
+   "unit": "kg",
+   "note": "",
+   "source": "https://einsrobotics.com/wp-content/uploads/2026/03/MiR1200_20Pallet_20Jack_20Specifications_202.102.pdf"
+  },
+  {
+   "group": "Dimensions & Mass",
+   "key": "weight_distribution",
+   "label": "Weight distribution (no payload)",
+   "value": "Drive wheel 500 kg; each caster wheel 150 kg; each support leg roller 100 kg",
+   "unit": "",
+   "note": "",
+   "source": "https://einsrobotics.com/wp-content/uploads/2026/03/MiR1200_20Pallet_20Jack_20Specifications_202.102.pdf"
+  },
+  {
+   "group": "Payload & Mounting",
+   "key": "max_lift_height",
+   "label": "Maximum lift height",
+   "value": 1120,
+   "unit": "mm",
+   "note": "",
+   "source": "https://einsrobotics.com/wp-content/uploads/2026/03/MiR1200_20Pallet_20Jack_20Specifications_202.102.pdf"
+  },
+  {
+   "group": "Payload & Mounting",
+   "key": "max_lift_height",
+   "label": "Maximum fork lifting height",
+   "value": 1140,
+   "unit": "mm",
+   "note": "as stated on product web page",
+   "source": "https://mobile-industrial-robots.com/products/robots/mir1200-pallet-jack/specifications"
+  },
+  {
+   "group": "Payload & Mounting",
+   "key": "auto_pick_place_height",
+   "label": "Maximum height for automatic pallet pick-up/place",
+   "value": 850,
+   "unit": "mm",
+   "note": "",
+   "source": "https://einsrobotics.com/wp-content/uploads/2026/03/MiR1200_20Pallet_20Jack_20Specifications_202.102.pdf"
+  },
+  {
+   "group": "Payload & Mounting",
+   "key": "fork_dimensions",
+   "label": "Fork dimensions",
+   "value": "L 1182 mm; W 188 mm; outer-edge distance 560 mm; inner-edge distance 184 mm; height 63 mm",
+   "unit": "",
+   "note": "",
+   "source": "https://einsrobotics.com/wp-content/uploads/2026/03/MiR1200_20Pallet_20Jack_20Specifications_202.102.pdf"
+  },
+  {
+   "group": "Payload & Mounting",
+   "key": "support_leg_dimensions",
+   "label": "Support leg dimensions",
+   "value": "L 880 mm; H 85 mm",
+   "unit": "",
+   "note": "",
+   "source": "https://einsrobotics.com/wp-content/uploads/2026/03/MiR1200_20Pallet_20Jack_20Specifications_202.102.pdf"
+  },
+  {
+   "group": "Dimensions & Mass",
+   "key": "turning_radius",
+   "label": "Turning radius",
+   "value": 1564,
+   "unit": "mm",
+   "note": "",
+   "source": "https://einsrobotics.com/wp-content/uploads/2026/03/MiR1200_20Pallet_20Jack_20Specifications_202.102.pdf"
+  },
+  {
+   "group": "Mobility & Performance",
+   "key": "max_payload",
+   "label": "Maximum payload",
+   "value": 1200,
+   "unit": "kg",
+   "note": "",
+   "source": "https://einsrobotics.com/wp-content/uploads/2026/03/MiR1200_20Pallet_20Jack_20Specifications_202.102.pdf"
+  },
+  {
+   "group": "Payload & Mounting",
+   "key": "pallet_types",
+   "label": "Pallet types",
+   "value": "EPAL 1 (grade A/B); EPAL 3 (grade A/B); 1250 × 1250 mm (48″×48″) carts; 45″ × 48″ nestable pallets",
+   "unit": "",
+   "note": "",
+   "source": "https://einsrobotics.com/wp-content/uploads/2026/03/MiR1200_20Pallet_20Jack_20Specifications_202.102.pdf"
+  },
+  {
+   "group": "Payload & Mounting",
+   "key": "max_payload_height",
+   "label": "Maximum payload height",
+   "value": 2000,
+   "unit": "mm",
+   "note": "",
+   "source": "https://einsrobotics.com/wp-content/uploads/2026/03/MiR1200_20Pallet_20Jack_20Specifications_202.102.pdf"
+  },
+  {
+   "group": "Mobility & Performance",
+   "key": "max_speed",
+   "label": "Maximum speed",
+   "value": 1.5,
+   "unit": "m/s",
+   "note": "with maximum payload on a flat surface (5.4 km/h)",
+   "source": "https://einsrobotics.com/wp-content/uploads/2026/03/MiR1200_20Pallet_20Jack_20Specifications_202.102.pdf"
+  },
+  {
+   "group": "Mobility & Performance",
+   "key": "max_acceleration",
+   "label": "Maximum acceleration",
+   "value": 0.3,
+   "unit": "m/s²",
+   "note": "no payload",
+   "source": "https://einsrobotics.com/wp-content/uploads/2026/03/MiR1200_20Pallet_20Jack_20Specifications_202.102.pdf"
+  },
+  {
+   "group": "Safety & Compliance",
+   "key": "max_noise_level",
+   "label": "Maximum noise level",
+   "value": 77.3,
+   "unit": "dB",
+   "note": "",
+   "source": "https://einsrobotics.com/wp-content/uploads/2026/03/MiR1200_20Pallet_20Jack_20Specifications_202.102.pdf"
+  },
+  {
+   "group": "Payload & Mounting",
+   "key": "pallet_handling_time",
+   "label": "Pallet pick-up / place time",
+   "value": "front entry: up to 40 s / 30 s; left or right entry: up to 55 s / 50 s",
+   "unit": "",
+   "note": "",
+   "source": "https://einsrobotics.com/wp-content/uploads/2026/03/MiR1200_20Pallet_20Jack_20Specifications_202.102.pdf"
+  },
+  {
+   "group": "Charging & Docking",
+   "key": "docking_time",
+   "label": "Docking / undocking time, charging station",
+   "value": "up to 18 s / up to 9 s",
+   "unit": "",
+   "note": "",
+   "source": "https://einsrobotics.com/wp-content/uploads/2026/03/MiR1200_20Pallet_20Jack_20Specifications_202.102.pdf"
+  },
+  {
+   "group": "Terrain & Navigation Limits",
+   "key": "min_corridor_width",
+   "label": "Operational corridor width",
+   "value": 2.1,
+   "unit": "m",
+   "note": "EPAL 1 at full speed; 1.55 m at reduced speed",
+   "source": "https://einsrobotics.com/wp-content/uploads/2026/03/MiR1200_20Pallet_20Jack_20Specifications_202.102.pdf"
+  },
+  {
+   "group": "Terrain & Navigation Limits",
+   "key": "corridor_width_90_turn",
+   "label": "Corridor width for a 90° turn",
+   "value": 1.9,
+   "unit": "m",
+   "note": "EPAL 1",
+   "source": "https://einsrobotics.com/wp-content/uploads/2026/03/MiR1200_20Pallet_20Jack_20Specifications_202.102.pdf"
+  },
+  {
+   "group": "Terrain & Navigation Limits",
+   "key": "corridor_width_u_turn",
+   "label": "Corridor width for a U-turn",
+   "value": 1.95,
+   "unit": "m",
+   "note": "EPAL 1",
+   "source": "https://einsrobotics.com/wp-content/uploads/2026/03/MiR1200_20Pallet_20Jack_20Specifications_202.102.pdf"
+  },
+  {
+   "group": "Terrain & Navigation Limits",
+   "key": "pivot_width",
+   "label": "Operational width for pivoting",
+   "value": 2.75,
+   "unit": "m",
+   "note": "EPAL 1",
+   "source": "https://einsrobotics.com/wp-content/uploads/2026/03/MiR1200_20Pallet_20Jack_20Specifications_202.102.pdf"
+  },
+  {
+   "group": "Terrain & Navigation Limits",
+   "key": "min_doorway_width",
+   "label": "Operational doorway width",
+   "value": 1.4,
+   "unit": "m",
+   "note": "EPAL 1",
+   "source": "https://einsrobotics.com/wp-content/uploads/2026/03/MiR1200_20Pallet_20Jack_20Specifications_202.102.pdf"
+  },
+  {
+   "group": "Terrain & Navigation Limits",
+   "key": "corridor_width_two_robots_passing",
+   "label": "Corridor width for two robots passing",
+   "value": 3.8,
+   "unit": "m",
+   "note": "EPAL 1 at full speed; 2.90 m at reduced speed",
+   "source": "https://einsrobotics.com/wp-content/uploads/2026/03/MiR1200_20Pallet_20Jack_20Specifications_202.102.pdf"
+  },
+  {
+   "group": "Charging & Docking",
+   "key": "space_in_front_of_charger",
+   "label": "Minimum space in front of charging station",
+   "value": 4.0,
+   "unit": "m",
+   "note": "single station; 4.60 m in front of a line of stations",
+   "source": "https://einsrobotics.com/wp-content/uploads/2026/03/MiR1200_20Pallet_20Jack_20Specifications_202.102.pdf"
+  },
+  {
+   "group": "Charging & Docking",
+   "key": "min_distance_between_chargers",
+   "label": "Minimum distance between charging stations",
+   "value": 0.6,
+   "unit": "m",
+   "note": "",
+   "source": "https://einsrobotics.com/wp-content/uploads/2026/03/MiR1200_20Pallet_20Jack_20Specifications_202.102.pdf"
+  },
+  {
+   "group": "Terrain & Navigation Limits",
+   "key": "pallet_space_requirements",
+   "label": "Pallet space requirements (EPAL 1)",
+   "value": "In front of floor pallets: 3.5 m (front entry) / 2.7 m (side entry); raised stations: 2.9 m; between pallets: 0.30 m side-to-side, 0.25 m end-to-end; sides 0.3 m; behind 0.35 m",
+   "unit": "",
+   "note": "",
+   "source": "https://einsrobotics.com/wp-content/uploads/2026/03/MiR1200_20Pallet_20Jack_20Specifications_202.102.pdf"
+  },
+  {
+   "group": "Terrain & Navigation Limits",
+   "key": "pallet_surface_deviation",
+   "label": "Surface deviation for pallet pick/place",
+   "value": "±1°",
+   "unit": "",
+   "note": "EPAL 1",
+   "source": "https://einsrobotics.com/wp-content/uploads/2026/03/MiR1200_20Pallet_20Jack_20Specifications_202.102.pdf"
+  },
+  {
+   "group": "Power & Battery",
+   "key": "battery_chemistry",
+   "label": "Battery type",
+   "value": "Lithium-ion, 3 pcs",
+   "unit": "",
+   "note": "",
+   "source": "https://einsrobotics.com/wp-content/uploads/2026/03/MiR1200_20Pallet_20Jack_20Specifications_202.102.pdf"
+  },
+  {
+   "group": "Power & Battery",
+   "key": "battery_count",
+   "label": "Number of batteries",
+   "value": 3,
+   "unit": "",
+   "note": "",
+   "source": "https://einsrobotics.com/wp-content/uploads/2026/03/MiR1200_20Pallet_20Jack_20Specifications_202.102.pdf"
+  },
+  {
+   "group": "Charging & Docking",
+   "key": "charging_method",
+   "label": "Charging options",
+   "value": "Charge 48V 35A; Charge 48V 105A; MiR Charge 48V (requires non-reflective mat); Battery Charger 48V 12A; Battery Charger 48V 650W 13.5A; Battery Charger 48V 1200W 13.5A; Cable Charger Lite 48V 3A",
+   "unit": "",
+   "note": "",
+   "source": "https://einsrobotics.com/wp-content/uploads/2026/03/MiR1200_20Pallet_20Jack_20Specifications_202.102.pdf"
+  },
+  {
+   "group": "Power & Battery",
+   "key": "battery_mass",
+   "label": "Battery weight",
+   "value": 11,
+   "unit": "kg",
+   "note": "per battery",
+   "source": "https://einsrobotics.com/wp-content/uploads/2026/03/MiR1200_20Pallet_20Jack_20Specifications_202.102.pdf"
+  },
+  {
+   "group": "Power & Battery",
+   "key": "battery_dimensions",
+   "label": "Battery dimensions",
+   "value": "545 × 201 × 75",
+   "unit": "mm",
+   "note": "per battery",
+   "source": "https://einsrobotics.com/wp-content/uploads/2026/03/MiR1200_20Pallet_20Jack_20Specifications_202.102.pdf"
+  },
+  {
+   "group": "Power & Battery",
+   "key": "battery_cycle_life",
+   "label": "Battery cycle life",
+   "value": 3000,
+   "unit": "cycles",
+   "note": "minimum full cycles before capacity drops below 80%",
+   "source": "https://einsrobotics.com/wp-content/uploads/2026/03/MiR1200_20Pallet_20Jack_20Specifications_202.102.pdf"
+  },
+  {
+   "group": "Power & Battery",
+   "key": "battery_voltage",
+   "label": "Battery voltage (nominal)",
+   "value": 47.7,
+   "unit": "V",
+   "note": "minimum 42 V, maximum 54 V",
+   "source": "https://einsrobotics.com/wp-content/uploads/2026/03/MiR1200_20Pallet_20Jack_20Specifications_202.102.pdf"
+  },
+  {
+   "group": "Power & Battery",
+   "key": "battery_capacity_ah",
+   "label": "Battery capacity (Ah)",
+   "value": 102.6,
+   "unit": "Ah",
+   "note": "",
+   "source": "https://einsrobotics.com/wp-content/uploads/2026/03/MiR1200_20Pallet_20Jack_20Specifications_202.102.pdf"
+  },
+  {
+   "group": "Power & Battery",
+   "key": "runtime",
+   "label": "Active operation time, mixed payload",
+   "value": "7 h 40 min",
+   "unit": "",
+   "note": "90–10%",
+   "source": "https://einsrobotics.com/wp-content/uploads/2026/03/MiR1200_20Pallet_20Jack_20Specifications_202.102.pdf"
+  },
+  {
+   "group": "Power & Battery",
+   "key": "runtime_with_payload",
+   "label": "Active operation time, maximum payload",
+   "value": "up to 10 h",
+   "unit": "",
+   "note": "",
+   "source": "https://mobile-industrial-robots.com/products/robots/mir1200-pallet-jack/specifications"
+  },
+  {
+   "group": "Charging & Docking",
+   "key": "charge_to_runtime_ratio",
+   "label": "Charging-to-runtime ratio",
+   "value": "1:14",
+   "unit": "",
+   "note": "",
+   "source": "https://mobile-industrial-robots.com/blog/mir1200-pallet-jack-using-ai-to-revolutionize-pallet-handling"
+  },
+  {
+   "group": "Charging & Docking",
+   "key": "opportunity_charging",
+   "label": "Opportunity charging",
+   "value": true,
+   "unit": "",
+   "note": "",
+   "source": "https://mobile-industrial-robots.com/blog/mir1200-pallet-jack-using-ai-to-revolutionize-pallet-handling"
+  },
+  {
+   "group": "Environment & Protection",
+   "key": "indoor_outdoor",
+   "label": "Environment",
+   "value": "Indoor use only",
+   "unit": "",
+   "note": "",
+   "source": "https://einsrobotics.com/wp-content/uploads/2026/03/MiR1200_20Pallet_20Jack_20Specifications_202.102.pdf"
+  },
+  {
+   "group": "Environment & Protection",
+   "key": "operating_temperature",
+   "label": "Operating ambient temperature",
+   "value": "5–25",
+   "unit": "°C",
+   "note": "continuous use; maximum 40 °C for 1 hour",
+   "source": "https://einsrobotics.com/wp-content/uploads/2026/03/MiR1200_20Pallet_20Jack_20Specifications_202.102.pdf"
+  },
+  {
+   "group": "Environment & Protection",
+   "key": "storage_temperature",
+   "label": "Storage temperature",
+   "value": "−20 to 60",
+   "unit": "°C",
+   "note": "1 month; −20 to 45 °C for 3 months",
+   "source": "https://einsrobotics.com/wp-content/uploads/2026/03/MiR1200_20Pallet_20Jack_20Specifications_202.102.pdf"
+  },
+  {
+   "group": "Environment & Protection",
+   "key": "operating_humidity",
+   "label": "Humidity",
+   "value": "20–95",
+   "unit": "%",
+   "note": "non-condensing",
+   "source": "https://einsrobotics.com/wp-content/uploads/2026/03/MiR1200_20Pallet_20Jack_20Specifications_202.102.pdf"
+  },
+  {
+   "group": "Terrain & Navigation Limits",
+   "key": "floor_flatness_requirement",
+   "label": "Floor conditions",
+   "value": "Clean and dry",
+   "unit": "",
+   "note": "",
+   "source": "https://einsrobotics.com/wp-content/uploads/2026/03/MiR1200_20Pallet_20Jack_20Specifications_202.102.pdf"
+  },
+  {
+   "group": "Terrain & Navigation Limits",
+   "key": "max_slope",
+   "label": "Maximum slope at rated load",
+   "value": 0,
+   "unit": "%",
+   "note": "",
+   "source": "https://einsrobotics.com/wp-content/uploads/2026/03/MiR1200_20Pallet_20Jack_20Specifications_202.102.pdf"
+  },
+  {
+   "group": "Terrain & Navigation Limits",
+   "key": "max_step_height",
+   "label": "Maximum step at rated load",
+   "value": 10,
+   "unit": "mm",
+   "note": "at 0.5 m/s",
+   "source": "https://einsrobotics.com/wp-content/uploads/2026/03/MiR1200_20Pallet_20Jack_20Specifications_202.102.pdf"
+  },
+  {
+   "group": "Terrain & Navigation Limits",
+   "key": "floor_friction_coefficient",
+   "label": "Floor-to-wheel friction coefficient",
+   "value": "0.60–0.80",
+   "unit": "",
+   "note": "",
+   "source": "https://einsrobotics.com/wp-content/uploads/2026/03/MiR1200_20Pallet_20Jack_20Specifications_202.102.pdf"
+  },
+  {
+   "group": "Sensors & Perception",
+   "key": "undetectable_materials",
+   "label": "Materials not reliably detected",
+   "value": "Transparent, translucent, glossy, reflective and light-emitting",
+   "unit": "",
+   "note": "",
+   "source": "https://einsrobotics.com/wp-content/uploads/2026/03/MiR1200_20Pallet_20Jack_20Specifications_202.102.pdf"
+  },
+  {
+   "group": "Environment & Protection",
+   "key": "lighting_requirements",
+   "label": "Optimal light conditions",
+   "value": "Even and steady lighting; strong directional light can cause false obstacle detections",
+   "unit": "",
+   "note": "",
+   "source": "https://einsrobotics.com/wp-content/uploads/2026/03/MiR1200_20Pallet_20Jack_20Specifications_202.102.pdf"
+  },
+  {
+   "group": "Safety & Compliance",
+   "key": "safety_standards",
+   "label": "Safety standards (design basis)",
+   "value": "EN ISO 12100:2010; ISO 13849-1:2023; EN ISO 13850:2015; EN ISO 3691-4:2023",
+   "unit": "",
+   "note": "",
+   "source": "https://einsrobotics.com/wp-content/uploads/2026/03/MiR1200_20Pallet_20Jack_20Specifications_202.102.pdf"
+  },
+  {
+   "group": "Safety & Compliance",
+   "key": "emc_standards",
+   "label": "EMC",
+   "value": "EN IEC 61000-6-4:2007/A1:2011; EN IEC 61000-6-2:2005/AC:2005; EN 12895:2015+A1:2019",
+   "unit": "",
+   "note": "",
+   "source": "https://einsrobotics.com/wp-content/uploads/2026/03/MiR1200_20Pallet_20Jack_20Specifications_202.102.pdf"
+  },
+  {
+   "group": "Sensors & Perception",
+   "key": "safety_scanner",
+   "label": "Safety laser scanners",
+   "value": "3 SICK scanners (front and rear), 360° personnel detection",
+   "unit": "",
+   "note": "",
+   "source": "https://einsrobotics.com/wp-content/uploads/2026/03/MiR1200_20Pallet_20Jack_20Specifications_202.102.pdf"
+  },
+  {
+   "group": "Sensors & Perception",
+   "key": "depth_camera_count",
+   "label": "3D cameras",
+   "value": 5,
+   "unit": "",
+   "note": "pallet and obstacle detection",
+   "source": "https://einsrobotics.com/wp-content/uploads/2026/03/MiR1200_20Pallet_20Jack_20Specifications_202.102.pdf"
+  },
+  {
+   "group": "Sensors & Perception",
+   "key": "lidar_type",
+   "label": "3D LiDAR",
+   "value": "1 on top of robot, for obstacle detection",
+   "unit": "",
+   "note": "",
+   "source": "https://einsrobotics.com/wp-content/uploads/2026/03/MiR1200_20Pallet_20Jack_20Specifications_202.102.pdf"
+  },
+  {
+   "group": "Sensors & Perception",
+   "key": "ultrasonic_sensors",
+   "label": "Ultrasonic sensor",
+   "value": 1,
+   "unit": "",
+   "note": "detects pallets securely placed on forks",
+   "source": "https://einsrobotics.com/wp-content/uploads/2026/03/MiR1200_20Pallet_20Jack_20Specifications_202.102.pdf"
+  },
+  {
+   "group": "Sensors & Perception",
+   "key": "pallet_detection",
+   "label": "Pallet detection",
+   "value": "AI-based pallet detection",
+   "unit": "",
+   "note": "",
+   "source": "https://mobile-industrial-robots.com/blog/mir1200-pallet-jack-using-ai-to-revolutionize-pallet-handling"
+  },
+  {
+   "group": "Audio, Lights & HMI",
+   "key": "speaker",
+   "label": "Audio",
+   "value": "Speaker and safety buzzer",
+   "unit": "",
+   "note": "",
+   "source": "https://einsrobotics.com/wp-content/uploads/2026/03/MiR1200_20Pallet_20Jack_20Specifications_202.102.pdf"
+  },
+  {
+   "group": "Audio, Lights & HMI",
+   "key": "status_lights",
+   "label": "Status light",
+   "value": "4 LED bands indicating robot status",
+   "unit": "",
+   "note": "",
+   "source": "https://einsrobotics.com/wp-content/uploads/2026/03/MiR1200_20Pallet_20Jack_20Specifications_202.102.pdf"
+  },
+  {
+   "group": "Audio, Lights & HMI",
+   "key": "signal_lights",
+   "label": "Signal lights",
+   "value": "4, indicating driving behavior and direction",
+   "unit": "",
+   "note": "",
+   "source": "https://einsrobotics.com/wp-content/uploads/2026/03/MiR1200_20Pallet_20Jack_20Specifications_202.102.pdf"
+  },
+  {
+   "group": "Audio, Lights & HMI",
+   "key": "warning_system",
+   "label": "Blue light",
+   "value": "1 projector, blue light 420 cm in front of the robot to alert personnel",
+   "unit": "",
+   "note": "",
+   "source": "https://einsrobotics.com/wp-content/uploads/2026/03/MiR1200_20Pallet_20Jack_20Specifications_202.102.pdf"
+  },
+  {
+   "group": "Compute & Software",
+   "key": "cpu",
+   "label": "AI compute module",
+   "value": "NVIDIA Jetson AGX Orin",
+   "unit": "",
+   "note": "full perception stack accelerated on GPU",
+   "source": "https://mobile-industrial-robots.com/blog/mir1200-pallet-jack-using-ai-to-revolutionize-pallet-handling"
+  },
+  {
+   "group": "Compute & Software",
+   "key": "ai_training_data",
+   "label": "Pallet detection model training data",
+   "value": "1.2 million+ real and synthetic images",
+   "unit": "",
+   "note": "",
+   "source": "https://mobile-industrial-robots.com/blog/mir1200-pallet-jack-using-ai-to-revolutionize-pallet-handling"
+  },
+  {
+   "group": "Compute & Software",
+   "key": "fleet_software",
+   "label": "Fleet software",
+   "value": "MiR Fleet; MiR Insights",
+   "unit": "",
+   "note": "",
+   "source": "https://mobile-industrial-robots.com/blog/mir1200-pallet-jack-using-ai-to-revolutionize-pallet-handling"
+  },
+  {
+   "group": "Identity",
+   "key": "release_date",
+   "label": "Launch date",
+   "value": "2024-03-19",
+   "unit": "",
+   "note": "",
+   "source": "https://mobile-industrial-robots.com/blog/mir1200-pallet-jack-using-ai-to-revolutionize-pallet-handling"
+  },
+  {
+   "group": "Mobility & Performance",
+   "key": "drive_type",
+   "label": "Drive system",
+   "value": "Tricycle drive (developed with Logitrans)",
+   "unit": "",
+   "note": "",
+   "source": "https://mobile-industrial-robots.com/blog/mir1200-pallet-jack-using-ai-to-revolutionize-pallet-handling"
+  },
+  {
+   "group": "Sensors & Perception",
+   "key": "sensor_fusion",
+   "label": "Obstacle detection",
+   "value": "LiDAR and 3D vision fused for floor, overhead and surrounding obstacles",
+   "unit": "",
+   "note": "",
+   "source": "https://mobile-industrial-robots.com/blog/mir1200-pallet-jack-using-ai-to-revolutionize-pallet-handling"
+  }
+ ]
+}

@@ -1,0 +1,259 @@
+{
+ "id": "ascento-guard",
+ "checked": "2026-11-04",
+ "documents": [
+  {
+   "title": "Ascento homepage (Ascento Guard)",
+   "url": "https://www.ascento.ai/"
+  },
+  {
+   "title": "Ascento Guard one-pager (Ascento, Jun 2026, hosted by AAAE)",
+   "url": "https://aaae.org/hubfs/20260603_Onepager_Ascento%20Guard.pdf?hsLang=en"
+  },
+  {
+   "title": "The Robot Report – Ascento Guard launch specs (Sep 2023)",
+   "url": "https://www.therobotreport.com/ascento-launches-nimble-guard-robot-following-a-new-4-3m-funding-round/"
+  },
+  {
+   "title": "The Robot Report – Ascento Guard 2.0 (Nov 2024)",
+   "url": "https://www.therobotreport.com/ascento-guard-2-0-ready-security-duty-large-facilities/"
+  }
+ ],
+ "specs": [
+  {
+   "group": "Identity",
+   "key": "variants",
+   "label": "Generations",
+   "value": "Ascento Guard (2023); Ascento Guard 2.0 (Nov 2024)",
+   "unit": "",
+   "note": "",
+   "source": "https://www.therobotreport.com/ascento-guard-2-0-ready-security-duty-large-facilities/"
+  },
+  {
+   "group": "Power & Battery",
+   "key": "runtime",
+   "label": "Battery life",
+   "value": ">8",
+   "unit": "h",
+   "note": "current site; Guard 2.0 'up to 8 hours'; 2023 launch spec 4.5 h",
+   "source": "https://www.ascento.ai/"
+  },
+  {
+   "group": "Power & Battery",
+   "key": "runtime",
+   "label": "Battery life (2023 launch)",
+   "value": 4.5,
+   "unit": "h",
+   "note": "first generation",
+   "source": "",
+   "ref": "https://www.therobotreport.com/ascento-launches-nimble-guard-robot-following-a-new-4-3m-funding-round/"
+  },
+  {
+   "group": "Charging & Docking",
+   "key": "charge_ratio",
+   "label": "Charging ratio",
+   "value": "4:1",
+   "unit": "",
+   "note": "Guard 2.0 (runtime:charge)",
+   "source": "https://www.therobotreport.com/ascento-guard-2-0-ready-security-duty-large-facilities/"
+  },
+  {
+   "group": "Charging & Docking",
+   "key": "charging_method",
+   "label": "Charging",
+   "value": "Autonomous charging (dock)",
+   "unit": "",
+   "note": "",
+   "source": "https://www.ascento.ai/"
+  },
+  {
+   "group": "Environment & Protection",
+   "key": "rain_rating",
+   "label": "Weather",
+   "value": "All-weather: rain, snow, wind",
+   "unit": "",
+   "note": "",
+   "source": "https://www.ascento.ai/"
+  },
+  {
+   "group": "Mobility & Performance",
+   "key": "nominal_speed",
+   "label": "Driving speed",
+   "value": 3.1,
+   "unit": "mph",
+   "note": "autonomous patrol speed (≈5 km/h)",
+   "source": "https://aaae.org/hubfs/20260603_Onepager_Ascento%20Guard.pdf?hsLang=en"
+  },
+  {
+   "group": "Dimensions & Mass",
+   "key": "weight",
+   "label": "Weight",
+   "value": "<30",
+   "unit": "kg",
+   "note": "2023 launch spec",
+   "source": "https://www.therobotreport.com/ascento-launches-nimble-guard-robot-following-a-new-4-3m-funding-round/"
+  },
+  {
+   "group": "Dimensions & Mass",
+   "key": "length",
+   "label": "Length",
+   "value": "50–90",
+   "unit": "cm",
+   "note": "2023 launch spec; variable",
+   "source": "https://www.therobotreport.com/ascento-launches-nimble-guard-robot-following-a-new-4-3m-funding-round/"
+  },
+  {
+   "group": "Dimensions & Mass",
+   "key": "width",
+   "label": "Width",
+   "value": 70,
+   "unit": "cm",
+   "note": "2023 launch spec",
+   "source": "https://www.therobotreport.com/ascento-launches-nimble-guard-robot-following-a-new-4-3m-funding-round/"
+  },
+  {
+   "group": "Dimensions & Mass",
+   "key": "height",
+   "label": "Height",
+   "value": 50,
+   "unit": "cm",
+   "note": "2023 launch spec",
+   "source": "https://www.therobotreport.com/ascento-launches-nimble-guard-robot-following-a-new-4-3m-funding-round/"
+  },
+  {
+   "group": "Sensors & Perception",
+   "key": "camera_count",
+   "label": "Cameras",
+   "value": 4,
+   "unit": "",
+   "note": "360° view",
+   "source": "https://aaae.org/hubfs/20260603_Onepager_Ascento%20Guard.pdf?hsLang=en"
+  },
+  {
+   "group": "Sensors & Perception",
+   "key": "thermal_camera",
+   "label": "Thermal camera",
+   "value": "Yes; Guard 2.0 thermal camera 160% higher resolution than Gen 1",
+   "unit": "",
+   "note": "https://www.therobotreport.com/ascento-guard-2-0-ready-security-duty-large-facilities/",
+   "source": "https://www.ascento.ai/"
+  },
+  {
+   "group": "Sensors & Perception",
+   "key": "camera_type",
+   "label": "Payload cameras",
+   "value": "Thermal, RGB and infrared cameras",
+   "unit": "",
+   "note": "",
+   "source": "https://www.ascento.ai/"
+  },
+  {
+   "group": "Sensors & Perception",
+   "key": "night_detection",
+   "label": "Night detection range",
+   "value": "2× front, 5× sides/rear vs Gen 1",
+   "unit": "",
+   "note": "Guard 2.0",
+   "source": "https://www.therobotreport.com/ascento-guard-2-0-ready-security-duty-large-facilities/"
+  },
+  {
+   "group": "Audio, Lights & HMI",
+   "key": "spotlights",
+   "label": "Spotlights",
+   "value": "3× brighter than Gen 1",
+   "unit": "",
+   "note": "Guard 2.0",
+   "source": "https://www.therobotreport.com/ascento-guard-2-0-ready-security-duty-large-facilities/"
+  },
+  {
+   "group": "Sensors & Perception",
+   "key": "microphones",
+   "label": "Microphone & speaker",
+   "value": "Yes; 2-way communication",
+   "unit": "",
+   "note": "https://aaae.org/hubfs/20260603_Onepager_Ascento%20Guard.pdf?hsLang=en",
+   "source": "https://www.ascento.ai/"
+  },
+  {
+   "group": "Sensors & Perception",
+   "key": "gps",
+   "label": "Localisation",
+   "value": "GPS & RTK",
+   "unit": "",
+   "note": "https://aaae.org/hubfs/20260603_Onepager_Ascento%20Guard.pdf?hsLang=en",
+   "source": "https://www.ascento.ai/"
+  },
+  {
+   "group": "Connectivity & Interfaces",
+   "key": "cellular",
+   "label": "Cellular",
+   "value": "4G",
+   "unit": "",
+   "note": "2023 launch spec",
+   "source": "https://www.therobotreport.com/ascento-launches-nimble-guard-robot-following-a-new-4-3m-funding-round/"
+  },
+  {
+   "group": "Connectivity & Interfaces",
+   "key": "wifi",
+   "label": "Wi-Fi",
+   "value": "Yes",
+   "unit": "",
+   "note": "2023 launch spec",
+   "source": "https://www.therobotreport.com/ascento-launches-nimble-guard-robot-following-a-new-4-3m-funding-round/"
+  },
+  {
+   "group": "Safety & Compliance",
+   "key": "fall_recovery",
+   "label": "Self-righting",
+   "value": "Self-balances and self-rights after a fall",
+   "unit": "",
+   "note": "https://www.therobotreport.com/ascento-guard-2-0-ready-security-duty-large-facilities/",
+   "source": "https://www.ascento.ai/"
+  },
+  {
+   "group": "Controls & Operation",
+   "key": "autonomy_features",
+   "label": "Detections",
+   "value": "People, perimeter/fence integrity, open doors/windows/gates, lights, thermal anomalies, floods/fire, parking control",
+   "unit": "",
+   "note": "",
+   "source": "https://www.ascento.ai/"
+  },
+  {
+   "group": "Controls & Operation",
+   "key": "mission_software",
+   "label": "App",
+   "value": "Ascento web app: configurable patrol scheduling, AI reports, end-to-end encrypted live communication, VMS integration",
+   "unit": "",
+   "note": "",
+   "source": "https://www.ascento.ai/"
+  },
+  {
+   "group": "Commercial",
+   "key": "service_level",
+   "label": "Uptime guarantee",
+   "value": 95,
+   "unit": "%",
+   "note": "24/7 tech support hotline",
+   "source": "https://www.ascento.ai/"
+  },
+  {
+   "group": "Commercial",
+   "key": "price",
+   "label": "Pilot program fee",
+   "value": 18000,
+   "unit": "USD",
+   "note": "3-month RaaS pilot incl. setup, 24/7 support and repairs",
+   "source": "https://aaae.org/hubfs/20260603_Onepager_Ascento%20Guard.pdf?hsLang=en"
+  },
+  {
+   "group": "Commercial",
+   "key": "availability",
+   "label": "Business model",
+   "value": "Robotics-as-a-Service (hired by the hour)",
+   "unit": "",
+   "note": "",
+   "source": "https://www.therobotreport.com/ascento-launches-nimble-guard-robot-following-a-new-4-3m-funding-round/"
+  }
+ ]
+}

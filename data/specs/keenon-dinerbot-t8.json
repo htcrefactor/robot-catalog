@@ -1,0 +1,590 @@
+{
+ "id": "keenon-dinerbot-t8",
+ "checked": "2026-11-04",
+ "documents": [
+  {
+   "title": "DINERBOT T8 product page (KEENON)",
+   "url": "https://www.keenon.com/en/product/T8"
+  },
+  {
+   "title": "DINERBOT T8 flyer (KEENON, via reichelt)",
+   "url": "https://cdn-reichelt.de/documents/datenblatt/A300/EN_FLYER_T8.pdf"
+  },
+  {
+   "title": "Keenbot T8 User Manual (Keenon, 2022, via TOD System)",
+   "url": "https://store.todsystem.com/wp-content/uploads/2024/10/Guide-dutilisation-Dinnerbot-T8-1.pdf"
+  }
+ ],
+ "specs": [
+  {
+   "group": "Identity",
+   "key": "variants",
+   "label": "Variants",
+   "value": "T8 LS; T8 LB",
+   "unit": "",
+   "note": "",
+   "source": "https://cdn-reichelt.de/documents/datenblatt/A300/EN_FLYER_T8.pdf"
+  },
+  {
+   "group": "Identity",
+   "key": "model_number",
+   "label": "Model (manual)",
+   "value": "Keenbot T8 (product name FeiYu)",
+   "unit": "",
+   "note": "per Keenbot T8 User Manual (2022 edition)",
+   "source": "https://store.todsystem.com/wp-content/uploads/2024/10/Guide-dutilisation-Dinnerbot-T8-1.pdf",
+   "ref": "§3.2"
+  },
+  {
+   "group": "Identity",
+   "key": "part_number",
+   "label": "Manual part number",
+   "value": "3.03.02010005-01",
+   "unit": "",
+   "note": "user manual PN",
+   "source": "https://store.todsystem.com/wp-content/uploads/2024/10/Guide-dutilisation-Dinnerbot-T8-1.pdf"
+  },
+  {
+   "group": "Identity",
+   "key": "manufacturer_address",
+   "label": "Manufacturer address",
+   "value": "Building 56, No.1000 Jinhai Road, Pudong District, Shanghai, China",
+   "unit": "",
+   "note": "",
+   "source": "https://www.keenon.com/en/product/T8"
+  },
+  {
+   "group": "Dimensions & Mass",
+   "key": "width",
+   "label": "Width",
+   "value": 384,
+   "unit": "mm",
+   "note": "",
+   "source": "https://www.keenon.com/en/product/T8"
+  },
+  {
+   "group": "Dimensions & Mass",
+   "key": "length",
+   "label": "Depth",
+   "value": 468,
+   "unit": "mm",
+   "note": "",
+   "source": "https://www.keenon.com/en/product/T8"
+  },
+  {
+   "group": "Dimensions & Mass",
+   "key": "height",
+   "label": "Height",
+   "value": 1111,
+   "unit": "mm",
+   "note": "",
+   "source": "https://www.keenon.com/en/product/T8"
+  },
+  {
+   "group": "Dimensions & Mass",
+   "key": "length",
+   "label": "Length",
+   "value": 462,
+   "unit": "mm",
+   "note": "per Keenbot T8 User Manual (2022 edition) (L×W×H 462×384×1096)",
+   "source": "https://store.todsystem.com/wp-content/uploads/2024/10/Guide-dutilisation-Dinnerbot-T8-1.pdf",
+   "ref": "§3.2"
+  },
+  {
+   "group": "Dimensions & Mass",
+   "key": "height",
+   "label": "Height",
+   "value": 1096,
+   "unit": "mm",
+   "note": "per Keenbot T8 User Manual (2022 edition)",
+   "source": "https://store.todsystem.com/wp-content/uploads/2024/10/Guide-dutilisation-Dinnerbot-T8-1.pdf",
+   "ref": "§3.2"
+  },
+  {
+   "group": "Dimensions & Mass",
+   "key": "weight",
+   "label": "Weight",
+   "value": 34,
+   "unit": "kg",
+   "note": "T8 LS",
+   "source": "https://cdn-reichelt.de/documents/datenblatt/A300/EN_FLYER_T8.pdf"
+  },
+  {
+   "group": "Dimensions & Mass",
+   "key": "weight",
+   "label": "Weight",
+   "value": 38,
+   "unit": "kg",
+   "note": "T8 LB",
+   "source": "https://cdn-reichelt.de/documents/datenblatt/A300/EN_FLYER_T8.pdf"
+  },
+  {
+   "group": "Dimensions & Mass",
+   "key": "weight",
+   "label": "Net weight",
+   "value": 35,
+   "unit": "kg",
+   "note": "per Keenbot T8 User Manual (2022 edition); excluding charging pile",
+   "source": "https://store.todsystem.com/wp-content/uploads/2024/10/Guide-dutilisation-Dinnerbot-T8-1.pdf",
+   "ref": "§3.2"
+  },
+  {
+   "group": "Mobility & Performance",
+   "key": "max_speed",
+   "label": "Max moving speed",
+   "value": 1.0,
+   "unit": "m/s",
+   "note": "",
+   "source": "https://www.keenon.com/en/product/T8"
+  },
+  {
+   "group": "Mobility & Performance",
+   "key": "max_payload",
+   "label": "Total load capacity",
+   "value": 20,
+   "unit": "kg",
+   "note": "",
+   "source": "https://www.keenon.com/en/product/T8"
+  },
+  {
+   "group": "Mobility & Performance",
+   "key": "tray_count",
+   "label": "Number of layers (default)",
+   "value": 3,
+   "unit": "",
+   "note": "",
+   "source": "https://cdn-reichelt.de/documents/datenblatt/A300/EN_FLYER_T8.pdf"
+  },
+  {
+   "group": "Mobility & Performance",
+   "key": "tray_payload",
+   "label": "Max capacity per layer",
+   "value": "5 (top two) / 10 (bottom)",
+   "unit": "kg",
+   "note": "per Keenbot T8 User Manual (2022 edition)",
+   "source": "https://store.todsystem.com/wp-content/uploads/2024/10/Guide-dutilisation-Dinnerbot-T8-1.pdf",
+   "ref": "§3.2"
+  },
+  {
+   "group": "Payload & Mounting",
+   "key": "tray_dimensions",
+   "label": "Layer size, upper two layers",
+   "value": "383 × 342",
+   "unit": "mm",
+   "note": "",
+   "source": "https://cdn-reichelt.de/documents/datenblatt/A300/EN_FLYER_T8.pdf"
+  },
+  {
+   "group": "Payload & Mounting",
+   "key": "tray_dimensions",
+   "label": "Layer size, bottom layer",
+   "value": "325 × 318",
+   "unit": "mm",
+   "note": "",
+   "source": "https://cdn-reichelt.de/documents/datenblatt/A300/EN_FLYER_T8.pdf"
+  },
+  {
+   "group": "Payload & Mounting",
+   "key": "tray_opening_angle",
+   "label": "Open tray angle",
+   "value": 300,
+   "unit": "°",
+   "note": "",
+   "source": "https://www.keenon.com/en/product/T8"
+  },
+  {
+   "group": "Terrain & Navigation Limits",
+   "key": "min_corridor_width",
+   "label": "Minimum passage width",
+   "value": 550,
+   "unit": "mm",
+   "note": "",
+   "source": "https://www.keenon.com/en/product/T8"
+  },
+  {
+   "group": "Terrain & Navigation Limits",
+   "key": "max_slope",
+   "label": "Slope angle",
+   "value": 5,
+   "unit": "°",
+   "note": "",
+   "source": "https://www.keenon.com/en/product/T8"
+  },
+  {
+   "group": "Terrain & Navigation Limits",
+   "key": "max_obstacle_height",
+   "label": "Obstacle detection (low)",
+   "value": "obstacles under 5 cm detected",
+   "unit": "",
+   "note": "by 3 stereo vision sensors",
+   "source": "https://www.keenon.com/en/product/T8"
+  },
+  {
+   "group": "Terrain & Navigation Limits",
+   "key": "floor_flatness_requirement",
+   "label": "Working environment",
+   "value": "Dry indoors with flat and smooth ground",
+   "unit": "",
+   "note": "per Keenbot T8 User Manual (2022 edition)",
+   "source": "https://store.todsystem.com/wp-content/uploads/2024/10/Guide-dutilisation-Dinnerbot-T8-1.pdf",
+   "ref": "§3.2"
+  },
+  {
+   "group": "Terrain & Navigation Limits",
+   "key": "mapping",
+   "label": "Re-mapping requirement",
+   "value": "Re-mapping required after significant indoor changes",
+   "unit": "",
+   "note": "",
+   "source": "https://store.todsystem.com/wp-content/uploads/2024/10/Guide-dutilisation-Dinnerbot-T8-1.pdf"
+  },
+  {
+   "group": "Power & Battery",
+   "key": "battery_capacity",
+   "label": "Battery capacity",
+   "value": "DC 25.9 V 20.8 Ah",
+   "unit": "",
+   "note": "per Keenbot T8 User Manual (2022 edition)",
+   "source": "https://store.todsystem.com/wp-content/uploads/2024/10/Guide-dutilisation-Dinnerbot-T8-1.pdf",
+   "ref": "§3.2"
+  },
+  {
+   "group": "Power & Battery",
+   "key": "runtime",
+   "label": "Battery life",
+   "value": "up to 15",
+   "unit": "h",
+   "note": "T8 LS",
+   "source": "https://cdn-reichelt.de/documents/datenblatt/A300/EN_FLYER_T8.pdf"
+  },
+  {
+   "group": "Power & Battery",
+   "key": "runtime",
+   "label": "Battery life",
+   "value": "up to 18",
+   "unit": "h",
+   "note": "T8 LB",
+   "source": "https://cdn-reichelt.de/documents/datenblatt/A300/EN_FLYER_T8.pdf"
+  },
+  {
+   "group": "Power & Battery",
+   "key": "runtime",
+   "label": "Battery life",
+   "value": "13–16",
+   "unit": "h",
+   "note": "per Keenbot T8 User Manual (2022 edition)",
+   "source": "https://store.todsystem.com/wp-content/uploads/2024/10/Guide-dutilisation-Dinnerbot-T8-1.pdf",
+   "ref": "§3.2"
+  },
+  {
+   "group": "Power & Battery",
+   "key": "battery_swappable",
+   "label": "User-replaceable battery",
+   "value": false,
+   "unit": "",
+   "note": "battery pack not allowed to be replaced by the user",
+   "source": "https://store.todsystem.com/wp-content/uploads/2024/10/Guide-dutilisation-Dinnerbot-T8-1.pdf"
+  },
+  {
+   "group": "Charging & Docking",
+   "key": "charge_time",
+   "label": "Charging time",
+   "value": 4.5,
+   "unit": "h",
+   "note": "T8 LS; 15% to 100%, robot powered on",
+   "source": "https://cdn-reichelt.de/documents/datenblatt/A300/EN_FLYER_T8.pdf"
+  },
+  {
+   "group": "Charging & Docking",
+   "key": "charge_time",
+   "label": "Charging time",
+   "value": 4,
+   "unit": "h",
+   "note": "T8 LB; 15% to 100%",
+   "source": "https://cdn-reichelt.de/documents/datenblatt/A300/EN_FLYER_T8.pdf"
+  },
+  {
+   "group": "Charging & Docking",
+   "key": "charge_time",
+   "label": "Charging time",
+   "value": "about 5",
+   "unit": "h",
+   "note": "per Keenbot T8 User Manual (2022 edition)",
+   "source": "https://store.todsystem.com/wp-content/uploads/2024/10/Guide-dutilisation-Dinnerbot-T8-1.pdf",
+   "ref": "§3.2"
+  },
+  {
+   "group": "Charging & Docking",
+   "key": "charging_method",
+   "label": "Charging mode",
+   "value": "Auto (charging pile) / manual (adapter)",
+   "unit": "",
+   "note": "auto-docks when battery drops to 5%",
+   "source": "https://store.todsystem.com/wp-content/uploads/2024/10/Guide-dutilisation-Dinnerbot-T8-1.pdf",
+   "ref": "§4.1"
+  },
+  {
+   "group": "Charging & Docking",
+   "key": "dock_available",
+   "label": "Charging pile",
+   "value": true,
+   "unit": "",
+   "note": "with location beacon and charging electrodes",
+   "source": "https://store.todsystem.com/wp-content/uploads/2024/10/Guide-dutilisation-Dinnerbot-T8-1.pdf",
+   "ref": "§4.1"
+  },
+  {
+   "group": "Charging & Docking",
+   "key": "charging_temperature",
+   "label": "Battery charging temperature",
+   "value": "10 to 40",
+   "unit": "°C",
+   "note": "",
+   "source": "https://store.todsystem.com/wp-content/uploads/2024/10/Guide-dutilisation-Dinnerbot-T8-1.pdf"
+  },
+  {
+   "group": "Environment & Protection",
+   "key": "operating_temperature",
+   "label": "Working temperature",
+   "value": "0 to 40",
+   "unit": "°C",
+   "note": "",
+   "source": "https://store.todsystem.com/wp-content/uploads/2024/10/Guide-dutilisation-Dinnerbot-T8-1.pdf"
+  },
+  {
+   "group": "Environment & Protection",
+   "key": "operating_humidity",
+   "label": "Working humidity",
+   "value": "5 to 85",
+   "unit": "% RH",
+   "note": "",
+   "source": "https://store.todsystem.com/wp-content/uploads/2024/10/Guide-dutilisation-Dinnerbot-T8-1.pdf"
+  },
+  {
+   "group": "Environment & Protection",
+   "key": "storage_temperature",
+   "label": "Storage temperature",
+   "value": "−30 to 60",
+   "unit": "°C",
+   "note": "",
+   "source": "https://store.todsystem.com/wp-content/uploads/2024/10/Guide-dutilisation-Dinnerbot-T8-1.pdf"
+  },
+  {
+   "group": "Environment & Protection",
+   "key": "storage_humidity",
+   "label": "Storage humidity",
+   "value": "10 to 90",
+   "unit": "% RH",
+   "note": "",
+   "source": "https://store.todsystem.com/wp-content/uploads/2024/10/Guide-dutilisation-Dinnerbot-T8-1.pdf"
+  },
+  {
+   "group": "Environment & Protection",
+   "key": "max_altitude",
+   "label": "Storage altitude",
+   "value": "≤ 1000",
+   "unit": "m",
+   "note": "per Keenbot T8 User Manual (2022 edition)",
+   "source": "https://store.todsystem.com/wp-content/uploads/2024/10/Guide-dutilisation-Dinnerbot-T8-1.pdf",
+   "ref": "§3.2"
+  },
+  {
+   "group": "Environment & Protection",
+   "key": "lighting_requirements",
+   "label": "Brightness",
+   "value": "Indoor 300–20000",
+   "unit": "lux",
+   "note": "",
+   "source": "https://store.todsystem.com/wp-content/uploads/2024/10/Guide-dutilisation-Dinnerbot-T8-1.pdf",
+   "ref": "§3.2"
+  },
+  {
+   "group": "Environment & Protection",
+   "key": "ip_rating",
+   "label": "Dust/drip protection",
+   "value": "Dust- and drip-proof design, not completely waterproof",
+   "unit": "",
+   "note": "no IP code stated",
+   "source": "https://store.todsystem.com/wp-content/uploads/2024/10/Guide-dutilisation-Dinnerbot-T8-1.pdf"
+  },
+  {
+   "group": "Sensors & Perception",
+   "key": "camera_type",
+   "label": "Stereo vision sensors",
+   "value": 3,
+   "unit": "",
+   "note": "detect common high obstacles and those under 5 cm",
+   "source": "https://www.keenon.com/en/product/T8"
+  },
+  {
+   "group": "Sensors & Perception",
+   "key": "lidar_type",
+   "label": "LiDAR",
+   "value": "LiDAR",
+   "unit": "",
+   "note": "",
+   "source": "https://store.todsystem.com/wp-content/uploads/2024/10/Guide-dutilisation-Dinnerbot-T8-1.pdf",
+   "ref": "§3.1"
+  },
+  {
+   "group": "Sensors & Perception",
+   "key": "depth_camera_type",
+   "label": "RGB-D camera",
+   "value": "RGB-D camera",
+   "unit": "",
+   "note": "",
+   "source": "https://store.todsystem.com/wp-content/uploads/2024/10/Guide-dutilisation-Dinnerbot-T8-1.pdf"
+  },
+  {
+   "group": "Sensors & Perception",
+   "key": "camera_type",
+   "label": "Image module",
+   "value": "Top image module (camera)",
+   "unit": "",
+   "note": "",
+   "source": "https://store.todsystem.com/wp-content/uploads/2024/10/Guide-dutilisation-Dinnerbot-T8-1.pdf",
+   "ref": "§3.1"
+  },
+  {
+   "group": "Sensors & Perception",
+   "key": "tray_sensors",
+   "label": "Tray sensors",
+   "value": "Tray detection sensors",
+   "unit": "",
+   "note": "not available on T8 LB",
+   "source": "https://cdn-reichelt.de/documents/datenblatt/A300/EN_FLYER_T8.pdf"
+  },
+  {
+   "group": "Sensors & Perception",
+   "key": "microphones",
+   "label": "Microphone",
+   "value": true,
+   "unit": "",
+   "note": "",
+   "source": "https://store.todsystem.com/wp-content/uploads/2024/10/Guide-dutilisation-Dinnerbot-T8-1.pdf",
+   "ref": "§3.1"
+  },
+  {
+   "group": "Sensors & Perception",
+   "key": "bumper",
+   "label": "Anti-collision strip",
+   "value": true,
+   "unit": "",
+   "note": "",
+   "source": "https://store.todsystem.com/wp-content/uploads/2024/10/Guide-dutilisation-Dinnerbot-T8-1.pdf",
+   "ref": "§3.1"
+  },
+  {
+   "group": "Mobility & Performance",
+   "key": "suspension",
+   "label": "Chassis",
+   "value": "Self-developed 4.0 shock-absorbing chassis",
+   "unit": "",
+   "note": "",
+   "source": "https://www.keenon.com/en/product/T8"
+  },
+  {
+   "group": "Mobility & Performance",
+   "key": "wheel_configuration",
+   "label": "Wheels",
+   "value": "Drive wheels + driven wheels",
+   "unit": "",
+   "note": "",
+   "source": "https://store.todsystem.com/wp-content/uploads/2024/10/Guide-dutilisation-Dinnerbot-T8-1.pdf",
+   "ref": "§3.1"
+  },
+  {
+   "group": "Safety & Compliance",
+   "key": "emergency_stop",
+   "label": "Emergency stop",
+   "value": "Stop button",
+   "unit": "",
+   "note": "",
+   "source": "https://cdn-reichelt.de/documents/datenblatt/A300/EN_FLYER_T8.pdf"
+  },
+  {
+   "group": "Safety & Compliance",
+   "key": "obstacle_avoidance",
+   "label": "Obstacle avoidance",
+   "value": "3D perception, 3 stereo vision sensors",
+   "unit": "",
+   "note": "",
+   "source": "https://www.keenon.com/en/product/T8"
+  },
+  {
+   "group": "Controls & Operation",
+   "key": "control_modes",
+   "label": "Modes",
+   "value": "Delivery; Snack Delivery; Multi-Destination; Direct Delivery; Birthday",
+   "unit": "",
+   "note": "",
+   "source": "https://store.todsystem.com/wp-content/uploads/2024/10/Guide-dutilisation-Dinnerbot-T8-1.pdf",
+   "ref": "§4.4"
+  },
+  {
+   "group": "Controls & Operation",
+   "key": "max_destinations_per_trip",
+   "label": "Max tables per trip",
+   "value": 20,
+   "unit": "",
+   "note": "Multi-Destination mode",
+   "source": "https://store.todsystem.com/wp-content/uploads/2024/10/Guide-dutilisation-Dinnerbot-T8-1.pdf",
+   "ref": "§4.4"
+  },
+  {
+   "group": "Controls & Operation",
+   "key": "multi_robot",
+   "label": "Multi-robot collaboration",
+   "value": true,
+   "unit": "",
+   "note": "patented multi-robot dispatching",
+   "source": "https://cdn-reichelt.de/documents/datenblatt/A300/EN_FLYER_T8.pdf"
+  },
+  {
+   "group": "Controls & Operation",
+   "key": "remote_calling",
+   "label": "Remote calling / app tracking",
+   "value": true,
+   "unit": "",
+   "note": "",
+   "source": "https://www.keenon.com/en/product/T8"
+  },
+  {
+   "group": "Audio, Lights & HMI",
+   "key": "display",
+   "label": "Operation screen",
+   "value": "10.1-inch touch screen",
+   "unit": "",
+   "note": "",
+   "source": "https://cdn-reichelt.de/documents/datenblatt/A300/EN_FLYER_T8.pdf"
+  },
+  {
+   "group": "Audio, Lights & HMI",
+   "key": "speaker",
+   "label": "Speaker",
+   "value": true,
+   "unit": "",
+   "note": "voice guidance",
+   "source": "https://store.todsystem.com/wp-content/uploads/2024/10/Guide-dutilisation-Dinnerbot-T8-1.pdf",
+   "ref": "§3.1"
+  },
+  {
+   "group": "Audio, Lights & HMI",
+   "key": "status_lights",
+   "label": "Tray indicators",
+   "value": true,
+   "unit": "",
+   "note": "",
+   "source": "https://cdn-reichelt.de/documents/datenblatt/A300/EN_FLYER_T8.pdf"
+  },
+  {
+   "group": "Commercial",
+   "key": "optional_accessories",
+   "label": "Accessories",
+   "value": "Charging pile; floating tray; call button system; call button; call button system bridge; notification bell; robot access control module; air box",
+   "unit": "",
+   "note": "",
+   "source": "https://www.keenon.com/en/product/T8"
+  }
+ ]
+}

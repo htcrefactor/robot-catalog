@@ -1,0 +1,264 @@
+{
+ "id": "unitree-b2-w",
+ "checked": "2026-11-04",
+ "documents": [
+  {
+   "title": "Unitree B2-W product page (spec table)",
+   "url": "https://www.unitree.com/b2-w"
+  }
+ ],
+ "specs": [
+  {
+   "group": "Identity",
+   "key": "robot_type",
+   "label": "Robot type",
+   "value": "Industrial wheel-legged quadruped (B2 with wheeled feet)",
+   "unit": "",
+   "note": "",
+   "source": "https://www.unitree.com/b2-w"
+  },
+  {
+   "group": "Dimensions & Mass",
+   "key": "length",
+   "label": "Length",
+   "value": 1098,
+   "unit": "mm",
+   "note": "standing, approx.",
+   "source": "https://www.unitree.com/b2-w"
+  },
+  {
+   "group": "Dimensions & Mass",
+   "key": "width",
+   "label": "Width",
+   "value": 550,
+   "unit": "mm",
+   "note": "standing, approx.",
+   "source": "https://www.unitree.com/b2-w"
+  },
+  {
+   "group": "Dimensions & Mass",
+   "key": "height_standing",
+   "label": "Height (standing)",
+   "value": 758,
+   "unit": "mm",
+   "note": "approx.",
+   "source": "https://www.unitree.com/b2-w"
+  },
+  {
+   "group": "Dimensions & Mass",
+   "key": "length",
+   "label": "Length",
+   "value": 950,
+   "unit": "mm",
+   "note": "lying prone, approx.",
+   "source": "https://www.unitree.com/b2-w"
+  },
+  {
+   "group": "Dimensions & Mass",
+   "key": "width",
+   "label": "Width",
+   "value": 550,
+   "unit": "mm",
+   "note": "lying prone, approx.",
+   "source": "https://www.unitree.com/b2-w"
+  },
+  {
+   "group": "Dimensions & Mass",
+   "key": "height_sitting",
+   "label": "Height (lying prone)",
+   "value": 450,
+   "unit": "mm",
+   "note": "approx.",
+   "source": "https://www.unitree.com/b2-w"
+  },
+  {
+   "group": "Dimensions & Mass",
+   "key": "weight_with_battery",
+   "label": "Weight (with battery)",
+   "value": 85,
+   "unit": "kg",
+   "note": "approx., total weight",
+   "source": "https://www.unitree.com/b2-w"
+  },
+  {
+   "group": "Dimensions & Mass",
+   "key": "wheel_diameter",
+   "label": "Wheel diameter",
+   "value": 225,
+   "unit": "mm",
+   "note": "",
+   "source": "https://www.unitree.com/b2-w"
+  },
+  {
+   "group": "Power & Battery",
+   "key": "battery_capacity",
+   "label": "Battery capacity",
+   "value": ">2",
+   "unit": "kWh",
+   "note": "",
+   "source": "https://www.unitree.com/b2-w"
+  },
+  {
+   "group": "Power & Battery",
+   "key": "battery_voltage",
+   "label": "Battery voltage",
+   "value": 58,
+   "unit": "V",
+   "note": "",
+   "source": "https://www.unitree.com/b2-w"
+  },
+  {
+   "group": "Mobility & Performance",
+   "key": "max_speed",
+   "label": "Maximum speed",
+   "value": 15,
+   "unit": "km/h",
+   "note": "realized in special configurations; in practice there is a speed limit for security purposes (footnote [1])",
+   "source": "https://www.unitree.com/b2-w"
+  },
+  {
+   "group": "Power & Battery",
+   "key": "range_per_charge",
+   "label": "Range per charge",
+   "value": 25,
+   "unit": "km",
+   "note": "maximum endurance with 40 kg load; special configuration (footnote [2])",
+   "source": "https://www.unitree.com/b2-w"
+  },
+  {
+   "group": "Power & Battery",
+   "key": "range_per_charge",
+   "label": "Range per charge",
+   "value": 30,
+   "unit": "km",
+   "note": "without load, approx.",
+   "source": "https://www.unitree.com/b2-w"
+  },
+  {
+   "group": "Mobility & Performance",
+   "key": "max_payload",
+   "label": "Maximum load (standing)",
+   "value": 120,
+   "unit": "kg",
+   "note": "static standing load",
+   "source": "https://www.unitree.com/b2-w"
+  },
+  {
+   "group": "Mobility & Performance",
+   "key": "rated_payload",
+   "label": "Load (walking)",
+   "value": ">40",
+   "unit": "kg",
+   "note": "continuous walking load",
+   "source": "https://www.unitree.com/b2-w"
+  },
+  {
+   "group": "Actuation & Joints",
+   "key": "max_wheel_speed",
+   "label": "Maximum wheel speed",
+   "value": 50,
+   "unit": "rad/s",
+   "note": "",
+   "source": "https://www.unitree.com/b2-w"
+  },
+  {
+   "group": "Actuation & Joints",
+   "key": "max_wheel_torque",
+   "label": "Maximum wheel torque",
+   "value": 40,
+   "unit": "N·m",
+   "note": "",
+   "source": "https://www.unitree.com/b2-w"
+  },
+  {
+   "group": "Terrain & Navigation Limits",
+   "key": "max_stair_step_height",
+   "label": "Continuous stair climbing",
+   "value": "20–25",
+   "unit": "cm",
+   "note": "stairs of 20–25 cm",
+   "source": "https://www.unitree.com/b2-w"
+  },
+  {
+   "group": "Terrain & Navigation Limits",
+   "key": "max_step_height",
+   "label": "Max single step (forward)",
+   "value": 40,
+   "unit": "cm",
+   "note": "climb up and down stairs of 40 cm in forward direction",
+   "source": "https://www.unitree.com/b2-w"
+  },
+  {
+   "group": "Terrain & Navigation Limits",
+   "key": "max_slope",
+   "label": "Climbing angle",
+   "value": ">45",
+   "unit": "°",
+   "note": "",
+   "source": "https://www.unitree.com/b2-w"
+  },
+  {
+   "group": "Environment & Protection",
+   "key": "operating_temperature",
+   "label": "Operating temperature",
+   "value": "−20 to 55",
+   "unit": "°C",
+   "note": "",
+   "source": "https://www.unitree.com/b2-w"
+  },
+  {
+   "group": "Environment & Protection",
+   "key": "ip_rating",
+   "label": "Ingress protection",
+   "value": "IP67",
+   "unit": "",
+   "note": "",
+   "source": "https://www.unitree.com/b2-w"
+  },
+  {
+   "group": "Compute & Software",
+   "key": "cpu",
+   "label": "Computer (platform functions)",
+   "value": "Intel Core i5",
+   "unit": "",
+   "note": "standard configuration",
+   "source": "https://www.unitree.com/b2-w"
+  },
+  {
+   "group": "Compute & Software",
+   "key": "cpu",
+   "label": "Computer (user development)",
+   "value": "Intel Core i7",
+   "unit": "",
+   "note": "standard configuration",
+   "source": "https://www.unitree.com/b2-w"
+  },
+  {
+   "group": "Compute & Software",
+   "key": "optional_compute",
+   "label": "Optional compute",
+   "value": "Intel Core i7 or NVIDIA Orin NX (multiple brands/models), up to 3 devices",
+   "unit": "",
+   "note": "optional configuration",
+   "source": "https://www.unitree.com/b2-w"
+  },
+  {
+   "group": "Compute & Software",
+   "key": "ota_updates",
+   "label": "OTA updates",
+   "value": "Continuous OTA software upgrade and update",
+   "unit": "",
+   "note": "",
+   "source": "https://www.unitree.com/b2-w"
+  },
+  {
+   "group": "Safety & Compliance",
+   "key": "intended_use",
+   "label": "Intended use",
+   "value": "Civilian robot; dangerous modifications or hazardous use prohibited",
+   "unit": "",
+   "note": "",
+   "source": "https://www.unitree.com/b2-w"
+  }
+ ]
+}

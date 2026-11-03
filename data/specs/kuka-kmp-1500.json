@@ -1,0 +1,425 @@
+{
+ "id": "kuka-kmp-1500",
+ "checked": "2026-11-04",
+ "documents": [
+  {
+   "title": "AMR – Autonomous mobile robotics brochure (KUKA Nordic)",
+   "url": "https://www.kuka.com/-/media/kuka-corporate/countries/nordic/documents/amr---autonomous-mobile-robotics.pdf"
+  },
+  {
+   "title": "KMP 1500-3 omniMove product page (my.KUKA shop)",
+   "url": "https://my.kuka.com/s/product/kmp-15003-omnimove/01t1i000001WxgqAAC?language=en_US"
+  },
+  {
+   "title": "KMP 1500 product presentation, 16.06.2016 (KUKA)",
+   "url": "https://www.kuka.com/-/media/kuka-corporate/documents/products/20160616_productpresentation_kmp-1500_en.pdf"
+  }
+ ],
+ "specs": [
+  {
+   "group": "Identity",
+   "key": "model_number",
+   "label": "Model",
+   "value": "KMP 1500-3 omniMove",
+   "unit": "",
+   "note": "",
+   "source": "https://my.kuka.com/s/product/kmp-15003-omnimove/01t1i000001WxgqAAC?language=en_US"
+  },
+  {
+   "group": "Identity",
+   "key": "part_number",
+   "label": "Article number",
+   "value": "367528",
+   "unit": "",
+   "note": "",
+   "source": "https://my.kuka.com/s/product/kmp-15003-omnimove/01t1i000001WxgqAAC?language=en_US"
+  },
+  {
+   "group": "Commercial",
+   "key": "availability",
+   "label": "Availability",
+   "value": "Discontinued (per KUKA shop)",
+   "unit": "",
+   "note": "",
+   "source": "https://my.kuka.com/s/product/kmp-15003-omnimove/01t1i000001WxgqAAC?language=en_US"
+  },
+  {
+   "group": "Identity",
+   "key": "robot_type",
+   "label": "Robot type",
+   "value": "Autonomous omnidirectional mobile platform",
+   "unit": "",
+   "note": "",
+   "source": "https://www.kuka.com/-/media/kuka-corporate/countries/nordic/documents/amr---autonomous-mobile-robotics.pdf"
+  },
+  {
+   "group": "Dimensions & Mass",
+   "key": "length",
+   "label": "Length",
+   "value": 2000,
+   "unit": "mm",
+   "note": "with scanners",
+   "source": "https://www.kuka.com/-/media/kuka-corporate/countries/nordic/documents/amr---autonomous-mobile-robotics.pdf"
+  },
+  {
+   "group": "Dimensions & Mass",
+   "key": "width",
+   "label": "Width",
+   "value": 800,
+   "unit": "mm",
+   "note": "",
+   "source": "https://www.kuka.com/-/media/kuka-corporate/countries/nordic/documents/amr---autonomous-mobile-robotics.pdf"
+  },
+  {
+   "group": "Dimensions & Mass",
+   "key": "height",
+   "label": "Height",
+   "value": 470,
+   "unit": "mm",
+   "note": "",
+   "source": "https://www.kuka.com/-/media/kuka-corporate/countries/nordic/documents/amr---autonomous-mobile-robotics.pdf"
+  },
+  {
+   "group": "Dimensions & Mass",
+   "key": "weight",
+   "label": "Weight",
+   "value": 711,
+   "unit": "kg",
+   "note": "base; 935 kg with lifting system and battery system extender",
+   "source": "https://www.kuka.com/-/media/kuka-corporate/countries/nordic/documents/amr---autonomous-mobile-robotics.pdf"
+  },
+  {
+   "group": "Dimensions & Mass",
+   "key": "weight",
+   "label": "Weight",
+   "value": 341,
+   "unit": "kg",
+   "note": "as listed on KUKA shop page for KMP 1500-3",
+   "source": "https://my.kuka.com/s/product/kmp-15003-omnimove/01t1i000001WxgqAAC?language=en_US"
+  },
+  {
+   "group": "Mobility & Performance",
+   "key": "rated_payload",
+   "label": "Rated payload",
+   "value": 1500,
+   "unit": "kg",
+   "note": "",
+   "source": "https://www.kuka.com/-/media/kuka-corporate/countries/nordic/documents/amr---autonomous-mobile-robotics.pdf"
+  },
+  {
+   "group": "Mobility & Performance",
+   "key": "max_speed",
+   "label": "Velocity straight ahead",
+   "value": 1,
+   "unit": "m/s",
+   "note": "max.",
+   "source": "https://www.kuka.com/-/media/kuka-corporate/countries/nordic/documents/amr---autonomous-mobile-robotics.pdf"
+  },
+  {
+   "group": "Mobility & Performance",
+   "key": "max_speed_lateral",
+   "label": "Velocity diagonally and sideways",
+   "value": 0.56,
+   "unit": "m/s",
+   "note": "max.",
+   "source": "https://www.kuka.com/-/media/kuka-corporate/countries/nordic/documents/amr---autonomous-mobile-robotics.pdf"
+  },
+  {
+   "group": "Dimensions & Mass",
+   "key": "wheel_diameter",
+   "label": "Wheel diameter",
+   "value": 310,
+   "unit": "mm",
+   "note": "",
+   "source": "https://www.kuka.com/-/media/kuka-corporate/countries/nordic/documents/amr---autonomous-mobile-robotics.pdf"
+  },
+  {
+   "group": "Mobility & Performance",
+   "key": "drive_type",
+   "label": "Drive",
+   "value": "KUKA omniMove Mecanum wheels (4 omnidirectional wheels); moves in any direction from standstill",
+   "unit": "",
+   "note": "",
+   "source": "https://www.kuka.com/-/media/kuka-corporate/countries/nordic/documents/amr---autonomous-mobile-robotics.pdf"
+  },
+  {
+   "group": "Mobility & Performance",
+   "key": "positioning_accuracy",
+   "label": "Positioning accuracy",
+   "value": "±5",
+   "unit": "mm",
+   "note": "",
+   "source": "https://www.kuka.com/-/media/kuka-corporate/countries/nordic/documents/amr---autonomous-mobile-robotics.pdf"
+  },
+  {
+   "group": "Power & Battery",
+   "key": "battery_capacity_ah",
+   "label": "Battery capacity",
+   "value": 52,
+   "unit": "Ah",
+   "note": "96 V; at least 4 hours",
+   "source": "https://www.kuka.com/-/media/kuka-corporate/countries/nordic/documents/amr---autonomous-mobile-robotics.pdf"
+  },
+  {
+   "group": "Power & Battery",
+   "key": "battery_voltage",
+   "label": "Battery voltage",
+   "value": 96,
+   "unit": "V",
+   "note": "",
+   "source": "https://www.kuka.com/-/media/kuka-corporate/countries/nordic/documents/amr---autonomous-mobile-robotics.pdf"
+  },
+  {
+   "group": "Power & Battery",
+   "key": "runtime",
+   "label": "Operating time",
+   "value": "at least 4 h",
+   "unit": "",
+   "note": "standard battery",
+   "source": "https://www.kuka.com/-/media/kuka-corporate/countries/nordic/documents/amr---autonomous-mobile-robotics.pdf"
+  },
+  {
+   "group": "Charging & Docking",
+   "key": "charge_time",
+   "label": "Charging time",
+   "value": "1 hour",
+   "unit": "",
+   "note": "standard battery",
+   "source": "https://www.kuka.com/-/media/kuka-corporate/countries/nordic/documents/amr---autonomous-mobile-robotics.pdf"
+  },
+  {
+   "group": "Power & Battery",
+   "key": "battery_extender",
+   "label": "Battery system extender (optional)",
+   "value": "104 Ah / 96 V (at least 8 hours); charging time 2 hours; +80 kg",
+   "unit": "",
+   "note": "",
+   "source": "https://www.kuka.com/-/media/kuka-corporate/countries/nordic/documents/amr---autonomous-mobile-robotics.pdf"
+  },
+  {
+   "group": "Power & Battery",
+   "key": "runtime",
+   "label": "Maximum operating time",
+   "value": 8,
+   "unit": "h",
+   "note": "",
+   "source": "https://my.kuka.com/s/product/kmp-15003-omnimove/01t1i000001WxgqAAC?language=en_US"
+  },
+  {
+   "group": "Payload & Mounting",
+   "key": "lift_height",
+   "label": "Lifting system (optional): lift table height",
+   "value": "max. 200",
+   "unit": "mm",
+   "note": "",
+   "source": "https://www.kuka.com/-/media/kuka-corporate/countries/nordic/documents/amr---autonomous-mobile-robotics.pdf"
+  },
+  {
+   "group": "Payload & Mounting",
+   "key": "lift_speed",
+   "label": "Lifting speed",
+   "value": "max. 50",
+   "unit": "mm/s",
+   "note": "",
+   "source": "https://www.kuka.com/-/media/kuka-corporate/countries/nordic/documents/amr---autonomous-mobile-robotics.pdf"
+  },
+  {
+   "group": "Payload & Mounting",
+   "key": "lift_system_weight",
+   "label": "Lifting system weight",
+   "value": "+144",
+   "unit": "kg",
+   "note": "",
+   "source": "https://www.kuka.com/-/media/kuka-corporate/countries/nordic/documents/amr---autonomous-mobile-robotics.pdf"
+  },
+  {
+   "group": "Commercial",
+   "key": "included_accessories",
+   "label": "Supplied accessories",
+   "value": "Radio control unit; floor charging contact plate; brake release device",
+   "unit": "",
+   "note": "",
+   "source": "https://www.kuka.com/-/media/kuka-corporate/countries/nordic/documents/amr---autonomous-mobile-robotics.pdf"
+  },
+  {
+   "group": "Safety & Compliance",
+   "key": "max_noise_level",
+   "label": "Sound level",
+   "value": 75,
+   "unit": "dB(A)",
+   "note": "",
+   "source": "https://my.kuka.com/s/product/kmp-15003-omnimove/01t1i000001WxgqAAC?language=en_US"
+  },
+  {
+   "group": "Environment & Protection",
+   "key": "ip_rating",
+   "label": "Protection rating (IEC 60529)",
+   "value": "IP54",
+   "unit": "",
+   "note": "",
+   "source": "https://my.kuka.com/s/product/kmp-15003-omnimove/01t1i000001WxgqAAC?language=en_US"
+  },
+  {
+   "group": "Environment & Protection",
+   "key": "operating_temperature",
+   "label": "Ambient temperature during operation",
+   "value": "5 to 40",
+   "unit": "°C",
+   "note": "278 K to 313 K",
+   "source": "https://my.kuka.com/s/product/kmp-15003-omnimove/01t1i000001WxgqAAC?language=en_US"
+  },
+  {
+   "group": "Environment & Protection",
+   "key": "storage_temperature",
+   "label": "Ambient temperature during storage/transport",
+   "value": "5 to 45",
+   "unit": "°C",
+   "note": "278 K to 318 K",
+   "source": "https://my.kuka.com/s/product/kmp-15003-omnimove/01t1i000001WxgqAAC?language=en_US"
+  },
+  {
+   "group": "Environment & Protection",
+   "key": "operating_humidity",
+   "label": "Air humidity during operation",
+   "value": "5–95",
+   "unit": "%",
+   "note": "",
+   "source": "https://my.kuka.com/s/product/kmp-15003-omnimove/01t1i000001WxgqAAC?language=en_US"
+  },
+  {
+   "group": "Sensors & Perception",
+   "key": "safety_scanner",
+   "label": "Safety laser scanners",
+   "value": "2 × SICK S300 Professional",
+   "unit": "",
+   "note": "2016 product presentation",
+   "source": "https://www.kuka.com/-/media/kuka-corporate/documents/products/20160616_productpresentation_kmp-1500_en.pdf"
+  },
+  {
+   "group": "Terrain & Navigation Limits",
+   "key": "navigation_method",
+   "label": "Navigation",
+   "value": "KUKA.NavigationSolution: SLAM using safety laser scanners and wheel sensors, no artificial markings; virtual tracks",
+   "unit": "",
+   "note": "",
+   "source": "https://www.kuka.com/-/media/kuka-corporate/countries/nordic/documents/amr---autonomous-mobile-robotics.pdf"
+  },
+  {
+   "group": "Terrain & Navigation Limits",
+   "key": "localization_accuracy",
+   "label": "Localization accuracy",
+   "value": "average < 1.3 mm; 95% of measurements < 3 mm",
+   "unit": "",
+   "note": "long-term test, aerospace project (2016 presentation)",
+   "source": "https://www.kuka.com/-/media/kuka-corporate/documents/products/20160616_productpresentation_kmp-1500_en.pdf"
+  },
+  {
+   "group": "Compute & Software",
+   "key": "operating_system",
+   "label": "Controller OS",
+   "value": "KUKA Sunrise.OS (Sunrise controller)",
+   "unit": "",
+   "note": "",
+   "source": "https://www.kuka.com/-/media/kuka-corporate/documents/products/20160616_productpresentation_kmp-1500_en.pdf"
+  },
+  {
+   "group": "Compute & Software",
+   "key": "programming_languages",
+   "label": "Programming",
+   "value": "Java (Eclipse-based development environment, modular Java API)",
+   "unit": "",
+   "note": "",
+   "source": "https://www.kuka.com/-/media/kuka-corporate/countries/nordic/documents/amr---autonomous-mobile-robotics.pdf"
+  },
+  {
+   "group": "Compute & Software",
+   "key": "sdk",
+   "label": "Development environment",
+   "value": "KUKA Sunrise.Workbench",
+   "unit": "",
+   "note": "",
+   "source": "https://www.kuka.com/-/media/kuka-corporate/documents/products/20160616_productpresentation_kmp-1500_en.pdf"
+  },
+  {
+   "group": "Connectivity & Interfaces",
+   "key": "wifi",
+   "label": "WLAN",
+   "value": "2.4 or 5 GHz",
+   "unit": "",
+   "note": "2016 sales concept",
+   "source": "https://www.kuka.com/-/media/kuka-corporate/documents/products/20160616_productpresentation_kmp-1500_en.pdf"
+  },
+  {
+   "group": "Safety & Compliance",
+   "key": "emergency_stop",
+   "label": "Emergency stops",
+   "value": "2 E-stops on vehicle + wireless joystick with integrated safe E-stop",
+   "unit": "",
+   "note": "2016 presentation",
+   "source": "https://www.kuka.com/-/media/kuka-corporate/documents/products/20160616_productpresentation_kmp-1500_en.pdf"
+  },
+  {
+   "group": "Safety & Compliance",
+   "key": "safety_fields",
+   "label": "Safety fields",
+   "value": "Protective safety fields and warning fields",
+   "unit": "",
+   "note": "",
+   "source": "https://www.kuka.com/-/media/kuka-corporate/documents/products/20160616_productpresentation_kmp-1500_en.pdf"
+  },
+  {
+   "group": "Audio, Lights & HMI",
+   "key": "buzzer",
+   "label": "Signals",
+   "value": "LED-sound buzzer; turn light signals",
+   "unit": "",
+   "note": "",
+   "source": "https://www.kuka.com/-/media/kuka-corporate/documents/products/20160616_productpresentation_kmp-1500_en.pdf"
+  },
+  {
+   "group": "Controls & Operation",
+   "key": "controller",
+   "label": "Operating device",
+   "value": "SmartPad or wireless joystick",
+   "unit": "",
+   "note": "",
+   "source": "https://www.kuka.com/-/media/kuka-corporate/documents/products/20160616_productpresentation_kmp-1500_en.pdf"
+  },
+  {
+   "group": "Charging & Docking",
+   "key": "charging_method",
+   "label": "Charging",
+   "value": "Via direct cable or floor charging contact plate (96 VDC)",
+   "unit": "",
+   "note": "",
+   "source": "https://www.kuka.com/-/media/kuka-corporate/documents/products/20160616_productpresentation_kmp-1500_en.pdf"
+  },
+  {
+   "group": "Charging & Docking",
+   "key": "charger_input",
+   "label": "Charger supply",
+   "value": "3-phase 480 V (100 A)",
+   "unit": "",
+   "note": "2016 prototype charging concept; 100 A charger included, 200 A optional",
+   "source": "https://www.kuka.com/-/media/kuka-corporate/documents/products/20160616_productpresentation_kmp-1500_en.pdf"
+  },
+  {
+   "group": "Power & Battery",
+   "key": "battery_chemistry",
+   "label": "Battery options",
+   "value": "Lead acid; lithium-ion; hybrid with PowerCaps",
+   "unit": "",
+   "note": "2016 sales concept",
+   "source": "https://www.kuka.com/-/media/kuka-corporate/documents/products/20160616_productpresentation_kmp-1500_en.pdf"
+  },
+  {
+   "group": "Commercial",
+   "key": "optional_accessories",
+   "label": "Hardware options",
+   "value": "16 IO interface (wired or wireless, safe/unsafe); RFID load detection; lifting system; cup & cone (rough/fine); conveyor; object detection and tracking",
+   "unit": "",
+   "note": "2016 sales concept",
+   "source": "https://www.kuka.com/-/media/kuka-corporate/documents/products/20160616_productpresentation_kmp-1500_en.pdf"
+  }
+ ]
+}

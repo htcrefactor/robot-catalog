@@ -1,0 +1,551 @@
+{
+ "id": "kuka-kmp-600-s-diffdrive",
+ "checked": "2026-11-04",
+ "documents": [
+  {
+   "title": "KMP 600S-2 diffDrive data sheet 0000-406-703 V1.1 (KUKA, 2022, reseller-hosted)",
+   "url": "http://5.imimg.com/data5/SELLER/Doc/2024/7/432594759/YF/ZB/DY/111358936/kuka-agv-kmp-600-2.pdf"
+  },
+  {
+   "title": "AMR – Autonomous mobile robotics brochure (KUKA Nordic)",
+   "url": "https://www.kuka.com/-/media/kuka-corporate/countries/nordic/documents/amr---autonomous-mobile-robotics.pdf"
+  },
+  {
+   "title": "KUKA Mobile Robotics presentation, 23.03.2023 (MAV conference)",
+   "url": "https://mav.industrie.de/wp-content/uploads/2/3/230322_MAV-Final.pdf"
+  }
+ ],
+ "specs": [
+  {
+   "group": "Identity",
+   "key": "model_number",
+   "label": "Model",
+   "value": "KMP 600S-2 diffDrive",
+   "unit": "",
+   "note": "",
+   "source": "http://5.imimg.com/data5/SELLER/Doc/2024/7/432594759/YF/ZB/DY/111358936/kuka-agv-kmp-600-2.pdf"
+  },
+  {
+   "group": "Identity",
+   "key": "document_number",
+   "label": "Data sheet document number",
+   "value": "0000-406-703 / V1.1 / 27.09.2022",
+   "unit": "",
+   "note": "",
+   "source": "http://5.imimg.com/data5/SELLER/Doc/2024/7/432594759/YF/ZB/DY/111358936/kuka-agv-kmp-600-2.pdf"
+  },
+  {
+   "group": "Identity",
+   "key": "manufacturer_address",
+   "label": "Manufacturer address",
+   "value": "KUKA Deutschland GmbH, Zugspitzstrasse 140, 86165 Augsburg, Germany",
+   "unit": "",
+   "note": "",
+   "source": "http://5.imimg.com/data5/SELLER/Doc/2024/7/432594759/YF/ZB/DY/111358936/kuka-agv-kmp-600-2.pdf"
+  },
+  {
+   "group": "Identity",
+   "key": "robot_type",
+   "label": "Robot type",
+   "value": "Automated guided vehicle (AGV) / mobile platform with differential drive",
+   "unit": "",
+   "note": "",
+   "source": "https://www.kuka.com/-/media/kuka-corporate/countries/nordic/documents/amr---autonomous-mobile-robotics.pdf"
+  },
+  {
+   "group": "Dimensions & Mass",
+   "key": "length",
+   "label": "Length",
+   "value": 1000,
+   "unit": "mm",
+   "note": "",
+   "source": "http://5.imimg.com/data5/SELLER/Doc/2024/7/432594759/YF/ZB/DY/111358936/kuka-agv-kmp-600-2.pdf"
+  },
+  {
+   "group": "Dimensions & Mass",
+   "key": "width",
+   "label": "Width",
+   "value": 750,
+   "unit": "mm",
+   "note": "",
+   "source": "http://5.imimg.com/data5/SELLER/Doc/2024/7/432594759/YF/ZB/DY/111358936/kuka-agv-kmp-600-2.pdf"
+  },
+  {
+   "group": "Dimensions & Mass",
+   "key": "height",
+   "label": "Height",
+   "value": 353,
+   "unit": "mm",
+   "note": "",
+   "source": "http://5.imimg.com/data5/SELLER/Doc/2024/7/432594759/YF/ZB/DY/111358936/kuka-agv-kmp-600-2.pdf"
+  },
+  {
+   "group": "Dimensions & Mass",
+   "key": "wheel_diameter",
+   "label": "Wheel diameter",
+   "value": 250,
+   "unit": "mm",
+   "note": "",
+   "source": "http://5.imimg.com/data5/SELLER/Doc/2024/7/432594759/YF/ZB/DY/111358936/kuka-agv-kmp-600-2.pdf"
+  },
+  {
+   "group": "Dimensions & Mass",
+   "key": "weight",
+   "label": "Weight",
+   "value": "approx. 264",
+   "unit": "kg",
+   "note": "excludes optional lifting system",
+   "source": "http://5.imimg.com/data5/SELLER/Doc/2024/7/432594759/YF/ZB/DY/111358936/kuka-agv-kmp-600-2.pdf"
+  },
+  {
+   "group": "Dimensions & Mass",
+   "key": "weight",
+   "label": "Weight",
+   "value": 246,
+   "unit": "kg",
+   "note": "as stated in KUKA AMR brochure",
+   "source": "https://www.kuka.com/-/media/kuka-corporate/countries/nordic/documents/amr---autonomous-mobile-robotics.pdf"
+  },
+  {
+   "group": "Mobility & Performance",
+   "key": "rated_payload",
+   "label": "Rated payload",
+   "value": 600,
+   "unit": "kg",
+   "note": "",
+   "source": "http://5.imimg.com/data5/SELLER/Doc/2024/7/432594759/YF/ZB/DY/111358936/kuka-agv-kmp-600-2.pdf"
+  },
+  {
+   "group": "Dimensions & Mass",
+   "key": "max_gross_weight",
+   "label": "Permissible total weight",
+   "value": 880,
+   "unit": "kg",
+   "note": "",
+   "source": "http://5.imimg.com/data5/SELLER/Doc/2024/7/432594759/YF/ZB/DY/111358936/kuka-agv-kmp-600-2.pdf"
+  },
+  {
+   "group": "Safety & Compliance",
+   "key": "max_noise_level",
+   "label": "Sound level",
+   "value": "< 75",
+   "unit": "dB(A)",
+   "note": "",
+   "source": "http://5.imimg.com/data5/SELLER/Doc/2024/7/432594759/YF/ZB/DY/111358936/kuka-agv-kmp-600-2.pdf"
+  },
+  {
+   "group": "Environment & Protection",
+   "key": "ip_rating",
+   "label": "Protection rating (IEC 60529)",
+   "value": "IP54",
+   "unit": "",
+   "note": "without 3D camera",
+   "source": "http://5.imimg.com/data5/SELLER/Doc/2024/7/432594759/YF/ZB/DY/111358936/kuka-agv-kmp-600-2.pdf"
+  },
+  {
+   "group": "Environment & Protection",
+   "key": "operating_humidity",
+   "label": "Air humidity",
+   "value": "5–95",
+   "unit": "%",
+   "note": "",
+   "source": "http://5.imimg.com/data5/SELLER/Doc/2024/7/432594759/YF/ZB/DY/111358936/kuka-agv-kmp-600-2.pdf"
+  },
+  {
+   "group": "Environment & Protection",
+   "key": "operating_temperature",
+   "label": "Ambient temperature during operation",
+   "value": "0 to 45",
+   "unit": "°C",
+   "note": "273 K to 318 K",
+   "source": "http://5.imimg.com/data5/SELLER/Doc/2024/7/432594759/YF/ZB/DY/111358936/kuka-agv-kmp-600-2.pdf"
+  },
+  {
+   "group": "Environment & Protection",
+   "key": "storage_temperature",
+   "label": "Ambient temperature during storage/transport",
+   "value": "0 to 45",
+   "unit": "°C",
+   "note": "",
+   "source": "http://5.imimg.com/data5/SELLER/Doc/2024/7/432594759/YF/ZB/DY/111358936/kuka-agv-kmp-600-2.pdf"
+  },
+  {
+   "group": "Mobility & Performance",
+   "key": "max_speed",
+   "label": "Travel speed, longitudinal",
+   "value": 2,
+   "unit": "m/s",
+   "note": "without load; full speed in all directions per brochure",
+   "source": "http://5.imimg.com/data5/SELLER/Doc/2024/7/432594759/YF/ZB/DY/111358936/kuka-agv-kmp-600-2.pdf"
+  },
+  {
+   "group": "Mobility & Performance",
+   "key": "max_speed",
+   "label": "Travel speed, longitudinal",
+   "value": 1.5,
+   "unit": "m/s",
+   "note": "with load",
+   "source": "http://5.imimg.com/data5/SELLER/Doc/2024/7/432594759/YF/ZB/DY/111358936/kuka-agv-kmp-600-2.pdf"
+  },
+  {
+   "group": "Mobility & Performance",
+   "key": "max_yaw_rate",
+   "label": "Rotational velocity",
+   "value": 0.37,
+   "unit": "rad/s",
+   "note": "turning on the spot",
+   "source": "http://5.imimg.com/data5/SELLER/Doc/2024/7/432594759/YF/ZB/DY/111358936/kuka-agv-kmp-600-2.pdf"
+  },
+  {
+   "group": "Mobility & Performance",
+   "key": "max_acceleration",
+   "label": "Maximum acceleration",
+   "value": 0.75,
+   "unit": "m/s²",
+   "note": "data sheet; brochure states 1.25 m/s²",
+   "source": "http://5.imimg.com/data5/SELLER/Doc/2024/7/432594759/YF/ZB/DY/111358936/kuka-agv-kmp-600-2.pdf"
+  },
+  {
+   "group": "Mobility & Performance",
+   "key": "max_acceleration",
+   "label": "Maximum acceleration",
+   "value": 1.25,
+   "unit": "m/s²",
+   "note": "as stated in KUKA AMR brochure",
+   "source": "https://www.kuka.com/-/media/kuka-corporate/countries/nordic/documents/amr---autonomous-mobile-robotics.pdf"
+  },
+  {
+   "group": "Mobility & Performance",
+   "key": "max_deceleration",
+   "label": "Maximum braking deceleration",
+   "value": 1.25,
+   "unit": "m/s²",
+   "note": "data sheet; brochure states 1.5 m/s²",
+   "source": "http://5.imimg.com/data5/SELLER/Doc/2024/7/432594759/YF/ZB/DY/111358936/kuka-agv-kmp-600-2.pdf"
+  },
+  {
+   "group": "Mobility & Performance",
+   "key": "max_deceleration",
+   "label": "Maximum braking deceleration",
+   "value": 1.5,
+   "unit": "m/s²",
+   "note": "as stated in KUKA AMR brochure",
+   "source": "https://www.kuka.com/-/media/kuka-corporate/countries/nordic/documents/amr---autonomous-mobile-robotics.pdf"
+  },
+  {
+   "group": "Terrain & Navigation Limits",
+   "key": "floor_flatness_requirement",
+   "label": "Maximum height of floor irregularities",
+   "value": 5,
+   "unit": "mm",
+   "note": "",
+   "source": "http://5.imimg.com/data5/SELLER/Doc/2024/7/432594759/YF/ZB/DY/111358936/kuka-agv-kmp-600-2.pdf"
+  },
+  {
+   "group": "Terrain & Navigation Limits",
+   "key": "max_gap_crossing",
+   "label": "Maximum gap width",
+   "value": 35,
+   "unit": "mm",
+   "note": "",
+   "source": "http://5.imimg.com/data5/SELLER/Doc/2024/7/432594759/YF/ZB/DY/111358936/kuka-agv-kmp-600-2.pdf"
+  },
+  {
+   "group": "Terrain & Navigation Limits",
+   "key": "max_slope",
+   "label": "Maximum track gradient",
+   "value": 3,
+   "unit": "%",
+   "note": "at max payload",
+   "source": "http://5.imimg.com/data5/SELLER/Doc/2024/7/432594759/YF/ZB/DY/111358936/kuka-agv-kmp-600-2.pdf"
+  },
+  {
+   "group": "Terrain & Navigation Limits",
+   "key": "floor_strength_requirement",
+   "label": "Required floor strength",
+   "value": "C 30/37 concrete grade",
+   "unit": "",
+   "note": "",
+   "source": "http://5.imimg.com/data5/SELLER/Doc/2024/7/432594759/YF/ZB/DY/111358936/kuka-agv-kmp-600-2.pdf"
+  },
+  {
+   "group": "Payload & Mounting",
+   "key": "lift_stroke",
+   "label": "Lift height",
+   "value": 60,
+   "unit": "mm",
+   "note": "optional lifting system",
+   "source": "http://5.imimg.com/data5/SELLER/Doc/2024/7/432594759/YF/ZB/DY/111358936/kuka-agv-kmp-600-2.pdf"
+  },
+  {
+   "group": "Payload & Mounting",
+   "key": "lift_cycle_time",
+   "label": "Duration of lifting cycle",
+   "value": 4.4,
+   "unit": "s",
+   "note": "data sheet; brochure: up to 60 mm in under 3 s",
+   "source": "http://5.imimg.com/data5/SELLER/Doc/2024/7/432594759/YF/ZB/DY/111358936/kuka-agv-kmp-600-2.pdf"
+  },
+  {
+   "group": "Payload & Mounting",
+   "key": "lift_position_sensing",
+   "label": "Lift position sensing system",
+   "value": true,
+   "unit": "",
+   "note": "",
+   "source": "http://5.imimg.com/data5/SELLER/Doc/2024/7/432594759/YF/ZB/DY/111358936/kuka-agv-kmp-600-2.pdf"
+  },
+  {
+   "group": "Power & Battery",
+   "key": "battery_count",
+   "label": "Number of batteries",
+   "value": 1,
+   "unit": "",
+   "note": "",
+   "source": "http://5.imimg.com/data5/SELLER/Doc/2024/7/432594759/YF/ZB/DY/111358936/kuka-agv-kmp-600-2.pdf"
+  },
+  {
+   "group": "Power & Battery",
+   "key": "battery_voltage",
+   "label": "Battery voltage (DC)",
+   "value": 51.1,
+   "unit": "V",
+   "note": "48 VDC nominal per KUKA presentation",
+   "source": "http://5.imimg.com/data5/SELLER/Doc/2024/7/432594759/YF/ZB/DY/111358936/kuka-agv-kmp-600-2.pdf"
+  },
+  {
+   "group": "Power & Battery",
+   "key": "battery_capacity_ah",
+   "label": "Capacity per battery",
+   "value": 35,
+   "unit": "Ah",
+   "note": "",
+   "source": "http://5.imimg.com/data5/SELLER/Doc/2024/7/432594759/YF/ZB/DY/111358936/kuka-agv-kmp-600-2.pdf"
+  },
+  {
+   "group": "Power & Battery",
+   "key": "battery_chemistry",
+   "label": "Battery type",
+   "value": "Lithium-ion",
+   "unit": "",
+   "note": "",
+   "source": "https://mav.industrie.de/wp-content/uploads/2/3/230322_MAV-Final.pdf"
+  },
+  {
+   "group": "Power & Battery",
+   "key": "runtime",
+   "label": "Operating time",
+   "value": 8,
+   "unit": "h",
+   "note": "at SoH 100%, standard motion operation",
+   "source": "http://5.imimg.com/data5/SELLER/Doc/2024/7/432594759/YF/ZB/DY/111358936/kuka-agv-kmp-600-2.pdf"
+  },
+  {
+   "group": "Charging & Docking",
+   "key": "charge_time",
+   "label": "Charging time",
+   "value": "1.5 h",
+   "unit": "",
+   "note": "SoC 0% to 100%",
+   "source": "http://5.imimg.com/data5/SELLER/Doc/2024/7/432594759/YF/ZB/DY/111358936/kuka-agv-kmp-600-2.pdf"
+  },
+  {
+   "group": "Charging & Docking",
+   "key": "charge_time",
+   "label": "Charging time",
+   "value": "2 hours",
+   "unit": "",
+   "note": "as stated in KUKA AMR brochure",
+   "source": "https://www.kuka.com/-/media/kuka-corporate/countries/nordic/documents/amr---autonomous-mobile-robotics.pdf"
+  },
+  {
+   "group": "Sensors & Perception",
+   "key": "safety_scanner",
+   "label": "Laser scanners",
+   "value": "2 (front and rear)",
+   "unit": "",
+   "note": "",
+   "source": "http://5.imimg.com/data5/SELLER/Doc/2024/7/432594759/YF/ZB/DY/111358936/kuka-agv-kmp-600-2.pdf"
+  },
+  {
+   "group": "Sensors & Perception",
+   "key": "depth_camera_count",
+   "label": "3D cameras (optional)",
+   "value": 2,
+   "unit": "",
+   "note": "front and rear, optional",
+   "source": "https://mav.industrie.de/wp-content/uploads/2/3/230322_MAV-Final.pdf"
+  },
+  {
+   "group": "Sensors & Perception",
+   "key": "depth_camera_range",
+   "label": "3D obstacle detection height range",
+   "value": "30 mm to 2.10 m above ground",
+   "unit": "",
+   "note": "optional 3D object detection",
+   "source": "https://www.kuka.com/-/media/kuka-corporate/countries/nordic/documents/amr---autonomous-mobile-robotics.pdf"
+  },
+  {
+   "group": "Safety & Compliance",
+   "key": "emergency_stop",
+   "label": "Emergency stops on vehicle",
+   "value": 4,
+   "unit": "",
+   "note": "",
+   "source": "http://5.imimg.com/data5/SELLER/Doc/2024/7/432594759/YF/ZB/DY/111358936/kuka-agv-kmp-600-2.pdf"
+  },
+  {
+   "group": "Safety & Compliance",
+   "key": "safety_zones",
+   "label": "Safety zones",
+   "value": "8 configurable safety zones front and rear; protective field adapts to speed and direction",
+   "unit": "",
+   "note": "",
+   "source": "https://www.kuka.com/-/media/kuka-corporate/countries/nordic/documents/amr---autonomous-mobile-robotics.pdf"
+  },
+  {
+   "group": "Safety & Compliance",
+   "key": "performance_level",
+   "label": "Safety category / performance level",
+   "value": "Category 3 / PL d",
+   "unit": "",
+   "note": "",
+   "source": "https://mav.industrie.de/wp-content/uploads/2/3/230322_MAV-Final.pdf"
+  },
+  {
+   "group": "Safety & Compliance",
+   "key": "certifications",
+   "label": "Certification",
+   "value": "UL certificate from TÜV Rheinland; FCC option",
+   "unit": "",
+   "note": "",
+   "source": "https://mav.industrie.de/wp-content/uploads/2/3/230322_MAV-Final.pdf"
+  },
+  {
+   "group": "Audio, Lights & HMI",
+   "key": "status_lights",
+   "label": "Optical signal",
+   "value": "LED strip",
+   "unit": "",
+   "note": "",
+   "source": "http://5.imimg.com/data5/SELLER/Doc/2024/7/432594759/YF/ZB/DY/111358936/kuka-agv-kmp-600-2.pdf"
+  },
+  {
+   "group": "Audio, Lights & HMI",
+   "key": "buzzer",
+   "label": "Acoustic signal",
+   "value": true,
+   "unit": "",
+   "note": "reduced speed and acoustic alarm when reversing",
+   "source": "http://5.imimg.com/data5/SELLER/Doc/2024/7/432594759/YF/ZB/DY/111358936/kuka-agv-kmp-600-2.pdf"
+  },
+  {
+   "group": "Connectivity & Interfaces",
+   "key": "external_ports",
+   "label": "Interfaces",
+   "value": "48 VDC, 24 VDC, EtherCAT, I/O, STO",
+   "unit": "",
+   "note": "",
+   "source": "https://www.kuka.com/-/media/kuka-corporate/countries/nordic/documents/amr---autonomous-mobile-robotics.pdf"
+  },
+  {
+   "group": "Payload & Mounting",
+   "key": "payload_port_power",
+   "label": "Logic power supply",
+   "value": "24 V / 7.5 A",
+   "unit": "",
+   "note": "",
+   "source": "http://5.imimg.com/data5/SELLER/Doc/2024/7/432594759/YF/ZB/DY/111358936/kuka-agv-kmp-600-2.pdf"
+  },
+  {
+   "group": "Payload & Mounting",
+   "key": "payload_port_power",
+   "label": "Application power supply",
+   "value": "48 V / 15 A",
+   "unit": "",
+   "note": "",
+   "source": "http://5.imimg.com/data5/SELLER/Doc/2024/7/432594759/YF/ZB/DY/111358936/kuka-agv-kmp-600-2.pdf"
+  },
+  {
+   "group": "Connectivity & Interfaces",
+   "key": "ethercat",
+   "label": "EtherCAT",
+   "value": true,
+   "unit": "",
+   "note": "",
+   "source": "http://5.imimg.com/data5/SELLER/Doc/2024/7/432594759/YF/ZB/DY/111358936/kuka-agv-kmp-600-2.pdf"
+  },
+  {
+   "group": "Connectivity & Interfaces",
+   "key": "profinet",
+   "label": "PROFINET",
+   "value": false,
+   "unit": "",
+   "note": "",
+   "source": "http://5.imimg.com/data5/SELLER/Doc/2024/7/432594759/YF/ZB/DY/111358936/kuka-agv-kmp-600-2.pdf"
+  },
+  {
+   "group": "Mobility & Performance",
+   "key": "positioning_accuracy",
+   "label": "Pose accuracy",
+   "value": "±10",
+   "unit": "mm",
+   "note": "line-guided motion: ±10 mm X/Y, ±0.5° theta",
+   "source": "https://www.kuka.com/-/media/kuka-corporate/countries/nordic/documents/amr---autonomous-mobile-robotics.pdf"
+  },
+  {
+   "group": "Mobility & Performance",
+   "key": "rotation_accuracy",
+   "label": "Pose accuracy, orientation",
+   "value": "±0.5",
+   "unit": "°",
+   "note": "line-guided motion",
+   "source": "https://mav.industrie.de/wp-content/uploads/2/3/230322_MAV-Final.pdf"
+  },
+  {
+   "group": "Terrain & Navigation Limits",
+   "key": "navigation_method",
+   "label": "Navigation",
+   "value": "SLAM navigation based on laser scanners and pre-generated environment map",
+   "unit": "",
+   "note": "",
+   "source": "https://mav.industrie.de/wp-content/uploads/2/3/230322_MAV-Final.pdf"
+  },
+  {
+   "group": "Compute & Software",
+   "key": "programming_languages",
+   "label": "Programming",
+   "value": "Java",
+   "unit": "",
+   "note": "",
+   "source": "https://www.kuka.com/-/media/kuka-corporate/countries/nordic/documents/amr---autonomous-mobile-robotics.pdf"
+  },
+  {
+   "group": "Compute & Software",
+   "key": "fleet_software",
+   "label": "Fleet management",
+   "value": "Fleet manager software for the entire KUKA AGV portfolio",
+   "unit": "",
+   "note": "",
+   "source": "https://www.kuka.com/-/media/kuka-corporate/countries/nordic/documents/amr---autonomous-mobile-robotics.pdf"
+  },
+  {
+   "group": "Controls & Operation",
+   "key": "controller",
+   "label": "Manual control",
+   "value": "Wireless controller for commissioning; manual control for trained personnel only",
+   "unit": "",
+   "note": "",
+   "source": "https://www.kuka.com/-/media/kuka-corporate/countries/nordic/documents/amr---autonomous-mobile-robotics.pdf"
+  },
+  {
+   "group": "Mobility & Performance",
+   "key": "drive_type",
+   "label": "Drive",
+   "value": "Differential drive",
+   "unit": "",
+   "note": "",
+   "source": "https://mav.industrie.de/wp-content/uploads/2/3/230322_MAV-Final.pdf"
+  }
+ ]
+}

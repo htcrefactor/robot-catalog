@@ -1,0 +1,529 @@
+{
+ "id": "otto-otto-1500",
+ "checked": "2026-11-04",
+ "documents": [
+  {
+   "title": "OTTO 1500 Spec Sheet OTTO-DS001F-EN-AUG2026 (OTTO by Rockwell Automation)",
+   "url": "https://cdn.sanity.io/files/armc7p5y/production/65f37f30ec55c632329ba48e31cb7013ca96c80d.pdf?dl="
+  },
+  {
+   "title": "OTTO 1500 v2 Data Sheet 210406 (Clearpath/OTTO Motors)",
+   "url": "https://s3.amazonaws.com/assets.ottomotors.com/pdf/OTTO1500-v2-Datasheet-210406_eng.pdf"
+  }
+ ],
+ "specs": [
+  {
+   "group": "Identity",
+   "key": "model_number",
+   "label": "Spec sheet number",
+   "value": "OTTO-DS001F-EN-AUG2026",
+   "unit": "",
+   "note": "",
+   "source": "https://cdn.sanity.io/files/armc7p5y/production/65f37f30ec55c632329ba48e31cb7013ca96c80d.pdf?dl="
+  },
+  {
+   "group": "Identity",
+   "key": "robot_type",
+   "label": "Robot type",
+   "value": "Heavy-duty autonomous mobile robot (AMR)",
+   "unit": "",
+   "note": "",
+   "source": "https://cdn.sanity.io/files/armc7p5y/production/65f37f30ec55c632329ba48e31cb7013ca96c80d.pdf?dl="
+  },
+  {
+   "group": "Identity",
+   "key": "manufacturer",
+   "label": "Manufacturer",
+   "value": "OTTO by Rockwell Automation",
+   "unit": "",
+   "note": "",
+   "source": "https://cdn.sanity.io/files/armc7p5y/production/65f37f30ec55c632329ba48e31cb7013ca96c80d.pdf?dl="
+  },
+  {
+   "group": "Identity",
+   "key": "variants",
+   "label": "Earlier version",
+   "value": "OTTO 1500 v2 (Clearpath Robotics, 2021 data sheet)",
+   "unit": "",
+   "note": "",
+   "source": "https://s3.amazonaws.com/assets.ottomotors.com/pdf/OTTO1500-v2-Datasheet-210406_eng.pdf"
+  },
+  {
+   "group": "Mobility & Performance",
+   "key": "max_payload",
+   "label": "Maximum capacity",
+   "value": 1900,
+   "unit": "kg",
+   "note": "includes payload and attachment, if any",
+   "source": "https://cdn.sanity.io/files/armc7p5y/production/65f37f30ec55c632329ba48e31cb7013ca96c80d.pdf?dl="
+  },
+  {
+   "group": "Mobility & Performance",
+   "key": "max_speed",
+   "label": "Maximum speed",
+   "value": 2.0,
+   "unit": "m/s",
+   "note": "4.5 mph",
+   "source": "https://cdn.sanity.io/files/armc7p5y/production/65f37f30ec55c632329ba48e31cb7013ca96c80d.pdf?dl="
+  },
+  {
+   "group": "Mobility & Performance",
+   "key": "max_yaw_rate",
+   "label": "Maximum turning speed",
+   "value": 1.5,
+   "unit": "rad/s",
+   "note": "90°/s",
+   "source": "https://cdn.sanity.io/files/armc7p5y/production/65f37f30ec55c632329ba48e31cb7013ca96c80d.pdf?dl="
+  },
+  {
+   "group": "Mobility & Performance",
+   "key": "max_docking_speed",
+   "label": "Maximum docking speed",
+   "value": 0.3,
+   "unit": "m/s",
+   "note": "0.7 mph",
+   "source": "https://cdn.sanity.io/files/armc7p5y/production/65f37f30ec55c632329ba48e31cb7013ca96c80d.pdf?dl="
+  },
+  {
+   "group": "Mobility & Performance",
+   "key": "docking_accuracy",
+   "label": "Docking accuracy (standard)",
+   "value": "±10 mm (x,y); ±1° (yaw)",
+   "unit": "",
+   "note": "repeatable to 3σ",
+   "source": "https://cdn.sanity.io/files/armc7p5y/production/65f37f30ec55c632329ba48e31cb7013ca96c80d.pdf?dl="
+  },
+  {
+   "group": "Mobility & Performance",
+   "key": "docking_accuracy",
+   "label": "Docking accuracy (precision upgrade)",
+   "value": "±5 mm (x,y); ±1° (yaw)",
+   "unit": "",
+   "note": "requires OTTO High Accuracy Docking System (HADS), sold separately",
+   "source": "https://cdn.sanity.io/files/armc7p5y/production/65f37f30ec55c632329ba48e31cb7013ca96c80d.pdf?dl="
+  },
+  {
+   "group": "Terrain & Navigation Limits",
+   "key": "min_corridor_width",
+   "label": "Minimum aisle width (one way)",
+   "value": 2209,
+   "unit": "mm",
+   "note": "no payload (87 in); 1915 mm in earlier sheets",
+   "source": "https://cdn.sanity.io/files/armc7p5y/production/65f37f30ec55c632329ba48e31cb7013ca96c80d.pdf?dl="
+  },
+  {
+   "group": "Terrain & Navigation Limits",
+   "key": "corridor_width_two_robots_passing",
+   "label": "Minimum aisle width (two way)",
+   "value": 3570,
+   "unit": "mm",
+   "note": "no payload (146 in)",
+   "source": "https://cdn.sanity.io/files/armc7p5y/production/65f37f30ec55c632329ba48e31cb7013ca96c80d.pdf?dl="
+  },
+  {
+   "group": "Dimensions & Mass",
+   "key": "length",
+   "label": "Length",
+   "value": 1837,
+   "unit": "mm",
+   "note": "",
+   "source": "https://cdn.sanity.io/files/armc7p5y/production/65f37f30ec55c632329ba48e31cb7013ca96c80d.pdf?dl="
+  },
+  {
+   "group": "Dimensions & Mass",
+   "key": "width",
+   "label": "Width",
+   "value": 1283,
+   "unit": "mm",
+   "note": "",
+   "source": "https://cdn.sanity.io/files/armc7p5y/production/65f37f30ec55c632329ba48e31cb7013ca96c80d.pdf?dl="
+  },
+  {
+   "group": "Dimensions & Mass",
+   "key": "height",
+   "label": "Height",
+   "value": 351,
+   "unit": "mm",
+   "note": "",
+   "source": "https://cdn.sanity.io/files/armc7p5y/production/65f37f30ec55c632329ba48e31cb7013ca96c80d.pdf?dl="
+  },
+  {
+   "group": "Dimensions & Mass",
+   "key": "weight",
+   "label": "Mass",
+   "value": 627,
+   "unit": "kg",
+   "note": "1,382 lb",
+   "source": "https://cdn.sanity.io/files/armc7p5y/production/65f37f30ec55c632329ba48e31cb7013ca96c80d.pdf?dl="
+  },
+  {
+   "group": "Dimensions & Mass",
+   "key": "turning_radius",
+   "label": "Turning radius",
+   "value": "Turn in place",
+   "unit": "",
+   "note": "",
+   "source": "https://cdn.sanity.io/files/armc7p5y/production/65f37f30ec55c632329ba48e31cb7013ca96c80d.pdf?dl="
+  },
+  {
+   "group": "Mobility & Performance",
+   "key": "suspension",
+   "label": "Suspension",
+   "value": "Passive, rocker",
+   "unit": "",
+   "note": "",
+   "source": "https://cdn.sanity.io/files/armc7p5y/production/65f37f30ec55c632329ba48e31cb7013ca96c80d.pdf?dl="
+  },
+  {
+   "group": "Dimensions & Mass",
+   "key": "ground_clearance",
+   "label": "Ground clearance",
+   "value": 16,
+   "unit": "mm",
+   "note": "0.625 in",
+   "source": "https://cdn.sanity.io/files/armc7p5y/production/65f37f30ec55c632329ba48e31cb7013ca96c80d.pdf?dl="
+  },
+  {
+   "group": "Dimensions & Mass",
+   "key": "ground_clearance",
+   "label": "Ground clearance",
+   "value": 37.5,
+   "unit": "mm",
+   "note": "v2 (2021)",
+   "source": "https://s3.amazonaws.com/assets.ottomotors.com/pdf/OTTO1500-v2-Datasheet-210406_eng.pdf"
+  },
+  {
+   "group": "Terrain & Navigation Limits",
+   "key": "max_gap_crossing",
+   "label": "Traversable gap",
+   "value": 16,
+   "unit": "mm",
+   "note": "0.625 in",
+   "source": "https://cdn.sanity.io/files/armc7p5y/production/65f37f30ec55c632329ba48e31cb7013ca96c80d.pdf?dl="
+  },
+  {
+   "group": "Terrain & Navigation Limits",
+   "key": "max_gap_crossing",
+   "label": "Traversable gap",
+   "value": 31,
+   "unit": "mm",
+   "note": "v2 (2021)",
+   "source": "https://s3.amazonaws.com/assets.ottomotors.com/pdf/OTTO1500-v2-Datasheet-210406_eng.pdf"
+  },
+  {
+   "group": "Power & Battery",
+   "key": "battery_capacity_ah",
+   "label": "Battery capacity",
+   "value": 80,
+   "unit": "Ah",
+   "note": "",
+   "source": "https://cdn.sanity.io/files/armc7p5y/production/65f37f30ec55c632329ba48e31cb7013ca96c80d.pdf?dl="
+  },
+  {
+   "group": "Power & Battery",
+   "key": "battery_capacity_ah",
+   "label": "Battery capacity",
+   "value": 70,
+   "unit": "Ah",
+   "note": "v2 (2021)",
+   "source": "https://s3.amazonaws.com/assets.ottomotors.com/pdf/OTTO1500-v2-Datasheet-210406_eng.pdf"
+  },
+  {
+   "group": "Power & Battery",
+   "key": "battery_voltage",
+   "label": "Battery voltage",
+   "value": 52.8,
+   "unit": "V",
+   "note": "",
+   "source": "https://cdn.sanity.io/files/armc7p5y/production/65f37f30ec55c632329ba48e31cb7013ca96c80d.pdf?dl="
+  },
+  {
+   "group": "Power & Battery",
+   "key": "runtime",
+   "label": "Runtime",
+   "value": 10,
+   "unit": "h",
+   "note": "90% to 10%",
+   "source": "https://cdn.sanity.io/files/armc7p5y/production/65f37f30ec55c632329ba48e31cb7013ca96c80d.pdf?dl="
+  },
+  {
+   "group": "Power & Battery",
+   "key": "battery_cycle_life",
+   "label": "Battery life",
+   "value": 3000,
+   "unit": "cycles",
+   "note": "full charge cycles",
+   "source": "https://cdn.sanity.io/files/armc7p5y/production/65f37f30ec55c632329ba48e31cb7013ca96c80d.pdf?dl="
+  },
+  {
+   "group": "Power & Battery",
+   "key": "battery_cycle_life",
+   "label": "Battery life",
+   "value": 10000,
+   "unit": "cycles",
+   "note": "v2 (2021); est. battery replacements over 5 yr: 0",
+   "source": "https://s3.amazonaws.com/assets.ottomotors.com/pdf/OTTO1500-v2-Datasheet-210406_eng.pdf"
+  },
+  {
+   "group": "Charging & Docking",
+   "key": "max_charge_current",
+   "label": "Maximum charge rate",
+   "value": 80,
+   "unit": "A",
+   "note": "",
+   "source": "https://cdn.sanity.io/files/armc7p5y/production/65f37f30ec55c632329ba48e31cb7013ca96c80d.pdf?dl="
+  },
+  {
+   "group": "Charging & Docking",
+   "key": "max_charge_current",
+   "label": "Maximum charge rate",
+   "value": 98,
+   "unit": "A",
+   "note": "v2 (2021)",
+   "source": "https://s3.amazonaws.com/assets.ottomotors.com/pdf/OTTO1500-v2-Datasheet-210406_eng.pdf"
+  },
+  {
+   "group": "Charging & Docking",
+   "key": "charge_time",
+   "label": "Charge time",
+   "value": "60 min",
+   "unit": "",
+   "note": "10% to 90%",
+   "source": "https://cdn.sanity.io/files/armc7p5y/production/65f37f30ec55c632329ba48e31cb7013ca96c80d.pdf?dl="
+  },
+  {
+   "group": "Charging & Docking",
+   "key": "charge_time",
+   "label": "Charge time",
+   "value": "34 min",
+   "unit": "",
+   "note": "10% to 90%, v2 (2021)",
+   "source": "https://s3.amazonaws.com/assets.ottomotors.com/pdf/OTTO1500-v2-Datasheet-210406_eng.pdf"
+  },
+  {
+   "group": "Charging & Docking",
+   "key": "charging_method",
+   "label": "Battery charging options",
+   "value": "Autonomous opportunity charging (default); manual charging",
+   "unit": "",
+   "note": "",
+   "source": "https://cdn.sanity.io/files/armc7p5y/production/65f37f30ec55c632329ba48e31cb7013ca96c80d.pdf?dl="
+  },
+  {
+   "group": "Charging & Docking",
+   "key": "opportunity_charging",
+   "label": "Opportunity charging",
+   "value": true,
+   "unit": "",
+   "note": "autonomous, default",
+   "source": "https://cdn.sanity.io/files/armc7p5y/production/65f37f30ec55c632329ba48e31cb7013ca96c80d.pdf?dl="
+  },
+  {
+   "group": "Commercial",
+   "key": "optional_accessories",
+   "label": "Charging accessories (sold separately)",
+   "value": "Autonomous Supercharger (80 A); Manual Trickle Charger (25 A)",
+   "unit": "",
+   "note": "",
+   "source": "https://cdn.sanity.io/files/armc7p5y/production/65f37f30ec55c632329ba48e31cb7013ca96c80d.pdf?dl="
+  },
+  {
+   "group": "Commercial",
+   "key": "optional_accessories",
+   "label": "Load-handling accessories (v2)",
+   "value": "1500 kg hydraulic lift; 1500 kg in-line conveyor; 1900 kg load plate",
+   "unit": "",
+   "note": "",
+   "source": "https://s3.amazonaws.com/assets.ottomotors.com/pdf/OTTO1500-v2-Datasheet-210406_eng.pdf"
+  },
+  {
+   "group": "Safety & Compliance",
+   "key": "intelligent_braking",
+   "label": "Intelligent braking",
+   "value": "Redundant monitoring with safety-system interlock",
+   "unit": "",
+   "note": "",
+   "source": "https://cdn.sanity.io/files/armc7p5y/production/65f37f30ec55c632329ba48e31cb7013ca96c80d.pdf?dl="
+  },
+  {
+   "group": "Safety & Compliance",
+   "key": "adaptive_fieldsets",
+   "label": "Adaptive fieldsets",
+   "value": "Intelligent PL d rated switching fieldsets (patent-pending)",
+   "unit": "",
+   "note": "",
+   "source": "https://cdn.sanity.io/files/armc7p5y/production/65f37f30ec55c632329ba48e31cb7013ca96c80d.pdf?dl="
+  },
+  {
+   "group": "Safety & Compliance",
+   "key": "performance_level",
+   "label": "Performance level (fieldset switching)",
+   "value": "PL d",
+   "unit": "",
+   "note": "",
+   "source": "https://cdn.sanity.io/files/armc7p5y/production/65f37f30ec55c632329ba48e31cb7013ca96c80d.pdf?dl="
+  },
+  {
+   "group": "Safety & Compliance",
+   "key": "emergency_stop",
+   "label": "E-stop",
+   "value": "4 E-stops (1 per side) + user E-stop circuit interface",
+   "unit": "",
+   "note": "",
+   "source": "https://cdn.sanity.io/files/armc7p5y/production/65f37f30ec55c632329ba48e31cb7013ca96c80d.pdf?dl="
+  },
+  {
+   "group": "Safety & Compliance",
+   "key": "safety_standards",
+   "label": "Standards compliance",
+   "value": "CE marked; ANSI/ITSDF B56.5; RIA R15.08-1; ISO 12100/13849-1/3691-4; FCC Part 15 Subpart B / ICES-003; ICES-002; EN 1175-1/60204-1",
+   "unit": "",
+   "note": "",
+   "source": "https://cdn.sanity.io/files/armc7p5y/production/65f37f30ec55c632329ba48e31cb7013ca96c80d.pdf?dl="
+  },
+  {
+   "group": "Controls & Operation",
+   "key": "manual_control",
+   "label": "Manual control",
+   "value": "Pendant-based manual control; guided autonomous control via OTTO software interface",
+   "unit": "",
+   "note": "",
+   "source": "https://cdn.sanity.io/files/armc7p5y/production/65f37f30ec55c632329ba48e31cb7013ca96c80d.pdf?dl="
+  },
+  {
+   "group": "Payload & Mounting",
+   "key": "payload_port_power",
+   "label": "Power interface",
+   "value": "24 VDC, 10 A, regulated, unswitched; 52.8 VDC nominal, 50 A, unregulated",
+   "unit": "",
+   "note": "",
+   "source": "https://cdn.sanity.io/files/armc7p5y/production/65f37f30ec55c632329ba48e31cb7013ca96c80d.pdf?dl="
+  },
+  {
+   "group": "Connectivity & Interfaces",
+   "key": "external_ports",
+   "label": "Signal interface",
+   "value": "1× Ethernet, 1× USB 3.1, 1× HDMI, 1 CAN bus, 5 GPIO (2 safety rated), 1 interface control line",
+   "unit": "",
+   "note": "",
+   "source": "https://cdn.sanity.io/files/armc7p5y/production/65f37f30ec55c632329ba48e31cb7013ca96c80d.pdf?dl="
+  },
+  {
+   "group": "Connectivity & Interfaces",
+   "key": "safety_io",
+   "label": "Safety interface",
+   "value": "Dual-channel E-stop breakout, 2 safety-rated GPIO, 1 attachment interface fault line",
+   "unit": "",
+   "note": "",
+   "source": "https://cdn.sanity.io/files/armc7p5y/production/65f37f30ec55c632329ba48e31cb7013ca96c80d.pdf?dl="
+  },
+  {
+   "group": "Sensors & Perception",
+   "key": "depth_camera_count",
+   "label": "Depth cameras",
+   "value": 4,
+   "unit": "",
+   "note": "Intel RealSense",
+   "source": "https://cdn.sanity.io/files/armc7p5y/production/65f37f30ec55c632329ba48e31cb7013ca96c80d.pdf?dl="
+  },
+  {
+   "group": "Sensors & Perception",
+   "key": "camera_type",
+   "label": "Camera model",
+   "value": "Intel RealSense",
+   "unit": "",
+   "note": "",
+   "source": "https://cdn.sanity.io/files/armc7p5y/production/65f37f30ec55c632329ba48e31cb7013ca96c80d.pdf?dl="
+  },
+  {
+   "group": "Sensors & Perception",
+   "key": "safety_scanner",
+   "label": "Safety laser scanners",
+   "value": "2× SICK microScan3 (360° FOV)",
+   "unit": "",
+   "note": "",
+   "source": "https://cdn.sanity.io/files/armc7p5y/production/65f37f30ec55c632329ba48e31cb7013ca96c80d.pdf?dl="
+  },
+  {
+   "group": "Sensors & Perception",
+   "key": "imu",
+   "label": "IMU",
+   "value": "Embedded 6-axis IMU",
+   "unit": "",
+   "note": "",
+   "source": "https://cdn.sanity.io/files/armc7p5y/production/65f37f30ec55c632329ba48e31cb7013ca96c80d.pdf?dl="
+  },
+  {
+   "group": "Compute & Software",
+   "key": "computer",
+   "label": "Computer",
+   "value": "Solid-state military-spec computer with dedicated GPU",
+   "unit": "",
+   "note": "",
+   "source": "https://cdn.sanity.io/files/armc7p5y/production/65f37f30ec55c632329ba48e31cb7013ca96c80d.pdf?dl="
+  },
+  {
+   "group": "Compute & Software",
+   "key": "cpu",
+   "label": "CPU",
+   "value": "Intel i7-6700TE quad core",
+   "unit": "",
+   "note": "v2 (2021)",
+   "source": "https://s3.amazonaws.com/assets.ottomotors.com/pdf/OTTO1500-v2-Datasheet-210406_eng.pdf"
+  },
+  {
+   "group": "Compute & Software",
+   "key": "ram",
+   "label": "RAM",
+   "value": 16,
+   "unit": "GB",
+   "note": "v2 (2021)",
+   "source": "https://s3.amazonaws.com/assets.ottomotors.com/pdf/OTTO1500-v2-Datasheet-210406_eng.pdf"
+  },
+  {
+   "group": "Compute & Software",
+   "key": "gpu",
+   "label": "GPU",
+   "value": "NVIDIA GTX 1050",
+   "unit": "",
+   "note": "v2 (2021)",
+   "source": "https://s3.amazonaws.com/assets.ottomotors.com/pdf/OTTO1500-v2-Datasheet-210406_eng.pdf"
+  },
+  {
+   "group": "Connectivity & Interfaces",
+   "key": "wifi",
+   "label": "Wi-Fi",
+   "value": "2.4 / 5 GHz (802.11 a/b/g/n/ac)",
+   "unit": "",
+   "note": "2× long-range omnidirectional antennae",
+   "source": "https://cdn.sanity.io/files/armc7p5y/production/65f37f30ec55c632329ba48e31cb7013ca96c80d.pdf?dl="
+  },
+  {
+   "group": "Environment & Protection",
+   "key": "ip_rating",
+   "label": "IP classification",
+   "value": "IP20",
+   "unit": "",
+   "note": "",
+   "source": "https://cdn.sanity.io/files/armc7p5y/production/65f37f30ec55c632329ba48e31cb7013ca96c80d.pdf?dl="
+  },
+  {
+   "group": "Environment & Protection",
+   "key": "operating_temperature",
+   "label": "Ambient temperature",
+   "value": "0 to 40",
+   "unit": "°C",
+   "note": "",
+   "source": "https://cdn.sanity.io/files/armc7p5y/production/65f37f30ec55c632329ba48e31cb7013ca96c80d.pdf?dl="
+  },
+  {
+   "group": "Environment & Protection",
+   "key": "operating_humidity",
+   "label": "Humidity",
+   "value": "10–95",
+   "unit": "%",
+   "note": "non-condensing",
+   "source": "https://cdn.sanity.io/files/armc7p5y/production/65f37f30ec55c632329ba48e31cb7013ca96c80d.pdf?dl="
+  }
+ ]
+}

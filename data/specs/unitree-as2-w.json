@@ -1,0 +1,534 @@
+{
+ "id": "unitree-as2-w",
+ "checked": "2026-11-04",
+ "documents": [
+  {
+   "title": "Unitree As2-W product page (As2-W X / EDU parameter table)",
+   "url": "https://www.unitree.com/As2-W"
+  }
+ ],
+ "specs": [
+  {
+   "group": "Identity",
+   "key": "variants",
+   "label": "Variants",
+   "value": "As2-W X; As2-W EDU (custom industry solutions)",
+   "unit": "",
+   "note": "",
+   "source": "https://www.unitree.com/As2-W"
+  },
+  {
+   "group": "Dimensions & Mass",
+   "key": "length",
+   "label": "Length",
+   "value": 721,
+   "unit": "mm",
+   "note": "standing",
+   "source": "https://www.unitree.com/As2-W"
+  },
+  {
+   "group": "Dimensions & Mass",
+   "key": "width",
+   "label": "Width",
+   "value": 493,
+   "unit": "mm",
+   "note": "standing",
+   "source": "https://www.unitree.com/As2-W"
+  },
+  {
+   "group": "Dimensions & Mass",
+   "key": "height_standing",
+   "label": "Height (standing)",
+   "value": 521,
+   "unit": "mm",
+   "note": "",
+   "source": "https://www.unitree.com/As2-W"
+  },
+  {
+   "group": "Dimensions & Mass",
+   "key": "length",
+   "label": "Length",
+   "value": 768,
+   "unit": "mm",
+   "note": "lying prone",
+   "source": "https://www.unitree.com/As2-W"
+  },
+  {
+   "group": "Dimensions & Mass",
+   "key": "width",
+   "label": "Width",
+   "value": 602,
+   "unit": "mm",
+   "note": "lying prone",
+   "source": "https://www.unitree.com/As2-W"
+  },
+  {
+   "group": "Dimensions & Mass",
+   "key": "height_sitting",
+   "label": "Height (lying prone)",
+   "value": 211,
+   "unit": "mm",
+   "note": "",
+   "source": "https://www.unitree.com/As2-W"
+  },
+  {
+   "group": "Dimensions & Mass",
+   "key": "wheel_diameter",
+   "label": "Tyre size",
+   "value": 178,
+   "unit": "mm",
+   "note": "7 inch; radius 50 mm as stated",
+   "source": "https://www.unitree.com/As2-W"
+  },
+  {
+   "group": "Dimensions & Mass",
+   "key": "body_material",
+   "label": "Material",
+   "value": "Aluminium alloy + high-strength engineering plastic",
+   "unit": "",
+   "note": "",
+   "source": "https://www.unitree.com/As2-W"
+  },
+  {
+   "group": "Dimensions & Mass",
+   "key": "weight_with_battery",
+   "label": "Weight (with battery)",
+   "value": 25,
+   "unit": "kg",
+   "note": "approx.",
+   "source": "https://www.unitree.com/As2-W"
+  },
+  {
+   "group": "Mobility & Performance",
+   "key": "degrees_of_freedom",
+   "label": "Degrees of freedom (joint motors)",
+   "value": 16,
+   "unit": "",
+   "note": "",
+   "source": "https://www.unitree.com/As2-W"
+  },
+  {
+   "group": "Actuation & Joints",
+   "key": "joint_bearings",
+   "label": "Joint bearings",
+   "value": "Industrial-grade crossed roller bearings",
+   "unit": "",
+   "note": "",
+   "source": "https://www.unitree.com/As2-W"
+  },
+  {
+   "group": "Actuation & Joints",
+   "key": "actuator_type",
+   "label": "Joint motors",
+   "value": "Low-inertia, high-speed inner-rotor PMSM",
+   "unit": "",
+   "note": "",
+   "source": "https://www.unitree.com/As2-W"
+  },
+  {
+   "group": "Actuation & Joints",
+   "key": "max_joint_torque",
+   "label": "Max joint torque",
+   "value": 95,
+   "unit": "N·m",
+   "note": "approx.; industrial-grade joint modules",
+   "source": "https://www.unitree.com/As2-W"
+  },
+  {
+   "group": "Actuation & Joints",
+   "key": "joint_range_of_motion",
+   "label": "Range of motion (body)",
+   "value": "−45 to 45",
+   "unit": "°",
+   "note": "",
+   "source": "https://www.unitree.com/As2-W"
+  },
+  {
+   "group": "Actuation & Joints",
+   "key": "joint_range_of_motion",
+   "label": "Range of motion (thigh)",
+   "value": "−115 to 200",
+   "unit": "°",
+   "note": "",
+   "source": "https://www.unitree.com/As2-W"
+  },
+  {
+   "group": "Actuation & Joints",
+   "key": "joint_range_of_motion",
+   "label": "Range of motion (shank)",
+   "value": "−159 to −47",
+   "unit": "°",
+   "note": "",
+   "source": "https://www.unitree.com/As2-W"
+  },
+  {
+   "group": "Power & Battery",
+   "key": "battery_voltage",
+   "label": "Supply voltage",
+   "value": "36–50.4",
+   "unit": "V",
+   "note": "",
+   "source": "https://www.unitree.com/As2-W"
+  },
+  {
+   "group": "Actuation & Joints",
+   "key": "joint_encoder",
+   "label": "Joint encoder",
+   "value": "Dual encoders",
+   "unit": "",
+   "note": "",
+   "source": "https://www.unitree.com/As2-W"
+  },
+  {
+   "group": "Actuation & Joints",
+   "key": "cooling_system",
+   "label": "Cooling system",
+   "value": "Local air cooling",
+   "unit": "",
+   "note": "",
+   "source": "https://www.unitree.com/As2-W"
+  },
+  {
+   "group": "Power & Battery",
+   "key": "battery_chemistry",
+   "label": "Power supply",
+   "value": "Lithium battery",
+   "unit": "",
+   "note": "",
+   "source": "https://www.unitree.com/As2-W"
+  },
+  {
+   "group": "Power & Battery",
+   "key": "battery_capacity",
+   "label": "Battery capacity",
+   "value": 648,
+   "unit": "Wh",
+   "note": "15,000 mAh",
+   "source": "https://www.unitree.com/As2-W"
+  },
+  {
+   "group": "Connectivity & Interfaces",
+   "key": "wifi",
+   "label": "Wi-Fi",
+   "value": "Wi-Fi 6",
+   "unit": "",
+   "note": "",
+   "source": "https://www.unitree.com/As2-W"
+  },
+  {
+   "group": "Connectivity & Interfaces",
+   "key": "bluetooth",
+   "label": "Bluetooth",
+   "value": "5.2",
+   "unit": "",
+   "note": "",
+   "source": "https://www.unitree.com/As2-W"
+  },
+  {
+   "group": "Audio, Lights & HMI",
+   "key": "speaker",
+   "label": "Speaker",
+   "value": "Yes",
+   "unit": "",
+   "note": "",
+   "source": "https://www.unitree.com/As2-W"
+  },
+  {
+   "group": "Sensors & Perception",
+   "key": "microphones",
+   "label": "Microphone",
+   "value": "Yes",
+   "unit": "",
+   "note": "",
+   "source": "https://www.unitree.com/As2-W"
+  },
+  {
+   "group": "Audio, Lights & HMI",
+   "key": "front_light",
+   "label": "Front light",
+   "value": "Yes",
+   "unit": "",
+   "note": "",
+   "source": "https://www.unitree.com/As2-W"
+  },
+  {
+   "group": "Controls & Operation",
+   "key": "follow_module",
+   "label": "Side-follow system",
+   "value": "ISS 3.0 Intelligent Side-follow System (centimetre-level positioning)",
+   "unit": "",
+   "note": "",
+   "source": "https://www.unitree.com/As2-W"
+  },
+  {
+   "group": "Sensors & Perception",
+   "key": "gps",
+   "label": "GPS",
+   "value": "Yes",
+   "unit": "",
+   "note": "disabled by default; enabled with user authorization; mainland China version only (footnote [4])",
+   "source": "https://www.unitree.com/As2-W"
+  },
+  {
+   "group": "Connectivity & Interfaces",
+   "key": "cellular",
+   "label": "4G",
+   "value": "Yes",
+   "unit": "",
+   "note": "disabled by default; enabled with user authorization",
+   "source": "https://www.unitree.com/As2-W"
+  },
+  {
+   "group": "Sensors & Perception",
+   "key": "camera_type",
+   "label": "Camera",
+   "value": "HD camera",
+   "unit": "",
+   "note": "",
+   "source": "https://www.unitree.com/As2-W"
+  },
+  {
+   "group": "Sensors & Perception",
+   "key": "lidar_type",
+   "label": "LiDAR",
+   "value": "Industrial-grade 64–128-line ultra-wide-angle LiDAR",
+   "unit": "",
+   "note": "",
+   "source": "https://www.unitree.com/As2-W"
+  },
+  {
+   "group": "Compute & Software",
+   "key": "cpu",
+   "label": "Computing power",
+   "value": "8-core high-performance CPU",
+   "unit": "",
+   "note": "",
+   "source": "https://www.unitree.com/As2-W"
+  },
+  {
+   "group": "Compute & Software",
+   "key": "ai_performance_tops",
+   "label": "Expansion module compute",
+   "value": 150,
+   "unit": "TOPS",
+   "note": "optional high-performance expansion module",
+   "source": "https://www.unitree.com/As2-W"
+  },
+  {
+   "group": "Compute & Software",
+   "key": "optional_compute",
+   "label": "High computing power expansion dock",
+   "value": "Multiple brands/models, e.g. NVIDIA Orin NX",
+   "unit": "",
+   "note": "EDU only",
+   "source": "https://www.unitree.com/As2-W"
+  },
+  {
+   "group": "Connectivity & Interfaces",
+   "key": "ethernet",
+   "label": "Gigabit Ethernet",
+   "value": 1,
+   "unit": "port",
+   "note": "",
+   "source": "https://www.unitree.com/As2-W"
+  },
+  {
+   "group": "Connectivity & Interfaces",
+   "key": "external_ports",
+   "label": "SBUS",
+   "value": 1,
+   "unit": "port",
+   "note": "",
+   "source": "https://www.unitree.com/As2-W"
+  },
+  {
+   "group": "Payload & Mounting",
+   "key": "payload_port_voltage",
+   "label": "Power output",
+   "value": "BAT",
+   "unit": "",
+   "note": "",
+   "source": "https://www.unitree.com/As2-W"
+  },
+  {
+   "group": "Environment & Protection",
+   "key": "operating_temperature",
+   "label": "Operating temperature",
+   "value": "−20 to 55",
+   "unit": "°C",
+   "note": "",
+   "source": "https://www.unitree.com/As2-W"
+  },
+  {
+   "group": "Power & Battery",
+   "key": "runtime",
+   "label": "Battery life (unloaded)",
+   "value": 3,
+   "unit": "h",
+   "note": "~3 h continuous walking, approx. 30 km (headline: 3 h+, >33 km)",
+   "source": "https://www.unitree.com/As2-W"
+  },
+  {
+   "group": "Power & Battery",
+   "key": "range_per_charge",
+   "label": "Range (unloaded)",
+   "value": 30,
+   "unit": "km",
+   "note": "approx.",
+   "source": "https://www.unitree.com/As2-W"
+  },
+  {
+   "group": "Power & Battery",
+   "key": "runtime_with_payload",
+   "label": "Battery life (16 kg load)",
+   "value": ">2",
+   "unit": "h",
+   "note": "approx. 25 km (headline: >16 km)",
+   "source": "https://www.unitree.com/As2-W"
+  },
+  {
+   "group": "Mobility & Performance",
+   "key": "max_payload",
+   "label": "Max standing load",
+   "value": 150,
+   "unit": "kg",
+   "note": "approx., static",
+   "source": "https://www.unitree.com/As2-W"
+  },
+  {
+   "group": "Mobility & Performance",
+   "key": "rated_payload",
+   "label": "Continuous walking load",
+   "value": 16,
+   "unit": "kg",
+   "note": "approx.",
+   "source": "https://www.unitree.com/As2-W"
+  },
+  {
+   "group": "Terrain & Navigation Limits",
+   "key": "max_slope",
+   "label": "Slope walking capability",
+   "value": 45,
+   "unit": "°",
+   "note": "approx.",
+   "source": "https://www.unitree.com/As2-W"
+  },
+  {
+   "group": "Terrain & Navigation Limits",
+   "key": "max_stair_step_height",
+   "label": "Stair climbing",
+   "value": 30,
+   "unit": "cm",
+   "note": "",
+   "source": "https://www.unitree.com/As2-W"
+  },
+  {
+   "group": "Terrain & Navigation Limits",
+   "key": "max_obstacle_height",
+   "label": "Max climb height",
+   "value": "0.4–0.8",
+   "unit": "m",
+   "note": "approx.; 80 cm steps",
+   "source": "https://www.unitree.com/As2-W"
+  },
+  {
+   "group": "Mobility & Performance",
+   "key": "nominal_speed",
+   "label": "Speed (normal)",
+   "value": "0–3.7",
+   "unit": "m/s",
+   "note": "",
+   "source": "https://www.unitree.com/As2-W"
+  },
+  {
+   "group": "Mobility & Performance",
+   "key": "max_speed",
+   "label": "Max speed",
+   "value": 6,
+   "unit": "m/s",
+   "note": "approx.; 'over 6 m/s' in headline",
+   "source": "https://www.unitree.com/As2-W"
+  },
+  {
+   "group": "Environment & Protection",
+   "key": "ip_rating",
+   "label": "Protection rating",
+   "value": "IP54",
+   "unit": "",
+   "note": "",
+   "source": "https://www.unitree.com/As2-W"
+  },
+  {
+   "group": "Controls & Operation",
+   "key": "controller",
+   "label": "Remote controller",
+   "value": "Included",
+   "unit": "",
+   "note": "",
+   "source": "https://www.unitree.com/As2-W"
+  },
+  {
+   "group": "Charging & Docking",
+   "key": "charger_output",
+   "label": "Charger",
+   "value": "50.4 V 7.4 A fast charging",
+   "unit": "",
+   "note": "",
+   "source": "https://www.unitree.com/As2-W"
+  },
+  {
+   "group": "Charging & Docking",
+   "key": "dock_available",
+   "label": "Charging dock",
+   "value": "EDU only",
+   "unit": "",
+   "note": "",
+   "source": "https://www.unitree.com/As2-W"
+  },
+  {
+   "group": "Compute & Software",
+   "key": "sdk",
+   "label": "Secondary development",
+   "value": "Supported; SDK and APIs support large AI models",
+   "unit": "",
+   "note": "",
+   "source": "https://www.unitree.com/As2-W"
+  },
+  {
+   "group": "Compute & Software",
+   "key": "app_platform",
+   "label": "UniStore platform",
+   "value": "Supported",
+   "unit": "",
+   "note": "",
+   "source": "https://www.unitree.com/As2-W"
+  },
+  {
+   "group": "Compute & Software",
+   "key": "ota_updates",
+   "label": "Smart OTA upgrade",
+   "value": "Continuous upgrades",
+   "unit": "",
+   "note": "",
+   "source": "https://www.unitree.com/As2-W"
+  },
+  {
+   "group": "Commercial",
+   "key": "warranty",
+   "label": "Warranty",
+   "value": 12,
+   "unit": "months",
+   "note": "",
+   "source": "https://www.unitree.com/As2-W"
+  },
+  {
+   "group": "Commercial",
+   "key": "price",
+   "label": "Price",
+   "value": "Contact sales",
+   "unit": "",
+   "note": "tax and freight excluded",
+   "source": "https://www.unitree.com/As2-W"
+  }
+ ]
+}

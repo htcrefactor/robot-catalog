@@ -1,0 +1,579 @@
+{
+ "id": "unitree-a2-w",
+ "checked": "2026-11-04",
+ "documents": [
+  {
+   "title": "Unitree A2-W product page (A2-W / A2-W PRO parameter table)",
+   "url": "https://www.unitree.com/A2-W"
+  }
+ ],
+ "specs": [
+  {
+   "group": "Identity",
+   "key": "variants",
+   "label": "Variants",
+   "value": "A2-W; A2-W PRO (custom industry solutions)",
+   "unit": "",
+   "note": "",
+   "source": "https://www.unitree.com/A2-W"
+  },
+  {
+   "group": "Dimensions & Mass",
+   "key": "length",
+   "label": "Length",
+   "value": 900,
+   "unit": "mm",
+   "note": "standing",
+   "source": "https://www.unitree.com/A2-W"
+  },
+  {
+   "group": "Dimensions & Mass",
+   "key": "width",
+   "label": "Width",
+   "value": 440,
+   "unit": "mm",
+   "note": "standing",
+   "source": "https://www.unitree.com/A2-W"
+  },
+  {
+   "group": "Dimensions & Mass",
+   "key": "height_standing",
+   "label": "Height (standing)",
+   "value": 625,
+   "unit": "mm",
+   "note": "",
+   "source": "https://www.unitree.com/A2-W"
+  },
+  {
+   "group": "Dimensions & Mass",
+   "key": "length",
+   "label": "Length",
+   "value": 930,
+   "unit": "mm",
+   "note": "lying prone",
+   "source": "https://www.unitree.com/A2-W"
+  },
+  {
+   "group": "Dimensions & Mass",
+   "key": "width",
+   "label": "Width",
+   "value": 685,
+   "unit": "mm",
+   "note": "lying prone",
+   "source": "https://www.unitree.com/A2-W"
+  },
+  {
+   "group": "Dimensions & Mass",
+   "key": "height_sitting",
+   "label": "Height (lying prone)",
+   "value": 210,
+   "unit": "mm",
+   "note": "",
+   "source": "https://www.unitree.com/A2-W"
+  },
+  {
+   "group": "Dimensions & Mass",
+   "key": "wheel_diameter",
+   "label": "Tyre diameter",
+   "value": 190,
+   "unit": "mm",
+   "note": "",
+   "source": "https://www.unitree.com/A2-W"
+  },
+  {
+   "group": "Dimensions & Mass",
+   "key": "tire_width",
+   "label": "Tyre width",
+   "value": 51,
+   "unit": "mm",
+   "note": "",
+   "source": "https://www.unitree.com/A2-W"
+  },
+  {
+   "group": "Dimensions & Mass",
+   "key": "body_material",
+   "label": "Material",
+   "value": "Aluminium alloy + high-strength engineering plastic",
+   "unit": "",
+   "note": "",
+   "source": "https://www.unitree.com/A2-W"
+  },
+  {
+   "group": "Dimensions & Mass",
+   "key": "weight_without_battery",
+   "label": "Weight (without battery)",
+   "value": 45,
+   "unit": "kg",
+   "note": "about",
+   "source": "https://www.unitree.com/A2-W"
+  },
+  {
+   "group": "Dimensions & Mass",
+   "key": "weight_with_battery",
+   "label": "Weight (with battery)",
+   "value": 52,
+   "unit": "kg",
+   "note": "about",
+   "source": "https://www.unitree.com/A2-W"
+  },
+  {
+   "group": "Mobility & Performance",
+   "key": "degrees_of_freedom",
+   "label": "Degrees of freedom (joint motors)",
+   "value": 16,
+   "unit": "",
+   "note": "",
+   "source": "https://www.unitree.com/A2-W"
+  },
+  {
+   "group": "Actuation & Joints",
+   "key": "joint_bearings",
+   "label": "Joint bearings",
+   "value": "Industrial-grade crossed roller bearings (high precision, high load capacity)",
+   "unit": "",
+   "note": "",
+   "source": "https://www.unitree.com/A2-W"
+  },
+  {
+   "group": "Actuation & Joints",
+   "key": "actuator_type",
+   "label": "Joint motors",
+   "value": "Low-inertia, high-speed inner-rotor PMSM (enhanced response & heat dissipation)",
+   "unit": "",
+   "note": "",
+   "source": "https://www.unitree.com/A2-W"
+  },
+  {
+   "group": "Actuation & Joints",
+   "key": "max_joint_torque",
+   "label": "Max joint torque",
+   "value": 180,
+   "unit": "N·m",
+   "note": "about",
+   "source": "https://www.unitree.com/A2-W"
+  },
+  {
+   "group": "Actuation & Joints",
+   "key": "joint_range_of_motion",
+   "label": "Range of motion (body)",
+   "value": "−58 to 58",
+   "unit": "°",
+   "note": "",
+   "source": "https://www.unitree.com/A2-W"
+  },
+  {
+   "group": "Actuation & Joints",
+   "key": "joint_range_of_motion",
+   "label": "Range of motion (thigh)",
+   "value": "−134 to 180 / −89 to 225",
+   "unit": "°",
+   "note": "",
+   "source": "https://www.unitree.com/A2-W"
+  },
+  {
+   "group": "Actuation & Joints",
+   "key": "joint_range_of_motion",
+   "label": "Range of motion (shank)",
+   "value": "−158 to −30",
+   "unit": "°",
+   "note": "",
+   "source": "https://www.unitree.com/A2-W"
+  },
+  {
+   "group": "Power & Battery",
+   "key": "battery_voltage",
+   "label": "Supply voltage",
+   "value": 50.4,
+   "unit": "V",
+   "note": "",
+   "source": "https://www.unitree.com/A2-W"
+  },
+  {
+   "group": "Actuation & Joints",
+   "key": "joint_encoder",
+   "label": "Joint encoder",
+   "value": "Dual encoders",
+   "unit": "",
+   "note": "",
+   "source": "https://www.unitree.com/A2-W"
+  },
+  {
+   "group": "Actuation & Joints",
+   "key": "cooling_system",
+   "label": "Cooling system",
+   "value": "Local air cooling",
+   "unit": "",
+   "note": "",
+   "source": "https://www.unitree.com/A2-W"
+  },
+  {
+   "group": "Power & Battery",
+   "key": "battery_count",
+   "label": "Power supply",
+   "value": "Dual slots, dual batteries",
+   "unit": "",
+   "note": "hot-swappable dual batteries in parallel",
+   "source": "https://www.unitree.com/A2-W"
+  },
+  {
+   "group": "Power & Battery",
+   "key": "battery_swappable",
+   "label": "Battery hot-swap",
+   "value": true,
+   "unit": "",
+   "note": "swap without stopping",
+   "source": "https://www.unitree.com/A2-W"
+  },
+  {
+   "group": "Power & Battery",
+   "key": "battery_capacity",
+   "label": "Battery capacity",
+   "value": 453.6,
+   "unit": "Wh",
+   "note": "single battery, 9000 mAh",
+   "source": "https://www.unitree.com/A2-W"
+  },
+  {
+   "group": "Power & Battery",
+   "key": "battery_capacity",
+   "label": "Battery capacity",
+   "value": 907.2,
+   "unit": "Wh",
+   "note": "dual batteries, 18000 mAh",
+   "source": "https://www.unitree.com/A2-W"
+  },
+  {
+   "group": "Connectivity & Interfaces",
+   "key": "wifi",
+   "label": "Wi-Fi",
+   "value": "Wi-Fi 6",
+   "unit": "",
+   "note": "",
+   "source": "https://www.unitree.com/A2-W"
+  },
+  {
+   "group": "Connectivity & Interfaces",
+   "key": "bluetooth",
+   "label": "Bluetooth",
+   "value": "5.2",
+   "unit": "",
+   "note": "",
+   "source": "https://www.unitree.com/A2-W"
+  },
+  {
+   "group": "Audio, Lights & HMI",
+   "key": "speaker",
+   "label": "Speaker",
+   "value": "Yes",
+   "unit": "",
+   "note": "",
+   "source": "https://www.unitree.com/A2-W"
+  },
+  {
+   "group": "Sensors & Perception",
+   "key": "microphones",
+   "label": "Microphone",
+   "value": "Microphone array",
+   "unit": "",
+   "note": "",
+   "source": "https://www.unitree.com/A2-W"
+  },
+  {
+   "group": "Audio, Lights & HMI",
+   "key": "front_light",
+   "label": "Front light",
+   "value": "Yes",
+   "unit": "",
+   "note": "",
+   "source": "https://www.unitree.com/A2-W"
+  },
+  {
+   "group": "Controls & Operation",
+   "key": "follow_module",
+   "label": "Wireless vector follow module",
+   "value": "Optional (A2-W); expanded (A2-W PRO)",
+   "unit": "",
+   "note": "",
+   "source": "https://www.unitree.com/A2-W"
+  },
+  {
+   "group": "Sensors & Perception",
+   "key": "gps",
+   "label": "GPS",
+   "value": "Optional (A2-W); expanded (A2-W PRO)",
+   "unit": "",
+   "note": "",
+   "source": "https://www.unitree.com/A2-W"
+  },
+  {
+   "group": "Connectivity & Interfaces",
+   "key": "cellular",
+   "label": "4G",
+   "value": "Optional (A2-W); expanded (A2-W PRO)",
+   "unit": "",
+   "note": "",
+   "source": "https://www.unitree.com/A2-W"
+  },
+  {
+   "group": "Sensors & Perception",
+   "key": "lidar_count",
+   "label": "LiDAR count",
+   "value": 1,
+   "unit": "",
+   "note": "A2-W; PRO has 2 (front & rear industrial LiDARs)",
+   "source": "https://www.unitree.com/A2-W"
+  },
+  {
+   "group": "Sensors & Perception",
+   "key": "camera_count",
+   "label": "HD camera count",
+   "value": 1,
+   "unit": "",
+   "note": "",
+   "source": "https://www.unitree.com/A2-W"
+  },
+  {
+   "group": "Compute & Software",
+   "key": "cpu",
+   "label": "Compute (platform)",
+   "value": "8-core high-performance CPU",
+   "unit": "",
+   "note": "",
+   "source": "https://www.unitree.com/A2-W"
+  },
+  {
+   "group": "Compute & Software",
+   "key": "cpu",
+   "label": "Compute (user development)",
+   "value": "Intel Core i7",
+   "unit": "",
+   "note": "",
+   "source": "https://www.unitree.com/A2-W"
+  },
+  {
+   "group": "Compute & Software",
+   "key": "optional_compute",
+   "label": "Optional compute",
+   "value": "High computing power expansion dock",
+   "unit": "",
+   "note": "",
+   "source": "https://www.unitree.com/A2-W"
+  },
+  {
+   "group": "Connectivity & Interfaces",
+   "key": "external_ports",
+   "label": "RS485",
+   "value": 2,
+   "unit": "ports",
+   "note": "",
+   "source": "https://www.unitree.com/A2-W"
+  },
+  {
+   "group": "Connectivity & Interfaces",
+   "key": "external_ports",
+   "label": "CAN",
+   "value": 2,
+   "unit": "ports",
+   "note": "",
+   "source": "https://www.unitree.com/A2-W"
+  },
+  {
+   "group": "Connectivity & Interfaces",
+   "key": "ethernet",
+   "label": "Gigabit Ethernet",
+   "value": 2,
+   "unit": "ports",
+   "note": "",
+   "source": "https://www.unitree.com/A2-W"
+  },
+  {
+   "group": "Connectivity & Interfaces",
+   "key": "usb_ports",
+   "label": "USB 3.0 Type-C (8-core CPU)",
+   "value": 2,
+   "unit": "ports",
+   "note": "",
+   "source": "https://www.unitree.com/A2-W"
+  },
+  {
+   "group": "Connectivity & Interfaces",
+   "key": "usb_ports",
+   "label": "USB 3.0 Type-C (Intel Core i7)",
+   "value": 2,
+   "unit": "ports",
+   "note": "",
+   "source": "https://www.unitree.com/A2-W"
+  },
+  {
+   "group": "Payload & Mounting",
+   "key": "payload_port_voltage",
+   "label": "Power output",
+   "value": "12 V / 24 V / BAT",
+   "unit": "",
+   "note": "",
+   "source": "https://www.unitree.com/A2-W"
+  },
+  {
+   "group": "Environment & Protection",
+   "key": "operating_temperature",
+   "label": "Operating temperature",
+   "value": "−20 to 55",
+   "unit": "°C",
+   "note": "",
+   "source": "https://www.unitree.com/A2-W"
+  },
+  {
+   "group": "Power & Battery",
+   "key": "runtime",
+   "label": "Battery life (no load)",
+   "value": ">3.5",
+   "unit": "h",
+   "note": "continuous walking, approx. 35 km",
+   "source": "https://www.unitree.com/A2-W"
+  },
+  {
+   "group": "Power & Battery",
+   "key": "range_per_charge",
+   "label": "Range (no load)",
+   "value": 35,
+   "unit": "km",
+   "note": "approx.",
+   "source": "https://www.unitree.com/A2-W"
+  },
+  {
+   "group": "Power & Battery",
+   "key": "runtime_with_payload",
+   "label": "Battery life (25 kg load)",
+   "value": ">1.5",
+   "unit": "h",
+   "note": "continuous walking, approx. 15 km",
+   "source": "https://www.unitree.com/A2-W"
+  },
+  {
+   "group": "Power & Battery",
+   "key": "range_per_charge",
+   "label": "Range (25 kg load)",
+   "value": 15,
+   "unit": "km",
+   "note": "approx.",
+   "source": "https://www.unitree.com/A2-W"
+  },
+  {
+   "group": "Mobility & Performance",
+   "key": "max_payload",
+   "label": "Max standing load",
+   "value": 100,
+   "unit": "kg",
+   "note": "about",
+   "source": "https://www.unitree.com/A2-W"
+  },
+  {
+   "group": "Mobility & Performance",
+   "key": "rated_payload",
+   "label": "Continuous walking load",
+   "value": 25,
+   "unit": "kg",
+   "note": "about; ideally ~35 kg",
+   "source": "https://www.unitree.com/A2-W"
+  },
+  {
+   "group": "Terrain & Navigation Limits",
+   "key": "max_slope",
+   "label": "Slope walking capability",
+   "value": 45,
+   "unit": "°",
+   "note": "about",
+   "source": "https://www.unitree.com/A2-W"
+  },
+  {
+   "group": "Terrain & Navigation Limits",
+   "key": "max_stair_step_height",
+   "label": "Stair climbing (max step height)",
+   "value": 30,
+   "unit": "cm",
+   "note": "",
+   "source": "https://www.unitree.com/A2-W"
+  },
+  {
+   "group": "Terrain & Navigation Limits",
+   "key": "max_obstacle_height",
+   "label": "Max climb height",
+   "value": "0.5–1",
+   "unit": "m",
+   "note": "about",
+   "source": "https://www.unitree.com/A2-W"
+  },
+  {
+   "group": "Mobility & Performance",
+   "key": "nominal_speed",
+   "label": "Speed (normal)",
+   "value": "0–3",
+   "unit": "m/s",
+   "note": "",
+   "source": "https://www.unitree.com/A2-W"
+  },
+  {
+   "group": "Mobility & Performance",
+   "key": "max_speed",
+   "label": "Max speed",
+   "value": 6,
+   "unit": "m/s",
+   "note": "up to ~6 m/s",
+   "source": "https://www.unitree.com/A2-W"
+  },
+  {
+   "group": "Environment & Protection",
+   "key": "ip_rating",
+   "label": "Ingress protection",
+   "value": "IP56",
+   "unit": "",
+   "note": "A2-W; PRO: IP56–IP67 (core components IP67)",
+   "source": "https://www.unitree.com/A2-W"
+  },
+  {
+   "group": "Compute & Software",
+   "key": "ota_updates",
+   "label": "Smart OTA upgrade",
+   "value": "Continuous upgrades",
+   "unit": "",
+   "note": "",
+   "source": "https://www.unitree.com/A2-W"
+  },
+  {
+   "group": "Compute & Software",
+   "key": "sdk",
+   "label": "Secondary development",
+   "value": "Supported",
+   "unit": "",
+   "note": "",
+   "source": "https://www.unitree.com/A2-W"
+  },
+  {
+   "group": "Commercial",
+   "key": "warranty",
+   "label": "Warranty",
+   "value": 12,
+   "unit": "months",
+   "note": "",
+   "source": "https://www.unitree.com/A2-W"
+  },
+  {
+   "group": "Commercial",
+   "key": "price",
+   "label": "Price",
+   "value": "Contact sales",
+   "unit": "",
+   "note": "tax and shipping excluded",
+   "source": "https://www.unitree.com/A2-W"
+  },
+  {
+   "group": "Safety & Compliance",
+   "key": "intended_use",
+   "label": "Intended use",
+   "value": "Civilian robot; keep a safe distance; data measured in lab conditions",
+   "unit": "",
+   "note": "",
+   "source": "https://www.unitree.com/A2-W"
+  }
+ ]
+}

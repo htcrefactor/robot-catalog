@@ -1,0 +1,475 @@
+{
+ "id": "pudu-bellabot",
+ "checked": "2026-11-04",
+ "documents": [
+  {
+   "title": "BellaBot product page (Pudu Robotics)",
+   "url": "https://www.pudurobotics.com/en/products/bellabot"
+  },
+  {
+   "title": "BellaBot Product Introduction (PUDU Academy)",
+   "url": "https://academy.pudutech.com/en/docs/chan-pin-jie-shao"
+  }
+ ],
+ "specs": [
+  {
+   "group": "Dimensions & Mass",
+   "key": "length",
+   "label": "Length",
+   "value": 565,
+   "unit": "mm",
+   "note": "",
+   "source": "https://academy.pudutech.com/en/docs/chan-pin-jie-shao"
+  },
+  {
+   "group": "Dimensions & Mass",
+   "key": "width",
+   "label": "Width",
+   "value": 537,
+   "unit": "mm",
+   "note": "",
+   "source": "https://academy.pudutech.com/en/docs/chan-pin-jie-shao"
+  },
+  {
+   "group": "Dimensions & Mass",
+   "key": "height",
+   "label": "Height",
+   "value": 1290,
+   "unit": "mm",
+   "note": "",
+   "source": "https://academy.pudutech.com/en/docs/chan-pin-jie-shao"
+  },
+  {
+   "group": "Dimensions & Mass",
+   "key": "weight",
+   "label": "Robot weight",
+   "value": 55,
+   "unit": "kg",
+   "note": "",
+   "source": "https://academy.pudutech.com/en/docs/chan-pin-jie-shao"
+  },
+  {
+   "group": "Dimensions & Mass",
+   "key": "body_material",
+   "label": "Machine material",
+   "value": "ABS / aviation-grade aluminum alloy",
+   "unit": "",
+   "note": "",
+   "source": "https://academy.pudutech.com/en/docs/chan-pin-jie-shao"
+  },
+  {
+   "group": "Mobility & Performance",
+   "key": "max_payload",
+   "label": "Max load capacity",
+   "value": 40,
+   "unit": "kg",
+   "note": "10 kg per tray",
+   "source": "https://www.pudurobotics.com/en/products/bellabot"
+  },
+  {
+   "group": "Mobility & Performance",
+   "key": "tray_count",
+   "label": "Number of trays",
+   "value": 4,
+   "unit": "",
+   "note": "",
+   "source": "https://academy.pudutech.com/en/docs/chan-pin-jie-shao"
+  },
+  {
+   "group": "Mobility & Performance",
+   "key": "tray_payload",
+   "label": "Load per tray",
+   "value": 10,
+   "unit": "kg",
+   "note": "",
+   "source": "https://academy.pudutech.com/en/docs/chan-pin-jie-shao"
+  },
+  {
+   "group": "Payload & Mounting",
+   "key": "tray_dimensions",
+   "label": "Tray dimensions",
+   "value": "410 × 510",
+   "unit": "mm",
+   "note": "Product page states 41.00 × 50.01 cm",
+   "source": "https://academy.pudutech.com/en/docs/chan-pin-jie-shao"
+  },
+  {
+   "group": "Payload & Mounting",
+   "key": "tray_spacing",
+   "label": "Height between trays",
+   "value": "230 / 200 / 200 / 180",
+   "unit": "mm",
+   "note": "top to bottom",
+   "source": "https://academy.pudutech.com/en/docs/chan-pin-jie-shao"
+  },
+  {
+   "group": "Mobility & Performance",
+   "key": "max_speed",
+   "label": "Max cruise speed",
+   "value": 1.2,
+   "unit": "m/s",
+   "note": "adjustable",
+   "source": "https://academy.pudutech.com/en/docs/chan-pin-jie-shao"
+  },
+  {
+   "group": "Mobility & Performance",
+   "key": "min_speed",
+   "label": "Min cruise speed",
+   "value": 0.5,
+   "unit": "m/s",
+   "note": "adjustable",
+   "source": "https://academy.pudutech.com/en/docs/chan-pin-jie-shao"
+  },
+  {
+   "group": "Terrain & Navigation Limits",
+   "key": "min_corridor_width",
+   "label": "Min. travel width",
+   "value": 700,
+   "unit": "mm",
+   "note": "",
+   "source": "https://academy.pudutech.com/en/docs/chan-pin-jie-shao"
+  },
+  {
+   "group": "Terrain & Navigation Limits",
+   "key": "min_turning_width",
+   "label": "Min. turning width",
+   "value": 650,
+   "unit": "mm",
+   "note": "latest APK version required",
+   "source": "https://academy.pudutech.com/en/docs/chan-pin-jie-shao"
+  },
+  {
+   "group": "Terrain & Navigation Limits",
+   "key": "max_obstacle_height",
+   "label": "Max. surmountable height",
+   "value": 10,
+   "unit": "mm",
+   "note": "",
+   "source": "https://academy.pudutech.com/en/docs/chan-pin-jie-shao"
+  },
+  {
+   "group": "Terrain & Navigation Limits",
+   "key": "max_slope",
+   "label": "Max. climbing angle",
+   "value": 5,
+   "unit": "°",
+   "note": "",
+   "source": "https://academy.pudutech.com/en/docs/chan-pin-jie-shao"
+  },
+  {
+   "group": "Terrain & Navigation Limits",
+   "key": "navigation_method",
+   "label": "Navigation",
+   "value": "Laser and visual integrated SLAM positioning",
+   "unit": "",
+   "note": "",
+   "source": "https://academy.pudutech.com/en/docs/chan-pin-jie-shao"
+  },
+  {
+   "group": "Terrain & Navigation Limits",
+   "key": "localization_method",
+   "label": "Positioning method (marker)",
+   "value": "Marker positioning, max ceiling height 8 m",
+   "unit": "",
+   "note": "optional high-level code",
+   "source": "https://www.pudurobotics.com/en/products/bellabot"
+  },
+  {
+   "group": "Terrain & Navigation Limits",
+   "key": "localization_method",
+   "label": "Positioning method (laser)",
+   "value": "Laser positioning, code-free, no height restriction",
+   "unit": "",
+   "note": "",
+   "source": "https://www.pudurobotics.com/en/products/bellabot"
+  },
+  {
+   "group": "Terrain & Navigation Limits",
+   "key": "floor_flatness_requirement",
+   "label": "Surface requirement",
+   "value": "Indoor environment, flat and smooth ground",
+   "unit": "",
+   "note": "",
+   "source": "https://academy.pudutech.com/en/docs/chan-pin-jie-shao"
+  },
+  {
+   "group": "Power & Battery",
+   "key": "battery_voltage",
+   "label": "Operating voltage",
+   "value": "23–29.4",
+   "unit": "V DC",
+   "note": "",
+   "source": "https://academy.pudutech.com/en/docs/chan-pin-jie-shao"
+  },
+  {
+   "group": "Power & Battery",
+   "key": "battery_capacity",
+   "label": "Battery capacity",
+   "value": 25.6,
+   "unit": "Ah",
+   "note": "",
+   "source": "https://academy.pudutech.com/en/docs/chan-pin-jie-shao"
+  },
+  {
+   "group": "Power & Battery",
+   "key": "runtime",
+   "label": "Battery life",
+   "value": "12–24",
+   "unit": "h",
+   "note": "academy spec table",
+   "source": "https://academy.pudutech.com/en/docs/chan-pin-jie-shao"
+  },
+  {
+   "group": "Power & Battery",
+   "key": "runtime",
+   "label": "Battery life",
+   "value": 13,
+   "unit": "h",
+   "note": "no load (product page)",
+   "source": "https://www.pudurobotics.com/en/products/bellabot"
+  },
+  {
+   "group": "Power & Battery",
+   "key": "battery_swappable",
+   "label": "Swappable battery",
+   "value": true,
+   "unit": "",
+   "note": "quick battery swap",
+   "source": "https://www.pudurobotics.com/en/products/bellabot"
+  },
+  {
+   "group": "Charging & Docking",
+   "key": "charger_input",
+   "label": "Charger power input",
+   "value": "AC 100–240 V, 50/60 Hz",
+   "unit": "",
+   "note": "",
+   "source": "https://academy.pudutech.com/en/docs/chan-pin-jie-shao"
+  },
+  {
+   "group": "Charging & Docking",
+   "key": "charger_output",
+   "label": "Charger power output",
+   "value": "29.4 V, 8 A",
+   "unit": "",
+   "note": "",
+   "source": "https://academy.pudutech.com/en/docs/chan-pin-jie-shao"
+  },
+  {
+   "group": "Charging & Docking",
+   "key": "charge_time",
+   "label": "Charging time",
+   "value": 4.5,
+   "unit": "h",
+   "note": "",
+   "source": "https://academy.pudutech.com/en/docs/chan-pin-jie-shao"
+  },
+  {
+   "group": "Environment & Protection",
+   "key": "operating_temperature",
+   "label": "Working temperature",
+   "value": "0 to 40",
+   "unit": "°C",
+   "note": "",
+   "source": "https://academy.pudutech.com/en/docs/chan-pin-jie-shao"
+  },
+  {
+   "group": "Environment & Protection",
+   "key": "operating_humidity",
+   "label": "Working humidity",
+   "value": "≤ 85",
+   "unit": "% RH",
+   "note": "",
+   "source": "https://academy.pudutech.com/en/docs/chan-pin-jie-shao"
+  },
+  {
+   "group": "Environment & Protection",
+   "key": "storage_temperature",
+   "label": "Storage temperature",
+   "value": "−40 to 65",
+   "unit": "°C",
+   "note": "RH ≤ 85%",
+   "source": "https://academy.pudutech.com/en/docs/chan-pin-jie-shao"
+  },
+  {
+   "group": "Environment & Protection",
+   "key": "max_altitude",
+   "label": "Working altitude",
+   "value": "< 2000",
+   "unit": "m",
+   "note": "",
+   "source": "https://academy.pudutech.com/en/docs/chan-pin-jie-shao"
+  },
+  {
+   "group": "Environment & Protection",
+   "key": "ip_rating",
+   "label": "IP rating",
+   "value": "IP20",
+   "unit": "",
+   "note": "",
+   "source": "https://academy.pudutech.com/en/docs/chan-pin-jie-shao"
+  },
+  {
+   "group": "Sensors & Perception",
+   "key": "lidar_type",
+   "label": "LiDAR",
+   "value": "LiDAR (laser SLAM)",
+   "unit": "",
+   "note": "",
+   "source": "https://academy.pudutech.com/en/docs/chan-pin-jie-shao"
+  },
+  {
+   "group": "Sensors & Perception",
+   "key": "depth_camera_count",
+   "label": "RGBD cameras",
+   "value": 3,
+   "unit": "",
+   "note": "3D omnidirectional obstacle avoidance",
+   "source": "https://www.pudurobotics.com/en/products/bellabot"
+  },
+  {
+   "group": "Sensors & Perception",
+   "key": "camera_type",
+   "label": "Vision sensor",
+   "value": "Visual SLAM vision sensor",
+   "unit": "",
+   "note": "",
+   "source": "https://academy.pudutech.com/en/docs/chan-pin-jie-shao"
+  },
+  {
+   "group": "Sensors & Perception",
+   "key": "tray_sensors",
+   "label": "Tray sensors",
+   "value": "Infrared tray sensors",
+   "unit": "",
+   "note": "",
+   "source": "https://www.pudurobotics.com/en/products/bellabot"
+  },
+  {
+   "group": "Sensors & Perception",
+   "key": "touch_sensor",
+   "label": "Touch sensor",
+   "value": "Touch sensor on head (haptic feedback)",
+   "unit": "",
+   "note": "",
+   "source": "https://academy.pudutech.com/en/docs/chan-pin-jie-shao"
+  },
+  {
+   "group": "Sensors & Perception",
+   "key": "microphones",
+   "label": "Microphone",
+   "value": "6-mic circular array kit",
+   "unit": "",
+   "note": "",
+   "source": "https://academy.pudutech.com/en/docs/chan-pin-jie-shao"
+  },
+  {
+   "group": "Safety & Compliance",
+   "key": "obstacle_avoidance",
+   "label": "Obstacle avoidance",
+   "value": "3D omnidirectional; stops for obstacles at any angle, low-lying and overhanging",
+   "unit": "",
+   "note": "",
+   "source": "https://www.pudurobotics.com/en/products/bellabot"
+  },
+  {
+   "group": "Safety & Compliance",
+   "key": "obstacle_response_time",
+   "label": "Obstacle stop response time",
+   "value": 0.5,
+   "unit": "s",
+   "note": "as short as",
+   "source": "https://www.pudurobotics.com/en/products/bellabot"
+  },
+  {
+   "group": "Safety & Compliance",
+   "key": "emergency_stop",
+   "label": "Emergency stop",
+   "value": "Emergency switch",
+   "unit": "",
+   "note": "",
+   "source": "https://academy.pudutech.com/en/docs/chan-pin-jie-shao"
+  },
+  {
+   "group": "Mobility & Performance",
+   "key": "suspension",
+   "label": "Suspension",
+   "value": "Automotive-grade adaptive variable independent suspension",
+   "unit": "",
+   "note": "",
+   "source": "https://www.pudurobotics.com/en/products/bellabot"
+  },
+  {
+   "group": "Compute & Software",
+   "key": "operating_system",
+   "label": "Operating system",
+   "value": "Android",
+   "unit": "",
+   "note": "",
+   "source": "https://academy.pudutech.com/en/docs/chan-pin-jie-shao"
+  },
+  {
+   "group": "Compute & Software",
+   "key": "fleet_software",
+   "label": "Management app",
+   "value": "PUDU Link app (call, monitor, configure, view operational data)",
+   "unit": "",
+   "note": "",
+   "source": "https://www.pudurobotics.com/en/products/bellabot"
+  },
+  {
+   "group": "Controls & Operation",
+   "key": "control_modes",
+   "label": "Operating modes",
+   "value": "Delivery; Cruise; Direct; Birthday; Escorting",
+   "unit": "",
+   "note": "",
+   "source": "https://academy.pudutech.com/en/docs/chan-pin-jie-shao"
+  },
+  {
+   "group": "Controls & Operation",
+   "key": "remote_calling",
+   "label": "Calling methods",
+   "value": "PUDU Link app; push-button caller; 4G watch",
+   "unit": "",
+   "note": "",
+   "source": "https://www.pudurobotics.com/en/products/bellabot"
+  },
+  {
+   "group": "Audio, Lights & HMI",
+   "key": "display",
+   "label": "Screen",
+   "value": "10.1-inch LCD",
+   "unit": "",
+   "note": "animated cat-face expressions",
+   "source": "https://academy.pudutech.com/en/docs/chan-pin-jie-shao"
+  },
+  {
+   "group": "Audio, Lights & HMI",
+   "key": "speaker",
+   "label": "Speakers",
+   "value": "2 × 10 W stereo",
+   "unit": "",
+   "note": "",
+   "source": "https://academy.pudutech.com/en/docs/chan-pin-jie-shao"
+  },
+  {
+   "group": "Audio, Lights & HMI",
+   "key": "status_lights",
+   "label": "Light interaction",
+   "value": "Light strip; status-dependent light effects",
+   "unit": "",
+   "note": "",
+   "source": "https://www.pudurobotics.com/en/products/bellabot"
+  },
+  {
+   "group": "Commercial",
+   "key": "service_life",
+   "label": "Service life",
+   "value": 5,
+   "unit": "years",
+   "note": "",
+   "source": "https://academy.pudutech.com/en/docs/chan-pin-jie-shao"
+  }
+ ]
+}

@@ -1,0 +1,510 @@
+{
+ "id": "clearpath-dingo-o",
+ "checked": "2026-11-04",
+ "documents": [
+  {
+   "title": "Dingo-O Data Sheet (Jul 2026)",
+   "url": "https://storage.pardot.com/92812/1784208851BERynha7/DINGO_Datasheet_07162026.pdf"
+  },
+  {
+   "title": "Dingo User Manual (Clearpath docs)",
+   "url": "https://docs.clearpathrobotics.com/docs_robots/indoor_robots/dingo/user_manual_dingo"
+  },
+  {
+   "title": "Dingo product page",
+   "url": "https://clearpathrobotics.com/dingo-indoor-mobile-robot/"
+  }
+ ],
+ "specs": [
+  {
+   "group": "Identity",
+   "key": "manufacturer_address",
+   "label": "Manufacturer address",
+   "value": "Clearpath Robotics Inc., 1425 Strasburg Road, Unit 2A, Kitchener, Ontario N2R 1H2, Canada",
+   "unit": "",
+   "note": "",
+   "source": "https://storage.pardot.com/92812/1784208851BERynha7/DINGO_Datasheet_07162026.pdf"
+  },
+  {
+   "group": "Identity",
+   "key": "variants",
+   "label": "Variants",
+   "value": "Dingo-D (differential, 2 module bays); Dingo-O (omnidirectional, 4 module bays); hardware revisions Dingo 1.0 and 1.5",
+   "unit": "",
+   "note": "",
+   "source": "https://docs.clearpathrobotics.com/docs_robots/indoor_robots/dingo/user_manual_dingo",
+   "ref": "Introduction"
+  },
+  {
+   "group": "Dimensions & Mass",
+   "key": "length",
+   "label": "Length",
+   "value": 686,
+   "unit": "mm",
+   "note": "",
+   "source": "https://storage.pardot.com/92812/1784208851BERynha7/DINGO_Datasheet_07162026.pdf"
+  },
+  {
+   "group": "Dimensions & Mass",
+   "key": "width",
+   "label": "Width",
+   "value": 517,
+   "unit": "mm",
+   "note": "",
+   "source": "https://storage.pardot.com/92812/1784208851BERynha7/DINGO_Datasheet_07162026.pdf"
+  },
+  {
+   "group": "Dimensions & Mass",
+   "key": "height",
+   "label": "Height",
+   "value": 114,
+   "unit": "mm",
+   "note": "",
+   "source": "https://storage.pardot.com/92812/1784208851BERynha7/DINGO_Datasheet_07162026.pdf"
+  },
+  {
+   "group": "Dimensions & Mass",
+   "key": "weight",
+   "label": "Weight",
+   "value": 17.5,
+   "unit": "kg",
+   "note": "datasheet and user manual (Dingo-O)",
+   "source": "https://storage.pardot.com/92812/1784208851BERynha7/DINGO_Datasheet_07162026.pdf"
+  },
+  {
+   "group": "Dimensions & Mass",
+   "key": "weight",
+   "label": "Weight",
+   "value": 13.0,
+   "unit": "kg",
+   "note": "product page tech specs",
+   "source": "https://clearpathrobotics.com/dingo-indoor-mobile-robot/",
+   "ref": "Tech Specs"
+  },
+  {
+   "group": "Dimensions & Mass",
+   "key": "ground_clearance",
+   "label": "Obstacle / ground clearance",
+   "value": 16,
+   "unit": "mm",
+   "note": "",
+   "source": "https://storage.pardot.com/92812/1784208851BERynha7/DINGO_Datasheet_07162026.pdf"
+  },
+  {
+   "group": "Dimensions & Mass",
+   "key": "wheel_diameter",
+   "label": "Wheel diameter",
+   "value": 101.6,
+   "unit": "mm",
+   "note": "mecanum wheels",
+   "source": "https://docs.clearpathrobotics.com/docs_robots/indoor_robots/dingo/user_manual_dingo",
+   "ref": "Exterior Features"
+  },
+  {
+   "group": "Mobility & Performance",
+   "key": "max_speed",
+   "label": "Max speed",
+   "value": 1.3,
+   "unit": "m/s",
+   "note": "",
+   "source": "https://storage.pardot.com/92812/1784208851BERynha7/DINGO_Datasheet_07162026.pdf"
+  },
+  {
+   "group": "Mobility & Performance",
+   "key": "min_speed",
+   "label": "Minimum controllable speed",
+   "value": 0.1,
+   "unit": "m/s",
+   "note": "",
+   "source": "https://docs.clearpathrobotics.com/docs_robots/indoor_robots/dingo/user_manual_dingo",
+   "ref": "General Warnings"
+  },
+  {
+   "group": "Mobility & Performance",
+   "key": "max_payload",
+   "label": "Max payload",
+   "value": 25,
+   "unit": "kg",
+   "note": "datasheet and user manual (Dingo-O)",
+   "source": "https://storage.pardot.com/92812/1784208851BERynha7/DINGO_Datasheet_07162026.pdf"
+  },
+  {
+   "group": "Mobility & Performance",
+   "key": "max_payload",
+   "label": "Max payload",
+   "value": 20,
+   "unit": "kg",
+   "note": "product page tech specs",
+   "source": "https://clearpathrobotics.com/dingo-indoor-mobile-robot/",
+   "ref": "Tech Specs"
+  },
+  {
+   "group": "Mobility & Performance",
+   "key": "drive_train",
+   "label": "Drive configuration",
+   "value": "Omnidirectional (mecanum wheels)",
+   "unit": "",
+   "note": "",
+   "source": "https://storage.pardot.com/92812/1784208851BERynha7/DINGO_Datasheet_07162026.pdf"
+  },
+  {
+   "group": "Mobility & Performance",
+   "key": "drive_power",
+   "label": "Power",
+   "value": 170,
+   "unit": "W",
+   "note": "typical use",
+   "source": "https://storage.pardot.com/92812/1784208851BERynha7/DINGO_Datasheet_07162026.pdf"
+  },
+  {
+   "group": "Terrain & Navigation Limits",
+   "key": "surface_types",
+   "label": "Operating environment",
+   "value": "Indoor",
+   "unit": "",
+   "note": "",
+   "source": "https://storage.pardot.com/92812/1784208851BERynha7/DINGO_Datasheet_07162026.pdf"
+  },
+  {
+   "group": "Payload & Mounting",
+   "key": "module_bays",
+   "label": "Maximum modules",
+   "value": 4,
+   "unit": "",
+   "note": "battery, computing or empty modules",
+   "source": "https://storage.pardot.com/92812/1784208851BERynha7/DINGO_Datasheet_07162026.pdf",
+   "ref": "Expansion Modules"
+  },
+  {
+   "group": "Power & Battery",
+   "key": "battery_chemistry",
+   "label": "Battery chemistry",
+   "value": "Sealed lead acid or LiFePO4 (Dingo 1.5); SLA or 14.4 V lithium (Dingo 1.0)",
+   "unit": "",
+   "note": "",
+   "source": "https://docs.clearpathrobotics.com/docs_robots/indoor_robots/dingo/user_manual_dingo",
+   "ref": "System Specifications"
+  },
+  {
+   "group": "Power & Battery",
+   "key": "battery_module_capacity",
+   "label": "Battery module capacity",
+   "value": "12 V 20 Ah",
+   "unit": "",
+   "note": "per lead-acid or LiFePO4 module",
+   "source": "https://storage.pardot.com/92812/1784208851BERynha7/DINGO_Datasheet_07162026.pdf",
+   "ref": "Expansion Modules"
+  },
+  {
+   "group": "Power & Battery",
+   "key": "battery_voltage",
+   "label": "Battery voltage",
+   "value": "12 V SLA; 12.8 V LiFePO4; 14.4 V lithium (1.0)",
+   "unit": "",
+   "note": "",
+   "source": "https://docs.clearpathrobotics.com/docs_robots/indoor_robots/dingo/user_manual_dingo",
+   "ref": "Shipment Contents"
+  },
+  {
+   "group": "Power & Battery",
+   "key": "runtime",
+   "label": "Operating time (SLA)",
+   "value": "2 - 6",
+   "unit": "h",
+   "note": "1x - 3x SLA modules",
+   "source": "https://storage.pardot.com/92812/1784208851BERynha7/DINGO_Datasheet_07162026.pdf"
+  },
+  {
+   "group": "Power & Battery",
+   "key": "runtime",
+   "label": "Operating time (LiFePO4)",
+   "value": "3.5 - 11",
+   "unit": "h",
+   "note": "1x - 3x LiFePO4 modules",
+   "source": "https://storage.pardot.com/92812/1784208851BERynha7/DINGO_Datasheet_07162026.pdf"
+  },
+  {
+   "group": "Power & Battery",
+   "key": "runtime",
+   "label": "Operating time (Dingo 1.0)",
+   "value": "2 h (2x SLA); 4 h (2x lithium)",
+   "unit": "",
+   "note": "",
+   "source": "https://docs.clearpathrobotics.com/docs_robots/indoor_robots/dingo/user_manual_dingo",
+   "ref": "System Specifications"
+  },
+  {
+   "group": "Power & Battery",
+   "key": "battery_swappable",
+   "label": "Battery hot-swap",
+   "value": true,
+   "unit": "",
+   "note": "Dingo 1.0: hot-swap one at a time while at least one battery present",
+   "source": "https://docs.clearpathrobotics.com/docs_robots/indoor_robots/dingo/user_manual_dingo",
+   "ref": "Battery Charging"
+  },
+  {
+   "group": "Power & Battery",
+   "key": "max_power_output",
+   "label": "Battery peak power",
+   "value": "over 2000",
+   "unit": "W",
+   "note": "short durations",
+   "source": "https://docs.clearpathrobotics.com/docs_robots/indoor_robots/dingo/user_manual_dingo",
+   "ref": "Electrical System"
+  },
+  {
+   "group": "Charging & Docking",
+   "key": "charge_time",
+   "label": "Charge time (SLA)",
+   "value": "3.3 - 10",
+   "unit": "h",
+   "note": "1x - 3x",
+   "source": "https://storage.pardot.com/92812/1784208851BERynha7/DINGO_Datasheet_07162026.pdf"
+  },
+  {
+   "group": "Charging & Docking",
+   "key": "charge_time",
+   "label": "Charge time (LiFePO4)",
+   "value": "3 - 9",
+   "unit": "h",
+   "note": "1x - 3x",
+   "source": "https://storage.pardot.com/92812/1784208851BERynha7/DINGO_Datasheet_07162026.pdf"
+  },
+  {
+   "group": "Charging & Docking",
+   "key": "max_charge_current",
+   "label": "Charge current",
+   "value": "6 A (SLA); 7 A (LiFePO4)",
+   "unit": "",
+   "note": "Dingo 1.5 manual charger",
+   "source": "https://docs.clearpathrobotics.com/docs_robots/indoor_robots/dingo/user_manual_dingo",
+   "ref": "Battery Charging"
+  },
+  {
+   "group": "Charging & Docking",
+   "key": "charging_method",
+   "label": "Charging",
+   "value": "Front charge port (Dingo 1.5); external charging (1.0); optional WiBotic wireless charging; DC shore power",
+   "unit": "",
+   "note": "",
+   "source": "https://docs.clearpathrobotics.com/docs_robots/indoor_robots/dingo/user_manual_dingo"
+  },
+  {
+   "group": "Charging & Docking",
+   "key": "charger_power",
+   "label": "Wireless charging power",
+   "value": 150,
+   "unit": "W",
+   "note": "Wireless Charging Kit: WiBotic OC-150 onboard charger + receiver coil",
+   "source": "https://clearpathrobotics.com/dingo-indoor-mobile-robot/",
+   "ref": "Packages"
+  },
+  {
+   "group": "Charging & Docking",
+   "key": "shore_power_supply",
+   "label": "Shore power supply",
+   "value": "Mean Well GST280A15-C6P",
+   "unit": "",
+   "note": "motors disabled on shore power",
+   "source": "https://docs.clearpathrobotics.com/docs_robots/indoor_robots/dingo/user_manual_dingo",
+   "ref": "DC Shore Power"
+  },
+  {
+   "group": "Environment & Protection",
+   "key": "charging_temperature",
+   "label": "Charging temperature",
+   "value": "0 to 45 °C (SLA, LiFePO4); 0 to 50 °C (lithium)",
+   "unit": "",
+   "note": "",
+   "source": "https://docs.clearpathrobotics.com/docs_robots/indoor_robots/dingo/user_manual_dingo",
+   "ref": "Battery Charging"
+  },
+  {
+   "group": "Environment & Protection",
+   "key": "discharge_temperature",
+   "label": "Discharge temperature",
+   "value": "-30 to 60 °C (SLA); -20 to 60 °C (lithium, LiFePO4)",
+   "unit": "",
+   "note": "",
+   "source": "https://docs.clearpathrobotics.com/docs_robots/indoor_robots/dingo/user_manual_dingo",
+   "ref": "Battery Charging"
+  },
+  {
+   "group": "Sensors & Perception",
+   "key": "imu",
+   "label": "IMU",
+   "value": "Onboard IMU",
+   "unit": "",
+   "note": "",
+   "source": "https://storage.pardot.com/92812/1784208851BERynha7/DINGO_Datasheet_07162026.pdf"
+  },
+  {
+   "group": "Sensors & Perception",
+   "key": "wheel_encoders",
+   "label": "Internal sensing",
+   "value": "Battery status, wheel odometry, motor currents, onboard IMU",
+   "unit": "",
+   "note": "",
+   "source": "https://storage.pardot.com/92812/1784208851BERynha7/DINGO_Datasheet_07162026.pdf"
+  },
+  {
+   "group": "Compute & Software",
+   "key": "computer_form_factor",
+   "label": "Computing module",
+   "value": "Mini-ITX computer or NVIDIA Jetson developer kit",
+   "unit": "",
+   "note": "",
+   "source": "https://storage.pardot.com/92812/1784208851BERynha7/DINGO_Datasheet_07162026.pdf",
+   "ref": "Expansion Modules"
+  },
+  {
+   "group": "Compute & Software",
+   "key": "mcu",
+   "label": "Microcontroller",
+   "value": "32-bit MCU, 100 Mbps Ethernet to computer",
+   "unit": "",
+   "note": "",
+   "source": "https://docs.clearpathrobotics.com/docs_robots/indoor_robots/dingo/user_manual_dingo",
+   "ref": "System Architecture"
+  },
+  {
+   "group": "Compute & Software",
+   "key": "operating_system",
+   "label": "Operating system",
+   "value": "Ubuntu",
+   "unit": "",
+   "note": "",
+   "source": "https://docs.clearpathrobotics.com/docs_robots/indoor_robots/dingo/user_manual_dingo"
+  },
+  {
+   "group": "Compute & Software",
+   "key": "ros_version",
+   "label": "ROS version",
+   "value": "ROS 2 Jazzy",
+   "unit": "",
+   "note": "",
+   "source": "https://storage.pardot.com/92812/1784208851BERynha7/DINGO_Datasheet_07162026.pdf"
+  },
+  {
+   "group": "Compute & Software",
+   "key": "simulation_support",
+   "label": "Simulation / tools",
+   "value": "RViz, Gazebo, MoveIt!",
+   "unit": "",
+   "note": "",
+   "source": "https://storage.pardot.com/92812/1784208851BERynha7/DINGO_Datasheet_07162026.pdf"
+  },
+  {
+   "group": "Connectivity & Interfaces",
+   "key": "communication",
+   "label": "Communication",
+   "value": "Ethernet, USB 3.0",
+   "unit": "",
+   "note": "",
+   "source": "https://storage.pardot.com/92812/1784208851BERynha7/DINGO_Datasheet_07162026.pdf"
+  },
+  {
+   "group": "Payload & Mounting",
+   "key": "payload_port_power",
+   "label": "User power (Dingo 1.5)",
+   "value": "20 A @ VBAT (11-15 V); 10 A @ 12 V; 5 A @ 5 V",
+   "unit": "",
+   "note": "",
+   "source": "https://storage.pardot.com/92812/1784208851BERynha7/DINGO_Datasheet_07162026.pdf"
+  },
+  {
+   "group": "Payload & Mounting",
+   "key": "payload_port_power",
+   "label": "User power (Dingo 1.0)",
+   "value": "20 A @ VBAT (11-16.8 V); 7 A @ 12 V; 5 A @ 5 V",
+   "unit": "",
+   "note": "",
+   "source": "https://docs.clearpathrobotics.com/docs_robots/indoor_robots/dingo/user_manual_dingo"
+  },
+  {
+   "group": "Payload & Mounting",
+   "key": "mounting_bolt_size",
+   "label": "Top cover screws",
+   "value": "M5 flathead (trough cover)",
+   "unit": "",
+   "note": "",
+   "source": "https://docs.clearpathrobotics.com/docs_robots/indoor_robots/dingo/user_manual_dingo",
+   "ref": "Payload Details"
+  },
+  {
+   "group": "Safety & Compliance",
+   "key": "emergency_stop",
+   "label": "Stop",
+   "value": "Motion Stop button on HMI; external motion-stop breakout on MCU",
+   "unit": "",
+   "note": "",
+   "source": "https://docs.clearpathrobotics.com/docs_robots/indoor_robots/dingo/user_manual_dingo"
+  },
+  {
+   "group": "Safety & Compliance",
+   "key": "max_push_speed",
+   "label": "Max manual push speed",
+   "value": 0.5,
+   "unit": "m/s",
+   "note": "",
+   "source": "https://docs.clearpathrobotics.com/docs_robots/indoor_robots/dingo/user_manual_dingo"
+  },
+  {
+   "group": "Controls & Operation",
+   "key": "control_modes",
+   "label": "Control modes",
+   "value": "Kinematic control",
+   "unit": "",
+   "note": "",
+   "source": "https://storage.pardot.com/92812/1784208851BERynha7/DINGO_Datasheet_07162026.pdf"
+  },
+  {
+   "group": "Controls & Operation",
+   "key": "controller",
+   "label": "Controller",
+   "value": "Sony PS4 Bluetooth wireless controller",
+   "unit": "",
+   "note": "",
+   "source": "https://docs.clearpathrobotics.com/docs_robots/indoor_robots/dingo/user_manual_dingo"
+  },
+  {
+   "group": "Audio, Lights & HMI",
+   "key": "status_lights",
+   "label": "Lights / HMI",
+   "value": "4 corner LEDs (ROS /mcu/lights override); HMI panel with motion stop, comms, Wi-Fi, battery, power indicators",
+   "unit": "",
+   "note": "",
+   "source": "https://docs.clearpathrobotics.com/docs_robots/indoor_robots/dingo/user_manual_dingo"
+  },
+  {
+   "group": "Commercial",
+   "key": "included_accessories",
+   "label": "Included",
+   "value": "Wireless controller, batteries, universal charger, quick start guide, USB cable, Molex connectors, spare fuses (5/10/20 A)",
+   "unit": "",
+   "note": "",
+   "source": "https://docs.clearpathrobotics.com/docs_robots/indoor_robots/dingo/user_manual_dingo",
+   "ref": "Shipment Contents"
+  },
+  {
+   "group": "Commercial",
+   "key": "optional_accessories",
+   "label": "Packages / upgrades",
+   "value": "Vision (NVIDIA AGX Orin, ZED 2i, 3D lidar); Manipulation (Kinova Gen3 lite up to 0.5 kg, Intel D435); IndoorNav (2x 2D lidar, IMU); Wireless Charging Kit; Shore Power",
+   "unit": "",
+   "note": "",
+   "source": "https://clearpathrobotics.com/dingo-indoor-mobile-robot/",
+   "ref": "Packages"
+  },
+  {
+   "group": "Commercial",
+   "key": "price",
+   "label": "Price",
+   "value": "Contact sales",
+   "unit": "",
+   "note": "",
+   "source": "https://storage.pardot.com/92812/1784208851BERynha7/DINGO_Datasheet_07162026.pdf"
+  }
+ ]
+}

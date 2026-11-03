@@ -1,0 +1,164 @@
+{
+ "id": "rivr-one",
+ "checked": "2026-11-04",
+ "documents": [
+  {
+   "title": "RIVR – Product (RIVR ONE)",
+   "url": "https://www.rivr.ai/product.html"
+  },
+  {
+   "title": "RIVR – Technology",
+   "url": "https://www.rivr.ai/technology.html"
+  },
+  {
+   "title": "New Atlas – Swiss Post RIVR ONE trial (Sep 2025)",
+   "url": "https://newatlas.com/robotics/rivr-one-delivery-robot-swiss-post"
+  }
+ ],
+ "specs": [
+  {
+   "group": "Mobility & Performance",
+   "key": "max_speed",
+   "label": "Maximum speed",
+   "value": 14,
+   "unit": "km/h",
+   "note": "8.7 mph; more than twice walking speed",
+   "source": "https://www.rivr.ai/product.html"
+  },
+  {
+   "group": "Mobility & Performance",
+   "key": "max_payload",
+   "label": "Payload capacity",
+   "value": ">30",
+   "unit": "kg",
+   "note": "parcels, groceries, food",
+   "source": "https://www.rivr.ai/product.html"
+  },
+  {
+   "group": "Power & Battery",
+   "key": "range_per_charge",
+   "label": "Range",
+   "value": ">30",
+   "unit": "km",
+   "note": "",
+   "source": "https://www.rivr.ai/product.html"
+  },
+  {
+   "group": "Charging & Docking",
+   "key": "charge_time",
+   "label": "Recharge time",
+   "value": "2–3",
+   "unit": "h",
+   "note": "",
+   "source": "https://www.rivr.ai/product.html"
+  },
+  {
+   "group": "Safety & Compliance",
+   "key": "emergency_stop",
+   "label": "Emergency stop",
+   "value": "Automatic, physical button or remote command",
+   "unit": "",
+   "note": "",
+   "source": "https://www.rivr.ai/product.html"
+  },
+  {
+   "group": "Audio, Lights & HMI",
+   "key": "warning_system",
+   "label": "Visibility",
+   "value": "Lights and a flag for day/night visibility",
+   "unit": "",
+   "note": "",
+   "source": "https://www.rivr.ai/product.html"
+  },
+  {
+   "group": "Terrain & Navigation Limits",
+   "key": "surface_types",
+   "label": "Terrain",
+   "value": "Sidewalks, bike lanes, road crossings, small steps/curbs, stairs, gates, tight spaces",
+   "unit": "",
+   "note": "",
+   "source": "https://www.rivr.ai/product.html"
+  },
+  {
+   "group": "Controls & Operation",
+   "key": "teleoperation",
+   "label": "Remote support",
+   "value": "24/7 remote support team",
+   "unit": "",
+   "note": "",
+   "source": "https://www.rivr.ai/product.html"
+  },
+  {
+   "group": "Controls & Operation",
+   "key": "operation_modes",
+   "label": "Operation modes",
+   "value": "Last-mile delivery; van-dispensed delivery (attaches to vans without modification)",
+   "unit": "",
+   "note": "",
+   "source": "https://www.rivr.ai/product.html"
+  },
+  {
+   "group": "Sensors & Perception",
+   "key": "camera_type",
+   "label": "Sensors",
+   "value": "Cameras, LiDAR and perception systems",
+   "unit": "",
+   "note": "",
+   "source": "https://www.rivr.ai/technology.html"
+  },
+  {
+   "group": "Sensors & Perception",
+   "key": "gps",
+   "label": "GPS",
+   "value": "Yes",
+   "unit": "",
+   "note": "",
+   "source": "https://newatlas.com/robotics/rivr-one-delivery-robot-swiss-post"
+  },
+  {
+   "group": "Manipulation",
+   "key": "arm_dof",
+   "label": "Robotic arm",
+   "value": "Yes – opens gates, places deliveries",
+   "unit": "",
+   "note": "DoF not published",
+   "source": "https://www.rivr.ai/technology.html"
+  },
+  {
+   "group": "Payload & Mounting",
+   "key": "cargo_volume",
+   "label": "Delivery box",
+   "value": "Secure (locked) box for multiple parcels, groceries, food",
+   "unit": "",
+   "note": "https://www.rivr.ai/technology.html",
+   "source": "https://www.rivr.ai/product.html"
+  },
+  {
+   "group": "Compute & Software",
+   "key": "autonomy_software",
+   "label": "AI",
+   "value": "RL in simulation + supervised learning on real-world data; onboard compute in torso",
+   "unit": "",
+   "note": "https://www.rivr.ai/technology.html",
+   "source": "https://www.rivr.ai/product.html"
+  },
+  {
+   "group": "Mobility & Performance",
+   "key": "drive_train",
+   "label": "Locomotion",
+   "value": "Four legs with wheels (wheeled-legged)",
+   "unit": "",
+   "note": "",
+   "source": "https://newatlas.com/robotics/rivr-one-delivery-robot-swiss-post"
+  },
+  {
+   "group": "Commercial",
+   "key": "availability",
+   "label": "Status",
+   "value": "Field trials (e.g. Swiss Post/Migros Online, Regensdorf 2025)",
+   "unit": "",
+   "note": "https://newatlas.com/robotics/rivr-one-delivery-robot-swiss-post",
+   "source": "https://www.rivr.ai/product.html"
+  }
+ ]
+}

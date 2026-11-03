@@ -1,0 +1,318 @@
+{
+ "id": "unitree-go2-w",
+ "checked": "2026-11-04",
+ "documents": [
+  {
+   "title": "Unitree Go2-W product page (parameter details)",
+   "url": "https://www.unitree.com/go2-w"
+  }
+ ],
+ "specs": [
+  {
+   "group": "Dimensions & Mass",
+   "key": "length",
+   "label": "Length",
+   "value": 70,
+   "unit": "cm",
+   "note": "standing",
+   "source": "https://www.unitree.com/go2-w"
+  },
+  {
+   "group": "Dimensions & Mass",
+   "key": "width",
+   "label": "Width",
+   "value": 43,
+   "unit": "cm",
+   "note": "standing",
+   "source": "https://www.unitree.com/go2-w"
+  },
+  {
+   "group": "Dimensions & Mass",
+   "key": "height_standing",
+   "label": "Height (standing)",
+   "value": 50,
+   "unit": "cm",
+   "note": "",
+   "source": "https://www.unitree.com/go2-w"
+  },
+  {
+   "group": "Dimensions & Mass",
+   "key": "weight_with_battery",
+   "label": "Weight (with battery)",
+   "value": 18,
+   "unit": "kg",
+   "note": "about",
+   "source": "https://www.unitree.com/go2-w"
+  },
+  {
+   "group": "Power & Battery",
+   "key": "battery_voltage",
+   "label": "Voltage",
+   "value": 33.6,
+   "unit": "V",
+   "note": "",
+   "source": "https://www.unitree.com/go2-w"
+  },
+  {
+   "group": "Mobility & Performance",
+   "key": "rated_payload",
+   "label": "Payload",
+   "value": 8,
+   "unit": "kg",
+   "note": "≈8 kg",
+   "source": "https://www.unitree.com/go2-w"
+  },
+  {
+   "group": "Mobility & Performance",
+   "key": "max_payload",
+   "label": "Maximum payload",
+   "value": 12,
+   "unit": "kg",
+   "note": "MAX ~12 kg",
+   "source": "https://www.unitree.com/go2-w"
+  },
+  {
+   "group": "Mobility & Performance",
+   "key": "max_speed",
+   "label": "Speed",
+   "value": "0–2.5",
+   "unit": "m/s",
+   "note": "",
+   "source": "https://www.unitree.com/go2-w"
+  },
+  {
+   "group": "Terrain & Navigation Limits",
+   "key": "max_obstacle_height",
+   "label": "Max climb/drop height",
+   "value": "<70",
+   "unit": "cm",
+   "note": "",
+   "source": "https://www.unitree.com/go2-w"
+  },
+  {
+   "group": "Terrain & Navigation Limits",
+   "key": "max_slope",
+   "label": "Max climb angle",
+   "value": 35,
+   "unit": "°",
+   "note": "",
+   "source": "https://www.unitree.com/go2-w"
+  },
+  {
+   "group": "Compute & Software",
+   "key": "cpu",
+   "label": "Basic computing power",
+   "value": "8-core high-performance CPU",
+   "unit": "",
+   "note": "",
+   "source": "https://www.unitree.com/go2-w"
+  },
+  {
+   "group": "Actuation & Joints",
+   "key": "joint_count",
+   "label": "Joint motors",
+   "value": 16,
+   "unit": "",
+   "note": "aluminium knee joint motors",
+   "source": "https://www.unitree.com/go2-w"
+  },
+  {
+   "group": "Mobility & Performance",
+   "key": "degrees_of_freedom",
+   "label": "Degrees of freedom",
+   "value": 16,
+   "unit": "",
+   "note": "",
+   "source": "https://www.unitree.com/go2-w"
+  },
+  {
+   "group": "Actuation & Joints",
+   "key": "max_joint_torque",
+   "label": "Max joint torque",
+   "value": 45,
+   "unit": "N·m",
+   "note": "about; maximum torque of the largest joint motor, varies across the 16 joint motors",
+   "source": "https://www.unitree.com/go2-w"
+  },
+  {
+   "group": "Dimensions & Mass",
+   "key": "tire_type",
+   "label": "Tyres",
+   "value": "7-inch pneumatic tire with in-wheel motor",
+   "unit": "",
+   "note": "",
+   "source": "https://www.unitree.com/go2-w"
+  },
+  {
+   "group": "Sensors & Perception",
+   "key": "lidar_type",
+   "label": "LiDAR",
+   "value": "Super-wide-angle 3D LiDAR",
+   "unit": "",
+   "note": "",
+   "source": "https://www.unitree.com/go2-w"
+  },
+  {
+   "group": "Sensors & Perception",
+   "key": "camera_type",
+   "label": "Camera",
+   "value": "HD wide-angle camera",
+   "unit": "",
+   "note": "",
+   "source": "https://www.unitree.com/go2-w"
+  },
+  {
+   "group": "Controls & Operation",
+   "key": "control_modes",
+   "label": "Basic actions",
+   "value": "Supported",
+   "unit": "",
+   "note": "",
+   "source": "https://www.unitree.com/go2-w"
+  },
+  {
+   "group": "Compute & Software",
+   "key": "ota_updates",
+   "label": "OTA updates",
+   "value": "Upgraded intelligent OTA",
+   "unit": "",
+   "note": "",
+   "source": "https://www.unitree.com/go2-w"
+  },
+  {
+   "group": "Controls & Operation",
+   "key": "app_support",
+   "label": "App support",
+   "value": "Yes",
+   "unit": "",
+   "note": "",
+   "source": "https://www.unitree.com/go2-w"
+  },
+  {
+   "group": "Controls & Operation",
+   "key": "controller",
+   "label": "Manual controller",
+   "value": "Included",
+   "unit": "",
+   "note": "",
+   "source": "https://www.unitree.com/go2-w"
+  },
+  {
+   "group": "Audio, Lights & HMI",
+   "key": "front_light",
+   "label": "Front lighting lamp",
+   "value": "Yes",
+   "unit": "",
+   "note": "",
+   "source": "https://www.unitree.com/go2-w"
+  },
+  {
+   "group": "Connectivity & Interfaces",
+   "key": "wifi",
+   "label": "Wi-Fi",
+   "value": "Wi-Fi 6",
+   "unit": "",
+   "note": "",
+   "source": "https://www.unitree.com/go2-w"
+  },
+  {
+   "group": "Connectivity & Interfaces",
+   "key": "cellular",
+   "label": "Cellular",
+   "value": "4G",
+   "unit": "",
+   "note": "",
+   "source": "https://www.unitree.com/go2-w"
+  },
+  {
+   "group": "Connectivity & Interfaces",
+   "key": "bluetooth",
+   "label": "Bluetooth",
+   "value": "Yes",
+   "unit": "",
+   "note": "",
+   "source": "https://www.unitree.com/go2-w"
+  },
+  {
+   "group": "Audio, Lights & HMI",
+   "key": "voice_function",
+   "label": "Voice function",
+   "value": "Yes",
+   "unit": "",
+   "note": "",
+   "source": "https://www.unitree.com/go2-w"
+  },
+  {
+   "group": "Compute & Software",
+   "key": "sdk",
+   "label": "Secondary development",
+   "value": "Supported",
+   "unit": "",
+   "note": "see secondary development manual",
+   "source": "https://www.unitree.com/go2-w"
+  },
+  {
+   "group": "Compute & Software",
+   "key": "optional_compute",
+   "label": "Expansion module",
+   "value": "Multiple brands and models available, such as NVIDIA Orin NX",
+   "unit": "",
+   "note": "accessory",
+   "source": "https://www.unitree.com/go2-w"
+  },
+  {
+   "group": "Power & Battery",
+   "key": "battery_capacity_ah",
+   "label": "Battery",
+   "value": "15000",
+   "unit": "mAh",
+   "note": "long-endurance battery",
+   "source": "https://www.unitree.com/go2-w"
+  },
+  {
+   "group": "Power & Battery",
+   "key": "runtime",
+   "label": "Endurance",
+   "value": "1.5–3",
+   "unit": "h",
+   "note": "",
+   "source": "https://www.unitree.com/go2-w"
+  },
+  {
+   "group": "Charging & Docking",
+   "key": "charger_output",
+   "label": "Charger",
+   "value": "33.6 V 9 A fast charge",
+   "unit": "",
+   "note": "",
+   "source": "https://www.unitree.com/go2-w"
+  },
+  {
+   "group": "Commercial",
+   "key": "warranty",
+   "label": "Warranty period",
+   "value": 12,
+   "unit": "months",
+   "note": "",
+   "source": "https://www.unitree.com/go2-w"
+  },
+  {
+   "group": "Safety & Compliance",
+   "key": "intended_use",
+   "label": "Intended use",
+   "value": "Civilian robot; dangerous modifications or hazardous use prohibited",
+   "unit": "",
+   "note": "",
+   "source": "https://www.unitree.com/go2-w"
+  },
+  {
+   "group": "Terrain & Navigation Limits",
+   "key": "max_step_height",
+   "label": "Obstacle crossing",
+   "value": 70,
+   "unit": "cm",
+   "note": "'Conquest 70cm, Overcome Obstacles'",
+   "source": "https://www.unitree.com/go2-w"
+  }
+ ]
+}

@@ -1,0 +1,630 @@
+{
+ "id": "keenon-butlerbot-w3",
+ "checked": "2026-11-04",
+ "documents": [
+  {
+   "title": "BUTLERBOT W3 product page (KEENON)",
+   "url": "https://www.keenon.com/en/product/W3"
+  },
+  {
+   "title": "W3 User Manual (Keenon, via TOD System)",
+   "url": "https://store.todsystem.com/wp-content/uploads/2024/09/Butlerbot-W3-user-manual.pdf"
+  },
+  {
+   "title": "Datasheet – W3 (Keenon datasheet, via ineedrobot.eu)",
+   "url": "https://ineedrobot.eu/storage/downloads/1764603058-butlerbot-w3.pdf"
+  },
+  {
+   "title": "BUTLERBOT W3 flyer (KEENON, via okmbot.ch)",
+   "url": "https://okmbot.ch/wp-content/uploads/2025/08/EN_Flyer_W3.pdf"
+  }
+ ],
+ "specs": [
+  {
+   "group": "Identity",
+   "key": "model_number",
+   "label": "Model",
+   "value": "W3",
+   "unit": "",
+   "note": "",
+   "source": "https://store.todsystem.com/wp-content/uploads/2024/09/Butlerbot-W3-user-manual.pdf",
+   "ref": "Specifications p.27"
+  },
+  {
+   "group": "Identity",
+   "key": "variants",
+   "label": "Colors",
+   "value": "Gold; White; Bow-Tie (site) / Silver, Champagne gold (datasheet)",
+   "unit": "",
+   "note": "",
+   "source": "https://www.keenon.com/en/product/W3"
+  },
+  {
+   "group": "Dimensions & Mass",
+   "key": "width",
+   "label": "Width",
+   "value": 459,
+   "unit": "mm",
+   "note": "datasheet/manual: 450",
+   "source": "https://www.keenon.com/en/product/W3"
+  },
+  {
+   "group": "Dimensions & Mass",
+   "key": "length",
+   "label": "Depth",
+   "value": 549,
+   "unit": "mm",
+   "note": "datasheet/manual: 550",
+   "source": "https://www.keenon.com/en/product/W3"
+  },
+  {
+   "group": "Dimensions & Mass",
+   "key": "height",
+   "label": "Height",
+   "value": 1081,
+   "unit": "mm",
+   "note": "datasheet/manual: 1080",
+   "source": "https://www.keenon.com/en/product/W3"
+  },
+  {
+   "group": "Dimensions & Mass",
+   "key": "weight",
+   "label": "Net weight",
+   "value": 48,
+   "unit": "kg",
+   "note": "",
+   "source": "https://store.todsystem.com/wp-content/uploads/2024/09/Butlerbot-W3-user-manual.pdf",
+   "ref": "p.27"
+  },
+  {
+   "group": "Dimensions & Mass",
+   "key": "body_material",
+   "label": "Main material",
+   "value": "ABS plastic body",
+   "unit": "",
+   "note": "",
+   "source": "https://store.todsystem.com/wp-content/uploads/2024/09/Butlerbot-W3-user-manual.pdf"
+  },
+  {
+   "group": "Mobility & Performance",
+   "key": "max_speed",
+   "label": "Max moving speed",
+   "value": 0.8,
+   "unit": "m/s",
+   "note": "",
+   "source": "https://store.todsystem.com/wp-content/uploads/2024/09/Butlerbot-W3-user-manual.pdf",
+   "ref": "p.28"
+  },
+  {
+   "group": "Mobility & Performance",
+   "key": "max_payload",
+   "label": "Compartment load",
+   "value": 20,
+   "unit": "kg",
+   "note": "10 kg per floor",
+   "source": "https://store.todsystem.com/wp-content/uploads/2024/09/Butlerbot-W3-user-manual.pdf",
+   "ref": "p.27"
+  },
+  {
+   "group": "Mobility & Performance",
+   "key": "max_payload",
+   "label": "Cabin load capacity",
+   "value": 20,
+   "unit": "kg",
+   "note": "5 kg per layer, bottom layer 10 kg",
+   "source": "https://ineedrobot.eu/storage/downloads/1764603058-butlerbot-w3.pdf"
+  },
+  {
+   "group": "Payload & Mounting",
+   "key": "storage_compartments",
+   "label": "Number of cabins",
+   "value": "2/3/4",
+   "unit": "",
+   "note": "layers detachable; two compartments per floor can be merged",
+   "source": "https://ineedrobot.eu/storage/downloads/1764603058-butlerbot-w3.pdf"
+  },
+  {
+   "group": "Payload & Mounting",
+   "key": "compartment_dimensions",
+   "label": "Compartment size (L×W×H)",
+   "value": "390 × 385 × 300",
+   "unit": "mm",
+   "note": "upper and lower; holds 66 × 550 ml bottles",
+   "source": "https://store.todsystem.com/wp-content/uploads/2024/09/Butlerbot-W3-user-manual.pdf",
+   "ref": "p.27"
+  },
+  {
+   "group": "Payload & Mounting",
+   "key": "cargo_volume",
+   "label": "Delivery space",
+   "value": 90,
+   "unit": "L",
+   "note": "",
+   "source": "https://ineedrobot.eu/storage/downloads/1764603058-butlerbot-w3.pdf"
+  },
+  {
+   "group": "Payload & Mounting",
+   "key": "compartment_doors",
+   "label": "Compartment doors",
+   "value": "Automatic opening & closing, anti-pinch",
+   "unit": "",
+   "note": "with ventilation",
+   "source": "https://store.todsystem.com/wp-content/uploads/2024/09/Butlerbot-W3-user-manual.pdf"
+  },
+  {
+   "group": "Controls & Operation",
+   "key": "max_destinations_per_trip",
+   "label": "Multi-point delivery",
+   "value": "up to 4 rooms per journey",
+   "unit": "",
+   "note": "",
+   "source": "https://okmbot.ch/wp-content/uploads/2025/08/EN_Flyer_W3.pdf"
+  },
+  {
+   "group": "Controls & Operation",
+   "key": "multi_robot",
+   "label": "Multi-robot collaboration",
+   "value": "max 20 robots",
+   "unit": "",
+   "note": "",
+   "source": "https://ineedrobot.eu/storage/downloads/1764603058-butlerbot-w3.pdf"
+  },
+  {
+   "group": "Controls & Operation",
+   "key": "deliveries_per_day",
+   "label": "Deliveries per day",
+   "value": "up to 120",
+   "unit": "",
+   "note": "",
+   "source": "https://okmbot.ch/wp-content/uploads/2025/08/EN_Flyer_W3.pdf"
+  },
+  {
+   "group": "Controls & Operation",
+   "key": "elevator_integration",
+   "label": "Elevator riding",
+   "value": "IoT elevator riding via Keenon lift control solution",
+   "unit": "",
+   "note": "",
+   "source": "https://ineedrobot.eu/storage/downloads/1764603058-butlerbot-w3.pdf"
+  },
+  {
+   "group": "Terrain & Navigation Limits",
+   "key": "max_slope",
+   "label": "Max climbing angle",
+   "value": 7,
+   "unit": "°",
+   "note": "product page & datasheet; user manual states ≤ 5°",
+   "source": "https://www.keenon.com/en/product/W3"
+  },
+  {
+   "group": "Terrain & Navigation Limits",
+   "key": "max_obstacle_height",
+   "label": "Max surmountable height",
+   "value": 15,
+   "unit": "mm",
+   "note": "",
+   "source": "https://store.todsystem.com/wp-content/uploads/2024/09/Butlerbot-W3-user-manual.pdf",
+   "ref": "p.28"
+  },
+  {
+   "group": "Terrain & Navigation Limits",
+   "key": "max_gap_crossing",
+   "label": "Gap width",
+   "value": 30,
+   "unit": "mm",
+   "note": "",
+   "source": "https://ineedrobot.eu/storage/downloads/1764603058-butlerbot-w3.pdf"
+  },
+  {
+   "group": "Terrain & Navigation Limits",
+   "key": "min_corridor_width",
+   "label": "Minimum travel width",
+   "value": 700,
+   "unit": "mm",
+   "note": "",
+   "source": "https://store.todsystem.com/wp-content/uploads/2024/09/Butlerbot-W3-user-manual.pdf",
+   "ref": "p.28"
+  },
+  {
+   "group": "Terrain & Navigation Limits",
+   "key": "navigation_method",
+   "label": "Positioning & navigation",
+   "value": "Laser, IMU, encoder multi-sensor positioning & navigation",
+   "unit": "",
+   "note": "",
+   "source": "https://store.todsystem.com/wp-content/uploads/2024/09/Butlerbot-W3-user-manual.pdf",
+   "ref": "p.27"
+  },
+  {
+   "group": "Terrain & Navigation Limits",
+   "key": "floor_flatness_requirement",
+   "label": "Working environment",
+   "value": "Flat and smooth ground indoors",
+   "unit": "",
+   "note": "",
+   "source": "https://store.todsystem.com/wp-content/uploads/2024/09/Butlerbot-W3-user-manual.pdf"
+  },
+  {
+   "group": "Power & Battery",
+   "key": "battery_capacity",
+   "label": "Battery capacity",
+   "value": "DC 48 V 12 Ah",
+   "unit": "",
+   "note": "",
+   "source": "https://store.todsystem.com/wp-content/uploads/2024/09/Butlerbot-W3-user-manual.pdf",
+   "ref": "p.27"
+  },
+  {
+   "group": "Power & Battery",
+   "key": "battery_voltage",
+   "label": "Rated voltage",
+   "value": 48,
+   "unit": "V DC",
+   "note": "",
+   "source": "https://store.todsystem.com/wp-content/uploads/2024/09/Butlerbot-W3-user-manual.pdf"
+  },
+  {
+   "group": "Power & Battery",
+   "key": "rated_current",
+   "label": "Rated current",
+   "value": 2.5,
+   "unit": "A",
+   "note": "",
+   "source": "https://store.todsystem.com/wp-content/uploads/2024/09/Butlerbot-W3-user-manual.pdf"
+  },
+  {
+   "group": "Power & Battery",
+   "key": "rated_power",
+   "label": "Rated power",
+   "value": 120,
+   "unit": "W",
+   "note": "",
+   "source": "https://store.todsystem.com/wp-content/uploads/2024/09/Butlerbot-W3-user-manual.pdf"
+  },
+  {
+   "group": "Power & Battery",
+   "key": "max_power_output",
+   "label": "Maximum output",
+   "value": 60,
+   "unit": "W",
+   "note": "as listed in manual spec table",
+   "source": "https://store.todsystem.com/wp-content/uploads/2024/09/Butlerbot-W3-user-manual.pdf",
+   "ref": "p.28"
+  },
+  {
+   "group": "Power & Battery",
+   "key": "runtime",
+   "label": "Battery life",
+   "value": "9–12",
+   "unit": "h",
+   "note": "3 deliveries/h, 5 min each",
+   "source": "https://store.todsystem.com/wp-content/uploads/2024/09/Butlerbot-W3-user-manual.pdf",
+   "ref": "p.28"
+  },
+  {
+   "group": "Power & Battery",
+   "key": "runtime",
+   "label": "Battery life",
+   "value": "up to 12",
+   "unit": "h",
+   "note": "",
+   "source": "https://www.keenon.com/en/product/W3"
+  },
+  {
+   "group": "Power & Battery",
+   "key": "standby_time",
+   "label": "Standby time",
+   "value": "approx. 15",
+   "unit": "h",
+   "note": "",
+   "source": "https://store.todsystem.com/wp-content/uploads/2024/09/Butlerbot-W3-user-manual.pdf"
+  },
+  {
+   "group": "Power & Battery",
+   "key": "standby_current",
+   "label": "Standby current",
+   "value": "< 0.5",
+   "unit": "A",
+   "note": "",
+   "source": "https://store.todsystem.com/wp-content/uploads/2024/09/Butlerbot-W3-user-manual.pdf"
+  },
+  {
+   "group": "Power & Battery",
+   "key": "battery_swappable",
+   "label": "Battery dismountable",
+   "value": false,
+   "unit": "",
+   "note": "",
+   "source": "https://ineedrobot.eu/storage/downloads/1764603058-butlerbot-w3.pdf"
+  },
+  {
+   "group": "Charging & Docking",
+   "key": "charge_time",
+   "label": "Charging time",
+   "value": "approx. 6.5",
+   "unit": "h",
+   "note": "15% to 100%",
+   "source": "https://store.todsystem.com/wp-content/uploads/2024/09/Butlerbot-W3-user-manual.pdf"
+  },
+  {
+   "group": "Charging & Docking",
+   "key": "charging_method",
+   "label": "Charging mode",
+   "value": "Auto/manual",
+   "unit": "",
+   "note": "auto-docks at 5% battery",
+   "source": "https://store.todsystem.com/wp-content/uploads/2024/09/Butlerbot-W3-user-manual.pdf"
+  },
+  {
+   "group": "Charging & Docking",
+   "key": "charger_input",
+   "label": "Charger input",
+   "value": "100–240 V, 50/60 Hz",
+   "unit": "",
+   "note": "",
+   "source": "https://store.todsystem.com/wp-content/uploads/2024/09/Butlerbot-W3-user-manual.pdf"
+  },
+  {
+   "group": "Charging & Docking",
+   "key": "charger_output",
+   "label": "Charger output",
+   "value": "54.6 V, 3.0 A",
+   "unit": "",
+   "note": "",
+   "source": "https://store.todsystem.com/wp-content/uploads/2024/09/Butlerbot-W3-user-manual.pdf"
+  },
+  {
+   "group": "Charging & Docking",
+   "key": "dock_dimensions",
+   "label": "Charging pile dimensions",
+   "value": "230 × 220 × 290",
+   "unit": "mm",
+   "note": "",
+   "source": "https://store.todsystem.com/wp-content/uploads/2024/09/Butlerbot-W3-user-manual.pdf"
+  },
+  {
+   "group": "Charging & Docking",
+   "key": "dock_weight",
+   "label": "Charging pile weight",
+   "value": 2.5,
+   "unit": "kg",
+   "note": "",
+   "source": "https://store.todsystem.com/wp-content/uploads/2024/09/Butlerbot-W3-user-manual.pdf"
+  },
+  {
+   "group": "Environment & Protection",
+   "key": "operating_temperature",
+   "label": "Working temperature",
+   "value": "0 to 45",
+   "unit": "°C",
+   "note": "dust-free",
+   "source": "https://store.todsystem.com/wp-content/uploads/2024/09/Butlerbot-W3-user-manual.pdf"
+  },
+  {
+   "group": "Environment & Protection",
+   "key": "operating_humidity",
+   "label": "Working humidity",
+   "value": "5 to 85",
+   "unit": "% RH",
+   "note": "",
+   "source": "https://store.todsystem.com/wp-content/uploads/2024/09/Butlerbot-W3-user-manual.pdf"
+  },
+  {
+   "group": "Environment & Protection",
+   "key": "storage_temperature",
+   "label": "Storage temperature",
+   "value": "0 to 60",
+   "unit": "°C",
+   "note": "",
+   "source": "https://store.todsystem.com/wp-content/uploads/2024/09/Butlerbot-W3-user-manual.pdf"
+  },
+  {
+   "group": "Sensors & Perception",
+   "key": "lidar_type",
+   "label": "LiDAR",
+   "value": "High-accuracy survey LiDAR",
+   "unit": "",
+   "note": "",
+   "source": "https://okmbot.ch/wp-content/uploads/2025/08/EN_Flyer_W3.pdf"
+  },
+  {
+   "group": "Sensors & Perception",
+   "key": "lidar_fov",
+   "label": "LiDAR coverage",
+   "value": 270,
+   "unit": "°",
+   "note": "",
+   "source": "https://ineedrobot.eu/storage/downloads/1764603058-butlerbot-w3.pdf"
+  },
+  {
+   "group": "Sensors & Perception",
+   "key": "lidar_range",
+   "label": "LiDAR detection range",
+   "value": "≤ 20",
+   "unit": "m",
+   "note": "",
+   "source": "https://ineedrobot.eu/storage/downloads/1764603058-butlerbot-w3.pdf"
+  },
+  {
+   "group": "Sensors & Perception",
+   "key": "depth_camera_type",
+   "label": "Stereo vision",
+   "value": "Dual stereo vision module",
+   "unit": "",
+   "note": "",
+   "source": "https://store.todsystem.com/wp-content/uploads/2024/09/Butlerbot-W3-user-manual.pdf"
+  },
+  {
+   "group": "Sensors & Perception",
+   "key": "depth_camera_fov",
+   "label": "Stereo vision field of view",
+   "value": 120,
+   "unit": "°",
+   "note": "",
+   "source": "https://ineedrobot.eu/storage/downloads/1764603058-butlerbot-w3.pdf"
+  },
+  {
+   "group": "Sensors & Perception",
+   "key": "depth_camera_range",
+   "label": "Stereo vision range",
+   "value": "0.1–1.5",
+   "unit": "m",
+   "note": "",
+   "source": "https://ineedrobot.eu/storage/downloads/1764603058-butlerbot-w3.pdf"
+  },
+  {
+   "group": "Sensors & Perception",
+   "key": "imu",
+   "label": "IMU",
+   "value": true,
+   "unit": "",
+   "note": "",
+   "source": "https://store.todsystem.com/wp-content/uploads/2024/09/Butlerbot-W3-user-manual.pdf"
+  },
+  {
+   "group": "Sensors & Perception",
+   "key": "bumper",
+   "label": "Anti-collision strips",
+   "value": true,
+   "unit": "",
+   "note": "",
+   "source": "https://store.todsystem.com/wp-content/uploads/2024/09/Butlerbot-W3-user-manual.pdf"
+  },
+  {
+   "group": "Sensors & Perception",
+   "key": "camera_type",
+   "label": "Image module",
+   "value": true,
+   "unit": "",
+   "note": "",
+   "source": "https://store.todsystem.com/wp-content/uploads/2024/09/Butlerbot-W3-user-manual.pdf"
+  },
+  {
+   "group": "Sensors & Perception",
+   "key": "touch_sensor",
+   "label": "Touch sensor",
+   "value": true,
+   "unit": "",
+   "note": "",
+   "source": "https://store.todsystem.com/wp-content/uploads/2024/09/Butlerbot-W3-user-manual.pdf"
+  },
+  {
+   "group": "Safety & Compliance",
+   "key": "emergency_stop",
+   "label": "Emergency stop switch",
+   "value": true,
+   "unit": "",
+   "note": "",
+   "source": "https://store.todsystem.com/wp-content/uploads/2024/09/Butlerbot-W3-user-manual.pdf"
+  },
+  {
+   "group": "Safety & Compliance",
+   "key": "obstacle_avoidance",
+   "label": "Obstacle avoidance",
+   "value": "Multi-sensor: dual stereo vision, anti-collision strips, image module",
+   "unit": "",
+   "note": "",
+   "source": "https://store.todsystem.com/wp-content/uploads/2024/09/Butlerbot-W3-user-manual.pdf"
+  },
+  {
+   "group": "Connectivity & Interfaces",
+   "key": "wifi",
+   "label": "Wi-Fi",
+   "value": "802.11 b/g/n, 2.4–2.484 GHz",
+   "unit": "",
+   "note": "",
+   "source": "https://store.todsystem.com/wp-content/uploads/2024/09/Butlerbot-W3-user-manual.pdf"
+  },
+  {
+   "group": "Connectivity & Interfaces",
+   "key": "lora",
+   "label": "LoRa frequency",
+   "value": "850.125–930.125",
+   "unit": "MHz",
+   "note": "",
+   "source": "https://store.todsystem.com/wp-content/uploads/2024/09/Butlerbot-W3-user-manual.pdf"
+  },
+  {
+   "group": "Connectivity & Interfaces",
+   "key": "cellular",
+   "label": "Network",
+   "value": "Wi-Fi/2G/3G/4G; LTE FDD B1/B2/B3/B4/B5/B7/B8/B12/B13/B18/B19/B20/B25/B26/B28; LTE TDD B38/B39/B40/B41; WCDMA B1/B2/B4/B5/B6/B8/B19; GSM B2/B3/B5/B8",
+   "unit": "",
+   "note": "",
+   "source": "https://store.todsystem.com/wp-content/uploads/2024/09/Butlerbot-W3-user-manual.pdf"
+  },
+  {
+   "group": "Audio, Lights & HMI",
+   "key": "display",
+   "label": "Display",
+   "value": "11.6-inch HD touch screen, 1920 × 1080",
+   "unit": "",
+   "note": "",
+   "source": "https://store.todsystem.com/wp-content/uploads/2024/09/Butlerbot-W3-user-manual.pdf"
+  },
+  {
+   "group": "Audio, Lights & HMI",
+   "key": "speaker",
+   "label": "Speaker",
+   "value": "2 sound tracks",
+   "unit": "",
+   "note": "",
+   "source": "https://store.todsystem.com/wp-content/uploads/2024/09/Butlerbot-W3-user-manual.pdf"
+  },
+  {
+   "group": "Audio, Lights & HMI",
+   "key": "status_lights",
+   "label": "Lights",
+   "value": "Decorative light strip; turn signals",
+   "unit": "",
+   "note": "",
+   "source": "https://store.todsystem.com/wp-content/uploads/2024/09/Butlerbot-W3-user-manual.pdf"
+  },
+  {
+   "group": "Mobility & Performance",
+   "key": "wheel_configuration",
+   "label": "Wheels",
+   "value": "2 drive wheels + 4 driven omni-directional wheels",
+   "unit": "",
+   "note": "",
+   "source": "https://store.todsystem.com/wp-content/uploads/2024/09/Butlerbot-W3-user-manual.pdf"
+  },
+  {
+   "group": "Commercial",
+   "key": "service_life",
+   "label": "Service life",
+   "value": 20000,
+   "unit": "h",
+   "note": "",
+   "source": "https://store.todsystem.com/wp-content/uploads/2024/09/Butlerbot-W3-user-manual.pdf"
+  },
+  {
+   "group": "Commercial",
+   "key": "warranty",
+   "label": "Warranty",
+   "value": "Robot 1 year (excluding consumables); omni-wheel and power adapter 6 months",
+   "unit": "",
+   "note": "",
+   "source": "https://store.todsystem.com/wp-content/uploads/2024/09/Butlerbot-W3-user-manual.pdf",
+   "ref": "p.29"
+  },
+  {
+   "group": "Commercial",
+   "key": "included_accessories",
+   "label": "Package content",
+   "value": "Battery recharger; charging pile; product manual; inset compartment; compartment splitter plate",
+   "unit": "",
+   "note": "",
+   "source": "https://ineedrobot.eu/storage/downloads/1764603058-butlerbot-w3.pdf"
+  },
+  {
+   "group": "Commercial",
+   "key": "optional_accessories",
+   "label": "Accessories",
+   "value": "Charging pile; E-Box; T-Box; robot access control module; GBOX; Air Box",
+   "unit": "",
+   "note": "",
+   "source": "https://www.keenon.com/en/product/W3"
+  }
+ ]
+}

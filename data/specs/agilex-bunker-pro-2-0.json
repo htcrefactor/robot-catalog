@@ -1,0 +1,557 @@
+{
+ "id": "agilex-bunker-pro-2-0",
+ "checked": "2026-11-04",
+ "documents": [
+  {
+   "title": "BUNKER PRO 2.0 User Manual V1.0.0 (2025-05)",
+   "url": "https://cdn.shopify.com/s/files/1/0551/0630/6141/files/BUNKER_PRO2_USER_MANUAL_77a0e492-f6ac-40d2-8267-685e6cc76887.pdf?v=1792571826"
+  },
+  {
+   "title": "BUNKER PRO 2.0 product page (AgileX global)",
+   "url": "https://global.agilex.ai/products/bunker-pro"
+  }
+ ],
+ "specs": [
+  {
+   "group": "Identity",
+   "key": "software_version",
+   "label": "Manual version",
+   "value": "V1.0.0 (2025-05)",
+   "unit": "",
+   "note": "",
+   "source": "https://cdn.shopify.com/s/files/1/0551/0630/6141/files/BUNKER_PRO2_USER_MANUAL_77a0e492-f6ac-40d2-8267-685e6cc76887.pdf?v=1792571826"
+  },
+  {
+   "group": "Identity",
+   "key": "manufacturer_address",
+   "label": "Manufacturer address",
+   "value": "Head office: XbotPark, Songshan Lake, Dongguan, Guangdong, China; Sales: iPark, Nanshan District, Shenzhen",
+   "unit": "",
+   "note": "",
+   "source": "https://global.agilex.ai/products/bunker-pro"
+  },
+  {
+   "group": "Dimensions & Mass",
+   "key": "length",
+   "label": "Length",
+   "value": 1080,
+   "unit": "mm",
+   "note": "",
+   "source": "https://cdn.shopify.com/s/files/1/0551/0630/6141/files/BUNKER_PRO2_USER_MANUAL_77a0e492-f6ac-40d2-8267-685e6cc76887.pdf?v=1792571826",
+   "ref": "1.2"
+  },
+  {
+   "group": "Dimensions & Mass",
+   "key": "width",
+   "label": "Width",
+   "value": 785,
+   "unit": "mm",
+   "note": "",
+   "source": "https://cdn.shopify.com/s/files/1/0551/0630/6141/files/BUNKER_PRO2_USER_MANUAL_77a0e492-f6ac-40d2-8267-685e6cc76887.pdf?v=1792571826",
+   "ref": "1.2"
+  },
+  {
+   "group": "Dimensions & Mass",
+   "key": "height",
+   "label": "Height",
+   "value": 470,
+   "unit": "mm",
+   "note": "",
+   "source": "https://cdn.shopify.com/s/files/1/0551/0630/6141/files/BUNKER_PRO2_USER_MANUAL_77a0e492-f6ac-40d2-8267-685e6cc76887.pdf?v=1792571826",
+   "ref": "1.2"
+  },
+  {
+   "group": "Dimensions & Mass",
+   "key": "weight",
+   "label": "Curb weight",
+   "value": 225,
+   "unit": "kg",
+   "note": "",
+   "source": "https://cdn.shopify.com/s/files/1/0551/0630/6141/files/BUNKER_PRO2_USER_MANUAL_77a0e492-f6ac-40d2-8267-685e6cc76887.pdf?v=1792571826",
+   "ref": "1.2"
+  },
+  {
+   "group": "Dimensions & Mass",
+   "key": "wheelbase",
+   "label": "Wheelbase",
+   "value": 575,
+   "unit": "mm",
+   "note": "",
+   "source": "https://cdn.shopify.com/s/files/1/0551/0630/6141/files/BUNKER_PRO2_USER_MANUAL_77a0e492-f6ac-40d2-8267-685e6cc76887.pdf?v=1792571826",
+   "ref": "1.2"
+  },
+  {
+   "group": "Dimensions & Mass",
+   "key": "track_belt_width",
+   "label": "Track width",
+   "value": 150,
+   "unit": "mm",
+   "note": "listed as Track Width (track belt)",
+   "source": "https://cdn.shopify.com/s/files/1/0551/0630/6141/files/BUNKER_PRO2_USER_MANUAL_77a0e492-f6ac-40d2-8267-685e6cc76887.pdf?v=1792571826",
+   "ref": "1.2"
+  },
+  {
+   "group": "Dimensions & Mass",
+   "key": "ground_clearance",
+   "label": "Ground clearance",
+   "value": 120,
+   "unit": "mm",
+   "note": "maximum",
+   "source": "https://cdn.shopify.com/s/files/1/0551/0630/6141/files/BUNKER_PRO2_USER_MANUAL_77a0e492-f6ac-40d2-8267-685e6cc76887.pdf?v=1792571826",
+   "ref": "1.2"
+  },
+  {
+   "group": "Mobility & Performance",
+   "key": "max_speed",
+   "label": "Max loaded speed",
+   "value": 1.5,
+   "unit": "m/s",
+   "note": "",
+   "source": "https://cdn.shopify.com/s/files/1/0551/0630/6141/files/BUNKER_PRO2_USER_MANUAL_77a0e492-f6ac-40d2-8267-685e6cc76887.pdf?v=1792571826",
+   "ref": "1.2"
+  },
+  {
+   "group": "Mobility & Performance",
+   "key": "max_payload",
+   "label": "Max payload",
+   "value": 120,
+   "unit": "kg",
+   "note": "rated moving payload",
+   "source": "https://cdn.shopify.com/s/files/1/0551/0630/6141/files/BUNKER_PRO2_USER_MANUAL_77a0e492-f6ac-40d2-8267-685e6cc76887.pdf?v=1792571826",
+   "ref": "Operation"
+  },
+  {
+   "group": "Mobility & Performance",
+   "key": "turning_radius",
+   "label": "Minimum turning radius",
+   "value": "Can turn in place",
+   "unit": "",
+   "note": "",
+   "source": "https://cdn.shopify.com/s/files/1/0551/0630/6141/files/BUNKER_PRO2_USER_MANUAL_77a0e492-f6ac-40d2-8267-685e6cc76887.pdf?v=1792571826",
+   "ref": "1.2"
+  },
+  {
+   "group": "Mobility & Performance",
+   "key": "steering",
+   "label": "Steering",
+   "value": "Track-type differential steering",
+   "unit": "",
+   "note": "",
+   "source": "https://cdn.shopify.com/s/files/1/0551/0630/6141/files/BUNKER_PRO2_USER_MANUAL_77a0e492-f6ac-40d2-8267-685e6cc76887.pdf?v=1792571826",
+   "ref": "1.2"
+  },
+  {
+   "group": "Mobility & Performance",
+   "key": "drive_motor",
+   "label": "Drive motors",
+   "value": "2 × 1800 W brushless servo motors",
+   "unit": "",
+   "note": "",
+   "source": "https://cdn.shopify.com/s/files/1/0551/0630/6141/files/BUNKER_PRO2_USER_MANUAL_77a0e492-f6ac-40d2-8267-685e6cc76887.pdf?v=1792571826",
+   "ref": "1.2"
+  },
+  {
+   "group": "Mobility & Performance",
+   "key": "drive_motor_reduction_ratio",
+   "label": "Drive motor gear ratio",
+   "value": "1:7.5",
+   "unit": "",
+   "note": "",
+   "source": "https://cdn.shopify.com/s/files/1/0551/0630/6141/files/BUNKER_PRO2_USER_MANUAL_77a0e492-f6ac-40d2-8267-685e6cc76887.pdf?v=1792571826",
+   "ref": "1.2"
+  },
+  {
+   "group": "Mobility & Performance",
+   "key": "drive_motor_encoder",
+   "label": "Drive motor sensor",
+   "value": "2500 PPR optical incremental encoder",
+   "unit": "",
+   "note": "",
+   "source": "https://cdn.shopify.com/s/files/1/0551/0630/6141/files/BUNKER_PRO2_USER_MANUAL_77a0e492-f6ac-40d2-8267-685e6cc76887.pdf?v=1792571826",
+   "ref": "1.2"
+  },
+  {
+   "group": "Terrain & Navigation Limits",
+   "key": "max_slope",
+   "label": "Max climbing ability (unloaded)",
+   "value": 30,
+   "unit": "°",
+   "note": "capable of stair climbing",
+   "source": "https://cdn.shopify.com/s/files/1/0551/0630/6141/files/BUNKER_PRO2_USER_MANUAL_77a0e492-f6ac-40d2-8267-685e6cc76887.pdf?v=1792571826",
+   "ref": "1.2"
+  },
+  {
+   "group": "Terrain & Navigation Limits",
+   "key": "max_slope",
+   "label": "Climb (full load)",
+   "value": 25,
+   "unit": "°",
+   "note": "",
+   "source": "https://global.agilex.ai/products/bunker-pro"
+  },
+  {
+   "group": "Terrain & Navigation Limits",
+   "key": "stair_climbing",
+   "label": "Stair climbing",
+   "value": true,
+   "unit": "",
+   "note": "",
+   "source": "https://cdn.shopify.com/s/files/1/0551/0630/6141/files/BUNKER_PRO2_USER_MANUAL_77a0e492-f6ac-40d2-8267-685e6cc76887.pdf?v=1792571826",
+   "ref": "1.2"
+  },
+  {
+   "group": "Terrain & Navigation Limits",
+   "key": "max_obstacle_height",
+   "label": "Max obstacle crossing",
+   "value": 180,
+   "unit": "mm",
+   "note": "user manual",
+   "source": "https://cdn.shopify.com/s/files/1/0551/0630/6141/files/BUNKER_PRO2_USER_MANUAL_77a0e492-f6ac-40d2-8267-685e6cc76887.pdf?v=1792571826",
+   "ref": "1.2"
+  },
+  {
+   "group": "Terrain & Navigation Limits",
+   "key": "max_obstacle_height",
+   "label": "Obstacle clearance (full load)",
+   "value": 150,
+   "unit": "mm",
+   "note": "product page",
+   "source": "https://global.agilex.ai/products/bunker-pro"
+  },
+  {
+   "group": "Terrain & Navigation Limits",
+   "key": "suspension",
+   "label": "Suspension",
+   "value": "Christie suspension & Matilda four-wheel balanced suspension",
+   "unit": "",
+   "note": "",
+   "source": "https://cdn.shopify.com/s/files/1/0551/0630/6141/files/BUNKER_PRO2_USER_MANUAL_77a0e492-f6ac-40d2-8267-685e6cc76887.pdf?v=1792571826",
+   "ref": "1.2"
+  },
+  {
+   "group": "Power & Battery",
+   "key": "battery_chemistry",
+   "label": "Battery type",
+   "value": "Lithium iron phosphate (LiFePO4)",
+   "unit": "",
+   "note": "",
+   "source": "https://cdn.shopify.com/s/files/1/0551/0630/6141/files/BUNKER_PRO2_USER_MANUAL_77a0e492-f6ac-40d2-8267-685e6cc76887.pdf?v=1792571826",
+   "ref": "1.2"
+  },
+  {
+   "group": "Power & Battery",
+   "key": "battery_voltage",
+   "label": "Battery voltage",
+   "value": 72,
+   "unit": "V",
+   "note": "",
+   "source": "https://cdn.shopify.com/s/files/1/0551/0630/6141/files/BUNKER_PRO2_USER_MANUAL_77a0e492-f6ac-40d2-8267-685e6cc76887.pdf?v=1792571826",
+   "ref": "1.2"
+  },
+  {
+   "group": "Power & Battery",
+   "key": "battery_capacity_ah",
+   "label": "Battery capacity",
+   "value": 50,
+   "unit": "Ah",
+   "note": "",
+   "source": "https://cdn.shopify.com/s/files/1/0551/0630/6141/files/BUNKER_PRO2_USER_MANUAL_77a0e492-f6ac-40d2-8267-685e6cc76887.pdf?v=1792571826",
+   "ref": "1.2"
+  },
+  {
+   "group": "Power & Battery",
+   "key": "battery_voltage_range",
+   "label": "Normal battery voltage range",
+   "value": "60 - 80",
+   "unit": "V",
+   "note": "may not operate below 55 V",
+   "source": "https://cdn.shopify.com/s/files/1/0551/0630/6141/files/BUNKER_PRO2_USER_MANUAL_77a0e492-f6ac-40d2-8267-685e6cc76887.pdf?v=1792571826",
+   "ref": "3.1"
+  },
+  {
+   "group": "Power & Battery",
+   "key": "runtime",
+   "label": "Rated endurance (fully loaded, concrete)",
+   "value": 2.5,
+   "unit": "h",
+   "note": "",
+   "source": "https://cdn.shopify.com/s/files/1/0551/0630/6141/files/BUNKER_PRO2_USER_MANUAL_77a0e492-f6ac-40d2-8267-685e6cc76887.pdf?v=1792571826",
+   "ref": "1.2"
+  },
+  {
+   "group": "Power & Battery",
+   "key": "runtime",
+   "label": "Rated endurance (unloaded, concrete)",
+   "value": 3.5,
+   "unit": "h",
+   "note": "",
+   "source": "https://cdn.shopify.com/s/files/1/0551/0630/6141/files/BUNKER_PRO2_USER_MANUAL_77a0e492-f6ac-40d2-8267-685e6cc76887.pdf?v=1792571826",
+   "ref": "1.2"
+  },
+  {
+   "group": "Power & Battery",
+   "key": "range_per_charge",
+   "label": "Max distance (full load)",
+   "value": 15,
+   "unit": "km",
+   "note": "",
+   "source": "https://cdn.shopify.com/s/files/1/0551/0630/6141/files/BUNKER_PRO2_USER_MANUAL_77a0e492-f6ac-40d2-8267-685e6cc76887.pdf?v=1792571826",
+   "ref": "1.2"
+  },
+  {
+   "group": "Power & Battery",
+   "key": "range_per_charge",
+   "label": "Max distance (unloaded)",
+   "value": 20,
+   "unit": "km",
+   "note": "",
+   "source": "https://cdn.shopify.com/s/files/1/0551/0630/6141/files/BUNKER_PRO2_USER_MANUAL_77a0e492-f6ac-40d2-8267-685e6cc76887.pdf?v=1792571826",
+   "ref": "1.2"
+  },
+  {
+   "group": "Charging & Docking",
+   "key": "charge_time",
+   "label": "Charging time",
+   "value": 2.5,
+   "unit": "h",
+   "note": "",
+   "source": "https://cdn.shopify.com/s/files/1/0551/0630/6141/files/BUNKER_PRO2_USER_MANUAL_77a0e492-f6ac-40d2-8267-685e6cc76887.pdf?v=1792571826",
+   "ref": "1.2"
+  },
+  {
+   "group": "Charging & Docking",
+   "key": "charger_input",
+   "label": "Charger input",
+   "value": "AC 220 V",
+   "unit": "",
+   "note": "",
+   "source": "https://cdn.shopify.com/s/files/1/0551/0630/6141/files/BUNKER_PRO2_USER_MANUAL_77a0e492-f6ac-40d2-8267-685e6cc76887.pdf?v=1792571826",
+   "ref": "0.1"
+  },
+  {
+   "group": "Environment & Protection",
+   "key": "ip_rating",
+   "label": "IP rating",
+   "value": "IP67",
+   "unit": "",
+   "note": "",
+   "source": "https://cdn.shopify.com/s/files/1/0551/0630/6141/files/BUNKER_PRO2_USER_MANUAL_77a0e492-f6ac-40d2-8267-685e6cc76887.pdf?v=1792571826",
+   "ref": "1.2"
+  },
+  {
+   "group": "Environment & Protection",
+   "key": "operating_temperature",
+   "label": "Working temperature",
+   "value": "-20 to 60",
+   "unit": "°C",
+   "note": "",
+   "source": "https://cdn.shopify.com/s/files/1/0551/0630/6141/files/BUNKER_PRO2_USER_MANUAL_77a0e492-f6ac-40d2-8267-685e6cc76887.pdf?v=1792571826",
+   "ref": "1.2"
+  },
+  {
+   "group": "Environment & Protection",
+   "key": "operating_humidity",
+   "label": "Relative humidity",
+   "value": "30 to 80",
+   "unit": "%",
+   "note": "",
+   "source": "https://cdn.shopify.com/s/files/1/0551/0630/6141/files/BUNKER_PRO2_USER_MANUAL_77a0e492-f6ac-40d2-8267-685e6cc76887.pdf?v=1792571826",
+   "ref": "Environmental Usage Guidelines"
+  },
+  {
+   "group": "Environment & Protection",
+   "key": "max_altitude",
+   "label": "Recommended max altitude",
+   "value": 1000,
+   "unit": "m",
+   "note": "",
+   "source": "https://cdn.shopify.com/s/files/1/0551/0630/6141/files/BUNKER_PRO2_USER_MANUAL_77a0e492-f6ac-40d2-8267-685e6cc76887.pdf?v=1792571826"
+  },
+  {
+   "group": "Environment & Protection",
+   "key": "max_day_night_temp_difference",
+   "label": "Max daily temperature variation",
+   "value": 25,
+   "unit": "°C",
+   "note": "recommended",
+   "source": "https://cdn.shopify.com/s/files/1/0551/0630/6141/files/BUNKER_PRO2_USER_MANUAL_77a0e492-f6ac-40d2-8267-685e6cc76887.pdf?v=1792571826"
+  },
+  {
+   "group": "Environment & Protection",
+   "key": "storage_temperature",
+   "label": "Battery storage temperature",
+   "value": "-10 to 45",
+   "unit": "°C",
+   "note": "",
+   "source": "https://cdn.shopify.com/s/files/1/0551/0630/6141/files/BUNKER_PRO2_USER_MANUAL_77a0e492-f6ac-40d2-8267-685e6cc76887.pdf?v=1792571826",
+   "ref": "Battery Precautions"
+  },
+  {
+   "group": "Environment & Protection",
+   "key": "charging_temperature",
+   "label": "Charging temperature",
+   "value": "above 0",
+   "unit": "°C",
+   "note": "",
+   "source": "https://cdn.shopify.com/s/files/1/0551/0630/6141/files/BUNKER_PRO2_USER_MANUAL_77a0e492-f6ac-40d2-8267-685e6cc76887.pdf?v=1792571826"
+  },
+  {
+   "group": "Compute & Software",
+   "key": "ros_support",
+   "label": "ROS",
+   "value": "BUNKER ROS package (ugv_sdk based)",
+   "unit": "",
+   "note": "",
+   "source": "https://cdn.shopify.com/s/files/1/0551/0630/6141/files/BUNKER_PRO2_USER_MANUAL_77a0e492-f6ac-40d2-8267-685e6cc76887.pdf?v=1792571826",
+   "ref": "3.5"
+  },
+  {
+   "group": "Connectivity & Interfaces",
+   "key": "can_bus",
+   "label": "System interface",
+   "value": "CAN (USB-to-CAN module included); RS232 also mentioned for customization",
+   "unit": "",
+   "note": "",
+   "source": "https://cdn.shopify.com/s/files/1/0551/0630/6141/files/BUNKER_PRO2_USER_MANUAL_77a0e492-f6ac-40d2-8267-685e6cc76887.pdf?v=1792571826",
+   "ref": "1.2 / 1.3"
+  },
+  {
+   "group": "Connectivity & Interfaces",
+   "key": "external_ports",
+   "label": "Rear panel",
+   "value": "Q1 aviation connector (CAN + 60-80 V power), power switch, charging port, antenna, E-stop, status light",
+   "unit": "",
+   "note": "",
+   "source": "https://cdn.shopify.com/s/files/1/0551/0630/6141/files/BUNKER_PRO2_USER_MANUAL_77a0e492-f6ac-40d2-8267-685e6cc76887.pdf?v=1792571826",
+   "ref": "2.1"
+  },
+  {
+   "group": "Connectivity & Interfaces",
+   "key": "feedback_cycle",
+   "label": "Motion feedback cycle",
+   "value": 20,
+   "unit": "ms",
+   "note": "frame 0x221; system status 0x211 at 200 ms",
+   "source": "https://cdn.shopify.com/s/files/1/0551/0630/6141/files/BUNKER_PRO2_USER_MANUAL_77a0e492-f6ac-40d2-8267-685e6cc76887.pdf?v=1792571826",
+   "ref": "3.3"
+  },
+  {
+   "group": "Payload & Mounting",
+   "key": "payload_port_power",
+   "label": "Rear expansion power",
+   "value": "60-80 V, max 20 A, ≤1440 W",
+   "unit": "",
+   "note": "",
+   "source": "https://cdn.shopify.com/s/files/1/0551/0630/6141/files/BUNKER_PRO2_USER_MANUAL_77a0e492-f6ac-40d2-8267-685e6cc76887.pdf?v=1792571826",
+   "ref": "2.1 / Electrical Extension Guidelines"
+  },
+  {
+   "group": "Payload & Mounting",
+   "key": "mounting_rail",
+   "label": "Top mounting",
+   "value": "Standard aluminum profile rails with T-slot nuts",
+   "unit": "",
+   "note": "",
+   "source": "https://cdn.shopify.com/s/files/1/0551/0630/6141/files/BUNKER_PRO2_USER_MANUAL_77a0e492-f6ac-40d2-8267-685e6cc76887.pdf?v=1792571826",
+   "ref": "3.1"
+  },
+  {
+   "group": "Safety & Compliance",
+   "key": "emergency_stop",
+   "label": "Emergency stop",
+   "value": "E-stop switch on rear panel",
+   "unit": "",
+   "note": "",
+   "source": "https://cdn.shopify.com/s/files/1/0551/0630/6141/files/BUNKER_PRO2_USER_MANUAL_77a0e492-f6ac-40d2-8267-685e6cc76887.pdf?v=1792571826",
+   "ref": "2.1"
+  },
+  {
+   "group": "Safety & Compliance",
+   "key": "stopping_distance",
+   "label": "Braking distance",
+   "value": 0.7,
+   "unit": "m",
+   "note": "unloaded, friction coefficient 0.5",
+   "source": "https://cdn.shopify.com/s/files/1/0551/0630/6141/files/BUNKER_PRO2_USER_MANUAL_77a0e492-f6ac-40d2-8267-685e6cc76887.pdf?v=1792571826",
+   "ref": "1.2"
+  },
+  {
+   "group": "Safety & Compliance",
+   "key": "obstacle_avoidance",
+   "label": "Obstacle avoidance",
+   "value": false,
+   "unit": "",
+   "note": "no automatic obstacle avoidance sensors",
+   "source": "https://cdn.shopify.com/s/files/1/0551/0630/6141/files/BUNKER_PRO2_USER_MANUAL_77a0e492-f6ac-40d2-8267-685e6cc76887.pdf?v=1792571826"
+  },
+  {
+   "group": "Controls & Operation",
+   "key": "control_modes",
+   "label": "Control modes",
+   "value": "Remote control; command control (CAN)",
+   "unit": "",
+   "note": "",
+   "source": "https://cdn.shopify.com/s/files/1/0551/0630/6141/files/BUNKER_PRO2_USER_MANUAL_77a0e492-f6ac-40d2-8267-685e6cc76887.pdf?v=1792571826",
+   "ref": "1.2"
+  },
+  {
+   "group": "Controls & Operation",
+   "key": "controller",
+   "label": "RC transmitter",
+   "value": "FS 2.4 GHz, up to 200 m (optional)",
+   "unit": "",
+   "note": "",
+   "source": "https://cdn.shopify.com/s/files/1/0551/0630/6141/files/BUNKER_PRO2_USER_MANUAL_77a0e492-f6ac-40d2-8267-685e6cc76887.pdf?v=1792571826",
+   "ref": "1.2"
+  },
+  {
+   "group": "Controls & Operation",
+   "key": "remote_range",
+   "label": "RC range",
+   "value": 200,
+   "unit": "m",
+   "note": "",
+   "source": "https://cdn.shopify.com/s/files/1/0551/0630/6141/files/BUNKER_PRO2_USER_MANUAL_77a0e492-f6ac-40d2-8267-685e6cc76887.pdf?v=1792571826",
+   "ref": "1.2"
+  },
+  {
+   "group": "Audio, Lights & HMI",
+   "key": "status_lights",
+   "label": "Status indicator",
+   "value": "Green >50%, yellow 25-50%, red 10-25%, slow blink <10%, fast blink fault",
+   "unit": "",
+   "note": "",
+   "source": "https://cdn.shopify.com/s/files/1/0551/0630/6141/files/BUNKER_PRO2_USER_MANUAL_77a0e492-f6ac-40d2-8267-685e6cc76887.pdf?v=1792571826",
+   "ref": "2.1"
+  },
+  {
+   "group": "Audio, Lights & HMI",
+   "key": "display",
+   "label": "Display",
+   "value": "Rear voltage display panel",
+   "unit": "",
+   "note": "",
+   "source": "https://cdn.shopify.com/s/files/1/0551/0630/6141/files/BUNKER_PRO2_USER_MANUAL_77a0e492-f6ac-40d2-8267-685e6cc76887.pdf?v=1792571826"
+  },
+  {
+   "group": "Transport & Storage",
+   "key": "maintenance_interval",
+   "label": "Track tensioning interval",
+   "value": "150-200",
+   "unit": "h",
+   "note": "bolt check after 500 h",
+   "source": "https://cdn.shopify.com/s/files/1/0551/0630/6141/files/BUNKER_PRO2_USER_MANUAL_77a0e492-f6ac-40d2-8267-685e6cc76887.pdf?v=1792571826",
+   "ref": "Maintenance"
+  },
+  {
+   "group": "Commercial",
+   "key": "included_accessories",
+   "label": "Product list",
+   "value": "Robot body, AC 220 V charger, 4-pin aviation plug, USB-to-CAN module, FS remote (optional)",
+   "unit": "",
+   "note": "",
+   "source": "https://cdn.shopify.com/s/files/1/0551/0630/6141/files/BUNKER_PRO2_USER_MANUAL_77a0e492-f6ac-40d2-8267-685e6cc76887.pdf?v=1792571826",
+   "ref": "0.1"
+  }
+ ]
+}

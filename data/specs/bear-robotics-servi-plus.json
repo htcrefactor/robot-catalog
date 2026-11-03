@@ -1,0 +1,658 @@
+{
+ "id": "bear-robotics-servi-plus",
+ "checked": "2026-11-04",
+ "documents": [
+  {
+   "title": "Servi Plus product page (Bear Robotics)",
+   "url": "https://www.bearrobotics.ai/servi-plus"
+  },
+  {
+   "title": "Servi Plus User Manual Ver 2.0.0 (Bear Robotics)",
+   "url": "https://www.bearrobotics.ai/s/200-Servi-Plus_User-Manual_EN.pdf"
+  },
+  {
+   "title": "Bear Robotics trifold brochure 2025",
+   "url": "https://www.bearrobotics.ai/s/Bear_Trifold_Brochure_2025_Online.pdf"
+  }
+ ],
+ "specs": [
+  {
+   "group": "Identity",
+   "key": "software_version",
+   "label": "Manual version",
+   "value": "2.0.0",
+   "unit": "",
+   "note": "User Manual Ver 2.0.0",
+   "source": "https://www.bearrobotics.ai/s/200-Servi-Plus_User-Manual_EN.pdf"
+  },
+  {
+   "group": "Identity",
+   "key": "manufacturer_address",
+   "label": "Manufacturer address (US)",
+   "value": "785 Broadway, Redwood City, CA 94063, USA",
+   "unit": "",
+   "note": "",
+   "source": "https://www.bearrobotics.ai/s/200-Servi-Plus_User-Manual_EN.pdf"
+  },
+  {
+   "group": "Dimensions & Mass",
+   "key": "width",
+   "label": "Width",
+   "value": 535,
+   "unit": "mm",
+   "note": "",
+   "source": "https://www.bearrobotics.ai/s/200-Servi-Plus_User-Manual_EN.pdf",
+   "ref": "p.43"
+  },
+  {
+   "group": "Dimensions & Mass",
+   "key": "length",
+   "label": "Depth",
+   "value": 590,
+   "unit": "mm",
+   "note": "",
+   "source": "https://www.bearrobotics.ai/s/200-Servi-Plus_User-Manual_EN.pdf",
+   "ref": "p.43"
+  },
+  {
+   "group": "Dimensions & Mass",
+   "key": "height",
+   "label": "Height",
+   "value": 1230,
+   "unit": "mm",
+   "note": "",
+   "source": "https://www.bearrobotics.ai/s/200-Servi-Plus_User-Manual_EN.pdf",
+   "ref": "p.43"
+  },
+  {
+   "group": "Dimensions & Mass",
+   "key": "weight",
+   "label": "Weight",
+   "value": 62,
+   "unit": "kg",
+   "note": "136.7 lb",
+   "source": "https://www.bearrobotics.ai/s/200-Servi-Plus_User-Manual_EN.pdf",
+   "ref": "p.43"
+  },
+  {
+   "group": "Mobility & Performance",
+   "key": "max_speed",
+   "label": "Max drive speed",
+   "value": 1.2,
+   "unit": "m/s",
+   "note": "",
+   "source": "https://www.bearrobotics.ai/s/200-Servi-Plus_User-Manual_EN.pdf",
+   "ref": "p.43"
+  },
+  {
+   "group": "Mobility & Performance",
+   "key": "nominal_speed",
+   "label": "Safe drive speed",
+   "value": "up to 0.8",
+   "unit": "m/s",
+   "note": "safe drive condition",
+   "source": "https://www.bearrobotics.ai/s/200-Servi-Plus_User-Manual_EN.pdf",
+   "ref": "p.43"
+  },
+  {
+   "group": "Mobility & Performance",
+   "key": "min_speed",
+   "label": "Min drive speed",
+   "value": 0.1,
+   "unit": "m/s",
+   "note": "",
+   "source": "https://www.bearrobotics.ai/servi-plus"
+  },
+  {
+   "group": "Mobility & Performance",
+   "key": "max_payload",
+   "label": "Load capacity",
+   "value": 40,
+   "unit": "kg",
+   "note": "max 88.1 lb",
+   "source": "https://www.bearrobotics.ai/s/200-Servi-Plus_User-Manual_EN.pdf"
+  },
+  {
+   "group": "Mobility & Performance",
+   "key": "tray_payload",
+   "label": "Load per tray",
+   "value": 10,
+   "unit": "kg",
+   "note": "",
+   "source": "https://www.bearrobotics.ai/s/200-Servi-Plus_User-Manual_EN.pdf"
+  },
+  {
+   "group": "Mobility & Performance",
+   "key": "tray_count",
+   "label": "Number of trays",
+   "value": "2–4",
+   "unit": "",
+   "note": "customizable; manual: 4 (depends on optional purchase)",
+   "source": "https://www.bearrobotics.ai/servi-plus"
+  },
+  {
+   "group": "Payload & Mounting",
+   "key": "tray_dimensions",
+   "label": "Tray dimensions",
+   "value": "480 × 460",
+   "unit": "mm",
+   "note": "",
+   "source": "https://www.bearrobotics.ai/s/200-Servi-Plus_User-Manual_EN.pdf",
+   "ref": "p.43"
+  },
+  {
+   "group": "Payload & Mounting",
+   "key": "cargo_capacity_description",
+   "label": "Capacity",
+   "value": "16+ entrées; up to 4 XL trays or 4 standard bus tubs",
+   "unit": "",
+   "note": "brochure: 3 standard bus tubs",
+   "source": "https://www.bearrobotics.ai/servi-plus"
+  },
+  {
+   "group": "Mobility & Performance",
+   "key": "suspension",
+   "label": "Suspension",
+   "value": "Active suspension",
+   "unit": "",
+   "note": "",
+   "source": "https://www.bearrobotics.ai/servi-plus"
+  },
+  {
+   "group": "Terrain & Navigation Limits",
+   "key": "min_corridor_width",
+   "label": "Minimum path clearance width",
+   "value": 650,
+   "unit": "mm",
+   "note": "",
+   "source": "https://www.bearrobotics.ai/s/200-Servi-Plus_User-Manual_EN.pdf",
+   "ref": "p.11"
+  },
+  {
+   "group": "Terrain & Navigation Limits",
+   "key": "max_obstacle_height",
+   "label": "Maximum bump height",
+   "value": 12,
+   "unit": "mm",
+   "note": "safe drive bump 7 mm; product page: thresholds up to 1/2 in",
+   "source": "https://www.bearrobotics.ai/s/200-Servi-Plus_User-Manual_EN.pdf",
+   "ref": "p.43"
+  },
+  {
+   "group": "Terrain & Navigation Limits",
+   "key": "max_slope",
+   "label": "Driving tilt angle",
+   "value": 7,
+   "unit": "°",
+   "note": "degrees of gradient; ADA ramps",
+   "source": "https://www.bearrobotics.ai/s/200-Servi-Plus_User-Manual_EN.pdf",
+   "ref": "p.43"
+  },
+  {
+   "group": "Terrain & Navigation Limits",
+   "key": "surface_types",
+   "label": "Surfaces",
+   "value": "variety of flooring types, ADA ramps, thresholds",
+   "unit": "",
+   "note": "",
+   "source": "https://www.bearrobotics.ai/servi-plus"
+  },
+  {
+   "group": "Terrain & Navigation Limits",
+   "key": "undetectable_obstacles",
+   "label": "Hard-to-detect obstacles",
+   "value": "objects < 6 cm in L/W/thickness; floor bumps/steps ≤ 5.5 cm; hanging objects",
+   "unit": "",
+   "note": "",
+   "source": "https://www.bearrobotics.ai/s/200-Servi-Plus_User-Manual_EN.pdf",
+   "ref": "p.11"
+  },
+  {
+   "group": "Power & Battery",
+   "key": "battery_voltage",
+   "label": "Power voltage",
+   "value": 25.4,
+   "unit": "V",
+   "note": "",
+   "source": "https://www.bearrobotics.ai/s/200-Servi-Plus_User-Manual_EN.pdf",
+   "ref": "p.43"
+  },
+  {
+   "group": "Power & Battery",
+   "key": "battery_chemistry",
+   "label": "Battery type",
+   "value": "Lithium-ion",
+   "unit": "",
+   "note": "",
+   "source": "https://www.bearrobotics.ai/s/200-Servi-Plus_User-Manual_EN.pdf"
+  },
+  {
+   "group": "Power & Battery",
+   "key": "battery_capacity",
+   "label": "Battery capacity",
+   "value": 44.1,
+   "unit": "Ah",
+   "note": "",
+   "source": "https://www.bearrobotics.ai/s/200-Servi-Plus_User-Manual_EN.pdf"
+  },
+  {
+   "group": "Power & Battery",
+   "key": "runtime",
+   "label": "Continuous drive",
+   "value": "average 8–12",
+   "unit": "h",
+   "note": "",
+   "source": "https://www.bearrobotics.ai/s/200-Servi-Plus_User-Manual_EN.pdf"
+  },
+  {
+   "group": "Power & Battery",
+   "key": "runtime",
+   "label": "Battery life",
+   "value": "10–12",
+   "unit": "h",
+   "note": "product page",
+   "source": "https://www.bearrobotics.ai/servi-plus"
+  },
+  {
+   "group": "Charging & Docking",
+   "key": "charge_time",
+   "label": "Charging time",
+   "value": "4–6",
+   "unit": "h",
+   "note": "",
+   "source": "https://www.bearrobotics.ai/s/200-Servi-Plus_User-Manual_EN.pdf"
+  },
+  {
+   "group": "Charging & Docking",
+   "key": "charging_method",
+   "label": "Charging type",
+   "value": "Auto-charge (Bear Charging Station) or wired charger",
+   "unit": "",
+   "note": "",
+   "source": "https://www.bearrobotics.ai/servi-plus"
+  },
+  {
+   "group": "Charging & Docking",
+   "key": "charger_dimensions",
+   "label": "Wired charger dimensions",
+   "value": "202.7 × 104.0 × 45.4",
+   "unit": "mm",
+   "note": "",
+   "source": "https://www.bearrobotics.ai/s/200-Servi-Plus_User-Manual_EN.pdf",
+   "ref": "p.44"
+  },
+  {
+   "group": "Charging & Docking",
+   "key": "charger_input",
+   "label": "Wired charger AC input",
+   "value": "AC 100–240 V, 50–60 Hz",
+   "unit": "",
+   "note": "",
+   "source": "https://www.bearrobotics.ai/s/200-Servi-Plus_User-Manual_EN.pdf",
+   "ref": "p.44"
+  },
+  {
+   "group": "Charging & Docking",
+   "key": "charger_output",
+   "label": "Wired charger DC output",
+   "value": "28.6 V float, 8 A",
+   "unit": "",
+   "note": "factory setting",
+   "source": "https://www.bearrobotics.ai/s/200-Servi-Plus_User-Manual_EN.pdf",
+   "ref": "p.44"
+  },
+  {
+   "group": "Charging & Docking",
+   "key": "charger_power",
+   "label": "Wired charger power consumption",
+   "value": "up to 228.8",
+   "unit": "W",
+   "note": "",
+   "source": "https://www.bearrobotics.ai/s/200-Servi-Plus_User-Manual_EN.pdf",
+   "ref": "p.44"
+  },
+  {
+   "group": "Charging & Docking",
+   "key": "dock_dimensions",
+   "label": "Bear Charging Station dimensions",
+   "value": "450 × 380 × 155",
+   "unit": "mm",
+   "note": "",
+   "source": "https://www.bearrobotics.ai/s/200-Servi-Plus_User-Manual_EN.pdf",
+   "ref": "p.44"
+  },
+  {
+   "group": "Charging & Docking",
+   "key": "dock_weight",
+   "label": "Bear Charging Station weight",
+   "value": "approx. 4",
+   "unit": "kg",
+   "note": "adapter included",
+   "source": "https://www.bearrobotics.ai/s/200-Servi-Plus_User-Manual_EN.pdf",
+   "ref": "p.44"
+  },
+  {
+   "group": "Charging & Docking",
+   "key": "dock_output",
+   "label": "Charging station DC in/out",
+   "value": "29.15 V DC, 0–12 A",
+   "unit": "",
+   "note": "",
+   "source": "https://www.bearrobotics.ai/s/200-Servi-Plus_User-Manual_EN.pdf",
+   "ref": "p.44"
+  },
+  {
+   "group": "Charging & Docking",
+   "key": "charger_input",
+   "label": "Charging station adapter AC input",
+   "value": "100–240 V AC, 4.5 A, 50/60 Hz",
+   "unit": "",
+   "note": "adapter 96 × 49 × 182.7 mm, approx. 1.3 kg",
+   "source": "https://www.bearrobotics.ai/s/200-Servi-Plus_User-Manual_EN.pdf",
+   "ref": "p.44"
+  },
+  {
+   "group": "Charging & Docking",
+   "key": "charger_power",
+   "label": "Charging station adapter max output",
+   "value": "up to 349.8",
+   "unit": "W",
+   "note": "",
+   "source": "https://www.bearrobotics.ai/s/200-Servi-Plus_User-Manual_EN.pdf",
+   "ref": "p.44"
+  },
+  {
+   "group": "Charging & Docking",
+   "key": "dock_operating_temperature",
+   "label": "Charging station operating temperature",
+   "value": "10 to 35",
+   "unit": "°C",
+   "note": "",
+   "source": "https://www.bearrobotics.ai/s/200-Servi-Plus_User-Manual_EN.pdf",
+   "ref": "p.44"
+  },
+  {
+   "group": "Environment & Protection",
+   "key": "operating_temperature",
+   "label": "Operating temperature",
+   "value": "10 to 35",
+   "unit": "°C",
+   "note": "optimal",
+   "source": "https://www.bearrobotics.ai/s/200-Servi-Plus_User-Manual_EN.pdf",
+   "ref": "p.11"
+  },
+  {
+   "group": "Environment & Protection",
+   "key": "operating_humidity",
+   "label": "Operating humidity",
+   "value": "10 to 80",
+   "unit": "% RH",
+   "note": "",
+   "source": "https://www.bearrobotics.ai/s/200-Servi-Plus_User-Manual_EN.pdf"
+  },
+  {
+   "group": "Environment & Protection",
+   "key": "storage_temperature",
+   "label": "Storage temperature",
+   "value": "10 to 35",
+   "unit": "°C",
+   "note": "optimal; humidity 10–80%",
+   "source": "https://www.bearrobotics.ai/s/200-Servi-Plus_User-Manual_EN.pdf"
+  },
+  {
+   "group": "Environment & Protection",
+   "key": "indoor_only",
+   "label": "Environment",
+   "value": "Indoor, no moisture, good ventilation, flat floor",
+   "unit": "",
+   "note": "",
+   "source": "https://www.bearrobotics.ai/s/200-Servi-Plus_User-Manual_EN.pdf",
+   "ref": "p.11"
+  },
+  {
+   "group": "Sensors & Perception",
+   "key": "lidar_type",
+   "label": "LiDAR",
+   "value": "2D LiDAR",
+   "unit": "",
+   "note": "",
+   "source": "https://www.bearrobotics.ai/s/200-Servi-Plus_User-Manual_EN.pdf"
+  },
+  {
+   "group": "Sensors & Perception",
+   "key": "lidar_range",
+   "label": "LiDAR max range",
+   "value": 20,
+   "unit": "m",
+   "note": "",
+   "source": "https://www.bearrobotics.ai/s/200-Servi-Plus_User-Manual_EN.pdf",
+   "ref": "p.11"
+  },
+  {
+   "group": "Sensors & Perception",
+   "key": "lidar_fov",
+   "label": "LiDAR coverage",
+   "value": 230,
+   "unit": "°",
+   "note": "",
+   "source": "https://www.bearrobotics.ai/s/200-Servi-Plus_User-Manual_EN.pdf",
+   "ref": "p.11"
+  },
+  {
+   "group": "Sensors & Perception",
+   "key": "depth_camera_type",
+   "label": "3D depth sensor",
+   "value": "3D depth sensor",
+   "unit": "",
+   "note": "",
+   "source": "https://www.bearrobotics.ai/s/200-Servi-Plus_User-Manual_EN.pdf"
+  },
+  {
+   "group": "Sensors & Perception",
+   "key": "depth_camera_range",
+   "label": "3D depth sensor range",
+   "value": 2.5,
+   "unit": "m",
+   "note": "",
+   "source": "https://www.bearrobotics.ai/s/200-Servi-Plus_User-Manual_EN.pdf",
+   "ref": "p.11"
+  },
+  {
+   "group": "Sensors & Perception",
+   "key": "camera_type",
+   "label": "Cameras",
+   "value": "Down-facing camera, front camera, up-facing camera",
+   "unit": "",
+   "note": "",
+   "source": "https://www.bearrobotics.ai/s/200-Servi-Plus_User-Manual_EN.pdf",
+   "ref": "p.10"
+  },
+  {
+   "group": "Sensors & Perception",
+   "key": "tray_sensors",
+   "label": "Weight sensors",
+   "value": "Tray weight sensors (zero-weight reset)",
+   "unit": "",
+   "note": "",
+   "source": "https://www.bearrobotics.ai/s/200-Servi-Plus_User-Manual_EN.pdf"
+  },
+  {
+   "group": "Sensors & Perception",
+   "key": "imu",
+   "label": "IMU",
+   "value": true,
+   "unit": "",
+   "note": "",
+   "source": "https://www.bearrobotics.ai/s/200-Servi-Plus_User-Manual_EN.pdf"
+  },
+  {
+   "group": "Safety & Compliance",
+   "key": "emergency_stop",
+   "label": "E-stop button",
+   "value": true,
+   "unit": "",
+   "note": "rotate right to release",
+   "source": "https://www.bearrobotics.ai/s/200-Servi-Plus_User-Manual_EN.pdf",
+   "ref": "p.14"
+  },
+  {
+   "group": "Safety & Compliance",
+   "key": "obstacle_avoidance",
+   "label": "Obstacle handling",
+   "value": "Detects obstacles in all directions and reroutes in real time",
+   "unit": "",
+   "note": "",
+   "source": "https://www.bearrobotics.ai/servi-plus"
+  },
+  {
+   "group": "Safety & Compliance",
+   "key": "certifications",
+   "label": "Certifications",
+   "value": "NSF (logo on brochure); FCC Part 15",
+   "unit": "",
+   "note": "FCC ID PD99260NG / 2AC7Z-ESPC3MINI1",
+   "source": "https://www.bearrobotics.ai/s/Bear_Trifold_Brochure_2025_Online.pdf"
+  },
+  {
+   "group": "Safety & Compliance",
+   "key": "certifications",
+   "label": "FCC ID",
+   "value": "PD99260NG; 2AC7Z-ESPC3MINI1",
+   "unit": "",
+   "note": "",
+   "source": "https://www.bearrobotics.ai/s/200-Servi-Plus_User-Manual_EN.pdf",
+   "ref": "p.3"
+  },
+  {
+   "group": "Connectivity & Interfaces",
+   "key": "wifi",
+   "label": "Wi-Fi",
+   "value": true,
+   "unit": "",
+   "note": "W52/W53 bands indoor only",
+   "source": "https://www.bearrobotics.ai/s/200-Servi-Plus_User-Manual_EN.pdf"
+  },
+  {
+   "group": "Controls & Operation",
+   "key": "controller",
+   "label": "Controller",
+   "value": "External tablet or attached touchscreen",
+   "unit": "",
+   "note": "",
+   "source": "https://www.bearrobotics.ai/servi-plus"
+  },
+  {
+   "group": "Controls & Operation",
+   "key": "multi_robot",
+   "label": "Multi-robot mode",
+   "value": "Centralized orchestration, no deadlocks or congestion",
+   "unit": "",
+   "note": "",
+   "source": "https://www.bearrobotics.ai/servi-plus"
+  },
+  {
+   "group": "Controls & Operation",
+   "key": "fleet_software",
+   "label": "Fleet software",
+   "value": "Bear Universe dashboard",
+   "unit": "",
+   "note": "",
+   "source": "https://www.bearrobotics.ai/servi-plus"
+  },
+  {
+   "group": "Controls & Operation",
+   "key": "remote_calling",
+   "label": "Call button",
+   "value": true,
+   "unit": "",
+   "note": "accessory",
+   "source": "https://www.bearrobotics.ai/servi-plus"
+  },
+  {
+   "group": "Controls & Operation",
+   "key": "control_modes",
+   "label": "Settings/functions",
+   "value": "Localization; zero weight; manual drive; sound; robot workflow",
+   "unit": "",
+   "note": "",
+   "source": "https://www.bearrobotics.ai/s/200-Servi-Plus_User-Manual_EN.pdf",
+   "ref": "p.31"
+  },
+  {
+   "group": "Audio, Lights & HMI",
+   "key": "display",
+   "label": "Touchscreen",
+   "value": "10.4-inch",
+   "unit": "",
+   "note": "",
+   "source": "https://www.bearrobotics.ai/s/200-Servi-Plus_User-Manual_EN.pdf"
+  },
+  {
+   "group": "Audio, Lights & HMI",
+   "key": "advertising_display",
+   "label": "Custom display",
+   "value": "3-sided custom LED display",
+   "unit": "",
+   "note": "",
+   "source": "https://www.bearrobotics.ai/s/200-Servi-Plus_User-Manual_EN.pdf",
+   "ref": "p.10"
+  },
+  {
+   "group": "Audio, Lights & HMI",
+   "key": "speaker",
+   "label": "Sound system",
+   "value": true,
+   "unit": "",
+   "note": "contextual voice prompts",
+   "source": "https://www.bearrobotics.ai/servi-plus"
+  },
+  {
+   "group": "Audio, Lights & HMI",
+   "key": "status_lights",
+   "label": "Lights",
+   "value": "Food (tray) light; pillar light; base LED",
+   "unit": "",
+   "note": "",
+   "source": "https://www.bearrobotics.ai/s/200-Servi-Plus_User-Manual_EN.pdf",
+   "ref": "p.16"
+  },
+  {
+   "group": "Audio, Lights & HMI",
+   "key": "status_lights",
+   "label": "Base LED colors",
+   "value": "Booting rainbow; standby blue; operating green; E-stop red; charging yellow; full green; deadlock orange; multi-robot purple",
+   "unit": "",
+   "note": "",
+   "source": "https://www.bearrobotics.ai/s/200-Servi-Plus_User-Manual_EN.pdf",
+   "ref": "p.18"
+  },
+  {
+   "group": "Commercial",
+   "key": "included_accessories",
+   "label": "Components",
+   "value": "Robot main body; top tray pad; 2 middle tray pads; bottom tray pad; wired charger; 2 spare part-in plugs; quick start manual",
+   "unit": "",
+   "note": "",
+   "source": "https://www.bearrobotics.ai/s/200-Servi-Plus_User-Manual_EN.pdf",
+   "ref": "p.9"
+  },
+  {
+   "group": "Commercial",
+   "key": "optional_accessories",
+   "label": "Accessories",
+   "value": "Drink tray; tray shield; call button; Bear Charging Station",
+   "unit": "",
+   "note": "",
+   "source": "https://www.bearrobotics.ai/servi-plus"
+  },
+  {
+   "group": "Commercial",
+   "key": "availability",
+   "label": "Purchase options",
+   "value": "28-day trial; leasing, purchasing and subscription",
+   "unit": "",
+   "note": "",
+   "source": "https://www.bearrobotics.ai/s/Bear_Trifold_Brochure_2025_Online.pdf"
+  }
+ ]
+}

@@ -52,3 +52,7 @@ header.top .tools{margin-left:auto;display:flex;gap:10px;align-items:center}
 .seg button.on{background:#fff;color:#16181d}
 .iconbtn{background:transparent;border:1px solid #3a3f4b;border-radius:8px;padding:4px 9px;cursor:pointer;font-size:15px;line-height:1.4}
 .card .nm,.card .kv span{color:var(--ink)}.card .kv span:nth-child(odd){color:var(--muted)}
+
+.fs{width:100%;border-collapse:collapse}.fs td{padding:7px 0;border-bottom:1px solid var(--line);vertical-align:top}.fs td:first-child{color:var(--muted);width:45%;padding-right:10px}.fs tr.miss td{opacity:.55}
+.keylist{max-height:70vh;overflow:auto}.keylist a{display:flex;justify-content:space-between;gap:8px;padding:5px 8px;border-radius:6px;cursor:pointer;color:inherit;text-decoration:none}.keylist a:hover,.keylist a.on{background:var(--line)}
+.specsgrid{display:grid;grid-template-columns:minmax(240px,320px) 1fr;gap:16px}@media(max-width:800px){.specsgrid{grid-template-columns:1fr}}

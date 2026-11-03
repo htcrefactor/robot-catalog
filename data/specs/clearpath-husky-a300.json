@@ -1,0 +1,1395 @@
+{
+ "id": "clearpath-husky-a300",
+ "checked": "2026-11-04",
+ "documents": [
+  {
+   "title": "Husky A300 Data Sheet (Oct 2024)",
+   "url": "https://storage.pardot.com/92812/1728925412aC5a34ww/Husky_A300_DataSheet_Oct24.pdf"
+  },
+  {
+   "title": "Husky A300 User Manual (Clearpath docs, updated Jul 2026)",
+   "url": "https://docs.clearpathrobotics.com/docs_robots/outdoor_robots/husky/a300/user_manual_husky"
+  },
+  {
+   "title": "Husky A300 product page",
+   "url": "https://clearpathrobotics.com/husky-a300-unmanned-ground-vehicle-robot/"
+  },
+  {
+   "title": "Husky Spec Comparison A300 vs A200",
+   "url": "https://clearpathrobotics.com/husky-spec-comparison/"
+  }
+ ],
+ "specs": [
+  {
+   "group": "Identity",
+   "key": "variants",
+   "label": "Battery configurations",
+   "value": "Standard 40 Ah (2 batteries); Upgraded 80 Ah (4 batteries); Extended 120 Ah (6 batteries)",
+   "unit": "",
+   "note": "",
+   "source": "https://docs.clearpathrobotics.com/docs_robots/outdoor_robots/husky/a300/user_manual_husky",
+   "ref": "Technical Specifications"
+  },
+  {
+   "group": "Identity",
+   "key": "variants",
+   "label": "Configurations",
+   "value": "Base platform; Husky AMP (autonomous mobile platform); Husky Observer",
+   "unit": "",
+   "note": "",
+   "source": "https://docs.clearpathrobotics.com/docs_robots/outdoor_robots/husky/a300/user_manual_husky",
+   "ref": "Introduction / Husky AMP"
+  },
+  {
+   "group": "Identity",
+   "key": "drive_options",
+   "label": "Drive options",
+   "value": "Rugged wheels (4WD skid steer); Casters (2 wheels + 2 casters, differential); Mecanum (holonomic)",
+   "unit": "",
+   "note": "",
+   "source": "https://clearpathrobotics.com/husky-a300-unmanned-ground-vehicle-robot/",
+   "ref": "Drive Options"
+  },
+  {
+   "group": "Identity",
+   "key": "manufacturer_address",
+   "label": "Manufacturer address",
+   "value": "Clearpath Robotics, by Rockwell Automation, 1425 Strasburg Rd. Suite 2A, Kitchener, ON N2R 1H2, Canada",
+   "unit": "",
+   "note": "",
+   "source": "https://clearpathrobotics.com/husky-a300-unmanned-ground-vehicle-robot/"
+  },
+  {
+   "group": "Identity",
+   "key": "predecessor",
+   "label": "Predecessor model",
+   "value": "Husky A200",
+   "unit": "",
+   "note": "",
+   "source": "https://clearpathrobotics.com/husky-spec-comparison/"
+  },
+  {
+   "group": "Dimensions & Mass",
+   "key": "length",
+   "label": "Length",
+   "value": 990,
+   "unit": "mm",
+   "note": "",
+   "source": "https://docs.clearpathrobotics.com/docs_robots/outdoor_robots/husky/a300/user_manual_husky",
+   "ref": "Technical Specifications"
+  },
+  {
+   "group": "Dimensions & Mass",
+   "key": "width",
+   "label": "Width",
+   "value": 698,
+   "unit": "mm",
+   "note": "",
+   "source": "https://docs.clearpathrobotics.com/docs_robots/outdoor_robots/husky/a300/user_manual_husky",
+   "ref": "Technical Specifications"
+  },
+  {
+   "group": "Dimensions & Mass",
+   "key": "height",
+   "label": "Height",
+   "value": 372,
+   "unit": "mm",
+   "note": "",
+   "source": "https://docs.clearpathrobotics.com/docs_robots/outdoor_robots/husky/a300/user_manual_husky",
+   "ref": "Technical Specifications"
+  },
+  {
+   "group": "Dimensions & Mass",
+   "key": "height",
+   "label": "Height",
+   "value": 381,
+   "unit": "mm",
+   "note": "product page tech specs states 990 x 698 x 381 mm",
+   "source": "https://clearpathrobotics.com/husky-a300-unmanned-ground-vehicle-robot/",
+   "ref": "Tech Specs"
+  },
+  {
+   "group": "Dimensions & Mass",
+   "key": "top_plate_width",
+   "label": "Top plate / payload area width",
+   "value": 420,
+   "unit": "mm",
+   "note": "dimension shown on top-view drawing",
+   "source": "https://storage.pardot.com/92812/1728925412aC5a34ww/Husky_A300_DataSheet_Oct24.pdf",
+   "ref": "drawing"
+  },
+  {
+   "group": "Dimensions & Mass",
+   "key": "length_without_bumpers",
+   "label": "Length without bumpers",
+   "value": 740,
+   "unit": "mm",
+   "note": "dimension shown on top-view drawing (inner length)",
+   "source": "https://storage.pardot.com/92812/1728925412aC5a34ww/Husky_A300_DataSheet_Oct24.pdf",
+   "ref": "drawing"
+  },
+  {
+   "group": "Dimensions & Mass",
+   "key": "weight",
+   "label": "Weight",
+   "value": 80,
+   "unit": "kg",
+   "note": "",
+   "source": "https://storage.pardot.com/92812/1728925412aC5a34ww/Husky_A300_DataSheet_Oct24.pdf"
+  },
+  {
+   "group": "Dimensions & Mass",
+   "key": "weight",
+   "label": "Weight (robot mass)",
+   "value": 78.5,
+   "unit": "kg",
+   "note": "40 Ah (2-battery) configuration",
+   "source": "https://docs.clearpathrobotics.com/docs_robots/outdoor_robots/husky/a300/user_manual_husky",
+   "ref": "Technical Specifications"
+  },
+  {
+   "group": "Dimensions & Mass",
+   "key": "weight",
+   "label": "Weight (robot mass)",
+   "value": 93.5,
+   "unit": "kg",
+   "note": "80 Ah (4-battery) configuration",
+   "source": "https://docs.clearpathrobotics.com/docs_robots/outdoor_robots/husky/a300/user_manual_husky",
+   "ref": "Technical Specifications"
+  },
+  {
+   "group": "Dimensions & Mass",
+   "key": "weight",
+   "label": "Weight (robot mass)",
+   "value": 105,
+   "unit": "kg",
+   "note": "120 Ah (6-battery) configuration",
+   "source": "https://docs.clearpathrobotics.com/docs_robots/outdoor_robots/husky/a300/user_manual_husky",
+   "ref": "Technical Specifications"
+  },
+  {
+   "group": "Dimensions & Mass",
+   "key": "center_of_mass",
+   "label": "Centre of mass (X, Y, Z)",
+   "value": "-41, 3, 70",
+   "unit": "mm",
+   "note": "40 Ah config, relative to base_link",
+   "source": "https://docs.clearpathrobotics.com/docs_robots/outdoor_robots/husky/a300/user_manual_husky",
+   "ref": "Technical Specifications"
+  },
+  {
+   "group": "Dimensions & Mass",
+   "key": "center_of_mass",
+   "label": "Centre of mass (X, Y, Z)",
+   "value": "-33, 3, 70",
+   "unit": "mm",
+   "note": "80 Ah config, relative to base_link",
+   "source": "https://docs.clearpathrobotics.com/docs_robots/outdoor_robots/husky/a300/user_manual_husky",
+   "ref": "Technical Specifications"
+  },
+  {
+   "group": "Dimensions & Mass",
+   "key": "center_of_mass",
+   "label": "Centre of mass (X, Y, Z)",
+   "value": "-7, 2, 70",
+   "unit": "mm",
+   "note": "120 Ah config, relative to base_link",
+   "source": "https://docs.clearpathrobotics.com/docs_robots/outdoor_robots/husky/a300/user_manual_husky",
+   "ref": "Technical Specifications"
+  },
+  {
+   "group": "Dimensions & Mass",
+   "key": "ground_clearance",
+   "label": "Ground clearance",
+   "value": 130,
+   "unit": "mm",
+   "note": "",
+   "source": "https://docs.clearpathrobotics.com/docs_robots/outdoor_robots/husky/a300/user_manual_husky",
+   "ref": "Technical Specifications"
+  },
+  {
+   "group": "Dimensions & Mass",
+   "key": "wheelbase",
+   "label": "Wheelbase",
+   "value": 512,
+   "unit": "mm",
+   "note": "",
+   "source": "https://docs.clearpathrobotics.com/docs_robots/outdoor_robots/husky/a300/user_manual_husky",
+   "ref": "Technical Specifications"
+  },
+  {
+   "group": "Dimensions & Mass",
+   "key": "track_width",
+   "label": "Track width",
+   "value": 566,
+   "unit": "mm",
+   "note": "",
+   "source": "https://docs.clearpathrobotics.com/docs_robots/outdoor_robots/husky/a300/user_manual_husky",
+   "ref": "Technical Specifications"
+  },
+  {
+   "group": "Dimensions & Mass",
+   "key": "track_width",
+   "label": "Effective track (kinematics)",
+   "value": 0.562,
+   "unit": "m",
+   "note": "W used in robot equations",
+   "source": "https://docs.clearpathrobotics.com/docs_robots/outdoor_robots/husky/a300/user_manual_husky",
+   "ref": "Robot Equations"
+  },
+  {
+   "group": "Dimensions & Mass",
+   "key": "wheel_diameter",
+   "label": "Nominal tire diameter",
+   "value": 336,
+   "unit": "mm",
+   "note": "",
+   "source": "https://docs.clearpathrobotics.com/docs_robots/outdoor_robots/husky/a300/user_manual_husky",
+   "ref": "Technical Specifications"
+  },
+  {
+   "group": "Dimensions & Mass",
+   "key": "wheel_effective_radius",
+   "label": "Effective tire radius",
+   "value": 162.5,
+   "unit": "mm",
+   "note": "value for odometry control software",
+   "source": "https://docs.clearpathrobotics.com/docs_robots/outdoor_robots/husky/a300/user_manual_husky",
+   "ref": "Technical Specifications"
+  },
+  {
+   "group": "Mobility & Performance",
+   "key": "max_speed",
+   "label": "Max speed",
+   "value": 2.0,
+   "unit": "m/s",
+   "note": "",
+   "source": "https://docs.clearpathrobotics.com/docs_robots/outdoor_robots/husky/a300/user_manual_husky",
+   "ref": "Technical Specifications"
+  },
+  {
+   "group": "Mobility & Performance",
+   "key": "max_speed",
+   "label": "Max speed (off-road, no payload)",
+   "value": 1.5,
+   "unit": "m/s",
+   "note": "",
+   "source": "https://docs.clearpathrobotics.com/docs_robots/outdoor_robots/husky/a300/user_manual_husky",
+   "ref": "Suspension and Performance Limits"
+  },
+  {
+   "group": "Mobility & Performance",
+   "key": "max_speed",
+   "label": "Max speed (off-road, up to 50 kg payload)",
+   "value": 1.0,
+   "unit": "m/s",
+   "note": "payloads above 50 kg not supported off-road",
+   "source": "https://docs.clearpathrobotics.com/docs_robots/outdoor_robots/husky/a300/user_manual_husky",
+   "ref": "Suspension and Performance Limits"
+  },
+  {
+   "group": "Mobility & Performance",
+   "key": "max_speed",
+   "label": "Max speed (controller slow mode)",
+   "value": 0.3,
+   "unit": "m/s",
+   "note": "fast mode 2.0 m/s",
+   "source": "https://docs.clearpathrobotics.com/docs_robots/outdoor_robots/husky/a300/user_manual_husky",
+   "ref": "Connecting and Using the Controller"
+  },
+  {
+   "group": "Mobility & Performance",
+   "key": "min_speed",
+   "label": "Minimum controllable speed",
+   "value": 0.1,
+   "unit": "m/s",
+   "note": "control loops accurately maintain velocities as low as 0.1 m/s",
+   "source": "https://docs.clearpathrobotics.com/docs_robots/outdoor_robots/husky/a300/user_manual_husky",
+   "ref": "General Warnings"
+  },
+  {
+   "group": "Mobility & Performance",
+   "key": "max_payload",
+   "label": "Max payload",
+   "value": 100,
+   "unit": "kg",
+   "note": "",
+   "source": "https://storage.pardot.com/92812/1728925412aC5a34ww/Husky_A300_DataSheet_Oct24.pdf"
+  },
+  {
+   "group": "Mobility & Performance",
+   "key": "max_payload",
+   "label": "Allowable payload",
+   "value": 101.5,
+   "unit": "kg",
+   "note": "40 Ah config; continuous operation on relatively flat terrain with wide turns",
+   "source": "https://docs.clearpathrobotics.com/docs_robots/outdoor_robots/husky/a300/user_manual_husky",
+   "ref": "Technical Specifications"
+  },
+  {
+   "group": "Mobility & Performance",
+   "key": "max_payload",
+   "label": "Allowable payload",
+   "value": 86.5,
+   "unit": "kg",
+   "note": "80 Ah config",
+   "source": "https://docs.clearpathrobotics.com/docs_robots/outdoor_robots/husky/a300/user_manual_husky",
+   "ref": "Technical Specifications"
+  },
+  {
+   "group": "Mobility & Performance",
+   "key": "max_payload",
+   "label": "Allowable payload",
+   "value": 75,
+   "unit": "kg",
+   "note": "120 Ah config",
+   "source": "https://docs.clearpathrobotics.com/docs_robots/outdoor_robots/husky/a300/user_manual_husky",
+   "ref": "Technical Specifications"
+  },
+  {
+   "group": "Mobility & Performance",
+   "key": "all_terrain_payload",
+   "label": "All-terrain payload",
+   "value": 50,
+   "unit": "kg",
+   "note": "robot climbing 30° grade with high-mounted payload or turning in place in high-friction conditions",
+   "source": "https://storage.pardot.com/92812/1728925412aC5a34ww/Husky_A300_DataSheet_Oct24.pdf"
+  },
+  {
+   "group": "Mobility & Performance",
+   "key": "all_terrain_payload",
+   "label": "All-terrain payload",
+   "value": 51.5,
+   "unit": "kg",
+   "note": "40 Ah config",
+   "source": "https://docs.clearpathrobotics.com/docs_robots/outdoor_robots/husky/a300/user_manual_husky",
+   "ref": "Technical Specifications"
+  },
+  {
+   "group": "Mobility & Performance",
+   "key": "all_terrain_payload",
+   "label": "All-terrain payload",
+   "value": 36.5,
+   "unit": "kg",
+   "note": "80 Ah config",
+   "source": "https://docs.clearpathrobotics.com/docs_robots/outdoor_robots/husky/a300/user_manual_husky",
+   "ref": "Technical Specifications"
+  },
+  {
+   "group": "Mobility & Performance",
+   "key": "all_terrain_payload",
+   "label": "All-terrain payload",
+   "value": 25,
+   "unit": "kg",
+   "note": "120 Ah config",
+   "source": "https://docs.clearpathrobotics.com/docs_robots/outdoor_robots/husky/a300/user_manual_husky",
+   "ref": "Technical Specifications"
+  },
+  {
+   "group": "Mobility & Performance",
+   "key": "drive_power",
+   "label": "Drive power",
+   "value": 1080,
+   "unit": "W",
+   "note": "total continuous, from 4 BLDC motors",
+   "source": "https://docs.clearpathrobotics.com/docs_robots/outdoor_robots/husky/a300/user_manual_husky",
+   "ref": "Technical Specifications"
+  },
+  {
+   "group": "Mobility & Performance",
+   "key": "drive_train",
+   "label": "Drive train",
+   "value": "Four brushless (in-wheel) motors, skid-steer drive",
+   "unit": "",
+   "note": "",
+   "source": "https://storage.pardot.com/92812/1728925412aC5a34ww/Husky_A300_DataSheet_Oct24.pdf"
+  },
+  {
+   "group": "Mobility & Performance",
+   "key": "max_acceleration",
+   "label": "Max acceleration/deceleration (stability cone reference)",
+   "value": 4,
+   "unit": "m/s²",
+   "note": "example stability cone for 100 kg payload, 2-battery config",
+   "source": "https://docs.clearpathrobotics.com/docs_robots/outdoor_robots/husky/a300/user_manual_husky",
+   "ref": "Stability Limits"
+  },
+  {
+   "group": "Terrain & Navigation Limits",
+   "key": "max_slope",
+   "label": "Max climb grade",
+   "value": 30,
+   "unit": "°",
+   "note": "",
+   "source": "https://docs.clearpathrobotics.com/docs_robots/outdoor_robots/husky/a300/user_manual_husky",
+   "ref": "Technical Specifications"
+  },
+  {
+   "group": "Terrain & Navigation Limits",
+   "key": "max_side_slope",
+   "label": "Allowable side slope",
+   "value": 30,
+   "unit": "°",
+   "note": "",
+   "source": "https://docs.clearpathrobotics.com/docs_robots/outdoor_robots/husky/a300/user_manual_husky",
+   "ref": "Technical Specifications"
+  },
+  {
+   "group": "Terrain & Navigation Limits",
+   "key": "max_slope",
+   "label": "Max grade (intended use environment)",
+   "value": 15,
+   "unit": "°",
+   "note": "environments free of grades greater than 15°",
+   "source": "https://docs.clearpathrobotics.com/docs_robots/outdoor_robots/husky/a300/user_manual_husky",
+   "ref": "Intended Use"
+  },
+  {
+   "group": "Terrain & Navigation Limits",
+   "key": "max_obstacle_height",
+   "label": "Max curb height",
+   "value": 150,
+   "unit": "mm",
+   "note": "max approach speed 0.1 m/s at 150 mm",
+   "source": "https://docs.clearpathrobotics.com/docs_robots/outdoor_robots/husky/a300/user_manual_husky",
+   "ref": "Suspension and Performance Limits"
+  },
+  {
+   "group": "Terrain & Navigation Limits",
+   "key": "max_obstacle_height",
+   "label": "Max curb height at full speed/payload",
+   "value": 13,
+   "unit": "mm",
+   "note": "without reducing max speed or payload",
+   "source": "https://docs.clearpathrobotics.com/docs_robots/outdoor_robots/husky/a300/user_manual_husky",
+   "ref": "Suspension and Performance Limits"
+  },
+  {
+   "group": "Terrain & Navigation Limits",
+   "key": "max_gap_crossing",
+   "label": "Max gap / depression depth",
+   "value": 150,
+   "unit": "mm",
+   "note": "do not drive across gaps or depressions more than 150 mm deep",
+   "source": "https://docs.clearpathrobotics.com/docs_robots/outdoor_robots/husky/a300/user_manual_husky",
+   "ref": "Operating Conditions"
+  },
+  {
+   "group": "Terrain & Navigation Limits",
+   "key": "wading_depth",
+   "label": "Max water/liquid depth",
+   "value": 130,
+   "unit": "mm",
+   "note": "environments free of open water deeper than 130 mm",
+   "source": "https://docs.clearpathrobotics.com/docs_robots/outdoor_robots/husky/a300/user_manual_husky",
+   "ref": "Intended Use"
+  },
+  {
+   "group": "Terrain & Navigation Limits",
+   "key": "suspension",
+   "label": "Suspension",
+   "value": "None",
+   "unit": "",
+   "note": "",
+   "source": "https://docs.clearpathrobotics.com/docs_robots/outdoor_robots/husky/a300/user_manual_husky",
+   "ref": "Suspension and Performance Limits"
+  },
+  {
+   "group": "Terrain & Navigation Limits",
+   "key": "surface_types",
+   "label": "Terrain",
+   "value": "Rocky terrain, hills, mud, sand, inclement weather",
+   "unit": "",
+   "note": "",
+   "source": "https://clearpathrobotics.com/husky-a300-unmanned-ground-vehicle-robot/",
+   "ref": "Features"
+  },
+  {
+   "group": "Power & Battery",
+   "key": "battery_chemistry",
+   "label": "Battery chemistry",
+   "value": "LiFePO4",
+   "unit": "",
+   "note": "",
+   "source": "https://docs.clearpathrobotics.com/docs_robots/outdoor_robots/husky/a300/user_manual_husky",
+   "ref": "Technical Specifications"
+  },
+  {
+   "group": "Power & Battery",
+   "key": "battery_voltage",
+   "label": "Battery nominal voltage",
+   "value": 25.6,
+   "unit": "V",
+   "note": "",
+   "source": "https://docs.clearpathrobotics.com/docs_robots/outdoor_robots/husky/a300/user_manual_husky",
+   "ref": "Technical Specifications"
+  },
+  {
+   "group": "Power & Battery",
+   "key": "battery_capacity",
+   "label": "Battery capacity",
+   "value": 1024,
+   "unit": "Wh",
+   "note": "40 Ah standard",
+   "source": "https://docs.clearpathrobotics.com/docs_robots/outdoor_robots/husky/a300/user_manual_husky",
+   "ref": "Technical Specifications"
+  },
+  {
+   "group": "Power & Battery",
+   "key": "battery_capacity",
+   "label": "Battery capacity",
+   "value": 2048,
+   "unit": "Wh",
+   "note": "80 Ah upgraded",
+   "source": "https://docs.clearpathrobotics.com/docs_robots/outdoor_robots/husky/a300/user_manual_husky",
+   "ref": "Technical Specifications"
+  },
+  {
+   "group": "Power & Battery",
+   "key": "battery_capacity",
+   "label": "Battery capacity",
+   "value": 3072,
+   "unit": "Wh",
+   "note": "120 Ah extended",
+   "source": "https://docs.clearpathrobotics.com/docs_robots/outdoor_robots/husky/a300/user_manual_husky",
+   "ref": "Technical Specifications"
+  },
+  {
+   "group": "Power & Battery",
+   "key": "battery_capacity_ah",
+   "label": "Battery capacity (Ah)",
+   "value": "40 / 80 / 120",
+   "unit": "Ah",
+   "note": "standard / upgraded / extended",
+   "source": "https://docs.clearpathrobotics.com/docs_robots/outdoor_robots/husky/a300/user_manual_husky",
+   "ref": "Technical Specifications"
+  },
+  {
+   "group": "Power & Battery",
+   "key": "battery_count",
+   "label": "Battery count",
+   "value": "2 / 4 / 6",
+   "unit": "",
+   "note": "24 V LiFePO4 batteries",
+   "source": "https://docs.clearpathrobotics.com/docs_robots/outdoor_robots/husky/a300/user_manual_husky",
+   "ref": "Interior Features"
+  },
+  {
+   "group": "Power & Battery",
+   "key": "battery_swappable",
+   "label": "Battery hot-swappable",
+   "value": false,
+   "unit": "",
+   "note": "batteries are not hot-swappable",
+   "source": "https://docs.clearpathrobotics.com/docs_robots/outdoor_robots/husky/a300/user_manual_husky",
+   "ref": "Batteries"
+  },
+  {
+   "group": "Power & Battery",
+   "key": "runtime",
+   "label": "Average run time",
+   "value": 8,
+   "unit": "h",
+   "note": "40 Ah; 33% driving at 2 m/s with 50 kg payload on level ground, 67% idle (user manual)",
+   "source": "https://docs.clearpathrobotics.com/docs_robots/outdoor_robots/husky/a300/user_manual_husky",
+   "ref": "Technical Specifications"
+  },
+  {
+   "group": "Power & Battery",
+   "key": "runtime",
+   "label": "Average run time",
+   "value": 16,
+   "unit": "h",
+   "note": "80 Ah",
+   "source": "https://docs.clearpathrobotics.com/docs_robots/outdoor_robots/husky/a300/user_manual_husky",
+   "ref": "Technical Specifications"
+  },
+  {
+   "group": "Power & Battery",
+   "key": "runtime",
+   "label": "Average run time",
+   "value": 24,
+   "unit": "h",
+   "note": "120 Ah",
+   "source": "https://docs.clearpathrobotics.com/docs_robots/outdoor_robots/husky/a300/user_manual_husky",
+   "ref": "Technical Specifications"
+  },
+  {
+   "group": "Power & Battery",
+   "key": "runtime",
+   "label": "Average run time",
+   "value": 4,
+   "unit": "h",
+   "note": "standard battery, per Oct 2024 datasheet (8 h upgraded, 12 h extended)",
+   "source": "https://storage.pardot.com/92812/1728925412aC5a34ww/Husky_A300_DataSheet_Oct24.pdf"
+  },
+  {
+   "group": "Power & Battery",
+   "key": "standby_time",
+   "label": "Standby time",
+   "value": 16,
+   "unit": "h",
+   "note": "40 Ah (32 h for 80 Ah, 48 h for 120 Ah) per user manual",
+   "source": "https://docs.clearpathrobotics.com/docs_robots/outdoor_robots/husky/a300/user_manual_husky",
+   "ref": "Technical Specifications"
+  },
+  {
+   "group": "Power & Battery",
+   "key": "standby_time",
+   "label": "Standby time",
+   "value": 15,
+   "unit": "h",
+   "note": "standard battery per Oct 2024 datasheet (30 h upgraded, 45 h extended)",
+   "source": "https://storage.pardot.com/92812/1728925412aC5a34ww/Husky_A300_DataSheet_Oct24.pdf"
+  },
+  {
+   "group": "Power & Battery",
+   "key": "max_power_output",
+   "label": "Battery power capability",
+   "value": "over 3000",
+   "unit": "W",
+   "note": "depending on configuration",
+   "source": "https://docs.clearpathrobotics.com/docs_robots/outdoor_robots/husky/a300/user_manual_husky",
+   "ref": "Electrical System"
+  },
+  {
+   "group": "Power & Battery",
+   "key": "battery_continuous_current",
+   "label": "Battery continuous current output",
+   "value": "60 / 120 / 150",
+   "unit": "A",
+   "note": "40 / 80 / 120 Ah",
+   "source": "https://docs.clearpathrobotics.com/docs_robots/outdoor_robots/husky/a300/user_manual_husky",
+   "ref": "Current Limits"
+  },
+  {
+   "group": "Power & Battery",
+   "key": "circuit_breaker_rating",
+   "label": "Circuit breaker value",
+   "value": 100,
+   "unit": "A",
+   "note": "",
+   "source": "https://docs.clearpathrobotics.com/docs_robots/outdoor_robots/husky/a300/user_manual_husky",
+   "ref": "Current Limits"
+  },
+  {
+   "group": "Power & Battery",
+   "key": "motor_continuous_current",
+   "label": "Motor continuous current",
+   "value": 17,
+   "unit": "A",
+   "note": "per motor",
+   "source": "https://docs.clearpathrobotics.com/docs_robots/outdoor_robots/husky/a300/user_manual_husky",
+   "ref": "Current Limits"
+  },
+  {
+   "group": "Charging & Docking",
+   "key": "charge_time",
+   "label": "Charge time (standard charger, North America)",
+   "value": "4 / 8 / 12",
+   "unit": "h",
+   "note": "40 / 80 / 120 Ah",
+   "source": "https://docs.clearpathrobotics.com/docs_robots/outdoor_robots/husky/a300/user_manual_husky",
+   "ref": "Technical Specifications"
+  },
+  {
+   "group": "Charging & Docking",
+   "key": "charge_time",
+   "label": "Charge time (standard charger, Europe)",
+   "value": "5 / 10 / 15",
+   "unit": "h",
+   "note": "40 / 80 / 120 Ah",
+   "source": "https://docs.clearpathrobotics.com/docs_robots/outdoor_robots/husky/a300/user_manual_husky",
+   "ref": "Technical Specifications"
+  },
+  {
+   "group": "Charging & Docking",
+   "key": "charge_time",
+   "label": "Charge time (650 W charger)",
+   "value": "1h45m / 3h30m / 5h15m",
+   "unit": "",
+   "note": "40 / 80 / 120 Ah",
+   "source": "https://docs.clearpathrobotics.com/docs_robots/outdoor_robots/husky/a300/user_manual_husky",
+   "ref": "Technical Specifications"
+  },
+  {
+   "group": "Charging & Docking",
+   "key": "charge_time",
+   "label": "Charge time (1200 W charger)",
+   "value": "not supported / 2 / 3",
+   "unit": "h",
+   "note": "40 / 80 / 120 Ah",
+   "source": "https://docs.clearpathrobotics.com/docs_robots/outdoor_robots/husky/a300/user_manual_husky",
+   "ref": "Technical Specifications"
+  },
+  {
+   "group": "Charging & Docking",
+   "key": "charge_time",
+   "label": "Charge time (wireless charger)",
+   "value": "2 / 2 / 3",
+   "unit": "h",
+   "note": "40 / 80 / 120 Ah",
+   "source": "https://docs.clearpathrobotics.com/docs_robots/outdoor_robots/husky/a300/user_manual_husky",
+   "ref": "Technical Specifications"
+  },
+  {
+   "group": "Charging & Docking",
+   "key": "charge_time",
+   "label": "Charge time (datasheet)",
+   "value": "3-4 / 7-8 / 8-10",
+   "unit": "h",
+   "note": "standard / upgraded / extended",
+   "source": "https://storage.pardot.com/92812/1728925412aC5a34ww/Husky_A300_DataSheet_Oct24.pdf"
+  },
+  {
+   "group": "Charging & Docking",
+   "key": "charger_model",
+   "label": "Standard charger (North America)",
+   "value": "Henryuan PSY27710000, 277 W, 27.7 V, 10.0 A",
+   "unit": "",
+   "note": "indoor use only",
+   "source": "https://docs.clearpathrobotics.com/docs_robots/outdoor_robots/husky/a300/user_manual_husky",
+   "ref": "Manual/Wired Charging"
+  },
+  {
+   "group": "Charging & Docking",
+   "key": "charger_model",
+   "label": "Standard charger (Europe)",
+   "value": "Mean Well NPB-240-24TB, 222 W, 27.7 V, 8.0 A",
+   "unit": "",
+   "note": "indoor use only; validated against IEC 61010-1",
+   "source": "https://docs.clearpathrobotics.com/docs_robots/outdoor_robots/husky/a300/user_manual_husky",
+   "ref": "Manual/Wired Charging"
+  },
+  {
+   "group": "Charging & Docking",
+   "key": "charger_model",
+   "label": "Upgraded charger 650 W",
+   "value": "Delta-Q IC650, 650 W, 27.7 V, 23.5 A",
+   "unit": "",
+   "note": "indoor or outdoor (IP66)",
+   "source": "https://docs.clearpathrobotics.com/docs_robots/outdoor_robots/husky/a300/user_manual_husky",
+   "ref": "Manual/Wired Charging"
+  },
+  {
+   "group": "Charging & Docking",
+   "key": "charger_model",
+   "label": "Upgraded charger 1200 W",
+   "value": "Delta-Q IC1200, 27.7 V, 43.3 A",
+   "unit": "",
+   "note": "indoor or outdoor (IP66); manual table lists power as 650 W",
+   "source": "https://docs.clearpathrobotics.com/docs_robots/outdoor_robots/husky/a300/user_manual_husky",
+   "ref": "Manual/Wired Charging"
+  },
+  {
+   "group": "Charging & Docking",
+   "key": "charging_method",
+   "label": "Charging methods",
+   "value": "Manual wired charger; optional wireless charging kit (dock); autonomous wireless charger with OutdoorNav (Husky Observer)",
+   "unit": "",
+   "note": "",
+   "source": "https://docs.clearpathrobotics.com/docs_robots/outdoor_robots/husky/a300/user_manual_husky",
+   "ref": "Charging"
+  },
+  {
+   "group": "Charging & Docking",
+   "key": "wireless_charging_alignment",
+   "label": "Wireless charging coil alignment",
+   "value": "within 30",
+   "unit": "mm",
+   "note": "mobile coil to stationary coil for maximum charge rate",
+   "source": "https://docs.clearpathrobotics.com/docs_robots/outdoor_robots/husky/a300/user_manual_husky",
+   "ref": "Wireless Charging"
+  },
+  {
+   "group": "Charging & Docking",
+   "key": "dock_available",
+   "label": "Dock available",
+   "value": true,
+   "unit": "",
+   "note": "optional wireless charging docking station",
+   "source": "https://docs.clearpathrobotics.com/docs_robots/outdoor_robots/husky/a300/user_manual_husky",
+   "ref": "Wireless Charging"
+  },
+  {
+   "group": "Charging & Docking",
+   "key": "shore_power",
+   "label": "Shore power",
+   "value": true,
+   "unit": "",
+   "note": "charger provides shore power (excluding drive motors)",
+   "source": "https://docs.clearpathrobotics.com/docs_robots/outdoor_robots/husky/a300/user_manual_husky",
+   "ref": "Battery Charge Port"
+  },
+  {
+   "group": "Environment & Protection",
+   "key": "ip_rating",
+   "label": "IP rating",
+   "value": "IP54",
+   "unit": "",
+   "note": "",
+   "source": "https://docs.clearpathrobotics.com/docs_robots/outdoor_robots/husky/a300/user_manual_husky",
+   "ref": "Technical Specifications"
+  },
+  {
+   "group": "Environment & Protection",
+   "key": "operating_temperature",
+   "label": "Operating temperature",
+   "value": "-20 to 40",
+   "unit": "°C",
+   "note": "must be powered on at minimum 0 °C",
+   "source": "https://docs.clearpathrobotics.com/docs_robots/outdoor_robots/husky/a300/user_manual_husky",
+   "ref": "Technical Specifications"
+  },
+  {
+   "group": "Environment & Protection",
+   "key": "storage_temperature",
+   "label": "Storage temperature",
+   "value": "-20 to 60",
+   "unit": "°C",
+   "note": "",
+   "source": "https://docs.clearpathrobotics.com/docs_robots/outdoor_robots/husky/a300/user_manual_husky",
+   "ref": "Technical Specifications"
+  },
+  {
+   "group": "Environment & Protection",
+   "key": "charging_temperature",
+   "label": "Charging temperature",
+   "value": "0 to 40",
+   "unit": "°C",
+   "note": "",
+   "source": "https://docs.clearpathrobotics.com/docs_robots/outdoor_robots/husky/a300/user_manual_husky",
+   "ref": "Technical Specifications"
+  },
+  {
+   "group": "Environment & Protection",
+   "key": "operating_humidity",
+   "label": "Operating humidity",
+   "value": "0 to 85",
+   "unit": "%RH",
+   "note": "non-condensing",
+   "source": "https://docs.clearpathrobotics.com/docs_robots/outdoor_robots/husky/a300/user_manual_husky",
+   "ref": "Technical Specifications"
+  },
+  {
+   "group": "Environment & Protection",
+   "key": "max_altitude",
+   "label": "Max altitude",
+   "value": 2000,
+   "unit": "m",
+   "note": "",
+   "source": "https://docs.clearpathrobotics.com/docs_robots/outdoor_robots/husky/a300/user_manual_husky",
+   "ref": "Intended Use"
+  },
+  {
+   "group": "Environment & Protection",
+   "key": "pollution_degree",
+   "label": "Pollution degree",
+   "value": "1, 2 or 3 (per IEC 61010-1)",
+   "unit": "",
+   "note": "",
+   "source": "https://docs.clearpathrobotics.com/docs_robots/outdoor_robots/husky/a300/user_manual_husky",
+   "ref": "Intended Use"
+  },
+  {
+   "group": "Sensors & Perception",
+   "key": "imu",
+   "label": "IMU",
+   "value": "6-axis IMU (standard), upgrade options available",
+   "unit": "",
+   "note": "",
+   "source": "https://docs.clearpathrobotics.com/docs_robots/outdoor_robots/husky/a300/user_manual_husky",
+   "ref": "IMU"
+  },
+  {
+   "group": "Sensors & Perception",
+   "key": "wheel_encoders",
+   "label": "Feedback",
+   "value": "Battery, motor currents, odometry/encoders, connectivity, emergency stop status, diagnostics",
+   "unit": "",
+   "note": "",
+   "source": "https://clearpathrobotics.com/husky-spec-comparison/"
+  },
+  {
+   "group": "Sensors & Perception",
+   "key": "temperature_sensors",
+   "label": "Temperature monitoring",
+   "value": "Motors, motor drivers (MCU/PCB), batteries, MCU, fan controller, DC/DC converters",
+   "unit": "",
+   "note": "",
+   "source": "https://docs.clearpathrobotics.com/docs_robots/outdoor_robots/husky/a300/user_manual_husky",
+   "ref": "Thermal Limits"
+  },
+  {
+   "group": "Compute & Software",
+   "key": "cpu",
+   "label": "CPU (standard)",
+   "value": "Intel Core i3-13100TE",
+   "unit": "",
+   "note": "",
+   "source": "https://docs.clearpathrobotics.com/docs_robots/outdoor_robots/husky/a300/user_manual_husky",
+   "ref": "Technical Specifications"
+  },
+  {
+   "group": "Compute & Software",
+   "key": "cpu",
+   "label": "CPU (performance)",
+   "value": "Intel Core i7-13700TE",
+   "unit": "",
+   "note": "GPU optional",
+   "source": "https://docs.clearpathrobotics.com/docs_robots/outdoor_robots/husky/a300/user_manual_husky",
+   "ref": "Technical Specifications"
+  },
+  {
+   "group": "Compute & Software",
+   "key": "gpu",
+   "label": "GPU",
+   "value": "Optional",
+   "unit": "",
+   "note": "",
+   "source": "https://docs.clearpathrobotics.com/docs_robots/outdoor_robots/husky/a300/user_manual_husky",
+   "ref": "Technical Specifications"
+  },
+  {
+   "group": "Compute & Software",
+   "key": "computer_form_factor",
+   "label": "Computer form factor",
+   "value": "Mini-ITX (Intel-based); Jetson-based computer also possible",
+   "unit": "",
+   "note": "",
+   "source": "https://docs.clearpathrobotics.com/docs_robots/outdoor_robots/husky/a300/user_manual_husky",
+   "ref": "Computer / System Architecture"
+  },
+  {
+   "group": "Compute & Software",
+   "key": "mcu",
+   "label": "Microcontroller",
+   "value": "32-bit MCU (power, lights, screen, monitoring), Ethernet link to computer",
+   "unit": "",
+   "note": "",
+   "source": "https://docs.clearpathrobotics.com/docs_robots/outdoor_robots/husky/a300/user_manual_husky",
+   "ref": "System Architecture"
+  },
+  {
+   "group": "Compute & Software",
+   "key": "operating_system",
+   "label": "Operating system",
+   "value": "Ubuntu",
+   "unit": "",
+   "note": "",
+   "source": "https://docs.clearpathrobotics.com/docs_robots/outdoor_robots/husky/a300/user_manual_husky",
+   "ref": "System Architecture"
+  },
+  {
+   "group": "Compute & Software",
+   "key": "ros_version",
+   "label": "ROS version",
+   "value": "ROS 2 Jazzy",
+   "unit": "",
+   "note": "",
+   "source": "https://docs.clearpathrobotics.com/docs_robots/outdoor_robots/husky/a300/user_manual_husky",
+   "ref": "Using ROS"
+  },
+  {
+   "group": "Compute & Software",
+   "key": "autonomy_software",
+   "label": "Autonomy software (AMP/Observer)",
+   "value": "OutdoorNav",
+   "unit": "",
+   "note": "",
+   "source": "https://docs.clearpathrobotics.com/docs_robots/outdoor_robots/husky/a300/user_manual_husky",
+   "ref": "Husky AMP"
+  },
+  {
+   "group": "Connectivity & Interfaces",
+   "key": "communication",
+   "label": "Communication",
+   "value": "Ethernet, USB, remote control, Wi-Fi",
+   "unit": "",
+   "note": "",
+   "source": "https://storage.pardot.com/92812/1728925412aC5a34ww/Husky_A300_DataSheet_Oct24.pdf"
+  },
+  {
+   "group": "Connectivity & Interfaces",
+   "key": "ethernet",
+   "label": "Ethernet",
+   "value": "Gigabit Ethernet debug port; internal network switch for payloads",
+   "unit": "",
+   "note": "",
+   "source": "https://docs.clearpathrobotics.com/docs_robots/outdoor_robots/husky/a300/user_manual_husky",
+   "ref": "Debug Ports / Network Switch"
+  },
+  {
+   "group": "Connectivity & Interfaces",
+   "key": "usb_ports",
+   "label": "USB",
+   "value": "USB 3.0 Type-A debug port; optional USB hub",
+   "unit": "",
+   "note": "",
+   "source": "https://docs.clearpathrobotics.com/docs_robots/outdoor_robots/husky/a300/user_manual_husky",
+   "ref": "Debug Ports"
+  },
+  {
+   "group": "Connectivity & Interfaces",
+   "key": "video_output",
+   "label": "Video output",
+   "value": "HDMI debug port",
+   "unit": "",
+   "note": "",
+   "source": "https://docs.clearpathrobotics.com/docs_robots/outdoor_robots/husky/a300/user_manual_husky",
+   "ref": "Debug Ports"
+  },
+  {
+   "group": "Connectivity & Interfaces",
+   "key": "default_ip",
+   "label": "Default robot IP",
+   "value": "192.168.131.1",
+   "unit": "",
+   "note": "",
+   "source": "https://docs.clearpathrobotics.com/docs_robots/outdoor_robots/husky/a300/user_manual_husky",
+   "ref": "Robot Network Connection"
+  },
+  {
+   "group": "Payload & Mounting",
+   "key": "payload_port_power",
+   "label": "User power 12 V",
+   "value": 10,
+   "unit": "A",
+   "note": "",
+   "source": "https://docs.clearpathrobotics.com/docs_robots/outdoor_robots/husky/a300/user_manual_husky",
+   "ref": "Technical Specifications"
+  },
+  {
+   "group": "Payload & Mounting",
+   "key": "payload_port_power",
+   "label": "User power 24 V",
+   "value": 5,
+   "unit": "A",
+   "note": "",
+   "source": "https://docs.clearpathrobotics.com/docs_robots/outdoor_robots/husky/a300/user_manual_husky",
+   "ref": "Technical Specifications"
+  },
+  {
+   "group": "Payload & Mounting",
+   "key": "payload_port_power",
+   "label": "User power VBAT",
+   "value": 5,
+   "unit": "A",
+   "note": "",
+   "source": "https://docs.clearpathrobotics.com/docs_robots/outdoor_robots/husky/a300/user_manual_husky",
+   "ref": "Technical Specifications"
+  },
+  {
+   "group": "Payload & Mounting",
+   "key": "payload_port_power",
+   "label": "User power large VBAT",
+   "value": 40,
+   "unit": "A",
+   "note": "optional upgrade (High Power Expansion Kit)",
+   "source": "https://docs.clearpathrobotics.com/docs_robots/outdoor_robots/husky/a300/user_manual_husky",
+   "ref": "Technical Specifications"
+  },
+  {
+   "group": "Payload & Mounting",
+   "key": "user_power_breakouts",
+   "label": "User power breakouts",
+   "value": 8,
+   "unit": "",
+   "note": "",
+   "source": "https://clearpathrobotics.com/husky-spec-comparison/"
+  },
+  {
+   "group": "Payload & Mounting",
+   "key": "mounting_plate",
+   "label": "Payload interface",
+   "value": "Large universal mounting plate, user electrical breakouts, cable passthrough ports",
+   "unit": "",
+   "note": "",
+   "source": "https://clearpathrobotics.com/husky-a300-unmanned-ground-vehicle-robot/",
+   "ref": "Build & Expand"
+  },
+  {
+   "group": "Safety & Compliance",
+   "key": "emergency_stop",
+   "label": "Emergency stop",
+   "value": "Front and rear E-stop buttons (PLc per ISO 13849); rear door interlock (PLc); optional wireless E-stop",
+   "unit": "",
+   "note": "",
+   "source": "https://docs.clearpathrobotics.com/docs_robots/outdoor_robots/husky/a300/user_manual_husky",
+   "ref": "Safety System Functionality"
+  },
+  {
+   "group": "Safety & Compliance",
+   "key": "performance_level",
+   "label": "Performance level",
+   "value": "E-stop PLc; electrical braking on E-stop PLa (ISO 13849)",
+   "unit": "",
+   "note": "",
+   "source": "https://docs.clearpathrobotics.com/docs_robots/outdoor_robots/husky/a300/user_manual_husky",
+   "ref": "Safety System Functionality"
+  },
+  {
+   "group": "Safety & Compliance",
+   "key": "braking",
+   "label": "Braking",
+   "value": "Electrical (resistive) brake on E-stop",
+   "unit": "",
+   "note": "",
+   "source": "https://docs.clearpathrobotics.com/docs_robots/outdoor_robots/husky/a300/user_manual_husky",
+   "ref": "Emergency Stop Braking Limits"
+  },
+  {
+   "group": "Safety & Compliance",
+   "key": "stopping_distance",
+   "label": "Stopping distance",
+   "value": 0.5,
+   "unit": "m",
+   "note": "0 kg, 0°, high friction, default deceleration",
+   "source": "https://docs.clearpathrobotics.com/docs_robots/outdoor_robots/husky/a300/user_manual_husky",
+   "ref": "Stopping Distances"
+  },
+  {
+   "group": "Safety & Compliance",
+   "key": "stopping_distance",
+   "label": "Stopping distance",
+   "value": 0.7,
+   "unit": "m",
+   "note": "100 kg, 0°, high friction",
+   "source": "https://docs.clearpathrobotics.com/docs_robots/outdoor_robots/husky/a300/user_manual_husky",
+   "ref": "Stopping Distances"
+  },
+  {
+   "group": "Safety & Compliance",
+   "key": "stopping_distance",
+   "label": "Stopping distance",
+   "value": 0.5,
+   "unit": "m",
+   "note": "0 kg, 15°, high friction",
+   "source": "https://docs.clearpathrobotics.com/docs_robots/outdoor_robots/husky/a300/user_manual_husky",
+   "ref": "Stopping Distances"
+  },
+  {
+   "group": "Safety & Compliance",
+   "key": "stopping_distance",
+   "label": "Stopping distance",
+   "value": 1.0,
+   "unit": "m",
+   "note": "100 kg, 15°, high friction",
+   "source": "https://docs.clearpathrobotics.com/docs_robots/outdoor_robots/husky/a300/user_manual_husky",
+   "ref": "Stopping Distances"
+  },
+  {
+   "group": "Safety & Compliance",
+   "key": "estop_terminal_speed",
+   "label": "E-stop terminal speed on incline",
+   "value": "0.75 m/s or less (0 kg, 15°); 1.5 m/s or less (100 kg, 15°); 0 m/s on level",
+   "unit": "",
+   "note": "",
+   "source": "https://docs.clearpathrobotics.com/docs_robots/outdoor_robots/husky/a300/user_manual_husky",
+   "ref": "Emergency Stop Braking Limits"
+  },
+  {
+   "group": "Safety & Compliance",
+   "key": "max_noise_level",
+   "label": "Max noise",
+   "value": 80,
+   "unit": "dBA",
+   "note": "at 10 cm from robot",
+   "source": "https://docs.clearpathrobotics.com/docs_robots/outdoor_robots/husky/a300/user_manual_husky",
+   "ref": "Personal Protective Equipment"
+  },
+  {
+   "group": "Safety & Compliance",
+   "key": "obstacle_avoidance",
+   "label": "Obstacle avoidance (base)",
+   "value": false,
+   "unit": "",
+   "note": "base robot has no personnel detection or obstacle avoidance",
+   "source": "https://docs.clearpathrobotics.com/docs_robots/outdoor_robots/husky/a300/user_manual_husky",
+   "ref": "Safety"
+  },
+  {
+   "group": "Safety & Compliance",
+   "key": "safety_standards",
+   "label": "Safety standards",
+   "value": "ISO 12100 risk assessment; ISO 13849 (E-stop functions); IEC 61010-1",
+   "unit": "",
+   "note": "",
+   "source": "https://docs.clearpathrobotics.com/docs_robots/outdoor_robots/husky/a300/user_manual_husky"
+  },
+  {
+   "group": "Safety & Compliance",
+   "key": "certifications",
+   "label": "Compliance (US/Canada)",
+   "value": "FCC Part 15 Subpart B; FCC Part 18; ICES-002; ICES-003",
+   "unit": "",
+   "note": "",
+   "source": "https://docs.clearpathrobotics.com/docs_robots/outdoor_robots/husky/a300/user_manual_husky",
+   "ref": "Standards Compliance"
+  },
+  {
+   "group": "Safety & Compliance",
+   "key": "certifications",
+   "label": "Compliance (CE)",
+   "value": "CE: EN 61326-1:2013; EN 61010-1:2010 (+A1:2019); EN 301 489-1 V1.9.2; EN 301 893 V2.1.1; EN 300 328 V2.2.2",
+   "unit": "",
+   "note": "",
+   "source": "https://docs.clearpathrobotics.com/docs_robots/outdoor_robots/husky/a300/user_manual_husky",
+   "ref": "Standards Compliance"
+  },
+  {
+   "group": "Safety & Compliance",
+   "key": "certifications",
+   "label": "Compliance (AU/NZ)",
+   "value": "EN 55032:2015; AS/NZS 4268:2017; AS/NZS 4024.1204:2019; EN 50566:2017",
+   "unit": "",
+   "note": "",
+   "source": "https://docs.clearpathrobotics.com/docs_robots/outdoor_robots/husky/a300/user_manual_husky",
+   "ref": "Standards Compliance"
+  },
+  {
+   "group": "Safety & Compliance",
+   "key": "certifications",
+   "label": "Compliance (Korea)",
+   "value": "KS 3124:2020; KS 3126:2020; KS C 9610-6-2:2019; KS C 9610-6-4:2022",
+   "unit": "",
+   "note": "",
+   "source": "https://docs.clearpathrobotics.com/docs_robots/outdoor_robots/husky/a300/user_manual_husky",
+   "ref": "Standards Compliance"
+  },
+  {
+   "group": "Safety & Compliance",
+   "key": "certifications",
+   "label": "Other approvals",
+   "value": "India WPC Equipment Type Approval; Singapore; Japan listed",
+   "unit": "",
+   "note": "",
+   "source": "https://docs.clearpathrobotics.com/docs_robots/outdoor_robots/husky/a300/user_manual_husky",
+   "ref": "Standards Compliance"
+  },
+  {
+   "group": "Safety & Compliance",
+   "key": "intended_use",
+   "label": "Intended use",
+   "value": "Indoor and outdoor research labs and light industrial environments for inspection, materials transport, manipulation; trained personnel, constantly monitored",
+   "unit": "",
+   "note": "",
+   "source": "https://docs.clearpathrobotics.com/docs_robots/outdoor_robots/husky/a300/user_manual_husky",
+   "ref": "Intended Use"
+  },
+  {
+   "group": "Safety & Compliance",
+   "key": "prohibited_uses",
+   "label": "Prohibited uses",
+   "value": "Explosive atmospheres; near vertical drops >150 mm, fast-moving people/vehicles, children, glass/transparent floors or walls; carrying passengers",
+   "unit": "",
+   "note": "",
+   "source": "https://docs.clearpathrobotics.com/docs_robots/outdoor_robots/husky/a300/user_manual_husky",
+   "ref": "Intended Use / Safety"
+  },
+  {
+   "group": "Controls & Operation",
+   "key": "controller",
+   "label": "Controller",
+   "value": "PS4 controller included (PS5 supported)",
+   "unit": "",
+   "note": "",
+   "source": "https://docs.clearpathrobotics.com/docs_robots/outdoor_robots/husky/a300/user_manual_husky",
+   "ref": "Connecting and Using the Controller"
+  },
+  {
+   "group": "Controls & Operation",
+   "key": "control_modes",
+   "label": "Teleop modes",
+   "value": "Slow (0.3 m/s) and fast (2.0 m/s) enable buttons",
+   "unit": "",
+   "note": "",
+   "source": "https://docs.clearpathrobotics.com/docs_robots/outdoor_robots/husky/a300/user_manual_husky"
+  },
+  {
+   "group": "Audio, Lights & HMI",
+   "key": "status_lights",
+   "label": "Status lights",
+   "value": "4 programmable LED lights (2 front, 2 rear), programmable via ROS",
+   "unit": "",
+   "note": "",
+   "source": "https://clearpathrobotics.com/husky-a300-unmanned-ground-vehicle-robot/"
+  },
+  {
+   "group": "Audio, Lights & HMI",
+   "key": "display",
+   "label": "Display",
+   "value": "3.70-inch e-ink display (battery, charge, Wi-Fi, Ethernet, micro-ROS, error status)",
+   "unit": "",
+   "note": "",
+   "source": "https://clearpathrobotics.com/husky-spec-comparison/"
+  },
+  {
+   "group": "Transport & Storage",
+   "key": "lift_method",
+   "label": "Lifting",
+   "value": "Two-person lift via bumper bars (no payload) or lifting straps; never one-person lift",
+   "unit": "",
+   "note": "",
+   "source": "https://docs.clearpathrobotics.com/docs_robots/outdoor_robots/husky/a300/user_manual_husky",
+   "ref": "Husky Lift Points"
+  },
+  {
+   "group": "Transport & Storage",
+   "key": "shipping_method",
+   "label": "Shipping",
+   "value": "Wooden crate (front panel as ramp, 14 mm hex bolts)",
+   "unit": "",
+   "note": "",
+   "source": "https://docs.clearpathrobotics.com/docs_robots/outdoor_robots/husky/a300/user_manual_husky",
+   "ref": "Unboxing"
+  },
+  {
+   "group": "Transport & Storage",
+   "key": "storage_conditions",
+   "label": "Storage",
+   "value": "Charge ≥50% and breaker OFF for storage >2 days; power on every 3 months, recharge if <20%",
+   "unit": "",
+   "note": "",
+   "source": "https://docs.clearpathrobotics.com/docs_robots/outdoor_robots/husky/a300/user_manual_husky",
+   "ref": "Storage"
+  },
+  {
+   "group": "Commercial",
+   "key": "included_accessories",
+   "label": "Included accessories",
+   "value": "PS4 controller, battery charger",
+   "unit": "",
+   "note": "",
+   "source": "https://storage.pardot.com/92812/1728925412aC5a34ww/Husky_A300_DataSheet_Oct24.pdf"
+  },
+  {
+   "group": "Commercial",
+   "key": "optional_accessories",
+   "label": "Packages",
+   "value": "Husky AMP (OutdoorNav); Manipulator Package (Franka Research 3, ROS 2/MoveIt 2); Vision Package (2x ZED2/ZED X, Ouster OS1-64)",
+   "unit": "",
+   "note": "",
+   "source": "https://clearpathrobotics.com/husky-a300-unmanned-ground-vehicle-robot/",
+   "ref": "Packages"
+  },
+  {
+   "group": "Commercial",
+   "key": "optional_accessories",
+   "label": "Optional kits",
+   "value": "Wireless E-stop kit; wireless charging kit; high power expansion kit; GPU; USB hub; upgraded IMU",
+   "unit": "",
+   "note": "",
+   "source": "https://docs.clearpathrobotics.com/docs_robots/outdoor_robots/husky/a300/user_manual_husky"
+  },
+  {
+   "group": "Commercial",
+   "key": "price",
+   "label": "Price",
+   "value": "Contact sales for pricing",
+   "unit": "",
+   "note": "",
+   "source": "https://storage.pardot.com/92812/1728925412aC5a34ww/Husky_A300_DataSheet_Oct24.pdf"
+  }
+ ]
+}

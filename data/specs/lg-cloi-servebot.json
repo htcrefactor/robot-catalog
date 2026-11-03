@@ -1,0 +1,448 @@
+{
+ "id": "lg-cloi-servebot",
+ "checked": "2026-11-04",
+ "documents": [
+  {
+   "title": "LG CLOi ServeBot LDLTR30 Series Spec Sheet (LG Electronics USA, 2023)",
+   "url": "https://media.us.lg.com/m/64dc60ed87812982/original/LDLTR30-Series-Spec-Sheet.pdf"
+  },
+  {
+   "title": "CLOi ServeBot 3.0 LDLTR30 product page (LG Business Solutions US)",
+   "url": "https://solutions.lg.com/us/cloi-servebot/lg-ldltr30"
+  }
+ ],
+ "specs": [
+  {
+   "group": "Identity",
+   "key": "model_number",
+   "label": "Model",
+   "value": "LDLTR30 series (shelf type)",
+   "unit": "",
+   "note": "",
+   "source": "https://media.us.lg.com/m/64dc60ed87812982/original/LDLTR30-Series-Spec-Sheet.pdf"
+  },
+  {
+   "group": "Dimensions & Mass",
+   "key": "width",
+   "label": "Width",
+   "value": 560,
+   "unit": "mm",
+   "note": "",
+   "source": "https://media.us.lg.com/m/64dc60ed87812982/original/LDLTR30-Series-Spec-Sheet.pdf"
+  },
+  {
+   "group": "Dimensions & Mass",
+   "key": "length",
+   "label": "Depth",
+   "value": 551,
+   "unit": "mm",
+   "note": "",
+   "source": "https://media.us.lg.com/m/64dc60ed87812982/original/LDLTR30-Series-Spec-Sheet.pdf"
+  },
+  {
+   "group": "Dimensions & Mass",
+   "key": "height",
+   "label": "Height",
+   "value": 1374,
+   "unit": "mm",
+   "note": "",
+   "source": "https://media.us.lg.com/m/64dc60ed87812982/original/LDLTR30-Series-Spec-Sheet.pdf"
+  },
+  {
+   "group": "Dimensions & Mass",
+   "key": "weight",
+   "label": "Weight",
+   "value": 51,
+   "unit": "kg",
+   "note": "112.4 lb",
+   "source": "https://media.us.lg.com/m/64dc60ed87812982/original/LDLTR30-Series-Spec-Sheet.pdf"
+  },
+  {
+   "group": "Mobility & Performance",
+   "key": "max_payload",
+   "label": "Load capacity",
+   "value": 40,
+   "unit": "kg",
+   "note": "",
+   "source": "https://media.us.lg.com/m/64dc60ed87812982/original/LDLTR30-Series-Spec-Sheet.pdf"
+  },
+  {
+   "group": "Mobility & Performance",
+   "key": "tray_payload",
+   "label": "Load per shelf",
+   "value": 10,
+   "unit": "kg",
+   "note": "robot returns to tray-return zone when 10 kg reached",
+   "source": "https://media.us.lg.com/m/64dc60ed87812982/original/LDLTR30-Series-Spec-Sheet.pdf"
+  },
+  {
+   "group": "Mobility & Performance",
+   "key": "tray_count",
+   "label": "Number of shelves",
+   "value": 4,
+   "unit": "",
+   "note": "bottom shelf is a storage area",
+   "source": "https://media.us.lg.com/m/64dc60ed87812982/original/LDLTR30-Series-Spec-Sheet.pdf"
+  },
+  {
+   "group": "Payload & Mounting",
+   "key": "tray_dimensions",
+   "label": "Shelf size (W × L)",
+   "value": "440 × 530",
+   "unit": "mm",
+   "note": "",
+   "source": "https://media.us.lg.com/m/64dc60ed87812982/original/LDLTR30-Series-Spec-Sheet.pdf"
+  },
+  {
+   "group": "Payload & Mounting",
+   "key": "tray_adjustable",
+   "label": "Height-adjustable trays",
+   "value": true,
+   "unit": "",
+   "note": "detachable",
+   "source": "https://media.us.lg.com/m/64dc60ed87812982/original/LDLTR30-Series-Spec-Sheet.pdf"
+  },
+  {
+   "group": "Payload & Mounting",
+   "key": "storage_compartments",
+   "label": "Storage",
+   "value": "Upper versatile storage space; sliding drawer",
+   "unit": "",
+   "note": "",
+   "source": "https://media.us.lg.com/m/64dc60ed87812982/original/LDLTR30-Series-Spec-Sheet.pdf"
+  },
+  {
+   "group": "Mobility & Performance",
+   "key": "max_speed",
+   "label": "Max speed",
+   "value": 1.2,
+   "unit": "m/s",
+   "note": "adjustable",
+   "source": "https://media.us.lg.com/m/64dc60ed87812982/original/LDLTR30-Series-Spec-Sheet.pdf"
+  },
+  {
+   "group": "Mobility & Performance",
+   "key": "suspension",
+   "label": "Suspension",
+   "value": "Independent suspension on all 6 wheels",
+   "unit": "",
+   "note": "",
+   "source": "https://media.us.lg.com/m/64dc60ed87812982/original/LDLTR30-Series-Spec-Sheet.pdf"
+  },
+  {
+   "group": "Mobility & Performance",
+   "key": "wheel_count",
+   "label": "Wheels",
+   "value": 6,
+   "unit": "",
+   "note": "",
+   "source": "https://media.us.lg.com/m/64dc60ed87812982/original/LDLTR30-Series-Spec-Sheet.pdf"
+  },
+  {
+   "group": "Terrain & Navigation Limits",
+   "key": "min_corridor_width",
+   "label": "Minimum drive width",
+   "value": 800,
+   "unit": "mm",
+   "note": "",
+   "source": "https://media.us.lg.com/m/64dc60ed87812982/original/LDLTR30-Series-Spec-Sheet.pdf"
+  },
+  {
+   "group": "Terrain & Navigation Limits",
+   "key": "floor_flatness_requirement",
+   "label": "Uneven floor",
+   "value": "stable on uneven flooring up to 5 mm",
+   "unit": "",
+   "note": "",
+   "source": "https://media.us.lg.com/m/64dc60ed87812982/original/LDLTR30-Series-Spec-Sheet.pdf"
+  },
+  {
+   "group": "Terrain & Navigation Limits",
+   "key": "surface_types",
+   "label": "Surface compatibility",
+   "value": "Marble; tile; cement; uneven tile; carpet; braille block",
+   "unit": "",
+   "note": "",
+   "source": "https://media.us.lg.com/m/64dc60ed87812982/original/LDLTR30-Series-Spec-Sheet.pdf"
+  },
+  {
+   "group": "Power & Battery",
+   "key": "battery_capacity",
+   "label": "Battery capacity",
+   "value": 25000,
+   "unit": "mAh",
+   "note": "",
+   "source": "https://media.us.lg.com/m/64dc60ed87812982/original/LDLTR30-Series-Spec-Sheet.pdf"
+  },
+  {
+   "group": "Power & Battery",
+   "key": "runtime",
+   "label": "Continuous operating time",
+   "value": 11,
+   "unit": "h",
+   "note": "at 0.7 m/s",
+   "source": "https://media.us.lg.com/m/64dc60ed87812982/original/LDLTR30-Series-Spec-Sheet.pdf"
+  },
+  {
+   "group": "Power & Battery",
+   "key": "battery_certification",
+   "label": "Battery certification",
+   "value": "UL 2271",
+   "unit": "",
+   "note": "",
+   "source": "https://media.us.lg.com/m/64dc60ed87812982/original/LDLTR30-Series-Spec-Sheet.pdf"
+  },
+  {
+   "group": "Charging & Docking",
+   "key": "charge_time",
+   "label": "Charging time (manual)",
+   "value": "4–4.5",
+   "unit": "h",
+   "note": "",
+   "source": "https://media.us.lg.com/m/64dc60ed87812982/original/LDLTR30-Series-Spec-Sheet.pdf"
+  },
+  {
+   "group": "Charging & Docking",
+   "key": "charge_time",
+   "label": "Charging time (automatic)",
+   "value": "3–3.5",
+   "unit": "h",
+   "note": "charging stand option",
+   "source": "https://media.us.lg.com/m/64dc60ed87812982/original/LDLTR30-Series-Spec-Sheet.pdf"
+  },
+  {
+   "group": "Charging & Docking",
+   "key": "dock_available",
+   "label": "Charging stand",
+   "value": "optional",
+   "unit": "",
+   "note": "",
+   "source": "https://media.us.lg.com/m/64dc60ed87812982/original/LDLTR30-Series-Spec-Sheet.pdf"
+  },
+  {
+   "group": "Sensors & Perception",
+   "key": "lidar_type",
+   "label": "LiDAR",
+   "value": "LiDAR",
+   "unit": "",
+   "note": "",
+   "source": "https://media.us.lg.com/m/64dc60ed87812982/original/LDLTR30-Series-Spec-Sheet.pdf"
+  },
+  {
+   "group": "Sensors & Perception",
+   "key": "tof_sensor",
+   "label": "ToF sensor",
+   "value": true,
+   "unit": "",
+   "note": "",
+   "source": "https://media.us.lg.com/m/64dc60ed87812982/original/LDLTR30-Series-Spec-Sheet.pdf"
+  },
+  {
+   "group": "Sensors & Perception",
+   "key": "depth_camera_type",
+   "label": "RGBD camera",
+   "value": true,
+   "unit": "",
+   "note": "",
+   "source": "https://media.us.lg.com/m/64dc60ed87812982/original/LDLTR30-Series-Spec-Sheet.pdf"
+  },
+  {
+   "group": "Sensors & Perception",
+   "key": "tray_sensors",
+   "label": "Load cell sensor",
+   "value": "Weight detection sensor on each tray",
+   "unit": "",
+   "note": "",
+   "source": "https://media.us.lg.com/m/64dc60ed87812982/original/LDLTR30-Series-Spec-Sheet.pdf"
+  },
+  {
+   "group": "Safety & Compliance",
+   "key": "obstacle_avoidance",
+   "label": "Obstacle avoidance",
+   "value": "Automatic obstacle recognition; real-time route planning",
+   "unit": "",
+   "note": "",
+   "source": "https://media.us.lg.com/m/64dc60ed87812982/original/LDLTR30-Series-Spec-Sheet.pdf"
+  },
+  {
+   "group": "Controls & Operation",
+   "key": "control_modes",
+   "label": "Functions",
+   "value": "Serving; cruise; tray-return cruise; guidance (escort); movement",
+   "unit": "",
+   "note": "",
+   "source": "https://media.us.lg.com/m/64dc60ed87812982/original/LDLTR30-Series-Spec-Sheet.pdf"
+  },
+  {
+   "group": "Controls & Operation",
+   "key": "cruise_route",
+   "label": "Cruise route setting",
+   "value": "User-configurable",
+   "unit": "",
+   "note": "",
+   "source": "https://media.us.lg.com/m/64dc60ed87812982/original/LDLTR30-Series-Spec-Sheet.pdf"
+  },
+  {
+   "group": "Controls & Operation",
+   "key": "multi_robot",
+   "label": "Multi-robot driving",
+   "value": "Direct robot-to-robot communication without separate device",
+   "unit": "",
+   "note": "",
+   "source": "https://media.us.lg.com/m/64dc60ed87812982/original/LDLTR30-Series-Spec-Sheet.pdf"
+  },
+  {
+   "group": "Controls & Operation",
+   "key": "controller",
+   "label": "Control",
+   "value": "Mobile / PC",
+   "unit": "",
+   "note": "",
+   "source": "https://media.us.lg.com/m/64dc60ed87812982/original/LDLTR30-Series-Spec-Sheet.pdf"
+  },
+  {
+   "group": "Controls & Operation",
+   "key": "remote_calling",
+   "label": "Robot call",
+   "value": "Linked smart watch or call bell (sold separately)",
+   "unit": "",
+   "note": "",
+   "source": "https://media.us.lg.com/m/64dc60ed87812982/original/LDLTR30-Series-Spec-Sheet.pdf"
+  },
+  {
+   "group": "Controls & Operation",
+   "key": "door_integration",
+   "label": "Automatic door",
+   "value": "Opens automatic doors via linkable wireless device (sold separately)",
+   "unit": "",
+   "note": "",
+   "source": "https://media.us.lg.com/m/64dc60ed87812982/original/LDLTR30-Series-Spec-Sheet.pdf"
+  },
+  {
+   "group": "Controls & Operation",
+   "key": "auto_load_detection",
+   "label": "Food loading/unloading detection",
+   "value": true,
+   "unit": "",
+   "note": "automatic detection of loaded and unloaded food",
+   "source": "https://media.us.lg.com/m/64dc60ed87812982/original/LDLTR30-Series-Spec-Sheet.pdf"
+  },
+  {
+   "group": "Compute & Software",
+   "key": "fleet_software",
+   "label": "Content management",
+   "value": "CMS app: videos, images, guidance words, voice, background music",
+   "unit": "",
+   "note": "",
+   "source": "https://media.us.lg.com/m/64dc60ed87812982/original/LDLTR30-Series-Spec-Sheet.pdf"
+  },
+  {
+   "group": "Audio, Lights & HMI",
+   "key": "display",
+   "label": "Display",
+   "value": "10.1-inch touch LCD",
+   "unit": "",
+   "note": "",
+   "source": "https://media.us.lg.com/m/64dc60ed87812982/original/LDLTR30-Series-Spec-Sheet.pdf"
+  },
+  {
+   "group": "Audio, Lights & HMI",
+   "key": "status_lights",
+   "label": "Status LED",
+   "value": "Red / Blue / Green",
+   "unit": "",
+   "note": "action / status alert",
+   "source": "https://media.us.lg.com/m/64dc60ed87812982/original/LDLTR30-Series-Spec-Sheet.pdf"
+  },
+  {
+   "group": "Audio, Lights & HMI",
+   "key": "speaker",
+   "label": "Voice guidance",
+   "value": true,
+   "unit": "",
+   "note": "guidance voice and background music via CMS",
+   "source": "https://media.us.lg.com/m/64dc60ed87812982/original/LDLTR30-Series-Spec-Sheet.pdf"
+  },
+  {
+   "group": "Identity",
+   "key": "manufacturer_address",
+   "label": "Manufacturer address",
+   "value": "LG Electronics USA, 2000 Millbrook Drive, Lincolnshire, IL 60069, USA",
+   "unit": "",
+   "note": "",
+   "source": "https://media.us.lg.com/m/64dc60ed87812982/original/LDLTR30-Series-Spec-Sheet.pdf"
+  },
+  {
+   "group": "Identity",
+   "key": "model_number",
+   "label": "Model (SKU)",
+   "value": "LDLTR30.AUSAG",
+   "unit": "",
+   "note": "CLOi ServeBot 3.0",
+   "source": "https://solutions.lg.com/us/cloi-servebot/lg-ldltr30"
+  },
+  {
+   "group": "Commercial",
+   "key": "availability",
+   "label": "Status",
+   "value": "Discontinued",
+   "unit": "",
+   "note": "as shown on LG US product page",
+   "source": "https://solutions.lg.com/us/cloi-servebot/lg-ldltr30"
+  },
+  {
+   "group": "Safety & Compliance",
+   "key": "certifications",
+   "label": "Safety certification",
+   "value": "KC",
+   "unit": "",
+   "note": "",
+   "source": "https://solutions.lg.com/us/cloi-servebot/lg-ldltr30"
+  },
+  {
+   "group": "Safety & Compliance",
+   "key": "certifications",
+   "label": "Electromagnetic / robot standard listed",
+   "value": "UL 3300",
+   "unit": "",
+   "note": "listed under 'Electromagnetic Wave'",
+   "source": "https://solutions.lg.com/us/cloi-servebot/lg-ldltr30"
+  },
+  {
+   "group": "Audio, Lights & HMI",
+   "key": "languages",
+   "label": "Voice/display languages",
+   "value": "Korean / English; multi-language (12 languages) planned in future update",
+   "unit": "",
+   "note": "",
+   "source": "https://solutions.lg.com/us/cloi-servebot/lg-ldltr30"
+  },
+  {
+   "group": "Audio, Lights & HMI",
+   "key": "voice_content",
+   "label": "Voice content",
+   "value": "Driving, facility guidance",
+   "unit": "",
+   "note": "",
+   "source": "https://solutions.lg.com/us/cloi-servebot/lg-ldltr30"
+  },
+  {
+   "group": "Controls & Operation",
+   "key": "control_modes",
+   "label": "Docent mode",
+   "value": "Optional",
+   "unit": "",
+   "note": "",
+   "source": "https://solutions.lg.com/us/cloi-servebot/lg-ldltr30"
+  },
+  {
+   "group": "Payload & Mounting",
+   "key": "tray_spacing",
+   "label": "Shelf spacing increment",
+   "value": 71,
+   "unit": "mm",
+   "note": "2.8 in (7.1 cm) height adjustment shown in spec sheet",
+   "source": "https://media.us.lg.com/m/64dc60ed87812982/original/LDLTR30-Series-Spec-Sheet.pdf"
+  }
+ ]
+}

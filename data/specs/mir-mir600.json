@@ -1,0 +1,831 @@
+{
+ "id": "mir-mir600",
+ "checked": "2026-11-04",
+ "documents": [
+  {
+   "title": "MiR600 Specifications (2025-09-01, MiR, distributor-hosted PDF)",
+   "url": "https://ai.motion.com/wp-content/uploads/2025/10/MiR600-Specifications-2.99.pdf"
+  }
+ ],
+ "specs": [
+  {
+   "group": "Identity",
+   "key": "robot_type",
+   "label": "Robot type",
+   "value": "Autonomous Mobile Robot (AMR)",
+   "unit": "",
+   "note": "",
+   "source": "https://ai.motion.com/wp-content/uploads/2025/10/MiR600-Specifications-2.99.pdf"
+  },
+  {
+   "group": "Safety & Compliance",
+   "key": "intended_use",
+   "label": "Designated use",
+   "value": "Internal transportation of heavy loads and pallets",
+   "unit": "",
+   "note": "",
+   "source": "https://ai.motion.com/wp-content/uploads/2025/10/MiR600-Specifications-2.99.pdf"
+  },
+  {
+   "group": "Identity",
+   "key": "color",
+   "label": "Color",
+   "value": "RAL 7011 / Iron Gray",
+   "unit": "",
+   "note": "",
+   "source": "https://ai.motion.com/wp-content/uploads/2025/10/MiR600-Specifications-2.99.pdf"
+  },
+  {
+   "group": "Identity",
+   "key": "design_life",
+   "label": "Product design life",
+   "value": "5 years or 20 000 hours of active operation, whichever comes first",
+   "unit": "",
+   "note": "",
+   "source": "https://ai.motion.com/wp-content/uploads/2025/10/MiR600-Specifications-2.99.pdf"
+  },
+  {
+   "group": "Identity",
+   "key": "spec_document_date",
+   "label": "Specification document date",
+   "value": "2025-09-01",
+   "unit": "",
+   "note": "",
+   "source": "https://ai.motion.com/wp-content/uploads/2025/10/MiR600-Specifications-2.99.pdf"
+  },
+  {
+   "group": "Environment & Protection",
+   "key": "ip_rating",
+   "label": "IP rating",
+   "value": "IP52",
+   "unit": "",
+   "note": "",
+   "source": "https://ai.motion.com/wp-content/uploads/2025/10/MiR600-Specifications-2.99.pdf"
+  },
+  {
+   "group": "Mobility & Performance",
+   "key": "drive_wheel_material",
+   "label": "Drive wheel material",
+   "value": "Polyurethane",
+   "unit": "",
+   "note": "",
+   "source": "https://ai.motion.com/wp-content/uploads/2025/10/MiR600-Specifications-2.99.pdf"
+  },
+  {
+   "group": "Dimensions & Mass",
+   "key": "length",
+   "label": "Length",
+   "value": 1350,
+   "unit": "mm",
+   "note": "",
+   "source": "https://ai.motion.com/wp-content/uploads/2025/10/MiR600-Specifications-2.99.pdf"
+  },
+  {
+   "group": "Dimensions & Mass",
+   "key": "width",
+   "label": "Width",
+   "value": 910,
+   "unit": "mm",
+   "note": "",
+   "source": "https://ai.motion.com/wp-content/uploads/2025/10/MiR600-Specifications-2.99.pdf"
+  },
+  {
+   "group": "Dimensions & Mass",
+   "key": "height",
+   "label": "Height",
+   "value": 322,
+   "unit": "mm",
+   "note": "",
+   "source": "https://ai.motion.com/wp-content/uploads/2025/10/MiR600-Specifications-2.99.pdf"
+  },
+  {
+   "group": "Dimensions & Mass",
+   "key": "weight",
+   "label": "Weight",
+   "value": 240,
+   "unit": "kg",
+   "note": "",
+   "source": "https://ai.motion.com/wp-content/uploads/2025/10/MiR600-Specifications-2.99.pdf"
+  },
+  {
+   "group": "Dimensions & Mass",
+   "key": "ground_clearance",
+   "label": "Ground clearance",
+   "value": "25–27",
+   "unit": "mm",
+   "note": "",
+   "source": "https://ai.motion.com/wp-content/uploads/2025/10/MiR600-Specifications-2.99.pdf"
+  },
+  {
+   "group": "Dimensions & Mass",
+   "key": "drive_wheel_diameter",
+   "label": "Drive wheel diameter",
+   "value": 200,
+   "unit": "mm",
+   "note": "",
+   "source": "https://ai.motion.com/wp-content/uploads/2025/10/MiR600-Specifications-2.99.pdf"
+  },
+  {
+   "group": "Dimensions & Mass",
+   "key": "caster_wheel_diameter",
+   "label": "Caster wheel diameter",
+   "value": 100,
+   "unit": "mm",
+   "note": "",
+   "source": "https://ai.motion.com/wp-content/uploads/2025/10/MiR600-Specifications-2.99.pdf"
+  },
+  {
+   "group": "Mobility & Performance",
+   "key": "max_payload",
+   "label": "Maximum payload",
+   "value": 600,
+   "unit": "kg",
+   "note": "",
+   "source": "https://ai.motion.com/wp-content/uploads/2025/10/MiR600-Specifications-2.99.pdf"
+  },
+  {
+   "group": "Payload & Mounting",
+   "key": "max_lift_capacity",
+   "label": "Maximum lifting capacity",
+   "value": 500,
+   "unit": "kg",
+   "note": "with MiR EU-/US-lift installed",
+   "source": "https://ai.motion.com/wp-content/uploads/2025/10/MiR600-Specifications-2.99.pdf"
+  },
+  {
+   "group": "Mobility & Performance",
+   "key": "max_speed",
+   "label": "Maximum speed",
+   "value": 2.0,
+   "unit": "m/s",
+   "note": "with maximum payload on a flat surface (7.2 km/h)",
+   "source": "https://ai.motion.com/wp-content/uploads/2025/10/MiR600-Specifications-2.99.pdf"
+  },
+  {
+   "group": "Mobility & Performance",
+   "key": "max_acceleration",
+   "label": "Maximum acceleration",
+   "value": 0.41,
+   "unit": "m/s²",
+   "note": "no payload",
+   "source": "https://ai.motion.com/wp-content/uploads/2025/10/MiR600-Specifications-2.99.pdf"
+  },
+  {
+   "group": "Mobility & Performance",
+   "key": "max_acceleration",
+   "label": "Maximum acceleration",
+   "value": 0.37,
+   "unit": "m/s²",
+   "note": "maximum payload",
+   "source": "https://ai.motion.com/wp-content/uploads/2025/10/MiR600-Specifications-2.99.pdf"
+  },
+  {
+   "group": "Mobility & Performance",
+   "key": "docking_accuracy",
+   "label": "Positioning precision, docking to VL-marker",
+   "value": "X ±2 mm; Y ±3 mm; orientation ±0.3°",
+   "unit": "",
+   "note": "",
+   "source": "https://ai.motion.com/wp-content/uploads/2025/10/MiR600-Specifications-2.99.pdf"
+  },
+  {
+   "group": "Mobility & Performance",
+   "key": "docking_accuracy",
+   "label": "Positioning precision, docking to V-marker",
+   "value": "X ±20 mm; Y ±20 mm; orientation 2°",
+   "unit": "",
+   "note": "",
+   "source": "https://ai.motion.com/wp-content/uploads/2025/10/MiR600-Specifications-2.99.pdf"
+  },
+  {
+   "group": "Mobility & Performance",
+   "key": "docking_accuracy",
+   "label": "Positioning precision, docking to bar-marker",
+   "value": "X ±10 mm; Y ±5 mm; orientation ±0.8°",
+   "unit": "",
+   "note": "",
+   "source": "https://ai.motion.com/wp-content/uploads/2025/10/MiR600-Specifications-2.99.pdf"
+  },
+  {
+   "group": "Mobility & Performance",
+   "key": "docking_accuracy",
+   "label": "Positioning precision, docking to L-marker",
+   "value": "X ±3 mm; Y ±3 mm; orientation ±0.3°",
+   "unit": "",
+   "note": "",
+   "source": "https://ai.motion.com/wp-content/uploads/2025/10/MiR600-Specifications-2.99.pdf"
+  },
+  {
+   "group": "Mobility & Performance",
+   "key": "positioning_accuracy",
+   "label": "Positioning precision, moving to position",
+   "value": "X ±100 mm; Y ±83 mm; orientation ±3.4°",
+   "unit": "",
+   "note": "",
+   "source": "https://ai.motion.com/wp-content/uploads/2025/10/MiR600-Specifications-2.99.pdf"
+  },
+  {
+   "group": "Charging & Docking",
+   "key": "docking_time",
+   "label": "Docking / undocking time, VL-marker",
+   "value": "up to 12 s / up to 7 s",
+   "unit": "",
+   "note": "offsets -0.75 m X, 0.2 m Y",
+   "source": "https://ai.motion.com/wp-content/uploads/2025/10/MiR600-Specifications-2.99.pdf"
+  },
+  {
+   "group": "Charging & Docking",
+   "key": "docking_time",
+   "label": "Docking / undocking time, V-marker",
+   "value": "up to 39 s / up to 5 s",
+   "unit": "",
+   "note": "offsets -0.75 m X, 0.4 m Y",
+   "source": "https://ai.motion.com/wp-content/uploads/2025/10/MiR600-Specifications-2.99.pdf"
+  },
+  {
+   "group": "Charging & Docking",
+   "key": "docking_time",
+   "label": "Docking / undocking time, L-marker",
+   "value": "up to 16 s / up to 12 s",
+   "unit": "",
+   "note": "default offsets",
+   "source": "https://ai.motion.com/wp-content/uploads/2025/10/MiR600-Specifications-2.99.pdf"
+  },
+  {
+   "group": "Charging & Docking",
+   "key": "docking_time",
+   "label": "Docking / undocking time, bar-marker",
+   "value": "up to 21 s / up to 14 s",
+   "unit": "",
+   "note": "default offsets",
+   "source": "https://ai.motion.com/wp-content/uploads/2025/10/MiR600-Specifications-2.99.pdf"
+  },
+  {
+   "group": "Terrain & Navigation Limits",
+   "key": "min_corridor_width",
+   "label": "Operational corridor width",
+   "value": 1.8,
+   "unit": "m",
+   "note": "standard settings; 1.20 m reduced safety settings",
+   "source": "https://ai.motion.com/wp-content/uploads/2025/10/MiR600-Specifications-2.99.pdf"
+  },
+  {
+   "group": "Terrain & Navigation Limits",
+   "key": "corridor_width_90_turn",
+   "label": "Corridor width for a 90° turn",
+   "value": 1.85,
+   "unit": "m",
+   "note": "standard; 1.55 m reduced safety settings",
+   "source": "https://ai.motion.com/wp-content/uploads/2025/10/MiR600-Specifications-2.99.pdf"
+  },
+  {
+   "group": "Terrain & Navigation Limits",
+   "key": "corridor_width_u_turn",
+   "label": "Corridor width for a U-turn",
+   "value": 1.85,
+   "unit": "m",
+   "note": "standard; 1.55 m reduced safety settings",
+   "source": "https://ai.motion.com/wp-content/uploads/2025/10/MiR600-Specifications-2.99.pdf"
+  },
+  {
+   "group": "Terrain & Navigation Limits",
+   "key": "pivot_width",
+   "label": "Operational width for pivoting",
+   "value": 2.3,
+   "unit": "m",
+   "note": "standard; 1.85 m reduced safety settings",
+   "source": "https://ai.motion.com/wp-content/uploads/2025/10/MiR600-Specifications-2.99.pdf"
+  },
+  {
+   "group": "Terrain & Navigation Limits",
+   "key": "min_doorway_width",
+   "label": "Operational doorway width",
+   "value": 1.65,
+   "unit": "m",
+   "note": "standard; 1.20 m reduced safety settings",
+   "source": "https://ai.motion.com/wp-content/uploads/2025/10/MiR600-Specifications-2.99.pdf"
+  },
+  {
+   "group": "Terrain & Navigation Limits",
+   "key": "corridor_width_two_robots_passing",
+   "label": "Corridor width for two robots passing",
+   "value": 3.5,
+   "unit": "m",
+   "note": "standard; 2.70 m reduced safety settings",
+   "source": "https://ai.motion.com/wp-content/uploads/2025/10/MiR600-Specifications-2.99.pdf"
+  },
+  {
+   "group": "Charging & Docking",
+   "key": "space_in_front_of_charger",
+   "label": "Minimum space in front of line of charging stations",
+   "value": 2.8,
+   "unit": "m",
+   "note": "standard; 2.60 m reduced safety settings",
+   "source": "https://ai.motion.com/wp-content/uploads/2025/10/MiR600-Specifications-2.99.pdf"
+  },
+  {
+   "group": "Charging & Docking",
+   "key": "min_distance_between_chargers",
+   "label": "Minimum distance between charging stations",
+   "value": 1.1,
+   "unit": "m",
+   "note": "",
+   "source": "https://ai.motion.com/wp-content/uploads/2025/10/MiR600-Specifications-2.99.pdf"
+  },
+  {
+   "group": "Terrain & Navigation Limits",
+   "key": "marker_space_requirements",
+   "label": "Marker/rack space requirements",
+   "value": "Pallet rack: 2.70 m in front (2.40 m reduced), 0.70 m sides (0.30 m reduced); V-marker: 3.00 m in front (2.75 m reduced), 0.22–0.28 m between; bar-marker: 2.45 m in front (2.20 m reduced); VL-marker: 0.02–0.03 m between",
+   "unit": "",
+   "note": "",
+   "source": "https://ai.motion.com/wp-content/uploads/2025/10/MiR600-Specifications-2.99.pdf"
+  },
+  {
+   "group": "Power & Battery",
+   "key": "battery_chemistry",
+   "label": "Battery type",
+   "value": "Lithium-ion",
+   "unit": "",
+   "note": "",
+   "source": "https://ai.motion.com/wp-content/uploads/2025/10/MiR600-Specifications-2.99.pdf"
+  },
+  {
+   "group": "Charging & Docking",
+   "key": "charging_method",
+   "label": "Charging options",
+   "value": "Charge 48V 35A; MiR Charge 48V; Battery Charger 48V 12A; Battery Charger 48V 650W 13.5A; Battery Charger 48V 1200W 13.5A; Cable Charger Lite 48V 3A",
+   "unit": "",
+   "note": "",
+   "source": "https://ai.motion.com/wp-content/uploads/2025/10/MiR600-Specifications-2.99.pdf"
+  },
+  {
+   "group": "Charging & Docking",
+   "key": "charge_time",
+   "label": "Charging time 10–90%",
+   "value": "45 min",
+   "unit": "",
+   "note": "MiR Charge 48V",
+   "source": "https://ai.motion.com/wp-content/uploads/2025/10/MiR600-Specifications-2.99.pdf"
+  },
+  {
+   "group": "Charging & Docking",
+   "key": "charge_time",
+   "label": "Charging time 10–90%",
+   "value": "1 h 10 min",
+   "unit": "",
+   "note": "cable charger",
+   "source": "https://ai.motion.com/wp-content/uploads/2025/10/MiR600-Specifications-2.99.pdf"
+  },
+  {
+   "group": "Charging & Docking",
+   "key": "max_charge_current",
+   "label": "Maximum charging current",
+   "value": 35,
+   "unit": "A",
+   "note": "",
+   "source": "https://ai.motion.com/wp-content/uploads/2025/10/MiR600-Specifications-2.99.pdf"
+  },
+  {
+   "group": "Power & Battery",
+   "key": "battery_mass",
+   "label": "Battery weight",
+   "value": 11,
+   "unit": "kg",
+   "note": "",
+   "source": "https://ai.motion.com/wp-content/uploads/2025/10/MiR600-Specifications-2.99.pdf"
+  },
+  {
+   "group": "Power & Battery",
+   "key": "battery_dimensions",
+   "label": "Battery dimensions",
+   "value": "545 × 201 × 75",
+   "unit": "mm",
+   "note": "",
+   "source": "https://ai.motion.com/wp-content/uploads/2025/10/MiR600-Specifications-2.99.pdf"
+  },
+  {
+   "group": "Power & Battery",
+   "key": "battery_cycle_life",
+   "label": "Battery cycle life",
+   "value": 3000,
+   "unit": "cycles",
+   "note": "minimum full cycles before capacity drops below 80%",
+   "source": "https://ai.motion.com/wp-content/uploads/2025/10/MiR600-Specifications-2.99.pdf"
+  },
+  {
+   "group": "Power & Battery",
+   "key": "battery_voltage",
+   "label": "Battery voltage (nominal)",
+   "value": 47.7,
+   "unit": "V",
+   "note": "minimum 42 V, maximum 54 V",
+   "source": "https://ai.motion.com/wp-content/uploads/2025/10/MiR600-Specifications-2.99.pdf"
+  },
+  {
+   "group": "Power & Battery",
+   "key": "battery_voltage_max",
+   "label": "Battery voltage (maximum)",
+   "value": 54,
+   "unit": "V",
+   "note": "",
+   "source": "https://ai.motion.com/wp-content/uploads/2025/10/MiR600-Specifications-2.99.pdf"
+  },
+  {
+   "group": "Power & Battery",
+   "key": "battery_capacity_ah",
+   "label": "Battery capacity (Ah)",
+   "value": 34.2,
+   "unit": "Ah",
+   "note": "",
+   "source": "https://ai.motion.com/wp-content/uploads/2025/10/MiR600-Specifications-2.99.pdf"
+  },
+  {
+   "group": "Charging & Docking",
+   "key": "charge_to_runtime_ratio",
+   "label": "Charging-to-runtime ratio",
+   "value": "1:11",
+   "unit": "",
+   "note": "15 min charging → 2 h 45 min runtime",
+   "source": "https://ai.motion.com/wp-content/uploads/2025/10/MiR600-Specifications-2.99.pdf"
+  },
+  {
+   "group": "Charging & Docking",
+   "key": "charge_to_runtime_ratio",
+   "label": "Charging-to-runtime ratio",
+   "value": "1:12",
+   "unit": "",
+   "note": "30 min charging → 5 h 45 min runtime",
+   "source": "https://ai.motion.com/wp-content/uploads/2025/10/MiR600-Specifications-2.99.pdf"
+  },
+  {
+   "group": "Power & Battery",
+   "key": "runtime",
+   "label": "Active operation time, no payload",
+   "value": "10 h 45 min",
+   "unit": "",
+   "note": "100–0%",
+   "source": "https://ai.motion.com/wp-content/uploads/2025/10/MiR600-Specifications-2.99.pdf"
+  },
+  {
+   "group": "Power & Battery",
+   "key": "runtime_with_payload",
+   "label": "Active operation time, maximum payload",
+   "value": "8 h 20 min",
+   "unit": "",
+   "note": "100–0%",
+   "source": "https://ai.motion.com/wp-content/uploads/2025/10/MiR600-Specifications-2.99.pdf"
+  },
+  {
+   "group": "Power & Battery",
+   "key": "standby_time",
+   "label": "Active standby time",
+   "value": "16 h 45 min",
+   "unit": "",
+   "note": "robot idle, 100–0%",
+   "source": "https://ai.motion.com/wp-content/uploads/2025/10/MiR600-Specifications-2.99.pdf"
+  },
+  {
+   "group": "Environment & Protection",
+   "key": "indoor_outdoor",
+   "label": "Environment",
+   "value": "Indoor use only",
+   "unit": "",
+   "note": "",
+   "source": "https://ai.motion.com/wp-content/uploads/2025/10/MiR600-Specifications-2.99.pdf"
+  },
+  {
+   "group": "Environment & Protection",
+   "key": "operating_temperature",
+   "label": "Operating ambient temperature",
+   "value": "5–25",
+   "unit": "°C",
+   "note": "continuous use; maximum 40 °C for 1 hour",
+   "source": "https://ai.motion.com/wp-content/uploads/2025/10/MiR600-Specifications-2.99.pdf"
+  },
+  {
+   "group": "Environment & Protection",
+   "key": "storage_temperature",
+   "label": "Storage temperature",
+   "value": "0–50",
+   "unit": "°C",
+   "note": "",
+   "source": "https://ai.motion.com/wp-content/uploads/2025/10/MiR600-Specifications-2.99.pdf"
+  },
+  {
+   "group": "Environment & Protection",
+   "key": "operating_humidity",
+   "label": "Humidity",
+   "value": "20–95",
+   "unit": "%",
+   "note": "non-condensing",
+   "source": "https://ai.motion.com/wp-content/uploads/2025/10/MiR600-Specifications-2.99.pdf"
+  },
+  {
+   "group": "Terrain & Navigation Limits",
+   "key": "floor_flatness_requirement",
+   "label": "Floor conditions",
+   "value": "Clean and dry",
+   "unit": "",
+   "note": "",
+   "source": "https://ai.motion.com/wp-content/uploads/2025/10/MiR600-Specifications-2.99.pdf"
+  },
+  {
+   "group": "Terrain & Navigation Limits",
+   "key": "max_slope",
+   "label": "Maximum slope at rated load",
+   "value": 3,
+   "unit": "%",
+   "note": "at 0.5 m/s",
+   "source": "https://ai.motion.com/wp-content/uploads/2025/10/MiR600-Specifications-2.99.pdf"
+  },
+  {
+   "group": "Terrain & Navigation Limits",
+   "key": "max_gap_crossing",
+   "label": "Maximum gap at rated load",
+   "value": 29,
+   "unit": "mm",
+   "note": "at 0.5 m/s, 70°–90° approach",
+   "source": "https://ai.motion.com/wp-content/uploads/2025/10/MiR600-Specifications-2.99.pdf"
+  },
+  {
+   "group": "Terrain & Navigation Limits",
+   "key": "max_step_height",
+   "label": "Maximum step at rated load",
+   "value": 10,
+   "unit": "mm",
+   "note": "at 0.5 m/s, 70°–90° approach",
+   "source": "https://ai.motion.com/wp-content/uploads/2025/10/MiR600-Specifications-2.99.pdf"
+  },
+  {
+   "group": "Terrain & Navigation Limits",
+   "key": "floor_friction_coefficient",
+   "label": "Floor-to-wheel friction coefficient",
+   "value": "0.60–0.80",
+   "unit": "",
+   "note": "",
+   "source": "https://ai.motion.com/wp-content/uploads/2025/10/MiR600-Specifications-2.99.pdf"
+  },
+  {
+   "group": "Sensors & Perception",
+   "key": "undetectable_materials",
+   "label": "Materials not reliably detected",
+   "value": "Transparent, translucent, glossy, reflective and light-emitting",
+   "unit": "",
+   "note": "",
+   "source": "https://ai.motion.com/wp-content/uploads/2025/10/MiR600-Specifications-2.99.pdf"
+  },
+  {
+   "group": "Environment & Protection",
+   "key": "lighting_requirements",
+   "label": "Optimal light conditions",
+   "value": "Even and steady lighting; strong directional light can cause false obstacle detections",
+   "unit": "",
+   "note": "",
+   "source": "https://ai.motion.com/wp-content/uploads/2025/10/MiR600-Specifications-2.99.pdf"
+  },
+  {
+   "group": "Environment & Protection",
+   "key": "max_altitude",
+   "label": "Maximum altitude",
+   "value": 2000,
+   "unit": "m",
+   "note": "",
+   "source": "https://ai.motion.com/wp-content/uploads/2025/10/MiR600-Specifications-2.99.pdf"
+  },
+  {
+   "group": "Safety & Compliance",
+   "key": "emc_standards",
+   "label": "EMC",
+   "value": "EN 61000-6-4",
+   "unit": "",
+   "note": "",
+   "source": "https://ai.motion.com/wp-content/uploads/2025/10/MiR600-Specifications-2.99.pdf"
+  },
+  {
+   "group": "Safety & Compliance",
+   "key": "safety_standards",
+   "label": "Compliant with",
+   "value": "ISO 13849-1; ISO 12100; ISO 13850; ISO 3691-4 (except Clause 4.4, 4.9.4, 5.1, 5.2, 6 and Annex A)",
+   "unit": "",
+   "note": "",
+   "source": "https://ai.motion.com/wp-content/uploads/2025/10/MiR600-Specifications-2.99.pdf"
+  },
+  {
+   "group": "Safety & Compliance",
+   "key": "safety_standards",
+   "label": "Design based on (industrial vehicle standards)",
+   "value": "ITSDF B56-5; RIA R15.08-1",
+   "unit": "",
+   "note": "",
+   "source": "https://ai.motion.com/wp-content/uploads/2025/10/MiR600-Specifications-2.99.pdf"
+  },
+  {
+   "group": "Safety & Compliance",
+   "key": "certifications",
+   "label": "TÜV safety evaluation",
+   "value": "ISO 13849-1 (TÜV Rheinland certificate)",
+   "unit": "",
+   "note": "",
+   "source": "https://ai.motion.com/wp-content/uploads/2025/10/MiR600-Specifications-2.99.pdf"
+  },
+  {
+   "group": "Safety & Compliance",
+   "key": "safety_functions",
+   "label": "Safety functions",
+   "value": "13 safety functions according to ISO 13849-1, certified by TÜV Rheinland",
+   "unit": "",
+   "note": "",
+   "source": "https://ai.motion.com/wp-content/uploads/2025/10/MiR600-Specifications-2.99.pdf"
+  },
+  {
+   "group": "Safety & Compliance",
+   "key": "personnel_detection",
+   "label": "Personnel detection safety function",
+   "value": "Triggered when obstacles or people are detected too close to the robot",
+   "unit": "",
+   "note": "",
+   "source": "https://ai.motion.com/wp-content/uploads/2025/10/MiR600-Specifications-2.99.pdf"
+  },
+  {
+   "group": "Safety & Compliance",
+   "key": "emergency_stop",
+   "label": "Emergency stop",
+   "value": "Four E-stop buttons, one in each corner; E-stop connector in electrical interface and joystick interface",
+   "unit": "",
+   "note": "",
+   "source": "https://ai.motion.com/wp-content/uploads/2025/10/MiR600-Specifications-2.99.pdf"
+  },
+  {
+   "group": "Safety & Compliance",
+   "key": "overspeed_avoidance",
+   "label": "Overspeed avoidance",
+   "value": "Prevents driving faster than predefined safety limit",
+   "unit": "",
+   "note": "",
+   "source": "https://ai.motion.com/wp-content/uploads/2025/10/MiR600-Specifications-2.99.pdf"
+  },
+  {
+   "group": "Safety & Compliance",
+   "key": "obstacle_avoidance",
+   "label": "Collision avoidance",
+   "value": "Triggered by a human or obstacle in the path of travel",
+   "unit": "",
+   "note": "",
+   "source": "https://ai.motion.com/wp-content/uploads/2025/10/MiR600-Specifications-2.99.pdf"
+  },
+  {
+   "group": "Controls & Operation",
+   "key": "manual_control",
+   "label": "Manual control in robot interface",
+   "value": "Token-based access; one token at a time",
+   "unit": "",
+   "note": "",
+   "source": "https://ai.motion.com/wp-content/uploads/2025/10/MiR600-Specifications-2.99.pdf"
+  },
+  {
+   "group": "Safety & Compliance",
+   "key": "safe_guarded_stop",
+   "label": "Safe guarded stop",
+   "value": true,
+   "unit": "",
+   "note": "",
+   "source": "https://ai.motion.com/wp-content/uploads/2025/10/MiR600-Specifications-2.99.pdf"
+  },
+  {
+   "group": "Safety & Compliance",
+   "key": "safe_load_position",
+   "label": "Safe load position",
+   "value": "Triggered if speed exceeds 0.3 m/s while lift/carrier is being lowered or raised",
+   "unit": "",
+   "note": "",
+   "source": "https://ai.motion.com/wp-content/uploads/2025/10/MiR600-Specifications-2.99.pdf"
+  },
+  {
+   "group": "Connectivity & Interfaces",
+   "key": "wifi",
+   "label": "Wi-Fi",
+   "value": "2.4 GHz and 5 GHz, 2 external antennas",
+   "unit": "",
+   "note": "",
+   "source": "https://ai.motion.com/wp-content/uploads/2025/10/MiR600-Specifications-2.99.pdf"
+  },
+  {
+   "group": "Payload & Mounting",
+   "key": "payload_port_voltage",
+   "label": "Power interface for top modules",
+   "value": "24 V and 48 V outputs (M23 6-pin connector)",
+   "unit": "",
+   "note": "",
+   "source": "https://ai.motion.com/wp-content/uploads/2025/10/MiR600-Specifications-2.99.pdf"
+  },
+  {
+   "group": "Connectivity & Interfaces",
+   "key": "gpio",
+   "label": "GPIO interface",
+   "value": "4 digital inputs, 4 digital outputs (M17 17-pin connector)",
+   "unit": "",
+   "note": "",
+   "source": "https://ai.motion.com/wp-content/uploads/2025/10/MiR600-Specifications-2.99.pdf"
+  },
+  {
+   "group": "Connectivity & Interfaces",
+   "key": "ethernet",
+   "label": "Ethernet interface",
+   "value": "10/100 Mbit Ethernet with Modbus (M12 4-pin connector)",
+   "unit": "",
+   "note": "",
+   "source": "https://ai.motion.com/wp-content/uploads/2025/10/MiR600-Specifications-2.99.pdf"
+  },
+  {
+   "group": "Connectivity & Interfaces",
+   "key": "aux_estop_interface",
+   "label": "Auxiliary emergency stop interface",
+   "value": "E-stop buttons on top modules (M17 8-pin connector)",
+   "unit": "",
+   "note": "",
+   "source": "https://ai.motion.com/wp-content/uploads/2025/10/MiR600-Specifications-2.99.pdf"
+  },
+  {
+   "group": "Connectivity & Interfaces",
+   "key": "aux_safety_interface",
+   "label": "Auxiliary safety function interface",
+   "value": "Safety-related functions for top modules (M17 17-pin connector)",
+   "unit": "",
+   "note": "",
+   "source": "https://ai.motion.com/wp-content/uploads/2025/10/MiR600-Specifications-2.99.pdf"
+  },
+  {
+   "group": "Connectivity & Interfaces",
+   "key": "antenna_interface",
+   "label": "Antenna interface",
+   "value": "RP-SMA connector for top module",
+   "unit": "",
+   "note": "",
+   "source": "https://ai.motion.com/wp-content/uploads/2025/10/MiR600-Specifications-2.99.pdf"
+  },
+  {
+   "group": "Compute & Software",
+   "key": "api",
+   "label": "Communication protocols",
+   "value": "REST; Modbus",
+   "unit": "",
+   "note": "",
+   "source": "https://ai.motion.com/wp-content/uploads/2025/10/MiR600-Specifications-2.99.pdf"
+  },
+  {
+   "group": "Sensors & Perception",
+   "key": "safety_scanner",
+   "label": "Safety laser scanners",
+   "value": "2 (front and rear), 360° personnel detection 200 mm above ground",
+   "unit": "",
+   "note": "",
+   "source": "https://ai.motion.com/wp-content/uploads/2025/10/MiR600-Specifications-2.99.pdf"
+  },
+  {
+   "group": "Sensors & Perception",
+   "key": "depth_camera_count",
+   "label": "3D cameras",
+   "value": 2,
+   "unit": "",
+   "note": "for obstacles in front of robot outside the scanner plane",
+   "source": "https://ai.motion.com/wp-content/uploads/2025/10/MiR600-Specifications-2.99.pdf"
+  },
+  {
+   "group": "Sensors & Perception",
+   "key": "proximity_sensors",
+   "label": "Proximity sensors",
+   "value": 8,
+   "unit": "",
+   "note": "",
+   "source": "https://ai.motion.com/wp-content/uploads/2025/10/MiR600-Specifications-2.99.pdf"
+  },
+  {
+   "group": "Audio, Lights & HMI",
+   "key": "speaker",
+   "label": "Audio",
+   "value": "Speaker",
+   "unit": "",
+   "note": "",
+   "source": "https://ai.motion.com/wp-content/uploads/2025/10/MiR600-Specifications-2.99.pdf"
+  },
+  {
+   "group": "Audio, Lights & HMI",
+   "key": "status_lights",
+   "label": "Status light",
+   "value": "4 LED bands indicating robot status",
+   "unit": "",
+   "note": "",
+   "source": "https://ai.motion.com/wp-content/uploads/2025/10/MiR600-Specifications-2.99.pdf"
+  },
+  {
+   "group": "Audio, Lights & HMI",
+   "key": "signal_lights",
+   "label": "Signal lights",
+   "value": "8, indicating driving behavior and direction",
+   "unit": "",
+   "note": "",
+   "source": "https://ai.motion.com/wp-content/uploads/2025/10/MiR600-Specifications-2.99.pdf"
+  }
+ ]
+}

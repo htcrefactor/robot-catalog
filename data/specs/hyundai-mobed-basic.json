@@ -1,0 +1,394 @@
+{
+ "id": "hyundai-mobed-basic",
+ "checked": "2026-11-04",
+ "documents": [
+  {
+   "title": "Hyundai Motor Group newsroom – MobED at iREX 2025 (spec table)",
+   "url": "https://www.hyundai.com/worldwide/en/newsroom/detail/0000001082"
+  },
+  {
+   "title": "Hyundai Robotics LAB – MobED product page (spec table, KR)",
+   "url": "https://robotics.hyundai.com/en/unveiled-robots/mobile/mobedNew.do"
+  }
+ ],
+ "specs": [
+  {
+   "group": "Identity",
+   "key": "variants",
+   "label": "Variants",
+   "value": "MobED Pro; MobED Basic",
+   "unit": "",
+   "note": "",
+   "source": "https://www.hyundai.com/worldwide/en/newsroom/detail/0000001082"
+  },
+  {
+   "group": "Identity",
+   "key": "release_date",
+   "label": "Sales start",
+   "value": "H1 2026 (scheduled)",
+   "unit": "",
+   "note": "unveiled iREX 2025, 3 Dec 2025",
+   "source": "https://www.hyundai.com/worldwide/en/newsroom/detail/0000001082"
+  },
+  {
+   "group": "Dimensions & Mass",
+   "key": "width",
+   "label": "Width",
+   "value": "≤750",
+   "unit": "mm",
+   "note": "",
+   "source": "https://www.hyundai.com/worldwide/en/newsroom/detail/0000001082"
+  },
+  {
+   "group": "Dimensions & Mass",
+   "key": "length",
+   "label": "Length",
+   "value": "≤1150",
+   "unit": "mm",
+   "note": "",
+   "source": "https://www.hyundai.com/worldwide/en/newsroom/detail/0000001082"
+  },
+  {
+   "group": "Dimensions & Mass",
+   "key": "height",
+   "label": "Height",
+   "value": "≤430",
+   "unit": "mm",
+   "note": "press release Dec 2025",
+   "source": "https://www.hyundai.com/worldwide/en/newsroom/detail/0000001082"
+  },
+  {
+   "group": "Dimensions & Mass",
+   "key": "height",
+   "label": "Height",
+   "value": "≤420",
+   "unit": "mm",
+   "note": "Robotics LAB product page (current)",
+   "source": "https://robotics.hyundai.com/en/unveiled-robots/mobile/mobedNew.do"
+  },
+  {
+   "group": "Dimensions & Mass",
+   "key": "weight",
+   "label": "Tare weight",
+   "value": "≤78",
+   "unit": "kg",
+   "note": "press release Dec 2025",
+   "source": "https://www.hyundai.com/worldwide/en/newsroom/detail/0000001082"
+  },
+  {
+   "group": "Dimensions & Mass",
+   "key": "weight",
+   "label": "Weight",
+   "value": "76 ± 1.5%",
+   "unit": "kg",
+   "note": "Robotics LAB product page (current)",
+   "source": "https://robotics.hyundai.com/en/unveiled-robots/mobile/mobedNew.do"
+  },
+  {
+   "group": "Mobility & Performance",
+   "key": "max_payload",
+   "label": "Maximum payload",
+   "value": "≤57",
+   "unit": "kg",
+   "note": "",
+   "source": "https://www.hyundai.com/worldwide/en/newsroom/detail/0000001082"
+  },
+  {
+   "group": "Mobility & Performance",
+   "key": "drive_train",
+   "label": "Structure",
+   "value": "360° rotating eccentric structure; Drive-and-Lift (DnL) modules integrate drive, steering, braking, posture",
+   "unit": "",
+   "note": "eccentric rotation radius 100 mm",
+   "source": "https://www.hyundai.com/worldwide/en/newsroom/detail/0000001082"
+  },
+  {
+   "group": "Mobility & Performance",
+   "key": "eccentric_radius",
+   "label": "Eccentric rotation radius",
+   "value": 100,
+   "unit": "mm",
+   "note": "",
+   "source": "https://www.hyundai.com/worldwide/en/newsroom/detail/0000001082"
+  },
+  {
+   "group": "Mobility & Performance",
+   "key": "wheel_configuration",
+   "label": "Wheels",
+   "value": "4 independently controlled wheels",
+   "unit": "",
+   "note": "https://robotics.hyundai.com/en/unveiled-robots/mobile/mobedNew.do",
+   "source": "https://www.hyundai.com/worldwide/en/newsroom/detail/0000001082"
+  },
+  {
+   "group": "Controls & Operation",
+   "key": "control_modes",
+   "label": "Drive modes",
+   "value": "Manual (Basic, Freestyle, Zigzag)",
+   "unit": "",
+   "note": "",
+   "source": "https://www.hyundai.com/worldwide/en/newsroom/detail/0000001082"
+  },
+  {
+   "group": "Mobility & Performance",
+   "key": "postures",
+   "label": "Driving postures",
+   "value": "Outward deployment, inward deployment, backward, forward",
+   "unit": "",
+   "note": "",
+   "source": "https://www.hyundai.com/worldwide/en/newsroom/detail/0000001082"
+  },
+  {
+   "group": "Mobility & Performance",
+   "key": "max_speed",
+   "label": "Max speed",
+   "value": 2.8,
+   "unit": "m/s",
+   "note": "10 km/h; other postures",
+   "source": "https://www.hyundai.com/worldwide/en/newsroom/detail/0000001082"
+  },
+  {
+   "group": "Mobility & Performance",
+   "key": "max_speed",
+   "label": "Max speed (inward posture)",
+   "value": 0.3,
+   "unit": "m/s",
+   "note": "inward deployment posture",
+   "source": "https://www.hyundai.com/worldwide/en/newsroom/detail/0000001082"
+  },
+  {
+   "group": "Terrain & Navigation Limits",
+   "key": "max_slope",
+   "label": "Maximum slope",
+   "value": "±10",
+   "unit": "°",
+   "note": "operation at user discretion",
+   "source": "https://www.hyundai.com/worldwide/en/newsroom/detail/0000001082"
+  },
+  {
+   "group": "Terrain & Navigation Limits",
+   "key": "max_obstacle_height",
+   "label": "Curb clearance height",
+   "value": "100–200",
+   "unit": "mm",
+   "note": "",
+   "source": "https://www.hyundai.com/worldwide/en/newsroom/detail/0000001082"
+  },
+  {
+   "group": "Sensors & Perception",
+   "key": "radar",
+   "label": "Functional safety sensor",
+   "value": "Radar",
+   "unit": "",
+   "note": "",
+   "source": "https://www.hyundai.com/worldwide/en/newsroom/detail/0000001082"
+  },
+  {
+   "group": "Environment & Protection",
+   "key": "operating_temperature",
+   "label": "Operating temperature",
+   "value": "0 to 40",
+   "unit": "°C",
+   "note": "",
+   "source": "https://www.hyundai.com/worldwide/en/newsroom/detail/0000001082"
+  },
+  {
+   "group": "Environment & Protection",
+   "key": "charging_temperature",
+   "label": "Charging temperature",
+   "value": "1 to 35",
+   "unit": "°C",
+   "note": "",
+   "source": "https://www.hyundai.com/worldwide/en/newsroom/detail/0000001082"
+  },
+  {
+   "group": "Environment & Protection",
+   "key": "storage_temperature",
+   "label": "Storage temperature",
+   "value": "0 to 40",
+   "unit": "°C",
+   "note": "",
+   "source": "https://www.hyundai.com/worldwide/en/newsroom/detail/0000001082"
+  },
+  {
+   "group": "Power & Battery",
+   "key": "battery_capacity",
+   "label": "Rated capacity",
+   "value": 1.47,
+   "unit": "kWh",
+   "note": "",
+   "source": "https://www.hyundai.com/worldwide/en/newsroom/detail/0000001082"
+  },
+  {
+   "group": "Power & Battery",
+   "key": "battery_voltage",
+   "label": "Battery pack voltage",
+   "value": "36–49.2",
+   "unit": "V",
+   "note": "",
+   "source": "https://www.hyundai.com/worldwide/en/newsroom/detail/0000001082"
+  },
+  {
+   "group": "Power & Battery",
+   "key": "rated_current",
+   "label": "Rated discharge current",
+   "value": 33.6,
+   "unit": "A",
+   "note": "",
+   "source": "https://www.hyundai.com/worldwide/en/newsroom/detail/0000001082"
+  },
+  {
+   "group": "Power & Battery",
+   "key": "runtime",
+   "label": "Operating time",
+   "value": "≥4",
+   "unit": "h",
+   "note": "BMS SOC 90% → 10%",
+   "source": "https://www.hyundai.com/worldwide/en/newsroom/detail/0000001082"
+  },
+  {
+   "group": "Charging & Docking",
+   "key": "charge_time",
+   "label": "Charging time",
+   "value": "≤2.5",
+   "unit": "h",
+   "note": "BMS SOC 10% → 90%",
+   "source": "https://www.hyundai.com/worldwide/en/newsroom/detail/0000001082"
+  },
+  {
+   "group": "Safety & Compliance",
+   "key": "certifications",
+   "label": "Battery certification",
+   "value": "UL2271",
+   "unit": "",
+   "note": "",
+   "source": "https://www.hyundai.com/worldwide/en/newsroom/detail/0000001082"
+  },
+  {
+   "group": "Payload & Mounting",
+   "key": "mounting_rail",
+   "label": "Top module mechanical",
+   "value": "Mounting rail",
+   "unit": "",
+   "note": "",
+   "source": "https://www.hyundai.com/worldwide/en/newsroom/detail/0000001082"
+  },
+  {
+   "group": "Payload & Mounting",
+   "key": "top_module_interface",
+   "label": "Top module port",
+   "value": "DB37 connector (communication and power)",
+   "unit": "",
+   "note": "https://robotics.hyundai.com/en/unveiled-robots/mobile/mobedNew.do",
+   "source": "https://www.hyundai.com/worldwide/en/newsroom/detail/0000001082"
+  },
+  {
+   "group": "Connectivity & Interfaces",
+   "key": "api",
+   "label": "API",
+   "value": "RS422",
+   "unit": "",
+   "note": "",
+   "source": "https://www.hyundai.com/worldwide/en/newsroom/detail/0000001082"
+  },
+  {
+   "group": "Payload & Mounting",
+   "key": "payload_port_power",
+   "label": "Top module power",
+   "value": "24 V 300 W / 48 V 500 W",
+   "unit": "",
+   "note": "press release",
+   "source": "https://www.hyundai.com/worldwide/en/newsroom/detail/0000001082"
+  },
+  {
+   "group": "Payload & Mounting",
+   "key": "payload_port_power",
+   "label": "Top module power",
+   "value": "18–25 V, 12 A (max 300 W)",
+   "unit": "",
+   "note": "Robotics LAB product page",
+   "source": "https://robotics.hyundai.com/en/unveiled-robots/mobile/mobedNew.do"
+  },
+  {
+   "group": "Compute & Software",
+   "key": "diagnostics",
+   "label": "Software update & diagnostics",
+   "value": "Wired update, diagnostic scanner",
+   "unit": "",
+   "note": "",
+   "source": "https://www.hyundai.com/worldwide/en/newsroom/detail/0000001082"
+  },
+  {
+   "group": "Safety & Compliance",
+   "key": "safety_standards",
+   "label": "Certifications",
+   "value": "In progress",
+   "unit": "",
+   "note": "",
+   "source": "https://www.hyundai.com/worldwide/en/newsroom/detail/0000001082"
+  },
+  {
+   "group": "Environment & Protection",
+   "key": "ip_rating",
+   "label": "Ingress protection",
+   "value": "IP54",
+   "unit": "",
+   "note": "",
+   "source": "https://www.hyundai.com/worldwide/en/newsroom/detail/0000001082"
+  },
+  {
+   "group": "Safety & Compliance",
+   "key": "charging_station_certifications",
+   "label": "Charging station certification",
+   "value": "IEC / UL / KC 60335, KC / CE / FCC",
+   "unit": "",
+   "note": "",
+   "source": "https://www.hyundai.com/worldwide/en/newsroom/detail/0000001082"
+  },
+  {
+   "group": "Charging & Docking",
+   "key": "charging_method",
+   "label": "Charging method",
+   "value": "Manual charger",
+   "unit": "",
+   "note": "",
+   "source": "https://www.hyundai.com/worldwide/en/newsroom/detail/0000001082"
+  },
+  {
+   "group": "Commercial",
+   "key": "warranty",
+   "label": "Warranty",
+   "value": 1,
+   "unit": "year",
+   "note": "",
+   "source": "https://www.hyundai.com/worldwide/en/newsroom/detail/0000001082"
+  },
+  {
+   "group": "Compute & Software",
+   "key": "sdk",
+   "label": "Customization",
+   "value": "Universal mounting rails and APIs for attachments",
+   "unit": "",
+   "note": "",
+   "source": "https://www.hyundai.com/worldwide/en/newsroom/detail/0000001082"
+  },
+  {
+   "group": "Controls & Operation",
+   "key": "autonomy_features",
+   "label": "Autonomy",
+   "value": "Not included; custom autonomous driving kit can be installed on top module",
+   "unit": "",
+   "note": "",
+   "source": "https://www.hyundai.com/worldwide/en/newsroom/detail/0000001082"
+  },
+  {
+   "group": "Connectivity & Interfaces",
+   "key": "video_streaming",
+   "label": "Streaming",
+   "value": "Not included",
+   "unit": "",
+   "note": "https://robotics.hyundai.com/en/unveiled-robots/mobile/mobedNew.do",
+   "source": "https://www.hyundai.com/worldwide/en/newsroom/detail/0000001082"
+  }
+ ]
+}

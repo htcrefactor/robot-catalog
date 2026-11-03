@@ -1,0 +1,641 @@
+{
+ "id": "deep-robotics-lynx-m20",
+ "checked": "2026-11-04",
+ "documents": [
+  {
+   "title": "DEEP Robotics LYNX M20 product page (US partner site, spec list)",
+   "url": "https://www.deeprobotics.us/products/lynx-m20"
+  },
+  {
+   "title": "Lynx M20 Pro User Manual V1.0.2",
+   "url": "https://www.deeprobotics.us/wp-content/uploads/2025/08/Lynx-M20-Pro-User-Manual-V1.0.2-0.pdf"
+  }
+ ],
+ "specs": [
+  {
+   "group": "Identity",
+   "key": "variants",
+   "label": "Variants",
+   "value": "LYNX M20; LYNX M20 Pro",
+   "unit": "",
+   "note": "",
+   "source": "https://www.deeprobotics.us/products/lynx-m20"
+  },
+  {
+   "group": "Dimensions & Mass",
+   "key": "length",
+   "label": "Length",
+   "value": 820,
+   "unit": "mm",
+   "note": "standing",
+   "source": "https://www.deeprobotics.us/products/lynx-m20"
+  },
+  {
+   "group": "Dimensions & Mass",
+   "key": "width",
+   "label": "Width",
+   "value": 430,
+   "unit": "mm",
+   "note": "standing",
+   "source": "https://www.deeprobotics.us/products/lynx-m20"
+  },
+  {
+   "group": "Dimensions & Mass",
+   "key": "height_standing",
+   "label": "Height (standing)",
+   "value": 570,
+   "unit": "mm",
+   "note": "",
+   "source": "https://www.deeprobotics.us/products/lynx-m20"
+  },
+  {
+   "group": "Dimensions & Mass",
+   "key": "weight_with_battery",
+   "label": "Weight (with battery)",
+   "value": 33,
+   "unit": "kg",
+   "note": "M20; M20 Pro manual lists 35 kg",
+   "source": "https://www.deeprobotics.us/products/lynx-m20"
+  },
+  {
+   "group": "Dimensions & Mass",
+   "key": "height_sitting",
+   "label": "Height (sitting)",
+   "value": 185,
+   "unit": "mm",
+   "note": "M20 Pro manual: sitting size 820 × 600 × 185 mm",
+   "source": "https://www.deeprobotics.us/wp-content/uploads/2025/08/Lynx-M20-Pro-User-Manual-V1.0.2-0.pdf",
+   "ref": "§1.4 p.7"
+  },
+  {
+   "group": "Dimensions & Mass",
+   "key": "width",
+   "label": "Width (sitting)",
+   "value": 600,
+   "unit": "mm",
+   "note": "M20 Pro manual, sitting",
+   "source": "https://www.deeprobotics.us/wp-content/uploads/2025/08/Lynx-M20-Pro-User-Manual-V1.0.2-0.pdf",
+   "ref": "§1.4 p.7"
+  },
+  {
+   "group": "Dimensions & Mass",
+   "key": "tire_type",
+   "label": "Tyre size",
+   "value": "7 inch",
+   "unit": "",
+   "note": "Lynx M20 Pro User Manual V1.0.2 (shared platform; Pro variant)",
+   "source": "https://www.deeprobotics.us/wp-content/uploads/2025/08/Lynx-M20-Pro-User-Manual-V1.0.2-0.pdf",
+   "ref": "§1.4 p.7"
+  },
+  {
+   "group": "Mobility & Performance",
+   "key": "rated_payload",
+   "label": "Payload capacity",
+   "value": 15,
+   "unit": "kg",
+   "note": "",
+   "source": "https://www.deeprobotics.us/products/lynx-m20"
+  },
+  {
+   "group": "Mobility & Performance",
+   "key": "max_payload",
+   "label": "Maximum load capacity",
+   "value": 50,
+   "unit": "kg",
+   "note": "extreme test data per manual",
+   "source": "https://www.deeprobotics.us/products/lynx-m20"
+  },
+  {
+   "group": "Power & Battery",
+   "key": "runtime",
+   "label": "Unloaded endurance",
+   "value": 3,
+   "unit": "h",
+   "note": "15 km; dual battery",
+   "source": "https://www.deeprobotics.us/products/lynx-m20"
+  },
+  {
+   "group": "Power & Battery",
+   "key": "range_per_charge",
+   "label": "Unloaded range",
+   "value": 15,
+   "unit": "km",
+   "note": "",
+   "source": "https://www.deeprobotics.us/products/lynx-m20"
+  },
+  {
+   "group": "Power & Battery",
+   "key": "runtime_with_payload",
+   "label": "Loaded endurance (15 kg)",
+   "value": 2.5,
+   "unit": "h",
+   "note": "12 km",
+   "source": "https://www.deeprobotics.us/products/lynx-m20"
+  },
+  {
+   "group": "Power & Battery",
+   "key": "range_per_charge",
+   "label": "Loaded range (15 kg)",
+   "value": 12,
+   "unit": "km",
+   "note": "",
+   "source": "https://www.deeprobotics.us/products/lynx-m20"
+  },
+  {
+   "group": "Charging & Docking",
+   "key": "charge_time",
+   "label": "Charging time (single battery)",
+   "value": 1.5,
+   "unit": "h",
+   "note": "manual: 1.5–2 h per battery; dual batteries can charge simultaneously",
+   "source": "https://www.deeprobotics.us/products/lynx-m20"
+  },
+  {
+   "group": "Mobility & Performance",
+   "key": "max_speed",
+   "label": "Maximum speed (lab-tested)",
+   "value": 5,
+   "unit": "m/s",
+   "note": "",
+   "source": "https://www.deeprobotics.us/products/lynx-m20"
+  },
+  {
+   "group": "Mobility & Performance",
+   "key": "nominal_speed",
+   "label": "Safe operational speed",
+   "value": 2,
+   "unit": "m/s",
+   "note": "max working speed; Basic gait max 2.0 m/s",
+   "source": "https://www.deeprobotics.us/products/lynx-m20"
+  },
+  {
+   "group": "Terrain & Navigation Limits",
+   "key": "max_stair_step_height",
+   "label": "Max continuous stair height",
+   "value": 25,
+   "unit": "cm",
+   "note": "",
+   "source": "https://www.deeprobotics.us/products/lynx-m20"
+  },
+  {
+   "group": "Terrain & Navigation Limits",
+   "key": "max_stair_slope",
+   "label": "Max continuous stair slope",
+   "value": "±45",
+   "unit": "°",
+   "note": "Lynx M20 Pro User Manual V1.0.2 (shared platform; Pro variant)",
+   "source": "https://www.deeprobotics.us/wp-content/uploads/2025/08/Lynx-M20-Pro-User-Manual-V1.0.2-0.pdf",
+   "ref": "§1.4 p.7"
+  },
+  {
+   "group": "Terrain & Navigation Limits",
+   "key": "max_step_height",
+   "label": "Max single-step height",
+   "value": 80,
+   "unit": "cm",
+   "note": "High Obstacles gait supports platforms ≤80 cm",
+   "source": "https://www.deeprobotics.us/products/lynx-m20"
+  },
+  {
+   "group": "Terrain & Navigation Limits",
+   "key": "max_slope",
+   "label": "Maximum slope",
+   "value": 45,
+   "unit": "°",
+   "note": "varies with flooring material",
+   "source": "https://www.deeprobotics.us/products/lynx-m20"
+  },
+  {
+   "group": "Compute & Software",
+   "key": "cpu",
+   "label": "Computing power",
+   "value": "Dual octa-core 64-bit industrial processors (16 GB + 128 GB) × 2",
+   "unit": "",
+   "note": "M20 Pro: 3 industrial-grade hosts",
+   "source": "https://www.deeprobotics.us/products/lynx-m20"
+  },
+  {
+   "group": "Compute & Software",
+   "key": "ram",
+   "label": "RAM",
+   "value": 16,
+   "unit": "GB",
+   "note": "per processor",
+   "source": "https://www.deeprobotics.us/products/lynx-m20"
+  },
+  {
+   "group": "Compute & Software",
+   "key": "storage",
+   "label": "Storage",
+   "value": 128,
+   "unit": "GB",
+   "note": "per processor",
+   "source": "https://www.deeprobotics.us/products/lynx-m20"
+  },
+  {
+   "group": "Sensors & Perception",
+   "key": "lidar_type",
+   "label": "LiDAR",
+   "value": "Dual 96-line units",
+   "unit": "",
+   "note": "",
+   "source": "https://www.deeprobotics.us/products/lynx-m20"
+  },
+  {
+   "group": "Sensors & Perception",
+   "key": "lidar_fov",
+   "label": "LiDAR FOV",
+   "value": "360 × 90",
+   "unit": "°",
+   "note": "",
+   "source": "https://www.deeprobotics.us/products/lynx-m20"
+  },
+  {
+   "group": "Sensors & Perception",
+   "key": "lidar_point_rate",
+   "label": "LiDAR point rate",
+   "value": 860000,
+   "unit": "pts/s",
+   "note": "~",
+   "source": "https://www.deeprobotics.us/products/lynx-m20"
+  },
+  {
+   "group": "Sensors & Perception",
+   "key": "camera_type",
+   "label": "Cameras",
+   "value": "Dual wide-angle cameras",
+   "unit": "",
+   "note": "",
+   "source": "https://www.deeprobotics.us/products/lynx-m20"
+  },
+  {
+   "group": "Environment & Protection",
+   "key": "ip_rating",
+   "label": "Ingress protection",
+   "value": "IP66",
+   "unit": "",
+   "note": "only with both batteries installed; no immersion",
+   "source": "https://www.deeprobotics.us/products/lynx-m20"
+  },
+  {
+   "group": "Environment & Protection",
+   "key": "operating_temperature",
+   "label": "Operating temperature",
+   "value": "−20 to 55",
+   "unit": "°C",
+   "note": "",
+   "source": "https://www.deeprobotics.us/products/lynx-m20"
+  },
+  {
+   "group": "Safety & Compliance",
+   "key": "obstacle_avoidance",
+   "label": "Obstacle avoidance",
+   "value": "Omnidirectional",
+   "unit": "",
+   "note": "",
+   "source": "https://www.deeprobotics.us/products/lynx-m20"
+  },
+  {
+   "group": "Terrain & Navigation Limits",
+   "key": "mapping",
+   "label": "Mapping",
+   "value": "360° point-cloud surround view / mapping",
+   "unit": "",
+   "note": "",
+   "source": "https://www.deeprobotics.us/products/lynx-m20"
+  },
+  {
+   "group": "Audio, Lights & HMI",
+   "key": "front_light",
+   "label": "Lighting",
+   "value": "Front/rear bidirectional lighting (flashlight ×2)",
+   "unit": "",
+   "note": "",
+   "source": "https://www.deeprobotics.us/products/lynx-m20"
+  },
+  {
+   "group": "Connectivity & Interfaces",
+   "key": "video_transmission",
+   "label": "Image transmission",
+   "value": "RF image transmission",
+   "unit": "",
+   "note": "",
+   "source": "https://www.deeprobotics.us/products/lynx-m20"
+  },
+  {
+   "group": "Compute & Software",
+   "key": "ota_updates",
+   "label": "OTA upgrades",
+   "value": "Supported",
+   "unit": "",
+   "note": "",
+   "source": "https://www.deeprobotics.us/products/lynx-m20"
+  },
+  {
+   "group": "Connectivity & Interfaces",
+   "key": "external_ports",
+   "label": "Electrical ports",
+   "value": "72 V power input; Gigabit Ethernet",
+   "unit": "",
+   "note": "",
+   "source": "https://www.deeprobotics.us/products/lynx-m20"
+  },
+  {
+   "group": "Connectivity & Interfaces",
+   "key": "ethernet",
+   "label": "Ethernet",
+   "value": "Gigabit Ethernet",
+   "unit": "",
+   "note": "",
+   "source": "https://www.deeprobotics.us/products/lynx-m20"
+  },
+  {
+   "group": "Power & Battery",
+   "key": "battery_capacity_ah",
+   "label": "Battery capacity",
+   "value": 4.5,
+   "unit": "Ah",
+   "note": "each battery, ideal at 25 °C (M20 Pro manual)",
+   "source": "https://www.deeprobotics.us/wp-content/uploads/2025/08/Lynx-M20-Pro-User-Manual-V1.0.2-0.pdf",
+   "ref": "§1.4 p.7"
+  },
+  {
+   "group": "Power & Battery",
+   "key": "battery_voltage",
+   "label": "Nominal battery voltage",
+   "value": 72,
+   "unit": "V",
+   "note": "Lynx M20 Pro User Manual V1.0.2 (shared platform; Pro variant)",
+   "source": "https://www.deeprobotics.us/wp-content/uploads/2025/08/Lynx-M20-Pro-User-Manual-V1.0.2-0.pdf",
+   "ref": "§1.4 p.7"
+  },
+  {
+   "group": "Power & Battery",
+   "key": "battery_count",
+   "label": "Batteries",
+   "value": 2,
+   "unit": "",
+   "note": "replaceable; hot-swap while powered on",
+   "source": "https://www.deeprobotics.us/wp-content/uploads/2025/08/Lynx-M20-Pro-User-Manual-V1.0.2-0.pdf",
+   "ref": "§1.2, §2.2"
+  },
+  {
+   "group": "Power & Battery",
+   "key": "battery_swappable",
+   "label": "Hot-swappable batteries",
+   "value": true,
+   "unit": "",
+   "note": "",
+   "source": "https://www.deeprobotics.us/products/lynx-m20"
+  },
+  {
+   "group": "Charging & Docking",
+   "key": "charger_input",
+   "label": "Charger input",
+   "value": "100–240",
+   "unit": "V",
+   "note": "Lynx M20 Pro User Manual V1.0.2 (shared platform; Pro variant)",
+   "source": "https://www.deeprobotics.us/wp-content/uploads/2025/08/Lynx-M20-Pro-User-Manual-V1.0.2-0.pdf",
+   "ref": "§1.4 p.7"
+  },
+  {
+   "group": "Charging & Docking",
+   "key": "charger_output",
+   "label": "Charger output",
+   "value": "84 V / 3 A",
+   "unit": "",
+   "note": "per battery",
+   "source": "https://www.deeprobotics.us/wp-content/uploads/2025/08/Lynx-M20-Pro-User-Manual-V1.0.2-0.pdf",
+   "ref": "§1.4 p.7"
+  },
+  {
+   "group": "Charging & Docking",
+   "key": "charging_temperature",
+   "label": "Recommended charging temperature",
+   "value": "0 to 40",
+   "unit": "°C",
+   "note": "Lynx M20 Pro User Manual V1.0.2 (shared platform; Pro variant)",
+   "source": "https://www.deeprobotics.us/wp-content/uploads/2025/08/Lynx-M20-Pro-User-Manual-V1.0.2-0.pdf",
+   "ref": "§2.2 p.14"
+  },
+  {
+   "group": "Payload & Mounting",
+   "key": "payload_port_voltage",
+   "label": "Power supply rails",
+   "value": "72 V; 24 V; 5 V (USB)",
+   "unit": "",
+   "note": "Lynx M20 Pro User Manual V1.0.2 (shared platform; Pro variant)",
+   "source": "https://www.deeprobotics.us/wp-content/uploads/2025/08/Lynx-M20-Pro-User-Manual-V1.0.2-0.pdf",
+   "ref": "§1.4 p.7"
+  },
+  {
+   "group": "Connectivity & Interfaces",
+   "key": "communication",
+   "label": "Communication interfaces",
+   "value": "Ethernet; Wi-Fi; USB 3.0",
+   "unit": "",
+   "note": "Lynx M20 Pro User Manual V1.0.2 (shared platform; Pro variant)",
+   "source": "https://www.deeprobotics.us/wp-content/uploads/2025/08/Lynx-M20-Pro-User-Manual-V1.0.2-0.pdf",
+   "ref": "§1.4 p.7"
+  },
+  {
+   "group": "Charging & Docking",
+   "key": "dock_available",
+   "label": "Autonomous charging",
+   "value": "Supported (optional)",
+   "unit": "",
+   "note": "Lynx M20 Pro User Manual V1.0.2 (shared platform; Pro variant)",
+   "source": "https://www.deeprobotics.us/wp-content/uploads/2025/08/Lynx-M20-Pro-User-Manual-V1.0.2-0.pdf",
+   "ref": "§1.4 p.7"
+  },
+  {
+   "group": "Actuation & Joints",
+   "key": "motors_per_leg",
+   "label": "Motors per leg",
+   "value": 4,
+   "unit": "",
+   "note": "HipX, HipY, Knee, wheel",
+   "source": "https://www.deeprobotics.us/wp-content/uploads/2025/08/Lynx-M20-Pro-User-Manual-V1.0.2-0.pdf",
+   "ref": "§1.1"
+  },
+  {
+   "group": "Mobility & Performance",
+   "key": "degrees_of_freedom",
+   "label": "Degrees of freedom",
+   "value": 16,
+   "unit": "",
+   "note": "",
+   "source": "https://www.deeprobotics.us/wp-content/uploads/2025/08/Lynx-M20-Pro-User-Manual-V1.0.2-0.pdf",
+   "ref": "§1.1"
+  },
+  {
+   "group": "Payload & Mounting",
+   "key": "payload_ports",
+   "label": "Payload interfaces",
+   "value": "72V; LAN1; LAN2+24V; LAN3+24V; LAN4+24V; LAN5+24V; USB3.0 Type-C",
+   "unit": "",
+   "note": "Lynx M20 Pro User Manual V1.0.2 (shared platform; Pro variant)",
+   "source": "https://www.deeprobotics.us/wp-content/uploads/2025/08/Lynx-M20-Pro-User-Manual-V1.0.2-0.pdf",
+   "ref": "§2.8 p.22"
+  },
+  {
+   "group": "Payload & Mounting",
+   "key": "payload_port_power",
+   "label": "Max payload power",
+   "value": 360,
+   "unit": "W",
+   "note": "total; 24 V rail ≤250 W",
+   "source": "https://www.deeprobotics.us/wp-content/uploads/2025/08/Lynx-M20-Pro-User-Manual-V1.0.2-0.pdf",
+   "ref": "§2.8 p.22"
+  },
+  {
+   "group": "Payload & Mounting",
+   "key": "payload_mounting_volume",
+   "label": "Payload mounting envelope",
+   "value": "270 × 165 × 300",
+   "unit": "mm",
+   "note": "mounting rail area, height ≤30 cm",
+   "source": "https://www.deeprobotics.us/wp-content/uploads/2025/08/Lynx-M20-Pro-User-Manual-V1.0.2-0.pdf",
+   "ref": "§2.8 p.21"
+  },
+  {
+   "group": "Payload & Mounting",
+   "key": "max_attachment_mass",
+   "label": "Recommended max mounted payload",
+   "value": 15,
+   "unit": "kg",
+   "note": "",
+   "source": "https://www.deeprobotics.us/wp-content/uploads/2025/08/Lynx-M20-Pro-User-Manual-V1.0.2-0.pdf",
+   "ref": "§2.8 p.21"
+  },
+  {
+   "group": "Payload & Mounting",
+   "key": "mounting_rail",
+   "label": "Mounting rails",
+   "value": "Yes (threaded holes on back)",
+   "unit": "",
+   "note": "Lynx M20 Pro User Manual V1.0.2 (shared platform; Pro variant)",
+   "source": "https://www.deeprobotics.us/wp-content/uploads/2025/08/Lynx-M20-Pro-User-Manual-V1.0.2-0.pdf",
+   "ref": "§1.3, §2.8"
+  },
+  {
+   "group": "Safety & Compliance",
+   "key": "emergency_stop",
+   "label": "Emergency stop",
+   "value": "Soft e-stop (controller) and hard e-stop button at rear",
+   "unit": "",
+   "note": "Lynx M20 Pro User Manual V1.0.2 (shared platform; Pro variant)",
+   "source": "https://www.deeprobotics.us/wp-content/uploads/2025/08/Lynx-M20-Pro-User-Manual-V1.0.2-0.pdf",
+   "ref": "§2.6"
+  },
+  {
+   "group": "Safety & Compliance",
+   "key": "overtemperature_protection",
+   "label": "Overtemperature protection",
+   "value": "Auto stop and lie down when motor/driver/battery/CPU overheat",
+   "unit": "",
+   "note": "Lynx M20 Pro User Manual V1.0.2 (shared platform; Pro variant)",
+   "source": "https://www.deeprobotics.us/wp-content/uploads/2025/08/Lynx-M20-Pro-User-Manual-V1.0.2-0.pdf",
+   "ref": "§2.6.3"
+  },
+  {
+   "group": "Power & Battery",
+   "key": "low_battery_behaviour",
+   "label": "Low-battery thresholds",
+   "value": "Warning <20%; protection mode (lies down) <5%",
+   "unit": "",
+   "note": "Lynx M20 Pro User Manual V1.0.2 (shared platform; Pro variant)",
+   "source": "https://www.deeprobotics.us/wp-content/uploads/2025/08/Lynx-M20-Pro-User-Manual-V1.0.2-0.pdf",
+   "ref": "§2.6.4"
+  },
+  {
+   "group": "Safety & Compliance",
+   "key": "min_safe_distance",
+   "label": "Minimum safe distance",
+   "value": 2,
+   "unit": "m",
+   "note": "keep people/objects >2 m away",
+   "source": "https://www.deeprobotics.us/wp-content/uploads/2025/08/Lynx-M20-Pro-User-Manual-V1.0.2-0.pdf",
+   "ref": "§2.1.1"
+  },
+  {
+   "group": "Controls & Operation",
+   "key": "gaits",
+   "label": "Gaits",
+   "value": "Basic (≤2.0 m/s); Stair; High Obstacles (≤80 cm platforms)",
+   "unit": "",
+   "note": "Lynx M20 Pro User Manual V1.0.2 (shared platform; Pro variant)",
+   "source": "https://www.deeprobotics.us/wp-content/uploads/2025/08/Lynx-M20-Pro-User-Manual-V1.0.2-0.pdf",
+   "ref": "p.11"
+  },
+  {
+   "group": "Controls & Operation",
+   "key": "controller",
+   "label": "Controller",
+   "value": "Handheld controller with app (camera dual-view, joint parameters, flashlight)",
+   "unit": "",
+   "note": "Lynx M20 Pro User Manual V1.0.2 (shared platform; Pro variant)",
+   "source": "https://www.deeprobotics.us/wp-content/uploads/2025/08/Lynx-M20-Pro-User-Manual-V1.0.2-0.pdf",
+   "ref": "§2.4"
+  },
+  {
+   "group": "Audio, Lights & HMI",
+   "key": "status_lights",
+   "label": "Indicator lights",
+   "value": "2 (head and tail), white/yellow/red states",
+   "unit": "",
+   "note": "Lynx M20 Pro User Manual V1.0.2 (shared platform; Pro variant)",
+   "source": "https://www.deeprobotics.us/wp-content/uploads/2025/08/Lynx-M20-Pro-User-Manual-V1.0.2-0.pdf",
+   "ref": "§1.6"
+  },
+  {
+   "group": "Transport & Storage",
+   "key": "included_accessories",
+   "label": "Product list",
+   "value": "Robot; controller; 2 replaceable batteries; charging hub; transport case; warranty card; manual; certificate; cable kit",
+   "unit": "",
+   "note": "Lynx M20 Pro User Manual V1.0.2 (shared platform; Pro variant)",
+   "source": "https://www.deeprobotics.us/wp-content/uploads/2025/08/Lynx-M20-Pro-User-Manual-V1.0.2-0.pdf",
+   "ref": "§1.2"
+  },
+  {
+   "group": "Transport & Storage",
+   "key": "lift_method",
+   "label": "Carrying",
+   "value": "Two people, grip upper and lower legs",
+   "unit": "",
+   "note": "Lynx M20 Pro User Manual V1.0.2 (shared platform; Pro variant)",
+   "source": "https://www.deeprobotics.us/wp-content/uploads/2025/08/Lynx-M20-Pro-User-Manual-V1.0.2-0.pdf",
+   "ref": "§2.1.2"
+  },
+  {
+   "group": "Environment & Protection",
+   "key": "prohibited_conditions",
+   "label": "Prohibited conditions",
+   "value": "No fog, snow, lightning, sandstorm, windstorm; no strong EMI or Wi-Fi interference; avoid ice/glass/tile",
+   "unit": "",
+   "note": "Lynx M20 Pro User Manual V1.0.2 (shared platform; Pro variant)",
+   "source": "https://www.deeprobotics.us/wp-content/uploads/2025/08/Lynx-M20-Pro-User-Manual-V1.0.2-0.pdf",
+   "ref": "§3.1"
+  },
+  {
+   "group": "Power & Battery",
+   "key": "battery_storage",
+   "label": "Battery storage",
+   "value": "Store at 60% charge; recharge to 60% every 3 months; storage mode via 20 s button press",
+   "unit": "",
+   "note": "Lynx M20 Pro User Manual V1.0.2 (shared platform; Pro variant)",
+   "source": "https://www.deeprobotics.us/wp-content/uploads/2025/08/Lynx-M20-Pro-User-Manual-V1.0.2-0.pdf",
+   "ref": "§3.2"
+  },
+  {
+   "group": "Commercial",
+   "key": "price",
+   "label": "Price",
+   "value": "Price on request",
+   "unit": "",
+   "note": "",
+   "source": "https://www.deeprobotics.us/products/lynx-m20"
+  }
+ ]
+}

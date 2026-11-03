@@ -1,0 +1,475 @@
+{
+ "id": "otto-otto-100",
+ "checked": "2026-11-04",
+ "documents": [
+  {
+   "title": "OTTO 100 Spec Sheet OTTO-DS001F-EN-MAR2026 (OTTO by Rockwell Automation)",
+   "url": "https://cdn.sanity.io/files/armc7p5y/production/ec1dac3528cb906c23589c86c036b565f27e36cf.pdf?dl="
+  },
+  {
+   "title": "OTTO 100 v2.5 Data Sheet (Clearpath, 2022, distributor-hosted)",
+   "url": "https://www.amrobotics.eu/wp-content/uploads/2022/12/OTTO-100-v2.5-Data-Sheet-3.pdf"
+  }
+ ],
+ "specs": [
+  {
+   "group": "Identity",
+   "key": "model_number",
+   "label": "Spec sheet number",
+   "value": "OTTO-DS001F-EN-MAR2026",
+   "unit": "",
+   "note": "",
+   "source": "https://cdn.sanity.io/files/armc7p5y/production/ec1dac3528cb906c23589c86c036b565f27e36cf.pdf?dl="
+  },
+  {
+   "group": "Identity",
+   "key": "robot_type",
+   "label": "Robot type",
+   "value": "Autonomous mobile robot (AMR) for boxes, bins and carts",
+   "unit": "",
+   "note": "",
+   "source": "https://cdn.sanity.io/files/armc7p5y/production/ec1dac3528cb906c23589c86c036b565f27e36cf.pdf?dl="
+  },
+  {
+   "group": "Identity",
+   "key": "manufacturer",
+   "label": "Manufacturer",
+   "value": "OTTO by Rockwell Automation",
+   "unit": "",
+   "note": "",
+   "source": "https://cdn.sanity.io/files/armc7p5y/production/ec1dac3528cb906c23589c86c036b565f27e36cf.pdf?dl="
+  },
+  {
+   "group": "Identity",
+   "key": "variants",
+   "label": "Earlier version",
+   "value": "OTTO 100 v2.5 (Clearpath Robotics, 2022 data sheet)",
+   "unit": "",
+   "note": "",
+   "source": "https://www.amrobotics.eu/wp-content/uploads/2022/12/OTTO-100-v2.5-Data-Sheet-3.pdf"
+  },
+  {
+   "group": "Mobility & Performance",
+   "key": "max_payload",
+   "label": "Maximum capacity",
+   "value": 150,
+   "unit": "kg",
+   "note": "includes payload, attachments and cart, if any",
+   "source": "https://cdn.sanity.io/files/armc7p5y/production/ec1dac3528cb906c23589c86c036b565f27e36cf.pdf?dl="
+  },
+  {
+   "group": "Mobility & Performance",
+   "key": "max_speed",
+   "label": "Maximum speed",
+   "value": 2.0,
+   "unit": "m/s",
+   "note": "4.5 mph",
+   "source": "https://cdn.sanity.io/files/armc7p5y/production/ec1dac3528cb906c23589c86c036b565f27e36cf.pdf?dl="
+  },
+  {
+   "group": "Mobility & Performance",
+   "key": "max_yaw_rate",
+   "label": "Maximum turning speed",
+   "value": 1.25,
+   "unit": "rad/s",
+   "note": "75°/s",
+   "source": "https://cdn.sanity.io/files/armc7p5y/production/ec1dac3528cb906c23589c86c036b565f27e36cf.pdf?dl="
+  },
+  {
+   "group": "Mobility & Performance",
+   "key": "max_docking_speed",
+   "label": "Maximum docking speed",
+   "value": 0.3,
+   "unit": "m/s",
+   "note": "0.7 mph",
+   "source": "https://cdn.sanity.io/files/armc7p5y/production/ec1dac3528cb906c23589c86c036b565f27e36cf.pdf?dl="
+  },
+  {
+   "group": "Mobility & Performance",
+   "key": "docking_accuracy",
+   "label": "Docking precision (standard)",
+   "value": "±10 mm (x,y); ±1° (yaw)",
+   "unit": "",
+   "note": "see OMM; v2.5 sheet: repeatable to 3σ",
+   "source": "https://cdn.sanity.io/files/armc7p5y/production/ec1dac3528cb906c23589c86c036b565f27e36cf.pdf?dl="
+  },
+  {
+   "group": "Mobility & Performance",
+   "key": "docking_accuracy",
+   "label": "Docking precision (upgrade)",
+   "value": "±5 mm (x,y); ±1° (yaw)",
+   "unit": "",
+   "note": "requires OTTO High Accuracy Docking System (HADS), sold separately",
+   "source": "https://cdn.sanity.io/files/armc7p5y/production/ec1dac3528cb906c23589c86c036b565f27e36cf.pdf?dl="
+  },
+  {
+   "group": "Terrain & Navigation Limits",
+   "key": "min_corridor_width",
+   "label": "Minimum aisle width (one way)",
+   "value": 1099,
+   "unit": "mm",
+   "note": "43 in",
+   "source": "https://cdn.sanity.io/files/armc7p5y/production/ec1dac3528cb906c23589c86c036b565f27e36cf.pdf?dl="
+  },
+  {
+   "group": "Terrain & Navigation Limits",
+   "key": "corridor_width_two_robots_passing",
+   "label": "Minimum aisle width (two way)",
+   "value": 1975,
+   "unit": "mm",
+   "note": "78 in",
+   "source": "https://cdn.sanity.io/files/armc7p5y/production/ec1dac3528cb906c23589c86c036b565f27e36cf.pdf?dl="
+  },
+  {
+   "group": "Payload & Mounting",
+   "key": "integrated_lift",
+   "label": "Integrated lift",
+   "value": "62 mm stroke, 150 kg capacity",
+   "unit": "",
+   "note": "",
+   "source": "https://cdn.sanity.io/files/armc7p5y/production/ec1dac3528cb906c23589c86c036b565f27e36cf.pdf?dl="
+  },
+  {
+   "group": "Payload & Mounting",
+   "key": "lift_stroke",
+   "label": "Lift stroke",
+   "value": 62,
+   "unit": "mm",
+   "note": "",
+   "source": "https://cdn.sanity.io/files/armc7p5y/production/ec1dac3528cb906c23589c86c036b565f27e36cf.pdf?dl="
+  },
+  {
+   "group": "Dimensions & Mass",
+   "key": "length",
+   "label": "Length",
+   "value": 740,
+   "unit": "mm",
+   "note": "",
+   "source": "https://cdn.sanity.io/files/armc7p5y/production/ec1dac3528cb906c23589c86c036b565f27e36cf.pdf?dl="
+  },
+  {
+   "group": "Dimensions & Mass",
+   "key": "width",
+   "label": "Width",
+   "value": 550,
+   "unit": "mm",
+   "note": "",
+   "source": "https://cdn.sanity.io/files/armc7p5y/production/ec1dac3528cb906c23589c86c036b565f27e36cf.pdf?dl="
+  },
+  {
+   "group": "Dimensions & Mass",
+   "key": "height",
+   "label": "Height",
+   "value": 308,
+   "unit": "mm",
+   "note": "",
+   "source": "https://cdn.sanity.io/files/armc7p5y/production/ec1dac3528cb906c23589c86c036b565f27e36cf.pdf?dl="
+  },
+  {
+   "group": "Dimensions & Mass",
+   "key": "weight",
+   "label": "Mass",
+   "value": 107,
+   "unit": "kg",
+   "note": "236 lb",
+   "source": "https://cdn.sanity.io/files/armc7p5y/production/ec1dac3528cb906c23589c86c036b565f27e36cf.pdf?dl="
+  },
+  {
+   "group": "Dimensions & Mass",
+   "key": "turning_radius",
+   "label": "Turning radius",
+   "value": "Turn in place",
+   "unit": "",
+   "note": "",
+   "source": "https://cdn.sanity.io/files/armc7p5y/production/ec1dac3528cb906c23589c86c036b565f27e36cf.pdf?dl="
+  },
+  {
+   "group": "Mobility & Performance",
+   "key": "suspension",
+   "label": "Suspension",
+   "value": "Fixed, rigid",
+   "unit": "",
+   "note": "",
+   "source": "https://cdn.sanity.io/files/armc7p5y/production/ec1dac3528cb906c23589c86c036b565f27e36cf.pdf?dl="
+  },
+  {
+   "group": "Dimensions & Mass",
+   "key": "ground_clearance",
+   "label": "Ground clearance",
+   "value": 6,
+   "unit": "mm",
+   "note": "0.25 in",
+   "source": "https://cdn.sanity.io/files/armc7p5y/production/ec1dac3528cb906c23589c86c036b565f27e36cf.pdf?dl="
+  },
+  {
+   "group": "Terrain & Navigation Limits",
+   "key": "max_obstacle_height",
+   "label": "Floor obstacle",
+   "value": 13,
+   "unit": "mm",
+   "note": "0.5 in",
+   "source": "https://cdn.sanity.io/files/armc7p5y/production/ec1dac3528cb906c23589c86c036b565f27e36cf.pdf?dl="
+  },
+  {
+   "group": "Terrain & Navigation Limits",
+   "key": "max_gap_crossing",
+   "label": "Traversable gap",
+   "value": 13,
+   "unit": "mm",
+   "note": "v2.5 data sheet",
+   "source": "https://www.amrobotics.eu/wp-content/uploads/2022/12/OTTO-100-v2.5-Data-Sheet-3.pdf"
+  },
+  {
+   "group": "Power & Battery",
+   "key": "battery_capacity_ah",
+   "label": "Battery capacity",
+   "value": 35,
+   "unit": "Ah",
+   "note": "",
+   "source": "https://cdn.sanity.io/files/armc7p5y/production/ec1dac3528cb906c23589c86c036b565f27e36cf.pdf?dl="
+  },
+  {
+   "group": "Power & Battery",
+   "key": "battery_capacity_ah",
+   "label": "Battery capacity",
+   "value": 40,
+   "unit": "Ah",
+   "note": "v2.5 (2022)",
+   "source": "https://www.amrobotics.eu/wp-content/uploads/2022/12/OTTO-100-v2.5-Data-Sheet-3.pdf"
+  },
+  {
+   "group": "Power & Battery",
+   "key": "battery_voltage",
+   "label": "Battery voltage",
+   "value": 26.4,
+   "unit": "V",
+   "note": "",
+   "source": "https://cdn.sanity.io/files/armc7p5y/production/ec1dac3528cb906c23589c86c036b565f27e36cf.pdf?dl="
+  },
+  {
+   "group": "Power & Battery",
+   "key": "runtime",
+   "label": "Runtime",
+   "value": 6,
+   "unit": "h",
+   "note": "90% to 10%",
+   "source": "https://cdn.sanity.io/files/armc7p5y/production/ec1dac3528cb906c23589c86c036b565f27e36cf.pdf?dl="
+  },
+  {
+   "group": "Power & Battery",
+   "key": "battery_cycle_life",
+   "label": "Battery life",
+   "value": 10000,
+   "unit": "cycles",
+   "note": "full charge cycles",
+   "source": "https://cdn.sanity.io/files/armc7p5y/production/ec1dac3528cb906c23589c86c036b565f27e36cf.pdf?dl="
+  },
+  {
+   "group": "Power & Battery",
+   "key": "battery_cycle_life",
+   "label": "Battery life",
+   "value": 3000,
+   "unit": "cycles",
+   "note": "v2.5 (2022)",
+   "source": "https://www.amrobotics.eu/wp-content/uploads/2022/12/OTTO-100-v2.5-Data-Sheet-3.pdf"
+  },
+  {
+   "group": "Charging & Docking",
+   "key": "max_charge_current",
+   "label": "Maximum charge rate",
+   "value": 98,
+   "unit": "A",
+   "note": "",
+   "source": "https://cdn.sanity.io/files/armc7p5y/production/ec1dac3528cb906c23589c86c036b565f27e36cf.pdf?dl="
+  },
+  {
+   "group": "Charging & Docking",
+   "key": "max_charge_current",
+   "label": "Maximum charge rate",
+   "value": 40,
+   "unit": "A",
+   "note": "v2.5 (2022)",
+   "source": "https://www.amrobotics.eu/wp-content/uploads/2022/12/OTTO-100-v2.5-Data-Sheet-3.pdf"
+  },
+  {
+   "group": "Charging & Docking",
+   "key": "charge_time",
+   "label": "Charge time",
+   "value": "18 min",
+   "unit": "",
+   "note": "10% to 90%",
+   "source": "https://cdn.sanity.io/files/armc7p5y/production/ec1dac3528cb906c23589c86c036b565f27e36cf.pdf?dl="
+  },
+  {
+   "group": "Charging & Docking",
+   "key": "charge_time",
+   "label": "Charge time",
+   "value": "60 min",
+   "unit": "",
+   "note": "10% to 90%, v2.5 (2022)",
+   "source": "https://www.amrobotics.eu/wp-content/uploads/2022/12/OTTO-100-v2.5-Data-Sheet-3.pdf"
+  },
+  {
+   "group": "Charging & Docking",
+   "key": "charging_method",
+   "label": "Battery charging options",
+   "value": "Autonomous opportunity charging (default); manual charging",
+   "unit": "",
+   "note": "",
+   "source": "https://cdn.sanity.io/files/armc7p5y/production/ec1dac3528cb906c23589c86c036b565f27e36cf.pdf?dl="
+  },
+  {
+   "group": "Charging & Docking",
+   "key": "opportunity_charging",
+   "label": "Opportunity charging",
+   "value": true,
+   "unit": "",
+   "note": "autonomous, default",
+   "source": "https://cdn.sanity.io/files/armc7p5y/production/ec1dac3528cb906c23589c86c036b565f27e36cf.pdf?dl="
+  },
+  {
+   "group": "Commercial",
+   "key": "optional_accessories",
+   "label": "Charging accessories (sold separately)",
+   "value": "Autonomous Supercharger (98 A); Manual Trickle Charger (25 A)",
+   "unit": "",
+   "note": "",
+   "source": "https://cdn.sanity.io/files/armc7p5y/production/ec1dac3528cb906c23589c86c036b565f27e36cf.pdf?dl="
+  },
+  {
+   "group": "Commercial",
+   "key": "optional_accessories",
+   "label": "Load-handling accessories (v2.5)",
+   "value": "Staging Cart (130 kg); Magnetic Line Follower",
+   "unit": "",
+   "note": "",
+   "source": "https://www.amrobotics.eu/wp-content/uploads/2022/12/OTTO-100-v2.5-Data-Sheet-3.pdf"
+  },
+  {
+   "group": "Safety & Compliance",
+   "key": "emergency_stop",
+   "label": "E-stop",
+   "value": "2 E-stops (front and back) + user E-stop circuit interface",
+   "unit": "",
+   "note": "",
+   "source": "https://cdn.sanity.io/files/armc7p5y/production/ec1dac3528cb906c23589c86c036b565f27e36cf.pdf?dl="
+  },
+  {
+   "group": "Safety & Compliance",
+   "key": "safety_standards",
+   "label": "Standards compliance",
+   "value": "CE marked; ANSI/ITSDF B56.5; RIA R15.08-1; ISO 12100/13849-1/3691-4; FCC Part 15 Subpart B / ICES-003; ICES-002; EN 1175-1/60204-1",
+   "unit": "",
+   "note": "",
+   "source": "https://cdn.sanity.io/files/armc7p5y/production/ec1dac3528cb906c23589c86c036b565f27e36cf.pdf?dl="
+  },
+  {
+   "group": "Controls & Operation",
+   "key": "manual_control",
+   "label": "Manual control",
+   "value": "Guided autonomous control via OTTO software interface",
+   "unit": "",
+   "note": "",
+   "source": "https://cdn.sanity.io/files/armc7p5y/production/ec1dac3528cb906c23589c86c036b565f27e36cf.pdf?dl="
+  },
+  {
+   "group": "Payload & Mounting",
+   "key": "payload_port_power",
+   "label": "Power interface",
+   "value": "26.4 VDC, 12 A max, unregulated",
+   "unit": "",
+   "note": "",
+   "source": "https://cdn.sanity.io/files/armc7p5y/production/ec1dac3528cb906c23589c86c036b565f27e36cf.pdf?dl="
+  },
+  {
+   "group": "Connectivity & Interfaces",
+   "key": "external_ports",
+   "label": "Signal interface",
+   "value": "1× Ethernet, 1× USB 3.0, 1× serial RS-232",
+   "unit": "",
+   "note": "",
+   "source": "https://cdn.sanity.io/files/armc7p5y/production/ec1dac3528cb906c23589c86c036b565f27e36cf.pdf?dl="
+  },
+  {
+   "group": "Connectivity & Interfaces",
+   "key": "safety_io",
+   "label": "Safety interface",
+   "value": "2× E-stop extension, 8× digital IO, 2× dry-contact relays, 1× auxiliary monitor contact",
+   "unit": "",
+   "note": "",
+   "source": "https://cdn.sanity.io/files/armc7p5y/production/ec1dac3528cb906c23589c86c036b565f27e36cf.pdf?dl="
+  },
+  {
+   "group": "Sensors & Perception",
+   "key": "safety_scanner",
+   "label": "Safety laser scanner",
+   "value": "Hokuyo safety laser scanner",
+   "unit": "",
+   "note": "",
+   "source": "https://cdn.sanity.io/files/armc7p5y/production/ec1dac3528cb906c23589c86c036b565f27e36cf.pdf?dl="
+  },
+  {
+   "group": "Sensors & Perception",
+   "key": "depth_camera_fov",
+   "label": "3D camera",
+   "value": "3D camera with 90° front coverage",
+   "unit": "",
+   "note": "",
+   "source": "https://cdn.sanity.io/files/armc7p5y/production/ec1dac3528cb906c23589c86c036b565f27e36cf.pdf?dl="
+  },
+  {
+   "group": "Sensors & Perception",
+   "key": "tof_sensor",
+   "label": "Rear ToF sensor",
+   "value": "ToF rear sensor with 90° reverse coverage",
+   "unit": "",
+   "note": "",
+   "source": "https://cdn.sanity.io/files/armc7p5y/production/ec1dac3528cb906c23589c86c036b565f27e36cf.pdf?dl="
+  },
+  {
+   "group": "Sensors & Perception",
+   "key": "cart_detect_sensor",
+   "label": "Cart detect sensor",
+   "value": "Inductive cart detect sensor",
+   "unit": "",
+   "note": "",
+   "source": "https://cdn.sanity.io/files/armc7p5y/production/ec1dac3528cb906c23589c86c036b565f27e36cf.pdf?dl="
+  },
+  {
+   "group": "Connectivity & Interfaces",
+   "key": "wifi",
+   "label": "Wi-Fi",
+   "value": "2.4 / 5 GHz (802.11 a/b/g/n/ac)",
+   "unit": "",
+   "note": "",
+   "source": "https://cdn.sanity.io/files/armc7p5y/production/ec1dac3528cb906c23589c86c036b565f27e36cf.pdf?dl="
+  },
+  {
+   "group": "Environment & Protection",
+   "key": "ip_rating",
+   "label": "IP classification",
+   "value": "IP20",
+   "unit": "",
+   "note": "",
+   "source": "https://cdn.sanity.io/files/armc7p5y/production/ec1dac3528cb906c23589c86c036b565f27e36cf.pdf?dl="
+  },
+  {
+   "group": "Environment & Protection",
+   "key": "operating_temperature",
+   "label": "Temperature",
+   "value": "20 to 40",
+   "unit": "°C",
+   "note": "as printed on spec sheet",
+   "source": "https://cdn.sanity.io/files/armc7p5y/production/ec1dac3528cb906c23589c86c036b565f27e36cf.pdf?dl="
+  },
+  {
+   "group": "Environment & Protection",
+   "key": "operating_humidity",
+   "label": "Humidity",
+   "value": "0–95",
+   "unit": "%",
+   "note": "non-condensing",
+   "source": "https://cdn.sanity.io/files/armc7p5y/production/ec1dac3528cb906c23589c86c036b565f27e36cf.pdf?dl="
+  }
+ ]
+}

@@ -1,0 +1,453 @@
+{
+ "id": "pudu-kettybot",
+ "checked": "2026-11-04",
+ "documents": [
+  {
+   "title": "Product Introduction to KettyBot (PUDU Academy)",
+   "url": "https://academy.pudutech.com/en/docs/chan-pin-jian-jie"
+  }
+ ],
+ "specs": [
+  {
+   "group": "Identity",
+   "key": "model_number",
+   "label": "Model",
+   "value": "PNT",
+   "unit": "",
+   "note": "",
+   "source": "https://academy.pudutech.com/en/docs/chan-pin-jian-jie"
+  },
+  {
+   "group": "Dimensions & Mass",
+   "key": "length",
+   "label": "Length",
+   "value": 435,
+   "unit": "mm",
+   "note": "",
+   "source": "https://academy.pudutech.com/en/docs/chan-pin-jian-jie"
+  },
+  {
+   "group": "Dimensions & Mass",
+   "key": "width",
+   "label": "Width",
+   "value": 450,
+   "unit": "mm",
+   "note": "",
+   "source": "https://academy.pudutech.com/en/docs/chan-pin-jian-jie"
+  },
+  {
+   "group": "Dimensions & Mass",
+   "key": "height",
+   "label": "Height",
+   "value": 1120,
+   "unit": "mm",
+   "note": "",
+   "source": "https://academy.pudutech.com/en/docs/chan-pin-jian-jie"
+  },
+  {
+   "group": "Dimensions & Mass",
+   "key": "weight",
+   "label": "Robot weight",
+   "value": 38,
+   "unit": "kg",
+   "note": "",
+   "source": "https://academy.pudutech.com/en/docs/chan-pin-jian-jie"
+  },
+  {
+   "group": "Dimensions & Mass",
+   "key": "body_material",
+   "label": "Machine material",
+   "value": "ABS / aviation-grade aluminum alloy",
+   "unit": "",
+   "note": "",
+   "source": "https://academy.pudutech.com/en/docs/chan-pin-jian-jie"
+  },
+  {
+   "group": "Mobility & Performance",
+   "key": "tray_count",
+   "label": "Number of trays",
+   "value": 2,
+   "unit": "",
+   "note": "plus one dish-return box",
+   "source": "https://academy.pudutech.com/en/docs/chan-pin-jian-jie"
+  },
+  {
+   "group": "Mobility & Performance",
+   "key": "tray_payload",
+   "label": "Load per tray",
+   "value": 10,
+   "unit": "kg",
+   "note": "per layer",
+   "source": "https://academy.pudutech.com/en/docs/chan-pin-jian-jie"
+  },
+  {
+   "group": "Payload & Mounting",
+   "key": "tray_dimensions",
+   "label": "Tray dimensions",
+   "value": "352 × 340",
+   "unit": "mm",
+   "note": "",
+   "source": "https://academy.pudutech.com/en/docs/chan-pin-jian-jie"
+  },
+  {
+   "group": "Payload & Mounting",
+   "key": "tray_spacing",
+   "label": "Height between trays",
+   "value": "248 / 253 / 223",
+   "unit": "mm",
+   "note": "top to bottom",
+   "source": "https://academy.pudutech.com/en/docs/chan-pin-jian-jie"
+  },
+  {
+   "group": "Payload & Mounting",
+   "key": "storage_compartments",
+   "label": "Dish-return box",
+   "value": "1 dish-return box",
+   "unit": "",
+   "note": "",
+   "source": "https://academy.pudutech.com/en/docs/chan-pin-jian-jie"
+  },
+  {
+   "group": "Mobility & Performance",
+   "key": "max_speed",
+   "label": "Max cruise speed",
+   "value": 1.2,
+   "unit": "m/s",
+   "note": "adjustable",
+   "source": "https://academy.pudutech.com/en/docs/chan-pin-jian-jie"
+  },
+  {
+   "group": "Mobility & Performance",
+   "key": "min_speed",
+   "label": "Min cruise speed",
+   "value": 0.2,
+   "unit": "m/s",
+   "note": "adjustable",
+   "source": "https://academy.pudutech.com/en/docs/chan-pin-jian-jie"
+  },
+  {
+   "group": "Terrain & Navigation Limits",
+   "key": "min_corridor_width",
+   "label": "Min. travel width",
+   "value": 550,
+   "unit": "mm",
+   "note": "",
+   "source": "https://academy.pudutech.com/en/docs/chan-pin-jian-jie"
+  },
+  {
+   "group": "Terrain & Navigation Limits",
+   "key": "max_obstacle_height",
+   "label": "Max. surmountable height",
+   "value": 5,
+   "unit": "mm",
+   "note": "",
+   "source": "https://academy.pudutech.com/en/docs/chan-pin-jian-jie"
+  },
+  {
+   "group": "Terrain & Navigation Limits",
+   "key": "max_slope",
+   "label": "Max. climbing angle",
+   "value": 5,
+   "unit": "°",
+   "note": "",
+   "source": "https://academy.pudutech.com/en/docs/chan-pin-jian-jie"
+  },
+  {
+   "group": "Terrain & Navigation Limits",
+   "key": "navigation_method",
+   "label": "Navigation",
+   "value": "Laser and visual integrated SLAM positioning",
+   "unit": "",
+   "note": "",
+   "source": "https://academy.pudutech.com/en/docs/chan-pin-jian-jie"
+  },
+  {
+   "group": "Terrain & Navigation Limits",
+   "key": "floor_flatness_requirement",
+   "label": "Ground surface standard",
+   "value": "Indoor environment, flat and smooth ground",
+   "unit": "",
+   "note": "",
+   "source": "https://academy.pudutech.com/en/docs/chan-pin-jian-jie"
+  },
+  {
+   "group": "Power & Battery",
+   "key": "battery_voltage",
+   "label": "Operating voltage",
+   "value": 25.6,
+   "unit": "V DC",
+   "note": "",
+   "source": "https://academy.pudutech.com/en/docs/chan-pin-jian-jie"
+  },
+  {
+   "group": "Power & Battery",
+   "key": "battery_capacity",
+   "label": "Battery capacity",
+   "value": 20,
+   "unit": "Ah",
+   "note": "",
+   "source": "https://academy.pudutech.com/en/docs/chan-pin-jian-jie"
+  },
+  {
+   "group": "Power & Battery",
+   "key": "runtime",
+   "label": "Battery life",
+   "value": 8,
+   "unit": "h",
+   "note": "no load",
+   "source": "https://academy.pudutech.com/en/docs/chan-pin-jian-jie"
+  },
+  {
+   "group": "Charging & Docking",
+   "key": "charger_input",
+   "label": "Charger power input",
+   "value": "AC 100–240 V, 50/60 Hz",
+   "unit": "",
+   "note": "",
+   "source": "https://academy.pudutech.com/en/docs/chan-pin-jian-jie"
+  },
+  {
+   "group": "Charging & Docking",
+   "key": "charger_output",
+   "label": "Charger power output",
+   "value": "29 V, 8 A",
+   "unit": "",
+   "note": "",
+   "source": "https://academy.pudutech.com/en/docs/chan-pin-jian-jie"
+  },
+  {
+   "group": "Charging & Docking",
+   "key": "charge_time",
+   "label": "Charging time",
+   "value": 4,
+   "unit": "h",
+   "note": "",
+   "source": "https://academy.pudutech.com/en/docs/chan-pin-jian-jie"
+  },
+  {
+   "group": "Charging & Docking",
+   "key": "charging_method",
+   "label": "Charging mode",
+   "value": "Manual and auto charging",
+   "unit": "",
+   "note": "charging jack + charging electrode plate",
+   "source": "https://academy.pudutech.com/en/docs/chan-pin-jian-jie"
+  },
+  {
+   "group": "Environment & Protection",
+   "key": "operating_temperature",
+   "label": "Working temperature",
+   "value": "0 to 40",
+   "unit": "°C",
+   "note": "",
+   "source": "https://academy.pudutech.com/en/docs/chan-pin-jian-jie"
+  },
+  {
+   "group": "Environment & Protection",
+   "key": "operating_humidity",
+   "label": "Working humidity",
+   "value": "≤ 85",
+   "unit": "% RH",
+   "note": "",
+   "source": "https://academy.pudutech.com/en/docs/chan-pin-jian-jie"
+  },
+  {
+   "group": "Environment & Protection",
+   "key": "storage_temperature",
+   "label": "Storage temperature",
+   "value": "−40 to 65",
+   "unit": "°C",
+   "note": "RH ≤ 85%",
+   "source": "https://academy.pudutech.com/en/docs/chan-pin-jian-jie"
+  },
+  {
+   "group": "Environment & Protection",
+   "key": "max_altitude",
+   "label": "Working altitude",
+   "value": "< 2000",
+   "unit": "m",
+   "note": "",
+   "source": "https://academy.pudutech.com/en/docs/chan-pin-jian-jie"
+  },
+  {
+   "group": "Environment & Protection",
+   "key": "ip_rating",
+   "label": "IP rating",
+   "value": "IP20",
+   "unit": "",
+   "note": "",
+   "source": "https://academy.pudutech.com/en/docs/chan-pin-jian-jie"
+  },
+  {
+   "group": "Sensors & Perception",
+   "key": "lidar_type",
+   "label": "LiDAR",
+   "value": "LiDAR",
+   "unit": "",
+   "note": "",
+   "source": "https://academy.pudutech.com/en/docs/chan-pin-jian-jie"
+  },
+  {
+   "group": "Sensors & Perception",
+   "key": "depth_camera_type",
+   "label": "Depth vision sensors",
+   "value": "Depth vision sensors",
+   "unit": "",
+   "note": "",
+   "source": "https://academy.pudutech.com/en/docs/chan-pin-jian-jie"
+  },
+  {
+   "group": "Sensors & Perception",
+   "key": "camera_type",
+   "label": "Front positioning camera",
+   "value": "Front positioning camera",
+   "unit": "",
+   "note": "",
+   "source": "https://academy.pudutech.com/en/docs/chan-pin-jian-jie"
+  },
+  {
+   "group": "Sensors & Perception",
+   "key": "camera_type",
+   "label": "Vision sensor",
+   "value": "Vision sensor",
+   "unit": "",
+   "note": "",
+   "source": "https://academy.pudutech.com/en/docs/chan-pin-jian-jie"
+  },
+  {
+   "group": "Sensors & Perception",
+   "key": "microphones",
+   "label": "Microphone",
+   "value": "6-mic circular array kit",
+   "unit": "",
+   "note": "",
+   "source": "https://academy.pudutech.com/en/docs/chan-pin-jian-jie"
+  },
+  {
+   "group": "Safety & Compliance",
+   "key": "emergency_stop",
+   "label": "Emergency stop",
+   "value": "Emergency stop switch",
+   "unit": "",
+   "note": "",
+   "source": "https://academy.pudutech.com/en/docs/chan-pin-jian-jie"
+  },
+  {
+   "group": "Compute & Software",
+   "key": "operating_system",
+   "label": "Operating system",
+   "value": "Android",
+   "unit": "",
+   "note": "",
+   "source": "https://academy.pudutech.com/en/docs/chan-pin-jian-jie"
+  },
+  {
+   "group": "Connectivity & Interfaces",
+   "key": "wifi",
+   "label": "Wi-Fi 2.4 GHz",
+   "value": "2412–2472 MHz; 2422–2462 MHz",
+   "unit": "",
+   "note": "max TX power 17.48 dBm",
+   "source": "https://academy.pudutech.com/en/docs/chan-pin-jian-jie"
+  },
+  {
+   "group": "Connectivity & Interfaces",
+   "key": "wifi",
+   "label": "Wi-Fi 5 GHz",
+   "value": "5180–5320, 5500–5700, 5745–5825 MHz (plus 40/80 MHz channel ranges)",
+   "unit": "",
+   "note": "max TX 13.35 dBm (5.2–5.6G), 13.85 dBm (5.8G)",
+   "source": "https://academy.pudutech.com/en/docs/chan-pin-jian-jie"
+  },
+  {
+   "group": "Connectivity & Interfaces",
+   "key": "bluetooth",
+   "label": "Bluetooth",
+   "value": "2402–2480 MHz",
+   "unit": "",
+   "note": "max TX LE 5.96 dBm; BDR/EDR 8.49 dBm",
+   "source": "https://academy.pudutech.com/en/docs/chan-pin-jian-jie"
+  },
+  {
+   "group": "Connectivity & Interfaces",
+   "key": "cellular",
+   "label": "3G bands",
+   "value": "B1/B8",
+   "unit": "",
+   "note": "max TX B1 23.56 dBm, B8 23.43 dBm",
+   "source": "https://academy.pudutech.com/en/docs/chan-pin-jian-jie"
+  },
+  {
+   "group": "Connectivity & Interfaces",
+   "key": "cellular",
+   "label": "4G bands",
+   "value": "B1/B3/B7/B8/B20/B28/B34/B38/B40",
+   "unit": "",
+   "note": "max TX 23.25–24.76 dBm",
+   "source": "https://academy.pudutech.com/en/docs/chan-pin-jian-jie"
+  },
+  {
+   "group": "Connectivity & Interfaces",
+   "key": "sim_slot",
+   "label": "SIM card slot",
+   "value": true,
+   "unit": "",
+   "note": "",
+   "source": "https://academy.pudutech.com/en/docs/chan-pin-jian-jie"
+  },
+  {
+   "group": "Audio, Lights & HMI",
+   "key": "display",
+   "label": "Interaction screen",
+   "value": "10.1-inch LCD",
+   "unit": "",
+   "note": "",
+   "source": "https://academy.pudutech.com/en/docs/chan-pin-jian-jie"
+  },
+  {
+   "group": "Audio, Lights & HMI",
+   "key": "advertising_display",
+   "label": "Advertising screen",
+   "value": "18.5-inch LCD",
+   "unit": "",
+   "note": "",
+   "source": "https://academy.pudutech.com/en/docs/chan-pin-jian-jie"
+  },
+  {
+   "group": "Audio, Lights & HMI",
+   "key": "speaker",
+   "label": "Speakers",
+   "value": "2 × 10 W stereo",
+   "unit": "",
+   "note": "",
+   "source": "https://academy.pudutech.com/en/docs/chan-pin-jian-jie"
+  },
+  {
+   "group": "Audio, Lights & HMI",
+   "key": "status_lights",
+   "label": "Light strips",
+   "value": true,
+   "unit": "",
+   "note": "",
+   "source": "https://academy.pudutech.com/en/docs/chan-pin-jian-jie"
+  },
+  {
+   "group": "Controls & Operation",
+   "key": "control_modes",
+   "label": "Use cases",
+   "value": "Marketing; greeting & escorting; food delivery; voice interaction",
+   "unit": "",
+   "note": "",
+   "source": "https://academy.pudutech.com/en/docs/chan-pin-jian-jie"
+  },
+  {
+   "group": "Commercial",
+   "key": "service_life",
+   "label": "Service life",
+   "value": 5,
+   "unit": "years",
+   "note": "",
+   "source": "https://academy.pudutech.com/en/docs/chan-pin-jian-jie"
+  }
+ ]
+}

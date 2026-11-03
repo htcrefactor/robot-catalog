@@ -1,4 +1,4 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><link rel="stylesheet" href="assets/style.css"><script src="assets/i18n.js"></script><script src="assets/app.js"></script><title>Robot Catalog</title></head>
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><link rel="stylesheet" href="assets/style.css"><script src="assets/i18n.js"></script><script src="assets/specs-i18n.js"></script><script src="assets/app.js"></script><title>Robot Catalog</title></head>
 <body><script>nav("")</script><main id="m"><p class="muted">…</p></main><div id="foot"></div>
 <script>
 (async()=>{const d=await loadData();const id=new URLSearchParams(location.search).get("id");
@@ -19,6 +19,23 @@ m.innerHTML=`<p class="small"><a href="index.html">${t("back")}</a></p>
 <div class="panel"><h2>${t("power_env")}</h2><table>${row("runtime",fmt(r.runtime_h,"h"))}${row("battery",fmt(r.battery_wh,"Wh"))}${row("ip",fmt(r.ip_rating))}${row("released",fmt(r.release_year))}${row("price",price)}</table></div>
 <div class="panel"><h2>${t("soft_compute")}</h2><table>${row("api",yn(r.api_support))}${row("sdk",yn(r.sdk_available)+(r.sdk_name?` <span class="small">${esc(r.sdk_name)}</span>`:""))}${row("ros",yn(r.ros_support))}${row("onboard",yn(r.onboard_compute))}${row("compute",fmt(r.compute_detail))}${row("sensors",(r.sensors||[]).map(esc).join(", ")||"—")}</table></div>
 </div>
+<div id="full"></div>
 <div class="panel"><h2>${t("sources")}</h2>${r.official_url?`<p><a href="${esc(r.official_url)}" target="_blank" rel="noopener">${t("official")}</a></p>`:""}<ul class="small">${(r.sources||[]).map(s=>`<li><a href="${esc(s)}" target="_blank" rel="noopener">${esc(s)}</a></li>`).join("")}</ul></div>
-${peers.length?`<div class="panel"><h2>${t("other_in")}: ${esc(tv(r.category))}</h2><p>${peers.map(p=>`<a href="robot.html?id=${encodeURIComponent(p.id)}">${esc(p.manufacturer)} ${esc(p.name)}</a>`).join(" · ")}</p></div>`:""}`;})();
+${peers.length?`<div class="panel"><h2>${t("other_in")}: ${esc(tv(r.category))}</h2><p>${peers.map(p=>`<a href="robot.html?id=${encodeURIComponent(p.id)}">${esc(p.manufacturer)} ${esc(p.name)}</a>`).join(" · ")}</p></div>`:""}`;
+const full=document.getElementById("full");
+let sp=null,keys=null;
+try{const [a,b]=await Promise.all([fetch(`data/specs/${encodeURIComponent(r.id)}.json`,{cache:"no-cache"}),fetch("data/spec_keys.json",{cache:"no-cache"})]);if(a.ok)sp=await a.json();if(b.ok)keys=await b.json();}catch(e){}
+if(!sp||!sp.specs||!sp.specs.length){full.innerHTML=`<div class="panel"><h2>${t("full_specs")}</h2><p class="muted">${t("no_full_specs")}</p></div>`;return;}
+const docs=sp.documents||[];
+const draw=(all)=>{const by={};sp.specs.forEach(x=>{(by[x.group]=by[x.group]||[]).push(x)});
+ const have=new Set(sp.specs.map(x=>x.key));
+ if(all&&keys)keys.keys.forEach(k=>{if(!have.has(k.key))(by[k.group]=by[k.group]||[]).push({key:k.key,label:k.label,missing:1})});
+ const order=[...GROUPS,...Object.keys(by).filter(g=>!GROUPS.includes(g))].filter(g=>by[g]);
+ return order.map(g=>`<div class="panel"><h2>${esc(tg(g))} <span class="muted small">${by[g].filter(x=>!x.missing).length}</span></h2><table class="fs">${by[g].map(x=>x.missing?`<tr class="miss"><td>${esc(x.label)}</td><td class="muted">${t("not_published")}</td></tr>`:`<tr><td>${esc(x.label)}</td><td>${sv(x.value,x.unit)}${x.note?`<div class="small muted">${esc(x.note)}</div>`:""}${x.source?`<div class="small"><a href="${esc(x.source)}" target="_blank" rel="noopener">${esc(host(x.source))}${x.ref?" · "+esc(x.ref):""}</a></div>`:""}</td></tr>`).join("")}</table></div>`).join("");};
+full.innerHTML=`<h2 style="margin-top:28px">${t("full_specs")}</h2><p class="muted small">${t("full_specs_sub",{n:sp.specs.length,d:docs.length})}</p>
+<label class="small"><input type="checkbox" id="allf"> ${t("show_all_fields")}</label>
+<div class="spec" id="fsg" style="margin-top:12px">${draw(false)}</div>
+${docs.length?`<div class="panel"><h2>${t("documents")}</h2><ul class="small">${docs.map(d=>`<li><a href="${esc(d.url)}" target="_blank" rel="noopener">${esc(d.title||d.url)}</a></li>`).join("")}</ul></div>`:""}`;
+document.getElementById("allf").onchange=e=>{document.getElementById("fsg").innerHTML=draw(e.target.checked)};
+})();
 </script></body></html>

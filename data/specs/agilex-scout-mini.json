@@ -1,0 +1,563 @@
+{
+ "id": "agilex-scout-mini",
+ "checked": "2026-11-04",
+ "documents": [
+  {
+   "title": "SCOUT MINI User Manual (AgileX)",
+   "url": "https://cdn.shopify.com/s/files/1/0551/0630/6141/files/SCOUT_MINI_USER_MANUAL_AgileX.pdf?v=1792636734"
+  },
+  {
+   "title": "SCOUT MINI product page (AgileX global)",
+   "url": "https://global.agilex.ai/products/scout-mini"
+  }
+ ],
+ "specs": [
+  {
+   "group": "Identity",
+   "key": "manufacturer_address",
+   "label": "Manufacturer address",
+   "value": "Head office: XbotPark, Songshan Lake, Dongguan, Guangdong, China; Sales: iPark, Nanshan District, Shenzhen",
+   "unit": "",
+   "note": "",
+   "source": "https://global.agilex.ai/products/scout-mini"
+  },
+  {
+   "group": "Identity",
+   "key": "variants",
+   "label": "Wheel options",
+   "value": "Standard off-road wheels; Mecanum wheels (lateral motion in Mecanum mode)",
+   "unit": "",
+   "note": "",
+   "source": "https://cdn.shopify.com/s/files/1/0551/0630/6141/files/SCOUT_MINI_USER_MANUAL_AgileX.pdf?v=1792636734",
+   "ref": "1.2 / 3.3"
+  },
+  {
+   "group": "Dimensions & Mass",
+   "key": "length",
+   "label": "Length",
+   "value": 612,
+   "unit": "mm",
+   "note": "",
+   "source": "https://cdn.shopify.com/s/files/1/0551/0630/6141/files/SCOUT_MINI_USER_MANUAL_AgileX.pdf?v=1792636734",
+   "ref": "1.2"
+  },
+  {
+   "group": "Dimensions & Mass",
+   "key": "width",
+   "label": "Width",
+   "value": 580,
+   "unit": "mm",
+   "note": "",
+   "source": "https://cdn.shopify.com/s/files/1/0551/0630/6141/files/SCOUT_MINI_USER_MANUAL_AgileX.pdf?v=1792636734",
+   "ref": "1.2"
+  },
+  {
+   "group": "Dimensions & Mass",
+   "key": "height",
+   "label": "Height",
+   "value": 245,
+   "unit": "mm",
+   "note": "",
+   "source": "https://cdn.shopify.com/s/files/1/0551/0630/6141/files/SCOUT_MINI_USER_MANUAL_AgileX.pdf?v=1792636734",
+   "ref": "1.2"
+  },
+  {
+   "group": "Dimensions & Mass",
+   "key": "weight",
+   "label": "Kerb weight",
+   "value": 23,
+   "unit": "kg",
+   "note": "",
+   "source": "https://cdn.shopify.com/s/files/1/0551/0630/6141/files/SCOUT_MINI_USER_MANUAL_AgileX.pdf?v=1792636734",
+   "ref": "1.2"
+  },
+  {
+   "group": "Dimensions & Mass",
+   "key": "track_width",
+   "label": "Axle track",
+   "value": 451,
+   "unit": "mm",
+   "note": "",
+   "source": "https://cdn.shopify.com/s/files/1/0551/0630/6141/files/SCOUT_MINI_USER_MANUAL_AgileX.pdf?v=1792636734",
+   "ref": "1.2"
+  },
+  {
+   "group": "Dimensions & Mass",
+   "key": "wheelbase",
+   "label": "Front/rear track (wheelbase)",
+   "value": 490,
+   "unit": "mm",
+   "note": "listed as front/rear track",
+   "source": "https://cdn.shopify.com/s/files/1/0551/0630/6141/files/SCOUT_MINI_USER_MANUAL_AgileX.pdf?v=1792636734",
+   "ref": "1.2"
+  },
+  {
+   "group": "Dimensions & Mass",
+   "key": "ground_clearance",
+   "label": "Ground clearance",
+   "value": 115,
+   "unit": "mm",
+   "note": "",
+   "source": "https://cdn.shopify.com/s/files/1/0551/0630/6141/files/SCOUT_MINI_USER_MANUAL_AgileX.pdf?v=1792636734",
+   "ref": "1.2"
+  },
+  {
+   "group": "Mobility & Performance",
+   "key": "max_speed",
+   "label": "Max speed",
+   "value": 1.5,
+   "unit": "m/s",
+   "note": "",
+   "source": "https://cdn.shopify.com/s/files/1/0551/0630/6141/files/SCOUT_MINI_USER_MANUAL_AgileX.pdf?v=1792636734",
+   "ref": "1.2"
+  },
+  {
+   "group": "Mobility & Performance",
+   "key": "max_payload",
+   "label": "Max payload",
+   "value": 10,
+   "unit": "kg",
+   "note": "",
+   "source": "https://cdn.shopify.com/s/files/1/0551/0630/6141/files/SCOUT_MINI_USER_MANUAL_AgileX.pdf?v=1792636734",
+   "ref": "Operation"
+  },
+  {
+   "group": "Mobility & Performance",
+   "key": "turning_radius",
+   "label": "Minimum turning radius",
+   "value": 0,
+   "unit": "mm",
+   "note": "",
+   "source": "https://cdn.shopify.com/s/files/1/0551/0630/6141/files/SCOUT_MINI_USER_MANUAL_AgileX.pdf?v=1792636734",
+   "ref": "1.2"
+  },
+  {
+   "group": "Mobility & Performance",
+   "key": "steering",
+   "label": "Steering",
+   "value": "Four-wheel differential steering; independent four-wheel drive",
+   "unit": "",
+   "note": "",
+   "source": "https://cdn.shopify.com/s/files/1/0551/0630/6141/files/SCOUT_MINI_USER_MANUAL_AgileX.pdf?v=1792636734",
+   "ref": "1.2"
+  },
+  {
+   "group": "Mobility & Performance",
+   "key": "drive_motor",
+   "label": "Drive motors",
+   "value": "DC brushless hub motors, 4 × 250 W (Mecanum wheel version 150 W)",
+   "unit": "",
+   "note": "",
+   "source": "https://cdn.shopify.com/s/files/1/0551/0630/6141/files/SCOUT_MINI_USER_MANUAL_AgileX.pdf?v=1792636734",
+   "ref": "1.2"
+  },
+  {
+   "group": "Mobility & Performance",
+   "key": "drive_motor_reduction_ratio",
+   "label": "Drive motor reduction ratio",
+   "value": "1:4.3",
+   "unit": "",
+   "note": "",
+   "source": "https://cdn.shopify.com/s/files/1/0551/0630/6141/files/SCOUT_MINI_USER_MANUAL_AgileX.pdf?v=1792636734",
+   "ref": "1.2"
+  },
+  {
+   "group": "Mobility & Performance",
+   "key": "drive_motor_encoder",
+   "label": "Drive motor sensor",
+   "value": "Hall",
+   "unit": "",
+   "note": "",
+   "source": "https://cdn.shopify.com/s/files/1/0551/0630/6141/files/SCOUT_MINI_USER_MANUAL_AgileX.pdf?v=1792636734",
+   "ref": "1.2"
+  },
+  {
+   "group": "Mobility & Performance",
+   "key": "speed_command_range",
+   "label": "Linear speed command range",
+   "value": "±1500",
+   "unit": "mm/s",
+   "note": "CAN motion command",
+   "source": "https://cdn.shopify.com/s/files/1/0551/0630/6141/files/SCOUT_MINI_USER_MANUAL_AgileX.pdf?v=1792636734",
+   "ref": "3.3"
+  },
+  {
+   "group": "Mobility & Performance",
+   "key": "max_yaw_rate",
+   "label": "Angular speed command range",
+   "value": "±2.523",
+   "unit": "rad/s",
+   "note": "CAN command range ±2523 × 0.001 rad/s",
+   "source": "https://cdn.shopify.com/s/files/1/0551/0630/6141/files/SCOUT_MINI_USER_MANUAL_AgileX.pdf?v=1792636734",
+   "ref": "3.3"
+  },
+  {
+   "group": "Mobility & Performance",
+   "key": "max_speed_lateral",
+   "label": "Lateral speed command range",
+   "value": "±3000",
+   "unit": "mm/s",
+   "note": "Mecanum mode only",
+   "source": "https://cdn.shopify.com/s/files/1/0551/0630/6141/files/SCOUT_MINI_USER_MANUAL_AgileX.pdf?v=1792636734",
+   "ref": "3.3"
+  },
+  {
+   "group": "Terrain & Navigation Limits",
+   "key": "max_slope",
+   "label": "Max gradeability",
+   "value": 15,
+   "unit": "°",
+   "note": "user manual",
+   "source": "https://cdn.shopify.com/s/files/1/0551/0630/6141/files/SCOUT_MINI_USER_MANUAL_AgileX.pdf?v=1792636734",
+   "ref": "1.2"
+  },
+  {
+   "group": "Terrain & Navigation Limits",
+   "key": "max_slope",
+   "label": "Climb (full load)",
+   "value": 20,
+   "unit": "°",
+   "note": "product page; text also cites up to 22°",
+   "source": "https://global.agilex.ai/products/scout-mini"
+  },
+  {
+   "group": "Terrain & Navigation Limits",
+   "key": "max_obstacle_height",
+   "label": "Obstacle clearance",
+   "value": 40,
+   "unit": "mm",
+   "note": "",
+   "source": "https://global.agilex.ai/products/scout-mini"
+  },
+  {
+   "group": "Terrain & Navigation Limits",
+   "key": "suspension",
+   "label": "Suspension",
+   "value": "Independent suspension with rocker arm; filled solid tires",
+   "unit": "",
+   "note": "",
+   "source": "https://cdn.shopify.com/s/files/1/0551/0630/6141/files/SCOUT_MINI_USER_MANUAL_AgileX.pdf?v=1792636734",
+   "ref": "1.2 / 2"
+  },
+  {
+   "group": "Power & Battery",
+   "key": "battery_chemistry",
+   "label": "Battery type",
+   "value": "Lithium battery",
+   "unit": "",
+   "note": "",
+   "source": "https://cdn.shopify.com/s/files/1/0551/0630/6141/files/SCOUT_MINI_USER_MANUAL_AgileX.pdf?v=1792636734",
+   "ref": "1.2"
+  },
+  {
+   "group": "Power & Battery",
+   "key": "battery_voltage",
+   "label": "Battery voltage",
+   "value": 24,
+   "unit": "V",
+   "note": "",
+   "source": "https://cdn.shopify.com/s/files/1/0551/0630/6141/files/SCOUT_MINI_USER_MANUAL_AgileX.pdf?v=1792636734",
+   "ref": "1.2"
+  },
+  {
+   "group": "Power & Battery",
+   "key": "battery_capacity_ah",
+   "label": "Battery capacity",
+   "value": 15,
+   "unit": "Ah",
+   "note": "",
+   "source": "https://cdn.shopify.com/s/files/1/0551/0630/6141/files/SCOUT_MINI_USER_MANUAL_AgileX.pdf?v=1792636734",
+   "ref": "1.2"
+  },
+  {
+   "group": "Power & Battery",
+   "key": "battery_voltage_max",
+   "label": "Full-charge voltage",
+   "value": 29.2,
+   "unit": "V",
+   "note": "",
+   "source": "https://cdn.shopify.com/s/files/1/0551/0630/6141/files/SCOUT_MINI_USER_MANUAL_AgileX.pdf?v=1792636734",
+   "ref": "3.2"
+  },
+  {
+   "group": "Power & Battery",
+   "key": "runtime",
+   "label": "Maximum endurance",
+   "value": 3,
+   "unit": "h",
+   "note": "user manual",
+   "source": "https://cdn.shopify.com/s/files/1/0551/0630/6141/files/SCOUT_MINI_USER_MANUAL_AgileX.pdf?v=1792636734",
+   "ref": "1.2"
+  },
+  {
+   "group": "Power & Battery",
+   "key": "runtime",
+   "label": "Runtime (full load)",
+   "value": 1,
+   "unit": "h",
+   "note": "product page",
+   "source": "https://global.agilex.ai/products/scout-mini"
+  },
+  {
+   "group": "Power & Battery",
+   "key": "range_per_charge",
+   "label": "Maximum travel",
+   "value": 35,
+   "unit": "km",
+   "note": "user manual",
+   "source": "https://cdn.shopify.com/s/files/1/0551/0630/6141/files/SCOUT_MINI_USER_MANUAL_AgileX.pdf?v=1792636734",
+   "ref": "1.2"
+  },
+  {
+   "group": "Power & Battery",
+   "key": "range_per_charge",
+   "label": "Max range (full load)",
+   "value": 8,
+   "unit": "km",
+   "note": "product page",
+   "source": "https://global.agilex.ai/products/scout-mini"
+  },
+  {
+   "group": "Charging & Docking",
+   "key": "charge_time",
+   "label": "Charging time",
+   "value": 2,
+   "unit": "h",
+   "note": "manual table; text: ~1.5 h from 22 V with 10 A charger",
+   "source": "https://cdn.shopify.com/s/files/1/0551/0630/6141/files/SCOUT_MINI_USER_MANUAL_AgileX.pdf?v=1792636734",
+   "ref": "1.2 / 3.2"
+  },
+  {
+   "group": "Charging & Docking",
+   "key": "max_charge_current",
+   "label": "Charger current",
+   "value": 10,
+   "unit": "A",
+   "note": "",
+   "source": "https://cdn.shopify.com/s/files/1/0551/0630/6141/files/SCOUT_MINI_USER_MANUAL_AgileX.pdf?v=1792636734",
+   "ref": "3.2"
+  },
+  {
+   "group": "Charging & Docking",
+   "key": "charger_input",
+   "label": "Charger input",
+   "value": "AC 220 V",
+   "unit": "",
+   "note": "",
+   "source": "https://cdn.shopify.com/s/files/1/0551/0630/6141/files/SCOUT_MINI_USER_MANUAL_AgileX.pdf?v=1792636734",
+   "ref": "1.1"
+  },
+  {
+   "group": "Environment & Protection",
+   "key": "ip_rating",
+   "label": "IP rating",
+   "value": "IP22",
+   "unit": "",
+   "note": "custom IP protection available",
+   "source": "https://cdn.shopify.com/s/files/1/0551/0630/6141/files/SCOUT_MINI_USER_MANUAL_AgileX.pdf?v=1792636734",
+   "ref": "1.2"
+  },
+  {
+   "group": "Environment & Protection",
+   "key": "operating_temperature",
+   "label": "Working temperature",
+   "value": "-10 to 40",
+   "unit": "°C",
+   "note": "safety section states -10 to 45 °C",
+   "source": "https://cdn.shopify.com/s/files/1/0551/0630/6141/files/SCOUT_MINI_USER_MANUAL_AgileX.pdf?v=1792636734",
+   "ref": "1.2"
+  },
+  {
+   "group": "Environment & Protection",
+   "key": "operating_humidity",
+   "label": "Relative humidity",
+   "value": "30 to 80",
+   "unit": "%",
+   "note": "",
+   "source": "https://cdn.shopify.com/s/files/1/0551/0630/6141/files/SCOUT_MINI_USER_MANUAL_AgileX.pdf?v=1792636734"
+  },
+  {
+   "group": "Environment & Protection",
+   "key": "max_altitude",
+   "label": "Max altitude",
+   "value": 1000,
+   "unit": "m",
+   "note": "recommended",
+   "source": "https://cdn.shopify.com/s/files/1/0551/0630/6141/files/SCOUT_MINI_USER_MANUAL_AgileX.pdf?v=1792636734"
+  },
+  {
+   "group": "Environment & Protection",
+   "key": "max_day_night_temp_difference",
+   "label": "Max day/night temperature difference",
+   "value": 25,
+   "unit": "°C",
+   "note": "",
+   "source": "https://cdn.shopify.com/s/files/1/0551/0630/6141/files/SCOUT_MINI_USER_MANUAL_AgileX.pdf?v=1792636734"
+  },
+  {
+   "group": "Environment & Protection",
+   "key": "storage_temperature",
+   "label": "Battery storage temperature",
+   "value": "-10 to 45",
+   "unit": "°C",
+   "note": "",
+   "source": "https://cdn.shopify.com/s/files/1/0551/0630/6141/files/SCOUT_MINI_USER_MANUAL_AgileX.pdf?v=1792636734"
+  },
+  {
+   "group": "Environment & Protection",
+   "key": "charging_temperature",
+   "label": "Charging temperature",
+   "value": "above 0",
+   "unit": "°C",
+   "note": "",
+   "source": "https://cdn.shopify.com/s/files/1/0551/0630/6141/files/SCOUT_MINI_USER_MANUAL_AgileX.pdf?v=1792636734"
+  },
+  {
+   "group": "Compute & Software",
+   "key": "sdk",
+   "label": "SDK",
+   "value": "AgileX UGV SDK + CAN protocol",
+   "unit": "",
+   "note": "",
+   "source": "https://global.agilex.ai/products/scout-mini"
+  },
+  {
+   "group": "Compute & Software",
+   "key": "ros_support",
+   "label": "ROS",
+   "value": "ROS 1 / ROS 2 driver support",
+   "unit": "",
+   "note": "",
+   "source": "https://global.agilex.ai/products/scout-mini"
+  },
+  {
+   "group": "Connectivity & Interfaces",
+   "key": "can_bus",
+   "label": "Communication interface",
+   "value": "CAN (USB-to-CAN adapter included)",
+   "unit": "",
+   "note": "",
+   "source": "https://cdn.shopify.com/s/files/1/0551/0630/6141/files/SCOUT_MINI_USER_MANUAL_AgileX.pdf?v=1792636734",
+   "ref": "1.2"
+  },
+  {
+   "group": "Connectivity & Interfaces",
+   "key": "external_ports",
+   "label": "Rear panel",
+   "value": "Aviation extension interface (power + CAN), voltage display module, power switch, charging interface",
+   "unit": "",
+   "note": "",
+   "source": "https://cdn.shopify.com/s/files/1/0551/0630/6141/files/SCOUT_MINI_USER_MANUAL_AgileX.pdf?v=1792636734",
+   "ref": "2.2"
+  },
+  {
+   "group": "Payload & Mounting",
+   "key": "payload_port_power",
+   "label": "Extension power limit",
+   "value": "≤5 A, ≤120 W",
+   "unit": "",
+   "note": "",
+   "source": "https://cdn.shopify.com/s/files/1/0551/0630/6141/files/SCOUT_MINI_USER_MANUAL_AgileX.pdf?v=1792636734",
+   "ref": "Precautions for electrical external extension"
+  },
+  {
+   "group": "Payload & Mounting",
+   "key": "mounting_rail",
+   "label": "Top mounting",
+   "value": "Standard aluminum extension support on top",
+   "unit": "",
+   "note": "",
+   "source": "https://cdn.shopify.com/s/files/1/0551/0630/6141/files/SCOUT_MINI_USER_MANUAL_AgileX.pdf?v=1792636734",
+   "ref": "2"
+  },
+  {
+   "group": "Safety & Compliance",
+   "key": "obstacle_avoidance",
+   "label": "Obstacle avoidance",
+   "value": false,
+   "unit": "",
+   "note": "no automatic obstacle avoidance sensor",
+   "source": "https://cdn.shopify.com/s/files/1/0551/0630/6141/files/SCOUT_MINI_USER_MANUAL_AgileX.pdf?v=1792636734"
+  },
+  {
+   "group": "Safety & Compliance",
+   "key": "bumper",
+   "label": "Anti-collision",
+   "value": "Front anti-collision fence",
+   "unit": "",
+   "note": "",
+   "source": "https://cdn.shopify.com/s/files/1/0551/0630/6141/files/SCOUT_MINI_USER_MANUAL_AgileX.pdf?v=1792636734",
+   "ref": "2"
+  },
+  {
+   "group": "Safety & Compliance",
+   "key": "parking_brake",
+   "label": "Parking type",
+   "value": "Servo brake / anti-collision tube",
+   "unit": "",
+   "note": "",
+   "source": "https://cdn.shopify.com/s/files/1/0551/0630/6141/files/SCOUT_MINI_USER_MANUAL_AgileX.pdf?v=1792636734",
+   "ref": "1.2"
+  },
+  {
+   "group": "Controls & Operation",
+   "key": "control_modes",
+   "label": "Control modes",
+   "value": "Remote control mode; command control mode",
+   "unit": "",
+   "note": "",
+   "source": "https://cdn.shopify.com/s/files/1/0551/0630/6141/files/SCOUT_MINI_USER_MANUAL_AgileX.pdf?v=1792636734",
+   "ref": "1.2"
+  },
+  {
+   "group": "Controls & Operation",
+   "key": "controller",
+   "label": "RC transmitter",
+   "value": "FS 2.4 GHz, limit distance 100 m",
+   "unit": "",
+   "note": "",
+   "source": "https://cdn.shopify.com/s/files/1/0551/0630/6141/files/SCOUT_MINI_USER_MANUAL_AgileX.pdf?v=1792636734",
+   "ref": "1.2"
+  },
+  {
+   "group": "Controls & Operation",
+   "key": "remote_range",
+   "label": "RC range",
+   "value": 100,
+   "unit": "m",
+   "note": "",
+   "source": "https://cdn.shopify.com/s/files/1/0551/0630/6141/files/SCOUT_MINI_USER_MANUAL_AgileX.pdf?v=1792636734",
+   "ref": "1.2"
+  },
+  {
+   "group": "Audio, Lights & HMI",
+   "key": "status_lights",
+   "label": "Lights",
+   "value": "White front width light (RC/command switchable, brightness 0-100); ring power indicator",
+   "unit": "",
+   "note": "",
+   "source": "https://cdn.shopify.com/s/files/1/0551/0630/6141/files/SCOUT_MINI_USER_MANUAL_AgileX.pdf?v=1792636734",
+   "ref": "2.1"
+  },
+  {
+   "group": "Audio, Lights & HMI",
+   "key": "display",
+   "label": "Display",
+   "value": "Tail power display (battery capacity and voltage)",
+   "unit": "",
+   "note": "",
+   "source": "https://cdn.shopify.com/s/files/1/0551/0630/6141/files/SCOUT_MINI_USER_MANUAL_AgileX.pdf?v=1792636734",
+   "ref": "2.1"
+  },
+  {
+   "group": "Commercial",
+   "key": "included_accessories",
+   "label": "Product list",
+   "value": "Robot body, AC 220 V charger, 4-pin aviation male plug, USB-to-CAN, RC transmitter",
+   "unit": "",
+   "note": "",
+   "source": "https://cdn.shopify.com/s/files/1/0551/0630/6141/files/SCOUT_MINI_USER_MANUAL_AgileX.pdf?v=1792636734",
+   "ref": "1.1"
+  }
+ ]
+}

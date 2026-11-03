@@ -1,0 +1,3214 @@
+{
+ "id": "boston-dynamics-spot",
+ "checked": "2026-11-04",
+ "documents": [
+  {
+   "title": "Spot Instructions for Use, Safety and Operations Manual, Version 5.1.5 (April 2026)",
+   "url": "https://d3cjkvgbik1jtv.cloudfront.net/translations/spot-5_1/spot-user-manual-en.pdf"
+  },
+  {
+   "title": "Spot product page (Boston Dynamics)",
+   "url": "https://bostondynamics.com/products/spot/"
+  },
+  {
+   "title": "Spot specifications datasheet (updated 05/22/2024), linked from product page",
+   "url": "https://bostondynamics.com/wp-content/uploads/2020/10/spot-specifications.pdf"
+  },
+  {
+   "title": "Boston Dynamics Support Center: Spot Specifications",
+   "url": "https://support.bostondynamics.com/s/article/spot-specifications"
+  }
+ ],
+ "specs": [
+  {
+   "group": "Identity",
+   "key": "model_number",
+   "label": "Hardware model (P/N)",
+   "value": "04-00143531-001",
+   "unit": "",
+   "note": "Spot hardware model covered by IFU 5.1.5",
+   "source": "https://d3cjkvgbik1jtv.cloudfront.net/translations/spot-5_1/spot-user-manual-en.pdf",
+   "ref": "§1.1 p.6"
+  },
+  {
+   "group": "Identity",
+   "key": "model_number",
+   "label": "Hardware model (P/N)",
+   "value": "04-00143531-401",
+   "unit": "",
+   "note": "Model with red E-Stop button and A/V warning system",
+   "source": "https://d3cjkvgbik1jtv.cloudfront.net/translations/spot-5_1/spot-user-manual-en.pdf",
+   "ref": "§1.1 p.6; §1.5.1 p.10"
+  },
+  {
+   "group": "Identity",
+   "key": "model_number",
+   "label": "Hardware model (P/N)",
+   "value": "04-00143531-601",
+   "unit": "",
+   "note": "Model with A/V warning system",
+   "source": "https://d3cjkvgbik1jtv.cloudfront.net/translations/spot-5_1/spot-user-manual-en.pdf",
+   "ref": "§1.1 p.6; §2.7 p.22"
+  },
+  {
+   "group": "Identity",
+   "key": "model_number",
+   "label": "Hardware model (P/N)",
+   "value": "04-00143531-611",
+   "unit": "",
+   "note": "Model with A/V warning system",
+   "source": "https://d3cjkvgbik1jtv.cloudfront.net/translations/spot-5_1/spot-user-manual-en.pdf",
+   "ref": "§1.1 p.6; §2.7 p.22"
+  },
+  {
+   "group": "Identity",
+   "key": "model_number_location",
+   "label": "Model number location",
+   "value": "Label inside Spot's battery compartment",
+   "unit": "",
+   "note": "",
+   "source": "https://d3cjkvgbik1jtv.cloudfront.net/translations/spot-5_1/spot-user-manual-en.pdf",
+   "ref": "§2.7 p.22"
+  },
+  {
+   "group": "Identity",
+   "key": "software_version",
+   "label": "Software version",
+   "value": "5.1",
+   "unit": "",
+   "note": "IFU Version 5.1.5 Original Instructions, April 2026",
+   "source": "https://d3cjkvgbik1jtv.cloudfront.net/translations/spot-5_1/spot-user-manual-en.pdf",
+   "ref": "§1.1 p.6"
+  },
+  {
+   "group": "Identity",
+   "key": "manufacturer_address",
+   "label": "Manufacturer",
+   "value": "Boston Dynamics, Inc., 200 Smith St., Waltham, MA 02451, USA; +1 617-868-5600",
+   "unit": "",
+   "note": "",
+   "source": "https://d3cjkvgbik1jtv.cloudfront.net/translations/spot-5_1/spot-user-manual-en.pdf",
+   "ref": "§1.2 p.6"
+  },
+  {
+   "group": "Identity",
+   "key": "robot_type",
+   "label": "Robot type",
+   "value": "Quadruped (four-legged) legged robot",
+   "unit": "",
+   "note": "Oblong rectangular body housing computers, cameras and other components",
+   "source": "https://d3cjkvgbik1jtv.cloudfront.net/translations/spot-5_1/spot-user-manual-en.pdf",
+   "ref": "§1.3 p.7; §1.5.1 p.10"
+  },
+  {
+   "group": "Identity",
+   "key": "serial_number_format",
+   "label": "Serial number format",
+   "value": "BD-XXXXXXXX; first digit = year of production (from 2018: 8, 9, then 0 = 2020)",
+   "unit": "",
+   "note": "",
+   "source": "https://d3cjkvgbik1jtv.cloudfront.net/translations/spot-5_1/spot-user-manual-en.pdf",
+   "ref": "§2.8.1 p.29"
+  },
+  {
+   "group": "Identity",
+   "key": "label_part_number",
+   "label": "Label part number",
+   "value": "04-00385327-001",
+   "unit": "",
+   "note": "",
+   "source": "https://d3cjkvgbik1jtv.cloudfront.net/translations/spot-5_1/spot-user-manual-en.pdf",
+   "ref": "§7.2 p.143 (label image)"
+  },
+  {
+   "group": "Identity",
+   "key": "country_of_origin",
+   "label": "Country of origin",
+   "value": "Designed in Massachusetts, made in USA",
+   "unit": "",
+   "note": "",
+   "source": "https://d3cjkvgbik1jtv.cloudfront.net/translations/spot-5_1/spot-user-manual-en.pdf",
+   "ref": "§7.2 p.143 (label image)"
+  },
+  {
+   "group": "Identity",
+   "key": "variants",
+   "label": "Hardware variants covered",
+   "value": "04-00143531-001; -401 (E-Stop button + A/V warning); -601 (A/V warning); -611 (A/V warning)",
+   "unit": "",
+   "note": "",
+   "source": "https://d3cjkvgbik1jtv.cloudfront.net/translations/spot-5_1/spot-user-manual-en.pdf",
+   "ref": "§1.1 p.6; §2.5.4 p.19; §2.7 p.22"
+  },
+  {
+   "group": "Dimensions & Mass",
+   "key": "length",
+   "label": "Length",
+   "value": 1100,
+   "unit": "mm",
+   "note": "",
+   "source": "https://d3cjkvgbik1jtv.cloudfront.net/translations/spot-5_1/spot-user-manual-en.pdf",
+   "ref": "§1.5.2 p.10"
+  },
+  {
+   "group": "Dimensions & Mass",
+   "key": "width",
+   "label": "Width",
+   "value": 500,
+   "unit": "mm",
+   "note": "",
+   "source": "https://d3cjkvgbik1jtv.cloudfront.net/translations/spot-5_1/spot-user-manual-en.pdf",
+   "ref": "§1.5.2 p.10"
+  },
+  {
+   "group": "Dimensions & Mass",
+   "key": "height_standing",
+   "label": "Default height (walking)",
+   "value": 610,
+   "unit": "mm",
+   "note": "",
+   "source": "https://d3cjkvgbik1jtv.cloudfront.net/translations/spot-5_1/spot-user-manual-en.pdf",
+   "ref": "§1.5.2 p.10"
+  },
+  {
+   "group": "Dimensions & Mass",
+   "key": "height_sitting",
+   "label": "Height (sitting)",
+   "value": 191,
+   "unit": "mm",
+   "note": "",
+   "source": "https://d3cjkvgbik1jtv.cloudfront.net/translations/spot-5_1/spot-user-manual-en.pdf",
+   "ref": "§1.5.2 p.10"
+  },
+  {
+   "group": "Dimensions & Mass",
+   "key": "height_max",
+   "label": "Max height (walking)",
+   "value": 700,
+   "unit": "mm",
+   "note": "",
+   "source": "https://d3cjkvgbik1jtv.cloudfront.net/translations/spot-5_1/spot-user-manual-en.pdf",
+   "ref": "§1.5.2 p.10"
+  },
+  {
+   "group": "Dimensions & Mass",
+   "key": "height_min",
+   "label": "Min height (walking)",
+   "value": 520,
+   "unit": "mm",
+   "note": "",
+   "source": "https://d3cjkvgbik1jtv.cloudfront.net/translations/spot-5_1/spot-user-manual-en.pdf",
+   "ref": "§1.5.2 p.10"
+  },
+  {
+   "group": "Dimensions & Mass",
+   "key": "weight_with_battery",
+   "label": "Net mass (with battery)",
+   "value": 33.8,
+   "unit": "kg",
+   "note": "",
+   "source": "https://d3cjkvgbik1jtv.cloudfront.net/translations/spot-5_1/spot-user-manual-en.pdf",
+   "ref": "§1.5.2 p.10"
+  },
+  {
+   "group": "Dimensions & Mass",
+   "key": "weight_with_battery",
+   "label": "Net mass (with battery), datasheet",
+   "value": 32.7,
+   "unit": "kg",
+   "note": "Datasheet updated 05/22/2024 (IFU 5.1.5: 33.8 kg)",
+   "source": "https://bostondynamics.com/wp-content/uploads/2020/10/spot-specifications.pdf",
+   "ref": "p.2 Base Robot"
+  },
+  {
+   "group": "Mobility & Performance",
+   "key": "degrees_of_freedom",
+   "label": "Degrees of freedom",
+   "value": 12,
+   "unit": "",
+   "note": "",
+   "source": "https://d3cjkvgbik1jtv.cloudfront.net/translations/spot-5_1/spot-user-manual-en.pdf",
+   "ref": "§1.5.2 p.10"
+  },
+  {
+   "group": "Mobility & Performance",
+   "key": "max_speed",
+   "label": "Max nominal speed",
+   "value": 1.6,
+   "unit": "m/s",
+   "note": "Forward velocity of the body under nominal environmental/navigational conditions; individual legs can move faster",
+   "source": "https://d3cjkvgbik1jtv.cloudfront.net/translations/spot-5_1/spot-user-manual-en.pdf",
+   "ref": "§1.5.2 p.10"
+  },
+  {
+   "group": "Mobility & Performance",
+   "key": "gaits",
+   "label": "Gaits and locomotion modes",
+   "value": "Walk (trot, default); Crawl (three feet always on ground); Quick-step slip prevention; Stairs Mode (automatic)",
+   "unit": "",
+   "note": "",
+   "source": "https://d3cjkvgbik1jtv.cloudfront.net/translations/spot-5_1/spot-user-manual-en.pdf",
+   "ref": "§2.4.1 p.15"
+  },
+  {
+   "group": "Mobility & Performance",
+   "key": "max_speed",
+   "label": "Max velocity, speed setting Fast",
+   "value": 1.6,
+   "unit": "m/s",
+   "note": "Manual operation, Walk gait",
+   "source": "https://d3cjkvgbik1jtv.cloudfront.net/translations/spot-5_1/spot-user-manual-en.pdf",
+   "ref": "§2.4.2 p.16"
+  },
+  {
+   "group": "Mobility & Performance",
+   "key": "max_speed",
+   "label": "Max velocity, speed setting Med (default)",
+   "value": 0.9,
+   "unit": "m/s",
+   "note": "Manual operation, Walk gait",
+   "source": "https://d3cjkvgbik1jtv.cloudfront.net/translations/spot-5_1/spot-user-manual-en.pdf",
+   "ref": "§2.4.2 p.16"
+  },
+  {
+   "group": "Mobility & Performance",
+   "key": "max_speed",
+   "label": "Max velocity, speed setting Slow",
+   "value": 0.5,
+   "unit": "m/s",
+   "note": "Manual operation, Walk gait",
+   "source": "https://d3cjkvgbik1jtv.cloudfront.net/translations/spot-5_1/spot-user-manual-en.pdf",
+   "ref": "§2.4.2 p.16"
+  },
+  {
+   "group": "Terrain & Navigation Limits",
+   "key": "min_surface_friction",
+   "label": "Minimum coefficient of friction",
+   "value": 0.4,
+   "unit": "",
+   "note": "Nominal surface condition",
+   "source": "https://d3cjkvgbik1jtv.cloudfront.net/translations/spot-5_1/spot-user-manual-en.pdf",
+   "ref": "§2.8.1 p.27"
+  },
+  {
+   "group": "Terrain & Navigation Limits",
+   "key": "max_obstacle_height",
+   "label": "Debris/uneven surface height variation",
+   "value": 25,
+   "unit": "cm",
+   "note": "Nominal: height variations up to 25 cm",
+   "source": "https://d3cjkvgbik1jtv.cloudfront.net/translations/spot-5_1/spot-user-manual-en.pdf",
+   "ref": "§2.8.1 p.27"
+  },
+  {
+   "group": "Terrain & Navigation Limits",
+   "key": "min_surface_stiffness",
+   "label": "Minimum surface stiffness",
+   "value": 8,
+   "unit": "kN/m",
+   "note": "Avoid soft or pliable surfaces below this",
+   "source": "https://d3cjkvgbik1jtv.cloudfront.net/translations/spot-5_1/spot-user-manual-en.pdf",
+   "ref": "§2.8.1 p.27"
+  },
+  {
+   "group": "Terrain & Navigation Limits",
+   "key": "min_ceiling_height",
+   "label": "Minimum height of overhanging obstacles",
+   "value": 70,
+   "unit": "cm",
+   "note": "",
+   "source": "https://d3cjkvgbik1jtv.cloudfront.net/translations/spot-5_1/spot-user-manual-en.pdf",
+   "ref": "§2.8.1 p.28"
+  },
+  {
+   "group": "Terrain & Navigation Limits",
+   "key": "min_corridor_width",
+   "label": "Minimum doorway, gap or corridor width",
+   "value": 60,
+   "unit": "cm",
+   "note": "Forward/reverse direction of travel",
+   "source": "https://d3cjkvgbik1jtv.cloudfront.net/translations/spot-5_1/spot-user-manual-en.pdf",
+   "ref": "§2.8.1 p.28"
+  },
+  {
+   "group": "Terrain & Navigation Limits",
+   "key": "min_turnaround_space",
+   "label": "Minimum space to turn around (rotate in place)",
+   "value": "122 x 122",
+   "unit": "cm",
+   "note": "L x W",
+   "source": "https://d3cjkvgbik1jtv.cloudfront.net/translations/spot-5_1/spot-user-manual-en.pdf",
+   "ref": "§2.8.1 p.28"
+  },
+  {
+   "group": "Terrain & Navigation Limits",
+   "key": "max_slope",
+   "label": "Maximum slope pitch",
+   "value": 30,
+   "unit": "°",
+   "note": "+/- 30 degrees",
+   "source": "https://d3cjkvgbik1jtv.cloudfront.net/translations/spot-5_1/spot-user-manual-en.pdf",
+   "ref": "§2.8.1 p.28"
+  },
+  {
+   "group": "Terrain & Navigation Limits",
+   "key": "max_step_height",
+   "label": "Maximum height of negative obstacles (step up or down)",
+   "value": 35,
+   "unit": "cm",
+   "note": "Elevated ground",
+   "source": "https://d3cjkvgbik1jtv.cloudfront.net/translations/spot-5_1/spot-user-manual-en.pdf",
+   "ref": "§2.8.1 p.28"
+  },
+  {
+   "group": "Terrain & Navigation Limits",
+   "key": "max_surface_lateral_motion",
+   "label": "Max lateral motion of walking surface",
+   "value": 5,
+   "unit": "cm",
+   "note": "Elevated ground must be stable: less than 5 cm lateral motion",
+   "source": "https://d3cjkvgbik1jtv.cloudfront.net/translations/spot-5_1/spot-user-manual-en.pdf",
+   "ref": "§2.8.1 p.28"
+  },
+  {
+   "group": "Terrain & Navigation Limits",
+   "key": "min_stair_width",
+   "label": "Minimum stairway width",
+   "value": 64,
+   "unit": "cm",
+   "note": "",
+   "source": "https://d3cjkvgbik1jtv.cloudfront.net/translations/spot-5_1/spot-user-manual-en.pdf",
+   "ref": "§2.8.1 p.28"
+  },
+  {
+   "group": "Terrain & Navigation Limits",
+   "key": "max_stair_slope",
+   "label": "Maximum stairway pitch",
+   "value": 45,
+   "unit": "°",
+   "note": "+/- 45 degrees",
+   "source": "https://d3cjkvgbik1jtv.cloudfront.net/translations/spot-5_1/spot-user-manual-en.pdf",
+   "ref": "§2.8.1 p.28"
+  },
+  {
+   "group": "Terrain & Navigation Limits",
+   "key": "max_stair_step_height",
+   "label": "Maximum stair step height",
+   "value": 22,
+   "unit": "cm",
+   "note": "",
+   "source": "https://d3cjkvgbik1jtv.cloudfront.net/translations/spot-5_1/spot-user-manual-en.pdf",
+   "ref": "§2.8.1 p.28"
+  },
+  {
+   "group": "Terrain & Navigation Limits",
+   "key": "stair_barrier_requirement",
+   "label": "Stair side barriers",
+   "value": "At least 50 cm high, gaps no more than 30 cm wide",
+   "unit": "",
+   "note": "",
+   "source": "https://d3cjkvgbik1jtv.cloudfront.net/translations/spot-5_1/spot-user-manual-en.pdf",
+   "ref": "§2.8.1 p.28"
+  },
+  {
+   "group": "Terrain & Navigation Limits",
+   "key": "stair_geometry_requirement",
+   "label": "Stair direction of travel",
+   "value": "Straight (no curvature or turns except on flat landings)",
+   "unit": "",
+   "note": "",
+   "source": "https://d3cjkvgbik1jtv.cloudfront.net/translations/spot-5_1/spot-user-manual-en.pdf",
+   "ref": "§2.8.1 p.28"
+  },
+  {
+   "group": "Terrain & Navigation Limits",
+   "key": "stair_landing_min_size",
+   "label": "Min stair runout space at top and bottom",
+   "value": "122 x 122",
+   "unit": "cm",
+   "note": "L x W (L = direction of travel)",
+   "source": "https://d3cjkvgbik1jtv.cloudfront.net/translations/spot-5_1/spot-user-manual-en.pdf",
+   "ref": "§2.8.1 p.28"
+  },
+  {
+   "group": "Terrain & Navigation Limits",
+   "key": "stair_landing_min_size",
+   "label": "Min straight landing (no turn)",
+   "value": "122 x 64",
+   "unit": "cm",
+   "note": "L x W",
+   "source": "https://d3cjkvgbik1jtv.cloudfront.net/translations/spot-5_1/spot-user-manual-en.pdf",
+   "ref": "§2.8.1 p.28"
+  },
+  {
+   "group": "Terrain & Navigation Limits",
+   "key": "stair_landing_min_size",
+   "label": "Min landing, 90° turn between flights",
+   "value": "122 x 122",
+   "unit": "cm",
+   "note": "L x W",
+   "source": "https://d3cjkvgbik1jtv.cloudfront.net/translations/spot-5_1/spot-user-manual-en.pdf",
+   "ref": "§2.8.1 p.28"
+  },
+  {
+   "group": "Terrain & Navigation Limits",
+   "key": "stair_landing_min_size",
+   "label": "Min landing, 180° turn between flights",
+   "value": "122 x 244",
+   "unit": "cm",
+   "note": "L x W",
+   "source": "https://d3cjkvgbik1jtv.cloudfront.net/translations/spot-5_1/spot-user-manual-en.pdf",
+   "ref": "§2.8.1 p.28"
+  },
+  {
+   "group": "Terrain & Navigation Limits",
+   "key": "step_over_height",
+   "label": "Obstacle height step-over threshold",
+   "value": 30,
+   "unit": "cm",
+   "note": "Objects shorter than 30 cm: Spot attempts to step on/over; taller: attempts to avoid",
+   "source": "https://d3cjkvgbik1jtv.cloudfront.net/translations/spot-5_1/spot-user-manual-en.pdf",
+   "ref": "§2.8.2 p.30"
+  },
+  {
+   "group": "Terrain & Navigation Limits",
+   "key": "surface_types",
+   "label": "Surfaces that may interfere with navigation",
+   "value": "Reflective (mirrored) surfaces; transparent objects/barriers; bright ambient light or dark matte surfaces; repeating patterns of vertical lines; grated floors",
+   "unit": "",
+   "note": "",
+   "source": "https://d3cjkvgbik1jtv.cloudfront.net/translations/spot-5_1/spot-user-manual-en.pdf",
+   "ref": "§2.8.2 p.30"
+  },
+  {
+   "group": "Terrain & Navigation Limits",
+   "key": "fiducial_min_count",
+   "label": "Minimum fiducials to start automatic mode",
+   "value": 1,
+   "unit": "",
+   "note": "At least one for initial localization; one at each Autowalk start; not required for manual operation",
+   "source": "https://d3cjkvgbik1jtv.cloudfront.net/translations/spot-5_1/spot-user-manual-en.pdf",
+   "ref": "§4.9.1 p.71; §4.9.4 p.73"
+  },
+  {
+   "group": "Terrain & Navigation Limits",
+   "key": "fiducial_mount_height",
+   "label": "Ideal wall-mounted fiducial height",
+   "value": "45 to 60",
+   "unit": "cm",
+   "note": "Above ground",
+   "source": "https://d3cjkvgbik1jtv.cloudfront.net/translations/spot-5_1/spot-user-manual-en.pdf",
+   "ref": "§4.9.4 p.73"
+  },
+  {
+   "group": "Terrain & Navigation Limits",
+   "key": "fiducial_spacing",
+   "label": "Fiducial spacing in feature-poor areas",
+   "value": 3,
+   "unit": "m",
+   "note": "Every 3 m in long hallways or open fields; one at each intersection",
+   "source": "https://d3cjkvgbik1jtv.cloudfront.net/translations/spot-5_1/spot-user-manual-en.pdf",
+   "ref": "§4.9.4 p.73"
+  },
+  {
+   "group": "Terrain & Navigation Limits",
+   "key": "navigation_method",
+   "label": "Navigation method",
+   "value": "Vision-based navigation with AprilTag fiducials and visual features; lidar attachments may replace/supplement and need fewer fiducials",
+   "unit": "",
+   "note": "",
+   "source": "https://d3cjkvgbik1jtv.cloudfront.net/translations/spot-5_1/spot-user-manual-en.pdf",
+   "ref": "§4.9.4 p.73-74"
+  },
+  {
+   "group": "Terrain & Navigation Limits",
+   "key": "ground_height_detection",
+   "label": "Ground Height Detection obstacle height",
+   "value": "30",
+   "unit": "cm",
+   "note": "Helps navigate over obstacles approximately 30 cm or less",
+   "source": "https://d3cjkvgbik1jtv.cloudfront.net/translations/spot-5_1/spot-user-manual-en.pdf",
+   "ref": "§5.8.1.7 p.105"
+  },
+  {
+   "group": "Terrain & Navigation Limits",
+   "key": "path_planner_range",
+   "label": "Path planner range, Short range (default)",
+   "value": 2,
+   "unit": "m",
+   "note": "Uses data within 2 m; may deviate 1.5 m from route if blocked",
+   "source": "https://d3cjkvgbik1jtv.cloudfront.net/translations/spot-5_1/spot-user-manual-en.pdf",
+   "ref": "§5.9.2.2 p.124"
+  },
+  {
+   "group": "Terrain & Navigation Limits",
+   "key": "path_planner_range",
+   "label": "Path planner range, Long range",
+   "value": 8,
+   "unit": "m",
+   "note": "Uses data within 8 m (live only, or live + recorded); may deviate 3 m from route if blocked",
+   "source": "https://d3cjkvgbik1jtv.cloudfront.net/translations/spot-5_1/spot-user-manual-en.pdf",
+   "ref": "§5.9.2.2 p.124"
+  },
+  {
+   "group": "Terrain & Navigation Limits",
+   "key": "max_route_deviation",
+   "label": "Max route deviation when blocked, short range",
+   "value": 1.5,
+   "unit": "m",
+   "note": "",
+   "source": "https://d3cjkvgbik1jtv.cloudfront.net/translations/spot-5_1/spot-user-manual-en.pdf",
+   "ref": "§5.9.2.2 p.124"
+  },
+  {
+   "group": "Terrain & Navigation Limits",
+   "key": "max_route_deviation",
+   "label": "Max route deviation when blocked, long range",
+   "value": 3,
+   "unit": "m",
+   "note": "",
+   "source": "https://d3cjkvgbik1jtv.cloudfront.net/translations/spot-5_1/spot-user-manual-en.pdf",
+   "ref": "§5.9.2.2 p.124"
+  },
+  {
+   "group": "Terrain & Navigation Limits",
+   "key": "stair_procedure",
+   "label": "Stair traversal rules",
+   "value": "Climb forward straight up; always descend rear-first; no turning or side-stepping on stairs; grated, open-riser or transparent stairs pose perception challenges",
+   "unit": "",
+   "note": "Stay >=2 m from bottom of stairs/inclines with Spot active",
+   "source": "https://d3cjkvgbik1jtv.cloudfront.net/translations/spot-5_1/spot-user-manual-en.pdf",
+   "ref": "§5.10 p.126-128"
+  },
+  {
+   "group": "Terrain & Navigation Limits",
+   "key": "max_step_height",
+   "label": "Max step height",
+   "value": 300,
+   "unit": "mm",
+   "note": "Product page 'Locomotion' figure (IFU nominal step up/down for elevated ground: 35 cm; stairs: 22 cm)",
+   "source": "https://bostondynamics.com/products/spot/",
+   "ref": "Spot Specifications > Base Robot > Locomotion"
+  },
+  {
+   "group": "Power & Battery",
+   "key": "battery_capacity",
+   "label": "Battery capacity",
+   "value": 564,
+   "unit": "Wh",
+   "note": "",
+   "source": "https://d3cjkvgbik1jtv.cloudfront.net/translations/spot-5_1/spot-user-manual-en.pdf",
+   "ref": "§1.5.2 p.10"
+  },
+  {
+   "group": "Power & Battery",
+   "key": "battery_voltage_max",
+   "label": "Max battery voltage",
+   "value": 58.8,
+   "unit": "V",
+   "note": "",
+   "source": "https://d3cjkvgbik1jtv.cloudfront.net/translations/spot-5_1/spot-user-manual-en.pdf",
+   "ref": "§1.5.2 p.10"
+  },
+  {
+   "group": "Power & Battery",
+   "key": "runtime",
+   "label": "Typical runtime",
+   "value": 90,
+   "unit": "min",
+   "note": "Approximately",
+   "source": "https://d3cjkvgbik1jtv.cloudfront.net/translations/spot-5_1/spot-user-manual-en.pdf",
+   "ref": "§1.5.2 p.10"
+  },
+  {
+   "group": "Power & Battery",
+   "key": "runtime_with_payload",
+   "label": "Typical runtime when powering attachments",
+   "value": 60,
+   "unit": "min",
+   "note": "Approximately",
+   "source": "https://d3cjkvgbik1jtv.cloudfront.net/translations/spot-5_1/spot-user-manual-en.pdf",
+   "ref": "§1.5.2 p.11"
+  },
+  {
+   "group": "Power & Battery",
+   "key": "standby_time",
+   "label": "Standby time",
+   "value": 180,
+   "unit": "min",
+   "note": "Spot powered, motors off",
+   "source": "https://d3cjkvgbik1jtv.cloudfront.net/translations/spot-5_1/spot-user-manual-en.pdf",
+   "ref": "§1.5.2 p.10"
+  },
+  {
+   "group": "Power & Battery",
+   "key": "battery_mass",
+   "label": "Battery mass",
+   "value": 5.2,
+   "unit": "kg",
+   "note": "",
+   "source": "https://d3cjkvgbik1jtv.cloudfront.net/translations/spot-5_1/spot-user-manual-en.pdf",
+   "ref": "§1.5.2 p.11"
+  },
+  {
+   "group": "Power & Battery",
+   "key": "electrical_safety",
+   "label": "Power supply design",
+   "value": "Separated extra low voltage (SELV), <60 VDC; meets IEC 60204-1 (electrical equipment) and IEC 62133 (batteries)",
+   "unit": "",
+   "note": "",
+   "source": "https://d3cjkvgbik1jtv.cloudfront.net/translations/spot-5_1/spot-user-manual-en.pdf",
+   "ref": "§2.9.2 p.31"
+  },
+  {
+   "group": "Power & Battery",
+   "key": "battery_certifications",
+   "label": "Battery certifications",
+   "value": "UN 38.3 transportation testing; CB Certification to IEC 62133; drop tested with no electrolyte leakage",
+   "unit": "",
+   "note": "Cells fully enclosed in sealed enclosure",
+   "source": "https://d3cjkvgbik1jtv.cloudfront.net/translations/spot-5_1/spot-user-manual-en.pdf",
+   "ref": "§2.9.5 p.35"
+  },
+  {
+   "group": "Power & Battery",
+   "key": "battery_idle_damage_time",
+   "label": "Max time battery may be left in powered-off robot",
+   "value": 24,
+   "unit": "h",
+   "note": "Batteries left in a powered-off robot >24 h may be damaged beyond repair (unless on Power Supply or powered Dock)",
+   "source": "https://d3cjkvgbik1jtv.cloudfront.net/translations/spot-5_1/spot-user-manual-en.pdf",
+   "ref": "§3.3.1 p.47"
+  },
+  {
+   "group": "Power & Battery",
+   "key": "battery_chemistry",
+   "label": "Battery chemistry",
+   "value": "Lithium-ion",
+   "unit": "",
+   "note": "",
+   "source": "https://d3cjkvgbik1jtv.cloudfront.net/translations/spot-5_1/spot-user-manual-en.pdf",
+   "ref": "§3.3.1 p.47"
+  },
+  {
+   "group": "Power & Battery",
+   "key": "battery_soc_indicator",
+   "label": "Battery state-of-charge indicator",
+   "value": "Push-button LED bar indicator on battery",
+   "unit": "",
+   "note": "",
+   "source": "https://d3cjkvgbik1jtv.cloudfront.net/translations/spot-5_1/spot-user-manual-en.pdf",
+   "ref": "§3.3.1 p.47"
+  },
+  {
+   "group": "Power & Battery",
+   "key": "battery_swappable",
+   "label": "Removable battery",
+   "value": "Yes - removable lithium-ion battery pack, inserted into rear of battery compartment with latching handle",
+   "unit": "",
+   "note": "",
+   "source": "https://d3cjkvgbik1jtv.cloudfront.net/translations/spot-5_1/spot-user-manual-en.pdf",
+   "ref": "§4.3 p.59; §4.3.1 p.60"
+  },
+  {
+   "group": "Power & Battery",
+   "key": "battery_shipped_soc",
+   "label": "Battery charge as shipped",
+   "value": "<30",
+   "unit": "%",
+   "note": "Charge every new battery to 100% promptly; over-discharged batteries may not be repairable",
+   "source": "https://d3cjkvgbik1jtv.cloudfront.net/translations/spot-5_1/spot-user-manual-en.pdf",
+   "ref": "§4.3 p.59"
+  },
+  {
+   "group": "Power & Battery",
+   "key": "battery_location",
+   "label": "Battery location",
+   "value": "Compartment in bottom panel; SoC button with five LED indicators on battery face",
+   "unit": "",
+   "note": "",
+   "source": "https://d3cjkvgbik1jtv.cloudfront.net/translations/spot-5_1/spot-user-manual-en.pdf",
+   "ref": "§5.1 p.75"
+  },
+  {
+   "group": "Power & Battery",
+   "key": "battery_dimensions",
+   "label": "Battery dimensions (L x W x H)",
+   "value": "324 x 168 x 93",
+   "unit": "mm",
+   "note": "",
+   "source": "https://bostondynamics.com/products/spot/",
+   "ref": "Spot Specifications > Battery & Payload"
+  },
+  {
+   "group": "Power & Battery",
+   "key": "battery_max_internal_temperature",
+   "label": "Max battery internal operating temperature",
+   "value": 75,
+   "unit": "°C",
+   "note": "",
+   "source": "https://support.bostondynamics.com/s/article/spot-specifications",
+   "ref": "Power table"
+  },
+  {
+   "group": "Charging & Docking",
+   "key": "charger_power",
+   "label": "Spot Power Supply power output",
+   "value": 400,
+   "unit": "W",
+   "note": "",
+   "source": "https://d3cjkvgbik1jtv.cloudfront.net/translations/spot-5_1/spot-user-manual-en.pdf",
+   "ref": "§1.5.2 p.10"
+  },
+  {
+   "group": "Charging & Docking",
+   "key": "max_charge_current",
+   "label": "Max charge current",
+   "value": 7,
+   "unit": "A",
+   "note": "",
+   "source": "https://d3cjkvgbik1jtv.cloudfront.net/translations/spot-5_1/spot-user-manual-en.pdf",
+   "ref": "§1.5.2 p.10"
+  },
+  {
+   "group": "Charging & Docking",
+   "key": "charge_time",
+   "label": "Time to charge (Spot Dock)",
+   "value": 50,
+   "unit": "min",
+   "note": "Approximately 50 min to 80% at 25 °C Spot Dock ambient",
+   "source": "https://d3cjkvgbik1jtv.cloudfront.net/translations/spot-5_1/spot-user-manual-en.pdf",
+   "ref": "§1.5.2 p.11"
+  },
+  {
+   "group": "Charging & Docking",
+   "key": "charge_time",
+   "label": "Time to charge (Spot Dock)",
+   "value": 120,
+   "unit": "min",
+   "note": "Approximately 2 h to 100% at 25 °C Spot Dock ambient",
+   "source": "https://d3cjkvgbik1jtv.cloudfront.net/translations/spot-5_1/spot-user-manual-en.pdf",
+   "ref": "§1.5.2 p.11"
+  },
+  {
+   "group": "Charging & Docking",
+   "key": "charge_time",
+   "label": "Time to charge (Spot Dock)",
+   "value": 150,
+   "unit": "min",
+   "note": "Approximately 2.5 h to 80% at 35 °C Spot Dock ambient",
+   "source": "https://d3cjkvgbik1jtv.cloudfront.net/translations/spot-5_1/spot-user-manual-en.pdf",
+   "ref": "§1.5.2 p.11"
+  },
+  {
+   "group": "Charging & Docking",
+   "key": "charge_time",
+   "label": "Time to charge (Spot Dock)",
+   "value": 210,
+   "unit": "min",
+   "note": "Approximately 3.5 h to 100% at 35 °C Spot Dock ambient",
+   "source": "https://d3cjkvgbik1jtv.cloudfront.net/translations/spot-5_1/spot-user-manual-en.pdf",
+   "ref": "§1.5.2 p.11"
+  },
+  {
+   "group": "Charging & Docking",
+   "key": "charge_time",
+   "label": "Time to charge (Spot Power Supply)",
+   "value": 60,
+   "unit": "min",
+   "note": "Approximately 1 hour",
+   "source": "https://d3cjkvgbik1jtv.cloudfront.net/translations/spot-5_1/spot-user-manual-en.pdf",
+   "ref": "§1.5.2 p.11"
+  },
+  {
+   "group": "Charging & Docking",
+   "key": "charging_method",
+   "label": "Charging methods",
+   "value": "Battery removed, with Spot Power Supply; installed in Spot, with Spot Power Supply; installed in Spot, on Spot Dock",
+   "unit": "",
+   "note": "Only BD Spot Dock or Spot Power Supply; do not operate Spot while connected to Power Supply",
+   "source": "https://d3cjkvgbik1jtv.cloudfront.net/translations/spot-5_1/spot-user-manual-en.pdf",
+   "ref": "§4.3.3 p.61-63"
+  },
+  {
+   "group": "Charging & Docking",
+   "key": "dock_available",
+   "label": "Docking station",
+   "value": "Spot Dock - recharging station with Ethernet pass-through",
+   "unit": "",
+   "note": "Installed on level ground",
+   "source": "https://d3cjkvgbik1jtv.cloudfront.net/translations/spot-5_1/spot-user-manual-en.pdf",
+   "ref": "§4.4 p.64"
+  },
+  {
+   "group": "Charging & Docking",
+   "key": "dock_clearance",
+   "label": "Spot Dock clear space, front",
+   "value": 1200,
+   "unit": "mm",
+   "note": "",
+   "source": "https://d3cjkvgbik1jtv.cloudfront.net/translations/spot-5_1/spot-user-manual-en.pdf",
+   "ref": "§4.4 p.64"
+  },
+  {
+   "group": "Charging & Docking",
+   "key": "dock_clearance",
+   "label": "Spot Dock clear space, sides",
+   "value": 600,
+   "unit": "mm",
+   "note": "Rear value left blank in source",
+   "source": "https://d3cjkvgbik1jtv.cloudfront.net/translations/spot-5_1/spot-user-manual-en.pdf",
+   "ref": "§4.4 p.64"
+  },
+  {
+   "group": "Charging & Docking",
+   "key": "docking_sequence",
+   "label": "Docking procedure",
+   "value": "Autonomous: orient rear to dock, walk backward, align with fixtures, lower body onto charging pins on rear tower, lift legs and power off motors; undock: unfold legs, stand, walk forward",
+   "unit": "",
+   "note": "Uses perception system to recognize dock; dock pins connect power and Ethernet",
+   "source": "https://d3cjkvgbik1jtv.cloudfront.net/translations/spot-5_1/spot-user-manual-en.pdf",
+   "ref": "§5.7 p.93"
+  },
+  {
+   "group": "Charging & Docking",
+   "key": "dock_detection_range",
+   "label": "Dock fiducial detection distance",
+   "value": 4,
+   "unit": "m",
+   "note": "Generally within 4 m the dock fiducial is highlighted on controller",
+   "source": "https://d3cjkvgbik1jtv.cloudfront.net/translations/spot-5_1/spot-user-manual-en.pdf",
+   "ref": "§5.7.1 p.95"
+  },
+  {
+   "group": "Charging & Docking",
+   "key": "opportunity_charging",
+   "label": "Autonomous recharging in missions",
+   "value": "Start/end mission at any included dock; recharge between looping/scheduled missions; auto return to dock on low battery; configurable target charge levels",
+   "unit": "",
+   "note": "",
+   "source": "https://d3cjkvgbik1jtv.cloudfront.net/translations/spot-5_1/spot-user-manual-en.pdf",
+   "ref": "§5.7.2 p.96"
+  },
+  {
+   "group": "Charging & Docking",
+   "key": "mission_docking_thresholds",
+   "label": "Mission docking behavior settings",
+   "value": "Minimum charge for undocking; charge to return to dock (set significantly lower)",
+   "unit": "",
+   "note": "",
+   "source": "https://d3cjkvgbik1jtv.cloudfront.net/translations/spot-5_1/spot-user-manual-en.pdf",
+   "ref": "§5.9.2.2 p.123"
+  },
+  {
+   "group": "Charging & Docking",
+   "key": "dock_dimensions",
+   "label": "Spot Dock dimensions (L x W x H)",
+   "value": "1140 x 414 x 403",
+   "unit": "mm",
+   "note": "",
+   "source": "https://bostondynamics.com/wp-content/uploads/2020/10/spot-specifications.pdf",
+   "ref": "p.2 Spot Dock"
+  },
+  {
+   "group": "Charging & Docking",
+   "key": "dock_weight",
+   "label": "Spot Dock mass",
+   "value": 22.9,
+   "unit": "kg",
+   "note": "",
+   "source": "https://bostondynamics.com/wp-content/uploads/2020/10/spot-specifications.pdf",
+   "ref": "p.2 Spot Dock"
+  },
+  {
+   "group": "Charging & Docking",
+   "key": "dock_input",
+   "label": "Spot Dock input",
+   "value": "90-277",
+   "unit": "V AC",
+   "note": "",
+   "source": "https://bostondynamics.com/wp-content/uploads/2020/10/spot-specifications.pdf",
+   "ref": "p.2 Spot Dock"
+  },
+  {
+   "group": "Charging & Docking",
+   "key": "dock_output",
+   "label": "Spot Dock output",
+   "value": "58 V at 12 A",
+   "unit": "",
+   "note": "",
+   "source": "https://bostondynamics.com/wp-content/uploads/2020/10/spot-specifications.pdf",
+   "ref": "p.2 Spot Dock"
+  },
+  {
+   "group": "Charging & Docking",
+   "key": "charge_time",
+   "label": "Spot Dock charge time range",
+   "value": "2 to 3.5",
+   "unit": "h",
+   "note": "Varies with ambient temperature (25 °C: 50 min to 80%, 2 h to 100%; 35 °C: 2.5 h / 3.5 h)",
+   "source": "https://bostondynamics.com/wp-content/uploads/2020/10/spot-specifications.pdf",
+   "ref": "p.2 Spot Dock"
+  },
+  {
+   "group": "Charging & Docking",
+   "key": "dock_operating_temperature",
+   "label": "Spot Dock operating temperature",
+   "value": "0 to 35",
+   "unit": "°C",
+   "note": "Ambient light required; bolt/tie-down mounting locations",
+   "source": "https://bostondynamics.com/wp-content/uploads/2020/10/spot-specifications.pdf",
+   "ref": "p.2 Spot Dock"
+  },
+  {
+   "group": "Charging & Docking",
+   "key": "dock_connectivity",
+   "label": "Spot Dock connectivity",
+   "value": "Gigabit Ethernet passthrough to robot",
+   "unit": "",
+   "note": "",
+   "source": "https://bostondynamics.com/wp-content/uploads/2020/10/spot-specifications.pdf",
+   "ref": "p.2 Spot Dock"
+  },
+  {
+   "group": "Charging & Docking",
+   "key": "dock_certifications",
+   "label": "Spot Dock certification",
+   "value": "cTUVus certified to UL 1564 and CSA C22.2 No. 107.2",
+   "unit": "",
+   "note": "",
+   "source": "https://bostondynamics.com/wp-content/uploads/2020/10/spot-specifications.pdf",
+   "ref": "p.2 Spot Dock"
+  },
+  {
+   "group": "Charging & Docking",
+   "key": "charger_input",
+   "label": "Charger input",
+   "value": "100-240 V AC, 50/60 Hz, 8 A max",
+   "unit": "",
+   "note": "Spot Power Supply",
+   "source": "https://bostondynamics.com/wp-content/uploads/2020/10/spot-specifications.pdf",
+   "ref": "p.2 Charger"
+  },
+  {
+   "group": "Charging & Docking",
+   "key": "charger_output",
+   "label": "Charger output",
+   "value": "35-58.2 V DC, 12 A max",
+   "unit": "",
+   "note": "Spot Power Supply",
+   "source": "https://bostondynamics.com/wp-content/uploads/2020/10/spot-specifications.pdf",
+   "ref": "p.2 Charger"
+  },
+  {
+   "group": "Charging & Docking",
+   "key": "charger_dimensions",
+   "label": "Charger dimensions (L x W x H)",
+   "value": "380 x 315 x 178",
+   "unit": "mm",
+   "note": "",
+   "source": "https://bostondynamics.com/wp-content/uploads/2020/10/spot-specifications.pdf",
+   "ref": "p.2 Charger"
+  },
+  {
+   "group": "Charging & Docking",
+   "key": "charger_weight",
+   "label": "Charger mass",
+   "value": 7.5,
+   "unit": "kg",
+   "note": "",
+   "source": "https://bostondynamics.com/wp-content/uploads/2020/10/spot-specifications.pdf",
+   "ref": "p.2 Charger"
+  },
+  {
+   "group": "Charging & Docking",
+   "key": "charger_operating_temperature",
+   "label": "Charger operating temperature",
+   "value": "0 to 45",
+   "unit": "°C",
+   "note": "",
+   "source": "https://bostondynamics.com/wp-content/uploads/2020/10/spot-specifications.pdf",
+   "ref": "p.2 Charger"
+  },
+  {
+   "group": "Environment & Protection",
+   "key": "lighting_requirements",
+   "label": "Minimum ambient light for clear camera visuals",
+   "value": 50,
+   "unit": "lux",
+   "note": "",
+   "source": "https://d3cjkvgbik1jtv.cloudfront.net/translations/spot-5_1/spot-user-manual-en.pdf",
+   "ref": "§2.8.1 p.28"
+  },
+  {
+   "group": "Environment & Protection",
+   "key": "ambient_light_dynamic_range",
+   "label": "Dynamic range of ambient light",
+   "value": 68,
+   "unit": "dB",
+   "note": "",
+   "source": "https://d3cjkvgbik1jtv.cloudfront.net/translations/spot-5_1/spot-user-manual-en.pdf",
+   "ref": "§2.8.1 p.28"
+  },
+  {
+   "group": "Environment & Protection",
+   "key": "lighting_interference",
+   "label": "Lighting interference",
+   "value": "High-contrast light including IR wavelengths (e.g. sunlight) may interfere with obstacle detection",
+   "unit": "",
+   "note": "",
+   "source": "https://d3cjkvgbik1jtv.cloudfront.net/translations/spot-5_1/spot-user-manual-en.pdf",
+   "ref": "§2.8.1 p.28"
+  },
+  {
+   "group": "Environment & Protection",
+   "key": "ip_rating",
+   "label": "Ingress protection",
+   "value": "IP54",
+   "unit": "",
+   "note": "",
+   "source": "https://d3cjkvgbik1jtv.cloudfront.net/translations/spot-5_1/spot-user-manual-en.pdf",
+   "ref": "§2.8.1 p.29"
+  },
+  {
+   "group": "Environment & Protection",
+   "key": "operating_temperature",
+   "label": "Operating ambient temperature",
+   "value": "-20 to 45",
+   "unit": "°C",
+   "note": "Serial numbers BD-80010001 to BD-93650001 and BD-00010001 to BD-41199999",
+   "source": "https://d3cjkvgbik1jtv.cloudfront.net/translations/spot-5_1/spot-user-manual-en.pdf",
+   "ref": "§2.8.1 p.29"
+  },
+  {
+   "group": "Environment & Protection",
+   "key": "operating_temperature",
+   "label": "Operating ambient temperature",
+   "value": "-20 to 55",
+   "unit": "°C",
+   "note": "Serial numbers BD-41200001 and higher",
+   "source": "https://d3cjkvgbik1jtv.cloudfront.net/translations/spot-5_1/spot-user-manual-en.pdf",
+   "ref": "§2.8.1 p.29"
+  },
+  {
+   "group": "Environment & Protection",
+   "key": "operating_humidity",
+   "label": "Maximum humidity",
+   "value": 99,
+   "unit": "% RH",
+   "note": "Non-condensing",
+   "source": "https://d3cjkvgbik1jtv.cloudfront.net/translations/spot-5_1/spot-user-manual-en.pdf",
+   "ref": "§2.8.1 p.29"
+  },
+  {
+   "group": "Environment & Protection",
+   "key": "ir_interference",
+   "label": "Energy sources that may interfere with navigation",
+   "value": "Near-IR (780-2500 nm) light sources pointed at Spot; high-contrast light with IR wavelengths (e.g. sunlight)",
+   "unit": "",
+   "note": "",
+   "source": "https://d3cjkvgbik1jtv.cloudfront.net/translations/spot-5_1/spot-user-manual-en.pdf",
+   "ref": "§2.8.2 p.30"
+  },
+  {
+   "group": "Environment & Protection",
+   "key": "water_resistance",
+   "label": "Water resistance",
+   "value": "Resistant to light sprays of water; must not be sprayed with water jets or submerged (permanent damage)",
+   "unit": "",
+   "note": "",
+   "source": "https://d3cjkvgbik1jtv.cloudfront.net/translations/spot-5_1/spot-user-manual-en.pdf",
+   "ref": "§6.2.1 p.134"
+  },
+  {
+   "group": "Environment & Protection",
+   "key": "lighting_requirements",
+   "label": "Terrain sensing lighting requirement",
+   "value": ">2",
+   "unit": "lux",
+   "note": "Product page figure; IFU: 50 lux for clear camera visuals",
+   "source": "https://bostondynamics.com/products/spot/",
+   "ref": "Spot Specifications > Terrain Sensing"
+  },
+  {
+   "group": "Environment & Protection",
+   "key": "min_power_on_temperature",
+   "label": "Minimum power-on temperature",
+   "value": 0,
+   "unit": "°C",
+   "note": "Robot must be powered on at a minimum of 0 °C (operating range -20 to 55 °C)",
+   "source": "https://bostondynamics.com/wp-content/uploads/2020/10/spot-specifications.pdf",
+   "ref": "p.2 Environment"
+  },
+  {
+   "group": "Sensors & Perception",
+   "key": "camera_type",
+   "label": "Camera functions",
+   "value": "Black-and-white or color fisheye; range (depth); infrared",
+   "unit": "",
+   "note": "",
+   "source": "https://d3cjkvgbik1jtv.cloudfront.net/translations/spot-5_1/spot-user-manual-en.pdf",
+   "ref": "§1.5.2 p.11"
+  },
+  {
+   "group": "Sensors & Perception",
+   "key": "camera_count",
+   "label": "Number of optical cameras",
+   "value": 5,
+   "unit": "",
+   "note": "front-left, front-right, left, right, rear; for image capture, fiducial recognition, displaying surroundings",
+   "source": "https://d3cjkvgbik1jtv.cloudfront.net/translations/spot-5_1/spot-user-manual-en.pdf",
+   "ref": "§1.5.2 p.11"
+  },
+  {
+   "group": "Sensors & Perception",
+   "key": "camera_fov",
+   "label": "Overall optical field of view",
+   "value": 360,
+   "unit": "°",
+   "note": "",
+   "source": "https://d3cjkvgbik1jtv.cloudfront.net/translations/spot-5_1/spot-user-manual-en.pdf",
+   "ref": "§1.5.2 p.11"
+  },
+  {
+   "group": "Sensors & Perception",
+   "key": "depth_camera_count",
+   "label": "Number of depth cameras",
+   "value": 5,
+   "unit": "stereo pairs",
+   "note": "front-left, front-right, left, right, rear; for robot perception and obstacle avoidance",
+   "source": "https://d3cjkvgbik1jtv.cloudfront.net/translations/spot-5_1/spot-user-manual-en.pdf",
+   "ref": "§1.5.2 p.11"
+  },
+  {
+   "group": "Sensors & Perception",
+   "key": "depth_camera_fov",
+   "label": "Overall depth camera field of view",
+   "value": 90,
+   "unit": "°",
+   "note": "Approximately, in each direction; gaps near the hips where FOV does not overlap",
+   "source": "https://d3cjkvgbik1jtv.cloudfront.net/translations/spot-5_1/spot-user-manual-en.pdf",
+   "ref": "§1.5.2 p.11"
+  },
+  {
+   "group": "Sensors & Perception",
+   "key": "depth_camera_range",
+   "label": "Depth camera range",
+   "value": 2,
+   "unit": "m",
+   "note": "Approximately",
+   "source": "https://d3cjkvgbik1jtv.cloudfront.net/translations/spot-5_1/spot-user-manual-en.pdf",
+   "ref": "§1.5.2 p.11"
+  },
+  {
+   "group": "Sensors & Perception",
+   "key": "obstacle_sensing_range",
+   "label": "Camera (obstacle) sensing range",
+   "value": 2,
+   "unit": "m",
+   "note": "Cannot detect obstacles directly above Spot; gaps at rear corners",
+   "source": "https://d3cjkvgbik1jtv.cloudfront.net/translations/spot-5_1/spot-user-manual-en.pdf",
+   "ref": "§2.8.2 p.29"
+  },
+  {
+   "group": "Sensors & Perception",
+   "key": "min_detectable_obstacle_width",
+   "label": "Minimum obstacle area/width",
+   "value": 3,
+   "unit": "cm",
+   "note": "",
+   "source": "https://d3cjkvgbik1jtv.cloudfront.net/translations/spot-5_1/spot-user-manual-en.pdf",
+   "ref": "§2.8.2 p.30"
+  },
+  {
+   "group": "Sensors & Perception",
+   "key": "fiducial_type",
+   "label": "Fiducial tag family",
+   "value": "AprilTag Tag36h11",
+   "unit": "",
+   "note": "Printed on white non-glossy US letter-size sheets (preferably rigid); outdoor: acrylic adhesive white vinyl with matte laminate",
+   "source": "https://d3cjkvgbik1jtv.cloudfront.net/translations/spot-5_1/spot-user-manual-en.pdf",
+   "ref": "§1.3 p.7; §4.9.2 p.72"
+  },
+  {
+   "group": "Sensors & Perception",
+   "key": "fiducial_size",
+   "label": "Default fiducial image size",
+   "value": 146,
+   "unit": "mm",
+   "note": "Square; custom size ranges configurable in Admin Console (start ID, end ID, image size; reboot to apply)",
+   "source": "https://d3cjkvgbik1jtv.cloudfront.net/translations/spot-5_1/spot-user-manual-en.pdf",
+   "ref": "§1.3 p.7; §4.9.2-4.9.3 p.72-73"
+  },
+  {
+   "group": "Sensors & Perception",
+   "key": "fiducial_id_ranges",
+   "label": "Fiducial ID ranges",
+   "value": "1-299 localization (automatic operation); 520-549 Spot Dock IDs; 580-584 Spot Dock IDs for Spot Station; 585-586 mission interrupts",
+   "unit": "",
+   "note": "Fiducials outside these ranges should not be used; 500-series reserved",
+   "source": "https://d3cjkvgbik1jtv.cloudfront.net/translations/spot-5_1/spot-user-manual-en.pdf",
+   "ref": "§4.9.1 p.71; §4.9.4 p.74"
+  },
+  {
+   "group": "Sensors & Perception",
+   "key": "top_down_view",
+   "label": "Top-down view",
+   "value": "Simulated top-down view of environment from body camera images and depth data",
+   "unit": "",
+   "note": "",
+   "source": "https://d3cjkvgbik1jtv.cloudfront.net/translations/spot-5_1/spot-user-manual-en.pdf",
+   "ref": "§5.8.1.4 p.101"
+  },
+  {
+   "group": "Sensors & Perception",
+   "key": "joint_sensors",
+   "label": "Joint sensors",
+   "value": "Load cell sensors and joint position sensors for hip and knee joints",
+   "unit": "",
+   "note": "Tested/recalibrated by SpotCheck",
+   "source": "https://d3cjkvgbik1jtv.cloudfront.net/translations/spot-5_1/spot-user-manual-en.pdf",
+   "ref": "§6.3 p.135"
+  },
+  {
+   "group": "Sensors & Perception",
+   "key": "calibration_panel",
+   "label": "Camera calibration panel",
+   "value": "Flat board approx. 118.5 x 50 cm with 18 evenly spaced fiducials on black background and 'Up' arrows; mounted vertically (bottom edge <=5 cm from floor) or within 5° of vertical; Spot ~1 m in front, rear camera facing",
+   "unit": "",
+   "note": "",
+   "source": "https://d3cjkvgbik1jtv.cloudfront.net/translations/spot-5_1/spot-user-manual-en.pdf",
+   "ref": "§6.3.2 p.138-139"
+  },
+  {
+   "group": "Sensors & Perception",
+   "key": "terrain_sensing_range",
+   "label": "Terrain sensing range",
+   "value": 4,
+   "unit": "m",
+   "note": "Product page figure; IFU gives depth camera range approx. 2 m",
+   "source": "https://bostondynamics.com/products/spot/",
+   "ref": "Spot Specifications > Terrain Sensing"
+  },
+  {
+   "group": "Sensors & Perception",
+   "key": "terrain_sensing_fov",
+   "label": "Terrain sensing horizontal field of view",
+   "value": 360,
+   "unit": "°",
+   "note": "",
+   "source": "https://bostondynamics.com/products/spot/",
+   "ref": "Spot Specifications > Terrain Sensing"
+  },
+  {
+   "group": "Compute & Software",
+   "key": "admin_console",
+   "label": "Admin Console",
+   "value": "Web server hosted locally on Spot; browser-based (Chrome) system settings; accessible from Spot App",
+   "unit": "",
+   "note": "Pages: User Management, Network Setup, Software Update, Spot License, Logs, About, Payloads, General Settings, Battery, WiFi Dashboard, Visualizer",
+   "source": "https://d3cjkvgbik1jtv.cloudfront.net/translations/spot-5_1/spot-user-manual-en.pdf",
+   "ref": "§4.5 p.64; §4.5.2 p.65-66"
+  },
+  {
+   "group": "Compute & Software",
+   "key": "admin_console_features",
+   "label": "Admin Console functions",
+   "value": "User management; network setup and diagnostics; software update; license install; log management/upload, image logging toggle; rename; cumulative runtime data; payload config; auto log upload toggle; fiducial size/ranges; factory reset; battery health metrics; WiFi connection history; limb/payload visualizer",
+   "unit": "",
+   "note": "",
+   "source": "https://d3cjkvgbik1jtv.cloudfront.net/translations/spot-5_1/spot-user-manual-en.pdf",
+   "ref": "§4.5.2 p.65-66"
+  },
+  {
+   "group": "Compute & Software",
+   "key": "license_management",
+   "label": "Spot license",
+   "value": "License files required for Spot operation, installed via Admin Console",
+   "unit": "",
+   "note": "",
+   "source": "https://d3cjkvgbik1jtv.cloudfront.net/translations/spot-5_1/spot-user-manual-en.pdf",
+   "ref": "§4.5.2 p.65"
+  },
+  {
+   "group": "Compute & Software",
+   "key": "software_support_policy",
+   "label": "Software support policy",
+   "value": "Current and previous minor releases (e.g. x.1 and x.0) plus all patch versions",
+   "unit": "",
+   "note": "Do not skip intermediate major/minor releases",
+   "source": "https://d3cjkvgbik1jtv.cloudfront.net/translations/spot-5_1/spot-user-manual-en.pdf",
+   "ref": "§4.8 p.69"
+  },
+  {
+   "group": "Compute & Software",
+   "key": "ota_updates",
+   "label": "Software update method",
+   "value": "Upload .bde file via Admin Console (Spot on Dock or Power Supply); tablet Spot App updates bundled with robot software",
+   "unit": "",
+   "note": "Downloads at support.bostondynamics.com/s/spot/downloads",
+   "source": "https://d3cjkvgbik1jtv.cloudfront.net/translations/spot-5_1/spot-user-manual-en.pdf",
+   "ref": "§4.8.1 p.70; §4.8.2 p.70"
+  },
+  {
+   "group": "Compute & Software",
+   "key": "controller_app_update",
+   "label": "Tablet app software",
+   "value": "Spot App (.apk) for Android; updates bundled with robot software or manual install via USB/download",
+   "unit": "",
+   "note": "",
+   "source": "https://d3cjkvgbik1jtv.cloudfront.net/translations/spot-5_1/spot-user-manual-en.pdf",
+   "ref": "§4.8.2 p.70-71"
+  },
+  {
+   "group": "Compute & Software",
+   "key": "attachment_software_updates",
+   "label": "Attachment software updates",
+   "value": "Per-attachment versions with compatibility chart on Spot Downloads page",
+   "unit": "",
+   "note": "",
+   "source": "https://d3cjkvgbik1jtv.cloudfront.net/translations/spot-5_1/spot-user-manual-en.pdf",
+   "ref": "§4.8.3 p.71"
+  },
+  {
+   "group": "Compute & Software",
+   "key": "log_capture",
+   "label": "Diagnostic log capture",
+   "value": "REPORT BUG: previous 30 s of operational data; START LOG: up to 10 min of new data (continues up to 21 s after controller connection loss)",
+   "unit": "",
+   "note": "",
+   "source": "https://d3cjkvgbik1jtv.cloudfront.net/translations/spot-5_1/spot-user-manual-en.pdf",
+   "ref": "§5.8.1.8 p.106"
+  },
+  {
+   "group": "Compute & Software",
+   "key": "factory_reset",
+   "label": "Factory reset",
+   "value": "Admin Console > General Settings; ~5 min; resets accounts, network, nickname, payloads, logs, data; keeps software version and license; optional Zeroize SSD",
+   "unit": "",
+   "note": "",
+   "source": "https://d3cjkvgbik1jtv.cloudfront.net/translations/spot-5_1/spot-user-manual-en.pdf",
+   "ref": "§6.4 p.140-141"
+  },
+  {
+   "group": "Compute & Software",
+   "key": "storage",
+   "label": "Storage",
+   "value": "SSD (writable portion can be zeroized on factory reset)",
+   "unit": "",
+   "note": "Capacity not stated",
+   "source": "https://d3cjkvgbik1jtv.cloudfront.net/translations/spot-5_1/spot-user-manual-en.pdf",
+   "ref": "§6.4 p.140"
+  },
+  {
+   "group": "Compute & Software",
+   "key": "sdk",
+   "label": "API / SDK",
+   "value": "Spot API for third-party control, sensor reading and attachment communication (dev.bostondynamics.com)",
+   "unit": "",
+   "note": "",
+   "source": "https://d3cjkvgbik1jtv.cloudfront.net/translations/spot-5_1/spot-user-manual-en.pdf",
+   "ref": "§9 p.146"
+  },
+  {
+   "group": "Compute & Software",
+   "key": "low_level_api_licenses",
+   "label": "Additional API licenses",
+   "value": "Joint-level control API (research, lab use); Choreography API (performances: preset moves library + custom animations)",
+   "unit": "",
+   "note": "Outside intended use; regulatory declarations no longer apply",
+   "source": "https://d3cjkvgbik1jtv.cloudfront.net/translations/spot-5_1/spot-user-manual-en.pdf",
+   "ref": "§9 p.146; §9.1-9.2 p.147"
+  },
+  {
+   "group": "Compute & Software",
+   "key": "programming_languages",
+   "label": "SDK language",
+   "value": "Python SDK",
+   "unit": "",
+   "note": "Flexible API and Python SDK",
+   "source": "https://bostondynamics.com/wp-content/uploads/2020/10/spot-specifications.pdf",
+   "ref": "p.1 Features"
+  },
+  {
+   "group": "Connectivity & Interfaces",
+   "key": "wifi",
+   "label": "Wi-Fi",
+   "value": "Enterprise Wi-Fi, 2.4 GHz and 5 GHz, 802.11b/g/n and 802.11ac",
+   "unit": "",
+   "note": "",
+   "source": "https://d3cjkvgbik1jtv.cloudfront.net/translations/spot-5_1/spot-user-manual-en.pdf",
+   "ref": "§1.5.2 p.12"
+  },
+  {
+   "group": "Connectivity & Interfaces",
+   "key": "ethernet",
+   "label": "Ethernet",
+   "value": "1000Base-T",
+   "unit": "",
+   "note": "",
+   "source": "https://d3cjkvgbik1jtv.cloudfront.net/translations/spot-5_1/spot-user-manual-en.pdf",
+   "ref": "§1.5.2 p.12"
+  },
+  {
+   "group": "Connectivity & Interfaces",
+   "key": "radio_module",
+   "label": "Radio module",
+   "value": "Wi-Fi radio module; meets requirements for intentional radiators",
+   "unit": "",
+   "note": "",
+   "source": "https://d3cjkvgbik1jtv.cloudfront.net/translations/spot-5_1/spot-user-manual-en.pdf",
+   "ref": "§2.9.3.2 p.33"
+  },
+  {
+   "group": "Connectivity & Interfaces",
+   "key": "network_types",
+   "label": "Supported network types",
+   "value": "Wi-Fi (own access point or join enterprise Wi-Fi); Ethernet (1 rear port, or Dock pass-through - one at a time); LTE (additional hardware); mesh radio (additional hardware)",
+   "unit": "",
+   "note": "",
+   "source": "https://d3cjkvgbik1jtv.cloudfront.net/translations/spot-5_1/spot-user-manual-en.pdf",
+   "ref": "§4.6 p.66-67"
+  },
+  {
+   "group": "Connectivity & Interfaces",
+   "key": "ethernet_port_count",
+   "label": "Ethernet ports",
+   "value": 1,
+   "unit": "",
+   "note": "At rear of Spot; Dock pass-through is electrically identical - use only one",
+   "source": "https://d3cjkvgbik1jtv.cloudfront.net/translations/spot-5_1/spot-user-manual-en.pdf",
+   "ref": "§4.6 p.66"
+  },
+  {
+   "group": "Connectivity & Interfaces",
+   "key": "cellular",
+   "label": "Cellular",
+   "value": "LTE - requires additional hardware",
+   "unit": "",
+   "note": "",
+   "source": "https://d3cjkvgbik1jtv.cloudfront.net/translations/spot-5_1/spot-user-manual-en.pdf",
+   "ref": "§4.6 p.67"
+  },
+  {
+   "group": "Connectivity & Interfaces",
+   "key": "mesh_radio",
+   "label": "Mesh radio",
+   "value": "Requires additional hardware",
+   "unit": "",
+   "note": "",
+   "source": "https://d3cjkvgbik1jtv.cloudfront.net/translations/spot-5_1/spot-user-manual-en.pdf",
+   "ref": "§4.6 p.67"
+  },
+  {
+   "group": "Connectivity & Interfaces",
+   "key": "default_wifi_mode",
+   "label": "Default Wi-Fi mode",
+   "value": "Access Point (Spot hosts its own Wi-Fi network); SSID and password on label in battery compartment",
+   "unit": "",
+   "note": "Switch Client->AP by pressing motor lockout button 6 times",
+   "source": "https://d3cjkvgbik1jtv.cloudfront.net/translations/spot-5_1/spot-user-manual-en.pdf",
+   "ref": "§4.6.1 p.67"
+  },
+  {
+   "group": "Connectivity & Interfaces",
+   "key": "default_ip_wifi",
+   "label": "Default robot IP (Wi-Fi)",
+   "value": "192.168.80.3",
+   "unit": "",
+   "note": "Admin Console at https://192.168.80.3",
+   "source": "https://d3cjkvgbik1jtv.cloudfront.net/translations/spot-5_1/spot-user-manual-en.pdf",
+   "ref": "§4.6.1 p.67; §4.5.1 p.65"
+  },
+  {
+   "group": "Connectivity & Interfaces",
+   "key": "default_ip_ethernet",
+   "label": "Default robot IP (Ethernet)",
+   "value": "10.0.0.3",
+   "unit": "",
+   "note": "Netmask 255.255.255.0; Admin Console at https://10.0.0.3",
+   "source": "https://d3cjkvgbik1jtv.cloudfront.net/translations/spot-5_1/spot-user-manual-en.pdf",
+   "ref": "§4.6.1 p.67; §4.5.1 p.65"
+  },
+  {
+   "group": "Connectivity & Interfaces",
+   "key": "default_netmask_ethernet",
+   "label": "Default Ethernet netmask",
+   "value": "255.255.255.0",
+   "unit": "",
+   "note": "Direct wired connection",
+   "source": "https://d3cjkvgbik1jtv.cloudfront.net/translations/spot-5_1/spot-user-manual-en.pdf",
+   "ref": "§4.6.1 p.67"
+  },
+  {
+   "group": "Connectivity & Interfaces",
+   "key": "network_diagnostics",
+   "label": "Network check",
+   "value": "Built-in suite of network checks (e.g. DNS) via Admin Console",
+   "unit": "",
+   "note": "",
+   "source": "https://d3cjkvgbik1jtv.cloudfront.net/translations/spot-5_1/spot-user-manual-en.pdf",
+   "ref": "§4.6.3 p.68"
+  },
+  {
+   "group": "Connectivity & Interfaces",
+   "key": "rear_panel_interfaces",
+   "label": "Rear panel controls and ports",
+   "value": "Charging port with cover (top-center); power button, motor lockout button, Ethernet port with cap (lower, left to right)",
+   "unit": "",
+   "note": "",
+   "source": "https://d3cjkvgbik1jtv.cloudfront.net/translations/spot-5_1/spot-user-manual-en.pdf",
+   "ref": "§5.1 p.75"
+  },
+  {
+   "group": "Connectivity & Interfaces",
+   "key": "fcc_id",
+   "label": "FCC ID",
+   "value": "2AG87ACM-DB-2M-R2",
+   "unit": "",
+   "note": "From nameplate",
+   "source": "https://d3cjkvgbik1jtv.cloudfront.net/translations/spot-5_1/spot-user-manual-en.pdf",
+   "ref": "§7.2 p.143 (label image)"
+  },
+  {
+   "group": "Connectivity & Interfaces",
+   "key": "ic_id",
+   "label": "ISED Canada (IC) ID",
+   "value": "ACMDB2MR2",
+   "unit": "",
+   "note": "CAN ICES-003(A)/NMB-3(A)",
+   "source": "https://d3cjkvgbik1jtv.cloudfront.net/translations/spot-5_1/spot-user-manual-en.pdf",
+   "ref": "§7.2 p.143 (label image)"
+  },
+  {
+   "group": "Connectivity & Interfaces",
+   "key": "radio_approvals",
+   "label": "Other radio approvals on label",
+   "value": "KC R-R-BDi-4-00143531-001; Japan radio R 210-155198; ICASA TA-2021-1635; IMDA DA105282",
+   "unit": "",
+   "note": "",
+   "source": "https://d3cjkvgbik1jtv.cloudfront.net/translations/spot-5_1/spot-user-manual-en.pdf",
+   "ref": "§7.2 p.143 (label image)"
+  },
+  {
+   "group": "Payload & Mounting",
+   "key": "max_attachment_mass",
+   "label": "Max recommended attachment mass",
+   "value": 20.43,
+   "unit": "kg",
+   "note": "Best when centered directly on top of body; tall, off-center or cantilevered payloads may impact performance even below limit",
+   "source": "https://d3cjkvgbik1jtv.cloudfront.net/translations/spot-5_1/spot-user-manual-en.pdf",
+   "ref": "§1.5.2 p.11"
+  },
+  {
+   "group": "Payload & Mounting",
+   "key": "payload_port_power",
+   "label": "Max power per payload port",
+   "value": 150,
+   "unit": "W",
+   "note": "",
+   "source": "https://d3cjkvgbik1jtv.cloudfront.net/translations/spot-5_1/spot-user-manual-en.pdf",
+   "ref": "§1.5.2 p.11"
+  },
+  {
+   "group": "Payload & Mounting",
+   "key": "payload_ports",
+   "label": "Payload ports (attachment I/Os)",
+   "value": 2,
+   "unit": "",
+   "note": "Mirrored (front and rear)",
+   "source": "https://d3cjkvgbik1jtv.cloudfront.net/translations/spot-5_1/spot-user-manual-en.pdf",
+   "ref": "§1.5.2 p.11"
+  },
+  {
+   "group": "Payload & Mounting",
+   "key": "mounting_bolt_size",
+   "label": "T-slot rail bolt size",
+   "value": "M5 x 1.0",
+   "unit": "",
+   "note": "",
+   "source": "https://d3cjkvgbik1jtv.cloudfront.net/translations/spot-5_1/spot-user-manual-en.pdf",
+   "ref": "§1.5.2 p.11"
+  },
+  {
+   "group": "Payload & Mounting",
+   "key": "radio_colocation_distance",
+   "label": "Radio antenna co-location threshold",
+   "value": 20,
+   "unit": "cm",
+   "note": "Multiple radio modules on attachments must have antennas >20 cm apart or be tested as co-located",
+   "source": "https://d3cjkvgbik1jtv.cloudfront.net/translations/spot-5_1/spot-user-manual-en.pdf",
+   "ref": "§4.2.1 p.51"
+  },
+  {
+   "group": "Payload & Mounting",
+   "key": "mounting_rail",
+   "label": "Mounting rails",
+   "value": "Aluminum T-slot rails along top left and top right edges of body; accept T-slot nuts such as Misumi HNTR5-5",
+   "unit": "",
+   "note": "",
+   "source": "https://d3cjkvgbik1jtv.cloudfront.net/translations/spot-5_1/spot-user-manual-en.pdf",
+   "ref": "§4.2.2 p.52"
+  },
+  {
+   "group": "Payload & Mounting",
+   "key": "payload_port_locations",
+   "label": "Payload port locations",
+   "value": "Forward and rear payload ports provide power and data",
+   "unit": "",
+   "note": "",
+   "source": "https://d3cjkvgbik1jtv.cloudfront.net/translations/spot-5_1/spot-user-manual-en.pdf",
+   "ref": "§4.2.2 p.52"
+  },
+  {
+   "group": "Payload & Mounting",
+   "key": "rail_spacing",
+   "label": "Mounting rail spacing (across body)",
+   "value": "160 / 176",
+   "unit": "mm",
+   "note": "Dimensions shown in mounting drawing between rails (inner/outer)",
+   "source": "https://d3cjkvgbik1jtv.cloudfront.net/translations/spot-5_1/spot-user-manual-en.pdf",
+   "ref": "§4.2.2 p.53 (figure)"
+  },
+  {
+   "group": "Payload & Mounting",
+   "key": "rail_bolt_positions",
+   "label": "Rail bolt positions from frontmost rail bolt",
+   "value": "0, 83, 166, 249, 332, 415 mm",
+   "unit": "mm",
+   "note": "Origin = frontmost rail bolt; also 207.5 mm and 476.5 mm reference marks in drawing",
+   "source": "https://d3cjkvgbik1jtv.cloudfront.net/translations/spot-5_1/spot-user-manual-en.pdf",
+   "ref": "§4.2.2 p.53 (figure)"
+  },
+  {
+   "group": "Payload & Mounting",
+   "key": "payload_reference_frame",
+   "label": "Payload mount reference frame",
+   "value": "Origin at frontmost rail bolt on centerline; +x forward, +y left, +z up",
+   "unit": "",
+   "note": "Per figure",
+   "source": "https://d3cjkvgbik1jtv.cloudfront.net/translations/spot-5_1/spot-user-manual-en.pdf",
+   "ref": "§4.2.2 p.53 (figure)"
+  },
+  {
+   "group": "Payload & Mounting",
+   "key": "max_attachment_width",
+   "label": "Max recommended body-mounted attachment width",
+   "value": 190,
+   "unit": "mm",
+   "note": "Avoid hip-adjacent zones (125 mm clear width between hip zones up to 70 mm height shown in figure)",
+   "source": "https://d3cjkvgbik1jtv.cloudfront.net/translations/spot-5_1/spot-user-manual-en.pdf",
+   "ref": "§4.2.2 p.53"
+  },
+  {
+   "group": "Payload & Mounting",
+   "key": "max_attachment_length",
+   "label": "Max recommended body-mounted attachment length",
+   "value": 850,
+   "unit": "mm",
+   "note": "Overhang front/rear reduces maneuverability",
+   "source": "https://d3cjkvgbik1jtv.cloudfront.net/translations/spot-5_1/spot-user-manual-en.pdf",
+   "ref": "§4.2.2 p.54"
+  },
+  {
+   "group": "Payload & Mounting",
+   "key": "attachment_mass_distribution",
+   "label": "Attachment mass distribution",
+   "value": "20.43 kg total combined over top of body; best with combined CoM between front and rear hips, ideally centered; keep CoM low for self-right",
+   "unit": "",
+   "note": "",
+   "source": "https://d3cjkvgbik1jtv.cloudfront.net/translations/spot-5_1/spot-user-manual-en.pdf",
+   "ref": "§4.2.2 p.54-55"
+  },
+  {
+   "group": "Payload & Mounting",
+   "key": "mounting_tools",
+   "label": "Tools to mount an attachment",
+   "value": "Cross-head screwdriver; 4 mm hex wrench/Allen key",
+   "unit": "",
+   "note": "",
+   "source": "https://d3cjkvgbik1jtv.cloudfront.net/translations/spot-5_1/spot-user-manual-en.pdf",
+   "ref": "§4.2.3.1 p.55"
+  },
+  {
+   "group": "Payload & Mounting",
+   "key": "mounting_tools",
+   "label": "Tools to mount/remove an attachment",
+   "value": "2 mm hex wrench/Allen key (T-slot nut set screw)",
+   "unit": "",
+   "note": "In addition to cross-head screwdriver and 4 mm hex key",
+   "source": "https://d3cjkvgbik1jtv.cloudfront.net/translations/spot-5_1/spot-user-manual-en.pdf",
+   "ref": "§4.2.3.1 p.56; §4.2.4.1 p.57"
+  },
+  {
+   "group": "Payload & Mounting",
+   "key": "mounting_screw_torque",
+   "label": "Attachment mounting screw torque",
+   "value": 5,
+   "unit": "N·m",
+   "note": "Machine screws into T-slot nuts; do not over-tighten",
+   "source": "https://d3cjkvgbik1jtv.cloudfront.net/translations/spot-5_1/spot-user-manual-en.pdf",
+   "ref": "§4.2.3.1 p.56"
+  },
+  {
+   "group": "Payload & Mounting",
+   "key": "mounting_screw_type",
+   "label": "Attachment mounting screws",
+   "value": "M5 machine screws into T-slot nuts; some attachments use locating pins in top panel holes",
+   "unit": "",
+   "note": "",
+   "source": "https://d3cjkvgbik1jtv.cloudfront.net/translations/spot-5_1/spot-user-manual-en.pdf",
+   "ref": "§4.2.4.1 p.57"
+  },
+  {
+   "group": "Payload & Mounting",
+   "key": "payload_port_connector",
+   "label": "Payload port connection",
+   "value": "Ribbon-cable connector fastened with screws; unused ports must be capped (Spot cannot operate with an exposed payload port)",
+   "unit": "",
+   "note": "",
+   "source": "https://d3cjkvgbik1jtv.cloudfront.net/translations/spot-5_1/spot-user-manual-en.pdf",
+   "ref": "§4.2.3.1 p.56; §4.2.4.1 p.57"
+  },
+  {
+   "group": "Payload & Mounting",
+   "key": "payload_configuration",
+   "label": "Payload software configuration",
+   "value": "Configured in Admin Console Payloads page (some auto-register; front or rear mount configs); attach/detach toggle in Spot App; stored configs reused",
+   "unit": "",
+   "note": "",
+   "source": "https://d3cjkvgbik1jtv.cloudfront.net/translations/spot-5_1/spot-user-manual-en.pdf",
+   "ref": "§4.2.3.2 p.56-57; §4.2.4.2 p.58"
+  },
+  {
+   "group": "Payload & Mounting",
+   "key": "payload_developer_docs",
+   "label": "Payload interface documentation",
+   "value": "Payload Developer Guide; Robot Electrical Interface (dev.bostondynamics.com/docs/payload/)",
+   "unit": "",
+   "note": "",
+   "source": "https://d3cjkvgbik1jtv.cloudfront.net/translations/spot-5_1/spot-user-manual-en.pdf",
+   "ref": "Appendix A p.144"
+  },
+  {
+   "group": "Payload & Mounting",
+   "key": "max_attachment_mass",
+   "label": "Payload max weight (product page)",
+   "value": 14,
+   "unit": "kg",
+   "note": "Marketing payload capacity on product page and datasheet; IFU §1.5.2 gives max recommended attachment mass 20.43 kg",
+   "source": "https://bostondynamics.com/products/spot/",
+   "ref": "Spot Specifications > Payload Mounting"
+  },
+  {
+   "group": "Payload & Mounting",
+   "key": "mounting_area",
+   "label": "Payload mounting area (L x W x H)",
+   "value": "850 x 240 x 270",
+   "unit": "mm",
+   "note": "",
+   "source": "https://bostondynamics.com/products/spot/",
+   "ref": "Spot Specifications > Payload Mounting"
+  },
+  {
+   "group": "Payload & Mounting",
+   "key": "payload_port_connector",
+   "label": "Payload port connector",
+   "value": "DB25 (2 ports)",
+   "unit": "",
+   "note": "",
+   "source": "https://bostondynamics.com/products/spot/",
+   "ref": "Spot Specifications > Payload Mounting"
+  },
+  {
+   "group": "Payload & Mounting",
+   "key": "payload_port_voltage",
+   "label": "Payload port supply voltage",
+   "value": "35 to 58.8",
+   "unit": "V DC",
+   "note": "Unregulated DC, 150 W per port",
+   "source": "https://bostondynamics.com/products/spot/",
+   "ref": "Spot Specifications > Payload Mounting"
+  },
+  {
+   "group": "Payload & Mounting",
+   "key": "payload_integration",
+   "label": "Payload integration",
+   "value": "Software API and hardware interface control document available",
+   "unit": "",
+   "note": "",
+   "source": "https://bostondynamics.com/products/spot/",
+   "ref": "Spot Specifications > Payload Mounting"
+  },
+  {
+   "group": "Manipulation",
+   "key": "arm_support",
+   "label": "Spot Arm",
+   "value": "Optional actuated attachment (Spot Arm with gripper and gripper camera); SpotCheck recalibrates gripper and checks arm joint sensors",
+   "unit": "",
+   "note": "Requires separate risk assessment; see Spot Arm Information for Use",
+   "source": "https://d3cjkvgbik1jtv.cloudfront.net/translations/spot-5_1/spot-user-manual-en.pdf",
+   "ref": "§4.2.1 p.51; §6.3.3 p.140"
+  },
+  {
+   "group": "Actuation & Joints",
+   "key": "motors_per_leg",
+   "label": "Motors per leg",
+   "value": "3",
+   "unit": "",
+   "note": "Three motors in each leg",
+   "source": "https://d3cjkvgbik1jtv.cloudfront.net/translations/spot-5_1/spot-user-manual-en.pdf",
+   "ref": "§1.3 p.7; §2.1 p.13"
+  },
+  {
+   "group": "Actuation & Joints",
+   "key": "leg_count",
+   "label": "Number of legs",
+   "value": 4,
+   "unit": "",
+   "note": "",
+   "source": "https://d3cjkvgbik1jtv.cloudfront.net/translations/spot-5_1/spot-user-manual-en.pdf",
+   "ref": "§1.5.1 p.10"
+  },
+  {
+   "group": "Actuation & Joints",
+   "key": "leg_joint_layout",
+   "label": "Leg joint layout",
+   "value": "Ball joint at hip (upper leg to body); hinged knee (upper to lower leg); rounded foot with rubberized pad",
+   "unit": "",
+   "note": "",
+   "source": "https://d3cjkvgbik1jtv.cloudfront.net/translations/spot-5_1/spot-user-manual-en.pdf",
+   "ref": "§1.5.1 p.10"
+  },
+  {
+   "group": "Actuation & Joints",
+   "key": "foot_type",
+   "label": "Foot type",
+   "value": "Rounded foot with rubberized pad",
+   "unit": "",
+   "note": "",
+   "source": "https://d3cjkvgbik1jtv.cloudfront.net/translations/spot-5_1/spot-user-manual-en.pdf",
+   "ref": "§1.5.1 p.10"
+  },
+  {
+   "group": "Actuation & Joints",
+   "key": "foot_treads",
+   "label": "Foot treads",
+   "value": "Replaceable foot treads; inspect regularly",
+   "unit": "",
+   "note": "",
+   "source": "https://d3cjkvgbik1jtv.cloudfront.net/translations/spot-5_1/spot-user-manual-en.pdf",
+   "ref": "§6.2 p.133"
+  },
+  {
+   "group": "Safety & Compliance",
+   "key": "emergency_stop",
+   "label": "E-Stop button",
+   "value": "Red E-Stop button at top rear right corner of body (model 04-00143531-401 only); press to activate, twist clockwise to release",
+   "unit": "",
+   "note": "Emergency Stop function compliant with ISO 13850; triggers safety-related stop",
+   "source": "https://d3cjkvgbik1jtv.cloudfront.net/translations/spot-5_1/spot-user-manual-en.pdf",
+   "ref": "§1.5.1 p.10; §2.5.4 p.19-20"
+  },
+  {
+   "group": "Safety & Compliance",
+   "key": "intended_use",
+   "label": "Intended use",
+   "value": "Professional use of locomotion and carrying capabilities in industrial, restricted or supervised environments; in dedicated, demarcated areas; attachments for sensing, monitoring or other non-contact interaction",
+   "unit": "",
+   "note": "Not intended for collaborative applications (concurrent human-robot activity sharing space/equipment)",
+   "source": "https://d3cjkvgbik1jtv.cloudfront.net/translations/spot-5_1/spot-user-manual-en.pdf",
+   "ref": "§2.2 p.13"
+  },
+  {
+   "group": "Safety & Compliance",
+   "key": "prohibited_uses",
+   "label": "Explicitly prohibited uses",
+   "value": "Underwater and airborne applications; Use as a weapon or to enable any weapon; Use as or enabling a Certified Medical Device (healthcare facility access subject to limitations); Personal care, medical treatment or life-critical applications; Use in home environments; Transportation of persons or animals; Transportation of hazardous materials or substances; Intentionally harming any person; Any illegal purpose; Use as a climbing aid; Interfering with Spot's sensors or altering environment to impair sensors or locomotion",
+   "unit": "",
+   "note": "",
+   "source": "https://d3cjkvgbik1jtv.cloudfront.net/translations/spot-5_1/spot-user-manual-en.pdf",
+   "ref": "§2.2 p.14"
+  },
+  {
+   "group": "Safety & Compliance",
+   "key": "operational_stop_triggers",
+   "label": "Operational stop triggers",
+   "value": "Signal loss; fall detection (motors de-energized, 'smart freeze'); low battery (sits, motors off); controller input; mission interrupt signal (fiducial-triggered)",
+   "unit": "",
+   "note": "",
+   "source": "https://d3cjkvgbik1jtv.cloudfront.net/translations/spot-5_1/spot-user-manual-en.pdf",
+   "ref": "§2.5.1 p.17"
+  },
+  {
+   "group": "Safety & Compliance",
+   "key": "stair_exclusion_zone",
+   "label": "Keep-out distance at bottom of active staircase",
+   "value": 2,
+   "unit": "m",
+   "note": "Do not stand on stairs, below open rails, or within 2 m of the bottom of a staircase where Spot is active",
+   "source": "https://d3cjkvgbik1jtv.cloudfront.net/translations/spot-5_1/spot-user-manual-en.pdf",
+   "ref": "§2.5.1 p.17"
+  },
+  {
+   "group": "Safety & Compliance",
+   "key": "safety_stop_category",
+   "label": "Safety-related stop category",
+   "value": "Stop Category 0 (EN IEC 60204-1), de-energizes all motors",
+   "unit": "",
+   "note": "Triggered when contact on safe input I1 is opened",
+   "source": "https://d3cjkvgbik1jtv.cloudfront.net/translations/spot-5_1/spot-user-manual-en.pdf",
+   "ref": "§2.5.2 p.18"
+  },
+  {
+   "group": "Safety & Compliance",
+   "key": "safety_stop_response_time",
+   "label": "Max response time of stopping function",
+   "value": 200,
+   "unit": "ms",
+   "note": "",
+   "source": "https://d3cjkvgbik1jtv.cloudfront.net/translations/spot-5_1/spot-user-manual-en.pdf",
+   "ref": "§2.5.2 p.18"
+  },
+  {
+   "group": "Safety & Compliance",
+   "key": "safe_input",
+   "label": "Safe input",
+   "value": "I1 = pin 19 on payload port; use only one port (front or rear); default 6-19 pair normally closed (NC); reset when 6-19 pair closed",
+   "unit": "",
+   "note": "Spot will not work without a cap or properly configured attachment on each port; with a cap the stopping function is disabled",
+   "source": "https://d3cjkvgbik1jtv.cloudfront.net/translations/spot-5_1/spot-user-manual-en.pdf",
+   "ref": "§2.5.2 p.18"
+  },
+  {
+   "group": "Safety & Compliance",
+   "key": "performance_level",
+   "label": "Stopping safety function",
+   "value": "ISO 13849-1:2023 Category 1, Performance Level c",
+   "unit": "",
+   "note": "",
+   "source": "https://d3cjkvgbik1jtv.cloudfront.net/translations/spot-5_1/spot-user-manual-en.pdf",
+   "ref": "§2.5.2 p.18"
+  },
+  {
+   "group": "Safety & Compliance",
+   "key": "pfhd",
+   "label": "PFHd of stopping function",
+   "value": "1.1E-6",
+   "unit": "1/h",
+   "note": "",
+   "source": "https://d3cjkvgbik1jtv.cloudfront.net/translations/spot-5_1/spot-user-manual-en.pdf",
+   "ref": "§2.5.2 p.18"
+  },
+  {
+   "group": "Safety & Compliance",
+   "key": "stopping_distance",
+   "label": "Max stopping distance (safety-related stop)",
+   "value": 1,
+   "unit": "m",
+   "note": "On flat ground; can increase on uneven/sloped surfaces",
+   "source": "https://d3cjkvgbik1jtv.cloudfront.net/translations/spot-5_1/spot-user-manual-en.pdf",
+   "ref": "§2.5.3 p.19"
+  },
+  {
+   "group": "Safety & Compliance",
+   "key": "emergency_stop_standard",
+   "label": "Emergency Stop standard",
+   "value": "ISO 13850",
+   "unit": "",
+   "note": "Additional E-Stop devices may be fitted via payload-port safe input",
+   "source": "https://d3cjkvgbik1jtv.cloudfront.net/translations/spot-5_1/spot-user-manual-en.pdf",
+   "ref": "§2.5.4 p.20"
+  },
+  {
+   "group": "Safety & Compliance",
+   "key": "obstacle_avoidance",
+   "label": "Obstacle avoidance",
+   "value": "Perception system of five depth cameras (two front, one rear, one each side); gaps extend at 45° from each hip, front gaps close ~2 m from robot; rear gaps extend past depth range",
+   "unit": "",
+   "note": "",
+   "source": "https://d3cjkvgbik1jtv.cloudfront.net/translations/spot-5_1/spot-user-manual-en.pdf",
+   "ref": "§2.6 p.21"
+  },
+  {
+   "group": "Safety & Compliance",
+   "key": "obstacle_min_distance",
+   "label": "Default minimum distance to obstacles",
+   "value": 7.5,
+   "unit": "cm",
+   "note": "Approximately",
+   "source": "https://d3cjkvgbik1jtv.cloudfront.net/translations/spot-5_1/spot-user-manual-en.pdf",
+   "ref": "§2.6 p.21"
+  },
+  {
+   "group": "Safety & Compliance",
+   "key": "obstacle_cushion_max",
+   "label": "Max additional obstacle avoidance cushion",
+   "value": 50,
+   "unit": "cm",
+   "note": "Set in Robot Controls panel",
+   "source": "https://d3cjkvgbik1jtv.cloudfront.net/translations/spot-5_1/spot-user-manual-en.pdf",
+   "ref": "§2.6 p.21"
+  },
+  {
+   "group": "Safety & Compliance",
+   "key": "photobiological_safety_standard",
+   "label": "Indicator photobiological safety",
+   "value": "IEC 62471",
+   "unit": "",
+   "note": "",
+   "source": "https://d3cjkvgbik1jtv.cloudfront.net/translations/spot-5_1/spot-user-manual-en.pdf",
+   "ref": "§2.7.1 p.23"
+  },
+  {
+   "group": "Safety & Compliance",
+   "key": "risk_assessment_standard",
+   "label": "Risk assessment methodology",
+   "value": "ISO 12100",
+   "unit": "",
+   "note": "",
+   "source": "https://d3cjkvgbik1jtv.cloudfront.net/translations/spot-5_1/spot-user-manual-en.pdf",
+   "ref": "§2.9 p.30"
+  },
+  {
+   "group": "Safety & Compliance",
+   "key": "exposure_assumption",
+   "label": "Foreseeable hazardous exposure duration",
+   "value": "<1 min per interaction (automatic mode); <10% of total usage time (restricted access areas); several minutes up to 1 h (manual mode)",
+   "unit": "",
+   "note": "",
+   "source": "https://d3cjkvgbik1jtv.cloudfront.net/translations/spot-5_1/spot-user-manual-en.pdf",
+   "ref": "§2.9.1 p.31; §2.9.6.1 p.37"
+  },
+  {
+   "group": "Safety & Compliance",
+   "key": "low_occurrence_exposure_limit",
+   "label": "Low-occurrence condition exposure limit",
+   "value": 25,
+   "unit": "%",
+   "note": "Low occurrence does not hold when qualified personnel present >25% of total usage time or affected people up to 25%",
+   "source": "https://d3cjkvgbik1jtv.cloudfront.net/translations/spot-5_1/spot-user-manual-en.pdf",
+   "ref": "§2.9.6.1 p.37"
+  },
+  {
+   "group": "Safety & Compliance",
+   "key": "emc_emission_standard",
+   "label": "EMC emission",
+   "value": "IEC 61000-6-4 (heavy industrial environments)",
+   "unit": "",
+   "note": "",
+   "source": "https://d3cjkvgbik1jtv.cloudfront.net/translations/spot-5_1/spot-user-manual-en.pdf",
+   "ref": "§2.9.3.1 p.33"
+  },
+  {
+   "group": "Safety & Compliance",
+   "key": "emc_immunity_standard",
+   "label": "EMC immunity",
+   "value": "IEC 61000-6-2 (industrial environments)",
+   "unit": "",
+   "note": "",
+   "source": "https://d3cjkvgbik1jtv.cloudfront.net/translations/spot-5_1/spot-user-manual-en.pdf",
+   "ref": "§2.9.3.1 p.33"
+  },
+  {
+   "group": "Safety & Compliance",
+   "key": "esd_immunity",
+   "label": "ESD immunity level",
+   "value": "+/-4 kV direct contact, +/-8 kV air discharge",
+   "unit": "",
+   "note": "IEC 61000-6-2",
+   "source": "https://d3cjkvgbik1jtv.cloudfront.net/translations/spot-5_1/spot-user-manual-en.pdf",
+   "ref": "§2.9.3.1 p.33"
+  },
+  {
+   "group": "Safety & Compliance",
+   "key": "rf_immunity",
+   "label": "RF immunity level",
+   "value": "10 V/m 80-1000 MHz; 3 V/m 1-6 GHz",
+   "unit": "",
+   "note": "IEC 61000-6-2",
+   "source": "https://d3cjkvgbik1jtv.cloudfront.net/translations/spot-5_1/spot-user-manual-en.pdf",
+   "ref": "§2.9.3.1 p.33"
+  },
+  {
+   "group": "Safety & Compliance",
+   "key": "laser_class",
+   "label": "Laser class",
+   "value": "Class 1 Laser Product (EN/IEC 60825-1 Ed. 2 (2007) and Ed. 3 (2014))",
+   "unit": "",
+   "note": "Five stereo camera systems contain a Class 1 laser projection system",
+   "source": "https://d3cjkvgbik1jtv.cloudfront.net/translations/spot-5_1/spot-user-manual-en.pdf",
+   "ref": "§2.9.3.3 p.33"
+  },
+  {
+   "group": "Safety & Compliance",
+   "key": "max_noise_level",
+   "label": "Airborne noise",
+   "value": "Determined by operating environment (e.g. much quieter on padded carpet than on metal stairs); no fixed figure given",
+   "unit": "",
+   "note": "",
+   "source": "https://d3cjkvgbik1jtv.cloudfront.net/translations/spot-5_1/spot-user-manual-en.pdf",
+   "ref": "§2.9.4 p.34"
+  },
+  {
+   "group": "Safety & Compliance",
+   "key": "impact_duration",
+   "label": "Accidental impact duration while walking",
+   "value": "<100",
+   "unit": "ms",
+   "note": "Short event followed by recoil; impacts only with lower body (feet and lower legs)",
+   "source": "https://d3cjkvgbik1jtv.cloudfront.net/translations/spot-5_1/spot-user-manual-en.pdf",
+   "ref": "§2.9.6.1 p.36"
+  },
+  {
+   "group": "Safety & Compliance",
+   "key": "min_change_time",
+   "label": "Minimum timeframe for accelerations/pattern changes",
+   "value": 1,
+   "unit": "s",
+   "note": "Accelerations and any change of pattern do not occur in a timeframe shorter than 1 second",
+   "source": "https://d3cjkvgbik1jtv.cloudfront.net/translations/spot-5_1/spot-user-manual-en.pdf",
+   "ref": "§2.9.6.1 p.38"
+  },
+  {
+   "group": "Safety & Compliance",
+   "key": "fall_severity_elevation_threshold",
+   "label": "Fall severity elevation threshold",
+   "value": 1100,
+   "unit": "mm",
+   "note": "Elevation <1100 mm: low-severity minor impacts with lower body; >1100 mm: high severity possible",
+   "source": "https://d3cjkvgbik1jtv.cloudfront.net/translations/spot-5_1/spot-user-manual-en.pdf",
+   "ref": "§2.9.6.2 p.38-39"
+  },
+  {
+   "group": "Safety & Compliance",
+   "key": "flat_ground_reference_elevation",
+   "label": "Flat/non-elevated ground reference",
+   "value": 300,
+   "unit": "mm",
+   "note": "Elevation <300 mm reference situation for accidental impacts",
+   "source": "https://d3cjkvgbik1jtv.cloudfront.net/translations/spot-5_1/spot-user-manual-en.pdf",
+   "ref": "§2.9.6.1 p.36"
+  },
+  {
+   "group": "Safety & Compliance",
+   "key": "powerless_leg_behavior",
+   "label": "Leg state after de-energization",
+   "value": "Legs are not locked during and after motor de-energization; body lowered in control before full de-energization when possible",
+   "unit": "",
+   "note": "",
+   "source": "https://d3cjkvgbik1jtv.cloudfront.net/translations/spot-5_1/spot-user-manual-en.pdf",
+   "ref": "§2.9.6.3 p.39-40"
+  },
+  {
+   "group": "Safety & Compliance",
+   "key": "pinch_point_hip_depth",
+   "label": "Hip pivot joint pinch point depth",
+   "value": 5,
+   "unit": "cm",
+   "note": "Approximately 5 cm beneath external surface of hips and legs, single finger-size gap; severity moderate, occurrence low",
+   "source": "https://d3cjkvgbik1jtv.cloudfront.net/translations/spot-5_1/spot-user-manual-en.pdf",
+   "ref": "§2.9.7 p.41"
+  },
+  {
+   "group": "Safety & Compliance",
+   "key": "pinch_points",
+   "label": "Pinch points",
+   "value": "Hip pivot joint (finger-size gap, moderate severity, low occurrence); hip rolling joint (wide surface, low severity); knee joints",
+   "unit": "",
+   "note": "Keep hands away from knee and hip joints except when grabbing handles",
+   "source": "https://d3cjkvgbik1jtv.cloudfront.net/translations/spot-5_1/spot-user-manual-en.pdf",
+   "ref": "§2.9.7 p.41; §3.2.1 p.44-45"
+  },
+  {
+   "group": "Safety & Compliance",
+   "key": "setup_clearance",
+   "label": "Clearance around Spot for setup/operation",
+   "value": 2,
+   "unit": "m",
+   "note": "At least 2 m in all directions",
+   "source": "https://d3cjkvgbik1jtv.cloudfront.net/translations/spot-5_1/spot-user-manual-en.pdf",
+   "ref": "§4.1 p.48"
+  },
+  {
+   "group": "Safety & Compliance",
+   "key": "stop_commands",
+   "label": "Controller stop commands",
+   "value": "STOP (immediately suspends motion); CUT POWER (fully de-energizes motors; via button shortcut or STOP twice)",
+   "unit": "",
+   "note": "Take precedence over all active commands",
+   "source": "https://d3cjkvgbik1jtv.cloudfront.net/translations/spot-5_1/spot-user-manual-en.pdf",
+   "ref": "§5.4 p.87-88"
+  },
+  {
+   "group": "Safety & Compliance",
+   "key": "self_right_clearance",
+   "label": "Clearance required for self-right / fall recovery",
+   "value": 1,
+   "unit": "m",
+   "note": "Clear 1 m radius around Spot",
+   "source": "https://d3cjkvgbik1jtv.cloudfront.net/translations/spot-5_1/spot-user-manual-en.pdf",
+   "ref": "§5.11 p.129; §5.12 p.129"
+  },
+  {
+   "group": "Safety & Compliance",
+   "key": "bystander_distance",
+   "label": "Recommended bystander distance",
+   "value": 2,
+   "unit": "m",
+   "note": "Stay >=2 m from Spot at all times; always give right of way; do not enter staircases/confined spaces where Spot is active",
+   "source": "https://d3cjkvgbik1jtv.cloudfront.net/translations/spot-5_1/spot-user-manual-en.pdf",
+   "ref": "§5.15 p.132"
+  },
+  {
+   "group": "Safety & Compliance",
+   "key": "certifications",
+   "label": "Markings",
+   "value": "CE (EU); UKCA; FCC; ISED Canada; RCM (R-NZ); KC (Korea); Japan radio (MIC/TELEC); ICASA (South Africa); IMDA (Singapore)",
+   "unit": "",
+   "note": "Nameplate/label in battery compartment",
+   "source": "https://d3cjkvgbik1jtv.cloudfront.net/translations/spot-5_1/spot-user-manual-en.pdf",
+   "ref": "§7.1 p.143; §7.2 p.143 (label image)"
+  },
+  {
+   "group": "Safety & Compliance",
+   "key": "eu_directives",
+   "label": "EU directives (DoC)",
+   "value": "Machinery Directive 2006/42/EC; EMC Directive 2014/30/EU; Radio Equipment Directive 2014/53/EU",
+   "unit": "",
+   "note": "EU DoC dated Jan 9, 2024; applies to s/n BD-33390001 or higher",
+   "source": "https://d3cjkvgbik1jtv.cloudfront.net/translations/spot-5_1/spot-user-manual-en.pdf",
+   "ref": "§7.1 p.142-143"
+  },
+  {
+   "group": "Safety & Compliance",
+   "key": "safety_standards",
+   "label": "Harmonized standards - Machinery Directive",
+   "value": "EN ISO 12100:2010; EN 60204-1:2018; EN IEC 62133-2:2017; EN IEC 60825-1:2014/A11:2020",
+   "unit": "",
+   "note": "",
+   "source": "https://d3cjkvgbik1jtv.cloudfront.net/translations/spot-5_1/spot-user-manual-en.pdf",
+   "ref": "§7.1 p.143"
+  },
+  {
+   "group": "Safety & Compliance",
+   "key": "safety_standards",
+   "label": "Harmonized standards - EMC Directive",
+   "value": "EN 61000-6-4:2007/A1:2011; EN 61000-6-2:2005/AC:2005",
+   "unit": "",
+   "note": "",
+   "source": "https://d3cjkvgbik1jtv.cloudfront.net/translations/spot-5_1/spot-user-manual-en.pdf",
+   "ref": "§7.1 p.143"
+  },
+  {
+   "group": "Safety & Compliance",
+   "key": "safety_standards",
+   "label": "Harmonized standards - Radio Equipment Directive",
+   "value": "ETSI EN 301 489-1 V2.2.3 (2019-11); ETSI EN 301 489-17 V3.2.4 (2020-09); EN 55032:2012",
+   "unit": "",
+   "note": "",
+   "source": "https://d3cjkvgbik1jtv.cloudfront.net/translations/spot-5_1/spot-user-manual-en.pdf",
+   "ref": "§7.1 p.143"
+  },
+  {
+   "group": "Safety & Compliance",
+   "key": "safety_standards",
+   "label": "Other standards referenced",
+   "value": "ISO 13849-1:2023; ISO 13850; IEC 60204-1; IEC 62471; IEC 62133; IEC 61000-6-2; IEC 61000-6-4; EN/IEC 60825-1; ISO 12100; ISO/TR 22053:2021; ANSI B11.0-2020; UN 38.3",
+   "unit": "",
+   "note": "",
+   "source": "https://d3cjkvgbik1jtv.cloudfront.net/translations/spot-5_1/spot-user-manual-en.pdf",
+   "ref": "§1.3 p.7; §2.5 p.18-20; §2.7.1 p.23; §2.9 p.30-35"
+  },
+  {
+   "group": "Safety & Compliance",
+   "key": "eu_authorized_rep",
+   "label": "EU authorized representative / technical file",
+   "value": "Alura Group BV, Kroonwiel 2, 6003 BT Weert, The Netherlands",
+   "unit": "",
+   "note": "",
+   "source": "https://d3cjkvgbik1jtv.cloudfront.net/translations/spot-5_1/spot-user-manual-en.pdf",
+   "ref": "§7.1 p.142; §7.2 p.143"
+  },
+  {
+   "group": "Safety & Compliance",
+   "key": "doc_scope",
+   "label": "EU DoC serial scope",
+   "value": "s/n BD-33390001 or higher; models 04-00143531-001/-401/-601/-611",
+   "unit": "",
+   "note": "",
+   "source": "https://d3cjkvgbik1jtv.cloudfront.net/translations/spot-5_1/spot-user-manual-en.pdf",
+   "ref": "§7.1 p.142"
+  },
+  {
+   "group": "Safety & Compliance",
+   "key": "low_level_api_safeguard_distance",
+   "label": "Joint-level/choreography API clearance",
+   "value": 2,
+   "unit": "m",
+   "note": "Full-separation safeguards at min 2 m (joint-level); >=2 m clear space on flat, stable, high-friction surface (choreography); use wireless E-Stop",
+   "source": "https://d3cjkvgbik1jtv.cloudfront.net/translations/spot-5_1/spot-user-manual-en.pdf",
+   "ref": "§9.1-9.2 p.147"
+  },
+  {
+   "group": "Safety & Compliance",
+   "key": "collision_avoidance_behavior",
+   "label": "Collision avoidance",
+   "value": "Maintains set distance from stationary objects",
+   "unit": "",
+   "note": "",
+   "source": "https://bostondynamics.com/products/spot/",
+   "ref": "Spot Specifications > Terrain Sensing"
+  },
+  {
+   "group": "Safety & Compliance",
+   "key": "emc_compliance_us",
+   "label": "EMC (US)",
+   "value": "FCC Part 15B",
+   "unit": "",
+   "note": "",
+   "source": "https://bostondynamics.com/wp-content/uploads/2020/10/spot-specifications.pdf",
+   "ref": "p.2 Safety and Compliance, United States"
+  },
+  {
+   "group": "Safety & Compliance",
+   "key": "radio_compliance_us",
+   "label": "Radio equipment (US)",
+   "value": "Incorporates a FCC Part 68 certified radio system (as stated)",
+   "unit": "",
+   "note": "",
+   "source": "https://bostondynamics.com/wp-content/uploads/2020/10/spot-specifications.pdf",
+   "ref": "p.2 Safety and Compliance, United States"
+  },
+  {
+   "group": "Controls & Operation",
+   "key": "control_modes",
+   "label": "Modes of operation",
+   "value": "Manual (remote controller with camera view); Automatic (Autowalk mission record and replay)",
+   "unit": "",
+   "note": "",
+   "source": "https://d3cjkvgbik1jtv.cloudfront.net/translations/spot-5_1/spot-user-manual-en.pdf",
+   "ref": "§2.3 p.14"
+  },
+  {
+   "group": "Controls & Operation",
+   "key": "installation_requirements",
+   "label": "Installation requirements",
+   "value": "No special installation fixtures (no anchoring, anti-vibration pads); setup on flat, stable, clean surface",
+   "unit": "",
+   "note": "",
+   "source": "https://d3cjkvgbik1jtv.cloudfront.net/translations/spot-5_1/spot-user-manual-en.pdf",
+   "ref": "§4.1 p.48"
+  },
+  {
+   "group": "Controls & Operation",
+   "key": "user_accounts",
+   "label": "User accounts",
+   "value": "Default user and admin accounts (credentials on battery-compartment label); roles: Admin (manage users, update software), Limited Access (no user/software/network/factory-reset changes, no automatic operation, no data download, screenshots or Admin Console)",
+   "unit": "",
+   "note": "",
+   "source": "https://d3cjkvgbik1jtv.cloudfront.net/translations/spot-5_1/spot-user-manual-en.pdf",
+   "ref": "§4.7 p.68; §4.7.1 p.69"
+  },
+  {
+   "group": "Controls & Operation",
+   "key": "controller",
+   "label": "Controller",
+   "value": "Spot tablet controller: handheld touchscreen Android computer running Spot App (ships with Spot); or Orbit browser application on a computer",
+   "unit": "",
+   "note": "Tablet or compatible device with Spot App required to record missions",
+   "source": "https://d3cjkvgbik1jtv.cloudfront.net/translations/spot-5_1/spot-user-manual-en.pdf",
+   "ref": "§5.2 p.78; §5.2.1 p.79"
+  },
+  {
+   "group": "Controls & Operation",
+   "key": "multi_controller",
+   "label": "Multiple controllers",
+   "value": "Multiple controllers can pair simultaneously to observe; only one operates at a time; control can be passed (TAKE CONTROL)",
+   "unit": "",
+   "note": "",
+   "source": "https://d3cjkvgbik1jtv.cloudfront.net/translations/spot-5_1/spot-user-manual-en.pdf",
+   "ref": "§5.2.2 p.79-80"
+  },
+  {
+   "group": "Controls & Operation",
+   "key": "signal_loss_behavior",
+   "label": "Signal-loss behavior",
+   "value": "Manual: halt with motors on and wait (or AutoReturn if enabled); Automatic: continue mission; limited by controller supervision setting",
+   "unit": "",
+   "note": "",
+   "source": "https://d3cjkvgbik1jtv.cloudfront.net/translations/spot-5_1/spot-user-manual-en.pdf",
+   "ref": "§5.2.3.1 p.81-82"
+  },
+  {
+   "group": "Controls & Operation",
+   "key": "controller_supervision_timeout",
+   "label": "Controller supervision timeout, STRICT (default)",
+   "value": 9,
+   "unit": "s",
+   "note": "Then operational stop (sit, motors off)",
+   "source": "https://d3cjkvgbik1jtv.cloudfront.net/translations/spot-5_1/spot-user-manual-en.pdf",
+   "ref": "§5.2.3.2 p.82"
+  },
+  {
+   "group": "Controls & Operation",
+   "key": "controller_supervision_timeout",
+   "label": "Controller supervision timeout, MODERATE",
+   "value": 30,
+   "unit": "s",
+   "note": "",
+   "source": "https://d3cjkvgbik1jtv.cloudfront.net/translations/spot-5_1/spot-user-manual-en.pdf",
+   "ref": "§5.2.3.2 p.82"
+  },
+  {
+   "group": "Controls & Operation",
+   "key": "controller_supervision_timeout",
+   "label": "Controller supervision timeout, UNSUPERVISED",
+   "value": 18.2,
+   "unit": "h",
+   "note": "",
+   "source": "https://d3cjkvgbik1jtv.cloudfront.net/translations/spot-5_1/spot-user-manual-en.pdf",
+   "ref": "§5.2.3.2 p.82"
+  },
+  {
+   "group": "Controls & Operation",
+   "key": "autoreturn_radius",
+   "label": "AutoReturn max backtrack radius",
+   "value": 20,
+   "unit": "m",
+   "note": "Configurable; disabled by default; manual operation only",
+   "source": "https://d3cjkvgbik1jtv.cloudfront.net/translations/spot-5_1/spot-user-manual-en.pdf",
+   "ref": "§5.2.3.3 p.83"
+  },
+  {
+   "group": "Controls & Operation",
+   "key": "startup_sequence",
+   "label": "Startup sequence",
+   "value": "1) Power on computers (hold power 2 s); 2) reset motor lockout; 3) start motors from remote controller",
+   "unit": "",
+   "note": "",
+   "source": "https://d3cjkvgbik1jtv.cloudfront.net/translations/spot-5_1/spot-user-manual-en.pdf",
+   "ref": "§5.3 p.85; §5.3.1 p.86"
+  },
+  {
+   "group": "Controls & Operation",
+   "key": "power_button_hold_time",
+   "label": "Power button hold time to boot",
+   "value": 2,
+   "unit": "s",
+   "note": "",
+   "source": "https://d3cjkvgbik1jtv.cloudfront.net/translations/spot-5_1/spot-user-manual-en.pdf",
+   "ref": "§5.3.1 p.86"
+  },
+  {
+   "group": "Controls & Operation",
+   "key": "boot_time",
+   "label": "Boot time (fans spin while computers boot)",
+   "value": 2,
+   "unit": "min",
+   "note": "Approximately",
+   "source": "https://d3cjkvgbik1jtv.cloudfront.net/translations/spot-5_1/spot-user-manual-en.pdf",
+   "ref": "§5.3.1 p.86"
+  },
+  {
+   "group": "Controls & Operation",
+   "key": "automatic_mode_triggers",
+   "label": "Automatic mode triggers",
+   "value": "Operator command; scheduled mission; software on Spot/attachment/external networked device; signal loss with AutoReturn",
+   "unit": "",
+   "note": "Motors may start/restart automatically in automatic mode",
+   "source": "https://d3cjkvgbik1jtv.cloudfront.net/translations/spot-5_1/spot-user-manual-en.pdf",
+   "ref": "§5.5.1 p.91"
+  },
+  {
+   "group": "Controls & Operation",
+   "key": "spot_app_panels",
+   "label": "Spot App controls",
+   "value": "Menu; Modes (Drive, Autowalk); Cameras (Robot cameras, Top Down, Off); Controller (gamepad joysticks or Touch-to-Go); Motor Status; Robot Controls; Robot Health; Comms Status; Battery Status (incl. Roll Over); STOP",
+   "unit": "",
+   "note": "",
+   "source": "https://d3cjkvgbik1jtv.cloudfront.net/translations/spot-5_1/spot-user-manual-en.pdf",
+   "ref": "§5.8.1 p.96-108"
+  },
+  {
+   "group": "Controls & Operation",
+   "key": "spot_app_menu",
+   "label": "Spot App main menu",
+   "value": "About; Admin Console; Download Data; Actions/Inspections; Settings (Comms, Tablet language/temperature units); Profiles; Utilities (Attach Payloads incl. payload port power on/off, Odometer, SpotCheck, SpotMetrics); Disconnect",
+   "unit": "",
+   "note": "",
+   "source": "https://d3cjkvgbik1jtv.cloudfront.net/translations/spot-5_1/spot-user-manual-en.pdf",
+   "ref": "§5.8.1.2 p.98-99"
+  },
+  {
+   "group": "Controls & Operation",
+   "key": "odometer",
+   "label": "Odometer",
+   "value": "Cumulative operating statistics such as steps taken and distance traveled",
+   "unit": "",
+   "note": "",
+   "source": "https://d3cjkvgbik1jtv.cloudfront.net/translations/spot-5_1/spot-user-manual-en.pdf",
+   "ref": "§5.8.1.2 p.99"
+  },
+  {
+   "group": "Controls & Operation",
+   "key": "navigation_toggles",
+   "label": "Robot Controls navigation settings",
+   "value": "Obstacle avoidance on/off; obstacle cushion; Stairs Mode (auto/force/prevent); Walk on Grated Floor (auto-detect); Descend Stairs Before Power Off; Ground Height Detection; Stair/Surface Edge Avoidance; Avoid Negative Obstacles; Autowalk Avoid Ground Clutter; Step Height; Ground Friction",
+   "unit": "",
+   "note": "",
+   "source": "https://d3cjkvgbik1jtv.cloudfront.net/translations/spot-5_1/spot-user-manual-en.pdf",
+   "ref": "§5.8.1.7 p.104-105"
+  },
+  {
+   "group": "Controls & Operation",
+   "key": "drive_controls",
+   "label": "Drive mode controls",
+   "value": "Left joystick translate; right joystick rotate; Touch-to-Go; height slider; speed slider (SLOW/MED/FAST); pose selector (Sit, Stand with roll/pitch/yaw/height, Self Right); gait selector (Walk, Crawl); Add Action",
+   "unit": "",
+   "note": "",
+   "source": "https://d3cjkvgbik1jtv.cloudfront.net/translations/spot-5_1/spot-user-manual-en.pdf",
+   "ref": "§5.8.2.1 p.109-110"
+  },
+  {
+   "group": "Controls & Operation",
+   "key": "path_following_tolerance",
+   "label": "Autowalk path tolerance, WIDE PATH (default)",
+   "value": 3,
+   "unit": "m",
+   "note": "May deviate up to 3 m from recorded route to avoid obstacles",
+   "source": "https://d3cjkvgbik1jtv.cloudfront.net/translations/spot-5_1/spot-user-manual-en.pdf",
+   "ref": "§5.8.2.2 p.110"
+  },
+  {
+   "group": "Controls & Operation",
+   "key": "path_following_tolerance",
+   "label": "Autowalk path tolerance, STRICT PATH",
+   "value": 25,
+   "unit": "cm",
+   "note": "Body center kept within a 25 cm corridor along recorded path",
+   "source": "https://d3cjkvgbik1jtv.cloudfront.net/translations/spot-5_1/spot-user-manual-en.pdf",
+   "ref": "§5.8.2.2 p.110"
+  },
+  {
+   "group": "Controls & Operation",
+   "key": "mission_software",
+   "label": "Mission software",
+   "value": "Autowalk: record route map and actions with Spot App (requires >=1 fiducial), replay automatically with looping/scheduling, docking actions, Return to Dock with auto reroute",
+   "unit": "",
+   "note": "",
+   "source": "https://d3cjkvgbik1jtv.cloudfront.net/translations/spot-5_1/spot-user-manual-en.pdf",
+   "ref": "§5.8.3 p.112-113"
+  },
+  {
+   "group": "Controls & Operation",
+   "key": "autowalk_recording_features",
+   "label": "Autowalk recording features",
+   "value": "Add Actions/Inspections; add any number of docks (each once per mission); pause/resume; Undo (2 s hold timer, not reversible); extend missions with branches and loops",
+   "unit": "",
+   "note": "",
+   "source": "https://d3cjkvgbik1jtv.cloudfront.net/translations/spot-5_1/spot-user-manual-en.pdf",
+   "ref": "§5.8.3.1-5.8.4 p.114-118"
+  },
+  {
+   "group": "Controls & Operation",
+   "key": "mission_scheduling",
+   "label": "Mission replay scheduling",
+   "value": "Play now or play later (scheduled; requires >=1 Spot Dock in mission; tablet must stay connected); Once or Loop at interval; play forever option",
+   "unit": "",
+   "note": "",
+   "source": "https://d3cjkvgbik1jtv.cloudfront.net/translations/spot-5_1/spot-user-manual-en.pdf",
+   "ref": "§5.9.1 p.118-120"
+  },
+  {
+   "group": "Controls & Operation",
+   "key": "mission_route_options",
+   "label": "Mission route options",
+   "value": "Take shortcuts; enable/disable actions; re-order actions; edit actions",
+   "unit": "",
+   "note": "",
+   "source": "https://d3cjkvgbik1jtv.cloudfront.net/translations/spot-5_1/spot-user-manual-en.pdf",
+   "ref": "§5.9.2.1 p.121"
+  },
+  {
+   "group": "Controls & Operation",
+   "key": "mission_failure_handling",
+   "label": "Navigation/action failure behavior",
+   "value": "Prompt timeout; retry count; failure behavior after retries",
+   "unit": "",
+   "note": "",
+   "source": "https://d3cjkvgbik1jtv.cloudfront.net/translations/spot-5_1/spot-user-manual-en.pdf",
+   "ref": "§5.9.2.2 p.123"
+  },
+  {
+   "group": "Controls & Operation",
+   "key": "playback_options",
+   "label": "Mission playback options",
+   "value": "Replace actions with short sleeps; force strict path following; path planner range; patience (wait before reroute); force ground clutter avoidance; goal distance; self-right attempts cap",
+   "unit": "",
+   "note": "",
+   "source": "https://d3cjkvgbik1jtv.cloudfront.net/translations/spot-5_1/spot-user-manual-en.pdf",
+   "ref": "§5.9.2.2 p.124"
+  },
+  {
+   "group": "Controls & Operation",
+   "key": "mission_interrupts",
+   "label": "Mission interrupts",
+   "value": "Fiducial 585 = safe power off (sit, motors off); fiducial 586 = return to dock and terminate mission; Security Patrol (person detected -> photo + alert; requires Spot CAM and EAP2 payloads)",
+   "unit": "",
+   "note": "",
+   "source": "https://d3cjkvgbik1jtv.cloudfront.net/translations/spot-5_1/spot-user-manual-en.pdf",
+   "ref": "§5.9.2.2 p.125"
+  },
+  {
+   "group": "Controls & Operation",
+   "key": "mission_prompt_responses",
+   "label": "Mission prompt responses",
+   "value": "Try again; try to reroute; skip; return to dock and terminate mission",
+   "unit": "",
+   "note": "",
+   "source": "https://d3cjkvgbik1jtv.cloudfront.net/translations/spot-5_1/spot-user-manual-en.pdf",
+   "ref": "§5.9.3 p.126"
+  },
+  {
+   "group": "Controls & Operation",
+   "key": "self_right",
+   "label": "Self right",
+   "value": "Semi-automatic Self Right from side or back to sit; requires >=1 m clear space and stable level surface; autonomous self-right during missions (attempts cappable)",
+   "unit": "",
+   "note": "",
+   "source": "https://d3cjkvgbik1jtv.cloudfront.net/translations/spot-5_1/spot-user-manual-en.pdf",
+   "ref": "§5.11 p.128-129; §5.9.2.2 p.124"
+  },
+  {
+   "group": "Controls & Operation",
+   "key": "shutdown_procedure",
+   "label": "Shutdown",
+   "value": "Sit, Motor Power OFF, press motor lockout, hold power button 2 s, disconnect in Spot App",
+   "unit": "",
+   "note": "",
+   "source": "https://d3cjkvgbik1jtv.cloudfront.net/translations/spot-5_1/spot-user-manual-en.pdf",
+   "ref": "§5.14 p.131"
+  },
+  {
+   "group": "Controls & Operation",
+   "key": "cleaning",
+   "label": "Exterior cleaning",
+   "value": "Camera windows: non-abrasive cloth with glass cleaner (anti-static lens brush for abrasive particles); body: magic eraser or mild detergent; no bleach or strong solvents",
+   "unit": "",
+   "note": "",
+   "source": "https://d3cjkvgbik1jtv.cloudfront.net/translations/spot-5_1/spot-user-manual-en.pdf",
+   "ref": "§6.2.1 p.134"
+  },
+  {
+   "group": "Controls & Operation",
+   "key": "maintenance_interval",
+   "label": "Preventive maintenance inspection interval",
+   "value": "Monthly",
+   "unit": "",
+   "note": "Inspect foot treads (replace when worn), cooling fans, cameras, legs, joints, ports",
+   "source": "https://d3cjkvgbik1jtv.cloudfront.net/translations/spot-5_1/spot-user-manual-en.pdf",
+   "ref": "§6.2 p.133; §6.2.2 p.134"
+  },
+  {
+   "group": "Controls & Operation",
+   "key": "calibration_interval",
+   "label": "Joint calibration interval",
+   "value": 30,
+   "unit": "days",
+   "note": "Robot operational time (not calendar days); after 30 days without joint recalibration a fault requires running joint calibration & camera check",
+   "source": "https://d3cjkvgbik1jtv.cloudfront.net/translations/spot-5_1/spot-user-manual-en.pdf",
+   "ref": "§6.3 p.135"
+  },
+  {
+   "group": "Controls & Operation",
+   "key": "calibration",
+   "label": "SpotCheck routines",
+   "value": "Joint calibration and camera check (2-3 min); camera calibration (~15 min, requires calibration panel); revert to previous joint calibration (one backup)",
+   "unit": "",
+   "note": "",
+   "source": "https://d3cjkvgbik1jtv.cloudfront.net/translations/spot-5_1/spot-user-manual-en.pdf",
+   "ref": "§6.3-6.3.2 p.134-139"
+  },
+  {
+   "group": "Controls & Operation",
+   "key": "calibration_duration",
+   "label": "Joint calibration & camera check duration",
+   "value": "2 to 3",
+   "unit": "min",
+   "note": "",
+   "source": "https://d3cjkvgbik1jtv.cloudfront.net/translations/spot-5_1/spot-user-manual-en.pdf",
+   "ref": "§6.3.1 p.136"
+  },
+  {
+   "group": "Controls & Operation",
+   "key": "calibration_duration",
+   "label": "Camera calibration duration",
+   "value": 15,
+   "unit": "min",
+   "note": "About",
+   "source": "https://d3cjkvgbik1jtv.cloudfront.net/translations/spot-5_1/spot-user-manual-en.pdf",
+   "ref": "§6.3.2 p.139"
+  },
+  {
+   "group": "Controls & Operation",
+   "key": "calibration_clearance",
+   "label": "Calibration clear radius",
+   "value": 1.5,
+   "unit": "m",
+   "note": "Flat, manufactured, non-reflective floor; no bright lights; 2 m around and above for Spot with Arm",
+   "source": "https://d3cjkvgbik1jtv.cloudfront.net/translations/spot-5_1/spot-user-manual-en.pdf",
+   "ref": "§6.3.1 p.136; §6.3.3 p.140"
+  },
+  {
+   "group": "Controls & Operation",
+   "key": "fleet_software",
+   "label": "Fleet / browser control software",
+   "value": "Orbit browser application (operate, Autowalk missions, data upload)",
+   "unit": "",
+   "note": "",
+   "source": "https://d3cjkvgbik1jtv.cloudfront.net/translations/spot-5_1/spot-user-manual-en.pdf",
+   "ref": "§5.2 p.78; Appendix A p.144-145"
+  },
+  {
+   "group": "Controls & Operation",
+   "key": "teleoperation",
+   "label": "Teleoperation",
+   "value": "Manual remote driving using live images from Spot's cameras on the tablet controller (Spot App) or Orbit",
+   "unit": "",
+   "note": "",
+   "source": "https://d3cjkvgbik1jtv.cloudfront.net/translations/spot-5_1/spot-user-manual-en.pdf",
+   "ref": "§2.3 p.14; §5.2 p.78"
+  },
+  {
+   "group": "Controls & Operation",
+   "key": "autonomy_features",
+   "label": "Autonomy features",
+   "value": "Autonomous charging; dynamic replanning around new obstacles; self-righting after falls; repeatable autonomous missions launched from Spot Dock",
+   "unit": "",
+   "note": "",
+   "source": "https://bostondynamics.com/products/spot/",
+   "ref": "'Reliable' section; datasheet p.1"
+  },
+  {
+   "group": "Controls & Operation",
+   "key": "controller_dimensions",
+   "label": "Tablet dimensions (H x W x D)",
+   "value": "127 x 214 x 10",
+   "unit": "mm",
+   "note": "",
+   "source": "https://bostondynamics.com/wp-content/uploads/2020/10/spot-specifications.pdf",
+   "ref": "p.2 Tablet"
+  },
+  {
+   "group": "Controls & Operation",
+   "key": "controller_weight",
+   "label": "Tablet weight",
+   "value": 426,
+   "unit": "g",
+   "note": "",
+   "source": "https://bostondynamics.com/wp-content/uploads/2020/10/spot-specifications.pdf",
+   "ref": "p.2 Tablet"
+  },
+  {
+   "group": "Controls & Operation",
+   "key": "controller_display",
+   "label": "Tablet touchscreen",
+   "value": "8 in diagonal, 1920 x 1200",
+   "unit": "",
+   "note": "Joystick add-on available",
+   "source": "https://bostondynamics.com/wp-content/uploads/2020/10/spot-specifications.pdf",
+   "ref": "p.2 Tablet"
+  },
+  {
+   "group": "Controls & Operation",
+   "key": "controller_ip_rating",
+   "label": "Tablet ingress protection",
+   "value": "IP65",
+   "unit": "",
+   "note": "",
+   "source": "https://bostondynamics.com/wp-content/uploads/2020/10/spot-specifications.pdf",
+   "ref": "p.2 Tablet"
+  },
+  {
+   "group": "Audio, Lights & HMI",
+   "key": "warning_system",
+   "label": "A/V warning system",
+   "value": "5 ground-projecting light indicators, a buzzer and a speaker; disabled by default; config persists across reboots",
+   "unit": "",
+   "note": "Models 04-00143531-401, -601, -611",
+   "source": "https://d3cjkvgbik1jtv.cloudfront.net/translations/spot-5_1/spot-user-manual-en.pdf",
+   "ref": "§2.7 p.22"
+  },
+  {
+   "group": "Audio, Lights & HMI",
+   "key": "status_lights",
+   "label": "Warning indicators count and location",
+   "value": 5,
+   "unit": "",
+   "note": "1 on front body panel; 2 on bottom panel between front hips; 2 between rear hips; multi-color, brightness auto-adapts to ambient light; off when tilted/rolled >90°",
+   "source": "https://d3cjkvgbik1jtv.cloudfront.net/translations/spot-5_1/spot-user-manual-en.pdf",
+   "ref": "§2.7.1 p.23"
+  },
+  {
+   "group": "Audio, Lights & HMI",
+   "key": "indicator_max_illuminance",
+   "label": "Max indicator illuminance, front panel",
+   "value": 1030,
+   "unit": "lux",
+   "note": "Measured on floor, stand position",
+   "source": "https://d3cjkvgbik1jtv.cloudfront.net/translations/spot-5_1/spot-user-manual-en.pdf",
+   "ref": "§2.7.1 p.23"
+  },
+  {
+   "group": "Audio, Lights & HMI",
+   "key": "indicator_max_illuminance",
+   "label": "Max indicator illuminance, front and rear hips",
+   "value": 1010,
+   "unit": "lux",
+   "note": "Measured on floor, stand position",
+   "source": "https://d3cjkvgbik1jtv.cloudfront.net/translations/spot-5_1/spot-user-manual-en.pdf",
+   "ref": "§2.7.1 p.23"
+  },
+  {
+   "group": "Audio, Lights & HMI",
+   "key": "buzzer",
+   "label": "Buzzer tone frequency",
+   "value": 5333,
+   "unit": "Hz",
+   "note": "",
+   "source": "https://d3cjkvgbik1jtv.cloudfront.net/translations/spot-5_1/spot-user-manual-en.pdf",
+   "ref": "§2.7.2 p.23"
+  },
+  {
+   "group": "Audio, Lights & HMI",
+   "key": "buzzer_max_spl",
+   "label": "Buzzer max sound pressure level",
+   "value": 110,
+   "unit": "dBA",
+   "note": "At 1 m in front of Spot; volume adjustable",
+   "source": "https://d3cjkvgbik1jtv.cloudfront.net/translations/spot-5_1/spot-user-manual-en.pdf",
+   "ref": "§2.7.2 p.23"
+  },
+  {
+   "group": "Audio, Lights & HMI",
+   "key": "speaker",
+   "label": "Speaker max volume",
+   "value": 80,
+   "unit": "dB",
+   "note": "Measured 1 m in front of Spot; adjustable",
+   "source": "https://d3cjkvgbik1jtv.cloudfront.net/translations/spot-5_1/spot-user-manual-en.pdf",
+   "ref": "§2.7.3 p.23"
+  },
+  {
+   "group": "Audio, Lights & HMI",
+   "key": "warning_color_palettes",
+   "label": "Warning color palettes",
+   "value": "DEFAULT (green/amber/red/white); ALTERNATE (blue/red/...)",
+   "unit": "",
+   "note": "",
+   "source": "https://d3cjkvgbik1jtv.cloudfront.net/translations/spot-5_1/spot-user-manual-en.pdf",
+   "ref": "§2.7.4 p.23-26"
+  },
+  {
+   "group": "Audio, Lights & HMI",
+   "key": "warning_blink_rates",
+   "label": "Warning light pattern rates",
+   "value": "Slow blink 0.7 Hz; fast blink 1.4 Hz; flash brief at 1.4 Hz; pulse = continuous brighter/dimmer oscillation",
+   "unit": "",
+   "note": "",
+   "source": "https://d3cjkvgbik1jtv.cloudfront.net/translations/spot-5_1/spot-user-manual-en.pdf",
+   "ref": "§2.7.4 p.25"
+  },
+  {
+   "group": "Audio, Lights & HMI",
+   "key": "buzzer_recommended_level",
+   "label": "Recommended buzzer level",
+   "value": 80,
+   "unit": "dBA",
+   "note": "Not higher than 80 dBA recommended; max only for very loud environments",
+   "source": "https://d3cjkvgbik1jtv.cloudfront.net/translations/spot-5_1/spot-user-manual-en.pdf",
+   "ref": "§2.9.4 p.34"
+  },
+  {
+   "group": "Audio, Lights & HMI",
+   "key": "power_button_light",
+   "label": "Power / motor lockout button lights",
+   "value": "Power button blue when computers on; motor lockout red when lockout reset (slow blink), fast blink while motors starting, steady red when started",
+   "unit": "",
+   "note": "",
+   "source": "https://d3cjkvgbik1jtv.cloudfront.net/translations/spot-5_1/spot-user-manual-en.pdf",
+   "ref": "§5.1.1 p.75; §5.3.2 p.86; §5.3.3 p.87"
+  },
+  {
+   "group": "Audio, Lights & HMI",
+   "key": "status_lights",
+   "label": "Robot status lights (front panel)",
+   "value": "Yellow = booting; moving rainbow = ready to connect; solid blue = lockout engaged/safe to handle; filling blue = charging; solid blue with gap = plugged/docked no battery; slow blink green = controller connected; fast blink green = motors turning on; solid green = motors on; draining orange = low battery; blinking orange = serious error/perception fault",
+   "unit": "",
+   "note": "Match A/V indicator color when warning system active",
+   "source": "https://d3cjkvgbik1jtv.cloudfront.net/translations/spot-5_1/spot-user-manual-en.pdf",
+   "ref": "§5.1.2 p.76-78"
+  },
+  {
+   "group": "Audio, Lights & HMI",
+   "key": "warning_system_settings",
+   "label": "A/V warning system settings",
+   "value": "Enable/disable; indicator brightness; buzzer volume; color palette (Spot App > Settings > Audio/Visual)",
+   "unit": "",
+   "note": "",
+   "source": "https://d3cjkvgbik1jtv.cloudfront.net/translations/spot-5_1/spot-user-manual-en.pdf",
+   "ref": "§5.6 p.92-93"
+  },
+  {
+   "group": "Audio, Lights & HMI",
+   "key": "robot_naming",
+   "label": "Robot rename",
+   "value": "Robot can be renamed via Admin Console About page",
+   "unit": "",
+   "note": "",
+   "source": "https://d3cjkvgbik1jtv.cloudfront.net/translations/spot-5_1/spot-user-manual-en.pdf",
+   "ref": "§4.5.2 p.66"
+  },
+  {
+   "group": "Audio, Lights & HMI",
+   "key": "indicator_projection_distance",
+   "label": "Max light projection distance",
+   "value": 1.8,
+   "unit": "m",
+   "note": "In front of robot",
+   "source": "https://bostondynamics.com/wp-content/uploads/2020/10/spot-specifications.pdf",
+   "ref": "p.2 Audio & Visual Signals"
+  },
+  {
+   "group": "Audio, Lights & HMI",
+   "key": "warning_behaviors",
+   "label": "Audio & visual signals",
+   "value": "Pre-configured behaviors for manual and autonomous operations",
+   "unit": "",
+   "note": "",
+   "source": "https://bostondynamics.com/wp-content/uploads/2020/10/spot-specifications.pdf",
+   "ref": "p.2 Audio & Visual Signals"
+  },
+  {
+   "group": "Transport & Storage",
+   "key": "shipping_case_dimensions",
+   "label": "Robot shipping case dimensions (L x W x H)",
+   "value": "927 x 546 x 464",
+   "unit": "mm",
+   "note": "Holds Spot robot and Spot tablet controller",
+   "source": "https://d3cjkvgbik1jtv.cloudfront.net/translations/spot-5_1/spot-user-manual-en.pdf",
+   "ref": "§3.1.1 p.43"
+  },
+  {
+   "group": "Transport & Storage",
+   "key": "shipping_case_weight",
+   "label": "Robot shipping case empty weight",
+   "value": 20.4,
+   "unit": "kg",
+   "note": "",
+   "source": "https://d3cjkvgbik1jtv.cloudfront.net/translations/spot-5_1/spot-user-manual-en.pdf",
+   "ref": "§3.1.1 p.43"
+  },
+  {
+   "group": "Transport & Storage",
+   "key": "shipping_case_weight",
+   "label": "Robot shipping case + robot combined weight",
+   "value": 47.6,
+   "unit": "kg",
+   "note": "",
+   "source": "https://d3cjkvgbik1jtv.cloudfront.net/translations/spot-5_1/spot-user-manual-en.pdf",
+   "ref": "§3.1.1 p.43"
+  },
+  {
+   "group": "Transport & Storage",
+   "key": "power_supply_case_dimensions",
+   "label": "Power Supply shipping case dimensions (L x W x H)",
+   "value": "559 x 432 x 432",
+   "unit": "mm",
+   "note": "Holds charger and up to two batteries",
+   "source": "https://d3cjkvgbik1jtv.cloudfront.net/translations/spot-5_1/spot-user-manual-en.pdf",
+   "ref": "§3.1.2 p.43"
+  },
+  {
+   "group": "Transport & Storage",
+   "key": "power_supply_case_weight",
+   "label": "Power Supply shipping case empty weight",
+   "value": 9.2,
+   "unit": "kg",
+   "note": "",
+   "source": "https://d3cjkvgbik1jtv.cloudfront.net/translations/spot-5_1/spot-user-manual-en.pdf",
+   "ref": "§3.1.2 p.43"
+  },
+  {
+   "group": "Transport & Storage",
+   "key": "power_supply_case_weight",
+   "label": "Power Supply case + charger + one battery",
+   "value": 18.1,
+   "unit": "kg",
+   "note": "",
+   "source": "https://d3cjkvgbik1jtv.cloudfront.net/translations/spot-5_1/spot-user-manual-en.pdf",
+   "ref": "§3.1.2 p.43"
+  },
+  {
+   "group": "Transport & Storage",
+   "key": "power_supply_case_weight",
+   "label": "Power Supply case + charger + two batteries",
+   "value": 22.7,
+   "unit": "kg",
+   "note": "",
+   "source": "https://d3cjkvgbik1jtv.cloudfront.net/translations/spot-5_1/spot-user-manual-en.pdf",
+   "ref": "§3.1.2 p.44"
+  },
+  {
+   "group": "Transport & Storage",
+   "key": "handles",
+   "label": "Carry handles",
+   "value": "One handle at each hip joint (4) to lift, carry and roll Spot",
+   "unit": "",
+   "note": "",
+   "source": "https://d3cjkvgbik1jtv.cloudfront.net/translations/spot-5_1/spot-user-manual-en.pdf",
+   "ref": "§3.2.2 p.45"
+  },
+  {
+   "group": "Transport & Storage",
+   "key": "lift_persons",
+   "label": "People required to lift",
+   "value": 2,
+   "unit": "",
+   "note": "One at front, one at rear; by handles when sitting upright, or by lower legs when flipped on back; power off first",
+   "source": "https://d3cjkvgbik1jtv.cloudfront.net/translations/spot-5_1/spot-user-manual-en.pdf",
+   "ref": "§3.2.3 p.45"
+  },
+  {
+   "group": "Transport & Storage",
+   "key": "handling_ppe",
+   "label": "Handling PPE",
+   "value": "Safety footwear recommended; hearing protection may be recommended depending on buzzer volume",
+   "unit": "",
+   "note": "",
+   "source": "https://d3cjkvgbik1jtv.cloudfront.net/translations/spot-5_1/spot-user-manual-en.pdf",
+   "ref": "§3.2.4 p.46"
+  },
+  {
+   "group": "Transport & Storage",
+   "key": "storage_conditions",
+   "label": "Robot storage conditions",
+   "value": "-40 to 75 °C; 30-70% RH; dry location, in case or at Spot Dock",
+   "unit": "",
+   "note": "",
+   "source": "https://d3cjkvgbik1jtv.cloudfront.net/translations/spot-5_1/spot-user-manual-en.pdf",
+   "ref": "§3.3 p.46"
+  },
+  {
+   "group": "Transport & Storage",
+   "key": "storage_temperature",
+   "label": "Robot storage temperature",
+   "value": "-40 to 75",
+   "unit": "°C",
+   "note": "",
+   "source": "https://d3cjkvgbik1jtv.cloudfront.net/translations/spot-5_1/spot-user-manual-en.pdf",
+   "ref": "§3.3 p.46"
+  },
+  {
+   "group": "Transport & Storage",
+   "key": "storage_humidity",
+   "label": "Robot storage relative humidity",
+   "value": "30 to 70",
+   "unit": "%",
+   "note": "",
+   "source": "https://d3cjkvgbik1jtv.cloudfront.net/translations/spot-5_1/spot-user-manual-en.pdf",
+   "ref": "§3.3 p.46"
+  },
+  {
+   "group": "Transport & Storage",
+   "key": "battery_storage_temperature",
+   "label": "Battery storage temperature",
+   "value": "-30 to 25",
+   "unit": "°C",
+   "note": "",
+   "source": "https://d3cjkvgbik1jtv.cloudfront.net/translations/spot-5_1/spot-user-manual-en.pdf",
+   "ref": "§3.3.1 p.46"
+  },
+  {
+   "group": "Transport & Storage",
+   "key": "battery_shipping_soc",
+   "label": "Max battery state of charge for shipping",
+   "value": 30,
+   "unit": "%",
+   "note": "US/international regulations for Li-ion batteries of this size, any shipping method; 1 LED bar = <30% SOC",
+   "source": "https://d3cjkvgbik1jtv.cloudfront.net/translations/spot-5_1/spot-user-manual-en.pdf",
+   "ref": "§3.3.1 p.47"
+  },
+  {
+   "group": "Transport & Storage",
+   "key": "power_supply_case_dimensions",
+   "label": "Power case dimensions (L x W x H), datasheet",
+   "value": "810 x 530 x 300",
+   "unit": "mm",
+   "note": "Includes two batteries and charger (IFU 5.1.5: 559 x 432 x 432 mm)",
+   "source": "https://bostondynamics.com/wp-content/uploads/2020/10/spot-specifications.pdf",
+   "ref": "p.2 Travel Cases"
+  },
+  {
+   "group": "Transport & Storage",
+   "key": "power_supply_case_weight",
+   "label": "Power case net weight, datasheet",
+   "value": 28,
+   "unit": "kg",
+   "note": "Includes two batteries and charger",
+   "source": "https://bostondynamics.com/wp-content/uploads/2020/10/spot-specifications.pdf",
+   "ref": "p.2 Travel Cases"
+  },
+  {
+   "group": "Commercial",
+   "key": "service_policy",
+   "label": "Service and repair",
+   "value": "No user servicing/repair; via Boston Dynamics Support (provide serial number and issue description)",
+   "unit": "",
+   "note": "https://support.bostondynamics.com/s/contactsupport",
+   "source": "https://d3cjkvgbik1jtv.cloudfront.net/translations/spot-5_1/spot-user-manual-en.pdf",
+   "ref": "§6.1 p.133"
+  },
+  {
+   "group": "Commercial",
+   "key": "included_accessories",
+   "label": "Included accessories (per IFU)",
+   "value": "Spot tablet controller (ships in robot case); camera calibration panel",
+   "unit": "",
+   "note": "",
+   "source": "https://d3cjkvgbik1jtv.cloudfront.net/translations/spot-5_1/spot-user-manual-en.pdf",
+   "ref": "§3.1.1 p.43; §5.2.1 p.79; §6.3 p.135"
+  },
+  {
+   "group": "Commercial",
+   "key": "optional_accessories",
+   "label": "Optional accessories (per IFU)",
+   "value": "Spot Dock; Spot Power Supply; Spot Arm; Spot CAM; EAP2 (lidar payload); Spot Station; LTE and mesh radio hardware; additional E-Stop devices",
+   "unit": "",
+   "note": "",
+   "source": "https://d3cjkvgbik1jtv.cloudfront.net/translations/spot-5_1/spot-user-manual-en.pdf",
+   "ref": "§2.5.4 p.20; §4.6 p.67; §4.9.1 p.71; §5.9.2.2 p.125; Appendix A p.144"
+  },
+  {
+   "group": "Commercial",
+   "key": "installed_base",
+   "label": "Robots in customer hands",
+   "value": "Over 1,500",
+   "unit": "",
+   "note": "As stated on product page (accessed 2026-11-04)",
+   "source": "https://bostondynamics.com/products/spot/",
+   "ref": "'Reliable' section"
+  },
+  {
+   "group": "Commercial",
+   "key": "warranty",
+   "label": "Warranty",
+   "value": "One-year limited warranty; premium service via Spot Care subscription",
+   "unit": "",
+   "note": "",
+   "source": "https://bostondynamics.com/wp-content/uploads/2020/10/spot-specifications.pdf",
+   "ref": "p.1 Learn with Training and Support"
+  }
+ ]
+}
