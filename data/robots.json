@@ -1,7 +1,7 @@
 {
  "meta": {
-  "updated": "2026-11-02",
-  "count": 79
+  "updated": "2026-11-04",
+  "count": 81
  },
  "robots": [
   {
@@ -502,6 +502,49 @@
     "https://www.rockwellautomation.com/content/dam/rockwell-automation/documents/pdf/events/automate/otto-1500-data-sheet.pdf"
    ],
    "summary": "Heavy-duty AMR for pallet-sized loads up to 1,900 kg (capacity includes attachment) in demanding plants."
+  },
+  {
+   "id": "samhyun-boldum",
+   "name": "BOLDUM (HAMR 3-ton)",
+   "manufacturer": "Samhyun",
+   "country": "South Korea",
+   "category": "AMR",
+   "locomotion": "Wheeled",
+   "release_year": null,
+   "status": "Commercial",
+   "length_mm": null,
+   "width_mm": null,
+   "height_mm": null,
+   "weight_kg": null,
+   "payload_kg": 3000,
+   "max_speed_mps": 1.58,
+   "min_speed_mps": null,
+   "wheel_diameter_mm": null,
+   "wheel_count": null,
+   "dof": null,
+   "runtime_h": null,
+   "battery_wh": null,
+   "ip_rating": "IP67",
+   "api_support": null,
+   "sdk_available": null,
+   "sdk_name": null,
+   "onboard_compute": null,
+   "compute_detail": null,
+   "ros_support": null,
+   "sensors": [
+    "LiDAR",
+    "Camera",
+    "Ultrasonic sensors",
+    "Bumper sensor"
+   ],
+   "price_usd": null,
+   "price_note": null,
+   "official_url": "https://www.samhyun.co.kr/our-up/robot-industry/view?category_code=1210&code=164&tpf=product%2Fview",
+   "sources": [
+    "https://www.samhyun.co.kr/our-up/robot-industry/view?category_code=1210&code=164&tpf=product%2Fview",
+    "https://www.samhyun.co.kr/news?board_code=1&code=6868&tpf=board%2Fview"
+   ],
+   "summary": "Heavy-duty indoor/outdoor autonomous mobile robot carrying up to 3 t between and inside factories; 5.7 km/h standard, 20 km/h high-power option."
   },
   {
    "id": "seegrid-lift-cr1",
@@ -1408,7 +1451,7 @@
    "status": "Commercial",
    "length_mm": null,
    "width_mm": null,
-   "height_mm": null,
+   "height_mm": 1080,
    "weight_kg": null,
    "payload_kg": 20,
    "max_speed_mps": 1.2,
@@ -1431,7 +1474,8 @@
    "official_url": null,
    "sources": [
     "https://www.yna.co.kr/view/AKR20200518149000030",
-    "https://biz.heraldcorp.com/article/2650656"
+    "https://biz.heraldcorp.com/article/2650656",
+    "https://www.koreajoongangdaily.com/business/postcovid19-new-normal-letting-the-robots-take-over-is-the-secret-to-social-distancing/11155620"
    ],
    "summary": "Baemin's indoor last-leg delivery robot that opens lobby doors and rides elevators to bring orders to apartment and office doors."
   },
@@ -2449,6 +2493,46 @@
    "summary": "Flagship IP67 industrial quadruped for inspection, security and emergency response in extreme weather."
   },
   {
+   "id": "diden-robotics-diden-spider",
+   "name": "Diden Spider (Spider 30)",
+   "manufacturer": "Diden Robotics",
+   "country": "South Korea",
+   "category": "Quadruped",
+   "locomotion": "Legged",
+   "release_year": 2026,
+   "status": "Commercial",
+   "length_mm": 958,
+   "width_mm": 460,
+   "height_mm": 494,
+   "weight_kg": 45,
+   "payload_kg": 30,
+   "max_speed_mps": null,
+   "min_speed_mps": null,
+   "wheel_diameter_mm": null,
+   "wheel_count": null,
+   "dof": 12,
+   "runtime_h": null,
+   "battery_wh": null,
+   "ip_rating": null,
+   "api_support": null,
+   "sdk_available": null,
+   "sdk_name": null,
+   "onboard_compute": null,
+   "compute_detail": null,
+   "ros_support": null,
+   "sensors": [],
+   "price_usd": null,
+   "price_note": null,
+   "official_url": "https://www.didenrobotics.com/en/products",
+   "sources": [
+    "https://robotworld.or.kr/visitors/pop_list_of_exhibitors.php?idx=1431",
+    "https://www.eweek.com/news/news-diden-spider-30-magnetic-robot-shipyards-south-korea-apac/",
+    "https://www.didenrobotics.com/en/resources-all/nvidia-gtc-2026-spider-30",
+    "https://en.fnnews.com/news/202611041829341672"
+   ],
+   "summary": "Magnetic-foot (electro-permanent magnet) quadruped that climbs steel walls and ceilings inside ship blocks to carry welding and inspection tools."
+  },
+  {
    "id": "ghost-robotics-vision-60",
    "name": "Vision 60",
    "manufacturer": "Ghost Robotics",
@@ -2526,10 +2610,11 @@
     "Thermal camera (optional)"
    ],
    "price_usd": null,
-   "price_note": null,
+   "price_note": "about KRW 75 million for the base model (Rainbow Robotics technical director to Hankyoreh, Nov 2026)",
    "official_url": "https://rainbow-robotics.com/en/products/rbq-10",
    "sources": [
-    "https://rainbowrobotics.github.io/RBQ/manual/product-descriptions/general-specification.html"
+    "https://rainbowrobotics.github.io/RBQ/manual/product-descriptions/general-specification.html",
+    "https://www.hani.co.kr/arti/economy/marketing/1285758.html"
    ],
    "summary": "Korean outdoor quadruped platform for patrol, inspection, observation and research with sensor expansion."
   },

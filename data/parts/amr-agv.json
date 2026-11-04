@@ -578,5 +578,48 @@
       "https://www.sec.gov/Archives/edgar/data/877212/000162828026034109/R14.htm"
     ],
     "summary": "Pallet-transport AMR base for loads up to 1,500 kg; Zebra exited the line and sold its robotics business to Skild AI in March 2026."
+  },
+  {
+    "id": "samhyun-boldum",
+    "name": "BOLDUM (HAMR 3-ton)",
+    "manufacturer": "Samhyun",
+    "country": "South Korea",
+    "category": "AMR",
+    "locomotion": "Wheeled",
+    "release_year": null,
+    "status": "Commercial",
+    "length_mm": null,
+    "width_mm": null,
+    "height_mm": null,
+    "weight_kg": null,
+    "payload_kg": 3000,
+    "max_speed_mps": 1.58,
+    "min_speed_mps": null,
+    "wheel_diameter_mm": null,
+    "wheel_count": null,
+    "dof": null,
+    "runtime_h": null,
+    "battery_wh": null,
+    "ip_rating": "IP67",
+    "api_support": null,
+    "sdk_available": null,
+    "sdk_name": null,
+    "onboard_compute": null,
+    "compute_detail": null,
+    "ros_support": null,
+    "sensors": [
+      "LiDAR",
+      "Camera",
+      "Ultrasonic sensors",
+      "Bumper sensor"
+    ],
+    "price_usd": null,
+    "price_note": null,
+    "official_url": "https://www.samhyun.co.kr/our-up/robot-industry/view?category_code=1210&code=164&tpf=product%2Fview",
+    "sources": [
+      "https://www.samhyun.co.kr/our-up/robot-industry/view?category_code=1210&code=164&tpf=product%2Fview",
+      "https://www.samhyun.co.kr/news?board_code=1&code=6868&tpf=board%2Fview"
+    ],
+    "summary": "Heavy-duty indoor/outdoor autonomous mobile robot carrying up to 3 t between and inside factories; 5.7 km/h standard, 20 km/h high-power option."
   }
 ]

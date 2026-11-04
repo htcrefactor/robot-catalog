@@ -1,0 +1,338 @@
+{
+ "id": "diden-robotics-diden-spider",
+ "checked": "2026-11-04",
+ "documents": [
+  {
+   "title": "ROBOTWORLD 2026 exhibitor page – DIDEN ROBOTICS (product sheet)",
+   "url": "https://robotworld.or.kr/visitors/pop_list_of_exhibitors.php?idx=1431"
+  },
+  {
+   "title": "Diden Robotics blog – Physical AI Walks the Wall (Spider 30, Apr 2026)",
+   "url": "https://www.didenrobotics.com/en/resources-all/nvidia-gtc-2026-spider-30"
+  },
+  {
+   "title": "Diden Robotics – Products",
+   "url": "https://www.didenrobotics.com/en/products"
+  },
+  {
+   "title": "eWeek – Spider 30 (2026-10-01)",
+   "url": "https://www.eweek.com/news/news-diden-spider-30-magnetic-robot-shipyards-south-korea-apac/"
+  },
+  {
+   "title": "Financial News – 2026 RoboWorld (2026-11-04)",
+   "url": "https://en.fnnews.com/news/202611041829341672"
+  },
+  {
+   "title": "Hankyoreh – 2026 로보월드 (2026-11-04)",
+   "url": "https://www.hani.co.kr/arti/economy/marketing/1285758.html"
+  }
+ ],
+ "specs": [
+  {
+   "group": "Identity",
+   "key": "manufacturer",
+   "label": "Manufacturer",
+   "value": "DIDEN ROBOTICS Co., Ltd. (Seongdong-gu, Seoul, South Korea)",
+   "unit": "",
+   "note": "",
+   "source": "https://robotworld.or.kr/visitors/pop_list_of_exhibitors.php?idx=1431"
+  },
+  {
+   "group": "Identity",
+   "key": "robot_type",
+   "label": "Robot type",
+   "value": "Quadruped work robot with electro-permanent-magnet (EPM) magnetic feet, specialized for shipyards",
+   "unit": "",
+   "note": "",
+   "source": "https://robotworld.or.kr/visitors/pop_list_of_exhibitors.php?idx=1431"
+  },
+  {
+   "group": "Identity",
+   "key": "model_number",
+   "label": "Model",
+   "value": "Diden Spider (also called Spider 30)",
+   "unit": "",
+   "note": "",
+   "source": "https://www.didenrobotics.com/en/resources-all/nvidia-gtc-2026-spider-30"
+  },
+  {
+   "group": "Identity",
+   "key": "release_date",
+   "label": "Unveiled",
+   "value": "Launch date 1 June 2026; first public showing in Korea at ROBOTWORLD 2026 (4 Nov 2026)",
+   "unit": "",
+   "note": "",
+   "source": "https://robotworld.or.kr/visitors/pop_list_of_exhibitors.php?idx=1431"
+  },
+  {
+   "group": "Dimensions & Mass",
+   "key": "length",
+   "label": "Overall length",
+   "value": 958,
+   "unit": "mm",
+   "note": "",
+   "source": "https://www.eweek.com/news/news-diden-spider-30-magnetic-robot-shipyards-south-korea-apac/"
+  },
+  {
+   "group": "Dimensions & Mass",
+   "key": "width",
+   "label": "Overall width",
+   "value": 460,
+   "unit": "mm",
+   "note": "",
+   "source": "https://www.eweek.com/news/news-diden-spider-30-magnetic-robot-shipyards-south-korea-apac/"
+  },
+  {
+   "group": "Dimensions & Mass",
+   "key": "height",
+   "label": "Overall height",
+   "value": 494,
+   "unit": "mm",
+   "note": "",
+   "source": "https://www.eweek.com/news/news-diden-spider-30-magnetic-robot-shipyards-south-korea-apac/"
+  },
+  {
+   "group": "Dimensions & Mass",
+   "key": "weight",
+   "label": "Weight",
+   "value": 45,
+   "unit": "kg",
+   "note": "",
+   "source": "https://www.eweek.com/news/news-diden-spider-30-magnetic-robot-shipyards-south-korea-apac/"
+  },
+  {
+   "group": "Mobility & Performance",
+   "key": "max_payload",
+   "label": "Max payload",
+   "value": 30,
+   "unit": "kg",
+   "note": "manipulator / task-module payload, including at 90° vertical orientation",
+   "source": "https://robotworld.or.kr/visitors/pop_list_of_exhibitors.php?idx=1431"
+  },
+  {
+   "group": "Mobility & Performance",
+   "key": "max_speed",
+   "label": "Max speed",
+   "value": 0.1,
+   "unit": "m/s",
+   "note": "stated by eWeek ('up to'); not found on a Diden page",
+   "source": "https://www.eweek.com/news/news-diden-spider-30-magnetic-robot-shipyards-south-korea-apac/"
+  },
+  {
+   "group": "Mobility & Performance",
+   "key": "towing_capacity",
+   "label": "Towing capacity",
+   "value": 40,
+   "unit": "kg",
+   "note": "stable gait while towing a 40 kg load",
+   "source": "https://robotworld.or.kr/visitors/pop_list_of_exhibitors.php?idx=1431"
+  },
+  {
+   "group": "Mobility & Performance",
+   "key": "degrees_of_freedom",
+   "label": "Degrees of freedom",
+   "value": 12,
+   "unit": "",
+   "note": "12 actuators in four legs",
+   "source": "https://www.eweek.com/news/news-diden-spider-30-magnetic-robot-shipyards-south-korea-apac/"
+  },
+  {
+   "group": "Terrain & Navigation Limits",
+   "key": "max_obstacle_height",
+   "label": "Obstacle clearance",
+   "value": 400,
+   "unit": "mm",
+   "note": "",
+   "source": "https://en.fnnews.com/news/202611041829341672"
+  },
+  {
+   "group": "Terrain & Navigation Limits",
+   "key": "max_wall_inclination",
+   "label": "Max surface inclination",
+   "value": 90,
+   "unit": "°",
+   "note": "moves on vertical steel walls and ceilings",
+   "source": "https://robotworld.or.kr/visitors/pop_list_of_exhibitors.php?idx=1431"
+  },
+  {
+   "group": "Terrain & Navigation Limits",
+   "key": "surface_types",
+   "label": "Surface types",
+   "value": "Ferrous steel structures incl. curved surfaces, vertical walls and ceilings",
+   "unit": "",
+   "note": "",
+   "source": "https://robotworld.or.kr/visitors/pop_list_of_exhibitors.php?idx=1431"
+  },
+  {
+   "group": "Terrain & Navigation Limits",
+   "key": "stiffener_crossing",
+   "label": "Stiffener crossing",
+   "value": "Crosses 3 consecutive longitudinal stiffeners inside hull blocks",
+   "unit": "",
+   "note": "field-validated",
+   "source": "https://robotworld.or.kr/visitors/pop_list_of_exhibitors.php?idx=1431"
+  },
+  {
+   "group": "Terrain & Navigation Limits",
+   "key": "access_hole_traversal",
+   "label": "Access-hole traversal",
+   "value": "Autonomously passes hull-block access holes in about 1 min (36 trials, 0 failures)",
+   "unit": "",
+   "note": "",
+   "source": "https://robotworld.or.kr/visitors/pop_list_of_exhibitors.php?idx=1431"
+  },
+  {
+   "group": "Terrain & Navigation Limits",
+   "key": "floor_to_wall_transition_time",
+   "label": "Floor-to-wall transition time",
+   "value": "< 30",
+   "unit": "s",
+   "note": "per Diden as reported by eWeek",
+   "source": "https://www.eweek.com/news/news-diden-spider-30-magnetic-robot-shipyards-south-korea-apac/"
+  },
+  {
+   "group": "Terrain & Navigation Limits",
+   "key": "navigation_method",
+   "label": "Navigation",
+   "value": "Autonomous navigation and path planning without prior maps; real-time state estimation",
+   "unit": "",
+   "note": "",
+   "source": "https://www.didenrobotics.com/en/resources-all/nvidia-gtc-2026-spider-30"
+  },
+  {
+   "group": "Actuation & Joints",
+   "key": "foot_type",
+   "label": "Foot type",
+   "value": "Electro-permanent magnet (EPM) magnetic feet; holds without power, pulse toggles ON/OFF",
+   "unit": "",
+   "note": "",
+   "source": "https://www.didenrobotics.com/en/resources-all/nvidia-gtc-2026-spider-30"
+  },
+  {
+   "group": "Actuation & Joints",
+   "key": "magnetic_adhesion_force",
+   "label": "Magnetic adhesion force",
+   "value": 2200,
+   "unit": "N",
+   "note": "per 1,000 g magnet",
+   "source": "https://robotworld.or.kr/visitors/pop_list_of_exhibitors.php?idx=1431"
+  },
+  {
+   "group": "Actuation & Joints",
+   "key": "magnetic_adhesion_force",
+   "label": "Magnetic adhesion force",
+   "value": 1500,
+   "unit": "N",
+   "note": "'up to'; figure reported by eWeek citing Diden (conflicts with 2,200 N exhibitor listing)",
+   "source": "https://www.eweek.com/news/news-diden-spider-30-magnetic-robot-shipyards-south-korea-apac/"
+  },
+  {
+   "group": "Actuation & Joints",
+   "key": "magnetic_adhesion_force",
+   "label": "Magnetic adhesion force",
+   "value": "200+",
+   "unit": "kgf",
+   "note": "wall adhesion force (robot)",
+   "source": "https://robotworld.or.kr/visitors/pop_list_of_exhibitors.php?idx=1431"
+  },
+  {
+   "group": "Actuation & Joints",
+   "key": "magnet_switching_time",
+   "label": "Magnet ON/OFF switching time",
+   "value": 10,
+   "unit": "ms",
+   "note": "exhibitor listing; '100× faster than commercial'",
+   "source": "https://robotworld.or.kr/visitors/pop_list_of_exhibitors.php?idx=1431"
+  },
+  {
+   "group": "Actuation & Joints",
+   "key": "magnet_switching_time",
+   "label": "Magnet ON/OFF switching time",
+   "value": 7,
+   "unit": "ms",
+   "note": "'as little as'; reported by eWeek",
+   "source": "https://www.eweek.com/news/news-diden-spider-30-magnetic-robot-shipyards-south-korea-apac/"
+  },
+  {
+   "group": "Actuation & Joints",
+   "key": "magnet_mass",
+   "label": "Magnet mass",
+   "value": 1000,
+   "unit": "g",
+   "note": "per foot magnet",
+   "source": "https://robotworld.or.kr/visitors/pop_list_of_exhibitors.php?idx=1431"
+  },
+  {
+   "group": "Actuation & Joints",
+   "key": "peak_torque_density",
+   "label": "Peak torque density",
+   "value": 194,
+   "unit": "N·m/kg",
+   "note": "in-house actuator, peak instantaneous",
+   "source": "https://robotworld.or.kr/visitors/pop_list_of_exhibitors.php?idx=1431"
+  },
+  {
+   "group": "Actuation & Joints",
+   "key": "joint_count",
+   "label": "Joint motors",
+   "value": "12 actuators (in-house, hollow shaft, high-ratio planetary reducer)",
+   "unit": "",
+   "note": "",
+   "source": "https://www.eweek.com/news/news-diden-spider-30-magnetic-robot-shipyards-south-korea-apac/"
+  },
+  {
+   "group": "Environment & Protection",
+   "key": "operating_temperature",
+   "label": "Operating temperature",
+   "value": "-10 to 60",
+   "unit": "°C",
+   "note": "",
+   "source": "https://www.eweek.com/news/news-diden-spider-30-magnetic-robot-shipyards-south-korea-apac/"
+  },
+  {
+   "group": "Environment & Protection",
+   "key": "connector_ip_rating",
+   "label": "Connector ingress protection",
+   "value": "IP54",
+   "unit": "",
+   "note": "power and communications connectors",
+   "source": "https://www.eweek.com/news/news-diden-spider-30-magnetic-robot-shipyards-south-korea-apac/"
+  },
+  {
+   "group": "Payload & Mounting",
+   "key": "payload_types",
+   "label": "Task modules",
+   "value": "Manipulators, welding equipment, inspection equipment",
+   "unit": "",
+   "note": "",
+   "source": "https://www.didenrobotics.com/en/products"
+  },
+  {
+   "group": "Safety & Compliance",
+   "key": "intended_use",
+   "label": "Intended use",
+   "value": "Welding and inspection inside ship blocks; ship maintenance, high-rise and plant work",
+   "unit": "",
+   "note": "",
+   "source": "https://robotworld.or.kr/visitors/pop_list_of_exhibitors.php?idx=1431"
+  },
+  {
+   "group": "Commercial",
+   "key": "availability",
+   "label": "Status",
+   "value": "Supply contracts with 2 Korean shipyards and 1 European shipyard",
+   "unit": "",
+   "note": "per Hankyoreh, Nov 2026",
+   "source": "https://www.hani.co.kr/arti/economy/marketing/1285758.html"
+  },
+  {
+   "group": "Commercial",
+   "key": "availability",
+   "label": "Status",
+   "value": "Field deployment completed at major Korean shipyards; welds applied to vessels in production",
+   "unit": "",
+   "note": "",
+   "source": "https://www.didenrobotics.com/en/resources-all/nvidia-gtc-2026-spider-30"
+  }
+ ]
+}

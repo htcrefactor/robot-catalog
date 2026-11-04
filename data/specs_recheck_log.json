@@ -1,0 +1,17 @@
+{
+ "_doc": "Thin-spec rechecks by the daily sweep: robot id -> list of {date, result}. Pick the 2 thinnest data/specs files not rechecked in the last 7 days.",
+ "rechecks": {
+  "tesla-optimus": [
+   {
+    "date": "2026-11-04",
+    "result": "no new official spec sheet; Tesla still publishes no V3 specs (only third-party/rumour figures)"
+   }
+  ],
+  "woowa-dilly-tower": [
+   {
+    "date": "2026-11-04",
+    "result": "added height 1.08 m, LTE elevator link, code unlock (Korea JoongAng Daily)"
+   }
+  ]
+ }
+}

@@ -9,6 +9,10 @@
   {
    "title": "Herald Business – 국내 최초 '실내 로봇배달' 딜리타워 (2021-07-12)",
    "url": "https://biz.heraldcorp.com/article/2650656"
+  },
+  {
+   "title": "Korea JoongAng Daily – Letting the robots take over (2020-09-06)",
+   "url": "https://www.koreajoongangdaily.com/business/postcovid19-new-normal-letting-the-robots-take-over-is-the-secret-to-social-distancing/11155620"
   }
  ],
  "specs": [
@@ -146,6 +150,33 @@
    "unit": "",
    "note": "",
    "source": "https://zdnet.co.kr/view/?no=20200518084101"
+  },
+  {
+   "group": "Dimensions & Mass",
+   "key": "height",
+   "label": "Overall height",
+   "value": 1080,
+   "unit": "mm",
+   "note": "1.08 m",
+   "source": "https://www.koreajoongangdaily.com/business/postcovid19-new-normal-letting-the-robots-take-over-is-the-secret-to-social-distancing/11155620"
+  },
+  {
+   "group": "Connectivity & Interfaces",
+   "key": "cellular",
+   "label": "Cellular",
+   "value": "LTE (wireless link to elevators)",
+   "unit": "",
+   "note": "",
+   "source": "https://www.koreajoongangdaily.com/business/postcovid19-new-normal-letting-the-robots-take-over-is-the-secret-to-social-distancing/11155620"
+  },
+  {
+   "group": "Safety & Compliance",
+   "key": "access_control",
+   "label": "Recipient authentication",
+   "value": "Numerical code issued at order unlocks the compartment",
+   "unit": "",
+   "note": "",
+   "source": "https://www.koreajoongangdaily.com/business/postcovid19-new-normal-letting-the-robots-take-over-is-the-secret-to-social-distancing/11155620"
   }
  ]
 }

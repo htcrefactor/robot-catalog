@@ -541,11 +541,52 @@
       "Thermal camera (optional)"
     ],
     "price_usd": null,
-    "price_note": null,
+    "price_note": "about KRW 75 million for the base model (Rainbow Robotics technical director to Hankyoreh, Nov 2026)",
     "official_url": "https://rainbow-robotics.com/en/products/rbq-10",
     "sources": [
-      "https://rainbowrobotics.github.io/RBQ/manual/product-descriptions/general-specification.html"
+      "https://rainbowrobotics.github.io/RBQ/manual/product-descriptions/general-specification.html",
+      "https://www.hani.co.kr/arti/economy/marketing/1285758.html"
     ],
     "summary": "Korean outdoor quadruped platform for patrol, inspection, observation and research with sensor expansion."
+  },
+  {
+    "id": "diden-robotics-diden-spider",
+    "name": "Diden Spider (Spider 30)",
+    "manufacturer": "Diden Robotics",
+    "country": "South Korea",
+    "category": "Quadruped",
+    "locomotion": "Legged",
+    "release_year": 2026,
+    "status": "Commercial",
+    "length_mm": 958,
+    "width_mm": 460,
+    "height_mm": 494,
+    "weight_kg": 45,
+    "payload_kg": 30,
+    "max_speed_mps": null,
+    "min_speed_mps": null,
+    "wheel_diameter_mm": null,
+    "wheel_count": null,
+    "dof": 12,
+    "runtime_h": null,
+    "battery_wh": null,
+    "ip_rating": null,
+    "api_support": null,
+    "sdk_available": null,
+    "sdk_name": null,
+    "onboard_compute": null,
+    "compute_detail": null,
+    "ros_support": null,
+    "sensors": [],
+    "price_usd": null,
+    "price_note": null,
+    "official_url": "https://www.didenrobotics.com/en/products",
+    "sources": [
+      "https://robotworld.or.kr/visitors/pop_list_of_exhibitors.php?idx=1431",
+      "https://www.eweek.com/news/news-diden-spider-30-magnetic-robot-shipyards-south-korea-apac/",
+      "https://www.didenrobotics.com/en/resources-all/nvidia-gtc-2026-spider-30",
+      "https://en.fnnews.com/news/202611041829341672"
+    ],
+    "summary": "Magnetic-foot (electro-permanent magnet) quadruped that climbs steel walls and ceilings inside ship blocks to carry welding and inspection tools."
   }
 ]

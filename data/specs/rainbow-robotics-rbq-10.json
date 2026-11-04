@@ -81,6 +81,14 @@
   {
    "title": "Simulator overview",
    "url": "https://rainbowrobotics.github.io/RBQ/software/simulator/overview.html"
+  },
+  {
+   "title": "Hankyoreh – 2026 로보월드 (RBQ-10 price, 2026-11-04)",
+   "url": "https://www.hani.co.kr/arti/economy/marketing/1285758.html"
+  },
+  {
+   "title": "Financial News – 2026 RoboWorld (RBQ series, 2026-11-04)",
+   "url": "https://en.fnnews.com/news/202611041829341672"
   }
  ],
  "specs": [
@@ -1428,6 +1436,33 @@
    "unit": "",
    "note": "",
    "source": "https://rainbowrobotics.github.io/RBQ/manual/operation/packing.html"
+  },
+  {
+   "group": "Commercial",
+   "key": "price",
+   "label": "Price",
+   "value": 75000000,
+   "unit": "KRW",
+   "note": "about; base model, per Rainbow Robotics technical director",
+   "source": "https://www.hani.co.kr/arti/economy/marketing/1285758.html"
+  },
+  {
+   "group": "Commercial",
+   "key": "availability",
+   "label": "Status",
+   "value": "Mass (limited) production began 2026; 300–400 units planned for 2027",
+   "unit": "",
+   "note": "",
+   "source": "https://www.hani.co.kr/arti/economy/marketing/1285758.html"
+  },
+  {
+   "group": "Identity",
+   "key": "variants",
+   "label": "Variants",
+   "value": "RB-Q10 (legged), RB-Q10W (wheeled), RB-Q10A (with robotic arm)",
+   "unit": "",
+   "note": "as shown at ROBOTWORLD 2026",
+   "source": "https://en.fnnews.com/news/202611041829341672"
   }
  ]
 }
