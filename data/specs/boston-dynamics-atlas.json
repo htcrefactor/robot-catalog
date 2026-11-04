@@ -1,0 +1,325 @@
+{
+  "id": "boston-dynamics-atlas",
+  "checked": "2026-11-04",
+  "documents": [
+    {
+      "title": "Atlas spec sheet (Rev 10/15/2026)",
+      "url": "https://bostondynamics.com/wp-content/uploads/2026/01/atlas-spec-sheet.pdf"
+    },
+    {
+      "title": "Atlas product page",
+      "url": "https://bostondynamics.com/atlas/"
+    },
+    {
+      "title": "Enterprise Robotics, Redefined (BD blog, 2026-01-05)",
+      "url": "https://bostondynamics.com/blog/enterprise-robotics-redefined/"
+    },
+    {
+      "title": "Boston Dynamics Unveils New Atlas Robot (press release, 2026-01-05)",
+      "url": "https://bostondynamics.com/blog/boston-dynamics-unveils-new-atlas-robot-to-revolutionize-industry"
+    },
+    {
+      "title": "Robot Hands for Modern AI and Real Work (BD blog, 2026-10)",
+      "url": "https://bostondynamics.com/blog/robot-hands-for-modern-ai-and-real-work/"
+    }
+  ],
+  "specs": [
+    {
+      "group": "Identity",
+      "key": "software_version",
+      "label": "Spec sheet revision",
+      "value": "Rev 10/15/2026",
+      "unit": "",
+      "note": "",
+      "source": "https://bostondynamics.com/wp-content/uploads/2026/01/atlas-spec-sheet.pdf"
+    },
+    {
+      "group": "Identity",
+      "key": "release_date",
+      "label": "Product version unveiled",
+      "value": "2026-01-05",
+      "unit": "",
+      "note": "CES 2026",
+      "source": "https://bostondynamics.com/blog/boston-dynamics-unveils-new-atlas-robot-to-revolutionize-industry"
+    },
+    {
+      "group": "Identity",
+      "key": "manufacturing_site",
+      "label": "Made in",
+      "value": "USA",
+      "unit": "",
+      "note": "production at Boston HQ",
+      "source": "https://bostondynamics.com/wp-content/uploads/2026/01/atlas-spec-sheet.pdf"
+    },
+    {
+      "group": "Dimensions & Mass",
+      "key": "height",
+      "label": "Height",
+      "value": 1.9,
+      "unit": "m",
+      "note": "6.2 ft",
+      "source": "https://bostondynamics.com/wp-content/uploads/2026/01/atlas-spec-sheet.pdf"
+    },
+    {
+      "group": "Dimensions & Mass",
+      "key": "weight",
+      "label": "Weight",
+      "value": 90,
+      "unit": "kg",
+      "note": "198 lb",
+      "source": "https://bostondynamics.com/wp-content/uploads/2026/01/atlas-spec-sheet.pdf"
+    },
+    {
+      "group": "Mobility & Performance",
+      "key": "degrees_of_freedom",
+      "label": "Degrees of freedom",
+      "value": 56,
+      "unit": "",
+      "note": "",
+      "source": "https://bostondynamics.com/wp-content/uploads/2026/01/atlas-spec-sheet.pdf"
+    },
+    {
+      "group": "Actuation & Joints",
+      "key": "joint_range",
+      "label": "Range of motion",
+      "value": "Continuous (fully rotational joints)",
+      "unit": "",
+      "note": "",
+      "source": "https://bostondynamics.com/atlas/"
+    },
+    {
+      "group": "Mobility & Performance",
+      "key": "max_payload",
+      "label": "Weight capacity – instant",
+      "value": 50,
+      "unit": "kg",
+      "note": "110 lb",
+      "source": "https://bostondynamics.com/wp-content/uploads/2026/01/atlas-spec-sheet.pdf"
+    },
+    {
+      "group": "Mobility & Performance",
+      "key": "rated_payload",
+      "label": "Weight capacity – sustained",
+      "value": 30,
+      "unit": "kg",
+      "note": "66 lb; repeated lifts",
+      "source": "https://bostondynamics.com/wp-content/uploads/2026/01/atlas-spec-sheet.pdf"
+    },
+    {
+      "group": "Manipulation",
+      "key": "arm_payload",
+      "label": "Weight capacity – one-handed",
+      "value": 20,
+      "unit": "kg",
+      "note": "44 lb",
+      "source": "https://bostondynamics.com/wp-content/uploads/2026/01/atlas-spec-sheet.pdf"
+    },
+    {
+      "group": "Manipulation",
+      "key": "arm_reach",
+      "label": "Reach",
+      "value": 2.3,
+      "unit": "m",
+      "note": "7.5 ft",
+      "source": "https://bostondynamics.com/wp-content/uploads/2026/01/atlas-spec-sheet.pdf"
+    },
+    {
+      "group": "Manipulation",
+      "key": "hand_dof",
+      "label": "Hand DoF (new-generation hand)",
+      "value": 13,
+      "unit": "",
+      "note": "4 fingers, directly actuated, single actuator type; previous hand 7 DoF",
+      "source": "https://bostondynamics.com/blog/robot-hands-for-modern-ai-and-real-work/"
+    },
+    {
+      "group": "Manipulation",
+      "key": "gripper_type",
+      "label": "Hand",
+      "value": "Four-finger dexterous hand with tactile fingers and palm",
+      "unit": "",
+      "note": "",
+      "source": "https://bostondynamics.com/blog/robot-hands-for-modern-ai-and-real-work/"
+    },
+    {
+      "group": "Sensors & Perception",
+      "key": "tactile_sensors",
+      "label": "Tactile sensing",
+      "value": "Tactile fingers and palm",
+      "unit": "",
+      "note": "",
+      "source": "https://bostondynamics.com/wp-content/uploads/2026/01/atlas-spec-sheet.pdf"
+    },
+    {
+      "group": "Sensors & Perception",
+      "key": "camera_fov",
+      "label": "Camera view",
+      "value": "360° camera view",
+      "unit": "",
+      "note": "",
+      "source": "https://bostondynamics.com/wp-content/uploads/2026/01/atlas-spec-sheet.pdf"
+    },
+    {
+      "group": "Safety & Compliance",
+      "key": "safety_features",
+      "label": "Safety system",
+      "value": "Fenceless guarding; human detection (pauses when a person is within a radius)",
+      "unit": "",
+      "note": "",
+      "source": "https://bostondynamics.com/wp-content/uploads/2026/01/atlas-spec-sheet.pdf"
+    },
+    {
+      "group": "Safety & Compliance",
+      "key": "safety_design",
+      "label": "Physical safety",
+      "value": "Padding and minimal pinch points",
+      "unit": "",
+      "note": "",
+      "source": "https://bostondynamics.com/blog/enterprise-robotics-redefined/"
+    },
+    {
+      "group": "Connectivity & Interfaces",
+      "key": "workflow_integrations",
+      "label": "Workflow integrations",
+      "value": "Barcode scanner; RFID",
+      "unit": "",
+      "note": "",
+      "source": "https://bostondynamics.com/wp-content/uploads/2026/01/atlas-spec-sheet.pdf"
+    },
+    {
+      "group": "Controls & Operation",
+      "key": "control_modes",
+      "label": "Operating modes",
+      "value": "Autonomous; VR teleoperated; tablet control",
+      "unit": "",
+      "note": "",
+      "source": "https://bostondynamics.com/wp-content/uploads/2026/01/atlas-spec-sheet.pdf"
+    },
+    {
+      "group": "Compute & Software",
+      "key": "fleet_software",
+      "label": "Fleet software",
+      "value": "Orbit (MES/WMS integration, fleet metrics; SOC2 Type II; cloud, on-prem or VM)",
+      "unit": "",
+      "note": "",
+      "source": "https://bostondynamics.com/blog/enterprise-robotics-redefined/"
+    },
+    {
+      "group": "Compute & Software",
+      "key": "ai_partner",
+      "label": "AI models",
+      "value": "Google DeepMind foundation models (partnership)",
+      "unit": "",
+      "note": "",
+      "source": "https://bostondynamics.com/blog/boston-dynamics-unveils-new-atlas-robot-to-revolutionize-industry"
+    },
+    {
+      "group": "Power & Battery",
+      "key": "runtime",
+      "label": "Battery life",
+      "value": 4,
+      "unit": "h",
+      "note": "typical use",
+      "source": "https://bostondynamics.com/wp-content/uploads/2026/01/atlas-spec-sheet.pdf"
+    },
+    {
+      "group": "Power & Battery",
+      "key": "runtime_with_payload",
+      "label": "Battery life with heavy lifting",
+      "value": 2,
+      "unit": "h",
+      "note": "",
+      "source": "https://bostondynamics.com/wp-content/uploads/2026/01/atlas-spec-sheet.pdf"
+    },
+    {
+      "group": "Charging & Docking",
+      "key": "battery_swap_time",
+      "label": "Autonomous battery swap time",
+      "value": 3,
+      "unit": "min",
+      "note": "less than three minutes",
+      "source": "https://bostondynamics.com/wp-content/uploads/2026/01/atlas-spec-sheet.pdf"
+    },
+    {
+      "group": "Charging & Docking",
+      "key": "charge_time",
+      "label": "Charge time",
+      "value": 1.5,
+      "unit": "h",
+      "note": "",
+      "source": "https://bostondynamics.com/wp-content/uploads/2026/01/atlas-spec-sheet.pdf"
+    },
+    {
+      "group": "Charging & Docking",
+      "key": "charger_input",
+      "label": "Charge power requirements",
+      "value": "110 V (220 V optional)",
+      "unit": "",
+      "note": "",
+      "source": "https://bostondynamics.com/wp-content/uploads/2026/01/atlas-spec-sheet.pdf"
+    },
+    {
+      "group": "Power & Battery",
+      "key": "battery_swappable",
+      "label": "Self-swappable batteries",
+      "value": true,
+      "unit": "",
+      "note": "navigates to charging station and swaps own battery; 24/7 operation",
+      "source": "https://bostondynamics.com/blog/enterprise-robotics-redefined/"
+    },
+    {
+      "group": "Environment & Protection",
+      "key": "ip_rating",
+      "label": "IP rating",
+      "value": "IP67",
+      "unit": "",
+      "note": "can be sprayed or wiped down",
+      "source": "https://bostondynamics.com/wp-content/uploads/2026/01/atlas-spec-sheet.pdf"
+    },
+    {
+      "group": "Environment & Protection",
+      "key": "operating_temperature",
+      "label": "Operating temperature",
+      "value": "-20 to 40",
+      "unit": "°C",
+      "note": "-4 to 104 °F; full capabilities incl. strength",
+      "source": "https://bostondynamics.com/wp-content/uploads/2026/01/atlas-spec-sheet.pdf"
+    },
+    {
+      "group": "Transport & Storage",
+      "key": "serviceability",
+      "label": "Serviceability",
+      "value": "Modular components; field replaceable; customer self-repair certification",
+      "unit": "",
+      "note": "",
+      "source": "https://bostondynamics.com/wp-content/uploads/2026/01/atlas-spec-sheet.pdf"
+    },
+    {
+      "group": "Transport & Storage",
+      "key": "limb_replacement_time",
+      "label": "Field limb replacement",
+      "value": "<5",
+      "unit": "min",
+      "note": "all limbs replaceable in the field",
+      "source": "https://bostondynamics.com/blog/enterprise-robotics-redefined/"
+    },
+    {
+      "group": "Actuation & Joints",
+      "key": "actuator_supplier",
+      "label": "Actuators",
+      "value": "Supplied by Hyundai Mobis",
+      "unit": "",
+      "note": "limited number of motor types",
+      "source": "https://bostondynamics.com/blog/boston-dynamics-unveils-new-atlas-robot-to-revolutionize-industry"
+    },
+    {
+      "group": "Commercial",
+      "key": "availability",
+      "label": "Availability",
+      "value": "2026 deployments fully committed (Hyundai RMAC, Google DeepMind); more customers early 2027",
+      "unit": "",
+      "note": "",
+      "source": "https://bostondynamics.com/blog/boston-dynamics-unveils-new-atlas-robot-to-revolutionize-industry"
+    }
+  ]
+}

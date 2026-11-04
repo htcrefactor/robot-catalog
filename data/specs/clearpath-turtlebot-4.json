@@ -1,0 +1,506 @@
+{
+ "id": "clearpath-turtlebot-4",
+ "checked": "2026-11-04",
+ "documents": [
+  {
+   "title": "TurtleBot 4 User Manual — Features / Hardware Specifications (v2.0.1)",
+   "url": "https://turtlebot.github.io/turtlebot4-user-manual/overview/features.html"
+  },
+  {
+   "title": "TurtleBot 4 User Manual — Mechanical",
+   "url": "https://turtlebot.github.io/turtlebot4-user-manual/mechanical/turtlebot4.html"
+  },
+  {
+   "title": "TurtleBot 4 User Manual — Electrical: Create 3",
+   "url": "https://turtlebot.github.io/turtlebot4-user-manual/electrical/create3.html"
+  },
+  {
+   "title": "TurtleBot 4 User Manual — Electrical: Raspberry Pi 4B",
+   "url": "https://turtlebot.github.io/turtlebot4-user-manual/electrical/rpi4.html"
+  },
+  {
+   "title": "TurtleBot 4 User Manual — Power Budget",
+   "url": "https://turtlebot.github.io/turtlebot4-user-manual/electrical/power_budget.html"
+  },
+  {
+   "title": "iRobot Create 3 Hardware Overview",
+   "url": "https://iroboteducation.github.io/create3_docs/hw/overview/"
+  }
+ ],
+ "specs": [
+  {
+   "group": "Identity",
+   "key": "variants",
+   "label": "Variants",
+   "value": "TurtleBot 4 (this file; OAK-D-Pro, UI board); TurtleBot 4 Lite (OAK-D-Lite, barebones)",
+   "unit": "",
+   "note": "",
+   "source": "https://turtlebot.github.io/turtlebot4-user-manual/overview/features.html"
+  },
+  {
+   "group": "Identity",
+   "key": "base_platform",
+   "label": "Base platform",
+   "value": "iRobot Create 3",
+   "unit": "",
+   "note": "",
+   "source": "https://turtlebot.github.io/turtlebot4-user-manual/overview/features.html"
+  },
+  {
+   "group": "Identity",
+   "key": "software_version",
+   "label": "Manual version",
+   "value": "TurtleBot 4 User Manual v2.0.1",
+   "unit": "",
+   "note": "",
+   "source": "https://turtlebot.github.io/turtlebot4-user-manual/overview/features.html"
+  },
+  {
+   "group": "Dimensions & Mass",
+   "key": "length",
+   "label": "Length",
+   "value": 342,
+   "unit": "mm",
+   "note": "",
+   "source": "https://turtlebot.github.io/turtlebot4-user-manual/overview/features.html",
+   "ref": "Hardware Specifications"
+  },
+  {
+   "group": "Dimensions & Mass",
+   "key": "width",
+   "label": "Width",
+   "value": 339,
+   "unit": "mm",
+   "note": "",
+   "source": "https://turtlebot.github.io/turtlebot4-user-manual/overview/features.html"
+  },
+  {
+   "group": "Dimensions & Mass",
+   "key": "height",
+   "label": "Height",
+   "value": 351,
+   "unit": "mm",
+   "note": "TurtleBot 4 Lite 192 mm",
+   "source": "https://turtlebot.github.io/turtlebot4-user-manual/overview/features.html"
+  },
+  {
+   "group": "Dimensions & Mass",
+   "key": "weight",
+   "label": "Weight",
+   "value": 3945,
+   "unit": "g",
+   "note": "TurtleBot 4 Lite 3270 g",
+   "source": "https://turtlebot.github.io/turtlebot4-user-manual/overview/features.html"
+  },
+  {
+   "group": "Dimensions & Mass",
+   "key": "wheel_diameter",
+   "label": "Wheel diameter",
+   "value": 72,
+   "unit": "mm",
+   "note": "",
+   "source": "https://turtlebot.github.io/turtlebot4-user-manual/overview/features.html"
+  },
+  {
+   "group": "Dimensions & Mass",
+   "key": "ground_clearance",
+   "label": "Ground clearance",
+   "value": 4.5,
+   "unit": "mm",
+   "note": "",
+   "source": "https://turtlebot.github.io/turtlebot4-user-manual/overview/features.html"
+  },
+  {
+   "group": "Mobility & Performance",
+   "key": "max_speed",
+   "label": "Max linear velocity",
+   "value": 0.46,
+   "unit": "m/s",
+   "note": "without safe mode",
+   "source": "https://turtlebot.github.io/turtlebot4-user-manual/overview/features.html"
+  },
+  {
+   "group": "Mobility & Performance",
+   "key": "max_speed",
+   "label": "Max linear velocity (safe mode)",
+   "value": 0.31,
+   "unit": "m/s",
+   "note": "",
+   "source": "https://turtlebot.github.io/turtlebot4-user-manual/overview/features.html"
+  },
+  {
+   "group": "Mobility & Performance",
+   "key": "max_yaw_rate",
+   "label": "Max angular velocity",
+   "value": 1.9,
+   "unit": "rad/s",
+   "note": "",
+   "source": "https://turtlebot.github.io/turtlebot4-user-manual/overview/features.html"
+  },
+  {
+   "group": "Mobility & Performance",
+   "key": "max_payload",
+   "label": "Max payload",
+   "value": 9,
+   "unit": "kg",
+   "note": "",
+   "source": "https://turtlebot.github.io/turtlebot4-user-manual/overview/features.html"
+  },
+  {
+   "group": "Mobility & Performance",
+   "key": "drive_train",
+   "label": "Drive",
+   "value": "Two wheels with current sensors and encoders + front caster (differential)",
+   "unit": "",
+   "note": "",
+   "source": "https://iroboteducation.github.io/create3_docs/hw/overview/"
+  },
+  {
+   "group": "Power & Battery",
+   "key": "battery_chemistry",
+   "label": "Battery chemistry",
+   "value": "Lithium ion",
+   "unit": "",
+   "note": "",
+   "source": "https://turtlebot.github.io/turtlebot4-user-manual/overview/features.html"
+  },
+  {
+   "group": "Power & Battery",
+   "key": "battery_capacity",
+   "label": "Battery capacity",
+   "value": 26,
+   "unit": "Wh",
+   "note": "",
+   "source": "https://turtlebot.github.io/turtlebot4-user-manual/overview/features.html"
+  },
+  {
+   "group": "Power & Battery",
+   "key": "battery_voltage",
+   "label": "Battery nominal voltage",
+   "value": 14.4,
+   "unit": "V",
+   "note": "",
+   "source": "https://turtlebot.github.io/turtlebot4-user-manual/overview/features.html"
+  },
+  {
+   "group": "Power & Battery",
+   "key": "runtime",
+   "label": "Operation time",
+   "value": "2.5 - 4",
+   "unit": "h",
+   "note": "depending on load",
+   "source": "https://turtlebot.github.io/turtlebot4-user-manual/overview/features.html"
+  },
+  {
+   "group": "Power & Battery",
+   "key": "power_budget",
+   "label": "Available accessory power",
+   "value": 28.8,
+   "unit": "W",
+   "note": "Create 3 power adapter total (RPi USB-C + VBAT aux)",
+   "source": "https://turtlebot.github.io/turtlebot4-user-manual/electrical/power_budget.html"
+  },
+  {
+   "group": "Power & Battery",
+   "key": "nominal_power_draw",
+   "label": "Nominal power draw",
+   "value": 15,
+   "unit": "W",
+   "note": "TurtleBot 4 total (13.8 W remaining)",
+   "source": "https://turtlebot.github.io/turtlebot4-user-manual/electrical/power_budget.html"
+  },
+  {
+   "group": "Power & Battery",
+   "key": "min_recommended_soc",
+   "label": "Min recommended state of charge",
+   "value": 20,
+   "unit": "%",
+   "note": "VBAT declines sharply below 20%",
+   "source": "https://turtlebot.github.io/turtlebot4-user-manual/electrical/create3.html"
+  },
+  {
+   "group": "Charging & Docking",
+   "key": "charge_time",
+   "label": "Charging time",
+   "value": 2.5,
+   "unit": "h",
+   "note": "",
+   "source": "https://turtlebot.github.io/turtlebot4-user-manual/overview/features.html"
+  },
+  {
+   "group": "Charging & Docking",
+   "key": "dock_available",
+   "label": "Charging dock",
+   "value": "Included (iRobot Home Base charging station)",
+   "unit": "",
+   "note": "",
+   "source": "https://turtlebot.github.io/turtlebot4-user-manual/overview/features.html"
+  },
+  {
+   "group": "Charging & Docking",
+   "key": "charging_method",
+   "label": "Charging method",
+   "value": "Autonomous docking via charging contacts on underside",
+   "unit": "",
+   "note": "",
+   "source": "https://iroboteducation.github.io/create3_docs/hw/overview/"
+  },
+  {
+   "group": "Sensors & Perception",
+   "key": "lidar_model",
+   "label": "LiDAR",
+   "value": "RPLIDAR A1M8 360° 2D laser scanner",
+   "unit": "",
+   "note": "",
+   "source": "https://turtlebot.github.io/turtlebot4-user-manual/overview/features.html",
+   "ref": "Sensors"
+  },
+  {
+   "group": "Sensors & Perception",
+   "key": "lidar_range",
+   "label": "LiDAR range",
+   "value": 12,
+   "unit": "m",
+   "note": "",
+   "source": "https://turtlebot.github.io/turtlebot4-user-manual/overview/features.html",
+   "ref": "Sensors"
+  },
+  {
+   "group": "Sensors & Perception",
+   "key": "lidar_fov",
+   "label": "LiDAR FOV",
+   "value": 360,
+   "unit": "°",
+   "note": "",
+   "source": "https://turtlebot.github.io/turtlebot4-user-manual/overview/features.html"
+  },
+  {
+   "group": "Sensors & Perception",
+   "key": "depth_camera_model",
+   "label": "Camera",
+   "value": "Luxonis OAK-D-Pro (4K IMX214 colour + OV9282 stereo, IR dot projector and IR illumination LED, Myriad X VPU)",
+   "unit": "",
+   "note": "",
+   "source": "https://turtlebot.github.io/turtlebot4-user-manual/overview/features.html",
+   "ref": "Sensors"
+  },
+  {
+   "group": "Sensors & Perception",
+   "key": "camera_resolution",
+   "label": "Colour sensor",
+   "value": "4K IMX214",
+   "unit": "",
+   "note": "",
+   "source": "https://turtlebot.github.io/turtlebot4-user-manual/overview/features.html",
+   "ref": "Sensors"
+  },
+  {
+   "group": "Sensors & Perception",
+   "key": "ai_accelerator",
+   "label": "On-camera AI processor",
+   "value": "Intel Myriad X VPU (OAK-D)",
+   "unit": "",
+   "note": "",
+   "source": "https://turtlebot.github.io/turtlebot4-user-manual/overview/features.html",
+   "ref": "Sensors"
+  },
+  {
+   "group": "Sensors & Perception",
+   "key": "bumper",
+   "label": "Bumper",
+   "value": "Multizone front bumper with 7 pairs of IR proximity sensors",
+   "unit": "",
+   "note": "",
+   "source": "https://iroboteducation.github.io/create3_docs/hw/overview/"
+  },
+  {
+   "group": "Sensors & Perception",
+   "key": "cliff_sensors",
+   "label": "Cliff sensors",
+   "value": 4,
+   "unit": "",
+   "note": "",
+   "source": "https://iroboteducation.github.io/create3_docs/hw/overview/"
+  },
+  {
+   "group": "Sensors & Perception",
+   "key": "imu",
+   "label": "IMU",
+   "value": "Yes (fused with optical odometry and wheel encoders)",
+   "unit": "",
+   "note": "",
+   "source": "https://iroboteducation.github.io/create3_docs/hw/overview/"
+  },
+  {
+   "group": "Sensors & Perception",
+   "key": "optical_odometry",
+   "label": "Optical floor odometry sensor",
+   "value": true,
+   "unit": "",
+   "note": "",
+   "source": "https://iroboteducation.github.io/create3_docs/hw/overview/"
+  },
+  {
+   "group": "Sensors & Perception",
+   "key": "wheel_encoders",
+   "label": "Wheel encoders / current sensors",
+   "value": true,
+   "unit": "",
+   "note": "",
+   "source": "https://iroboteducation.github.io/create3_docs/hw/overview/"
+  },
+  {
+   "group": "Compute & Software",
+   "key": "cpu",
+   "label": "On-board computer",
+   "value": "Raspberry Pi 4B 4GB",
+   "unit": "",
+   "note": "",
+   "source": "https://turtlebot.github.io/turtlebot4-user-manual/overview/features.html"
+  },
+  {
+   "group": "Compute & Software",
+   "key": "ram",
+   "label": "RAM",
+   "value": 4,
+   "unit": "GB",
+   "note": "",
+   "source": "https://turtlebot.github.io/turtlebot4-user-manual/overview/features.html"
+  },
+  {
+   "group": "Compute & Software",
+   "key": "ros_support",
+   "label": "ROS 2",
+   "value": "ROS 2-based; manual changelogs for Galactic, Humble and Jazzy",
+   "unit": "",
+   "note": "",
+   "source": "https://turtlebot.github.io/turtlebot4-user-manual/overview/features.html"
+  },
+  {
+   "group": "Compute & Software",
+   "key": "simulation_support",
+   "label": "Simulation",
+   "value": "TurtleBot 4 Simulator (Gazebo), RViz2",
+   "unit": "",
+   "note": "",
+   "source": "https://turtlebot.github.io/turtlebot4-user-manual/overview/features.html"
+  },
+  {
+   "group": "Connectivity & Interfaces",
+   "key": "usb_ports",
+   "label": "USB expansion",
+   "value": "USB 3.0 Type-C ×4 (UI board), USB 3.0 Type-A ×1, USB 2.0 Type-A ×2",
+   "unit": "",
+   "note": "",
+   "source": "https://turtlebot.github.io/turtlebot4-user-manual/overview/features.html"
+  },
+  {
+   "group": "Connectivity & Interfaces",
+   "key": "rpi_link",
+   "label": "Create 3 to Raspberry Pi link",
+   "value": "USB 2.0 Type-C, up to 3 A at 5 V",
+   "unit": "",
+   "note": "",
+   "source": "https://turtlebot.github.io/turtlebot4-user-manual/electrical/create3.html"
+  },
+  {
+   "group": "Connectivity & Interfaces",
+   "key": "bluetooth",
+   "label": "Bluetooth",
+   "value": "Create 3 adapter board supports Bluetooth; TurtleBot 4 controller (Bluetooth) included",
+   "unit": "",
+   "note": "",
+   "source": "https://iroboteducation.github.io/create3_docs/hw/overview/"
+  },
+  {
+   "group": "Connectivity & Interfaces",
+   "key": "gpio",
+   "label": "GPIO",
+   "value": "40-pin Raspberry Pi header passed through to UI board",
+   "unit": "",
+   "note": "",
+   "source": "https://turtlebot.github.io/turtlebot4-user-manual/electrical/rpi4.html"
+  },
+  {
+   "group": "Payload & Mounting",
+   "key": "payload_port_power",
+   "label": "User power",
+   "value": "VBAT @ 300 mA; 12 V @ 300 mA; 5 V @ 500 mA; 3.3 V @ 250 mA",
+   "unit": "",
+   "note": "",
+   "source": "https://turtlebot.github.io/turtlebot4-user-manual/overview/features.html"
+  },
+  {
+   "group": "Payload & Mounting",
+   "key": "payload_port_power",
+   "label": "Create 3 VBAT connector",
+   "value": "JST XH J7, PTC fuse 2 A",
+   "unit": "",
+   "note": "",
+   "source": "https://turtlebot.github.io/turtlebot4-user-manual/electrical/create3.html"
+  },
+  {
+   "group": "Payload & Mounting",
+   "key": "top_module_interface",
+   "label": "Top integration plate",
+   "value": "HDPE plate, 4 × M4x0.7 round-head screws (2.5 mm hex), torque 25 N·cm; sensor tower and standoffs",
+   "unit": "",
+   "note": "",
+   "source": "https://turtlebot.github.io/turtlebot4-user-manual/mechanical/turtlebot4.html"
+  },
+  {
+   "group": "Payload & Mounting",
+   "key": "mounting_pattern",
+   "label": "Create 3 mounting",
+   "value": "Faceplate and cargo bay with regular hole pattern; two cable passthroughs",
+   "unit": "",
+   "note": "",
+   "source": "https://iroboteducation.github.io/create3_docs/hw/overview/"
+  },
+  {
+   "group": "Audio, Lights & HMI",
+   "key": "display",
+   "label": "Display",
+   "value": "128x64 user display (OLED)",
+   "unit": "",
+   "note": "",
+   "source": "https://turtlebot.github.io/turtlebot4-user-manual/overview/features.html"
+  },
+  {
+   "group": "Audio, Lights & HMI",
+   "key": "status_lights",
+   "label": "LEDs",
+   "value": "Create 3 light ring (6 RGB); 2 user LEDs; status LEDs (power, motors, Wi-Fi, comms, battery)",
+   "unit": "",
+   "note": "",
+   "source": "https://turtlebot.github.io/turtlebot4-user-manual/overview/features.html"
+  },
+  {
+   "group": "Audio, Lights & HMI",
+   "key": "buttons",
+   "label": "Buttons",
+   "value": "Create 3 user buttons ×2 + power button; 4 user buttons on UI board",
+   "unit": "",
+   "note": "",
+   "source": "https://turtlebot.github.io/turtlebot4-user-manual/overview/features.html"
+  },
+  {
+   "group": "Controls & Operation",
+   "key": "controller",
+   "label": "Controller",
+   "value": "TurtleBot 4 Bluetooth controller included (not with Lite)",
+   "unit": "",
+   "note": "",
+   "source": "https://turtlebot.github.io/turtlebot4-user-manual/overview/features.html"
+  },
+  {
+   "group": "Commercial",
+   "key": "included_accessories",
+   "label": "Included",
+   "value": "Charging dock, TurtleBot 4 controller",
+   "unit": "",
+   "note": "",
+   "source": "https://turtlebot.github.io/turtlebot4-user-manual/overview/features.html"
+  }
+ ]
+}

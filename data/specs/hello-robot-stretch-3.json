@@ -1,0 +1,593 @@
+{
+ "id": "hello-robot-stretch-3",
+ "checked": "2026-11-04",
+ "documents": [
+  {
+   "title": "Stretch 3 Hardware Guide (hello-robot/stretch_hardware_guides)",
+   "url": "https://github.com/hello-robot/stretch_hardware_guides/blob/master/docs/hardware_guide_stretch_3.md"
+  },
+  {
+   "title": "Stretch 3 product page",
+   "url": "https://hello-stretch3.com/stretch-3-product"
+  }
+ ],
+ "specs": [
+  {
+   "group": "Dimensions & Mass",
+   "key": "footprint",
+   "label": "Footprint",
+   "value": "33 x 34",
+   "unit": "cm",
+   "note": "",
+   "source": "https://hello-stretch3.com/stretch-3-product"
+  },
+  {
+   "group": "Dimensions & Mass",
+   "key": "length",
+   "label": "Size (W x D x H)",
+   "value": "33 x 34 x 141",
+   "unit": "cm",
+   "note": "",
+   "source": "https://hello-stretch3.com/stretch-3-product",
+   "ref": "product page"
+  },
+  {
+   "group": "Dimensions & Mass",
+   "key": "height",
+   "label": "Height",
+   "value": 141,
+   "unit": "cm",
+   "note": "",
+   "source": "https://hello-stretch3.com/stretch-3-product",
+   "ref": "product page"
+  },
+  {
+   "group": "Dimensions & Mass",
+   "key": "weight",
+   "label": "Weight",
+   "value": 24.5,
+   "unit": "kg",
+   "note": "",
+   "source": "https://hello-stretch3.com/stretch-3-product",
+   "ref": "product page"
+  },
+  {
+   "group": "Dimensions & Mass",
+   "key": "wheel_diameter",
+   "label": "Drive wheel diameter",
+   "value": 4,
+   "unit": "in",
+   "note": "urethane rubber, shore 60A",
+   "source": "https://github.com/hello-robot/stretch_hardware_guides/blob/master/docs/hardware_guide_stretch_3.md",
+   "ref": "Base"
+  },
+  {
+   "group": "Dimensions & Mass",
+   "key": "caster_diameter",
+   "label": "Omni wheel (caster) diameter",
+   "value": 50,
+   "unit": "mm",
+   "note": "passive omniwheel",
+   "source": "https://github.com/hello-robot/stretch_hardware_guides/blob/master/docs/hardware_guide_stretch_3.md",
+   "ref": "Base"
+  },
+  {
+   "group": "Mobility & Performance",
+   "key": "max_payload",
+   "label": "Payload (including gripper)",
+   "value": 2,
+   "unit": "kg",
+   "note": "",
+   "source": "https://hello-stretch3.com/stretch-3-product",
+   "ref": "product page"
+  },
+  {
+   "group": "Mobility & Performance",
+   "key": "degrees_of_freedom",
+   "label": "Manipulator DoF",
+   "value": 7,
+   "unit": "",
+   "note": "2 DoF base, 1 lift, 1 telescoping arm, 3 wrist",
+   "source": "https://hello-stretch3.com/stretch-3-product"
+  },
+  {
+   "group": "Mobility & Performance",
+   "key": "drive_train",
+   "label": "Base drive",
+   "value": "Two-wheel differential drive with passive omniwheel caster",
+   "unit": "",
+   "note": "",
+   "source": "https://github.com/hello-robot/stretch_hardware_guides/blob/master/docs/hardware_guide_stretch_3.md",
+   "ref": "Base"
+  },
+  {
+   "group": "Actuation & Joints",
+   "key": "joint_count",
+   "label": "Other DoF",
+   "value": "1 DoF gripper; 2 DoF head (pan/tilt)",
+   "unit": "",
+   "note": "",
+   "source": "https://hello-stretch3.com/stretch-3-product"
+  },
+  {
+   "group": "Manipulation",
+   "key": "arm_reach",
+   "label": "Arm reach",
+   "value": 0.52,
+   "unit": "m",
+   "note": "telescoping arm, 5 aluminum links on rollers",
+   "source": "https://github.com/hello-robot/stretch_hardware_guides/blob/master/docs/hardware_guide_stretch_3.md",
+   "ref": "Arm"
+  },
+  {
+   "group": "Manipulation",
+   "key": "arm_payload",
+   "label": "Recommended max arm payload",
+   "value": 2,
+   "unit": "kg",
+   "note": "",
+   "source": "https://github.com/hello-robot/stretch_hardware_guides/blob/master/docs/hardware_guide_stretch_3.md",
+   "ref": "Arm"
+  },
+  {
+   "group": "Manipulation",
+   "key": "arm_type",
+   "label": "Manipulator type",
+   "value": "Cartesian: prismatic vertical lift + telescoping horizontal arm; stop-on-contact guarded behavior",
+   "unit": "",
+   "note": "",
+   "source": "https://hello-stretch3.com/stretch-3-product"
+  },
+  {
+   "group": "Manipulation",
+   "key": "lift_drive",
+   "label": "Lift drive",
+   "value": "Closed-loop stepper motor, low gear-ratio belt drive; lift brake (Stretch 3)",
+   "unit": "",
+   "note": "arm descends fully in ~2 min after power off",
+   "source": "https://github.com/hello-robot/stretch_hardware_guides/blob/master/docs/hardware_guide_stretch_3.md",
+   "ref": "Lift"
+  },
+  {
+   "group": "Manipulation",
+   "key": "arm_drive",
+   "label": "Arm drive",
+   "value": "Stepper motor, closed-loop control with current sensing (contact sensitivity)",
+   "unit": "",
+   "note": "",
+   "source": "https://github.com/hello-robot/stretch_hardware_guides/blob/master/docs/hardware_guide_stretch_3.md",
+   "ref": "Arm"
+  },
+  {
+   "group": "Manipulation",
+   "key": "wrist_dof",
+   "label": "Wrist DoF",
+   "value": "3 (yaw, pitch, roll) — DexWrist 3",
+   "unit": "",
+   "note": "",
+   "source": "https://github.com/hello-robot/stretch_hardware_guides/blob/master/docs/hardware_guide_stretch_3.md",
+   "ref": "Dexterous Wrist"
+  },
+  {
+   "group": "Manipulation",
+   "key": "wrist_yaw_range",
+   "label": "Wrist yaw range",
+   "value": "+256 / -76",
+   "unit": "°",
+   "note": "Dynamixel XC430-W240-T",
+   "source": "https://github.com/hello-robot/stretch_hardware_guides/blob/master/docs/hardware_guide_stretch_3.md",
+   "ref": "Wrist Yaw"
+  },
+  {
+   "group": "Manipulation",
+   "key": "wrist_pitch_range",
+   "label": "Wrist pitch range",
+   "value": "+20 / -90",
+   "unit": "°",
+   "note": "Dynamixel XM540-W270-T",
+   "source": "https://github.com/hello-robot/stretch_hardware_guides/blob/master/docs/hardware_guide_stretch_3.md",
+   "ref": "Wrist Pitch"
+  },
+  {
+   "group": "Manipulation",
+   "key": "wrist_roll_range",
+   "label": "Wrist roll range",
+   "value": "+172.5 / -172.5",
+   "unit": "°",
+   "note": "Dynamixel XM430-W350-T",
+   "source": "https://github.com/hello-robot/stretch_hardware_guides/blob/master/docs/hardware_guide_stretch_3.md",
+   "ref": "Wrist Roll"
+  },
+  {
+   "group": "Manipulation",
+   "key": "gripper_type",
+   "label": "Gripper",
+   "value": "Stretch Compliant Gripper (spring grasper), Dynamixel XL430-W250-T; power and pinch grasp; fingertip ArUco tags",
+   "unit": "",
+   "note": "",
+   "source": "https://github.com/hello-robot/stretch_hardware_guides/blob/master/docs/hardware_guide_stretch_3.md",
+   "ref": "Gripper"
+  },
+  {
+   "group": "Manipulation",
+   "key": "gripper_weight",
+   "label": "Gripper weight",
+   "value": 240,
+   "unit": "g",
+   "note": "",
+   "source": "https://github.com/hello-robot/stretch_hardware_guides/blob/master/docs/hardware_guide_stretch_3.md",
+   "ref": "Gripper"
+  },
+  {
+   "group": "Manipulation",
+   "key": "tool_interface",
+   "label": "Tool interface",
+   "value": "Push-button quick-disconnect tool interface",
+   "unit": "",
+   "note": "",
+   "source": "https://github.com/hello-robot/stretch_hardware_guides/blob/master/docs/hardware_guide_stretch_3.md"
+  },
+  {
+   "group": "Actuation & Joints",
+   "key": "head_pan_range",
+   "label": "Head pan range",
+   "value": "346 (-234 to 112)",
+   "unit": "°",
+   "note": "",
+   "source": "https://github.com/hello-robot/stretch_hardware_guides/blob/master/docs/hardware_guide_stretch_3.md",
+   "ref": "Pan Tilt"
+  },
+  {
+   "group": "Actuation & Joints",
+   "key": "head_tilt_range",
+   "label": "Head tilt range",
+   "value": "115 (-25 to 90)",
+   "unit": "°",
+   "note": "",
+   "source": "https://github.com/hello-robot/stretch_hardware_guides/blob/master/docs/hardware_guide_stretch_3.md",
+   "ref": "Pan Tilt"
+  },
+  {
+   "group": "Actuation & Joints",
+   "key": "actuator_type",
+   "label": "Head actuators",
+   "value": "Dynamixel XL430-W250-T + XC430-W240-T",
+   "unit": "",
+   "note": "",
+   "source": "https://github.com/hello-robot/stretch_hardware_guides/blob/master/docs/hardware_guide_stretch_3.md",
+   "ref": "Pan Tilt"
+  },
+  {
+   "group": "Power & Battery",
+   "key": "runtime",
+   "label": "Runtime",
+   "value": "2 - 5",
+   "unit": "h",
+   "note": "5 h light CPU; 2 h high CPU",
+   "source": "https://hello-stretch3.com/stretch-3-product"
+  },
+  {
+   "group": "Charging & Docking",
+   "key": "charger_input",
+   "label": "Charge port rating",
+   "value": "12 V / 7 A charger",
+   "unit": "",
+   "note": "",
+   "source": "https://github.com/hello-robot/stretch_hardware_guides/blob/master/docs/hardware_guide_stretch_3.md",
+   "ref": "Trunk"
+  },
+  {
+   "group": "Charging & Docking",
+   "key": "dock_available",
+   "label": "Charging dock",
+   "value": "Optional charging dock; docking charge port on base",
+   "unit": "",
+   "note": "",
+   "source": "https://hello-stretch3.com/stretch-3-product"
+  },
+  {
+   "group": "Sensors & Perception",
+   "key": "depth_camera_model",
+   "label": "Head depth camera",
+   "value": "Intel RealSense D435if (pan-tilt)",
+   "unit": "",
+   "note": "",
+   "source": "https://github.com/hello-robot/stretch_hardware_guides/blob/master/docs/hardware_guide_stretch_3.md",
+   "ref": "Head"
+  },
+  {
+   "group": "Sensors & Perception",
+   "key": "camera_type",
+   "label": "Head wide-angle RGB camera",
+   "value": "Arducam B0385 + LK001",
+   "unit": "",
+   "note": "",
+   "source": "https://github.com/hello-robot/stretch_hardware_guides/blob/master/docs/hardware_guide_stretch_3.md",
+   "ref": "Head"
+  },
+  {
+   "group": "Sensors & Perception",
+   "key": "depth_camera_model",
+   "label": "Gripper depth camera",
+   "value": "Intel RealSense D405",
+   "unit": "",
+   "note": "",
+   "source": "https://github.com/hello-robot/stretch_hardware_guides/blob/master/docs/hardware_guide_stretch_3.md",
+   "ref": "Gripper"
+  },
+  {
+   "group": "Sensors & Perception",
+   "key": "lidar_model",
+   "label": "LiDAR",
+   "value": "RP-Lidar A1 laser range finder (navigation)",
+   "unit": "",
+   "note": "",
+   "source": "https://hello-stretch3.com/stretch-3-product"
+  },
+  {
+   "group": "Sensors & Perception",
+   "key": "microphones",
+   "label": "Microphone array",
+   "value": "ReSpeaker Mic Array v2.0, 4 MEMS mics on 64.61 mm circle, 12 RGB LED ring",
+   "unit": "",
+   "note": "",
+   "source": "https://github.com/hello-robot/stretch_hardware_guides/blob/master/docs/hardware_guide_stretch_3.md",
+   "ref": "Head"
+  },
+  {
+   "group": "Sensors & Perception",
+   "key": "imu",
+   "label": "Base IMU",
+   "value": "9-DoF BNO085",
+   "unit": "",
+   "note": "",
+   "source": "https://github.com/hello-robot/stretch_hardware_guides/blob/master/docs/hardware_guide_stretch_3.md",
+   "ref": "Base IMU"
+  },
+  {
+   "group": "Sensors & Perception",
+   "key": "cliff_sensors",
+   "label": "Cliff sensors",
+   "value": "4 × Sharp GP2Y0A51SK0F, analog, range 2-15 cm",
+   "unit": "",
+   "note": "",
+   "source": "https://github.com/hello-robot/stretch_hardware_guides/blob/master/docs/hardware_guide_stretch_3.md",
+   "ref": "Base"
+  },
+  {
+   "group": "Sensors & Perception",
+   "key": "accelerometer",
+   "label": "Wrist accelerometer",
+   "value": "3-axis ADXL343 (bump/tap detection)",
+   "unit": "",
+   "note": "",
+   "source": "https://github.com/hello-robot/stretch_hardware_guides/blob/master/docs/hardware_guide_stretch_3.md",
+   "ref": "Wrist Accelerometer"
+  },
+  {
+   "group": "Compute & Software",
+   "key": "cpu",
+   "label": "On-board computer",
+   "value": "Intel NUC 12",
+   "unit": "",
+   "note": "",
+   "source": "https://hello-stretch3.com/stretch-3-product"
+  },
+  {
+   "group": "Compute & Software",
+   "key": "sdk",
+   "label": "SDK",
+   "value": "Stretch Body Python SDK",
+   "unit": "",
+   "note": "",
+   "source": "https://hello-stretch3.com/stretch-3-product"
+  },
+  {
+   "group": "Compute & Software",
+   "key": "ros_support",
+   "label": "ROS",
+   "value": "ROS 2 (Nav2, Octomap integration)",
+   "unit": "",
+   "note": "",
+   "source": "https://hello-stretch3.com/stretch-3-product"
+  },
+  {
+   "group": "Compute & Software",
+   "key": "offboard_compute",
+   "label": "Off-board GPU",
+   "value": "Remote GPU via Wi-Fi or Ethernet; optional Wi-Fi access point",
+   "unit": "",
+   "note": "",
+   "source": "https://hello-stretch3.com/stretch-3-product"
+  },
+  {
+   "group": "Compute & Software",
+   "key": "wrist_mcu",
+   "label": "Wrist microcontroller",
+   "value": "Atmel SAMD21G18A (Arduino Zero compatible) expansion header, 3V3 TTL (DIO, analog, SPI, I2C, UART)",
+   "unit": "",
+   "note": "",
+   "source": "https://github.com/hello-robot/stretch_hardware_guides/blob/master/docs/hardware_guide_stretch_3.md",
+   "ref": "Wrist Expansion Header"
+  },
+  {
+   "group": "Connectivity & Interfaces",
+   "key": "wifi",
+   "label": "Wi-Fi",
+   "value": "Wi-Fi 6E",
+   "unit": "",
+   "note": "",
+   "source": "https://hello-stretch3.com/stretch-3-product"
+  },
+  {
+   "group": "Connectivity & Interfaces",
+   "key": "bluetooth",
+   "label": "Bluetooth",
+   "value": true,
+   "unit": "",
+   "note": "",
+   "source": "https://hello-stretch3.com/stretch-3-product"
+  },
+  {
+   "group": "Connectivity & Interfaces",
+   "key": "ethernet",
+   "label": "Ethernet",
+   "value": "Trunk Ethernet port to computer NIC",
+   "unit": "",
+   "note": "",
+   "source": "https://github.com/hello-robot/stretch_hardware_guides/blob/master/docs/hardware_guide_stretch_3.md",
+   "ref": "Trunk"
+  },
+  {
+   "group": "Connectivity & Interfaces",
+   "key": "usb_ports",
+   "label": "USB",
+   "value": "Trunk 4-port USB 3.0 hub (powered 5 V); head USB 2.0-A 5 V@500 mA; shoulder USB 2.0-A; wrist USB 2.0-A 5 V@500 mA",
+   "unit": "",
+   "note": "",
+   "source": "https://github.com/hello-robot/stretch_hardware_guides/blob/master/docs/hardware_guide_stretch_3.md"
+  },
+  {
+   "group": "Connectivity & Interfaces",
+   "key": "video_output",
+   "label": "HDMI",
+   "value": "Trunk HDMI to computer",
+   "unit": "",
+   "note": "",
+   "source": "https://github.com/hello-robot/stretch_hardware_guides/blob/master/docs/hardware_guide_stretch_3.md",
+   "ref": "Trunk"
+  },
+  {
+   "group": "Connectivity & Interfaces",
+   "key": "servo_bus",
+   "label": "Servo bus",
+   "value": "Dynamixel X-Series TTL bus at wrist",
+   "unit": "",
+   "note": "",
+   "source": "https://github.com/hello-robot/stretch_hardware_guides/blob/master/docs/hardware_guide_stretch_3.md",
+   "ref": "Dexterous Wrist"
+  },
+  {
+   "group": "Payload & Mounting",
+   "key": "payload_port_power",
+   "label": "Aux 12 V",
+   "value": "Head and shoulder JST XHP-2 12 V@3 A fused; trunk 12 V access plug (unregulated battery voltage); wrist 12 V@500 mA",
+   "unit": "",
+   "note": "",
+   "source": "https://github.com/hello-robot/stretch_hardware_guides/blob/master/docs/hardware_guide_stretch_3.md"
+  },
+  {
+   "group": "Payload & Mounting",
+   "key": "mounting_bolt_size",
+   "label": "Mount points",
+   "value": "Base 6 × M4 inserts (max 7 mm depth); head 3 × M4; shoulder 4 × M4 (max 7 mm)",
+   "unit": "",
+   "note": "",
+   "source": "https://github.com/hello-robot/stretch_hardware_guides/blob/master/docs/hardware_guide_stretch_3.md"
+  },
+  {
+   "group": "Payload & Mounting",
+   "key": "delivery_tray",
+   "label": "Shoulder delivery tray",
+   "value": true,
+   "unit": "",
+   "note": "with 40x40 mm ArUco tag",
+   "source": "https://github.com/hello-robot/stretch_hardware_guides/blob/master/docs/hardware_guide_stretch_3.md",
+   "ref": "Lift"
+  },
+  {
+   "group": "Safety & Compliance",
+   "key": "emergency_stop",
+   "label": "Runstop",
+   "value": "Illuminated runstop button on head (pauses base, lift, arm)",
+   "unit": "",
+   "note": "",
+   "source": "https://github.com/hello-robot/stretch_hardware_guides/blob/master/docs/hardware_guide_stretch_3.md",
+   "ref": "Runstop"
+  },
+  {
+   "group": "Safety & Compliance",
+   "key": "certifications",
+   "label": "Compliance",
+   "value": "FCC Class A compliant (product page); hardware guide: exempt digital device per FCC 47 CFR 15.103(c), not certified as consumer device",
+   "unit": "",
+   "note": "",
+   "source": "https://hello-stretch3.com/stretch-3-product"
+  },
+  {
+   "group": "Safety & Compliance",
+   "key": "intended_use",
+   "label": "Intended use",
+   "value": "Research of mobile manipulation by experienced users; not for general consumer home use",
+   "unit": "",
+   "note": "",
+   "source": "https://github.com/hello-robot/stretch_hardware_guides/blob/master/docs/hardware_guide_stretch_3.md",
+   "ref": "Disclaimer"
+  },
+  {
+   "group": "Controls & Operation",
+   "key": "teleoperation",
+   "label": "Teleoperation",
+   "value": "Gamepad / web browser / dexterous teleop",
+   "unit": "",
+   "note": "",
+   "source": "https://hello-stretch3.com/stretch-3-product"
+  },
+  {
+   "group": "Controls & Operation",
+   "key": "autonomy_features",
+   "label": "Autonomy demos",
+   "value": "Navigation (Nav2), FUNMAP, dynamic grasping, YOLOv8 reference code",
+   "unit": "",
+   "note": "",
+   "source": "https://hello-stretch3.com/stretch-3-product"
+  },
+  {
+   "group": "Audio, Lights & HMI",
+   "key": "speaker",
+   "label": "Speakers",
+   "value": "Head speakers with volume control",
+   "unit": "",
+   "note": "",
+   "source": "https://github.com/hello-robot/stretch_hardware_guides/blob/master/docs/hardware_guide_stretch_3.md",
+   "ref": "Head"
+  },
+  {
+   "group": "Audio, Lights & HMI",
+   "key": "status_lights",
+   "label": "LEDs",
+   "value": "Trunk LED light bar (battery voltage); ReSpeaker 12 RGB LED ring; illuminated power switch",
+   "unit": "",
+   "note": "",
+   "source": "https://github.com/hello-robot/stretch_hardware_guides/blob/master/docs/hardware_guide_stretch_3.md"
+  },
+  {
+   "group": "Transport & Storage",
+   "key": "transport_notes",
+   "label": "Transport",
+   "value": "Roll by mast; two-person lift; original foam/cardboard packaging with head cage for shipping",
+   "unit": "",
+   "note": "",
+   "source": "https://github.com/hello-robot/stretch_hardware_guides/blob/master/docs/hardware_guide_stretch_3.md",
+   "ref": "Transporting the Robot"
+  },
+  {
+   "group": "Commercial",
+   "key": "price",
+   "label": "Price",
+   "value": 24950,
+   "unit": "USD",
+   "note": "list price",
+   "source": "https://hello-stretch3.com/stretch-3-product"
+  },
+  {
+   "group": "Commercial",
+   "key": "included_accessories",
+   "label": "Included",
+   "value": "Gripper, computer, sensors, software",
+   "unit": "",
+   "note": "",
+   "source": "https://hello-stretch3.com/stretch-3-product"
+  }
+ ]
+}

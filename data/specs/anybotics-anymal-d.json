@@ -1,0 +1,1126 @@
+{
+  "id": "anybotics-anymal-d",
+  "checked": "2026-11-04",
+  "documents": [
+    {
+      "title": "ANYmal Technical Specifications, Generation D (V.1, May 2022, ANY-TECR-000082-00)",
+      "url": "https://www.anybotics.com/anymal-technical-specifications.pdf"
+    },
+    {
+      "title": "ANYbotics ANYmal product page",
+      "url": "https://www.anybotics.com/robotics/anymal/"
+    }
+  ],
+  "specs": [
+    {
+      "group": "Identity",
+      "key": "manufacturer",
+      "label": "Manufacturer",
+      "value": "ANYbotics AG",
+      "unit": "",
+      "note": "",
+      "source": "https://www.anybotics.com/anymal-technical-specifications.pdf"
+    },
+    {
+      "group": "Identity",
+      "key": "manufacturer_address",
+      "label": "Manufacturer address",
+      "value": "Hagenholzstrasse 83a, 8050 Zürich, Switzerland",
+      "unit": "",
+      "note": "",
+      "source": "https://www.anybotics.com/anymal-technical-specifications.pdf",
+      "ref": "p.12"
+    },
+    {
+      "group": "Identity",
+      "key": "model_number",
+      "label": "Model",
+      "value": "ANYmal (Generation D)",
+      "unit": "",
+      "note": "",
+      "source": "https://www.anybotics.com/anymal-technical-specifications.pdf",
+      "ref": "p.1"
+    },
+    {
+      "group": "Identity",
+      "key": "document_number",
+      "label": "Data sheet document number",
+      "value": "ANY-TECR-000082-00",
+      "unit": "",
+      "note": "V.1 – May 2022",
+      "source": "https://www.anybotics.com/anymal-technical-specifications.pdf",
+      "ref": "p.12"
+    },
+    {
+      "group": "Identity",
+      "key": "robot_type",
+      "label": "Robot type",
+      "value": "Autonomous legged industrial inspection robot",
+      "unit": "",
+      "note": "",
+      "source": "https://www.anybotics.com/robotics/anymal/"
+    },
+    {
+      "group": "Dimensions & Mass",
+      "key": "length",
+      "label": "Length",
+      "value": 930,
+      "unit": "mm",
+      "note": "",
+      "source": "https://www.anybotics.com/anymal-technical-specifications.pdf",
+      "ref": "p.7"
+    },
+    {
+      "group": "Dimensions & Mass",
+      "key": "width",
+      "label": "Width",
+      "value": 530,
+      "unit": "mm",
+      "note": "default walking",
+      "source": "https://www.anybotics.com/anymal-technical-specifications.pdf",
+      "ref": "p.7"
+    },
+    {
+      "group": "Dimensions & Mass",
+      "key": "height_standing",
+      "label": "Height (standing)",
+      "value": 890,
+      "unit": "mm",
+      "note": "default walking",
+      "source": "https://www.anybotics.com/anymal-technical-specifications.pdf",
+      "ref": "p.7"
+    },
+    {
+      "group": "Dimensions & Mass",
+      "key": "height_sitting",
+      "label": "Height (lying on ground)",
+      "value": 470,
+      "unit": "mm",
+      "note": "lying on ground",
+      "source": "https://www.anybotics.com/anymal-technical-specifications.pdf",
+      "ref": "p.7"
+    },
+    {
+      "group": "Dimensions & Mass",
+      "key": "weight",
+      "label": "Weight",
+      "value": 50,
+      "unit": "kg",
+      "note": "robot without inspection payload",
+      "source": "https://www.anybotics.com/anymal-technical-specifications.pdf",
+      "ref": "p.7"
+    },
+    {
+      "group": "Dimensions & Mass",
+      "key": "weight",
+      "label": "Weight",
+      "value": 55.7,
+      "unit": "kg",
+      "note": "with Inspection Payload",
+      "source": "https://www.anybotics.com/anymal-technical-specifications.pdf",
+      "ref": "p.7"
+    },
+    {
+      "group": "Mobility & Performance",
+      "key": "max_speed",
+      "label": "Maximum walking speed",
+      "value": 1.3,
+      "unit": "m/s",
+      "note": "rough or slippery terrain may reduce walking speed",
+      "source": "https://www.anybotics.com/anymal-technical-specifications.pdf",
+      "ref": "p.7"
+    },
+    {
+      "group": "Mobility & Performance",
+      "key": "nominal_speed",
+      "label": "Recommended walking speed",
+      "value": 0.75,
+      "unit": "m/s",
+      "note": "recommended for safe and efficient operation",
+      "source": "https://www.anybotics.com/anymal-technical-specifications.pdf",
+      "ref": "p.7"
+    },
+    {
+      "group": "Mobility & Performance",
+      "key": "omnidirectional_motion",
+      "label": "Omnidirectional motion",
+      "value": true,
+      "unit": "",
+      "note": "steps sideways and turns in place",
+      "source": "https://www.anybotics.com/anymal-technical-specifications.pdf",
+      "ref": "p.3"
+    },
+    {
+      "group": "Mobility & Performance",
+      "key": "positioning_accuracy",
+      "label": "Positioning accuracy",
+      "value": "centimeter accuracy",
+      "unit": "",
+      "note": "knows its absolute location with centimeter accuracy",
+      "source": "https://www.anybotics.com/anymal-technical-specifications.pdf",
+      "ref": "p.3"
+    },
+    {
+      "group": "Mobility & Performance",
+      "key": "rated_payload",
+      "label": "Payload (nominal)",
+      "value": 10,
+      "unit": "kg",
+      "note": "under nominal conditions",
+      "source": "https://www.anybotics.com/anymal-technical-specifications.pdf",
+      "ref": "p.10"
+    },
+    {
+      "group": "Mobility & Performance",
+      "key": "max_payload",
+      "label": "Maximum payload",
+      "value": 15,
+      "unit": "kg",
+      "note": "with reduced performance, e.g. walking speed and operating time",
+      "source": "https://www.anybotics.com/anymal-technical-specifications.pdf",
+      "ref": "p.10"
+    },
+    {
+      "group": "Terrain & Navigation Limits",
+      "key": "max_step_height",
+      "label": "Step",
+      "value": 250,
+      "unit": "mm",
+      "note": "",
+      "source": "https://www.anybotics.com/anymal-technical-specifications.pdf",
+      "ref": "p.3"
+    },
+    {
+      "group": "Terrain & Navigation Limits",
+      "key": "max_stair_slope",
+      "label": "Maximum stair inclination",
+      "value": 45,
+      "unit": "°",
+      "note": "climbing and descending industrial stairs",
+      "source": "https://www.anybotics.com/anymal-technical-specifications.pdf",
+      "ref": "p.3"
+    },
+    {
+      "group": "Terrain & Navigation Limits",
+      "key": "max_stair_step_height",
+      "label": "Maximum stair rise",
+      "value": 230,
+      "unit": "mm",
+      "note": "",
+      "source": "https://www.anybotics.com/anymal-technical-specifications.pdf",
+      "ref": "p.3"
+    },
+    {
+      "group": "Terrain & Navigation Limits",
+      "key": "min_stair_run",
+      "label": "Minimum stair run",
+      "value": 210,
+      "unit": "mm",
+      "note": "",
+      "source": "https://www.anybotics.com/anymal-technical-specifications.pdf",
+      "ref": "p.3"
+    },
+    {
+      "group": "Terrain & Navigation Limits",
+      "key": "min_stair_width",
+      "label": "Minimum stair width",
+      "value": 800,
+      "unit": "mm",
+      "note": "",
+      "source": "https://www.anybotics.com/anymal-technical-specifications.pdf",
+      "ref": "p.3"
+    },
+    {
+      "group": "Terrain & Navigation Limits",
+      "key": "stair_types",
+      "label": "Stair types",
+      "value": "Open risers; grated steps",
+      "unit": "",
+      "note": "",
+      "source": "https://www.anybotics.com/anymal-technical-specifications.pdf",
+      "ref": "p.3"
+    },
+    {
+      "group": "Terrain & Navigation Limits",
+      "key": "min_corridor_width",
+      "label": "Narrow space",
+      "value": 600,
+      "unit": "mm",
+      "note": "",
+      "source": "https://www.anybotics.com/anymal-technical-specifications.pdf",
+      "ref": "p.3"
+    },
+    {
+      "group": "Terrain & Navigation Limits",
+      "key": "max_slope",
+      "label": "Slope",
+      "value": "±30",
+      "unit": "°",
+      "note": "",
+      "source": "https://www.anybotics.com/anymal-technical-specifications.pdf",
+      "ref": "p.3"
+    },
+    {
+      "group": "Terrain & Navigation Limits",
+      "key": "max_gap_crossing",
+      "label": "Gap",
+      "value": 300,
+      "unit": "mm",
+      "note": "",
+      "source": "https://www.anybotics.com/anymal-technical-specifications.pdf",
+      "ref": "p.3"
+    },
+    {
+      "group": "Terrain & Navigation Limits",
+      "key": "min_ceiling_height",
+      "label": "Suspended (low clearance)",
+      "value": 600,
+      "unit": "mm",
+      "note": "listed as 'Suspended 600 mm' in mobility highlights; product page: 'Crawl in low positions'",
+      "source": "https://www.anybotics.com/anymal-technical-specifications.pdf",
+      "ref": "p.3"
+    },
+    {
+      "group": "Terrain & Navigation Limits",
+      "key": "surface_types",
+      "label": "Surface compatibility",
+      "value": "Metal, concrete, gratings/checkerboards, gravel, dirty, wet and slippery floors",
+      "unit": "",
+      "note": "industrial floor",
+      "source": "https://www.anybotics.com/anymal-technical-specifications.pdf",
+      "ref": "p.7"
+    },
+    {
+      "group": "Terrain & Navigation Limits",
+      "key": "navigation_method",
+      "label": "Navigation",
+      "value": "Autonomous navigation between waypoints along the shortest path; dynamic route planning/re-planning; works without internet connection",
+      "unit": "",
+      "note": "",
+      "source": "https://www.anybotics.com/anymal-technical-specifications.pdf",
+      "ref": "p.4"
+    },
+    {
+      "group": "Terrain & Navigation Limits",
+      "key": "mapping",
+      "label": "Deployment / mapping",
+      "value": "Show & Go (manual guiding through the plant) or import of CAD/BIM models",
+      "unit": "",
+      "note": "",
+      "source": "https://www.anybotics.com/anymal-technical-specifications.pdf",
+      "ref": "p.4"
+    },
+    {
+      "group": "Terrain & Navigation Limits",
+      "key": "localization_method",
+      "label": "Localization",
+      "value": "LiDAR-based localization & mapping",
+      "unit": "",
+      "note": "onboard LiDAR used for mapping, localization and collision avoidance up to 100 m",
+      "source": "https://www.anybotics.com/anymal-technical-specifications.pdf",
+      "ref": "p.7"
+    },
+    {
+      "group": "Power & Battery",
+      "key": "battery_chemistry",
+      "label": "Battery type",
+      "value": "Swappable Li-ion battery",
+      "unit": "",
+      "note": "",
+      "source": "https://www.anybotics.com/anymal-technical-specifications.pdf",
+      "ref": "p.7"
+    },
+    {
+      "group": "Power & Battery",
+      "key": "battery_swappable",
+      "label": "Battery swappable",
+      "value": true,
+      "unit": "",
+      "note": "",
+      "source": "https://www.anybotics.com/anymal-technical-specifications.pdf",
+      "ref": "p.7"
+    },
+    {
+      "group": "Power & Battery",
+      "key": "battery_certification",
+      "label": "Battery certification",
+      "value": "UN 38.3",
+      "unit": "",
+      "note": "",
+      "source": "https://www.anybotics.com/anymal-technical-specifications.pdf",
+      "ref": "p.7"
+    },
+    {
+      "group": "Power & Battery",
+      "key": "battery_capacity",
+      "label": "Battery capacity",
+      "value": 932.4,
+      "unit": "Wh",
+      "note": "",
+      "source": "https://www.anybotics.com/anymal-technical-specifications.pdf",
+      "ref": "p.7"
+    },
+    {
+      "group": "Power & Battery",
+      "key": "runtime",
+      "label": "Running time",
+      "value": "90–120",
+      "unit": "min",
+      "note": "on a full charge",
+      "source": "https://www.anybotics.com/anymal-technical-specifications.pdf",
+      "ref": "p.7"
+    },
+    {
+      "group": "Power & Battery",
+      "key": "range_per_charge",
+      "label": "Range per charge",
+      "value": 4,
+      "unit": "km",
+      "note": "on a full charge",
+      "source": "https://www.anybotics.com/anymal-technical-specifications.pdf",
+      "ref": "p.7"
+    },
+    {
+      "group": "Power & Battery",
+      "key": "range_per_charge",
+      "label": "Range per charge",
+      "value": 2,
+      "unit": "km",
+      "note": "up to 2 km for a typical inspection mission, depending on payload weight and number of inspection points",
+      "source": "https://www.anybotics.com/anymal-technical-specifications.pdf",
+      "ref": "p.7"
+    },
+    {
+      "group": "Power & Battery",
+      "key": "battery_dimensions",
+      "label": "Battery dimensions",
+      "value": "466 × 136 × 78",
+      "unit": "mm",
+      "note": "L/W/H",
+      "source": "https://www.anybotics.com/anymal-technical-specifications.pdf",
+      "ref": "p.7"
+    },
+    {
+      "group": "Power & Battery",
+      "key": "battery_mass",
+      "label": "Battery weight",
+      "value": 5.5,
+      "unit": "kg",
+      "note": "",
+      "source": "https://www.anybotics.com/anymal-technical-specifications.pdf",
+      "ref": "p.7"
+    },
+    {
+      "group": "Charging & Docking",
+      "key": "charge_time",
+      "label": "Recharge time",
+      "value": 3,
+      "unit": "h",
+      "note": "full charge",
+      "source": "https://www.anybotics.com/anymal-technical-specifications.pdf",
+      "ref": "p.7"
+    },
+    {
+      "group": "Charging & Docking",
+      "key": "charge_time",
+      "label": "Recharge time",
+      "value": 100,
+      "unit": "min",
+      "note": "70 % quick charge",
+      "source": "https://www.anybotics.com/anymal-technical-specifications.pdf",
+      "ref": "p.7"
+    },
+    {
+      "group": "Charging & Docking",
+      "key": "charging_method",
+      "label": "Charging methods",
+      "value": "Battery charged in the robot, outside the robot, or automatically with the docking station",
+      "unit": "",
+      "note": "",
+      "source": "https://www.anybotics.com/anymal-technical-specifications.pdf",
+      "ref": "p.8"
+    },
+    {
+      "group": "Charging & Docking",
+      "key": "charger_input",
+      "label": "Charger power supply",
+      "value": "110–240 V / 50–60 Hz",
+      "unit": "",
+      "note": "",
+      "source": "https://www.anybotics.com/anymal-technical-specifications.pdf",
+      "ref": "p.8"
+    },
+    {
+      "group": "Charging & Docking",
+      "key": "charger_ip_rating",
+      "label": "Charger ingress protection",
+      "value": "IP65",
+      "unit": "",
+      "note": "",
+      "source": "https://www.anybotics.com/anymal-technical-specifications.pdf",
+      "ref": "p.8"
+    },
+    {
+      "group": "Charging & Docking",
+      "key": "charger_cable_length",
+      "label": "Charger cable length",
+      "value": 5,
+      "unit": "m",
+      "note": "16.4 ft",
+      "source": "https://www.anybotics.com/anymal-technical-specifications.pdf",
+      "ref": "p.8"
+    },
+    {
+      "group": "Charging & Docking",
+      "key": "charger_dimensions",
+      "label": "Charger dimensions",
+      "value": "145 × 300 × 124",
+      "unit": "mm",
+      "note": "L/W/H",
+      "source": "https://www.anybotics.com/anymal-technical-specifications.pdf",
+      "ref": "p.8"
+    },
+    {
+      "group": "Charging & Docking",
+      "key": "charger_weight",
+      "label": "Charger weight",
+      "value": 3.5,
+      "unit": "kg",
+      "note": "",
+      "source": "https://www.anybotics.com/anymal-technical-specifications.pdf",
+      "ref": "p.8"
+    },
+    {
+      "group": "Charging & Docking",
+      "key": "dock_available",
+      "label": "Docking station",
+      "value": true,
+      "unit": "",
+      "note": "permits the robot to recharge itself after missions; additional docking stations extend mission range",
+      "source": "https://www.anybotics.com/anymal-technical-specifications.pdf",
+      "ref": "p.8"
+    },
+    {
+      "group": "Charging & Docking",
+      "key": "opportunity_charging",
+      "label": "Automatic return to dock",
+      "value": true,
+      "unit": "",
+      "note": "robot navigates to docking station when battery is low and resumes mission after charging",
+      "source": "https://www.anybotics.com/anymal-technical-specifications.pdf",
+      "ref": "p.4"
+    },
+    {
+      "group": "Charging & Docking",
+      "key": "dock_ip_rating",
+      "label": "Docking station ingress protection",
+      "value": "IP65",
+      "unit": "",
+      "note": "",
+      "source": "https://www.anybotics.com/anymal-technical-specifications.pdf",
+      "ref": "p.8"
+    },
+    {
+      "group": "Charging & Docking",
+      "key": "dock_space_requirement",
+      "label": "Docking station required space for charging",
+      "value": "1000 × 800",
+      "unit": "mm",
+      "note": "L/W",
+      "source": "https://www.anybotics.com/anymal-technical-specifications.pdf",
+      "ref": "p.8"
+    },
+    {
+      "group": "Charging & Docking",
+      "key": "dock_dimensions",
+      "label": "Docking station dimensions",
+      "value": "145 × 300 × 124",
+      "unit": "mm",
+      "note": "L/W/H as stated in the datasheet",
+      "source": "https://www.anybotics.com/anymal-technical-specifications.pdf",
+      "ref": "p.8"
+    },
+    {
+      "group": "Charging & Docking",
+      "key": "dock_weight",
+      "label": "Docking station weight",
+      "value": 1.4,
+      "unit": "kg",
+      "note": "",
+      "source": "https://www.anybotics.com/anymal-technical-specifications.pdf",
+      "ref": "p.8"
+    },
+    {
+      "group": "Environment & Protection",
+      "key": "ip_rating",
+      "label": "Ingress protection",
+      "value": "IP67",
+      "unit": "",
+      "note": "fully protected against water and dust; operates in humid and dusty conditions",
+      "source": "https://www.anybotics.com/anymal-technical-specifications.pdf",
+      "ref": "p.7"
+    },
+    {
+      "group": "Environment & Protection",
+      "key": "operating_temperature",
+      "label": "Operating temperature",
+      "value": "0 to 40",
+      "unit": "°C",
+      "note": "specified",
+      "source": "https://www.anybotics.com/anymal-technical-specifications.pdf",
+      "ref": "p.7"
+    },
+    {
+      "group": "Environment & Protection",
+      "key": "operating_temperature",
+      "label": "Operating temperature",
+      "value": "−10 to 50",
+      "unit": "°C",
+      "note": "typical",
+      "source": "https://www.anybotics.com/anymal-technical-specifications.pdf",
+      "ref": "p.7"
+    },
+    {
+      "group": "Environment & Protection",
+      "key": "lighting_requirements",
+      "label": "Lighting requirements",
+      "value": "No light required for autonomous operation and inspection; low light (min. 20 lux) needed for automatic docking and tele-operation",
+      "unit": "",
+      "note": "day & night",
+      "source": "https://www.anybotics.com/anymal-technical-specifications.pdf",
+      "ref": "p.7"
+    },
+    {
+      "group": "Sensors & Perception",
+      "key": "lidar_type",
+      "label": "LiDAR",
+      "value": "16-channel 3D LiDAR, 360°",
+      "unit": "",
+      "note": "",
+      "source": "https://www.anybotics.com/anymal-technical-specifications.pdf",
+      "ref": "p.7"
+    },
+    {
+      "group": "Sensors & Perception",
+      "key": "lidar_point_rate",
+      "label": "LiDAR point rate",
+      "value": 300000,
+      "unit": "points/s",
+      "note": "full sweep at 10 Hz",
+      "source": "https://www.anybotics.com/anymal-technical-specifications.pdf",
+      "ref": "p.7"
+    },
+    {
+      "group": "Sensors & Perception",
+      "key": "lidar_range",
+      "label": "LiDAR range",
+      "value": "0.4–100",
+      "unit": "m",
+      "note": "3 cm accuracy (typical)",
+      "source": "https://www.anybotics.com/anymal-technical-specifications.pdf",
+      "ref": "p.7"
+    },
+    {
+      "group": "Sensors & Perception",
+      "key": "lidar_fov",
+      "label": "LiDAR field of view",
+      "value": "360 × 15.0 to −15.0",
+      "unit": "°",
+      "note": "horizontal × vertical",
+      "source": "https://www.anybotics.com/anymal-technical-specifications.pdf",
+      "ref": "p.7"
+    },
+    {
+      "group": "Safety & Compliance",
+      "key": "laser_class",
+      "label": "LiDAR laser class",
+      "value": "Class 1 eye-safe per IEC 60825-1:2007 & 2014, 905 nm",
+      "unit": "",
+      "note": "",
+      "source": "https://www.anybotics.com/anymal-technical-specifications.pdf",
+      "ref": "p.7"
+    },
+    {
+      "group": "Sensors & Perception",
+      "key": "depth_camera_count",
+      "label": "Depth cameras",
+      "value": 6,
+      "unit": "",
+      "note": "",
+      "source": "https://www.anybotics.com/robotics/anymal/"
+    },
+    {
+      "group": "Sensors & Perception",
+      "key": "depth_camera_range",
+      "label": "Depth camera range",
+      "value": "0.3–3",
+      "unit": "m",
+      "note": "",
+      "source": "https://www.anybotics.com/anymal-technical-specifications.pdf",
+      "ref": "p.7"
+    },
+    {
+      "group": "Sensors & Perception",
+      "key": "depth_camera_fov",
+      "label": "Depth camera FOV",
+      "value": "87.3 × 58.1 × 95.3",
+      "unit": "°",
+      "note": "horizontal / vertical / diagonal; Class 1 laser product under EN/IEC 60825-1 Ed. 3 (2014)",
+      "source": "https://www.anybotics.com/anymal-technical-specifications.pdf",
+      "ref": "p.7"
+    },
+    {
+      "group": "Sensors & Perception",
+      "key": "camera_count",
+      "label": "Tele-operation cameras",
+      "value": 2,
+      "unit": "",
+      "note": "optical tele-operation cameras",
+      "source": "https://www.anybotics.com/robotics/anymal/"
+    },
+    {
+      "group": "Sensors & Perception",
+      "key": "camera_resolution",
+      "label": "Tele-operation camera resolution",
+      "value": "1440 × 1080",
+      "unit": "px",
+      "note": "",
+      "source": "https://www.anybotics.com/anymal-technical-specifications.pdf",
+      "ref": "p.7"
+    },
+    {
+      "group": "Sensors & Perception",
+      "key": "camera_fov",
+      "label": "Tele-operation camera FOV",
+      "value": "110 × 76.5 × 117.7",
+      "unit": "°",
+      "note": "horizontal / vertical / diagonal",
+      "source": "https://www.anybotics.com/anymal-technical-specifications.pdf",
+      "ref": "p.7"
+    },
+    {
+      "group": "Sensors & Perception",
+      "key": "zoom_camera_resolution",
+      "label": "Zoom camera resolution",
+      "value": "1920 × 1080 @ 15 FPS (default); 3840 × 2160 @ 30 FPS (maximum)",
+      "unit": "",
+      "note": "inspection payload; datasheet lists 1080 × 1920 px FullHD default, 2160 × 3840 px QFHD/4K max",
+      "source": "https://www.anybotics.com/anymal-technical-specifications.pdf",
+      "ref": "p.6"
+    },
+    {
+      "group": "Sensors & Perception",
+      "key": "zoom_camera_optical_zoom",
+      "label": "Zoom camera optical zoom",
+      "value": "20×",
+      "unit": "",
+      "note": "70.2° to 4.1° horizontal FOV",
+      "source": "https://www.anybotics.com/anymal-technical-specifications.pdf",
+      "ref": "p.6"
+    },
+    {
+      "group": "Sensors & Perception",
+      "key": "thermal_camera",
+      "label": "Thermal camera",
+      "value": "336 × 256 px, 46° horizontal FOV, radiometric",
+      "unit": "",
+      "note": "inspection payload",
+      "source": "https://www.anybotics.com/anymal-technical-specifications.pdf",
+      "ref": "p.6"
+    },
+    {
+      "group": "Sensors & Perception",
+      "key": "thermal_measurement_range",
+      "label": "Thermal measurement range",
+      "value": "−40 to +550",
+      "unit": "°C",
+      "note": "radiometry",
+      "source": "https://www.anybotics.com/anymal-technical-specifications.pdf",
+      "ref": "p.6"
+    },
+    {
+      "group": "Sensors & Perception",
+      "key": "microphones",
+      "label": "Ultrasonic microphone",
+      "value": "0–384 kHz sampling frequency",
+      "unit": "",
+      "note": "inspection payload; audible and ultrasonic frequencies",
+      "source": "https://www.anybotics.com/anymal-technical-specifications.pdf",
+      "ref": "p.6"
+    },
+    {
+      "group": "Payload & Mounting",
+      "key": "pan_tilt_range",
+      "label": "Pan-tilt range of motion",
+      "value": "Pan ±165°, tilt −90°/+180°",
+      "unit": "",
+      "note": "inspection payload",
+      "source": "https://www.anybotics.com/anymal-technical-specifications.pdf",
+      "ref": "p.6"
+    },
+    {
+      "group": "Payload & Mounting",
+      "key": "pan_tilt_speed",
+      "label": "Pan-tilt speed",
+      "value": 340,
+      "unit": "°/s",
+      "note": "",
+      "source": "https://www.anybotics.com/anymal-technical-specifications.pdf",
+      "ref": "p.6"
+    },
+    {
+      "group": "Payload & Mounting",
+      "key": "inspection_payload_dimensions",
+      "label": "Inspection payload dimensions",
+      "value": "229 × 177 × 246",
+      "unit": "mm",
+      "note": "L/W/H",
+      "source": "https://www.anybotics.com/anymal-technical-specifications.pdf",
+      "ref": "p.6"
+    },
+    {
+      "group": "Payload & Mounting",
+      "key": "inspection_payload_weight",
+      "label": "Inspection payload weight",
+      "value": 5.7,
+      "unit": "kg",
+      "note": "",
+      "source": "https://www.anybotics.com/anymal-technical-specifications.pdf",
+      "ref": "p.6"
+    },
+    {
+      "group": "Audio, Lights & HMI",
+      "key": "spotlight_output",
+      "label": "Spotlight",
+      "value": "1895 lm continuous; 3790 lm for short time",
+      "unit": "",
+      "note": "inspection payload",
+      "source": "https://www.anybotics.com/anymal-technical-specifications.pdf",
+      "ref": "p.6"
+    },
+    {
+      "group": "Compute & Software",
+      "key": "cpu",
+      "label": "Computers",
+      "value": "2× 8th Gen Intel Core i7 (6-core)",
+      "unit": "",
+      "note": "",
+      "source": "https://www.anybotics.com/anymal-technical-specifications.pdf",
+      "ref": "p.7"
+    },
+    {
+      "group": "Compute & Software",
+      "key": "ram",
+      "label": "Memory (RAM)",
+      "value": "2× 8",
+      "unit": "GB",
+      "note": "",
+      "source": "https://www.anybotics.com/anymal-technical-specifications.pdf",
+      "ref": "p.7"
+    },
+    {
+      "group": "Compute & Software",
+      "key": "storage",
+      "label": "Hard disks",
+      "value": "2× 240 GB SSD",
+      "unit": "",
+      "note": "",
+      "source": "https://www.anybotics.com/anymal-technical-specifications.pdf",
+      "ref": "p.7"
+    },
+    {
+      "group": "Compute & Software",
+      "key": "operating_system",
+      "label": "Operating system",
+      "value": "Ubuntu 20.04",
+      "unit": "",
+      "note": "",
+      "source": "https://www.anybotics.com/anymal-technical-specifications.pdf",
+      "ref": "p.7"
+    },
+    {
+      "group": "Compute & Software",
+      "key": "api",
+      "label": "API",
+      "value": "gRPC-based ANYmal API (server); on-robot API based on ROS with C++ plugins for inspection modules",
+      "unit": "",
+      "note": "",
+      "source": "https://www.anybotics.com/anymal-technical-specifications.pdf",
+      "ref": "p.10"
+    },
+    {
+      "group": "Compute & Software",
+      "key": "ros_support",
+      "label": "ROS support",
+      "value": true,
+      "unit": "",
+      "note": "on-robot API based on open-source ROS",
+      "source": "https://www.anybotics.com/anymal-technical-specifications.pdf",
+      "ref": "p.10"
+    },
+    {
+      "group": "Compute & Software",
+      "key": "fleet_software",
+      "label": "Server software",
+      "value": "ANYmal Server (on-premise or cloud): data sync, mission control, API for third-party data portals",
+      "unit": "",
+      "note": "",
+      "source": "https://www.anybotics.com/anymal-technical-specifications.pdf",
+      "ref": "p.8"
+    },
+    {
+      "group": "Compute & Software",
+      "key": "data_security",
+      "label": "Data security",
+      "value": "Enterprise WPA2 Wi-Fi supported; file transfers encrypted by TLS 1.2; live data protected by VPN; authorization via TLS certificates",
+      "unit": "",
+      "note": "",
+      "source": "https://www.anybotics.com/anymal-technical-specifications.pdf",
+      "ref": "p.10"
+    },
+    {
+      "group": "Compute & Software",
+      "key": "report_formats",
+      "label": "Inspection report formats",
+      "value": "PDF or XML",
+      "unit": "",
+      "note": "",
+      "source": "https://www.anybotics.com/anymal-technical-specifications.pdf",
+      "ref": "p.8"
+    },
+    {
+      "group": "Connectivity & Interfaces",
+      "key": "wifi",
+      "label": "Wi-Fi",
+      "value": "Built-in module 2.4 / 5 GHz, 802.11ac wave2; access point or client mode",
+      "unit": "",
+      "note": "",
+      "source": "https://www.anybotics.com/anymal-technical-specifications.pdf",
+      "ref": "p.7"
+    },
+    {
+      "group": "Connectivity & Interfaces",
+      "key": "cellular",
+      "label": "4G LTE",
+      "value": "Add-on module, LTE Cat.12",
+      "unit": "",
+      "note": "",
+      "source": "https://www.anybotics.com/anymal-technical-specifications.pdf",
+      "ref": "p.7"
+    },
+    {
+      "group": "Connectivity & Interfaces",
+      "key": "usb_ports",
+      "label": "USB",
+      "value": "USB link with Type-C connector",
+      "unit": "",
+      "note": "interface on robot platform",
+      "source": "https://www.anybotics.com/anymal-technical-specifications.pdf",
+      "ref": "p.10"
+    },
+    {
+      "group": "Connectivity & Interfaces",
+      "key": "ethernet",
+      "label": "Ethernet",
+      "value": "M12 X-coded Ethernet link to onboard network",
+      "unit": "",
+      "note": "interface on robot platform",
+      "source": "https://www.anybotics.com/anymal-technical-specifications.pdf",
+      "ref": "p.10"
+    },
+    {
+      "group": "Connectivity & Interfaces",
+      "key": "external_ports",
+      "label": "Time sync",
+      "value": "Time sync trigger",
+      "unit": "",
+      "note": "interface on robot platform",
+      "source": "https://www.anybotics.com/anymal-technical-specifications.pdf",
+      "ref": "p.10"
+    },
+    {
+      "group": "Connectivity & Interfaces",
+      "key": "external_ports",
+      "label": "Inspection payload data links",
+      "value": "RS232; RS485",
+      "unit": "",
+      "note": "additional interface on inspection payload",
+      "source": "https://www.anybotics.com/anymal-technical-specifications.pdf",
+      "ref": "p.10"
+    },
+    {
+      "group": "Payload & Mounting",
+      "key": "payload_port_power",
+      "label": "Payload electrical power",
+      "value": "Regulated 12 VDC / 3 A; 2× 12 V / 1 A; unregulated battery voltage (30.4–50.4 VDC) / 3 A",
+      "unit": "",
+      "note": "",
+      "source": "https://www.anybotics.com/anymal-technical-specifications.pdf",
+      "ref": "p.10"
+    },
+    {
+      "group": "Payload & Mounting",
+      "key": "mounting_bolt_size",
+      "label": "Mechanical interface",
+      "value": "12× M4 screw holes",
+      "unit": "",
+      "note": "",
+      "source": "https://www.anybotics.com/anymal-technical-specifications.pdf",
+      "ref": "p.10"
+    },
+    {
+      "group": "Payload & Mounting",
+      "key": "max_attachment_mass",
+      "label": "Payload weight",
+      "value": 10,
+      "unit": "kg",
+      "note": "up to 10 kg under nominal conditions, up to 15 kg with reduced performance",
+      "source": "https://www.anybotics.com/anymal-technical-specifications.pdf",
+      "ref": "p.10"
+    },
+    {
+      "group": "Payload & Mounting",
+      "key": "optional_payloads",
+      "label": "Optional sensors",
+      "value": "Acoustic imager (Sorama) for gas leaks / partial discharge; up to two gas concentration sensors (Honeywell)",
+      "unit": "",
+      "note": "",
+      "source": "https://www.anybotics.com/robotics/anymal/"
+    },
+    {
+      "group": "Safety & Compliance",
+      "key": "emergency_stop",
+      "label": "Emergency stop (robot)",
+      "value": "Push button on the robot disconnects complete power supply; ISO 13849-1:2015 Category 3 PL c",
+      "unit": "",
+      "note": "",
+      "source": "https://www.anybotics.com/anymal-technical-specifications.pdf",
+      "ref": "p.10"
+    },
+    {
+      "group": "Safety & Compliance",
+      "key": "emergency_stop",
+      "label": "Remote control emergency stop",
+      "value": "Push button on remote control disables the actuators; ISO 13849-1:2015 Category 3 PL c",
+      "unit": "",
+      "note": "",
+      "source": "https://www.anybotics.com/anymal-technical-specifications.pdf",
+      "ref": "p.10"
+    },
+    {
+      "group": "Safety & Compliance",
+      "key": "performance_level",
+      "label": "Performance level",
+      "value": "PL c, Category 3 (ISO 13849-1:2015)",
+      "unit": "",
+      "note": "both emergency stop functions",
+      "source": "https://www.anybotics.com/anymal-technical-specifications.pdf",
+      "ref": "p.10"
+    },
+    {
+      "group": "Safety & Compliance",
+      "key": "certifications",
+      "label": "Compliance",
+      "value": "CE marked: Machinery Directive 2006/42/EC, EMC Directive 2014/30/EU, Low Voltage Directive 2014/35/EU, Radio Equipment Directive 2014/53/EU, RoHS 2011/65/EU",
+      "unit": "",
+      "note": "",
+      "source": "https://www.anybotics.com/anymal-technical-specifications.pdf",
+      "ref": "p.10"
+    },
+    {
+      "group": "Safety & Compliance",
+      "key": "certifications",
+      "label": "Compliance marks",
+      "value": "FCC, CE and Anatel compliant",
+      "unit": "",
+      "note": "",
+      "source": "https://www.anybotics.com/robotics/anymal/"
+    },
+    {
+      "group": "Safety & Compliance",
+      "key": "obstacle_avoidance",
+      "label": "Collision avoidance modes",
+      "value": "Stop & Go (stops before obstacles, resumes when cleared); Obstacle Avoidance (reroutes or replans); safe stop near cliffs",
+      "unit": "",
+      "note": "",
+      "source": "https://www.anybotics.com/anymal-technical-specifications.pdf",
+      "ref": "p.4"
+    },
+    {
+      "group": "Safety & Compliance",
+      "key": "protective_stop",
+      "label": "Protective stop",
+      "value": "Protective stop button in Operator GUI",
+      "unit": "",
+      "note": "",
+      "source": "https://www.anybotics.com/anymal-technical-specifications.pdf",
+      "ref": "p.9"
+    },
+    {
+      "group": "Audio, Lights & HMI",
+      "key": "warning_system",
+      "label": "Warning light",
+      "value": "Warning light indicates the need to keep safety distance when robot is in operation",
+      "unit": "",
+      "note": "",
+      "source": "https://www.anybotics.com/robotics/anymal/"
+    },
+    {
+      "group": "Transport & Storage",
+      "key": "carry_handles",
+      "label": "Safety handles",
+      "value": "Safety handles for ergonomic and safe transportation",
+      "unit": "",
+      "note": "",
+      "source": "https://www.anybotics.com/robotics/anymal/"
+    },
+    {
+      "group": "Controls & Operation",
+      "key": "controller",
+      "label": "Remote control",
+      "value": "Ruggedized tablet",
+      "unit": "",
+      "note": "",
+      "source": "https://www.anybotics.com/robotics/anymal/"
+    },
+    {
+      "group": "Controls & Operation",
+      "key": "mission_software",
+      "label": "Operator GUI",
+      "value": "Mission panel, robot status bar, protective stop, 3D visualization, inspection window, sensor panel; Mission Editor with rule-based logic",
+      "unit": "",
+      "note": "",
+      "source": "https://www.anybotics.com/anymal-technical-specifications.pdf",
+      "ref": "p.9"
+    },
+    {
+      "group": "Controls & Operation",
+      "key": "autonomy_features",
+      "label": "Autonomy features",
+      "value": "Full autonomy: mission control & robot behavior, localization & mapping, path planning & motion control, inspection intelligence, autonomous recharging",
+      "unit": "",
+      "note": "",
+      "source": "https://www.anybotics.com/anymal-technical-specifications.pdf",
+      "ref": "p.8"
+    },
+    {
+      "group": "Controls & Operation",
+      "key": "teleoperation",
+      "label": "Tele-operation",
+      "value": true,
+      "unit": "",
+      "note": "via Operator PC GUI over Wi-Fi or LTE",
+      "source": "https://www.anybotics.com/anymal-technical-specifications.pdf",
+      "ref": "p.8"
+    },
+    {
+      "group": "Commercial",
+      "key": "included_accessories",
+      "label": "Included",
+      "value": "Charger, docking station, ruggedized tablet for remote control, transportation box",
+      "unit": "",
+      "note": "\"More than a robot\"",
+      "source": "https://www.anybotics.com/robotics/anymal/"
+    }
+  ]
+}

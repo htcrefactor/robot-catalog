@@ -1,0 +1,681 @@
+{
+  "id": "deep-robotics-x30-pro",
+  "checked": "2026-11-04",
+  "documents": [
+    {
+      "title": "Jueying X30 Pro User Manual V2.0.5-0 (2025-11-29)",
+      "url": "https://cdn.robotshop.com/media/D/DER/RB-Der-02/pdf/deep-robotics-x30-user-manual.pdf"
+    },
+    {
+      "title": "DEEP Robotics developer center – X30 hardware/electrical interfaces",
+      "url": "https://developer.deeprobotics.cn/docs/x30/guide/hardware/interfaces/"
+    },
+    {
+      "title": "DEEP Robotics developer center – X30 network configuration",
+      "url": "https://developer.deeprobotics.cn/docs/x30/guide/software/network/"
+    },
+    {
+      "title": "DEEP Robotics developer center – X30 LiDAR",
+      "url": "https://developer.deeprobotics.cn/docs/x30/guide/hardware/lidar/"
+    },
+    {
+      "title": "DEEP Robotics developer center – X30 communication architecture",
+      "url": "https://developer.deeprobotics.cn/docs/x30/guide/communication/architecture/"
+    },
+    {
+      "title": "DEEP Robotics X30 page (deeprobotics.us, official partner)",
+      "url": "https://www.deeprobotics.us/products/x30/"
+    }
+  ],
+  "specs": [
+    {
+      "group": "Identity",
+      "key": "manufacturer",
+      "label": "Manufacturer",
+      "value": "DEEP Robotics (Hangzhou Yunshenchu Technology Co., Ltd.)",
+      "unit": "",
+      "note": "",
+      "source": "https://cdn.robotshop.com/media/D/DER/RB-Der-02/pdf/deep-robotics-x30-user-manual.pdf"
+    },
+    {
+      "group": "Identity",
+      "key": "manufacturer_address",
+      "label": "Manufacturer address",
+      "value": "Building 3, Zijin Dream Plaza, No.36 Xinran Street, Sandun Town, Xihu District, Hangzhou, Zhejiang, China",
+      "unit": "",
+      "note": "",
+      "source": "https://cdn.robotshop.com/media/D/DER/RB-Der-02/pdf/deep-robotics-x30-user-manual.pdf",
+      "ref": "back cover"
+    },
+    {
+      "group": "Identity",
+      "key": "model_number",
+      "label": "Model",
+      "value": "Jueying X30 Pro",
+      "unit": "",
+      "note": "",
+      "source": "https://cdn.robotshop.com/media/D/DER/RB-Der-02/pdf/deep-robotics-x30-user-manual.pdf"
+    },
+    {
+      "group": "Identity",
+      "key": "software_version",
+      "label": "Manual version",
+      "value": "V2.0.5-0 (2025.11.29)",
+      "unit": "",
+      "note": "",
+      "source": "https://cdn.robotshop.com/media/D/DER/RB-Der-02/pdf/deep-robotics-x30-user-manual.pdf"
+    },
+    {
+      "group": "Dimensions & Mass",
+      "key": "length",
+      "label": "Length (standing)",
+      "value": 1000,
+      "unit": "mm",
+      "note": "standing size 1000 × 470 × 715 mm",
+      "source": "https://cdn.robotshop.com/media/D/DER/RB-Der-02/pdf/deep-robotics-x30-user-manual.pdf",
+      "ref": "§1.3 p.3"
+    },
+    {
+      "group": "Dimensions & Mass",
+      "key": "width",
+      "label": "Width",
+      "value": 470,
+      "unit": "mm",
+      "note": "",
+      "source": "https://cdn.robotshop.com/media/D/DER/RB-Der-02/pdf/deep-robotics-x30-user-manual.pdf",
+      "ref": "§1.3 p.3"
+    },
+    {
+      "group": "Dimensions & Mass",
+      "key": "height_standing",
+      "label": "Height (standing)",
+      "value": 715,
+      "unit": "mm",
+      "note": "",
+      "source": "https://cdn.robotshop.com/media/D/DER/RB-Der-02/pdf/deep-robotics-x30-user-manual.pdf",
+      "ref": "§1.3 p.3"
+    },
+    {
+      "group": "Dimensions & Mass",
+      "key": "length",
+      "label": "Length (sitting)",
+      "value": 1130,
+      "unit": "mm",
+      "note": "sitting size 1130 × 470 × 285 mm",
+      "source": "https://cdn.robotshop.com/media/D/DER/RB-Der-02/pdf/deep-robotics-x30-user-manual.pdf",
+      "ref": "§1.3 p.3"
+    },
+    {
+      "group": "Dimensions & Mass",
+      "key": "height_sitting",
+      "label": "Height (sitting)",
+      "value": 285,
+      "unit": "mm",
+      "note": "",
+      "source": "https://cdn.robotshop.com/media/D/DER/RB-Der-02/pdf/deep-robotics-x30-user-manual.pdf",
+      "ref": "§1.3 p.3"
+    },
+    {
+      "group": "Dimensions & Mass",
+      "key": "weight",
+      "label": "Weight",
+      "value": 59,
+      "unit": "kg",
+      "note": "approx.; two people recommended to carry",
+      "source": "https://cdn.robotshop.com/media/D/DER/RB-Der-02/pdf/deep-robotics-x30-user-manual.pdf",
+      "ref": "§1.3 p.3, §5.3"
+    },
+    {
+      "group": "Mobility & Performance",
+      "key": "degrees_of_freedom",
+      "label": "Degrees of freedom",
+      "value": 12,
+      "unit": "",
+      "note": "",
+      "source": "https://cdn.robotshop.com/media/D/DER/RB-Der-02/pdf/deep-robotics-x30-user-manual.pdf",
+      "ref": "§1.1"
+    },
+    {
+      "group": "Power & Battery",
+      "key": "battery_capacity_ah",
+      "label": "Battery capacity",
+      "value": 22.4,
+      "unit": "Ah",
+      "note": "ideal data at 25 °C",
+      "source": "https://cdn.robotshop.com/media/D/DER/RB-Der-02/pdf/deep-robotics-x30-user-manual.pdf",
+      "ref": "§1.3 p.3"
+    },
+    {
+      "group": "Power & Battery",
+      "key": "battery_voltage",
+      "label": "Nominal battery voltage",
+      "value": 72,
+      "unit": "V",
+      "note": "",
+      "source": "https://cdn.robotshop.com/media/D/DER/RB-Der-02/pdf/deep-robotics-x30-user-manual.pdf",
+      "ref": "§1.3 p.3"
+    },
+    {
+      "group": "Power & Battery",
+      "key": "battery_chemistry",
+      "label": "Battery type",
+      "value": "Ternary lithium battery, replaceable",
+      "unit": "",
+      "note": "",
+      "source": "https://cdn.robotshop.com/media/D/DER/RB-Der-02/pdf/deep-robotics-x30-user-manual.pdf",
+      "ref": "§2.2.1"
+    },
+    {
+      "group": "Power & Battery",
+      "key": "battery_swappable",
+      "label": "Battery replaceable",
+      "value": true,
+      "unit": "",
+      "note": "two hand-screws and cover plate",
+      "source": "https://cdn.robotshop.com/media/D/DER/RB-Der-02/pdf/deep-robotics-x30-user-manual.pdf",
+      "ref": "§2.2.2"
+    },
+    {
+      "group": "Power & Battery",
+      "key": "runtime",
+      "label": "No-load runtime",
+      "value": 4,
+      "unit": "h",
+      "note": "",
+      "source": "https://cdn.robotshop.com/media/D/DER/RB-Der-02/pdf/deep-robotics-x30-user-manual.pdf",
+      "ref": "§1.3 p.3"
+    },
+    {
+      "group": "Power & Battery",
+      "key": "runtime_with_payload",
+      "label": "Payload runtime",
+      "value": 2.5,
+      "unit": "h",
+      "note": "",
+      "source": "https://cdn.robotshop.com/media/D/DER/RB-Der-02/pdf/deep-robotics-x30-user-manual.pdf",
+      "ref": "§1.3 p.3"
+    },
+    {
+      "group": "Power & Battery",
+      "key": "range_per_charge",
+      "label": "Patrol range",
+      "value": "≥ 10",
+      "unit": "km",
+      "note": "",
+      "source": "https://www.deeprobotics.us/products/x30/"
+    },
+    {
+      "group": "Power & Battery",
+      "key": "low_battery_behavior",
+      "label": "Low battery behaviour",
+      "value": "Warning below 10 %; below 3 % low-battery protection: robot lies down automatically",
+      "unit": "",
+      "note": "",
+      "source": "https://cdn.robotshop.com/media/D/DER/RB-Der-02/pdf/deep-robotics-x30-user-manual.pdf",
+      "ref": "§2.5.5"
+    },
+    {
+      "group": "Charging & Docking",
+      "key": "charger_input",
+      "label": "Charger input voltage",
+      "value": "200–240",
+      "unit": "V",
+      "note": "",
+      "source": "https://cdn.robotshop.com/media/D/DER/RB-Der-02/pdf/deep-robotics-x30-user-manual.pdf",
+      "ref": "§1.3 p.3"
+    },
+    {
+      "group": "Charging & Docking",
+      "key": "charger_output",
+      "label": "Charger output",
+      "value": "84 V / 8 A",
+      "unit": "",
+      "note": "",
+      "source": "https://cdn.robotshop.com/media/D/DER/RB-Der-02/pdf/deep-robotics-x30-user-manual.pdf",
+      "ref": "§1.3 p.3"
+    },
+    {
+      "group": "Charging & Docking",
+      "key": "charge_time",
+      "label": "Charging time",
+      "value": "2.5–3",
+      "unit": "h",
+      "note": "",
+      "source": "https://cdn.robotshop.com/media/D/DER/RB-Der-02/pdf/deep-robotics-x30-user-manual.pdf",
+      "ref": "§1.3 p.3"
+    },
+    {
+      "group": "Charging & Docking",
+      "key": "charging_temperature",
+      "label": "Recommended charging temperature",
+      "value": "0 to 45",
+      "unit": "°C",
+      "note": "",
+      "source": "https://cdn.robotshop.com/media/D/DER/RB-Der-02/pdf/deep-robotics-x30-user-manual.pdf",
+      "ref": "§2.2.2"
+    },
+    {
+      "group": "Charging & Docking",
+      "key": "dock_available",
+      "label": "Autonomous charging",
+      "value": "Supported",
+      "unit": "",
+      "note": "",
+      "source": "https://cdn.robotshop.com/media/D/DER/RB-Der-02/pdf/deep-robotics-x30-user-manual.pdf",
+      "ref": "§1.3 p.3"
+    },
+    {
+      "group": "Payload & Mounting",
+      "key": "payload_port_voltage",
+      "label": "Power supply to payloads",
+      "value": "12V; 24V; 5V (USB)",
+      "unit": "",
+      "note": "",
+      "source": "https://cdn.robotshop.com/media/D/DER/RB-Der-02/pdf/deep-robotics-x30-user-manual.pdf",
+      "ref": "§1.3 p.3"
+    },
+    {
+      "group": "Payload & Mounting",
+      "key": "payload_port_power",
+      "label": "Maximum power to payload",
+      "value": 600,
+      "unit": "W",
+      "note": "total; LAN(12V) ports max 36 W each, LAN(24V) ports max 72 W each, single 24V port max 480 W",
+      "source": "https://developer.deeprobotics.cn/docs/x30/guide/hardware/interfaces/"
+    },
+    {
+      "group": "Payload & Mounting",
+      "key": "payload_port_power",
+      "label": "Body external power port",
+      "value": "72 V, 600 W",
+      "unit": "",
+      "note": "body external power supply port; should not exceed 600 W",
+      "source": "https://developer.deeprobotics.cn/docs/x30/guide/hardware/interfaces/"
+    },
+    {
+      "group": "Payload & Mounting",
+      "key": "mounting_rail",
+      "label": "Mounting rails",
+      "value": true,
+      "unit": "",
+      "note": "on back",
+      "source": "https://cdn.robotshop.com/media/D/DER/RB-Der-02/pdf/deep-robotics-x30-user-manual.pdf",
+      "ref": "§1.3 p.2"
+    },
+    {
+      "group": "Payload & Mounting",
+      "key": "max_attachment_mass",
+      "label": "Payload",
+      "value": 20,
+      "unit": "kg",
+      "note": "Intelligent Controller weight included",
+      "source": "https://cdn.robotshop.com/media/D/DER/RB-Der-02/pdf/deep-robotics-x30-user-manual.pdf",
+      "ref": "§1.3 p.3"
+    },
+    {
+      "group": "Connectivity & Interfaces",
+      "key": "communication",
+      "label": "Communication interfaces",
+      "value": "Ethernet; Wi-Fi; USB 2.0; USB 3.0",
+      "unit": "",
+      "note": "",
+      "source": "https://cdn.robotshop.com/media/D/DER/RB-Der-02/pdf/deep-robotics-x30-user-manual.pdf",
+      "ref": "§1.3 p.3"
+    },
+    {
+      "group": "Connectivity & Interfaces",
+      "key": "external_ports",
+      "label": "Intelligent Controller interfaces",
+      "value": "LAN1+12V; LAN2; 24V; USB3.0 ×2; USB2.0 ×2; LAN3+12V; LAN4+12V; LAN5+24V; LAN6+24V",
+      "unit": "",
+      "note": "",
+      "source": "https://cdn.robotshop.com/media/D/DER/RB-Der-02/pdf/deep-robotics-x30-user-manual.pdf",
+      "ref": "§1.5 p.6"
+    },
+    {
+      "group": "Connectivity & Interfaces",
+      "key": "ethernet",
+      "label": "Body external network ports",
+      "value": "Port 1 (192.168.1.*), Port 2 (192.168.2.*); plus debugging Ethernet port",
+      "unit": "",
+      "note": "",
+      "source": "https://developer.deeprobotics.cn/docs/x30/guide/hardware/interfaces/"
+    },
+    {
+      "group": "Connectivity & Interfaces",
+      "key": "wifi",
+      "label": "Wi-Fi",
+      "value": "Robot Wi-Fi access point (X30*****)",
+      "unit": "",
+      "note": "",
+      "source": "https://developer.deeprobotics.cn/docs/x30/guide/software/network/"
+    },
+    {
+      "group": "Compute & Software",
+      "key": "cpu",
+      "label": "Onboard hosts",
+      "value": "Motion host + perception host inside body; navigation host inside Intelligent Controller",
+      "unit": "",
+      "note": "",
+      "source": "https://cdn.robotshop.com/media/D/DER/RB-Der-02/pdf/deep-robotics-x30-user-manual.pdf",
+      "ref": "§1.1"
+    },
+    {
+      "group": "Compute & Software",
+      "key": "api",
+      "label": "Protocols",
+      "value": "TCP monitoring protocol (navigation host 192.168.1.106:30000, XML ASDU); UDP motion control protocol (motion host 192.168.1.103:43893, binary)",
+      "unit": "",
+      "note": "",
+      "source": "https://developer.deeprobotics.cn/docs/x30/guide/communication/architecture/"
+    },
+    {
+      "group": "Compute & Software",
+      "key": "ros_support",
+      "label": "ROS topic interface",
+      "value": true,
+      "unit": "",
+      "note": "ROS topic interface listed in developer docs",
+      "source": "https://developer.deeprobotics.cn/docs/x30/guide/communication/architecture/"
+    },
+    {
+      "group": "Mobility & Performance",
+      "key": "max_speed",
+      "label": "Maximum speed",
+      "value": 4.95,
+      "unit": "m/s",
+      "note": "data from extreme test",
+      "source": "https://cdn.robotshop.com/media/D/DER/RB-Der-02/pdf/deep-robotics-x30-user-manual.pdf",
+      "ref": "§1.3 p.3"
+    },
+    {
+      "group": "Mobility & Performance",
+      "key": "max_speed",
+      "label": "Maximum walking speed",
+      "value": 1.2,
+      "unit": "m/s",
+      "note": "Walk gait",
+      "source": "https://cdn.robotshop.com/media/D/DER/RB-Der-02/pdf/deep-robotics-x30-user-manual.pdf",
+      "ref": "§1.3 p.3"
+    },
+    {
+      "group": "Mobility & Performance",
+      "key": "max_speed",
+      "label": "Maximum running speed",
+      "value": 2.5,
+      "unit": "m/s",
+      "note": "Run gait",
+      "source": "https://cdn.robotshop.com/media/D/DER/RB-Der-02/pdf/deep-robotics-x30-user-manual.pdf",
+      "ref": "§1.3 p.3"
+    },
+    {
+      "group": "Mobility & Performance",
+      "key": "max_payload",
+      "label": "Maximum load",
+      "value": 85,
+      "unit": "kg",
+      "note": "data from extreme test",
+      "source": "https://cdn.robotshop.com/media/D/DER/RB-Der-02/pdf/deep-robotics-x30-user-manual.pdf",
+      "ref": "§1.3 p.3"
+    },
+    {
+      "group": "Mobility & Performance",
+      "key": "rated_payload",
+      "label": "Payload",
+      "value": 20,
+      "unit": "kg",
+      "note": "Intelligent Controller weight included",
+      "source": "https://cdn.robotshop.com/media/D/DER/RB-Der-02/pdf/deep-robotics-x30-user-manual.pdf",
+      "ref": "§1.3 p.3"
+    },
+    {
+      "group": "Mobility & Performance",
+      "key": "gaits",
+      "label": "Gaits",
+      "value": "Walk; Run; Slope; Off-Road; Stair; 45° Stairs; L-Walk; Mountain; Silent",
+      "unit": "",
+      "note": "",
+      "source": "https://cdn.robotshop.com/media/D/DER/RB-Der-02/pdf/deep-robotics-x30-user-manual.pdf",
+      "ref": "§1.6"
+    },
+    {
+      "group": "Terrain & Navigation Limits",
+      "key": "max_slope",
+      "label": "Maximum slope",
+      "value": "±30",
+      "unit": "°",
+      "note": "",
+      "source": "https://cdn.robotshop.com/media/D/DER/RB-Der-02/pdf/deep-robotics-x30-user-manual.pdf",
+      "ref": "§1.3 p.3"
+    },
+    {
+      "group": "Terrain & Navigation Limits",
+      "key": "max_step_height",
+      "label": "Maximum step height",
+      "value": 20,
+      "unit": "cm",
+      "note": "",
+      "source": "https://cdn.robotshop.com/media/D/DER/RB-Der-02/pdf/deep-robotics-x30-user-manual.pdf",
+      "ref": "§1.3 p.3"
+    },
+    {
+      "group": "Terrain & Navigation Limits",
+      "key": "max_stair_slope",
+      "label": "Maximum slope of staircase",
+      "value": "±45",
+      "unit": "°",
+      "note": "45° Stairs gait only in multi-frame mode",
+      "source": "https://cdn.robotshop.com/media/D/DER/RB-Der-02/pdf/deep-robotics-x30-user-manual.pdf",
+      "ref": "§1.3 p.3, §1.6"
+    },
+    {
+      "group": "Terrain & Navigation Limits",
+      "key": "max_stair_step_height",
+      "label": "Mountain gait stair step",
+      "value": 25,
+      "unit": "cm",
+      "note": "Mountain gait: single steps of 25 cm, slopes of 30°; L-Walk: 15 cm steps, 18° slopes",
+      "source": "https://cdn.robotshop.com/media/D/DER/RB-Der-02/pdf/deep-robotics-x30-user-manual.pdf",
+      "ref": "§1.6"
+    },
+    {
+      "group": "Terrain & Navigation Limits",
+      "key": "surface_types",
+      "label": "Terrain",
+      "value": "Concrete, stairs, slopes, stone piles and ruins (Off-Road); muddy/flooded surfaces (L-Walk); rubble (Mountain); avoid ice, sharp/undulating terrain, high edges",
+      "unit": "",
+      "note": "",
+      "source": "https://cdn.robotshop.com/media/D/DER/RB-Der-02/pdf/deep-robotics-x30-user-manual.pdf",
+      "ref": "§1.6, FAQ Q4"
+    },
+    {
+      "group": "Terrain & Navigation Limits",
+      "key": "mapping",
+      "label": "Elevation map modes",
+      "value": "Solid ground; grid ground; stair without risers; multi-frame",
+      "unit": "",
+      "note": "",
+      "source": "https://cdn.robotshop.com/media/D/DER/RB-Der-02/pdf/deep-robotics-x30-user-manual.pdf",
+      "ref": "§1.6"
+    },
+    {
+      "group": "Terrain & Navigation Limits",
+      "key": "navigation_method",
+      "label": "Control modes",
+      "value": "Manual mode; Assist mode (obstacle avoidance: decelerate/detour); Nav mode",
+      "unit": "",
+      "note": "",
+      "source": "https://cdn.robotshop.com/media/D/DER/RB-Der-02/pdf/deep-robotics-x30-user-manual.pdf",
+      "ref": "§2.4.1"
+    },
+    {
+      "group": "Safety & Compliance",
+      "key": "max_noise_level",
+      "label": "Silent gait noise",
+      "value": "≤ 50 dB standing still; ≤ 60 dB walking",
+      "unit": "",
+      "note": "Silent gait; no stairs or slopes",
+      "source": "https://cdn.robotshop.com/media/D/DER/RB-Der-02/pdf/deep-robotics-x30-user-manual.pdf",
+      "ref": "§1.6"
+    },
+    {
+      "group": "Sensors & Perception",
+      "key": "lidar_count",
+      "label": "Laser radar",
+      "value": 4,
+      "unit": "",
+      "note": "front up/down and rear up/down",
+      "source": "https://cdn.robotshop.com/media/D/DER/RB-Der-02/pdf/deep-robotics-x30-user-manual.pdf",
+      "ref": "§1.3 p.3"
+    },
+    {
+      "group": "Sensors & Perception",
+      "key": "lidar_mounting",
+      "label": "LiDAR positions (body frame)",
+      "value": "Front-up (443.67, 0, 54.15) mm; front-down (432.97, 0, −55.19) mm; rear-up (−465.76, 0, 34.84) mm; rear-down (−410.74, 0, −56.01) mm",
+      "unit": "",
+      "note": "",
+      "source": "https://developer.deeprobotics.cn/docs/x30/guide/hardware/lidar/"
+    },
+    {
+      "group": "Sensors & Perception",
+      "key": "camera_count",
+      "label": "Wide-angle camera",
+      "value": 1,
+      "unit": "",
+      "note": "",
+      "source": "https://cdn.robotshop.com/media/D/DER/RB-Der-02/pdf/deep-robotics-x30-user-manual.pdf",
+      "ref": "§1.3 p.3"
+    },
+    {
+      "group": "Sensors & Perception",
+      "key": "thermal_camera",
+      "label": "Optional module",
+      "value": "Bi-spectrum PTZ camera",
+      "unit": "",
+      "note": "other optional modules",
+      "source": "https://cdn.robotshop.com/media/D/DER/RB-Der-02/pdf/deep-robotics-x30-user-manual.pdf",
+      "ref": "§1.3 p.3"
+    },
+    {
+      "group": "Environment & Protection",
+      "key": "ip_rating",
+      "label": "Ingress protection",
+      "value": "IP67",
+      "unit": "",
+      "note": "Intelligent Controller keeps IP67 only when USB 3.0 dust/water cap is in place",
+      "source": "https://cdn.robotshop.com/media/D/DER/RB-Der-02/pdf/deep-robotics-x30-user-manual.pdf",
+      "ref": "§1.3 p.3, §1.5"
+    },
+    {
+      "group": "Environment & Protection",
+      "key": "operating_temperature",
+      "label": "Operating temperature",
+      "value": "−20 to 55",
+      "unit": "°C",
+      "note": "",
+      "source": "https://cdn.robotshop.com/media/D/DER/RB-Der-02/pdf/deep-robotics-x30-user-manual.pdf",
+      "ref": "§1.3 p.3"
+    },
+    {
+      "group": "Environment & Protection",
+      "key": "storage_temperature",
+      "label": "Storage temperature",
+      "value": "−20 to 55",
+      "unit": "°C",
+      "note": "clean and dry place; charge every three months",
+      "source": "https://cdn.robotshop.com/media/D/DER/RB-Der-02/pdf/deep-robotics-x30-user-manual.pdf",
+      "ref": "§5.2"
+    },
+    {
+      "group": "Safety & Compliance",
+      "key": "emergency_stop",
+      "label": "Emergency stops",
+      "value": "Soft emergency stop (button on robot and controller SW1+SW4); hard emergency stop button at tail (hardware power cut)",
+      "unit": "",
+      "note": "",
+      "source": "https://cdn.robotshop.com/media/D/DER/RB-Der-02/pdf/deep-robotics-x30-user-manual.pdf",
+      "ref": "§2.5"
+    },
+    {
+      "group": "Safety & Compliance",
+      "key": "overtemperature_protection",
+      "label": "Overtemperature protection",
+      "value": true,
+      "unit": "",
+      "note": "motor/driver over-temperature protection; wait 10 min",
+      "source": "https://cdn.robotshop.com/media/D/DER/RB-Der-02/pdf/deep-robotics-x30-user-manual.pdf",
+      "ref": "§2.5.3"
+    },
+    {
+      "group": "Safety & Compliance",
+      "key": "safety_distance",
+      "label": "Safety distance",
+      "value": 2,
+      "unit": "m",
+      "note": "keep people/objects > 2 m away",
+      "source": "https://cdn.robotshop.com/media/D/DER/RB-Der-02/pdf/deep-robotics-x30-user-manual.pdf",
+      "ref": "§2.1.1"
+    },
+    {
+      "group": "Audio, Lights & HMI",
+      "key": "status_lights",
+      "label": "Indicators",
+      "value": "4-segment power/battery LED; Intelligent Controller indicator (green/yellow/red)",
+      "unit": "",
+      "note": "",
+      "source": "https://cdn.robotshop.com/media/D/DER/RB-Der-02/pdf/deep-robotics-x30-user-manual.pdf",
+      "ref": "§1.4–1.5"
+    },
+    {
+      "group": "Controls & Operation",
+      "key": "controller",
+      "label": "Controller",
+      "value": "Handheld controller with Jueying Lab app",
+      "unit": "",
+      "note": "",
+      "source": "https://cdn.robotshop.com/media/D/DER/RB-Der-02/pdf/deep-robotics-x30-user-manual.pdf",
+      "ref": "§2.4"
+    },
+    {
+      "group": "Transport & Storage",
+      "key": "shipping_case_dimensions",
+      "label": "Transport case",
+      "value": "1.09 × 0.55 × 0.57",
+      "unit": "m",
+      "note": "with brake wheels",
+      "source": "https://cdn.robotshop.com/media/D/DER/RB-Der-02/pdf/deep-robotics-x30-user-manual.pdf",
+      "ref": "§5.1"
+    },
+    {
+      "group": "Commercial",
+      "key": "included_accessories",
+      "label": "Product list",
+      "value": "Robot (without battery), Intelligent Controller, controller, charger, replaceable battery, 8 aviation plugs, antistatic cloth, certificate, warranty card, user manual",
+      "unit": "",
+      "note": "",
+      "source": "https://cdn.robotshop.com/media/D/DER/RB-Der-02/pdf/deep-robotics-x30-user-manual.pdf",
+      "ref": "§1.2"
+    },
+    {
+      "group": "Commercial",
+      "key": "warranty",
+      "label": "Warranty (joint module, upper/lower legs)",
+      "value": 6,
+      "unit": "months",
+      "note": "from acceptance date",
+      "source": "https://cdn.robotshop.com/media/D/DER/RB-Der-02/pdf/deep-robotics-x30-user-manual.pdf",
+      "ref": "§6.2"
+    },
+    {
+      "group": "Commercial",
+      "key": "warranty",
+      "label": "Warranty (battery, laser radar, wide-angle cameras, hosts)",
+      "value": 12,
+      "unit": "months",
+      "note": "shell, feet, wear parts, transport case not covered",
+      "source": "https://cdn.robotshop.com/media/D/DER/RB-Der-02/pdf/deep-robotics-x30-user-manual.pdf",
+      "ref": "§6.2"
+    }
+  ]
+}

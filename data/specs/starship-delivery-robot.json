@@ -1,0 +1,250 @@
+{
+ "id": "starship-delivery-robot",
+ "checked": "2026-11-04",
+ "documents": [
+  {
+   "title": "Our Robots (Starship Technologies)",
+   "url": "https://www.starship.xyz/our-robots/"
+  },
+  {
+   "title": "FAQ (Starship Technologies)",
+   "url": "https://www.starship.xyz/faq/"
+  }
+ ],
+ "specs": [
+  {
+   "group": "Dimensions & Mass",
+   "key": "weight",
+   "label": "Weight (empty)",
+   "value": "approx. 38",
+   "unit": "kg",
+   "note": "without cargo (83 lb)",
+   "source": "https://www.starship.xyz/faq/"
+  },
+  {
+   "group": "Mobility & Performance",
+   "key": "nominal_speed",
+   "label": "Speed",
+   "value": "~6.4",
+   "unit": "km/h",
+   "note": "~4 mph; speed of a walking pedestrian",
+   "source": "https://www.starship.xyz/faq/"
+  },
+  {
+   "group": "Mobility & Performance",
+   "key": "wheel_count",
+   "label": "Wheels",
+   "value": 6,
+   "unit": "",
+   "note": "six wheels with bogie system",
+   "source": "https://www.starship.xyz/our-robots/"
+  },
+  {
+   "group": "Mobility & Performance",
+   "key": "suspension",
+   "label": "Suspension",
+   "value": "Bogie system",
+   "unit": "",
+   "note": "",
+   "source": "https://www.starship.xyz/our-robots/"
+  },
+  {
+   "group": "Payload & Mounting",
+   "key": "cargo_capacity_description",
+   "label": "Capacity",
+   "value": "up to three shopping bags",
+   "unit": "",
+   "note": "insulated interior (not heated/refrigerated)",
+   "source": "https://www.starship.xyz/our-robots/"
+  },
+  {
+   "group": "Payload & Mounting",
+   "key": "insulation",
+   "label": "Insulated cargo lining",
+   "value": true,
+   "unit": "",
+   "note": "keeps hot, cold and frozen items at temperature",
+   "source": "https://www.starship.xyz/faq/"
+  },
+  {
+   "group": "Terrain & Navigation Limits",
+   "key": "max_obstacle_height",
+   "label": "Curbs",
+   "value": "Climbs and dismounts curbs",
+   "unit": "",
+   "note": "6-wheel bogie",
+   "source": "https://www.starship.xyz/our-robots/"
+  },
+  {
+   "group": "Terrain & Navigation Limits",
+   "key": "surface_types",
+   "label": "Surfaces",
+   "value": "Sidewalks/pavements, pedestrianised areas; road and driveway crossings at mapped crossing points",
+   "unit": "",
+   "note": "",
+   "source": "https://www.starship.xyz/faq/"
+  },
+  {
+   "group": "Terrain & Navigation Limits",
+   "key": "localization_method",
+   "label": "Localization",
+   "value": "Computer vision + GPS, proprietary mapping",
+   "unit": "",
+   "note": "\"to the nearest inch\"",
+   "source": "https://www.starship.xyz/faq/"
+  },
+  {
+   "group": "Power & Battery",
+   "key": "runtime",
+   "label": "Runtime",
+   "value": 18,
+   "unit": "h",
+   "note": "single charge",
+   "source": "https://www.starship.xyz/our-robots/"
+  },
+  {
+   "group": "Power & Battery",
+   "key": "range_per_charge",
+   "label": "Delivery radius",
+   "value": "generally within 2 miles of stores",
+   "unit": "",
+   "note": "varies by area",
+   "source": "https://www.starship.xyz/faq/"
+  },
+  {
+   "group": "Charging & Docking",
+   "key": "charging_method",
+   "label": "Charging",
+   "value": "Wireless charging installations (overnight, onsite)",
+   "unit": "",
+   "note": "",
+   "source": "https://www.starship.xyz/our-robots/"
+  },
+  {
+   "group": "Environment & Protection",
+   "key": "rain_rating",
+   "label": "Weather",
+   "value": "All weather incl. rain and snow; winter wheels",
+   "unit": "",
+   "note": "",
+   "source": "https://www.starship.xyz/our-robots/"
+  },
+  {
+   "group": "Sensors & Perception",
+   "key": "camera_count",
+   "label": "Cameras",
+   "value": 12,
+   "unit": "",
+   "note": "including time-of-flight",
+   "source": "https://www.starship.xyz/our-robots/"
+  },
+  {
+   "group": "Sensors & Perception",
+   "key": "radar",
+   "label": "Radar",
+   "value": true,
+   "unit": "",
+   "note": "",
+   "source": "https://www.starship.xyz/our-robots/"
+  },
+  {
+   "group": "Sensors & Perception",
+   "key": "ultrasonic_sensors",
+   "label": "Ultrasonic sensors",
+   "value": true,
+   "unit": "",
+   "note": "",
+   "source": "https://www.starship.xyz/our-robots/"
+  },
+  {
+   "group": "Sensors & Perception",
+   "key": "tof_sensor",
+   "label": "Time-of-flight",
+   "value": true,
+   "unit": "",
+   "note": "",
+   "source": "https://www.starship.xyz/faq/"
+  },
+  {
+   "group": "Sensors & Perception",
+   "key": "detection_range",
+   "label": "Object detection range",
+   "value": "up to 200",
+   "unit": "ft",
+   "note": "",
+   "source": "https://www.starship.xyz/faq/"
+  },
+  {
+   "group": "Safety & Compliance",
+   "key": "obstacle_avoidance",
+   "label": "Obstacle behavior",
+   "value": "Slows for adjacent objects, full stop for objects in front",
+   "unit": "",
+   "note": "",
+   "source": "https://www.starship.xyz/faq/"
+  },
+  {
+   "group": "Safety & Compliance",
+   "key": "anti_theft",
+   "label": "Anti-tamper",
+   "value": "Siren on tampering; tracked location; lid locked, opened via customer app",
+   "unit": "",
+   "note": "",
+   "source": "https://www.starship.xyz/faq/"
+  },
+  {
+   "group": "Audio, Lights & HMI",
+   "key": "status_lights",
+   "label": "Lights",
+   "value": "LEDs and reflectors on flag; headlights; rear indicators",
+   "unit": "",
+   "note": "night lights visible ≥ 500 ft",
+   "source": "https://www.starship.xyz/faq/"
+  },
+  {
+   "group": "Audio, Lights & HMI",
+   "key": "speaker",
+   "label": "Audio",
+   "value": "Audio alert system; plays music on delivery",
+   "unit": "",
+   "note": "",
+   "source": "https://www.starship.xyz/faq/"
+  },
+  {
+   "group": "Controls & Operation",
+   "key": "autonomy_features",
+   "label": "Autonomy level",
+   "value": "Level 4 (since 2018), >99% autonomous, remote assistance on standby",
+   "unit": "",
+   "note": "",
+   "source": "https://www.starship.xyz/our-robots/"
+  },
+  {
+   "group": "Compute & Software",
+   "key": "api",
+   "label": "Integration API",
+   "value": "Delivery by Starship API for partners",
+   "unit": "",
+   "note": "",
+   "source": "https://www.starship.xyz/faq/"
+  },
+  {
+   "group": "Controls & Operation",
+   "key": "teleoperation",
+   "label": "Remote assistance",
+   "value": "Human remote assistants via low-resolution obfuscated video feed",
+   "unit": "",
+   "note": "",
+   "source": "https://www.starship.xyz/faq/"
+  },
+  {
+   "group": "Compute & Software",
+   "key": "onboard_autonomy",
+   "label": "On-device safety",
+   "value": "Critical safety functions run locally even without internet",
+   "unit": "",
+   "note": "",
+   "source": "https://www.starship.xyz/our-robots/"
+  }
+ ]
+}

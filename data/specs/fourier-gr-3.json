@@ -1,0 +1,624 @@
+{
+  "id": "fourier-gr-3",
+  "checked": "2026-11-04",
+  "documents": [
+    {
+      "title": "Fourier GR-3 Developer Center – Robot Overview (v3.0.2, updated 2026-09-22)",
+      "url": "https://support.fftai.com/en/gr3/getting-started/general-information"
+    }
+  ],
+  "specs": [
+    {
+      "group": "Identity",
+      "key": "software_version",
+      "label": "Documentation version",
+      "value": "v3.0.2",
+      "unit": "",
+      "note": "",
+      "source": "https://support.fftai.com/en/gr3/getting-started/general-information"
+    },
+    {
+      "group": "Dimensions & Mass",
+      "key": "height",
+      "label": "Height",
+      "value": 1642,
+      "unit": "mm",
+      "note": "dimensions 1642 x 552 x 292 mm",
+      "source": "https://support.fftai.com/en/gr3/getting-started/general-information"
+    },
+    {
+      "group": "Dimensions & Mass",
+      "key": "width",
+      "label": "Width",
+      "value": 552,
+      "unit": "mm",
+      "note": "",
+      "source": "https://support.fftai.com/en/gr3/getting-started/general-information"
+    },
+    {
+      "group": "Dimensions & Mass",
+      "key": "length",
+      "label": "Depth",
+      "value": 292,
+      "unit": "mm",
+      "note": "",
+      "source": "https://support.fftai.com/en/gr3/getting-started/general-information"
+    },
+    {
+      "group": "Dimensions & Mass",
+      "key": "arm_span",
+      "label": "Arm span",
+      "value": 1395,
+      "unit": "mm",
+      "note": "up to 1759 mm with 12-DoF dexterous hand",
+      "source": "https://support.fftai.com/en/gr3/getting-started/general-information"
+    },
+    {
+      "group": "Dimensions & Mass",
+      "key": "leg_length",
+      "label": "Lower leg + upper leg",
+      "value": "425 + 408",
+      "unit": "mm",
+      "note": "",
+      "source": "https://support.fftai.com/en/gr3/getting-started/general-information"
+    },
+    {
+      "group": "Dimensions & Mass",
+      "key": "weight",
+      "label": "Net weight",
+      "value": 71,
+      "unit": "kg",
+      "note": "≈71 kg",
+      "source": "https://support.fftai.com/en/gr3/getting-started/general-information"
+    },
+    {
+      "group": "Dimensions & Mass",
+      "key": "structural_material",
+      "label": "Materials",
+      "value": "Aluminium alloy + engineering plastic + soft covering",
+      "unit": "",
+      "note": "",
+      "source": "https://support.fftai.com/en/gr3/getting-started/general-information"
+    },
+    {
+      "group": "Mobility & Performance",
+      "key": "degrees_of_freedom",
+      "label": "Total actuators",
+      "value": 55,
+      "unit": "",
+      "note": "up to 55 with optional 12-DoF dexterous hands",
+      "source": "https://support.fftai.com/en/gr3/getting-started/general-information"
+    },
+    {
+      "group": "Actuation & Joints",
+      "key": "dof_head",
+      "label": "Head DoF",
+      "value": 2,
+      "unit": "",
+      "note": "",
+      "source": "https://support.fftai.com/en/gr3/getting-started/general-information"
+    },
+    {
+      "group": "Actuation & Joints",
+      "key": "dof_per_arm",
+      "label": "DoF per arm",
+      "value": 7,
+      "unit": "",
+      "note": "",
+      "source": "https://support.fftai.com/en/gr3/getting-started/general-information"
+    },
+    {
+      "group": "Actuation & Joints",
+      "key": "dof_waist",
+      "label": "Waist DoF",
+      "value": 3,
+      "unit": "",
+      "note": "",
+      "source": "https://support.fftai.com/en/gr3/getting-started/general-information"
+    },
+    {
+      "group": "Actuation & Joints",
+      "key": "dof_per_leg",
+      "label": "DoF per leg",
+      "value": 6,
+      "unit": "",
+      "note": "",
+      "source": "https://support.fftai.com/en/gr3/getting-started/general-information"
+    },
+    {
+      "group": "Manipulation",
+      "key": "hand_dof",
+      "label": "Hand DoF",
+      "value": 6,
+      "unit": "",
+      "note": "base hand; optional 12-DoF dexterous hand",
+      "source": "https://support.fftai.com/en/gr3/getting-started/general-information"
+    },
+    {
+      "group": "Actuation & Joints",
+      "key": "max_joint_torque",
+      "label": "Max joint peak torque",
+      "value": 440,
+      "unit": "N·m",
+      "note": "",
+      "source": "https://support.fftai.com/en/gr3/getting-started/general-information"
+    },
+    {
+      "group": "Actuation & Joints",
+      "key": "joint_encoder",
+      "label": "Encoders",
+      "value": "Dual encoders, absolute supported",
+      "unit": "",
+      "note": "",
+      "source": "https://support.fftai.com/en/gr3/getting-started/general-information"
+    },
+    {
+      "group": "Mobility & Performance",
+      "key": "nominal_speed",
+      "label": "Walking speed",
+      "value": 6.1,
+      "unit": "km/h",
+      "note": "",
+      "source": "https://support.fftai.com/en/gr3/getting-started/general-information"
+    },
+    {
+      "group": "Manipulation",
+      "key": "arm_payload",
+      "label": "Single-arm payload",
+      "value": 3,
+      "unit": "kg",
+      "note": "≈3 kg",
+      "source": "https://support.fftai.com/en/gr3/getting-started/general-information"
+    },
+    {
+      "group": "Terrain & Navigation Limits",
+      "key": "max_slope",
+      "label": "Max walking gradient",
+      "value": 15,
+      "unit": "°",
+      "note": "",
+      "source": "https://support.fftai.com/en/gr3/getting-started/general-information"
+    },
+    {
+      "group": "Power & Battery",
+      "key": "battery_voltage",
+      "label": "Nominal voltage",
+      "value": 46.8,
+      "unit": "V",
+      "note": "",
+      "source": "https://support.fftai.com/en/gr3/getting-started/general-information"
+    },
+    {
+      "group": "Power & Battery",
+      "key": "rated_power",
+      "label": "Rated power",
+      "value": 936,
+      "unit": "W",
+      "note": "≈936 W",
+      "source": "https://support.fftai.com/en/gr3/getting-started/general-information"
+    },
+    {
+      "group": "Power & Battery",
+      "key": "battery_chemistry",
+      "label": "Battery type",
+      "value": "Lithium-ion",
+      "unit": "",
+      "note": "",
+      "source": "https://support.fftai.com/en/gr3/getting-started/general-information"
+    },
+    {
+      "group": "Power & Battery",
+      "key": "battery_capacity",
+      "label": "Battery capacity",
+      "value": "702 + 234",
+      "unit": "Wh",
+      "note": "two packs",
+      "source": "https://support.fftai.com/en/gr3/getting-started/general-information"
+    },
+    {
+      "group": "Power & Battery",
+      "key": "battery_mass",
+      "label": "Battery weight",
+      "value": "3.8 + 1.3",
+      "unit": "kg",
+      "note": "",
+      "source": "https://support.fftai.com/en/gr3/getting-started/general-information"
+    },
+    {
+      "group": "Power & Battery",
+      "key": "runtime",
+      "label": "Runtime",
+      "value": 3,
+      "unit": "h",
+      "note": "≈3 h",
+      "source": "https://support.fftai.com/en/gr3/getting-started/general-information"
+    },
+    {
+      "group": "Power & Battery",
+      "key": "battery_voltage_max",
+      "label": "Charge limit voltage",
+      "value": 54.6,
+      "unit": "V",
+      "note": "",
+      "source": "https://support.fftai.com/en/gr3/getting-started/general-information"
+    },
+    {
+      "group": "Power & Battery",
+      "key": "battery_cycle_life",
+      "label": "Cycle life",
+      "value": "≥500",
+      "unit": "cycles",
+      "note": "80% DoD",
+      "source": "https://support.fftai.com/en/gr3/getting-started/general-information"
+    },
+    {
+      "group": "Power & Battery",
+      "key": "battery_swappable",
+      "label": "Hot-swappable battery",
+      "value": true,
+      "unit": "",
+      "note": "",
+      "source": "https://support.fftai.com/en/gr3/getting-started/general-information"
+    },
+    {
+      "group": "Charging & Docking",
+      "key": "charge_time",
+      "label": "Single charge time",
+      "value": 1.5,
+      "unit": "h",
+      "note": "≈1.5 h",
+      "source": "https://support.fftai.com/en/gr3/getting-started/general-information"
+    },
+    {
+      "group": "Charging & Docking",
+      "key": "charger_input",
+      "label": "Adapter input",
+      "value": "90-260 V AC, 50/60 Hz",
+      "unit": "",
+      "note": "",
+      "source": "https://support.fftai.com/en/gr3/getting-started/general-information"
+    },
+    {
+      "group": "Charging & Docking",
+      "key": "charger_output",
+      "label": "Adapter output",
+      "value": "54.6 V, 12 A max",
+      "unit": "",
+      "note": "",
+      "source": "https://support.fftai.com/en/gr3/getting-started/general-information"
+    },
+    {
+      "group": "Sensors & Perception",
+      "key": "camera_type",
+      "label": "Camera",
+      "value": "Monocular camera (OAK)",
+      "unit": "",
+      "note": "",
+      "source": "https://support.fftai.com/en/gr3/getting-started/general-information"
+    },
+    {
+      "group": "Sensors & Perception",
+      "key": "imu",
+      "label": "IMU",
+      "value": "6-axis (acceleration, angular velocity)",
+      "unit": "",
+      "note": "",
+      "source": "https://support.fftai.com/en/gr3/getting-started/general-information"
+    },
+    {
+      "group": "Sensors & Perception",
+      "key": "microphones",
+      "label": "Microphone",
+      "value": "360° omnidirectional pickup",
+      "unit": "",
+      "note": "echo cancellation, sound source localization",
+      "source": "https://support.fftai.com/en/gr3/getting-started/general-information"
+    },
+    {
+      "group": "Sensors & Perception",
+      "key": "tactile_sensors",
+      "label": "Tactile sensors",
+      "value": "Distributed on head and torso",
+      "unit": "",
+      "note": "",
+      "source": "https://support.fftai.com/en/gr3/getting-started/general-information"
+    },
+    {
+      "group": "Audio, Lights & HMI",
+      "key": "speaker",
+      "label": "Speaker",
+      "value": 15,
+      "unit": "W",
+      "note": "up to 15 W, volume adjustable",
+      "source": "https://support.fftai.com/en/gr3/getting-started/general-information"
+    },
+    {
+      "group": "Controls & Operation",
+      "key": "teleoperation",
+      "label": "Teleoperation",
+      "value": "Immersive remote control (VR headset / exoskeleton)",
+      "unit": "",
+      "note": "",
+      "source": "https://support.fftai.com/en/gr3/getting-started/general-information"
+    },
+    {
+      "group": "Compute & Software",
+      "key": "operating_system",
+      "label": "Operating system",
+      "value": "Ubuntu 22.04",
+      "unit": "",
+      "note": "",
+      "source": "https://support.fftai.com/en/gr3/getting-started/general-information"
+    },
+    {
+      "group": "Compute & Software",
+      "key": "cpu",
+      "label": "CPU",
+      "value": "AMD Ryzen 7 8845HS (8-core 16-thread)",
+      "unit": "",
+      "note": "development board E-Sports D70",
+      "source": "https://support.fftai.com/en/gr3/getting-started/general-information"
+    },
+    {
+      "group": "Compute & Software",
+      "key": "gpu",
+      "label": "GPU",
+      "value": "AMD Radeon 780M",
+      "unit": "",
+      "note": "",
+      "source": "https://support.fftai.com/en/gr3/getting-started/general-information"
+    },
+    {
+      "group": "Compute & Software",
+      "key": "cpu_cache",
+      "label": "Cache",
+      "value": "L3 16 MB",
+      "unit": "",
+      "note": "",
+      "source": "https://support.fftai.com/en/gr3/getting-started/general-information"
+    },
+    {
+      "group": "Compute & Software",
+      "key": "ram",
+      "label": "Memory",
+      "value": 32,
+      "unit": "GB",
+      "note": "",
+      "source": "https://support.fftai.com/en/gr3/getting-started/general-information"
+    },
+    {
+      "group": "Compute & Software",
+      "key": "storage",
+      "label": "Storage",
+      "value": 1,
+      "unit": "TB",
+      "note": "",
+      "source": "https://support.fftai.com/en/gr3/getting-started/general-information"
+    },
+    {
+      "group": "Connectivity & Interfaces",
+      "key": "usb_ports",
+      "label": "I/O",
+      "value": "Type-C, USB 3.0, RJ45",
+      "unit": "",
+      "note": "",
+      "source": "https://support.fftai.com/en/gr3/getting-started/general-information"
+    },
+    {
+      "group": "Connectivity & Interfaces",
+      "key": "ethernet",
+      "label": "Wired connection",
+      "value": "Ethernet",
+      "unit": "",
+      "note": "",
+      "source": "https://support.fftai.com/en/gr3/getting-started/general-information"
+    },
+    {
+      "group": "Connectivity & Interfaces",
+      "key": "wifi",
+      "label": "Wireless",
+      "value": "Wi-Fi 6",
+      "unit": "",
+      "note": "",
+      "source": "https://support.fftai.com/en/gr3/getting-started/general-information"
+    },
+    {
+      "group": "Environment & Protection",
+      "key": "operating_temperature",
+      "label": "Operating temperature",
+      "value": "0 to 45",
+      "unit": "°C",
+      "note": "",
+      "source": "https://support.fftai.com/en/gr3/getting-started/general-information"
+    },
+    {
+      "group": "Environment & Protection",
+      "key": "operating_humidity",
+      "label": "Operating humidity",
+      "value": "20 to 80",
+      "unit": "%",
+      "note": "non-condensing",
+      "source": "https://support.fftai.com/en/gr3/getting-started/general-information"
+    },
+    {
+      "group": "Actuation & Joints",
+      "key": "joint_range",
+      "label": "Joint limit – Neck pitch",
+      "value": "-30 to 8.5",
+      "unit": "°",
+      "note": "right side mirrored",
+      "source": "https://support.fftai.com/en/gr3/getting-started/general-information",
+      "ref": "§6.2"
+    },
+    {
+      "group": "Actuation & Joints",
+      "key": "joint_range",
+      "label": "Joint limit – Neck yaw",
+      "value": "±80",
+      "unit": "°",
+      "note": "right side mirrored",
+      "source": "https://support.fftai.com/en/gr3/getting-started/general-information",
+      "ref": "§6.2"
+    },
+    {
+      "group": "Actuation & Joints",
+      "key": "joint_range",
+      "label": "Joint limit – Shoulder pitch",
+      "value": "±170",
+      "unit": "°",
+      "note": "right side mirrored",
+      "source": "https://support.fftai.com/en/gr3/getting-started/general-information",
+      "ref": "§6.2"
+    },
+    {
+      "group": "Actuation & Joints",
+      "key": "joint_range",
+      "label": "Joint limit – L shoulder roll",
+      "value": "-15 to 110",
+      "unit": "°",
+      "note": "right side mirrored",
+      "source": "https://support.fftai.com/en/gr3/getting-started/general-information",
+      "ref": "§6.2"
+    },
+    {
+      "group": "Actuation & Joints",
+      "key": "joint_range",
+      "label": "Joint limit – Shoulder yaw",
+      "value": "±105",
+      "unit": "°",
+      "note": "right side mirrored",
+      "source": "https://support.fftai.com/en/gr3/getting-started/general-information",
+      "ref": "§6.2"
+    },
+    {
+      "group": "Actuation & Joints",
+      "key": "joint_range",
+      "label": "Joint limit – Elbow pitch",
+      "value": "-130 to 5",
+      "unit": "°",
+      "note": "right side mirrored",
+      "source": "https://support.fftai.com/en/gr3/getting-started/general-information",
+      "ref": "§6.2"
+    },
+    {
+      "group": "Actuation & Joints",
+      "key": "joint_range",
+      "label": "Joint limit – Wrist yaw",
+      "value": "±105",
+      "unit": "°",
+      "note": "right side mirrored",
+      "source": "https://support.fftai.com/en/gr3/getting-started/general-information",
+      "ref": "§6.2"
+    },
+    {
+      "group": "Actuation & Joints",
+      "key": "joint_range",
+      "label": "Joint limit – Wrist pitch",
+      "value": "-50 to 75",
+      "unit": "°",
+      "note": "right side mirrored",
+      "source": "https://support.fftai.com/en/gr3/getting-started/general-information",
+      "ref": "§6.2"
+    },
+    {
+      "group": "Actuation & Joints",
+      "key": "joint_range",
+      "label": "Joint limit – L wrist roll",
+      "value": "-60 to 70",
+      "unit": "°",
+      "note": "right side mirrored",
+      "source": "https://support.fftai.com/en/gr3/getting-started/general-information",
+      "ref": "§6.2"
+    },
+    {
+      "group": "Actuation & Joints",
+      "key": "joint_range",
+      "label": "Joint limit – Waist pitch",
+      "value": "-12 to 30",
+      "unit": "°",
+      "note": "right side mirrored",
+      "source": "https://support.fftai.com/en/gr3/getting-started/general-information",
+      "ref": "§6.2"
+    },
+    {
+      "group": "Actuation & Joints",
+      "key": "joint_range",
+      "label": "Joint limit – Waist roll",
+      "value": "±10",
+      "unit": "°",
+      "note": "right side mirrored",
+      "source": "https://support.fftai.com/en/gr3/getting-started/general-information",
+      "ref": "§6.2"
+    },
+    {
+      "group": "Actuation & Joints",
+      "key": "joint_range",
+      "label": "Joint limit – Waist yaw",
+      "value": "±150",
+      "unit": "°",
+      "note": "right side mirrored",
+      "source": "https://support.fftai.com/en/gr3/getting-started/general-information",
+      "ref": "§6.2"
+    },
+    {
+      "group": "Actuation & Joints",
+      "key": "joint_range",
+      "label": "Joint limit – Hip pitch",
+      "value": "±150",
+      "unit": "°",
+      "note": "right side mirrored",
+      "source": "https://support.fftai.com/en/gr3/getting-started/general-information",
+      "ref": "§6.2"
+    },
+    {
+      "group": "Actuation & Joints",
+      "key": "joint_range",
+      "label": "Joint limit – L hip roll",
+      "value": "-10 to 90",
+      "unit": "°",
+      "note": "right side mirrored",
+      "source": "https://support.fftai.com/en/gr3/getting-started/general-information",
+      "ref": "§6.2"
+    },
+    {
+      "group": "Actuation & Joints",
+      "key": "joint_range",
+      "label": "Joint limit – L hip yaw",
+      "value": "-40 to 90",
+      "unit": "°",
+      "note": "right side mirrored",
+      "source": "https://support.fftai.com/en/gr3/getting-started/general-information",
+      "ref": "§6.2"
+    },
+    {
+      "group": "Actuation & Joints",
+      "key": "joint_range",
+      "label": "Joint limit – Knee pitch",
+      "value": "0 to 135",
+      "unit": "°",
+      "note": "right side mirrored",
+      "source": "https://support.fftai.com/en/gr3/getting-started/general-information",
+      "ref": "§6.2"
+    },
+    {
+      "group": "Actuation & Joints",
+      "key": "joint_range",
+      "label": "Joint limit – Ankle pitch",
+      "value": "±45",
+      "unit": "°",
+      "note": "right side mirrored",
+      "source": "https://support.fftai.com/en/gr3/getting-started/general-information",
+      "ref": "§6.2"
+    },
+    {
+      "group": "Actuation & Joints",
+      "key": "joint_range",
+      "label": "Joint limit – Ankle roll",
+      "value": "±25",
+      "unit": "°",
+      "note": "right side mirrored",
+      "source": "https://support.fftai.com/en/gr3/getting-started/general-information",
+      "ref": "§6.2"
+    }
+  ]
+}

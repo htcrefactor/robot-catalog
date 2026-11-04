@@ -1,0 +1,603 @@
+{
+ "id": "agilex-ranger-mini-3-0",
+ "checked": "2026-11-04",
+ "documents": [
+  {
+   "title": "RANGER MINI 3.0 User Manual V1.0.1 (2024-10)",
+   "url": "https://cdn.shopify.com/s/files/1/0551/0630/6141/files/RANGER_MINI_3.0_USER_MANUAL_56669f58-ac26-4984-8aed-4ab40f7b6c74.pdf?v=1792566920"
+  },
+  {
+   "title": "RANGER MINI 3.0 product page (AgileX global)",
+   "url": "https://global.agilex.ai/products/ranger-mini-3"
+  }
+ ],
+ "specs": [
+  {
+   "group": "Identity",
+   "key": "software_version",
+   "label": "Manual version",
+   "value": "V1.0.1 (2024-10-09)",
+   "unit": "",
+   "note": "",
+   "source": "https://cdn.shopify.com/s/files/1/0551/0630/6141/files/RANGER_MINI_3.0_USER_MANUAL_56669f58-ac26-4984-8aed-4ab40f7b6c74.pdf?v=1792566920"
+  },
+  {
+   "group": "Identity",
+   "key": "manufacturer_address",
+   "label": "Manufacturer address",
+   "value": "Head office: XbotPark, Songshan Lake, Dongguan, Guangdong, China; Sales: iPark, Nanshan District, Shenzhen",
+   "unit": "",
+   "note": "",
+   "source": "https://global.agilex.ai/products/ranger-mini-3"
+  },
+  {
+   "group": "Dimensions & Mass",
+   "key": "length",
+   "label": "Length",
+   "value": 720,
+   "unit": "mm",
+   "note": "",
+   "source": "https://cdn.shopify.com/s/files/1/0551/0630/6141/files/RANGER_MINI_3.0_USER_MANUAL_56669f58-ac26-4984-8aed-4ab40f7b6c74.pdf?v=1792566920",
+   "ref": "1.2"
+  },
+  {
+   "group": "Dimensions & Mass",
+   "key": "width",
+   "label": "Width",
+   "value": 500,
+   "unit": "mm",
+   "note": "",
+   "source": "https://cdn.shopify.com/s/files/1/0551/0630/6141/files/RANGER_MINI_3.0_USER_MANUAL_56669f58-ac26-4984-8aed-4ab40f7b6c74.pdf?v=1792566920",
+   "ref": "1.2"
+  },
+  {
+   "group": "Dimensions & Mass",
+   "key": "height",
+   "label": "Height",
+   "value": 345,
+   "unit": "mm",
+   "note": "",
+   "source": "https://cdn.shopify.com/s/files/1/0551/0630/6141/files/RANGER_MINI_3.0_USER_MANUAL_56669f58-ac26-4984-8aed-4ab40f7b6c74.pdf?v=1792566920",
+   "ref": "1.2"
+  },
+  {
+   "group": "Dimensions & Mass",
+   "key": "weight",
+   "label": "Total weight",
+   "value": 75,
+   "unit": "kg",
+   "note": "user manual",
+   "source": "https://cdn.shopify.com/s/files/1/0551/0630/6141/files/RANGER_MINI_3.0_USER_MANUAL_56669f58-ac26-4984-8aed-4ab40f7b6c74.pdf?v=1792566920",
+   "ref": "1.2"
+  },
+  {
+   "group": "Dimensions & Mass",
+   "key": "weight",
+   "label": "Weight",
+   "value": 73,
+   "unit": "kg",
+   "note": "product page",
+   "source": "https://global.agilex.ai/products/ranger-mini-3"
+  },
+  {
+   "group": "Dimensions & Mass",
+   "key": "track_width",
+   "label": "Axle track",
+   "value": 494,
+   "unit": "mm",
+   "note": "",
+   "source": "https://cdn.shopify.com/s/files/1/0551/0630/6141/files/RANGER_MINI_3.0_USER_MANUAL_56669f58-ac26-4984-8aed-4ab40f7b6c74.pdf?v=1792566920",
+   "ref": "1.2"
+  },
+  {
+   "group": "Dimensions & Mass",
+   "key": "wheelbase",
+   "label": "Front/rear track (wheelbase)",
+   "value": 370,
+   "unit": "mm",
+   "note": "listed as front/rear track",
+   "source": "https://cdn.shopify.com/s/files/1/0551/0630/6141/files/RANGER_MINI_3.0_USER_MANUAL_56669f58-ac26-4984-8aed-4ab40f7b6c74.pdf?v=1792566920",
+   "ref": "1.2"
+  },
+  {
+   "group": "Dimensions & Mass",
+   "key": "ground_clearance",
+   "label": "Ground clearance",
+   "value": 105,
+   "unit": "mm",
+   "note": "",
+   "source": "https://cdn.shopify.com/s/files/1/0551/0630/6141/files/RANGER_MINI_3.0_USER_MANUAL_56669f58-ac26-4984-8aed-4ab40f7b6c74.pdf?v=1792566920",
+   "ref": "1.2"
+  },
+  {
+   "group": "Mobility & Performance",
+   "key": "max_speed",
+   "label": "Max speed",
+   "value": 7.2,
+   "unit": "km/h",
+   "note": "",
+   "source": "https://cdn.shopify.com/s/files/1/0551/0630/6141/files/RANGER_MINI_3.0_USER_MANUAL_56669f58-ac26-4984-8aed-4ab40f7b6c74.pdf?v=1792566920",
+   "ref": "1.2"
+  },
+  {
+   "group": "Mobility & Performance",
+   "key": "max_speed",
+   "label": "Max speed",
+   "value": 2,
+   "unit": "m/s",
+   "note": "product page",
+   "source": "https://global.agilex.ai/products/ranger-mini-3"
+  },
+  {
+   "group": "Mobility & Performance",
+   "key": "max_payload",
+   "label": "Max payload",
+   "value": 120,
+   "unit": "kg",
+   "note": "",
+   "source": "https://cdn.shopify.com/s/files/1/0551/0630/6141/files/RANGER_MINI_3.0_USER_MANUAL_56669f58-ac26-4984-8aed-4ab40f7b6c74.pdf?v=1792566920",
+   "ref": "Operation Precautions"
+  },
+  {
+   "group": "Mobility & Performance",
+   "key": "turning_radius",
+   "label": "Minimum turning radius",
+   "value": "0 mm (spin mode); 810 mm (Ackermann mode)",
+   "unit": "",
+   "note": "",
+   "source": "https://cdn.shopify.com/s/files/1/0551/0630/6141/files/RANGER_MINI_3.0_USER_MANUAL_56669f58-ac26-4984-8aed-4ab40f7b6c74.pdf?v=1792566920",
+   "ref": "1.2"
+  },
+  {
+   "group": "Mobility & Performance",
+   "key": "steering",
+   "label": "Steering",
+   "value": "4-wheel drive, 4-wheel steering",
+   "unit": "",
+   "note": "",
+   "source": "https://cdn.shopify.com/s/files/1/0551/0630/6141/files/RANGER_MINI_3.0_USER_MANUAL_56669f58-ac26-4984-8aed-4ab40f7b6c74.pdf?v=1792566920",
+   "ref": "1.2"
+  },
+  {
+   "group": "Mobility & Performance",
+   "key": "motion_modes",
+   "label": "Motion modes",
+   "value": "Front-and-rear Ackermann; spin (in place); oblique/lateral (steering up to 90°); parking (X-lock)",
+   "unit": "",
+   "note": "",
+   "source": "https://cdn.shopify.com/s/files/1/0551/0630/6141/files/RANGER_MINI_3.0_USER_MANUAL_56669f58-ac26-4984-8aed-4ab40f7b6c74.pdf?v=1792566920",
+   "ref": "2.3"
+  },
+  {
+   "group": "Mobility & Performance",
+   "key": "drive_motor",
+   "label": "Drive motors",
+   "value": "4 × 350 W hub motors",
+   "unit": "",
+   "note": "",
+   "source": "https://cdn.shopify.com/s/files/1/0551/0630/6141/files/RANGER_MINI_3.0_USER_MANUAL_56669f58-ac26-4984-8aed-4ab40f7b6c74.pdf?v=1792566920",
+   "ref": "1.2"
+  },
+  {
+   "group": "Mobility & Performance",
+   "key": "steering_motor",
+   "label": "Steering motors",
+   "value": "4 × 100 W, reduction 1:51, dual encoder",
+   "unit": "",
+   "note": "",
+   "source": "https://cdn.shopify.com/s/files/1/0551/0630/6141/files/RANGER_MINI_3.0_USER_MANUAL_56669f58-ac26-4984-8aed-4ab40f7b6c74.pdf?v=1792566920",
+   "ref": "1.2"
+  },
+  {
+   "group": "Mobility & Performance",
+   "key": "drive_motor_reduction_ratio",
+   "label": "Drive motor reduction ratio",
+   "value": "1:4.428",
+   "unit": "",
+   "note": "",
+   "source": "https://cdn.shopify.com/s/files/1/0551/0630/6141/files/RANGER_MINI_3.0_USER_MANUAL_56669f58-ac26-4984-8aed-4ab40f7b6c74.pdf?v=1792566920",
+   "ref": "1.2"
+  },
+  {
+   "group": "Mobility & Performance",
+   "key": "drive_motor_encoder",
+   "label": "Drive motor sensor",
+   "value": "Encoder",
+   "unit": "",
+   "note": "",
+   "source": "https://cdn.shopify.com/s/files/1/0551/0630/6141/files/RANGER_MINI_3.0_USER_MANUAL_56669f58-ac26-4984-8aed-4ab40f7b6c74.pdf?v=1792566920",
+   "ref": "1.2"
+  },
+  {
+   "group": "Mobility & Performance",
+   "key": "speed_command_range",
+   "label": "Linear speed command range",
+   "value": "±2000",
+   "unit": "mm/s",
+   "note": "±1000 mm/s when steering angle >20°",
+   "source": "https://cdn.shopify.com/s/files/1/0551/0630/6141/files/RANGER_MINI_3.0_USER_MANUAL_56669f58-ac26-4984-8aed-4ab40f7b6c74.pdf?v=1792566920",
+   "ref": "3.2"
+  },
+  {
+   "group": "Mobility & Performance",
+   "key": "max_yaw_rate",
+   "label": "Spin speed command range",
+   "value": "±3.259",
+   "unit": "rad/s",
+   "note": "±3259 × 0.001 rad/s",
+   "source": "https://cdn.shopify.com/s/files/1/0551/0630/6141/files/RANGER_MINI_3.0_USER_MANUAL_56669f58-ac26-4984-8aed-4ab40f7b6c74.pdf?v=1792566920",
+   "ref": "3.2"
+  },
+  {
+   "group": "Mobility & Performance",
+   "key": "max_steering_angle",
+   "label": "Max steering angle",
+   "value": "±0.698 rad (Ackermann); ±1.571 rad (oblique)",
+   "unit": "",
+   "note": "",
+   "source": "https://cdn.shopify.com/s/files/1/0551/0630/6141/files/RANGER_MINI_3.0_USER_MANUAL_56669f58-ac26-4984-8aed-4ab40f7b6c74.pdf?v=1792566920",
+   "ref": "3.2"
+  },
+  {
+   "group": "Terrain & Navigation Limits",
+   "key": "max_slope",
+   "label": "Max climbing ability",
+   "value": 15,
+   "unit": "°",
+   "note": "with 25 kg load (user manual)",
+   "source": "https://cdn.shopify.com/s/files/1/0551/0630/6141/files/RANGER_MINI_3.0_USER_MANUAL_56669f58-ac26-4984-8aed-4ab40f7b6c74.pdf?v=1792566920",
+   "ref": "1.2"
+  },
+  {
+   "group": "Terrain & Navigation Limits",
+   "key": "max_slope",
+   "label": "Climb",
+   "value": 20,
+   "unit": "°",
+   "note": "product page",
+   "source": "https://global.agilex.ai/products/ranger-mini-3"
+  },
+  {
+   "group": "Terrain & Navigation Limits",
+   "key": "max_gap_crossing",
+   "label": "Crossing width",
+   "value": 120,
+   "unit": "mm",
+   "note": "",
+   "source": "https://cdn.shopify.com/s/files/1/0551/0630/6141/files/RANGER_MINI_3.0_USER_MANUAL_56669f58-ac26-4984-8aed-4ab40f7b6c74.pdf?v=1792566920",
+   "ref": "1.2"
+  },
+  {
+   "group": "Terrain & Navigation Limits",
+   "key": "max_obstacle_height",
+   "label": "Obstacle clearance",
+   "value": 75,
+   "unit": "mm",
+   "note": "",
+   "source": "https://global.agilex.ai/products/ranger-mini-3"
+  },
+  {
+   "group": "Terrain & Navigation Limits",
+   "key": "suspension",
+   "label": "Suspension",
+   "value": "Independent suspension; solid tires with swing arms",
+   "unit": "",
+   "note": "",
+   "source": "https://cdn.shopify.com/s/files/1/0551/0630/6141/files/RANGER_MINI_3.0_USER_MANUAL_56669f58-ac26-4984-8aed-4ab40f7b6c74.pdf?v=1792566920",
+   "ref": "1.2 / 2"
+  },
+  {
+   "group": "Power & Battery",
+   "key": "battery_chemistry",
+   "label": "Battery type",
+   "value": "Lithium iron phosphate",
+   "unit": "",
+   "note": "",
+   "source": "https://cdn.shopify.com/s/files/1/0551/0630/6141/files/RANGER_MINI_3.0_USER_MANUAL_56669f58-ac26-4984-8aed-4ab40f7b6c74.pdf?v=1792566920",
+   "ref": "1.2"
+  },
+  {
+   "group": "Power & Battery",
+   "key": "battery_voltage",
+   "label": "Battery voltage",
+   "value": 48,
+   "unit": "V",
+   "note": "",
+   "source": "https://cdn.shopify.com/s/files/1/0551/0630/6141/files/RANGER_MINI_3.0_USER_MANUAL_56669f58-ac26-4984-8aed-4ab40f7b6c74.pdf?v=1792566920",
+   "ref": "1.2"
+  },
+  {
+   "group": "Power & Battery",
+   "key": "battery_capacity_ah",
+   "label": "Battery capacity",
+   "value": 24,
+   "unit": "Ah",
+   "note": "",
+   "source": "https://cdn.shopify.com/s/files/1/0551/0630/6141/files/RANGER_MINI_3.0_USER_MANUAL_56669f58-ac26-4984-8aed-4ab40f7b6c74.pdf?v=1792566920",
+   "ref": "1.2"
+  },
+  {
+   "group": "Power & Battery",
+   "key": "battery_voltage_range",
+   "label": "Normal battery voltage range",
+   "value": "45 - 54",
+   "unit": "V",
+   "note": "",
+   "source": "https://cdn.shopify.com/s/files/1/0551/0630/6141/files/RANGER_MINI_3.0_USER_MANUAL_56669f58-ac26-4984-8aed-4ab40f7b6c74.pdf?v=1792566920",
+   "ref": "3.1"
+  },
+  {
+   "group": "Power & Battery",
+   "key": "battery_swappable",
+   "label": "Battery quick-swap",
+   "value": true,
+   "unit": "",
+   "note": "battery panel on right side",
+   "source": "https://cdn.shopify.com/s/files/1/0551/0630/6141/files/RANGER_MINI_3.0_USER_MANUAL_56669f58-ac26-4984-8aed-4ab40f7b6c74.pdf?v=1792566920",
+   "ref": "3.1"
+  },
+  {
+   "group": "Power & Battery",
+   "key": "runtime",
+   "label": "Maximum endurance",
+   "value": 7,
+   "unit": "h",
+   "note": "user manual",
+   "source": "https://cdn.shopify.com/s/files/1/0551/0630/6141/files/RANGER_MINI_3.0_USER_MANUAL_56669f58-ac26-4984-8aed-4ab40f7b6c74.pdf?v=1792566920",
+   "ref": "1.2"
+  },
+  {
+   "group": "Power & Battery",
+   "key": "runtime",
+   "label": "Runtime (full load)",
+   "value": 3,
+   "unit": "h",
+   "note": "product page",
+   "source": "https://global.agilex.ai/products/ranger-mini-3"
+  },
+  {
+   "group": "Power & Battery",
+   "key": "range_per_charge",
+   "label": "Maximum travel",
+   "value": 35,
+   "unit": "km",
+   "note": "user manual",
+   "source": "https://cdn.shopify.com/s/files/1/0551/0630/6141/files/RANGER_MINI_3.0_USER_MANUAL_56669f58-ac26-4984-8aed-4ab40f7b6c74.pdf?v=1792566920",
+   "ref": "1.2"
+  },
+  {
+   "group": "Power & Battery",
+   "key": "range_per_charge",
+   "label": "Max range (full load)",
+   "value": 15,
+   "unit": "km",
+   "note": "product page",
+   "source": "https://global.agilex.ai/products/ranger-mini-3"
+  },
+  {
+   "group": "Power & Battery",
+   "key": "low_battery_alarm",
+   "label": "Low battery behaviour",
+   "value": "<15% SOC lights flash; <10% cuts external and drive power",
+   "unit": "",
+   "note": "",
+   "source": "https://cdn.shopify.com/s/files/1/0551/0630/6141/files/RANGER_MINI_3.0_USER_MANUAL_56669f58-ac26-4984-8aed-4ab40f7b6c74.pdf?v=1792566920",
+   "ref": "2.1"
+  },
+  {
+   "group": "Charging & Docking",
+   "key": "charge_time",
+   "label": "Charging time",
+   "value": 1.5,
+   "unit": "h",
+   "note": "",
+   "source": "https://cdn.shopify.com/s/files/1/0551/0630/6141/files/RANGER_MINI_3.0_USER_MANUAL_56669f58-ac26-4984-8aed-4ab40f7b6c74.pdf?v=1792566920",
+   "ref": "1.2"
+  },
+  {
+   "group": "Charging & Docking",
+   "key": "max_charge_current",
+   "label": "Charger current",
+   "value": 10,
+   "unit": "A",
+   "note": "",
+   "source": "https://cdn.shopify.com/s/files/1/0551/0630/6141/files/RANGER_MINI_3.0_USER_MANUAL_56669f58-ac26-4984-8aed-4ab40f7b6c74.pdf?v=1792566920",
+   "ref": "3.1"
+  },
+  {
+   "group": "Charging & Docking",
+   "key": "charger_input",
+   "label": "Charger input",
+   "value": "AC 220 V",
+   "unit": "",
+   "note": "",
+   "source": "https://cdn.shopify.com/s/files/1/0551/0630/6141/files/RANGER_MINI_3.0_USER_MANUAL_56669f58-ac26-4984-8aed-4ab40f7b6c74.pdf?v=1792566920",
+   "ref": "1.1"
+  },
+  {
+   "group": "Environment & Protection",
+   "key": "ip_rating",
+   "label": "IP rating",
+   "value": "IP54",
+   "unit": "",
+   "note": "",
+   "source": "https://cdn.shopify.com/s/files/1/0551/0630/6141/files/RANGER_MINI_3.0_USER_MANUAL_56669f58-ac26-4984-8aed-4ab40f7b6c74.pdf?v=1792566920",
+   "ref": "1.2"
+  },
+  {
+   "group": "Environment & Protection",
+   "key": "operating_temperature",
+   "label": "Working temperature",
+   "value": "-10 to 40",
+   "unit": "°C",
+   "note": "",
+   "source": "https://cdn.shopify.com/s/files/1/0551/0630/6141/files/RANGER_MINI_3.0_USER_MANUAL_56669f58-ac26-4984-8aed-4ab40f7b6c74.pdf?v=1792566920",
+   "ref": "1.2"
+  },
+  {
+   "group": "Environment & Protection",
+   "key": "storage_temperature",
+   "label": "Battery storage temperature",
+   "value": "-10 to 40",
+   "unit": "°C",
+   "note": "",
+   "source": "https://cdn.shopify.com/s/files/1/0551/0630/6141/files/RANGER_MINI_3.0_USER_MANUAL_56669f58-ac26-4984-8aed-4ab40f7b6c74.pdf?v=1792566920",
+   "ref": "Battery"
+  },
+  {
+   "group": "Environment & Protection",
+   "key": "charging_temperature",
+   "label": "Charging temperature",
+   "value": "above 0",
+   "unit": "°C",
+   "note": "",
+   "source": "https://cdn.shopify.com/s/files/1/0551/0630/6141/files/RANGER_MINI_3.0_USER_MANUAL_56669f58-ac26-4984-8aed-4ab40f7b6c74.pdf?v=1792566920"
+  },
+  {
+   "group": "Environment & Protection",
+   "key": "max_altitude",
+   "label": "Recommended max altitude",
+   "value": 1000,
+   "unit": "m",
+   "note": "",
+   "source": "https://cdn.shopify.com/s/files/1/0551/0630/6141/files/RANGER_MINI_3.0_USER_MANUAL_56669f58-ac26-4984-8aed-4ab40f7b6c74.pdf?v=1792566920"
+  },
+  {
+   "group": "Environment & Protection",
+   "key": "max_day_night_temp_difference",
+   "label": "Max day/night temperature difference",
+   "value": 25,
+   "unit": "°C",
+   "note": "",
+   "source": "https://cdn.shopify.com/s/files/1/0551/0630/6141/files/RANGER_MINI_3.0_USER_MANUAL_56669f58-ac26-4984-8aed-4ab40f7b6c74.pdf?v=1792566920"
+  },
+  {
+   "group": "Compute & Software",
+   "key": "ros_support",
+   "label": "ROS",
+   "value": "RANGER MINI 3.0 ROS package",
+   "unit": "",
+   "note": "",
+   "source": "https://cdn.shopify.com/s/files/1/0551/0630/6141/files/RANGER_MINI_3.0_USER_MANUAL_56669f58-ac26-4984-8aed-4ab40f7b6c74.pdf?v=1792566920",
+   "ref": "3.3"
+  },
+  {
+   "group": "Connectivity & Interfaces",
+   "key": "can_bus",
+   "label": "Communication interface",
+   "value": "CAN (USB-to-CAN module included)",
+   "unit": "",
+   "note": "",
+   "source": "https://cdn.shopify.com/s/files/1/0551/0630/6141/files/RANGER_MINI_3.0_USER_MANUAL_56669f58-ac26-4984-8aed-4ab40f7b6c74.pdf?v=1792566920",
+   "ref": "1.2"
+  },
+  {
+   "group": "Connectivity & Interfaces",
+   "key": "external_ports",
+   "label": "Rear expansion connector",
+   "value": "Circular 4-pin connector: power (42-54.6 V, ≤15 A) + CAN",
+   "unit": "",
+   "note": "",
+   "source": "https://cdn.shopify.com/s/files/1/0551/0630/6141/files/RANGER_MINI_3.0_USER_MANUAL_56669f58-ac26-4984-8aed-4ab40f7b6c74.pdf?v=1792566920",
+   "ref": "2.2"
+  },
+  {
+   "group": "Payload & Mounting",
+   "key": "payload_port_power",
+   "label": "Tail extension power",
+   "value": "42-54.6 V, ≤15 A, ≤720 W",
+   "unit": "",
+   "note": "",
+   "source": "https://cdn.shopify.com/s/files/1/0551/0630/6141/files/RANGER_MINI_3.0_USER_MANUAL_56669f58-ac26-4984-8aed-4ab40f7b6c74.pdf?v=1792566920",
+   "ref": "2.2 / Precautions"
+  },
+  {
+   "group": "Payload & Mounting",
+   "key": "mounting_rail",
+   "label": "Top mounting",
+   "value": "Standard aluminum extension bracket",
+   "unit": "",
+   "note": "",
+   "source": "https://cdn.shopify.com/s/files/1/0551/0630/6141/files/RANGER_MINI_3.0_USER_MANUAL_56669f58-ac26-4984-8aed-4ab40f7b6c74.pdf?v=1792566920",
+   "ref": "2"
+  },
+  {
+   "group": "Safety & Compliance",
+   "key": "emergency_stop",
+   "label": "Emergency stop",
+   "value": "Emergency stop button",
+   "unit": "",
+   "note": "",
+   "source": "https://cdn.shopify.com/s/files/1/0551/0630/6141/files/RANGER_MINI_3.0_USER_MANUAL_56669f58-ac26-4984-8aed-4ab40f7b6c74.pdf?v=1792566920",
+   "ref": "Safety"
+  },
+  {
+   "group": "Safety & Compliance",
+   "key": "parking_brake",
+   "label": "Parking type",
+   "value": "Electronic brake",
+   "unit": "",
+   "note": "",
+   "source": "https://cdn.shopify.com/s/files/1/0551/0630/6141/files/RANGER_MINI_3.0_USER_MANUAL_56669f58-ac26-4984-8aed-4ab40f7b6c74.pdf?v=1792566920",
+   "ref": "1.2"
+  },
+  {
+   "group": "Safety & Compliance",
+   "key": "obstacle_avoidance",
+   "label": "Obstacle avoidance",
+   "value": false,
+   "unit": "",
+   "note": "no automatic obstacle avoidance sensors",
+   "source": "https://cdn.shopify.com/s/files/1/0551/0630/6141/files/RANGER_MINI_3.0_USER_MANUAL_56669f58-ac26-4984-8aed-4ab40f7b6c74.pdf?v=1792566920"
+  },
+  {
+   "group": "Controls & Operation",
+   "key": "control_modes",
+   "label": "Control modes",
+   "value": "Remote control; command control (CAN)",
+   "unit": "",
+   "note": "",
+   "source": "https://cdn.shopify.com/s/files/1/0551/0630/6141/files/RANGER_MINI_3.0_USER_MANUAL_56669f58-ac26-4984-8aed-4ab40f7b6c74.pdf?v=1792566920",
+   "ref": "1.2"
+  },
+  {
+   "group": "Controls & Operation",
+   "key": "controller",
+   "label": "RC transmitter",
+   "value": "FS 2.4 GHz, limit distance 100 m (optional)",
+   "unit": "",
+   "note": "",
+   "source": "https://cdn.shopify.com/s/files/1/0551/0630/6141/files/RANGER_MINI_3.0_USER_MANUAL_56669f58-ac26-4984-8aed-4ab40f7b6c74.pdf?v=1792566920",
+   "ref": "1.2"
+  },
+  {
+   "group": "Controls & Operation",
+   "key": "remote_range",
+   "label": "RC range",
+   "value": 100,
+   "unit": "m",
+   "note": "",
+   "source": "https://cdn.shopify.com/s/files/1/0551/0630/6141/files/RANGER_MINI_3.0_USER_MANUAL_56669f58-ac26-4984-8aed-4ab40f7b6c74.pdf?v=1792566920",
+   "ref": "1.2"
+  },
+  {
+   "group": "Audio, Lights & HMI",
+   "key": "status_lights",
+   "label": "Lights",
+   "value": "Front and rear lights (flash at low battery); RC switchable",
+   "unit": "",
+   "note": "",
+   "source": "https://cdn.shopify.com/s/files/1/0551/0630/6141/files/RANGER_MINI_3.0_USER_MANUAL_56669f58-ac26-4984-8aed-4ab40f7b6c74.pdf?v=1792566920"
+  },
+  {
+   "group": "Commercial",
+   "key": "included_accessories",
+   "label": "Product list",
+   "value": "Body, AC 220 V charger, 4-pin aviation plug, FS remote (optional), USB-to-CAN module",
+   "unit": "",
+   "note": "",
+   "source": "https://cdn.shopify.com/s/files/1/0551/0630/6141/files/RANGER_MINI_3.0_USER_MANUAL_56669f58-ac26-4984-8aed-4ab40f7b6c74.pdf?v=1792566920",
+   "ref": "1.1"
+  }
+ ]
+}

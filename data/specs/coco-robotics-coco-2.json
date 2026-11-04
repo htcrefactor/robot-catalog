@@ -1,0 +1,196 @@
+{
+ "id": "coco-robotics-coco-2",
+ "checked": "2026-11-04",
+ "documents": [
+  {
+   "title": "Coco 2 product page (Coco Robotics)",
+   "url": "https://www.cocodelivery.com/coco2"
+  },
+  {
+   "title": "Coco Robotics launches next-gen autonomous robots (press release, 2026-02-26)",
+   "url": "https://www.cocodelivery.com/blog/coco-robotics-launches-next-gen-autonomous-robots-for-urban-deliveries"
+  }
+ ],
+ "specs": [
+  {
+   "group": "Identity",
+   "key": "release_date",
+   "label": "Launch date",
+   "value": "2026-02-26",
+   "unit": "",
+   "note": "",
+   "source": "https://www.cocodelivery.com/blog/coco-robotics-launches-next-gen-autonomous-robots-for-urban-deliveries"
+  },
+  {
+   "group": "Mobility & Performance",
+   "key": "max_speed",
+   "label": "Top speed",
+   "value": 21,
+   "unit": "km/h",
+   "note": "bike lanes/roads where permitted",
+   "source": "https://www.cocodelivery.com/coco2"
+  },
+  {
+   "group": "Mobility & Performance",
+   "key": "turning_radius",
+   "label": "Turning",
+   "value": "360° turn-in-place",
+   "unit": "",
+   "note": "",
+   "source": "https://www.cocodelivery.com/coco2"
+  },
+  {
+   "group": "Power & Battery",
+   "key": "range_per_charge",
+   "label": "Range",
+   "value": 32,
+   "unit": "km",
+   "note": "",
+   "source": "https://www.cocodelivery.com/coco2"
+  },
+  {
+   "group": "Power & Battery",
+   "key": "battery_swappable",
+   "label": "Swappable battery",
+   "value": true,
+   "unit": "",
+   "note": "",
+   "source": "https://www.cocodelivery.com/coco2"
+  },
+  {
+   "group": "Terrain & Navigation Limits",
+   "key": "max_slope",
+   "label": "Max grade",
+   "value": 30,
+   "unit": "%",
+   "note": "",
+   "source": "https://www.cocodelivery.com/coco2"
+  },
+  {
+   "group": "Terrain & Navigation Limits",
+   "key": "surface_types",
+   "label": "Operating areas",
+   "value": "Sidewalks, bike lanes and roads where permitted",
+   "unit": "",
+   "note": "",
+   "source": "https://www.cocodelivery.com/blog/coco-robotics-launches-next-gen-autonomous-robots-for-urban-deliveries"
+  },
+  {
+   "group": "Terrain & Navigation Limits",
+   "key": "navigation_method",
+   "label": "Navigation",
+   "value": "Precision mapping + end-to-end neural networks + human oversight",
+   "unit": "",
+   "note": "",
+   "source": "https://www.cocodelivery.com/coco2"
+  },
+  {
+   "group": "Payload & Mounting",
+   "key": "cargo_capacity_description",
+   "label": "Cargo",
+   "value": "Fits 4 × 18-inch pizzas",
+   "unit": "",
+   "note": "",
+   "source": "https://www.cocodelivery.com/coco2"
+  },
+  {
+   "group": "Mobility & Performance",
+   "key": "tires",
+   "label": "Tires",
+   "value": "Quick-swappable tires",
+   "unit": "",
+   "note": "",
+   "source": "https://www.cocodelivery.com/coco2"
+  },
+  {
+   "group": "Sensors & Perception",
+   "key": "lidar_type",
+   "label": "LiDAR",
+   "value": "Solid-state LiDAR",
+   "unit": "",
+   "note": "",
+   "source": "https://www.cocodelivery.com/coco2"
+  },
+  {
+   "group": "Sensors & Perception",
+   "key": "camera_type",
+   "label": "Cameras",
+   "value": true,
+   "unit": "",
+   "note": "onboard cameras",
+   "source": "https://www.cocodelivery.com/coco2"
+  },
+  {
+   "group": "Sensors & Perception",
+   "key": "gps",
+   "label": "GPS",
+   "value": true,
+   "unit": "",
+   "note": "",
+   "source": "https://www.cocodelivery.com/coco2"
+  },
+  {
+   "group": "Sensors & Perception",
+   "key": "sensor_cleaning",
+   "label": "Air Blade",
+   "value": true,
+   "unit": "",
+   "note": "",
+   "source": "https://www.cocodelivery.com/coco2"
+  },
+  {
+   "group": "Compute & Software",
+   "key": "cpu",
+   "label": "Compute",
+   "value": "NVIDIA Jetson Orin NX",
+   "unit": "",
+   "note": "on-robot processing without cloud dependency",
+   "source": "https://www.cocodelivery.com/blog/coco-robotics-launches-next-gen-autonomous-robots-for-urban-deliveries"
+  },
+  {
+   "group": "Compute & Software",
+   "key": "simulation_support",
+   "label": "Simulation",
+   "value": "NVIDIA Omniverse, Isaac Sim, Isaac Lab, Cosmos world foundation models",
+   "unit": "",
+   "note": "",
+   "source": "https://www.cocodelivery.com/blog/coco-robotics-launches-next-gen-autonomous-robots-for-urban-deliveries"
+  },
+  {
+   "group": "Audio, Lights & HMI",
+   "key": "status_lights",
+   "label": "Light ring",
+   "value": "360° light ring",
+   "unit": "",
+   "note": "",
+   "source": "https://www.cocodelivery.com/coco2"
+  },
+  {
+   "group": "Controls & Operation",
+   "key": "teleoperation",
+   "label": "Pilot Terminal",
+   "value": "Human intervention terminal with ETA, navigation, obstruction alerts, map annotation",
+   "unit": "",
+   "note": "",
+   "source": "https://www.cocodelivery.com/coco2"
+  },
+  {
+   "group": "Commercial",
+   "key": "availability",
+   "label": "Platforms",
+   "value": "Uber Eats, DoorDash, Wolt",
+   "unit": "",
+   "note": "",
+   "source": "https://www.cocodelivery.com/blog/coco-robotics-launches-next-gen-autonomous-robots-for-urban-deliveries"
+  },
+  {
+   "group": "Power & Battery",
+   "key": "uptime",
+   "label": "Uptime",
+   "value": "up to 3× longer than prior generation",
+   "unit": "",
+   "note": "",
+   "source": "https://www.cocodelivery.com/blog/coco-robotics-launches-next-gen-autonomous-robots-for-urban-deliveries"
+  }
+ ]
+}

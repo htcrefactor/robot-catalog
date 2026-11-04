@@ -1,0 +1,184 @@
+{
+ "id": "serve-robotics-gen3",
+ "checked": "2026-11-04",
+ "documents": [
+  {
+   "title": "Serve Robotics Gen3 press release (GlobeNewswire, 2024-10-16)",
+   "url": "https://www.globenewswire.com/news-release/2024/10/16/2963910/0/en/Serve-Robotics-Rolls-Out-Third-Generation-Autonomous-Delivery-Robot-Platform-Upgrade-Will-Support-National-Scaling.html"
+  },
+  {
+   "title": "Serve Robotics investor deck (SEC EDGAR exhibit, 2026)",
+   "url": "https://www.sec.gov/Archives/edgar/data/1832483/000183248326000034/finalserve_investorxdeck.htm"
+  }
+ ],
+ "specs": [
+  {
+   "group": "Identity",
+   "key": "release_date",
+   "label": "Unveiled",
+   "value": "2024-10-16",
+   "unit": "",
+   "note": "first units off Magna line Oct 2024",
+   "source": "https://www.globenewswire.com/news-release/2024/10/16/2963910/0/en/Serve-Robotics-Rolls-Out-Third-Generation-Autonomous-Delivery-Robot-Platform-Upgrade-Will-Support-National-Scaling.html"
+  },
+  {
+   "group": "Identity",
+   "key": "manufacturer_address",
+   "label": "Contract manufacturer",
+   "value": "Magna International (final assembly in North America)",
+   "unit": "",
+   "note": "",
+   "source": "https://www.globenewswire.com/news-release/2024/10/16/2963910/0/en/Serve-Robotics-Rolls-Out-Third-Generation-Autonomous-Delivery-Robot-Platform-Upgrade-Will-Support-National-Scaling.html"
+  },
+  {
+   "group": "Mobility & Performance",
+   "key": "max_speed",
+   "label": "Top speed",
+   "value": 11,
+   "unit": "mph",
+   "note": "Gen2: 7 mph",
+   "source": "https://www.sec.gov/Archives/edgar/data/1832483/000183248326000034/finalserve_investorxdeck.htm",
+   "ref": "slide 11"
+  },
+  {
+   "group": "Power & Battery",
+   "key": "range_per_charge",
+   "label": "Range",
+   "value": 48,
+   "unit": "mi",
+   "note": "Gen2: 23 mi",
+   "source": "https://www.sec.gov/Archives/edgar/data/1832483/000183248326000034/finalserve_investorxdeck.htm",
+   "ref": "slide 11"
+  },
+  {
+   "group": "Power & Battery",
+   "key": "runtime",
+   "label": "Operating time",
+   "value": 14,
+   "unit": "h",
+   "note": "Gen2: 10 h",
+   "source": "https://www.sec.gov/Archives/edgar/data/1832483/000183248326000034/finalserve_investorxdeck.htm",
+   "ref": "slide 11"
+  },
+  {
+   "group": "Payload & Mounting",
+   "key": "cargo_volume",
+   "label": "Cargo",
+   "value": 15,
+   "unit": "gal",
+   "note": "4 × 16-inch pizzas; 15% more volume than Gen2",
+   "source": "https://www.sec.gov/Archives/edgar/data/1832483/000183248326000034/finalserve_investorxdeck.htm",
+   "ref": "slide 11"
+  },
+  {
+   "group": "Environment & Protection",
+   "key": "operating_temperature",
+   "label": "Weather (temperature)",
+   "value": "−4 to 113",
+   "unit": "°F",
+   "note": "Gen2: 32–104 °F",
+   "source": "https://www.sec.gov/Archives/edgar/data/1832483/000183248326000034/finalserve_investorxdeck.htm",
+   "ref": "slide 11"
+  },
+  {
+   "group": "Environment & Protection",
+   "key": "rain_rating",
+   "label": "Weather (rain)",
+   "value": "Heavy rain",
+   "unit": "",
+   "note": "improved water resistance vs Gen2 (light rain)",
+   "source": "https://www.sec.gov/Archives/edgar/data/1832483/000183248326000034/finalserve_investorxdeck.htm",
+   "ref": "slide 11"
+  },
+  {
+   "group": "Compute & Software",
+   "key": "cpu",
+   "label": "Compute",
+   "value": "NVIDIA Jetson Orin",
+   "unit": "",
+   "note": "5× more on-board compute than Gen2",
+   "source": "https://www.globenewswire.com/news-release/2024/10/16/2963910/0/en/Serve-Robotics-Rolls-Out-Third-Generation-Autonomous-Delivery-Robot-Platform-Upgrade-Will-Support-National-Scaling.html"
+  },
+  {
+   "group": "Sensors & Perception",
+   "key": "lidar_model",
+   "label": "LiDAR",
+   "value": "Ouster REV7 digital lidar",
+   "unit": "",
+   "note": "",
+   "source": "https://www.globenewswire.com/news-release/2024/10/16/2963910/0/en/Serve-Robotics-Rolls-Out-Third-Generation-Autonomous-Delivery-Robot-Platform-Upgrade-Will-Support-National-Scaling.html"
+  },
+  {
+   "group": "Sensors & Perception",
+   "key": "camera_type",
+   "label": "Sensors",
+   "value": "Full-stack AV sensors; upgraded sensor suite",
+   "unit": "",
+   "note": "",
+   "source": "https://www.sec.gov/Archives/edgar/data/1832483/000183248326000034/finalserve_investorxdeck.htm"
+  },
+  {
+   "group": "Mobility & Performance",
+   "key": "suspension",
+   "label": "Drivetrain suspension",
+   "value": true,
+   "unit": "",
+   "note": "new drivetrain with suspension",
+   "source": "https://www.globenewswire.com/news-release/2024/10/16/2963910/0/en/Serve-Robotics-Rolls-Out-Third-Generation-Autonomous-Delivery-Robot-Platform-Upgrade-Will-Support-National-Scaling.html"
+  },
+  {
+   "group": "Safety & Compliance",
+   "key": "emergency_stop",
+   "label": "Braking",
+   "value": "Fail-safe mechanical braking; enhanced emergency braking stops 40% more quickly",
+   "unit": "",
+   "note": "",
+   "source": "https://www.globenewswire.com/news-release/2024/10/16/2963910/0/en/Serve-Robotics-Rolls-Out-Third-Generation-Autonomous-Delivery-Robot-Platform-Upgrade-Will-Support-National-Scaling.html"
+  },
+  {
+   "group": "Safety & Compliance",
+   "key": "obstacle_avoidance",
+   "label": "Collision avoidance",
+   "value": "Autonomous collision avoidance",
+   "unit": "",
+   "note": "",
+   "source": "https://www.globenewswire.com/news-release/2024/10/16/2963910/0/en/Serve-Robotics-Rolls-Out-Third-Generation-Autonomous-Delivery-Robot-Platform-Upgrade-Will-Support-National-Scaling.html"
+  },
+  {
+   "group": "Controls & Operation",
+   "key": "autonomy_features",
+   "label": "Autonomy",
+   "value": "Level 4 autonomy",
+   "unit": "",
+   "note": "",
+   "source": "https://www.sec.gov/Archives/edgar/data/1832483/000183248326000034/finalserve_investorxdeck.htm"
+  },
+  {
+   "group": "Connectivity & Interfaces",
+   "key": "cellular",
+   "label": "Connectivity",
+   "value": "Redundant connectivity",
+   "unit": "",
+   "note": "",
+   "source": "https://www.sec.gov/Archives/edgar/data/1832483/000183248326000034/finalserve_investorxdeck.htm"
+  },
+  {
+   "group": "Commercial",
+   "key": "price",
+   "label": "Unit cost",
+   "value": "65% reduction vs Gen2",
+   "unit": "",
+   "note": "press release: manufacturing cost halved",
+   "source": "https://www.sec.gov/Archives/edgar/data/1832483/000183248326000034/finalserve_investorxdeck.htm"
+  },
+  {
+   "group": "Commercial",
+   "key": "availability",
+   "label": "Deployment",
+   "value": "2,000 units deployed on Uber Eats (2,000th robot Dec 2025)",
+   "unit": "",
+   "note": "",
+   "source": "https://www.sec.gov/Archives/edgar/data/1832483/000183248326000034/finalserve_investorxdeck.htm"
+  }
+ ]
+}

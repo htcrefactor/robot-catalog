@@ -1,0 +1,246 @@
+{
+ "id": "nuro-r3",
+ "checked": "2026-11-04",
+ "documents": [
+  {
+   "title": "Nuro R3 Spec Sheet (Nuro, 2022)",
+   "url": "https://nuro.sfo3.digitaloceanspaces.com/Nuro-R3-Spec-Sheet-Letter.pdf"
+  }
+ ],
+ "specs": [
+  {
+   "group": "Identity",
+   "key": "release_date",
+   "label": "Year",
+   "value": "2022",
+   "unit": "",
+   "note": "third-generation vehicle",
+   "source": "https://nuro.sfo3.digitaloceanspaces.com/Nuro-R3-Spec-Sheet-Letter.pdf"
+  },
+  {
+   "group": "Dimensions & Mass",
+   "key": "length",
+   "label": "Length",
+   "value": 3.2,
+   "unit": "m",
+   "note": "10 ft 6 in (from drawing)",
+   "source": "https://nuro.sfo3.digitaloceanspaces.com/Nuro-R3-Spec-Sheet-Letter.pdf"
+  },
+  {
+   "group": "Dimensions & Mass",
+   "key": "width",
+   "label": "Width",
+   "value": 1.44,
+   "unit": "m",
+   "note": "4 ft 9 in (from drawing)",
+   "source": "https://nuro.sfo3.digitaloceanspaces.com/Nuro-R3-Spec-Sheet-Letter.pdf"
+  },
+  {
+   "group": "Dimensions & Mass",
+   "key": "height",
+   "label": "Height",
+   "value": 2.1,
+   "unit": "m",
+   "note": "6 ft 11 in (from drawing)",
+   "source": "https://nuro.sfo3.digitaloceanspaces.com/Nuro-R3-Spec-Sheet-Letter.pdf"
+  },
+  {
+   "group": "Dimensions & Mass",
+   "key": "weight",
+   "label": "Gross weight",
+   "value": 1610,
+   "unit": "kg",
+   "note": "3,549 lb",
+   "source": "https://nuro.sfo3.digitaloceanspaces.com/Nuro-R3-Spec-Sheet-Letter.pdf"
+  },
+  {
+   "group": "Mobility & Performance",
+   "key": "max_speed",
+   "label": "Max speed",
+   "value": 45,
+   "unit": "mph",
+   "note": "",
+   "source": "https://nuro.sfo3.digitaloceanspaces.com/Nuro-R3-Spec-Sheet-Letter.pdf"
+  },
+  {
+   "group": "Mobility & Performance",
+   "key": "max_payload",
+   "label": "Payload",
+   "value": 225,
+   "unit": "kg",
+   "note": "496 lb",
+   "source": "https://nuro.sfo3.digitaloceanspaces.com/Nuro-R3-Spec-Sheet-Letter.pdf"
+  },
+  {
+   "group": "Payload & Mounting",
+   "key": "cargo_volume",
+   "label": "Carrying capacity",
+   "value": 0.917,
+   "unit": "m³",
+   "note": "32.4 ft³",
+   "source": "https://nuro.sfo3.digitaloceanspaces.com/Nuro-R3-Spec-Sheet-Letter.pdf"
+  },
+  {
+   "group": "Payload & Mounting",
+   "key": "storage_compartments",
+   "label": "Compartments",
+   "value": "Customizable compartments with modular inserts",
+   "unit": "",
+   "note": "",
+   "source": "https://nuro.sfo3.digitaloceanspaces.com/Nuro-R3-Spec-Sheet-Letter.pdf"
+  },
+  {
+   "group": "Payload & Mounting",
+   "key": "climate_control",
+   "label": "Heating and cooling",
+   "value": "HVAC system keeps food cool or hot",
+   "unit": "",
+   "note": "",
+   "source": "https://nuro.sfo3.digitaloceanspaces.com/Nuro-R3-Spec-Sheet-Letter.pdf"
+  },
+  {
+   "group": "Payload & Mounting",
+   "key": "compartment_doors",
+   "label": "Doors",
+   "value": "Curbside delivery doors",
+   "unit": "",
+   "note": "",
+   "source": "https://nuro.sfo3.digitaloceanspaces.com/Nuro-R3-Spec-Sheet-Letter.pdf"
+  },
+  {
+   "group": "Power & Battery",
+   "key": "battery_capacity",
+   "label": "Battery size",
+   "value": 52,
+   "unit": "kWh",
+   "note": "",
+   "source": "https://nuro.sfo3.digitaloceanspaces.com/Nuro-R3-Spec-Sheet-Letter.pdf"
+  },
+  {
+   "group": "Power & Battery",
+   "key": "battery_chemistry",
+   "label": "Battery technology",
+   "value": "Blade Battery",
+   "unit": "",
+   "note": "",
+   "source": "https://nuro.sfo3.digitaloceanspaces.com/Nuro-R3-Spec-Sheet-Letter.pdf"
+  },
+  {
+   "group": "Power & Battery",
+   "key": "runtime",
+   "label": "Operation",
+   "value": "Full day of operation from a single charge",
+   "unit": "",
+   "note": "",
+   "source": "https://nuro.sfo3.digitaloceanspaces.com/Nuro-R3-Spec-Sheet-Letter.pdf"
+  },
+  {
+   "group": "Charging & Docking",
+   "key": "charging_method",
+   "label": "Charge",
+   "value": "AC 6.6 kW & DC (L2, Type 1 CCS)",
+   "unit": "",
+   "note": "",
+   "source": "https://nuro.sfo3.digitaloceanspaces.com/Nuro-R3-Spec-Sheet-Letter.pdf"
+  },
+  {
+   "group": "Sensors & Perception",
+   "key": "camera_type",
+   "label": "Sensors",
+   "value": "Cameras, radar, lidar and thermal cameras; 360° view",
+   "unit": "",
+   "note": "self-cleaning sensors",
+   "source": "https://nuro.sfo3.digitaloceanspaces.com/Nuro-R3-Spec-Sheet-Letter.pdf"
+  },
+  {
+   "group": "Sensors & Perception",
+   "key": "long_range_sensors",
+   "label": "Long range sensors",
+   "value": true,
+   "unit": "",
+   "note": "",
+   "source": "https://nuro.sfo3.digitaloceanspaces.com/Nuro-R3-Spec-Sheet-Letter.pdf"
+  },
+  {
+   "group": "Sensors & Perception",
+   "key": "thermal_camera",
+   "label": "Thermal imaging cameras",
+   "value": true,
+   "unit": "",
+   "note": "",
+   "source": "https://nuro.sfo3.digitaloceanspaces.com/Nuro-R3-Spec-Sheet-Letter.pdf"
+  },
+  {
+   "group": "Sensors & Perception",
+   "key": "short_range_sensors",
+   "label": "Short range sensor module",
+   "value": true,
+   "unit": "",
+   "note": "",
+   "source": "https://nuro.sfo3.digitaloceanspaces.com/Nuro-R3-Spec-Sheet-Letter.pdf"
+  },
+  {
+   "group": "Sensors & Perception",
+   "key": "radar",
+   "label": "Short range radars",
+   "value": true,
+   "unit": "",
+   "note": "",
+   "source": "https://nuro.sfo3.digitaloceanspaces.com/Nuro-R3-Spec-Sheet-Letter.pdf"
+  },
+  {
+   "group": "Sensors & Perception",
+   "key": "microphones",
+   "label": "Audio/microphone sensors",
+   "value": true,
+   "unit": "",
+   "note": "",
+   "source": "https://nuro.sfo3.digitaloceanspaces.com/Nuro-R3-Spec-Sheet-Letter.pdf"
+  },
+  {
+   "group": "Safety & Compliance",
+   "key": "redundancy",
+   "label": "Redundant systems",
+   "value": "Redundant braking and control systems",
+   "unit": "",
+   "note": "",
+   "source": "https://nuro.sfo3.digitaloceanspaces.com/Nuro-R3-Spec-Sheet-Letter.pdf"
+  },
+  {
+   "group": "Safety & Compliance",
+   "key": "pedestrian_protection",
+   "label": "Pedestrian protection",
+   "value": "External airbag; collapsible front end",
+   "unit": "",
+   "note": "",
+   "source": "https://nuro.sfo3.digitaloceanspaces.com/Nuro-R3-Spec-Sheet-Letter.pdf"
+  },
+  {
+   "group": "Audio, Lights & HMI",
+   "key": "status_lights",
+   "label": "Lighting",
+   "value": "Automotive lighting and signals",
+   "unit": "",
+   "note": "",
+   "source": "https://nuro.sfo3.digitaloceanspaces.com/Nuro-R3-Spec-Sheet-Letter.pdf"
+  },
+  {
+   "group": "Audio, Lights & HMI",
+   "key": "display",
+   "label": "Touch screen",
+   "value": "For customer access or law-enforcement interaction",
+   "unit": "",
+   "note": "",
+   "source": "https://nuro.sfo3.digitaloceanspaces.com/Nuro-R3-Spec-Sheet-Letter.pdf"
+  },
+  {
+   "group": "Audio, Lights & HMI",
+   "key": "speaker",
+   "label": "Sound generator",
+   "value": "For pedestrian safety",
+   "unit": "",
+   "note": "",
+   "source": "https://nuro.sfo3.digitaloceanspaces.com/Nuro-R3-Spec-Sheet-Letter.pdf"
+  }
+ ]
+}

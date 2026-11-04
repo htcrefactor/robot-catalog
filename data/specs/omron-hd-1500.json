@@ -1,0 +1,745 @@
+{
+ "id": "omron-hd-1500",
+ "checked": "2026-11-04",
+ "documents": [
+  {
+   "title": "HD-1500 Autonomous Mobile Robots datasheet I855 (OMRON)",
+   "url": "https://assets.omron.eu/downloads/latest/datasheet/en/i855_hd-series_mobile_robot_datasheet_en.pdf"
+  }
+ ],
+ "specs": [
+  {
+   "group": "Identity",
+   "key": "model_number",
+   "label": "Ordering codes",
+   "value": "37483-00000 (no HAPS); 37483-10004 (with charging station, pendant, top plate); 37483-00200 (double HAPS); 37483-10204 (double HAPS + charging station, pendant, top plate)",
+   "unit": "",
+   "note": "",
+   "source": "https://assets.omron.eu/downloads/latest/datasheet/en/i855_hd-series_mobile_robot_datasheet_en.pdf",
+   "ref": "Ordering Information p.1"
+  },
+  {
+   "group": "Identity",
+   "key": "document_number",
+   "label": "Datasheet catalog number",
+   "value": "I855",
+   "unit": "",
+   "note": "",
+   "source": "https://assets.omron.eu/downloads/latest/datasheet/en/i855_hd-series_mobile_robot_datasheet_en.pdf"
+  },
+  {
+   "group": "Dimensions & Mass",
+   "key": "length",
+   "label": "Length",
+   "value": 1696,
+   "unit": "mm",
+   "note": "",
+   "source": "https://assets.omron.eu/downloads/latest/datasheet/en/i855_hd-series_mobile_robot_datasheet_en.pdf",
+   "ref": "Dimensions p.7"
+  },
+  {
+   "group": "Dimensions & Mass",
+   "key": "width",
+   "label": "Width",
+   "value": 1195,
+   "unit": "mm",
+   "note": "",
+   "source": "https://assets.omron.eu/downloads/latest/datasheet/en/i855_hd-series_mobile_robot_datasheet_en.pdf",
+   "ref": "p.7"
+  },
+  {
+   "group": "Dimensions & Mass",
+   "key": "height",
+   "label": "Height",
+   "value": 370,
+   "unit": "mm",
+   "note": "",
+   "source": "https://assets.omron.eu/downloads/latest/datasheet/en/i855_hd-series_mobile_robot_datasheet_en.pdf",
+   "ref": "p.7"
+  },
+  {
+   "group": "Dimensions & Mass",
+   "key": "weight_with_battery",
+   "label": "Weight (with battery)",
+   "value": 506,
+   "unit": "kg",
+   "note": "",
+   "source": "https://assets.omron.eu/downloads/latest/datasheet/en/i855_hd-series_mobile_robot_datasheet_en.pdf"
+  },
+  {
+   "group": "Environment & Protection",
+   "key": "operating_temperature",
+   "label": "Ambient temperature",
+   "value": "5 to 40",
+   "unit": "°C",
+   "note": "",
+   "source": "https://assets.omron.eu/downloads/latest/datasheet/en/i855_hd-series_mobile_robot_datasheet_en.pdf"
+  },
+  {
+   "group": "Environment & Protection",
+   "key": "storage_temperature",
+   "label": "Storage temperature",
+   "value": "−20 to 60",
+   "unit": "°C",
+   "note": "",
+   "source": "https://assets.omron.eu/downloads/latest/datasheet/en/i855_hd-series_mobile_robot_datasheet_en.pdf"
+  },
+  {
+   "group": "Environment & Protection",
+   "key": "operating_humidity",
+   "label": "Ambient humidity",
+   "value": "5–95",
+   "unit": "%",
+   "note": "non-condensing",
+   "source": "https://assets.omron.eu/downloads/latest/datasheet/en/i855_hd-series_mobile_robot_datasheet_en.pdf"
+  },
+  {
+   "group": "Environment & Protection",
+   "key": "indoor_outdoor",
+   "label": "Operating environment",
+   "value": "Indoor only; no corrosive or explosive gas or liquid; no ionizing radiation",
+   "unit": "",
+   "note": "",
+   "source": "https://assets.omron.eu/downloads/latest/datasheet/en/i855_hd-series_mobile_robot_datasheet_en.pdf"
+  },
+  {
+   "group": "Environment & Protection",
+   "key": "max_altitude",
+   "label": "Altitude",
+   "value": 2000,
+   "unit": "m",
+   "note": "maximum",
+   "source": "https://assets.omron.eu/downloads/latest/datasheet/en/i855_hd-series_mobile_robot_datasheet_en.pdf"
+  },
+  {
+   "group": "Environment & Protection",
+   "key": "ip_rating",
+   "label": "Ingress protection",
+   "value": "IP20",
+   "unit": "",
+   "note": "",
+   "source": "https://assets.omron.eu/downloads/latest/datasheet/en/i855_hd-series_mobile_robot_datasheet_en.pdf"
+  },
+  {
+   "group": "Environment & Protection",
+   "key": "dust_limit",
+   "label": "Dust / smoke",
+   "value": "Accumulated dust < 37 µm must not exceed 1.5 mL/m²; avoid smoke",
+   "unit": "",
+   "note": "",
+   "source": "https://assets.omron.eu/downloads/latest/datasheet/en/i855_hd-series_mobile_robot_datasheet_en.pdf"
+  },
+  {
+   "group": "Environment & Protection",
+   "key": "enclosure_rating",
+   "label": "Enclosure rating",
+   "value": "Type 1",
+   "unit": "",
+   "note": "",
+   "source": "https://assets.omron.eu/downloads/latest/datasheet/en/i855_hd-series_mobile_robot_datasheet_en.pdf"
+  },
+  {
+   "group": "Safety & Compliance",
+   "key": "cleanroom_class",
+   "label": "Cleanroom rating",
+   "value": "ISO 5 / Class 100",
+   "unit": "",
+   "note": "AMR and charging components as a complete system",
+   "source": "https://assets.omron.eu/downloads/latest/datasheet/en/i855_hd-series_mobile_robot_datasheet_en.pdf"
+  },
+  {
+   "group": "Terrain & Navigation Limits",
+   "key": "floor_flatness_requirement",
+   "label": "Floor requirements",
+   "value": "No water, oil or dirt; minimum flatness FF25 (ACI 117)",
+   "unit": "",
+   "note": "",
+   "source": "https://assets.omron.eu/downloads/latest/datasheet/en/i855_hd-series_mobile_robot_datasheet_en.pdf"
+  },
+  {
+   "group": "Terrain & Navigation Limits",
+   "key": "max_step_height",
+   "label": "Traversable step",
+   "value": 10,
+   "unit": "mm",
+   "note": "recommended 500 mm/s forward, 400 mm/s reverse",
+   "source": "https://assets.omron.eu/downloads/latest/datasheet/en/i855_hd-series_mobile_robot_datasheet_en.pdf"
+  },
+  {
+   "group": "Terrain & Navigation Limits",
+   "key": "max_gap_crossing",
+   "label": "Traversable gap",
+   "value": 20,
+   "unit": "mm",
+   "note": "",
+   "source": "https://assets.omron.eu/downloads/latest/datasheet/en/i855_hd-series_mobile_robot_datasheet_en.pdf"
+  },
+  {
+   "group": "Terrain & Navigation Limits",
+   "key": "max_slope",
+   "label": "Maximum slope",
+   "value": "5° / 8.75%",
+   "unit": "",
+   "note": "",
+   "source": "https://assets.omron.eu/downloads/latest/datasheet/en/i855_hd-series_mobile_robot_datasheet_en.pdf"
+  },
+  {
+   "group": "Terrain & Navigation Limits",
+   "key": "floor_strength_requirement",
+   "label": "Minimum floor compressive strength",
+   "value": 5,
+   "unit": "MPa",
+   "note": "",
+   "source": "https://assets.omron.eu/downloads/latest/datasheet/en/i855_hd-series_mobile_robot_datasheet_en.pdf"
+  },
+  {
+   "group": "Terrain & Navigation Limits",
+   "key": "floor_friction_coefficient",
+   "label": "Minimum coefficient of friction",
+   "value": 0.6,
+   "unit": "",
+   "note": "",
+   "source": "https://assets.omron.eu/downloads/latest/datasheet/en/i855_hd-series_mobile_robot_datasheet_en.pdf"
+  },
+  {
+   "group": "Terrain & Navigation Limits",
+   "key": "navigation_method",
+   "label": "Routing",
+   "value": "Autonomous routing by localizing with safety scanning laser based on environment mapping; capable of full reverse navigation",
+   "unit": "",
+   "note": "",
+   "source": "https://assets.omron.eu/downloads/latest/datasheet/en/i855_hd-series_mobile_robot_datasheet_en.pdf"
+  },
+  {
+   "group": "Terrain & Navigation Limits",
+   "key": "mapping",
+   "label": "Map making",
+   "value": "Drive AMR through environment; upload scan data to MobilePlanner",
+   "unit": "",
+   "note": "",
+   "source": "https://assets.omron.eu/downloads/latest/datasheet/en/i855_hd-series_mobile_robot_datasheet_en.pdf"
+  },
+  {
+   "group": "Sensors & Perception",
+   "key": "low_lasers",
+   "label": "Low lasers",
+   "value": "Two, detect obstacles below the safety scanner plane",
+   "unit": "",
+   "note": "",
+   "source": "https://assets.omron.eu/downloads/latest/datasheet/en/i855_hd-series_mobile_robot_datasheet_en.pdf"
+  },
+  {
+   "group": "Sensors & Perception",
+   "key": "supplementary_lasers",
+   "label": "Supplementary laser scanners (optional)",
+   "value": "Two optional, for object detection in the vertical plane (kit 68945-030)",
+   "unit": "",
+   "note": "",
+   "source": "https://assets.omron.eu/downloads/latest/datasheet/en/i855_hd-series_mobile_robot_datasheet_en.pdf"
+  },
+  {
+   "group": "Audio, Lights & HMI",
+   "key": "status_lights",
+   "label": "Visual indicators",
+   "value": "Light discs on sides; light strips front and back; additional indicators can be added",
+   "unit": "",
+   "note": "",
+   "source": "https://assets.omron.eu/downloads/latest/datasheet/en/i855_hd-series_mobile_robot_datasheet_en.pdf"
+  },
+  {
+   "group": "Mobility & Performance",
+   "key": "max_payload",
+   "label": "Maximum payload capacity",
+   "value": 1500,
+   "unit": "kg",
+   "note": "",
+   "source": "https://assets.omron.eu/downloads/latest/datasheet/en/i855_hd-series_mobile_robot_datasheet_en.pdf"
+  },
+  {
+   "group": "Power & Battery",
+   "key": "runtime",
+   "label": "Run time (no payload)",
+   "value": 12.5,
+   "unit": "h",
+   "note": "auxiliary power draw affects run time",
+   "source": "https://assets.omron.eu/downloads/latest/datasheet/en/i855_hd-series_mobile_robot_datasheet_en.pdf"
+  },
+  {
+   "group": "Power & Battery",
+   "key": "runtime_with_payload",
+   "label": "Run time (full payload)",
+   "value": 9,
+   "unit": "h",
+   "note": "",
+   "source": "https://assets.omron.eu/downloads/latest/datasheet/en/i855_hd-series_mobile_robot_datasheet_en.pdf"
+  },
+  {
+   "group": "Mobility & Performance",
+   "key": "max_speed",
+   "label": "Maximum translational speed",
+   "value": 1800,
+   "unit": "mm/s",
+   "note": "forward and reverse",
+   "source": "https://assets.omron.eu/downloads/latest/datasheet/en/i855_hd-series_mobile_robot_datasheet_en.pdf"
+  },
+  {
+   "group": "Mobility & Performance",
+   "key": "max_speed_reverse",
+   "label": "Maximum reverse speed",
+   "value": 1800,
+   "unit": "mm/s",
+   "note": "",
+   "source": "https://assets.omron.eu/downloads/latest/datasheet/en/i855_hd-series_mobile_robot_datasheet_en.pdf"
+  },
+  {
+   "group": "Mobility & Performance",
+   "key": "max_yaw_rate",
+   "label": "Maximum rotational speed",
+   "value": 60,
+   "unit": "°/s",
+   "note": "reduced to 45°/s above 300 mm/s",
+   "source": "https://assets.omron.eu/downloads/latest/datasheet/en/i855_hd-series_mobile_robot_datasheet_en.pdf"
+  },
+  {
+   "group": "Dimensions & Mass",
+   "key": "swing_radius",
+   "label": "Swing radius",
+   "value": 982,
+   "unit": "mm",
+   "note": "",
+   "source": "https://assets.omron.eu/downloads/latest/datasheet/en/i855_hd-series_mobile_robot_datasheet_en.pdf"
+  },
+  {
+   "group": "Dimensions & Mass",
+   "key": "turning_radius",
+   "label": "Turn radius",
+   "value": 0,
+   "unit": "mm",
+   "note": "",
+   "source": "https://assets.omron.eu/downloads/latest/datasheet/en/i855_hd-series_mobile_robot_datasheet_en.pdf"
+  },
+  {
+   "group": "Mobility & Performance",
+   "key": "max_acceleration",
+   "label": "Maximum translational acceleration",
+   "value": 900,
+   "unit": "mm/s²",
+   "note": "",
+   "source": "https://assets.omron.eu/downloads/latest/datasheet/en/i855_hd-series_mobile_robot_datasheet_en.pdf"
+  },
+  {
+   "group": "Mobility & Performance",
+   "key": "max_rotational_acceleration",
+   "label": "Maximum rotational acceleration/deceleration",
+   "value": 150,
+   "unit": "°/s²",
+   "note": "",
+   "source": "https://assets.omron.eu/downloads/latest/datasheet/en/i855_hd-series_mobile_robot_datasheet_en.pdf"
+  },
+  {
+   "group": "Payload & Mounting",
+   "key": "max_payload_inertia",
+   "label": "Maximum moment of inertia",
+   "value": 490,
+   "unit": "kg·m²",
+   "note": "",
+   "source": "https://assets.omron.eu/downloads/latest/datasheet/en/i855_hd-series_mobile_robot_datasheet_en.pdf"
+  },
+  {
+   "group": "Mobility & Performance",
+   "key": "positioning_accuracy",
+   "label": "Stop position repeatability (single AMR)",
+   "value": "to a position ±70 mm, ±2°; to standard target ±25 mm, ±2°; HAPS ±8 mm, ±0.4°; CAPS ±5 mm, ±0.4°",
+   "unit": "",
+   "note": "",
+   "source": "https://assets.omron.eu/downloads/latest/datasheet/en/i855_hd-series_mobile_robot_datasheet_en.pdf"
+  },
+  {
+   "group": "Mobility & Performance",
+   "key": "positioning_accuracy",
+   "label": "Stop position repeatability (fleet)",
+   "value": "to a position ±75 mm, ±2°; to standard target ±35 mm, ±2°; HAPS ±10 mm, ±0.75°; CAPS ±16 mm, ±0.5°",
+   "unit": "",
+   "note": "",
+   "source": "https://assets.omron.eu/downloads/latest/datasheet/en/i855_hd-series_mobile_robot_datasheet_en.pdf"
+  },
+  {
+   "group": "Mobility & Performance",
+   "key": "drive_wheel_material",
+   "label": "Drive wheel material",
+   "value": "Non-marking, static-dissipative polyurethane on steel rim",
+   "unit": "",
+   "note": "",
+   "source": "https://assets.omron.eu/downloads/latest/datasheet/en/i855_hd-series_mobile_robot_datasheet_en.pdf"
+  },
+  {
+   "group": "Mobility & Performance",
+   "key": "caster_material",
+   "label": "Passive caster material",
+   "value": "Non-marking polyurethane on cast iron rim",
+   "unit": "",
+   "note": "",
+   "source": "https://assets.omron.eu/downloads/latest/datasheet/en/i855_hd-series_mobile_robot_datasheet_en.pdf"
+  },
+  {
+   "group": "Payload & Mounting",
+   "key": "payload_port_power",
+   "label": "Auxiliary power (unregulated)",
+   "value": "48 to 57 VDC (52.8 nominal); 50 A fused",
+   "unit": "",
+   "note": "",
+   "source": "https://assets.omron.eu/downloads/latest/datasheet/en/i855_hd-series_mobile_robot_datasheet_en.pdf"
+  },
+  {
+   "group": "Payload & Mounting",
+   "key": "payload_port_power",
+   "label": "Auxiliary power (regulated)",
+   "value": "23 to 25 VDC; two channels fused at 1.6 A",
+   "unit": "",
+   "note": "",
+   "source": "https://assets.omron.eu/downloads/latest/datasheet/en/i855_hd-series_mobile_robot_datasheet_en.pdf"
+  },
+  {
+   "group": "Safety & Compliance",
+   "key": "safety_standards",
+   "label": "Standards (AMR)",
+   "value": "EN ISO 12100; EN ISO 13849-1; EN 60204-1; EN ISO 10218-1; EN 61326-3-1; EN 61326-1; EN ISO 3691-4; EN 12895; CAN/CSA Z434; CAN/UL 3100; KS C 9610-6-2; KS C 9610-6-4",
+   "unit": "",
+   "note": "",
+   "source": "https://assets.omron.eu/downloads/latest/datasheet/en/i855_hd-series_mobile_robot_datasheet_en.pdf"
+  },
+  {
+   "group": "Safety & Compliance",
+   "key": "battery_standards",
+   "label": "Standards (battery)",
+   "value": "ANSI/CAN/UL/ULC 2271; UN 38.3",
+   "unit": "",
+   "note": "",
+   "source": "https://assets.omron.eu/downloads/latest/datasheet/en/i855_hd-series_mobile_robot_datasheet_en.pdf"
+  },
+  {
+   "group": "Safety & Compliance",
+   "key": "dock_standards",
+   "label": "Standards (charging station)",
+   "value": "UL 1012; CAN/CSA C22.2.107.2; EN 61204-7; EN 62477-1",
+   "unit": "",
+   "note": "",
+   "source": "https://assets.omron.eu/downloads/latest/datasheet/en/i855_hd-series_mobile_robot_datasheet_en.pdf"
+  },
+  {
+   "group": "Safety & Compliance",
+   "key": "certifications",
+   "label": "Certification markings",
+   "value": "AMR: cTUVus, KC; battery: cURus, CE; power supply box: cTUVus; docking target: cTUVus",
+   "unit": "",
+   "note": "",
+   "source": "https://assets.omron.eu/downloads/latest/datasheet/en/i855_hd-series_mobile_robot_datasheet_en.pdf"
+  },
+  {
+   "group": "Connectivity & Interfaces",
+   "key": "wifi",
+   "label": "Wireless",
+   "value": "IEEE 802.11 a/b/g; two integrated antennas",
+   "unit": "",
+   "note": "",
+   "source": "https://assets.omron.eu/downloads/latest/datasheet/en/i855_hd-series_mobile_robot_datasheet_en.pdf"
+  },
+  {
+   "group": "Connectivity & Interfaces",
+   "key": "ethernet",
+   "label": "Ethernet",
+   "value": "One RJ-45 port for maintenance and access to internal NX102 unit",
+   "unit": "",
+   "note": "",
+   "source": "https://assets.omron.eu/downloads/latest/datasheet/en/i855_hd-series_mobile_robot_datasheet_en.pdf"
+  },
+  {
+   "group": "Compute & Software",
+   "key": "plc",
+   "label": "Internal controller",
+   "value": "OMRON NX102 unit (internally mounted)",
+   "unit": "",
+   "note": "",
+   "source": "https://assets.omron.eu/downloads/latest/datasheet/en/i855_hd-series_mobile_robot_datasheet_en.pdf"
+  },
+  {
+   "group": "Connectivity & Interfaces",
+   "key": "gpio",
+   "label": "Digital I/O",
+   "value": "8 PNP (sourcing) inputs; 8 PNP (sourcing) outputs",
+   "unit": "",
+   "note": "",
+   "source": "https://assets.omron.eu/downloads/latest/datasheet/en/i855_hd-series_mobile_robot_datasheet_en.pdf"
+  },
+  {
+   "group": "Connectivity & Interfaces",
+   "key": "analog_io",
+   "label": "Analog I/O",
+   "value": "4 inputs and 4 outputs, −10 to 10 VDC",
+   "unit": "",
+   "note": "",
+   "source": "https://assets.omron.eu/downloads/latest/datasheet/en/i855_hd-series_mobile_robot_datasheet_en.pdf"
+  },
+  {
+   "group": "Connectivity & Interfaces",
+   "key": "audio_io",
+   "label": "Audio",
+   "value": "Digital audio out",
+   "unit": "",
+   "note": "",
+   "source": "https://assets.omron.eu/downloads/latest/datasheet/en/i855_hd-series_mobile_robot_datasheet_en.pdf"
+  },
+  {
+   "group": "Sensors & Perception",
+   "key": "safety_scanner",
+   "label": "Safety scanning lasers",
+   "value": "Two, 360° detection around AMR; scan plane 181 mm above floor",
+   "unit": "",
+   "note": "",
+   "source": "https://assets.omron.eu/downloads/latest/datasheet/en/i855_hd-series_mobile_robot_datasheet_en.pdf"
+  },
+  {
+   "group": "Safety & Compliance",
+   "key": "laser_class",
+   "label": "Laser class",
+   "value": "Class 1M, eye-safe (IEC 60825-1, 21 CFR 1040.10/1040.11)",
+   "unit": "",
+   "note": "",
+   "source": "https://assets.omron.eu/downloads/latest/datasheet/en/i855_hd-series_mobile_robot_datasheet_en.pdf"
+  },
+  {
+   "group": "Safety & Compliance",
+   "key": "safety_zones",
+   "label": "Safety laser scanner zone sets",
+   "value": "Safety-rated alternate zone inputs toggle default/alternate configurations",
+   "unit": "",
+   "note": "",
+   "source": "https://assets.omron.eu/downloads/latest/datasheet/en/i855_hd-series_mobile_robot_datasheet_en.pdf"
+  },
+  {
+   "group": "Safety & Compliance",
+   "key": "emergency_stop",
+   "label": "E-STOP buttons",
+   "value": "Five on AMR (sides and operator panel); additional can be added to payload",
+   "unit": "",
+   "note": "",
+   "source": "https://assets.omron.eu/downloads/latest/datasheet/en/i855_hd-series_mobile_robot_datasheet_en.pdf"
+  },
+  {
+   "group": "Audio, Lights & HMI",
+   "key": "speaker",
+   "label": "Audible indicators",
+   "value": "Two speakers; additional buzzers can be added",
+   "unit": "",
+   "note": "",
+   "source": "https://assets.omron.eu/downloads/latest/datasheet/en/i855_hd-series_mobile_robot_datasheet_en.pdf"
+  },
+  {
+   "group": "Connectivity & Interfaces",
+   "key": "safety_io",
+   "label": "Safety interfaces",
+   "value": "Dual-channel E-stop inputs/outputs; dual-channel safety outputs; dual-channel protective stop inputs",
+   "unit": "",
+   "note": "",
+   "source": "https://assets.omron.eu/downloads/latest/datasheet/en/i855_hd-series_mobile_robot_datasheet_en.pdf"
+  },
+  {
+   "group": "Audio, Lights & HMI",
+   "key": "display",
+   "label": "Operator panel display",
+   "value": "178 mm diagonal LCD",
+   "unit": "",
+   "note": "",
+   "source": "https://assets.omron.eu/downloads/latest/datasheet/en/i855_hd-series_mobile_robot_datasheet_en.pdf"
+  },
+  {
+   "group": "Controls & Operation",
+   "key": "operator_buttons",
+   "label": "Operator panel controls",
+   "value": "E-STOP; ON/OFF; brake release; pendant port; maintenance port; main disconnect switch",
+   "unit": "",
+   "note": "",
+   "source": "https://assets.omron.eu/downloads/latest/datasheet/en/i855_hd-series_mobile_robot_datasheet_en.pdf"
+  },
+  {
+   "group": "Controls & Operation",
+   "key": "controller",
+   "label": "Pendant",
+   "value": "Handheld, three-position enabling switch; 0–40 °C; IP30; for manual driving/map creation (68940-000L)",
+   "unit": "",
+   "note": "",
+   "source": "https://assets.omron.eu/downloads/latest/datasheet/en/i855_hd-series_mobile_robot_datasheet_en.pdf"
+  },
+  {
+   "group": "Power & Battery",
+   "key": "battery_chemistry",
+   "label": "Battery type",
+   "value": "Lithium-ion (LiFePO4)",
+   "unit": "",
+   "note": "ordering code 68330-000, ordered separately",
+   "source": "https://assets.omron.eu/downloads/latest/datasheet/en/i855_hd-series_mobile_robot_datasheet_en.pdf"
+  },
+  {
+   "group": "Power & Battery",
+   "key": "battery_voltage",
+   "label": "Battery voltage",
+   "value": "48 to 57",
+   "unit": "VDC",
+   "note": "52.8 VDC nominal",
+   "source": "https://assets.omron.eu/downloads/latest/datasheet/en/i855_hd-series_mobile_robot_datasheet_en.pdf"
+  },
+  {
+   "group": "Power & Battery",
+   "key": "battery_capacity_ah",
+   "label": "Battery capacity",
+   "value": 68,
+   "unit": "Ah",
+   "note": "nominal",
+   "source": "https://assets.omron.eu/downloads/latest/datasheet/en/i855_hd-series_mobile_robot_datasheet_en.pdf"
+  },
+  {
+   "group": "Charging & Docking",
+   "key": "charge_time",
+   "label": "Recharge time",
+   "value": "24 min",
+   "unit": "",
+   "note": "20% to 80%",
+   "source": "https://assets.omron.eu/downloads/latest/datasheet/en/i855_hd-series_mobile_robot_datasheet_en.pdf"
+  },
+  {
+   "group": "Power & Battery",
+   "key": "battery_cycle_life",
+   "label": "Charge cycles",
+   "value": "approx. 8000",
+   "unit": "cycles",
+   "note": "~80% capacity after 100% DoD at 23 °C",
+   "source": "https://assets.omron.eu/downloads/latest/datasheet/en/i855_hd-series_mobile_robot_datasheet_en.pdf"
+  },
+  {
+   "group": "Charging & Docking",
+   "key": "charging_method",
+   "label": "Charging method",
+   "value": "Automatic or manual",
+   "unit": "",
+   "note": "",
+   "source": "https://assets.omron.eu/downloads/latest/datasheet/en/i855_hd-series_mobile_robot_datasheet_en.pdf"
+  },
+  {
+   "group": "Power & Battery",
+   "key": "battery_swappable",
+   "label": "Battery removable",
+   "value": true,
+   "unit": "",
+   "note": "",
+   "source": "https://assets.omron.eu/downloads/latest/datasheet/en/i855_hd-series_mobile_robot_datasheet_en.pdf"
+  },
+  {
+   "group": "Charging & Docking",
+   "key": "charging_temperature",
+   "label": "Battery operating temperature",
+   "value": "5 to 40",
+   "unit": "°C",
+   "note": "",
+   "source": "https://assets.omron.eu/downloads/latest/datasheet/en/i855_hd-series_mobile_robot_datasheet_en.pdf"
+  },
+  {
+   "group": "Charging & Docking",
+   "key": "charger_input",
+   "label": "Charging station input",
+   "value": "3-phase 200–240 VAC 50/60 Hz (Delta/Wye) or 380–415 VAC 50/60 Hz (Wye); input current 25 A",
+   "unit": "",
+   "note": "",
+   "source": "https://assets.omron.eu/downloads/latest/datasheet/en/i855_hd-series_mobile_robot_datasheet_en.pdf"
+  },
+  {
+   "group": "Charging & Docking",
+   "key": "charger_power",
+   "label": "Charging station power",
+   "value": "7.75 kW consumption; 6.84 kW max output; 40–57 VDC; 120 A nominal output (fused 150 A)",
+   "unit": "",
+   "note": "",
+   "source": "https://assets.omron.eu/downloads/latest/datasheet/en/i855_hd-series_mobile_robot_datasheet_en.pdf"
+  },
+  {
+   "group": "Charging & Docking",
+   "key": "dock_specs",
+   "label": "Charging station",
+   "value": "Power supply box 108 kg; docking target 27 kg; IP20 (IP10 charging pads); 5–40 °C; ISO 5 cleanroom",
+   "unit": "",
+   "note": "",
+   "source": "https://assets.omron.eu/downloads/latest/datasheet/en/i855_hd-series_mobile_robot_datasheet_en.pdf"
+  },
+  {
+   "group": "Compute & Software",
+   "key": "fleet_software",
+   "label": "Fleet software",
+   "value": "FLOW Core / Fleet Operations Workspace; FLOW iQ optional; Unified Fleet license",
+   "unit": "",
+   "note": "",
+   "source": "https://assets.omron.eu/downloads/latest/datasheet/en/i855_hd-series_mobile_robot_datasheet_en.pdf"
+  },
+  {
+   "group": "Compute & Software",
+   "key": "software_version",
+   "label": "Minimum software version",
+   "value": "FLOW Core 4.0",
+   "unit": "",
+   "note": "",
+   "source": "https://assets.omron.eu/downloads/latest/datasheet/en/i855_hd-series_mobile_robot_datasheet_en.pdf"
+  },
+  {
+   "group": "Compute & Software",
+   "key": "mission_software",
+   "label": "Configuration software",
+   "value": "MobilePlanner (Windows 10/11 64-bit; tablet edition Android 9+ / iOS 10+)",
+   "unit": "",
+   "note": "",
+   "source": "https://assets.omron.eu/downloads/latest/datasheet/en/i855_hd-series_mobile_robot_datasheet_en.pdf"
+  },
+  {
+   "group": "Compute & Software",
+   "key": "api",
+   "label": "Integration APIs",
+   "value": "ARCL; Fleet Operations Workspace Core Integration Toolkit MQTT API",
+   "unit": "",
+   "note": "",
+   "source": "https://assets.omron.eu/downloads/latest/datasheet/en/i855_hd-series_mobile_robot_datasheet_en.pdf"
+  },
+  {
+   "group": "Sensors & Perception",
+   "key": "haps",
+   "label": "High Accuracy Positioning System (HAPS)",
+   "value": "Magnetic tape sensor, IP64, −40 to 85 °C; single 68925-010 / double 68925-020",
+   "unit": "",
+   "note": "",
+   "source": "https://assets.omron.eu/downloads/latest/datasheet/en/i855_hd-series_mobile_robot_datasheet_en.pdf"
+  },
+  {
+   "group": "Commercial",
+   "key": "included_accessories",
+   "label": "Included items",
+   "value": "Labels; USB drive with docs/software; printed safety/unpacking/declaration docs; lift kit (straps and hardware)",
+   "unit": "",
+   "note": "",
+   "source": "https://assets.omron.eu/downloads/latest/datasheet/en/i855_hd-series_mobile_robot_datasheet_en.pdf"
+  },
+  {
+   "group": "Commercial",
+   "key": "optional_accessories",
+   "label": "Optional items",
+   "value": "Supplementary laser scanner kit 68945-030; Mobile I/O Box 23419-802; top plate kit 68950-000; pendant 68940-000L; power supply box 73990-000; docking target 68910-000; battery 68330-000; antenna extension kit 68955-000; HAPS",
+   "unit": "",
+   "note": "",
+   "source": "https://assets.omron.eu/downloads/latest/datasheet/en/i855_hd-series_mobile_robot_datasheet_en.pdf"
+  },
+  {
+   "group": "Commercial",
+   "key": "warranty",
+   "label": "Warranty",
+   "value": "12 months from date of sale",
+   "unit": "",
+   "note": "",
+   "source": "https://assets.omron.eu/downloads/latest/datasheet/en/i855_hd-series_mobile_robot_datasheet_en.pdf"
+  }
+ ]
+}

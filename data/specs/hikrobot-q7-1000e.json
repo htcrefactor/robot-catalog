@@ -1,0 +1,447 @@
+{
+ "id": "hikrobot-q7-1000e",
+ "checked": "2026-11-04",
+ "documents": [
+  {
+   "title": "MR-Q7-1000LE-EI(CE) Latent Mobile Robot datasheet (Hikrobot, distributor-hosted)",
+   "url": "https://dev-images.bluestarinc-emea.com/pdf/4753-datasheet.pdf"
+  },
+  {
+   "title": "Q7-1000E main model parameters (Hikrobot LMR wiki)",
+   "url": "https://wiki-lmr.rms.hikrobotics.com/AMR/LMR/Q7/Q7-1000E/Quick-Start/Q7-1000E-parameters"
+  },
+  {
+   "title": "Latent Mobile Robot MR-Q7-1000E(HI)(CE) catalog (Hikrobot on DirectIndustry)",
+   "url": "https://pdf.directindustry.com/pdf/hikrobot/latent-mobile-robot-mr-q7-1000e-hl-ce/242099-1031638.html"
+  },
+  {
+   "title": "Hikrobot Mobile Robot Product Catalog R.101.EN.23Q1.1",
+   "url": "https://www.mbintell.com/assets/doc/Hikrobot%20Mobile%20Robot%20Product%20Catalog_R.101.EN.23Q1.1.pdf"
+  }
+ ],
+ "specs": [
+  {
+   "group": "Identity",
+   "key": "robot_type",
+   "label": "Robot type",
+   "value": "Latent mobile robot (LMR), lifts and carries racks/shelves",
+   "unit": "",
+   "note": "",
+   "source": "https://dev-images.bluestarinc-emea.com/pdf/4753-datasheet.pdf"
+  },
+  {
+   "group": "Identity",
+   "key": "model_number",
+   "label": "Model numbers (CE)",
+   "value": "MR-Q7-1000LE-EI(CE) (laser SLAM); MR-Q7-1000CE-EI(CE) (2D code); MR-Q7-1000VE-EI(CE) (visual SLAM)",
+   "unit": "",
+   "note": "",
+   "source": "https://dev-images.bluestarinc-emea.com/pdf/4753-datasheet.pdf"
+  },
+  {
+   "group": "Identity",
+   "key": "model_number",
+   "label": "Model numbers (wiki main models)",
+   "value": "MR-Q7-1000CE-E4(MF) (material code 307302442); MR-Q7-1000LE-E2(MC) (307306012)",
+   "unit": "",
+   "note": "",
+   "source": "https://wiki-lmr.rms.hikrobotics.com/AMR/LMR/Q7/Q7-1000E/Quick-Start/Q7-1000E-parameters"
+  },
+  {
+   "group": "Identity",
+   "key": "part_number",
+   "label": "Material code (MR-Q7-1000CE-E1(HI)(CE))",
+   "value": "307301735",
+   "unit": "",
+   "note": "",
+   "source": "https://pdf.directindustry.com/pdf/hikrobot/latent-mobile-robot-mr-q7-1000e-hl-ce/242099-1031638.html"
+  },
+  {
+   "group": "Dimensions & Mass",
+   "key": "length",
+   "label": "Length",
+   "value": 1150,
+   "unit": "mm",
+   "note": "",
+   "source": "https://dev-images.bluestarinc-emea.com/pdf/4753-datasheet.pdf"
+  },
+  {
+   "group": "Dimensions & Mass",
+   "key": "width",
+   "label": "Width",
+   "value": 820,
+   "unit": "mm",
+   "note": "",
+   "source": "https://dev-images.bluestarinc-emea.com/pdf/4753-datasheet.pdf"
+  },
+  {
+   "group": "Dimensions & Mass",
+   "key": "height",
+   "label": "Height",
+   "value": 254,
+   "unit": "mm",
+   "note": "CE datasheet; 252 mm per Hikrobot wiki (E4/E2 models); 256 mm in 2023 catalog",
+   "source": "https://dev-images.bluestarinc-emea.com/pdf/4753-datasheet.pdf"
+  },
+  {
+   "group": "Dimensions & Mass",
+   "key": "rotation_diameter",
+   "label": "Rotation diameter",
+   "value": 1200,
+   "unit": "mm",
+   "note": "",
+   "source": "https://dev-images.bluestarinc-emea.com/pdf/4753-datasheet.pdf"
+  },
+  {
+   "group": "Dimensions & Mass",
+   "key": "ground_clearance",
+   "label": "Chassis above the ground",
+   "value": 25,
+   "unit": "mm",
+   "note": "",
+   "source": "https://dev-images.bluestarinc-emea.com/pdf/4753-datasheet.pdf"
+  },
+  {
+   "group": "Payload & Mounting",
+   "key": "lift_platform_size",
+   "label": "Lifting tray dimension",
+   "value": "1030 × 770",
+   "unit": "mm",
+   "note": "",
+   "source": "https://dev-images.bluestarinc-emea.com/pdf/4753-datasheet.pdf"
+  },
+  {
+   "group": "Payload & Mounting",
+   "key": "max_lift_height",
+   "label": "Lifting height",
+   "value": 60,
+   "unit": "mm",
+   "note": "",
+   "source": "https://dev-images.bluestarinc-emea.com/pdf/4753-datasheet.pdf"
+  },
+  {
+   "group": "Payload & Mounting",
+   "key": "lift_speed",
+   "label": "Lifting speed",
+   "value": 20,
+   "unit": "mm/s",
+   "note": "",
+   "source": "https://wiki-lmr.rms.hikrobotics.com/AMR/LMR/Q7/Q7-1000E/Quick-Start/Q7-1000E-parameters"
+  },
+  {
+   "group": "Payload & Mounting",
+   "key": "lift_type",
+   "label": "Lifting type",
+   "value": "Electric",
+   "unit": "",
+   "note": "",
+   "source": "https://dev-images.bluestarinc-emea.com/pdf/4753-datasheet.pdf"
+  },
+  {
+   "group": "Dimensions & Mass",
+   "key": "weight",
+   "label": "Weight",
+   "value": 178,
+   "unit": "kg",
+   "note": "CE datasheet; 167 kg per Hikrobot wiki (E4/E2 models); 185 kg in 2023 catalog",
+   "source": "https://dev-images.bluestarinc-emea.com/pdf/4753-datasheet.pdf"
+  },
+  {
+   "group": "Mobility & Performance",
+   "key": "rated_payload",
+   "label": "Rated load",
+   "value": 1000,
+   "unit": "kg",
+   "note": "",
+   "source": "https://dev-images.bluestarinc-emea.com/pdf/4753-datasheet.pdf"
+  },
+  {
+   "group": "Terrain & Navigation Limits",
+   "key": "navigation_method",
+   "label": "Navigation mode",
+   "value": "Laser SLAM / 2D barcode / visual SLAM (ground texture); inertial + 2D code",
+   "unit": "",
+   "note": "depends on model variant",
+   "source": "https://dev-images.bluestarinc-emea.com/pdf/4753-datasheet.pdf"
+  },
+  {
+   "group": "Audio, Lights & HMI",
+   "key": "display",
+   "label": "Human-machine interaction",
+   "value": "Touch screen; sound and indicator lights",
+   "unit": "",
+   "note": "",
+   "source": "https://dev-images.bluestarinc-emea.com/pdf/4753-datasheet.pdf"
+  },
+  {
+   "group": "Sensors & Perception",
+   "key": "lidar_fov",
+   "label": "Front laser obstacle avoidance",
+   "value": "Scanning angle 260°; installation height 182 mm",
+   "unit": "",
+   "note": "",
+   "source": "https://dev-images.bluestarinc-emea.com/pdf/4753-datasheet.pdf"
+  },
+  {
+   "group": "Sensors & Perception",
+   "key": "lidar_range",
+   "label": "Front laser max. detection range",
+   "value": 20,
+   "unit": "m",
+   "note": "",
+   "source": "https://dev-images.bluestarinc-emea.com/pdf/4753-datasheet.pdf"
+  },
+  {
+   "group": "Sensors & Perception",
+   "key": "ultrasonic_sensors",
+   "label": "Side ultrasonic obstacle avoidance",
+   "value": "One each on left and right; height 188 mm; opening angle H 80° / V 34°; range 0.2–1 m",
+   "unit": "",
+   "note": "CE version",
+   "source": "https://dev-images.bluestarinc-emea.com/pdf/4753-datasheet.pdf"
+  },
+  {
+   "group": "Sensors & Perception",
+   "key": "bumper",
+   "label": "Bumper strip detection",
+   "value": "Pneumatic bumper strips, front and rear",
+   "unit": "",
+   "note": "",
+   "source": "https://dev-images.bluestarinc-emea.com/pdf/4753-datasheet.pdf"
+  },
+  {
+   "group": "Safety & Compliance",
+   "key": "emergency_stop",
+   "label": "Emergency stop button",
+   "value": "Front and rear",
+   "unit": "",
+   "note": "",
+   "source": "https://dev-images.bluestarinc-emea.com/pdf/4753-datasheet.pdf"
+  },
+  {
+   "group": "Audio, Lights & HMI",
+   "key": "warning_system",
+   "label": "Sound and light alarm",
+   "value": true,
+   "unit": "",
+   "note": "",
+   "source": "https://wiki-lmr.rms.hikrobotics.com/AMR/LMR/Q7/Q7-1000E/Quick-Start/Q7-1000E-parameters"
+  },
+  {
+   "group": "Mobility & Performance",
+   "key": "max_speed",
+   "label": "Rated running speed (empty)",
+   "value": 2.0,
+   "unit": "m/s",
+   "note": "",
+   "source": "https://dev-images.bluestarinc-emea.com/pdf/4753-datasheet.pdf"
+  },
+  {
+   "group": "Mobility & Performance",
+   "key": "rated_speed_loaded",
+   "label": "Rated running speed (rated load)",
+   "value": 1.8,
+   "unit": "m/s",
+   "note": "",
+   "source": "https://dev-images.bluestarinc-emea.com/pdf/4753-datasheet.pdf"
+  },
+  {
+   "group": "Mobility & Performance",
+   "key": "max_acceleration",
+   "label": "Rated acceleration (empty)",
+   "value": 1.0,
+   "unit": "m/s²",
+   "note": "",
+   "source": "https://dev-images.bluestarinc-emea.com/pdf/4753-datasheet.pdf"
+  },
+  {
+   "group": "Mobility & Performance",
+   "key": "max_acceleration",
+   "label": "Rated acceleration (rated load)",
+   "value": 0.6,
+   "unit": "m/s²",
+   "note": "CE datasheet; 0.5 m/s² per Hikrobot wiki",
+   "source": "https://dev-images.bluestarinc-emea.com/pdf/4753-datasheet.pdf"
+  },
+  {
+   "group": "Mobility & Performance",
+   "key": "max_yaw_rate",
+   "label": "Rotation speed (empty)",
+   "value": 200,
+   "unit": "°/s",
+   "note": "",
+   "source": "https://dev-images.bluestarinc-emea.com/pdf/4753-datasheet.pdf"
+  },
+  {
+   "group": "Mobility & Performance",
+   "key": "max_yaw_rate",
+   "label": "Rotation speed (rated load)",
+   "value": 60,
+   "unit": "°/s",
+   "note": "CE datasheet; 100°/s per Hikrobot wiki",
+   "source": "https://dev-images.bluestarinc-emea.com/pdf/4753-datasheet.pdf"
+  },
+  {
+   "group": "Terrain & Navigation Limits",
+   "key": "max_slope",
+   "label": "Gradeability",
+   "value": 4,
+   "unit": "°",
+   "note": "CE datasheet; 3° per Hikrobot wiki",
+   "source": "https://dev-images.bluestarinc-emea.com/pdf/4753-datasheet.pdf"
+  },
+  {
+   "group": "Mobility & Performance",
+   "key": "positioning_accuracy",
+   "label": "Location accuracy",
+   "value": "±10",
+   "unit": "mm",
+   "note": "2D code model; ±20 mm for laser-SLAM E2 model per wiki; ideal conditions",
+   "source": "https://dev-images.bluestarinc-emea.com/pdf/4753-datasheet.pdf"
+  },
+  {
+   "group": "Mobility & Performance",
+   "key": "rotation_accuracy",
+   "label": "Location angle accuracy",
+   "value": "±1",
+   "unit": "°",
+   "note": "±2° for laser-SLAM E2 model per wiki",
+   "source": "https://dev-images.bluestarinc-emea.com/pdf/4753-datasheet.pdf"
+  },
+  {
+   "group": "Mobility & Performance",
+   "key": "drive_type",
+   "label": "Drive",
+   "value": "Dual-wheel differential drive (forward, backward, rotation)",
+   "unit": "",
+   "note": "",
+   "source": "https://dev-images.bluestarinc-emea.com/pdf/4753-datasheet.pdf"
+  },
+  {
+   "group": "Power & Battery",
+   "key": "battery_chemistry",
+   "label": "Battery type",
+   "value": "LiFePO4",
+   "unit": "",
+   "note": "",
+   "source": "https://dev-images.bluestarinc-emea.com/pdf/4753-datasheet.pdf"
+  },
+  {
+   "group": "Power & Battery",
+   "key": "battery_voltage",
+   "label": "Rated voltage",
+   "value": 48,
+   "unit": "V",
+   "note": "",
+   "source": "https://dev-images.bluestarinc-emea.com/pdf/4753-datasheet.pdf"
+  },
+  {
+   "group": "Power & Battery",
+   "key": "battery_cycle_life",
+   "label": "Charge cycles",
+   "value": 1500,
+   "unit": "cycles",
+   "note": "full charge/discharge",
+   "source": "https://dev-images.bluestarinc-emea.com/pdf/4753-datasheet.pdf"
+  },
+  {
+   "group": "Power & Battery",
+   "key": "runtime",
+   "label": "Run time",
+   "value": 8,
+   "unit": "h",
+   "note": "rated condition",
+   "source": "https://dev-images.bluestarinc-emea.com/pdf/4753-datasheet.pdf"
+  },
+  {
+   "group": "Charging & Docking",
+   "key": "charge_time",
+   "label": "Charge time",
+   "value": "≤ 1.5 h",
+   "unit": "",
+   "note": "full charge after full discharge",
+   "source": "https://dev-images.bluestarinc-emea.com/pdf/4753-datasheet.pdf"
+  },
+  {
+   "group": "Charging & Docking",
+   "key": "charging_method",
+   "label": "Charging mode",
+   "value": "Automatic wired charging via charge station; rear charging; TE-type connector",
+   "unit": "",
+   "note": "",
+   "source": "https://wiki-lmr.rms.hikrobotics.com/AMR/LMR/Q7/Q7-1000E/Quick-Start/Q7-1000E-parameters"
+  },
+  {
+   "group": "Charging & Docking",
+   "key": "charge_port_height",
+   "label": "Charging connector height above ground",
+   "value": 130,
+   "unit": "mm",
+   "note": "",
+   "source": "https://wiki-lmr.rms.hikrobotics.com/AMR/LMR/Q7/Q7-1000E/Quick-Start/Q7-1000E-parameters"
+  },
+  {
+   "group": "Charging & Docking",
+   "key": "dock_model",
+   "label": "Charging station model",
+   "value": "MR-RA-CH-48/30B-CI(CE)",
+   "unit": "",
+   "note": "",
+   "source": "https://dev-images.bluestarinc-emea.com/pdf/4753-datasheet.pdf"
+  },
+  {
+   "group": "Charging & Docking",
+   "key": "opportunity_charging",
+   "label": "Auto-charge / smart power management",
+   "value": "Multi-level electrical threshold, auto-charge, self-return to work after charging",
+   "unit": "",
+   "note": "",
+   "source": "https://dev-images.bluestarinc-emea.com/pdf/4753-datasheet.pdf"
+  },
+  {
+   "group": "Connectivity & Interfaces",
+   "key": "wifi",
+   "label": "Wireless communication",
+   "value": "Wi-Fi with seamless roaming",
+   "unit": "",
+   "note": "",
+   "source": "https://dev-images.bluestarinc-emea.com/pdf/4753-datasheet.pdf"
+  },
+  {
+   "group": "Safety & Compliance",
+   "key": "certifications",
+   "label": "Certification",
+   "value": "CE",
+   "unit": "",
+   "note": "",
+   "source": "https://dev-images.bluestarinc-emea.com/pdf/4753-datasheet.pdf"
+  },
+  {
+   "group": "Safety & Compliance",
+   "key": "safety_standards",
+   "label": "Safety standard",
+   "value": "ISO 3691-4:2020",
+   "unit": "",
+   "note": "",
+   "source": "https://dev-images.bluestarinc-emea.com/pdf/4753-datasheet.pdf"
+  },
+  {
+   "group": "Commercial",
+   "key": "included_accessories",
+   "label": "Accessories",
+   "value": "Charge station (MR-RA-CH-48/30B-C7(S)); slope M-70; external debugging cable 50 cm",
+   "unit": "",
+   "note": "",
+   "source": "https://pdf.directindustry.com/pdf/hikrobot/latent-mobile-robot-mr-q7-1000e-hl-ce/242099-1031638.html"
+  },
+  {
+   "group": "Safety & Compliance",
+   "key": "intended_use",
+   "label": "Typical applications",
+   "value": "Automobile, consumer electronics, manufacturing, logistics, food, medicine",
+   "unit": "",
+   "note": "",
+   "source": "https://dev-images.bluestarinc-emea.com/pdf/4753-datasheet.pdf"
+  }
+ ]
+}

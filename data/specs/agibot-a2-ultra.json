@@ -1,0 +1,381 @@
+{
+  "id": "agibot-a2-ultra",
+  "checked": "2026-11-04",
+  "documents": [
+    {
+      "title": "AgiBot A2 Ultra product page – Product Specifications",
+      "url": "https://www.agibot.com/products/A2_Ultra"
+    }
+  ],
+  "specs": [
+    {
+      "group": "Identity",
+      "key": "variants",
+      "label": "Models",
+      "value": "A2 Ultra; A2 Lite",
+      "unit": "",
+      "note": "A2 Lite: 64 kg, 23 DoF, 0.8 m/s, no sensors suite",
+      "source": "https://www.agibot.com/products/A2_Ultra"
+    },
+    {
+      "group": "Dimensions & Mass",
+      "key": "height",
+      "label": "Height",
+      "value": 169,
+      "unit": "cm",
+      "note": "",
+      "source": "https://www.agibot.com/products/A2_Ultra"
+    },
+    {
+      "group": "Dimensions & Mass",
+      "key": "width",
+      "label": "Width",
+      "value": 75,
+      "unit": "cm",
+      "note": "",
+      "source": "https://www.agibot.com/products/A2_Ultra"
+    },
+    {
+      "group": "Dimensions & Mass",
+      "key": "length",
+      "label": "Length",
+      "value": 30,
+      "unit": "cm",
+      "note": "",
+      "source": "https://www.agibot.com/products/A2_Ultra"
+    },
+    {
+      "group": "Dimensions & Mass",
+      "key": "weight",
+      "label": "Weight",
+      "value": 69,
+      "unit": "kg",
+      "note": "≈69 kg",
+      "source": "https://www.agibot.com/products/A2_Ultra"
+    },
+    {
+      "group": "Mobility & Performance",
+      "key": "degrees_of_freedom",
+      "label": "Total DoF",
+      "value": 40,
+      "unit": "",
+      "note": "",
+      "source": "https://www.agibot.com/products/A2_Ultra"
+    },
+    {
+      "group": "Actuation & Joints",
+      "key": "dof_head",
+      "label": "Neck DoF",
+      "value": 2,
+      "unit": "",
+      "note": "",
+      "source": "https://www.agibot.com/products/A2_Ultra"
+    },
+    {
+      "group": "Actuation & Joints",
+      "key": "dof_per_arm",
+      "label": "DoF per arm",
+      "value": 7,
+      "unit": "",
+      "note": "",
+      "source": "https://www.agibot.com/products/A2_Ultra"
+    },
+    {
+      "group": "Actuation & Joints",
+      "key": "dof_per_leg",
+      "label": "DoF per leg",
+      "value": 6,
+      "unit": "",
+      "note": "",
+      "source": "https://www.agibot.com/products/A2_Ultra"
+    },
+    {
+      "group": "Manipulation",
+      "key": "hand_dof",
+      "label": "DoF per hand",
+      "value": 6,
+      "unit": "",
+      "note": "6-DoF dexterous hand",
+      "source": "https://www.agibot.com/products/A2_Ultra"
+    },
+    {
+      "group": "Actuation & Joints",
+      "key": "max_joint_torque",
+      "label": "Peak knee torque",
+      "value": 270,
+      "unit": "N·m",
+      "note": "",
+      "source": "https://www.agibot.com/products/A2_Ultra"
+    },
+    {
+      "group": "Mobility & Performance",
+      "key": "max_speed",
+      "label": "Speed",
+      "value": 1.2,
+      "unit": "m/s",
+      "note": "max",
+      "source": "https://www.agibot.com/products/A2_Ultra"
+    },
+    {
+      "group": "Terrain & Navigation Limits",
+      "key": "max_slope",
+      "label": "Ramp climbing",
+      "value": 10,
+      "unit": "°",
+      "note": "climbing 10-degree ramps",
+      "source": "https://www.agibot.com/products/A2_Ultra"
+    },
+    {
+      "group": "Terrain & Navigation Limits",
+      "key": "navigation_method",
+      "label": "Navigation",
+      "value": "Autonomous navigation with dynamic planning and obstacle avoidance",
+      "unit": "",
+      "note": "",
+      "source": "https://www.agibot.com/products/A2_Ultra"
+    },
+    {
+      "group": "Manipulation",
+      "key": "arm_payload",
+      "label": "Max arm load",
+      "value": 2,
+      "unit": "kg",
+      "note": "≈2 kg",
+      "source": "https://www.agibot.com/products/A2_Ultra"
+    },
+    {
+      "group": "Sensors & Perception",
+      "key": "lidar_type",
+      "label": "3D LiDAR",
+      "value": "Equipped",
+      "unit": "",
+      "note": "",
+      "source": "https://www.agibot.com/products/A2_Ultra"
+    },
+    {
+      "group": "Sensors & Perception",
+      "key": "depth_camera_count",
+      "label": "RGB-D camera",
+      "value": "Equipped",
+      "unit": "",
+      "note": "",
+      "source": "https://www.agibot.com/products/A2_Ultra"
+    },
+    {
+      "group": "Sensors & Perception",
+      "key": "camera_type",
+      "label": "Cameras",
+      "value": "RGB camera; fisheye camera",
+      "unit": "",
+      "note": "",
+      "source": "https://www.agibot.com/products/A2_Ultra"
+    },
+    {
+      "group": "Sensors & Perception",
+      "key": "microphones",
+      "label": "Microphone",
+      "value": "Array microphone",
+      "unit": "",
+      "note": "",
+      "source": "https://www.agibot.com/products/A2_Ultra"
+    },
+    {
+      "group": "Connectivity & Interfaces",
+      "key": "wifi",
+      "label": "Wi-Fi",
+      "value": true,
+      "unit": "",
+      "note": "",
+      "source": "https://www.agibot.com/products/A2_Ultra"
+    },
+    {
+      "group": "Connectivity & Interfaces",
+      "key": "cellular",
+      "label": "Cellular",
+      "value": "4G/5G",
+      "unit": "",
+      "note": "",
+      "source": "https://www.agibot.com/products/A2_Ultra"
+    },
+    {
+      "group": "Audio, Lights & HMI",
+      "key": "display",
+      "label": "Interaction screen",
+      "value": "Facial screen with expression display",
+      "unit": "",
+      "note": "",
+      "source": "https://www.agibot.com/products/A2_Ultra"
+    },
+    {
+      "group": "Audio, Lights & HMI",
+      "key": "speaker",
+      "label": "Speaker",
+      "value": "Equipped",
+      "unit": "",
+      "note": "",
+      "source": "https://www.agibot.com/products/A2_Ultra"
+    },
+    {
+      "group": "Audio, Lights & HMI",
+      "key": "status_lights",
+      "label": "Indicator light",
+      "value": "Equipped",
+      "unit": "",
+      "note": "",
+      "source": "https://www.agibot.com/products/A2_Ultra"
+    },
+    {
+      "group": "Power & Battery",
+      "key": "battery_capacity",
+      "label": "Battery capacity",
+      "value": 14.4,
+      "unit": "Ah",
+      "note": "",
+      "source": "https://www.agibot.com/products/A2_Ultra"
+    },
+    {
+      "group": "Power & Battery",
+      "key": "runtime",
+      "label": "Battery life (walking)",
+      "value": "1.5+",
+      "unit": "h",
+      "note": "",
+      "source": "https://www.agibot.com/products/A2_Ultra"
+    },
+    {
+      "group": "Power & Battery",
+      "key": "standby_time",
+      "label": "Battery life (standing)",
+      "value": 3,
+      "unit": "h",
+      "note": "",
+      "source": "https://www.agibot.com/products/A2_Ultra"
+    },
+    {
+      "group": "Power & Battery",
+      "key": "battery_swappable",
+      "label": "Swappable battery",
+      "value": true,
+      "unit": "",
+      "note": "hot-swappable; fast charging",
+      "source": "https://www.agibot.com/products/A2_Ultra"
+    },
+    {
+      "group": "Charging & Docking",
+      "key": "charge_time",
+      "label": "Charging time",
+      "value": 2,
+      "unit": "h",
+      "note": "",
+      "source": "https://www.agibot.com/products/A2_Ultra"
+    },
+    {
+      "group": "Charging & Docking",
+      "key": "charger_input",
+      "label": "Input voltage",
+      "value": "110-220",
+      "unit": "V",
+      "note": "",
+      "source": "https://www.agibot.com/products/A2_Ultra"
+    },
+    {
+      "group": "Charging & Docking",
+      "key": "charger_output",
+      "label": "Charger output",
+      "value": "54.6 V 8 A",
+      "unit": "",
+      "note": "",
+      "source": "https://www.agibot.com/products/A2_Ultra"
+    },
+    {
+      "group": "Compute & Software",
+      "key": "cpu",
+      "label": "Basic board",
+      "value": "16-core high-performance CPU",
+      "unit": "",
+      "note": "",
+      "source": "https://www.agibot.com/products/A2_Ultra"
+    },
+    {
+      "group": "Compute & Software",
+      "key": "compute_module",
+      "label": "High-performance board",
+      "value": "NVIDIA Jetson Orin 64G",
+      "unit": "",
+      "note": "",
+      "source": "https://www.agibot.com/products/A2_Ultra"
+    },
+    {
+      "group": "Compute & Software",
+      "key": "ota_updates",
+      "label": "Smart OTA upgrade",
+      "value": true,
+      "unit": "",
+      "note": "OTA iterations every 2-3 months",
+      "source": "https://www.agibot.com/products/A2_Ultra"
+    },
+    {
+      "group": "Compute & Software",
+      "key": "fleet_software",
+      "label": "Swarm control software",
+      "value": "Supported",
+      "unit": "",
+      "note": "",
+      "source": "https://www.agibot.com/products/A2_Ultra"
+    },
+    {
+      "group": "Controls & Operation",
+      "key": "mission_software",
+      "label": "Client software",
+      "value": "AimMaster client; Linksoul platform (knowledge base, wake words, persona, voice)",
+      "unit": "",
+      "note": "",
+      "source": "https://www.agibot.com/products/A2_Ultra"
+    },
+    {
+      "group": "Controls & Operation",
+      "key": "controller",
+      "label": "Handheld remote",
+      "value": true,
+      "unit": "",
+      "note": "wireless remote controller included",
+      "source": "https://www.agibot.com/products/A2_Ultra"
+    },
+    {
+      "group": "Safety & Compliance",
+      "key": "emergency_stop",
+      "label": "Wireless emergency stop switch",
+      "value": "Included",
+      "unit": "",
+      "note": "",
+      "source": "https://www.agibot.com/products/A2_Ultra"
+    },
+    {
+      "group": "Safety & Compliance",
+      "key": "reliability_test",
+      "label": "Walking test",
+      "value": "Up to 1300 h continuous walking without anomalies",
+      "unit": "",
+      "note": "5100-hour walking test programme; 92-item full inspection",
+      "source": "https://www.agibot.com/products/A2_Ultra"
+    },
+    {
+      "group": "Commercial",
+      "key": "included_accessories",
+      "label": "Package contents",
+      "value": "Robot body; battery charger; accessory charger; lavalier microphone; battery pack; wireless E-stop; wireless remote; sitting-posture packaging",
+      "unit": "",
+      "note": "",
+      "source": "https://www.agibot.com/products/A2_Ultra"
+    },
+    {
+      "group": "Controls & Operation",
+      "key": "mission_software",
+      "label": "Dance development",
+      "value": "Supported",
+      "unit": "",
+      "note": "",
+      "source": "https://www.agibot.com/products/A2_Ultra"
+    }
+  ]
+}

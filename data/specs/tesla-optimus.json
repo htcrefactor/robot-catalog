@@ -1,0 +1,74 @@
+{
+  "id": "tesla-optimus",
+  "checked": "2026-11-04",
+  "documents": [
+    {
+      "title": "Tesla – AI & Robotics page",
+      "url": "https://www.tesla.com/AI"
+    },
+    {
+      "title": "Tesla Q3 2026 Update (shareholder deck)",
+      "url": "https://assets-ir.tesla.com/tesla-contents/IR/TSLA-Q3-2026-Update.pdf"
+    },
+    {
+      "title": "Cult of Mac via Yahoo Tech – Tesla starts Optimus production (2026-10-23)",
+      "url": "https://tech.yahoo.com/general/articles/tesla-starts-optimus-production-elon-215423739.html"
+    }
+  ],
+  "specs": [
+    {
+      "group": "Identity",
+      "key": "intended_use",
+      "label": "Purpose",
+      "value": "General-purpose, bi-pedal, autonomous humanoid for unsafe, repetitive or boring tasks",
+      "unit": "",
+      "note": "",
+      "source": "https://www.tesla.com/AI"
+    },
+    {
+      "group": "Commercial",
+      "key": "availability",
+      "label": "Production status",
+      "value": "Early ramp: production began on high-volume lines in Fremont, California",
+      "unit": "",
+      "note": "first 'production-quality' bots; Texas line under construction",
+      "source": "https://assets-ir.tesla.com/tesla-contents/IR/TSLA-Q3-2026-Update.pdf"
+    },
+    {
+      "group": "Commercial",
+      "key": "availability",
+      "label": "External deliveries",
+      "value": "Targeted toward end of 2027",
+      "unit": "",
+      "note": "per Musk on Q3 2026 earnings call",
+      "source": "https://tech.yahoo.com/general/articles/tesla-starts-optimus-production-elon-215423739.html"
+    },
+    {
+      "group": "Commercial",
+      "key": "price",
+      "label": "Price",
+      "value": "Not announced",
+      "unit": "",
+      "note": "",
+      "source": "https://tech.yahoo.com/general/articles/tesla-starts-optimus-production-elon-215423739.html"
+    },
+    {
+      "group": "Compute & Software",
+      "key": "compute_roadmap",
+      "label": "Planned compute",
+      "value": "Tesla AI5 chip targeted for Optimus in April 2027",
+      "unit": "",
+      "note": "stated plan, not shipping spec",
+      "source": "https://tech.yahoo.com/general/articles/tesla-starts-optimus-production-elon-215423739.html"
+    },
+    {
+      "group": "Identity",
+      "key": "manufacturing_site",
+      "label": "Manufacturing",
+      "value": "Fremont, California (line designed for 1M robots/yr capacity)",
+      "unit": "",
+      "note": "installed capacity, not output",
+      "source": "https://tech.yahoo.com/general/articles/tesla-starts-optimus-production-elon-215423739.html"
+    }
+  ]
+}

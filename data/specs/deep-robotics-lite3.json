@@ -1,0 +1,872 @@
+{
+  "id": "deep-robotics-lite3",
+  "checked": "2026-11-04",
+  "documents": [
+    {
+      "title": "Jueying Lite3-AI User Manual V1.0.3-0",
+      "url": "https://www.deeprobotics.us/wp-content/uploads/2025/08/Jueying-Lite3-AI-User-Manual-V1.0.3-0.pdf"
+    },
+    {
+      "title": "DEEP Robotics Lite3 brochure (EN, 2025)",
+      "url": "https://www.deeprobotics.us/wp-content/uploads/2025/08/DEEPRobotics-Lite3-Quadruped-Robot-ENV-7.2.2025.pdf"
+    },
+    {
+      "title": "DEEP Robotics Lite 3 page incl. FAQ (deeprobotics.us, official partner)",
+      "url": "https://www.deeprobotics.us/products/lite-3/"
+    },
+    {
+      "title": "DEEP Robotics developer center – Lite3 joints",
+      "url": "https://developer.deeprobotics.cn/docs/lite3/guide/hardware/joint/"
+    },
+    {
+      "title": "DEEP Robotics developer center – Lite3 mechanics",
+      "url": "https://developer.deeprobotics.cn/docs/lite3/guide/hardware/mechanics/"
+    },
+    {
+      "title": "DEEP Robotics developer center – Lite3 compute",
+      "url": "https://developer.deeprobotics.cn/docs/lite3/guide/software/compute/"
+    },
+    {
+      "title": "DEEP Robotics developer center – Lite3 camera",
+      "url": "https://developer.deeprobotics.cn/docs/lite3/guide/hardware/camera/"
+    },
+    {
+      "title": "DEEP Robotics developer center – Lite3 network",
+      "url": "https://developer.deeprobotics.cn/docs/lite3/guide/software/network/"
+    }
+  ],
+  "specs": [
+    {
+      "group": "Identity",
+      "key": "manufacturer",
+      "label": "Manufacturer",
+      "value": "DEEP Robotics (Hangzhou Yunshenchu Technology Co., Ltd.)",
+      "unit": "",
+      "note": "",
+      "source": "https://www.deeprobotics.us/wp-content/uploads/2025/08/Jueying-Lite3-AI-User-Manual-V1.0.3-0.pdf"
+    },
+    {
+      "group": "Identity",
+      "key": "variants",
+      "label": "Variants",
+      "value": "Basic; Venture; Pro; LiDAR",
+      "unit": "",
+      "note": "",
+      "source": "https://www.deeprobotics.us/wp-content/uploads/2025/08/DEEPRobotics-Lite3-Quadruped-Robot-ENV-7.2.2025.pdf"
+    },
+    {
+      "group": "Identity",
+      "key": "software_version",
+      "label": "Manual version",
+      "value": "Jueying Lite3-AI User Manual V1.0.3-0",
+      "unit": "",
+      "note": "",
+      "source": "https://www.deeprobotics.us/wp-content/uploads/2025/08/Jueying-Lite3-AI-User-Manual-V1.0.3-0.pdf"
+    },
+    {
+      "group": "Dimensions & Mass",
+      "key": "length",
+      "label": "Length (standing)",
+      "value": 610,
+      "unit": "mm",
+      "note": "all variants",
+      "source": "https://www.deeprobotics.us/wp-content/uploads/2025/08/DEEPRobotics-Lite3-Quadruped-Robot-ENV-7.2.2025.pdf"
+    },
+    {
+      "group": "Dimensions & Mass",
+      "key": "width",
+      "label": "Width (standing)",
+      "value": 370,
+      "unit": "mm",
+      "note": "all variants",
+      "source": "https://www.deeprobotics.us/wp-content/uploads/2025/08/DEEPRobotics-Lite3-Quadruped-Robot-ENV-7.2.2025.pdf"
+    },
+    {
+      "group": "Dimensions & Mass",
+      "key": "height_standing",
+      "label": "Height (standing)",
+      "value": 406,
+      "unit": "mm",
+      "note": "Basic",
+      "source": "https://www.deeprobotics.us/wp-content/uploads/2025/08/DEEPRobotics-Lite3-Quadruped-Robot-ENV-7.2.2025.pdf"
+    },
+    {
+      "group": "Dimensions & Mass",
+      "key": "height_standing",
+      "label": "Height (standing)",
+      "value": 445,
+      "unit": "mm",
+      "note": "Venture",
+      "source": "https://www.deeprobotics.us/wp-content/uploads/2025/08/DEEPRobotics-Lite3-Quadruped-Robot-ENV-7.2.2025.pdf"
+    },
+    {
+      "group": "Dimensions & Mass",
+      "key": "height_standing",
+      "label": "Height (standing)",
+      "value": 450,
+      "unit": "mm",
+      "note": "Pro",
+      "source": "https://www.deeprobotics.us/wp-content/uploads/2025/08/DEEPRobotics-Lite3-Quadruped-Robot-ENV-7.2.2025.pdf"
+    },
+    {
+      "group": "Dimensions & Mass",
+      "key": "height_standing",
+      "label": "Height (standing)",
+      "value": 496,
+      "unit": "mm",
+      "note": "LiDAR",
+      "source": "https://www.deeprobotics.us/wp-content/uploads/2025/08/DEEPRobotics-Lite3-Quadruped-Robot-ENV-7.2.2025.pdf"
+    },
+    {
+      "group": "Dimensions & Mass",
+      "key": "length",
+      "label": "Length (sitting)",
+      "value": 680,
+      "unit": "mm",
+      "note": "sitting size 680 × 370 × 115 mm (Lite3-AI)",
+      "source": "https://www.deeprobotics.us/wp-content/uploads/2025/08/Jueying-Lite3-AI-User-Manual-V1.0.3-0.pdf",
+      "ref": "§1.4"
+    },
+    {
+      "group": "Dimensions & Mass",
+      "key": "height_sitting",
+      "label": "Height (sitting)",
+      "value": 115,
+      "unit": "mm",
+      "note": "Lite3-AI",
+      "source": "https://www.deeprobotics.us/wp-content/uploads/2025/08/Jueying-Lite3-AI-User-Manual-V1.0.3-0.pdf",
+      "ref": "§1.4"
+    },
+    {
+      "group": "Dimensions & Mass",
+      "key": "weight_with_battery",
+      "label": "Weight (incl. battery)",
+      "value": 12,
+      "unit": "kg",
+      "note": "Basic",
+      "source": "https://www.deeprobotics.us/wp-content/uploads/2025/08/DEEPRobotics-Lite3-Quadruped-Robot-ENV-7.2.2025.pdf"
+    },
+    {
+      "group": "Dimensions & Mass",
+      "key": "weight_with_battery",
+      "label": "Weight (incl. battery)",
+      "value": 12.2,
+      "unit": "kg",
+      "note": "Venture",
+      "source": "https://www.deeprobotics.us/wp-content/uploads/2025/08/DEEPRobotics-Lite3-Quadruped-Robot-ENV-7.2.2025.pdf"
+    },
+    {
+      "group": "Dimensions & Mass",
+      "key": "weight_with_battery",
+      "label": "Weight (incl. battery)",
+      "value": 12.9,
+      "unit": "kg",
+      "note": "Pro",
+      "source": "https://www.deeprobotics.us/wp-content/uploads/2025/08/DEEPRobotics-Lite3-Quadruped-Robot-ENV-7.2.2025.pdf"
+    },
+    {
+      "group": "Dimensions & Mass",
+      "key": "weight_with_battery",
+      "label": "Weight (incl. battery)",
+      "value": 13.5,
+      "unit": "kg",
+      "note": "LiDAR",
+      "source": "https://www.deeprobotics.us/wp-content/uploads/2025/08/DEEPRobotics-Lite3-Quadruped-Robot-ENV-7.2.2025.pdf"
+    },
+    {
+      "group": "Dimensions & Mass",
+      "key": "weight",
+      "label": "Body weight",
+      "value": 11,
+      "unit": "kg",
+      "note": "body incl. battery and hip abduction joints",
+      "source": "https://developer.deeprobotics.cn/docs/lite3/guide/hardware/mechanics/"
+    },
+    {
+      "group": "Dimensions & Mass",
+      "key": "leg_length",
+      "label": "Thigh length",
+      "value": 200,
+      "unit": "mm",
+      "note": "hip-pitch to knee centre",
+      "source": "https://developer.deeprobotics.cn/docs/lite3/guide/hardware/mechanics/"
+    },
+    {
+      "group": "Dimensions & Mass",
+      "key": "leg_length",
+      "label": "Shank length",
+      "value": 210,
+      "unit": "mm",
+      "note": "knee centre to foot centre",
+      "source": "https://developer.deeprobotics.cn/docs/lite3/guide/hardware/mechanics/"
+    },
+    {
+      "group": "Dimensions & Mass",
+      "key": "hip_spacing",
+      "label": "Hip spacing",
+      "value": "124 (left–right); 349 (front–rear)",
+      "unit": "mm",
+      "note": "",
+      "source": "https://developer.deeprobotics.cn/docs/lite3/guide/hardware/mechanics/"
+    },
+    {
+      "group": "Dimensions & Mass",
+      "key": "foot_radius",
+      "label": "Foot radius",
+      "value": 20,
+      "unit": "mm",
+      "note": "",
+      "source": "https://developer.deeprobotics.cn/docs/lite3/guide/hardware/mechanics/"
+    },
+    {
+      "group": "Mobility & Performance",
+      "key": "rated_payload",
+      "label": "Walking load",
+      "value": 5,
+      "unit": "kg",
+      "note": "Basic",
+      "source": "https://www.deeprobotics.us/wp-content/uploads/2025/08/DEEPRobotics-Lite3-Quadruped-Robot-ENV-7.2.2025.pdf"
+    },
+    {
+      "group": "Mobility & Performance",
+      "key": "rated_payload",
+      "label": "Walking load",
+      "value": 4.5,
+      "unit": "kg",
+      "note": "Venture",
+      "source": "https://www.deeprobotics.us/wp-content/uploads/2025/08/DEEPRobotics-Lite3-Quadruped-Robot-ENV-7.2.2025.pdf"
+    },
+    {
+      "group": "Mobility & Performance",
+      "key": "rated_payload",
+      "label": "Walking load",
+      "value": 4,
+      "unit": "kg",
+      "note": "Pro",
+      "source": "https://www.deeprobotics.us/wp-content/uploads/2025/08/DEEPRobotics-Lite3-Quadruped-Robot-ENV-7.2.2025.pdf"
+    },
+    {
+      "group": "Mobility & Performance",
+      "key": "rated_payload",
+      "label": "Walking load",
+      "value": 2.5,
+      "unit": "kg",
+      "note": "LiDAR",
+      "source": "https://www.deeprobotics.us/wp-content/uploads/2025/08/DEEPRobotics-Lite3-Quadruped-Robot-ENV-7.2.2025.pdf"
+    },
+    {
+      "group": "Mobility & Performance",
+      "key": "max_payload",
+      "label": "Maximum walking load",
+      "value": 7.5,
+      "unit": "kg",
+      "note": "\"increased by 40 %, reaching 7.5 kg\"",
+      "source": "https://www.deeprobotics.us/wp-content/uploads/2025/08/DEEPRobotics-Lite3-Quadruped-Robot-ENV-7.2.2025.pdf"
+    },
+    {
+      "group": "Mobility & Performance",
+      "key": "max_speed",
+      "label": "Max speed (fast gait)",
+      "value": 2.5,
+      "unit": "m/s",
+      "note": "",
+      "source": "https://www.deeprobotics.us/wp-content/uploads/2025/08/Jueying-Lite3-AI-User-Manual-V1.0.3-0.pdf",
+      "ref": "§1.4"
+    },
+    {
+      "group": "Mobility & Performance",
+      "key": "max_speed",
+      "label": "Max speed (medium gait)",
+      "value": 1.3,
+      "unit": "m/s",
+      "note": "",
+      "source": "https://www.deeprobotics.us/wp-content/uploads/2025/08/Jueying-Lite3-AI-User-Manual-V1.0.3-0.pdf",
+      "ref": "§1.4"
+    },
+    {
+      "group": "Mobility & Performance",
+      "key": "max_speed",
+      "label": "Max speed (slow gait)",
+      "value": 0.5,
+      "unit": "m/s",
+      "note": "",
+      "source": "https://www.deeprobotics.us/wp-content/uploads/2025/08/Jueying-Lite3-AI-User-Manual-V1.0.3-0.pdf",
+      "ref": "§1.4"
+    },
+    {
+      "group": "Mobility & Performance",
+      "key": "max_jump_height",
+      "label": "Jumping height",
+      "value": 30,
+      "unit": "cm",
+      "note": "",
+      "source": "https://www.deeprobotics.us/wp-content/uploads/2025/08/Jueying-Lite3-AI-User-Manual-V1.0.3-0.pdf",
+      "ref": "§1.4"
+    },
+    {
+      "group": "Mobility & Performance",
+      "key": "degrees_of_freedom",
+      "label": "Degrees of freedom",
+      "value": 12,
+      "unit": "",
+      "note": "3 joints per leg (HipX, HipY, Knee)",
+      "source": "https://developer.deeprobotics.cn/docs/lite3/guide/hardware/joint/"
+    },
+    {
+      "group": "Mobility & Performance",
+      "key": "gaits",
+      "label": "Gaits",
+      "value": "Flat (NRM/Crawl height); RUG: General, Grip, H-Step",
+      "unit": "",
+      "note": "",
+      "source": "https://www.deeprobotics.us/wp-content/uploads/2025/08/Jueying-Lite3-AI-User-Manual-V1.0.3-0.pdf",
+      "ref": "§2.3"
+    },
+    {
+      "group": "Controls & Operation",
+      "key": "control_modes",
+      "label": "Actions",
+      "value": "Backflip, Carpet Backflip, Hello, Twist, Moonwalk, Long Jump, Twist Jump, Turn Over",
+      "unit": "",
+      "note": "",
+      "source": "https://www.deeprobotics.us/wp-content/uploads/2025/08/Jueying-Lite3-AI-User-Manual-V1.0.3-0.pdf",
+      "ref": "§2.3.5"
+    },
+    {
+      "group": "Terrain & Navigation Limits",
+      "key": "max_slope",
+      "label": "Slope",
+      "value": 40,
+      "unit": "°",
+      "note": "RUG Grip gait",
+      "source": "https://www.deeprobotics.us/wp-content/uploads/2025/08/Jueying-Lite3-AI-User-Manual-V1.0.3-0.pdf",
+      "ref": "§1.4"
+    },
+    {
+      "group": "Terrain & Navigation Limits",
+      "key": "max_step_height",
+      "label": "Steps height",
+      "value": 15,
+      "unit": "cm",
+      "note": "manual; brochure states 18 cm stair-climbing height",
+      "source": "https://www.deeprobotics.us/wp-content/uploads/2025/08/Jueying-Lite3-AI-User-Manual-V1.0.3-0.pdf",
+      "ref": "§1.4"
+    },
+    {
+      "group": "Terrain & Navigation Limits",
+      "key": "max_obstacle_height",
+      "label": "Stair-climbing height (brochure)",
+      "value": 18,
+      "unit": "cm",
+      "note": "",
+      "source": "https://www.deeprobotics.us/wp-content/uploads/2025/08/DEEPRobotics-Lite3-Quadruped-Robot-ENV-7.2.2025.pdf"
+    },
+    {
+      "group": "Terrain & Navigation Limits",
+      "key": "max_gap_crossing",
+      "label": "Gap width",
+      "value": 50,
+      "unit": "cm",
+      "note": "",
+      "source": "https://www.deeprobotics.us/wp-content/uploads/2025/08/Jueying-Lite3-AI-User-Manual-V1.0.3-0.pdf",
+      "ref": "§1.4"
+    },
+    {
+      "group": "Power & Battery",
+      "key": "runtime",
+      "label": "No-load duration",
+      "value": "1.5–2",
+      "unit": "h",
+      "note": "rapid interchange of batteries",
+      "source": "https://www.deeprobotics.us/wp-content/uploads/2025/08/Jueying-Lite3-AI-User-Manual-V1.0.3-0.pdf",
+      "ref": "§1.4"
+    },
+    {
+      "group": "Power & Battery",
+      "key": "range_per_charge",
+      "label": "Range",
+      "value": 5,
+      "unit": "km",
+      "note": "Basic",
+      "source": "https://www.deeprobotics.us/wp-content/uploads/2025/08/DEEPRobotics-Lite3-Quadruped-Robot-ENV-7.2.2025.pdf"
+    },
+    {
+      "group": "Power & Battery",
+      "key": "range_per_charge",
+      "label": "Range",
+      "value": 4,
+      "unit": "km",
+      "note": "Venture",
+      "source": "https://www.deeprobotics.us/wp-content/uploads/2025/08/DEEPRobotics-Lite3-Quadruped-Robot-ENV-7.2.2025.pdf"
+    },
+    {
+      "group": "Power & Battery",
+      "key": "range_per_charge",
+      "label": "Range",
+      "value": 3.4,
+      "unit": "km",
+      "note": "Pro",
+      "source": "https://www.deeprobotics.us/wp-content/uploads/2025/08/DEEPRobotics-Lite3-Quadruped-Robot-ENV-7.2.2025.pdf"
+    },
+    {
+      "group": "Power & Battery",
+      "key": "range_per_charge",
+      "label": "Range",
+      "value": 2.7,
+      "unit": "km",
+      "note": "LiDAR",
+      "source": "https://www.deeprobotics.us/wp-content/uploads/2025/08/DEEPRobotics-Lite3-Quadruped-Robot-ENV-7.2.2025.pdf"
+    },
+    {
+      "group": "Power & Battery",
+      "key": "battery_capacity_ah",
+      "label": "Battery capacity",
+      "value": 4.4,
+      "unit": "Ah",
+      "note": "",
+      "source": "https://www.deeprobotics.us/wp-content/uploads/2025/08/Jueying-Lite3-AI-User-Manual-V1.0.3-0.pdf",
+      "ref": "§1.4"
+    },
+    {
+      "group": "Power & Battery",
+      "key": "battery_voltage",
+      "label": "Nominal battery voltage",
+      "value": 28.8,
+      "unit": "V",
+      "note": "",
+      "source": "https://www.deeprobotics.us/wp-content/uploads/2025/08/Jueying-Lite3-AI-User-Manual-V1.0.3-0.pdf",
+      "ref": "§1.4"
+    },
+    {
+      "group": "Power & Battery",
+      "key": "battery_swappable",
+      "label": "Replaceable battery",
+      "value": true,
+      "unit": "",
+      "note": "charged in separate charging base",
+      "source": "https://www.deeprobotics.us/wp-content/uploads/2025/08/Jueying-Lite3-AI-User-Manual-V1.0.3-0.pdf",
+      "ref": "§3.2"
+    },
+    {
+      "group": "Power & Battery",
+      "key": "low_battery_behavior",
+      "label": "Low battery",
+      "value": "Warning below 35 %; low-power protection below 20 %",
+      "unit": "",
+      "note": "",
+      "source": "https://www.deeprobotics.us/wp-content/uploads/2025/08/Jueying-Lite3-AI-User-Manual-V1.0.3-0.pdf",
+      "ref": "§3.11.4"
+    },
+    {
+      "group": "Charging & Docking",
+      "key": "charger_input",
+      "label": "Charger input",
+      "value": "100–240",
+      "unit": "V",
+      "note": "",
+      "source": "https://www.deeprobotics.us/wp-content/uploads/2025/08/Jueying-Lite3-AI-User-Manual-V1.0.3-0.pdf",
+      "ref": "§1.4"
+    },
+    {
+      "group": "Charging & Docking",
+      "key": "charger_output",
+      "label": "Charger output",
+      "value": "33.6 V / 5 A",
+      "unit": "",
+      "note": "",
+      "source": "https://www.deeprobotics.us/wp-content/uploads/2025/08/Jueying-Lite3-AI-User-Manual-V1.0.3-0.pdf",
+      "ref": "§1.4"
+    },
+    {
+      "group": "Charging & Docking",
+      "key": "charge_time",
+      "label": "Charging time",
+      "value": "40 min–1 h",
+      "unit": "",
+      "note": "",
+      "source": "https://www.deeprobotics.us/wp-content/uploads/2025/08/Jueying-Lite3-AI-User-Manual-V1.0.3-0.pdf",
+      "ref": "§1.4"
+    },
+    {
+      "group": "Environment & Protection",
+      "key": "operating_temperature",
+      "label": "Operating temperature",
+      "value": "0 to 40",
+      "unit": "°C",
+      "note": "",
+      "source": "https://www.deeprobotics.us/wp-content/uploads/2025/08/Jueying-Lite3-AI-User-Manual-V1.0.3-0.pdf",
+      "ref": "§1.4"
+    },
+    {
+      "group": "Environment & Protection",
+      "key": "storage_temperature",
+      "label": "Storage temperature",
+      "value": "0 to 40",
+      "unit": "°C",
+      "note": "clean and dry",
+      "source": "https://www.deeprobotics.us/wp-content/uploads/2025/08/Jueying-Lite3-AI-User-Manual-V1.0.3-0.pdf",
+      "ref": "§6.2"
+    },
+    {
+      "group": "Connectivity & Interfaces",
+      "key": "wifi",
+      "label": "Wi-Fi frequency band",
+      "value": "5150–5250 MHz; 5725–5850 MHz",
+      "unit": "",
+      "note": "5150–5250 MHz indoor use only",
+      "source": "https://www.deeprobotics.us/wp-content/uploads/2025/08/Jueying-Lite3-AI-User-Manual-V1.0.3-0.pdf",
+      "ref": "§1.4, §4.3"
+    },
+    {
+      "group": "Connectivity & Interfaces",
+      "key": "wifi_tx_power",
+      "label": "Wi-Fi transmitter power",
+      "value": "5150–5250 MHz: 14.87 dBm; 5725–5850 MHz: 13.89 dBm",
+      "unit": "",
+      "note": "",
+      "source": "https://www.deeprobotics.us/wp-content/uploads/2025/08/Jueying-Lite3-AI-User-Manual-V1.0.3-0.pdf",
+      "ref": "§1.4"
+    },
+    {
+      "group": "Connectivity & Interfaces",
+      "key": "external_ports",
+      "label": "Hardware interfaces",
+      "value": "Basic: none; Venture: Ethernet ×2, external power input (24V/12V/5V); Pro/LiDAR: USB 3.0, HDMI, Ethernet, external power input (24V/12V/5V), power connector",
+      "unit": "",
+      "note": "",
+      "source": "https://www.deeprobotics.us/wp-content/uploads/2025/08/DEEPRobotics-Lite3-Quadruped-Robot-ENV-7.2.2025.pdf"
+    },
+    {
+      "group": "Connectivity & Interfaces",
+      "key": "default_ip",
+      "label": "Default IPs",
+      "value": "Perception host 192.168.1.103; motion host 192.168.1.120; LiDAR 192.168.1.201",
+      "unit": "",
+      "note": "",
+      "source": "https://developer.deeprobotics.cn/docs/lite3/guide/software/network/"
+    },
+    {
+      "group": "Sensors & Perception",
+      "key": "camera_count",
+      "label": "Wide-angle camera",
+      "value": 1,
+      "unit": "",
+      "note": "",
+      "source": "https://www.deeprobotics.us/wp-content/uploads/2025/08/Jueying-Lite3-AI-User-Manual-V1.0.3-0.pdf",
+      "ref": "§1.4"
+    },
+    {
+      "group": "Sensors & Perception",
+      "key": "ultrasonic_sensors",
+      "label": "Ultrasonic radar",
+      "value": 2,
+      "unit": "",
+      "note": "front and rear",
+      "source": "https://www.deeprobotics.us/wp-content/uploads/2025/08/Jueying-Lite3-AI-User-Manual-V1.0.3-0.pdf",
+      "ref": "§1.4"
+    },
+    {
+      "group": "Sensors & Perception",
+      "key": "depth_camera_type",
+      "label": "Depth camera",
+      "value": "Intel RealSense D435i",
+      "unit": "",
+      "note": "Pro / LiDAR versions",
+      "source": "https://developer.deeprobotics.cn/docs/lite3/guide/hardware/camera/"
+    },
+    {
+      "group": "Sensors & Perception",
+      "key": "lidar_type",
+      "label": "LiDAR",
+      "value": "Optional Livox or Leishen LiDAR module",
+      "unit": "",
+      "note": "LiDAR version",
+      "source": "https://www.deeprobotics.us/products/lite-3/"
+    },
+    {
+      "group": "Sensors & Perception",
+      "key": "perception_functions",
+      "label": "Perception functions",
+      "value": "Basic/Venture: front/rear obstacle stop, visual following; Pro: + forward obstacle avoidance; LiDAR: + autonomous navigation",
+      "unit": "",
+      "note": "",
+      "source": "https://www.deeprobotics.us/wp-content/uploads/2025/08/DEEPRobotics-Lite3-Quadruped-Robot-ENV-7.2.2025.pdf"
+    },
+    {
+      "group": "Compute & Software",
+      "key": "cpu",
+      "label": "Motion host",
+      "value": "RK3588 ARM-architecture processor",
+      "unit": "",
+      "note": "",
+      "source": "https://developer.deeprobotics.cn/docs/lite3/guide/software/compute/"
+    },
+    {
+      "group": "Compute & Software",
+      "key": "gpu",
+      "label": "Perception host",
+      "value": "NVIDIA Jetson Xavier NX",
+      "unit": "",
+      "note": "Pro / LiDAR versions",
+      "source": "https://developer.deeprobotics.cn/docs/lite3/guide/software/compute/"
+    },
+    {
+      "group": "Compute & Software",
+      "key": "operating_system",
+      "label": "Operating system",
+      "value": "Ubuntu 20.04",
+      "unit": "",
+      "note": "",
+      "source": "https://www.deeprobotics.us/products/lite-3/"
+    },
+    {
+      "group": "Compute & Software",
+      "key": "ros_version",
+      "label": "ROS versions",
+      "value": "ROS1 Noetic; ROS2 Foxy",
+      "unit": "",
+      "note": "switchable via built-in scripts",
+      "source": "https://www.deeprobotics.us/products/lite-3/"
+    },
+    {
+      "group": "Compute & Software",
+      "key": "sdk",
+      "label": "SDKs",
+      "value": "Motion SDK; RL SDK (Lite3_rl_deploy); Gamepad SDK; perception development interfaces",
+      "unit": "",
+      "note": "",
+      "source": "https://www.deeprobotics.us/products/lite-3/"
+    },
+    {
+      "group": "Compute & Software",
+      "key": "control_frequency",
+      "label": "Control frequency",
+      "value": 1,
+      "unit": "kHz",
+      "note": "up to 1 kHz communication",
+      "source": "https://www.deeprobotics.us/wp-content/uploads/2025/08/DEEPRobotics-Lite3-Quadruped-Robot-ENV-7.2.2025.pdf"
+    },
+    {
+      "group": "Compute & Software",
+      "key": "ota_updates",
+      "label": "OTA upgrades",
+      "value": true,
+      "unit": "",
+      "note": "",
+      "source": "https://www.deeprobotics.us/wp-content/uploads/2025/08/DEEPRobotics-Lite3-Quadruped-Robot-ENV-7.2.2025.pdf"
+    },
+    {
+      "group": "Actuation & Joints",
+      "key": "joint_count",
+      "label": "Joints",
+      "value": 12,
+      "unit": "",
+      "note": "",
+      "source": "https://developer.deeprobotics.cn/docs/lite3/guide/hardware/joint/"
+    },
+    {
+      "group": "Actuation & Joints",
+      "key": "joint_range_of_motion",
+      "label": "HipX range",
+      "value": "−24 to 24",
+      "unit": "°",
+      "note": "",
+      "source": "https://developer.deeprobotics.cn/docs/lite3/guide/hardware/joint/"
+    },
+    {
+      "group": "Actuation & Joints",
+      "key": "joint_range_of_motion",
+      "label": "HipY range",
+      "value": "−200 to 20",
+      "unit": "°",
+      "note": "",
+      "source": "https://developer.deeprobotics.cn/docs/lite3/guide/hardware/joint/"
+    },
+    {
+      "group": "Actuation & Joints",
+      "key": "joint_range_of_motion",
+      "label": "Knee range",
+      "value": "34.5 to 156",
+      "unit": "°",
+      "note": "",
+      "source": "https://developer.deeprobotics.cn/docs/lite3/guide/hardware/joint/"
+    },
+    {
+      "group": "Actuation & Joints",
+      "key": "rated_joint_torque",
+      "label": "Rated torque (HipX / HipY)",
+      "value": 6.48,
+      "unit": "N·m",
+      "note": "",
+      "source": "https://developer.deeprobotics.cn/docs/lite3/guide/hardware/joint/"
+    },
+    {
+      "group": "Actuation & Joints",
+      "key": "rated_joint_torque",
+      "label": "Rated torque (Knee)",
+      "value": 9.72,
+      "unit": "N·m",
+      "note": "",
+      "source": "https://developer.deeprobotics.cn/docs/lite3/guide/hardware/joint/"
+    },
+    {
+      "group": "Actuation & Joints",
+      "key": "max_joint_torque",
+      "label": "Max torque (HipX / HipY)",
+      "value": 24,
+      "unit": "N·m",
+      "note": "",
+      "source": "https://developer.deeprobotics.cn/docs/lite3/guide/hardware/joint/"
+    },
+    {
+      "group": "Actuation & Joints",
+      "key": "max_joint_torque",
+      "label": "Max torque (Knee)",
+      "value": 36,
+      "unit": "N·m",
+      "note": "",
+      "source": "https://developer.deeprobotics.cn/docs/lite3/guide/hardware/joint/"
+    },
+    {
+      "group": "Actuation & Joints",
+      "key": "joint_speed",
+      "label": "Max speed (HipX)",
+      "value": 26.16,
+      "unit": "rad/s",
+      "note": "",
+      "source": "https://developer.deeprobotics.cn/docs/lite3/guide/hardware/joint/"
+    },
+    {
+      "group": "Actuation & Joints",
+      "key": "joint_speed",
+      "label": "Max speed (HipY)",
+      "value": 26.1,
+      "unit": "rad/s",
+      "note": "",
+      "source": "https://developer.deeprobotics.cn/docs/lite3/guide/hardware/joint/"
+    },
+    {
+      "group": "Actuation & Joints",
+      "key": "joint_speed",
+      "label": "Max speed (Knee)",
+      "value": 17.1,
+      "unit": "rad/s",
+      "note": "",
+      "source": "https://developer.deeprobotics.cn/docs/lite3/guide/hardware/joint/"
+    },
+    {
+      "group": "Actuation & Joints",
+      "key": "joint_mass",
+      "label": "Joint masses",
+      "value": "HipX 0.435 kg; HipY 0.501 kg; Knee + thigh 0.96 kg; shank 0.16 kg",
+      "unit": "",
+      "note": "",
+      "source": "https://developer.deeprobotics.cn/docs/lite3/guide/hardware/joint/"
+    },
+    {
+      "group": "Audio, Lights & HMI",
+      "key": "speaker",
+      "label": "Speaker",
+      "value": "Built-in Hi-Fi speaker",
+      "unit": "",
+      "note": "",
+      "source": "https://www.deeprobotics.us/wp-content/uploads/2025/08/DEEPRobotics-Lite3-Quadruped-Robot-ENV-7.2.2025.pdf"
+    },
+    {
+      "group": "Audio, Lights & HMI",
+      "key": "status_lights",
+      "label": "LED eyes / light communication",
+      "value": "Intelligent light communication system; LED eye status lights",
+      "unit": "",
+      "note": "",
+      "source": "https://www.deeprobotics.us/wp-content/uploads/2025/08/DEEPRobotics-Lite3-Quadruped-Robot-ENV-7.2.2025.pdf"
+    },
+    {
+      "group": "Audio, Lights & HMI",
+      "key": "voice_function",
+      "label": "Voice control",
+      "value": true,
+      "unit": "",
+      "note": "voice-controlled movement and interactive performances",
+      "source": "https://www.deeprobotics.us/wp-content/uploads/2025/08/DEEPRobotics-Lite3-Quadruped-Robot-ENV-7.2.2025.pdf"
+    },
+    {
+      "group": "Safety & Compliance",
+      "key": "protection_functions",
+      "label": "Protection",
+      "value": "Overtemperature protection (stops and lies down); fall-down protection (increased joint damping); motion logs",
+      "unit": "",
+      "note": "",
+      "source": "https://www.deeprobotics.us/products/lite-3/"
+    },
+    {
+      "group": "Safety & Compliance",
+      "key": "safety_distance",
+      "label": "Safety distance",
+      "value": 1,
+      "unit": "m",
+      "note": "keep at least 1 m from people",
+      "source": "https://www.deeprobotics.us/wp-content/uploads/2025/08/Jueying-Lite3-AI-User-Manual-V1.0.3-0.pdf",
+      "ref": "§4.1"
+    },
+    {
+      "group": "Controls & Operation",
+      "key": "controller",
+      "label": "Controller",
+      "value": "Android app; dedicated controller (not with Basic without-controller option)",
+      "unit": "",
+      "note": "",
+      "source": "https://www.deeprobotics.us/wp-content/uploads/2025/08/Jueying-Lite3-AI-User-Manual-V1.0.3-0.pdf",
+      "ref": "§1.2"
+    },
+    {
+      "group": "Transport & Storage",
+      "key": "shipping_case_dimensions",
+      "label": "Transport case",
+      "value": "633 × 462 × 329",
+      "unit": "mm",
+      "note": "",
+      "source": "https://www.deeprobotics.us/wp-content/uploads/2025/08/Jueying-Lite3-AI-User-Manual-V1.0.3-0.pdf",
+      "ref": "§6.1"
+    },
+    {
+      "group": "Commercial",
+      "key": "included_accessories",
+      "label": "Product list",
+      "value": "Robot (battery not included), transport case, sole kit, replaceable battery, charger, controller, charging base, certificate, warranty card, fold-out guide",
+      "unit": "",
+      "note": "",
+      "source": "https://www.deeprobotics.us/wp-content/uploads/2025/08/Jueying-Lite3-AI-User-Manual-V1.0.3-0.pdf",
+      "ref": "§1.2"
+    },
+    {
+      "group": "Commercial",
+      "key": "warranty",
+      "label": "Warranty (joint module)",
+      "value": 3,
+      "unit": "months",
+      "note": "from date of receipt",
+      "source": "https://www.deeprobotics.us/wp-content/uploads/2025/08/Jueying-Lite3-AI-User-Manual-V1.0.3-0.pdf",
+      "ref": "§7.1"
+    },
+    {
+      "group": "Commercial",
+      "key": "warranty",
+      "label": "Warranty (replaceable battery)",
+      "value": 6,
+      "unit": "months",
+      "note": "",
+      "source": "https://www.deeprobotics.us/wp-content/uploads/2025/08/Jueying-Lite3-AI-User-Manual-V1.0.3-0.pdf",
+      "ref": "§7.1"
+    },
+    {
+      "group": "Commercial",
+      "key": "price",
+      "label": "Retail price",
+      "value": "From 2,890",
+      "unit": "USD",
+      "note": "Basic; other versions contact sales",
+      "source": "https://www.deeprobotics.us/wp-content/uploads/2025/08/DEEPRobotics-Lite3-Quadruped-Robot-ENV-7.2.2025.pdf"
+    }
+  ]
+}

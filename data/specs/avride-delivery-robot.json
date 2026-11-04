@@ -1,0 +1,282 @@
+{
+ "id": "avride-delivery-robot",
+ "checked": "2026-11-04",
+ "documents": [
+  {
+   "title": "Avride Delivery Robot page",
+   "url": "https://www.avride.ai/robot"
+  }
+ ],
+ "specs": [
+  {
+   "group": "Dimensions & Mass",
+   "key": "length",
+   "label": "Length",
+   "value": 915,
+   "unit": "mm",
+   "note": "",
+   "source": "https://www.avride.ai/robot"
+  },
+  {
+   "group": "Dimensions & Mass",
+   "key": "width",
+   "label": "Width",
+   "value": 659,
+   "unit": "mm",
+   "note": "",
+   "source": "https://www.avride.ai/robot"
+  },
+  {
+   "group": "Dimensions & Mass",
+   "key": "height",
+   "label": "Height",
+   "value": 851,
+   "unit": "mm",
+   "note": "",
+   "source": "https://www.avride.ai/robot"
+  },
+  {
+   "group": "Dimensions & Mass",
+   "key": "height_max",
+   "label": "Height with flag",
+   "value": 1298,
+   "unit": "mm",
+   "note": "",
+   "source": "https://www.avride.ai/robot"
+  },
+  {
+   "group": "Mobility & Performance",
+   "key": "max_speed",
+   "label": "Speed",
+   "value": 8,
+   "unit": "km/h",
+   "note": "5 mph; programmed max",
+   "source": "https://www.avride.ai/robot"
+  },
+  {
+   "group": "Mobility & Performance",
+   "key": "nominal_speed",
+   "label": "Speed range",
+   "value": "5–8",
+   "unit": "km/h",
+   "note": "3–5 mph",
+   "source": "https://www.avride.ai/robot"
+  },
+  {
+   "group": "Mobility & Performance",
+   "key": "wheel_count",
+   "label": "Wheels",
+   "value": 4,
+   "unit": "",
+   "note": "",
+   "source": "https://www.avride.ai/robot"
+  },
+  {
+   "group": "Mobility & Performance",
+   "key": "max_payload",
+   "label": "Max cargo weight",
+   "value": 25,
+   "unit": "kg",
+   "note": "55 lb",
+   "source": "https://www.avride.ai/robot"
+  },
+  {
+   "group": "Payload & Mounting",
+   "key": "cargo_dimensions",
+   "label": "Max cargo L × W × H",
+   "value": "520 × 464 × 300",
+   "unit": "mm",
+   "note": "",
+   "source": "https://www.avride.ai/robot"
+  },
+  {
+   "group": "Payload & Mounting",
+   "key": "storage_compartments",
+   "label": "Containers",
+   "value": "Multi-order compartment",
+   "unit": "",
+   "note": "",
+   "source": "https://www.avride.ai/robot"
+  },
+  {
+   "group": "Payload & Mounting",
+   "key": "cargo_capacity_description",
+   "label": "Capacity",
+   "value": "six 42 cm (16.5 in) pizzas and five 1.5 L bottles",
+   "unit": "",
+   "note": "",
+   "source": "https://www.avride.ai/robot"
+  },
+  {
+   "group": "Power & Battery",
+   "key": "range_per_charge",
+   "label": "Range",
+   "value": 50,
+   "unit": "km",
+   "note": "31 mi on one charge",
+   "source": "https://www.avride.ai/robot"
+  },
+  {
+   "group": "Power & Battery",
+   "key": "runtime",
+   "label": "Runtime",
+   "value": "up to 12",
+   "unit": "h",
+   "note": "single battery",
+   "source": "https://www.avride.ai/robot"
+  },
+  {
+   "group": "Power & Battery",
+   "key": "battery_swappable",
+   "label": "Swappable battery",
+   "value": true,
+   "unit": "",
+   "note": "",
+   "source": "https://www.avride.ai/robot"
+  },
+  {
+   "group": "Charging & Docking",
+   "key": "charging_method",
+   "label": "Wireless charger",
+   "value": true,
+   "unit": "",
+   "note": "",
+   "source": "https://www.avride.ai/robot"
+  },
+  {
+   "group": "Environment & Protection",
+   "key": "ip_rating",
+   "label": "Water resistance",
+   "value": "IP66",
+   "unit": "",
+   "note": "",
+   "source": "https://www.avride.ai/robot"
+  },
+  {
+   "group": "Environment & Protection",
+   "key": "rain_rating",
+   "label": "Weather",
+   "value": "All-weather: sun, rain, snow; day and night",
+   "unit": "",
+   "note": "moderate rain and snow per FAQ",
+   "source": "https://www.avride.ai/robot"
+  },
+  {
+   "group": "Terrain & Navigation Limits",
+   "key": "max_obstacle_height",
+   "label": "Obstacles",
+   "value": "Suspension ready for 6-inch obstacles; low curbs, speed bumps",
+   "unit": "",
+   "note": "",
+   "source": "https://www.avride.ai/robot"
+  },
+  {
+   "group": "Sensors & Perception",
+   "key": "lidar_type",
+   "label": "LiDAR",
+   "value": "LiDAR",
+   "unit": "",
+   "note": "",
+   "source": "https://www.avride.ai/robot"
+  },
+  {
+   "group": "Sensors & Perception",
+   "key": "lidar_range",
+   "label": "LiDAR detection range",
+   "value": 60,
+   "unit": "m",
+   "note": "200 ft, regardless of lighting",
+   "source": "https://www.avride.ai/robot"
+  },
+  {
+   "group": "Sensors & Perception",
+   "key": "camera_type",
+   "label": "Cameras",
+   "value": "Color cameras (traffic lights, emergency vehicles)",
+   "unit": "",
+   "note": "",
+   "source": "https://www.avride.ai/robot"
+  },
+  {
+   "group": "Sensors & Perception",
+   "key": "ultrasonic_sensors",
+   "label": "Ultrasonic sensors",
+   "value": true,
+   "unit": "",
+   "note": "functional safety",
+   "source": "https://www.avride.ai/robot"
+  },
+  {
+   "group": "Sensors & Perception",
+   "key": "sensor_fov",
+   "label": "Sensor coverage",
+   "value": "360° sensor set; three sensor levels",
+   "unit": "",
+   "note": "",
+   "source": "https://www.avride.ai/robot"
+  },
+  {
+   "group": "Compute & Software",
+   "key": "cpu",
+   "label": "Compute unit",
+   "value": "Wide-temperature-range compute unit",
+   "unit": "",
+   "note": "",
+   "source": "https://www.avride.ai/robot"
+  },
+  {
+   "group": "Safety & Compliance",
+   "key": "obstacle_avoidance",
+   "label": "Crosswalks",
+   "value": "Fully autonomous at marked crosswalks; recognizes traffic lights",
+   "unit": "",
+   "note": "",
+   "source": "https://www.avride.ai/robot"
+  },
+  {
+   "group": "Safety & Compliance",
+   "key": "privacy",
+   "label": "Privacy",
+   "value": "Cameras blur faces and license plates",
+   "unit": "",
+   "note": "",
+   "source": "https://www.avride.ai/robot"
+  },
+  {
+   "group": "Safety & Compliance",
+   "key": "anti_theft",
+   "label": "Security",
+   "value": "Locked compartment opened via app; tamper alert to remote operator",
+   "unit": "",
+   "note": "",
+   "source": "https://www.avride.ai/robot"
+  },
+  {
+   "group": "Audio, Lights & HMI",
+   "key": "display",
+   "label": "Expressions",
+   "value": "Animated human-like emotions",
+   "unit": "",
+   "note": "",
+   "source": "https://www.avride.ai/robot"
+  },
+  {
+   "group": "Audio, Lights & HMI",
+   "key": "speaker",
+   "label": "Audio notifications",
+   "value": "Unique audio notifications",
+   "unit": "",
+   "note": "",
+   "source": "https://www.avride.ai/robot"
+  },
+  {
+   "group": "Controls & Operation",
+   "key": "teleoperation",
+   "label": "Remote support",
+   "value": "Remote support team can take control",
+   "unit": "",
+   "note": "",
+   "source": "https://www.avride.ai/robot"
+  }
+ ]
+}

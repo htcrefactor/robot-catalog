@@ -1,0 +1,543 @@
+{
+ "id": "agilex-tracer-2-0",
+ "checked": "2026-11-04",
+ "documents": [
+  {
+   "title": "TRACER 2.0 User Manual V1.0.0 (2025-03)",
+   "url": "https://cdn.shopify.com/s/files/1/0551/0630/6141/files/TRACER_2.0_User_Manual_AgileX.pdf?v=1792611905"
+  },
+  {
+   "title": "TRACER 2.0 product page (AgileX global)",
+   "url": "https://global.agilex.ai/products/tracer-2-0-150kg-payload-indoor-mobile-robot"
+  }
+ ],
+ "specs": [
+  {
+   "group": "Identity",
+   "key": "software_version",
+   "label": "Manual version / firmware",
+   "value": "Manual V1.0.0 (2025-03-20), firmware V1.0.2",
+   "unit": "",
+   "note": "",
+   "source": "https://cdn.shopify.com/s/files/1/0551/0630/6141/files/TRACER_2.0_User_Manual_AgileX.pdf?v=1792611905"
+  },
+  {
+   "group": "Identity",
+   "key": "manufacturer_address",
+   "label": "Manufacturer address",
+   "value": "Head office: XbotPark, Songshan Lake, Dongguan, Guangdong, China; Sales: iPark, Nanshan District, Shenzhen",
+   "unit": "",
+   "note": "",
+   "source": "https://global.agilex.ai/products/tracer-2-0-150kg-payload-indoor-mobile-robot"
+  },
+  {
+   "group": "Identity",
+   "key": "variants",
+   "label": "Battery options",
+   "value": "24 V 30 Ah (standard); 24 V 60 Ah (optional)",
+   "unit": "",
+   "note": "",
+   "source": "https://cdn.shopify.com/s/files/1/0551/0630/6141/files/TRACER_2.0_User_Manual_AgileX.pdf?v=1792611905",
+   "ref": "1.2"
+  },
+  {
+   "group": "Dimensions & Mass",
+   "key": "length",
+   "label": "Length",
+   "value": 702,
+   "unit": "mm",
+   "note": "",
+   "source": "https://cdn.shopify.com/s/files/1/0551/0630/6141/files/TRACER_2.0_User_Manual_AgileX.pdf?v=1792611905",
+   "ref": "1.2"
+  },
+  {
+   "group": "Dimensions & Mass",
+   "key": "width",
+   "label": "Width",
+   "value": 585,
+   "unit": "mm",
+   "note": "user manual; product page lists 610 mm",
+   "source": "https://cdn.shopify.com/s/files/1/0551/0630/6141/files/TRACER_2.0_User_Manual_AgileX.pdf?v=1792611905",
+   "ref": "1.2"
+  },
+  {
+   "group": "Dimensions & Mass",
+   "key": "width",
+   "label": "Width",
+   "value": 610,
+   "unit": "mm",
+   "note": "product page",
+   "source": "https://global.agilex.ai/products/tracer-2-0-150kg-payload-indoor-mobile-robot"
+  },
+  {
+   "group": "Dimensions & Mass",
+   "key": "height",
+   "label": "Height",
+   "value": 169,
+   "unit": "mm",
+   "note": "",
+   "source": "https://cdn.shopify.com/s/files/1/0551/0630/6141/files/TRACER_2.0_User_Manual_AgileX.pdf?v=1792611905",
+   "ref": "1.2"
+  },
+  {
+   "group": "Dimensions & Mass",
+   "key": "weight",
+   "label": "Total weight",
+   "value": "54 - 56",
+   "unit": "kg",
+   "note": "",
+   "source": "https://cdn.shopify.com/s/files/1/0551/0630/6141/files/TRACER_2.0_User_Manual_AgileX.pdf?v=1792611905",
+   "ref": "1.2"
+  },
+  {
+   "group": "Dimensions & Mass",
+   "key": "wheelbase",
+   "label": "Wheelbase",
+   "value": 517.4,
+   "unit": "mm",
+   "note": "",
+   "source": "https://cdn.shopify.com/s/files/1/0551/0630/6141/files/TRACER_2.0_User_Manual_AgileX.pdf?v=1792611905",
+   "ref": "1.2"
+  },
+  {
+   "group": "Dimensions & Mass",
+   "key": "ground_clearance",
+   "label": "Ground clearance",
+   "value": 27,
+   "unit": "mm",
+   "note": "",
+   "source": "https://cdn.shopify.com/s/files/1/0551/0630/6141/files/TRACER_2.0_User_Manual_AgileX.pdf?v=1792611905",
+   "ref": "1.2"
+  },
+  {
+   "group": "Mobility & Performance",
+   "key": "max_speed",
+   "label": "Max speed",
+   "value": 2.0,
+   "unit": "m/s",
+   "note": "high-speed mode; low-speed mode max 1.5 m/s",
+   "source": "https://cdn.shopify.com/s/files/1/0551/0630/6141/files/TRACER_2.0_User_Manual_AgileX.pdf?v=1792611905",
+   "ref": "1.2 / 2.3"
+  },
+  {
+   "group": "Mobility & Performance",
+   "key": "max_payload",
+   "label": "Max payload",
+   "value": 150,
+   "unit": "kg",
+   "note": "rated moving payload",
+   "source": "https://cdn.shopify.com/s/files/1/0551/0630/6141/files/TRACER_2.0_User_Manual_AgileX.pdf?v=1792611905",
+   "ref": "Operation"
+  },
+  {
+   "group": "Mobility & Performance",
+   "key": "turning_radius",
+   "label": "Minimum turning radius",
+   "value": "Can turn in place",
+   "unit": "",
+   "note": "",
+   "source": "https://cdn.shopify.com/s/files/1/0551/0630/6141/files/TRACER_2.0_User_Manual_AgileX.pdf?v=1792611905",
+   "ref": "1.2"
+  },
+  {
+   "group": "Mobility & Performance",
+   "key": "steering",
+   "label": "Steering",
+   "value": "Two-wheel differential steering",
+   "unit": "",
+   "note": "",
+   "source": "https://cdn.shopify.com/s/files/1/0551/0630/6141/files/TRACER_2.0_User_Manual_AgileX.pdf?v=1792611905",
+   "ref": "1.2"
+  },
+  {
+   "group": "Mobility & Performance",
+   "key": "drive_motor",
+   "label": "Drive motors",
+   "value": "DC brushless hub motors, 2 × 400 W",
+   "unit": "",
+   "note": "",
+   "source": "https://cdn.shopify.com/s/files/1/0551/0630/6141/files/TRACER_2.0_User_Manual_AgileX.pdf?v=1792611905",
+   "ref": "1.2"
+  },
+  {
+   "group": "Mobility & Performance",
+   "key": "drive_motor_encoder",
+   "label": "Drive motor sensor",
+   "value": "Magnetic encoder 2500",
+   "unit": "",
+   "note": "",
+   "source": "https://cdn.shopify.com/s/files/1/0551/0630/6141/files/TRACER_2.0_User_Manual_AgileX.pdf?v=1792611905",
+   "ref": "1.2"
+  },
+  {
+   "group": "Mobility & Performance",
+   "key": "push_assist_mode",
+   "label": "Push assist mode",
+   "value": true,
+   "unit": "",
+   "note": "motor assists manual pushing (RC SWA down)",
+   "source": "https://cdn.shopify.com/s/files/1/0551/0630/6141/files/TRACER_2.0_User_Manual_AgileX.pdf?v=1792611905",
+   "ref": "2.3"
+  },
+  {
+   "group": "Terrain & Navigation Limits",
+   "key": "max_slope",
+   "label": "Max gradeability",
+   "value": 8,
+   "unit": "°",
+   "note": "",
+   "source": "https://cdn.shopify.com/s/files/1/0551/0630/6141/files/TRACER_2.0_User_Manual_AgileX.pdf?v=1792611905",
+   "ref": "1.2"
+  },
+  {
+   "group": "Terrain & Navigation Limits",
+   "key": "max_obstacle_height",
+   "label": "Obstacle clearance",
+   "value": 10,
+   "unit": "mm",
+   "note": "",
+   "source": "https://global.agilex.ai/products/tracer-2-0-150kg-payload-indoor-mobile-robot"
+  },
+  {
+   "group": "Terrain & Navigation Limits",
+   "key": "suspension",
+   "label": "Suspension",
+   "value": "Swing-arm non-independent suspension (upgraded three-swing-arm structure)",
+   "unit": "",
+   "note": "",
+   "source": "https://cdn.shopify.com/s/files/1/0551/0630/6141/files/TRACER_2.0_User_Manual_AgileX.pdf?v=1792611905",
+   "ref": "1.2"
+  },
+  {
+   "group": "Terrain & Navigation Limits",
+   "key": "surface_types",
+   "label": "Operating surface",
+   "value": "Flat indoor ground",
+   "unit": "",
+   "note": "",
+   "source": "https://cdn.shopify.com/s/files/1/0551/0630/6141/files/TRACER_2.0_User_Manual_AgileX.pdf?v=1792611905",
+   "ref": "2"
+  },
+  {
+   "group": "Power & Battery",
+   "key": "battery_chemistry",
+   "label": "Battery type",
+   "value": "Lithium iron phosphate",
+   "unit": "",
+   "note": "",
+   "source": "https://cdn.shopify.com/s/files/1/0551/0630/6141/files/TRACER_2.0_User_Manual_AgileX.pdf?v=1792611905",
+   "ref": "1.2"
+  },
+  {
+   "group": "Power & Battery",
+   "key": "battery_voltage",
+   "label": "Battery voltage",
+   "value": 24,
+   "unit": "V",
+   "note": "",
+   "source": "https://cdn.shopify.com/s/files/1/0551/0630/6141/files/TRACER_2.0_User_Manual_AgileX.pdf?v=1792611905",
+   "ref": "1.2"
+  },
+  {
+   "group": "Power & Battery",
+   "key": "battery_capacity_ah",
+   "label": "Battery capacity",
+   "value": 30,
+   "unit": "Ah",
+   "note": "optional 60 Ah",
+   "source": "https://cdn.shopify.com/s/files/1/0551/0630/6141/files/TRACER_2.0_User_Manual_AgileX.pdf?v=1792611905",
+   "ref": "1.2"
+  },
+  {
+   "group": "Power & Battery",
+   "key": "runtime",
+   "label": "Maximum battery life",
+   "value": 9,
+   "unit": "h",
+   "note": "user manual",
+   "source": "https://cdn.shopify.com/s/files/1/0551/0630/6141/files/TRACER_2.0_User_Manual_AgileX.pdf?v=1792611905",
+   "ref": "1.2"
+  },
+  {
+   "group": "Power & Battery",
+   "key": "runtime",
+   "label": "Runtime (full load)",
+   "value": 3.5,
+   "unit": "h",
+   "note": "product page",
+   "source": "https://global.agilex.ai/products/tracer-2-0-150kg-payload-indoor-mobile-robot"
+  },
+  {
+   "group": "Power & Battery",
+   "key": "range_per_charge",
+   "label": "Maximum distance",
+   "value": 80,
+   "unit": "km",
+   "note": "user manual",
+   "source": "https://cdn.shopify.com/s/files/1/0551/0630/6141/files/TRACER_2.0_User_Manual_AgileX.pdf?v=1792611905",
+   "ref": "1.2"
+  },
+  {
+   "group": "Power & Battery",
+   "key": "range_per_charge",
+   "label": "Max range",
+   "value": 25,
+   "unit": "km",
+   "note": "product page",
+   "source": "https://global.agilex.ai/products/tracer-2-0-150kg-payload-indoor-mobile-robot"
+  },
+  {
+   "group": "Power & Battery",
+   "key": "low_battery_alarm",
+   "label": "Charge threshold",
+   "value": "charge when voltage below 22.5 V",
+   "unit": "",
+   "note": "",
+   "source": "https://cdn.shopify.com/s/files/1/0551/0630/6141/files/TRACER_2.0_User_Manual_AgileX.pdf?v=1792611905",
+   "ref": "Operation"
+  },
+  {
+   "group": "Charging & Docking",
+   "key": "charge_time",
+   "label": "Charging time",
+   "value": 3,
+   "unit": "h",
+   "note": "",
+   "source": "https://cdn.shopify.com/s/files/1/0551/0630/6141/files/TRACER_2.0_User_Manual_AgileX.pdf?v=1792611905",
+   "ref": "1.2"
+  },
+  {
+   "group": "Charging & Docking",
+   "key": "max_charge_current",
+   "label": "Charger current",
+   "value": 10,
+   "unit": "A",
+   "note": "",
+   "source": "https://cdn.shopify.com/s/files/1/0551/0630/6141/files/TRACER_2.0_User_Manual_AgileX.pdf?v=1792611905",
+   "ref": "3.2"
+  },
+  {
+   "group": "Charging & Docking",
+   "key": "charger_input",
+   "label": "Charger input",
+   "value": "AC 220 V",
+   "unit": "",
+   "note": "",
+   "source": "https://cdn.shopify.com/s/files/1/0551/0630/6141/files/TRACER_2.0_User_Manual_AgileX.pdf?v=1792611905",
+   "ref": "1.1"
+  },
+  {
+   "group": "Environment & Protection",
+   "key": "ip_rating",
+   "label": "IP rating",
+   "value": "IP22",
+   "unit": "",
+   "note": "",
+   "source": "https://cdn.shopify.com/s/files/1/0551/0630/6141/files/TRACER_2.0_User_Manual_AgileX.pdf?v=1792611905",
+   "ref": "1.2"
+  },
+  {
+   "group": "Environment & Protection",
+   "key": "operating_temperature",
+   "label": "Working temperature",
+   "value": "-10 to 40",
+   "unit": "°C",
+   "note": "safety section: -10 to 45 °C outdoors",
+   "source": "https://cdn.shopify.com/s/files/1/0551/0630/6141/files/TRACER_2.0_User_Manual_AgileX.pdf?v=1792611905",
+   "ref": "1.2"
+  },
+  {
+   "group": "Environment & Protection",
+   "key": "operating_humidity",
+   "label": "Relative humidity",
+   "value": "30 to 80",
+   "unit": "%",
+   "note": "",
+   "source": "https://cdn.shopify.com/s/files/1/0551/0630/6141/files/TRACER_2.0_User_Manual_AgileX.pdf?v=1792611905"
+  },
+  {
+   "group": "Environment & Protection",
+   "key": "max_altitude",
+   "label": "Recommended max altitude",
+   "value": 1000,
+   "unit": "m",
+   "note": "",
+   "source": "https://cdn.shopify.com/s/files/1/0551/0630/6141/files/TRACER_2.0_User_Manual_AgileX.pdf?v=1792611905"
+  },
+  {
+   "group": "Environment & Protection",
+   "key": "max_day_night_temp_difference",
+   "label": "Max day/night temperature difference",
+   "value": 25,
+   "unit": "°C",
+   "note": "",
+   "source": "https://cdn.shopify.com/s/files/1/0551/0630/6141/files/TRACER_2.0_User_Manual_AgileX.pdf?v=1792611905"
+  },
+  {
+   "group": "Environment & Protection",
+   "key": "storage_temperature",
+   "label": "Battery storage temperature",
+   "value": "-10 to 45",
+   "unit": "°C",
+   "note": "",
+   "source": "https://cdn.shopify.com/s/files/1/0551/0630/6141/files/TRACER_2.0_User_Manual_AgileX.pdf?v=1792611905"
+  },
+  {
+   "group": "Environment & Protection",
+   "key": "charging_temperature",
+   "label": "Charging temperature",
+   "value": "above 0",
+   "unit": "°C",
+   "note": "",
+   "source": "https://cdn.shopify.com/s/files/1/0551/0630/6141/files/TRACER_2.0_User_Manual_AgileX.pdf?v=1792611905"
+  },
+  {
+   "group": "Compute & Software",
+   "key": "ros_support",
+   "label": "ROS",
+   "value": "TRACER 2.0 ROS package",
+   "unit": "",
+   "note": "",
+   "source": "https://cdn.shopify.com/s/files/1/0551/0630/6141/files/TRACER_2.0_User_Manual_AgileX.pdf?v=1792611905",
+   "ref": "3.5"
+  },
+  {
+   "group": "Connectivity & Interfaces",
+   "key": "can_bus",
+   "label": "System interface",
+   "value": "CAN (USB-to-CAN module included)",
+   "unit": "",
+   "note": "",
+   "source": "https://cdn.shopify.com/s/files/1/0551/0630/6141/files/TRACER_2.0_User_Manual_AgileX.pdf?v=1792611905",
+   "ref": "1.2"
+  },
+  {
+   "group": "Connectivity & Interfaces",
+   "key": "external_ports",
+   "label": "Rear interface",
+   "value": "Charging port; CAN + 24 V aviation expansion interface; E-stop",
+   "unit": "",
+   "note": "",
+   "source": "https://cdn.shopify.com/s/files/1/0551/0630/6141/files/TRACER_2.0_User_Manual_AgileX.pdf?v=1792611905",
+   "ref": "2.2"
+  },
+  {
+   "group": "Payload & Mounting",
+   "key": "payload_port_power",
+   "label": "Tail extension power",
+   "value": "24 V, ≤5 A, ≤120 W",
+   "unit": "",
+   "note": "",
+   "source": "https://cdn.shopify.com/s/files/1/0551/0630/6141/files/TRACER_2.0_User_Manual_AgileX.pdf?v=1792611905",
+   "ref": "Electrical/extension cords"
+  },
+  {
+   "group": "Payload & Mounting",
+   "key": "top_module_interface",
+   "label": "Top compartment",
+   "value": "Bayonet open compartment reserved on top",
+   "unit": "",
+   "note": "",
+   "source": "https://cdn.shopify.com/s/files/1/0551/0630/6141/files/TRACER_2.0_User_Manual_AgileX.pdf?v=1792611905",
+   "ref": "2"
+  },
+  {
+   "group": "Safety & Compliance",
+   "key": "emergency_stop",
+   "label": "Emergency stop",
+   "value": "E-stop switch at rear",
+   "unit": "",
+   "note": "",
+   "source": "https://cdn.shopify.com/s/files/1/0551/0630/6141/files/TRACER_2.0_User_Manual_AgileX.pdf?v=1792611905",
+   "ref": "2"
+  },
+  {
+   "group": "Safety & Compliance",
+   "key": "parking_brake",
+   "label": "Parking mode",
+   "value": "Servo brake / safety contact strip",
+   "unit": "",
+   "note": "",
+   "source": "https://cdn.shopify.com/s/files/1/0551/0630/6141/files/TRACER_2.0_User_Manual_AgileX.pdf?v=1792611905",
+   "ref": "1.2"
+  },
+  {
+   "group": "Safety & Compliance",
+   "key": "bumper",
+   "label": "Safety contact strip",
+   "value": true,
+   "unit": "",
+   "note": "",
+   "source": "https://cdn.shopify.com/s/files/1/0551/0630/6141/files/TRACER_2.0_User_Manual_AgileX.pdf?v=1792611905",
+   "ref": "1.2"
+  },
+  {
+   "group": "Safety & Compliance",
+   "key": "obstacle_avoidance",
+   "label": "Obstacle avoidance",
+   "value": false,
+   "unit": "",
+   "note": "no automatic obstacle avoidance sensor",
+   "source": "https://cdn.shopify.com/s/files/1/0551/0630/6141/files/TRACER_2.0_User_Manual_AgileX.pdf?v=1792611905"
+  },
+  {
+   "group": "Controls & Operation",
+   "key": "control_modes",
+   "label": "Control modes",
+   "value": "Remote control; command (CAN/navigation) control; low/high speed modes",
+   "unit": "",
+   "note": "",
+   "source": "https://cdn.shopify.com/s/files/1/0551/0630/6141/files/TRACER_2.0_User_Manual_AgileX.pdf?v=1792611905",
+   "ref": "1.2 / 2.3"
+  },
+  {
+   "group": "Controls & Operation",
+   "key": "controller",
+   "label": "RC transmitter",
+   "value": "FS 2.4 GHz, up to 100 m (optional)",
+   "unit": "",
+   "note": "",
+   "source": "https://cdn.shopify.com/s/files/1/0551/0630/6141/files/TRACER_2.0_User_Manual_AgileX.pdf?v=1792611905",
+   "ref": "1.2"
+  },
+  {
+   "group": "Controls & Operation",
+   "key": "remote_range",
+   "label": "RC range",
+   "value": 100,
+   "unit": "m",
+   "note": "",
+   "source": "https://cdn.shopify.com/s/files/1/0551/0630/6141/files/TRACER_2.0_User_Manual_AgileX.pdf?v=1792611905",
+   "ref": "1.2"
+  },
+  {
+   "group": "Audio, Lights & HMI",
+   "key": "status_lights",
+   "label": "Lights",
+   "value": "White front light (breathing/constant/off); power-level indicator ring on switch",
+   "unit": "",
+   "note": "",
+   "source": "https://cdn.shopify.com/s/files/1/0551/0630/6141/files/TRACER_2.0_User_Manual_AgileX.pdf?v=1792611905",
+   "ref": "2 / 2.1"
+  },
+  {
+   "group": "Audio, Lights & HMI",
+   "key": "display",
+   "label": "Voltmeter",
+   "value": "Rear voltmeter",
+   "unit": "",
+   "note": "",
+   "source": "https://cdn.shopify.com/s/files/1/0551/0630/6141/files/TRACER_2.0_User_Manual_AgileX.pdf?v=1792611905"
+  },
+  {
+   "group": "Commercial",
+   "key": "included_accessories",
+   "label": "Component list",
+   "value": "Robot body, AC 220 V charger, RC transmitter (optional), 4-pin aviation plug, USB-to-CAN module",
+   "unit": "",
+   "note": "",
+   "source": "https://cdn.shopify.com/s/files/1/0551/0630/6141/files/TRACER_2.0_User_Manual_AgileX.pdf?v=1792611905",
+   "ref": "1.1"
+  }
+ ]
+}

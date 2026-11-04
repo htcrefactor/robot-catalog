@@ -1,0 +1,335 @@
+{
+ "id": "geekplus-p800r",
+ "checked": "2026-11-04",
+ "documents": [
+  {
+   "title": "P-Series robots spec sheet (Geek+)",
+   "url": "https://www.geekplus.com/hubfs/P-series.pdf"
+  },
+  {
+   "title": "P-Series robots page (Geek+)",
+   "url": "https://www.geekplus.com/technology/p-series-robots?hsLang=en"
+  },
+  {
+   "title": "Picking system spec page (Geek+ Japan)",
+   "url": "https://www.geekplus.jp/service/products/picking/spec"
+  }
+ ],
+ "specs": [
+  {
+   "group": "Identity",
+   "key": "robot_type",
+   "label": "Robot type",
+   "value": "Shelf-to-person picking robot (lifts and carries mobile shelves)",
+   "unit": "",
+   "note": "",
+   "source": "https://www.geekplus.com/technology/p-series-robots?hsLang=en"
+  },
+  {
+   "group": "Identity",
+   "key": "variants",
+   "label": "Variants",
+   "value": "Regular version (195 mm); thicker version for PopPick (275 mm); P800R V6 listed on site",
+   "unit": "",
+   "note": "",
+   "source": "https://www.geekplus.com/hubfs/P-series.pdf"
+  },
+  {
+   "group": "Dimensions & Mass",
+   "key": "length",
+   "label": "Length",
+   "value": 1095,
+   "unit": "mm",
+   "note": "",
+   "source": "https://www.geekplus.com/hubfs/P-series.pdf"
+  },
+  {
+   "group": "Dimensions & Mass",
+   "key": "width",
+   "label": "Width",
+   "value": 830,
+   "unit": "mm",
+   "note": "",
+   "source": "https://www.geekplus.com/hubfs/P-series.pdf"
+  },
+  {
+   "group": "Dimensions & Mass",
+   "key": "height",
+   "label": "Height",
+   "value": 195,
+   "unit": "mm",
+   "note": "regular version; 275 mm thicker PopPick version",
+   "source": "https://www.geekplus.com/hubfs/P-series.pdf"
+  },
+  {
+   "group": "Dimensions & Mass",
+   "key": "weight",
+   "label": "Weight",
+   "value": 142,
+   "unit": "kg",
+   "note": "",
+   "source": "https://www.geekplus.com/hubfs/P-series.pdf"
+  },
+  {
+   "group": "Dimensions & Mass",
+   "key": "weight_with_battery",
+   "label": "Weight (including battery)",
+   "value": 165,
+   "unit": "kg",
+   "note": "Geek+ Japan spec page",
+   "source": "https://www.geekplus.jp/service/products/picking/spec"
+  },
+  {
+   "group": "Dimensions & Mass",
+   "key": "rotation_diameter",
+   "label": "Rotation diameter",
+   "value": 1095,
+   "unit": "mm",
+   "note": "",
+   "source": "https://www.geekplus.com/hubfs/P-series.pdf"
+  },
+  {
+   "group": "Mobility & Performance",
+   "key": "max_payload",
+   "label": "Payload capacity",
+   "value": 1000,
+   "unit": "kg",
+   "note": "",
+   "source": "https://www.geekplus.com/hubfs/P-series.pdf"
+  },
+  {
+   "group": "Payload & Mounting",
+   "key": "max_lift_height",
+   "label": "Maximum lift height",
+   "value": 55,
+   "unit": "mm",
+   "note": "",
+   "source": "https://www.geekplus.com/hubfs/P-series.pdf"
+  },
+  {
+   "group": "Payload & Mounting",
+   "key": "lift_time",
+   "label": "Lift time",
+   "value": 4,
+   "unit": "s",
+   "note": "minimum",
+   "source": "https://www.geekplus.com/hubfs/P-series.pdf"
+  },
+  {
+   "group": "Payload & Mounting",
+   "key": "shelf_size",
+   "label": "Standard container size",
+   "value": "1220 × 1020 mm shelf",
+   "unit": "",
+   "note": "",
+   "source": "https://www.geekplus.com/hubfs/P-series.pdf"
+  },
+  {
+   "group": "Payload & Mounting",
+   "key": "shelf_size_range",
+   "label": "Shelf size range for maximum load",
+   "value": "1020 × 1020 to 1250 × 1250 mm",
+   "unit": "",
+   "note": "printed as '11250×1250' in spec sheet",
+   "source": "https://www.geekplus.com/hubfs/P-series.pdf"
+  },
+  {
+   "group": "Payload & Mounting",
+   "key": "shelf_min_inside_diameter",
+   "label": "Minimum shelf inside diameter",
+   "value": 930,
+   "unit": "mm",
+   "note": "",
+   "source": "https://www.geekplus.com/hubfs/P-series.pdf"
+  },
+  {
+   "group": "Payload & Mounting",
+   "key": "shelf_bottom_height",
+   "label": "Shelf bottom height",
+   "value": 215,
+   "unit": "mm",
+   "note": "",
+   "source": "https://www.geekplus.com/hubfs/P-series.pdf"
+  },
+  {
+   "group": "Power & Battery",
+   "key": "battery_chemistry",
+   "label": "Battery type",
+   "value": "Wide-temperature lithium battery",
+   "unit": "",
+   "note": "",
+   "source": "https://www.geekplus.com/hubfs/P-series.pdf"
+  },
+  {
+   "group": "Power & Battery",
+   "key": "battery_voltage",
+   "label": "Battery voltage",
+   "value": 51.1,
+   "unit": "VDC",
+   "note": "27.9 Ah; Japan page lists DC 50.96 V, 28 Ah",
+   "source": "https://www.geekplus.com/hubfs/P-series.pdf"
+  },
+  {
+   "group": "Power & Battery",
+   "key": "battery_capacity_ah",
+   "label": "Battery capacity",
+   "value": 27.9,
+   "unit": "Ah",
+   "note": "",
+   "source": "https://www.geekplus.com/hubfs/P-series.pdf"
+  },
+  {
+   "group": "Power & Battery",
+   "key": "battery_cycle_life",
+   "label": "Battery cycle life",
+   "value": "> 3 years",
+   "unit": "",
+   "note": "",
+   "source": "https://www.geekplus.com/hubfs/P-series.pdf"
+  },
+  {
+   "group": "Charging & Docking",
+   "key": "charge_time",
+   "label": "Charging time",
+   "value": "10 minutes charge for 1.5–2 hours of work",
+   "unit": "",
+   "note": "",
+   "source": "https://www.geekplus.com/hubfs/P-series.pdf"
+  },
+  {
+   "group": "Charging & Docking",
+   "key": "charge_to_runtime_ratio",
+   "label": "Charge-discharge ratio",
+   "value": "1:8 to 1:10",
+   "unit": "",
+   "note": "plus one standby charging station",
+   "source": "https://www.geekplus.com/hubfs/P-series.pdf"
+  },
+  {
+   "group": "Terrain & Navigation Limits",
+   "key": "navigation_method",
+   "label": "Navigation system",
+   "value": "Inertia + QR code visual navigation",
+   "unit": "",
+   "note": "",
+   "source": "https://www.geekplus.com/hubfs/P-series.pdf"
+  },
+  {
+   "group": "Sensors & Perception",
+   "key": "lidar_type",
+   "label": "Obstacle detection",
+   "value": "LiDAR obstacle detection; optional visual detection (-EWE/-EWS versions)",
+   "unit": "",
+   "note": "",
+   "source": "https://www.geekplus.com/hubfs/P-series.pdf"
+  },
+  {
+   "group": "Safety & Compliance",
+   "key": "emergency_stop",
+   "label": "Emergency stop",
+   "value": "1 emergency stop button (front and rear)",
+   "unit": "",
+   "note": "",
+   "source": "https://www.geekplus.com/hubfs/P-series.pdf"
+  },
+  {
+   "group": "Sensors & Perception",
+   "key": "bumper",
+   "label": "Bumper",
+   "value": "1 bumper strip (front and rear)",
+   "unit": "",
+   "note": "",
+   "source": "https://www.geekplus.com/hubfs/P-series.pdf"
+  },
+  {
+   "group": "Terrain & Navigation Limits",
+   "key": "floor_flatness_requirement",
+   "label": "Floor flatness",
+   "value": "Height difference ≤ 8 mm within 2 m²",
+   "unit": "",
+   "note": "",
+   "source": "https://www.geekplus.com/hubfs/P-series.pdf"
+  },
+  {
+   "group": "Terrain & Navigation Limits",
+   "key": "max_step_height",
+   "label": "Step",
+   "value": 2,
+   "unit": "mm",
+   "note": "≤",
+   "source": "https://www.geekplus.com/hubfs/P-series.pdf"
+  },
+  {
+   "group": "Terrain & Navigation Limits",
+   "key": "max_gap_crossing",
+   "label": "Ditch width",
+   "value": 5,
+   "unit": "mm",
+   "note": "≤",
+   "source": "https://www.geekplus.com/hubfs/P-series.pdf"
+  },
+  {
+   "group": "Mobility & Performance",
+   "key": "positioning_accuracy",
+   "label": "Stop accuracy",
+   "value": "≤ ±10 mm, ±1°",
+   "unit": "",
+   "note": "geometric centre of vehicle body",
+   "source": "https://www.geekplus.com/hubfs/P-series.pdf"
+  },
+  {
+   "group": "Environment & Protection",
+   "key": "operating_temperature",
+   "label": "Operating temperature",
+   "value": "−10 to 45",
+   "unit": "°C",
+   "note": "Japan page: 0–40 °C (excluding charging)",
+   "source": "https://www.geekplus.com/hubfs/P-series.pdf"
+  },
+  {
+   "group": "Environment & Protection",
+   "key": "operating_humidity",
+   "label": "Humidity",
+   "value": "10–95% non-condensing at ≥5 °C; 10–40% at <5 °C",
+   "unit": "",
+   "note": "",
+   "source": "https://www.geekplus.com/hubfs/P-series.pdf"
+  },
+  {
+   "group": "Mobility & Performance",
+   "key": "max_speed",
+   "label": "Maximum travel speed",
+   "value": 2.3,
+   "unit": "m/s",
+   "note": "no load",
+   "source": "https://www.geekplus.com/hubfs/P-series.pdf"
+  },
+  {
+   "group": "Mobility & Performance",
+   "key": "rated_speed_loaded",
+   "label": "Maximum speed with full load",
+   "value": 2.0,
+   "unit": "m/s",
+   "note": "",
+   "source": "https://www.geekplus.com/hubfs/P-series.pdf"
+  },
+  {
+   "group": "Connectivity & Interfaces",
+   "key": "wifi",
+   "label": "Communication",
+   "value": "Wi-Fi 2.4G/5G, IEEE 802.11 b/g/n",
+   "unit": "",
+   "note": "",
+   "source": "https://www.geekplus.jp/service/products/picking/spec"
+  },
+  {
+   "group": "Compute & Software",
+   "key": "fleet_software",
+   "label": "Software",
+   "value": "Geekplus Software Suite: RMS, WES, IOP, G-Studio, G-Service, System Portal; open interfaces",
+   "unit": "",
+   "note": "",
+   "source": "https://www.geekplus.com/technology/p-series-robots?hsLang=en"
+  }
+ ]
+}

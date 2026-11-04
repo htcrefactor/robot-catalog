@@ -1,0 +1,502 @@
+{
+  "id": "1x-neo",
+  "checked": "2026-11-04",
+  "documents": [
+    {
+      "title": "1X NEO Home Robot product page (incl. hardware specs and FAQ)",
+      "url": "https://www.1x.tech/neo"
+    },
+    {
+      "title": "1X NEO order page",
+      "url": "https://www.1x.tech/order"
+    }
+  ],
+  "specs": [
+    {
+      "group": "Dimensions & Mass",
+      "key": "height",
+      "label": "Height",
+      "value": "5'6\"",
+      "unit": "ft/in",
+      "note": "",
+      "source": "https://www.1x.tech/neo"
+    },
+    {
+      "group": "Dimensions & Mass",
+      "key": "weight",
+      "label": "Weight",
+      "value": 66,
+      "unit": "lb",
+      "note": "",
+      "source": "https://www.1x.tech/neo"
+    },
+    {
+      "group": "Mobility & Performance",
+      "key": "max_payload",
+      "label": "Lift",
+      "value": 154,
+      "unit": "lb",
+      "note": "",
+      "source": "https://www.1x.tech/neo"
+    },
+    {
+      "group": "Mobility & Performance",
+      "key": "rated_payload",
+      "label": "Carry",
+      "value": 55,
+      "unit": "lb",
+      "note": "",
+      "source": "https://www.1x.tech/neo"
+    },
+    {
+      "group": "Manipulation",
+      "key": "arm_payload",
+      "label": "Arm payload",
+      "value": 18,
+      "unit": "lb",
+      "note": "",
+      "source": "https://www.1x.tech/neo"
+    },
+    {
+      "group": "Manipulation",
+      "key": "hand_dof",
+      "label": "Hand DoF",
+      "value": "22 x 2",
+      "unit": "",
+      "note": "",
+      "source": "https://www.1x.tech/neo"
+    },
+    {
+      "group": "Actuation & Joints",
+      "key": "dof_per_arm",
+      "label": "Arm DoF",
+      "value": "7 x 2",
+      "unit": "",
+      "note": "",
+      "source": "https://www.1x.tech/neo"
+    },
+    {
+      "group": "Actuation & Joints",
+      "key": "dof_head",
+      "label": "Neck DoF",
+      "value": 3,
+      "unit": "",
+      "note": "",
+      "source": "https://www.1x.tech/neo"
+    },
+    {
+      "group": "Actuation & Joints",
+      "key": "dof_spine",
+      "label": "Spine DoF",
+      "value": 2,
+      "unit": "",
+      "note": "",
+      "source": "https://www.1x.tech/neo"
+    },
+    {
+      "group": "Actuation & Joints",
+      "key": "dof_per_leg",
+      "label": "Leg DoF",
+      "value": "6 x 2",
+      "unit": "",
+      "note": "",
+      "source": "https://www.1x.tech/neo"
+    },
+    {
+      "group": "Manipulation",
+      "key": "hand_speed",
+      "label": "Hand speed",
+      "value": 8.0,
+      "unit": "m/s",
+      "note": "",
+      "source": "https://www.1x.tech/neo"
+    },
+    {
+      "group": "Mobility & Performance",
+      "key": "max_speed",
+      "label": "Max run speed",
+      "value": 6.2,
+      "unit": "m/s",
+      "note": "",
+      "source": "https://www.1x.tech/neo"
+    },
+    {
+      "group": "Mobility & Performance",
+      "key": "nominal_speed",
+      "label": "Walking speed",
+      "value": 1.4,
+      "unit": "m/s",
+      "note": "",
+      "source": "https://www.1x.tech/neo"
+    },
+    {
+      "group": "Mobility & Performance",
+      "key": "gaits",
+      "label": "Mobility",
+      "value": "Walking, sitting, standing, kneeling, stair climbing",
+      "unit": "",
+      "note": "FAQ",
+      "source": "https://www.1x.tech/neo"
+    },
+    {
+      "group": "Power & Battery",
+      "key": "battery_capacity",
+      "label": "Battery capacity",
+      "value": 842,
+      "unit": "Wh",
+      "note": "spec table; FAQ mentions a .75 kWh pack",
+      "source": "https://www.1x.tech/neo"
+    },
+    {
+      "group": "Power & Battery",
+      "key": "runtime",
+      "label": "Run-time",
+      "value": 4,
+      "unit": "h",
+      "note": "",
+      "source": "https://www.1x.tech/neo"
+    },
+    {
+      "group": "Charging & Docking",
+      "key": "charge_time",
+      "label": "Quick charge",
+      "value": "6 min per hour of runtime",
+      "unit": "",
+      "note": "",
+      "source": "https://www.1x.tech/neo"
+    },
+    {
+      "group": "Charging & Docking",
+      "key": "charging_method",
+      "label": "Self-charge",
+      "value": "Plugs itself in; NEO Charger on standard home outlet",
+      "unit": "",
+      "note": "",
+      "source": "https://www.1x.tech/neo"
+    },
+    {
+      "group": "Power & Battery",
+      "key": "energy_cost",
+      "label": "Running cost",
+      "value": "under $1 a day",
+      "unit": "",
+      "note": "at standard retail electricity rates (1X estimate)",
+      "source": "https://www.1x.tech/neo"
+    },
+    {
+      "group": "Safety & Compliance",
+      "key": "safety_design",
+      "label": "Body",
+      "value": "Soft body with custom 3D lattice polymer; no pinch points",
+      "unit": "",
+      "note": "",
+      "source": "https://www.1x.tech/neo"
+    },
+    {
+      "group": "Safety & Compliance",
+      "key": "head_injury_criterion",
+      "label": "HIC",
+      "value": "<250",
+      "unit": "",
+      "note": "",
+      "source": "https://www.1x.tech/neo"
+    },
+    {
+      "group": "Actuation & Joints",
+      "key": "actuator_type",
+      "label": "Actuation",
+      "value": "Low-inertia tendon drives (1X Tendon Drive)",
+      "unit": "",
+      "note": "",
+      "source": "https://www.1x.tech/neo"
+    },
+    {
+      "group": "Actuation & Joints",
+      "key": "torque_accuracy",
+      "label": "Tendon drive torque accuracy",
+      "value": 2,
+      "unit": "%",
+      "note": "",
+      "source": "https://www.1x.tech/neo"
+    },
+    {
+      "group": "Actuation & Joints",
+      "key": "backdrivability",
+      "label": "Tendon drive backdrivability",
+      "value": 95,
+      "unit": "%",
+      "note": "",
+      "source": "https://www.1x.tech/neo"
+    },
+    {
+      "group": "Actuation & Joints",
+      "key": "repeatability",
+      "label": "Tendon drive repetition",
+      "value": 0.1,
+      "unit": "mm",
+      "note": "",
+      "source": "https://www.1x.tech/neo"
+    },
+    {
+      "group": "Mobility & Performance",
+      "key": "positioning_accuracy",
+      "label": "Accuracy",
+      "value": 1,
+      "unit": "mm",
+      "note": "",
+      "source": "https://www.1x.tech/neo"
+    },
+    {
+      "group": "Actuation & Joints",
+      "key": "actuator_cycle_life",
+      "label": "Nominal load cycles",
+      "value": 2000000,
+      "unit": "cycles",
+      "note": "1-day service replacement",
+      "source": "https://www.1x.tech/neo"
+    },
+    {
+      "group": "Actuation & Joints",
+      "key": "actuator_cycle_life",
+      "label": "Peak (3x nominal) cycles",
+      "value": 100000,
+      "unit": "cycles",
+      "note": "1-day service replacement",
+      "source": "https://www.1x.tech/neo"
+    },
+    {
+      "group": "Sensors & Perception",
+      "key": "imu",
+      "label": "IMUs",
+      "value": "Linkwise differential (velocity and accelerations)",
+      "unit": "",
+      "note": "",
+      "source": "https://www.1x.tech/neo"
+    },
+    {
+      "group": "Sensors & Perception",
+      "key": "calibration",
+      "label": "Calibration",
+      "value": "AI-based continuous adaptation",
+      "unit": "",
+      "note": "",
+      "source": "https://www.1x.tech/neo"
+    },
+    {
+      "group": "Environment & Protection",
+      "key": "ip_rating",
+      "label": "IP rating – hands",
+      "value": "IP68",
+      "unit": "",
+      "note": "submersible",
+      "source": "https://www.1x.tech/neo"
+    },
+    {
+      "group": "Environment & Protection",
+      "key": "ip_rating",
+      "label": "IP rating – body",
+      "value": "IP44",
+      "unit": "",
+      "note": "splash proof; overall product not waterproof",
+      "source": "https://www.1x.tech/neo"
+    },
+    {
+      "group": "Environment & Protection",
+      "key": "usage_environment",
+      "label": "Environment",
+      "value": "In and around the home on firm ground; avoid moisture",
+      "unit": "",
+      "note": "",
+      "source": "https://www.1x.tech/neo"
+    },
+    {
+      "group": "Safety & Compliance",
+      "key": "max_noise_level",
+      "label": "Audible noise",
+      "value": 22,
+      "unit": "dB",
+      "note": "",
+      "source": "https://www.1x.tech/neo"
+    },
+    {
+      "group": "Compute & Software",
+      "key": "compute_module",
+      "label": "Chipset",
+      "value": "1X NEO Cortex (NVIDIA Jetson Thor)",
+      "unit": "",
+      "note": "",
+      "source": "https://www.1x.tech/neo"
+    },
+    {
+      "group": "Compute & Software",
+      "key": "ai_performance_tops",
+      "label": "AI compute",
+      "value": 2070,
+      "unit": "FP4 TFLOPS",
+      "note": "up to",
+      "source": "https://www.1x.tech/neo"
+    },
+    {
+      "group": "Compute & Software",
+      "key": "ai_model",
+      "label": "AI",
+      "value": "Redwood AI (VLA) + built-in LLM",
+      "unit": "",
+      "note": "",
+      "source": "https://www.1x.tech/neo"
+    },
+    {
+      "group": "Sensors & Perception",
+      "key": "microphones",
+      "label": "Microphones",
+      "value": "4 beamforming microphones",
+      "unit": "",
+      "note": "",
+      "source": "https://www.1x.tech/neo"
+    },
+    {
+      "group": "Audio, Lights & HMI",
+      "key": "speaker",
+      "label": "Speakers",
+      "value": "3-stage speaker in pelvis and chest",
+      "unit": "",
+      "note": "Bluetooth boom-box mode",
+      "source": "https://www.1x.tech/neo"
+    },
+    {
+      "group": "Sensors & Perception",
+      "key": "camera_type",
+      "label": "Camera",
+      "value": "Dual 8.85 MP 90 Hz stereo fisheye",
+      "unit": "",
+      "note": "",
+      "source": "https://www.1x.tech/neo"
+    },
+    {
+      "group": "Connectivity & Interfaces",
+      "key": "wifi",
+      "label": "Wi-Fi",
+      "value": true,
+      "unit": "",
+      "note": "home Wi-Fi recommended",
+      "source": "https://www.1x.tech/neo"
+    },
+    {
+      "group": "Connectivity & Interfaces",
+      "key": "bluetooth",
+      "label": "Bluetooth",
+      "value": true,
+      "unit": "",
+      "note": "",
+      "source": "https://www.1x.tech/neo"
+    },
+    {
+      "group": "Connectivity & Interfaces",
+      "key": "cellular",
+      "label": "Cellular",
+      "value": "5G",
+      "unit": "",
+      "note": "",
+      "source": "https://www.1x.tech/neo"
+    },
+    {
+      "group": "Audio, Lights & HMI",
+      "key": "status_lights",
+      "label": "Emotive Ear Rings",
+      "value": "Indicate state (battery, attention, remote expert active)",
+      "unit": "",
+      "note": "",
+      "source": "https://www.1x.tech/neo"
+    },
+    {
+      "group": "Controls & Operation",
+      "key": "controller",
+      "label": "Interfaces",
+      "value": "Voice; NEO mobile app; VR remote control",
+      "unit": "",
+      "note": "",
+      "source": "https://www.1x.tech/neo"
+    },
+    {
+      "group": "Controls & Operation",
+      "key": "teleoperation",
+      "label": "Expert Mode",
+      "value": "Scheduled remote supervision by 1X Experts (US-based), owner-approved",
+      "unit": "",
+      "note": "",
+      "source": "https://www.1x.tech/neo"
+    },
+    {
+      "group": "Transport & Storage",
+      "key": "soft_goods",
+      "label": "Suit",
+      "value": "Machine-washable nylon suit and shoes",
+      "unit": "",
+      "note": "",
+      "source": "https://www.1x.tech/neo"
+    },
+    {
+      "group": "Commercial",
+      "key": "included_accessories",
+      "label": "Comes with",
+      "value": "Charger; lint roller; case",
+      "unit": "",
+      "note": "",
+      "source": "https://www.1x.tech/neo"
+    },
+    {
+      "group": "Commercial",
+      "key": "price",
+      "label": "Ownership price",
+      "value": 20000,
+      "unit": "USD",
+      "note": "Early Access; includes 3-year warranty, premium support, priority delivery",
+      "source": "https://www.1x.tech/order"
+    },
+    {
+      "group": "Commercial",
+      "key": "price",
+      "label": "Subscription price",
+      "value": 499,
+      "unit": "USD/month",
+      "note": "Standard; starter productivity package",
+      "source": "https://www.1x.tech/order"
+    },
+    {
+      "group": "Commercial",
+      "key": "deposit",
+      "label": "Order deposit",
+      "value": 200,
+      "unit": "USD",
+      "note": "fully refundable",
+      "source": "https://www.1x.tech/order"
+    },
+    {
+      "group": "Commercial",
+      "key": "warranty",
+      "label": "Warranty",
+      "value": 3,
+      "unit": "years",
+      "note": "with ownership option",
+      "source": "https://www.1x.tech/order"
+    },
+    {
+      "group": "Commercial",
+      "key": "availability",
+      "label": "Deliveries",
+      "value": "US deliveries start 2026; international later",
+      "unit": "",
+      "note": "",
+      "source": "https://www.1x.tech/neo"
+    },
+    {
+      "group": "Identity",
+      "key": "manufacturing_site",
+      "label": "Manufactured in",
+      "value": "California",
+      "unit": "",
+      "note": "",
+      "source": "https://www.1x.tech/neo"
+    }
+  ]
+}

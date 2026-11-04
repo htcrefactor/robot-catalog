@@ -1,0 +1,666 @@
+{
+  "id": "unitree-go2-edu",
+  "checked": "2026-11-04",
+  "documents": [
+    {
+      "title": "Unitree Go2 product page (parameter table AIR / PRO / X / EDU)",
+      "url": "https://www.unitree.com/go2"
+    },
+    {
+      "title": "Unitree Go2 EDU User Manual (© 2023 Unitree Robotics; hosted by reseller)",
+      "url": "https://static1.squarespace.com/static/5e76e0c52a318c0c1a850442/t/6670b6185e6f531946071db4/1718662712134/GO2+Edu+User+Manual.pdf"
+    }
+  ],
+  "specs": [
+    {
+      "group": "Identity",
+      "key": "manufacturer",
+      "label": "Manufacturer",
+      "value": "Unitree Robotics (Hangzhou Yushu Technology Co., Ltd.)",
+      "unit": "",
+      "note": "",
+      "source": "https://www.unitree.com/go2"
+    },
+    {
+      "group": "Identity",
+      "key": "variants",
+      "label": "Variants",
+      "value": "Go2 AIR; Go2 PRO; Go2 X; Go2 EDU",
+      "unit": "",
+      "note": "\"Available in diverse configurations\"",
+      "source": "https://www.unitree.com/go2"
+    },
+    {
+      "group": "Dimensions & Mass",
+      "key": "length",
+      "label": "Length (standing)",
+      "value": 70,
+      "unit": "cm",
+      "note": "dimension of standing 70 × 31 × 40 cm",
+      "source": "https://www.unitree.com/go2"
+    },
+    {
+      "group": "Dimensions & Mass",
+      "key": "width",
+      "label": "Width (standing)",
+      "value": 31,
+      "unit": "cm",
+      "note": "",
+      "source": "https://www.unitree.com/go2"
+    },
+    {
+      "group": "Dimensions & Mass",
+      "key": "height_standing",
+      "label": "Height (standing)",
+      "value": 40,
+      "unit": "cm",
+      "note": "",
+      "source": "https://www.unitree.com/go2"
+    },
+    {
+      "group": "Dimensions & Mass",
+      "key": "length",
+      "label": "Length (crouching)",
+      "value": 76,
+      "unit": "cm",
+      "note": "dimension of crouching 76 × 31 × 20 cm",
+      "source": "https://www.unitree.com/go2"
+    },
+    {
+      "group": "Dimensions & Mass",
+      "key": "height_sitting",
+      "label": "Height (crouching)",
+      "value": 20,
+      "unit": "cm",
+      "note": "",
+      "source": "https://www.unitree.com/go2"
+    },
+    {
+      "group": "Dimensions & Mass",
+      "key": "weight_with_battery",
+      "label": "Weight (with battery)",
+      "value": 15,
+      "unit": "kg",
+      "note": "about",
+      "source": "https://www.unitree.com/go2"
+    },
+    {
+      "group": "Dimensions & Mass",
+      "key": "body_material",
+      "label": "Material",
+      "value": "Aluminium alloy + high strength engineering plastic",
+      "unit": "",
+      "note": "",
+      "source": "https://www.unitree.com/go2"
+    },
+    {
+      "group": "Power & Battery",
+      "key": "battery_voltage",
+      "label": "Voltage",
+      "value": "28–33.6",
+      "unit": "V",
+      "note": "",
+      "source": "https://www.unitree.com/go2"
+    },
+    {
+      "group": "Power & Battery",
+      "key": "max_power_output",
+      "label": "Working maximum power",
+      "value": 3000,
+      "unit": "W",
+      "note": "about",
+      "source": "https://www.unitree.com/go2"
+    },
+    {
+      "group": "Actuation & Joints",
+      "key": "joint_count",
+      "label": "Joint motors",
+      "value": 12,
+      "unit": "",
+      "note": "aluminum knee joint motor, 12 sets",
+      "source": "https://www.unitree.com/go2"
+    },
+    {
+      "group": "Mobility & Performance",
+      "key": "degrees_of_freedom",
+      "label": "Degrees of freedom",
+      "value": 12,
+      "unit": "",
+      "note": "12 joint motors",
+      "source": "https://www.unitree.com/go2"
+    },
+    {
+      "group": "Actuation & Joints",
+      "key": "joint_range_of_motion",
+      "label": "Range of motion (body)",
+      "value": "−48 to 48",
+      "unit": "°",
+      "note": "",
+      "source": "https://www.unitree.com/go2"
+    },
+    {
+      "group": "Actuation & Joints",
+      "key": "joint_range_of_motion",
+      "label": "Range of motion (thigh)",
+      "value": "−200 to 90",
+      "unit": "°",
+      "note": "",
+      "source": "https://www.unitree.com/go2"
+    },
+    {
+      "group": "Actuation & Joints",
+      "key": "joint_range_of_motion",
+      "label": "Range of motion (shank)",
+      "value": "−156 to −48",
+      "unit": "°",
+      "note": "",
+      "source": "https://www.unitree.com/go2"
+    },
+    {
+      "group": "Actuation & Joints",
+      "key": "intra_joint_circuit",
+      "label": "Intra-joint circuit (knee)",
+      "value": true,
+      "unit": "",
+      "note": "",
+      "source": "https://www.unitree.com/go2"
+    },
+    {
+      "group": "Actuation & Joints",
+      "key": "cooling_system",
+      "label": "Joint heat pipe cooler",
+      "value": true,
+      "unit": "",
+      "note": "",
+      "source": "https://www.unitree.com/go2"
+    },
+    {
+      "group": "Sensors & Perception",
+      "key": "lidar_type",
+      "label": "LiDAR",
+      "value": "Unitree 4D LiDAR L2 (super-wide-angle)",
+      "unit": "",
+      "note": "standard on all versions; the 2023 EDU manual describes the earlier L1 (360° × 90°)",
+      "source": "https://www.unitree.com/go2"
+    },
+    {
+      "group": "Sensors & Perception",
+      "key": "lidar_fov",
+      "label": "LiDAR field of view",
+      "value": "360 × 96",
+      "unit": "°",
+      "note": "hemispherical ultra-wide recognition",
+      "source": "https://www.unitree.com/go2"
+    },
+    {
+      "group": "Sensors & Perception",
+      "key": "lidar_range",
+      "label": "LiDAR minimum detection distance",
+      "value": 0.05,
+      "unit": "m",
+      "note": "minimum detection distance as low as 0.05 m",
+      "source": "https://www.unitree.com/go2"
+    },
+    {
+      "group": "Sensors & Perception",
+      "key": "camera_type",
+      "label": "Camera",
+      "value": "HD wide-angle camera",
+      "unit": "",
+      "note": "",
+      "source": "https://www.unitree.com/go2"
+    },
+    {
+      "group": "Terrain & Navigation Limits",
+      "key": "mapping",
+      "label": "3D LiDAR mapping",
+      "value": "Point-cloud map construction with L2 LiDAR and app; specify a path for autonomous movement",
+      "unit": "",
+      "note": "",
+      "source": "https://www.unitree.com/go2"
+    },
+    {
+      "group": "Mobility & Performance",
+      "key": "gaits",
+      "label": "Advanced AI gaits",
+      "value": "Upside-down walking, adaptive roll-over, climbing over obstacles (AI mode)",
+      "unit": "",
+      "note": "learned via large-scale AI simulation training",
+      "source": "https://www.unitree.com/go2"
+    },
+    {
+      "group": "Safety & Compliance",
+      "key": "obstacle_avoidance",
+      "label": "Intelligent detection and avoidance",
+      "value": true,
+      "unit": "",
+      "note": "",
+      "source": "https://www.unitree.com/go2"
+    },
+    {
+      "group": "Controls & Operation",
+      "key": "control_modes",
+      "label": "Basic actions",
+      "value": true,
+      "unit": "",
+      "note": "",
+      "source": "https://www.unitree.com/go2"
+    },
+    {
+      "group": "Compute & Software",
+      "key": "ota_updates",
+      "label": "OTA updates",
+      "value": "Upgraded intelligent OTA (cloud-based, with user authorisation)",
+      "unit": "",
+      "note": "",
+      "source": "https://www.unitree.com/go2"
+    },
+    {
+      "group": "Compute & Software",
+      "key": "graphical_programming",
+      "label": "Graphical programming",
+      "value": true,
+      "unit": "",
+      "note": "",
+      "source": "https://www.unitree.com/go2"
+    },
+    {
+      "group": "Connectivity & Interfaces",
+      "key": "video_transmission",
+      "label": "Image transmission",
+      "value": "RTT 2.0 HD real-time image transmission",
+      "unit": "",
+      "note": "quality varies with network environment",
+      "source": "https://www.unitree.com/go2"
+    },
+    {
+      "group": "Audio, Lights & HMI",
+      "key": "front_light",
+      "label": "Front lamp",
+      "value": true,
+      "unit": "",
+      "note": "",
+      "source": "https://www.unitree.com/go2"
+    },
+    {
+      "group": "Connectivity & Interfaces",
+      "key": "wifi",
+      "label": "Wi-Fi",
+      "value": "Wi-Fi 6, dual-band",
+      "unit": "",
+      "note": "",
+      "source": "https://www.unitree.com/go2"
+    },
+    {
+      "group": "Connectivity & Interfaces",
+      "key": "bluetooth",
+      "label": "Bluetooth",
+      "value": "5.2 / 4.2 / 2.1",
+      "unit": "",
+      "note": "",
+      "source": "https://www.unitree.com/go2"
+    },
+    {
+      "group": "Environment & Protection",
+      "key": "operating_temperature",
+      "label": "Operating temperature",
+      "value": "5 to 35",
+      "unit": "°C",
+      "note": "run in good weather; do not run in fog, snow, rain, thunder, sandstorm etc.",
+      "source": "https://static1.squarespace.com/static/5e76e0c52a318c0c1a850442/t/6670b6185e6f531946071db4/1718662712134/GO2+Edu+User+Manual.pdf",
+      "ref": "Safety Instructions p.2"
+    },
+    {
+      "group": "Environment & Protection",
+      "key": "ip_rating",
+      "label": "Water resistance",
+      "value": "Not waterproof",
+      "unit": "",
+      "note": "do not run with water on the ground, in rain, snow or wet conditions; not dustproof or waterproof for storage",
+      "source": "https://static1.squarespace.com/static/5e76e0c52a318c0c1a850442/t/6670b6185e6f531946071db4/1718662712134/GO2+Edu+User+Manual.pdf",
+      "ref": "p.2, p.21"
+    },
+    {
+      "group": "Terrain & Navigation Limits",
+      "key": "max_stair_step_height",
+      "label": "Recommended max stair height",
+      "value": 16,
+      "unit": "cm",
+      "note": "not recommended to walk stairs higher than 16 cm",
+      "source": "https://static1.squarespace.com/static/5e76e0c52a318c0c1a850442/t/6670b6185e6f531946071db4/1718662712134/GO2+Edu+User+Manual.pdf",
+      "ref": "Cautions p.20"
+    },
+    {
+      "group": "Audio, Lights & HMI",
+      "key": "status_lights",
+      "label": "Head indicator light",
+      "value": "Status indication by head light colour (e.g. slow yellow flash = low battery, auto crouch within 10 min)",
+      "unit": "",
+      "note": "",
+      "source": "https://static1.squarespace.com/static/5e76e0c52a318c0c1a850442/t/6670b6185e6f531946071db4/1718662712134/GO2+Edu+User+Manual.pdf",
+      "ref": "p.6"
+    },
+    {
+      "group": "Safety & Compliance",
+      "key": "intended_use",
+      "label": "Intended use",
+      "value": "Civilian robot; not a toy; not for persons under 14; dangerous modifications or hazardous use prohibited",
+      "unit": "",
+      "note": "",
+      "source": "https://www.unitree.com/go2"
+    },
+    {
+      "group": "Commercial",
+      "key": "availability_note",
+      "label": "Regional note",
+      "value": "4G function of non-Chinese-mainland version supports only 43 European countries (except Ukraine) and some Asian regions",
+      "unit": "",
+      "note": "footnote [10]",
+      "source": "https://www.unitree.com/go2"
+    },
+    {
+      "group": "Identity",
+      "key": "model_number",
+      "label": "Model",
+      "value": "Go2 EDU",
+      "unit": "",
+      "note": "",
+      "source": "https://www.unitree.com/go2"
+    },
+    {
+      "group": "Mobility & Performance",
+      "key": "rated_payload",
+      "label": "Payload",
+      "value": 8,
+      "unit": "kg",
+      "note": "≈8 kg",
+      "source": "https://www.unitree.com/go2"
+    },
+    {
+      "group": "Mobility & Performance",
+      "key": "max_payload",
+      "label": "Maximum payload",
+      "value": 12,
+      "unit": "kg",
+      "note": "MAX ~12 kg",
+      "source": "https://www.unitree.com/go2"
+    },
+    {
+      "group": "Mobility & Performance",
+      "key": "max_speed",
+      "label": "Speed",
+      "value": "0–3.7",
+      "unit": "m/s",
+      "note": "",
+      "source": "https://www.unitree.com/go2"
+    },
+    {
+      "group": "Mobility & Performance",
+      "key": "max_speed",
+      "label": "Maximum speed",
+      "value": 5,
+      "unit": "m/s",
+      "note": "MAX ~5 m/s; \"Max running speed approx. 5 m/s (tested in lab)\"",
+      "source": "https://www.unitree.com/go2"
+    },
+    {
+      "group": "Terrain & Navigation Limits",
+      "key": "max_obstacle_height",
+      "label": "Max climb/drop height",
+      "value": 16,
+      "unit": "cm",
+      "note": "about",
+      "source": "https://www.unitree.com/go2"
+    },
+    {
+      "group": "Terrain & Navigation Limits",
+      "key": "max_slope",
+      "label": "Max climb angle",
+      "value": 40,
+      "unit": "°",
+      "note": "",
+      "source": "https://www.unitree.com/go2"
+    },
+    {
+      "group": "Sensors & Perception",
+      "key": "foot_contact_sensors",
+      "label": "Foot-end force sensor",
+      "value": true,
+      "unit": "",
+      "note": "",
+      "source": "https://www.unitree.com/go2"
+    },
+    {
+      "group": "Controls & Operation",
+      "key": "follow_module",
+      "label": "Wireless vector positioning tracking module",
+      "value": true,
+      "unit": "",
+      "note": "",
+      "source": "https://www.unitree.com/go2"
+    },
+    {
+      "group": "Controls & Operation",
+      "key": "iss_follow",
+      "label": "ISS 2.0 intelligent side-follow system",
+      "value": true,
+      "unit": "",
+      "note": "positioning accuracy upgraded 50 %; remote control distance over 30 m in open environment without interference",
+      "source": "https://www.unitree.com/go2"
+    },
+    {
+      "group": "Transport & Storage",
+      "key": "auto_scaling_strap",
+      "label": "Auto-scaling strap",
+      "value": false,
+      "unit": "",
+      "note": "",
+      "source": "https://www.unitree.com/go2"
+    },
+    {
+      "group": "Connectivity & Interfaces",
+      "key": "cellular",
+      "label": "4G module (with GPS)",
+      "value": true,
+      "unit": "",
+      "note": "built-in 4G and eSIM",
+      "source": "https://www.unitree.com/go2"
+    },
+    {
+      "group": "Sensors & Perception",
+      "key": "gps",
+      "label": "GPS",
+      "value": true,
+      "unit": "",
+      "note": "part of 4G module",
+      "source": "https://www.unitree.com/go2"
+    },
+    {
+      "group": "Audio, Lights & HMI",
+      "key": "voice_function",
+      "label": "Voice function",
+      "value": true,
+      "unit": "",
+      "note": "offline voice interaction, commands, intercom and music play",
+      "source": "https://www.unitree.com/go2"
+    },
+    {
+      "group": "Charging & Docking",
+      "key": "dock_available",
+      "label": "Charging pile compatibility",
+      "value": true,
+      "unit": "",
+      "note": "",
+      "source": "https://www.unitree.com/go2"
+    },
+    {
+      "group": "Compute & Software",
+      "key": "sdk",
+      "label": "Secondary development",
+      "value": true,
+      "unit": "",
+      "note": "see secondary development manual",
+      "source": "https://www.unitree.com/go2"
+    },
+    {
+      "group": "Controls & Operation",
+      "key": "controller",
+      "label": "Manual controller",
+      "value": "Included",
+      "unit": "",
+      "note": "",
+      "source": "https://www.unitree.com/go2"
+    },
+    {
+      "group": "Sensors & Perception",
+      "key": "depth_camera_count",
+      "label": "Depth camera",
+      "value": 1,
+      "unit": "",
+      "note": "standard on EDU",
+      "source": "https://www.unitree.com/go2"
+    },
+    {
+      "group": "Power & Battery",
+      "key": "battery_capacity_ah",
+      "label": "Smart battery",
+      "value": 15000,
+      "unit": "mAh",
+      "note": "long endurance",
+      "source": "https://www.unitree.com/go2"
+    },
+    {
+      "group": "Power & Battery",
+      "key": "runtime",
+      "label": "Battery life",
+      "value": "2–4",
+      "unit": "h",
+      "note": "about",
+      "source": "https://www.unitree.com/go2"
+    },
+    {
+      "group": "Charging & Docking",
+      "key": "charger_output",
+      "label": "Charger",
+      "value": "Fast charge 33.6 V 9 A",
+      "unit": "",
+      "note": "",
+      "source": "https://www.unitree.com/go2"
+    },
+    {
+      "group": "Commercial",
+      "key": "warranty",
+      "label": "Warranty period",
+      "value": 12,
+      "unit": "months",
+      "note": "see product warranty brochure",
+      "source": "https://www.unitree.com/go2"
+    },
+    {
+      "group": "Compute & Software",
+      "key": "cpu",
+      "label": "Basic computing power",
+      "value": "8-core high-performance CPU",
+      "unit": "",
+      "note": "supports advanced mode, AI mode, 3D LiDAR mapping, etc.",
+      "source": "https://www.unitree.com/go2"
+    },
+    {
+      "group": "Actuation & Joints",
+      "key": "max_joint_torque",
+      "label": "Max joint torque",
+      "value": 45,
+      "unit": "N·m",
+      "note": "about; maximum torque of the largest joint motor; varies across the 12 joint motors",
+      "source": "https://www.unitree.com/go2"
+    },
+    {
+      "group": "Commercial",
+      "key": "price",
+      "label": "Price",
+      "value": "Contact sales expert",
+      "unit": "",
+      "note": "",
+      "source": "https://www.unitree.com/go2"
+    },
+    {
+      "group": "Compute & Software",
+      "key": "optional_compute",
+      "label": "High computing power module",
+      "value": "Multiple brands and models available, such as NVIDIA Jetson Orin (40–100 TOPS)",
+      "unit": "",
+      "note": "accessory",
+      "source": "https://www.unitree.com/go2"
+    },
+    {
+      "group": "Compute & Software",
+      "key": "ai_performance_tops",
+      "label": "Expansion module compute",
+      "value": "40–100",
+      "unit": "TOPS",
+      "note": "Orin Nano 8GB / Orin NX 16GB expansion dock",
+      "source": "https://static1.squarespace.com/static/5e76e0c52a318c0c1a850442/t/6670b6185e6f531946071db4/1718662712134/GO2+Edu+User+Manual.pdf",
+      "ref": "p.4, p.7"
+    },
+    {
+      "group": "Connectivity & Interfaces",
+      "key": "external_ports",
+      "label": "Back interfaces",
+      "value": "DC 28.8 V power output; RJ45 Ethernet; SBUS",
+      "unit": "",
+      "note": "EDU only",
+      "source": "https://static1.squarespace.com/static/5e76e0c52a318c0c1a850442/t/6670b6185e6f531946071db4/1718662712134/GO2+Edu+User+Manual.pdf",
+      "ref": "p.7"
+    },
+    {
+      "group": "Payload & Mounting",
+      "key": "payload_port_voltage",
+      "label": "Power output",
+      "value": 28.8,
+      "unit": "V",
+      "note": "DC output connected to Orin NX 8/16GB module BAT input",
+      "source": "https://static1.squarespace.com/static/5e76e0c52a318c0c1a850442/t/6670b6185e6f531946071db4/1718662712134/GO2+Edu+User+Manual.pdf",
+      "ref": "p.7"
+    },
+    {
+      "group": "Connectivity & Interfaces",
+      "key": "ethernet",
+      "label": "Ethernet",
+      "value": "Standard RJ45 interface (to user PC / Orin module)",
+      "unit": "",
+      "note": "",
+      "source": "https://static1.squarespace.com/static/5e76e0c52a318c0c1a850442/t/6670b6185e6f531946071db4/1718662712134/GO2+Edu+User+Manual.pdf",
+      "ref": "p.7"
+    },
+    {
+      "group": "Commercial",
+      "key": "included_accessories",
+      "label": "Package contents",
+      "value": "Robot, quick charger, long-endurance battery (15000 mAh), display stand, 4 spare foot ends, luggage case, companion remote control, handheld remote control, Type-C cable (1 m), spanner, manual, certificate, warranty card",
+      "unit": "",
+      "note": "",
+      "source": "https://static1.squarespace.com/static/5e76e0c52a318c0c1a850442/t/6670b6185e6f531946071db4/1718662712134/GO2+Edu+User+Manual.pdf",
+      "ref": "p.3"
+    },
+    {
+      "group": "Commercial",
+      "key": "optional_accessories",
+      "label": "Optional accessories",
+      "value": "Expansion Dock Orin Nano 8GB; Expansion Dock Orin NX 16GB; MID360 LiDAR; XT16 LiDAR; depth camera; controller (screen + camera); 3-in-1 controller (screen + 2 cameras); servo arm D1",
+      "unit": "",
+      "note": "",
+      "source": "https://static1.squarespace.com/static/5e76e0c52a318c0c1a850442/t/6670b6185e6f531946071db4/1718662712134/GO2+Edu+User+Manual.pdf",
+      "ref": "p.4"
+    },
+    {
+      "group": "Controls & Operation",
+      "key": "follow_speed",
+      "label": "Side-follow max speed",
+      "value": "1.5 m/s (slow mode); 3.0 m/s (fast mode)",
+      "unit": "",
+      "note": "companion remote control follow mode",
+      "source": "https://static1.squarespace.com/static/5e76e0c52a318c0c1a850442/t/6670b6185e6f531946071db4/1718662712134/GO2+Edu+User+Manual.pdf",
+      "ref": "p.17"
+    }
+  ]
+}

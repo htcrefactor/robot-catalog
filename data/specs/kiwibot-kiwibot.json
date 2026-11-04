@@ -1,0 +1,392 @@
+{
+ "id": "kiwibot-kiwibot",
+ "checked": "2026-11-04",
+ "documents": [
+  {
+   "title": "Kiwibot Emergency Response Plan, Morgan State University (MDOT CAV, July 2022)",
+   "url": "https://cav.mdot.maryland.gov/wp-content/uploads/2023/02/Kiwibot-July-2022-Emergency-Response-Plan-MSU-Baltimore.pdf"
+  },
+  {
+   "title": "Kiwibot FAQ (USI Sodexo campus page)",
+   "url": "https://usi.sodexomyway.com/en-us/kiwibot/frequently-asked-questions"
+  },
+  {
+   "title": "R-kiwi product page (Robot.com)",
+   "url": "https://www.robot.com/r-kiwi"
+  },
+  {
+   "title": "Robot.com home page",
+   "url": "https://www.robot.com/"
+  }
+ ],
+ "specs": [
+  {
+   "group": "Dimensions & Mass",
+   "key": "length",
+   "label": "Length",
+   "value": 532,
+   "unit": "mm",
+   "note": "20.9 in; Kiwibot PDD spec in July 2022 Maryland emergency response plan",
+   "source": "https://cav.mdot.maryland.gov/wp-content/uploads/2023/02/Kiwibot-July-2022-Emergency-Response-Plan-MSU-Baltimore.pdf",
+   "ref": "p.1–2"
+  },
+  {
+   "group": "Dimensions & Mass",
+   "key": "width",
+   "label": "Width",
+   "value": 403,
+   "unit": "mm",
+   "note": "15.8 in",
+   "source": "https://cav.mdot.maryland.gov/wp-content/uploads/2023/02/Kiwibot-July-2022-Emergency-Response-Plan-MSU-Baltimore.pdf",
+   "ref": "p.1–2"
+  },
+  {
+   "group": "Dimensions & Mass",
+   "key": "height",
+   "label": "Height without flag",
+   "value": 566.5,
+   "unit": "mm",
+   "note": "22.3 in",
+   "source": "https://cav.mdot.maryland.gov/wp-content/uploads/2023/02/Kiwibot-July-2022-Emergency-Response-Plan-MSU-Baltimore.pdf",
+   "ref": "p.1–2"
+  },
+  {
+   "group": "Dimensions & Mass",
+   "key": "height_max",
+   "label": "Height with flag",
+   "value": 32.5,
+   "unit": "in",
+   "note": "as printed in spec table",
+   "source": "https://cav.mdot.maryland.gov/wp-content/uploads/2023/02/Kiwibot-July-2022-Emergency-Response-Plan-MSU-Baltimore.pdf",
+   "ref": "p.2"
+  },
+  {
+   "group": "Dimensions & Mass",
+   "key": "weight_with_battery",
+   "label": "Weight with battery",
+   "value": 18.2,
+   "unit": "kg",
+   "note": "40 lb (p.1); spec table: 45.1 lb",
+   "source": "https://cav.mdot.maryland.gov/wp-content/uploads/2023/02/Kiwibot-July-2022-Emergency-Response-Plan-MSU-Baltimore.pdf",
+   "ref": "p.1"
+  },
+  {
+   "group": "Dimensions & Mass",
+   "key": "weight_without_battery",
+   "label": "Weight without battery",
+   "value": 37.9,
+   "unit": "lb",
+   "note": "",
+   "source": "https://cav.mdot.maryland.gov/wp-content/uploads/2023/02/Kiwibot-July-2022-Emergency-Response-Plan-MSU-Baltimore.pdf",
+   "ref": "p.2"
+  },
+  {
+   "group": "Power & Battery",
+   "key": "battery_mass",
+   "label": "Battery assembly mass",
+   "value": 3.3,
+   "unit": "kg",
+   "note": "6.6 lb",
+   "source": "https://cav.mdot.maryland.gov/wp-content/uploads/2023/02/Kiwibot-July-2022-Emergency-Response-Plan-MSU-Baltimore.pdf",
+   "ref": "p.1"
+  },
+  {
+   "group": "Dimensions & Mass",
+   "key": "weight",
+   "label": "Weight (empty)",
+   "value": "approx. 20.5",
+   "unit": "kg",
+   "note": "45 lb, campus FAQ",
+   "source": "https://usi.sodexomyway.com/en-us/kiwibot/frequently-asked-questions"
+  },
+  {
+   "group": "Payload & Mounting",
+   "key": "cargo_dimensions",
+   "label": "Cargo space (L×W×H)",
+   "value": "295 × 295 × 220",
+   "unit": "mm",
+   "note": "19.2 L",
+   "source": "https://cav.mdot.maryland.gov/wp-content/uploads/2023/02/Kiwibot-July-2022-Emergency-Response-Plan-MSU-Baltimore.pdf",
+   "ref": "p.1"
+  },
+  {
+   "group": "Payload & Mounting",
+   "key": "cargo_volume",
+   "label": "Cargo capacity",
+   "value": 19,
+   "unit": "L",
+   "note": "current R-kiwi",
+   "source": "https://www.robot.com/"
+  },
+  {
+   "group": "Payload & Mounting",
+   "key": "cargo_system",
+   "label": "Cargo system",
+   "value": "Plastic inner container and cooling system",
+   "unit": "",
+   "note": "",
+   "source": "https://cav.mdot.maryland.gov/wp-content/uploads/2023/02/Kiwibot-July-2022-Emergency-Response-Plan-MSU-Baltimore.pdf",
+   "ref": "p.2"
+  },
+  {
+   "group": "Mobility & Performance",
+   "key": "max_payload",
+   "label": "Compartment payload",
+   "value": "3–4",
+   "unit": "kg",
+   "note": "6–8 lb, campus FAQ",
+   "source": "https://usi.sodexomyway.com/en-us/kiwibot/frequently-asked-questions"
+  },
+  {
+   "group": "Mobility & Performance",
+   "key": "max_speed",
+   "label": "Speed",
+   "value": 1.9,
+   "unit": "mph",
+   "note": "2022 spec table; campus FAQ: up to 2 mi/h (3.9 km/h)",
+   "source": "https://cav.mdot.maryland.gov/wp-content/uploads/2023/02/Kiwibot-July-2022-Emergency-Response-Plan-MSU-Baltimore.pdf",
+   "ref": "p.2"
+  },
+  {
+   "group": "Mobility & Performance",
+   "key": "drive_type",
+   "label": "Movement",
+   "value": "4-wheel differential drive",
+   "unit": "",
+   "note": "",
+   "source": "https://cav.mdot.maryland.gov/wp-content/uploads/2023/02/Kiwibot-July-2022-Emergency-Response-Plan-MSU-Baltimore.pdf",
+   "ref": "p.2"
+  },
+  {
+   "group": "Mobility & Performance",
+   "key": "wheel_count",
+   "label": "Wheels",
+   "value": 4,
+   "unit": "",
+   "note": "",
+   "source": "https://cav.mdot.maryland.gov/wp-content/uploads/2023/02/Kiwibot-July-2022-Emergency-Response-Plan-MSU-Baltimore.pdf",
+   "ref": "p.2"
+  },
+  {
+   "group": "Power & Battery",
+   "key": "battery_capacity",
+   "label": "Battery",
+   "value": "14.8 V, 39.8 Ah, 589 Wh",
+   "unit": "",
+   "note": "",
+   "source": "https://cav.mdot.maryland.gov/wp-content/uploads/2023/02/Kiwibot-July-2022-Emergency-Response-Plan-MSU-Baltimore.pdf",
+   "ref": "p.2"
+  },
+  {
+   "group": "Power & Battery",
+   "key": "battery_voltage",
+   "label": "Battery voltage",
+   "value": 14.8,
+   "unit": "V",
+   "note": "",
+   "source": "https://cav.mdot.maryland.gov/wp-content/uploads/2023/02/Kiwibot-July-2022-Emergency-Response-Plan-MSU-Baltimore.pdf",
+   "ref": "p.2"
+  },
+  {
+   "group": "Power & Battery",
+   "key": "runtime",
+   "label": "Battery life",
+   "value": "approx. 7",
+   "unit": "h",
+   "note": "2022 spec",
+   "source": "https://cav.mdot.maryland.gov/wp-content/uploads/2023/02/Kiwibot-July-2022-Emergency-Response-Plan-MSU-Baltimore.pdf",
+   "ref": "p.2"
+  },
+  {
+   "group": "Power & Battery",
+   "key": "runtime",
+   "label": "Battery life",
+   "value": "10–12",
+   "unit": "h",
+   "note": "current R-kiwi",
+   "source": "https://www.robot.com/r-kiwi"
+  },
+  {
+   "group": "Power & Battery",
+   "key": "battery_protection",
+   "label": "Battery protection",
+   "value": "Battery Protector 3000 (prevents reverse current/voltage in parallel packs)",
+   "unit": "",
+   "note": "",
+   "source": "https://cav.mdot.maryland.gov/wp-content/uploads/2023/02/Kiwibot-July-2022-Emergency-Response-Plan-MSU-Baltimore.pdf"
+  },
+  {
+   "group": "Charging & Docking",
+   "key": "charging_method",
+   "label": "Wireless charging",
+   "value": "Wireless charging system available",
+   "unit": "",
+   "note": "current R-kiwi",
+   "source": "https://www.robot.com/r-kiwi"
+  },
+  {
+   "group": "Environment & Protection",
+   "key": "rain_rating",
+   "label": "Rain operation",
+   "value": true,
+   "unit": "",
+   "note": "ability to operate in rain",
+   "source": "https://cav.mdot.maryland.gov/wp-content/uploads/2023/02/Kiwibot-July-2022-Emergency-Response-Plan-MSU-Baltimore.pdf",
+   "ref": "p.2"
+  },
+  {
+   "group": "Environment & Protection",
+   "key": "lighting_requirements",
+   "label": "Night operation",
+   "value": true,
+   "unit": "",
+   "note": "ability to operate in darkness",
+   "source": "https://cav.mdot.maryland.gov/wp-content/uploads/2023/02/Kiwibot-July-2022-Emergency-Response-Plan-MSU-Baltimore.pdf",
+   "ref": "p.2"
+  },
+  {
+   "group": "Sensors & Perception",
+   "key": "lidar_type",
+   "label": "LiDAR",
+   "value": "2D LiDAR",
+   "unit": "",
+   "note": "2022 spec; current R-kiwi: superwide-angle 3D LiDAR",
+   "source": "https://cav.mdot.maryland.gov/wp-content/uploads/2023/02/Kiwibot-July-2022-Emergency-Response-Plan-MSU-Baltimore.pdf",
+   "ref": "p.2"
+  },
+  {
+   "group": "Sensors & Perception",
+   "key": "lidar_type",
+   "label": "LiDAR (current)",
+   "value": "Superwide-angle 3D LiDAR",
+   "unit": "",
+   "note": "",
+   "source": "https://www.robot.com/r-kiwi"
+  },
+  {
+   "group": "Sensors & Perception",
+   "key": "distance_sensors",
+   "label": "Distance sensors",
+   "value": 3,
+   "unit": "",
+   "note": "",
+   "source": "https://cav.mdot.maryland.gov/wp-content/uploads/2023/02/Kiwibot-July-2022-Emergency-Response-Plan-MSU-Baltimore.pdf",
+   "ref": "p.2"
+  },
+  {
+   "group": "Sensors & Perception",
+   "key": "cliff_sensors",
+   "label": "Cliff sensors",
+   "value": 2,
+   "unit": "",
+   "note": "",
+   "source": "https://cav.mdot.maryland.gov/wp-content/uploads/2023/02/Kiwibot-July-2022-Emergency-Response-Plan-MSU-Baltimore.pdf",
+   "ref": "p.2"
+  },
+  {
+   "group": "Sensors & Perception",
+   "key": "depth_camera_count",
+   "label": "Stereo camera",
+   "value": 1,
+   "unit": "",
+   "note": "",
+   "source": "https://cav.mdot.maryland.gov/wp-content/uploads/2023/02/Kiwibot-July-2022-Emergency-Response-Plan-MSU-Baltimore.pdf",
+   "ref": "p.2"
+  },
+  {
+   "group": "Sensors & Perception",
+   "key": "camera_count",
+   "label": "Cameras",
+   "value": 5,
+   "unit": "",
+   "note": "2 front (zoom), 2 sides, 1 back (2022); current R-kiwi: six HD cameras",
+   "source": "https://cav.mdot.maryland.gov/wp-content/uploads/2023/02/Kiwibot-July-2022-Emergency-Response-Plan-MSU-Baltimore.pdf"
+  },
+  {
+   "group": "Sensors & Perception",
+   "key": "camera_count",
+   "label": "Cameras (current)",
+   "value": 6,
+   "unit": "",
+   "note": "HD",
+   "source": "https://www.robot.com/r-kiwi"
+  },
+  {
+   "group": "Sensors & Perception",
+   "key": "gps",
+   "label": "GPS",
+   "value": true,
+   "unit": "",
+   "note": "",
+   "source": "https://cav.mdot.maryland.gov/wp-content/uploads/2023/02/Kiwibot-July-2022-Emergency-Response-Plan-MSU-Baltimore.pdf",
+   "ref": "p.2"
+  },
+  {
+   "group": "Compute & Software",
+   "key": "gpu",
+   "label": "Compute",
+   "value": "NVIDIA-powered",
+   "unit": "",
+   "note": "",
+   "source": "https://www.robot.com/r-kiwi"
+  },
+  {
+   "group": "Controls & Operation",
+   "key": "autonomy_features",
+   "label": "Autonomy level",
+   "value": "L2 (2022 spec); Level 4 (current Robot.com claim)",
+   "unit": "",
+   "note": "",
+   "source": "https://cav.mdot.maryland.gov/wp-content/uploads/2023/02/Kiwibot-July-2022-Emergency-Response-Plan-MSU-Baltimore.pdf",
+   "ref": "p.2"
+  },
+  {
+   "group": "Controls & Operation",
+   "key": "teleoperation",
+   "label": "Teleoperation",
+   "value": "Teleoperated assistance and observation throughout operation",
+   "unit": "",
+   "note": "",
+   "source": "https://cav.mdot.maryland.gov/wp-content/uploads/2023/02/Kiwibot-July-2022-Emergency-Response-Plan-MSU-Baltimore.pdf"
+  },
+  {
+   "group": "Safety & Compliance",
+   "key": "emergency_stop",
+   "label": "Disable procedure",
+   "value": "Button underneath bot (left side) opens power-off menu; stops when someone stands in front",
+   "unit": "",
+   "note": "",
+   "source": "https://cav.mdot.maryland.gov/wp-content/uploads/2023/02/Kiwibot-July-2022-Emergency-Response-Plan-MSU-Baltimore.pdf"
+  },
+  {
+   "group": "Audio, Lights & HMI",
+   "key": "display",
+   "label": "Display",
+   "value": "Interactively animated eyes (expressive display)",
+   "unit": "",
+   "note": "",
+   "source": "https://cav.mdot.maryland.gov/wp-content/uploads/2023/02/Kiwibot-July-2022-Emergency-Response-Plan-MSU-Baltimore.pdf",
+   "ref": "p.2"
+  },
+  {
+   "group": "Audio, Lights & HMI",
+   "key": "status_lights",
+   "label": "Lights",
+   "value": "Rear and flag alert lights",
+   "unit": "",
+   "note": "",
+   "source": "https://cav.mdot.maryland.gov/wp-content/uploads/2023/02/Kiwibot-July-2022-Emergency-Response-Plan-MSU-Baltimore.pdf",
+   "ref": "p.2"
+  },
+  {
+   "group": "Audio, Lights & HMI",
+   "key": "speaker",
+   "label": "Sound",
+   "value": true,
+   "unit": "",
+   "note": "",
+   "source": "https://cav.mdot.maryland.gov/wp-content/uploads/2023/02/Kiwibot-July-2022-Emergency-Response-Plan-MSU-Baltimore.pdf",
+   "ref": "p.2"
+  }
+ ]
+}

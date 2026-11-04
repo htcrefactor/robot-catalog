@@ -1,0 +1,721 @@
+{
+  "id": "anybotics-anymal-x",
+  "checked": "2026-11-04",
+  "documents": [
+    {
+      "title": "ANYmal X brochure & technical specifications (V1, 10/2026, preliminary)",
+      "url": "https://info.anybotics.com/hubfs/Technical%20Documents/ANYmalX_Brochure_web.pdf"
+    },
+    {
+      "title": "ANYbotics ANYmal X product page (incl. FAQ)",
+      "url": "https://www.anybotics.com/robotics/anymal-x/"
+    }
+  ],
+  "specs": [
+    {
+      "group": "Identity",
+      "key": "manufacturer",
+      "label": "Manufacturer",
+      "value": "ANYbotics AG",
+      "unit": "",
+      "note": "",
+      "source": "https://info.anybotics.com/hubfs/Technical%20Documents/ANYmalX_Brochure_web.pdf"
+    },
+    {
+      "group": "Identity",
+      "key": "manufacturer_address",
+      "label": "Manufacturer address",
+      "value": "Hagenholzstrasse 83a, 8050 Zürich, Switzerland",
+      "unit": "",
+      "note": "",
+      "source": "https://info.anybotics.com/hubfs/Technical%20Documents/ANYmalX_Brochure_web.pdf",
+      "ref": "back page"
+    },
+    {
+      "group": "Identity",
+      "key": "robot_type",
+      "label": "Robot type",
+      "value": "Explosion-protected autonomous legged inspection robot",
+      "unit": "",
+      "note": "",
+      "source": "https://www.anybotics.com/robotics/anymal-x/"
+    },
+    {
+      "group": "Identity",
+      "key": "spec_document_date",
+      "label": "Specification document date",
+      "value": "V1, 10/2026",
+      "unit": "",
+      "note": "specifications are preliminary and subject to change",
+      "source": "https://info.anybotics.com/hubfs/Technical%20Documents/ANYmalX_Brochure_web.pdf"
+    },
+    {
+      "group": "Dimensions & Mass",
+      "key": "length",
+      "label": "Length",
+      "value": 960,
+      "unit": "mm",
+      "note": "preliminary specification, subject to change",
+      "source": "https://info.anybotics.com/hubfs/Technical%20Documents/ANYmalX_Brochure_web.pdf",
+      "ref": "p.10"
+    },
+    {
+      "group": "Dimensions & Mass",
+      "key": "width",
+      "label": "Width",
+      "value": 596,
+      "unit": "mm",
+      "note": "preliminary specification, subject to change",
+      "source": "https://info.anybotics.com/hubfs/Technical%20Documents/ANYmalX_Brochure_web.pdf",
+      "ref": "p.10"
+    },
+    {
+      "group": "Dimensions & Mass",
+      "key": "height",
+      "label": "Height",
+      "value": 1015,
+      "unit": "mm",
+      "note": "preliminary specification, subject to change",
+      "source": "https://info.anybotics.com/hubfs/Technical%20Documents/ANYmalX_Brochure_web.pdf",
+      "ref": "p.10"
+    },
+    {
+      "group": "Dimensions & Mass",
+      "key": "weight",
+      "label": "Weight",
+      "value": 92,
+      "unit": "kg",
+      "note": "preliminary specification, subject to change",
+      "source": "https://info.anybotics.com/hubfs/Technical%20Documents/ANYmalX_Brochure_web.pdf",
+      "ref": "p.10"
+    },
+    {
+      "group": "Mobility & Performance",
+      "key": "nominal_speed",
+      "label": "Typical walking speed",
+      "value": 0.6,
+      "unit": "m/s",
+      "note": "",
+      "source": "https://info.anybotics.com/hubfs/Technical%20Documents/ANYmalX_Brochure_web.pdf",
+      "ref": "p.10"
+    },
+    {
+      "group": "Mobility & Performance",
+      "key": "max_speed",
+      "label": "Maximum walking speed",
+      "value": "< 1.3",
+      "unit": "m/s",
+      "note": "",
+      "source": "https://info.anybotics.com/hubfs/Technical%20Documents/ANYmalX_Brochure_web.pdf",
+      "ref": "p.10"
+    },
+    {
+      "group": "Mobility & Performance",
+      "key": "stair_climbing_speed",
+      "label": "Stair speed",
+      "value": "> 0.1",
+      "unit": "m/s",
+      "note": "",
+      "source": "https://info.anybotics.com/hubfs/Technical%20Documents/ANYmalX_Brochure_web.pdf",
+      "ref": "p.10"
+    },
+    {
+      "group": "Terrain & Navigation Limits",
+      "key": "max_stair_slope",
+      "label": "Stairs",
+      "value": 45,
+      "unit": "°",
+      "note": "up and down; only verified stair configurations in Zone 1; stairs must have guardrails",
+      "source": "https://info.anybotics.com/hubfs/Technical%20Documents/ANYmalX_Brochure_web.pdf",
+      "ref": "p.10"
+    },
+    {
+      "group": "Terrain & Navigation Limits",
+      "key": "max_stair_step_height",
+      "label": "Maximum stair rise",
+      "value": 230,
+      "unit": "mm",
+      "note": "",
+      "source": "https://info.anybotics.com/hubfs/Technical%20Documents/ANYmalX_Brochure_web.pdf",
+      "ref": "p.10"
+    },
+    {
+      "group": "Terrain & Navigation Limits",
+      "key": "min_stair_run",
+      "label": "Minimum stair run",
+      "value": 210,
+      "unit": "mm",
+      "note": "",
+      "source": "https://info.anybotics.com/hubfs/Technical%20Documents/ANYmalX_Brochure_web.pdf",
+      "ref": "p.10"
+    },
+    {
+      "group": "Terrain & Navigation Limits",
+      "key": "stair_types",
+      "label": "Stair types",
+      "value": "Open risers and grated steps",
+      "unit": "",
+      "note": "",
+      "source": "https://info.anybotics.com/hubfs/Technical%20Documents/ANYmalX_Brochure_web.pdf",
+      "ref": "p.10"
+    },
+    {
+      "group": "Terrain & Navigation Limits",
+      "key": "max_slope",
+      "label": "Inclines and declines",
+      "value": 20,
+      "unit": "°",
+      "note": "up to",
+      "source": "https://info.anybotics.com/hubfs/Technical%20Documents/ANYmalX_Brochure_web.pdf",
+      "ref": "p.10"
+    },
+    {
+      "group": "Terrain & Navigation Limits",
+      "key": "max_step_height",
+      "label": "Obstacle step-over",
+      "value": 250,
+      "unit": "mm",
+      "note": "up to; on approved inspection routes",
+      "source": "https://info.anybotics.com/hubfs/Technical%20Documents/ANYmalX_Brochure_web.pdf",
+      "ref": "p.10"
+    },
+    {
+      "group": "Terrain & Navigation Limits",
+      "key": "min_corridor_width",
+      "label": "Passage width",
+      "value": 80,
+      "unit": "cm",
+      "note": "≥ 80 cm",
+      "source": "https://info.anybotics.com/hubfs/Technical%20Documents/ANYmalX_Brochure_web.pdf",
+      "ref": "p.10"
+    },
+    {
+      "group": "Terrain & Navigation Limits",
+      "key": "corridor_width_90_turn",
+      "label": "Corridor width for a 90° turn",
+      "value": 1,
+      "unit": "m",
+      "note": "90° turn in a 1 m corridor",
+      "source": "https://info.anybotics.com/hubfs/Technical%20Documents/ANYmalX_Brochure_web.pdf",
+      "ref": "p.10"
+    },
+    {
+      "group": "Terrain & Navigation Limits",
+      "key": "min_ceiling_height",
+      "label": "Overhead clearance",
+      "value": 60,
+      "unit": "cm",
+      "note": "as low as 60 cm (robot crouches)",
+      "source": "https://info.anybotics.com/hubfs/Technical%20Documents/ANYmalX_Brochure_web.pdf",
+      "ref": "p.10"
+    },
+    {
+      "group": "Sensors & Perception",
+      "key": "min_detectable_object",
+      "label": "Obstacle detection",
+      "value": "≥ 5 cm wide, ≥ 25 cm tall; ground clutter < 5 cm passable",
+      "unit": "",
+      "note": "",
+      "source": "https://info.anybotics.com/hubfs/Technical%20Documents/ANYmalX_Brochure_web.pdf",
+      "ref": "p.10"
+    },
+    {
+      "group": "Terrain & Navigation Limits",
+      "key": "surface_types",
+      "label": "Surface compatibility",
+      "value": "Gratings, gravel, concrete, metal, wet and oily surfaces; multiple levels",
+      "unit": "",
+      "note": "",
+      "source": "https://info.anybotics.com/hubfs/Technical%20Documents/ANYmalX_Brochure_web.pdf",
+      "ref": "p.6"
+    },
+    {
+      "group": "Terrain & Navigation Limits",
+      "key": "floor_conductivity_requirement",
+      "label": "Ex-Zone floor requirement",
+      "value": "Conductive floors",
+      "unit": "",
+      "note": "in Ex-Zones",
+      "source": "https://info.anybotics.com/hubfs/Technical%20Documents/ANYmalX_Brochure_web.pdf",
+      "ref": "p.10"
+    },
+    {
+      "group": "Environment & Protection",
+      "key": "lighting_requirements",
+      "label": "Lighting",
+      "value": "Operates in full darkness, 0 lux; visual inspection uses onboard illumination",
+      "unit": "",
+      "note": "",
+      "source": "https://info.anybotics.com/hubfs/Technical%20Documents/ANYmalX_Brochure_web.pdf",
+      "ref": "p.10"
+    },
+    {
+      "group": "Terrain & Navigation Limits",
+      "key": "navigation_method",
+      "label": "Navigation",
+      "value": "Onboard navigation and route replanning; stored missions continue offline",
+      "unit": "",
+      "note": "",
+      "source": "https://info.anybotics.com/hubfs/Technical%20Documents/ANYmalX_Brochure_web.pdf",
+      "ref": "p.6"
+    },
+    {
+      "group": "Terrain & Navigation Limits",
+      "key": "mapping",
+      "label": "Site mapping",
+      "value": "Import point clouds or handheld scans in Shift Maps",
+      "unit": "",
+      "note": "",
+      "source": "https://info.anybotics.com/hubfs/Technical%20Documents/ANYmalX_Brochure_web.pdf",
+      "ref": "p.6"
+    },
+    {
+      "group": "Power & Battery",
+      "key": "battery_chemistry",
+      "label": "Battery type",
+      "value": "Lithium-ion",
+      "unit": "",
+      "note": "",
+      "source": "https://info.anybotics.com/hubfs/Technical%20Documents/ANYmalX_Brochure_web.pdf",
+      "ref": "p.10"
+    },
+    {
+      "group": "Power & Battery",
+      "key": "battery_voltage",
+      "label": "Battery rated voltage",
+      "value": 42.9,
+      "unit": "V",
+      "note": "DC",
+      "source": "https://info.anybotics.com/hubfs/Technical%20Documents/ANYmalX_Brochure_web.pdf",
+      "ref": "p.10"
+    },
+    {
+      "group": "Power & Battery",
+      "key": "battery_capacity_ah",
+      "label": "Battery capacity",
+      "value": 28,
+      "unit": "Ah",
+      "note": "",
+      "source": "https://info.anybotics.com/hubfs/Technical%20Documents/ANYmalX_Brochure_web.pdf",
+      "ref": "p.10"
+    },
+    {
+      "group": "Power & Battery",
+      "key": "battery_capacity",
+      "label": "Battery energy",
+      "value": 1.2,
+      "unit": "kWh",
+      "note": "",
+      "source": "https://info.anybotics.com/hubfs/Technical%20Documents/ANYmalX_Brochure_web.pdf",
+      "ref": "p.10"
+    },
+    {
+      "group": "Power & Battery",
+      "key": "runtime",
+      "label": "Battery runtime",
+      "value": "> 3",
+      "unit": "h",
+      "note": "per charge",
+      "source": "https://info.anybotics.com/hubfs/Technical%20Documents/ANYmalX_Brochure_web.pdf",
+      "ref": "p.10"
+    },
+    {
+      "group": "Power & Battery",
+      "key": "battery_protection",
+      "label": "Battery management",
+      "value": "Battery monitoring disconnects power when temperature, voltage or current limits are exceeded",
+      "unit": "",
+      "note": "",
+      "source": "https://info.anybotics.com/hubfs/Technical%20Documents/ANYmalX_Brochure_web.pdf",
+      "ref": "p.5"
+    },
+    {
+      "group": "Charging & Docking",
+      "key": "dock_available",
+      "label": "Docking",
+      "value": "Autonomous; dock installed in a sheltered location in a non-hazardous area; missions resume after charging",
+      "unit": "",
+      "note": "",
+      "source": "https://info.anybotics.com/hubfs/Technical%20Documents/ANYmalX_Brochure_web.pdf",
+      "ref": "p.10"
+    },
+    {
+      "group": "Charging & Docking",
+      "key": "dock_space_requirement",
+      "label": "Station footprint",
+      "value": "Docking station approx. 1 × 2 m; nitrogen refill station approx. 1 × 2 m (2 × 2 m combined)",
+      "unit": "",
+      "note": "",
+      "source": "https://info.anybotics.com/hubfs/Technical%20Documents/ANYmalX_Brochure_web.pdf",
+      "ref": "p.10"
+    },
+    {
+      "group": "Charging & Docking",
+      "key": "charging_temperature",
+      "label": "Charging temperature",
+      "value": "0 to 45",
+      "unit": "°C",
+      "note": "",
+      "source": "https://info.anybotics.com/hubfs/Technical%20Documents/ANYmalX_Brochure_web.pdf",
+      "ref": "p.10"
+    },
+    {
+      "group": "Charging & Docking",
+      "key": "charging_location",
+      "label": "Charging location",
+      "value": "Outside the hazardous area only, using the ANYbotics charging system; keep 2 m radius around charging robot free of flammable material",
+      "unit": "",
+      "note": "",
+      "source": "https://www.anybotics.com/robotics/anymal-x/"
+    },
+    {
+      "group": "Charging & Docking",
+      "key": "nitrogen_supply_requirement",
+      "label": "Nitrogen supply",
+      "value": "Purity ≥ 99.9 %; oxygen content ≤ 0.1 %",
+      "unit": "",
+      "note": "supplied through the nitrogen refill station",
+      "source": "https://info.anybotics.com/hubfs/Technical%20Documents/ANYmalX_Brochure_web.pdf",
+      "ref": "p.10"
+    },
+    {
+      "group": "Environment & Protection",
+      "key": "atex_rating",
+      "label": "Ex certification",
+      "value": "ATEX; Zones 1 and 2; Gas Group IIB; T4; EPL Gb; Category 2G",
+      "unit": "",
+      "note": "IECEx certification will be available with first production",
+      "source": "https://info.anybotics.com/hubfs/Technical%20Documents/ANYmalX_Brochure_web.pdf",
+      "ref": "p.10"
+    },
+    {
+      "group": "Environment & Protection",
+      "key": "max_surface_temperature",
+      "label": "Maximum surface temperature",
+      "value": 135,
+      "unit": "°C",
+      "note": "temperature class T4",
+      "source": "https://info.anybotics.com/hubfs/Technical%20Documents/ANYmalX_Brochure_web.pdf",
+      "ref": "p.5"
+    },
+    {
+      "group": "Environment & Protection",
+      "key": "explosion_protection_methods",
+      "label": "Explosion protection",
+      "value": "Flameproof enclosures; pressurization (nitrogen overpressure, monitored); intrinsic safety; battery management",
+      "unit": "",
+      "note": "",
+      "source": "https://info.anybotics.com/hubfs/Technical%20Documents/ANYmalX_Brochure_web.pdf",
+      "ref": "p.5"
+    },
+    {
+      "group": "Environment & Protection",
+      "key": "ip_rating",
+      "label": "Ingress protection",
+      "value": "IP65",
+      "unit": "",
+      "note": "robot",
+      "source": "https://info.anybotics.com/hubfs/Technical%20Documents/ANYmalX_Brochure_web.pdf",
+      "ref": "p.10"
+    },
+    {
+      "group": "Environment & Protection",
+      "key": "ip_rating",
+      "label": "Ingress protection",
+      "value": "IP67",
+      "unit": "",
+      "note": "inspection payload",
+      "source": "https://info.anybotics.com/hubfs/Technical%20Documents/ANYmalX_Brochure_web.pdf",
+      "ref": "p.10"
+    },
+    {
+      "group": "Environment & Protection",
+      "key": "operating_temperature",
+      "label": "Continuous operating ambient temperature",
+      "value": "−10 to 50",
+      "unit": "°C",
+      "note": "",
+      "source": "https://info.anybotics.com/hubfs/Technical%20Documents/ANYmalX_Brochure_web.pdf",
+      "ref": "p.10"
+    },
+    {
+      "group": "Environment & Protection",
+      "key": "storage_temperature",
+      "label": "Storage / transport temperature",
+      "value": "−10 to 50",
+      "unit": "°C",
+      "note": "",
+      "source": "https://info.anybotics.com/hubfs/Technical%20Documents/ANYmalX_Brochure_web.pdf",
+      "ref": "p.10"
+    },
+    {
+      "group": "Environment & Protection",
+      "key": "operating_humidity",
+      "label": "Humidity",
+      "value": "5–95",
+      "unit": "%",
+      "note": "operating, non-condensing",
+      "source": "https://info.anybotics.com/hubfs/Technical%20Documents/ANYmalX_Brochure_web.pdf",
+      "ref": "p.10"
+    },
+    {
+      "group": "Environment & Protection",
+      "key": "rain_rating",
+      "label": "Rain",
+      "value": "Operates in light (< 4 mm/h) and moderate (< 16 mm/h) rain",
+      "unit": "",
+      "note": "",
+      "source": "https://info.anybotics.com/hubfs/Technical%20Documents/ANYmalX_Brochure_web.pdf",
+      "ref": "p.10"
+    },
+    {
+      "group": "Environment & Protection",
+      "key": "max_altitude",
+      "label": "Altitude",
+      "value": "0–2,000",
+      "unit": "m",
+      "note": "above sea level",
+      "source": "https://info.anybotics.com/hubfs/Technical%20Documents/ANYmalX_Brochure_web.pdf",
+      "ref": "p.10"
+    },
+    {
+      "group": "Safety & Compliance",
+      "key": "certifications",
+      "label": "Certification",
+      "value": "ATEX EU-type examination certificate issued by Bureau Veritas (notified body) for Zones 1 and 2",
+      "unit": "",
+      "note": "IECEx will be available with first production",
+      "source": "https://info.anybotics.com/hubfs/Technical%20Documents/ANYmalX_Brochure_web.pdf",
+      "ref": "p.5"
+    },
+    {
+      "group": "Safety & Compliance",
+      "key": "prohibited_uses",
+      "label": "Excluded use",
+      "value": "Zone 0; IIC gases including hydrogen and acetylene; explosive dust atmospheres",
+      "unit": "",
+      "note": "",
+      "source": "https://info.anybotics.com/hubfs/Technical%20Documents/ANYmalX_Brochure_web.pdf",
+      "ref": "p.5"
+    },
+    {
+      "group": "Safety & Compliance",
+      "key": "emergency_stop",
+      "label": "Emergency stop",
+      "value": "Hardware button immediately cuts power to the robot’s actuators",
+      "unit": "",
+      "note": "",
+      "source": "https://info.anybotics.com/hubfs/Technical%20Documents/ANYmalX_Brochure_web.pdf",
+      "ref": "p.11"
+    },
+    {
+      "group": "Audio, Lights & HMI",
+      "key": "warning_system",
+      "label": "Active warning light",
+      "value": "Indicates actuators are powered on; personnel keep at least 2 m away while the light is active",
+      "unit": "",
+      "note": "",
+      "source": "https://info.anybotics.com/hubfs/Technical%20Documents/ANYmalX_Brochure_web.pdf",
+      "ref": "p.11"
+    },
+    {
+      "group": "Sensors & Perception",
+      "key": "zoom_camera_optical_zoom",
+      "label": "Visual (zoom camera)",
+      "value": "Zoom camera; visual change and object detection; advanced instrument readout",
+      "unit": "",
+      "note": "inspection payload",
+      "source": "https://info.anybotics.com/hubfs/Technical%20Documents/ANYmalX_Brochure_web.pdf",
+      "ref": "p.10"
+    },
+    {
+      "group": "Sensors & Perception",
+      "key": "thermal_camera",
+      "label": "Thermal camera",
+      "value": "640 × 512 radiometric imaging",
+      "unit": "",
+      "note": "inspection payload",
+      "source": "https://info.anybotics.com/hubfs/Technical%20Documents/ANYmalX_Brochure_web.pdf",
+      "ref": "p.10"
+    },
+    {
+      "group": "Sensors & Perception",
+      "key": "acoustic_imager",
+      "label": "Acoustic imager",
+      "value": "Acoustic imager for gas and air leak localization",
+      "unit": "",
+      "note": "inspection payload",
+      "source": "https://info.anybotics.com/hubfs/Technical%20Documents/ANYmalX_Brochure_web.pdf",
+      "ref": "p.10"
+    },
+    {
+      "group": "Sensors & Perception",
+      "key": "microphones",
+      "label": "Microphone",
+      "value": "Microphone recordings for spectral analysis and mechanical fault screening",
+      "unit": "",
+      "note": "inspection payload",
+      "source": "https://info.anybotics.com/hubfs/Technical%20Documents/ANYmalX_Brochure_web.pdf",
+      "ref": "p.10"
+    },
+    {
+      "group": "Sensors & Perception",
+      "key": "gas_sensors",
+      "label": "Gas sensing (optional module)",
+      "value": "Combustible: LEL (HC), CH4, C3H8; toxic/process: H2S, NH3, CO, CO2, Cl2, SF6, SO2; atmospheric: O2; optional R134a, NO, NO2; up to 2 sensors",
+      "unit": "",
+      "note": "gas measurements support inspection and are not a safety-rated alarm function",
+      "source": "https://info.anybotics.com/hubfs/Technical%20Documents/ANYmalX_Brochure_web.pdf",
+      "ref": "p.10"
+    },
+    {
+      "group": "Payload & Mounting",
+      "key": "inspection_payload_dimensions",
+      "label": "Inspection payload dimensions",
+      "value": "193 × 251 × 267",
+      "unit": "mm",
+      "note": "",
+      "source": "https://info.anybotics.com/hubfs/Technical%20Documents/ANYmalX_Brochure_web.pdf",
+      "ref": "p.10"
+    },
+    {
+      "group": "Payload & Mounting",
+      "key": "inspection_payload_weight",
+      "label": "Inspection payload weight",
+      "value": 6.95,
+      "unit": "kg",
+      "note": "",
+      "source": "https://info.anybotics.com/hubfs/Technical%20Documents/ANYmalX_Brochure_web.pdf",
+      "ref": "p.10"
+    },
+    {
+      "group": "Payload & Mounting",
+      "key": "payload_interfaces",
+      "label": "Inspection payload interfaces",
+      "value": "USB and Ethernet",
+      "unit": "",
+      "note": "pan-tilt unit, IP67",
+      "source": "https://info.anybotics.com/hubfs/Technical%20Documents/ANYmalX_Brochure_web.pdf",
+      "ref": "p.10"
+    },
+    {
+      "group": "Connectivity & Interfaces",
+      "key": "wifi",
+      "label": "Wi-Fi",
+      "value": "Wi-Fi 6, 2.4 / 5 GHz",
+      "unit": "",
+      "note": "",
+      "source": "https://info.anybotics.com/hubfs/Technical%20Documents/ANYmalX_Brochure_web.pdf",
+      "ref": "p.10"
+    },
+    {
+      "group": "Connectivity & Interfaces",
+      "key": "cellular",
+      "label": "Cellular",
+      "value": "5G / 4G LTE",
+      "unit": "",
+      "note": "",
+      "source": "https://info.anybotics.com/hubfs/Technical%20Documents/ANYmalX_Brochure_web.pdf",
+      "ref": "p.10"
+    },
+    {
+      "group": "Compute & Software",
+      "key": "autonomy_software",
+      "label": "Robot software",
+      "value": "Localization, mapping, path planning, motion control and diagnostics on board",
+      "unit": "",
+      "note": "",
+      "source": "https://info.anybotics.com/hubfs/Technical%20Documents/ANYmalX_Brochure_web.pdf",
+      "ref": "p.10"
+    },
+    {
+      "group": "Compute & Software",
+      "key": "fleet_software",
+      "label": "Operations platform",
+      "value": "ANYbotics Shift (Maps, Fleet, Insight, Connect) with inspection intelligence",
+      "unit": "",
+      "note": "",
+      "source": "https://info.anybotics.com/hubfs/Technical%20Documents/ANYmalX_Brochure_web.pdf",
+      "ref": "p.10"
+    },
+    {
+      "group": "Compute & Software",
+      "key": "api",
+      "label": "API",
+      "value": "REST API for data landing, mission triggering, scheduling and monitoring, robot health and environment setup",
+      "unit": "",
+      "note": "",
+      "source": "https://info.anybotics.com/hubfs/Technical%20Documents/ANYmalX_Brochure_web.pdf",
+      "ref": "p.7"
+    },
+    {
+      "group": "Compute & Software",
+      "key": "hosting",
+      "label": "Hosting",
+      "value": "Managed cloud, customer-hosted cloud or on-premises",
+      "unit": "",
+      "note": "",
+      "source": "https://info.anybotics.com/hubfs/Technical%20Documents/ANYmalX_Brochure_web.pdf",
+      "ref": "p.10"
+    },
+    {
+      "group": "Compute & Software",
+      "key": "data_security",
+      "label": "Information security",
+      "value": "ISO 27001-certified ISMS; single sign-on, role-based access, encryption in transit and at rest",
+      "unit": "",
+      "note": "",
+      "source": "https://info.anybotics.com/hubfs/Technical%20Documents/ANYmalX_Brochure_web.pdf",
+      "ref": "p.7"
+    },
+    {
+      "group": "Compute & Software",
+      "key": "offline_operation",
+      "label": "Offline operation",
+      "value": "Stored missions continue offline with data buffered on board; sync with Shift when connectivity returns",
+      "unit": "",
+      "note": "remote assistance requires connectivity",
+      "source": "https://info.anybotics.com/hubfs/Technical%20Documents/ANYmalX_Brochure_web.pdf",
+      "ref": "p.6"
+    },
+    {
+      "group": "Controls & Operation",
+      "key": "controller",
+      "label": "Control tablet",
+      "value": "ATEX-rated control tablet",
+      "unit": "",
+      "note": "supports setup and robot control in approved hazardous areas; shows gas warnings with optional gas module",
+      "source": "https://info.anybotics.com/hubfs/Technical%20Documents/ANYmalX_Brochure_web.pdf",
+      "ref": "p.11"
+    },
+    {
+      "group": "Controls & Operation",
+      "key": "teleoperation",
+      "label": "Tele-assist",
+      "value": "Remote assistance for mission exceptions",
+      "unit": "",
+      "note": "",
+      "source": "https://info.anybotics.com/hubfs/Technical%20Documents/ANYmalX_Brochure_web.pdf",
+      "ref": "p.11"
+    },
+    {
+      "group": "Commercial",
+      "key": "service_life",
+      "label": "Intended service life",
+      "value": 3,
+      "unit": "years",
+      "note": "post-sale, for the robot and safety-relevant components",
+      "source": "https://info.anybotics.com/hubfs/Technical%20Documents/ANYmalX_Brochure_web.pdf",
+      "ref": "p.10"
+    },
+    {
+      "group": "Commercial",
+      "key": "included_accessories",
+      "label": "Solution components",
+      "value": "Docking station, charger, nitrogen refill station, ATEX-rated control tablet and ANYbotics Shift",
+      "unit": "",
+      "note": "",
+      "source": "https://www.anybotics.com/robotics/anymal-x/"
+    }
+  ]
+}
