@@ -1,886 +1,886 @@
 {
-  "id": "unitree-g1",
-  "checked": "2026-11-04",
-  "documents": [
-    {
-      "title": "Unitree G1 product page – G1 Parameter table",
-      "url": "https://www.unitree.com/g1"
-    },
-    {
-      "title": "Unitree G1 SDK Development Guide – About G1 (updated 2026-09-17)",
-      "url": "https://support.unitree.com/home/en/G1_developer/about_G1"
-    }
-  ],
-  "specs": [
-    {
-      "group": "Identity",
-      "key": "variants",
-      "label": "Variants",
-      "value": "G1; G1 EDU",
-      "unit": "",
-      "note": "EDU adds optional DoF, dexterous hands, compute module and secondary development",
-      "source": "https://www.unitree.com/g1"
-    },
-    {
-      "group": "Dimensions & Mass",
-      "key": "height_standing",
-      "label": "Height (standing)",
-      "value": 1320,
-      "unit": "mm",
-      "note": "H x W x T standing 1320 x 450 x 200 mm (G1 and G1 EDU)",
-      "source": "https://www.unitree.com/g1"
-    },
-    {
-      "group": "Dimensions & Mass",
-      "key": "width",
-      "label": "Width (standing)",
-      "value": 450,
-      "unit": "mm",
-      "note": "",
-      "source": "https://www.unitree.com/g1"
-    },
-    {
-      "group": "Dimensions & Mass",
-      "key": "length",
-      "label": "Thickness (standing)",
-      "value": 200,
-      "unit": "mm",
-      "note": "front-to-back thickness",
-      "source": "https://www.unitree.com/g1"
-    },
-    {
-      "group": "Dimensions & Mass",
-      "key": "folded_dimensions",
-      "label": "Folded dimensions (H x W x T)",
-      "value": "690 x 450 x 300",
-      "unit": "mm",
-      "note": "",
-      "source": "https://www.unitree.com/g1"
-    },
-    {
-      "group": "Dimensions & Mass",
-      "key": "weight_with_battery",
-      "label": "Weight (with battery)",
-      "value": 35,
-      "unit": "kg",
-      "note": "about 35 kg; G1 EDU about 35 kg+",
-      "source": "https://www.unitree.com/g1"
-    },
-    {
-      "group": "Dimensions & Mass",
-      "key": "leg_length",
-      "label": "Calf + thigh length",
-      "value": 0.6,
-      "unit": "m",
-      "note": "",
-      "source": "https://www.unitree.com/g1"
-    },
-    {
-      "group": "Dimensions & Mass",
-      "key": "arm_span",
-      "label": "Arm span",
-      "value": 0.45,
-      "unit": "m",
-      "note": "about 0.45 m",
-      "source": "https://www.unitree.com/g1"
-    },
-    {
-      "group": "Mobility & Performance",
-      "key": "degrees_of_freedom",
-      "label": "Total degrees of freedom",
-      "value": 23,
-      "unit": "",
-      "note": "G1 base",
-      "source": "https://www.unitree.com/g1"
-    },
-    {
-      "group": "Mobility & Performance",
-      "key": "degrees_of_freedom",
-      "label": "Total degrees of freedom",
-      "value": "23 to 43",
-      "unit": "",
-      "note": "G1 EDU, depending on options",
-      "source": "https://www.unitree.com/g1"
-    },
-    {
-      "group": "Actuation & Joints",
-      "key": "dof_per_leg",
-      "label": "DoF per leg",
-      "value": 6,
-      "unit": "",
-      "note": "",
-      "source": "https://www.unitree.com/g1"
-    },
-    {
-      "group": "Actuation & Joints",
-      "key": "dof_waist",
-      "label": "Waist DoF",
-      "value": 1,
-      "unit": "",
-      "note": "G1; EDU 1 + optional 2 additional waist DoF",
-      "source": "https://www.unitree.com/g1"
-    },
-    {
-      "group": "Actuation & Joints",
-      "key": "dof_per_arm",
-      "label": "DoF per arm",
-      "value": 5,
-      "unit": "",
-      "note": "",
-      "source": "https://www.unitree.com/g1"
-    },
-    {
-      "group": "Manipulation",
-      "key": "hand_dof",
-      "label": "Hand DoF",
-      "value": 7,
-      "unit": "",
-      "note": "G1 EDU only: optional force-controlled three-fingered hand Dex3-1 (+2 optional wrist DoF); base G1 has no hand",
-      "source": "https://www.unitree.com/g1"
-    },
-    {
-      "group": "Manipulation",
-      "key": "hand_model",
-      "label": "Dexterous hand",
-      "value": "Dex3-1 three-fingered dexterous hand (optional)",
-      "unit": "",
-      "note": "thumb 3 active DoF, index 2, middle 2; optional tactile sensor arrays",
-      "source": "https://www.unitree.com/g1"
-    },
-    {
-      "group": "Manipulation",
-      "key": "hand_operating_voltage",
-      "label": "Dex3-1 hand operating voltage",
-      "value": "12-58",
-      "unit": "V",
-      "note": "",
-      "source": "https://support.unitree.com/home/en/G1_developer/about_G1"
-    },
-    {
-      "group": "Manipulation",
-      "key": "hand_force_sensing_range",
-      "label": "Dex3-1 hand perception range",
-      "value": "10-2500",
-      "unit": "g",
-      "note": "",
-      "source": "https://support.unitree.com/home/en/G1_developer/about_G1"
-    },
-    {
-      "group": "Manipulation",
-      "key": "hand_joint_range",
-      "label": "Dex3-1 thumb joint ranges",
-      "value": "0 to +100; -35 to +60; -60 to +60",
-      "unit": "°",
-      "note": "thumb joints",
-      "source": "https://support.unitree.com/home/en/G1_developer/about_G1"
-    },
-    {
-      "group": "Manipulation",
-      "key": "hand_joint_range",
-      "label": "Dex3-1 index/middle finger joint ranges",
-      "value": "0 to +90; 0 to +100",
-      "unit": "°",
-      "note": "index and middle fingers",
-      "source": "https://support.unitree.com/home/en/G1_developer/about_G1"
-    },
-    {
-      "group": "Sensors & Perception",
-      "key": "tactile_sensors",
-      "label": "Dex3-1 tactile array sensors",
-      "value": 9,
-      "unit": "",
-      "note": "number of array sensors; tactile arrays optional",
-      "source": "https://support.unitree.com/home/en/G1_developer/about_G1"
-    },
-    {
-      "group": "Manipulation",
-      "key": "arm_payload",
-      "label": "Arm maximum load",
-      "value": 2,
-      "unit": "kg",
-      "note": "about 2 kg (G1); varies greatly with arm extension posture",
-      "source": "https://www.unitree.com/g1"
-    },
-    {
-      "group": "Manipulation",
-      "key": "arm_payload",
-      "label": "Arm maximum load",
-      "value": 3,
-      "unit": "kg",
-      "note": "about 3 kg (G1 EDU)",
-      "source": "https://www.unitree.com/g1"
-    },
-    {
-      "group": "Actuation & Joints",
-      "key": "joint_bearing_type",
-      "label": "Joint output bearing",
-      "value": "Industrial-grade crossed roller bearings",
-      "unit": "",
-      "note": "",
-      "source": "https://www.unitree.com/g1"
-    },
-    {
-      "group": "Actuation & Joints",
-      "key": "actuator_type",
-      "label": "Joint motor",
-      "value": "Low-inertia high-speed internal-rotor PMSM",
-      "unit": "",
-      "note": "permanent magnet synchronous motor",
-      "source": "https://www.unitree.com/g1"
-    },
-    {
-      "group": "Actuation & Joints",
-      "key": "max_joint_torque",
-      "label": "Max knee joint torque",
-      "value": 90,
-      "unit": "N·m",
-      "note": "G1; largest joint motor",
-      "source": "https://www.unitree.com/g1"
-    },
-    {
-      "group": "Actuation & Joints",
-      "key": "max_joint_torque",
-      "label": "Max knee joint torque",
-      "value": 120,
-      "unit": "N·m",
-      "note": "G1 EDU; largest joint motor",
-      "source": "https://www.unitree.com/g1"
-    },
-    {
-      "group": "Actuation & Joints",
-      "key": "joint_range",
-      "label": "Waist joint range",
-      "value": "Z ±155",
-      "unit": "°",
-      "note": "G1; EDU adds X ±30°, Y ±30°",
-      "source": "https://www.unitree.com/g1"
-    },
-    {
-      "group": "Actuation & Joints",
-      "key": "joint_range",
-      "label": "Knee joint range",
-      "value": "0 to 165",
-      "unit": "°",
-      "note": "",
-      "source": "https://www.unitree.com/g1"
-    },
-    {
-      "group": "Actuation & Joints",
-      "key": "joint_range",
-      "label": "Hip joint range",
-      "value": "P ±154; R -30 to +170; Y ±158",
-      "unit": "°",
-      "note": "",
-      "source": "https://www.unitree.com/g1"
-    },
-    {
-      "group": "Actuation & Joints",
-      "key": "joint_range",
-      "label": "Wrist joint range",
-      "value": "P ±92.5; Y ±92.5",
-      "unit": "°",
-      "note": "G1 EDU with optional wrist DoF",
-      "source": "https://www.unitree.com/g1"
-    },
-    {
-      "group": "Actuation & Joints",
-      "key": "joint_range",
-      "label": "Joint limit – L hip pitch",
-      "value": "-2.5307 to 2.8798",
-      "unit": "rad",
-      "note": "SDK joint limit table (29-joint config); right side mirrored",
-      "source": "https://support.unitree.com/home/en/G1_developer/about_G1",
-      "ref": "Joint serial number and joint limit"
-    },
-    {
-      "group": "Actuation & Joints",
-      "key": "joint_range",
-      "label": "Joint limit – L hip roll",
-      "value": "-0.5236 to 2.9671",
-      "unit": "rad",
-      "note": "SDK joint limit table (29-joint config); right side mirrored",
-      "source": "https://support.unitree.com/home/en/G1_developer/about_G1",
-      "ref": "Joint serial number and joint limit"
-    },
-    {
-      "group": "Actuation & Joints",
-      "key": "joint_range",
-      "label": "Joint limit – L hip yaw",
-      "value": "-2.7576 to 2.7576",
-      "unit": "rad",
-      "note": "SDK joint limit table (29-joint config); right side mirrored",
-      "source": "https://support.unitree.com/home/en/G1_developer/about_G1",
-      "ref": "Joint serial number and joint limit"
-    },
-    {
-      "group": "Actuation & Joints",
-      "key": "joint_range",
-      "label": "Joint limit – L knee",
-      "value": "-0.087267 to 2.8798",
-      "unit": "rad",
-      "note": "SDK joint limit table (29-joint config); right side mirrored",
-      "source": "https://support.unitree.com/home/en/G1_developer/about_G1",
-      "ref": "Joint serial number and joint limit"
-    },
-    {
-      "group": "Actuation & Joints",
-      "key": "joint_range",
-      "label": "Joint limit – L ankle pitch",
-      "value": "-0.87267 to 0.5236",
-      "unit": "rad",
-      "note": "SDK joint limit table (29-joint config); right side mirrored",
-      "source": "https://support.unitree.com/home/en/G1_developer/about_G1",
-      "ref": "Joint serial number and joint limit"
-    },
-    {
-      "group": "Actuation & Joints",
-      "key": "joint_range",
-      "label": "Joint limit – L ankle roll",
-      "value": "-0.2618 to 0.2618",
-      "unit": "rad",
-      "note": "SDK joint limit table (29-joint config); right side mirrored",
-      "source": "https://support.unitree.com/home/en/G1_developer/about_G1",
-      "ref": "Joint serial number and joint limit"
-    },
-    {
-      "group": "Actuation & Joints",
-      "key": "joint_range",
-      "label": "Joint limit – Waist yaw",
-      "value": "-2.618 to 2.618",
-      "unit": "rad",
-      "note": "SDK joint limit table (29-joint config); right side mirrored",
-      "source": "https://support.unitree.com/home/en/G1_developer/about_G1",
-      "ref": "Joint serial number and joint limit"
-    },
-    {
-      "group": "Actuation & Joints",
-      "key": "joint_range",
-      "label": "Joint limit – Waist roll",
-      "value": "-0.52 to 0.52",
-      "unit": "rad",
-      "note": "SDK joint limit table (29-joint config); right side mirrored",
-      "source": "https://support.unitree.com/home/en/G1_developer/about_G1",
-      "ref": "Joint serial number and joint limit"
-    },
-    {
-      "group": "Actuation & Joints",
-      "key": "joint_range",
-      "label": "Joint limit – Waist pitch",
-      "value": "-0.52 to 0.52",
-      "unit": "rad",
-      "note": "SDK joint limit table (29-joint config); right side mirrored",
-      "source": "https://support.unitree.com/home/en/G1_developer/about_G1",
-      "ref": "Joint serial number and joint limit"
-    },
-    {
-      "group": "Actuation & Joints",
-      "key": "joint_range",
-      "label": "Joint limit – L shoulder pitch",
-      "value": "-3.0892 to 2.6704",
-      "unit": "rad",
-      "note": "SDK joint limit table (29-joint config); right side mirrored",
-      "source": "https://support.unitree.com/home/en/G1_developer/about_G1",
-      "ref": "Joint serial number and joint limit"
-    },
-    {
-      "group": "Actuation & Joints",
-      "key": "joint_range",
-      "label": "Joint limit – L shoulder roll",
-      "value": "-1.5882 to 2.2515",
-      "unit": "rad",
-      "note": "SDK joint limit table (29-joint config); right side mirrored",
-      "source": "https://support.unitree.com/home/en/G1_developer/about_G1",
-      "ref": "Joint serial number and joint limit"
-    },
-    {
-      "group": "Actuation & Joints",
-      "key": "joint_range",
-      "label": "Joint limit – L shoulder yaw",
-      "value": "-2.618 to 2.618",
-      "unit": "rad",
-      "note": "SDK joint limit table (29-joint config); right side mirrored",
-      "source": "https://support.unitree.com/home/en/G1_developer/about_G1",
-      "ref": "Joint serial number and joint limit"
-    },
-    {
-      "group": "Actuation & Joints",
-      "key": "joint_range",
-      "label": "Joint limit – L elbow",
-      "value": "-1.0472 to 2.0944",
-      "unit": "rad",
-      "note": "SDK joint limit table (29-joint config); right side mirrored",
-      "source": "https://support.unitree.com/home/en/G1_developer/about_G1",
-      "ref": "Joint serial number and joint limit"
-    },
-    {
-      "group": "Actuation & Joints",
-      "key": "joint_range",
-      "label": "Joint limit – L wrist roll",
-      "value": "-1.972222054 to 1.972222054",
-      "unit": "rad",
-      "note": "SDK joint limit table (29-joint config); right side mirrored",
-      "source": "https://support.unitree.com/home/en/G1_developer/about_G1",
-      "ref": "Joint serial number and joint limit"
-    },
-    {
-      "group": "Actuation & Joints",
-      "key": "joint_range",
-      "label": "Joint limit – L wrist pitch",
-      "value": "-1.614429558 to 1.614429558",
-      "unit": "rad",
-      "note": "SDK joint limit table (29-joint config); right side mirrored",
-      "source": "https://support.unitree.com/home/en/G1_developer/about_G1",
-      "ref": "Joint serial number and joint limit"
-    },
-    {
-      "group": "Actuation & Joints",
-      "key": "joint_range",
-      "label": "Joint limit – L wrist yaw",
-      "value": "-1.614429558 to 1.614429558",
-      "unit": "rad",
-      "note": "SDK joint limit table (29-joint config); right side mirrored",
-      "source": "https://support.unitree.com/home/en/G1_developer/about_G1",
-      "ref": "Joint serial number and joint limit"
-    },
-    {
-      "group": "Actuation & Joints",
-      "key": "joint_count",
-      "label": "Joint indices in SDK",
-      "value": 29,
-      "unit": "",
-      "note": "joint index 0-28 in SDK table (full EDU configuration)",
-      "source": "https://support.unitree.com/home/en/G1_developer/about_G1"
-    },
-    {
-      "group": "Actuation & Joints",
-      "key": "internal_cable_routing",
-      "label": "Full-joint hollow electrical routing",
-      "value": true,
-      "unit": "",
-      "note": "",
-      "source": "https://www.unitree.com/g1"
-    },
-    {
-      "group": "Actuation & Joints",
-      "key": "joint_encoder",
-      "label": "Joint encoder",
-      "value": "Dual encoder",
-      "unit": "",
-      "note": "",
-      "source": "https://www.unitree.com/g1"
-    },
-    {
-      "group": "Actuation & Joints",
-      "key": "cooling_system",
-      "label": "Cooling system",
-      "value": "Local air cooling",
-      "unit": "",
-      "note": "",
-      "source": "https://www.unitree.com/g1"
-    },
-    {
-      "group": "Power & Battery",
-      "key": "battery_chemistry",
-      "label": "Power supply",
-      "value": "13-string lithium battery",
-      "unit": "",
-      "note": "",
-      "source": "https://www.unitree.com/g1"
-    },
-    {
-      "group": "Power & Battery",
-      "key": "battery_capacity",
-      "label": "Smart battery capacity",
-      "value": 9000,
-      "unit": "mAh",
-      "note": "quick-release smart battery",
-      "source": "https://www.unitree.com/g1"
-    },
-    {
-      "group": "Power & Battery",
-      "key": "battery_swappable",
-      "label": "Quick-release battery",
-      "value": true,
-      "unit": "",
-      "note": "",
-      "source": "https://www.unitree.com/g1"
-    },
-    {
-      "group": "Power & Battery",
-      "key": "runtime",
-      "label": "Battery life",
-      "value": 2,
-      "unit": "h",
-      "note": "about 2 h",
-      "source": "https://www.unitree.com/g1"
-    },
-    {
-      "group": "Charging & Docking",
-      "key": "charger_output",
-      "label": "Charger",
-      "value": "54 V 5 A",
-      "unit": "",
-      "note": "",
-      "source": "https://www.unitree.com/g1"
-    },
-    {
-      "group": "Compute & Software",
-      "key": "cpu",
-      "label": "Basic computing",
-      "value": "8-core high-performance CPU",
-      "unit": "",
-      "note": "",
-      "source": "https://www.unitree.com/g1"
-    },
-    {
-      "group": "Compute & Software",
-      "key": "cpu",
-      "label": "Development computer (PC2) CPU",
-      "value": "Arm Cortex-A78AE, 8 cores / 8 threads, 2 GHz",
-      "unit": "",
-      "note": "G1 EDU development computing unit, NVIDIA Jetson Orin NX",
-      "source": "https://support.unitree.com/home/en/G1_developer/about_G1"
-    },
-    {
-      "group": "Compute & Software",
-      "key": "compute_module",
-      "label": "Development computer (PC2) module",
-      "value": "NVIDIA Jetson Orin NX",
-      "unit": "",
-      "note": "G1 EDU; motion-control unit (PC1) is closed to users",
-      "source": "https://support.unitree.com/home/en/G1_developer/about_G1"
-    },
-    {
-      "group": "Compute & Software",
-      "key": "ram",
-      "label": "Development computer memory",
-      "value": 16,
-      "unit": "GB",
-      "note": "PC2",
-      "source": "https://support.unitree.com/home/en/G1_developer/about_G1"
-    },
-    {
-      "group": "Compute & Software",
-      "key": "storage",
-      "label": "Development computer storage",
-      "value": 2,
-      "unit": "TB",
-      "note": "PC2",
-      "source": "https://support.unitree.com/home/en/G1_developer/about_G1"
-    },
-    {
-      "group": "Compute & Software",
-      "key": "gpu",
-      "label": "Development computer GPU",
-      "value": "1024-core NVIDIA Ampere GPU with 32 Tensor Cores, max 918 MHz",
-      "unit": "",
-      "note": "PC2",
-      "source": "https://support.unitree.com/home/en/G1_developer/about_G1"
-    },
-    {
-      "group": "Compute & Software",
-      "key": "cpu_cache",
-      "label": "Development computer cache",
-      "value": "2 MB L2 + 4 MB L3",
-      "unit": "",
-      "note": "PC2",
-      "source": "https://support.unitree.com/home/en/G1_developer/about_G1"
-    },
-    {
-      "group": "Connectivity & Interfaces",
-      "key": "default_ip_address",
-      "label": "Development computer IP",
-      "value": "192.168.123.164",
-      "unit": "",
-      "note": "PC2",
-      "source": "https://support.unitree.com/home/en/G1_developer/about_G1"
-    },
-    {
-      "group": "Compute & Software",
-      "key": "optional_compute",
-      "label": "High computing power module",
-      "value": "Optional (e.g. NVIDIA Jetson Orin); multiple brands/models",
-      "unit": "",
-      "note": "G1 EDU accessory",
-      "source": "https://www.unitree.com/g1"
-    },
-    {
-      "group": "Compute & Software",
-      "key": "optional_compute",
-      "label": "Thor backpack module",
-      "value": "NVIDIA Jetson T5000",
-      "unit": "",
-      "note": "optional Thor backpack accessory",
-      "source": "https://support.unitree.com/home/en/G1_developer/about_G1",
-      "ref": "Thor Backpack Specifications"
-    },
-    {
-      "group": "Compute & Software",
-      "key": "ai_performance_tops",
-      "label": "Thor backpack AI performance",
-      "value": 2070,
-      "unit": "TFLOPS (FP4)",
-      "note": "optional Thor backpack",
-      "source": "https://support.unitree.com/home/en/G1_developer/about_G1"
-    },
-    {
-      "group": "Compute & Software",
-      "key": "gpu",
-      "label": "Thor backpack GPU",
-      "value": "2560-core NVIDIA Blackwell GPU, 96 fifth-gen Tensor Cores",
-      "unit": "",
-      "note": "optional Thor backpack",
-      "source": "https://support.unitree.com/home/en/G1_developer/about_G1"
-    },
-    {
-      "group": "Compute & Software",
-      "key": "cpu",
-      "label": "Thor backpack CPU",
-      "value": "14-core Arm Neoverse-V3AE 64-bit",
-      "unit": "",
-      "note": "optional Thor backpack",
-      "source": "https://support.unitree.com/home/en/G1_developer/about_G1"
-    },
-    {
-      "group": "Compute & Software",
-      "key": "ram",
-      "label": "Thor backpack unified memory",
-      "value": 128,
-      "unit": "GB",
-      "note": "256-bit LPDDR5X; optional Thor backpack",
-      "source": "https://support.unitree.com/home/en/G1_developer/about_G1"
-    },
-    {
-      "group": "Compute & Software",
-      "key": "storage",
-      "label": "Thor backpack storage",
-      "value": 1,
-      "unit": "TB",
-      "note": "optional Thor backpack",
-      "source": "https://support.unitree.com/home/en/G1_developer/about_G1"
-    },
-    {
-      "group": "Compute & Software",
-      "key": "compute_power_consumption",
-      "label": "Thor backpack peak power",
-      "value": 130,
-      "unit": "W",
-      "note": "optional Thor backpack",
-      "source": "https://support.unitree.com/home/en/G1_developer/about_G1"
-    },
-    {
-      "group": "Connectivity & Interfaces",
-      "key": "usb_ports",
-      "label": "Thor backpack USB",
-      "value": "Type-A 3.2 x2; Type-C 3.1 x2",
-      "unit": "",
-      "note": "optional Thor backpack",
-      "source": "https://support.unitree.com/home/en/G1_developer/about_G1"
-    },
-    {
-      "group": "Compute & Software",
-      "key": "operating_system",
-      "label": "Thor backpack OS",
-      "value": "Jetson Linux 38.2.1 (Ubuntu-based), JetPack 7",
-      "unit": "",
-      "note": "optional Thor backpack",
-      "source": "https://support.unitree.com/home/en/G1_developer/about_G1"
-    },
-    {
-      "group": "Sensors & Perception",
-      "key": "lidar_model",
-      "label": "3D LiDAR",
-      "value": "Livox MID-360",
-      "unit": "",
-      "note": "head-mounted",
-      "source": "https://support.unitree.com/home/en/G1_developer/about_G1"
-    },
-    {
-      "group": "Sensors & Perception",
-      "key": "lidar_fov",
-      "label": "LiDAR FOV",
-      "value": "360 horizontal; up to 59 vertical",
-      "unit": "°",
-      "note": "",
-      "source": "https://support.unitree.com/home/en/G1_developer/about_G1"
-    },
-    {
-      "group": "Sensors & Perception",
-      "key": "depth_camera_model",
-      "label": "Depth camera",
-      "value": "Intel RealSense D435i",
-      "unit": "",
-      "note": "head-mounted",
-      "source": "https://support.unitree.com/home/en/G1_developer/about_G1"
-    },
-    {
-      "group": "Sensors & Perception",
-      "key": "microphones",
-      "label": "Microphone array",
-      "value": "4-microphone array",
-      "unit": "",
-      "note": "",
-      "source": "https://www.unitree.com/g1"
-    },
-    {
-      "group": "Audio, Lights & HMI",
-      "key": "speaker",
-      "label": "Speaker",
-      "value": 5,
-      "unit": "W",
-      "note": "",
-      "source": "https://www.unitree.com/g1"
-    },
-    {
-      "group": "Connectivity & Interfaces",
-      "key": "wifi",
-      "label": "Wi-Fi",
-      "value": "Wi-Fi 6",
-      "unit": "",
-      "note": "",
-      "source": "https://www.unitree.com/g1"
-    },
-    {
-      "group": "Connectivity & Interfaces",
-      "key": "bluetooth",
-      "label": "Bluetooth",
-      "value": "5.2",
-      "unit": "",
-      "note": "",
-      "source": "https://www.unitree.com/g1"
-    },
-    {
-      "group": "Connectivity & Interfaces",
-      "key": "external_ports",
-      "label": "Top interface – VBAT (XT30UPB-F)",
-      "value": "58 V / 5 A battery power output (direct battery)",
-      "unit": "",
-      "note": "electrical interface on top of robot",
-      "source": "https://support.unitree.com/home/en/G1_developer/about_G1",
-      "ref": "Electrical Interface"
-    },
-    {
-      "group": "Connectivity & Interfaces",
-      "key": "external_ports",
-      "label": "Top interface – 24V (XT30UPB-F)",
-      "value": "24 V / 5 A power output",
-      "unit": "",
-      "note": "electrical interface on top of robot",
-      "source": "https://support.unitree.com/home/en/G1_developer/about_G1",
-      "ref": "Electrical Interface"
-    },
-    {
-      "group": "Connectivity & Interfaces",
-      "key": "external_ports",
-      "label": "Top interface – 12V (XT30UPB-F)",
-      "value": "12 V / 5 A power output",
-      "unit": "",
-      "note": "electrical interface on top of robot",
-      "source": "https://support.unitree.com/home/en/G1_developer/about_G1",
-      "ref": "Electrical Interface"
-    },
-    {
-      "group": "Connectivity & Interfaces",
-      "key": "external_ports",
-      "label": "Top interface – RJ45 x2",
-      "value": "1000BASE-T Gigabit Ethernet",
-      "unit": "",
-      "note": "electrical interface on top of robot",
-      "source": "https://support.unitree.com/home/en/G1_developer/about_G1",
-      "ref": "Electrical Interface"
-    },
-    {
-      "group": "Connectivity & Interfaces",
-      "key": "external_ports",
-      "label": "Top interface – Type-C x3",
-      "value": "USB 3.0 host, 5 V / 1.5 A power output",
-      "unit": "",
-      "note": "electrical interface on top of robot",
-      "source": "https://support.unitree.com/home/en/G1_developer/about_G1",
-      "ref": "Electrical Interface"
-    },
-    {
-      "group": "Connectivity & Interfaces",
-      "key": "external_ports",
-      "label": "Top interface – Alt Mode Type-C",
-      "value": "USB 3.2 host and DisplayPort 1.4",
-      "unit": "",
-      "note": "electrical interface on top of robot",
-      "source": "https://support.unitree.com/home/en/G1_developer/about_G1",
-      "ref": "Electrical Interface"
-    },
-    {
-      "group": "Connectivity & Interfaces",
-      "key": "external_ports",
-      "label": "Top interface – I/O OUT (5577)",
-      "value": "12 V / 3 A power output + GPIO (UART, I2C, GPIO)",
-      "unit": "",
-      "note": "electrical interface on top of robot",
-      "source": "https://support.unitree.com/home/en/G1_developer/about_G1",
-      "ref": "Electrical Interface"
-    },
-    {
-      "group": "Controls & Operation",
-      "key": "controller",
-      "label": "Manual controller",
-      "value": "Included",
-      "unit": "",
-      "note": "",
-      "source": "https://www.unitree.com/g1"
-    },
-    {
-      "group": "Compute & Software",
-      "key": "ota_updates",
-      "label": "Upgraded intelligent OTA",
-      "value": true,
-      "unit": "",
-      "note": "",
-      "source": "https://www.unitree.com/g1"
-    },
-    {
-      "group": "Compute & Software",
-      "key": "sdk",
-      "label": "Secondary development",
-      "value": "G1 EDU only",
-      "unit": "",
-      "note": "unitree_sdk2 / DDS (ROS 2 compatible)",
-      "source": "https://www.unitree.com/g1"
-    },
-    {
-      "group": "Commercial",
-      "key": "warranty",
-      "label": "Warranty",
-      "value": 8,
-      "unit": "months",
-      "note": "G1",
-      "source": "https://www.unitree.com/g1"
-    },
-    {
-      "group": "Commercial",
-      "key": "warranty",
-      "label": "Warranty",
-      "value": 18,
-      "unit": "months",
-      "note": "G1 EDU",
-      "source": "https://www.unitree.com/g1"
-    },
-    {
-      "group": "Commercial",
-      "key": "price",
-      "label": "Price",
-      "value": 13500,
-      "unit": "USD",
-      "note": "G1, tax and shipping excluded; G1 EDU contact sales",
-      "source": "https://www.unitree.com/g1"
-    },
-    {
-      "group": "Safety & Compliance",
-      "key": "intended_use",
-      "label": "Intended use / caution",
-      "value": "Civilian robot; keep sufficient safe distance; no dangerous modifications",
-      "unit": "",
-      "note": "",
-      "source": "https://www.unitree.com/g1"
-    }
-  ]
+ "id": "unitree-g1",
+ "checked": "2026-11-04",
+ "documents": [
+  {
+   "title": "Unitree G1 product page – G1 Parameter table",
+   "url": "https://www.unitree.com/g1"
+  },
+  {
+   "title": "Unitree G1 SDK Development Guide – About G1 (updated 2026-09-17)",
+   "url": "https://support.unitree.com/home/en/G1_developer/about_G1"
+  }
+ ],
+ "specs": [
+  {
+   "group": "Identity",
+   "key": "variants",
+   "label": "Variants",
+   "value": "G1; G1 EDU",
+   "unit": "",
+   "note": "EDU adds optional DoF, dexterous hands, compute module and secondary development",
+   "source": "https://www.unitree.com/g1"
+  },
+  {
+   "group": "Dimensions & Mass",
+   "key": "height_standing",
+   "label": "Height (standing)",
+   "value": 1320,
+   "unit": "mm",
+   "note": "H x W x T standing 1320 x 450 x 200 mm (G1 and G1 EDU)",
+   "source": "https://www.unitree.com/g1"
+  },
+  {
+   "group": "Dimensions & Mass",
+   "key": "width",
+   "label": "Width (standing)",
+   "value": 450,
+   "unit": "mm",
+   "note": "",
+   "source": "https://www.unitree.com/g1"
+  },
+  {
+   "group": "Dimensions & Mass",
+   "key": "length",
+   "label": "Thickness (standing)",
+   "value": 200,
+   "unit": "mm",
+   "note": "front-to-back thickness",
+   "source": "https://www.unitree.com/g1"
+  },
+  {
+   "group": "Dimensions & Mass",
+   "key": "folded_dimensions",
+   "label": "Folded dimensions (H x W x T)",
+   "value": "690 x 450 x 300",
+   "unit": "mm",
+   "note": "",
+   "source": "https://www.unitree.com/g1"
+  },
+  {
+   "group": "Dimensions & Mass",
+   "key": "weight_with_battery",
+   "label": "Weight (with battery)",
+   "value": 35,
+   "unit": "kg",
+   "note": "about 35 kg; G1 EDU about 35 kg+",
+   "source": "https://www.unitree.com/g1"
+  },
+  {
+   "group": "Dimensions & Mass",
+   "key": "leg_length",
+   "label": "Calf + thigh length",
+   "value": 0.6,
+   "unit": "m",
+   "note": "",
+   "source": "https://www.unitree.com/g1"
+  },
+  {
+   "group": "Dimensions & Mass",
+   "key": "arm_span",
+   "label": "Arm span",
+   "value": 0.45,
+   "unit": "m",
+   "note": "about 0.45 m",
+   "source": "https://www.unitree.com/g1"
+  },
+  {
+   "group": "Mobility & Performance",
+   "key": "degrees_of_freedom",
+   "label": "Total degrees of freedom",
+   "value": 23,
+   "unit": "",
+   "note": "G1 base",
+   "source": "https://www.unitree.com/g1"
+  },
+  {
+   "group": "Mobility & Performance",
+   "key": "degrees_of_freedom",
+   "label": "Total degrees of freedom",
+   "value": "23 to 43",
+   "unit": "",
+   "note": "G1 EDU, depending on options",
+   "source": "https://www.unitree.com/g1"
+  },
+  {
+   "group": "Actuation & Joints",
+   "key": "dof_per_leg",
+   "label": "DoF per leg",
+   "value": 6,
+   "unit": "",
+   "note": "",
+   "source": "https://www.unitree.com/g1"
+  },
+  {
+   "group": "Actuation & Joints",
+   "key": "dof_waist",
+   "label": "Waist DoF",
+   "value": 1,
+   "unit": "",
+   "note": "G1; EDU 1 + optional 2 additional waist DoF",
+   "source": "https://www.unitree.com/g1"
+  },
+  {
+   "group": "Actuation & Joints",
+   "key": "dof_per_arm",
+   "label": "DoF per arm",
+   "value": 5,
+   "unit": "",
+   "note": "",
+   "source": "https://www.unitree.com/g1"
+  },
+  {
+   "group": "Manipulation",
+   "key": "hand_dof",
+   "label": "Hand DoF",
+   "value": 7,
+   "unit": "",
+   "note": "G1 EDU only: optional force-controlled three-fingered hand Dex3-1 (+2 optional wrist DoF); base G1 has no hand",
+   "source": "https://www.unitree.com/g1"
+  },
+  {
+   "group": "Manipulation",
+   "key": "hand_model",
+   "label": "Dexterous hand",
+   "value": "Dex3-1 three-fingered dexterous hand (optional)",
+   "unit": "",
+   "note": "thumb 3 active DoF, index 2, middle 2; optional tactile sensor arrays",
+   "source": "https://www.unitree.com/g1"
+  },
+  {
+   "group": "Manipulation",
+   "key": "hand_operating_voltage",
+   "label": "Dex3-1 hand operating voltage",
+   "value": "12-58",
+   "unit": "V",
+   "note": "",
+   "source": "https://support.unitree.com/home/en/G1_developer/about_G1"
+  },
+  {
+   "group": "Manipulation",
+   "key": "hand_force_sensing_range",
+   "label": "Dex3-1 hand perception range",
+   "value": "10-2500",
+   "unit": "g",
+   "note": "",
+   "source": "https://support.unitree.com/home/en/G1_developer/about_G1"
+  },
+  {
+   "group": "Manipulation",
+   "key": "hand_joint_range",
+   "label": "Dex3-1 thumb joint ranges",
+   "value": "0 to +100; -35 to +60; -60 to +60",
+   "unit": "°",
+   "note": "thumb joints",
+   "source": "https://support.unitree.com/home/en/G1_developer/about_G1"
+  },
+  {
+   "group": "Manipulation",
+   "key": "hand_joint_range",
+   "label": "Dex3-1 index/middle finger joint ranges",
+   "value": "0 to +90; 0 to +100",
+   "unit": "°",
+   "note": "index and middle fingers",
+   "source": "https://support.unitree.com/home/en/G1_developer/about_G1"
+  },
+  {
+   "group": "Sensors & Perception",
+   "key": "tactile_sensors",
+   "label": "Dex3-1 tactile array sensors",
+   "value": 9,
+   "unit": "",
+   "note": "number of array sensors; tactile arrays optional",
+   "source": "https://support.unitree.com/home/en/G1_developer/about_G1"
+  },
+  {
+   "group": "Manipulation",
+   "key": "arm_payload",
+   "label": "Arm maximum load",
+   "value": 2,
+   "unit": "kg",
+   "note": "about 2 kg (G1); varies greatly with arm extension posture",
+   "source": "https://www.unitree.com/g1"
+  },
+  {
+   "group": "Manipulation",
+   "key": "arm_payload",
+   "label": "Arm maximum load",
+   "value": 3,
+   "unit": "kg",
+   "note": "about 3 kg (G1 EDU)",
+   "source": "https://www.unitree.com/g1"
+  },
+  {
+   "group": "Actuation & Joints",
+   "key": "joint_bearing_type",
+   "label": "Joint output bearing",
+   "value": "Industrial-grade crossed roller bearings",
+   "unit": "",
+   "note": "",
+   "source": "https://www.unitree.com/g1"
+  },
+  {
+   "group": "Actuation & Joints",
+   "key": "actuator_type",
+   "label": "Joint motor",
+   "value": "Low-inertia high-speed internal-rotor PMSM",
+   "unit": "",
+   "note": "permanent magnet synchronous motor",
+   "source": "https://www.unitree.com/g1"
+  },
+  {
+   "group": "Actuation & Joints",
+   "key": "max_joint_torque",
+   "label": "Max knee joint torque",
+   "value": 90,
+   "unit": "N·m",
+   "note": "G1; largest joint motor",
+   "source": "https://www.unitree.com/g1"
+  },
+  {
+   "group": "Actuation & Joints",
+   "key": "max_joint_torque",
+   "label": "Max knee joint torque",
+   "value": 120,
+   "unit": "N·m",
+   "note": "G1 EDU; largest joint motor",
+   "source": "https://www.unitree.com/g1"
+  },
+  {
+   "group": "Actuation & Joints",
+   "key": "joint_range_of_motion",
+   "label": "Waist joint range",
+   "value": "Z ±155",
+   "unit": "°",
+   "note": "G1; EDU adds X ±30°, Y ±30°",
+   "source": "https://www.unitree.com/g1"
+  },
+  {
+   "group": "Actuation & Joints",
+   "key": "joint_range_of_motion",
+   "label": "Knee joint range",
+   "value": "0 to 165",
+   "unit": "°",
+   "note": "",
+   "source": "https://www.unitree.com/g1"
+  },
+  {
+   "group": "Actuation & Joints",
+   "key": "joint_range_of_motion",
+   "label": "Hip joint range",
+   "value": "P ±154; R -30 to +170; Y ±158",
+   "unit": "°",
+   "note": "",
+   "source": "https://www.unitree.com/g1"
+  },
+  {
+   "group": "Actuation & Joints",
+   "key": "joint_range_of_motion",
+   "label": "Wrist joint range",
+   "value": "P ±92.5; Y ±92.5",
+   "unit": "°",
+   "note": "G1 EDU with optional wrist DoF",
+   "source": "https://www.unitree.com/g1"
+  },
+  {
+   "group": "Actuation & Joints",
+   "key": "joint_range_of_motion",
+   "label": "Joint limit – L hip pitch",
+   "value": "-2.5307 to 2.8798",
+   "unit": "rad",
+   "note": "SDK joint limit table (29-joint config); right side mirrored",
+   "source": "https://support.unitree.com/home/en/G1_developer/about_G1",
+   "ref": "Joint serial number and joint limit"
+  },
+  {
+   "group": "Actuation & Joints",
+   "key": "joint_range_of_motion",
+   "label": "Joint limit – L hip roll",
+   "value": "-0.5236 to 2.9671",
+   "unit": "rad",
+   "note": "SDK joint limit table (29-joint config); right side mirrored",
+   "source": "https://support.unitree.com/home/en/G1_developer/about_G1",
+   "ref": "Joint serial number and joint limit"
+  },
+  {
+   "group": "Actuation & Joints",
+   "key": "joint_range_of_motion",
+   "label": "Joint limit – L hip yaw",
+   "value": "-2.7576 to 2.7576",
+   "unit": "rad",
+   "note": "SDK joint limit table (29-joint config); right side mirrored",
+   "source": "https://support.unitree.com/home/en/G1_developer/about_G1",
+   "ref": "Joint serial number and joint limit"
+  },
+  {
+   "group": "Actuation & Joints",
+   "key": "joint_range_of_motion",
+   "label": "Joint limit – L knee",
+   "value": "-0.087267 to 2.8798",
+   "unit": "rad",
+   "note": "SDK joint limit table (29-joint config); right side mirrored",
+   "source": "https://support.unitree.com/home/en/G1_developer/about_G1",
+   "ref": "Joint serial number and joint limit"
+  },
+  {
+   "group": "Actuation & Joints",
+   "key": "joint_range_of_motion",
+   "label": "Joint limit – L ankle pitch",
+   "value": "-0.87267 to 0.5236",
+   "unit": "rad",
+   "note": "SDK joint limit table (29-joint config); right side mirrored",
+   "source": "https://support.unitree.com/home/en/G1_developer/about_G1",
+   "ref": "Joint serial number and joint limit"
+  },
+  {
+   "group": "Actuation & Joints",
+   "key": "joint_range_of_motion",
+   "label": "Joint limit – L ankle roll",
+   "value": "-0.2618 to 0.2618",
+   "unit": "rad",
+   "note": "SDK joint limit table (29-joint config); right side mirrored",
+   "source": "https://support.unitree.com/home/en/G1_developer/about_G1",
+   "ref": "Joint serial number and joint limit"
+  },
+  {
+   "group": "Actuation & Joints",
+   "key": "joint_range_of_motion",
+   "label": "Joint limit – Waist yaw",
+   "value": "-2.618 to 2.618",
+   "unit": "rad",
+   "note": "SDK joint limit table (29-joint config); right side mirrored",
+   "source": "https://support.unitree.com/home/en/G1_developer/about_G1",
+   "ref": "Joint serial number and joint limit"
+  },
+  {
+   "group": "Actuation & Joints",
+   "key": "joint_range_of_motion",
+   "label": "Joint limit – Waist roll",
+   "value": "-0.52 to 0.52",
+   "unit": "rad",
+   "note": "SDK joint limit table (29-joint config); right side mirrored",
+   "source": "https://support.unitree.com/home/en/G1_developer/about_G1",
+   "ref": "Joint serial number and joint limit"
+  },
+  {
+   "group": "Actuation & Joints",
+   "key": "joint_range_of_motion",
+   "label": "Joint limit – Waist pitch",
+   "value": "-0.52 to 0.52",
+   "unit": "rad",
+   "note": "SDK joint limit table (29-joint config); right side mirrored",
+   "source": "https://support.unitree.com/home/en/G1_developer/about_G1",
+   "ref": "Joint serial number and joint limit"
+  },
+  {
+   "group": "Actuation & Joints",
+   "key": "joint_range_of_motion",
+   "label": "Joint limit – L shoulder pitch",
+   "value": "-3.0892 to 2.6704",
+   "unit": "rad",
+   "note": "SDK joint limit table (29-joint config); right side mirrored",
+   "source": "https://support.unitree.com/home/en/G1_developer/about_G1",
+   "ref": "Joint serial number and joint limit"
+  },
+  {
+   "group": "Actuation & Joints",
+   "key": "joint_range_of_motion",
+   "label": "Joint limit – L shoulder roll",
+   "value": "-1.5882 to 2.2515",
+   "unit": "rad",
+   "note": "SDK joint limit table (29-joint config); right side mirrored",
+   "source": "https://support.unitree.com/home/en/G1_developer/about_G1",
+   "ref": "Joint serial number and joint limit"
+  },
+  {
+   "group": "Actuation & Joints",
+   "key": "joint_range_of_motion",
+   "label": "Joint limit – L shoulder yaw",
+   "value": "-2.618 to 2.618",
+   "unit": "rad",
+   "note": "SDK joint limit table (29-joint config); right side mirrored",
+   "source": "https://support.unitree.com/home/en/G1_developer/about_G1",
+   "ref": "Joint serial number and joint limit"
+  },
+  {
+   "group": "Actuation & Joints",
+   "key": "joint_range_of_motion",
+   "label": "Joint limit – L elbow",
+   "value": "-1.0472 to 2.0944",
+   "unit": "rad",
+   "note": "SDK joint limit table (29-joint config); right side mirrored",
+   "source": "https://support.unitree.com/home/en/G1_developer/about_G1",
+   "ref": "Joint serial number and joint limit"
+  },
+  {
+   "group": "Actuation & Joints",
+   "key": "joint_range_of_motion",
+   "label": "Joint limit – L wrist roll",
+   "value": "-1.972222054 to 1.972222054",
+   "unit": "rad",
+   "note": "SDK joint limit table (29-joint config); right side mirrored",
+   "source": "https://support.unitree.com/home/en/G1_developer/about_G1",
+   "ref": "Joint serial number and joint limit"
+  },
+  {
+   "group": "Actuation & Joints",
+   "key": "joint_range_of_motion",
+   "label": "Joint limit – L wrist pitch",
+   "value": "-1.614429558 to 1.614429558",
+   "unit": "rad",
+   "note": "SDK joint limit table (29-joint config); right side mirrored",
+   "source": "https://support.unitree.com/home/en/G1_developer/about_G1",
+   "ref": "Joint serial number and joint limit"
+  },
+  {
+   "group": "Actuation & Joints",
+   "key": "joint_range_of_motion",
+   "label": "Joint limit – L wrist yaw",
+   "value": "-1.614429558 to 1.614429558",
+   "unit": "rad",
+   "note": "SDK joint limit table (29-joint config); right side mirrored",
+   "source": "https://support.unitree.com/home/en/G1_developer/about_G1",
+   "ref": "Joint serial number and joint limit"
+  },
+  {
+   "group": "Actuation & Joints",
+   "key": "joint_count",
+   "label": "Joint indices in SDK",
+   "value": 29,
+   "unit": "",
+   "note": "joint index 0-28 in SDK table (full EDU configuration)",
+   "source": "https://support.unitree.com/home/en/G1_developer/about_G1"
+  },
+  {
+   "group": "Actuation & Joints",
+   "key": "internal_cable_routing",
+   "label": "Full-joint hollow electrical routing",
+   "value": true,
+   "unit": "",
+   "note": "",
+   "source": "https://www.unitree.com/g1"
+  },
+  {
+   "group": "Actuation & Joints",
+   "key": "joint_encoder",
+   "label": "Joint encoder",
+   "value": "Dual encoder",
+   "unit": "",
+   "note": "",
+   "source": "https://www.unitree.com/g1"
+  },
+  {
+   "group": "Actuation & Joints",
+   "key": "cooling_system",
+   "label": "Cooling system",
+   "value": "Local air cooling",
+   "unit": "",
+   "note": "",
+   "source": "https://www.unitree.com/g1"
+  },
+  {
+   "group": "Power & Battery",
+   "key": "battery_chemistry",
+   "label": "Power supply",
+   "value": "13-string lithium battery",
+   "unit": "",
+   "note": "",
+   "source": "https://www.unitree.com/g1"
+  },
+  {
+   "group": "Power & Battery",
+   "key": "battery_capacity",
+   "label": "Smart battery capacity",
+   "value": 9000,
+   "unit": "mAh",
+   "note": "quick-release smart battery",
+   "source": "https://www.unitree.com/g1"
+  },
+  {
+   "group": "Power & Battery",
+   "key": "battery_swappable",
+   "label": "Quick-release battery",
+   "value": true,
+   "unit": "",
+   "note": "",
+   "source": "https://www.unitree.com/g1"
+  },
+  {
+   "group": "Power & Battery",
+   "key": "runtime",
+   "label": "Battery life",
+   "value": 2,
+   "unit": "h",
+   "note": "about 2 h",
+   "source": "https://www.unitree.com/g1"
+  },
+  {
+   "group": "Charging & Docking",
+   "key": "charger_output",
+   "label": "Charger",
+   "value": "54 V 5 A",
+   "unit": "",
+   "note": "",
+   "source": "https://www.unitree.com/g1"
+  },
+  {
+   "group": "Compute & Software",
+   "key": "cpu",
+   "label": "Basic computing",
+   "value": "8-core high-performance CPU",
+   "unit": "",
+   "note": "",
+   "source": "https://www.unitree.com/g1"
+  },
+  {
+   "group": "Compute & Software",
+   "key": "cpu",
+   "label": "Development computer (PC2) CPU",
+   "value": "Arm Cortex-A78AE, 8 cores / 8 threads, 2 GHz",
+   "unit": "",
+   "note": "G1 EDU development computing unit, NVIDIA Jetson Orin NX",
+   "source": "https://support.unitree.com/home/en/G1_developer/about_G1"
+  },
+  {
+   "group": "Compute & Software",
+   "key": "compute_module",
+   "label": "Development computer (PC2) module",
+   "value": "NVIDIA Jetson Orin NX",
+   "unit": "",
+   "note": "G1 EDU; motion-control unit (PC1) is closed to users",
+   "source": "https://support.unitree.com/home/en/G1_developer/about_G1"
+  },
+  {
+   "group": "Compute & Software",
+   "key": "ram",
+   "label": "Development computer memory",
+   "value": 16,
+   "unit": "GB",
+   "note": "PC2",
+   "source": "https://support.unitree.com/home/en/G1_developer/about_G1"
+  },
+  {
+   "group": "Compute & Software",
+   "key": "storage",
+   "label": "Development computer storage",
+   "value": 2,
+   "unit": "TB",
+   "note": "PC2",
+   "source": "https://support.unitree.com/home/en/G1_developer/about_G1"
+  },
+  {
+   "group": "Compute & Software",
+   "key": "gpu",
+   "label": "Development computer GPU",
+   "value": "1024-core NVIDIA Ampere GPU with 32 Tensor Cores, max 918 MHz",
+   "unit": "",
+   "note": "PC2",
+   "source": "https://support.unitree.com/home/en/G1_developer/about_G1"
+  },
+  {
+   "group": "Compute & Software",
+   "key": "cpu_cache",
+   "label": "Development computer cache",
+   "value": "2 MB L2 + 4 MB L3",
+   "unit": "",
+   "note": "PC2",
+   "source": "https://support.unitree.com/home/en/G1_developer/about_G1"
+  },
+  {
+   "group": "Connectivity & Interfaces",
+   "key": "default_ip",
+   "label": "Development computer IP",
+   "value": "192.168.123.164",
+   "unit": "",
+   "note": "PC2",
+   "source": "https://support.unitree.com/home/en/G1_developer/about_G1"
+  },
+  {
+   "group": "Compute & Software",
+   "key": "optional_compute",
+   "label": "High computing power module",
+   "value": "Optional (e.g. NVIDIA Jetson Orin); multiple brands/models",
+   "unit": "",
+   "note": "G1 EDU accessory",
+   "source": "https://www.unitree.com/g1"
+  },
+  {
+   "group": "Compute & Software",
+   "key": "optional_compute",
+   "label": "Thor backpack module",
+   "value": "NVIDIA Jetson T5000",
+   "unit": "",
+   "note": "optional Thor backpack accessory",
+   "source": "https://support.unitree.com/home/en/G1_developer/about_G1",
+   "ref": "Thor Backpack Specifications"
+  },
+  {
+   "group": "Compute & Software",
+   "key": "ai_performance_tops",
+   "label": "Thor backpack AI performance",
+   "value": 2070,
+   "unit": "TFLOPS (FP4)",
+   "note": "optional Thor backpack",
+   "source": "https://support.unitree.com/home/en/G1_developer/about_G1"
+  },
+  {
+   "group": "Compute & Software",
+   "key": "gpu",
+   "label": "Thor backpack GPU",
+   "value": "2560-core NVIDIA Blackwell GPU, 96 fifth-gen Tensor Cores",
+   "unit": "",
+   "note": "optional Thor backpack",
+   "source": "https://support.unitree.com/home/en/G1_developer/about_G1"
+  },
+  {
+   "group": "Compute & Software",
+   "key": "cpu",
+   "label": "Thor backpack CPU",
+   "value": "14-core Arm Neoverse-V3AE 64-bit",
+   "unit": "",
+   "note": "optional Thor backpack",
+   "source": "https://support.unitree.com/home/en/G1_developer/about_G1"
+  },
+  {
+   "group": "Compute & Software",
+   "key": "ram",
+   "label": "Thor backpack unified memory",
+   "value": 128,
+   "unit": "GB",
+   "note": "256-bit LPDDR5X; optional Thor backpack",
+   "source": "https://support.unitree.com/home/en/G1_developer/about_G1"
+  },
+  {
+   "group": "Compute & Software",
+   "key": "storage",
+   "label": "Thor backpack storage",
+   "value": 1,
+   "unit": "TB",
+   "note": "optional Thor backpack",
+   "source": "https://support.unitree.com/home/en/G1_developer/about_G1"
+  },
+  {
+   "group": "Compute & Software",
+   "key": "compute_power_consumption",
+   "label": "Thor backpack peak power",
+   "value": 130,
+   "unit": "W",
+   "note": "optional Thor backpack",
+   "source": "https://support.unitree.com/home/en/G1_developer/about_G1"
+  },
+  {
+   "group": "Connectivity & Interfaces",
+   "key": "usb_ports",
+   "label": "Thor backpack USB",
+   "value": "Type-A 3.2 x2; Type-C 3.1 x2",
+   "unit": "",
+   "note": "optional Thor backpack",
+   "source": "https://support.unitree.com/home/en/G1_developer/about_G1"
+  },
+  {
+   "group": "Compute & Software",
+   "key": "operating_system",
+   "label": "Thor backpack OS",
+   "value": "Jetson Linux 38.2.1 (Ubuntu-based), JetPack 7",
+   "unit": "",
+   "note": "optional Thor backpack",
+   "source": "https://support.unitree.com/home/en/G1_developer/about_G1"
+  },
+  {
+   "group": "Sensors & Perception",
+   "key": "lidar_model",
+   "label": "3D LiDAR",
+   "value": "Livox MID-360",
+   "unit": "",
+   "note": "head-mounted",
+   "source": "https://support.unitree.com/home/en/G1_developer/about_G1"
+  },
+  {
+   "group": "Sensors & Perception",
+   "key": "lidar_fov",
+   "label": "LiDAR FOV",
+   "value": "360 horizontal; up to 59 vertical",
+   "unit": "°",
+   "note": "",
+   "source": "https://support.unitree.com/home/en/G1_developer/about_G1"
+  },
+  {
+   "group": "Sensors & Perception",
+   "key": "depth_camera_model",
+   "label": "Depth camera",
+   "value": "Intel RealSense D435i",
+   "unit": "",
+   "note": "head-mounted",
+   "source": "https://support.unitree.com/home/en/G1_developer/about_G1"
+  },
+  {
+   "group": "Sensors & Perception",
+   "key": "microphones",
+   "label": "Microphone array",
+   "value": "4-microphone array",
+   "unit": "",
+   "note": "",
+   "source": "https://www.unitree.com/g1"
+  },
+  {
+   "group": "Audio, Lights & HMI",
+   "key": "speaker",
+   "label": "Speaker",
+   "value": 5,
+   "unit": "W",
+   "note": "",
+   "source": "https://www.unitree.com/g1"
+  },
+  {
+   "group": "Connectivity & Interfaces",
+   "key": "wifi",
+   "label": "Wi-Fi",
+   "value": "Wi-Fi 6",
+   "unit": "",
+   "note": "",
+   "source": "https://www.unitree.com/g1"
+  },
+  {
+   "group": "Connectivity & Interfaces",
+   "key": "bluetooth",
+   "label": "Bluetooth",
+   "value": "5.2",
+   "unit": "",
+   "note": "",
+   "source": "https://www.unitree.com/g1"
+  },
+  {
+   "group": "Connectivity & Interfaces",
+   "key": "external_ports",
+   "label": "Top interface – VBAT (XT30UPB-F)",
+   "value": "58 V / 5 A battery power output (direct battery)",
+   "unit": "",
+   "note": "electrical interface on top of robot",
+   "source": "https://support.unitree.com/home/en/G1_developer/about_G1",
+   "ref": "Electrical Interface"
+  },
+  {
+   "group": "Connectivity & Interfaces",
+   "key": "external_ports",
+   "label": "Top interface – 24V (XT30UPB-F)",
+   "value": "24 V / 5 A power output",
+   "unit": "",
+   "note": "electrical interface on top of robot",
+   "source": "https://support.unitree.com/home/en/G1_developer/about_G1",
+   "ref": "Electrical Interface"
+  },
+  {
+   "group": "Connectivity & Interfaces",
+   "key": "external_ports",
+   "label": "Top interface – 12V (XT30UPB-F)",
+   "value": "12 V / 5 A power output",
+   "unit": "",
+   "note": "electrical interface on top of robot",
+   "source": "https://support.unitree.com/home/en/G1_developer/about_G1",
+   "ref": "Electrical Interface"
+  },
+  {
+   "group": "Connectivity & Interfaces",
+   "key": "external_ports",
+   "label": "Top interface – RJ45 x2",
+   "value": "1000BASE-T Gigabit Ethernet",
+   "unit": "",
+   "note": "electrical interface on top of robot",
+   "source": "https://support.unitree.com/home/en/G1_developer/about_G1",
+   "ref": "Electrical Interface"
+  },
+  {
+   "group": "Connectivity & Interfaces",
+   "key": "external_ports",
+   "label": "Top interface – Type-C x3",
+   "value": "USB 3.0 host, 5 V / 1.5 A power output",
+   "unit": "",
+   "note": "electrical interface on top of robot",
+   "source": "https://support.unitree.com/home/en/G1_developer/about_G1",
+   "ref": "Electrical Interface"
+  },
+  {
+   "group": "Connectivity & Interfaces",
+   "key": "external_ports",
+   "label": "Top interface – Alt Mode Type-C",
+   "value": "USB 3.2 host and DisplayPort 1.4",
+   "unit": "",
+   "note": "electrical interface on top of robot",
+   "source": "https://support.unitree.com/home/en/G1_developer/about_G1",
+   "ref": "Electrical Interface"
+  },
+  {
+   "group": "Connectivity & Interfaces",
+   "key": "external_ports",
+   "label": "Top interface – I/O OUT (5577)",
+   "value": "12 V / 3 A power output + GPIO (UART, I2C, GPIO)",
+   "unit": "",
+   "note": "electrical interface on top of robot",
+   "source": "https://support.unitree.com/home/en/G1_developer/about_G1",
+   "ref": "Electrical Interface"
+  },
+  {
+   "group": "Controls & Operation",
+   "key": "controller",
+   "label": "Manual controller",
+   "value": "Included",
+   "unit": "",
+   "note": "",
+   "source": "https://www.unitree.com/g1"
+  },
+  {
+   "group": "Compute & Software",
+   "key": "ota_updates",
+   "label": "Upgraded intelligent OTA",
+   "value": true,
+   "unit": "",
+   "note": "",
+   "source": "https://www.unitree.com/g1"
+  },
+  {
+   "group": "Compute & Software",
+   "key": "sdk",
+   "label": "Secondary development",
+   "value": "G1 EDU only",
+   "unit": "",
+   "note": "unitree_sdk2 / DDS (ROS 2 compatible)",
+   "source": "https://www.unitree.com/g1"
+  },
+  {
+   "group": "Commercial",
+   "key": "warranty",
+   "label": "Warranty",
+   "value": 8,
+   "unit": "months",
+   "note": "G1",
+   "source": "https://www.unitree.com/g1"
+  },
+  {
+   "group": "Commercial",
+   "key": "warranty",
+   "label": "Warranty",
+   "value": 18,
+   "unit": "months",
+   "note": "G1 EDU",
+   "source": "https://www.unitree.com/g1"
+  },
+  {
+   "group": "Commercial",
+   "key": "price",
+   "label": "Price",
+   "value": 13500,
+   "unit": "USD",
+   "note": "G1, tax and shipping excluded; G1 EDU contact sales",
+   "source": "https://www.unitree.com/g1"
+  },
+  {
+   "group": "Safety & Compliance",
+   "key": "intended_use",
+   "label": "Intended use / caution",
+   "value": "Civilian robot; keep sufficient safe distance; no dangerous modifications",
+   "unit": "",
+   "note": "",
+   "source": "https://www.unitree.com/g1"
+  }
+ ]
 }

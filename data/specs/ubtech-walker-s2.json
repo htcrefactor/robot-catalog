@@ -1,1275 +1,1275 @@
 {
-  "id": "ubtech-walker-s2",
-  "checked": "2026-11-04",
-  "documents": [
-    {
-      "title": "UBTECH Walker S2 SDK Secondary Development Document [External] V1.0 (2025-10-31)",
-      "url": "https://a.storyblok.com/f/298593/x/1329253096/ubtech-walker-s2-sdk-secondary-development-document-external.pdf"
-    },
-    {
-      "title": "UBTECH Walker S2 product page",
-      "url": "https://www.ubtrobot.com/en/humanoid/products/walker-s2"
-    }
-  ],
-  "specs": [
-    {
-      "group": "Identity",
-      "key": "software_version",
-      "label": "SDK document version",
-      "value": "V1.0 (2025-10-31)",
-      "unit": "",
-      "note": "",
-      "source": "https://a.storyblok.com/f/298593/x/1329253096/ubtech-walker-s2-sdk-secondary-development-document-external.pdf"
-    },
-    {
-      "group": "Dimensions & Mass",
-      "key": "height",
-      "label": "Height",
-      "value": 176,
-      "unit": "cm",
-      "note": "",
-      "source": "https://a.storyblok.com/f/298593/x/1329253096/ubtech-walker-s2-sdk-secondary-development-document-external.pdf",
-      "ref": "§1.1"
-    },
-    {
-      "group": "Dimensions & Mass",
-      "key": "arm_span",
-      "label": "Arm span",
-      "value": 177,
-      "unit": "cm",
-      "note": "excluding dexterous hand",
-      "source": "https://a.storyblok.com/f/298593/x/1329253096/ubtech-walker-s2-sdk-secondary-development-document-external.pdf",
-      "ref": "§1.1"
-    },
-    {
-      "group": "Dimensions & Mass",
-      "key": "weight",
-      "label": "Weight",
-      "value": 70,
-      "unit": "kg",
-      "note": "excluding dexterous hand",
-      "source": "https://a.storyblok.com/f/298593/x/1329253096/ubtech-walker-s2-sdk-secondary-development-document-external.pdf",
-      "ref": "§1.1"
-    },
-    {
-      "group": "Mobility & Performance",
-      "key": "degrees_of_freedom",
-      "label": "Total degrees of freedom",
-      "value": 42,
-      "unit": "",
-      "note": "42 integrated joint motors incl. 3rd-gen hands",
-      "source": "https://a.storyblok.com/f/298593/x/1329253096/ubtech-walker-s2-sdk-secondary-development-document-external.pdf",
-      "ref": "§1"
-    },
-    {
-      "group": "Actuation & Joints",
-      "key": "dof_head",
-      "label": "Head DoF",
-      "value": 2,
-      "unit": "",
-      "note": "",
-      "source": "https://a.storyblok.com/f/298593/x/1329253096/ubtech-walker-s2-sdk-secondary-development-document-external.pdf"
-    },
-    {
-      "group": "Actuation & Joints",
-      "key": "dof_per_arm",
-      "label": "DoF per arm",
-      "value": 7,
-      "unit": "",
-      "note": "shoulder, elbow, wrist",
-      "source": "https://a.storyblok.com/f/298593/x/1329253096/ubtech-walker-s2-sdk-secondary-development-document-external.pdf"
-    },
-    {
-      "group": "Actuation & Joints",
-      "key": "dof_waist",
-      "label": "Waist DoF",
-      "value": 2,
-      "unit": "",
-      "note": "pitch + yaw",
-      "source": "https://a.storyblok.com/f/298593/x/1329253096/ubtech-walker-s2-sdk-secondary-development-document-external.pdf"
-    },
-    {
-      "group": "Actuation & Joints",
-      "key": "dof_per_leg",
-      "label": "DoF per leg",
-      "value": 6,
-      "unit": "",
-      "note": "hip, knee, ankle",
-      "source": "https://a.storyblok.com/f/298593/x/1329253096/ubtech-walker-s2-sdk-secondary-development-document-external.pdf"
-    },
-    {
-      "group": "Manipulation",
-      "key": "hand_dof",
-      "label": "DoF per hand",
-      "value": 6,
-      "unit": "",
-      "note": "3rd-generation dexterous hand; fingertips passive",
-      "source": "https://a.storyblok.com/f/298593/x/1329253096/ubtech-walker-s2-sdk-secondary-development-document-external.pdf"
-    },
-    {
-      "group": "Mobility & Performance",
-      "key": "rated_payload",
-      "label": "Payload capacity",
-      "value": 15,
-      "unit": "kg",
-      "note": "max 15 kg for both arms",
-      "source": "https://a.storyblok.com/f/298593/x/1329253096/ubtech-walker-s2-sdk-secondary-development-document-external.pdf",
-      "ref": "§1.1"
-    },
-    {
-      "group": "Manipulation",
-      "key": "workspace_height",
-      "label": "Lifting workspace",
-      "value": "0-1.8",
-      "unit": "m",
-      "note": "handles 15 kg payload within 0-1.8 m workspace",
-      "source": "https://www.ubtrobot.com/en/humanoid/products/walker-s2"
-    },
-    {
-      "group": "Actuation & Joints",
-      "key": "joint_range",
-      "label": "Waist rotation",
-      "value": "±162",
-      "unit": "°",
-      "note": "product page; SDK table lists waist yaw ±160°",
-      "source": "https://www.ubtrobot.com/en/humanoid/products/walker-s2"
-    },
-    {
-      "group": "Actuation & Joints",
-      "key": "joint_range",
-      "label": "Waist pitch (product page)",
-      "value": 125,
-      "unit": "°",
-      "note": "pitch angle for deep squat / stoop lifting",
-      "source": "https://www.ubtrobot.com/en/humanoid/products/walker-s2"
-    },
-    {
-      "group": "Compute & Software",
-      "key": "cpu",
-      "label": "Computing configuration",
-      "value": "x86 + NVIDIA Jetson Orin",
-      "unit": "",
-      "note": "",
-      "source": "https://a.storyblok.com/f/298593/x/1329253096/ubtech-walker-s2-sdk-secondary-development-document-external.pdf",
-      "ref": "§1.1"
-    },
-    {
-      "group": "Compute & Software",
-      "key": "operating_system",
-      "label": "Operating system",
-      "value": "Ubuntu + ROSA 2.0",
-      "unit": "",
-      "note": "Orin: Ubuntu 20.04.6; x86: Ubuntu 22.04.4",
-      "source": "https://a.storyblok.com/f/298593/x/1329253096/ubtech-walker-s2-sdk-secondary-development-document-external.pdf",
-      "ref": "§1.1, §3.4.1"
-    },
-    {
-      "group": "Compute & Software",
-      "key": "ros_support",
-      "label": "ROS 2",
-      "value": true,
-      "unit": "",
-      "note": "ROS 2 SDK in Docker container",
-      "source": "https://a.storyblok.com/f/298593/x/1329253096/ubtech-walker-s2-sdk-secondary-development-document-external.pdf",
-      "ref": "§3.2"
-    },
-    {
-      "group": "Compute & Software",
-      "key": "ros_version",
-      "label": "ROS 2 distribution",
-      "value": "Humble",
-      "unit": "",
-      "note": "",
-      "source": "https://a.storyblok.com/f/298593/x/1329253096/ubtech-walker-s2-sdk-secondary-development-document-external.pdf",
-      "ref": "§3.4.1"
-    },
-    {
-      "group": "Compute & Software",
-      "key": "programming_languages",
-      "label": "SDK examples",
-      "value": "C++",
-      "unit": "",
-      "note": "",
-      "source": "https://a.storyblok.com/f/298593/x/1329253096/ubtech-walker-s2-sdk-secondary-development-document-external.pdf"
-    },
-    {
-      "group": "Compute & Software",
-      "key": "sdk",
-      "label": "SDK",
-      "value": "UBTECH Walker S2 ROS 2 SDK (motor, force sensor, IMU, camera, battery, audio, hand interfaces)",
-      "unit": "",
-      "note": "Mac/Windows dev not supported",
-      "source": "https://a.storyblok.com/f/298593/x/1329253096/ubtech-walker-s2-sdk-secondary-development-document-external.pdf",
-      "ref": "§3.2"
-    },
-    {
-      "group": "Compute & Software",
-      "key": "fleet_software",
-      "label": "Cloud platform",
-      "value": "UBTECH cloud: fault detection, OTA, MQTT task scheduling, multi-robot collaboration",
-      "unit": "",
-      "note": "",
-      "source": "https://a.storyblok.com/f/298593/x/1329253096/ubtech-walker-s2-sdk-secondary-development-document-external.pdf",
-      "ref": "§3.1.1"
-    },
-    {
-      "group": "Compute & Software",
-      "key": "ota_updates",
-      "label": "Intelligent OTA update",
-      "value": true,
-      "unit": "",
-      "note": "",
-      "source": "https://a.storyblok.com/f/298593/x/1329253096/ubtech-walker-s2-sdk-secondary-development-document-external.pdf"
-    },
-    {
-      "group": "Sensors & Perception",
-      "key": "depth_camera_model",
-      "label": "RGB-D cameras",
-      "value": "Orbbec Gemini 2L x2",
-      "unit": "",
-      "note": "body back and waist front",
-      "source": "https://a.storyblok.com/f/298593/x/1329253096/ubtech-walker-s2-sdk-secondary-development-document-external.pdf",
-      "ref": "§5.3"
-    },
-    {
-      "group": "Sensors & Perception",
-      "key": "camera_type",
-      "label": "Head stereo vision",
-      "value": "Pure RGB binocular stereo (passive), deep-learning depth",
-      "unit": "",
-      "note": "",
-      "source": "https://www.ubtrobot.com/en/humanoid/products/walker-s2"
-    },
-    {
-      "group": "Sensors & Perception",
-      "key": "camera_type",
-      "label": "Fisheye cameras",
-      "value": "Left/right fisheye cameras",
-      "unit": "",
-      "note": "",
-      "source": "https://a.storyblok.com/f/298593/x/1329253096/ubtech-walker-s2-sdk-secondary-development-document-external.pdf",
-      "ref": "§5.4"
-    },
-    {
-      "group": "Sensors & Perception",
-      "key": "force_torque_sensors",
-      "label": "6-axis force sensors",
-      "value": "Left and right arm 6-axis F/T",
-      "unit": "",
-      "note": "",
-      "source": "https://a.storyblok.com/f/298593/x/1329253096/ubtech-walker-s2-sdk-secondary-development-document-external.pdf"
-    },
-    {
-      "group": "Sensors & Perception",
-      "key": "imu",
-      "label": "IMU",
-      "value": "Motion IMU + Orin IMU",
-      "unit": "",
-      "note": "",
-      "source": "https://a.storyblok.com/f/298593/x/1329253096/ubtech-walker-s2-sdk-secondary-development-document-external.pdf"
-    },
-    {
-      "group": "Sensors & Perception",
-      "key": "microphones",
-      "label": "Microphone array",
-      "value": true,
-      "unit": "",
-      "note": "",
-      "source": "https://a.storyblok.com/f/298593/x/1329253096/ubtech-walker-s2-sdk-secondary-development-document-external.pdf"
-    },
-    {
-      "group": "Audio, Lights & HMI",
-      "key": "display",
-      "label": "Interactive screen",
-      "value": "4-inch round interactive screen",
-      "unit": "",
-      "note": "",
-      "source": "https://a.storyblok.com/f/298593/x/1329253096/ubtech-walker-s2-sdk-secondary-development-document-external.pdf",
-      "ref": "§1.1"
-    },
-    {
-      "group": "Audio, Lights & HMI",
-      "key": "status_lights",
-      "label": "Battery status indicator",
-      "value": true,
-      "unit": "",
-      "note": "leg LEDs indicate startup complete",
-      "source": "https://a.storyblok.com/f/298593/x/1329253096/ubtech-walker-s2-sdk-secondary-development-document-external.pdf"
-    },
-    {
-      "group": "Audio, Lights & HMI",
-      "key": "speaker",
-      "label": "Speaker",
-      "value": "Built-in, TTS playback",
-      "unit": "",
-      "note": "",
-      "source": "https://a.storyblok.com/f/298593/x/1329253096/ubtech-walker-s2-sdk-secondary-development-document-external.pdf"
-    },
-    {
-      "group": "Power & Battery",
-      "key": "battery_chemistry",
-      "label": "Power supply",
-      "value": "Li-ion battery",
-      "unit": "",
-      "note": "",
-      "source": "https://a.storyblok.com/f/298593/x/1329253096/ubtech-walker-s2-sdk-secondary-development-document-external.pdf"
-    },
-    {
-      "group": "Power & Battery",
-      "key": "battery_voltage",
-      "label": "Battery voltage",
-      "value": 48,
-      "unit": "V DC",
-      "note": "",
-      "source": "https://a.storyblok.com/f/298593/x/1329253096/ubtech-walker-s2-sdk-secondary-development-document-external.pdf"
-    },
-    {
-      "group": "Power & Battery",
-      "key": "runtime",
-      "label": "Comprehensive endurance",
-      "value": 2.5,
-      "unit": "h",
-      "note": "",
-      "source": "https://a.storyblok.com/f/298593/x/1329253096/ubtech-walker-s2-sdk-secondary-development-document-external.pdf"
-    },
-    {
-      "group": "Power & Battery",
-      "key": "battery_swappable",
-      "label": "Autonomous hot-swap battery",
-      "value": true,
-      "unit": "",
-      "note": "dual-battery, dual-arm self-swap",
-      "source": "https://www.ubtrobot.com/en/humanoid/products/walker-s2"
-    },
-    {
-      "group": "Power & Battery",
-      "key": "dual_battery",
-      "label": "Dual-battery mode",
-      "value": "Switchable dual-battery / single-battery working mode",
-      "unit": "",
-      "note": "",
-      "source": "https://www.ubtrobot.com/en/humanoid/products/walker-s2"
-    },
-    {
-      "group": "Charging & Docking",
-      "key": "charger_output",
-      "label": "Charging voltage / current",
-      "value": "DC 54 V / 8 A",
-      "unit": "",
-      "note": "",
-      "source": "https://a.storyblok.com/f/298593/x/1329253096/ubtech-walker-s2-sdk-secondary-development-document-external.pdf",
-      "ref": "§1.1"
-    },
-    {
-      "group": "Charging & Docking",
-      "key": "battery_swap_time",
-      "label": "Autonomous battery swap time",
-      "value": 3,
-      "unit": "min",
-      "note": "within 3 minutes",
-      "source": "https://www.ubtrobot.com/en/humanoid/products/walker-s2"
-    },
-    {
-      "group": "Charging & Docking",
-      "key": "dock_available",
-      "label": "Battery swap station",
-      "value": true,
-      "unit": "",
-      "note": "chooses swap or charge mode by task priority",
-      "source": "https://www.ubtrobot.com/en/humanoid/products/walker-s2"
-    },
-    {
-      "group": "Connectivity & Interfaces",
-      "key": "ethernet",
-      "label": "Ethernet",
-      "value": true,
-      "unit": "",
-      "note": "robot Ethernet port, 192.168.11.x",
-      "source": "https://a.storyblok.com/f/298593/x/1329253096/ubtech-walker-s2-sdk-secondary-development-document-external.pdf",
-      "ref": "§2.3"
-    },
-    {
-      "group": "Connectivity & Interfaces",
-      "key": "default_ip_address",
-      "label": "Onboard computer IPs",
-      "value": "192.168.11.2 / 192.168.11.3",
-      "unit": "",
-      "note": "",
-      "source": "https://a.storyblok.com/f/298593/x/1329253096/ubtech-walker-s2-sdk-secondary-development-document-external.pdf"
-    },
-    {
-      "group": "Safety & Compliance",
-      "key": "emergency_stop",
-      "label": "Emergency stop",
-      "value": "Button on robot back",
-      "unit": "",
-      "note": "",
-      "source": "https://a.storyblok.com/f/298593/x/1329253096/ubtech-walker-s2-sdk-secondary-development-document-external.pdf",
-      "ref": "§2.1"
-    },
-    {
-      "group": "Controls & Operation",
-      "key": "control_modes",
-      "label": "Control modes",
-      "value": "Remote controller modes incl. force-control mode and task flow",
-      "unit": "",
-      "note": "",
-      "source": "https://a.storyblok.com/f/298593/x/1329253096/ubtech-walker-s2-sdk-secondary-development-document-external.pdf"
-    },
-    {
-      "group": "Controls & Operation",
-      "key": "boot_time",
-      "label": "Boot time",
-      "value": 1,
-      "unit": "min",
-      "note": "approximately",
-      "source": "https://a.storyblok.com/f/298593/x/1329253096/ubtech-walker-s2-sdk-secondary-development-document-external.pdf",
-      "ref": "§2.2"
-    },
-    {
-      "group": "Actuation & Joints",
-      "key": "joint_range",
-      "label": "Head pitch – range",
-      "value": "-39 to 29",
-      "unit": "°",
-      "note": "",
-      "source": "https://a.storyblok.com/f/298593/x/1329253096/ubtech-walker-s2-sdk-secondary-development-document-external.pdf",
-      "ref": "§1.2"
-    },
-    {
-      "group": "Actuation & Joints",
-      "key": "joint_rated_speed",
-      "label": "Head pitch – rated speed",
-      "value": 30,
-      "unit": "rpm",
-      "note": "",
-      "source": "https://a.storyblok.com/f/298593/x/1329253096/ubtech-walker-s2-sdk-secondary-development-document-external.pdf",
-      "ref": "§1.2"
-    },
-    {
-      "group": "Actuation & Joints",
-      "key": "joint_speed",
-      "label": "Head pitch – max speed",
-      "value": 50,
-      "unit": "rpm",
-      "note": "",
-      "source": "https://a.storyblok.com/f/298593/x/1329253096/ubtech-walker-s2-sdk-secondary-development-document-external.pdf",
-      "ref": "§1.2"
-    },
-    {
-      "group": "Actuation & Joints",
-      "key": "joint_rated_torque",
-      "label": "Head pitch – rated torque",
-      "value": 3,
-      "unit": "N·m",
-      "note": "",
-      "source": "https://a.storyblok.com/f/298593/x/1329253096/ubtech-walker-s2-sdk-secondary-development-document-external.pdf",
-      "ref": "§1.2"
-    },
-    {
-      "group": "Actuation & Joints",
-      "key": "max_joint_torque",
-      "label": "Head pitch – peak torque",
-      "value": 4.5,
-      "unit": "N·m",
-      "note": "",
-      "source": "https://a.storyblok.com/f/298593/x/1329253096/ubtech-walker-s2-sdk-secondary-development-document-external.pdf",
-      "ref": "§1.2"
-    },
-    {
-      "group": "Actuation & Joints",
-      "key": "joint_range",
-      "label": "Head yaw – range",
-      "value": "-94 to 94",
-      "unit": "°",
-      "note": "",
-      "source": "https://a.storyblok.com/f/298593/x/1329253096/ubtech-walker-s2-sdk-secondary-development-document-external.pdf",
-      "ref": "§1.2"
-    },
-    {
-      "group": "Actuation & Joints",
-      "key": "joint_rated_speed",
-      "label": "Head yaw – rated speed",
-      "value": 30,
-      "unit": "rpm",
-      "note": "",
-      "source": "https://a.storyblok.com/f/298593/x/1329253096/ubtech-walker-s2-sdk-secondary-development-document-external.pdf",
-      "ref": "§1.2"
-    },
-    {
-      "group": "Actuation & Joints",
-      "key": "joint_speed",
-      "label": "Head yaw – max speed",
-      "value": 50,
-      "unit": "rpm",
-      "note": "",
-      "source": "https://a.storyblok.com/f/298593/x/1329253096/ubtech-walker-s2-sdk-secondary-development-document-external.pdf",
-      "ref": "§1.2"
-    },
-    {
-      "group": "Actuation & Joints",
-      "key": "joint_rated_torque",
-      "label": "Head yaw – rated torque",
-      "value": 3,
-      "unit": "N·m",
-      "note": "",
-      "source": "https://a.storyblok.com/f/298593/x/1329253096/ubtech-walker-s2-sdk-secondary-development-document-external.pdf",
-      "ref": "§1.2"
-    },
-    {
-      "group": "Actuation & Joints",
-      "key": "max_joint_torque",
-      "label": "Head yaw – peak torque",
-      "value": 4.5,
-      "unit": "N·m",
-      "note": "",
-      "source": "https://a.storyblok.com/f/298593/x/1329253096/ubtech-walker-s2-sdk-secondary-development-document-external.pdf",
-      "ref": "§1.2"
-    },
-    {
-      "group": "Actuation & Joints",
-      "key": "joint_range",
-      "label": "Shoulder pitch – range",
-      "value": "-162 to 162",
-      "unit": "°",
-      "note": "left side; right mirrored",
-      "source": "https://a.storyblok.com/f/298593/x/1329253096/ubtech-walker-s2-sdk-secondary-development-document-external.pdf",
-      "ref": "§1.2"
-    },
-    {
-      "group": "Actuation & Joints",
-      "key": "joint_rated_speed",
-      "label": "Shoulder pitch – rated speed",
-      "value": 20,
-      "unit": "rpm",
-      "note": "",
-      "source": "https://a.storyblok.com/f/298593/x/1329253096/ubtech-walker-s2-sdk-secondary-development-document-external.pdf",
-      "ref": "§1.2"
-    },
-    {
-      "group": "Actuation & Joints",
-      "key": "joint_speed",
-      "label": "Shoulder pitch – max speed",
-      "value": 30,
-      "unit": "rpm",
-      "note": "",
-      "source": "https://a.storyblok.com/f/298593/x/1329253096/ubtech-walker-s2-sdk-secondary-development-document-external.pdf",
-      "ref": "§1.2"
-    },
-    {
-      "group": "Actuation & Joints",
-      "key": "joint_rated_torque",
-      "label": "Shoulder pitch – rated torque",
-      "value": 27,
-      "unit": "N·m",
-      "note": "",
-      "source": "https://a.storyblok.com/f/298593/x/1329253096/ubtech-walker-s2-sdk-secondary-development-document-external.pdf",
-      "ref": "§1.2"
-    },
-    {
-      "group": "Actuation & Joints",
-      "key": "max_joint_torque",
-      "label": "Shoulder pitch – peak torque",
-      "value": 80,
-      "unit": "N·m",
-      "note": "",
-      "source": "https://a.storyblok.com/f/298593/x/1329253096/ubtech-walker-s2-sdk-secondary-development-document-external.pdf",
-      "ref": "§1.2"
-    },
-    {
-      "group": "Actuation & Joints",
-      "key": "joint_range",
-      "label": "Shoulder roll – range",
-      "value": "-106 to 5",
-      "unit": "°",
-      "note": "left side; right mirrored",
-      "source": "https://a.storyblok.com/f/298593/x/1329253096/ubtech-walker-s2-sdk-secondary-development-document-external.pdf",
-      "ref": "§1.2"
-    },
-    {
-      "group": "Actuation & Joints",
-      "key": "joint_rated_speed",
-      "label": "Shoulder roll – rated speed",
-      "value": 20,
-      "unit": "rpm",
-      "note": "",
-      "source": "https://a.storyblok.com/f/298593/x/1329253096/ubtech-walker-s2-sdk-secondary-development-document-external.pdf",
-      "ref": "§1.2"
-    },
-    {
-      "group": "Actuation & Joints",
-      "key": "joint_speed",
-      "label": "Shoulder roll – max speed",
-      "value": 30,
-      "unit": "rpm",
-      "note": "",
-      "source": "https://a.storyblok.com/f/298593/x/1329253096/ubtech-walker-s2-sdk-secondary-development-document-external.pdf",
-      "ref": "§1.2"
-    },
-    {
-      "group": "Actuation & Joints",
-      "key": "joint_rated_torque",
-      "label": "Shoulder roll – rated torque",
-      "value": 27,
-      "unit": "N·m",
-      "note": "",
-      "source": "https://a.storyblok.com/f/298593/x/1329253096/ubtech-walker-s2-sdk-secondary-development-document-external.pdf",
-      "ref": "§1.2"
-    },
-    {
-      "group": "Actuation & Joints",
-      "key": "max_joint_torque",
-      "label": "Shoulder roll – peak torque",
-      "value": 80,
-      "unit": "N·m",
-      "note": "",
-      "source": "https://a.storyblok.com/f/298593/x/1329253096/ubtech-walker-s2-sdk-secondary-development-document-external.pdf",
-      "ref": "§1.2"
-    },
-    {
-      "group": "Actuation & Joints",
-      "key": "joint_range",
-      "label": "Shoulder yaw – range",
-      "value": "-166 to 166",
-      "unit": "°",
-      "note": "left side; right mirrored",
-      "source": "https://a.storyblok.com/f/298593/x/1329253096/ubtech-walker-s2-sdk-secondary-development-document-external.pdf",
-      "ref": "§1.2"
-    },
-    {
-      "group": "Actuation & Joints",
-      "key": "joint_rated_speed",
-      "label": "Shoulder yaw – rated speed",
-      "value": 20,
-      "unit": "rpm",
-      "note": "",
-      "source": "https://a.storyblok.com/f/298593/x/1329253096/ubtech-walker-s2-sdk-secondary-development-document-external.pdf",
-      "ref": "§1.2"
-    },
-    {
-      "group": "Actuation & Joints",
-      "key": "joint_speed",
-      "label": "Shoulder yaw – max speed",
-      "value": 30,
-      "unit": "rpm",
-      "note": "",
-      "source": "https://a.storyblok.com/f/298593/x/1329253096/ubtech-walker-s2-sdk-secondary-development-document-external.pdf",
-      "ref": "§1.2"
-    },
-    {
-      "group": "Actuation & Joints",
-      "key": "joint_rated_torque",
-      "label": "Shoulder yaw – rated torque",
-      "value": 17,
-      "unit": "N·m",
-      "note": "",
-      "source": "https://a.storyblok.com/f/298593/x/1329253096/ubtech-walker-s2-sdk-secondary-development-document-external.pdf",
-      "ref": "§1.2"
-    },
-    {
-      "group": "Actuation & Joints",
-      "key": "max_joint_torque",
-      "label": "Shoulder yaw – peak torque",
-      "value": 45,
-      "unit": "N·m",
-      "note": "",
-      "source": "https://a.storyblok.com/f/298593/x/1329253096/ubtech-walker-s2-sdk-secondary-development-document-external.pdf",
-      "ref": "§1.2"
-    },
-    {
-      "group": "Actuation & Joints",
-      "key": "joint_range",
-      "label": "Elbow roll – range",
-      "value": "-150 to 0",
-      "unit": "°",
-      "note": "left side; right mirrored",
-      "source": "https://a.storyblok.com/f/298593/x/1329253096/ubtech-walker-s2-sdk-secondary-development-document-external.pdf",
-      "ref": "§1.2"
-    },
-    {
-      "group": "Actuation & Joints",
-      "key": "joint_rated_speed",
-      "label": "Elbow roll – rated speed",
-      "value": 20,
-      "unit": "rpm",
-      "note": "",
-      "source": "https://a.storyblok.com/f/298593/x/1329253096/ubtech-walker-s2-sdk-secondary-development-document-external.pdf",
-      "ref": "§1.2"
-    },
-    {
-      "group": "Actuation & Joints",
-      "key": "joint_speed",
-      "label": "Elbow roll – max speed",
-      "value": 30,
-      "unit": "rpm",
-      "note": "",
-      "source": "https://a.storyblok.com/f/298593/x/1329253096/ubtech-walker-s2-sdk-secondary-development-document-external.pdf",
-      "ref": "§1.2"
-    },
-    {
-      "group": "Actuation & Joints",
-      "key": "joint_rated_torque",
-      "label": "Elbow roll – rated torque",
-      "value": 17,
-      "unit": "N·m",
-      "note": "",
-      "source": "https://a.storyblok.com/f/298593/x/1329253096/ubtech-walker-s2-sdk-secondary-development-document-external.pdf",
-      "ref": "§1.2"
-    },
-    {
-      "group": "Actuation & Joints",
-      "key": "max_joint_torque",
-      "label": "Elbow roll – peak torque",
-      "value": 45,
-      "unit": "N·m",
-      "note": "",
-      "source": "https://a.storyblok.com/f/298593/x/1329253096/ubtech-walker-s2-sdk-secondary-development-document-external.pdf",
-      "ref": "§1.2"
-    },
-    {
-      "group": "Actuation & Joints",
-      "key": "joint_range",
-      "label": "Elbow yaw – range",
-      "value": "-167 to 167",
-      "unit": "°",
-      "note": "left side; right mirrored",
-      "source": "https://a.storyblok.com/f/298593/x/1329253096/ubtech-walker-s2-sdk-secondary-development-document-external.pdf",
-      "ref": "§1.2"
-    },
-    {
-      "group": "Actuation & Joints",
-      "key": "joint_rated_speed",
-      "label": "Elbow yaw – rated speed",
-      "value": 20,
-      "unit": "rpm",
-      "note": "",
-      "source": "https://a.storyblok.com/f/298593/x/1329253096/ubtech-walker-s2-sdk-secondary-development-document-external.pdf",
-      "ref": "§1.2"
-    },
-    {
-      "group": "Actuation & Joints",
-      "key": "joint_speed",
-      "label": "Elbow yaw – max speed",
-      "value": 30,
-      "unit": "rpm",
-      "note": "",
-      "source": "https://a.storyblok.com/f/298593/x/1329253096/ubtech-walker-s2-sdk-secondary-development-document-external.pdf",
-      "ref": "§1.2"
-    },
-    {
-      "group": "Actuation & Joints",
-      "key": "joint_rated_torque",
-      "label": "Elbow yaw – rated torque",
-      "value": 17,
-      "unit": "N·m",
-      "note": "",
-      "source": "https://a.storyblok.com/f/298593/x/1329253096/ubtech-walker-s2-sdk-secondary-development-document-external.pdf",
-      "ref": "§1.2"
-    },
-    {
-      "group": "Actuation & Joints",
-      "key": "max_joint_torque",
-      "label": "Elbow yaw – peak torque",
-      "value": 20,
-      "unit": "N·m",
-      "note": "",
-      "source": "https://a.storyblok.com/f/298593/x/1329253096/ubtech-walker-s2-sdk-secondary-development-document-external.pdf",
-      "ref": "§1.2"
-    },
-    {
-      "group": "Actuation & Joints",
-      "key": "joint_range",
-      "label": "Wrist pitch – range",
-      "value": "-91 to 91",
-      "unit": "°",
-      "note": "left side; right mirrored",
-      "source": "https://a.storyblok.com/f/298593/x/1329253096/ubtech-walker-s2-sdk-secondary-development-document-external.pdf",
-      "ref": "§1.2"
-    },
-    {
-      "group": "Actuation & Joints",
-      "key": "joint_rated_speed",
-      "label": "Wrist pitch – rated speed",
-      "value": 20,
-      "unit": "rpm",
-      "note": "",
-      "source": "https://a.storyblok.com/f/298593/x/1329253096/ubtech-walker-s2-sdk-secondary-development-document-external.pdf",
-      "ref": "§1.2"
-    },
-    {
-      "group": "Actuation & Joints",
-      "key": "joint_speed",
-      "label": "Wrist pitch – max speed",
-      "value": 30,
-      "unit": "rpm",
-      "note": "",
-      "source": "https://a.storyblok.com/f/298593/x/1329253096/ubtech-walker-s2-sdk-secondary-development-document-external.pdf",
-      "ref": "§1.2"
-    },
-    {
-      "group": "Actuation & Joints",
-      "key": "joint_rated_torque",
-      "label": "Wrist pitch – rated torque",
-      "value": 17,
-      "unit": "N·m",
-      "note": "",
-      "source": "https://a.storyblok.com/f/298593/x/1329253096/ubtech-walker-s2-sdk-secondary-development-document-external.pdf",
-      "ref": "§1.2"
-    },
-    {
-      "group": "Actuation & Joints",
-      "key": "max_joint_torque",
-      "label": "Wrist pitch – peak torque",
-      "value": 20,
-      "unit": "N·m",
-      "note": "",
-      "source": "https://a.storyblok.com/f/298593/x/1329253096/ubtech-walker-s2-sdk-secondary-development-document-external.pdf",
-      "ref": "§1.2"
-    },
-    {
-      "group": "Actuation & Joints",
-      "key": "joint_range",
-      "label": "Wrist roll – range",
-      "value": "-114 to 114",
-      "unit": "°",
-      "note": "left side; right mirrored",
-      "source": "https://a.storyblok.com/f/298593/x/1329253096/ubtech-walker-s2-sdk-secondary-development-document-external.pdf",
-      "ref": "§1.2"
-    },
-    {
-      "group": "Actuation & Joints",
-      "key": "joint_rated_speed",
-      "label": "Wrist roll – rated speed",
-      "value": 20,
-      "unit": "rpm",
-      "note": "",
-      "source": "https://a.storyblok.com/f/298593/x/1329253096/ubtech-walker-s2-sdk-secondary-development-document-external.pdf",
-      "ref": "§1.2"
-    },
-    {
-      "group": "Actuation & Joints",
-      "key": "joint_speed",
-      "label": "Wrist roll – max speed",
-      "value": 30,
-      "unit": "rpm",
-      "note": "",
-      "source": "https://a.storyblok.com/f/298593/x/1329253096/ubtech-walker-s2-sdk-secondary-development-document-external.pdf",
-      "ref": "§1.2"
-    },
-    {
-      "group": "Actuation & Joints",
-      "key": "joint_rated_torque",
-      "label": "Wrist roll – rated torque",
-      "value": 17,
-      "unit": "N·m",
-      "note": "",
-      "source": "https://a.storyblok.com/f/298593/x/1329253096/ubtech-walker-s2-sdk-secondary-development-document-external.pdf",
-      "ref": "§1.2"
-    },
-    {
-      "group": "Actuation & Joints",
-      "key": "max_joint_torque",
-      "label": "Wrist roll – peak torque",
-      "value": 20,
-      "unit": "N·m",
-      "note": "",
-      "source": "https://a.storyblok.com/f/298593/x/1329253096/ubtech-walker-s2-sdk-secondary-development-document-external.pdf",
-      "ref": "§1.2"
-    },
-    {
-      "group": "Actuation & Joints",
-      "key": "joint_range",
-      "label": "Waist pitch – range",
-      "value": "-89 to 35",
-      "unit": "°",
-      "note": "",
-      "source": "https://a.storyblok.com/f/298593/x/1329253096/ubtech-walker-s2-sdk-secondary-development-document-external.pdf",
-      "ref": "§1.2"
-    },
-    {
-      "group": "Actuation & Joints",
-      "key": "joint_rated_speed",
-      "label": "Waist pitch – rated speed",
-      "value": 15,
-      "unit": "rpm",
-      "note": "",
-      "source": "https://a.storyblok.com/f/298593/x/1329253096/ubtech-walker-s2-sdk-secondary-development-document-external.pdf",
-      "ref": "§1.2"
-    },
-    {
-      "group": "Actuation & Joints",
-      "key": "joint_speed",
-      "label": "Waist pitch – max speed",
-      "value": 20,
-      "unit": "rpm",
-      "note": "",
-      "source": "https://a.storyblok.com/f/298593/x/1329253096/ubtech-walker-s2-sdk-secondary-development-document-external.pdf",
-      "ref": "§1.2"
-    },
-    {
-      "group": "Actuation & Joints",
-      "key": "joint_rated_torque",
-      "label": "Waist pitch – rated torque",
-      "value": 79,
-      "unit": "N·m",
-      "note": "",
-      "source": "https://a.storyblok.com/f/298593/x/1329253096/ubtech-walker-s2-sdk-secondary-development-document-external.pdf",
-      "ref": "§1.2"
-    },
-    {
-      "group": "Actuation & Joints",
-      "key": "max_joint_torque",
-      "label": "Waist pitch – peak torque",
-      "value": 265,
-      "unit": "N·m",
-      "note": "",
-      "source": "https://a.storyblok.com/f/298593/x/1329253096/ubtech-walker-s2-sdk-secondary-development-document-external.pdf",
-      "ref": "§1.2"
-    },
-    {
-      "group": "Actuation & Joints",
-      "key": "joint_range",
-      "label": "Waist yaw – range",
-      "value": "-160 to 160",
-      "unit": "°",
-      "note": "",
-      "source": "https://a.storyblok.com/f/298593/x/1329253096/ubtech-walker-s2-sdk-secondary-development-document-external.pdf",
-      "ref": "§1.2"
-    },
-    {
-      "group": "Actuation & Joints",
-      "key": "joint_rated_speed",
-      "label": "Waist yaw – rated speed",
-      "value": 20,
-      "unit": "rpm",
-      "note": "",
-      "source": "https://a.storyblok.com/f/298593/x/1329253096/ubtech-walker-s2-sdk-secondary-development-document-external.pdf",
-      "ref": "§1.2"
-    },
-    {
-      "group": "Actuation & Joints",
-      "key": "joint_speed",
-      "label": "Waist yaw – max speed",
-      "value": 37,
-      "unit": "rpm",
-      "note": "",
-      "source": "https://a.storyblok.com/f/298593/x/1329253096/ubtech-walker-s2-sdk-secondary-development-document-external.pdf",
-      "ref": "§1.2"
-    },
-    {
-      "group": "Actuation & Joints",
-      "key": "joint_rated_torque",
-      "label": "Waist yaw – rated torque",
-      "value": 35,
-      "unit": "N·m",
-      "note": "",
-      "source": "https://a.storyblok.com/f/298593/x/1329253096/ubtech-walker-s2-sdk-secondary-development-document-external.pdf",
-      "ref": "§1.2"
-    },
-    {
-      "group": "Actuation & Joints",
-      "key": "max_joint_torque",
-      "label": "Waist yaw – peak torque",
-      "value": 85,
-      "unit": "N·m",
-      "note": "",
-      "source": "https://a.storyblok.com/f/298593/x/1329253096/ubtech-walker-s2-sdk-secondary-development-document-external.pdf",
-      "ref": "§1.2"
-    },
-    {
-      "group": "Actuation & Joints",
-      "key": "joint_range",
-      "label": "Hip roll – range",
-      "value": "-23 to 44",
-      "unit": "°",
-      "note": "left side; right mirrored",
-      "source": "https://a.storyblok.com/f/298593/x/1329253096/ubtech-walker-s2-sdk-secondary-development-document-external.pdf",
-      "ref": "§1.2"
-    },
-    {
-      "group": "Actuation & Joints",
-      "key": "joint_rated_speed",
-      "label": "Hip roll – rated speed",
-      "value": 50,
-      "unit": "rpm",
-      "note": "",
-      "source": "https://a.storyblok.com/f/298593/x/1329253096/ubtech-walker-s2-sdk-secondary-development-document-external.pdf",
-      "ref": "§1.2"
-    },
-    {
-      "group": "Actuation & Joints",
-      "key": "joint_speed",
-      "label": "Hip roll – max speed",
-      "value": 80,
-      "unit": "rpm",
-      "note": "",
-      "source": "https://a.storyblok.com/f/298593/x/1329253096/ubtech-walker-s2-sdk-secondary-development-document-external.pdf",
-      "ref": "§1.2"
-    },
-    {
-      "group": "Actuation & Joints",
-      "key": "joint_rated_torque",
-      "label": "Hip roll – rated torque",
-      "value": 75,
-      "unit": "N·m",
-      "note": "",
-      "source": "https://a.storyblok.com/f/298593/x/1329253096/ubtech-walker-s2-sdk-secondary-development-document-external.pdf",
-      "ref": "§1.2"
-    },
-    {
-      "group": "Actuation & Joints",
-      "key": "max_joint_torque",
-      "label": "Hip roll – peak torque",
-      "value": 225,
-      "unit": "N·m",
-      "note": "",
-      "source": "https://a.storyblok.com/f/298593/x/1329253096/ubtech-walker-s2-sdk-secondary-development-document-external.pdf",
-      "ref": "§1.2"
-    },
-    {
-      "group": "Actuation & Joints",
-      "key": "joint_range",
-      "label": "Hip yaw – range",
-      "value": "-60 to 45",
-      "unit": "°",
-      "note": "left side; right mirrored",
-      "source": "https://a.storyblok.com/f/298593/x/1329253096/ubtech-walker-s2-sdk-secondary-development-document-external.pdf",
-      "ref": "§1.2"
-    },
-    {
-      "group": "Actuation & Joints",
-      "key": "joint_rated_speed",
-      "label": "Hip yaw – rated speed",
-      "value": 50,
-      "unit": "rpm",
-      "note": "",
-      "source": "https://a.storyblok.com/f/298593/x/1329253096/ubtech-walker-s2-sdk-secondary-development-document-external.pdf",
-      "ref": "§1.2"
-    },
-    {
-      "group": "Actuation & Joints",
-      "key": "joint_speed",
-      "label": "Hip yaw – max speed",
-      "value": 80,
-      "unit": "rpm",
-      "note": "",
-      "source": "https://a.storyblok.com/f/298593/x/1329253096/ubtech-walker-s2-sdk-secondary-development-document-external.pdf",
-      "ref": "§1.2"
-    },
-    {
-      "group": "Actuation & Joints",
-      "key": "joint_rated_torque",
-      "label": "Hip yaw – rated torque",
-      "value": 22,
-      "unit": "N·m",
-      "note": "",
-      "source": "https://a.storyblok.com/f/298593/x/1329253096/ubtech-walker-s2-sdk-secondary-development-document-external.pdf",
-      "ref": "§1.2"
-    },
-    {
-      "group": "Actuation & Joints",
-      "key": "max_joint_torque",
-      "label": "Hip yaw – peak torque",
-      "value": 65,
-      "unit": "N·m",
-      "note": "",
-      "source": "https://a.storyblok.com/f/298593/x/1329253096/ubtech-walker-s2-sdk-secondary-development-document-external.pdf",
-      "ref": "§1.2"
-    },
-    {
-      "group": "Actuation & Joints",
-      "key": "joint_range",
-      "label": "Hip pitch – range",
-      "value": "-30 to 109",
-      "unit": "°",
-      "note": "left side; right mirrored",
-      "source": "https://a.storyblok.com/f/298593/x/1329253096/ubtech-walker-s2-sdk-secondary-development-document-external.pdf",
-      "ref": "§1.2"
-    },
-    {
-      "group": "Actuation & Joints",
-      "key": "joint_rated_speed",
-      "label": "Hip pitch – rated speed",
-      "value": 50,
-      "unit": "rpm",
-      "note": "",
-      "source": "https://a.storyblok.com/f/298593/x/1329253096/ubtech-walker-s2-sdk-secondary-development-document-external.pdf",
-      "ref": "§1.2"
-    },
-    {
-      "group": "Actuation & Joints",
-      "key": "joint_speed",
-      "label": "Hip pitch – max speed",
-      "value": 80,
-      "unit": "rpm",
-      "note": "",
-      "source": "https://a.storyblok.com/f/298593/x/1329253096/ubtech-walker-s2-sdk-secondary-development-document-external.pdf",
-      "ref": "§1.2"
-    },
-    {
-      "group": "Actuation & Joints",
-      "key": "joint_rated_torque",
-      "label": "Hip pitch – rated torque",
-      "value": 75,
-      "unit": "N·m",
-      "note": "",
-      "source": "https://a.storyblok.com/f/298593/x/1329253096/ubtech-walker-s2-sdk-secondary-development-document-external.pdf",
-      "ref": "§1.2"
-    },
-    {
-      "group": "Actuation & Joints",
-      "key": "max_joint_torque",
-      "label": "Hip pitch – peak torque",
-      "value": 225,
-      "unit": "N·m",
-      "note": "",
-      "source": "https://a.storyblok.com/f/298593/x/1329253096/ubtech-walker-s2-sdk-secondary-development-document-external.pdf",
-      "ref": "§1.2"
-    },
-    {
-      "group": "Actuation & Joints",
-      "key": "joint_range",
-      "label": "Knee – range",
-      "value": "-129 to 3",
-      "unit": "°",
-      "note": "left side; right mirrored",
-      "source": "https://a.storyblok.com/f/298593/x/1329253096/ubtech-walker-s2-sdk-secondary-development-document-external.pdf",
-      "ref": "§1.2"
-    },
-    {
-      "group": "Actuation & Joints",
-      "key": "joint_rated_speed",
-      "label": "Knee – rated speed",
-      "value": 50,
-      "unit": "rpm",
-      "note": "",
-      "source": "https://a.storyblok.com/f/298593/x/1329253096/ubtech-walker-s2-sdk-secondary-development-document-external.pdf",
-      "ref": "§1.2"
-    },
-    {
-      "group": "Actuation & Joints",
-      "key": "joint_speed",
-      "label": "Knee – max speed",
-      "value": 80,
-      "unit": "rpm",
-      "note": "",
-      "source": "https://a.storyblok.com/f/298593/x/1329253096/ubtech-walker-s2-sdk-secondary-development-document-external.pdf",
-      "ref": "§1.2"
-    },
-    {
-      "group": "Actuation & Joints",
-      "key": "joint_rated_torque",
-      "label": "Knee – rated torque",
-      "value": 75,
-      "unit": "N·m",
-      "note": "",
-      "source": "https://a.storyblok.com/f/298593/x/1329253096/ubtech-walker-s2-sdk-secondary-development-document-external.pdf",
-      "ref": "§1.2"
-    },
-    {
-      "group": "Actuation & Joints",
-      "key": "max_joint_torque",
-      "label": "Knee – peak torque",
-      "value": 225,
-      "unit": "N·m",
-      "note": "",
-      "source": "https://a.storyblok.com/f/298593/x/1329253096/ubtech-walker-s2-sdk-secondary-development-document-external.pdf",
-      "ref": "§1.2"
-    },
-    {
-      "group": "Actuation & Joints",
-      "key": "joint_range",
-      "label": "Ankle (inside/outside drive) – range",
-      "value": "-68 to 38 / -38 to 68",
-      "unit": "°",
-      "note": "left side; right mirrored",
-      "source": "https://a.storyblok.com/f/298593/x/1329253096/ubtech-walker-s2-sdk-secondary-development-document-external.pdf",
-      "ref": "§1.2"
-    },
-    {
-      "group": "Actuation & Joints",
-      "key": "joint_rated_speed",
-      "label": "Ankle (inside/outside drive) – rated speed",
-      "value": 50,
-      "unit": "rpm",
-      "note": "",
-      "source": "https://a.storyblok.com/f/298593/x/1329253096/ubtech-walker-s2-sdk-secondary-development-document-external.pdf",
-      "ref": "§1.2"
-    },
-    {
-      "group": "Actuation & Joints",
-      "key": "joint_speed",
-      "label": "Ankle (inside/outside drive) – max speed",
-      "value": 80,
-      "unit": "rpm",
-      "note": "",
-      "source": "https://a.storyblok.com/f/298593/x/1329253096/ubtech-walker-s2-sdk-secondary-development-document-external.pdf",
-      "ref": "§1.2"
-    },
-    {
-      "group": "Actuation & Joints",
-      "key": "joint_rated_torque",
-      "label": "Ankle (inside/outside drive) – rated torque",
-      "value": 22,
-      "unit": "N·m",
-      "note": "",
-      "source": "https://a.storyblok.com/f/298593/x/1329253096/ubtech-walker-s2-sdk-secondary-development-document-external.pdf",
-      "ref": "§1.2"
-    },
-    {
-      "group": "Actuation & Joints",
-      "key": "max_joint_torque",
-      "label": "Ankle (inside/outside drive) – peak torque",
-      "value": 65,
-      "unit": "N·m",
-      "note": "",
-      "source": "https://a.storyblok.com/f/298593/x/1329253096/ubtech-walker-s2-sdk-secondary-development-document-external.pdf",
-      "ref": "§1.2"
-    },
-    {
-      "group": "Manipulation",
-      "key": "hand_actuator_speed",
-      "label": "Hand linear drive speed",
-      "value": "25 (rated) / 39 (max)",
-      "unit": "mm/s",
-      "note": "3rd-gen hand linear drives",
-      "source": "https://a.storyblok.com/f/298593/x/1329253096/ubtech-walker-s2-sdk-secondary-development-document-external.pdf"
-    },
-    {
-      "group": "Manipulation",
-      "key": "gripper_force",
-      "label": "Hand drive thrust",
-      "value": "45.53 (rated) / 100 (peak)",
-      "unit": "N",
-      "note": "",
-      "source": "https://a.storyblok.com/f/298593/x/1329253096/ubtech-walker-s2-sdk-secondary-development-document-external.pdf"
-    },
-    {
-      "group": "Manipulation",
-      "key": "hand_joint_range",
-      "label": "Four-finger palmar rotation",
-      "value": 88.92,
-      "unit": "°",
-      "note": "fingertip passive rotation 93.06°",
-      "source": "https://a.storyblok.com/f/298593/x/1329253096/ubtech-walker-s2-sdk-secondary-development-document-external.pdf"
-    },
-    {
-      "group": "Manipulation",
-      "key": "hand_joint_range",
-      "label": "Thumb flexion",
-      "value": 58,
-      "unit": "°",
-      "note": "fingertip passive 60°",
-      "source": "https://a.storyblok.com/f/298593/x/1329253096/ubtech-walker-s2-sdk-secondary-development-document-external.pdf"
-    },
-    {
-      "group": "Manipulation",
-      "key": "hand_joint_range",
-      "label": "Thumb abduction",
-      "value": 65.34,
-      "unit": "°",
-      "note": "",
-      "source": "https://a.storyblok.com/f/298593/x/1329253096/ubtech-walker-s2-sdk-secondary-development-document-external.pdf"
-    }
-  ]
+ "id": "ubtech-walker-s2",
+ "checked": "2026-11-04",
+ "documents": [
+  {
+   "title": "UBTECH Walker S2 SDK Secondary Development Document [External] V1.0 (2025-10-31)",
+   "url": "https://a.storyblok.com/f/298593/x/1329253096/ubtech-walker-s2-sdk-secondary-development-document-external.pdf"
+  },
+  {
+   "title": "UBTECH Walker S2 product page",
+   "url": "https://www.ubtrobot.com/en/humanoid/products/walker-s2"
+  }
+ ],
+ "specs": [
+  {
+   "group": "Identity",
+   "key": "software_version",
+   "label": "SDK document version",
+   "value": "V1.0 (2025-10-31)",
+   "unit": "",
+   "note": "",
+   "source": "https://a.storyblok.com/f/298593/x/1329253096/ubtech-walker-s2-sdk-secondary-development-document-external.pdf"
+  },
+  {
+   "group": "Dimensions & Mass",
+   "key": "height",
+   "label": "Height",
+   "value": 176,
+   "unit": "cm",
+   "note": "",
+   "source": "https://a.storyblok.com/f/298593/x/1329253096/ubtech-walker-s2-sdk-secondary-development-document-external.pdf",
+   "ref": "§1.1"
+  },
+  {
+   "group": "Dimensions & Mass",
+   "key": "arm_span",
+   "label": "Arm span",
+   "value": 177,
+   "unit": "cm",
+   "note": "excluding dexterous hand",
+   "source": "https://a.storyblok.com/f/298593/x/1329253096/ubtech-walker-s2-sdk-secondary-development-document-external.pdf",
+   "ref": "§1.1"
+  },
+  {
+   "group": "Dimensions & Mass",
+   "key": "weight",
+   "label": "Weight",
+   "value": 70,
+   "unit": "kg",
+   "note": "excluding dexterous hand",
+   "source": "https://a.storyblok.com/f/298593/x/1329253096/ubtech-walker-s2-sdk-secondary-development-document-external.pdf",
+   "ref": "§1.1"
+  },
+  {
+   "group": "Mobility & Performance",
+   "key": "degrees_of_freedom",
+   "label": "Total degrees of freedom",
+   "value": 42,
+   "unit": "",
+   "note": "42 integrated joint motors incl. 3rd-gen hands",
+   "source": "https://a.storyblok.com/f/298593/x/1329253096/ubtech-walker-s2-sdk-secondary-development-document-external.pdf",
+   "ref": "§1"
+  },
+  {
+   "group": "Actuation & Joints",
+   "key": "dof_head",
+   "label": "Head DoF",
+   "value": 2,
+   "unit": "",
+   "note": "",
+   "source": "https://a.storyblok.com/f/298593/x/1329253096/ubtech-walker-s2-sdk-secondary-development-document-external.pdf"
+  },
+  {
+   "group": "Actuation & Joints",
+   "key": "dof_per_arm",
+   "label": "DoF per arm",
+   "value": 7,
+   "unit": "",
+   "note": "shoulder, elbow, wrist",
+   "source": "https://a.storyblok.com/f/298593/x/1329253096/ubtech-walker-s2-sdk-secondary-development-document-external.pdf"
+  },
+  {
+   "group": "Actuation & Joints",
+   "key": "dof_waist",
+   "label": "Waist DoF",
+   "value": 2,
+   "unit": "",
+   "note": "pitch + yaw",
+   "source": "https://a.storyblok.com/f/298593/x/1329253096/ubtech-walker-s2-sdk-secondary-development-document-external.pdf"
+  },
+  {
+   "group": "Actuation & Joints",
+   "key": "dof_per_leg",
+   "label": "DoF per leg",
+   "value": 6,
+   "unit": "",
+   "note": "hip, knee, ankle",
+   "source": "https://a.storyblok.com/f/298593/x/1329253096/ubtech-walker-s2-sdk-secondary-development-document-external.pdf"
+  },
+  {
+   "group": "Manipulation",
+   "key": "hand_dof",
+   "label": "DoF per hand",
+   "value": 6,
+   "unit": "",
+   "note": "3rd-generation dexterous hand; fingertips passive",
+   "source": "https://a.storyblok.com/f/298593/x/1329253096/ubtech-walker-s2-sdk-secondary-development-document-external.pdf"
+  },
+  {
+   "group": "Mobility & Performance",
+   "key": "rated_payload",
+   "label": "Payload capacity",
+   "value": 15,
+   "unit": "kg",
+   "note": "max 15 kg for both arms",
+   "source": "https://a.storyblok.com/f/298593/x/1329253096/ubtech-walker-s2-sdk-secondary-development-document-external.pdf",
+   "ref": "§1.1"
+  },
+  {
+   "group": "Manipulation",
+   "key": "workspace_height",
+   "label": "Lifting workspace",
+   "value": "0-1.8",
+   "unit": "m",
+   "note": "handles 15 kg payload within 0-1.8 m workspace",
+   "source": "https://www.ubtrobot.com/en/humanoid/products/walker-s2"
+  },
+  {
+   "group": "Actuation & Joints",
+   "key": "joint_range_of_motion",
+   "label": "Waist rotation",
+   "value": "±162",
+   "unit": "°",
+   "note": "product page; SDK table lists waist yaw ±160°",
+   "source": "https://www.ubtrobot.com/en/humanoid/products/walker-s2"
+  },
+  {
+   "group": "Actuation & Joints",
+   "key": "joint_range_of_motion",
+   "label": "Waist pitch (product page)",
+   "value": 125,
+   "unit": "°",
+   "note": "pitch angle for deep squat / stoop lifting",
+   "source": "https://www.ubtrobot.com/en/humanoid/products/walker-s2"
+  },
+  {
+   "group": "Compute & Software",
+   "key": "cpu",
+   "label": "Computing configuration",
+   "value": "x86 + NVIDIA Jetson Orin",
+   "unit": "",
+   "note": "",
+   "source": "https://a.storyblok.com/f/298593/x/1329253096/ubtech-walker-s2-sdk-secondary-development-document-external.pdf",
+   "ref": "§1.1"
+  },
+  {
+   "group": "Compute & Software",
+   "key": "operating_system",
+   "label": "Operating system",
+   "value": "Ubuntu + ROSA 2.0",
+   "unit": "",
+   "note": "Orin: Ubuntu 20.04.6; x86: Ubuntu 22.04.4",
+   "source": "https://a.storyblok.com/f/298593/x/1329253096/ubtech-walker-s2-sdk-secondary-development-document-external.pdf",
+   "ref": "§1.1, §3.4.1"
+  },
+  {
+   "group": "Compute & Software",
+   "key": "ros_support",
+   "label": "ROS 2",
+   "value": true,
+   "unit": "",
+   "note": "ROS 2 SDK in Docker container",
+   "source": "https://a.storyblok.com/f/298593/x/1329253096/ubtech-walker-s2-sdk-secondary-development-document-external.pdf",
+   "ref": "§3.2"
+  },
+  {
+   "group": "Compute & Software",
+   "key": "ros_version",
+   "label": "ROS 2 distribution",
+   "value": "Humble",
+   "unit": "",
+   "note": "",
+   "source": "https://a.storyblok.com/f/298593/x/1329253096/ubtech-walker-s2-sdk-secondary-development-document-external.pdf",
+   "ref": "§3.4.1"
+  },
+  {
+   "group": "Compute & Software",
+   "key": "programming_languages",
+   "label": "SDK examples",
+   "value": "C++",
+   "unit": "",
+   "note": "",
+   "source": "https://a.storyblok.com/f/298593/x/1329253096/ubtech-walker-s2-sdk-secondary-development-document-external.pdf"
+  },
+  {
+   "group": "Compute & Software",
+   "key": "sdk",
+   "label": "SDK",
+   "value": "UBTECH Walker S2 ROS 2 SDK (motor, force sensor, IMU, camera, battery, audio, hand interfaces)",
+   "unit": "",
+   "note": "Mac/Windows dev not supported",
+   "source": "https://a.storyblok.com/f/298593/x/1329253096/ubtech-walker-s2-sdk-secondary-development-document-external.pdf",
+   "ref": "§3.2"
+  },
+  {
+   "group": "Compute & Software",
+   "key": "fleet_software",
+   "label": "Cloud platform",
+   "value": "UBTECH cloud: fault detection, OTA, MQTT task scheduling, multi-robot collaboration",
+   "unit": "",
+   "note": "",
+   "source": "https://a.storyblok.com/f/298593/x/1329253096/ubtech-walker-s2-sdk-secondary-development-document-external.pdf",
+   "ref": "§3.1.1"
+  },
+  {
+   "group": "Compute & Software",
+   "key": "ota_updates",
+   "label": "Intelligent OTA update",
+   "value": true,
+   "unit": "",
+   "note": "",
+   "source": "https://a.storyblok.com/f/298593/x/1329253096/ubtech-walker-s2-sdk-secondary-development-document-external.pdf"
+  },
+  {
+   "group": "Sensors & Perception",
+   "key": "depth_camera_model",
+   "label": "RGB-D cameras",
+   "value": "Orbbec Gemini 2L x2",
+   "unit": "",
+   "note": "body back and waist front",
+   "source": "https://a.storyblok.com/f/298593/x/1329253096/ubtech-walker-s2-sdk-secondary-development-document-external.pdf",
+   "ref": "§5.3"
+  },
+  {
+   "group": "Sensors & Perception",
+   "key": "camera_type",
+   "label": "Head stereo vision",
+   "value": "Pure RGB binocular stereo (passive), deep-learning depth",
+   "unit": "",
+   "note": "",
+   "source": "https://www.ubtrobot.com/en/humanoid/products/walker-s2"
+  },
+  {
+   "group": "Sensors & Perception",
+   "key": "camera_type",
+   "label": "Fisheye cameras",
+   "value": "Left/right fisheye cameras",
+   "unit": "",
+   "note": "",
+   "source": "https://a.storyblok.com/f/298593/x/1329253096/ubtech-walker-s2-sdk-secondary-development-document-external.pdf",
+   "ref": "§5.4"
+  },
+  {
+   "group": "Sensors & Perception",
+   "key": "force_torque_sensors",
+   "label": "6-axis force sensors",
+   "value": "Left and right arm 6-axis F/T",
+   "unit": "",
+   "note": "",
+   "source": "https://a.storyblok.com/f/298593/x/1329253096/ubtech-walker-s2-sdk-secondary-development-document-external.pdf"
+  },
+  {
+   "group": "Sensors & Perception",
+   "key": "imu",
+   "label": "IMU",
+   "value": "Motion IMU + Orin IMU",
+   "unit": "",
+   "note": "",
+   "source": "https://a.storyblok.com/f/298593/x/1329253096/ubtech-walker-s2-sdk-secondary-development-document-external.pdf"
+  },
+  {
+   "group": "Sensors & Perception",
+   "key": "microphones",
+   "label": "Microphone array",
+   "value": true,
+   "unit": "",
+   "note": "",
+   "source": "https://a.storyblok.com/f/298593/x/1329253096/ubtech-walker-s2-sdk-secondary-development-document-external.pdf"
+  },
+  {
+   "group": "Audio, Lights & HMI",
+   "key": "display",
+   "label": "Interactive screen",
+   "value": "4-inch round interactive screen",
+   "unit": "",
+   "note": "",
+   "source": "https://a.storyblok.com/f/298593/x/1329253096/ubtech-walker-s2-sdk-secondary-development-document-external.pdf",
+   "ref": "§1.1"
+  },
+  {
+   "group": "Audio, Lights & HMI",
+   "key": "status_lights",
+   "label": "Battery status indicator",
+   "value": true,
+   "unit": "",
+   "note": "leg LEDs indicate startup complete",
+   "source": "https://a.storyblok.com/f/298593/x/1329253096/ubtech-walker-s2-sdk-secondary-development-document-external.pdf"
+  },
+  {
+   "group": "Audio, Lights & HMI",
+   "key": "speaker",
+   "label": "Speaker",
+   "value": "Built-in, TTS playback",
+   "unit": "",
+   "note": "",
+   "source": "https://a.storyblok.com/f/298593/x/1329253096/ubtech-walker-s2-sdk-secondary-development-document-external.pdf"
+  },
+  {
+   "group": "Power & Battery",
+   "key": "battery_chemistry",
+   "label": "Power supply",
+   "value": "Li-ion battery",
+   "unit": "",
+   "note": "",
+   "source": "https://a.storyblok.com/f/298593/x/1329253096/ubtech-walker-s2-sdk-secondary-development-document-external.pdf"
+  },
+  {
+   "group": "Power & Battery",
+   "key": "battery_voltage",
+   "label": "Battery voltage",
+   "value": 48,
+   "unit": "V DC",
+   "note": "",
+   "source": "https://a.storyblok.com/f/298593/x/1329253096/ubtech-walker-s2-sdk-secondary-development-document-external.pdf"
+  },
+  {
+   "group": "Power & Battery",
+   "key": "runtime",
+   "label": "Comprehensive endurance",
+   "value": 2.5,
+   "unit": "h",
+   "note": "",
+   "source": "https://a.storyblok.com/f/298593/x/1329253096/ubtech-walker-s2-sdk-secondary-development-document-external.pdf"
+  },
+  {
+   "group": "Power & Battery",
+   "key": "battery_swappable",
+   "label": "Autonomous hot-swap battery",
+   "value": true,
+   "unit": "",
+   "note": "dual-battery, dual-arm self-swap",
+   "source": "https://www.ubtrobot.com/en/humanoid/products/walker-s2"
+  },
+  {
+   "group": "Power & Battery",
+   "key": "dual_battery",
+   "label": "Dual-battery mode",
+   "value": "Switchable dual-battery / single-battery working mode",
+   "unit": "",
+   "note": "",
+   "source": "https://www.ubtrobot.com/en/humanoid/products/walker-s2"
+  },
+  {
+   "group": "Charging & Docking",
+   "key": "charger_output",
+   "label": "Charging voltage / current",
+   "value": "DC 54 V / 8 A",
+   "unit": "",
+   "note": "",
+   "source": "https://a.storyblok.com/f/298593/x/1329253096/ubtech-walker-s2-sdk-secondary-development-document-external.pdf",
+   "ref": "§1.1"
+  },
+  {
+   "group": "Charging & Docking",
+   "key": "battery_swap_time",
+   "label": "Autonomous battery swap time",
+   "value": 3,
+   "unit": "min",
+   "note": "within 3 minutes",
+   "source": "https://www.ubtrobot.com/en/humanoid/products/walker-s2"
+  },
+  {
+   "group": "Charging & Docking",
+   "key": "dock_available",
+   "label": "Battery swap station",
+   "value": true,
+   "unit": "",
+   "note": "chooses swap or charge mode by task priority",
+   "source": "https://www.ubtrobot.com/en/humanoid/products/walker-s2"
+  },
+  {
+   "group": "Connectivity & Interfaces",
+   "key": "ethernet",
+   "label": "Ethernet",
+   "value": true,
+   "unit": "",
+   "note": "robot Ethernet port, 192.168.11.x",
+   "source": "https://a.storyblok.com/f/298593/x/1329253096/ubtech-walker-s2-sdk-secondary-development-document-external.pdf",
+   "ref": "§2.3"
+  },
+  {
+   "group": "Connectivity & Interfaces",
+   "key": "default_ip",
+   "label": "Onboard computer IPs",
+   "value": "192.168.11.2 / 192.168.11.3",
+   "unit": "",
+   "note": "",
+   "source": "https://a.storyblok.com/f/298593/x/1329253096/ubtech-walker-s2-sdk-secondary-development-document-external.pdf"
+  },
+  {
+   "group": "Safety & Compliance",
+   "key": "emergency_stop",
+   "label": "Emergency stop",
+   "value": "Button on robot back",
+   "unit": "",
+   "note": "",
+   "source": "https://a.storyblok.com/f/298593/x/1329253096/ubtech-walker-s2-sdk-secondary-development-document-external.pdf",
+   "ref": "§2.1"
+  },
+  {
+   "group": "Controls & Operation",
+   "key": "control_modes",
+   "label": "Control modes",
+   "value": "Remote controller modes incl. force-control mode and task flow",
+   "unit": "",
+   "note": "",
+   "source": "https://a.storyblok.com/f/298593/x/1329253096/ubtech-walker-s2-sdk-secondary-development-document-external.pdf"
+  },
+  {
+   "group": "Controls & Operation",
+   "key": "boot_time",
+   "label": "Boot time",
+   "value": 1,
+   "unit": "min",
+   "note": "approximately",
+   "source": "https://a.storyblok.com/f/298593/x/1329253096/ubtech-walker-s2-sdk-secondary-development-document-external.pdf",
+   "ref": "§2.2"
+  },
+  {
+   "group": "Actuation & Joints",
+   "key": "joint_range_of_motion",
+   "label": "Head pitch – range",
+   "value": "-39 to 29",
+   "unit": "°",
+   "note": "",
+   "source": "https://a.storyblok.com/f/298593/x/1329253096/ubtech-walker-s2-sdk-secondary-development-document-external.pdf",
+   "ref": "§1.2"
+  },
+  {
+   "group": "Actuation & Joints",
+   "key": "joint_rated_speed",
+   "label": "Head pitch – rated speed",
+   "value": 30,
+   "unit": "rpm",
+   "note": "",
+   "source": "https://a.storyblok.com/f/298593/x/1329253096/ubtech-walker-s2-sdk-secondary-development-document-external.pdf",
+   "ref": "§1.2"
+  },
+  {
+   "group": "Actuation & Joints",
+   "key": "joint_speed",
+   "label": "Head pitch – max speed",
+   "value": 50,
+   "unit": "rpm",
+   "note": "",
+   "source": "https://a.storyblok.com/f/298593/x/1329253096/ubtech-walker-s2-sdk-secondary-development-document-external.pdf",
+   "ref": "§1.2"
+  },
+  {
+   "group": "Actuation & Joints",
+   "key": "joint_rated_torque",
+   "label": "Head pitch – rated torque",
+   "value": 3,
+   "unit": "N·m",
+   "note": "",
+   "source": "https://a.storyblok.com/f/298593/x/1329253096/ubtech-walker-s2-sdk-secondary-development-document-external.pdf",
+   "ref": "§1.2"
+  },
+  {
+   "group": "Actuation & Joints",
+   "key": "max_joint_torque",
+   "label": "Head pitch – peak torque",
+   "value": 4.5,
+   "unit": "N·m",
+   "note": "",
+   "source": "https://a.storyblok.com/f/298593/x/1329253096/ubtech-walker-s2-sdk-secondary-development-document-external.pdf",
+   "ref": "§1.2"
+  },
+  {
+   "group": "Actuation & Joints",
+   "key": "joint_range_of_motion",
+   "label": "Head yaw – range",
+   "value": "-94 to 94",
+   "unit": "°",
+   "note": "",
+   "source": "https://a.storyblok.com/f/298593/x/1329253096/ubtech-walker-s2-sdk-secondary-development-document-external.pdf",
+   "ref": "§1.2"
+  },
+  {
+   "group": "Actuation & Joints",
+   "key": "joint_rated_speed",
+   "label": "Head yaw – rated speed",
+   "value": 30,
+   "unit": "rpm",
+   "note": "",
+   "source": "https://a.storyblok.com/f/298593/x/1329253096/ubtech-walker-s2-sdk-secondary-development-document-external.pdf",
+   "ref": "§1.2"
+  },
+  {
+   "group": "Actuation & Joints",
+   "key": "joint_speed",
+   "label": "Head yaw – max speed",
+   "value": 50,
+   "unit": "rpm",
+   "note": "",
+   "source": "https://a.storyblok.com/f/298593/x/1329253096/ubtech-walker-s2-sdk-secondary-development-document-external.pdf",
+   "ref": "§1.2"
+  },
+  {
+   "group": "Actuation & Joints",
+   "key": "joint_rated_torque",
+   "label": "Head yaw – rated torque",
+   "value": 3,
+   "unit": "N·m",
+   "note": "",
+   "source": "https://a.storyblok.com/f/298593/x/1329253096/ubtech-walker-s2-sdk-secondary-development-document-external.pdf",
+   "ref": "§1.2"
+  },
+  {
+   "group": "Actuation & Joints",
+   "key": "max_joint_torque",
+   "label": "Head yaw – peak torque",
+   "value": 4.5,
+   "unit": "N·m",
+   "note": "",
+   "source": "https://a.storyblok.com/f/298593/x/1329253096/ubtech-walker-s2-sdk-secondary-development-document-external.pdf",
+   "ref": "§1.2"
+  },
+  {
+   "group": "Actuation & Joints",
+   "key": "joint_range_of_motion",
+   "label": "Shoulder pitch – range",
+   "value": "-162 to 162",
+   "unit": "°",
+   "note": "left side; right mirrored",
+   "source": "https://a.storyblok.com/f/298593/x/1329253096/ubtech-walker-s2-sdk-secondary-development-document-external.pdf",
+   "ref": "§1.2"
+  },
+  {
+   "group": "Actuation & Joints",
+   "key": "joint_rated_speed",
+   "label": "Shoulder pitch – rated speed",
+   "value": 20,
+   "unit": "rpm",
+   "note": "",
+   "source": "https://a.storyblok.com/f/298593/x/1329253096/ubtech-walker-s2-sdk-secondary-development-document-external.pdf",
+   "ref": "§1.2"
+  },
+  {
+   "group": "Actuation & Joints",
+   "key": "joint_speed",
+   "label": "Shoulder pitch – max speed",
+   "value": 30,
+   "unit": "rpm",
+   "note": "",
+   "source": "https://a.storyblok.com/f/298593/x/1329253096/ubtech-walker-s2-sdk-secondary-development-document-external.pdf",
+   "ref": "§1.2"
+  },
+  {
+   "group": "Actuation & Joints",
+   "key": "joint_rated_torque",
+   "label": "Shoulder pitch – rated torque",
+   "value": 27,
+   "unit": "N·m",
+   "note": "",
+   "source": "https://a.storyblok.com/f/298593/x/1329253096/ubtech-walker-s2-sdk-secondary-development-document-external.pdf",
+   "ref": "§1.2"
+  },
+  {
+   "group": "Actuation & Joints",
+   "key": "max_joint_torque",
+   "label": "Shoulder pitch – peak torque",
+   "value": 80,
+   "unit": "N·m",
+   "note": "",
+   "source": "https://a.storyblok.com/f/298593/x/1329253096/ubtech-walker-s2-sdk-secondary-development-document-external.pdf",
+   "ref": "§1.2"
+  },
+  {
+   "group": "Actuation & Joints",
+   "key": "joint_range_of_motion",
+   "label": "Shoulder roll – range",
+   "value": "-106 to 5",
+   "unit": "°",
+   "note": "left side; right mirrored",
+   "source": "https://a.storyblok.com/f/298593/x/1329253096/ubtech-walker-s2-sdk-secondary-development-document-external.pdf",
+   "ref": "§1.2"
+  },
+  {
+   "group": "Actuation & Joints",
+   "key": "joint_rated_speed",
+   "label": "Shoulder roll – rated speed",
+   "value": 20,
+   "unit": "rpm",
+   "note": "",
+   "source": "https://a.storyblok.com/f/298593/x/1329253096/ubtech-walker-s2-sdk-secondary-development-document-external.pdf",
+   "ref": "§1.2"
+  },
+  {
+   "group": "Actuation & Joints",
+   "key": "joint_speed",
+   "label": "Shoulder roll – max speed",
+   "value": 30,
+   "unit": "rpm",
+   "note": "",
+   "source": "https://a.storyblok.com/f/298593/x/1329253096/ubtech-walker-s2-sdk-secondary-development-document-external.pdf",
+   "ref": "§1.2"
+  },
+  {
+   "group": "Actuation & Joints",
+   "key": "joint_rated_torque",
+   "label": "Shoulder roll – rated torque",
+   "value": 27,
+   "unit": "N·m",
+   "note": "",
+   "source": "https://a.storyblok.com/f/298593/x/1329253096/ubtech-walker-s2-sdk-secondary-development-document-external.pdf",
+   "ref": "§1.2"
+  },
+  {
+   "group": "Actuation & Joints",
+   "key": "max_joint_torque",
+   "label": "Shoulder roll – peak torque",
+   "value": 80,
+   "unit": "N·m",
+   "note": "",
+   "source": "https://a.storyblok.com/f/298593/x/1329253096/ubtech-walker-s2-sdk-secondary-development-document-external.pdf",
+   "ref": "§1.2"
+  },
+  {
+   "group": "Actuation & Joints",
+   "key": "joint_range_of_motion",
+   "label": "Shoulder yaw – range",
+   "value": "-166 to 166",
+   "unit": "°",
+   "note": "left side; right mirrored",
+   "source": "https://a.storyblok.com/f/298593/x/1329253096/ubtech-walker-s2-sdk-secondary-development-document-external.pdf",
+   "ref": "§1.2"
+  },
+  {
+   "group": "Actuation & Joints",
+   "key": "joint_rated_speed",
+   "label": "Shoulder yaw – rated speed",
+   "value": 20,
+   "unit": "rpm",
+   "note": "",
+   "source": "https://a.storyblok.com/f/298593/x/1329253096/ubtech-walker-s2-sdk-secondary-development-document-external.pdf",
+   "ref": "§1.2"
+  },
+  {
+   "group": "Actuation & Joints",
+   "key": "joint_speed",
+   "label": "Shoulder yaw – max speed",
+   "value": 30,
+   "unit": "rpm",
+   "note": "",
+   "source": "https://a.storyblok.com/f/298593/x/1329253096/ubtech-walker-s2-sdk-secondary-development-document-external.pdf",
+   "ref": "§1.2"
+  },
+  {
+   "group": "Actuation & Joints",
+   "key": "joint_rated_torque",
+   "label": "Shoulder yaw – rated torque",
+   "value": 17,
+   "unit": "N·m",
+   "note": "",
+   "source": "https://a.storyblok.com/f/298593/x/1329253096/ubtech-walker-s2-sdk-secondary-development-document-external.pdf",
+   "ref": "§1.2"
+  },
+  {
+   "group": "Actuation & Joints",
+   "key": "max_joint_torque",
+   "label": "Shoulder yaw – peak torque",
+   "value": 45,
+   "unit": "N·m",
+   "note": "",
+   "source": "https://a.storyblok.com/f/298593/x/1329253096/ubtech-walker-s2-sdk-secondary-development-document-external.pdf",
+   "ref": "§1.2"
+  },
+  {
+   "group": "Actuation & Joints",
+   "key": "joint_range_of_motion",
+   "label": "Elbow roll – range",
+   "value": "-150 to 0",
+   "unit": "°",
+   "note": "left side; right mirrored",
+   "source": "https://a.storyblok.com/f/298593/x/1329253096/ubtech-walker-s2-sdk-secondary-development-document-external.pdf",
+   "ref": "§1.2"
+  },
+  {
+   "group": "Actuation & Joints",
+   "key": "joint_rated_speed",
+   "label": "Elbow roll – rated speed",
+   "value": 20,
+   "unit": "rpm",
+   "note": "",
+   "source": "https://a.storyblok.com/f/298593/x/1329253096/ubtech-walker-s2-sdk-secondary-development-document-external.pdf",
+   "ref": "§1.2"
+  },
+  {
+   "group": "Actuation & Joints",
+   "key": "joint_speed",
+   "label": "Elbow roll – max speed",
+   "value": 30,
+   "unit": "rpm",
+   "note": "",
+   "source": "https://a.storyblok.com/f/298593/x/1329253096/ubtech-walker-s2-sdk-secondary-development-document-external.pdf",
+   "ref": "§1.2"
+  },
+  {
+   "group": "Actuation & Joints",
+   "key": "joint_rated_torque",
+   "label": "Elbow roll – rated torque",
+   "value": 17,
+   "unit": "N·m",
+   "note": "",
+   "source": "https://a.storyblok.com/f/298593/x/1329253096/ubtech-walker-s2-sdk-secondary-development-document-external.pdf",
+   "ref": "§1.2"
+  },
+  {
+   "group": "Actuation & Joints",
+   "key": "max_joint_torque",
+   "label": "Elbow roll – peak torque",
+   "value": 45,
+   "unit": "N·m",
+   "note": "",
+   "source": "https://a.storyblok.com/f/298593/x/1329253096/ubtech-walker-s2-sdk-secondary-development-document-external.pdf",
+   "ref": "§1.2"
+  },
+  {
+   "group": "Actuation & Joints",
+   "key": "joint_range_of_motion",
+   "label": "Elbow yaw – range",
+   "value": "-167 to 167",
+   "unit": "°",
+   "note": "left side; right mirrored",
+   "source": "https://a.storyblok.com/f/298593/x/1329253096/ubtech-walker-s2-sdk-secondary-development-document-external.pdf",
+   "ref": "§1.2"
+  },
+  {
+   "group": "Actuation & Joints",
+   "key": "joint_rated_speed",
+   "label": "Elbow yaw – rated speed",
+   "value": 20,
+   "unit": "rpm",
+   "note": "",
+   "source": "https://a.storyblok.com/f/298593/x/1329253096/ubtech-walker-s2-sdk-secondary-development-document-external.pdf",
+   "ref": "§1.2"
+  },
+  {
+   "group": "Actuation & Joints",
+   "key": "joint_speed",
+   "label": "Elbow yaw – max speed",
+   "value": 30,
+   "unit": "rpm",
+   "note": "",
+   "source": "https://a.storyblok.com/f/298593/x/1329253096/ubtech-walker-s2-sdk-secondary-development-document-external.pdf",
+   "ref": "§1.2"
+  },
+  {
+   "group": "Actuation & Joints",
+   "key": "joint_rated_torque",
+   "label": "Elbow yaw – rated torque",
+   "value": 17,
+   "unit": "N·m",
+   "note": "",
+   "source": "https://a.storyblok.com/f/298593/x/1329253096/ubtech-walker-s2-sdk-secondary-development-document-external.pdf",
+   "ref": "§1.2"
+  },
+  {
+   "group": "Actuation & Joints",
+   "key": "max_joint_torque",
+   "label": "Elbow yaw – peak torque",
+   "value": 20,
+   "unit": "N·m",
+   "note": "",
+   "source": "https://a.storyblok.com/f/298593/x/1329253096/ubtech-walker-s2-sdk-secondary-development-document-external.pdf",
+   "ref": "§1.2"
+  },
+  {
+   "group": "Actuation & Joints",
+   "key": "joint_range_of_motion",
+   "label": "Wrist pitch – range",
+   "value": "-91 to 91",
+   "unit": "°",
+   "note": "left side; right mirrored",
+   "source": "https://a.storyblok.com/f/298593/x/1329253096/ubtech-walker-s2-sdk-secondary-development-document-external.pdf",
+   "ref": "§1.2"
+  },
+  {
+   "group": "Actuation & Joints",
+   "key": "joint_rated_speed",
+   "label": "Wrist pitch – rated speed",
+   "value": 20,
+   "unit": "rpm",
+   "note": "",
+   "source": "https://a.storyblok.com/f/298593/x/1329253096/ubtech-walker-s2-sdk-secondary-development-document-external.pdf",
+   "ref": "§1.2"
+  },
+  {
+   "group": "Actuation & Joints",
+   "key": "joint_speed",
+   "label": "Wrist pitch – max speed",
+   "value": 30,
+   "unit": "rpm",
+   "note": "",
+   "source": "https://a.storyblok.com/f/298593/x/1329253096/ubtech-walker-s2-sdk-secondary-development-document-external.pdf",
+   "ref": "§1.2"
+  },
+  {
+   "group": "Actuation & Joints",
+   "key": "joint_rated_torque",
+   "label": "Wrist pitch – rated torque",
+   "value": 17,
+   "unit": "N·m",
+   "note": "",
+   "source": "https://a.storyblok.com/f/298593/x/1329253096/ubtech-walker-s2-sdk-secondary-development-document-external.pdf",
+   "ref": "§1.2"
+  },
+  {
+   "group": "Actuation & Joints",
+   "key": "max_joint_torque",
+   "label": "Wrist pitch – peak torque",
+   "value": 20,
+   "unit": "N·m",
+   "note": "",
+   "source": "https://a.storyblok.com/f/298593/x/1329253096/ubtech-walker-s2-sdk-secondary-development-document-external.pdf",
+   "ref": "§1.2"
+  },
+  {
+   "group": "Actuation & Joints",
+   "key": "joint_range_of_motion",
+   "label": "Wrist roll – range",
+   "value": "-114 to 114",
+   "unit": "°",
+   "note": "left side; right mirrored",
+   "source": "https://a.storyblok.com/f/298593/x/1329253096/ubtech-walker-s2-sdk-secondary-development-document-external.pdf",
+   "ref": "§1.2"
+  },
+  {
+   "group": "Actuation & Joints",
+   "key": "joint_rated_speed",
+   "label": "Wrist roll – rated speed",
+   "value": 20,
+   "unit": "rpm",
+   "note": "",
+   "source": "https://a.storyblok.com/f/298593/x/1329253096/ubtech-walker-s2-sdk-secondary-development-document-external.pdf",
+   "ref": "§1.2"
+  },
+  {
+   "group": "Actuation & Joints",
+   "key": "joint_speed",
+   "label": "Wrist roll – max speed",
+   "value": 30,
+   "unit": "rpm",
+   "note": "",
+   "source": "https://a.storyblok.com/f/298593/x/1329253096/ubtech-walker-s2-sdk-secondary-development-document-external.pdf",
+   "ref": "§1.2"
+  },
+  {
+   "group": "Actuation & Joints",
+   "key": "joint_rated_torque",
+   "label": "Wrist roll – rated torque",
+   "value": 17,
+   "unit": "N·m",
+   "note": "",
+   "source": "https://a.storyblok.com/f/298593/x/1329253096/ubtech-walker-s2-sdk-secondary-development-document-external.pdf",
+   "ref": "§1.2"
+  },
+  {
+   "group": "Actuation & Joints",
+   "key": "max_joint_torque",
+   "label": "Wrist roll – peak torque",
+   "value": 20,
+   "unit": "N·m",
+   "note": "",
+   "source": "https://a.storyblok.com/f/298593/x/1329253096/ubtech-walker-s2-sdk-secondary-development-document-external.pdf",
+   "ref": "§1.2"
+  },
+  {
+   "group": "Actuation & Joints",
+   "key": "joint_range_of_motion",
+   "label": "Waist pitch – range",
+   "value": "-89 to 35",
+   "unit": "°",
+   "note": "",
+   "source": "https://a.storyblok.com/f/298593/x/1329253096/ubtech-walker-s2-sdk-secondary-development-document-external.pdf",
+   "ref": "§1.2"
+  },
+  {
+   "group": "Actuation & Joints",
+   "key": "joint_rated_speed",
+   "label": "Waist pitch – rated speed",
+   "value": 15,
+   "unit": "rpm",
+   "note": "",
+   "source": "https://a.storyblok.com/f/298593/x/1329253096/ubtech-walker-s2-sdk-secondary-development-document-external.pdf",
+   "ref": "§1.2"
+  },
+  {
+   "group": "Actuation & Joints",
+   "key": "joint_speed",
+   "label": "Waist pitch – max speed",
+   "value": 20,
+   "unit": "rpm",
+   "note": "",
+   "source": "https://a.storyblok.com/f/298593/x/1329253096/ubtech-walker-s2-sdk-secondary-development-document-external.pdf",
+   "ref": "§1.2"
+  },
+  {
+   "group": "Actuation & Joints",
+   "key": "joint_rated_torque",
+   "label": "Waist pitch – rated torque",
+   "value": 79,
+   "unit": "N·m",
+   "note": "",
+   "source": "https://a.storyblok.com/f/298593/x/1329253096/ubtech-walker-s2-sdk-secondary-development-document-external.pdf",
+   "ref": "§1.2"
+  },
+  {
+   "group": "Actuation & Joints",
+   "key": "max_joint_torque",
+   "label": "Waist pitch – peak torque",
+   "value": 265,
+   "unit": "N·m",
+   "note": "",
+   "source": "https://a.storyblok.com/f/298593/x/1329253096/ubtech-walker-s2-sdk-secondary-development-document-external.pdf",
+   "ref": "§1.2"
+  },
+  {
+   "group": "Actuation & Joints",
+   "key": "joint_range_of_motion",
+   "label": "Waist yaw – range",
+   "value": "-160 to 160",
+   "unit": "°",
+   "note": "",
+   "source": "https://a.storyblok.com/f/298593/x/1329253096/ubtech-walker-s2-sdk-secondary-development-document-external.pdf",
+   "ref": "§1.2"
+  },
+  {
+   "group": "Actuation & Joints",
+   "key": "joint_rated_speed",
+   "label": "Waist yaw – rated speed",
+   "value": 20,
+   "unit": "rpm",
+   "note": "",
+   "source": "https://a.storyblok.com/f/298593/x/1329253096/ubtech-walker-s2-sdk-secondary-development-document-external.pdf",
+   "ref": "§1.2"
+  },
+  {
+   "group": "Actuation & Joints",
+   "key": "joint_speed",
+   "label": "Waist yaw – max speed",
+   "value": 37,
+   "unit": "rpm",
+   "note": "",
+   "source": "https://a.storyblok.com/f/298593/x/1329253096/ubtech-walker-s2-sdk-secondary-development-document-external.pdf",
+   "ref": "§1.2"
+  },
+  {
+   "group": "Actuation & Joints",
+   "key": "joint_rated_torque",
+   "label": "Waist yaw – rated torque",
+   "value": 35,
+   "unit": "N·m",
+   "note": "",
+   "source": "https://a.storyblok.com/f/298593/x/1329253096/ubtech-walker-s2-sdk-secondary-development-document-external.pdf",
+   "ref": "§1.2"
+  },
+  {
+   "group": "Actuation & Joints",
+   "key": "max_joint_torque",
+   "label": "Waist yaw – peak torque",
+   "value": 85,
+   "unit": "N·m",
+   "note": "",
+   "source": "https://a.storyblok.com/f/298593/x/1329253096/ubtech-walker-s2-sdk-secondary-development-document-external.pdf",
+   "ref": "§1.2"
+  },
+  {
+   "group": "Actuation & Joints",
+   "key": "joint_range_of_motion",
+   "label": "Hip roll – range",
+   "value": "-23 to 44",
+   "unit": "°",
+   "note": "left side; right mirrored",
+   "source": "https://a.storyblok.com/f/298593/x/1329253096/ubtech-walker-s2-sdk-secondary-development-document-external.pdf",
+   "ref": "§1.2"
+  },
+  {
+   "group": "Actuation & Joints",
+   "key": "joint_rated_speed",
+   "label": "Hip roll – rated speed",
+   "value": 50,
+   "unit": "rpm",
+   "note": "",
+   "source": "https://a.storyblok.com/f/298593/x/1329253096/ubtech-walker-s2-sdk-secondary-development-document-external.pdf",
+   "ref": "§1.2"
+  },
+  {
+   "group": "Actuation & Joints",
+   "key": "joint_speed",
+   "label": "Hip roll – max speed",
+   "value": 80,
+   "unit": "rpm",
+   "note": "",
+   "source": "https://a.storyblok.com/f/298593/x/1329253096/ubtech-walker-s2-sdk-secondary-development-document-external.pdf",
+   "ref": "§1.2"
+  },
+  {
+   "group": "Actuation & Joints",
+   "key": "joint_rated_torque",
+   "label": "Hip roll – rated torque",
+   "value": 75,
+   "unit": "N·m",
+   "note": "",
+   "source": "https://a.storyblok.com/f/298593/x/1329253096/ubtech-walker-s2-sdk-secondary-development-document-external.pdf",
+   "ref": "§1.2"
+  },
+  {
+   "group": "Actuation & Joints",
+   "key": "max_joint_torque",
+   "label": "Hip roll – peak torque",
+   "value": 225,
+   "unit": "N·m",
+   "note": "",
+   "source": "https://a.storyblok.com/f/298593/x/1329253096/ubtech-walker-s2-sdk-secondary-development-document-external.pdf",
+   "ref": "§1.2"
+  },
+  {
+   "group": "Actuation & Joints",
+   "key": "joint_range_of_motion",
+   "label": "Hip yaw – range",
+   "value": "-60 to 45",
+   "unit": "°",
+   "note": "left side; right mirrored",
+   "source": "https://a.storyblok.com/f/298593/x/1329253096/ubtech-walker-s2-sdk-secondary-development-document-external.pdf",
+   "ref": "§1.2"
+  },
+  {
+   "group": "Actuation & Joints",
+   "key": "joint_rated_speed",
+   "label": "Hip yaw – rated speed",
+   "value": 50,
+   "unit": "rpm",
+   "note": "",
+   "source": "https://a.storyblok.com/f/298593/x/1329253096/ubtech-walker-s2-sdk-secondary-development-document-external.pdf",
+   "ref": "§1.2"
+  },
+  {
+   "group": "Actuation & Joints",
+   "key": "joint_speed",
+   "label": "Hip yaw – max speed",
+   "value": 80,
+   "unit": "rpm",
+   "note": "",
+   "source": "https://a.storyblok.com/f/298593/x/1329253096/ubtech-walker-s2-sdk-secondary-development-document-external.pdf",
+   "ref": "§1.2"
+  },
+  {
+   "group": "Actuation & Joints",
+   "key": "joint_rated_torque",
+   "label": "Hip yaw – rated torque",
+   "value": 22,
+   "unit": "N·m",
+   "note": "",
+   "source": "https://a.storyblok.com/f/298593/x/1329253096/ubtech-walker-s2-sdk-secondary-development-document-external.pdf",
+   "ref": "§1.2"
+  },
+  {
+   "group": "Actuation & Joints",
+   "key": "max_joint_torque",
+   "label": "Hip yaw – peak torque",
+   "value": 65,
+   "unit": "N·m",
+   "note": "",
+   "source": "https://a.storyblok.com/f/298593/x/1329253096/ubtech-walker-s2-sdk-secondary-development-document-external.pdf",
+   "ref": "§1.2"
+  },
+  {
+   "group": "Actuation & Joints",
+   "key": "joint_range_of_motion",
+   "label": "Hip pitch – range",
+   "value": "-30 to 109",
+   "unit": "°",
+   "note": "left side; right mirrored",
+   "source": "https://a.storyblok.com/f/298593/x/1329253096/ubtech-walker-s2-sdk-secondary-development-document-external.pdf",
+   "ref": "§1.2"
+  },
+  {
+   "group": "Actuation & Joints",
+   "key": "joint_rated_speed",
+   "label": "Hip pitch – rated speed",
+   "value": 50,
+   "unit": "rpm",
+   "note": "",
+   "source": "https://a.storyblok.com/f/298593/x/1329253096/ubtech-walker-s2-sdk-secondary-development-document-external.pdf",
+   "ref": "§1.2"
+  },
+  {
+   "group": "Actuation & Joints",
+   "key": "joint_speed",
+   "label": "Hip pitch – max speed",
+   "value": 80,
+   "unit": "rpm",
+   "note": "",
+   "source": "https://a.storyblok.com/f/298593/x/1329253096/ubtech-walker-s2-sdk-secondary-development-document-external.pdf",
+   "ref": "§1.2"
+  },
+  {
+   "group": "Actuation & Joints",
+   "key": "joint_rated_torque",
+   "label": "Hip pitch – rated torque",
+   "value": 75,
+   "unit": "N·m",
+   "note": "",
+   "source": "https://a.storyblok.com/f/298593/x/1329253096/ubtech-walker-s2-sdk-secondary-development-document-external.pdf",
+   "ref": "§1.2"
+  },
+  {
+   "group": "Actuation & Joints",
+   "key": "max_joint_torque",
+   "label": "Hip pitch – peak torque",
+   "value": 225,
+   "unit": "N·m",
+   "note": "",
+   "source": "https://a.storyblok.com/f/298593/x/1329253096/ubtech-walker-s2-sdk-secondary-development-document-external.pdf",
+   "ref": "§1.2"
+  },
+  {
+   "group": "Actuation & Joints",
+   "key": "joint_range_of_motion",
+   "label": "Knee – range",
+   "value": "-129 to 3",
+   "unit": "°",
+   "note": "left side; right mirrored",
+   "source": "https://a.storyblok.com/f/298593/x/1329253096/ubtech-walker-s2-sdk-secondary-development-document-external.pdf",
+   "ref": "§1.2"
+  },
+  {
+   "group": "Actuation & Joints",
+   "key": "joint_rated_speed",
+   "label": "Knee – rated speed",
+   "value": 50,
+   "unit": "rpm",
+   "note": "",
+   "source": "https://a.storyblok.com/f/298593/x/1329253096/ubtech-walker-s2-sdk-secondary-development-document-external.pdf",
+   "ref": "§1.2"
+  },
+  {
+   "group": "Actuation & Joints",
+   "key": "joint_speed",
+   "label": "Knee – max speed",
+   "value": 80,
+   "unit": "rpm",
+   "note": "",
+   "source": "https://a.storyblok.com/f/298593/x/1329253096/ubtech-walker-s2-sdk-secondary-development-document-external.pdf",
+   "ref": "§1.2"
+  },
+  {
+   "group": "Actuation & Joints",
+   "key": "joint_rated_torque",
+   "label": "Knee – rated torque",
+   "value": 75,
+   "unit": "N·m",
+   "note": "",
+   "source": "https://a.storyblok.com/f/298593/x/1329253096/ubtech-walker-s2-sdk-secondary-development-document-external.pdf",
+   "ref": "§1.2"
+  },
+  {
+   "group": "Actuation & Joints",
+   "key": "max_joint_torque",
+   "label": "Knee – peak torque",
+   "value": 225,
+   "unit": "N·m",
+   "note": "",
+   "source": "https://a.storyblok.com/f/298593/x/1329253096/ubtech-walker-s2-sdk-secondary-development-document-external.pdf",
+   "ref": "§1.2"
+  },
+  {
+   "group": "Actuation & Joints",
+   "key": "joint_range_of_motion",
+   "label": "Ankle (inside/outside drive) – range",
+   "value": "-68 to 38 / -38 to 68",
+   "unit": "°",
+   "note": "left side; right mirrored",
+   "source": "https://a.storyblok.com/f/298593/x/1329253096/ubtech-walker-s2-sdk-secondary-development-document-external.pdf",
+   "ref": "§1.2"
+  },
+  {
+   "group": "Actuation & Joints",
+   "key": "joint_rated_speed",
+   "label": "Ankle (inside/outside drive) – rated speed",
+   "value": 50,
+   "unit": "rpm",
+   "note": "",
+   "source": "https://a.storyblok.com/f/298593/x/1329253096/ubtech-walker-s2-sdk-secondary-development-document-external.pdf",
+   "ref": "§1.2"
+  },
+  {
+   "group": "Actuation & Joints",
+   "key": "joint_speed",
+   "label": "Ankle (inside/outside drive) – max speed",
+   "value": 80,
+   "unit": "rpm",
+   "note": "",
+   "source": "https://a.storyblok.com/f/298593/x/1329253096/ubtech-walker-s2-sdk-secondary-development-document-external.pdf",
+   "ref": "§1.2"
+  },
+  {
+   "group": "Actuation & Joints",
+   "key": "joint_rated_torque",
+   "label": "Ankle (inside/outside drive) – rated torque",
+   "value": 22,
+   "unit": "N·m",
+   "note": "",
+   "source": "https://a.storyblok.com/f/298593/x/1329253096/ubtech-walker-s2-sdk-secondary-development-document-external.pdf",
+   "ref": "§1.2"
+  },
+  {
+   "group": "Actuation & Joints",
+   "key": "max_joint_torque",
+   "label": "Ankle (inside/outside drive) – peak torque",
+   "value": 65,
+   "unit": "N·m",
+   "note": "",
+   "source": "https://a.storyblok.com/f/298593/x/1329253096/ubtech-walker-s2-sdk-secondary-development-document-external.pdf",
+   "ref": "§1.2"
+  },
+  {
+   "group": "Manipulation",
+   "key": "hand_actuator_speed",
+   "label": "Hand linear drive speed",
+   "value": "25 (rated) / 39 (max)",
+   "unit": "mm/s",
+   "note": "3rd-gen hand linear drives",
+   "source": "https://a.storyblok.com/f/298593/x/1329253096/ubtech-walker-s2-sdk-secondary-development-document-external.pdf"
+  },
+  {
+   "group": "Manipulation",
+   "key": "gripper_force",
+   "label": "Hand drive thrust",
+   "value": "45.53 (rated) / 100 (peak)",
+   "unit": "N",
+   "note": "",
+   "source": "https://a.storyblok.com/f/298593/x/1329253096/ubtech-walker-s2-sdk-secondary-development-document-external.pdf"
+  },
+  {
+   "group": "Manipulation",
+   "key": "hand_joint_range",
+   "label": "Four-finger palmar rotation",
+   "value": 88.92,
+   "unit": "°",
+   "note": "fingertip passive rotation 93.06°",
+   "source": "https://a.storyblok.com/f/298593/x/1329253096/ubtech-walker-s2-sdk-secondary-development-document-external.pdf"
+  },
+  {
+   "group": "Manipulation",
+   "key": "hand_joint_range",
+   "label": "Thumb flexion",
+   "value": 58,
+   "unit": "°",
+   "note": "fingertip passive 60°",
+   "source": "https://a.storyblok.com/f/298593/x/1329253096/ubtech-walker-s2-sdk-secondary-development-document-external.pdf"
+  },
+  {
+   "group": "Manipulation",
+   "key": "hand_joint_range",
+   "label": "Thumb abduction",
+   "value": 65.34,
+   "unit": "°",
+   "note": "",
+   "source": "https://a.storyblok.com/f/298593/x/1329253096/ubtech-walker-s2-sdk-secondary-development-document-external.pdf"
+  }
+ ]
 }

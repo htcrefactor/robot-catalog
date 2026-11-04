@@ -1,0 +1,847 @@
+{
+  "id": "ghost-robotics-vision-60",
+  "checked": "2026-11-04",
+  "documents": [
+    {
+      "title": "Ghost Robotics Vision 60 Specification Sheet V3.3 (05-06-24, ©2024)",
+      "url": "https://cdn.prod.website-files.com/67b418349cd29a4f7829b4a5/6805d36620e2aad6e552bb0d_SPECSHEET_V3.3%20Black%2005-06-24%20(1)_1736981609615.pdf"
+    },
+    {
+      "title": "Ghost Robotics Vision 60 product page",
+      "url": "https://www.ghostrobotics.io/vision-60"
+    },
+    {
+      "title": "Vision 60 Mission Control datasheet (©2025)",
+      "url": "https://cdn.prod.website-files.com/67b418349cd29a4f7829b4a5/6821bc7f0a28f69e33d60eeb_Mission%20Control%20-%20Ghost%20Robotics_L0BuN0niHCgnrkr6RYRMH.pdf"
+    }
+  ],
+  "specs": [
+    {
+      "group": "Identity",
+      "key": "manufacturer",
+      "label": "Manufacturer",
+      "value": "Ghost Robotics",
+      "unit": "",
+      "note": "",
+      "source": "https://cdn.prod.website-files.com/67b418349cd29a4f7829b4a5/6805d36620e2aad6e552bb0d_SPECSHEET_V3.3%20Black%2005-06-24%20(1)_1736981609615.pdf",
+      "ref": "p.1 footer"
+    },
+    {
+      "group": "Identity",
+      "key": "model_number",
+      "label": "Model",
+      "value": "Vision 60 Q-UGV",
+      "unit": "",
+      "note": "",
+      "source": "https://cdn.prod.website-files.com/67b418349cd29a4f7829b4a5/6805d36620e2aad6e552bb0d_SPECSHEET_V3.3%20Black%2005-06-24%20(1)_1736981609615.pdf",
+      "ref": "p.1"
+    },
+    {
+      "group": "Identity",
+      "key": "robot_type",
+      "label": "Robot type",
+      "value": "Quadrupedal unmanned ground vehicle (Q-UGV), all-electric, all-weather",
+      "unit": "",
+      "note": "",
+      "source": "https://cdn.prod.website-files.com/67b418349cd29a4f7829b4a5/6805d36620e2aad6e552bb0d_SPECSHEET_V3.3%20Black%2005-06-24%20(1)_1736981609615.pdf",
+      "ref": "p.1–2"
+    },
+    {
+      "group": "Identity",
+      "key": "spec_document_date",
+      "label": "Specification document",
+      "value": "Spec sheet V3.3 (Black, 05-06-24), ©2024 Ghost Robotics",
+      "unit": "",
+      "note": "",
+      "source": "https://cdn.prod.website-files.com/67b418349cd29a4f7829b4a5/6805d36620e2aad6e552bb0d_SPECSHEET_V3.3%20Black%2005-06-24%20(1)_1736981609615.pdf",
+      "ref": "file name / footer"
+    },
+    {
+      "group": "Safety & Compliance",
+      "key": "intended_use",
+      "label": "Intended use",
+      "value": "Defense, homeland and enterprise applications in unstructured urban and natural environments; improve situational awareness, lighten physical/cognitive workloads, increase standoff distance",
+      "unit": "",
+      "note": "",
+      "source": "https://cdn.prod.website-files.com/67b418349cd29a4f7829b4a5/6805d36620e2aad6e552bb0d_SPECSHEET_V3.3%20Black%2005-06-24%20(1)_1736981609615.pdf",
+      "ref": "p.1"
+    },
+    {
+      "group": "Safety & Compliance",
+      "key": "intended_use",
+      "label": "Application areas",
+      "value": "Military, public safety, law enforcement, industrial inspection, construction, education, enterprise",
+      "unit": "",
+      "note": "",
+      "source": "https://www.ghostrobotics.io/vision-60"
+    },
+    {
+      "group": "Commercial",
+      "key": "export_control_classification",
+      "label": "Export control classification",
+      "value": "US ECCN EAR-99",
+      "unit": "",
+      "note": "No ITAR restrictions",
+      "source": "https://cdn.prod.website-files.com/67b418349cd29a4f7829b4a5/6805d36620e2aad6e552bb0d_SPECSHEET_V3.3%20Black%2005-06-24%20(1)_1736981609615.pdf",
+      "ref": "p.2 Export Control | HC"
+    },
+    {
+      "group": "Commercial",
+      "key": "hs_code",
+      "label": "Harmonized code (HC)",
+      "value": "8479.50.00.00 Industrial Robots",
+      "unit": "",
+      "note": "",
+      "source": "https://cdn.prod.website-files.com/67b418349cd29a4f7829b4a5/6805d36620e2aad6e552bb0d_SPECSHEET_V3.3%20Black%2005-06-24%20(1)_1736981609615.pdf",
+      "ref": "p.2 Export Control | HC"
+    },
+    {
+      "group": "Dimensions & Mass",
+      "key": "length",
+      "label": "Overall length",
+      "value": 950,
+      "unit": "mm",
+      "note": "37.5 in",
+      "source": "https://cdn.prod.website-files.com/67b418349cd29a4f7829b4a5/6805d36620e2aad6e552bb0d_SPECSHEET_V3.3%20Black%2005-06-24%20(1)_1736981609615.pdf",
+      "ref": "p.2 Key Dimensions"
+    },
+    {
+      "group": "Dimensions & Mass",
+      "key": "width",
+      "label": "Overall width",
+      "value": 570,
+      "unit": "mm",
+      "note": "22.5 in",
+      "source": "https://cdn.prod.website-files.com/67b418349cd29a4f7829b4a5/6805d36620e2aad6e552bb0d_SPECSHEET_V3.3%20Black%2005-06-24%20(1)_1736981609615.pdf",
+      "ref": "p.2 Key Dimensions"
+    },
+    {
+      "group": "Dimensions & Mass",
+      "key": "body_width",
+      "label": "Body width",
+      "value": 250,
+      "unit": "mm",
+      "note": "10 in",
+      "source": "https://cdn.prod.website-files.com/67b418349cd29a4f7829b4a5/6805d36620e2aad6e552bb0d_SPECSHEET_V3.3%20Black%2005-06-24%20(1)_1736981609615.pdf",
+      "ref": "p.2 Key Dimensions"
+    },
+    {
+      "group": "Dimensions & Mass",
+      "key": "height_standing",
+      "label": "Overall height (standing)",
+      "value": 685,
+      "unit": "mm",
+      "note": "27 in",
+      "source": "https://cdn.prod.website-files.com/67b418349cd29a4f7829b4a5/6805d36620e2aad6e552bb0d_SPECSHEET_V3.3%20Black%2005-06-24%20(1)_1736981609615.pdf",
+      "ref": "p.2 Key Dimensions"
+    },
+    {
+      "group": "Dimensions & Mass",
+      "key": "ground_clearance",
+      "label": "Ride height (to bottom of body)",
+      "value": 419,
+      "unit": "mm",
+      "note": "16.5 in",
+      "source": "https://cdn.prod.website-files.com/67b418349cd29a4f7829b4a5/6805d36620e2aad6e552bb0d_SPECSHEET_V3.3%20Black%2005-06-24%20(1)_1736981609615.pdf",
+      "ref": "p.2 Key Dimensions"
+    },
+    {
+      "group": "Dimensions & Mass",
+      "key": "weight",
+      "label": "Weight (tare)",
+      "value": 51,
+      "unit": "kg",
+      "note": "112 lb",
+      "source": "https://cdn.prod.website-files.com/67b418349cd29a4f7829b4a5/6805d36620e2aad6e552bb0d_SPECSHEET_V3.3%20Black%2005-06-24%20(1)_1736981609615.pdf",
+      "ref": "p.2 Weight"
+    },
+    {
+      "group": "Dimensions & Mass",
+      "key": "body_material",
+      "label": "Construction",
+      "value": "Aluminium & composites",
+      "unit": "",
+      "note": "",
+      "source": "https://cdn.prod.website-files.com/67b418349cd29a4f7829b4a5/6805d36620e2aad6e552bb0d_SPECSHEET_V3.3%20Black%2005-06-24%20(1)_1736981609615.pdf",
+      "ref": "p.2 General Robot Design"
+    },
+    {
+      "group": "Mobility & Performance",
+      "key": "nominal_speed",
+      "label": "Standard walk speed",
+      "value": 0.9,
+      "unit": "m/s",
+      "note": "2 mph",
+      "source": "https://cdn.prod.website-files.com/67b418349cd29a4f7829b4a5/6805d36620e2aad6e552bb0d_SPECSHEET_V3.3%20Black%2005-06-24%20(1)_1736981609615.pdf",
+      "ref": "p.2 Speed"
+    },
+    {
+      "group": "Mobility & Performance",
+      "key": "nominal_speed",
+      "label": "Fast-walk speed",
+      "value": 1.2,
+      "unit": "m/s",
+      "note": "Up to; 2.7 mph",
+      "source": "https://cdn.prod.website-files.com/67b418349cd29a4f7829b4a5/6805d36620e2aad6e552bb0d_SPECSHEET_V3.3%20Black%2005-06-24%20(1)_1736981609615.pdf",
+      "ref": "p.2 Speed"
+    },
+    {
+      "group": "Mobility & Performance",
+      "key": "max_speed",
+      "label": "Sprint speed",
+      "value": 2.4,
+      "unit": "m/s",
+      "note": "4.9 mph; 'working towards 3.0 m/s (6.7 mph)'; speed depends on payload and terrain",
+      "source": "https://cdn.prod.website-files.com/67b418349cd29a4f7829b4a5/6805d36620e2aad6e552bb0d_SPECSHEET_V3.3%20Black%2005-06-24%20(1)_1736981609615.pdf",
+      "ref": "p.2 Speed"
+    },
+    {
+      "group": "Mobility & Performance",
+      "key": "max_speed",
+      "label": "Max speed (product page)",
+      "value": 2.5,
+      "unit": "m/s",
+      "note": "'up to 2.5 meters/second (5.6 miles/hour)' – Performance Stats on product page",
+      "source": "https://www.ghostrobotics.io/vision-60"
+    },
+    {
+      "group": "Mobility & Performance",
+      "key": "max_payload",
+      "label": "Payload capacity",
+      "value": 10,
+      "unit": "kg",
+      "note": "22 lb",
+      "source": "https://cdn.prod.website-files.com/67b418349cd29a4f7829b4a5/6805d36620e2aad6e552bb0d_SPECSHEET_V3.3%20Black%2005-06-24%20(1)_1736981609615.pdf",
+      "ref": "p.2 Payload Capacity"
+    },
+    {
+      "group": "Payload & Mounting",
+      "key": "payload_configuration",
+      "label": "Payload compensation",
+      "value": "User-selectable payload compensation mode",
+      "unit": "",
+      "note": "",
+      "source": "https://cdn.prod.website-files.com/67b418349cd29a4f7829b4a5/6805d36620e2aad6e552bb0d_SPECSHEET_V3.3%20Black%2005-06-24%20(1)_1736981609615.pdf",
+      "ref": "p.2 Payload Capacity"
+    },
+    {
+      "group": "Mobility & Performance",
+      "key": "degrees_of_freedom",
+      "label": "Total DoF",
+      "value": 12,
+      "unit": "",
+      "note": "3 DoF per leg × 4",
+      "source": "https://cdn.prod.website-files.com/67b418349cd29a4f7829b4a5/6805d36620e2aad6e552bb0d_SPECSHEET_V3.3%20Black%2005-06-24%20(1)_1736981609615.pdf",
+      "ref": "p.2 Actuation, Legs"
+    },
+    {
+      "group": "Actuation & Joints",
+      "key": "dof_per_leg",
+      "label": "Leg DoF",
+      "value": 3,
+      "unit": "",
+      "note": "",
+      "source": "https://cdn.prod.website-files.com/67b418349cd29a4f7829b4a5/6805d36620e2aad6e552bb0d_SPECSHEET_V3.3%20Black%2005-06-24%20(1)_1736981609615.pdf",
+      "ref": "p.2 Actuation, Legs"
+    },
+    {
+      "group": "Actuation & Joints",
+      "key": "leg_count",
+      "label": "Number of legs",
+      "value": 4,
+      "unit": "",
+      "note": "",
+      "source": "https://cdn.prod.website-files.com/67b418349cd29a4f7829b4a5/6805d36620e2aad6e552bb0d_SPECSHEET_V3.3%20Black%2005-06-24%20(1)_1736981609615.pdf",
+      "ref": "p.1"
+    },
+    {
+      "group": "Actuation & Joints",
+      "key": "joint_count",
+      "label": "Motors",
+      "value": 12,
+      "unit": "",
+      "note": "12-motor drive-train",
+      "source": "https://cdn.prod.website-files.com/67b418349cd29a4f7829b4a5/6805d36620e2aad6e552bb0d_SPECSHEET_V3.3%20Black%2005-06-24%20(1)_1736981609615.pdf",
+      "ref": "p.2 Actuation, Legs"
+    },
+    {
+      "group": "Actuation & Joints",
+      "key": "actuator_type",
+      "label": "Actuation",
+      "value": "All-electric, back-drivable 12-motor drive-train",
+      "unit": "",
+      "note": "",
+      "source": "https://cdn.prod.website-files.com/67b418349cd29a4f7829b4a5/6805d36620e2aad6e552bb0d_SPECSHEET_V3.3%20Black%2005-06-24%20(1)_1736981609615.pdf",
+      "ref": "p.2"
+    },
+    {
+      "group": "Actuation & Joints",
+      "key": "foot_treads",
+      "label": "Foot treads",
+      "value": "Vibram® all-terrain treads, available in configurations including sand and ice",
+      "unit": "",
+      "note": "",
+      "source": "https://cdn.prod.website-files.com/67b418349cd29a4f7829b4a5/6805d36620e2aad6e552bb0d_SPECSHEET_V3.3%20Black%2005-06-24%20(1)_1736981609615.pdf",
+      "ref": "p.2 Foot Treads"
+    },
+    {
+      "group": "Safety & Compliance",
+      "key": "fall_recovery",
+      "label": "Fall recovery / inverted operation",
+      "value": "Gets back up after slips/falls; capable of operating completely inverted",
+      "unit": "",
+      "note": "",
+      "source": "https://cdn.prod.website-files.com/67b418349cd29a4f7829b4a5/6805d36620e2aad6e552bb0d_SPECSHEET_V3.3%20Black%2005-06-24%20(1)_1736981609615.pdf",
+      "ref": "p.1, p.2 Actuation"
+    },
+    {
+      "group": "Terrain & Navigation Limits",
+      "key": "surface_types",
+      "label": "Terrain",
+      "value": "Stairs, steep hills, rocks, swamps (wading), debris fields, steep inclines, tall grass, curbs and grated surfaces",
+      "unit": "",
+      "note": "",
+      "source": "https://cdn.prod.website-files.com/67b418349cd29a4f7829b4a5/6805d36620e2aad6e552bb0d_SPECSHEET_V3.3%20Black%2005-06-24%20(1)_1736981609615.pdf",
+      "ref": "p.1–2"
+    },
+    {
+      "group": "Terrain & Navigation Limits",
+      "key": "stair_climbing",
+      "label": "Stair climbing",
+      "value": "Perception-aided stair climbing with steering assistance",
+      "unit": "",
+      "note": "",
+      "source": "https://cdn.prod.website-files.com/67b418349cd29a4f7829b4a5/6805d36620e2aad6e552bb0d_SPECSHEET_V3.3%20Black%2005-06-24%20(1)_1736981609615.pdf",
+      "ref": "p.2 Autonomy Modes"
+    },
+    {
+      "group": "Terrain & Navigation Limits",
+      "key": "navigation_method",
+      "label": "Blind Mode",
+      "value": "Proprietary 'Blind Mode' lets it navigate tall grass and unknown terrain even when vision sensors are obscured by mud, rain, snow or direct sunlight",
+      "unit": "",
+      "note": "",
+      "source": "https://cdn.prod.website-files.com/67b418349cd29a4f7829b4a5/6805d36620e2aad6e552bb0d_SPECSHEET_V3.3%20Black%2005-06-24%20(1)_1736981609615.pdf",
+      "ref": "p.1"
+    },
+    {
+      "group": "Terrain & Navigation Limits",
+      "key": "mapping",
+      "label": "Mapping",
+      "value": "Real-time 3D lidar-based SLAM; 3D digital twin maps, downloadable/uploadable between robots",
+      "unit": "",
+      "note": "Vision 60 Mission Control",
+      "source": "https://cdn.prod.website-files.com/67b418349cd29a4f7829b4a5/6821bc7f0a28f69e33d60eeb_Mission%20Control%20-%20Ghost%20Robotics_L0BuN0niHCgnrkr6RYRMH.pdf"
+    },
+    {
+      "group": "Terrain & Navigation Limits",
+      "key": "localization_method",
+      "label": "Localization",
+      "value": "GPS-enabled (RTK) or GPS-denied (lidar SLAM) navigation",
+      "unit": "",
+      "note": "",
+      "source": "https://cdn.prod.website-files.com/67b418349cd29a4f7829b4a5/6821bc7f0a28f69e33d60eeb_Mission%20Control%20-%20Ghost%20Robotics_L0BuN0niHCgnrkr6RYRMH.pdf"
+    },
+    {
+      "group": "Power & Battery",
+      "key": "runtime",
+      "label": "Endurance (continuous walking)",
+      "value": 3.15,
+      "unit": "h",
+      "note": "At 0.9 m/s; terrain and payload dependent",
+      "source": "https://cdn.prod.website-files.com/67b418349cd29a4f7829b4a5/6805d36620e2aad6e552bb0d_SPECSHEET_V3.3%20Black%2005-06-24%20(1)_1736981609615.pdf",
+      "ref": "p.2 Endurance"
+    },
+    {
+      "group": "Power & Battery",
+      "key": "range_per_charge",
+      "label": "Range per charge",
+      "value": 10,
+      "unit": "km",
+      "note": "Terrain and payload dependent",
+      "source": "https://cdn.prod.website-files.com/67b418349cd29a4f7829b4a5/6805d36620e2aad6e552bb0d_SPECSHEET_V3.3%20Black%2005-06-24%20(1)_1736981609615.pdf",
+      "ref": "p.2 Endurance"
+    },
+    {
+      "group": "Power & Battery",
+      "key": "range_per_charge",
+      "label": "Range per charge (overview)",
+      "value": 6.0,
+      "unit": "mi",
+      "note": "'up to 6.0 miles on a single charge, depending on payload and operating conditions'",
+      "source": "https://cdn.prod.website-files.com/67b418349cd29a4f7829b4a5/6805d36620e2aad6e552bb0d_SPECSHEET_V3.3%20Black%2005-06-24%20(1)_1736981609615.pdf",
+      "ref": "p.1"
+    },
+    {
+      "group": "Power & Battery",
+      "key": "standby_time",
+      "label": "Standby time",
+      "value": 21,
+      "unit": "h",
+      "note": "Sitting with sensors, compute and radio on",
+      "source": "https://cdn.prod.website-files.com/67b418349cd29a4f7829b4a5/6805d36620e2aad6e552bb0d_SPECSHEET_V3.3%20Black%2005-06-24%20(1)_1736981609615.pdf",
+      "ref": "p.2 Endurance"
+    },
+    {
+      "group": "Power & Battery",
+      "key": "battery_swappable",
+      "label": "Swappable battery",
+      "value": true,
+      "unit": "",
+      "note": "Battery is a quick-swap field sub-assembly",
+      "source": "https://cdn.prod.website-files.com/67b418349cd29a4f7829b4a5/6805d36620e2aad6e552bb0d_SPECSHEET_V3.3%20Black%2005-06-24%20(1)_1736981609615.pdf",
+      "ref": "p.1, p.2"
+    },
+    {
+      "group": "Charging & Docking",
+      "key": "charge_time",
+      "label": "Charge time (standard battery)",
+      "value": 3,
+      "unit": "h",
+      "note": "Approx.",
+      "source": "https://cdn.prod.website-files.com/67b418349cd29a4f7829b4a5/6805d36620e2aad6e552bb0d_SPECSHEET_V3.3%20Black%2005-06-24%20(1)_1736981609615.pdf",
+      "ref": "p.2 Endurance"
+    },
+    {
+      "group": "Charging & Docking",
+      "key": "charging_method",
+      "label": "Charging",
+      "value": "All-electric direct charge",
+      "unit": "",
+      "note": "",
+      "source": "https://cdn.prod.website-files.com/67b418349cd29a4f7829b4a5/6805d36620e2aad6e552bb0d_SPECSHEET_V3.3%20Black%2005-06-24%20(1)_1736981609615.pdf",
+      "ref": "p.2 General Robot Design"
+    },
+    {
+      "group": "Charging & Docking",
+      "key": "dock_available",
+      "label": "Wireless charge kit",
+      "value": "Wireless charging station for persistent 24x7 operation",
+      "unit": "",
+      "note": "",
+      "source": "https://cdn.prod.website-files.com/67b418349cd29a4f7829b4a5/6805d36620e2aad6e552bb0d_SPECSHEET_V3.3%20Black%2005-06-24%20(1)_1736981609615.pdf",
+      "ref": "p.2 Wireless Charge Kit"
+    },
+    {
+      "group": "Environment & Protection",
+      "key": "charging_temperature",
+      "label": "Charging temperature",
+      "value": "No charging below 0 °C; charging rate decreases above 40 °C",
+      "unit": "",
+      "note": "",
+      "source": "https://cdn.prod.website-files.com/67b418349cd29a4f7829b4a5/6805d36620e2aad6e552bb0d_SPECSHEET_V3.3%20Black%2005-06-24%20(1)_1736981609615.pdf",
+      "ref": "p.2"
+    },
+    {
+      "group": "Environment & Protection",
+      "key": "ip_rating",
+      "label": "IP rating",
+      "value": "IP67",
+      "unit": "",
+      "note": "Fully dust-sealed; can be submerged in up to 1 m of water for up to 30 minutes",
+      "source": "https://cdn.prod.website-files.com/67b418349cd29a4f7829b4a5/6805d36620e2aad6e552bb0d_SPECSHEET_V3.3%20Black%2005-06-24%20(1)_1736981609615.pdf",
+      "ref": "p.1–2"
+    },
+    {
+      "group": "Environment & Protection",
+      "key": "operating_temperature",
+      "label": "Operating temperature",
+      "value": "-40 to 55",
+      "unit": "°C",
+      "note": "-40 to 131 °F",
+      "source": "https://cdn.prod.website-files.com/67b418349cd29a4f7829b4a5/6805d36620e2aad6e552bb0d_SPECSHEET_V3.3%20Black%2005-06-24%20(1)_1736981609615.pdf",
+      "ref": "p.2"
+    },
+    {
+      "group": "Environment & Protection",
+      "key": "min_power_on_temperature",
+      "label": "Cold start limit",
+      "value": -20,
+      "unit": "°C",
+      "note": "Cold start not possible below -20 °C",
+      "source": "https://cdn.prod.website-files.com/67b418349cd29a4f7829b4a5/6805d36620e2aad6e552bb0d_SPECSHEET_V3.3%20Black%2005-06-24%20(1)_1736981609615.pdf",
+      "ref": "p.2"
+    },
+    {
+      "group": "Environment & Protection",
+      "key": "rain_rating",
+      "label": "Weather",
+      "value": "All-weather operation including rain, snow and sand",
+      "unit": "",
+      "note": "",
+      "source": "https://www.ghostrobotics.io/vision-60"
+    },
+    {
+      "group": "Sensors & Perception",
+      "key": "camera_count",
+      "label": "RGB cameras",
+      "value": 5,
+      "unit": "",
+      "note": "",
+      "source": "https://cdn.prod.website-files.com/67b418349cd29a4f7829b4a5/6805d36620e2aad6e552bb0d_SPECSHEET_V3.3%20Black%2005-06-24%20(1)_1736981609615.pdf",
+      "ref": "p.2 Integrated Sensors"
+    },
+    {
+      "group": "Sensors & Perception",
+      "key": "camera_resolution",
+      "label": "RGB camera resolution",
+      "value": "1080p",
+      "unit": "",
+      "note": "",
+      "source": "https://cdn.prod.website-files.com/67b418349cd29a4f7829b4a5/6805d36620e2aad6e552bb0d_SPECSHEET_V3.3%20Black%2005-06-24%20(1)_1736981609615.pdf",
+      "ref": "p.2 Integrated Sensors"
+    },
+    {
+      "group": "Sensors & Perception",
+      "key": "depth_camera_count",
+      "label": "Depth sensors",
+      "value": 4,
+      "unit": "",
+      "note": "",
+      "source": "https://cdn.prod.website-files.com/67b418349cd29a4f7829b4a5/6805d36620e2aad6e552bb0d_SPECSHEET_V3.3%20Black%2005-06-24%20(1)_1736981609615.pdf",
+      "ref": "p.2 Integrated Sensors"
+    },
+    {
+      "group": "Sensors & Perception",
+      "key": "depth_camera_model",
+      "label": "Depth sensor model",
+      "value": "Intel RealSense D435",
+      "unit": "",
+      "note": "",
+      "source": "https://cdn.prod.website-files.com/67b418349cd29a4f7829b4a5/6805d36620e2aad6e552bb0d_SPECSHEET_V3.3%20Black%2005-06-24%20(1)_1736981609615.pdf",
+      "ref": "p.2 Integrated Sensors"
+    },
+    {
+      "group": "Sensors & Perception",
+      "key": "gps",
+      "label": "GNSS",
+      "value": "Dual-antenna RTK GPS",
+      "unit": "",
+      "note": "",
+      "source": "https://cdn.prod.website-files.com/67b418349cd29a4f7829b4a5/6805d36620e2aad6e552bb0d_SPECSHEET_V3.3%20Black%2005-06-24%20(1)_1736981609615.pdf",
+      "ref": "p.2 Integrated Sensors"
+    },
+    {
+      "group": "Payload & Mounting",
+      "key": "optional_payloads",
+      "label": "Modular payloads",
+      "value": "Manipulator arm; security payload; LiDAR; low-light camera",
+      "unit": "",
+      "note": "",
+      "source": "https://www.ghostrobotics.io/vision-60"
+    },
+    {
+      "group": "Compute & Software",
+      "key": "compute_module",
+      "label": "Compute",
+      "value": "NVIDIA® Xavier",
+      "unit": "",
+      "note": "",
+      "source": "https://cdn.prod.website-files.com/67b418349cd29a4f7829b4a5/6805d36620e2aad6e552bb0d_SPECSHEET_V3.3%20Black%2005-06-24%20(1)_1736981609615.pdf",
+      "ref": "p.2 Compute"
+    },
+    {
+      "group": "Compute & Software",
+      "key": "ram",
+      "label": "Memory (RAM)",
+      "value": 32,
+      "unit": "GB",
+      "note": "",
+      "source": "https://cdn.prod.website-files.com/67b418349cd29a4f7829b4a5/6805d36620e2aad6e552bb0d_SPECSHEET_V3.3%20Black%2005-06-24%20(1)_1736981609615.pdf",
+      "ref": "p.2 Compute"
+    },
+    {
+      "group": "Compute & Software",
+      "key": "storage",
+      "label": "Storage",
+      "value": "2 TB NVMe SSD",
+      "unit": "",
+      "note": "",
+      "source": "https://cdn.prod.website-files.com/67b418349cd29a4f7829b4a5/6805d36620e2aad6e552bb0d_SPECSHEET_V3.3%20Black%2005-06-24%20(1)_1736981609615.pdf",
+      "ref": "p.2 Compute"
+    },
+    {
+      "group": "Sensors & Perception",
+      "key": "camera_interface",
+      "label": "Camera interface",
+      "value": "16-channel GMSL2 on compute",
+      "unit": "",
+      "note": "",
+      "source": "https://cdn.prod.website-files.com/67b418349cd29a4f7829b4a5/6805d36620e2aad6e552bb0d_SPECSHEET_V3.3%20Black%2005-06-24%20(1)_1736981609615.pdf",
+      "ref": "p.2 Compute"
+    },
+    {
+      "group": "Compute & Software",
+      "key": "sdk",
+      "label": "SDK",
+      "value": "Ghost SDK – integrate any sensor, radio or electronics",
+      "unit": "",
+      "note": "",
+      "source": "https://cdn.prod.website-files.com/67b418349cd29a4f7829b4a5/6805d36620e2aad6e552bb0d_SPECSHEET_V3.3%20Black%2005-06-24%20(1)_1736981609615.pdf",
+      "ref": "p.1 Open Architecture"
+    },
+    {
+      "group": "Compute & Software",
+      "key": "ros_support",
+      "label": "ROS",
+      "value": "ROS and ROS2",
+      "unit": "",
+      "note": "",
+      "source": "https://cdn.prod.website-files.com/67b418349cd29a4f7829b4a5/6805d36620e2aad6e552bb0d_SPECSHEET_V3.3%20Black%2005-06-24%20(1)_1736981609615.pdf",
+      "ref": "p.1, p.2 API"
+    },
+    {
+      "group": "Compute & Software",
+      "key": "api",
+      "label": "Low-level | High-level | Mission control API",
+      "value": "C/C++, ROS, ROS2, MAVLink compatible, Zeno, ATAK, JSON Mission",
+      "unit": "",
+      "note": "",
+      "source": "https://cdn.prod.website-files.com/67b418349cd29a4f7829b4a5/6805d36620e2aad6e552bb0d_SPECSHEET_V3.3%20Black%2005-06-24%20(1)_1736981609615.pdf",
+      "ref": "p.2"
+    },
+    {
+      "group": "Compute & Software",
+      "key": "programming_languages",
+      "label": "Low-level interface",
+      "value": "C/C++ joint-level integration",
+      "unit": "",
+      "note": "",
+      "source": "https://cdn.prod.website-files.com/67b418349cd29a4f7829b4a5/6805d36620e2aad6e552bb0d_SPECSHEET_V3.3%20Black%2005-06-24%20(1)_1736981609615.pdf",
+      "ref": "p.1"
+    },
+    {
+      "group": "Compute & Software",
+      "key": "simulation_support",
+      "label": "Simulator",
+      "value": "Bullet Physics-based; Windows, Linux, Mac",
+      "unit": "",
+      "note": "",
+      "source": "https://cdn.prod.website-files.com/67b418349cd29a4f7829b4a5/6805d36620e2aad6e552bb0d_SPECSHEET_V3.3%20Black%2005-06-24%20(1)_1736981609615.pdf",
+      "ref": "p.2 Simulator"
+    },
+    {
+      "group": "Compute & Software",
+      "key": "mission_software",
+      "label": "Mission Control",
+      "value": "Web-based 'single pane of glass' UI: telemetry, health and mission status; point-and-click mission planning, single-click execution, mission editor; human-readable mission scripts",
+      "unit": "",
+      "note": "",
+      "source": "https://cdn.prod.website-files.com/67b418349cd29a4f7829b4a5/6821bc7f0a28f69e33d60eeb_Mission%20Control%20-%20Ghost%20Robotics_L0BuN0niHCgnrkr6RYRMH.pdf"
+    },
+    {
+      "group": "Compute & Software",
+      "key": "hosting",
+      "label": "Mission Control hosting",
+      "value": "Self hosted; device agnostic web interface; API support",
+      "unit": "",
+      "note": "",
+      "source": "https://cdn.prod.website-files.com/67b418349cd29a4f7829b4a5/6821bc7f0a28f69e33d60eeb_Mission%20Control%20-%20Ghost%20Robotics_L0BuN0niHCgnrkr6RYRMH.pdf"
+    },
+    {
+      "group": "Connectivity & Interfaces",
+      "key": "wifi",
+      "label": "Wi-Fi",
+      "value": "Integrated 2.4 and 5.8 GHz",
+      "unit": "",
+      "note": "",
+      "source": "https://cdn.prod.website-files.com/67b418349cd29a4f7829b4a5/6805d36620e2aad6e552bb0d_SPECSHEET_V3.3%20Black%2005-06-24%20(1)_1736981609615.pdf",
+      "ref": "p.2 Communications"
+    },
+    {
+      "group": "Connectivity & Interfaces",
+      "key": "cellular",
+      "label": "Cellular",
+      "value": "Integrated 4G/LTE",
+      "unit": "",
+      "note": "",
+      "source": "https://cdn.prod.website-files.com/67b418349cd29a4f7829b4a5/6805d36620e2aad6e552bb0d_SPECSHEET_V3.3%20Black%2005-06-24%20(1)_1736981609615.pdf",
+      "ref": "p.2 Communications"
+    },
+    {
+      "group": "Connectivity & Interfaces",
+      "key": "communication",
+      "label": "External radios",
+      "value": "GigE switch supports any external radio including 5G, SDRs and SAT",
+      "unit": "",
+      "note": "",
+      "source": "https://cdn.prod.website-files.com/67b418349cd29a4f7829b4a5/6805d36620e2aad6e552bb0d_SPECSHEET_V3.3%20Black%2005-06-24%20(1)_1736981609615.pdf",
+      "ref": "p.2 Communications"
+    },
+    {
+      "group": "Connectivity & Interfaces",
+      "key": "ethernet",
+      "label": "Ethernet",
+      "value": "3 × Ethernet",
+      "unit": "",
+      "note": "",
+      "source": "https://cdn.prod.website-files.com/67b418349cd29a4f7829b4a5/6805d36620e2aad6e552bb0d_SPECSHEET_V3.3%20Black%2005-06-24%20(1)_1736981609615.pdf",
+      "ref": "p.2 I/O"
+    },
+    {
+      "group": "Connectivity & Interfaces",
+      "key": "usb_ports",
+      "label": "USB",
+      "value": "1 × USB 3.1",
+      "unit": "",
+      "note": "",
+      "source": "https://cdn.prod.website-files.com/67b418349cd29a4f7829b4a5/6805d36620e2aad6e552bb0d_SPECSHEET_V3.3%20Black%2005-06-24%20(1)_1736981609615.pdf",
+      "ref": "p.2 I/O"
+    },
+    {
+      "group": "Connectivity & Interfaces",
+      "key": "external_ports",
+      "label": "Camera I/O",
+      "value": "6 × GMSL2",
+      "unit": "",
+      "note": "",
+      "source": "https://cdn.prod.website-files.com/67b418349cd29a4f7829b4a5/6805d36620e2aad6e552bb0d_SPECSHEET_V3.3%20Black%2005-06-24%20(1)_1736981609615.pdf",
+      "ref": "p.2 I/O"
+    },
+    {
+      "group": "Payload & Mounting",
+      "key": "payload_port_voltage",
+      "label": "Payload power",
+      "value": "12 V regulated and 32–42 V unregulated",
+      "unit": "",
+      "note": "",
+      "source": "https://cdn.prod.website-files.com/67b418349cd29a4f7829b4a5/6805d36620e2aad6e552bb0d_SPECSHEET_V3.3%20Black%2005-06-24%20(1)_1736981609615.pdf",
+      "ref": "p.2 I/O"
+    },
+    {
+      "group": "Payload & Mounting",
+      "key": "mounting_rail",
+      "label": "Mounting options",
+      "value": "T-slots, M5 tapped holes or MIL-STD-1913 rails, with optional body panels",
+      "unit": "",
+      "note": "",
+      "source": "https://cdn.prod.website-files.com/67b418349cd29a4f7829b4a5/6805d36620e2aad6e552bb0d_SPECSHEET_V3.3%20Black%2005-06-24%20(1)_1736981609615.pdf",
+      "ref": "p.2 General Robot Design"
+    },
+    {
+      "group": "Audio, Lights & HMI",
+      "key": "speaker",
+      "label": "Audio",
+      "value": "2-way audio",
+      "unit": "",
+      "note": "",
+      "source": "https://cdn.prod.website-files.com/67b418349cd29a4f7829b4a5/6805d36620e2aad6e552bb0d_SPECSHEET_V3.3%20Black%2005-06-24%20(1)_1736981609615.pdf",
+      "ref": "p.2 Lighting & Audio"
+    },
+    {
+      "group": "Audio, Lights & HMI",
+      "key": "front_light",
+      "label": "Drive lights",
+      "value": "Front & rear LED drive lights",
+      "unit": "",
+      "note": "",
+      "source": "https://cdn.prod.website-files.com/67b418349cd29a4f7829b4a5/6805d36620e2aad6e552bb0d_SPECSHEET_V3.3%20Black%2005-06-24%20(1)_1736981609615.pdf",
+      "ref": "p.2 Lighting & Audio"
+    },
+    {
+      "group": "Audio, Lights & HMI",
+      "key": "status_lights",
+      "label": "Diagnostic lights",
+      "value": "Side diagnostic LEDs",
+      "unit": "",
+      "note": "",
+      "source": "https://cdn.prod.website-files.com/67b418349cd29a4f7829b4a5/6805d36620e2aad6e552bb0d_SPECSHEET_V3.3%20Black%2005-06-24%20(1)_1736981609615.pdf",
+      "ref": "p.2 Lighting & Audio"
+    },
+    {
+      "group": "Controls & Operation",
+      "key": "controller",
+      "label": "Tele-op controller",
+      "value": "Samsung® Active Tab 3 standalone or combined with dual-joystick Operator Control Unit (OCU)",
+      "unit": "",
+      "note": "",
+      "source": "https://cdn.prod.website-files.com/67b418349cd29a4f7829b4a5/6805d36620e2aad6e552bb0d_SPECSHEET_V3.3%20Black%2005-06-24%20(1)_1736981609615.pdf",
+      "ref": "p.2"
+    },
+    {
+      "group": "Controls & Operation",
+      "key": "control_modes",
+      "label": "Controller functions",
+      "value": "Direct robot control, GPS path planning and diagnostics",
+      "unit": "",
+      "note": "",
+      "source": "https://cdn.prod.website-files.com/67b418349cd29a4f7829b4a5/6805d36620e2aad6e552bb0d_SPECSHEET_V3.3%20Black%2005-06-24%20(1)_1736981609615.pdf",
+      "ref": "p.2 Tele-Op Controller"
+    },
+    {
+      "group": "Controls & Operation",
+      "key": "autonomy_features",
+      "label": "Autonomy modes",
+      "value": "Perception-aided mobility; record-playback of pre-defined routes from OCU or any command-control station; Mission Control scriptable missions with reusable task-based plug-ins; footstep planning over curbs and grated surfaces",
+      "unit": "",
+      "note": "",
+      "source": "https://cdn.prod.website-files.com/67b418349cd29a4f7829b4a5/6805d36620e2aad6e552bb0d_SPECSHEET_V3.3%20Black%2005-06-24%20(1)_1736981609615.pdf",
+      "ref": "p.2 Autonomy Modes"
+    },
+    {
+      "group": "Controls & Operation",
+      "key": "manual_control",
+      "label": "Manual control (Mission Control)",
+      "value": "Basic manual command and control with third-party gamepads or joysticks",
+      "unit": "",
+      "note": "",
+      "source": "https://cdn.prod.website-files.com/67b418349cd29a4f7829b4a5/6821bc7f0a28f69e33d60eeb_Mission%20Control%20-%20Ghost%20Robotics_L0BuN0niHCgnrkr6RYRMH.pdf"
+    },
+    {
+      "group": "Controls & Operation",
+      "key": "multi_robot",
+      "label": "Shared maps",
+      "value": "Digital twin maps shared between robots so multiple units operate in the same mapped environment",
+      "unit": "",
+      "note": "",
+      "source": "https://cdn.prod.website-files.com/67b418349cd29a4f7829b4a5/6821bc7f0a28f69e33d60eeb_Mission%20Control%20-%20Ghost%20Robotics_L0BuN0niHCgnrkr6RYRMH.pdf"
+    },
+    {
+      "group": "Safety & Compliance",
+      "key": "obstacle_avoidance",
+      "label": "Collision avoidance",
+      "value": "Front and rear collision avoidance with static or moving obstacles",
+      "unit": "",
+      "note": "",
+      "source": "https://cdn.prod.website-files.com/67b418349cd29a4f7829b4a5/6805d36620e2aad6e552bb0d_SPECSHEET_V3.3%20Black%2005-06-24%20(1)_1736981609615.pdf",
+      "ref": "p.2 Autonomy Modes"
+    },
+    {
+      "group": "Safety & Compliance",
+      "key": "obstacle_avoidance",
+      "label": "Obstacle avoidance (Mission Control)",
+      "value": "3D lidar detects and navigates around static and dynamic obstacles",
+      "unit": "",
+      "note": "",
+      "source": "https://cdn.prod.website-files.com/67b418349cd29a4f7829b4a5/6821bc7f0a28f69e33d60eeb_Mission%20Control%20-%20Ghost%20Robotics_L0BuN0niHCgnrkr6RYRMH.pdf"
+    },
+    {
+      "group": "Connectivity & Interfaces",
+      "key": "video_streaming",
+      "label": "Live video & detection",
+      "value": "Live multi-camera and thermal video streams; real-time people and vehicle detections overlaid on map",
+      "unit": "",
+      "note": "",
+      "source": "https://cdn.prod.website-files.com/67b418349cd29a4f7829b4a5/6821bc7f0a28f69e33d60eeb_Mission%20Control%20-%20Ghost%20Robotics_L0BuN0niHCgnrkr6RYRMH.pdf"
+    },
+    {
+      "group": "Payload & Mounting",
+      "key": "payload_configuration",
+      "label": "Payload & configuration management",
+      "value": "Setup of camera/sensor payloads; configuration tools for wireless docking, RTK positioning and lidar integration",
+      "unit": "",
+      "note": "",
+      "source": "https://cdn.prod.website-files.com/67b418349cd29a4f7829b4a5/6821bc7f0a28f69e33d60eeb_Mission%20Control%20-%20Ghost%20Robotics_L0BuN0niHCgnrkr6RYRMH.pdf"
+    },
+    {
+      "group": "Transport & Storage",
+      "key": "serviceability",
+      "label": "Field repair",
+      "value": "Quick-swap sub-assemblies within minutes: legs, battery, main CPU, front & rear sensor heads",
+      "unit": "",
+      "note": "",
+      "source": "https://cdn.prod.website-files.com/67b418349cd29a4f7829b4a5/6805d36620e2aad6e552bb0d_SPECSHEET_V3.3%20Black%2005-06-24%20(1)_1736981609615.pdf",
+      "ref": "p.1–2"
+    }
+  ]
+}

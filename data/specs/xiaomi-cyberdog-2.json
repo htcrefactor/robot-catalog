@@ -1,0 +1,1111 @@
+{
+  "id": "xiaomi-cyberdog-2",
+  "checked": "2026-11-04",
+  "documents": [
+    {
+      "title": "Xiaomi CyberDog 2 参数页 (mi.com specs)",
+      "url": "https://www.mi.com/cyberdog2/specs"
+    },
+    {
+      "title": "CyberDog 2 产品说明书 (official user manual, incl. spec-table images img8–img16)",
+      "url": "https://agreement.cyberdog.xiaomi.com/guide.html"
+    },
+    {
+      "title": "科创板日报: 小米新一代机器狗“铁蛋二号”问世 (2023-08-15)",
+      "url": "https://m.cls.cn/detail/1432577"
+    }
+  ],
+  "specs": [
+    {
+      "group": "Identity",
+      "key": "manufacturer",
+      "label": "Manufacturer",
+      "value": "Xiaomi",
+      "unit": "",
+      "note": "",
+      "source": "https://agreement.cyberdog.xiaomi.com/guide.html"
+    },
+    {
+      "group": "Identity",
+      "key": "model_number",
+      "label": "Model",
+      "value": "MS2242CN",
+      "unit": "",
+      "note": "CyberDog 2 仿生四足机器人",
+      "source": "https://www.mi.com/cyberdog2/specs",
+      "ref": "基本信息"
+    },
+    {
+      "group": "Identity",
+      "key": "certifications",
+      "label": "CMIIT ID (robot)",
+      "value": "2023AP9860",
+      "unit": "",
+      "note": "",
+      "source": "https://agreement.cyberdog.xiaomi.com/guide.html",
+      "ref": "产品参数 image (img8)"
+    },
+    {
+      "group": "Identity",
+      "key": "robot_type",
+      "label": "Robot type",
+      "value": "Small, lightweight bionic quadruped robot (仿生四足机器人)",
+      "unit": "",
+      "note": "",
+      "source": "https://agreement.cyberdog.xiaomi.com/guide.html",
+      "ref": "三、产品简介"
+    },
+    {
+      "group": "Identity",
+      "key": "release_date",
+      "label": "Unveiled",
+      "value": "2023-08-14",
+      "unit": "",
+      "note": "2023 Lei Jun annual speech",
+      "source": "https://m.cls.cn/detail/1432577"
+    },
+    {
+      "group": "Dimensions & Mass",
+      "key": "length",
+      "label": "Length (standing)",
+      "value": 562,
+      "unit": "mm",
+      "note": "",
+      "source": "https://www.mi.com/cyberdog2/specs",
+      "ref": "基本信息"
+    },
+    {
+      "group": "Dimensions & Mass",
+      "key": "width",
+      "label": "Width (standing)",
+      "value": 339,
+      "unit": "mm",
+      "note": "",
+      "source": "https://www.mi.com/cyberdog2/specs",
+      "ref": "基本信息"
+    },
+    {
+      "group": "Dimensions & Mass",
+      "key": "height_standing",
+      "label": "Height (standing)",
+      "value": 481,
+      "unit": "mm",
+      "note": "",
+      "source": "https://www.mi.com/cyberdog2/specs",
+      "ref": "基本信息"
+    },
+    {
+      "group": "Dimensions & Mass",
+      "key": "folded_dimensions",
+      "label": "Lying down (L × W × H)",
+      "value": "603 × 339 × 300",
+      "unit": "mm",
+      "note": "",
+      "source": "https://www.mi.com/cyberdog2/specs",
+      "ref": "基本信息"
+    },
+    {
+      "group": "Dimensions & Mass",
+      "key": "height_sitting",
+      "label": "Height (lying down)",
+      "value": 300,
+      "unit": "mm",
+      "note": "",
+      "source": "https://www.mi.com/cyberdog2/specs",
+      "ref": "基本信息"
+    },
+    {
+      "group": "Dimensions & Mass",
+      "key": "weight_with_battery",
+      "label": "Weight (with battery)",
+      "value": "8.9 ± 0.5",
+      "unit": "kg",
+      "note": "Xiaomi lab test data",
+      "source": "https://www.mi.com/cyberdog2/specs",
+      "ref": "基本信息"
+    },
+    {
+      "group": "Mobility & Performance",
+      "key": "degrees_of_freedom",
+      "label": "Total DoF",
+      "value": 12,
+      "unit": "",
+      "note": "",
+      "source": "https://www.mi.com/cyberdog2/specs",
+      "ref": "基本信息"
+    },
+    {
+      "group": "Actuation & Joints",
+      "key": "dof_per_leg",
+      "label": "Leg DoF",
+      "value": 3,
+      "unit": "",
+      "note": "",
+      "source": "https://www.mi.com/cyberdog2/specs",
+      "ref": "基本信息"
+    },
+    {
+      "group": "Mobility & Performance",
+      "key": "max_payload",
+      "label": "Max payload",
+      "value": 1,
+      "unit": "kg",
+      "note": "",
+      "source": "https://www.mi.com/cyberdog2/specs",
+      "ref": "运动性能"
+    },
+    {
+      "group": "Mobility & Performance",
+      "key": "max_speed",
+      "label": "Max forward speed",
+      "value": 1.6,
+      "unit": "m/s",
+      "note": "Lab-measured max forward speed",
+      "source": "https://www.mi.com/cyberdog2/specs",
+      "ref": "运动性能"
+    },
+    {
+      "group": "Mobility & Performance",
+      "key": "gaits",
+      "label": "Supported gaits",
+      "value": "Slow walk, fast walk, jog, variable-frequency, quadruped bounding run, four-leg pronk, posture display (慢走丨快走丨小跑丨变频丨四足跳跑丨四腿蹦跳丨姿态展示)",
+      "unit": "",
+      "note": "",
+      "source": "https://www.mi.com/cyberdog2/specs",
+      "ref": "运动性能"
+    },
+    {
+      "group": "Mobility & Performance",
+      "key": "motion_modes",
+      "label": "Actions",
+      "value": "Stand, lie down, sit, bow, head turn, hip wiggle, stretch, push-up, enhanced stand-up, shake right hand, shake left hand, ballet, moonwalk, jump in place, standing long jump, spin-jump left, spin-jump right, bow with heart, leash walk (19)",
+      "unit": "",
+      "note": "",
+      "source": "https://www.mi.com/cyberdog2/specs",
+      "ref": "运动性能 更多能力"
+    },
+    {
+      "group": "Mobility & Performance",
+      "key": "balance_controller",
+      "label": "Dynamic balance",
+      "value": true,
+      "unit": "",
+      "note": "",
+      "source": "https://www.mi.com/cyberdog2/specs",
+      "ref": "运动性能"
+    },
+    {
+      "group": "Safety & Compliance",
+      "key": "fall_recovery",
+      "label": "Fall recovery",
+      "value": true,
+      "unit": "",
+      "note": "倒地恢复",
+      "source": "https://www.mi.com/cyberdog2/specs",
+      "ref": "运动性能"
+    },
+    {
+      "group": "Safety & Compliance",
+      "key": "fall_protection",
+      "label": "Fall protection",
+      "value": true,
+      "unit": "",
+      "note": "摔倒保护",
+      "source": "https://www.mi.com/cyberdog2/specs",
+      "ref": "运动性能"
+    },
+    {
+      "group": "Mobility & Performance",
+      "key": "acrobatics",
+      "label": "Backflip / consecutive backflip",
+      "value": "Supported; requires ~1.5 m clear behind (backflip) or ~4 m (consecutive backflips)",
+      "unit": "",
+      "note": "",
+      "source": "https://agreement.cyberdog.xiaomi.com/guide.html",
+      "ref": "五(一)(12), 五(四)(13)"
+    },
+    {
+      "group": "Terrain & Navigation Limits",
+      "key": "surface_types",
+      "label": "Unsuitable surfaces",
+      "value": "Do not use on uneven ground, steep slopes, mud, loose material, gravel, wet/slippery floors, ice, puddles, complex grass; indoors use rubber mats/carpet",
+      "unit": "",
+      "note": "",
+      "source": "https://agreement.cyberdog.xiaomi.com/guide.html",
+      "ref": "五(一)(3)(5)"
+    },
+    {
+      "group": "Terrain & Navigation Limits",
+      "key": "navigation_method",
+      "label": "Autonomy",
+      "value": "Visual follow and navigation (do not work in low light); UWB tag follow with remote",
+      "unit": "",
+      "note": "",
+      "source": "https://agreement.cyberdog.xiaomi.com/guide.html",
+      "ref": "五(四)(2), 七"
+    },
+    {
+      "group": "Power & Battery",
+      "key": "battery_model",
+      "label": "Battery model",
+      "value": "DH21050CXM",
+      "unit": "",
+      "note": "",
+      "source": "https://agreement.cyberdog.xiaomi.com/guide.html",
+      "ref": "电池参数 (img10)"
+    },
+    {
+      "group": "Power & Battery",
+      "key": "battery_chemistry",
+      "label": "Battery type",
+      "value": "Rechargeable lithium-ion polymer",
+      "unit": "",
+      "note": "",
+      "source": "https://www.mi.com/cyberdog2/specs",
+      "ref": "电池参数"
+    },
+    {
+      "group": "Power & Battery",
+      "key": "battery_voltage",
+      "label": "Nominal voltage",
+      "value": 21.6,
+      "unit": "V",
+      "note": "",
+      "source": "https://www.mi.com/cyberdog2/specs",
+      "ref": "电池参数"
+    },
+    {
+      "group": "Power & Battery",
+      "key": "battery_voltage_max",
+      "label": "Charge limit voltage",
+      "value": 24.9,
+      "unit": "V",
+      "note": "",
+      "source": "https://www.mi.com/cyberdog2/specs",
+      "ref": "电池参数"
+    },
+    {
+      "group": "Power & Battery",
+      "key": "battery_capacity_ah",
+      "label": "Rated capacity",
+      "value": 4500,
+      "unit": "mAh",
+      "note": "",
+      "source": "https://www.mi.com/cyberdog2/specs",
+      "ref": "电池参数"
+    },
+    {
+      "group": "Power & Battery",
+      "key": "battery_capacity",
+      "label": "Rated energy",
+      "value": 97.2,
+      "unit": "Wh",
+      "note": "",
+      "source": "https://www.mi.com/cyberdog2/specs",
+      "ref": "电池参数"
+    },
+    {
+      "group": "Power & Battery",
+      "key": "runtime",
+      "label": "Runtime",
+      "value": 90,
+      "unit": "min",
+      "note": "Approx.; combined test of lying down, standing, static posture display and stable walking on normal ground",
+      "source": "https://www.mi.com/cyberdog2/specs",
+      "ref": "电池参数"
+    },
+    {
+      "group": "Power & Battery",
+      "key": "battery_protection",
+      "label": "Battery protection",
+      "value": "Balanced charging; over-voltage, under-voltage, over-current, short-circuit and over-temperature protection",
+      "unit": "",
+      "note": "",
+      "source": "https://www.mi.com/cyberdog2/specs",
+      "ref": "电池参数"
+    },
+    {
+      "group": "Power & Battery",
+      "key": "battery_certification",
+      "label": "Battery standards",
+      "value": "GB31241-2014; UN38.3",
+      "unit": "",
+      "note": "",
+      "source": "https://www.mi.com/cyberdog2/specs",
+      "ref": "电池参数"
+    },
+    {
+      "group": "Power & Battery",
+      "key": "battery_swappable",
+      "label": "Swappable battery",
+      "value": false,
+      "unit": "",
+      "note": "Built-in, non-removable; do not disassemble",
+      "source": "https://agreement.cyberdog.xiaomi.com/guide.html",
+      "ref": "五(三)【注意】"
+    },
+    {
+      "group": "Power & Battery",
+      "key": "low_battery_alarm",
+      "label": "Low battery indication",
+      "value": "Head/tail lights red meteor effect when battery < 20 %",
+      "unit": "",
+      "note": "",
+      "source": "https://agreement.cyberdog.xiaomi.com/guide.html",
+      "ref": "指示灯状态说明 (img16)"
+    },
+    {
+      "group": "Charging & Docking",
+      "key": "charge_time",
+      "label": "Charging time",
+      "value": 90,
+      "unit": "min",
+      "note": "Approx.",
+      "source": "https://www.mi.com/cyberdog2/specs",
+      "ref": "电池参数"
+    },
+    {
+      "group": "Charging & Docking",
+      "key": "charger_model",
+      "label": "Power adapter model",
+      "value": "MDY-13-EU",
+      "unit": "",
+      "note": "",
+      "source": "https://www.mi.com/cyberdog2/specs",
+      "ref": "电源适配器"
+    },
+    {
+      "group": "Charging & Docking",
+      "key": "charger_input",
+      "label": "Adapter input",
+      "value": "100–240 V~ 50/60 Hz 3.0 A",
+      "unit": "",
+      "note": "",
+      "source": "https://www.mi.com/cyberdog2/specs",
+      "ref": "电源适配器"
+    },
+    {
+      "group": "Charging & Docking",
+      "key": "charger_output",
+      "label": "Adapter output",
+      "value": "20 V ⎓ 10.5 A max",
+      "unit": "",
+      "note": "",
+      "source": "https://www.mi.com/cyberdog2/specs",
+      "ref": "电源适配器"
+    },
+    {
+      "group": "Charging & Docking",
+      "key": "charger_certifications",
+      "label": "Adapter standards",
+      "value": "GB 17625.1-2012; GB 4943.1-2011; GB/T 9254.1-2021",
+      "unit": "",
+      "note": "",
+      "source": "https://www.mi.com/cyberdog2/specs",
+      "ref": "电源适配器"
+    },
+    {
+      "group": "Charging & Docking",
+      "key": "charging_method",
+      "label": "Charging",
+      "value": "Official adapter + fast-charge cable into back charging port (CHARGER) while robot lies prone; auto-stops when full; do not charge > 24 h",
+      "unit": "",
+      "note": "",
+      "source": "https://agreement.cyberdog.xiaomi.com/guide.html",
+      "ref": "四.1, 五(三)(9)(10)"
+    },
+    {
+      "group": "Environment & Protection",
+      "key": "charging_temperature",
+      "label": "Recommended charging temperature",
+      "value": "0 to 40",
+      "unit": "°C",
+      "note": "",
+      "source": "https://agreement.cyberdog.xiaomi.com/guide.html",
+      "ref": "四.1 充电说明"
+    },
+    {
+      "group": "Environment & Protection",
+      "key": "operating_temperature",
+      "label": "Operating temperature",
+      "value": "0 to 40",
+      "unit": "°C",
+      "note": "",
+      "source": "https://www.mi.com/cyberdog2/specs",
+      "ref": "其它参数"
+    },
+    {
+      "group": "Environment & Protection",
+      "key": "storage_temperature",
+      "label": "Storage temperature limits",
+      "value": "-10 to 45",
+      "unit": "°C",
+      "note": "Never store above 45 °C or below -10 °C",
+      "source": "https://agreement.cyberdog.xiaomi.com/guide.html",
+      "ref": "五(五)(8)"
+    },
+    {
+      "group": "Transport & Storage",
+      "key": "storage_conditions",
+      "label": "Long-term storage (> 3 months)",
+      "value": "20–25 °C, 0–60 % RH, charge ≤ 80 % (30–50 % best); recharge if < 20 %; cycle every ~3 months",
+      "unit": "",
+      "note": "",
+      "source": "https://agreement.cyberdog.xiaomi.com/guide.html",
+      "ref": "五(五)(11)(12)"
+    },
+    {
+      "group": "Environment & Protection",
+      "key": "water_resistance",
+      "label": "Water resistance",
+      "value": "Not waterproof – do not immerse or wash with strong water jets",
+      "unit": "",
+      "note": "",
+      "source": "https://agreement.cyberdog.xiaomi.com/guide.html",
+      "ref": "五(一)(6)"
+    },
+    {
+      "group": "Environment & Protection",
+      "key": "prohibited_conditions",
+      "label": "Prohibited weather",
+      "value": "Strong wind, snow, rain, thunderstorms, fog; strong EMI or poor signal areas",
+      "unit": "",
+      "note": "",
+      "source": "https://agreement.cyberdog.xiaomi.com/guide.html",
+      "ref": "五(一)(4)(9)(10)"
+    },
+    {
+      "group": "Sensors & Perception",
+      "key": "depth_camera_model",
+      "label": "Depth camera",
+      "value": "Intel® RealSense™ D430",
+      "unit": "",
+      "note": "",
+      "source": "https://www.mi.com/cyberdog2/specs",
+      "ref": "视觉感知系统"
+    },
+    {
+      "group": "Sensors & Perception",
+      "key": "camera_type",
+      "label": "AI interaction camera",
+      "value": "13 MP",
+      "unit": "",
+      "note": "",
+      "source": "https://www.mi.com/cyberdog2/specs",
+      "ref": "视觉感知系统"
+    },
+    {
+      "group": "Sensors & Perception",
+      "key": "camera_resolution",
+      "label": "RGB camera",
+      "value": "1 MP",
+      "unit": "",
+      "note": "",
+      "source": "https://www.mi.com/cyberdog2/specs",
+      "ref": "视觉感知系统"
+    },
+    {
+      "group": "Sensors & Perception",
+      "key": "camera_fov",
+      "label": "Fisheye camera FOV",
+      "value": 146,
+      "unit": "°",
+      "note": "",
+      "source": "https://www.mi.com/cyberdog2/specs",
+      "ref": "视觉感知系统"
+    },
+    {
+      "group": "Sensors & Perception",
+      "key": "lidar_model",
+      "label": "Laser sensor",
+      "value": "YDLIDAR TG30",
+      "unit": "",
+      "note": "",
+      "source": "https://www.mi.com/cyberdog2/specs",
+      "ref": "视觉感知系统"
+    },
+    {
+      "group": "Sensors & Perception",
+      "key": "tof_sensor",
+      "label": "ToF",
+      "value": "ToF sensors (head front and belly)",
+      "unit": "",
+      "note": "",
+      "source": "https://agreement.cyberdog.xiaomi.com/guide.html",
+      "ref": "传感器配置 (img3, img4)"
+    },
+    {
+      "group": "Sensors & Perception",
+      "key": "ultrasonic_sensors",
+      "label": "Ultrasonic sensor",
+      "value": "Chest-mounted ultrasonic sensor",
+      "unit": "",
+      "note": "",
+      "source": "https://agreement.cyberdog.xiaomi.com/guide.html",
+      "ref": "传感器配置 (img3)"
+    },
+    {
+      "group": "Sensors & Perception",
+      "key": "touch_sensor",
+      "label": "Touch sensor",
+      "value": "Head touch area",
+      "unit": "",
+      "note": "",
+      "source": "https://www.mi.com/cyberdog2/specs",
+      "ref": "传感器"
+    },
+    {
+      "group": "Sensors & Perception",
+      "key": "microphones",
+      "label": "Microphones",
+      "value": "MIC",
+      "unit": "",
+      "note": "",
+      "source": "https://www.mi.com/cyberdog2/specs",
+      "ref": "传感器"
+    },
+    {
+      "group": "Sensors & Perception",
+      "key": "imu",
+      "label": "IMU",
+      "value": true,
+      "unit": "",
+      "note": "",
+      "source": "https://www.mi.com/cyberdog2/specs",
+      "ref": "传感器"
+    },
+    {
+      "group": "Sensors & Perception",
+      "key": "uwb",
+      "label": "UWB",
+      "value": "UWB (remote tag positioning)",
+      "unit": "",
+      "note": "",
+      "source": "https://www.mi.com/cyberdog2/specs",
+      "ref": "传感器"
+    },
+    {
+      "group": "Sensors & Perception",
+      "key": "sensor_count",
+      "label": "Sensor count",
+      "value": 19,
+      "unit": "",
+      "note": "Per Xiaomi at launch",
+      "source": "https://m.cls.cn/detail/1432577"
+    },
+    {
+      "group": "Sensors & Perception",
+      "key": "sensor_list",
+      "label": "Sensors",
+      "value": "Intel RealSense D430 depth camera, touch sensor, fisheye camera, TG30 laser sensor, RGB camera, ultrasonic sensor, AI interaction camera, ToF, MIC, UWB, IMU",
+      "unit": "",
+      "note": "",
+      "source": "https://www.mi.com/cyberdog2/specs",
+      "ref": "传感器"
+    },
+    {
+      "group": "Compute & Software",
+      "key": "cpu",
+      "label": "CPU",
+      "value": "6-core NVIDIA Carmel ARM v8.2 64-bit",
+      "unit": "",
+      "note": "",
+      "source": "https://www.mi.com/cyberdog2/specs",
+      "ref": "处理器和储存"
+    },
+    {
+      "group": "Compute & Software",
+      "key": "gpu",
+      "label": "GPU",
+      "value": "384-core NVIDIA Volta with 48 Tensor Cores",
+      "unit": "",
+      "note": "",
+      "source": "https://www.mi.com/cyberdog2/specs",
+      "ref": "处理器和储存"
+    },
+    {
+      "group": "Compute & Software",
+      "key": "ram",
+      "label": "Memory (RAM)",
+      "value": "8 GB 128-bit LPDDR4x",
+      "unit": "",
+      "note": "",
+      "source": "https://www.mi.com/cyberdog2/specs",
+      "ref": "处理器和储存"
+    },
+    {
+      "group": "Compute & Software",
+      "key": "storage",
+      "label": "eMMC",
+      "value": "16 GB eMMC 5.1",
+      "unit": "",
+      "note": "",
+      "source": "https://www.mi.com/cyberdog2/specs",
+      "ref": "处理器和储存"
+    },
+    {
+      "group": "Compute & Software",
+      "key": "storage",
+      "label": "SD card",
+      "value": "32 GB Class 10 industrial grade",
+      "unit": "",
+      "note": "",
+      "source": "https://www.mi.com/cyberdog2/specs",
+      "ref": "处理器和储存"
+    },
+    {
+      "group": "Compute & Software",
+      "key": "ai_performance_tops",
+      "label": "AI processor",
+      "value": 21,
+      "unit": "TOPS",
+      "note": "Plus motion-control and voice-interaction processors",
+      "source": "https://m.cls.cn/detail/1432577"
+    },
+    {
+      "group": "Compute & Software",
+      "key": "operating_system",
+      "label": "Operating system",
+      "value": "Ubuntu 18.04 + ROS2",
+      "unit": "",
+      "note": "",
+      "source": "https://www.mi.com/cyberdog2/specs",
+      "ref": "操作系统"
+    },
+    {
+      "group": "Compute & Software",
+      "key": "ros_version",
+      "label": "ROS version",
+      "value": "ROS 2",
+      "unit": "",
+      "note": "",
+      "source": "https://www.mi.com/cyberdog2/specs",
+      "ref": "操作系统"
+    },
+    {
+      "group": "Compute & Software",
+      "key": "graphical_programming",
+      "label": "Visual programming",
+      "value": "App visual programming; 50+ modules",
+      "unit": "",
+      "note": "Module count per launch report",
+      "source": "https://m.cls.cn/detail/1432577"
+    },
+    {
+      "group": "Compute & Software",
+      "key": "sdk",
+      "label": "Open source",
+      "value": "System code, structural drawings, function interfaces open; 100+ open interfaces",
+      "unit": "",
+      "note": "",
+      "source": "https://m.cls.cn/detail/1432577"
+    },
+    {
+      "group": "Connectivity & Interfaces",
+      "key": "wifi",
+      "label": "Wi-Fi",
+      "value": "IEEE 802.11 a/b/g/n/ac",
+      "unit": "",
+      "note": "",
+      "source": "https://www.mi.com/cyberdog2/specs",
+      "ref": "无线配置"
+    },
+    {
+      "group": "Connectivity & Interfaces",
+      "key": "bluetooth",
+      "label": "Bluetooth",
+      "value": "5.0",
+      "unit": "",
+      "note": "",
+      "source": "https://www.mi.com/cyberdog2/specs",
+      "ref": "无线配置"
+    },
+    {
+      "group": "Connectivity & Interfaces",
+      "key": "usb_ports",
+      "label": "External interface",
+      "value": "Type-C × 1",
+      "unit": "",
+      "note": "",
+      "source": "https://www.mi.com/cyberdog2/specs",
+      "ref": "外置接口"
+    },
+    {
+      "group": "Payload & Mounting",
+      "key": "top_module_interface",
+      "label": "Expansion slot",
+      "value": "Expansion interface slot (扩展接口槽) on back",
+      "unit": "",
+      "note": "",
+      "source": "https://agreement.cyberdog.xiaomi.com/guide.html",
+      "ref": "部件名称 (img1)"
+    },
+    {
+      "group": "Actuation & Joints",
+      "key": "actuator_model",
+      "label": "Joint motor",
+      "value": "Xiaomi CyberGear micro-actuator ×12",
+      "unit": "",
+      "note": "",
+      "source": "https://m.cls.cn/detail/1432577"
+    },
+    {
+      "group": "Actuation & Joints",
+      "key": "joint_dimensions",
+      "label": "Motor dimensions",
+      "value": "Φ80.5 × 36.5",
+      "unit": "mm",
+      "note": "",
+      "source": "https://agreement.cyberdog.xiaomi.com/guide.html",
+      "ref": "电机参数 (img12)"
+    },
+    {
+      "group": "Actuation & Joints",
+      "key": "joint_mass",
+      "label": "Motor weight",
+      "value": "317 ± 3",
+      "unit": "g",
+      "note": "",
+      "source": "https://agreement.cyberdog.xiaomi.com/guide.html",
+      "ref": "电机参数"
+    },
+    {
+      "group": "Actuation & Joints",
+      "key": "rated_voltage",
+      "label": "Motor rated voltage",
+      "value": 24,
+      "unit": "V",
+      "note": "Working voltage 16–28 VDC",
+      "source": "https://agreement.cyberdog.xiaomi.com/guide.html",
+      "ref": "电机参数"
+    },
+    {
+      "group": "Actuation & Joints",
+      "key": "stall_current",
+      "label": "Motor max current",
+      "value": "23 ± 10 %",
+      "unit": "A",
+      "note": "",
+      "source": "https://agreement.cyberdog.xiaomi.com/guide.html",
+      "ref": "电机参数"
+    },
+    {
+      "group": "Actuation & Joints",
+      "key": "max_joint_torque",
+      "label": "Motor max torque",
+      "value": "±12",
+      "unit": "N·m",
+      "note": "",
+      "source": "https://agreement.cyberdog.xiaomi.com/guide.html",
+      "ref": "电机参数"
+    },
+    {
+      "group": "Actuation & Joints",
+      "key": "joint_speed",
+      "label": "Motor max speed",
+      "value": "296 ± 10 %",
+      "unit": "rpm",
+      "note": "",
+      "source": "https://agreement.cyberdog.xiaomi.com/guide.html",
+      "ref": "电机参数"
+    },
+    {
+      "group": "Actuation & Joints",
+      "key": "joint_encoder",
+      "label": "Encoder resolution",
+      "value": 14,
+      "unit": "bit",
+      "note": "",
+      "source": "https://agreement.cyberdog.xiaomi.com/guide.html",
+      "ref": "电机参数"
+    },
+    {
+      "group": "Compute & Software",
+      "key": "control_frequency",
+      "label": "Motor control frequency",
+      "value": 20,
+      "unit": "kHz",
+      "note": "",
+      "source": "https://agreement.cyberdog.xiaomi.com/guide.html",
+      "ref": "电机参数"
+    },
+    {
+      "group": "Connectivity & Interfaces",
+      "key": "can_bus",
+      "label": "Motor communication",
+      "value": "CAN 2.0",
+      "unit": "",
+      "note": "",
+      "source": "https://agreement.cyberdog.xiaomi.com/guide.html",
+      "ref": "电机参数"
+    },
+    {
+      "group": "Audio, Lights & HMI",
+      "key": "speaker",
+      "label": "Speaker",
+      "value": true,
+      "unit": "",
+      "note": "",
+      "source": "https://agreement.cyberdog.xiaomi.com/guide.html",
+      "ref": "部件名称 (img1)"
+    },
+    {
+      "group": "Audio, Lights & HMI",
+      "key": "display",
+      "label": "Display",
+      "value": "Mini LED display on head",
+      "unit": "",
+      "note": "",
+      "source": "https://agreement.cyberdog.xiaomi.com/guide.html",
+      "ref": "部件名称 (img2)"
+    },
+    {
+      "group": "Audio, Lights & HMI",
+      "key": "status_lights",
+      "label": "Head & tail lights",
+      "value": "Blue meteor: normal; red meteor: battery < 20 %; orange slow blink: QR network pairing; orange sequential: follow on; blue sequential: charging; red fast blink: shutting down",
+      "unit": "",
+      "note": "",
+      "source": "https://agreement.cyberdog.xiaomi.com/guide.html",
+      "ref": "指示灯状态说明 (img16)"
+    },
+    {
+      "group": "Audio, Lights & HMI",
+      "key": "voice_function",
+      "label": "Voice interaction",
+      "value": "XiaoAI (小爱同学) voice technology; wake word 铁蛋铁蛋",
+      "unit": "",
+      "note": "",
+      "source": "https://www.mi.com/cyberdog2/specs",
+      "ref": "语音系统"
+    },
+    {
+      "group": "Audio, Lights & HMI",
+      "key": "voice_content",
+      "label": "Voice commands",
+      "value": "Back/forward + steps, turn in place, follow me, high-five, sit, shake hands, jump, switch hand, wag tail, ballet, moonwalk, shake head, nod, New-Year bow",
+      "unit": "",
+      "note": "",
+      "source": "https://agreement.cyberdog.xiaomi.com/guide.html",
+      "ref": "语音指令词 (img17)"
+    },
+    {
+      "group": "Controls & Operation",
+      "key": "controller",
+      "label": "Controllers",
+      "value": "Android app (Mi account), Bluetooth remote (joystick + UWB tag), voice",
+      "unit": "",
+      "note": "",
+      "source": "https://agreement.cyberdog.xiaomi.com/guide.html",
+      "ref": "四.3, 七"
+    },
+    {
+      "group": "Controls & Operation",
+      "key": "app_support",
+      "label": "App platform",
+      "value": "Android only",
+      "unit": "",
+      "note": "",
+      "source": "https://agreement.cyberdog.xiaomi.com/guide.html",
+      "ref": "四.3 注"
+    },
+    {
+      "group": "Controls & Operation",
+      "key": "follow_module",
+      "label": "UWB tag follow",
+      "value": "Robot follows the Bluetooth remote's UWB tag; started via app or voice",
+      "unit": "",
+      "note": "",
+      "source": "https://agreement.cyberdog.xiaomi.com/guide.html",
+      "ref": "七"
+    },
+    {
+      "group": "Controls & Operation",
+      "key": "controller_model",
+      "label": "Remote model",
+      "value": "MS2241CNUB",
+      "unit": "",
+      "note": "CMIIT ID 2022DP17442",
+      "source": "https://agreement.cyberdog.xiaomi.com/guide.html",
+      "ref": "遥控器参数 (img13)"
+    },
+    {
+      "group": "Controls & Operation",
+      "key": "controller_dimensions",
+      "label": "Remote dimensions",
+      "value": "71.5 × 28.5 × 21.3",
+      "unit": "mm",
+      "note": "",
+      "source": "https://agreement.cyberdog.xiaomi.com/guide.html",
+      "ref": "遥控器参数"
+    },
+    {
+      "group": "Controls & Operation",
+      "key": "controller_weight",
+      "label": "Remote weight",
+      "value": 21.6,
+      "unit": "g",
+      "note": "",
+      "source": "https://agreement.cyberdog.xiaomi.com/guide.html",
+      "ref": "遥控器参数"
+    },
+    {
+      "group": "Controls & Operation",
+      "key": "controller_battery",
+      "label": "Remote battery",
+      "value": "Li-ion polymer 227 mAh, 3.87 V, 0.87 Wh; charge limit 4.45 V",
+      "unit": "",
+      "note": "",
+      "source": "https://agreement.cyberdog.xiaomi.com/guide.html",
+      "ref": "遥控器参数"
+    },
+    {
+      "group": "Controls & Operation",
+      "key": "controller_runtime",
+      "label": "Remote runtime",
+      "value": "24 h remote mode; 7 h follow mode",
+      "unit": "",
+      "note": "",
+      "source": "https://agreement.cyberdog.xiaomi.com/guide.html",
+      "ref": "遥控器参数"
+    },
+    {
+      "group": "Controls & Operation",
+      "key": "controller_charge_time",
+      "label": "Remote charge time",
+      "value": 1.5,
+      "unit": "h",
+      "note": "",
+      "source": "https://agreement.cyberdog.xiaomi.com/guide.html",
+      "ref": "遥控器参数"
+    },
+    {
+      "group": "Controls & Operation",
+      "key": "operator_buttons",
+      "label": "Remote button functions",
+      "value": "Hold 2 s on/off; single press battery; double press switch gait; double press + hold 3 s pairing; triple press tag follow on/off",
+      "unit": "",
+      "note": "",
+      "source": "https://agreement.cyberdog.xiaomi.com/guide.html",
+      "ref": "img22"
+    },
+    {
+      "group": "Controls & Operation",
+      "key": "power_button_hold_time",
+      "label": "Power button hold time",
+      "value": 3,
+      "unit": "s",
+      "note": "10 s forces shutdown",
+      "source": "https://agreement.cyberdog.xiaomi.com/guide.html",
+      "ref": "四.2"
+    },
+    {
+      "group": "Safety & Compliance",
+      "key": "stopping_distance",
+      "label": "Braking distance",
+      "value": "May exceed 1 m",
+      "unit": "",
+      "note": "",
+      "source": "https://agreement.cyberdog.xiaomi.com/guide.html",
+      "ref": "五(一)(1)"
+    },
+    {
+      "group": "Safety & Compliance",
+      "key": "min_safe_distance",
+      "label": "Clearance before power-on",
+      "value": 2,
+      "unit": "m",
+      "note": "",
+      "source": "https://agreement.cyberdog.xiaomi.com/guide.html",
+      "ref": "四.2"
+    },
+    {
+      "group": "Safety & Compliance",
+      "key": "intended_use",
+      "label": "Intended use",
+      "value": "Companion/entertainment, performance, science education, learning and industry development",
+      "unit": "",
+      "note": "",
+      "source": "https://agreement.cyberdog.xiaomi.com/guide.html",
+      "ref": "三"
+    },
+    {
+      "group": "Safety & Compliance",
+      "key": "user_age_restriction",
+      "label": "User age",
+      "value": "18+ only; keep away from children",
+      "unit": "",
+      "note": "",
+      "source": "https://agreement.cyberdog.xiaomi.com/guide.html",
+      "ref": "一、法律声明"
+    },
+    {
+      "group": "Safety & Compliance",
+      "key": "prohibited_uses",
+      "label": "Prohibited uses",
+      "value": "Public roads, crowded places, cargo transport, carrying/launching dangerous objects, surveillance, sensitive facilities",
+      "unit": "",
+      "note": "",
+      "source": "https://agreement.cyberdog.xiaomi.com/guide.html",
+      "ref": "五(四)(六)"
+    },
+    {
+      "group": "Safety & Compliance",
+      "key": "hazardous_substances",
+      "label": "Hazardous substances disclosure",
+      "value": "SJ/T 11364 table; lead exceeds GB/T 26572 limit in circuit boards, metal parts, battery",
+      "unit": "",
+      "note": "",
+      "source": "https://agreement.cyberdog.xiaomi.com/guide.html",
+      "ref": "img14"
+    },
+    {
+      "group": "Commercial",
+      "key": "included_accessories",
+      "label": "Package contents",
+      "value": "Robot ×1; Bluetooth remote (joystick + UWB tag) ×1; power adapter + fast-charge cable ×1; hex screwdriver ×1; stickers ×2; manual ×1; legal notice ×1",
+      "unit": "",
+      "note": "",
+      "source": "https://www.mi.com/cyberdog2/specs",
+      "ref": "包装清单"
+    },
+    {
+      "group": "Commercial",
+      "key": "price",
+      "label": "Launch price",
+      "value": 12999,
+      "unit": "CNY",
+      "note": "Purchase requires qualification review",
+      "source": "https://m.cls.cn/detail/1432577"
+    },
+    {
+      "group": "Commercial",
+      "key": "warranty",
+      "label": "Warranty",
+      "value": "7-day return/exchange, 8–15-day exchange/repair, free repair thereafter within warranty; foot pads are consumables",
+      "unit": "",
+      "note": "",
+      "source": "https://agreement.cyberdog.xiaomi.com/guide.html",
+      "ref": "八"
+    },
+    {
+      "group": "Commercial",
+      "key": "availability",
+      "label": "Sales region",
+      "value": "Mainland China only (excl. HK, Macau, Taiwan)",
+      "unit": "",
+      "note": "",
+      "source": "https://agreement.cyberdog.xiaomi.com/guide.html",
+      "ref": "八(五)2"
+    },
+    {
+      "group": "Commercial",
+      "key": "optional_accessories",
+      "label": "CyberGear motor sold separately",
+      "value": 499,
+      "unit": "CNY",
+      "note": "",
+      "source": "https://m.cls.cn/detail/1432577"
+    }
+  ]
+}

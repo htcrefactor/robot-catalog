@@ -1,0 +1,289 @@
+{
+ "id": "locus-robotics-locus-origin",
+ "checked": "2026-11-04",
+ "documents": [
+  {
+   "title": "Locus Origin product page (Locus Robotics)",
+   "url": "https://locusrobotics.com/platform/locus-origin/"
+  },
+  {
+   "title": "Locus Origin Datasheet V2 (2026, Locus Robotics PDF)",
+   "url": "https://locusrobotics.com/wp-content/uploads/2026/04/Locus-Origin-Datasheet-2026.pdf"
+  },
+  {
+   "title": "Locus Origin Product Sheet (older edition, hosted by Even Logistics)",
+   "url": "https://files.even-logistics.com/production/users/uploads/LocusRobotics/solution/locusorigin/Origin-Product-Sheet.pdf?dm=1733235782"
+  },
+  {
+   "title": "Locus Origin listing by Locus Robotics supplier store, Global Robot Marketplace",
+   "url": "https://www.robotmp.com/locus-origin-amr-robot"
+  },
+  {
+   "title": "Locus Robotics FAQ",
+   "url": "https://locusrobotics.com/resources/faq/"
+  }
+ ],
+ "specs": [
+  {
+   "group": "Identity",
+   "key": "manufacturer",
+   "label": "Manufacturer",
+   "value": "Locus Robotics",
+   "unit": "",
+   "note": "",
+   "source": "https://locusrobotics.com/platform/locus-origin/"
+  },
+  {
+   "group": "Identity",
+   "key": "robot_type",
+   "label": "Robot type",
+   "value": "Collaborative autonomous mobile robot (AMR) for in-aisle order picking",
+   "unit": "",
+   "note": "",
+   "source": "https://locusrobotics.com/wp-content/uploads/2026/04/Locus-Origin-Datasheet-2026.pdf"
+  },
+  {
+   "group": "Identity",
+   "key": "spec_document_date",
+   "label": "Datasheet",
+   "value": "Locus Origin Datasheet V2 (2026)",
+   "unit": "",
+   "note": "",
+   "source": "https://locusrobotics.com/wp-content/uploads/2026/04/Locus-Origin-Datasheet-2026.pdf"
+  },
+  {
+   "group": "Dimensions & Mass",
+   "key": "overall_dimensions",
+   "label": "Dimensions",
+   "value": "22.2 x 20 x 58 in",
+   "unit": "",
+   "note": "2026 datasheet; axes not labelled",
+   "source": "https://locusrobotics.com/wp-content/uploads/2026/04/Locus-Origin-Datasheet-2026.pdf"
+  },
+  {
+   "group": "Dimensions & Mass",
+   "key": "overall_dimensions",
+   "label": "Dimensions (metric)",
+   "value": "563 x 511 x 1473.2",
+   "unit": "mm",
+   "note": "datasheet prints the unit as \"cm\"; values are mm",
+   "source": "https://locusrobotics.com/wp-content/uploads/2026/04/Locus-Origin-Datasheet-2026.pdf"
+  },
+  {
+   "group": "Dimensions & Mass",
+   "key": "overall_dimensions",
+   "label": "Dimensions",
+   "value": "20.4 x 22.8 x 62 in / 51.8 x 57.9 x 157.5 cm",
+   "unit": "",
+   "note": "product page technical specifications",
+   "source": "https://locusrobotics.com/platform/locus-origin/"
+  },
+  {
+   "group": "Dimensions & Mass",
+   "key": "width",
+   "label": "Diameter",
+   "value": 22,
+   "unit": "in",
+   "note": "listed as \"22” diameter\"",
+   "source": "https://www.robotmp.com/locus-origin-amr-robot"
+  },
+  {
+   "group": "Dimensions & Mass",
+   "key": "height",
+   "label": "Height",
+   "value": 57.8,
+   "unit": "in",
+   "note": "",
+   "source": "https://www.robotmp.com/locus-origin-amr-robot"
+  },
+  {
+   "group": "Mobility & Performance",
+   "key": "max_payload",
+   "label": "Maximum payload",
+   "value": 36,
+   "unit": "kg",
+   "note": "80 lb; CE certified to 36 kg / 80 lb",
+   "source": "https://locusrobotics.com/platform/locus-origin/"
+  },
+  {
+   "group": "Power & Battery",
+   "key": "runtime",
+   "label": "Runtime",
+   "value": 14,
+   "unit": "h",
+   "note": "\"up to 14 hours\" / \"14 hours per charge\"",
+   "source": "https://locusrobotics.com/platform/locus-origin/"
+  },
+  {
+   "group": "Power & Battery",
+   "key": "runtime",
+   "label": "Operating time",
+   "value": 8,
+   "unit": "h",
+   "note": "older product sheet: \"8 hours typical operation before charging\"",
+   "source": "https://files.even-logistics.com/production/users/uploads/LocusRobotics/solution/locusorigin/Origin-Product-Sheet.pdf?dm=1733235782"
+  },
+  {
+   "group": "Charging & Docking",
+   "key": "charge_time",
+   "label": "Charge time",
+   "value": 50,
+   "unit": "min",
+   "note": "approximately 50 minutes to full charge",
+   "source": "https://locusrobotics.com/platform/locus-origin/"
+  },
+  {
+   "group": "Sensors & Perception",
+   "key": "sensor_fusion",
+   "label": "Safety sensors",
+   "value": "8 sensors and cameras",
+   "unit": "",
+   "note": "",
+   "source": "https://www.robotmp.com/locus-origin-amr-robot"
+  },
+  {
+   "group": "Terrain & Navigation Limits",
+   "key": "navigation_method",
+   "label": "Navigation",
+   "value": "LiDAR and vision technology with Locus navigation software; multi-sensor and camera-based navigation",
+   "unit": "",
+   "note": "",
+   "source": "https://www.robotmp.com/locus-origin-amr-robot"
+  },
+  {
+   "group": "Safety & Compliance",
+   "key": "safety_features",
+   "label": "Safety system",
+   "value": "Multi-sensor and camera-based navigation",
+   "unit": "",
+   "note": "",
+   "source": "https://locusrobotics.com/platform/locus-origin/"
+  },
+  {
+   "group": "Safety & Compliance",
+   "key": "certifications",
+   "label": "Certification",
+   "value": "CE certified (European operations)",
+   "unit": "",
+   "note": "",
+   "source": "https://locusrobotics.com/platform/locus-origin/"
+  },
+  {
+   "group": "Audio, Lights & HMI",
+   "key": "display",
+   "label": "User interface",
+   "value": "iPad (tablet)-based onboard UI",
+   "unit": "",
+   "note": "",
+   "source": "https://locusrobotics.com/platform/locus-origin/"
+  },
+  {
+   "group": "Audio, Lights & HMI",
+   "key": "languages",
+   "label": "UI languages",
+   "value": "40+",
+   "unit": "",
+   "note": "",
+   "source": "https://locusrobotics.com/platform/locus-origin/"
+  },
+  {
+   "group": "Payload & Mounting",
+   "key": "container_types",
+   "label": "Container types",
+   "value": "Tote arrays (patented), bulk bins, shipping cartons/boxes, multi-level shelving, workflow-specific configurations",
+   "unit": "",
+   "note": "",
+   "source": "https://locusrobotics.com/platform/locus-origin/"
+  },
+  {
+   "group": "Sensors & Perception",
+   "key": "barcode_scanner",
+   "label": "Scanner",
+   "value": "Integrated scanner",
+   "unit": "",
+   "note": "standard feature",
+   "source": "https://www.robotmp.com/locus-origin-amr-robot"
+  },
+  {
+   "group": "Payload & Mounting",
+   "key": "payload_ports",
+   "label": "Accessory port",
+   "value": "Integrated on-board accessory port for accessories and peripherals",
+   "unit": "",
+   "note": "",
+   "source": "https://www.robotmp.com/locus-origin-amr-robot"
+  },
+  {
+   "group": "Compute & Software",
+   "key": "fleet_software",
+   "label": "Orchestration software",
+   "value": "LocusONE (with LocusIntelligence analytics); mixes Origin, Vector and Array robots",
+   "unit": "",
+   "note": "",
+   "source": "https://locusrobotics.com/platform/locus-origin/"
+  },
+  {
+   "group": "Compute & Software",
+   "key": "api",
+   "label": "Integration",
+   "value": "LocusONE integrates with WMS/WES/WCS via standard APIs and pre-built connectors",
+   "unit": "",
+   "note": "",
+   "source": "https://locusrobotics.com/resources/faq/"
+  },
+  {
+   "group": "Controls & Operation",
+   "key": "autonomy_features",
+   "label": "Workflows",
+   "value": "Picking (discrete, batch, mixed-order) & order consolidation, putaway, replenishment, returns, sortation, multi-level mezzanine pick-and-pass, transport, cycle counting",
+   "unit": "",
+   "note": "",
+   "source": "https://locusrobotics.com/platform/locus-origin/"
+  },
+  {
+   "group": "Controls & Operation",
+   "key": "gamification",
+   "label": "Gamification",
+   "value": "Optional gamification feature for worker goals/incentives",
+   "unit": "",
+   "note": "",
+   "source": "https://www.robotmp.com/locus-origin-amr-robot"
+  },
+  {
+   "group": "Controls & Operation",
+   "key": "installation_requirements",
+   "label": "Infrastructure",
+   "value": "No conveyors, safety fencing or major facility modifications required",
+   "unit": "",
+   "note": "",
+   "source": "https://locusrobotics.com/platform/locus-origin/"
+  },
+  {
+   "group": "Commercial",
+   "key": "deployment_time",
+   "label": "Deployment time",
+   "value": "<90 days",
+   "unit": "",
+   "note": "",
+   "source": "https://locusrobotics.com/platform/locus-origin/"
+  },
+  {
+   "group": "Commercial",
+   "key": "pricing_model",
+   "label": "Commercial model",
+   "value": "Robots-as-a-Service (RaaS) subscription",
+   "unit": "",
+   "note": "",
+   "source": "https://locusrobotics.com/resources/faq/"
+  },
+  {
+   "group": "Commercial",
+   "key": "installed_base",
+   "label": "Installed base",
+   "value": "360+ fulfillment sites worldwide; 150+ customers",
+   "unit": "",
+   "note": "",
+   "source": "https://locusrobotics.com/platform/locus-origin/"
+  }
+ ]
+}

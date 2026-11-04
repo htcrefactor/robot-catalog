@@ -1,0 +1,717 @@
+{
+ "id": "segway-rmp-lite-220",
+ "checked": "2026-11-04",
+ "documents": [
+  {
+   "title": "Segway RMP Lite 220 Specifications (Segway Robotics PDF)",
+   "url": "https://robotics.segway.com/wp-content/uploads/2021/04/Segway-RMP-220Lite-Specs.pdf"
+  },
+  {
+   "title": "Segway RMP Lite 220 User Manual v1.0 (Segway-Ninebot, 54 pp.)",
+   "url": "https://robotics.segway.com/wp-content/uploads/2023/10/RMP220-User-Manual-v1.0.pdf"
+  },
+  {
+   "title": "Segway Robotics RMP product page",
+   "url": "https://robotics.segway.com/rmp/"
+  },
+  {
+   "title": "Segway Robotics For Developers page",
+   "url": "https://robotics.segway.com/for-developers/"
+  }
+ ],
+ "specs": [
+  {
+   "group": "Identity",
+   "key": "manufacturer",
+   "label": "Manufacturer",
+   "value": "Segway-Ninebot (Segway Robotics)",
+   "unit": "",
+   "note": "",
+   "source": "https://robotics.segway.com/wp-content/uploads/2023/10/RMP220-User-Manual-v1.0.pdf",
+   "ref": "cover"
+  },
+  {
+   "group": "Identity",
+   "key": "robot_type",
+   "label": "Robot type",
+   "value": "Mobile robot chassis (Robot Mobile Platform) for indoor/outdoor distribution, inspection, service, cleaning and warehousing AGV",
+   "unit": "",
+   "note": "",
+   "source": "https://robotics.segway.com/wp-content/uploads/2023/10/RMP220-User-Manual-v1.0.pdf",
+   "ref": "General Information"
+  },
+  {
+   "group": "Safety & Compliance",
+   "key": "intended_use",
+   "label": "Applications",
+   "value": "Indoor/outdoor delivery, patrolling, service, cleaning (disinfecting), AGV (warehouse), special application robots",
+   "unit": "",
+   "note": "",
+   "source": "https://robotics.segway.com/wp-content/uploads/2021/04/Segway-RMP-220Lite-Specs.pdf"
+  },
+  {
+   "group": "Identity",
+   "key": "software_version",
+   "label": "Manual version",
+   "value": "RMP Lite 220 User Manual v1.0 (©2021)",
+   "unit": "",
+   "note": "",
+   "source": "https://robotics.segway.com/wp-content/uploads/2023/10/RMP220-User-Manual-v1.0.pdf"
+  },
+  {
+   "group": "Identity",
+   "key": "manufacturer_address",
+   "label": "US address (Segway Robotics)",
+   "value": "98 Spit Brook STE 2203, Nashua, NH 03062",
+   "unit": "",
+   "note": "",
+   "source": "https://robotics.segway.com/for-developers/"
+  },
+  {
+   "group": "Dimensions & Mass",
+   "key": "length",
+   "label": "Length",
+   "value": 730,
+   "unit": "mm",
+   "note": "",
+   "source": "https://robotics.segway.com/wp-content/uploads/2021/04/Segway-RMP-220Lite-Specs.pdf"
+  },
+  {
+   "group": "Dimensions & Mass",
+   "key": "width",
+   "label": "Width",
+   "value": 499,
+   "unit": "mm",
+   "note": "spec sheet",
+   "source": "https://robotics.segway.com/wp-content/uploads/2021/04/Segway-RMP-220Lite-Specs.pdf"
+  },
+  {
+   "group": "Dimensions & Mass",
+   "key": "width",
+   "label": "Width",
+   "value": 500,
+   "unit": "mm",
+   "note": "user manual Appendix I",
+   "source": "https://robotics.segway.com/wp-content/uploads/2023/10/RMP220-User-Manual-v1.0.pdf",
+   "ref": "Appendix I Table 1"
+  },
+  {
+   "group": "Dimensions & Mass",
+   "key": "height",
+   "label": "Height",
+   "value": 280,
+   "unit": "mm",
+   "note": "",
+   "source": "https://robotics.segway.com/wp-content/uploads/2021/04/Segway-RMP-220Lite-Specs.pdf"
+  },
+  {
+   "group": "Dimensions & Mass",
+   "key": "wheelbase",
+   "label": "Axle base / wheelbase",
+   "value": 513.5,
+   "unit": "mm",
+   "note": "",
+   "source": "https://robotics.segway.com/wp-content/uploads/2021/04/Segway-RMP-220Lite-Specs.pdf"
+  },
+  {
+   "group": "Dimensions & Mass",
+   "key": "track_width",
+   "label": "Wheelbase (track)",
+   "value": 413,
+   "unit": "mm",
+   "note": "spec sheet labels this \"Wheelbase\"",
+   "source": "https://robotics.segway.com/wp-content/uploads/2021/04/Segway-RMP-220Lite-Specs.pdf"
+  },
+  {
+   "group": "Dimensions & Mass",
+   "key": "track_width",
+   "label": "Tread",
+   "value": 414,
+   "unit": "mm",
+   "note": "user manual Appendix I",
+   "source": "https://robotics.segway.com/wp-content/uploads/2023/10/RMP220-User-Manual-v1.0.pdf",
+   "ref": "Appendix I Table 1"
+  },
+  {
+   "group": "Dimensions & Mass",
+   "key": "ground_clearance",
+   "label": "Ground clearance",
+   "value": 69,
+   "unit": "mm",
+   "note": "spec sheet",
+   "source": "https://robotics.segway.com/wp-content/uploads/2021/04/Segway-RMP-220Lite-Specs.pdf"
+  },
+  {
+   "group": "Dimensions & Mass",
+   "key": "ground_clearance",
+   "label": "Ground clearance",
+   "value": 68,
+   "unit": "mm",
+   "note": "user manual Appendix I",
+   "source": "https://robotics.segway.com/wp-content/uploads/2023/10/RMP220-User-Manual-v1.0.pdf",
+   "ref": "Appendix I Table 1"
+  },
+  {
+   "group": "Dimensions & Mass",
+   "key": "wheel_diameter",
+   "label": "Tire size",
+   "value": 280,
+   "unit": "mm",
+   "note": "11 in hub-motor wheel",
+   "source": "https://robotics.segway.com/wp-content/uploads/2021/04/Segway-RMP-220Lite-Specs.pdf"
+  },
+  {
+   "group": "Dimensions & Mass",
+   "key": "tire_type",
+   "label": "Tire size",
+   "value": "11 in (280 mm) hub motor",
+   "unit": "",
+   "note": "",
+   "source": "https://robotics.segway.com/wp-content/uploads/2021/04/Segway-RMP-220Lite-Specs.pdf"
+  },
+  {
+   "group": "Dimensions & Mass",
+   "key": "weight",
+   "label": "Weight",
+   "value": 33,
+   "unit": "kg",
+   "note": "spec sheet",
+   "source": "https://robotics.segway.com/wp-content/uploads/2021/04/Segway-RMP-220Lite-Specs.pdf"
+  },
+  {
+   "group": "Dimensions & Mass",
+   "key": "weight_with_battery",
+   "label": "Weight (with battery)",
+   "value": 27.2,
+   "unit": "kg",
+   "note": "user manual Appendix I (differs from 33 kg on spec sheet)",
+   "source": "https://robotics.segway.com/wp-content/uploads/2023/10/RMP220-User-Manual-v1.0.pdf",
+   "ref": "Appendix I Table 1"
+  },
+  {
+   "group": "Mobility & Performance",
+   "key": "rated_payload",
+   "label": "Standard / nominal load",
+   "value": 50,
+   "unit": "kg",
+   "note": "",
+   "source": "https://robotics.segway.com/wp-content/uploads/2021/04/Segway-RMP-220Lite-Specs.pdf"
+  },
+  {
+   "group": "Mobility & Performance",
+   "key": "max_speed",
+   "label": "Max speed",
+   "value": 3,
+   "unit": "m/s",
+   "note": "",
+   "source": "https://robotics.segway.com/wp-content/uploads/2021/04/Segway-RMP-220Lite-Specs.pdf"
+  },
+  {
+   "group": "Mobility & Performance",
+   "key": "max_yaw_rate",
+   "label": "Max steering speed",
+   "value": 3,
+   "unit": "rad/s",
+   "note": "",
+   "source": "https://robotics.segway.com/wp-content/uploads/2021/04/Segway-RMP-220Lite-Specs.pdf"
+  },
+  {
+   "group": "Mobility & Performance",
+   "key": "turning_radius",
+   "label": "Minimum turning radius",
+   "value": 0,
+   "unit": "m",
+   "note": "",
+   "source": "https://robotics.segway.com/wp-content/uploads/2021/04/Segway-RMP-220Lite-Specs.pdf"
+  },
+  {
+   "group": "Mobility & Performance",
+   "key": "drive_train",
+   "label": "Drive",
+   "value": "FWD, differential steering",
+   "unit": "",
+   "note": "manual: front drive, differential steering",
+   "source": "https://robotics.segway.com/wp-content/uploads/2021/04/Segway-RMP-220Lite-Specs.pdf"
+  },
+  {
+   "group": "Mobility & Performance",
+   "key": "drive_motor",
+   "label": "Drive motors",
+   "value": "Hub motors (11 in)",
+   "unit": "",
+   "note": "",
+   "source": "https://robotics.segway.com/wp-content/uploads/2021/04/Segway-RMP-220Lite-Specs.pdf"
+  },
+  {
+   "group": "Mobility & Performance",
+   "key": "tire_type",
+   "label": "Driving wheels",
+   "value": "11 in high-adhesion pneumatic tire with drainage grooves, good shock absorption",
+   "unit": "",
+   "note": "",
+   "source": "https://robotics.segway.com/wp-content/uploads/2023/10/RMP220-User-Manual-v1.0.pdf",
+   "ref": "§1.2 Table 1"
+  },
+  {
+   "group": "Mobility & Performance",
+   "key": "caster_material",
+   "label": "Universal (caster) wheel",
+   "value": "Super artificial rubber, lightweight, shock absorbing",
+   "unit": "",
+   "note": "",
+   "source": "https://robotics.segway.com/wp-content/uploads/2023/10/RMP220-User-Manual-v1.0.pdf",
+   "ref": "§1.2 Table 1"
+  },
+  {
+   "group": "Mobility & Performance",
+   "key": "max_deceleration",
+   "label": "Braking acceleration",
+   "value": 0.5,
+   "unit": "g",
+   "note": "",
+   "source": "https://robotics.segway.com/wp-content/uploads/2021/04/Segway-RMP-220Lite-Specs.pdf"
+  },
+  {
+   "group": "Safety & Compliance",
+   "key": "stopping_distance",
+   "label": "Braking distance",
+   "value": 0.9,
+   "unit": "m",
+   "note": "no load, from 3 m/s (spec sheet)",
+   "source": "https://robotics.segway.com/wp-content/uploads/2021/04/Segway-RMP-220Lite-Specs.pdf"
+  },
+  {
+   "group": "Safety & Compliance",
+   "key": "stopping_distance",
+   "label": "Braking distance",
+   "value": 0.95,
+   "unit": "m",
+   "note": "no load, from 3 m/s (user manual Appendix I)",
+   "source": "https://robotics.segway.com/wp-content/uploads/2023/10/RMP220-User-Manual-v1.0.pdf",
+   "ref": "Appendix I Table 1"
+  },
+  {
+   "group": "Safety & Compliance",
+   "key": "braking",
+   "label": "Braking method",
+   "value": "Electronic brake",
+   "unit": "",
+   "note": "",
+   "source": "https://robotics.segway.com/wp-content/uploads/2021/04/Segway-RMP-220Lite-Specs.pdf"
+  },
+  {
+   "group": "Terrain & Navigation Limits",
+   "key": "max_obstacle_height",
+   "label": "Obstacle crossing",
+   "value": 5,
+   "unit": "cm",
+   "note": "spec sheet \"Obstacle Avoidance 5cm/8°/Speed bump\"",
+   "source": "https://robotics.segway.com/wp-content/uploads/2021/04/Segway-RMP-220Lite-Specs.pdf"
+  },
+  {
+   "group": "Terrain & Navigation Limits",
+   "key": "max_obstacle_height",
+   "label": "Obstacle surmounting",
+   "value": 4,
+   "unit": "cm",
+   "note": "user manual Appendix I",
+   "source": "https://robotics.segway.com/wp-content/uploads/2023/10/RMP220-User-Manual-v1.0.pdf",
+   "ref": "Appendix I Table 1"
+  },
+  {
+   "group": "Terrain & Navigation Limits",
+   "key": "max_slope",
+   "label": "Slope",
+   "value": 8,
+   "unit": "°",
+   "note": "",
+   "source": "https://robotics.segway.com/wp-content/uploads/2021/04/Segway-RMP-220Lite-Specs.pdf"
+  },
+  {
+   "group": "Terrain & Navigation Limits",
+   "key": "surface_types",
+   "label": "Traversable features",
+   "value": "Speed bumps / deceleration zones; indoor and outdoor",
+   "unit": "",
+   "note": "",
+   "source": "https://robotics.segway.com/wp-content/uploads/2021/04/Segway-RMP-220Lite-Specs.pdf"
+  },
+  {
+   "group": "Terrain & Navigation Limits",
+   "key": "suspension",
+   "label": "Suspension travel",
+   "value": "4 mm (rear)",
+   "unit": "",
+   "note": "manual lists \"4mm rear overhang\"",
+   "source": "https://robotics.segway.com/wp-content/uploads/2021/04/Segway-RMP-220Lite-Specs.pdf"
+  },
+  {
+   "group": "Environment & Protection",
+   "key": "ip_rating",
+   "label": "IP rating",
+   "value": "IP65",
+   "unit": "",
+   "note": "spec sheet",
+   "source": "https://robotics.segway.com/wp-content/uploads/2021/04/Segway-RMP-220Lite-Specs.pdf"
+  },
+  {
+   "group": "Environment & Protection",
+   "key": "ip_rating",
+   "label": "Protection level",
+   "value": "IPX5",
+   "unit": "",
+   "note": "user manual Appendix I",
+   "source": "https://robotics.segway.com/wp-content/uploads/2023/10/RMP220-User-Manual-v1.0.pdf",
+   "ref": "Appendix I Table 1"
+  },
+  {
+   "group": "Environment & Protection",
+   "key": "indoor_outdoor",
+   "label": "Environment",
+   "value": "Indoor and outdoor",
+   "unit": "",
+   "note": "",
+   "source": "https://robotics.segway.com/wp-content/uploads/2021/04/Segway-RMP-220Lite-Specs.pdf"
+  },
+  {
+   "group": "Power & Battery",
+   "key": "battery_capacity",
+   "label": "Battery capacity",
+   "value": 1152,
+   "unit": "Wh",
+   "note": "",
+   "source": "https://robotics.segway.com/wp-content/uploads/2021/04/Segway-RMP-220Lite-Specs.pdf"
+  },
+  {
+   "group": "Power & Battery",
+   "key": "battery_voltage",
+   "label": "Battery voltage",
+   "value": 48,
+   "unit": "V",
+   "note": "",
+   "source": "https://robotics.segway.com/wp-content/uploads/2021/04/Segway-RMP-220Lite-Specs.pdf"
+  },
+  {
+   "group": "Power & Battery",
+   "key": "battery_capacity_ah",
+   "label": "Battery capacity",
+   "value": "20 / 24",
+   "unit": "Ah",
+   "note": "spec sheet lists 48V 20Ah/24Ah",
+   "source": "https://robotics.segway.com/wp-content/uploads/2021/04/Segway-RMP-220Lite-Specs.pdf"
+  },
+  {
+   "group": "Power & Battery",
+   "key": "battery_capacity_ah",
+   "label": "Battery",
+   "value": 24,
+   "unit": "Ah",
+   "note": "user manual: 48V 24Ah",
+   "source": "https://robotics.segway.com/wp-content/uploads/2023/10/RMP220-User-Manual-v1.0.pdf",
+   "ref": "Appendix I Table 1"
+  },
+  {
+   "group": "Power & Battery",
+   "key": "range_per_charge",
+   "label": "Range",
+   "value": 80,
+   "unit": "km",
+   "note": "at max load, 3 m/s (as published)",
+   "source": "https://robotics.segway.com/wp-content/uploads/2021/04/Segway-RMP-220Lite-Specs.pdf"
+  },
+  {
+   "group": "Power & Battery",
+   "key": "runtime",
+   "label": "Runtime",
+   "value": 10,
+   "unit": "h",
+   "note": "\"10 hours of non-stop service\"",
+   "source": "https://robotics.segway.com/wp-content/uploads/2021/04/Segway-RMP-220Lite-Specs.pdf"
+  },
+  {
+   "group": "Power & Battery",
+   "key": "battery_swappable",
+   "label": "Swappable battery",
+   "value": true,
+   "unit": "",
+   "note": "quick battery change; battery lock with matching key",
+   "source": "https://robotics.segway.com/wp-content/uploads/2021/04/Segway-RMP-220Lite-Specs.pdf"
+  },
+  {
+   "group": "Compute & Software",
+   "key": "diagnostics",
+   "label": "Battery & chassis telemetry",
+   "value": "SoC (%), charging status, voltage (mV), current (mA), temperature (°C) readable via API",
+   "unit": "",
+   "note": "",
+   "source": "https://robotics.segway.com/wp-content/uploads/2023/10/RMP220-User-Manual-v1.0.pdf",
+   "ref": "§2.2.1 Table 6"
+  },
+  {
+   "group": "Charging & Docking",
+   "key": "charging_method",
+   "label": "Charging",
+   "value": "Manual charging; swappable battery; provided with automatic charging interface",
+   "unit": "",
+   "note": "",
+   "source": "https://robotics.segway.com/wp-content/uploads/2021/04/Segway-RMP-220Lite-Specs.pdf"
+  },
+  {
+   "group": "Charging & Docking",
+   "key": "charging_method",
+   "label": "Charging method",
+   "value": "Manual line charging / quick battery change",
+   "unit": "",
+   "note": "user manual; only the supplied charger may be used",
+   "source": "https://robotics.segway.com/wp-content/uploads/2023/10/RMP220-User-Manual-v1.0.pdf",
+   "ref": "Appendix I Table 1"
+  },
+  {
+   "group": "Payload & Mounting",
+   "key": "payload_port_power",
+   "label": "Host computer power",
+   "value": "48 V, 400 W",
+   "unit": "",
+   "note": "",
+   "source": "https://robotics.segway.com/wp-content/uploads/2021/04/Segway-RMP-220Lite-Specs.pdf"
+  },
+  {
+   "group": "Payload & Mounting",
+   "key": "payload_port_voltage",
+   "label": "Host computer supply voltage",
+   "value": 48,
+   "unit": "V DC",
+   "note": "",
+   "source": "https://robotics.segway.com/wp-content/uploads/2021/04/Segway-RMP-220Lite-Specs.pdf"
+  },
+  {
+   "group": "Payload & Mounting",
+   "key": "payload_ports",
+   "label": "Upper computer power supply ports",
+   "value": "Two upper-computer power supply ports; one rated max 10 A",
+   "unit": "",
+   "note": "",
+   "source": "https://robotics.segway.com/wp-content/uploads/2023/10/RMP220-User-Manual-v1.0.pdf",
+   "ref": "§1.2 Table 1 items 10, 12"
+  },
+  {
+   "group": "Payload & Mounting",
+   "key": "mounting_points",
+   "label": "Mounting holes",
+   "value": "Mounting holes to install upper equipment",
+   "unit": "",
+   "note": "",
+   "source": "https://robotics.segway.com/wp-content/uploads/2023/10/RMP220-User-Manual-v1.0.pdf",
+   "ref": "§1.2 Table 1 item 5"
+  },
+  {
+   "group": "Sensors & Perception",
+   "key": "imu",
+   "label": "IMU",
+   "value": "Integrated IMU (gyroscope + accelerometer); frame XYZ = right/front/up",
+   "unit": "",
+   "note": "",
+   "source": "https://robotics.segway.com/wp-content/uploads/2023/10/RMP220-User-Manual-v1.0.pdf",
+   "ref": "§2.2.1 Table 4"
+  },
+  {
+   "group": "Sensors & Perception",
+   "key": "wheel_encoders",
+   "label": "Feedback data",
+   "value": "Encoder, Hall, IMU",
+   "unit": "",
+   "note": "manual: magnetic encoder, Hall, IMU",
+   "source": "https://robotics.segway.com/wp-content/uploads/2021/04/Segway-RMP-220Lite-Specs.pdf"
+  },
+  {
+   "group": "Compute & Software",
+   "key": "sdk",
+   "label": "SDK",
+   "value": "C/C++ dynamic libraries (libctrl_x86_64.so, libctrl_arm64-v8a.so) + header Comm_ctrl_navigation.h; ROS package",
+   "unit": "",
+   "note": "host platforms x86_64 and arm64",
+   "source": "https://robotics.segway.com/wp-content/uploads/2023/10/RMP220-User-Manual-v1.0.pdf",
+   "ref": "§2.1 Table 3"
+  },
+  {
+   "group": "Compute & Software",
+   "key": "programming_languages",
+   "label": "Supported API",
+   "value": "C/C++, ROS",
+   "unit": "",
+   "note": "",
+   "source": "https://robotics.segway.com/wp-content/uploads/2021/04/Segway-RMP-220Lite-Specs.pdf"
+  },
+  {
+   "group": "Compute & Software",
+   "key": "ros_support",
+   "label": "ROS",
+   "value": "ROS node \"SmartCar\" (segwayrmp, segway_msgs packages); ROS support package on GitHub",
+   "unit": "",
+   "note": "",
+   "source": "https://robotics.segway.com/wp-content/uploads/2023/10/RMP220-User-Manual-v1.0.pdf",
+   "ref": "§1.3.4, §2.2.2"
+  },
+  {
+   "group": "Compute & Software",
+   "key": "operating_system",
+   "label": "Compatible software",
+   "value": "ROS and NVIDIA Isaac",
+   "unit": "",
+   "note": "",
+   "source": "https://robotics.segway.com/wp-content/uploads/2021/04/Segway-RMP-220Lite-Specs.pdf"
+  },
+  {
+   "group": "Compute & Software",
+   "key": "simulation_support",
+   "label": "3D model",
+   "value": "Gazebo, Rviz models with tutorial cases",
+   "unit": "",
+   "note": "",
+   "source": "https://robotics.segway.com/wp-content/uploads/2021/04/Segway-RMP-220Lite-Specs.pdf"
+  },
+  {
+   "group": "Compute & Software",
+   "key": "api",
+   "label": "API functions",
+   "value": "Speed command (set_cmd_vel, m/s & rad/s), forward/backward/angular speed limits, load state, hang mode, power-off, error codes, battery, mileage, firmware versions, IAP",
+   "unit": "",
+   "note": "",
+   "source": "https://robotics.segway.com/wp-content/uploads/2023/10/RMP220-User-Manual-v1.0.pdf",
+   "ref": "§2.2.1 Table 6"
+  },
+  {
+   "group": "Compute & Software",
+   "key": "firmware_update",
+   "label": "Firmware update",
+   "value": "IAP online upgrade of central control board and motor board from the upper computer over serial or CAN",
+   "unit": "",
+   "note": "",
+   "source": "https://robotics.segway.com/wp-content/uploads/2023/10/RMP220-User-Manual-v1.0.pdf",
+   "ref": "§3"
+  },
+  {
+   "group": "Compute & Software",
+   "key": "optional_compute",
+   "label": "Isaac feature pack",
+   "value": "RMP Lite ISAAC Feature Pack (data interface between chassis and upper computer)",
+   "unit": "",
+   "note": "",
+   "source": "https://robotics.segway.com/for-developers/"
+  },
+  {
+   "group": "Connectivity & Interfaces",
+   "key": "can_bus",
+   "label": "Interface",
+   "value": "UART, CAN",
+   "unit": "",
+   "note": "",
+   "source": "https://robotics.segway.com/wp-content/uploads/2021/04/Segway-RMP-220Lite-Specs.pdf"
+  },
+  {
+   "group": "Connectivity & Interfaces",
+   "key": "external_ports",
+   "label": "Connectors",
+   "value": "8-pin (CANH, CANL, TX, RX, GND, 5V, GND, S.B PPM remote receiver) AWG26; 2-pin upper-system power (Power+/Power−) AWG16",
+   "unit": "",
+   "note": "",
+   "source": "https://robotics.segway.com/wp-content/uploads/2023/10/RMP220-User-Manual-v1.0.pdf",
+   "ref": "Appendix III"
+  },
+  {
+   "group": "Connectivity & Interfaces",
+   "key": "feedback_cycle",
+   "label": "ROS feedback rate",
+   "value": 40,
+   "unit": "Hz",
+   "note": "Speed_fb, Ticks_fb, Odom, Imu topics; battery/mode/error topics 1 Hz",
+   "source": "https://robotics.segway.com/wp-content/uploads/2023/10/RMP220-User-Manual-v1.0.pdf",
+   "ref": "§2.2.2 Table 7"
+  },
+  {
+   "group": "Controls & Operation",
+   "key": "control_modes",
+   "label": "Control",
+   "value": "Remote control, host (upper) computer control",
+   "unit": "",
+   "note": "",
+   "source": "https://robotics.segway.com/wp-content/uploads/2021/04/Segway-RMP-220Lite-Specs.pdf"
+  },
+  {
+   "group": "Controls & Operation",
+   "key": "controller",
+   "label": "Remote control",
+   "value": "T8FB transmitter with paired receiver (PPM); max linear/angular velocity knobs, enable and e-stop switches",
+   "unit": "",
+   "note": "",
+   "source": "https://robotics.segway.com/wp-content/uploads/2023/10/RMP220-User-Manual-v1.0.pdf",
+   "ref": "§1.3"
+  },
+  {
+   "group": "Controls & Operation",
+   "key": "operation_modes",
+   "label": "Chassis modes",
+   "value": "Locked, Control, Push, Emergency stop, Error",
+   "unit": "",
+   "note": "load >20 kg: switch to full-load (overload) control parameters via set_chassis_load_state",
+   "source": "https://robotics.segway.com/wp-content/uploads/2023/10/RMP220-User-Manual-v1.0.pdf",
+   "ref": "Appendix I Table 2"
+  },
+  {
+   "group": "Safety & Compliance",
+   "key": "emergency_stop",
+   "label": "Emergency stop",
+   "value": "E-stop button on chassis; e-stop switch on remote control",
+   "unit": "",
+   "note": "",
+   "source": "https://robotics.segway.com/wp-content/uploads/2023/10/RMP220-User-Manual-v1.0.pdf",
+   "ref": "§1.2, §1.3.3"
+  },
+  {
+   "group": "Audio, Lights & HMI",
+   "key": "buttons",
+   "label": "Buttons",
+   "value": "Emergency stop button, push-to-move button, power button",
+   "unit": "",
+   "note": "",
+   "source": "https://robotics.segway.com/wp-content/uploads/2021/04/Segway-RMP-220Lite-Specs.pdf"
+  },
+  {
+   "group": "Audio, Lights & HMI",
+   "key": "status_lights",
+   "label": "Status indication",
+   "value": "Power on/off indicator, platform base status, control source indication, battery level, charging status",
+   "unit": "",
+   "note": "",
+   "source": "https://robotics.segway.com/wp-content/uploads/2021/04/Segway-RMP-220Lite-Specs.pdf"
+  },
+  {
+   "group": "Audio, Lights & HMI",
+   "key": "buzzer",
+   "label": "Buzzer",
+   "value": "Beep on boot / shutdown prompts",
+   "unit": "",
+   "note": "",
+   "source": "https://robotics.segway.com/wp-content/uploads/2023/10/RMP220-User-Manual-v1.0.pdf",
+   "ref": "§1.2 Table 1"
+  },
+  {
+   "group": "Commercial",
+   "key": "optional_accessories",
+   "label": "Extension kit",
+   "value": "Light strip, ultrasonic sensor, bumper, infrared sensor, sensor mounting rod",
+   "unit": "",
+   "note": "",
+   "source": "https://robotics.segway.com/wp-content/uploads/2021/04/Segway-RMP-220Lite-Specs.pdf"
+  },
+  {
+   "group": "Commercial",
+   "key": "availability",
+   "label": "Availability",
+   "value": "Listed on Segway Robotics RMP product page (request demo / more information)",
+   "unit": "",
+   "note": "",
+   "source": "https://robotics.segway.com/rmp/"
+  }
+ ]
+}

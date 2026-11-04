@@ -1,529 +1,529 @@
 {
-  "id": "unitree-h1",
-  "checked": "2026-11-04",
-  "documents": [
-    {
-      "title": "Unitree H1 / H1-2 product page – parameter table",
-      "url": "https://www.unitree.com/h1"
-    },
-    {
-      "title": "Unitree H1 SDK Development Guide – About H1 (updated 2026-03-12)",
-      "url": "https://support.unitree.com/home/en/H1_developer/About_H1"
-    }
-  ],
-  "specs": [
-    {
-      "group": "Identity",
-      "key": "variants",
-      "label": "Variants",
-      "value": "H1; H1-2",
-      "unit": "",
-      "note": "H1-2 figures in this file are labelled; H1-2: ~178 cm, ~70 kg, 27 DoF",
-      "source": "https://www.unitree.com/h1"
-    },
-    {
-      "group": "Dimensions & Mass",
-      "key": "height_standing",
-      "label": "Height",
-      "value": 1805,
-      "unit": "mm",
-      "note": "key dimensions (1520+285) mm x 570 mm x 220 mm; about 180 cm",
-      "source": "https://www.unitree.com/h1"
-    },
-    {
-      "group": "Dimensions & Mass",
-      "key": "width",
-      "label": "Width",
-      "value": 570,
-      "unit": "mm",
-      "note": "",
-      "source": "https://www.unitree.com/h1"
-    },
-    {
-      "group": "Dimensions & Mass",
-      "key": "length",
-      "label": "Thickness",
-      "value": 220,
-      "unit": "mm",
-      "note": "",
-      "source": "https://www.unitree.com/h1"
-    },
-    {
-      "group": "Dimensions & Mass",
-      "key": "weight",
-      "label": "Total weight",
-      "value": 47,
-      "unit": "kg",
-      "note": "about 47 kg",
-      "source": "https://www.unitree.com/h1"
-    },
-    {
-      "group": "Dimensions & Mass",
-      "key": "leg_length",
-      "label": "Thigh and calf length",
-      "value": "400 x 2",
-      "unit": "mm",
-      "note": "",
-      "source": "https://www.unitree.com/h1"
-    },
-    {
-      "group": "Dimensions & Mass",
-      "key": "arm_length",
-      "label": "Total arm length",
-      "value": "338 x 2",
-      "unit": "mm",
-      "note": "",
-      "source": "https://www.unitree.com/h1"
-    },
-    {
-      "group": "Dimensions & Mass",
-      "key": "height_standing",
-      "label": "Height (H1-2)",
-      "value": 1788,
-      "unit": "mm",
-      "note": "(1503+285) mm x 510 mm x 287 mm; about 178 cm",
-      "source": "https://www.unitree.com/h1"
-    },
-    {
-      "group": "Dimensions & Mass",
-      "key": "weight",
-      "label": "Total weight (H1-2)",
-      "value": 70,
-      "unit": "kg",
-      "note": "about 70 kg",
-      "source": "https://www.unitree.com/h1"
-    },
-    {
-      "group": "Dimensions & Mass",
-      "key": "arm_length",
-      "label": "Total arm length (H1-2)",
-      "value": 685,
-      "unit": "mm",
-      "note": "",
-      "source": "https://www.unitree.com/h1"
-    },
-    {
-      "group": "Mobility & Performance",
-      "key": "degrees_of_freedom",
-      "label": "Total degrees of freedom",
-      "value": 19,
-      "unit": "",
-      "note": "19 joint motors (H1)",
-      "source": "https://support.unitree.com/home/en/H1_developer/About_H1"
-    },
-    {
-      "group": "Mobility & Performance",
-      "key": "degrees_of_freedom",
-      "label": "Total degrees of freedom (H1-2)",
-      "value": 27,
-      "unit": "",
-      "note": "",
-      "source": "https://www.unitree.com/h1"
-    },
-    {
-      "group": "Actuation & Joints",
-      "key": "dof_per_leg",
-      "label": "DoF per leg",
-      "value": 5,
-      "unit": "",
-      "note": "hip x3 + knee x1 + ankle x1; H1-2: 6 (ankle x2)",
-      "source": "https://www.unitree.com/h1"
-    },
-    {
-      "group": "Actuation & Joints",
-      "key": "dof_per_arm",
-      "label": "DoF per arm",
-      "value": 4,
-      "unit": "",
-      "note": "expandable; H1-2: 7 (shoulder 3 + elbow 1 + wrist 3)",
-      "source": "https://www.unitree.com/h1"
-    },
-    {
-      "group": "Actuation & Joints",
-      "key": "dof_waist",
-      "label": "Waist DoF",
-      "value": 1,
-      "unit": "",
-      "note": "",
-      "source": "https://support.unitree.com/home/en/H1_developer/About_H1"
-    },
-    {
-      "group": "Mobility & Performance",
-      "key": "max_speed",
-      "label": "Moving speed",
-      "value": 3.3,
-      "unit": "m/s",
-      "note": "claimed world record; potential mobility > 5 m/s; H1-2 < 2 m/s",
-      "source": "https://www.unitree.com/h1"
-    },
-    {
-      "group": "Actuation & Joints",
-      "key": "peak_torque_density",
-      "label": "Peak torque density",
-      "value": 189,
-      "unit": "N·m/kg",
-      "note": "",
-      "source": "https://www.unitree.com/h1"
-    },
-    {
-      "group": "Actuation & Joints",
-      "key": "max_joint_torque",
-      "label": "Knee torque",
-      "value": 360,
-      "unit": "N·m",
-      "note": "about",
-      "source": "https://www.unitree.com/h1"
-    },
-    {
-      "group": "Actuation & Joints",
-      "key": "max_joint_torque",
-      "label": "Hip joint torque",
-      "value": 220,
-      "unit": "N·m",
-      "note": "about",
-      "source": "https://www.unitree.com/h1"
-    },
-    {
-      "group": "Actuation & Joints",
-      "key": "max_joint_torque",
-      "label": "Ankle torque",
-      "value": 59,
-      "unit": "N·m",
-      "note": "about; H1-2 ankle about 75 x2 N·m",
-      "source": "https://www.unitree.com/h1"
-    },
-    {
-      "group": "Actuation & Joints",
-      "key": "max_joint_torque",
-      "label": "Arm joint torque",
-      "value": 75,
-      "unit": "N·m",
-      "note": "about; H1-2 shoulder/elbow ~120 N·m, wrist ~30 N·m",
-      "source": "https://www.unitree.com/h1"
-    },
-    {
-      "group": "Actuation & Joints",
-      "key": "max_joint_torque",
-      "label": "Waist joint torque (H1-2)",
-      "value": 220,
-      "unit": "N·m",
-      "note": "about",
-      "source": "https://www.unitree.com/h1"
-    },
-    {
-      "group": "Actuation & Joints",
-      "key": "actuator_model",
-      "label": "Joint motor",
-      "value": "Unitree M107",
-      "unit": "",
-      "note": "hollow axle, dual encoders",
-      "source": "https://support.unitree.com/home/en/H1_developer/About_H1"
-    },
-    {
-      "group": "Actuation & Joints",
-      "key": "max_joint_torque",
-      "label": "M107 motor max torque",
-      "value": 360,
-      "unit": "N·m",
-      "note": "",
-      "source": "https://support.unitree.com/home/en/H1_developer/About_H1"
-    },
-    {
-      "group": "Actuation & Joints",
-      "key": "max_joint_tension",
-      "label": "M107 max tension",
-      "value": 10000,
-      "unit": "N",
-      "note": "equivalent at 3.5 cm force arm",
-      "source": "https://support.unitree.com/home/en/H1_developer/About_H1"
-    },
-    {
-      "group": "Actuation & Joints",
-      "key": "joint_bearing_type",
-      "label": "Joint output bearing",
-      "value": "Industrial-grade crossed roller bearings",
-      "unit": "",
-      "note": "",
-      "source": "https://www.unitree.com/h1"
-    },
-    {
-      "group": "Actuation & Joints",
-      "key": "actuator_type",
-      "label": "Core joint motor",
-      "value": "Low-inertia high-speed internal-rotor PMSM",
-      "unit": "",
-      "note": "",
-      "source": "https://www.unitree.com/h1"
-    },
-    {
-      "group": "Actuation & Joints",
-      "key": "joint_encoder",
-      "label": "Joint encoder",
-      "value": "Dual encoder",
-      "unit": "",
-      "note": "M107",
-      "source": "https://support.unitree.com/home/en/H1_developer/About_H1"
-    },
-    {
-      "group": "Actuation & Joints",
-      "key": "joint_range",
-      "label": "Joint limit – Hip yaw",
-      "value": "-0.43 to +0.43",
-      "unit": "rad",
-      "note": "SDK joint limit table; right side mirrored for roll/yaw",
-      "source": "https://support.unitree.com/home/en/H1_developer/About_H1"
-    },
-    {
-      "group": "Actuation & Joints",
-      "key": "joint_range",
-      "label": "Joint limit – Hip roll",
-      "value": "-0.43 to +0.43",
-      "unit": "rad",
-      "note": "SDK joint limit table; right side mirrored for roll/yaw",
-      "source": "https://support.unitree.com/home/en/H1_developer/About_H1"
-    },
-    {
-      "group": "Actuation & Joints",
-      "key": "joint_range",
-      "label": "Joint limit – Hip pitch",
-      "value": "-3.14 to +2.53",
-      "unit": "rad",
-      "note": "SDK joint limit table; right side mirrored for roll/yaw",
-      "source": "https://support.unitree.com/home/en/H1_developer/About_H1"
-    },
-    {
-      "group": "Actuation & Joints",
-      "key": "joint_range",
-      "label": "Joint limit – Knee",
-      "value": "-0.26 to +2.05",
-      "unit": "rad",
-      "note": "SDK joint limit table; right side mirrored for roll/yaw",
-      "source": "https://support.unitree.com/home/en/H1_developer/About_H1"
-    },
-    {
-      "group": "Actuation & Joints",
-      "key": "joint_range",
-      "label": "Joint limit – Ankle",
-      "value": "-0.87 to +0.52",
-      "unit": "rad",
-      "note": "SDK joint limit table; right side mirrored for roll/yaw",
-      "source": "https://support.unitree.com/home/en/H1_developer/About_H1"
-    },
-    {
-      "group": "Actuation & Joints",
-      "key": "joint_range",
-      "label": "Joint limit – Torso",
-      "value": "-2.35 to +2.35",
-      "unit": "rad",
-      "note": "SDK joint limit table; right side mirrored for roll/yaw",
-      "source": "https://support.unitree.com/home/en/H1_developer/About_H1"
-    },
-    {
-      "group": "Actuation & Joints",
-      "key": "joint_range",
-      "label": "Joint limit – Shoulder pitch",
-      "value": "-2.87 to +2.87",
-      "unit": "rad",
-      "note": "SDK joint limit table; right side mirrored for roll/yaw",
-      "source": "https://support.unitree.com/home/en/H1_developer/About_H1"
-    },
-    {
-      "group": "Actuation & Joints",
-      "key": "joint_range",
-      "label": "Joint limit – L shoulder roll",
-      "value": "-0.34 to +3.11",
-      "unit": "rad",
-      "note": "SDK joint limit table; right side mirrored for roll/yaw",
-      "source": "https://support.unitree.com/home/en/H1_developer/About_H1"
-    },
-    {
-      "group": "Actuation & Joints",
-      "key": "joint_range",
-      "label": "Joint limit – L shoulder yaw",
-      "value": "-1.3 to +4.45",
-      "unit": "rad",
-      "note": "SDK joint limit table; right side mirrored for roll/yaw",
-      "source": "https://support.unitree.com/home/en/H1_developer/About_H1"
-    },
-    {
-      "group": "Actuation & Joints",
-      "key": "joint_range",
-      "label": "Joint limit – Elbow",
-      "value": "-1.25 to +2.61",
-      "unit": "rad",
-      "note": "SDK joint limit table; right side mirrored for roll/yaw",
-      "source": "https://support.unitree.com/home/en/H1_developer/About_H1"
-    },
-    {
-      "group": "Manipulation",
-      "key": "arm_payload",
-      "label": "Arm load (H1-2)",
-      "value": 7,
-      "unit": "kg",
-      "note": "rated about 7 kg; peak about 21 kg",
-      "source": "https://www.unitree.com/h1"
-    },
-    {
-      "group": "Manipulation",
-      "key": "gripper_type",
-      "label": "Dexterous hand",
-      "value": "Optional",
-      "unit": "",
-      "note": "H1-2: optional Dex5-1 or other hands",
-      "source": "https://www.unitree.com/h1"
-    },
-    {
-      "group": "Power & Battery",
-      "key": "battery_capacity",
-      "label": "Battery capacity",
-      "value": 864,
-      "unit": "Wh",
-      "note": "15 Ah (0.864 kWh); quickly replaceable",
-      "source": "https://www.unitree.com/h1"
-    },
-    {
-      "group": "Power & Battery",
-      "key": "battery_voltage_max",
-      "label": "Battery max voltage",
-      "value": 67.2,
-      "unit": "V",
-      "note": "",
-      "source": "https://www.unitree.com/h1"
-    },
-    {
-      "group": "Power & Battery",
-      "key": "battery_swappable",
-      "label": "Quickly replaceable battery",
-      "value": true,
-      "unit": "",
-      "note": "",
-      "source": "https://www.unitree.com/h1"
-    },
-    {
-      "group": "Compute & Software",
-      "key": "cpu",
-      "label": "Motion control computer (PC1)",
-      "value": "Intel Core i5-1235U, 10 cores / 12 threads, 4.40 GHz turbo",
-      "unit": "",
-      "note": "platform functions; not user-accessible",
-      "source": "https://support.unitree.com/home/en/H1_developer/About_H1"
-    },
-    {
-      "group": "Compute & Software",
-      "key": "cpu",
-      "label": "Development computer (PC2/PC3)",
-      "value": "Intel Core i7-1255U / i7-1265U, 10 cores / 12 threads, 4.70 / 4.80 GHz",
-      "unit": "",
-      "note": "PC3 optional",
-      "source": "https://support.unitree.com/home/en/H1_developer/About_H1"
-    },
-    {
-      "group": "Compute & Software",
-      "key": "ram",
-      "label": "Development computer memory",
-      "value": "16 / 32",
-      "unit": "GB",
-      "note": "LPDDR5 5200 MT/s dual-channel",
-      "source": "https://support.unitree.com/home/en/H1_developer/About_H1"
-    },
-    {
-      "group": "Compute & Software",
-      "key": "storage",
-      "label": "Computer storage",
-      "value": "500 GB or more",
-      "unit": "",
-      "note": "PC1 and PC2/PC3",
-      "source": "https://support.unitree.com/home/en/H1_developer/About_H1"
-    },
-    {
-      "group": "Compute & Software",
-      "key": "gpu",
-      "label": "Integrated GPU",
-      "value": "Intel Iris Xe Graphics, max 1.20 GHz",
-      "unit": "",
-      "note": "",
-      "source": "https://support.unitree.com/home/en/H1_developer/About_H1"
-    },
-    {
-      "group": "Compute & Software",
-      "key": "cpu_cache",
-      "label": "Cache",
-      "value": "12 MB Intel Smart Cache",
-      "unit": "",
-      "note": "",
-      "source": "https://support.unitree.com/home/en/H1_developer/About_H1"
-    },
-    {
-      "group": "Compute & Software",
-      "key": "optional_compute",
-      "label": "Optional compute",
-      "value": "Intel Core i7 or NVIDIA Jetson Orin NX",
-      "unit": "",
-      "note": "H1-2: up to 3 devices",
-      "source": "https://www.unitree.com/h1"
-    },
-    {
-      "group": "Connectivity & Interfaces",
-      "key": "default_ip_address",
-      "label": "Development computer IP",
-      "value": "192.168.123.162 / .163",
-      "unit": "",
-      "note": "PC2 / optional PC3",
-      "source": "https://support.unitree.com/home/en/H1_developer/About_H1"
-    },
-    {
-      "group": "Sensors & Perception",
-      "key": "lidar_model",
-      "label": "3D LiDAR",
-      "value": "Livox MID-360",
-      "unit": "",
-      "note": "head; IP 192.168.123.120",
-      "source": "https://support.unitree.com/home/en/H1_developer/About_H1"
-    },
-    {
-      "group": "Sensors & Perception",
-      "key": "depth_camera_model",
-      "label": "Depth camera",
-      "value": "Intel RealSense D435",
-      "unit": "",
-      "note": "head",
-      "source": "https://support.unitree.com/home/en/H1_developer/About_H1"
-    },
-    {
-      "group": "Sensors & Perception",
-      "key": "lidar_fov",
-      "label": "Depth sensing coverage",
-      "value": "360° depth perception (3D LiDAR + depth camera)",
-      "unit": "",
-      "note": "",
-      "source": "https://www.unitree.com/h1"
-    },
-    {
-      "group": "Connectivity & Interfaces",
-      "key": "external_ports",
-      "label": "Electrical interfaces",
-      "value": "Aviation-plug interfaces on right side (joint motors, peripherals, Ethernet)",
-      "unit": "",
-      "note": "hot-swapping prohibited",
-      "source": "https://support.unitree.com/home/en/H1_developer/About_H1"
-    },
-    {
-      "group": "Compute & Software",
-      "key": "ota_updates",
-      "label": "OTA software upgrade",
-      "value": true,
-      "unit": "",
-      "note": "continuous OTA",
-      "source": "https://www.unitree.com/h1"
-    },
-    {
-      "group": "Safety & Compliance",
-      "key": "intended_use",
-      "label": "Intended use / caution",
-      "value": "Civilian robot; keep safe distance; no dangerous modifications",
-      "unit": "",
-      "note": "",
-      "source": "https://www.unitree.com/h1"
-    }
-  ]
+ "id": "unitree-h1",
+ "checked": "2026-11-04",
+ "documents": [
+  {
+   "title": "Unitree H1 / H1-2 product page – parameter table",
+   "url": "https://www.unitree.com/h1"
+  },
+  {
+   "title": "Unitree H1 SDK Development Guide – About H1 (updated 2026-03-12)",
+   "url": "https://support.unitree.com/home/en/H1_developer/About_H1"
+  }
+ ],
+ "specs": [
+  {
+   "group": "Identity",
+   "key": "variants",
+   "label": "Variants",
+   "value": "H1; H1-2",
+   "unit": "",
+   "note": "H1-2 figures in this file are labelled; H1-2: ~178 cm, ~70 kg, 27 DoF",
+   "source": "https://www.unitree.com/h1"
+  },
+  {
+   "group": "Dimensions & Mass",
+   "key": "height_standing",
+   "label": "Height",
+   "value": 1805,
+   "unit": "mm",
+   "note": "key dimensions (1520+285) mm x 570 mm x 220 mm; about 180 cm",
+   "source": "https://www.unitree.com/h1"
+  },
+  {
+   "group": "Dimensions & Mass",
+   "key": "width",
+   "label": "Width",
+   "value": 570,
+   "unit": "mm",
+   "note": "",
+   "source": "https://www.unitree.com/h1"
+  },
+  {
+   "group": "Dimensions & Mass",
+   "key": "length",
+   "label": "Thickness",
+   "value": 220,
+   "unit": "mm",
+   "note": "",
+   "source": "https://www.unitree.com/h1"
+  },
+  {
+   "group": "Dimensions & Mass",
+   "key": "weight",
+   "label": "Total weight",
+   "value": 47,
+   "unit": "kg",
+   "note": "about 47 kg",
+   "source": "https://www.unitree.com/h1"
+  },
+  {
+   "group": "Dimensions & Mass",
+   "key": "leg_length",
+   "label": "Thigh and calf length",
+   "value": "400 x 2",
+   "unit": "mm",
+   "note": "",
+   "source": "https://www.unitree.com/h1"
+  },
+  {
+   "group": "Dimensions & Mass",
+   "key": "arm_length",
+   "label": "Total arm length",
+   "value": "338 x 2",
+   "unit": "mm",
+   "note": "",
+   "source": "https://www.unitree.com/h1"
+  },
+  {
+   "group": "Dimensions & Mass",
+   "key": "height_standing",
+   "label": "Height (H1-2)",
+   "value": 1788,
+   "unit": "mm",
+   "note": "(1503+285) mm x 510 mm x 287 mm; about 178 cm",
+   "source": "https://www.unitree.com/h1"
+  },
+  {
+   "group": "Dimensions & Mass",
+   "key": "weight",
+   "label": "Total weight (H1-2)",
+   "value": 70,
+   "unit": "kg",
+   "note": "about 70 kg",
+   "source": "https://www.unitree.com/h1"
+  },
+  {
+   "group": "Dimensions & Mass",
+   "key": "arm_length",
+   "label": "Total arm length (H1-2)",
+   "value": 685,
+   "unit": "mm",
+   "note": "",
+   "source": "https://www.unitree.com/h1"
+  },
+  {
+   "group": "Mobility & Performance",
+   "key": "degrees_of_freedom",
+   "label": "Total degrees of freedom",
+   "value": 19,
+   "unit": "",
+   "note": "19 joint motors (H1)",
+   "source": "https://support.unitree.com/home/en/H1_developer/About_H1"
+  },
+  {
+   "group": "Mobility & Performance",
+   "key": "degrees_of_freedom",
+   "label": "Total degrees of freedom (H1-2)",
+   "value": 27,
+   "unit": "",
+   "note": "",
+   "source": "https://www.unitree.com/h1"
+  },
+  {
+   "group": "Actuation & Joints",
+   "key": "dof_per_leg",
+   "label": "DoF per leg",
+   "value": 5,
+   "unit": "",
+   "note": "hip x3 + knee x1 + ankle x1; H1-2: 6 (ankle x2)",
+   "source": "https://www.unitree.com/h1"
+  },
+  {
+   "group": "Actuation & Joints",
+   "key": "dof_per_arm",
+   "label": "DoF per arm",
+   "value": 4,
+   "unit": "",
+   "note": "expandable; H1-2: 7 (shoulder 3 + elbow 1 + wrist 3)",
+   "source": "https://www.unitree.com/h1"
+  },
+  {
+   "group": "Actuation & Joints",
+   "key": "dof_waist",
+   "label": "Waist DoF",
+   "value": 1,
+   "unit": "",
+   "note": "",
+   "source": "https://support.unitree.com/home/en/H1_developer/About_H1"
+  },
+  {
+   "group": "Mobility & Performance",
+   "key": "max_speed",
+   "label": "Moving speed",
+   "value": 3.3,
+   "unit": "m/s",
+   "note": "claimed world record; potential mobility > 5 m/s; H1-2 < 2 m/s",
+   "source": "https://www.unitree.com/h1"
+  },
+  {
+   "group": "Actuation & Joints",
+   "key": "peak_torque_density",
+   "label": "Peak torque density",
+   "value": 189,
+   "unit": "N·m/kg",
+   "note": "",
+   "source": "https://www.unitree.com/h1"
+  },
+  {
+   "group": "Actuation & Joints",
+   "key": "max_joint_torque",
+   "label": "Knee torque",
+   "value": 360,
+   "unit": "N·m",
+   "note": "about",
+   "source": "https://www.unitree.com/h1"
+  },
+  {
+   "group": "Actuation & Joints",
+   "key": "max_joint_torque",
+   "label": "Hip joint torque",
+   "value": 220,
+   "unit": "N·m",
+   "note": "about",
+   "source": "https://www.unitree.com/h1"
+  },
+  {
+   "group": "Actuation & Joints",
+   "key": "max_joint_torque",
+   "label": "Ankle torque",
+   "value": 59,
+   "unit": "N·m",
+   "note": "about; H1-2 ankle about 75 x2 N·m",
+   "source": "https://www.unitree.com/h1"
+  },
+  {
+   "group": "Actuation & Joints",
+   "key": "max_joint_torque",
+   "label": "Arm joint torque",
+   "value": 75,
+   "unit": "N·m",
+   "note": "about; H1-2 shoulder/elbow ~120 N·m, wrist ~30 N·m",
+   "source": "https://www.unitree.com/h1"
+  },
+  {
+   "group": "Actuation & Joints",
+   "key": "max_joint_torque",
+   "label": "Waist joint torque (H1-2)",
+   "value": 220,
+   "unit": "N·m",
+   "note": "about",
+   "source": "https://www.unitree.com/h1"
+  },
+  {
+   "group": "Actuation & Joints",
+   "key": "actuator_model",
+   "label": "Joint motor",
+   "value": "Unitree M107",
+   "unit": "",
+   "note": "hollow axle, dual encoders",
+   "source": "https://support.unitree.com/home/en/H1_developer/About_H1"
+  },
+  {
+   "group": "Actuation & Joints",
+   "key": "max_joint_torque",
+   "label": "M107 motor max torque",
+   "value": 360,
+   "unit": "N·m",
+   "note": "",
+   "source": "https://support.unitree.com/home/en/H1_developer/About_H1"
+  },
+  {
+   "group": "Actuation & Joints",
+   "key": "max_joint_tension",
+   "label": "M107 max tension",
+   "value": 10000,
+   "unit": "N",
+   "note": "equivalent at 3.5 cm force arm",
+   "source": "https://support.unitree.com/home/en/H1_developer/About_H1"
+  },
+  {
+   "group": "Actuation & Joints",
+   "key": "joint_bearing_type",
+   "label": "Joint output bearing",
+   "value": "Industrial-grade crossed roller bearings",
+   "unit": "",
+   "note": "",
+   "source": "https://www.unitree.com/h1"
+  },
+  {
+   "group": "Actuation & Joints",
+   "key": "actuator_type",
+   "label": "Core joint motor",
+   "value": "Low-inertia high-speed internal-rotor PMSM",
+   "unit": "",
+   "note": "",
+   "source": "https://www.unitree.com/h1"
+  },
+  {
+   "group": "Actuation & Joints",
+   "key": "joint_encoder",
+   "label": "Joint encoder",
+   "value": "Dual encoder",
+   "unit": "",
+   "note": "M107",
+   "source": "https://support.unitree.com/home/en/H1_developer/About_H1"
+  },
+  {
+   "group": "Actuation & Joints",
+   "key": "joint_range_of_motion",
+   "label": "Joint limit – Hip yaw",
+   "value": "-0.43 to +0.43",
+   "unit": "rad",
+   "note": "SDK joint limit table; right side mirrored for roll/yaw",
+   "source": "https://support.unitree.com/home/en/H1_developer/About_H1"
+  },
+  {
+   "group": "Actuation & Joints",
+   "key": "joint_range_of_motion",
+   "label": "Joint limit – Hip roll",
+   "value": "-0.43 to +0.43",
+   "unit": "rad",
+   "note": "SDK joint limit table; right side mirrored for roll/yaw",
+   "source": "https://support.unitree.com/home/en/H1_developer/About_H1"
+  },
+  {
+   "group": "Actuation & Joints",
+   "key": "joint_range_of_motion",
+   "label": "Joint limit – Hip pitch",
+   "value": "-3.14 to +2.53",
+   "unit": "rad",
+   "note": "SDK joint limit table; right side mirrored for roll/yaw",
+   "source": "https://support.unitree.com/home/en/H1_developer/About_H1"
+  },
+  {
+   "group": "Actuation & Joints",
+   "key": "joint_range_of_motion",
+   "label": "Joint limit – Knee",
+   "value": "-0.26 to +2.05",
+   "unit": "rad",
+   "note": "SDK joint limit table; right side mirrored for roll/yaw",
+   "source": "https://support.unitree.com/home/en/H1_developer/About_H1"
+  },
+  {
+   "group": "Actuation & Joints",
+   "key": "joint_range_of_motion",
+   "label": "Joint limit – Ankle",
+   "value": "-0.87 to +0.52",
+   "unit": "rad",
+   "note": "SDK joint limit table; right side mirrored for roll/yaw",
+   "source": "https://support.unitree.com/home/en/H1_developer/About_H1"
+  },
+  {
+   "group": "Actuation & Joints",
+   "key": "joint_range_of_motion",
+   "label": "Joint limit – Torso",
+   "value": "-2.35 to +2.35",
+   "unit": "rad",
+   "note": "SDK joint limit table; right side mirrored for roll/yaw",
+   "source": "https://support.unitree.com/home/en/H1_developer/About_H1"
+  },
+  {
+   "group": "Actuation & Joints",
+   "key": "joint_range_of_motion",
+   "label": "Joint limit – Shoulder pitch",
+   "value": "-2.87 to +2.87",
+   "unit": "rad",
+   "note": "SDK joint limit table; right side mirrored for roll/yaw",
+   "source": "https://support.unitree.com/home/en/H1_developer/About_H1"
+  },
+  {
+   "group": "Actuation & Joints",
+   "key": "joint_range_of_motion",
+   "label": "Joint limit – L shoulder roll",
+   "value": "-0.34 to +3.11",
+   "unit": "rad",
+   "note": "SDK joint limit table; right side mirrored for roll/yaw",
+   "source": "https://support.unitree.com/home/en/H1_developer/About_H1"
+  },
+  {
+   "group": "Actuation & Joints",
+   "key": "joint_range_of_motion",
+   "label": "Joint limit – L shoulder yaw",
+   "value": "-1.3 to +4.45",
+   "unit": "rad",
+   "note": "SDK joint limit table; right side mirrored for roll/yaw",
+   "source": "https://support.unitree.com/home/en/H1_developer/About_H1"
+  },
+  {
+   "group": "Actuation & Joints",
+   "key": "joint_range_of_motion",
+   "label": "Joint limit – Elbow",
+   "value": "-1.25 to +2.61",
+   "unit": "rad",
+   "note": "SDK joint limit table; right side mirrored for roll/yaw",
+   "source": "https://support.unitree.com/home/en/H1_developer/About_H1"
+  },
+  {
+   "group": "Manipulation",
+   "key": "arm_payload",
+   "label": "Arm load (H1-2)",
+   "value": 7,
+   "unit": "kg",
+   "note": "rated about 7 kg; peak about 21 kg",
+   "source": "https://www.unitree.com/h1"
+  },
+  {
+   "group": "Manipulation",
+   "key": "gripper_type",
+   "label": "Dexterous hand",
+   "value": "Optional",
+   "unit": "",
+   "note": "H1-2: optional Dex5-1 or other hands",
+   "source": "https://www.unitree.com/h1"
+  },
+  {
+   "group": "Power & Battery",
+   "key": "battery_capacity",
+   "label": "Battery capacity",
+   "value": 864,
+   "unit": "Wh",
+   "note": "15 Ah (0.864 kWh); quickly replaceable",
+   "source": "https://www.unitree.com/h1"
+  },
+  {
+   "group": "Power & Battery",
+   "key": "battery_voltage_max",
+   "label": "Battery max voltage",
+   "value": 67.2,
+   "unit": "V",
+   "note": "",
+   "source": "https://www.unitree.com/h1"
+  },
+  {
+   "group": "Power & Battery",
+   "key": "battery_swappable",
+   "label": "Quickly replaceable battery",
+   "value": true,
+   "unit": "",
+   "note": "",
+   "source": "https://www.unitree.com/h1"
+  },
+  {
+   "group": "Compute & Software",
+   "key": "cpu",
+   "label": "Motion control computer (PC1)",
+   "value": "Intel Core i5-1235U, 10 cores / 12 threads, 4.40 GHz turbo",
+   "unit": "",
+   "note": "platform functions; not user-accessible",
+   "source": "https://support.unitree.com/home/en/H1_developer/About_H1"
+  },
+  {
+   "group": "Compute & Software",
+   "key": "cpu",
+   "label": "Development computer (PC2/PC3)",
+   "value": "Intel Core i7-1255U / i7-1265U, 10 cores / 12 threads, 4.70 / 4.80 GHz",
+   "unit": "",
+   "note": "PC3 optional",
+   "source": "https://support.unitree.com/home/en/H1_developer/About_H1"
+  },
+  {
+   "group": "Compute & Software",
+   "key": "ram",
+   "label": "Development computer memory",
+   "value": "16 / 32",
+   "unit": "GB",
+   "note": "LPDDR5 5200 MT/s dual-channel",
+   "source": "https://support.unitree.com/home/en/H1_developer/About_H1"
+  },
+  {
+   "group": "Compute & Software",
+   "key": "storage",
+   "label": "Computer storage",
+   "value": "500 GB or more",
+   "unit": "",
+   "note": "PC1 and PC2/PC3",
+   "source": "https://support.unitree.com/home/en/H1_developer/About_H1"
+  },
+  {
+   "group": "Compute & Software",
+   "key": "gpu",
+   "label": "Integrated GPU",
+   "value": "Intel Iris Xe Graphics, max 1.20 GHz",
+   "unit": "",
+   "note": "",
+   "source": "https://support.unitree.com/home/en/H1_developer/About_H1"
+  },
+  {
+   "group": "Compute & Software",
+   "key": "cpu_cache",
+   "label": "Cache",
+   "value": "12 MB Intel Smart Cache",
+   "unit": "",
+   "note": "",
+   "source": "https://support.unitree.com/home/en/H1_developer/About_H1"
+  },
+  {
+   "group": "Compute & Software",
+   "key": "optional_compute",
+   "label": "Optional compute",
+   "value": "Intel Core i7 or NVIDIA Jetson Orin NX",
+   "unit": "",
+   "note": "H1-2: up to 3 devices",
+   "source": "https://www.unitree.com/h1"
+  },
+  {
+   "group": "Connectivity & Interfaces",
+   "key": "default_ip",
+   "label": "Development computer IP",
+   "value": "192.168.123.162 / .163",
+   "unit": "",
+   "note": "PC2 / optional PC3",
+   "source": "https://support.unitree.com/home/en/H1_developer/About_H1"
+  },
+  {
+   "group": "Sensors & Perception",
+   "key": "lidar_model",
+   "label": "3D LiDAR",
+   "value": "Livox MID-360",
+   "unit": "",
+   "note": "head; IP 192.168.123.120",
+   "source": "https://support.unitree.com/home/en/H1_developer/About_H1"
+  },
+  {
+   "group": "Sensors & Perception",
+   "key": "depth_camera_model",
+   "label": "Depth camera",
+   "value": "Intel RealSense D435",
+   "unit": "",
+   "note": "head",
+   "source": "https://support.unitree.com/home/en/H1_developer/About_H1"
+  },
+  {
+   "group": "Sensors & Perception",
+   "key": "lidar_fov",
+   "label": "Depth sensing coverage",
+   "value": "360° depth perception (3D LiDAR + depth camera)",
+   "unit": "",
+   "note": "",
+   "source": "https://www.unitree.com/h1"
+  },
+  {
+   "group": "Connectivity & Interfaces",
+   "key": "external_ports",
+   "label": "Electrical interfaces",
+   "value": "Aviation-plug interfaces on right side (joint motors, peripherals, Ethernet)",
+   "unit": "",
+   "note": "hot-swapping prohibited",
+   "source": "https://support.unitree.com/home/en/H1_developer/About_H1"
+  },
+  {
+   "group": "Compute & Software",
+   "key": "ota_updates",
+   "label": "OTA software upgrade",
+   "value": true,
+   "unit": "",
+   "note": "continuous OTA",
+   "source": "https://www.unitree.com/h1"
+  },
+  {
+   "group": "Safety & Compliance",
+   "key": "intended_use",
+   "label": "Intended use / caution",
+   "value": "Civilian robot; keep safe distance; no dangerous modifications",
+   "unit": "",
+   "note": "",
+   "source": "https://www.unitree.com/h1"
+  }
+ ]
 }

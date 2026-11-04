@@ -1,0 +1,353 @@
+{
+ "id": "seegrid-lift-cr1",
+ "checked": "2026-11-04",
+ "documents": [
+  {
+   "title": "Seegrid Lift CR1 AMR product page",
+   "url": "https://seegrid.com/autonomous-mobile-robots/lift-cr1-amr"
+  },
+  {
+   "title": "Seegrid press release: Lift CR1 unveiled at MODEX 2024 (2024-02-15)",
+   "url": "https://seegrid.com/news/seegrid-unveils-new-lift-cr1-at-modex-2024"
+  },
+  {
+   "title": "Seegrid Palion Lift CR1 page, archived 2024-05-29 (Wayback Machine)",
+   "url": "http://web.archive.org/web/20240529173544/https://seegrid.com/autonomous-mobile-robots/palion-lift-cr1/"
+  }
+ ],
+ "specs": [
+  {
+   "group": "Identity",
+   "key": "manufacturer",
+   "label": "Manufacturer",
+   "value": "Seegrid Corporation",
+   "unit": "",
+   "note": "",
+   "source": "https://seegrid.com/news/seegrid-unveils-new-lift-cr1-at-modex-2024"
+  },
+  {
+   "group": "Identity",
+   "key": "robot_type",
+   "label": "Robot type",
+   "value": "Autonomous lift truck AMR",
+   "unit": "",
+   "note": "",
+   "source": "https://seegrid.com/news/seegrid-unveils-new-lift-cr1-at-modex-2024"
+  },
+  {
+   "group": "Identity",
+   "key": "model_name_meaning",
+   "label": "Model name",
+   "value": "CR1 = \"Cab Reach\"",
+   "unit": "",
+   "note": "",
+   "source": "https://seegrid.com/news/seegrid-unveils-new-lift-cr1-at-modex-2024"
+  },
+  {
+   "group": "Identity",
+   "key": "former_names",
+   "label": "Former name",
+   "value": "Palion Lift CR1",
+   "unit": "",
+   "note": "",
+   "source": "http://web.archive.org/web/20240529173544/https://seegrid.com/autonomous-mobile-robots/palion-lift-cr1/"
+  },
+  {
+   "group": "Identity",
+   "key": "release_date",
+   "label": "Unveiled",
+   "value": "2024-02-15, MODEX 2024 (booth C7685)",
+   "unit": "",
+   "note": "",
+   "source": "https://seegrid.com/news/seegrid-unveils-new-lift-cr1-at-modex-2024"
+  },
+  {
+   "group": "Identity",
+   "key": "generation",
+   "label": "Position in line",
+   "value": "Seegrid's second lift AMR, after Lift RS1 (launched Dec 2022)",
+   "unit": "",
+   "note": "",
+   "source": "https://seegrid.com/news/seegrid-unveils-new-lift-cr1-at-modex-2024"
+  },
+  {
+   "group": "Mobility & Performance",
+   "key": "max_payload",
+   "label": "Payload capacity",
+   "value": 4000,
+   "unit": "lb",
+   "note": "",
+   "source": "https://seegrid.com/autonomous-mobile-robots/lift-cr1-amr"
+  },
+  {
+   "group": "Payload & Mounting",
+   "key": "max_lift_height",
+   "label": "Max lift height",
+   "value": 15,
+   "unit": "ft",
+   "note": "mast supports future higher heights",
+   "source": "https://seegrid.com/autonomous-mobile-robots/lift-cr1-amr"
+  },
+  {
+   "group": "Payload & Mounting",
+   "key": "max_lift_height",
+   "label": "Reach",
+   "value": 180,
+   "unit": "in",
+   "note": "legacy spec block",
+   "source": "http://web.archive.org/web/20240529173544/https://seegrid.com/autonomous-mobile-robots/palion-lift-cr1/"
+  },
+  {
+   "group": "Mobility & Performance",
+   "key": "max_speed",
+   "label": "Maximum automatic speed",
+   "value": 5,
+   "unit": "mph",
+   "note": "forward",
+   "source": "https://seegrid.com/autonomous-mobile-robots/lift-cr1-amr"
+  },
+  {
+   "group": "Mobility & Performance",
+   "key": "max_speed_reverse",
+   "label": "Maximum automatic speed, reverse",
+   "value": 0.7,
+   "unit": "mph",
+   "note": "legacy page lists \"Reverse -0.7 mph\"",
+   "source": "http://web.archive.org/web/20240529173544/https://seegrid.com/autonomous-mobile-robots/palion-lift-cr1/"
+  },
+  {
+   "group": "Dimensions & Mass",
+   "key": "width",
+   "label": "Width",
+   "value": 50,
+   "unit": "in",
+   "note": "legacy spec block (May 2024)",
+   "source": "http://web.archive.org/web/20240529173544/https://seegrid.com/autonomous-mobile-robots/palion-lift-cr1/"
+  },
+  {
+   "group": "Dimensions & Mass",
+   "key": "length",
+   "label": "Length",
+   "value": 92,
+   "unit": "in",
+   "note": "forks retracted; legacy spec block (May 2024)",
+   "source": "http://web.archive.org/web/20240529173544/https://seegrid.com/autonomous-mobile-robots/palion-lift-cr1/"
+  },
+  {
+   "group": "Payload & Mounting",
+   "key": "fork_dimensions",
+   "label": "Forks",
+   "value": "ITA rated; 42 in standard, 36–72 in optional",
+   "unit": "",
+   "note": "",
+   "source": "https://seegrid.com/autonomous-mobile-robots/lift-cr1-amr"
+  },
+  {
+   "group": "Mobility & Performance",
+   "key": "drive_wheel_material",
+   "label": "Wheels",
+   "value": "Polyurethane",
+   "unit": "",
+   "note": "",
+   "source": "http://web.archive.org/web/20240529173544/https://seegrid.com/autonomous-mobile-robots/palion-lift-cr1/"
+  },
+  {
+   "group": "Safety & Compliance",
+   "key": "personnel_detection",
+   "label": "Personnel detection",
+   "value": "Safety-rated personnel detection system",
+   "unit": "",
+   "note": "",
+   "source": "https://seegrid.com/autonomous-mobile-robots/lift-cr1-amr"
+  },
+  {
+   "group": "Sensors & Perception",
+   "key": "lidar_count",
+   "label": "LiDAR sensors",
+   "value": 5,
+   "unit": "",
+   "note": "2D and 3D LiDAR, layered safety",
+   "source": "https://seegrid.com/autonomous-mobile-robots/lift-cr1-amr"
+  },
+  {
+   "group": "Sensors & Perception",
+   "key": "lidar_type",
+   "label": "LiDAR",
+   "value": "Layered 2D & 3D LiDAR sensors",
+   "unit": "",
+   "note": "",
+   "source": "https://seegrid.com/autonomous-mobile-robots/lift-cr1-amr"
+  },
+  {
+   "group": "Safety & Compliance",
+   "key": "obstacle_avoidance",
+   "label": "Secondary detection",
+   "value": "Secondary 3D object detection system",
+   "unit": "",
+   "note": "",
+   "source": "http://web.archive.org/web/20240529173544/https://seegrid.com/autonomous-mobile-robots/palion-lift-cr1/"
+  },
+  {
+   "group": "Safety & Compliance",
+   "key": "emergency_stop",
+   "label": "Emergency stop buttons",
+   "value": 3,
+   "unit": "",
+   "note": "",
+   "source": "https://seegrid.com/autonomous-mobile-robots/lift-cr1-amr"
+  },
+  {
+   "group": "Audio, Lights & HMI",
+   "key": "status_lights",
+   "label": "Status lights",
+   "value": "LED lightbar",
+   "unit": "",
+   "note": "",
+   "source": "https://seegrid.com/autonomous-mobile-robots/lift-cr1-amr"
+  },
+  {
+   "group": "Safety & Compliance",
+   "key": "warning_system",
+   "label": "Warning system",
+   "value": "Acoustic warning system",
+   "unit": "",
+   "note": "",
+   "source": "https://seegrid.com/autonomous-mobile-robots/lift-cr1-amr"
+  },
+  {
+   "group": "Terrain & Navigation Limits",
+   "key": "navigation_method",
+   "label": "Navigation",
+   "value": "Infrastructure-free LiDAR SLAM with Grid Engine localization; dynamic path planning",
+   "unit": "",
+   "note": "",
+   "source": "https://seegrid.com/autonomous-mobile-robots/lift-cr1-amr"
+  },
+  {
+   "group": "Terrain & Navigation Limits",
+   "key": "localization_method",
+   "label": "Localization",
+   "value": "Grid Engine localization",
+   "unit": "",
+   "note": "",
+   "source": "https://seegrid.com/autonomous-mobile-robots/lift-cr1-amr"
+  },
+  {
+   "group": "Sensors & Perception",
+   "key": "pallet_detection",
+   "label": "Payload detection",
+   "value": "3D computer vision payload detection; handles misaligned and non-standard pallets with real-time alignment adjustment",
+   "unit": "",
+   "note": "",
+   "source": "https://seegrid.com/autonomous-mobile-robots/lift-cr1-amr"
+  },
+  {
+   "group": "Sensors & Perception",
+   "key": "sensor_fusion",
+   "label": "Perception",
+   "value": "3D computer vision with sensor fusion; same core LiDAR/SLAM and 3D vision suite as Lift RS1",
+   "unit": "",
+   "note": "",
+   "source": "https://seegrid.com/autonomous-mobile-robots/lift-cr1-amr"
+  },
+  {
+   "group": "Controls & Operation",
+   "key": "autonomy_features",
+   "label": "Autonomy",
+   "value": "Sliding Scale Autonomy (hybrid of AMR agility and AGV predictability); real-time route changes",
+   "unit": "",
+   "note": "",
+   "source": "https://seegrid.com/autonomous-mobile-robots/lift-cr1-amr"
+  },
+  {
+   "group": "Controls & Operation",
+   "key": "manual_control",
+   "label": "Manual operation",
+   "value": "Hybrid: off-the-shelf chassis with Seegrid technology allows manual or autonomous operation",
+   "unit": "",
+   "note": "",
+   "source": "https://seegrid.com/autonomous-mobile-robots/lift-cr1-amr"
+  },
+  {
+   "group": "Controls & Operation",
+   "key": "operator_platform",
+   "label": "Operator compartment",
+   "value": "Protected ride-on compartment",
+   "unit": "",
+   "note": "",
+   "source": "http://web.archive.org/web/20240529173544/https://seegrid.com/autonomous-mobile-robots/palion-lift-cr1/"
+  },
+  {
+   "group": "Charging & Docking",
+   "key": "charging_method",
+   "label": "Charging",
+   "value": "Auto-Charge (synchronized self-charging scheduled via Fleet Central)",
+   "unit": "",
+   "note": "",
+   "source": "https://seegrid.com/autonomous-mobile-robots/lift-cr1-amr"
+  },
+  {
+   "group": "Charging & Docking",
+   "key": "opportunity_charging",
+   "label": "Automatic charging",
+   "value": "Auto-Charge automates scheduling, dispatch and charging for 24/7 operation",
+   "unit": "",
+   "note": "",
+   "source": "https://seegrid.com/autonomous-mobile-robots/lift-cr1-amr"
+  },
+  {
+   "group": "Compute & Software",
+   "key": "fleet_software",
+   "label": "Fleet software",
+   "value": "Seegrid Fleet Central",
+   "unit": "",
+   "note": "",
+   "source": "https://seegrid.com/autonomous-mobile-robots/lift-cr1-amr"
+  },
+  {
+   "group": "Connectivity & Interfaces",
+   "key": "interoperability",
+   "label": "Interoperability",
+   "value": "VDA5050 supported (Seegrid announcement linked from CR1 page)",
+   "unit": "",
+   "note": "company-wide statement",
+   "source": "https://seegrid.com/autonomous-mobile-robots/lift-cr1-amr"
+  },
+  {
+   "group": "Connectivity & Interfaces",
+   "key": "data_security",
+   "label": "Information security",
+   "value": "Seegrid ISMS certified ISO/IEC 27001:2022",
+   "unit": "",
+   "note": "company-level certification",
+   "source": "https://seegrid.com/autonomous-mobile-robots/lift-cr1-amr"
+  },
+  {
+   "group": "Safety & Compliance",
+   "key": "intended_use",
+   "label": "Workflows",
+   "value": "Inbound to bulk storage, parts to line (pick from floor or staging up to 6 ft), inbound, outbound, cross docking; Autonomous Buffer Management (ABM), vertical storage",
+   "unit": "",
+   "note": "",
+   "source": "https://seegrid.com/autonomous-mobile-robots/lift-cr1-amr"
+  },
+  {
+   "group": "Commercial",
+   "key": "awards",
+   "label": "Award",
+   "value": "Modern Material Handling 2024 Readers' Choice Product of the Year",
+   "unit": "",
+   "note": "",
+   "source": "https://seegrid.com/autonomous-mobile-robots/lift-cr1-amr"
+  },
+  {
+   "group": "Commercial",
+   "key": "optional_accessories",
+   "label": "Fork options",
+   "value": "36 in – 72 in forks",
+   "unit": "",
+   "note": "",
+   "source": "https://seegrid.com/autonomous-mobile-robots/lift-cr1-amr"
+  }
+ ]
+}

@@ -1,0 +1,371 @@
+{
+ "id": "zebra-fetch-freight1500",
+ "checked": "2026-11-04",
+ "documents": [
+  {
+   "title": "Zebra/Fetch Freight500/1500 AMRs brochure (©2021 Zebra, CSSI-hosted)",
+   "url": "https://cssi.com/wp-content/uploads/cssi_fetch-freight500-1500-AMR-brochure.pdf"
+  },
+  {
+   "title": "Fetch Robotics Freight500/Freight1500 spec sheet (©2020, Barcodesinc-hosted)",
+   "url": "https://www.barcodesinc.com/media/pdf/Zebra/freight500-1500.pdf"
+  },
+  {
+   "title": "Zebra Technologies SEC filing, restructuring note R14 (2026)",
+   "url": "https://www.sec.gov/Archives/edgar/data/877212/000162828026034109/R14.htm"
+  }
+ ],
+ "specs": [
+  {
+   "group": "Identity",
+   "key": "manufacturer",
+   "label": "Manufacturer",
+   "value": "Zebra Technologies (Fetch Robotics)",
+   "unit": "",
+   "note": "",
+   "source": "https://cssi.com/wp-content/uploads/cssi_fetch-freight500-1500-AMR-brochure.pdf"
+  },
+  {
+   "group": "Identity",
+   "key": "robot_type",
+   "label": "Robot type",
+   "value": "AMR base for large and palletized payload transport",
+   "unit": "",
+   "note": "",
+   "source": "https://cssi.com/wp-content/uploads/cssi_fetch-freight500-1500-AMR-brochure.pdf"
+  },
+  {
+   "group": "Identity",
+   "key": "variants",
+   "label": "Family",
+   "value": "Freight500 (500 kg) and Freight1500 (1,500 kg)",
+   "unit": "",
+   "note": "",
+   "source": "https://cssi.com/wp-content/uploads/cssi_fetch-freight500-1500-AMR-brochure.pdf"
+  },
+  {
+   "group": "Identity",
+   "key": "spec_document_date",
+   "label": "Brochure",
+   "value": "Zebra Freight500/1500 brochure ©2021; Fetch spec sheet ©2020",
+   "unit": "",
+   "note": "",
+   "source": "https://cssi.com/wp-content/uploads/cssi_fetch-freight500-1500-AMR-brochure.pdf"
+  },
+  {
+   "group": "Dimensions & Mass",
+   "key": "weight",
+   "label": "Weight",
+   "value": 471,
+   "unit": "kg",
+   "note": "1,037 lb (Zebra 2021 brochure)",
+   "source": "https://cssi.com/wp-content/uploads/cssi_fetch-freight500-1500-AMR-brochure.pdf"
+  },
+  {
+   "group": "Dimensions & Mass",
+   "key": "weight",
+   "label": "Weight",
+   "value": 469,
+   "unit": "kg",
+   "note": "1,034 lb (Fetch 2020 spec sheet)",
+   "source": "https://www.barcodesinc.com/media/pdf/Zebra/freight500-1500.pdf"
+  },
+  {
+   "group": "Dimensions & Mass",
+   "key": "height",
+   "label": "Height",
+   "value": 35.6,
+   "unit": "cm",
+   "note": "14.0 in",
+   "source": "https://cssi.com/wp-content/uploads/cssi_fetch-freight500-1500-AMR-brochure.pdf"
+  },
+  {
+   "group": "Dimensions & Mass",
+   "key": "length",
+   "label": "Base footprint length",
+   "value": 168.8,
+   "unit": "cm",
+   "note": "66.5 in (Zebra 2021)",
+   "source": "https://cssi.com/wp-content/uploads/cssi_fetch-freight500-1500-AMR-brochure.pdf"
+  },
+  {
+   "group": "Dimensions & Mass",
+   "key": "width",
+   "label": "Base footprint width",
+   "value": 133.5,
+   "unit": "cm",
+   "note": "52.6 in (Zebra 2021)",
+   "source": "https://cssi.com/wp-content/uploads/cssi_fetch-freight500-1500-AMR-brochure.pdf"
+  },
+  {
+   "group": "Dimensions & Mass",
+   "key": "length",
+   "label": "Base footprint length",
+   "value": 167.7,
+   "unit": "cm",
+   "note": "66 in (Fetch 2020)",
+   "source": "https://www.barcodesinc.com/media/pdf/Zebra/freight500-1500.pdf"
+  },
+  {
+   "group": "Dimensions & Mass",
+   "key": "width",
+   "label": "Base footprint width",
+   "value": 132.4,
+   "unit": "cm",
+   "note": "52 in (Fetch 2020)",
+   "source": "https://www.barcodesinc.com/media/pdf/Zebra/freight500-1500.pdf"
+  },
+  {
+   "group": "Mobility & Performance",
+   "key": "max_payload",
+   "label": "Maximum payload weight",
+   "value": 1500,
+   "unit": "kg",
+   "note": "3,300 lb",
+   "source": "https://cssi.com/wp-content/uploads/cssi_fetch-freight500-1500-AMR-brochure.pdf"
+  },
+  {
+   "group": "Mobility & Performance",
+   "key": "max_speed",
+   "label": "Maximum speed",
+   "value": 1.5,
+   "unit": "m/s",
+   "note": "3.4 mph",
+   "source": "https://cssi.com/wp-content/uploads/cssi_fetch-freight500-1500-AMR-brochure.pdf"
+  },
+  {
+   "group": "Mobility & Performance",
+   "key": "turning_radius",
+   "label": "Turning radius",
+   "value": "Turn in place",
+   "unit": "",
+   "note": "",
+   "source": "https://cssi.com/wp-content/uploads/cssi_fetch-freight500-1500-AMR-brochure.pdf"
+  },
+  {
+   "group": "Payload & Mounting",
+   "key": "pallet_types",
+   "label": "Pallets",
+   "value": "Up to US standard 40 x 48 in pallets",
+   "unit": "",
+   "note": "",
+   "source": "https://cssi.com/wp-content/uploads/cssi_fetch-freight500-1500-AMR-brochure.pdf"
+  },
+  {
+   "group": "Payload & Mounting",
+   "key": "cargo_dimensions",
+   "label": "Max payload dimensions",
+   "value": "59.1 x 45.2 in (150.1 x 114.8 cm)",
+   "unit": "",
+   "note": "",
+   "source": "https://cssi.com/wp-content/uploads/cssi_fetch-freight500-1500-AMR-brochure.pdf"
+  },
+  {
+   "group": "Payload & Mounting",
+   "key": "max_payload_height",
+   "label": "Max payload height",
+   "value": 114.4,
+   "unit": "cm",
+   "note": "45.0 in",
+   "source": "https://cssi.com/wp-content/uploads/cssi_fetch-freight500-1500-AMR-brochure.pdf"
+  },
+  {
+   "group": "Payload & Mounting",
+   "key": "mounting_points",
+   "label": "Top plate mounting points",
+   "value": 67,
+   "unit": "",
+   "note": "Zebra 2021 brochure",
+   "source": "https://cssi.com/wp-content/uploads/cssi_fetch-freight500-1500-AMR-brochure.pdf"
+  },
+  {
+   "group": "Payload & Mounting",
+   "key": "mounting_points",
+   "label": "Top plate mounting points",
+   "value": 58,
+   "unit": "",
+   "note": "Fetch 2020 spec sheet",
+   "source": "https://www.barcodesinc.com/media/pdf/Zebra/freight500-1500.pdf"
+  },
+  {
+   "group": "Power & Battery",
+   "key": "battery_chemistry",
+   "label": "Battery",
+   "value": "Lithium iron magnesium phosphate",
+   "unit": "",
+   "note": "",
+   "source": "https://cssi.com/wp-content/uploads/cssi_fetch-freight500-1500-AMR-brochure.pdf"
+  },
+  {
+   "group": "Power & Battery",
+   "key": "runtime",
+   "label": "Nominal continuous runtime",
+   "value": 9,
+   "unit": "h",
+   "note": "~9 hrs",
+   "source": "https://cssi.com/wp-content/uploads/cssi_fetch-freight500-1500-AMR-brochure.pdf"
+  },
+  {
+   "group": "Charging & Docking",
+   "key": "charging_method",
+   "label": "Charging",
+   "value": "Autonomous docking",
+   "unit": "",
+   "note": "",
+   "source": "https://cssi.com/wp-content/uploads/cssi_fetch-freight500-1500-AMR-brochure.pdf"
+  },
+  {
+   "group": "Charging & Docking",
+   "key": "charge_time",
+   "label": "Charge time",
+   "value": "1 h to 90%",
+   "unit": "",
+   "note": "fast charge capability",
+   "source": "https://cssi.com/wp-content/uploads/cssi_fetch-freight500-1500-AMR-brochure.pdf"
+  },
+  {
+   "group": "Sensors & Perception",
+   "key": "lidar_count",
+   "label": "2D laser sensors",
+   "value": 2,
+   "unit": "",
+   "note": "SICK",
+   "source": "https://cssi.com/wp-content/uploads/cssi_fetch-freight500-1500-AMR-brochure.pdf"
+  },
+  {
+   "group": "Sensors & Perception",
+   "key": "lidar_model",
+   "label": "2D laser sensor",
+   "value": "SICK safety laser scanner (x2)",
+   "unit": "",
+   "note": "",
+   "source": "https://cssi.com/wp-content/uploads/cssi_fetch-freight500-1500-AMR-brochure.pdf"
+  },
+  {
+   "group": "Sensors & Perception",
+   "key": "lidar_range",
+   "label": "2D laser range",
+   "value": 30,
+   "unit": "m",
+   "note": "98 ft (Zebra 2021)",
+   "source": "https://cssi.com/wp-content/uploads/cssi_fetch-freight500-1500-AMR-brochure.pdf"
+  },
+  {
+   "group": "Sensors & Perception",
+   "key": "lidar_fov",
+   "label": "2D laser FOV",
+   "value": 275,
+   "unit": "°",
+   "note": "per sensor (Zebra 2021)",
+   "source": "https://cssi.com/wp-content/uploads/cssi_fetch-freight500-1500-AMR-brochure.pdf"
+  },
+  {
+   "group": "Sensors & Perception",
+   "key": "lidar_range",
+   "label": "2D laser range",
+   "value": 40,
+   "unit": "m",
+   "note": "131 ft, 360° coverage (Fetch 2020)",
+   "source": "https://www.barcodesinc.com/media/pdf/Zebra/freight500-1500.pdf"
+  },
+  {
+   "group": "Sensors & Perception",
+   "key": "depth_camera_count",
+   "label": "3D cameras",
+   "value": 8,
+   "unit": "",
+   "note": "360° coverage",
+   "source": "https://cssi.com/wp-content/uploads/cssi_fetch-freight500-1500-AMR-brochure.pdf"
+  },
+  {
+   "group": "Sensors & Perception",
+   "key": "depth_camera_fov",
+   "label": "3D camera coverage",
+   "value": 360,
+   "unit": "°",
+   "note": "combined, 8 cameras",
+   "source": "https://cssi.com/wp-content/uploads/cssi_fetch-freight500-1500-AMR-brochure.pdf"
+  },
+  {
+   "group": "Safety & Compliance",
+   "key": "obstacle_avoidance",
+   "label": "Obstacle avoidance",
+   "value": "Dynamic obstacle avoidance; zero-blind-spot sensor coverage",
+   "unit": "",
+   "note": "",
+   "source": "https://cssi.com/wp-content/uploads/cssi_fetch-freight500-1500-AMR-brochure.pdf"
+  },
+  {
+   "group": "Safety & Compliance",
+   "key": "safety_standards",
+   "label": "Safety standards",
+   "value": "CE; ANSI/RIA R15.08",
+   "unit": "",
+   "note": "certified hardware-based safety system",
+   "source": "https://cssi.com/wp-content/uploads/cssi_fetch-freight500-1500-AMR-brochure.pdf"
+  },
+  {
+   "group": "Safety & Compliance",
+   "key": "certifications",
+   "label": "Marks",
+   "value": "CE mark",
+   "unit": "",
+   "note": "",
+   "source": "https://cssi.com/wp-content/uploads/cssi_fetch-freight500-1500-AMR-brochure.pdf"
+  },
+  {
+   "group": "Safety & Compliance",
+   "key": "safety_notes",
+   "label": "Laser warning",
+   "value": "Uses components emitting invisible laser radiation; do not view safety laser scanner through optical instruments",
+   "unit": "",
+   "note": "",
+   "source": "https://cssi.com/wp-content/uploads/cssi_fetch-freight500-1500-AMR-brochure.pdf"
+  },
+  {
+   "group": "Audio, Lights & HMI",
+   "key": "speaker",
+   "label": "Audio",
+   "value": 100,
+   "unit": "dB",
+   "note": "",
+   "source": "https://cssi.com/wp-content/uploads/cssi_fetch-freight500-1500-AMR-brochure.pdf"
+  },
+  {
+   "group": "Environment & Protection",
+   "key": "indoor_outdoor",
+   "label": "Environment",
+   "value": "Indoor",
+   "unit": "",
+   "note": "",
+   "source": "https://cssi.com/wp-content/uploads/cssi_fetch-freight500-1500-AMR-brochure.pdf"
+  },
+  {
+   "group": "Compute & Software",
+   "key": "fleet_software",
+   "label": "Software platform",
+   "value": "Fetch Cloud Robotics Platform",
+   "unit": "",
+   "note": "",
+   "source": "https://www.barcodesinc.com/media/pdf/Zebra/freight500-1500.pdf"
+  },
+  {
+   "group": "Safety & Compliance",
+   "key": "intended_use",
+   "label": "Key workflows",
+   "value": "Case picking, pallet movements, putaway, crossdocking/consolidation, packing and pallet recycling",
+   "unit": "",
+   "note": "",
+   "source": "https://cssi.com/wp-content/uploads/cssi_fetch-freight500-1500-AMR-brochure.pdf"
+  },
+  {
+   "group": "Commercial",
+   "key": "availability",
+   "label": "Status",
+   "value": "Zebra completed sale of its robotics automation business to Skild AI on 2026-03-27",
+   "unit": "",
+   "note": "SEC filing; product line no longer sold by Zebra",
+   "source": "https://www.sec.gov/Archives/edgar/data/877212/000162828026034109/R14.htm"
+  }
+ ]
+}

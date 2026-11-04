@@ -662,7 +662,7 @@
   },
   {
    "group": "Power & Battery",
-   "key": "battery_certifications",
+   "key": "battery_certification",
    "label": "Battery certifications",
    "value": "UN 38.3 transportation testing; CB Certification to IEC 62133; drop tested with no electrolyte leakage",
    "unit": "",
@@ -712,7 +712,7 @@
   },
   {
    "group": "Power & Battery",
-   "key": "battery_shipped_soc",
+   "key": "battery_shipping_soc",
    "label": "Battery charge as shipped",
    "value": "<30",
    "unit": "%",

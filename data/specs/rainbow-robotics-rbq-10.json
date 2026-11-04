@@ -1,0 +1,1433 @@
+{
+ "id": "rainbow-robotics-rbq-10",
+ "checked": "2026-11-04",
+ "documents": [
+  {
+   "title": "RBQ manual – full text (llms-full.txt)",
+   "url": "https://rainbowrobotics.github.io/RBQ/llms-full.txt"
+  },
+  {
+   "title": "RBQ Series General Specifications",
+   "url": "https://rainbowrobotics.github.io/RBQ/manual/product-descriptions/general-specification.html"
+  },
+  {
+   "title": "Hardware Specification (joints, IMU)",
+   "url": "https://rainbowrobotics.github.io/RBQ/manual/hardware/specification.html"
+  },
+  {
+   "title": "Physical Parameter",
+   "url": "https://rainbowrobotics.github.io/RBQ/manual/hardware/physical-parameter.html"
+  },
+  {
+   "title": "Battery",
+   "url": "https://rainbowrobotics.github.io/RBQ/manual/related-products/battery.html"
+  },
+  {
+   "title": "Docking Station",
+   "url": "https://rainbowrobotics.github.io/RBQ/manual/related-products/docking-station.html"
+  },
+  {
+   "title": "Cameras",
+   "url": "https://rainbowrobotics.github.io/RBQ/manual/related-products/cameras.html"
+  },
+  {
+   "title": "LiDAR",
+   "url": "https://rainbowrobotics.github.io/RBQ/manual/related-products/lidar.html"
+  },
+  {
+   "title": "PTZ Camera",
+   "url": "https://rainbowrobotics.github.io/RBQ/manual/related-products/ptz-camera.html"
+  },
+  {
+   "title": "External Port Information",
+   "url": "https://rainbowrobotics.github.io/RBQ/manual/interface/external-port.html"
+  },
+  {
+   "title": "Powering the external ports",
+   "url": "https://rainbowrobotics.github.io/RBQ/manual/interface/port-power.html"
+  },
+  {
+   "title": "Network",
+   "url": "https://rainbowrobotics.github.io/RBQ/manual/interface/network.html"
+  },
+  {
+   "title": "Accessories",
+   "url": "https://rainbowrobotics.github.io/RBQ/manual/product-descriptions/accessories.html"
+  },
+  {
+   "title": "Packing",
+   "url": "https://rainbowrobotics.github.io/RBQ/manual/operation/packing.html"
+  },
+  {
+   "title": "Charging",
+   "url": "https://rainbowrobotics.github.io/RBQ/manual/operation/charging.html"
+  },
+  {
+   "title": "Emergency Stop Procedures",
+   "url": "https://rainbowrobotics.github.io/RBQ/manual/safety/emergency-stop-procedures.html"
+  },
+  {
+   "title": "User Responsibility Disclaimer",
+   "url": "https://rainbowrobotics.github.io/RBQ/manual/safety/user-responsibility-disclaimer.html"
+  },
+  {
+   "title": "SDK concept",
+   "url": "https://rainbowrobotics.github.io/RBQ/software/concept.html"
+  },
+  {
+   "title": "ROS2 SDK overview",
+   "url": "https://rainbowrobotics.github.io/RBQ/software/sdk/ros/overview.html"
+  },
+  {
+   "title": "Simulator overview",
+   "url": "https://rainbowrobotics.github.io/RBQ/software/simulator/overview.html"
+  }
+ ],
+ "specs": [
+  {
+   "group": "Identity",
+   "key": "manufacturer",
+   "label": "Manufacturer",
+   "value": "Rainbow Robotics",
+   "unit": "",
+   "note": "",
+   "source": "https://rainbowrobotics.github.io/RBQ/manual/product-descriptions/intro.html"
+  },
+  {
+   "group": "Identity",
+   "key": "model_number",
+   "label": "Model",
+   "value": "RBQ 10 (RBQ10)",
+   "unit": "",
+   "note": "",
+   "source": "https://rainbowrobotics.github.io/RBQ/manual/product-descriptions/general-specification.html",
+   "ref": "RBQ 10 table"
+  },
+  {
+   "group": "Identity",
+   "key": "robot_type",
+   "label": "Robot type",
+   "value": "Quadruped; dynamics-based gait control and learning-based locomotion",
+   "unit": "",
+   "note": "",
+   "source": "https://rainbowrobotics.github.io/RBQ/manual/product-descriptions/intro.html"
+  },
+  {
+   "group": "Identity",
+   "key": "variants",
+   "label": "Variants",
+   "value": "RBQ quadruped (default) and wheeled RBQ (12 leg joints + 4 driven wheels) supported in simulator",
+   "unit": "",
+   "note": "",
+   "source": "https://rainbowrobotics.github.io/RBQ/software/simulator/overview.html"
+  },
+  {
+   "group": "Identity",
+   "key": "variants",
+   "label": "External port panel versions",
+   "value": "Version 1 (USB-C labelled VISION/MOTION, dedicated LiDAR port) and version 2 (U-PC/R-PC, gigabit 12V/LAN)",
+   "unit": "",
+   "note": "",
+   "source": "https://rainbowrobotics.github.io/RBQ/manual/interface/external-port.html"
+  },
+  {
+   "group": "Identity",
+   "key": "software_version",
+   "label": "Software release channels",
+   "value": "Stable (vX.Y.Z, every version kept) and nightly (vX.Y.Z-nightly, newest only)",
+   "unit": "",
+   "note": "",
+   "source": "https://rainbowrobotics.github.io/RBQ/software/release-note/"
+  },
+  {
+   "group": "Dimensions & Mass",
+   "key": "length",
+   "label": "Length",
+   "value": 98,
+   "unit": "cm",
+   "note": "",
+   "source": "https://rainbowrobotics.github.io/RBQ/manual/product-descriptions/general-specification.html",
+   "ref": "Dimensions (L × W × H)"
+  },
+  {
+   "group": "Dimensions & Mass",
+   "key": "width",
+   "label": "Width",
+   "value": 43,
+   "unit": "cm",
+   "note": "",
+   "source": "https://rainbowrobotics.github.io/RBQ/manual/product-descriptions/general-specification.html",
+   "ref": "Dimensions (L × W × H)"
+  },
+  {
+   "group": "Dimensions & Mass",
+   "key": "height",
+   "label": "Height",
+   "value": 62,
+   "unit": "cm",
+   "note": "",
+   "source": "https://rainbowrobotics.github.io/RBQ/manual/product-descriptions/general-specification.html",
+   "ref": "Dimensions (L × W × H)"
+  },
+  {
+   "group": "Dimensions & Mass",
+   "key": "weight_with_battery",
+   "label": "Weight (with battery)",
+   "value": 42,
+   "unit": "kg",
+   "note": "",
+   "source": "https://rainbowrobotics.github.io/RBQ/manual/product-descriptions/general-specification.html"
+  },
+  {
+   "group": "Dimensions & Mass",
+   "key": "leg_length",
+   "label": "Thigh length",
+   "value": 330,
+   "unit": "mm",
+   "note": "Thigh→calf joint offset 0.33 m (URDF TF)",
+   "source": "https://rainbowrobotics.github.io/RBQ/manual/hardware/physical-parameter.html"
+  },
+  {
+   "group": "Dimensions & Mass",
+   "key": "leg_length",
+   "label": "Calf length",
+   "value": 330,
+   "unit": "mm",
+   "note": "Calf→foot offset 0.33 m (URDF TF)",
+   "source": "https://rainbowrobotics.github.io/RBQ/manual/hardware/physical-parameter.html"
+  },
+  {
+   "group": "Dimensions & Mass",
+   "key": "hip_spacing",
+   "label": "Hip spacing (front–rear × lateral)",
+   "value": "624.36 × 180",
+   "unit": "mm",
+   "note": "Hip roll joints at x = ±0.31218 m, y = ±0.09 m from body centre; hip-to-thigh lateral offset 0.10285 m",
+   "source": "https://rainbowrobotics.github.io/RBQ/manual/hardware/physical-parameter.html"
+  },
+  {
+   "group": "Dimensions & Mass",
+   "key": "link_masses",
+   "label": "Link masses",
+   "value": "Body 16.758 kg; per leg: hip 3.669344 kg, thigh 1.80014 kg, calf 0.452 kg, foot 0.06 kg",
+   "unit": "",
+   "note": "",
+   "source": "https://rainbowrobotics.github.io/RBQ/manual/hardware/physical-parameter.html",
+   "ref": "Link Mass & Inertia"
+  },
+  {
+   "group": "Mobility & Performance",
+   "key": "nominal_speed",
+   "label": "Walking speed",
+   "value": 9,
+   "unit": "km/h",
+   "note": "",
+   "source": "https://rainbowrobotics.github.io/RBQ/manual/product-descriptions/general-specification.html"
+  },
+  {
+   "group": "Mobility & Performance",
+   "key": "max_speed",
+   "label": "Max speed (running mode)",
+   "value": 14,
+   "unit": "km/h",
+   "note": "Up to, in running mode",
+   "source": "https://rainbowrobotics.github.io/RBQ/manual/product-descriptions/general-specification.html"
+  },
+  {
+   "group": "Mobility & Performance",
+   "key": "max_payload",
+   "label": "Max payload",
+   "value": 15,
+   "unit": "kg",
+   "note": "Total mass of everything mounted on top of the robot",
+   "source": "https://rainbowrobotics.github.io/RBQ/guides/add-on/specifications.html"
+  },
+  {
+   "group": "Mobility & Performance",
+   "key": "degrees_of_freedom",
+   "label": "Leg joints",
+   "value": 12,
+   "unit": "",
+   "note": "HRR/HRP/HRK, HLR/HLP/HLK, FRR/FRP/FRK, FLR/FLP/FLK",
+   "source": "https://rainbowrobotics.github.io/RBQ/manual/hardware/physical-parameter.html"
+  },
+  {
+   "group": "Actuation & Joints",
+   "key": "dof_per_leg",
+   "label": "Leg DoF",
+   "value": 3,
+   "unit": "",
+   "note": "Hip roll, hip pitch, knee",
+   "source": "https://rainbowrobotics.github.io/RBQ/manual/hardware/specification.html"
+  },
+  {
+   "group": "Mobility & Performance",
+   "key": "gaits",
+   "label": "Supported gaits (SDK)",
+   "value": "sitting (0), standing (1), trotting – MPC trot (3), trot_stairs (4), waving – wave/slow walk (5), docking (10)",
+   "unit": "",
+   "note": "",
+   "source": "https://rainbowrobotics.github.io/RBQ/guides/sdk-cpp/high-level.html",
+   "ref": "Supported gaits"
+  },
+  {
+   "group": "Mobility & Performance",
+   "key": "gaits",
+   "label": "App motions",
+   "value": "SIT, STAND, WALK, STAIRS, DOCKING; Model Walk, Wave, Run; AI motions in developer mode: AI Pronk, AI Bound, AI Pace, AI Run, AI 2Leg L/R/F, AI 3Leg HL",
+   "unit": "",
+   "note": "",
+   "source": "https://rainbowrobotics.github.io/RBQ/manual/gui/motion-commands.html"
+  },
+  {
+   "group": "Mobility & Performance",
+   "key": "speed_command_range",
+   "label": "Forward velocity command (SDK joystick example)",
+   "value": "±1.2",
+   "unit": "m/s",
+   "note": "vel_x max in high-level example",
+   "source": "https://rainbowrobotics.github.io/RBQ/guides/sdk-cpp/high-level.html",
+   "ref": "Joystick velocity"
+  },
+  {
+   "group": "Mobility & Performance",
+   "key": "max_speed_lateral",
+   "label": "Lateral velocity command (SDK joystick example)",
+   "value": "±0.5",
+   "unit": "m/s",
+   "note": "",
+   "source": "https://rainbowrobotics.github.io/RBQ/guides/sdk-cpp/high-level.html",
+   "ref": "Joystick velocity"
+  },
+  {
+   "group": "Mobility & Performance",
+   "key": "max_yaw_rate",
+   "label": "Yaw rate command (SDK joystick example)",
+   "value": "±60",
+   "unit": "deg/s",
+   "note": "",
+   "source": "https://rainbowrobotics.github.io/RBQ/guides/sdk-cpp/high-level.html",
+   "ref": "Joystick velocity"
+  },
+  {
+   "group": "Terrain & Navigation Limits",
+   "key": "max_slope",
+   "label": "Longitudinal slope",
+   "value": 45,
+   "unit": "%",
+   "note": "",
+   "source": "https://rainbowrobotics.github.io/RBQ/manual/product-descriptions/general-specification.html",
+   "ref": "Walking Capability"
+  },
+  {
+   "group": "Terrain & Navigation Limits",
+   "key": "max_side_slope",
+   "label": "Lateral slope",
+   "value": 20,
+   "unit": "%",
+   "note": "",
+   "source": "https://rainbowrobotics.github.io/RBQ/manual/product-descriptions/general-specification.html",
+   "ref": "Walking Capability"
+  },
+  {
+   "group": "Terrain & Navigation Limits",
+   "key": "max_stair_step_height",
+   "label": "Stairs and steps",
+   "value": 25,
+   "unit": "cm",
+   "note": "Up to",
+   "source": "https://rainbowrobotics.github.io/RBQ/manual/product-descriptions/general-specification.html",
+   "ref": "Walking Capability"
+  },
+  {
+   "group": "Power & Battery",
+   "key": "runtime",
+   "label": "Operating time",
+   "value": 2,
+   "unit": "h",
+   "note": "Up to 4 hours",
+   "source": "https://rainbowrobotics.github.io/RBQ/manual/product-descriptions/general-specification.html"
+  },
+  {
+   "group": "Power & Battery",
+   "key": "battery_swappable",
+   "label": "Battery",
+   "value": "Swappable / separate charging / automatic charging support",
+   "unit": "",
+   "note": "",
+   "source": "https://rainbowrobotics.github.io/RBQ/manual/product-descriptions/general-specification.html"
+  },
+  {
+   "group": "Power & Battery",
+   "key": "battery_count",
+   "label": "Battery packs",
+   "value": 2,
+   "unit": "",
+   "note": "Detachable, 9 Ah each",
+   "source": "https://rainbowrobotics.github.io/RBQ/manual/related-products/battery.html"
+  },
+  {
+   "group": "Power & Battery",
+   "key": "battery_mass",
+   "label": "Battery weight",
+   "value": 6.2,
+   "unit": "kg",
+   "note": "3.1 kg × 2",
+   "source": "https://rainbowrobotics.github.io/RBQ/manual/related-products/battery.html"
+  },
+  {
+   "group": "Power & Battery",
+   "key": "battery_capacity_ah",
+   "label": "Battery capacity",
+   "value": 18,
+   "unit": "Ah",
+   "note": "9 Ah × 2",
+   "source": "https://rainbowrobotics.github.io/RBQ/manual/related-products/battery.html"
+  },
+  {
+   "group": "Power & Battery",
+   "key": "battery_capacity",
+   "label": "Battery energy",
+   "value": 907,
+   "unit": "Wh",
+   "note": "",
+   "source": "https://rainbowrobotics.github.io/RBQ/manual/related-products/battery.html"
+  },
+  {
+   "group": "Power & Battery",
+   "key": "battery_voltage",
+   "label": "Nominal voltage",
+   "value": 50.4,
+   "unit": "V",
+   "note": "",
+   "source": "https://rainbowrobotics.github.io/RBQ/manual/related-products/battery.html"
+  },
+  {
+   "group": "Power & Battery",
+   "key": "battery_voltage_range",
+   "label": "Battery rail voltage range",
+   "value": "42.0–58.4",
+   "unit": "V",
+   "note": "Raw battery voltage on 48 V ports, varies with state of charge",
+   "source": "https://rainbowrobotics.github.io/RBQ/manual/interface/port-power.html"
+  },
+  {
+   "group": "Power & Battery",
+   "key": "battery_idle_damage_time",
+   "label": "Max time battery may be left in powered-off robot",
+   "value": 24,
+   "unit": "h",
+   "note": "Longer can cause irreversible damage; remove battery for storage",
+   "source": "https://rainbowrobotics.github.io/RBQ/manual/safety/battery-handling.html"
+  },
+  {
+   "group": "Charging & Docking",
+   "key": "charge_time",
+   "label": "Charging time",
+   "value": 1,
+   "unit": "h",
+   "note": "20 to 80 %",
+   "source": "https://rainbowrobotics.github.io/RBQ/manual/related-products/battery.html"
+  },
+  {
+   "group": "Charging & Docking",
+   "key": "charger_output",
+   "label": "Charging voltage / current",
+   "value": "58.8 V / 10.5 A",
+   "unit": "",
+   "note": "",
+   "source": "https://rainbowrobotics.github.io/RBQ/manual/related-products/battery.html"
+  },
+  {
+   "group": "Charging & Docking",
+   "key": "charging_method",
+   "label": "Charging methods",
+   "value": "Supplied RBQ10 charger (top charging port, keyed twist-lock connector); docking station (bottom port); external cable from docking station to top port",
+   "unit": "",
+   "note": "",
+   "source": "https://rainbowrobotics.github.io/RBQ/manual/operation/charging.html"
+  },
+  {
+   "group": "Charging & Docking",
+   "key": "empty_battery_charging",
+   "label": "Charging a fully discharged robot",
+   "value": "Docking station may not charge it; connect the supplied external charger directly",
+   "unit": "",
+   "note": "",
+   "source": "https://rainbowrobotics.github.io/RBQ/manual/safety/battery-handling.html"
+  },
+  {
+   "group": "Charging & Docking",
+   "key": "dock_available",
+   "label": "Docking station",
+   "value": "Autonomous docking station for self-docking, automatic charging and storage ('Dog House' – coming soon)",
+   "unit": "",
+   "note": "",
+   "source": "https://rainbowrobotics.github.io/RBQ/manual/product-descriptions/accessories.html"
+  },
+  {
+   "group": "Charging & Docking",
+   "key": "dock_weight",
+   "label": "Docking station weight",
+   "value": 15,
+   "unit": "kg",
+   "note": "",
+   "source": "https://rainbowrobotics.github.io/RBQ/manual/related-products/docking-station.html"
+  },
+  {
+   "group": "Charging & Docking",
+   "key": "dock_dimensions",
+   "label": "Docking station dimensions",
+   "value": "640 × 550 × 653.5",
+   "unit": "mm",
+   "note": "",
+   "source": "https://rainbowrobotics.github.io/RBQ/manual/related-products/docking-station.html"
+  },
+  {
+   "group": "Charging & Docking",
+   "key": "dock_output",
+   "label": "Docking station output",
+   "value": "58.8 V, 10.5 A",
+   "unit": "",
+   "note": "",
+   "source": "https://rainbowrobotics.github.io/RBQ/manual/related-products/docking-station.html"
+  },
+  {
+   "group": "Charging & Docking",
+   "key": "dock_input",
+   "label": "Docking station AC input",
+   "value": "63 Vac / 7 A; 230 Vac / 3.3 A; 277 Vac / 2.9 A",
+   "unit": "",
+   "note": "",
+   "source": "https://rainbowrobotics.github.io/RBQ/manual/related-products/docking-station.html"
+  },
+  {
+   "group": "Charging & Docking",
+   "key": "dock_operating_temperature",
+   "label": "Docking station operating temperature",
+   "value": "-40 to +70",
+   "unit": "°C",
+   "note": "",
+   "source": "https://rainbowrobotics.github.io/RBQ/manual/related-products/docking-station.html"
+  },
+  {
+   "group": "Charging & Docking",
+   "key": "dock_operating_humidity",
+   "label": "Docking station operating humidity",
+   "value": "20–95",
+   "unit": "% RH",
+   "note": "Non-condensing",
+   "source": "https://rainbowrobotics.github.io/RBQ/manual/related-products/docking-station.html"
+  },
+  {
+   "group": "Charging & Docking",
+   "key": "dock_storage_temperature",
+   "label": "Docking station storage temperature",
+   "value": "-40 to +85",
+   "unit": "°C",
+   "note": "",
+   "source": "https://rainbowrobotics.github.io/RBQ/manual/related-products/docking-station.html"
+  },
+  {
+   "group": "Charging & Docking",
+   "key": "dock_storage_humidity",
+   "label": "Docking station storage humidity",
+   "value": "10–95",
+   "unit": "% RH",
+   "note": "Non-condensing",
+   "source": "https://rainbowrobotics.github.io/RBQ/manual/related-products/docking-station.html"
+  },
+  {
+   "group": "Charging & Docking",
+   "key": "dock_detection_range",
+   "label": "Auto-docking start distance",
+   "value": 3,
+   "unit": "m",
+   "note": "Within 3 m and front or rear camera must recognize ArUco markers",
+   "source": "https://rainbowrobotics.github.io/RBQ/manual/operation/charging.html"
+  },
+  {
+   "group": "Charging & Docking",
+   "key": "docking_sequence",
+   "label": "Docking procedure",
+   "value": "Press Docking; robot recognizes marker, docks automatically and retries on failure",
+   "unit": "",
+   "note": "",
+   "source": "https://rainbowrobotics.github.io/RBQ/manual/operation/charging.html"
+  },
+  {
+   "group": "Charging & Docking",
+   "key": "dock_installation",
+   "label": "Docking station installation",
+   "value": "Water-resistant but keep terminals dry; shaded location recommended; secure to floor with fixing holes",
+   "unit": "",
+   "note": "",
+   "source": "https://rainbowrobotics.github.io/RBQ/manual/operation/charging.html"
+  },
+  {
+   "group": "Charging & Docking",
+   "key": "battery_charging_tray",
+   "label": "Battery charging tray",
+   "value": "Optional two-bay tray to charge packs detached from the robot",
+   "unit": "",
+   "note": "",
+   "source": "https://rainbowrobotics.github.io/RBQ/manual/product-descriptions/accessories.html"
+  },
+  {
+   "group": "Environment & Protection",
+   "key": "ip_rating",
+   "label": "Ingress protection",
+   "value": "IP54",
+   "unit": "",
+   "note": "",
+   "source": "https://rainbowrobotics.github.io/RBQ/manual/product-descriptions/general-specification.html"
+  },
+  {
+   "group": "Environment & Protection",
+   "key": "operating_temperature",
+   "label": "Operating temperature",
+   "value": "-20 to +43",
+   "unit": "°C",
+   "note": "",
+   "source": "https://rainbowrobotics.github.io/RBQ/manual/product-descriptions/general-specification.html"
+  },
+  {
+   "group": "Environment & Protection",
+   "key": "prohibited_conditions",
+   "label": "Prohibited environments",
+   "value": "Explosive atmospheres, flammable gas, heavy dust; strong magnetic fields and excessive vibration to be avoided",
+   "unit": "",
+   "note": "",
+   "source": "https://rainbowrobotics.github.io/RBQ/manual/safety/operating-environment-requirements.html"
+  },
+  {
+   "group": "Sensors & Perception",
+   "key": "imu",
+   "label": "IMU",
+   "value": "Built-in IMU; offset from body centre (x, y, z) = (0.00665, 0, -0.0404) m",
+   "unit": "",
+   "note": "",
+   "source": "https://rainbowrobotics.github.io/RBQ/manual/hardware/specification.html"
+  },
+  {
+   "group": "Sensors & Perception",
+   "key": "imu_gyro_bias",
+   "label": "Gyroscope in-run bias",
+   "value": 5,
+   "unit": "°/hr",
+   "note": "",
+   "source": "https://rainbowrobotics.github.io/RBQ/manual/hardware/specification.html",
+   "ref": "IMU Sensor Specification"
+  },
+  {
+   "group": "Sensors & Perception",
+   "key": "imu_gyro_range",
+   "label": "Gyroscope range",
+   "value": "±2,000",
+   "unit": "°/s",
+   "note": "",
+   "source": "https://rainbowrobotics.github.io/RBQ/manual/hardware/specification.html"
+  },
+  {
+   "group": "Sensors & Perception",
+   "key": "imu_accel_range",
+   "label": "Accelerometer range",
+   "value": "±16",
+   "unit": "g",
+   "note": "",
+   "source": "https://rainbowrobotics.github.io/RBQ/manual/hardware/specification.html"
+  },
+  {
+   "group": "Sensors & Perception",
+   "key": "imu_accel_bias",
+   "label": "Accelerometer in-run bias",
+   "value": "< 0.04",
+   "unit": "mg",
+   "note": "",
+   "source": "https://rainbowrobotics.github.io/RBQ/manual/hardware/specification.html"
+  },
+  {
+   "group": "Sensors & Perception",
+   "key": "imu_rate",
+   "label": "IMU data update rate",
+   "value": 800,
+   "unit": "Hz",
+   "note": "",
+   "source": "https://rainbowrobotics.github.io/RBQ/manual/hardware/specification.html"
+  },
+  {
+   "group": "Sensors & Perception",
+   "key": "state_estimator_rate",
+   "label": "Extended Kalman filter update rate",
+   "value": 400,
+   "unit": "Hz",
+   "note": "",
+   "source": "https://rainbowrobotics.github.io/RBQ/manual/hardware/specification.html"
+  },
+  {
+   "group": "Sensors & Perception",
+   "key": "depth_camera_count",
+   "label": "Built-in cameras",
+   "value": "(RGB + Depth) × 2, Depth × 4",
+   "unit": "",
+   "note": "",
+   "source": "https://rainbowrobotics.github.io/RBQ/manual/product-descriptions/general-specification.html"
+  },
+  {
+   "group": "Sensors & Perception",
+   "key": "depth_camera_model",
+   "label": "Front & rear cameras",
+   "value": "Luxonis OAK-D Pro Wide",
+   "unit": "",
+   "note": "",
+   "source": "https://rainbowrobotics.github.io/RBQ/manual/related-products/cameras.html"
+  },
+  {
+   "group": "Sensors & Perception",
+   "key": "depth_camera_fov",
+   "label": "Stereo depth FOV (DFOV/HFOV/VFOV)",
+   "value": "150 / 127 / 79.5",
+   "unit": "°",
+   "note": "OAK-D Pro Wide",
+   "source": "https://rainbowrobotics.github.io/RBQ/manual/related-products/cameras.html"
+  },
+  {
+   "group": "Sensors & Perception",
+   "key": "camera_fov",
+   "label": "RGB FOV – IMX378 (DFOV/HFOV/VFOV)",
+   "value": "120 / 95 / 93",
+   "unit": "°",
+   "note": "",
+   "source": "https://rainbowrobotics.github.io/RBQ/manual/related-products/cameras.html"
+  },
+  {
+   "group": "Sensors & Perception",
+   "key": "camera_fov",
+   "label": "RGB FOV – OV9782 (DFOV/HFOV/VFOV)",
+   "value": "150 / 127 / 79.5",
+   "unit": "°",
+   "note": "",
+   "source": "https://rainbowrobotics.github.io/RBQ/manual/related-products/cameras.html"
+  },
+  {
+   "group": "Sensors & Perception",
+   "key": "depth_camera_type",
+   "label": "Ground-view camera",
+   "value": "Intel RealSense D430",
+   "unit": "",
+   "note": "",
+   "source": "https://rainbowrobotics.github.io/RBQ/manual/related-products/cameras.html"
+  },
+  {
+   "group": "Sensors & Perception",
+   "key": "camera_count",
+   "label": "Body camera views",
+   "value": "Front, rear, left, right; Quad 2×2 and Panorama views",
+   "unit": "",
+   "note": "",
+   "source": "https://rainbowrobotics.github.io/RBQ/manual/gui/camera-vision.html"
+  },
+  {
+   "group": "Sensors & Perception",
+   "key": "lidar_type",
+   "label": "3D LiDAR",
+   "value": "Optional",
+   "unit": "",
+   "note": "",
+   "source": "https://rainbowrobotics.github.io/RBQ/manual/product-descriptions/general-specification.html"
+  },
+  {
+   "group": "Sensors & Perception",
+   "key": "lidar_model",
+   "label": "LiDAR options",
+   "value": "Livox MID-360 (×2 front/rear), Livox MID-360S, Ouster OS1-32 (rear deck)",
+   "unit": "",
+   "note": "",
+   "source": "https://rainbowrobotics.github.io/RBQ/manual/related-products/lidar.html"
+  },
+  {
+   "group": "Sensors & Perception",
+   "key": "lidar_fov",
+   "label": "MID-360 / MID-360S FOV",
+   "value": "360° H × −7° to 52° V",
+   "unit": "",
+   "note": "",
+   "source": "https://rainbowrobotics.github.io/RBQ/manual/related-products/lidar.html"
+  },
+  {
+   "group": "Sensors & Perception",
+   "key": "lidar_range",
+   "label": "MID-360 range",
+   "value": "40 m @10 %, 70 m @80 %; 0.1 m min",
+   "unit": "",
+   "note": "",
+   "source": "https://rainbowrobotics.github.io/RBQ/manual/related-products/lidar.html"
+  },
+  {
+   "group": "Sensors & Perception",
+   "key": "lidar_range",
+   "label": "MID-360S range",
+   "value": "40 m @10 %; 0.1 m min; 100 m cut-off",
+   "unit": "",
+   "note": "",
+   "source": "https://rainbowrobotics.github.io/RBQ/manual/related-products/lidar.html"
+  },
+  {
+   "group": "Sensors & Perception",
+   "key": "lidar_point_rate",
+   "label": "MID-360 / MID-360S point rate",
+   "value": 200000,
+   "unit": "points/s",
+   "note": "First return",
+   "source": "https://rainbowrobotics.github.io/RBQ/manual/related-products/lidar.html"
+  },
+  {
+   "group": "Sensors & Perception",
+   "key": "lidar_fov",
+   "label": "OS1-32 FOV",
+   "value": "360° H × 45° V (+22.5° to −22.5°)",
+   "unit": "",
+   "note": "",
+   "source": "https://rainbowrobotics.github.io/RBQ/manual/related-products/lidar.html"
+  },
+  {
+   "group": "Sensors & Perception",
+   "key": "lidar_range",
+   "label": "OS1-32 range",
+   "value": "90 m @10 %, 170 m @80 %; 0.5 m min",
+   "unit": "",
+   "note": "",
+   "source": "https://rainbowrobotics.github.io/RBQ/manual/related-products/lidar.html"
+  },
+  {
+   "group": "Sensors & Perception",
+   "key": "lidar_point_rate",
+   "label": "OS1-32 point rate",
+   "value": 655360,
+   "unit": "points/s",
+   "note": "32 channels",
+   "source": "https://rainbowrobotics.github.io/RBQ/manual/related-products/lidar.html"
+  },
+  {
+   "group": "Sensors & Perception",
+   "key": "lidar_mounting",
+   "label": "MID-360S mounting",
+   "value": "Rotated 90° about vertical axis; connector faces robot-left (front) / robot-right (rear)",
+   "unit": "",
+   "note": "",
+   "source": "https://rainbowrobotics.github.io/RBQ/manual/related-products/lidar.html"
+  },
+  {
+   "group": "Sensors & Perception",
+   "key": "gps",
+   "label": "GNSS / RTK",
+   "value": "Optional receiver (LTE/GPS module); raw NMEA 0183 GNRMC/GNGGA/GNGST on ROS 2 topic /rbq/gps/nmea; RTK fixed/float reported",
+   "unit": "",
+   "note": "",
+   "source": "https://rainbowrobotics.github.io/RBQ/manual/interface/gnss.html"
+  },
+  {
+   "group": "Sensors & Perception",
+   "key": "thermal_camera",
+   "label": "Surveillance sensors (optional)",
+   "value": "2 MP 32× zoom PTZ camera and thermal camera",
+   "unit": "",
+   "note": "",
+   "source": "https://rainbowrobotics.github.io/RBQ/manual/product-descriptions/general-specification.html"
+  },
+  {
+   "group": "Payload & Mounting",
+   "key": "pan_tilt_range",
+   "label": "PTZ control range",
+   "value": "Pan ±165°; tilt −12° to +90°",
+   "unit": "",
+   "note": "",
+   "source": "https://rainbowrobotics.github.io/RBQ/manual/related-products/ptz-camera.html"
+  },
+  {
+   "group": "Payload & Mounting",
+   "key": "inspection_payload_weight",
+   "label": "PTZ unit weight",
+   "value": 5,
+   "unit": "kg",
+   "note": "",
+   "source": "https://rainbowrobotics.github.io/RBQ/manual/related-products/ptz-camera.html"
+  },
+  {
+   "group": "Payload & Mounting",
+   "key": "inspection_payload_dimensions",
+   "label": "PTZ unit dimensions",
+   "value": "160 × 160 × 320",
+   "unit": "mm",
+   "note": "",
+   "source": "https://rainbowrobotics.github.io/RBQ/manual/related-products/ptz-camera.html"
+  },
+  {
+   "group": "Sensors & Perception",
+   "key": "zoom_camera_model",
+   "label": "PTZ zoom camera",
+   "value": "Hanwha Vision XNZ-L6320AG",
+   "unit": "",
+   "note": "",
+   "source": "https://rainbowrobotics.github.io/RBQ/manual/related-products/ptz-camera.html"
+  },
+  {
+   "group": "Sensors & Perception",
+   "key": "zoom_camera_resolution",
+   "label": "Zoom camera resolution",
+   "value": "Up to 1920 × 1080 (1/2.8\" 2 MP CMOS)",
+   "unit": "",
+   "note": "",
+   "source": "https://rainbowrobotics.github.io/RBQ/manual/related-products/ptz-camera.html"
+  },
+  {
+   "group": "Sensors & Perception",
+   "key": "camera_frame_rate",
+   "label": "Zoom camera max frame rate",
+   "value": "60 fps (H.265/H.264), 30 fps (MJPEG)",
+   "unit": "",
+   "note": "",
+   "source": "https://rainbowrobotics.github.io/RBQ/manual/related-products/ptz-camera.html"
+  },
+  {
+   "group": "Sensors & Perception",
+   "key": "zoom_camera_optical_zoom",
+   "label": "Optical zoom",
+   "value": "32× (4.44–142.6 mm)",
+   "unit": "",
+   "note": "",
+   "source": "https://rainbowrobotics.github.io/RBQ/manual/related-products/ptz-camera.html"
+  },
+  {
+   "group": "Sensors & Perception",
+   "key": "zoom_camera_fov",
+   "label": "Zoom camera FOV",
+   "value": "H 61.8° (wide) – 2.19° (tele); V 36.2° – 1.24°",
+   "unit": "",
+   "note": "",
+   "source": "https://rainbowrobotics.github.io/RBQ/manual/related-products/ptz-camera.html"
+  },
+  {
+   "group": "Sensors & Perception",
+   "key": "thermal_camera_resolution",
+   "label": "Thermal camera resolution",
+   "value": "Up to 640 × 512",
+   "unit": "",
+   "note": "",
+   "source": "https://rainbowrobotics.github.io/RBQ/manual/related-products/ptz-camera.html"
+  },
+  {
+   "group": "Sensors & Perception",
+   "key": "thermal_camera_fov",
+   "label": "Thermal camera FOV",
+   "value": "48.7 × 38.6",
+   "unit": "°",
+   "note": "",
+   "source": "https://rainbowrobotics.github.io/RBQ/manual/related-products/ptz-camera.html"
+  },
+  {
+   "group": "Sensors & Perception",
+   "key": "thermal_measurement_range",
+   "label": "Thermal measurement range",
+   "value": "-20 to +550",
+   "unit": "°C",
+   "note": "",
+   "source": "https://rainbowrobotics.github.io/RBQ/manual/related-products/ptz-camera.html"
+  },
+  {
+   "group": "Audio, Lights & HMI",
+   "key": "speaker",
+   "label": "PTZ speaker",
+   "value": "Up to 25 W; 100–20,000 Hz",
+   "unit": "",
+   "note": "",
+   "source": "https://rainbowrobotics.github.io/RBQ/manual/related-products/ptz-camera.html"
+  },
+  {
+   "group": "Sensors & Perception",
+   "key": "microphones",
+   "label": "PTZ microphone",
+   "value": "3.5 mm external jack",
+   "unit": "",
+   "note": "",
+   "source": "https://rainbowrobotics.github.io/RBQ/manual/related-products/ptz-camera.html"
+  },
+  {
+   "group": "Audio, Lights & HMI",
+   "key": "voice_function",
+   "label": "Walkie-talkie audio",
+   "value": "Robot speaker and microphone; app listens and push-to-talk through robot speaker",
+   "unit": "",
+   "note": "",
+   "source": "https://rainbowrobotics.github.io/RBQ/manual/gui/audio.html"
+  },
+  {
+   "group": "Audio, Lights & HMI",
+   "key": "front_light",
+   "label": "IR LED",
+   "value": "IR LED night illumination (12 V toggle); night mode switches IR-cut filter",
+   "unit": "",
+   "note": "",
+   "source": "https://rainbowrobotics.github.io/RBQ/manual/gui/maintenance.html"
+  },
+  {
+   "group": "Audio, Lights & HMI",
+   "key": "status_lights",
+   "label": "Robot lights",
+   "value": "Robot battery lights, robot status lights (blinking), power button status light",
+   "unit": "",
+   "note": "",
+   "source": "https://rainbowrobotics.github.io/RBQ/manual/interface/external-port.html"
+  },
+  {
+   "group": "Compute & Software",
+   "key": "cpu",
+   "label": "Motion PC (R-PC)",
+   "value": "Standard; robot control; not user-accessible; IP 192.168.0.10",
+   "unit": "",
+   "note": "",
+   "source": "https://rainbowrobotics.github.io/RBQ/manual/interface/network.html"
+  },
+  {
+   "group": "Compute & Software",
+   "key": "optional_compute",
+   "label": "User PC (U-PC) options",
+   "value": "UP Xtreme i12 (Intel Core i7 12th gen), UP Xtreme i14 (Intel Core i7 14th gen), NVIDIA Jetson AGX Orin",
+   "unit": "",
+   "note": "",
+   "source": "https://rainbowrobotics.github.io/RBQ/manual/product-descriptions/accessories.html"
+  },
+  {
+   "group": "Compute & Software",
+   "key": "sdk",
+   "label": "SDK",
+   "value": "RBQ SDK: LV0 low-level (raw IMU/encoder data; joint position/velocity/torque commands) and LV1 high-level command interface",
+   "unit": "",
+   "note": "",
+   "source": "https://rainbowrobotics.github.io/RBQ/software/concept.html"
+  },
+  {
+   "group": "Compute & Software",
+   "key": "programming_languages",
+   "label": "SDK languages",
+   "value": "C/C++, Python, ROS2",
+   "unit": "",
+   "note": "",
+   "source": "https://rainbowrobotics.github.io/RBQ/software/concept.html"
+  },
+  {
+   "group": "Compute & Software",
+   "key": "api",
+   "label": "Communication interfaces",
+   "value": "ROS2 SDK, DDS SDK, TCP/UDP",
+   "unit": "",
+   "note": "",
+   "source": "https://rainbowrobotics.github.io/RBQ/software/concept.html"
+  },
+  {
+   "group": "Compute & Software",
+   "key": "ros_version",
+   "label": "ROS version",
+   "value": "ROS 2 Humble (rmw_cyclonedds_cpp); no driver node needed",
+   "unit": "",
+   "note": "",
+   "source": "https://rainbowrobotics.github.io/RBQ/software/sdk/ros/overview.html"
+  },
+  {
+   "group": "Compute & Software",
+   "key": "operating_system",
+   "label": "SDK host OS",
+   "value": "Ubuntu 22.04 (x86_64); CMake ≥ 3.22; C++17; Eclipse Cyclone DDS",
+   "unit": "",
+   "note": "",
+   "source": "https://rainbowrobotics.github.io/RBQ/software/sdk/cpp/overview.html"
+  },
+  {
+   "group": "Compute & Software",
+   "key": "simulation_support",
+   "label": "Simulators",
+   "value": "MuJoCo and Ignition Gazebo (Fortress) full-stack; Isaac Gym (Preview 4) and Isaac Lab RL training; ONNX policy deploy",
+   "unit": "",
+   "note": "",
+   "source": "https://rainbowrobotics.github.io/RBQ/software/simulator/overview.html"
+  },
+  {
+   "group": "Compute & Software",
+   "key": "urdf_cad",
+   "label": "URDF & CAD",
+   "value": "URDF and CAD files available from Downloads",
+   "unit": "",
+   "note": "",
+   "source": "https://rainbowrobotics.github.io/RBQ/manual/hardware/specification.html"
+  },
+  {
+   "group": "Connectivity & Interfaces",
+   "key": "wifi",
+   "label": "Wi-Fi",
+   "value": "2.4 GHz and 5 GHz; access point 192.168.0.1",
+   "unit": "",
+   "note": "",
+   "source": "https://rainbowrobotics.github.io/RBQ/manual/interface/network.html"
+  },
+  {
+   "group": "Connectivity & Interfaces",
+   "key": "default_wifi_mode",
+   "label": "Robot Wi-Fi",
+   "value": "Robot provides its own access point named RBQ_{XX}",
+   "unit": "",
+   "note": "",
+   "source": "https://rainbowrobotics.github.io/RBQ/manual/operation/controller-wifi-connect.html"
+  },
+  {
+   "group": "Connectivity & Interfaces",
+   "key": "communication",
+   "label": "Communication",
+   "value": "Wi-Fi / LTE (optional)",
+   "unit": "",
+   "note": "",
+   "source": "https://rainbowrobotics.github.io/RBQ/manual/product-descriptions/general-specification.html"
+  },
+  {
+   "group": "Connectivity & Interfaces",
+   "key": "cellular",
+   "label": "LTE",
+   "value": "Optional LTE/GPS module (wide-area cellular + positioning)",
+   "unit": "",
+   "note": "",
+   "source": "https://rainbowrobotics.github.io/RBQ/manual/product-descriptions/accessories.html"
+  },
+  {
+   "group": "Connectivity & Interfaces",
+   "key": "remote_access",
+   "label": "Remote (LTE) connection",
+   "value": "4-digit access code registers account-assigned robots for remote use over LTE",
+   "unit": "",
+   "note": "",
+   "source": "https://rainbowrobotics.github.io/RBQ/manual/gui/connection.html"
+  },
+  {
+   "group": "Connectivity & Interfaces",
+   "key": "ethernet",
+   "label": "Network switch",
+   "value": "Gigabit Ethernet (1 Gbps)",
+   "unit": "",
+   "note": "",
+   "source": "https://rainbowrobotics.github.io/RBQ/manual/interface/network.html"
+  },
+  {
+   "group": "Connectivity & Interfaces",
+   "key": "default_ip",
+   "label": "Onboard IPs",
+   "value": "R-PC 192.168.0.10; U-PC 192.168.0.12 (inside robot) / 192.168.0.13 (outside)",
+   "unit": "",
+   "note": "",
+   "source": "https://rainbowrobotics.github.io/RBQ/manual/interface/network.html"
+  },
+  {
+   "group": "Connectivity & Interfaces",
+   "key": "external_ports",
+   "label": "External interfaces",
+   "value": "54 V, 12 V, CAN (1 ch), Gigabit LAN × 3",
+   "unit": "",
+   "note": "",
+   "source": "https://rainbowrobotics.github.io/RBQ/manual/product-descriptions/general-specification.html"
+  },
+  {
+   "group": "Connectivity & Interfaces",
+   "key": "external_ports",
+   "label": "Port panel",
+   "value": "POWER, PWR-CAN, 12V-LAN ×3, LiDAR (v1 only), EMO, USB-C ×2 direct to PCs",
+   "unit": "",
+   "note": "",
+   "source": "https://rainbowrobotics.github.io/RBQ/manual/interface/external-port.html"
+  },
+  {
+   "group": "Connectivity & Interfaces",
+   "key": "usb_ports",
+   "label": "USB-C",
+   "value": "2 × USB-C direct to User PC (VISION/U-PC) and Robot PC (MOTION/R-PC)",
+   "unit": "",
+   "note": "",
+   "source": "https://rainbowrobotics.github.io/RBQ/manual/interface/external-port.html"
+  },
+  {
+   "group": "Connectivity & Interfaces",
+   "key": "can_bus",
+   "label": "CAN",
+   "value": "1 channel on PWR-CAN port, connected to Robot PC",
+   "unit": "",
+   "note": "",
+   "source": "https://rainbowrobotics.github.io/RBQ/manual/interface/external-port.html"
+  },
+  {
+   "group": "Payload & Mounting",
+   "key": "payload_port_power",
+   "label": "POWER port",
+   "value": "42.0–58.4 V battery power, max 5 A",
+   "unit": "",
+   "note": "",
+   "source": "https://rainbowrobotics.github.io/RBQ/manual/interface/external-port.html"
+  },
+  {
+   "group": "Payload & Mounting",
+   "key": "payload_port_power",
+   "label": "PWR-CAN port",
+   "value": "42.0–58.4 V battery power + CAN, max 10 A",
+   "unit": "",
+   "note": "",
+   "source": "https://rainbowrobotics.github.io/RBQ/manual/interface/external-port.html"
+  },
+  {
+   "group": "Payload & Mounting",
+   "key": "payload_port_power",
+   "label": "12V-LAN port (v1)",
+   "value": "12 V, max 2 A, Fast Ethernet 100 Mbps",
+   "unit": "",
+   "note": "",
+   "source": "https://rainbowrobotics.github.io/RBQ/manual/interface/external-port.html"
+  },
+  {
+   "group": "Payload & Mounting",
+   "key": "payload_port_power",
+   "label": "12V/LAN port (v2)",
+   "value": "12-pin: 4 gigabit LAN pairs + 12 V, 2–3 A",
+   "unit": "",
+   "note": "",
+   "source": "https://rainbowrobotics.github.io/RBQ/manual/interface/external-port.html"
+  },
+  {
+   "group": "Payload & Mounting",
+   "key": "payload_port_connector",
+   "label": "Payload connectors",
+   "value": "MOCO waterproof connectors (12-pin 12V+LAN, 4-pin 48V+CAN, 2-pin 48V)",
+   "unit": "",
+   "note": "",
+   "source": "https://rainbowrobotics.github.io/RBQ/manual/product-descriptions/accessories.html"
+  },
+  {
+   "group": "Payload & Mounting",
+   "key": "mounting_rail",
+   "label": "Mounting interface",
+   "value": "Top rail (slot) + spring nuts (MISUMI SHNTP5-5)",
+   "unit": "",
+   "note": "",
+   "source": "https://rainbowrobotics.github.io/RBQ/manual/hardware/rail-spring-nut.html"
+  },
+  {
+   "group": "Payload & Mounting",
+   "key": "user_power_breakouts",
+   "label": "Switchable power rails",
+   "value": "EXTERN (48V), ARM·ADDON (48V); 12 V toggles: speaker amp, LiDAR, CCTV, thermal, IR LED",
+   "unit": "",
+   "note": "",
+   "source": "https://rainbowrobotics.github.io/RBQ/manual/interface/port-power.html"
+  },
+  {
+   "group": "Payload & Mounting",
+   "key": "optional_payloads",
+   "label": "Optional accessories",
+   "value": "PTZ camera, LiDAR MID-360/OS1-32, User-PC module, hub module, Wi-Fi module, LTE/GPS module, battery, charging tray, docking station",
+   "unit": "",
+   "note": "",
+   "source": "https://rainbowrobotics.github.io/RBQ/manual/product-descriptions/accessories.html"
+  },
+  {
+   "group": "Actuation & Joints",
+   "key": "joint_speed",
+   "label": "Max angular velocity (hip roll / hip pitch / knee)",
+   "value": "14.4 / 14.4 / 11.15",
+   "unit": "rad/s",
+   "note": "",
+   "source": "https://rainbowrobotics.github.io/RBQ/manual/hardware/specification.html"
+  },
+  {
+   "group": "Actuation & Joints",
+   "key": "rated_joint_torque",
+   "label": "Nominal torque (hip roll / hip pitch / knee)",
+   "value": "40 / 40 / 50",
+   "unit": "N·m",
+   "note": "",
+   "source": "https://rainbowrobotics.github.io/RBQ/manual/hardware/specification.html"
+  },
+  {
+   "group": "Actuation & Joints",
+   "key": "max_joint_torque",
+   "label": "Max torque (hip roll / hip pitch / knee)",
+   "value": "104 / 104 / 140",
+   "unit": "N·m",
+   "note": "",
+   "source": "https://rainbowrobotics.github.io/RBQ/manual/hardware/specification.html"
+  },
+  {
+   "group": "Actuation & Joints",
+   "key": "rotor_inertia",
+   "label": "Rotor inertia (hip roll / hip pitch / knee)",
+   "value": "0.014058265 / 0.014058265 / 0.0214816",
+   "unit": "",
+   "note": "",
+   "source": "https://rainbowrobotics.github.io/RBQ/manual/hardware/specification.html"
+  },
+  {
+   "group": "Actuation & Joints",
+   "key": "joint_range_of_motion",
+   "label": "Hip roll range",
+   "value": "Left −30° to 43°; right −43° to 30°",
+   "unit": "",
+   "note": "",
+   "source": "https://rainbowrobotics.github.io/RBQ/manual/hardware/specification.html"
+  },
+  {
+   "group": "Actuation & Joints",
+   "key": "joint_range_of_motion",
+   "label": "Hip pitch range",
+   "value": "No limit",
+   "unit": "",
+   "note": "",
+   "source": "https://rainbowrobotics.github.io/RBQ/manual/hardware/specification.html"
+  },
+  {
+   "group": "Actuation & Joints",
+   "key": "joint_range_of_motion",
+   "label": "Knee range",
+   "value": "−158.1° to −19.3°",
+   "unit": "",
+   "note": "",
+   "source": "https://rainbowrobotics.github.io/RBQ/manual/hardware/specification.html"
+  },
+  {
+   "group": "Safety & Compliance",
+   "key": "emergency_stop",
+   "label": "Emergency stop",
+   "value": "Physical E-stop push button on rear (all joints to High Damping); app E-STOP cuts all motor power",
+   "unit": "",
+   "note": "",
+   "source": "https://rainbowrobotics.github.io/RBQ/manual/safety/emergency-stop-procedures.html"
+  },
+  {
+   "group": "Safety & Compliance",
+   "key": "stopping_distance",
+   "label": "Stopping distance",
+   "value": 1,
+   "unit": "m",
+   "note": "Up to about 1 m on flat ground; longer on slopes/uneven floors",
+   "source": "https://rainbowrobotics.github.io/RBQ/manual/safety/emergency-stop-procedures.html"
+  },
+  {
+   "group": "Safety & Compliance",
+   "key": "safety_features",
+   "label": "Safety features",
+   "value": "E-Stop, remote stop, speed limit, posture stabilization; auto stop on fall, low battery, app stop, mission interrupt",
+   "unit": "",
+   "note": "",
+   "source": "https://rainbowrobotics.github.io/RBQ/manual/safety/emergency-stop-procedures.html"
+  },
+  {
+   "group": "Safety & Compliance",
+   "key": "min_safe_distance",
+   "label": "Exclusion zone",
+   "value": 2,
+   "unit": "m",
+   "note": "No people or animals within 2 m while operating",
+   "source": "https://rainbowrobotics.github.io/RBQ/manual/safety/general-safety-warning-precautions.html"
+  },
+  {
+   "group": "Safety & Compliance",
+   "key": "powerless_leg_behavior",
+   "label": "Legs after power-off",
+   "value": "Legs do not auto-lock; may slide/roll on slopes",
+   "unit": "",
+   "note": "",
+   "source": "https://rainbowrobotics.github.io/RBQ/manual/safety/emergency-stop-procedures.html"
+  },
+  {
+   "group": "Safety & Compliance",
+   "key": "intended_use",
+   "label": "Intended use",
+   "value": "Transport and movement in industrial sites, restricted areas, supervised environments; non-contact sensing/monitoring payloads; surveillance, reconnaissance, safety management",
+   "unit": "",
+   "note": "",
+   "source": "https://rainbowrobotics.github.io/RBQ/manual/safety/user-responsibility-disclaimer.html"
+  },
+  {
+   "group": "Safety & Compliance",
+   "key": "prohibited_uses",
+   "label": "Prohibited uses",
+   "value": "Riding/carrying people or animals, underwater/airborne, weapon or medical use, home use, hazardous materials, collaborative work; low-level joint API needs separate risk assessment",
+   "unit": "",
+   "note": "",
+   "source": "https://rainbowrobotics.github.io/RBQ/manual/safety/user-responsibility-disclaimer.html"
+  },
+  {
+   "group": "Controls & Operation",
+   "key": "controller",
+   "label": "Controller",
+   "value": "RBQ Controller app: Android (Google Play), iPhone/iPad (App Store), Linux desktop / Steam Deck (AppImage; built-in gamepad)",
+   "unit": "",
+   "note": "",
+   "source": "https://rainbowrobotics.github.io/RBQ/manual/downloads/"
+  },
+  {
+   "group": "Controls & Operation",
+   "key": "startup_sequence",
+   "label": "Auto-start stages",
+   "value": "POWER, CAN-BUS, HOMING, IMU-CHECK, START",
+   "unit": "",
+   "note": "",
+   "source": "https://rainbowrobotics.github.io/RBQ/manual/operation/controller-wifi-connect.html"
+  },
+  {
+   "group": "Controls & Operation",
+   "key": "manual_control",
+   "label": "Cruise control",
+   "value": "R3 starts cruise; D-pad changes speed (trot gaits)",
+   "unit": "",
+   "note": "",
+   "source": "https://rainbowrobotics.github.io/RBQ/manual/gui/developer-mode.html"
+  },
+  {
+   "group": "Transport & Storage",
+   "key": "shipping_case_dimensions",
+   "label": "Case (Pelican 1730) external dimensions",
+   "value": "86.3 × 60.9 × 31.7",
+   "unit": "cm",
+   "note": "37.50 × 27.13 × 14.37 in",
+   "source": "https://rainbowrobotics.github.io/RBQ/manual/operation/packing.html"
+  },
+  {
+   "group": "Transport & Storage",
+   "key": "shipping_case_weight",
+   "label": "Case empty weight",
+   "value": 20,
+   "unit": "kg",
+   "note": "44 lb",
+   "source": "https://rainbowrobotics.github.io/RBQ/manual/operation/packing.html"
+  },
+  {
+   "group": "Transport & Storage",
+   "key": "lift_persons",
+   "label": "People required to lift",
+   "value": 2,
+   "unit": "",
+   "note": "Lift by handles, power off",
+   "source": "https://rainbowrobotics.github.io/RBQ/manual/safety/handling-and-transportation.html"
+  },
+  {
+   "group": "Commercial",
+   "key": "included_accessories",
+   "label": "Packing list (standard)",
+   "value": "RBQ10 ×1, battery charger ×1, spare rubber foot ×4, spare body bumper, remote controller ×1, basic tools (wrench) ×1 set",
+   "unit": "",
+   "note": "",
+   "source": "https://rainbowrobotics.github.io/RBQ/manual/operation/packing.html"
+  },
+  {
+   "group": "Commercial",
+   "key": "included_accessories",
+   "label": "Navigation Pack",
+   "value": "Standard list + LiDAR module ×1",
+   "unit": "",
+   "note": "",
+   "source": "https://rainbowrobotics.github.io/RBQ/manual/operation/packing.html"
+  }
+ ]
+}

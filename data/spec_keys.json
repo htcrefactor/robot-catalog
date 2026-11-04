@@ -1,20 +1,34 @@
 {
  "updated": "2026-11-04",
- "robots_with_specs": 72,
+ "robots_with_specs": 79,
  "keys": [
   {
    "key": "max_joint_torque",
    "group": "Actuation & Joints",
    "label": "Peak knee torque",
    "unit": "N·m",
-   "robots": 17
+   "robots": 19
+  },
+  {
+   "key": "joint_range_of_motion",
+   "group": "Actuation & Joints",
+   "label": "Joint limit – Head yaw",
+   "unit": "°",
+   "robots": 15
   },
   {
    "key": "actuator_type",
    "group": "Actuation & Joints",
    "label": "Actuation",
    "unit": "",
-   "robots": 13
+   "robots": 14
+  },
+  {
+   "key": "dof_per_leg",
+   "group": "Actuation & Joints",
+   "label": "Leg DoF",
+   "unit": "",
+   "robots": 12
   },
   {
    "key": "dof_per_arm",
@@ -31,39 +45,18 @@
    "robots": 9
   },
   {
-   "key": "dof_per_leg",
-   "group": "Actuation & Joints",
-   "label": "Leg DoF",
-   "unit": "",
-   "robots": 9
-  },
-  {
    "key": "joint_count",
    "group": "Actuation & Joints",
    "label": "Joints",
    "unit": "",
-   "robots": 8
-  },
-  {
-   "key": "joint_range_of_motion",
-   "group": "Actuation & Joints",
-   "label": "HipX range",
-   "unit": "°",
-   "robots": 7
+   "robots": 9
   },
   {
    "key": "joint_encoder",
    "group": "Actuation & Joints",
    "label": "Joint encoder resolution",
    "unit": "counts",
-   "robots": 7
-  },
-  {
-   "key": "joint_range",
-   "group": "Actuation & Joints",
-   "label": "Joint limit – Head yaw",
-   "unit": "°",
-   "robots": 7
+   "robots": 8
   },
   {
    "key": "dof_head",
@@ -80,6 +73,13 @@
    "robots": 7
   },
   {
+   "key": "joint_speed",
+   "group": "Actuation & Joints",
+   "label": "Max speed (HipX)",
+   "unit": "rad/s",
+   "robots": 6
+  },
+  {
    "key": "joint_bearing_type",
    "group": "Actuation & Joints",
    "label": "Joint output bearing",
@@ -87,10 +87,10 @@
    "robots": 4
   },
   {
-   "key": "joint_speed",
+   "key": "rated_joint_torque",
    "group": "Actuation & Joints",
-   "label": "Max speed (HipX)",
-   "unit": "rad/s",
+   "label": "Rated torque (HipX / HipY)",
+   "unit": "N·m",
    "robots": 4
   },
   {
@@ -108,30 +108,58 @@
    "robots": 3
   },
   {
-   "key": "rated_joint_torque",
-   "group": "Actuation & Joints",
-   "label": "Rated torque (HipX / HipY)",
-   "unit": "N·m",
-   "robots": 3
-  },
-  {
    "key": "joint_mass",
    "group": "Actuation & Joints",
    "label": "Joint masses",
    "unit": "",
-   "robots": 2
+   "robots": 3
   },
   {
    "key": "rated_voltage",
    "group": "Actuation & Joints",
    "label": "Joint rated voltage",
    "unit": "V",
+   "robots": 3
+  },
+  {
+   "key": "foot_treads",
+   "group": "Actuation & Joints",
+   "label": "Foot treads",
+   "unit": "",
+   "robots": 2
+  },
+  {
+   "key": "actuator_model",
+   "group": "Actuation & Joints",
+   "label": "Joint motor",
+   "unit": "",
+   "robots": 2
+  },
+  {
+   "key": "joint_dimensions",
+   "group": "Actuation & Joints",
+   "label": "Joint motor dimensions",
+   "unit": "mm",
+   "robots": 2
+  },
+  {
+   "key": "stall_current",
+   "group": "Actuation & Joints",
+   "label": "Joint stall current",
+   "unit": "A",
    "robots": 2
   },
   {
    "key": "motors_per_leg",
    "group": "Actuation & Joints",
    "label": "Motors per leg",
+   "unit": "",
+   "robots": 2
+  },
+  {
+   "key": "leg_count",
+   "group": "Actuation & Joints",
+   "label": "Number of legs",
    "unit": "",
    "robots": 2
   },
@@ -146,13 +174,6 @@
    "key": "actuator_supplier",
    "group": "Actuation & Joints",
    "label": "Actuators",
-   "unit": "",
-   "robots": 1
-  },
-  {
-   "key": "foot_treads",
-   "group": "Actuation & Joints",
-   "label": "Foot treads",
    "unit": "",
    "robots": 1
   },
@@ -213,27 +234,6 @@
    "robots": 1
   },
   {
-   "key": "actuator_model",
-   "group": "Actuation & Joints",
-   "label": "Joint motor",
-   "unit": "",
-   "robots": 1
-  },
-  {
-   "key": "joint_dimensions",
-   "group": "Actuation & Joints",
-   "label": "Joint motor dimensions",
-   "unit": "mm",
-   "robots": 1
-  },
-  {
-   "key": "stall_current",
-   "group": "Actuation & Joints",
-   "label": "Joint stall current",
-   "unit": "A",
-   "robots": 1
-  },
-  {
    "key": "leg_joint_layout",
    "group": "Actuation & Joints",
    "label": "Leg joint layout",
@@ -283,9 +283,9 @@
    "robots": 1
   },
   {
-   "key": "leg_count",
+   "key": "rotor_inertia",
    "group": "Actuation & Joints",
-   "label": "Number of legs",
+   "label": "Rotor inertia (hip roll / hip pitch / knee)",
    "unit": "",
    "robots": 1
   },
@@ -322,42 +322,49 @@
    "group": "Audio, Lights & HMI",
    "label": "Emotive Ear Rings",
    "unit": "",
-   "robots": 42
+   "robots": 47
   },
   {
    "key": "speaker",
    "group": "Audio, Lights & HMI",
    "label": "Speakers",
    "unit": "",
-   "robots": 30
+   "robots": 34
   },
   {
    "key": "display",
    "group": "Audio, Lights & HMI",
    "label": "Interaction screen",
    "unit": "",
-   "robots": 25
+   "robots": 27
   },
   {
    "key": "front_light",
    "group": "Audio, Lights & HMI",
    "label": "Lighting",
    "unit": "",
-   "robots": 8
+   "robots": 10
   },
   {
    "key": "voice_function",
    "group": "Audio, Lights & HMI",
    "label": "Voice control",
    "unit": "",
-   "robots": 5
+   "robots": 7
   },
   {
    "key": "buzzer",
    "group": "Audio, Lights & HMI",
    "label": "Beeper",
    "unit": "",
-   "robots": 4
+   "robots": 5
+  },
+  {
+   "key": "buttons",
+   "group": "Audio, Lights & HMI",
+   "label": "Buttons",
+   "unit": "",
+   "robots": 2
   },
   {
    "key": "advertising_display",
@@ -374,6 +381,20 @@
    "robots": 2
   },
   {
+   "key": "voice_content",
+   "group": "Audio, Lights & HMI",
+   "label": "Voice content",
+   "unit": "",
+   "robots": 2
+  },
+  {
+   "key": "languages",
+   "group": "Audio, Lights & HMI",
+   "label": "Voice/display languages",
+   "unit": "",
+   "robots": 2
+  },
+  {
    "key": "warning_system_settings",
    "group": "Audio, Lights & HMI",
    "label": "A/V warning system settings",
@@ -384,13 +405,6 @@
    "key": "warning_behaviors",
    "group": "Audio, Lights & HMI",
    "label": "Audio & visual signals",
-   "unit": "",
-   "robots": 1
-  },
-  {
-   "key": "buttons",
-   "group": "Audio, Lights & HMI",
-   "label": "Buttons",
    "unit": "",
    "robots": 1
   },
@@ -458,20 +472,6 @@
    "robots": 1
   },
   {
-   "key": "voice_content",
-   "group": "Audio, Lights & HMI",
-   "label": "Voice content",
-   "unit": "",
-   "robots": 1
-  },
-  {
-   "key": "languages",
-   "group": "Audio, Lights & HMI",
-   "label": "Voice/display languages",
-   "unit": "",
-   "robots": 1
-  },
-  {
    "key": "warning_color_palettes",
    "group": "Audio, Lights & HMI",
    "label": "Warning color palettes",
@@ -490,35 +490,35 @@
    "group": "Charging & Docking",
    "label": "Quick charge",
    "unit": "",
-   "robots": 43
+   "robots": 48
   },
   {
    "key": "charging_method",
    "group": "Charging & Docking",
    "label": "Self-charge",
    "unit": "",
-   "robots": 33
+   "robots": 39
   },
   {
    "key": "charger_input",
    "group": "Charging & Docking",
    "label": "Input voltage",
    "unit": "V",
-   "robots": 24
+   "robots": 25
   },
   {
    "key": "charger_output",
    "group": "Charging & Docking",
    "label": "Charger output",
    "unit": "",
-   "robots": 21
+   "robots": 23
   },
   {
    "key": "dock_available",
    "group": "Charging & Docking",
    "label": "Docking station",
    "unit": "",
-   "robots": 19
+   "robots": 21
   },
   {
    "key": "max_charge_current",
@@ -532,7 +532,21 @@
    "group": "Charging & Docking",
    "label": "Automatic return to dock",
    "unit": "",
-   "robots": 6
+   "robots": 7
+  },
+  {
+   "key": "dock_dimensions",
+   "group": "Charging & Docking",
+   "label": "Docking station dimensions",
+   "unit": "mm",
+   "robots": 5
+  },
+  {
+   "key": "dock_weight",
+   "group": "Charging & Docking",
+   "label": "Docking station weight",
+   "unit": "kg",
+   "robots": 5
   },
   {
    "key": "charger_power",
@@ -549,24 +563,24 @@
    "robots": 4
   },
   {
-   "key": "dock_dimensions",
-   "group": "Charging & Docking",
-   "label": "Docking station dimensions",
-   "unit": "mm",
-   "robots": 4
-  },
-  {
-   "key": "dock_weight",
-   "group": "Charging & Docking",
-   "label": "Docking station weight",
-   "unit": "kg",
-   "robots": 4
-  },
-  {
    "key": "charger_dimensions",
    "group": "Charging & Docking",
    "label": "Charger dimensions",
    "unit": "mm",
+   "robots": 3
+  },
+  {
+   "key": "dock_output",
+   "group": "Charging & Docking",
+   "label": "Charging station DC in/out",
+   "unit": "",
+   "robots": 3
+  },
+  {
+   "key": "dock_operating_temperature",
+   "group": "Charging & Docking",
+   "label": "Charging station operating temperature",
+   "unit": "°C",
    "robots": 3
   },
   {
@@ -591,6 +605,13 @@
    "robots": 3
   },
   {
+   "key": "charger_model",
+   "group": "Charging & Docking",
+   "label": "Standard charger (North America)",
+   "unit": "",
+   "robots": 3
+  },
+  {
    "key": "battery_swap_time",
    "group": "Charging & Docking",
    "label": "Autonomous battery swap time",
@@ -605,6 +626,13 @@
    "robots": 2
   },
   {
+   "key": "empty_battery_charging",
+   "group": "Charging & Docking",
+   "label": "Charging an empty battery",
+   "unit": "",
+   "robots": 2
+  },
+  {
    "key": "dock_specs",
    "group": "Charging & Docking",
    "label": "Charging station",
@@ -612,17 +640,17 @@
    "robots": 2
   },
   {
-   "key": "dock_output",
+   "key": "dock_detection_range",
    "group": "Charging & Docking",
-   "label": "Charging station DC in/out",
-   "unit": "",
+   "label": "Dock fiducial detection distance",
+   "unit": "m",
    "robots": 2
   },
   {
-   "key": "dock_operating_temperature",
+   "key": "docking_sequence",
    "group": "Charging & Docking",
-   "label": "Charging station operating temperature",
-   "unit": "°C",
+   "label": "Docking procedure",
+   "unit": "",
    "robots": 2
   },
   {
@@ -640,11 +668,25 @@
    "robots": 2
   },
   {
-   "key": "charger_model",
+   "key": "dock_input",
    "group": "Charging & Docking",
-   "label": "Standard charger (North America)",
-   "unit": "",
+   "label": "Spot Dock input",
+   "unit": "V AC",
    "robots": 2
+  },
+  {
+   "key": "charger_certifications",
+   "group": "Charging & Docking",
+   "label": "Adapter standards",
+   "unit": "",
+   "robots": 1
+  },
+  {
+   "key": "battery_charging_tray",
+   "group": "Charging & Docking",
+   "label": "Battery charging tray",
+   "unit": "",
+   "robots": 1
   },
   {
    "key": "charger_cable_length",
@@ -672,13 +714,6 @@
    "group": "Charging & Docking",
    "label": "Charger operating temperature",
    "unit": "°C",
-   "robots": 1
-  },
-  {
-   "key": "empty_battery_charging",
-   "group": "Charging & Docking",
-   "label": "Charging an empty battery",
-   "unit": "",
    "robots": 1
   },
   {
@@ -710,24 +745,38 @@
    "robots": 1
   },
   {
-   "key": "dock_detection_range",
-   "group": "Charging & Docking",
-   "label": "Dock fiducial detection distance",
-   "unit": "m",
-   "robots": 1
-  },
-  {
-   "key": "docking_sequence",
-   "group": "Charging & Docking",
-   "label": "Docking procedure",
-   "unit": "",
-   "robots": 1
-  },
-  {
    "key": "dock_ip_rating",
    "group": "Charging & Docking",
    "label": "Docking station ingress protection",
    "unit": "",
+   "robots": 1
+  },
+  {
+   "key": "dock_installation",
+   "group": "Charging & Docking",
+   "label": "Docking station installation",
+   "unit": "",
+   "robots": 1
+  },
+  {
+   "key": "dock_operating_humidity",
+   "group": "Charging & Docking",
+   "label": "Docking station operating humidity",
+   "unit": "% RH",
+   "robots": 1
+  },
+  {
+   "key": "dock_storage_humidity",
+   "group": "Charging & Docking",
+   "label": "Docking station storage humidity",
+   "unit": "% RH",
+   "robots": 1
+  },
+  {
+   "key": "dock_storage_temperature",
+   "group": "Charging & Docking",
+   "label": "Docking station storage temperature",
+   "unit": "°C",
    "robots": 1
   },
   {
@@ -787,13 +836,6 @@
    "robots": 1
   },
   {
-   "key": "dock_input",
-   "group": "Charging & Docking",
-   "label": "Spot Dock input",
-   "unit": "V AC",
-   "robots": 1
-  },
-  {
    "key": "wireless_charging_alignment",
    "group": "Charging & Docking",
    "label": "Wireless charging coil alignment",
@@ -805,13 +847,20 @@
    "group": "Commercial",
    "label": "Comes with",
    "unit": "",
-   "robots": 26
+   "robots": 28
   },
   {
    "key": "price",
    "group": "Commercial",
    "label": "Ownership price",
    "unit": "USD",
+   "robots": 20
+  },
+  {
+   "key": "optional_accessories",
+   "group": "Commercial",
+   "label": "Accessories",
+   "unit": "",
    "robots": 19
   },
   {
@@ -819,28 +868,21 @@
    "group": "Commercial",
    "label": "Warranty",
    "unit": "years",
-   "robots": 18
-  },
-  {
-   "key": "optional_accessories",
-   "group": "Commercial",
-   "label": "Accessories",
-   "unit": "",
-   "robots": 16
+   "robots": 19
   },
   {
    "key": "availability",
    "group": "Commercial",
    "label": "Deliveries",
    "unit": "",
-   "robots": 12
+   "robots": 15
   },
   {
    "key": "design_life",
    "group": "Commercial",
-   "label": "Service life",
-   "unit": "h",
-   "robots": 6
+   "label": "Intended service life",
+   "unit": "years",
+   "robots": 7
   },
   {
    "key": "availability_note",
@@ -850,10 +892,45 @@
    "robots": 3
   },
   {
-   "key": "service_life",
+   "key": "installed_base",
    "group": "Commercial",
-   "label": "Intended service life",
-   "unit": "years",
+   "label": "Robots in customer hands",
+   "unit": "",
+   "robots": 2
+  },
+  {
+   "key": "awards",
+   "group": "Commercial",
+   "label": "Award",
+   "unit": "",
+   "robots": 1
+  },
+  {
+   "key": "pricing_model",
+   "group": "Commercial",
+   "label": "Commercial model",
+   "unit": "",
+   "robots": 1
+  },
+  {
+   "key": "deployment_time",
+   "group": "Commercial",
+   "label": "Deployment time",
+   "unit": "",
+   "robots": 1
+  },
+  {
+   "key": "export_control_classification",
+   "group": "Commercial",
+   "label": "Export control classification",
+   "unit": "",
+   "robots": 1
+  },
+  {
+   "key": "hs_code",
+   "group": "Commercial",
+   "label": "Harmonized code (HC)",
+   "unit": "",
    "robots": 1
   },
   {
@@ -861,13 +938,6 @@
    "group": "Commercial",
    "label": "Order deposit",
    "unit": "USD",
-   "robots": 1
-  },
-  {
-   "key": "installed_base",
-   "group": "Commercial",
-   "label": "Robots in customer hands",
-   "unit": "",
    "robots": 1
   },
   {
@@ -889,14 +959,21 @@
    "group": "Compute & Software",
    "label": "Basic board",
    "unit": "",
-   "robots": 32
+   "robots": 34
   },
   {
    "key": "sdk",
    "group": "Compute & Software",
    "label": "SDK",
    "unit": "",
-   "robots": 20
+   "robots": 24
+  },
+  {
+   "key": "fleet_software",
+   "group": "Compute & Software",
+   "label": "Swarm control software",
+   "unit": "",
+   "robots": 21
   },
   {
    "key": "ota_updates",
@@ -906,58 +983,58 @@
    "robots": 19
   },
   {
-   "key": "fleet_software",
-   "group": "Compute & Software",
-   "label": "Swarm control software",
-   "unit": "",
-   "robots": 18
-  },
-  {
    "key": "operating_system",
    "group": "Compute & Software",
    "label": "Operating system",
    "unit": "",
-   "robots": 14
+   "robots": 17
   },
   {
    "key": "ros_support",
    "group": "Compute & Software",
    "label": "ROS",
    "unit": "",
-   "robots": 12
+   "robots": 14
+  },
+  {
+   "key": "api",
+   "group": "Compute & Software",
+   "label": "API",
+   "unit": "",
+   "robots": 13
   },
   {
    "key": "ram",
    "group": "Compute & Software",
    "label": "Memory (RAM)",
    "unit": "GB",
-   "robots": 11
+   "robots": 13
   },
   {
    "key": "storage",
    "group": "Compute & Software",
    "label": "Hard disks",
    "unit": "",
-   "robots": 10
+   "robots": 12
   },
   {
    "key": "optional_compute",
    "group": "Compute & Software",
-   "label": "Optional compute",
+   "label": "User PC (U-PC) options",
    "unit": "",
-   "robots": 10
+   "robots": 12
   },
   {
    "key": "gpu",
    "group": "Compute & Software",
    "label": "Orin GPU",
    "unit": "",
-   "robots": 10
+   "robots": 11
   },
   {
-   "key": "api",
+   "key": "simulation_support",
    "group": "Compute & Software",
-   "label": "API",
+   "label": "Simulation",
    "unit": "",
    "robots": 9
   },
@@ -966,40 +1043,33 @@
    "group": "Compute & Software",
    "label": "AI compute",
    "unit": "FP4 TFLOPS",
-   "robots": 7
-  },
-  {
-   "key": "compute_module",
-   "group": "Compute & Software",
-   "label": "Chipset",
-   "unit": "",
-   "robots": 6
+   "robots": 8
   },
   {
    "key": "ros_version",
    "group": "Compute & Software",
    "label": "ROS version",
    "unit": "",
-   "robots": 6
-  },
-  {
-   "key": "simulation_support",
-   "group": "Compute & Software",
-   "label": "Simulation",
-   "unit": "",
-   "robots": 6
-  },
-  {
-   "key": "mcu",
-   "group": "Compute & Software",
-   "label": "Microcontroller",
-   "unit": "",
-   "robots": 5
+   "robots": 8
   },
   {
    "key": "programming_languages",
    "group": "Compute & Software",
    "label": "SDK language",
+   "unit": "",
+   "robots": 8
+  },
+  {
+   "key": "compute_module",
+   "group": "Compute & Software",
+   "label": "Chipset",
+   "unit": "",
+   "robots": 7
+  },
+  {
+   "key": "mcu",
+   "group": "Compute & Software",
+   "label": "Microcontroller",
    "unit": "",
    "robots": 5
   },
@@ -1011,6 +1081,13 @@
    "robots": 4
   },
   {
+   "key": "graphical_programming",
+   "group": "Compute & Software",
+   "label": "Graphical programming",
+   "unit": "",
+   "robots": 4
+  },
+  {
    "key": "cpu_cache",
    "group": "Compute & Software",
    "label": "Cache",
@@ -1018,16 +1095,16 @@
    "robots": 3
   },
   {
-   "key": "graphical_programming",
+   "key": "autonomy_software",
    "group": "Compute & Software",
-   "label": "Graphical programming",
+   "label": "Robot software",
    "unit": "",
    "robots": 3
   },
   {
-   "key": "autonomy_software",
+   "key": "diagnostics",
    "group": "Compute & Software",
-   "label": "Robot software",
+   "label": "Software update & diagnostics",
    "unit": "",
    "robots": 3
   },
@@ -1046,9 +1123,16 @@
    "robots": 2
   },
   {
-   "key": "diagnostics",
+   "key": "control_frequency",
    "group": "Compute & Software",
-   "label": "Software update & diagnostics",
+   "label": "Control frequency",
+   "unit": "kHz",
+   "robots": 2
+  },
+  {
+   "key": "hosting",
+   "group": "Compute & Software",
+   "label": "Hosting",
    "unit": "",
    "robots": 2
   },
@@ -1095,13 +1179,6 @@
    "robots": 1
   },
   {
-   "key": "control_frequency",
-   "group": "Compute & Software",
-   "label": "Control frequency",
-   "unit": "kHz",
-   "robots": 1
-  },
-  {
    "key": "dev_tools",
    "group": "Compute & Software",
    "label": "Developer tools",
@@ -1123,9 +1200,9 @@
    "robots": 1
   },
   {
-   "key": "hosting",
+   "key": "firmware_update",
    "group": "Compute & Software",
-   "label": "Hosting",
+   "label": "Firmware update",
    "unit": "",
    "robots": 1
   },
@@ -1242,6 +1319,13 @@
    "robots": 1
   },
   {
+   "key": "urdf_cad",
+   "group": "Compute & Software",
+   "label": "URDF & CAD",
+   "unit": "",
+   "robots": 1
+  },
+  {
    "key": "wrist_mcu",
    "group": "Compute & Software",
    "label": "Wrist microcontroller",
@@ -1253,56 +1337,70 @@
    "group": "Connectivity & Interfaces",
    "label": "Wi-Fi",
    "unit": "",
-   "robots": 33
-  },
-  {
-   "key": "ethernet",
-   "group": "Connectivity & Interfaces",
-   "label": "Ethernet",
-   "unit": "",
-   "robots": 20
+   "robots": 36
   },
   {
    "key": "external_ports",
    "group": "Connectivity & Interfaces",
    "label": "Rear panel",
    "unit": "",
-   "robots": 20
+   "robots": 23
+  },
+  {
+   "key": "ethernet",
+   "group": "Connectivity & Interfaces",
+   "label": "Ethernet",
+   "unit": "",
+   "robots": 22
   },
   {
    "key": "cellular",
    "group": "Connectivity & Interfaces",
    "label": "Cellular",
    "unit": "",
-   "robots": 17
+   "robots": 19
   },
   {
    "key": "bluetooth",
    "group": "Connectivity & Interfaces",
    "label": "Bluetooth",
    "unit": "",
-   "robots": 15
+   "robots": 16
   },
   {
    "key": "usb_ports",
    "group": "Connectivity & Interfaces",
    "label": "USB",
    "unit": "",
-   "robots": 11
+   "robots": 14
   },
   {
    "key": "communication",
    "group": "Connectivity & Interfaces",
    "label": "Communication",
    "unit": "",
-   "robots": 6
+   "robots": 8
   },
   {
    "key": "can_bus",
    "group": "Connectivity & Interfaces",
    "label": "System interface",
    "unit": "",
-   "robots": 5
+   "robots": 8
+  },
+  {
+   "key": "default_ip",
+   "group": "Connectivity & Interfaces",
+   "label": "Default robot IP",
+   "unit": "",
+   "robots": 7
+  },
+  {
+   "key": "data_security",
+   "group": "Connectivity & Interfaces",
+   "label": "Data security",
+   "unit": "",
+   "robots": 4
   },
   {
    "key": "gpio",
@@ -1319,13 +1417,6 @@
    "robots": 4
   },
   {
-   "key": "default_ip_address",
-   "group": "Connectivity & Interfaces",
-   "label": "Onboard computer IPs",
-   "unit": "",
-   "robots": 4
-  },
-  {
    "key": "safety_io",
    "group": "Connectivity & Interfaces",
    "label": "Safety I/O connections",
@@ -1333,10 +1424,17 @@
    "robots": 4
   },
   {
-   "key": "data_security",
+   "key": "video_streaming",
    "group": "Connectivity & Interfaces",
-   "label": "Data security",
+   "label": "Live video & detection",
    "unit": "",
+   "robots": 3
+  },
+  {
+   "key": "feedback_cycle",
+   "group": "Connectivity & Interfaces",
+   "label": "Motion feedback cycle",
+   "unit": "ms",
    "robots": 3
   },
   {
@@ -1347,23 +1445,9 @@
    "robots": 2
   },
   {
-   "key": "default_ip",
+   "key": "default_wifi_mode",
    "group": "Connectivity & Interfaces",
-   "label": "Default robot IP",
-   "unit": "",
-   "robots": 2
-  },
-  {
-   "key": "feedback_cycle",
-   "group": "Connectivity & Interfaces",
-   "label": "Motion feedback cycle",
-   "unit": "ms",
-   "robots": 2
-  },
-  {
-   "key": "video_streaming",
-   "group": "Connectivity & Interfaces",
-   "label": "Streaming",
+   "label": "Default Wi-Fi mode",
    "unit": "",
    "robots": 2
   },
@@ -1445,13 +1529,6 @@
    "robots": 1
   },
   {
-   "key": "default_wifi_mode",
-   "group": "Connectivity & Interfaces",
-   "label": "Default Wi-Fi mode",
-   "unit": "",
-   "robots": 1
-  },
-  {
    "key": "ethercat",
    "group": "Connectivity & Interfaces",
    "label": "EtherCAT",
@@ -1469,6 +1546,13 @@
    "key": "fcc_id",
    "group": "Connectivity & Interfaces",
    "label": "FCC ID",
+   "unit": "",
+   "robots": 1
+  },
+  {
+   "key": "interoperability",
+   "group": "Connectivity & Interfaces",
+   "label": "Interoperability",
    "unit": "",
    "robots": 1
   },
@@ -1529,6 +1613,13 @@
    "robots": 1
   },
   {
+   "key": "remote_access",
+   "group": "Connectivity & Interfaces",
+   "label": "Remote (LTE) connection",
+   "unit": "",
+   "robots": 1
+  },
+  {
    "key": "serial_ports",
    "group": "Connectivity & Interfaces",
    "label": "Serial",
@@ -1582,14 +1673,21 @@
    "group": "Controls & Operation",
    "label": "Interfaces",
    "unit": "",
-   "robots": 36
+   "robots": 40
   },
   {
    "key": "control_modes",
    "group": "Controls & Operation",
    "label": "Control modes",
    "unit": "",
-   "robots": 26
+   "robots": 28
+  },
+  {
+   "key": "autonomy_features",
+   "group": "Controls & Operation",
+   "label": "Autonomy features",
+   "unit": "",
+   "robots": 13
   },
   {
    "key": "teleoperation",
@@ -1599,11 +1697,18 @@
    "robots": 12
   },
   {
-   "key": "autonomy_features",
+   "key": "mission_software",
    "group": "Controls & Operation",
-   "label": "Autonomy features",
+   "label": "Client software",
    "unit": "",
-   "robots": 10
+   "robots": 7
+  },
+  {
+   "key": "manual_control",
+   "group": "Controls & Operation",
+   "label": "Manual control (Mission Control)",
+   "unit": "",
+   "robots": 7
   },
   {
    "key": "remote_range",
@@ -1613,37 +1718,23 @@
    "robots": 7
   },
   {
-   "key": "mission_software",
-   "group": "Controls & Operation",
-   "label": "Client software",
-   "unit": "",
-   "robots": 6
-  },
-  {
    "key": "follow_module",
    "group": "Controls & Operation",
    "label": "Wireless vector follow module",
    "unit": "",
-   "robots": 6
-  },
-  {
-   "key": "remote_calling",
-   "group": "Controls & Operation",
-   "label": "Call button",
-   "unit": "",
-   "robots": 4
-  },
-  {
-   "key": "manual_control",
-   "group": "Controls & Operation",
-   "label": "Manual control in robot interface",
-   "unit": "",
-   "robots": 4
+   "robots": 7
   },
   {
    "key": "multi_robot",
    "group": "Controls & Operation",
    "label": "Multi-robot mode",
+   "unit": "",
+   "robots": 5
+  },
+  {
+   "key": "remote_calling",
+   "group": "Controls & Operation",
+   "label": "Call button",
    "unit": "",
    "robots": 4
   },
@@ -1662,6 +1753,20 @@
    "robots": 3
   },
   {
+   "key": "operator_buttons",
+   "group": "Controls & Operation",
+   "label": "Operator panel controls",
+   "unit": "",
+   "robots": 3
+  },
+  {
+   "key": "app_support",
+   "group": "Controls & Operation",
+   "label": "App support",
+   "unit": "",
+   "robots": 2
+  },
+  {
    "key": "door_integration",
    "group": "Controls & Operation",
    "label": "Automatic door",
@@ -1676,6 +1781,13 @@
    "robots": 2
   },
   {
+   "key": "installation_requirements",
+   "group": "Controls & Operation",
+   "label": "Installation requirements",
+   "unit": "",
+   "robots": 2
+  },
+  {
    "key": "max_destinations_per_trip",
    "group": "Controls & Operation",
    "label": "Multi-point delivery",
@@ -1683,18 +1795,39 @@
    "robots": 2
   },
   {
-   "key": "operator_buttons",
+   "key": "operation_modes",
    "group": "Controls & Operation",
-   "label": "Operator panel controls",
+   "label": "Operation modes",
    "unit": "",
    "robots": 2
   },
   {
-   "key": "app_support",
+   "key": "power_button_hold_time",
    "group": "Controls & Operation",
-   "label": "App support",
+   "label": "Power button hold time to boot",
+   "unit": "s",
+   "robots": 2
+  },
+  {
+   "key": "startup_sequence",
+   "group": "Controls & Operation",
+   "label": "Startup sequence",
    "unit": "",
-   "robots": 1
+   "robots": 2
+  },
+  {
+   "key": "controller_dimensions",
+   "group": "Controls & Operation",
+   "label": "Tablet dimensions (H x W x D)",
+   "unit": "mm",
+   "robots": 2
+  },
+  {
+   "key": "controller_weight",
+   "group": "Controls & Operation",
+   "label": "Tablet weight",
+   "unit": "g",
+   "robots": 2
   },
   {
    "key": "notifications",
@@ -1781,9 +1914,9 @@
    "robots": 1
   },
   {
-   "key": "installation_requirements",
+   "key": "gamification",
    "group": "Controls & Operation",
-   "label": "Installation requirements",
+   "label": "Gamification",
    "unit": "",
    "robots": 1
   },
@@ -1858,9 +1991,9 @@
    "robots": 1
   },
   {
-   "key": "operation_modes",
+   "key": "operator_platform",
    "group": "Controls & Operation",
-   "label": "Operation modes",
+   "label": "Operator compartment",
    "unit": "",
    "robots": 1
   },
@@ -1872,10 +2005,31 @@
    "robots": 1
   },
   {
-   "key": "power_button_hold_time",
+   "key": "controller_battery",
    "group": "Controls & Operation",
-   "label": "Power button hold time to boot",
-   "unit": "s",
+   "label": "Remote battery",
+   "unit": "",
+   "robots": 1
+  },
+  {
+   "key": "controller_charge_time",
+   "group": "Controls & Operation",
+   "label": "Remote charge time",
+   "unit": "h",
+   "robots": 1
+  },
+  {
+   "key": "controller_model",
+   "group": "Controls & Operation",
+   "label": "Remote model",
+   "unit": "",
+   "robots": 1
+  },
+  {
+   "key": "controller_runtime",
+   "group": "Controls & Operation",
+   "label": "Remote runtime",
+   "unit": "",
    "robots": 1
   },
   {
@@ -1928,20 +2082,6 @@
    "robots": 1
   },
   {
-   "key": "startup_sequence",
-   "group": "Controls & Operation",
-   "label": "Startup sequence",
-   "unit": "",
-   "robots": 1
-  },
-  {
-   "key": "controller_dimensions",
-   "group": "Controls & Operation",
-   "label": "Tablet dimensions (H x W x D)",
-   "unit": "mm",
-   "robots": 1
-  },
-  {
    "key": "controller_ip_rating",
    "group": "Controls & Operation",
    "label": "Tablet ingress protection",
@@ -1956,13 +2096,6 @@
    "robots": 1
   },
   {
-   "key": "controller_weight",
-   "group": "Controls & Operation",
-   "label": "Tablet weight",
-   "unit": "g",
-   "robots": 1
-  },
-  {
    "key": "user_accounts",
    "group": "Controls & Operation",
    "label": "User accounts",
@@ -1970,100 +2103,100 @@
    "robots": 1
   },
   {
-   "key": "length",
-   "group": "Dimensions & Mass",
-   "label": "Length",
-   "unit": "cm",
-   "robots": 58
-  },
-  {
    "key": "width",
    "group": "Dimensions & Mass",
    "label": "Width",
    "unit": "cm",
-   "robots": 58
+   "robots": 65
+  },
+  {
+   "key": "length",
+   "group": "Dimensions & Mass",
+   "label": "Length",
+   "unit": "cm",
+   "robots": 64
   },
   {
    "key": "weight",
    "group": "Dimensions & Mass",
    "label": "Weight",
    "unit": "lb",
-   "robots": 49
+   "robots": 52
   },
   {
    "key": "height",
    "group": "Dimensions & Mass",
    "label": "Height",
    "unit": "ft/in",
-   "robots": 45
-  },
-  {
-   "key": "height_standing",
-   "group": "Dimensions & Mass",
-   "label": "Height (standing)",
-   "unit": "mm",
-   "robots": 19
+   "robots": 49
   },
   {
    "key": "weight_with_battery",
    "group": "Dimensions & Mass",
    "label": "Net mass (with battery)",
    "unit": "kg",
-   "robots": 19
+   "robots": 22
+  },
+  {
+   "key": "height_standing",
+   "group": "Dimensions & Mass",
+   "label": "Height (standing)",
+   "unit": "mm",
+   "robots": 21
   },
   {
    "key": "ground_clearance",
    "group": "Dimensions & Mass",
    "label": "Ground clearance",
    "unit": "mm",
-   "robots": 16
+   "robots": 18
   },
   {
    "key": "height_sitting",
    "group": "Dimensions & Mass",
    "label": "Height (lying on ground)",
    "unit": "mm",
-   "robots": 14
+   "robots": 15
   },
   {
    "key": "body_material",
    "group": "Dimensions & Mass",
    "label": "Material",
    "unit": "",
-   "robots": 11
+   "robots": 12
   },
   {
    "key": "wheel_diameter",
    "group": "Dimensions & Mass",
    "label": "Wheel diameter",
    "unit": "mm",
-   "robots": 11
+   "robots": 12
   },
   {
    "key": "leg_length",
    "group": "Dimensions & Mass",
    "label": "Thigh length",
    "unit": "mm",
-   "robots": 6
+   "robots": 7
   },
   {
    "key": "wheelbase",
    "group": "Dimensions & Mass",
    "label": "Wheelbase",
    "unit": "mm",
-   "robots": 6
-  },
-  {
-   "key": "arm_span",
-   "group": "Dimensions & Mass",
-   "label": "Arm span (fully extended)",
-   "unit": "mm",
-   "robots": 4
+   "robots": 7
   },
   {
    "key": "track_width",
    "group": "Dimensions & Mass",
    "label": "Axle track",
+   "unit": "mm",
+   "robots": 5
+  },
+  {
+   "key": "arm_span",
+   "group": "Dimensions & Mass",
+   "label": "Arm span (fully extended)",
    "unit": "mm",
    "robots": 4
   },
@@ -2110,6 +2243,20 @@
    "robots": 2
   },
   {
+   "key": "folded_dimensions",
+   "group": "Dimensions & Mass",
+   "label": "Folded dimensions (H x W x T)",
+   "unit": "mm",
+   "robots": 2
+  },
+  {
+   "key": "hip_spacing",
+   "group": "Dimensions & Mass",
+   "label": "Hip spacing",
+   "unit": "mm",
+   "robots": 2
+  },
+  {
    "key": "rotation_diameter",
    "group": "Dimensions & Mass",
    "label": "Rotation diameter",
@@ -2117,11 +2264,11 @@
    "robots": 2
   },
   {
-   "key": "tire_type",
+   "key": "body_width",
    "group": "Dimensions & Mass",
-   "label": "Tyre size",
-   "unit": "",
-   "robots": 2
+   "label": "Body width",
+   "unit": "mm",
+   "robots": 1
   },
   {
    "key": "center_of_mass",
@@ -2131,16 +2278,16 @@
    "robots": 1
   },
   {
-   "key": "wheel_effective_radius",
+   "key": "overall_dimensions",
    "group": "Dimensions & Mass",
-   "label": "Effective tire radius",
-   "unit": "mm",
+   "label": "Dimensions",
+   "unit": "",
    "robots": 1
   },
   {
-   "key": "folded_dimensions",
+   "key": "wheel_effective_radius",
    "group": "Dimensions & Mass",
-   "label": "Folded dimensions (H x W x T)",
+   "label": "Effective tire radius",
    "unit": "mm",
    "robots": 1
   },
@@ -2166,13 +2313,6 @@
    "robots": 1
   },
   {
-   "key": "hip_spacing",
-   "group": "Dimensions & Mass",
-   "label": "Hip spacing",
-   "unit": "mm",
-   "robots": 1
-  },
-  {
    "key": "internal_storage_dimensions",
    "group": "Dimensions & Mass",
    "label": "Internal storage dimensions",
@@ -2184,6 +2324,13 @@
    "group": "Dimensions & Mass",
    "label": "Length without bumpers",
    "unit": "mm",
+   "robots": 1
+  },
+  {
+   "key": "link_masses",
+   "group": "Dimensions & Mass",
+   "label": "Link masses",
+   "unit": "",
    "robots": 1
   },
   {
@@ -2254,21 +2401,21 @@
    "group": "Environment & Protection",
    "label": "Working temperature",
    "unit": "°C",
-   "robots": 44
+   "robots": 47
   },
   {
    "key": "ip_rating",
    "group": "Environment & Protection",
    "label": "IP rating – hands",
    "unit": "",
-   "robots": 37
+   "robots": 40
   },
   {
    "key": "storage_temperature",
    "group": "Environment & Protection",
    "label": "Battery storage temperature",
    "unit": "°C",
-   "robots": 26
+   "robots": 27
   },
   {
    "key": "operating_humidity",
@@ -2282,7 +2429,7 @@
    "group": "Environment & Protection",
    "label": "Charging temperature",
    "unit": "°C",
-   "robots": 15
+   "robots": 17
   },
   {
    "key": "max_altitude",
@@ -2303,14 +2450,14 @@
    "group": "Environment & Protection",
    "label": "Rain",
    "unit": "",
-   "robots": 7
+   "robots": 8
   },
   {
    "key": "indoor_outdoor",
    "group": "Environment & Protection",
    "label": "Environment",
    "unit": "",
-   "robots": 5
+   "robots": 7
   },
   {
    "key": "max_day_night_temp_difference",
@@ -2320,9 +2467,30 @@
    "robots": 5
   },
   {
+   "key": "prohibited_conditions",
+   "group": "Environment & Protection",
+   "label": "Prohibited conditions",
+   "unit": "",
+   "robots": 3
+  },
+  {
    "key": "dust_limit",
    "group": "Environment & Protection",
    "label": "Dust / smoke",
+   "unit": "",
+   "robots": 2
+  },
+  {
+   "key": "min_power_on_temperature",
+   "group": "Environment & Protection",
+   "label": "Minimum power-on temperature",
+   "unit": "°C",
+   "robots": 2
+  },
+  {
+   "key": "water_resistance",
+   "group": "Environment & Protection",
+   "label": "Water resistance",
    "unit": "",
    "robots": 2
   },
@@ -2404,13 +2572,6 @@
    "robots": 1
   },
   {
-   "key": "min_power_on_temperature",
-   "group": "Environment & Protection",
-   "label": "Minimum power-on temperature",
-   "unit": "°C",
-   "robots": 1
-  },
-  {
    "key": "operating_environment",
    "group": "Environment & Protection",
    "label": "Operating environment",
@@ -2425,67 +2586,60 @@
    "robots": 1
   },
   {
-   "key": "prohibited_conditions",
-   "group": "Environment & Protection",
-   "label": "Prohibited conditions",
-   "unit": "",
-   "robots": 1
-  },
-  {
-   "key": "water_resistance",
-   "group": "Environment & Protection",
-   "label": "Water resistance",
-   "unit": "",
-   "robots": 1
-  },
-  {
    "key": "variants",
    "group": "Identity",
    "label": "Models",
    "unit": "",
-   "robots": 37
-  },
-  {
-   "key": "manufacturer_address",
-   "group": "Identity",
-   "label": "Manufacturer address",
-   "unit": "",
-   "robots": 20
+   "robots": 39
   },
   {
    "key": "model_number",
    "group": "Identity",
    "label": "Model",
    "unit": "",
-   "robots": 19
+   "robots": 22
   },
   {
-   "key": "software_version",
+   "key": "manufacturer_address",
    "group": "Identity",
-   "label": "Manual version",
+   "label": "Manufacturer address",
    "unit": "",
-   "robots": 14
+   "robots": 21
   },
   {
    "key": "robot_type",
    "group": "Identity",
    "label": "Robot type",
    "unit": "",
-   "robots": 14
+   "robots": 21
   },
   {
    "key": "manufacturer",
    "group": "Identity",
    "label": "Manufacturer",
    "unit": "",
-   "robots": 11
+   "robots": 18
+  },
+  {
+   "key": "software_version",
+   "group": "Identity",
+   "label": "Manual version",
+   "unit": "",
+   "robots": 16
   },
   {
    "key": "release_date",
    "group": "Identity",
    "label": "Unveiled",
    "unit": "",
-   "robots": 10
+   "robots": 12
+  },
+  {
+   "key": "spec_document_date",
+   "group": "Identity",
+   "label": "Specification document date",
+   "unit": "",
+   "robots": 7
   },
   {
    "key": "manufacturing_site",
@@ -2502,13 +2656,6 @@
    "robots": 4
   },
   {
-   "key": "spec_document_date",
-   "group": "Identity",
-   "label": "Specification document date",
-   "unit": "",
-   "robots": 4
-  },
-  {
    "key": "color",
    "group": "Identity",
    "label": "Color",
@@ -2521,6 +2668,13 @@
    "label": "Material code (MR-Q7-1000CE-E1(HI)(CE))",
    "unit": "",
    "robots": 3
+  },
+  {
+   "key": "generation",
+   "group": "Identity",
+   "label": "Generation",
+   "unit": "",
+   "robots": 2
   },
   {
    "key": "base_platform",
@@ -2551,9 +2705,9 @@
    "robots": 1
   },
   {
-   "key": "generation",
+   "key": "former_names",
    "group": "Identity",
-   "label": "Generation",
+   "label": "Former name",
    "unit": "",
    "robots": 1
   },
@@ -2561,6 +2715,13 @@
    "key": "label_part_number",
    "group": "Identity",
    "label": "Label part number",
+   "unit": "",
+   "robots": 1
+  },
+  {
+   "key": "model_name_meaning",
+   "group": "Identity",
+   "label": "Model name",
    "unit": "",
    "robots": 1
   },
@@ -2751,35 +2912,56 @@
    "group": "Mobility & Performance",
    "label": "Max run speed",
    "unit": "m/s",
-   "robots": 60
+   "robots": 66
   },
   {
    "key": "max_payload",
    "group": "Mobility & Performance",
    "label": "Lift",
    "unit": "lb",
-   "robots": 52
+   "robots": 58
   },
   {
    "key": "degrees_of_freedom",
    "group": "Mobility & Performance",
    "label": "Total DoF",
    "unit": "",
-   "robots": 22
+   "robots": 25
   },
   {
    "key": "rated_payload",
    "group": "Mobility & Performance",
    "label": "Carry",
    "unit": "lb",
-   "robots": 21
+   "robots": 22
   },
   {
    "key": "nominal_speed",
    "group": "Mobility & Performance",
    "label": "Walking speed",
    "unit": "m/s",
+   "robots": 14
+  },
+  {
+   "key": "turning_radius",
+   "group": "Mobility & Performance",
+   "label": "Minimum turning radius",
+   "unit": "",
    "robots": 12
+  },
+  {
+   "key": "max_yaw_rate",
+   "group": "Mobility & Performance",
+   "label": "Spin speed command range",
+   "unit": "rad/s",
+   "robots": 12
+  },
+  {
+   "key": "gaits",
+   "group": "Mobility & Performance",
+   "label": "Mobility",
+   "unit": "",
+   "robots": 11
   },
   {
    "key": "positioning_accuracy",
@@ -2789,32 +2971,11 @@
    "robots": 10
   },
   {
-   "key": "turning_radius",
-   "group": "Mobility & Performance",
-   "label": "Minimum turning radius",
-   "unit": "",
-   "robots": 10
-  },
-  {
-   "key": "max_yaw_rate",
-   "group": "Mobility & Performance",
-   "label": "Spin speed command range",
-   "unit": "rad/s",
-   "robots": 10
-  },
-  {
    "key": "drive_train",
    "group": "Mobility & Performance",
    "label": "Drive configuration",
    "unit": "",
-   "robots": 9
-  },
-  {
-   "key": "gaits",
-   "group": "Mobility & Performance",
-   "label": "Mobility",
-   "unit": "",
-   "robots": 9
+   "robots": 10
   },
   {
    "key": "min_speed",
@@ -2831,10 +2992,24 @@
    "robots": 6
   },
   {
+   "key": "drive_motor",
+   "group": "Mobility & Performance",
+   "label": "Drive motors",
+   "unit": "",
+   "robots": 6
+  },
+  {
    "key": "max_acceleration",
    "group": "Mobility & Performance",
    "label": "Max acceleration/deceleration (stability cone reference)",
    "unit": "m/s²",
+   "robots": 6
+  },
+  {
+   "key": "steering_method",
+   "group": "Mobility & Performance",
+   "label": "Steering",
+   "unit": "",
    "robots": 6
   },
   {
@@ -2845,9 +3020,9 @@
    "robots": 5
   },
   {
-   "key": "drive_motor",
+   "key": "drive_wheel_material",
    "group": "Mobility & Performance",
-   "label": "Drive motors",
+   "label": "Drive wheel material",
    "unit": "",
    "robots": 5
   },
@@ -2866,13 +3041,6 @@
    "robots": 5
   },
   {
-   "key": "steering",
-   "group": "Mobility & Performance",
-   "label": "Steering",
-   "unit": "",
-   "robots": 5
-  },
-  {
    "key": "wheel_count",
    "group": "Mobility & Performance",
    "label": "Wheels",
@@ -2887,10 +3055,10 @@
    "robots": 4
   },
   {
-   "key": "drive_wheel_material",
+   "key": "speed_command_range",
    "group": "Mobility & Performance",
-   "label": "Drive wheel material",
-   "unit": "",
+   "label": "Linear speed command range",
+   "unit": "mm/s",
    "robots": 4
   },
   {
@@ -2908,6 +3076,13 @@
    "robots": 4
   },
   {
+   "key": "tire_type",
+   "group": "Mobility & Performance",
+   "label": "Tires",
+   "unit": "",
+   "robots": 4
+  },
+  {
    "key": "wheel_configuration",
    "group": "Mobility & Performance",
    "label": "Wheels",
@@ -2915,10 +3090,17 @@
    "robots": 4
   },
   {
-   "key": "speed_command_range",
+   "key": "max_speed_lateral",
    "group": "Mobility & Performance",
-   "label": "Linear speed command range",
+   "label": "Lateral speed command range",
    "unit": "mm/s",
+   "robots": 3
+  },
+  {
+   "key": "caster_material",
+   "group": "Mobility & Performance",
+   "label": "Passive caster material",
+   "unit": "",
    "robots": 3
   },
   {
@@ -2933,6 +3115,13 @@
    "group": "Mobility & Performance",
    "label": "All-terrain payload",
    "unit": "kg",
+   "robots": 2
+  },
+  {
+   "key": "balance_controller",
+   "group": "Mobility & Performance",
+   "label": "Balance control",
+   "unit": "",
    "robots": 2
   },
   {
@@ -2957,10 +3146,10 @@
    "robots": 2
   },
   {
-   "key": "max_speed_lateral",
+   "key": "max_deceleration",
    "group": "Mobility & Performance",
-   "label": "Lateral speed command range",
-   "unit": "mm/s",
+   "label": "Maximum braking deceleration",
+   "unit": "m/s²",
    "robots": 2
   },
   {
@@ -2971,6 +3160,13 @@
    "robots": 2
   },
   {
+   "key": "max_speed_reverse",
+   "group": "Mobility & Performance",
+   "label": "Maximum reverse speed",
+   "unit": "mm/s",
+   "robots": 2
+  },
+  {
    "key": "rated_speed_loaded",
    "group": "Mobility & Performance",
    "label": "Maximum speed with full load",
@@ -2978,16 +3174,16 @@
    "robots": 2
   },
   {
-   "key": "caster_material",
+   "key": "motion_modes",
    "group": "Mobility & Performance",
-   "label": "Passive caster material",
+   "label": "Motion modes",
    "unit": "",
    "robots": 2
   },
   {
-   "key": "balance_controller",
+   "key": "acrobatics",
    "group": "Mobility & Performance",
-   "label": "Balance control",
+   "label": "Backflip / consecutive backflip",
    "unit": "",
    "robots": 1
   },
@@ -3034,20 +3230,6 @@
    "robots": 1
   },
   {
-   "key": "max_deceleration",
-   "group": "Mobility & Performance",
-   "label": "Maximum braking deceleration",
-   "unit": "m/s²",
-   "robots": 1
-  },
-  {
-   "key": "max_speed_reverse",
-   "group": "Mobility & Performance",
-   "label": "Maximum reverse speed",
-   "unit": "mm/s",
-   "robots": 1
-  },
-  {
    "key": "max_rotational_acceleration",
    "group": "Mobility & Performance",
    "label": "Maximum rotational acceleration/deceleration",
@@ -3058,13 +3240,6 @@
    "key": "min_distance_for_max_speed",
    "group": "Mobility & Performance",
    "label": "Minimum distance to achieve maximum speed",
-   "unit": "",
-   "robots": 1
-  },
-  {
-   "key": "motion_modes",
-   "group": "Mobility & Performance",
-   "label": "Motion modes",
    "unit": "",
    "robots": 1
   },
@@ -3090,23 +3265,9 @@
    "robots": 1
   },
   {
-   "key": "steering_method",
-   "group": "Mobility & Performance",
-   "label": "Steering",
-   "unit": "",
-   "robots": 1
-  },
-  {
    "key": "steering_motor",
    "group": "Mobility & Performance",
    "label": "Steering motors",
-   "unit": "",
-   "robots": 1
-  },
-  {
-   "key": "tires",
-   "group": "Mobility & Performance",
-   "label": "Tires",
    "unit": "",
    "robots": 1
   },
@@ -3115,28 +3276,28 @@
    "group": "Payload & Mounting",
    "label": "Rear expansion power",
    "unit": "",
-   "robots": 24
+   "robots": 26
   },
   {
    "key": "payload_port_voltage",
    "group": "Payload & Mounting",
    "label": "Payload port supply voltage",
    "unit": "V DC",
-   "robots": 10
+   "robots": 12
   },
   {
    "key": "top_module_interface",
    "group": "Payload & Mounting",
    "label": "Top compartment",
    "unit": "",
-   "robots": 10
+   "robots": 11
   },
   {
    "key": "mounting_rail",
    "group": "Payload & Mounting",
    "label": "Top mounting",
    "unit": "",
-   "robots": 8
+   "robots": 10
   },
   {
    "key": "cargo_capacity_description",
@@ -3160,6 +3321,13 @@
    "robots": 6
   },
   {
+   "key": "max_lift_height",
+   "group": "Payload & Mounting",
+   "label": "Maximum lift height",
+   "unit": "mm",
+   "robots": 5
+  },
+  {
    "key": "tray_dimensions",
    "group": "Payload & Mounting",
    "label": "Tray dimensions",
@@ -3170,6 +3338,13 @@
    "key": "mounting_bolt_size",
    "group": "Payload & Mounting",
    "label": "Mechanical interface",
+   "unit": "",
+   "robots": 4
+  },
+  {
+   "key": "payload_ports",
+   "group": "Payload & Mounting",
+   "label": "Payload ports (attachment I/Os)",
    "unit": "",
    "robots": 4
   },
@@ -3188,10 +3363,38 @@
    "robots": 3
   },
   {
-   "key": "max_lift_height",
+   "key": "inspection_payload_dimensions",
    "group": "Payload & Mounting",
-   "label": "Maximum lift height",
+   "label": "Inspection payload dimensions",
    "unit": "mm",
+   "robots": 3
+  },
+  {
+   "key": "inspection_payload_weight",
+   "group": "Payload & Mounting",
+   "label": "Inspection payload weight",
+   "unit": "kg",
+   "robots": 3
+  },
+  {
+   "key": "cargo_dimensions",
+   "group": "Payload & Mounting",
+   "label": "Max cargo L × W × H",
+   "unit": "mm",
+   "robots": 3
+  },
+  {
+   "key": "mounting_points",
+   "group": "Payload & Mounting",
+   "label": "Mounting holes",
+   "unit": "",
+   "robots": 3
+  },
+  {
+   "key": "optional_payloads",
+   "group": "Payload & Mounting",
+   "label": "Optional sensors",
+   "unit": "",
    "robots": 3
   },
   {
@@ -3202,17 +3405,10 @@
    "robots": 3
   },
   {
-   "key": "inspection_payload_dimensions",
+   "key": "fork_dimensions",
    "group": "Payload & Mounting",
-   "label": "Inspection payload dimensions",
-   "unit": "mm",
-   "robots": 2
-  },
-  {
-   "key": "inspection_payload_weight",
-   "group": "Payload & Mounting",
-   "label": "Inspection payload weight",
-   "unit": "kg",
+   "label": "Fork dimensions",
+   "unit": "",
    "robots": 2
   },
   {
@@ -3230,9 +3426,9 @@
    "robots": 2
   },
   {
-   "key": "cargo_dimensions",
+   "key": "max_payload_height",
    "group": "Payload & Mounting",
-   "label": "Max cargo L × W × H",
+   "label": "Maximum payload height",
    "unit": "mm",
    "robots": 2
   },
@@ -3244,9 +3440,37 @@
    "robots": 2
   },
   {
-   "key": "payload_ports",
+   "key": "pallet_types",
    "group": "Payload & Mounting",
-   "label": "Payload ports (attachment I/Os)",
+   "label": "Pallet types",
+   "unit": "",
+   "robots": 2
+  },
+  {
+   "key": "pan_tilt_range",
+   "group": "Payload & Mounting",
+   "label": "Pan-tilt range of motion",
+   "unit": "",
+   "robots": 2
+  },
+  {
+   "key": "payload_port_connector",
+   "group": "Payload & Mounting",
+   "label": "Payload port connection",
+   "unit": "",
+   "robots": 2
+  },
+  {
+   "key": "payload_configuration",
+   "group": "Payload & Mounting",
+   "label": "Payload software configuration",
+   "unit": "",
+   "robots": 2
+  },
+  {
+   "key": "user_power_breakouts",
+   "group": "Payload & Mounting",
+   "label": "User power breakouts",
    "unit": "",
    "robots": 2
   },
@@ -3293,17 +3517,17 @@
    "robots": 1
   },
   {
+   "key": "container_types",
+   "group": "Payload & Mounting",
+   "label": "Container types",
+   "unit": "",
+   "robots": 1
+  },
+  {
    "key": "lift_cycle_time",
    "group": "Payload & Mounting",
    "label": "Duration of lifting cycle",
    "unit": "s",
-   "robots": 1
-  },
-  {
-   "key": "fork_dimensions",
-   "group": "Payload & Mounting",
-   "label": "Fork dimensions",
-   "unit": "",
    "robots": 1
   },
   {
@@ -3324,13 +3548,6 @@
    "key": "payload_interfaces",
    "group": "Payload & Mounting",
    "label": "Inspection payload interfaces",
-   "unit": "",
-   "robots": 1
-  },
-  {
-   "key": "mounting_points",
-   "group": "Payload & Mounting",
-   "label": "Installation holes",
    "unit": "",
    "robots": 1
   },
@@ -3360,13 +3577,6 @@
    "group": "Payload & Mounting",
    "label": "Lift time",
    "unit": "s",
-   "robots": 1
-  },
-  {
-   "key": "lift_height",
-   "group": "Payload & Mounting",
-   "label": "Lifting system (optional): lift table height",
-   "unit": "mm",
    "robots": 1
   },
   {
@@ -3440,13 +3650,6 @@
    "robots": 1
   },
   {
-   "key": "max_payload_height",
-   "group": "Payload & Mounting",
-   "label": "Maximum payload height",
-   "unit": "mm",
-   "robots": 1
-  },
-  {
    "key": "shelf_min_inside_diameter",
    "group": "Payload & Mounting",
    "label": "Minimum shelf inside diameter",
@@ -3468,30 +3671,9 @@
    "robots": 1
   },
   {
-   "key": "optional_payloads",
-   "group": "Payload & Mounting",
-   "label": "Optional sensors",
-   "unit": "",
-   "robots": 1
-  },
-  {
    "key": "pallet_handling_time",
    "group": "Payload & Mounting",
    "label": "Pallet pick-up / place time",
-   "unit": "",
-   "robots": 1
-  },
-  {
-   "key": "pallet_types",
-   "group": "Payload & Mounting",
-   "label": "Pallet types",
-   "unit": "",
-   "robots": 1
-  },
-  {
-   "key": "pan_tilt_range",
-   "group": "Payload & Mounting",
-   "label": "Pan-tilt range of motion",
    "unit": "",
    "robots": 1
   },
@@ -3552,23 +3734,9 @@
    "robots": 1
   },
   {
-   "key": "payload_port_connector",
-   "group": "Payload & Mounting",
-   "label": "Payload port connection",
-   "unit": "",
-   "robots": 1
-  },
-  {
    "key": "payload_port_locations",
    "group": "Payload & Mounting",
    "label": "Payload port locations",
-   "unit": "",
-   "robots": 1
-  },
-  {
-   "key": "payload_configuration",
-   "group": "Payload & Mounting",
-   "label": "Payload software configuration",
    "unit": "",
    "robots": 1
   },
@@ -3636,13 +3804,6 @@
    "robots": 1
   },
   {
-   "key": "user_power_breakouts",
-   "group": "Payload & Mounting",
-   "label": "User power breakouts",
-   "unit": "",
-   "robots": 1
-  },
-  {
    "key": "user_power_connectors",
    "group": "Payload & Mounting",
    "label": "User power connectors",
@@ -3654,49 +3815,49 @@
    "group": "Power & Battery",
    "label": "Run-time",
    "unit": "h",
-   "robots": 64
+   "robots": 70
   },
   {
    "key": "battery_voltage",
    "group": "Power & Battery",
    "label": "Battery voltage",
    "unit": "V",
-   "robots": 45
-  },
-  {
-   "key": "battery_chemistry",
-   "group": "Power & Battery",
-   "label": "Battery type",
-   "unit": "",
-   "robots": 32
-  },
-  {
-   "key": "battery_capacity",
-   "group": "Power & Battery",
-   "label": "Battery capacity",
-   "unit": "Wh",
-   "robots": 31
+   "robots": 48
   },
   {
    "key": "battery_swappable",
    "group": "Power & Battery",
    "label": "Swappable battery",
    "unit": "",
-   "robots": 31
+   "robots": 35
+  },
+  {
+   "key": "battery_capacity",
+   "group": "Power & Battery",
+   "label": "Battery capacity",
+   "unit": "Wh",
+   "robots": 34
+  },
+  {
+   "key": "battery_chemistry",
+   "group": "Power & Battery",
+   "label": "Battery type",
+   "unit": "",
+   "robots": 34
   },
   {
    "key": "battery_capacity_ah",
    "group": "Power & Battery",
    "label": "Battery capacity",
    "unit": "Ah",
-   "robots": 29
+   "robots": 32
   },
   {
    "key": "range_per_charge",
    "group": "Power & Battery",
    "label": "Max distance (full load)",
    "unit": "km",
-   "robots": 19
+   "robots": 21
   },
   {
    "key": "runtime_with_payload",
@@ -3713,6 +3874,27 @@
    "robots": 12
   },
   {
+   "key": "battery_mass",
+   "group": "Power & Battery",
+   "label": "Battery weight",
+   "unit": "kg",
+   "robots": 9
+  },
+  {
+   "key": "battery_voltage_max",
+   "group": "Power & Battery",
+   "label": "Full-charge voltage",
+   "unit": "V",
+   "robots": 9
+  },
+  {
+   "key": "standby_time",
+   "group": "Power & Battery",
+   "label": "Battery life (standing)",
+   "unit": "h",
+   "robots": 8
+  },
+  {
    "key": "max_power_output",
    "group": "Power & Battery",
    "label": "Battery peak power",
@@ -3720,32 +3902,18 @@
    "robots": 8
   },
   {
-   "key": "battery_mass",
-   "group": "Power & Battery",
-   "label": "Battery weight",
-   "unit": "kg",
-   "robots": 8
-  },
-  {
-   "key": "battery_voltage_max",
-   "group": "Power & Battery",
-   "label": "Full-charge voltage",
-   "unit": "V",
-   "robots": 8
-  },
-  {
-   "key": "standby_time",
-   "group": "Power & Battery",
-   "label": "Battery life (standing)",
-   "unit": "h",
-   "robots": 7
-  },
-  {
    "key": "battery_count",
    "group": "Power & Battery",
    "label": "Battery count",
    "unit": "",
-   "robots": 6
+   "robots": 7
+  },
+  {
+   "key": "battery_certification",
+   "group": "Power & Battery",
+   "label": "Battery certification",
+   "unit": "",
+   "robots": 5
   },
   {
    "key": "battery_dimensions",
@@ -3755,17 +3923,31 @@
    "robots": 5
   },
   {
-   "key": "battery_certification",
-   "group": "Power & Battery",
-   "label": "Battery certification",
-   "unit": "",
-   "robots": 3
-  },
-  {
    "key": "low_battery_alarm",
    "group": "Power & Battery",
    "label": "Low battery behaviour",
    "unit": "",
+   "robots": 4
+  },
+  {
+   "key": "battery_protection",
+   "group": "Power & Battery",
+   "label": "Battery management",
+   "unit": "",
+   "robots": 3
+  },
+  {
+   "key": "low_battery_behavior",
+   "group": "Power & Battery",
+   "label": "Low battery",
+   "unit": "",
+   "robots": 3
+  },
+  {
+   "key": "battery_voltage_range",
+   "group": "Power & Battery",
+   "label": "Normal battery voltage range",
+   "unit": "V",
    "robots": 3
   },
   {
@@ -3776,24 +3958,10 @@
    "robots": 3
   },
   {
-   "key": "battery_protection",
+   "key": "battery_idle_damage_time",
    "group": "Power & Battery",
-   "label": "Battery management",
-   "unit": "",
-   "robots": 2
-  },
-  {
-   "key": "low_battery_behavior",
-   "group": "Power & Battery",
-   "label": "Low battery",
-   "unit": "",
-   "robots": 2
-  },
-  {
-   "key": "battery_voltage_range",
-   "group": "Power & Battery",
-   "label": "Normal battery voltage range",
-   "unit": "V",
+   "label": "Max time battery may be left in powered-off robot",
+   "unit": "h",
    "robots": 2
   },
   {
@@ -3818,14 +3986,7 @@
    "robots": 1
   },
   {
-   "key": "battery_certifications",
-   "group": "Power & Battery",
-   "label": "Battery certifications",
-   "unit": "",
-   "robots": 1
-  },
-  {
-   "key": "battery_shipped_soc",
+   "key": "battery_shipping_soc",
    "group": "Power & Battery",
    "label": "Battery charge as shipped",
    "unit": "%",
@@ -3849,6 +4010,13 @@
    "key": "battery_manufacturer",
    "group": "Power & Battery",
    "label": "Battery maker",
+   "unit": "",
+   "robots": 1
+  },
+  {
+   "key": "battery_model",
+   "group": "Power & Battery",
+   "label": "Battery model",
    "unit": "",
    "robots": 1
   },
@@ -3895,13 +4063,6 @@
    "robots": 1
   },
   {
-   "key": "low_battery_behaviour",
-   "group": "Power & Battery",
-   "label": "Low-battery thresholds",
-   "unit": "",
-   "robots": 1
-  },
-  {
    "key": "battery_max_internal_temperature",
    "group": "Power & Battery",
    "label": "Max battery internal operating temperature",
@@ -3913,13 +4074,6 @@
    "group": "Power & Battery",
    "label": "Max depth of discharge",
    "unit": "%",
-   "robots": 1
-  },
-  {
-   "key": "battery_idle_damage_time",
-   "group": "Power & Battery",
-   "label": "Max time battery may be left in powered-off robot",
-   "unit": "h",
    "robots": 1
   },
   {
@@ -3976,35 +4130,35 @@
    "group": "Safety & Compliance",
    "label": "Wireless emergency stop switch",
    "unit": "",
-   "robots": 37
+   "robots": 40
   },
   {
    "key": "obstacle_avoidance",
    "group": "Safety & Compliance",
    "label": "Obstacle avoidance",
    "unit": "",
-   "robots": 23
+   "robots": 26
   },
   {
    "key": "intended_use",
    "group": "Safety & Compliance",
    "label": "Intended use",
    "unit": "",
-   "robots": 19
+   "robots": 25
   },
   {
    "key": "certifications",
    "group": "Safety & Compliance",
    "label": "OSHA field evaluation",
    "unit": "",
-   "robots": 18
+   "robots": 21
   },
   {
    "key": "safety_standards",
    "group": "Safety & Compliance",
    "label": "Standards work",
    "unit": "",
-   "robots": 14
+   "robots": 15
   },
   {
    "key": "max_noise_level",
@@ -4014,6 +4168,13 @@
    "robots": 10
   },
   {
+   "key": "warning_system",
+   "group": "Safety & Compliance",
+   "label": "Safety cues",
+   "unit": "",
+   "robots": 9
+  },
+  {
    "key": "bumper",
    "group": "Safety & Compliance",
    "label": "Anti-collision",
@@ -4021,11 +4182,18 @@
    "robots": 8
   },
   {
-   "key": "warning_system",
+   "key": "safety_features",
    "group": "Safety & Compliance",
-   "label": "Safety cues",
+   "label": "Safe human detection",
    "unit": "",
-   "robots": 8
+   "robots": 7
+  },
+  {
+   "key": "stopping_distance",
+   "group": "Safety & Compliance",
+   "label": "Braking distance",
+   "unit": "m",
+   "robots": 6
   },
   {
    "key": "performance_level",
@@ -4035,10 +4203,17 @@
    "robots": 6
   },
   {
-   "key": "safety_features",
+   "key": "prohibited_uses",
    "group": "Safety & Compliance",
-   "label": "Safe human detection",
+   "label": "Excluded use",
    "unit": "",
+   "robots": 5
+  },
+  {
+   "key": "min_safe_distance",
+   "group": "Safety & Compliance",
+   "label": "Safety distance",
+   "unit": "m",
    "robots": 5
   },
   {
@@ -4056,13 +4231,6 @@
    "robots": 4
   },
   {
-   "key": "stopping_distance",
-   "group": "Safety & Compliance",
-   "label": "Braking distance",
-   "unit": "m",
-   "robots": 3
-  },
-  {
    "key": "cleanroom_class",
    "group": "Safety & Compliance",
    "label": "Cleanroom",
@@ -4077,13 +4245,6 @@
    "robots": 3
   },
   {
-   "key": "prohibited_uses",
-   "group": "Safety & Compliance",
-   "label": "Excluded use",
-   "unit": "",
-   "robots": 3
-  },
-  {
    "key": "max_push_speed",
    "group": "Safety & Compliance",
    "label": "Max manual push speed",
@@ -4091,9 +4252,30 @@
    "robots": 3
   },
   {
+   "key": "personnel_detection",
+   "group": "Safety & Compliance",
+   "label": "Personnel detection safety function",
+   "unit": "",
+   "robots": 3
+  },
+  {
+   "key": "fall_recovery",
+   "group": "Safety & Compliance",
+   "label": "Self-righting",
+   "unit": "",
+   "robots": 3
+  },
+  {
    "key": "safety_design",
    "group": "Safety & Compliance",
    "label": "Body",
+   "unit": "",
+   "robots": 2
+  },
+  {
+   "key": "braking",
+   "group": "Safety & Compliance",
+   "label": "Braking",
    "unit": "",
    "robots": 2
   },
@@ -4112,6 +4294,13 @@
    "robots": 2
   },
   {
+   "key": "powerless_leg_behavior",
+   "group": "Safety & Compliance",
+   "label": "Leg state after de-energization",
+   "unit": "",
+   "robots": 2
+  },
+  {
    "key": "overspeed_avoidance",
    "group": "Safety & Compliance",
    "label": "Overspeed avoidance",
@@ -4126,13 +4315,6 @@
    "robots": 2
   },
   {
-   "key": "personnel_detection",
-   "group": "Safety & Compliance",
-   "label": "Personnel detection safety function",
-   "unit": "",
-   "robots": 2
-  },
-  {
    "key": "safe_guarded_stop",
    "group": "Safety & Compliance",
    "label": "Safe guarded stop",
@@ -4140,16 +4322,16 @@
    "robots": 2
   },
   {
-   "key": "safety_distance",
-   "group": "Safety & Compliance",
-   "label": "Safety distance",
-   "unit": "m",
-   "robots": 2
-  },
-  {
    "key": "safety_functions",
    "group": "Safety & Compliance",
    "label": "Safety functions",
+   "unit": "",
+   "robots": 2
+  },
+  {
+   "key": "safety_notes",
+   "group": "Safety & Compliance",
+   "label": "Safety note",
    "unit": "",
    "robots": 2
   },
@@ -4192,13 +4374,6 @@
    "key": "adaptive_fieldsets",
    "group": "Safety & Compliance",
    "label": "Adaptive fieldsets",
-   "unit": "",
-   "robots": 1
-  },
-  {
-   "key": "braking",
-   "group": "Safety & Compliance",
-   "label": "Braking",
    "unit": "",
    "robots": 1
   },
@@ -4308,6 +4483,13 @@
    "robots": 1
   },
   {
+   "key": "fall_protection",
+   "group": "Safety & Compliance",
+   "label": "Fall protection",
+   "unit": "",
+   "robots": 1
+  },
+  {
    "key": "fall_severity_elevation_threshold",
    "group": "Safety & Compliance",
    "label": "Fall severity elevation threshold",
@@ -4325,6 +4507,13 @@
    "key": "exposure_assumption",
    "group": "Safety & Compliance",
    "label": "Foreseeable hazardous exposure duration",
+   "unit": "",
+   "robots": 1
+  },
+  {
+   "key": "hazardous_substances",
+   "group": "Safety & Compliance",
+   "label": "Hazardous substances disclosure",
    "unit": "",
    "robots": 1
   },
@@ -4371,13 +4560,6 @@
    "robots": 1
   },
   {
-   "key": "powerless_leg_behavior",
-   "group": "Safety & Compliance",
-   "label": "Leg state after de-energization",
-   "unit": "",
-   "robots": 1
-  },
-  {
    "key": "low_occurrence_exposure_limit",
    "group": "Safety & Compliance",
    "label": "Low-occurrence condition exposure limit",
@@ -4396,13 +4578,6 @@
    "group": "Safety & Compliance",
    "label": "Max response time of stopping function",
    "unit": "ms",
-   "robots": 1
-  },
-  {
-   "key": "min_safe_distance",
-   "group": "Safety & Compliance",
-   "label": "Minimum safe distance",
-   "unit": "m",
    "robots": 1
   },
   {
@@ -4546,13 +4721,6 @@
    "robots": 1
   },
   {
-   "key": "safety_notes",
-   "group": "Safety & Compliance",
-   "label": "Safety note",
-   "unit": "",
-   "robots": 1
-  },
-  {
    "key": "safety_stop_category",
    "group": "Safety & Compliance",
    "label": "Safety-related stop category",
@@ -4560,9 +4728,9 @@
    "robots": 1
   },
   {
-   "key": "fall_recovery",
+   "key": "user_age_restriction",
    "group": "Safety & Compliance",
-   "label": "Self-righting",
+   "label": "User age",
    "unit": "",
    "robots": 1
   },
@@ -4578,63 +4746,63 @@
    "group": "Sensors & Perception",
    "label": "Camera",
    "unit": "",
-   "robots": 29
+   "robots": 30
   },
   {
    "key": "lidar_type",
    "group": "Sensors & Perception",
    "label": "3D LiDAR",
    "unit": "",
-   "robots": 24
+   "robots": 26
   },
   {
    "key": "microphones",
    "group": "Sensors & Perception",
    "label": "Microphones",
    "unit": "",
-   "robots": 20
+   "robots": 22
   },
   {
    "key": "depth_camera_count",
    "group": "Sensors & Perception",
    "label": "RGB-D camera",
    "unit": "",
-   "robots": 17
+   "robots": 20
   },
   {
    "key": "imu",
    "group": "Sensors & Perception",
    "label": "IMUs",
    "unit": "",
-   "robots": 14
+   "robots": 17
   },
   {
    "key": "gps",
    "group": "Sensors & Perception",
    "label": "Localisation",
    "unit": "",
-   "robots": 13
+   "robots": 15
   },
   {
    "key": "camera_count",
    "group": "Sensors & Perception",
    "label": "Tele-operation cameras",
    "unit": "",
-   "robots": 13
+   "robots": 15
   },
   {
    "key": "lidar_fov",
    "group": "Sensors & Perception",
    "label": "LiDAR field of view",
    "unit": "°",
-   "robots": 12
+   "robots": 14
   },
   {
    "key": "lidar_range",
    "group": "Sensors & Perception",
    "label": "LiDAR range",
    "unit": "m",
-   "robots": 10
+   "robots": 12
   },
   {
    "key": "safety_scanner",
@@ -4644,32 +4812,67 @@
    "robots": 9
   },
   {
-   "key": "depth_camera_type",
-   "group": "Sensors & Perception",
-   "label": "3D depth sensor",
-   "unit": "",
-   "robots": 6
-  },
-  {
-   "key": "ultrasonic_sensors",
-   "group": "Sensors & Perception",
-   "label": "Ultrasonic sensors",
-   "unit": "",
-   "robots": 6
-  },
-  {
    "key": "depth_camera_model",
    "group": "Sensors & Perception",
    "label": "Camera",
    "unit": "",
-   "robots": 5
+   "robots": 8
+  },
+  {
+   "key": "lidar_model",
+   "group": "Sensors & Perception",
+   "label": "LiDAR",
+   "unit": "",
+   "robots": 8
+  },
+  {
+   "key": "depth_camera_type",
+   "group": "Sensors & Perception",
+   "label": "3D depth sensor",
+   "unit": "",
+   "robots": 7
   },
   {
    "key": "depth_camera_fov",
    "group": "Sensors & Perception",
    "label": "Depth camera FOV",
    "unit": "°",
-   "robots": 5
+   "robots": 7
+  },
+  {
+   "key": "lidar_count",
+   "group": "Sensors & Perception",
+   "label": "Laser radar",
+   "unit": "",
+   "robots": 7
+  },
+  {
+   "key": "camera_fov",
+   "group": "Sensors & Perception",
+   "label": "Tele-operation camera FOV",
+   "unit": "°",
+   "robots": 7
+  },
+  {
+   "key": "ultrasonic_sensors",
+   "group": "Sensors & Perception",
+   "label": "Ultrasonic sensors",
+   "unit": "",
+   "robots": 7
+  },
+  {
+   "key": "wheel_encoders",
+   "group": "Sensors & Perception",
+   "label": "Internal sensing",
+   "unit": "",
+   "robots": 6
+  },
+  {
+   "key": "thermal_camera",
+   "group": "Sensors & Perception",
+   "label": "Thermal camera",
+   "unit": "",
+   "robots": 6
   },
   {
    "key": "depth_camera_range",
@@ -4679,37 +4882,16 @@
    "robots": 5
   },
   {
-   "key": "wheel_encoders",
+   "key": "camera_resolution",
    "group": "Sensors & Perception",
-   "label": "Internal sensing",
-   "unit": "",
+   "label": "Tele-operation camera resolution",
+   "unit": "px",
    "robots": 5
   },
   {
-   "key": "lidar_count",
+   "key": "tof_sensor",
    "group": "Sensors & Perception",
-   "label": "Laser radar",
-   "unit": "",
-   "robots": 5
-  },
-  {
-   "key": "lidar_model",
-   "group": "Sensors & Perception",
-   "label": "LiDAR",
-   "unit": "",
-   "robots": 5
-  },
-  {
-   "key": "camera_fov",
-   "group": "Sensors & Perception",
-   "label": "Tele-operation camera FOV",
-   "unit": "°",
-   "robots": 5
-  },
-  {
-   "key": "thermal_camera",
-   "group": "Sensors & Perception",
-   "label": "Thermal camera",
+   "label": "ToF sensor",
    "unit": "",
    "robots": 5
   },
@@ -4724,13 +4906,6 @@
    "key": "tactile_sensors",
    "group": "Sensors & Perception",
    "label": "Tactile sensing",
-   "unit": "",
-   "robots": 4
-  },
-  {
-   "key": "tof_sensor",
-   "group": "Sensors & Perception",
-   "label": "ToF sensor",
    "unit": "",
    "robots": 4
   },
@@ -4756,6 +4931,13 @@
    "robots": 3
   },
   {
+   "key": "lidar_point_rate",
+   "group": "Sensors & Perception",
+   "label": "LiDAR point rate",
+   "unit": "points/s",
+   "robots": 3
+  },
+  {
    "key": "undetectable_materials",
    "group": "Sensors & Perception",
    "label": "Materials not reliably detected",
@@ -4763,16 +4945,37 @@
    "robots": 3
   },
   {
-   "key": "camera_resolution",
+   "key": "sensor_fusion",
    "group": "Sensors & Perception",
-   "label": "Tele-operation camera resolution",
-   "unit": "px",
+   "label": "Safety sensors",
+   "unit": "",
+   "robots": 3
+  },
+  {
+   "key": "touch_sensor",
+   "group": "Sensors & Perception",
+   "label": "Touch sensor",
+   "unit": "",
+   "robots": 3
+  },
+  {
+   "key": "zoom_camera_optical_zoom",
+   "group": "Sensors & Perception",
+   "label": "Zoom camera optical zoom",
+   "unit": "",
    "robots": 3
   },
   {
    "key": "calibration",
    "group": "Sensors & Perception",
    "label": "Calibration",
+   "unit": "",
+   "robots": 2
+  },
+  {
+   "key": "camera_interface",
+   "group": "Sensors & Perception",
+   "label": "Camera interface",
    "unit": "",
    "robots": 2
   },
@@ -4784,16 +4987,23 @@
    "robots": 2
   },
   {
-   "key": "lidar_point_rate",
+   "key": "lidar_mounting",
    "group": "Sensors & Perception",
-   "label": "LiDAR point rate",
-   "unit": "points/s",
+   "label": "LiDAR positions (body frame)",
+   "unit": "",
    "robots": 2
   },
   {
    "key": "min_detectable_object",
    "group": "Sensors & Perception",
    "label": "Obstacle detection",
+   "unit": "",
+   "robots": 2
+  },
+  {
+   "key": "pallet_detection",
+   "group": "Sensors & Perception",
+   "label": "Pallet detection",
    "unit": "",
    "robots": 2
   },
@@ -4812,16 +5022,23 @@
    "robots": 2
   },
   {
-   "key": "touch_sensor",
+   "key": "thermal_measurement_range",
    "group": "Sensors & Perception",
-   "label": "Touch sensor",
+   "label": "Thermal measurement range",
+   "unit": "°C",
+   "robots": 2
+  },
+  {
+   "key": "camera_frame_rate",
+   "group": "Sensors & Perception",
+   "label": "Zoom camera max frame rate",
    "unit": "",
    "robots": 2
   },
   {
-   "key": "zoom_camera_optical_zoom",
+   "key": "zoom_camera_resolution",
    "group": "Sensors & Perception",
-   "label": "Zoom camera optical zoom",
+   "label": "Zoom camera resolution",
    "unit": "",
    "robots": 2
   },
@@ -4830,6 +5047,20 @@
    "group": "Sensors & Perception",
    "label": "6-axis force sensors",
    "unit": "",
+   "robots": 1
+  },
+  {
+   "key": "imu_accel_bias",
+   "group": "Sensors & Perception",
+   "label": "Accelerometer in-run bias",
+   "unit": "mg",
+   "robots": 1
+  },
+  {
+   "key": "imu_accel_range",
+   "group": "Sensors & Perception",
+   "label": "Accelerometer range",
+   "unit": "g",
    "robots": 1
   },
   {
@@ -4844,13 +5075,6 @@
    "group": "Sensors & Perception",
    "label": "Air Blade",
    "unit": "",
-   "robots": 1
-  },
-  {
-   "key": "camera_frame_rate",
-   "group": "Sensors & Perception",
-   "label": "Binocular camera frame rate",
-   "unit": "fps",
    "robots": 1
   },
   {
@@ -4886,13 +5110,6 @@
    "group": "Sensors & Perception",
    "label": "Camera focal length",
    "unit": "mm",
-   "robots": 1
-  },
-  {
-   "key": "camera_interface",
-   "group": "Sensors & Perception",
-   "label": "Camera interface",
-   "unit": "",
    "robots": 1
   },
   {
@@ -4938,6 +5155,13 @@
    "robots": 1
   },
   {
+   "key": "state_estimator_rate",
+   "group": "Sensors & Perception",
+   "label": "Extended Kalman filter update rate",
+   "unit": "Hz",
+   "robots": 1
+  },
+  {
    "key": "fiducial_id_ranges",
    "group": "Sensors & Perception",
    "label": "Fiducial ID ranges",
@@ -4959,16 +5183,30 @@
    "robots": 1
   },
   {
-   "key": "joint_sensors",
+   "key": "imu_gyro_bias",
    "group": "Sensors & Perception",
-   "label": "Joint sensors",
-   "unit": "",
+   "label": "Gyroscope in-run bias",
+   "unit": "°/hr",
    "robots": 1
   },
   {
-   "key": "lidar_mounting",
+   "key": "imu_gyro_range",
    "group": "Sensors & Perception",
-   "label": "LiDAR positions (body frame)",
+   "label": "Gyroscope range",
+   "unit": "°/s",
+   "robots": 1
+  },
+  {
+   "key": "imu_rate",
+   "group": "Sensors & Perception",
+   "label": "IMU data update rate",
+   "unit": "Hz",
+   "robots": 1
+  },
+  {
+   "key": "joint_sensors",
+   "group": "Sensors & Perception",
+   "label": "Joint sensors",
    "unit": "",
    "robots": 1
   },
@@ -5008,13 +5246,6 @@
    "robots": 1
   },
   {
-   "key": "sensor_fusion",
-   "group": "Sensors & Perception",
-   "label": "Obstacle detection",
-   "unit": "",
-   "robots": 1
-  },
-  {
    "key": "ai_accelerator",
    "group": "Sensors & Perception",
    "label": "On-camera AI processor",
@@ -5025,13 +5256,6 @@
    "key": "optical_odometry",
    "group": "Sensors & Perception",
    "label": "Optical floor odometry sensor",
-   "unit": "",
-   "robots": 1
-  },
-  {
-   "key": "pallet_detection",
-   "group": "Sensors & Perception",
-   "label": "Pallet detection",
    "unit": "",
    "robots": 1
   },
@@ -5050,9 +5274,37 @@
    "robots": 1
   },
   {
+   "key": "zoom_camera_model",
+   "group": "Sensors & Perception",
+   "label": "PTZ zoom camera",
+   "unit": "",
+   "robots": 1
+  },
+  {
+   "key": "barcode_scanner",
+   "group": "Sensors & Perception",
+   "label": "Scanner",
+   "unit": "",
+   "robots": 1
+  },
+  {
+   "key": "sensor_count",
+   "group": "Sensors & Perception",
+   "label": "Sensor count",
+   "unit": "",
+   "robots": 1
+  },
+  {
    "key": "sensor_fov",
    "group": "Sensors & Perception",
    "label": "Sensor coverage",
+   "unit": "",
+   "robots": 1
+  },
+  {
+   "key": "sensor_list",
+   "group": "Sensors & Perception",
+   "label": "Sensors",
    "unit": "",
    "robots": 1
   },
@@ -5092,16 +5344,30 @@
    "robots": 1
   },
   {
-   "key": "thermal_measurement_range",
+   "key": "thermal_camera_fov",
    "group": "Sensors & Perception",
-   "label": "Thermal measurement range",
-   "unit": "°C",
+   "label": "Thermal camera FOV",
+   "unit": "°",
+   "robots": 1
+  },
+  {
+   "key": "thermal_camera_resolution",
+   "group": "Sensors & Perception",
+   "label": "Thermal camera resolution",
+   "unit": "",
    "robots": 1
   },
   {
    "key": "top_down_view",
    "group": "Sensors & Perception",
    "label": "Top-down view",
+   "unit": "",
+   "robots": 1
+  },
+  {
+   "key": "uwb",
+   "group": "Sensors & Perception",
+   "label": "UWB",
    "unit": "",
    "robots": 1
   },
@@ -5113,9 +5379,9 @@
    "robots": 1
   },
   {
-   "key": "zoom_camera_resolution",
+   "key": "zoom_camera_fov",
    "group": "Sensors & Perception",
-   "label": "Zoom camera resolution",
+   "label": "Zoom camera FOV",
    "unit": "",
    "robots": 1
   },
@@ -5124,19 +5390,26 @@
    "group": "Terrain & Navigation Limits",
    "label": "Ramp climbing",
    "unit": "°",
-   "robots": 41
+   "robots": 43
   },
   {
    "key": "max_obstacle_height",
    "group": "Terrain & Navigation Limits",
    "label": "Max obstacle crossing",
    "unit": "mm",
-   "robots": 28
+   "robots": 29
   },
   {
    "key": "navigation_method",
    "group": "Terrain & Navigation Limits",
    "label": "Navigation",
+   "unit": "",
+   "robots": 21
+  },
+  {
+   "key": "surface_types",
+   "group": "Terrain & Navigation Limits",
+   "label": "Operating surface",
    "unit": "",
    "robots": 17
   },
@@ -5145,7 +5418,7 @@
    "group": "Terrain & Navigation Limits",
    "label": "Suspension",
    "unit": "",
-   "robots": 16
+   "robots": 17
   },
   {
    "key": "max_gap_crossing",
@@ -5162,10 +5435,10 @@
    "robots": 15
   },
   {
-   "key": "surface_types",
+   "key": "max_stair_step_height",
    "group": "Terrain & Navigation Limits",
-   "label": "Operating surface",
-   "unit": "",
+   "label": "Maximum stair rise",
+   "unit": "mm",
    "robots": 14
   },
   {
@@ -5176,11 +5449,11 @@
    "robots": 14
   },
   {
-   "key": "max_stair_step_height",
+   "key": "mapping",
    "group": "Terrain & Navigation Limits",
-   "label": "Maximum stair rise",
-   "unit": "mm",
-   "robots": 13
+   "label": "Deployment / mapping",
+   "unit": "",
+   "robots": 12
   },
   {
    "key": "floor_flatness_requirement",
@@ -5190,17 +5463,17 @@
    "robots": 12
   },
   {
-   "key": "mapping",
-   "group": "Terrain & Navigation Limits",
-   "label": "Deployment / mapping",
-   "unit": "",
-   "robots": 11
-  },
-  {
    "key": "corridor_width_two_robots_passing",
    "group": "Terrain & Navigation Limits",
    "label": "Corridor width for two robots passing",
    "unit": "m",
+   "robots": 5
+  },
+  {
+   "key": "localization_method",
+   "group": "Terrain & Navigation Limits",
+   "label": "Localization",
+   "unit": "",
    "robots": 5
   },
   {
@@ -5232,13 +5505,6 @@
    "robots": 3
   },
   {
-   "key": "localization_method",
-   "group": "Terrain & Navigation Limits",
-   "label": "Localization",
-   "unit": "",
-   "robots": 3
-  },
-  {
    "key": "min_doorway_width",
    "group": "Terrain & Navigation Limits",
    "label": "Operational doorway width",
@@ -5267,6 +5533,13 @@
    "robots": 3
   },
   {
+   "key": "max_side_slope",
+   "group": "Terrain & Navigation Limits",
+   "label": "Allowable side slope",
+   "unit": "°",
+   "robots": 2
+  },
+  {
    "key": "marker_space_requirements",
    "group": "Terrain & Navigation Limits",
    "label": "Marker space requirements",
@@ -5288,18 +5561,18 @@
    "robots": 2
   },
   {
+   "key": "stair_climbing",
+   "group": "Terrain & Navigation Limits",
+   "label": "Stair climbing",
+   "unit": "",
+   "robots": 2
+  },
+  {
    "key": "stair_types",
    "group": "Terrain & Navigation Limits",
    "label": "Stair types",
    "unit": "",
    "robots": 2
-  },
-  {
-   "key": "max_side_slope",
-   "group": "Terrain & Navigation Limits",
-   "label": "Allowable side slope",
-   "unit": "°",
-   "robots": 1
   },
   {
    "key": "floor_conductivity_requirement",
@@ -5435,13 +5708,6 @@
    "robots": 1
   },
   {
-   "key": "stair_climbing",
-   "group": "Terrain & Navigation Limits",
-   "label": "Stair climbing",
-   "unit": "",
-   "robots": 1
-  },
-  {
    "key": "stair_geometry_requirement",
    "group": "Terrain & Navigation Limits",
    "label": "Stair direction of travel",
@@ -5477,6 +5743,13 @@
    "robots": 1
   },
   {
+   "key": "shipping_case_dimensions",
+   "group": "Transport & Storage",
+   "label": "Robot shipping case dimensions (L x W x H)",
+   "unit": "mm",
+   "robots": 4
+  },
+  {
    "key": "auto_scaling_strap",
    "group": "Transport & Storage",
    "label": "Auto-scaling strap",
@@ -5484,10 +5757,10 @@
    "robots": 3
   },
   {
-   "key": "shipping_case_dimensions",
+   "key": "storage_conditions",
    "group": "Transport & Storage",
-   "label": "Robot shipping case dimensions (L x W x H)",
-   "unit": "mm",
+   "label": "Robot storage conditions",
+   "unit": "",
    "robots": 3
   },
   {
@@ -5505,10 +5778,17 @@
    "robots": 2
   },
   {
-   "key": "storage_conditions",
+   "key": "lift_persons",
    "group": "Transport & Storage",
-   "label": "Robot storage conditions",
+   "label": "People required to lift",
    "unit": "",
+   "robots": 2
+  },
+  {
+   "key": "shipping_case_weight",
+   "group": "Transport & Storage",
+   "label": "Robot shipping case empty weight",
+   "unit": "kg",
    "robots": 2
   },
   {
@@ -5516,6 +5796,20 @@
    "group": "Transport & Storage",
    "label": "Robot storage relative humidity",
    "unit": "%",
+   "robots": 2
+  },
+  {
+   "key": "handles",
+   "group": "Transport & Storage",
+   "label": "Safety handles",
+   "unit": "",
+   "robots": 2
+  },
+  {
+   "key": "serviceability",
+   "group": "Transport & Storage",
+   "label": "Serviceability",
+   "unit": "",
    "robots": 2
   },
   {
@@ -5547,13 +5841,6 @@
    "robots": 1
   },
   {
-   "key": "handles",
-   "group": "Transport & Storage",
-   "label": "Carry handles",
-   "unit": "",
-   "robots": 1
-  },
-  {
    "key": "limb_replacement_time",
    "group": "Transport & Storage",
    "label": "Field limb replacement",
@@ -5564,20 +5851,6 @@
    "key": "handling_ppe",
    "group": "Transport & Storage",
    "label": "Handling PPE",
-   "unit": "",
-   "robots": 1
-  },
-  {
-   "key": "battery_shipping_soc",
-   "group": "Transport & Storage",
-   "label": "Max battery state of charge for shipping",
-   "unit": "%",
-   "robots": 1
-  },
-  {
-   "key": "lift_persons",
-   "group": "Transport & Storage",
-   "label": "People required to lift",
    "unit": "",
    "robots": 1
   },
@@ -5593,27 +5866,6 @@
    "group": "Transport & Storage",
    "label": "Power Supply shipping case empty weight",
    "unit": "kg",
-   "robots": 1
-  },
-  {
-   "key": "shipping_case_weight",
-   "group": "Transport & Storage",
-   "label": "Robot shipping case empty weight",
-   "unit": "kg",
-   "robots": 1
-  },
-  {
-   "key": "carry_handles",
-   "group": "Transport & Storage",
-   "label": "Safety handles",
-   "unit": "",
-   "robots": 1
-  },
-  {
-   "key": "serviceability",
-   "group": "Transport & Storage",
-   "label": "Serviceability",
-   "unit": "",
    "robots": 1
   }
  ]

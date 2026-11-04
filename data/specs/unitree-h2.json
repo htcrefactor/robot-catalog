@@ -1,789 +1,789 @@
 {
-  "id": "unitree-h2",
-  "checked": "2026-11-04",
-  "documents": [
-    {
-      "title": "Unitree H2 product page – H2 Parameter table",
-      "url": "https://www.unitree.com/H2"
-    },
-    {
-      "title": "Unitree H2 SDK Development Guide – About H2 (updated 2026-09-03)",
-      "url": "https://support.unitree.com/home/en/H2_developer/About_H2"
-    }
-  ],
-  "specs": [
-    {
-      "group": "Identity",
-      "key": "variants",
-      "label": "Variants",
-      "value": "H2; H2 EDU; H2plus (camera table)",
-      "unit": "",
-      "note": "",
-      "source": "https://www.unitree.com/H2"
-    },
-    {
-      "group": "Dimensions & Mass",
-      "key": "height_standing",
-      "label": "Height (standing)",
-      "value": 1820,
-      "unit": "mm",
-      "note": "H x W x T 1820 x 456 x 218 mm",
-      "source": "https://www.unitree.com/H2"
-    },
-    {
-      "group": "Dimensions & Mass",
-      "key": "width",
-      "label": "Width",
-      "value": 456,
-      "unit": "mm",
-      "note": "",
-      "source": "https://www.unitree.com/H2"
-    },
-    {
-      "group": "Dimensions & Mass",
-      "key": "length",
-      "label": "Thickness",
-      "value": 218,
-      "unit": "mm",
-      "note": "",
-      "source": "https://www.unitree.com/H2"
-    },
-    {
-      "group": "Dimensions & Mass",
-      "key": "weight_with_battery",
-      "label": "Weight (with battery)",
-      "value": 70,
-      "unit": "kg",
-      "note": "about 70 kg",
-      "source": "https://www.unitree.com/H2"
-    },
-    {
-      "group": "Dimensions & Mass",
-      "key": "leg_length",
-      "label": "Calf + thigh length",
-      "value": 1045,
-      "unit": "mm",
-      "note": "",
-      "source": "https://www.unitree.com/H2"
-    },
-    {
-      "group": "Dimensions & Mass",
-      "key": "arm_length",
-      "label": "Forearm + upper arm length",
-      "value": 690,
-      "unit": "mm",
-      "note": "",
-      "source": "https://www.unitree.com/H2"
-    },
-    {
-      "group": "Dimensions & Mass",
-      "key": "structural_material",
-      "label": "Construction materials",
-      "value": "Aircraft-grade aluminium + titanium alloy + high-strength engineering plastics",
-      "unit": "",
-      "note": "",
-      "source": "https://www.unitree.com/H2"
-    },
-    {
-      "group": "Mobility & Performance",
-      "key": "degrees_of_freedom",
-      "label": "Total degrees of freedom",
-      "value": 31,
-      "unit": "",
-      "note": "31 joint motors",
-      "source": "https://www.unitree.com/H2"
-    },
-    {
-      "group": "Actuation & Joints",
-      "key": "dof_per_leg",
-      "label": "DoF per leg",
-      "value": 6,
-      "unit": "",
-      "note": "hip 3, knee 1, ankle 2",
-      "source": "https://support.unitree.com/home/en/H2_developer/About_H2"
-    },
-    {
-      "group": "Actuation & Joints",
-      "key": "dof_per_arm",
-      "label": "DoF per arm",
-      "value": 7,
-      "unit": "",
-      "note": "shoulder 3, elbow 2, wrist 2",
-      "source": "https://support.unitree.com/home/en/H2_developer/About_H2"
-    },
-    {
-      "group": "Actuation & Joints",
-      "key": "dof_waist",
-      "label": "Waist DoF",
-      "value": 3,
-      "unit": "",
-      "note": "",
-      "source": "https://www.unitree.com/H2"
-    },
-    {
-      "group": "Actuation & Joints",
-      "key": "dof_head",
-      "label": "Head DoF",
-      "value": 2,
-      "unit": "",
-      "note": "",
-      "source": "https://www.unitree.com/H2"
-    },
-    {
-      "group": "Manipulation",
-      "key": "gripper_type",
-      "label": "Dexterous hand",
-      "value": "Multiple model options (H2 EDU)",
-      "unit": "",
-      "note": "H2 base: none",
-      "source": "https://www.unitree.com/H2"
-    },
-    {
-      "group": "Audio, Lights & HMI",
-      "key": "display",
-      "label": "Bionic head with facial features",
-      "value": true,
-      "unit": "",
-      "note": "",
-      "source": "https://www.unitree.com/H2"
-    },
-    {
-      "group": "Actuation & Joints",
-      "key": "joint_bearing_type",
-      "label": "Joint output bearing",
-      "value": "Industrial-grade crossed roller bearings",
-      "unit": "",
-      "note": "",
-      "source": "https://www.unitree.com/H2"
-    },
-    {
-      "group": "Actuation & Joints",
-      "key": "actuator_type",
-      "label": "Joint motor",
-      "value": "Low-inertia high-speed internal-rotor PMSM",
-      "unit": "",
-      "note": "",
-      "source": "https://www.unitree.com/H2"
-    },
-    {
-      "group": "Actuation & Joints",
-      "key": "max_joint_torque",
-      "label": "Max arm joint torque",
-      "value": 120,
-      "unit": "N·m",
-      "note": "",
-      "source": "https://www.unitree.com/H2"
-    },
-    {
-      "group": "Actuation & Joints",
-      "key": "max_joint_torque",
-      "label": "Max leg joint torque",
-      "value": 360,
-      "unit": "N·m",
-      "note": "",
-      "source": "https://www.unitree.com/H2"
-    },
-    {
-      "group": "Manipulation",
-      "key": "arm_payload",
-      "label": "Arm payload (rated)",
-      "value": 7,
-      "unit": "kg",
-      "note": "~7 kg rated; peak ~15 kg",
-      "source": "https://www.unitree.com/H2"
-    },
-    {
-      "group": "Manipulation",
-      "key": "arm_payload_peak",
-      "label": "Arm payload (peak)",
-      "value": 15,
-      "unit": "kg",
-      "note": "~15 kg",
-      "source": "https://www.unitree.com/H2"
-    },
-    {
-      "group": "Actuation & Joints",
-      "key": "cooling_system",
-      "label": "Cooling system",
-      "value": "Local air cooling",
-      "unit": "",
-      "note": "",
-      "source": "https://www.unitree.com/H2"
-    },
-    {
-      "group": "Power & Battery",
-      "key": "battery_chemistry",
-      "label": "Power supply",
-      "value": "Lithium battery with low internal resistance",
-      "unit": "",
-      "note": "",
-      "source": "https://www.unitree.com/H2"
-    },
-    {
-      "group": "Power & Battery",
-      "key": "battery_capacity",
-      "label": "Battery capacity",
-      "value": 972,
-      "unit": "Wh",
-      "note": "15 Ah (0.972 kWh)",
-      "source": "https://www.unitree.com/H2"
-    },
-    {
-      "group": "Power & Battery",
-      "key": "battery_voltage_max",
-      "label": "Battery max voltage",
-      "value": 75.6,
-      "unit": "V",
-      "note": "",
-      "source": "https://www.unitree.com/H2"
-    },
-    {
-      "group": "Power & Battery",
-      "key": "battery_swappable",
-      "label": "Smart battery (quick release)",
-      "value": true,
-      "unit": "",
-      "note": "",
-      "source": "https://www.unitree.com/H2"
-    },
-    {
-      "group": "Power & Battery",
-      "key": "runtime",
-      "label": "Battery life",
-      "value": 3,
-      "unit": "h",
-      "note": "about 3 h",
-      "source": "https://www.unitree.com/H2"
-    },
-    {
-      "group": "Compute & Software",
-      "key": "cpu",
-      "label": "Motion control unit (PC1)",
-      "value": "Intel Core i5, 10 cores / 12 threads, 4.40 GHz, 8 GB LPDDR5",
-      "unit": "",
-      "note": "platform capabilities; not externally accessible",
-      "source": "https://support.unitree.com/home/en/H2_developer/About_H2"
-    },
-    {
-      "group": "Compute & Software",
-      "key": "cpu",
-      "label": "Development unit (PC2)",
-      "value": "Intel Core i7, 10 cores / 12 threads, 4.70 / 4.80 GHz",
-      "unit": "",
-      "note": "H2 EDU custom development",
-      "source": "https://support.unitree.com/home/en/H2_developer/About_H2"
-    },
-    {
-      "group": "Compute & Software",
-      "key": "ram",
-      "label": "PC2 memory",
-      "value": "16 / 32",
-      "unit": "GB",
-      "note": "LPDDR5 5200 MT/s dual-channel",
-      "source": "https://support.unitree.com/home/en/H2_developer/About_H2"
-    },
-    {
-      "group": "Compute & Software",
-      "key": "storage",
-      "label": "PC1/PC2 storage",
-      "value": "500 GB or above",
-      "unit": "",
-      "note": "",
-      "source": "https://support.unitree.com/home/en/H2_developer/About_H2"
-    },
-    {
-      "group": "Compute & Software",
-      "key": "gpu",
-      "label": "PC1/PC2 GPU",
-      "value": "Intel Iris Xe Graphics, max 1.20 GHz",
-      "unit": "",
-      "note": "",
-      "source": "https://support.unitree.com/home/en/H2_developer/About_H2"
-    },
-    {
-      "group": "Compute & Software",
-      "key": "optional_compute",
-      "label": "Optional development unit PC3",
-      "value": "NVIDIA Jetson Thor (T5000)",
-      "unit": "",
-      "note": "optional",
-      "source": "https://support.unitree.com/home/en/H2_developer/About_H2"
-    },
-    {
-      "group": "Compute & Software",
-      "key": "ai_performance_tops",
-      "label": "PC3 AI performance",
-      "value": 2070,
-      "unit": "TFLOPS (FP4 sparse)",
-      "note": "optional Jetson Thor",
-      "source": "https://support.unitree.com/home/en/H2_developer/About_H2"
-    },
-    {
-      "group": "Compute & Software",
-      "key": "gpu",
-      "label": "PC3 GPU",
-      "value": "2560-core NVIDIA Blackwell, 5th-gen Tensor Cores, 1.57 GHz",
-      "unit": "",
-      "note": "optional",
-      "source": "https://support.unitree.com/home/en/H2_developer/About_H2"
-    },
-    {
-      "group": "Compute & Software",
-      "key": "cpu",
-      "label": "PC3 CPU",
-      "value": "14-core Arm Neoverse-V3AE, 2.6 GHz",
-      "unit": "",
-      "note": "optional",
-      "source": "https://support.unitree.com/home/en/H2_developer/About_H2"
-    },
-    {
-      "group": "Compute & Software",
-      "key": "ram",
-      "label": "PC3 memory",
-      "value": 128,
-      "unit": "GB",
-      "note": "256-bit LPDDR5X, 273 GB/s",
-      "source": "https://support.unitree.com/home/en/H2_developer/About_H2"
-    },
-    {
-      "group": "Compute & Software",
-      "key": "compute_power_consumption",
-      "label": "PC3 power",
-      "value": "40-130",
-      "unit": "W",
-      "note": "",
-      "source": "https://support.unitree.com/home/en/H2_developer/About_H2"
-    },
-    {
-      "group": "Compute & Software",
-      "key": "optional_compute",
-      "label": "Optional development unit PC4",
-      "value": "NVIDIA Jetson Orin NX 16GB",
-      "unit": "",
-      "note": "optional",
-      "source": "https://support.unitree.com/home/en/H2_developer/About_H2"
-    },
-    {
-      "group": "Compute & Software",
-      "key": "ai_performance_tops",
-      "label": "PC4 AI performance",
-      "value": 100,
-      "unit": "TOPS",
-      "note": "optional Jetson Orin NX",
-      "source": "https://support.unitree.com/home/en/H2_developer/About_H2"
-    },
-    {
-      "group": "Compute & Software",
-      "key": "gpu",
-      "label": "PC4 GPU",
-      "value": "1024-core NVIDIA Ampere, 32 Tensor Cores, 918 MHz",
-      "unit": "",
-      "note": "",
-      "source": "https://support.unitree.com/home/en/H2_developer/About_H2"
-    },
-    {
-      "group": "Compute & Software",
-      "key": "cpu",
-      "label": "PC4 CPU",
-      "value": "8-core Arm Cortex-A78AE v8.2, 2 GHz",
-      "unit": "",
-      "note": "",
-      "source": "https://support.unitree.com/home/en/H2_developer/About_H2"
-    },
-    {
-      "group": "Compute & Software",
-      "key": "ram",
-      "label": "PC4 memory",
-      "value": 16,
-      "unit": "GB",
-      "note": "128-bit LPDDR5, 102.4 GB/s",
-      "source": "https://support.unitree.com/home/en/H2_developer/About_H2"
-    },
-    {
-      "group": "Compute & Software",
-      "key": "storage",
-      "label": "PC3/PC4 storage",
-      "value": 2,
-      "unit": "TB",
-      "note": "NVMe",
-      "source": "https://support.unitree.com/home/en/H2_developer/About_H2"
-    },
-    {
-      "group": "Compute & Software",
-      "key": "compute_power_consumption",
-      "label": "PC4 power",
-      "value": "10-25",
-      "unit": "W",
-      "note": "",
-      "source": "https://support.unitree.com/home/en/H2_developer/About_H2"
-    },
-    {
-      "group": "Compute & Software",
-      "key": "video_encode",
-      "label": "PC3/PC4 video encode",
-      "value": "1x 4K60, 3x 4K30, 6x 1080p60, 12x 1080p30 (H.265)",
-      "unit": "",
-      "note": "",
-      "source": "https://support.unitree.com/home/en/H2_developer/About_H2"
-    },
-    {
-      "group": "Compute & Software",
-      "key": "video_decode",
-      "label": "PC3/PC4 video decode",
-      "value": "1x 8K30, 2x 4K60, 4x 4K30, 9x 1080p60, 18x 1080p30 (H.265)",
-      "unit": "",
-      "note": "",
-      "source": "https://support.unitree.com/home/en/H2_developer/About_H2"
-    },
-    {
-      "group": "Compute & Software",
-      "key": "ai_performance_tops",
-      "label": "Headline compute",
-      "value": 2070,
-      "unit": "TOPS",
-      "note": "product page: 'powered by a 2070 TOPS chip' (optional Thor module)",
-      "source": "https://www.unitree.com/H2"
-    },
-    {
-      "group": "Connectivity & Interfaces",
-      "key": "default_ip_address",
-      "label": "Development computer IPs",
-      "value": "PC2 192.168.123.162 / 192.168.124.162; PC3 .163; PC4 .164",
-      "unit": "",
-      "note": "",
-      "source": "https://support.unitree.com/home/en/H2_developer/About_H2"
-    },
-    {
-      "group": "Sensors & Perception",
-      "key": "camera_type",
-      "label": "Head camera",
-      "value": "Humanoid binocular camera with wide field of view",
-      "unit": "",
-      "note": "",
-      "source": "https://www.unitree.com/H2"
-    },
-    {
-      "group": "Sensors & Perception",
-      "key": "camera_count",
-      "label": "Binocular camera sensors",
-      "value": 2,
-      "unit": "",
-      "note": "2 RGB sensors",
-      "source": "https://support.unitree.com/home/en/H2_developer/About_H2"
-    },
-    {
-      "group": "Sensors & Perception",
-      "key": "camera_resolution",
-      "label": "Binocular camera resolution",
-      "value": "2064 x 1552",
-      "unit": "px",
-      "note": "H2 / H2 EDU; H2plus 2560 x 1984",
-      "source": "https://support.unitree.com/home/en/H2_developer/About_H2"
-    },
-    {
-      "group": "Sensors & Perception",
-      "key": "camera_frame_rate",
-      "label": "Binocular camera frame rate",
-      "value": 30,
-      "unit": "fps",
-      "note": "",
-      "source": "https://support.unitree.com/home/en/H2_developer/About_H2"
-    },
-    {
-      "group": "Sensors & Perception",
-      "key": "camera_shutter",
-      "label": "Camera shutter",
-      "value": "Global shutter",
-      "unit": "",
-      "note": "",
-      "source": "https://support.unitree.com/home/en/H2_developer/About_H2"
-    },
-    {
-      "group": "Sensors & Perception",
-      "key": "camera_output_format",
-      "label": "Camera output data",
-      "value": "12-bit RAW",
-      "unit": "",
-      "note": "H2plus 10-bit RAW",
-      "source": "https://support.unitree.com/home/en/H2_developer/About_H2"
-    },
-    {
-      "group": "Sensors & Perception",
-      "key": "stereo_baseline",
-      "label": "Stereo baseline",
-      "value": 60,
-      "unit": "mm",
-      "note": "",
-      "source": "https://support.unitree.com/home/en/H2_developer/About_H2"
-    },
-    {
-      "group": "Sensors & Perception",
-      "key": "camera_fov",
-      "label": "Camera horizontal FOV",
-      "value": 156,
-      "unit": "°",
-      "note": "H2 / H2 EDU; H2plus 140° ±3°",
-      "source": "https://support.unitree.com/home/en/H2_developer/About_H2"
-    },
-    {
-      "group": "Sensors & Perception",
-      "key": "camera_fov",
-      "label": "Camera vertical FOV",
-      "value": 116,
-      "unit": "°",
-      "note": "H2 / H2 EDU; H2plus 102° ±3°",
-      "source": "https://support.unitree.com/home/en/H2_developer/About_H2"
-    },
-    {
-      "group": "Sensors & Perception",
-      "key": "camera_f_number",
-      "label": "Camera F-number",
-      "value": "F2.0",
-      "unit": "",
-      "note": "",
-      "source": "https://support.unitree.com/home/en/H2_developer/About_H2"
-    },
-    {
-      "group": "Sensors & Perception",
-      "key": "camera_focal_length",
-      "label": "Camera focal length",
-      "value": 1.53,
-      "unit": "mm",
-      "note": "H2plus 2.67 mm",
-      "source": "https://support.unitree.com/home/en/H2_developer/About_H2"
-    },
-    {
-      "group": "Sensors & Perception",
-      "key": "camera_depth_of_field",
-      "label": "Camera depth of field",
-      "value": "0.15 m to infinity (focus 0.4 m)",
-      "unit": "",
-      "note": "H2plus 0.4 m to infinity",
-      "source": "https://support.unitree.com/home/en/H2_developer/About_H2"
-    },
-    {
-      "group": "Sensors & Perception",
-      "key": "camera_operating_temperature",
-      "label": "Camera operating temperature",
-      "value": "-20 to +60",
-      "unit": "°C",
-      "note": "H2plus -30 to +70 °C",
-      "source": "https://support.unitree.com/home/en/H2_developer/About_H2"
-    },
-    {
-      "group": "Sensors & Perception",
-      "key": "camera_interface",
-      "label": "Camera interface",
-      "value": "PC1 / MIPI 4-lane",
-      "unit": "",
-      "note": "H2plus: PC3 / GMSL2",
-      "source": "https://support.unitree.com/home/en/H2_developer/About_H2"
-    },
-    {
-      "group": "Sensors & Perception",
-      "key": "microphones",
-      "label": "Microphone",
-      "value": "Array microphone",
-      "unit": "",
-      "note": "",
-      "source": "https://www.unitree.com/H2"
-    },
-    {
-      "group": "Audio, Lights & HMI",
-      "key": "speaker",
-      "label": "Speaker",
-      "value": "High-power speaker",
-      "unit": "",
-      "note": "voice interaction",
-      "source": "https://www.unitree.com/H2"
-    },
-    {
-      "group": "Connectivity & Interfaces",
-      "key": "wifi",
-      "label": "Wi-Fi",
-      "value": "Wi-Fi 6",
-      "unit": "",
-      "note": "",
-      "source": "https://www.unitree.com/H2"
-    },
-    {
-      "group": "Connectivity & Interfaces",
-      "key": "bluetooth",
-      "label": "Bluetooth",
-      "value": "5.2",
-      "unit": "",
-      "note": "",
-      "source": "https://www.unitree.com/H2"
-    },
-    {
-      "group": "Connectivity & Interfaces",
-      "key": "external_ports",
-      "label": "Top interface – VBAT+485 (GXT30(2)-M)",
-      "value": "54-75.6 V / 10 A battery output + RS-485 (to PC2)",
-      "unit": "",
-      "note": "",
-      "source": "https://support.unitree.com/home/en/H2_developer/About_H2",
-      "ref": "Electrical Interfaces"
-    },
-    {
-      "group": "Connectivity & Interfaces",
-      "key": "external_ports",
-      "label": "Top interface – 24V+CAN (GXT30(2)-M) x2",
-      "value": "24 V / 10 A output + CAN (to PC2)",
-      "unit": "",
-      "note": "",
-      "source": "https://support.unitree.com/home/en/H2_developer/About_H2",
-      "ref": "Electrical Interfaces"
-    },
-    {
-      "group": "Connectivity & Interfaces",
-      "key": "external_ports",
-      "label": "Top interface – 12V+485 (GXT30(2)-M)",
-      "value": "12 V / 10 A output + RS-485 (to PC2)",
-      "unit": "",
-      "note": "",
-      "source": "https://support.unitree.com/home/en/H2_developer/About_H2",
-      "ref": "Electrical Interfaces"
-    },
-    {
-      "group": "Connectivity & Interfaces",
-      "key": "external_ports",
-      "label": "Top interface – Type-C (PC2)",
-      "value": "USB 3.0 host, DP 1.4, PD 3.0",
-      "unit": "",
-      "note": "",
-      "source": "https://support.unitree.com/home/en/H2_developer/About_H2",
-      "ref": "Electrical Interfaces"
-    },
-    {
-      "group": "Connectivity & Interfaces",
-      "key": "external_ports",
-      "label": "Top interface – Type-C x5",
-      "value": "USB 3.0 host, 5 V / 2 A output (some route to optional PC3/PC4 with DP 1.4 + PD 3.0)",
-      "unit": "",
-      "note": "",
-      "source": "https://support.unitree.com/home/en/H2_developer/About_H2",
-      "ref": "Electrical Interfaces"
-    },
-    {
-      "group": "Connectivity & Interfaces",
-      "key": "external_ports",
-      "label": "Top interface – GMSL",
-      "value": "Video input (with optional PC3)",
-      "unit": "",
-      "note": "",
-      "source": "https://support.unitree.com/home/en/H2_developer/About_H2",
-      "ref": "Electrical Interfaces"
-    },
-    {
-      "group": "Connectivity & Interfaces",
-      "key": "external_ports",
-      "label": "Top interface – RJ45 x2",
-      "value": "Gigabit Ethernet (192.168.123.x and 192.168.124.x segments)",
-      "unit": "",
-      "note": "",
-      "source": "https://support.unitree.com/home/en/H2_developer/About_H2",
-      "ref": "Electrical Interfaces"
-    },
-    {
-      "group": "Connectivity & Interfaces",
-      "key": "external_ports",
-      "label": "Top interface – Dexterous hand connector x2",
-      "value": "24 V / 10 A + RS-485 + USB 2.0 (optional 100 Mbps Ethernet)",
-      "unit": "",
-      "note": "",
-      "source": "https://support.unitree.com/home/en/H2_developer/About_H2",
-      "ref": "Electrical Interfaces"
-    },
-    {
-      "group": "Payload & Mounting",
-      "key": "payload_port_power",
-      "label": "Total external power output",
-      "value": 500,
-      "unit": "W",
-      "note": "max, excluding direct battery output",
-      "source": "https://support.unitree.com/home/en/H2_developer/About_H2"
-    },
-    {
-      "group": "Payload & Mounting",
-      "key": "mounting_points",
-      "label": "Installation holes",
-      "value": "Rear mounting hole pattern (see 3D model)",
-      "unit": "",
-      "note": "",
-      "source": "https://support.unitree.com/home/en/H2_developer/About_H2"
-    },
-    {
-      "group": "Controls & Operation",
-      "key": "controller",
-      "label": "Manual controller",
-      "value": "Included",
-      "unit": "",
-      "note": "",
-      "source": "https://www.unitree.com/H2"
-    },
-    {
-      "group": "Charging & Docking",
-      "key": "charger_output",
-      "label": "Charger",
-      "value": "Included",
-      "unit": "",
-      "note": "",
-      "source": "https://www.unitree.com/H2"
-    },
-    {
-      "group": "Compute & Software",
-      "key": "ota_updates",
-      "label": "Upgraded intelligent OTA",
-      "value": true,
-      "unit": "",
-      "note": "",
-      "source": "https://www.unitree.com/H2"
-    },
-    {
-      "group": "Compute & Software",
-      "key": "sdk",
-      "label": "Secondary development",
-      "value": "H2 EDU only",
-      "unit": "",
-      "note": "",
-      "source": "https://www.unitree.com/H2"
-    },
-    {
-      "group": "Commercial",
-      "key": "price",
-      "label": "Price",
-      "value": 29900,
-      "unit": "USD",
-      "note": "H2, tax and shipping excluded; H2 EDU contact sales",
-      "source": "https://www.unitree.com/H2"
-    },
-    {
-      "group": "Commercial",
-      "key": "warranty",
-      "label": "Warranty",
-      "value": 8,
-      "unit": "months",
-      "note": "H2",
-      "source": "https://www.unitree.com/H2"
-    },
-    {
-      "group": "Commercial",
-      "key": "warranty",
-      "label": "Warranty",
-      "value": 12,
-      "unit": "months",
-      "note": "H2 EDU",
-      "source": "https://www.unitree.com/H2"
-    },
-    {
-      "group": "Safety & Compliance",
-      "key": "intended_use",
-      "label": "Intended use / caution",
-      "value": "Civilian robot; keep safe distance; no dangerous modifications",
-      "unit": "",
-      "note": "",
-      "source": "https://www.unitree.com/H2"
-    }
-  ]
+ "id": "unitree-h2",
+ "checked": "2026-11-04",
+ "documents": [
+  {
+   "title": "Unitree H2 product page – H2 Parameter table",
+   "url": "https://www.unitree.com/H2"
+  },
+  {
+   "title": "Unitree H2 SDK Development Guide – About H2 (updated 2026-09-03)",
+   "url": "https://support.unitree.com/home/en/H2_developer/About_H2"
+  }
+ ],
+ "specs": [
+  {
+   "group": "Identity",
+   "key": "variants",
+   "label": "Variants",
+   "value": "H2; H2 EDU; H2plus (camera table)",
+   "unit": "",
+   "note": "",
+   "source": "https://www.unitree.com/H2"
+  },
+  {
+   "group": "Dimensions & Mass",
+   "key": "height_standing",
+   "label": "Height (standing)",
+   "value": 1820,
+   "unit": "mm",
+   "note": "H x W x T 1820 x 456 x 218 mm",
+   "source": "https://www.unitree.com/H2"
+  },
+  {
+   "group": "Dimensions & Mass",
+   "key": "width",
+   "label": "Width",
+   "value": 456,
+   "unit": "mm",
+   "note": "",
+   "source": "https://www.unitree.com/H2"
+  },
+  {
+   "group": "Dimensions & Mass",
+   "key": "length",
+   "label": "Thickness",
+   "value": 218,
+   "unit": "mm",
+   "note": "",
+   "source": "https://www.unitree.com/H2"
+  },
+  {
+   "group": "Dimensions & Mass",
+   "key": "weight_with_battery",
+   "label": "Weight (with battery)",
+   "value": 70,
+   "unit": "kg",
+   "note": "about 70 kg",
+   "source": "https://www.unitree.com/H2"
+  },
+  {
+   "group": "Dimensions & Mass",
+   "key": "leg_length",
+   "label": "Calf + thigh length",
+   "value": 1045,
+   "unit": "mm",
+   "note": "",
+   "source": "https://www.unitree.com/H2"
+  },
+  {
+   "group": "Dimensions & Mass",
+   "key": "arm_length",
+   "label": "Forearm + upper arm length",
+   "value": 690,
+   "unit": "mm",
+   "note": "",
+   "source": "https://www.unitree.com/H2"
+  },
+  {
+   "group": "Dimensions & Mass",
+   "key": "structural_material",
+   "label": "Construction materials",
+   "value": "Aircraft-grade aluminium + titanium alloy + high-strength engineering plastics",
+   "unit": "",
+   "note": "",
+   "source": "https://www.unitree.com/H2"
+  },
+  {
+   "group": "Mobility & Performance",
+   "key": "degrees_of_freedom",
+   "label": "Total degrees of freedom",
+   "value": 31,
+   "unit": "",
+   "note": "31 joint motors",
+   "source": "https://www.unitree.com/H2"
+  },
+  {
+   "group": "Actuation & Joints",
+   "key": "dof_per_leg",
+   "label": "DoF per leg",
+   "value": 6,
+   "unit": "",
+   "note": "hip 3, knee 1, ankle 2",
+   "source": "https://support.unitree.com/home/en/H2_developer/About_H2"
+  },
+  {
+   "group": "Actuation & Joints",
+   "key": "dof_per_arm",
+   "label": "DoF per arm",
+   "value": 7,
+   "unit": "",
+   "note": "shoulder 3, elbow 2, wrist 2",
+   "source": "https://support.unitree.com/home/en/H2_developer/About_H2"
+  },
+  {
+   "group": "Actuation & Joints",
+   "key": "dof_waist",
+   "label": "Waist DoF",
+   "value": 3,
+   "unit": "",
+   "note": "",
+   "source": "https://www.unitree.com/H2"
+  },
+  {
+   "group": "Actuation & Joints",
+   "key": "dof_head",
+   "label": "Head DoF",
+   "value": 2,
+   "unit": "",
+   "note": "",
+   "source": "https://www.unitree.com/H2"
+  },
+  {
+   "group": "Manipulation",
+   "key": "gripper_type",
+   "label": "Dexterous hand",
+   "value": "Multiple model options (H2 EDU)",
+   "unit": "",
+   "note": "H2 base: none",
+   "source": "https://www.unitree.com/H2"
+  },
+  {
+   "group": "Audio, Lights & HMI",
+   "key": "display",
+   "label": "Bionic head with facial features",
+   "value": true,
+   "unit": "",
+   "note": "",
+   "source": "https://www.unitree.com/H2"
+  },
+  {
+   "group": "Actuation & Joints",
+   "key": "joint_bearing_type",
+   "label": "Joint output bearing",
+   "value": "Industrial-grade crossed roller bearings",
+   "unit": "",
+   "note": "",
+   "source": "https://www.unitree.com/H2"
+  },
+  {
+   "group": "Actuation & Joints",
+   "key": "actuator_type",
+   "label": "Joint motor",
+   "value": "Low-inertia high-speed internal-rotor PMSM",
+   "unit": "",
+   "note": "",
+   "source": "https://www.unitree.com/H2"
+  },
+  {
+   "group": "Actuation & Joints",
+   "key": "max_joint_torque",
+   "label": "Max arm joint torque",
+   "value": 120,
+   "unit": "N·m",
+   "note": "",
+   "source": "https://www.unitree.com/H2"
+  },
+  {
+   "group": "Actuation & Joints",
+   "key": "max_joint_torque",
+   "label": "Max leg joint torque",
+   "value": 360,
+   "unit": "N·m",
+   "note": "",
+   "source": "https://www.unitree.com/H2"
+  },
+  {
+   "group": "Manipulation",
+   "key": "arm_payload",
+   "label": "Arm payload (rated)",
+   "value": 7,
+   "unit": "kg",
+   "note": "~7 kg rated; peak ~15 kg",
+   "source": "https://www.unitree.com/H2"
+  },
+  {
+   "group": "Manipulation",
+   "key": "arm_payload_peak",
+   "label": "Arm payload (peak)",
+   "value": 15,
+   "unit": "kg",
+   "note": "~15 kg",
+   "source": "https://www.unitree.com/H2"
+  },
+  {
+   "group": "Actuation & Joints",
+   "key": "cooling_system",
+   "label": "Cooling system",
+   "value": "Local air cooling",
+   "unit": "",
+   "note": "",
+   "source": "https://www.unitree.com/H2"
+  },
+  {
+   "group": "Power & Battery",
+   "key": "battery_chemistry",
+   "label": "Power supply",
+   "value": "Lithium battery with low internal resistance",
+   "unit": "",
+   "note": "",
+   "source": "https://www.unitree.com/H2"
+  },
+  {
+   "group": "Power & Battery",
+   "key": "battery_capacity",
+   "label": "Battery capacity",
+   "value": 972,
+   "unit": "Wh",
+   "note": "15 Ah (0.972 kWh)",
+   "source": "https://www.unitree.com/H2"
+  },
+  {
+   "group": "Power & Battery",
+   "key": "battery_voltage_max",
+   "label": "Battery max voltage",
+   "value": 75.6,
+   "unit": "V",
+   "note": "",
+   "source": "https://www.unitree.com/H2"
+  },
+  {
+   "group": "Power & Battery",
+   "key": "battery_swappable",
+   "label": "Smart battery (quick release)",
+   "value": true,
+   "unit": "",
+   "note": "",
+   "source": "https://www.unitree.com/H2"
+  },
+  {
+   "group": "Power & Battery",
+   "key": "runtime",
+   "label": "Battery life",
+   "value": 3,
+   "unit": "h",
+   "note": "about 3 h",
+   "source": "https://www.unitree.com/H2"
+  },
+  {
+   "group": "Compute & Software",
+   "key": "cpu",
+   "label": "Motion control unit (PC1)",
+   "value": "Intel Core i5, 10 cores / 12 threads, 4.40 GHz, 8 GB LPDDR5",
+   "unit": "",
+   "note": "platform capabilities; not externally accessible",
+   "source": "https://support.unitree.com/home/en/H2_developer/About_H2"
+  },
+  {
+   "group": "Compute & Software",
+   "key": "cpu",
+   "label": "Development unit (PC2)",
+   "value": "Intel Core i7, 10 cores / 12 threads, 4.70 / 4.80 GHz",
+   "unit": "",
+   "note": "H2 EDU custom development",
+   "source": "https://support.unitree.com/home/en/H2_developer/About_H2"
+  },
+  {
+   "group": "Compute & Software",
+   "key": "ram",
+   "label": "PC2 memory",
+   "value": "16 / 32",
+   "unit": "GB",
+   "note": "LPDDR5 5200 MT/s dual-channel",
+   "source": "https://support.unitree.com/home/en/H2_developer/About_H2"
+  },
+  {
+   "group": "Compute & Software",
+   "key": "storage",
+   "label": "PC1/PC2 storage",
+   "value": "500 GB or above",
+   "unit": "",
+   "note": "",
+   "source": "https://support.unitree.com/home/en/H2_developer/About_H2"
+  },
+  {
+   "group": "Compute & Software",
+   "key": "gpu",
+   "label": "PC1/PC2 GPU",
+   "value": "Intel Iris Xe Graphics, max 1.20 GHz",
+   "unit": "",
+   "note": "",
+   "source": "https://support.unitree.com/home/en/H2_developer/About_H2"
+  },
+  {
+   "group": "Compute & Software",
+   "key": "optional_compute",
+   "label": "Optional development unit PC3",
+   "value": "NVIDIA Jetson Thor (T5000)",
+   "unit": "",
+   "note": "optional",
+   "source": "https://support.unitree.com/home/en/H2_developer/About_H2"
+  },
+  {
+   "group": "Compute & Software",
+   "key": "ai_performance_tops",
+   "label": "PC3 AI performance",
+   "value": 2070,
+   "unit": "TFLOPS (FP4 sparse)",
+   "note": "optional Jetson Thor",
+   "source": "https://support.unitree.com/home/en/H2_developer/About_H2"
+  },
+  {
+   "group": "Compute & Software",
+   "key": "gpu",
+   "label": "PC3 GPU",
+   "value": "2560-core NVIDIA Blackwell, 5th-gen Tensor Cores, 1.57 GHz",
+   "unit": "",
+   "note": "optional",
+   "source": "https://support.unitree.com/home/en/H2_developer/About_H2"
+  },
+  {
+   "group": "Compute & Software",
+   "key": "cpu",
+   "label": "PC3 CPU",
+   "value": "14-core Arm Neoverse-V3AE, 2.6 GHz",
+   "unit": "",
+   "note": "optional",
+   "source": "https://support.unitree.com/home/en/H2_developer/About_H2"
+  },
+  {
+   "group": "Compute & Software",
+   "key": "ram",
+   "label": "PC3 memory",
+   "value": 128,
+   "unit": "GB",
+   "note": "256-bit LPDDR5X, 273 GB/s",
+   "source": "https://support.unitree.com/home/en/H2_developer/About_H2"
+  },
+  {
+   "group": "Compute & Software",
+   "key": "compute_power_consumption",
+   "label": "PC3 power",
+   "value": "40-130",
+   "unit": "W",
+   "note": "",
+   "source": "https://support.unitree.com/home/en/H2_developer/About_H2"
+  },
+  {
+   "group": "Compute & Software",
+   "key": "optional_compute",
+   "label": "Optional development unit PC4",
+   "value": "NVIDIA Jetson Orin NX 16GB",
+   "unit": "",
+   "note": "optional",
+   "source": "https://support.unitree.com/home/en/H2_developer/About_H2"
+  },
+  {
+   "group": "Compute & Software",
+   "key": "ai_performance_tops",
+   "label": "PC4 AI performance",
+   "value": 100,
+   "unit": "TOPS",
+   "note": "optional Jetson Orin NX",
+   "source": "https://support.unitree.com/home/en/H2_developer/About_H2"
+  },
+  {
+   "group": "Compute & Software",
+   "key": "gpu",
+   "label": "PC4 GPU",
+   "value": "1024-core NVIDIA Ampere, 32 Tensor Cores, 918 MHz",
+   "unit": "",
+   "note": "",
+   "source": "https://support.unitree.com/home/en/H2_developer/About_H2"
+  },
+  {
+   "group": "Compute & Software",
+   "key": "cpu",
+   "label": "PC4 CPU",
+   "value": "8-core Arm Cortex-A78AE v8.2, 2 GHz",
+   "unit": "",
+   "note": "",
+   "source": "https://support.unitree.com/home/en/H2_developer/About_H2"
+  },
+  {
+   "group": "Compute & Software",
+   "key": "ram",
+   "label": "PC4 memory",
+   "value": 16,
+   "unit": "GB",
+   "note": "128-bit LPDDR5, 102.4 GB/s",
+   "source": "https://support.unitree.com/home/en/H2_developer/About_H2"
+  },
+  {
+   "group": "Compute & Software",
+   "key": "storage",
+   "label": "PC3/PC4 storage",
+   "value": 2,
+   "unit": "TB",
+   "note": "NVMe",
+   "source": "https://support.unitree.com/home/en/H2_developer/About_H2"
+  },
+  {
+   "group": "Compute & Software",
+   "key": "compute_power_consumption",
+   "label": "PC4 power",
+   "value": "10-25",
+   "unit": "W",
+   "note": "",
+   "source": "https://support.unitree.com/home/en/H2_developer/About_H2"
+  },
+  {
+   "group": "Compute & Software",
+   "key": "video_encode",
+   "label": "PC3/PC4 video encode",
+   "value": "1x 4K60, 3x 4K30, 6x 1080p60, 12x 1080p30 (H.265)",
+   "unit": "",
+   "note": "",
+   "source": "https://support.unitree.com/home/en/H2_developer/About_H2"
+  },
+  {
+   "group": "Compute & Software",
+   "key": "video_decode",
+   "label": "PC3/PC4 video decode",
+   "value": "1x 8K30, 2x 4K60, 4x 4K30, 9x 1080p60, 18x 1080p30 (H.265)",
+   "unit": "",
+   "note": "",
+   "source": "https://support.unitree.com/home/en/H2_developer/About_H2"
+  },
+  {
+   "group": "Compute & Software",
+   "key": "ai_performance_tops",
+   "label": "Headline compute",
+   "value": 2070,
+   "unit": "TOPS",
+   "note": "product page: 'powered by a 2070 TOPS chip' (optional Thor module)",
+   "source": "https://www.unitree.com/H2"
+  },
+  {
+   "group": "Connectivity & Interfaces",
+   "key": "default_ip",
+   "label": "Development computer IPs",
+   "value": "PC2 192.168.123.162 / 192.168.124.162; PC3 .163; PC4 .164",
+   "unit": "",
+   "note": "",
+   "source": "https://support.unitree.com/home/en/H2_developer/About_H2"
+  },
+  {
+   "group": "Sensors & Perception",
+   "key": "camera_type",
+   "label": "Head camera",
+   "value": "Humanoid binocular camera with wide field of view",
+   "unit": "",
+   "note": "",
+   "source": "https://www.unitree.com/H2"
+  },
+  {
+   "group": "Sensors & Perception",
+   "key": "camera_count",
+   "label": "Binocular camera sensors",
+   "value": 2,
+   "unit": "",
+   "note": "2 RGB sensors",
+   "source": "https://support.unitree.com/home/en/H2_developer/About_H2"
+  },
+  {
+   "group": "Sensors & Perception",
+   "key": "camera_resolution",
+   "label": "Binocular camera resolution",
+   "value": "2064 x 1552",
+   "unit": "px",
+   "note": "H2 / H2 EDU; H2plus 2560 x 1984",
+   "source": "https://support.unitree.com/home/en/H2_developer/About_H2"
+  },
+  {
+   "group": "Sensors & Perception",
+   "key": "camera_frame_rate",
+   "label": "Binocular camera frame rate",
+   "value": 30,
+   "unit": "fps",
+   "note": "",
+   "source": "https://support.unitree.com/home/en/H2_developer/About_H2"
+  },
+  {
+   "group": "Sensors & Perception",
+   "key": "camera_shutter",
+   "label": "Camera shutter",
+   "value": "Global shutter",
+   "unit": "",
+   "note": "",
+   "source": "https://support.unitree.com/home/en/H2_developer/About_H2"
+  },
+  {
+   "group": "Sensors & Perception",
+   "key": "camera_output_format",
+   "label": "Camera output data",
+   "value": "12-bit RAW",
+   "unit": "",
+   "note": "H2plus 10-bit RAW",
+   "source": "https://support.unitree.com/home/en/H2_developer/About_H2"
+  },
+  {
+   "group": "Sensors & Perception",
+   "key": "stereo_baseline",
+   "label": "Stereo baseline",
+   "value": 60,
+   "unit": "mm",
+   "note": "",
+   "source": "https://support.unitree.com/home/en/H2_developer/About_H2"
+  },
+  {
+   "group": "Sensors & Perception",
+   "key": "camera_fov",
+   "label": "Camera horizontal FOV",
+   "value": 156,
+   "unit": "°",
+   "note": "H2 / H2 EDU; H2plus 140° ±3°",
+   "source": "https://support.unitree.com/home/en/H2_developer/About_H2"
+  },
+  {
+   "group": "Sensors & Perception",
+   "key": "camera_fov",
+   "label": "Camera vertical FOV",
+   "value": 116,
+   "unit": "°",
+   "note": "H2 / H2 EDU; H2plus 102° ±3°",
+   "source": "https://support.unitree.com/home/en/H2_developer/About_H2"
+  },
+  {
+   "group": "Sensors & Perception",
+   "key": "camera_f_number",
+   "label": "Camera F-number",
+   "value": "F2.0",
+   "unit": "",
+   "note": "",
+   "source": "https://support.unitree.com/home/en/H2_developer/About_H2"
+  },
+  {
+   "group": "Sensors & Perception",
+   "key": "camera_focal_length",
+   "label": "Camera focal length",
+   "value": 1.53,
+   "unit": "mm",
+   "note": "H2plus 2.67 mm",
+   "source": "https://support.unitree.com/home/en/H2_developer/About_H2"
+  },
+  {
+   "group": "Sensors & Perception",
+   "key": "camera_depth_of_field",
+   "label": "Camera depth of field",
+   "value": "0.15 m to infinity (focus 0.4 m)",
+   "unit": "",
+   "note": "H2plus 0.4 m to infinity",
+   "source": "https://support.unitree.com/home/en/H2_developer/About_H2"
+  },
+  {
+   "group": "Sensors & Perception",
+   "key": "camera_operating_temperature",
+   "label": "Camera operating temperature",
+   "value": "-20 to +60",
+   "unit": "°C",
+   "note": "H2plus -30 to +70 °C",
+   "source": "https://support.unitree.com/home/en/H2_developer/About_H2"
+  },
+  {
+   "group": "Sensors & Perception",
+   "key": "camera_interface",
+   "label": "Camera interface",
+   "value": "PC1 / MIPI 4-lane",
+   "unit": "",
+   "note": "H2plus: PC3 / GMSL2",
+   "source": "https://support.unitree.com/home/en/H2_developer/About_H2"
+  },
+  {
+   "group": "Sensors & Perception",
+   "key": "microphones",
+   "label": "Microphone",
+   "value": "Array microphone",
+   "unit": "",
+   "note": "",
+   "source": "https://www.unitree.com/H2"
+  },
+  {
+   "group": "Audio, Lights & HMI",
+   "key": "speaker",
+   "label": "Speaker",
+   "value": "High-power speaker",
+   "unit": "",
+   "note": "voice interaction",
+   "source": "https://www.unitree.com/H2"
+  },
+  {
+   "group": "Connectivity & Interfaces",
+   "key": "wifi",
+   "label": "Wi-Fi",
+   "value": "Wi-Fi 6",
+   "unit": "",
+   "note": "",
+   "source": "https://www.unitree.com/H2"
+  },
+  {
+   "group": "Connectivity & Interfaces",
+   "key": "bluetooth",
+   "label": "Bluetooth",
+   "value": "5.2",
+   "unit": "",
+   "note": "",
+   "source": "https://www.unitree.com/H2"
+  },
+  {
+   "group": "Connectivity & Interfaces",
+   "key": "external_ports",
+   "label": "Top interface – VBAT+485 (GXT30(2)-M)",
+   "value": "54-75.6 V / 10 A battery output + RS-485 (to PC2)",
+   "unit": "",
+   "note": "",
+   "source": "https://support.unitree.com/home/en/H2_developer/About_H2",
+   "ref": "Electrical Interfaces"
+  },
+  {
+   "group": "Connectivity & Interfaces",
+   "key": "external_ports",
+   "label": "Top interface – 24V+CAN (GXT30(2)-M) x2",
+   "value": "24 V / 10 A output + CAN (to PC2)",
+   "unit": "",
+   "note": "",
+   "source": "https://support.unitree.com/home/en/H2_developer/About_H2",
+   "ref": "Electrical Interfaces"
+  },
+  {
+   "group": "Connectivity & Interfaces",
+   "key": "external_ports",
+   "label": "Top interface – 12V+485 (GXT30(2)-M)",
+   "value": "12 V / 10 A output + RS-485 (to PC2)",
+   "unit": "",
+   "note": "",
+   "source": "https://support.unitree.com/home/en/H2_developer/About_H2",
+   "ref": "Electrical Interfaces"
+  },
+  {
+   "group": "Connectivity & Interfaces",
+   "key": "external_ports",
+   "label": "Top interface – Type-C (PC2)",
+   "value": "USB 3.0 host, DP 1.4, PD 3.0",
+   "unit": "",
+   "note": "",
+   "source": "https://support.unitree.com/home/en/H2_developer/About_H2",
+   "ref": "Electrical Interfaces"
+  },
+  {
+   "group": "Connectivity & Interfaces",
+   "key": "external_ports",
+   "label": "Top interface – Type-C x5",
+   "value": "USB 3.0 host, 5 V / 2 A output (some route to optional PC3/PC4 with DP 1.4 + PD 3.0)",
+   "unit": "",
+   "note": "",
+   "source": "https://support.unitree.com/home/en/H2_developer/About_H2",
+   "ref": "Electrical Interfaces"
+  },
+  {
+   "group": "Connectivity & Interfaces",
+   "key": "external_ports",
+   "label": "Top interface – GMSL",
+   "value": "Video input (with optional PC3)",
+   "unit": "",
+   "note": "",
+   "source": "https://support.unitree.com/home/en/H2_developer/About_H2",
+   "ref": "Electrical Interfaces"
+  },
+  {
+   "group": "Connectivity & Interfaces",
+   "key": "external_ports",
+   "label": "Top interface – RJ45 x2",
+   "value": "Gigabit Ethernet (192.168.123.x and 192.168.124.x segments)",
+   "unit": "",
+   "note": "",
+   "source": "https://support.unitree.com/home/en/H2_developer/About_H2",
+   "ref": "Electrical Interfaces"
+  },
+  {
+   "group": "Connectivity & Interfaces",
+   "key": "external_ports",
+   "label": "Top interface – Dexterous hand connector x2",
+   "value": "24 V / 10 A + RS-485 + USB 2.0 (optional 100 Mbps Ethernet)",
+   "unit": "",
+   "note": "",
+   "source": "https://support.unitree.com/home/en/H2_developer/About_H2",
+   "ref": "Electrical Interfaces"
+  },
+  {
+   "group": "Payload & Mounting",
+   "key": "payload_port_power",
+   "label": "Total external power output",
+   "value": 500,
+   "unit": "W",
+   "note": "max, excluding direct battery output",
+   "source": "https://support.unitree.com/home/en/H2_developer/About_H2"
+  },
+  {
+   "group": "Payload & Mounting",
+   "key": "mounting_points",
+   "label": "Installation holes",
+   "value": "Rear mounting hole pattern (see 3D model)",
+   "unit": "",
+   "note": "",
+   "source": "https://support.unitree.com/home/en/H2_developer/About_H2"
+  },
+  {
+   "group": "Controls & Operation",
+   "key": "controller",
+   "label": "Manual controller",
+   "value": "Included",
+   "unit": "",
+   "note": "",
+   "source": "https://www.unitree.com/H2"
+  },
+  {
+   "group": "Charging & Docking",
+   "key": "charger_output",
+   "label": "Charger",
+   "value": "Included",
+   "unit": "",
+   "note": "",
+   "source": "https://www.unitree.com/H2"
+  },
+  {
+   "group": "Compute & Software",
+   "key": "ota_updates",
+   "label": "Upgraded intelligent OTA",
+   "value": true,
+   "unit": "",
+   "note": "",
+   "source": "https://www.unitree.com/H2"
+  },
+  {
+   "group": "Compute & Software",
+   "key": "sdk",
+   "label": "Secondary development",
+   "value": "H2 EDU only",
+   "unit": "",
+   "note": "",
+   "source": "https://www.unitree.com/H2"
+  },
+  {
+   "group": "Commercial",
+   "key": "price",
+   "label": "Price",
+   "value": 29900,
+   "unit": "USD",
+   "note": "H2, tax and shipping excluded; H2 EDU contact sales",
+   "source": "https://www.unitree.com/H2"
+  },
+  {
+   "group": "Commercial",
+   "key": "warranty",
+   "label": "Warranty",
+   "value": 8,
+   "unit": "months",
+   "note": "H2",
+   "source": "https://www.unitree.com/H2"
+  },
+  {
+   "group": "Commercial",
+   "key": "warranty",
+   "label": "Warranty",
+   "value": 12,
+   "unit": "months",
+   "note": "H2 EDU",
+   "source": "https://www.unitree.com/H2"
+  },
+  {
+   "group": "Safety & Compliance",
+   "key": "intended_use",
+   "label": "Intended use / caution",
+   "value": "Civilian robot; keep safe distance; no dangerous modifications",
+   "unit": "",
+   "note": "",
+   "source": "https://www.unitree.com/H2"
+  }
+ ]
 }

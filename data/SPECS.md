@@ -48,6 +48,8 @@ Charging & Docking · Environment & Protection · Sensors & Perception · Comput
 Connectivity & Interfaces · Payload & Mounting · Manipulation · Actuation & Joints · Safety & Compliance ·
 Controls & Operation · Audio, Lights & HMI · Transport & Storage · Commercial
 
+Duplicate keys found later are mapped in `spec_key_aliases.json` (old -> canonical); never use an aliased key.
+
 ## Seed keys (reuse when the meaning matches)
 Identity: model_number, part_number, software_version, variants, release_date, manufacturer_address
 Dimensions & Mass: length, width, height, height_standing, height_sitting, height_max, height_min, weight,
