@@ -84,3 +84,8 @@ Controls & Operation: controller, control_modes, autonomy_features, teleoperatio
 Audio, Lights & HMI: speaker, buzzer, status_lights, display, warning_system
 Transport & Storage: shipping_case_dimensions, shipping_case_weight, storage_conditions
 Commercial: price, warranty, availability, included_accessories, optional_accessories
+
+## Comparability (so every field can be ranked, charted and filtered)
+- Store numbers as JSON numbers with a `unit` from the build script's unit table (mm, cm, m, kg, lb, m/s, km/h, h, min, Wh, Ah, °, °C, V, W, dB(A) …). A clean string like "550 mm" or "1.2–1.5 m" is parsed too; anything else stays text and shows only in the table.
+- `scripts/build_specs.py` converts every parseable row to the key's display unit (`n`, or `lo`/`hi` for ranges) and records `f2b` (display unit → base unit) so mixed-unit sources sort together.
+- `data/spec_key_meta.json` holds curated labels and **families** of related keys shown together (e.g. Path & aisle clearance, with overall width as a lower-bound proxy). When a new key belongs to a family, add it there.

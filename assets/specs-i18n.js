@@ -12,3 +12,14 @@ const GROUPS=Object.keys(GROUP_KO);
 const tg=g=>LANG==="ko"&&GROUP_KO[g]?GROUP_KO[g]:g;
 const sv=(v,u)=>v===true?t("yes"):v===false?t("no"):(typeof v==="number"?(+v.toFixed(4)).toLocaleString():esc(v))+(u?` ${esc(u)}`:"");
 const host=u=>{try{return new URL(u).hostname.replace(/^www\./,"")}catch(e){return u}};
+// Explorer: filters, charts, families
+Object.assign(I18N.en,{families:"Field families",family:"Related fields compared together",locomotion:I18N.en.locomotion||"Locomotion",category:I18N.en.category||"Category",robot:I18N.en.robot||"Robot",
+ filter_count:"{n} of {t} robots in filter",filter_maker:"Filter robots by name or maker…",coverage_line:"{a} of {b} robots in your filter publish this field.",text_only:"{n} give it only as text (in the table)",
+ min:"Lowest",median:"Median",max:"Highest",unit:"Unit",view_chart:"Ranked",view_dist:"Distribution",view_scatter:"Versus another field",view_table:"Table",sort_asc:"Smallest first ↑",sort_desc:"Largest first ↓",
+ distribution:"Distribution",robots_per_bin:"robots per range",plot_against:"Plot against",scatter_few:"Only {n} robots publish both fields.",not_published_by:"Not published by {n} robots in your filter",
+ fam_cov:"{a} of {b} robots in your filter publish at least one of these fields.",proxy_toggle:"Fill gaps with {f} (lower bound)",proxy_short:"lower bound from overall width"});
+Object.assign(I18N.ko,{families:"관련 항목 묶음",family:"관련 항목을 함께 비교",locomotion:I18N.ko.locomotion||"이동 방식",category:I18N.ko.category||"분류",robot:I18N.ko.robot||"로봇",
+ filter_count:"전체 {t}대 중 {n}대 선택됨",filter_maker:"이름 또는 제조사로 로봇 필터…",coverage_line:"필터에 포함된 로봇 {b}대 중 {a}대가 이 항목을 공개합니다.",text_only:"{n}대는 텍스트로만 표기(표 참조)",
+ min:"최솟값",median:"중앙값",max:"최댓값",unit:"단위",view_chart:"순위",view_dist:"분포",view_scatter:"다른 항목과 비교",view_table:"표",sort_asc:"작은 값부터 ↑",sort_desc:"큰 값부터 ↓",
+ distribution:"분포",robots_per_bin:"구간별 로봇 수",plot_against:"비교할 항목",scatter_few:"두 항목을 모두 공개한 로봇이 {n}대뿐입니다.",not_published_by:"필터 내 미공개 로봇 {n}대",
+ fam_cov:"필터에 포함된 로봇 {b}대 중 {a}대가 이 항목 중 하나 이상을 공개합니다.",proxy_toggle:"빈 값을 {f}(하한값)로 채우기",proxy_short:"전체 폭 기준 하한값"});

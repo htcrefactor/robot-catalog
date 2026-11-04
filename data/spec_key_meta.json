@@ -1,0 +1,101 @@
+{
+ "_doc": "Curated display labels for spec keys (overrides the label written in per-robot files) and families of related keys shown together on the All specs page. 'proxy' keys are physical lower bounds shown for robots that do not publish the family's own fields.",
+ "labels": {
+  "min_corridor_width": "Minimum passable corridor / aisle width",
+  "min_doorway_width": "Minimum doorway width",
+  "pivot_width": "Width needed to pivot in place",
+  "corridor_width_90_turn": "Corridor width for a 90° turn",
+  "corridor_width_u_turn": "Corridor width for a U-turn",
+  "corridor_width_two_robots_passing": "Corridor width for two robots passing",
+  "min_turning_width": "Minimum turning width",
+  "min_turnaround_space": "Minimum space to turn around",
+  "turning_radius": "Minimum turning radius",
+  "width": "Overall width",
+  "length": "Overall length",
+  "height": "Overall height",
+  "weight": "Weight"
+ },
+ "families": [
+  {
+   "id": "path_clearance",
+   "label": "Path & aisle clearance",
+   "label_ko": "통로 및 통과 폭",
+   "keys": [
+    "min_corridor_width",
+    "min_doorway_width",
+    "min_turning_width",
+    "min_turnaround_space",
+    "pivot_width",
+    "corridor_width_90_turn",
+    "corridor_width_u_turn",
+    "corridor_width_two_robots_passing",
+    "min_stair_width"
+   ],
+   "proxy": "width",
+   "proxy_note": "Overall width is the physical lower bound for the narrowest passable path; makers' published clearance adds a safety margin."
+  },
+  {
+   "id": "footprint",
+   "label": "Footprint (L × W × H)",
+   "label_ko": "외형 크기 (L × W × H)",
+   "keys": [
+    "length",
+    "width",
+    "height",
+    "ground_clearance",
+    "turning_radius"
+   ]
+  },
+  {
+   "id": "speed",
+   "label": "Speed",
+   "label_ko": "속도",
+   "keys": [
+    "max_speed",
+    "nominal_speed",
+    "rated_speed_loaded",
+    "min_speed",
+    "max_speed_reverse",
+    "max_speed_lateral"
+   ]
+  },
+  {
+   "id": "payload",
+   "label": "Payload",
+   "label_ko": "페이로드",
+   "keys": [
+    "max_payload",
+    "rated_payload",
+    "all_terrain_payload",
+    "tray_payload",
+    "arm_payload"
+   ]
+  },
+  {
+   "id": "endurance",
+   "label": "Battery & runtime",
+   "label_ko": "배터리 및 운용 시간",
+   "keys": [
+    "runtime",
+    "runtime_with_payload",
+    "battery_capacity",
+    "battery_capacity_ah",
+    "charge_time"
+   ]
+  },
+  {
+   "id": "terrain",
+   "label": "Terrain limits",
+   "label_ko": "지형 한계",
+   "keys": [
+    "max_slope",
+    "max_side_slope",
+    "max_step_height",
+    "max_stair_step_height",
+    "max_obstacle_height",
+    "max_gap_crossing",
+    "ground_clearance"
+   ]
+  }
+ ]
+}

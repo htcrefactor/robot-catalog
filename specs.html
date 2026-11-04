@@ -2,27 +2,12 @@
 <body><script>nav("specs.html")</script>
 <main style="max-width:none">
 <h1 data-i18n="specs_title"></h1><p class="muted" id="sub"></p>
+<div class="panel filters"><div class="chiprow" id="fLoco"></div><div class="chiprow" id="fCat"></div>
+<div class="chiprow"><input type="search" id="fq" data-i18n-ph="filter_maker" style="min-width:260px"><span class="small muted" id="fcount"></span></div></div>
 <div class="specsgrid">
 <div class="panel"><input type="search" id="q" data-i18n-ph="search_fields" style="width:100%;margin-bottom:8px"><div class="keylist" id="kl"></div></div>
 <div class="panel" id="vals"><p class="muted" data-i18n="pick_field"></p></div>
 </div>
 </main><div id="foot"></div>
-<script>
-document.title=t("specs_title")+" — "+t("brand");
-(async()=>{const d=await loadData();document.getElementById("foot").innerHTML=footer(d.meta);
-const K=await (await fetch("data/spec_keys.json",{cache:"no-cache"})).json();
-const M=await (await fetch("data/spec_matrix.json",{cache:"no-cache"})).json();
-const R=Object.fromEntries(d.robots.map(r=>[r.id,r]));
-document.getElementById("sub").textContent=t("specs_sub",{k:K.keys.length,r:K.robots_with_specs});
-const kl=document.getElementById("kl"),q=document.getElementById("q");
-const show=k=>{location.hash=k.key;kl.querySelectorAll("a").forEach(a=>a.classList.toggle("on",a.dataset.k===k.key));
- const rows=(M[k.key]||[]);document.getElementById("vals").innerHTML=`<h2>${esc(k.label)} <span class="muted small">${esc(tg(k.group))} · ${rows.length} ${t("coverage")}</span></h2>
- <div class="tablewrap"><table class="mega"><thead><tr><th>${t("robot")}</th><th>${t("category")}</th><th>${t("value")}</th><th>${t("note")}</th><th>${t("source")}</th></tr></thead><tbody>
- ${rows.map(x=>{const r=R[x.id]||{name:x.id,manufacturer:"",category:""};return `<tr><td><a href="robot.html?id=${encodeURIComponent(x.id)}">${esc(r.manufacturer)} ${esc(r.name)}</a></td><td>${esc(tv(r.category))}</td><td>${sv(x.value,x.unit)}</td><td class="small">${esc(x.note||"")}</td><td class="small">${x.source?`<a href="${esc(x.source)}" target="_blank" rel="noopener">${esc(host(x.source))}</a>`:""}</td></tr>`}).join("")}</tbody></table></div>`;};
-const draw=()=>{const s=q.value.toLowerCase();let h="";
- const order=[...GROUPS,...new Set(K.keys.map(k=>k.group).filter(g=>!GROUPS.includes(g)))];
- order.forEach(g=>{const ks=K.keys.filter(k=>k.group===g&&(!s||k.label.toLowerCase().includes(s)||k.key.includes(s)));if(!ks.length)return;
-  h+=`<div class="small muted" style="margin:10px 0 4px;text-transform:uppercase;letter-spacing:.5px">${esc(tg(g))}</div>`+ks.map(k=>`<a data-k="${esc(k.key)}"><span>${esc(k.label)}</span><span class="muted small">${k.robots}</span></a>`).join("");});
- kl.innerHTML=h;kl.querySelectorAll("a").forEach(a=>a.onclick=()=>show(K.keys.find(k=>k.key===a.dataset.k)));};
-q.oninput=draw;draw();const h=decodeURIComponent(location.hash.slice(1));const k0=K.keys.find(k=>k.key===h);if(k0)show(k0);})();
-</script></body></html>
+<script>document.title=t("specs_title")+" — "+t("brand");</script>
+<script src="assets/specs.js"></script></body></html>
