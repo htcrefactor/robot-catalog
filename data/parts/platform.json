@@ -476,5 +476,42 @@
       "https://robotics.segway.com/wp-content/uploads/2021/04/Segway-RMP-220Lite-Specs.pdf"
     ],
     "summary": "IP65 differential hub-motor chassis for indoor/outdoor delivery, patrol and AGV builds; base of NVIDIA's Carter reference robot."
+  },
+  {
+    "id": "kuwa-x1",
+    "name": "X1",
+    "manufacturer": "Kuwa",
+    "country": "China",
+    "category": "Mobile platform",
+    "locomotion": "Wheeled",
+    "release_year": 2026,
+    "status": "Pilot",
+    "length_mm": null,
+    "width_mm": null,
+    "height_mm": null,
+    "weight_kg": null,
+    "payload_kg": null,
+    "max_speed_mps": null,
+    "min_speed_mps": null,
+    "wheel_diameter_mm": null,
+    "wheel_count": 3,
+    "dof": null,
+    "runtime_h": null,
+    "battery_wh": null,
+    "ip_rating": null,
+    "api_support": null,
+    "sdk_available": null,
+    "sdk_name": null,
+    "onboard_compute": null,
+    "compute_detail": null,
+    "ros_support": null,
+    "sensors": [],
+    "price_usd": null,
+    "price_note": null,
+    "official_url": null,
+    "sources": [
+      "https://ai123.com/newshub/17507"
+    ],
+    "summary": "Urban service robot on a 1-tonne three-wheel drive-by-wire chassis for sidewalk edge sweeping; shown at CIIE 6 Nov 2026."
   }
 ]

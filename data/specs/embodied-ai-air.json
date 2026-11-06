@@ -1,0 +1,57 @@
+{
+ "id": "embodied-ai-air",
+ "checked": "2026-11-06",
+ "documents": [
+  {
+   "title": "Embodied AI unveils AIR (Business Wire, 6 Nov 2026)",
+   "url": "https://www.businesswire.com/news/home/20261106661068/en/Embodied-AI-Unveils-AIR-a-Physically-Safe-Humanoid-Robot-That-Learns-on-the-Job"
+  }
+ ],
+ "specs": [
+  {
+   "group": "Identity",
+   "key": "release_date",
+   "label": "Unveiled",
+   "value": "2026-11-06",
+   "unit": "",
+   "note": "Humanoid Europe 2026, Munich",
+   "source": "https://www.businesswire.com/news/home/20261106661068/en/Embodied-AI-Unveils-AIR-a-Physically-Safe-Humanoid-Robot-That-Learns-on-the-Job"
+  },
+  {
+   "group": "Mobility & Performance",
+   "key": "drive_type",
+   "label": "Locomotion",
+   "value": "Wheels",
+   "unit": "",
+   "note": "wheels rather than legs",
+   "source": "https://www.businesswire.com/news/home/20261106661068/en/Embodied-AI-Unveils-AIR-a-Physically-Safe-Humanoid-Robot-That-Learns-on-the-Job"
+  },
+  {
+   "group": "Actuation & Joints",
+   "key": "actuator_type",
+   "label": "Arm actuation",
+   "value": "Tendon-driven",
+   "unit": "",
+   "note": "motors, gearboxes and electronics in torso",
+   "source": "https://www.businesswire.com/news/home/20261106661068/en/Embodied-AI-Unveils-AIR-a-Physically-Safe-Humanoid-Robot-That-Learns-on-the-Job"
+  },
+  {
+   "group": "Safety & Compliance",
+   "key": "safety_standards",
+   "label": "Safety standard",
+   "value": "ISO/TS 15066:2016",
+   "unit": "",
+   "note": "designed under; CE marking planned for 2027",
+   "source": "https://www.businesswire.com/news/home/20261106661068/en/Embodied-AI-Unveils-AIR-a-Physically-Safe-Humanoid-Robot-That-Learns-on-the-Job"
+  },
+  {
+   "group": "Controls & Operation",
+   "key": "control_mode",
+   "label": "Learning method",
+   "value": "Operator teleoperation demonstrations",
+   "unit": "",
+   "note": "AI typically learns task within a month",
+   "source": "https://www.businesswire.com/news/home/20261106661068/en/Embodied-AI-Unveils-AIR-a-Physically-Safe-Humanoid-Robot-That-Learns-on-the-Job"
+  }
+ ]
+}

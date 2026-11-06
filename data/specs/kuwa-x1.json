@@ -1,0 +1,48 @@
+{
+ "id": "kuwa-x1",
+ "checked": "2026-11-06",
+ "documents": [
+  {
+   "title": "Kuwa debuts D0 and X1 (AI123, 6 Nov 2026)",
+   "url": "https://ai123.com/newshub/17507"
+  }
+ ],
+ "specs": [
+  {
+   "group": "Identity",
+   "key": "release_date",
+   "label": "Shown",
+   "value": "2026-11-06",
+   "unit": "",
+   "note": "CIIE Shanghai",
+   "source": "https://ai123.com/newshub/17507"
+  },
+  {
+   "group": "Identity",
+   "key": "platform_name",
+   "label": "Platform",
+   "value": "Glide",
+   "unit": "",
+   "note": "1-tonne three-wheel drive-by-wire chassis",
+   "source": "https://ai123.com/newshub/17507"
+  },
+  {
+   "group": "Mobility & Performance",
+   "key": "wheel_count",
+   "label": "Wheel count",
+   "value": 3,
+   "unit": "",
+   "note": "",
+   "source": "https://ai123.com/newshub/17507"
+  },
+  {
+   "group": "Compute & Software",
+   "key": "ai_model",
+   "label": "Onboard AI model",
+   "value": "COOWAM (Urban VLM + CooWAIM)",
+   "unit": "",
+   "note": "dual-layer world model deployed on-device",
+   "source": "https://ai123.com/newshub/17507"
+  }
+ ]
+}

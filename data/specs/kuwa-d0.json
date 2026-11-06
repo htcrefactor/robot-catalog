@@ -1,0 +1,48 @@
+{
+ "id": "kuwa-d0",
+ "checked": "2026-11-06",
+ "documents": [
+  {
+   "title": "Kuwa debuts D0 and X1 (AI123, 6 Nov 2026)",
+   "url": "https://ai123.com/newshub/17507"
+  }
+ ],
+ "specs": [
+  {
+   "group": "Identity",
+   "key": "release_date",
+   "label": "Shown",
+   "value": "2026-11-06",
+   "unit": "",
+   "note": "CIIE Shanghai",
+   "source": "https://ai123.com/newshub/17507"
+  },
+  {
+   "group": "Identity",
+   "key": "platform_name",
+   "label": "Platform",
+   "value": "Aether",
+   "unit": "",
+   "note": "heavy-load quadruped platform",
+   "source": "https://ai123.com/newshub/17507"
+  },
+  {
+   "group": "Terrain & Navigation Limits",
+   "key": "terrain_capability",
+   "label": "Terrain",
+   "value": "Stairs, slopes, gravel roads, flower beds",
+   "unit": "",
+   "note": "all-terrain adaptive walking",
+   "source": "https://ai123.com/newshub/17507"
+  },
+  {
+   "group": "Compute & Software",
+   "key": "ai_model",
+   "label": "Onboard AI model",
+   "value": "COOWAM (Urban VLM + CooWAIM)",
+   "unit": "",
+   "note": "dual-layer world model deployed on-device",
+   "source": "https://ai123.com/newshub/17507"
+  }
+ ]
+}

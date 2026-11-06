@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-04",
- "robots_with_specs": 81,
+ "updated": "2026-11-06",
+ "robots_with_specs": 84,
  "keys": [
   {
    "key": "max_joint_torque",
@@ -14,6 +14,17 @@
    "numeric": 40
   },
   {
+   "key": "actuator_type",
+   "group": "Actuation & Joints",
+   "label": "Joint motor",
+   "unit": "",
+   "dim": "",
+   "base": "",
+   "f2b": 1,
+   "robots": 15,
+   "numeric": 0
+  },
+  {
    "key": "joint_range_of_motion",
    "group": "Actuation & Joints",
    "label": "Range of motion (body)",
@@ -23,17 +34,6 @@
    "f2b": 1,
    "robots": 15,
    "numeric": 67
-  },
-  {
-   "key": "actuator_type",
-   "group": "Actuation & Joints",
-   "label": "Joint motor",
-   "unit": "",
-   "dim": "",
-   "base": "",
-   "f2b": 1,
-   "robots": 14,
-   "numeric": 0
   },
   {
    "key": "dof_per_leg",
@@ -1730,6 +1730,17 @@
    "numeric": 0
   },
   {
+   "key": "ai_model",
+   "group": "Compute & Software",
+   "label": "AI",
+   "unit": "",
+   "dim": "",
+   "base": "",
+   "f2b": 1,
+   "robots": 4,
+   "numeric": 0
+  },
+  {
    "key": "computer_form_factor",
    "group": "Compute & Software",
    "label": "Computer",
@@ -1782,17 +1793,6 @@
    "base": "",
    "f2b": 1,
    "robots": 3,
-   "numeric": 0
-  },
-  {
-   "key": "ai_model",
-   "group": "Compute & Software",
-   "label": "AI",
-   "unit": "",
-   "dim": "",
-   "base": "",
-   "f2b": 1,
-   "robots": 2,
    "numeric": 0
   },
   {
@@ -3083,6 +3083,17 @@
    "numeric": 1
   },
   {
+   "key": "control_mode",
+   "group": "Controls & Operation",
+   "label": "Learning method",
+   "unit": "",
+   "dim": "",
+   "base": "",
+   "f2b": 1,
+   "robots": 1,
+   "numeric": 0
+  },
+  {
    "key": "mission_interrupts",
    "group": "Controls & Operation",
    "label": "Mission interrupts",
@@ -4172,6 +4183,17 @@
    "numeric": 0
   },
   {
+   "key": "release_date",
+   "group": "Identity",
+   "label": "Unveiled",
+   "unit": "",
+   "dim": "",
+   "base": "",
+   "f2b": 1,
+   "robots": 17,
+   "numeric": 1
+  },
+  {
    "key": "software_version",
    "group": "Identity",
    "label": "Manual version",
@@ -4180,17 +4202,6 @@
    "base": "",
    "f2b": 1,
    "robots": 16,
-   "numeric": 1
-  },
-  {
-   "key": "release_date",
-   "group": "Identity",
-   "label": "Unveiled",
-   "unit": "",
-   "dim": "",
-   "base": "",
-   "f2b": 1,
-   "robots": 14,
    "numeric": 1
   },
   {
@@ -4252,6 +4263,17 @@
    "key": "generation",
    "group": "Identity",
    "label": "Generation",
+   "unit": "",
+   "dim": "",
+   "base": "",
+   "f2b": 1,
+   "robots": 2,
+   "numeric": 0
+  },
+  {
+   "key": "platform_name",
+   "group": "Identity",
+   "label": "Platform",
    "unit": "",
    "dim": "",
    "base": "",
@@ -4733,6 +4755,17 @@
    "numeric": 0
   },
   {
+   "key": "drive_type",
+   "group": "Mobility & Performance",
+   "label": "Drive",
+   "unit": "",
+   "dim": "",
+   "base": "",
+   "f2b": 1,
+   "robots": 7,
+   "numeric": 0
+  },
+  {
    "key": "drive_motor",
    "group": "Mobility & Performance",
    "label": "Drive motors",
@@ -4766,17 +4799,6 @@
    "numeric": 0
   },
   {
-   "key": "drive_type",
-   "group": "Mobility & Performance",
-   "label": "Drive",
-   "unit": "",
-   "dim": "",
-   "base": "",
-   "f2b": 1,
-   "robots": 6,
-   "numeric": 0
-  },
-  {
    "key": "max_acceleration",
    "group": "Mobility & Performance",
    "label": "Maximum acceleration",
@@ -4786,6 +4808,17 @@
    "f2b": 1,
    "robots": 6,
    "numeric": 8
+  },
+  {
+   "key": "wheel_count",
+   "group": "Mobility & Performance",
+   "label": "Wheels",
+   "unit": "",
+   "dim": "",
+   "base": "",
+   "f2b": 1,
+   "robots": 6,
+   "numeric": 6
   },
   {
    "key": "drive_motor_encoder",
@@ -4852,17 +4885,6 @@
    "f2b": 1,
    "robots": 5,
    "numeric": 0
-  },
-  {
-   "key": "wheel_count",
-   "group": "Mobility & Performance",
-   "label": "Wheels",
-   "unit": "",
-   "dim": "",
-   "base": "",
-   "f2b": 1,
-   "robots": 5,
-   "numeric": 5
   },
   {
    "key": "drive_motor_reduction_ratio",
@@ -6632,7 +6654,7 @@
    "dim": "",
    "base": "",
    "f2b": 1,
-   "robots": 15,
+   "robots": 16,
    "numeric": 0
   },
   {
@@ -9158,6 +9180,17 @@
    "key": "pallet_surface_deviation",
    "group": "Terrain & Navigation Limits",
    "label": "Surface deviation for pallet pick/place",
+   "unit": "",
+   "dim": "",
+   "base": "",
+   "f2b": 1,
+   "robots": 1,
+   "numeric": 0
+  },
+  {
+   "key": "terrain_capability",
+   "group": "Terrain & Navigation Limits",
+   "label": "Terrain",
    "unit": "",
    "dim": "",
    "base": "",
