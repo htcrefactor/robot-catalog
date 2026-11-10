@@ -1,0 +1,254 @@
+{
+ "id": "vbot-dev",
+ "checked": "2026-11-10",
+ "documents": [
+  {
+   "title": "42HOW: Vita Dynamics DEV Geek Edition",
+   "url": "https://ai.42how.com/en/article/b3a58c9d-4873-4d89-a13f-ceb0801b54a9"
+  },
+  {
+   "title": "Times Auto: 维他动力 DEV 极客开发版",
+   "url": "https://www.timesauto.com/czix/202611/478920.html"
+  },
+  {
+   "title": "RoboSignal: Vbot DEV (cites RoboSpeak WeChat)",
+   "url": "https://robosignal.ai/items/vbot-dev-a-20-988-yuan-quadruped-robot-for-personal-developers-i4my8cu1t9u13aqa10fbhknvx"
+  }
+ ],
+ "specs": [
+  {
+   "group": "Commercial",
+   "key": "price",
+   "label": "List price",
+   "value": 22988,
+   "unit": "CNY",
+   "note": "Official price",
+   "source": "https://ai.42how.com/en/article/b3a58c9d-4873-4d89-a13f-ceb0801b54a9"
+  },
+  {
+   "group": "Commercial",
+   "key": "price",
+   "label": "Limited-time price",
+   "value": 20988,
+   "unit": "CNY",
+   "note": "10–20 Nov 2026 (Double Eleven)",
+   "source": "https://ai.42how.com/en/article/b3a58c9d-4873-4d89-a13f-ceb0801b54a9"
+  },
+  {
+   "group": "Commercial",
+   "key": "availability",
+   "label": "Sales channels",
+   "value": "Vbot WeChat mini-program store; Vbot JD.com flagship store",
+   "unit": "",
+   "note": "",
+   "source": "https://ai.42how.com/en/article/b3a58c9d-4873-4d89-a13f-ceb0801b54a9"
+  },
+  {
+   "group": "Identity",
+   "key": "release_date",
+   "label": "Launch date",
+   "value": "2026-11-10",
+   "unit": "",
+   "note": "",
+   "source": "https://ai.42how.com/en/article/b3a58c9d-4873-4d89-a13f-ceb0801b54a9"
+  },
+  {
+   "group": "Power & Battery",
+   "key": "battery_capacity",
+   "label": "Battery capacity",
+   "value": 594,
+   "unit": "Wh",
+   "note": "",
+   "source": "https://robosignal.ai/items/vbot-dev-a-20-988-yuan-quadruped-robot-for-personal-developers-i4my8cu1t9u13aqa10fbhknvx"
+  },
+  {
+   "group": "Power & Battery",
+   "key": "runtime",
+   "label": "Motion runtime",
+   "value": "3–5",
+   "unit": "h",
+   "note": "≈10 km",
+   "source": "https://robosignal.ai/items/vbot-dev-a-20-988-yuan-quadruped-robot-for-personal-developers-i4my8cu1t9u13aqa10fbhknvx"
+  },
+  {
+   "group": "Compute & Software",
+   "key": "ai_performance_tops",
+   "label": "AI compute",
+   "value": 128,
+   "unit": "TOPS",
+   "note": "",
+   "source": "https://robosignal.ai/items/vbot-dev-a-20-988-yuan-quadruped-robot-for-personal-developers-i4my8cu1t9u13aqa10fbhknvx"
+  },
+  {
+   "group": "Sensors & Perception",
+   "key": "lidar_type",
+   "label": "LiDAR",
+   "value": "360° LiDAR",
+   "unit": "",
+   "note": "",
+   "source": "https://ai.42how.com/en/article/b3a58c9d-4873-4d89-a13f-ceb0801b54a9"
+  },
+  {
+   "group": "Sensors & Perception",
+   "key": "camera_type",
+   "label": "Camera",
+   "value": "HD stereo (dual) cameras",
+   "unit": "",
+   "note": "",
+   "source": "https://ai.42how.com/en/article/b3a58c9d-4873-4d89-a13f-ceb0801b54a9"
+  },
+  {
+   "group": "Sensors & Perception",
+   "key": "uwb",
+   "label": "UWB positioning",
+   "value": true,
+   "unit": "",
+   "note": "",
+   "source": "https://robosignal.ai/items/vbot-dev-a-20-988-yuan-quadruped-robot-for-personal-developers-i4my8cu1t9u13aqa10fbhknvx"
+  },
+  {
+   "group": "Sensors & Perception",
+   "key": "microphones",
+   "label": "Microphone array",
+   "value": true,
+   "unit": "",
+   "note": "",
+   "source": "https://www.timesauto.com/czix/202611/478920.html"
+  },
+  {
+   "group": "Sensors & Perception",
+   "key": "imu",
+   "label": "IMU",
+   "value": true,
+   "unit": "",
+   "note": "",
+   "source": "https://www.timesauto.com/czix/202611/478920.html"
+  },
+  {
+   "group": "Audio, Lights & HMI",
+   "key": "display",
+   "label": "Interaction display",
+   "value": true,
+   "unit": "",
+   "note": "",
+   "source": "https://www.timesauto.com/czix/202611/478920.html"
+  },
+  {
+   "group": "Audio, Lights & HMI",
+   "key": "speaker",
+   "label": "Speaker",
+   "value": true,
+   "unit": "",
+   "note": "",
+   "source": "https://www.timesauto.com/czix/202611/478920.html"
+  },
+  {
+   "group": "Audio, Lights & HMI",
+   "key": "status_lights",
+   "label": "Ear lights",
+   "value": true,
+   "unit": "",
+   "note": "",
+   "source": "https://www.timesauto.com/czix/202611/478920.html"
+  },
+  {
+   "group": "Connectivity & Interfaces",
+   "key": "bluetooth",
+   "label": "Bluetooth",
+   "value": true,
+   "unit": "",
+   "note": "",
+   "source": "https://ai.42how.com/en/article/b3a58c9d-4873-4d89-a13f-ceb0801b54a9"
+  },
+  {
+   "group": "Connectivity & Interfaces",
+   "key": "wifi",
+   "label": "Wi-Fi",
+   "value": true,
+   "unit": "",
+   "note": "Direct Wi-Fi connection for development",
+   "source": "https://ai.42how.com/en/article/b3a58c9d-4873-4d89-a13f-ceb0801b54a9"
+  },
+  {
+   "group": "Connectivity & Interfaces",
+   "key": "cellular",
+   "label": "Cellular",
+   "value": "4G",
+   "unit": "",
+   "note": "User must supply SIM data plan for outdoor remote debugging",
+   "source": "https://www.timesauto.com/czix/202611/478920.html"
+  },
+  {
+   "group": "Connectivity & Interfaces",
+   "key": "external_ports",
+   "label": "Full-function Type-C port",
+   "value": true,
+   "unit": "",
+   "note": "Connects cameras, speakers, projectors; up to 240 W external power output (Times Auto)",
+   "source": "https://www.timesauto.com/czix/202611/478920.html"
+  },
+  {
+   "group": "Payload & Mounting",
+   "key": "mounting_bolt_size",
+   "label": "Body mounting threads",
+   "value": "Reserved physical mounting threads on back",
+   "unit": "",
+   "note": "For back plates, cargo baskets, DIY parts; magnetic interface also listed",
+   "source": "https://www.timesauto.com/czix/202611/478920.html"
+  },
+  {
+   "group": "Actuation & Joints",
+   "key": "actuator_type",
+   "label": "Actuators",
+   "value": "Integrated joint motors; head servo",
+   "unit": "",
+   "note": "",
+   "source": "https://www.timesauto.com/czix/202611/478920.html"
+  },
+  {
+   "group": "Compute & Software",
+   "key": "ros_support",
+   "label": "ROS 2 compatible",
+   "value": true,
+   "unit": "",
+   "note": "",
+   "source": "https://ai.42how.com/en/article/b3a58c9d-4873-4d89-a13f-ceb0801b54a9"
+  },
+  {
+   "group": "Compute & Software",
+   "key": "sdk",
+   "label": "SDK",
+   "value": "SDK, development docs, simulation Studio and AI-native tools (AI agent)",
+   "unit": "",
+   "note": "",
+   "source": "https://ai.42how.com/en/article/b3a58c9d-4873-4d89-a13f-ceb0801b54a9"
+  },
+  {
+   "group": "Compute & Software",
+   "key": "autonomy_features",
+   "label": "Pre-installed capabilities",
+   "value": "Spatial memory & navigation; follow-me; local visual recognition; voice interaction; RCP robot control platform; motion pack repository (50+ motions/expressions)",
+   "unit": "",
+   "note": "",
+   "source": "https://ai.42how.com/en/article/b3a58c9d-4873-4d89-a13f-ceb0801b54a9"
+  },
+  {
+   "group": "Compute & Software",
+   "key": "operating_system",
+   "label": "Middleware",
+   "value": "Aorta (open-source distributed middleware, self-developed)",
+   "unit": "",
+   "note": "",
+   "source": "https://ai.42how.com/en/article/b3a58c9d-4873-4d89-a13f-ceb0801b54a9"
+  },
+  {
+   "group": "Compute & Software",
+   "key": "ota_updates",
+   "label": "OTA updates",
+   "value": true,
+   "unit": "",
+   "note": "",
+   "source": "https://www.timesauto.com/czix/202611/478920.html"
+  }
+ ]
+}

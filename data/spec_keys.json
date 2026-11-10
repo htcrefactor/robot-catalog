@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-06",
- "robots_with_specs": 84,
+ "updated": "2026-11-10",
+ "robots_with_specs": 86,
  "keys": [
   {
    "key": "max_joint_torque",
@@ -21,7 +21,7 @@
    "dim": "",
    "base": "",
    "f2b": 1,
-   "robots": 15,
+   "robots": 16,
    "numeric": 0
   },
   {
@@ -54,8 +54,8 @@
    "dim": "",
    "base": "",
    "f2b": 1,
-   "robots": 10,
-   "numeric": 8
+   "robots": 11,
+   "numeric": 9
   },
   {
    "key": "cooling_system",
@@ -538,7 +538,7 @@
    "dim": "",
    "base": "",
    "f2b": 1,
-   "robots": 47,
+   "robots": 48,
    "numeric": 1
   },
   {
@@ -549,7 +549,7 @@
    "dim": "power",
    "base": "W",
    "f2b": 1,
-   "robots": 34,
+   "robots": 35,
    "numeric": 2
   },
   {
@@ -560,7 +560,7 @@
    "dim": "",
    "base": "",
    "f2b": 1,
-   "robots": 27,
+   "robots": 28,
    "numeric": 0
   },
   {
@@ -1385,7 +1385,7 @@
    "dim": "",
    "base": "USD",
    "f2b": 1,
-   "robots": 21,
+   "robots": 23,
    "numeric": 7
   },
   {
@@ -1418,7 +1418,7 @@
    "dim": "",
    "base": "",
    "f2b": 1,
-   "robots": 17,
+   "robots": 18,
    "numeric": 0
   },
   {
@@ -1561,7 +1561,7 @@
    "dim": "",
    "base": "",
    "f2b": 1,
-   "robots": 24,
+   "robots": 25,
    "numeric": 0
   },
   {
@@ -1583,7 +1583,7 @@
    "dim": "",
    "base": "",
    "f2b": 1,
-   "robots": 19,
+   "robots": 20,
    "numeric": 0
   },
   {
@@ -1594,7 +1594,7 @@
    "dim": "",
    "base": "",
    "f2b": 1,
-   "robots": 17,
+   "robots": 18,
    "numeric": 0
   },
   {
@@ -1605,7 +1605,7 @@
    "dim": "",
    "base": "",
    "f2b": 1,
-   "robots": 14,
+   "robots": 15,
    "numeric": 0
   },
   {
@@ -1664,6 +1664,17 @@
    "numeric": 0
   },
   {
+   "key": "ai_performance_tops",
+   "group": "Compute & Software",
+   "label": "AI compute",
+   "unit": "TOPS",
+   "dim": "",
+   "base": "TOPS",
+   "f2b": 1,
+   "robots": 9,
+   "numeric": 8
+  },
+  {
    "key": "simulation_support",
    "group": "Compute & Software",
    "label": "Simulation",
@@ -1673,17 +1684,6 @@
    "f2b": 1,
    "robots": 9,
    "numeric": 0
-  },
-  {
-   "key": "ai_performance_tops",
-   "group": "Compute & Software",
-   "label": "Expansion module compute",
-   "unit": "TOPS",
-   "dim": "",
-   "base": "TOPS",
-   "f2b": 1,
-   "robots": 8,
-   "numeric": 7
   },
   {
    "key": "programming_languages",
@@ -2144,7 +2144,7 @@
    "dim": "",
    "base": "",
    "f2b": 1,
-   "robots": 36,
+   "robots": 37,
    "numeric": 0
   },
   {
@@ -2155,8 +2155,19 @@
    "dim": "",
    "base": "port",
    "f2b": 1,
-   "robots": 23,
+   "robots": 24,
    "numeric": 3
+  },
+  {
+   "key": "cellular",
+   "group": "Connectivity & Interfaces",
+   "label": "Cellular",
+   "unit": "",
+   "dim": "",
+   "base": "",
+   "f2b": 1,
+   "robots": 22,
+   "numeric": 0
   },
   {
    "key": "ethernet",
@@ -2170,17 +2181,6 @@
    "numeric": 4
   },
   {
-   "key": "cellular",
-   "group": "Connectivity & Interfaces",
-   "label": "Cellular",
-   "unit": "",
-   "dim": "",
-   "base": "",
-   "f2b": 1,
-   "robots": 20,
-   "numeric": 0
-  },
-  {
    "key": "bluetooth",
    "group": "Connectivity & Interfaces",
    "label": "Bluetooth",
@@ -2188,7 +2188,7 @@
    "dim": "",
    "base": "",
    "f2b": 1,
-   "robots": 16,
+   "robots": 17,
    "numeric": 7
   },
   {
@@ -2694,7 +2694,7 @@
    "dim": "",
    "base": "",
    "f2b": 1,
-   "robots": 13,
+   "robots": 15,
    "numeric": 0
   },
   {
@@ -2705,7 +2705,7 @@
    "dim": "",
    "base": "",
    "f2b": 1,
-   "robots": 12,
+   "robots": 13,
    "numeric": 0
   },
   {
@@ -3387,8 +3387,8 @@
    "dim": "mass",
    "base": "kg",
    "f2b": 1,
-   "robots": 53,
-   "numeric": 62
+   "robots": 54,
+   "numeric": 63
   },
   {
    "key": "height",
@@ -4190,7 +4190,7 @@
    "dim": "",
    "base": "",
    "f2b": 1,
-   "robots": 17,
+   "robots": 19,
    "numeric": 1
   },
   {
@@ -4652,8 +4652,8 @@
    "dim": "speed",
    "base": "m/s",
    "f2b": 1,
-   "robots": 68,
-   "numeric": 86
+   "robots": 69,
+   "numeric": 87
   },
   {
    "key": "max_payload",
@@ -4700,6 +4700,17 @@
    "numeric": 15
   },
   {
+   "key": "gaits",
+   "group": "Mobility & Performance",
+   "label": "Gaits",
+   "unit": "",
+   "dim": "",
+   "base": "",
+   "f2b": 1,
+   "robots": 12,
+   "numeric": 0
+  },
+  {
    "key": "max_yaw_rate",
    "group": "Mobility & Performance",
    "label": "Maximum turning speed",
@@ -4720,17 +4731,6 @@
    "f2b": 1,
    "robots": 12,
    "numeric": 4
-  },
-  {
-   "key": "gaits",
-   "group": "Mobility & Performance",
-   "label": "Gaits",
-   "unit": "",
-   "dim": "",
-   "base": "",
-   "f2b": 1,
-   "robots": 11,
-   "numeric": 0
   },
   {
    "key": "positioning_accuracy",
@@ -5338,9 +5338,9 @@
    "numeric": 7
   },
   {
-   "key": "tray_dimensions",
+   "key": "mounting_bolt_size",
    "group": "Payload & Mounting",
-   "label": "Tray dimensions",
+   "label": "Mechanical interface",
    "unit": "",
    "dim": "",
    "base": "",
@@ -5349,14 +5349,14 @@
    "numeric": 0
   },
   {
-   "key": "mounting_bolt_size",
+   "key": "tray_dimensions",
    "group": "Payload & Mounting",
-   "label": "Mechanical interface",
+   "label": "Tray dimensions",
    "unit": "",
    "dim": "",
    "base": "",
    "f2b": 1,
-   "robots": 4,
+   "robots": 5,
    "numeric": 0
   },
   {
@@ -6115,8 +6115,8 @@
    "dim": "time",
    "base": "h",
    "f2b": 1,
-   "robots": 70,
-   "numeric": 76
+   "robots": 71,
+   "numeric": 77
   },
   {
    "key": "battery_voltage",
@@ -6130,6 +6130,17 @@
    "numeric": 47
   },
   {
+   "key": "battery_capacity",
+   "group": "Power & Battery",
+   "label": "Battery capacity",
+   "unit": "Wh",
+   "dim": "energy",
+   "base": "Wh",
+   "f2b": 1,
+   "robots": 35,
+   "numeric": 28
+  },
+  {
    "key": "battery_swappable",
    "group": "Power & Battery",
    "label": "Swappable battery",
@@ -6139,17 +6150,6 @@
    "f2b": 1,
    "robots": 35,
    "numeric": 0
-  },
-  {
-   "key": "battery_capacity",
-   "group": "Power & Battery",
-   "label": "Battery capacity",
-   "unit": "Wh",
-   "dim": "energy",
-   "base": "Wh",
-   "f2b": 1,
-   "robots": 34,
-   "numeric": 27
   },
   {
    "key": "battery_chemistry",
@@ -7578,7 +7578,7 @@
    "dim": "",
    "base": "",
    "f2b": 1,
-   "robots": 31,
+   "robots": 33,
    "numeric": 1
   },
   {
@@ -7589,7 +7589,7 @@
    "dim": "",
    "base": "",
    "f2b": 1,
-   "robots": 27,
+   "robots": 28,
    "numeric": 1
   },
   {
@@ -7600,7 +7600,7 @@
    "dim": "",
    "base": "",
    "f2b": 1,
-   "robots": 22,
+   "robots": 23,
    "numeric": 0
   },
   {
@@ -7622,7 +7622,7 @@
    "dim": "",
    "base": "",
    "f2b": 1,
-   "robots": 17,
+   "robots": 18,
    "numeric": 0
   },
   {
@@ -8020,6 +8020,17 @@
    "f2b": 1,
    "robots": 2,
    "numeric": 1
+  },
+  {
+   "key": "uwb",
+   "group": "Sensors & Perception",
+   "label": "UWB positioning",
+   "unit": "",
+   "dim": "",
+   "base": "",
+   "f2b": 1,
+   "robots": 2,
+   "numeric": 0
   },
   {
    "key": "camera_frame_rate",
@@ -8550,17 +8561,6 @@
    "numeric": 0
   },
   {
-   "key": "uwb",
-   "group": "Sensors & Perception",
-   "label": "UWB",
-   "unit": "",
-   "dim": "",
-   "base": "",
-   "f2b": 1,
-   "robots": 1,
-   "numeric": 0
-  },
-  {
    "key": "accelerometer",
    "group": "Sensors & Perception",
    "label": "Wrist accelerometer",
@@ -8590,8 +8590,8 @@
    "dim": "angle",
    "base": "°",
    "f2b": 1,
-   "robots": 44,
-   "numeric": 35
+   "robots": 45,
+   "numeric": 36
   },
   {
    "key": "max_obstacle_height",
@@ -8601,8 +8601,8 @@
    "dim": "length",
    "base": "mm",
    "f2b": 1,
-   "robots": 30,
-   "numeric": 28
+   "robots": 31,
+   "numeric": 29
   },
   {
    "key": "navigation_method",
