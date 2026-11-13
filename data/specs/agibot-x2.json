@@ -5,6 +5,10 @@
   {
    "title": "HumanoidStore datasheet – AgiBot X2 Neo (CC BY 4.0)",
    "url": "https://humanoidstore.co/robots/agibot-x2"
+  },
+  {
+   "title": "AgiBot official X2 product page (specs, accessed 2026-11-13)",
+   "url": "https://www.agibot.com.cn/products/X2"
   }
  ],
  "specs": [
@@ -160,6 +164,231 @@
    "unit": "m/s",
    "note": "HumanoidStore open data (CC BY 4.0), checked 2026-10",
    "source": "https://humanoidstore.co/robots/agibot-x2"
+  },
+  {
+   "group": "Dimensions & Mass",
+   "key": "length",
+   "label": "Length",
+   "value": 1310,
+   "unit": "mm",
+   "note": "Maker lists 1310 × 460 × 210 mm (overall size, standing)",
+   "source": "https://www.agibot.com.cn/products/X2"
+  },
+  {
+   "group": "Dimensions & Mass",
+   "key": "width",
+   "label": "Width",
+   "value": 460,
+   "unit": "mm",
+   "note": "",
+   "source": "https://www.agibot.com.cn/products/X2"
+  },
+  {
+   "group": "Dimensions & Mass",
+   "key": "thickness",
+   "label": "Depth",
+   "value": 210,
+   "unit": "mm",
+   "note": "third dimension of 1310 × 460 × 210 mm",
+   "source": "https://www.agibot.com.cn/products/X2"
+  },
+  {
+   "group": "Dimensions & Mass",
+   "key": "height_standing",
+   "label": "Standing height",
+   "value": 1.31,
+   "unit": "m",
+   "note": "approx.; maker page, X2 Neo",
+   "source": "https://www.agibot.com.cn/products/X2"
+  },
+  {
+   "group": "Dimensions & Mass",
+   "key": "weight",
+   "label": "Mass",
+   "value": 35,
+   "unit": "kg",
+   "note": "approx.; X2 Neo (X2 Ultra: 39 kg)",
+   "source": "https://www.agibot.com.cn/products/X2"
+  },
+  {
+   "group": "Mobility & Performance",
+   "key": "degrees_of_freedom",
+   "label": "Body DoF",
+   "value": 30,
+   "unit": "",
+   "note": "X2 Neo; X2 Ultra 31",
+   "source": "https://www.agibot.com.cn/products/X2"
+  },
+  {
+   "group": "Actuation & Joints",
+   "key": "dof_head",
+   "label": "Head DoF",
+   "value": 1,
+   "unit": "",
+   "note": "X2 Neo (Ultra: 2)",
+   "source": "https://www.agibot.com.cn/products/X2"
+  },
+  {
+   "group": "Actuation & Joints",
+   "key": "dof_per_arm",
+   "label": "DoF per arm",
+   "value": 7,
+   "unit": "",
+   "note": "",
+   "source": "https://www.agibot.com.cn/products/X2"
+  },
+  {
+   "group": "Actuation & Joints",
+   "key": "dof_waist",
+   "label": "Waist DoF",
+   "value": 3,
+   "unit": "",
+   "note": "",
+   "source": "https://www.agibot.com.cn/products/X2"
+  },
+  {
+   "group": "Actuation & Joints",
+   "key": "dof_per_leg",
+   "label": "DoF per leg",
+   "value": 6,
+   "unit": "",
+   "note": "",
+   "source": "https://www.agibot.com.cn/products/X2"
+  },
+  {
+   "group": "Dimensions & Mass",
+   "key": "arm_span",
+   "label": "Arm span",
+   "value": 558,
+   "unit": "mm",
+   "note": "excluding end effector",
+   "source": "https://www.agibot.com.cn/products/X2"
+  },
+  {
+   "group": "Actuation & Joints",
+   "key": "max_joint_torque",
+   "label": "Knee peak torque",
+   "value": 120,
+   "unit": "N·m",
+   "note": "",
+   "source": "https://www.agibot.com.cn/products/X2"
+  },
+  {
+   "group": "Manipulation",
+   "key": "arm_payload",
+   "label": "Arm payload",
+   "value": 3,
+   "unit": "kg",
+   "note": "max in specific pose; ≤1 kg over full motion range",
+   "source": "https://www.agibot.com.cn/products/X2"
+  },
+  {
+   "group": "Mobility & Performance",
+   "key": "max_speed",
+   "label": "Max walking speed",
+   "value": 2,
+   "unit": "m/s",
+   "note": "laboratory best; typical ≤0.8 m/s",
+   "source": "https://www.agibot.com.cn/products/X2"
+  },
+  {
+   "group": "Mobility & Performance",
+   "key": "nominal_speed",
+   "label": "Typical walking speed",
+   "value": 0.8,
+   "unit": "m/s",
+   "note": "typical ≤0.8 m/s",
+   "source": "https://www.agibot.com.cn/products/X2"
+  },
+  {
+   "group": "Environment & Protection",
+   "key": "operating_temperature",
+   "label": "Operating temperature",
+   "value": "-10 to 40",
+   "unit": "°C",
+   "note": "",
+   "source": "https://www.agibot.com.cn/products/X2"
+  },
+  {
+   "group": "Compute & Software",
+   "key": "cpu",
+   "label": "Main compute board",
+   "value": "RK3588 ×2",
+   "unit": "",
+   "note": "",
+   "source": "https://www.agibot.com.cn/products/X2"
+  },
+  {
+   "group": "Compute & Software",
+   "key": "usb_ports",
+   "label": "USB Type-C ports",
+   "value": "at least 3",
+   "unit": "",
+   "note": "also RJ45 ×2; 12 V/3 A ×1; 48 V/5 A ×1",
+   "source": "https://www.agibot.com.cn/products/X2"
+  },
+  {
+   "group": "Connectivity & Interfaces",
+   "key": "cellular",
+   "label": "Connectivity",
+   "value": "Wi-Fi, Bluetooth, 4G/5G module",
+   "unit": "",
+   "note": "GPS; optional UWB group-control kit",
+   "source": "https://www.agibot.com.cn/products/X2"
+  },
+  {
+   "group": "Power & Battery",
+   "key": "battery_capacity",
+   "label": "Battery capacity",
+   "value": 500,
+   "unit": "Wh",
+   "note": "approx.",
+   "source": "https://www.agibot.com.cn/products/X2"
+  },
+  {
+   "group": "Power & Battery",
+   "key": "runtime",
+   "label": "Runtime",
+   "value": 120,
+   "unit": "min",
+   "note": "approx. 2 h walking at 0.5 m/s",
+   "source": "https://www.agibot.com.cn/products/X2"
+  },
+  {
+   "group": "Power & Battery",
+   "key": "battery_swappable",
+   "label": "Swappable battery",
+   "value": true,
+   "unit": "",
+   "note": "direct charge or replaceable battery",
+   "source": "https://www.agibot.com.cn/products/X2"
+  },
+  {
+   "group": "Charging & Docking",
+   "key": "charge_time",
+   "label": "Charge time",
+   "value": 1.5,
+   "unit": "h",
+   "note": "≤1.5 h, 10%–100%",
+   "source": "https://www.agibot.com.cn/products/X2"
+  },
+  {
+   "group": "Charging & Docking",
+   "key": "charger_input",
+   "label": "Charger input",
+   "value": "100–220",
+   "unit": "V",
+   "note": "",
+   "source": "https://www.agibot.com.cn/products/X2"
+  },
+  {
+   "group": "Charging & Docking",
+   "key": "charger_output",
+   "label": "Charger output",
+   "value": "54.6 V / 10 A",
+   "unit": "",
+   "note": "",
+   "source": "https://www.agibot.com.cn/products/X2"
   }
  ]
 }

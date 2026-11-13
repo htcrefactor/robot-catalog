@@ -36,6 +36,24 @@
         "date": "2026-11-10",
         "result": "no official specs; dimensions/weight only from third-party aggregators, not added"
       }
+    ],
+    "agibot-x2": [
+      {
+        "date": "2026-11-13",
+        "result": "HumanoidStore verified vs maker page: all matched; added 24 maker rows (dims, joints, RK3588, 500 Wh, charger)"
+      }
+    ],
+    "agibot-x1": [
+      {
+        "date": "2026-11-13",
+        "result": "verified vs maker page: DoF conflict (HumanoidStore 34 vs maker 31); catalog set to 31"
+      }
+    ],
+    "agibot-a2": [
+      {
+        "date": "2026-11-13",
+        "result": "verified vs maker page (Youth edition): weight 64 vs 63, arm payload ~2 vs 1.5 kg conflicts; catalog uses maker"
+      }
     ]
   }
 }

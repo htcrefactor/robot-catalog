@@ -829,11 +829,11 @@
    "locomotion": "Legged",
    "release_year": null,
    "status": "Commercial",
-   "length_mm": null,
-   "width_mm": null,
+   "length_mm": 300,
+   "width_mm": 750,
    "height_mm": 1690,
-   "weight_kg": 63,
-   "payload_kg": 1.5,
+   "weight_kg": 64,
+   "payload_kg": 2,
    "max_speed_mps": 0.8,
    "min_speed_mps": null,
    "wheel_diameter_mm": null,
@@ -851,12 +851,13 @@
    "sensors": [],
    "price_usd": 44560,
    "price_note": "list 44560 USD (maker), per HumanoidStore, checked 2026-10",
-   "official_url": null,
+   "official_url": "https://www.agibot.com.cn/products/A2_Ultra",
    "sources": [
-    "https://humanoidstore.co/robots/agibot-a2"
+    "https://humanoidstore.co/robots/agibot-a2",
+    "https://www.agibot.com.cn/products/A2_Ultra"
    ],
    "summary": "Full-size humanoid from AgiBot; shipping now, anyone can order.",
-   "data_source": "HumanoidStore open data (CC BY 4.0)"
+   "data_source": "HumanoidStore + maker page"
   },
   {
    "id": "agibot-a2-ultra",
@@ -995,7 +996,7 @@
    "min_speed_mps": null,
    "wheel_diameter_mm": null,
    "wheel_count": null,
-   "dof": 34,
+   "dof": 31,
    "runtime_h": 2.0,
    "battery_wh": null,
    "ip_rating": null,
@@ -1008,12 +1009,13 @@
    "sensors": [],
    "price_usd": null,
    "price_note": null,
-   "official_url": null,
+   "official_url": "https://www.agibot.com.cn/products/X1",
    "sources": [
-    "https://humanoidstore.co/robots/agibot-x1"
+    "https://humanoidstore.co/robots/agibot-x1",
+    "https://www.agibot.com.cn/products/X1"
    ],
    "summary": "Mid-size humanoid from AgiBot; research only, sold to research buyers.",
-   "data_source": "HumanoidStore open data (CC BY 4.0)"
+   "data_source": "HumanoidStore + maker page"
   },
   {
    "id": "agibot-x2",
@@ -1024,8 +1026,8 @@
    "locomotion": "Legged",
    "release_year": null,
    "status": "Commercial",
-   "length_mm": null,
-   "width_mm": null,
+   "length_mm": 1310,
+   "width_mm": 460,
    "height_mm": 1310,
    "weight_kg": 35,
    "payload_kg": 3,
@@ -1035,7 +1037,7 @@
    "wheel_count": null,
    "dof": 30,
    "runtime_h": 2.0,
-   "battery_wh": null,
+   "battery_wh": 500,
    "ip_rating": null,
    "api_support": null,
    "sdk_available": null,
@@ -1046,12 +1048,13 @@
    "sensors": [],
    "price_usd": 25600,
    "price_note": "list 25600 USD (maker), per HumanoidStore, checked 2026-10",
-   "official_url": null,
+   "official_url": "https://www.agibot.com.cn/products/X2",
    "sources": [
-    "https://humanoidstore.co/robots/agibot-x2"
+    "https://humanoidstore.co/robots/agibot-x2",
+    "https://www.agibot.com.cn/products/X2"
    ],
    "summary": "Mid-size humanoid from AgiBot; shipping now, anyone can order.",
-   "data_source": "HumanoidStore open data (CC BY 4.0)"
+   "data_source": "HumanoidStore + maker page"
   },
   {
    "id": "agile-robots-agile-one",

@@ -5,6 +5,10 @@
   {
    "title": "HumanoidStore datasheet – AgiBot A2 (CC BY 4.0)",
    "url": "https://humanoidstore.co/robots/agibot-a2"
+  },
+  {
+   "title": "AgiBot official A2 product page (Ultra/Youth specs, accessed 2026-11-13)",
+   "url": "https://www.agibot.com.cn/products/A2_Ultra"
   }
  ],
  "specs": [
@@ -160,6 +164,159 @@
    "unit": "m/s",
    "note": "configuration: A2 Lite; HumanoidStore open data (CC BY 4.0), checked 2026-10",
    "source": "https://humanoidstore.co/robots/agibot-a2"
+  },
+  {
+   "group": "Dimensions & Mass",
+   "key": "height_standing",
+   "label": "Height",
+   "value": 169,
+   "unit": "cm",
+   "note": "A2 青春版 (Youth edition) column",
+   "source": "https://www.agibot.com.cn/products/A2_Ultra"
+  },
+  {
+   "group": "Dimensions & Mass",
+   "key": "width",
+   "label": "Width",
+   "value": 750,
+   "unit": "mm",
+   "note": "",
+   "source": "https://www.agibot.com.cn/products/A2_Ultra"
+  },
+  {
+   "group": "Dimensions & Mass",
+   "key": "length",
+   "label": "Depth",
+   "value": 300,
+   "unit": "mm",
+   "note": "",
+   "source": "https://www.agibot.com.cn/products/A2_Ultra"
+  },
+  {
+   "group": "Dimensions & Mass",
+   "key": "weight",
+   "label": "Weight",
+   "value": 64,
+   "unit": "kg",
+   "note": "A2 Youth edition (HumanoidStore says 63; A2 Ultra 69)",
+   "source": "https://www.agibot.com.cn/products/A2_Ultra"
+  },
+  {
+   "group": "Mobility & Performance",
+   "key": "degrees_of_freedom",
+   "label": "Active DoF",
+   "value": 23,
+   "unit": "",
+   "note": "Youth edition (Ultra: 40)",
+   "source": "https://www.agibot.com.cn/products/A2_Ultra"
+  },
+  {
+   "group": "Actuation & Joints",
+   "key": "dof_per_arm",
+   "label": "DoF per arm",
+   "value": 5,
+   "unit": "",
+   "note": "Youth edition (Ultra 7)",
+   "source": "https://www.agibot.com.cn/products/A2_Ultra"
+  },
+  {
+   "group": "Actuation & Joints",
+   "key": "dof_per_leg",
+   "label": "DoF per leg",
+   "value": 6,
+   "unit": "",
+   "note": "",
+   "source": "https://www.agibot.com.cn/products/A2_Ultra"
+  },
+  {
+   "group": "Actuation & Joints",
+   "key": "max_joint_torque",
+   "label": "Knee peak torque",
+   "value": 270,
+   "unit": "N·m",
+   "note": "",
+   "source": "https://www.agibot.com.cn/products/A2_Ultra"
+  },
+  {
+   "group": "Mobility & Performance",
+   "key": "max_speed",
+   "label": "Max speed",
+   "value": 0.8,
+   "unit": "m/s",
+   "note": "Youth edition (Ultra 1.2)",
+   "source": "https://www.agibot.com.cn/products/A2_Ultra"
+  },
+  {
+   "group": "Manipulation",
+   "key": "arm_payload",
+   "label": "Rated payload per arm",
+   "value": 2,
+   "unit": "kg",
+   "note": "approx. (HumanoidStore says 1.5 kg total: conflict)",
+   "source": "https://www.agibot.com.cn/products/A2_Ultra"
+  },
+  {
+   "group": "Power & Battery",
+   "key": "battery_capacity",
+   "label": "Battery capacity",
+   "value": 14.4,
+   "unit": "Ah",
+   "note": "",
+   "source": "https://www.agibot.com.cn/products/A2_Ultra"
+  },
+  {
+   "group": "Power & Battery",
+   "key": "runtime",
+   "label": "Standing work runtime",
+   "value": 270,
+   "unit": "min",
+   "note": "4.5 h standing; continuous walking 1.5 h+",
+   "source": "https://www.agibot.com.cn/products/A2_Ultra"
+  },
+  {
+   "group": "Power & Battery",
+   "key": "battery_swappable",
+   "label": "Swappable battery",
+   "value": true,
+   "unit": "",
+   "note": "direct charge or swap",
+   "source": "https://www.agibot.com.cn/products/A2_Ultra"
+  },
+  {
+   "group": "Charging & Docking",
+   "key": "charge_time",
+   "label": "Charge time",
+   "value": 2,
+   "unit": "h",
+   "note": "",
+   "source": "https://www.agibot.com.cn/products/A2_Ultra"
+  },
+  {
+   "group": "Charging & Docking",
+   "key": "charger_input",
+   "label": "Charger input",
+   "value": "110–220",
+   "unit": "V",
+   "note": "",
+   "source": "https://www.agibot.com.cn/products/A2_Ultra"
+  },
+  {
+   "group": "Charging & Docking",
+   "key": "charger_output",
+   "label": "Charger output",
+   "value": "54.6 V / 8 A",
+   "unit": "",
+   "note": "",
+   "source": "https://www.agibot.com.cn/products/A2_Ultra"
+  },
+  {
+   "group": "Connectivity & Interfaces",
+   "key": "wifi",
+   "label": "Wi-Fi",
+   "value": true,
+   "unit": "",
+   "note": "Youth edition: Wi-Fi only (Ultra adds 4G/5G)",
+   "source": "https://www.agibot.com.cn/products/A2_Ultra"
   }
  ]
 }
