@@ -1,0 +1,129 @@
+{
+ "id": "hiwonder-tonybot",
+ "checked": "2026-11-13",
+ "documents": [
+  {
+   "title": "HumanoidStore datasheet – Hiwonder Tonybot (CC BY 4.0)",
+   "url": "https://humanoidstore.co/robots/hiwonder-tonybot"
+  }
+ ],
+ "specs": [
+  {
+   "group": "Commercial",
+   "key": "sales_status",
+   "label": "Sales status",
+   "value": "shipping-now",
+   "unit": "",
+   "note": "configuration: Standard kit; HumanoidStore open data (CC BY 4.0), checked 2026-11",
+   "source": "https://humanoidstore.co/robots/hiwonder-tonybot"
+  },
+  {
+   "group": "Commercial",
+   "key": "who_can_buy",
+   "label": "Who can buy",
+   "value": "anyone",
+   "unit": "",
+   "note": "configuration: Standard kit; HumanoidStore open data (CC BY 4.0), checked 2026-11",
+   "source": "https://humanoidstore.co/robots/hiwonder-tonybot"
+  },
+  {
+   "group": "Commercial",
+   "key": "price",
+   "label": "Price",
+   "value": 519.99,
+   "unit": "USD",
+   "note": "configuration: Standard kit; list price (maker price); HumanoidStore open data (CC BY 4.0), checked 2026-11",
+   "source": "https://humanoidstore.co/robots/hiwonder-tonybot"
+  },
+  {
+   "group": "Commercial",
+   "key": "us_delivered_price",
+   "label": "Delivered price to US",
+   "value": 817,
+   "unit": "USD",
+   "note": "configuration: Standard kit; before sales tax; route: estimate: import; HumanoidStore open data (CC BY 4.0), checked 2026-11",
+   "source": "https://humanoidstore.co/robots/hiwonder-tonybot"
+  },
+  {
+   "group": "Commercial",
+   "key": "ships_to_us",
+   "label": "Route to US",
+   "value": "direct",
+   "unit": "",
+   "note": "configuration: Standard kit; HumanoidStore open data (CC BY 4.0), checked 2026-11",
+   "source": "https://humanoidstore.co/robots/hiwonder-tonybot"
+  },
+  {
+   "group": "Commercial",
+   "key": "ships_to_eu",
+   "label": "Route to EU",
+   "value": "unclear",
+   "unit": "",
+   "note": "configuration: Standard kit; HumanoidStore open data (CC BY 4.0), checked 2026-11",
+   "source": "https://humanoidstore.co/robots/hiwonder-tonybot"
+  },
+  {
+   "group": "Commercial",
+   "key": "seller_count",
+   "label": "Sellers listed",
+   "value": 1,
+   "unit": "",
+   "note": "configuration: Standard kit; HumanoidStore open data (CC BY 4.0), checked 2026-11",
+   "source": "https://humanoidstore.co/robots/hiwonder-tonybot"
+  },
+  {
+   "group": "Commercial",
+   "key": "documented_uses",
+   "label": "Documented uses",
+   "value": "Teaching / education; Learn and tinker",
+   "unit": "",
+   "note": "configuration: Standard kit; HumanoidStore open data (CC BY 4.0), checked 2026-11",
+   "source": "https://humanoidstore.co/robots/hiwonder-tonybot"
+  },
+  {
+   "group": "Manipulation",
+   "key": "hands",
+   "label": "Hands",
+   "value": "none",
+   "unit": "",
+   "note": "configuration: Standard kit; HumanoidStore open data (CC BY 4.0), checked 2026-11",
+   "source": "https://humanoidstore.co/robots/hiwonder-tonybot"
+  },
+  {
+   "group": "Identity",
+   "key": "form_factor",
+   "label": "Form factor",
+   "value": "desktop-size",
+   "unit": "",
+   "note": "configuration: Standard kit; HumanoidStore open data (CC BY 4.0), checked 2026-11",
+   "source": "https://humanoidstore.co/robots/hiwonder-tonybot"
+  },
+  {
+   "group": "Dimensions & Mass",
+   "key": "height_standing",
+   "label": "Height (standing)",
+   "value": 38.3,
+   "unit": "cm",
+   "note": "configuration: Standard kit; HumanoidStore open data (CC BY 4.0), checked 2026-11",
+   "source": "https://humanoidstore.co/robots/hiwonder-tonybot"
+  },
+  {
+   "group": "Dimensions & Mass",
+   "key": "weight",
+   "label": "Weight",
+   "value": 1.8,
+   "unit": "kg",
+   "note": "configuration: Standard kit; HumanoidStore open data (CC BY 4.0), checked 2026-11",
+   "source": "https://humanoidstore.co/robots/hiwonder-tonybot"
+  },
+  {
+   "group": "Mobility & Performance",
+   "key": "degrees_of_freedom",
+   "label": "Total degrees of freedom",
+   "value": 17,
+   "unit": "",
+   "note": "configuration: Standard kit; HumanoidStore open data (CC BY 4.0), checked 2026-11",
+   "source": "https://humanoidstore.co/robots/hiwonder-tonybot"
+  }
+ ]
+}

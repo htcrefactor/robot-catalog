@@ -1,0 +1,174 @@
+{
+ "id": "nao-6",
+ "checked": "2026-11-13",
+ "documents": [
+  {
+   "title": "HumanoidStore datasheet – Aldebaran NAO 6 (CC BY 4.0)",
+   "url": "https://humanoidstore.co/robots/nao-6"
+  }
+ ],
+ "specs": [
+  {
+   "group": "Commercial",
+   "key": "sales_status",
+   "label": "Sales status",
+   "value": "shipping-now",
+   "unit": "",
+   "note": "HumanoidStore open data (CC BY 4.0), checked 2026-10",
+   "source": "https://humanoidstore.co/robots/nao-6"
+  },
+  {
+   "group": "Commercial",
+   "key": "who_can_buy",
+   "label": "Who can buy",
+   "value": "anyone",
+   "unit": "",
+   "note": "HumanoidStore open data (CC BY 4.0), checked 2026-10",
+   "source": "https://humanoidstore.co/robots/nao-6"
+  },
+  {
+   "group": "Commercial",
+   "key": "price",
+   "label": "Price",
+   "value": 10020,
+   "unit": "EUR",
+   "note": "list price (maker price); HumanoidStore open data (CC BY 4.0), checked 2026-10",
+   "source": "https://humanoidstore.co/robots/nao-6"
+  },
+  {
+   "group": "Commercial",
+   "key": "price_usd_equiv",
+   "label": "Price (USD equivalent)",
+   "value": 16990,
+   "unit": "USD",
+   "note": "EUR list price at ECB reference rate; HumanoidStore open data (CC BY 4.0), checked 2026-10",
+   "source": "https://humanoidstore.co/robots/nao-6"
+  },
+  {
+   "group": "Commercial",
+   "key": "us_delivered_price",
+   "label": "Delivered price to US",
+   "value": 10466,
+   "unit": "USD",
+   "note": "before sales tax; route: estimate: import; HumanoidStore open data (CC BY 4.0), checked 2026-10",
+   "source": "https://humanoidstore.co/robots/nao-6"
+  },
+  {
+   "group": "Commercial",
+   "key": "de_delivered_price",
+   "label": "Delivered price to Germany",
+   "value": 9948,
+   "unit": "EUR",
+   "note": "incl. 19% VAT; route: estimate: domestic delivery; HumanoidStore open data (CC BY 4.0), checked 2026-10",
+   "source": "https://humanoidstore.co/robots/nao-6"
+  },
+  {
+   "group": "Commercial",
+   "key": "ships_to_us",
+   "label": "Route to US",
+   "value": "reseller",
+   "unit": "",
+   "note": "HumanoidStore open data (CC BY 4.0), checked 2026-10",
+   "source": "https://humanoidstore.co/robots/nao-6"
+  },
+  {
+   "group": "Commercial",
+   "key": "ships_to_eu",
+   "label": "Route to EU",
+   "value": "reseller",
+   "unit": "",
+   "note": "HumanoidStore open data (CC BY 4.0), checked 2026-10",
+   "source": "https://humanoidstore.co/robots/nao-6"
+  },
+  {
+   "group": "Commercial",
+   "key": "seller_count",
+   "label": "Sellers listed",
+   "value": 3,
+   "unit": "",
+   "note": "HumanoidStore open data (CC BY 4.0), checked 2026-10",
+   "source": "https://humanoidstore.co/robots/nao-6"
+  },
+  {
+   "group": "Commercial",
+   "key": "documented_uses",
+   "label": "Documented uses",
+   "value": "Robotics R&D; Teaching / education; Learn and tinker",
+   "unit": "",
+   "note": "HumanoidStore open data (CC BY 4.0), checked 2026-10",
+   "source": "https://humanoidstore.co/robots/nao-6"
+  },
+  {
+   "group": "Manipulation",
+   "key": "hands",
+   "label": "Hands",
+   "value": "fixed-grippers",
+   "unit": "",
+   "note": "HumanoidStore open data (CC BY 4.0), checked 2026-10",
+   "source": "https://humanoidstore.co/robots/nao-6"
+  },
+  {
+   "group": "Identity",
+   "key": "form_factor",
+   "label": "Form factor",
+   "value": "desktop-size",
+   "unit": "",
+   "note": "HumanoidStore open data (CC BY 4.0), checked 2026-10",
+   "source": "https://humanoidstore.co/robots/nao-6"
+  },
+  {
+   "group": "Dimensions & Mass",
+   "key": "height_standing",
+   "label": "Height (standing)",
+   "value": 58,
+   "unit": "cm",
+   "note": "HumanoidStore open data (CC BY 4.0), checked 2026-10",
+   "source": "https://humanoidstore.co/robots/nao-6"
+  },
+  {
+   "group": "Dimensions & Mass",
+   "key": "weight",
+   "label": "Weight",
+   "value": 5.5,
+   "unit": "kg",
+   "note": "HumanoidStore open data (CC BY 4.0), checked 2026-10",
+   "source": "https://humanoidstore.co/robots/nao-6"
+  },
+  {
+   "group": "Mobility & Performance",
+   "key": "degrees_of_freedom",
+   "label": "Total degrees of freedom",
+   "value": 25,
+   "unit": "",
+   "note": "HumanoidStore open data (CC BY 4.0), checked 2026-10",
+   "source": "https://humanoidstore.co/robots/nao-6"
+  },
+  {
+   "group": "Power & Battery",
+   "key": "runtime",
+   "label": "Runtime per charge",
+   "value": 90,
+   "unit": "min",
+   "note": "HumanoidStore open data (CC BY 4.0), checked 2026-10",
+   "source": "https://humanoidstore.co/robots/nao-6"
+  },
+  {
+   "group": "Mobility & Performance",
+   "key": "max_speed",
+   "label": "Top speed",
+   "value": 0.17,
+   "unit": "m/s",
+   "note": "HumanoidStore open data (CC BY 4.0), checked 2026-10",
+   "source": "https://humanoidstore.co/robots/nao-6"
+  },
+  {
+   "group": "Commercial",
+   "key": "public_tender_unit_price",
+   "label": "Public tender price per unit",
+   "value": 126134,
+   "unit": "RON",
+   "note": "Technical University of Cluj-Napoca (RO), awarded 2025-10-15: 2 x NAO6 or equivalent; 3 bid(s); before VAT; winner GBC Exim; via HumanoidStore tender record (CC BY 4.0)",
+   "source": "https://ted.europa.eu/en/notice/-/detail/679454-2025"
+  }
+ ]
+}

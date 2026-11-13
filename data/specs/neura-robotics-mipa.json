@@ -1,0 +1,111 @@
+{
+ "id": "neura-robotics-mipa",
+ "checked": "2026-11-13",
+ "documents": [
+  {
+   "title": "HumanoidStore datasheet – NEURA Robotics MiPA (CC BY 4.0)",
+   "url": "https://humanoidstore.co/robots/neura-robotics-mipa"
+  }
+ ],
+ "specs": [
+  {
+   "group": "Commercial",
+   "key": "sales_status",
+   "label": "Sales status",
+   "value": "preorder",
+   "unit": "",
+   "note": "HumanoidStore open data (CC BY 4.0), checked 2026-10",
+   "source": "https://humanoidstore.co/robots/neura-robotics-mipa"
+  },
+  {
+   "group": "Commercial",
+   "key": "who_can_buy",
+   "label": "Who can buy",
+   "value": "anyone",
+   "unit": "",
+   "note": "HumanoidStore open data (CC BY 4.0), checked 2026-10",
+   "source": "https://humanoidstore.co/robots/neura-robotics-mipa"
+  },
+  {
+   "group": "Commercial",
+   "key": "price",
+   "label": "Price",
+   "value": 9999,
+   "unit": "EUR",
+   "note": "list price (maker price); HumanoidStore open data (CC BY 4.0), checked 2026-10",
+   "source": "https://humanoidstore.co/robots/neura-robotics-mipa"
+  },
+  {
+   "group": "Commercial",
+   "key": "price_usd_equiv",
+   "label": "Price (USD equivalent)",
+   "value": 11224,
+   "unit": "USD",
+   "note": "EUR list price at ECB reference rate; HumanoidStore open data (CC BY 4.0), checked 2026-10",
+   "source": "https://humanoidstore.co/robots/neura-robotics-mipa"
+  },
+  {
+   "group": "Commercial",
+   "key": "de_delivered_price",
+   "label": "Delivered price to Germany",
+   "value": 10107,
+   "unit": "EUR",
+   "note": "incl. 19% VAT; route: estimate: domestic delivery; HumanoidStore open data (CC BY 4.0), checked 2026-10",
+   "source": "https://humanoidstore.co/robots/neura-robotics-mipa"
+  },
+  {
+   "group": "Commercial",
+   "key": "ships_to_us",
+   "label": "Route to US",
+   "value": "unclear",
+   "unit": "",
+   "note": "HumanoidStore open data (CC BY 4.0), checked 2026-10",
+   "source": "https://humanoidstore.co/robots/neura-robotics-mipa"
+  },
+  {
+   "group": "Commercial",
+   "key": "ships_to_eu",
+   "label": "Route to EU",
+   "value": "direct",
+   "unit": "",
+   "note": "HumanoidStore open data (CC BY 4.0), checked 2026-10",
+   "source": "https://humanoidstore.co/robots/neura-robotics-mipa"
+  },
+  {
+   "group": "Commercial",
+   "key": "seller_count",
+   "label": "Sellers listed",
+   "value": 1,
+   "unit": "",
+   "note": "HumanoidStore open data (CC BY 4.0), checked 2026-10",
+   "source": "https://humanoidstore.co/robots/neura-robotics-mipa"
+  },
+  {
+   "group": "Manipulation",
+   "key": "hands",
+   "label": "Hands",
+   "value": "fixed-grippers",
+   "unit": "",
+   "note": "HumanoidStore open data (CC BY 4.0), checked 2026-10",
+   "source": "https://humanoidstore.co/robots/neura-robotics-mipa"
+  },
+  {
+   "group": "Identity",
+   "key": "form_factor",
+   "label": "Form factor",
+   "value": "wheeled (bimanual torso on a wheeled base)",
+   "unit": "",
+   "note": "HumanoidStore open data (CC BY 4.0), checked 2026-10",
+   "source": "https://humanoidstore.co/robots/neura-robotics-mipa"
+  },
+  {
+   "group": "Payload",
+   "key": "rated_payload",
+   "label": "Rated payload",
+   "value": 3,
+   "unit": "kg",
+   "note": "HumanoidStore open data (CC BY 4.0), checked 2026-10",
+   "source": "https://humanoidstore.co/robots/neura-robotics-mipa"
+  }
+ ]
+}

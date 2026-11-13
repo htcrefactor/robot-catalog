@@ -1,0 +1,102 @@
+{
+ "id": "aeolus-aeo",
+ "checked": "2026-11-13",
+ "documents": [
+  {
+   "title": "HumanoidStore datasheet – Aeolus Robotics Aeo (CC BY 4.0)",
+   "url": "https://humanoidstore.co/robots/aeolus-aeo"
+  }
+ ],
+ "specs": [
+  {
+   "group": "Commercial",
+   "key": "sales_status",
+   "label": "Sales status",
+   "value": "b2b-only",
+   "unit": "",
+   "note": "HumanoidStore open data (CC BY 4.0), checked 2026-10",
+   "source": "https://humanoidstore.co/robots/aeolus-aeo"
+  },
+  {
+   "group": "Commercial",
+   "key": "who_can_buy",
+   "label": "Who can buy",
+   "value": "business",
+   "unit": "",
+   "note": "HumanoidStore open data (CC BY 4.0), checked 2026-10",
+   "source": "https://humanoidstore.co/robots/aeolus-aeo"
+  },
+  {
+   "group": "Commercial",
+   "key": "ships_to_us",
+   "label": "Route to US",
+   "value": "no",
+   "unit": "",
+   "note": "HumanoidStore open data (CC BY 4.0), checked 2026-10",
+   "source": "https://humanoidstore.co/robots/aeolus-aeo"
+  },
+  {
+   "group": "Commercial",
+   "key": "ships_to_eu",
+   "label": "Route to EU",
+   "value": "no",
+   "unit": "",
+   "note": "HumanoidStore open data (CC BY 4.0), checked 2026-10",
+   "source": "https://humanoidstore.co/robots/aeolus-aeo"
+  },
+  {
+   "group": "Commercial",
+   "key": "seller_count",
+   "label": "Sellers listed",
+   "value": 3,
+   "unit": "",
+   "note": "HumanoidStore open data (CC BY 4.0), checked 2026-10",
+   "source": "https://humanoidstore.co/robots/aeolus-aeo"
+  },
+  {
+   "group": "Commercial",
+   "key": "documented_uses",
+   "label": "Documented uses",
+   "value": "Real work / logistics",
+   "unit": "",
+   "note": "HumanoidStore open data (CC BY 4.0), checked 2026-10",
+   "source": "https://humanoidstore.co/robots/aeolus-aeo"
+  },
+  {
+   "group": "Manipulation",
+   "key": "hands",
+   "label": "Hands",
+   "value": "fixed-grippers",
+   "unit": "",
+   "note": "HumanoidStore open data (CC BY 4.0), checked 2026-10",
+   "source": "https://humanoidstore.co/robots/aeolus-aeo"
+  },
+  {
+   "group": "Identity",
+   "key": "form_factor",
+   "label": "Form factor",
+   "value": "wheeled (bimanual torso on a wheeled base)",
+   "unit": "",
+   "note": "HumanoidStore open data (CC BY 4.0), checked 2026-10",
+   "source": "https://humanoidstore.co/robots/aeolus-aeo"
+  },
+  {
+   "group": "Mobility & Performance",
+   "key": "degrees_of_freedom",
+   "label": "Total degrees of freedom",
+   "value": 22,
+   "unit": "",
+   "note": "HumanoidStore open data (CC BY 4.0), checked 2026-10",
+   "source": "https://humanoidstore.co/robots/aeolus-aeo"
+  },
+  {
+   "group": "Payload",
+   "key": "rated_payload",
+   "label": "Rated payload",
+   "value": 3.6,
+   "unit": "kg",
+   "note": "HumanoidStore open data (CC BY 4.0), checked 2026-10",
+   "source": "https://humanoidstore.co/robots/aeolus-aeo"
+  }
+ ]
+}

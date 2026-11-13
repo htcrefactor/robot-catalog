@@ -1,0 +1,147 @@
+{
+ "id": "hiwonder-tonypi-pro",
+ "checked": "2026-11-13",
+ "documents": [
+  {
+   "title": "HumanoidStore datasheet – Hiwonder TonyPi Pro (CC BY 4.0)",
+   "url": "https://humanoidstore.co/robots/hiwonder-tonypi-pro"
+  }
+ ],
+ "specs": [
+  {
+   "group": "Commercial",
+   "key": "sales_status",
+   "label": "Sales status",
+   "value": "shipping-now",
+   "unit": "",
+   "note": "HumanoidStore open data (CC BY 4.0), checked 2026-10",
+   "source": "https://humanoidstore.co/robots/hiwonder-tonypi-pro"
+  },
+  {
+   "group": "Commercial",
+   "key": "who_can_buy",
+   "label": "Who can buy",
+   "value": "anyone",
+   "unit": "",
+   "note": "HumanoidStore open data (CC BY 4.0), checked 2026-10",
+   "source": "https://humanoidstore.co/robots/hiwonder-tonypi-pro"
+  },
+  {
+   "group": "Commercial",
+   "key": "price",
+   "label": "Price",
+   "value": 889.99,
+   "unit": "USD",
+   "note": "list price (maker price); HumanoidStore open data (CC BY 4.0), checked 2026-10",
+   "source": "https://humanoidstore.co/robots/hiwonder-tonypi-pro"
+  },
+  {
+   "group": "Commercial",
+   "key": "us_delivered_price",
+   "label": "Delivered price to US",
+   "value": 1187,
+   "unit": "USD",
+   "note": "before sales tax; route: seller: Oz Robotics; HumanoidStore open data (CC BY 4.0), checked 2026-10",
+   "source": "https://humanoidstore.co/robots/hiwonder-tonypi-pro"
+  },
+  {
+   "group": "Commercial",
+   "key": "de_delivered_price",
+   "label": "Delivered price to Germany",
+   "value": 1053,
+   "unit": "EUR",
+   "note": "incl. 19% VAT; route: estimate: import; HumanoidStore open data (CC BY 4.0), checked 2026-10",
+   "source": "https://humanoidstore.co/robots/hiwonder-tonypi-pro"
+  },
+  {
+   "group": "Commercial",
+   "key": "ships_to_us",
+   "label": "Route to US",
+   "value": "direct",
+   "unit": "",
+   "note": "HumanoidStore open data (CC BY 4.0), checked 2026-10",
+   "source": "https://humanoidstore.co/robots/hiwonder-tonypi-pro"
+  },
+  {
+   "group": "Commercial",
+   "key": "ships_to_eu",
+   "label": "Route to EU",
+   "value": "reseller",
+   "unit": "",
+   "note": "HumanoidStore open data (CC BY 4.0), checked 2026-10",
+   "source": "https://humanoidstore.co/robots/hiwonder-tonypi-pro"
+  },
+  {
+   "group": "Commercial",
+   "key": "seller_count",
+   "label": "Sellers listed",
+   "value": 5,
+   "unit": "",
+   "note": "HumanoidStore open data (CC BY 4.0), checked 2026-10",
+   "source": "https://humanoidstore.co/robots/hiwonder-tonypi-pro"
+  },
+  {
+   "group": "Commercial",
+   "key": "documented_uses",
+   "label": "Documented uses",
+   "value": "Teaching / education; Learn and tinker; Demo / showpiece",
+   "unit": "",
+   "note": "HumanoidStore open data (CC BY 4.0), checked 2026-10",
+   "source": "https://humanoidstore.co/robots/hiwonder-tonypi-pro"
+  },
+  {
+   "group": "Manipulation",
+   "key": "hands",
+   "label": "Hands",
+   "value": "fixed-grippers",
+   "unit": "",
+   "note": "HumanoidStore open data (CC BY 4.0), checked 2026-10",
+   "source": "https://humanoidstore.co/robots/hiwonder-tonypi-pro"
+  },
+  {
+   "group": "Identity",
+   "key": "form_factor",
+   "label": "Form factor",
+   "value": "desktop-size",
+   "unit": "",
+   "note": "HumanoidStore open data (CC BY 4.0), checked 2026-10",
+   "source": "https://humanoidstore.co/robots/hiwonder-tonypi-pro"
+  },
+  {
+   "group": "Dimensions & Mass",
+   "key": "height_standing",
+   "label": "Height (standing)",
+   "value": 37.3,
+   "unit": "cm",
+   "note": "HumanoidStore open data (CC BY 4.0), checked 2026-10",
+   "source": "https://humanoidstore.co/robots/hiwonder-tonypi-pro"
+  },
+  {
+   "group": "Dimensions & Mass",
+   "key": "weight",
+   "label": "Weight",
+   "value": 1.8,
+   "unit": "kg",
+   "note": "HumanoidStore open data (CC BY 4.0), checked 2026-10",
+   "source": "https://humanoidstore.co/robots/hiwonder-tonypi-pro"
+  },
+  {
+   "group": "Mobility & Performance",
+   "key": "degrees_of_freedom",
+   "label": "Total degrees of freedom",
+   "value": 20,
+   "unit": "",
+   "note": "HumanoidStore open data (CC BY 4.0), checked 2026-10",
+   "source": "https://humanoidstore.co/robots/hiwonder-tonypi-pro"
+  },
+  {
+   "group": "Power & Battery",
+   "key": "runtime",
+   "label": "Runtime per charge",
+   "value": 60,
+   "unit": "min",
+   "note": "HumanoidStore open data (CC BY 4.0), checked 2026-10",
+   "source": "https://humanoidstore.co/robots/hiwonder-tonypi-pro"
+  }
+ ]
+}

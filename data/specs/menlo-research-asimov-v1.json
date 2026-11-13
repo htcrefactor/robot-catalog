@@ -1,0 +1,147 @@
+{
+ "id": "menlo-research-asimov-v1",
+ "checked": "2026-11-13",
+ "documents": [
+  {
+   "title": "HumanoidStore datasheet – Menlo Research Asimov 1 (CC BY 4.0)",
+   "url": "https://humanoidstore.co/robots/menlo-research-asimov-v1"
+  }
+ ],
+ "specs": [
+  {
+   "group": "Commercial",
+   "key": "sales_status",
+   "label": "Sales status",
+   "value": "preorder",
+   "unit": "",
+   "note": "HumanoidStore open data (CC BY 4.0), checked 2026-10",
+   "source": "https://humanoidstore.co/robots/menlo-research-asimov-v1"
+  },
+  {
+   "group": "Commercial",
+   "key": "who_can_buy",
+   "label": "Who can buy",
+   "value": "anyone",
+   "unit": "",
+   "note": "HumanoidStore open data (CC BY 4.0), checked 2026-10",
+   "source": "https://humanoidstore.co/robots/menlo-research-asimov-v1"
+  },
+  {
+   "group": "Commercial",
+   "key": "price",
+   "label": "Price",
+   "value": 20000,
+   "unit": "USD",
+   "note": "list price (maker price); HumanoidStore open data (CC BY 4.0), checked 2026-10",
+   "source": "https://humanoidstore.co/robots/menlo-research-asimov-v1"
+  },
+  {
+   "group": "Commercial",
+   "key": "us_delivered_price",
+   "label": "Delivered price to US",
+   "value": 23875,
+   "unit": "USD",
+   "note": "before sales tax; route: estimate: import; HumanoidStore open data (CC BY 4.0), checked 2026-10",
+   "source": "https://humanoidstore.co/robots/menlo-research-asimov-v1"
+  },
+  {
+   "group": "Commercial",
+   "key": "de_delivered_price",
+   "label": "Delivered price to Germany",
+   "value": 22469,
+   "unit": "EUR",
+   "note": "incl. 19% VAT; route: estimate: import; HumanoidStore open data (CC BY 4.0), checked 2026-10",
+   "source": "https://humanoidstore.co/robots/menlo-research-asimov-v1"
+  },
+  {
+   "group": "Commercial",
+   "key": "ships_to_us",
+   "label": "Route to US",
+   "value": "direct",
+   "unit": "",
+   "note": "HumanoidStore open data (CC BY 4.0), checked 2026-10",
+   "source": "https://humanoidstore.co/robots/menlo-research-asimov-v1"
+  },
+  {
+   "group": "Commercial",
+   "key": "ships_to_eu",
+   "label": "Route to EU",
+   "value": "direct",
+   "unit": "",
+   "note": "HumanoidStore open data (CC BY 4.0), checked 2026-10",
+   "source": "https://humanoidstore.co/robots/menlo-research-asimov-v1"
+  },
+  {
+   "group": "Commercial",
+   "key": "seller_count",
+   "label": "Sellers listed",
+   "value": 2,
+   "unit": "",
+   "note": "HumanoidStore open data (CC BY 4.0), checked 2026-10",
+   "source": "https://humanoidstore.co/robots/menlo-research-asimov-v1"
+  },
+  {
+   "group": "Commercial",
+   "key": "documented_uses",
+   "label": "Documented uses",
+   "value": "Robotics R&D; Learn and tinker; Demo / showpiece",
+   "unit": "",
+   "note": "HumanoidStore open data (CC BY 4.0), checked 2026-10",
+   "source": "https://humanoidstore.co/robots/menlo-research-asimov-v1"
+  },
+  {
+   "group": "Manipulation",
+   "key": "hands",
+   "label": "Hands",
+   "value": "none",
+   "unit": "",
+   "note": "HumanoidStore open data (CC BY 4.0), checked 2026-10",
+   "source": "https://humanoidstore.co/robots/menlo-research-asimov-v1"
+  },
+  {
+   "group": "Identity",
+   "key": "form_factor",
+   "label": "Form factor",
+   "value": "mid-size",
+   "unit": "",
+   "note": "HumanoidStore open data (CC BY 4.0), checked 2026-10",
+   "source": "https://humanoidstore.co/robots/menlo-research-asimov-v1"
+  },
+  {
+   "group": "Dimensions & Mass",
+   "key": "height_standing",
+   "label": "Height (standing)",
+   "value": 120,
+   "unit": "cm",
+   "note": "HumanoidStore open data (CC BY 4.0), checked 2026-10",
+   "source": "https://humanoidstore.co/robots/menlo-research-asimov-v1"
+  },
+  {
+   "group": "Dimensions & Mass",
+   "key": "weight",
+   "label": "Weight",
+   "value": 35,
+   "unit": "kg",
+   "note": "HumanoidStore open data (CC BY 4.0), checked 2026-10",
+   "source": "https://humanoidstore.co/robots/menlo-research-asimov-v1"
+  },
+  {
+   "group": "Mobility & Performance",
+   "key": "degrees_of_freedom",
+   "label": "Total degrees of freedom",
+   "value": 25,
+   "unit": "",
+   "note": "HumanoidStore open data (CC BY 4.0), checked 2026-10",
+   "source": "https://humanoidstore.co/robots/menlo-research-asimov-v1"
+  },
+  {
+   "group": "Payload",
+   "key": "rated_payload",
+   "label": "Rated payload",
+   "value": 5,
+   "unit": "kg",
+   "note": "HumanoidStore open data (CC BY 4.0), checked 2026-10",
+   "source": "https://humanoidstore.co/robots/menlo-research-asimov-v1"
+  }
+ ]
+}

@@ -1,0 +1,290 @@
+{
+ "id": "unitree-r1",
+ "checked": "2026-11-13",
+ "documents": [
+  {
+   "title": "HumanoidStore datasheet – Unitree Robotics R1 (CC BY 4.0)",
+   "url": "https://humanoidstore.co/robots/unitree-r1"
+  },
+  {
+   "title": "HumanoidStore datasheet – Unitree Robotics R1 Air (CC BY 4.0)",
+   "url": "https://humanoidstore.co/robots/unitree-r1-air"
+  },
+  {
+   "title": "HumanoidStore datasheet – Unitree Robotics R1 EDU (CC BY 4.0)",
+   "url": "https://humanoidstore.co/robots/unitree-r1-edu"
+  }
+ ],
+ "specs": [
+  {
+   "group": "Commercial",
+   "key": "sales_status",
+   "label": "Sales status",
+   "value": "shipping-now",
+   "unit": "",
+   "note": "configuration: R1; HumanoidStore open data (CC BY 4.0), checked 2026-10",
+   "source": "https://humanoidstore.co/robots/unitree-r1"
+  },
+  {
+   "group": "Commercial",
+   "key": "who_can_buy",
+   "label": "Who can buy",
+   "value": "anyone",
+   "unit": "",
+   "note": "configuration: R1; HumanoidStore open data (CC BY 4.0), checked 2026-10",
+   "source": "https://humanoidstore.co/robots/unitree-r1"
+  },
+  {
+   "group": "Commercial",
+   "key": "price",
+   "label": "Price",
+   "value": 5900,
+   "unit": "USD",
+   "note": "configuration: R1; list price (maker price); HumanoidStore open data (CC BY 4.0), checked 2026-10",
+   "source": "https://humanoidstore.co/robots/unitree-r1"
+  },
+  {
+   "group": "Commercial",
+   "key": "us_delivered_price",
+   "label": "Delivered price to US",
+   "value": 8888,
+   "unit": "USD",
+   "note": "configuration: R1; before sales tax; route: estimate: import; HumanoidStore open data (CC BY 4.0), checked 2026-10",
+   "source": "https://humanoidstore.co/robots/unitree-r1"
+  },
+  {
+   "group": "Commercial",
+   "key": "de_delivered_price",
+   "label": "Delivered price to Germany",
+   "value": 7026,
+   "unit": "EUR",
+   "note": "configuration: R1; incl. 19% VAT; route: estimate: import; HumanoidStore open data (CC BY 4.0), checked 2026-10",
+   "source": "https://humanoidstore.co/robots/unitree-r1"
+  },
+  {
+   "group": "Commercial",
+   "key": "ships_to_us",
+   "label": "Route to US",
+   "value": "direct",
+   "unit": "",
+   "note": "configuration: R1; HumanoidStore open data (CC BY 4.0), checked 2026-10",
+   "source": "https://humanoidstore.co/robots/unitree-r1"
+  },
+  {
+   "group": "Commercial",
+   "key": "ships_to_eu",
+   "label": "Route to EU",
+   "value": "direct",
+   "unit": "",
+   "note": "configuration: R1; HumanoidStore open data (CC BY 4.0), checked 2026-10",
+   "source": "https://humanoidstore.co/robots/unitree-r1"
+  },
+  {
+   "group": "Commercial",
+   "key": "seller_count",
+   "label": "Sellers listed",
+   "value": 36,
+   "unit": "",
+   "note": "configuration: R1; HumanoidStore open data (CC BY 4.0), checked 2026-10",
+   "source": "https://humanoidstore.co/robots/unitree-r1"
+  },
+  {
+   "group": "Commercial",
+   "key": "documented_uses",
+   "label": "Documented uses",
+   "value": "Demo / showpiece",
+   "unit": "",
+   "note": "configuration: R1; HumanoidStore open data (CC BY 4.0), checked 2026-10",
+   "source": "https://humanoidstore.co/robots/unitree-r1"
+  },
+  {
+   "group": "Connectivity & Interfaces",
+   "key": "fcc_id",
+   "label": "FCC ID",
+   "value": "2A5PE-YUSHU010",
+   "unit": "",
+   "note": "configuration: R1; granted 2026-06-22; HumanoidStore open data (CC BY 4.0), checked 2026-10",
+   "source": "https://humanoidstore.co/robots/unitree-r1"
+  },
+  {
+   "group": "Manipulation",
+   "key": "hands",
+   "label": "Hands",
+   "value": "none",
+   "unit": "",
+   "note": "configuration: R1; HumanoidStore open data (CC BY 4.0), checked 2026-10",
+   "source": "https://humanoidstore.co/robots/unitree-r1"
+  },
+  {
+   "group": "Identity",
+   "key": "form_factor",
+   "label": "Form factor",
+   "value": "compact",
+   "unit": "",
+   "note": "configuration: R1; HumanoidStore open data (CC BY 4.0), checked 2026-10",
+   "source": "https://humanoidstore.co/robots/unitree-r1"
+  },
+  {
+   "group": "Dimensions & Mass",
+   "key": "height_standing",
+   "label": "Height (standing)",
+   "value": 123,
+   "unit": "cm",
+   "note": "configuration: R1; HumanoidStore open data (CC BY 4.0), checked 2026-10",
+   "source": "https://humanoidstore.co/robots/unitree-r1"
+  },
+  {
+   "group": "Dimensions & Mass",
+   "key": "weight",
+   "label": "Weight",
+   "value": 29,
+   "unit": "kg",
+   "note": "configuration: R1; HumanoidStore open data (CC BY 4.0), checked 2026-10",
+   "source": "https://humanoidstore.co/robots/unitree-r1"
+  },
+  {
+   "group": "Mobility & Performance",
+   "key": "degrees_of_freedom",
+   "label": "Total degrees of freedom",
+   "value": 26,
+   "unit": "",
+   "note": "configuration: R1; HumanoidStore open data (CC BY 4.0), checked 2026-10",
+   "source": "https://humanoidstore.co/robots/unitree-r1"
+  },
+  {
+   "group": "Power & Battery",
+   "key": "runtime",
+   "label": "Runtime per charge",
+   "value": 60,
+   "unit": "min",
+   "note": "configuration: R1; HumanoidStore open data (CC BY 4.0), checked 2026-10",
+   "source": "https://humanoidstore.co/robots/unitree-r1"
+  },
+  {
+   "group": "Payload",
+   "key": "rated_payload",
+   "label": "Rated payload",
+   "value": 2,
+   "unit": "kg",
+   "note": "configuration: R1; HumanoidStore open data (CC BY 4.0), checked 2026-10",
+   "source": "https://humanoidstore.co/robots/unitree-r1"
+  },
+  {
+   "group": "Commercial",
+   "key": "price",
+   "label": "Price",
+   "value": 4900,
+   "unit": "USD",
+   "note": "R1 Air; configuration: R1 Air; list price (maker price); HumanoidStore open data (CC BY 4.0), checked 2026-10",
+   "source": "https://humanoidstore.co/robots/unitree-r1-air"
+  },
+  {
+   "group": "Commercial",
+   "key": "us_delivered_price",
+   "label": "Delivered price to US",
+   "value": 6870,
+   "unit": "USD",
+   "note": "R1 Air; configuration: R1 Air; before sales tax; route: seller: RobotShop US; HumanoidStore open data (CC BY 4.0), checked 2026-10",
+   "source": "https://humanoidstore.co/robots/unitree-r1-air"
+  },
+  {
+   "group": "Commercial",
+   "key": "de_delivered_price",
+   "label": "Delivered price to Germany",
+   "value": 5909,
+   "unit": "EUR",
+   "note": "R1 Air; configuration: R1 Air; incl. 19% VAT; route: estimate: import; HumanoidStore open data (CC BY 4.0), checked 2026-10",
+   "source": "https://humanoidstore.co/robots/unitree-r1-air"
+  },
+  {
+   "group": "Commercial",
+   "key": "seller_count",
+   "label": "Sellers listed",
+   "value": 17,
+   "unit": "",
+   "note": "R1 Air; configuration: R1 Air; HumanoidStore open data (CC BY 4.0), checked 2026-10",
+   "source": "https://humanoidstore.co/robots/unitree-r1-air"
+  },
+  {
+   "group": "Dimensions & Mass",
+   "key": "weight",
+   "label": "Weight",
+   "value": 27,
+   "unit": "kg",
+   "note": "R1 Air; configuration: R1 Air; HumanoidStore open data (CC BY 4.0), checked 2026-10",
+   "source": "https://humanoidstore.co/robots/unitree-r1-air"
+  },
+  {
+   "group": "Mobility & Performance",
+   "key": "degrees_of_freedom",
+   "label": "Total degrees of freedom",
+   "value": 20,
+   "unit": "",
+   "note": "R1 Air; configuration: R1 Air; HumanoidStore open data (CC BY 4.0), checked 2026-10",
+   "source": "https://humanoidstore.co/robots/unitree-r1-air"
+  },
+  {
+   "group": "Commercial",
+   "key": "price",
+   "label": "Price",
+   "value": 10500,
+   "unit": "USD",
+   "note": "R1 EDU; configuration: R1 EDU Standard; list price (maker price); HumanoidStore open data (CC BY 4.0), checked 2026-10",
+   "source": "https://humanoidstore.co/robots/unitree-r1-edu"
+  },
+  {
+   "group": "Commercial",
+   "key": "us_delivered_price",
+   "label": "Delivered price to US",
+   "value": 15328,
+   "unit": "USD",
+   "note": "R1 EDU; configuration: R1 EDU Standard; before sales tax; route: estimate: import; HumanoidStore open data (CC BY 4.0), checked 2026-10",
+   "source": "https://humanoidstore.co/robots/unitree-r1-edu"
+  },
+  {
+   "group": "Commercial",
+   "key": "de_delivered_price",
+   "label": "Delivered price to Germany",
+   "value": 11986,
+   "unit": "EUR",
+   "note": "R1 EDU; configuration: R1 EDU Standard; incl. 19% VAT; route: estimate: import; HumanoidStore open data (CC BY 4.0), checked 2026-10",
+   "source": "https://humanoidstore.co/robots/unitree-r1-edu"
+  },
+  {
+   "group": "Commercial",
+   "key": "ships_to_eu",
+   "label": "Route to EU",
+   "value": "reseller",
+   "unit": "",
+   "note": "R1 EDU; configuration: R1 EDU Standard; HumanoidStore open data (CC BY 4.0), checked 2026-10",
+   "source": "https://humanoidstore.co/robots/unitree-r1-edu"
+  },
+  {
+   "group": "Commercial",
+   "key": "seller_count",
+   "label": "Sellers listed",
+   "value": 19,
+   "unit": "",
+   "note": "R1 EDU; configuration: R1 EDU Standard; HumanoidStore open data (CC BY 4.0), checked 2026-10",
+   "source": "https://humanoidstore.co/robots/unitree-r1-edu"
+  },
+  {
+   "group": "Commercial",
+   "key": "documented_uses",
+   "label": "Documented uses",
+   "value": "Robotics R&D; Manipulation research; Learn and tinker",
+   "unit": "",
+   "note": "R1 EDU; configuration: R1 EDU Standard; HumanoidStore open data (CC BY 4.0), checked 2026-10",
+   "source": "https://humanoidstore.co/robots/unitree-r1-edu"
+  },
+  {
+   "group": "Manipulation",
+   "key": "hands",
+   "label": "Hands",
+   "value": "optional",
+   "unit": "",
+   "note": "R1 EDU; configuration: R1 EDU Standard; HumanoidStore open data (CC BY 4.0), checked 2026-10",
+   "source": "https://humanoidstore.co/robots/unitree-r1-edu"
+  }
+ ]
+}

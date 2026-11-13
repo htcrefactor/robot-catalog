@@ -1,0 +1,120 @@
+{
+ "id": "berkeley-humanoid-lite",
+ "checked": "2026-11-13",
+ "documents": [
+  {
+   "title": "HumanoidStore datasheet – UC Berkeley Humanoid Lite (CC BY 4.0)",
+   "url": "https://humanoidstore.co/robots/berkeley-humanoid-lite"
+  }
+ ],
+ "specs": [
+  {
+   "group": "Commercial",
+   "key": "sales_status",
+   "label": "Sales status",
+   "value": "research-only",
+   "unit": "",
+   "note": "HumanoidStore open data (CC BY 4.0), checked 2026-09",
+   "source": "https://humanoidstore.co/robots/berkeley-humanoid-lite"
+  },
+  {
+   "group": "Commercial",
+   "key": "who_can_buy",
+   "label": "Who can buy",
+   "value": "anyone",
+   "unit": "",
+   "note": "HumanoidStore open data (CC BY 4.0), checked 2026-09",
+   "source": "https://humanoidstore.co/robots/berkeley-humanoid-lite"
+  },
+  {
+   "group": "Commercial",
+   "key": "price",
+   "label": "Price",
+   "value": 5000,
+   "unit": "USD",
+   "note": "list price (maker price); HumanoidStore open data (CC BY 4.0), checked 2026-09",
+   "source": "https://humanoidstore.co/robots/berkeley-humanoid-lite"
+  },
+  {
+   "group": "Commercial",
+   "key": "ships_to_us",
+   "label": "Route to US",
+   "value": "unclear",
+   "unit": "",
+   "note": "HumanoidStore open data (CC BY 4.0), checked 2026-09",
+   "source": "https://humanoidstore.co/robots/berkeley-humanoid-lite"
+  },
+  {
+   "group": "Commercial",
+   "key": "ships_to_eu",
+   "label": "Route to EU",
+   "value": "unclear",
+   "unit": "",
+   "note": "HumanoidStore open data (CC BY 4.0), checked 2026-09",
+   "source": "https://humanoidstore.co/robots/berkeley-humanoid-lite"
+  },
+  {
+   "group": "Commercial",
+   "key": "seller_count",
+   "label": "Sellers listed",
+   "value": 1,
+   "unit": "",
+   "note": "HumanoidStore open data (CC BY 4.0), checked 2026-09",
+   "source": "https://humanoidstore.co/robots/berkeley-humanoid-lite"
+  },
+  {
+   "group": "Manipulation",
+   "key": "hands",
+   "label": "Hands",
+   "value": "none",
+   "unit": "",
+   "note": "HumanoidStore open data (CC BY 4.0), checked 2026-09",
+   "source": "https://humanoidstore.co/robots/berkeley-humanoid-lite"
+  },
+  {
+   "group": "Identity",
+   "key": "form_factor",
+   "label": "Form factor",
+   "value": "compact",
+   "unit": "",
+   "note": "HumanoidStore open data (CC BY 4.0), checked 2026-09",
+   "source": "https://humanoidstore.co/robots/berkeley-humanoid-lite"
+  },
+  {
+   "group": "Dimensions & Mass",
+   "key": "height_standing",
+   "label": "Height (standing)",
+   "value": 80,
+   "unit": "cm",
+   "note": "HumanoidStore open data (CC BY 4.0), checked 2026-09",
+   "source": "https://humanoidstore.co/robots/berkeley-humanoid-lite"
+  },
+  {
+   "group": "Dimensions & Mass",
+   "key": "weight",
+   "label": "Weight",
+   "value": 16,
+   "unit": "kg",
+   "note": "HumanoidStore open data (CC BY 4.0), checked 2026-09",
+   "source": "https://humanoidstore.co/robots/berkeley-humanoid-lite"
+  },
+  {
+   "group": "Mobility & Performance",
+   "key": "degrees_of_freedom",
+   "label": "Total degrees of freedom",
+   "value": 22,
+   "unit": "",
+   "note": "HumanoidStore open data (CC BY 4.0), checked 2026-09",
+   "source": "https://humanoidstore.co/robots/berkeley-humanoid-lite"
+  },
+  {
+   "group": "Power & Battery",
+   "key": "runtime",
+   "label": "Runtime per charge",
+   "value": 30,
+   "unit": "min",
+   "note": "HumanoidStore open data (CC BY 4.0), checked 2026-09",
+   "source": "https://humanoidstore.co/robots/berkeley-humanoid-lite"
+  }
+ ]
+}

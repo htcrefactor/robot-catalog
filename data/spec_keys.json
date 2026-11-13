@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-10",
- "robots_with_specs": 86,
+ "updated": "2026-11-13",
+ "robots_with_specs": 193,
  "keys": [
   {
    "key": "max_joint_torque",
@@ -1367,14 +1367,58 @@
    "numeric": 0
   },
   {
-   "key": "included_accessories",
+   "key": "ships_to_eu",
    "group": "Commercial",
-   "label": "Product list",
+   "label": "Route to EU",
    "unit": "",
    "dim": "",
    "base": "",
    "f2b": 1,
-   "robots": 28,
+   "robots": 120,
+   "numeric": 0
+  },
+  {
+   "key": "ships_to_us",
+   "group": "Commercial",
+   "label": "Route to US",
+   "unit": "",
+   "dim": "",
+   "base": "",
+   "f2b": 1,
+   "robots": 120,
+   "numeric": 0
+  },
+  {
+   "key": "sales_status",
+   "group": "Commercial",
+   "label": "Sales status",
+   "unit": "",
+   "dim": "",
+   "base": "",
+   "f2b": 1,
+   "robots": 120,
+   "numeric": 0
+  },
+  {
+   "key": "seller_count",
+   "group": "Commercial",
+   "label": "Sellers listed",
+   "unit": "",
+   "dim": "",
+   "base": "",
+   "f2b": 1,
+   "robots": 120,
+   "numeric": 126
+  },
+  {
+   "key": "who_can_buy",
+   "group": "Commercial",
+   "label": "Who can buy",
+   "unit": "",
+   "dim": "",
+   "base": "",
+   "f2b": 1,
+   "robots": 120,
    "numeric": 0
   },
   {
@@ -1385,8 +1429,52 @@
    "dim": "",
    "base": "USD",
    "f2b": 1,
-   "robots": 23,
-   "numeric": 7
+   "robots": 92,
+   "numeric": 69
+  },
+  {
+   "key": "documented_uses",
+   "group": "Commercial",
+   "label": "Documented uses",
+   "unit": "",
+   "dim": "",
+   "base": "",
+   "f2b": 1,
+   "robots": 91,
+   "numeric": 0
+  },
+  {
+   "key": "us_delivered_price",
+   "group": "Commercial",
+   "label": "Delivered price to US",
+   "unit": "USD",
+   "dim": "",
+   "base": "USD",
+   "f2b": 1,
+   "robots": 43,
+   "numeric": 47
+  },
+  {
+   "key": "de_delivered_price",
+   "group": "Commercial",
+   "label": "Delivered price to Germany",
+   "unit": "EUR",
+   "dim": "",
+   "base": "EUR",
+   "f2b": 1,
+   "robots": 29,
+   "numeric": 33
+  },
+  {
+   "key": "included_accessories",
+   "group": "Commercial",
+   "label": "Product list",
+   "unit": "",
+   "dim": "",
+   "base": "",
+   "f2b": 1,
+   "robots": 28,
+   "numeric": 0
   },
   {
    "key": "optional_accessories",
@@ -1422,6 +1510,28 @@
    "numeric": 0
   },
   {
+   "key": "price_usd_equiv",
+   "group": "Commercial",
+   "label": "Price (USD equivalent)",
+   "unit": "USD",
+   "dim": "",
+   "base": "USD",
+   "f2b": 1,
+   "robots": 14,
+   "numeric": 14
+  },
+  {
+   "key": "deployment_stage",
+   "group": "Commercial",
+   "label": "Deployment stage",
+   "unit": "",
+   "dim": "",
+   "base": "",
+   "f2b": 1,
+   "robots": 11,
+   "numeric": 0
+  },
+  {
    "key": "design_life",
    "group": "Commercial",
    "label": "Service life",
@@ -1431,6 +1541,17 @@
    "f2b": 12,
    "robots": 7,
    "numeric": 3
+  },
+  {
+   "key": "public_tender_unit_price",
+   "group": "Commercial",
+   "label": "Public tender price per unit",
+   "unit": "RON",
+   "dim": "",
+   "base": "RON",
+   "f2b": 1,
+   "robots": 3,
+   "numeric": 1
   },
   {
    "key": "availability_note",
@@ -2236,6 +2357,17 @@
    "numeric": 0
   },
   {
+   "key": "fcc_id",
+   "group": "Connectivity & Interfaces",
+   "label": "FCC ID",
+   "unit": "",
+   "dim": "",
+   "base": "",
+   "f2b": 1,
+   "robots": 5,
+   "numeric": 0
+  },
+  {
    "key": "data_security",
    "group": "Connectivity & Interfaces",
    "label": "Data security",
@@ -2465,17 +2597,6 @@
    "f2b": 1,
    "robots": 1,
    "numeric": 1
-  },
-  {
-   "key": "fcc_id",
-   "group": "Connectivity & Interfaces",
-   "label": "FCC ID",
-   "unit": "",
-   "dim": "",
-   "base": "",
-   "f2b": 1,
-   "robots": 1,
-   "numeric": 0
   },
   {
    "key": "interoperability",
@@ -3358,6 +3479,28 @@
    "numeric": 0
   },
   {
+   "key": "weight",
+   "group": "Dimensions & Mass",
+   "label": "Weight",
+   "unit": "kg",
+   "dim": "mass",
+   "base": "kg",
+   "f2b": 1,
+   "robots": 159,
+   "numeric": 169
+  },
+  {
+   "key": "height_standing",
+   "group": "Dimensions & Mass",
+   "label": "Height (standing)",
+   "unit": "cm",
+   "dim": "length",
+   "base": "mm",
+   "f2b": 10,
+   "robots": 130,
+   "numeric": 137
+  },
+  {
    "key": "width",
    "group": "Dimensions & Mass",
    "label": "Overall width",
@@ -3380,17 +3523,6 @@
    "numeric": 76
   },
   {
-   "key": "weight",
-   "group": "Dimensions & Mass",
-   "label": "Weight",
-   "unit": "kg",
-   "dim": "mass",
-   "base": "kg",
-   "f2b": 1,
-   "robots": 54,
-   "numeric": 63
-  },
-  {
    "key": "height",
    "group": "Dimensions & Mass",
    "label": "Overall height",
@@ -3410,17 +3542,6 @@
    "base": "kg",
    "f2b": 1,
    "robots": 22,
-   "numeric": 25
-  },
-  {
-   "key": "height_standing",
-   "group": "Dimensions & Mass",
-   "label": "Height (standing)",
-   "unit": "mm",
-   "dim": "length",
-   "base": "mm",
-   "f2b": 1,
-   "robots": 21,
    "numeric": 25
   },
   {
@@ -4128,6 +4249,17 @@
    "numeric": 0
   },
   {
+   "key": "form_factor",
+   "group": "Identity",
+   "label": "Form factor",
+   "unit": "",
+   "dim": "",
+   "base": "",
+   "f2b": 1,
+   "robots": 118,
+   "numeric": 0
+  },
+  {
    "key": "variants",
    "group": "Identity",
    "label": "Variants",
@@ -4392,6 +4524,17 @@
    "numeric": 0
   },
   {
+   "key": "hands",
+   "group": "Manipulation",
+   "label": "Hands",
+   "unit": "",
+   "dim": "",
+   "base": "",
+   "f2b": 1,
+   "robots": 120,
+   "numeric": 0
+  },
+  {
    "key": "arm_payload",
    "group": "Manipulation",
    "label": "Arm maximum load",
@@ -4647,13 +4790,35 @@
   {
    "key": "max_speed",
    "group": "Mobility & Performance",
-   "label": "Max speed",
+   "label": "Top speed",
    "unit": "m/s",
    "dim": "speed",
    "base": "m/s",
    "f2b": 1,
-   "robots": 69,
-   "numeric": 87
+   "robots": 139,
+   "numeric": 157
+  },
+  {
+   "key": "degrees_of_freedom",
+   "group": "Mobility & Performance",
+   "label": "Total degrees of freedom",
+   "unit": "",
+   "dim": "",
+   "base": "",
+   "f2b": 1,
+   "robots": 126,
+   "numeric": 132
+  },
+  {
+   "key": "rated_payload",
+   "group": "Mobility & Performance",
+   "label": "Rated payload",
+   "unit": "kg",
+   "dim": "mass",
+   "base": "kg",
+   "f2b": 1,
+   "robots": 95,
+   "numeric": 97
   },
   {
    "key": "max_payload",
@@ -4665,28 +4830,6 @@
    "f2b": 1,
    "robots": 60,
    "numeric": 63
-  },
-  {
-   "key": "degrees_of_freedom",
-   "group": "Mobility & Performance",
-   "label": "Degrees of freedom",
-   "unit": "",
-   "dim": "",
-   "base": "",
-   "f2b": 1,
-   "robots": 26,
-   "numeric": 28
-  },
-  {
-   "key": "rated_payload",
-   "group": "Mobility & Performance",
-   "label": "Payload",
-   "unit": "kg",
-   "dim": "mass",
-   "base": "kg",
-   "f2b": 1,
-   "robots": 22,
-   "numeric": 23
   },
   {
    "key": "nominal_speed",
@@ -6110,13 +6253,13 @@
   {
    "key": "runtime",
    "group": "Power & Battery",
-   "label": "Battery life",
-   "unit": "h",
+   "label": "Runtime per charge",
+   "unit": "min",
    "dim": "time",
    "base": "h",
-   "f2b": 1,
-   "robots": 71,
-   "numeric": 77
+   "f2b": 0.0166666667,
+   "robots": 146,
+   "numeric": 154
   },
   {
    "key": "battery_voltage",

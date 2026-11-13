@@ -1,0 +1,120 @@
+{
+ "id": "k-scale-labs-k-bot",
+ "checked": "2026-11-13",
+ "documents": [
+  {
+   "title": "HumanoidStore datasheet – K-Scale Labs K-Bot (CC BY 4.0)",
+   "url": "https://humanoidstore.co/robots/k-scale-labs-k-bot"
+  }
+ ],
+ "specs": [
+  {
+   "group": "Commercial",
+   "key": "sales_status",
+   "label": "Sales status",
+   "value": "discontinued",
+   "unit": "",
+   "note": "HumanoidStore open data (CC BY 4.0), checked 2026-09",
+   "source": "https://humanoidstore.co/robots/k-scale-labs-k-bot"
+  },
+  {
+   "group": "Commercial",
+   "key": "who_can_buy",
+   "label": "Who can buy",
+   "value": "research",
+   "unit": "",
+   "note": "HumanoidStore open data (CC BY 4.0), checked 2026-09",
+   "source": "https://humanoidstore.co/robots/k-scale-labs-k-bot"
+  },
+  {
+   "group": "Commercial",
+   "key": "ships_to_us",
+   "label": "Route to US",
+   "value": "no",
+   "unit": "",
+   "note": "HumanoidStore open data (CC BY 4.0), checked 2026-09",
+   "source": "https://humanoidstore.co/robots/k-scale-labs-k-bot"
+  },
+  {
+   "group": "Commercial",
+   "key": "ships_to_eu",
+   "label": "Route to EU",
+   "value": "no",
+   "unit": "",
+   "note": "HumanoidStore open data (CC BY 4.0), checked 2026-09",
+   "source": "https://humanoidstore.co/robots/k-scale-labs-k-bot"
+  },
+  {
+   "group": "Commercial",
+   "key": "seller_count",
+   "label": "Sellers listed",
+   "value": 0,
+   "unit": "",
+   "note": "HumanoidStore open data (CC BY 4.0), checked 2026-09",
+   "source": "https://humanoidstore.co/robots/k-scale-labs-k-bot"
+  },
+  {
+   "group": "Manipulation",
+   "key": "hands",
+   "label": "Hands",
+   "value": "fixed-grippers",
+   "unit": "",
+   "note": "HumanoidStore open data (CC BY 4.0), checked 2026-09",
+   "source": "https://humanoidstore.co/robots/k-scale-labs-k-bot"
+  },
+  {
+   "group": "Identity",
+   "key": "form_factor",
+   "label": "Form factor",
+   "value": "mid-size",
+   "unit": "",
+   "note": "HumanoidStore open data (CC BY 4.0), checked 2026-09",
+   "source": "https://humanoidstore.co/robots/k-scale-labs-k-bot"
+  },
+  {
+   "group": "Dimensions & Mass",
+   "key": "height_standing",
+   "label": "Height (standing)",
+   "value": 140,
+   "unit": "cm",
+   "note": "HumanoidStore open data (CC BY 4.0), checked 2026-09",
+   "source": "https://humanoidstore.co/robots/k-scale-labs-k-bot"
+  },
+  {
+   "group": "Dimensions & Mass",
+   "key": "weight",
+   "label": "Weight",
+   "value": 34,
+   "unit": "kg",
+   "note": "HumanoidStore open data (CC BY 4.0), checked 2026-09",
+   "source": "https://humanoidstore.co/robots/k-scale-labs-k-bot"
+  },
+  {
+   "group": "Mobility & Performance",
+   "key": "degrees_of_freedom",
+   "label": "Total degrees of freedom",
+   "value": 20,
+   "unit": "",
+   "note": "HumanoidStore open data (CC BY 4.0), checked 2026-09",
+   "source": "https://humanoidstore.co/robots/k-scale-labs-k-bot"
+  },
+  {
+   "group": "Power & Battery",
+   "key": "runtime",
+   "label": "Runtime per charge",
+   "value": 240,
+   "unit": "min",
+   "note": "HumanoidStore open data (CC BY 4.0), checked 2026-09",
+   "source": "https://humanoidstore.co/robots/k-scale-labs-k-bot"
+  },
+  {
+   "group": "Payload",
+   "key": "rated_payload",
+   "label": "Rated payload",
+   "value": 10,
+   "unit": "kg",
+   "note": "HumanoidStore open data (CC BY 4.0), checked 2026-09",
+   "source": "https://humanoidstore.co/robots/k-scale-labs-k-bot"
+  }
+ ]
+}

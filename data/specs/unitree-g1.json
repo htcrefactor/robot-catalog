@@ -9,6 +9,18 @@
   {
    "title": "Unitree G1 SDK Development Guide – About G1 (updated 2026-09-17)",
    "url": "https://support.unitree.com/home/en/G1_developer/about_G1"
+  },
+  {
+   "title": "HumanoidStore datasheet – Unitree Robotics G1 (CC BY 4.0)",
+   "url": "https://humanoidstore.co/robots/unitree-g1"
+  },
+  {
+   "title": "HumanoidStore datasheet – Unitree Robotics G1 EDU (CC BY 4.0)",
+   "url": "https://humanoidstore.co/robots/unitree-g1-edu"
+  },
+  {
+   "title": "HumanoidStore datasheet – Unitree Robotics G1+ (CC BY 4.0)",
+   "url": "https://humanoidstore.co/robots/unitree-g1-plus"
   }
  ],
  "specs": [
@@ -881,6 +893,330 @@
    "unit": "",
    "note": "",
    "source": "https://www.unitree.com/g1"
+  },
+  {
+   "group": "Commercial",
+   "key": "sales_status",
+   "label": "Sales status",
+   "value": "shipping-now",
+   "unit": "",
+   "note": "HumanoidStore open data (CC BY 4.0), checked 2026-10",
+   "source": "https://humanoidstore.co/robots/unitree-g1"
+  },
+  {
+   "group": "Commercial",
+   "key": "who_can_buy",
+   "label": "Who can buy",
+   "value": "anyone",
+   "unit": "",
+   "note": "HumanoidStore open data (CC BY 4.0), checked 2026-10",
+   "source": "https://humanoidstore.co/robots/unitree-g1"
+  },
+  {
+   "group": "Commercial",
+   "key": "price",
+   "label": "Price",
+   "value": 13500,
+   "unit": "USD",
+   "note": "list price (maker price); HumanoidStore open data (CC BY 4.0), checked 2026-10",
+   "source": "https://humanoidstore.co/robots/unitree-g1"
+  },
+  {
+   "group": "Commercial",
+   "key": "us_delivered_price",
+   "label": "Delivered price to US",
+   "value": 17990,
+   "unit": "USD",
+   "note": "before sales tax; route: seller: RoboStore; HumanoidStore open data (CC BY 4.0), checked 2026-10",
+   "source": "https://humanoidstore.co/robots/unitree-g1"
+  },
+  {
+   "group": "Commercial",
+   "key": "de_delivered_price",
+   "label": "Delivered price to Germany",
+   "value": 15462,
+   "unit": "EUR",
+   "note": "incl. 19% VAT; route: estimate: import; HumanoidStore open data (CC BY 4.0), checked 2026-10",
+   "source": "https://humanoidstore.co/robots/unitree-g1"
+  },
+  {
+   "group": "Commercial",
+   "key": "ships_to_us",
+   "label": "Route to US",
+   "value": "direct",
+   "unit": "",
+   "note": "HumanoidStore open data (CC BY 4.0), checked 2026-10",
+   "source": "https://humanoidstore.co/robots/unitree-g1"
+  },
+  {
+   "group": "Commercial",
+   "key": "ships_to_eu",
+   "label": "Route to EU",
+   "value": "reseller",
+   "unit": "",
+   "note": "HumanoidStore open data (CC BY 4.0), checked 2026-10",
+   "source": "https://humanoidstore.co/robots/unitree-g1"
+  },
+  {
+   "group": "Commercial",
+   "key": "seller_count",
+   "label": "Sellers listed",
+   "value": 53,
+   "unit": "",
+   "note": "HumanoidStore open data (CC BY 4.0), checked 2026-10",
+   "source": "https://humanoidstore.co/robots/unitree-g1"
+  },
+  {
+   "group": "Commercial",
+   "key": "documented_uses",
+   "label": "Documented uses",
+   "value": "Demo / showpiece",
+   "unit": "",
+   "note": "HumanoidStore open data (CC BY 4.0), checked 2026-10",
+   "source": "https://humanoidstore.co/robots/unitree-g1"
+  },
+  {
+   "group": "Connectivity & Interfaces",
+   "key": "fcc_id",
+   "label": "FCC ID",
+   "value": "2A5PE-YUSHU008",
+   "unit": "",
+   "note": "granted 2025-03-03; HumanoidStore open data (CC BY 4.0), checked 2026-10",
+   "source": "https://humanoidstore.co/robots/unitree-g1"
+  },
+  {
+   "group": "Manipulation",
+   "key": "hands",
+   "label": "Hands",
+   "value": "fixed-grippers",
+   "unit": "",
+   "note": "HumanoidStore open data (CC BY 4.0), checked 2026-10",
+   "source": "https://humanoidstore.co/robots/unitree-g1"
+  },
+  {
+   "group": "Identity",
+   "key": "form_factor",
+   "label": "Form factor",
+   "value": "mid-size",
+   "unit": "",
+   "note": "HumanoidStore open data (CC BY 4.0), checked 2026-10",
+   "source": "https://humanoidstore.co/robots/unitree-g1"
+  },
+  {
+   "group": "Dimensions & Mass",
+   "key": "weight",
+   "label": "Weight",
+   "value": 35,
+   "unit": "kg",
+   "note": "HumanoidStore open data (CC BY 4.0), checked 2026-10",
+   "source": "https://humanoidstore.co/robots/unitree-g1"
+  },
+  {
+   "group": "Payload",
+   "key": "rated_payload",
+   "label": "Rated payload",
+   "value": 2,
+   "unit": "kg",
+   "note": "HumanoidStore open data (CC BY 4.0), checked 2026-10",
+   "source": "https://humanoidstore.co/robots/unitree-g1"
+  },
+  {
+   "group": "Mobility & Performance",
+   "key": "max_speed",
+   "label": "Top speed",
+   "value": 2,
+   "unit": "m/s",
+   "note": "HumanoidStore open data (CC BY 4.0), checked 2026-10",
+   "source": "https://humanoidstore.co/robots/unitree-g1"
+  },
+  {
+   "group": "Commercial",
+   "key": "price",
+   "label": "Price",
+   "value": 39000,
+   "unit": "EUR",
+   "note": "G1 EDU; configuration: G1 EDU U1; list price (reseller price); HumanoidStore open data (CC BY 4.0), checked 2026-10",
+   "source": "https://humanoidstore.co/robots/unitree-g1-edu"
+  },
+  {
+   "group": "Commercial",
+   "key": "price_usd_equiv",
+   "label": "Price (USD equivalent)",
+   "value": 43778,
+   "unit": "USD",
+   "note": "G1 EDU; configuration: G1 EDU U1; EUR list price at ECB reference rate; HumanoidStore open data (CC BY 4.0), checked 2026-10",
+   "source": "https://humanoidstore.co/robots/unitree-g1-edu"
+  },
+  {
+   "group": "Commercial",
+   "key": "us_delivered_price",
+   "label": "Delivered price to US",
+   "value": 41705,
+   "unit": "USD",
+   "note": "G1 EDU; configuration: G1 EDU U1; before sales tax; route: seller: Toborlife (official Unitree US partner); HumanoidStore open data (CC BY 4.0), checked 2026-10",
+   "source": "https://humanoidstore.co/robots/unitree-g1-edu"
+  },
+  {
+   "group": "Commercial",
+   "key": "de_delivered_price",
+   "label": "Delivered price to Germany",
+   "value": 38675,
+   "unit": "EUR",
+   "note": "G1 EDU; configuration: G1 EDU U1; incl. 19% VAT; route: seller: Generation Robots; HumanoidStore open data (CC BY 4.0), checked 2026-10",
+   "source": "https://humanoidstore.co/robots/unitree-g1-edu"
+  },
+  {
+   "group": "Commercial",
+   "key": "ships_to_us",
+   "label": "Route to US",
+   "value": "reseller",
+   "unit": "",
+   "note": "G1 EDU; configuration: G1 EDU U1; HumanoidStore open data (CC BY 4.0), checked 2026-10",
+   "source": "https://humanoidstore.co/robots/unitree-g1-edu"
+  },
+  {
+   "group": "Commercial",
+   "key": "seller_count",
+   "label": "Sellers listed",
+   "value": 25,
+   "unit": "",
+   "note": "G1 EDU; configuration: G1 EDU U1; HumanoidStore open data (CC BY 4.0), checked 2026-10",
+   "source": "https://humanoidstore.co/robots/unitree-g1-edu"
+  },
+  {
+   "group": "Commercial",
+   "key": "documented_uses",
+   "label": "Documented uses",
+   "value": "Robotics R&D",
+   "unit": "",
+   "note": "G1 EDU; configuration: G1 EDU U1; HumanoidStore open data (CC BY 4.0), checked 2026-10",
+   "source": "https://humanoidstore.co/robots/unitree-g1-edu"
+  },
+  {
+   "group": "Manipulation",
+   "key": "hands",
+   "label": "Hands",
+   "value": "optional",
+   "unit": "",
+   "note": "G1 EDU; configuration: G1 EDU U1; HumanoidStore open data (CC BY 4.0), checked 2026-10",
+   "source": "https://humanoidstore.co/robots/unitree-g1-edu"
+  },
+  {
+   "group": "Dimensions & Mass",
+   "key": "height_standing",
+   "label": "Height (standing)",
+   "value": 132,
+   "unit": "cm",
+   "note": "G1 EDU; configuration: G1 EDU U1; HumanoidStore open data (CC BY 4.0), checked 2026-10",
+   "source": "https://humanoidstore.co/robots/unitree-g1-edu"
+  },
+  {
+   "group": "Mobility & Performance",
+   "key": "degrees_of_freedom",
+   "label": "Total degrees of freedom",
+   "value": 23,
+   "unit": "",
+   "note": "G1 EDU; configuration: G1 EDU U1; HumanoidStore open data (CC BY 4.0), checked 2026-10",
+   "source": "https://humanoidstore.co/robots/unitree-g1-edu"
+  },
+  {
+   "group": "Power & Battery",
+   "key": "runtime",
+   "label": "Runtime per charge",
+   "value": 120,
+   "unit": "min",
+   "note": "G1 EDU; configuration: G1 EDU U1; HumanoidStore open data (CC BY 4.0), checked 2026-10",
+   "source": "https://humanoidstore.co/robots/unitree-g1-edu"
+  },
+  {
+   "group": "Payload",
+   "key": "rated_payload",
+   "label": "Rated payload",
+   "value": 3,
+   "unit": "kg",
+   "note": "G1 EDU; configuration: G1 EDU U1; HumanoidStore open data (CC BY 4.0), checked 2026-10",
+   "source": "https://humanoidstore.co/robots/unitree-g1-edu"
+  },
+  {
+   "group": "Commercial",
+   "key": "sales_status",
+   "label": "Sales status",
+   "value": "announced",
+   "unit": "",
+   "note": "G1+; configuration: G1+; HumanoidStore open data (CC BY 4.0), checked 2026-10",
+   "source": "https://humanoidstore.co/robots/unitree-g1-plus"
+  },
+  {
+   "group": "Commercial",
+   "key": "who_can_buy",
+   "label": "Who can buy",
+   "value": "restricted",
+   "unit": "",
+   "note": "G1+; configuration: G1+; HumanoidStore open data (CC BY 4.0), checked 2026-10",
+   "source": "https://humanoidstore.co/robots/unitree-g1-plus"
+  },
+  {
+   "group": "Commercial",
+   "key": "ships_to_us",
+   "label": "Route to US",
+   "value": "unclear",
+   "unit": "",
+   "note": "G1+; configuration: G1+; HumanoidStore open data (CC BY 4.0), checked 2026-10",
+   "source": "https://humanoidstore.co/robots/unitree-g1-plus"
+  },
+  {
+   "group": "Commercial",
+   "key": "ships_to_eu",
+   "label": "Route to EU",
+   "value": "unclear",
+   "unit": "",
+   "note": "G1+; configuration: G1+; HumanoidStore open data (CC BY 4.0), checked 2026-10",
+   "source": "https://humanoidstore.co/robots/unitree-g1-plus"
+  },
+  {
+   "group": "Commercial",
+   "key": "seller_count",
+   "label": "Sellers listed",
+   "value": 5,
+   "unit": "",
+   "note": "G1+; configuration: G1+; HumanoidStore open data (CC BY 4.0), checked 2026-10",
+   "source": "https://humanoidstore.co/robots/unitree-g1-plus"
+  },
+  {
+   "group": "Manipulation",
+   "key": "hands",
+   "label": "Hands",
+   "value": "none",
+   "unit": "",
+   "note": "G1+; configuration: G1+; HumanoidStore open data (CC BY 4.0), checked 2026-10",
+   "source": "https://humanoidstore.co/robots/unitree-g1-plus"
+  },
+  {
+   "group": "Dimensions & Mass",
+   "key": "height_standing",
+   "label": "Height (standing)",
+   "value": 134,
+   "unit": "cm",
+   "note": "G1+; configuration: G1+; HumanoidStore open data (CC BY 4.0), checked 2026-10",
+   "source": "https://humanoidstore.co/robots/unitree-g1-plus"
+  },
+  {
+   "group": "Mobility & Performance",
+   "key": "degrees_of_freedom",
+   "label": "Total degrees of freedom",
+   "value": 25,
+   "unit": "",
+   "note": "G1+; configuration: G1+; HumanoidStore open data (CC BY 4.0), checked 2026-10",
+   "source": "https://humanoidstore.co/robots/unitree-g1-plus"
+  },
+  {
+   "group": "Commercial",
+   "key": "public_tender_unit_price",
+   "label": "Public tender price per unit",
+   "value": 52567,
+   "unit": "EUR",
+   "note": "CNRS (LORIA laboratory, Nancy) (FR), awarded 2026-07-22: 3 x Unitree G1 EDU (identical to the lab's EDU-U4); 4 bid(s); before VAT; winner Génération Robots; via HumanoidStore tender record (CC BY 4.0)",
+   "source": "https://ted.europa.eu/en/notice/-/detail/510222-2026"
   }
  ]
 }

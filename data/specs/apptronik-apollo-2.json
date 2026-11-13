@@ -1,160 +1,236 @@
 {
-  "id": "apptronik-apollo-2",
-  "checked": "2026-11-04",
-  "documents": [
-    {
-      "title": "Apptronik – Apollo 2 product page",
-      "url": "https://apptronik.com/apollo/apollo-2"
-    },
-    {
-      "title": "Welcome to Robot Park (Apptronik press release, 2026-06-30)",
-      "url": "https://apptronik.com/news-collection/welcome-to-robot-park-where-apptroniks-apollo-goes-to-work"
-    }
-  ],
-  "specs": [
-    {
-      "group": "Identity",
-      "key": "release_date",
-      "label": "Unveiled",
-      "value": "2026-06-30",
-      "unit": "",
-      "note": "",
-      "source": "https://apptronik.com/news-collection/welcome-to-robot-park-where-apptroniks-apollo-goes-to-work"
-    },
-    {
-      "group": "Identity",
-      "key": "variants",
-      "label": "Configurations",
-      "value": "Bipedal; wheeled base",
-      "unit": "",
-      "note": "modular mobility",
-      "source": "https://apptronik.com/apollo/apollo-2"
-    },
-    {
-      "group": "Power & Battery",
-      "key": "battery_swappable",
-      "label": "Swappable batteries",
-      "value": true,
-      "unit": "",
-      "note": "enable 7x22 operation",
-      "source": "https://apptronik.com/apollo/apollo-2"
-    },
-    {
-      "group": "Power & Battery",
-      "key": "daily_operating_hours",
-      "label": "Operation",
-      "value": "7 days x 22 h",
-      "unit": "",
-      "note": "with battery swaps",
-      "source": "https://apptronik.com/apollo/apollo-2"
-    },
-    {
-      "group": "Charging & Docking",
-      "key": "charging_method",
-      "label": "Charging options",
-      "value": "Opportunity charging; tethering",
-      "unit": "",
-      "note": "",
-      "source": "https://apptronik.com/apollo/apollo-2"
-    },
-    {
-      "group": "Actuation & Joints",
-      "key": "actuator_type",
-      "label": "Actuators",
-      "value": "Apptronik patented actuators, 90%+ energy efficiency",
-      "unit": "",
-      "note": "",
-      "source": "https://apptronik.com/apollo/apollo-2"
-    },
-    {
-      "group": "Audio, Lights & HMI",
-      "key": "display",
-      "label": "Chest display",
-      "value": "Status, battery level, charging state, task progress",
-      "unit": "",
-      "note": "",
-      "source": "https://apptronik.com/apollo/apollo-2"
-    },
-    {
-      "group": "Audio, Lights & HMI",
-      "key": "status_lights",
-      "label": "Expressive lighting",
-      "value": "Expressive LED mouth; coordinated lighting",
-      "unit": "",
-      "note": "",
-      "source": "https://apptronik.com/apollo/apollo-2"
-    },
-    {
-      "group": "Audio, Lights & HMI",
-      "key": "speaker",
-      "label": "Speech",
-      "value": "Speech and listening capabilities",
-      "unit": "",
-      "note": "",
-      "source": "https://apptronik.com/apollo/apollo-2"
-    },
-    {
-      "group": "Safety & Compliance",
-      "key": "safety_features",
-      "label": "Safety zones",
-      "value": "Impact zone (immediate pause on detection) + configurable perimeter zone",
-      "unit": "",
-      "note": "",
-      "source": "https://apptronik.com/apollo/apollo-2"
-    },
-    {
-      "group": "Safety & Compliance",
-      "key": "safety_standards",
-      "label": "Wheeled-base safety",
-      "value": "Designed to conform with existing safety standards for industrial mobile robots",
-      "unit": "",
-      "note": "wheeled configuration",
-      "source": "https://apptronik.com/news-collection/welcome-to-robot-park-where-apptroniks-apollo-goes-to-work"
-    },
-    {
-      "group": "Compute & Software",
-      "key": "operating_system",
-      "label": "Robot software",
-      "value": "Apptronik Artemis (perception, planning, controls, safety, HRI)",
-      "unit": "",
-      "note": "",
-      "source": "https://apptronik.com/apollo/apollo-2"
-    },
-    {
-      "group": "Compute & Software",
-      "key": "fleet_software",
-      "label": "Fleet software",
-      "value": "Fleet Connect",
-      "unit": "",
-      "note": "",
-      "source": "https://apptronik.com/apollo/apollo-2"
-    },
-    {
-      "group": "Compute & Software",
-      "key": "ai_partner",
-      "label": "AI models",
-      "value": "Google DeepMind Gemini Robotics",
-      "unit": "",
-      "note": "",
-      "source": "https://apptronik.com/apollo/apollo-2"
-    },
-    {
-      "group": "Controls & Operation",
-      "key": "teleoperation",
-      "label": "Teleoperation",
-      "value": "Teleoperation stack used for data collection",
-      "unit": "",
-      "note": "",
-      "source": "https://apptronik.com/news-collection/welcome-to-robot-park-where-apptroniks-apollo-goes-to-work"
-    },
-    {
-      "group": "Commercial",
-      "key": "availability",
-      "label": "Status",
-      "value": "Data-collection/pilot platform; commercial product will be Apollo 3",
-      "unit": "",
-      "note": "",
-      "source": "https://apptronik.com/news-collection/welcome-to-robot-park-where-apptroniks-apollo-goes-to-work"
-    }
-  ]
+ "id": "apptronik-apollo-2",
+ "checked": "2026-11-04",
+ "documents": [
+  {
+   "title": "Apptronik – Apollo 2 product page",
+   "url": "https://apptronik.com/apollo/apollo-2"
+  },
+  {
+   "title": "Welcome to Robot Park (Apptronik press release, 2026-06-30)",
+   "url": "https://apptronik.com/news-collection/welcome-to-robot-park-where-apptroniks-apollo-goes-to-work"
+  },
+  {
+   "title": "HumanoidStore datasheet – Apptronik Apollo (CC BY 4.0)",
+   "url": "https://humanoidstore.co/robots/apptronik-apollo"
+  }
+ ],
+ "specs": [
+  {
+   "group": "Identity",
+   "key": "release_date",
+   "label": "Unveiled",
+   "value": "2026-06-30",
+   "unit": "",
+   "note": "",
+   "source": "https://apptronik.com/news-collection/welcome-to-robot-park-where-apptroniks-apollo-goes-to-work"
+  },
+  {
+   "group": "Identity",
+   "key": "variants",
+   "label": "Configurations",
+   "value": "Bipedal; wheeled base",
+   "unit": "",
+   "note": "modular mobility",
+   "source": "https://apptronik.com/apollo/apollo-2"
+  },
+  {
+   "group": "Power & Battery",
+   "key": "battery_swappable",
+   "label": "Swappable batteries",
+   "value": true,
+   "unit": "",
+   "note": "enable 7x22 operation",
+   "source": "https://apptronik.com/apollo/apollo-2"
+  },
+  {
+   "group": "Power & Battery",
+   "key": "daily_operating_hours",
+   "label": "Operation",
+   "value": "7 days x 22 h",
+   "unit": "",
+   "note": "with battery swaps",
+   "source": "https://apptronik.com/apollo/apollo-2"
+  },
+  {
+   "group": "Charging & Docking",
+   "key": "charging_method",
+   "label": "Charging options",
+   "value": "Opportunity charging; tethering",
+   "unit": "",
+   "note": "",
+   "source": "https://apptronik.com/apollo/apollo-2"
+  },
+  {
+   "group": "Actuation & Joints",
+   "key": "actuator_type",
+   "label": "Actuators",
+   "value": "Apptronik patented actuators, 90%+ energy efficiency",
+   "unit": "",
+   "note": "",
+   "source": "https://apptronik.com/apollo/apollo-2"
+  },
+  {
+   "group": "Audio, Lights & HMI",
+   "key": "display",
+   "label": "Chest display",
+   "value": "Status, battery level, charging state, task progress",
+   "unit": "",
+   "note": "",
+   "source": "https://apptronik.com/apollo/apollo-2"
+  },
+  {
+   "group": "Audio, Lights & HMI",
+   "key": "status_lights",
+   "label": "Expressive lighting",
+   "value": "Expressive LED mouth; coordinated lighting",
+   "unit": "",
+   "note": "",
+   "source": "https://apptronik.com/apollo/apollo-2"
+  },
+  {
+   "group": "Audio, Lights & HMI",
+   "key": "speaker",
+   "label": "Speech",
+   "value": "Speech and listening capabilities",
+   "unit": "",
+   "note": "",
+   "source": "https://apptronik.com/apollo/apollo-2"
+  },
+  {
+   "group": "Safety & Compliance",
+   "key": "safety_features",
+   "label": "Safety zones",
+   "value": "Impact zone (immediate pause on detection) + configurable perimeter zone",
+   "unit": "",
+   "note": "",
+   "source": "https://apptronik.com/apollo/apollo-2"
+  },
+  {
+   "group": "Safety & Compliance",
+   "key": "safety_standards",
+   "label": "Wheeled-base safety",
+   "value": "Designed to conform with existing safety standards for industrial mobile robots",
+   "unit": "",
+   "note": "wheeled configuration",
+   "source": "https://apptronik.com/news-collection/welcome-to-robot-park-where-apptroniks-apollo-goes-to-work"
+  },
+  {
+   "group": "Compute & Software",
+   "key": "operating_system",
+   "label": "Robot software",
+   "value": "Apptronik Artemis (perception, planning, controls, safety, HRI)",
+   "unit": "",
+   "note": "",
+   "source": "https://apptronik.com/apollo/apollo-2"
+  },
+  {
+   "group": "Compute & Software",
+   "key": "fleet_software",
+   "label": "Fleet software",
+   "value": "Fleet Connect",
+   "unit": "",
+   "note": "",
+   "source": "https://apptronik.com/apollo/apollo-2"
+  },
+  {
+   "group": "Compute & Software",
+   "key": "ai_partner",
+   "label": "AI models",
+   "value": "Google DeepMind Gemini Robotics",
+   "unit": "",
+   "note": "",
+   "source": "https://apptronik.com/apollo/apollo-2"
+  },
+  {
+   "group": "Controls & Operation",
+   "key": "teleoperation",
+   "label": "Teleoperation",
+   "value": "Teleoperation stack used for data collection",
+   "unit": "",
+   "note": "",
+   "source": "https://apptronik.com/news-collection/welcome-to-robot-park-where-apptroniks-apollo-goes-to-work"
+  },
+  {
+   "group": "Commercial",
+   "key": "availability",
+   "label": "Status",
+   "value": "Data-collection/pilot platform; commercial product will be Apollo 3",
+   "unit": "",
+   "note": "",
+   "source": "https://apptronik.com/news-collection/welcome-to-robot-park-where-apptroniks-apollo-goes-to-work"
+  },
+  {
+   "group": "Commercial",
+   "key": "sales_status",
+   "label": "Sales status",
+   "value": "b2b-only",
+   "unit": "",
+   "note": "listed by HumanoidStore as \"Apollo\" (may describe the earlier model); HumanoidStore open data (CC BY 4.0), checked 2026-10",
+   "source": "https://humanoidstore.co/robots/apptronik-apollo"
+  },
+  {
+   "group": "Commercial",
+   "key": "who_can_buy",
+   "label": "Who can buy",
+   "value": "business",
+   "unit": "",
+   "note": "listed by HumanoidStore as \"Apollo\" (may describe the earlier model); HumanoidStore open data (CC BY 4.0), checked 2026-10",
+   "source": "https://humanoidstore.co/robots/apptronik-apollo"
+  },
+  {
+   "group": "Commercial",
+   "key": "ships_to_us",
+   "label": "Route to US",
+   "value": "reseller",
+   "unit": "",
+   "note": "listed by HumanoidStore as \"Apollo\" (may describe the earlier model); HumanoidStore open data (CC BY 4.0), checked 2026-10",
+   "source": "https://humanoidstore.co/robots/apptronik-apollo"
+  },
+  {
+   "group": "Commercial",
+   "key": "ships_to_eu",
+   "label": "Route to EU",
+   "value": "reseller",
+   "unit": "",
+   "note": "listed by HumanoidStore as \"Apollo\" (may describe the earlier model); HumanoidStore open data (CC BY 4.0), checked 2026-10",
+   "source": "https://humanoidstore.co/robots/apptronik-apollo"
+  },
+  {
+   "group": "Commercial",
+   "key": "seller_count",
+   "label": "Sellers listed",
+   "value": 0,
+   "unit": "",
+   "note": "listed by HumanoidStore as \"Apollo\" (may describe the earlier model); HumanoidStore open data (CC BY 4.0), checked 2026-10",
+   "source": "https://humanoidstore.co/robots/apptronik-apollo"
+  },
+  {
+   "group": "Commercial",
+   "key": "deployment_stage",
+   "label": "Deployment stage",
+   "value": "pilot",
+   "unit": "",
+   "note": "listed by HumanoidStore as \"Apollo\" (may describe the earlier model); HumanoidStore open data (CC BY 4.0), checked 2026-10",
+   "source": "https://humanoidstore.co/robots/apptronik-apollo"
+  },
+  {
+   "group": "Commercial",
+   "key": "documented_uses",
+   "label": "Documented uses",
+   "value": "Real work / logistics",
+   "unit": "",
+   "note": "listed by HumanoidStore as \"Apollo\" (may describe the earlier model); HumanoidStore open data (CC BY 4.0), checked 2026-10",
+   "source": "https://humanoidstore.co/robots/apptronik-apollo"
+  },
+  {
+   "group": "Manipulation",
+   "key": "hands",
+   "label": "Hands",
+   "value": "included",
+   "unit": "",
+   "note": "listed by HumanoidStore as \"Apollo\" (may describe the earlier model); HumanoidStore open data (CC BY 4.0), checked 2026-10",
+   "source": "https://humanoidstore.co/robots/apptronik-apollo"
+  }
+ ]
 }

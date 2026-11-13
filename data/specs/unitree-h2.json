@@ -9,6 +9,18 @@
   {
    "title": "Unitree H2 SDK Development Guide – About H2 (updated 2026-09-03)",
    "url": "https://support.unitree.com/home/en/H2_developer/About_H2"
+  },
+  {
+   "title": "HumanoidStore datasheet – Unitree Robotics H2 (CC BY 4.0)",
+   "url": "https://humanoidstore.co/robots/unitree-h2"
+  },
+  {
+   "title": "HumanoidStore datasheet – Unitree Robotics H2 EDU (CC BY 4.0)",
+   "url": "https://humanoidstore.co/robots/unitree-h2-edu"
+  },
+  {
+   "title": "HumanoidStore datasheet – Unitree Robotics H2 Plus (CC BY 4.0)",
+   "url": "https://humanoidstore.co/robots/unitree-h2-plus"
   }
  ],
  "specs": [
@@ -784,6 +796,240 @@
    "unit": "",
    "note": "",
    "source": "https://www.unitree.com/H2"
+  },
+  {
+   "group": "Commercial",
+   "key": "sales_status",
+   "label": "Sales status",
+   "value": "shipping-now",
+   "unit": "",
+   "note": "HumanoidStore open data (CC BY 4.0), checked 2026-10",
+   "source": "https://humanoidstore.co/robots/unitree-h2"
+  },
+  {
+   "group": "Commercial",
+   "key": "who_can_buy",
+   "label": "Who can buy",
+   "value": "anyone",
+   "unit": "",
+   "note": "HumanoidStore open data (CC BY 4.0), checked 2026-10",
+   "source": "https://humanoidstore.co/robots/unitree-h2"
+  },
+  {
+   "group": "Commercial",
+   "key": "price",
+   "label": "Price",
+   "value": 29900,
+   "unit": "USD",
+   "note": "list price (maker price); HumanoidStore open data (CC BY 4.0), checked 2026-10",
+   "source": "https://humanoidstore.co/robots/unitree-h2"
+  },
+  {
+   "group": "Commercial",
+   "key": "us_delivered_price",
+   "label": "Delivered price to US",
+   "value": 39900,
+   "unit": "USD",
+   "note": "before sales tax; route: seller: Toborlife (official Unitree US partner); HumanoidStore open data (CC BY 4.0), checked 2026-10",
+   "source": "https://humanoidstore.co/robots/unitree-h2"
+  },
+  {
+   "group": "Commercial",
+   "key": "de_delivered_price",
+   "label": "Delivered price to Germany",
+   "value": 33501,
+   "unit": "EUR",
+   "note": "incl. 19% VAT; route: estimate: import; HumanoidStore open data (CC BY 4.0), checked 2026-10",
+   "source": "https://humanoidstore.co/robots/unitree-h2"
+  },
+  {
+   "group": "Commercial",
+   "key": "ships_to_us",
+   "label": "Route to US",
+   "value": "reseller",
+   "unit": "",
+   "note": "HumanoidStore open data (CC BY 4.0), checked 2026-10",
+   "source": "https://humanoidstore.co/robots/unitree-h2"
+  },
+  {
+   "group": "Commercial",
+   "key": "ships_to_eu",
+   "label": "Route to EU",
+   "value": "reseller",
+   "unit": "",
+   "note": "HumanoidStore open data (CC BY 4.0), checked 2026-10",
+   "source": "https://humanoidstore.co/robots/unitree-h2"
+  },
+  {
+   "group": "Commercial",
+   "key": "seller_count",
+   "label": "Sellers listed",
+   "value": 27,
+   "unit": "",
+   "note": "HumanoidStore open data (CC BY 4.0), checked 2026-10",
+   "source": "https://humanoidstore.co/robots/unitree-h2"
+  },
+  {
+   "group": "Commercial",
+   "key": "documented_uses",
+   "label": "Documented uses",
+   "value": "Demo / showpiece",
+   "unit": "",
+   "note": "HumanoidStore open data (CC BY 4.0), checked 2026-10",
+   "source": "https://humanoidstore.co/robots/unitree-h2"
+  },
+  {
+   "group": "Connectivity & Interfaces",
+   "key": "fcc_id",
+   "label": "FCC ID",
+   "value": "2A5PE-YUSHU012",
+   "unit": "",
+   "note": "granted 2026-06-30; HumanoidStore open data (CC BY 4.0), checked 2026-10",
+   "source": "https://humanoidstore.co/robots/unitree-h2"
+  },
+  {
+   "group": "Manipulation",
+   "key": "hands",
+   "label": "Hands",
+   "value": "none",
+   "unit": "",
+   "note": "HumanoidStore open data (CC BY 4.0), checked 2026-10",
+   "source": "https://humanoidstore.co/robots/unitree-h2"
+  },
+  {
+   "group": "Identity",
+   "key": "form_factor",
+   "label": "Form factor",
+   "value": "full-size",
+   "unit": "",
+   "note": "HumanoidStore open data (CC BY 4.0), checked 2026-10",
+   "source": "https://humanoidstore.co/robots/unitree-h2"
+  },
+  {
+   "group": "Dimensions & Mass",
+   "key": "weight",
+   "label": "Weight",
+   "value": 70,
+   "unit": "kg",
+   "note": "HumanoidStore open data (CC BY 4.0), checked 2026-10",
+   "source": "https://humanoidstore.co/robots/unitree-h2"
+  },
+  {
+   "group": "Payload",
+   "key": "rated_payload",
+   "label": "Rated payload",
+   "value": 7,
+   "unit": "kg",
+   "note": "HumanoidStore open data (CC BY 4.0), checked 2026-10",
+   "source": "https://humanoidstore.co/robots/unitree-h2"
+  },
+  {
+   "group": "Commercial",
+   "key": "price",
+   "label": "Price",
+   "value": 50000,
+   "unit": "EUR",
+   "note": "H2 EDU; list price (reseller price); HumanoidStore open data (CC BY 4.0), checked 2026-10",
+   "source": "https://humanoidstore.co/robots/unitree-h2-edu"
+  },
+  {
+   "group": "Commercial",
+   "key": "price_usd_equiv",
+   "label": "Price (USD equivalent)",
+   "value": 66800,
+   "unit": "USD",
+   "note": "H2 EDU; EUR list price at ECB reference rate; HumanoidStore open data (CC BY 4.0), checked 2026-10",
+   "source": "https://humanoidstore.co/robots/unitree-h2-edu"
+  },
+  {
+   "group": "Commercial",
+   "key": "us_delivered_price",
+   "label": "Delivered price to US",
+   "value": 66800,
+   "unit": "USD",
+   "note": "H2 EDU; before sales tax; route: seller: Toborlife (official Unitree US partner); HumanoidStore open data (CC BY 4.0), checked 2026-10",
+   "source": "https://humanoidstore.co/robots/unitree-h2-edu"
+  },
+  {
+   "group": "Commercial",
+   "key": "de_delivered_price",
+   "label": "Delivered price to Germany",
+   "value": 59202,
+   "unit": "EUR",
+   "note": "H2 EDU; incl. 19% VAT; route: seller: reichelt elektronik; HumanoidStore open data (CC BY 4.0), checked 2026-10",
+   "source": "https://humanoidstore.co/robots/unitree-h2-edu"
+  },
+  {
+   "group": "Commercial",
+   "key": "seller_count",
+   "label": "Sellers listed",
+   "value": 15,
+   "unit": "",
+   "note": "H2 EDU; HumanoidStore open data (CC BY 4.0), checked 2026-10",
+   "source": "https://humanoidstore.co/robots/unitree-h2-edu"
+  },
+  {
+   "group": "Commercial",
+   "key": "documented_uses",
+   "label": "Documented uses",
+   "value": "Robotics R&D; Manipulation research",
+   "unit": "",
+   "note": "H2 EDU; HumanoidStore open data (CC BY 4.0), checked 2026-10",
+   "source": "https://humanoidstore.co/robots/unitree-h2-edu"
+  },
+  {
+   "group": "Manipulation",
+   "key": "hands",
+   "label": "Hands",
+   "value": "optional",
+   "unit": "",
+   "note": "H2 EDU; HumanoidStore open data (CC BY 4.0), checked 2026-10",
+   "source": "https://humanoidstore.co/robots/unitree-h2-edu"
+  },
+  {
+   "group": "Dimensions & Mass",
+   "key": "height_standing",
+   "label": "Height (standing)",
+   "value": 182,
+   "unit": "cm",
+   "note": "H2 EDU; HumanoidStore open data (CC BY 4.0), checked 2026-10",
+   "source": "https://humanoidstore.co/robots/unitree-h2-edu"
+  },
+  {
+   "group": "Mobility & Performance",
+   "key": "degrees_of_freedom",
+   "label": "Total degrees of freedom",
+   "value": 31,
+   "unit": "",
+   "note": "H2 EDU; HumanoidStore open data (CC BY 4.0), checked 2026-10",
+   "source": "https://humanoidstore.co/robots/unitree-h2-edu"
+  },
+  {
+   "group": "Power & Battery",
+   "key": "runtime",
+   "label": "Runtime per charge",
+   "value": 180,
+   "unit": "min",
+   "note": "H2 EDU; HumanoidStore open data (CC BY 4.0), checked 2026-10",
+   "source": "https://humanoidstore.co/robots/unitree-h2-edu"
+  },
+  {
+   "group": "Commercial",
+   "key": "seller_count",
+   "label": "Sellers listed",
+   "value": 10,
+   "unit": "",
+   "note": "H2 Plus; HumanoidStore open data (CC BY 4.0), checked 2026-10",
+   "source": "https://humanoidstore.co/robots/unitree-h2-plus"
+  },
+  {
+   "group": "Commercial",
+   "key": "public_tender_unit_price",
+   "label": "Public tender price per unit",
+   "value": 1030502,
+   "unit": "SEK",
+   "note": "University of Borås (SE), awarded 2026-08-14: 1 x Unitree H2; 1 bid(s); before VAT; winner Robolution AB; via HumanoidStore tender record (CC BY 4.0)",
+   "source": "https://ted.europa.eu/en/notice/-/detail/567197-2026"
   }
  ]
 }

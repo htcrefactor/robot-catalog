@@ -10,7 +10,9 @@ Product specs for mobile robots of all kinds — AMRs, AGVs, humanoids, quadrupe
 - `index.html` (all robots) · `robot.html?id=…` (one robot) · `dashboard.html` (charts) · `table.html` (mega table)
 
 ## Data rules
-Every number comes from a manufacturer page, datasheet or manual listed in that record's `sources`. Unknown values are `null` and show as "—" or "N/S" (not stated). Nothing is guessed.
+Every number comes from a manufacturer page, datasheet or manual listed in that record's `sources`, except where noted below. Unknown values are `null` and show as "—" or "N/S" (not stated). Nothing is guessed.
+
+Humanoid prices, delivered prices to the US and Germany, sales status, FCC IDs and public tender prices come from HumanoidStore's open data (https://humanoidstore.co/data, dataset dated 2026-11-04, CC BY 4.0, credit "HumanoidStore (humanoidstore.co)"). 107 humanoids whose only source so far is that dataset carry `"data_source": "HumanoidStore open data (CC BY 4.0)"`; their specs are as HumanoidStore states them, not yet checked against the makers' own pages.
 
 ## Theme and languages
 - Light/dark toggle (🌙/☀️) in the header; follows the system setting until changed, then remembered.

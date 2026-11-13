@@ -1,0 +1,138 @@
+{
+ "id": "lightberry-lumi",
+ "checked": "2026-11-13",
+ "documents": [
+  {
+   "title": "HumanoidStore datasheet – Lightberry Lumi (CC BY 4.0)",
+   "url": "https://humanoidstore.co/robots/lightberry-lumi"
+  }
+ ],
+ "specs": [
+  {
+   "group": "Commercial",
+   "key": "sales_status",
+   "label": "Sales status",
+   "value": "preorder",
+   "unit": "",
+   "note": "configuration: Founder Edition; HumanoidStore open data (CC BY 4.0), checked 2026-11",
+   "source": "https://humanoidstore.co/robots/lightberry-lumi"
+  },
+  {
+   "group": "Commercial",
+   "key": "who_can_buy",
+   "label": "Who can buy",
+   "value": "anyone",
+   "unit": "",
+   "note": "configuration: Founder Edition; HumanoidStore open data (CC BY 4.0), checked 2026-11",
+   "source": "https://humanoidstore.co/robots/lightberry-lumi"
+  },
+  {
+   "group": "Commercial",
+   "key": "price",
+   "label": "Price",
+   "value": 39990,
+   "unit": "USD",
+   "note": "configuration: Founder Edition; list price (maker price); HumanoidStore open data (CC BY 4.0), checked 2026-11",
+   "source": "https://humanoidstore.co/robots/lightberry-lumi"
+  },
+  {
+   "group": "Commercial",
+   "key": "us_delivered_price",
+   "label": "Delivered price to US",
+   "value": 40091,
+   "unit": "USD",
+   "note": "configuration: Founder Edition; before sales tax; route: estimate: domestic delivery; HumanoidStore open data (CC BY 4.0), checked 2026-11",
+   "source": "https://humanoidstore.co/robots/lightberry-lumi"
+  },
+  {
+   "group": "Commercial",
+   "key": "ships_to_us",
+   "label": "Route to US",
+   "value": "direct",
+   "unit": "",
+   "note": "configuration: Founder Edition; HumanoidStore open data (CC BY 4.0), checked 2026-11",
+   "source": "https://humanoidstore.co/robots/lightberry-lumi"
+  },
+  {
+   "group": "Commercial",
+   "key": "ships_to_eu",
+   "label": "Route to EU",
+   "value": "unclear",
+   "unit": "",
+   "note": "configuration: Founder Edition; HumanoidStore open data (CC BY 4.0), checked 2026-11",
+   "source": "https://humanoidstore.co/robots/lightberry-lumi"
+  },
+  {
+   "group": "Commercial",
+   "key": "seller_count",
+   "label": "Sellers listed",
+   "value": 1,
+   "unit": "",
+   "note": "configuration: Founder Edition; HumanoidStore open data (CC BY 4.0), checked 2026-11",
+   "source": "https://humanoidstore.co/robots/lightberry-lumi"
+  },
+  {
+   "group": "Commercial",
+   "key": "documented_uses",
+   "label": "Documented uses",
+   "value": "Demo / showpiece",
+   "unit": "",
+   "note": "configuration: Founder Edition; HumanoidStore open data (CC BY 4.0), checked 2026-11",
+   "source": "https://humanoidstore.co/robots/lightberry-lumi"
+  },
+  {
+   "group": "Manipulation",
+   "key": "hands",
+   "label": "Hands",
+   "value": "fixed-grippers",
+   "unit": "",
+   "note": "configuration: Founder Edition; HumanoidStore open data (CC BY 4.0), checked 2026-11",
+   "source": "https://humanoidstore.co/robots/lightberry-lumi"
+  },
+  {
+   "group": "Identity",
+   "key": "form_factor",
+   "label": "Form factor",
+   "value": "mid-size",
+   "unit": "",
+   "note": "configuration: Founder Edition; HumanoidStore open data (CC BY 4.0), checked 2026-11",
+   "source": "https://humanoidstore.co/robots/lightberry-lumi"
+  },
+  {
+   "group": "Dimensions & Mass",
+   "key": "height_standing",
+   "label": "Height (standing)",
+   "value": 130,
+   "unit": "cm",
+   "note": "configuration: Founder Edition; HumanoidStore open data (CC BY 4.0), checked 2026-11",
+   "source": "https://humanoidstore.co/robots/lightberry-lumi"
+  },
+  {
+   "group": "Dimensions & Mass",
+   "key": "weight",
+   "label": "Weight",
+   "value": 40,
+   "unit": "kg",
+   "note": "configuration: Founder Edition; HumanoidStore open data (CC BY 4.0), checked 2026-11",
+   "source": "https://humanoidstore.co/robots/lightberry-lumi"
+  },
+  {
+   "group": "Mobility & Performance",
+   "key": "degrees_of_freedom",
+   "label": "Total degrees of freedom",
+   "value": 34,
+   "unit": "",
+   "note": "configuration: Founder Edition; HumanoidStore open data (CC BY 4.0), checked 2026-11",
+   "source": "https://humanoidstore.co/robots/lightberry-lumi"
+  },
+  {
+   "group": "Power & Battery",
+   "key": "runtime",
+   "label": "Runtime per charge",
+   "value": 150,
+   "unit": "min",
+   "note": "configuration: Founder Edition; HumanoidStore open data (CC BY 4.0), checked 2026-11",
+   "source": "https://humanoidstore.co/robots/lightberry-lumi"
+  }
+ ]
+}

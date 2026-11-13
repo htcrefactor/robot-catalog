@@ -1,259 +1,344 @@
 {
-  "id": "agility-digit-5",
-  "checked": "2026-11-04",
-  "documents": [
-    {
-      "title": "Agility Robotics – Digit 5 product page (preliminary specs)",
-      "url": "https://www.agilityrobotics.com/solutions/digit-5"
-    },
-    {
-      "title": "Agility Unveils Digit 5 Humanoid Robot Built for Cooperatively Safe Work at Scale (press release, 2026-09-15)",
-      "url": "https://www.agilityrobotics.com/content/agility-unveils-digit-5-humanoid-robot-built-for-cooperatively-safe-work-at-scale"
-    }
-  ],
-  "specs": [
-    {
-      "group": "Identity",
-      "key": "release_date",
-      "label": "Unveiled",
-      "value": "2026-09-15",
-      "unit": "",
-      "note": "",
-      "source": "https://www.agilityrobotics.com/content/agility-unveils-digit-5-humanoid-robot-built-for-cooperatively-safe-work-at-scale"
-    },
-    {
-      "group": "Identity",
-      "key": "generation",
-      "label": "Generation",
-      "value": "Fifth-generation Digit",
-      "unit": "",
-      "note": "",
-      "source": "https://www.agilityrobotics.com/content/agility-unveils-digit-5-humanoid-robot-built-for-cooperatively-safe-work-at-scale"
-    },
-    {
-      "group": "Dimensions & Mass",
-      "key": "height",
-      "label": "Height",
-      "value": 1.81,
-      "unit": "m",
-      "note": "5 ft 11 in",
-      "source": "https://www.agilityrobotics.com/content/agility-unveils-digit-5-humanoid-robot-built-for-cooperatively-safe-work-at-scale"
-    },
-    {
-      "group": "Dimensions & Mass",
-      "key": "weight",
-      "label": "Weight",
-      "value": 129,
-      "unit": "kg",
-      "note": "284 lb",
-      "source": "https://www.agilityrobotics.com/content/agility-unveils-digit-5-humanoid-robot-built-for-cooperatively-safe-work-at-scale"
-    },
-    {
-      "group": "Mobility & Performance",
-      "key": "max_payload",
-      "label": "Payload",
-      "value": 23,
-      "unit": "kg",
-      "note": "50 lb; preliminary estimate from pre-production hardware; product in development",
-      "source": "https://www.agilityrobotics.com/solutions/digit-5"
-    },
-    {
-      "group": "Mobility & Performance",
-      "key": "rated_payload",
-      "label": "Repetitive lift load",
-      "value": 22.7,
-      "unit": "kg",
-      "note": "repeatedly lifts up to 50 lb; 40% more than Digit 4",
-      "source": "https://www.agilityrobotics.com/content/agility-unveils-digit-5-humanoid-robot-built-for-cooperatively-safe-work-at-scale"
-    },
-    {
-      "group": "Manipulation",
-      "key": "arm_reach",
-      "label": "Reach",
-      "value": 2.2,
-      "unit": "m",
-      "note": "7.2 ft reach height (up from Digit 4's 5.5 ft); preliminary estimate from pre-production hardware; product in development",
-      "source": "https://www.agilityrobotics.com/solutions/digit-5"
-    },
-    {
-      "group": "Power & Battery",
-      "key": "runtime",
-      "label": "Runtime",
-      "value": 90,
-      "unit": "min",
-      "note": "new battery system",
-      "source": "https://www.agilityrobotics.com/content/agility-unveils-digit-5-humanoid-robot-built-for-cooperatively-safe-work-at-scale"
-    },
-    {
-      "group": "Charging & Docking",
-      "key": "charge_time",
-      "label": "Charge time",
-      "value": 9,
-      "unit": "min",
-      "note": "autonomous charging",
-      "source": "https://www.agilityrobotics.com/content/agility-unveils-digit-5-humanoid-robot-built-for-cooperatively-safe-work-at-scale"
-    },
-    {
-      "group": "Charging & Docking",
-      "key": "run_to_charge_ratio",
-      "label": "Run-to-charge ratio",
-      "value": "10:1",
-      "unit": "",
-      "note": "up from Digit 4's 2:1",
-      "source": "https://www.agilityrobotics.com/solutions/digit-5"
-    },
-    {
-      "group": "Power & Battery",
-      "key": "daily_operating_hours",
-      "label": "Work per shift",
-      "value": "20 h / 24 h",
-      "unit": "",
-      "note": "more than 20 h productive work per 24 h; preliminary estimate from pre-production hardware; product in development",
-      "source": "https://www.agilityrobotics.com/solutions/digit-5"
-    },
-    {
-      "group": "Charging & Docking",
-      "key": "charging_method",
-      "label": "Charging",
-      "value": "Autonomous charging at dock",
-      "unit": "",
-      "note": "",
-      "source": "https://www.agilityrobotics.com/solutions/digit-5"
-    },
-    {
-      "group": "Actuation & Joints",
-      "key": "actuator_type",
-      "label": "Leg actuators",
-      "value": "Proprietary cycloidal actuators",
-      "unit": "",
-      "note": "new leg design",
-      "source": "https://www.agilityrobotics.com/content/agility-unveils-digit-5-humanoid-robot-built-for-cooperatively-safe-work-at-scale"
-    },
-    {
-      "group": "Manipulation",
-      "key": "gripper_type",
-      "label": "End effectors",
-      "value": "Swappable grippers with ISO-standard mounting flanges",
-      "unit": "",
-      "note": "",
-      "source": "https://www.agilityrobotics.com/content/agility-unveils-digit-5-humanoid-robot-built-for-cooperatively-safe-work-at-scale"
-    },
-    {
-      "group": "Payload & Mounting",
-      "key": "top_module_interface",
-      "label": "Tool mounting",
-      "value": "ISO-standard mounting flange",
-      "unit": "",
-      "note": "",
-      "source": "https://www.agilityrobotics.com/content/agility-unveils-digit-5-humanoid-robot-built-for-cooperatively-safe-work-at-scale"
-    },
-    {
-      "group": "Sensors & Perception",
-      "key": "camera_type",
-      "label": "Perception sensors",
-      "value": "Onboard cameras, depth sensors and IMUs",
-      "unit": "",
-      "note": "data processed locally",
-      "source": "https://www.agilityrobotics.com/content/agility-unveils-digit-5-humanoid-robot-built-for-cooperatively-safe-work-at-scale"
-    },
-    {
-      "group": "Safety & Compliance",
-      "key": "safety_features",
-      "label": "Safe human detection",
-      "value": "AI + multiple sensors; autonomously avoids, stops or sits",
-      "unit": "",
-      "note": "",
-      "source": "https://www.agilityrobotics.com/content/agility-unveils-digit-5-humanoid-robot-built-for-cooperatively-safe-work-at-scale"
-    },
-    {
-      "group": "Safety & Compliance",
-      "key": "warning_system",
-      "label": "Safety cues",
-      "value": "Visual and auditory cues conveying motion intent",
-      "unit": "",
-      "note": "",
-      "source": "https://www.agilityrobotics.com/content/agility-unveils-digit-5-humanoid-robot-built-for-cooperatively-safe-work-at-scale"
-    },
-    {
-      "group": "Safety & Compliance",
-      "key": "safety_controller",
-      "label": "Safe motion control",
-      "value": "Independent safety controller",
-      "unit": "",
-      "note": "built on NVIDIA IGX Thor + Halos Core",
-      "source": "https://www.agilityrobotics.com/content/agility-unveils-digit-5-humanoid-robot-built-for-cooperatively-safe-work-at-scale"
-    },
-    {
-      "group": "Compute & Software",
-      "key": "compute_module",
-      "label": "Safety compute platform",
-      "value": "NVIDIA IGX Thor with NVIDIA Halos for Robotics",
-      "unit": "",
-      "note": "Agility is first launch partner for Halos",
-      "source": "https://www.agilityrobotics.com/content/agility-unveils-digit-5-humanoid-robot-built-for-cooperatively-safe-work-at-scale"
-    },
-    {
-      "group": "Safety & Compliance",
-      "key": "safety_standards",
-      "label": "Standards work",
-      "value": "Contributor to ANSI/A3 TR R15.108 and ISO 25785-1",
-      "unit": "",
-      "note": "standards under development",
-      "source": "https://www.agilityrobotics.com/content/agility-unveils-digit-5-humanoid-robot-built-for-cooperatively-safe-work-at-scale"
-    },
-    {
-      "group": "Safety & Compliance",
-      "key": "certifications",
-      "label": "OSHA field evaluation",
-      "value": "Digit: first humanoid to pass an independent field evaluation for industrial safety standards on a customer line",
-      "unit": "",
-      "note": "Digit 4 milestone",
-      "source": "https://www.agilityrobotics.com/content/agility-unveils-digit-5-humanoid-robot-built-for-cooperatively-safe-work-at-scale"
-    },
-    {
-      "group": "Safety & Compliance",
-      "key": "obstacle_avoidance",
-      "label": "Cooperative safety",
-      "value": "Designed to work near people without external barriers",
-      "unit": "",
-      "note": "certain safety features still in development",
-      "source": "https://www.agilityrobotics.com/solutions/digit-5"
-    },
-    {
-      "group": "Compute & Software",
-      "key": "fleet_software",
-      "label": "Fleet software",
-      "value": "Agility Arc cloud platform",
-      "unit": "",
-      "note": "integrates AMRs, WMS, WES, MES",
-      "source": "https://www.agilityrobotics.com/content/agility-unveils-digit-5-humanoid-robot-built-for-cooperatively-safe-work-at-scale"
-    },
-    {
-      "group": "Connectivity & Interfaces",
-      "key": "data_security",
-      "label": "Data security",
-      "value": "End-to-end encryption; mTLS and TLS 1.2+; encrypted on-robot storage",
-      "unit": "",
-      "note": "",
-      "source": "https://www.agilityrobotics.com/content/agility-unveils-digit-5-humanoid-robot-built-for-cooperatively-safe-work-at-scale"
-    },
-    {
-      "group": "Commercial",
-      "key": "availability",
-      "label": "Status",
-      "value": "In development",
-      "unit": "",
-      "note": "features and specs subject to change",
-      "source": "https://www.agilityrobotics.com/solutions/digit-5"
-    },
-    {
-      "group": "Identity",
-      "key": "manufacturing_site",
-      "label": "Assembly",
-      "value": "RoboFab, Salem, Oregon (USA)",
-      "unit": "",
-      "note": "capacity up to 10,000 robots/yr",
-      "source": "https://www.agilityrobotics.com/content/agility-unveils-digit-5-humanoid-robot-built-for-cooperatively-safe-work-at-scale"
-    }
-  ]
+ "id": "agility-digit-5",
+ "checked": "2026-11-04",
+ "documents": [
+  {
+   "title": "Agility Robotics – Digit 5 product page (preliminary specs)",
+   "url": "https://www.agilityrobotics.com/solutions/digit-5"
+  },
+  {
+   "title": "Agility Unveils Digit 5 Humanoid Robot Built for Cooperatively Safe Work at Scale (press release, 2026-09-15)",
+   "url": "https://www.agilityrobotics.com/content/agility-unveils-digit-5-humanoid-robot-built-for-cooperatively-safe-work-at-scale"
+  },
+  {
+   "title": "HumanoidStore datasheet – Agility Robotics Digit (CC BY 4.0)",
+   "url": "https://humanoidstore.co/robots/agility-digit"
+  }
+ ],
+ "specs": [
+  {
+   "group": "Identity",
+   "key": "release_date",
+   "label": "Unveiled",
+   "value": "2026-09-15",
+   "unit": "",
+   "note": "",
+   "source": "https://www.agilityrobotics.com/content/agility-unveils-digit-5-humanoid-robot-built-for-cooperatively-safe-work-at-scale"
+  },
+  {
+   "group": "Identity",
+   "key": "generation",
+   "label": "Generation",
+   "value": "Fifth-generation Digit",
+   "unit": "",
+   "note": "",
+   "source": "https://www.agilityrobotics.com/content/agility-unveils-digit-5-humanoid-robot-built-for-cooperatively-safe-work-at-scale"
+  },
+  {
+   "group": "Dimensions & Mass",
+   "key": "height",
+   "label": "Height",
+   "value": 1.81,
+   "unit": "m",
+   "note": "5 ft 11 in",
+   "source": "https://www.agilityrobotics.com/content/agility-unveils-digit-5-humanoid-robot-built-for-cooperatively-safe-work-at-scale"
+  },
+  {
+   "group": "Dimensions & Mass",
+   "key": "weight",
+   "label": "Weight",
+   "value": 129,
+   "unit": "kg",
+   "note": "284 lb",
+   "source": "https://www.agilityrobotics.com/content/agility-unveils-digit-5-humanoid-robot-built-for-cooperatively-safe-work-at-scale"
+  },
+  {
+   "group": "Mobility & Performance",
+   "key": "max_payload",
+   "label": "Payload",
+   "value": 23,
+   "unit": "kg",
+   "note": "50 lb; preliminary estimate from pre-production hardware; product in development",
+   "source": "https://www.agilityrobotics.com/solutions/digit-5"
+  },
+  {
+   "group": "Mobility & Performance",
+   "key": "rated_payload",
+   "label": "Repetitive lift load",
+   "value": 22.7,
+   "unit": "kg",
+   "note": "repeatedly lifts up to 50 lb; 40% more than Digit 4",
+   "source": "https://www.agilityrobotics.com/content/agility-unveils-digit-5-humanoid-robot-built-for-cooperatively-safe-work-at-scale"
+  },
+  {
+   "group": "Manipulation",
+   "key": "arm_reach",
+   "label": "Reach",
+   "value": 2.2,
+   "unit": "m",
+   "note": "7.2 ft reach height (up from Digit 4's 5.5 ft); preliminary estimate from pre-production hardware; product in development",
+   "source": "https://www.agilityrobotics.com/solutions/digit-5"
+  },
+  {
+   "group": "Power & Battery",
+   "key": "runtime",
+   "label": "Runtime",
+   "value": 90,
+   "unit": "min",
+   "note": "new battery system",
+   "source": "https://www.agilityrobotics.com/content/agility-unveils-digit-5-humanoid-robot-built-for-cooperatively-safe-work-at-scale"
+  },
+  {
+   "group": "Charging & Docking",
+   "key": "charge_time",
+   "label": "Charge time",
+   "value": 9,
+   "unit": "min",
+   "note": "autonomous charging",
+   "source": "https://www.agilityrobotics.com/content/agility-unveils-digit-5-humanoid-robot-built-for-cooperatively-safe-work-at-scale"
+  },
+  {
+   "group": "Charging & Docking",
+   "key": "run_to_charge_ratio",
+   "label": "Run-to-charge ratio",
+   "value": "10:1",
+   "unit": "",
+   "note": "up from Digit 4's 2:1",
+   "source": "https://www.agilityrobotics.com/solutions/digit-5"
+  },
+  {
+   "group": "Power & Battery",
+   "key": "daily_operating_hours",
+   "label": "Work per shift",
+   "value": "20 h / 24 h",
+   "unit": "",
+   "note": "more than 20 h productive work per 24 h; preliminary estimate from pre-production hardware; product in development",
+   "source": "https://www.agilityrobotics.com/solutions/digit-5"
+  },
+  {
+   "group": "Charging & Docking",
+   "key": "charging_method",
+   "label": "Charging",
+   "value": "Autonomous charging at dock",
+   "unit": "",
+   "note": "",
+   "source": "https://www.agilityrobotics.com/solutions/digit-5"
+  },
+  {
+   "group": "Actuation & Joints",
+   "key": "actuator_type",
+   "label": "Leg actuators",
+   "value": "Proprietary cycloidal actuators",
+   "unit": "",
+   "note": "new leg design",
+   "source": "https://www.agilityrobotics.com/content/agility-unveils-digit-5-humanoid-robot-built-for-cooperatively-safe-work-at-scale"
+  },
+  {
+   "group": "Manipulation",
+   "key": "gripper_type",
+   "label": "End effectors",
+   "value": "Swappable grippers with ISO-standard mounting flanges",
+   "unit": "",
+   "note": "",
+   "source": "https://www.agilityrobotics.com/content/agility-unveils-digit-5-humanoid-robot-built-for-cooperatively-safe-work-at-scale"
+  },
+  {
+   "group": "Payload & Mounting",
+   "key": "top_module_interface",
+   "label": "Tool mounting",
+   "value": "ISO-standard mounting flange",
+   "unit": "",
+   "note": "",
+   "source": "https://www.agilityrobotics.com/content/agility-unveils-digit-5-humanoid-robot-built-for-cooperatively-safe-work-at-scale"
+  },
+  {
+   "group": "Sensors & Perception",
+   "key": "camera_type",
+   "label": "Perception sensors",
+   "value": "Onboard cameras, depth sensors and IMUs",
+   "unit": "",
+   "note": "data processed locally",
+   "source": "https://www.agilityrobotics.com/content/agility-unveils-digit-5-humanoid-robot-built-for-cooperatively-safe-work-at-scale"
+  },
+  {
+   "group": "Safety & Compliance",
+   "key": "safety_features",
+   "label": "Safe human detection",
+   "value": "AI + multiple sensors; autonomously avoids, stops or sits",
+   "unit": "",
+   "note": "",
+   "source": "https://www.agilityrobotics.com/content/agility-unveils-digit-5-humanoid-robot-built-for-cooperatively-safe-work-at-scale"
+  },
+  {
+   "group": "Safety & Compliance",
+   "key": "warning_system",
+   "label": "Safety cues",
+   "value": "Visual and auditory cues conveying motion intent",
+   "unit": "",
+   "note": "",
+   "source": "https://www.agilityrobotics.com/content/agility-unveils-digit-5-humanoid-robot-built-for-cooperatively-safe-work-at-scale"
+  },
+  {
+   "group": "Safety & Compliance",
+   "key": "safety_controller",
+   "label": "Safe motion control",
+   "value": "Independent safety controller",
+   "unit": "",
+   "note": "built on NVIDIA IGX Thor + Halos Core",
+   "source": "https://www.agilityrobotics.com/content/agility-unveils-digit-5-humanoid-robot-built-for-cooperatively-safe-work-at-scale"
+  },
+  {
+   "group": "Compute & Software",
+   "key": "compute_module",
+   "label": "Safety compute platform",
+   "value": "NVIDIA IGX Thor with NVIDIA Halos for Robotics",
+   "unit": "",
+   "note": "Agility is first launch partner for Halos",
+   "source": "https://www.agilityrobotics.com/content/agility-unveils-digit-5-humanoid-robot-built-for-cooperatively-safe-work-at-scale"
+  },
+  {
+   "group": "Safety & Compliance",
+   "key": "safety_standards",
+   "label": "Standards work",
+   "value": "Contributor to ANSI/A3 TR R15.108 and ISO 25785-1",
+   "unit": "",
+   "note": "standards under development",
+   "source": "https://www.agilityrobotics.com/content/agility-unveils-digit-5-humanoid-robot-built-for-cooperatively-safe-work-at-scale"
+  },
+  {
+   "group": "Safety & Compliance",
+   "key": "certifications",
+   "label": "OSHA field evaluation",
+   "value": "Digit: first humanoid to pass an independent field evaluation for industrial safety standards on a customer line",
+   "unit": "",
+   "note": "Digit 4 milestone",
+   "source": "https://www.agilityrobotics.com/content/agility-unveils-digit-5-humanoid-robot-built-for-cooperatively-safe-work-at-scale"
+  },
+  {
+   "group": "Safety & Compliance",
+   "key": "obstacle_avoidance",
+   "label": "Cooperative safety",
+   "value": "Designed to work near people without external barriers",
+   "unit": "",
+   "note": "certain safety features still in development",
+   "source": "https://www.agilityrobotics.com/solutions/digit-5"
+  },
+  {
+   "group": "Compute & Software",
+   "key": "fleet_software",
+   "label": "Fleet software",
+   "value": "Agility Arc cloud platform",
+   "unit": "",
+   "note": "integrates AMRs, WMS, WES, MES",
+   "source": "https://www.agilityrobotics.com/content/agility-unveils-digit-5-humanoid-robot-built-for-cooperatively-safe-work-at-scale"
+  },
+  {
+   "group": "Connectivity & Interfaces",
+   "key": "data_security",
+   "label": "Data security",
+   "value": "End-to-end encryption; mTLS and TLS 1.2+; encrypted on-robot storage",
+   "unit": "",
+   "note": "",
+   "source": "https://www.agilityrobotics.com/content/agility-unveils-digit-5-humanoid-robot-built-for-cooperatively-safe-work-at-scale"
+  },
+  {
+   "group": "Commercial",
+   "key": "availability",
+   "label": "Status",
+   "value": "In development",
+   "unit": "",
+   "note": "features and specs subject to change",
+   "source": "https://www.agilityrobotics.com/solutions/digit-5"
+  },
+  {
+   "group": "Identity",
+   "key": "manufacturing_site",
+   "label": "Assembly",
+   "value": "RoboFab, Salem, Oregon (USA)",
+   "unit": "",
+   "note": "capacity up to 10,000 robots/yr",
+   "source": "https://www.agilityrobotics.com/content/agility-unveils-digit-5-humanoid-robot-built-for-cooperatively-safe-work-at-scale"
+  },
+  {
+   "group": "Commercial",
+   "key": "sales_status",
+   "label": "Sales status",
+   "value": "b2b-only",
+   "unit": "",
+   "note": "listed by HumanoidStore as \"Digit\" (model generation not stated); HumanoidStore open data (CC BY 4.0), checked 2026-10",
+   "source": "https://humanoidstore.co/robots/agility-digit"
+  },
+  {
+   "group": "Commercial",
+   "key": "who_can_buy",
+   "label": "Who can buy",
+   "value": "business",
+   "unit": "",
+   "note": "listed by HumanoidStore as \"Digit\" (model generation not stated); HumanoidStore open data (CC BY 4.0), checked 2026-10",
+   "source": "https://humanoidstore.co/robots/agility-digit"
+  },
+  {
+   "group": "Commercial",
+   "key": "price",
+   "label": "Price",
+   "value": 200000,
+   "unit": "USD",
+   "note": "listed by HumanoidStore as \"Digit\" (model generation not stated); list price (maker price); HumanoidStore open data (CC BY 4.0), checked 2026-10",
+   "source": "https://humanoidstore.co/robots/agility-digit"
+  },
+  {
+   "group": "Commercial",
+   "key": "ships_to_us",
+   "label": "Route to US",
+   "value": "reseller",
+   "unit": "",
+   "note": "listed by HumanoidStore as \"Digit\" (model generation not stated); HumanoidStore open data (CC BY 4.0), checked 2026-10",
+   "source": "https://humanoidstore.co/robots/agility-digit"
+  },
+  {
+   "group": "Commercial",
+   "key": "ships_to_eu",
+   "label": "Route to EU",
+   "value": "unclear",
+   "unit": "",
+   "note": "listed by HumanoidStore as \"Digit\" (model generation not stated); HumanoidStore open data (CC BY 4.0), checked 2026-10",
+   "source": "https://humanoidstore.co/robots/agility-digit"
+  },
+  {
+   "group": "Commercial",
+   "key": "seller_count",
+   "label": "Sellers listed",
+   "value": 1,
+   "unit": "",
+   "note": "listed by HumanoidStore as \"Digit\" (model generation not stated); HumanoidStore open data (CC BY 4.0), checked 2026-10",
+   "source": "https://humanoidstore.co/robots/agility-digit"
+  },
+  {
+   "group": "Commercial",
+   "key": "deployment_stage",
+   "label": "Deployment stage",
+   "value": "production",
+   "unit": "",
+   "note": "listed by HumanoidStore as \"Digit\" (model generation not stated); HumanoidStore open data (CC BY 4.0), checked 2026-10",
+   "source": "https://humanoidstore.co/robots/agility-digit"
+  },
+  {
+   "group": "Commercial",
+   "key": "documented_uses",
+   "label": "Documented uses",
+   "value": "Real work / logistics",
+   "unit": "",
+   "note": "listed by HumanoidStore as \"Digit\" (model generation not stated); HumanoidStore open data (CC BY 4.0), checked 2026-10",
+   "source": "https://humanoidstore.co/robots/agility-digit"
+  },
+  {
+   "group": "Manipulation",
+   "key": "hands",
+   "label": "Hands",
+   "value": "fixed-grippers",
+   "unit": "",
+   "note": "listed by HumanoidStore as \"Digit\" (model generation not stated); HumanoidStore open data (CC BY 4.0), checked 2026-10",
+   "source": "https://humanoidstore.co/robots/agility-digit"
+  }
+ ]
 }
