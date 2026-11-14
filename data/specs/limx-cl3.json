@@ -1,10 +1,14 @@
 {
  "id": "limx-cl3",
- "checked": "2026-11-13",
+ "checked": "2026-11-14",
  "documents": [
   {
    "title": "HumanoidStore datasheet – LimX Dynamics Oli (CL-3) (CC BY 4.0)",
    "url": "https://humanoidstore.co/robots/limx-cl3"
+  },
+  {
+   "title": "LimX Oli specifications (maker)",
+   "url": "https://www.limxdynamics.com/en/products/oli/spec"
   }
  ],
  "specs": [
@@ -142,6 +146,159 @@
    "unit": "m/s",
    "note": "HumanoidStore open data (CC BY 4.0), checked 2026-10",
    "source": "https://humanoidstore.co/robots/limx-cl3"
+  },
+  {
+   "group": "Dimensions & Mass",
+   "key": "height",
+   "label": "Overall height",
+   "value": 165,
+   "unit": "cm",
+   "note": "Lite/EDU; Super 175 cm",
+   "source": "https://www.limxdynamics.com/en/products/oli/spec"
+  },
+  {
+   "group": "Dimensions & Mass",
+   "key": "shoulder_width",
+   "label": "Shoulder width",
+   "value": 55,
+   "unit": "cm",
+   "note": "Super 60 cm",
+   "source": "https://www.limxdynamics.com/en/products/oli/spec"
+  },
+  {
+   "group": "Dimensions & Mass",
+   "key": "arm_length",
+   "label": "Single-arm length",
+   "value": 70,
+   "unit": "cm",
+   "note": "Super 80 cm",
+   "source": "https://www.limxdynamics.com/en/products/oli/spec"
+  },
+  {
+   "group": "Dimensions & Mass",
+   "key": "weight_with_battery",
+   "label": "Weight (with battery)",
+   "value": 55,
+   "unit": "kg",
+   "note": "≤55 kg; Super ≤60 kg",
+   "source": "https://www.limxdynamics.com/en/products/oli/spec"
+  },
+  {
+   "group": "Mobility & Performance",
+   "key": "degrees_of_freedom",
+   "label": "Total degrees of freedom",
+   "value": 33,
+   "unit": "",
+   "note": "EDU edition (Lite 31, Super 43)",
+   "source": "https://www.limxdynamics.com/en/products/oli/spec"
+  },
+  {
+   "group": "Actuation & Joints",
+   "key": "dof_per_leg",
+   "label": "DoF per leg",
+   "value": 6,
+   "unit": "",
+   "note": "",
+   "source": "https://www.limxdynamics.com/en/products/oli/spec"
+  },
+  {
+   "group": "Actuation & Joints",
+   "key": "dof_per_arm",
+   "label": "DoF per arm",
+   "value": 7,
+   "unit": "",
+   "note": "",
+   "source": "https://www.limxdynamics.com/en/products/oli/spec"
+  },
+  {
+   "group": "Actuation & Joints",
+   "key": "dof_waist",
+   "label": "Waist DoF",
+   "value": 3,
+   "unit": "",
+   "note": "",
+   "source": "https://www.limxdynamics.com/en/products/oli/spec"
+  },
+  {
+   "group": "Actuation & Joints",
+   "key": "neck_dof",
+   "label": "Neck DoF",
+   "value": 2,
+   "unit": "",
+   "note": "",
+   "source": "https://www.limxdynamics.com/en/products/oli/spec"
+  },
+  {
+   "group": "Manipulation",
+   "key": "arm_payload",
+   "label": "Arm payload",
+   "value": 3,
+   "unit": "kg",
+   "note": "Lite/EDU; Super 5 kg",
+   "source": "https://www.limxdynamics.com/en/products/oli/spec"
+  },
+  {
+   "group": "Mobility & Performance",
+   "key": "max_speed",
+   "label": "Top speed",
+   "value": 5,
+   "unit": "km/h",
+   "note": "= 1.39 m/s; matches HumanoidStore",
+   "source": "https://www.limxdynamics.com/en/products/oli/spec"
+  },
+  {
+   "group": "Actuation & Joints",
+   "key": "max_joint_torque",
+   "label": "Max joint torque",
+   "value": 150,
+   "unit": "N·m",
+   "note": "Lite/EDU; Super 250 N·m",
+   "source": "https://www.limxdynamics.com/en/products/oli/spec"
+  },
+  {
+   "group": "Power & Battery",
+   "key": "battery_capacity",
+   "label": "Battery capacity",
+   "value": "9,500",
+   "unit": "mAh",
+   "note": "58.8 V 10 A charger",
+   "source": "https://www.limxdynamics.com/en/products/oli/spec"
+  },
+  {
+   "group": "Power & Battery",
+   "key": "runtime",
+   "label": "Runtime per charge",
+   "value": 1.5,
+   "unit": "h",
+   "note": "EDU; Lite ~2 h",
+   "source": "https://www.limxdynamics.com/en/products/oli/spec"
+  },
+  {
+   "group": "Compute & Software",
+   "key": "compute_module",
+   "label": "Chipset",
+   "value": "Motion control RK3588/8G/64G; perception NVIDIA Orin NX 157 TOPS/16G/1T",
+   "unit": "",
+   "note": "",
+   "source": "https://www.limxdynamics.com/en/products/oli/spec"
+  },
+  {
+   "group": "Connectivity & Interfaces",
+   "key": "wifi",
+   "label": "Wi-Fi",
+   "value": "Wi-Fi 6",
+   "unit": "",
+   "note": "",
+   "source": "https://www.limxdynamics.com/en/products/oli/spec"
+  },
+  {
+   "group": "Connectivity & Interfaces",
+   "key": "bluetooth",
+   "label": "Bluetooth",
+   "value": "Bluetooth LE 5.4",
+   "unit": "",
+   "note": "",
+   "source": "https://www.limxdynamics.com/en/products/oli/spec"
   }
  ]
 }

@@ -1,6 +1,6 @@
 {
  "meta": {
-  "updated": "2026-11-13",
+  "updated": "2026-11-14",
   "count": 193
  },
  "robots": [
@@ -1490,12 +1490,12 @@
    "height_mm": 950,
    "weight_kg": 19.5,
    "payload_kg": null,
-   "max_speed_mps": 0.4,
+   "max_speed_mps": 1.1,
    "min_speed_mps": null,
    "wheel_diameter_mm": null,
    "wheel_count": null,
    "dof": 22,
-   "runtime_h": 0.5,
+   "runtime_h": 1.17,
    "battery_wh": null,
    "ip_rating": null,
    "api_support": null,
@@ -1507,12 +1507,13 @@
    "sensors": [],
    "price_usd": 10103,
    "price_note": "list 9000 EUR (reseller), per HumanoidStore, checked 2026-10",
-   "official_url": null,
+   "official_url": "https://www.booster.tech/booster-k1",
    "sources": [
-    "https://humanoidstore.co/robots/booster-k1"
+    "https://humanoidstore.co/robots/booster-k1",
+    "https://docs.booster.tech/docs/product-manual/k1/getting-started/specifications"
    ],
    "summary": "Compact humanoid from Booster Robotics; shipping now, anyone can order.",
-   "data_source": "HumanoidStore open data (CC BY 4.0)"
+   "data_source": "HumanoidStore + maker page"
   },
   {
    "id": "booster-t1",
@@ -1587,12 +1588,13 @@
    "sensors": [],
    "price_usd": 37999,
    "price_note": "list 27060 EUR (reseller), per HumanoidStore, checked 2026-10",
-   "official_url": null,
+   "official_url": "https://www.booster.tech/booster-t2/",
    "sources": [
-    "https://humanoidstore.co/robots/booster-t2"
+    "https://humanoidstore.co/robots/booster-t2",
+    "https://docs.booster.tech/zh-CN/docs/product-manual/t2/getting-started/specifications"
    ],
    "summary": "Mid-size humanoid from Booster Robotics; shipping now, anyone can order.",
-   "data_source": "HumanoidStore open data (CC BY 4.0)"
+   "data_source": "HumanoidStore + maker page"
   },
   {
    "id": "boston-dynamics-atlas",
@@ -2051,12 +2053,13 @@
    "sensors": [],
    "price_usd": 26000,
    "price_note": "list 26000 USD (maker), per HumanoidStore, checked 2026-10",
-   "official_url": null,
+   "official_url": "https://en.engineai.com.cn/",
    "sources": [
-    "https://humanoidstore.co/robots/engineai-se01"
+    "https://humanoidstore.co/robots/engineai-se01",
+    "https://en.engineai.com.cn/"
    ],
    "summary": "Full-size humanoid from EngineAI; shipping now, anyone can order.",
-   "data_source": "HumanoidStore open data (CC BY 4.0)"
+   "data_source": "HumanoidStore + maker page"
   },
   {
    "id": "engineai-t800",
@@ -2481,12 +2484,13 @@
    "sensors": [],
    "price_usd": 40000,
    "price_note": "list 40000 USD (maker), per HumanoidStore, checked 2026-10",
-   "official_url": null,
+   "official_url": "https://support-old.fftai.com/en/docs/GR-X-Humanoid-Robot/Fouriern1/N1_Introduction/",
    "sources": [
-    "https://humanoidstore.co/robots/fourier-n1"
+    "https://humanoidstore.co/robots/fourier-n1",
+    "https://support-old.fftai.com/en/docs/GR-X-Humanoid-Robot/Fouriern1/N1_Introduction/"
    ],
    "summary": "Mid-size humanoid from Fourier; shipping now, anyone can order.",
-   "data_source": "HumanoidStore open data (CC BY 4.0)"
+   "data_source": "HumanoidStore + maker page"
   },
   {
    "id": "galaxea-r1",
@@ -3241,12 +3245,13 @@
    "sensors": [],
    "price_usd": 52875,
    "price_note": "list 52875 USD (reseller), per HumanoidStore, checked 2026-10",
-   "official_url": null,
+   "official_url": "https://www.limxdynamics.com/en/products/oli",
    "sources": [
-    "https://humanoidstore.co/robots/limx-cl3"
+    "https://humanoidstore.co/robots/limx-cl3",
+    "https://www.limxdynamics.com/en/products/oli/spec"
    ],
    "summary": "Full-size humanoid from LimX Dynamics; shipping now, anyone can order.",
-   "data_source": "HumanoidStore open data (CC BY 4.0)"
+   "data_source": "HumanoidStore + maker page"
   },
   {
    "id": "lingbao-casbot-casbot-01",

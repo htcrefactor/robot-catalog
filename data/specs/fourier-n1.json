@@ -1,10 +1,14 @@
 {
  "id": "fourier-n1",
- "checked": "2026-11-13",
+ "checked": "2026-11-14",
  "documents": [
   {
    "title": "HumanoidStore datasheet – Fourier N1 (CC BY 4.0)",
    "url": "https://humanoidstore.co/robots/fourier-n1"
+  },
+  {
+   "title": "About Fourier N1 (Fourier docs)",
+   "url": "https://support-old.fftai.com/en/docs/GR-X-Humanoid-Robot/Fouriern1/N1_Introduction/"
   }
  ],
  "specs": [
@@ -142,6 +146,60 @@
    "unit": "m/s",
    "note": "HumanoidStore open data (CC BY 4.0), checked 2026-10",
    "source": "https://humanoidstore.co/robots/fourier-n1"
+  },
+  {
+   "group": "Dimensions & Mass",
+   "key": "height",
+   "label": "Overall height",
+   "value": 1.3,
+   "unit": "m",
+   "note": "stated 1.3 m",
+   "source": "https://support-old.fftai.com/en/docs/GR-X-Humanoid-Robot/Fouriern1/N1_Introduction/"
+  },
+  {
+   "group": "Dimensions & Mass",
+   "key": "weight",
+   "label": "Weight",
+   "value": 38,
+   "unit": "kg",
+   "note": "",
+   "source": "https://support-old.fftai.com/en/docs/GR-X-Humanoid-Robot/Fouriern1/N1_Introduction/"
+  },
+  {
+   "group": "Mobility & Performance",
+   "key": "degrees_of_freedom",
+   "label": "Total degrees of freedom",
+   "value": 23,
+   "unit": "",
+   "note": "",
+   "source": "https://support-old.fftai.com/en/docs/GR-X-Humanoid-Robot/Fouriern1/N1_Introduction/"
+  },
+  {
+   "group": "Mobility & Performance",
+   "key": "max_speed",
+   "label": "Top speed",
+   "value": 3.5,
+   "unit": "m/s",
+   "note": "measured",
+   "source": "https://support-old.fftai.com/en/docs/GR-X-Humanoid-Robot/Fouriern1/N1_Introduction/"
+  },
+  {
+   "group": "Terrain & Navigation Limits",
+   "key": "max_slope",
+   "label": "Maximum slope",
+   "value": "15–20",
+   "unit": "°",
+   "note": "",
+   "source": "https://support-old.fftai.com/en/docs/GR-X-Humanoid-Robot/Fouriern1/N1_Introduction/"
+  },
+  {
+   "group": "Terrain & Navigation Limits",
+   "key": "max_step_height",
+   "label": "Step",
+   "value": 20,
+   "unit": "cm",
+   "note": "",
+   "source": "https://support-old.fftai.com/en/docs/GR-X-Humanoid-Robot/Fouriern1/N1_Introduction/"
   }
  ]
 }

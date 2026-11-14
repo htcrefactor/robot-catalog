@@ -1,10 +1,14 @@
 {
  "id": "engineai-se01",
- "checked": "2026-11-13",
+ "checked": "2026-11-14",
  "documents": [
   {
    "title": "HumanoidStore datasheet – EngineAI SE01 (CC BY 4.0)",
    "url": "https://humanoidstore.co/robots/engineai-se01"
+  },
+  {
+   "title": "EngineAI homepage (SE01 summary)",
+   "url": "https://en.engineai.com.cn/"
   }
  ],
  "specs": [
@@ -133,6 +137,33 @@
    "unit": "m/s",
    "note": "HumanoidStore open data (CC BY 4.0), checked 2026-10",
    "source": "https://humanoidstore.co/robots/engineai-se01"
+  },
+  {
+   "group": "Dimensions & Mass",
+   "key": "height",
+   "label": "Overall height",
+   "value": 170,
+   "unit": "cm",
+   "note": "",
+   "source": "https://en.engineai.com.cn/"
+  },
+  {
+   "group": "Mobility & Performance",
+   "key": "nominal_speed",
+   "label": "Walking speed",
+   "value": 2,
+   "unit": "m/s",
+   "note": "",
+   "source": "https://en.engineai.com.cn/"
+  },
+  {
+   "group": "Mobility & Performance",
+   "key": "degrees_of_freedom",
+   "label": "Total degrees of freedom",
+   "value": 32,
+   "unit": "",
+   "note": "",
+   "source": "https://en.engineai.com.cn/"
   }
  ]
 }

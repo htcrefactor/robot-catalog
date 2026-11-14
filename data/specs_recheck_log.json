@@ -54,6 +54,36 @@
         "date": "2026-11-13",
         "result": "verified vs maker page (Youth edition): weight 64 vs 63, arm payload ~2 vs 1.5 kg conflicts; catalog uses maker"
       }
+    ],
+    "booster-t2": [
+      {
+        "date": "2026-11-14",
+        "result": "HumanoidStore verified vs maker page: matched (42 kg, 1.4 m, 31 DoF, 10 kg, 3 m/s, 2 h); added 20 maker rows"
+      }
+    ],
+    "booster-k1": [
+      {
+        "date": "2026-11-14",
+        "result": "HumanoidStore verified: conflicts — speed 0.4 vs maker 1.1 m/s (manual) / 2 m/s (page); runtime 30 vs 70 min; added 18 maker rows"
+      }
+    ],
+    "fourier-n1": [
+      {
+        "date": "2026-11-14",
+        "result": "HumanoidStore verified vs Fourier docs: matched (38 kg, 1.3 m, 23 DoF, 3.5 m/s); added 6 rows; no official price/runtime on that page"
+      }
+    ],
+    "limx-cl3": [
+      {
+        "date": "2026-11-14",
+        "result": "HumanoidStore verified vs maker spec page: matched (165 cm, ≤55 kg, 3 kg, 5 km/h=1.39 m/s, 1.5 h EDU); 33 DoF EDU vs 31 DoF listed; added 17 rows"
+      }
+    ],
+    "engineai-se01": [
+      {
+        "date": "2026-11-14",
+        "result": "HumanoidStore verified vs EngineAI homepage: matched (170 cm, 2 m/s, 32 DoF); maker page lists no weight/runtime; added 3 rows"
+      }
     ]
   }
 }

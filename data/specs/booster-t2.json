@@ -1,10 +1,18 @@
 {
  "id": "booster-t2",
- "checked": "2026-11-13",
+ "checked": "2026-11-14",
  "documents": [
   {
    "title": "HumanoidStore datasheet – Booster Robotics T2 (CC BY 4.0)",
    "url": "https://humanoidstore.co/robots/booster-t2"
+  },
+  {
+   "title": "Booster T2 product page",
+   "url": "https://www.booster.tech/booster-t2/"
+  },
+  {
+   "title": "Booster T2 manual: specifications",
+   "url": "https://docs.booster.tech/zh-CN/docs/product-manual/t2/getting-started/specifications"
   }
  ],
  "specs": [
@@ -169,6 +177,186 @@
    "unit": "m/s",
    "note": "HumanoidStore open data (CC BY 4.0), checked 2026-10",
    "source": "https://humanoidstore.co/robots/booster-t2"
+  },
+  {
+   "group": "Dimensions & Mass",
+   "key": "height_standing",
+   "label": "Height (standing)",
+   "value": 1.4,
+   "unit": "m",
+   "note": "approx. (Booster)",
+   "source": "https://docs.booster.tech/zh-CN/docs/product-manual/t2/getting-started/specifications"
+  },
+  {
+   "group": "Dimensions & Mass",
+   "key": "weight",
+   "label": "Weight",
+   "value": 42,
+   "unit": "kg",
+   "note": "approx.; E1/P1 base config; gripper/dexterous-hand versions ~43 kg",
+   "source": "https://docs.booster.tech/zh-CN/docs/product-manual/t2/getting-started/specifications"
+  },
+  {
+   "group": "Mobility & Performance",
+   "key": "degrees_of_freedom",
+   "label": "Total degrees of freedom",
+   "value": 31,
+   "unit": "",
+   "note": "base config (Booster)",
+   "source": "https://docs.booster.tech/zh-CN/docs/product-manual/t2/getting-started/specifications"
+  },
+  {
+   "group": "Actuation & Joints",
+   "key": "dof_per_leg",
+   "label": "DoF per leg",
+   "value": 6,
+   "unit": "",
+   "note": "",
+   "source": "https://docs.booster.tech/zh-CN/docs/product-manual/t2/getting-started/specifications"
+  },
+  {
+   "group": "Actuation & Joints",
+   "key": "dof_per_arm",
+   "label": "DoF per arm",
+   "value": 7,
+   "unit": "",
+   "note": "",
+   "source": "https://docs.booster.tech/zh-CN/docs/product-manual/t2/getting-started/specifications"
+  },
+  {
+   "group": "Actuation & Joints",
+   "key": "dof_waist",
+   "label": "Waist DoF",
+   "value": 3,
+   "unit": "",
+   "note": "",
+   "source": "https://docs.booster.tech/zh-CN/docs/product-manual/t2/getting-started/specifications"
+  },
+  {
+   "group": "Actuation & Joints",
+   "key": "dof_head",
+   "label": "Head DoF",
+   "value": 2,
+   "unit": "",
+   "note": "",
+   "source": "https://docs.booster.tech/zh-CN/docs/product-manual/t2/getting-started/specifications"
+  },
+  {
+   "group": "Actuation & Joints",
+   "key": "max_joint_torque",
+   "label": "Max joint torque",
+   "value": 140,
+   "unit": "N·m",
+   "note": "",
+   "source": "https://docs.booster.tech/zh-CN/docs/product-manual/t2/getting-started/specifications"
+  },
+  {
+   "group": "Actuation & Joints",
+   "key": "joint_bearing",
+   "label": "Joint output bearing",
+   "value": "Industrial-grade crossed roller bearings",
+   "unit": "",
+   "note": "",
+   "source": "https://docs.booster.tech/zh-CN/docs/product-manual/t2/getting-started/specifications"
+  },
+  {
+   "group": "Actuation & Joints",
+   "key": "motor_type",
+   "label": "Motor",
+   "value": "High-speed internal-rotor PMSM",
+   "unit": "",
+   "note": "",
+   "source": "https://docs.booster.tech/zh-CN/docs/product-manual/t2/getting-started/specifications"
+  },
+  {
+   "group": "Mobility & Performance",
+   "key": "max_payload",
+   "label": "Max payload",
+   "value": 10,
+   "unit": "kg",
+   "note": "varies significantly with arm posture",
+   "source": "https://docs.booster.tech/zh-CN/docs/product-manual/t2/getting-started/specifications"
+  },
+  {
+   "group": "Mobility & Performance",
+   "key": "max_speed",
+   "label": "Top speed",
+   "value": 3,
+   "unit": "m/s",
+   "note": "maker spec",
+   "source": "https://docs.booster.tech/zh-CN/docs/product-manual/t2/getting-started/specifications"
+  },
+  {
+   "group": "Compute & Software",
+   "key": "ai_performance_tops",
+   "label": "AI compute",
+   "value": 375,
+   "unit": "TOPS",
+   "note": "Education edition: high-performance ARM processor",
+   "source": "https://docs.booster.tech/zh-CN/docs/product-manual/t2/getting-started/specifications"
+  },
+  {
+   "group": "Compute & Software",
+   "key": "compute_module",
+   "label": "Chipset",
+   "value": "NVIDIA Jetson Thor T5000 (2070 TFLOPS AI)",
+   "unit": "",
+   "note": "Professional edition",
+   "source": "https://docs.booster.tech/zh-CN/docs/product-manual/t2/getting-started/specifications"
+  },
+  {
+   "group": "Power & Battery",
+   "key": "battery_voltage",
+   "label": "Battery voltage",
+   "value": 48,
+   "unit": "V",
+   "note": "",
+   "source": "https://docs.booster.tech/zh-CN/docs/product-manual/t2/getting-started/specifications"
+  },
+  {
+   "group": "Power & Battery",
+   "key": "battery_capacity_ah",
+   "label": "Battery capacity",
+   "value": 10,
+   "unit": "Ah",
+   "note": "",
+   "source": "https://docs.booster.tech/zh-CN/docs/product-manual/t2/getting-started/specifications"
+  },
+  {
+   "group": "Power & Battery",
+   "key": "runtime",
+   "label": "Runtime per charge",
+   "value": 2,
+   "unit": "h",
+   "note": "continuous walking",
+   "source": "https://docs.booster.tech/zh-CN/docs/product-manual/t2/getting-started/specifications"
+  },
+  {
+   "group": "Connectivity & Interfaces",
+   "key": "wifi",
+   "label": "Wi-Fi",
+   "value": "Wi-Fi 6",
+   "unit": "",
+   "note": "",
+   "source": "https://docs.booster.tech/zh-CN/docs/product-manual/t2/getting-started/specifications"
+  },
+  {
+   "group": "Connectivity & Interfaces",
+   "key": "bluetooth",
+   "label": "Bluetooth",
+   "value": "Bluetooth 5.2",
+   "unit": "",
+   "note": "",
+   "source": "https://docs.booster.tech/zh-CN/docs/product-manual/t2/getting-started/specifications"
+  },
+  {
+   "group": "Commercial",
+   "key": "warranty",
+   "label": "Warranty",
+   "value": 1,
+   "unit": "year",
+   "note": "extended warranty available",
+   "source": "https://docs.booster.tech/zh-CN/docs/product-manual/t2/getting-started/specifications"
   }
  ]
 }

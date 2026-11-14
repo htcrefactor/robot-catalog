@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-13",
+ "updated": "2026-11-14",
  "robots_with_specs": 193,
  "keys": [
   {
@@ -10,8 +10,19 @@
    "dim": "",
    "base": "N·m",
    "f2b": 1,
-   "robots": 21,
-   "numeric": 42
+   "robots": 24,
+   "numeric": 45
+  },
+  {
+   "key": "dof_per_leg",
+   "group": "Actuation & Joints",
+   "label": "DoF per leg",
+   "unit": "",
+   "dim": "",
+   "base": "",
+   "f2b": 1,
+   "robots": 17,
+   "numeric": 16
   },
   {
    "key": "actuator_type",
@@ -36,17 +47,6 @@
    "numeric": 67
   },
   {
-   "key": "dof_per_leg",
-   "group": "Actuation & Joints",
-   "label": "DoF per leg",
-   "unit": "",
-   "dim": "",
-   "base": "",
-   "f2b": 1,
-   "robots": 14,
-   "numeric": 13
-  },
-  {
    "key": "dof_per_arm",
    "group": "Actuation & Joints",
    "label": "DoF per arm",
@@ -54,8 +54,8 @@
    "dim": "",
    "base": "",
    "f2b": 1,
-   "robots": 11,
-   "numeric": 10
+   "robots": 14,
+   "numeric": 13
   },
   {
    "key": "joint_count",
@@ -69,6 +69,28 @@
    "numeric": 9
   },
   {
+   "key": "dof_head",
+   "group": "Actuation & Joints",
+   "label": "Head DoF",
+   "unit": "",
+   "dim": "",
+   "base": "",
+   "f2b": 1,
+   "robots": 10,
+   "numeric": 10
+  },
+  {
+   "key": "dof_waist",
+   "group": "Actuation & Joints",
+   "label": "Waist DoF",
+   "unit": "",
+   "dim": "",
+   "base": "",
+   "f2b": 1,
+   "robots": 10,
+   "numeric": 10
+  },
+  {
    "key": "cooling_system",
    "group": "Actuation & Joints",
    "label": "Cooling system",
@@ -80,17 +102,6 @@
    "numeric": 0
   },
   {
-   "key": "dof_head",
-   "group": "Actuation & Joints",
-   "label": "Head DoF",
-   "unit": "",
-   "dim": "",
-   "base": "",
-   "f2b": 1,
-   "robots": 8,
-   "numeric": 8
-  },
-  {
    "key": "joint_encoder",
    "group": "Actuation & Joints",
    "label": "Joint encoder",
@@ -100,17 +111,6 @@
    "f2b": 1,
    "robots": 8,
    "numeric": 1
-  },
-  {
-   "key": "dof_waist",
-   "group": "Actuation & Joints",
-   "label": "Waist DoF",
-   "unit": "",
-   "dim": "",
-   "base": "",
-   "f2b": 1,
-   "robots": 8,
-   "numeric": 8
   },
   {
    "key": "joint_speed",
@@ -366,6 +366,17 @@
    "numeric": 0
   },
   {
+   "key": "joint_bearing",
+   "group": "Actuation & Joints",
+   "label": "Joint output bearing",
+   "unit": "",
+   "dim": "",
+   "base": "",
+   "f2b": 1,
+   "robots": 1,
+   "numeric": 0
+  },
+  {
    "key": "leg_joint_layout",
    "group": "Actuation & Joints",
    "label": "Leg joint layout",
@@ -443,6 +454,17 @@
    "numeric": 1
   },
   {
+   "key": "motor_type",
+   "group": "Actuation & Joints",
+   "label": "Motor",
+   "unit": "",
+   "dim": "",
+   "base": "",
+   "f2b": 1,
+   "robots": 1,
+   "numeric": 0
+  },
+  {
    "key": "motor_payload_rating",
    "group": "Actuation & Joints",
    "label": "Motor payload rating",
@@ -460,6 +482,17 @@
    "unit": "rpm",
    "dim": "",
    "base": "rpm",
+   "f2b": 1,
+   "robots": 1,
+   "numeric": 1
+  },
+  {
+   "key": "neck_dof",
+   "group": "Actuation & Joints",
+   "label": "Neck DoF",
+   "unit": "",
+   "dim": "",
+   "base": "",
    "f2b": 1,
    "robots": 1,
    "numeric": 1
@@ -1213,6 +1246,17 @@
    "numeric": 0
   },
   {
+   "key": "charging_time",
+   "group": "Charging & Docking",
+   "label": "Charging time",
+   "unit": "h",
+   "dim": "time",
+   "base": "h",
+   "f2b": 1,
+   "robots": 1,
+   "numeric": 1
+  },
+  {
    "key": "dock_ip_rating",
    "group": "Charging & Docking",
    "label": "Docking station ingress protection",
@@ -1477,6 +1521,17 @@
    "numeric": 0
   },
   {
+   "key": "warranty",
+   "group": "Commercial",
+   "label": "Warranty",
+   "unit": "months",
+   "dim": "months",
+   "base": "months",
+   "f2b": 1,
+   "robots": 20,
+   "numeric": 19
+  },
+  {
    "key": "optional_accessories",
    "group": "Commercial",
    "label": "Accessories",
@@ -1486,17 +1541,6 @@
    "f2b": 1,
    "robots": 19,
    "numeric": 1
-  },
-  {
-   "key": "warranty",
-   "group": "Commercial",
-   "label": "Warranty",
-   "unit": "months",
-   "dim": "months",
-   "base": "months",
-   "f2b": 1,
-   "robots": 19,
-   "numeric": 18
   },
   {
    "key": "availability",
@@ -1785,6 +1829,17 @@
    "numeric": 8
   },
   {
+   "key": "ai_performance_tops",
+   "group": "Compute & Software",
+   "label": "AI compute",
+   "unit": "TOPS",
+   "dim": "",
+   "base": "TOPS",
+   "f2b": 1,
+   "robots": 11,
+   "numeric": 12
+  },
+  {
    "key": "gpu",
    "group": "Compute & Software",
    "label": "GPU",
@@ -1796,15 +1851,15 @@
    "numeric": 0
   },
   {
-   "key": "ai_performance_tops",
+   "key": "compute_module",
    "group": "Compute & Software",
-   "label": "AI compute",
-   "unit": "TOPS",
+   "label": "Chipset",
+   "unit": "",
    "dim": "",
-   "base": "TOPS",
+   "base": "",
    "f2b": 1,
    "robots": 9,
-   "numeric": 8
+   "numeric": 0
   },
   {
    "key": "simulation_support",
@@ -1837,17 +1892,6 @@
    "base": "",
    "f2b": 1,
    "robots": 8,
-   "numeric": 0
-  },
-  {
-   "key": "compute_module",
-   "group": "Compute & Software",
-   "label": "Chipset",
-   "unit": "",
-   "dim": "",
-   "base": "",
-   "f2b": 1,
-   "robots": 7,
    "numeric": 0
   },
   {
@@ -2276,7 +2320,7 @@
    "dim": "",
    "base": "",
    "f2b": 1,
-   "robots": 38,
+   "robots": 40,
    "numeric": 0
   },
   {
@@ -2320,7 +2364,7 @@
    "dim": "",
    "base": "",
    "f2b": 1,
-   "robots": 17,
+   "robots": 19,
    "numeric": 7
   },
   {
@@ -3487,7 +3531,7 @@
    "base": "kg",
    "f2b": 1,
    "robots": 159,
-   "numeric": 172
+   "numeric": 175
   },
   {
    "key": "height_standing",
@@ -3498,7 +3542,7 @@
    "base": "mm",
    "f2b": 10,
    "robots": 130,
-   "numeric": 140
+   "numeric": 142
   },
   {
    "key": "width",
@@ -3530,8 +3574,8 @@
    "dim": "length",
    "base": "mm",
    "f2b": 1,
-   "robots": 51,
-   "numeric": 56
+   "robots": 54,
+   "numeric": 59
   },
   {
    "key": "weight_with_battery",
@@ -3541,8 +3585,8 @@
    "dim": "mass",
    "base": "kg",
    "f2b": 1,
-   "robots": 22,
-   "numeric": 25
+   "robots": 23,
+   "numeric": 26
   },
   {
    "key": "ground_clearance",
@@ -3651,8 +3695,8 @@
    "dim": "length",
    "base": "mm",
    "f2b": 1,
-   "robots": 3,
-   "numeric": 3
+   "robots": 4,
+   "numeric": 4
   },
   {
    "key": "structural_material",
@@ -3893,6 +3937,17 @@
    "dim": "mass",
    "base": "kg",
    "f2b": 1,
+   "robots": 1,
+   "numeric": 1
+  },
+  {
+   "key": "shoulder_width",
+   "group": "Dimensions & Mass",
+   "label": "Shoulder width",
+   "unit": "cm",
+   "dim": "length",
+   "base": "mm",
+   "f2b": 10,
    "robots": 1,
    "numeric": 1
   },
@@ -4553,8 +4608,8 @@
    "dim": "mass",
    "base": "kg",
    "f2b": 1,
-   "robots": 11,
-   "numeric": 12
+   "robots": 12,
+   "numeric": 13
   },
   {
    "key": "hand_dof",
@@ -4807,7 +4862,7 @@
    "base": "m/s",
    "f2b": 1,
    "robots": 139,
-   "numeric": 160
+   "numeric": 165
   },
   {
    "key": "degrees_of_freedom",
@@ -4818,7 +4873,7 @@
    "base": "",
    "f2b": 1,
    "robots": 126,
-   "numeric": 135
+   "numeric": 140
   },
   {
    "key": "rated_payload",
@@ -4839,8 +4894,8 @@
    "dim": "mass",
    "base": "kg",
    "f2b": 1,
-   "robots": 60,
-   "numeric": 63
+   "robots": 61,
+   "numeric": 64
   },
   {
    "key": "nominal_speed",
@@ -4850,8 +4905,19 @@
    "dim": "speed",
    "base": "m/s",
    "f2b": 1,
-   "robots": 15,
-   "numeric": 16
+   "robots": 16,
+   "numeric": 17
+  },
+  {
+   "key": "max_yaw_rate",
+   "group": "Mobility & Performance",
+   "label": "Maximum turning speed",
+   "unit": "rad/s",
+   "dim": "angvel",
+   "base": "°/s",
+   "f2b": 57.29577951,
+   "robots": 13,
+   "numeric": 11
   },
   {
    "key": "gaits",
@@ -4863,17 +4929,6 @@
    "f2b": 1,
    "robots": 12,
    "numeric": 0
-  },
-  {
-   "key": "max_yaw_rate",
-   "group": "Mobility & Performance",
-   "label": "Maximum turning speed",
-   "unit": "rad/s",
-   "dim": "angvel",
-   "base": "°/s",
-   "f2b": 57.29577951,
-   "robots": 12,
-   "numeric": 10
   },
   {
    "key": "turning_radius",
@@ -6270,7 +6325,7 @@
    "base": "h",
    "f2b": 0.0166666667,
    "robots": 146,
-   "numeric": 157
+   "numeric": 160
   },
   {
    "key": "battery_voltage",
@@ -6280,8 +6335,8 @@
    "dim": "volt",
    "base": "V",
    "f2b": 1,
-   "robots": 48,
-   "numeric": 47
+   "robots": 49,
+   "numeric": 48
   },
   {
    "key": "battery_capacity",
@@ -6291,7 +6346,7 @@
    "dim": "energy",
    "base": "Wh",
    "f2b": 1,
-   "robots": 37,
+   "robots": 38,
    "numeric": 29
   },
   {
@@ -6306,6 +6361,17 @@
    "numeric": 0
   },
   {
+   "key": "battery_capacity_ah",
+   "group": "Power & Battery",
+   "label": "Battery capacity",
+   "unit": "Ah",
+   "dim": "charge",
+   "base": "Ah",
+   "f2b": 1,
+   "robots": 34,
+   "numeric": 36
+  },
+  {
    "key": "battery_chemistry",
    "group": "Power & Battery",
    "label": "Battery type",
@@ -6315,17 +6381,6 @@
    "f2b": 1,
    "robots": 34,
    "numeric": 0
-  },
-  {
-   "key": "battery_capacity_ah",
-   "group": "Power & Battery",
-   "label": "Battery capacity",
-   "unit": "Ah",
-   "dim": "charge",
-   "base": "Ah",
-   "f2b": 1,
-   "robots": 32,
-   "numeric": 33
   },
   {
    "key": "range_per_charge",
@@ -6357,8 +6412,8 @@
    "dim": "",
    "base": "cycles",
    "f2b": 1,
-   "robots": 12,
-   "numeric": 9
+   "robots": 13,
+   "numeric": 10
   },
   {
    "key": "battery_mass",
@@ -8744,8 +8799,8 @@
    "dim": "angle",
    "base": "°",
    "f2b": 1,
-   "robots": 45,
-   "numeric": 36
+   "robots": 46,
+   "numeric": 37
   },
   {
    "key": "max_obstacle_height",
@@ -8803,6 +8858,17 @@
    "numeric": 16
   },
   {
+   "key": "max_step_height",
+   "group": "Terrain & Navigation Limits",
+   "label": "Step",
+   "unit": "mm",
+   "dim": "length",
+   "base": "mm",
+   "f2b": 1,
+   "robots": 15,
+   "numeric": 16
+  },
+  {
    "key": "max_gap_crossing",
    "group": "Terrain & Navigation Limits",
    "label": "Traversable gap",
@@ -8823,17 +8889,6 @@
    "f2b": 10,
    "robots": 14,
    "numeric": 14
-  },
-  {
-   "key": "max_step_height",
-   "group": "Terrain & Navigation Limits",
-   "label": "Step",
-   "unit": "mm",
-   "dim": "length",
-   "base": "mm",
-   "f2b": 1,
-   "robots": 14,
-   "numeric": 15
   },
   {
    "key": "floor_flatness_requirement",
