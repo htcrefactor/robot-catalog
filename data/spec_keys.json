@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-14",
- "robots_with_specs": 193,
+ "updated": "2026-11-15",
+ "robots_with_specs": 194,
  "keys": [
   {
    "key": "max_joint_torque",
@@ -199,6 +199,17 @@
    "f2b": 1,
    "robots": 3,
    "numeric": 3
+  },
+  {
+   "key": "arm_drive",
+   "group": "Actuation & Joints",
+   "label": "Arm drive",
+   "unit": "",
+   "dim": "",
+   "base": "",
+   "f2b": 1,
+   "robots": 2,
+   "numeric": 0
   },
   {
    "key": "foot_treads",
@@ -4667,17 +4678,6 @@
    "numeric": 0
   },
   {
-   "key": "arm_drive",
-   "group": "Manipulation",
-   "label": "Arm drive",
-   "unit": "",
-   "dim": "",
-   "base": "",
-   "f2b": 1,
-   "robots": 1,
-   "numeric": 0
-  },
-  {
    "key": "arm_payload_peak",
    "group": "Manipulation",
    "label": "Arm payload (peak)",
@@ -5228,6 +5228,17 @@
    "numeric": 2
   },
   {
+   "key": "locomotion_modes",
+   "group": "Mobility & Performance",
+   "label": "Locomotion",
+   "unit": "",
+   "dim": "",
+   "base": "",
+   "f2b": 1,
+   "robots": 2,
+   "numeric": 0
+  },
+  {
    "key": "max_deceleration",
    "group": "Mobility & Performance",
    "label": "Maximum braking deceleration",
@@ -5325,17 +5336,6 @@
    "f2b": 1,
    "robots": 1,
    "numeric": 1
-  },
-  {
-   "key": "locomotion_modes",
-   "group": "Mobility & Performance",
-   "label": "Foot ends",
-   "unit": "",
-   "dim": "",
-   "base": "",
-   "f2b": 1,
-   "robots": 1,
-   "numeric": 0
   },
   {
    "key": "impact_absorption",
@@ -6863,7 +6863,7 @@
    "dim": "",
    "base": "",
    "f2b": 1,
-   "robots": 16,
+   "robots": 17,
    "numeric": 0
   },
   {

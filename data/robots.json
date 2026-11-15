@@ -1,7 +1,7 @@
 {
  "meta": {
-  "updated": "2026-11-14",
-  "count": 193
+  "updated": "2026-11-15",
+  "count": 194
  },
  "robots": [
   {
@@ -1942,6 +1942,44 @@
     "https://www.businesswire.com/news/home/20261106661068/en/Embodied-AI-Unveils-AIR-a-Physically-Safe-Humanoid-Robot-That-Learns-on-the-Job"
    ],
    "summary": "Wheeled, tendon-driven humanoid for factory floors, unveiled 6 Nov 2026 at Humanoid Europe; learns tasks from operator demonstrations."
+  },
+  {
+   "id": "embodied-ai-air01",
+   "name": "AIR01",
+   "manufacturer": "Embodied AI",
+   "country": "Switzerland",
+   "category": "Humanoid",
+   "locomotion": "Wheeled",
+   "release_year": 2026,
+   "status": "Pilot",
+   "length_mm": null,
+   "width_mm": null,
+   "height_mm": null,
+   "weight_kg": null,
+   "payload_kg": null,
+   "max_speed_mps": null,
+   "min_speed_mps": null,
+   "wheel_diameter_mm": null,
+   "wheel_count": null,
+   "dof": null,
+   "runtime_h": null,
+   "battery_wh": null,
+   "ip_rating": null,
+   "api_support": null,
+   "sdk_available": null,
+   "sdk_name": null,
+   "onboard_compute": null,
+   "compute_detail": null,
+   "ros_support": null,
+   "sensors": [],
+   "price_usd": null,
+   "price_note": null,
+   "official_url": "https://embodiedai.ch/",
+   "sources": [
+    "https://roboticsandautomationnews.com/2026/11/15/embodied-ai-unveils-air-humanoid-robot-designed-to-learn-factory-tasks-on-the-job/107133/",
+    "https://embodiedai.ch/"
+   ],
+   "summary": "Wheeled, tendon-driven humanoid for safe factory work that learns tasks from operator demonstrations; unveiled at Humanoid Europe 2026."
   },
   {
    "id": "enchanted-tools-mirokai",

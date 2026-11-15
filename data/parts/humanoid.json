@@ -4701,5 +4701,43 @@
     ],
     "summary": "Desktop-size humanoid from Zeroth; preorder, anyone can order.",
     "data_source": "HumanoidStore open data (CC BY 4.0)"
+  },
+  {
+    "id": "embodied-ai-air01",
+    "name": "AIR01",
+    "manufacturer": "Embodied AI",
+    "country": "Switzerland",
+    "category": "Humanoid",
+    "locomotion": "Wheeled",
+    "release_year": 2026,
+    "status": "Pilot",
+    "length_mm": null,
+    "width_mm": null,
+    "height_mm": null,
+    "weight_kg": null,
+    "payload_kg": null,
+    "max_speed_mps": null,
+    "min_speed_mps": null,
+    "wheel_diameter_mm": null,
+    "wheel_count": null,
+    "dof": null,
+    "runtime_h": null,
+    "battery_wh": null,
+    "ip_rating": null,
+    "api_support": null,
+    "sdk_available": null,
+    "sdk_name": null,
+    "onboard_compute": null,
+    "compute_detail": null,
+    "ros_support": null,
+    "sensors": [],
+    "price_usd": null,
+    "price_note": null,
+    "official_url": "https://embodiedai.ch/",
+    "sources": [
+      "https://roboticsandautomationnews.com/2026/11/15/embodied-ai-unveils-air-humanoid-robot-designed-to-learn-factory-tasks-on-the-job/107133/",
+      "https://embodiedai.ch/"
+    ],
+    "summary": "Wheeled, tendon-driven humanoid for safe factory work that learns tasks from operator demonstrations; unveiled at Humanoid Europe 2026."
   }
 ]

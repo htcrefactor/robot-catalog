@@ -1,0 +1,43 @@
+{
+ "id": "embodied-ai-air01",
+ "checked": "2026-11-15",
+ "documents": [
+  {
+   "title": "Embodied AI unveils AIR humanoid (Robotics & Automation News, 15 Nov 2026)",
+   "url": "https://roboticsandautomationnews.com/2026/11/15/embodied-ai-unveils-air-humanoid-robot-designed-to-learn-factory-tasks-on-the-job/107133/"
+  },
+  {
+   "title": "Embodied AI homepage",
+   "url": "https://embodiedai.ch/"
+  }
+ ],
+ "specs": [
+  {
+   "group": "Mobility & Performance",
+   "key": "locomotion_modes",
+   "label": "Locomotion",
+   "value": "Wheeled",
+   "unit": "",
+   "note": "wheels rather than legs",
+   "source": "https://roboticsandautomationnews.com/2026/11/15/embodied-ai-unveils-air-humanoid-robot-designed-to-learn-factory-tasks-on-the-job/107133/"
+  },
+  {
+   "group": "Safety & Compliance",
+   "key": "safety_standards",
+   "label": "Safety standards",
+   "value": "ISO/TS 15066:2016",
+   "unit": "",
+   "note": "designed under; CE marking planned 2027",
+   "source": "https://roboticsandautomationnews.com/2026/11/15/embodied-ai-unveils-air-humanoid-robot-designed-to-learn-factory-tasks-on-the-job/107133/"
+  },
+  {
+   "group": "Actuation & Joints",
+   "key": "arm_drive",
+   "label": "Arm drive",
+   "value": "Tendon-driven",
+   "unit": "",
+   "note": "motors, gearboxes and electronics in torso",
+   "source": "https://roboticsandautomationnews.com/2026/11/15/embodied-ai-unveils-air-humanoid-robot-designed-to-learn-factory-tasks-on-the-job/107133/"
+  }
+ ]
+}
