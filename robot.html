@@ -1,10 +1,10 @@
-<!doctype html><html lang="en"><head><script async src="https://www.googletagmanager.com/gtm.js?id=GTM-N5QZLXVX"></script><script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());</script><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><link rel="stylesheet" href="assets/style.css"><script src="assets/i18n.js"></script><script src="assets/specs-i18n.js"></script><script src="assets/app.js"></script><title>Robot Catalog</title></head>
+<!doctype html><html lang="en"><head><script async src="https://www.googletagmanager.com/gtm.js?id=GTM-N5QZLXVX"></script><script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());</script><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><link rel="stylesheet" href="assets/style.css"><script src="assets/i18n.js"></script><script src="assets/specs-i18n.js"></script><script src="assets/app.js"></script><meta name="description" content="Full published specs for a mobile robot, with sources."><title>Robot Catalog</title></head>
 <body><script>nav("")</script><main id="m"><p class="muted">…</p></main><div id="foot"></div>
 <script>
 (async()=>{const d=await loadData();const id=new URLSearchParams(location.search).get("id");
 const r=d.robots.find(x=>x.id===id);const m=document.getElementById("m");document.getElementById("foot").innerHTML=footer(d.meta);
 if(!r){m.innerHTML=`<h1>${t("not_found")}</h1><p><a href="index.html">${t("back")}</a></p>`;return;}
-document.title=`${r.manufacturer} ${r.name} — ${t("brand")}`;
+document.title=`${r.manufacturer} ${r.name} — ${t("brand")}`;{const m=document.querySelector('meta[name="description"]');if(m)m.content=`${r.manufacturer} ${r.name} specs: every published value with sources — Robot Catalog`};
 const row=(k,v)=>`<tr><td>${t(k)}</td><td>${v}</td></tr>`;
 const dims=[r.length_mm,r.width_mm,r.height_mm].some(v=>v!=null)?[r.length_mm,r.width_mm,r.height_mm].map(v=>v??"?").join(" × ")+" mm":"—";
 const peers=d.robots.filter(x=>x.category===r.category&&x.id!==r.id);
