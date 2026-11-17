@@ -1,7 +1,7 @@
 {
  "meta": {
-  "updated": "2026-11-16",
-  "count": 927
+  "updated": "2026-11-17",
+  "count": 924
  },
  "robots": [
   {
@@ -994,7 +994,7 @@
   },
   {
    "id": "aethon-t3",
-   "name": "TUG T3",
+   "name": "T3",
    "manufacturer": "Aethon (ST Engineering)",
    "country": "United States",
    "category": "AMR",
@@ -1036,7 +1036,7 @@
     "https://roboticsrankings.com/robots/aethon-t3/"
    ],
    "verification": "official",
-   "note": "Official model name is T3 (formerly TUG T3); maker ST Engineering Aethon. Spec sheet: 340 kg (T3XL: 454 kg / 1,000 lb). Width 22.44 in, height 48.1 in; overall length not given (lift surface 33.81 in)."
+   "note": "Official model name is T3 (marketed earlier as 'TUG T3'); maker ST Engineering Aethon sells T3 and T3XL. Spec sheet: 340 kg (T3XL: 454 kg / 1,000 lb), 22.44 in width, 48.1 in height; overall length not given (lift surface 33.81 in)."
   },
   {
    "id": "amazon-robotics-hercules",
@@ -1659,7 +1659,7 @@
   },
   {
    "id": "greyorange-ranger-ril-l",
-   "name": "Ranger Intralogistics (RIL-L)",
+   "name": "Ranger Uplift-L (RU-L)",
    "manufacturer": "GreyOrange",
    "country": "United States",
    "category": "AMR",
@@ -1705,7 +1705,7 @@
     "https://data.robo2u.com/robots/greyorange-ranger-intralogistics-ril-l"
    ],
    "verification": "official",
-   "note": "GreyOrange now markets this as 'Ranger Uplift - L (RU-L)'; /ril/ page used the RIL-L name with identical specs. Launched March 2021 (GreyOrange press release). Max lift height 410 mm."
+   "note": "Official Intralogistics (IL) page now lists this trim as 'Ranger Uplift - L (RU-L)': 1280 x 920 x 350 mm, 1,000 kg payload, 2 m/s - the same robot earlier listed as 'Ranger Intralogistics (RIL-L)' on greyorange.com/ril/. Launched March 2021 (GreyOrange press release). Max lift height 410 mm."
   },
   {
    "id": "hai-robotics-haiclimber",
@@ -3817,7 +3817,7 @@
   },
   {
    "id": "robust-ai-carter-pro",
-   "name": "Carter (launched as Carter Pro)",
+   "name": "Carter",
    "manufacturer": "Robust.AI",
    "country": "United States",
    "category": "AMR",
@@ -3863,7 +3863,7 @@
     "https://data.robo2u.com/robots/robust-ai-carter-pro"
    ],
    "verification": "official",
-   "note": "Launched as 'Carter Pro' (press release 16 Oct 2024); maker site now brands it simply 'Carter(R)' - same specs. Holonomic drive, camera-only vSLAM (no LiDAR). A Robust.AI overview deck (hosted on a third-party awards site) adds 1.5 m/s max speed and 6 h charge - not on maker site, left out."
+   "note": "Launched as 'Carter Pro' (press release 16 Oct 2024); maker site now brands it simply 'Carter(R)' - same specs, so the id keeps the launch slug. Holonomic drive, camera-only vSLAM (no LiDAR). A Robust.AI overview deck (hosted on a third-party awards site) adds 1.5 m/s max speed and 6 h charge - not on maker site, left out."
   },
   {
    "id": "samhyun-boldum",
@@ -4047,7 +4047,7 @@
   },
   {
    "id": "syrius-flexswift",
-   "name": "FlexSwift",
+   "name": "FlexSwift MAX",
    "manufacturer": "Syrius Robotics",
    "country": "China",
    "category": "AMR",
@@ -4078,7 +4078,7 @@
    ],
    "price_usd": null,
    "price_note": null,
-   "official_url": "https://www.syriusrobotics.com/",
+   "official_url": "https://www.syriustechnology.com/flexswift-max",
    "sources": [
     "https://www.syriusrobotics.com/",
     "https://www.syriustechnology.com/flexswift-max",
@@ -4093,7 +4093,7 @@
     "https://data.robo2u.com/robots/syrius-robotics-flexswift"
    ],
    "verification": "official",
-   "note": "FlexSwift listed on syriusrobotics.com; current flagship marketed as 'FlexSwift MAX' (syriustechnology.com), possibly the successor of FlexSwift. Only payload 100 kg confirmed on a Syrius-owned page (Japan site, FlexSwift MAX); other specs only on distributor/aggregator pages, left null."
+   "note": "Maker's current lineup (syriusrobotics.com -> syriustechnology.com) sells this pick-assist AMR as 'FlexSwift MAX' alongside FlexPorter GO/DO; the earlier listing used 'FlexSwift'. The 100 kg payload is stated on a Syrius-owned page (Japan site, FlexSwift MAX); other specs appear only on distributor or aggregator pages and are left null."
   },
   {
    "id": "vecna-autonomous-tugger-atg",
@@ -7575,7 +7575,7 @@
   },
   {
    "id": "beyond-imagination-beomni-1",
-   "name": "Beomni 1.0",
+   "name": "Beomni V3",
    "manufacturer": "Beyond Imagination",
    "country": "United States",
    "category": "Humanoid",
@@ -7618,7 +7618,7 @@
     "https://data.robo2u.com/robots/beyond-imagination-beomni-1-0"
    ],
    "verification": "official",
-   "note": "Maker site confirms Beomni humanoid (CES 2022 public reveal of 'Beomni V3', pilots 2022-2024). '1.0' naming comes from press; maker milestone page calls the CES 2022 unit V3. No maker spec sheet found; payload claims (35 lb/arm) only in press."
+   "note": "Maker milestone page: 'CES 2022 - Public reveal of Beomni V3', so the CES 2022 unit is V3 ('Beomni 1.0' was press usage). Later generations are Beyond Mark 1 (2023), Beyond Mark 2 (2024) and Beyond Mark 3 (2025). No maker spec sheet found; payload claims (35 lb/arm) only in press."
   },
   {
    "id": "blue-worm-mantis-standard",
@@ -8102,6 +8102,53 @@
     "https://embodied.guide/robots/coowa-n1/"
    ],
    "verification": null
+  },
+  {
+   "id": "kanop-rhm-t1w",
+   "name": "RHM-T1W",
+   "manufacturer": "CRP (Chengdu CRP Robot Technology)",
+   "country": "China",
+   "category": "Humanoid",
+   "locomotion": "Wheeled",
+   "release_year": 2026,
+   "status": "Pilot",
+   "length_mm": null,
+   "width_mm": null,
+   "height_mm": 1900,
+   "weight_kg": 85,
+   "payload_kg": 5,
+   "max_speed_mps": 3,
+   "min_speed_mps": null,
+   "wheel_diameter_mm": null,
+   "wheel_count": null,
+   "dof": 33,
+   "runtime_h": null,
+   "battery_wh": null,
+   "ip_rating": null,
+   "api_support": null,
+   "sdk_available": null,
+   "sdk_name": null,
+   "onboard_compute": null,
+   "compute_detail": null,
+   "ros_support": null,
+   "sensors": [],
+   "price_usd": null,
+   "price_note": null,
+   "official_url": "https://www.crprobot.com/d/gongsidongtai/146.html",
+   "sources": [
+    "https://www.crprobot.com/d/gongsidongtai/146.html",
+    "https://crprobot.com/d/zhanhuihuodong/142.html",
+    "https://crprobot.com/d/gongsidongtai/139.html"
+   ],
+   "summary": "Kanop (CRP Robotics)'s second-generation wheeled humanoid for factories, pairing a SLAM wheeled base with a humanoid upper body, 33 in-house joints and 12-DOF hands.",
+   "image_url": null,
+   "image_source": null,
+   "videos": [],
+   "seen_on": [
+    "https://humanoidversus.com/robots/kanop-rhm-t1w"
+   ],
+   "verification": "official",
+   "note": "Maker is Chengdu CRP Robot Technology (成都卡诺普, brand CRP; the 'Kanop/Canop' spelling on competitor listings is a transliteration). Wheeled-not-legged. Maker's own figures conflict: launch article 1.9 m / 85 kg (used) vs earlier table 1,430-1,870 mm adjustable / 170 kg incl. 110 kg AMR base. Payload 5 kg per arm. Debuted Mar 2026, Hannover Messe Apr 2026."
   },
   {
    "id": "alpha-robotics-ailisi",
@@ -9744,50 +9791,8 @@
    "data_source": "HumanoidStore open data (CC BY 4.0)"
   },
   {
-   "id": "duatic-alpha",
-   "name": "Alpha",
-   "manufacturer": "Duatic",
-   "country": null,
-   "category": "Humanoid",
-   "locomotion": "Wheeled",
-   "release_year": null,
-   "status": null,
-   "length_mm": null,
-   "width_mm": null,
-   "height_mm": null,
-   "weight_kg": null,
-   "payload_kg": null,
-   "max_speed_mps": null,
-   "min_speed_mps": null,
-   "wheel_diameter_mm": null,
-   "wheel_count": null,
-   "dof": null,
-   "runtime_h": null,
-   "battery_wh": null,
-   "ip_rating": null,
-   "api_support": null,
-   "sdk_available": null,
-   "sdk_name": null,
-   "onboard_compute": null,
-   "compute_detail": null,
-   "ros_support": null,
-   "sensors": [],
-   "price_usd": null,
-   "price_note": null,
-   "official_url": null,
-   "sources": [],
-   "summary": "",
-   "image_url": null,
-   "image_source": null,
-   "videos": [],
-   "seen_on": [
-    "https://humanoid.guide/product/duatic-alpha/"
-   ],
-   "verification": null
-  },
-  {
    "id": "duatic-dxtr",
-   "name": "DXTR",
+   "name": "DXTR (Alpha Half-Humanoid)",
    "manufacturer": "Duatic",
    "country": "Switzerland",
    "category": "Humanoid",
@@ -9831,7 +9836,16 @@
     "https://embodied.guide/robots/duatic-dxtr/"
    ],
    "verification": "official",
-   "note": "Official Duatic product page; page title calls it 'Alpha Half-Humanoid' (formerly Duatic Alpha, same robot). Wheeled half-humanoid with two DynaArms."
+   "note": "Duatic's DXTR page titles the robot 'Alpha Half-Humanoid' - the same robot was listed separately as 'Duatic Alpha', now kept here as a variant. Wheeled half-humanoid with two DynaArms; 12 kg continuous / 30 kg peak payload, ROS 2.",
+   "variants": [
+    {
+     "id": "duatic-alpha",
+     "name": "Alpha (Duatic Alpha)",
+     "note": "Earlier/alternate name of DXTR - the maker page still reads 'Alpha Half-Humanoid'. Same robot, not a separate model.",
+     "note_ko": "DXTR의 이전 명칭입니다. 제조사 페이지 제목은 아직 'Alpha Half-Humanoid'이며, 별도 모델이 아닙니다.",
+     "url": "https://www.duatic.com/dxtr"
+    }
+   ]
   },
   {
    "id": "eir-technology-aiq",
@@ -11985,7 +11999,7 @@
   },
   {
    "id": "gelanruo-c1",
-   "name": "C1",
+   "name": "劳动者 C1 (Laborer C1)",
    "manufacturer": "Gelanruo Robotics",
    "country": "China",
    "category": "Humanoid",
@@ -12031,11 +12045,11 @@
     "https://embodied.guide/robots/gelanruo-c1/"
    ],
    "verification": "official",
-   "note": "Maker is Wuhan Glroad Intelligent Technology (武汉格蓝若智能技术); official name '劳动者C1' (Laborer C1). Speed stated as '>2 m/s'. Runtime 2 h walking / 4 h standing."
+   "note": "Maker is Wuhan Glroad Intelligent Technology (武汉格蓝若智能技术); the maker's spec sheet names the robot '劳动者C1' (Laborer C1), so the record carries both. 1.37 m, 38 kg, 21 DoF, Orin NX compute. Speed stated as '>2 m/s'. Runtime 2 h walking / 4 h standing."
   },
   {
    "id": "gelanruo-m1",
-   "name": "M1",
+   "name": "劳动者 M1 (Laborer M1)",
    "manufacturer": "Gelanruo Robotics",
    "country": "China",
    "category": "Humanoid",
@@ -12076,11 +12090,11 @@
     "https://embodied.guide/robots/gelanruo-m1/"
    ],
    "verification": "official",
-   "note": "Maker is Wuhan Glroad Intelligent Technology (武汉格蓝若); official name '劳动者M1' (Laborer M1). Payload is dual-arm 50 kg; speed stated as '>1.2 m/s'; battery 22 Ah (voltage not stated)."
+   "note": "Maker is Wuhan Glroad Intelligent Technology (武汉格蓝若); the maker's spec sheet names the robot '劳动者M1' (Laborer M1). 1.87 m, 86 kg, 27 DoF, 50 kg dual-arm payload. Speed stated as '>1.2 m/s'; battery 22 Ah (voltage not stated)."
   },
   {
    "id": "general-autonomy-atom",
-   "name": "Atom",
+   "name": "Taara",
    "manufacturer": "General Autonomy",
    "country": "India",
    "category": "Humanoid",
@@ -12121,7 +12135,7 @@
     "https://embodied.guide/robots/general-autonomy-atom/"
    ],
    "verification": "official",
-   "note": "Official site ga.tech now names the humanoid 'Taara' (video files still named 'atom-*'); likely renamed from Atom. HQ country not stated on official site (press says Bengaluru, India)."
+   "note": "Renamed: ga.tech now publishes its humanoid only as 'Taara' (1.43 m, 60 kg, 23 DoF, 10 kg payload); earlier pages and the site's video files still carry 'Atom'. Id kept for link stability. HQ country is not stated on the maker site (press reports Bengaluru, India)."
   },
   {
    "id": "generation-robots-poppy-humanoid",
@@ -14999,53 +15013,6 @@
    ],
    "verification": "official",
    "note": "Official press release + product page + official YouTube. KEENON publishes no hardware spec table; height/weight/DoF (172–174 cm, 110 kg, 36 DoF) seen only via distributors/aggregators — left null. Wheeled-base humanoid. status: 'Commercial' based on official Oct 2025 hotel deployment announcement"
-  },
-  {
-   "id": "kanop-rhm-t1w",
-   "name": "RHM-T1W",
-   "manufacturer": "Kanop",
-   "country": "China",
-   "category": "Humanoid",
-   "locomotion": "Wheeled",
-   "release_year": 2026,
-   "status": "Pilot",
-   "length_mm": null,
-   "width_mm": null,
-   "height_mm": 1900,
-   "weight_kg": 85,
-   "payload_kg": 5,
-   "max_speed_mps": 3,
-   "min_speed_mps": null,
-   "wheel_diameter_mm": null,
-   "wheel_count": null,
-   "dof": 33,
-   "runtime_h": null,
-   "battery_wh": null,
-   "ip_rating": null,
-   "api_support": null,
-   "sdk_available": null,
-   "sdk_name": null,
-   "onboard_compute": null,
-   "compute_detail": null,
-   "ros_support": null,
-   "sensors": [],
-   "price_usd": null,
-   "price_note": null,
-   "official_url": "https://www.crprobot.com/d/gongsidongtai/146.html",
-   "sources": [
-    "https://www.crprobot.com/d/gongsidongtai/146.html",
-    "https://crprobot.com/d/zhanhuihuodong/142.html",
-    "https://crprobot.com/d/gongsidongtai/139.html"
-   ],
-   "summary": "Kanop (CRP Robotics)'s second-generation wheeled humanoid for factories, pairing a SLAM wheeled base with a humanoid upper body, 33 in-house joints and 12-DOF hands.",
-   "image_url": null,
-   "image_source": null,
-   "videos": [],
-   "seen_on": [
-    "https://humanoidversus.com/robots/kanop-rhm-t1w"
-   ],
-   "verification": "official",
-   "note": "Wheeled-not-legged. Maker spelling is Canop/CRP (Chengdu CRP Robot Technology). Maker's own figures conflict: launch article 1.9 m / 85 kg (used) vs earlier table 1,430-1,870 mm adjustable / 170 kg incl. 110 kg AMR base. Payload 5 kg per arm. Debuted Mar 2026, Hannover Messe Apr 2026."
   },
   {
    "id": "kit-armar-6",
@@ -18224,7 +18191,7 @@
   {
    "id": "jiuguang-raynex-g3",
    "name": "RayNex G3 (Xiaorui G3)",
-   "manufacturer": "Ninray (Jiuguang)",
+   "manufacturer": "NineRay Technology (Jiuguang)",
    "country": "China",
    "category": "Humanoid",
    "locomotion": "Legged",
@@ -18268,7 +18235,7 @@
     "https://humanoid.guide/product/raynex-g3/"
    ],
    "verification": "official",
-   "note": "Rename: maker brands itself NineRay (九光/Jiuguang), HQ Hong Kong. Unveiled Aug 17, 2026; sales from Sept 2026. Payload is 30 kg dual-hand operation (100 kg deadlift, 60 kg dual-arm hold). ~US$200k price is press-reported only, left out."
+   "note": "Maker brands itself NineRay (NineRay Technology, 九光/Jiuguang; earlier recorded as 'Ninray'), HQ Hong Kong. Unveiled Aug 17, 2026; sales from Sept 2026. Payload is 30 kg dual-hand operation (100 kg deadlift, 60 kg dual-arm hold). ~US$200k price is press-reported only, left out."
   },
   {
    "id": "noble-machines-moby",
@@ -26431,7 +26398,7 @@
   },
   {
    "id": "westlake-robotics-titan-o1",
-   "name": "Titan o1",
+   "name": "西湖o1 (Titan o1)",
    "manufacturer": "Westlake Robotics",
    "country": "China",
    "category": "Humanoid",
@@ -26480,7 +26447,7 @@
     "https://humanoid.guide/product/totan-o1/"
    ],
    "verification": "official",
-   "note": "Official name on wlrobo.com is '西湖o1' (Titan o1 per Westlake University press). Maker brochure: 29 self-developed integrated joints, knee peak torque 160 Nm, GAE avatar system, MagTap quick-swap interface, open sensor SDK. Height/weight not stated in text sources opened. humanoid.guide slug 'totan-o1' is a typo."
+   "note": "One record covers both names: the maker's product page calls it '西湖o1人形机器人', while Westlake University's press release and the WRC entry use 'Titan o1'. Maker brochure: 29 self-developed integrated joints, knee peak torque 160 Nm, GAE avatar system, MagTap quick-swap interface, open sensor SDK. Height/weight not stated in the text sources opened. humanoid.guide slug 'totan-o1' is a typo."
   },
   {
    "id": "westwood-robotics-bruce",
@@ -26936,7 +26903,7 @@
    "country": "China",
    "category": "Humanoid",
    "locomotion": "Legged",
-   "release_year": null,
+   "release_year": 2022,
    "status": "Research",
    "length_mm": null,
    "width_mm": null,
@@ -26960,58 +26927,26 @@
    "sensors": [],
    "price_usd": null,
    "price_note": null,
-   "official_url": null,
-   "sources": [
-    "https://humanoidstore.co/robots/xiaomi-cyberone"
-   ],
-   "summary": "Full-size humanoid from Xiaomi; research only, restricted sales.",
-   "data_source": "HumanoidStore open data (CC BY 4.0)"
-  },
-  {
-   "id": "xiaomi-tieda",
-   "name": "Tieda",
-   "manufacturer": "Xiaomi",
-   "country": "China",
-   "category": "Humanoid",
-   "locomotion": "Legged",
-   "release_year": null,
-   "status": "Research",
-   "length_mm": null,
-   "width_mm": null,
-   "height_mm": null,
-   "weight_kg": null,
-   "payload_kg": null,
-   "max_speed_mps": null,
-   "min_speed_mps": null,
-   "wheel_diameter_mm": null,
-   "wheel_count": null,
-   "dof": null,
-   "runtime_h": null,
-   "battery_wh": null,
-   "ip_rating": null,
-   "api_support": null,
-   "sdk_available": null,
-   "sdk_name": null,
-   "onboard_compute": null,
-   "compute_detail": null,
-   "ros_support": null,
-   "sensors": [],
-   "price_usd": null,
-   "price_note": null,
    "official_url": "https://www.mi.com/cyberone/",
    "sources": [
     "https://www.mi.com/cyberone/",
-    "https://robotics.xiaomi.com/xiaomi-robotics-1.html"
+    "https://www.mi.com/tr/product/xiaomi-cyberone/",
+    "https://robotics.xiaomi.com/xiaomi-robotics-1.html",
+    "https://humanoidstore.co/robots/xiaomi-cyberone"
    ],
-   "summary": "Xiaomi full-size bipedal humanoid (CyberOne/Tieda), whose 2026 generation is being trained on Xiaomi's car factory lines.",
-   "image_url": null,
-   "image_source": null,
-   "videos": [],
-   "seen_on": [
-    "https://data.robo2u.com/robots/xiaomi-tieda"
-   ],
+   "summary": "Full-size humanoid from Xiaomi; research only, restricted sales.",
+   "data_source": "HumanoidStore open data (CC BY 4.0)",
    "verification": "official",
-   "note": "'Tieda' (铁大) is the Chinese name of Xiaomi CyberOne; official mi.com/cyberone page covers the 2022 generation (possible duplicate if catalog also has 'Xiaomi CyberOne'). New-gen Tieda shown at WRC Aug 2026 (1.70 m, 66 kg, 66 DoF per Xiaomi via press) has no Xiaomi spec page; values left null. Prototype, not for sale."
+   "note": "Duplicate merged: 'Tieda' (铁大) is Xiaomi's own nickname for CyberOne, so the separate xiaomi-tieda record is kept here as a variant. Xiaomi product page: 177 cm, 52 kg, 21 DoF, 1.5 kg single-hand load, 3.6 km/h (1.0 m/s) max. The 2026-generation Tieda shown at WRC Aug 2026 (1.70 m, 66 kg, 66 DoF per press) has no maker spec page, so no second record is kept for it. Prototype, not for sale.",
+   "variants": [
+    {
+     "id": "xiaomi-tieda",
+     "name": "Tieda (铁大)",
+     "note": "Chinese name/nickname of CyberOne, not a separate model; the 2026 generation shown at WRC (1.70 m, 66 kg, 66 DoF per press) also carries it.",
+     "note_ko": "CyberOne의 중국어 애칭으로 별도 모델이 아닙니다. WRC 2026에 공개된 신형(보도 기준 1.70 m, 66 kg, 66 DoF)도 같은 이름을 씁니다.",
+     "url": "https://robotics.xiaomi.com/xiaomi-robotics-1.html"
+    }
+   ]
   },
   {
    "id": "xpeng-iron",
@@ -35678,7 +35613,16 @@
     "https://embodied.guide/robots/faraday-future-fx-aegis/"
    ],
    "verification": "official",
-   "note": "Page lists four FX Aegis Classic trims; values here are the base 'Aegis Classic - Pro' (12 DoF, 3.7 m/s, IP32, 15 kg, $2,990 sale / $4,490 list). Ultra: 5.0 m/s, IP54, 16 kg, $12,990; Ultra W (wheel-legged, 12+4 DoF): >5.5 m/s, 22 kg, $12,990. SDK/API only on Edu/Ultra trims."
+   "note": "Page lists four FX Aegis Classic trims; values here are the base 'Aegis Classic - Pro' (12 DoF, 3.7 m/s, IP32, 15 kg, $2,990 sale / $4,490 list). Ultra: 5.0 m/s, IP54, 16 kg, $12,990; Ultra W (wheel-legged, 12+4 DoF): >5.5 m/s, 22 kg, $12,990 - kept here as a variant, not a separate record. SDK/API only on Edu/Ultra trims.",
+   "variants": [
+    {
+     "id": "faraday-future-fx-aegis-ultra-w",
+     "name": "FX Aegis Classic Ultra-W",
+     "note": "Wheel-legged trim of FX Aegis Classic, released 2026: 22 kg, 12+4 DoF, open SDK/API, $12,990 plus a $3,000 skills package. Speed (>5.5 m/s) and obstacle height (60 vs 65 cm) appear only on third-party sites.",
+     "note_ko": "FX Aegis Classic의 휠-레그 트림으로 2026년 출시. 22 kg, 12+4 DoF, SDK/API 공개, $12,990에 스킬 패키지 $3,000 별도. 최고 속도(>5.5 m/s)와 장애물 높이(60 vs 65 cm)는 3자 사이트에만 있습니다.",
+     "url": "https://www.ff.com/us/919-ff-eai-robotics/"
+    }
+   ]
   },
   {
    "id": "faraday-future-fx-aegis-hyper",
@@ -35829,7 +35773,7 @@
   },
   {
    "id": "genisom-gangben-l1",
-   "name": "Gangben L1",
+   "name": "Genisom L1",
    "manufacturer": "GENISOM AI (ZsiBot)",
    "country": "China",
    "category": "Quadruped",
@@ -35874,11 +35818,11 @@
     "https://embodied.guide/robots/genisom-gangben-l1/"
    ],
    "verification": "official",
-   "note": "GENISOM AI (智身科技) official page, product 钢镚 L1. Limit speed 5 m/s; payload ≈8 kg (limit ~10 kg). Battery 43.2 V × 4.6 Ah rated (~199 Wh, computed; not stated as Wh). EDU version adds Jetson Orin NX, 3D LiDAR, depth camera."
+   "note": "Official name 'Genisom L1' (钢镚 L1) - the record was listed as 'Gangben L1' from a competitor's transliteration. GENISOM AI (智身科技) page: limit speed 5 m/s; payload ≈8 kg (limit ~10 kg). Battery 43.2 V × 4.6 Ah rated (~199 Wh, computed; not stated as Wh). EDU version adds Jetson Orin NX, 3D LiDAR, depth camera."
   },
   {
    "id": "genisom-gangben-l2",
-   "name": "Genisom L2 (Gangbeng L2)",
+   "name": "Genisom L2",
    "manufacturer": "GENISOM AI (ZsiBot)",
    "country": "China",
    "category": "Quadruped",
@@ -35926,52 +35870,7 @@
     "https://embodied.guide/robots/genisom-gangben-l2/"
    ],
    "verification": "official",
-   "note": "Maker now brands it Genisom L2 (钢镚/Gangbeng; record had 'Gangben'). Speed 3.2 m/s rated, 5 m/s peak. The 70 cm obstacle headline belongs to the wheeled L2-W variant (27 kg) per maker brochure."
-  },
-  {
-   "id": "genisom-qiuqiu-sp1",
-   "name": "Qiuqiu SP1",
-   "manufacturer": "GENISOM AI (ZsiBot)",
-   "country": "China",
-   "category": "Quadruped",
-   "locomotion": "Legged",
-   "release_year": null,
-   "status": "Commercial",
-   "length_mm": 1190,
-   "width_mm": 640,
-   "height_mm": 925,
-   "weight_kg": 100,
-   "payload_kg": 50,
-   "max_speed_mps": 1.2,
-   "min_speed_mps": null,
-   "wheel_diameter_mm": null,
-   "wheel_count": null,
-   "dof": null,
-   "runtime_h": 4,
-   "battery_wh": null,
-   "ip_rating": "IP66",
-   "api_support": null,
-   "sdk_available": true,
-   "sdk_name": null,
-   "onboard_compute": null,
-   "compute_detail": null,
-   "ros_support": null,
-   "sensors": [],
-   "price_usd": null,
-   "price_note": null,
-   "official_url": "https://www.genisomai.com/product-robot/sp1",
-   "sources": [
-    "https://www.genisomai.com/product-robot/sp1"
-   ],
-   "summary": "Explosion-proof industrial quadruped for Zone 1/2 hazardous areas, 50 kg payload, IP66, for 24/7 autonomous inspection.",
-   "image_url": null,
-   "image_source": null,
-   "videos": [],
-   "seen_on": [
-    "https://embodied.guide/robots/genisom-qiuqiu-sp1/"
-   ],
-   "verification": "official",
-   "note": "Official product name is 铅球 SP1 (Qianqiu/'shot put'), not 'Qiuqiu'. Explosion-proof inspection quadruped for Zone 1/2 gas atmospheres. Weight stated '≤100 kg'; runtime '≥4 h'."
+   "note": "Official name 'Genisom L2' (钢镚 L2; recorded earlier as 'Gangben/Gangbeng L2'). Speed 3.2 m/s rated, 5 m/s peak. The 70 cm obstacle headline belongs to the wheeled L2-W variant (27 kg) per maker brochure."
   },
   {
    "id": "genisom-tongchui-m1",
@@ -36024,6 +35923,51 @@
    ],
    "verification": "official",
    "note": "Official 铜锤 M1 (variants M1/Pro/Ultra): 12 joint motors + 4 hub motors (wheel-legged; optional point-foot kit), so category 'Quadruped' may be better as Wheel-legged. Limit speed 8 m/s. Battery 54 V × 9.35 Ah × 2 (~1010 Wh computed). Weight 41 kg with battery."
+  },
+  {
+   "id": "genisom-qiuqiu-sp1",
+   "name": "铅球 SP1 (Qianqiu SP1)",
+   "manufacturer": "GENISOM AI (ZsiBot)",
+   "country": "China",
+   "category": "Quadruped",
+   "locomotion": "Legged",
+   "release_year": null,
+   "status": "Commercial",
+   "length_mm": 1190,
+   "width_mm": 640,
+   "height_mm": 925,
+   "weight_kg": 100,
+   "payload_kg": 50,
+   "max_speed_mps": 1.2,
+   "min_speed_mps": null,
+   "wheel_diameter_mm": null,
+   "wheel_count": null,
+   "dof": null,
+   "runtime_h": 4,
+   "battery_wh": null,
+   "ip_rating": "IP66",
+   "api_support": null,
+   "sdk_available": true,
+   "sdk_name": null,
+   "onboard_compute": null,
+   "compute_detail": null,
+   "ros_support": null,
+   "sensors": [],
+   "price_usd": null,
+   "price_note": null,
+   "official_url": "https://www.genisomai.com/product-robot/sp1",
+   "sources": [
+    "https://www.genisomai.com/product-robot/sp1"
+   ],
+   "summary": "Explosion-proof industrial quadruped for Zone 1/2 hazardous areas, 50 kg payload, IP66, for 24/7 autonomous inspection.",
+   "image_url": null,
+   "image_source": null,
+   "videos": [],
+   "seen_on": [
+    "https://embodied.guide/robots/genisom-qiuqiu-sp1/"
+   ],
+   "verification": "official",
+   "note": "Official product name is 铅球 SP1 (qiānqiú, 'shot put') - 'Qiuqiu' was a wrong romanisation, so the id keeps the old slug for link stability. Explosion-proof inspection quadruped for Zone 1/2 gas atmospheres (Ex d IIC T6 Gb), IP66, 50 kg continuous payload, 35° slope, 4 h full-load runtime. Weight stated '≤100 kg'; runtime '≥4 h'."
   },
   {
    "id": "galileo-c1",
@@ -37402,6 +37346,202 @@
    "note": "Polish quadruped; launched July 2026, replaces HB 4.0. Height 13-50 cm (max used). IP66 per 5.0 page."
   },
   {
+   "id": "microrobotech-haoqizhe-s01",
+   "name": "Haoqizhe S01",
+   "manufacturer": "MICBOT (Hangzhou Juwei Technology)",
+   "country": "China",
+   "category": "Quadruped",
+   "locomotion": "Wheel-legged",
+   "release_year": 2026,
+   "status": null,
+   "length_mm": null,
+   "width_mm": null,
+   "height_mm": null,
+   "weight_kg": null,
+   "payload_kg": null,
+   "max_speed_mps": null,
+   "min_speed_mps": null,
+   "wheel_diameter_mm": null,
+   "wheel_count": null,
+   "dof": null,
+   "runtime_h": null,
+   "battery_wh": null,
+   "ip_rating": null,
+   "api_support": null,
+   "sdk_available": null,
+   "sdk_name": null,
+   "onboard_compute": null,
+   "compute_detail": null,
+   "ros_support": null,
+   "sensors": [],
+   "price_usd": null,
+   "price_note": null,
+   "official_url": "https://www.micbotics.cn/list_3/126.html",
+   "sources": [
+    "https://www.micbotics.cn/list_3/126.html"
+   ],
+   "summary": "Small-to-medium industrial wheeled quadruped bringing MOVENEW P-series anti-magnetic/explosion/water/freeze protection to narrow spaces like pipe galleries.",
+   "image_url": null,
+   "image_source": null,
+   "videos": [],
+   "seen_on": [
+    "https://embodied.guide/robots/microrobotech-haoqizhe-s01/"
+   ],
+   "verification": "official",
+   "note": "Maker is MICBOT (Hangzhou Juwei Technology / 杭州具微科技), recorded earlier as 'MicroRoboTech' - the ids keep the old slug for link stability. Official name 好奇者 S01; wheeled quadruped launched at WAIC 2026. No spec table published."
+  },
+  {
+   "id": "microrobotech-movenew-p1",
+   "name": "MOVENEW P1",
+   "manufacturer": "MICBOT (Hangzhou Juwei Technology)",
+   "country": "China",
+   "category": "Quadruped",
+   "locomotion": "Wheel-legged",
+   "release_year": null,
+   "status": "Commercial",
+   "length_mm": 900,
+   "width_mm": 600,
+   "height_mm": 650,
+   "weight_kg": 77,
+   "payload_kg": 200,
+   "max_speed_mps": 3,
+   "min_speed_mps": null,
+   "wheel_diameter_mm": 210,
+   "wheel_count": 4,
+   "dof": null,
+   "runtime_h": 8,
+   "battery_wh": 3200,
+   "ip_rating": "IP67",
+   "api_support": null,
+   "sdk_available": true,
+   "sdk_name": null,
+   "onboard_compute": null,
+   "compute_detail": null,
+   "ros_support": null,
+   "sensors": [
+    "96-line automotive-grade LiDAR (up to 3)",
+    "IMU",
+    "Depth camera (optional)",
+    "Ultrasonic radar (optional)"
+   ],
+   "price_usd": null,
+   "price_note": null,
+   "official_url": "https://www.micbotics.com/list_12/98.html",
+   "sources": [
+    "https://www.micbotics.com/list_12/98.html",
+    "https://www.micbotics.com/list_44/85.html"
+   ],
+   "summary": "Industrial wheel-legged quadruped for special operations in high-risk environments; 400 kg static and 200 kg walking load, 8–12 h runtime.",
+   "image_url": "https://www.micbotics.com/public/upload/image/20260324/1774349921913635.jpg",
+   "image_source": "https://www.micbotics.com/list_12/98.html",
+   "videos": [],
+   "seen_on": [
+    "https://embodied.guide/robots/microrobotech-movenew-p1/"
+   ],
+   "verification": "official",
+   "note": "Maker is MICBOT (Hangzhou Juwei Technology). Wheel-legged quadruped (category arguably Wheel-legged). Datasheet says IP67 (wheels IP68) while feature text says IP66; datasheet value used. Explosion-proof variant P1 ExR exists."
+  },
+  {
+   "id": "microrobotech-movenew-p2",
+   "name": "MOVENEW P2",
+   "manufacturer": "MICBOT (Hangzhou Juwei Technology)",
+   "country": "China",
+   "category": "Quadruped",
+   "locomotion": "Wheel-legged",
+   "release_year": null,
+   "status": "Commercial",
+   "length_mm": 900,
+   "width_mm": 600,
+   "height_mm": 650,
+   "weight_kg": 77,
+   "payload_kg": 200,
+   "max_speed_mps": 3,
+   "min_speed_mps": null,
+   "wheel_diameter_mm": 210,
+   "wheel_count": 4,
+   "dof": null,
+   "runtime_h": 8,
+   "battery_wh": 3200,
+   "ip_rating": "IP67",
+   "api_support": null,
+   "sdk_available": true,
+   "sdk_name": null,
+   "onboard_compute": null,
+   "compute_detail": null,
+   "ros_support": null,
+   "sensors": [
+    "96-line LiDAR x2",
+    "Depth camera",
+    "IMU"
+   ],
+   "price_usd": null,
+   "price_note": null,
+   "official_url": "https://www.micbotics.cn/list_12/95.html",
+   "sources": [
+    "https://www.micbotics.cn/list_12/95.html"
+   ],
+   "summary": "Industrial special-purpose wheel-legged quadruped for high-risk complex conditions, with explosion-proof certification and ≥200 kg walking load.",
+   "image_url": null,
+   "image_source": null,
+   "videos": [],
+   "seen_on": [
+    "https://embodied.guide/robots/microrobotech-movenew-p2/"
+   ],
+   "verification": "official",
+   "note": "Maker is MICBOT (Hangzhou Juwei Technology). Wheel-legged; Chinese-site datasheet nearly identical to P1 (77 kg, 3.2 kWh, 3 m/s) with dual 96-line LiDAR and IP67 body / IP68 wheels."
+  },
+  {
+   "id": "microrobotech-movenew-t1",
+   "name": "MOVENEW T1",
+   "manufacturer": "MICBOT (Hangzhou Juwei Technology)",
+   "country": "China",
+   "category": "Quadruped",
+   "locomotion": "Wheel-legged",
+   "release_year": 2025,
+   "status": "Commercial",
+   "length_mm": 800,
+   "width_mm": 600,
+   "height_mm": 540,
+   "weight_kg": null,
+   "payload_kg": 50,
+   "max_speed_mps": 5,
+   "min_speed_mps": null,
+   "wheel_diameter_mm": 180,
+   "wheel_count": 4,
+   "dof": null,
+   "runtime_h": 12,
+   "battery_wh": null,
+   "ip_rating": "IP68",
+   "api_support": null,
+   "sdk_available": true,
+   "sdk_name": "Micbot Reinforcement Learning SDK / T1 SDK",
+   "onboard_compute": true,
+   "compute_detail": "181 TOPS",
+   "ros_support": null,
+   "sensors": [
+    "HD depth camera",
+    "Onboard LiDAR",
+    "360° panoramic vision",
+    "Ultrasonic radar"
+   ],
+   "price_usd": null,
+   "price_note": null,
+   "official_url": "https://www.micbotics.com/list_13/96.html",
+   "sources": [
+    "https://www.micbotics.com/list_13/96.html",
+    "https://www.micbotics.com/list_44/85.html"
+   ],
+   "summary": "Flagship wheeled quadruped with 18 km/h top speed, 50 kg walking load and IP68 rating for high-end all-terrain work.",
+   "image_url": null,
+   "image_source": null,
+   "videos": [],
+   "seen_on": [
+    "https://embodied.guide/robots/microrobotech-movenew-t1/"
+   ],
+   "verification": "official",
+   "note": "Maker is MICBOT (Hangzhou Juwei Technology). Wheel-legged flagship. Datasheet says IP68; feature blurb says IP66 — datasheet used. Speed 18 km/h = 5 m/s. Weight given as 40–50 kg range (left null)."
+  },
+  {
    "id": "mit-cheetah-3",
    "name": "Cheetah 3",
    "manufacturer": "MIT Biomimetic Robotics Laboratory",
@@ -38003,202 +38143,6 @@
    ],
    "verification": "official",
    "note": "maum.ai lists JINDO BOT on its Physical AI product line; it is a family brand with four mission variants (Guard, Ranger, Haechi, Vanguard). No official spec sheet found; pre-order/subscription stage."
-  },
-  {
-   "id": "microrobotech-haoqizhe-s01",
-   "name": "Haoqizhe S01",
-   "manufacturer": "MicroRoboTech",
-   "country": "China",
-   "category": "Quadruped",
-   "locomotion": "Wheel-legged",
-   "release_year": 2026,
-   "status": null,
-   "length_mm": null,
-   "width_mm": null,
-   "height_mm": null,
-   "weight_kg": null,
-   "payload_kg": null,
-   "max_speed_mps": null,
-   "min_speed_mps": null,
-   "wheel_diameter_mm": null,
-   "wheel_count": null,
-   "dof": null,
-   "runtime_h": null,
-   "battery_wh": null,
-   "ip_rating": null,
-   "api_support": null,
-   "sdk_available": null,
-   "sdk_name": null,
-   "onboard_compute": null,
-   "compute_detail": null,
-   "ros_support": null,
-   "sensors": [],
-   "price_usd": null,
-   "price_note": null,
-   "official_url": "https://www.micbotics.cn/list_3/126.html",
-   "sources": [
-    "https://www.micbotics.cn/list_3/126.html"
-   ],
-   "summary": "Small-to-medium industrial wheeled quadruped bringing MOVENEW P-series anti-magnetic/explosion/water/freeze protection to narrow spaces like pipe galleries.",
-   "image_url": null,
-   "image_source": null,
-   "videos": [],
-   "seen_on": [
-    "https://embodied.guide/robots/microrobotech-haoqizhe-s01/"
-   ],
-   "verification": "official",
-   "note": "Maker name should be MICBOT (Hangzhou Juwei Technology / 杭州具微科技), not 'MicroRoboTech'. Official name 好奇者 S01; wheeled quadruped launched at WAIC 2026. No spec table published."
-  },
-  {
-   "id": "microrobotech-movenew-p1",
-   "name": "MOVENEW P1",
-   "manufacturer": "MicroRoboTech",
-   "country": "China",
-   "category": "Quadruped",
-   "locomotion": "Wheel-legged",
-   "release_year": null,
-   "status": "Commercial",
-   "length_mm": 900,
-   "width_mm": 600,
-   "height_mm": 650,
-   "weight_kg": 77,
-   "payload_kg": 200,
-   "max_speed_mps": 3,
-   "min_speed_mps": null,
-   "wheel_diameter_mm": 210,
-   "wheel_count": 4,
-   "dof": null,
-   "runtime_h": 8,
-   "battery_wh": 3200,
-   "ip_rating": "IP67",
-   "api_support": null,
-   "sdk_available": true,
-   "sdk_name": null,
-   "onboard_compute": null,
-   "compute_detail": null,
-   "ros_support": null,
-   "sensors": [
-    "96-line automotive-grade LiDAR (up to 3)",
-    "IMU",
-    "Depth camera (optional)",
-    "Ultrasonic radar (optional)"
-   ],
-   "price_usd": null,
-   "price_note": null,
-   "official_url": "https://www.micbotics.com/list_12/98.html",
-   "sources": [
-    "https://www.micbotics.com/list_12/98.html",
-    "https://www.micbotics.com/list_44/85.html"
-   ],
-   "summary": "Industrial wheel-legged quadruped for special operations in high-risk environments; 400 kg static and 200 kg walking load, 8–12 h runtime.",
-   "image_url": "https://www.micbotics.com/public/upload/image/20260324/1774349921913635.jpg",
-   "image_source": "https://www.micbotics.com/list_12/98.html",
-   "videos": [],
-   "seen_on": [
-    "https://embodied.guide/robots/microrobotech-movenew-p1/"
-   ],
-   "verification": "official",
-   "note": "Maker is MICBOT (Hangzhou Juwei Technology). Wheel-legged quadruped (category arguably Wheel-legged). Datasheet says IP67 (wheels IP68) while feature text says IP66; datasheet value used. Explosion-proof variant P1 ExR exists."
-  },
-  {
-   "id": "microrobotech-movenew-p2",
-   "name": "MOVENEW P2",
-   "manufacturer": "MicroRoboTech",
-   "country": "China",
-   "category": "Quadruped",
-   "locomotion": "Wheel-legged",
-   "release_year": null,
-   "status": "Commercial",
-   "length_mm": 900,
-   "width_mm": 600,
-   "height_mm": 650,
-   "weight_kg": 77,
-   "payload_kg": 200,
-   "max_speed_mps": 3,
-   "min_speed_mps": null,
-   "wheel_diameter_mm": 210,
-   "wheel_count": 4,
-   "dof": null,
-   "runtime_h": 8,
-   "battery_wh": 3200,
-   "ip_rating": "IP67",
-   "api_support": null,
-   "sdk_available": true,
-   "sdk_name": null,
-   "onboard_compute": null,
-   "compute_detail": null,
-   "ros_support": null,
-   "sensors": [
-    "96-line LiDAR x2",
-    "Depth camera",
-    "IMU"
-   ],
-   "price_usd": null,
-   "price_note": null,
-   "official_url": "https://www.micbotics.cn/list_12/95.html",
-   "sources": [
-    "https://www.micbotics.cn/list_12/95.html"
-   ],
-   "summary": "Industrial special-purpose wheel-legged quadruped for high-risk complex conditions, with explosion-proof certification and ≥200 kg walking load.",
-   "image_url": null,
-   "image_source": null,
-   "videos": [],
-   "seen_on": [
-    "https://embodied.guide/robots/microrobotech-movenew-p2/"
-   ],
-   "verification": "official",
-   "note": "Maker is MICBOT (Hangzhou Juwei Technology). Wheel-legged; Chinese-site datasheet nearly identical to P1 (77 kg, 3.2 kWh, 3 m/s) with dual 96-line LiDAR and IP67 body / IP68 wheels."
-  },
-  {
-   "id": "microrobotech-movenew-t1",
-   "name": "MOVENEW T1",
-   "manufacturer": "MicroRoboTech",
-   "country": "China",
-   "category": "Quadruped",
-   "locomotion": "Wheel-legged",
-   "release_year": 2025,
-   "status": "Commercial",
-   "length_mm": 800,
-   "width_mm": 600,
-   "height_mm": 540,
-   "weight_kg": null,
-   "payload_kg": 50,
-   "max_speed_mps": 5,
-   "min_speed_mps": null,
-   "wheel_diameter_mm": 180,
-   "wheel_count": 4,
-   "dof": null,
-   "runtime_h": 12,
-   "battery_wh": null,
-   "ip_rating": "IP68",
-   "api_support": null,
-   "sdk_available": true,
-   "sdk_name": "Micbot Reinforcement Learning SDK / T1 SDK",
-   "onboard_compute": true,
-   "compute_detail": "181 TOPS",
-   "ros_support": null,
-   "sensors": [
-    "HD depth camera",
-    "Onboard LiDAR",
-    "360° panoramic vision",
-    "Ultrasonic radar"
-   ],
-   "price_usd": null,
-   "price_note": null,
-   "official_url": "https://www.micbotics.com/list_13/96.html",
-   "sources": [
-    "https://www.micbotics.com/list_13/96.html",
-    "https://www.micbotics.com/list_44/85.html"
-   ],
-   "summary": "Flagship wheeled quadruped with 18 km/h top speed, 50 kg walking load and IP68 rating for high-end all-terrain work.",
-   "image_url": null,
-   "image_source": null,
-   "videos": [],
-   "seen_on": [
-    "https://embodied.guide/robots/microrobotech-movenew-t1/"
-   ],
-   "verification": "official",
-   "note": "Maker is MICBOT (Hangzhou Juwei Technology). Wheel-legged flagship. Datasheet says IP68; feature blurb says IP66 — datasheet used. Speed 18 km/h = 5 m/s. Weight given as 40–50 kg range (left null)."
   },
   {
    "id": "mirrorme-apollo",
@@ -40916,53 +40860,6 @@
    "summary": "Self-balancing two-wheel-legged open development platform with six direct-drive joints; 4 kg payload standing, 80 kg in crouched mode, near-silent operation."
   },
   {
-   "id": "faraday-future-fx-aegis-ultra-w",
-   "name": "FX Aegis Classic Ultra-W",
-   "manufacturer": "Faraday Future",
-   "country": "United States",
-   "category": "Wheel-legged",
-   "locomotion": "Wheel-legged",
-   "release_year": 2026,
-   "status": "Commercial",
-   "length_mm": null,
-   "width_mm": null,
-   "height_mm": null,
-   "weight_kg": 22,
-   "payload_kg": null,
-   "max_speed_mps": null,
-   "min_speed_mps": null,
-   "wheel_diameter_mm": null,
-   "wheel_count": null,
-   "dof": null,
-   "runtime_h": null,
-   "battery_wh": null,
-   "ip_rating": null,
-   "api_support": null,
-   "sdk_available": true,
-   "sdk_name": null,
-   "onboard_compute": null,
-   "compute_detail": null,
-   "ros_support": null,
-   "sensors": [],
-   "price_usd": 12990,
-   "price_note": null,
-   "official_url": "https://www.ff.com/us/919-ff-eai-robotics/",
-   "sources": [
-    "https://www.ff.com/us/919-ff-eai-robotics/",
-    "https://app-us.ff.com/ff-v3/news/1625?lang=en-US"
-   ],
-   "summary": "Lightweight 22 kg wheel-legged trim of the FX Aegis Classic for security and companionship, $12,990 with a $3,000 skills package.",
-   "image_url": null,
-   "image_source": null,
-   "videos": [],
-   "seen_on": [
-    "https://data.robo2u.com/robots/faraday-future-fx-aegis-classic-ultra-w",
-    "https://embodied.guide/robots/faraday-future-fx-aegis-ultra-w/"
-   ],
-   "verification": "official",
-   "note": "A trim of FX Aegis Classic, not a separate model. Speed (>5.5 m/s) and obstacle height (60 vs 65 cm) only on third-party sites, left out."
-  },
-  {
    "id": "faraday-future-fx-aegis-mega",
    "name": "FX Aegis Mega",
    "manufacturer": "Faraday Future",
@@ -41016,7 +40913,7 @@
   },
   {
    "id": "genisom-gangben-l1-w",
-   "name": "Gangben L1-W",
+   "name": "Genisom L1-W",
    "manufacturer": "GENISOM AI (ZsiBot)",
    "country": "China",
    "category": "Wheel-legged",
@@ -41064,7 +40961,7 @@
   },
   {
    "id": "genisom-gangben-l2-w",
-   "name": "Gangben L2-W",
+   "name": "Genisom L2-W",
    "manufacturer": "GENISOM AI (ZsiBot)",
    "country": "China",
    "category": "Wheel-legged",

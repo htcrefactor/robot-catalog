@@ -4519,7 +4519,7 @@
   "country": "China",
   "category": "Humanoid",
   "locomotion": "Legged",
-  "release_year": null,
+  "release_year": 2022,
   "status": "Research",
   "length_mm": null,
   "width_mm": null,
@@ -4543,12 +4543,26 @@
   "sensors": [],
   "price_usd": null,
   "price_note": null,
-  "official_url": null,
+  "official_url": "https://www.mi.com/cyberone/",
   "sources": [
+   "https://www.mi.com/cyberone/",
+   "https://www.mi.com/tr/product/xiaomi-cyberone/",
+   "https://robotics.xiaomi.com/xiaomi-robotics-1.html",
    "https://humanoidstore.co/robots/xiaomi-cyberone"
   ],
   "summary": "Full-size humanoid from Xiaomi; research only, restricted sales.",
-  "data_source": "HumanoidStore open data (CC BY 4.0)"
+  "data_source": "HumanoidStore open data (CC BY 4.0)",
+  "verification": "official",
+  "note": "Duplicate merged: 'Tieda' (铁大) is Xiaomi's own nickname for CyberOne, so the separate xiaomi-tieda record is kept here as a variant. Xiaomi product page: 177 cm, 52 kg, 21 DoF, 1.5 kg single-hand load, 3.6 km/h (1.0 m/s) max. The 2026-generation Tieda shown at WRC Aug 2026 (1.70 m, 66 kg, 66 DoF per press) has no maker spec page, so no second record is kept for it. Prototype, not for sale.",
+  "variants": [
+   {
+    "id": "xiaomi-tieda",
+    "name": "Tieda (铁大)",
+    "note": "Chinese name/nickname of CyberOne, not a separate model; the 2026 generation shown at WRC (1.70 m, 66 kg, 66 DoF per press) also carries it.",
+    "note_ko": "CyberOne의 중국어 애칭으로 별도 모델이 아닙니다. WRC 2026에 공개된 신형(보도 기준 1.70 m, 66 kg, 66 DoF)도 같은 이름을 씁니다.",
+    "url": "https://robotics.xiaomi.com/xiaomi-robotics-1.html"
+   }
+  ]
  },
  {
   "id": "xpeng-iron",
@@ -8600,7 +8614,7 @@
  },
  {
   "id": "beyond-imagination-beomni-1",
-  "name": "Beomni 1.0",
+  "name": "Beomni V3",
   "manufacturer": "Beyond Imagination",
   "country": "United States",
   "category": "Humanoid",
@@ -8643,7 +8657,7 @@
    "https://data.robo2u.com/robots/beyond-imagination-beomni-1-0"
   ],
   "verification": "official",
-  "note": "Maker site confirms Beomni humanoid (CES 2022 public reveal of 'Beomni V3', pilots 2022-2024). '1.0' naming comes from press; maker milestone page calls the CES 2022 unit V3. No maker spec sheet found; payload claims (35 lb/arm) only in press."
+  "note": "Maker milestone page: 'CES 2022 - Public reveal of Beomni V3', so the CES 2022 unit is V3 ('Beomni 1.0' was press usage). Later generations are Beyond Mark 1 (2023), Beyond Mark 2 (2024) and Beyond Mark 3 (2025). No maker spec sheet found; payload claims (35 lb/arm) only in press."
  },
  {
   "id": "aist-hrp-5p",
@@ -9028,52 +9042,6 @@
   ],
   "verification": "unconfirmed",
   "note": "Widely reported (BYD confirmed to press; debut Aug 2026 at Di Space Zhengzhou; design patent CN310247768S) and figures (1.61 m, 58.5 kg, 31 DoF) attributed to 'official disclosure', but no BYD-owned web page/press release located. Re-check BYD newsroom."
- },
- {
-  "id": "xiaomi-tieda",
-  "name": "Tieda",
-  "manufacturer": "Xiaomi",
-  "country": "China",
-  "category": "Humanoid",
-  "locomotion": "Legged",
-  "release_year": null,
-  "status": "Research",
-  "length_mm": null,
-  "width_mm": null,
-  "height_mm": null,
-  "weight_kg": null,
-  "payload_kg": null,
-  "max_speed_mps": null,
-  "min_speed_mps": null,
-  "wheel_diameter_mm": null,
-  "wheel_count": null,
-  "dof": null,
-  "runtime_h": null,
-  "battery_wh": null,
-  "ip_rating": null,
-  "api_support": null,
-  "sdk_available": null,
-  "sdk_name": null,
-  "onboard_compute": null,
-  "compute_detail": null,
-  "ros_support": null,
-  "sensors": [],
-  "price_usd": null,
-  "price_note": null,
-  "official_url": "https://www.mi.com/cyberone/",
-  "sources": [
-   "https://www.mi.com/cyberone/",
-   "https://robotics.xiaomi.com/xiaomi-robotics-1.html"
-  ],
-  "summary": "Xiaomi full-size bipedal humanoid (CyberOne/Tieda), whose 2026 generation is being trained on Xiaomi's car factory lines.",
-  "image_url": null,
-  "image_source": null,
-  "videos": [],
-  "seen_on": [
-   "https://data.robo2u.com/robots/xiaomi-tieda"
-  ],
-  "verification": "official",
-  "note": "'Tieda' (铁大) is the Chinese name of Xiaomi CyberOne; official mi.com/cyberone page covers the 2022 generation (possible duplicate if catalog also has 'Xiaomi CyberOne'). New-gen Tieda shown at WRC Aug 2026 (1.70 m, 66 kg, 66 DoF per Xiaomi via press) has no Xiaomi spec page; values left null. Prototype, not for sale."
  },
  {
   "id": "switchbot-onero-h1",
@@ -12037,7 +12005,7 @@
  {
   "id": "jiuguang-raynex-g3",
   "name": "RayNex G3 (Xiaorui G3)",
-  "manufacturer": "Ninray (Jiuguang)",
+  "manufacturer": "NineRay Technology (Jiuguang)",
   "country": "China",
   "category": "Humanoid",
   "locomotion": "Legged",
@@ -12081,7 +12049,7 @@
    "https://humanoid.guide/product/raynex-g3/"
   ],
   "verification": "official",
-  "note": "Rename: maker brands itself NineRay (九光/Jiuguang), HQ Hong Kong. Unveiled Aug 17, 2026; sales from Sept 2026. Payload is 30 kg dual-hand operation (100 kg deadlift, 60 kg dual-arm hold). ~US$200k price is press-reported only, left out."
+  "note": "Maker brands itself NineRay (NineRay Technology, 九光/Jiuguang; earlier recorded as 'Ninray'), HQ Hong Kong. Unveiled Aug 17, 2026; sales from Sept 2026. Payload is 30 kg dual-hand operation (100 kg deadlift, 60 kg dual-arm hold). ~US$200k price is press-reported only, left out."
  },
  {
   "id": "kaist-hubo",
@@ -12177,7 +12145,7 @@
  {
   "id": "kanop-rhm-t1w",
   "name": "RHM-T1W",
-  "manufacturer": "Kanop",
+  "manufacturer": "CRP (Chengdu CRP Robot Technology)",
   "country": "China",
   "category": "Humanoid",
   "locomotion": "Wheeled",
@@ -12219,7 +12187,7 @@
    "https://humanoidversus.com/robots/kanop-rhm-t1w"
   ],
   "verification": "official",
-  "note": "Wheeled-not-legged. Maker spelling is Canop/CRP (Chengdu CRP Robot Technology). Maker's own figures conflict: launch article 1.9 m / 85 kg (used) vs earlier table 1,430-1,870 mm adjustable / 170 kg incl. 110 kg AMR base. Payload 5 kg per arm. Debuted Mar 2026, Hannover Messe Apr 2026."
+  "note": "Maker is Chengdu CRP Robot Technology (成都卡诺普, brand CRP; the 'Kanop/Canop' spelling on competitor listings is a transliteration). Wheeled-not-legged. Maker's own figures conflict: launch article 1.9 m / 85 kg (used) vs earlier table 1,430-1,870 mm adjustable / 170 kg incl. 110 kg AMR base. Payload 5 kg per arm. Debuted Mar 2026, Hannover Messe Apr 2026."
  },
  {
   "id": "kepler-forerunner-k1",
@@ -16010,7 +15978,7 @@
  },
  {
   "id": "duatic-dxtr",
-  "name": "DXTR",
+  "name": "DXTR (Alpha Half-Humanoid)",
   "manufacturer": "Duatic",
   "country": "Switzerland",
   "category": "Humanoid",
@@ -16054,7 +16022,16 @@
    "https://embodied.guide/robots/duatic-dxtr/"
   ],
   "verification": "official",
-  "note": "Official Duatic product page; page title calls it 'Alpha Half-Humanoid' (formerly Duatic Alpha, same robot). Wheeled half-humanoid with two DynaArms."
+  "note": "Duatic's DXTR page titles the robot 'Alpha Half-Humanoid' - the same robot was listed separately as 'Duatic Alpha', now kept here as a variant. Wheeled half-humanoid with two DynaArms; 12 kg continuous / 30 kg peak payload, ROS 2.",
+  "variants": [
+   {
+    "id": "duatic-alpha",
+    "name": "Alpha (Duatic Alpha)",
+    "note": "Earlier/alternate name of DXTR - the maker page still reads 'Alpha Half-Humanoid'. Same robot, not a separate model.",
+    "note_ko": "DXTR의 이전 명칭입니다. 제조사 페이지 제목은 아직 'Alpha Half-Humanoid'이며, 별도 모델이 아닙니다.",
+    "url": "https://www.duatic.com/dxtr"
+   }
+  ]
  },
  {
   "id": "eir-technology-aiq",
@@ -16578,7 +16555,7 @@
  },
  {
   "id": "gelanruo-c1",
-  "name": "C1",
+  "name": "劳动者 C1 (Laborer C1)",
   "manufacturer": "Gelanruo Robotics",
   "country": "China",
   "category": "Humanoid",
@@ -16624,11 +16601,11 @@
    "https://embodied.guide/robots/gelanruo-c1/"
   ],
   "verification": "official",
-  "note": "Maker is Wuhan Glroad Intelligent Technology (武汉格蓝若智能技术); official name '劳动者C1' (Laborer C1). Speed stated as '>2 m/s'. Runtime 2 h walking / 4 h standing."
+  "note": "Maker is Wuhan Glroad Intelligent Technology (武汉格蓝若智能技术); the maker's spec sheet names the robot '劳动者C1' (Laborer C1), so the record carries both. 1.37 m, 38 kg, 21 DoF, Orin NX compute. Speed stated as '>2 m/s'. Runtime 2 h walking / 4 h standing."
  },
  {
   "id": "gelanruo-m1",
-  "name": "M1",
+  "name": "劳动者 M1 (Laborer M1)",
   "manufacturer": "Gelanruo Robotics",
   "country": "China",
   "category": "Humanoid",
@@ -16669,11 +16646,11 @@
    "https://embodied.guide/robots/gelanruo-m1/"
   ],
   "verification": "official",
-  "note": "Maker is Wuhan Glroad Intelligent Technology (武汉格蓝若); official name '劳动者M1' (Laborer M1). Payload is dual-arm 50 kg; speed stated as '>1.2 m/s'; battery 22 Ah (voltage not stated)."
+  "note": "Maker is Wuhan Glroad Intelligent Technology (武汉格蓝若); the maker's spec sheet names the robot '劳动者M1' (Laborer M1). 1.87 m, 86 kg, 27 DoF, 50 kg dual-arm payload. Speed stated as '>1.2 m/s'; battery 22 Ah (voltage not stated)."
  },
  {
   "id": "general-autonomy-atom",
-  "name": "Atom",
+  "name": "Taara",
   "manufacturer": "General Autonomy",
   "country": "India",
   "category": "Humanoid",
@@ -16714,7 +16691,7 @@
    "https://embodied.guide/robots/general-autonomy-atom/"
   ],
   "verification": "official",
-  "note": "Official site ga.tech now names the humanoid 'Taara' (video files still named 'atom-*'); likely renamed from Atom. HQ country not stated on official site (press says Bengaluru, India)."
+  "note": "Renamed: ga.tech now publishes its humanoid only as 'Taara' (1.43 m, 60 kg, 23 DoF, 10 kg payload); earlier pages and the site's video files still carry 'Atom'. Id kept for link stability. HQ country is not stated on the maker site (press reports Bengaluru, India)."
  },
  {
   "id": "generative-bionics-gene-01",
@@ -21398,7 +21375,7 @@
  },
  {
   "id": "westlake-robotics-titan-o1",
-  "name": "Titan o1",
+  "name": "西湖o1 (Titan o1)",
   "manufacturer": "Westlake Robotics",
   "country": "China",
   "category": "Humanoid",
@@ -21447,7 +21424,7 @@
    "https://humanoid.guide/product/totan-o1/"
   ],
   "verification": "official",
-  "note": "Official name on wlrobo.com is '西湖o1' (Titan o1 per Westlake University press). Maker brochure: 29 self-developed integrated joints, knee peak torque 160 Nm, GAE avatar system, MagTap quick-swap interface, open sensor SDK. Height/weight not stated in text sources opened. humanoid.guide slug 'totan-o1' is a typo."
+  "note": "One record covers both names: the maker's product page calls it '西湖o1人形机器人', while Westlake University's press release and the WRC entry use 'Titan o1'. Maker brochure: 29 self-developed integrated joints, knee peak torque 160 Nm, GAE avatar system, MagTap quick-swap interface, open sensor SDK. Height/weight not stated in the text sources opened. humanoid.guide slug 'totan-o1' is a typo."
  },
  {
   "id": "workfar-syntro",
@@ -22796,48 +22773,6 @@
   "videos": [],
   "seen_on": [
    "https://humanoid.guide/product/%cf%88-synrobot/"
-  ],
-  "verification": null
- },
- {
-  "id": "duatic-alpha",
-  "name": "Alpha",
-  "manufacturer": "Duatic",
-  "country": null,
-  "category": "Humanoid",
-  "locomotion": "Wheeled",
-  "release_year": null,
-  "status": null,
-  "length_mm": null,
-  "width_mm": null,
-  "height_mm": null,
-  "weight_kg": null,
-  "payload_kg": null,
-  "max_speed_mps": null,
-  "min_speed_mps": null,
-  "wheel_diameter_mm": null,
-  "wheel_count": null,
-  "dof": null,
-  "runtime_h": null,
-  "battery_wh": null,
-  "ip_rating": null,
-  "api_support": null,
-  "sdk_available": null,
-  "sdk_name": null,
-  "onboard_compute": null,
-  "compute_detail": null,
-  "ros_support": null,
-  "sensors": [],
-  "price_usd": null,
-  "price_note": null,
-  "official_url": null,
-  "sources": [],
-  "summary": "",
-  "image_url": null,
-  "image_source": null,
-  "videos": [],
-  "seen_on": [
-   "https://humanoid.guide/product/duatic-alpha/"
   ],
   "verification": null
  },

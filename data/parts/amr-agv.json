@@ -2362,7 +2362,7 @@
  },
  {
   "id": "greyorange-ranger-ril-l",
-  "name": "Ranger Intralogistics (RIL-L)",
+  "name": "Ranger Uplift-L (RU-L)",
   "manufacturer": "GreyOrange",
   "country": "United States",
   "category": "AMR",
@@ -2408,7 +2408,7 @@
    "https://data.robo2u.com/robots/greyorange-ranger-intralogistics-ril-l"
   ],
   "verification": "official",
-  "note": "GreyOrange now markets this as 'Ranger Uplift - L (RU-L)'; /ril/ page used the RIL-L name with identical specs. Launched March 2021 (GreyOrange press release). Max lift height 410 mm."
+  "note": "Official Intralogistics (IL) page now lists this trim as 'Ranger Uplift - L (RU-L)': 1280 x 920 x 350 mm, 1,000 kg payload, 2 m/s - the same robot earlier listed as 'Ranger Intralogistics (RIL-L)' on greyorange.com/ril/. Launched March 2021 (GreyOrange press release). Max lift height 410 mm."
  },
  {
   "id": "vecna-autonomous-tugger-atg",
@@ -2459,7 +2459,7 @@
  },
  {
   "id": "syrius-flexswift",
-  "name": "FlexSwift",
+  "name": "FlexSwift MAX",
   "manufacturer": "Syrius Robotics",
   "country": "China",
   "category": "AMR",
@@ -2490,7 +2490,7 @@
   ],
   "price_usd": null,
   "price_note": null,
-  "official_url": "https://www.syriusrobotics.com/",
+  "official_url": "https://www.syriustechnology.com/flexswift-max",
   "sources": [
    "https://www.syriusrobotics.com/",
    "https://www.syriustechnology.com/flexswift-max",
@@ -2505,7 +2505,7 @@
    "https://data.robo2u.com/robots/syrius-robotics-flexswift"
   ],
   "verification": "official",
-  "note": "FlexSwift listed on syriusrobotics.com; current flagship marketed as 'FlexSwift MAX' (syriustechnology.com), possibly the successor of FlexSwift. Only payload 100 kg confirmed on a Syrius-owned page (Japan site, FlexSwift MAX); other specs only on distributor/aggregator pages, left null."
+  "note": "Maker's current lineup (syriusrobotics.com -> syriustechnology.com) sells this pick-assist AMR as 'FlexSwift MAX' alongside FlexPorter GO/DO; the earlier listing used 'FlexSwift'. The 100 kg payload is stated on a Syrius-owned page (Japan site, FlexSwift MAX); other specs appear only on distributor or aggregator pages and are left null."
  },
  {
   "id": "invia-picker",
@@ -3081,7 +3081,7 @@
  },
  {
   "id": "robust-ai-carter-pro",
-  "name": "Carter (launched as Carter Pro)",
+  "name": "Carter",
   "manufacturer": "Robust.AI",
   "country": "United States",
   "category": "AMR",
@@ -3127,7 +3127,7 @@
    "https://data.robo2u.com/robots/robust-ai-carter-pro"
   ],
   "verification": "official",
-  "note": "Launched as 'Carter Pro' (press release 16 Oct 2024); maker site now brands it simply 'Carter(R)' - same specs. Holonomic drive, camera-only vSLAM (no LiDAR). A Robust.AI overview deck (hosted on a third-party awards site) adds 1.5 m/s max speed and 6 h charge - not on maker site, left out."
+  "note": "Launched as 'Carter Pro' (press release 16 Oct 2024); maker site now brands it simply 'Carter(R)' - same specs, so the id keeps the launch slug. Holonomic drive, camera-only vSLAM (no LiDAR). A Robust.AI overview deck (hosted on a third-party awards site) adds 1.5 m/s max speed and 6 h charge - not on maker site, left out."
  },
  {
   "id": "hai-robotics-haipick-a42t",
@@ -4320,7 +4320,7 @@
  },
  {
   "id": "aethon-t3",
-  "name": "TUG T3",
+  "name": "T3",
   "manufacturer": "Aethon (ST Engineering)",
   "country": "United States",
   "category": "AMR",
@@ -4362,6 +4362,6 @@
    "https://roboticsrankings.com/robots/aethon-t3/"
   ],
   "verification": "official",
-  "note": "Official model name is T3 (formerly TUG T3); maker ST Engineering Aethon. Spec sheet: 340 kg (T3XL: 454 kg / 1,000 lb). Width 22.44 in, height 48.1 in; overall length not given (lift surface 33.81 in)."
+  "note": "Official model name is T3 (marketed earlier as 'TUG T3'); maker ST Engineering Aethon sells T3 and T3XL. Spec sheet: 340 kg (T3XL: 454 kg / 1,000 lb), 22.44 in width, 48.1 in height; overall length not given (lift surface 33.81 in)."
  }
 ]
