@@ -8,6 +8,23 @@ document.title=`${r.manufacturer} ${r.name} — ${t("brand")}`;{const m=document
 const row=(k,v)=>`<tr><td>${t(k)}</td><td>${v}</td></tr>`;
 const dims=[r.length_mm,r.width_mm,r.height_mm].some(v=>v!=null)?[r.length_mm,r.width_mm,r.height_mm].map(v=>v??"?").join(" × ")+" mm":"—";
 const peers=d.robots.filter(x=>x.category===r.category&&x.id!==r.id);
+// Related robots and same-maker lineup: deterministic ordering from published values only, no score or rank.
+const MAX_REL=6;
+const catKey=x=>x.category==="Misc"&&x.original_category?x.original_category:x.category;
+const nn=v=>typeof v==="number"&&isFinite(v)?v:null;
+const fitBand=(a,b)=>{const x=nn(a),y=nn(b);if(x===null||y===null||x===0)return 9;const q=Math.abs(x-y)/Math.abs(x);return q<=0.05?0:q<=0.15?1:q<=0.3?2:3;};
+const relDiff=(a,b)=>{const x=nn(a),y=nn(b);if(x===null||y===null||x===0)return 9;return Math.abs(x-y)/Math.abs(x);};
+const sgn=v=>v>0?`+${fmt(v)}`:v<0?`-${fmt(-v)}`:"0";
+const cmpKeys=(a,b)=>{for(let i=0;i<a.length;i++){if(a[i]<b[i])return -1;if(a[i]>b[i])return 1;}return 0;};
+const CMP_DIMS=["height_mm","weight_kg","payload_kg"]; // closest published height, then weight, then payload
+const relKey=(m,x)=>{const k=[];CMP_DIMS.forEach(f=>{if(nn(m[f])!==null)k.push(fitBand(m[f],x[f]))});CMP_DIMS.forEach(f=>{if(nn(m[f])!==null)k.push(relDiff(m[f],x[f]))});k.push(x.name.toLowerCase(),x.id);return k;};
+const lineupAll=d.robots.filter(x=>x.id!==r.id&&x.manufacturer===r.manufacturer).sort((a,b)=>cmpKeys([catKey(a)===catKey(r)?0:1,a.release_year==null?1:0,a.release_year==null?0:-a.release_year,a.name.toLowerCase(),a.id],[catKey(b)===catKey(r)?0:1,b.release_year==null?1:0,b.release_year==null?0:-b.release_year,b.name.toLowerCase(),b.id]));
+const relatedAll=d.robots.filter(x=>x.id!==r.id&&x.manufacturer!==r.manufacturer&&catKey(x)===catKey(r)).sort((a,b)=>cmpKeys(relKey(r,a),relKey(r,b)));
+const specRow=(k,mine,v,u)=>{const n=nn(v);if(n===null)return `<span>${t(k)}</span><span class="muted">—</span>`;const b=nn(mine);return `<span>${t(k)}</span><span>${fmt(n,u)}${b===null?"":` <span class="muted small">${sgn(n-b)}</span>`}</span>`;};
+const rcard=(x,showMaker)=>`<a class="card" href="robot.html?id=${encodeURIComponent(x.id)}">${showMaker?`<div class="mk">${esc(x.manufacturer)}</div>`:""}<div class="nm">${esc(x.name)}</div><div><span class="tag" style="background:${CAT_COLORS[x.category]}22;color:${CAT_COLORS[x.category]}">${esc(tv(x.category))}</span><span class="tag plain">${esc(tv(x.locomotion))}</span>${x.release_year?`<span class="tag plain">${esc(String(x.release_year))}</span>`:""}</div><div class="kv">${specRow("height",r.height_mm,x.height_mm,"mm")}${specRow("weight",r.weight_kg,x.weight_kg,"kg")}${specRow("payload",r.payload_kg,x.payload_kg,"kg")}</div></a>`;
+const moreTxt=(n,k)=>n>0?`<p class="small muted" style="margin:10px 0 0">${t(k,{n})}</p>`:"";
+const lineupHtml=lineupAll.length?`<div class="panel"><h2>${t("lineup_title",{maker:esc(r.manufacturer)})}</h2><p class="muted small">${t("lineup_sub")}</p><div class="grid">${lineupAll.slice(0,MAX_REL).map(x=>rcard(x,false)).join("")}</div>${moreTxt(lineupAll.length-MAX_REL,"lineup_more")}</div>`:"";
+const relatedHtml=relatedAll.length?`<div class="panel"><h2>${t("related_title")}</h2><p class="muted small">${t("related_sub")}</p><div class="grid">${relatedAll.slice(0,MAX_REL).map(x=>rcard(x,true)).join("")}</div>${moreTxt(relatedAll.length-MAX_REL,"related_more")}</div>`:"";
 const price=r.price_usd==null?(r.price_note?esc(r.price_note):"—"):`$${r.price_usd.toLocaleString()}${r.price_note?` <span class="muted small">(${esc(r.price_note)})</span>`:""}`;
 m.innerHTML=`<p class="small"><a href="index.html">${t("back")}</a></p>
 <div class="muted" style="text-transform:uppercase;font-size:12px;letter-spacing:.5px">${esc(r.manufacturer)} · ${esc(tv(r.country))}</div>
@@ -22,7 +39,7 @@ m.innerHTML=`<p class="small"><a href="index.html">${t("back")}</a></p>
 ${r.misc_reason?`<div class="panel small"><b>${t("misc_why")}</b> ${esc(r.misc_reason)}</div>`:""}${(r.variants||[]).length?`<div class="panel"><h2>${t("variants")}</h2><ul class="small">${r.variants.map(v=>`<li><b>${esc(v.name)}</b> — ${esc(LANG==="ko"&&v.note_ko?v.note_ko:v.note)}${v.url?` <a href="${esc(v.url)}" target="_blank" rel="noopener">↗</a>`:""}</li>`).join("")}</ul></div>`:""}
 <div id="full"></div>
 <div class="panel"><h2>${t("sources")}</h2>${r.official_url?`<p><a href="${esc(r.official_url)}" target="_blank" rel="noopener">${t("official")}</a></p>`:""}<ul class="small">${(r.sources||[]).map(s=>`<li><a href="${esc(s)}" target="_blank" rel="noopener">${esc(s)}</a></li>`).join("")}</ul></div>
-${peers.length?`<div class="panel"><h2>${t("other_in")}: ${esc(tv(r.category))}</h2><p>${peers.map(p=>`<a href="robot.html?id=${encodeURIComponent(p.id)}">${esc(p.manufacturer)} ${esc(p.name)}</a>`).join(" · ")}</p></div>`:""}`;
+${lineupHtml}${relatedHtml}${peers.length?`<details class="panel"><summary><b>${t("other_in")}: ${esc(tv(r.category))}</b> <span class="muted small">${peers.length}</span></summary><p class="small">${peers.map(p=>`<a href="robot.html?id=${encodeURIComponent(p.id)}">${esc(p.manufacturer)} ${esc(p.name)}</a>`).join(" · ")}</p></details>`:""}`;
 const full=document.getElementById("full");
 let sp=null,keys=null;
 try{const [a,b]=await Promise.all([fetch(`data/specs/${encodeURIComponent(r.id)}.json`,{cache:"no-cache"}),fetch("data/spec_keys.json",{cache:"no-cache"})]);if(a.ok)sp=await a.json();if(b.ok)keys=await b.json();}catch(e){}
