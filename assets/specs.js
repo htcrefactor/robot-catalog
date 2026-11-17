@@ -11,16 +11,17 @@ const FAM=Object.fromEntries((K.families||[]).map(f=>[f.id,f]));
 const LOCOS=[...new Set(d.robots.map(r=>r.locomotion).filter(Boolean))].sort();
 $("sub").textContent=t("specs_sub",{k:K.keys.length,r:K.robots_with_specs});
 // ---------- state (kept in the URL hash so a comparison can be shared) ----------
-const S={k:"",fam:"",vs:"",loco:new Set(),cat:new Set(),q:"",view:"chart",proxy:false,sort:"asc"};
+const S={k:"",fam:"",vs:"",loco:new Set(),cat:new Set(),q:"",view:"chart",proxy:false,sort:"asc",ver:false};
 const readHash=()=>{const h=new URLSearchParams(location.hash.slice(1));
+ S.ver=h.get("ver")==="1";
  if(h.has("k")||h.has("fam")){S.k=h.get("k")||"";S.fam=h.get("fam")||"";S.vs=h.get("vs")||"";S.view=h.get("view")||"chart";S.proxy=h.get("proxy")==="1";S.sort=h.get("sort")||"asc";
   S.loco=new Set((h.get("loco")||"").split(",").filter(Boolean));S.cat=new Set((h.get("cat")||"").split(",").filter(Boolean));}
  else if(location.hash.length>1&&KEY[decodeURIComponent(location.hash.slice(1))])S.k=decodeURIComponent(location.hash.slice(1));};
 const writeHash=()=>{const h=new URLSearchParams();if(S.fam)h.set("fam",S.fam);else if(S.k)h.set("k",S.k);
  if(S.vs)h.set("vs",S.vs);if(S.view!=="chart")h.set("view",S.view);if(S.proxy)h.set("proxy","1");if(S.sort!=="asc")h.set("sort",S.sort);
- if(S.loco.size)h.set("loco",[...S.loco].join(","));if(S.cat.size)h.set("cat",[...S.cat].join(","));history.replaceState(null,"","#"+h.toString());};
+ if(S.loco.size)h.set("loco",[...S.loco].join(","));if(S.cat.size)h.set("cat",[...S.cat].join(","));if(S.ver)h.set("ver","1");history.replaceState(null,"","#"+h.toString());};
 readHash();
-const inFilter=r=>r&&(!S.loco.size||S.loco.has(r.locomotion))&&(!S.cat.size||S.cat.has(r.category))&&(!S.q||(r.name+" "+r.manufacturer).toLowerCase().includes(S.q));
+const inFilter=r=>r&&(!S.loco.size||S.loco.has(r.locomotion))&&(!S.cat.size||S.cat.has(r.category))&&(!S.ver||makerVerified(r))&&(!S.q||(r.name+" "+r.manufacturer).toLowerCase().includes(S.q));
 const pool=()=>d.robots.filter(inFilter);
 const rname=id=>{const r=R[id];return r?`${r.manufacturer} ${r.name}`:id};
 const sname=id=>{const r=R[id];return r?r.name:id}; // short label for charts; full name in tooltip
@@ -135,5 +136,5 @@ function wire(k,rows){$("vals").querySelectorAll("[data-view]").forEach(b=>b.onc
  const cb=$("csvBtn");if(cb)cb.onclick=()=>csv([["robot","manufacturer","category","locomotion","value","unit","value_in_"+k.unit,"note","source"],...rows.map(x=>{const r=R[x.id]||{};return [r.name,r.manufacturer,r.category,r.locomotion,x.value,x.unit,x.n??(x.lo!=null?x.lo+"-"+x.hi:""),x.note,x.source]})],k.key);writeHash();}
 function render(){$("fcount").textContent=t("filter_count",{n:pool().length,t:d.robots.length});
  if(S.fam&&FAM[S.fam])viewFam();else if(S.k&&KEY[S.k])viewKey();else{$("vals").innerHTML=`<p class="muted">${t("pick_field")}</p>`;writeHash();}}
-drawList();render();
+drawList();$("fverT").textContent=t("verified_only");$("verL").title=t("verified_only_t");$("fver").checked=S.ver;$("fver").onchange=e=>{S.ver=e.target.checked;render();};render();
 })();

@@ -22,7 +22,17 @@ en:{
  table_title:"Mega table",table_sub:"Every robot and every field. Click a column to sort.",filter:"Filter…",csv:"Download CSV",
  col_maker:"Maker",col_country:"Country",col_loco:"Locomotion",col_status:"Status",col_year:"Year",col_sdkname:"SDK name",col_pricenote:"Price note",
  footer:"Specs come from manufacturer pages and datasheets linked on each robot's page. \"N/S\" = not stated by the source.",updated:"Last updated {d}.",
- theme_dark:"Dark mode",theme_light:"Light mode",yes:"YES",no:"NO",ns:"N/S"
+ theme_dark:"Dark mode",theme_light:"Light mode",yes:"YES",no:"NO",ns:"N/S",
+ completeness:"Data completeness",cmp_note:"{n} of {d} core fields published",cmp_how_title:"What counts as a core field",
+ cmp_how:"Core fields are the ones kept for every robot: dimensions, weight, payload, max speed, runtime, battery, IP rating, release year, price, API / SDK / ROS / on-board compute and sensors. Wheel diameter and wheel count are counted for wheeled robots and degrees of freedom for legged ones, so a robot is never marked down for a field that cannot apply to it.",
+ pv_legend:"Each value is labelled by where it comes from:",pv_official:"Official",pv_derived:"Derived",pv_unconfirmed:"Unconfirmed",
+ pv_official_s:"checked against a maker's page, datasheet or manual",pv_derived_s:"computed from other published values (e.g. V × Ah)",pv_unconfirmed_s:"not yet checked against a maker source",
+ pv_official_t:"Checked against a maker source: the maker's page, datasheet or manual.",
+ pv_derived_t:"Computed from other published values, not stated as such by the maker. Record note: {n}",
+ pv_unconfirmed_t:"This record is marked unconfirmed: no maker source was found for it.",
+ pv_unchecked_t:"This record has not been checked against a maker source yet, so its values are unconfirmed.",
+ verified_only:"Maker-verified only",verified_only_t:"Show only robots whose values were checked against a maker source",
+ verified_n:"{n} of {m} robots maker-verified"
 },
 ko:{
  brand:"로봇 카탈로그",nav_robots:"로봇",nav_dash:"대시보드",nav_table:"전체 표",
@@ -45,7 +55,17 @@ ko:{
  table_title:"전체 표",table_sub:"모든 로봇의 모든 항목. 열을 누르면 정렬됩니다.",filter:"필터…",csv:"CSV 다운로드",
  col_maker:"제조사",col_country:"국가",col_loco:"이동 방식",col_status:"상태",col_year:"연도",col_sdkname:"SDK 이름",col_pricenote:"가격 비고",
  footer:"사양은 각 로봇 페이지에 링크된 제조사 페이지와 데이터시트에서 가져왔습니다. \"N/S\" = 출처에 명시되지 않음.",updated:"최종 업데이트 {d}.",
- theme_dark:"다크 모드",theme_light:"라이트 모드",yes:"YES",no:"NO",ns:"N/S"
+ theme_dark:"다크 모드",theme_light:"라이트 모드",yes:"YES",no:"NO",ns:"N/S",
+ completeness:"데이터 완성도",cmp_note:"핵심 항목 {d}개 중 {n}개 공개",cmp_how_title:"핵심 항목 기준",
+ cmp_how:"핵심 항목은 이 카탈로그가 모든 로봇에 대해 보관하는 값입니다: 크기, 무게, 가반하중, 최고 속도, 구동 시간, 배터리, IP 등급, 출시 연도, 가격, API / SDK / ROS / 온보드 컴퓨팅 여부, 센서. 바퀴 지름과 바퀴 수는 바퀴형 로봇, 자유도는 보행형 로봇에서만 세므로, 해당되지 않는 항목 때문에 완성도가 깎이지 않습니다.",
+ pv_legend:"각 값의 출처는 다음처럼 표시합니다:",pv_official:"공식",pv_derived:"계산값",pv_unconfirmed:"미확인",
+ pv_official_s:"제조사 페이지·데이터시트·매뉴얼로 확인",pv_derived_s:"공개된 다른 값으로 계산 (예: V × Ah)",pv_unconfirmed_s:"제조사 자료로 확인 전",
+ pv_official_t:"제조사 페이지·데이터시트·매뉴얼로 확인한 값입니다.",
+ pv_derived_t:"제조사가 그대로 밝힌 값이 아니라 다른 공개 값으로 계산한 값입니다. 레코드 비고: {n}",
+ pv_unconfirmed_t:"이 레코드는 미확인으로 표시되어 있습니다: 제조사 출처를 찾지 못했습니다.",
+ pv_unchecked_t:"이 레코드는 아직 제조사 자료로 확인하지 않아 값이 미확인 상태입니다.",
+ verified_only:"제조사 확인만",verified_only_t:"제조사 자료로 확인된 로봇만 표시합니다",
+ verified_n:"제조사 확인 {n}대 / 전체 {m}대"
 }};
 const VALUE_KO={"AMR":"AMR","AGV":"AGV","Humanoid":"휴머노이드","Quadruped":"4족 보행","Wheel-legged":"바퀴-다리형","Indoor delivery":"실내 배송","Outdoor delivery":"실외 배송","Mobile platform":"모바일 플랫폼","Misc":"기타",
 "Wheeled":"바퀴형","Tracked":"궤도형","Legged":"보행형","Commercial":"상용","Pre-order":"사전 주문","Pilot":"시범 운영","Research":"연구용","Discontinued":"단종","Announced":"발표됨",
