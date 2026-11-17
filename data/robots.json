@@ -1,6 +1,6 @@
 {
  "meta": {
-  "updated": "2026-11-16",
+  "updated": "2026-11-17",
   "count": 927
  },
  "robots": [
@@ -4109,7 +4109,7 @@
    "height_mm": 2061,
    "weight_kg": 736,
    "payload_kg": 4500,
-   "max_speed_mps": 2.68,
+   "max_speed_mps": 2.0,
    "min_speed_mps": null,
    "wheel_diameter_mm": null,
    "wheel_count": null,
@@ -4129,6 +4129,7 @@
    "official_url": "https://www.vecnarobotics.com/atg-autonomous-tugger/",
    "sources": [
     "https://www.vecnarobotics.com/atg-autonomous-tugger/",
+    "https://www.vecnarobotics.com/wp-content/uploads/2026/03/Tear-Sheet-ATG.pdf",
     "https://www.vecnarobotics.com/wp-content/uploads/2024/10/ATG-AutonomousTugger-2024Q4.pdf",
     "https://www.vecnarobotics.com/wp-content/uploads/2023/08/Vecna_ATG.pdf"
    ],
@@ -4140,7 +4141,7 @@
     "https://data.robo2u.com/robots/vecna-robotics-autonomous-tugger-atg"
    ],
    "verification": "official",
-   "note": "Vecna spec sheets. payload_kg = max tow payload 4,500 kg. Weight excludes battery. Speed conflicts across Vecna docs (6.0 mph/2.7 m/s on product page and one sheet; 4.5 mph/2 m/s on 2023 sheet); product-page 6.0 mph used."
+   "note": "Vecna maker docs re-checked 2026-11-17. payload_kg = max tow payload 4,500 kg (9,920 lb). Weight excludes battery. Speed: all three Vecna spec sheets give 2 m/s (4.5 mph on the Aug-2023 sheet, 5 mph on the 2024-Q4 sheet and on the Mar-2026 tear sheet), so 2 m/s is stored; the live product page headline states 6.0 mph (= 2.68 m/s) and is the conflicting figure. Run time up to 8+ h per full charge."
   },
   {
    "id": "vecna-co-bot-pallet-jack",
@@ -17088,7 +17089,7 @@
     "https://humanoid.guide/product/matrix-1/"
    ],
    "verification": "official",
-   "note": "Unveiled Dec 26, 2024. Maker page lists 1.2 m/s in its spec block (another table on the page says 2.11 m/s); launch release said 77 DOF and ~65 kg vs page's 55 actuators and 67 kg. Payload is per arm. Status inferred (no sales listing)."
+   "note": "Maker page re-checked 2026-11-17. Height 180 cm, 67 kg, 10 kg per arm, 5 h, 55 actuators, 22-DoF tactile hands, 2.28 kWh pack with 45-min fast charge. Speed: the page gives two figures - its summary block says 1.2 m/s (stored) and its detailed spec list says 7.6 km/h (= 2.11 m/s); the page does not say which is walking and which is peak. DoF is not stated (55 actuators listed); the launch release said 77 DOF and ~65 kg. Payload is per arm. Status inferred (no sales listing)."
   },
   {
    "id": "matrix-robotics-matrix-3",
@@ -18421,7 +18422,8 @@
    "price_note": null,
    "official_url": "https://www.noetixrobotics.com/en/detail/E1",
    "sources": [
-    "https://www.noetixrobotics.com/en/detail/E1"
+    "https://www.noetixrobotics.com/en/detail/E1",
+    "https://www.noetixrobotics.com/detail/E1"
    ],
    "summary": "1.4 m bipedal humanoid for guidance, enterprise service, companionship and education, with swappable battery and an open EDU edition.",
    "image_url": null,
@@ -18433,7 +18435,7 @@
     "https://humanoid.guide/product/e1/"
    ],
    "verification": "official",
-   "note": "Official Noetix page: BIPEDAL humanoid, 140 cm, 40 kg, max travel speed up to 3.5 m/s (as stated), continuous walking payload 5 kg, knee torque 150 N·m, 10.6 Ah quick-swap battery (5 s swap), runtime up to 2 h; EDU edition with 67 TOPS compute board; SDK docs provided; modeled hands standard, dexterous hands optional."
+   "note": "Official Noetix page re-checked 2026-11-17: BIPEDAL humanoid, 140 cm, 40 kg, max travel speed up to 3.5 m/s (as stated - flagged as unusually high for a 140 cm biped, but it is the maker's own figure), continuous walking payload 5 kg, knee torque 150 N·m, 10.6 Ah quick-swap battery (5 s swap), runtime up to 2 h; EDU edition with 67 TOPS compute board; SDK docs provided; modeled hands standard, dexterous hands optional. CONFLICT: the Noetix E-series brochure lists 136 cm and 4-5 h runtime with a top speed 'exceeding 3.5 m/s', and a company press release quotes 1.2 m/s walking; official product-page figures kept."
   },
   {
    "id": "noetix-n2",
@@ -25081,7 +25083,9 @@
     "https://humanoidstore.co/robots/unitree-g1-edu",
     "https://humanoidstore.co/robots/unitree-g1-plus"
    ],
-   "summary": "Compact, low-cost humanoid for research, education and development; arm payload ~2 kg (3 kg EDU), 9000 mAh quick-release battery."
+   "summary": "Compact, low-cost humanoid for research, education and development; arm payload ~2 kg (3 kg EDU), 9000 mAh quick-release battery.",
+   "verification": "official",
+   "note": "Maker page unitree.com/g1 re-checked 2026-11-17: standing 1,320 x 450 x 200 mm (H x W x T), folded 690 x 450 x 300 mm, 35 kg with battery, 23 DoF base (23-43 EDU), arm load about 2 kg (3 kg EDU), about 2 h, US$13.5K base (tax and shipping excluded). The stored height is the maker's standing figure; an earlier G1 manual and the May-2024 launch coverage give 1,270 mm (127 cm), which the current maker page does not state."
   },
   {
    "id": "unitree-g1-d",
@@ -25881,6 +25885,7 @@
    "price_note": null,
    "official_url": "https://vinmotion.net/en/products/motion-2/",
    "sources": [
+    "https://vinmotion.net/en/products/motion-2/",
     "https://vinmotion.net/"
    ],
    "summary": "Vingroup-backed VinMotion's second-generation general-purpose bipedal humanoid built for continuous real-world deployment.",

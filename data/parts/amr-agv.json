@@ -2424,7 +2424,7 @@
   "height_mm": 2061,
   "weight_kg": 736,
   "payload_kg": 4500,
-  "max_speed_mps": 2.68,
+  "max_speed_mps": 2.0,
   "min_speed_mps": null,
   "wheel_diameter_mm": null,
   "wheel_count": null,
@@ -2444,6 +2444,7 @@
   "official_url": "https://www.vecnarobotics.com/atg-autonomous-tugger/",
   "sources": [
    "https://www.vecnarobotics.com/atg-autonomous-tugger/",
+   "https://www.vecnarobotics.com/wp-content/uploads/2026/03/Tear-Sheet-ATG.pdf",
    "https://www.vecnarobotics.com/wp-content/uploads/2024/10/ATG-AutonomousTugger-2024Q4.pdf",
    "https://www.vecnarobotics.com/wp-content/uploads/2023/08/Vecna_ATG.pdf"
   ],
@@ -2455,7 +2456,7 @@
    "https://data.robo2u.com/robots/vecna-robotics-autonomous-tugger-atg"
   ],
   "verification": "official",
-  "note": "Vecna spec sheets. payload_kg = max tow payload 4,500 kg. Weight excludes battery. Speed conflicts across Vecna docs (6.0 mph/2.7 m/s on product page and one sheet; 4.5 mph/2 m/s on 2023 sheet); product-page 6.0 mph used."
+  "note": "Vecna maker docs re-checked 2026-11-17. payload_kg = max tow payload 4,500 kg (9,920 lb). Weight excludes battery. Speed: all three Vecna spec sheets give 2 m/s (4.5 mph on the Aug-2023 sheet, 5 mph on the 2024-Q4 sheet and on the Mar-2026 tear sheet), so 2 m/s is stored; the live product page headline states 6.0 mph (= 2.68 m/s) and is the conflicting figure. Run time up to 8+ h per full charge."
  },
  {
   "id": "syrius-flexswift",
