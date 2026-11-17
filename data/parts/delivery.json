@@ -37,9 +37,12 @@
   "price_note": null,
   "official_url": "https://www.pudurobotics.com/en/products/bellabot",
   "sources": [
+   "https://www.pudurobotics.com/products/bellabot",
    "https://www.pudurobotics.com/en/products/bellabot"
   ],
-  "summary": "Cat-faced restaurant and retail tray-delivery robot with four trays (10 kg each), dual LiDAR/visual SLAM and swappable battery."
+  "summary": "Cat-faced restaurant and retail tray-delivery robot with four trays (10 kg each), dual LiDAR/visual SLAM and swappable battery.",
+  "verification": "official",
+  "notes": "Maker page: 56.5 x 53.7 x 129 cm, 55 kg, max 40 kg load (10 kg per tray, four trays), speed 0.5-1.2 m/s, battery life 13 h withoutLoad, 4.5 h charging, slope 5 deg, 3 RGB-D cameras plus LiDAR with dual SLAM and quick battery swap."
  },
  {
   "id": "pudu-kettybot",
@@ -82,7 +85,9 @@
   "sources": [
    "https://academy.pudutech.com/en/docs/chan-pin-jian-jie"
   ],
-  "summary": "Compact restaurant delivery and reception robot with two 10 kg trays, a dish-return box and an 18.5-inch advertising screen."
+  "summary": "Compact restaurant delivery and reception robot with two 10 kg trays, a dish-return box and an 18.5-inch advertising screen.",
+  "verification": "official",
+  "notes": "Pudu's own product document gives 25.6 V x 20 Ah = 512 Wh (derived), 8 h without load, cruise 0.2-1.2 m/s, 38 kg, 435 x 450 x 1120 mm, two 10 kg trays plus a dish-return box, 55 cm minimum width, 5 mm step and 5 deg slope, 4 h charging, IP20, and the listed LiDAR, depth vision sensors, positioning camera and 6-mic array."
  },
  {
   "id": "keenon-dinerbot-t8",
@@ -121,7 +126,9 @@
   "sources": [
    "https://www.keenon.com/en/product/T8"
   ],
-  "summary": "Slim restaurant tray-delivery robot that fits 55 cm aisles, with tray sensors and a 10.1-inch touchscreen."
+  "summary": "Slim restaurant tray-delivery robot that fits 55 cm aisles, with tray sensors and a 10.1-inch touchscreen.",
+  "verification": "official",
+  "notes": "Maker page: 38.4 x 46.8 x 111.1 cm (W x D x H), 34 kg, load 20 kg, 1.0 m/s, battery life up to 15 h, slope 5 deg, minimum passage 55 cm, three stereo vision sensors and a 10.1-inch touchscreen."
  },
  {
   "id": "keenon-butlerbot-w3",
@@ -158,7 +165,9 @@
   "sources": [
    "https://www.keenon.com/en/product/W3"
   ],
-  "summary": "Hotel and building delivery robot with up to four lockable compartments that rides elevators via IoT for multi-floor service."
+  "summary": "Hotel and building delivery robot with up to four lockable compartments that rides elevators via IoT for multi-floor service.",
+  "verification": "official",
+  "notes": "Maker page: 45.9 x 54.9 x 108.1 cm (W x D x H), 48 kg, total load 20 kg, 0.8 m/s, battery life up to 12 h with 6.5 h charging, slope 7 deg, minimum passage 70 cm, up to four independently opening compartments and IoT elevator riding."
  },
  {
   "id": "bear-robotics-servi-plus",
@@ -195,7 +204,9 @@
   "sources": [
    "https://www.bearrobotics.ai/servi-plus"
   ],
-  "summary": "High-capacity restaurant serving robot with 2-4 trays (10 kg each) and active suspension for soups and drinks."
+  "summary": "High-capacity restaurant serving robot with 2-4 trays (10 kg each) and active suspension for soups and drinks.",
+  "verification": "official",
+  "notes": "Maker page: 21 x 23 x 48 in (53.5 x 59 x 123 cm) as width x depth x height, drive speed 0.1-1.2 m/s, payload 40 kg total (10 kg per tray, 2-4 trays), battery life 10-12 h with 4-6 h charging, minimum passage 65 cm. Robot weight is not published."
  },
  {
   "id": "lg-cloi-servebot",
@@ -205,10 +216,10 @@
   "category": "Indoor delivery",
   "locomotion": "Wheeled",
   "release_year": null,
-  "status": "Commercial",
-  "length_mm": 551,
+  "status": "Discontinued",
+  "length_mm": 550,
   "width_mm": 560,
-  "height_mm": 1374,
+  "height_mm": 1370,
   "weight_kg": 51,
   "payload_kg": 40,
   "max_speed_mps": 1.2,
@@ -235,9 +246,12 @@
   "price_note": "runtime 11 h measured at 0.7 m/s; battery 25,000 mAh (voltage not stated)",
   "official_url": "https://solutions.lg.com/us/cloi-servebot/lg-ldltr30",
   "sources": [
+   "https://solutions.lg.com/us/cloi-servebot/lg-ldltr30",
    "https://media.us.lg.com/m/64dc60ed87812982/original/LDLTR30-Series-Spec-Sheet.pdf"
   ],
-  "summary": "Restaurant and hospitality serving robot with four height-adjustable shelves, weight-sensing trays and six-wheel independent suspension."
+  "summary": "Restaurant and hospitality serving robot with four height-adjustable shelves, weight-sensing trays and six-wheel independent suspension.",
+  "verification": "official",
+  "notes": "LG's LDLTR30 page now marks CLOi ServeBot 3.0 as discontinued. Maker figures: 560 x 1370 x 550 mm (W x H x D), 51 kg, 40 kg load (10 kg per tray, four shelves), max 1.2 m/s, 11 h continuous at 0.7 m/s, 25,000 mAh battery (voltage not stated), manual charging 4-4.5 h or automatic 3-3.5 h, sensors LiDAR, load cell, RGB-D camera and ToF."
  },
  {
   "id": "woowa-dilly-tower",
@@ -272,11 +286,13 @@
   "price_note": null,
   "official_url": null,
   "sources": [
-   "https://www.yna.co.kr/view/AKR20200518149000030",
+   "https://zdnet.co.kr/view/?no=20200518084101",
    "https://biz.heraldcorp.com/article/2650656",
-   "https://www.koreajoongangdaily.com/business/postcovid19-new-normal-letting-the-robots-take-over-is-the-secret-to-social-distancing/11155620"
+   "https://www.koreajoongangdaily.com/business/no-tip-required-robots-deliver-to-your-door/10564062"
   ],
-  "summary": "Baemin's indoor last-leg delivery robot that opens lobby doors and rides elevators to bring orders to apartment and office doors."
+  "summary": "Baemin's indoor last-leg delivery robot that opens lobby doors and rides elevators to bring orders to apartment and office doors.",
+  "verification": "unconfirmed",
+  "notes": "No maker specification page for Dilly Tower was found; Woowa Brothers reports the figures through press coverage only: 1.08 m tall, 20 kg load (23 L upper and 15 L lower compartments), 1.2 m/s, about 6 h per charge. They are recorded as the operator's stated figures but could not be checked against a maker datasheet."
  },
  {
   "id": "starship-delivery-robot",
@@ -394,9 +410,12 @@
   "price_note": "per campus operator FAQ: speed 'up to 2 mi/h (3.9 km/h)' (inconsistent; km/h value used), payload 3-4 kg",
   "official_url": null,
   "sources": [
-   "https://usi.sodexomyway.com/en-us/kiwibot/frequently-asked-questions"
+   "https://usi.sodexomyway.com/en-us/kiwibot/frequently-asked-questions",
+   "https://robot.com/"
   ],
-  "summary": "Small cooler-sized campus sidewalk robot delivering food and drinks, remotely supervised."
+  "summary": "Small cooler-sized campus sidewalk robot delivering food and drinks, remotely supervised.",
+  "verification": "unconfirmed",
+  "notes": "Robot.com (formerly Kiwibot) publishes no numbered specification sheet for this generation. Its current page for the successor R-Kiwi states Level 4 autonomy, 19 L cargo, a 12 h battery and six cameras with 3D LiDAR, which does not match these older figures. The recorded values come from campus-operator material: about 20.5 kg, 3-4 kg payload and 3.9 km/h, kept but not confirmed against a maker datasheet."
  },
  {
   "id": "coco-robotics-coco-2",
@@ -437,7 +456,9 @@
   "sources": [
    "https://www.cocodelivery.com/coco2"
   ],
-  "summary": "Urban delivery robot for sidewalks, bike lanes and permitted roads, with swappable battery and room for four 18-inch pizzas."
+  "summary": "Urban delivery robot for sidewalks, bike lanes and permitted roads, with swappable battery and room for four 18-inch pizzas.",
+  "verification": "official",
+  "notes": "Maker page gives 21 km/h (5.83 m/s, converted) top speed and 32 km range, with onboard cameras, LiDAR and GPS for pavement, bike-lane and road operation. Height, weight, payload and battery capacity are not published on that page."
  },
  {
   "id": "neubility-neubie",
@@ -480,7 +501,9 @@
    "https://www.neubility.ai/en/product",
    "https://www.kiria.org/portal/cert/portalCertEstiStats.do"
   ],
-  "summary": "LiDAR-free, camera-based 4WD sidewalk delivery robot certified for outdoor operation in Korea, used for app and campus deliveries."
+  "summary": "LiDAR-free, camera-based 4WD sidewalk delivery robot certified for outdoor operation in Korea, used for app and campus deliveries.",
+  "verification": "unconfirmed",
+  "notes": "The maker's product page describes Neubi as Korea's first commercially deployed mapless autonomous delivery robot and lists its operating sites, but carries no dimension, weight, payload or battery table that could be read, and its older product page no longer renders. The recorded figures are retained but were not re-confirmed against a maker datasheet in this pass."
  },
  {
   "id": "woowa-dilly-x3",
@@ -558,7 +581,9 @@
   "sources": [
    "https://www.avride.ai/robot"
   ],
-  "summary": "Four-wheeled sidewalk courier robot with swappable battery and wireless charging, delivering Uber Eats orders in US cities."
+  "summary": "Four-wheeled sidewalk courier robot with swappable battery and wireless charging, delivering Uber Eats orders in US cities.",
+  "verification": "official",
+  "notes": "Maker page: 915 x 659 x 851 mm (1298 mm with flag), 25 kg maximum cargo, cargo bay 520 x 464 x 300 mm, 8 km/h (2.22 m/s), 50 km per charge and up to 12 h on one battery, IP66, four wheels, swappable battery and wireless charging, LiDAR with 60 m detection plus cameras and ultrasonic sensors."
  },
  {
   "id": "nuro-r3",
