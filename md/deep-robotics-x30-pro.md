@@ -196,6 +196,10 @@ Maker X30 page: X30 Pro is ~1000 x 470 x 715 mm and ~59 kg (X30: 695 mm, ~56 kg)
 ## Sources
 
 - Official page: [deeprobotics.cn](https://www.deeprobotics.cn/en/index/product3.html)
+- [cdn.robotshop.com](https://cdn.robotshop.com/media/D/DER/RB-Der-02/pdf/deep-robotics-x30-user-manual.pdf)
+- [github.com](https://github.com/DeepRoboticsLab/deep_robotics_model/blob/main/X30/urdf/X30.urdf)
+- [github.com](https://github.com/DeepRoboticsLab/deep_robotics_model/blob/main/X30/mjcf/X30.xml)
+- [github.com](https://github.com/DeepRoboticsLab/deep_robotics_model/blob/main/X30/usd/X30.usd)
 
 ---
 

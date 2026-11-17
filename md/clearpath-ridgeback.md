@@ -177,6 +177,7 @@ Fields the maker does not publish are left out here — the catalog never fills 
 - Official page: [clearpathrobotics.com](https://clearpathrobotics.com/ridgeback-indoor-robot-platform/)
 - [storage.pardot.com](https://storage.pardot.com/92812/1748526548LF9RMqfY/RIDGEBACK_DATA_SHEET_May2025.pdf)
 - [docs.clearpathrobotics.com](https://docs.clearpathrobotics.com/docs_robots/indoor_robots/ridgeback/user_manual_ridgeback)
+- [github.com](https://github.com/clearpathrobotics/clearpath_robot)
 
 ---
 

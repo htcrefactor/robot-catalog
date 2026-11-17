@@ -36,6 +36,9 @@ Three versions: Air ($2,700, 0–2.5 m/s), Pro ($3,500, 0–3.5 m/s), Edu (conta
 ## Sources
 
 - Official page: [unitree.com](https://www.unitree.com/go1/)
+- [github.com](https://github.com/unitreerobotics/unitree_legged_sdk)
+- [github.com](https://github.com/unitreerobotics/unitree_ros/blob/master/robots/go1_description/urdf/go1.urdf)
+- [github.com](https://github.com/unitreerobotics/unitree_ros)
 
 Listed by these directories (discovery only, never used as a spec source):
 

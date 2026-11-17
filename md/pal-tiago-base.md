@@ -37,6 +37,7 @@ Round base: official 'Dimensions 54 x 30 cm' with ∅540 mm footprint, so length
 ## Sources
 
 - Official page: [pal-robotics.com](https://pal-robotics.com/robot/tiago-base/)
+- [github.com](https://github.com/pal-robotics/tiago_robot)
 
 Listed by these directories (discovery only, never used as a spec source):
 

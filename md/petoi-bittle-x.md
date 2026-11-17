@@ -39,6 +39,9 @@ Maker spec page: standing dimensions 190 x 153 x 107 mm (axis order not labelled
 
 - Official page: [petoi.com](https://www.petoi.com/products/petoi-robot-dog-bittle-x-voice-controlled)
 - [petoi.com](https://www.petoi.com/pages/robot-dog-bittle-x-technical-specifications)
+- [github.com](https://github.com/PetoiCamp/OpenCat-Quadruped-Robot)
+- [github.com](https://github.com/PetoiCamp/ros_opencat/blob/ros1/petoi_ROS_model_docs/bittle_ros/bittle_description/urdf/bittle.xacro)
+- [github.com](https://github.com/PetoiCamp/ros_opencat)
 
 Listed by these directories (discovery only, never used as a spec source):
 

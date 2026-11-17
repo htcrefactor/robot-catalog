@@ -173,6 +173,9 @@ Fields the maker does not publish are left out here — the catalog never fills 
 
 - Official page: [global.agilex.ai](https://global.agilex.ai/products/ranger-mini-3)
 - [agilex.ai](https://www.agilex.ai/products/ranger-mini)
+- [github.com](https://github.com/agilexrobotics/ugv_sdk)
+- [github.com](https://github.com/agilexrobotics/ranger_ros2)
+- [github.com](https://github.com/agilexrobotics/pyagxrobots)
 
 ---
 

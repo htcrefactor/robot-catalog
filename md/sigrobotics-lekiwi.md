@@ -36,6 +36,8 @@ Open-source DIY low-cost mobile manipulator (3-omniwheel base + SO-100/SO-101 ar
 - Official page: [github.com](https://github.com/SIGRobotics-UIUC/LeKiwi)
 - [github.com](https://github.com/SIGRobotics-UIUC/LeKiwi/blob/main/BOM.md)
 - [huggingface.co](https://huggingface.co/docs/lerobot/en/lekiwi)
+- [github.com](https://github.com/huggingface/lerobot)
+- [github.com](https://github.com/SIGRobotics-UIUC/LeKiwi/blob/main/URDF/LeKiwi.urdf)
 
 Listed by these directories (discovery only, never used as a spec source):
 

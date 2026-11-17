@@ -180,6 +180,10 @@ Fields the maker does not publish are left out here — the catalog never fills 
 
 - Official page: [global.agilex.ai](https://global.agilex.ai/products/scout-2-0)
 - [cdn.shopify.com](https://cdn.shopify.com/s/files/1/0551/0630/6141/files/SCOUT_2.0_USER_MANUAL.pdf?v=1787960361)
+- [github.com](https://github.com/agilexrobotics/ugv_sdk)
+- [github.com](https://github.com/agilexrobotics/scout_ros2)
+- [github.com](https://github.com/agilexrobotics/scout_ros2/blob/humble/scout_description/urdf/scout_v2.urdf)
+- [github.com](https://github.com/agilexrobotics/pyagxrobots)
 
 ---
 

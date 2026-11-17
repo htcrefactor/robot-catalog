@@ -188,6 +188,13 @@ Unitree A2 page (checked 2026-11-17): standing 820 x 440 x 570 mm, 42 kg with ba
 ## Sources
 
 - Official page: [unitree.com](https://www.unitree.com/A2)
+- [github.com](https://github.com/unitreerobotics/unitree_sdk2)
+- [github.com](https://github.com/unitreerobotics/unitree_ros/blob/master/robots/a2_description/urdf/a2.urdf)
+- [github.com](https://github.com/unitreerobotics/unitree_ros/blob/master/robots/a2_description/a2.xml)
+- [github.com](https://github.com/unitreerobotics/unitree_sdk2_python)
+- [github.com](https://github.com/unitreerobotics/unitree_ros)
+- [github.com](https://github.com/unitreerobotics/unitree_ros2)
+- [github.com](https://github.com/unitreerobotics/unitree_mujoco)
 
 ---
 

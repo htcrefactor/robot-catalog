@@ -239,6 +239,7 @@ ANYmal technical specifications (V.1 May 2022) and the Apr 2024 sheet: 930x530x8
 
 - Official page: [anybotics.com](https://www.anybotics.com/robotics/anymal/)
 - [anybotics.com](https://www.anybotics.com/anymal-technical-specifications.pdf)
+- [github.com](https://github.com/ANYbotics/anymal_d_simple_description/blob/master/urdf/anymal.urdf)
 
 ---
 

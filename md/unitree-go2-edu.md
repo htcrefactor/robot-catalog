@@ -204,6 +204,11 @@ Unitree Go2 page comparison table (EDU column, checked 2026-11-17): 70 x 31 x 40
 
 - Official page: [unitree.com](https://www.unitree.com/go2)
 - [github.com](https://github.com/unitreerobotics/unitree_sdk2)
+- [github.com](https://github.com/unitreerobotics/unitree_ros2)
+- [github.com](https://github.com/unitreerobotics/unitree_ros/blob/master/robots/go2_description/urdf/go2_description.urdf)
+- [github.com](https://github.com/unitreerobotics/unitree_mujoco)
+- [github.com](https://github.com/unitreerobotics/unitree_sdk2_python)
+- [github.com](https://github.com/unitreerobotics/unitree_ros)
 
 ---
 

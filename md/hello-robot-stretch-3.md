@@ -179,6 +179,10 @@ Fields the maker does not publish are left out here — the catalog never fills 
 
 - Official page: [hello-stretch3.com](https://hello-stretch3.com/stretch-3-product)
 - [github.com](https://github.com/hello-robot/stretch_hardware_guides/blob/master/docs/hardware_guide_stretch_3.md)
+- [github.com](https://github.com/hello-robot/stretch_body)
+- [github.com](https://github.com/hello-robot/stretch_ros2)
+- [github.com](https://github.com/hello-robot/stretch_urdf)
+- [github.com](https://github.com/hello-robot/stretch_mujoco)
 
 ---
 

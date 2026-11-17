@@ -33,6 +33,7 @@ Flexiv lists two AICO 2 variants: AICO 2-4 (2×4 kg payload, 281 kg, 6 h, dual-w
 
 - Official page: [flexiv.com](https://www.flexiv.com/product/robot-system)
 - [flexiv.com](https://www.flexiv.com/software/rdk/manual/ros2_bridge.html)
+- [github.com](https://github.com/flexivrobotics/flexiv_rdk)
 
 Listed by these directories (discovery only, never used as a spec source):
 

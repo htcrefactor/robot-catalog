@@ -39,6 +39,7 @@ ANYbotics launch news (2019) and research news (2020). Weight 50 kg / speed 1 m/
 - Official page: [anybotics.com](https://www.anybotics.com/news/the-next-step-in-robotic-industrial-inspection/)
 - [anybotics.com](https://www.anybotics.com/news/advancing-legged-robotics-research)
 - [ethz.ch](https://ethz.ch/content/dam/ethz/special-interest/mavt/robotics-n-intelligent-systems/rsl-dam/ROS2021/lec5/ANYbotics_ROS_Case_Study_2021.pdf)
+- [github.com](https://github.com/ANYbotics/anymal_c_simple_description/blob/master/urdf/anymal.urdf)
 
 Listed by these directories (discovery only, never used as a spec source):
 

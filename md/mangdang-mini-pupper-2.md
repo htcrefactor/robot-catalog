@@ -41,6 +41,8 @@ Maker spec table (MiniPupperDocs): 209 x 109 x 145 mm, 465 g, 200 g payload, Ras
 - Official page: [mangdang.store](https://mangdang.store/products/mp2)
 - [mangdangroboticsclub.github.io](https://mangdangroboticsclub.github.io/MiniPupperDocs/en/guide/Features.html)
 - [mangdangroboticsclub.github.io](https://mangdangroboticsclub.github.io/MiniPupperDocs/en/index.html)
+- [github.com](https://github.com/mangdangroboticsclub/mini_pupper_ros)
+- [github.com](https://github.com/mangdangroboticsclub/mini_pupper_ros/blob/ros2-dev/mini_pupper_description/urdf/mini_pupper/mini_pupper_description.urdf.xacro)
 
 Listed by these directories (discovery only, never used as a spec source):
 

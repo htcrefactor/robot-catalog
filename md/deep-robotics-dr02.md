@@ -90,6 +90,10 @@ Maker product page (deeprobotics.cn/en/products/detail/5.html): standing size ap
 - [deeprobotics.us](https://www.deeprobotics.us/products/dr02/)
 - [deeprobotics.cn](https://www.deeprobotics.cn/index.php/products/detail/5.html)
 - [deep-website.oss-cn-hangzhou.aliyuncs.com](https://deep-website.oss-cn-hangzhou.aliyuncs.com/app/DR02%E5%8D%95%E9%A1%B5202602-%E4%B8%AD%E6%96%87.pdf)
+- [humanoidstore.co](https://humanoidstore.co/robots/deep-robotics-dr02)
+- [github.com](https://github.com/DeepRoboticsLab/deep_robotics_model/blob/main/DR02/urdf/standard/DR02-std.urdf)
+- [github.com](https://github.com/DeepRoboticsLab/deep_robotics_model/blob/main/DR02/mjcf/standard/DR02_std.xml)
+- [github.com](https://github.com/DeepRoboticsLab/deep_robotics_model/blob/main/DR02/usd/standard/DR02-std.usd)
 
 ---
 

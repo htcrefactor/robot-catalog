@@ -34,6 +34,9 @@ ODRI hardware README: 12-DoF quadruped, weight 2.5 kg, dimensions 45 x 30 x 6 cm
 - Official page: [open-dynamic-robot-initiative.github.io](https://open-dynamic-robot-initiative.github.io/)
 - [github.com](https://github.com/open-dynamic-robot-initiative/open_robot_actuator_hardware/blob/master/mechanics/quadruped_robot_12dof_v1/README.md)
 - [solo.pal-robotics.com](https://solo.pal-robotics.com/solo)
+- [github.com](https://github.com/open-dynamic-robot-initiative/solo)
+- [github.com](https://github.com/open-dynamic-robot-initiative/robot_properties_solo/blob/master/src/robot_properties_solo/resources/xacro/solo12.urdf.xacro)
+- [github.com](https://github.com/open-dynamic-robot-initiative/robot_properties_solo)
 
 Listed by these directories (discovery only, never used as a spec source):
 

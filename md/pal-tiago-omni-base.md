@@ -38,6 +38,7 @@ Dimensions listed as '500 x 720 x 310 mm' without axis labels; mapped width 500,
 ## Sources
 
 - Official page: [pal-robotics.com](https://pal-robotics.com/robot/tiago-omni-base/)
+- [github.com](https://github.com/pal-robotics/tiago_robot)
 
 Listed by these directories (discovery only, never used as a spec source):
 

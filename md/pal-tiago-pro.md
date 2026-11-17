@@ -41,6 +41,9 @@ Category correction: TIAGo Pro is a WHEELED mobile manipulator (omnidirectional 
 
 - Official page: [pal-robotics.com](https://pal-robotics.com/robot/tiago-pro/)
 - [pal-robotics.com](https://pal-robotics.com/datasheet/tiago-pro/)
+- [github.com](https://github.com/pal-robotics/tiago_pro_robot)
+- [github.com](https://github.com/pal-robotics/tiago_pro_robot/blob/humble-devel/tiago_pro_description/robots/tiago_pro.urdf.xacro)
+- [github.com](https://github.com/pal-robotics/tiago_pro_simulation)
 
 Listed by these directories (discovery only, never used as a spec source):
 

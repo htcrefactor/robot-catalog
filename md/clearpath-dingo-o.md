@@ -169,6 +169,7 @@ Fields the maker does not publish are left out here — the catalog never fills 
 
 - Official page: [clearpathrobotics.com](https://clearpathrobotics.com/dingo-indoor-mobile-robot/)
 - [docs.clearpathrobotics.com](https://docs.clearpathrobotics.com/docs_robots/indoor_robots/dingo/user_manual_dingo)
+- [github.com](https://github.com/clearpathrobotics/clearpath_robot)
 
 ---
 

@@ -181,6 +181,7 @@ Unitree As2-W page (checked 2026-11-17): 721 x 493 x 521 mm, about 25 kg with ba
 ## Sources
 
 - Official page: [unitree.com](https://www.unitree.com/As2-W)
+- [github.com](https://github.com/unitreerobotics/unitree_ros/blob/master/robots/as2w_description/as2w.urdf)
 
 ---
 

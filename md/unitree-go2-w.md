@@ -143,6 +143,12 @@ Unitree Go2-W page (checked 2026-11-17): 70 x 43 x 50 cm, about 18 kg, 16 joint 
 ## Sources
 
 - Official page: [unitree.com](https://www.unitree.com/go2-w)
+- [github.com](https://github.com/unitreerobotics/unitree_sdk2)
+- [github.com](https://github.com/unitreerobotics/unitree_ros/blob/master/robots/go2w_description/urdf/go2w_description.urdf)
+- [github.com](https://github.com/unitreerobotics/unitree_sdk2_python)
+- [github.com](https://github.com/unitreerobotics/unitree_ros)
+- [github.com](https://github.com/unitreerobotics/unitree_ros2)
+- [github.com](https://github.com/unitreerobotics/unitree_mujoco)
 
 ---
 

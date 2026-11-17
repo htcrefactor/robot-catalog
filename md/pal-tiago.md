@@ -43,6 +43,9 @@ PAL product page, 2024 datasheet and PAL OS docs. Height = top of torso-lift ran
 - Official page: [pal-robotics.com](https://pal-robotics.com/robot/tiago)
 - [pal-robotics.com](http://pal-robotics.com/wp-content/uploads/2024/04/Datasheet-TIAGo.pdf)
 - [docs.pal-robotics.com](https://docs.pal-robotics.com/sdk/24.09/hardware/tiago/hardware-overview.html)
+- [github.com](https://github.com/pal-robotics/tiago_robot)
+- [github.com](https://github.com/pal-robotics/tiago_robot/blob/humble-devel/tiago_description/robots/tiago.urdf.xacro)
+- [github.com](https://github.com/pal-robotics/tiago_simulation)
 
 Listed by these directories (discovery only, never used as a spec source):
 

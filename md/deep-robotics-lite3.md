@@ -220,6 +220,13 @@ Maker page: Basic 610 x 370 x 406 mm, 12 kg, 5 kg payload, 1.5-2 h operation (1.
 ## Sources
 
 - Official page: [deeprobotics.us](https://www.deeprobotics.us/products/lite-3/)
+- [github.com](https://github.com/DeepRoboticsLab/Lite3_MotionSDK)
+- [github.com](https://github.com/DeepRoboticsLab/deep_robotics_model/blob/main/Lite3/urdf/Lite3.urdf)
+- [github.com](https://github.com/DeepRoboticsLab/deep_robotics_model/blob/main/Lite3/mjcf/Lite3.xml)
+- [github.com](https://github.com/DeepRoboticsLab/deep_robotics_model/blob/main/Lite3/usd/Lite3.usd)
+- [github.com](https://github.com/DeepRoboticsLab/rl_training)
+- [github.com](https://github.com/DeepRoboticsLab/deep_robotics_model)
+- [github.com](https://github.com/DeepRoboticsLab/Lite3_ROS)
 
 ---
 

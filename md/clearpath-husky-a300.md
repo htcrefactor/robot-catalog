@@ -271,6 +271,7 @@ Fields the maker does not publish are left out here — the catalog never fills 
 - [storage.pardot.com](https://storage.pardot.com/92812/1728925412aC5a34ww/Husky_A300_DataSheet_Oct24.pdf)
 - [clearpathrobotics.com](https://clearpathrobotics.com/husky-spec-comparison/)
 - [docs.clearpathrobotics.com](https://docs.clearpathrobotics.com/docs_robots/outdoor_robots/husky/a300/user_manual_husky)
+- [github.com](https://github.com/clearpathrobotics/clearpath_robot)
 
 ---
 

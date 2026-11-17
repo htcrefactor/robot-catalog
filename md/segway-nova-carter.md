@@ -47,6 +47,8 @@ Segway Robotics x NVIDIA reference AMR (Nova Orin architecture) on Segway RMP Li
 - [robotics.segway.com](https://robotics.segway.com/wp-content/uploads/2023/11/Nova-Carter-Product-Manual-v1.0.pdf)
 - [nvidia-isaac-ros.github.io](https://nvidia-isaac-ros.github.io/v/release-3.2/robots/nova_carter/index.html)
 - [github.com](https://github.com/nvidia-isaac-ros/nova_carter)
+- [github.com](https://github.com/NVIDIA-ISAAC-ROS/nova_carter)
+- [github.com](https://github.com/NVIDIA-ISAAC-ROS/nova_carter/blob/main/nova_carter_description/urdf/nova_carter.urdf.xacro)
 
 Listed by these directories (discovery only, never used as a spec source):
 

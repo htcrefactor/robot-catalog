@@ -150,6 +150,13 @@ Unitree B2 page (checked 2026-11-17): standing about 1098 x 450 x 645 mm, 60 kg 
 ## Sources
 
 - Official page: [unitree.com](https://www.unitree.com/b2)
+- [github.com](https://github.com/unitreerobotics/unitree_sdk2)
+- [github.com](https://github.com/unitreerobotics/unitree_ros2)
+- [github.com](https://github.com/unitreerobotics/unitree_ros/blob/master/robots/b2_description/urdf/b2_description.urdf)
+- [github.com](https://github.com/unitreerobotics/unitree_ros/blob/master/robots/b2_description_mujoco/xml/b2.xml)
+- [github.com](https://github.com/unitreerobotics/unitree_sdk2_python)
+- [github.com](https://github.com/unitreerobotics/unitree_ros)
+- [github.com](https://github.com/unitreerobotics/unitree_mujoco)
 
 ---
 

@@ -121,6 +121,15 @@ Maker figures: 1230 x 357 x 190 mm, about 29 kg for R1 (about 25 kg for R1 AIR o
 - Official page: [unitree.com](https://www.unitree.com/R1/)
 - [unitree.com](https://www.unitree.com/R1)
 - [unitree.com](https://www.unitree.com/cn/R1/)
+- [humanoidstore.co](https://humanoidstore.co/robots/unitree-r1)
+- [humanoidstore.co](https://humanoidstore.co/robots/unitree-r1-air)
+- [humanoidstore.co](https://humanoidstore.co/robots/unitree-r1-edu)
+- [github.com](https://github.com/unitreerobotics/unitree_sdk2)
+- [github.com](https://github.com/unitreerobotics/unitree_ros/blob/master/robots/r1_description/R1.urdf)
+- [github.com](https://github.com/unitreerobotics/unitree_sdk2_python)
+- [github.com](https://github.com/unitreerobotics/unitree_ros)
+- [github.com](https://github.com/unitreerobotics/unitree_ros2)
+- [github.com](https://github.com/unitreerobotics/unitree_mujoco)
 
 ---
 

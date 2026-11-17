@@ -35,11 +35,20 @@
   "official_url": "https://bostondynamics.com/products/spot/",
   "sources": [
    "https://bostondynamics.com/products/spot/",
-   "https://dev.bostondynamics.com/"
+   "https://dev.bostondynamics.com/",
+   "https://github.com/boston-dynamics/spot-sdk"
   ],
   "summary": "Agile industrial quadruped for autonomous inspection, data capture and hazardous-area response, extendable with payloads and an arm.",
   "verification": "official",
-  "note": "Maker product page specifications: length 1100 mm, width 500 mm, walking height 610 mm, 33.8 kg with battery, 1.6 m/s, +/-30 deg slope, 300 mm step, IP54, -20 to 55 C, 564 Wh battery, 90 min average runtime and 60 min recharge, 360 deg perception. Payload is not stated on the page (its 20.43 kg figure is the Spot Arm's max lift), so the catalogue's 14 kg payload is cleared rather than asserted."
+  "note": "Maker product page specifications: length 1100 mm, width 500 mm, walking height 610 mm, 33.8 kg with battery, 1.6 m/s, +/-30 deg slope, 300 mm step, IP54, -20 to 55 C, 564 Wh battery, 90 min average runtime and 60 min recharge, 360 deg perception. Payload is not stated on the page (its 20.43 kg figure is the Spot Arm's max lift), so the catalogue's 14 kg payload is cleared rather than asserted.",
+  "sdk": {
+   "languages": [
+    "Python"
+   ],
+   "open_source": false,
+   "license": "Boston Dynamics SDK License",
+   "url": "https://github.com/boston-dynamics/spot-sdk"
+  }
  },
  {
   "id": "anybotics-anymal-d",
@@ -83,11 +92,18 @@
   "official_url": "https://www.anybotics.com/robotics/anymal/",
   "sources": [
    "https://www.anybotics.com/robotics/anymal/",
-   "https://www.anybotics.com/anymal-technical-specifications.pdf"
+   "https://www.anybotics.com/anymal-technical-specifications.pdf",
+   "https://github.com/ANYbotics/anymal_d_simple_description/blob/master/urdf/anymal.urdf"
   ],
   "summary": "Autonomous IP67 legged robot for routine visual, thermal and acoustic inspection in industrial plants.",
   "verification": "official",
-  "note": "ANYmal technical specifications (V.1 May 2022) and the Apr 2024 sheet: 930x530x890 mm walking, 50 kg (55.7 kg with inspection payload), payload up to 10 kg nominal (15 kg with reduced performance), 1.3 m/s max (0.75 m/s recommended), 90-120 min on 932.4 Wh, IP67, 2x 8th-gen Intel Core i7 with 2x 8 GB RAM and 2x 240 GB SSD, Ubuntu 20.04, 16-channel lidar plus depth and tele-operation cameras, ANYmal API."
+  "note": "ANYmal technical specifications (V.1 May 2022) and the Apr 2024 sheet: 930x530x890 mm walking, 50 kg (55.7 kg with inspection payload), payload up to 10 kg nominal (15 kg with reduced performance), 1.3 m/s max (0.75 m/s recommended), 90-120 min on 932.4 Wh, IP67, 2x 8th-gen Intel Core i7 with 2x 8 GB RAM and 2x 240 GB SSD, Ubuntu 20.04, 16-channel lidar plus depth and tele-operation cameras, ANYmal API.",
+  "sim_models": {
+   "urdf": {
+    "url": "https://github.com/ANYbotics/anymal_d_simple_description/blob/master/urdf/anymal.urdf",
+    "license": "BSD-3-Clause"
+   }
+  }
  },
  {
   "id": "anybotics-anymal-x",
@@ -170,11 +186,36 @@
   "price_note": "tax and freight excluded",
   "official_url": "https://www.unitree.com/go2",
   "sources": [
-   "https://www.unitree.com/go2"
+   "https://www.unitree.com/go2",
+   "https://github.com/unitreerobotics/unitree_ros/blob/master/robots/go2_description/urdf/go2_description.urdf",
+   "https://github.com/unitreerobotics/unitree_mujoco",
+   "https://github.com/unitreerobotics/unitree_ros"
   ],
   "summary": "Entry consumer quadruped robot dog with 4D LiDAR for hobby and companionship use.",
   "note": "Unitree Go2 page comparison table (AIR column, checked 2026-11-17): standing 70 x 31 x 40 cm, about 15 kg, payload about 7 kg (max ~10 kg), 0-2.5 m/s, 12 joint motors, battery 8000 mAh at 28-33.6 V, battery life about 1-2 h, max climb 30 deg, $1,600 tax and freight excluded. No IP rating is given for any Go2 version and no battery Wh figure is published, so both stay empty.",
-  "verification": "official"
+  "verification": "official",
+  "sim_models": {
+   "urdf": {
+    "url": "https://github.com/unitreerobotics/unitree_ros/blob/master/robots/go2_description/urdf/go2_description.urdf",
+    "license": "BSD-3-Clause"
+   },
+   "mujoco": {
+    "url": "https://github.com/unitreerobotics/unitree_mujoco",
+    "license": "BSD-3-Clause"
+   }
+  },
+  "open_source_repos": [
+   {
+    "name": "unitree_ros",
+    "url": "https://github.com/unitreerobotics/unitree_ros",
+    "license": "BSD-3-Clause"
+   },
+   {
+    "name": "unitree_mujoco",
+    "url": "https://github.com/unitreerobotics/unitree_mujoco",
+    "license": "BSD-3-Clause"
+   }
+  ]
  },
  {
   "id": "unitree-go2-pro",
@@ -213,11 +254,36 @@
   "price_note": "tax and freight excluded",
   "official_url": "https://www.unitree.com/go2",
   "sources": [
-   "https://www.unitree.com/go2"
+   "https://www.unitree.com/go2",
+   "https://github.com/unitreerobotics/unitree_ros/blob/master/robots/go2_description/urdf/go2_description.urdf",
+   "https://github.com/unitreerobotics/unitree_mujoco",
+   "https://github.com/unitreerobotics/unitree_ros"
   ],
   "summary": "Consumer quadruped with 4G, voice and side-follow features for enthusiasts.",
   "note": "Unitree Go2 page comparison table (PRO column, checked 2026-11-17): 70 x 31 x 40 cm, about 15 kg, payload about 8 kg (max ~10 kg), 0-3.5 m/s, 12 joint motors, 8000 mAh battery, 1-2 h, 4D LiDAR L2 + HD wide-angle camera + wireless vector positioning module, 8-core CPU, $2,800. IP rating and battery Wh are not published.",
-  "verification": "official"
+  "verification": "official",
+  "sim_models": {
+   "urdf": {
+    "url": "https://github.com/unitreerobotics/unitree_ros/blob/master/robots/go2_description/urdf/go2_description.urdf",
+    "license": "BSD-3-Clause"
+   },
+   "mujoco": {
+    "url": "https://github.com/unitreerobotics/unitree_mujoco",
+    "license": "BSD-3-Clause"
+   }
+  },
+  "open_source_repos": [
+   {
+    "name": "unitree_ros",
+    "url": "https://github.com/unitreerobotics/unitree_ros",
+    "license": "BSD-3-Clause"
+   },
+   {
+    "name": "unitree_mujoco",
+    "url": "https://github.com/unitreerobotics/unitree_mujoco",
+    "license": "BSD-3-Clause"
+   }
+  ]
  },
  {
   "id": "unitree-go2-edu",
@@ -258,11 +324,59 @@
   "official_url": "https://www.unitree.com/go2",
   "sources": [
    "https://www.unitree.com/go2",
-   "https://github.com/unitreerobotics/unitree_sdk2"
+   "https://github.com/unitreerobotics/unitree_sdk2",
+   "https://github.com/unitreerobotics/unitree_ros2",
+   "https://github.com/unitreerobotics/unitree_ros/blob/master/robots/go2_description/urdf/go2_description.urdf",
+   "https://github.com/unitreerobotics/unitree_mujoco",
+   "https://github.com/unitreerobotics/unitree_sdk2_python",
+   "https://github.com/unitreerobotics/unitree_ros"
   ],
   "summary": "Research and education version of Go2 with secondary-development access, foot force sensors and a long-endurance battery.",
   "note": "Unitree Go2 page comparison table (EDU column, checked 2026-11-17): 70 x 31 x 40 cm, about 15 kg, payload about 8 kg (max ~12 kg), 0-3.7 m/s (max ~5 m/s), 12 joint motors, long-endurance 15000 mAh battery, about 2-4 h (2 h recorded is the lower bound), foot-end force sensor, depth camera, secondary development supported; optional Orin module 40-100 TOPS. Only EDU supports the full SDK and secondary development.",
-  "verification": "official"
+  "verification": "official",
+  "ros2_support": true,
+  "sdk": {
+   "languages": [
+    "C++",
+    "Python"
+   ],
+   "open_source": true,
+   "license": "BSD-3-Clause",
+   "url": "https://github.com/unitreerobotics/unitree_sdk2"
+  },
+  "sim_models": {
+   "urdf": {
+    "url": "https://github.com/unitreerobotics/unitree_ros/blob/master/robots/go2_description/urdf/go2_description.urdf",
+    "license": "BSD-3-Clause"
+   },
+   "mujoco": {
+    "url": "https://github.com/unitreerobotics/unitree_mujoco",
+    "license": "BSD-3-Clause"
+   }
+  },
+  "open_source_repos": [
+   {
+    "name": "unitree_sdk2",
+    "url": "https://github.com/unitreerobotics/unitree_sdk2",
+    "license": "BSD-3-Clause"
+   },
+   {
+    "name": "unitree_ros2",
+    "url": "https://github.com/unitreerobotics/unitree_ros2",
+    "license": "BSD-3-Clause"
+   },
+   {
+    "name": "unitree_ros",
+    "url": "https://github.com/unitreerobotics/unitree_ros",
+    "license": "BSD-3-Clause"
+   },
+   {
+    "name": "unitree_mujoco",
+    "url": "https://github.com/unitreerobotics/unitree_mujoco",
+    "license": "BSD-3-Clause"
+   }
+  ],
+  "ros2_url": "https://github.com/unitreerobotics/unitree_ros2"
  },
  {
   "id": "unitree-b2",
@@ -301,11 +415,56 @@
   "price_note": null,
   "official_url": "https://www.unitree.com/b2",
   "sources": [
-   "https://www.unitree.com/b2"
+   "https://www.unitree.com/b2",
+   "https://github.com/unitreerobotics/unitree_sdk2",
+   "https://github.com/unitreerobotics/unitree_ros2",
+   "https://github.com/unitreerobotics/unitree_ros/blob/master/robots/b2_description/urdf/b2_description.urdf",
+   "https://github.com/unitreerobotics/unitree_ros/blob/master/robots/b2_description_mujoco/xml/b2.xml",
+   "https://github.com/unitreerobotics/unitree_sdk2_python",
+   "https://github.com/unitreerobotics/unitree_ros",
+   "https://github.com/unitreerobotics/unitree_mujoco"
   ],
   "summary": "Heavy industrial quadruped for power inspection, emergency rescue and logistics with 40 kg walking load.",
   "note": "Unitree B2 page (checked 2026-11-17): standing about 1098 x 450 x 645 mm, 60 kg with battery, battery 45 Ah (2250 Wh) at 58 V, 4-6 h, >6 m/s in special configurations, IP67, -20 to 55 C, standing load >=120 kg and walking load >40 kg (40 kg recorded is the walking figure). The page states no degrees of freedom.",
-  "verification": "official"
+  "verification": "official",
+  "ros2_support": true,
+  "sdk": {
+   "languages": [
+    "C++",
+    "Python"
+   ],
+   "open_source": true,
+   "license": "BSD-3-Clause",
+   "url": "https://github.com/unitreerobotics/unitree_sdk2"
+  },
+  "sim_models": {
+   "urdf": {
+    "url": "https://github.com/unitreerobotics/unitree_ros/blob/master/robots/b2_description/urdf/b2_description.urdf",
+    "license": "BSD-3-Clause"
+   },
+   "mjcf": {
+    "url": "https://github.com/unitreerobotics/unitree_ros/blob/master/robots/b2_description_mujoco/xml/b2.xml",
+    "license": "BSD-3-Clause"
+   }
+  },
+  "open_source_repos": [
+   {
+    "name": "unitree_sdk2",
+    "url": "https://github.com/unitreerobotics/unitree_sdk2",
+    "license": "BSD-3-Clause"
+   },
+   {
+    "name": "unitree_ros2",
+    "url": "https://github.com/unitreerobotics/unitree_ros2",
+    "license": "BSD-3-Clause"
+   },
+   {
+    "name": "unitree_ros",
+    "url": "https://github.com/unitreerobotics/unitree_ros",
+    "license": "BSD-3-Clause"
+   }
+  ],
+  "ros2_url": "https://github.com/unitreerobotics/unitree_ros2"
  },
  {
   "id": "unitree-a2",
@@ -344,11 +503,49 @@
   "price_note": "contact sales",
   "official_url": "https://www.unitree.com/A2",
   "sources": [
-   "https://www.unitree.com/A2"
+   "https://www.unitree.com/A2",
+   "https://github.com/unitreerobotics/unitree_sdk2",
+   "https://github.com/unitreerobotics/unitree_ros/blob/master/robots/a2_description/urdf/a2.urdf",
+   "https://github.com/unitreerobotics/unitree_ros/blob/master/robots/a2_description/a2.xml",
+   "https://github.com/unitreerobotics/unitree_sdk2_python",
+   "https://github.com/unitreerobotics/unitree_ros",
+   "https://github.com/unitreerobotics/unitree_ros2",
+   "https://github.com/unitreerobotics/unitree_mujoco"
   ],
   "summary": "Mid-size industrial quadruped with hot-swappable dual batteries for inspection, logistics and rescue.",
   "note": "Unitree A2 page (checked 2026-11-17): standing 820 x 440 x 570 mm, 42 kg with battery (35 kg without), 12 joint motors, single battery 9000 mAh (453.6 Wh) and dual 18000 mAh (907.2 Wh) - the 907.2 Wh recorded is the dual-battery figure; walking load about 25 kg (ideally ~35 kg), standing load about 100 kg; battery life >5 h without load / >3 h with 25 kg (the 3 h recorded is the loaded figure); speed 0-3.7 m/s (up to ~5 m/s in special configuration); IP56 on A2, IP56-IP67 on A2 Pro. A2 Pro adds a second LiDAR and wireless-vector follow module.",
-  "verification": "official"
+  "verification": "official",
+  "sdk": {
+   "languages": [
+    "C++",
+    "Python"
+   ],
+   "open_source": true,
+   "license": "BSD-3-Clause",
+   "url": "https://github.com/unitreerobotics/unitree_sdk2"
+  },
+  "sim_models": {
+   "urdf": {
+    "url": "https://github.com/unitreerobotics/unitree_ros/blob/master/robots/a2_description/urdf/a2.urdf",
+    "license": "BSD-3-Clause"
+   },
+   "mjcf": {
+    "url": "https://github.com/unitreerobotics/unitree_ros/blob/master/robots/a2_description/a2.xml",
+    "license": "BSD-3-Clause"
+   }
+  },
+  "open_source_repos": [
+   {
+    "name": "unitree_sdk2",
+    "url": "https://github.com/unitreerobotics/unitree_sdk2",
+    "license": "BSD-3-Clause"
+   },
+   {
+    "name": "unitree_ros",
+    "url": "https://github.com/unitreerobotics/unitree_ros",
+    "license": "BSD-3-Clause"
+   }
+  ]
  },
  {
   "id": "deep-robotics-x30-pro",
@@ -387,11 +584,29 @@
   "price_note": null,
   "official_url": "https://www.deeprobotics.cn/en/index/product3.html",
   "sources": [
-   "https://www.deeprobotics.cn/en/index/product3.html"
+   "https://www.deeprobotics.cn/en/index/product3.html",
+   "https://cdn.robotshop.com/media/D/DER/RB-Der-02/pdf/deep-robotics-x30-user-manual.pdf",
+   "https://github.com/DeepRoboticsLab/deep_robotics_model/blob/main/X30/urdf/X30.urdf",
+   "https://github.com/DeepRoboticsLab/deep_robotics_model/blob/main/X30/mjcf/X30.xml",
+   "https://github.com/DeepRoboticsLab/deep_robotics_model/blob/main/X30/usd/X30.usd"
   ],
   "summary": "Flagship IP67 industrial quadruped for inspection, security and emergency response in extreme weather.",
   "verification": "official",
-  "note": "Maker X30 page: X30 Pro is ~1000 x 470 x 715 mm and ~59 kg (X30: 695 mm, ~56 kg), 20 kg payload, 2.5 m/s working speed with a 4.5 m/s extreme, 30 cm stairs, IP67, -20 to 55 C, output power 5/12/24 V. Runtime 2.5 h and the 1,612.8 Wh pack come from the X30 user manual, which is hosted outside the maker's domain."
+  "note": "Maker X30 page: X30 Pro is ~1000 x 470 x 715 mm and ~59 kg (X30: 695 mm, ~56 kg), 20 kg payload, 2.5 m/s working speed with a 4.5 m/s extreme, 30 cm stairs, IP67, -20 to 55 C, output power 5/12/24 V. Runtime 2.5 h and the 1,612.8 Wh pack come from the X30 user manual, which is hosted outside the maker's domain.",
+  "sim_models": {
+   "urdf": {
+    "url": "https://github.com/DeepRoboticsLab/deep_robotics_model/blob/main/X30/urdf/X30.urdf",
+    "license": "BSD-3-Clause"
+   },
+   "mjcf": {
+    "url": "https://github.com/DeepRoboticsLab/deep_robotics_model/blob/main/X30/mjcf/X30.xml",
+    "license": "BSD-3-Clause"
+   },
+   "usd": {
+    "url": "https://github.com/DeepRoboticsLab/deep_robotics_model/blob/main/X30/usd/X30.usd",
+    "license": "BSD-3-Clause"
+   }
+  }
  },
  {
   "id": "deep-robotics-lite3",
@@ -430,11 +645,61 @@
   "price_note": null,
   "official_url": "https://www.deeprobotics.us/products/lite-3/",
   "sources": [
-   "https://www.deeprobotics.us/products/lite-3/"
+   "https://www.deeprobotics.us/products/lite-3/",
+   "https://github.com/DeepRoboticsLab/Lite3_MotionSDK",
+   "https://github.com/DeepRoboticsLab/deep_robotics_model/blob/main/Lite3/urdf/Lite3.urdf",
+   "https://github.com/DeepRoboticsLab/deep_robotics_model/blob/main/Lite3/mjcf/Lite3.xml",
+   "https://github.com/DeepRoboticsLab/deep_robotics_model/blob/main/Lite3/usd/Lite3.usd",
+   "https://github.com/DeepRoboticsLab/rl_training",
+   "https://github.com/DeepRoboticsLab/deep_robotics_model",
+   "https://github.com/DeepRoboticsLab/Lite3_ROS"
   ],
   "summary": "Compact quadruped for robotics education, reinforcement-learning research and entertainment.",
   "verification": "official",
-  "note": "Maker page: Basic 610 x 370 x 406 mm, 12 kg, 5 kg payload, 1.5-2 h operation (1.5 recorded), 40 deg slope, RK3588 motion host plus Jetson Xavier NX perception host on Pro/LiDAR versions, Ubuntu 20.04, ROS 1 Noetic / ROS 2 Foxy and a Motion SDK. Other editions: Venture 445 mm/12.2 kg/4.5 kg, Pro 450 mm/12.9 kg/4 kg, LiDAR 496 mm/13.5 kg/2.5 kg."
+  "note": "Maker page: Basic 610 x 370 x 406 mm, 12 kg, 5 kg payload, 1.5-2 h operation (1.5 recorded), 40 deg slope, RK3588 motion host plus Jetson Xavier NX perception host on Pro/LiDAR versions, Ubuntu 20.04, ROS 1 Noetic / ROS 2 Foxy and a Motion SDK. Other editions: Venture 445 mm/12.2 kg/4.5 kg, Pro 450 mm/12.9 kg/4 kg, LiDAR 496 mm/13.5 kg/2.5 kg.",
+  "sdk": {
+   "languages": [
+    "C++"
+   ],
+   "open_source": true,
+   "license": "MIT",
+   "url": "https://github.com/DeepRoboticsLab/Lite3_MotionSDK"
+  },
+  "sim_models": {
+   "urdf": {
+    "url": "https://github.com/DeepRoboticsLab/deep_robotics_model/blob/main/Lite3/urdf/Lite3.urdf",
+    "license": "BSD-3-Clause"
+   },
+   "mjcf": {
+    "url": "https://github.com/DeepRoboticsLab/deep_robotics_model/blob/main/Lite3/mjcf/Lite3.xml",
+    "license": "BSD-3-Clause"
+   },
+   "usd": {
+    "url": "https://github.com/DeepRoboticsLab/deep_robotics_model/blob/main/Lite3/usd/Lite3.usd",
+    "license": "BSD-3-Clause"
+   },
+   "isaac": {
+    "url": "https://github.com/DeepRoboticsLab/rl_training",
+    "license": "BSD-3-Clause"
+   }
+  },
+  "open_source_repos": [
+   {
+    "name": "Lite3_MotionSDK",
+    "url": "https://github.com/DeepRoboticsLab/Lite3_MotionSDK",
+    "license": "MIT"
+   },
+   {
+    "name": "deep_robotics_model",
+    "url": "https://github.com/DeepRoboticsLab/deep_robotics_model",
+    "license": "BSD-3-Clause"
+   },
+   {
+    "name": "rl_training",
+    "url": "https://github.com/DeepRoboticsLab/rl_training",
+    "license": "BSD-3-Clause"
+   }
+  ]
  },
  {
   "id": "ghost-robotics-vision-60",
@@ -782,7 +1047,8 @@
   "price_note": null,
   "official_url": "https://www.unitree.com/a1/",
   "sources": [
-   "https://www.unitree.com/a1/"
+   "https://www.unitree.com/a1/",
+   "https://github.com/unitreerobotics/unitree_ros/blob/master/robots/a1_description/urdf/a1.urdf"
   ],
   "summary": "Mid-size research quadruped with 3.3 m/s continuous running speed, 5 kg payload and high/low-level real-time API for secondary development.",
   "image_url": null,
@@ -794,7 +1060,13 @@
    "https://embodied.guide/robots/unitree-a1/"
   ],
   "verification": "official",
-  "note": "Runtime stated 1–2.5 h (lower bound used). Weight/dimensions not in page text (likely in images)."
+  "note": "Runtime stated 1–2.5 h (lower bound used). Weight/dimensions not in page text (likely in images).",
+  "sim_models": {
+   "urdf": {
+    "url": "https://github.com/unitreerobotics/unitree_ros/blob/master/robots/a1_description/urdf/a1.urdf",
+    "license": "BSD-3-Clause"
+   }
+  }
  },
  {
   "id": "odri-solo-12",
@@ -830,7 +1102,10 @@
   "official_url": "https://open-dynamic-robot-initiative.github.io/",
   "sources": [
    "https://github.com/open-dynamic-robot-initiative/open_robot_actuator_hardware/blob/master/mechanics/quadruped_robot_12dof_v1/README.md",
-   "https://solo.pal-robotics.com/solo"
+   "https://solo.pal-robotics.com/solo",
+   "https://github.com/open-dynamic-robot-initiative/solo",
+   "https://github.com/open-dynamic-robot-initiative/robot_properties_solo/blob/master/src/robot_properties_solo/resources/xacro/solo12.urdf.xacro",
+   "https://github.com/open-dynamic-robot-initiative/robot_properties_solo"
   ],
   "summary": "Lightweight open-source torque-controlled research quadruped from the Open Dynamic Robot Initiative, formerly sold as a kit by PAL Robotics.",
   "image_url": null,
@@ -841,7 +1116,33 @@
    "https://embodied.guide/robots/odri-solo-12/"
   ],
   "verification": "official",
-  "note": "ODRI hardware README: 12-DoF quadruped, weight 2.5 kg, dimensions 45 x 30 x 6 cm (6 cm is the flat/folded body; standing height not stated). Open-source hardware/software (GitHub). PAL Robotics' Solo 12 page states 'SOLO12 sales have been discontinued'. Country left blank: ODRI is a multi-institution initiative (MPI-IS Germany, NYU USA, LAAS-CNRS France); commercial kit was sold by PAL Robotics (Spain)."
+  "note": "ODRI hardware README: 12-DoF quadruped, weight 2.5 kg, dimensions 45 x 30 x 6 cm (6 cm is the flat/folded body; standing height not stated). Open-source hardware/software (GitHub). PAL Robotics' Solo 12 page states 'SOLO12 sales have been discontinued'. Country left blank: ODRI is a multi-institution initiative (MPI-IS Germany, NYU USA, LAAS-CNRS France); commercial kit was sold by PAL Robotics (Spain).",
+  "sdk": {
+   "languages": [
+    "C++"
+   ],
+   "open_source": true,
+   "license": "BSD-3-Clause",
+   "url": "https://github.com/open-dynamic-robot-initiative/solo"
+  },
+  "sim_models": {
+   "urdf": {
+    "url": "https://github.com/open-dynamic-robot-initiative/robot_properties_solo/blob/master/src/robot_properties_solo/resources/xacro/solo12.urdf.xacro",
+    "license": "BSD-3-Clause"
+   }
+  },
+  "open_source_repos": [
+   {
+    "name": "solo",
+    "url": "https://github.com/open-dynamic-robot-initiative/solo",
+    "license": "BSD-3-Clause"
+   },
+   {
+    "name": "robot_properties_solo",
+    "url": "https://github.com/open-dynamic-robot-initiative/robot_properties_solo",
+    "license": "BSD-3-Clause"
+   }
+  ]
  },
  {
   "id": "deep-robotics-jueying-mini",
@@ -1029,7 +1330,9 @@
   "price_note": null,
   "official_url": "https://www.unitree.com/aliengo/",
   "sources": [
-   "https://www.unitree.com/aliengo/"
+   "https://www.unitree.com/aliengo/",
+   "https://github.com/unitreerobotics/unitree_legged_sdk",
+   "https://github.com/unitreerobotics/unitree_ros/blob/master/robots/aliengo_description/urdf/aliengo.urdf"
   ],
   "summary": "Industrial-level research quadruped with 12 servo motors, 13 kg load, C/C++ and ROS high/low-level control interfaces.",
   "image_url": null,
@@ -1041,7 +1344,21 @@
    "https://embodied.guide/robots/unitree-aliengo/"
   ],
   "verification": "official",
-  "note": "Weight 21.5 kg is without battery. Dimensions 0.65×0.31×0.6 m (standing) / 0.60×0.31×0.15 m (folded). Battery 12600 mAh (voltage not stated). Runtime 2.5–4.6 h (lower bound used). Status not stated on page."
+  "note": "Weight 21.5 kg is without battery. Dimensions 0.65×0.31×0.6 m (standing) / 0.60×0.31×0.15 m (folded). Battery 12600 mAh (voltage not stated). Runtime 2.5–4.6 h (lower bound used). Status not stated on page.",
+  "sdk": {
+   "languages": [
+    "C++"
+   ],
+   "open_source": true,
+   "license": "BSD-3-Clause",
+   "url": "https://github.com/unitreerobotics/unitree_legged_sdk"
+  },
+  "sim_models": {
+   "urdf": {
+    "url": "https://github.com/unitreerobotics/unitree_ros/blob/master/robots/aliengo_description/urdf/aliengo.urdf",
+    "license": "BSD-3-Clause"
+   }
+  }
  },
  {
   "id": "unitree-b1",
@@ -1132,7 +1449,10 @@
   "price_note": "Go1 Air $2,700; Go1 Pro $3,500 (tax/freight excluded); Edu by quote",
   "official_url": "https://www.unitree.com/go1/",
   "sources": [
-   "https://www.unitree.com/go1/"
+   "https://www.unitree.com/go1/",
+   "https://github.com/unitreerobotics/unitree_legged_sdk",
+   "https://github.com/unitreerobotics/unitree_ros/blob/master/robots/go1_description/urdf/go1.urdf",
+   "https://github.com/unitreerobotics/unitree_ros"
   ],
   "summary": "Consumer-level bionic companion quadruped (12 kg) with super-sensing stereo cameras, AI compute and up to 3.7 m/s (Edu).",
   "image_url": null,
@@ -1146,7 +1466,34 @@
    "https://embodied.guide/robots/unitree-go1/"
   ],
   "verification": "official",
-  "note": "Three versions: Air ($2,700, 0–2.5 m/s), Pro ($3,500, 0–3.5 m/s), Edu (contact sales, 0–3.7 m/s). Folded size 588×220×290 mm (standing size not stated). Payload ≈3–5 kg adaptive (≈4–6 kg by version, limit ~10 kg)."
+  "note": "Three versions: Air ($2,700, 0–2.5 m/s), Pro ($3,500, 0–3.5 m/s), Edu (contact sales, 0–3.7 m/s). Folded size 588×220×290 mm (standing size not stated). Payload ≈3–5 kg adaptive (≈4–6 kg by version, limit ~10 kg).",
+  "sdk": {
+   "languages": [
+    "C++",
+    "Python"
+   ],
+   "open_source": true,
+   "license": "BSD-3-Clause",
+   "url": "https://github.com/unitreerobotics/unitree_legged_sdk"
+  },
+  "sim_models": {
+   "urdf": {
+    "url": "https://github.com/unitreerobotics/unitree_ros/blob/master/robots/go1_description/urdf/go1.urdf",
+    "license": "BSD-3-Clause"
+   }
+  },
+  "open_source_repos": [
+   {
+    "name": "unitree_legged_sdk",
+    "url": "https://github.com/unitreerobotics/unitree_legged_sdk",
+    "license": "BSD-3-Clause"
+   },
+   {
+    "name": "unitree_ros",
+    "url": "https://github.com/unitreerobotics/unitree_ros",
+    "license": "BSD-3-Clause"
+   }
+  ]
  },
  {
   "id": "hengbot-sirius",
@@ -2004,7 +2351,10 @@
   "price_note": null,
   "official_url": "https://www.petoi.com/products/petoi-robot-dog-bittle-x-voice-controlled",
   "sources": [
-   "https://www.petoi.com/pages/robot-dog-bittle-x-technical-specifications"
+   "https://www.petoi.com/pages/robot-dog-bittle-x-technical-specifications",
+   "https://github.com/PetoiCamp/OpenCat-Quadruped-Robot",
+   "https://github.com/PetoiCamp/ros_opencat/blob/ros1/petoi_ROS_model_docs/bittle_ros/bittle_description/urdf/bittle.xacro",
+   "https://github.com/PetoiCamp/ros_opencat"
   ],
   "summary": "Palm-sized open-source, voice-controlled ESP32 robot dog kit for STEM education and hobby robotics, programmable in blocks, C++ and Python.",
   "image_url": null,
@@ -2015,7 +2365,33 @@
    "https://roboticsrankings.com/robots/petoi-bittle-x/"
   ],
   "verification": "official",
-  "note": "Maker spec page: standing dimensions 190 x 153 x 107 mm (axis order not labelled; only length_mm filled), weight 269-353 g depending on version/arm (older spec page: 200 x 110 x 110 mm, 265-290 g). 9 servo joints (8 legs + 1 neck) = 9 DoF. Battery 7.4 V 1000 mAh (= 7.4 Wh), ~1 h runtime. Maker FAQ (search excerpt) says it carries 1 lb (~0.45 kg) - filled; FAQ speed '2 body lengths/s, or 40 mm/s' is internally inconsistent - not filled. Price not read from an opened maker page (aggregator says $319 kit) - not filled. Variants: Bittle X, Bittle X V2, Bittle X V2+Arm."
+  "note": "Maker spec page: standing dimensions 190 x 153 x 107 mm (axis order not labelled; only length_mm filled), weight 269-353 g depending on version/arm (older spec page: 200 x 110 x 110 mm, 265-290 g). 9 servo joints (8 legs + 1 neck) = 9 DoF. Battery 7.4 V 1000 mAh (= 7.4 Wh), ~1 h runtime. Maker FAQ (search excerpt) says it carries 1 lb (~0.45 kg) - filled; FAQ speed '2 body lengths/s, or 40 mm/s' is internally inconsistent - not filled. Price not read from an opened maker page (aggregator says $319 kit) - not filled. Variants: Bittle X, Bittle X V2, Bittle X V2+Arm.",
+  "sdk": {
+   "languages": [
+    "C++"
+   ],
+   "open_source": true,
+   "license": "MIT",
+   "url": "https://github.com/PetoiCamp/OpenCat-Quadruped-Robot"
+  },
+  "sim_models": {
+   "urdf": {
+    "url": "https://github.com/PetoiCamp/ros_opencat/blob/ros1/petoi_ROS_model_docs/bittle_ros/bittle_description/urdf/bittle.xacro",
+    "license": "MIT"
+   }
+  },
+  "open_source_repos": [
+   {
+    "name": "OpenCat-Quadruped-Robot",
+    "url": "https://github.com/PetoiCamp/OpenCat-Quadruped-Robot",
+    "license": "MIT"
+   },
+   {
+    "name": "ros_opencat",
+    "url": "https://github.com/PetoiCamp/ros_opencat",
+    "license": "MIT"
+   }
+  ]
  },
  {
   "id": "mangdang-mini-pupper-2",
@@ -2058,7 +2434,9 @@
   "sources": [
    "https://mangdang.store/products/mp2",
    "https://mangdangroboticsclub.github.io/MiniPupperDocs/en/guide/Features.html",
-   "https://mangdangroboticsclub.github.io/MiniPupperDocs/en/index.html"
+   "https://mangdangroboticsclub.github.io/MiniPupperDocs/en/index.html",
+   "https://github.com/mangdangroboticsclub/mini_pupper_ros",
+   "https://github.com/mangdangroboticsclub/mini_pupper_ros/blob/ros2-dev/mini_pupper_description/urdf/mini_pupper/mini_pupper_description.urdf.xacro"
   ],
   "summary": "Open-source palm-sized ROS 2 robot dog kit on Raspberry Pi CM4 for learning kinematics, SLAM, navigation and generative-AI robotics.",
   "image_url": "https://mangdang.store/cdn/shop/files/IMG_1768.jpg?v=1776221038&width=1024",
@@ -2068,7 +2446,22 @@
    "https://data.robo2u.com/robots/mangdang-mini-pupper-2"
   ],
   "verification": "official",
-  "note": "Maker spec table (MiniPupperDocs): 209 x 109 x 145 mm, 465 g, 200 g payload, Raspberry Pi CM4 + ESP32-S3, serial-bus servos with position feedback, IMU, touch sensor, mic/speaker, 320x240 screen, 1000 mAh battery (voltage not stated, Wh not filled), Ubuntu 24.04/22.04, ROS 2 Humble/Jazzy. 12 DoF per maker Kickstarter (not opened) - left out. Launched 2022 (maker docs). Price US$649 pre-assembled on maker store (legs-pre-assembled kit cheaper). Distributor weight 450 g conflicts - maker 465 g used. LiDAR and camera are optional add-ons."
+  "note": "Maker spec table (MiniPupperDocs): 209 x 109 x 145 mm, 465 g, 200 g payload, Raspberry Pi CM4 + ESP32-S3, serial-bus servos with position feedback, IMU, touch sensor, mic/speaker, 320x240 screen, 1000 mAh battery (voltage not stated, Wh not filled), Ubuntu 24.04/22.04, ROS 2 Humble/Jazzy. 12 DoF per maker Kickstarter (not opened) - left out. Launched 2022 (maker docs). Price US$649 pre-assembled on maker store (legs-pre-assembled kit cheaper). Distributor weight 450 g conflicts - maker 465 g used. LiDAR and camera are optional add-ons.",
+  "sim_models": {
+   "urdf": {
+    "url": "https://github.com/mangdangroboticsclub/mini_pupper_ros/blob/ros2-dev/mini_pupper_description/urdf/mini_pupper/mini_pupper_description.urdf.xacro",
+    "license": "Apache-2.0"
+   }
+  },
+  "open_source_repos": [
+   {
+    "name": "mini_pupper_ros",
+    "url": "https://github.com/mangdangroboticsclub/mini_pupper_ros",
+    "license": "Apache-2.0"
+   }
+  ],
+  "ros2_url": "https://github.com/mangdangroboticsclub/mini_pupper_ros",
+  "ros2_support": true
  },
  {
   "id": "ghost-robotics-spirit-40",
@@ -2164,7 +2557,8 @@
   "sources": [
    "https://www.anybotics.com/news/the-next-step-in-robotic-industrial-inspection/",
    "https://www.anybotics.com/news/advancing-legged-robotics-research",
-   "https://ethz.ch/content/dam/ethz/special-interest/mavt/robotics-n-intelligent-systems/rsl-dam/ROS2021/lec5/ANYbotics_ROS_Case_Study_2021.pdf"
+   "https://ethz.ch/content/dam/ethz/special-interest/mavt/robotics-n-intelligent-systems/rsl-dam/ROS2021/lec5/ANYbotics_ROS_Case_Study_2021.pdf",
+   "https://github.com/ANYbotics/anymal_c_simple_description/blob/master/urdf/anymal.urdf"
   ],
   "summary": "ANYbotics' IP67 autonomous inspection quadruped with LiDAR and depth cameras, 10 kg payload and self-docking charging.",
   "image_url": null,
@@ -2175,7 +2569,13 @@
    "https://embodied.guide/robots/anybotics-anymal-c/"
   ],
   "verification": "official",
-  "note": "ANYbotics launch news (2019) and research news (2020). Weight 50 kg / speed 1 m/s only in press, left null. ROS API per ANYbotics ROS case study slide deck."
+  "note": "ANYbotics launch news (2019) and research news (2020). Weight 50 kg / speed 1 m/s only in press, left null. ROS API per ANYbotics ROS case study slide deck.",
+  "sim_models": {
+   "urdf": {
+    "url": "https://github.com/ANYbotics/anymal_c_simple_description/blob/master/urdf/anymal.urdf",
+    "license": "BSD-3-Clause"
+   }
+  }
  },
  {
   "id": "magiclab-magicdog-t1",
@@ -2658,7 +3058,14 @@
   "sources": [
    "https://www.unitree.com/As2",
    "https://shop.unitree.com/products/unitree-as2",
-   "https://support.unitree.com/home/en/AS2_SDK_Development_Guide"
+   "https://support.unitree.com/home/en/AS2_SDK_Development_Guide",
+   "https://github.com/unitreerobotics/unitree_sdk2",
+   "https://github.com/unitreerobotics/unitree_ros/blob/master/robots/as2_description/urdf/as2.urdf",
+   "https://github.com/unitreerobotics/unitree_ros/blob/master/robots/as2_description/as2.xml",
+   "https://github.com/unitreerobotics/unitree_sdk2_python",
+   "https://github.com/unitreerobotics/unitree_ros",
+   "https://github.com/unitreerobotics/unitree_ros2",
+   "https://github.com/unitreerobotics/unitree_mujoco"
   ],
   "summary": "Compact 20 kg industrial quadruped with 15 kg walking payload, IP54, 648 Wh battery for 4+ h, and up to 5 m/s.",
   "image_url": null,
@@ -2668,7 +3075,38 @@
    "https://droid.monster/robots/unitree/as2"
   ],
   "verification": "official",
-  "note": "Official page + shop. Variants Air/Pro/X/EDU; Air ships with Unitree L2 LiDAR, others 64–128-line LiDAR. CN mirror page shows older 18 kg/90 N·m figures; used current 20 kg. payload: 15 kg continuous walking load; 65 kg standing load; runtime 4h unloaded, 2.5h with 15 kg"
+  "note": "Official page + shop. Variants Air/Pro/X/EDU; Air ships with Unitree L2 LiDAR, others 64–128-line LiDAR. CN mirror page shows older 18 kg/90 N·m figures; used current 20 kg. payload: 15 kg continuous walking load; 65 kg standing load; runtime 4h unloaded, 2.5h with 15 kg",
+  "sdk": {
+   "languages": [
+    "C++",
+    "Python"
+   ],
+   "open_source": true,
+   "license": "BSD-3-Clause",
+   "url": "https://github.com/unitreerobotics/unitree_sdk2"
+  },
+  "sim_models": {
+   "urdf": {
+    "url": "https://github.com/unitreerobotics/unitree_ros/blob/master/robots/as2_description/urdf/as2.urdf",
+    "license": "BSD-3-Clause"
+   },
+   "mjcf": {
+    "url": "https://github.com/unitreerobotics/unitree_ros/blob/master/robots/as2_description/as2.xml",
+    "license": "BSD-3-Clause"
+   }
+  },
+  "open_source_repos": [
+   {
+    "name": "unitree_sdk2",
+    "url": "https://github.com/unitreerobotics/unitree_sdk2",
+    "license": "BSD-3-Clause"
+   },
+   {
+    "name": "unitree_ros",
+    "url": "https://github.com/unitreerobotics/unitree_ros",
+    "license": "BSD-3-Clause"
+   }
+  ]
  },
  {
   "id": "kawasaki-corleo",
@@ -6037,7 +6475,9 @@
   "sources": [
    "https://open-dynamic-robot-initiative.github.io/",
    "https://github.com/open-dynamic-robot-initiative/open_robot_actuator_hardware/blob/master/mechanics/quadruped_robot_8dof_v1/README.md",
-   "https://github.com/open-dynamic-robot-initiative/solo"
+   "https://github.com/open-dynamic-robot-initiative/solo",
+   "https://github.com/open-dynamic-robot-initiative/robot_properties_solo/blob/master/src/robot_properties_solo/resources/xacro/solo8.urdf.xacro",
+   "https://github.com/open-dynamic-robot-initiative/robot_properties_solo"
   ],
   "summary": "Low-cost, open-source torque-controlled 8-DoF quadruped built from 3D-printed and off-the-shelf parts for legged-locomotion research.",
   "image_url": null,
@@ -6047,7 +6487,33 @@
    "https://embodied.guide/robots/odri-solo-8/"
   ],
   "verification": "official",
-  "note": "Open-source 3D-printed research quadruped (NYU Tandon / MPI-IS). Weight 2.2 kg per v1 hardware README."
+  "note": "Open-source 3D-printed research quadruped (NYU Tandon / MPI-IS). Weight 2.2 kg per v1 hardware README.",
+  "sdk": {
+   "languages": [
+    "C++"
+   ],
+   "open_source": true,
+   "license": "BSD-3-Clause",
+   "url": "https://github.com/open-dynamic-robot-initiative/solo"
+  },
+  "sim_models": {
+   "urdf": {
+    "url": "https://github.com/open-dynamic-robot-initiative/robot_properties_solo/blob/master/src/robot_properties_solo/resources/xacro/solo8.urdf.xacro",
+    "license": "BSD-3-Clause"
+   }
+  },
+  "open_source_repos": [
+   {
+    "name": "solo",
+    "url": "https://github.com/open-dynamic-robot-initiative/solo",
+    "license": "BSD-3-Clause"
+   },
+   {
+    "name": "robot_properties_solo",
+    "url": "https://github.com/open-dynamic-robot-initiative/robot_properties_solo",
+    "license": "BSD-3-Clause"
+   }
+  ]
  },
  {
   "id": "pegatron-simba",
@@ -6646,7 +7112,8 @@
   "official_url": null,
   "sources": [
    "https://www.youtube.com/watch?v=d6Ja643GqL8",
-   "https://github.com/unitreerobotics/laikago_ros"
+   "https://github.com/unitreerobotics/laikago_ros",
+   "https://github.com/unitreerobotics/unitree_ros/blob/master/robots/laikago_description/urdf/laikago.urdf"
   ],
   "summary": "Unitree's first quadruped, an all-electric research platform from 2017 named after the space dog Laika and later replaced by the Aliengo and Go series.",
   "image_url": null,
@@ -6656,7 +7123,13 @@
    "https://embodied.guide/robots/unitree-laikago/"
   ],
   "verification": "official",
-  "note": "Unitree no longer carries a Laikago page (unitree.com/laikago returns 404, checked 2026-11-17). The figures recorded are the maker's own: the launch video on Unitree's channel gives 22 kg and 0.56 x 0.35 x 0.6 m standing, and Unitree's laikago_ros model has 12 revolute joints (3 per leg). Unitree never published a full Laikago datasheet - the 2020 page had an empty parameters section - so speed, payload, runtime and battery capacity stay empty rather than taking press figures (0.8 m/s and 7 kg appear in press coverage only). A later 2019 revision was listed at 24 kg."
+  "note": "Unitree no longer carries a Laikago page (unitree.com/laikago returns 404, checked 2026-11-17). The figures recorded are the maker's own: the launch video on Unitree's channel gives 22 kg and 0.56 x 0.35 x 0.6 m standing, and Unitree's laikago_ros model has 12 revolute joints (3 per leg). Unitree never published a full Laikago datasheet - the 2020 page had an empty parameters section - so speed, payload, runtime and battery capacity stay empty rather than taking press figures (0.8 m/s and 7 kg appear in press coverage only). A later 2019 revision was listed at 24 kg.",
+  "sim_models": {
+   "urdf": {
+    "url": "https://github.com/unitreerobotics/unitree_ros/blob/master/robots/laikago_description/urdf/laikago.urdf",
+    "license": "BSD-3-Clause"
+   }
+  }
  },
  {
   "id": "weilan-alphadog-c500",

@@ -199,6 +199,9 @@ DEEP Robotics Lynx M20 product page (checked 2026-11-17): standing 820 x 430 x 5
 - Official page: [deeprobotics.cn](https://www.deeprobotics.cn/en/index/lynx.html)
 - [deeprobotics.us](https://www.deeprobotics.us/products/lynx-m20)
 - [deeprobotics.us](https://www.deeprobotics.us/wp-content/uploads/2025/08/Lynx-M20-Pro-User-Manual-V1.0.2-0.pdf)
+- [github.com](https://github.com/DeepRoboticsLab/deep_robotics_model/blob/main/M20/urdf/M20.urdf)
+- [github.com](https://github.com/DeepRoboticsLab/deep_robotics_model/blob/main/M20/mjcf/M20.xml)
+- [github.com](https://github.com/DeepRoboticsLab/deep_robotics_model/blob/main/M20/usd/M20.usd)
 
 ---
 

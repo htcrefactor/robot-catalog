@@ -50,6 +50,10 @@ Payload 4 kg arm retracted (2.5 kg extended). Footprint 45 cm diameter (datashee
 - [hello-robot.com](https://hello-robot.com/wp-content/uploads/2026/05/HelloRobot-DataSheet-Stretch-4-Rev5_AsLaunched.pdf)
 - [forum.hello-robot.com](https://forum.hello-robot.com/t/introducing-stretch-4/1505)
 - [docs.hello-robot.com](https://docs.hello-robot.com/stretch4_docs/guides/hardware-guide)
+- [github.com](https://github.com/hello-robot/stretch_body)
+- [github.com](https://github.com/hello-robot/stretch_ros2)
+- [github.com](https://github.com/hello-robot/stretch4_urdf)
+- [github.com](https://github.com/hello-robot/stretch4_mujoco)
 
 Listed by these directories (discovery only, never used as a spec source):
 

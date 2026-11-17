@@ -170,6 +170,9 @@ Fields the maker does not publish are left out here — the catalog never fills 
 
 - Official page: [global.agilex.ai](https://global.agilex.ai/products/scout-mini)
 - [cdn.shopify.com](https://cdn.shopify.com/s/files/1/0551/0630/6141/files/SCOUT_MINI_USER_MANUAL_AgileX.pdf?v=1792636734)
+- [github.com](https://github.com/agilexrobotics/ugv_sdk)
+- [github.com](https://github.com/agilexrobotics/pyagxrobots)
+- [github.com](https://github.com/agilexrobotics/scout_ros)
 
 ---
 

@@ -43,6 +43,8 @@ Labelled 'Prototype' by Franka (early access); FR3 Duo dual-arm on Tactile Mobil
 - [franka.de](https://franka.de/hubfs/Prototype%20Manual%20and%20Datasheets%20_Mobile%20FR3%20Duo_R04245_EN.pdf)
 - [franka.de](https://franka.de/hubfs/MobileFR3Duo_TwoPager_v2_digital.pdf?hsLang=en)
 - [franka.de](https://franka.de/news/real-world-robotics-insights-from-fr3-duo-mobile-showcase)
+- [github.com](https://github.com/frankarobotics/franka_ros2)
+- [github.com](https://github.com/frankarobotics/franka_description)
 
 Listed by these directories (discovery only, never used as a spec source):
 

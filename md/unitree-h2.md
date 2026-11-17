@@ -244,6 +244,15 @@ Maker figures: 1820 x 456 x 218 mm, about 70 kg, 31 DoF (6 per leg, 7 per arm, 3
 - [unitree.com](https://www.unitree.com/H2)
 - [support.unitree.com](https://support.unitree.com/home/en/H2_developer/About_H2)
 - [unitree.com](https://www.unitree.com/cn/H2/)
+- [humanoidstore.co](https://humanoidstore.co/robots/unitree-h2)
+- [humanoidstore.co](https://humanoidstore.co/robots/unitree-h2-edu)
+- [humanoidstore.co](https://humanoidstore.co/robots/unitree-h2-plus)
+- [github.com](https://github.com/unitreerobotics/unitree_sdk2)
+- [github.com](https://github.com/unitreerobotics/unitree_ros/blob/master/robots/h2_description/H2.urdf)
+- [github.com](https://github.com/unitreerobotics/unitree_sdk2_python)
+- [github.com](https://github.com/unitreerobotics/unitree_ros)
+- [github.com](https://github.com/unitreerobotics/unitree_ros2)
+- [github.com](https://github.com/unitreerobotics/unitree_mujoco)
 
 ---
 

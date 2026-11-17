@@ -45,6 +45,13 @@ Official page + shop. Variants Air/Pro/X/EDU; Air ships with Unitree L2 LiDAR, o
 - Official page: [unitree.com](https://www.unitree.com/As2)
 - [shop.unitree.com](https://shop.unitree.com/products/unitree-as2)
 - [support.unitree.com](https://support.unitree.com/home/en/AS2_SDK_Development_Guide)
+- [github.com](https://github.com/unitreerobotics/unitree_sdk2)
+- [github.com](https://github.com/unitreerobotics/unitree_ros/blob/master/robots/as2_description/urdf/as2.urdf)
+- [github.com](https://github.com/unitreerobotics/unitree_ros/blob/master/robots/as2_description/as2.xml)
+- [github.com](https://github.com/unitreerobotics/unitree_sdk2_python)
+- [github.com](https://github.com/unitreerobotics/unitree_ros)
+- [github.com](https://github.com/unitreerobotics/unitree_ros2)
+- [github.com](https://github.com/unitreerobotics/unitree_mujoco)
 
 Listed by these directories (discovery only, never used as a spec source):
 

@@ -36,6 +36,8 @@ Open-source 3D-printed research quadruped (NYU Tandon / MPI-IS). Weight 2.2 kg p
 - Official page: [open-dynamic-robot-initiative.github.io](https://open-dynamic-robot-initiative.github.io/)
 - [github.com](https://github.com/open-dynamic-robot-initiative/open_robot_actuator_hardware/blob/master/mechanics/quadruped_robot_8dof_v1/README.md)
 - [github.com](https://github.com/open-dynamic-robot-initiative/solo)
+- [github.com](https://github.com/open-dynamic-robot-initiative/robot_properties_solo/blob/master/src/robot_properties_solo/resources/xacro/solo8.urdf.xacro)
+- [github.com](https://github.com/open-dynamic-robot-initiative/robot_properties_solo)
 
 Listed by these directories (discovery only, never used as a spec source):
 

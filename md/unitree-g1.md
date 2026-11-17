@@ -260,6 +260,15 @@ Maker page unitree.com/g1 re-checked 2026-11-17: standing 1,320 x 450 x 200 mm (
 - [unitree.com](https://www.unitree.com/g1)
 - [support.unitree.com](https://support.unitree.com/home/en/G1_developer/about_G1)
 - [unitree.com](https://www.unitree.com/operate/g1/)
+- [github.com](https://github.com/unitreerobotics/unitree_sdk2)
+- [humanoidstore.co](https://humanoidstore.co/robots/unitree-g1)
+- [humanoidstore.co](https://humanoidstore.co/robots/unitree-g1-edu)
+- [humanoidstore.co](https://humanoidstore.co/robots/unitree-g1-plus)
+- [github.com](https://github.com/unitreerobotics/unitree_ros/blob/master/robots/g1_description/g1_29dof.urdf)
+- [github.com](https://github.com/unitreerobotics/unitree_sdk2_python)
+- [github.com](https://github.com/unitreerobotics/unitree_ros)
+- [github.com](https://github.com/unitreerobotics/unitree_ros2)
+- [github.com](https://github.com/unitreerobotics/unitree_mujoco)
 
 ---
 

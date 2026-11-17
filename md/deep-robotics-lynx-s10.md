@@ -37,6 +37,9 @@ max_speed_mps uses the stated max operating speed (2 m/s); the page also cites a
 ## Sources
 
 - Official page: [deeprobotics.cn](https://www.deeprobotics.cn/en/products/detail/2.html)
+- [github.com](https://github.com/DeepRoboticsLab/deep_robotics_model/blob/main/S10/urdf/S10.urdf)
+- [github.com](https://github.com/DeepRoboticsLab/deep_robotics_model/blob/main/S10/mjcf/S10.xml)
+- [github.com](https://github.com/DeepRoboticsLab/deep_robotics_model/blob/main/S10/usd/S10.usd)
 
 Listed by these directories (discovery only, never used as a spec source):
 

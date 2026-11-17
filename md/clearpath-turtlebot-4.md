@@ -160,6 +160,9 @@ Fields the maker does not publish are left out here — the catalog never fills 
 ## Sources
 
 - Official page: [turtlebot.github.io](https://turtlebot.github.io/turtlebot4-user-manual/overview/features.html)
+- [github.com](https://github.com/turtlebot/turtlebot4)
+- [github.com](https://github.com/turtlebot/turtlebot4/blob/jazzy/turtlebot4_description/urdf/standard/turtlebot4.urdf.xacro)
+- [github.com](https://github.com/turtlebot/turtlebot4_simulator)
 
 ---
 

@@ -32,11 +32,44 @@
   "price_note": null,
   "official_url": "https://www.unitree.com/b2-w",
   "sources": [
-   "https://www.unitree.com/b2-w"
+   "https://www.unitree.com/b2-w",
+   "https://github.com/unitreerobotics/unitree_sdk2",
+   "https://github.com/unitreerobotics/unitree_ros/blob/master/robots/b2w_description/urdf/b2w_description.urdf",
+   "https://github.com/unitreerobotics/unitree_sdk2_python",
+   "https://github.com/unitreerobotics/unitree_ros",
+   "https://github.com/unitreerobotics/unitree_ros2",
+   "https://github.com/unitreerobotics/unitree_mujoco"
   ],
   "summary": "Industrial wheel-legged quadruped (B2 with wheeled feet) for long-range inspection and patrol; >40 kg walking load (120 kg standing), 15 km/h max in special configuration, ~25 km range with 40 kg.",
   "note": "Unitree B2-W page (checked 2026-11-17): standing about 1098 x 550 x 758 mm, about 85 kg with battery, wheel diameter 225 mm, battery >2 kWh at 58 V (no Wh figure), max speed 15 km/h (4.17 m/s, special configurations), 25 km with 40 kg / about 30 km unloaded, walking load >40 kg and standing load 120 kg, IP67, -20 to 55 C. No runtime in hours and no DoF are published; battery_wh and runtime_h stay empty.",
-  "verification": "official"
+  "verification": "official",
+  "sdk": {
+   "languages": [
+    "C++",
+    "Python"
+   ],
+   "open_source": true,
+   "license": "BSD-3-Clause",
+   "url": "https://github.com/unitreerobotics/unitree_sdk2"
+  },
+  "sim_models": {
+   "urdf": {
+    "url": "https://github.com/unitreerobotics/unitree_ros/blob/master/robots/b2w_description/urdf/b2w_description.urdf",
+    "license": "BSD-3-Clause"
+   }
+  },
+  "open_source_repos": [
+   {
+    "name": "unitree_sdk2",
+    "url": "https://github.com/unitreerobotics/unitree_sdk2",
+    "license": "BSD-3-Clause"
+   },
+   {
+    "name": "unitree_ros",
+    "url": "https://github.com/unitreerobotics/unitree_ros",
+    "license": "BSD-3-Clause"
+   }
+  ]
  },
  {
   "id": "unitree-go2-w",
@@ -74,11 +107,44 @@
   "price_note": null,
   "official_url": "https://www.unitree.com/go2-w",
   "sources": [
-   "https://www.unitree.com/go2-w"
+   "https://www.unitree.com/go2-w",
+   "https://github.com/unitreerobotics/unitree_sdk2",
+   "https://github.com/unitreerobotics/unitree_ros/blob/master/robots/go2w_description/urdf/go2w_description.urdf",
+   "https://github.com/unitreerobotics/unitree_sdk2_python",
+   "https://github.com/unitreerobotics/unitree_ros",
+   "https://github.com/unitreerobotics/unitree_ros2",
+   "https://github.com/unitreerobotics/unitree_mujoco"
   ],
   "summary": "Consumer/education wheel-legged version of Go2 with 7-inch pneumatic in-wheel-motor tyres; runtime stated 1.5–3 h (lower bound recorded), payload ≈8 kg (max ~12 kg).",
   "note": "Unitree Go2-W page (checked 2026-11-17): 70 x 43 x 50 cm, about 18 kg, 16 joint motors, payload about 8 kg (max ~12 kg), 0-2.5 m/s, 35 deg climb, 15000 mAh battery with 1.5-3 h endurance (1.5 h recorded is the lower bound), 7-inch pneumatic tyres (178 mm).",
-  "verification": "official"
+  "verification": "official",
+  "sdk": {
+   "languages": [
+    "C++",
+    "Python"
+   ],
+   "open_source": true,
+   "license": "BSD-3-Clause",
+   "url": "https://github.com/unitreerobotics/unitree_sdk2"
+  },
+  "sim_models": {
+   "urdf": {
+    "url": "https://github.com/unitreerobotics/unitree_ros/blob/master/robots/go2w_description/urdf/go2w_description.urdf",
+    "license": "BSD-3-Clause"
+   }
+  },
+  "open_source_repos": [
+   {
+    "name": "unitree_sdk2",
+    "url": "https://github.com/unitreerobotics/unitree_sdk2",
+    "license": "BSD-3-Clause"
+   },
+   {
+    "name": "unitree_ros",
+    "url": "https://github.com/unitreerobotics/unitree_ros",
+    "license": "BSD-3-Clause"
+   }
+  ]
  },
  {
   "id": "unitree-a2-w",
@@ -161,11 +227,18 @@
   "price_note": "Contact sales",
   "official_url": "https://www.unitree.com/As2-W",
   "sources": [
-   "https://www.unitree.com/As2-W"
+   "https://www.unitree.com/As2-W",
+   "https://github.com/unitreerobotics/unitree_ros/blob/master/robots/as2w_description/as2w.urdf"
   ],
   "summary": "Compact wheel-legged quadruped with 7-inch wheels, side-follow mode and SDK/APIs for security, inspection and outdoor carrying; 0–3.7 m/s normal, ~6 m/s max.",
   "note": "Unitree As2-W page (checked 2026-11-17): 721 x 493 x 521 mm, about 25 kg with battery, 7-inch wheels (178 mm), 16 joint motors, 95 N.m peak joint torque, 648 Wh (15000 mAh) battery, 0-3.7 m/s (max ~6 m/s), about 3 h unloaded / >2 h with 16 kg, IP54, 64-128-line LiDAR, 36-50.4 V supply. The 150 TOPS figure in the summary is the optional expansion module, not standard compute.",
-  "verification": "official"
+  "verification": "official",
+  "sim_models": {
+   "urdf": {
+    "url": "https://github.com/unitreerobotics/unitree_ros/blob/master/robots/as2w_description/as2w.urdf",
+    "license": "BSD-3-Clause"
+   }
+  }
  },
  {
   "id": "deep-robotics-lynx-m20",
@@ -204,11 +277,28 @@
   "official_url": "https://www.deeprobotics.cn/en/index/lynx.html",
   "sources": [
    "https://www.deeprobotics.us/products/lynx-m20",
-   "https://www.deeprobotics.us/wp-content/uploads/2025/08/Lynx-M20-Pro-User-Manual-V1.0.2-0.pdf"
+   "https://www.deeprobotics.us/wp-content/uploads/2025/08/Lynx-M20-Pro-User-Manual-V1.0.2-0.pdf",
+   "https://github.com/DeepRoboticsLab/deep_robotics_model/blob/main/M20/urdf/M20.urdf",
+   "https://github.com/DeepRoboticsLab/deep_robotics_model/blob/main/M20/mjcf/M20.xml",
+   "https://github.com/DeepRoboticsLab/deep_robotics_model/blob/main/M20/usd/M20.usd"
   ],
   "summary": "Industrial wheel-legged quadruped for power inspection, emergency response and field work; 5 m/s lab-tested max (2 m/s operating), 80 cm single step, hot-swap batteries; M20 Pro manual lists 35 kg.",
   "note": "DEEP Robotics Lynx M20 product page (checked 2026-11-17): standing 820 x 430 x 570 mm, 33 kg with battery, payload 15 kg (maximum load 50 kg), 3 h / 15 km unloaded and 2.5 h / 12 km at 15 kg, 5 m/s lab-tested with 2 m/s safe operational speed, 25 cm continuous stair height, 80 cm single step, 45 deg slope, dual 96-line LiDAR and dual wide-angle cameras, dual octa-core processors, IP66, -20 to 55 C, 72 V input, 1.5 h single-battery charge. DoF (16) comes from the M20 Pro user manual, not the product page; battery capacity is not published.",
-  "verification": "official"
+  "verification": "official",
+  "sim_models": {
+   "urdf": {
+    "url": "https://github.com/DeepRoboticsLab/deep_robotics_model/blob/main/M20/urdf/M20.urdf",
+    "license": "BSD-3-Clause"
+   },
+   "mjcf": {
+    "url": "https://github.com/DeepRoboticsLab/deep_robotics_model/blob/main/M20/mjcf/M20.xml",
+    "license": "BSD-3-Clause"
+   },
+   "usd": {
+    "url": "https://github.com/DeepRoboticsLab/deep_robotics_model/blob/main/M20/usd/M20.usd",
+    "license": "BSD-3-Clause"
+   }
+  }
  },
  {
   "id": "limx-dynamics-tron-1",
@@ -498,7 +588,10 @@
   "price_note": null,
   "official_url": "https://www.deeprobotics.cn/en/products/detail/2.html",
   "sources": [
-   "https://www.deeprobotics.cn/en/products/detail/2.html"
+   "https://www.deeprobotics.cn/en/products/detail/2.html",
+   "https://github.com/DeepRoboticsLab/deep_robotics_model/blob/main/S10/urdf/S10.urdf",
+   "https://github.com/DeepRoboticsLab/deep_robotics_model/blob/main/S10/mjcf/S10.xml",
+   "https://github.com/DeepRoboticsLab/deep_robotics_model/blob/main/S10/usd/S10.usd"
   ],
   "summary": "Compact 21 kg all-terrain wheel-legged robot for inspection, patrol, search-and-rescue and research, IP66-rated with autonomous charging.",
   "image_url": null,
@@ -512,7 +605,21 @@
    "https://embodied.guide/robots/deep-robotics-lynx-s10/"
   ],
   "verification": "official",
-  "note": "max_speed_mps uses the stated max operating speed (2 m/s); the page also cites a 6.8 m/s 'max tested speed' under extreme lab conditions. Sensors per S10 Pro column (S10 base: 1 LiDAR, 1 camera)."
+  "note": "max_speed_mps uses the stated max operating speed (2 m/s); the page also cites a 6.8 m/s 'max tested speed' under extreme lab conditions. Sensors per S10 Pro column (S10 base: 1 LiDAR, 1 camera).",
+  "sim_models": {
+   "urdf": {
+    "url": "https://github.com/DeepRoboticsLab/deep_robotics_model/blob/main/S10/urdf/S10.urdf",
+    "license": "BSD-3-Clause"
+   },
+   "mjcf": {
+    "url": "https://github.com/DeepRoboticsLab/deep_robotics_model/blob/main/S10/mjcf/S10.xml",
+    "license": "BSD-3-Clause"
+   },
+   "usd": {
+    "url": "https://github.com/DeepRoboticsLab/deep_robotics_model/blob/main/S10/usd/S10.usd",
+    "license": "BSD-3-Clause"
+   }
+  }
  },
  {
   "id": "magiclab-magicdog-w",

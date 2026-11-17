@@ -39,12 +39,48 @@
    "https://www.unitree.com/g1",
    "https://support.unitree.com/home/en/G1_developer/about_G1",
    "https://www.unitree.com/g1/",
-   "https://www.unitree.com/operate/g1/"
+   "https://www.unitree.com/operate/g1/",
+   "https://github.com/unitreerobotics/unitree_sdk2",
+   "https://humanoidstore.co/robots/unitree-g1",
+   "https://humanoidstore.co/robots/unitree-g1-edu",
+   "https://humanoidstore.co/robots/unitree-g1-plus",
+   "https://github.com/unitreerobotics/unitree_ros/blob/master/robots/g1_description/g1_29dof.urdf",
+   "https://github.com/unitreerobotics/unitree_sdk2_python",
+   "https://github.com/unitreerobotics/unitree_ros",
+   "https://github.com/unitreerobotics/unitree_ros2",
+   "https://github.com/unitreerobotics/unitree_mujoco"
   ],
   "summary": "Unitree's small full-body humanoid for research and development, with 23 joints on the base model, expandable to 43 on the EDU version with dexterous hands.",
   "note": "Maker page unitree.com/g1 re-checked 2026-11-17: standing 1,320 x 450 x 200 mm (H x W x T), folded 690 x 450 x 300 mm, 35 kg with battery, 23 DoF base (23-43 EDU), arm load about 2 kg (3 kg EDU), about 2 h, US$13.5K base (tax and shipping excluded). The stored height is the maker's standing figure; an earlier G1 manual and the May-2024 launch coverage give 1,270 mm (127 cm), which the current maker page does not state. | Maker figures: 1320 x 450 x 200 mm standing (690 x 450 x 300 folded), ~35 kg, 23 DoF (G1) or 23-43 (G1 EDU), 6 per leg, 1 waist (+2 optional), 5 per arm, optional 7-DoF three-finger hand, 90 Nm knee (120 Nm on EDU), about 2 kg arm load (3 kg on EDU), 9000 mAh quick-release pack, about 2 h, depth camera plus 3D LiDAR, 4-microphone array, 5 W speaker, Wi-Fi 6 and Bluetooth 5.2, 8-core CPU; trotting speed above 2 m/s. Price US$13,500 for G1.",
   "verification": "official",
-  "notes": "Issue #17 (2026-11-17): re-checked against Unitree's G1 page - height 1320 mm, weight 35 kg, arm payload 2 kg (3 kg EDU), DoF 23 (6x2 legs + 1 waist + 5x2 arms), runtime 2 h, US$13,500 confirmed. HumanoidStore rows dropped."
+  "notes": "Issue #17 (2026-11-17): re-checked against Unitree's G1 page - height 1320 mm, weight 35 kg, arm payload 2 kg (3 kg EDU), DoF 23 (6x2 legs + 1 waist + 5x2 arms), runtime 2 h, US$13,500 confirmed. HumanoidStore rows dropped.",
+  "sdk": {
+   "languages": [
+    "C++",
+    "Python"
+   ],
+   "open_source": true,
+   "license": "BSD-3-Clause",
+   "url": "https://github.com/unitreerobotics/unitree_sdk2"
+  },
+  "sim_models": {
+   "urdf": {
+    "url": "https://github.com/unitreerobotics/unitree_ros/blob/master/robots/g1_description/g1_29dof.urdf",
+    "license": "BSD-3-Clause"
+   }
+  },
+  "open_source_repos": [
+   {
+    "name": "unitree_sdk2",
+    "url": "https://github.com/unitreerobotics/unitree_sdk2",
+    "license": "BSD-3-Clause"
+   },
+   {
+    "name": "unitree_ros",
+    "url": "https://github.com/unitreerobotics/unitree_ros",
+    "license": "BSD-3-Clause"
+   }
+  ]
  },
  {
   "id": "unitree-h1",
@@ -84,12 +120,58 @@
   "sources": [
    "https://www.unitree.com/h1",
    "https://support.unitree.com/home/en/H1_developer/About_H1",
-   "https://www.unitree.com/h1/"
+   "https://www.unitree.com/h1/",
+   "https://humanoidstore.co/robots/unitree-h1",
+   "https://github.com/unitreerobotics/unitree_sdk2",
+   "https://github.com/unitreerobotics/unitree_ros2",
+   "https://github.com/unitreerobotics/unitree_ros/blob/master/robots/h1_description/urdf/h1.urdf",
+   "https://github.com/unitreerobotics/unitree_ros/blob/master/robots/h1_description/mjcf/h1.xml",
+   "https://github.com/unitreerobotics/unitree_sdk2_python",
+   "https://github.com/unitreerobotics/unitree_ros",
+   "https://github.com/unitreerobotics/unitree_mujoco"
   ],
   "summary": "Unitree's first full-size humanoid, the H1, able to walk and run at up to 3.3 m/s on a 360-degree LiDAR and depth-camera perception stack.",
   "verification": "official",
   "notes": "Issue #17 (2026-11-17): height 1805 mm, weight 47 kg, 3.3 m/s, 864 Wh confirmed on Unitree's H1 page. DoF 19 derived from the maker's per-limb table (5x2 legs + 4x2 arms + 1 waist). Arm payload 7 kg rated / 21 kg peak added from the same page. HumanoidStore's US$90,000 price removed: Unitree publishes no H1 price. [replaced payload_kg: None -> 7; dof: None -> 19 | emptied (no maker value) price_usd=90000; price_note=list price per HumanoidStore, checked 2026-10]",
-  "note": "Maker figures: about 180 cm, about 47 kg, (1520+285) x 570 x 220 mm, 5 DoF per leg and 4 per arm (18 total, summed from the maker's per-limb counts; arms are expandable), 3.3 m/s walking with potential above 5 m/s, 864 Wh (15 Ah, 67.2 V) swappable battery, knee 360 Nm, hip 220 Nm, ankle 59 Nm, arm 75 Nm, 3D LiDAR plus depth camera, i5 for platform functions and i7 for user development. Unitree's H1 page does not publish a price; the USD 90,000 figure in catalogues is not a maker price."
+  "note": "Maker figures: about 180 cm, about 47 kg, (1520+285) x 570 x 220 mm, 5 DoF per leg and 4 per arm (18 total, summed from the maker's per-limb counts; arms are expandable), 3.3 m/s walking with potential above 5 m/s, 864 Wh (15 Ah, 67.2 V) swappable battery, knee 360 Nm, hip 220 Nm, ankle 59 Nm, arm 75 Nm, 3D LiDAR plus depth camera, i5 for platform functions and i7 for user development. Unitree's H1 page does not publish a price; the USD 90,000 figure in catalogues is not a maker price.",
+  "ros2_support": true,
+  "sdk": {
+   "languages": [
+    "C++",
+    "Python"
+   ],
+   "open_source": true,
+   "license": "BSD-3-Clause",
+   "url": "https://github.com/unitreerobotics/unitree_sdk2"
+  },
+  "sim_models": {
+   "urdf": {
+    "url": "https://github.com/unitreerobotics/unitree_ros/blob/master/robots/h1_description/urdf/h1.urdf",
+    "license": "BSD-3-Clause"
+   },
+   "mjcf": {
+    "url": "https://github.com/unitreerobotics/unitree_ros/blob/master/robots/h1_description/mjcf/h1.xml",
+    "license": "BSD-3-Clause"
+   }
+  },
+  "open_source_repos": [
+   {
+    "name": "unitree_sdk2",
+    "url": "https://github.com/unitreerobotics/unitree_sdk2",
+    "license": "BSD-3-Clause"
+   },
+   {
+    "name": "unitree_ros2",
+    "url": "https://github.com/unitreerobotics/unitree_ros2",
+    "license": "BSD-3-Clause"
+   },
+   {
+    "name": "unitree_ros",
+    "url": "https://github.com/unitreerobotics/unitree_ros",
+    "license": "BSD-3-Clause"
+   }
+  ],
+  "ros2_url": "https://github.com/unitreerobotics/unitree_ros2"
  },
  {
   "id": "unitree-h2",
@@ -129,12 +211,48 @@
    "https://www.unitree.com/H2",
    "https://support.unitree.com/home/en/H2_developer/About_H2",
    "https://www.unitree.com/H2/",
-   "https://www.unitree.com/cn/H2/"
+   "https://www.unitree.com/cn/H2/",
+   "https://humanoidstore.co/robots/unitree-h2",
+   "https://humanoidstore.co/robots/unitree-h2-edu",
+   "https://humanoidstore.co/robots/unitree-h2-plus",
+   "https://github.com/unitreerobotics/unitree_sdk2",
+   "https://github.com/unitreerobotics/unitree_ros/blob/master/robots/h2_description/H2.urdf",
+   "https://github.com/unitreerobotics/unitree_sdk2_python",
+   "https://github.com/unitreerobotics/unitree_ros",
+   "https://github.com/unitreerobotics/unitree_ros2",
+   "https://github.com/unitreerobotics/unitree_mujoco"
   ],
   "summary": "Unitree's 1.82 m humanoid with a bionic head and 31 DoF, built for heavier industrial and research work with 360 Nm leg joints.",
   "verification": "official",
   "notes": "Issue #17 (2026-11-17): height 1820 mm, weight 70 kg, 7 kg rated payload, DoF 31 (6x2 legs + 7x2 arms + 3 waist + 2 head), 3 h, 972 Wh, US$29,900 confirmed on Unitree's H2 page. HumanoidStore rows dropped.",
-  "note": "Maker figures: 1820 x 456 x 218 mm, about 70 kg, 31 DoF (6 per leg, 7 per arm, 3 waist, 2 head), 360 Nm peak leg joint, 120 Nm arm joint, about 15 kg peak and 7 kg rated arm payload, bionic head with facial features, optional dexterous hands, 1045 mm calf plus thigh and 690 mm forearm plus upper arm. Price US$29,900 for H2; the 15 kg figure is the maker's peak value. Unitree does not publish runtime or battery capacity for the H2."
+  "note": "Maker figures: 1820 x 456 x 218 mm, about 70 kg, 31 DoF (6 per leg, 7 per arm, 3 waist, 2 head), 360 Nm peak leg joint, 120 Nm arm joint, about 15 kg peak and 7 kg rated arm payload, bionic head with facial features, optional dexterous hands, 1045 mm calf plus thigh and 690 mm forearm plus upper arm. Price US$29,900 for H2; the 15 kg figure is the maker's peak value. Unitree does not publish runtime or battery capacity for the H2.",
+  "sdk": {
+   "languages": [
+    "C++",
+    "Python"
+   ],
+   "open_source": true,
+   "license": "BSD-3-Clause",
+   "url": "https://github.com/unitreerobotics/unitree_sdk2"
+  },
+  "sim_models": {
+   "urdf": {
+    "url": "https://github.com/unitreerobotics/unitree_ros/blob/master/robots/h2_description/H2.urdf",
+    "license": "BSD-3-Clause"
+   }
+  },
+  "open_source_repos": [
+   {
+    "name": "unitree_sdk2",
+    "url": "https://github.com/unitreerobotics/unitree_sdk2",
+    "license": "BSD-3-Clause"
+   },
+   {
+    "name": "unitree_ros",
+    "url": "https://github.com/unitreerobotics/unitree_ros",
+    "license": "BSD-3-Clause"
+   }
+  ]
  },
  {
   "id": "agility-digit-5",
@@ -604,12 +722,47 @@
   "official_url": "https://docs.booster.tech/docs/product-manual/t1/getting-started/specifications/",
   "sources": [
    "https://docs.booster.tech/docs/product-manual/t1/getting-started/specifications/",
-   "https://www.booster.tech/booster-t1/"
+   "https://www.booster.tech/booster-t1/",
+   "https://humanoidstore.co/robots/booster-t1",
+   "https://github.com/BoosterRobotics/booster_robotics_sdk",
+   "https://github.com/BoosterRobotics/booster_assets/blob/main/robots/T1/T1_23dof.urdf",
+   "https://github.com/BoosterRobotics/booster_assets/blob/main/robots/T1/T1_23dof.xml",
+   "https://github.com/BoosterRobotics/booster_assets"
   ],
   "summary": "Booster Robotics' 1.18 m developer humanoid that won the RoboCup AdultSize 2025 title and is now superseded by T2 and K1.",
   "verification": "official",
   "notes": "Issue #17 (2026-11-17): specs from Booster's T1 product manual; humanoidstore price removed (Booster publishes none; T1 page now redirects to T2/K1, so status Discontinued is inferred). [emptied (no maker value) price_usd=44670; price_note=list price per HumanoidStore, checked 2026-10]",
-  "note": "Maker T1 manual (docs.booster.tech > T1 > Specifications): height 1.18 m, ~30 kg, 23 DoF (6 per leg, 4 per arm expandable, 1 waist, 2 head), walking speed 1 m/s, turning 1.5 rad/s, battery life 2 h with <=2 h charge, -10 to 45 C, 5-90% humidity, depth camera + mic array + speaker, Wi-Fi 6 / BT 5.2, CE/FCC, emergency stop; Basic ships the Jetson AGX Orin (200 TOPS), Standard and Customized add an Intel i7 board. The printed spec sheet on the maker's old product page adds 10.5 Ah battery, 130 N.m peak torque and 6-mic array; pack voltage is not published so battery_wh stays empty. The product page booster.tech/booster-t1 now redirects to the T2/K1 lineup, so status recorded as Discontinued. Price is the HumanoidStore figure, not a maker price."
+  "note": "Maker T1 manual (docs.booster.tech > T1 > Specifications): height 1.18 m, ~30 kg, 23 DoF (6 per leg, 4 per arm expandable, 1 waist, 2 head), walking speed 1 m/s, turning 1.5 rad/s, battery life 2 h with <=2 h charge, -10 to 45 C, 5-90% humidity, depth camera + mic array + speaker, Wi-Fi 6 / BT 5.2, CE/FCC, emergency stop; Basic ships the Jetson AGX Orin (200 TOPS), Standard and Customized add an Intel i7 board. The printed spec sheet on the maker's old product page adds 10.5 Ah battery, 130 N.m peak torque and 6-mic array; pack voltage is not published so battery_wh stays empty. The product page booster.tech/booster-t1 now redirects to the T2/K1 lineup, so status recorded as Discontinued. Price is the HumanoidStore figure, not a maker price.",
+  "sdk": {
+   "languages": [
+    "C++"
+   ],
+   "open_source": true,
+   "license": "Apache-2.0",
+   "url": "https://github.com/BoosterRobotics/booster_robotics_sdk"
+  },
+  "sim_models": {
+   "urdf": {
+    "url": "https://github.com/BoosterRobotics/booster_assets/blob/main/robots/T1/T1_23dof.urdf",
+    "license": "BSD-3-Clause"
+   },
+   "mjcf": {
+    "url": "https://github.com/BoosterRobotics/booster_assets/blob/main/robots/T1/T1_23dof.xml",
+    "license": "BSD-3-Clause"
+   }
+  },
+  "open_source_repos": [
+   {
+    "name": "booster_robotics_sdk",
+    "url": "https://github.com/BoosterRobotics/booster_robotics_sdk",
+    "license": "Apache-2.0"
+   },
+   {
+    "name": "booster_assets",
+    "url": "https://github.com/BoosterRobotics/booster_assets",
+    "license": "BSD-3-Clause"
+   }
+  ]
  },
  {
   "id": "engineai-pm01",
@@ -1641,12 +1794,30 @@
    "https://www.deeprobotics.us/products/dr02/",
    "https://www.deeprobotics.cn/en/products/detail/5.html",
    "https://www.deeprobotics.cn/index.php/products/detail/5.html",
-   "https://deep-website.oss-cn-hangzhou.aliyuncs.com/app/DR02%E5%8D%95%E9%A1%B5202602-%E4%B8%AD%E6%96%87.pdf"
+   "https://deep-website.oss-cn-hangzhou.aliyuncs.com/app/DR02%E5%8D%95%E9%A1%B5202602-%E4%B8%AD%E6%96%87.pdf",
+   "https://humanoidstore.co/robots/deep-robotics-dr02",
+   "https://github.com/DeepRoboticsLab/deep_robotics_model/blob/main/DR02/urdf/standard/DR02-std.urdf",
+   "https://github.com/DeepRoboticsLab/deep_robotics_model/blob/main/DR02/mjcf/standard/DR02_std.xml",
+   "https://github.com/DeepRoboticsLab/deep_robotics_model/blob/main/DR02/usd/standard/DR02-std.usd"
   ],
   "summary": "DEEP Robotics' IP66 all-weather industrial humanoid for power-station inspection, emergency response and security patrols, sold in DR02 and DR02 Pro configurations.",
   "verification": "official",
   "notes": "Issue #17 (2026-11-17): DEEP Robotics DR02 datasheet - 175 cm, 65 kg with battery, 21 DoF (legs 6x2, arms 4x2, waist 1), 10 kg dual-arm payload, 20 Ah/1440 Wh, IP66, max test speed 4 m/s (walking 1.5 m/s). DoF 31 belongs to the DR02 Pro. The DR02 user manual lists 180 cm, 68 kg and a 20 kg figure; datasheet values kept, manual figures noted. [replaced payload_kg: 20 -> 10; dof: 31 -> 21; runtime_h: None -> 3.0; battery_wh: None -> 1440; ip_rating: None -> IP66]",
-  "note": "Maker product page (deeprobotics.cn/en/products/detail/5.html): standing size approx 1800 x 558 x 400 mm, 68 kg as DR02 and 78 kg as DR02 Pro (recorded the Pro, 31-DoF configuration: 6 per leg, 7 per arm, 3 waist, 2 head), 10 kg continuous payload, unloaded runtime ~3 h and loaded ~2.5 h with ~2.5 h charging, 68 cm arms, walking speed 1.5 m/s with a lab top speed of 4 m/s, 25 cm stairs, 40 cm step, 20 deg slope, IP66, -20 to 55 C, octa-core industrial processor with a 275 TOPS NVIDIA AGX Orin (AGX Thor 2,070 TOPS optional), LiDAR, 3 depth cameras, wide-angle camera, mic array and speaker, 72 V external power. Battery 20 Ah at 72 V = 1440 Wh per the maker datasheet PDF. The datasheet states a 175 cm standing height and 175/65 kg or 175/75 kg while the web page says ~1800 mm and 68/78 kg - both are maker documents, the web page values are recorded and the datasheet values noted here."
+  "note": "Maker product page (deeprobotics.cn/en/products/detail/5.html): standing size approx 1800 x 558 x 400 mm, 68 kg as DR02 and 78 kg as DR02 Pro (recorded the Pro, 31-DoF configuration: 6 per leg, 7 per arm, 3 waist, 2 head), 10 kg continuous payload, unloaded runtime ~3 h and loaded ~2.5 h with ~2.5 h charging, 68 cm arms, walking speed 1.5 m/s with a lab top speed of 4 m/s, 25 cm stairs, 40 cm step, 20 deg slope, IP66, -20 to 55 C, octa-core industrial processor with a 275 TOPS NVIDIA AGX Orin (AGX Thor 2,070 TOPS optional), LiDAR, 3 depth cameras, wide-angle camera, mic array and speaker, 72 V external power. Battery 20 Ah at 72 V = 1440 Wh per the maker datasheet PDF. The datasheet states a 175 cm standing height and 175/65 kg or 175/75 kg while the web page says ~1800 mm and 68/78 kg - both are maker documents, the web page values are recorded and the datasheet values noted here.",
+  "sim_models": {
+   "urdf": {
+    "url": "https://github.com/DeepRoboticsLab/deep_robotics_model/blob/main/DR02/urdf/standard/DR02-std.urdf",
+    "license": "BSD-3-Clause"
+   },
+   "mjcf": {
+    "url": "https://github.com/DeepRoboticsLab/deep_robotics_model/blob/main/DR02/mjcf/standard/DR02_std.xml",
+    "license": "BSD-3-Clause"
+   },
+   "usd": {
+    "url": "https://github.com/DeepRoboticsLab/deep_robotics_model/blob/main/DR02/usd/standard/DR02-std.usd",
+    "license": "BSD-3-Clause"
+   }
+  }
  },
  {
   "id": "devanthro-robody",
@@ -4956,12 +5127,20 @@
   "official_url": "https://www.unitree.com/h1/",
   "sources": [
    "https://www.unitree.com/h1",
-   "https://www.unitree.com/h1/"
+   "https://www.unitree.com/h1/",
+   "https://humanoidstore.co/robots/unitree-h1-2",
+   "https://github.com/unitreerobotics/unitree_ros/blob/master/robots/h1_2_description/h1_2.urdf"
   ],
   "summary": "The H1-2 update of Unitree's full-size humanoid: 27 DoF, 7-DoF arms and a 21 kg peak arm payload, for heavier manipulation than the H1.",
   "verification": "official",
   "notes": "Issue #17 (2026-11-17): H1-2 - (1503+285) mm x 510 x 287 mm, about 70 kg, 27 DoF, speed <2 m/s, 15 Ah (864 Wh), arm load 7 kg rated / 21 kg peak, from Unitree's H1 page. No maker price, so the HumanoidStore price was removed. [replaced height_mm: 1780 -> 1788; battery_wh: None -> 864 | emptied (no maker value) price_usd=128900; price_note=list 128900 USD (maker), per HumanoidStore, checked 2026-09]",
-  "note": "Maker figures: about 178 cm, about 70 kg, (1503+285) x 510 x 287 mm, 27 DoF total (6 per leg, 7 per arm), 2 m/s, 21 kg peak and 7 kg rated arm load, 120 Nm shoulder and elbow, 30 Nm wrist, 360 Nm knee and 220 Nm hip and waist, 864 Wh (15 Ah, 67.2 V) battery, optional Dex5-1 hands, 3D LiDAR plus depth camera. The 21 kg figure is the maker's peak value. Unitree does not publish a price or runtime for the H1-2; catalogue values are not maker figures."
+  "note": "Maker figures: about 178 cm, about 70 kg, (1503+285) x 510 x 287 mm, 27 DoF total (6 per leg, 7 per arm), 2 m/s, 21 kg peak and 7 kg rated arm load, 120 Nm shoulder and elbow, 30 Nm wrist, 360 Nm knee and 220 Nm hip and waist, 864 Wh (15 Ah, 67.2 V) battery, optional Dex5-1 hands, 3D LiDAR plus depth camera. The 21 kg figure is the maker's peak value. Unitree does not publish a price or runtime for the H1-2; catalogue values are not maker figures.",
+  "sim_models": {
+   "urdf": {
+    "url": "https://github.com/unitreerobotics/unitree_ros/blob/master/robots/h1_2_description/h1_2.urdf",
+    "license": "BSD-3-Clause"
+   }
+  }
  },
  {
   "id": "unitree-r1",
@@ -5001,12 +5180,48 @@
   "sources": [
    "https://www.unitree.com/R1",
    "https://www.unitree.com/R1/",
-   "https://www.unitree.com/cn/R1/"
+   "https://www.unitree.com/cn/R1/",
+   "https://humanoidstore.co/robots/unitree-r1",
+   "https://humanoidstore.co/robots/unitree-r1-air",
+   "https://humanoidstore.co/robots/unitree-r1-edu",
+   "https://github.com/unitreerobotics/unitree_sdk2",
+   "https://github.com/unitreerobotics/unitree_ros/blob/master/robots/r1_description/R1.urdf",
+   "https://github.com/unitreerobotics/unitree_sdk2_python",
+   "https://github.com/unitreerobotics/unitree_ros",
+   "https://github.com/unitreerobotics/unitree_ros2",
+   "https://github.com/unitreerobotics/unitree_mujoco"
   ],
   "summary": "Unitree's lightweight companion humanoid: 123 cm and about 29 kg with 26 DoF, a 2-DoF waist and head, and a multimodal voice and image model.",
   "verification": "official",
   "notes": "Issue #17 (2026-11-17): Unitree R1 - 1230x357x190 mm, about 29 kg (R1) / 27 kg (R1 AIR), 26 DoF on R1 (20 on AIR, up to 40 on EDU), about 1 h, US$5,900 (AIR US$4,900) from Unitree's R1 page. Arm load about 3-5 kg. [replaced price_note: list 5900 USD (maker), per HumanoidStore, checked 2026-10 -> R1 US$5,900; R1 AIR US$4,900 (tax and shipping excluded)]",
-  "note": "Maker figures: 1230 x 357 x 190 mm, about 29 kg for R1 (about 25 kg for R1 AIR on the English page, 27 kg on the Chinese page), 26 DoF on R1 (20 on AIR, 26-40 on EDU), 6 per leg, 5 per arm, 2 waist, 2 head, about 2 kg arm load (the Chinese page says 3-5 kg), about 1 h runtime, 8-core processor with optional Orin at 40-100 TOPS on EDU, stereo camera (monocular on AIR). Prices US$4,900 for AIR and US$5,900 for R1."
+  "note": "Maker figures: 1230 x 357 x 190 mm, about 29 kg for R1 (about 25 kg for R1 AIR on the English page, 27 kg on the Chinese page), 26 DoF on R1 (20 on AIR, 26-40 on EDU), 6 per leg, 5 per arm, 2 waist, 2 head, about 2 kg arm load (the Chinese page says 3-5 kg), about 1 h runtime, 8-core processor with optional Orin at 40-100 TOPS on EDU, stereo camera (monocular on AIR). Prices US$4,900 for AIR and US$5,900 for R1.",
+  "sdk": {
+   "languages": [
+    "C++",
+    "Python"
+   ],
+   "open_source": true,
+   "license": "BSD-3-Clause",
+   "url": "https://github.com/unitreerobotics/unitree_sdk2"
+  },
+  "sim_models": {
+   "urdf": {
+    "url": "https://github.com/unitreerobotics/unitree_ros/blob/master/robots/r1_description/R1.urdf",
+    "license": "BSD-3-Clause"
+   }
+  },
+  "open_source_repos": [
+   {
+    "name": "unitree_sdk2",
+    "url": "https://github.com/unitreerobotics/unitree_sdk2",
+    "license": "BSD-3-Clause"
+   },
+   {
+    "name": "unitree_ros",
+    "url": "https://github.com/unitreerobotics/unitree_ros",
+    "license": "BSD-3-Clause"
+   }
+  ]
  },
  {
   "id": "vstone-robovie-nano",
@@ -9013,7 +9228,10 @@
   "official_url": "https://pal-robotics.com/robot/tiago-pro/",
   "sources": [
    "https://pal-robotics.com/robot/tiago-pro/",
-   "https://pal-robotics.com/datasheet/tiago-pro/"
+   "https://pal-robotics.com/datasheet/tiago-pro/",
+   "https://github.com/pal-robotics/tiago_pro_robot",
+   "https://github.com/pal-robotics/tiago_pro_robot/blob/humble-devel/tiago_pro_description/robots/tiago_pro.urdf.xacro",
+   "https://github.com/pal-robotics/tiago_pro_simulation"
   ],
   "summary": "Open-source ROS 2 dual-arm mobile manipulator with an omnidirectional base and expressive head for embodied-AI and HRI research and applied development.",
   "image_url": "https://pal-robotics.com/wp-content/uploads/2025/01/TIAGoPro_Sided1_Mobile-Manipulator_PAL-Robotics-921x1024.webp",
@@ -9026,7 +9244,31 @@
    "https://humanoid.guide/product/tiago-pro/"
   ],
   "verification": "official",
-  "note": "Category correction: TIAGo Pro is a WHEELED mobile manipulator (omnidirectional 4x mecanum base, dual 7-DoF arms, lifting torso), not a humanoid; PAL lists it under 'Mobile Manipulators' -> suggest category 'Mobile platform'. Height is a range 1200-1550 mm (lifting torso); height_mm set to max 1550. Payload 3 kg is PER ARM (excluding end-effector). Footprint 500 x 720 mm (which is length vs width not stated; length_mm=720, width_mm=500 assumed by orientation). Autonomy 4 h. No max speed, battery Wh, IP rating or price published. Release year not stated on spec page (PAL's 'Introducing TIAGo Pro' blog dates from 2023 but not opened)."
+  "note": "Category correction: TIAGo Pro is a WHEELED mobile manipulator (omnidirectional 4x mecanum base, dual 7-DoF arms, lifting torso), not a humanoid; PAL lists it under 'Mobile Manipulators' -> suggest category 'Mobile platform'. Height is a range 1200-1550 mm (lifting torso); height_mm set to max 1550. Payload 3 kg is PER ARM (excluding end-effector). Footprint 500 x 720 mm (which is length vs width not stated; length_mm=720, width_mm=500 assumed by orientation). Autonomy 4 h. No max speed, battery Wh, IP rating or price published. Release year not stated on spec page (PAL's 'Introducing TIAGo Pro' blog dates from 2023 but not opened).",
+  "sim_models": {
+   "urdf": {
+    "url": "https://github.com/pal-robotics/tiago_pro_robot/blob/humble-devel/tiago_pro_description/robots/tiago_pro.urdf.xacro",
+    "license": "Apache-2.0"
+   },
+   "gazebo": {
+    "url": "https://github.com/pal-robotics/tiago_pro_simulation",
+    "license": "Apache-2.0"
+   }
+  },
+  "open_source_repos": [
+   {
+    "name": "tiago_pro_robot",
+    "url": "https://github.com/pal-robotics/tiago_pro_robot",
+    "license": "Apache-2.0"
+   },
+   {
+    "name": "tiago_pro_simulation",
+    "url": "https://github.com/pal-robotics/tiago_pro_simulation",
+    "license": "Apache-2.0"
+   }
+  ],
+  "ros2_url": "https://github.com/pal-robotics/tiago_pro_robot",
+  "ros2_support": true
  },
  {
   "id": "deep-robotics-dr01",
@@ -10370,7 +10612,8 @@
   "official_url": "https://www.unitree.com/G1-D/",
   "sources": [
    "https://www.unitree.com/G1-D/",
-   "https://support.unitree.com/home/en/G1D_Developer/about"
+   "https://support.unitree.com/home/en/G1D_Developer/about",
+   "https://github.com/unitreerobotics/unitree_ros/blob/master/robots/g1_d_description/g1_d.urdf"
   ],
   "summary": "Wheeled dual-arm humanoid platform with a lifting column for embodied-AI data collection, training and deployment.",
   "image_url": null,
@@ -10381,7 +10624,13 @@
    "https://humanoid.guide/product/g1-d/"
   ],
   "verification": "official",
-  "note": "Wheeled dual-arm G1 variant on a lifting column; Standard (manual push base) vs Flagship (powered differential base). Values below are Flagship unless noted. dims: height 1680 at max column (1260 min); payload ~3 kg per arm; runtime 6 h Flagship, 2 h Standard; dof 19 Flagship / 17 Standard"
+  "note": "Wheeled dual-arm G1 variant on a lifting column; Standard (manual push base) vs Flagship (powered differential base). Values below are Flagship unless noted. dims: height 1680 at max column (1260 min); payload ~3 kg per arm; runtime 6 h Flagship, 2 h Standard; dof 19 Flagship / 17 Standard",
+  "sim_models": {
+   "urdf": {
+    "url": "https://github.com/unitreerobotics/unitree_ros/blob/master/robots/g1_d_description/g1_d.urdf",
+    "license": "BSD-3-Clause"
+   }
+  }
  },
  {
   "id": "unitree-h2-d",
@@ -17306,7 +17555,8 @@
   "official_url": "https://www.flexiv.com/product/robot-system",
   "sources": [
    "https://www.flexiv.com/product/robot-system",
-   "https://www.flexiv.com/software/rdk/manual/ros2_bridge.html"
+   "https://www.flexiv.com/software/rdk/manual/ros2_bridge.html",
+   "https://github.com/flexivrobotics/flexiv_rdk"
   ],
   "summary": "Wheeled dual-arm embodied-AI development platform built on two 7-DoF Rizon force-controlled arms, with laser-SLAM navigation.",
   "image_url": null,
@@ -17317,7 +17567,23 @@
    "https://humanoid.guide/product/aico-2/"
   ],
   "verification": "official",
-  "note": "Flexiv lists two AICO 2 variants: AICO 2-4 (2×4 kg payload, 281 kg, 6 h, dual-wheel differential) and AICO 2-10 (2×10 kg, 395 kg, 4 h). Variant-specific fields left null."
+  "note": "Flexiv lists two AICO 2 variants: AICO 2-4 (2×4 kg payload, 281 kg, 6 h, dual-wheel differential) and AICO 2-10 (2×10 kg, 395 kg, 4 h). Variant-specific fields left null.",
+  "sdk": {
+   "languages": [
+    "C++",
+    "Python"
+   ],
+   "open_source": true,
+   "license": "Apache-2.0",
+   "url": "https://github.com/flexivrobotics/flexiv_rdk"
+  },
+  "open_source_repos": [
+   {
+    "name": "flexiv_rdk",
+    "url": "https://github.com/flexivrobotics/flexiv_rdk",
+    "license": "Apache-2.0"
+   }
+  ]
  },
  {
   "id": "gac-gomate-mini",

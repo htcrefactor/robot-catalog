@@ -165,6 +165,9 @@ Fields the maker does not publish are left out here — the catalog never fills 
 ## Sources
 
 - Official page: [global.agilex.ai](https://global.agilex.ai/products/tracer-2-0-150kg-payload-indoor-mobile-robot)
+- [github.com](https://github.com/agilexrobotics/ugv_sdk)
+- [github.com](https://github.com/agilexrobotics/tracer_ros2)
+- [github.com](https://github.com/agilexrobotics/pyagxrobots)
 
 ---
 
