@@ -1141,7 +1141,7 @@
    "https://botupyourlife.com/en/robots/temi-go/"
   ],
   "verification": "unconfirmed",
-  "note": "Only the 'temi' (V3) personal robot page was found on robotemi.com; no official 'temi GO' product page located yet."
+  "note": "Only the 'temi' (V3) personal robot page was found on robotemi.com; no official 'temi GO' product page located yet. Re-checked 2026-11-17: robotemi.com/product/temi/ opened (specs for 'temi': ARM hexa-core, 360 deg LiDAR, 2 depth cameras, RGB camera, 6 ToF sensors, 8 h battery) but there is still no 'temi GO' page (robotemi.com/product/temi-go/ -> 404); the two models' figures cannot be separated from one page, so the record stays unconfirmed and empty."
  },
  {
   "id": "pudu-flashbot-max",
@@ -1152,17 +1152,17 @@
   "locomotion": "Wheeled",
   "release_year": null,
   "status": "Commercial",
-  "length_mm": null,
-  "width_mm": null,
-  "height_mm": null,
-  "weight_kg": null,
-  "payload_kg": null,
-  "max_speed_mps": null,
-  "min_speed_mps": null,
+  "length_mm": 538,
+  "width_mm": 534,
+  "height_mm": 1052,
+  "weight_kg": 60,
+  "payload_kg": 10,
+  "max_speed_mps": 1.2,
+  "min_speed_mps": 0.5,
   "wheel_diameter_mm": null,
   "wheel_count": null,
   "dof": null,
-  "runtime_h": null,
+  "runtime_h": 9,
   "battery_wh": null,
   "ip_rating": null,
   "api_support": null,
@@ -1171,12 +1171,16 @@
   "onboard_compute": null,
   "compute_detail": null,
   "ros_support": null,
-  "sensors": [],
+  "sensors": [
+   "VSLAM+ and LiDAR SLAM navigation",
+   "3D obstacle avoidance (multi-sensor fusion)"
+  ],
   "price_usd": null,
   "price_note": null,
-  "official_url": "https://pudurobotics.com/de/products/flashbot-new",
+  "official_url": "https://www.pudurobotics.com/en/products/flashbot-new",
   "sources": [
-   "https://pudurobotics.com/de/products/flashbot-new"
+   "https://pudurobotics.com/de/products/flashbot-new",
+   "https://www.pudurobotics.com/en/products/flashbot-new"
   ],
   "summary": "",
   "image_url": null,
@@ -1187,8 +1191,8 @@
    "https://droid.monster/robots/pudu-robotics/flashbot-max",
    "https://roboticsrankings.com/robots/pudu-flashbot-max/"
   ],
-  "verification": "unconfirmed",
-  "note": "Given URL is Pudu's 'FlashBot (new)' building-delivery page (German); it does not use the name 'FlashBot Max'. Specs not filled until Max is confirmed."
+  "verification": "official",
+  "note": "Confirmed 2026-11-17: Pudu's own product page is titled 'FlashBot Max' and its product-overview table gives 538 x 534 x 1052 mm, 60 kg, 10 kg per layer, 2-4 adjustable compartments, 9 h runtime, 4 h charge, VSLAM+ and LiDAR SLAM, 0.5-1.2 m/s cruise, 60 cm path clearance, IoT/elevator integration. Payload stored is per layer (Pudu publishes no whole-robot payload). Pudu does not state an IP rating, battery capacity, screen size or sensor hardware. The Oct 2024 launch release says 70 cm corridor width while the product page says 60 cm - both maker documents disagree, page value recorded."
  },
  {
   "id": "pudu-pudubot-2",

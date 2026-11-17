@@ -815,7 +815,7 @@
    "https://data.robo2u.com/robots/bracketbot-2-5"
   ],
   "verification": "unconfirmed",
-  "note": "Maker site (bracketbot.com) has no product page or specs for 'Gen 2.5'; only a company statement. Model existence rests on the maker's X posts (1 Jul 2026: building 100 Gen2.5's; price 'less than $3000'), seen only in search excerpts, plus a later post naming 'Bracket Bot 1 Gen 3.0' — so Gen 2.5 may already be superseded. Self-balancing two-wheel (Segway-style) mobile manipulator per founder demos. Aggregator height 173 cm / $2k not maker-verified. Company HQ San Francisco (founder from Univ. of Waterloo; aggregators say Canada)."
+  "note": "Maker site (bracketbot.com) has no product page or specs for 'Gen 2.5'; only a company statement. Model existence rests on the maker's X posts (1 Jul 2026: building 100 Gen2.5's; price 'less than $3000'), seen only in search excerpts, plus a later post naming 'Bracket Bot 1 Gen 3.0' — so Gen 2.5 may already be superseded. Self-balancing two-wheel (Segway-style) mobile manipulator per founder demos. Aggregator height 173 cm / $2k not maker-verified. Company HQ San Francisco (founder from Univ. of Waterloo; aggregators say Canada). Re-checked 2026-11-17: bracketbot.com opened - it carries only a company statement and a careers link, no product page or Gen 2.5 specs. Still unconfirmed."
  },
  {
   "id": "pickle-robot-dill",
@@ -951,7 +951,8 @@
   "price_note": null,
   "official_url": "https://www.kuka.com/en-de/products/amr-autonomous-mobile-robotics/mobile-robot-systems/kmr-iisy-autonomous-mobile-cobot",
   "sources": [
-   "https://www.kuka.com/en-de/products/amr-autonomous-mobile-robotics/mobile-robot-systems/kmr-iisy-autonomous-mobile-cobot"
+   "https://www.kuka.com/en-de/products/amr-autonomous-mobile-robotics/mobile-robot-systems/kmr-iisy-autonomous-mobile-cobot",
+   "https://www.kuka.com/en-gb/company/press/news/2023/06/kmr-iisy-and-kmp-1500p"
   ],
   "summary": "KUKA autonomous mobile cobot combining a SLAM-navigating platform (up to 200 kg) with an LBR iisy arm for machine tending, pick-and-place and cleanroom logistics.",
   "image_url": "https://www.kuka.com/-/media/kuka-corporate/images/products/mobility/kmr-iisy-mobile-cobot/kuka-kmr-iisy-mobile-cobot.jpg?rev=5a7824ca3d4743d688d471595472a703&w=767&hash=F431C8BCCFECAFC2D250451611FF4CBA",
@@ -961,7 +962,7 @@
    "https://data.robo2u.com/robots/kuka-kmr-iisy"
   ],
   "verification": "official",
-  "note": "Mobile manipulator: differential-drive platform plus integrated LBR iisy 6-axis cobot (11 or 15 kg arm payload). payload_kg = platform capacity 200 kg (my.KUKA lists rated payload 200 kg for KMR iisy-2; a CR C+ variant lists 100 kg). Dimensions/weight from KUKA's my.KUKA product page for KMR iisy-2 (1120 x 695 x 700 mm, 425 kg, 8 h max operating time) - seen in search excerpt of the maker portal, not opened; main product page (opened) confirms 695 x 1120 mm platform, 1.5 m/s, IP54, ISO cleanroom class 3. Launched 2023 (press release July 2023). dof = 6 (arm only)."
+  "note": "Mobile manipulator: differential-drive platform plus integrated LBR iisy 6-axis cobot (11 or 15 kg arm payload). payload_kg = platform capacity 200 kg (my.KUKA lists rated payload 200 kg for KMR iisy-2; a CR C+ variant lists 100 kg). Dimensions/weight from KUKA's my.KUKA product page for KMR iisy-2 (1120 x 695 x 700 mm, 425 kg, 8 h max operating time) - seen in search excerpt of the maker portal, not opened; main product page (opened) confirms 695 x 1120 mm platform, 1.5 m/s, IP54, ISO cleanroom class 3. Launched 2023 (press release July 2023). dof = 6 (arm only). Re-checked 2026-11-17: KUKA product page opened - platform area 695 x 1120 mm, platform capacity up to 200 kg, cobot payload 11 or 15 kg, max 1.5 m/s, IP54, cleanroom class 3, ESD (ISO 61340-5-1 / ANSI ESD S20.20), SLAM navigation with safety scanners + 3D cameras to 2 m, inductive charging, differential drive; launch press release (17 Jul 2023) opened. Platform height 700 mm and 425 kg total weight and 8 h battery come from KUKA's my.KUKA variant page (KMR iisy-2) as seen in a search excerpt; no KUKA-hosted datasheet PDF was found."
  },
  {
   "id": "robotnik-rb-vogui-plus",
@@ -1220,7 +1221,7 @@
    "https://data.robo2u.com/robots/fetch-mobile-manipulator"
   ],
   "verification": "official",
-  "note": "Fetch Robotics official docs (docs.fetchrobotics.com) + Fetch spec sheet (copy on reseller host). Footprint 508 mm wide / 559 mm dia. Height = torso up. dof 13 includes base. Current availability under Zebra not stated."
+  "note": "Re-checked 2026-11-17: Zebra/Fetch have no live product page (zebra.com/us/en/products/robotics.html returns 404; Zebra sold its robotics automation business - formerly Fetch Robotics - to Skild AI, closing 2026-03-27 per Zebra's 10-Q) and the maker's documentation host docs.fetchrobotics.com no longer resolves (ERR_TUNNEL_CONNECTION_FAILED; page fetch HTTP 500), although the Wayback Machine holds a 200 snapshot of this page from 2024-04-18. Stored figures are the Fetch hardware documentation values (113.3 kg, 508 mm wide / 559 mm dia base, 1.49 m with torso up, 6 kg arm payload, 1.0 m/s, 13 DoF, i5 / 16 GB / 120 GB SSD, 3 h to 90%) plus the Fetch spec sheet copy on a reseller host; no value was changed in this pass."
  },
  {
   "id": "toyota-hsr",

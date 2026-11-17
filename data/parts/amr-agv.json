@@ -785,7 +785,7 @@
   "width_mm": null,
   "height_mm": null,
   "weight_kg": null,
-  "payload_kg": null,
+  "payload_kg": 500,
   "max_speed_mps": null,
   "min_speed_mps": null,
   "wheel_diameter_mm": null,
@@ -803,8 +803,12 @@
   "sensors": [],
   "price_usd": null,
   "price_note": null,
-  "official_url": "https://otsaw.com/transcar/",
-  "sources": [],
+  "official_url": "https://www.versigen.com.au/wp-content/uploads/2024/05/versigen-transcar-brochure.pdf",
+  "sources": [
+   "https://www.versigen.com.au/wp-content/uploads/2024/05/versigen-transcar-brochure.pdf",
+   "https://pdf.medicalexpo.com/pdf/otsaw-swisslog-healthcare-robotics/transcar-automated-guided-vehicle-brochure/4579365-263713.html",
+   "https://www.linkedin.com/posts/otsaw-digital_fhahoreca-transcar-robotics-activity-7252856500585447425-TF1w"
+  ],
   "summary": "Heavy-duty hospital AGV that lifts and autonomously transports meal, linen, medication and waste trolleys.",
   "image_url": null,
   "image_source": null,
@@ -812,8 +816,8 @@
   "seen_on": [
    "https://botupyourlife.com/en/robots/otsaw-transcar-k2/"
   ],
-  "verification": "unconfirmed",
-  "note": "otsaw.com/transcar returned 'Account Suspended' on two fetches (Nov 2026) - maker site currently down. Search-index copies of the maker page and OTSAW posts describe TransCar as a hospital AGV/AMR that slides under and lifts trolleys, payload up to 500 kg; 'TransCar K2' named in OTSAW LinkedIn and an SEC-filed contract. Category note: it is an AGV (predetermined paths) for trolley transport. Values left out because no maker page could be opened."
+  "verification": "official",
+  "note": "Re-checked 2026-11-17: otsaw.com still does not serve the product page (otsaw.com/transcar/ -> 404). OTSAW's own TransCar brochure (opened as a PDF, OTSAW Group, Sept 2023) gives TransCar as a tricycle-drive hospital AGV: speed 0.1-1.6 m/s, max load capacity 500 kg, 1706 x 616 x 346 mm, IP54, LiFeMnPO4 battery, battery life <=12 h. The brochure does not print 'K2' on its spec table, so only payload (500 kg, also stated by OTSAW for the K2 in its own FHA-HoReCa 2024 post, opened) is filled; dimensions, speed, IP and runtime are left null although the brochure lists them for the TransCar family. 'TransCar K2' is named in that OTSAW post and in an SEC-filed Swisslog/Otsaw agreement. Category note: it is an AGV (fixed routes) for trolley transport."
  },
  {
   "id": "anseboo-fd06",
@@ -2181,12 +2185,12 @@
   "height_mm": 672,
   "weight_kg": 505,
   "payload_kg": 272,
-  "max_speed_mps": null,
+  "max_speed_mps": 1.5,
   "min_speed_mps": null,
   "wheel_diameter_mm": null,
   "wheel_count": null,
   "dof": null,
-  "runtime_h": null,
+  "runtime_h": 9,
   "battery_wh": null,
   "ip_rating": null,
   "api_support": null,
@@ -2195,13 +2199,17 @@
   "onboard_compute": null,
   "compute_detail": null,
   "ros_support": null,
-  "sensors": [],
+  "sensors": [
+   "2x SICK 2D laser scanners (30 m, 275 deg)",
+   "8x 3D cameras (360 deg coverage)"
+  ],
   "price_usd": null,
   "price_note": null,
   "official_url": "https://www.zebra.com/us/en/about-zebra/newsroom/press-releases/2022/zebra-introduces-new-purpose-built-offerings-for-digitizing-and-automating-fulfillment-at-modex-2022.html",
   "sources": [
    "https://www.zebra.com/us/en/about-zebra/newsroom/press-releases/2022/zebra-introduces-new-purpose-built-offerings-for-digitizing-and-automating-fulfillment-at-modex-2022.html",
-   "https://cssi.com/wp-content/uploads/cssi_fetch-cartconnect500-AMR-brochure.pdf"
+   "https://cssi.com/wp-content/uploads/cssi_fetch-cartconnect500-AMR-brochure.pdf",
+   "https://avalonintegration.com/wp-content/uploads/2022/10/Zebra-Fetch-Fulfillment-Portfolio-Brochure.pdf"
   ],
   "summary": "Zebra/Fetch AMR with built-in lift that autonomously picks up and moves FetchCarts carrying up to 600 lb.",
   "image_url": null,
@@ -2211,7 +2219,7 @@
    "https://data.robo2u.com/robots/zebra-technologies-fetch-robotics-cartconnect500"
   ],
   "verification": "official",
-  "note": "Confirmed by Zebra MODEX 2022 press release (payload 600 lb). Detailed specs only in Zebra-authored brochure hosted by resellers; dims/weight taken from that Zebra brochure (cssi.com copy) - treat as maker document on third-party host. Earlier 2020 Fetch brochure stated 500 lb payload."
+  "note": "Confirmed by Zebra MODEX 2022 press release (payload 600 lb). Detailed specs only in Zebra-authored brochure hosted by resellers; dims/weight taken from that Zebra brochure (cssi.com copy) - treat as maker document on third-party host. Earlier 2020 Fetch brochure stated 500 lb payload. Re-checked 2026-11-17: no CartConnect500 product page exists on zebra.com any more (zebra.com/us/en/products/robotics.html returns 404; Zebra sold its robotics automation business - formerly Fetch Robotics - to Skild AI, closed 2026-03-27 per Zebra's 10-Q, so the Fetch/Zebra AMR product pages are gone), so the Zebra-authored AMR solution guide (2021, sampled above) stays the source. That guide's spec table gives max speed 1.5 m/s, ~9 h runtime, 2x SICK 30 m/275 deg scanners and 8x 3D cameras, now filled. CONFLICT kept in the record: the same guide's spec table prints 'Maximum Payload Weight 800 lb (362.9 kg)' while its body text and Zebra's 2022 press release say loads up to 600 lb (272 kg); 272 kg is stored."
  },
  {
   "id": "6-river-systems-chuck",
@@ -3485,7 +3493,7 @@
   "wheel_diameter_mm": null,
   "wheel_count": null,
   "dof": null,
-  "runtime_h": null,
+  "runtime_h": 8,
   "battery_wh": null,
   "ip_rating": null,
   "api_support": null,
@@ -3496,13 +3504,13 @@
   "ros_support": null,
   "sensors": [
    "Front laser scanner",
-   "Side ultrasonic sensors",
-   "Bumper strip",
-   "QR-code / laser SLAM / visual SLAM navigation"
+   "Front/rear bumper strip",
+   "E-stop button",
+   "QR / 2D code, L-SLAM, V-SLAM navigation"
   ],
   "price_usd": null,
   "price_note": null,
-  "official_url": "https://www.hikrobotics.com/en/mobilerobot/LMR",
+  "official_url": "https://wiki-lmr.rms.hikrobotics.com/zh/AMR/LMR/Q3/Product-Introduction/Quick-Start/Introduction-to-the-Product/Q3-600D-parameters",
   "sources": [
    "http://www.hikrobotics.com/en/mobilerobot/LMR",
    "https://wiki-lmr.rms.hikrobotics.com/zh/AMR/LMR/Q3/Product-Introduction/Quick-Start/Introduction-to-the-Product/Q3-600D-parameters"
@@ -3515,7 +3523,7 @@
    "https://data.robo2u.com/robots/hikrobot-q3-600d"
   ],
   "verification": "official",
-  "note": "Latent (under-ride) lifting AMR. Model is listed on Hikrobot's LMR page and has a section in Hikrobot's LMR wiki; both pages render via JS so the fetch returned no spec text - values below come from the Hikrobot wiki parameter/intro pages as seen in search excerpts (maker-stated): 950x650x250 mm, 134 kg (distributors list 132 kg), 600 kg rated load, 60 mm electric lift, 2.0 m/s empty / 1.8 m/s loaded, differential drive, front laser + side ultrasonic + bumper. Runtime 8 h / charge <=1.5 h appear on distributor sheets only - left out. Navigation QR code / laser SLAM / visual SLAM. Category is better 'AMR' than 'AGV' (natural-feature SLAM option)."
+  "note": "Model-specific maker page opened 2026-11-17: Hikrobot's own LMR wiki page 'Q3-600D 主推车型技术参数' (no longer snippet-only). Maker-stated: 950x650x250 mm, 134 kg, rated load 600 kg, lift 60 mm electric (20 mm/s), platform 850x600 mm, ground clearance 25 mm, differential drive, rated speed 2.0 m/s empty / 1.8 m/s loaded, rotation 200/100 deg/s, positioning +/-10 mm / +/-1 deg, 3 deg slope, front laser + front/rear bumper + e-stop, QR/L-SLAM navigation, LiFePO4 48 V (1500 cycles), 8 h runtime at rated duty, charge <=1.5 h, rear charging, WiFi, touch screen. Distributor sheets list 132 kg and 9 h; maker page 134 kg / 8 h stored. Category note: natural-feature (L-SLAM/V-SLAM) navigation option makes 'AMR' arguably better than 'AGV'."
  },
  {
   "id": "hikrobot-q8-2000a",
@@ -3550,7 +3558,8 @@
   "price_note": null,
   "official_url": "https://www.hikrobotics.com/en/mobilerobot/LMR",
   "sources": [
-   "http://www.hikrobotics.com/en/mobilerobot/LMR"
+   "http://www.hikrobotics.com/en/mobilerobot/LMR",
+   "https://wiki-lmr.rms.hikrobotics.com/zh/AMR/LMR/Q8/Q8-2000-content"
   ],
   "summary": "Hikrobot's heavy-duty latent mobile robot that lifts and carries loads up to 2 t, e.g. pallets and fixtures in automotive plants.",
   "image_url": null,
@@ -3560,7 +3569,7 @@
    "https://data.robo2u.com/robots/hikrobot-q8-2000a"
   ],
   "verification": "official",
-  "note": "Heavy latent lifting AMR. Model is listed on Hikrobot's LMR page (JS tabs; confirmed via search excerpt) and has a section in Hikrobot's LMR wiki. Only maker-stated figures seen are from a Hikrobot-authored automotive solution brochure (search excerpt): rated load 2,000 kg, run time 6-8 h, running speed ~1 m/s. Widely repeated distributor spec (1523x1150x327 mm, 550 kg, 940 mm/s, 100 mm hydraulic lift, 8 h, <=1.5 h charge) not confirmed on an opened maker page - left out; note 0.94 m/s vs maker '1 m/s' rounding."
+  "note": "Heavy latent lifting AMR. Model is listed on Hikrobot's LMR page (JS tabs; confirmed via search excerpt) and has a section in Hikrobot's LMR wiki. Only maker-stated figures seen are from a Hikrobot-authored automotive solution brochure (search excerpt): rated load 2,000 kg, run time 6-8 h, running speed ~1 m/s. Widely repeated distributor spec (1523x1150x327 mm, 550 kg, 940 mm/s, 100 mm hydraulic lift, 8 h, <=1.5 h charge) not confirmed on an opened maker page - left out; note 0.94 m/s vs maker '1 m/s' rounding. Re-checked 2026-11-17: Hikrobot's LMR wiki has a Q8-2000A section (index page opened), but its '技术规格' link is broken (Page Not Found) and the 3D product page still renders its tabs by JS, so no model-specific maker spec table could be read. Widely repeated distributor table (1523x1150x327 mm, 550 kg, 2000 kg, 940 mm/s, 100 mm hydraulic lift, 8 h, <=1.5 h charge) is NOT maker-verified and stays out of the fields; payload 2000 kg remains from the maker automotive brochure."
  },
  {
   "id": "hikrobot-f4-1000c",
@@ -3655,7 +3664,7 @@
    "https://data.robo2u.com/robots/hikrobot-tp6-50sch"
   ],
   "verification": "unconfirmed",
-  "note": "Hikrobot's CTU page confirms the TP6 high-density tote series but its spec tabs don't render the TP6-50SCH model; 50 kg load, 3 m/s and 12 m reach appear only on resellers, so left out."
+  "note": "Hikrobot's CTU page confirms the TP6 high-density tote series but its spec tabs don't render the TP6-50SCH model; 50 kg load, 3 m/s and 12 m reach appear only on resellers, so left out. Re-checked 2026-11-17: Hikrobot's CTU page still renders no TP6-50SCH tab and no maker datasheet for this model was found; 50 kg / 3 m/s / 12 m remain reseller-only, so the record stays unconfirmed."
  },
  {
   "id": "visionnav-vnr-20",
