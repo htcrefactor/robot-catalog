@@ -295,7 +295,8 @@
   "official_url": "https://ottomotors.com/1500",
   "sources": [
    "https://www.rockwellautomation.com/content/dam/rockwell-automation/documents/pdf/events/automate/otto-1500-data-sheet.pdf",
-   "https://ottomotors.com/1500"
+   "https://ottomotors.com/1500",
+   "https://s3.amazonaws.com/assets.ottomotors.com/pdf/OTTO1500-v2-Datasheet-210406_eng.pdf"
   ],
   "summary": "Heavy-duty AMR for pallet-sized loads up to 1,900 kg (capacity includes attachment) in demanding plants.",
   "safety_note": "Maker's “Standards compliance” list for OTTO 1500.",
@@ -315,7 +316,11 @@
    "FCC Part 15 Subpart B",
    "ICES-003",
    "ICES-002"
-  ]
+  ],
+  "compute_memory_gb": 16,
+  "compute_source": "https://s3.amazonaws.com/assets.ottomotors.com/pdf/OTTO1500-v2-Datasheet-210406_eng.pdf",
+  "compute_tops": null,
+  "compute_soc": "Intel Core i7-6700TE"
  },
  {
   "id": "kuka-kmp-600-s-diffdrive",

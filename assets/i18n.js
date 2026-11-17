@@ -2,7 +2,7 @@
 const LANGS={en:"EN",ko:"KR"};
 const I18N={
 en:{
- brand:"Robot Catalog",nav_robots:"Robots",nav_dash:"Dashboard",nav_table:"Mega table",nav_data:"Open data",
+ brand:"Robot Catalog",nav_robots:"Robots",nav_dash:"Dashboard",nav_table:"Mega table",nav_data:"Open data",nav_chips:"Chips",
  home_title:"Mobile robot catalog",home_sub:"Wheeled, wheel-legged and legged robots: AMRs, AGVs, humanoids, quadrupeds, delivery robots and development platforms, with sourced specs.",
  robots:"robots",manufacturers:"manufacturers",categories:"categories",search:"Search name or maker…",all:"All",no_match:"No robots match.",
  max_speed:"Max speed",min_speed:"Min speed",payload:"Payload",ip:"IP rating",
@@ -18,6 +18,11 @@ en:{
  ros2:"ROS 2",sim_models:"Simulation models",sim_urdf:"URDF",sim_mjcf:"MJCF (MuJoCo)",sim_usd:"USD",sim_isaac:"Isaac Sim",sim_mujoco:"MuJoCo stack",sim_gazebo:"Gazebo",
  oss_repos:"Open-source repositories",sim_none:"No official simulation model listed.",dev_note:"Links go to the maker's own SDK, packages and simulation models.",
  flt_dev:"Build with it",dev_sdk:"SDK",dev_ros2:"ROS 2",dev_urdf:"URDF",dev_mjcf:"MJCF",dev_usd:"USD / Isaac Sim",dev_mujoco:"MuJoCo",dev_oss:"Open source",
+ compute_soc:"Compute chip",compute_tops:"AI compute",compute_memory:"Compute memory",compute_source:"Compute source",compute_source_open:"maker page ↗",
+ chip:"Chip",all_chips:"All chips",chips_title:"Chips",n_of:"{n} of {m} robots",
+ chips_sub:"Onboard compute grouped by chip. Only what a maker states is here: robots whose maker names no chip stay in the catalog but not on this page.",
+ chips_note:"Chip groups come from the maker's own wording in each record's compute chip field; the grouping is not stored in the data. TOPS figures are as the maker states them — figures published in TFLOPS (e.g. Jetson Thor's 2070 FP4 TFLOPS) are a different metric and are not converted.",
+ chips_robots:"Robots",chip_see:"see all {n}",chip_nameless:"Onboard compute stated, but the maker names no chip",
  summary_lang_note:"",
  safety_cert:"Safety & certifications",standards:"Standards",certifications:"Certifications",perf_level:"Performance level",safety_note:"Note",safety_source:"Maker source",safety_none:"The maker states no safety standard or certification for this robot.",
  sf_any:"Any certification",sf_iso3691:"ISO 3691-4",sf_iso13482:"ISO 13482",sf_iso13849:"ISO 13849-1",sf_pl:"PL / SIL stated",sf_ul3100:"UL 3100",sf_ce:"CE",sf_fcc:"FCC",sf_none:"No certification stated",
@@ -55,7 +60,7 @@ en:{
  cl_added:"Added",cl_updated:"Updated",cl_removed:"Removed",show_all:"Show all {n}",cl_nochange:"No record changes in this version.",cl_none:"No changelog yet."
 },
 ko:{
- brand:"로봇 카탈로그",nav_robots:"로봇",nav_dash:"대시보드",nav_table:"전체 표",nav_data:"오픈 데이터",
+ brand:"로봇 카탈로그",nav_robots:"로봇",nav_dash:"대시보드",nav_table:"전체 표",nav_data:"오픈 데이터",nav_chips:"칩",
  home_title:"모바일 로봇 카탈로그",home_sub:"바퀴형, 바퀴-다리형, 보행형 로봇: AMR, AGV, 휴머노이드, 4족 보행, 배송 로봇, 개발용 플랫폼의 출처 있는 사양.",
  robots:"대",manufacturers:"제조사",categories:"카테고리",search:"이름 또는 제조사 검색…",all:"전체",no_match:"조건에 맞는 로봇이 없습니다.",
  max_speed:"최고 속도",min_speed:"최저 속도",payload:"가반하중",ip:"IP 등급",
@@ -71,6 +76,11 @@ ko:{
  ros2:"ROS 2",sim_models:"시뮬레이션 모델",sim_urdf:"URDF",sim_mjcf:"MJCF (MuJoCo)",sim_usd:"USD",sim_isaac:"Isaac Sim",sim_mujoco:"MuJoCo 스택",sim_gazebo:"Gazebo",
  oss_repos:"오픈소스 저장소",sim_none:"공식 시뮬레이션 모델이 없습니다.",dev_note:"링크는 제조사가 직접 공개한 SDK, 패키지, 시뮬레이션 모델로 연결됩니다.",
  flt_dev:"개발 지원",dev_sdk:"SDK",dev_ros2:"ROS 2",dev_urdf:"URDF",dev_mjcf:"MJCF",dev_usd:"USD / Isaac Sim",dev_mujoco:"MuJoCo",dev_oss:"오픈소스",
+ compute_soc:"컴퓨팅 칩",compute_tops:"AI 연산 성능",compute_memory:"컴퓨팅 메모리",compute_source:"컴퓨팅 출처",compute_source_open:"제조사 페이지 ↗",
+ chip:"칩",all_chips:"전체 칩",chips_title:"칩별 로봇",n_of:"{m}대 중 {n}대",
+ chips_sub:"온보드 컴퓨팅을 칩 기준으로 묶었습니다. 제조사가 밝힌 값만 담았고, 칩을 밝히지 않은 로봇은 카탈로그에는 있지만 이 페이지에는 없습니다.",
+ chips_note:"칩 분류는 각 레코드의 컴퓨팅 칩 표기를 화면에서 묶은 것이며 데이터에는 저장하지 않습니다. TOPS 수치는 제조사가 밝힌 그대로이고, TFLOPS로 공개된 값(예: Jetson Thor의 2070 FP4 TFLOPS)은 단위가 달라 환산하지 않았습니다.",
+ chips_robots:"로봇",chip_see:"전체 {n}대 보기",chip_nameless:"온보드 컴퓨팅은 있으나 칩 이름을 밝히지 않은 로봇",
  summary_lang_note:"설명은 영어 원문입니다.",
  safety_cert:"안전 및 인증",standards:"규격",certifications:"인증",perf_level:"성능 등급",safety_note:"비고",safety_source:"제조사 출처",safety_none:"제조사가 이 로봇의 안전 규격·인증을 밝히지 않았습니다.",
  sf_any:"인증 전체",sf_iso3691:"ISO 3691-4",sf_iso13482:"ISO 13482",sf_iso13849:"ISO 13849-1",sf_pl:"PL / SIL 공개",sf_ul3100:"UL 3100",sf_ce:"CE",sf_fcc:"FCC",sf_none:"인증 미공개",

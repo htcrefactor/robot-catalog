@@ -77,7 +77,11 @@
     "kind": "distributor",
     "url": "https://www.younginmobility.com/"
    }
-  ]
+  ],
+  "compute_memory_gb": null,
+  "compute_source": "https://www.unitree.com/b2-w",
+  "compute_tops": null,
+  "compute_soc": "Intel Core i5 + Intel Core i7"
  },
  {
   "id": "unitree-go2-w",
@@ -211,7 +215,11 @@
     "kind": "distributor",
     "url": "https://www.younginmobility.com/"
    }
-  ]
+  ],
+  "compute_memory_gb": null,
+  "compute_source": "https://www.unitree.com/A2-W",
+  "compute_tops": null,
+  "compute_soc": "Intel Core i7"
  },
  {
   "id": "unitree-as2-w",
@@ -270,7 +278,11 @@
     "kind": "distributor",
     "url": "https://www.younginmobility.com/"
    }
-  ]
+  ],
+  "compute_memory_gb": null,
+  "compute_source": "https://www.unitree.com/As2-W",
+  "compute_tops": 150,
+  "compute_soc": null
  },
  {
   "id": "deep-robotics-lynx-m20",
@@ -330,7 +342,11 @@
     "url": "https://github.com/DeepRoboticsLab/deep_robotics_model/blob/main/M20/usd/M20.usd",
     "license": "BSD-3-Clause"
    }
-  }
+  },
+  "compute_memory_gb": 16,
+  "compute_source": null,
+  "compute_tops": null,
+  "compute_soc": null
  },
  {
   "id": "limx-dynamics-tron-1",
@@ -394,7 +410,11 @@
     "source": "https://shop.limxdynamics.com/products/tron-1-edu",
     "note": "TRON 1 Educational Edition"
    }
-  ]
+  ],
+  "compute_memory_gb": 16,
+  "compute_source": null,
+  "compute_tops": null,
+  "compute_soc": "Intel Core i3 (12th gen)"
  },
  {
   "id": "direct-drive-tech-diablo",
@@ -433,7 +453,11 @@
   ],
   "summary": "Self-balancing two-wheel-legged open development platform with six direct-drive joints; 4 kg payload standing, 80 kg in crouched mode, near-silent operation.",
   "note": "Direct Drive Technology Diablo product page (checked 2026-11-17): standing 540 x 371 x 491 mm (crouched 540 x 371 x 270 mm), 22.9 kg incl. docking mechanism, 6 DoF, battery 0.178 kWh (178 Wh), runtime about 1.5 h, charge about 1 h, payload 4 kg standing / 80 kg crouched, 2 m/s, 80 mm jump, Raspberry Pi 4 Model B, Ubuntu 20.04.",
-  "verification": "official"
+  "verification": "official",
+  "compute_memory_gb": null,
+  "compute_source": "https://robotics.directdrive.com/en/products/xingtian-robot/1653337674873306",
+  "compute_tops": null,
+  "compute_soc": "Raspberry Pi 4B"
  },
  {
   "id": "ascento-guard",
@@ -694,7 +718,11 @@
     "url": "https://github.com/DeepRoboticsLab/deep_robotics_model/blob/main/S10/usd/S10.usd",
     "license": "BSD-3-Clause"
    }
-  }
+  },
+  "compute_memory_gb": null,
+  "compute_source": null,
+  "compute_tops": null,
+  "compute_soc": null
  },
  {
   "id": "magiclab-magicdog-w",
@@ -1353,7 +1381,11 @@
    "https://embodied.guide/robots/genisom-gangben-l1-w/"
   ],
   "verification": "official",
-  "note": "GENISOM AI official page 钢镚 L1-W: 12 joint motors + 4 hub motors; limit speed 5.5 m/s; payload ≈10 kg (limit ~12 kg)."
+  "note": "GENISOM AI official page 钢镚 L1-W: 12 joint motors + 4 hub motors; limit speed 5.5 m/s; payload ≈10 kg (limit ~12 kg).",
+  "compute_memory_gb": null,
+  "compute_source": "https://www.genisomai.com/product-robot/L1-W",
+  "compute_tops": 100,
+  "compute_soc": "NVIDIA Jetson Orin NX"
  },
  {
   "id": "genisom-gangben-l2-w",

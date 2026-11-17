@@ -7,6 +7,7 @@ from catalog_data import CSV_COLUMNS, csv_row  # noqa: E402
 root = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 CATS = {"AMR","AGV","Humanoid","Quadruped","Wheel-legged","Indoor delivery","Outdoor delivery","Mobile platform","Misc"}
 KINDS = {"list","from","rental","edu"}
+PRECISIONS = {"INT8","INT4","FP8","FP4","FP16","BF16","FP32"}
 err, ids, records, warn = [], {}, {}, []
 KR_KINDS = {"direct", "distributor", "reseller"}
 SDK_KEYS = {"languages", "open_source", "license", "url"}
@@ -125,6 +126,19 @@ for f in sorted(glob.glob(os.path.join(root, "data/parts/*.json"))):
                     if not (isinstance(d.get("url"), str) and d["url"].startswith("http")): err.append(f"{i}: kr_distributors entry needs an http(s) url ({name})")
                     if d.get("kind") not in KR_KINDS: err.append(f"{i}: kr_distributors kind must be one of {sorted(KR_KINDS)} ({name})")
         if r.get("country") == "South Korea" and not r.get("manufacturer_ko"): warn.append(f"{i}: South Korean record without manufacturer_ko")
+        # structured compute (Issue #28): types, precision vocabulary, source must be in sources
+        cs = r.get("compute_soc")
+        if cs is not None and (not isinstance(cs, str) or not cs.strip()): err.append(f"{i}: compute_soc must be a non-empty string or null")
+        ct = r.get("compute_tops")
+        if ct is not None and (isinstance(ct, bool) or not isinstance(ct, (int, float)) or ct <= 0): err.append(f"{i}: compute_tops must be a positive number or null")
+        cp = r.get("compute_tops_precision")
+        if cp is not None and cp not in PRECISIONS: err.append(f"{i}: unknown compute_tops_precision {cp}")
+        cm = r.get("compute_memory_gb")
+        if cm is not None and (isinstance(cm, bool) or not isinstance(cm, int) or cm <= 0): err.append(f"{i}: compute_memory_gb must be a positive integer or null")
+        csrc = r.get("compute_source")
+        if csrc is not None and (not isinstance(csrc, str) or not csrc.startswith("http")): err.append(f"{i}: compute_source must be a URL or null")
+        if csrc and csrc not in (r.get("sources") or []): err.append(f"{i}: compute_source {csrc} is not listed in sources")
+        if (cs or ct or cm) and r.get("onboard_compute") is False: err.append(f"{i}: compute values but onboard_compute is false")
         obs = r.get("price_observations")
         if obs is None: continue
         if not isinstance(obs, list): err.append(f"{i}: price_observations must be a list"); continue

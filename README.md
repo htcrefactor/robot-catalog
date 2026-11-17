@@ -11,7 +11,7 @@ Product specs for mobile robots of all kinds — AMRs, AGVs, humanoids, quadrupe
 - `index.html` (all robots) · `robot.html?id=…` (one robot) · `dashboard.html` (charts) · `table.html` (mega table)
 - `research/disagreements.json` + `review.html` — maintainer-only cross-catalogue review aid (below)
 - `data/robots.csv` — the same records, one row per robot, written by the same `merge.py`
-- `index.html` (all robots) · `robot.html?id=…` (one robot) · `dashboard.html` (charts) · `table.html` (mega table) · `specs.html` (every spec field) · `data.html` (open data)
+- `index.html` (all robots) · `robot.html?id=…` (one robot) · `chips.html` (robots by compute chip) · `dashboard.html` (charts) · `table.html` (mega table) · `specs.html` (every spec field) · `data.html` (open data)
 
 ## Open data
 - **Download page:** https://htcrefactor.github.io/robot-catalog/data.html — the files, every field with its unit, the license, the version and example fetch code.

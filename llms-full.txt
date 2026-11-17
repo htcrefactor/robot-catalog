@@ -583,7 +583,7 @@
 - AMR · Wheeled · Commercial · United States
 - Summary: Heavy-duty AMR for pallet-sized loads up to 1,900 kg (capacity includes attachment) in demanding plants.
 - Specs: Length 1,837 mm; Width 1,283 mm; Height 351 mm; Weight 627 kg; Payload 1,900 kg; Max speed 2 m/s (7.2 km/h); Runtime 10 h; Battery 4,224 Wh; IP rating IP20; Status Commercial; Compute Solid-state military-spec computer with dedicated GPU; Sensors 4x Intel RealSense cameras, 2x SICK microScan3 safety laser scanners (360°), 6-axis IMU
-- Sources: https://ottomotors.com/1500, https://www.rockwellautomation.com/content/dam/rockwell-automation/documents/pdf/events/automate/otto-1500-data-sheet.pdf
+- Sources: https://ottomotors.com/1500, https://www.rockwellautomation.com/content/dam/rockwell-automation/documents/pdf/events/automate/otto-1500-data-sheet.pdf, https://s3.amazonaws.com/assets.ottomotors.com/pdf/OTTO1500-v2-Datasheet-210406_eng.pdf
 
 ### PAL Robotics StockBot
 
@@ -5689,7 +5689,7 @@
 - Humanoid · Legged · Commercial · China · released 2025
 - Summary: UBTECH's second-generation industrial humanoid, the first able to swap its own battery for 24/7 work, aimed at automotive and smart-factory tasks with a 15 kg dual-arm payload across a 0-1.8 m workspace.
 - Specs: Height 1,760 mm; Weight 70 kg; Payload 15 kg; Degrees of freedom 52; Runtime 2.5 h; Released 2025; Status Commercial; API yes; SDK yes; SDK name UBTECH Walker S2 ROS 2 SDK; ROS yes; On-board compute yes; Compute x86 (Intel i7 class) + NVIDIA Jetson Orin; Ubuntu + ROSA 2.0; Sensors Depth camera, Six-axis force/torque sensor, IMU, Fisheye camera, 4-microphone array and 4-inch circular display
-- Sources: https://www.ubtrobot.com/en/humanoid/products/walker-s2, https://a.storyblok.com/f/298593/x/1329253096/ubtech-walker-s2-sdk-secondary-development-document-external.pdf, https://www.ubtrobot.com/cn/humanoid/products/walker-s2, https://cdn.robotshop.com/media/U/Ubt/RB-Ubt-37/pdf/ubtech-walker-s2-product%20manual.pdf
+- Sources: https://www.ubtrobot.com/en/humanoid/products/walker-s2, https://a.storyblok.com/f/298593/x/1329253096/ubtech-walker-s2-sdk-secondary-development-document-external.pdf, https://www.ubtrobot.com/cn/humanoid/products/walker-s2, https://cdn.robotshop.com/media/U/Ubt/RB-Ubt-37/pdf/ubtech-walker-s2-product%20manual.pdf, https://humanoidstore.co/robots/ubtech-walker-s2
 
 ### UBTech Robotics Walker Tienkung
 
@@ -6938,7 +6938,7 @@
 - Quadruped · Legged · Commercial · China
 - Summary: Compact quadruped for robotics education, reinforcement-learning research and entertainment.
 - Specs: Length 610 mm; Width 370 mm; Height 406 mm; Weight 12 kg; Payload 5 kg; Runtime 1.5 h; Status Commercial; API yes; SDK yes; SDK name Lite3 Motion SDK; ROS yes; On-board compute yes; Compute RK3588 motion host; NVIDIA Jetson Xavier NX perception host on Pro/LiDAR versions; Sensors Wide-angle camera, Depth camera (Intel RealSense D435i, Pro/LiDAR), LiDAR (LiDAR version)
-- Sources: https://www.deeprobotics.us/products/lite-3/, https://github.com/DeepRoboticsLab/Lite3_MotionSDK, https://github.com/DeepRoboticsLab/deep_robotics_model/blob/main/Lite3/urdf/Lite3.urdf, https://github.com/DeepRoboticsLab/deep_robotics_model/blob/main/Lite3/mjcf/Lite3.xml, https://github.com/DeepRoboticsLab/deep_robotics_model/blob/main/Lite3/usd/Lite3.usd, https://github.com/DeepRoboticsLab/rl_training, https://github.com/DeepRoboticsLab/deep_robotics_model, https://github.com/DeepRoboticsLab/Lite3_ROS
+- Sources: https://www.deeprobotics.us/products/lite-3/, https://github.com/DeepRoboticsLab/Lite3_MotionSDK, https://github.com/DeepRoboticsLab/deep_robotics_model/blob/main/Lite3/urdf/Lite3.urdf, https://github.com/DeepRoboticsLab/deep_robotics_model/blob/main/Lite3/mjcf/Lite3.xml, https://github.com/DeepRoboticsLab/deep_robotics_model/blob/main/Lite3/usd/Lite3.usd, https://github.com/DeepRoboticsLab/rl_training, https://github.com/DeepRoboticsLab/deep_robotics_model, https://github.com/DeepRoboticsLab/Lite3_ROS, https://developer.deeprobotics.cn/docs/lite3/guide/software/compute/
 
 ### DEEP Robotics X30 Pro
 

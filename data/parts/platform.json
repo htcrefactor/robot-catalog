@@ -83,7 +83,11 @@
    "FCC Part 18",
    "ICES-002",
    "ICES-003"
-  ]
+  ],
+  "compute_memory_gb": null,
+  "compute_source": null,
+  "compute_tops": null,
+  "compute_soc": "Intel Core i3-13100TE"
  },
  {
   "id": "clearpath-jackal",
@@ -156,7 +160,11 @@
   "certifications": [
    "FCC Part 18",
    "ICES-002"
-  ]
+  ],
+  "compute_memory_gb": 16,
+  "compute_source": null,
+  "compute_tops": null,
+  "compute_soc": "Intel Core i3-9100TE"
  },
  {
   "id": "clearpath-ridgeback",
@@ -680,7 +688,11 @@
     "license": "Apache-2.0"
    }
   ],
-  "ros2_url": "https://github.com/turtlebot/turtlebot4"
+  "ros2_url": "https://github.com/turtlebot/turtlebot4",
+  "compute_memory_gb": 4,
+  "compute_source": "https://turtlebot.github.io/turtlebot4-user-manual/overview/features.html",
+  "compute_tops": null,
+  "compute_soc": "Raspberry Pi 4B"
  },
  {
   "id": "hello-robot-stretch-3",
@@ -772,7 +784,11 @@
   "safety_standards": [],
   "safety_source": "https://github.com/hello-robot/stretch_hardware_guides/blob/master/docs/hardware_guide_stretch_3.md",
   "safety_pl": null,
-  "certifications": []
+  "certifications": [],
+  "compute_memory_gb": null,
+  "compute_source": "https://hello-stretch3.com/stretch-3-product",
+  "compute_tops": null,
+  "compute_soc": "Intel NUC 12"
  },
  {
   "id": "segway-rmp-lite-220",
@@ -1407,7 +1423,11 @@
    "https://data.robo2u.com/robots/robotnik-rb-vogui"
   ],
   "verification": "official",
-  "note": "Robotnik datasheet (2023, UR arm version). Weight = 165 kg base + 20.6 kg arm. Newer 2026 datasheet lists UR7e/UR8/UR12e variants at 1044x776x742 mm, 130/105/115 kg payload, IP53."
+  "note": "Robotnik datasheet (2023, UR arm version). Weight = 165 kg base + 20.6 kg arm. Newer 2026 datasheet lists UR7e/UR8/UR12e variants at 1044x776x742 mm, 130/105/115 kg payload, IP53.",
+  "compute_memory_gb": null,
+  "compute_source": "https://robotnik.eu/products/mobile-robots/rb-vogui+",
+  "compute_tops": null,
+  "compute_soc": "Intel Core i7"
  },
  {
   "id": "robotnik-rb-kairos-plus",
@@ -1458,7 +1478,11 @@
    "https://data.robo2u.com/robots/robotnik-rb-kairos"
   ],
   "verification": "official",
-  "note": "Robotnik 2024 datasheet, UR5e version (UR16e version 1410 mm tall, 153 kg). Weight = 115 kg base + 25 kg arm."
+  "note": "Robotnik 2024 datasheet, UR5e version (UR16e version 1410 mm tall, 153 kg). Weight = 115 kg base + 25 kg arm.",
+  "compute_memory_gb": null,
+  "compute_source": "https://robotnik.eu/products/mobile-manipulators/rb-kairos/",
+  "compute_tops": null,
+  "compute_soc": "Intel Core i7"
  },
  {
   "id": "pal-tiago",
@@ -1650,7 +1674,11 @@
    "https://data.robo2u.com/robots/fetch-mobile-manipulator"
   ],
   "verification": "official",
-  "note": "Re-checked 2026-11-17: Zebra/Fetch have no live product page (zebra.com/us/en/products/robotics.html returns 404; Zebra sold its robotics automation business - formerly Fetch Robotics - to Skild AI, closing 2026-03-27 per Zebra's 10-Q) and the maker's documentation host docs.fetchrobotics.com no longer resolves (ERR_TUNNEL_CONNECTION_FAILED; page fetch HTTP 500), although the Wayback Machine holds a 200 snapshot of this page from 2024-04-18. Stored figures are the Fetch hardware documentation values (113.3 kg, 508 mm wide / 559 mm dia base, 1.49 m with torso up, 6 kg arm payload, 1.0 m/s, 13 DoF, i5 / 16 GB / 120 GB SSD, 3 h to 90%) plus the Fetch spec sheet copy on a reseller host; no value was changed in this pass."
+  "note": "Re-checked 2026-11-17: Zebra/Fetch have no live product page (zebra.com/us/en/products/robotics.html returns 404; Zebra sold its robotics automation business - formerly Fetch Robotics - to Skild AI, closing 2026-03-27 per Zebra's 10-Q) and the maker's documentation host docs.fetchrobotics.com no longer resolves (ERR_TUNNEL_CONNECTION_FAILED; page fetch HTTP 500), although the Wayback Machine holds a 200 snapshot of this page from 2024-04-18. Stored figures are the Fetch hardware documentation values (113.3 kg, 508 mm wide / 559 mm dia base, 1.49 m with torso up, 6 kg arm payload, 1.0 m/s, 13 DoF, i5 / 16 GB / 120 GB SSD, 3 h to 90%) plus the Fetch spec sheet copy on a reseller host; no value was changed in this pass.",
+  "compute_memory_gb": 16,
+  "compute_source": null,
+  "compute_tops": null,
+  "compute_soc": "Intel Core i5 (Haswell)"
  },
  {
   "id": "toyota-hsr",
@@ -1851,7 +1879,11 @@
    "https://roboticsrankings.com/robots/agilex-cobot-magic/"
   ],
   "verification": "official",
-  "note": "Mobile ALOHA-based bimanual teleoperation/data-collection platform: TRACER 2.0 differential base + 4x PiPER 6-DoF arms. Dims = stand frame 1125x758x1507 mm. Supports ROS 1/ROS 2, SDKs, LeRobot etc."
+  "note": "Mobile ALOHA-based bimanual teleoperation/data-collection platform: TRACER 2.0 differential base + 4x PiPER 6-DoF arms. Dims = stand frame 1125x758x1507 mm. Supports ROS 1/ROS 2, SDKs, LeRobot etc.",
+  "compute_memory_gb": null,
+  "compute_source": "https://global.agilex.ai/pages/blogs",
+  "compute_tops": null,
+  "compute_soc": "NVIDIA GeForce RTX 4060"
  },
  {
   "id": "cobalt-robot",
@@ -1986,7 +2018,11 @@
   "safety_standards": [],
   "safety_source": "https://franka.de/hubfs/Prototype%20Manual%20and%20Datasheets%20_Mobile%20FR3%20Duo_R04245_EN.pdf",
   "safety_pl": null,
-  "certifications": []
+  "certifications": [],
+  "compute_memory_gb": null,
+  "compute_source": "https://franka.de/mobile-fr3-duo",
+  "compute_tops": null,
+  "compute_soc": "NVIDIA Jetson AGX Orin"
  },
  {
   "id": "hello-robot-stretch-4",
@@ -2272,7 +2308,11 @@
    }
   ],
   "ros2_url": "https://github.com/NVIDIA-ISAAC-ROS/nova_carter",
-  "ros2_support": true
+  "ros2_support": true,
+  "compute_memory_gb": 64,
+  "compute_source": "https://robotics.segway.com/nova-carter",
+  "compute_tops": null,
+  "compute_soc": "NVIDIA Jetson AGX Orin 64GB"
  },
  {
   "id": "sigrobotics-lekiwi",
@@ -2347,7 +2387,11 @@
     "url": "https://github.com/SIGRobotics-UIUC/LeKiwi",
     "license": "Apache-2.0"
    }
-  ]
+  ],
+  "compute_memory_gb": null,
+  "compute_source": "https://github.com/SIGRobotics-UIUC/LeKiwi",
+  "compute_tops": null,
+  "compute_soc": "Raspberry Pi"
  },
  {
   "id": "smp-robotics-argus-s5-4",
@@ -2397,7 +2441,11 @@
    "https://roboticsrankings.com/robots/smp-robotics-argus-s5-4/"
   ],
   "verification": "official",
-  "note": "Shipping from March 2026; NVIDIA Jetson Orin NX for third-party AI apps (SMP Store), dual-system design, API. Speed 4-6 km/h and IP65 are stated for the Argus outdoor patrol platform generally (max 6 km/h used)."
+  "note": "Shipping from March 2026; NVIDIA Jetson Orin NX for third-party AI apps (SMP Store), dual-system design, API. Speed 4-6 km/h and IP65 are stated for the Argus outdoor patrol platform generally (max 6 km/h used).",
+  "compute_memory_gb": null,
+  "compute_source": "https://smprobotics.com/usa/argus-s5-4-nvidia-jetson-orin-third-party-ai-software",
+  "compute_tops": null,
+  "compute_soc": "NVIDIA Jetson Orin NX"
  },
  {
   "id": "trossen-mobile-ai",

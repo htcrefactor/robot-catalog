@@ -227,6 +227,7 @@ Maker page: Basic 610 x 370 x 406 mm, 12 kg, 5 kg payload, 1.5-2 h operation (1.
 - [github.com](https://github.com/DeepRoboticsLab/rl_training)
 - [github.com](https://github.com/DeepRoboticsLab/deep_robotics_model)
 - [github.com](https://github.com/DeepRoboticsLab/Lite3_ROS)
+- [developer.deeprobotics.cn](https://developer.deeprobotics.cn/docs/lite3/guide/software/compute/)
 
 ---
 

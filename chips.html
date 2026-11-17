@@ -1,0 +1,38 @@
+<!doctype html><html lang="en"><head><script async src="https://www.googletagmanager.com/gtm.js?id=GTM-N5QZLXVX"></script><script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());</script><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><link rel="stylesheet" href="assets/style.css"><script src="assets/i18n.js"></script><script src="assets/specs-i18n.js"></script><script src="assets/app.js"></script><script src="assets/compute.js"></script><meta name="description" content="Mobile robots grouped by onboard compute chip (NVIDIA Jetson, Rockchip RK3588, Intel, Raspberry Pi), with the maker's own stated specs."><title>Chips — Robot Catalog</title></head>
+<body><script>nav("chips.html")</script>
+<main>
+<h1 data-i18n="chips_title"></h1>
+<p class="muted" data-i18n="chips_sub"></p>
+<div class="controls"><input type="search" id="q" data-i18n-ph="search"><span class="small muted" id="n"></span></div>
+<div class="stats" id="stats"></div>
+<div id="list"></div>
+<div id="nameless"></div>
+<div class="panel small muted" data-i18n="chips_note"></div>
+</main><div id="foot"></div>
+<script>
+document.title=t("chips_title")+" — "+t("brand");
+let all=[];
+function render(){
+ const q=document.getElementById("q").value.toLowerCase();
+ const groups=new Map();
+ all.forEach(r=>chipIds(r).forEach(id=>{if(!groups.has(id))groups.set(id,[]);groups.get(id).push(r);}));
+ const rows=[...groups.entries()].map(([id,list])=>({id,label:chipLabel(id),list})).sort((a,b)=>b.list.length-a.list.length||a.label.localeCompare(b.label))
+  .filter(g=>!q||g.label.toLowerCase().includes(q)||g.list.some(r=>(r.manufacturer+" "+r.name).toLowerCase().includes(q)));
+ const nRobots=new Set(rows.flatMap(g=>g.list.map(r=>r.id))).size;
+ document.getElementById("n").textContent=t("n_of",{n:nRobots,m:all.length});
+ document.getElementById("list").innerHTML=rows.map(g=>`<div class="panel" id="chip-${g.id}">
+ <h2>${esc(g.label)} <span class="muted small">${g.list.length} ${t("chips_robots")}</span></h2>
+ <p class="small">${g.list.slice().sort((a,b)=>(a.manufacturer||"").localeCompare(b.manufacturer||"")||(a.name||"").localeCompare(b.name||""))
+   .map(r=>`<a href="robot.html?id=${encodeURIComponent(r.id)}">${esc(r.manufacturer)} ${esc(r.name)}</a>${r.compute_soc||r.compute_memory_gb!=null||r.compute_tops!=null?` <span class="muted">(${esc(r.compute_soc||"")}${r.compute_memory_gb!=null?` · ${r.compute_memory_gb} GB`:""}${r.compute_tops!=null?` · ${topsText(r)}`:""})</span>`:""}`)
+   .join("<br>")}</p>
+ <p class="small"><a href="index.html?chip=${encodeURIComponent(g.id)}">${t("chip_see",{n:g.list.length})} →</a></p></div>`).join("")||`<p class="muted">${t("no_match")}</p>`;
+ // robots that state onboard compute but whose maker names no chip
+ const named=new Set(all.filter(r=>chipIds(r).length).map(r=>r.id));
+ const rest=all.filter(r=>!named.has(r.id)&&r.onboard_compute===true&&!q);
+ document.getElementById("nameless").innerHTML=rest.length?`<details class="miss"><summary>${t("chip_nameless")} — ${rest.length}</summary><p class="small">${rest.sort((a,b)=>(a.manufacturer||"").localeCompare(b.manufacturer||"")).map(r=>`<a href="robot.html?id=${encodeURIComponent(r.id)}">${esc(r.manufacturer)} ${esc(r.name)}</a>`).join(" · ")}</p></details>`:"";
+}
+(async()=>{const d=await loadData();all=d.robots;document.getElementById("foot").innerHTML=footer(d.meta);
+ const withChip=all.filter(r=>chipIds(r).length).length;
+ document.getElementById("stats").innerHTML=`<div class="stat"><b>${new Set(all.flatMap(r=>chipIds(r))).size}</b>${t("chip")}</div><div class="stat"><b>${withChip}</b>${t("chips_robots")}</div>`;
+ document.getElementById("q").oninput=render;render();})();
+</script></body></html>

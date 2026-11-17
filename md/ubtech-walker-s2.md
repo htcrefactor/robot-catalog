@@ -259,6 +259,7 @@ Maker figures (product page and Walker S2 Product Manual V1.0, 2025-09-23): 176 
 - [a.storyblok.com](https://a.storyblok.com/f/298593/x/1329253096/ubtech-walker-s2-sdk-secondary-development-document-external.pdf)
 - [ubtrobot.com](https://www.ubtrobot.com/cn/humanoid/products/walker-s2)
 - [cdn.robotshop.com](https://cdn.robotshop.com/media/U/Ubt/RB-Ubt-37/pdf/ubtech-walker-s2-product%20manual.pdf)
+- [humanoidstore.co](https://humanoidstore.co/robots/ubtech-walker-s2)
 
 ---
 

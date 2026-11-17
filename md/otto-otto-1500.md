@@ -167,6 +167,7 @@ Fields the maker does not publish are left out here — the catalog never fills 
 
 - Official page: [ottomotors.com](https://ottomotors.com/1500)
 - [rockwellautomation.com](https://www.rockwellautomation.com/content/dam/rockwell-automation/documents/pdf/events/automate/otto-1500-data-sheet.pdf)
+- [s3.amazonaws.com](https://s3.amazonaws.com/assets.ottomotors.com/pdf/OTTO1500-v2-Datasheet-210406_eng.pdf)
 
 ---
 

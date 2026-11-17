@@ -35,6 +35,11 @@
   },
   "onboard_compute": null,             // true/false/null: user-accessible onboard compute
   "compute_detail": null,              // e.g. "NVIDIA Jetson Orin NX 16GB"
+  "compute_soc": null,                 // chip/SoC as the maker states it, e.g. "NVIDIA Jetson AGX Orin 32GB"
+  "compute_tops": null,                // AI performance in TOPS as the maker states it (number); null when not stated
+  "compute_tops_precision": null,      // precision the maker states with that figure (e.g. "INT8", "FP4"); omitted when none
+  "compute_memory_gb": null,           // memory of that onboard computer, GB
+  "compute_source": null,              // URL of the maker page/datasheet that states these compute values
   "ros_support": null,                 // true/false/null: ROS (any distribution) support from the maker
   "ros2_support": null,                // true/false/null: official ROS 2 packages from the maker
   "ros2_url": null,                    // maker's ROS 2 packages or documentation
@@ -121,3 +126,25 @@ leave the arrays empty and record the statement in `safety_note`.
 table column, so no derived value is written into the data.
 
 Korean-market fields: `name_ko`, `manufacturer_ko`, `kr_distributors` and `kr_note` come from the maker's own Korean page or an official Korean distributor's page, listed in that record's `sources`. Leave `name_ko` null when the maker publishes no Korean product name (a model number stays as it is). `kr_distributors` is a list and may be empty; when a record has an entry, `validate.py` checks name, http(s) url and kind.
+
+## Structured compute (`compute_*`)
+The five `compute_*` fields are the filterable form of `compute_detail` (Issue #28). `compute_detail`
+stays the maker's full sentence; the structured fields hold only what that sentence — or the robot's
+`data/specs/<id>.json` Compute & Software rows from the same maker source — states outright.
+- `compute_soc` keeps the maker's own chip wording, trimmed to the chip(s): `"NVIDIA Jetson Orin NX
+  16GB"`, `"Intel Core i7-13700H"`, `"Rockchip RK3588 + NVIDIA Jetson Xavier NX"`. The chip filter
+  groups these wordings into chip families in `assets/compute.js`; the grouping is UI-side, never stored.
+- `compute_tops` is a **TOPS** figure only. Figures the maker states in TFLOPS (e.g. "2070 FP4 TFLOPS"
+  for Jetson Thor) are a different metric and stay in `compute_detail` and the spec rows; they are not
+  converted or copied into `compute_tops`.
+- `compute_tops_precision` exists so a stated precision is not lost. As of 2026-11-17 no record has one:
+  no maker states a precision for the TOPS figure it publishes, and the three FP4 figures in the catalog
+  are TFLOPS. Omitted rather than written as null.
+- `compute_memory_gb`: memory of the onboard computer named in `compute_soc`. Where the maker gives a
+  range or per-computer figures, the first stated value is kept and `compute_detail` carries the rest.
+- `compute_source` is the single maker URL that states these values and is always also in `sources`.
+  It is null where the values come from a record's existing maker-sourced `compute_detail` but no single
+  page could be re-confirmed; the record's `sources` then still apply. Never a competitor or aggregator URL.
+- Machines whose maker names no chip (e.g. "8-core high-performance CPU") keep these fields null and stay
+  findable through `compute_detail`.
+Records with no structured compute value do not carry the value fields; readers treat a missing key as null.

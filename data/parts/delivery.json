@@ -409,11 +409,16 @@
   "official_url": "https://www.serverobotics.com/robot",
   "sources": [
    "https://www.globenewswire.com/news-release/2024/10/16/2963910/0/en/Serve-Robotics-Rolls-Out-Third-Generation-Autonomous-Delivery-Robot-Platform-Upgrade-Will-Support-National-Scaling.html",
-   "https://www.sec.gov/Archives/edgar/data/1832483/000183248326000034/finalserve_investorxdeck.htm"
+   "https://www.sec.gov/Archives/edgar/data/1832483/000183248326000034/finalserve_investorxdeck.htm",
+   "https://www.serverobotics.com/robot"
   ],
   "summary": "Third-generation Level 4 sidewalk food-delivery robot built with Magna, running on Uber Eats and other platforms in US cities.",
   "verification": "official",
-  "note": "serverobotics.com/robot is service copy with no specification table, so the figures come from the maker's own launch release (16 Oct 2024, via GlobeNewswire) and its SEC investor deck: Level 4 sidewalk robot built with Magna, top speed 11 mph, 48 mi range, 15 gal cargo, NVIDIA Jetson Orin, Ouster REV7 lidar. Payload, mass and dimensions are not published in either document."
+  "note": "serverobotics.com/robot is service copy with no specification table, so the figures come from the maker's own launch release (16 Oct 2024, via GlobeNewswire) and its SEC investor deck: Level 4 sidewalk robot built with Magna, top speed 11 mph, 48 mi range, 15 gal cargo, NVIDIA Jetson Orin, Ouster REV7 lidar. Payload, mass and dimensions are not published in either document.",
+  "compute_memory_gb": null,
+  "compute_source": "https://www.serverobotics.com/robot",
+  "compute_tops": null,
+  "compute_soc": "NVIDIA Jetson Orin"
  },
  {
   "id": "kiwibot-kiwibot",
@@ -1017,7 +1022,11 @@
    "https://botupyourlife.com/en/robots/pudu-swiftbot/"
   ],
   "verification": "official",
-  "note": "Pudu Academy spec: models SWFD01 (no door)/SWFD11 (auto door), battery 25.6 Ah at DC 23-29.4 V (Wh not stated), battery life 10-24 h (runtime_h = lower bound), 0.5-1.2 m/s, 3 trays 502x433 mm. Pudu news: showcased May 2022 (Qualcomm 5G Summit) with 3 RGBD + 2 RGB + dual LiDAR and 15 TOPS. Weight 59/49 kg, 35 kg max load and 488x593x1281 mm appear in Pudu datasheets hosted by resellers (not opened) - left out."
+  "note": "Pudu Academy spec: models SWFD01 (no door)/SWFD11 (auto door), battery 25.6 Ah at DC 23-29.4 V (Wh not stated), battery life 10-24 h (runtime_h = lower bound), 0.5-1.2 m/s, 3 trays 502x433 mm. Pudu news: showcased May 2022 (Qualcomm 5G Summit) with 3 RGBD + 2 RGB + dual LiDAR and 15 TOPS. Weight 59/49 kg, 35 kg max load and 488x593x1281 mm appear in Pudu datasheets hosted by resellers (not opened) - left out.",
+  "compute_memory_gb": null,
+  "compute_source": "https://academy.pudutech.com/en/docs/chan-pin-jian-jie-mGSQ",
+  "compute_tops": 15,
+  "compute_soc": null
  },
  {
   "id": "gausium-delivery-x1",
@@ -2035,7 +2044,11 @@
    "https://botupyourlife.com/en/robots/csjbot-renwoxing-unmanned-retail-vehicle/"
   ],
   "verification": "official",
-  "note": "Chinese name 任我行无人零售车 on alpha-robot.com.cn (苏州穿山甲机器人). Speed 10 km/h."
+  "note": "Chinese name 任我行无人零售车 on alpha-robot.com.cn (苏州穿山甲机器人). Speed 10 km/h.",
+  "compute_memory_gb": null,
+  "compute_source": "https://www.alpha-robot.com.cn/productrwx/139/detail/14.html",
+  "compute_tops": null,
+  "compute_soc": "NVIDIA Jetson Xavier"
  },
  {
   "id": "piaggio-gitaplus",
@@ -2193,7 +2206,11 @@
    "https://roboticsrankings.com/robots/diligent-robotics-moxi/"
   ],
   "verification": "official",
-  "note": "Maker product page + Moxi 2.0 announcement (Oct 2025; rollout Aug 2026, NVIDIA Thor compute). Maker publishes no dimensions/weight/speed; aggregator figures (136 kg, 152 cm) left null. Category 'Indoor delivery' ok but it is a mobile manipulator (one arm)."
+  "note": "Maker product page + Moxi 2.0 announcement (Oct 2025; rollout Aug 2026, NVIDIA Thor compute). Maker publishes no dimensions/weight/speed; aggregator figures (136 kg, 152 cm) left null. Category 'Indoor delivery' ok but it is a mobile manipulator (one arm).",
+  "compute_memory_gb": null,
+  "compute_source": "https://www.diligentrobots.com/blog/moxi2-0",
+  "compute_tops": null,
+  "compute_soc": "NVIDIA Jetson Thor"
  },
  {
   "id": "bear-robotics-servi-q",

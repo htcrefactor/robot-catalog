@@ -3567,7 +3567,8 @@
    "official_url": "https://ottomotors.com/1500",
    "sources": [
     "https://www.rockwellautomation.com/content/dam/rockwell-automation/documents/pdf/events/automate/otto-1500-data-sheet.pdf",
-    "https://ottomotors.com/1500"
+    "https://ottomotors.com/1500",
+    "https://s3.amazonaws.com/assets.ottomotors.com/pdf/OTTO1500-v2-Datasheet-210406_eng.pdf"
    ],
    "summary": "Heavy-duty AMR for pallet-sized loads up to 1,900 kg (capacity includes attachment) in demanding plants.",
    "safety_note": "Maker's “Standards compliance” list for OTTO 1500.",
@@ -3587,7 +3588,11 @@
     "FCC Part 15 Subpart B",
     "ICES-003",
     "ICES-002"
-   ]
+   ],
+   "compute_memory_gb": 16,
+   "compute_source": "https://s3.amazonaws.com/assets.ottomotors.com/pdf/OTTO1500-v2-Datasheet-210406_eng.pdf",
+   "compute_tops": null,
+   "compute_soc": "Intel Core i7-6700TE"
   },
   {
    "id": "orionstar-carrybot",
@@ -5469,7 +5474,11 @@
    ],
    "summary": "Soft-bodied, tendon-driven home humanoid for chores with a voice interface and remote 'Expert Mode'; hands IP68, body IP44; imperial specs converted (5'6\", 66 lb, 55 lb carry).",
    "verification": "official",
-   "notes": "Issue #17 (2026-11-17): confirmed on 1x.tech/neo - 5'6\" (1676 mm), 66 lb (29.9 kg), 55 lb carry, arm payload 18 lb, 842 Wh, 4 h, IP44 body / IP68 hands, US$20,000 Early Access (1x.tech/order). 6.2 m/s is 1X's stated max run speed (walking 1.4 m/s). DoF 75 derived (hands 22x2 + arms 7x2 + neck 3 + spine 2 + legs 6x2)."
+   "notes": "Issue #17 (2026-11-17): confirmed on 1x.tech/neo - 5'6\" (1676 mm), 66 lb (29.9 kg), 55 lb carry, arm payload 18 lb, 842 Wh, 4 h, IP44 body / IP68 hands, US$20,000 Early Access (1x.tech/order). 6.2 m/s is 1X's stated max run speed (walking 1.4 m/s). DoF 75 derived (hands 22x2 + arms 7x2 + neck 3 + spine 2 + legs 6x2).",
+   "compute_memory_gb": null,
+   "compute_source": "https://www.1x.tech/neo",
+   "compute_tops": null,
+   "compute_soc": "NVIDIA Jetson Thor"
   },
   {
    "id": "aset-manav",
@@ -5894,7 +5903,11 @@
     "https://humanoid.guide/product/alphabot-2/"
    ],
    "verification": "official",
-   "note": "Wheeled dual-arm humanoid (differential chassis, folding lift legs). Launch release said 34+ DoF incl. end effectors; hardware docs say 22 DoF excl. end effectors — used docs. spec: runtime 4–6 h (max used); battery_wh computed from 48V×30Ah; payload 4 kg rated per arm; wheel_count = 2 drive wheels (differential)"
+   "note": "Wheeled dual-arm humanoid (differential chassis, folding lift legs). Launch release said 34+ DoF incl. end effectors; hardware docs say 22 DoF excl. end effectors — used docs. spec: runtime 4–6 h (max used); battery_wh computed from 48V×30Ah; payload 4 kg rated per arm; wheel_count = 2 drive wheels (differential)",
+   "compute_memory_gb": 64,
+   "compute_source": "https://docs.ai2robotics.com/en/alphabot2/hardware/architecture/",
+   "compute_tops": null,
+   "compute_soc": "NVIDIA Jetson AGX Orin 64GB"
   },
   {
    "id": "akinrobotics-ada-7",
@@ -6268,7 +6281,11 @@
     "https://humanoidversus.com/robots/atomrobot-tianbing-1"
    ],
    "verification": "official",
-   "note": "Model code AR-H1 / ATOM01 ('天兵一号'). Wheeled omnidirectional base with Stewart parallel waist. First 2025 version was 140 cm/70 kg/37 DoF; Dec 2025 update 27 DoF; current product page 26 DoF — values below from current page. Maker: Tianjin Atom Robotics (ATOMROBOT). spec: height 165–175 cm (max used); payload 12.5 kg per arm; api_support from 'open full secondary-development interface'; status Commercial per official 'external sales' statement (May 2026)"
+   "note": "Model code AR-H1 / ATOM01 ('天兵一号'). Wheeled omnidirectional base with Stewart parallel waist. First 2025 version was 140 cm/70 kg/37 DoF; Dec 2025 update 27 DoF; current product page 26 DoF — values below from current page. Maker: Tianjin Atom Robotics (ATOMROBOT). spec: height 165–175 cm (max used); payload 12.5 kg per arm; api_support from 'open full secondary-development interface'; status Commercial per official 'external sales' statement (May 2026)",
+   "compute_memory_gb": null,
+   "compute_source": "https://www.atomrobot.com/product/163",
+   "compute_tops": 170,
+   "compute_soc": null
   },
   {
    "id": "avic-fengxing-001",
@@ -6477,7 +6494,11 @@
      "kind": "direct",
      "url": "http://www.arobot4all.com/"
     }
-   ]
+   ],
+   "compute_memory_gb": null,
+   "compute_source": "http://eng.arobot4all.com/AIMY",
+   "compute_tops": null,
+   "compute_soc": "AMD Ryzen 5 7600"
   },
   {
    "id": "aeirobot-alice-4",
@@ -6591,7 +6612,11 @@
      "kind": "direct",
      "url": "http://www.arobot4all.com/"
     }
-   ]
+   ],
+   "compute_memory_gb": null,
+   "compute_source": "http://eng.arobot4all.com/2069803258",
+   "compute_tops": null,
+   "compute_soc": "NVIDIA Jetson AGX Orin"
   },
   {
    "id": "aeolus-aeo",
@@ -6724,7 +6749,11 @@
    "sources": [
     "https://www.agibot.com/products/A2_Ultra"
    ],
-   "summary": "Full-size interactive service humanoid for reception, guiding and performances, deployed at 1,000+ units; runtime 1.5 h+ walking / 3 h standing, 14.4 Ah hot-swap battery."
+   "summary": "Full-size interactive service humanoid for reception, guiding and performances, deployed at 1,000+ units; runtime 1.5 h+ walking / 3 h standing, 14.4 Ah hot-swap battery.",
+   "compute_memory_gb": 64,
+   "compute_source": "https://www.agibot.com/products/A2_Ultra",
+   "compute_tops": null,
+   "compute_soc": "NVIDIA Jetson Orin 64GB"
   },
   {
    "id": "agibot-g1",
@@ -6780,7 +6809,11 @@
     "https://humanoid.guide/product/agibot-g1/"
    ],
    "verification": "official",
-   "note": "Official name 'AGIBOT G1' (formerly Genie G1 / 精灵G1). Wheeled chassis (in-place turning, 20 mm obstacles), not legged. Height 130-180 cm adjustable; 150 kg; 26 DoF total (20 excluding 6-DoF end-effector); 3 kg continuous one-arm hold; runtime 4h+."
+   "note": "Official name 'AGIBOT G1' (formerly Genie G1 / 精灵G1). Wheeled chassis (in-place turning, 20 mm obstacles), not legged. Height 130-180 cm adjustable; 150 kg; 26 DoF total (20 excluding 6-DoF end-effector); 3 kg continuous one-arm hold; runtime 4h+.",
+   "compute_memory_gb": 64,
+   "compute_source": "https://www.agibot.com/products/G1",
+   "compute_tops": null,
+   "compute_soc": "NVIDIA Jetson AGX Orin 64GB"
   },
   {
    "id": "agibot-c4",
@@ -6954,7 +6987,11 @@
     "https://botupyourlife.com/en/robots/agibot-g1-max/"
    ],
    "verification": "official",
-   "note": "Wheeled dual-arm robot (4WD chassis), not legged; catalog category Humanoid is loose. Page says waist adds DoF 'offering 22 degrees of freedom' — ambiguous, left dof null."
+   "note": "Wheeled dual-arm robot (4WD chassis), not legged; catalog category Humanoid is loose. Page says waist adds DoF 'offering 22 degrees of freedom' — ambiguous, left dof null.",
+   "compute_memory_gb": null,
+   "compute_source": "https://www.agibot.com/products/G1_MAX",
+   "compute_tops": 275,
+   "compute_soc": null
   },
   {
    "id": "agibot-g2",
@@ -7128,7 +7165,11 @@
     "https://humanoid.guide/product/raise-a1/"
    ],
    "verification": "official",
-   "note": "Legacy official product page still online. First-gen AgiBot humanoid (Aug 2023), superseded by A2; aggregators mark it discontinued (not stated officially). spec: speed 7 km/h ÷3.6; dof stated as '49+'; payload 5 kg per arm; release_year from Aug 2023 unveiling"
+   "note": "Legacy official product page still online. First-gen AgiBot humanoid (Aug 2023), superseded by A2; aggregators mark it discontinued (not stated officially). spec: speed 7 km/h ÷3.6; dof stated as '49+'; payload 5 kg per arm; release_year from Aug 2023 unveiling",
+   "compute_memory_gb": null,
+   "compute_source": "https://www.agibot.com/product/a1",
+   "compute_tops": 200,
+   "compute_soc": null
   },
   {
    "id": "agibot-x2",
@@ -8505,7 +8546,11 @@
     "https://humanoid.guide/product/tian-yi-2-0/"
    ],
    "verification": "official",
-   "note": "Wheeled humanoid (wheel-arm) with lifting legs; height adjustable 1300-1650 mm. Specs from maker's English one-page brochure (hosted by distributor Robots International; official page specs are an image). Battery 48V 15Ah. Brochure says ROS 2 control layer (some sources say ROS 1). Re-checked 2026-11-17: maker product page opened; it describes the wheel-arm robot (guided tours, patrol/inspection, autonomous elevator riding, VR teleoperation) but its parameter table is published as an image, so the numbers still come from the maker's one-page English brochure. No maker-stated value was changed."
+   "note": "Wheeled humanoid (wheel-arm) with lifting legs; height adjustable 1300-1650 mm. Specs from maker's English one-page brochure (hosted by distributor Robots International; official page specs are an image). Battery 48V 15Ah. Brochure says ROS 2 control layer (some sources say ROS 1). Re-checked 2026-11-17: maker product page opened; it describes the wheel-arm robot (guided tours, patrol/inspection, autonomous elevator riding, VR teleoperation) but its parameter table is published as an image, so the numbers still come from the maker's one-page English brochure. No maker-stated value was changed.",
+   "compute_memory_gb": 64,
+   "compute_source": null,
+   "compute_tops": 275,
+   "compute_soc": "NVIDIA Jetson AGX Orin 64GB"
   },
   {
    "id": "x-humanoid-tiangong",
@@ -9013,7 +9058,11 @@
      "url": "https://github.com/BoosterRobotics/booster_assets",
      "license": "BSD-3-Clause"
     }
-   ]
+   ],
+   "compute_memory_gb": 32,
+   "compute_source": "https://docs.booster.tech/docs/product-manual/t1/getting-started/specifications/",
+   "compute_tops": 200,
+   "compute_soc": "NVIDIA Jetson AGX Orin 32GB"
   },
   {
    "id": "booster-t2",
@@ -10686,7 +10735,11 @@
     "https://data.robo2u.com/robots/dfki-rh5-manus"
    ],
    "verification": "official",
-   "note": "DFKI RIC system page + system sheet PDF. Dimensions are on platform (upper-body humanoid on stationary platform); weight excludes platform. DFKI paper states 4 kg payload per hand (not set as rated payload)."
+   "note": "DFKI RIC system page + system sheet PDF. Dimensions are on platform (upper-body humanoid on stationary platform); weight excludes platform. DFKI paper states 4 kg payload per hand (not set as rated payload).",
+   "compute_memory_gb": null,
+   "compute_source": "https://robotik.dfki-bremen.de/fileadmin/content/ric/research/robots/RH5_Manus/Systemblatt_RH5_Manus_eng.pdf",
+   "compute_tops": null,
+   "compute_soc": "Intel Core i7"
   },
   {
    "id": "dyna-robotics-taku",
@@ -11270,7 +11323,11 @@
     "https://humanoid.guide/product/lumo/"
    ],
    "verification": "official",
-   "note": "Official brochure (Aug 2026): Standard and Max editions; 1240x560x244 mm (HxWxD; length_mm = depth), 40.5 kg Standard / 41 kg Max, 30 DoF, ~2 h runtime, 1.5 kg per-arm payload. Launched publicly at DOBOT's Nov 2026 ecosystem conference. Model name is 'LUMO L1'. Status left blank (brochure says features subject to official release); USD prices seen only on distributor sites."
+   "note": "Official brochure (Aug 2026): Standard and Max editions; 1240x560x244 mm (HxWxD; length_mm = depth), 40.5 kg Standard / 41 kg Max, 30 DoF, ~2 h runtime, 1.5 kg per-arm payload. Launched publicly at DOBOT's Nov 2026 ecosystem conference. Model name is 'LUMO L1'. Status left blank (brochure says features subject to official release); USD prices seen only on distributor sites.",
+   "compute_memory_gb": null,
+   "compute_source": null,
+   "compute_tops": 6,
+   "compute_soc": "Rockchip RK3588"
   },
   {
    "id": "dongfeng-xiaodong",
@@ -11699,7 +11756,11 @@
    "seen_on": [
     "https://embodied.guide/robots/elephant-robotics-mercury-x1/"
    ],
-   "verification": "official"
+   "verification": "official",
+   "compute_memory_gb": 8,
+   "compute_source": "https://www.elephantrobotics.com/en/mercury-specifications-en/",
+   "compute_tops": 67,
+   "compute_soc": "NVIDIA Jetson Orin Nano Super 8GB"
   },
   {
    "id": "elite-robots-centaur-g1",
@@ -11964,7 +12025,11 @@
    "summary": "Lightweight, open-source research/education humanoid (2026 Education Edition specs); speed listed as >2 m/s hardware-supported; 320° waist rotation.",
    "verification": "official",
    "notes": "Issue #17 (2026-11-17): specs from EngineAI's PM01 page; humanoidstore price removed (no maker price). [emptied (no maker value) price_usd=26000; price_note=list price per HumanoidStore, checked 2026-10]",
-   "note": "Maker product page (engineai.com.cn/product-pm01.html, Chinese page carries the numeric table): 1400 (H) x 540 (W) x 295 (D) mm, about 44.5 kg, 24 total DoF with a waist that rotates 320 degrees, walking speed over 2 m/s with hardware support, 10,000 mAh battery for about 2 h and about 2 h to full charge, NVIDIA Jetson Orin NX (16G) onboard, head and waist wide-angle binocular cameras, 3D LiDAR on the navigation edition, open SDK/ROS 2 development framework. Earlier record had depth 253 mm and 44 kg; the maker page values are recorded. Maker publishes no list price, so the HumanoidStore figure stands with its own label."
+   "note": "Maker product page (engineai.com.cn/product-pm01.html, Chinese page carries the numeric table): 1400 (H) x 540 (W) x 295 (D) mm, about 44.5 kg, 24 total DoF with a waist that rotates 320 degrees, walking speed over 2 m/s with hardware support, 10,000 mAh battery for about 2 h and about 2 h to full charge, NVIDIA Jetson Orin NX (16G) onboard, head and waist wide-angle binocular cameras, 3D LiDAR on the navigation edition, open SDK/ROS 2 development framework. Earlier record had depth 253 mm and 44 kg; the maker page values are recorded. Maker publishes no list price, so the HumanoidStore figure stands with its own label.",
+   "compute_memory_gb": 16,
+   "compute_source": "https://en.engineai.com.cn/product-pm01.html",
+   "compute_tops": null,
+   "compute_soc": "NVIDIA Jetson Orin NX 16GB"
   },
   {
    "id": "engineai-sa01",
@@ -12339,7 +12404,11 @@
      "source": "https://shop.ff.com/products/ff-all-new-futurist",
      "note": "All-New Futurist Ultra"
     }
-   ]
+   ],
+   "compute_memory_gb": null,
+   "compute_source": "https://shop.ff.com/products/ff-all-new-futurist",
+   "compute_tops": null,
+   "compute_soc": "Rockchip RK3588"
   },
   {
    "id": "faraday-future-nova",
@@ -12988,7 +13057,11 @@
     "https://humanoid.guide/product/gr-1/"
    ],
    "verification": "official",
-   "note": "Skeleton official_url (support.fftai.com/en/docs/.../GR-1_Introduction/) now 404s. Values from Fourier's own GR-1 brochure PDF (Feb 2024, fftai branding; hosted on edit.site CDN): standing size 1650 x 515 x 320 mm, ~55 kg (Pro ~60 kg), 5 km/h (=1.39 m/s), 3 kg single-hand payload, 44 actuators (GR-1, dexterous hands; GR-1L 34), 460 Wh battery, i7-13700H compute, RealSense depth camera, IMU, ring mic, 230 N·m peak torque. DoF conflict: brochure text says 'up to 54 DoF' (with 11-DoF hands) vs 44 elsewhere - used 44 (spec-table actuator count). Unveiled 2023; since succeeded by GR-2/GR-3. SDK (Python/C++) offered. Re-checked 2026-11-17: fftai.com/products-gr1.html now returns 404, the download centre (opened) lists brochures only for GR-3 / GR-3C / GR-3C Ultra / GR Mini / GRW / GRW Lite / GR Nano plus the GR family catalogue, and the 2026-10 GR family catalogue (opened, 16 pages) has no GR-1 page - GR-1 is no longer a current product. The only live maker page for GR-1 is Fourier's official SDK documentation (fftai.github.io/fourier-grx-GR1, opened), now the official_url. The stored figures still come from Fourier's own GR-1 brochure (Feb 2024), the only maker spec document found. | Skeleton official_url (support.fftai.com/en/docs/.../GR-1_Introduction/) now 404s. Values from Fourier's own GR-1 brochure PDF (Feb 2024, fftai branding; hosted on edit.site CDN): standing size 1650 x 515 x 320 mm, ~55 kg (Pro ~60 kg), 5 km/h (=1.39 m/s), 3 kg single-hand payload, 44 actuators (GR-1, dexterous hands; GR-1L 34), 460 Wh battery, i7-13700H compute, RealSense depth camera, IMU, ring mic, 230 N·m peak torque. DoF conflict: brochure text says 'up to 54 DoF' (with 11-DoF hands) vs 44 elsewhere - used 44 (spec-table actuator count). Unveiled 2023; since succeeded by GR-2/GR-3. SDK (Python/C++) offered. Media (2026-11-17): product image grx/gr1.jpg is the GR-1 card in Fourier's GRx family section on the official GR-3 page."
+   "note": "Skeleton official_url (support.fftai.com/en/docs/.../GR-1_Introduction/) now 404s. Values from Fourier's own GR-1 brochure PDF (Feb 2024, fftai branding; hosted on edit.site CDN): standing size 1650 x 515 x 320 mm, ~55 kg (Pro ~60 kg), 5 km/h (=1.39 m/s), 3 kg single-hand payload, 44 actuators (GR-1, dexterous hands; GR-1L 34), 460 Wh battery, i7-13700H compute, RealSense depth camera, IMU, ring mic, 230 N·m peak torque. DoF conflict: brochure text says 'up to 54 DoF' (with 11-DoF hands) vs 44 elsewhere - used 44 (spec-table actuator count). Unveiled 2023; since succeeded by GR-2/GR-3. SDK (Python/C++) offered. Re-checked 2026-11-17: fftai.com/products-gr1.html now returns 404, the download centre (opened) lists brochures only for GR-3 / GR-3C / GR-3C Ultra / GR Mini / GRW / GRW Lite / GR Nano plus the GR family catalogue, and the 2026-10 GR family catalogue (opened, 16 pages) has no GR-1 page - GR-1 is no longer a current product. The only live maker page for GR-1 is Fourier's official SDK documentation (fftai.github.io/fourier-grx-GR1, opened), now the official_url. The stored figures still come from Fourier's own GR-1 brochure (Feb 2024), the only maker spec document found. | Skeleton official_url (support.fftai.com/en/docs/.../GR-1_Introduction/) now 404s. Values from Fourier's own GR-1 brochure PDF (Feb 2024, fftai branding; hosted on edit.site CDN): standing size 1650 x 515 x 320 mm, ~55 kg (Pro ~60 kg), 5 km/h (=1.39 m/s), 3 kg single-hand payload, 44 actuators (GR-1, dexterous hands; GR-1L 34), 460 Wh battery, i7-13700H compute, RealSense depth camera, IMU, ring mic, 230 N·m peak torque. DoF conflict: brochure text says 'up to 54 DoF' (with 11-DoF hands) vs 44 elsewhere - used 44 (spec-table actuator count). Unveiled 2023; since succeeded by GR-2/GR-3. SDK (Python/C++) offered. Media (2026-11-17): product image grx/gr1.jpg is the GR-1 card in Fourier's GRx family section on the official GR-3 page.",
+   "compute_memory_gb": null,
+   "compute_source": "https://static-gcs.edit.site/users-files/75329df683dc786c44cd1ae27c78c5f8/fourier-gr-1-humanoid-robot-introduction-3.pdf?dl=1",
+   "compute_tops": null,
+   "compute_soc": "Intel Core i7-13700H"
   },
   {
    "id": "fourier-intelligence-gr-2",
@@ -13114,7 +13187,11 @@
    "note": "Media (2026-11-17): product render gr3-mb.png and the demo clips (walk, terrain-walk, operation, stability, ping-pong) are served from fftai.com's GR-3 page.",
    "image_source": "https://www.fftai.com/grx/gr3",
    "verification": "official",
-   "notes": "Issue #17 (2026-11-17): 1642 mm, 71 kg, 3 kg arm payload, 3 h, 702+234 Wh confirmed in Fourier's GR-3 documentation; 1.69 m/s = Fourier's 6.1 km/h. DoF 55 derived (head 2 + waist 3 + arms 7x2 + legs 6x2 + optional 12x2 hands). HumanoidStore's US$100,000 price removed: Fourier publishes none. [emptied (no maker value) price_usd=100000; price_note=list price per HumanoidStore, checked 2026-10]"
+   "notes": "Issue #17 (2026-11-17): 1642 mm, 71 kg, 3 kg arm payload, 3 h, 702+234 Wh confirmed in Fourier's GR-3 documentation; 1.69 m/s = Fourier's 6.1 km/h. DoF 55 derived (head 2 + waist 3 + arms 7x2 + legs 6x2 + optional 12x2 hands). HumanoidStore's US$100,000 price removed: Fourier publishes none. [emptied (no maker value) price_usd=100000; price_note=list price per HumanoidStore, checked 2026-10]",
+   "compute_memory_gb": 32,
+   "compute_source": "https://support.fftai.com/en/gr3/getting-started/general-information",
+   "compute_tops": null,
+   "compute_soc": "AMD Ryzen 7 8845HS"
   },
   {
    "id": "fourier-n1",
@@ -13454,7 +13531,11 @@
     "https://humanoid.guide/product/ne01/"
    ],
    "verification": "official",
-   "note": "Official 银毅 NE01 (variants NE01 / Pro with Jetson Orin Nano / Ultra 28 DoF with Orin NX). Values are base NE01. Payload is per-arm max 2 kg."
+   "note": "Official 银毅 NE01 (variants NE01 / Pro with Jetson Orin Nano / Ultra 28 DoF with Orin NX). Values are base NE01. Payload is per-arm max 2 kg.",
+   "compute_memory_gb": null,
+   "compute_source": null,
+   "compute_tops": null,
+   "compute_soc": "NVIDIA Jetson Orin Nano / Orin NX"
   },
   {
    "id": "glroad-laborer-c1",
@@ -13841,7 +13922,11 @@
     "https://humanoid.guide/product/galbot-et1/"
    ],
    "verification": "official",
-   "note": "DoF: Standard 26; Pro/Flagship 26 + 12 with dexterous hands. Compute: Pro Orin Nano 40 TOPS, Flagship NX 100 TOPS."
+   "note": "DoF: Standard 26; Pro/Flagship 26 + 12 with dexterous hands. Compute: Pro Orin Nano 40 TOPS, Flagship NX 100 TOPS.",
+   "compute_memory_gb": null,
+   "compute_source": "https://www.galbot.com/et1",
+   "compute_tops": null,
+   "compute_soc": "Rockchip RK3588"
   },
   {
    "id": "galbot-g1",
@@ -13951,7 +14036,11 @@
     "https://humanoid.guide/product/galbot-s1/"
    ],
    "verification": "official",
-   "note": "Galbot product page + developer docs. Payload 50 kg = max dual-arm (docs: 15 kg per arm, 30 kg rated). Height = max with 750 mm lift. Chassis 730x730 mm. DoF 17 = neck 2 + arms 7x2 + lift 1. Launched Jan 2026."
+   "note": "Galbot product page + developer docs. Payload 50 kg = max dual-arm (docs: 15 kg per arm, 30 kg rated). Height = max with 750 mm lift. Chassis 730x730 mm. DoF 17 = neck 2 + arms 7x2 + lift 1. Launched Jan 2026.",
+   "compute_memory_gb": 64,
+   "compute_source": "https://www.galbot.com/s1",
+   "compute_tops": 275,
+   "compute_soc": "NVIDIA Jetson AGX Orin 64GB"
   },
   {
    "id": "geekplus-gino-1",
@@ -14047,7 +14136,11 @@
     "https://embodied.guide/robots/gelanruo-c1/"
    ],
    "verification": "official",
-   "note": "Maker is Wuhan Glroad Intelligent Technology (武汉格蓝若智能技术); the maker's spec sheet names the robot '劳动者C1' (Laborer C1), so the record carries both. 1.37 m, 38 kg, 21 DoF, Orin NX compute. Speed stated as '>2 m/s'. Runtime 2 h walking / 4 h standing."
+   "note": "Maker is Wuhan Glroad Intelligent Technology (武汉格蓝若智能技术); the maker's spec sheet names the robot '劳动者C1' (Laborer C1), so the record carries both. 1.37 m, 38 kg, 21 DoF, Orin NX compute. Speed stated as '>2 m/s'. Runtime 2 h walking / 4 h standing.",
+   "compute_memory_gb": null,
+   "compute_source": "https://www.glroad.com/ListIntroduction/info.aspx?itemid=549",
+   "compute_tops": null,
+   "compute_soc": "NVIDIA Jetson Orin NX"
   },
   {
    "id": "gelanruo-m1",
@@ -14396,7 +14489,11 @@
     "https://embodied.guide/robots/gento-robotics-gento-skye/"
    ],
    "verification": "official",
-   "note": "Maker is Shenzhen Tianji Intelligent System Co. (Gento brand). Wheeled lifting humanoid; dims are raised pose (stowed 1010x577x1509). Payload 6 kg is per arm (Marvin M6 arms). Runtime 4-6 h (lower bound used). Battery 48V 34.4Ah LiFePO4."
+   "note": "Maker is Shenzhen Tianji Intelligent System Co. (Gento brand). Wheeled lifting humanoid; dims are raised pose (stowed 1010x577x1509). Payload 6 kg is per arm (Marvin M6 arms). Runtime 4-6 h (lower bound used). Battery 48V 34.4Ah LiFePO4.",
+   "compute_memory_gb": 64,
+   "compute_source": "https://gentorobotics.ai/products/gento-skye",
+   "compute_tops": 275,
+   "compute_soc": "NVIDIA Jetson Orin 64GB"
   },
   {
    "id": "dlr-rollin-justin",
@@ -14736,7 +14833,11 @@
     "https://embodied.guide/robots/hcfa-yolo-01/"
    ],
    "verification": "official",
-   "note": "Official HCFA (浙江禾川科技) product page '游龙01'; specs from the official spec image on that page. Payload is max single-arm 5 kg; speed 8 km/h max walking."
+   "note": "Official HCFA (浙江禾川科技) product page '游龙01'; specs from the official spec image on that page. Payload is max single-arm 5 kg; speed 8 km/h max walking.",
+   "compute_memory_gb": null,
+   "compute_source": null,
+   "compute_tops": 275,
+   "compute_soc": null
   },
   {
    "id": "hfun-tech-hm01",
@@ -14924,7 +15025,11 @@
     "https://embodied.guide/robots/hhs-romeo/"
    ],
    "verification": "official",
-   "note": "Official HHS Robotics pages: Romeo R1 (research) and R2 (commercial). Research version described as bipedal platform with 2070 TOPS onboard compute and 140 N·m peak joint torque."
+   "note": "Official HHS Robotics pages: Romeo R1 (research) and R2 (commercial). Research version described as bipedal platform with 2070 TOPS onboard compute and 140 N·m peak joint torque.",
+   "compute_memory_gb": null,
+   "compute_source": "https://www.hhsrobotics.cn/1742.html",
+   "compute_tops": 2070,
+   "compute_soc": null
   },
   {
    "id": "honor-d1",
@@ -15390,7 +15495,11 @@
     "https://embodied.guide/robots/hisense-harley/"
    ],
    "verification": "official",
-   "note": "Official Hisense Robotics site (operated by Haiyuan Zhihe Robotics (Hangzhou) Co.); debuted at CES 2026 per Hisense press. Payload is end-effector 3 kg."
+   "note": "Official Hisense Robotics site (operated by Haiyuan Zhihe Robotics (Hangzhou) Co.); debuted at CES 2026 per Hisense press. Payload is end-effector 3 kg.",
+   "compute_memory_gb": 16,
+   "compute_source": "https://www.hisense-robot.com/en/products/harley/",
+   "compute_tops": null,
+   "compute_soc": "NVIDIA Jetson Orin NX 16GB"
   },
   {
    "id": "hitachi-emiew3",
@@ -16717,7 +16826,11 @@
     "https://data.robo2u.com/robots/iit-ergocub"
    ],
    "verification": "official",
-   "note": "Research humanoid from IIT (with INAIL funding), evolution of iCub; unveiled publicly Sept 2023 (IIT 20th anniversary). Maker-stated: 1.5 m, 55.7 kg, ~10 kg load (payload approximate), Intel RealSense depth camera, LiDAR, new-generation force-torque sensors, NVIDIA Jetson AGX Xavier + 11th-gen Intel i7, OLED 2K face screen. DoF '54' comes from a design-award page (not IIT) - not filled; a Nature MI paper figure reportedly shows 56.7 kg (conflict, maker 55.7 kg kept). Not for sale."
+   "note": "Research humanoid from IIT (with INAIL funding), evolution of iCub; unveiled publicly Sept 2023 (IIT 20th anniversary). Maker-stated: 1.5 m, 55.7 kg, ~10 kg load (payload approximate), Intel RealSense depth camera, LiDAR, new-generation force-torque sensors, NVIDIA Jetson AGX Xavier + 11th-gen Intel i7, OLED 2K face screen. DoF '54' comes from a design-award page (not IIT) - not filled; a Nature MI paper figure reportedly shows 56.7 kg (conflict, maker 55.7 kg kept). Not for sale.",
+   "compute_memory_gb": null,
+   "compute_source": null,
+   "compute_tops": null,
+   "compute_soc": "NVIDIA Jetson AGX Xavier + Intel Core i7"
   },
   {
    "id": "jaka-pi",
@@ -16764,7 +16877,11 @@
     "https://humanoid.guide/product/jaka-%cf%80/"
    ],
    "verification": "official",
-   "note": "Official Chinese page. DoF 27 active. Battery 10 Ah, 48 VDC supply. Secondary development supported (具备二次开发)."
+   "note": "Official Chinese page. DoF 27 active. Battery 10 Ah, 48 VDC supply. Secondary development supported (具备二次开发).",
+   "compute_memory_gb": 64,
+   "compute_source": "https://www.jaka.com/zh/productDetails/JAKA_%CF%80",
+   "compute_tops": null,
+   "compute_soc": "Intel Core Ultra 7 255H"
   },
   {
    "id": "jaka-k1",
@@ -16860,7 +16977,11 @@
     "https://humanoid.guide/product/jaka-kargo/"
    ],
    "verification": "official",
-   "note": "Wheeled dual-arm humanoid (differential base). DoF: EN page 20, CN page 22; cameras 2 (EN) / 4 (CN). payload_kg = per-arm load. IP20 refers to control cabinet."
+   "note": "Wheeled dual-arm humanoid (differential base). DoF: EN page 20, CN page 22; cameras 2 (EN) / 4 (CN). payload_kg = per-arm load. IP20 refers to control cabinet.",
+   "compute_memory_gb": null,
+   "compute_source": "https://www.jaka.com/en/productDetails/JAKA_Kargo",
+   "compute_tops": null,
+   "compute_soc": "Intel Core i5 (12th gen)"
   },
   {
    "id": "jaka-lumi",
@@ -17707,7 +17828,11 @@
     "https://humanoidversus.com/robots/kepler-k3-bumblebee"
    ],
    "verification": "official",
-   "note": "Confirmed via Kepler-issued releases (CNR commercial news 'source: Kepler', Aug 2026; WAIC Jul 2026): 30 kg dual-arm payload, 8 h per 1 h charge, added waist DoF, Jetson Orin. gotokepler.com still lists K1/K2. Height/weight/DoF (174 cm, 83 kg, 52-53 DoF) only on resellers/aggregators, left null. Bipedal."
+   "note": "Confirmed via Kepler-issued releases (CNR commercial news 'source: Kepler', Aug 2026; WAIC Jul 2026): 30 kg dual-arm payload, 8 h per 1 h charge, added waist DoF, Jetson Orin. gotokepler.com still lists K1/K2. Height/weight/DoF (174 cm, 83 kg, 52-53 DoF) only on resellers/aggregators, left null. Bipedal.",
+   "compute_memory_gb": null,
+   "compute_source": null,
+   "compute_tops": 100,
+   "compute_soc": "NVIDIA Jetson Orin"
   },
   {
    "id": "kind-humanoid-mona",
@@ -17848,7 +17973,11 @@
     "https://data.robo2u.com/robots/kinova-movo"
    ],
    "verification": "official",
-   "note": "Kinova press release (MOVO Beta launch, Sept 2017) and official GitHub/user guide, which states Kinova ended MOVO support -> Discontinued. Category correction: MOVO is a wheeled dual-arm mobile manipulator, not a humanoid (suggest 'Mobile platform')."
+   "note": "Kinova press release (MOVO Beta launch, Sept 2017) and official GitHub/user guide, which states Kinova ended MOVO support -> Discontinued. Category correction: MOVO is a wheeled dual-arm mobile manipulator, not a humanoid (suggest 'Mobile platform').",
+   "compute_memory_gb": null,
+   "compute_source": "https://kinovarobotics.github.io/kinova-movo/Concepts/c_movo_hardware_overview.html",
+   "compute_tops": null,
+   "compute_soc": "Intel NUC"
   },
   {
    "id": "knowin-ai-knowin-x1",
@@ -18423,7 +18552,11 @@
     "https://humanoid.guide/product/kuavo-my/"
    ],
    "verification": "official",
-   "note": "Product page (kuavo-my) is JS-only; specs from Leju's official Kuavo manual. DoF varies by configuration (22 standard / 28 advanced / 30 with grippers; up to 40 marketed). Running speed 5 km/h; walking 0.4 m/s. Battery 60 V 6 Ah (=360 Wh)."
+   "note": "Product page (kuavo-my) is JS-only; specs from Leju's official Kuavo manual. DoF varies by configuration (22 standard / 28 advanced / 30 with grippers; up to 40 marketed). Running speed 5 km/h; walking 0.4 m/s. Battery 60 V 6 Ah (=360 Wh).",
+   "compute_memory_gb": null,
+   "compute_source": "https://kuavo.lejurobot.com/beta_manual/basic_usage/kuavo-ros-control/docs/1%E4%BA%A7%E5%93%81%E4%BB%8B%E7%BB%8D/KUAVO_4PRO%20%E8%BF%9B%E9%98%B6%E7%89%88%E4%BA%A7%E5%93%81%E4%BB%8B%E7%BB%8D/",
+   "compute_tops": null,
+   "compute_soc": "Intel Core i9-13900 + NVIDIA Jetson Orin NX/AGX Orin"
   },
   {
    "id": "leju-kuavo-5",
@@ -18897,7 +19030,11 @@
     "https://humanoid.guide/product/tron-2/"
    ],
    "verification": "official",
-   "note": "TRON 2 is a modular 'tri-form' robot (dual-arm / bipedal sole / wheeled legs), not a conventional humanoid. Height 987 mm (sole) / 1015 mm (wheeled). DoF = 2×7 arm + 2×5 leg + 2 head. payload_kg = 30 kg base load on flat ground (dual arms 10 kg). Max speed: sole 2–3 m/s, wheeled 3–5 m/s (sole lower bound used). Battery 46.8 V 9 Ah (≈421 Wh). Price from CNY 49,800 (launch news)."
+   "note": "TRON 2 is a modular 'tri-form' robot (dual-arm / bipedal sole / wheeled legs), not a conventional humanoid. Height 987 mm (sole) / 1015 mm (wheeled). DoF = 2×7 arm + 2×5 leg + 2 head. payload_kg = 30 kg base load on flat ground (dual arms 10 kg). Max speed: sole 2–3 m/s, wheeled 3–5 m/s (sole lower bound used). Battery 46.8 V 9 Ah (≈421 Wh). Price from CNY 49,800 (launch news).",
+   "compute_memory_gb": null,
+   "compute_source": "https://www.limxdynamics.com/en/products/tron2/spec",
+   "compute_tops": null,
+   "compute_soc": "Intel Core Ultra"
   },
   {
    "id": "lingbao-casbot-casbot-01",
@@ -19042,7 +19179,11 @@
     "https://humanoid.guide/product/lumen-s1/"
    ],
    "verification": "official",
-   "note": "Maker is HECbot (Hubei Guanggu Dongzhi). Official product page lists 31 body DoF excluding dexterous hands."
+   "note": "Maker is HECbot (Hubei Guanggu Dongzhi). Official product page lists 31 body DoF excluding dexterous hands.",
+   "compute_memory_gb": 16,
+   "compute_source": null,
+   "compute_tops": 157,
+   "compute_soc": "NVIDIA Jetson Orin NX 16GB"
   },
   {
    "id": "lumos-robotics-lus2",
@@ -19147,7 +19288,11 @@
     "https://embodied.guide/robots/lumos-robotics-mos2/"
    ],
    "verification": "official",
-   "note": "Wheeled dual-arm mobile manipulator (swerve-drive base), not legged."
+   "note": "Wheeled dual-arm mobile manipulator (swerve-drive base), not legged.",
+   "compute_memory_gb": null,
+   "compute_source": "https://www.lumosbot.tech/products/mos",
+   "compute_tops": 275,
+   "compute_soc": "NVIDIA Jetson AGX Orin"
   },
   {
    "id": "lumos-robotics-nix",
@@ -19360,7 +19505,11 @@
     "https://humanoid.guide/product/magicbot-gen1/"
    ],
    "verification": "official",
-   "note": "max_speed stated as '≥2 m/s'; payload is max load for both arms; runtime stated 3–5 h (lower bound used). Dimensions H×W×D."
+   "note": "max_speed stated as '≥2 m/s'; payload is max load for both arms; runtime stated 3–5 h (lower bound used). Dimensions H×W×D.",
+   "compute_memory_gb": null,
+   "compute_source": "https://www.magiclabglobal.com/products/magicbot-gen1/",
+   "compute_tops": 100,
+   "compute_soc": null
   },
   {
    "id": "magiclab-magicbot-x1",
@@ -19413,7 +19562,11 @@
     "https://humanoid.guide/product/magicbot-x1/"
    ],
    "verification": "official",
-   "note": "X1 and X1 Ultra share body specs; Ultra unlocks secondary development and up to Jetson AGX Thor. Battery 18 Ah (voltage not stated)."
+   "note": "X1 and X1 Ultra share body specs; Ultra unlocks secondary development and up to Jetson AGX Thor. Battery 18 Ah (voltage not stated).",
+   "compute_memory_gb": null,
+   "compute_source": "https://www.magiclab.top/en/x1",
+   "compute_tops": null,
+   "compute_soc": "NVIDIA Jetson Orin NX"
   },
   {
    "id": "magiclab-z1",
@@ -20236,7 +20389,11 @@
     "https://humanoid.guide/product/spaceo-pro/"
    ],
    "verification": "official",
-   "note": "WHEELED, not legged: maker spec lists 2 base DoF and an integrated base trolley (wheeled enterprise humanoid). Height adjustable 1625-2100 mm (height_mm set to min 1625). 200 kg is the base-trolley load; per-arm payload 5 kg (payload_kg=5). Battery 25.6 V 45 Ah LiFePO4 = 1152 Wh (computed). Maker spec says 6 DoF per arm; older maker page (spaceo-pro-2) and pitch deck say 7 DoF/arm, 65 kg, 2 m/s, 5 h — current page values used. Available for pilots."
+   "note": "WHEELED, not legged: maker spec lists 2 base DoF and an integrated base trolley (wheeled enterprise humanoid). Height adjustable 1625-2100 mm (height_mm set to min 1625). 200 kg is the base-trolley load; per-arm payload 5 kg (payload_kg=5). Battery 25.6 V 45 Ah LiFePO4 = 1152 Wh (computed). Maker spec says 6 DoF per arm; older maker page (spaceo-pro-2) and pitch deck say 7 DoF/arm, 65 kg, 2 m/s, 5 h — current page values used. Available for pilots.",
+   "compute_memory_gb": 16,
+   "compute_source": "https://muksrobotics.com/spaceo-pro",
+   "compute_tops": 275,
+   "compute_soc": "NVIDIA Jetson AGX Orin + AMD Ryzen 7"
   },
   {
    "id": "nasa-robonaut-2",
@@ -20339,7 +20496,11 @@
     "https://humanoidversus.com/robots/nasa-valkyrie"
    ],
    "verification": "official",
-   "note": "NASA fact sheet: 300 lb, 6 ft 2 in, 44 DoF, 1.8 kWh battery (~1 h), 2x Core i7. Built by NASA JSC for the 2013 DARPA Robotics Challenge Trials; research platform, not for sale. Manufacturer = NASA Johnson Space Center."
+   "note": "NASA fact sheet: 300 lb, 6 ft 2 in, 44 DoF, 1.8 kWh battery (~1 h), 2x Core i7. Built by NASA JSC for the 2013 DARPA Robotics Challenge Trials; research platform, not for sale. Manufacturer = NASA Johnson Space Center.",
+   "compute_memory_gb": null,
+   "compute_source": "https://www.nasa.gov/technology/r5",
+   "compute_tops": null,
+   "compute_soc": "Intel Core i7"
   },
   {
    "id": "neura-4ne1",
@@ -20957,7 +21118,11 @@
     "https://humanoid.guide/product/e1/"
    ],
    "verification": "official",
-   "note": "Official Noetix page re-checked 2026-11-17: BIPEDAL humanoid, 140 cm, 40 kg, max travel speed up to 3.5 m/s (as stated - flagged as unusually high for a 140 cm biped, but it is the maker's own figure), continuous walking payload 5 kg, knee torque 150 N·m, 10.6 Ah quick-swap battery (5 s swap), runtime up to 2 h; EDU edition with 67 TOPS compute board; SDK docs provided; modeled hands standard, dexterous hands optional. CONFLICT: the Noetix E-series brochure lists 136 cm and 4-5 h runtime with a top speed 'exceeding 3.5 m/s', and a company press release quotes 1.2 m/s walking; official product-page figures kept."
+   "note": "Official Noetix page re-checked 2026-11-17: BIPEDAL humanoid, 140 cm, 40 kg, max travel speed up to 3.5 m/s (as stated - flagged as unusually high for a 140 cm biped, but it is the maker's own figure), continuous walking payload 5 kg, knee torque 150 N·m, 10.6 Ah quick-swap battery (5 s swap), runtime up to 2 h; EDU edition with 67 TOPS compute board; SDK docs provided; modeled hands standard, dexterous hands optional. CONFLICT: the Noetix E-series brochure lists 136 cm and 4-5 h runtime with a top speed 'exceeding 3.5 m/s', and a company press release quotes 1.2 m/s walking; official product-page figures kept.",
+   "compute_memory_gb": null,
+   "compute_source": null,
+   "compute_tops": 67,
+   "compute_soc": null
   },
   {
    "id": "noetix-n2",
@@ -21151,7 +21316,11 @@
     "https://data.robo2u.com/robots/nori-l2"
    ],
    "verification": "official",
-   "note": "Wheeled bimanual mobile manipulator (not a humanoid; category should be Mobile platform/wheeled manipulator). Maker docs give 576 Wh battery (2x 24 V Li-ion in parallel), four 720p RGB cameras (two wrist, overhead, front), Raspberry Pi 5 onboard, Python/TypeScript nori-sdk; robot-side stack uses ROS 2 packages (ros2 run nori_cameras). Maker site now sells only the successor Nori A3 ($1,688) and the SDK docs refer to a 'frozen L2 fleet', so L2 is superseded (status Discontinued is inferred). Launch price $1,288 (L2 Grande $1,322) reported by press/aggregators, not seen on a maker page — left out. Height 100 cm also aggregator-only."
+   "note": "Wheeled bimanual mobile manipulator (not a humanoid; category should be Mobile platform/wheeled manipulator). Maker docs give 576 Wh battery (2x 24 V Li-ion in parallel), four 720p RGB cameras (two wrist, overhead, front), Raspberry Pi 5 onboard, Python/TypeScript nori-sdk; robot-side stack uses ROS 2 packages (ros2 run nori_cameras). Maker site now sells only the successor Nori A3 ($1,688) and the SDK docs refer to a 'frozen L2 fleet', so L2 is superseded (status Discontinued is inferred). Launch price $1,288 (L2 Grande $1,322) reported by press/aggregators, not seen on a maker page — left out. Height 100 cm also aggregator-only.",
+   "compute_memory_gb": null,
+   "compute_source": null,
+   "compute_tops": null,
+   "compute_soc": "Raspberry Pi 5"
   },
   {
    "id": "nori-robotics-nori-l3",
@@ -21605,7 +21774,11 @@
     "https://humanoid.guide/product/ari/"
    ],
    "verification": "official",
-   "note": "Wheeled social humanoid (2-DoF differential base). dims: depth 75 cm per datasheet (73 cm on web page); runtime 8–12 h (max used); dof 14 = 2 head + 2 base + 5×2 arms per datasheet (docs list 4-DoF arms + optional hand); battery_wh computed from 24V×40Ah (60Ah optional)"
+   "note": "Wheeled social humanoid (2-DoF differential base). dims: depth 75 cm per datasheet (73 cm on web page); runtime 8–12 h (max used); dof 14 = 2 head + 2 base + 5×2 arms per datasheet (docs list 4-DoF arms + optional hand); battery_wh computed from 24V×40Ah (60Ah optional)",
+   "compute_memory_gb": 32,
+   "compute_source": "https://pal-robotics.com/wp-content/uploads/2025/02/ARI-Datasheet.pdf",
+   "compute_tops": null,
+   "compute_soc": "Intel Core i5/i7/i9"
   },
   {
    "id": "pal-kangaroo",
@@ -21827,7 +22000,11 @@
     }
    ],
    "ros2_url": "https://github.com/pal-robotics/tiago_pro_robot",
-   "ros2_support": true
+   "ros2_support": true,
+   "compute_memory_gb": 16,
+   "compute_source": "https://pal-robotics.com/robot/tiago-pro/",
+   "compute_tops": null,
+   "compute_soc": "Intel Core i5"
   },
   {
    "id": "phybot-c1",
@@ -22407,7 +22584,11 @@
     "https://embodied.guide/robots/perceptyne-pr-omni/"
    ],
    "verification": "official",
-   "note": "Wheeled semi-humanoid (4-wheel holonomic base, vertical gantry, dual 7-DoF arms). Height given as 5'2\" (≈1575 mm). Payload 5 kg per arm."
+   "note": "Wheeled semi-humanoid (4-wheel holonomic base, vertical gantry, dual 7-DoF arms). Height given as 5'2\" (≈1575 mm). Payload 5 kg per arm.",
+   "compute_memory_gb": null,
+   "compute_source": "https://www.perceptyne.com/product/omni",
+   "compute_tops": null,
+   "compute_soc": "NVIDIA Jetson Orin + Intel NUC"
   },
   {
    "id": "persona-ai-gen-1",
@@ -22839,7 +23020,11 @@
     "https://humanoid.guide/product/psi-v1/"
    ],
    "verification": "official",
-   "note": "Maker PsiBot (灵初智能, Shanghai). Official name 'PsiBot V1' / 'Psi V1'; the product page is now headlined 'Psi SynRobot' (possible rename/successor). Wheeled dual-arm robot. Height stated only as <180 cm."
+   "note": "Maker PsiBot (灵初智能, Shanghai). Official name 'PsiBot V1' / 'Psi V1'; the product page is now headlined 'Psi SynRobot' (possible rename/successor). Wheeled dual-arm robot. Height stated only as <180 cm.",
+   "compute_memory_gb": null,
+   "compute_source": "https://www.psibot.ai/en/products/product_psibot-v1",
+   "compute_tops": null,
+   "compute_soc": "NVIDIA Jetson Thor"
   },
   {
    "id": "psibot-synrobot",
@@ -22938,7 +23123,11 @@
     "https://humanoid.guide/product/pudu-d7/"
    ],
    "verification": "official",
-   "note": "D7 is a wheeled (360° omni chassis) dual-arm humanoid, not legged. Max payload 20 kg (single arm rated 7 kg). 23 DoF excl. end effectors."
+   "note": "D7 is a wheeled (360° omni chassis) dual-arm humanoid, not legged. Max payload 20 kg (single arm rated 7 kg). 23 DoF excl. end effectors.",
+   "compute_memory_gb": null,
+   "compute_source": "https://www.pudurobotics.com/en/products/d7",
+   "compute_tops": 275,
+   "compute_soc": null
   },
   {
    "id": "pudu-d9",
@@ -23100,7 +23289,11 @@
      "kind": "direct",
      "url": "https://www.robotis.com/ko/"
     }
-   ]
+   ],
+   "compute_memory_gb": 16,
+   "compute_source": "https://docs.robotis.com/docs/systems/aisapiens/specifications/electrical_system/",
+   "compute_tops": null,
+   "compute_soc": "NVIDIA Jetson Orin NX 16GB"
   },
   {
    "id": "robotis-ai-worker",
@@ -24068,7 +24261,11 @@
     "https://botupyourlife.com/en/robots/roboparty-roboto-01-pro-rp1-pro/"
    ],
    "verification": "official",
-   "note": "Official page lists 'RP1 开源版 PRO' (ROBOTO 01 open-source PRO edition) beside the base RP1 open-source edition; specs below are for the PRO column. Dimensions are H×W×D standing (depth stored as length_mm)."
+   "note": "Official page lists 'RP1 开源版 PRO' (ROBOTO 01 open-source PRO edition) beside the base RP1 open-source edition; specs below are for the PRO column. Dimensions are H×W×D standing (depth stored as length_mm).",
+   "compute_memory_gb": null,
+   "compute_source": "https://www.roboparty.com/products/RP1",
+   "compute_tops": null,
+   "compute_soc": "Rockchip RK3588"
   },
   {
    "id": "roboparty-roboto-origin",
@@ -24159,7 +24356,11 @@
     "https://humanoid.guide/product/rex-g1/"
    ],
    "verification": "official",
-   "note": "Wheeled humanoid; height 1100–1700 mm and length 540–640 mm adjustable (minimums used). Payload is 10 kg dual-arm hold."
+   "note": "Wheeled humanoid; height 1100–1700 mm and length 540–640 mm adjustable (minimums used). Payload is 10 kg dual-arm hold.",
+   "compute_memory_gb": null,
+   "compute_source": null,
+   "compute_tops": null,
+   "compute_soc": null
   },
   {
    "id": "robobuilder-uxa-90",
@@ -24497,7 +24698,11 @@
     "https://humanoid.guide/product/robotera-m7/"
    ],
    "verification": "official",
-   "note": "Official M7 manual (docs.cloud.robotera.com v1.11.0): half-body (upper-body) humanoid with no lower limbs, on a 650x675 mm base, height adjustable 1585-1810 mm. Manual intro says 42 DoF but spec table says 43 (7x2 arms, 3 waist, 2 neck, 12x2 hands) - used 43. Weight 'approximately 70 kg' (resellers quote 65 kg). Battery 57.6 V 15 Ah 864 Wh; usage 45 min-4 h depending on use. Base mobility not described in manual, so locomotion left blank. Single-arm load 10 kg. ROS2 Humble SDK."
+   "note": "Official M7 manual (docs.cloud.robotera.com v1.11.0): half-body (upper-body) humanoid with no lower limbs, on a 650x675 mm base, height adjustable 1585-1810 mm. Manual intro says 42 DoF but spec table says 43 (7x2 arms, 3 waist, 2 neck, 12x2 hands) - used 43. Weight 'approximately 70 kg' (resellers quote 65 kg). Battery 57.6 V 15 Ah 864 Wh; usage 45 min-4 h depending on use. Base mobility not described in manual, so locomotion left blank. Single-arm load 10 kg. ROS2 Humble SDK.",
+   "compute_memory_gb": 32,
+   "compute_source": "https://docs.cloud.robotera.com/en/manuals/M7/v1.11.0",
+   "compute_tops": null,
+   "compute_soc": "AMD Ryzen AI 9 HX 370"
   },
   {
    "id": "robotera-star1",
@@ -24548,7 +24753,11 @@
     "https://humanoid.guide/product/star1/"
    ],
    "verification": "official",
-   "note": "Values from RobotEra's own STAR1 brochure PDF (robotera.com/upload, rendered and read): 171 cm, 63 kg, 55 DoF (7-DoF arms, 12-DoF XHAND1 hands, 3-DoF waist, 2-DoF neck), 400 Nm max joint torque, 25 rad/s, outdoor running 3.6 m/s, load capacity 20 kg, 275 TOPS (Nvidia Orin + Intel), tactile sensors, 3D cameras, mic array. Launched Aug 2024 (press). Aggregators claim STAR1 has been removed from the current robotera.com lineup in favor of L7 — not verified on a maker page, status left blank. Some aggregators list 85 kg/32 DoF/1.8 m — wrong/other model."
+   "note": "Values from RobotEra's own STAR1 brochure PDF (robotera.com/upload, rendered and read): 171 cm, 63 kg, 55 DoF (7-DoF arms, 12-DoF XHAND1 hands, 3-DoF waist, 2-DoF neck), 400 Nm max joint torque, 25 rad/s, outdoor running 3.6 m/s, load capacity 20 kg, 275 TOPS (Nvidia Orin + Intel), tactile sensors, 3D cameras, mic array. Launched Aug 2024 (press). Aggregators claim STAR1 has been removed from the current robotera.com lineup in favor of L7 — not verified on a maker page, status left blank. Some aggregators list 85 kg/32 DoF/1.8 m — wrong/other model.",
+   "compute_memory_gb": null,
+   "compute_source": null,
+   "compute_tops": 275,
+   "compute_soc": "NVIDIA Jetson Orin + Intel CPU"
   },
   {
    "id": "robotis-op3",
@@ -26686,7 +26895,11 @@
     "https://data.robo2u.com/robots/ti5-robot-yao-guang"
    ],
    "verification": "official",
-   "note": "RENAME: 'Yao Guang' (瑶光) is the name of a unit of Ti5's second-gen T170A humanoid launched at WAIC 4 Jul 2024 (maker news ti5robot.com/h-nd-39.html, read via search excerpt; page now 404). Maker release: 1.7 m, 48 kg, 44 DoF, 5 kg single-hand load, NVIDIA Jetson AGX Orin 64GB, LiDAR + binocular cameras. Maker's current English site (ti5robotics.com) lists T170A and newer T170A V2/T170C/T140A; a 2025 maker EN page (seen in excerpts) also cites dual-arm load 20-40 kg, five RealSense cameras, 6-mic array — newer config, not filled. Status left blank (superseded by T170A V2 likely). Maker model page opened 2026-11-17 (ti5robotics.com .../T170A.html): 48 kg, 1.5 m arm span, 44 active DoF, 32 joint motors, single-arm load 3 kg, hand 6 active DoF (0.5 kg standard / 3 kg flagship), 18-bit encoders, 48 V 10 Ah battery, CAN/EtherCAT, dual-arm API; standard model Jetson Orin Nano 8 GB, flagship Jetson AGX Orin 64 GB dev kit + RealSense D435i + 2x six-axis force sensors. CONFLICT: the 2024 WAIC release (now 404) said 5 kg single-hand load; the current maker page says 3 kg single-arm, which is stored. Height 1.7 m comes from the T170A naming/2024 release; the current page's parameter table omits height. Note the maker site serves swapped pages (T170A-V2.html returns the T170A table), so page-to-model mapping was taken from the printed heading."
+   "note": "RENAME: 'Yao Guang' (瑶光) is the name of a unit of Ti5's second-gen T170A humanoid launched at WAIC 4 Jul 2024 (maker news ti5robot.com/h-nd-39.html, read via search excerpt; page now 404). Maker release: 1.7 m, 48 kg, 44 DoF, 5 kg single-hand load, NVIDIA Jetson AGX Orin 64GB, LiDAR + binocular cameras. Maker's current English site (ti5robotics.com) lists T170A and newer T170A V2/T170C/T140A; a 2025 maker EN page (seen in excerpts) also cites dual-arm load 20-40 kg, five RealSense cameras, 6-mic array — newer config, not filled. Status left blank (superseded by T170A V2 likely). Maker model page opened 2026-11-17 (ti5robotics.com .../T170A.html): 48 kg, 1.5 m arm span, 44 active DoF, 32 joint motors, single-arm load 3 kg, hand 6 active DoF (0.5 kg standard / 3 kg flagship), 18-bit encoders, 48 V 10 Ah battery, CAN/EtherCAT, dual-arm API; standard model Jetson Orin Nano 8 GB, flagship Jetson AGX Orin 64 GB dev kit + RealSense D435i + 2x six-axis force sensors. CONFLICT: the 2024 WAIC release (now 404) said 5 kg single-hand load; the current maker page says 3 kg single-arm, which is stored. Height 1.7 m comes from the T170A naming/2024 release; the current page's parameter table omits height. Note the maker site serves swapped pages (T170A-V2.html returns the T170A table), so page-to-model mapping was taken from the printed heading.",
+   "compute_memory_gb": 64,
+   "compute_source": null,
+   "compute_tops": null,
+   "compute_soc": "NVIDIA Jetson AGX Orin 64GB"
   },
   {
    "id": "ti5-t170a-v2",
@@ -27819,12 +28032,17 @@
     "https://www.ubtrobot.com/en/humanoid/products/walker-s2",
     "https://a.storyblok.com/f/298593/x/1329253096/ubtech-walker-s2-sdk-secondary-development-document-external.pdf",
     "https://www.ubtrobot.com/cn/humanoid/products/walker-s2",
-    "https://cdn.robotshop.com/media/U/Ubt/RB-Ubt-37/pdf/ubtech-walker-s2-product%20manual.pdf"
+    "https://cdn.robotshop.com/media/U/Ubt/RB-Ubt-37/pdf/ubtech-walker-s2-product%20manual.pdf",
+    "https://humanoidstore.co/robots/ubtech-walker-s2"
    ],
    "summary": "UBTECH's second-generation industrial humanoid, the first able to swap its own battery for 24/7 work, aimed at automotive and smart-factory tasks with a 15 kg dual-arm payload across a 0-1.8 m workspace.",
    "verification": "official",
    "notes": "Issue #17 (2026-11-17): 176 cm, 70 kg (excluding hands), 15 kg dual-arm payload, 2.5 h confirmed in UBTECH's Walker S2 SDK document. DoF 42 derived: 30 body (head 2 + arms 7x2 + waist 2 + legs 6x2) + 6x2 hands. HumanoidStore rows dropped.",
-   "note": "Maker figures (product page and Walker S2 Product Manual V1.0, 2025-09-23): 176 cm, 70 kg without hands, 177 cm arm span, 6 DoF per leg, 2 waist, 2 head and 7 per arm excluding the hand, 15 kg dual-arm payload, x86 plus Jetson Orin, depth camera, six-axis force/torque, IMU, fisheye, 4-inch round screen, 48 V DC lithium battery charged at 54 V / 8 A, 2.5 h runtime, Ubuntu + ROSA 2.0, waist +/-162 deg, 125 deg body pitch, autonomous battery swap in under 3 minutes. Total DoF is recorded as 52 = 30 body (12 legs, 2 waist, 2 head, 14 arms) plus 22 hands; the maker does not state a single total."
+   "note": "Maker figures (product page and Walker S2 Product Manual V1.0, 2025-09-23): 176 cm, 70 kg without hands, 177 cm arm span, 6 DoF per leg, 2 waist, 2 head and 7 per arm excluding the hand, 15 kg dual-arm payload, x86 plus Jetson Orin, depth camera, six-axis force/torque, IMU, fisheye, 4-inch round screen, 48 V DC lithium battery charged at 54 V / 8 A, 2.5 h runtime, Ubuntu + ROSA 2.0, waist +/-162 deg, 125 deg body pitch, autonomous battery swap in under 3 minutes. Total DoF is recorded as 52 = 30 body (12 legs, 2 waist, 2 head, 14 arms) plus 22 hands; the maker does not state a single total.",
+   "compute_memory_gb": null,
+   "compute_source": "https://www.ubtrobot.com/en/humanoid/products/walker-s2",
+   "compute_tops": null,
+   "compute_soc": "NVIDIA Jetson Orin"
   },
   {
    "id": "ubtech-walker-x",
@@ -27887,7 +28105,11 @@
      "note_ko": "Walker X에 판다 외형을 입힌 모델로, UBTECH가 밝힌 사양이 동일합니다. 2020 두바이 엑스포 중국관용으로 제작되었습니다.",
      "url": "https://www.ubtrobot.com/en/humanoid/products/panda-robot"
     }
-   ]
+   ],
+   "compute_memory_gb": null,
+   "compute_source": "https://www.ubtrobot.com/en/humanoid/products/walker-x",
+   "compute_tops": null,
+   "compute_soc": "Intel Core i7-8665U"
   },
   {
    "id": "ubtech-uworld-u1",
@@ -28155,7 +28377,11 @@
     "https://data.robo2u.com/robots/ucla-romela-artemis"
    ],
    "verification": "official",
-   "note": "Maker = UCLA RoMeLa (academic research lab, not a company). Values from RoMeLa's own open-source paper (IEEE Humanoids 2025, artemis.romela.org): 140 cm, 37 kg, 20 active DoF (5/leg, 4/arm, 2 head), walks up to 2.1 m/s and runs. Conflicts in other maker-side sources: UCLA press (2023) 4 ft 8 in / 85 lb (1422 mm / 38.6 kg); team RoboCup spec sheet 1.5 m / 45 kg, 0.5 m/s untethered - newest paper values used. Battery: 99.9 Wh 22.2 V modules, typically four on board (~400 Wh total, computed). Open-sourced CAD, URDF, actuator and controller components; simulators Gazebo and MuJoCo. Not for sale."
+   "note": "Maker = UCLA RoMeLa (academic research lab, not a company). Values from RoMeLa's own open-source paper (IEEE Humanoids 2025, artemis.romela.org): 140 cm, 37 kg, 20 active DoF (5/leg, 4/arm, 2 head), walks up to 2.1 m/s and runs. Conflicts in other maker-side sources: UCLA press (2023) 4 ft 8 in / 85 lb (1422 mm / 38.6 kg); team RoboCup spec sheet 1.5 m / 45 kg, 0.5 m/s untethered - newest paper values used. Battery: 99.9 Wh 22.2 V modules, typically four on board (~400 Wh total, computed). Open-sourced CAD, URDF, actuator and controller components; simulators Gazebo and MuJoCo. Not for sale.",
+   "compute_memory_gb": null,
+   "compute_source": "https://artemis.romela.org/static/pdfs/artemis_final.pdf",
+   "compute_tops": null,
+   "compute_soc": "Intel Core i7-12700T"
   },
   {
    "id": "uma-northstar",
@@ -28253,7 +28479,11 @@
     "https://humanoid.guide/product/martian/"
    ],
    "verification": "official",
-   "note": "DoF = sum of stated parts (legs 12, arms 14, waist 3, head 2), excluding 11-DoF hands. Battery 9 Ah at 48 V rated (=432 Wh)."
+   "note": "DoF = sum of stated parts (legs 12, arms 14, waist 3, head 2), excluding 11-DoF hands. Battery 9 Ah at 48 V rated (=432 Wh).",
+   "compute_memory_gb": 32,
+   "compute_source": "https://www.unix-group.ai/Martian",
+   "compute_tops": 40,
+   "compute_soc": null
   },
   {
    "id": "unix-ai-panther",
@@ -28307,7 +28537,11 @@
     "https://humanoid.guide/product/panther/"
    ],
    "verification": "official",
-   "note": "Page describes 'Panther Pro Max Mini'; height 1620–1720 mm (lift), runtime 4–8 h (lower bound), dual-arm load 12 kg. Wheeled 4WS/4WD omni chassis."
+   "note": "Page describes 'Panther Pro Max Mini'; height 1620–1720 mm (lift), runtime 4–8 h (lower bound), dual-arm load 12 kg. Wheeled 4WS/4WD omni chassis.",
+   "compute_memory_gb": null,
+   "compute_source": "https://www.unix-group.ai/Panther",
+   "compute_tops": 2070,
+   "compute_soc": null
   },
   {
    "id": "unix-ai-wanda-2",
@@ -28363,7 +28597,11 @@
     "https://humanoid.guide/product/wanda-2-0/"
    ],
    "verification": "official",
-   "note": "Wheeled dual-arm humanoid (differential drive). Height 1400-1680 mm via torso lift. Runtime 8-16 h (lower bound used). Payload = dual-arm. Presale Dec 2024; mass production Dec 2025."
+   "note": "Wheeled dual-arm humanoid (differential drive). Height 1400-1680 mm via torso lift. Runtime 8-16 h (lower bound used). Payload = dual-arm. Presale Dec 2024; mass production Dec 2025.",
+   "compute_memory_gb": null,
+   "compute_source": "https://www.unix-group.ai/Wanda",
+   "compute_tops": 275,
+   "compute_soc": null
   },
   {
    "id": "unitree-g1",
@@ -28465,7 +28703,11 @@
      "kind": "distributor",
      "url": "https://www.younginmobility.com/"
     }
-   ]
+   ],
+   "compute_memory_gb": 16,
+   "compute_source": "https://www.unitree.com/g1",
+   "compute_tops": null,
+   "compute_soc": "NVIDIA Jetson Orin NX"
   },
   {
    "id": "unitree-g1-d",
@@ -28534,7 +28776,11 @@
      "kind": "distributor",
      "url": "https://www.younginmobility.com/"
     }
-   ]
+   ],
+   "compute_memory_gb": 16,
+   "compute_source": "https://www.unitree.com/G1-D/",
+   "compute_tops": 100,
+   "compute_soc": "NVIDIA Jetson Orin NX 16GB"
   },
   {
    "id": "unitree-h1",
@@ -28644,7 +28890,11 @@
      "kind": "distributor",
      "url": "https://www.younginmobility.com/"
     }
-   ]
+   ],
+   "compute_memory_gb": null,
+   "compute_source": "https://www.unitree.com/h1",
+   "compute_tops": null,
+   "compute_soc": "Intel Core i5"
   },
   {
    "id": "unitree-h1-2",
@@ -28804,7 +29054,11 @@
      "kind": "distributor",
      "url": "https://www.younginmobility.com/"
     }
-   ]
+   ],
+   "compute_memory_gb": null,
+   "compute_source": "https://www.unitree.com/H2",
+   "compute_tops": null,
+   "compute_soc": "Intel Core i5"
   },
   {
    "id": "unitree-h2-d",
@@ -28866,7 +29120,11 @@
      "kind": "distributor",
      "url": "https://www.younginmobility.com/"
     }
-   ]
+   ],
+   "compute_memory_gb": null,
+   "compute_source": "https://www.unitree.com/H2-D/",
+   "compute_tops": null,
+   "compute_soc": "Intel Core i5 + Intel Core i7"
   },
   {
    "id": "unitree-r1",
@@ -29079,7 +29337,11 @@
     "https://humanoidversus.com/robots/bonn-nimbro-op"
    ],
    "verification": "official",
-   "note": "First prototype of the igus Humanoid Open Platform (2012), built with Robotis support. battery: battery_wh computed from LiPo 14.8V×3.6Ah"
+   "note": "First prototype of the igus Humanoid Open Platform (2012), built with Robotis support. battery: battery_wh computed from LiPo 14.8V×3.6Ah",
+   "compute_memory_gb": 2,
+   "compute_source": "https://www.ais.uni-bonn.de/nimbro/OP/NimbRo-OP.html",
+   "compute_tops": null,
+   "compute_soc": "AMD E-450"
   },
   {
    "id": "bonn-nimbro-op2",
@@ -29131,7 +29393,11 @@
     "https://humanoidversus.com/robots/bonn-nimbro-op2"
    ],
    "verification": "official",
-   "note": "Successor NimbRo-OP2X (2018) is a separate upgrade (Dynamixel-X, GPU). speed: 0.5 m/s per 2023/2024 datasheets (2018 sheet: 0.4 m/s)"
+   "note": "Successor NimbRo-OP2X (2018) is a separate upgrade (Dynamixel-X, GPU). speed: 0.5 m/s per 2023/2024 datasheets (2018 sheet: 0.4 m/s)",
+   "compute_memory_gb": null,
+   "compute_source": "https://www.ais.uni-bonn.de/nimbro/Humanoid/papers/Specs_NimbRo_AdultSize_2024.pdf",
+   "compute_tops": null,
+   "compute_soc": "Intel Core i7-7700HQ"
   },
   {
    "id": "surena-iv",
@@ -30269,7 +30535,11 @@
     "https://embodied.guide/robots/westwood-robotics-bruce/"
    ],
    "verification": "official",
-   "note": "Official product page, brochure and store. Co-developed with UCLA RoMeLa. Price: store lists $8,950 (out of stock); product page shows $15,290 list / $8,890 limited offer. runtime: ~20 min with 3000 mAh battery (brochure)"
+   "note": "Official product page, brochure and store. Co-developed with UCLA RoMeLa. Price: store lists $8,950 (out of stock); product page shows $15,290 list / $8,890 limited offer. runtime: ~20 min with 3000 mAh battery (brochure)",
+   "compute_memory_gb": 8,
+   "compute_source": "http://store.westwoodrobotics.io/product/bruce-humanoid-open-platform-16-dof-kid-size-biped-robot",
+   "compute_tops": 6,
+   "compute_soc": null
   },
   {
    "id": "westwood-robotics-themis",
@@ -30333,7 +30603,11 @@
     "https://humanoid.guide/product/themis-v2/"
    ],
    "verification": "official",
-   "note": "Values from THEMIS TH02 Gen2.5 brochure (2026). Earlier THEMIS V2 (2024 sheet): 22 DoF, 31–32 kg, up to 10 km/h (Professional). Gen2.5 differs; record reflects Gen2.5. speed: 5 km/h walking ÷3.6; battery 2×259.2 Wh hot-swap; endurance 120 min (180 with extended battery)"
+   "note": "Values from THEMIS TH02 Gen2.5 brochure (2026). Earlier THEMIS V2 (2024 sheet): 22 DoF, 31–32 kg, up to 10 km/h (Professional). Gen2.5 differs; record reflects Gen2.5. speed: 5 km/h walking ÷3.6; battery 2×259.2 Wh hot-swap; endurance 120 min (180 with extended battery)",
+   "compute_memory_gb": null,
+   "compute_source": "https://www.westwoodrobotics.io/themis/",
+   "compute_tops": null,
+   "compute_soc": "AMD Ryzen 7840 + NVIDIA Jetson Orin"
   },
   {
    "id": "workfar-syntro",
@@ -30383,7 +30657,11 @@
     "https://humanoid.guide/product/syntro/"
    ],
    "verification": "official",
-   "note": "Official store page: wheeled humanoid on 3 omni wheels (not legged). DoF breakdown sums to 45. Runtime stated 6-10 h (lower bound used). Price range USD 9,999.99–59,999.99 by package. Made in USA (Louisville, KY)."
+   "note": "Official store page: wheeled humanoid on 3 omni wheels (not legged). DoF breakdown sums to 45. Runtime stated 6-10 h (lower bound used). Price range USD 9,999.99–59,999.99 by package. Made in USA (Louisville, KY).",
+   "compute_memory_gb": null,
+   "compute_source": "https://www.workfar.com/product/syntro",
+   "compute_tops": null,
+   "compute_soc": "Intel Core i5"
   },
   {
    "id": "wuba-da-sheng-d12",
@@ -30532,7 +30810,11 @@
     "https://humanoid.guide/product/quanta-x1-pro/"
    ],
    "verification": "official",
-   "note": "Official page names it 量子1号 Pro (Quanta X1 Pro): wheeled dual-arm robot (differential drive), not legged. Payload = 6 kg task load (3 kg rated per arm)."
+   "note": "Official page names it 量子1号 Pro (Quanta X1 Pro): wheeled dual-arm robot (differential drive), not legged. Payload = 6 kg task load (3 kg rated per arm).",
+   "compute_memory_gb": 16,
+   "compute_source": "https://x2robot.com/product/quantum1",
+   "compute_tops": null,
+   "compute_soc": "Intel Core Ultra 7 155H"
   },
   {
    "id": "x-square-robot-quanta-x2",
@@ -33530,7 +33812,11 @@
     "https://roboticsrankings.com/robots/diligent-robotics-moxi/"
    ],
    "verification": "official",
-   "note": "Maker product page + Moxi 2.0 announcement (Oct 2025; rollout Aug 2026, NVIDIA Thor compute). Maker publishes no dimensions/weight/speed; aggregator figures (136 kg, 152 cm) left null. Category 'Indoor delivery' ok but it is a mobile manipulator (one arm)."
+   "note": "Maker product page + Moxi 2.0 announcement (Oct 2025; rollout Aug 2026, NVIDIA Thor compute). Maker publishes no dimensions/weight/speed; aggregator figures (136 kg, 152 cm) left null. Category 'Indoor delivery' ok but it is a mobile manipulator (one arm).",
+   "compute_memory_gb": null,
+   "compute_source": "https://www.diligentrobots.com/blog/moxi2-0",
+   "compute_tops": null,
+   "compute_soc": "NVIDIA Jetson Thor"
   },
   {
    "id": "future-robot-furo-s",
@@ -34824,7 +35110,11 @@
     "https://botupyourlife.com/en/robots/pudu-swiftbot/"
    ],
    "verification": "official",
-   "note": "Pudu Academy spec: models SWFD01 (no door)/SWFD11 (auto door), battery 25.6 Ah at DC 23-29.4 V (Wh not stated), battery life 10-24 h (runtime_h = lower bound), 0.5-1.2 m/s, 3 trays 502x433 mm. Pudu news: showcased May 2022 (Qualcomm 5G Summit) with 3 RGBD + 2 RGB + dual LiDAR and 15 TOPS. Weight 59/49 kg, 35 kg max load and 488x593x1281 mm appear in Pudu datasheets hosted by resellers (not opened) - left out."
+   "note": "Pudu Academy spec: models SWFD01 (no door)/SWFD11 (auto door), battery 25.6 Ah at DC 23-29.4 V (Wh not stated), battery life 10-24 h (runtime_h = lower bound), 0.5-1.2 m/s, 3 trays 502x433 mm. Pudu news: showcased May 2022 (Qualcomm 5G Summit) with 3 RGBD + 2 RGB + dual LiDAR and 15 TOPS. Weight 59/49 kg, 35 kg max load and 488x593x1281 mm appear in Pudu datasheets hosted by resellers (not opened) - left out.",
+   "compute_memory_gb": null,
+   "compute_source": "https://academy.pudutech.com/en/docs/chan-pin-jian-jie-mGSQ",
+   "compute_tops": 15,
+   "compute_soc": null
   },
   {
    "id": "robotis-gaemi-indoor",
@@ -35821,7 +36111,11 @@
     "https://roboticsrankings.com/robots/agilex-cobot-magic/"
    ],
    "verification": "official",
-   "note": "Mobile ALOHA-based bimanual teleoperation/data-collection platform: TRACER 2.0 differential base + 4x PiPER 6-DoF arms. Dims = stand frame 1125x758x1507 mm. Supports ROS 1/ROS 2, SDKs, LeRobot etc."
+   "note": "Mobile ALOHA-based bimanual teleoperation/data-collection platform: TRACER 2.0 differential base + 4x PiPER 6-DoF arms. Dims = stand frame 1125x758x1507 mm. Supports ROS 1/ROS 2, SDKs, LeRobot etc.",
+   "compute_memory_gb": null,
+   "compute_source": "https://global.agilex.ai/pages/blogs",
+   "compute_tops": null,
+   "compute_soc": "NVIDIA GeForce RTX 4060"
   },
   {
    "id": "agilex-ranger-mini-3-0",
@@ -36316,7 +36610,11 @@
     "FCC Part 18",
     "ICES-002",
     "ICES-003"
-   ]
+   ],
+   "compute_memory_gb": null,
+   "compute_source": null,
+   "compute_tops": null,
+   "compute_soc": "Intel Core i3-13100TE"
   },
   {
    "id": "clearpath-jackal",
@@ -36389,7 +36687,11 @@
    "certifications": [
     "FCC Part 18",
     "ICES-002"
-   ]
+   ],
+   "compute_memory_gb": 16,
+   "compute_source": null,
+   "compute_tops": null,
+   "compute_soc": "Intel Core i3-9100TE"
   },
   {
    "id": "clearpath-ridgeback",
@@ -36531,7 +36833,11 @@
      "license": "Apache-2.0"
     }
    ],
-   "ros2_url": "https://github.com/turtlebot/turtlebot4"
+   "ros2_url": "https://github.com/turtlebot/turtlebot4",
+   "compute_memory_gb": 4,
+   "compute_source": "https://turtlebot.github.io/turtlebot4-user-manual/overview/features.html",
+   "compute_tops": null,
+   "compute_soc": "Raspberry Pi 4B"
   },
   {
    "id": "cobalt-robot",
@@ -36974,7 +37280,11 @@
    "safety_standards": [],
    "safety_source": "https://franka.de/hubfs/Prototype%20Manual%20and%20Datasheets%20_Mobile%20FR3%20Duo_R04245_EN.pdf",
    "safety_pl": null,
-   "certifications": []
+   "certifications": [],
+   "compute_memory_gb": null,
+   "compute_source": "https://franka.de/mobile-fr3-duo",
+   "compute_tops": null,
+   "compute_soc": "NVIDIA Jetson AGX Orin"
   },
   {
    "id": "fraunhofer-ipa-rob-at-work-3",
@@ -37117,7 +37427,11 @@
    "safety_standards": [],
    "safety_source": "https://github.com/hello-robot/stretch_hardware_guides/blob/master/docs/hardware_guide_stretch_3.md",
    "safety_pl": null,
-   "certifications": []
+   "certifications": [],
+   "compute_memory_gb": null,
+   "compute_source": "https://hello-stretch3.com/stretch-3-product",
+   "compute_tops": null,
+   "compute_soc": "Intel NUC 12"
   },
   {
    "id": "hello-robot-stretch-4",
@@ -38026,7 +38340,11 @@
     "https://data.robo2u.com/robots/robotnik-rb-kairos"
    ],
    "verification": "official",
-   "note": "Robotnik 2024 datasheet, UR5e version (UR16e version 1410 mm tall, 153 kg). Weight = 115 kg base + 25 kg arm."
+   "note": "Robotnik 2024 datasheet, UR5e version (UR16e version 1410 mm tall, 153 kg). Weight = 115 kg base + 25 kg arm.",
+   "compute_memory_gb": null,
+   "compute_source": "https://robotnik.eu/products/mobile-manipulators/rb-kairos/",
+   "compute_tops": null,
+   "compute_soc": "Intel Core i7"
   },
   {
    "id": "robotnik-rb-summit",
@@ -38161,7 +38479,11 @@
     "https://data.robo2u.com/robots/robotnik-rb-vogui"
    ],
    "verification": "official",
-   "note": "Robotnik datasheet (2023, UR arm version). Weight = 165 kg base + 20.6 kg arm. Newer 2026 datasheet lists UR7e/UR8/UR12e variants at 1044x776x742 mm, 130/105/115 kg payload, IP53."
+   "note": "Robotnik datasheet (2023, UR arm version). Weight = 165 kg base + 20.6 kg arm. Newer 2026 datasheet lists UR7e/UR8/UR12e variants at 1044x776x742 mm, 130/105/115 kg payload, IP53.",
+   "compute_memory_gb": null,
+   "compute_source": "https://robotnik.eu/products/mobile-robots/rb-vogui+",
+   "compute_tops": null,
+   "compute_soc": "Intel Core i7"
   },
   {
    "id": "sigrobotics-lekiwi",
@@ -38236,7 +38558,11 @@
      "url": "https://github.com/SIGRobotics-UIUC/LeKiwi",
      "license": "Apache-2.0"
     }
-   ]
+   ],
+   "compute_memory_gb": null,
+   "compute_source": "https://github.com/SIGRobotics-UIUC/LeKiwi",
+   "compute_tops": null,
+   "compute_soc": "Raspberry Pi"
   },
   {
    "id": "smp-robotics-argus-s5-4",
@@ -38286,7 +38612,11 @@
     "https://roboticsrankings.com/robots/smp-robotics-argus-s5-4/"
    ],
    "verification": "official",
-   "note": "Shipping from March 2026; NVIDIA Jetson Orin NX for third-party AI apps (SMP Store), dual-system design, API. Speed 4-6 km/h and IP65 are stated for the Argus outdoor patrol platform generally (max 6 km/h used)."
+   "note": "Shipping from March 2026; NVIDIA Jetson Orin NX for third-party AI apps (SMP Store), dual-system design, API. Speed 4-6 km/h and IP65 are stated for the Argus outdoor patrol platform generally (max 6 km/h used).",
+   "compute_memory_gb": null,
+   "compute_source": "https://smprobotics.com/usa/argus-s5-4-nvidia-jetson-orin-third-party-ai-software",
+   "compute_tops": null,
+   "compute_soc": "NVIDIA Jetson Orin NX"
   },
   {
    "id": "segway-nova-carter",
@@ -38368,7 +38698,11 @@
     }
    ],
    "ros2_url": "https://github.com/NVIDIA-ISAAC-ROS/nova_carter",
-   "ros2_support": true
+   "ros2_support": true,
+   "compute_memory_gb": 64,
+   "compute_source": "https://robotics.segway.com/nova-carter",
+   "compute_tops": null,
+   "compute_soc": "NVIDIA Jetson AGX Orin 64GB"
   },
   {
    "id": "segway-rmp-lite-220",
@@ -38692,7 +39026,11 @@
     "https://data.robo2u.com/robots/fetch-mobile-manipulator"
    ],
    "verification": "official",
-   "note": "Re-checked 2026-11-17: Zebra/Fetch have no live product page (zebra.com/us/en/products/robotics.html returns 404; Zebra sold its robotics automation business - formerly Fetch Robotics - to Skild AI, closing 2026-03-27 per Zebra's 10-Q) and the maker's documentation host docs.fetchrobotics.com no longer resolves (ERR_TUNNEL_CONNECTION_FAILED; page fetch HTTP 500), although the Wayback Machine holds a 200 snapshot of this page from 2024-04-18. Stored figures are the Fetch hardware documentation values (113.3 kg, 508 mm wide / 559 mm dia base, 1.49 m with torso up, 6 kg arm payload, 1.0 m/s, 13 DoF, i5 / 16 GB / 120 GB SSD, 3 h to 90%) plus the Fetch spec sheet copy on a reseller host; no value was changed in this pass."
+   "note": "Re-checked 2026-11-17: Zebra/Fetch have no live product page (zebra.com/us/en/products/robotics.html returns 404; Zebra sold its robotics automation business - formerly Fetch Robotics - to Skild AI, closing 2026-03-27 per Zebra's 10-Q) and the maker's documentation host docs.fetchrobotics.com no longer resolves (ERR_TUNNEL_CONNECTION_FAILED; page fetch HTTP 500), although the Wayback Machine holds a 200 snapshot of this page from 2024-04-18. Stored figures are the Fetch hardware documentation values (113.3 kg, 508 mm wide / 559 mm dia base, 1.49 m with torso up, 6 kg arm payload, 1.0 m/s, 13 DoF, i5 / 16 GB / 120 GB SSD, 3 h to 90%) plus the Fetch spec sheet copy on a reseller host; no value was changed in this pass.",
+   "compute_memory_gb": 16,
+   "compute_source": null,
+   "compute_tops": null,
+   "compute_soc": "Intel Core i5 (Haswell)"
   },
   {
    "id": "irobot-create-3",
@@ -38874,7 +39212,11 @@
     "https://botupyourlife.com/en/robots/csjbot-renwoxing-unmanned-retail-vehicle/"
    ],
    "verification": "official",
-   "note": "Chinese name 任我行无人零售车 on alpha-robot.com.cn (苏州穿山甲机器人). Speed 10 km/h."
+   "note": "Chinese name 任我行无人零售车 on alpha-robot.com.cn (苏州穿山甲机器人). Speed 10 km/h.",
+   "compute_memory_gb": null,
+   "compute_source": "https://www.alpha-robot.com.cn/productrwx/139/detail/14.html",
+   "compute_tops": null,
+   "compute_soc": "NVIDIA Jetson Xavier"
   },
   {
    "id": "csjbot-speedybot-pro",
@@ -39534,11 +39876,16 @@
    "official_url": "https://www.serverobotics.com/robot",
    "sources": [
     "https://www.globenewswire.com/news-release/2024/10/16/2963910/0/en/Serve-Robotics-Rolls-Out-Third-Generation-Autonomous-Delivery-Robot-Platform-Upgrade-Will-Support-National-Scaling.html",
-    "https://www.sec.gov/Archives/edgar/data/1832483/000183248326000034/finalserve_investorxdeck.htm"
+    "https://www.sec.gov/Archives/edgar/data/1832483/000183248326000034/finalserve_investorxdeck.htm",
+    "https://www.serverobotics.com/robot"
    ],
    "summary": "Third-generation Level 4 sidewalk food-delivery robot built with Magna, running on Uber Eats and other platforms in US cities.",
    "verification": "official",
-   "note": "serverobotics.com/robot is service copy with no specification table, so the figures come from the maker's own launch release (16 Oct 2024, via GlobeNewswire) and its SEC investor deck: Level 4 sidewalk robot built with Magna, top speed 11 mph, 48 mi range, 15 gal cargo, NVIDIA Jetson Orin, Ouster REV7 lidar. Payload, mass and dimensions are not published in either document."
+   "note": "serverobotics.com/robot is service copy with no specification table, so the figures come from the maker's own launch release (16 Oct 2024, via GlobeNewswire) and its SEC investor deck: Level 4 sidewalk robot built with Magna, top speed 11 mph, 48 mi range, 15 gal cargo, NVIDIA Jetson Orin, Ouster REV7 lidar. Payload, mass and dimensions are not published in either document.",
+   "compute_memory_gb": null,
+   "compute_source": "https://www.serverobotics.com/robot",
+   "compute_tops": null,
+   "compute_soc": "NVIDIA Jetson Orin"
   },
   {
    "id": "starship-delivery-robot",
@@ -39745,7 +40092,11 @@
      "url": "https://github.com/ANYbotics/anymal_d_simple_description/blob/master/urdf/anymal.urdf",
      "license": "BSD-3-Clause"
     }
-   }
+   },
+   "compute_memory_gb": 8,
+   "compute_source": null,
+   "compute_tops": null,
+   "compute_soc": "Intel Core i7 (8th gen)"
   },
   {
    "id": "anybotics-anymal-b",
@@ -39857,7 +40208,11 @@
      "url": "https://github.com/ANYbotics/anymal_c_simple_description/blob/master/urdf/anymal.urdf",
      "license": "BSD-3-Clause"
     }
-   }
+   },
+   "compute_memory_gb": null,
+   "compute_source": "https://ethz.ch/content/dam/ethz/special-interest/mavt/robotics-n-intelligent-systems/rsl-dam/ROS2021/lec5/ANYbotics_ROS_Case_Study_2021.pdf",
+   "compute_tops": null,
+   "compute_soc": "Intel Core i7"
   },
   {
    "id": "anybotics-anymal-x",
@@ -41189,7 +41544,11 @@
     "https://embodied.guide/robots/deep-robotics-mini/"
    ],
    "verification": "official",
-   "note": "Values from DEEP Robotics' official Jueying Mini datasheet PDF (23 kg, 15 kg load in motion, 700x400x500 mm, 14,000 mAh, avg 2 h, 3.3 m/s, 35° slope). CONFLICT: the maker's legacy web page lists max load 10 kg, endurance 40 min and 30° slope. Battery voltage not stated so Wh not computed. Model no longer appears in DEEP's current product lineup (X50/X30/Lite3/M20/S10) - likely discontinued, status not stated by maker."
+   "note": "Values from DEEP Robotics' official Jueying Mini datasheet PDF (23 kg, 15 kg load in motion, 700x400x500 mm, 14,000 mAh, avg 2 h, 3.3 m/s, 35° slope). CONFLICT: the maker's legacy web page lists max load 10 kg, endurance 40 min and 30° slope. Battery voltage not stated so Wh not computed. Model no longer appears in DEEP's current product lineup (X50/X30/Lite3/M20/S10) - likely discontinued, status not stated by maker.",
+   "compute_memory_gb": 8,
+   "compute_source": "https://deep-website.oss-cn-hangzhou.aliyuncs.com/file/Jueying%20Mini.pdf",
+   "compute_tops": null,
+   "compute_soc": "Intel Core i7 + NVIDIA Jetson Xavier NX"
   },
   {
    "id": "deep-robotics-jueying-pro",
@@ -41427,7 +41786,8 @@
     "https://github.com/DeepRoboticsLab/deep_robotics_model/blob/main/Lite3/usd/Lite3.usd",
     "https://github.com/DeepRoboticsLab/rl_training",
     "https://github.com/DeepRoboticsLab/deep_robotics_model",
-    "https://github.com/DeepRoboticsLab/Lite3_ROS"
+    "https://github.com/DeepRoboticsLab/Lite3_ROS",
+    "https://developer.deeprobotics.cn/docs/lite3/guide/software/compute/"
    ],
    "summary": "Compact quadruped for robotics education, reinforcement-learning research and entertainment.",
    "verification": "official",
@@ -41474,7 +41834,11 @@
      "url": "https://github.com/DeepRoboticsLab/rl_training",
      "license": "BSD-3-Clause"
     }
-   ]
+   ],
+   "compute_memory_gb": null,
+   "compute_source": "https://developer.deeprobotics.cn/docs/lite3/guide/software/compute/",
+   "compute_tops": null,
+   "compute_soc": "Rockchip RK3588 + NVIDIA Jetson Xavier NX"
   },
   {
    "id": "deep-robotics-x30-pro",
@@ -42233,7 +42597,11 @@
     "https://embodied.guide/robots/genisom-gangben-l1/"
    ],
    "verification": "official",
-   "note": "Official name 'Genisom L1' (钢镚 L1) - the record was listed as 'Gangben L1' from a competitor's transliteration. GENISOM AI (智身科技) page: limit speed 5 m/s; payload ≈8 kg (limit ~10 kg). Battery 43.2 V × 4.6 Ah rated (~199 Wh, computed; not stated as Wh). EDU version adds Jetson Orin NX, 3D LiDAR, depth camera."
+   "note": "Official name 'Genisom L1' (钢镚 L1) - the record was listed as 'Gangben L1' from a competitor's transliteration. GENISOM AI (智身科技) page: limit speed 5 m/s; payload ≈8 kg (limit ~10 kg). Battery 43.2 V × 4.6 Ah rated (~199 Wh, computed; not stated as Wh). EDU version adds Jetson Orin NX, 3D LiDAR, depth camera.",
+   "compute_memory_gb": null,
+   "compute_source": "https://www.genisomai.com/product-robot/L1",
+   "compute_tops": 100,
+   "compute_soc": "NVIDIA Jetson Orin NX"
   },
   {
    "id": "genisom-gangben-l2",
@@ -42337,7 +42705,11 @@
     "https://embodied.guide/robots/genisom-tongchui-m1/"
    ],
    "verification": "official",
-   "note": "Official 铜锤 M1 (variants M1/Pro/Ultra): 12 joint motors + 4 hub motors (wheel-legged; optional point-foot kit), so category 'Quadruped' may be better as Wheel-legged. Limit speed 8 m/s. Battery 54 V × 9.35 Ah × 2 (~1010 Wh computed). Weight 41 kg with battery."
+   "note": "Official 铜锤 M1 (variants M1/Pro/Ultra): 12 joint motors + 4 hub motors (wheel-legged; optional point-foot kit), so category 'Quadruped' may be better as Wheel-legged. Limit speed 8 m/s. Battery 54 V × 9.35 Ah × 2 (~1010 Wh computed). Weight 41 kg with battery.",
+   "compute_memory_gb": null,
+   "compute_source": null,
+   "compute_tops": 100,
+   "compute_soc": null
   },
   {
    "id": "genisom-qiuqiu-sp1",
@@ -42816,7 +43188,11 @@
    ],
    "summary": "Rugged all-weather quadruped UGV for defense, public safety and industrial inspection with modular payloads.",
    "verification": "official",
-   "note": "Ghost Robotics' own technical specifications on the Vision 60 page: 51 kg tare, 950 x 570 x 685 mm standing (250 mm body width, 419 mm ride height), 10 kg payload, standard walk 0.9 m/s with 1.2 m/s fast-walk and 2.4 m/s sprint (target 3.0), 3.15 h continuous walking at 0.9 m/s or 21 h standby, IP67, -40 to 55 C, 4G/LTE and Wi-Fi with a GigE switch. The Jetson Xavier 32 GB / 2 TB NVMe compute entry comes from the maker's spec sheet v3.3."
+   "note": "Ghost Robotics' own technical specifications on the Vision 60 page: 51 kg tare, 950 x 570 x 685 mm standing (250 mm body width, 419 mm ride height), 10 kg payload, standard walk 0.9 m/s with 1.2 m/s fast-walk and 2.4 m/s sprint (target 3.0), 3.15 h continuous walking at 0.9 m/s or 21 h standby, IP67, -40 to 55 C, 4G/LTE and Wi-Fi with a GigE switch. The Jetson Xavier 32 GB / 2 TB NVMe compute entry comes from the maker's spec sheet v3.3.",
+   "compute_memory_gb": 32,
+   "compute_source": "https://www.ghostrobotics.io/vision-60",
+   "compute_tops": null,
+   "compute_soc": "NVIDIA Jetson Xavier"
   },
   {
    "id": "greentrans-gt3x",
@@ -44041,7 +44417,11 @@
     "https://embodied.guide/robots/microrobotech-movenew-t1/"
    ],
    "verification": "official",
-   "note": "Maker is MICBOT (Hangzhou Juwei Technology). Wheel-legged flagship. Datasheet says IP68; feature blurb says IP66 — datasheet used. Speed 18 km/h = 5 m/s. Weight given as 40–50 kg range (left null)."
+   "note": "Maker is MICBOT (Hangzhou Juwei Technology). Wheel-legged flagship. Datasheet says IP68; feature blurb says IP66 — datasheet used. Speed 18 km/h = 5 m/s. Weight given as 40–50 kg range (left null).",
+   "compute_memory_gb": null,
+   "compute_source": "https://www.micbotics.com/list_13/96.html",
+   "compute_tops": 181,
+   "compute_soc": null
   },
   {
    "id": "mit-cheetah-3",
@@ -44391,7 +44771,11 @@
     "https://embodied.guide/robots/magiclab-magicdog-y1/"
    ],
    "verification": "official",
-   "note": "payload_kg = 45 kg dynamic payload (150 kg max load). Runtime 4–6 h (lower bound used)."
+   "note": "payload_kg = 45 kg dynamic payload (150 kg max load). Runtime 4–6 h (lower bound used).",
+   "compute_memory_gb": null,
+   "compute_source": "https://www.magiclabglobal.com/products/magicdog-y1/",
+   "compute_tops": 157,
+   "compute_soc": null
   },
   {
    "id": "mangdang-mini-pupper-2",
@@ -44461,7 +44845,11 @@
     }
    ],
    "ros2_url": "https://github.com/mangdangroboticsclub/mini_pupper_ros",
-   "ros2_support": true
+   "ros2_support": true,
+   "compute_memory_gb": null,
+   "compute_source": "https://mangdang.store/products/mp2",
+   "compute_tops": null,
+   "compute_soc": "Raspberry Pi CM4 + Espressif ESP32-S3"
   },
   {
    "id": "manoid-mq01-pro",
@@ -44513,7 +44901,11 @@
     "https://embodied.guide/robots/manoid-mq01-pro/"
    ],
    "verification": "official",
-   "note": "Official datasheet name: 'MQ01 Pro LIDAR 2'. Maker MANOÏD (France)."
+   "note": "Official datasheet name: 'MQ01 Pro LIDAR 2'. Maker MANOÏD (France).",
+   "compute_memory_gb": null,
+   "compute_source": null,
+   "compute_tops": null,
+   "compute_soc": "NVIDIA Jetson Xavier NX"
   },
   {
    "id": "manoid-mq02",
@@ -45130,7 +45522,8 @@
     "https://www.petoi.com/pages/robot-dog-bittle-x-technical-specifications",
     "https://github.com/PetoiCamp/OpenCat-Quadruped-Robot",
     "https://github.com/PetoiCamp/ros_opencat/blob/ros1/petoi_ROS_model_docs/bittle_ros/bittle_description/urdf/bittle.xacro",
-    "https://github.com/PetoiCamp/ros_opencat"
+    "https://github.com/PetoiCamp/ros_opencat",
+    "https://www.petoi.com/products/petoi-robot-dog-bittle-x-voice-controlled"
    ],
    "summary": "Palm-sized open-source, voice-controlled ESP32 robot dog kit for STEM education and hobby robotics, programmable in blocks, C++ and Python.",
    "image_url": null,
@@ -45167,7 +45560,11 @@
      "url": "https://github.com/PetoiCamp/ros_opencat",
      "license": "MIT"
     }
-   ]
+   ],
+   "compute_memory_gb": null,
+   "compute_source": "https://www.petoi.com/products/petoi-robot-dog-bittle-x-voice-controlled",
+   "compute_tops": null,
+   "compute_soc": "Espressif ESP32"
   },
   {
    "id": "petoi-nybble-q",
@@ -45304,7 +45701,11 @@
     "https://embodied.guide/robots/pudu-d5/"
    ],
    "verification": "official",
-   "note": "Payload 20–30 kg continuous walking (lower bound). Runtime 2–2.5 h. Page claims series cruising up to 5 m/s, attributed to wheeled D5-W, so left null here. Standard dual 96-line LiDAR (192-line optional)."
+   "note": "Payload 20–30 kg continuous walking (lower bound). Runtime 2–2.5 h. Page claims series cruising up to 5 m/s, attributed to wheeled D5-W, so left null here. Standard dual 96-line LiDAR (192-line optional).",
+   "compute_memory_gb": 64,
+   "compute_source": "https://www.pudurobotics.com/en/products/d5",
+   "compute_tops": 275,
+   "compute_soc": "NVIDIA Jetson AGX Orin 64GB + Rockchip RK3588"
   },
   {
    "id": "rt-corporation-mujina",
@@ -46369,7 +46770,11 @@
      "kind": "distributor",
      "url": "https://www.younginmobility.com/"
     }
-   ]
+   ],
+   "compute_memory_gb": null,
+   "compute_source": "https://www.unitree.com/A2",
+   "compute_tops": null,
+   "compute_soc": "Intel Core i7"
   },
   {
    "id": "unitree-aliengo",
@@ -46631,7 +47036,11 @@
      "kind": "distributor",
      "url": "https://www.younginmobility.com/"
     }
-   ]
+   ],
+   "compute_memory_gb": null,
+   "compute_source": "https://www.unitree.com/b1/",
+   "compute_tops": null,
+   "compute_soc": "NVIDIA Jetson Xavier NX"
   },
   {
    "id": "unitree-b2",
@@ -46727,7 +47136,11 @@
      "kind": "distributor",
      "url": "https://www.younginmobility.com/"
     }
-   ]
+   ],
+   "compute_memory_gb": null,
+   "compute_source": "https://www.unitree.com/b2",
+   "compute_tops": null,
+   "compute_soc": "Intel Core i5 + Intel Core i7"
   },
   {
    "id": "unitree-go1",
@@ -47262,7 +47675,11 @@
    ],
    "summary": "Developer-oriented quadruped platform with LiDAR, stereo cameras, ROS 2 and SDK, launched 10 Nov 2026 at about CNY 20,988.",
    "note": "Vita Dynamics (维他动力) released the DEV Geek Edition on 10 November 2026 for CNY 22,988 (CNY 20,988 from 10 to 20 November) as a developer version of its Vbot platform, with a 360 degree 16-line LiDAR, 1080p depth stereo cameras, UWB, a four-microphone array, 128 TOPS on-device compute, ROS 2 and the open-sourced Aorta middleware. The 594 Wh battery and the sensor set are the maker's platform figures on vbot.cn/Detail; the maker publishes no separate DEV mass, dimensions, speed or runtime table, so those fields stay empty.",
-   "verification": "official"
+   "verification": "official",
+   "compute_memory_gb": null,
+   "compute_source": null,
+   "compute_tops": 128,
+   "compute_soc": null
   },
   {
    "id": "vbot-superdog",
@@ -47314,7 +47731,11 @@
     "https://embodied.guide/robots/vbot-superdog/"
    ],
    "verification": "official",
-   "note": "Official vbot.cn spec (Vbot超能机器狗, nickname 大头BoBo): standing 613 x 339 x 569 mm, ~16 kg, 14 joints, moving runtime ~3-5 h (headline \"续航5小时\"; runtime_h uses 5), 594 Wh 48 V battery, max speed 14 km/h (=3.89 m/s) but normal motion speed 4 km/h (OTA increasing), working payload 5 kg / max 12 kg, towing 50 kg steady / 100 kg max, 128 TOPS, binocular depth camera, 360° 16-line LiDAR, 4-mic array, UWB. Launched 23 Dec 2025 at CNY 12,988 (launch price 9,988); mass production. max_speed uses the stated maximum."
+   "note": "Official vbot.cn spec (Vbot超能机器狗, nickname 大头BoBo): standing 613 x 339 x 569 mm, ~16 kg, 14 joints, moving runtime ~3-5 h (headline \"续航5小时\"; runtime_h uses 5), 594 Wh 48 V battery, max speed 14 km/h (=3.89 m/s) but normal motion speed 4 km/h (OTA increasing), working payload 5 kg / max 12 kg, towing 50 kg steady / 100 kg max, 128 TOPS, binocular depth camera, 360° 16-line LiDAR, 4-mic array, UWB. Launched 23 Dec 2025 at CNY 12,988 (launch price 9,988); mass production. max_speed uses the stated maximum.",
+   "compute_memory_gb": null,
+   "compute_source": "https://www.vbot.cn/Detail",
+   "compute_tops": 128,
+   "compute_soc": null
   },
   {
    "id": "weilan-alphadog-c500",
@@ -47742,7 +48163,11 @@
     "https://embodied.guide/robots/xiaomi-cyberdog-1/"
    ],
    "verification": "official",
-   "note": "Official mi.com CyberDog page: max walking speed 3.2 m/s is lab-tested (max safe speed 1.6 m/s). 11 sensors. Dimensions/weight are on mi.com/cyberdog/specs but rendered as images, not machine-readable; left null. Launch price RMB 9,999 per Xiaomi community post (1,000 units)."
+   "note": "Official mi.com CyberDog page: max walking speed 3.2 m/s is lab-tested (max safe speed 1.6 m/s). 11 sensors. Dimensions/weight are on mi.com/cyberdog/specs but rendered as images, not machine-readable; left null. Launch price RMB 9,999 per Xiaomi community post (1,000 units).",
+   "compute_memory_gb": null,
+   "compute_source": null,
+   "compute_tops": 21,
+   "compute_soc": "NVIDIA Jetson Xavier NX"
   },
   {
    "id": "xiaomi-cyberdog-2",
@@ -47791,7 +48216,11 @@
    ],
    "summary": "Small open-source bionic robot dog for developers and enthusiasts, sold in mainland China.",
    "note": "Xiaomi CyberDog 2 specification page (mi.com/cyberdog2/specs, read 2026-11-17): standing 562 x 339 x 481 mm (crouched 603 x 339 x 300 mm), 8.9 +/- 0.5 kg with battery, 12 DoF (3 per leg), maximum payload 1 kg, 1.6 m/s forward, about 90 min runtime (1.5 h recorded) and about 90 min charge, battery 4500 mAh / 97.2 Wh at 21.6 V, 0-40 C, Ubuntu 18.04 + ROS 2, 6-core NVIDIA Carmel CPU with 384-core Volta GPU and 8 GB RAM, YDLIDAR TG30 laser sensor plus RealSense D430 depth camera, fisheye, AI interaction camera, ToF, ultrasonic, UWB and 4-mic array.",
-   "verification": "official"
+   "verification": "official",
+   "compute_memory_gb": 8,
+   "compute_source": null,
+   "compute_tops": 21,
+   "compute_soc": "NVIDIA Jetson Xavier NX"
   },
   {
    "id": "yahboom-dogzilla-s2",
@@ -48219,7 +48648,11 @@
      "url": "https://github.com/DeepRoboticsLab/deep_robotics_model/blob/main/M20/usd/M20.usd",
      "license": "BSD-3-Clause"
     }
-   }
+   },
+   "compute_memory_gb": 16,
+   "compute_source": null,
+   "compute_tops": null,
+   "compute_soc": null
   },
   {
    "id": "deep-robotics-lynx-s10",
@@ -48289,7 +48722,11 @@
      "url": "https://github.com/DeepRoboticsLab/deep_robotics_model/blob/main/S10/usd/S10.usd",
      "license": "BSD-3-Clause"
     }
-   }
+   },
+   "compute_memory_gb": null,
+   "compute_source": null,
+   "compute_tops": null,
+   "compute_soc": null
   },
   {
    "id": "daxai-qiji-xs",
@@ -48376,7 +48813,11 @@
    ],
    "summary": "Self-balancing two-wheel-legged open development platform with six direct-drive joints; 4 kg payload standing, 80 kg in crouched mode, near-silent operation.",
    "note": "Direct Drive Technology Diablo product page (checked 2026-11-17): standing 540 x 371 x 491 mm (crouched 540 x 371 x 270 mm), 22.9 kg incl. docking mechanism, 6 DoF, battery 0.178 kWh (178 Wh), runtime about 1.5 h, charge about 1 h, payload 4 kg standing / 80 kg crouched, 2 m/s, 80 mm jump, Raspberry Pi 4 Model B, Ubuntu 20.04.",
-   "verification": "official"
+   "verification": "official",
+   "compute_memory_gb": null,
+   "compute_source": "https://robotics.directdrive.com/en/products/xingtian-robot/1653337674873306",
+   "compute_tops": null,
+   "compute_soc": "Raspberry Pi 4B"
   },
   {
    "id": "faraday-future-fx-aegis-mega",
@@ -48486,7 +48927,11 @@
     "https://embodied.guide/robots/genisom-gangben-l1-w/"
    ],
    "verification": "official",
-   "note": "GENISOM AI official page 钢镚 L1-W: 12 joint motors + 4 hub motors; limit speed 5.5 m/s; payload ≈10 kg (limit ~12 kg)."
+   "note": "GENISOM AI official page 钢镚 L1-W: 12 joint motors + 4 hub motors; limit speed 5.5 m/s; payload ≈10 kg (limit ~12 kg).",
+   "compute_memory_gb": null,
+   "compute_source": "https://www.genisomai.com/product-robot/L1-W",
+   "compute_tops": 100,
+   "compute_soc": "NVIDIA Jetson Orin NX"
   },
   {
    "id": "genisom-gangben-l2-w",
@@ -48958,7 +49403,11 @@
      "source": "https://shop.limxdynamics.com/products/tron-1-edu",
      "note": "TRON 1 Educational Edition"
     }
-   ]
+   ],
+   "compute_memory_gb": 16,
+   "compute_source": null,
+   "compute_tops": null,
+   "compute_soc": "Intel Core i3 (12th gen)"
   },
   {
    "id": "limx-w1",
@@ -49435,7 +49884,11 @@
      "kind": "distributor",
      "url": "https://www.younginmobility.com/"
     }
-   ]
+   ],
+   "compute_memory_gb": null,
+   "compute_source": "https://www.unitree.com/A2-W",
+   "compute_tops": null,
+   "compute_soc": "Intel Core i7"
   },
   {
    "id": "unitree-as2-w",
@@ -49494,7 +49947,11 @@
      "kind": "distributor",
      "url": "https://www.younginmobility.com/"
     }
-   ]
+   ],
+   "compute_memory_gb": null,
+   "compute_source": "https://www.unitree.com/As2-W",
+   "compute_tops": 150,
+   "compute_soc": null
   },
   {
    "id": "unitree-b2-w",
@@ -49574,7 +50031,11 @@
      "kind": "distributor",
      "url": "https://www.younginmobility.com/"
     }
-   ]
+   ],
+   "compute_memory_gb": null,
+   "compute_source": "https://www.unitree.com/b2-w",
+   "compute_tops": null,
+   "compute_soc": "Intel Core i5 + Intel Core i7"
   },
   {
    "id": "unitree-go2-w",

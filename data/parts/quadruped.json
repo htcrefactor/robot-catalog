@@ -113,7 +113,11 @@
     "url": "https://github.com/ANYbotics/anymal_d_simple_description/blob/master/urdf/anymal.urdf",
     "license": "BSD-3-Clause"
    }
-  }
+  },
+  "compute_memory_gb": 8,
+  "compute_source": null,
+  "compute_tops": null,
+  "compute_soc": "Intel Core i7 (8th gen)"
  },
  {
   "id": "anybotics-anymal-x",
@@ -528,7 +532,11 @@
     "kind": "distributor",
     "url": "https://www.younginmobility.com/"
    }
-  ]
+  ],
+  "compute_memory_gb": null,
+  "compute_source": "https://www.unitree.com/b2",
+  "compute_tops": null,
+  "compute_soc": "Intel Core i5 + Intel Core i7"
  },
  {
   "id": "unitree-a2",
@@ -617,7 +625,11 @@
     "kind": "distributor",
     "url": "https://www.younginmobility.com/"
    }
-  ]
+  ],
+  "compute_memory_gb": null,
+  "compute_source": "https://www.unitree.com/A2",
+  "compute_tops": null,
+  "compute_soc": "Intel Core i7"
  },
  {
   "id": "deep-robotics-x30-pro",
@@ -724,7 +736,8 @@
    "https://github.com/DeepRoboticsLab/deep_robotics_model/blob/main/Lite3/usd/Lite3.usd",
    "https://github.com/DeepRoboticsLab/rl_training",
    "https://github.com/DeepRoboticsLab/deep_robotics_model",
-   "https://github.com/DeepRoboticsLab/Lite3_ROS"
+   "https://github.com/DeepRoboticsLab/Lite3_ROS",
+   "https://developer.deeprobotics.cn/docs/lite3/guide/software/compute/"
   ],
   "summary": "Compact quadruped for robotics education, reinforcement-learning research and entertainment.",
   "verification": "official",
@@ -771,7 +784,11 @@
     "url": "https://github.com/DeepRoboticsLab/rl_training",
     "license": "BSD-3-Clause"
    }
-  ]
+  ],
+  "compute_memory_gb": null,
+  "compute_source": "https://developer.deeprobotics.cn/docs/lite3/guide/software/compute/",
+  "compute_tops": null,
+  "compute_soc": "Rockchip RK3588 + NVIDIA Jetson Xavier NX"
  },
  {
   "id": "ghost-robotics-vision-60",
@@ -814,7 +831,11 @@
   ],
   "summary": "Rugged all-weather quadruped UGV for defense, public safety and industrial inspection with modular payloads.",
   "verification": "official",
-  "note": "Ghost Robotics' own technical specifications on the Vision 60 page: 51 kg tare, 950 x 570 x 685 mm standing (250 mm body width, 419 mm ride height), 10 kg payload, standard walk 0.9 m/s with 1.2 m/s fast-walk and 2.4 m/s sprint (target 3.0), 3.15 h continuous walking at 0.9 m/s or 21 h standby, IP67, -40 to 55 C, 4G/LTE and Wi-Fi with a GigE switch. The Jetson Xavier 32 GB / 2 TB NVMe compute entry comes from the maker's spec sheet v3.3."
+  "note": "Ghost Robotics' own technical specifications on the Vision 60 page: 51 kg tare, 950 x 570 x 685 mm standing (250 mm body width, 419 mm ride height), 10 kg payload, standard walk 0.9 m/s with 1.2 m/s fast-walk and 2.4 m/s sprint (target 3.0), 3.15 h continuous walking at 0.9 m/s or 21 h standby, IP67, -40 to 55 C, 4G/LTE and Wi-Fi with a GigE switch. The Jetson Xavier 32 GB / 2 TB NVMe compute entry comes from the maker's spec sheet v3.3.",
+  "compute_memory_gb": 32,
+  "compute_source": "https://www.ghostrobotics.io/vision-60",
+  "compute_tops": null,
+  "compute_soc": "NVIDIA Jetson Xavier"
  },
  {
   "id": "xiaomi-cyberdog-2",
@@ -863,7 +884,11 @@
   ],
   "summary": "Small open-source bionic robot dog for developers and enthusiasts, sold in mainland China.",
   "note": "Xiaomi CyberDog 2 specification page (mi.com/cyberdog2/specs, read 2026-11-17): standing 562 x 339 x 481 mm (crouched 603 x 339 x 300 mm), 8.9 +/- 0.5 kg with battery, 12 DoF (3 per leg), maximum payload 1 kg, 1.6 m/s forward, about 90 min runtime (1.5 h recorded) and about 90 min charge, battery 4500 mAh / 97.2 Wh at 21.6 V, 0-40 C, Ubuntu 18.04 + ROS 2, 6-core NVIDIA Carmel CPU with 384-core Volta GPU and 8 GB RAM, YDLIDAR TG30 laser sensor plus RealSense D430 depth camera, fisheye, AI interaction camera, ToF, ultrasonic, UWB and 4-mic array.",
-  "verification": "official"
+  "verification": "official",
+  "compute_memory_gb": 8,
+  "compute_source": null,
+  "compute_tops": 21,
+  "compute_soc": "NVIDIA Jetson Xavier NX"
  },
  {
   "id": "rainbow-robotics-rbq-10",
@@ -1060,7 +1085,11 @@
   ],
   "summary": "Developer-oriented quadruped platform with LiDAR, stereo cameras, ROS 2 and SDK, launched 10 Nov 2026 at about CNY 20,988.",
   "note": "Vita Dynamics (维他动力) released the DEV Geek Edition on 10 November 2026 for CNY 22,988 (CNY 20,988 from 10 to 20 November) as a developer version of its Vbot platform, with a 360 degree 16-line LiDAR, 1080p depth stereo cameras, UWB, a four-microphone array, 128 TOPS on-device compute, ROS 2 and the open-sourced Aorta middleware. The 594 Wh battery and the sensor set are the maker's platform figures on vbot.cn/Detail; the maker publishes no separate DEV mass, dimensions, speed or runtime table, so those fields stay empty.",
-  "verification": "official"
+  "verification": "official",
+  "compute_memory_gb": null,
+  "compute_source": null,
+  "compute_tops": 128,
+  "compute_soc": null
  },
  {
   "id": "unitree-unidoggy",
@@ -1298,7 +1327,11 @@
    "https://embodied.guide/robots/deep-robotics-mini/"
   ],
   "verification": "official",
-  "note": "Values from DEEP Robotics' official Jueying Mini datasheet PDF (23 kg, 15 kg load in motion, 700x400x500 mm, 14,000 mAh, avg 2 h, 3.3 m/s, 35° slope). CONFLICT: the maker's legacy web page lists max load 10 kg, endurance 40 min and 30° slope. Battery voltage not stated so Wh not computed. Model no longer appears in DEEP's current product lineup (X50/X30/Lite3/M20/S10) - likely discontinued, status not stated by maker."
+  "note": "Values from DEEP Robotics' official Jueying Mini datasheet PDF (23 kg, 15 kg load in motion, 700x400x500 mm, 14,000 mAh, avg 2 h, 3.3 m/s, 35° slope). CONFLICT: the maker's legacy web page lists max load 10 kg, endurance 40 min and 30° slope. Battery voltage not stated so Wh not computed. Model no longer appears in DEEP's current product lineup (X50/X30/Lite3/M20/S10) - likely discontinued, status not stated by maker.",
+  "compute_memory_gb": 8,
+  "compute_source": "https://deep-website.oss-cn-hangzhou.aliyuncs.com/file/Jueying%20Mini.pdf",
+  "compute_tops": null,
+  "compute_soc": "Intel Core i7 + NVIDIA Jetson Xavier NX"
  },
  {
   "id": "deep-robotics-x10",
@@ -1539,7 +1572,11 @@
     "kind": "distributor",
     "url": "https://www.younginmobility.com/"
    }
-  ]
+  ],
+  "compute_memory_gb": null,
+  "compute_source": "https://www.unitree.com/b1/",
+  "compute_tops": null,
+  "compute_soc": "NVIDIA Jetson Xavier NX"
  },
  {
   "id": "unitree-go1",
@@ -1751,7 +1788,11 @@
    "https://embodied.guide/robots/vbot-superdog/"
   ],
   "verification": "official",
-  "note": "Official vbot.cn spec (Vbot超能机器狗, nickname 大头BoBo): standing 613 x 339 x 569 mm, ~16 kg, 14 joints, moving runtime ~3-5 h (headline \"续航5小时\"; runtime_h uses 5), 594 Wh 48 V battery, max speed 14 km/h (=3.89 m/s) but normal motion speed 4 km/h (OTA increasing), working payload 5 kg / max 12 kg, towing 50 kg steady / 100 kg max, 128 TOPS, binocular depth camera, 360° 16-line LiDAR, 4-mic array, UWB. Launched 23 Dec 2025 at CNY 12,988 (launch price 9,988); mass production. max_speed uses the stated maximum."
+  "note": "Official vbot.cn spec (Vbot超能机器狗, nickname 大头BoBo): standing 613 x 339 x 569 mm, ~16 kg, 14 joints, moving runtime ~3-5 h (headline \"续航5小时\"; runtime_h uses 5), 594 Wh 48 V battery, max speed 14 km/h (=3.89 m/s) but normal motion speed 4 km/h (OTA increasing), working payload 5 kg / max 12 kg, towing 50 kg steady / 100 kg max, 128 TOPS, binocular depth camera, 360° 16-line LiDAR, 4-mic array, UWB. Launched 23 Dec 2025 at CNY 12,988 (launch price 9,988); mass production. max_speed uses the stated maximum.",
+  "compute_memory_gb": null,
+  "compute_source": "https://www.vbot.cn/Detail",
+  "compute_tops": 128,
+  "compute_soc": null
  },
  {
   "id": "foxtech-steel-grit-sg1",
@@ -2196,7 +2237,11 @@
    "https://embodied.guide/robots/magiclab-magicdog-y1/"
   ],
   "verification": "official",
-  "note": "payload_kg = 45 kg dynamic payload (150 kg max load). Runtime 4–6 h (lower bound used)."
+  "note": "payload_kg = 45 kg dynamic payload (150 kg max load). Runtime 4–6 h (lower bound used).",
+  "compute_memory_gb": null,
+  "compute_source": "https://www.magiclabglobal.com/products/magicdog-y1/",
+  "compute_tops": 157,
+  "compute_soc": null
  },
  {
   "id": "faraday-future-fx-aegis",
@@ -2343,7 +2388,11 @@
    "https://embodied.guide/robots/pudu-d5/"
   ],
   "verification": "official",
-  "note": "Payload 20–30 kg continuous walking (lower bound). Runtime 2–2.5 h. Page claims series cruising up to 5 m/s, attributed to wheeled D5-W, so left null here. Standard dual 96-line LiDAR (192-line optional)."
+  "note": "Payload 20–30 kg continuous walking (lower bound). Runtime 2–2.5 h. Page claims series cruising up to 5 m/s, attributed to wheeled D5-W, so left null here. Standard dual 96-line LiDAR (192-line optional).",
+  "compute_memory_gb": 64,
+  "compute_source": "https://www.pudurobotics.com/en/products/d5",
+  "compute_tops": 275,
+  "compute_soc": "NVIDIA Jetson AGX Orin 64GB + Rockchip RK3588"
  },
  {
   "id": "weilan-babyalpha",
@@ -2584,7 +2633,8 @@
    "https://www.petoi.com/pages/robot-dog-bittle-x-technical-specifications",
    "https://github.com/PetoiCamp/OpenCat-Quadruped-Robot",
    "https://github.com/PetoiCamp/ros_opencat/blob/ros1/petoi_ROS_model_docs/bittle_ros/bittle_description/urdf/bittle.xacro",
-   "https://github.com/PetoiCamp/ros_opencat"
+   "https://github.com/PetoiCamp/ros_opencat",
+   "https://www.petoi.com/products/petoi-robot-dog-bittle-x-voice-controlled"
   ],
   "summary": "Palm-sized open-source, voice-controlled ESP32 robot dog kit for STEM education and hobby robotics, programmable in blocks, C++ and Python.",
   "image_url": null,
@@ -2621,7 +2671,11 @@
     "url": "https://github.com/PetoiCamp/ros_opencat",
     "license": "MIT"
    }
-  ]
+  ],
+  "compute_memory_gb": null,
+  "compute_source": "https://www.petoi.com/products/petoi-robot-dog-bittle-x-voice-controlled",
+  "compute_tops": null,
+  "compute_soc": "Espressif ESP32"
  },
  {
   "id": "mangdang-mini-pupper-2",
@@ -2691,7 +2745,11 @@
    }
   ],
   "ros2_url": "https://github.com/mangdangroboticsclub/mini_pupper_ros",
-  "ros2_support": true
+  "ros2_support": true,
+  "compute_memory_gb": null,
+  "compute_source": "https://mangdang.store/products/mp2",
+  "compute_tops": null,
+  "compute_soc": "Raspberry Pi CM4 + Espressif ESP32-S3"
  },
  {
   "id": "ghost-robotics-spirit-40",
@@ -2805,7 +2863,11 @@
     "url": "https://github.com/ANYbotics/anymal_c_simple_description/blob/master/urdf/anymal.urdf",
     "license": "BSD-3-Clause"
    }
-  }
+  },
+  "compute_memory_gb": null,
+  "compute_source": "https://ethz.ch/content/dam/ethz/special-interest/mavt/robotics-n-intelligent-systems/rsl-dam/ROS2021/lec5/ANYbotics_ROS_Case_Study_2021.pdf",
+  "compute_tops": null,
+  "compute_soc": "Intel Core i7"
  },
  {
   "id": "magiclab-magicdog-t1",
@@ -5136,7 +5198,11 @@
    "https://embodied.guide/robots/genisom-gangben-l1/"
   ],
   "verification": "official",
-  "note": "Official name 'Genisom L1' (钢镚 L1) - the record was listed as 'Gangben L1' from a competitor's transliteration. GENISOM AI (智身科技) page: limit speed 5 m/s; payload ≈8 kg (limit ~10 kg). Battery 43.2 V × 4.6 Ah rated (~199 Wh, computed; not stated as Wh). EDU version adds Jetson Orin NX, 3D LiDAR, depth camera."
+  "note": "Official name 'Genisom L1' (钢镚 L1) - the record was listed as 'Gangben L1' from a competitor's transliteration. GENISOM AI (智身科技) page: limit speed 5 m/s; payload ≈8 kg (limit ~10 kg). Battery 43.2 V × 4.6 Ah rated (~199 Wh, computed; not stated as Wh). EDU version adds Jetson Orin NX, 3D LiDAR, depth camera.",
+  "compute_memory_gb": null,
+  "compute_source": "https://www.genisomai.com/product-robot/L1",
+  "compute_tops": 100,
+  "compute_soc": "NVIDIA Jetson Orin NX"
  },
  {
   "id": "genisom-qiuqiu-sp1",
@@ -5233,7 +5299,11 @@
    "https://embodied.guide/robots/genisom-tongchui-m1/"
   ],
   "verification": "official",
-  "note": "Official 铜锤 M1 (variants M1/Pro/Ultra): 12 joint motors + 4 hub motors (wheel-legged; optional point-foot kit), so category 'Quadruped' may be better as Wheel-legged. Limit speed 8 m/s. Battery 54 V × 9.35 Ah × 2 (~1010 Wh computed). Weight 41 kg with battery."
+  "note": "Official 铜锤 M1 (variants M1/Pro/Ultra): 12 joint motors + 4 hub motors (wheel-legged; optional point-foot kit), so category 'Quadruped' may be better as Wheel-legged. Limit speed 8 m/s. Battery 54 V × 9.35 Ah × 2 (~1010 Wh computed). Weight 41 kg with battery.",
+  "compute_memory_gb": null,
+  "compute_source": null,
+  "compute_tops": 100,
+  "compute_soc": null
  },
  {
   "id": "ghost-robotics-minitaur",
@@ -6036,7 +6106,11 @@
    "https://embodied.guide/robots/manoid-mq01-pro/"
   ],
   "verification": "official",
-  "note": "Official datasheet name: 'MQ01 Pro LIDAR 2'. Maker MANOÏD (France)."
+  "note": "Official datasheet name: 'MQ01 Pro LIDAR 2'. Maker MANOÏD (France).",
+  "compute_memory_gb": null,
+  "compute_source": null,
+  "compute_tops": null,
+  "compute_soc": "NVIDIA Jetson Xavier NX"
  },
  {
   "id": "manoid-mq02",
@@ -6389,7 +6463,11 @@
    "https://embodied.guide/robots/microrobotech-movenew-t1/"
   ],
   "verification": "official",
-  "note": "Maker is MICBOT (Hangzhou Juwei Technology). Wheel-legged flagship. Datasheet says IP68; feature blurb says IP66 — datasheet used. Speed 18 km/h = 5 m/s. Weight given as 40–50 kg range (left null)."
+  "note": "Maker is MICBOT (Hangzhou Juwei Technology). Wheel-legged flagship. Datasheet says IP68; feature blurb says IP66 — datasheet used. Speed 18 km/h = 5 m/s. Weight given as 40–50 kg range (left null).",
+  "compute_memory_gb": null,
+  "compute_source": "https://www.micbotics.com/list_13/96.html",
+  "compute_tops": 181,
+  "compute_soc": null
  },
  {
   "id": "mirrorme-apollo",
@@ -7764,7 +7842,11 @@
    "https://embodied.guide/robots/xiaomi-cyberdog-1/"
   ],
   "verification": "official",
-  "note": "Official mi.com CyberDog page: max walking speed 3.2 m/s is lab-tested (max safe speed 1.6 m/s). 11 sensors. Dimensions/weight are on mi.com/cyberdog/specs but rendered as images, not machine-readable; left null. Launch price RMB 9,999 per Xiaomi community post (1,000 units)."
+  "note": "Official mi.com CyberDog page: max walking speed 3.2 m/s is lab-tested (max safe speed 1.6 m/s). 11 sensors. Dimensions/weight are on mi.com/cyberdog/specs but rendered as images, not machine-readable; left null. Launch price RMB 9,999 per Xiaomi community post (1,000 units).",
+  "compute_memory_gb": null,
+  "compute_source": null,
+  "compute_tops": 21,
+  "compute_soc": "NVIDIA Jetson Xavier NX"
  },
  {
   "id": "xterra-svan-m2",

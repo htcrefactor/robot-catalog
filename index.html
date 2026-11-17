@@ -1,15 +1,15 @@
-<!doctype html><html lang="en"><head><script async src="https://www.googletagmanager.com/gtm.js?id=GTM-N5QZLXVX"></script><script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());</script><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><link rel="stylesheet" href="assets/style.css"><script src="assets/i18n.js"></script><script src="assets/specs-i18n.js"></script><script src="assets/app.js"></script><script src="assets/safety.js"></script><meta name="description" content="Open catalog of 193+ mobile robots — humanoids, quadrupeds, AMRs and dev platforms — with every published spec, sourced from maker datasheets."><title>Robot Catalog</title></head>
+<!doctype html><html lang="en"><head><script async src="https://www.googletagmanager.com/gtm.js?id=GTM-N5QZLXVX"></script><script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());</script><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><link rel="stylesheet" href="assets/style.css"><script src="assets/i18n.js"></script><script src="assets/specs-i18n.js"></script><script src="assets/app.js"></script><script src="assets/safety.js"></script><script src="assets/compute.js"></script><meta name="description" content="Open catalog of 193+ mobile robots — humanoids, quadrupeds, AMRs and dev platforms — with every published spec, sourced from maker datasheets."><title>Robot Catalog</title></head>
 <body><script>nav("index.html")</script>
 <main>
 <h1 data-i18n="home_title"></h1>
 <p class="muted" data-i18n="home_sub"></p>
 <div class="stats" id="stats"></div>
-<div class="controls"><input type="search" id="q" data-i18n-ph="search"><select id="sf"></select><select id="pc"></select><div id="chips"></div><div class="chiprow" id="devchips" style="flex-basis:100%"></div></div>
+<div class="controls"><input type="search" id="q" data-i18n-ph="search"><select id="sf"></select><select id="pc"></select><select id="chip"></select><div id="chips"></div><div class="chiprow" id="devchips" style="flex-basis:100%"></div></div>
 <div class="grid" id="grid"></div>
 </main><div id="foot"></div>
 <script>
 document.title=t("brand");
-let robots=[],cat="All",krOnly=false;
+let robots=[],cat="All",krOnly=false,chip="";
 const krInfo=r=>r.country==="South Korea"||!!(r.name_ko||(r.kr_distributors||[]).length);
 const cardName=r=>LANG==="ko"?(r.name_ko||r.name):r.name;
 const cardNameSub=r=>LANG==="ko"?(r.name_ko?r.name:""):(r.name_ko||"");
@@ -19,19 +19,25 @@ const devPass=r=>DEV_FILTERS.every(([k,f])=>!dev.has(k)||f(r));
 function renderDev(){const el=document.getElementById("devchips");if(!el)return;
 el.innerHTML=`<span class="small muted">${t("flt_dev")}</span>`+DEV_FILTERS.map(([k,f])=>`<button class="chip ${dev.has(k)?"on":""}" data-d="${k}" aria-pressed="${dev.has(k)}">${t("dev_"+k)} <span class="muted">${robots.filter(f).length}</span></button>`).join(" ");}
 function render(){const q=document.getElementById("q").value.toLowerCase();const sf=document.getElementById("sf").value,pc=document.getElementById("pc").value;
-const list=robots.filter(r=>(cat==="All"||r.category===cat)&&devPass(r)&&safetyMatch(r,sf)&&(!pc||payloadClassOf(r.payload_kg)===pc)&&(!krOnly||krInfo(r))&&(!q||[r.name,r.manufacturer,r.name_ko,r.manufacturer_ko,...(r.kr_distributors||[]).map(d=>d.name)].filter(Boolean).join(" ").toLowerCase().includes(q))).sort((a,b)=>a.manufacturer.localeCompare(b.manufacturer)||a.name.localeCompare(b.name));
+const list=robots.filter(r=>(cat==="All"||r.category===cat)&&devPass(r)&&safetyMatch(r,sf)&&(!pc||payloadClassOf(r.payload_kg)===pc)&&(!krOnly||krInfo(r))&&(!chip||chipIds(r).includes(chip))&&(!q||[r.name,r.manufacturer,r.name_ko,r.manufacturer_ko,...(r.kr_distributors||[]).map(d=>d.name)].filter(Boolean).join(" ").toLowerCase().includes(q))).sort((a,b)=>a.manufacturer.localeCompare(b.manufacturer)||a.name.localeCompare(b.name));
 document.getElementById("grid").innerHTML=list.map(r=>`<a class="card" href="robot.html?id=${encodeURIComponent(r.id)}">
 <div class="mk">${esc(cardMaker(r))}</div><div class="nm">${esc(cardName(r))}${cardNameSub(r)?` <span class="muted small">${esc(cardNameSub(r))}</span>`:""}</div>
 <div><span class="tag" style="background:${CAT_COLORS[r.category]}22;color:${CAT_COLORS[r.category]}">${esc(tv(r.category))}</span><span class="tag plain">${esc(tv(r.locomotion))}</span>${(r.kr_distributors||[]).length?`<span class="tag plain">🇰🇷 ${t("kr_market")}</span>`:""}</div>
 <div class="kv"><span>${t("max_speed")}</span><span>${fmt(r.max_speed_mps,"m/s")}</span><span>${t("payload")}</span><span>${fmt(r.payload_kg,"kg")}</span><span>${t("ip")}</span><span>${fmt(r.ip_rating)}</span></div>
 ${safetyLine(r)?`<div class="small safety">${esc(safetyLine(r))}</div>`:""}
-<div class="small">${FEATURES.map(([k,l])=>`${t(l)} ${yn(r[k])}`).join(" ")}</div></a>`).join("")||`<p class="muted">${t("no_match")}</p>`;}
+<div class="small">${FEATURES.map(([k,l])=>`${t(l)} ${yn(r[k])}`).join(" ")}</div>
+${hasCompute(r)?`<div class="small">${t("compute_soc")}: ${esc(r.compute_soc||"—")}${r.compute_tops!=null?` · ${topsText(r)}`:``}</div>`:``}</a>`).join("")||`<p class="muted">${t("no_match")}</p>`;}
 (async()=>{const d=await loadData();robots=d.robots;
 const makers=new Set(robots.map(r=>r.manufacturer)).size;
 const krCount=robots.filter(krInfo).length;
 document.getElementById("stats").innerHTML=`<div class="stat"><b>${robots.length}</b>${t("robots")}</div><div class="stat"><b>${makers}</b>${t("manufacturers")}</div><div class="stat"><b>${new Set(robots.map(r=>r.category)).size}</b>${t("categories")}</div><div class="stat"><b>${krCount}</b>${t("korean_market_count")}</div>`;
 document.getElementById("chips").innerHTML=["All",...CATS.filter(c=>robots.some(r=>r.category===c))].map(c=>`<button class="chip ${c===cat?"on":""}" data-c="${c}">${c==="All"?t("all"):esc(tv(c))}</button>`).join(" ")+`<button class="chip" id="krbtn">🇰🇷 ${t("kr_market")}</button>`;
 document.getElementById("chips").onclick=e=>{if(e.target.dataset.c){cat=e.target.dataset.c;document.querySelectorAll(".chip").forEach(b=>b.classList.toggle("on",b.dataset.c===cat));render();}};
+const fams=new Map();robots.forEach(r=>chipIds(r).forEach(id=>fams.set(id,(fams.get(id)||0)+1)));
+const chSel=document.getElementById("chip");chSel.setAttribute("aria-label",t("chip"));chSel.add(new Option(t("all_chips"),""));
+[...fams.entries()].sort((a,b)=>b[1]-a[1]||chipLabel(a[0]).localeCompare(chipLabel(b[0]))).forEach(([id,n])=>chSel.add(new Option(`${chipLabel(id)} (${n})`,id)));
+const want=new URLSearchParams(location.search).get("chip")||"";if([...chSel.options].some(o=>o.value===want)){chip=want;chSel.value=want;}
+chSel.onchange=()=>{chip=chSel.value;render();};
 document.getElementById("krbtn").onclick=e=>{krOnly=!krOnly;e.target.classList.toggle("on",krOnly);render();};
 const sf=document.getElementById("sf"),pc=document.getElementById("pc");safetyOptions(sf,"sf_any");payloadOptions(pc);sf.onchange=render;pc.onchange=render;
 document.getElementById("q").oninput=render;document.getElementById("devchips").onclick=e=>{const b=e.target.closest("[data-d]");if(!b)return;const k=b.dataset.d;if(dev.has(k))dev.delete(k);else dev.add(k);
