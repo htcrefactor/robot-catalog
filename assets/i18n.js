@@ -18,7 +18,9 @@ en:{
  table_title:"Mega table",table_sub:"Every robot and every field. Click a column to sort.",filter:"Filter…",csv:"Download CSV",
  col_maker:"Maker",col_country:"Country",col_loco:"Locomotion",col_status:"Status",col_year:"Year",col_sdkname:"SDK name",col_pricenote:"Price note",
  footer:"Specs come from manufacturer pages and datasheets linked on each robot's page. \"N/S\" = not stated by the source.",updated:"Last updated {d}.",
- theme_dark:"Dark mode",theme_light:"Light mode",yes:"YES",no:"NO",ns:"N/S"
+ theme_dark:"Dark mode",theme_light:"Light mode",yes:"YES",no:"NO",ns:"N/S",
+ changelog_title:"Changelog",changelog_sub:"Every data change, newest first: what was added, updated or removed in each version.",
+ cl_added:"Added",cl_updated:"Updated",cl_removed:"Removed",show_all:"Show all {n}",cl_nochange:"No record changes in this version.",cl_none:"No changelog yet."
 },
 ko:{
  brand:"로봇 카탈로그",nav_robots:"로봇",nav_dash:"대시보드",nav_table:"전체 표",nav_data:"오픈 데이터",
@@ -37,7 +39,9 @@ ko:{
  table_title:"전체 표",table_sub:"모든 로봇의 모든 항목. 열을 누르면 정렬됩니다.",filter:"필터…",csv:"CSV 다운로드",
  col_maker:"제조사",col_country:"국가",col_loco:"이동 방식",col_status:"상태",col_year:"연도",col_sdkname:"SDK 이름",col_pricenote:"가격 비고",
  footer:"사양은 각 로봇 페이지에 링크된 제조사 페이지와 데이터시트에서 가져왔습니다. \"N/S\" = 출처에 명시되지 않음.",updated:"최종 업데이트 {d}.",
- theme_dark:"다크 모드",theme_light:"라이트 모드",yes:"YES",no:"NO",ns:"N/S"
+ theme_dark:"다크 모드",theme_light:"라이트 모드",yes:"YES",no:"NO",ns:"N/S",
+ changelog_title:"변경 내역",changelog_sub:"최신 순으로 정리한 데이터 변경 내역입니다. 버전별로 추가·수정·삭제된 레코드를 보여줍니다.",
+ cl_added:"추가",cl_updated:"수정",cl_removed:"삭제",show_all:"{n}개 모두 보기",cl_nochange:"이 버전에는 레코드 변경이 없습니다.",cl_none:"아직 변경 내역이 없습니다."
 }};
 const VALUE_KO={"AMR":"AMR","AGV":"AGV","Humanoid":"휴머노이드","Quadruped":"4족 보행","Wheel-legged":"바퀴-다리형","Indoor delivery":"실내 배송","Outdoor delivery":"실외 배송","Mobile platform":"모바일 플랫폼","Misc":"기타",
 "Wheeled":"바퀴형","Tracked":"궤도형","Legged":"보행형","Commercial":"상용","Pre-order":"사전 주문","Pilot":"시범 운영","Research":"연구용","Discontinued":"단종","Announced":"발표됨",
