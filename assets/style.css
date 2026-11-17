@@ -65,3 +65,19 @@ header.top .tools{margin-left:auto;display:flex;gap:10px;align-items:center}
 .legend{display:flex;flex-wrap:wrap;gap:12px;font-size:12px;color:var(--muted);margin:4px 0}.legend i{display:inline-block;width:10px;height:10px;border-radius:2px;margin-right:5px;vertical-align:-1px}
 details.miss{margin-top:12px}details.miss summary{cursor:pointer;color:var(--muted);font-size:13px}
 .specsgrid>*{min-width:0}
+
+/* open data page */
+.dlgrid{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:12px}
+.dl{display:flex;flex-direction:column;gap:3px;background:var(--input);border:1px solid var(--line);border-radius:10px;padding:12px 14px;color:inherit}
+.dl:hover{border-color:var(--accent);text-decoration:none}
+.dl b{font-size:14px;font-weight:600}
+.dl .f{font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:13px;color:var(--accent)}
+.dl .small{color:var(--muted)}
+pre.code{background:var(--th);border:1px solid var(--line);border-radius:10px;padding:12px 14px;overflow:auto;font:12.5px/1.55 ui-monospace,SFMono-Regular,Menlo,monospace;margin:4px 0 14px;white-space:pre;color:var(--ink)}
+h3.lbl{font-size:12px;text-transform:uppercase;letter-spacing:.5px;color:var(--muted);margin:14px 0 2px}
+dl.snap{display:grid;grid-template-columns:auto 1fr;gap:5px 16px;margin:0}
+dl.snap dt{color:var(--muted);font-size:13px}dl.snap dd{margin:0;font-size:13px}
+table.mega.fields td{white-space:normal}table.mega.fields td:nth-child(4){min-width:320px}
+table.mega.fields tr.grp th{position:static;background:var(--th);color:var(--muted);font-size:11px;text-transform:uppercase;letter-spacing:.5px;cursor:default}
+table.mega.fields code{font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:12px}
+#links{padding-left:18px;line-height:1.9}
