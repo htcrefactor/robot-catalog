@@ -62,7 +62,7 @@ function diffBlock(rb, rows, open) {
 
 function conflictBlock(rb, open) {
   const dupes = rb.spec_dupes || [];
-  const head = `${dupes.length ? `<span class="badge no">${dupes.length} ${t("review_spec_dupes")}</span>` : ""}`;
+  const head = `${dupes.length ? `<span class="badge no">${t("review_spec_dupes", {n: dupes.length})}</span>` : ""}`;
   return `<details class="panel rv"${open ? " open" : ""}>${robotHead(rb, head)}
  ${rb.note ? `<p class="small"><b>${t("review_note")}</b> ${esc(rb.note)}</p>` : ""}
  ${dupes.length ? `<table class="fs">${dupes.map(dp => `<tr>
@@ -72,7 +72,7 @@ function conflictBlock(rb, open) {
 }
 
 function unconfirmedBlock(rb, open) {
-  return `<details class="panel rv"${open ? " open" : ""}>${robotHead(rb, `${rb.sources_n || 0} ${t("review_sources_n")}`)}
+  return `<details class="panel rv"${open ? " open" : ""}>${robotHead(rb, t("review_sources_n", {n: rb.sources_n || 0}))}
  <p class="small muted">${t("review_unconfirmed_why")}</p></details>`;
 }
 
