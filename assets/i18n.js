@@ -8,7 +8,7 @@ en:{
  max_speed:"Max speed",min_speed:"Min speed",payload:"Payload",ip:"IP rating",
  back:"← All robots",not_found:"Robot not found",body_motion:"Body & motion",power_env:"Power & environment",soft_compute:"Software & compute",
  dims:"Dimensions (L × W × H)",weight:"Weight",wheel_d:"Wheel diameter",wheels:"Wheels",dof:"Degrees of freedom",runtime:"Runtime",battery:"Battery",released:"Released",price:"Price",
- api:"API",sdk:"SDK",ros:"ROS",onboard:"On-board compute",compute:"Compute",sensors:"Sensors",sources:"Sources",official:"Official page ↗",other_in:"Other robots in this category",
+ api:"API",sdk:"SDK",ros:"ROS",onboard:"On-board compute",compute:"Compute",sensors:"Sensors",sources:"Sources",official:"Official page ↗",other_in:"Other robots in this category",misc_why:"Why Misc:",variants:"Variants",
  summary_lang_note:"",
  dash_title:"Dashboard",dash_sub:"All robots side by side. Robots whose source doesn't state a value are left out of that chart, and the count is shown.",
  all_cats:"All categories",wheel_dist:"Wheel diameter distribution",ip_ratings:"IP ratings",show_pie:"Show as pie",show_bars:"Show as bars",
@@ -27,7 +27,7 @@ ko:{
  max_speed:"최고 속도",min_speed:"최저 속도",payload:"가반하중",ip:"IP 등급",
  back:"← 전체 로봇",not_found:"로봇을 찾을 수 없습니다",body_motion:"차체 및 이동",power_env:"전원 및 환경",soft_compute:"소프트웨어 및 컴퓨팅",
  dims:"크기 (L × W × H)",weight:"무게",wheel_d:"바퀴 지름",wheels:"바퀴 수",dof:"자유도",runtime:"구동 시간",battery:"배터리",released:"출시",price:"가격",
- api:"API",sdk:"SDK",ros:"ROS",onboard:"온보드 컴퓨팅",compute:"컴퓨터",sensors:"센서",sources:"출처",official:"공식 페이지 ↗",other_in:"같은 카테고리의 다른 로봇",
+ api:"API",sdk:"SDK",ros:"ROS",onboard:"온보드 컴퓨팅",compute:"컴퓨터",sensors:"센서",sources:"출처",official:"공식 페이지 ↗",other_in:"같은 카테고리의 다른 로봇",misc_why:"기타 분류 사유:",variants:"파생 모델",
  summary_lang_note:"설명은 영어 원문입니다.",
  dash_title:"대시보드",dash_sub:"모든 로봇을 한눈에 비교합니다. 출처에 값이 없는 로봇은 해당 차트에서 제외되며, 개수를 함께 표시합니다.",
  all_cats:"전체 카테고리",wheel_dist:"바퀴 지름 분포",ip_ratings:"IP 등급",show_pie:"원형 차트로 보기",show_bars:"막대 차트로 보기",
@@ -39,6 +39,6 @@ ko:{
  footer:"사양은 각 로봇 페이지에 링크된 제조사 페이지와 데이터시트에서 가져왔습니다. \"N/S\" = 출처에 명시되지 않음.",updated:"최종 업데이트 {d}.",
  theme_dark:"다크 모드",theme_light:"라이트 모드",yes:"YES",no:"NO",ns:"N/S"
 }};
-const VALUE_KO={"AMR":"AMR","AGV":"AGV","Humanoid":"휴머노이드","Quadruped":"4족 보행","Wheel-legged":"바퀴-다리형","Indoor delivery":"실내 배송","Outdoor delivery":"실외 배송","Mobile platform":"모바일 플랫폼",
+const VALUE_KO={"AMR":"AMR","AGV":"AGV","Humanoid":"휴머노이드","Quadruped":"4족 보행","Wheel-legged":"바퀴-다리형","Indoor delivery":"실내 배송","Outdoor delivery":"실외 배송","Mobile platform":"모바일 플랫폼","Misc":"기타",
 "Wheeled":"바퀴형","Tracked":"궤도형","Legged":"보행형","Commercial":"상용","Pre-order":"사전 주문","Pilot":"시범 운영","Research":"연구용","Discontinued":"단종","Announced":"발표됨",
 "China":"중국","United States":"미국","South Korea":"한국","Switzerland":"스위스","Denmark":"덴마크","Germany":"독일","Japan":"일본","Canada":"캐나다","Norway":"노르웨이","United Kingdom":"영국","Estonia":"에스토니아","Colombia":"콜롬비아","France":"프랑스","Israel":"이스라엘","Netherlands":"네덜란드","Taiwan":"대만"};
