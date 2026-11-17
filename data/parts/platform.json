@@ -292,11 +292,6 @@
     "license": "Apache-2.0"
    },
    {
-    "name": "pyagxrobots",
-    "url": "https://github.com/agilexrobotics/pyagxrobots",
-    "license": "MIT"
-   },
-   {
     "name": "scout_ros2",
     "url": "https://github.com/agilexrobotics/scout_ros2",
     "license": "Apache-2.0"
@@ -357,11 +352,6 @@
     "name": "ugv_sdk",
     "url": "https://github.com/agilexrobotics/ugv_sdk",
     "license": "Apache-2.0"
-   },
-   {
-    "name": "pyagxrobots",
-    "url": "https://github.com/agilexrobotics/pyagxrobots",
-    "license": "MIT"
    }
   ],
   "sensors": [],
@@ -420,11 +410,6 @@
     "name": "ugv_sdk",
     "url": "https://github.com/agilexrobotics/ugv_sdk",
     "license": "Apache-2.0"
-   },
-   {
-    "name": "pyagxrobots",
-    "url": "https://github.com/agilexrobotics/pyagxrobots",
-    "license": "MIT"
    },
    {
     "name": "bunker_ros2",
@@ -489,11 +474,6 @@
     "license": "Apache-2.0"
    },
    {
-    "name": "pyagxrobots",
-    "url": "https://github.com/agilexrobotics/pyagxrobots",
-    "license": "MIT"
-   },
-   {
     "name": "ranger_ros2",
     "url": "https://github.com/agilexrobotics/ranger_ros2",
     "license": "BSD-3-Clause"
@@ -555,11 +535,6 @@
     "name": "ugv_sdk",
     "url": "https://github.com/agilexrobotics/ugv_sdk",
     "license": "Apache-2.0"
-   },
-   {
-    "name": "pyagxrobots",
-    "url": "https://github.com/agilexrobotics/pyagxrobots",
-    "license": "MIT"
    },
    {
     "name": "tracer_ros2",
@@ -1852,13 +1827,13 @@
   },
   "open_source_repos": [
    {
-    "name": "franka_description",
-    "url": "https://github.com/frankarobotics/franka_description",
+    "name": "franka_ros2",
+    "url": "https://github.com/frankarobotics/franka_ros2",
     "license": "Apache-2.0"
    },
    {
-    "name": "franka_ros2",
-    "url": "https://github.com/frankarobotics/franka_ros2",
+    "name": "franka_description",
+    "url": "https://github.com/frankarobotics/franka_description",
     "license": "Apache-2.0"
    }
   ],
@@ -2214,13 +2189,13 @@
   },
   "open_source_repos": [
    {
-    "name": "LeKiwi",
-    "url": "https://github.com/SIGRobotics-UIUC/LeKiwi",
+    "name": "lerobot",
+    "url": "https://github.com/huggingface/lerobot",
     "license": "Apache-2.0"
    },
    {
-    "name": "lerobot",
-    "url": "https://github.com/huggingface/lerobot",
+    "name": "LeKiwi",
+    "url": "https://github.com/SIGRobotics-UIUC/LeKiwi",
     "license": "Apache-2.0"
    }
   ],

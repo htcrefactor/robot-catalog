@@ -331,18 +331,13 @@
     "license": "BSD-3-Clause"
    },
    {
-    "name": "unitree_sdk2_python",
-    "url": "https://github.com/unitreerobotics/unitree_sdk2_python",
+    "name": "unitree_ros2",
+    "url": "https://github.com/unitreerobotics/unitree_ros2",
     "license": "BSD-3-Clause"
    },
    {
     "name": "unitree_ros",
     "url": "https://github.com/unitreerobotics/unitree_ros",
-    "license": "BSD-3-Clause"
-   },
-   {
-    "name": "unitree_ros2",
-    "url": "https://github.com/unitreerobotics/unitree_ros2",
     "license": "BSD-3-Clause"
    },
    {
@@ -427,23 +422,13 @@
     "license": "BSD-3-Clause"
    },
    {
-    "name": "unitree_sdk2_python",
-    "url": "https://github.com/unitreerobotics/unitree_sdk2_python",
-    "license": "BSD-3-Clause"
-   },
-   {
-    "name": "unitree_ros",
-    "url": "https://github.com/unitreerobotics/unitree_ros",
-    "license": "BSD-3-Clause"
-   },
-   {
     "name": "unitree_ros2",
     "url": "https://github.com/unitreerobotics/unitree_ros2",
     "license": "BSD-3-Clause"
    },
    {
-    "name": "unitree_mujoco",
-    "url": "https://github.com/unitreerobotics/unitree_mujoco",
+    "name": "unitree_ros",
+    "url": "https://github.com/unitreerobotics/unitree_ros",
     "license": "BSD-3-Clause"
    }
   ],
@@ -521,23 +506,8 @@
     "license": "BSD-3-Clause"
    },
    {
-    "name": "unitree_sdk2_python",
-    "url": "https://github.com/unitreerobotics/unitree_sdk2_python",
-    "license": "BSD-3-Clause"
-   },
-   {
     "name": "unitree_ros",
     "url": "https://github.com/unitreerobotics/unitree_ros",
-    "license": "BSD-3-Clause"
-   },
-   {
-    "name": "unitree_ros2",
-    "url": "https://github.com/unitreerobotics/unitree_ros2",
-    "license": "BSD-3-Clause"
-   },
-   {
-    "name": "unitree_mujoco",
-    "url": "https://github.com/unitreerobotics/unitree_mujoco",
     "license": "BSD-3-Clause"
    }
   ],
@@ -675,19 +645,19 @@
   },
   "open_source_repos": [
    {
-    "name": "deep_robotics_model",
-    "url": "https://github.com/DeepRoboticsLab/deep_robotics_model",
-    "license": "BSD-3-Clause"
-   },
-   {
     "name": "Lite3_MotionSDK",
     "url": "https://github.com/DeepRoboticsLab/Lite3_MotionSDK",
     "license": "MIT"
    },
    {
-    "name": "Lite3_ROS",
-    "url": "https://github.com/DeepRoboticsLab/Lite3_ROS",
-    "license": "MIT"
+    "name": "deep_robotics_model",
+    "url": "https://github.com/DeepRoboticsLab/deep_robotics_model",
+    "license": "BSD-3-Clause"
+   },
+   {
+    "name": "rl_training",
+    "url": "https://github.com/DeepRoboticsLab/rl_training",
+    "license": "BSD-3-Clause"
    }
   ],
   "sensors": [
@@ -1107,13 +1077,13 @@
   },
   "open_source_repos": [
    {
-    "name": "robot_properties_solo",
-    "url": "https://github.com/open-dynamic-robot-initiative/robot_properties_solo",
+    "name": "solo",
+    "url": "https://github.com/open-dynamic-robot-initiative/solo",
     "license": "BSD-3-Clause"
    },
    {
-    "name": "solo",
-    "url": "https://github.com/open-dynamic-robot-initiative/solo",
+    "name": "robot_properties_solo",
+    "url": "https://github.com/open-dynamic-robot-initiative/robot_properties_solo",
     "license": "BSD-3-Clause"
    }
   ],
@@ -3056,23 +3026,8 @@
     "license": "BSD-3-Clause"
    },
    {
-    "name": "unitree_sdk2_python",
-    "url": "https://github.com/unitreerobotics/unitree_sdk2_python",
-    "license": "BSD-3-Clause"
-   },
-   {
     "name": "unitree_ros",
     "url": "https://github.com/unitreerobotics/unitree_ros",
-    "license": "BSD-3-Clause"
-   },
-   {
-    "name": "unitree_ros2",
-    "url": "https://github.com/unitreerobotics/unitree_ros2",
-    "license": "BSD-3-Clause"
-   },
-   {
-    "name": "unitree_mujoco",
-    "url": "https://github.com/unitreerobotics/unitree_mujoco",
     "license": "BSD-3-Clause"
    }
   ],
@@ -6301,13 +6256,13 @@
   },
   "open_source_repos": [
    {
-    "name": "robot_properties_solo",
-    "url": "https://github.com/open-dynamic-robot-initiative/robot_properties_solo",
+    "name": "solo",
+    "url": "https://github.com/open-dynamic-robot-initiative/solo",
     "license": "BSD-3-Clause"
    },
    {
-    "name": "solo",
-    "url": "https://github.com/open-dynamic-robot-initiative/solo",
+    "name": "robot_properties_solo",
+    "url": "https://github.com/open-dynamic-robot-initiative/robot_properties_solo",
     "license": "BSD-3-Clause"
    }
   ],

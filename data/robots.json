@@ -7750,14 +7750,14 @@
    },
    "open_source_repos": [
     {
-     "name": "booster_assets",
-     "url": "https://github.com/BoosterRobotics/booster_assets",
-     "license": "BSD-3-Clause"
-    },
-    {
      "name": "booster_robotics_sdk",
      "url": "https://github.com/BoosterRobotics/booster_robotics_sdk",
      "license": "Apache-2.0"
+    },
+    {
+     "name": "booster_assets",
+     "url": "https://github.com/BoosterRobotics/booster_assets",
+     "license": "BSD-3-Clause"
     }
    ],
    "sensors": [
@@ -25183,23 +25183,8 @@
      "license": "BSD-3-Clause"
     },
     {
-     "name": "unitree_sdk2_python",
-     "url": "https://github.com/unitreerobotics/unitree_sdk2_python",
-     "license": "BSD-3-Clause"
-    },
-    {
      "name": "unitree_ros",
      "url": "https://github.com/unitreerobotics/unitree_ros",
-     "license": "BSD-3-Clause"
-    },
-    {
-     "name": "unitree_ros2",
-     "url": "https://github.com/unitreerobotics/unitree_ros2",
-     "license": "BSD-3-Clause"
-    },
-    {
-     "name": "unitree_mujoco",
-     "url": "https://github.com/unitreerobotics/unitree_mujoco",
      "license": "BSD-3-Clause"
     }
    ],
@@ -25342,23 +25327,13 @@
      "license": "BSD-3-Clause"
     },
     {
-     "name": "unitree_sdk2_python",
-     "url": "https://github.com/unitreerobotics/unitree_sdk2_python",
-     "license": "BSD-3-Clause"
-    },
-    {
-     "name": "unitree_ros",
-     "url": "https://github.com/unitreerobotics/unitree_ros",
-     "license": "BSD-3-Clause"
-    },
-    {
      "name": "unitree_ros2",
      "url": "https://github.com/unitreerobotics/unitree_ros2",
      "license": "BSD-3-Clause"
     },
     {
-     "name": "unitree_mujoco",
-     "url": "https://github.com/unitreerobotics/unitree_mujoco",
+     "name": "unitree_ros",
+     "url": "https://github.com/unitreerobotics/unitree_ros",
      "license": "BSD-3-Clause"
     }
    ],
@@ -25477,23 +25452,8 @@
      "license": "BSD-3-Clause"
     },
     {
-     "name": "unitree_sdk2_python",
-     "url": "https://github.com/unitreerobotics/unitree_sdk2_python",
-     "license": "BSD-3-Clause"
-    },
-    {
      "name": "unitree_ros",
      "url": "https://github.com/unitreerobotics/unitree_ros",
-     "license": "BSD-3-Clause"
-    },
-    {
-     "name": "unitree_ros2",
-     "url": "https://github.com/unitreerobotics/unitree_ros2",
-     "license": "BSD-3-Clause"
-    },
-    {
-     "name": "unitree_mujoco",
-     "url": "https://github.com/unitreerobotics/unitree_mujoco",
      "license": "BSD-3-Clause"
     }
    ],
@@ -25622,23 +25582,8 @@
      "license": "BSD-3-Clause"
     },
     {
-     "name": "unitree_sdk2_python",
-     "url": "https://github.com/unitreerobotics/unitree_sdk2_python",
-     "license": "BSD-3-Clause"
-    },
-    {
      "name": "unitree_ros",
      "url": "https://github.com/unitreerobotics/unitree_ros",
-     "license": "BSD-3-Clause"
-    },
-    {
-     "name": "unitree_ros2",
-     "url": "https://github.com/unitreerobotics/unitree_ros2",
-     "license": "BSD-3-Clause"
-    },
-    {
-     "name": "unitree_mujoco",
-     "url": "https://github.com/unitreerobotics/unitree_mujoco",
      "license": "BSD-3-Clause"
     }
    ],
@@ -31062,11 +31007,6 @@
      "license": "Apache-2.0"
     },
     {
-     "name": "pyagxrobots",
-     "url": "https://github.com/agilexrobotics/pyagxrobots",
-     "license": "MIT"
-    },
-    {
      "name": "bunker_ros2",
      "url": "https://github.com/agilexrobotics/bunker_ros2",
      "license": "Apache-2.0"
@@ -31178,11 +31118,6 @@
      "license": "Apache-2.0"
     },
     {
-     "name": "pyagxrobots",
-     "url": "https://github.com/agilexrobotics/pyagxrobots",
-     "license": "MIT"
-    },
-    {
      "name": "ranger_ros2",
      "url": "https://github.com/agilexrobotics/ranger_ros2",
      "license": "BSD-3-Clause"
@@ -31252,11 +31187,6 @@
      "license": "Apache-2.0"
     },
     {
-     "name": "pyagxrobots",
-     "url": "https://github.com/agilexrobotics/pyagxrobots",
-     "license": "MIT"
-    },
-    {
      "name": "scout_ros2",
      "url": "https://github.com/agilexrobotics/scout_ros2",
      "license": "Apache-2.0"
@@ -31317,11 +31247,6 @@
      "name": "ugv_sdk",
      "url": "https://github.com/agilexrobotics/ugv_sdk",
      "license": "Apache-2.0"
-    },
-    {
-     "name": "pyagxrobots",
-     "url": "https://github.com/agilexrobotics/pyagxrobots",
-     "license": "MIT"
     }
    ],
    "sensors": [],
@@ -31380,11 +31305,6 @@
      "name": "ugv_sdk",
      "url": "https://github.com/agilexrobotics/ugv_sdk",
      "license": "Apache-2.0"
-    },
-    {
-     "name": "pyagxrobots",
-     "url": "https://github.com/agilexrobotics/pyagxrobots",
-     "license": "MIT"
     },
     {
      "name": "tracer_ros2",
@@ -32146,13 +32066,13 @@
    },
    "open_source_repos": [
     {
-     "name": "franka_description",
-     "url": "https://github.com/frankarobotics/franka_description",
+     "name": "franka_ros2",
+     "url": "https://github.com/frankarobotics/franka_ros2",
      "license": "Apache-2.0"
     },
     {
-     "name": "franka_ros2",
-     "url": "https://github.com/frankarobotics/franka_ros2",
+     "name": "franka_description",
+     "url": "https://github.com/frankarobotics/franka_description",
      "license": "Apache-2.0"
     }
    ],
@@ -33178,13 +33098,13 @@
    },
    "open_source_repos": [
     {
-     "name": "LeKiwi",
-     "url": "https://github.com/SIGRobotics-UIUC/LeKiwi",
+     "name": "lerobot",
+     "url": "https://github.com/huggingface/lerobot",
      "license": "Apache-2.0"
     },
     {
-     "name": "lerobot",
-     "url": "https://github.com/huggingface/lerobot",
+     "name": "LeKiwi",
+     "url": "https://github.com/SIGRobotics-UIUC/LeKiwi",
      "license": "Apache-2.0"
     }
    ],
@@ -36030,19 +35950,19 @@
    },
    "open_source_repos": [
     {
-     "name": "deep_robotics_model",
-     "url": "https://github.com/DeepRoboticsLab/deep_robotics_model",
-     "license": "BSD-3-Clause"
-    },
-    {
      "name": "Lite3_MotionSDK",
      "url": "https://github.com/DeepRoboticsLab/Lite3_MotionSDK",
      "license": "MIT"
     },
     {
-     "name": "Lite3_ROS",
-     "url": "https://github.com/DeepRoboticsLab/Lite3_ROS",
-     "license": "MIT"
+     "name": "deep_robotics_model",
+     "url": "https://github.com/DeepRoboticsLab/deep_robotics_model",
+     "license": "BSD-3-Clause"
+    },
+    {
+     "name": "rl_training",
+     "url": "https://github.com/DeepRoboticsLab/rl_training",
+     "license": "BSD-3-Clause"
     }
    ],
    "sensors": [
@@ -39207,13 +39127,13 @@
    },
    "open_source_repos": [
     {
-     "name": "robot_properties_solo",
-     "url": "https://github.com/open-dynamic-robot-initiative/robot_properties_solo",
+     "name": "solo",
+     "url": "https://github.com/open-dynamic-robot-initiative/solo",
      "license": "BSD-3-Clause"
     },
     {
-     "name": "solo",
-     "url": "https://github.com/open-dynamic-robot-initiative/solo",
+     "name": "robot_properties_solo",
+     "url": "https://github.com/open-dynamic-robot-initiative/robot_properties_solo",
      "license": "BSD-3-Clause"
     }
    ],
@@ -39282,13 +39202,13 @@
    },
    "open_source_repos": [
     {
-     "name": "robot_properties_solo",
-     "url": "https://github.com/open-dynamic-robot-initiative/robot_properties_solo",
+     "name": "solo",
+     "url": "https://github.com/open-dynamic-robot-initiative/solo",
      "license": "BSD-3-Clause"
     },
     {
-     "name": "solo",
-     "url": "https://github.com/open-dynamic-robot-initiative/solo",
+     "name": "robot_properties_solo",
+     "url": "https://github.com/open-dynamic-robot-initiative/robot_properties_solo",
      "license": "BSD-3-Clause"
     }
    ],
@@ -40425,23 +40345,8 @@
      "license": "BSD-3-Clause"
     },
     {
-     "name": "unitree_sdk2_python",
-     "url": "https://github.com/unitreerobotics/unitree_sdk2_python",
-     "license": "BSD-3-Clause"
-    },
-    {
      "name": "unitree_ros",
      "url": "https://github.com/unitreerobotics/unitree_ros",
-     "license": "BSD-3-Clause"
-    },
-    {
-     "name": "unitree_ros2",
-     "url": "https://github.com/unitreerobotics/unitree_ros2",
-     "license": "BSD-3-Clause"
-    },
-    {
-     "name": "unitree_mujoco",
-     "url": "https://github.com/unitreerobotics/unitree_mujoco",
      "license": "BSD-3-Clause"
     }
    ],
@@ -40587,23 +40492,8 @@
      "license": "BSD-3-Clause"
     },
     {
-     "name": "unitree_sdk2_python",
-     "url": "https://github.com/unitreerobotics/unitree_sdk2_python",
-     "license": "BSD-3-Clause"
-    },
-    {
      "name": "unitree_ros",
      "url": "https://github.com/unitreerobotics/unitree_ros",
-     "license": "BSD-3-Clause"
-    },
-    {
-     "name": "unitree_ros2",
-     "url": "https://github.com/unitreerobotics/unitree_ros2",
-     "license": "BSD-3-Clause"
-    },
-    {
-     "name": "unitree_mujoco",
-     "url": "https://github.com/unitreerobotics/unitree_mujoco",
      "license": "BSD-3-Clause"
     }
    ],
@@ -40745,23 +40635,13 @@
      "license": "BSD-3-Clause"
     },
     {
-     "name": "unitree_sdk2_python",
-     "url": "https://github.com/unitreerobotics/unitree_sdk2_python",
-     "license": "BSD-3-Clause"
-    },
-    {
-     "name": "unitree_ros",
-     "url": "https://github.com/unitreerobotics/unitree_ros",
-     "license": "BSD-3-Clause"
-    },
-    {
      "name": "unitree_ros2",
      "url": "https://github.com/unitreerobotics/unitree_ros2",
      "license": "BSD-3-Clause"
     },
     {
-     "name": "unitree_mujoco",
-     "url": "https://github.com/unitreerobotics/unitree_mujoco",
+     "name": "unitree_ros",
+     "url": "https://github.com/unitreerobotics/unitree_ros",
      "license": "BSD-3-Clause"
     }
    ],
@@ -40990,18 +40870,13 @@
      "license": "BSD-3-Clause"
     },
     {
-     "name": "unitree_sdk2_python",
-     "url": "https://github.com/unitreerobotics/unitree_sdk2_python",
+     "name": "unitree_ros2",
+     "url": "https://github.com/unitreerobotics/unitree_ros2",
      "license": "BSD-3-Clause"
     },
     {
      "name": "unitree_ros",
      "url": "https://github.com/unitreerobotics/unitree_ros",
-     "license": "BSD-3-Clause"
-    },
-    {
-     "name": "unitree_ros2",
-     "url": "https://github.com/unitreerobotics/unitree_ros2",
      "license": "BSD-3-Clause"
     },
     {
@@ -43297,23 +43172,8 @@
      "license": "BSD-3-Clause"
     },
     {
-     "name": "unitree_sdk2_python",
-     "url": "https://github.com/unitreerobotics/unitree_sdk2_python",
-     "license": "BSD-3-Clause"
-    },
-    {
      "name": "unitree_ros",
      "url": "https://github.com/unitreerobotics/unitree_ros",
-     "license": "BSD-3-Clause"
-    },
-    {
-     "name": "unitree_ros2",
-     "url": "https://github.com/unitreerobotics/unitree_ros2",
-     "license": "BSD-3-Clause"
-    },
-    {
-     "name": "unitree_mujoco",
-     "url": "https://github.com/unitreerobotics/unitree_mujoco",
      "license": "BSD-3-Clause"
     }
    ],
@@ -43382,23 +43242,8 @@
      "license": "BSD-3-Clause"
     },
     {
-     "name": "unitree_sdk2_python",
-     "url": "https://github.com/unitreerobotics/unitree_sdk2_python",
-     "license": "BSD-3-Clause"
-    },
-    {
      "name": "unitree_ros",
      "url": "https://github.com/unitreerobotics/unitree_ros",
-     "license": "BSD-3-Clause"
-    },
-    {
-     "name": "unitree_ros2",
-     "url": "https://github.com/unitreerobotics/unitree_ros2",
-     "license": "BSD-3-Clause"
-    },
-    {
-     "name": "unitree_mujoco",
-     "url": "https://github.com/unitreerobotics/unitree_mujoco",
      "license": "BSD-3-Clause"
     }
    ],
