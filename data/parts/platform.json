@@ -815,7 +815,7 @@
    "https://data.robo2u.com/robots/bracketbot-2-5"
   ],
   "verification": "unconfirmed",
-  "note": "Maker site (bracketbot.com) has no product page or specs for 'Gen 2.5'; only a company statement. Model existence rests on the maker's X posts (1 Jul 2026: building 100 Gen2.5's; price 'less than $3000'), seen only in search excerpts, plus a later post naming 'Bracket Bot 1 Gen 3.0' — so Gen 2.5 may already be superseded. Self-balancing two-wheel (Segway-style) mobile manipulator per founder demos. Aggregator height 173 cm / $2k not maker-verified. Company HQ San Francisco (founder from Univ. of Waterloo; aggregators say Canada)."
+  "note": "Scope review (#16, 2026-11-17): kept as an in-scope Mobile platform (self-balancing two-wheel general-purpose robot, i.e. a mobile robot, not an arm or a toy). Re-checked bracketbot.com: still no product page, spec or price for 'Gen 2.5' - only a company blurb and a careers link, so verification stays 'unconfirmed'. Model existence rests on the maker's X posts (1 Jul 2026: building 100 Gen2.5's; price 'less than $3000') seen only in search excerpts, plus a later post naming 'Bracket Bot 1 Gen 3.0', so Gen 2.5 may already be superseded. Aggregator height 173 cm / $2k not maker-verified. Company HQ San Francisco (founder from Univ. of Waterloo; aggregators say Canada)."
  },
  {
   "id": "pickle-robot-dill",
@@ -2065,5 +2065,52 @@
    "https://humanoid.guide/product/titan/"
   ],
   "verification": null
+ },
+ {
+  "id": "diden-robotics-walker",
+  "name": "Diden Walker",
+  "manufacturer": "Diden Robotics",
+  "country": "South Korea",
+  "category": "Mobile platform",
+  "locomotion": "Legged",
+  "release_year": null,
+  "status": "Prototype",
+  "length_mm": null,
+  "width_mm": null,
+  "height_mm": null,
+  "weight_kg": null,
+  "payload_kg": null,
+  "max_speed_mps": null,
+  "min_speed_mps": null,
+  "wheel_diameter_mm": null,
+  "wheel_count": null,
+  "dof": null,
+  "runtime_h": null,
+  "battery_wh": null,
+  "ip_rating": null,
+  "api_support": null,
+  "sdk_available": null,
+  "sdk_name": null,
+  "onboard_compute": null,
+  "compute_detail": null,
+  "ros_support": null,
+  "sensors": [],
+  "price_usd": null,
+  "price_note": null,
+  "official_url": "https://www.didenrobotics.com/en/products",
+  "sources": [
+   "https://www.didenrobotics.com/en/products",
+   "https://www.didenrobotics.com/en/resources-all/nvidia-gtc-2026-spider-30",
+   "https://www.didenrobotics.com/en/resources-all/amazon-mars-conference-2026"
+  ],
+  "summary": "Biped work platform with electro-permanent-magnet feet for moving through ship hull blocks and access holes while carrying a manipulator.",
+  "image_url": null,
+  "image_source": null,
+  "videos": [],
+  "seen_on": [
+   "https://droid.monster/robots/diden-robotics/walker"
+  ],
+  "verification": "official",
+  "note": "Scope review (#16, 2026-11-17): kept in scope and moved Humanoid -> Mobile platform. Diden's own product page lists 'Diden Walker - a biped work platform with magnetic feet' as a separate product from 'Diden Humanoid', so it is not a humanoid but a legged mobile platform that carries task modules (manipulator, inspection equipment). It walks on its own: maker blog says the lower body went from hardware to stable walking in about three months, successful on its first physical test (GTC 2026 and MARS 2026 posts). Feet are electro-permanent-magnet (EPM) with a differential ankle joint. Exhibitor listing gives launch date Dec 1, 2026."
  }
 ]

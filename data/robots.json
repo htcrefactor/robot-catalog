@@ -610,7 +610,7 @@
     "https://data.robo2u.com/robots/visionnav-robotics-vne40-66"
    ],
    "verification": "official",
-   "note": "Maker page conflicts with itself on speed: headline 5.59 mph (2.5 m/s, used) vs 'up to 4.5 m/s forward' in its notes. Payload converted from the stated 6,180 lb."
+   "note": "Scope review (#16, 2026-11-17): kept as an in-scope AGV. Maker page is headed 'VNE40-66 Autonomous Stacking Vehicle' with 3D SLAM navigation and 3D LiDAR perception. Payload converted from the stated 6180 lb. Maker page conflicts with itself on speed: headline 5.59 mph (2.5 m/s, used) vs 'up to 4.5 m/s forward' in its notes."
   },
   {
    "id": "visionnav-vnp-15",
@@ -655,7 +655,7 @@
     "https://data.robo2u.com/robots/visionnav-robotics-vnp-15"
    ],
    "verification": "official",
-   "note": "Autonomous counterbalance stacker forklift."
+   "note": "Scope review (#16, 2026-11-17): kept as an in-scope AGV. Maker page titles it 'VNP15 Pallet Stacker AGV/AMR' (1500 kg, 3000 mm standard lift, 1.5 m/s, 1490 mm minimum turning radius); an autonomous counterbalance stacker is an AGV, not an excluded category."
   },
   {
    "id": "visionnav-vnr-20",
@@ -701,7 +701,7 @@
     "https://data.robo2u.com/robots/visionnav-robotics-vnr-20"
    ],
    "verification": "official",
-   "note": "Autonomous forklift (AGV/AMR), not a mobile robot platform in the usual sense; weight from VisionNav's model comparison page."
+   "note": "Scope review (#16, 2026-11-17): kept as an in-scope AGV. VisionNav's own page titles it 'VNR20 Reach Truck AGV/AMR' and lists 2000 kg rated load, 7000 mm standard lift, 2.0 m/s and a 1915 mm minimum turning radius - a self-driving industrial truck, i.e. an AGV, which the owner's exclusion list (arms, cobots, vacuums, lawn/pool, drones, toys, cars/robotaxis, static or companion robots) does not cover. Weight 3460 kg from VisionNav's model comparison page."
   },
   {
    "id": "visionnav-vnst-20",
@@ -747,7 +747,7 @@
     "https://data.robo2u.com/robots/visionnav-robotics-vnst-20"
    ],
    "verification": "official",
-   "note": "Launched May 2023 (initially Asia); product page now says currently available in North America."
+   "note": "Scope review (#16, 2026-11-17): kept as an in-scope AGV. Maker page titles it 'VNST20 Pallet Stacker AGV/AMR' with 1620x800x1830 mm, 520 kg vehicle mass and 2000 kg load. Launched May 2023 (initially Asia); product page now says currently available in North America."
   },
   {
    "id": "6-river-systems-chuck",
@@ -3168,7 +3168,7 @@
     "https://droid.monster/robots/pudu-robotics/mp2000"
    ],
    "verification": "official",
-   "note": "Launched Aug 18, 2026; Pudu's first industrial pallet robot (autonomous low-lift forklift). Speed 1.6 m/s empty / 1.2 m/s loaded; runtime 12 h empty / 6 h at max load."
+   "note": "Scope review (#16, 2026-11-17): kept as an in-scope AMR - the maker page describes an autonomous pallet-handling robot with 3D LiDAR-SLAM + VSLAM navigation and autonomous/manual dual mode (1585x910x1870 mm, 2000 kg, 1.6 m/s empty / 1.2 m/s loaded, 12 h no load / 6 h at max load). Launched Aug 18, 2026; Pudu's first industrial pallet robot (autonomous low-lift forklift)."
   },
   {
    "id": "pudu-t150",
@@ -4232,7 +4232,7 @@
     "https://data.robo2u.com/robots/visionnav-robotics-vnk15"
    ],
    "verification": "official",
-   "note": "Two maker pages differ: older page 1.8 m/s max driving speed; newer page 3.34 mph (1.5 m/s) under load."
+   "note": "Scope review (#16, 2026-11-17): kept as an in-scope AMR. Maker page titles it 'VNK15 autonomous mobile robot platform' / 'Platform AMR' with 3D SLAM positioning and a 3,306.93 lb rated load. Two maker pages differ: older page 1.8 m/s max driving speed; newer page 3.34 mph (1.5 m/s) under load."
   },
   {
    "id": "zebra-fetch-cartconnect500",
@@ -8464,7 +8464,9 @@
    "official_url": "https://casivision.com/",
    "sources": [
     "https://casivision.com/",
-    "https://www.stdaily.com/web/gdxw/2025-08/20/content_387784.html"
+    "https://www.stdaily.com/web/gdxw/2025-08/20/content_387784.html",
+    "https://www.casivision.com/",
+    "https://en.zhongkehuiyuan.com/"
    ],
    "summary": "CasiVision's mobile dual-arm 'embodied' quality-inspection robot pairing a three-camera multispectral head with switchable grippers and its Huinao AI for factory defect checks.",
    "image_url": null,
@@ -8475,7 +8477,7 @@
     "https://humanoid.guide/product/casivibot/"
    ],
    "verification": "official",
-   "note": "Out of scope-ish: an industrial inspection mobile manipulator, not a general humanoid. Not related to CASBOT despite similar names (some aggregators conflate them). Launched Aug 19, 2025; mass production from June 16, 2026. Maker says it moves autonomously; aggregators call it wheeled. No dimensions published."
+   "note": "Scope review (#16, 2026-11-17): kept in scope, and kept under Humanoid because this catalog files wheeled humanoid-form robots here (Pepper, TIAGo Pro, Atlas on Wheels). It is not an AOI station: CasiVision VP Shen Fei describes it as 自主移动 / 自主移动巡检 (moves and patrols on its own) and the maker's site lists it under 具身质检设备 (embodied inspection equipment) - human-like dual arms and a multispectral head on a base the press calls wheeled. Locomotion left null: the maker states autonomous movement but not the drive type, and no datasheet is published. Not related to CASBOT despite similar names (some aggregators conflate them). Launched Aug 19, 2025; mass production from June 16, 2026."
   },
   {
    "id": "changan-xiaoan",
@@ -9230,52 +9232,6 @@
    ],
    "summary": "Wheeled (bimanual torso on a wheeled base) humanoid from Dexmate; shipping now, anyone can order.",
    "data_source": "HumanoidStore open data (CC BY 4.0)"
-  },
-  {
-   "id": "diden-robotics-walker",
-   "name": "Diden Walker",
-   "manufacturer": "Diden Robotics",
-   "country": "South Korea",
-   "category": "Humanoid",
-   "locomotion": "Legged",
-   "release_year": null,
-   "status": "Prototype",
-   "length_mm": null,
-   "width_mm": null,
-   "height_mm": null,
-   "weight_kg": null,
-   "payload_kg": null,
-   "max_speed_mps": null,
-   "min_speed_mps": null,
-   "wheel_diameter_mm": null,
-   "wheel_count": null,
-   "dof": null,
-   "runtime_h": null,
-   "battery_wh": null,
-   "ip_rating": null,
-   "api_support": null,
-   "sdk_available": null,
-   "sdk_name": null,
-   "onboard_compute": null,
-   "compute_detail": null,
-   "ros_support": null,
-   "sensors": [],
-   "price_usd": null,
-   "price_note": null,
-   "official_url": "https://www.didenrobotics.com/en/products",
-   "sources": [
-    "https://www.didenrobotics.com/en/products",
-    "https://www.didenrobotics.com/en/resources-all/nvidia-gtc-2026-spider-30"
-   ],
-   "summary": "Biped work platform with electro-permanent-magnet feet for moving through ship hull blocks and access holes while carrying a manipulator.",
-   "image_url": null,
-   "image_source": null,
-   "videos": [],
-   "seen_on": [
-    "https://droid.monster/robots/diden-robotics/walker"
-   ],
-   "verification": "official",
-   "note": "Not a humanoid: a magnetic-foot biped work platform (lower body + manipulator). Diden's separate 'Diden Humanoid' (175 cm, 90 kg) is a different robot. Exhibitor listing gives launch date Dec 1, 2026."
   },
   {
    "id": "digit-robotics-nezha-p01",
@@ -17363,7 +17319,7 @@
     "https://humanoid.guide/product/max-meta-humanoid/"
    ],
    "verification": "unconfirmed",
-   "note": "No Meta source: 'Max' is an internal codename reported by The Information (31 Oct 2026) and echoed by press (~1.5 m, ~48 kg, Jetson Thor, built with Fourier). Meta only told the press it is internal research with no plans to sell; no official page, spec or image. Locomotion 'Legged' assumed from humanoid description in press (not maker-stated). Recommend excluding or marking as rumoured prototype."
+   "note": "Scope review (#16, 2026-11-17): kept, still unconfirmed. Meta publishes nothing - no product page, spec, image or announcement; the only source is The Information (31 Oct 2026, Jyoti Mann) as echoed by Reuters, TNW and others. Meta's statement is that the work with Fourier is internal research and experimentation and that it has no plans to sell these units. Reported: internal codename 'Max', ~1.5 m, ~48 kg, NVIDIA Jetson Thor, screen face, five-fingered hands, built with Fourier in ~3 months; Max 2 began Sept 2026. Not moved to Misc because nothing shows it is not a mobile robot and the owner rule keeps unconfirmed records; locomotion 'Legged' is still an assumption from the humanoid description, not maker-stated."
   },
   {
    "id": "midea-miro-u",
@@ -18123,7 +18079,8 @@
    "price_note": null,
    "official_url": "https://neodradynamics.com/neo1_product_en.html",
    "sources": [
-    "https://neodradynamics.com/neo1_product_en.html"
+    "https://neodradynamics.com/neo1_product_en.html",
+    "https://www.prnewswire.com/news-releases/neodradynamics-showcases-4-meter--1-2-ton-neo1-heavy-duty-hydraulic-robot-with-jd-industrial-at-ciif-hydraulicelectric-hybrid-solves-realworld-4d-industrial-challenges-302908332.html"
    ],
    "summary": "4-metre hydraulic-electric hybrid 'super humanoid' for heavy lifting in nuclear, deep-sea, rescue and heavy-manufacturing work.",
    "image_url": "https://neodradynamics.com/images/neo1_titan.webp",
@@ -18135,7 +18092,7 @@
     "https://humanoid.guide/product/neo1/"
    ],
    "verification": "official",
-   "note": "Maker page (NeodraDynamics / Qingzhuo Power, Beijing): 4 m, ~1.2 t, 41 DOF (7DOF arms x2, 15DOF hands x2), 300 kg single-arm / 600 kg dual-arm payload, -50~300°C, EtherCAT/CANopen. Conflict: maker press releases (PR Newswire Sep/Oct 2026, seen in search excerpts only) state 500 kg dual-arm payload; product page value (600 kg) used. Shown at WRC Aug 2026 and CIIF Oct 2026 with JD Industrial; no price/delivery date -> status left out (prototype-stage per press). Locomotion NOT stated by maker (press imagery suggests a wheeled base, aggregators call it humanoid) - left out; mobility should be checked before including in a mobile-robot catalog."
+   "note": "Maker page (NeodraDynamics / Qingzhuo Power, Beijing) and the maker's PR of 14 Oct 2026: 4 m, ~1.2 t, 41 full-body active DOF, 7DOF arms x2, 15DOF hands x2, 300 kg single-arm / 600 kg dual-arm payload, -50~300°C, EtherCAT/CANopen. Conflict: the maker's own PR (PR Newswire, 14 Oct 2026) states a 500 kg dual-arm payload; product page value (600 kg) used. Shown at WRC Aug 2026 and CIIF Oct 2026 with JD Industrial; no price or delivery date -> status left out. Scope review (#16, 2026-11-17): kept as an in-scope Humanoid. Mobility is unproven rather than excluded: the maker calls it a full-body humanoid and press breakdowns of the 41 joints count 12 in the legs and feet, but no maker video or text shows it walking or balancing, it was exhibited tethered and script-controlled, and the company told press that walking on legs is not the priority for industrial use and that the plan is to fit the arms on a wheeled base. Locomotion is left at the existing 'Legged' value but is not maker-stated: it follows from the maker calling it a humanoid and from press breakdowns of the joints, so it should be treated as unconfirmed until a maker source or footage shows it moving. If only demonstrated-mobile robots are to count as in scope, Neo1 (with Meta Max) is the pair to reconsider."
   },
   {
    "id": "neubility-billi",
@@ -31062,7 +31019,7 @@
     "https://data.robo2u.com/robots/bracketbot-2-5"
    ],
    "verification": "unconfirmed",
-   "note": "Maker site (bracketbot.com) has no product page or specs for 'Gen 2.5'; only a company statement. Model existence rests on the maker's X posts (1 Jul 2026: building 100 Gen2.5's; price 'less than $3000'), seen only in search excerpts, plus a later post naming 'Bracket Bot 1 Gen 3.0' — so Gen 2.5 may already be superseded. Self-balancing two-wheel (Segway-style) mobile manipulator per founder demos. Aggregator height 173 cm / $2k not maker-verified. Company HQ San Francisco (founder from Univ. of Waterloo; aggregators say Canada)."
+   "note": "Scope review (#16, 2026-11-17): kept as an in-scope Mobile platform (self-balancing two-wheel general-purpose robot, i.e. a mobile robot, not an arm or a toy). Re-checked bracketbot.com: still no product page, spec or price for 'Gen 2.5' - only a company blurb and a careers link, so verification stays 'unconfirmed'. Model existence rests on the maker's X posts (1 Jul 2026: building 100 Gen2.5's; price 'less than $3000') seen only in search excerpts, plus a later post naming 'Bracket Bot 1 Gen 3.0', so Gen 2.5 may already be superseded. Aggregator height 173 cm / $2k not maker-verified. Company HQ San Francisco (founder from Univ. of Waterloo; aggregators say Canada)."
   },
   {
    "id": "clearpath-dingo-o",
@@ -31415,6 +31372,53 @@
    ],
    "verification": "official",
    "note": "Wheeled dual-arm 'industrial superhumanoid': four-wheel-steerable rover base (moves, spins, strafes, climbs ramps) with two Kawasaki-built arms. Maker states 5.4 m armspan, 60 kg combined lift (Kawasaki release: 30 kg per arm), vertical reach >2.4 m, up to 16 cameras plus LiDAR, onboard 'supercomputer', operating 0-50 C, up to 1,500 m altitude (homepage says 5000 ft — minor conflict). Launched 17 Mar 2025; deployed for FedEx trailer loading and Sagawa Express validation."
+  },
+  {
+   "id": "diden-robotics-walker",
+   "name": "Diden Walker",
+   "manufacturer": "Diden Robotics",
+   "country": "South Korea",
+   "category": "Mobile platform",
+   "locomotion": "Legged",
+   "release_year": null,
+   "status": "Prototype",
+   "length_mm": null,
+   "width_mm": null,
+   "height_mm": null,
+   "weight_kg": null,
+   "payload_kg": null,
+   "max_speed_mps": null,
+   "min_speed_mps": null,
+   "wheel_diameter_mm": null,
+   "wheel_count": null,
+   "dof": null,
+   "runtime_h": null,
+   "battery_wh": null,
+   "ip_rating": null,
+   "api_support": null,
+   "sdk_available": null,
+   "sdk_name": null,
+   "onboard_compute": null,
+   "compute_detail": null,
+   "ros_support": null,
+   "sensors": [],
+   "price_usd": null,
+   "price_note": null,
+   "official_url": "https://www.didenrobotics.com/en/products",
+   "sources": [
+    "https://www.didenrobotics.com/en/products",
+    "https://www.didenrobotics.com/en/resources-all/nvidia-gtc-2026-spider-30",
+    "https://www.didenrobotics.com/en/resources-all/amazon-mars-conference-2026"
+   ],
+   "summary": "Biped work platform with electro-permanent-magnet feet for moving through ship hull blocks and access holes while carrying a manipulator.",
+   "image_url": null,
+   "image_source": null,
+   "videos": [],
+   "seen_on": [
+    "https://droid.monster/robots/diden-robotics/walker"
+   ],
+   "verification": "official",
+   "note": "Scope review (#16, 2026-11-17): kept in scope and moved Humanoid -> Mobile platform. Diden's own product page lists 'Diden Walker - a biped work platform with magnetic feet' as a separate product from 'Diden Humanoid', so it is not a humanoid but a legged mobile platform that carries task modules (manipulator, inspection equipment). It walks on its own: maker blog says the lower body went from hardware to stable walking in about three months, successful on its first physical test (GTC 2026 and MARS 2026 posts). Feet are electro-permanent-magnet (EPM) with a differential ankle joint. Exhibitor listing gives launch date Dec 1, 2026."
   },
   {
    "id": "elite-robots-m-bot-mc500-12",
@@ -35376,7 +35380,8 @@
    "official_url": null,
    "sources": [
     "https://ex.chinadaily.com.cn/exchange/partners/82/rss/channel/cn/columns/sz8srm/stories/WS6a87e6bca3105d3d7a27c2fa.html",
-    "https://www.bjnews.com.cn/detail/1784446831129245.html"
+    "https://www.bjnews.com.cn/detail/1784446831129245.html",
+    "https://www.daxrobotics.cn/"
    ],
    "summary": "Rideable 300 kg point-foot robot horse that carries up to 300 kg at 7-10 km/h over rough ground, on JD.com pre-sale in China.",
    "image_url": null,
@@ -35387,7 +35392,7 @@
     "https://embodied.guide/robots/daxai-qiji-x1/"
    ],
    "verification": "official",
-   "note": "Values from DaxAI's WRC 2026 launch release (Aug 19, 2026): 165 V pack, 40 km range, 8-10 h, 1,400 Nm joint torque. Not listed on DaxAI's own site yet. Rideable mount, borderline scope."
+   "note": "Scope review (#16, 2026-11-17): kept as an in-scope Quadruped. Being rideable is not grounds for Misc - the catalog already files Kawasaki CORLEO (also rideable) as Quadruped and RHP Bex as Wheel-legged. The X1 walks on four point feet and carries a rider: a mobile robot, not a car or a toy. Values from DaxAI's WRC 2026 launch release (Aug 19, 2026): 165 V pack, 40 km range, 8-10 h, 1,400 Nm joint torque. The maker's own site (daxrobotics.cn) lists the Qiji line only as 骑骥 T1000, so there is no X1 product page yet and the sources stay press-based."
   },
   {
    "id": "diden-robotics-diden-spider",
@@ -40894,7 +40899,8 @@
    "official_url": null,
    "sources": [
     "https://ex.chinadaily.com.cn/exchange/partners/82/rss/channel/cn/columns/sz8srm/stories/WS6a87e6bca3105d3d7a27c2fa.html",
-    "https://www.bjnews.com.cn/detail/1784446831129245.html"
+    "https://www.bjnews.com.cn/detail/1784446831129245.html",
+    "https://www.daxrobotics.cn/"
    ],
    "summary": "Rideable 320 kg wheel-legged robot horse that cruises on wheels at over 40 km/h and switches to legs for rough terrain.",
    "image_url": null,
@@ -40905,7 +40911,7 @@
     "https://embodied.guide/robots/daxai-qiji-xs/"
    ],
    "verification": "official",
-   "note": "DaxAI's own releases conflict on range: 100 km (WAIC, July 2026) vs 60 km (WRC, Aug 2026). Not yet shown running in public per press. Rideable mount, borderline scope."
+   "note": "Scope review (#16, 2026-11-17): kept as an in-scope Wheel-legged - a wheel-foot robot horse that drives on wheels on flat ground and switches to legs for rough terrain; rideable is not an excluded category here (see CORLEO, RHP Bex). DaxAI's own releases conflict on range: 100 km (WAIC, July 2026) vs 60 km (WRC, Aug 2026), and press repeats 60 km. Not yet shown running in public per press. No XS page on the maker's site (daxrobotics.cn lists 骑骥 T1000 only)."
   },
   {
    "id": "direct-drive-tech-diablo",

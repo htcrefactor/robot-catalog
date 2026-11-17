@@ -2367,7 +2367,8 @@
   "official_url": null,
   "sources": [
    "https://ex.chinadaily.com.cn/exchange/partners/82/rss/channel/cn/columns/sz8srm/stories/WS6a87e6bca3105d3d7a27c2fa.html",
-   "https://www.bjnews.com.cn/detail/1784446831129245.html"
+   "https://www.bjnews.com.cn/detail/1784446831129245.html",
+   "https://www.daxrobotics.cn/"
   ],
   "summary": "Rideable 300 kg point-foot robot horse that carries up to 300 kg at 7-10 km/h over rough ground, on JD.com pre-sale in China.",
   "image_url": null,
@@ -2378,7 +2379,7 @@
    "https://embodied.guide/robots/daxai-qiji-x1/"
   ],
   "verification": "official",
-  "note": "Values from DaxAI's WRC 2026 launch release (Aug 19, 2026): 165 V pack, 40 km range, 8-10 h, 1,400 Nm joint torque. Not listed on DaxAI's own site yet. Rideable mount, borderline scope."
+  "note": "Scope review (#16, 2026-11-17): kept as an in-scope Quadruped. Being rideable is not grounds for Misc - the catalog already files Kawasaki CORLEO (also rideable) as Quadruped and RHP Bex as Wheel-legged. The X1 walks on four point feet and carries a rider: a mobile robot, not a car or a toy. Values from DaxAI's WRC 2026 launch release (Aug 19, 2026): 165 V pack, 40 km range, 8-10 h, 1,400 Nm joint torque. The maker's own site (daxrobotics.cn) lists the Qiji line only as 骑骥 T1000, so there is no X1 product page yet and the sources stay press-based."
  },
  {
   "id": "strider-robotics-m3",
