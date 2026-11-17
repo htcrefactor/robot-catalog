@@ -65,3 +65,13 @@ header.top .tools{margin-left:auto;display:flex;gap:10px;align-items:center}
 .legend{display:flex;flex-wrap:wrap;gap:12px;font-size:12px;color:var(--muted);margin:4px 0}.legend i{display:inline-block;width:10px;height:10px;border-radius:2px;margin-right:5px;vertical-align:-1px}
 details.miss{margin-top:12px}details.miss summary{cursor:pointer;color:var(--muted);font-size:13px}
 .specsgrid>*{min-width:0}
+/* Data completeness (robot page) and per-value provenance labels — issue #26 */
+.cmphead{display:flex;align-items:baseline;gap:10px;flex-wrap:wrap}.cmphead h2{margin:0}
+.cmpnum{font-size:22px;font-weight:700;line-height:1}
+.cmpbar{height:6px;border-radius:999px;background:var(--line);overflow:hidden;margin:10px 0 8px}.cmpbar i{display:block;height:100%;background:var(--accent)}
+.pv{display:inline-block;font-size:10px;font-weight:700;letter-spacing:.3px;text-transform:uppercase;padding:1px 6px;border-radius:5px;margin-left:6px;white-space:nowrap;vertical-align:1px;cursor:help}
+.pv.official{background:var(--yesbg);color:var(--yes)}.pv.unconfirmed{background:var(--unkbg);color:var(--unk)}
+.pv.derived{background:#fff4e5;color:#b54708}[data-theme=dark] .pv.derived{background:#3a2a12;color:#fbc77a}
+.pvlegend{display:flex;flex-wrap:wrap;gap:6px 18px;font-size:12px;color:var(--muted);margin-top:4px}.pvlegend .pv{margin-left:0;margin-right:5px;cursor:default}
+.cmphow{margin-top:10px}.cmphow summary{cursor:pointer;color:var(--muted);font-size:13px}
+label.chk{display:inline-flex;align-items:center;gap:6px;white-space:nowrap;cursor:pointer}
