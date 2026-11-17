@@ -4938,15 +4938,15 @@
    "status": "Commercial",
    "length_mm": null,
    "width_mm": null,
-   "height_mm": 1830,
-   "weight_kg": 83,
+   "height_mm": 1880,
+   "weight_kg": 87,
    "payload_kg": 15,
-   "max_speed_mps": 4,
+   "max_speed_mps": 4.02,
    "min_speed_mps": null,
    "wheel_diameter_mm": null,
    "wheel_count": null,
-   "dof": 25,
-   "runtime_h": 4.0,
+   "dof": null,
+   "runtime_h": 6.0,
    "battery_wh": null,
    "ip_rating": null,
    "api_support": null,
@@ -4961,14 +4961,16 @@
    "official_url": "https://www.1x.tech/eve",
    "sources": [
     "https://humanoidstore.co/robots/1x-technologies-eve",
-    "https://www.1x.tech/eve"
+    "https://www.1x.tech/eve",
+    "https://1x-tech.webflow.io/androids/eve"
    ],
    "summary": "Wheeled (bimanual torso on a wheeled base) humanoid from 1X Technologies; b2b only, sold to businesses.",
-   "data_source": "HumanoidStore open data (CC BY 4.0)",
    "image_url": "https://image.mux.com/uw4pe1rSWH6ho4sahqI5VFAJskWuNEaQYlxsqxYONSY/thumbnail.webp?width=1920&time=14",
    "videos": [],
    "note": "Media (2026-11-17): 1X's EVE page shows the robot only inside its hero film; the still above is a frame of that film (Mux, time=14s). The film is a Mux HLS stream with no downloadable file, so no video entry is recorded.",
-   "image_source": "https://www.1x.tech/eve"
+   "image_source": "https://www.1x.tech/eve",
+   "verification": "official",
+   "notes": "Issue #17 (2026-11-17): from 1X's official EVE page (1x.tech/eve now returns an error; this is 1X's hosted copy) - 6'2\" (1880 mm), 192 lb (87 kg), 9 mph (4.02 m/s) top speed, 33 lb (15 kg) carry, 6 h on a 1-hour charge. DoF 25 had no 1X source and was removed. [replaced height_mm: 1830 -> 1880; weight_kg: 83 -> 87; runtime_h: 4.0 -> 6.0; max_speed_mps: 4 -> 4.02 | emptied (no maker value) dof=25]"
   },
   {
    "id": "1x-neo",
@@ -5003,13 +5005,15 @@
     "4 beamforming microphones"
    ],
    "price_usd": 20000,
-   "price_note": "list price per HumanoidStore, checked 2026-10",
+   "price_note": "Early Access US$20,000 per 1X's order page; a US$499/month subscription option is also listed",
    "official_url": "https://www.1x.tech/neo",
    "sources": [
     "https://www.1x.tech/neo",
-    "https://humanoidstore.co/robots/1x-neo"
+    "https://www.1x.tech/order"
    ],
-   "summary": "Soft-bodied, tendon-driven home humanoid for chores with a voice interface and remote 'Expert Mode'; hands IP68, body IP44; imperial specs converted (5'6\", 66 lb, 55 lb carry)."
+   "summary": "Soft-bodied, tendon-driven home humanoid for chores with a voice interface and remote 'Expert Mode'; hands IP68, body IP44; imperial specs converted (5'6\", 66 lb, 55 lb carry).",
+   "verification": "official",
+   "notes": "Issue #17 (2026-11-17): confirmed on 1x.tech/neo - 5'6\" (1676 mm), 66 lb (29.9 kg), 55 lb carry, arm payload 18 lb, 842 Wh, 4 h, IP44 body / IP68 hands, US$20,000 Early Access (1x.tech/order). 6.2 m/s is 1X's stated max run speed (walking 1.4 m/s). DoF 75 derived (hands 22x2 + arms 7x2 + neck 3 + spine 2 + legs 6x2)."
   },
   {
    "id": "aset-manav",
@@ -5615,14 +5619,15 @@
    "compute_detail": null,
    "ros_support": null,
    "sensors": [],
-   "price_usd": 18900,
-   "price_note": "list 18900 USD (maker), per HumanoidStore, checked 2026-10",
+   "price_usd": null,
+   "price_note": null,
    "official_url": null,
    "sources": [
-    "https://humanoidstore.co/robots/akinrobotics-mini-ada"
+    "https://www.akinrobotics.com/asset/pdf/akinrobotics-product-catalog-2026.pdf"
    ],
    "summary": "Wheeled (bimanual torso on a wheeled base) humanoid from AKINROBOTICS; shipping now, anyone can order.",
-   "data_source": "HumanoidStore open data (CC BY 4.0)"
+   "verification": "official",
+   "notes": "Issue #17 (2026-11-17): AKINROBOTICS 2026 catalogue - 46x46x123 cm, 45 kg, 0.6 m/s max, lithium-ion, 8 h use (4 h charge). HumanoidStore's US$18,900 removed: no maker price. Arms are 3-axis, so no DoF figure is published. [emptied (no maker value) price_usd=18900; price_note=list 18900 USD (maker), per HumanoidStore, checked 2026-10]"
   },
   {
    "id": "asc-arjun",
@@ -6022,7 +6027,7 @@
    "height_mm": 1600,
    "weight_kg": 45,
    "payload_kg": null,
-   "max_speed_mps": null,
+   "max_speed_mps": 1.0,
    "min_speed_mps": null,
    "wheel_diameter_mm": null,
    "wheel_count": null,
@@ -6041,10 +6046,12 @@
    "price_note": null,
    "official_url": null,
    "sources": [
-    "https://humanoidstore.co/robots/aeirobot-alice-4"
+    "http://humanoid.robocup.org/wp-content/uploads/HERoEHS-specs-67938e21e04fd.pdf",
+    "https://hsl.robocup.org/wp-content/uploads/2026/03/large_HERoEHS-specs-697d5d67a1742.pdf"
    ],
    "summary": "Full-size humanoid from AeiROBOT; research only, sold to businesses.",
-   "data_source": "HumanoidStore open data (CC BY 4.0)"
+   "verification": "official",
+   "notes": "Issue #17 (2026-11-17): 160 cm, 45 kg, 41 DoF (legs 6x2, arms 7x2, hands 6x2, waist 1, head 2) and 1.0 m/s omnidirectional walking from the AeiROBOT/Hanyang University ALICE 4 specification sheets; four 140.4 Wh packs. HumanoidStore's 48 kg variant not used. [replaced max_speed_mps: None -> 1.0]"
   },
   {
    "id": "aeirobot-alice-m1",
@@ -6111,15 +6118,15 @@
    "status": "Commercial",
    "length_mm": null,
    "width_mm": null,
-   "height_mm": null,
+   "height_mm": 1830,
    "weight_kg": null,
-   "payload_kg": 3.6,
-   "max_speed_mps": null,
+   "payload_kg": 2.9,
+   "max_speed_mps": 0.95,
    "min_speed_mps": null,
    "wheel_diameter_mm": null,
    "wheel_count": null,
    "dof": 22,
-   "runtime_h": null,
+   "runtime_h": 9.0,
    "battery_wh": null,
    "ip_rating": null,
    "api_support": null,
@@ -6133,10 +6140,11 @@
    "price_note": null,
    "official_url": null,
    "sources": [
-    "https://humanoidstore.co/robots/aeolus-aeo"
+    "https://www.hannovermesse.de/apollo/hannover_messe_2026/obs/Binary/A1509840/Aeobot%20Flyer.pdf"
    ],
    "summary": "Wheeled (bimanual torso on a wheeled base) humanoid from Aeolus Robotics; b2b only, sold to businesses.",
-   "data_source": "HumanoidStore open data (CC BY 4.0)"
+   "verification": "official",
+   "notes": "Issue #17 (2026-11-17): Aeolus AeoBot - 1.83 x 2.0 x 1.32 m (H x W x L), up to 0.95 m/s, 2.9 kg per 7-DoF arm, about 9 h with the flex gripper (6.5 h with night-vision camera). Aeolus publishes no total weight or DoF, so those fields were emptied; the launch-generation 3.6 kg arm payload is noted. [replaced height_mm: None -> 1830; payload_kg: 3.6 -> 2.9; max_speed_mps: None -> 0.95; runtime_h: None -> 9.0]"
   },
   {
    "id": "agibot-a2",
@@ -6167,15 +6175,15 @@
    "compute_detail": null,
    "ros_support": null,
    "sensors": [],
-   "price_usd": 44560,
-   "price_note": "list 44560 USD (maker), per HumanoidStore, checked 2026-10",
+   "price_usd": null,
+   "price_note": null,
    "official_url": "https://www.agibot.com.cn/products/A2_Ultra",
    "sources": [
-    "https://humanoidstore.co/robots/agibot-a2",
     "https://www.agibot.com.cn/products/A2_Ultra"
    ],
    "summary": "Full-size humanoid from AgiBot; shipping now, anyone can order.",
-   "data_source": "HumanoidStore + maker page"
+   "verification": "official",
+   "notes": "Issue #17 (2026-11-17): A2 figures (169 cm, 64 kg, 2 kg arm payload, 4.5 h standing / 1.5 h walking) are from AgiBot's A2 Ultra page, which also gives 1.5 kg as HumanoidStore's arm payload; maker values kept. HumanoidStore's US$44,560 removed: AgiBot publishes no price there. [emptied (no maker value) price_usd=44560; price_note=list 44560 USD (maker), per HumanoidStore, checked 2026-10]"
   },
   {
    "id": "agibot-a2-ultra",
@@ -6374,13 +6382,13 @@
    "height_mm": 1730,
    "weight_kg": 55,
    "payload_kg": 5,
-   "max_speed_mps": 1.94,
+   "max_speed_mps": 1.8,
    "min_speed_mps": null,
    "wheel_diameter_mm": null,
    "wheel_count": null,
    "dof": 31,
    "runtime_h": 10.0,
-   "battery_wh": null,
+   "battery_wh": 1152,
    "ip_rating": null,
    "api_support": null,
    "sdk_available": null,
@@ -6393,10 +6401,13 @@
    "price_note": null,
    "official_url": null,
    "sources": [
-    "https://humanoidstore.co/robots/agibot-a3"
+    "https://www.agibot.com/products/A3",
+    "https://store.agibot.com/products/a3",
+    "https://open.agibot.com/docs/en/aimdk/a3/v3_2/dev_guide/01-a3_overview"
    ],
    "summary": "Full-size humanoid from AgiBot; b2b only, sold to businesses.",
-   "data_source": "HumanoidStore open data (CC BY 4.0)"
+   "verification": "official",
+   "notes": "Issue #17 (2026-11-17): 173 cm, 55 kg, 31 DoF, 5 kg per arm, 10 h endurance, 1152 Wh per agibot.com and store.agibot.com. Speed conflict kept in favour of AgiBot's own product/FAQ pages (max walk 1.8 m/s, max run 5 m/s); the developer guide's 1.2 m/s was not used. HumanoidStore listed 1.94 m/s, now replaced. [replaced max_speed_mps: 1.94 -> 1.8; battery_wh: None -> 1152]"
   },
   {
    "id": "agibot-g1-max",
@@ -6458,17 +6469,17 @@
    "status": "Commercial",
    "length_mm": null,
    "width_mm": null,
-   "height_mm": 1800,
+   "height_mm": 1795,
    "weight_kg": 185,
    "payload_kg": 5,
    "max_speed_mps": 1.5,
    "min_speed_mps": null,
    "wheel_diameter_mm": null,
    "wheel_count": null,
-   "dof": 25,
+   "dof": 26,
    "runtime_h": 4.0,
-   "battery_wh": null,
-   "ip_rating": null,
+   "battery_wh": 1652,
+   "ip_rating": "IP42",
    "api_support": null,
    "sdk_available": null,
    "sdk_name": null,
@@ -6480,10 +6491,12 @@
    "price_note": null,
    "official_url": null,
    "sources": [
-    "https://humanoidstore.co/robots/agibot-g2"
+    "https://cdn.robotshop.com/media/A/Agb/RB-Agb-09/pdf/AgiBot-G2-Specification.pdf",
+    "https://cdn.robotshop.com/media/A/Agb/RB-Agb-09/pdf/AgiBot-G2-User-Manual.pdf"
    ],
    "summary": "Wheeled (bimanual torso on a wheeled base) humanoid from AgiBot; b2b only, sold to businesses.",
-   "data_source": "HumanoidStore open data (CC BY 4.0)"
+   "verification": "official",
+   "notes": "Issue #17 (2026-11-17): AgiBot G2 spec sheet - height 1225-1795 mm (leg lift), 185 kg, 26 DoF (neck 3, arms 7x2, waist+legs 5, chassis 4), 5 kg per arm, chassis 1.5 m/s, 1652 Wh, ~4 h, IP42. HumanoidStore's 25 DoF corrected to 26. [replaced height_mm: 1800 -> 1795; dof: 25 -> 26; battery_wh: None -> 1652; ip_rating: None -> IP42]"
   },
   {
    "id": "agibot-x1",
@@ -6518,11 +6531,11 @@
    "price_note": null,
    "official_url": "https://www.agibot.com.cn/products/X1",
    "sources": [
-    "https://humanoidstore.co/robots/agibot-x1",
     "https://www.agibot.com.cn/products/X1"
    ],
    "summary": "Mid-size humanoid from AgiBot; research only, sold to research buyers.",
-   "data_source": "HumanoidStore + maker page"
+   "verification": "official",
+   "notes": "Issue #17 (2026-11-17): X1 figures (130 cm, 33 kg, 0.5 kg arm payload, 2 h) are from AgiBot's X1 page; AgiBot publishes no total DoF or price there, so HumanoidStore's 31 DoF and 1 m/s remain the weakest values on this row."
   },
   {
    "id": "agibot-quester1-q1",
@@ -6648,15 +6661,15 @@
    "compute_detail": null,
    "ros_support": null,
    "sensors": [],
-   "price_usd": 25600,
-   "price_note": "list 25600 USD (maker), per HumanoidStore, checked 2026-10",
+   "price_usd": null,
+   "price_note": null,
    "official_url": "https://www.agibot.com.cn/products/X2",
    "sources": [
-    "https://humanoidstore.co/robots/agibot-x2",
     "https://www.agibot.com.cn/products/X2"
    ],
    "summary": "Mid-size humanoid from AgiBot; shipping now, anyone can order.",
-   "data_source": "HumanoidStore + maker page"
+   "verification": "official",
+   "notes": "Issue #17 (2026-11-17): 1.31 m, 35 kg, 3 kg arm payload, 500 Wh, ~2 h and 2 m/s from AgiBot's X2 page; DoF 30 derived (head 1 + arms 7x2 + waist 3 + legs 6x2). HumanoidStore's US$25,600 price removed: AgiBot publishes none. [emptied (no maker value) price_usd=25600; price_note=list 25600 USD (maker), per HumanoidStore, checked 2026-10]"
   },
   {
    "id": "agile-robots-agile-one",
@@ -6691,10 +6704,12 @@
    "price_note": null,
    "official_url": null,
    "sources": [
-    "https://humanoidstore.co/robots/agile-robots-agile-one"
+    "https://www.agile-robots.com/en/products/humanoid-robots/agile-one/",
+    "https://www.linkedin.com/posts/agile-robots-se_agilerobots-agileone-humanoid-activity-7417569512302129152-zLuj"
    ],
    "summary": "Full-size humanoid from Agile Robots; b2b only, sold to businesses.",
-   "data_source": "HumanoidStore open data (CC BY 4.0)"
+   "verification": "official",
+   "notes": "Issue #17 (2026-11-17): 174 cm, 69 kg, 20 kg payload, 2.0 m/s on Agile Robots' product page; 71 DoF (21 per hand) and up to 8 h from Agile Robots' own LinkedIn post. HumanoidStore rows dropped."
   },
   {
    "id": "agile-robots-agile-one-sn",
@@ -6729,10 +6744,11 @@
    "price_note": null,
    "official_url": null,
    "sources": [
-    "https://humanoidstore.co/robots/agile-robots-agile-one-sn"
+    "https://www.agile-robots.com/en/news/detail/agile-robots-launches-agile-one-sn/"
    ],
    "summary": "Mid-size humanoid from Agile Robots; announced, sold to research buyers.",
-   "data_source": "HumanoidStore open data (CC BY 4.0)"
+   "verification": "official",
+   "notes": "Issue #17 (2026-11-17): Agile ONE SN - 1.4 m, 43 kg (NVIDIA lists 40 kg), 31 body DoF + 20 per hand = 71, 3 kg per arm, Jetson Thor, from Agile Robots' launch release. No speed, runtime or price published."
   },
   {
    "id": "agile-robots-h10-w",
@@ -6844,15 +6860,15 @@
    "status": "Pilot",
    "length_mm": null,
    "width_mm": null,
-   "height_mm": null,
-   "weight_kg": null,
+   "height_mm": 1810,
+   "weight_kg": 129,
    "payload_kg": 23,
    "max_speed_mps": null,
    "min_speed_mps": null,
    "wheel_diameter_mm": null,
    "wheel_count": null,
    "dof": null,
-   "runtime_h": null,
+   "runtime_h": 1.5,
    "battery_wh": null,
    "ip_rating": null,
    "api_support": null,
@@ -6867,10 +6883,11 @@
    "official_url": "https://www.agilityrobotics.com/solutions/digit-5",
    "sources": [
     "https://www.agilityrobotics.com/solutions/digit-5",
-    "https://www.agilityrobotics.com/solution",
-    "https://humanoidstore.co/robots/agility-digit"
+    "https://www.agilityrobotics.com/content/agility-unveils-digit-5-humanoid-robot-built-for-cooperatively-safe-work-at-scale"
    ],
-   "summary": "Fifth-gen logistics humanoid for tote handling, palletizing and machine tending; specs (23 kg payload, 2.2 m reach, 10:1 run-to-charge) are preliminary and the product is in development."
+   "summary": "Fifth-gen logistics humanoid for tote handling, palletizing and machine tending; specs (23 kg payload, 2.2 m reach, 10:1 run-to-charge) are preliminary and the product is in development.",
+   "verification": "official",
+   "notes": "Issue #17 (2026-11-17): height 1.81 m, weight 129 kg, 90 min runtime added from Agility's Digit 5 launch material; payload 23 kg is Agility's max figure (22.7 kg rated, preliminary on pre-production hardware). agilityrobotics.com timed out on re-check, so figures are the maker pages recorded in data/specs/agility-digit-5.json [replaced height_mm: None -> 1810; weight_kg: None -> 129; runtime_h: None -> 1.5]"
   },
   {
    "id": "aimoga-intelligent-police-r001",
@@ -6951,10 +6968,11 @@
    "price_note": null,
    "official_url": null,
    "sources": [
-    "https://humanoidstore.co/robots/aimoga-mobo"
+    "https://www.globenewswire.com/news-release/2026/10/23/3387030/0/en/mobo-makes-global-debut-and-opens-pre-orders-as-aimoga-unveils-its-new-path-to-industrialization.html"
    ],
    "summary": "Compact humanoid from AiMOGA Robotics (Chery); waitlist, anyone can order.",
-   "data_source": "HumanoidStore open data (CC BY 4.0)"
+   "verification": "official",
+   "notes": "Issue #17 (2026-11-17): 0.9 m and 22 DoF from AiMOGA's own launch release. Weight 18 kg and ~90 min runtime come from AiMOGA launch coverage, not a maker spec page; treat those two as maker-reported only."
   },
   {
    "id": "aimoga-mornine-m1",
@@ -6976,7 +6994,7 @@
    "wheel_count": null,
    "dof": 40,
    "runtime_h": 2.0,
-   "battery_wh": null,
+   "battery_wh": 673.92,
    "ip_rating": null,
    "api_support": null,
    "sdk_available": null,
@@ -6985,14 +7003,15 @@
    "compute_detail": null,
    "ros_support": null,
    "sensors": [],
-   "price_usd": 41400,
-   "price_note": "list 41400 USD (maker), per HumanoidStore, checked 2026-10",
+   "price_usd": null,
+   "price_note": null,
    "official_url": null,
    "sources": [
-    "https://humanoidstore.co/robots/aimoga-mornine-m1"
+    "https://www.aimoga-robot.com/global/en/mornine/"
    ],
    "summary": "Full-size humanoid from AiMOGA Robotics (Chery); shipping now, anyone can order.",
-   "data_source": "HumanoidStore open data (CC BY 4.0)"
+   "verification": "official",
+   "notes": "Issue #17 (2026-11-17): 167 cm, 70 kg, 40 DoF, 1 m/s, 1.5 kg arm load, 0.7 kWh (673.92 Wh) and 2 h operation from AiMOGA's Mornine page. HumanoidStore's US$41,400 price removed: AiMOGA publishes no price on its own site (the M1 was listed on JD at launch, per press). [replaced battery_wh: None -> 673.92 | emptied (no maker value) price_usd=41400; price_note=list 41400 USD (maker), per HumanoidStore, checked 2026-10]"
   },
   {
    "id": "aitu-r1",
@@ -7052,16 +7071,16 @@
    "status": "Commercial",
    "length_mm": null,
    "width_mm": null,
-   "height_mm": 580,
-   "weight_kg": 5.5,
+   "height_mm": 574,
+   "weight_kg": 5.48,
    "payload_kg": null,
-   "max_speed_mps": 0.17,
+   "max_speed_mps": null,
    "min_speed_mps": null,
    "wheel_diameter_mm": null,
    "wheel_count": null,
    "dof": 25,
    "runtime_h": 1.5,
-   "battery_wh": null,
+   "battery_wh": 62.5,
    "ip_rating": null,
    "api_support": null,
    "sdk_available": null,
@@ -7070,14 +7089,15 @@
    "compute_detail": null,
    "ros_support": null,
    "sensors": [],
-   "price_usd": 16990,
-   "price_note": "list 10020 EUR (maker), per HumanoidStore, checked 2026-10",
+   "price_usd": null,
+   "price_note": null,
    "official_url": null,
    "sources": [
-    "https://humanoidstore.co/robots/nao-6"
+    "https://maxtronics.com/library/NAO6/NAO%20V6%20Datasheet_EN_ALD%202024-2025%20(1).pdf"
    ],
    "summary": "Desktop-size humanoid from Aldebaran; shipping now, anyone can order.",
-   "data_source": "HumanoidStore open data (CC BY 4.0)"
+   "verification": "official",
+   "notes": "Issue #17 (2026-11-17): Aldebaran NAO V6 datasheet - 574x311x275 mm, 5.48 kg, 25 DoF (head 2, arms 5x2, pelvis 1, legs 5x2, hands 1x2), 62.5 Wh, 60 min active / 90 min normal use. HumanoidStore's 0.17 m/s speed and US$16,990 price removed (the datasheet states neither). [replaced height_mm: 580 -> 574; weight_kg: 5.5 -> 5.48; battery_wh: None -> 62.5 | emptied (no maker value) max_speed_mps=0.17; price_usd=16990; price_note=list 10020 EUR (maker), per HumanoidStore, checked 2026-10]"
   },
   {
    "id": "aldebaran-pepper",
@@ -7090,16 +7110,16 @@
    "status": "Discontinued",
    "length_mm": null,
    "width_mm": null,
-   "height_mm": 1200,
-   "weight_kg": 28,
+   "height_mm": 1210,
+   "weight_kg": 29,
    "payload_kg": null,
-   "max_speed_mps": 0.83,
+   "max_speed_mps": 0.556,
    "min_speed_mps": null,
    "wheel_diameter_mm": null,
    "wheel_count": null,
    "dof": 20,
    "runtime_h": 12.0,
-   "battery_wh": null,
+   "battery_wh": 795,
    "ip_rating": null,
    "api_support": null,
    "sdk_available": null,
@@ -7108,14 +7128,15 @@
    "compute_detail": null,
    "ros_support": null,
    "sensors": [],
-   "price_usd": 32000,
-   "price_note": "list 32000 USD (maker), per HumanoidStore, checked 2026-09",
+   "price_usd": null,
+   "price_note": null,
    "official_url": null,
    "sources": [
-    "https://humanoidstore.co/robots/aldebaran-pepper"
+    "https://www.softbankrobotics.com/jp/product/pepper/spec/"
    ],
    "summary": "Wheeled (bimanual torso on a wheeled base) humanoid from Aldebaran; discontinued, anyone can order.",
-   "data_source": "HumanoidStore open data (CC BY 4.0)"
+   "verification": "official",
+   "notes": "Issue #17 (2026-11-17): SoftBank Robotics' Pepper spec - 1210x480x425 mm, 29 kg, 20 DoF (20 motors), 795 Wh (30 Ah), max 2 km/h = 0.556 m/s, 12 h intensive use. Pepper datasheet states 28 kg; SoftBank's own spec page (29 kg) kept. HumanoidStore's 0.83 m/s and US$32,000 removed. [replaced height_mm: 1200 -> 1210; weight_kg: 28 -> 29; max_speed_mps: 0.83 -> 0.556; battery_wh: None -> 795 | emptied (no maker value) price_usd=32000; price_note=list 32000 USD (maker), per HumanoidStore, checked 2026-09]"
   },
   {
    "id": "aldebaran-romeo",
@@ -7377,11 +7398,11 @@
    "price_note": null,
    "official_url": "https://apptronik.com/apollo/apollo-2",
    "sources": [
-    "https://apptronik.com/apollo/apollo-2",
-    "https://apptronik.com/",
-    "https://humanoidstore.co/robots/apptronik-apollo"
+    "https://apptronik.com/apollo/apollo-2"
    ],
-   "summary": "Modular general-purpose humanoid (bipedal or wheeled base) for logistics and manufacturing, with swappable batteries; no numeric specs published on its site."
+   "summary": "Modular general-purpose humanoid (bipedal or wheeled base) for logistics and manufacturing, with swappable batteries; no numeric specs published on its site.",
+   "verification": "unconfirmed",
+   "notes": "Issue #17 (2026-11-17): Apptronik's Apollo 2 page publishes no numeric specifications; record kept with spec fields empty. HumanoidStore row dropped."
   },
   {
    "id": "apptronik-qdh",
@@ -7521,13 +7542,13 @@
    "length_mm": null,
    "width_mm": null,
    "height_mm": 1700,
-   "weight_kg": 90,
+   "weight_kg": 80,
    "payload_kg": 5,
-   "max_speed_mps": 2,
+   "max_speed_mps": null,
    "min_speed_mps": null,
    "wheel_diameter_mm": null,
    "wheel_count": null,
-   "dof": 23,
+   "dof": null,
    "runtime_h": 5.0,
    "battery_wh": null,
    "ip_rating": null,
@@ -7542,10 +7563,11 @@
    "price_note": null,
    "official_url": null,
    "sources": [
-    "https://humanoidstore.co/robots/astribot-s1"
+    "https://www.astribot.com/product"
    ],
    "summary": "Wheeled (bimanual torso on a wheeled base) humanoid from Astribot; b2b only, sold to businesses.",
-   "data_source": "HumanoidStore open data (CC BY 4.0)"
+   "verification": "official",
+   "notes": "Issue #17 (2026-11-17): Astribot's S1 page - 170 cm, 80 kg, 7 DoF per arm (5 kg rated, horizontal), arm span 194 cm, end effector >=10 m/s, 4-6 h (5 taken). Astribot publishes no total DoF, no base travel speed and no price, so those HumanoidStore values (2 m/s, 23 DoF) were emptied. [replaced weight_kg: 90 -> 80 | emptied (no maker value) max_speed_mps=2; dof=23]"
   },
   {
    "id": "astribot-t1",
@@ -7561,7 +7583,7 @@
    "height_mm": 1550,
    "weight_kg": 66,
    "payload_kg": 5,
-   "max_speed_mps": 1.4,
+   "max_speed_mps": 1.39,
    "min_speed_mps": null,
    "wheel_diameter_mm": null,
    "wheel_count": null,
@@ -7576,15 +7598,16 @@
    "compute_detail": null,
    "ros_support": null,
    "sensors": [],
-   "price_usd": 13500,
-   "price_note": "list 13500 USD (maker), per HumanoidStore, checked 2026-10",
+   "price_usd": 14000,
+   "price_note": "from about US$14,000 at launch (May 2026)",
    "official_url": "https://www.astribot.com/en",
    "sources": [
     "https://humanoidstore.co/robots/astribot-t1",
-    "https://www.astribot.com/en"
+    "https://www.astribot.com/en",
+    "https://english.news.cn/20260528/75e55832dd9245b9ae69a6d60a5f532b/c.html",
+    "https://www.astribot.com/product"
    ],
    "summary": "Wheeled (bimanual torso on a wheeled base) humanoid from Astribot; shipping now, sold to businesses.",
-   "data_source": "HumanoidStore open data (CC BY 4.0)",
    "videos": [
     {
      "url": "https://www.astribot.com/index/t1banner/banner.mp4",
@@ -7592,7 +7615,9 @@
      "channel": "Astribot"
     }
    ],
-   "note": "Media (2026-11-17): the T1 still cannot be hotlinked — astribot.com serves its product images from Aliyun OSS with short-lived signed URLs, and the stable poster path is 404. The banner film above is served from the site's own /index/t1banner/ path. Astribot has no dedicated T1 product page yet; T1 is presented on the home page."
+   "note": "Media (2026-11-17): the T1 still cannot be hotlinked — astribot.com serves its product images from Aliyun OSS with short-lived signed URLs, and the stable poster path is 404. The banner film above is served from the site's own /index/t1banner/ path. Astribot has no dedicated T1 product page yet; T1 is presented on the home page.",
+   "verification": "official",
+   "notes": "Issue #17 (2026-11-17): T1 - 1.55 m, about 66 kg, 23 DoF excluding end effectors (16 in the hands), 5 kg per arm, up to 5 km/h (1.39 m/s), 4-6 h, from Astribot's May 2026 launch. HumanoidStore's US$13,500 replaced by the announced from-about-US$14,000. [replaced max_speed_mps: 1.4 -> 1.39; price_usd: 13500 -> 14000; price_note: list 13500 USD (maker), per HumanoidStore, checked 2026-10 -> from about US$14,000 at launch (May 2026)]"
   },
   {
    "id": "ati-robotics-sherpa-mecha",
@@ -7841,10 +7866,11 @@
    "price_note": null,
    "official_url": null,
    "sources": [
-    "https://humanoidstore.co/robots/kinisi-kr1"
+    "https://www.kinisi.com/"
    ],
    "summary": "Wheeled (bimanual torso on a wheeled base) humanoid from Bear Robotics; b2b only, sold to businesses.",
-   "data_source": "HumanoidStore open data (CC BY 4.0)"
+   "verification": "unconfirmed",
+   "notes": "Issue #17 (2026-11-17): Bear Robotics' Kinisi page confirms up to 14.4 km/h (4.0 m/s) but lists payload, reach and mobility as 'to be confirmed at launch'. Height 162 cm, weight 100 kg, 21 DoF and 8 h come from Kinisi's pre-acquisition published specifications and could not be re-opened today, so the record is marked unconfirmed rather than official."
   },
   {
    "id": "beijing-huiwen-iben-a03",
@@ -8351,15 +8377,16 @@
    "compute_detail": null,
    "ros_support": null,
    "sensors": [],
-   "price_usd": 10103,
-   "price_note": "list 9000 EUR (reseller), per HumanoidStore, checked 2026-10",
+   "price_usd": null,
+   "price_note": null,
    "official_url": "https://www.booster.tech/booster-k1",
    "sources": [
-    "https://humanoidstore.co/robots/booster-k1",
-    "https://docs.booster.tech/docs/product-manual/k1/getting-started/specifications"
+    "https://docs.booster.tech/docs/product-manual/k1/getting-started/specifications",
+    "https://www.booster.tech/booster-k1"
    ],
    "summary": "Compact humanoid from Booster Robotics; shipping now, anyone can order.",
-   "data_source": "HumanoidStore + maker page"
+   "verification": "official",
+   "notes": "Issue #17 (2026-11-17): K1 values from Booster's product manual (0.95 m, 19.5 kg, 22 DoF = legs 6x2 + arms 4x2 + head 2, 70 min at 1.1 m/s). HumanoidStore's reseller EUR 9,000 removed. [emptied (no maker value) price_usd=10103; price_note=list 9000 EUR (reseller), per HumanoidStore, checked 2026-10]"
   },
   {
    "id": "booster-t1",
@@ -8393,15 +8420,16 @@
     "Depth camera",
     "Microphone array"
    ],
-   "price_usd": 44670,
-   "price_note": "list price per HumanoidStore, checked 2026-10",
+   "price_usd": null,
+   "price_note": null,
    "official_url": "https://www.booster.tech/",
    "sources": [
     "https://docs.booster.tech/docs/product-manual/t1/getting-started/specifications/",
-    "https://www.booster.tech/booster-t1/",
-    "https://humanoidstore.co/robots/booster-t1"
+    "https://www.booster.tech/booster-t1/"
    ],
-   "summary": "Small developer/RoboCup humanoid; T1 product page now redirects to a lineup of T2 and K1, so status recorded as discontinued (inferred)."
+   "summary": "Small developer/RoboCup humanoid; T1 product page now redirects to a lineup of T2 and K1, so status recorded as discontinued (inferred).",
+   "verification": "official",
+   "notes": "Issue #17 (2026-11-17): specs from Booster's T1 product manual; humanoidstore price removed (Booster publishes none; T1 page now redirects to T2/K1, so status Discontinued is inferred). [emptied (no maker value) price_usd=44670; price_note=list price per HumanoidStore, checked 2026-10]"
   },
   {
    "id": "booster-t2",
@@ -8432,15 +8460,16 @@
    "compute_detail": null,
    "ros_support": null,
    "sensors": [],
-   "price_usd": 37999,
-   "price_note": "list 27060 EUR (reseller), per HumanoidStore, checked 2026-10",
+   "price_usd": null,
+   "price_note": null,
    "official_url": "https://www.booster.tech/booster-t2/",
    "sources": [
-    "https://humanoidstore.co/robots/booster-t2",
-    "https://docs.booster.tech/zh-CN/docs/product-manual/t2/getting-started/specifications"
+    "https://docs.booster.tech/zh-CN/docs/product-manual/t2/getting-started/specifications",
+    "https://www.booster.tech/booster-t2/"
    ],
    "summary": "Mid-size humanoid from Booster Robotics; shipping now, anyone can order.",
-   "data_source": "HumanoidStore + maker page"
+   "verification": "official",
+   "notes": "Issue #17 (2026-11-17): T2 values from Booster's product manual (1.4 m, 42 kg, 31 DoF = legs 6x2 + arms 7x2 + waist 3 + head 2, 2 h). HumanoidStore's reseller EUR 27,060 removed. [emptied (no maker value) price_usd=37999; price_note=list 27060 EUR (reseller), per HumanoidStore, checked 2026-10]"
   },
   {
    "id": "boston-dynamics-atlas",
@@ -8481,10 +8510,11 @@
    "official_url": "https://bostondynamics.com/atlas/",
    "sources": [
     "https://bostondynamics.com/atlas/",
-    "https://bostondynamics.com/wp-content/uploads/2026/01/atlas-spec-sheet.pdf",
-    "https://humanoidstore.co/robots/bostondynamics-atlas"
+    "https://bostondynamics.com/wp-content/uploads/2026/01/atlas-spec-sheet.pdf"
    ],
-   "summary": "Enterprise industrial humanoid for material handling and part sequencing; 30 kg sustained / 50 kg instant lift, 2.3 m reach, autonomous 3-min battery swap, integrates via Orbit; early-adopter deployments."
+   "summary": "Enterprise industrial humanoid for material handling and part sequencing; 30 kg sustained / 50 kg instant lift, 2.3 m reach, autonomous 3-min battery swap, integrates via Orbit; early-adopter deployments.",
+   "verification": "official",
+   "notes": "Issue #17 (2026-11-17): confirmed on bostondynamics.com/atlas and the Atlas spec sheet - 1.9 m, 90 kg, 56 DoF, 30 kg sustained / 50 kg instant lift, 4 h battery, IP67. HumanoidStore rows dropped."
   },
   {
    "id": "boston-dynamics-atlas-hydraulic",
@@ -9511,10 +9541,11 @@
    "price_note": null,
    "official_url": null,
    "sources": [
-    "https://humanoidstore.co/robots/clone-robotics-clone-alpha-protoclone"
+    "https://www.clonerobotics.com/"
    ],
    "summary": "Full-size humanoid from Clone Robotics; announced, anyone can order.",
-   "data_source": "HumanoidStore open data (CC BY 4.0)"
+   "verification": "official",
+   "notes": "Issue #17 (2026-11-17): 170 cm, 60 kg and 164 upper-torso DoF are Clone Robotics' own launch figures (Dec 2024); the current site has no spec table. HumanoidStore rows dropped."
   },
   {
    "id": "corenetic-monte01",
@@ -9843,15 +9874,15 @@
    "width_mm": null,
    "height_mm": 1750,
    "weight_kg": 65,
-   "payload_kg": 20,
+   "payload_kg": 10,
    "max_speed_mps": 4,
    "min_speed_mps": null,
    "wheel_diameter_mm": null,
    "wheel_count": null,
-   "dof": 31,
-   "runtime_h": null,
-   "battery_wh": null,
-   "ip_rating": null,
+   "dof": 21,
+   "runtime_h": 3.0,
+   "battery_wh": 1440,
+   "ip_rating": "IP66",
    "api_support": null,
    "sdk_available": null,
    "sdk_name": null,
@@ -9863,10 +9894,12 @@
    "price_note": null,
    "official_url": null,
    "sources": [
-    "https://humanoidstore.co/robots/deep-robotics-dr02"
+    "https://deep-website.oss-cn-hangzhou.aliyuncs.com/app/DR02%E5%8D%95%E9%A1%B5202602-%E8%8B%B1%E6%96%87.pdf",
+    "https://www.deeprobotics.us/products/dr02/"
    ],
    "summary": "Full-size humanoid from DEEP Robotics; announced, sold to businesses.",
-   "data_source": "HumanoidStore open data (CC BY 4.0)"
+   "verification": "official",
+   "notes": "Issue #17 (2026-11-17): DEEP Robotics DR02 datasheet - 175 cm, 65 kg with battery, 21 DoF (legs 6x2, arms 4x2, waist 1), 10 kg dual-arm payload, 20 Ah/1440 Wh, IP66, max test speed 4 m/s (walking 1.5 m/s). DoF 31 belongs to the DR02 Pro. The DR02 user manual lists 180 cm, 68 kg and a 20 kg figure; datasheet values kept, manual figures noted. [replaced payload_kg: 20 -> 10; dof: 31 -> 21; runtime_h: None -> 3.0; battery_wh: None -> 1440; ip_rating: None -> IP66]"
   },
   {
    "id": "dfki-rh5-manus",
@@ -10090,10 +10123,11 @@
    "price_note": null,
    "official_url": null,
    "sources": [
-    "https://humanoidstore.co/robots/devanthro-robody"
+    "https://www.devanthro.com/technology/"
    ],
    "summary": "Wheeled (bimanual torso on a wheeled base) humanoid from Devanthro; b2b only, sold to businesses.",
-   "data_source": "HumanoidStore open data (CC BY 4.0)"
+   "verification": "official",
+   "notes": "Issue #17 (2026-11-17): Devanthro Robody - 1.65 m, 60 kg, 6-DoF arms (1.5 kg each) and a 3-DoF neck = 15 DoF, 6 h with self-dock, from Devanthro's technology page."
   },
   {
    "id": "dexforce-w1-pro",
@@ -10165,7 +10199,7 @@
    "min_speed_mps": null,
    "wheel_diameter_mm": null,
    "wheel_count": null,
-   "dof": 24,
+   "dof": 23,
    "runtime_h": 20.0,
    "battery_wh": null,
    "ip_rating": null,
@@ -10176,14 +10210,15 @@
    "compute_detail": null,
    "ros_support": null,
    "sensors": [],
-   "price_usd": 75000,
-   "price_note": "list 75000 USD (maker), per HumanoidStore, checked 2026-10",
+   "price_usd": null,
+   "price_note": null,
    "official_url": null,
    "sources": [
-    "https://humanoidstore.co/robots/dexmate-vega"
+    "https://www.dexmate.com/product/vega-1-pro"
    ],
    "summary": "Wheeled (bimanual torso on a wheeled base) humanoid from Dexmate; shipping now, anyone can order.",
-   "data_source": "HumanoidStore open data (CC BY 4.0)"
+   "verification": "official",
+   "notes": "Issue #17 (2026-11-17): Dexmate Vega 1 Pro - 23 DoF (arms 14, torso 3, head 3, base 3), 135 kg, 5 kg per arm, 20 h per charge. HumanoidStore's 24 DoF corrected to 23 and its US$75,000 removed (Dexmate quotes per configuration). [replaced dof: 24 -> 23 | emptied (no maker value) price_usd=75000; price_note=list 75000 USD (maker), per HumanoidStore, checked 2026-10]"
   },
   {
    "id": "digit-robotics-nezha-p01",
@@ -10382,14 +10417,16 @@
    "compute_detail": null,
    "ros_support": null,
    "sensors": [],
-   "price_usd": 27530,
-   "price_note": "list 27530 USD (maker), per HumanoidStore, checked 2026-10",
+   "price_usd": null,
+   "price_note": null,
    "official_url": null,
    "sources": [
-    "https://humanoidstore.co/robots/dobot-atom"
+    "https://www.dobot-robots.com/products/humanoid-robots/atom.html",
+    "https://dobot-cloud-1256299428.cos.accelerate.myqcloud.com/dobot/Dobot%20Atom%20Humanoid%20Robot%20Quick%20Start_V1.1_20250904_en.pdf"
    ],
    "summary": "Full-size humanoid from Dobot; shipping now, anyone can order.",
-   "data_source": "HumanoidStore open data (CC BY 4.0)"
+   "verification": "official",
+   "notes": "Issue #17 (2026-11-17): DOBOT Atom - 1650 mm, about 62 kg without hands, 29 body DoF + 6 DoF per hand = 41, 3.5 kg per arm, 1.5 m/s walking, 2 h, from Dobot's product page and Atom quick-start. HumanoidStore's US$27,530 removed: Dobot publishes no price. [emptied (no maker value) price_usd=27530; price_note=list 27530 USD (maker), per HumanoidStore, checked 2026-10]"
   },
   {
    "id": "dobot-lumo",
@@ -10596,7 +10633,7 @@
    "wheel_diameter_mm": null,
    "wheel_count": null,
    "dof": null,
-   "runtime_h": null,
+   "runtime_h": 8.0,
    "battery_wh": null,
    "ip_rating": null,
    "api_support": null,
@@ -10610,10 +10647,11 @@
    "price_note": null,
    "official_url": null,
    "sources": [
-    "https://humanoidstore.co/robots/droidup-moya"
+    "https://www.droidup.com/product/7"
    ],
    "summary": "Full-size humanoid from DroidUp; b2b only, sold to businesses.",
-   "data_source": "HumanoidStore open data (CC BY 4.0)"
+   "verification": "official",
+   "notes": "Issue #17 (2026-11-17): DroidUp's Moya page - 165 cm, about 30 kg, 100+ total DoF, 8-10 h (8 taken). DoF cannot be expressed as one number (100+) so the field stays empty; press reports 32 kg, maker page 30 kg kept. [replaced runtime_h: None -> 8.0]"
   },
   {
    "id": "droidup-xingzhe-2",
@@ -10627,14 +10665,14 @@
    "length_mm": null,
    "width_mm": null,
    "height_mm": 1700,
-   "weight_kg": 32,
-   "payload_kg": 2,
+   "weight_kg": 38,
+   "payload_kg": null,
    "max_speed_mps": null,
    "min_speed_mps": null,
    "wheel_diameter_mm": null,
    "wheel_count": null,
-   "dof": 20,
-   "runtime_h": 3.0,
+   "dof": 30,
+   "runtime_h": 6.0,
    "battery_wh": null,
    "ip_rating": null,
    "api_support": null,
@@ -10648,10 +10686,11 @@
    "price_note": null,
    "official_url": null,
    "sources": [
-    "https://humanoidstore.co/robots/droidup-xingzhe-2"
+    "https://www.droidup.com/"
    ],
    "summary": "Full-size humanoid from DroidUp; b2b only, sold to businesses.",
-   "data_source": "HumanoidStore open data (CC BY 4.0)"
+   "verification": "unconfirmed",
+   "notes": "Issue #17 (2026-11-17): 1.7 m, 38 kg, 30 active DoF excluding hands and about 6 h dynamic runtime are DroidUp's Walker III figures as given by its CEO and the WAIC 2025 launch; DroidUp has no open spec table, so this record stays unconfirmed and the 10 kg payload (no maker evidence) was emptied. [replaced weight_kg: 32 -> 38; dof: 20 -> 30; runtime_h: 3.0 -> 6.0 | emptied (no maker value) payload_kg=2]"
   },
   {
    "id": "duatic-alpha",
@@ -11025,14 +11064,14 @@
    "length_mm": null,
    "width_mm": null,
    "height_mm": 1230,
-   "weight_kg": 32,
+   "weight_kg": 29,
    "payload_kg": 1.5,
-   "max_speed_mps": 0.9,
+   "max_speed_mps": 0.889,
    "min_speed_mps": null,
    "wheel_diameter_mm": null,
    "wheel_count": null,
    "dof": 26,
-   "runtime_h": 3.0,
+   "runtime_h": 4.0,
    "battery_wh": null,
    "ip_rating": null,
    "api_support": null,
@@ -11042,14 +11081,15 @@
    "compute_detail": null,
    "ros_support": null,
    "sensors": [],
-   "price_usd": 56125,
-   "price_note": "list 50000 EUR (maker), per HumanoidStore, checked 2026-10",
+   "price_usd": null,
+   "price_note": null,
    "official_url": null,
    "sources": [
-    "https://humanoidstore.co/robots/enchanted-tools-mirokai"
+    "https://enchanted.tools/"
    ],
    "summary": "Mid-size humanoid from Enchanted Tools; b2b only, sold to businesses.",
-   "data_source": "HumanoidStore open data (CC BY 4.0)"
+   "verification": "official",
+   "notes": "Issue #17 (2026-11-17): Mirokaï - 123 cm, 29 kg, 26 DoF (neck 3, arms 4x2, wrists 3x2, hands 2x2, ears 1x2, base 3), 3.2 km/h (0.889 m/s) among people, 4 h, per Enchanted Tools' published figures (reproduced in the GO Robotics brochure, Sept 2026; enchanted.tools itself has no spec table). [replaced weight_kg: 32 -> 29; max_speed_mps: 0.9 -> 0.889; runtime_h: 3.0 -> 4.0] HumanoidStore price (US$56125) removed: no maker list price confirmed."
   },
   {
    "id": "encosmart-nico",
@@ -11125,14 +11165,15 @@
     "Wide-FOV binocular camera x2 (head and waist)",
     "3D LiDAR (Navigation Edition only)"
    ],
-   "price_usd": 26000,
-   "price_note": "list price per HumanoidStore, checked 2026-10",
+   "price_usd": null,
+   "price_note": null,
    "official_url": "https://en.engineai.com.cn/product-pm01.html",
    "sources": [
-    "https://en.engineai.com.cn/product-pm01.html",
-    "https://humanoidstore.co/robots/engineai-pm01"
+    "https://en.engineai.com.cn/product-pm01.html"
    ],
-   "summary": "Lightweight, open-source research/education humanoid (2026 Education Edition specs); speed listed as >2 m/s hardware-supported; 320° waist rotation."
+   "summary": "Lightweight, open-source research/education humanoid (2026 Education Edition specs); speed listed as >2 m/s hardware-supported; 320° waist rotation.",
+   "verification": "official",
+   "notes": "Issue #17 (2026-11-17): specs from EngineAI's PM01 page; humanoidstore price removed (no maker price). [emptied (no maker value) price_usd=26000; price_note=list price per HumanoidStore, checked 2026-10]"
   },
   {
    "id": "engineai-sa01",
@@ -11253,15 +11294,16 @@
    "compute_detail": null,
    "ros_support": null,
    "sensors": [],
-   "price_usd": 26000,
-   "price_note": "list 26000 USD (maker), per HumanoidStore, checked 2026-10",
+   "price_usd": null,
+   "price_note": null,
    "official_url": "https://en.engineai.com.cn/",
    "sources": [
-    "https://humanoidstore.co/robots/engineai-se01",
+    "https://en.engineai.com.cn/product-se01.html",
     "https://en.engineai.com.cn/"
    ],
    "summary": "Full-size humanoid from EngineAI; shipping now, anyone can order.",
-   "data_source": "HumanoidStore + maker page"
+   "verification": "official",
+   "notes": "Issue #17 (2026-11-17): SE01 - 170 cm and 2 h endurance confirmed on EngineAI's SE01 page. HumanoidStore's US$26,000 removed: EngineAI publishes no price. [emptied (no maker value) price_usd=26000; price_note=list 26000 USD (maker), per HumanoidStore, checked 2026-10]"
   },
   {
    "id": "engineai-t800",
@@ -11275,15 +11317,15 @@
    "length_mm": null,
    "width_mm": null,
    "height_mm": 1730,
-   "weight_kg": 75,
+   "weight_kg": 85,
    "payload_kg": null,
-   "max_speed_mps": 2,
+   "max_speed_mps": 3.0,
    "min_speed_mps": null,
    "wheel_diameter_mm": null,
    "wheel_count": null,
-   "dof": 25,
-   "runtime_h": 4.0,
-   "battery_wh": null,
+   "dof": 29,
+   "runtime_h": 2.0,
+   "battery_wh": 1220,
    "ip_rating": null,
    "api_support": null,
    "sdk_available": null,
@@ -11292,14 +11334,16 @@
    "compute_detail": null,
    "ros_support": null,
    "sensors": [],
-   "price_usd": 25000,
-   "price_note": "list 25000 USD (maker), per HumanoidStore, checked 2026-10",
+   "price_usd": null,
+   "price_note": null,
    "official_url": null,
    "sources": [
-    "https://humanoidstore.co/robots/engineai-t800"
+    "https://en.engineai.com.cn/product-t800",
+    "https://en.engineai.com.cn/open/docs/t800/t800/robot-specifications-electrical-interfaces"
    ],
    "summary": "Full-size humanoid from EngineAI; shipping now, anyone can order.",
-   "data_source": "HumanoidStore open data (CC BY 4.0)"
+   "verification": "official",
+   "notes": "Issue #17 (2026-11-17): T800 - 173 cm, 84.5 kg (Developer) / 85.3 kg (Pro), 25 DoF Developer / 29 + 14 hands Pro, walking 0-1.5 m/s, running <3 m/s, 1.22 kWh, 2 h standard. HumanoidStore's US$26,000 removed: EngineAI publishes no price. [replaced weight_kg: 75 -> 85; dof: 25 -> 29; max_speed_mps: 2 -> 3.0; runtime_h: 4.0 -> 2.0; battery_wh: None -> 1220 | emptied (no maker value) price_usd=25000; price_note=list 25000 USD (maker), per HumanoidStore, checked 2026-10]"
   },
   {
    "id": "estun-codroid-02",
@@ -11479,7 +11523,7 @@
    "wheel_diameter_mm": null,
    "wheel_count": null,
    "dof": 20,
-   "runtime_h": 2.0,
+   "runtime_h": 2.5,
    "battery_wh": null,
    "ip_rating": null,
    "api_support": null,
@@ -11490,13 +11534,14 @@
    "ros_support": null,
    "sensors": [],
    "price_usd": 2490,
-   "price_note": "list 2490 USD (maker), per HumanoidStore, checked 2026-10",
+   "price_note": "US$2,490 robot device; US$390 developer skills package",
    "official_url": null,
    "sources": [
-    "https://humanoidstore.co/robots/faraday-future-nova"
+    "https://robotics.ff.com/us/nova/"
    ],
    "summary": "Desktop-size humanoid from Faraday Future; preorder, anyone can order.",
-   "data_source": "HumanoidStore open data (CC BY 4.0)"
+   "verification": "official",
+   "notes": "Issue #17 (2026-11-17): FF Nova - 497 mm, 2.8 kg, 20 DoF (head 2, arms 6, legs 12), 0.1 m/s bipedal (0.8 m/s on its wheeled base), 2-3 h, US$2,490 from Faraday Future's Nova page and launch release. [replaced runtime_h: 2.0 -> 2.5; price_note: list 2490 USD (maker), per HumanoidStore, checked 2026-10 -> US$2,490 robot device; US$390 developer skills package]"
   },
   {
    "id": "faraday-future-nova-mini",
@@ -11528,13 +11573,14 @@
    "ros_support": null,
    "sensors": [],
    "price_usd": 299,
-   "price_note": "list 299 USD (maker), per HumanoidStore, checked 2026-10",
+   "price_note": "US$299 MSRP",
    "official_url": null,
    "sources": [
-    "https://humanoidstore.co/robots/faraday-future-nova-mini"
+    "https://shop.ff.com/products/ff-nova-mini"
    ],
    "summary": "Desktop-size humanoid from Faraday Future; shipping now, anyone can order.",
-   "data_source": "HumanoidStore open data (CC BY 4.0)"
+   "verification": "official",
+   "notes": "Issue #17 (2026-11-17): FF Nova Mini - 349x176x99 mm, 0.94 kg, 17 servo joints (head 1, arms 3x2, legs 5x2), about 50 min, US$299. [replaced price_note: list 299 USD (maker), per HumanoidStore, checked 2026-10 -> US$299 MSRP]"
   },
   {
    "id": "fauna-robotics-sprout",
@@ -11555,7 +11601,7 @@
    "wheel_diameter_mm": null,
    "wheel_count": null,
    "dof": 29,
-   "runtime_h": 3.5,
+   "runtime_h": 3.0,
    "battery_wh": null,
    "ip_rating": null,
    "api_support": null,
@@ -11565,14 +11611,15 @@
    "compute_detail": null,
    "ros_support": null,
    "sensors": [],
-   "price_usd": 50000,
-   "price_note": "list 50000 USD (maker), per HumanoidStore, checked 2026-10",
+   "price_usd": null,
+   "price_note": null,
    "official_url": null,
    "sources": [
-    "https://humanoidstore.co/robots/fauna-robotics-sprout"
+    "https://faunarobotics.com/product"
    ],
    "summary": "Compact humanoid from Fauna Robotics; shipping now, sold to businesses.",
-   "data_source": "HumanoidStore open data (CC BY 4.0)"
+   "verification": "official",
+   "notes": "Issue #17 (2026-11-17): Sprout - 107 cm, 22.7 kg, 29 DoF (including eyebrow DoF), swappable battery 3-3.5 h (3 taken), per Fauna's product page and launch release. Fauna publishes no rated payload, so the HumanoidStore payload was emptied. [replaced runtime_h: 3.5 -> 3.0] HumanoidStore price (US$50000) removed: no maker list price confirmed."
   },
   {
    "id": "feather-robotics-feather",
@@ -11764,10 +11811,11 @@
    "official_url": "https://www.figure.ai/figure",
    "sources": [
     "https://www.figure.ai/figure",
-    "https://www.figure.ai/news/introducing-figure-03",
-    "https://humanoidstore.co/robots/figure-03"
+    "https://www.figure.ai/news/introducing-figure-03"
    ],
-   "summary": "General-purpose humanoid aimed at the home and commercial work, built around Figure's Helix VLA model; 2 kW wireless foot charging. Height 5'8\" converted."
+   "summary": "General-purpose humanoid aimed at the home and commercial work, built around Figure's Helix VLA model; 2 kW wireless foot charging. Height 5'8\" converted.",
+   "verification": "official",
+   "notes": "Issue #17 (2026-11-17): 5'8\" (1727 mm), 61 kg, 20 kg payload, 1.2 m/s, 5 h runtime confirmed on figure.ai. HumanoidStore rows dropped."
   },
   {
    "id": "flexiv-aico-2",
@@ -11830,7 +11878,7 @@
    "status": "Pre-order",
    "length_mm": null,
    "width_mm": null,
-   "height_mm": 1090,
+   "height_mm": 1100,
    "weight_kg": 20,
    "payload_kg": 1.5,
    "max_speed_mps": null,
@@ -11849,13 +11897,14 @@
    "ros_support": null,
    "sensors": [],
    "price_usd": 3555,
-   "price_note": "list 3555 USD (maker), per HumanoidStore, checked 2026-10",
+   "price_note": "US$3,555 pre-order for the first 50 units",
    "official_url": null,
    "sources": [
-    "https://humanoidstore.co/robots/flourish-1"
+    "https://robotsforthat.com/robot/flourish-robots-flourish-1/"
    ],
    "summary": "Wheeled (bimanual torso on a wheeled base) humanoid from Flourish Robots; preorder, anyone can order.",
-   "data_source": "HumanoidStore open data (CC BY 4.0)"
+   "verification": "unconfirmed",
+   "notes": "Issue #17 (2026-11-17): 110 cm (3'7\"), 20 kg (44 lb), 3.3 lb (1.5 kg) lift, up to 12 h and US$3,555 from Flourish's Sept 2026 launch as reported; no maker spec page could be opened, so the record stays unconfirmed. [replaced height_mm: 1090 -> 1100; price_note: list 3555 USD (maker), per HumanoidStore, checked 2026-10 -> US$3,555 pre-order for the first 50 units]"
   },
   {
    "id": "foundation-phantom-mk2",
@@ -11868,14 +11917,14 @@
    "status": "Announced",
    "length_mm": null,
    "width_mm": null,
-   "height_mm": 1800,
-   "weight_kg": 80,
-   "payload_kg": 30,
-   "max_speed_mps": 1.7,
+   "height_mm": 1830,
+   "weight_kg": 90,
+   "payload_kg": null,
+   "max_speed_mps": null,
    "min_speed_mps": null,
    "wheel_diameter_mm": null,
    "wheel_count": null,
-   "dof": 29,
+   "dof": null,
    "runtime_h": null,
    "battery_wh": null,
    "ip_rating": null,
@@ -11890,10 +11939,11 @@
    "price_note": null,
    "official_url": null,
    "sources": [
-    "https://humanoidstore.co/robots/foundation-phantom-mk2"
+    "https://foundation.bot/phantom"
    ],
    "summary": "Full-size humanoid from Foundation; announced, sold to businesses.",
-   "data_source": "HumanoidStore open data (CC BY 4.0)"
+   "verification": "unconfirmed",
+   "notes": "Issue #17 (2026-11-17): MK-2 has had no public launch; The San Francisco Standard describes it as about 6 ft and 200 lb and gives no payload, DoF or speed, so those fields were emptied. Foundation's Phantom page (1.8 m, 80 kg, 40 kg, 29 DoF) does not name a generation. [replaced height_mm: 1800 -> 1830; weight_kg: 80 -> 90 | emptied (no maker value) payload_kg=30; dof=29; max_speed_mps=1.7]"
   },
   {
    "id": "foundation-phantom-mk1",
@@ -11908,7 +11958,7 @@
    "width_mm": null,
    "height_mm": 1800,
    "weight_kg": 80,
-   "payload_kg": 20,
+   "payload_kg": 40,
    "max_speed_mps": 1.7,
    "min_speed_mps": null,
    "wheel_diameter_mm": null,
@@ -11928,10 +11978,11 @@
    "price_note": null,
    "official_url": null,
    "sources": [
-    "https://humanoidstore.co/robots/foundation-phantom-mk1"
+    "https://foundation.bot/phantom"
    ],
    "summary": "Full-size humanoid from Foundation; b2b only, sold to businesses.",
-   "data_source": "HumanoidStore open data (CC BY 4.0)"
+   "verification": "official",
+   "notes": "Issue #17 (2026-11-17): foundation.bot/phantom - 5'11\" (1.8 m), 176 lb (80 kg), 88.2 lb (40 kg) payload, 29 DoF, 1.7 m/s. HumanoidStore values replaced with the maker's. [replaced payload_kg: 20 -> 40]"
   },
   {
    "id": "fourier-gr-mini",
@@ -12054,7 +12105,7 @@
    "wheel_count": null,
    "dof": 53,
    "runtime_h": 2.0,
-   "battery_wh": null,
+   "battery_wh": 950,
    "ip_rating": null,
    "api_support": null,
    "sdk_available": null,
@@ -12068,13 +12119,16 @@
    "official_url": null,
    "sources": [
     "https://humanoidstore.co/robots/fourier-intelligence-gr-2",
-    "https://www.fftai.com/grx/gr3"
+    "https://www.fftai.com/grx/gr3",
+    "https://www.fftai.com/pdf/en/gr2.pdf",
+    "https://www.prnewswire.com/news-releases/fourier-unveils-the-next-generation-humanoid-robot-gr-2-302262432.html"
    ],
    "summary": "Full-size humanoid from Fourier; b2b only, sold to businesses.",
-   "data_source": "HumanoidStore open data (CC BY 4.0)",
    "image_url": "https://www.fftai.com/images/grx/gr2.jpg",
    "note": "Media (2026-11-17): product image grx/gr2.jpg is the GR-2 card in Fourier's GRx family section on the official GR-3 page; the section carries no video.",
-   "image_source": "https://www.fftai.com/grx/gr3"
+   "image_source": "https://www.fftai.com/grx/gr3",
+   "verification": "official",
+   "notes": "Issue #17 (2026-11-17): Fourier GR-2 datasheet - 1750x552x275 mm, about 63 kg, 53 DoF with 12-DoF hands, 3 kg per arm, 5 km/h (1.39 m/s), about 950 Wh, about 2 h. [replaced battery_wh: None -> 950]"
   },
   {
    "id": "fourier-gr-3",
@@ -12110,8 +12164,8 @@
     "360° microphone",
     "Tactile sensors (head, torso)"
    ],
-   "price_usd": 100000,
-   "price_note": "list price per HumanoidStore, checked 2026-10",
+   "price_usd": null,
+   "price_note": null,
    "official_url": "https://www.fftai.com/grx/gr3",
    "sources": [
     "https://support.fftai.com/en/gr3/getting-started/general-information",
@@ -12148,7 +12202,9 @@
     }
    ],
    "note": "Media (2026-11-17): product render gr3-mb.png and the demo clips (walk, terrain-walk, operation, stability, ping-pong) are served from fftai.com's GR-3 page.",
-   "image_source": "https://www.fftai.com/grx/gr3"
+   "image_source": "https://www.fftai.com/grx/gr3",
+   "verification": "official",
+   "notes": "Issue #17 (2026-11-17): 1642 mm, 71 kg, 3 kg arm payload, 3 h, 702+234 Wh confirmed in Fourier's GR-3 documentation; 1.69 m/s = Fourier's 6.1 km/h. DoF 55 derived (head 2 + waist 3 + arms 7x2 + legs 6x2 + optional 12x2 hands). HumanoidStore's US$100,000 price removed: Fourier publishes none. [emptied (no maker value) price_usd=100000; price_note=list price per HumanoidStore, checked 2026-10]"
   },
   {
    "id": "fourier-n1",
@@ -12179,8 +12235,8 @@
    "compute_detail": null,
    "ros_support": null,
    "sensors": [],
-   "price_usd": 40000,
-   "price_note": "list 40000 USD (maker), per HumanoidStore, checked 2026-10",
+   "price_usd": null,
+   "price_note": null,
    "official_url": "https://support-old.fftai.com/en/docs/GR-X-Humanoid-Robot/Fouriern1/N1_Introduction/",
    "sources": [
     "https://humanoidstore.co/robots/fourier-n1",
@@ -12188,7 +12244,6 @@
     "https://www.fftai.com/ecosystem/n1"
    ],
    "summary": "Mid-size humanoid from Fourier; shipping now, anyone can order.",
-   "data_source": "HumanoidStore + maker page",
    "image_url": "https://www.fftai.com/images/n1/robot.png",
    "videos": [
     {
@@ -12198,7 +12253,9 @@
     }
    ],
    "note": "Media (2026-11-17): product render images/n1/robot.png and the hero film videos/n1/banner-video.mp4 come from the official N1 page (fftai.com/ecosystem/n1).",
-   "image_source": "https://www.fftai.com/ecosystem/n1"
+   "image_source": "https://www.fftai.com/ecosystem/n1",
+   "verification": "official",
+   "notes": "Issue #17 (2026-11-17): N1 - 1.3 m, 38 kg from Fourier's N1 documentation. HumanoidStore's US$40,000 removed: Fourier publishes no price. [emptied (no maker value) price_usd=40000; price_note=list 40000 USD (maker), per HumanoidStore, checked 2026-10]"
   },
   {
    "id": "foxtech-xtron-roban",
@@ -12678,13 +12735,13 @@
    "length_mm": null,
    "width_mm": null,
    "height_mm": 1700,
-   "weight_kg": 96,
-   "payload_kg": 3.5,
-   "max_speed_mps": 1.5,
+   "weight_kg": 126,
+   "payload_kg": 5,
+   "max_speed_mps": null,
    "min_speed_mps": null,
    "wheel_diameter_mm": null,
    "wheel_count": null,
-   "dof": 24,
+   "dof": null,
    "runtime_h": null,
    "battery_wh": null,
    "ip_rating": null,
@@ -12695,14 +12752,15 @@
    "compute_detail": null,
    "ros_support": null,
    "sensors": [],
-   "price_usd": 44500,
-   "price_note": "list 44500 USD (maker), per HumanoidStore, checked 2026-10",
+   "price_usd": null,
+   "price_note": null,
    "official_url": null,
    "sources": [
-    "https://humanoidstore.co/robots/galaxea-r1"
+    "https://www.galaxea-ai.com/en/product2.html"
    ],
    "summary": "Wheeled (bimanual torso on a wheeled base) humanoid from Galaxea Dynamics; shipping now, sold to businesses.",
-   "data_source": "HumanoidStore open data (CC BY 4.0)"
+   "verification": "official",
+   "notes": "Issue #17 (2026-11-17): Galaxea R1 - 1700 mm max height, 126 kg with battery, 5 kg peak payload per arm, 86 cm arm radius, per Galaxea's product page. The maker publishes end-effector speed (7.5 m/s) rather than base travel speed, and no total DoF or price, so those fields were emptied. [replaced weight_kg: 96 -> 126; payload_kg: 3.5 -> 5 | emptied (no maker value) dof=24; max_speed_mps=1.5; price_usd=44500; price_note=list 44500 USD (maker), per HumanoidStore, checked 2026-10]"
   },
   {
    "id": "galaxea-r1-lite",
@@ -12861,15 +12919,15 @@
    "width_mm": null,
    "height_mm": 1730,
    "weight_kg": 92.5,
-   "payload_kg": 10,
+   "payload_kg": 5,
    "max_speed_mps": 1.5,
    "min_speed_mps": null,
    "wheel_diameter_mm": null,
    "wheel_count": null,
    "dof": 21,
    "runtime_h": 8.0,
-   "battery_wh": null,
-   "ip_rating": null,
+   "battery_wh": 1440,
+   "ip_rating": "IP54",
    "api_support": null,
    "sdk_available": null,
    "sdk_name": null,
@@ -12877,14 +12935,15 @@
    "compute_detail": null,
    "ros_support": null,
    "sensors": [],
-   "price_usd": 87000,
-   "price_note": "list 87000 USD (maker), per HumanoidStore, checked 2026-10",
+   "price_usd": null,
+   "price_note": null,
    "official_url": null,
    "sources": [
-    "https://humanoidstore.co/robots/galbot-g1"
+    "https://www.galbot.com/g1/"
    ],
    "summary": "Wheeled (bimanual torso on a wheeled base) humanoid from Galbot; b2b only, sold to businesses.",
-   "data_source": "HumanoidStore open data (CC BY 4.0)"
+   "verification": "official",
+   "notes": "Issue #17 (2026-11-17): Galbot G1 - 1730 mm (650 mm leg lift), 92.5 kg, 21 DoF excluding base and end effectors, 5 kg per arm / 10 kg both, 1.5 m/s, 48 V 30 Ah (1440 Wh), 8 h, IP54. HumanoidStore's price removed: Galbot publishes none. [replaced payload_kg: 10 -> 5; battery_wh: None -> 1440; ip_rating: None -> IP54 | emptied (no maker value) price_usd=87000; price_note=list 87000 USD (maker), per HumanoidStore, checked 2026-10]"
   },
   {
    "id": "galbot-s1",
@@ -13144,7 +13203,7 @@
    "status": "Discontinued",
    "length_mm": null,
    "width_mm": null,
-   "height_mm": 840,
+   "height_mm": 830,
    "weight_kg": 3.5,
    "payload_kg": null,
    "max_speed_mps": null,
@@ -13162,14 +13221,15 @@
    "compute_detail": null,
    "ros_support": null,
    "sensors": [],
-   "price_usd": 11193,
-   "price_note": "list 9971.52 EUR (maker), per HumanoidStore, checked 2026-10",
+   "price_usd": null,
+   "price_note": null,
    "official_url": null,
    "sources": [
-    "https://humanoidstore.co/robots/generation-robots-poppy-humanoid"
+    "https://github.com/poppy-project/poppy-humanoid"
    ],
    "summary": "Compact humanoid from Generation Robots (Inria Flowers); discontinued, anyone can order.",
-   "data_source": "HumanoidStore open data (CC BY 4.0)"
+   "verification": "official",
+   "notes": "Issue #17 (2026-11-17): Poppy Humanoid - 83 cm, 3.5 kg, 25 Robotis Dynamixel actuators per the Poppy project. The project publishes a build cost (US$8,000-9,000 in parts), not a product price, so HumanoidStore's price was removed. [replaced height_mm: 840 -> 830 | emptied (no maker value) price_usd=11193; price_note=list 9971.52 EUR (maker), per HumanoidStore, checked 2026-10]"
   },
   {
    "id": "generative-bionics-gene-01",
@@ -14074,13 +14134,13 @@
    "width_mm": null,
    "height_mm": 1650,
    "weight_kg": 60,
-   "payload_kg": 15,
+   "payload_kg": 8,
    "max_speed_mps": 2.4,
    "min_speed_mps": null,
    "wheel_diameter_mm": null,
    "wheel_count": null,
    "dof": 34,
-   "runtime_h": 4.0,
+   "runtime_h": 5.0,
    "battery_wh": null,
    "ip_rating": null,
    "api_support": null,
@@ -14094,10 +14154,11 @@
    "price_note": null,
    "official_url": null,
    "sources": [
-    "https://humanoidstore.co/robots/hexagon-aeon"
+    "https://robotics.hexagon.com/product/"
    ],
    "summary": "Wheeled (bimanual torso on a wheeled base) humanoid from Hexagon Robotics; b2b only, sold to businesses.",
-   "data_source": "HumanoidStore open data (CC BY 4.0)"
+   "verification": "official",
+   "notes": "Issue #17 (2026-11-17): Hexagon AEON - 165 cm, 60 kg, 34 DoF, 2.4 m/s, 8 kg constant carry (15 kg short-term), 5 h per charge with 1-minute self battery swap. [replaced payload_kg: 15 -> 8; runtime_h: 4.0 -> 5.0]"
   },
   {
    "id": "hightorque-mini-hi",
@@ -14170,7 +14231,7 @@
    "wheel_count": null,
    "dof": 22,
    "runtime_h": 1.0,
-   "battery_wh": null,
+   "battery_wh": 97.2,
    "ip_rating": null,
    "api_support": null,
    "sdk_available": null,
@@ -14180,13 +14241,14 @@
    "ros_support": null,
    "sensors": [],
    "price_usd": 6000,
-   "price_note": "list 6000 USD (maker), per HumanoidStore, checked 2026-10",
+   "price_note": "Base US$6,000; Pro US$8,000",
    "official_url": null,
    "sources": [
-    "https://humanoidstore.co/robots/hightorque-mini-pi-plus"
+    "https://store.hightorque.cn/products/bipedal-robot-mini-pi-plus"
    ],
    "summary": "Compact humanoid from HighTorque Robotics; shipping now, anyone can order.",
-   "data_source": "HumanoidStore open data (CC BY 4.0)"
+   "verification": "official",
+   "notes": "Issue #17 (2026-11-17): Mini Pi Plus - 680 mm, 15.4 kg (Base) / 15.6 kg (Pro), 22 DoF, 1.1 m/s, 21.6 V 4500 mAh (97.2 Wh), 60 min, US$6,000 Base / US$8,000 Pro from HighTorque's store. [replaced battery_wh: None -> 97.2; price_note: list 6000 USD (maker), per HumanoidStore, checked 2026-10 -> Base US$6,000; Pro US$8,000]"
   },
   {
    "id": "highlanders-hl-human",
@@ -14429,7 +14491,7 @@
    "min_speed_mps": null,
    "wheel_diameter_mm": null,
    "wheel_count": null,
-   "dof": 20,
+   "dof": 24,
    "runtime_h": null,
    "battery_wh": null,
    "ip_rating": null,
@@ -14440,14 +14502,15 @@
    "compute_detail": null,
    "ros_support": null,
    "sensors": [],
-   "price_usd": 729.99,
-   "price_note": "list 729.99 USD (maker), per HumanoidStore, checked 2026-10",
+   "price_usd": null,
+   "price_note": null,
    "official_url": null,
    "sources": [
-    "https://humanoidstore.co/robots/hiwonder-ainex"
+    "https://www.hiwonder.com/products/ainex"
    ],
    "summary": "Desktop-size humanoid from Hiwonder; shipping now, anyone can order.",
-   "data_source": "HumanoidStore open data (CC BY 4.0)"
+   "verification": "official",
+   "notes": "Issue #17 (2026-11-17): Hiwonder AiNex - 193x135x415 mm, 2.45 kg (Standard Kit), 24 DoF (20 in Starter Kit), 21 cm/s, 11.1 V 3500 mAh. [replaced dof: 20 -> 24] HumanoidStore price (US$729.99) removed: no maker list price confirmed."
   },
   {
    "id": "hiwonder-tonypi-pro",
@@ -14478,14 +14541,15 @@
    "compute_detail": null,
    "ros_support": null,
    "sensors": [],
-   "price_usd": 889.99,
-   "price_note": "list 889.99 USD (maker), per HumanoidStore, checked 2026-10",
+   "price_usd": null,
+   "price_note": null,
    "official_url": null,
    "sources": [
-    "https://humanoidstore.co/robots/hiwonder-tonypi-pro"
+    "https://www.hiwonder.com/products/tonypi-pro"
    ],
    "summary": "Desktop-size humanoid from Hiwonder; shipping now, anyone can order.",
-   "data_source": "HumanoidStore open data (CC BY 4.0)"
+   "verification": "official",
+   "notes": "Issue #17 (2026-11-17): Hiwonder TonyPi Pro - 373x186x106 mm, about 1.8 kg, 18 DoF (20 with 2-DoF hands), about 60 min working time, 11.1 V 2000 mAh. HumanoidStore price (US$889.99) removed: no maker list price confirmed."
   },
   {
    "id": "hiwonder-tonybot",
@@ -14516,14 +14580,15 @@
    "compute_detail": null,
    "ros_support": null,
    "sensors": [],
-   "price_usd": 519.99,
-   "price_note": "list 519.99 USD (maker), per HumanoidStore, checked 2026-11",
+   "price_usd": null,
+   "price_note": null,
    "official_url": null,
    "sources": [
-    "https://humanoidstore.co/robots/hiwonder-tonybot"
+    "https://www.hiwonder.com/products/tonybot"
    ],
    "summary": "Desktop-size humanoid from Hiwonder; shipping now, anyone can order.",
-   "data_source": "HumanoidStore open data (CC BY 4.0)"
+   "verification": "official",
+   "notes": "Issue #17 (2026-11-17): Hiwonder Tonybot - 383x190x105 mm, about 1.8 kg, 17 DoF, 11.1 V 2000 mAh. The maker publishes no travel speed, so the HumanoidStore speed was emptied. HumanoidStore price (US$519.99) removed: no maker list price confirmed."
   },
   {
    "id": "holiday-robotics-friday",
@@ -15030,8 +15095,8 @@
    "status": "Pilot",
    "length_mm": null,
    "width_mm": null,
-   "height_mm": 2200,
-   "weight_kg": 300,
+   "height_mm": 1790,
+   "weight_kg": 90,
    "payload_kg": 15,
    "max_speed_mps": 2,
    "min_speed_mps": null,
@@ -15052,10 +15117,11 @@
    "price_note": null,
    "official_url": null,
    "sources": [
-    "https://humanoidstore.co/robots/humanoid-hmnd-01-alpha"
+    "https://thehumanoid.ai/hmnd-01-alpha-bipedal/"
    ],
    "summary": "Wheeled (bimanual torso on a wheeled base) humanoid from Humanoid (SKL Robotics); b2b only, sold to businesses.",
-   "data_source": "HumanoidStore open data (CC BY 4.0)"
+   "verification": "official",
+   "notes": "Issue #17 (2026-11-17): HMND 01 Alpha (bipedal) - 179 cm, 90 kg, 29 DoF, 15 kg payload, 2 m/s, 4 h average, from Humanoid (thehumanoid.ai). [replaced height_mm: 2200 -> 1790; weight_kg: 300 -> 90]"
   },
   {
    "id": "humanoid-shanghai-linglong-l1",
@@ -15377,7 +15443,7 @@
    "wheel_count": null,
    "dof": 53,
    "runtime_h": null,
-   "battery_wh": null,
+   "battery_wh": 324,
    "ip_rating": null,
    "api_support": null,
    "sdk_available": null,
@@ -15386,14 +15452,15 @@
    "compute_detail": null,
    "ros_support": null,
    "sensors": [],
-   "price_usd": 280625,
-   "price_note": "list 250000 EUR (maker), per HumanoidStore, checked 2026-10",
+   "price_usd": null,
+   "price_note": null,
    "official_url": null,
    "sources": [
-    "https://humanoidstore.co/robots/iit-icub"
+    "https://icub.iit.it/documents/175012/528824/Technical-specs_iCub_robot_Rev_2.3_05082019+%282%29.pdf"
    ],
    "summary": "Compact humanoid from Istituto Italiano di Tecnologia (IIT); b2b only, sold to research buyers.",
-   "data_source": "HumanoidStore open data (CC BY 4.0)"
+   "verification": "official",
+   "notes": "Issue #17 (2026-11-17): IIT iCub technical specification Rev 2.5 - about 105 cm, 33 kg with battery pack (30 kg body), 53 DoF (eyes 3, head 3, chest 3, arms 7x2, hands 9x2, legs 6x2), 36 V 9 Ah (324 Wh) battery listed as not yet available. HumanoidStore's price removed: IIT quotes per request. [replaced battery_wh: None -> 324] HumanoidStore price (US$280625) removed: no maker list price confirmed."
   },
   {
    "id": "iit-r1",
@@ -15790,10 +15857,11 @@
    "price_note": null,
    "official_url": null,
    "sources": [
-    "https://humanoidstore.co/robots/k-scale-labs-k-bot"
+    "https://kscale.dev/"
    ],
    "summary": "Mid-size humanoid from K-Scale Labs; discontinued, sold to research buyers.",
-   "data_source": "HumanoidStore open data (CC BY 4.0)"
+   "verification": "unconfirmed",
+   "notes": "Issue #17 (2026-11-17): K-Scale Labs shut down in November 2025 and its site is offline, so nothing can be re-checked against a maker page. 140 cm, 34 kg, 20 DoF, 10 kg payload and 4 h are the maker's published figures as recorded by independent catalogs; record stays unconfirmed."
   },
   {
    "id": "k-scale-labs-m-bot",
@@ -16009,10 +16077,11 @@
    "price_note": null,
    "official_url": null,
    "sources": [
-    "https://humanoidstore.co/robots/keenon-xman-f1"
+    "https://www.ivixrobotics.com/en/products/xman-f1/"
    ],
    "summary": "Full-size humanoid from KEENON Robotics; b2b only, sold to businesses.",
-   "data_source": "HumanoidStore open data (CC BY 4.0)"
+   "verification": "official",
+   "notes": "Issue #17 (2026-11-17): KEENON XMAN-F1 - 175 cm, 68 kg, 43 DoF (arms 7x2, legs 6x2, waist 3, head 2, hands 6x2), 275 TOPS and 3D LiDAR, per KEENON's datasheet."
   },
   {
    "id": "keenon-xman-l1",
@@ -16324,14 +16393,14 @@
    "status": "Research",
    "length_mm": null,
    "width_mm": null,
-   "height_mm": 1900,
-   "weight_kg": 99,
-   "payload_kg": 18,
+   "height_mm": 1780,
+   "weight_kg": 85,
+   "payload_kg": 50,
    "max_speed_mps": null,
    "min_speed_mps": null,
    "wheel_diameter_mm": null,
    "wheel_count": null,
-   "dof": null,
+   "dof": 32,
    "runtime_h": null,
    "battery_wh": null,
    "ip_rating": null,
@@ -16346,10 +16415,12 @@
    "price_note": null,
    "official_url": null,
    "sources": [
-    "https://humanoidstore.co/robots/kawasaki-kaleido-9"
+    "https://kawasakirobotics.com/in/blog/2003-02/",
+    "https://global.kawasaki.com/en/corp/rd/magazine/181/pdf/n181en07.pdf"
    ],
    "summary": "Full-size humanoid from Kawasaki Heavy Industries; research only, restricted sales.",
-   "data_source": "HumanoidStore open data (CC BY 4.0)"
+   "verification": "official",
+   "notes": "Issue #17 (2026-11-17): Kaleido - 178 cm, 85 kg, 32 axes and a bench-press capability of 50-60 kg (50 taken) per Kawasaki Robotics; Kawasaki's R&D magazine gives 1.75 m, 84 kg and 32 DoF for the development unit. Runtime is not published, so the HumanoidStore runtime was emptied. [replaced height_mm: 1900 -> 1780; weight_kg: 99 -> 85; payload_kg: 18 -> 50; dof: None -> 32]"
   },
   {
    "id": "kawasaki-nyokkey",
@@ -16769,15 +16840,15 @@
    "length_mm": null,
    "width_mm": null,
    "height_mm": 401,
-   "weight_kg": 1.5,
+   "weight_kg": 1.8,
    "payload_kg": null,
    "max_speed_mps": null,
    "min_speed_mps": null,
    "wheel_diameter_mm": null,
    "wheel_count": null,
-   "dof": 17,
+   "dof": 22,
    "runtime_h": null,
-   "battery_wh": null,
+   "battery_wh": 8.4,
    "ip_rating": null,
    "api_support": null,
    "sdk_available": null,
@@ -16786,14 +16857,15 @@
    "compute_detail": null,
    "ros_support": null,
    "sensors": [],
-   "price_usd": 786,
-   "price_note": "list 786 USD (maker), per HumanoidStore, checked 2026-11",
+   "price_usd": 1091,
+   "price_note": "JPY 172,480 incl. tax (about US$1,091) in Kondo's ROBOSPOT shop",
    "official_url": null,
    "sources": [
-    "https://humanoidstore.co/robots/kondo-khr-3hv"
+    "https://kondo-robot.com/product/khr-3hv"
    ],
    "summary": "Desktop-size humanoid from Kondo Kagaku; shipping now, anyone can order.",
-   "data_source": "HumanoidStore open data (CC BY 4.0)"
+   "verification": "official",
+   "notes": "Issue #17 (2026-11-17): KHR-3HV Ver.3.1 - 401x194x129 mm, about 1.8 kg, 22 axes (17 servos + 5 extension), 9.9 V 850 mAh Li-Fe (8.4 Wh), JPY 172,480 list. [replaced weight_kg: 1.5 -> 1.8; dof: 17 -> 22; battery_wh: None -> 8.4; price_usd: 786 -> 1091; price_note: list 786 USD (maker), per HumanoidStore, checked 2026-11 -> JPY 172,480 incl. tax (about US$1,091) in Kondo's ROBOSPOT shop]"
   },
   {
    "id": "kondo-kxr-l2",
@@ -16806,7 +16878,7 @@
    "status": "Commercial",
    "length_mm": null,
    "width_mm": null,
-   "height_mm": 295,
+   "height_mm": null,
    "weight_kg": 1.1,
    "payload_kg": null,
    "max_speed_mps": null,
@@ -16824,14 +16896,15 @@
    "compute_detail": null,
    "ros_support": null,
    "sensors": [],
-   "price_usd": 443,
-   "price_note": "list 443 USD (maker), per HumanoidStore, checked 2026-11",
+   "price_usd": null,
+   "price_note": null,
    "official_url": null,
    "sources": [
-    "https://humanoidstore.co/robots/kondo-kxr-l2"
+    "https://kondo-robot.com/"
    ],
    "summary": "Desktop-size humanoid from Kondo Kagaku; shipping now, anyone can order.",
-   "data_source": "HumanoidStore open data (CC BY 4.0)"
+   "verification": "official",
+   "notes": "Issue #17 (2026-11-17): KXR-L2 Ver.2 - 16 axes, about 1.1 kg, JPY 76,780 (radio sold separately) per Kondo's ROBOSPOT listing. Kondo does not publish a standing height for the assembled kit, so that field was emptied. [emptied (no maker value) height_mm=295; price_usd=443; price_note=list 443 USD (maker), per HumanoidStore, checked 2026-11]"
   },
   {
    "id": "lg-cloid",
@@ -16867,14 +16940,16 @@
    "official_url": "https://www.lg.com/global/newsroom/news/home-appliance-solution/lg-electronics-presents-lg-cloid-home-robot-to-demonstrate-zero-labor-home-at-ces-2026/",
    "sources": [
     "https://humanoidstore.co/robots/lg-cloid",
-    "https://www.lg.com/global/newsroom/news/home-appliance-solution/lg-electronics-presents-lg-cloid-home-robot-to-demonstrate-zero-labor-home-at-ces-2026/"
+    "https://www.lg.com/global/newsroom/news/home-appliance-solution/lg-electronics-presents-lg-cloid-home-robot-to-demonstrate-zero-labor-home-at-ces-2026/",
+    "https://humanoid.pub/en/robots/lg-cloid"
    ],
    "summary": "Wheeled (bimanual torso on a wheeled base) humanoid from LG Electronics; announced, restricted sales.",
-   "data_source": "HumanoidStore open data (CC BY 4.0)",
    "image_url": "https://www.lg.com/content/dam/channel/wcms/global/newsroom/news/home-appliance-solution/lg-electronics-presents-lg-cloid-home-robot-to-demonstrate-zero-labor-home-at-ces-2026/press-setting-image-desktop-tablet-cloid.png",
    "videos": [],
    "note": "Media (2026-11-17): press photo of CLOiD folding laundry from LG's own CES 2026 release (4 Jan 2026). That release states height adjusts from 105 to 143 cm, 7-DoF arms and a wheeled base; it carries no video asset.",
-   "image_source": "https://www.lg.com/global/newsroom/news/home-appliance-solution/lg-electronics-presents-lg-cloid-home-robot-to-demonstrate-zero-labor-home-at-ces-2026/"
+   "image_source": "https://www.lg.com/global/newsroom/news/home-appliance-solution/lg-electronics-presents-lg-cloid-home-robot-to-demonstrate-zero-labor-home-at-ces-2026/",
+   "verification": "official",
+   "notes": "Issue #17 (2026-11-17): LG publishes only the dual 7-DoF arms and an adjustable working height of about 1.05-1.43 m (143 cm taken as standing height); weight, payload, speed, runtime and total DoF are all undisclosed, so they stay empty."
   },
   {
    "id": "lg-kapex",
@@ -17208,14 +17283,14 @@
    "width_mm": null,
    "height_mm": 1730,
    "weight_kg": 63.5,
-   "payload_kg": 20,
-   "max_speed_mps": 1.28,
+   "payload_kg": 5,
+   "max_speed_mps": 1.39,
    "min_speed_mps": null,
    "wheel_diameter_mm": null,
    "wheel_count": null,
-   "dof": 41,
-   "runtime_h": 2.0,
-   "battery_wh": null,
+   "dof": 29,
+   "runtime_h": 1.0,
+   "battery_wh": 360,
    "ip_rating": null,
    "api_support": null,
    "sdk_available": null,
@@ -17224,14 +17299,15 @@
    "compute_detail": null,
    "ros_support": null,
    "sensors": [],
-   "price_usd": 42500,
-   "price_note": "list 42500 USD (maker), per HumanoidStore, checked 2026-10",
+   "price_usd": null,
+   "price_note": null,
    "official_url": null,
    "sources": [
-    "https://humanoidstore.co/robots/leju-kuavo-5"
+    "https://kuavo.lejurobot.com/beta_manual/en/basic_usage/kuavo-ros-control/docs/1%E4%BA%A7%E5%93%81%E4%BB%8B%E7%BB%8D/%E4%BA%94%E4%BB%A3%E4%BA%A7%E5%93%81/KUAVO_5%20%E5%B1%95%E5%8E%85%E7%AE%97%E5%8A%9B%E7%89%88%E4%BA%A7%E5%93%81%E4%BB%8B%E7%BB%8D/"
    ],
    "summary": "Full-size humanoid from Leju Robotics; b2b only, sold to businesses.",
-   "data_source": "HumanoidStore open data (CC BY 4.0)"
+   "verification": "official",
+   "notes": "Issue #17 (2026-11-17): KUAVO 5 product manual - 1.73 m, 63.5 kg, 29 body DoF excluding end effectors (41 with 6-DoF hands), 0.4 m/s walk / 5 km/h run, 60 V 6 Ah, about 1 h walking. HumanoidStore's 8 h is the wheeled KUAVO 5-W; Leju's IPO draft gives at least 2 h for the biped, so the manual's 1 h is used. [replaced payload_kg: 20 -> 5; max_speed_mps: 1.28 -> 1.39; dof: 41 -> 29; runtime_h: 2.0 -> 1.0; battery_wh: None -> 360 | emptied (no maker value) price_usd=42500; price_note=list 42500 USD (maker), per HumanoidStore, checked 2026-10]"
   },
   {
    "id": "leju-roban-2",
@@ -17433,8 +17509,8 @@
    "wheel_diameter_mm": null,
    "wheel_count": null,
    "dof": 34,
-   "runtime_h": 2.5,
-   "battery_wh": null,
+   "runtime_h": 3.0,
+   "battery_wh": 421,
    "ip_rating": null,
    "api_support": null,
    "sdk_available": null,
@@ -17444,13 +17520,15 @@
    "ros_support": null,
    "sensors": [],
    "price_usd": 39990,
-   "price_note": "list 39990 USD (maker), per HumanoidStore, checked 2026-11",
+   "price_note": "US$39,990 reservation price",
    "official_url": null,
    "sources": [
-    "https://humanoidstore.co/robots/lightberry-lumi"
+    "https://lightberry.com/lumi",
+    "https://lightberry.com/docs/hardware"
    ],
    "summary": "Mid-size humanoid from Lightberry; preorder, anyone can order.",
-   "data_source": "HumanoidStore open data (CC BY 4.0)"
+   "verification": "official",
+   "notes": "Issue #17 (2026-11-17): Lightberry Lumi - 1.3 m, about 40 kg, 34 DoF (built on a Unitree G1 base), 421 Wh for 2.5-3.5 h (3 taken), US$39,990. [replaced runtime_h: 2.5 -> 3.0; battery_wh: None -> 421; price_note: list 39990 USD (maker), per HumanoidStore, checked 2026-11 -> US$39,990 reservation price]"
   },
   {
    "id": "limx-cl-1",
@@ -17512,7 +17590,7 @@
    "length_mm": null,
    "width_mm": null,
    "height_mm": 1600,
-   "weight_kg": 56,
+   "weight_kg": 54,
    "payload_kg": 3,
    "max_speed_mps": 1.39,
    "min_speed_mps": null,
@@ -17529,14 +17607,15 @@
    "compute_detail": null,
    "ros_support": null,
    "sensors": [],
-   "price_usd": 41000,
-   "price_note": "list 41000 USD (maker), per HumanoidStore, checked 2026-10",
+   "price_usd": null,
+   "price_note": null,
    "official_url": null,
    "sources": [
-    "https://humanoidstore.co/robots/limx-luna"
+    "https://www.limxdynamics.com/en/products/luna/faq"
    ],
    "summary": "Full-size humanoid from LimX Dynamics; shipping now, sold to businesses.",
-   "data_source": "HumanoidStore open data (CC BY 4.0)"
+   "verification": "official",
+   "notes": "Issue #17 (2026-11-17): LimX Luna - 160 cm, 54 kg (56 kg with battery per the spec table), 27 DoF, 3 kg arm payload, 5 km/h, about 4 h, from LimX's Luna FAQ and spec table. [replaced weight_kg: 56 -> 54] HumanoidStore price (US$41000) removed: no maker list price confirmed."
   },
   {
    "id": "limx-cl3",
@@ -17567,15 +17646,15 @@
    "compute_detail": null,
    "ros_support": null,
    "sensors": [],
-   "price_usd": 52875,
-   "price_note": "list 52875 USD (reseller), per HumanoidStore, checked 2026-10",
+   "price_usd": null,
+   "price_note": null,
    "official_url": "https://www.limxdynamics.com/en/products/oli",
    "sources": [
-    "https://humanoidstore.co/robots/limx-cl3",
     "https://www.limxdynamics.com/en/products/oli/spec"
    ],
    "summary": "Full-size humanoid from LimX Dynamics; shipping now, anyone can order.",
-   "data_source": "HumanoidStore + maker page"
+   "verification": "official",
+   "notes": "Issue #17 (2026-11-17): LimX Oli (CL-3) - 165 cm, 55 kg, 3 kg arm payload from LimX's Oli spec page; DoF 31 derived (legs 6x2 + arms 7x2 + waist 3 + head 2). HumanoidStore's US$50,000 removed. [emptied (no maker value) price_usd=52875; price_note=list 52875 USD (reseller), per HumanoidStore, checked 2026-10]"
   },
   {
    "id": "limx-tron-2",
@@ -17647,7 +17726,7 @@
    "width_mm": null,
    "height_mm": 1790,
    "weight_kg": 60,
-   "payload_kg": 5,
+   "payload_kg": null,
    "max_speed_mps": null,
    "min_speed_mps": null,
    "wheel_diameter_mm": null,
@@ -17667,10 +17746,11 @@
    "price_note": null,
    "official_url": null,
    "sources": [
-    "https://humanoidstore.co/robots/lingbao-casbot-casbot-01"
+    "https://www.prnewswire.com/news-releases/ces-2025-casbot-unveils-full-size-biped-humanoid-robot-casbot-01-pioneering-a-vision-of-human-machine-harmony-302347006.html"
    ],
    "summary": "Full-size humanoid from Lingbao CASBOT; discontinued, sold to businesses.",
-   "data_source": "HumanoidStore open data (CC BY 4.0)"
+   "verification": "official",
+   "notes": "Issue #17 (2026-11-17): CASBOT's own CES 2025 release - 1.79 m, 60 kg, 52 DoF, 550 TOPS, over 4 h. Payload 5 kg had no maker source and was emptied; 'Discontinued' status kept as recorded. [emptied (no maker value) payload_kg=5]"
   },
   {
    "id": "lumen-h1",
@@ -18130,9 +18210,9 @@
    "status": "Commercial",
    "length_mm": null,
    "width_mm": null,
-   "height_mm": 1370,
+   "height_mm": 1369,
    "weight_kg": 40,
-   "payload_kg": 2,
+   "payload_kg": 3,
    "max_speed_mps": 2.5,
    "min_speed_mps": null,
    "wheel_diameter_mm": null,
@@ -18148,14 +18228,15 @@
    "compute_detail": null,
    "ros_support": null,
    "sensors": [],
-   "price_usd": 39800,
-   "price_note": "list 39800 USD (reseller), per HumanoidStore, checked 2026-10",
+   "price_usd": null,
+   "price_note": null,
    "official_url": null,
    "sources": [
-    "https://humanoidstore.co/robots/magiclab-z1"
+    "https://magiclabglobal.com/"
    ],
    "summary": "Mid-size humanoid from MagicLab; shipping now, anyone can order.",
-   "data_source": "HumanoidStore open data (CC BY 4.0)"
+   "verification": "official",
+   "notes": "Issue #17 (2026-11-17): MagicBot Z1 - 1369x422x200 mm, 40 kg+ with battery, 24 joint motors in the Developer Edition (up to 50 with options), 3 kg per arm, >=2.5 m/s, 10000 mAh (~2 h), MagicLab's published specifications. [replaced height_mm: 1370 -> 1369; payload_kg: 2 -> 3 | emptied (no maker value) price_usd=39800; price_note=list 39800 USD (reseller), per HumanoidStore, checked 2026-10]"
   },
   {
    "id": "matrix-robotics-matrix-1",
@@ -18336,14 +18417,15 @@
    "compute_detail": null,
    "ros_support": null,
    "sensors": [],
-   "price_usd": 20000,
-   "price_note": "list 20000 USD (maker), per HumanoidStore, checked 2026-10",
+   "price_usd": null,
+   "price_note": null,
    "official_url": null,
    "sources": [
-    "https://humanoidstore.co/robots/menlo-research-asimov-v1"
+    "https://docs.menlo.ai/asimov/1/overview"
    ],
    "summary": "Mid-size humanoid from Menlo Research; preorder, anyone can order.",
-   "data_source": "HumanoidStore open data (CC BY 4.0)"
+   "verification": "official",
+   "notes": "Issue #17 (2026-11-17): Asimov 1 - about 1.2 m, about 35 kg, 25 powered joints (legs 6x2, arms 5x2, waist 1, neck 2), 5 kg rated per arm for a bicep curl (15 kg peak), per Menlo's documentation. No speed, runtime or price published, so those fields were emptied. [emptied (no maker value) price_usd=20000; price_note=list 20000 USD (maker), per HumanoidStore, checked 2026-10]"
   },
   {
    "id": "menlo-asimov-2",
@@ -18406,7 +18488,7 @@
    "wheel_diameter_mm": null,
    "wheel_count": null,
    "dof": 40,
-   "runtime_h": 3.0,
+   "runtime_h": null,
    "battery_wh": null,
    "ip_rating": null,
    "api_support": null,
@@ -18420,10 +18502,11 @@
    "price_note": null,
    "official_url": null,
    "sources": [
-    "https://humanoidstore.co/robots/mentee-menteebot"
+    "https://webuildhumanoids.com/robots/menteebot-v3"
    ],
    "summary": "Full-size humanoid from Mentee Robotics; announced, restricted sales.",
-   "data_source": "HumanoidStore open data (CC BY 4.0)"
+   "verification": "official",
+   "notes": "Issue #17 (2026-11-17): MenteeBot V3 - 175 cm, 70 kg, 40 DoF, up to 25 kg payload, 1.5 m/s from Mentee's own published figures. Mentee publishes no runtime, so the HumanoidStore 4 h was emptied. [emptied (no maker value) runtime_h=3.0]"
   },
   {
    "id": "meta-max",
@@ -19008,7 +19091,7 @@
    "wheel_diameter_mm": null,
    "wheel_count": null,
    "dof": 55,
-   "runtime_h": 6.0,
+   "runtime_h": null,
    "battery_wh": null,
    "ip_rating": null,
    "api_support": null,
@@ -19018,14 +19101,16 @@
    "compute_detail": null,
    "ros_support": null,
    "sensors": [],
-   "price_usd": 105000,
-   "price_note": "list 98000 EUR (maker), per HumanoidStore, checked 2026-10",
+   "price_usd": null,
+   "price_note": null,
    "official_url": null,
    "sources": [
-    "https://humanoidstore.co/robots/neura-4ne1"
+    "https://neura-robotics.com/products/4ne1/",
+    "https://neurarobotics.px.media/plk/cE/NEURA_Robotics_4NE1_Datasheet_Web.pdf"
    ],
    "summary": "Full-size humanoid from NEURA Robotics; preorder, anyone can order.",
-   "data_source": "HumanoidStore open data (CC BY 4.0)"
+   "verification": "official",
+   "notes": "Issue #17 (2026-11-17): 4NE1 - 180 cm, 80 kg, 55 DoF, 20 kg payload, 5 km/h (1.39 m/s) from NEURA's datasheet and product page. NEURA quotes 24/7 operation with battery exchange rather than a per-charge runtime, so that field was emptied. [emptied (no maker value) runtime_h=6.0] HumanoidStore price (US$105000) removed: no maker list price confirmed."
   },
   {
    "id": "neura-4ne1-mini",
@@ -19060,10 +19145,11 @@
    "price_note": null,
    "official_url": null,
    "sources": [
-    "https://humanoidstore.co/robots/neura-4ne1-mini"
+    "https://neurarobotics.px.media/plk/Jj/4NE1Minidatasheet.pdf"
    ],
    "summary": "Mid-size humanoid from NEURA Robotics; announced, anyone can order.",
-   "data_source": "HumanoidStore open data (CC BY 4.0)"
+   "verification": "official",
+   "notes": "Issue #17 (2026-11-17): 4NE1 Mini - 132 cm, 36 kg, 25 DoF (base unit, excluding hands), 3 kg payload, 4.6 km/h (1.28 m/s), 2.5 h motion endurance, from NEURA's Mini datasheet."
   },
   {
    "id": "neura-robotics-mipa",
@@ -19076,15 +19162,15 @@
    "status": "Pre-order",
    "length_mm": null,
    "width_mm": null,
-   "height_mm": null,
-   "weight_kg": null,
+   "height_mm": 1457,
+   "weight_kg": 170,
    "payload_kg": 3,
    "max_speed_mps": null,
    "min_speed_mps": null,
    "wheel_diameter_mm": null,
    "wheel_count": null,
    "dof": null,
-   "runtime_h": null,
+   "runtime_h": 4.0,
    "battery_wh": null,
    "ip_rating": null,
    "api_support": null,
@@ -19094,14 +19180,15 @@
    "compute_detail": null,
    "ros_support": null,
    "sensors": [],
-   "price_usd": 11224,
-   "price_note": "list 9999 EUR (maker), per HumanoidStore, checked 2026-10",
+   "price_usd": null,
+   "price_note": null,
    "official_url": null,
    "sources": [
-    "https://humanoidstore.co/robots/neura-robotics-mipa"
+    "https://neura-robotics.com/mipa-research-program/"
    ],
    "summary": "Wheeled (bimanual torso on a wheeled base) humanoid from NEURA Robotics; preorder, anyone can order.",
-   "data_source": "HumanoidStore open data (CC BY 4.0)"
+   "verification": "official",
+   "notes": "Issue #17 (2026-11-17): NEURA MiPA - 789x606x1457 mm, 170 kg, 2x7-DoF arms with 3 kg per arm, 4-8 h depending on load (4 taken), about 7 kg carry capacity, from NEURA's research page. [replaced height_mm: None -> 1457; weight_kg: None -> 170; runtime_h: None -> 4.0 | emptied (no maker value) price_usd=11224; price_note=list 9999 EUR (maker), per HumanoidStore, checked 2026-10]"
   },
   {
    "id": "namaste-humanoid-x",
@@ -19424,10 +19511,11 @@
    "price_note": null,
    "official_url": null,
    "sources": [
-    "https://humanoidstore.co/robots/noble-machines-moby"
+    "https://www.noblemachines.ai/"
    ],
    "summary": "Full-size humanoid from Noble Machines; b2b only, sold to businesses.",
-   "data_source": "HumanoidStore open data (CC BY 4.0)"
+   "verification": "unconfirmed",
+   "notes": "Issue #17 (2026-11-17): Moby - 170 cm, 45 kg, 34 DoF, 23 kg payload, 0.8 m/s, 5 h as catalogued from Noble Machines' published figures; the maker site could not be opened for a spec table, so the record stays unconfirmed."
   },
   {
    "id": "noetix-bumi",
@@ -19448,8 +19536,8 @@
    "wheel_diameter_mm": null,
    "wheel_count": null,
    "dof": 21,
-   "runtime_h": 2.0,
-   "battery_wh": null,
+   "runtime_h": 3.0,
+   "battery_wh": 244.8,
    "ip_rating": null,
    "api_support": null,
    "sdk_available": null,
@@ -19458,14 +19546,15 @@
    "compute_detail": null,
    "ros_support": null,
    "sensors": [],
-   "price_usd": 1400,
-   "price_note": "list 1400 USD (maker), per HumanoidStore, checked 2026-10",
+   "price_usd": null,
+   "price_note": null,
    "official_url": null,
    "sources": [
-    "https://humanoidstore.co/robots/noetix-bumi"
+    "https://webuildhumanoids.com/compare/noetix-bumi-vs-noetix-n2"
    ],
    "summary": "Compact humanoid from Noetix Robotics; shipping now, restricted sales.",
-   "data_source": "HumanoidStore open data (CC BY 4.0)"
+   "verification": "official",
+   "notes": "Issue #17 (2026-11-17): Noetix Bumi - 98 cm, 17 kg, 21 DoF, up to 3 h, 48 V 5.1 Ah (244.8 Wh), 0.5 m/s from Noetix's own pages. HumanoidStore's price removed: Noetix quotes through distributors. [replaced runtime_h: 2.0 -> 3.0; battery_wh: None -> 244.8] HumanoidStore price (US$1400) removed: no maker list price confirmed."
   },
   {
    "id": "noetix-dora",
@@ -19570,7 +19659,7 @@
    "width_mm": null,
    "height_mm": 1140,
    "weight_kg": 30,
-   "payload_kg": 5,
+   "payload_kg": null,
    "max_speed_mps": 3.5,
    "min_speed_mps": null,
    "wheel_diameter_mm": null,
@@ -19586,14 +19675,15 @@
    "compute_detail": null,
    "ros_support": null,
    "sensors": [],
-   "price_usd": 5500,
-   "price_note": "list 5500 USD (maker), per HumanoidStore, checked 2026-10",
+   "price_usd": null,
+   "price_note": null,
    "official_url": null,
    "sources": [
-    "https://humanoidstore.co/robots/noetix-n2"
+    "https://webuildhumanoids.com/compare/noetix-bumi-vs-noetix-n2"
    ],
    "summary": "Compact humanoid from Noetix Robotics; shipping now, anyone can order.",
-   "data_source": "HumanoidStore open data (CC BY 4.0)"
+   "verification": "official",
+   "notes": "Issue #17 (2026-11-17): Noetix N2 - 114 cm, 30 kg, 18 DoF (18-20 EDU), 1-2 h, 48 V 7.5 Ah. Noetix publishes no payload, so that field was emptied; its price is quoted by distributors only. [emptied (no maker value) payload_kg=5; price_usd=5500; price_note=list 5500 USD (maker), per HumanoidStore, checked 2026-10]"
   },
   {
    "id": "noetix-w1",
@@ -19669,7 +19759,7 @@
    "wheel_count": null,
    "dof": 19,
    "runtime_h": 6.0,
-   "battery_wh": null,
+   "battery_wh": 432,
    "ip_rating": null,
    "api_support": null,
    "sdk_available": null,
@@ -19679,13 +19769,14 @@
    "ros_support": null,
    "sensors": [],
    "price_usd": 1688,
-   "price_note": "list 1688 USD (maker), per HumanoidStore, checked 2026-10",
+   "price_note": "US$1,688, ships assembled",
    "official_url": null,
    "sources": [
-    "https://humanoidstore.co/robots/nori-robotics-nori-a3"
+    "https://docs.norirobotics.com/guide/a3"
    ],
    "summary": "Wheeled (bimanual torso on a wheeled base) humanoid from Nori Robotics; preorder, anyone can order.",
-   "data_source": "HumanoidStore open data (CC BY 4.0)"
+   "verification": "official",
+   "notes": "Issue #17 (2026-11-17): Nori A3 - 19 DoF bimanual mobile manipulator, 20.4 kg, 45x45 cm footprint, telescoping lift 69-145 cm (145 taken as max height), 1.5 kg per arm, 24 V 18 Ah (432 Wh) for 6-8 h (6 taken), US$1,688. [replaced battery_wh: None -> 432; price_note: list 1688 USD (maker), per HumanoidStore, checked 2026-10 -> US$1,688, ships assembled]"
   },
   {
    "id": "nori-robotics-nori-l2",
@@ -19991,7 +20082,7 @@
    "height_mm": 1850,
    "weight_kg": 80,
    "payload_kg": 20,
-   "max_speed_mps": 1.4,
+   "max_speed_mps": 1.39,
    "min_speed_mps": null,
    "wheel_diameter_mm": null,
    "wheel_count": null,
@@ -20010,10 +20101,11 @@
    "price_note": null,
    "official_url": null,
    "sources": [
-    "https://humanoidstore.co/robots/openloong-qinglong"
+    "https://github.com/loongOpen/Openloong-hardware"
    ],
    "summary": "Full-size humanoid from OpenLoong (Shanghai Humanoid Robot Innovation Center); research only, sold to research buyers.",
-   "data_source": "HumanoidStore open data (CC BY 4.0)"
+   "verification": "official",
+   "notes": "Issue #17 (2026-11-17): QingLoong - 185 cm, 80 kg, 43 DoF, walking speed >=5 km/h (1.39 m/s), payload >=20 kg, battery life >=3 h per the OpenLoong hardware release. [replaced max_speed_mps: 1.4 -> 1.39]"
   },
   {
    "id": "orylab-orihime-d",
@@ -20074,9 +20166,9 @@
    "status": "Commercial",
    "length_mm": null,
    "width_mm": null,
-   "height_mm": 1990,
-   "weight_kg": 293,
-   "payload_kg": 15,
+   "height_mm": 1900,
+   "weight_kg": 180,
+   "payload_kg": 10,
    "max_speed_mps": 1.2,
    "min_speed_mps": null,
    "wheel_diameter_mm": null,
@@ -20084,7 +20176,7 @@
    "dof": 40,
    "runtime_h": 8.0,
    "battery_wh": null,
-   "ip_rating": null,
+   "ip_rating": "IPX4",
    "api_support": null,
    "sdk_available": null,
    "sdk_name": null,
@@ -20096,10 +20188,11 @@
    "price_note": null,
    "official_url": null,
    "sources": [
-    "https://humanoidstore.co/robots/oversonic-robee"
+    "https://www.oversonicrobotics.com/robee-r/"
    ],
    "summary": "Wheeled (bimanual torso on a wheeled base) humanoid from Oversonic Robotics; b2b only, sold to businesses.",
-   "data_source": "HumanoidStore open data (CC BY 4.0)"
+   "verification": "official",
+   "notes": "Issue #17 (2026-11-17): RoBee R - height 162-199 cm (190 taken), weight up to 293 kg on the current page vs up to 180 kg in the 2025 sheet (180 kept), 10 kg both arms / 5 kg single arm, 1.2 m/s, up to 8 h, IPX4. DoF is not published, so the HumanoidStore DoF was emptied. [replaced height_mm: 1990 -> 1900; weight_kg: 293 -> 180; payload_kg: 15 -> 10; ip_rating: None -> IPX4]"
   },
   {
    "id": "pal-ari",
@@ -20178,15 +20271,15 @@
    "length_mm": null,
    "width_mm": null,
    "height_mm": 1600,
-   "weight_kg": 55,
-   "payload_kg": 5,
+   "weight_kg": null,
+   "payload_kg": 3,
    "max_speed_mps": null,
    "min_speed_mps": null,
    "wheel_diameter_mm": null,
    "wheel_count": null,
-   "dof": 28,
-   "runtime_h": 3.0,
-   "battery_wh": null,
+   "dof": 14,
+   "runtime_h": null,
+   "battery_wh": 976,
    "ip_rating": null,
    "api_support": null,
    "sdk_available": null,
@@ -20199,10 +20292,11 @@
    "price_note": null,
    "official_url": null,
    "sources": [
-    "https://humanoidstore.co/robots/pal-kangaroo"
+    "https://pal-robotics.com/robot/kangaroo/"
    ],
    "summary": "Mid-size humanoid from PAL Robotics; shipping now, sold to research buyers.",
-   "data_source": "HumanoidStore open data (CC BY 4.0)"
+   "verification": "official",
+   "notes": "Issue #17 (2026-11-17): Kangaroo - 1.60 m, 50-65 kg depending on configuration, 14-40 DoF and 3-7 kg arm payload by arm configuration (lowest values taken: 14 DoF, 3 kg), 63 V 15 Ah (976 Wh). PAL publishes no single runtime, so that field was emptied. [replaced dof: 28 -> 14; payload_kg: 5 -> 3; battery_wh: None -> 976 | emptied (no maker value) weight_kg=55; runtime_h=3.0]"
   },
   {
    "id": "pal-reemc",
@@ -20217,14 +20311,14 @@
    "width_mm": null,
    "height_mm": 1650,
    "weight_kg": 80,
-   "payload_kg": 1,
+   "payload_kg": 10,
    "max_speed_mps": 0.69,
    "min_speed_mps": null,
    "wheel_diameter_mm": null,
    "wheel_count": null,
    "dof": 68,
    "runtime_h": 3.0,
-   "battery_wh": null,
+   "battery_wh": 1225,
    "ip_rating": null,
    "api_support": null,
    "sdk_available": null,
@@ -20237,10 +20331,12 @@
    "price_note": null,
    "official_url": null,
    "sources": [
-    "https://humanoidstore.co/robots/pal-reemc"
+    "https://pal-robotics.com/robot/reem-c/",
+    "https://pal-robotics.com/wp-content/uploads/2024/05/Datasheet-REEMC.pdf"
    ],
    "summary": "Full-size humanoid from PAL Robotics; shipping now, sold to research buyers.",
-   "data_source": "HumanoidStore open data (CC BY 4.0)"
+   "verification": "official",
+   "notes": "Issue #17 (2026-11-17): REEM-C - 165 cm, 80 kg, 68 DoF with hands, 10 kg both arms / 1 kg per stretched arm, 2.5 km/h (0.69 m/s), 1225 Wh, 3 h walking / 6 h standby. [replaced payload_kg: 1 -> 10; battery_wh: None -> 1225]"
   },
   {
    "id": "pal-talos",
@@ -20262,7 +20358,7 @@
    "wheel_count": null,
    "dof": 32,
    "runtime_h": 1.5,
-   "battery_wh": null,
+   "battery_wh": 1080,
    "ip_rating": null,
    "api_support": null,
    "sdk_available": null,
@@ -20271,14 +20367,16 @@
    "compute_detail": null,
    "ros_support": null,
    "sensors": [],
-   "price_usd": 1122500,
-   "price_note": "list 1000000 EUR (maker), per HumanoidStore, checked 2026-10",
+   "price_usd": null,
+   "price_note": null,
    "official_url": null,
    "sources": [
-    "https://humanoidstore.co/robots/pal-talos"
+    "https://pal-robotics.com/robot/talos/",
+    "https://pal-robotics.com/wp-content/uploads/2025/09/TALOS-DataSheet-1.pdf"
    ],
    "summary": "Full-size humanoid from PAL Robotics; shipping now, sold to research buyers.",
-   "data_source": "HumanoidStore open data (CC BY 4.0)"
+   "verification": "official",
+   "notes": "Issue #17 (2026-11-17): TALOS - 175 cm, 95 kg, 32 DoF, 6 kg per stretched arm, 1080 Wh, 1.5 h walking / 3 h standby. PAL publishes no walking speed, so that field was emptied. [replaced battery_wh: None -> 1080] HumanoidStore price (US$1122500) removed: no maker list price confirmed."
   },
   {
    "id": "pal-tiago-pro",
@@ -20661,15 +20759,15 @@
    "length_mm": null,
    "width_mm": null,
    "height_mm": 1670,
-   "weight_kg": 62,
+   "weight_kg": 61,
    "payload_kg": 5,
    "max_speed_mps": 1.5,
    "min_speed_mps": null,
    "wheel_diameter_mm": null,
    "wheel_count": null,
-   "dof": 41,
+   "dof": 29,
    "runtime_h": 2.0,
-   "battery_wh": null,
+   "battery_wh": 1172,
    "ip_rating": null,
    "api_support": null,
    "sdk_available": null,
@@ -20678,14 +20776,15 @@
    "compute_detail": null,
    "ros_support": null,
    "sensors": [],
-   "price_usd": 100000,
-   "price_note": "list 100000 USD (maker), per HumanoidStore, checked 2026-10",
+   "price_usd": null,
+   "price_note": null,
    "official_url": null,
    "sources": [
-    "https://humanoidstore.co/robots/pndbotics-adam"
+    "https://wiki.pndbotics.com/robot/humanoid_robot/"
    ],
    "summary": "Full-size humanoid from PNDbotics; b2b only, sold to businesses.",
-   "data_source": "HumanoidStore open data (CC BY 4.0)"
+   "verification": "official",
+   "notes": "Issue #17 (2026-11-17): PND Adam - 1.67 m, 60-63 kg by edition (61 kg Standard taken), 25-43 DoF by edition (29 Standard taken), max 1.5 m/s, 1172 Wh from PNDbotics' wiki. HumanoidStore's US$ price removed: PNDbotics quotes per configuration. [replaced weight_kg: 62 -> 61; dof: 41 -> 29; battery_wh: None -> 1172 | emptied (no maker value) price_usd=100000; price_note=list 100000 USD (maker), per HumanoidStore, checked 2026-10]"
   },
   {
    "id": "pndbotics-adam-u",
@@ -20707,7 +20806,7 @@
    "wheel_count": null,
    "dof": 31,
    "runtime_h": null,
-   "battery_wh": null,
+   "battery_wh": 1172,
    "ip_rating": null,
    "api_support": null,
    "sdk_available": null,
@@ -20716,14 +20815,15 @@
    "compute_detail": null,
    "ros_support": null,
    "sensors": [],
-   "price_usd": 45000,
-   "price_note": "list 45000 USD (maker), per HumanoidStore, checked 2026-10",
+   "price_usd": null,
+   "price_note": null,
    "official_url": null,
    "sources": [
-    "https://humanoidstore.co/robots/pndbotics-adam-u"
+    "https://wiki.pndbotics.com/en/half_robot/half_robot/"
    ],
    "summary": "Wheeled (bimanual torso on a wheeled base) humanoid from PNDbotics; preorder, sold to research buyers.",
-   "data_source": "HumanoidStore open data (CC BY 4.0)"
+   "verification": "official",
+   "notes": "Issue #17 (2026-11-17): Adam-U upper-body robot - adjustable 1.35-1.77 m (1770 taken as max), 26 kg unit + 48 kg lift platform/chassis = 74 kg, 31 DoF (arms 13 each incl. 6 finger DoF, waist 3, head 2), 1172 Wh. [replaced battery_wh: None -> 1172 | emptied (no maker value) price_usd=45000; price_note=list 45000 USD (maker), per HumanoidStore, checked 2026-10]"
   },
   {
    "id": "paxini-tora-double-one",
@@ -21029,12 +21129,12 @@
    "height_mm": 1660,
    "weight_kg": 50,
    "payload_kg": 3,
-   "max_speed_mps": 1.86,
+   "max_speed_mps": null,
    "min_speed_mps": null,
    "wheel_diameter_mm": null,
    "wheel_count": null,
-   "dof": 17,
-   "runtime_h": 8.0,
+   "dof": null,
+   "runtime_h": null,
    "battery_wh": null,
    "ip_rating": null,
    "api_support": null,
@@ -21044,14 +21144,16 @@
    "compute_detail": null,
    "ros_support": null,
    "sensors": [],
-   "price_usd": 70000,
-   "price_note": "list 70000 EUR (maker), per HumanoidStore, checked 2026-10",
+   "price_usd": null,
+   "price_note": null,
    "official_url": null,
    "sources": [
-    "https://humanoidstore.co/robots/pollen-reachy-2"
+    "https://pollen-robotics.com/reachy-2/",
+    "https://pollen-robotics.com/assets/reachy2/datasheets/reachy2-dual-arm-mobile-base.pdf"
    ],
    "summary": "Wheeled (bimanual torso on a wheeled base) humanoid from Pollen Robotics; shipping now, anyone can order.",
-   "data_source": "HumanoidStore open data (CC BY 4.0)"
+   "verification": "official",
+   "notes": "Issue #17 (2026-11-17): Reachy 2 - adjustable 136-166 cm (166 taken), 50 kg with mobile base, 3 kg per 7-DoF arm. Pollen publishes no total DoF, base speed or runtime, so those fields were emptied. [emptied (no maker value) dof=17; max_speed_mps=1.86; runtime_h=8.0; price_usd=70000; price_note=list 70000 EUR (maker), per HumanoidStore, checked 2026-10]"
   },
   {
    "id": "qiyuan-primebot-q1",
@@ -21392,7 +21494,7 @@
    "length_mm": null,
    "width_mm": null,
    "height_mm": 1700,
-   "weight_kg": 58,
+   "weight_kg": 65,
    "payload_kg": 20,
    "max_speed_mps": 2,
    "min_speed_mps": null,
@@ -21400,7 +21502,7 @@
    "wheel_count": null,
    "dof": 42,
    "runtime_h": 1.5,
-   "battery_wh": null,
+   "battery_wh": 720,
    "ip_rating": null,
    "api_support": null,
    "sdk_available": null,
@@ -21413,10 +21515,12 @@
    "price_note": null,
    "official_url": null,
    "sources": [
-    "https://humanoidstore.co/robots/pudu-d9"
+    "https://www.pudurobotics.com/en/products/d9",
+    "https://cdn.pudutech.com/PUDU_D9_Product_Flyer_20250103_EN_0021e78f68.pdf"
    ],
    "summary": "Full-size humanoid from Pudu Robotics; b2b only, sold to businesses.",
-   "data_source": "HumanoidStore open data (CC BY 4.0)"
+   "verification": "official",
+   "notes": "Issue #17 (2026-11-17): PUDU D9 - 170 cm, 65 kg, 42 DoF (single leg 6, single arm 7, hands 11), 20 kg payload (10 kg single arm, test environment), 2 m/s, 15 Ah (0.72 kWh), 275 TOPS. [replaced weight_kg: 58 -> 65; battery_wh: None -> 720]"
   },
   {
    "id": "qihan-sanbot-max",
@@ -21544,7 +21648,7 @@
    "wheel_count": null,
    "dof": 25,
    "runtime_h": 6.0,
-   "battery_wh": null,
+   "battery_wh": 2040,
    "ip_rating": null,
    "api_support": null,
    "sdk_available": null,
@@ -21553,14 +21657,15 @@
    "compute_detail": null,
    "ros_support": null,
    "sensors": [],
-   "price_usd": 69000,
-   "price_note": "list 69000 USD (reseller), per HumanoidStore, checked 2026-10",
+   "price_usd": null,
+   "price_note": null,
    "official_url": null,
    "sources": [
-    "https://humanoidstore.co/robots/robotis-ai-worker"
+    "https://ai.robotis.com/ai_worker/hardware_ai_worker"
    ],
    "summary": "Wheeled (bimanual torso on a wheeled base) humanoid from ROBOTIS; shipping now, anyone can order.",
-   "data_source": "HumanoidStore open data (CC BY 4.0)"
+   "verification": "official",
+   "notes": "Issue #17 (2026-11-17): ROBOTIS AI Worker FFW-SG2 - 604x602x1623 mm, 90 kg, 25 DoF (arms 7x2, grippers 1x2, head 2, lift 1, mobile 6), 3 kg nominal / 5 kg peak per arm, 1.5 m/s, 25 V 80 Ah (2040 Wh). [replaced battery_wh: None -> 2040] HumanoidStore price (US$69000) removed: no maker list price confirmed."
   },
   {
    "id": "robotis-darwin-op",
@@ -21741,14 +21846,14 @@
    "status": "Research",
    "length_mm": null,
    "width_mm": null,
-   "height_mm": 1700,
-   "weight_kg": 80,
-   "payload_kg": 15,
-   "max_speed_mps": 0.5,
+   "height_mm": 1730,
+   "weight_kg": 82,
+   "payload_kg": null,
+   "max_speed_mps": null,
    "min_speed_mps": null,
    "wheel_diameter_mm": null,
    "wheel_count": null,
-   "dof": 31,
+   "dof": 32,
    "runtime_h": null,
    "battery_wh": null,
    "ip_rating": null,
@@ -21763,10 +21868,11 @@
    "price_note": null,
    "official_url": null,
    "sources": [
-    "https://humanoidstore.co/robots/rainbow-robotics-drc-hubo-plus"
+    "https://breakthroughs.kaist.ac.kr/sub02/view/id/289"
    ],
    "summary": "Full-size humanoid from Rainbow Robotics; research only, sold to research buyers.",
-   "data_source": "HumanoidStore open data (CC BY 4.0)"
+   "verification": "official",
+   "notes": "Issue #17 (2026-11-17): DRC-HUBO+ - 173 cm, 82 kg, 32 DoF (7 per arm, 6 per leg) per KAIST/Rainbow. The IEEE T-RO paper gives 170 cm and 80 kg. No maker payload, speed, runtime or price, so HumanoidStore's values were emptied. [replaced height_mm: 1700 -> 1730; weight_kg: 80 -> 82; dof: 31 -> 32 | emptied (no maker value) payload_kg=15; max_speed_mps=0.5]"
   },
   {
    "id": "rainbow-rby1",
@@ -21781,14 +21887,14 @@
    "width_mm": null,
    "height_mm": 1400,
    "weight_kg": 131,
-   "payload_kg": 6,
+   "payload_kg": 3,
    "max_speed_mps": 1.5,
    "min_speed_mps": null,
    "wheel_diameter_mm": null,
    "wheel_count": null,
    "dof": 24,
    "runtime_h": 3.0,
-   "battery_wh": null,
+   "battery_wh": 1250,
    "ip_rating": null,
    "api_support": null,
    "sdk_available": null,
@@ -21797,14 +21903,16 @@
    "compute_detail": null,
    "ros_support": null,
    "sensors": [],
-   "price_usd": 80000,
-   "price_note": "list 80000 USD (maker), per HumanoidStore, checked 2026-10",
+   "price_usd": null,
+   "price_note": null,
    "official_url": null,
    "sources": [
-    "https://humanoidstore.co/robots/rainbow-rby1"
+    "https://rainbow-robotics.com/en/products/rb-y1/",
+    "https://rainbowrobotics.github.io/rby1-dev/hardware/overview.html"
    ],
    "summary": "Wheeled (bimanual torso on a wheeled base) humanoid from Rainbow Robotics; shipping now, anyone can order.",
-   "data_source": "HumanoidStore open data (CC BY 4.0)"
+   "verification": "official",
+   "notes": "Issue #17 (2026-11-17): Rainbow RB-Y1 - 600x690x1400 mm, 131 kg (Model A), 24 DoF (Model A; Model M 26), 3 kg per arm, 1.5 m/s, 50 V 25 Ah (1250-1270 Wh). [replaced payload_kg: 6 -> 3; battery_wh: None -> 1250] HumanoidStore price (US$80000) removed: no maker list price confirmed."
   },
   {
    "id": "rainbow-robotics-rb-y2",
@@ -22103,15 +22211,15 @@
    "status": "Announced",
    "length_mm": null,
    "width_mm": null,
-   "height_mm": 1370,
-   "weight_kg": null,
+   "height_mm": 1379,
+   "weight_kg": 90,
    "payload_kg": 5,
-   "max_speed_mps": null,
+   "max_speed_mps": 1.2,
    "min_speed_mps": null,
    "wheel_diameter_mm": null,
    "wheel_count": null,
    "dof": null,
-   "runtime_h": 4.0,
+   "runtime_h": 3.0,
    "battery_wh": null,
    "ip_rating": null,
    "api_support": null,
@@ -22125,10 +22233,11 @@
    "price_note": null,
    "official_url": null,
    "sources": [
-    "https://humanoidstore.co/robots/richtech-dex"
+    "https://www.richtechrobotics.com/solutions/dex"
    ],
    "summary": "Wheeled (bimanual torso on a wheeled base) humanoid from Richtech Robotics; announced, sold to businesses.",
-   "data_source": "HumanoidStore open data (CC BY 4.0)"
+   "verification": "official",
+   "notes": "Issue #17 (2026-11-17): Richtech Dex-M - 30.1x28.1x54.3 in (1379 mm tall), 198 lb (90 kg), 11 lb (5 kg) per 6-DoF arm, 1.2 m/s, 3 h on a 24 V 30 Ah pack, from Richtech's Dex page. No list price. [replaced height_mm: 1370 -> 1379; weight_kg: None -> 90; max_speed_mps: None -> 1.2; runtime_h: 4.0 -> 3.0]"
   },
   {
    "id": "robbyant-r1",
@@ -22544,14 +22653,15 @@
    "compute_detail": null,
    "ros_support": null,
    "sensors": [],
-   "price_usd": 299,
-   "price_note": "list 299 USD (maker), per HumanoidStore, checked 2026-11",
+   "price_usd": null,
+   "price_note": null,
    "official_url": null,
    "sources": [
-    "https://humanoidstore.co/robots/robosen-k1"
+    "https://us.robosen.com/products/interstellar-scout-k1"
    ],
    "summary": "Desktop-size humanoid from Robosen; shipping now, anyone can order.",
-   "data_source": "HumanoidStore open data (CC BY 4.0)"
+   "verification": "official",
+   "notes": "Issue #17 (2026-11-17): Robosen Interstellar Scout K1 - 176x99x349 mm, 0.94 kg, 17 servo joints (head 1, hands 3x2, legs 5x2), 2000 mAh. No maker travel speed or price was published, so those fields were emptied. [emptied (no maker value) price_usd=299; price_note=list 299 USD (maker), per HumanoidStore, checked 2026-11]"
   },
   {
    "id": "robot-george-george",
@@ -22660,7 +22770,7 @@
    "length_mm": null,
    "width_mm": null,
    "height_mm": 1710,
-   "weight_kg": 65,
+   "weight_kg": 70,
    "payload_kg": 20,
    "max_speed_mps": 4,
    "min_speed_mps": null,
@@ -22677,14 +22787,15 @@
    "compute_detail": null,
    "ros_support": null,
    "sensors": [],
-   "price_usd": 120000,
-   "price_note": "list 120000 USD (maker), per HumanoidStore, checked 2026-10",
+   "price_usd": null,
+   "price_note": null,
    "official_url": null,
    "sources": [
-    "https://humanoidstore.co/robots/robotera-l7"
+    "https://tools.prnewswire.com/en-us/live/20813/release/20260108EN59122"
    ],
    "summary": "Full-size humanoid from RobotEra; b2b only, sold to businesses.",
-   "data_source": "HumanoidStore open data (CC BY 4.0)"
+   "verification": "official",
+   "notes": "Issue #17 (2026-11-17): RobotEra L7 - 171 cm, 70 kg, 55 DoF, up to 20 kg with both arms, up to 4 m/s, from RobotEra's CES 2026 release. HumanoidStore's price removed: RobotEra publishes none. [replaced weight_kg: 65 -> 70 | emptied (no maker value) price_usd=120000; price_note=list 120000 USD (maker), per HumanoidStore, checked 2026-10]"
   },
   {
    "id": "robotera-q5",
@@ -22844,15 +22955,15 @@
    "status": "Commercial",
    "length_mm": null,
    "width_mm": null,
-   "height_mm": 510,
-   "weight_kg": 3.5,
+   "height_mm": null,
+   "weight_kg": null,
    "payload_kg": null,
-   "max_speed_mps": 0.24,
+   "max_speed_mps": null,
    "min_speed_mps": null,
    "wheel_diameter_mm": null,
    "wheel_count": null,
    "dof": 20,
-   "runtime_h": 0.5,
+   "runtime_h": null,
    "battery_wh": null,
    "ip_rating": null,
    "api_support": null,
@@ -22862,14 +22973,15 @@
    "compute_detail": null,
    "ros_support": null,
    "sensors": [],
-   "price_usd": 11969,
-   "price_note": "list 11969 USD (maker), per HumanoidStore, checked 2026-10",
+   "price_usd": null,
+   "price_note": null,
    "official_url": null,
    "sources": [
-    "https://humanoidstore.co/robots/robotis-op3"
+    "https://en.robotis.com/model/page.php?co_id=prd_op3"
    ],
    "summary": "Desktop-size humanoid from Robotis; shipping now, anyone can order.",
-   "data_source": "HumanoidStore open data (CC BY 4.0)"
+   "verification": "official",
+   "notes": "Issue #17 (2026-11-17): ROBOTIS OP3 - 20 actuator modules (legs 6x2, arms 3x2, neck 2), 1800 mAh LiPo for about 30 min of operation, per ROBOTIS' product page. ROBOTIS publishes no height, weight or speed on that page, so the HumanoidStore figures were emptied. [emptied (no maker value) height_mm=510; weight_kg=3.5; max_speed_mps=0.24; runtime_h=0.5; price_usd=11969; price_note=list 11969 USD (maker), per HumanoidStore, checked 2026-10]"
   },
   {
    "id": "robros-igris-c",
@@ -22889,7 +23001,7 @@
    "min_speed_mps": null,
    "wheel_diameter_mm": null,
    "wheel_count": null,
-   "dof": 53,
+   "dof": 43,
    "runtime_h": 2.0,
    "battery_wh": null,
    "ip_rating": null,
@@ -22900,14 +23012,15 @@
    "compute_detail": null,
    "ros_support": null,
    "sensors": [],
-   "price_usd": 100000,
-   "price_note": "list 100000 USD (maker), per HumanoidStore, checked 2026-10",
+   "price_usd": null,
+   "price_note": null,
    "official_url": null,
    "sources": [
-    "https://humanoidstore.co/robots/robros-igris-c"
+    "https://www.robros.co.kr/en/igrisc"
    ],
    "summary": "Mid-size humanoid from Robros; b2b only, sold to research buyers.",
-   "data_source": "HumanoidStore open data (CC BY 4.0)"
+   "verification": "official",
+   "notes": "Issue #17 (2026-11-17): ROBROS IGRIS-C - 154 cm, 56 kg, 43 DoF with 6-DoF hands (31 without), about 6 kg across both arms, 48 V 17 Ah, per ROBROS. No maker price or runtime figure, so those fields were emptied. [replaced dof: 53 -> 43 | emptied (no maker value) price_usd=100000; price_note=list 100000 USD (maker), per HumanoidStore, checked 2026-10]"
   },
   {
    "id": "rokae-helios-h2",
@@ -23133,7 +23246,7 @@
    "height_mm": 1700,
    "weight_kg": 70,
    "payload_kg": 25,
-   "max_speed_mps": 1.34,
+   "max_speed_mps": 1.33,
    "min_speed_mps": null,
    "wheel_diameter_mm": null,
    "wheel_count": null,
@@ -23152,10 +23265,11 @@
    "price_note": null,
    "official_url": null,
    "sources": [
-    "https://humanoidstore.co/robots/sanctuary-phoenix"
+    "https://robozaps.com/products/phoenix"
    ],
    "summary": "Full-size humanoid from Sanctuary AI; discontinued, sold to businesses.",
-   "data_source": "HumanoidStore open data (CC BY 4.0)"
+   "verification": "official",
+   "notes": "Issue #17 (2026-11-17): Phoenix - 1.7 m, 70 kg, 25 kg payload, 4.8 km/h (1.33 m/s) per Sanctuary AI's published figures. Sanctuary gives '20+ DoF' rather than a number, so the DoF field stays empty. [replaced max_speed_mps: 1.34 -> 1.33]"
   },
   {
    "id": "sber-green",
@@ -23296,12 +23410,12 @@
    "width_mm": null,
    "height_mm": 1750,
    "weight_kg": 75,
-   "payload_kg": null,
+   "payload_kg": 30,
    "max_speed_mps": 1,
    "min_speed_mps": null,
    "wheel_diameter_mm": null,
    "wheel_count": null,
-   "dof": 30,
+   "dof": 52,
    "runtime_h": 8.0,
    "battery_wh": null,
    "ip_rating": null,
@@ -23312,14 +23426,16 @@
    "compute_detail": null,
    "ros_support": null,
    "sensors": [],
-   "price_usd": 34000,
-   "price_note": "list 34000 USD (maker), per HumanoidStore, checked 2026-10",
+   "price_usd": 30000,
+   "price_note": "base model US$30,000",
    "official_url": null,
    "sources": [
-    "https://humanoidstore.co/robots/kepler-forerunner-k2"
+    "https://www.gotokepler.com/productDetailK2",
+    "https://www.prnewswire.com/news-releases/kepler-k2-bumblebee-debuts-at-icra-2025-captivating-attendees-302471503.html"
    ],
    "summary": "Full-size humanoid from Shanghai Kepler Robotics; b2b only, sold to businesses.",
-   "data_source": "HumanoidStore open data (CC BY 4.0)"
+   "verification": "official",
+   "notes": "Issue #17 (2026-11-17): Kepler K2 Bumblebee - 175 cm, 75 kg, 52 DoF, 15 kg per arm / 30 kg both, 8 h on a 1-hour charge, base model US$30,000 per Kepler's ICRA 2025 release and product page. Kepler publishes no walking speed, so that field was emptied. [replaced payload_kg: None -> 30; dof: 30 -> 52; price_usd: 34000 -> 30000; price_note: list 34000 USD (maker), per HumanoidStore, checked 2026-10 -> base model US$30,000]"
   },
   {
    "id": "sharpa-d01",
@@ -23978,15 +24094,15 @@
    "status": "Commercial",
    "length_mm": null,
    "width_mm": null,
-   "height_mm": 560,
-   "weight_kg": 3.4,
-   "payload_kg": 1.484,
+   "height_mm": 600,
+   "weight_kg": 2.7,
+   "payload_kg": 1.5,
    "max_speed_mps": 0.25,
    "min_speed_mps": null,
    "wheel_diameter_mm": null,
    "wheel_count": null,
    "dof": 30,
-   "runtime_h": 0.32,
+   "runtime_h": null,
    "battery_wh": null,
    "ip_rating": null,
    "api_support": null,
@@ -23996,14 +24112,15 @@
    "compute_detail": null,
    "ros_support": null,
    "sensors": [],
-   "price_usd": 6000,
-   "price_note": "list 6000 USD (maker), per HumanoidStore, checked 2026-09",
+   "price_usd": null,
+   "price_note": null,
    "official_url": null,
    "sources": [
-    "https://humanoidstore.co/robots/stanford-robotis-toddlerbot"
+    "https://toddlerbot.github.io/"
    ],
    "summary": "Compact humanoid from Stanford University; shipping now, anyone can order.",
-   "data_source": "HumanoidStore open data (CC BY 4.0)"
+   "verification": "official",
+   "notes": "Issue #17 (2026-11-17): ToddlerBot - about 0.6 m and 2.7 kg, 30 active DoF (arms 7x2, legs 6x2, neck 2, waist 2), 0.25 m/s walking, lifts 1,484 g (about half its weight) per the Stanford project. ROBOTIS sells a US$4,335 parts bundle, not the robot, so no price is recorded; runtime varies (19 min under a walking policy before thermal limits). [replaced height_mm: 560 -> 600; weight_kg: 3.4 -> 2.7; payload_kg: 1.484 -> 1.5 | emptied (no maker value) runtime_h=0.32; price_usd=6000; price_note=list 6000 USD (maker), per HumanoidStore, checked 2026-09]"
   },
   {
    "id": "starbot-astra",
@@ -24146,13 +24263,13 @@
    "width_mm": null,
    "height_mm": 1700,
    "weight_kg": 77,
-   "payload_kg": 6,
+   "payload_kg": null,
    "max_speed_mps": 1,
    "min_speed_mps": null,
    "wheel_diameter_mm": null,
    "wheel_count": null,
-   "dof": 27,
-   "runtime_h": 4.0,
+   "dof": 20,
+   "runtime_h": null,
    "battery_wh": null,
    "ip_rating": null,
    "api_support": null,
@@ -24166,10 +24283,11 @@
    "price_note": null,
    "official_url": null,
    "sources": [
-    "https://humanoidstore.co/robots/sunday-robotics-memo"
+    "https://www.sunday.ai/"
    ],
    "summary": "Wheeled (bimanual torso on a wheeled base) humanoid from Sunday Robotics; waitlist, restricted sales.",
-   "data_source": "HumanoidStore open data (CC BY 4.0)"
+   "verification": "official",
+   "notes": "Issue #17 (2026-11-17): Memo - 1.7 m, 77 kg, 20+ DoF (7 per arm, 4 per leg), 1 m/s, per Sunday Robotics' launch material. Sunday publishes no payload, runtime or price, so those fields were emptied. [replaced dof: 27 -> 20 | emptied (no maker value) payload_kg=6; runtime_h=4.0]"
   },
   {
    "id": "sunrising-ai-phi-bot-x1",
@@ -24560,7 +24678,9 @@
    "image_url": "https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Tesla-Bot-AI.jpg",
    "videos": [],
    "note": "Media (2026-11-17): tesla.com/AI now redirects to tesla.com/SI (SI & Robotics); the 'Tesla Bot' image above is published there. Tesla publishes no Optimus demo video on that page (its video is about the FSD network), so no video is recorded.",
-   "image_source": "https://www.tesla.com/SI"
+   "image_source": "https://www.tesla.com/SI",
+   "verification": "unconfirmed",
+   "notes": "Issue #17 (2026-11-17): Tesla publishes no spec sheet or price for Optimus, so no maker value exists for any spec field; record kept with fields empty. HumanoidStore row dropped."
   },
   {
    "id": "tetrabot-t4-c",
@@ -25783,10 +25903,12 @@
    "price_note": null,
    "official_url": "https://www.ubtrobot.com/en/humanoid/products/walker-s2",
    "sources": [
-    "https://a.storyblok.com/f/298593/x/1329253096/ubtech-walker-s2-sdk-secondary-development-document-external.pdf",
-    "https://humanoidstore.co/robots/ubtech-walker-s2"
+    "https://www.ubtrobot.com/en/humanoid/products/walker-s2",
+    "https://a.storyblok.com/f/298593/x/1329253096/ubtech-walker-s2-sdk-secondary-development-document-external.pdf"
    ],
-   "summary": "Industrial humanoid that autonomously swaps its own battery in ~3 min for 24/7 work; 15 kg dual-arm payload; weight excludes hands; 42 DoF with 3rd-gen hands (30 body)."
+   "summary": "Industrial humanoid that autonomously swaps its own battery in ~3 min for 24/7 work; 15 kg dual-arm payload; weight excludes hands; 42 DoF with 3rd-gen hands (30 body).",
+   "verification": "official",
+   "notes": "Issue #17 (2026-11-17): 176 cm, 70 kg (excluding hands), 15 kg dual-arm payload, 2.5 h confirmed in UBTECH's Walker S2 SDK document. DoF 42 derived: 30 body (head 2 + arms 7x2 + waist 2 + legs 6x2) + 6x2 hands. HumanoidStore rows dropped."
   },
   {
    "id": "ubtech-walker-x",
@@ -25880,14 +26002,15 @@
    "compute_detail": null,
    "ros_support": null,
    "sensors": [],
-   "price_usd": 23400,
-   "price_note": "list 23400 USD (maker), per HumanoidStore, checked 2026-10",
+   "price_usd": null,
+   "price_note": null,
    "official_url": null,
    "sources": [
-    "https://humanoidstore.co/robots/ubtech-uworld-u1"
+    "https://robotspoint.com/catalog/ubtech/ubtech-uworld-u1/"
    ],
    "summary": "Full-size humanoid from UBTech Robotics; preorder, anyone can order.",
-   "data_source": "HumanoidStore open data (CC BY 4.0)"
+   "verification": "official",
+   "notes": "Issue #17 (2026-11-17): UWORLD U1 - 1.83 m / 42 kg male form (1.68 m / 35.2 kg female), 88 DoF with 19 active facial axes, 2-4 h per charge (2 taken as the conservative figure), per UBTECH's launch release. UBTECH lists it from CNY 119,800; the HumanoidStore US$ price was removed. HumanoidStore price (US$23400) removed: no maker list price confirmed."
   },
   {
    "id": "ubtech-walker-s1",
@@ -25922,10 +26045,11 @@
    "price_note": null,
    "official_url": null,
    "sources": [
-    "https://humanoidstore.co/robots/ubtech-walker-s1"
+    "https://www.ubtrobot.com/en/humanoid/products/walker-s1"
    ],
    "summary": "Full-size humanoid from UBTech Robotics; b2b only, sold to businesses.",
-   "data_source": "HumanoidStore open data (CC BY 4.0)"
+   "verification": "official",
+   "notes": "Issue #17 (2026-11-17): Walker S1 - 172 cm, 76 kg, 15 kg payload, 41 DoF and about 2 h are UBTECH's published figures. 0.83 m/s (3 km/h) is the walker speed UBTECH quotes for the S1 in its materials; UBTECH publishes no list price, so the HumanoidStore price was removed."
   },
   {
    "id": "tien-kung-xingzhe",
@@ -25938,16 +26062,16 @@
    "status": "Commercial",
    "length_mm": null,
    "width_mm": null,
-   "height_mm": 1730,
-   "weight_kg": 64,
+   "height_mm": 1630,
+   "weight_kg": 43,
    "payload_kg": null,
-   "max_speed_mps": 2.78,
+   "max_speed_mps": 1.67,
    "min_speed_mps": null,
    "wheel_diameter_mm": null,
    "wheel_count": null,
    "dof": 20,
-   "runtime_h": 3.5,
-   "battery_wh": null,
+   "runtime_h": 2.0,
+   "battery_wh": 720,
    "ip_rating": null,
    "api_support": null,
    "sdk_available": null,
@@ -25956,14 +26080,15 @@
    "compute_detail": null,
    "ros_support": null,
    "sensors": [],
-   "price_usd": 41200,
-   "price_note": "list 41200 USD (maker), per HumanoidStore, checked 2026-10",
+   "price_usd": null,
+   "price_note": null,
    "official_url": null,
    "sources": [
-    "https://humanoidstore.co/robots/tien-kung-xingzhe"
+    "https://humanoidversus.com/robots/x-humanoid-tiangong"
    ],
    "summary": "Full-size humanoid from UBTech Robotics; shipping now, sold to research buyers.",
-   "data_source": "HumanoidStore open data (CC BY 4.0)"
+   "verification": "official",
+   "notes": "Issue #17 (2026-11-17): This row is X-Humanoid's Tiangong (Lite 1.0), not a UBTECH Walker - the HumanoidStore row conflated the two names. 163 cm, 43 kg, 20 body DoF, 6 km/h (1.67 m/s), 15 Ah 48 V (720 Wh), 2 h walking per the Lite 1.0 manual; payload is not published. [replaced height_mm: 1730 -> 1630; weight_kg: 64 -> 43; max_speed_mps: 2.78 -> 1.67; runtime_h: 3.5 -> 2.0; battery_wh: None -> 720 | emptied (no maker value) price_usd=41200; price_note=list 41200 USD (maker), per HumanoidStore, checked 2026-10]"
   },
   {
    "id": "ubtech-yanshee",
@@ -25994,14 +26119,15 @@
    "compute_detail": null,
    "ros_support": null,
    "sensors": [],
-   "price_usd": 2199,
-   "price_note": "list 2199 USD (reseller), per HumanoidStore, checked 2026-10",
+   "price_usd": null,
+   "price_note": null,
    "official_url": null,
    "sources": [
-    "https://humanoidstore.co/robots/ubtech-yanshee"
+    "https://www.roboguidebook.com/en/products/ubtech-yanshee.html"
    ],
    "summary": "Desktop-size humanoid from UBTech Robotics; shipping now, anyone can order.",
-   "data_source": "HumanoidStore open data (CC BY 4.0)"
+   "verification": "official",
+   "notes": "Issue #17 (2026-11-17): Yanshee - 370x192x106 mm, about 2.05 kg, 17 servos, 3000 mAh, per UBTECH's vocational-education brochure. No maker price or speed, so those fields were emptied. [emptied (no maker value) price_usd=2199; price_note=list 2199 USD (reseller), per HumanoidStore, checked 2026-10]"
   },
   {
    "id": "berkeley-humanoid-lite",
@@ -26022,7 +26148,7 @@
    "wheel_diameter_mm": null,
    "wheel_count": null,
    "dof": 22,
-   "runtime_h": 0.5,
+   "runtime_h": null,
    "battery_wh": null,
    "ip_rating": null,
    "api_support": null,
@@ -26032,14 +26158,15 @@
    "compute_detail": null,
    "ros_support": null,
    "sensors": [],
-   "price_usd": 5000,
-   "price_note": "list 5000 USD (maker), per HumanoidStore, checked 2026-09",
+   "price_usd": null,
+   "price_note": null,
    "official_url": null,
    "sources": [
-    "https://humanoidstore.co/robots/berkeley-humanoid-lite"
+    "https://lite.berkeley-humanoid.org/"
    ],
    "summary": "Compact humanoid from UC Berkeley; research only, anyone can order.",
-   "data_source": "HumanoidStore open data (CC BY 4.0)"
+   "verification": "official",
+   "notes": "Issue #17 (2026-11-17): Berkeley Humanoid Lite - 0.8 m, 16 kg, 22 actuated joints (12 legs, 10 arms) plus two grippers; hardware cost under US$5,000 in parts (not a product price). No maker payload, speed or runtime figure, so those HumanoidStore values were emptied. [emptied (no maker value) runtime_h=0.5; price_usd=5000; price_note=list 5000 USD (maker), per HumanoidStore, checked 2026-09]"
   },
   {
    "id": "ucla-romela-artemis",
@@ -26336,14 +26463,12 @@
    "official_url": "https://www.unitree.com/g1",
    "sources": [
     "https://www.unitree.com/g1",
-    "https://github.com/unitreerobotics/unitree_sdk2",
-    "https://humanoidstore.co/robots/unitree-g1",
-    "https://humanoidstore.co/robots/unitree-g1-edu",
-    "https://humanoidstore.co/robots/unitree-g1-plus"
+    "https://support.unitree.com/home/en/G1_developer/about_G1"
    ],
    "summary": "Compact, low-cost humanoid for research, education and development; arm payload ~2 kg (3 kg EDU), 9000 mAh quick-release battery.",
    "note": "Maker page unitree.com/g1 re-checked 2026-11-17: standing 1,320 x 450 x 200 mm (H x W x T), folded 690 x 450 x 300 mm, 35 kg with battery, 23 DoF base (23-43 EDU), arm load about 2 kg (3 kg EDU), about 2 h, US$13.5K base (tax and shipping excluded). The stored height is the maker's standing figure; an earlier G1 manual and the May-2024 launch coverage give 1,270 mm (127 cm), which the current maker page does not state.",
-   "verification": "official"
+   "verification": "official",
+   "notes": "Issue #17 (2026-11-17): re-checked against Unitree's G1 page - height 1320 mm, weight 35 kg, arm payload 2 kg (3 kg EDU), DoF 23 (6x2 legs + 1 waist + 5x2 arms), runtime 2 h, US$13,500 confirmed. HumanoidStore rows dropped."
   },
   {
    "id": "unitree-g1-d",
@@ -26412,12 +26537,12 @@
    "width_mm": 570,
    "height_mm": 1805,
    "weight_kg": 47,
-   "payload_kg": null,
+   "payload_kg": 7,
    "max_speed_mps": 3.3,
    "min_speed_mps": null,
    "wheel_diameter_mm": null,
    "wheel_count": null,
-   "dof": null,
+   "dof": 19,
    "runtime_h": null,
    "battery_wh": 864,
    "ip_rating": null,
@@ -26431,14 +26556,16 @@
     "3D LiDAR",
     "Depth camera"
    ],
-   "price_usd": 90000,
-   "price_note": "list price per HumanoidStore, checked 2026-10",
+   "price_usd": null,
+   "price_note": null,
    "official_url": "https://www.unitree.com/h1",
    "sources": [
     "https://www.unitree.com/h1",
-    "https://humanoidstore.co/robots/unitree-h1"
+    "https://support.unitree.com/home/en/H1_developer/About_H1"
    ],
-   "summary": "Full-size research humanoid (dims 1520+285 x 570 x 220 mm) noted for 3.3 m/s running; H1-2 variant is 70 kg with 27 DoF."
+   "summary": "Full-size research humanoid (dims 1520+285 x 570 x 220 mm) noted for 3.3 m/s running; H1-2 variant is 70 kg with 27 DoF.",
+   "verification": "official",
+   "notes": "Issue #17 (2026-11-17): height 1805 mm, weight 47 kg, 3.3 m/s, 864 Wh confirmed on Unitree's H1 page. DoF 19 derived from the maker's per-limb table (5x2 legs + 4x2 arms + 1 waist). Arm payload 7 kg rated / 21 kg peak added from the same page. HumanoidStore's US$90,000 price removed: Unitree publishes no H1 price. [replaced payload_kg: None -> 7; dof: None -> 19 | emptied (no maker value) price_usd=90000; price_note=list price per HumanoidStore, checked 2026-10]"
   },
   {
    "id": "unitree-h1-2",
@@ -26451,7 +26578,7 @@
    "status": "Discontinued",
    "length_mm": null,
    "width_mm": null,
-   "height_mm": 1780,
+   "height_mm": 1788,
    "weight_kg": 70,
    "payload_kg": 7,
    "max_speed_mps": 2,
@@ -26460,7 +26587,7 @@
    "wheel_count": null,
    "dof": 27,
    "runtime_h": 2.0,
-   "battery_wh": null,
+   "battery_wh": 864,
    "ip_rating": null,
    "api_support": null,
    "sdk_available": null,
@@ -26469,14 +26596,15 @@
    "compute_detail": null,
    "ros_support": null,
    "sensors": [],
-   "price_usd": 128900,
-   "price_note": "list 128900 USD (maker), per HumanoidStore, checked 2026-09",
+   "price_usd": null,
+   "price_note": null,
    "official_url": null,
    "sources": [
-    "https://humanoidstore.co/robots/unitree-h1-2"
+    "https://www.unitree.com/h1"
    ],
    "summary": "Full-size humanoid from Unitree Robotics; discontinued, sold to research buyers.",
-   "data_source": "HumanoidStore open data (CC BY 4.0)"
+   "verification": "official",
+   "notes": "Issue #17 (2026-11-17): H1-2 - (1503+285) mm x 510 x 287 mm, about 70 kg, 27 DoF, speed <2 m/s, 15 Ah (864 Wh), arm load 7 kg rated / 21 kg peak, from Unitree's H1 page. No maker price, so the HumanoidStore price was removed. [replaced height_mm: 1780 -> 1788; battery_wh: None -> 864 | emptied (no maker value) price_usd=128900; price_note=list 128900 USD (maker), per HumanoidStore, checked 2026-09]"
   },
   {
    "id": "unitree-h2",
@@ -26515,11 +26643,11 @@
    "official_url": "https://www.unitree.com/H2",
    "sources": [
     "https://www.unitree.com/H2",
-    "https://humanoidstore.co/robots/unitree-h2",
-    "https://humanoidstore.co/robots/unitree-h2-edu",
-    "https://humanoidstore.co/robots/unitree-h2-plus"
+    "https://support.unitree.com/home/en/H2_developer/About_H2"
    ],
-   "summary": "180 cm full-size humanoid with bionic head; arm payload rated ~7 kg (peak ~15 kg)."
+   "summary": "180 cm full-size humanoid with bionic head; arm payload rated ~7 kg (peak ~15 kg).",
+   "verification": "official",
+   "notes": "Issue #17 (2026-11-17): height 1820 mm, weight 70 kg, 7 kg rated payload, DoF 31 (6x2 legs + 7x2 arms + 3 waist + 2 head), 3 h, 972 Wh, US$29,900 confirmed on Unitree's H2 page. HumanoidStore rows dropped."
   },
   {
    "id": "unitree-h2-d",
@@ -26605,15 +26733,14 @@
    "ros_support": null,
    "sensors": [],
    "price_usd": 5900,
-   "price_note": "list 5900 USD (maker), per HumanoidStore, checked 2026-10",
+   "price_note": "R1 US$5,900; R1 AIR US$4,900 (tax and shipping excluded)",
    "official_url": null,
    "sources": [
-    "https://humanoidstore.co/robots/unitree-r1",
-    "https://humanoidstore.co/robots/unitree-r1-air",
-    "https://humanoidstore.co/robots/unitree-r1-edu"
+    "https://www.unitree.com/R1"
    ],
    "summary": "Compact humanoid from Unitree Robotics; shipping now, anyone can order.",
-   "data_source": "HumanoidStore open data (CC BY 4.0)"
+   "verification": "official",
+   "notes": "Issue #17 (2026-11-17): Unitree R1 - 1230x357x190 mm, about 29 kg (R1) / 27 kg (R1 AIR), 26 DoF on R1 (20 on AIR, up to 40 on EDU), about 1 h, US$5,900 (AIR US$4,900) from Unitree's R1 page. Arm load about 3-5 kg. [replaced price_note: list 5900 USD (maker), per HumanoidStore, checked 2026-10 -> R1 US$5,900; R1 AIR US$4,900 (tax and shipping excluded)]"
   },
   {
    "id": "unitree-superman",
@@ -27469,14 +27596,15 @@
    "compute_detail": null,
    "ros_support": null,
    "sensors": [],
-   "price_usd": 368,
-   "price_note": "list 368 USD (maker), per HumanoidStore, checked 2026-11",
+   "price_usd": null,
+   "price_note": null,
    "official_url": null,
    "sources": [
-    "https://humanoidstore.co/robots/vstone-robovie-nano"
+    "https://www.vstone.co.jp/products/robovie_nano/spec.html"
    ],
    "summary": "Desktop-size humanoid from Vstone; shipping now, anyone can order.",
-   "data_source": "HumanoidStore open data (CC BY 4.0)"
+   "verification": "official",
+   "notes": "Issue #17 (2026-11-17): Robovie-nano - 230x121x72 mm, about 575 g with battery, 15 DoF (head 1, arms 6, legs 8), 15 VS-S020A servos, JPY 47,000 excl. tax (the JPY list price was not converted into a USD price). [emptied (no maker value) price_usd=368; price_note=list 368 USD (maker), per HumanoidStore, checked 2026-11]"
   },
   {
    "id": "vstone-tichno",
@@ -27581,15 +27709,15 @@
    "status": "Pilot",
    "length_mm": null,
    "width_mm": null,
-   "height_mm": null,
-   "weight_kg": null,
+   "height_mm": 1700,
+   "weight_kg": 80,
    "payload_kg": 40,
-   "max_speed_mps": null,
+   "max_speed_mps": 0.83,
    "min_speed_mps": null,
    "wheel_diameter_mm": null,
    "wheel_count": null,
-   "dof": null,
-   "runtime_h": null,
+   "dof": 28,
+   "runtime_h": 4.0,
    "battery_wh": null,
    "ip_rating": null,
    "api_support": null,
@@ -27603,10 +27731,11 @@
    "price_note": null,
    "official_url": null,
    "sources": [
-    "https://humanoidstore.co/robots/wandercraft-calvin-40"
+    "https://de.wandercraft.eu/calvin"
    ],
    "summary": "Full-size humanoid from Wandercraft; b2b only, sold to businesses.",
-   "data_source": "HumanoidStore open data (CC BY 4.0)"
+   "verification": "unconfirmed",
+   "notes": "Issue #17 (2026-11-17): Calvin-40 - Wandercraft's site describes the industrial humanoid and its 40 kg handling but publishes no table of height, mass, DoF or speed, so the figures here come from third-party cataloguing of Wandercraft's material and the record stays unconfirmed. [replaced height_mm: None -> 1700; weight_kg: None -> 80; max_speed_mps: None -> 0.83; dof: None -> 28; runtime_h: None -> 4.0]"
   },
   {
    "id": "waseda-twendy-one",
@@ -27669,14 +27798,14 @@
    "status": "Research",
    "length_mm": null,
    "width_mm": null,
-   "height_mm": null,
-   "weight_kg": 149,
+   "height_mm": 1540,
+   "weight_kg": 150,
    "payload_kg": null,
    "max_speed_mps": null,
    "min_speed_mps": null,
    "wheel_diameter_mm": null,
    "wheel_count": null,
-   "dof": 20,
+   "dof": null,
    "runtime_h": null,
    "battery_wh": null,
    "ip_rating": null,
@@ -27691,10 +27820,11 @@
    "price_note": null,
    "official_url": null,
    "sources": [
-    "https://humanoidstore.co/robots/waseda-airec"
+    "https://airec-waseda.jp/en/toppage_en/"
    ],
    "summary": "Wheeled (bimanual torso on a wheeled base) humanoid from Waseda University (JST Moonshot Program); research only, sold to research buyers.",
-   "data_source": "HumanoidStore open data (CC BY 4.0)"
+   "verification": "official",
+   "notes": "Issue #17 (2026-11-17): AIREC - 154 cm, 150 kg per the JST Moonshot / Waseda project materials. No DoF count is published, so the HumanoidStore DoF was emptied. [replaced height_mm: None -> 1540; weight_kg: 149 -> 150 | emptied (no maker value) dof=20]"
   },
   {
    "id": "weave-isaac-1",
@@ -27725,14 +27855,15 @@
    "compute_detail": null,
    "ros_support": null,
    "sensors": [],
-   "price_usd": 7999,
-   "price_note": "list 7999 USD (maker), per HumanoidStore, checked 2026-10",
+   "price_usd": null,
+   "price_note": null,
    "official_url": null,
    "sources": [
-    "https://humanoidstore.co/robots/weave-isaac-1"
+    "https://www.weaverobotics.com/isaac-1"
    ],
    "summary": "Wheeled (bimanual torso on a wheeled base) humanoid from Weave Robotics; preorder, anyone can order.",
-   "data_source": "HumanoidStore open data (CC BY 4.0)"
+   "verification": "official",
+   "notes": "Issue #17 (2026-11-17): Isaac 1 - height 3 ft to 5'9\" (1750 taken), 21 DoF (neck 2, arms 6x2, hands 1x2, torso 2, base 3), 8 h battery with a 2-hour charge, from Weave's Isaac 1 page. Weave publishes no mass, payload, speed or price, so those fields were emptied. [emptied (no maker value) price_usd=7999; price_note=list 7999 USD (maker), per HumanoidStore, checked 2026-10]"
   },
   {
    "id": "westlake-robotics-titan-o1",
@@ -28248,7 +28379,7 @@
    "height_mm": 1770,
    "weight_kg": 52,
    "payload_kg": 1.5,
-   "max_speed_mps": null,
+   "max_speed_mps": 1.0,
    "min_speed_mps": null,
    "wheel_diameter_mm": null,
    "wheel_count": null,
@@ -28267,10 +28398,11 @@
    "price_note": null,
    "official_url": null,
    "sources": [
-    "https://humanoidstore.co/robots/xiaomi-cyberone"
+    "https://www.mi.com/tr/product/xiaomi-cyberone/"
    ],
    "summary": "Full-size humanoid from Xiaomi; research only, restricted sales.",
-   "data_source": "HumanoidStore open data (CC BY 4.0)"
+   "verification": "official",
+   "notes": "Issue #17 (2026-11-17): Xiaomi CyberOne - 177 cm, 52 kg, 21 DoF, 3.6 km/h (1.0 m/s), 1.5 kg in one hand, 300 N-m peak torque, from Xiaomi's CyberOne page. [replaced max_speed_mps: None -> 1.0]"
   },
   {
    "id": "xiaomi-tieda",
@@ -28329,10 +28461,10 @@
    "status": "Announced",
    "length_mm": null,
    "width_mm": null,
-   "height_mm": 1780,
-   "weight_kg": 70,
+   "height_mm": 1730,
+   "weight_kg": 65,
    "payload_kg": null,
-   "max_speed_mps": null,
+   "max_speed_mps": 2.0,
    "min_speed_mps": null,
    "wheel_diameter_mm": null,
    "wheel_count": null,
@@ -28351,10 +28483,11 @@
    "price_note": null,
    "official_url": null,
    "sources": [
-    "https://humanoidstore.co/robots/xpeng-iron"
+    "https://www.xpeng.com/pressroom/news/01a080371029a057bc8e8a02a2c6012b"
    ],
    "summary": "Full-size humanoid from Xpeng; announced, restricted sales.",
-   "data_source": "HumanoidStore open data (CC BY 4.0)"
+   "verification": "official",
+   "notes": "Issue #17 (2026-11-17): XPeng IRON (production version) - about 173 cm, 65 kg, 76 DoF with 21 per hand, up to 2 m/s, per XPeng's production-line release. [replaced height_mm: 1780 -> 1730; weight_kg: 70 -> 65; max_speed_mps: None -> 2.0]"
   },
   {
    "id": "xpeng-px5",
@@ -29138,9 +29271,9 @@
    "status": "Commercial",
    "length_mm": null,
    "width_mm": null,
-   "height_mm": 1760,
+   "height_mm": 1756,
    "weight_kg": 111,
-   "payload_kg": 1,
+   "payload_kg": null,
    "max_speed_mps": 1,
    "min_speed_mps": null,
    "wheel_diameter_mm": null,
@@ -29156,14 +29289,15 @@
    "compute_detail": null,
    "ros_support": null,
    "sensors": [],
-   "price_usd": 13600,
-   "price_note": "list 13600 USD (maker), per HumanoidStore, checked 2026-10",
+   "price_usd": null,
+   "price_note": null,
    "official_url": null,
    "sources": [
-    "https://humanoidstore.co/robots/zerith-zerith-h1"
+    "https://zerith.com/product/comparison/"
    ],
    "summary": "Wheeled (bimanual torso on a wheeled base) humanoid from Zerith (Zerith Robotics); b2b only, sold to businesses.",
-   "data_source": "HumanoidStore open data (CC BY 4.0)"
+   "verification": "official",
+   "notes": "Issue #17 (2026-11-17): Zerith H1 wheel-arm humanoid - height adjustable 955-1756 mm (1756 taken), 111 kg, 23 active DoF (head 2, hand 7, waist incl. lift 3, chassis 2, effector 1), base speed 1 m/s, 4 h continuous. Payload is published per arm only (1.5 kg max), so the whole-robot payload field was emptied. [replaced height_mm: 1760 -> 1756 | emptied (no maker value) payload_kg=1; price_usd=13600; price_note=list 13600 USD (maker), per HumanoidStore, checked 2026-10]"
   },
   {
    "id": "zeroth-bridge",
@@ -29176,9 +29310,9 @@
    "status": "Pre-order",
    "length_mm": null,
    "width_mm": null,
-   "height_mm": 880,
-   "weight_kg": 13,
-   "payload_kg": null,
+   "height_mm": 850,
+   "weight_kg": 10,
+   "payload_kg": 2,
    "max_speed_mps": 0.2,
    "min_speed_mps": null,
    "wheel_diameter_mm": null,
@@ -29194,14 +29328,15 @@
    "compute_detail": null,
    "ros_support": null,
    "sensors": [],
-   "price_usd": 3999,
-   "price_note": "list 3999 USD (maker), per HumanoidStore, checked 2026-10",
+   "price_usd": null,
+   "price_note": null,
    "official_url": null,
    "sources": [
-    "https://humanoidstore.co/robots/zeroth-bridge"
+    "https://zeroth-openbridge.com/products/zeroth-bridge"
    ],
    "summary": "Compact humanoid from Zeroth; preorder, anyone can order.",
-   "data_source": "HumanoidStore open data (CC BY 4.0)"
+   "verification": "official",
+   "notes": "Issue #17 (2026-11-17): Zeroth Bridge - 85 cm (~10 kg; 13 kg system mass in the spec table), 0.2 m/s walking, 21 DoF (arms 4x2, waist 1, legs 6x2), 2 kg end-effector payload, 48 V. No maker runtime or price, so those fields were emptied. [replaced height_mm: 880 -> 850; weight_kg: 13 -> 10; payload_kg: None -> 2 | emptied (no maker value) price_usd=3999; price_note=list 3999 USD (maker), per HumanoidStore, checked 2026-10]"
   },
   {
    "id": "zeroth-jupiter",
@@ -29262,10 +29397,10 @@
    "status": "Pre-order",
    "length_mm": null,
    "width_mm": null,
-   "height_mm": 500,
+   "height_mm": 494,
    "weight_kg": 2.8,
    "payload_kg": null,
-   "max_speed_mps": 0.2,
+   "max_speed_mps": 0.6,
    "min_speed_mps": null,
    "wheel_diameter_mm": null,
    "wheel_count": null,
@@ -29281,13 +29416,14 @@
    "ros_support": null,
    "sensors": [],
    "price_usd": 2499,
-   "price_note": "list 2499 USD (maker), per HumanoidStore, checked 2026-10",
+   "price_note": "US$2,499 list (promotional US$1,699)",
    "official_url": null,
    "sources": [
-    "https://humanoidstore.co/robots/zeroth-m1"
+    "https://www.zeroth0.com/pages/m1-landing-page"
    ],
    "summary": "Desktop-size humanoid from Zeroth; preorder, anyone can order.",
-   "data_source": "HumanoidStore open data (CC BY 4.0)"
+   "verification": "official",
+   "notes": "Issue #17 (2026-11-17): Zeroth M1 - 195x125x494 mm, robot body 2.8 kg plus 1.4 kg mobility base, 20 DoF, 0.05 m/s biped / 0.6 m/s wheeled, about 2 h, US$2,499 MSRP. [replaced height_mm: 500 -> 494; max_speed_mps: 0.2 -> 0.6; price_note: list 2499 USD (maker), per HumanoidStore, checked 2026-10 -> US$2,499 list (promotional US$1,699)]"
   },
   {
    "id": "zeroth-sean",
@@ -29996,7 +30132,7 @@
    "width_mm": null,
    "height_mm": 1700,
    "weight_kg": 101,
-   "payload_kg": 1.5,
+   "payload_kg": 2,
    "max_speed_mps": null,
    "min_speed_mps": null,
    "wheel_diameter_mm": null,
@@ -30012,14 +30148,16 @@
    "compute_detail": null,
    "ros_support": null,
    "sensors": [],
-   "price_usd": 58024,
-   "price_note": "list 51691.37 EUR (maker), per HumanoidStore, checked 2026-10",
+   "price_usd": 54500,
+   "price_note": "EUR 47,999 (about US$54,500) from igus",
    "official_url": null,
    "sources": [
-    "https://humanoidstore.co/robots/igus-iggy"
+    "https://www.igus.com/product/0-LCA-IROB",
+    "https://press.igus.com/2025/04/29/iggy-rob-humanoid/"
    ],
    "summary": "Wheeled (bimanual torso on a wheeled base) humanoid from igus; shipping now, sold to businesses.",
-   "data_source": "HumanoidStore open data (CC BY 4.0)"
+   "verification": "official",
+   "notes": "Issue #17 (2026-11-17): iggyRob - about 1.70 m, 101 kg, 2 kg per ReBeL arm, up to 8 h, EUR 47,999 (about US$54,500) from igus' product page and launch release. DoF is not published as a total, so the HumanoidStore DoF was emptied. [replaced payload_kg: 1.5 -> 2; price_usd: 58024 -> 54500; price_note: list 51691.37 EUR (maker), per HumanoidStore, checked 2026-10 -> EUR 47,999 (about US$54,500) from igus]"
   },
   {
    "id": "igus-hop",
