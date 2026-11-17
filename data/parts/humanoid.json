@@ -42,7 +42,9 @@
    "https://humanoidstore.co/robots/unitree-g1-edu",
    "https://humanoidstore.co/robots/unitree-g1-plus"
   ],
-  "summary": "Compact, low-cost humanoid for research, education and development; arm payload ~2 kg (3 kg EDU), 9000 mAh quick-release battery."
+  "summary": "Compact, low-cost humanoid for research, education and development; arm payload ~2 kg (3 kg EDU), 9000 mAh quick-release battery.",
+  "note": "Maker page unitree.com/g1 re-checked 2026-11-17: standing 1,320 x 450 x 200 mm (H x W x T), folded 690 x 450 x 300 mm, 35 kg with battery, 23 DoF base (23-43 EDU), arm load about 2 kg (3 kg EDU), about 2 h, US$13.5K base (tax and shipping excluded). The stored height is the maker's standing figure; an earlier G1 manual and the May-2024 launch coverage give 1,270 mm (127 cm), which the current maker page does not state.",
+  "verification": "official"
  },
  {
   "id": "unitree-h1",
@@ -6123,6 +6125,7 @@
   "price_note": null,
   "official_url": "https://vinmotion.net/en/products/motion-2/",
   "sources": [
+   "https://vinmotion.net/en/products/motion-2/",
    "https://vinmotion.net/"
   ],
   "summary": "Vingroup-backed VinMotion's second-generation general-purpose bipedal humanoid built for continuous real-world deployment.",
@@ -6272,7 +6275,8 @@
   "price_note": null,
   "official_url": "https://www.noetixrobotics.com/en/detail/E1",
   "sources": [
-   "https://www.noetixrobotics.com/en/detail/E1"
+   "https://www.noetixrobotics.com/en/detail/E1",
+   "https://www.noetixrobotics.com/detail/E1"
   ],
   "summary": "1.4 m bipedal humanoid for guidance, enterprise service, companionship and education, with swappable battery and an open EDU edition.",
   "image_url": null,
@@ -6284,7 +6288,7 @@
    "https://humanoid.guide/product/e1/"
   ],
   "verification": "official",
-  "note": "Official Noetix page: BIPEDAL humanoid, 140 cm, 40 kg, max travel speed up to 3.5 m/s (as stated), continuous walking payload 5 kg, knee torque 150 N·m, 10.6 Ah quick-swap battery (5 s swap), runtime up to 2 h; EDU edition with 67 TOPS compute board; SDK docs provided; modeled hands standard, dexterous hands optional."
+  "note": "Official Noetix page re-checked 2026-11-17: BIPEDAL humanoid, 140 cm, 40 kg, max travel speed up to 3.5 m/s (as stated - flagged as unusually high for a 140 cm biped, but it is the maker's own figure), continuous walking payload 5 kg, knee torque 150 N·m, 10.6 Ah quick-swap battery (5 s swap), runtime up to 2 h; EDU edition with 67 TOPS compute board; SDK docs provided; modeled hands standard, dexterous hands optional. CONFLICT: the Noetix E-series brochure lists 136 cm and 4-5 h runtime with a top speed 'exceeding 3.5 m/s', and a company press release quotes 1.2 m/s walking; official product-page figures kept."
  },
  {
   "id": "noetix-w1",
@@ -9382,7 +9386,7 @@
    "https://humanoid.guide/product/matrix-1/"
   ],
   "verification": "official",
-  "note": "Unveiled Dec 26, 2024. Maker page lists 1.2 m/s in its spec block (another table on the page says 2.11 m/s); launch release said 77 DOF and ~65 kg vs page's 55 actuators and 67 kg. Payload is per arm. Status inferred (no sales listing)."
+  "note": "Maker page re-checked 2026-11-17. Height 180 cm, 67 kg, 10 kg per arm, 5 h, 55 actuators, 22-DoF tactile hands, 2.28 kWh pack with 45-min fast charge. Speed: the page gives two figures - its summary block says 1.2 m/s (stored) and its detailed spec list says 7.6 km/h (= 2.11 m/s); the page does not say which is walking and which is peak. DoF is not stated (55 actuators listed); the launch release said 77 DOF and ~65 kg. Payload is per arm. Status inferred (no sales listing)."
  },
  {
   "id": "maxtronics-nao-7",
