@@ -318,7 +318,9 @@
    "https://www.starship.xyz/our-robots/",
    "https://www.starship.xyz/faq/"
   ],
-  "summary": "Six-wheeled insulated sidewalk robot delivering groceries and food within about 2 miles, the most deployed fleet worldwide."
+  "summary": "Six-wheeled insulated sidewalk robot delivering groceries and food within about 2 miles, the most deployed fleet worldwide.",
+  "verification": "official",
+  "note": "Maker pages: our-robots lists 12 cameras including time-of-flight, radar, ultrasonic sensors, six wheels with a bogie system, 18 h battery and up to three shopping bags; the FAQ states approx. 38 kg without cargo and ~4 mph (6.4 km/h). Battery capacity and dimensions are not published."
  },
  {
   "id": "serve-robotics-gen3",
@@ -359,7 +361,9 @@
    "https://www.globenewswire.com/news-release/2024/10/16/2963910/0/en/Serve-Robotics-Rolls-Out-Third-Generation-Autonomous-Delivery-Robot-Platform-Upgrade-Will-Support-National-Scaling.html",
    "https://www.sec.gov/Archives/edgar/data/1832483/000183248326000034/finalserve_investorxdeck.htm"
   ],
-  "summary": "Third-generation Level 4 sidewalk food-delivery robot built with Magna, running on Uber Eats and other platforms in US cities."
+  "summary": "Third-generation Level 4 sidewalk food-delivery robot built with Magna, running on Uber Eats and other platforms in US cities.",
+  "verification": "official",
+  "note": "serverobotics.com/robot is service copy with no specification table, so the figures come from the maker's own launch release (16 Oct 2024, via GlobeNewswire) and its SEC investor deck: Level 4 sidewalk robot built with Magna, top speed 11 mph, 48 mi range, 15 gal cargo, NVIDIA Jetson Orin, Ouster REV7 lidar. Payload, mass and dimensions are not published in either document."
  },
  {
   "id": "kiwibot-kiwibot",
@@ -513,11 +517,14 @@
   "sensors": [],
   "price_usd": null,
   "price_note": "KIRIA outdoor certification: max mass 106.5 kg incl. 20 kg payload, 9 km/h, 15 deg grade (width 625.3 mm)",
-  "official_url": null,
+  "official_url": "https://robot.baemin.com",
   "sources": [
-   "https://www.kiria.org/portal/cert/portalCertEstiStats.do"
+   "https://www.kiria.org/portal/cert/portalCertEstiStats.do",
+   "https://robot.baemin.com"
   ],
-  "summary": "Baemin's in-house indoor-outdoor autonomous delivery robot, certified for sidewalk operation in Korea."
+  "summary": "Baemin's in-house indoor-outdoor autonomous delivery robot, certified for sidewalk operation in Korea.",
+  "verification": "unconfirmed",
+  "note": "Woowa Brothers' own robot site (robot.baemin.com) describes Dilly only in service terms and publishes no specification table. The figures kept here (width 625 mm, 20 kg payload, 9 km/h, max mass 106.5 kg, 15 deg grade) are from the KIRIA outdoor-operation safety certificate record, not a maker page. The maker's 3 Aug 2026 announcement covers a newer variant, Dilly X3-R 1.4 (<100 kg total, up to 15 km/h, 2 km service radius, EPP body), and gives no table either."
  },
  {
   "id": "avride-delivery-robot",
@@ -595,12 +602,15 @@
    "Thermal cameras"
   ],
   "price_usd": null,
-  "price_note": "road-going vehicle, not a sidewalk robot; gross weight 1,610 kg; 45 mph max; dims 3.2/1.44/2.1 m from drawing (axis assignment inferred)",
-  "official_url": null,
+  "price_note": "road-going vehicle, not a sidewalk robot; gross weight 1,610 kg; 3.2 m long x 1.44 m wide x 2.1 m tall read from the dimensioned drawing on the maker spec sheet (axis assignment inferred)",
+  "official_url": "https://nuro.ai",
   "sources": [
-   "https://nuro.sfo3.digitaloceanspaces.com/Nuro-R3-Spec-Sheet-Letter.pdf"
+   "https://nuro.sfo3.digitaloceanspaces.com/Nuro-R3-Spec-Sheet-Letter.pdf",
+   "https://nuro.ai"
   ],
-  "summary": "Passengerless electric on-road autonomous delivery vehicle with heated/cooled compartments and an external pedestrian airbag."
+  "summary": "Passengerless electric on-road autonomous delivery vehicle with heated/cooled compartments and an external pedestrian airbag.",
+  "verification": "official",
+  "note": "Maker spec sheet 'Nuro R3 - Third-generation vehicle' (2022, nuro.ai): 45 mph, 52 kWh battery, gross weight 1,610 kg, payload 225 kg, 0.917 m3 cargo, AC 6.6 kW / DC CCS charging; sensors camera/radar/lidar/thermal; external pedestrian airbag and collapsible front end. Dimensions are not in the specification list - they are the labels on the drawing (3.2 m, 1.44 m, 2.1 m). nuro.ai itself now markets the Nuro Driver rather than this vehicle, so the spec sheet is the only maker document for the R3."
  },
  {
   "id": "pudu-holabot",
