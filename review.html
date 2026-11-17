@@ -1,0 +1,27 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex,nofollow,noarchive">
+<link rel="stylesheet" href="assets/style.css">
+<script src="assets/i18n.js"></script><script src="assets/specs-i18n.js"></script><script src="assets/app.js"></script><script src="assets/review.js"></script>
+<title>Review — Robot Catalog</title></head>
+<body><script>nav("review.html")</script>
+<main>
+<h1 data-i18n="review_title"></h1>
+<p class="muted" data-i18n="review_sub"></p>
+<p class="small muted" data-i18n="review_hidden"></p>
+<div class="stats" id="stats"></div>
+<div class="panel"><div class="toolbar">
+ <input type="search" id="q" data-i18n-ph="search" style="min-width:240px">
+ <span class="small muted" id="kindlbl" data-i18n="review_show"></span>
+ <span class="seg2" id="kind"><button data-k="differs" class="on" data-i18n="review_kind_differs"></button><button data-k="ours_missing" data-i18n="review_kind_missing"></button><button data-k="all" data-i18n="review_kind_all"></button></span>
+ <select id="field"></select>
+</div><div class="chiprow" id="fCat"></div></div>
+<h2 data-i18n="review_view_diffs"></h2>
+<div id="diffs"><p class="muted">…</p></div>
+<h2 data-i18n="review_view_conflicts"></h2>
+<div id="conflicts"><p class="muted">…</p></div>
+<h2 data-i18n="review_view_unconfirmed"></h2>
+<div id="unconfirmed"><p class="muted">…</p></div>
+<div class="panel small" id="coverage"></div>
+</main><div id="foot"></div>
+<script>document.title=t("review_title")+" — "+t("brand");</script>
+</body></html>

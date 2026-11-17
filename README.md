@@ -8,11 +8,21 @@ Product specs for mobile robots of all kinds — AMRs, AGVs, humanoids, quadrupe
 - `data/parts/*.json` — source of truth, one file per category, one record per robot (see `data/SCHEMA.md`)
 - `data/robots.json` — merged file the site reads (`python scripts/merge.py`)
 - `index.html` (all robots) · `robot.html?id=…` (one robot) · `dashboard.html` (charts) · `table.html` (mega table)
+- `research/disagreements.json` + `review.html` — maintainer-only cross-catalogue review aid (below)
 
 ## Data rules
 Every number comes from a manufacturer page, datasheet or manual listed in that record's `sources`, except where noted below. Unknown values are `null` and show as "—" or "N/S" (not stated). Nothing is guessed.
 
 Humanoid prices, delivered prices to the US and Germany, sales status, FCC IDs and public tender prices come from HumanoidStore's open data (https://humanoidstore.co/data, dataset dated 2026-11-04, CC BY 4.0, credit "HumanoidStore (humanoidstore.co)"). 107 humanoids whose only source so far is that dataset carry `"data_source": "HumanoidStore open data (CC BY 4.0)"`; their specs are as HumanoidStore states them, not yet checked against the makers' own pages.
+
+## Cross-catalogue disagreements (maintainers only)
+For every record that carries `seen_on` (the competitor catalogues we know list it), `scripts/build_disagreements.py` opens that catalogue's page for the model and compares what it publishes with the value in `data/parts/*.json`.
+
+- `research/disagreements.json` — one entry per robot: the values that differ and the fields we leave empty, each with the catalogue page and the maker source the catalogue cites.
+- `review.html` — the review page. Hidden: `noindex`, no menu link, not in `sitemap.xml`.
+- Rebuild: `docker`-free, stdlib only — `python3 scripts/build_disagreements.py` (pages are cached in `.cache/disagreements/`, so a rerun only fetches what is missing; `--offline` rebuilds from the cache).
+
+A competitor figure is a pointer to the maker's own document, never a value for the data: nothing in `data/parts` or `data/specs` may be filled from a competitor or aggregator, and this script writes only `research/disagreements.json`.
 
 ## Theme and languages
 - Light/dark toggle (🌙/☀️) in the header; follows the system setting until changed, then remembered.
