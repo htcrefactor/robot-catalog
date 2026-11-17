@@ -5,6 +5,10 @@
 const r=d.robots.find(x=>x.id===id)||d.robots.find(x=>(x.variants||[]).some(v=>v.id===id));const m=document.getElementById("m");document.getElementById("foot").innerHTML=footer(d.meta);
 if(!r){m.innerHTML=`<h1>${t("not_found")}</h1><p><a href="index.html">${t("back")}</a></p>`;return;}
 document.title=`${r.manufacturer} ${r.name} — ${t("brand")}`;{const m=document.querySelector('meta[name="description"]');if(m)m.content=`${r.manufacturer} ${r.name} specs: every published value with sources — Robot Catalog`};
+// Analytics (GTM GTM-N5QZLXVX): robot_open once per page view, maker_link_click on outbound maker/source links.
+{const ev={robot_id:r.id,robot_name:r.name,manufacturer:r.manufacturer,robot_category:r.category};window.dataLayer=window.dataLayer||[];dataLayer.push({event:"robot_open",...ev});
+document.addEventListener("click",e=>{const a=e.target.closest&&e.target.closest("a[data-lt]");if(!a)return;let dom="";try{dom=new URL(a.href).hostname}catch(_){}
+dataLayer.push({event:"maker_link_click",...ev,link_type:a.dataset.lt,link_url:a.href,link_domain:dom});});}
 const row=(k,v,f)=>`<tr><td>${t(k)}</td><td>${v}${pvBadge(r,f)}</td></tr>`;
 const dims=[r.length_mm,r.width_mm,r.height_mm].some(v=>v!=null)?[r.length_mm,r.width_mm,r.height_mm].map(v=>v??"?").join(" × ")+" mm":"—";
 const peers=d.robots.filter(x=>x.category===r.category&&x.id!==r.id);
@@ -45,9 +49,9 @@ m.innerHTML=`<p class="small"><a href="index.html">${t("back")}</a></p>
 <div class="panel"><h2>${t("power_env")}</h2><table>${row("runtime",fmt(r.runtime_h,"h"),"runtime_h")}${row("battery",fmt(r.battery_wh,"Wh"),"battery_wh")}${row("ip",fmt(r.ip_rating),"ip_rating")}${row("released",fmt(r.release_year),"release_year")}${row("price",price,["price_usd","price_note"])}</table></div>
 <div class="panel"><h2>${t("soft_compute")}</h2><table>${row("api",yn(r.api_support),"api_support")}${row("sdk",yn(r.sdk_available)+(r.sdk_name?` <span class="small">${esc(r.sdk_name)}</span>`:""),["sdk_available","sdk_name"])}${row("ros",yn(r.ros_support),"ros_support")}${row("onboard",yn(r.onboard_compute),"onboard_compute")}${row("compute",fmt(r.compute_detail),"compute_detail")}${row("sensors",(r.sensors||[]).map(esc).join(", ")||"—","sensors")}</table></div>
 </div>
-${r.misc_reason?`<div class="panel small"><b>${t("misc_why")}</b> ${esc(r.misc_reason)}</div>`:""}${(r.variants||[]).length?`<div class="panel"><h2>${t("variants")}</h2><ul class="small">${r.variants.map(v=>`<li><b>${esc(v.name)}</b> — ${esc(LANG==="ko"&&v.note_ko?v.note_ko:v.note)}${v.url?` <a href="${esc(v.url)}" target="_blank" rel="noopener">↗</a>`:""}</li>`).join("")}</ul></div>`:""}
+${r.misc_reason?`<div class="panel small"><b>${t("misc_why")}</b> ${esc(r.misc_reason)}</div>`:""}${(r.variants||[]).length?`<div class="panel"><h2>${t("variants")}</h2><ul class="small">${r.variants.map(v=>`<li><b>${esc(v.name)}</b> — ${esc(LANG==="ko"&&v.note_ko?v.note_ko:v.note)}${v.url?` <a data-lt="variant" href="${esc(v.url)}" target="_blank" rel="noopener">↗</a>`:""}</li>`).join("")}</ul></div>`:""}
 <div id="full"></div>
-<div class="panel"><h2>${t("sources")}</h2>${r.official_url?`<p><a href="${esc(r.official_url)}" target="_blank" rel="noopener">${t("official")}</a></p>`:""}<ul class="small">${(r.sources||[]).map(s=>`<li><a href="${esc(s)}" target="_blank" rel="noopener">${esc(s)}</a></li>`).join("")}</ul></div>
+<div class="panel"><h2>${t("sources")}</h2>${r.official_url?`<p><a data-lt="official" href="${esc(r.official_url)}" target="_blank" rel="noopener">${t("official")}</a></p>`:""}<ul class="small">${(r.sources||[]).map(s=>`<li><a data-lt="source" href="${esc(s)}" target="_blank" rel="noopener">${esc(s)}</a></li>`).join("")}</ul></div>
 ${lineupHtml}${relatedHtml}${peers.length?`<details class="panel"><summary><b>${t("other_in")}: ${esc(tv(r.category))}</b> <span class="muted small">${peers.length}</span></summary><p class="small">${peers.map(p=>`<a href="robot.html?id=${encodeURIComponent(p.id)}">${esc(p.manufacturer)} ${esc(p.name)}</a>`).join(" · ")}</p></details>`:""}`;
 const full=document.getElementById("full");
 let sp=null,keys=null;
@@ -58,11 +62,11 @@ const draw=(all)=>{const by={};sp.specs.forEach(x=>{(by[x.group]=by[x.group]||[]
  const have=new Set(sp.specs.map(x=>x.key));
  if(all&&keys)keys.keys.forEach(k=>{if(!have.has(k.key))(by[k.group]=by[k.group]||[]).push({key:k.key,label:k.label,missing:1})});
  const order=[...GROUPS,...Object.keys(by).filter(g=>!GROUPS.includes(g))].filter(g=>by[g]);
- return order.map(g=>`<div class="panel"><h2>${esc(tg(g))} <span class="muted small">${by[g].filter(x=>!x.missing).length}</span></h2><table class="fs">${by[g].map(x=>x.missing?`<tr class="miss"><td>${esc(x.label)}</td><td class="muted">${t("not_published")}</td></tr>`:`<tr><td>${esc(x.label)}</td><td>${sv(x.value,x.unit)}${x.note?`<div class="small muted">${esc(x.note)}</div>`:""}${x.source?`<div class="small"><a href="${esc(x.source)}" target="_blank" rel="noopener">${esc(host(x.source))}${x.ref?" · "+esc(x.ref):""}</a></div>`:""}</td></tr>`).join("")}</table></div>`).join("");};
+ return order.map(g=>`<div class="panel"><h2>${esc(tg(g))} <span class="muted small">${by[g].filter(x=>!x.missing).length}</span></h2><table class="fs">${by[g].map(x=>x.missing?`<tr class="miss"><td>${esc(x.label)}</td><td class="muted">${t("not_published")}</td></tr>`:`<tr><td>${esc(x.label)}</td><td>${sv(x.value,x.unit)}${x.note?`<div class="small muted">${esc(x.note)}</div>`:""}${x.source?`<div class="small"><a data-lt="spec_source" href="${esc(x.source)}" target="_blank" rel="noopener">${esc(host(x.source))}${x.ref?" · "+esc(x.ref):""}</a></div>`:""}</td></tr>`).join("")}</table></div>`).join("");};
 full.innerHTML=`<h2 style="margin-top:28px">${t("full_specs")}</h2><p class="muted small">${t("full_specs_sub",{n:sp.specs.length,d:docs.length})}</p>
 <label class="small"><input type="checkbox" id="allf"> ${t("show_all_fields")}</label>
 <div class="spec" id="fsg" style="margin-top:12px">${draw(false)}</div>
-${docs.length?`<div class="panel"><h2>${t("documents")}</h2><ul class="small">${docs.map(d=>`<li><a href="${esc(d.url)}" target="_blank" rel="noopener">${esc(d.title||d.url)}</a></li>`).join("")}</ul></div>`:""}`;
+${docs.length?`<div class="panel"><h2>${t("documents")}</h2><ul class="small">${docs.map(d=>`<li><a data-lt="document" href="${esc(d.url)}" target="_blank" rel="noopener">${esc(d.title||d.url)}</a></li>`).join("")}</ul></div>`:""}`;
 document.getElementById("allf").onchange=e=>{document.getElementById("fsg").innerHTML=draw(e.target.checked)};
 })();
 </script></body></html>
