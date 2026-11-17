@@ -148,3 +148,32 @@ stays the maker's full sentence; the structured fields hold only what that sente
 - Machines whose maker names no chip (e.g. "8-core high-performance CPU") keep these fields null and stay
   findable through `compute_detail`.
 Records with no structured compute value do not carry the value fields; readers treat a missing key as null.
+
+## Change history (`data/history/<id>.json`)
+
+`scripts/merge.py` diffs every record against the previous `data/robots.json` and appends what
+changed to one file per robot. Never write these by hand; they are the record of the catalog, not
+part of it. `scripts/build_feed.py` turns them into `feed.xml` (Atom).
+
+```
+{
+  "id": "mir-mir250",
+  "name": "MiR250",
+  "manufacturer": "Mobile Industrial Robots (MiR)",
+  "updated": "2026-11-17",                       // date of the newest event
+  "events": [                                    // oldest first, newest last, capped at 100
+    {"date": "2026-11-17", "type": "updated",
+     "source": "https://mobile-industrial-robots.com/products/robots/mir250",
+     "changes": [{"field": "payload_kg", "from": 250, "to": 260}]},
+    {"date": "2026-11-19", "type": "added", "source": "...", "changes": []},
+    {"date": "2026-11-20", "type": "removed", "source": null, "changes": []}
+  ]
+}
+```
+
+- `type` is `added` (record first appears), `updated` (at least one field differs from the last
+  generated `robots.json`) or `removed` (id disappeared from `data/parts/`; the file stays).
+- `changes[].field` is a record field name, `from`/`to` are the raw values (`null` = not stated).
+- `source` is the record's `official_url`, else its first `sources` entry: the page behind the change.
+- A second merge on the same day folds into that day's `updated` event instead of adding a new one,
+  so a day of work reads as one entry.

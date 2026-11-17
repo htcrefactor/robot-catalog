@@ -70,3 +70,16 @@ function pvBadge(r,fields){const fs=Array.isArray(fields)?fields:[fields];
  return ` <span class="pv ${p.l}" title="${esc(p.why)}">${t("pv_"+p.l)}</span>`;}
 function pvLegend(){return `<div class="pvlegend">${[["official","pv_official_s"],["derived","pv_derived_s"],["unconfirmed","pv_unconfirmed_s"]].map(([l,k])=>`<span><span class="pv ${l}">${t("pv_"+l)}</span> ${t(k)}</span>`).join("")}</div>`;}
 const makerVerified=r=>r.verification==="official";
+// Per-robot change history (data/history/<id>.json, written by scripts/merge.py): one entry per merge
+// that added the record or changed a field, newest first, with old → new values and the source.
+function changeListHTML(events){
+ const fld=k=>esc(FIELD_LABEL[k]?t(FIELD_LABEL[k]):k);
+ const val=(v,k)=>{const u=FIELD_UNIT[k];let s;if(v===null||v===undefined||v==="")s="—";else if(typeof v==="boolean")s=v?t("yes"):t("no");else if(typeof v==="object"){s=v instanceof Array?v.map(String).join("; "):JSON.stringify(v);if(s.length>120)s=s.slice(0,117)+"…";s=esc(s);}else s=esc(typeof v==="number"?v.toLocaleString():String(v));return s+(u&&v!==null&&v!==undefined&&v!==""?` ${u}`:"");};
+ const badge=e=>e.type==="added"?"yes":e.type==="removed"?"no":"unk";
+ const ev=events||[];
+ const diff=e=>(e.changes||[]).length?`<ul>${e.changes.map(c=>`<li>${fld(c.field)}: <span class="muted">${val(c.from,c.field)}</span> → <b>${val(c.to,c.field)}</b></li>`).join("")}</ul>`:"";
+ const item=e=>`<li><span class="badge ${badge(e)}">${t("cl_"+e.type)}</span> <b>${esc(e.date||"")}</b>${e.source?` <a href="${esc(e.source)}" target="_blank" rel="noopener">${t("ch_source")} ↗</a>`:""}${diff(e)}</li>`;
+ return `<h2>${t("ch_title")}${ev.length?` <span class="muted small">${ev.length}</span>`:""}</h2><p class="muted small">${t("ch_sub")}</p>`+
+  (ev.length?`<ul class="small ch">${ev.slice().reverse().map(item).join("")}</ul>`:`<p class="small muted">${t("ch_none")}</p>`)+
+  `<p class="small"><a href="feed.xml">${t("ch_feed")}</a> · <a href="changelog.html">${t("ch_all")}</a></p>`;
+}

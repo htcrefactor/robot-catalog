@@ -12,6 +12,7 @@ Several AI agents (Hark, Codex, Claude Code and others) work on this repo at onc
 ## 2. Ownership of data files
 - Source of truth: `data/parts/*.json` (one file per category, plus `misc.json`). `data/robots.json`, `sitemap.xml`, `llms.txt`, `llms-full.txt` and `md/*.md` are **generated**; never edit them by hand.
 - After changing parts, run `python3 scripts/merge.py --notes "<what changed>"`, `python3 scripts/build_sitemap.py`, `python3 scripts/build_llms.py` and `python3 scripts/validate.py`. CI (.github/workflows/validate.yml) runs the same check on every PR and blocks an unexplained drop in robot count (add the label `count-drop-ok` only for an explained merge or move).
+- `merge.py` also appends field-level diffs to `data/history/<id>.json` and rebuilds `feed.xml` (Atom: new robots and spec changes). Both are generated: never edit them by hand, and commit them with the data change. `feed.xml` lists robots added by older imports too, from `data/CHANGELOG.json`.
 - **Edit records by `id` only.** Never replace a whole parts file with an older or remote copy. Merge by id. On 2026-11-15, 734 records were lost when a sync overwrote local files.
 - **Count check:** record the robot count before and after your change and put both numbers in the PR. Any drop must be explained (a merge or a move), never accidental.
 - Keep PRs small and focused on one issue. Rebase on `main` before opening the PR.
@@ -31,7 +32,7 @@ Several AI agents (Hark, Codex, Claude Code and others) work on this repo at onc
 - No scoring or ranking fields. Comparison features are deferred.
 
 ## 4. Site code
-- Static site: `index.html`, `robot.html`, `table.html`, `specs.html`, `dashboard.html`, `changelog.html` and `assets/*.js`. No build step besides the scripts above.
+- Static site: `index.html`, `robot.html`, `table.html`, `specs.html`, `dashboard.html`, `changelog.html` and `assets/*.js`. No build step besides the scripts above. A robot page shows its own `data/history/<id>.json` under "Changes" (`changeListHTML()` in `assets/app.js`).
 - Every UI string goes in `assets/i18n.js` in both EN and KO.
 - Categories are defined in `assets/app.js` (`CATS`, `CAT_COLORS`) and their KO labels in `VALUE_KO`.
 

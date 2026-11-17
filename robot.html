@@ -1,4 +1,4 @@
-<!doctype html><html lang="en"><head><script async src="https://www.googletagmanager.com/gtm.js?id=GTM-N5QZLXVX"></script><script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());</script><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><link rel="stylesheet" href="assets/style.css"><script src="assets/i18n.js"></script><script src="assets/specs-i18n.js"></script><script src="assets/app.js"></script><script src="assets/price.js"></script><script src="assets/safety.js"></script><script src="assets/compute.js"></script><meta name="description" content="Full published specs for a mobile robot, with sources."><title>Robot Catalog</title></head>
+<!doctype html><html lang="en"><head><script async src="https://www.googletagmanager.com/gtm.js?id=GTM-N5QZLXVX"></script><script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());</script><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><link rel="stylesheet" href="assets/style.css"><link rel="alternate" type="application/atom+xml" title="Robot Catalog changes" href="feed.xml"><script src="assets/i18n.js"></script><script src="assets/specs-i18n.js"></script><script src="assets/app.js"></script><script src="assets/price.js"></script><script src="assets/safety.js"></script><script src="assets/compute.js"></script><meta name="description" content="Full published specs for a mobile robot, with sources."><title>Robot Catalog</title></head>
 <body><script>nav("")</script><main id="m"><p class="muted">…</p></main><div id="foot"></div>
 <script>
 (async()=>{const d=await loadData();const fx=await loadFx();const id=new URLSearchParams(location.search).get("id");
@@ -78,7 +78,12 @@ ${krPanel}
 ${r.misc_reason?`<div class="panel small"><b>${t("misc_why")}</b> ${esc(r.misc_reason)}</div>`:""}${(r.variants||[]).length?`<div class="panel"><h2>${t("variants")}</h2><ul class="small">${r.variants.map(v=>`<li><b>${esc(v.name)}</b> — ${esc(LANG==="ko"&&v.note_ko?v.note_ko:v.note)}${v.url?` <a data-lt="variant" href="${esc(v.url)}" target="_blank" rel="noopener">↗</a>`:""}</li>`).join("")}</ul></div>`:""}
 <div id="full"></div>
 <div class="panel"><h2>${t("sources")}</h2>${r.official_url?`<p><a data-lt="official" href="${esc(r.official_url)}" target="_blank" rel="noopener">${t("official")}</a></p>`:""}<ul class="small">${(r.sources||[]).map(s=>`<li><a data-lt="source" href="${esc(s)}" target="_blank" rel="noopener">${esc(s)}</a></li>`).join("")}</ul></div>
+<div class="panel" id="hist"><h2>${t("ch_title")}</h2><p class="muted small">${t("ch_sub")}</p></div>
 ${lineupHtml}${relatedHtml}${peers.length?`<details class="panel"><summary><b>${t("other_in")}: ${esc(tv(r.category))}</b> <span class="muted small">${peers.length}</span></summary><p class="small">${peers.map(p=>`<a href="robot.html?id=${encodeURIComponent(p.id)}">${esc(p.manufacturer)} ${esc(p.name)}</a>`).join(" · ")}</p></details>`:""}`;
+// Per-robot change history: data/history/<id>.json, written by scripts/merge.py; rendered by changeListHTML().
+const histBox=document.getElementById("hist");
+if(histBox)(async()=>{let h=null;try{const res=await fetch(`data/history/${encodeURIComponent(r.id)}.json`,{cache:"no-cache"});if(res.ok)h=await res.json();}catch(e){}
+histBox.innerHTML=changeListHTML(h&&h.events);})();
 const full=document.getElementById("full");
 let sp=null,keys=null;
 try{const [a,b]=await Promise.all([fetch(`data/specs/${encodeURIComponent(r.id)}.json`,{cache:"no-cache"}),fetch("data/spec_keys.json",{cache:"no-cache"})]);if(a.ok)sp=await a.json();if(b.ok)keys=await b.json();}catch(e){}
