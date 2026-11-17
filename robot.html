@@ -5,10 +5,10 @@
 const r=d.robots.find(x=>x.id===id)||d.robots.find(x=>(x.variants||[]).some(v=>v.id===id));const m=document.getElementById("m");document.getElementById("foot").innerHTML=footer(d.meta);
 if(!r){m.innerHTML=`<h1>${t("not_found")}</h1><p><a href="index.html">${t("back")}</a></p>`;return;}
 document.title=`${r.manufacturer} ${r.name} — ${t("brand")}`;{const m=document.querySelector('meta[name="description"]');if(m)m.content=`${r.manufacturer} ${r.name} specs: every published value with sources — Robot Catalog`};
-// Analytics (GTM GTM-N5QZLXVX): robot_open once per page view, maker_link_click on outbound maker/source links.
-{const ev={robot_id:r.id,robot_name:r.name,manufacturer:r.manufacturer,robot_category:r.category};window.dataLayer=window.dataLayer||[];dataLayer.push({event:"robot_open",...ev});
+// Analytics (GA4-generated Google tag GTM-N5QZLXVX -> G-6QQWXESTB0, sent as gtag events, no GTM console tags needed): robot_open once per page view, maker_link_click on outbound maker/source links.
+{const ev={robot_id:r.id,robot_name:r.name,manufacturer:r.manufacturer,robot_category:r.category};const ga=(n,o)=>{if(typeof gtag==="function")gtag("event",n,o);};ga("robot_open",ev);
 document.addEventListener("click",e=>{const a=e.target.closest&&e.target.closest("a[data-lt]");if(!a)return;let dom="";try{dom=new URL(a.href).hostname}catch(_){}
-dataLayer.push({event:"maker_link_click",...ev,link_type:a.dataset.lt,link_url:a.href,link_domain:dom});});}
+ga("maker_link_click",{...ev,link_type:a.dataset.lt,link_url:a.href,link_domain:dom});});}
 const row=(k,v,f)=>`<tr><td>${t(k)}</td><td>${v}${pvBadge(r,f)}</td></tr>`;
 const dims=[r.length_mm,r.width_mm,r.height_mm].some(v=>v!=null)?[r.length_mm,r.width_mm,r.height_mm].map(v=>v??"?").join(" × ")+" mm":"—";
 const peers=d.robots.filter(x=>x.category===r.category&&x.id!==r.id);
