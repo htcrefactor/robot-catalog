@@ -2469,7 +2469,7 @@
 - Markdown: https://htcrefactor.github.io/robot-catalog/md/faraday-future-nova.md
 - Humanoid · Legged · Pre-order · United States
 - Summary: Faraday Future's sub-USD-2,500 entry-level EAI humanoid for developers and classrooms: a 50 cm biped with 20 DoF that can also ride a detachable wheeled base.
-- Specs: Height 497 mm; Weight 2.8 kg; Max speed 0.1 m/s (0.4 km/h); Degrees of freedom 20; Runtime 2.5 h; Status Pre-order; Price US$2,490 robot device; US$390 developer skills package; SDK yes; SDK name FF Nova open SDK with ROS 2 workflow and Sim2Real RL pipeline; ROS yes; On-board compute yes; Compute 10 TOPS, 8 GB RAM, 32 GB storage; Sensors 2D LiDAR, ~4 MP wide-angle camera, 3D ToF sensor, 3-microphone ring array, 2-inch face display
+- Specs: Height 497 mm; Weight 2.8 kg; Max speed 0.1 m/s (0.4 km/h); Degrees of freedom 20; Runtime 2.5 h; Status Pre-order; SDK yes; SDK name FF Nova open SDK with ROS 2 workflow and Sim2Real RL pipeline; ROS yes; On-board compute yes; Compute 10 TOPS, 8 GB RAM, 32 GB storage; Sensors 2D LiDAR, ~4 MP wide-angle camera, 3D ToF sensor, 3-microphone ring array, 2-inch face display
 - Sources: https://robotics.ff.com/us/nova/, https://www.ff.com/us/1014launch/, https://humanoidstore.co/robots/faraday-future-nova, https://shop.ff.com/products/ff-nova
 
 ### Faraday Future Nova Mini
@@ -2479,7 +2479,7 @@
 - Markdown: https://htcrefactor.github.io/robot-catalog/md/faraday-future-nova-mini.md
 - Humanoid · Legged · Commercial · United States
 - Summary: A USD 299 programmable 35 cm desk humanoid for STEM teaching, with 17 servo joints, block coding and pose teaching rather than an SDK.
-- Specs: Length 99 mm; Width 176 mm; Height 349 mm; Weight 0.94 kg; Degrees of freedom 17; Runtime 0.83 h; Status Commercial; Price US$299 MSRP; SDK no; Sensors Gyroscope, Microphone
+- Specs: Length 99 mm; Width 176 mm; Height 349 mm; Weight 0.94 kg; Degrees of freedom 17; Runtime 0.83 h; Status Commercial; SDK no; Sensors Gyroscope, Microphone
 - Sources: https://shop.ff.com/products/ff-nova-mini, https://robotics.ff.com/us/nova-mini-hello/, https://humanoidstore.co/robots/faraday-future-nova-mini
 
 ### Fauna Robotics Sprout
@@ -5778,7 +5778,7 @@
 - Markdown: https://htcrefactor.github.io/robot-catalog/md/unitree-g1.md
 - Humanoid · Legged · Commercial · China · released 2024
 - Summary: Unitree's small full-body humanoid for research and development, with 23 joints on the base model, expandable to 43 on the EDU version with dexterous hands.
-- Specs: Length 200 mm; Width 450 mm; Height 1,320 mm; Weight 35 kg; Payload 2 kg; Max speed 2 m/s (7.2 km/h); Degrees of freedom 23; Runtime 2 h; Released 2024; Status Commercial; Price US$13,500 for G1 (tax and shipping excluded); G1 EDU by quote; API yes; SDK yes; SDK name unitree_sdk2; ROS yes; On-board compute yes; Compute 8-core high-performance CPU standard; EDU adds optional high-compute module (e.g. NVIDIA Orin); Sensors Depth camera, 3D LiDAR, 4-microphone array
+- Specs: Length 200 mm; Width 450 mm; Height 1,320 mm; Weight 35 kg; Payload 2 kg; Max speed 2 m/s (7.2 km/h); Degrees of freedom 23; Runtime 2 h; Released 2024; Status Commercial; API yes; SDK yes; SDK name unitree_sdk2; ROS yes; On-board compute yes; Compute 8-core high-performance CPU standard; EDU adds optional high-compute module (e.g. NVIDIA Orin); Sensors Depth camera, 3D LiDAR, 4-microphone array
 - Sources: https://www.unitree.com/g1/, https://www.unitree.com/g1, https://support.unitree.com/home/en/G1_developer/about_G1, https://www.unitree.com/operate/g1/, https://github.com/unitreerobotics/unitree_sdk2, https://humanoidstore.co/robots/unitree-g1, https://humanoidstore.co/robots/unitree-g1-edu, https://humanoidstore.co/robots/unitree-g1-plus, https://github.com/unitreerobotics/unitree_ros/blob/master/robots/g1_description/g1_29dof.urdf, https://github.com/unitreerobotics/unitree_sdk2_python, https://github.com/unitreerobotics/unitree_ros, https://github.com/unitreerobotics/unitree_ros2, https://github.com/unitreerobotics/unitree_mujoco, https://shop.unitree.com/products/unitree-g1
 
 ### Unitree Robotics G1-D
@@ -5818,7 +5818,7 @@
 - Markdown: https://htcrefactor.github.io/robot-catalog/md/unitree-h2.md
 - Humanoid · Legged · Commercial · China · released 2025
 - Summary: Unitree's 1.82 m humanoid with a bionic head and 31 DoF, built for heavier industrial and research work with 360 Nm leg joints.
-- Specs: Length 218 mm; Width 456 mm; Height 1,820 mm; Weight 70 kg; Payload 15 kg; Degrees of freedom 31; Released 2025; Status Commercial; Price US$29,900 for H2 (tax and shipping excluded); H2 EDU by quote; API yes; SDK yes; SDK name unitree_sdk2; ROS yes; On-board compute yes; Compute PC1 Intel Core i5 (platform); EDU adds PC2 Intel Core i7 for custom development; optional module e.g. NVIDIA Thor; Sensors Bionic head with facial features
+- Specs: Length 218 mm; Width 456 mm; Height 1,820 mm; Weight 70 kg; Payload 15 kg; Degrees of freedom 31; Released 2025; Status Commercial; API yes; SDK yes; SDK name unitree_sdk2; ROS yes; On-board compute yes; Compute PC1 Intel Core i5 (platform); EDU adds PC2 Intel Core i7 for custom development; optional module e.g. NVIDIA Thor; Sensors Bionic head with facial features
 - Sources: https://www.unitree.com/H2/, https://www.unitree.com/H2, https://support.unitree.com/home/en/H2_developer/About_H2, https://www.unitree.com/cn/H2/, https://humanoidstore.co/robots/unitree-h2, https://humanoidstore.co/robots/unitree-h2-edu, https://humanoidstore.co/robots/unitree-h2-plus, https://github.com/unitreerobotics/unitree_sdk2, https://github.com/unitreerobotics/unitree_ros/blob/master/robots/h2_description/H2.urdf, https://github.com/unitreerobotics/unitree_sdk2_python, https://github.com/unitreerobotics/unitree_ros, https://github.com/unitreerobotics/unitree_ros2, https://github.com/unitreerobotics/unitree_mujoco, https://shop.unitree.com/products/unitree-h2
 
 ### Unitree Robotics H2-D
@@ -5838,7 +5838,7 @@
 - Markdown: https://htcrefactor.github.io/robot-catalog/md/unitree-r1.md
 - Humanoid · Legged · Commercial · China · released 2025
 - Summary: Unitree's lightweight companion humanoid: 123 cm and about 29 kg with 26 DoF, a 2-DoF waist and head, and a multimodal voice and image model.
-- Specs: Length 190 mm; Width 357 mm; Height 1,230 mm; Weight 29 kg; Payload 2 kg; Degrees of freedom 26; Runtime 1 h; Released 2025; Status Commercial; Price R1 US$5,900; R1 AIR US$4,900 (tax and shipping excluded); API yes; SDK yes; SDK name unitree_sdk2; ROS yes; On-board compute yes; Compute 8-core high-performance processor; optional NVIDIA Jetson Orin (40-100 TOPS) on R1 EDU; Sensors Binocular camera (monocular on R1 AIR), 4-microphone array
+- Specs: Length 190 mm; Width 357 mm; Height 1,230 mm; Weight 29 kg; Payload 2 kg; Degrees of freedom 26; Runtime 1 h; Released 2025; Status Commercial; API yes; SDK yes; SDK name unitree_sdk2; ROS yes; On-board compute yes; Compute 8-core high-performance processor; optional NVIDIA Jetson Orin (40-100 TOPS) on R1 EDU; Sensors Binocular camera (monocular on R1 AIR), 4-microphone array
 - Sources: https://www.unitree.com/R1/, https://www.unitree.com/R1, https://www.unitree.com/cn/R1/, https://humanoidstore.co/robots/unitree-r1, https://humanoidstore.co/robots/unitree-r1-air, https://humanoidstore.co/robots/unitree-r1-edu, https://github.com/unitreerobotics/unitree_sdk2, https://github.com/unitreerobotics/unitree_ros/blob/master/robots/r1_description/R1.urdf, https://github.com/unitreerobotics/unitree_sdk2_python, https://github.com/unitreerobotics/unitree_ros, https://github.com/unitreerobotics/unitree_ros2, https://github.com/unitreerobotics/unitree_mujoco, https://shop.unitree.com/products/unitree-r1
 
 ### Unitree Robotics Superman (prototype)

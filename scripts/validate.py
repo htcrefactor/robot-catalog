@@ -1,12 +1,38 @@
-"""Validate catalog data. Fails on bad JSON, duplicate ids, missing required fields, unknown categories, a stale robots.json or robots.csv, or an unexplained drop in robot count."""
-import csv, json, glob, os, sys
+"""Validate catalog data. Fails on bad JSON, duplicate ids, missing required fields, unknown categories, a stale robots.json or robots.csv, bad dated price observations, a missing FX table, or an unexplained drop in robot count."""
+import csv, json, glob, os, re, sys, datetime
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from catalog_data import CSV_COLUMNS, csv_row  # noqa: E402
 
 root = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 CATS = {"AMR","AGV","Humanoid","Quadruped","Wheel-legged","Indoor delivery","Outdoor delivery","Mobile platform","Misc"}
+KINDS = {"list","from","rental","edu"}
 err, ids, records = [], {}, {}
+
+
+def load_fx():
+    p = os.path.join(root, "data/fx.json")
+    try:
+        fx = json.load(open(p, encoding="utf-8"))
+    except Exception as e:
+        err.append(f"data/fx.json: missing or invalid ({e}) — run scripts/build_fx.py")
+        return {}
+    if not re.match(r"^\d{4}-\d{2}-\d{2}$", str(fx.get("date", ""))):
+        err.append("data/fx.json: no reference date")
+    rates = fx.get("rates") or {}
+    if not rates:
+        err.append("data/fx.json: no rates")
+    if rates.get("KRW") != 1:
+        err.append("data/fx.json: KRW must be the base (rate 1)")
+    if rates.get("USD") in (None, 0):
+        err.append("data/fx.json: no USD rate, so observations cannot be shown in KRW and USD")
+    if not fx.get("source_url"):
+        err.append("data/fx.json: no source_url")
+    return rates
+
+
+RATES = load_fx()
+today = datetime.date.today()
 for f in sorted(glob.glob(os.path.join(root, "data/parts/*.json"))):
     try: recs = json.load(open(f, encoding="utf-8"))
     except Exception as e: err.append(f"{f}: invalid JSON ({e})"); continue
@@ -20,6 +46,46 @@ for f in sorted(glob.glob(os.path.join(root, "data/parts/*.json"))):
             if not r.get(k): err.append(f"{i}: missing {k}")
         if r.get("category") and r["category"] not in CATS: err.append(f"{i}: unknown category {r['category']}")
         if r.get("verification") not in (None, "official", "unconfirmed"): err.append(f"{i}: bad verification {r.get('verification')}")
+        obs = r.get("price_observations")
+        if obs is None: continue
+        if not isinstance(obs, list): err.append(f"{i}: price_observations must be a list"); continue
+        if r.get("price_usd") is not None or r.get("price_note") is not None:
+            err.append(f"{i}: has price_observations and also the legacy price_usd/price_note — keep one")
+        if not obs: err.append(f"{i}: price_observations is empty — omit the field instead")
+        seen = set()
+        for n, o in enumerate(obs):
+            at = f"{i}: price_observations[{n}]"
+            if not isinstance(o, dict): err.append(f"{at} is not an object"); continue
+            d = str(o.get("date", ""))
+            if not re.match(r"^\d{4}-\d{2}-\d{2}$", d):
+                err.append(f"{at}: date must be YYYY-MM-DD, got {o.get('date')!r}")
+            else:
+                try:
+                    dd = datetime.date.fromisoformat(d)
+                    if dd > today: err.append(f"{at}: date {d} is in the future")
+                except ValueError:
+                    err.append(f"{at}: date {d} is not a real date")
+            a = o.get("amount")
+            if not isinstance(a, (int, float)) or isinstance(a, bool) or a <= 0:
+                err.append(f"{at}: amount must be a positive number, got {a!r}")
+            c = o.get("currency")
+            if not (isinstance(c, str) and re.match(r"^[A-Z]{3}$", c)):
+                err.append(f"{at}: currency must be an ISO 4217 code, got {c!r}")
+            elif c not in RATES:
+                err.append(f"{at}: no FX rate for {c} in data/fx.json — run scripts/build_fx.py")
+            k = o.get("kind")
+            if k not in KINDS:
+                err.append(f"{at}: kind must be one of {sorted(KINDS)}, got {k!r}")
+            s = o.get("source")
+            if not (isinstance(s, str) and s.startswith("http")):
+                err.append(f"{at}: source must be an http(s) URL")
+            elif s not in (r.get("sources") or []):
+                err.append(f"{at}: source {s} is not listed in the record's sources")
+            if o.get("note") is not None and not isinstance(o.get("note"), str):
+                err.append(f"{at}: note must be a string")
+            key = (d, a, c, k, s)
+            if key in seen: err.append(f"{at}: duplicate observation {key}")
+            seen.add(key)
 built = json.load(open(os.path.join(root, "data/robots.json"), encoding="utf-8"))["robots"]
 if len(built) != len(ids): err.append(f"data/robots.json has {len(built)} robots but parts have {len(ids)}: run scripts/merge.py")
 # data/robots.csv is generated from the same parts: it must be present and match them cell for cell.

@@ -7,6 +7,7 @@ Product specs for mobile robots of all kinds — AMRs, AGVs, humanoids, quadrupe
 ## Layout
 - `data/parts/*.json` — source of truth, one file per category, one record per robot (see `data/SCHEMA.md`)
 - `data/robots.json` — merged file the site reads (`python scripts/merge.py`)
+- `data/fx.json` — KRW cross rates and their ECB reference date, for the KRW figures (`python scripts/build_fx.py`)
 - `index.html` (all robots) · `robot.html?id=…` (one robot) · `dashboard.html` (charts) · `table.html` (mega table)
 - `research/disagreements.json` + `review.html` — maintainer-only cross-catalogue review aid (below)
 - `data/robots.csv` — the same records, one row per robot, written by the same `merge.py`
@@ -31,6 +32,11 @@ For every record that carries `seen_on` (the competitor catalogues we know list 
 - Rebuild: `docker`-free, stdlib only — `python3 scripts/build_disagreements.py` (pages are cached in `.cache/disagreements/`, so a rerun only fetches what is missing; `--offline` rebuilds from the cache).
 
 A competitor figure is a pointer to the maker's own document, never a value for the data: nothing in `data/parts` or `data/specs` may be filled from a competitor or aggregator, and this script writes only `research/disagreements.json`.
+
+## Prices
+A price is stored as a dated observation (`price_observations`): the amount in the currency the maker states, the date it was checked, the kind of price, and the maker or official-store URL — never a competitor, reseller or aggregator. A record can carry several, one per date or variant, and the robot page draws them as a price history.
+
+KRW is not stored anywhere. `data/fx.json` holds KRW per 1 unit for 30 currencies crossed from the European Central Bank's daily reference rates, with the ECB's reference date, and the pages convert at display time so the rate and its date stay next to the figure (`python3 scripts/build_fx.py` refreshes it). A price recorded before dated observations were introduced has no date, so it is shown as stated and **not** converted; those are the only records that still use `price_usd` / `price_note`.
 
 ## Theme and languages
 - Light/dark toggle (🌙/☀️) in the header; follows the system setting until changed, then remembered.

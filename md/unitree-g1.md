@@ -22,7 +22,6 @@
 | Runtime | 2 h |
 | Released | 2024 |
 | Status | Commercial |
-| Price | US$13,500 for G1 (tax and shipping excluded); G1 EDU by quote |
 | API | yes |
 | SDK | yes |
 | SDK name | unitree_sdk2 |

@@ -18,7 +18,6 @@
 | Degrees of freedom | 20 |
 | Runtime | 2.5 h |
 | Status | Pre-order |
-| Price | US$2,490 robot device; US$390 developer skills package |
 | SDK | yes |
 | SDK name | FF Nova open SDK with ROS 2 workflow and Sim2Real RL pipeline |
 | ROS | yes |

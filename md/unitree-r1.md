@@ -21,7 +21,6 @@
 | Runtime | 1 h |
 | Released | 2025 |
 | Status | Commercial |
-| Price | R1 US$5,900; R1 AIR US$4,900 (tax and shipping excluded) |
 | API | yes |
 | SDK | yes |
 | SDK name | unitree_sdk2 |

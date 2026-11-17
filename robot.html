@@ -1,7 +1,7 @@
-<!doctype html><html lang="en"><head><script async src="https://www.googletagmanager.com/gtm.js?id=GTM-N5QZLXVX"></script><script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());</script><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><link rel="stylesheet" href="assets/style.css"><script src="assets/i18n.js"></script><script src="assets/specs-i18n.js"></script><script src="assets/app.js"></script><meta name="description" content="Full published specs for a mobile robot, with sources."><title>Robot Catalog</title></head>
+<!doctype html><html lang="en"><head><script async src="https://www.googletagmanager.com/gtm.js?id=GTM-N5QZLXVX"></script><script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());</script><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><link rel="stylesheet" href="assets/style.css"><script src="assets/i18n.js"></script><script src="assets/specs-i18n.js"></script><script src="assets/app.js"></script><script src="assets/price.js"></script><meta name="description" content="Full published specs for a mobile robot, with sources."><title>Robot Catalog</title></head>
 <body><script>nav("")</script><main id="m"><p class="muted">…</p></main><div id="foot"></div>
 <script>
-(async()=>{const d=await loadData();const id=new URLSearchParams(location.search).get("id");
+(async()=>{const d=await loadData();const fx=await loadFx();const id=new URLSearchParams(location.search).get("id");
 const r=d.robots.find(x=>x.id===id)||d.robots.find(x=>(x.variants||[]).some(v=>v.id===id));const m=document.getElementById("m");document.getElementById("foot").innerHTML=footer(d.meta);
 if(!r){m.innerHTML=`<h1>${t("not_found")}</h1><p><a href="index.html">${t("back")}</a></p>`;return;}
 document.title=`${r.manufacturer} ${r.name} — ${t("brand")}`;{const m=document.querySelector('meta[name="description"]');if(m)m.content=`${r.manufacturer} ${r.name} specs: every published value with sources — Robot Catalog`};
@@ -32,7 +32,7 @@ const rcard=(x,showMaker)=>`<a class="card" href="robot.html?id=${encodeURICompo
 const moreTxt=(n,k)=>n>0?`<p class="small muted" style="margin:10px 0 0">${t(k,{n})}</p>`:"";
 const lineupHtml=lineupAll.length?`<div class="panel"><h2>${t("lineup_title",{maker:esc(r.manufacturer)})}</h2><p class="muted small">${t("lineup_sub")}</p><div class="grid">${lineupAll.slice(0,MAX_REL).map(x=>rcard(x,false)).join("")}</div>${moreTxt(lineupAll.length-MAX_REL,"lineup_more")}</div>`:"";
 const relatedHtml=relatedAll.length?`<div class="panel"><h2>${t("related_title")}</h2><p class="muted small">${t("related_sub")}</p><div class="grid">${relatedAll.slice(0,MAX_REL).map(x=>rcard(x,true)).join("")}</div>${moreTxt(relatedAll.length-MAX_REL,"related_more")}</div>`:"";
-const price=r.price_usd==null?(r.price_note?esc(r.price_note):"—"):`$${r.price_usd.toLocaleString()}${r.price_note?` <span class="muted small">(${esc(r.price_note)})</span>`:""}`;
+const price=(()=>{const o=latestObs(r);if(o)return priceText(o,fx);return r.price_usd==null?(r.price_note?esc(r.price_note):"—"):`$${r.price_usd.toLocaleString()}${r.price_note?` <span class="muted small">(${esc(r.price_note)})</span>`:""}`;})();
 const cm=completeness(r);
 m.innerHTML=`<p class="small"><a href="index.html">${t("back")}</a></p>
 <div class="muted" style="text-transform:uppercase;font-size:12px;letter-spacing:.5px">${esc(r.manufacturer)} · ${esc(tv(r.country))}</div>
@@ -49,6 +49,7 @@ m.innerHTML=`<p class="small"><a href="index.html">${t("back")}</a></p>
 <div class="panel"><h2>${t("power_env")}</h2><table>${row("runtime",fmt(r.runtime_h,"h"),"runtime_h")}${row("battery",fmt(r.battery_wh,"Wh"),"battery_wh")}${row("ip",fmt(r.ip_rating),"ip_rating")}${row("released",fmt(r.release_year),"release_year")}${row("price",price,["price_usd","price_note"])}</table></div>
 <div class="panel"><h2>${t("soft_compute")}</h2><table>${row("api",yn(r.api_support),"api_support")}${row("sdk",yn(r.sdk_available)+(r.sdk_name?` <span class="small">${esc(r.sdk_name)}</span>`:""),["sdk_available","sdk_name"])}${row("ros",yn(r.ros_support),"ros_support")}${row("onboard",yn(r.onboard_compute),"onboard_compute")}${row("compute",fmt(r.compute_detail),"compute_detail")}${row("sensors",(r.sensors||[]).map(esc).join(", ")||"—","sensors")}</table></div>
 </div>
+${pricePanel(r,fx)}
 ${r.misc_reason?`<div class="panel small"><b>${t("misc_why")}</b> ${esc(r.misc_reason)}</div>`:""}${(r.variants||[]).length?`<div class="panel"><h2>${t("variants")}</h2><ul class="small">${r.variants.map(v=>`<li><b>${esc(v.name)}</b> — ${esc(LANG==="ko"&&v.note_ko?v.note_ko:v.note)}${v.url?` <a data-lt="variant" href="${esc(v.url)}" target="_blank" rel="noopener">↗</a>`:""}</li>`).join("")}</ul></div>`:""}
 <div id="full"></div>
 <div class="panel"><h2>${t("sources")}</h2>${r.official_url?`<p><a data-lt="official" href="${esc(r.official_url)}" target="_blank" rel="noopener">${t("official")}</a></p>`:""}<ul class="small">${(r.sources||[]).map(s=>`<li><a data-lt="source" href="${esc(s)}" target="_blank" rel="noopener">${esc(s)}</a></li>`).join("")}</ul></div>

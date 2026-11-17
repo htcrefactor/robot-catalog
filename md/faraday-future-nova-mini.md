@@ -19,7 +19,6 @@
 | Degrees of freedom | 17 |
 | Runtime | 0.83 h |
 | Status | Commercial |
-| Price | US$299 MSRP |
 | SDK | no |
 | Sensors | Gyroscope, Microphone |
 
