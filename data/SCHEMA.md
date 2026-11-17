@@ -30,6 +30,12 @@
   "price_note": null,                  // e.g. "starting price", "from CNY 9,999"
   "official_url": null,
   "sources": [],                       // URLs actually opened that support the numbers
+  "kr_distributors": [],               // Korean sales channels: [{name, kind, url}], kind = "direct" (maker's own Korean sales), "distributor" (official Korean distributor), "reseller"; url = the page that shows the channel
+  "kr_note": null,                     // one short Korean-market note (sales model, availability, Korean naming)
+  "name_ko": null,                     // official Korean product name from the maker's Korean page; null when the maker has none
+  "manufacturer_ko": null,             // Korean name of the maker, as the maker writes it
   "summary": ""                        // one plain sentence, what it is for
 }
 Rules: never guess; unknown = null. Prefer manufacturer spec pages/datasheets. Numbers as numbers.
+
+Korean-market fields: `name_ko`, `manufacturer_ko`, `kr_distributors` and `kr_note` come from the maker's own Korean page or an official Korean distributor's page, listed in that record's `sources`. Leave `name_ko` null when the maker publishes no Korean product name (a model number stays as it is). `kr_distributors` is a list and may be empty; when a record has an entry, `validate.py` checks name, http(s) url and kind.

@@ -38,7 +38,15 @@
   "sources": [
    "https://mobile-industrial-robots.com/products/robots/mir250",
    "https://mobile-industrial-robots.com/products/robots/mir250/specifications",
-   "https://ai.motion.com/wp-content/uploads/2025/10/MiR250-Specifications-2.99.pdf"
+   "https://ai.motion.com/wp-content/uploads/2025/10/MiR250-Specifications-2.99.pdf",
+   "https://mobile-industrial-robots.com/ko/contacts"
+  ],
+  "kr_distributors": [
+   {
+    "name": "MiR 코리아 (Mobile Industrial Robots 한국 지사)",
+    "kind": "direct",
+    "url": "https://mobile-industrial-robots.com/ko/contacts"
+   }
   ],
   "summary": "Compact 250 kg indoor AMR for moving small and medium loads, carts and shelves around factories and warehouses."
  },
@@ -81,7 +89,15 @@
   "sources": [
    "https://mobile-industrial-robots.com/products/robots/mir600",
    "https://mobile-industrial-robots.com/products/robots/mir600/specifications",
-   "https://ai.motion.com/wp-content/uploads/2025/10/MiR600-Specifications-2.99.pdf"
+   "https://ai.motion.com/wp-content/uploads/2025/10/MiR600-Specifications-2.99.pdf",
+   "https://mobile-industrial-robots.com/ko/contacts"
+  ],
+  "kr_distributors": [
+   {
+    "name": "MiR 코리아 (Mobile Industrial Robots 한국 지사)",
+    "kind": "direct",
+    "url": "https://mobile-industrial-robots.com/ko/contacts"
+   }
   ],
   "summary": "IP52-rated 600 kg AMR that picks up and moves pallets and heavy loads as a forklift alternative."
  },
@@ -125,7 +141,15 @@
   "official_url": "https://mobile-industrial-robots.com/products/robots/mir1200-pallet-jack",
   "sources": [
    "https://mobile-industrial-robots.com/products/robots/mir1200-pallet-jack",
-   "https://mobile-industrial-robots.com/products/robots/mir1200-pallet-jack/specifications"
+   "https://mobile-industrial-robots.com/products/robots/mir1200-pallet-jack/specifications",
+   "https://mobile-industrial-robots.com/ko/contacts"
+  ],
+  "kr_distributors": [
+   {
+    "name": "MiR 코리아 (Mobile Industrial Robots 한국 지사)",
+    "kind": "direct",
+    "url": "https://mobile-industrial-robots.com/ko/contacts"
+   }
   ],
   "summary": "Autonomous pallet jack that detects, lifts and delivers EU pallets up to 1,200 kg using AI-based perception."
  },
@@ -248,7 +272,15 @@
   "price_note": null,
   "official_url": "https://www.kuka.com/en-gb/products/amr-autonomous-mobile-robotics/mobile-platforms/kmp-600-s-diffdrive",
   "sources": [
-   "https://www.kuka.com/-/media/kuka-corporate/countries/nordic/documents/amr---autonomous-mobile-robotics.pdf"
+   "https://www.kuka.com/-/media/kuka-corporate/countries/nordic/documents/amr---autonomous-mobile-robotics.pdf",
+   "https://www.kuka.com/ko-kr/"
+  ],
+  "kr_distributors": [
+   {
+    "name": "쿠카로보틱스코리아 (KUKA Robotics Korea Co., Ltd.)",
+    "kind": "direct",
+    "url": "https://www.kuka.com/ko-kr/"
+   }
   ],
   "summary": "IP54 differential-drive lifting platform KUKA markets as an AGV for 600 kg production intralogistics on laser-mapped routes."
  },
@@ -287,7 +319,15 @@
   "price_note": null,
   "official_url": "https://www.kuka.com/",
   "sources": [
-   "https://www.kuka.com/-/media/kuka-corporate/countries/nordic/documents/amr---autonomous-mobile-robotics.pdf"
+   "https://www.kuka.com/-/media/kuka-corporate/countries/nordic/documents/amr---autonomous-mobile-robotics.pdf",
+   "https://www.kuka.com/ko-kr/"
+  ],
+  "kr_distributors": [
+   {
+    "name": "쿠카로보틱스코리아 (KUKA Robotics Korea Co., Ltd.)",
+    "kind": "direct",
+    "url": "https://www.kuka.com/ko-kr/"
+   }
   ],
   "summary": "Omnidirectional (Mecanum omniMove) 1.5 t platform that navigates freely to move products through flexible production."
  },
@@ -329,7 +369,16 @@
   "price_note": null,
   "official_url": "https://robotics.omron.com/products/mobile-robots/ld-series/ld-250/",
   "sources": [
-   "https://assets.omron.eu/downloads/latest/datasheet/en/i828_ld-series_mobile_robot_datasheet_en.pdf"
+   "https://assets.omron.eu/downloads/latest/datasheet/en/i828_ld-series_mobile_robot_datasheet_en.pdf",
+   "https://www.omron.co.kr/",
+   "https://robotics.omron.com/ko/products/mobile-robots/ld-series/ld-250/"
+  ],
+  "kr_distributors": [
+   {
+    "name": "한국오므론제어기기(주)",
+    "kind": "direct",
+    "url": "https://www.omron.co.kr/"
+   }
   ],
   "summary": "250 kg natural-feature-navigation AMR for transport between workstations, lines and storage."
  },
@@ -370,7 +419,16 @@
   "price_note": null,
   "official_url": "https://robotics.omron.com/products/mobile-robots/hd-series/hd-1500",
   "sources": [
-   "https://assets.omron.eu/downloads/latest/datasheet/en/i855_hd-series_mobile_robot_datasheet_en.pdf"
+   "https://assets.omron.eu/downloads/latest/datasheet/en/i855_hd-series_mobile_robot_datasheet_en.pdf",
+   "https://www.omron.co.kr/",
+   "https://robotics.omron.com/ko/products/mobile-robots/ld-series/ld-250/"
+  ],
+  "kr_distributors": [
+   {
+    "name": "한국오므론제어기기(주)",
+    "kind": "direct",
+    "url": "https://www.omron.co.kr/"
+   }
   ],
   "summary": "Heavy-duty AMR for pallets and large assemblies up to 1,500 kg with 360° safety coverage."
  },
@@ -583,6 +641,7 @@
   "id": "samhyun-boldum",
   "name": "BOLDUM (HAMR 3-ton)",
   "manufacturer": "Samhyun",
+  "manufacturer_ko": "주식회사 삼현",
   "country": "South Korea",
   "category": "AMR",
   "locomotion": "Wheeled",
@@ -619,6 +678,13 @@
   "sources": [
    "https://www.samhyun.co.kr/our-up/robot-industry/view?category_code=1210&code=164&tpf=product%2Fview",
    "https://www.samhyun.co.kr/news?board_code=1&code=6868&tpf=board%2Fview"
+  ],
+  "kr_distributors": [
+   {
+    "name": "삼현 (본사 직판)",
+    "kind": "direct",
+    "url": "https://www.samhyun.co.kr/"
+   }
   ],
   "summary": "Heavy-duty indoor/outdoor autonomous mobile robot carrying up to 3 t between and inside factories; 5.7 km/h standard, 20 km/h high-power option."
  },
@@ -1107,6 +1173,7 @@
   "id": "rainbow-robotics-rbm-s100a",
   "name": "RBM-S100a",
   "manufacturer": "Rainbow Robotics",
+  "manufacturer_ko": "레인보우로보틱스",
   "country": "South Korea",
   "category": "AMR",
   "locomotion": "Wheeled",
@@ -1142,8 +1209,17 @@
   "sources": [
    "https://rainbow-robotics.com/products/rbm-s100a/",
    "https://github.com/rainbow-mobile",
-   "https://rainbow-mobile.github.io/doc-s100-ttk/"
+   "https://rainbow-mobile.github.io/doc-s100-ttk/",
+   "https://rainbow-robotics.com/"
   ],
+  "kr_distributors": [
+   {
+    "name": "레인보우로보틱스 (본사·파트너사 직판)",
+    "kind": "direct",
+    "url": "https://rainbow-robotics.com/"
+   }
+  ],
+  "kr_note": "국내 판매·데모·기술 상담은 본사와 전문 파트너사를 통해 진행합니다.",
   "summary": "Compact Korean SLAM AMR for narrow spaces carrying 120 kg at 1.2 m/s with 2D LiDAR and two depth cameras, 10 h runtime.",
   "image_url": "https://rainbow-robotics.com/wp-content/uploads/2026/04/spl-img-782X700.jpg",
   "image_source": "https://rainbow-robotics.com/products/rbm-s100a/",
@@ -1165,6 +1241,7 @@
   "id": "rainbow-robotics-rbm-s100b",
   "name": "RBM-S100b",
   "manufacturer": "Rainbow Robotics",
+  "manufacturer_ko": "레인보우로보틱스",
   "country": "South Korea",
   "category": "AMR",
   "locomotion": "Wheeled",
@@ -1199,8 +1276,17 @@
   "official_url": "https://rainbow-robotics.com/products/rbm-s100b/",
   "sources": [
    "https://rainbow-robotics.com/products/rbm-s100b/",
-   "https://github.com/rainbow-mobile"
+   "https://github.com/rainbow-mobile",
+   "https://rainbow-robotics.com/"
   ],
+  "kr_distributors": [
+   {
+    "name": "레인보우로보틱스 (본사·파트너사 직판)",
+    "kind": "direct",
+    "url": "https://rainbow-robotics.com/"
+   }
+  ],
+  "kr_note": "국내 판매·데모·기술 상담은 본사와 전문 파트너사를 통해 진행합니다.",
   "summary": "Multi-tray version of Rainbow's compact SLAM AMR, 100 kg payload at 1.2 m/s with 2D LiDAR and dual depth cameras.",
   "image_url": "https://rainbow-robotics.com/wp-content/uploads/2026/04/spl-img-782X700.jpg",
   "image_source": "https://rainbow-robotics.com/products/rbm-s100b/",
@@ -2880,7 +2966,15 @@
   "official_url": "https://mobile-industrial-robots.com/products/robots/mir1350",
   "sources": [
    "https://mobile-industrial-robots.com/products/robots/mir1350",
-   "https://mobile-industrial-robots.com/products/robots/mir1350/specifications"
+   "https://mobile-industrial-robots.com/products/robots/mir1350/specifications",
+   "https://mobile-industrial-robots.com/ko/contacts"
+  ],
+  "kr_distributors": [
+   {
+    "name": "MiR 코리아 (Mobile Industrial Robots 한국 지사)",
+    "kind": "direct",
+    "url": "https://mobile-industrial-robots.com/ko/contacts"
+   }
   ],
   "summary": "MiR's heaviest-duty AMR for autonomous pallet and heavy-load transport up to 1,350 kg.",
   "image_url": "https://a.storyblok.com/f/230581/2000x1248/c78fdbb2b7/mir1350-transparent.png",
@@ -4222,6 +4316,7 @@
   "id": "rainbow-robotics-rbm-d1000",
   "name": "RBM-D1000",
   "manufacturer": "Rainbow Robotics",
+  "manufacturer_ko": "레인보우로보틱스",
   "country": "South Korea",
   "category": "AMR",
   "locomotion": "Wheeled",
@@ -4256,8 +4351,17 @@
   "official_url": "https://rainbow-robotics.com/en/products/rbm-d1000/",
   "sources": [
    "https://rainbow-robotics.com/en/products/rbm-d1000/",
-   "https://www.rainbow-robotics.com/product_spec/download?id=7d8969fc-04c8-4ff9-9c39-e837c3b357fe"
+   "https://www.rainbow-robotics.com/product_spec/download?id=7d8969fc-04c8-4ff9-9c39-e837c3b357fe",
+   "https://rainbow-robotics.com/"
   ],
+  "kr_distributors": [
+   {
+    "name": "레인보우로보틱스 (본사·파트너사 직판)",
+    "kind": "direct",
+    "url": "https://rainbow-robotics.com/"
+   }
+  ],
+  "kr_note": "국내 판매·데모·기술 상담은 본사와 전문 파트너사를 통해 진행합니다.",
   "summary": "Industrial AMR platform for ultra-heavy material transport up to 1,000 kg in large manufacturing sites, with SLAM navigation and web-based FMS.",
   "image_url": "https://rainbow-robotics.com/wp-content/uploads/2026/04/spl-img-782X700.jpg",
   "image_source": "https://rainbow-robotics.com/en/products/rbm-d1000/",
@@ -4272,6 +4376,7 @@
   "id": "rainbow-robotics-rbm-d400",
   "name": "RBM-D400",
   "manufacturer": "Rainbow Robotics",
+  "manufacturer_ko": "레인보우로보틱스",
   "country": "South Korea",
   "category": "AMR",
   "locomotion": "Wheeled",
@@ -4306,8 +4411,17 @@
   "official_url": "https://rainbow-robotics.com/en/products/rbm-d400/",
   "sources": [
    "https://rainbow-robotics.com/en/products/rbm-d400/",
-   "https://www.rainbow-robotics.com/product_spec/download?id=7d8969fc-04c8-4ff9-9c39-e837c3b357fe"
+   "https://www.rainbow-robotics.com/product_spec/download?id=7d8969fc-04c8-4ff9-9c39-e837c3b357fe",
+   "https://rainbow-robotics.com/"
   ],
+  "kr_distributors": [
+   {
+    "name": "레인보우로보틱스 (본사·파트너사 직판)",
+    "kind": "direct",
+    "url": "https://rainbow-robotics.com/"
+   }
+  ],
+  "kr_note": "국내 판매·데모·기술 상담은 본사와 전문 파트너사를 통해 진행합니다.",
   "summary": "Industrial AMR platform for 400 kg material transport in manufacturing and logistics, with SLAM navigation and optional lift or conveyor top modules.",
   "image_url": "https://rainbow-robotics.com/wp-content/uploads/2026/03/1-RBM-D400-3-1.png",
   "image_source": "https://rainbow-robotics.com/en/products/rbm-d400/",

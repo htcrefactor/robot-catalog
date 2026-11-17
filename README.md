@@ -17,3 +17,4 @@ Humanoid prices, delivered prices to the US and Germany, sales status, FCC IDs a
 ## Theme and languages
 - Light/dark toggle (🌙/☀️) in the header; follows the system setting until changed, then remembered.
 - UI in English and Korean (EN/KR switch). Strings live in `assets/i18n.js`: add a language by adding a block with the same keys and listing it in `LANGS`. Category/status/country values are translated via `VALUE_KO`. Robot summaries stay in English unless a record has `summary_ko`.
+- Korean-market data (Issue #35): `name_ko` (official Korean product name), `manufacturer_ko` and `kr_distributors` (Korean sales channels: maker direct, official distributor or reseller) are set from the maker's Korean page or an official Korean distributor's page. Where they are present the UI shows the Korean name next to the English one, and the robot page lists the Korean sales channels with a Korean-market note.

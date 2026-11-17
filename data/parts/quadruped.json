@@ -2,6 +2,7 @@
  {
   "id": "boston-dynamics-spot",
   "name": "Spot",
+  "name_ko": "스팟",
   "manufacturer": "Boston Dynamics",
   "country": "United States",
   "category": "Quadruped",
@@ -35,7 +36,16 @@
   "official_url": "https://bostondynamics.com/products/spot/",
   "sources": [
    "https://bostondynamics.com/products/spot/",
-   "https://dev.bostondynamics.com/"
+   "https://dev.bostondynamics.com/",
+   "https://bostondynamics.com/blog/expanding-our-reach-in-korea/",
+   "https://spot.clobot.co.kr/"
+  ],
+  "kr_distributors": [
+   {
+    "name": "클로봇 (Clobot)",
+    "kind": "distributor",
+    "url": "https://spot.clobot.co.kr/"
+   }
   ],
   "summary": "Agile industrial quadruped for autonomous inspection, data capture and hazardous-area response, extendable with payloads and an arm."
  },
@@ -164,7 +174,15 @@
   "price_note": "tax and freight excluded",
   "official_url": "https://www.unitree.com/go2",
   "sources": [
-   "https://www.unitree.com/go2"
+   "https://www.unitree.com/go2",
+   "https://www.younginmobility.com/"
+  ],
+  "kr_distributors": [
+   {
+    "name": "영인모빌리티 (Unitree 한국 공식 파트너)",
+    "kind": "distributor",
+    "url": "https://www.younginmobility.com/"
+   }
   ],
   "summary": "Entry consumer quadruped robot dog with 4D LiDAR for hobby and companionship use."
  },
@@ -205,7 +223,15 @@
   "price_note": "tax and freight excluded",
   "official_url": "https://www.unitree.com/go2",
   "sources": [
-   "https://www.unitree.com/go2"
+   "https://www.unitree.com/go2",
+   "https://www.younginmobility.com/"
+  ],
+  "kr_distributors": [
+   {
+    "name": "영인모빌리티 (Unitree 한국 공식 파트너)",
+    "kind": "distributor",
+    "url": "https://www.younginmobility.com/"
+   }
   ],
   "summary": "Consumer quadruped with 4G, voice and side-follow features for enthusiasts."
  },
@@ -248,7 +274,15 @@
   "official_url": "https://www.unitree.com/go2",
   "sources": [
    "https://www.unitree.com/go2",
-   "https://github.com/unitreerobotics/unitree_sdk2"
+   "https://github.com/unitreerobotics/unitree_sdk2",
+   "https://www.younginmobility.com/"
+  ],
+  "kr_distributors": [
+   {
+    "name": "영인모빌리티 (Unitree 한국 공식 파트너)",
+    "kind": "distributor",
+    "url": "https://www.younginmobility.com/"
+   }
   ],
   "summary": "Research and education version of Go2 with secondary-development access, foot force sensors and a long-endurance battery."
  },
@@ -289,7 +323,15 @@
   "price_note": null,
   "official_url": "https://www.unitree.com/b2",
   "sources": [
-   "https://www.unitree.com/b2"
+   "https://www.unitree.com/b2",
+   "https://www.younginmobility.com/"
+  ],
+  "kr_distributors": [
+   {
+    "name": "영인모빌리티 (Unitree 한국 공식 파트너)",
+    "kind": "distributor",
+    "url": "https://www.younginmobility.com/"
+   }
   ],
   "summary": "Heavy industrial quadruped for power inspection, emergency rescue and logistics with 40 kg walking load."
  },
@@ -330,7 +372,15 @@
   "price_note": "contact sales",
   "official_url": "https://www.unitree.com/A2",
   "sources": [
-   "https://www.unitree.com/A2"
+   "https://www.unitree.com/A2",
+   "https://www.younginmobility.com/"
+  ],
+  "kr_distributors": [
+   {
+    "name": "영인모빌리티 (Unitree 한국 공식 파트너)",
+    "kind": "distributor",
+    "url": "https://www.younginmobility.com/"
+   }
   ],
   "summary": "Mid-size industrial quadruped with hot-swappable dual batteries for inspection, logistics and rescue."
  },
@@ -508,6 +558,7 @@
   "id": "rainbow-robotics-rbq-10",
   "name": "RBQ-10",
   "manufacturer": "Rainbow Robotics",
+  "manufacturer_ko": "레인보우로보틱스",
   "country": "South Korea",
   "category": "Quadruped",
   "locomotion": "Legged",
@@ -545,14 +596,25 @@
   "official_url": "https://rainbow-robotics.com/en/products/rbq-10",
   "sources": [
    "https://rainbowrobotics.github.io/RBQ/manual/product-descriptions/general-specification.html",
-   "https://www.hani.co.kr/arti/economy/marketing/1285758.html"
+   "https://www.hani.co.kr/arti/economy/marketing/1285758.html",
+   "https://rainbow-robotics.com/"
   ],
+  "kr_distributors": [
+   {
+    "name": "레인보우로보틱스 (본사·파트너사 직판)",
+    "kind": "direct",
+    "url": "https://rainbow-robotics.com/"
+   }
+  ],
+  "kr_note": "국내 판매·데모·기술 상담은 본사와 전문 파트너사를 통해 진행합니다.",
   "summary": "Korean outdoor quadruped platform for patrol, inspection, observation and research with sensor expansion."
  },
  {
   "id": "diden-robotics-diden-spider",
   "name": "Diden Spider (Spider 30)",
+  "name_ko": "디든 스파이더 30",
   "manufacturer": "Diden Robotics",
+  "manufacturer_ko": "디든로보틱스",
   "country": "South Korea",
   "category": "Quadruped",
   "locomotion": "Legged",
@@ -585,7 +647,15 @@
    "https://robotworld.or.kr/visitors/pop_list_of_exhibitors.php?idx=1431",
    "https://www.eweek.com/news/news-diden-spider-30-magnetic-robot-shipyards-south-korea-apac/",
    "https://www.didenrobotics.com/en/resources-all/nvidia-gtc-2026-spider-30",
-   "https://en.fnnews.com/news/202611041829341672"
+   "https://en.fnnews.com/news/202611041829341672",
+   "https://www.didenrobotics.com/"
+  ],
+  "kr_distributors": [
+   {
+    "name": "디든로보틱스 (본사 직판)",
+    "kind": "direct",
+    "url": "https://www.didenrobotics.com/"
+   }
   ],
   "summary": "Magnetic-foot (electro-permanent magnet) quadruped that climbs steel walls and ceilings inside ship blocks to carry welding and inspection tools."
  },
@@ -748,7 +818,15 @@
   "price_note": null,
   "official_url": "https://www.unitree.com/a1/",
   "sources": [
-   "https://www.unitree.com/a1/"
+   "https://www.unitree.com/a1/",
+   "https://www.younginmobility.com/"
+  ],
+  "kr_distributors": [
+   {
+    "name": "영인모빌리티 (Unitree 한국 공식 파트너)",
+    "kind": "distributor",
+    "url": "https://www.younginmobility.com/"
+   }
   ],
   "summary": "Mid-size research quadruped with 3.3 m/s continuous running speed, 5 kg payload and high/low-level real-time API for secondary development.",
   "image_url": null,
@@ -995,7 +1073,15 @@
   "price_note": null,
   "official_url": "https://www.unitree.com/aliengo/",
   "sources": [
-   "https://www.unitree.com/aliengo/"
+   "https://www.unitree.com/aliengo/",
+   "https://www.younginmobility.com/"
+  ],
+  "kr_distributors": [
+   {
+    "name": "영인모빌리티 (Unitree 한국 공식 파트너)",
+    "kind": "distributor",
+    "url": "https://www.younginmobility.com/"
+   }
   ],
   "summary": "Industrial-level research quadruped with 12 servo motors, 13 kg load, C/C++ and ROS high/low-level control interfaces.",
   "image_url": null,
@@ -1044,7 +1130,15 @@
   "price_note": null,
   "official_url": "https://www.unitree.com/b1/",
   "sources": [
-   "https://www.unitree.com/b1/"
+   "https://www.unitree.com/b1/",
+   "https://www.younginmobility.com/"
+  ],
+  "kr_distributors": [
+   {
+    "name": "영인모빌리티 (Unitree 한국 공식 파트너)",
+    "kind": "distributor",
+    "url": "https://www.younginmobility.com/"
+   }
   ],
   "summary": "IP68 industrial heavy-load quadruped (~50 kg) carrying 20 kg while walking, with five depth cameras and 932 Wh battery.",
   "image_url": null,
@@ -1098,7 +1192,15 @@
   "price_note": "Go1 Air $2,700; Go1 Pro $3,500 (tax/freight excluded); Edu by quote",
   "official_url": "https://www.unitree.com/go1/",
   "sources": [
-   "https://www.unitree.com/go1/"
+   "https://www.unitree.com/go1/",
+   "https://www.younginmobility.com/"
+  ],
+  "kr_distributors": [
+   {
+    "name": "영인모빌리티 (Unitree 한국 공식 파트너)",
+    "kind": "distributor",
+    "url": "https://www.younginmobility.com/"
+   }
   ],
   "summary": "Consumer-level bionic companion quadruped (12 kg) with super-sensing stereo cameras, AI compute and up to 3.7 m/s (Edu).",
   "image_url": null,
@@ -2613,7 +2715,15 @@
   "sources": [
    "https://www.unitree.com/As2",
    "https://shop.unitree.com/products/unitree-as2",
-   "https://support.unitree.com/home/en/AS2_SDK_Development_Guide"
+   "https://support.unitree.com/home/en/AS2_SDK_Development_Guide",
+   "https://www.younginmobility.com/"
+  ],
+  "kr_distributors": [
+   {
+    "name": "영인모빌리티 (Unitree 한국 공식 파트너)",
+    "kind": "distributor",
+    "url": "https://www.younginmobility.com/"
+   }
   ],
   "summary": "Compact 20 kg industrial quadruped with 15 kg walking payload, IP54, 648 Wh battery for 4+ h, and up to 5 m/s.",
   "image_url": null,
@@ -4839,6 +4949,7 @@
   "id": "kaist-hound",
   "name": "HOUND",
   "manufacturer": "KAIST",
+  "manufacturer_ko": "한국과학기술원",
   "country": "South Korea",
   "category": "Quadruped",
   "locomotion": "Legged",
@@ -4867,7 +4978,9 @@
   "price_usd": null,
   "price_note": null,
   "official_url": null,
-  "sources": [],
+  "sources": [
+   "https://rainbow-robotics.com/"
+  ],
   "summary": "",
   "image_url": null,
   "image_source": null,
@@ -4881,6 +4994,7 @@
   "id": "kaist-raibo",
   "name": "RAIBO",
   "manufacturer": "KAIST",
+  "manufacturer_ko": "한국과학기술원",
   "country": "South Korea",
   "category": "Quadruped",
   "locomotion": "Legged",
@@ -4909,7 +5023,9 @@
   "price_usd": null,
   "price_note": null,
   "official_url": null,
-  "sources": [],
+  "sources": [
+   "https://rainbow-robotics.com/"
+  ],
   "summary": "",
   "image_url": null,
   "image_source": null,
@@ -5209,7 +5325,9 @@
  {
   "id": "maum-ai-jindo-bot",
   "name": "JINDO BOT",
+  "name_ko": "진도봇",
   "manufacturer": "Maum AI",
+  "manufacturer_ko": "마음AI",
   "country": "South Korea",
   "category": "Quadruped",
   "locomotion": "Legged",
@@ -5241,6 +5359,13 @@
   "sources": [
    "https://maum.ai/",
    "https://kr.linkedin.com/posts/maum-ai_%EB%A7%88%EC%9D%8Cai-maumai-jindobot-activity-7426550307632926721-l3H6"
+  ],
+  "kr_distributors": [
+   {
+    "name": "마음AI (본사 직판·사전 예약)",
+    "kind": "direct",
+    "url": "https://maum.ai/"
+   }
   ],
   "summary": "Domestically produced full-autonomy quadruped from maum.ai for security patrol, defence and industrial safety, running on-device Physical AI.",
   "image_url": null,
@@ -5871,7 +5996,9 @@
  {
   "id": "raion-robotics-raibo2",
   "name": "RAIBO2",
+  "name_ko": "라이보2",
   "manufacturer": "Raion Robotics",
+  "manufacturer_ko": "라이온로보틱스",
   "country": "South Korea",
   "category": "Quadruped",
   "locomotion": "Legged",
@@ -5908,7 +6035,15 @@
    "https://raionrobotics.com/en/product/Raibo2",
    "https://www.hannovermesse.de/apollo/hannover_messe_2026/obs/Binary/A1513828/Company%20ProfileEN_smallsize_1.pdf",
    "https://railab.kaist.ac.kr/sections/robots.html",
-   "https://doi.org/10.21203/rs.3.rs-6040970/v1"
+   "https://doi.org/10.21203/rs.3.rs-6040970/v1",
+   "https://raionrobotics.com/"
+  ],
+  "kr_distributors": [
+   {
+    "name": "라이온로보틱스 (본사 직판)",
+    "kind": "direct",
+    "url": "https://raionrobotics.com/"
+   }
   ],
   "summary": "Energy-efficient field quadruped with in-house actuators and RL control, running up to 6 m/s and walking about 8 hours per charge.",
   "image_url": "https://raionrobotics.com/news/marathon_raibo2.png",
@@ -6372,7 +6507,16 @@
   "price_usd": null,
   "price_note": null,
   "official_url": null,
-  "sources": [],
+  "sources": [
+   "https://www.younginmobility.com/"
+  ],
+  "kr_distributors": [
+   {
+    "name": "영인모빌리티 (Unitree 한국 공식 파트너)",
+    "kind": "distributor",
+    "url": "https://www.younginmobility.com/"
+   }
+  ],
   "summary": "",
   "image_url": null,
   "image_source": null,

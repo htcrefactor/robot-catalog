@@ -16,7 +16,8 @@ en:{
  n_wheel:"{a} of {b} robots state a wheel diameter.",n_ip:"{a} of {b} robots state an IP rating.",n_speed:"{a} of {b} robots state a max speed. Bars start at the stated minimum speed, or 0 when none is stated.",
  not_stated:"Not stated",robot:"Robot",category:"Category",slowest:"slowest",fastest:"fastest",
  table_title:"Mega table",table_sub:"Every robot and every field. Click a column to sort.",filter:"Filter…",csv:"Download CSV",
- col_maker:"Maker",col_country:"Country",col_loco:"Locomotion",col_status:"Status",col_year:"Year",col_sdkname:"SDK name",col_pricenote:"Price note",
+ col_maker:"Maker",col_country:"Country",col_loco:"Locomotion",col_status:"Status",col_year:"Year",col_sdkname:"SDK name",col_pricenote:"Price note",col_name_ko:"Korean name",col_kr:"Korean channels",
+ kr_market:"Korean market",korean_market_count:"in the Korean market",korean_makers:"Korean makers",kr_channels:"Korean sales channels",kr_channel_direct:"Maker direct",kr_channel_distributor:"Official distributor",kr_channel_reseller:"Reseller",kr_no_channels:"No Korean sales channel recorded yet.",kr_note_label:"Korean market note",name_ko_label:"Korean name",manufacturer_ko_label:"Korean maker name",
  footer:"Specs come from manufacturer pages and datasheets linked on each robot's page. \"N/S\" = not stated by the source.",updated:"Last updated {d}.",
  theme_dark:"Dark mode",theme_light:"Light mode",yes:"YES",no:"NO",ns:"N/S"
 },
@@ -35,7 +36,8 @@ ko:{
  n_wheel:"{b}대 중 {a}대가 바퀴 지름을 공개합니다.",n_ip:"{b}대 중 {a}대가 IP 등급을 공개합니다.",n_speed:"{b}대 중 {a}대가 최고 속도를 공개합니다. 막대는 공개된 최저 속도(없으면 0)에서 시작합니다.",
  not_stated:"미공개",robot:"로봇",category:"카테고리",slowest:"가장 느림",fastest:"가장 빠름",
  table_title:"전체 표",table_sub:"모든 로봇의 모든 항목. 열을 누르면 정렬됩니다.",filter:"필터…",csv:"CSV 다운로드",
- col_maker:"제조사",col_country:"국가",col_loco:"이동 방식",col_status:"상태",col_year:"연도",col_sdkname:"SDK 이름",col_pricenote:"가격 비고",
+ col_maker:"제조사",col_country:"국가",col_loco:"이동 방식",col_status:"상태",col_year:"연도",col_sdkname:"SDK 이름",col_pricenote:"가격 비고",col_name_ko:"한국어 이름",col_kr:"국내 유통",
+ kr_market:"한국 시장",korean_market_count:"국내 시장",korean_makers:"한국 제조사",kr_channels:"국내 구매·유통",kr_channel_direct:"제조사 직판",kr_channel_distributor:"공식 유통사",kr_channel_reseller:"판매점",kr_no_channels:"등록된 국내 구매·유통 정보가 없습니다.",kr_note_label:"국내 시장 메모",name_ko_label:"한국어 이름",manufacturer_ko_label:"제조사 한국어명",
  footer:"사양은 각 로봇 페이지에 링크된 제조사 페이지와 데이터시트에서 가져왔습니다. \"N/S\" = 출처에 명시되지 않음.",updated:"최종 업데이트 {d}.",
  theme_dark:"다크 모드",theme_light:"라이트 모드",yes:"YES",no:"NO",ns:"N/S"
 }};

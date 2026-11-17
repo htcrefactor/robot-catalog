@@ -951,7 +951,15 @@
   "price_note": null,
   "official_url": "https://www.kuka.com/en-de/products/amr-autonomous-mobile-robotics/mobile-robot-systems/kmr-iisy-autonomous-mobile-cobot",
   "sources": [
-   "https://www.kuka.com/en-de/products/amr-autonomous-mobile-robotics/mobile-robot-systems/kmr-iisy-autonomous-mobile-cobot"
+   "https://www.kuka.com/en-de/products/amr-autonomous-mobile-robotics/mobile-robot-systems/kmr-iisy-autonomous-mobile-cobot",
+   "https://www.kuka.com/ko-kr/"
+  ],
+  "kr_distributors": [
+   {
+    "name": "쿠카로보틱스코리아 (KUKA Robotics Korea Co., Ltd.)",
+    "kind": "direct",
+    "url": "https://www.kuka.com/ko-kr/"
+   }
   ],
   "summary": "KUKA autonomous mobile cobot combining a SLAM-navigating platform (up to 200 kg) with an LBR iisy arm for machine tending, pick-and-place and cleanroom logistics.",
   "image_url": "https://www.kuka.com/-/media/kuka-corporate/images/products/mobility/kmr-iisy-mobile-cobot/kuka-kmr-iisy-mobile-cobot.jpg?rev=5a7824ca3d4743d688d471595472a703&w=767&hash=F431C8BCCFECAFC2D250451611FF4CBA",
@@ -1159,7 +1167,15 @@
   "sources": [
    "https://www.kuka.com/en-us/products/amr-autonomous-mobile-robotics/mobile-robot-systems/kmr-iiwa",
    "https://www.kuka.com/-/media/kuka-downloads/files/87f2706ce77c4318877932fb36f6002d/kuka_kmriiwa_en.pdf",
-   "https://my.kuka.com/s/product/kmr-iiwa-omnimove-c/01t1i000000AQtGAAW?language=en_US"
+   "https://my.kuka.com/s/product/kmr-iiwa-omnimove-c/01t1i000000AQtGAAW?language=en_US",
+   "https://www.kuka.com/ko-kr/"
+  ],
+  "kr_distributors": [
+   {
+    "name": "쿠카로보틱스코리아 (KUKA Robotics Korea Co., Ltd.)",
+    "kind": "direct",
+    "url": "https://www.kuka.com/ko-kr/"
+   }
   ],
   "summary": "Autonomous HRC-capable mobile robot combining KUKA's LBR iiwa 7-axis cobot with an omnidirectional Mecanum-wheel platform.",
   "image_url": null,

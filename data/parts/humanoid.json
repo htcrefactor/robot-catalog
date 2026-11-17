@@ -40,7 +40,15 @@
    "https://github.com/unitreerobotics/unitree_sdk2",
    "https://humanoidstore.co/robots/unitree-g1",
    "https://humanoidstore.co/robots/unitree-g1-edu",
-   "https://humanoidstore.co/robots/unitree-g1-plus"
+   "https://humanoidstore.co/robots/unitree-g1-plus",
+   "https://www.younginmobility.com/"
+  ],
+  "kr_distributors": [
+   {
+    "name": "영인모빌리티 (Unitree 한국 공식 파트너)",
+    "kind": "distributor",
+    "url": "https://www.younginmobility.com/"
+   }
   ],
   "summary": "Compact, low-cost humanoid for research, education and development; arm payload ~2 kg (3 kg EDU), 9000 mAh quick-release battery."
  },
@@ -81,7 +89,15 @@
   "official_url": "https://www.unitree.com/h1",
   "sources": [
    "https://www.unitree.com/h1",
-   "https://humanoidstore.co/robots/unitree-h1"
+   "https://humanoidstore.co/robots/unitree-h1",
+   "https://www.younginmobility.com/"
+  ],
+  "kr_distributors": [
+   {
+    "name": "영인모빌리티 (Unitree 한국 공식 파트너)",
+    "kind": "distributor",
+    "url": "https://www.younginmobility.com/"
+   }
   ],
   "summary": "Full-size research humanoid (dims 1520+285 x 570 x 220 mm) noted for 3.3 m/s running; H1-2 variant is 70 kg with 27 DoF."
  },
@@ -124,7 +140,15 @@
    "https://www.unitree.com/H2",
    "https://humanoidstore.co/robots/unitree-h2",
    "https://humanoidstore.co/robots/unitree-h2-edu",
-   "https://humanoidstore.co/robots/unitree-h2-plus"
+   "https://humanoidstore.co/robots/unitree-h2-plus",
+   "https://www.younginmobility.com/"
+  ],
+  "kr_distributors": [
+   {
+    "name": "영인모빌리티 (Unitree 한국 공식 파트너)",
+    "kind": "distributor",
+    "url": "https://www.younginmobility.com/"
+   }
   ],
   "summary": "180 cm full-size humanoid with bionic head; arm payload rated ~7 kg (peak ~15 kg)."
  },
@@ -667,7 +691,9 @@
  {
   "id": "aeirobot-alice-4",
   "name": "ALICE 4",
+  "name_ko": "앨리스4",
   "manufacturer": "AeiROBOT",
+  "manufacturer_ko": "에이로봇",
   "country": "South Korea",
   "category": "Humanoid",
   "locomotion": "Legged",
@@ -697,7 +723,15 @@
   "price_note": null,
   "official_url": null,
   "sources": [
-   "https://humanoidstore.co/robots/aeirobot-alice-4"
+   "https://humanoidstore.co/robots/aeirobot-alice-4",
+   "http://www.arobot4all.com/"
+  ],
+  "kr_distributors": [
+   {
+    "name": "에이로봇 (본사 직판)",
+    "kind": "direct",
+    "url": "http://www.arobot4all.com/"
+   }
   ],
   "summary": "Full-size humanoid from AeiROBOT; research only, sold to businesses.",
   "data_source": "HumanoidStore open data (CC BY 4.0)"
@@ -2764,7 +2798,9 @@
  {
   "id": "lg-cloid",
   "name": "CLOiD",
+  "name_ko": "LG 클로이드",
   "manufacturer": "LG Electronics",
+  "manufacturer_ko": "LG전자",
   "country": "South Korea",
   "category": "Humanoid",
   "locomotion": "Wheeled",
@@ -2794,8 +2830,17 @@
   "price_note": null,
   "official_url": null,
   "sources": [
-   "https://humanoidstore.co/robots/lg-cloid"
+   "https://humanoidstore.co/robots/lg-cloid",
+   "https://www.lge.co.kr/story/newsroom/225625"
   ],
+  "kr_distributors": [
+   {
+    "name": "LG전자 (직판·로봇 구독)",
+    "kind": "direct",
+    "url": "https://www.lge.co.kr/"
+   }
+  ],
+  "kr_note": "국내에서는 구매 외에 로봇 구독(RaaS) 방식으로도 공급합니다.",
   "summary": "Wheeled (bimanual torso on a wheeled base) humanoid from LG Electronics; announced, restricted sales.",
   "data_source": "HumanoidStore open data (CC BY 4.0)"
  },
@@ -3640,6 +3685,7 @@
   "id": "rainbow-robotics-drc-hubo-plus",
   "name": "DRC-HUBO+",
   "manufacturer": "Rainbow Robotics",
+  "manufacturer_ko": "레인보우로보틱스",
   "country": "South Korea",
   "category": "Humanoid",
   "locomotion": "Legged",
@@ -3669,8 +3715,17 @@
   "price_note": null,
   "official_url": null,
   "sources": [
-   "https://humanoidstore.co/robots/rainbow-robotics-drc-hubo-plus"
+   "https://humanoidstore.co/robots/rainbow-robotics-drc-hubo-plus",
+   "https://rainbow-robotics.com/"
   ],
+  "kr_distributors": [
+   {
+    "name": "레인보우로보틱스 (본사·파트너사 직판)",
+    "kind": "direct",
+    "url": "https://rainbow-robotics.com/"
+   }
+  ],
+  "kr_note": "국내 판매·데모·기술 상담은 본사와 전문 파트너사를 통해 진행합니다.",
   "summary": "Full-size humanoid from Rainbow Robotics; research only, sold to research buyers.",
   "data_source": "HumanoidStore open data (CC BY 4.0)"
  },
@@ -3678,6 +3733,7 @@
   "id": "rainbow-rby1",
   "name": "RB-Y1",
   "manufacturer": "Rainbow Robotics",
+  "manufacturer_ko": "레인보우로보틱스",
   "country": "South Korea",
   "category": "Humanoid",
   "locomotion": "Wheeled",
@@ -3707,8 +3763,17 @@
   "price_note": "list 80000 USD (maker), per HumanoidStore, checked 2026-10",
   "official_url": null,
   "sources": [
-   "https://humanoidstore.co/robots/rainbow-rby1"
+   "https://humanoidstore.co/robots/rainbow-rby1",
+   "https://rainbow-robotics.com/"
   ],
+  "kr_distributors": [
+   {
+    "name": "레인보우로보틱스 (본사·파트너사 직판)",
+    "kind": "direct",
+    "url": "https://rainbow-robotics.com/"
+   }
+  ],
+  "kr_note": "국내 판매·데모·기술 상담은 본사와 전문 파트너사를 통해 진행합니다.",
   "summary": "Wheeled (bimanual torso on a wheeled base) humanoid from Rainbow Robotics; shipping now, anyone can order.",
   "data_source": "HumanoidStore open data (CC BY 4.0)"
  },
@@ -3830,6 +3895,7 @@
   "id": "robotis-ai-worker",
   "name": "AI Worker",
   "manufacturer": "ROBOTIS",
+  "manufacturer_ko": "로보티즈",
   "country": "South Korea",
   "category": "Humanoid",
   "locomotion": "Wheeled",
@@ -3859,7 +3925,15 @@
   "price_note": "list 69000 USD (reseller), per HumanoidStore, checked 2026-10",
   "official_url": null,
   "sources": [
-   "https://humanoidstore.co/robots/robotis-ai-worker"
+   "https://humanoidstore.co/robots/robotis-ai-worker",
+   "https://www.robotis.com/ko/"
+  ],
+  "kr_distributors": [
+   {
+    "name": "로보티즈 (본사 직판·구매 문의)",
+    "kind": "direct",
+    "url": "https://www.robotis.com/ko/"
+   }
   ],
   "summary": "Wheeled (bimanual torso on a wheeled base) humanoid from ROBOTIS; shipping now, anyone can order.",
   "data_source": "HumanoidStore open data (CC BY 4.0)"
@@ -3868,6 +3942,7 @@
   "id": "robotis-op3",
   "name": "OP3",
   "manufacturer": "Robotis",
+  "manufacturer_ko": "로보티즈",
   "country": "South Korea",
   "category": "Humanoid",
   "locomotion": "Legged",
@@ -3897,7 +3972,15 @@
   "price_note": "list 11969 USD (maker), per HumanoidStore, checked 2026-10",
   "official_url": null,
   "sources": [
-   "https://humanoidstore.co/robots/robotis-op3"
+   "https://humanoidstore.co/robots/robotis-op3",
+   "https://www.robotis.com/ko/"
+  ],
+  "kr_distributors": [
+   {
+    "name": "로보티즈 (본사 직판·구매 문의)",
+    "kind": "direct",
+    "url": "https://www.robotis.com/ko/"
+   }
   ],
   "summary": "Desktop-size humanoid from Robotis; shipping now, anyone can order.",
   "data_source": "HumanoidStore open data (CC BY 4.0)"
@@ -3906,6 +3989,7 @@
   "id": "robros-igris-c",
   "name": "IGRIS-C",
   "manufacturer": "Robros",
+  "manufacturer_ko": "로브로스",
   "country": "South Korea",
   "category": "Humanoid",
   "locomotion": "Legged",
@@ -3935,8 +4019,17 @@
   "price_note": "list 100000 USD (maker), per HumanoidStore, checked 2026-10",
   "official_url": null,
   "sources": [
-   "https://humanoidstore.co/robots/robros-igris-c"
+   "https://humanoidstore.co/robots/robros-igris-c",
+   "https://www.robros.co.kr/ko"
   ],
+  "kr_distributors": [
+   {
+    "name": "로브로스 (본사 직판)",
+    "kind": "direct",
+    "url": "https://www.robros.co.kr/ko"
+   }
+  ],
+  "kr_note": "국내 판매를 우선하며 해외 문의도 받습니다.",
   "summary": "Mid-size humanoid from Robros; b2b only, sold to research buyers.",
   "data_source": "HumanoidStore open data (CC BY 4.0)"
  },
@@ -4315,7 +4408,15 @@
   "price_note": "list 128900 USD (maker), per HumanoidStore, checked 2026-09",
   "official_url": null,
   "sources": [
-   "https://humanoidstore.co/robots/unitree-h1-2"
+   "https://humanoidstore.co/robots/unitree-h1-2",
+   "https://www.younginmobility.com/"
+  ],
+  "kr_distributors": [
+   {
+    "name": "영인모빌리티 (Unitree 한국 공식 파트너)",
+    "kind": "distributor",
+    "url": "https://www.younginmobility.com/"
+   }
   ],
   "summary": "Full-size humanoid from Unitree Robotics; discontinued, sold to research buyers.",
   "data_source": "HumanoidStore open data (CC BY 4.0)"
@@ -4355,7 +4456,15 @@
   "sources": [
    "https://humanoidstore.co/robots/unitree-r1",
    "https://humanoidstore.co/robots/unitree-r1-air",
-   "https://humanoidstore.co/robots/unitree-r1-edu"
+   "https://humanoidstore.co/robots/unitree-r1-edu",
+   "https://www.younginmobility.com/"
+  ],
+  "kr_distributors": [
+   {
+    "name": "영인모빌리티 (Unitree 한국 공식 파트너)",
+    "kind": "distributor",
+    "url": "https://www.younginmobility.com/"
+   }
   ],
   "summary": "Compact humanoid from Unitree Robotics; shipping now, anyone can order.",
   "data_source": "HumanoidStore open data (CC BY 4.0)"
@@ -5378,7 +5487,15 @@
   "official_url": "https://www.unitree.com",
   "sources": [
    "https://english.news.cn/20260817/ad14838a779e42e6a67957e5bef74bcf/c.html",
-   "http://www.chinadaily.com.cn/a/202608/20/WS6a86f01ea3106bc57421c9c6.html"
+   "http://www.chinadaily.com.cn/a/202608/20/WS6a86f01ea3106bc57421c9c6.html",
+   "https://www.younginmobility.com/"
+  ],
+  "kr_distributors": [
+   {
+    "name": "영인모빌리티 (Unitree 한국 공식 파트너)",
+    "kind": "distributor",
+    "url": "https://www.younginmobility.com/"
+   }
   ],
   "summary": "Unitree's high-speed bipedal humanoid prototype unveiled in August 2026 to demonstrate record sprint and jump performance.",
   "image_url": null,
@@ -9288,6 +9405,7 @@
   "id": "diden-robotics-walker",
   "name": "Diden Walker",
   "manufacturer": "Diden Robotics",
+  "manufacturer_ko": "디든로보틱스",
   "country": "South Korea",
   "category": "Humanoid",
   "locomotion": "Legged",
@@ -9318,7 +9436,15 @@
   "official_url": "https://www.didenrobotics.com/en/products",
   "sources": [
    "https://www.didenrobotics.com/en/products",
-   "https://www.didenrobotics.com/en/resources-all/nvidia-gtc-2026-spider-30"
+   "https://www.didenrobotics.com/en/resources-all/nvidia-gtc-2026-spider-30",
+   "https://www.didenrobotics.com/"
+  ],
+  "kr_distributors": [
+   {
+    "name": "디든로보틱스 (본사 직판)",
+    "kind": "direct",
+    "url": "https://www.didenrobotics.com/"
+   }
   ],
   "summary": "Biped work platform with electro-permanent-magnet feet for moving through ship hull blocks and access holes while carrying a manipulator.",
   "image_url": null,
@@ -9532,6 +9658,7 @@
   "id": "robotis-ai-sapiens-k1",
   "name": "AI Sapiens K1",
   "manufacturer": "ROBOTIS",
+  "manufacturer_ko": "로보티즈",
   "country": "South Korea",
   "category": "Humanoid",
   "locomotion": "Legged",
@@ -9565,7 +9692,15 @@
    "https://docs.robotis.com/docs/systems/aisapiens/specifications/electrical_system/",
    "https://github.com/ROBOTIS-GIT/ai_sapiens",
    "https://www.robotis.com/en/product/ecosystem-aisapiens.php",
-   "https://www.robotis.us/dynamixel-q"
+   "https://www.robotis.us/dynamixel-q",
+   "https://www.robotis.com/ko/"
+  ],
+  "kr_distributors": [
+   {
+    "name": "로보티즈 (본사 직판·구매 문의)",
+    "kind": "direct",
+    "url": "https://www.robotis.com/ko/"
+   }
   ],
   "summary": "Open-source 23-DoF humanoid platform on DYNAMIXEL-Q actuators for physical-AI research, imitation and reinforcement learning on real hardware.",
   "image_url": null,
@@ -9735,7 +9870,15 @@
   "official_url": "https://www.unitree.com/G1-D/",
   "sources": [
    "https://www.unitree.com/G1-D/",
-   "https://support.unitree.com/home/en/G1D_Developer/about"
+   "https://support.unitree.com/home/en/G1D_Developer/about",
+   "https://www.younginmobility.com/"
+  ],
+  "kr_distributors": [
+   {
+    "name": "영인모빌리티 (Unitree 한국 공식 파트너)",
+    "kind": "distributor",
+    "url": "https://www.younginmobility.com/"
+   }
   ],
   "summary": "Wheeled dual-arm humanoid platform with a lifting column for embodied-AI data collection, training and deployment.",
   "image_url": null,
@@ -9789,7 +9932,15 @@
   "price_note": null,
   "official_url": "https://www.unitree.com/H2-D/",
   "sources": [
-   "https://www.unitree.com/H2-D/"
+   "https://www.unitree.com/H2-D/",
+   "https://www.younginmobility.com/"
+  ],
+  "kr_distributors": [
+   {
+    "name": "영인모빌리티 (Unitree 한국 공식 파트너)",
+    "kind": "distributor",
+    "url": "https://www.younginmobility.com/"
+   }
   ],
   "summary": "Dual-arm humanoid on a lifting column and mobile chassis for industrial mobile manipulation and embodied-AI training.",
   "image_url": null,
@@ -11609,6 +11760,7 @@
   "id": "holiday-robotics-friday",
   "name": "FRIDAY",
   "manufacturer": "Holiday Robotics",
+  "manufacturer_ko": "홀리데이로보틱스",
   "country": "South Korea",
   "category": "Humanoid",
   "locomotion": "Wheeled",
@@ -11644,7 +11796,15 @@
   "sources": [
    "https://holiday-robotics.com/product",
    "https://holiday-robotics.com/blog/series-a",
-   "https://holiday-robotics.com/"
+   "https://holiday-robotics.com/",
+   "https://holiday-robotics.com/ko/about"
+  ],
+  "kr_distributors": [
+   {
+    "name": "홀리데이로보틱스 (본사 직판)",
+    "kind": "direct",
+    "url": "https://holiday-robotics.com/ko"
+   }
   ],
   "summary": "Holiday Robotics' wheeled industrial humanoid built around two 20-DOF tactile hands, with hot-swap batteries for full shifts; research units ship from H1 2027.",
   "image_url": null,
@@ -12086,7 +12246,9 @@
  {
   "id": "kaist-hubo",
   "name": "HUBO (KHR-3)",
+  "name_ko": "휴보",
   "manufacturer": "KAIST",
+  "manufacturer_ko": "한국과학기술원",
   "country": "South Korea",
   "category": "Humanoid",
   "locomotion": "Legged",
@@ -12116,7 +12278,8 @@
   "price_note": null,
   "official_url": "https://news.kaist.ac.kr/news/html/news/?mng_no=353&mode=V",
   "sources": [
-   "https://news.kaist.ac.kr/news/html/news/?mng_no=353&mode=V"
+   "https://news.kaist.ac.kr/news/html/news/?mng_no=353&mode=V",
+   "https://rainbow-robotics.com/"
   ],
   "summary": "KAIST's KHR-3 'HUBO', Korea's first walking full-size humanoid, unveiled at the turn of 2005 with speech synthesis and recognition.",
   "image_url": null,
@@ -12131,7 +12294,9 @@
  {
   "id": "kaist-hubo-2",
   "name": "HUBO 2 (KHR-4)",
+  "name_ko": "휴보 2",
   "manufacturer": "KAIST",
+  "manufacturer_ko": "한국과학기술원",
   "country": "South Korea",
   "category": "Humanoid",
   "locomotion": "Legged",
@@ -12162,7 +12327,8 @@
   "official_url": null,
   "sources": [
    "https://doi.org/10.7210/jrsj.30.367",
-   "https://www.cmu.edu/dynamic-walking/files/abstracts/Oh_2013_DW.pdf"
+   "https://www.cmu.edu/dynamic-walking/files/abstracts/Oh_2013_DW.pdf",
+   "https://rainbow-robotics.com/"
   ],
   "summary": "KAIST Hubo Lab's lighter 45 kg, 40-DOF humanoid that could walk with stretched legs and run at 3.6 km/h.",
   "image_url": null,
@@ -14589,7 +14755,9 @@
  {
   "id": "aeirobot-aimy",
   "name": "AIMY",
+  "name_ko": "에이미",
   "manufacturer": "AeiROBOT",
+  "manufacturer_ko": "에이로봇",
   "country": "South Korea",
   "category": "Humanoid",
   "locomotion": "Wheeled",
@@ -14626,7 +14794,15 @@
   "sources": [
    "http://eng.arobot4all.com/AIMY",
    "http://www.arobot4all.com/AIMY",
-   "https://www.arobot4all.com/history"
+   "https://www.arobot4all.com/history",
+   "http://www.arobot4all.com/"
+  ],
+  "kr_distributors": [
+   {
+    "name": "에이로봇 (본사 직판)",
+    "kind": "direct",
+    "url": "http://www.arobot4all.com/"
+   }
   ],
   "summary": "Autonomous welcome robot that greets visitors and provides information using eye contact, gestures and LLM-powered dialogue.",
   "image_url": null,
@@ -14642,6 +14818,7 @@
   "id": "aeirobot-alice-m1",
   "name": "ALICE M1",
   "manufacturer": "AeiROBOT",
+  "manufacturer_ko": "에이로봇",
   "country": "South Korea",
   "category": "Humanoid",
   "locomotion": "Wheeled",
@@ -14679,7 +14856,15 @@
    "http://eng.arobot4all.com/2069803258",
    "http://eng.arobot4all.com/42",
    "https://www.arobot4all.com/history",
-   "https://www.advantech.com/en-us/resources/news/arobot-advantech"
+   "https://www.advantech.com/en-us/resources/news/arobot-advantech",
+   "http://www.arobot4all.com/"
+  ],
+  "kr_distributors": [
+   {
+    "name": "에이로봇 (본사 직판)",
+    "kind": "direct",
+    "url": "http://www.arobot4all.com/"
+   }
   ],
   "summary": "Wheeled mobile humanoid with 7-DoF arms and adjustable waist for precise manufacturing tasks in confined spaces.",
   "image_url": null,
@@ -18791,6 +18976,7 @@
   "id": "neubility-billi",
   "name": "Billi",
   "manufacturer": "Neubility",
+  "manufacturer_ko": "뉴빌리티",
   "country": "South Korea",
   "category": "Humanoid",
   "locomotion": "Wheeled",
@@ -18823,8 +19009,17 @@
   "official_url": "https://www.neubility.ai/en/discover/detail?id=160",
   "sources": [
    "https://www.neubility.ai/en/discover/detail?id=160",
-   "https://www.neubility.ai/en/discover/detail?id=156"
+   "https://www.neubility.ai/en/discover/detail?id=156",
+   "https://www.neubility.ai/ko/"
   ],
+  "kr_distributors": [
+   {
+    "name": "뉴빌리티 (서비스 계약)",
+    "kind": "direct",
+    "url": "https://www.neubility.ai/ko"
+   }
+  ],
+  "kr_note": "국내에서는 자율주행 배달·순찰 서비스로 운영합니다.",
   "summary": "Wheeled hybrid humanoid with height-adjustable rotating torso, arms and modular cargo bay for material transport and loading in factories and logistics.",
   "image_url": "https://urtbw7qbz1jqlei2.public.blob.vercel-storage.com/images/c532b003-1c9f-4391-a811-2eacfb25b424/%5B%EC%82%AC%EC%A7%84%EC%9E%90%EB%A3%8C%5D%20%ED%95%98%EC%9D%B4%EB%B8%8C%EB%A6%AC%EB%93%9C%20%ED%9C%B4%EB%A8%B8%EB%85%B8%EC%9D%B4%EB%93%9C%20%EB%B9%8C%EB%A6%AC%20%EA%B8%B0%EC%88%A0%20%EC%8B%9C%EC%97%B0-XptnS5m3sWCFyAaeZlxtkRkGWqn4b6.jpg",
   "image_source": "https://www.neubility.ai/en/discover/detail?id=160",
@@ -18839,7 +19034,9 @@
  {
   "id": "neuromeka-nami",
   "name": "NAMI",
+  "name_ko": "나미",
   "manufacturer": "Neuromeka",
+  "manufacturer_ko": "뉴로메카",
   "country": "South Korea",
   "category": "Humanoid",
   "locomotion": "Wheeled",
@@ -18870,8 +19067,17 @@
   "official_url": "https://en.neuromeka.com/humanoids",
   "sources": [
    "https://en.neuromeka.com/humanoids",
-   "https://www.neuromeka.com/post/%EB%89%B4%EB%A1%9C%EB%A9%94%EC%B9%B4-ieee-rsa-humanoids-2025-%EC%97%90%EC%84%9C-%ED%9C%B4%EB%A8%B8%EB%85%B8%EC%9D%B4%EB%93%9C-%ED%94%8C%EB%9E%AB%ED%8F%BC-2%EC%A2%85-%EC%B5%9C%EC%B4%88-%EA%B3%B5%EA%B0%9C"
+   "https://www.neuromeka.com/post/%EB%89%B4%EB%A1%9C%EB%A9%94%EC%B9%B4-ieee-rsa-humanoids-2025-%EC%97%90%EC%84%9C-%ED%9C%B4%EB%A8%B8%EB%85%B8%EC%9D%B4%EB%93%9C-%ED%94%8C%EB%9E%AB%ED%8F%BC-2%EC%A2%85-%EC%B5%9C%EC%B4%88-%EA%B3%B5%EA%B0%9C",
+   "https://www.neuromeka.com/humanoids"
   ],
+  "kr_distributors": [
+   {
+    "name": "뉴로메카 (본사 직판)",
+    "kind": "direct",
+    "url": "https://www.neuromeka.com/"
+   }
+  ],
+  "kr_note": "한국어 제품명은 'NAMY(나미)'입니다.",
   "summary": "Service humanoid platform from Neuromeka for repetitive indoor tasks and safe human collaboration, using VLA-based AI.",
   "image_url": null,
   "image_source": null,
@@ -19485,6 +19691,7 @@
   "id": "rainbow-robotics-rb-y2",
   "name": "RB-Y2",
   "manufacturer": "Rainbow Robotics",
+  "manufacturer_ko": "레인보우로보틱스",
   "country": "South Korea",
   "category": "Humanoid",
   "locomotion": "Wheeled",
@@ -19515,8 +19722,17 @@
   "official_url": "https://rainbow-robotics.com/en/products/rb-y2",
   "sources": [
    "https://rainbow-robotics.com/en/products/rb-y2",
-   "https://rainbow-robotics.com/en/products/lineup"
+   "https://rainbow-robotics.com/en/products/lineup",
+   "https://rainbow-robotics.com/"
   ],
+  "kr_distributors": [
+   {
+    "name": "레인보우로보틱스 (본사·파트너사 직판)",
+    "kind": "direct",
+    "url": "https://rainbow-robotics.com/"
+   }
+  ],
+  "kr_note": "국내 판매·데모·기술 상담은 본사와 전문 파트너사를 통해 진행합니다.",
   "summary": "Next-generation mobile dual-arm robot platform from Rainbow Robotics, extending the RB-Y series from research to field operation.",
   "image_url": null,
   "image_source": null,
@@ -19863,6 +20079,7 @@
   "id": "robros-igris-max",
   "name": "IGRIS-MAX",
   "manufacturer": "ROBROS",
+  "manufacturer_ko": "로브로스",
   "country": "South Korea",
   "category": "Humanoid",
   "locomotion": "Legged",
@@ -19891,7 +20108,17 @@
   "price_usd": null,
   "price_note": null,
   "official_url": null,
-  "sources": [],
+  "sources": [
+   "https://www.robros.co.kr/ko"
+  ],
+  "kr_distributors": [
+   {
+    "name": "로브로스 (본사 직판)",
+    "kind": "direct",
+    "url": "https://www.robros.co.kr/ko"
+   }
+  ],
+  "kr_note": "국내 판매를 우선하며 해외 문의도 받습니다.",
   "summary": "",
   "image_url": null,
   "image_source": null,
@@ -20711,6 +20938,7 @@
   "id": "t-robotics-tr-works",
   "name": "TR-WORKS",
   "manufacturer": "T-Robotics",
+  "manufacturer_ko": "티로보틱스",
   "country": "South Korea",
   "category": "Humanoid",
   "locomotion": "Wheeled",
@@ -20739,7 +20967,16 @@
   "price_usd": null,
   "price_note": null,
   "official_url": null,
-  "sources": [],
+  "sources": [
+   "http://www.t-robotics.co.kr/"
+  ],
+  "kr_distributors": [
+   {
+    "name": "티로보틱스 (본사 직판)",
+    "kind": "direct",
+    "url": "http://www.t-robotics.co.kr/"
+   }
+  ],
   "summary": "",
   "image_url": null,
   "image_source": null,

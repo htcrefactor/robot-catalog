@@ -98,7 +98,9 @@
  {
   "id": "wirobotics-allex",
   "name": "ALLEX",
+  "name_ko": "알렉스",
   "manufacturer": "WIRobotics",
+  "manufacturer_ko": "위로보틱스",
   "country": "South Korea",
   "category": "Misc",
   "locomotion": null,
@@ -130,7 +132,15 @@
   "price_note": null,
   "official_url": "https://corp.wirobotics.com/en/product/allex",
   "sources": [
-   "https://corp.wirobotics.com/en/product/allex"
+   "https://corp.wirobotics.com/en/product/allex",
+   "https://rih.wirobotics.com/allex"
+  ],
+  "kr_distributors": [
+   {
+    "name": "위로보틱스 (본사 직판)",
+    "kind": "direct",
+    "url": "https://corp.wirobotics.com/"
+   }
   ],
   "summary": "WIRobotics' compliant general-purpose humanoid upper body with force-sensitive 15-DoF hands, currently without legs or a mobile base.",
   "image_url": "https://d2nxb27ysr05sd.cloudfront.net/global-landing-page/allex-page/allex-section-3-image.png",

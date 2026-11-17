@@ -1,6 +1,6 @@
 {
  "meta": {
-  "updated": "2026-11-16",
+  "updated": "2026-11-17",
   "count": 927
  },
  "robots": [
@@ -268,7 +268,15 @@
    "price_note": null,
    "official_url": "https://www.kuka.com/en-gb/products/amr-autonomous-mobile-robotics/mobile-platforms/kmp-600-s-diffdrive",
    "sources": [
-    "https://www.kuka.com/-/media/kuka-corporate/countries/nordic/documents/amr---autonomous-mobile-robotics.pdf"
+    "https://www.kuka.com/-/media/kuka-corporate/countries/nordic/documents/amr---autonomous-mobile-robotics.pdf",
+    "https://www.kuka.com/ko-kr/"
+   ],
+   "kr_distributors": [
+    {
+     "name": "쿠카로보틱스코리아 (KUKA Robotics Korea Co., Ltd.)",
+     "kind": "direct",
+     "url": "https://www.kuka.com/ko-kr/"
+    }
    ],
    "summary": "IP54 differential-drive lifting platform KUKA markets as an AGV for 600 kg production intralogistics on laser-mapped routes."
   },
@@ -2071,7 +2079,15 @@
    "price_note": null,
    "official_url": "https://www.kuka.com/",
    "sources": [
-    "https://www.kuka.com/-/media/kuka-corporate/countries/nordic/documents/amr---autonomous-mobile-robotics.pdf"
+    "https://www.kuka.com/-/media/kuka-corporate/countries/nordic/documents/amr---autonomous-mobile-robotics.pdf",
+    "https://www.kuka.com/ko-kr/"
+   ],
+   "kr_distributors": [
+    {
+     "name": "쿠카로보틱스코리아 (KUKA Robotics Korea Co., Ltd.)",
+     "kind": "direct",
+     "url": "https://www.kuka.com/ko-kr/"
+    }
    ],
    "summary": "Omnidirectional (Mecanum omniMove) 1.5 t platform that navigates freely to move products through flexible production."
   },
@@ -2246,7 +2262,15 @@
    "official_url": "https://mobile-industrial-robots.com/products/robots/mir1200-pallet-jack",
    "sources": [
     "https://mobile-industrial-robots.com/products/robots/mir1200-pallet-jack",
-    "https://mobile-industrial-robots.com/products/robots/mir1200-pallet-jack/specifications"
+    "https://mobile-industrial-robots.com/products/robots/mir1200-pallet-jack/specifications",
+    "https://mobile-industrial-robots.com/ko/contacts"
+   ],
+   "kr_distributors": [
+    {
+     "name": "MiR 코리아 (Mobile Industrial Robots 한국 지사)",
+     "kind": "direct",
+     "url": "https://mobile-industrial-robots.com/ko/contacts"
+    }
    ],
    "summary": "Autonomous pallet jack that detects, lifts and delivers EU pallets up to 1,200 kg using AI-based perception."
   },
@@ -2288,7 +2312,15 @@
    "official_url": "https://mobile-industrial-robots.com/products/robots/mir1350",
    "sources": [
     "https://mobile-industrial-robots.com/products/robots/mir1350",
-    "https://mobile-industrial-robots.com/products/robots/mir1350/specifications"
+    "https://mobile-industrial-robots.com/products/robots/mir1350/specifications",
+    "https://mobile-industrial-robots.com/ko/contacts"
+   ],
+   "kr_distributors": [
+    {
+     "name": "MiR 코리아 (Mobile Industrial Robots 한국 지사)",
+     "kind": "direct",
+     "url": "https://mobile-industrial-robots.com/ko/contacts"
+    }
    ],
    "summary": "MiR's heaviest-duty AMR for autonomous pallet and heavy-load transport up to 1,350 kg.",
    "image_url": "https://a.storyblok.com/f/230581/2000x1248/c78fdbb2b7/mir1350-transparent.png",
@@ -2339,7 +2371,15 @@
    "sources": [
     "https://mobile-industrial-robots.com/products/robots/mir250",
     "https://mobile-industrial-robots.com/products/robots/mir250/specifications",
-    "https://ai.motion.com/wp-content/uploads/2025/10/MiR250-Specifications-2.99.pdf"
+    "https://ai.motion.com/wp-content/uploads/2025/10/MiR250-Specifications-2.99.pdf",
+    "https://mobile-industrial-robots.com/ko/contacts"
+   ],
+   "kr_distributors": [
+    {
+     "name": "MiR 코리아 (Mobile Industrial Robots 한국 지사)",
+     "kind": "direct",
+     "url": "https://mobile-industrial-robots.com/ko/contacts"
+    }
    ],
    "summary": "Compact 250 kg indoor AMR for moving small and medium loads, carts and shelves around factories and warehouses."
   },
@@ -2382,7 +2422,15 @@
    "sources": [
     "https://mobile-industrial-robots.com/products/robots/mir600",
     "https://mobile-industrial-robots.com/products/robots/mir600/specifications",
-    "https://ai.motion.com/wp-content/uploads/2025/10/MiR600-Specifications-2.99.pdf"
+    "https://ai.motion.com/wp-content/uploads/2025/10/MiR600-Specifications-2.99.pdf",
+    "https://mobile-industrial-robots.com/ko/contacts"
+   ],
+   "kr_distributors": [
+    {
+     "name": "MiR 코리아 (Mobile Industrial Robots 한국 지사)",
+     "kind": "direct",
+     "url": "https://mobile-industrial-robots.com/ko/contacts"
+    }
    ],
    "summary": "IP52-rated 600 kg AMR that picks up and moves pallets and heavy loads as a forklift alternative."
   },
@@ -2702,7 +2750,16 @@
    "price_note": null,
    "official_url": "https://robotics.omron.com/products/mobile-robots/hd-series/hd-1500",
    "sources": [
-    "https://assets.omron.eu/downloads/latest/datasheet/en/i855_hd-series_mobile_robot_datasheet_en.pdf"
+    "https://assets.omron.eu/downloads/latest/datasheet/en/i855_hd-series_mobile_robot_datasheet_en.pdf",
+    "https://www.omron.co.kr/",
+    "https://robotics.omron.com/ko/products/mobile-robots/ld-series/ld-250/"
+   ],
+   "kr_distributors": [
+    {
+     "name": "한국오므론제어기기(주)",
+     "kind": "direct",
+     "url": "https://www.omron.co.kr/"
+    }
    ],
    "summary": "Heavy-duty AMR for pallets and large assemblies up to 1,500 kg with 360° safety coverage."
   },
@@ -2744,7 +2801,16 @@
    "price_note": null,
    "official_url": "https://robotics.omron.com/products/mobile-robots/ld-series/ld-250/",
    "sources": [
-    "https://assets.omron.eu/downloads/latest/datasheet/en/i828_ld-series_mobile_robot_datasheet_en.pdf"
+    "https://assets.omron.eu/downloads/latest/datasheet/en/i828_ld-series_mobile_robot_datasheet_en.pdf",
+    "https://www.omron.co.kr/",
+    "https://robotics.omron.com/ko/products/mobile-robots/ld-series/ld-250/"
+   ],
+   "kr_distributors": [
+    {
+     "name": "한국오므론제어기기(주)",
+     "kind": "direct",
+     "url": "https://www.omron.co.kr/"
+    }
    ],
    "summary": "250 kg natural-feature-navigation AMR for transport between workstations, lines and storage."
   },
@@ -3424,6 +3490,7 @@
    "id": "rainbow-robotics-rbm-d1000",
    "name": "RBM-D1000",
    "manufacturer": "Rainbow Robotics",
+   "manufacturer_ko": "레인보우로보틱스",
    "country": "South Korea",
    "category": "AMR",
    "locomotion": "Wheeled",
@@ -3458,8 +3525,17 @@
    "official_url": "https://rainbow-robotics.com/en/products/rbm-d1000/",
    "sources": [
     "https://rainbow-robotics.com/en/products/rbm-d1000/",
-    "https://www.rainbow-robotics.com/product_spec/download?id=7d8969fc-04c8-4ff9-9c39-e837c3b357fe"
+    "https://www.rainbow-robotics.com/product_spec/download?id=7d8969fc-04c8-4ff9-9c39-e837c3b357fe",
+    "https://rainbow-robotics.com/"
    ],
+   "kr_distributors": [
+    {
+     "name": "레인보우로보틱스 (본사·파트너사 직판)",
+     "kind": "direct",
+     "url": "https://rainbow-robotics.com/"
+    }
+   ],
+   "kr_note": "국내 판매·데모·기술 상담은 본사와 전문 파트너사를 통해 진행합니다.",
    "summary": "Industrial AMR platform for ultra-heavy material transport up to 1,000 kg in large manufacturing sites, with SLAM navigation and web-based FMS.",
    "image_url": "https://rainbow-robotics.com/wp-content/uploads/2026/04/spl-img-782X700.jpg",
    "image_source": "https://rainbow-robotics.com/en/products/rbm-d1000/",
@@ -3474,6 +3550,7 @@
    "id": "rainbow-robotics-rbm-d400",
    "name": "RBM-D400",
    "manufacturer": "Rainbow Robotics",
+   "manufacturer_ko": "레인보우로보틱스",
    "country": "South Korea",
    "category": "AMR",
    "locomotion": "Wheeled",
@@ -3508,8 +3585,17 @@
    "official_url": "https://rainbow-robotics.com/en/products/rbm-d400/",
    "sources": [
     "https://rainbow-robotics.com/en/products/rbm-d400/",
-    "https://www.rainbow-robotics.com/product_spec/download?id=7d8969fc-04c8-4ff9-9c39-e837c3b357fe"
+    "https://www.rainbow-robotics.com/product_spec/download?id=7d8969fc-04c8-4ff9-9c39-e837c3b357fe",
+    "https://rainbow-robotics.com/"
    ],
+   "kr_distributors": [
+    {
+     "name": "레인보우로보틱스 (본사·파트너사 직판)",
+     "kind": "direct",
+     "url": "https://rainbow-robotics.com/"
+    }
+   ],
+   "kr_note": "국내 판매·데모·기술 상담은 본사와 전문 파트너사를 통해 진행합니다.",
    "summary": "Industrial AMR platform for 400 kg material transport in manufacturing and logistics, with SLAM navigation and optional lift or conveyor top modules.",
    "image_url": "https://rainbow-robotics.com/wp-content/uploads/2026/03/1-RBM-D400-3-1.png",
    "image_source": "https://rainbow-robotics.com/en/products/rbm-d400/",
@@ -3524,6 +3610,7 @@
    "id": "rainbow-robotics-rbm-s100a",
    "name": "RBM-S100a",
    "manufacturer": "Rainbow Robotics",
+   "manufacturer_ko": "레인보우로보틱스",
    "country": "South Korea",
    "category": "AMR",
    "locomotion": "Wheeled",
@@ -3559,8 +3646,17 @@
    "sources": [
     "https://rainbow-robotics.com/products/rbm-s100a/",
     "https://github.com/rainbow-mobile",
-    "https://rainbow-mobile.github.io/doc-s100-ttk/"
+    "https://rainbow-mobile.github.io/doc-s100-ttk/",
+    "https://rainbow-robotics.com/"
    ],
+   "kr_distributors": [
+    {
+     "name": "레인보우로보틱스 (본사·파트너사 직판)",
+     "kind": "direct",
+     "url": "https://rainbow-robotics.com/"
+    }
+   ],
+   "kr_note": "국내 판매·데모·기술 상담은 본사와 전문 파트너사를 통해 진행합니다.",
    "summary": "Compact Korean SLAM AMR for narrow spaces carrying 120 kg at 1.2 m/s with 2D LiDAR and two depth cameras, 10 h runtime.",
    "image_url": "https://rainbow-robotics.com/wp-content/uploads/2026/04/spl-img-782X700.jpg",
    "image_source": "https://rainbow-robotics.com/products/rbm-s100a/",
@@ -3582,6 +3678,7 @@
    "id": "rainbow-robotics-rbm-s100b",
    "name": "RBM-S100b",
    "manufacturer": "Rainbow Robotics",
+   "manufacturer_ko": "레인보우로보틱스",
    "country": "South Korea",
    "category": "AMR",
    "locomotion": "Wheeled",
@@ -3616,8 +3713,17 @@
    "official_url": "https://rainbow-robotics.com/products/rbm-s100b/",
    "sources": [
     "https://rainbow-robotics.com/products/rbm-s100b/",
-    "https://github.com/rainbow-mobile"
+    "https://github.com/rainbow-mobile",
+    "https://rainbow-robotics.com/"
    ],
+   "kr_distributors": [
+    {
+     "name": "레인보우로보틱스 (본사·파트너사 직판)",
+     "kind": "direct",
+     "url": "https://rainbow-robotics.com/"
+    }
+   ],
+   "kr_note": "국내 판매·데모·기술 상담은 본사와 전문 파트너사를 통해 진행합니다.",
    "summary": "Multi-tray version of Rainbow's compact SLAM AMR, 100 kg payload at 1.2 m/s with 2D LiDAR and dual depth cameras.",
    "image_url": "https://rainbow-robotics.com/wp-content/uploads/2026/04/spl-img-782X700.jpg",
    "image_source": "https://rainbow-robotics.com/products/rbm-s100b/",
@@ -3869,6 +3975,7 @@
    "id": "samhyun-boldum",
    "name": "BOLDUM (HAMR 3-ton)",
    "manufacturer": "Samhyun",
+   "manufacturer_ko": "주식회사 삼현",
    "country": "South Korea",
    "category": "AMR",
    "locomotion": "Wheeled",
@@ -3905,6 +4012,13 @@
    "sources": [
     "https://www.samhyun.co.kr/our-up/robot-industry/view?category_code=1210&code=164&tpf=product%2Fview",
     "https://www.samhyun.co.kr/news?board_code=1&code=6868&tpf=board%2Fview"
+   ],
+   "kr_distributors": [
+    {
+     "name": "삼현 (본사 직판)",
+     "kind": "direct",
+     "url": "https://www.samhyun.co.kr/"
+    }
    ],
    "summary": "Heavy-duty indoor/outdoor autonomous mobile robot carrying up to 3 t between and inside factories; 5.7 km/h standard, 20 km/h high-power option."
   },
@@ -5393,7 +5507,9 @@
   {
    "id": "aeirobot-aimy",
    "name": "AIMY",
+   "name_ko": "에이미",
    "manufacturer": "AeiROBOT",
+   "manufacturer_ko": "에이로봇",
    "country": "South Korea",
    "category": "Humanoid",
    "locomotion": "Wheeled",
@@ -5430,7 +5546,15 @@
    "sources": [
     "http://eng.arobot4all.com/AIMY",
     "http://www.arobot4all.com/AIMY",
-    "https://www.arobot4all.com/history"
+    "https://www.arobot4all.com/history",
+    "http://www.arobot4all.com/"
+   ],
+   "kr_distributors": [
+    {
+     "name": "에이로봇 (본사 직판)",
+     "kind": "direct",
+     "url": "http://www.arobot4all.com/"
+    }
    ],
    "summary": "Autonomous welcome robot that greets visitors and provides information using eye contact, gestures and LLM-powered dialogue.",
    "image_url": null,
@@ -5445,7 +5569,9 @@
   {
    "id": "aeirobot-alice-4",
    "name": "ALICE 4",
+   "name_ko": "앨리스4",
    "manufacturer": "AeiROBOT",
+   "manufacturer_ko": "에이로봇",
    "country": "South Korea",
    "category": "Humanoid",
    "locomotion": "Legged",
@@ -5475,7 +5601,15 @@
    "price_note": null,
    "official_url": null,
    "sources": [
-    "https://humanoidstore.co/robots/aeirobot-alice-4"
+    "https://humanoidstore.co/robots/aeirobot-alice-4",
+    "http://www.arobot4all.com/"
+   ],
+   "kr_distributors": [
+    {
+     "name": "에이로봇 (본사 직판)",
+     "kind": "direct",
+     "url": "http://www.arobot4all.com/"
+    }
    ],
    "summary": "Full-size humanoid from AeiROBOT; research only, sold to businesses.",
    "data_source": "HumanoidStore open data (CC BY 4.0)"
@@ -5484,6 +5618,7 @@
    "id": "aeirobot-alice-m1",
    "name": "ALICE M1",
    "manufacturer": "AeiROBOT",
+   "manufacturer_ko": "에이로봇",
    "country": "South Korea",
    "category": "Humanoid",
    "locomotion": "Wheeled",
@@ -5521,7 +5656,15 @@
     "http://eng.arobot4all.com/2069803258",
     "http://eng.arobot4all.com/42",
     "https://www.arobot4all.com/history",
-    "https://www.advantech.com/en-us/resources/news/arobot-advantech"
+    "https://www.advantech.com/en-us/resources/news/arobot-advantech",
+    "http://www.arobot4all.com/"
+   ],
+   "kr_distributors": [
+    {
+     "name": "에이로봇 (본사 직판)",
+     "kind": "direct",
+     "url": "http://www.arobot4all.com/"
+    }
    ],
    "summary": "Wheeled mobile humanoid with 7-DoF arms and adjustable waist for precise manufacturing tasks in confined spaces.",
    "image_url": null,
@@ -9233,6 +9376,7 @@
    "id": "diden-robotics-walker",
    "name": "Diden Walker",
    "manufacturer": "Diden Robotics",
+   "manufacturer_ko": "디든로보틱스",
    "country": "South Korea",
    "category": "Humanoid",
    "locomotion": "Legged",
@@ -9263,7 +9407,15 @@
    "official_url": "https://www.didenrobotics.com/en/products",
    "sources": [
     "https://www.didenrobotics.com/en/products",
-    "https://www.didenrobotics.com/en/resources-all/nvidia-gtc-2026-spider-30"
+    "https://www.didenrobotics.com/en/resources-all/nvidia-gtc-2026-spider-30",
+    "https://www.didenrobotics.com/"
+   ],
+   "kr_distributors": [
+    {
+     "name": "디든로보틱스 (본사 직판)",
+     "kind": "direct",
+     "url": "https://www.didenrobotics.com/"
+    }
    ],
    "summary": "Biped work platform with electro-permanent-magnet feet for moving through ship hull blocks and access holes while carrying a manipulator.",
    "image_url": null,
@@ -13504,6 +13656,7 @@
    "id": "holiday-robotics-friday",
    "name": "FRIDAY",
    "manufacturer": "Holiday Robotics",
+   "manufacturer_ko": "홀리데이로보틱스",
    "country": "South Korea",
    "category": "Humanoid",
    "locomotion": "Wheeled",
@@ -13539,7 +13692,15 @@
    "sources": [
     "https://holiday-robotics.com/product",
     "https://holiday-robotics.com/blog/series-a",
-    "https://holiday-robotics.com/"
+    "https://holiday-robotics.com/",
+    "https://holiday-robotics.com/ko/about"
+   ],
+   "kr_distributors": [
+    {
+     "name": "홀리데이로보틱스 (본사 직판)",
+     "kind": "direct",
+     "url": "https://holiday-robotics.com/ko"
+    }
    ],
    "summary": "Holiday Robotics' wheeled industrial humanoid built around two 20-DOF tactile hands, with hot-swap batteries for full shifts; research units ship from H1 2027.",
    "image_url": null,
@@ -14778,7 +14939,9 @@
   {
    "id": "kaist-hubo",
    "name": "HUBO (KHR-3)",
+   "name_ko": "휴보",
    "manufacturer": "KAIST",
+   "manufacturer_ko": "한국과학기술원",
    "country": "South Korea",
    "category": "Humanoid",
    "locomotion": "Legged",
@@ -14808,7 +14971,8 @@
    "price_note": null,
    "official_url": "https://news.kaist.ac.kr/news/html/news/?mng_no=353&mode=V",
    "sources": [
-    "https://news.kaist.ac.kr/news/html/news/?mng_no=353&mode=V"
+    "https://news.kaist.ac.kr/news/html/news/?mng_no=353&mode=V",
+    "https://rainbow-robotics.com/"
    ],
    "summary": "KAIST's KHR-3 'HUBO', Korea's first walking full-size humanoid, unveiled at the turn of 2005 with speech synthesis and recognition.",
    "image_url": null,
@@ -14823,7 +14987,9 @@
   {
    "id": "kaist-hubo-2",
    "name": "HUBO 2 (KHR-4)",
+   "name_ko": "휴보 2",
    "manufacturer": "KAIST",
+   "manufacturer_ko": "한국과학기술원",
    "country": "South Korea",
    "category": "Humanoid",
    "locomotion": "Legged",
@@ -14854,7 +15020,8 @@
    "official_url": null,
    "sources": [
     "https://doi.org/10.7210/jrsj.30.367",
-    "https://www.cmu.edu/dynamic-walking/files/abstracts/Oh_2013_DW.pdf"
+    "https://www.cmu.edu/dynamic-walking/files/abstracts/Oh_2013_DW.pdf",
+    "https://rainbow-robotics.com/"
    ],
    "summary": "KAIST Hubo Lab's lighter 45 kg, 40-DOF humanoid that could walk with stretched legs and run at 3.6 km/h.",
    "image_url": null,
@@ -15726,7 +15893,9 @@
   {
    "id": "lg-cloid",
    "name": "CLOiD",
+   "name_ko": "LG 클로이드",
    "manufacturer": "LG Electronics",
+   "manufacturer_ko": "LG전자",
    "country": "South Korea",
    "category": "Humanoid",
    "locomotion": "Wheeled",
@@ -15756,8 +15925,17 @@
    "price_note": null,
    "official_url": null,
    "sources": [
-    "https://humanoidstore.co/robots/lg-cloid"
+    "https://humanoidstore.co/robots/lg-cloid",
+    "https://www.lge.co.kr/story/newsroom/225625"
    ],
+   "kr_distributors": [
+    {
+     "name": "LG전자 (직판·로봇 구독)",
+     "kind": "direct",
+     "url": "https://www.lge.co.kr/"
+    }
+   ],
+   "kr_note": "국내에서는 구매 외에 로봇 구독(RaaS) 방식으로도 공급합니다.",
    "summary": "Wheeled (bimanual torso on a wheeled base) humanoid from LG Electronics; announced, restricted sales.",
    "data_source": "HumanoidStore open data (CC BY 4.0)"
   },
@@ -18130,6 +18308,7 @@
    "id": "neubility-billi",
    "name": "Billi",
    "manufacturer": "Neubility",
+   "manufacturer_ko": "뉴빌리티",
    "country": "South Korea",
    "category": "Humanoid",
    "locomotion": "Wheeled",
@@ -18162,8 +18341,17 @@
    "official_url": "https://www.neubility.ai/en/discover/detail?id=160",
    "sources": [
     "https://www.neubility.ai/en/discover/detail?id=160",
-    "https://www.neubility.ai/en/discover/detail?id=156"
+    "https://www.neubility.ai/en/discover/detail?id=156",
+    "https://www.neubility.ai/ko/"
    ],
+   "kr_distributors": [
+    {
+     "name": "뉴빌리티 (서비스 계약)",
+     "kind": "direct",
+     "url": "https://www.neubility.ai/ko"
+    }
+   ],
+   "kr_note": "국내에서는 자율주행 배달·순찰 서비스로 운영합니다.",
    "summary": "Wheeled hybrid humanoid with height-adjustable rotating torso, arms and modular cargo bay for material transport and loading in factories and logistics.",
    "image_url": "https://urtbw7qbz1jqlei2.public.blob.vercel-storage.com/images/c532b003-1c9f-4391-a811-2eacfb25b424/%5B%EC%82%AC%EC%A7%84%EC%9E%90%EB%A3%8C%5D%20%ED%95%98%EC%9D%B4%EB%B8%8C%EB%A6%AC%EB%93%9C%20%ED%9C%B4%EB%A8%B8%EB%85%B8%EC%9D%B4%EB%93%9C%20%EB%B9%8C%EB%A6%AC%20%EA%B8%B0%EC%88%A0%20%EC%8B%9C%EC%97%B0-XptnS5m3sWCFyAaeZlxtkRkGWqn4b6.jpg",
    "image_source": "https://www.neubility.ai/en/discover/detail?id=160",
@@ -18178,7 +18366,9 @@
   {
    "id": "neuromeka-nami",
    "name": "NAMI",
+   "name_ko": "나미",
    "manufacturer": "Neuromeka",
+   "manufacturer_ko": "뉴로메카",
    "country": "South Korea",
    "category": "Humanoid",
    "locomotion": "Wheeled",
@@ -18209,8 +18399,17 @@
    "official_url": "https://en.neuromeka.com/humanoids",
    "sources": [
     "https://en.neuromeka.com/humanoids",
-    "https://www.neuromeka.com/post/%EB%89%B4%EB%A1%9C%EB%A9%94%EC%B9%B4-ieee-rsa-humanoids-2025-%EC%97%90%EC%84%9C-%ED%9C%B4%EB%A8%B8%EB%85%B8%EC%9D%B4%EB%93%9C-%ED%94%8C%EB%9E%AB%ED%8F%BC-2%EC%A2%85-%EC%B5%9C%EC%B4%88-%EA%B3%B5%EA%B0%9C"
+    "https://www.neuromeka.com/post/%EB%89%B4%EB%A1%9C%EB%A9%94%EC%B9%B4-ieee-rsa-humanoids-2025-%EC%97%90%EC%84%9C-%ED%9C%B4%EB%A8%B8%EB%85%B8%EC%9D%B4%EB%93%9C-%ED%94%8C%EB%9E%AB%ED%8F%BC-2%EC%A2%85-%EC%B5%9C%EC%B4%88-%EA%B3%B5%EA%B0%9C",
+    "https://www.neuromeka.com/humanoids"
    ],
+   "kr_distributors": [
+    {
+     "name": "뉴로메카 (본사 직판)",
+     "kind": "direct",
+     "url": "https://www.neuromeka.com/"
+    }
+   ],
+   "kr_note": "한국어 제품명은 'NAMY(나미)'입니다.",
    "summary": "Service humanoid platform from Neuromeka for repetitive indoor tasks and safe human collaboration, using VLA-based AI.",
    "image_url": null,
    "image_source": null,
@@ -20314,6 +20513,7 @@
    "id": "robotis-ai-sapiens-k1",
    "name": "AI Sapiens K1",
    "manufacturer": "ROBOTIS",
+   "manufacturer_ko": "로보티즈",
    "country": "South Korea",
    "category": "Humanoid",
    "locomotion": "Legged",
@@ -20347,7 +20547,15 @@
     "https://docs.robotis.com/docs/systems/aisapiens/specifications/electrical_system/",
     "https://github.com/ROBOTIS-GIT/ai_sapiens",
     "https://www.robotis.com/en/product/ecosystem-aisapiens.php",
-    "https://www.robotis.us/dynamixel-q"
+    "https://www.robotis.us/dynamixel-q",
+    "https://www.robotis.com/ko/"
+   ],
+   "kr_distributors": [
+    {
+     "name": "로보티즈 (본사 직판·구매 문의)",
+     "kind": "direct",
+     "url": "https://www.robotis.com/ko/"
+    }
    ],
    "summary": "Open-source 23-DoF humanoid platform on DYNAMIXEL-Q actuators for physical-AI research, imitation and reinforcement learning on real hardware.",
    "image_url": null,
@@ -20364,6 +20572,7 @@
    "id": "robotis-ai-worker",
    "name": "AI Worker",
    "manufacturer": "ROBOTIS",
+   "manufacturer_ko": "로보티즈",
    "country": "South Korea",
    "category": "Humanoid",
    "locomotion": "Wheeled",
@@ -20393,7 +20602,15 @@
    "price_note": "list 69000 USD (reseller), per HumanoidStore, checked 2026-10",
    "official_url": null,
    "sources": [
-    "https://humanoidstore.co/robots/robotis-ai-worker"
+    "https://humanoidstore.co/robots/robotis-ai-worker",
+    "https://www.robotis.com/ko/"
+   ],
+   "kr_distributors": [
+    {
+     "name": "로보티즈 (본사 직판·구매 문의)",
+     "kind": "direct",
+     "url": "https://www.robotis.com/ko/"
+    }
    ],
    "summary": "Wheeled (bimanual torso on a wheeled base) humanoid from ROBOTIS; shipping now, anyone can order.",
    "data_source": "HumanoidStore open data (CC BY 4.0)"
@@ -20528,6 +20745,7 @@
    "id": "robros-igris-max",
    "name": "IGRIS-MAX",
    "manufacturer": "ROBROS",
+   "manufacturer_ko": "로브로스",
    "country": "South Korea",
    "category": "Humanoid",
    "locomotion": "Legged",
@@ -20556,7 +20774,17 @@
    "price_usd": null,
    "price_note": null,
    "official_url": null,
-   "sources": [],
+   "sources": [
+    "https://www.robros.co.kr/ko"
+   ],
+   "kr_distributors": [
+    {
+     "name": "로브로스 (본사 직판)",
+     "kind": "direct",
+     "url": "https://www.robros.co.kr/ko"
+    }
+   ],
+   "kr_note": "국내 판매를 우선하며 해외 문의도 받습니다.",
    "summary": "",
    "image_url": null,
    "image_source": null,
@@ -20570,6 +20798,7 @@
    "id": "rainbow-robotics-drc-hubo-plus",
    "name": "DRC-HUBO+",
    "manufacturer": "Rainbow Robotics",
+   "manufacturer_ko": "레인보우로보틱스",
    "country": "South Korea",
    "category": "Humanoid",
    "locomotion": "Legged",
@@ -20599,8 +20828,17 @@
    "price_note": null,
    "official_url": null,
    "sources": [
-    "https://humanoidstore.co/robots/rainbow-robotics-drc-hubo-plus"
+    "https://humanoidstore.co/robots/rainbow-robotics-drc-hubo-plus",
+    "https://rainbow-robotics.com/"
    ],
+   "kr_distributors": [
+    {
+     "name": "레인보우로보틱스 (본사·파트너사 직판)",
+     "kind": "direct",
+     "url": "https://rainbow-robotics.com/"
+    }
+   ],
+   "kr_note": "국내 판매·데모·기술 상담은 본사와 전문 파트너사를 통해 진행합니다.",
    "summary": "Full-size humanoid from Rainbow Robotics; research only, sold to research buyers.",
    "data_source": "HumanoidStore open data (CC BY 4.0)"
   },
@@ -20608,6 +20846,7 @@
    "id": "rainbow-rby1",
    "name": "RB-Y1",
    "manufacturer": "Rainbow Robotics",
+   "manufacturer_ko": "레인보우로보틱스",
    "country": "South Korea",
    "category": "Humanoid",
    "locomotion": "Wheeled",
@@ -20637,8 +20876,17 @@
    "price_note": "list 80000 USD (maker), per HumanoidStore, checked 2026-10",
    "official_url": null,
    "sources": [
-    "https://humanoidstore.co/robots/rainbow-rby1"
+    "https://humanoidstore.co/robots/rainbow-rby1",
+    "https://rainbow-robotics.com/"
    ],
+   "kr_distributors": [
+    {
+     "name": "레인보우로보틱스 (본사·파트너사 직판)",
+     "kind": "direct",
+     "url": "https://rainbow-robotics.com/"
+    }
+   ],
+   "kr_note": "국내 판매·데모·기술 상담은 본사와 전문 파트너사를 통해 진행합니다.",
    "summary": "Wheeled (bimanual torso on a wheeled base) humanoid from Rainbow Robotics; shipping now, anyone can order.",
    "data_source": "HumanoidStore open data (CC BY 4.0)"
   },
@@ -20646,6 +20894,7 @@
    "id": "rainbow-robotics-rb-y2",
    "name": "RB-Y2",
    "manufacturer": "Rainbow Robotics",
+   "manufacturer_ko": "레인보우로보틱스",
    "country": "South Korea",
    "category": "Humanoid",
    "locomotion": "Wheeled",
@@ -20676,8 +20925,17 @@
    "official_url": "https://rainbow-robotics.com/en/products/rb-y2",
    "sources": [
     "https://rainbow-robotics.com/en/products/rb-y2",
-    "https://rainbow-robotics.com/en/products/lineup"
+    "https://rainbow-robotics.com/en/products/lineup",
+    "https://rainbow-robotics.com/"
    ],
+   "kr_distributors": [
+    {
+     "name": "레인보우로보틱스 (본사·파트너사 직판)",
+     "kind": "direct",
+     "url": "https://rainbow-robotics.com/"
+    }
+   ],
+   "kr_note": "국내 판매·데모·기술 상담은 본사와 전문 파트너사를 통해 진행합니다.",
    "summary": "Next-generation mobile dual-arm robot platform from Rainbow Robotics, extending the RB-Y series from research to field operation.",
    "image_url": null,
    "image_source": null,
@@ -21625,6 +21883,7 @@
    "id": "robotis-op3",
    "name": "OP3",
    "manufacturer": "Robotis",
+   "manufacturer_ko": "로보티즈",
    "country": "South Korea",
    "category": "Humanoid",
    "locomotion": "Legged",
@@ -21654,7 +21913,15 @@
    "price_note": "list 11969 USD (maker), per HumanoidStore, checked 2026-10",
    "official_url": null,
    "sources": [
-    "https://humanoidstore.co/robots/robotis-op3"
+    "https://humanoidstore.co/robots/robotis-op3",
+    "https://www.robotis.com/ko/"
+   ],
+   "kr_distributors": [
+    {
+     "name": "로보티즈 (본사 직판·구매 문의)",
+     "kind": "direct",
+     "url": "https://www.robotis.com/ko/"
+    }
    ],
    "summary": "Desktop-size humanoid from Robotis; shipping now, anyone can order.",
    "data_source": "HumanoidStore open data (CC BY 4.0)"
@@ -21663,6 +21930,7 @@
    "id": "robros-igris-c",
    "name": "IGRIS-C",
    "manufacturer": "Robros",
+   "manufacturer_ko": "로브로스",
    "country": "South Korea",
    "category": "Humanoid",
    "locomotion": "Legged",
@@ -21692,8 +21960,17 @@
    "price_note": "list 100000 USD (maker), per HumanoidStore, checked 2026-10",
    "official_url": null,
    "sources": [
-    "https://humanoidstore.co/robots/robros-igris-c"
+    "https://humanoidstore.co/robots/robros-igris-c",
+    "https://www.robros.co.kr/ko"
    ],
+   "kr_distributors": [
+    {
+     "name": "로브로스 (본사 직판)",
+     "kind": "direct",
+     "url": "https://www.robros.co.kr/ko"
+    }
+   ],
+   "kr_note": "국내 판매를 우선하며 해외 문의도 받습니다.",
    "summary": "Mid-size humanoid from Robros; b2b only, sold to research buyers.",
    "data_source": "HumanoidStore open data (CC BY 4.0)"
   },
@@ -23056,6 +23333,7 @@
    "id": "t-robotics-tr-works",
    "name": "TR-WORKS",
    "manufacturer": "T-Robotics",
+   "manufacturer_ko": "티로보틱스",
    "country": "South Korea",
    "category": "Humanoid",
    "locomotion": "Wheeled",
@@ -23084,7 +23362,16 @@
    "price_usd": null,
    "price_note": null,
    "official_url": null,
-   "sources": [],
+   "sources": [
+    "http://www.t-robotics.co.kr/"
+   ],
+   "kr_distributors": [
+    {
+     "name": "티로보틱스 (본사 직판)",
+     "kind": "direct",
+     "url": "http://www.t-robotics.co.kr/"
+    }
+   ],
    "summary": "",
    "image_url": null,
    "image_source": null,
@@ -25079,7 +25366,15 @@
     "https://github.com/unitreerobotics/unitree_sdk2",
     "https://humanoidstore.co/robots/unitree-g1",
     "https://humanoidstore.co/robots/unitree-g1-edu",
-    "https://humanoidstore.co/robots/unitree-g1-plus"
+    "https://humanoidstore.co/robots/unitree-g1-plus",
+    "https://www.younginmobility.com/"
+   ],
+   "kr_distributors": [
+    {
+     "name": "영인모빌리티 (Unitree 한국 공식 파트너)",
+     "kind": "distributor",
+     "url": "https://www.younginmobility.com/"
+    }
    ],
    "summary": "Compact, low-cost humanoid for research, education and development; arm payload ~2 kg (3 kg EDU), 9000 mAh quick-release battery."
   },
@@ -25124,7 +25419,15 @@
    "official_url": "https://www.unitree.com/G1-D/",
    "sources": [
     "https://www.unitree.com/G1-D/",
-    "https://support.unitree.com/home/en/G1D_Developer/about"
+    "https://support.unitree.com/home/en/G1D_Developer/about",
+    "https://www.younginmobility.com/"
+   ],
+   "kr_distributors": [
+    {
+     "name": "영인모빌리티 (Unitree 한국 공식 파트너)",
+     "kind": "distributor",
+     "url": "https://www.younginmobility.com/"
+    }
    ],
    "summary": "Wheeled dual-arm humanoid platform with a lifting column for embodied-AI data collection, training and deployment.",
    "image_url": null,
@@ -25174,7 +25477,15 @@
    "official_url": "https://www.unitree.com/h1",
    "sources": [
     "https://www.unitree.com/h1",
-    "https://humanoidstore.co/robots/unitree-h1"
+    "https://humanoidstore.co/robots/unitree-h1",
+    "https://www.younginmobility.com/"
+   ],
+   "kr_distributors": [
+    {
+     "name": "영인모빌리티 (Unitree 한국 공식 파트너)",
+     "kind": "distributor",
+     "url": "https://www.younginmobility.com/"
+    }
    ],
    "summary": "Full-size research humanoid (dims 1520+285 x 570 x 220 mm) noted for 3.3 m/s running; H1-2 variant is 70 kg with 27 DoF."
   },
@@ -25211,7 +25522,15 @@
    "price_note": "list 128900 USD (maker), per HumanoidStore, checked 2026-09",
    "official_url": null,
    "sources": [
-    "https://humanoidstore.co/robots/unitree-h1-2"
+    "https://humanoidstore.co/robots/unitree-h1-2",
+    "https://www.younginmobility.com/"
+   ],
+   "kr_distributors": [
+    {
+     "name": "영인모빌리티 (Unitree 한국 공식 파트너)",
+     "kind": "distributor",
+     "url": "https://www.younginmobility.com/"
+    }
    ],
    "summary": "Full-size humanoid from Unitree Robotics; discontinued, sold to research buyers.",
    "data_source": "HumanoidStore open data (CC BY 4.0)"
@@ -25255,7 +25574,15 @@
     "https://www.unitree.com/H2",
     "https://humanoidstore.co/robots/unitree-h2",
     "https://humanoidstore.co/robots/unitree-h2-edu",
-    "https://humanoidstore.co/robots/unitree-h2-plus"
+    "https://humanoidstore.co/robots/unitree-h2-plus",
+    "https://www.younginmobility.com/"
+   ],
+   "kr_distributors": [
+    {
+     "name": "영인모빌리티 (Unitree 한국 공식 파트너)",
+     "kind": "distributor",
+     "url": "https://www.younginmobility.com/"
+    }
    ],
    "summary": "180 cm full-size humanoid with bionic head; arm payload rated ~7 kg (peak ~15 kg)."
   },
@@ -25300,7 +25627,15 @@
    "price_note": null,
    "official_url": "https://www.unitree.com/H2-D/",
    "sources": [
-    "https://www.unitree.com/H2-D/"
+    "https://www.unitree.com/H2-D/",
+    "https://www.younginmobility.com/"
+   ],
+   "kr_distributors": [
+    {
+     "name": "영인모빌리티 (Unitree 한국 공식 파트너)",
+     "kind": "distributor",
+     "url": "https://www.younginmobility.com/"
+    }
    ],
    "summary": "Dual-arm humanoid on a lifting column and mobile chassis for industrial mobile manipulation and embodied-AI training.",
    "image_url": null,
@@ -25348,7 +25683,15 @@
    "sources": [
     "https://humanoidstore.co/robots/unitree-r1",
     "https://humanoidstore.co/robots/unitree-r1-air",
-    "https://humanoidstore.co/robots/unitree-r1-edu"
+    "https://humanoidstore.co/robots/unitree-r1-edu",
+    "https://www.younginmobility.com/"
+   ],
+   "kr_distributors": [
+    {
+     "name": "영인모빌리티 (Unitree 한국 공식 파트너)",
+     "kind": "distributor",
+     "url": "https://www.younginmobility.com/"
+    }
    ],
    "summary": "Compact humanoid from Unitree Robotics; shipping now, anyone can order.",
    "data_source": "HumanoidStore open data (CC BY 4.0)"
@@ -25387,7 +25730,15 @@
    "official_url": "https://www.unitree.com",
    "sources": [
     "https://english.news.cn/20260817/ad14838a779e42e6a67957e5bef74bcf/c.html",
-    "http://www.chinadaily.com.cn/a/202608/20/WS6a86f01ea3106bc57421c9c6.html"
+    "http://www.chinadaily.com.cn/a/202608/20/WS6a86f01ea3106bc57421c9c6.html",
+    "https://www.younginmobility.com/"
+   ],
+   "kr_distributors": [
+    {
+     "name": "영인모빌리티 (Unitree 한국 공식 파트너)",
+     "kind": "distributor",
+     "url": "https://www.younginmobility.com/"
+    }
    ],
    "summary": "Unitree's high-speed bipedal humanoid prototype unveiled in August 2026 to demonstrate record sprint and jump performance.",
    "image_url": null,
@@ -29642,7 +29993,9 @@
   {
    "id": "lg-cloi-servebot",
    "name": "CLOi ServeBot (Shelf type, LDLTR30)",
+   "name_ko": "LG 클로이 서브봇",
    "manufacturer": "LG Electronics",
+   "manufacturer_ko": "LG전자",
    "country": "South Korea",
    "category": "Indoor delivery",
    "locomotion": "Wheeled",
@@ -29677,8 +30030,17 @@
    "price_note": "runtime 11 h measured at 0.7 m/s; battery 25,000 mAh (voltage not stated)",
    "official_url": "https://solutions.lg.com/us/cloi-servebot/lg-ldltr30",
    "sources": [
-    "https://media.us.lg.com/m/64dc60ed87812982/original/LDLTR30-Series-Spec-Sheet.pdf"
+    "https://media.us.lg.com/m/64dc60ed87812982/original/LDLTR30-Series-Spec-Sheet.pdf",
+    "https://www.lge.co.kr/story/newsroom/225625"
    ],
+   "kr_distributors": [
+    {
+     "name": "LG전자 (직판·로봇 구독)",
+     "kind": "direct",
+     "url": "https://www.lge.co.kr/"
+    }
+   ],
+   "kr_note": "국내에서는 구매 외에 로봇 구독(RaaS) 방식으로도 공급합니다.",
    "summary": "Restaurant and hospitality serving robot with four height-adjustable shelves, weight-sensing trays and six-wheel independent suspension."
   },
   {
@@ -30074,7 +30436,9 @@
   {
    "id": "robotis-gaemi-indoor",
    "name": "GAEMI Indoor Service Robot",
+   "name_ko": "개미 (실내)",
    "manufacturer": "ROBOTIS",
+   "manufacturer_ko": "로보티즈",
    "country": "South Korea",
    "category": "Indoor delivery",
    "locomotion": "Wheeled",
@@ -30105,7 +30469,15 @@
    "official_url": "https://www.robotis.com/en/product/ecosystem-ingaemi.php",
    "sources": [
     "https://www.robotis.com/en/product/ecosystem-ingaemi.php",
-    "https://robotis.us/collections/indoor-delivery-robot"
+    "https://robotis.us/collections/indoor-delivery-robot",
+    "https://www.robotis.com/ko/"
+   ],
+   "kr_distributors": [
+    {
+     "name": "로보티즈 (본사 직판·구매 문의)",
+     "kind": "direct",
+     "url": "https://www.robotis.com/ko/"
+    }
    ],
    "summary": "Indoor autonomous service robot with a robotic arm that rides elevators and delivers items in hotels, hospitals and offices.",
    "image_url": null,
@@ -30333,7 +30705,9 @@
   {
    "id": "woowa-dilly-tower",
    "name": "Dilly Tower",
+   "name_ko": "딜리타워",
    "manufacturer": "Woowa Brothers",
+   "manufacturer_ko": "우아한형제들",
    "country": "South Korea",
    "category": "Indoor delivery",
    "locomotion": "Wheeled",
@@ -30365,8 +30739,17 @@
    "sources": [
     "https://www.yna.co.kr/view/AKR20200518149000030",
     "https://biz.heraldcorp.com/article/2650656",
-    "https://www.koreajoongangdaily.com/business/postcovid19-new-normal-letting-the-robots-take-over-is-the-secret-to-social-distancing/11155620"
+    "https://www.koreajoongangdaily.com/business/postcovid19-new-normal-letting-the-robots-take-over-is-the-secret-to-social-distancing/11155620",
+    "https://www.mk.co.kr/news/business/10547977"
    ],
+   "kr_distributors": [
+    {
+     "name": "우아한형제들 (배달 서비스로 운영)",
+     "kind": "direct",
+     "url": "https://www.woowahan.com/"
+    }
+   ],
+   "kr_note": "로봇을 판매하지 않고 배민 앱의 로봇배달 서비스로 운영합니다.",
    "summary": "Baemin's indoor last-leg delivery robot that opens lobby doors and rides elevators to bring orders to apartment and office doors."
   },
   {
@@ -30663,7 +31046,9 @@
   {
    "id": "wirobotics-allex",
    "name": "ALLEX",
+   "name_ko": "알렉스",
    "manufacturer": "WIRobotics",
+   "manufacturer_ko": "위로보틱스",
    "country": "South Korea",
    "category": "Misc",
    "locomotion": null,
@@ -30695,7 +31080,15 @@
    "price_note": null,
    "official_url": "https://corp.wirobotics.com/en/product/allex",
    "sources": [
-    "https://corp.wirobotics.com/en/product/allex"
+    "https://corp.wirobotics.com/en/product/allex",
+    "https://rih.wirobotics.com/allex"
+   ],
+   "kr_distributors": [
+    {
+     "name": "위로보틱스 (본사 직판)",
+     "kind": "direct",
+     "url": "https://corp.wirobotics.com/"
+    }
    ],
    "summary": "WIRobotics' compliant general-purpose humanoid upper body with force-sensitive 15-DoF hands, currently without legs or a mobile base.",
    "image_url": "https://d2nxb27ysr05sd.cloudfront.net/global-landing-page/allex-page/allex-section-3-image.png",
@@ -31780,7 +32173,15 @@
    "price_note": null,
    "official_url": "https://www.kuka.com/en-de/products/amr-autonomous-mobile-robotics/mobile-robot-systems/kmr-iisy-autonomous-mobile-cobot",
    "sources": [
-    "https://www.kuka.com/en-de/products/amr-autonomous-mobile-robotics/mobile-robot-systems/kmr-iisy-autonomous-mobile-cobot"
+    "https://www.kuka.com/en-de/products/amr-autonomous-mobile-robotics/mobile-robot-systems/kmr-iisy-autonomous-mobile-cobot",
+    "https://www.kuka.com/ko-kr/"
+   ],
+   "kr_distributors": [
+    {
+     "name": "쿠카로보틱스코리아 (KUKA Robotics Korea Co., Ltd.)",
+     "kind": "direct",
+     "url": "https://www.kuka.com/ko-kr/"
+    }
    ],
    "summary": "KUKA autonomous mobile cobot combining a SLAM-navigating platform (up to 200 kg) with an LBR iisy arm for machine tending, pick-and-place and cleanroom logistics.",
    "image_url": "https://www.kuka.com/-/media/kuka-corporate/images/products/mobility/kmr-iisy-mobile-cobot/kuka-kmr-iisy-mobile-cobot.jpg?rev=5a7824ca3d4743d688d471595472a703&w=767&hash=F431C8BCCFECAFC2D250451611FF4CBA",
@@ -31830,7 +32231,15 @@
    "sources": [
     "https://www.kuka.com/en-us/products/amr-autonomous-mobile-robotics/mobile-robot-systems/kmr-iiwa",
     "https://www.kuka.com/-/media/kuka-downloads/files/87f2706ce77c4318877932fb36f6002d/kuka_kmriiwa_en.pdf",
-    "https://my.kuka.com/s/product/kmr-iiwa-omnimove-c/01t1i000000AQtGAAW?language=en_US"
+    "https://my.kuka.com/s/product/kmr-iiwa-omnimove-c/01t1i000000AQtGAAW?language=en_US",
+    "https://www.kuka.com/ko-kr/"
+   ],
+   "kr_distributors": [
+    {
+     "name": "쿠카로보틱스코리아 (KUKA Robotics Korea Co., Ltd.)",
+     "kind": "direct",
+     "url": "https://www.kuka.com/ko-kr/"
+    }
    ],
    "summary": "Autonomous HRC-capable mobile robot combining KUKA's LBR iiwa 7-axis cobot with an omnidirectional Mecanum-wheel platform.",
    "image_url": null,
@@ -33055,7 +33464,9 @@
   {
    "id": "neubility-neubie",
    "name": "Neubie",
+   "name_ko": "뉴비",
    "manufacturer": "Neubility",
+   "manufacturer_ko": "뉴빌리티",
    "country": "South Korea",
    "category": "Outdoor delivery",
    "locomotion": "Wheeled",
@@ -33091,8 +33502,17 @@
    "official_url": "https://www.neubility.ai/en/product",
    "sources": [
     "https://www.neubility.ai/en/product",
-    "https://www.kiria.org/portal/cert/portalCertEstiStats.do"
+    "https://www.kiria.org/portal/cert/portalCertEstiStats.do",
+    "https://www.neubility.ai/ko/"
    ],
+   "kr_distributors": [
+    {
+     "name": "뉴빌리티 (서비스 계약)",
+     "kind": "direct",
+     "url": "https://www.neubility.ai/ko"
+    }
+   ],
+   "kr_note": "국내에서는 자율주행 배달·순찰 서비스로 운영합니다.",
    "summary": "LiDAR-free, camera-based 4WD sidewalk delivery robot certified for outdoor operation in Korea, used for app and campus deliveries."
   },
   {
@@ -33384,7 +33804,9 @@
   {
    "id": "robotis-gaemi-outdoor",
    "name": "GAEMI Outdoor Delivery Robot",
+   "name_ko": "개미 (실외)",
    "manufacturer": "ROBOTIS",
+   "manufacturer_ko": "로보티즈",
    "country": "South Korea",
    "category": "Outdoor delivery",
    "locomotion": "Wheeled",
@@ -33415,7 +33837,15 @@
    "official_url": "https://www.robotis.com/en/product/ecosystem-outgaemi.php",
    "sources": [
     "https://www.robotis.com/en/product/ecosystem-outgaemi.php",
-    "https://en.robotis.com/sub/business_012.php"
+    "https://en.robotis.com/sub/business_012.php",
+    "https://www.robotis.com/ko/"
+   ],
+   "kr_distributors": [
+    {
+     "name": "로보티즈 (본사 직판·구매 문의)",
+     "kind": "direct",
+     "url": "https://www.robotis.com/ko/"
+    }
    ],
    "summary": "Outdoor autonomous delivery robot for sidewalks, campuses and parks, delivering food and goods and supporting collection and patrol services.",
    "image_url": null,
@@ -33562,6 +33992,7 @@
    "id": "woowa-dilly-x3",
    "name": "Dilly X3",
    "manufacturer": "Woowa Brothers",
+   "manufacturer_ko": "우아한형제들",
    "country": "South Korea",
    "category": "Outdoor delivery",
    "locomotion": "Wheeled",
@@ -33591,8 +34022,17 @@
    "price_note": "KIRIA outdoor certification: max mass 106.5 kg incl. 20 kg payload, 9 km/h, 15 deg grade (width 625.3 mm)",
    "official_url": null,
    "sources": [
-    "https://www.kiria.org/portal/cert/portalCertEstiStats.do"
+    "https://www.kiria.org/portal/cert/portalCertEstiStats.do",
+    "https://www.mk.co.kr/news/business/10547977"
    ],
+   "kr_distributors": [
+    {
+     "name": "우아한형제들 (배달 서비스로 운영)",
+     "kind": "direct",
+     "url": "https://www.woowahan.com/"
+    }
+   ],
+   "kr_note": "로봇을 판매하지 않고 배민 앱의 로봇배달 서비스로 운영합니다.",
    "summary": "Baemin's in-house indoor-outdoor autonomous delivery robot, certified for sidewalk operation in Korea."
   },
   {
@@ -34624,6 +35064,7 @@
   {
    "id": "boston-dynamics-spot",
    "name": "Spot",
+   "name_ko": "스팟",
    "manufacturer": "Boston Dynamics",
    "country": "United States",
    "category": "Quadruped",
@@ -34657,7 +35098,16 @@
    "official_url": "https://bostondynamics.com/products/spot/",
    "sources": [
     "https://bostondynamics.com/products/spot/",
-    "https://dev.bostondynamics.com/"
+    "https://dev.bostondynamics.com/",
+    "https://bostondynamics.com/blog/expanding-our-reach-in-korea/",
+    "https://spot.clobot.co.kr/"
+   ],
+   "kr_distributors": [
+    {
+     "name": "클로봇 (Clobot)",
+     "kind": "distributor",
+     "url": "https://spot.clobot.co.kr/"
+    }
    ],
    "summary": "Agile industrial quadruped for autonomous inspection, data capture and hazardous-area response, extendable with payloads and an arm."
   },
@@ -35365,7 +35815,9 @@
   {
    "id": "diden-robotics-diden-spider",
    "name": "Diden Spider (Spider 30)",
+   "name_ko": "디든 스파이더 30",
    "manufacturer": "Diden Robotics",
+   "manufacturer_ko": "디든로보틱스",
    "country": "South Korea",
    "category": "Quadruped",
    "locomotion": "Legged",
@@ -35398,7 +35850,15 @@
     "https://robotworld.or.kr/visitors/pop_list_of_exhibitors.php?idx=1431",
     "https://www.eweek.com/news/news-diden-spider-30-magnetic-robot-shipyards-south-korea-apac/",
     "https://www.didenrobotics.com/en/resources-all/nvidia-gtc-2026-spider-30",
-    "https://en.fnnews.com/news/202611041829341672"
+    "https://en.fnnews.com/news/202611041829341672",
+    "https://www.didenrobotics.com/"
+   ],
+   "kr_distributors": [
+    {
+     "name": "디든로보틱스 (본사 직판)",
+     "kind": "direct",
+     "url": "https://www.didenrobotics.com/"
+    }
    ],
    "summary": "Magnetic-foot (electro-permanent magnet) quadruped that climbs steel walls and ceilings inside ship blocks to carry welding and inspection tools."
   },
@@ -36916,6 +37376,7 @@
    "id": "kaist-hound",
    "name": "HOUND",
    "manufacturer": "KAIST",
+   "manufacturer_ko": "한국과학기술원",
    "country": "South Korea",
    "category": "Quadruped",
    "locomotion": "Legged",
@@ -36944,7 +37405,9 @@
    "price_usd": null,
    "price_note": null,
    "official_url": null,
-   "sources": [],
+   "sources": [
+    "https://rainbow-robotics.com/"
+   ],
    "summary": "",
    "image_url": null,
    "image_source": null,
@@ -36958,6 +37421,7 @@
    "id": "kaist-raibo",
    "name": "RAIBO",
    "manufacturer": "KAIST",
+   "manufacturer_ko": "한국과학기술원",
    "country": "South Korea",
    "category": "Quadruped",
    "locomotion": "Legged",
@@ -36986,7 +37450,9 @@
    "price_usd": null,
    "price_note": null,
    "official_url": null,
-   "sources": [],
+   "sources": [
+    "https://rainbow-robotics.com/"
+   ],
    "summary": "",
    "image_url": null,
    "image_source": null,
@@ -37961,7 +38427,9 @@
   {
    "id": "maum-ai-jindo-bot",
    "name": "JINDO BOT",
+   "name_ko": "진도봇",
    "manufacturer": "Maum AI",
+   "manufacturer_ko": "마음AI",
    "country": "South Korea",
    "category": "Quadruped",
    "locomotion": "Legged",
@@ -37993,6 +38461,13 @@
    "sources": [
     "https://maum.ai/",
     "https://kr.linkedin.com/posts/maum-ai_%EB%A7%88%EC%9D%8Cai-maumai-jindobot-activity-7426550307632926721-l3H6"
+   ],
+   "kr_distributors": [
+    {
+     "name": "마음AI (본사 직판·사전 예약)",
+     "kind": "direct",
+     "url": "https://maum.ai/"
+    }
    ],
    "summary": "Domestically produced full-autonomy quadruped from maum.ai for security patrol, defence and industrial safety, running on-device Physical AI.",
    "image_url": null,
@@ -38584,6 +39059,7 @@
    "id": "rainbow-robotics-rbq-10",
    "name": "RBQ-10",
    "manufacturer": "Rainbow Robotics",
+   "manufacturer_ko": "레인보우로보틱스",
    "country": "South Korea",
    "category": "Quadruped",
    "locomotion": "Legged",
@@ -38621,14 +39097,25 @@
    "official_url": "https://rainbow-robotics.com/en/products/rbq-10",
    "sources": [
     "https://rainbowrobotics.github.io/RBQ/manual/product-descriptions/general-specification.html",
-    "https://www.hani.co.kr/arti/economy/marketing/1285758.html"
+    "https://www.hani.co.kr/arti/economy/marketing/1285758.html",
+    "https://rainbow-robotics.com/"
    ],
+   "kr_distributors": [
+    {
+     "name": "레인보우로보틱스 (본사·파트너사 직판)",
+     "kind": "direct",
+     "url": "https://rainbow-robotics.com/"
+    }
+   ],
+   "kr_note": "국내 판매·데모·기술 상담은 본사와 전문 파트너사를 통해 진행합니다.",
    "summary": "Korean outdoor quadruped platform for patrol, inspection, observation and research with sensor expansion."
   },
   {
    "id": "raion-robotics-raibo2",
    "name": "RAIBO2",
+   "name_ko": "라이보2",
    "manufacturer": "Raion Robotics",
+   "manufacturer_ko": "라이온로보틱스",
    "country": "South Korea",
    "category": "Quadruped",
    "locomotion": "Legged",
@@ -38665,7 +39152,15 @@
     "https://raionrobotics.com/en/product/Raibo2",
     "https://www.hannovermesse.de/apollo/hannover_messe_2026/obs/Binary/A1513828/Company%20ProfileEN_smallsize_1.pdf",
     "https://railab.kaist.ac.kr/sections/robots.html",
-    "https://doi.org/10.21203/rs.3.rs-6040970/v1"
+    "https://doi.org/10.21203/rs.3.rs-6040970/v1",
+    "https://raionrobotics.com/"
+   ],
+   "kr_distributors": [
+    {
+     "name": "라이온로보틱스 (본사 직판)",
+     "kind": "direct",
+     "url": "https://raionrobotics.com/"
+    }
    ],
    "summary": "Energy-efficient field quadruped with in-house actuators and RL control, running up to 6 m/s and walking about 8 hours per charge.",
    "image_url": "https://raionrobotics.com/news/marathon_raibo2.png",
@@ -39397,7 +39892,15 @@
    "price_note": null,
    "official_url": "https://www.unitree.com/a1/",
    "sources": [
-    "https://www.unitree.com/a1/"
+    "https://www.unitree.com/a1/",
+    "https://www.younginmobility.com/"
+   ],
+   "kr_distributors": [
+    {
+     "name": "영인모빌리티 (Unitree 한국 공식 파트너)",
+     "kind": "distributor",
+     "url": "https://www.younginmobility.com/"
+    }
    ],
    "summary": "Mid-size research quadruped with 3.3 m/s continuous running speed, 5 kg payload and high/low-level real-time API for secondary development.",
    "image_url": null,
@@ -39448,7 +39951,15 @@
    "price_note": "contact sales",
    "official_url": "https://www.unitree.com/A2",
    "sources": [
-    "https://www.unitree.com/A2"
+    "https://www.unitree.com/A2",
+    "https://www.younginmobility.com/"
+   ],
+   "kr_distributors": [
+    {
+     "name": "영인모빌리티 (Unitree 한국 공식 파트너)",
+     "kind": "distributor",
+     "url": "https://www.younginmobility.com/"
+    }
    ],
    "summary": "Mid-size industrial quadruped with hot-swappable dual batteries for inspection, logistics and rescue."
   },
@@ -39490,7 +40001,15 @@
    "price_note": null,
    "official_url": "https://www.unitree.com/aliengo/",
    "sources": [
-    "https://www.unitree.com/aliengo/"
+    "https://www.unitree.com/aliengo/",
+    "https://www.younginmobility.com/"
+   ],
+   "kr_distributors": [
+    {
+     "name": "영인모빌리티 (Unitree 한국 공식 파트너)",
+     "kind": "distributor",
+     "url": "https://www.younginmobility.com/"
+    }
    ],
    "summary": "Industrial-level research quadruped with 12 servo motors, 13 kg load, C/C++ and ROS high/low-level control interfaces.",
    "image_url": null,
@@ -39544,7 +40063,15 @@
    "sources": [
     "https://www.unitree.com/As2",
     "https://shop.unitree.com/products/unitree-as2",
-    "https://support.unitree.com/home/en/AS2_SDK_Development_Guide"
+    "https://support.unitree.com/home/en/AS2_SDK_Development_Guide",
+    "https://www.younginmobility.com/"
+   ],
+   "kr_distributors": [
+    {
+     "name": "영인모빌리티 (Unitree 한국 공식 파트너)",
+     "kind": "distributor",
+     "url": "https://www.younginmobility.com/"
+    }
    ],
    "summary": "Compact 20 kg industrial quadruped with 15 kg walking payload, IP54, 648 Wh battery for 4+ h, and up to 5 m/s.",
    "image_url": null,
@@ -39591,7 +40118,15 @@
    "price_note": null,
    "official_url": "https://www.unitree.com/b1/",
    "sources": [
-    "https://www.unitree.com/b1/"
+    "https://www.unitree.com/b1/",
+    "https://www.younginmobility.com/"
+   ],
+   "kr_distributors": [
+    {
+     "name": "영인모빌리티 (Unitree 한국 공식 파트너)",
+     "kind": "distributor",
+     "url": "https://www.younginmobility.com/"
+    }
    ],
    "summary": "IP68 industrial heavy-load quadruped (~50 kg) carrying 20 kg while walking, with five depth cameras and 932 Wh battery.",
    "image_url": null,
@@ -39644,7 +40179,15 @@
    "price_note": null,
    "official_url": "https://www.unitree.com/b2",
    "sources": [
-    "https://www.unitree.com/b2"
+    "https://www.unitree.com/b2",
+    "https://www.younginmobility.com/"
+   ],
+   "kr_distributors": [
+    {
+     "name": "영인모빌리티 (Unitree 한국 공식 파트너)",
+     "kind": "distributor",
+     "url": "https://www.younginmobility.com/"
+    }
    ],
    "summary": "Heavy industrial quadruped for power inspection, emergency rescue and logistics with 40 kg walking load."
   },
@@ -39686,7 +40229,15 @@
    "price_note": "Go1 Air $2,700; Go1 Pro $3,500 (tax/freight excluded); Edu by quote",
    "official_url": "https://www.unitree.com/go1/",
    "sources": [
-    "https://www.unitree.com/go1/"
+    "https://www.unitree.com/go1/",
+    "https://www.younginmobility.com/"
+   ],
+   "kr_distributors": [
+    {
+     "name": "영인모빌리티 (Unitree 한국 공식 파트너)",
+     "kind": "distributor",
+     "url": "https://www.younginmobility.com/"
+    }
    ],
    "summary": "Consumer-level bionic companion quadruped (12 kg) with super-sensing stereo cameras, AI compute and up to 3.7 m/s (Edu).",
    "image_url": null,
@@ -39738,7 +40289,15 @@
    "price_note": "tax and freight excluded",
    "official_url": "https://www.unitree.com/go2",
    "sources": [
-    "https://www.unitree.com/go2"
+    "https://www.unitree.com/go2",
+    "https://www.younginmobility.com/"
+   ],
+   "kr_distributors": [
+    {
+     "name": "영인모빌리티 (Unitree 한국 공식 파트너)",
+     "kind": "distributor",
+     "url": "https://www.younginmobility.com/"
+    }
    ],
    "summary": "Entry consumer quadruped robot dog with 4D LiDAR for hobby and companionship use."
   },
@@ -39781,7 +40340,15 @@
    "official_url": "https://www.unitree.com/go2",
    "sources": [
     "https://www.unitree.com/go2",
-    "https://github.com/unitreerobotics/unitree_sdk2"
+    "https://github.com/unitreerobotics/unitree_sdk2",
+    "https://www.younginmobility.com/"
+   ],
+   "kr_distributors": [
+    {
+     "name": "영인모빌리티 (Unitree 한국 공식 파트너)",
+     "kind": "distributor",
+     "url": "https://www.younginmobility.com/"
+    }
    ],
    "summary": "Research and education version of Go2 with secondary-development access, foot force sensors and a long-endurance battery."
   },
@@ -39822,7 +40389,15 @@
    "price_note": "tax and freight excluded",
    "official_url": "https://www.unitree.com/go2",
    "sources": [
-    "https://www.unitree.com/go2"
+    "https://www.unitree.com/go2",
+    "https://www.younginmobility.com/"
+   ],
+   "kr_distributors": [
+    {
+     "name": "영인모빌리티 (Unitree 한국 공식 파트너)",
+     "kind": "distributor",
+     "url": "https://www.younginmobility.com/"
+    }
    ],
    "summary": "Consumer quadruped with 4G, voice and side-follow features for enthusiasts."
   },
@@ -39858,7 +40433,16 @@
    "price_usd": null,
    "price_note": null,
    "official_url": null,
-   "sources": [],
+   "sources": [
+    "https://www.younginmobility.com/"
+   ],
+   "kr_distributors": [
+    {
+     "name": "영인모빌리티 (Unitree 한국 공식 파트너)",
+     "kind": "distributor",
+     "url": "https://www.younginmobility.com/"
+    }
+   ],
    "summary": "",
    "image_url": null,
    "image_source": null,
@@ -41267,6 +41851,7 @@
    "id": "hyundai-tiger-x-1",
    "name": "TIGER X-1",
    "manufacturer": "Hyundai Motor Group",
+   "manufacturer_ko": "현대자동차그룹 로보틱스랩",
    "country": "South Korea",
    "category": "Wheel-legged",
    "locomotion": "Wheel-legged",
@@ -41295,7 +41880,17 @@
    "price_usd": null,
    "price_note": null,
    "official_url": null,
-   "sources": [],
+   "sources": [
+    "https://robotics.hyundai.com/story/log/view.do?seq=181"
+   ],
+   "kr_distributors": [
+    {
+     "name": "현대자동차그룹 로보틱스랩",
+     "kind": "direct",
+     "url": "https://robotics.hyundai.com/"
+    }
+   ],
+   "kr_note": "2026년 1분기부터 고객 판매 예정입니다.",
    "summary": "",
    "image_url": null,
    "image_source": null,
@@ -41308,7 +41903,9 @@
   {
    "id": "hyundai-mobed-basic",
    "name": "MobED Basic",
+   "name_ko": "모베드 베이직",
    "manufacturer": "Hyundai Motor Group (Robotics LAB)",
+   "manufacturer_ko": "현대자동차그룹 로보틱스랩",
    "country": "South Korea",
    "category": "Wheel-legged",
    "locomotion": "Wheel-legged",
@@ -41338,14 +41935,25 @@
    "price_note": null,
    "official_url": "https://robotics.hyundai.com/en/",
    "sources": [
-    "https://www.hyundai.com/worldwide/en/newsroom/detail/0000001082"
+    "https://www.hyundai.com/worldwide/en/newsroom/detail/0000001082",
+    "https://robotics.hyundai.com/story/log/view.do?seq=181"
    ],
+   "kr_distributors": [
+    {
+     "name": "현대자동차그룹 로보틱스랩",
+     "kind": "direct",
+     "url": "https://robotics.hyundai.com/"
+    }
+   ],
+   "kr_note": "2026년 1분기부터 고객 판매 예정입니다.",
    "summary": "R&D version of MobED without pre-installed autonomy (manual drive, RS422 API) built on the eccentric Drive-and-Lift wheel modules; sales scheduled H1 2026."
   },
   {
    "id": "hyundai-mobed-pro",
    "name": "MobED Pro",
+   "name_ko": "모베드 프로",
    "manufacturer": "Hyundai Motor Group (Robotics LAB)",
+   "manufacturer_ko": "현대자동차그룹 로보틱스랩",
    "country": "South Korea",
    "category": "Wheel-legged",
    "locomotion": "Wheel-legged",
@@ -41379,8 +41987,17 @@
    "price_note": null,
    "official_url": "https://robotics.hyundai.com/en/",
    "sources": [
-    "https://www.hyundai.com/worldwide/en/newsroom/detail/0000001082"
+    "https://www.hyundai.com/worldwide/en/newsroom/detail/0000001082",
+    "https://robotics.hyundai.com/story/log/view.do?seq=181"
    ],
+   "kr_distributors": [
+    {
+     "name": "현대자동차그룹 로보틱스랩",
+     "kind": "direct",
+     "url": "https://robotics.hyundai.com/"
+    }
+   ],
+   "kr_note": "2026년 1분기부터 고객 판매 예정입니다.",
    "summary": "Production autonomous mobility platform using eccentric Drive-and-Lift wheel modules for posture control over curbs (100–200 mm) and slopes; Ethernet API, follow-me; unveiled iREX Dec 2025 with sales scheduled H1 2026."
   },
   {
@@ -41882,7 +42499,15 @@
    "price_note": "Contact sales",
    "official_url": "https://www.unitree.com/A2-W",
    "sources": [
-    "https://www.unitree.com/A2-W"
+    "https://www.unitree.com/A2-W",
+    "https://www.younginmobility.com/"
+   ],
+   "kr_distributors": [
+    {
+     "name": "영인모빌리티 (Unitree 한국 공식 파트너)",
+     "kind": "distributor",
+     "url": "https://www.younginmobility.com/"
+    }
    ],
    "summary": "Industrial wheel-legged quadruped for inspection, park logistics and rescue with hot-swappable dual batteries; 0–3 m/s normal, up to ~6 m/s; Pro variant adds a second LiDAR and IP56–IP67."
   },
@@ -41924,7 +42549,15 @@
    "price_note": "Contact sales",
    "official_url": "https://www.unitree.com/As2-W",
    "sources": [
-    "https://www.unitree.com/As2-W"
+    "https://www.unitree.com/As2-W",
+    "https://www.younginmobility.com/"
+   ],
+   "kr_distributors": [
+    {
+     "name": "영인모빌리티 (Unitree 한국 공식 파트너)",
+     "kind": "distributor",
+     "url": "https://www.younginmobility.com/"
+    }
    ],
    "summary": "Compact wheel-legged quadruped with 7-inch wheels, side-follow mode and SDK/APIs for security, inspection and outdoor carrying; 0–3.7 m/s normal, ~6 m/s max."
   },
@@ -41961,7 +42594,15 @@
    "price_note": null,
    "official_url": "https://www.unitree.com/b2-w",
    "sources": [
-    "https://www.unitree.com/b2-w"
+    "https://www.unitree.com/b2-w",
+    "https://www.younginmobility.com/"
+   ],
+   "kr_distributors": [
+    {
+     "name": "영인모빌리티 (Unitree 한국 공식 파트너)",
+     "kind": "distributor",
+     "url": "https://www.younginmobility.com/"
+    }
    ],
    "summary": "Industrial wheel-legged quadruped (B2 with wheeled feet) for long-range inspection and patrol; >40 kg walking load (120 kg standing), 15 km/h max in special configuration, ~25 km range with 40 kg."
   },
@@ -42001,7 +42642,15 @@
    "price_note": null,
    "official_url": "https://www.unitree.com/go2-w",
    "sources": [
-    "https://www.unitree.com/go2-w"
+    "https://www.unitree.com/go2-w",
+    "https://www.younginmobility.com/"
+   ],
+   "kr_distributors": [
+    {
+     "name": "영인모빌리티 (Unitree 한국 공식 파트너)",
+     "kind": "distributor",
+     "url": "https://www.younginmobility.com/"
+    }
    ],
    "summary": "Consumer/education wheel-legged version of Go2 with 7-inch pneumatic in-wheel-motor tyres; runtime stated 1.5–3 h (lower bound recorded), payload ≈8 kg (max ~12 kg)."
   },
