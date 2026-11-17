@@ -193,6 +193,7 @@ Fields the maker does not publish are left out here — the catalog never fills 
 - [storage.pardot.com](https://storage.pardot.com/92812/1748526832JH1SIJ41/JACKAL_DATA_SHEET_May2025.pdf)
 - [docs.clearpathrobotics.com](https://docs.clearpathrobotics.com/docs_robots/outdoor_robots/jackal/user_manual_jackal)
 - [github.com](https://github.com/clearpathrobotics/clearpath_robot)
+- [clearpathrobotics.com](https://clearpathrobotics.com/husky-spec-comparison/)
 
 ---
 

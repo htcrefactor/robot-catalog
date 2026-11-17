@@ -39,6 +39,7 @@ Mobile manipulator: differential-drive platform plus integrated LBR iisy 6-axis 
 
 - Official page: [kuka.com](https://www.kuka.com/en-de/products/amr-autonomous-mobile-robotics/mobile-robot-systems/kmr-iisy-autonomous-mobile-cobot)
 - [kuka.com](https://www.kuka.com/en-gb/company/press/news/2023/06/kmr-iisy-and-kmp-1500p)
+- [kuka.com](https://www.kuka.com/-/media/kuka-corporate/countries/nordic/documents/amr---autonomous-mobile-robotics.pdf)
 
 Listed by these directories (discovery only, never used as a spec source):
 

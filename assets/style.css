@@ -93,3 +93,4 @@ table.mega.fields td{white-space:normal}table.mega.fields td:nth-child(4){min-wi
 table.mega.fields tr.grp th{position:static;background:var(--th);color:var(--muted);font-size:11px;text-transform:uppercase;letter-spacing:.5px;cursor:default}
 table.mega.fields code{font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:12px}
 #links{padding-left:18px;line-height:1.9}
+.card .safety{font-weight:600;color:var(--ink)}.card .safety::before{content:"🛡 ";opacity:.7}

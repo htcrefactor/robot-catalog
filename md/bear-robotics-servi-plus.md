@@ -174,6 +174,7 @@ Fields the maker does not publish are left out here — the catalog never fills 
 ## Sources
 
 - Official page: [bearrobotics.ai](https://www.bearrobotics.ai/servi-plus)
+- [bearrobotics.ai](https://www.bearrobotics.ai/s/200-Servi-Plus_User-Manual_EN.pdf)
 
 ---
 

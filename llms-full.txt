@@ -8565,7 +8565,7 @@
 - Indoor delivery · Wheeled · Commercial · United States
 - Summary: High-capacity restaurant serving robot with 2-4 trays (10 kg each) and active suspension for soups and drinks.
 - Specs: Length 590 mm; Width 535 mm; Height 1,230 mm; Payload 40 kg; Max speed 1.2 m/s (4.3 km/h); Min speed 0.1 m/s; Runtime 10 h; Status Commercial; Price battery life stated as 10-12 h; lower bound recorded
-- Sources: https://www.bearrobotics.ai/servi-plus
+- Sources: https://www.bearrobotics.ai/servi-plus, https://www.bearrobotics.ai/s/200-Servi-Plus_User-Manual_EN.pdf
 
 ### Bear Robotics Servi Q
 
@@ -9285,7 +9285,7 @@
 - Mobile platform · Wheeled · Commercial · Canada
 - Summary: Small, fast, weatherproof 4x4 field-robotics research UGV with onboard PC, GPS and IMU integrated with ROS 2.
 - Specs: Length 508 mm; Width 430 mm; Height 250 mm; Weight 17 kg; Payload 20 kg; Max speed 2 m/s (7.2 km/h); Wheel diameter 194 mm; Wheels 4; Runtime 4 h; Battery 332 Wh; IP rating IP62; Status Commercial; API yes; SDK yes; SDK name ROS 2 Jazzy (Clearpath packages); ROS yes; On-board compute yes; Compute Standard Intel i3-9100TE 16GB; Performance Intel i7-9700TE 16GB; Sensors GPS, IMU, Wheel encoders
-- Sources: https://clearpathrobotics.com/jackal-small-unmanned-ground-vehicle/, https://storage.pardot.com/92812/1748526832JH1SIJ41/JACKAL_DATA_SHEET_May2025.pdf, https://docs.clearpathrobotics.com/docs_robots/outdoor_robots/jackal/user_manual_jackal, https://github.com/clearpathrobotics/clearpath_robot
+- Sources: https://clearpathrobotics.com/jackal-small-unmanned-ground-vehicle/, https://storage.pardot.com/92812/1748526832JH1SIJ41/JACKAL_DATA_SHEET_May2025.pdf, https://docs.clearpathrobotics.com/docs_robots/outdoor_robots/jackal/user_manual_jackal, https://github.com/clearpathrobotics/clearpath_robot, https://clearpathrobotics.com/husky-spec-comparison/
 
 ### Clearpath Robotics (Rockwell Automation) Ridgeback
 
@@ -9479,7 +9479,7 @@
 - Mobile platform · Wheeled · Commercial · Germany · released 2023
 - Summary: KUKA autonomous mobile cobot combining a SLAM-navigating platform (up to 200 kg) with an LBR iisy arm for machine tending, pick-and-place and cleanroom logistics.
 - Specs: Length 1,120 mm; Width 695 mm; Height 700 mm; Weight 425 kg; Payload 200 kg; Max speed 1.5 m/s (5.4 km/h); Degrees of freedom 6; Runtime 8 h; IP rating IP54; Released 2023; Status Commercial; Sensors Safety laser scanners (LiDAR), 3D cameras (obstacles up to 2 m), Joint torque sensors
-- Sources: https://www.kuka.com/en-de/products/amr-autonomous-mobile-robotics/mobile-robot-systems/kmr-iisy-autonomous-mobile-cobot, https://www.kuka.com/en-gb/company/press/news/2023/06/kmr-iisy-and-kmp-1500p
+- Sources: https://www.kuka.com/en-de/products/amr-autonomous-mobile-robotics/mobile-robot-systems/kmr-iisy-autonomous-mobile-cobot, https://www.kuka.com/en-gb/company/press/news/2023/06/kmr-iisy-and-kmp-1500p, https://www.kuka.com/-/media/kuka-corporate/countries/nordic/documents/amr---autonomous-mobile-robotics.pdf
 
 ### KUKA KMR iiwa
 

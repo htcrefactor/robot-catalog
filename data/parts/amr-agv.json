@@ -40,7 +40,22 @@
    "https://mobile-industrial-robots.com/products/robots/mir250/specifications",
    "https://ai.motion.com/wp-content/uploads/2025/10/MiR250-Specifications-2.99.pdf"
   ],
-  "summary": "Compact 250 kg indoor AMR for moving small and medium loads, carts and shelves around factories and warehouses."
+  "summary": "Compact 250 kg indoor AMR for moving small and medium loads, carts and shelves around factories and warehouses.",
+  "safety_note": "ISO 3691-4 except Clause 4.4, 4.9.4, 5.1, 6 and Annex A. 12 safety functions per ISO 13849-1.",
+  "safety_standards": [
+   "ISO 3691-4",
+   "ISO 13849-1",
+   "ISO 13850",
+   "ISO 12100",
+   "ITSDF B56.5",
+   "RIA R15.08-1",
+   "EN 61000-6-4",
+   "EN 61000-6-2",
+   "EN 12895"
+  ],
+  "safety_source": "https://mobile-industrial-robots.com/products/robots/mir250/specifications",
+  "safety_pl": null,
+  "certifications": []
  },
  {
   "id": "mir-mir600",
@@ -83,7 +98,22 @@
    "https://mobile-industrial-robots.com/products/robots/mir600/specifications",
    "https://ai.motion.com/wp-content/uploads/2025/10/MiR600-Specifications-2.99.pdf"
   ],
-  "summary": "IP52-rated 600 kg AMR that picks up and moves pallets and heavy loads as a forklift alternative."
+  "summary": "IP52-rated 600 kg AMR that picks up and moves pallets and heavy loads as a forklift alternative.",
+  "safety_note": "ISO 3691-4 except Clause 4.4, 4.9.4, 5.1, 5.2, 6 and Annex A. 13 safety functions per ISO 13849-1, certified by TÜV Rheinland.",
+  "safety_standards": [
+   "ISO 13849-1",
+   "ISO 3691-4",
+   "ISO 12100",
+   "ISO 13850",
+   "ITSDF B56.5",
+   "RIA R15.08-1",
+   "EN 61000-6-4"
+  ],
+  "safety_source": "https://mobile-industrial-robots.com/products/robots/mir600/specifications",
+  "safety_pl": null,
+  "certifications": [
+   "TÜV Rheinland certificate (ISO 13849-1)"
+  ]
  },
  {
   "id": "mir-mir1200-pallet-jack",
@@ -127,7 +157,20 @@
    "https://mobile-industrial-robots.com/products/robots/mir1200-pallet-jack",
    "https://mobile-industrial-robots.com/products/robots/mir1200-pallet-jack/specifications"
   ],
-  "summary": "Autonomous pallet jack that detects, lifts and delivers EU pallets up to 1,200 kg using AI-based perception."
+  "summary": "Autonomous pallet jack that detects, lifts and delivers EU pallets up to 1,200 kg using AI-based perception.",
+  "safety_note": null,
+  "safety_standards": [
+   "EN ISO 12100:2010",
+   "ISO 13849-1:2023",
+   "EN ISO 13850:2015",
+   "EN ISO 3691-4:2023",
+   "EN IEC 61000-6-4:2007/A1:2011",
+   "EN IEC 61000-6-2:2005/AC:2005",
+   "EN 12895:2015+A1:2019"
+  ],
+  "safety_source": "https://mobile-industrial-robots.com/products/robots/mir1200-pallet-jack/specifications",
+  "safety_pl": null,
+  "certifications": []
  },
  {
   "id": "otto-otto-100",
@@ -167,9 +210,28 @@
   "price_note": null,
   "official_url": "https://ottomotors.com/100/",
   "sources": [
-   "https://www.rockwellautomation.com/content/dam/rockwell-automation/documents/pdf/events/automate/otto-100-datasheet.pdf"
+   "https://www.rockwellautomation.com/content/dam/rockwell-automation/documents/pdf/events/automate/otto-100-datasheet.pdf",
+   "https://ottomotors.com/100/"
   ],
-  "summary": "Compact all-metal AMR with an integrated lift for moving boxes, bins and carts up to 150 kg in manufacturing."
+  "summary": "Compact all-metal AMR with an integrated lift for moving boxes, bins and carts up to 150 kg in manufacturing.",
+  "safety_note": "Maker's “Standards compliance” list for OTTO 100.",
+  "safety_standards": [
+   "ISO 12100",
+   "ISO 13849-1",
+   "ISO 3691-4",
+   "ANSI/ITSDF B56.5",
+   "RIA R15.08-1",
+   "EN 1175-1",
+   "EN 60204-1"
+  ],
+  "safety_source": "https://ottomotors.com/100/",
+  "safety_pl": null,
+  "certifications": [
+   "CE",
+   "FCC Part 15 Subpart B",
+   "ICES-003",
+   "ICES-002"
+  ]
  },
  {
   "id": "otto-otto-1500",
@@ -208,9 +270,28 @@
   "price_note": null,
   "official_url": "https://ottomotors.com/1500",
   "sources": [
-   "https://www.rockwellautomation.com/content/dam/rockwell-automation/documents/pdf/events/automate/otto-1500-data-sheet.pdf"
+   "https://www.rockwellautomation.com/content/dam/rockwell-automation/documents/pdf/events/automate/otto-1500-data-sheet.pdf",
+   "https://ottomotors.com/1500"
   ],
-  "summary": "Heavy-duty AMR for pallet-sized loads up to 1,900 kg (capacity includes attachment) in demanding plants."
+  "summary": "Heavy-duty AMR for pallet-sized loads up to 1,900 kg (capacity includes attachment) in demanding plants.",
+  "safety_note": "Maker's “Standards compliance” list for OTTO 1500.",
+  "safety_standards": [
+   "ISO 12100",
+   "ISO 13849-1",
+   "ISO 3691-4",
+   "ANSI/ITSDF B56.5",
+   "RIA R15.08-1",
+   "EN 1175-1",
+   "EN 60204-1"
+  ],
+  "safety_source": "https://ottomotors.com/1500",
+  "safety_pl": null,
+  "certifications": [
+   "CE",
+   "FCC Part 15 Subpart B",
+   "ICES-003",
+   "ICES-002"
+  ]
  },
  {
   "id": "kuka-kmp-600-s-diffdrive",
@@ -331,7 +412,30 @@
   "sources": [
    "https://assets.omron.eu/downloads/latest/datasheet/en/i828_ld-series_mobile_robot_datasheet_en.pdf"
   ],
-  "summary": "250 kg natural-feature-navigation AMR for transport between workstations, lines and storage."
+  "summary": "250 kg natural-feature-navigation AMR for transport between workstations, lines and storage.",
+  "safety_note": "ISO 3691-4 except clauses 4.1.15b, 4.8.2.6 items 6–7, 4.12 and 4.14. Safety scanning laser is Class 1 PL d per ISO 13849-1. AMR and docking station are cULus, battery cRUus.",
+  "safety_standards": [
+   "UL 3100",
+   "EN ISO 12100",
+   "EN ISO 13849-1",
+   "EN 60204-1",
+   "ANSI B56.5",
+   "EN ISO 3691-4",
+   "EN 61000-6-2",
+   "EN 61000-6-4",
+   "KN 61000-6-2",
+   "KN 61000-6-4",
+   "UN 38.3",
+   "ANSI/CAN/UL/ULC 2271",
+   "UL 1012",
+   "CSA C22.2.107.2"
+  ],
+  "safety_source": "https://assets.omron.eu/downloads/latest/datasheet/en/i828_ld-series_mobile_robot_datasheet_en.pdf",
+  "safety_pl": "PL d",
+  "certifications": [
+   "cULus",
+   "cRUus"
+  ]
  },
  {
   "id": "omron-hd-1500",
@@ -372,7 +476,36 @@
   "sources": [
    "https://assets.omron.eu/downloads/latest/datasheet/en/i855_hd-series_mobile_robot_datasheet_en.pdf"
   ],
-  "summary": "Heavy-duty AMR for pallets and large assemblies up to 1,500 kg with 360° safety coverage."
+  "summary": "Heavy-duty AMR for pallets and large assemblies up to 1,500 kg with 360° safety coverage.",
+  "safety_note": "Certification markings: AMR cTUVus and KC; battery cURus and CE; power supply box and docking target cTUVus.",
+  "safety_standards": [
+   "EN ISO 12100",
+   "EN ISO 13849-1",
+   "EN 60204-1",
+   "EN ISO 10218-1",
+   "EN 61326-3-1",
+   "EN 61326-1",
+   "EN ISO 3691-4",
+   "EN 12895",
+   "CAN/CSA Z434",
+   "CAN/UL 3100",
+   "KS C 9610-6-2",
+   "KS C 9610-6-4",
+   "ANSI/CAN/UL/ULC 2271",
+   "UN 38.3",
+   "UL 1012",
+   "CAN/CSA C22.2.107.2",
+   "EN 61204-7",
+   "EN 62477-1"
+  ],
+  "safety_source": "https://assets.omron.eu/downloads/latest/datasheet/en/i855_hd-series_mobile_robot_datasheet_en.pdf",
+  "safety_pl": null,
+  "certifications": [
+   "cTUVus",
+   "KC",
+   "cURus",
+   "CE"
+  ]
  },
  {
   "id": "locus-robotics-locus-origin",
@@ -411,7 +544,14 @@
   "sources": [
    "https://locusrobotics.com/platform/locus-origin/"
   ],
-  "summary": "Collaborative picking AMR with tote shelving that carries orders for warehouse associates in fulfillment centers."
+  "summary": "Collaborative picking AMR with tote shelving that carries orders for warehouse associates in fulfillment centers.",
+  "safety_note": "Maker: “Locus Origin is CE Certified for European operations”.",
+  "safety_standards": [],
+  "safety_source": "https://locusrobotics.com/platform/locus-origin/",
+  "safety_pl": null,
+  "certifications": [
+   "CE"
+  ]
  },
  {
   "id": "geekplus-p800r",
@@ -672,7 +812,14 @@
    "https://droid.monster/robots/pudu-robotics/t300"
   ],
   "verification": "official",
-  "note": "Official Pudu product page (T300 Standard, model WTID01): 835 x 500 x 1350 mm, 65 kg (Lifting version WTIDL1: 81 kg, 60 mm lift), 300 kg max load, 1.2 m/s, run-time 12 h no load / 8 h full load (older flyers said 6 h loaded), 2 h charge to 90%, VSLAM + LiDAR SLAM, LiDAR + depth cameras + collision sensors, ISO 3691-4. Wheeled (dual-wheel differential). Skeleton official_url pointed to a news listing - replaced with product page."
+  "note": "Official Pudu product page (T300 Standard, model WTID01): 835 x 500 x 1350 mm, 65 kg (Lifting version WTIDL1: 81 kg, 60 mm lift), 300 kg max load, 1.2 m/s, run-time 12 h no load / 8 h full load (older flyers said 6 h loaded), 2 h charge to 90%, VSLAM + LiDAR SLAM, LiDAR + depth cameras + collision sensors, ISO 3691-4. Wheeled (dual-wheel differential). Skeleton official_url pointed to a news listing - replaced with product page.",
+  "safety_note": "Maker: “Compliant with the ISO 3691-4 standard”.",
+  "safety_standards": [
+   "ISO 3691-4"
+  ],
+  "safety_source": "https://www.pudurobotics.com/en/products/pudut300",
+  "safety_pl": null,
+  "certifications": []
  },
  {
   "id": "keenon-s300",
@@ -1640,7 +1787,15 @@
    "https://data.robo2u.com/robots/third-wave-automation-twa-reach"
   ],
   "verification": "official",
-  "note": "Autonomous reach-truck forklift (AGV category OK) with shared autonomy (auto / remote assist / remote operation / manual). Maker spec sheet: 4,000 lb max payload (1,814 kg) to 210 in, 2,500 lb up to 300 in, 360 in top beam; 3.0 m/s (6.7 mph) max travel; 53 x 90.1 x 161 in (1346 x 2289 x 4089 mm); 7,120 lb (3,230 kg); 36 V battery (lead-acid/TPPL/lithium); 4x 3D LiDAR, 5x 3D cameras, 4x RGB, 128-layer 3D LiDAR for SLAM. Launched Mar 2022 (with Clark Material Handling)."
+  "note": "Autonomous reach-truck forklift (AGV category OK) with shared autonomy (auto / remote assist / remote operation / manual). Maker spec sheet: 4,000 lb max payload (1,814 kg) to 210 in, 2,500 lb up to 300 in, 360 in top beam; 3.0 m/s (6.7 mph) max travel; 53 x 90.1 x 161 in (1346 x 2289 x 4089 mm); 7,120 lb (3,230 kg); 36 V battery (lead-acid/TPPL/lithium); 4x 3D LiDAR, 5x 3D cameras, 4x RGB, 128-layer 3D LiDAR for SLAM. Launched Mar 2022 (with Clark Material Handling).",
+  "safety_note": "Specification sheet: “Built with ISO 3691-4:2023 and ANSI/ITSDF B56.5-2019 as guiding principles” — a design basis, not a stated certificate.",
+  "safety_standards": [
+   "ISO 3691-4:2023",
+   "ANSI/ITSDF B56.5-2019"
+  ],
+  "safety_source": "https://thirdwave.ai/twa-reach-specifications-sheet.pdf",
+  "safety_pl": null,
+  "certifications": []
  },
  {
   "id": "forwardx-max-1500-l-slim",
@@ -1782,7 +1937,8 @@
   "price_note": null,
   "official_url": "https://ottomotors.com/1200",
   "sources": [
-   "https://www.rockwellautomation.com/content/dam/rockwell-automation/documents/pdf/events/automate/OTTO1200-DS001G-EN-SEP2026.pdf"
+   "https://www.rockwellautomation.com/content/dam/rockwell-automation/documents/pdf/events/automate/OTTO1200-DS001G-EN-SEP2026.pdf",
+   "https://ottomotors.com/1200"
   ],
   "summary": "Compact heavy-duty AMR that moves payloads up to 1,200 kg through narrow factory aisles with adaptive safety fieldsets and 30-minute opportunity charging.",
   "image_url": null,
@@ -1792,7 +1948,21 @@
    "https://data.robo2u.com/robots/otto-1200"
   ],
   "verification": "official",
-  "note": "Maker: OTTO Motors (Clearpath, Kitchener, Canada), now 'OTTO by Rockwell Automation' (parent Rockwell is US) - country kept as Canada (OTTO HQ). Launched 11 Sep 2023. Max speed conflict between maker datasheet revisions: SEP2026/MAR2026 sheets say 1.4 m/s (used); an older 2024 sheet copy said 1.5 m/s. Battery 21 Ah @ 48 V = ~1,008 Wh (computed from maker values). Runtime per charge not stated (30-min 10-90% opportunity charge). Payload 1,200 kg includes any attachment. A partner listing (SYNAOS) gives 385 kg mass vs maker 370 kg - maker value used."
+  "note": "Maker: OTTO Motors (Clearpath, Kitchener, Canada), now 'OTTO by Rockwell Automation' (parent Rockwell is US) - country kept as Canada (OTTO HQ). Launched 11 Sep 2023. Max speed conflict between maker datasheet revisions: SEP2026/MAR2026 sheets say 1.4 m/s (used); an older 2024 sheet copy said 1.5 m/s. Battery 21 Ah @ 48 V = ~1,008 Wh (computed from maker values). Runtime per charge not stated (30-min 10-90% opportunity charge). Payload 1,200 kg includes any attachment. A partner listing (SYNAOS) gives 385 kg mass vs maker 370 kg - maker value used.",
+  "safety_note": "Maker's “Standards compliance” list for OTTO 1200; no CE mark or ISO 3691-4 is named.",
+  "safety_standards": [
+   "ISO 12100",
+   "ISO 13849-1",
+   "EN 1175-1",
+   "EN 60204-1"
+  ],
+  "safety_source": "https://ottomotors.com/1200",
+  "safety_pl": null,
+  "certifications": [
+   "FCC Part 15 Subpart B",
+   "ICES-003",
+   "ICES-002"
+  ]
  },
  {
   "id": "exotec-skypod",
@@ -1980,7 +2150,17 @@
    "https://data.robo2u.com/robots/agilox-ocf"
   ],
   "verification": "official",
-  "note": "OCF = Omnidirectional Counterbalance Forklift (autonomous forklift AMR with three omnidirectional drive units), launched 2021 (maker blog Sep 2021). Datasheet 02/2026 (OCF 1200 standard): 2,795 x 1,200 x 2,566 mm (older V03/2023 sheet: 2,784 mm length), ~3,600 kg, max payload 1,500 kg (750/1,200 kg on some fork variants), max lift 1,600 mm, station height 1,450 mm, 1.4 m/s. Battery LiFePO4, '3 min charging = 1 h operation' opportunity charging (Wh not stated). Certified CE, ISO 3691-4, UL 3100. No IP rating stated."
+  "note": "OCF = Omnidirectional Counterbalance Forklift (autonomous forklift AMR with three omnidirectional drive units), launched 2021 (maker blog Sep 2021). Datasheet 02/2026 (OCF 1200 standard): 2,795 x 1,200 x 2,566 mm (older V03/2023 sheet: 2,784 mm length), ~3,600 kg, max payload 1,500 kg (750/1,200 kg on some fork variants), max lift 1,600 mm, station height 1,450 mm, 1.4 m/s. Battery LiFePO4, '3 min charging = 1 h operation' opportunity charging (Wh not stated). Certified CE, ISO 3691-4, UL 3100. No IP rating stated.",
+  "safety_note": "Datasheet lists certification as CE certified, certified to ISO 3691-4 and certified to UL 3100.",
+  "safety_standards": [
+   "ISO 3691-4"
+  ],
+  "safety_source": "https://www.agilox.net/media/agilox-ocf-datasheet-en.pdf",
+  "safety_pl": null,
+  "certifications": [
+   "CE",
+   "UL 3100"
+  ]
  },
  {
   "id": "hai-robotics-haipick-a42",
@@ -2327,7 +2507,14 @@
    "https://data.robo2u.com/robots/quicktron-c56-bin-picking-asrs-robot"
   ],
   "verification": "official",
-  "note": "Quicktron C-Series page + QuickBin+ booklet (C56 X/C). payload_kg = total rated load 270 kg (per-bin arm load 30-50 kg). Height 5300 mm default mast (customizable 2-12 m). Introduced 2022 per Quicktron blog."
+  "note": "Quicktron C-Series page + QuickBin+ booklet (C56 X/C). payload_kg = total rated load 270 kg (per-bin arm load 30-50 kg). Height 5300 mm default mast (customizable 2-12 m). Introduced 2022 per Quicktron blog.",
+  "safety_note": "Maker: “CE certified for safe 24/7 operation” (C56, C series page).",
+  "safety_standards": [],
+  "safety_source": "https://www.quicktron.com/products/c-series",
+  "safety_pl": null,
+  "certifications": [
+   "CE"
+  ]
  },
  {
   "id": "addverb-dynamo",
@@ -2377,7 +2564,19 @@
    "https://data.robo2u.com/robots/addverb-technologies-dynamo"
   ],
   "verification": "official",
-  "note": "Addverb Dynamo is a family (100/200/500/1000/1500/2500 kg). Values are Dynamo 100 (base model on product page/datasheet). Speed 2 m/s empty, 1.5 m/s loaded."
+  "note": "Addverb Dynamo is a family (100/200/500/1000/1500/2500 kg). Values are Dynamo 100 (base model on product page/datasheet). Speed 2 m/s empty, 1.5 m/s loaded.",
+  "safety_note": "Dynamo 100 datasheet: “Passed in accordance with CE, ISO 3691-4, EN ISO 12100, EN 60204-1, EN 1175-1”.",
+  "safety_standards": [
+   "ISO 3691-4",
+   "EN ISO 12100",
+   "EN 60204-1",
+   "EN 1175-1"
+  ],
+  "safety_source": "https://addverb.com/wp-content/uploads/2023/10/Dynamo-100-Datasheet.pdf",
+  "safety_pl": null,
+  "certifications": [
+   "CE"
+  ]
  },
  {
   "id": "greyorange-ranger-ril-l",
@@ -2475,7 +2674,16 @@
    "https://data.robo2u.com/robots/vecna-robotics-autonomous-tugger-atg"
   ],
   "verification": "official",
-  "note": "Vecna maker docs re-checked 2026-11-17. payload_kg = max tow payload 4,500 kg (9,920 lb). Weight excludes battery. Speed: all three Vecna spec sheets give 2 m/s (4.5 mph on the Aug-2023 sheet, 5 mph on the 2024-Q4 sheet and on the Mar-2026 tear sheet), so 2 m/s is stored; the live product page headline states 6.0 mph (= 2.68 m/s) and is the conflicting figure. Run time up to 8+ h per full charge."
+  "note": "Vecna maker docs re-checked 2026-11-17. payload_kg = max tow payload 4,500 kg (9,920 lb). Weight excludes battery. Speed: all three Vecna spec sheets give 2 m/s (4.5 mph on the Aug-2023 sheet, 5 mph on the 2024-Q4 sheet and on the Mar-2026 tear sheet), so 2 m/s is stored; the live product page headline states 6.0 mph (= 2.68 m/s) and is the conflicting figure. Run time up to 8+ h per full charge.",
+  "safety_note": "Safety system uses PL=d-rated sensors and safety controllers.",
+  "safety_standards": [
+   "ISO 13849-1:2015",
+   "ANSI/ITSDF B56.5",
+   "RIA 15.08"
+  ],
+  "safety_source": "https://www.vecnarobotics.com/wp-content/uploads/2024/10/ATG-AutonomousTugger-2024Q4.pdf",
+  "safety_pl": "PL d",
+  "certifications": []
  },
  {
   "id": "syrius-flexswift",
@@ -2671,7 +2879,17 @@
    "https://data.robo2u.com/robots/agilox-one"
   ],
   "verification": "official",
-  "note": "AGILOX product page + datasheet (single scissor: 1,000 kg to 500 mm; double scissor 750 kg to 1,000 mm). Weight 400 kg per AGILOX datasheet (blog cites 380 kg)."
+  "note": "AGILOX product page + datasheet (single scissor: 1,000 kg to 500 mm; double scissor 750 kg to 1,000 mm). Weight 400 kg per AGILOX datasheet (blog cites 380 kg).",
+  "safety_note": "Product page names CE, UL and ISO 3691-4 as examples of the safety standards the AMRs are certified to; the ONE datasheet states CE with a declaration of conformity.",
+  "safety_standards": [
+   "ISO 3691-4"
+  ],
+  "safety_source": "https://www.agilox.net/en/product/agilox-one",
+  "safety_pl": null,
+  "certifications": [
+   "CE",
+   "UL"
+  ]
  },
  {
   "id": "jungheinrich-eks-215a",
@@ -2802,7 +3020,8 @@
   "price_note": null,
   "official_url": "https://ottomotors.com/600",
   "sources": [
-   "https://www.rockwellautomation.com/content/dam/rockwell-automation/documents/pdf/events/automate/OTTO600-DS001G-EN-SEP2026.pdf"
+   "https://www.rockwellautomation.com/content/dam/rockwell-automation/documents/pdf/events/automate/OTTO600-DS001G-EN-SEP2026.pdf",
+   "https://ottomotors.com/600"
   ],
   "summary": "Mid-size 600 kg-capacity AMR from OTTO by Rockwell Automation for moving carts and pallets in tight manufacturing spaces.",
   "image_url": null,
@@ -2812,7 +3031,23 @@
    "https://data.robo2u.com/robots/otto-600"
   ],
   "verification": "official",
-  "note": "Max speed conflict: 2023 launch press release said 2 m/s; current maker spec sheet (OTTO-DS001G, Sep 2026) and manual say 1.4 m/s - used 1.4. IP54 was stated in the 2023 launch release (seen in search excerpt only, not in current spec sheet) - left out. Battery 48 V x 21 Ah (~1,008 Wh, derived). Later serial numbers are 1,025 mm long per OTTO docs."
+  "note": "Max speed conflict: 2023 launch press release said 2 m/s; current maker spec sheet (OTTO-DS001G, Sep 2026) and manual say 1.4 m/s - used 1.4. IP54 was stated in the 2023 launch release (seen in search excerpt only, not in current spec sheet) - left out. Battery 48 V x 21 Ah (~1,008 Wh, derived). Later serial numbers are 1,025 mm long per OTTO docs.",
+  "safety_note": "Maker's “Standards compliance” list for OTTO 600; it does not name ISO 3691-4 or B56.5.",
+  "safety_standards": [
+   "ISO 12100",
+   "ISO 13849-1",
+   "RIA R15.08-1",
+   "EN 1175-1",
+   "EN 60204-1"
+  ],
+  "safety_source": "https://ottomotors.com/600",
+  "safety_pl": null,
+  "certifications": [
+   "CE",
+   "FCC Part 15 Subpart B",
+   "ICES-003",
+   "ICES-002"
+  ]
  },
  {
   "id": "otto-otto-lifter",
@@ -2850,7 +3085,8 @@
   "price_note": null,
   "official_url": "https://ottomotors.com/lifter",
   "sources": [
-   "https://www.rockwellautomation.com/content/dam/rockwell-automation/documents/pdf/events/automate/OTTOLIFTER-DS001F-EN-AUG2026.pdf"
+   "https://www.rockwellautomation.com/content/dam/rockwell-automation/documents/pdf/events/automate/OTTOLIFTER-DS001F-EN-AUG2026.pdf",
+   "https://ottomotors.com/lifter"
   ],
   "summary": "Autonomous forklift that moves pallets up to 1,200 kg between stands, machines and floor locations.",
   "image_url": null,
@@ -2860,7 +3096,22 @@
    "https://data.robo2u.com/robots/otto-lifter"
   ],
   "verification": "official",
-  "note": "Autonomous forklift (counterbalanced pallet truck), wheeled. Lift height 2.7 m manual / 1.0 m autonomous (2022 launch sheet said 0.76 m autonomous). Battery: 24 V lead-acid 375 Ah or 25.6 V lithium 270 Ah (~6.9 kWh, not filled due to option choice). Maker blog states IP20 (search excerpt only). OTTO is Canadian (Kitchener, ON), owned by Rockwell Automation (US)."
+  "note": "Autonomous forklift (counterbalanced pallet truck), wheeled. Lift height 2.7 m manual / 1.0 m autonomous (2022 launch sheet said 0.76 m autonomous). Battery: 24 V lead-acid 375 Ah or 25.6 V lithium 270 Ah (~6.9 kWh, not filled due to option choice). Maker blog states IP20 (search excerpt only). OTTO is Canadian (Kitchener, ON), owned by Rockwell Automation (US).",
+  "safety_note": "Maker's “Standards compliance” list for OTTO Lifter; no CE mark is named.",
+  "safety_standards": [
+   "ANSI/ITSDF B56.5",
+   "ISO 12100",
+   "ISO 13849-1",
+   "EN 1175-1",
+   "EN 60204-1"
+  ],
+  "safety_source": "https://ottomotors.com/lifter",
+  "safety_pl": null,
+  "certifications": [
+   "FCC Part 15 Subpart B",
+   "ICES-003",
+   "ICES-002"
+  ]
  },
  {
   "id": "mir-mir1350",
@@ -2910,7 +3161,22 @@
    "https://data.robo2u.com/robots/mobile-industrial-robots-mir-mir1350"
   ],
   "verification": "official",
-  "note": "Runtime 9 h 50 min with no payload (6 h 45 min at max payload); 'up to 10 h' headline. Lithium-ion battery, capacity not stated on page. MiR (Denmark) is part of Teradyne Robotics."
+  "note": "Runtime 9 h 50 min with no payload (6 h 45 min at max payload); 'up to 10 h' headline. Lithium-ion battery, capacity not stated on page. MiR (Denmark) is part of Teradyne Robotics.",
+  "safety_note": "ISO 3691-4 except Clause 4.4, 4.9.4, 5.1, 5.2, 6 and Annex A. 13 safety functions per ISO 13849-1, certified by TÜV Rheinland.",
+  "safety_standards": [
+   "ISO 13849-1",
+   "ISO 3691-4",
+   "ISO 12100",
+   "ISO 13850",
+   "ITSDF B56.5",
+   "RIA R15.08-1",
+   "EN 61000-6-4"
+  ],
+  "safety_source": "https://mobile-industrial-robots.com/products/robots/mir1350/specifications",
+  "safety_pl": null,
+  "certifications": [
+   "TÜV Rheinland certificate (ISO 13849-1)"
+  ]
  },
  {
   "id": "amazon-robotics-hercules",
@@ -3004,7 +3270,17 @@
    "https://data.robo2u.com/robots/seegrid-tow-tractor-s7"
   ],
   "verification": "official",
-  "note": "Formerly 'Palion Tow Tractor'. Autonomous tugger: 10,000 lb (4,536 kg) is TOWING capacity, not carried payload. Max automatic speed 4 mph = 1.79 m/s. Max incline 2.5%. Dimensions/battery appear only on aggregators (e.g. 1,930 x 914 mm, 24 V 840 Ah) - not maker-confirmed on pages opened, left out."
+  "note": "Formerly 'Palion Tow Tractor'. Autonomous tugger: 10,000 lb (4,536 kg) is TOWING capacity, not carried payload. Max automatic speed 4 mph = 1.79 m/s. Max incline 2.5%. Dimensions/battery appear only on aggregators (e.g. 1,930 x 914 mm, 24 V 840 Ah) - not maker-confirmed on pages opened, left out.",
+  "safety_note": "Seegrid states its AMRs also satisfy the applicable ANSI R15.08 safety requirements.",
+  "safety_standards": [
+   "ANSI/ITSDF B56.5-2019",
+   "ANSI B11.0"
+  ],
+  "safety_source": "https://seegrid.com/autonomous-mobile-robots/tow-tractor-s7-amr",
+  "safety_pl": null,
+  "certifications": [
+   "UL 583"
+  ]
  },
  {
   "id": "seegrid-lift-rs1",
@@ -3097,7 +3373,16 @@
    "https://data.robo2u.com/robots/vecna-robotics-co-bot-pallet-jack-cpj"
   ],
   "verification": "official",
-  "note": "Maker sheets conflict among themselves: Mar-2026 tear sheet (used) 1740x927x2273 mm, 1.2 m/s, run time 4 h typical; 2024 sheets 1740x925x2195 mm, 1.25 m/s, 2.5 h; live product page '2.5 hrs quick-change battery'. Hot-swappable 24 V 60 Ah Li-ion (~1,440 Wh, derived). Collaborative: autonomous transport/drop-off, manual pick-up."
+  "note": "Maker sheets conflict among themselves: Mar-2026 tear sheet (used) 1740x927x2273 mm, 1.2 m/s, run time 4 h typical; 2024 sheets 1740x925x2195 mm, 1.25 m/s, 2.5 h; live product page '2.5 hrs quick-change battery'. Hot-swappable 24 V 60 Ah Li-ion (~1,440 Wh, derived). Collaborative: autonomous transport/drop-off, manual pick-up.",
+  "safety_note": "Safety system uses PL=d-rated sensors and safety controllers.",
+  "safety_standards": [
+   "ISO 13849-1:2015",
+   "ANSI/ITSDF B56.5",
+   "RIA 15.08"
+  ],
+  "safety_source": "https://www.vecnarobotics.com/wp-content/uploads/2026/03/Tear-Sheet-CPJ.pdf",
+  "safety_pl": "PL d",
+  "certifications": []
  },
  {
   "id": "robust-ai-carter-pro",
@@ -3484,7 +3769,16 @@
    "https://droid.monster/robots/pudu-robotics/t150"
   ],
   "verification": "official",
-  "note": "Two versions: T150 Standard (WTID00, 65 kg) and T150 Lifting (WTIDL0, 81 kg, 60 mm lift); values filled for Standard. Speed 0.2-1.2 m/s; 12 h runtime is no-load; battery 30 Ah (voltage not stated, so Wh left out); charge 2 h to 90%. ISO 3691-4, industrial CE. Launched early 2026 (Pudu LinkedIn post Feb 2026, search excerpt). Supports PUDU Link and API integration."
+  "note": "Two versions: T150 Standard (WTID00, 65 kg) and T150 Lifting (WTIDL0, 81 kg, 60 mm lift); values filled for Standard. Speed 0.2-1.2 m/s; 12 h runtime is no-load; battery 30 Ah (voltage not stated, so Wh left out); charge 2 h to 90%. ISO 3691-4, industrial CE. Launched early 2026 (Pudu LinkedIn post Feb 2026, search excerpt). Supports PUDU Link and API integration.",
+  "safety_note": "Maker: “Meeting rigorous ISO 3691-4 standards and holding industrial-specific CE certification”.",
+  "safety_standards": [
+   "ISO 3691-4"
+  ],
+  "safety_source": "https://www.pudurobotics.com/en/products/puduT150",
+  "safety_pl": null,
+  "certifications": [
+   "CE"
+  ]
  },
  {
   "id": "hikrobot-q3-600d",
@@ -4186,7 +4480,15 @@
    "https://droid.monster/robots/neura-robotics/mav"
   ],
   "verification": "official",
-  "note": "Values are the MAV 1500 variant from the Oct 2026 datasheet; MAV 500 carries 500 kg with 12 h uptime. Maker's older 2025 datasheet gave MAV 500 300 kg and IP44; 2026 sheet says 210 kg and IP54."
+  "note": "Values are the MAV 1500 variant from the Oct 2026 datasheet; MAV 500 carries 500 kg with 12 h uptime. Maker's older 2025 datasheet gave MAV 500 300 kg and IP44; 2026 sheet says 210 kg and IP54.",
+  "safety_note": "Datasheet: PLd / Category 2 (ISO 13849-1) and ISO 3691-4; the product page states PLd / Category 3 instead — the category differs between the two maker documents.",
+  "safety_standards": [
+   "ISO 13849-1",
+   "ISO 3691-4"
+  ],
+  "safety_source": "https://neurarobotics.px.media/plk/3K/MAV_NEURA_Robotics_Datasheet_Web.pdf",
+  "safety_pl": "PL d",
+  "certifications": []
  },
  {
   "id": "pudu-mp2000",
@@ -4383,7 +4685,32 @@
    "https://roboticsrankings.com/robots/aethon-t3/"
   ],
   "verification": "official",
-  "note": "Official model name is T3 (marketed earlier as 'TUG T3'); maker ST Engineering Aethon sells T3 and T3XL. Spec sheet: 340 kg (T3XL: 454 kg / 1,000 lb), 22.44 in width, 48.1 in height; overall length not given (lift surface 33.81 in)."
+  "note": "Official model name is T3 (marketed earlier as 'TUG T3'); maker ST Engineering Aethon sells T3 and T3XL. Spec sheet: 340 kg (T3XL: 454 kg / 1,000 lb), 22.44 in width, 48.1 in height; overall length not given (lift surface 33.81 in).",
+  "safety_note": null,
+  "safety_standards": [
+   "EN 12100:2010",
+   "EN 60204-1:2006+A1:2009",
+   "IEC 60034-1:2004-04",
+   "EN 55022",
+   "EN 61000-6-4:2007",
+   "EN 61000-6-2:2005",
+   "EN 60601-1-2:2007",
+   "EN 301 489-1",
+   "EN 301 489-17",
+   "EN 300 220-1",
+   "EN 300 220-2",
+   "EN 300 328",
+   "EN 301 893"
+  ],
+  "safety_source": "https://aethon.com/wp-content/uploads/2025/06/Aethon_SpecSheet_T3-1.pdf",
+  "safety_pl": null,
+  "certifications": [
+   "FCC Part 15",
+   "IC",
+   "CE",
+   "ICES-001",
+   "RCM"
+  ]
  },
  {
   "id": "robotnik-rb-watcher",
