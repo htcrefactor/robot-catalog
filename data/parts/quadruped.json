@@ -1679,7 +1679,16 @@
    "https://embodied.guide/robots/faraday-future-fx-aegis/"
   ],
   "verification": "official",
-  "note": "Page lists four FX Aegis Classic trims; values here are the base 'Aegis Classic - Pro' (12 DoF, 3.7 m/s, IP32, 15 kg, $2,990 sale / $4,490 list). Ultra: 5.0 m/s, IP54, 16 kg, $12,990; Ultra W (wheel-legged, 12+4 DoF): >5.5 m/s, 22 kg, $12,990. SDK/API only on Edu/Ultra trims."
+  "note": "Page lists four FX Aegis Classic trims; values here are the base 'Aegis Classic - Pro' (12 DoF, 3.7 m/s, IP32, 15 kg, $2,990 sale / $4,490 list). Ultra: 5.0 m/s, IP54, 16 kg, $12,990; Ultra W (wheel-legged, 12+4 DoF): >5.5 m/s, 22 kg, $12,990 - kept here as a variant, not a separate record. SDK/API only on Edu/Ultra trims.",
+  "variants": [
+   {
+    "id": "faraday-future-fx-aegis-ultra-w",
+    "name": "FX Aegis Classic Ultra-W",
+    "note": "Wheel-legged trim of FX Aegis Classic, released 2026: 22 kg, 12+4 DoF, open SDK/API, $12,990 plus a $3,000 skills package. Speed (>5.5 m/s) and obstacle height (60 vs 65 cm) appear only on third-party sites.",
+    "note_ko": "FX Aegis Classic의 휠-레그 트림으로 2026년 출시. 22 kg, 12+4 DoF, SDK/API 공개, $12,990에 스킬 패키지 $3,000 별도. 최고 속도(>5.5 m/s)와 장애물 높이(60 vs 65 cm)는 3자 사이트에만 있습니다.",
+    "url": "https://www.ff.com/us/919-ff-eai-robotics/"
+   }
+  ]
  },
  {
   "id": "pudu-d5",
@@ -2283,7 +2292,7 @@
  },
  {
   "id": "genisom-gangben-l2",
-  "name": "Genisom L2 (Gangbeng L2)",
+  "name": "Genisom L2",
   "manufacturer": "GENISOM AI (ZsiBot)",
   "country": "China",
   "category": "Quadruped",
@@ -2331,7 +2340,7 @@
    "https://embodied.guide/robots/genisom-gangben-l2/"
   ],
   "verification": "official",
-  "note": "Maker now brands it Genisom L2 (钢镚/Gangbeng; record had 'Gangben'). Speed 3.2 m/s rated, 5 m/s peak. The 70 cm obstacle headline belongs to the wheeled L2-W variant (27 kg) per maker brochure."
+  "note": "Official name 'Genisom L2' (钢镚 L2; recorded earlier as 'Gangben/Gangbeng L2'). Speed 3.2 m/s rated, 5 m/s peak. The 70 cm obstacle headline belongs to the wheeled L2-W variant (27 kg) per maker brochure."
  },
  {
   "id": "daxai-qiji-x1",
@@ -4234,7 +4243,7 @@
  },
  {
   "id": "genisom-gangben-l1",
-  "name": "Gangben L1",
+  "name": "Genisom L1",
   "manufacturer": "GENISOM AI (ZsiBot)",
   "country": "China",
   "category": "Quadruped",
@@ -4279,11 +4288,11 @@
    "https://embodied.guide/robots/genisom-gangben-l1/"
   ],
   "verification": "official",
-  "note": "GENISOM AI (智身科技) official page, product 钢镚 L1. Limit speed 5 m/s; payload ≈8 kg (limit ~10 kg). Battery 43.2 V × 4.6 Ah rated (~199 Wh, computed; not stated as Wh). EDU version adds Jetson Orin NX, 3D LiDAR, depth camera."
+  "note": "Official name 'Genisom L1' (钢镚 L1) - the record was listed as 'Gangben L1' from a competitor's transliteration. GENISOM AI (智身科技) page: limit speed 5 m/s; payload ≈8 kg (limit ~10 kg). Battery 43.2 V × 4.6 Ah rated (~199 Wh, computed; not stated as Wh). EDU version adds Jetson Orin NX, 3D LiDAR, depth camera."
  },
  {
   "id": "genisom-qiuqiu-sp1",
-  "name": "Qiuqiu SP1",
+  "name": "铅球 SP1 (Qianqiu SP1)",
   "manufacturer": "GENISOM AI (ZsiBot)",
   "country": "China",
   "category": "Quadruped",
@@ -4324,7 +4333,7 @@
    "https://embodied.guide/robots/genisom-qiuqiu-sp1/"
   ],
   "verification": "official",
-  "note": "Official product name is 铅球 SP1 (Qianqiu/'shot put'), not 'Qiuqiu'. Explosion-proof inspection quadruped for Zone 1/2 gas atmospheres. Weight stated '≤100 kg'; runtime '≥4 h'."
+  "note": "Official product name is 铅球 SP1 (qiānqiú, 'shot put') - 'Qiuqiu' was a wrong romanisation, so the id keeps the old slug for link stability. Explosion-proof inspection quadruped for Zone 1/2 gas atmospheres (Ex d IIC T6 Gb), IP66, 50 kg continuous payload, 35° slope, 4 h full-load runtime. Weight stated '≤100 kg'; runtime '≥4 h'."
  },
  {
   "id": "genisom-tongchui-m1",
@@ -5260,7 +5269,7 @@
  {
   "id": "microrobotech-haoqizhe-s01",
   "name": "Haoqizhe S01",
-  "manufacturer": "MicroRoboTech",
+  "manufacturer": "MICBOT (Hangzhou Juwei Technology)",
   "country": "China",
   "category": "Quadruped",
   "locomotion": "Wheel-legged",
@@ -5300,12 +5309,12 @@
    "https://embodied.guide/robots/microrobotech-haoqizhe-s01/"
   ],
   "verification": "official",
-  "note": "Maker name should be MICBOT (Hangzhou Juwei Technology / 杭州具微科技), not 'MicroRoboTech'. Official name 好奇者 S01; wheeled quadruped launched at WAIC 2026. No spec table published."
+  "note": "Maker is MICBOT (Hangzhou Juwei Technology / 杭州具微科技), recorded earlier as 'MicroRoboTech' - the ids keep the old slug for link stability. Official name 好奇者 S01; wheeled quadruped launched at WAIC 2026. No spec table published."
  },
  {
   "id": "microrobotech-movenew-p1",
   "name": "MOVENEW P1",
-  "manufacturer": "MicroRoboTech",
+  "manufacturer": "MICBOT (Hangzhou Juwei Technology)",
   "country": "China",
   "category": "Quadruped",
   "locomotion": "Wheel-legged",
@@ -5356,7 +5365,7 @@
  {
   "id": "microrobotech-movenew-p2",
   "name": "MOVENEW P2",
-  "manufacturer": "MicroRoboTech",
+  "manufacturer": "MICBOT (Hangzhou Juwei Technology)",
   "country": "China",
   "category": "Quadruped",
   "locomotion": "Wheel-legged",
@@ -5405,7 +5414,7 @@
  {
   "id": "microrobotech-movenew-t1",
   "name": "MOVENEW T1",
-  "manufacturer": "MicroRoboTech",
+  "manufacturer": "MICBOT (Hangzhou Juwei Technology)",
   "country": "China",
   "category": "Quadruped",
   "locomotion": "Wheel-legged",
