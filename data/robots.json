@@ -65,7 +65,7 @@
    "wheel_diameter_mm": null,
    "wheel_count": null,
    "dof": null,
-   "runtime_h": null,
+   "runtime_h": 8,
    "battery_wh": null,
    "ip_rating": null,
    "api_support": null,
@@ -76,13 +76,13 @@
    "ros_support": null,
    "sensors": [
     "Front laser scanner",
-    "Side ultrasonic sensors",
-    "Bumper strip",
-    "QR-code / laser SLAM / visual SLAM navigation"
+    "Front/rear bumper strip",
+    "E-stop button",
+    "QR / 2D code, L-SLAM, V-SLAM navigation"
    ],
    "price_usd": null,
    "price_note": null,
-   "official_url": "https://www.hikrobotics.com/en/mobilerobot/LMR",
+   "official_url": "https://wiki-lmr.rms.hikrobotics.com/zh/AMR/LMR/Q3/Product-Introduction/Quick-Start/Introduction-to-the-Product/Q3-600D-parameters",
    "sources": [
     "http://www.hikrobotics.com/en/mobilerobot/LMR",
     "https://wiki-lmr.rms.hikrobotics.com/zh/AMR/LMR/Q3/Product-Introduction/Quick-Start/Introduction-to-the-Product/Q3-600D-parameters"
@@ -95,7 +95,7 @@
     "https://data.robo2u.com/robots/hikrobot-q3-600d"
    ],
    "verification": "official",
-   "note": "Latent (under-ride) lifting AMR. Model is listed on Hikrobot's LMR page and has a section in Hikrobot's LMR wiki; both pages render via JS so the fetch returned no spec text - values below come from the Hikrobot wiki parameter/intro pages as seen in search excerpts (maker-stated): 950x650x250 mm, 134 kg (distributors list 132 kg), 600 kg rated load, 60 mm electric lift, 2.0 m/s empty / 1.8 m/s loaded, differential drive, front laser + side ultrasonic + bumper. Runtime 8 h / charge <=1.5 h appear on distributor sheets only - left out. Navigation QR code / laser SLAM / visual SLAM. Category is better 'AMR' than 'AGV' (natural-feature SLAM option)."
+   "note": "Model-specific maker page opened 2026-11-17: Hikrobot's own LMR wiki page 'Q3-600D 主推车型技术参数' (no longer snippet-only). Maker-stated: 950x650x250 mm, 134 kg, rated load 600 kg, lift 60 mm electric (20 mm/s), platform 850x600 mm, ground clearance 25 mm, differential drive, rated speed 2.0 m/s empty / 1.8 m/s loaded, rotation 200/100 deg/s, positioning +/-10 mm / +/-1 deg, 3 deg slope, front laser + front/rear bumper + e-stop, QR/L-SLAM navigation, LiFePO4 48 V (1500 cycles), 8 h runtime at rated duty, charge <=1.5 h, rear charging, WiFi, touch screen. Distributor sheets list 132 kg and 9 h; maker page 134 kg / 8 h stored. Category note: natural-feature (L-SLAM/V-SLAM) navigation option makes 'AMR' arguably better than 'AGV'."
   },
   {
    "id": "hikrobot-q7-1000e",
@@ -173,7 +173,8 @@
    "price_note": null,
    "official_url": "https://www.hikrobotics.com/en/mobilerobot/LMR",
    "sources": [
-    "http://www.hikrobotics.com/en/mobilerobot/LMR"
+    "http://www.hikrobotics.com/en/mobilerobot/LMR",
+    "https://wiki-lmr.rms.hikrobotics.com/zh/AMR/LMR/Q8/Q8-2000-content"
    ],
    "summary": "Hikrobot's heavy-duty latent mobile robot that lifts and carries loads up to 2 t, e.g. pallets and fixtures in automotive plants.",
    "image_url": null,
@@ -183,7 +184,7 @@
     "https://data.robo2u.com/robots/hikrobot-q8-2000a"
    ],
    "verification": "official",
-   "note": "Heavy latent lifting AMR. Model is listed on Hikrobot's LMR page (JS tabs; confirmed via search excerpt) and has a section in Hikrobot's LMR wiki. Only maker-stated figures seen are from a Hikrobot-authored automotive solution brochure (search excerpt): rated load 2,000 kg, run time 6-8 h, running speed ~1 m/s. Widely repeated distributor spec (1523x1150x327 mm, 550 kg, 940 mm/s, 100 mm hydraulic lift, 8 h, <=1.5 h charge) not confirmed on an opened maker page - left out; note 0.94 m/s vs maker '1 m/s' rounding."
+   "note": "Heavy latent lifting AMR. Model is listed on Hikrobot's LMR page (JS tabs; confirmed via search excerpt) and has a section in Hikrobot's LMR wiki. Only maker-stated figures seen are from a Hikrobot-authored automotive solution brochure (search excerpt): rated load 2,000 kg, run time 6-8 h, running speed ~1 m/s. Widely repeated distributor spec (1523x1150x327 mm, 550 kg, 940 mm/s, 100 mm hydraulic lift, 8 h, <=1.5 h charge) not confirmed on an opened maker page - left out; note 0.94 m/s vs maker '1 m/s' rounding. Re-checked 2026-11-17: Hikrobot's LMR wiki has a Q8-2000A section (index page opened), but its '技术规格' link is broken (Page Not Found) and the 3D product page still renders its tabs by JS, so no model-specific maker spec table could be read. Widely repeated distributor table (1523x1150x327 mm, 550 kg, 2000 kg, 940 mm/s, 100 mm hydraulic lift, 8 h, <=1.5 h charge) is NOT maker-verified and stays out of the fields; payload 2000 kg remains from the maker automotive brochure."
   },
   {
    "id": "jungheinrich-eks-215a",
@@ -2148,7 +2149,7 @@
     "https://data.robo2u.com/robots/hikrobot-tp6-50sch"
    ],
    "verification": "unconfirmed",
-   "note": "Hikrobot's CTU page confirms the TP6 high-density tote series but its spec tabs don't render the TP6-50SCH model; 50 kg load, 3 m/s and 12 m reach appear only on resellers, so left out."
+   "note": "Hikrobot's CTU page confirms the TP6 high-density tote series but its spec tabs don't render the TP6-50SCH model; 50 kg load, 3 m/s and 12 m reach appear only on resellers, so left out. Re-checked 2026-11-17: Hikrobot's CTU page still renders no TP6-50SCH tab and no maker datasheet for this model was found; 50 kg / 3 m/s / 12 m remain reseller-only, so the record stays unconfirmed."
   },
   {
    "id": "jaka-s3",
@@ -3385,7 +3386,7 @@
    "width_mm": null,
    "height_mm": null,
    "weight_kg": null,
-   "payload_kg": null,
+   "payload_kg": 500,
    "max_speed_mps": null,
    "min_speed_mps": null,
    "wheel_diameter_mm": null,
@@ -3403,8 +3404,12 @@
    "sensors": [],
    "price_usd": null,
    "price_note": null,
-   "official_url": "https://otsaw.com/transcar/",
-   "sources": [],
+   "official_url": "https://www.versigen.com.au/wp-content/uploads/2024/05/versigen-transcar-brochure.pdf",
+   "sources": [
+    "https://www.versigen.com.au/wp-content/uploads/2024/05/versigen-transcar-brochure.pdf",
+    "https://pdf.medicalexpo.com/pdf/otsaw-swisslog-healthcare-robotics/transcar-automated-guided-vehicle-brochure/4579365-263713.html",
+    "https://www.linkedin.com/posts/otsaw-digital_fhahoreca-transcar-robotics-activity-7252856500585447425-TF1w"
+   ],
    "summary": "Heavy-duty hospital AGV that lifts and autonomously transports meal, linen, medication and waste trolleys.",
    "image_url": null,
    "image_source": null,
@@ -3412,8 +3417,8 @@
    "seen_on": [
     "https://botupyourlife.com/en/robots/otsaw-transcar-k2/"
    ],
-   "verification": "unconfirmed",
-   "note": "otsaw.com/transcar returned 'Account Suspended' on two fetches (Nov 2026) - maker site currently down. Search-index copies of the maker page and OTSAW posts describe TransCar as a hospital AGV/AMR that slides under and lifts trolleys, payload up to 500 kg; 'TransCar K2' named in OTSAW LinkedIn and an SEC-filed contract. Category note: it is an AGV (predetermined paths) for trolley transport. Values left out because no maker page could be opened."
+   "verification": "official",
+   "note": "Re-checked 2026-11-17: otsaw.com still does not serve the product page (otsaw.com/transcar/ -> 404). OTSAW's own TransCar brochure (opened as a PDF, OTSAW Group, Sept 2023) gives TransCar as a tricycle-drive hospital AGV: speed 0.1-1.6 m/s, max load capacity 500 kg, 1706 x 616 x 346 mm, IP54, LiFeMnPO4 battery, battery life <=12 h. The brochure does not print 'K2' on its spec table, so only payload (500 kg, also stated by OTSAW for the K2 in its own FHA-HoReCa 2024 post, opened) is filled; dimensions, speed, IP and runtime are left null although the brochure lists them for the TransCar family. 'TransCar K2' is named in that OTSAW post and in an SEC-filed Swisslog/Otsaw agreement. Category note: it is an AGV (fixed routes) for trolley transport."
   },
   {
    "id": "pal-stockbot",
@@ -4754,12 +4759,12 @@
    "height_mm": 672,
    "weight_kg": 505,
    "payload_kg": 272,
-   "max_speed_mps": null,
+   "max_speed_mps": 1.5,
    "min_speed_mps": null,
    "wheel_diameter_mm": null,
    "wheel_count": null,
    "dof": null,
-   "runtime_h": null,
+   "runtime_h": 9,
    "battery_wh": null,
    "ip_rating": null,
    "api_support": null,
@@ -4768,13 +4773,17 @@
    "onboard_compute": null,
    "compute_detail": null,
    "ros_support": null,
-   "sensors": [],
+   "sensors": [
+    "2x SICK 2D laser scanners (30 m, 275 deg)",
+    "8x 3D cameras (360 deg coverage)"
+   ],
    "price_usd": null,
    "price_note": null,
    "official_url": "https://www.zebra.com/us/en/about-zebra/newsroom/press-releases/2022/zebra-introduces-new-purpose-built-offerings-for-digitizing-and-automating-fulfillment-at-modex-2022.html",
    "sources": [
     "https://www.zebra.com/us/en/about-zebra/newsroom/press-releases/2022/zebra-introduces-new-purpose-built-offerings-for-digitizing-and-automating-fulfillment-at-modex-2022.html",
-    "https://cssi.com/wp-content/uploads/cssi_fetch-cartconnect500-AMR-brochure.pdf"
+    "https://cssi.com/wp-content/uploads/cssi_fetch-cartconnect500-AMR-brochure.pdf",
+    "https://avalonintegration.com/wp-content/uploads/2022/10/Zebra-Fetch-Fulfillment-Portfolio-Brochure.pdf"
    ],
    "summary": "Zebra/Fetch AMR with built-in lift that autonomously picks up and moves FetchCarts carrying up to 600 lb.",
    "image_url": null,
@@ -4784,7 +4793,7 @@
     "https://data.robo2u.com/robots/zebra-technologies-fetch-robotics-cartconnect500"
    ],
    "verification": "official",
-   "note": "Confirmed by Zebra MODEX 2022 press release (payload 600 lb). Detailed specs only in Zebra-authored brochure hosted by resellers; dims/weight taken from that Zebra brochure (cssi.com copy) - treat as maker document on third-party host. Earlier 2020 Fetch brochure stated 500 lb payload."
+   "note": "Confirmed by Zebra MODEX 2022 press release (payload 600 lb). Detailed specs only in Zebra-authored brochure hosted by resellers; dims/weight taken from that Zebra brochure (cssi.com copy) - treat as maker document on third-party host. Earlier 2020 Fetch brochure stated 500 lb payload. Re-checked 2026-11-17: no CartConnect500 product page exists on zebra.com any more (zebra.com/us/en/products/robotics.html returns 404; Zebra sold its robotics automation business - formerly Fetch Robotics - to Skild AI, closed 2026-03-27 per Zebra's 10-Q, so the Fetch/Zebra AMR product pages are gone), so the Zebra-authored AMR solution guide (2021, sampled above) stays the source. That guide's spec table gives max speed 1.5 m/s, ~9 h runtime, 2x SICK 30 m/275 deg scanners and 8x 3D cameras, now filled. CONFLICT kept in the record: the same guide's spec table prints 'Maximum Payload Weight 800 lb (362.9 kg)' while its body text and Zebra's 2022 press release say loads up to 600 lb (272 kg); 272 kg is stored."
   },
   {
    "id": "zebra-fetch-freight1500",
@@ -5038,7 +5047,7 @@
     "https://humanoidversus.com/robots/aset-manav"
    ],
    "verification": "unconfirmed",
-   "note": "Only press coverage found (Livemint, IBTimes, 3DPrint, 2015): 60 cm, 2 kg, 21 servos, 3D printed. No official A-SET page located; values not entered."
+   "note": "Only press coverage found (Livemint, IBTimes, 3DPrint, 2015): 60 cm, 2 kg, 21 servos, 3D printed. No official A-SET page located; values not entered. Re-checked 2026-11-17: no A-SET-owned page located; material remains 2015 press coverage (60 cm, 2 kg, 21 servos, 3D printed). Still unconfirmed."
   },
   {
    "id": "aidol-aidol",
@@ -5121,7 +5130,10 @@
    "price_usd": null,
    "price_note": null,
    "official_url": null,
-   "sources": [],
+   "sources": [
+    "https://www.aist.go.jp/aist_j/press_release/pr2002/pr20020319_1/pr20020319_1.html",
+    "https://www.aist.go.jp/aist_j/press_release/pr2003/pr20030226/pr20030226.html"
+   ],
    "summary": "",
    "image_url": null,
    "image_source": null,
@@ -5130,7 +5142,7 @@
     "https://humanoidversus.com/robots/aist-hrp-1"
    ],
    "verification": "unconfirmed",
-   "note": "No official AIST/Honda spec page found. HRP-1 was Honda's P3-based platform supplied to the METI Humanoid Robotics Project (AIST exhibit text mentions it), so 'AIST' as manufacturer is questionable — maker is Honda. Left specs null."
+   "note": "No official AIST/Honda spec page found. HRP-1 was Honda's P3-based platform supplied to the METI Humanoid Robotics Project (AIST exhibit text mentions it), so 'AIST' as manufacturer is questionable — maker is Honda. Left specs null. Re-checked 2026-11-17: AIST's own press releases (2002-03-19 and 2003-02-26, opened) describe HRP-1 as the humanoid platform of the METI/AIST Humanoid Robotics Project, built by Honda R&D (P3-based). AIST thus confirms the platform but publishes no HRP-1 spec table or product page, and the hardware maker is Honda, so the record stays unconfirmed with specs null."
   },
   {
    "id": "aist-hrp-2",
@@ -7022,7 +7034,7 @@
     "https://embodied.guide/robots/aitu-r1/"
    ],
    "verification": "unconfirmed",
-   "note": "Maker exists: Aitu (Zhejiang) Intelligent Sewing / 艾图具身智能 (Jack Technology subsidiary); official site shows a wheeled sewing humanoid ('AITU humanoid robot' / 'AI Jenny'). Model name 'R1' appears only in media (planned release 28 Oct 2026), not on maker pages seen."
+   "note": "Maker exists: Aitu (Zhejiang) Intelligent Sewing / 艾图具身智能 (Jack Technology subsidiary); official site shows a wheeled sewing humanoid ('AITU humanoid robot' / 'AI Jenny'). Model name 'R1' appears only in media (planned release 28 Oct 2026), not on maker pages seen. Re-checked 2026-11-17: en.aitu-ai.com/products/robot opened - the maker shows 'Ai Jenny', a wheeled sewing humanoid, with no model name 'R1' anywhere on the page; 'R1' still appears only in media. Still unconfirmed."
   },
   {
    "id": "nao-6",
@@ -7780,7 +7792,7 @@
     "https://humanoid.guide/product/xiao-di/"
    ],
    "verification": "unconfirmed",
-   "note": "Widely reported (BYD confirmed to press; debut Aug 2026 at Di Space Zhengzhou; design patent CN310247768S) and figures (1.61 m, 58.5 kg, 31 DoF) attributed to 'official disclosure', but no BYD-owned web page/press release located. Re-check BYD newsroom."
+   "note": "Widely reported (BYD confirmed to press; debut Aug 2026 at Di Space Zhengzhou; design patent CN310247768S) and figures (1.61 m, 58.5 kg, 31 DoF) attributed to 'official disclosure', but no BYD-owned web page/press release located. Re-check BYD newsroom. Re-checked 2026-11-17: no BYD-owned page or newsroom release located for Xiao Di; figures still come from press reports. Still unconfirmed."
   },
   {
    "id": "kinisi-kr1",
@@ -7915,7 +7927,7 @@
     "https://humanoid.guide/product/tian-yi-2-0/"
    ],
    "verification": "official",
-   "note": "Wheeled humanoid (wheel-arm) with lifting legs; height adjustable 1300-1650 mm. Specs from maker's English one-page brochure (hosted by distributor Robots International; official page specs are an image). Battery 48V 15Ah. Brochure says ROS 2 control layer (some sources say ROS 1)."
+   "note": "Wheeled humanoid (wheel-arm) with lifting legs; height adjustable 1300-1650 mm. Specs from maker's English one-page brochure (hosted by distributor Robots International; official page specs are an image). Battery 48V 15Ah. Brochure says ROS 2 control layer (some sources say ROS 1). Re-checked 2026-11-17: maker product page opened; it describes the wheel-arm robot (guided tours, patrol/inspection, autonomous elevator riding, VR teleoperation) but its parameter table is published as an image, so the numbers still come from the maker's one-page English brochure. No maker-stated value was changed."
   },
   {
    "id": "x-humanoid-tiangong",
@@ -9265,7 +9277,7 @@
     "https://humanoidversus.com/robots/cadi-ayyad-shama"
    ],
    "verification": "unconfirmed",
-   "note": "Exists per UNFPA Morocco partner announcement (2020), UN AI report and creator Prof. Hajar Mousannif's personal site; no official Cadi Ayyad University product page found. No specs published."
+   "note": "Exists per UNFPA Morocco partner announcement (2020), UN AI report and creator Prof. Hajar Mousannif's personal site; no official Cadi Ayyad University product page found. No specs published. Re-checked 2026-11-17: Cadi Ayyad University / Prof. Hajar Mousannif still publish no product or spec page; UNFPA Morocco partner announcement remains the only institutional source. Still unconfirmed."
   },
   {
    "id": "cartwheel-robotics-yogi",
@@ -11987,9 +11999,12 @@
    ],
    "price_usd": null,
    "price_note": null,
-   "official_url": "https://fftai.com/products-gr1.html",
+   "official_url": "https://fftai.github.io/fourier-grx-GR1/",
    "sources": [
-    "https://static-gcs.edit.site/users-files/75329df683dc786c44cd1ae27c78c5f8/fourier-gr-1-humanoid-robot-introduction-3.pdf?dl=1"
+    "https://static-gcs.edit.site/users-files/75329df683dc786c44cd1ae27c78c5f8/fourier-gr-1-humanoid-robot-introduction-3.pdf?dl=1",
+    "https://fftai.github.io/fourier-grx-GR1/",
+    "https://www.fftai.com/resources/download",
+    "https://www.fftai.com/pdf/en/Fourier_GR_Family_Product_Catalog_202610.pdf"
    ],
    "summary": "Fourier's first mass-produced full-size bipedal humanoid, a 1.65 m, 55 kg research and service platform with FSA actuators.",
    "image_url": null,
@@ -12002,7 +12017,7 @@
     "https://humanoid.guide/product/gr-1/"
    ],
    "verification": "official",
-   "note": "Skeleton official_url (support.fftai.com/en/docs/.../GR-1_Introduction/) now 404s. Values from Fourier's own GR-1 brochure PDF (Feb 2024, fftai branding; hosted on edit.site CDN): standing size 1650 x 515 x 320 mm, ~55 kg (Pro ~60 kg), 5 km/h (=1.39 m/s), 3 kg single-hand payload, 44 actuators (GR-1, dexterous hands; GR-1L 34), 460 Wh battery, i7-13700H compute, RealSense depth camera, IMU, ring mic, 230 N·m peak torque. DoF conflict: brochure text says 'up to 54 DoF' (with 11-DoF hands) vs 44 elsewhere - used 44 (spec-table actuator count). Unveiled 2023; since succeeded by GR-2/GR-3. SDK (Python/C++) offered."
+   "note": "Skeleton official_url (support.fftai.com/en/docs/.../GR-1_Introduction/) now 404s. Values from Fourier's own GR-1 brochure PDF (Feb 2024, fftai branding; hosted on edit.site CDN): standing size 1650 x 515 x 320 mm, ~55 kg (Pro ~60 kg), 5 km/h (=1.39 m/s), 3 kg single-hand payload, 44 actuators (GR-1, dexterous hands; GR-1L 34), 460 Wh battery, i7-13700H compute, RealSense depth camera, IMU, ring mic, 230 N·m peak torque. DoF conflict: brochure text says 'up to 54 DoF' (with 11-DoF hands) vs 44 elsewhere - used 44 (spec-table actuator count). Unveiled 2023; since succeeded by GR-2/GR-3. SDK (Python/C++) offered. Re-checked 2026-11-17: fftai.com/products-gr1.html now returns 404, the download centre (opened) lists brochures only for GR-3 / GR-3C / GR-3C Ultra / GR Mini / GRW / GRW Lite / GR Nano plus the GR family catalogue, and the 2026-10 GR family catalogue (opened, 16 pages) has no GR-1 page - GR-1 is no longer a current product. The only live maker page for GR-1 is Fourier's official SDK documentation (fftai.github.io/fourier-grx-GR1, opened), now the official_url. The stored figures still come from Fourier's own GR-1 brochure (Feb 2024), the only maker spec document found."
   },
   {
    "id": "fourier-intelligence-gr-2",
@@ -12275,7 +12290,7 @@
    "status": "Pilot",
    "length_mm": null,
    "width_mm": null,
-   "height_mm": null,
+   "height_mm": 1750,
    "weight_kg": null,
    "payload_kg": null,
    "max_speed_mps": null,
@@ -12295,7 +12310,7 @@
    "sensors": [],
    "price_usd": null,
    "price_note": null,
-   "official_url": "https://www.gacgroup.com/en",
+   "official_url": "https://mp.weixin.qq.com/s/bPpAhBKxasnUm80UXLTqGA",
    "sources": [
     "https://mp.weixin.qq.com/s/bPpAhBKxasnUm80UXLTqGA",
     "https://www.gacgroup.com/cn/about/history"
@@ -14622,7 +14637,7 @@
     "https://humanoidversus.com/robots/honda-e2-dr"
    ],
    "verification": "unconfirmed",
-   "note": "Known only through Honda R&D research papers (IROS 2017, IEEE RAM 2019); no Honda product or press page. Press-quoted figures (1.68 m, 85 kg, 33 DOF, 1,000 Wh, 90 min) not verified on a Honda page, so left out."
+   "note": "Known only through Honda R&D research papers (IROS 2017, IEEE RAM 2019); no Honda product or press page. Press-quoted figures (1.68 m, 85 kg, 33 DOF, 1,000 Wh, 90 min) not verified on a Honda page, so left out. Re-checked 2026-11-17: Honda's robotics history page (global.honda/en/ASIMO/history, opened) runs E0-P3-ASIMO and does not list E2-DR; the robot is documented only in Honda R&D papers (IROS 2017, IEEE RAM 2019). Still unconfirmed."
   },
   {
    "id": "honda-p2",
@@ -14757,7 +14772,7 @@
     "https://humanoidversus.com/robots/honda-p4"
    ],
    "verification": "unconfirmed",
-   "note": "Honda's official ASIMO history lists P1, P2 and P3 and then ASIMO (2000), with no P4; could not confirm this model or its specs from Honda."
+   "note": "Honda's official ASIMO history lists P1, P2 and P3 and then ASIMO (2000), with no P4; could not confirm this model or its specs from Honda. Re-checked 2026-11-17: Honda's official robotics history (opened) still lists P1, P2, P3 and then ASIMO - no P4 - so the model cannot be confirmed from Honda. Still unconfirmed."
   },
   {
    "id": "huashu-hsr-er-hr705",
@@ -19018,15 +19033,15 @@
    "status": "Research",
    "length_mm": null,
    "width_mm": null,
-   "height_mm": null,
-   "weight_kg": null,
-   "payload_kg": null,
-   "max_speed_mps": null,
+   "height_mm": 1680,
+   "weight_kg": 57,
+   "payload_kg": 50,
+   "max_speed_mps": 1.5,
    "min_speed_mps": null,
    "wheel_diameter_mm": null,
    "wheel_count": null,
-   "dof": null,
-   "runtime_h": null,
+   "dof": 56,
+   "runtime_h": 8,
    "battery_wh": null,
    "ip_rating": null,
    "api_support": null,
@@ -19035,13 +19050,18 @@
    "onboard_compute": null,
    "compute_detail": null,
    "ros_support": null,
-   "sensors": [],
+   "sensors": [
+    "3D LiDAR (head module)",
+    "Depth / RGB-D camera"
+   ],
    "price_usd": null,
    "price_note": null,
-   "official_url": null,
+   "official_url": "https://hsswai.com/",
    "sources": [
     "https://wrc.cie.org.cn/expo/company/787.html",
-    "https://www.stdaily.com/web/gdxw/2026-06/01/content_525834.html"
+    "https://www.stdaily.com/web/gdxw/2026-06/01/content_525834.html",
+    "https://hsswai.com/",
+    "https://hsswai.com/about"
    ],
    "summary": "Full-size general-purpose biped humanoid with a brain-inspired 'Wujie OS' dual-brain system for commercial service, inspection and housework.",
    "image_url": null,
@@ -19051,7 +19071,7 @@
     "https://embodied.guide/robots/namaste-humanoid-x/"
    ],
    "verification": "official",
-   "note": "Maker is 合十思维（北京）科技 (Heshi Siwei, brand 'Namaste'), Beijing. No maker-owned website found; confirmed via the maker's own WRC 2026 exhibitor listing and a Science and Technology Daily launch report (29 May 2026). Full-size biped running 'Wujie OS' dual-brain system. No official numeric specs found."
+   "note": "Maker site hsswai.com (合十思维（北京）科技, brand 'Namaste') found and opened 2026-11-17: its Humanoid-X parameter block states 168 cm, 57 kg, 56 DoF, 50 kg payload, 5.4 km/h (=1.5 m/s), 48 V, 8 h runtime, 350 N·m peak joint torque, RGBD camera, motor-driven; head module is a 250 mm unit with 3D LiDAR + depth camera. CONFLICT: the same page's full-body module breakdown gives 1750 mm tall, 500 mm wide, about 47 kg and 41 DoF, and the WRC 2026 maker brochure repeats both sets (168 cm/57 kg/56 DoF in its parameter table vs 1750 mm/≈47 kg/41 DoF in its full-body spec). Stored values are the headline parameter block that matches the launch brochure's parameter table; the 1750 mm/41 DoF figures are recorded here. Battery capacity is stated only as 48 V (no Ah/Wh), so battery_wh stays null."
   },
   {
    "id": "nudt-xianxingzhe",
@@ -20325,7 +20345,7 @@
     "https://embodied.guide/robots/phybot-c2/"
    ],
    "verification": "official",
-   "note": "Confirmed via PHYBOT's WRC 2026 exhibit listing (maker-submitted); mass production announced Feb 2026. Not yet listed on phybot.tech. 135 cm, 25+ DoF."
+   "note": "Confirmed via PHYBOT's WRC 2026 exhibit listing (maker-submitted); mass production announced Feb 2026. Not yet listed on phybot.tech. 135 cm, 25+ DoF. Re-checked 2026-11-17: phybot.tech still cannot be opened - the site is a WebGL single-page app that answers HTTP 500 to a page fetch and renders only a splash screen in the browser (document HTML 1.3 KB, no product text); no maker-hosted C2 datasheet or brochure found. The maker-submitted WRC 2026 exhibit listing remains the only maker statement, so the record is unchanged."
   },
   {
    "id": "phybot-m1",
@@ -20415,7 +20435,7 @@
     "https://embodied.guide/robots/phymi-sagi/"
    ],
    "verification": "unconfirmed",
-   "note": "PHYMI (费莫一科技), Shenzhen. Launched 28 Oct 2026 as a 'Physical Agent'; four wheeled legs + humanoid torso + cargo box (wheel-legged, not a classic humanoid). No maker website or spec sheet found; press-release text via pedaily.cn. No specs published."
+   "note": "PHYMI (费莫一科技), Shenzhen. Launched 28 Oct 2026 as a 'Physical Agent'; four wheeled legs + humanoid torso + cargo box (wheel-legged, not a classic humanoid). No maker website or spec sheet found; press-release text via pedaily.cn. No specs published. Re-checked 2026-11-17: PHYMI still publishes no website, datasheet or spec sheet (no maker domain found; launch material distributed via press release and YouTube only). Still unconfirmed."
   },
   {
    "id": "pl-universe-prowhite",
@@ -24553,7 +24573,7 @@
    "width_mm": null,
    "height_mm": 1700,
    "weight_kg": 48,
-   "payload_kg": 5,
+   "payload_kg": 3,
    "max_speed_mps": null,
    "min_speed_mps": null,
    "wheel_diameter_mm": null,
@@ -24566,17 +24586,18 @@
    "sdk_available": null,
    "sdk_name": null,
    "onboard_compute": true,
-   "compute_detail": "NVIDIA Jetson AGX Orin 64GB",
+   "compute_detail": "Jetson AGX Orin 64 GB dev kit (flagship); Jetson Orin Nano 8 GB (standard)",
    "ros_support": null,
    "sensors": [
-    "LiDAR",
-    "Binocular stereo camera"
+    "Depth camera Intel RealSense D435i (flagship)",
+    "High-precision attitude sensor (IMU)"
    ],
    "price_usd": null,
    "price_note": null,
-   "official_url": "https://www.ti5robotics.com/products/Humanoid-Robot-Actuator",
+   "official_url": "https://www.ti5robotics.com/products/Humanoid-Robot-Actuator/T170A.html",
    "sources": [
-    "https://www.ti5robotics.com/products/Humanoid-Robot-Actuator"
+    "https://www.ti5robotics.com/products/Humanoid-Robot-Actuator",
+    "https://www.ti5robotics.com/products/Humanoid-Robot-Actuator/T170A.html"
    ],
    "summary": "Ti5 Robot's lightweight 1.7 m bipedal humanoid built on its in-house high-torque joint modules, shown at WAIC 2024.",
    "image_url": null,
@@ -24586,7 +24607,7 @@
     "https://data.robo2u.com/robots/ti5-robot-yao-guang"
    ],
    "verification": "official",
-   "note": "RENAME: 'Yao Guang' (瑶光) is the name of a unit of Ti5's second-gen T170A humanoid launched at WAIC 4 Jul 2024 (maker news ti5robot.com/h-nd-39.html, read via search excerpt; page now 404). Maker release: 1.7 m, 48 kg, 44 DoF, 5 kg single-hand load, NVIDIA Jetson AGX Orin 64GB, LiDAR + binocular cameras. Maker's current English site (ti5robotics.com) lists T170A and newer T170A V2/T170C/T140A; a 2025 maker EN page (seen in excerpts) also cites dual-arm load 20-40 kg, five RealSense cameras, 6-mic array — newer config, not filled. Status left blank (superseded by T170A V2 likely)."
+   "note": "RENAME: 'Yao Guang' (瑶光) is the name of a unit of Ti5's second-gen T170A humanoid launched at WAIC 4 Jul 2024 (maker news ti5robot.com/h-nd-39.html, read via search excerpt; page now 404). Maker release: 1.7 m, 48 kg, 44 DoF, 5 kg single-hand load, NVIDIA Jetson AGX Orin 64GB, LiDAR + binocular cameras. Maker's current English site (ti5robotics.com) lists T170A and newer T170A V2/T170C/T140A; a 2025 maker EN page (seen in excerpts) also cites dual-arm load 20-40 kg, five RealSense cameras, 6-mic array — newer config, not filled. Status left blank (superseded by T170A V2 likely). Maker model page opened 2026-11-17 (ti5robotics.com .../T170A.html): 48 kg, 1.5 m arm span, 44 active DoF, 32 joint motors, single-arm load 3 kg, hand 6 active DoF (0.5 kg standard / 3 kg flagship), 18-bit encoders, 48 V 10 Ah battery, CAN/EtherCAT, dual-arm API; standard model Jetson Orin Nano 8 GB, flagship Jetson AGX Orin 64 GB dev kit + RealSense D435i + 2x six-axis force sensors. CONFLICT: the 2024 WAIC release (now 404) said 5 kg single-hand load; the current maker page says 3 kg single-arm, which is stored. Height 1.7 m comes from the T170A naming/2024 release; the current page's parameter table omits height. Note the maker site serves swapped pages (T170A-V2.html returns the T170A table), so page-to-model mapping was taken from the printed heading."
   },
   {
    "id": "ti5-t170a-v2",
@@ -26553,7 +26574,7 @@
     "https://humanoid.guide/product/superman/"
    ],
    "verification": "unconfirmed",
-   "note": "No product page, datasheet or press release on unitree.com; the only maker statement is a short social-media preview post (17 Aug 2026) reported by Xinhua/Reuters/China Daily: prototype 'new robot preview' with 0.85 m leg length, 2 m standing high jump, 12.66 m/s top speed, developed in ~3 months. Values not filled because no maker page could be opened. Status = research prototype/demonstrator, not a product."
+   "note": "No product page, datasheet or press release on unitree.com; the only maker statement is a short social-media preview post (17 Aug 2026) reported by Xinhua/Reuters/China Daily: prototype 'new robot preview' with 0.85 m leg length, 2 m standing high jump, 12.66 m/s top speed, developed in ~3 months. Values not filled because no maker page could be opened. Status = research prototype/demonstrator, not a product. Re-checked 2026-11-17: unitree.com/cn news centre and homepage product grid opened - neither lists 'Superman'; no product page, datasheet or press release on unitree.com. Only the 17 Aug 2026 maker social-media preview (reported by Xinhua/China Daily) exists, so the record stays unconfirmed."
   },
   {
    "id": "bonn-nimbro-op",
@@ -29215,7 +29236,8 @@
    "price_note": null,
    "official_url": "https://www.zeroth0.com/",
    "sources": [
-    "https://www.ifa-berlin.com/exhibitors/zeroth"
+    "https://www.ifa-berlin.com/exhibitors/zeroth",
+    "https://www.zeroth0.com/"
    ],
    "summary": "Compact wheeled home collaboration robot with heterogeneous telescopic + dexterous arms and a detachable desktop arm.",
    "image_url": null,
@@ -29226,7 +29248,7 @@
     "https://humanoid.guide/product/sean/"
    ],
    "verification": "official",
-   "note": "Rename/correction: 'Sean' is the English name of Zeroth's N1 (小恩) home collaboration robot - NOT a 155 cm bipedal humanoid as aggregators claim. Maker-supplied IFA 2026 exhibitor copy: wheeled compact home robot, 30 kg, ~0.2 m2 footprint, 14 joints (telescopic left arm 4 joints, right cable-driven arm 7 joints, 3-finger gripper), 2-3 h active use, reach floor to countertop; detachable right arm. Launched at AWE 12 Mar 2026. No product page on zeroth0.com. Aggregator figures (155 cm, 45 kg, 16 DoF, 3 km/h) are not maker-stated."
+   "note": "Rename/correction: 'Sean' is the English name of Zeroth's N1 (小恩) home collaboration robot - NOT a 155 cm bipedal humanoid as aggregators claim. Maker-supplied IFA 2026 exhibitor copy: wheeled compact home robot, 30 kg, ~0.2 m2 footprint, 14 joints (telescopic left arm 4 joints, right cable-driven arm 7 joints, 3-finger gripper), 2-3 h active use, reach floor to countertop; detachable right arm. Launched at AWE 12 Mar 2026. No product page on zeroth0.com. Aggregator figures (155 cm, 45 kg, 16 DoF, 3 km/h) are not maker-stated. Re-checked 2026-11-17: zeroth0.com opened - its product menu now lists M1 / M1 EDU, W1 and Jupiter only (products/m1, /w1, /jupiter); there is still no N1/Sean product page. The maker-supplied IFA Berlin exhibitor profile remains the only maker document with figures (30 kg, ~0.2 m2 footprint, 14 joints, 2-3 h, floor-to-countertop reach)."
   },
   {
    "id": "zeroth-bot",
@@ -31841,17 +31863,17 @@
    "locomotion": "Wheeled",
    "release_year": null,
    "status": "Commercial",
-   "length_mm": null,
-   "width_mm": null,
-   "height_mm": null,
-   "weight_kg": null,
-   "payload_kg": null,
-   "max_speed_mps": null,
-   "min_speed_mps": null,
+   "length_mm": 538,
+   "width_mm": 534,
+   "height_mm": 1052,
+   "weight_kg": 60,
+   "payload_kg": 10,
+   "max_speed_mps": 1.2,
+   "min_speed_mps": 0.5,
    "wheel_diameter_mm": null,
    "wheel_count": null,
    "dof": null,
-   "runtime_h": null,
+   "runtime_h": 9,
    "battery_wh": null,
    "ip_rating": null,
    "api_support": null,
@@ -31860,12 +31882,16 @@
    "onboard_compute": null,
    "compute_detail": null,
    "ros_support": null,
-   "sensors": [],
+   "sensors": [
+    "VSLAM+ and LiDAR SLAM navigation",
+    "3D obstacle avoidance (multi-sensor fusion)"
+   ],
    "price_usd": null,
    "price_note": null,
-   "official_url": "https://pudurobotics.com/de/products/flashbot-new",
+   "official_url": "https://www.pudurobotics.com/en/products/flashbot-new",
    "sources": [
-    "https://pudurobotics.com/de/products/flashbot-new"
+    "https://pudurobotics.com/de/products/flashbot-new",
+    "https://www.pudurobotics.com/en/products/flashbot-new"
    ],
    "summary": "",
    "image_url": null,
@@ -31876,8 +31902,8 @@
     "https://droid.monster/robots/pudu-robotics/flashbot-max",
     "https://roboticsrankings.com/robots/pudu-flashbot-max/"
    ],
-   "verification": "unconfirmed",
-   "note": "Given URL is Pudu's 'FlashBot (new)' building-delivery page (German); it does not use the name 'FlashBot Max'. Specs not filled until Max is confirmed."
+   "verification": "official",
+   "note": "Confirmed 2026-11-17: Pudu's own product page is titled 'FlashBot Max' and its product-overview table gives 538 x 534 x 1052 mm, 60 kg, 10 kg per layer, 2-4 adjustable compartments, 9 h runtime, 4 h charge, VSLAM+ and LiDAR SLAM, 0.5-1.2 m/s cruise, 60 cm path clearance, IoT/elevator integration. Payload stored is per layer (Pudu publishes no whole-robot payload). Pudu does not state an IP rating, battery capacity, screen size or sensor hardware. The Oct 2024 launch release says 70 cm corridor width while the product page says 60 cm - both maker documents disagree, page value recorded."
   },
   {
    "id": "pudu-holabot",
@@ -32583,7 +32609,7 @@
     "https://botupyourlife.com/en/robots/temi-go/"
    ],
    "verification": "unconfirmed",
-   "note": "Only the 'temi' (V3) personal robot page was found on robotemi.com; no official 'temi GO' product page located yet."
+   "note": "Only the 'temi' (V3) personal robot page was found on robotemi.com; no official 'temi GO' product page located yet. Re-checked 2026-11-17: robotemi.com/product/temi/ opened (specs for 'temi': ARM hexa-core, 360 deg LiDAR, 2 depth cameras, RGB camera, 6 ToF sensors, 8 h battery) but there is still no 'temi GO' page (robotemi.com/product/temi-go/ -> 404); the two models' figures cannot be separated from one page, so the record stays unconfirmed and empty."
   },
   {
    "id": "temi-go-pro",
@@ -34040,7 +34066,8 @@
    "price_note": null,
    "official_url": "https://www.kuka.com/en-de/products/amr-autonomous-mobile-robotics/mobile-robot-systems/kmr-iisy-autonomous-mobile-cobot",
    "sources": [
-    "https://www.kuka.com/en-de/products/amr-autonomous-mobile-robotics/mobile-robot-systems/kmr-iisy-autonomous-mobile-cobot"
+    "https://www.kuka.com/en-de/products/amr-autonomous-mobile-robotics/mobile-robot-systems/kmr-iisy-autonomous-mobile-cobot",
+    "https://www.kuka.com/en-gb/company/press/news/2023/06/kmr-iisy-and-kmp-1500p"
    ],
    "summary": "KUKA autonomous mobile cobot combining a SLAM-navigating platform (up to 200 kg) with an LBR iisy arm for machine tending, pick-and-place and cleanroom logistics.",
    "image_url": "https://www.kuka.com/-/media/kuka-corporate/images/products/mobility/kmr-iisy-mobile-cobot/kuka-kmr-iisy-mobile-cobot.jpg?rev=5a7824ca3d4743d688d471595472a703&w=767&hash=F431C8BCCFECAFC2D250451611FF4CBA",
@@ -34050,7 +34077,7 @@
     "https://data.robo2u.com/robots/kuka-kmr-iisy"
    ],
    "verification": "official",
-   "note": "Mobile manipulator: differential-drive platform plus integrated LBR iisy 6-axis cobot (11 or 15 kg arm payload). payload_kg = platform capacity 200 kg (my.KUKA lists rated payload 200 kg for KMR iisy-2; a CR C+ variant lists 100 kg). Dimensions/weight from KUKA's my.KUKA product page for KMR iisy-2 (1120 x 695 x 700 mm, 425 kg, 8 h max operating time) - seen in search excerpt of the maker portal, not opened; main product page (opened) confirms 695 x 1120 mm platform, 1.5 m/s, IP54, ISO cleanroom class 3. Launched 2023 (press release July 2023). dof = 6 (arm only)."
+   "note": "Mobile manipulator: differential-drive platform plus integrated LBR iisy 6-axis cobot (11 or 15 kg arm payload). payload_kg = platform capacity 200 kg (my.KUKA lists rated payload 200 kg for KMR iisy-2; a CR C+ variant lists 100 kg). Dimensions/weight from KUKA's my.KUKA product page for KMR iisy-2 (1120 x 695 x 700 mm, 425 kg, 8 h max operating time) - seen in search excerpt of the maker portal, not opened; main product page (opened) confirms 695 x 1120 mm platform, 1.5 m/s, IP54, ISO cleanroom class 3. Launched 2023 (press release July 2023). dof = 6 (arm only). Re-checked 2026-11-17: KUKA product page opened - platform area 695 x 1120 mm, platform capacity up to 200 kg, cobot payload 11 or 15 kg, max 1.5 m/s, IP54, cleanroom class 3, ESD (ISO 61340-5-1 / ANSI ESD S20.20), SLAM navigation with safety scanners + 3D cameras to 2 m, inductive charging, differential drive; launch press release (17 Jul 2023) opened. Platform height 700 mm and 425 kg total weight and 8 h battery come from KUKA's my.KUKA variant page (KMR iisy-2) as seen in a search excerpt; no KUKA-hosted datasheet PDF was found."
   },
   {
    "id": "kuka-kmr-iiwa",
@@ -35329,7 +35356,7 @@
     "https://data.robo2u.com/robots/fetch-mobile-manipulator"
    ],
    "verification": "official",
-   "note": "Fetch Robotics official docs (docs.fetchrobotics.com) + Fetch spec sheet (copy on reseller host). Footprint 508 mm wide / 559 mm dia. Height = torso up. dof 13 includes base. Current availability under Zebra not stated."
+   "note": "Re-checked 2026-11-17: Zebra/Fetch have no live product page (zebra.com/us/en/products/robotics.html returns 404; Zebra sold its robotics automation business - formerly Fetch Robotics - to Skild AI, closing 2026-03-27 per Zebra's 10-Q) and the maker's documentation host docs.fetchrobotics.com no longer resolves (ERR_TUNNEL_CONNECTION_FAILED; page fetch HTTP 500), although the Wayback Machine holds a 200 snapshot of this page from 2024-04-18. Stored figures are the Fetch hardware documentation values (113.3 kg, 508 mm wide / 559 mm dia base, 1.49 m with torso up, 6 kg arm payload, 1.0 m/s, 13 DoF, i5 / 16 GB / 120 GB SSD, 3 h to 90%) plus the Fetch spec sheet copy on a reseller host; no value was changed in this pass."
   },
   {
    "id": "irobot-create-3",
@@ -38658,10 +38685,11 @@
    ],
    "price_usd": null,
    "price_note": null,
-   "official_url": "https://www.galileotimes.com/news/2026wrc-galileo-releases-dual-new-products-with-full-range-mobile-technology-to-create-a-new-paradigm-of-intelligent-land-based-vehicles/",
+   "official_url": "https://www.galileotimes.com/galileo-intelligent-bionic-quadruped-robot-c1-series-consumer-or-industrial-grade-product/",
    "sources": [
     "https://www.worldrobotconference.com/profile/robot/download/2025/07/08/Galileo-%E6%99%BA%E8%83%BD%E4%BB%BF%E7%94%9F%E5%9B%9B%E8%B6%B3%E6%9C%BA%E5%99%A8%E4%BA%BA%E4%BA%A7%E5%93%81%E6%89%8B%E5%86%8C_20250708115131A101.pdf",
-    "https://www.galileotimes.com/news/2026wrc-galileo-releases-dual-new-products-with-full-range-mobile-technology-to-create-a-new-paradigm-of-intelligent-land-based-vehicles/"
+    "https://www.galileotimes.com/news/2026wrc-galileo-releases-dual-new-products-with-full-range-mobile-technology-to-create-a-new-paradigm-of-intelligent-land-based-vehicles/",
+    "https://www.galileotimes.com/galileo-intelligent-bionic-quadruped-robot-c1-series-consumer-or-industrial-grade-product/"
    ],
    "summary": "Small industrial quadruped (15 kg, IP67) for patrol and inspection, with LiDAR navigation, autonomous charging and 8 kg payload.",
    "image_url": null,
@@ -38671,7 +38699,7 @@
     "https://embodied.guide/robots/galileo-c1/"
    ],
    "verification": "official",
-   "note": "Specs from Galileo (Tianjin) official product brochure (maker PDF hosted on WRC exhibitor site); product also listed on official site galileotimes.com. max_speed is stated limit (极限) speed; runtime range 3.5–6 h, upper value used; max payload 15 kg."
+   "note": "Specs from Galileo (Tianjin) official product brochure (maker PDF hosted on WRC exhibitor site); product also listed on official site galileotimes.com. max_speed is stated limit (极限) speed; runtime range 3.5–6 h, upper value used; max payload 15 kg. Re-checked 2026-11-17: maker's own product page opened (galileotimes.com, Galileo Tianjin's product site, contacts @galileotime.com). Its current parameter table for this model reads - C1 (legged) column: 765x410x475 mm, 22 kg, 20Ah/960 Wh 48 V, 0-3 m/s, >=30 deg slope, >=20 cm steps, 3-5 h, 12 kg continuous load, ARM 8-core/8 GB/64 GB CPU, IP67, -20~55 C. The stored numbers come from Galileo's 2025 product manual (maker PDF) and are LOWER/lighter than the current page (C1 660x320x470 mm /15 kg vs 765x410x475 mm /22 kg; E1 1000x420x600 mm /38 kg vs 1000x452x550 mm /52 kg; S1 1100x450x700 mm /60 kg vs 1200x550x650 mm /118 kg), i.e. the page appears to describe the 2026 line-up. Stored values kept so this PR does not silently rewrite specs; the current-page figures are recorded here for the owner to choose between."
   },
   {
    "id": "galileo-e1",
@@ -38708,10 +38736,11 @@
    ],
    "price_usd": null,
    "price_note": null,
-   "official_url": "https://www.galileotimes.com/news/2026wrc-galileo-releases-dual-new-products-with-full-range-mobile-technology-to-create-a-new-paradigm-of-intelligent-land-based-vehicles/",
+   "official_url": "https://www.galileotimes.com/galileo-intelligent-bionic-quadruped-robot-e1-w-series-industrial-grade-product/",
    "sources": [
     "https://www.worldrobotconference.com/profile/robot/download/2025/07/08/Galileo-%E6%99%BA%E8%83%BD%E4%BB%BF%E7%94%9F%E5%9B%9B%E8%B6%B3%E6%9C%BA%E5%99%A8%E4%BA%BA%E4%BA%A7%E5%93%81%E6%89%8B%E5%86%8C_20250708115131A101.pdf",
-    "https://www.galileotimes.com/news/2026wrc-galileo-releases-dual-new-products-with-full-range-mobile-technology-to-create-a-new-paradigm-of-intelligent-land-based-vehicles/"
+    "https://www.galileotimes.com/news/2026wrc-galileo-releases-dual-new-products-with-full-range-mobile-technology-to-create-a-new-paradigm-of-intelligent-land-based-vehicles/",
+    "https://www.galileotimes.com/galileo-intelligent-bionic-quadruped-robot-e1-w-series-industrial-grade-product/"
    ],
    "summary": "Medium industrial quadruped (38 kg, IP67) with 20 kg payload, 4.95 m/s top speed and LiDAR navigation for security inspection.",
    "image_url": null,
@@ -38721,7 +38750,7 @@
     "https://embodied.guide/robots/galileo-e1/"
    ],
    "verification": "official",
-   "note": "Specs from Galileo (Tianjin) official product brochure (maker PDF hosted on WRC exhibitor site); product also listed on official site galileotimes.com. max_speed is stated limit (极限) speed; runtime range 2–4 h, upper value used; max payload 85 kg."
+   "note": "Specs from Galileo (Tianjin) official product brochure (maker PDF hosted on WRC exhibitor site); product also listed on official site galileotimes.com. max_speed is stated limit (极限) speed; runtime range 2–4 h, upper value used; max payload 85 kg. Re-checked 2026-11-17: maker's own product page opened (galileotimes.com, Galileo Tianjin's product site, contacts @galileotime.com). Its current parameter table for this model reads - E1 (legged) column: 1000x452x550 mm, 52 kg, 30Ah/1440 Wh 48 V, 0-3.5 m/s, climb 80 cm platform, 2.5-4.5 h, 30 kg continuous walking load, 100 kg standing load, >16 km, IP67. The stored numbers come from Galileo's 2025 product manual (maker PDF) and are LOWER/lighter than the current page (C1 660x320x470 mm /15 kg vs 765x410x475 mm /22 kg; E1 1000x420x600 mm /38 kg vs 1000x452x550 mm /52 kg; S1 1100x450x700 mm /60 kg vs 1200x550x650 mm /118 kg), i.e. the page appears to describe the 2026 line-up. Stored values kept so this PR does not silently rewrite specs; the current-page figures are recorded here for the owner to choose between."
   },
   {
    "id": "galileo-x",
@@ -38803,10 +38832,11 @@
    ],
    "price_usd": null,
    "price_note": null,
-   "official_url": "https://www.galileotimes.com/news/2026wrc-galileo-releases-dual-new-products-with-full-range-mobile-technology-to-create-a-new-paradigm-of-intelligent-land-based-vehicles/",
+   "official_url": "https://www.galileotimes.com/galileo-intelligent-bionic-quadruped-robot-s1-series-industrial-grade-product/",
    "sources": [
     "https://www.worldrobotconference.com/profile/robot/download/2025/07/08/Galileo-%E6%99%BA%E8%83%BD%E4%BB%BF%E7%94%9F%E5%9B%9B%E8%B6%B3%E6%9C%BA%E5%99%A8%E4%BA%BA%E4%BA%A7%E5%93%81%E6%89%8B%E5%86%8C_20250708115131A101.pdf",
-    "https://www.galileotimes.com/news/2026wrc-galileo-releases-dual-new-products-with-full-range-mobile-technology-to-create-a-new-paradigm-of-intelligent-land-based-vehicles/"
+    "https://www.galileotimes.com/news/2026wrc-galileo-releases-dual-new-products-with-full-range-mobile-technology-to-create-a-new-paradigm-of-intelligent-land-based-vehicles/",
+    "https://www.galileotimes.com/galileo-intelligent-bionic-quadruped-robot-s1-series-industrial-grade-product/"
    ],
    "summary": "Large industrial quadruped (60 kg, IP67) with 40 kg payload, 6 m/s top speed and up to 7.5 h runtime.",
    "image_url": null,
@@ -38816,7 +38846,7 @@
     "https://embodied.guide/robots/galileo-s1/"
    ],
    "verification": "official",
-   "note": "Specs from Galileo (Tianjin) official product brochure (maker PDF hosted on WRC exhibitor site); product also listed on official site galileotimes.com. max_speed is stated limit (极限) speed; runtime range 5 h (20 kg load) – 7.5 h, upper value used; max payload 120 kg."
+   "note": "Specs from Galileo (Tianjin) official product brochure (maker PDF hosted on WRC exhibitor site); product also listed on official site galileotimes.com. max_speed is stated limit (极限) speed; runtime range 5 h (20 kg load) – 7.5 h, upper value used; max payload 120 kg. Re-checked 2026-11-17: maker's own product page opened (galileotimes.com, Galileo Tianjin's product site, contacts @galileotime.com). Its current parameter table for this model reads - S1 (legged) column: 1200x550x650 mm, 118 kg, 60Ah/3540 Wh dual battery 59 V, 0-3.5 m/s, 30 cm steps + 80 cm platform, 3.5-5 h, 100 kg continuous walking load, 170 kg standing load, IP67. The stored numbers come from Galileo's 2025 product manual (maker PDF) and are LOWER/lighter than the current page (C1 660x320x470 mm /15 kg vs 765x410x475 mm /22 kg; E1 1000x420x600 mm /38 kg vs 1000x452x550 mm /52 kg; S1 1100x450x700 mm /60 kg vs 1200x550x650 mm /118 kg), i.e. the page appears to describe the 2026 line-up. Stored values kept so this PR does not silently rewrite specs; the current-page figures are recorded here for the owner to choose between."
   },
   {
    "id": "general-autonomy-param",
@@ -41956,7 +41986,7 @@
     "https://embodied.guide/robots/strider-robotics-m3/"
    ],
    "verification": "unconfirmed",
-   "note": "Strider's site describes autonomous inspection quadrupeds but has no M3 spec page; 20 kg rated / 40 kg tested and the car-towing demo come only from press, so payload left out."
+   "note": "Strider's site describes autonomous inspection quadrupeds but has no M3 spec page; 20 kg rated / 40 kg tested and the car-towing demo come only from press, so payload left out. Re-checked 2026-11-17: strider-robotics.in opened - capability copy only, no M3 model page or numbers. Still unconfirmed."
   },
   {
    "id": "svaya-robotics-quadruped",
@@ -43975,7 +44005,7 @@
    "min_speed_mps": null,
    "wheel_diameter_mm": null,
    "wheel_count": null,
-   "dof": null,
+   "dof": 12,
    "runtime_h": 5.5,
    "battery_wh": 756,
    "ip_rating": "IP66",
@@ -43983,14 +44013,12 @@
    "sdk_available": true,
    "sdk_name": null,
    "onboard_compute": null,
-   "compute_detail": null,
+   "compute_detail": "8-core high-performance CPU",
    "ros_support": null,
    "sensors": [
+    "Stereo camera (2.07 MP x2)",
     "IMU",
-    "Stereo camera",
-    "LiDAR",
-    "GNSS",
-    "UWB"
+    "UWB (GLUE omnidirectional following)"
    ],
    "price_usd": null,
    "price_note": null,
@@ -44006,7 +44034,7 @@
     "https://embodied.guide/robots/genisom-gangben-l2-w/"
    ],
    "verification": "official",
-   "note": "Official URL is the 钢镚 L2 page, whose spec table lists L2 (point-foot), L2-W (wheel-legged) and L2-W Ultra; values here are L2-W. Limit speed 5 m/s; payload ≈16 kg (150 kg static). '¥39,999 起' on page is the L2 family starting price, not specific to L2-W, so price left null. 756 Wh battery stated on page (spec table lists 15000 mAh)."
+   "note": "Official URL is the 钢镚 L2 page, whose spec table lists L2 (point-foot), L2-W (wheel-legged) and L2-W Ultra; values here are L2-W. Limit speed 5 m/s; payload ≈16 kg (150 kg static). '¥39,999 起' on page is the L2 family starting price, not specific to L2-W, so price left null. 756 Wh battery stated on page (spec table lists 15000 mAh). Re-checked 2026-11-17: the L2 product page (opened) carries a per-variant spec table with an explicit L2-W column - standing 760x450x500 mm, prone 780x550x190 mm, 27 kg with battery, ~16 kg continuous payload (150 kg static), 3.7 m/s max / 5 m/s limit, 25 cm continuous stairs, 40 deg slope, 5.5 h no-load / 3.5 h full-load, 20 km / 12 km range, 756 Wh (15000 mAh), 1.5 h charge, 12 joint motors / 95 N.m, 4G, UWB, stereo camera, IP66, -20~55 C. CORRECTION: LiDAR and GNSS/RTK are NOT in the L2-W column (the 96-line LiDAR x2 and RTK are L2-W Ultra only), so they were removed from sensors; dof filled with the 12 joint motors. The page's marketing copy ('RoamerX ... LiDAR + GNSS', '720 deg fusion sensing') describes the family, not the L2-W configuration."
   },
   {
    "id": "galileo-c1-w",
@@ -44043,10 +44071,11 @@
    ],
    "price_usd": null,
    "price_note": null,
-   "official_url": "https://www.galileotimes.com/news/2026wrc-galileo-releases-dual-new-products-with-full-range-mobile-technology-to-create-a-new-paradigm-of-intelligent-land-based-vehicles/",
+   "official_url": "https://www.galileotimes.com/galileo-intelligent-bionic-quadruped-robot-c1-series-consumer-or-industrial-grade-product/",
    "sources": [
     "https://www.worldrobotconference.com/profile/robot/download/2025/07/08/Galileo-%E6%99%BA%E8%83%BD%E4%BB%BF%E7%94%9F%E5%9B%9B%E8%B6%B3%E6%9C%BA%E5%99%A8%E4%BA%BA%E4%BA%A7%E5%93%81%E6%89%8B%E5%86%8C_20250708115131A101.pdf",
-    "https://www.galileotimes.com/news/2026wrc-galileo-releases-dual-new-products-with-full-range-mobile-technology-to-create-a-new-paradigm-of-intelligent-land-based-vehicles/"
+    "https://www.galileotimes.com/news/2026wrc-galileo-releases-dual-new-products-with-full-range-mobile-technology-to-create-a-new-paradigm-of-intelligent-land-based-vehicles/",
+    "https://www.galileotimes.com/galileo-intelligent-bionic-quadruped-robot-c1-series-consumer-or-industrial-grade-product/"
    ],
    "summary": "Small industrial wheel-legged robot (19 kg, IP67) for inspection, climbing 70 cm steps, with 8 kg payload and up to 5 h runtime.",
    "image_url": null,
@@ -44056,7 +44085,7 @@
     "https://embodied.guide/robots/galileo-c1-w/"
    ],
    "verification": "official",
-   "note": "Specs from Galileo (Tianjin) official product brochure (maker PDF hosted on WRC exhibitor site); product also listed on official site galileotimes.com. max_speed is stated limit (极限) speed; runtime range 2.5–5 h, upper value used; max payload 15 kg."
+   "note": "Specs from Galileo (Tianjin) official product brochure (maker PDF hosted on WRC exhibitor site); product also listed on official site galileotimes.com. max_speed is stated limit (极限) speed; runtime range 2.5–5 h, upper value used; max payload 15 kg. Re-checked 2026-11-17: maker's own product page opened (galileotimes.com, Galileo Tianjin's product site, contacts @galileotime.com). Its current parameter table for this model reads - C1-W (wheel-legged) column: 765x480x540 mm, 28.5 kg, 20Ah/960 Wh 48 V, 0-5 m/s, >=30 deg slope, >=20 cm steps, 3-5 h, 12 kg continuous load, IP67. The stored numbers come from Galileo's 2025 product manual (maker PDF) and are LOWER/lighter than the current page (C1 660x320x470 mm /15 kg vs 765x410x475 mm /22 kg; E1 1000x420x600 mm /38 kg vs 1000x452x550 mm /52 kg; S1 1100x450x700 mm /60 kg vs 1200x550x650 mm /118 kg), i.e. the page appears to describe the 2026 line-up. Stored values kept so this PR does not silently rewrite specs; the current-page figures are recorded here for the owner to choose between."
   },
   {
    "id": "galileo-e1-w",
@@ -44093,10 +44122,11 @@
    ],
    "price_usd": null,
    "price_note": null,
-   "official_url": "https://www.galileotimes.com/news/2026wrc-galileo-releases-dual-new-products-with-full-range-mobile-technology-to-create-a-new-paradigm-of-intelligent-land-based-vehicles/",
+   "official_url": "https://www.galileotimes.com/galileo-intelligent-bionic-quadruped-robot-e1-w-series-industrial-grade-product/",
    "sources": [
     "https://www.worldrobotconference.com/profile/robot/download/2025/07/08/Galileo-%E6%99%BA%E8%83%BD%E4%BB%BF%E7%94%9F%E5%9B%9B%E8%B6%B3%E6%9C%BA%E5%99%A8%E4%BA%BA%E4%BA%A7%E5%93%81%E6%89%8B%E5%86%8C_20250708115131A101.pdf",
-    "https://www.galileotimes.com/news/2026wrc-galileo-releases-dual-new-products-with-full-range-mobile-technology-to-create-a-new-paradigm-of-intelligent-land-based-vehicles/"
+    "https://www.galileotimes.com/news/2026wrc-galileo-releases-dual-new-products-with-full-range-mobile-technology-to-create-a-new-paradigm-of-intelligent-land-based-vehicles/",
+    "https://www.galileotimes.com/galileo-intelligent-bionic-quadruped-robot-e1-w-series-industrial-grade-product/"
    ],
    "summary": "Medium industrial wheel-legged robot (44 kg, IP67) with 20 kg payload, >30 km range and 1 m step capability.",
    "image_url": null,
@@ -44106,7 +44136,7 @@
     "https://embodied.guide/robots/galileo-e1-w/"
    ],
    "verification": "official",
-   "note": "Specs from Galileo (Tianjin) official product brochure (maker PDF hosted on WRC exhibitor site); product also listed on official site galileotimes.com. max_speed is stated limit (极限) speed; runtime range 1.5–3 h, upper value used; max payload 85 kg."
+   "note": "Specs from Galileo (Tianjin) official product brochure (maker PDF hosted on WRC exhibitor site); product also listed on official site galileotimes.com. max_speed is stated limit (极限) speed; runtime range 1.5–3 h, upper value used; max payload 85 kg. Re-checked 2026-11-17: maker's own product page opened (galileotimes.com, Galileo Tianjin's product site, contacts @galileotime.com). Its current parameter table for this model reads - E1-W (wheel-legged) column: 995x537x630 mm, 60 kg, 30Ah/1440 Wh 48 V, 0-6 m/s, climb 100 cm platform, 2.5-4 h, 30 kg continuous walking load, 100 kg standing load, >15 km, IP67. The stored numbers come from Galileo's 2025 product manual (maker PDF) and are LOWER/lighter than the current page (C1 660x320x470 mm /15 kg vs 765x410x475 mm /22 kg; E1 1000x420x600 mm /38 kg vs 1000x452x550 mm /52 kg; S1 1100x450x700 mm /60 kg vs 1200x550x650 mm /118 kg), i.e. the page appears to describe the 2026 line-up. Stored values kept so this PR does not silently rewrite specs; the current-page figures are recorded here for the owner to choose between."
   },
   {
    "id": "galileo-s1-w",
@@ -44143,10 +44173,11 @@
    ],
    "price_usd": null,
    "price_note": null,
-   "official_url": "https://www.galileotimes.com/news/2026wrc-galileo-releases-dual-new-products-with-full-range-mobile-technology-to-create-a-new-paradigm-of-intelligent-land-based-vehicles/",
+   "official_url": "https://www.galileotimes.com/galileo-intelligent-bionic-quadruped-robot-s1-wseries-industrial-grade-product/",
    "sources": [
     "https://www.worldrobotconference.com/profile/robot/download/2025/07/08/Galileo-%E6%99%BA%E8%83%BD%E4%BB%BF%E7%94%9F%E5%9B%9B%E8%B6%B3%E6%9C%BA%E5%99%A8%E4%BA%BA%E4%BA%A7%E5%93%81%E6%89%8B%E5%86%8C_20250708115131A101.pdf",
-    "https://www.galileotimes.com/news/2026wrc-galileo-releases-dual-new-products-with-full-range-mobile-technology-to-create-a-new-paradigm-of-intelligent-land-based-vehicles/"
+    "https://www.galileotimes.com/news/2026wrc-galileo-releases-dual-new-products-with-full-range-mobile-technology-to-create-a-new-paradigm-of-intelligent-land-based-vehicles/",
+    "https://www.galileotimes.com/galileo-intelligent-bionic-quadruped-robot-s1-wseries-industrial-grade-product/"
    ],
    "summary": "Large industrial wheel-legged robot (85 kg, IP67) with 40 kg payload, >60 km range and 110 cm step capability.",
    "image_url": null,
@@ -44156,7 +44187,7 @@
     "https://embodied.guide/robots/galileo-s1-w/"
    ],
    "verification": "official",
-   "note": "Specs from Galileo (Tianjin) official product brochure (maker PDF hosted on WRC exhibitor site); product also listed on official site galileotimes.com. max_speed is stated limit (极限) speed; runtime range 4 h (20 kg load) – 6 h, upper value used; max payload 120 kg."
+   "note": "Specs from Galileo (Tianjin) official product brochure (maker PDF hosted on WRC exhibitor site); product also listed on official site galileotimes.com. max_speed is stated limit (极限) speed; runtime range 4 h (20 kg load) – 6 h, upper value used; max payload 120 kg. Re-checked 2026-11-17: maker's own product page opened (galileotimes.com, Galileo Tianjin's product site, contacts @galileotime.com). Its current parameter table for this model reads - S1-W (wheel-legged) column: 1200x550x760 mm, 128 kg, 60Ah/3540 Wh dual battery 59 V, 0-6 m/s, 30 cm steps + 110 cm platform, 2.5-4 h, 100 kg continuous walking load, 170 kg standing load, IP67. The stored numbers come from Galileo's 2025 product manual (maker PDF) and are LOWER/lighter than the current page (C1 660x320x470 mm /15 kg vs 765x410x475 mm /22 kg; E1 1000x420x600 mm /38 kg vs 1000x452x550 mm /52 kg; S1 1100x450x700 mm /60 kg vs 1200x550x650 mm /118 kg), i.e. the page appears to describe the 2026 line-up. Stored values kept so this PR does not silently rewrite specs; the current-page figures are recorded here for the owner to choose between."
   },
   {
    "id": "hyundai-tiger-x-1",
