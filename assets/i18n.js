@@ -2,7 +2,7 @@
 const LANGS={en:"EN",ko:"KR"};
 const I18N={
 en:{
- brand:"Robot Catalog",nav_robots:"Robots",nav_dash:"Dashboard",nav_table:"Mega table",
+ brand:"Robot Catalog",nav_robots:"Robots",nav_dash:"Dashboard",nav_table:"Mega table",nav_data:"Open data",
  home_title:"Mobile robot catalog",home_sub:"Wheeled, wheel-legged and legged robots: AMRs, AGVs, humanoids, quadrupeds, delivery robots and development platforms, with sourced specs.",
  robots:"robots",manufacturers:"manufacturers",categories:"categories",search:"Search name or maker…",all:"All",no_match:"No robots match.",
  max_speed:"Max speed",min_speed:"Min speed",payload:"Payload",ip:"IP rating",
@@ -33,10 +33,12 @@ en:{
  pv_unconfirmed_t:"This record is marked unconfirmed: no maker source was found for it.",
  pv_unchecked_t:"This record has not been checked against a maker source yet, so its values are unconfirmed.",
  verified_only:"Maker-verified only",verified_only_t:"Show only robots whose values were checked against a maker source",
- verified_n:"{n} of {m} robots maker-verified"
+ verified_n:"{n} of {m} robots maker-verified",
+ changelog_title:"Changelog",changelog_sub:"Every data change, newest first: what was added, updated or removed in each version.",
+ cl_added:"Added",cl_updated:"Updated",cl_removed:"Removed",show_all:"Show all {n}",cl_nochange:"No record changes in this version.",cl_none:"No changelog yet."
 },
 ko:{
- brand:"로봇 카탈로그",nav_robots:"로봇",nav_dash:"대시보드",nav_table:"전체 표",
+ brand:"로봇 카탈로그",nav_robots:"로봇",nav_dash:"대시보드",nav_table:"전체 표",nav_data:"오픈 데이터",
  home_title:"모바일 로봇 카탈로그",home_sub:"바퀴형, 바퀴-다리형, 보행형 로봇: AMR, AGV, 휴머노이드, 4족 보행, 배송 로봇, 개발용 플랫폼의 출처 있는 사양.",
  robots:"대",manufacturers:"제조사",categories:"카테고리",search:"이름 또는 제조사 검색…",all:"전체",no_match:"조건에 맞는 로봇이 없습니다.",
  max_speed:"최고 속도",min_speed:"최저 속도",payload:"가반하중",ip:"IP 등급",
@@ -67,7 +69,9 @@ ko:{
  pv_unconfirmed_t:"이 레코드는 미확인으로 표시되어 있습니다: 제조사 출처를 찾지 못했습니다.",
  pv_unchecked_t:"이 레코드는 아직 제조사 자료로 확인하지 않아 값이 미확인 상태입니다.",
  verified_only:"제조사 확인만",verified_only_t:"제조사 자료로 확인된 로봇만 표시합니다",
- verified_n:"제조사 확인 {n}대 / 전체 {m}대"
+ verified_n:"제조사 확인 {n}대 / 전체 {m}대",
+ changelog_title:"변경 내역",changelog_sub:"최신 순으로 정리한 데이터 변경 내역입니다. 버전별로 추가·수정·삭제된 레코드를 보여줍니다.",
+ cl_added:"추가",cl_updated:"수정",cl_removed:"삭제",show_all:"{n}개 모두 보기",cl_nochange:"이 버전에는 레코드 변경이 없습니다.",cl_none:"아직 변경 내역이 없습니다."
 }};
 const VALUE_KO={"AMR":"AMR","AGV":"AGV","Humanoid":"휴머노이드","Quadruped":"4족 보행","Wheel-legged":"바퀴-다리형","Indoor delivery":"실내 배송","Outdoor delivery":"실외 배송","Mobile platform":"모바일 플랫폼","Misc":"기타",
 "Wheeled":"바퀴형","Tracked":"궤도형","Legged":"보행형","Commercial":"상용","Pre-order":"사전 주문","Pilot":"시범 운영","Research":"연구용","Discontinued":"단종","Announced":"발표됨",

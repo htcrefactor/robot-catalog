@@ -1,0 +1,103 @@
+<!doctype html><html lang="en"><head><script async src="https://www.googletagmanager.com/gtm.js?id=GTM-N5QZLXVX"></script><script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());</script><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><link rel="stylesheet" href="assets/style.css"><script src="assets/i18n.js"></script><script src="assets/data-i18n.js"></script><script src="assets/app.js"></script><meta name="description" content="Open data: download the Robot Catalog as CSV and JSON, with the field list, units, license (CC BY 4.0), version and example fetch code."><title>Open data — Robot Catalog</title></head>
+<body><script>nav("data.html")</script>
+<main>
+<h1 data-i18n="data_title"></h1><p class="muted" data-i18n="data_sub"></p>
+<div class="stats" id="stats"></div>
+
+<div class="panel">
+<h2 data-i18n="data_dl"></h2><p class="small muted" data-i18n="data_dl_sub"></p>
+<div class="dlgrid" id="dl"></div>
+</div>
+
+<div class="panel">
+<h2 data-i18n="data_snapshot"></h2>
+<dl class="snap" id="snap"></dl>
+<p class="small muted" data-i18n="snap_note"></p>
+</div>
+
+<div class="panel">
+<h2 data-i18n="data_lic"></h2>
+<p data-i18n="lic_p"></p>
+<p class="small"><b data-i18n="lic_att_l"></b></p>
+<pre class="code" id="cite"></pre>
+<p class="small muted" data-i18n="lic_third"></p>
+<p class="small muted" data-i18n="lic_code"></p>
+</div>
+
+<div class="panel">
+<h2 data-i18n="data_fields_h"></h2><p class="small muted" data-i18n="data_fields_sub"></p>
+<div class="tablewrap"><table class="mega fields" id="fields"></table></div>
+<p class="small muted" data-i18n="use_notes"></p>
+</div>
+
+<div class="panel">
+<h2 data-i18n="data_use_h"></h2><p class="small muted" data-i18n="data_use_sub"></p>
+<h3 class="lbl" data-i18n="use_curl"></h3>
+<pre class="code">curl -sL https://htcrefactor.github.io/robot-catalog/data/robots.csv | head -2
+curl -sL https://htcrefactor.github.io/robot-catalog/data/robots.json | jq '.meta'</pre>
+<h3 class="lbl" data-i18n="use_py"></h3>
+<pre class="code">import pandas as pd
+
+df = pd.read_csv("https://htcrefactor.github.io/robot-catalog/data/robots.csv")
+print(len(df), df["category"].value_counts())
+
+# an empty cell means the maker does not state it
+quadrupeds = df[df["category"] == "Quadruped"].dropna(subset=["payload_kg"])
+print(quadrupeds[["manufacturer", "name", "payload_kg"]].head())</pre>
+<h3 class="lbl" data-i18n="use_js"></h3>
+<pre class="code">const res = await fetch("https://htcrefactor.github.io/robot-catalog/data/robots.json");
+const { meta, robots } = await res.json();
+
+console.log(meta.version, meta.count);
+console.log(robots.filter(r => r.api_support === true).length);</pre>
+</div>
+
+<div class="panel">
+<h2 data-i18n="data_links_h"></h2>
+<ul class="small" id="links"></ul>
+</div>
+</main><div id="foot"></div>
+<script>
+document.title=t("data_title")+" — "+t("brand");
+const REPO="https://github.com/htcrefactor/robot-catalog";
+(async()=>{const d=await loadData();const m=d.meta||{},robots=d.robots||[];
+document.getElementById("foot").innerHTML=footer(m);
+const makers=new Set(robots.map(r=>r.manufacturer)).size,cats=new Set(robots.map(r=>r.category)).size;
+document.getElementById("stats").innerHTML=[[robots.length,t("robots")],[makers,t("manufacturers")],[cats,t("categories")],[esc(m.updated||"—"),t("snap_updated")]]
+ .map(([a,b])=>`<div class="stat"><b>${a}</b>${b}</div>`).join("");
+
+// Downloads.
+const files=[["data/robots.csv","data_file_csv",t("data_rows_cols",{r:m.count??robots.length,c:DATA_FIELDS.length})," download"],
+ ["data/robots.json","data_file_json",`${m.count??robots.length}${LANG==="ko"?"":" "}${t("robots")}`," download"],
+ ["data/CHANGELOG.json","data_file_changelog","JSON",""],
+ ["data/SCHEMA.md","data_file_schema","Markdown",""],
+ ["DATA-LICENSE.md","data_file_license","CC BY 4.0",""]];
+document.getElementById("dl").innerHTML=files.map(([href,k,note,dlattr])=>`<a class="dl" href="${href}"${dlattr}><span class="f">${href.split("/").pop()}</span><b>${t(k)}</b><span class="small">${esc(note)}</span></a>`).join("");
+
+// This snapshot.
+const snap=[["snap_version",esc(m.version||m.updated||"—")],["snap_updated",esc(m.updated||"—")],
+ ["snap_count",String(m.count??robots.length)],["snap_makers",String(makers)],
+ ["snap_license",`<a href="${esc(m.license_url||"https://creativecommons.org/licenses/by/4.0/")}" target="_blank" rel="noopener">${esc(m.license||t("snap_license_v"))}</a>`],
+ ["snap_notes",`<a href="changelog.html">${t("lnk_changelog")}</a> · <a href="data/CHANGELOG.json">CHANGELOG.json</a>`],
+ ["snap_schema",`<a href="${REPO}/blob/main/data/SCHEMA.md">data/SCHEMA.md</a>`],
+ ["snap_issue",`<a href="${REPO}/issues/new?template=correction.yml" target="_blank" rel="noopener">${t("lnk_issue")}</a>`]];
+document.getElementById("snap").innerHTML=snap.map(([k,v])=>`<dt>${t(k)}</dt><dd>${v}</dd>`).join("");
+document.getElementById("cite").textContent=`Robot Catalog — ${DATA_BASE}\nSnapshot ${m.version||m.updated||""} · CC BY 4.0 · https://creativecommons.org/licenses/by/4.0/`;
+
+// Fields and units, with how many robots publish each one.
+const present=f=>robots.filter(r=>{const v=r[f.k];return Array.isArray(v)?v.length>0:!(v===null||v===undefined||v==="")}).length;
+const body=Object.entries(DATA_GROUPS).map(([g,gg])=>`<tr class="grp"><th colspan="5">${esc(gg[LANG]||gg.en)}</th></tr>`+
+ DATA_FIELDS.filter(f=>f.g===g).map(f=>`<tr><td><code>${f.k}</code></td><td class="small">${t("type_"+f.t)}</td><td class="small">${f.u||"—"}</td><td>${esc(f[LANG]||f.en)}</td><td class="num small">${t("pub_of",{n:present(f),t:robots.length})}</td></tr>`).join("")).join("");
+document.getElementById("fields").innerHTML=`<thead><tr><th>${t("col_field")}</th><th>${t("col_type")}</th><th>${t("col_unit")}</th><th>${t("col_meaning")}</th><th>${t("col_pub")}</th></tr></thead><tbody>${body}</tbody>`;
+
+// Elsewhere.
+document.getElementById("links").innerHTML=[["changelog.html",t("lnk_changelog")],
+ ["data/CHANGELOG.json","CHANGELOG.json"],
+ [`${REPO}/blob/main/data/SCHEMA.md`,"SCHEMA.md"],
+ [`${REPO}/blob/main/README.md`,t("lnk_readme")],
+ [`${REPO}/blob/main/AGENTS.md`,t("lnk_agents")],
+ [`${REPO}`,t("lnk_repo")],
+ [`${REPO}/issues/new?template=correction.yml`,t("lnk_issue")]]
+ .map(([h,l])=>`<li><a href="${h}"${/^https?:/.test(h)?' target="_blank" rel="noopener"':""}>${l}</a></li>`).join("");
+})();
+</script></body></html>
