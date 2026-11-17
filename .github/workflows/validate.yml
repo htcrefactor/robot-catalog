@@ -1,0 +1,23 @@
+name: Validate catalog data
+on:
+  pull_request:
+  push:
+    branches: [main]
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Robot count on base branch
+        if: github.event_name == 'pull_request'
+        run: |
+          git show origin/${{ github.base_ref }}:data/robots.json > /tmp/base.json
+          echo "BASE_COUNT=$(python3 -c "import json;print(len(json.load(open('/tmp/base.json'))['robots']))")" >> $GITHUB_ENV
+          echo "ALLOW_DROP=${{ contains(github.event.pull_request.labels.*.name, 'count-drop-ok') && '1' || '0' }}" >> $GITHUB_ENV
+      - name: Validate
+        run: python3 scripts/validate.py

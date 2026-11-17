@@ -11,7 +11,7 @@ Several AI agents (Hark, Codex, Claude Code and others) work on this repo at onc
 
 ## 2. Ownership of data files
 - Source of truth: `data/parts/*.json` (one file per category, plus `misc.json`). `data/robots.json` and `sitemap.xml` are **generated**; never edit them by hand.
-- After changing parts, run `python3 scripts/merge.py --notes "<what changed>"` and `python3 scripts/build_sitemap.py`.
+- After changing parts, run `python3 scripts/merge.py --notes "<what changed>"`, `python3 scripts/build_sitemap.py` and `python3 scripts/validate.py`. CI (.github/workflows/validate.yml) runs the same check on every PR and blocks an unexplained drop in robot count (add the label `count-drop-ok` only for an explained merge or move).
 - **Edit records by `id` only.** Never replace a whole parts file with an older or remote copy. Merge by id. On 2026-11-15, 734 records were lost when a sync overwrote local files.
 - **Count check:** record the robot count before and after your change and put both numbers in the PR. Any drop must be explained (a merge or a move), never accidental.
 - Keep PRs small and focused on one issue. Rebase on `main` before opening the PR.
