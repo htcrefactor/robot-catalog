@@ -8311,7 +8311,7 @@
   "category": "Humanoid",
   "locomotion": "Legged",
   "release_year": 2024,
-  "status": "Research",
+  "status": "Discontinued",
   "length_mm": null,
   "width_mm": null,
   "height_mm": null,
@@ -8336,7 +8336,8 @@
   "price_note": null,
   "official_url": "https://www.deeprobotics.cn/en/",
   "sources": [
-   "https://www.deeprobotics.cn/en/wap/humanoid.html"
+   "https://www.deeprobotics.cn/en/wap/humanoid.html",
+   "https://www.deeprobotics.us/products/"
   ],
   "summary": "DEEP Robotics' first full-size bipedal humanoid, an RL-controlled embodied-intelligence research platform shown in 2024 and since succeeded by DR02.",
   "image_url": null,
@@ -8349,7 +8350,7 @@
    "https://humanoid.guide/product/dr01/"
   ],
   "verification": "official",
-  "note": "Maker's own DR01 page (deeprobotics.cn/en/index/humanoid.html, Chinese mirror /robot/index/humanoid.html) and a maker news item (Aug 2024) confirm DR01 as DEEP Robotics' first bipedal humanoid, but both URLs now 404 / redirect: the redesigned maker humanoid listing (opened) shows only DR02, so DR01 appears superseded/no longer listed. Maker-stated: walking speed >1.6 m/s, 18 cm steps, 25° slopes, J60 + J100 joints (from search excerpts of the maker page; page could not be opened). Height 170 cm, 80 kg, 12 DoF, 15 kg payload, 2 h runtime are aggregator-only (humanoid.guide etc.) - NOT filled. Status set to Research (research/embodied-AI platform, never priced)."
+  "note": "Maker's own DR01 page (deeprobotics.cn/en/index/humanoid.html, Chinese mirror /robot/index/humanoid.html) and a maker news item (Aug 2024) confirm DR01 as DEEP Robotics' first bipedal humanoid, but both URLs now 404 / redirect: the redesigned maker humanoid listing (opened) shows only DR02, so DR01 appears superseded/no longer listed. Maker-stated: walking speed >1.6 m/s, 18 cm steps, 25° slopes, J60 + J100 joints (from search excerpts of the maker page; page could not be opened). Height 170 cm, 80 kg, 12 DoF, 15 kg payload, 2 h runtime are aggregator-only (humanoid.guide etc.) - NOT filled. Superseded by DR02: the maker's product page now lists only DR02/DR02 Pro and the old humanoid URL returns 404 (checked 2026-11-17) -> Discontinued. Never priced."
  },
  {
   "id": "figure-01",
@@ -8823,7 +8824,8 @@
   "sources": [
    "https://global.honda/en/ASIMO/about",
    "https://global.honda/en/newsroom/news/2011/c111108aeng.html",
-   "https://global.honda/jp/tech/ASIMO/about?from=asimo_top"
+   "https://global.honda/jp/tech/ASIMO/about?from=asimo_top",
+   "https://www.nikkei.com/article/DGXMZO32334040Y8A620C1EAF000/"
   ],
   "summary": "Honda's pioneering bipedal humanoid, introduced in 2000, able to walk, run at up to 9 km/h and interact autonomously with people.",
   "image_url": null,
@@ -8834,7 +8836,7 @@
    "https://humanoidversus.com/robots/honda-asimo"
   ],
   "verification": "official",
-  "note": "Specs are the 2011 'all-new ASIMO' per Honda (130x45x34 cm, 48 kg, 57 DoF, 9 km/h, 40 min). Earlier versions differ (2000: 120 cm/43 kg). Honda ended ASIMO development (reported 2018) - status not set from an official statement."
+  "note": "Specs are the 2011 'all-new ASIMO' per Honda (130x45x34 cm, 48 kg, 57 DoF, 9 km/h, 40 min). Earlier versions differ (2000: 120 cm/43 kg). Honda ended ASIMO development in 2018 (Nikkei report of 28 Jun 2018; Honda said humanoid research continues) -> Discontinued."
  },
  {
   "id": "prosper-robotics-alfie",
@@ -14302,7 +14304,7 @@
   "category": "Humanoid",
   "locomotion": "Legged",
   "release_year": 2023,
-  "status": null,
+  "status": "Discontinued",
   "length_mm": null,
   "width_mm": null,
   "height_mm": null,
@@ -14328,7 +14330,8 @@
   "official_url": "https://www.xpeng.com/news/018b620c16468a69338c2c9e8a510658",
   "sources": [
    "https://www.xpeng.com/news/018b620c16468a69338c2c9e8a510658",
-   "https://bbs.xiaopeng.com/article/2127779"
+   "https://bbs.xiaopeng.com/article/2127779",
+   "https://www.xpeng.com/news/019301d2135392fa562d8a0282200016"
   ],
   "summary": "XPENG's first in-house bipedal humanoid prototype with straight-leg gait and 11-DoF dexterous hands, intended for factory and retail use.",
   "image_url": null,
@@ -14339,7 +14342,7 @@
    "https://humanoid.guide/product/px5/"
   ],
   "verification": "official",
-  "note": "Unveiled at XPENG Tech Day Oct 2023; official community post confirms PX5 name and 11-DoF hands. Early-stage prototype, succeeded by XPENG IRON. Specs like 1.5 m/109 kg are from media, not official pages."
+  "note": "Unveiled at XPENG Tech Day Oct 2023; official community post confirms PX5 name and 11-DoF hands. Early-stage prototype, never offered for sale, superseded by XPENG IRON (unveiled at AI Day, 6 Nov 2024) -> Discontinued. Specs like 1.5 m/109 kg are from media, not official pages."
  },
  {
   "id": "zeroth-jupiter",
