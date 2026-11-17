@@ -22,7 +22,7 @@
 | Runtime | 2 h |
 | Released | 2024 |
 | Status | Commercial |
-| Price | US$13,500 (US$13,500 for G1 (tax and shipping excluded); G1 EDU by quote) |
+| Price | US$13,500 for G1 (tax and shipping excluded); G1 EDU by quote |
 | API | yes |
 | SDK | yes |
 | SDK name | unitree_sdk2 |
@@ -269,6 +269,7 @@ Maker page unitree.com/g1 re-checked 2026-11-17: standing 1,320 x 450 x 200 mm (
 - [github.com](https://github.com/unitreerobotics/unitree_ros)
 - [github.com](https://github.com/unitreerobotics/unitree_ros2)
 - [github.com](https://github.com/unitreerobotics/unitree_mujoco)
+- [shop.unitree.com](https://shop.unitree.com/products/unitree-g1)
 
 ---
 

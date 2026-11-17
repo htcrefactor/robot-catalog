@@ -868,13 +868,14 @@
    "Cameras",
    "Radar"
   ],
-  "price_usd": 2475,
+  "price_usd": null,
   "price_note": null,
   "official_url": "https://piaggiofastforward.com/shop/gitamini",
   "sources": [
    "https://knowledge.mygita.com/gitamini-physical-overview",
    "https://piaggiofastforward.com/shop/gitamini",
-   "https://piaggiofastforward.com/blog/choose-your-robot-gitaplus-vs-gitamini"
+   "https://piaggiofastforward.com/blog/choose-your-robot-gitaplus-vs-gitamini",
+   "https://shop.piaggiofastforward.com/"
   ],
   "summary": "Compact self-balancing robot from Piaggio Fast Forward that follows its owner on foot while carrying up to 20 lb of cargo.",
   "image_url": null,
@@ -884,7 +885,17 @@
    "https://botupyourlife.com/en/robots/piaggio-gitamini/"
   ],
   "verification": "official",
-  "note": "PFF knowledge base spec: 17.9 x 16.5 x 18.9 in (LxWxH -> 455x419x480 mm), 28 lb (12.7 kg), 20 lb payload (9.1 kg), top speed 6 mph (2.68 m/s), up to 21 miles, ~2 h charge; up to 7 h continuous following (PFF FAQ/blog). PFF's launch blog gives 455x420x465 mm (minor conflict). Shop price $2,475. Two-wheeled self-balancing person-following cargo robot (Piaggio Group subsidiary, Boston). Official styling 'gita mini'."
+  "note": "PFF knowledge base spec: 17.9 x 16.5 x 18.9 in (LxWxH -> 455x419x480 mm), 28 lb (12.7 kg), 20 lb payload (9.1 kg), top speed 6 mph (2.68 m/s), up to 21 miles, ~2 h charge; up to 7 h continuous following (PFF FAQ/blog). PFF's launch blog gives 455x420x465 mm (minor conflict). Shop price $2,475. Two-wheeled self-balancing person-following cargo robot (Piaggio Group subsidiary, Boston). Official styling 'gita mini'.",
+  "price_observations": [
+   {
+    "date": "2026-11-17",
+    "amount": 2475,
+    "currency": "USD",
+    "kind": "list",
+    "source": "https://shop.piaggiofastforward.com/",
+    "note": "price on the official shop page"
+   }
+  ]
  },
  {
   "id": "pudu-swiftbot",
@@ -1989,11 +2000,12 @@
    "Cameras",
    "Sensors array (leader following)"
   ],
-  "price_usd": 2475,
-  "price_note": "list price on official shop",
+  "price_usd": null,
+  "price_note": null,
   "official_url": "https://piaggiofastforward.com/shop/gitaplus",
   "sources": [
-   "https://piaggiofastforward.com/shop/gitaplus"
+   "https://piaggiofastforward.com/shop/gitaplus",
+   "https://shop.piaggiofastforward.com/"
   ],
   "summary": "Larger following cargo robot from Piaggio Fast Forward that carries up to 40 lb behind its user.",
   "image_url": "https://a.storyblok.com/f/255103/1036x1200/fe5fe271e6/product_rapidblue_desktop_1_2x.webp",
@@ -2003,7 +2015,17 @@
    "https://botupyourlife.com/en/robots/piaggio-fast-forward-gitaplus/"
   ],
   "verification": "official",
-  "note": "Dimensions 25×22×25.8 in; capacity 40 lb; weight 50 lb; top speed 6 mph; runtime 5 h (~15 mi)."
+  "note": "Dimensions 25×22×25.8 in; capacity 40 lb; weight 50 lb; top speed 6 mph; runtime 5 h (~15 mi).",
+  "price_observations": [
+   {
+    "date": "2026-11-17",
+    "amount": 2475,
+    "currency": "USD",
+    "kind": "list",
+    "source": "https://shop.piaggiofastforward.com/",
+    "note": "price on the official shop page"
+   }
+  ]
  },
  {
   "id": "temi-go-pro",

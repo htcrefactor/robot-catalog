@@ -23,7 +23,6 @@
 | Battery | 648 Wh |
 | IP rating | IP54 |
 | Status | Commercial |
-| Price | US$3,100 (starting price (As2 Air) on Unitree shop; EDU via sales) |
 | API | yes |
 | SDK | yes |
 | On-board compute | yes |

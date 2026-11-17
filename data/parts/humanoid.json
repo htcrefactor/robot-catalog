@@ -32,7 +32,7 @@
    "3D LiDAR",
    "4-microphone array"
   ],
-  "price_usd": 13500,
+  "price_usd": null,
   "price_note": "US$13,500 for G1 (tax and shipping excluded); G1 EDU by quote",
   "official_url": "https://www.unitree.com/g1/",
   "sources": [
@@ -48,7 +48,8 @@
    "https://github.com/unitreerobotics/unitree_sdk2_python",
    "https://github.com/unitreerobotics/unitree_ros",
    "https://github.com/unitreerobotics/unitree_ros2",
-   "https://github.com/unitreerobotics/unitree_mujoco"
+   "https://github.com/unitreerobotics/unitree_mujoco",
+   "https://shop.unitree.com/products/unitree-g1"
   ],
   "summary": "Unitree's small full-body humanoid for research and development, with 23 joints on the base model, expandable to 43 on the EDU version with dexterous hands.",
   "note": "Maker page unitree.com/g1 re-checked 2026-11-17: standing 1,320 x 450 x 200 mm (H x W x T), folded 690 x 450 x 300 mm, 35 kg with battery, 23 DoF base (23-43 EDU), arm load about 2 kg (3 kg EDU), about 2 h, US$13.5K base (tax and shipping excluded). The stored height is the maker's standing figure; an earlier G1 manual and the May-2024 launch coverage give 1,270 mm (127 cm), which the current maker page does not state. | Maker figures: 1320 x 450 x 200 mm standing (690 x 450 x 300 folded), ~35 kg, 23 DoF (G1) or 23-43 (G1 EDU), 6 per leg, 1 waist (+2 optional), 5 per arm, optional 7-DoF three-finger hand, 90 Nm knee (120 Nm on EDU), about 2 kg arm load (3 kg on EDU), 9000 mAh quick-release pack, about 2 h, depth camera plus 3D LiDAR, 4-microphone array, 5 W speaker, Wi-Fi 6 and Bluetooth 5.2, 8-core CPU; trotting speed above 2 m/s. Price US$13,500 for G1.",
@@ -79,6 +80,16 @@
     "name": "unitree_ros",
     "url": "https://github.com/unitreerobotics/unitree_ros",
     "license": "BSD-3-Clause"
+   }
+  ],
+  "price_observations": [
+   {
+    "date": "2026-11-17",
+    "amount": 13500,
+    "currency": "USD",
+    "kind": "list",
+    "source": "https://shop.unitree.com/products/unitree-g1",
+    "note": "G1 base unit; G1 Pro US$21,500 on the same page; tax and freight excluded; G1 EDU by quote"
    }
   ]
  },
@@ -128,7 +139,8 @@
    "https://github.com/unitreerobotics/unitree_ros/blob/master/robots/h1_description/mjcf/h1.xml",
    "https://github.com/unitreerobotics/unitree_sdk2_python",
    "https://github.com/unitreerobotics/unitree_ros",
-   "https://github.com/unitreerobotics/unitree_mujoco"
+   "https://github.com/unitreerobotics/unitree_mujoco",
+   "https://shop.unitree.com/products/unitree-h1"
   ],
   "summary": "Unitree's first full-size humanoid, the H1, able to walk and run at up to 3.3 m/s on a 360-degree LiDAR and depth-camera perception stack.",
   "verification": "official",
@@ -171,7 +183,17 @@
     "license": "BSD-3-Clause"
    }
   ],
-  "ros2_url": "https://github.com/unitreerobotics/unitree_ros2"
+  "ros2_url": "https://github.com/unitreerobotics/unitree_ros2",
+  "price_observations": [
+   {
+    "date": "2026-11-17",
+    "amount": 90000,
+    "currency": "USD",
+    "kind": "list",
+    "source": "https://shop.unitree.com/products/unitree-h1",
+    "note": "store lists US$90,000 and titles the page \"Contact us for the real price\""
+   }
+  ]
  },
  {
   "id": "unitree-h2",
@@ -204,7 +226,7 @@
   "sensors": [
    "Bionic head with facial features"
   ],
-  "price_usd": 29900,
+  "price_usd": null,
   "price_note": "US$29,900 for H2 (tax and shipping excluded); H2 EDU by quote",
   "official_url": "https://www.unitree.com/H2/",
   "sources": [
@@ -220,7 +242,8 @@
    "https://github.com/unitreerobotics/unitree_sdk2_python",
    "https://github.com/unitreerobotics/unitree_ros",
    "https://github.com/unitreerobotics/unitree_ros2",
-   "https://github.com/unitreerobotics/unitree_mujoco"
+   "https://github.com/unitreerobotics/unitree_mujoco",
+   "https://shop.unitree.com/products/unitree-h2"
   ],
   "summary": "Unitree's 1.82 m humanoid with a bionic head and 31 DoF, built for heavier industrial and research work with 360 Nm leg joints.",
   "verification": "official",
@@ -251,6 +274,16 @@
     "name": "unitree_ros",
     "url": "https://github.com/unitreerobotics/unitree_ros",
     "license": "BSD-3-Clause"
+   }
+  ],
+  "price_observations": [
+   {
+    "date": "2026-11-17",
+    "amount": 29900,
+    "currency": "USD",
+    "kind": "list",
+    "source": "https://shop.unitree.com/products/unitree-h2",
+    "note": "H2; tax and freight excluded; H2 EDU by quote"
    }
   ]
  },
@@ -1007,11 +1040,23 @@
   "price_note": null,
   "official_url": "https://www.agibot.com.cn/products/A2_Ultra",
   "sources": [
-   "https://www.agibot.com.cn/products/A2_Ultra"
+   "https://www.agibot.com.cn/products/A2_Ultra",
+   "https://humanoidstore.co/robots/agibot-a2",
+   "https://store.agibot.com/products/a2-lite"
   ],
   "summary": "Full-size humanoid from AgiBot; shipping now, anyone can order.",
   "verification": "official",
-  "notes": "Issue #17 (2026-11-17): A2 figures (169 cm, 64 kg, 2 kg arm payload, 4.5 h standing / 1.5 h walking) are from AgiBot's A2 Ultra page, which also gives 1.5 kg as HumanoidStore's arm payload; maker values kept. HumanoidStore's US$44,560 removed: AgiBot publishes no price there. [emptied (no maker value) price_usd=44560; price_note=list 44560 USD (maker), per HumanoidStore, checked 2026-10]"
+  "notes": "Issue #17 (2026-11-17): A2 figures (169 cm, 64 kg, 2 kg arm payload, 4.5 h standing / 1.5 h walking) are from AgiBot's A2 Ultra page, which also gives 1.5 kg as HumanoidStore's arm payload; maker values kept. HumanoidStore's US$44,560 removed: AgiBot publishes no price there. [emptied (no maker value) price_usd=44560; price_note=list 44560 USD (maker), per HumanoidStore, checked 2026-10]",
+  "price_observations": [
+   {
+    "date": "2026-11-17",
+    "amount": 44560,
+    "currency": "USD",
+    "kind": "list",
+    "source": "https://store.agibot.com/products/a2-lite",
+    "note": "store lists the A2 Lite at this price"
+   }
+  ]
  },
  {
   "id": "agibot-a3",
@@ -1166,11 +1211,23 @@
   "price_note": null,
   "official_url": "https://www.agibot.com.cn/products/X2",
   "sources": [
-   "https://www.agibot.com.cn/products/X2"
+   "https://www.agibot.com.cn/products/X2",
+   "https://humanoidstore.co/robots/agibot-x2",
+   "https://store.agibot.com/products/x2"
   ],
   "summary": "Mid-size humanoid from AgiBot; shipping now, anyone can order.",
   "verification": "official",
-  "notes": "Issue #17 (2026-11-17): 1.31 m, 35 kg, 3 kg arm payload, 500 Wh, ~2 h and 2 m/s from AgiBot's X2 page; DoF 30 derived (head 1 + arms 7x2 + waist 3 + legs 6x2). HumanoidStore's US$25,600 price removed: AgiBot publishes none. [emptied (no maker value) price_usd=25600; price_note=list 25600 USD (maker), per HumanoidStore, checked 2026-10]"
+  "notes": "Issue #17 (2026-11-17): 1.31 m, 35 kg, 3 kg arm payload, 500 Wh, ~2 h and 2 m/s from AgiBot's X2 page; DoF 30 derived (head 1 + arms 7x2 + waist 3 + legs 6x2). HumanoidStore's US$25,600 price removed: AgiBot publishes none. [emptied (no maker value) price_usd=25600; price_note=list 25600 USD (maker), per HumanoidStore, checked 2026-10]",
+  "price_observations": [
+   {
+    "date": "2026-11-17",
+    "amount": 25600,
+    "currency": "USD",
+    "kind": "list",
+    "source": "https://store.agibot.com/products/x2",
+    "note": "store lists the X2 Neo"
+   }
+  ]
  },
  {
   "id": "agile-robots-agile-one",
@@ -2204,17 +2261,28 @@
    "3-microphone ring array",
    "2-inch face display"
   ],
-  "price_usd": 2490,
+  "price_usd": null,
   "price_note": "US$2,490 robot device; US$390 developer skills package",
   "official_url": "https://robotics.ff.com/us/nova/",
   "sources": [
    "https://robotics.ff.com/us/nova/",
-   "https://www.ff.com/us/1014launch/"
+   "https://www.ff.com/us/1014launch/",
+   "https://humanoidstore.co/robots/faraday-future-nova",
+   "https://shop.ff.com/products/ff-nova"
   ],
   "summary": "Faraday Future's sub-USD-2,500 entry-level EAI humanoid for developers and classrooms: a 50 cm biped with 20 DoF that can also ride a detachable wheeled base.",
   "verification": "official",
   "notes": "Issue #17 (2026-11-17): FF Nova - 497 mm, 2.8 kg, 20 DoF (head 2, arms 6, legs 12), 0.1 m/s bipedal (0.8 m/s on its wheeled base), 2-3 h, US$2,490 from Faraday Future's Nova page and launch release. [replaced runtime_h: 2.0 -> 2.5; price_note: list 2490 USD (maker), per HumanoidStore, checked 2026-10 -> US$2,490 robot device; US$390 developer skills package]",
-  "note": "Maker pages (robotics.ff.com/us/nova and the 14 Oct 2026 launch page): 49.7 cm, 2.8 kg, 20 DoF (head 2 + arms 6 + legs 12), 0.1 m/s bipedal walking and 0.8 m/s on the detachable wheeled base, 2 cm obstacle height, 10 TOPS with 8 GB RAM and 32 GB storage, 2D LiDAR + ~4 MP wide-angle camera + 3D ToF + three-mic ring with sound-source localisation and voiceprint recognition, 240 x 296 2-inch face display, Wi-Fi 6 and BLE 5.4, open SDK with a ROS 2 workflow and a Sim2Real RL pipeline, four hours of runtime not stated by the maker so left empty. USD 2,490 device price (Skills Package USD 390 extra); Phase One invitations closed with units expected by end-November 2026 and open pre-orders shipping around January 2027."
+  "note": "Maker pages (robotics.ff.com/us/nova and the 14 Oct 2026 launch page): 49.7 cm, 2.8 kg, 20 DoF (head 2 + arms 6 + legs 12), 0.1 m/s bipedal walking and 0.8 m/s on the detachable wheeled base, 2 cm obstacle height, 10 TOPS with 8 GB RAM and 32 GB storage, 2D LiDAR + ~4 MP wide-angle camera + 3D ToF + three-mic ring with sound-source localisation and voiceprint recognition, 240 x 296 2-inch face display, Wi-Fi 6 and BLE 5.4, open SDK with a ROS 2 workflow and a Sim2Real RL pipeline, four hours of runtime not stated by the maker so left empty. USD 2,490 device price (Skills Package USD 390 extra); Phase One invitations closed with units expected by end-November 2026 and open pre-orders shipping around January 2027.",
+  "price_observations": [
+   {
+    "date": "2026-11-17",
+    "amount": 2490,
+    "currency": "USD",
+    "kind": "list",
+    "source": "https://shop.ff.com/products/ff-nova"
+   }
+  ]
  },
  {
   "id": "faraday-future-nova-mini",
@@ -2248,17 +2316,27 @@
    "Gyroscope",
    "Microphone"
   ],
-  "price_usd": 299,
+  "price_usd": null,
   "price_note": "US$299 MSRP",
   "official_url": "https://shop.ff.com/products/ff-nova-mini",
   "sources": [
    "https://shop.ff.com/products/ff-nova-mini",
-   "https://robotics.ff.com/us/nova-mini-hello/"
+   "https://robotics.ff.com/us/nova-mini-hello/",
+   "https://humanoidstore.co/robots/faraday-future-nova-mini"
   ],
   "summary": "A USD 299 programmable 35 cm desk humanoid for STEM teaching, with 17 servo joints, block coding and pose teaching rather than an SDK.",
   "verification": "official",
   "notes": "Issue #17 (2026-11-17): FF Nova Mini - 349x176x99 mm, 0.94 kg, 17 servo joints (head 1, arms 3x2, legs 5x2), about 50 min, US$299. [replaced price_note: list 299 USD (maker), per HumanoidStore, checked 2026-10 -> US$299 MSRP]",
-  "note": "Maker shop listing and quick-start guide: 349 x 176 x 99 mm, 0.94 kg, 17 servo joints (chest 1, arms 3x2, legs 5x2), 2000 mAh lithium pack with about 50 min of use and a same-length charge, Bluetooth 4.2 BLE, block-based Brain Blocks programming plus pose teaching, built-in voice commands, no developer SDK published, 0-35 C operating range. Maker gives no payload and no battery voltage, so those fields stay empty; the shop's own MSRP is USD 299."
+  "note": "Maker shop listing and quick-start guide: 349 x 176 x 99 mm, 0.94 kg, 17 servo joints (chest 1, arms 3x2, legs 5x2), 2000 mAh lithium pack with about 50 min of use and a same-length charge, Bluetooth 4.2 BLE, block-based Brain Blocks programming plus pose teaching, built-in voice commands, no developer SDK published, 0-35 C operating range. Maker gives no payload and no battery voltage, so those fields stay empty; the shop's own MSRP is USD 299.",
+  "price_observations": [
+   {
+    "date": "2026-11-17",
+    "amount": 299,
+    "currency": "USD",
+    "kind": "list",
+    "source": "https://shop.ff.com/products/ff-nova-mini"
+   }
+  ]
  },
  {
   "id": "fauna-robotics-sprout",
@@ -5174,7 +5252,7 @@
    "Binocular camera (monocular on R1 AIR)",
    "4-microphone array"
   ],
-  "price_usd": 5900,
+  "price_usd": null,
   "price_note": "R1 US$5,900; R1 AIR US$4,900 (tax and shipping excluded)",
   "official_url": "https://www.unitree.com/R1/",
   "sources": [
@@ -5189,7 +5267,8 @@
    "https://github.com/unitreerobotics/unitree_sdk2_python",
    "https://github.com/unitreerobotics/unitree_ros",
    "https://github.com/unitreerobotics/unitree_ros2",
-   "https://github.com/unitreerobotics/unitree_mujoco"
+   "https://github.com/unitreerobotics/unitree_mujoco",
+   "https://shop.unitree.com/products/unitree-r1"
   ],
   "summary": "Unitree's lightweight companion humanoid: 123 cm and about 29 kg with 26 DoF, a 2-DoF waist and head, and a multimodal voice and image model.",
   "verification": "official",
@@ -5220,6 +5299,24 @@
     "name": "unitree_ros",
     "url": "https://github.com/unitreerobotics/unitree_ros",
     "license": "BSD-3-Clause"
+   }
+  ],
+  "price_observations": [
+   {
+    "date": "2026-11-17",
+    "amount": 5900,
+    "currency": "USD",
+    "kind": "list",
+    "source": "https://shop.unitree.com/products/unitree-r1",
+    "note": "R1; R1 Air US$4,900 on the same page"
+   },
+   {
+    "date": "2026-11-17",
+    "amount": 10500,
+    "currency": "USD",
+    "kind": "edu",
+    "source": "https://shop.unitree.com/products/unitree-r1",
+    "note": "R1 EDU"
    }
   ]
  },
@@ -6901,8 +6998,8 @@
    "6-axis IMU",
    "Head touch sensor"
   ],
-  "price_usd": 37990,
-  "price_note": "Master Classic Edu MSRP on shop.ff.com; Ultra $64,990",
+  "price_usd": null,
+  "price_note": null,
   "official_url": "https://robotics.ff.com/us/ff-master",
   "sources": [
    "https://robotics.ff.com/us/",
@@ -6918,7 +7015,25 @@
    "https://humanoid.guide/product/master/"
   ],
   "verification": "official",
-  "note": "Official FF store spec (Master Classic Edu): 1310 x 460 x 210 mm (H x W x L), 35 kg, 25 DoF excl. hands, max 1.8 m/s, payload max 3 kg, ~500 Wh swappable battery, 2 h runtime, <=1.5 h charge, Wi-Fi/Bluetooth, RGB camera, 6-axis IMU. Ultra variant: 39 kg / 30 DoF / Orin NX (per maker-sourced listings). Price on maker store now $37,990 (Edu) / $64,990 (Ultra); Feb 2026 launch PR said 'from $19,990 + skill package' - price changed. Bipedal."
+  "note": "Official FF store spec (Master Classic Edu): 1310 x 460 x 210 mm (H x W x L), 35 kg, 25 DoF excl. hands, max 1.8 m/s, payload max 3 kg, ~500 Wh swappable battery, 2 h runtime, <=1.5 h charge, Wi-Fi/Bluetooth, RGB camera, 6-axis IMU. Ultra variant: 39 kg / 30 DoF / Orin NX (per maker-sourced listings). Price on maker store now $37,990 (Edu) / $64,990 (Ultra); Feb 2026 launch PR said 'from $19,990 + skill package' - price changed. Bipedal.",
+  "price_observations": [
+   {
+    "date": "2026-11-17",
+    "amount": 37990,
+    "currency": "USD",
+    "kind": "edu",
+    "source": "https://shop.ff.com/products/master",
+    "note": "Master Classic Edu"
+   },
+   {
+    "date": "2026-11-17",
+    "amount": 64990,
+    "currency": "USD",
+    "kind": "list",
+    "source": "https://shop.ff.com/products/master",
+    "note": "Master Classic Ultra"
+   }
+  ]
  },
  {
   "id": "galaxea-kengo",
@@ -7588,8 +7703,8 @@
    "Shoulder touch sensors",
    "8-mic array"
   ],
-  "price_usd": 89900,
-  "price_note": "MSRP, standard All-New Futurist (Ultra $129,900)",
+  "price_usd": null,
+  "price_note": null,
   "official_url": "https://robotics.ff.com/us/futurist/",
   "sources": [
    "https://shop.ff.com/products/ff-all-new-futurist",
@@ -7608,7 +7723,25 @@
    "https://humanoid.guide/product/futurist/"
   ],
   "verification": "official",
-  "note": "Robotics page is JS-rendered; values from FF shop, FF user manual and FF investor press release. Height ~174 cm (CN official page) / '68 in' / '5 ft 8 in'. Ultra trim: 51 DoF, ~58 kg, Jetson Thor (700 TOPS), $129,900. A third-party site (dreamingofrobots) claims it is a rebadged AgiBot A3 — unconfirmed, not from maker."
+  "note": "Robotics page is JS-rendered; values from FF shop, FF user manual and FF investor press release. Height ~174 cm (CN official page) / '68 in' / '5 ft 8 in'. Ultra trim: 51 DoF, ~58 kg, Jetson Thor (700 TOPS), $129,900. A third-party site (dreamingofrobots) claims it is a rebadged AgiBot A3 — unconfirmed, not from maker.",
+  "price_observations": [
+   {
+    "date": "2026-11-17",
+    "amount": 89900,
+    "currency": "USD",
+    "kind": "list",
+    "source": "https://shop.ff.com/products/ff-all-new-futurist",
+    "note": "All-New Futurist"
+   },
+   {
+    "date": "2026-11-17",
+    "amount": 129900,
+    "currency": "USD",
+    "kind": "list",
+    "source": "https://shop.ff.com/products/ff-all-new-futurist",
+    "note": "All-New Futurist Ultra"
+   }
+  ]
  },
  {
   "id": "leju-kuavo-4-pro",

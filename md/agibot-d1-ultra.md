@@ -31,6 +31,7 @@ The full spec sheet for this robot is still being researched; the catalog core f
 ## Sources
 
 - Official page: [agibot.com](https://www.agibot.com/products/D1Ultra)
+- [store.agibot.com](https://store.agibot.com/products/d1-ultra)
 
 Listed by these directories (discovery only, never used as a spec source):
 

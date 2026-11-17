@@ -18,7 +18,7 @@
 | Degrees of freedom | 20 |
 | Runtime | 2.5 h |
 | Status | Pre-order |
-| Price | US$2,490 (US$2,490 robot device; US$390 developer skills package) |
+| Price | US$2,490 robot device; US$390 developer skills package |
 | SDK | yes |
 | SDK name | FF Nova open SDK with ROS 2 workflow and Sim2Real RL pipeline |
 | ROS | yes |
@@ -89,6 +89,8 @@ Maker pages (robotics.ff.com/us/nova and the 14 Oct 2026 launch page): 49.7 cm, 
 
 - Official page: [robotics.ff.com](https://robotics.ff.com/us/nova/)
 - [ff.com](https://www.ff.com/us/1014launch/)
+- [humanoidstore.co](https://humanoidstore.co/robots/faraday-future-nova)
+- [shop.ff.com](https://shop.ff.com/products/ff-nova)
 
 ---
 

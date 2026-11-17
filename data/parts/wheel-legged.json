@@ -332,16 +332,37 @@
    "IMU",
    "RGBD camera (optional)"
   ],
-  "price_usd": 15000,
-  "price_note": "Standard Edition on LimX online shop (EDU Ed. $25,000)",
+  "price_usd": null,
+  "price_note": null,
   "official_url": "https://www.limxdynamics.com/en/products/tron1/spec",
   "sources": [
    "https://www.limxdynamics.com/en/products/tron1/spec",
-   "https://www.limxdynamics.com/en/products/tron1"
+   "https://www.limxdynamics.com/en/products/tron1",
+   "https://www.limxdynamics.com/en/tron1",
+   "https://shop.limxdynamics.com/products/point-foot-pipedal-robot-for-reserach",
+   "https://shop.limxdynamics.com/products/tron-1-edu"
   ],
   "summary": "Multi-modal biped research robot with swappable point-foot, sole and wheeled feet for RL and embodied-AI research; ≤3 m/s in wheeled mode, open SDK with Isaac/MuJoCo/Gazebo support.",
   "note": "LimX TRON 1 spec page (checked 2026-11-17): dimensions <=392 x 420 x 845 mm, net weight <=20 kg, payload 10 kg, speed 1 m/s point-foot / 1 m/s sole / 3 m/s wheeled, 30 deg climb, 20 cm obstacle, 2 h battery life, 4.5 Ah at 46.8 V (about 210.6 Wh, derived - the maker gives no Wh figure), 12th-gen Intel i3 / 16 GB / 512 GB computer, -5 to 40 C, RGBD camera optional, IMU standard. Degrees of freedom are not stated.",
-  "verification": "official"
+  "verification": "official",
+  "price_observations": [
+   {
+    "date": "2026-11-17",
+    "amount": 15000,
+    "currency": "USD",
+    "kind": "list",
+    "source": "https://shop.limxdynamics.com/products/point-foot-pipedal-robot-for-reserach",
+    "note": "TRON 1 Standard Edition"
+   },
+   {
+    "date": "2026-11-17",
+    "amount": 25000,
+    "currency": "USD",
+    "kind": "edu",
+    "source": "https://shop.limxdynamics.com/products/tron-1-edu",
+    "note": "TRON 1 Educational Edition"
+   }
+  ]
  },
  {
   "id": "direct-drive-tech-diablo",
@@ -954,7 +975,7 @@
    "Ultrasonic radar",
    "RTK"
   ],
-  "price_usd": 74990,
+  "price_usd": null,
   "price_note": null,
   "official_url": "http://robotics.ff.com/us/fx-aegis-mega/",
   "sources": [
@@ -970,7 +991,17 @@
    "https://data.robo2u.com/robots/faraday-future-fx-aegis-mega"
   ],
   "verification": "official",
-  "note": "8 m/s is Mega A lab top speed (Mega D 5 m/s; recommended working speed 2 m/s). Dimensions/weight/payload converted from shop's 36.6x18.9x23 in, 90 lb, 55 lb rated; Forbes' 50 kg payload doesn't match the maker. 16 DOF = 12 joints + 4 hub motors."
+  "note": "8 m/s is Mega A lab top speed (Mega D 5 m/s; recommended working speed 2 m/s). Dimensions/weight/payload converted from shop's 36.6x18.9x23 in, 90 lb, 55 lb rated; Forbes' 50 kg payload doesn't match the maker. 16 DOF = 12 joints + 4 hub motors.",
+  "price_observations": [
+   {
+    "date": "2026-11-17",
+    "amount": 74990,
+    "currency": "USD",
+    "kind": "list",
+    "source": "https://shop.ff.com/products/fx-aegis-mega",
+    "note": "Aegis Mega A and Mega D are the same price"
+   }
+  ]
  },
  {
   "id": "daxai-qiji-xs",

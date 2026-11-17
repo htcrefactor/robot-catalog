@@ -24,7 +24,6 @@
 | IP rating | IP67 |
 | Released | 2026 |
 | Status | Commercial |
-| Price | US$74,990 |
 | On-board compute | yes |
 | Sensors | Dual 96-line 3D LiDAR, Optical cameras, Ultrasonic radar, RTK |
 

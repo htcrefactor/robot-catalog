@@ -21,7 +21,6 @@
 | Degrees of freedom | 12 |
 | Runtime | 1 h |
 | Status | Commercial |
-| Price | US$1,600 (tax and freight excluded) |
 | SDK | no |
 | Sensors | 4D LiDAR L2, HD wide-angle camera |
 
@@ -187,6 +186,7 @@ Unitree Go2 page comparison table (AIR column, checked 2026-11-17): standing 70 
 - [github.com](https://github.com/unitreerobotics/unitree_ros/blob/master/robots/go2_description/urdf/go2_description.urdf)
 - [github.com](https://github.com/unitreerobotics/unitree_mujoco)
 - [github.com](https://github.com/unitreerobotics/unitree_ros)
+- [shop.unitree.com](https://shop.unitree.com/products/unitree-go2)
 
 ---
 

@@ -24,7 +24,6 @@
 | IP rating | IP67 |
 | Released | 2026 |
 | Status | Commercial |
-| Price | US$137,900 |
 | SDK | yes |
 | Sensors | LiDAR x4, RGB-D camera, Thermal camera, Wide-angle camera, RTK |
 

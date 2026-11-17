@@ -22,7 +22,6 @@
 | Runtime | 2 h |
 | IP rating | IP32 |
 | Status | Commercial |
-| Price | US$2,990 (Aegis Classic - Pro sale price (list $4,490); Pro Edu $9,990; Ultra/Ultra W $12,990) |
 | API | yes |
 | SDK | yes |
 | On-board compute | yes |
@@ -46,6 +45,7 @@ Page lists four FX Aegis Classic trims; values here are the base 'Aegis Classic 
 ## Sources
 
 - Official page: [robotics.ff.com](https://robotics.ff.com/us/fx-aegis/)
+- [shop.ff.com](https://shop.ff.com/products/aegis)
 
 Listed by these directories (discovery only, never used as a spec source):
 

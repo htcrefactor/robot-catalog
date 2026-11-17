@@ -21,7 +21,7 @@
 | Runtime | 1 h |
 | Released | 2025 |
 | Status | Commercial |
-| Price | US$5,900 (R1 US$5,900; R1 AIR US$4,900 (tax and shipping excluded)) |
+| Price | R1 US$5,900; R1 AIR US$4,900 (tax and shipping excluded) |
 | API | yes |
 | SDK | yes |
 | SDK name | unitree_sdk2 |
@@ -130,6 +130,7 @@ Maker figures: 1230 x 357 x 190 mm, about 29 kg for R1 (about 25 kg for R1 AIR o
 - [github.com](https://github.com/unitreerobotics/unitree_ros)
 - [github.com](https://github.com/unitreerobotics/unitree_ros2)
 - [github.com](https://github.com/unitreerobotics/unitree_mujoco)
+- [shop.unitree.com](https://shop.unitree.com/products/unitree-r1)
 
 ---
 

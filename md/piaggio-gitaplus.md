@@ -21,7 +21,6 @@
 | Wheels | 2 |
 | Runtime | 5 h |
 | Status | Commercial |
-| Price | US$2,475 (list price on official shop) |
 | Sensors | Cameras, Sensors array (leader following) |
 
 Fields the maker does not publish are left out here — the catalog never fills a value by guess. Prices are list or starting prices where the maker states one.
@@ -37,6 +36,7 @@ Dimensions 25×22×25.8 in; capacity 40 lb; weight 50 lb; top speed 6 mph; runti
 ## Sources
 
 - Official page: [piaggiofastforward.com](https://piaggiofastforward.com/shop/gitaplus)
+- [shop.piaggiofastforward.com](https://shop.piaggiofastforward.com/)
 
 Listed by these directories (discovery only, never used as a spec source):
 

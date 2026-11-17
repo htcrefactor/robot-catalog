@@ -182,6 +182,7 @@ Maker figures: about 180 cm, about 47 kg, (1520+285) x 570 x 220 mm, 5 DoF per l
 - [github.com](https://github.com/unitreerobotics/unitree_sdk2_python)
 - [github.com](https://github.com/unitreerobotics/unitree_ros)
 - [github.com](https://github.com/unitreerobotics/unitree_mujoco)
+- [shop.unitree.com](https://shop.unitree.com/products/unitree-h1)
 
 ---
 

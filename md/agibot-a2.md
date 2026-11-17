@@ -120,6 +120,8 @@ Fields the maker does not publish are left out here — the catalog never fills 
 ## Sources
 
 - Official page: [agibot.com.cn](https://www.agibot.com.cn/products/A2_Ultra)
+- [humanoidstore.co](https://humanoidstore.co/robots/agibot-a2)
+- [store.agibot.com](https://store.agibot.com/products/a2-lite)
 
 ---
 

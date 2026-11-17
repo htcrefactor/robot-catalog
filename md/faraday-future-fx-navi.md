@@ -18,7 +18,6 @@
 | Runtime | 2 h |
 | Released | 2026 |
 | Status | Commercial |
-| Price | US$1,990 |
 | SDK | yes |
 | Sensors | Paired smartphone camera/microphone |
 

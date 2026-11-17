@@ -21,7 +21,6 @@
 | Degrees of freedom | 12 |
 | Runtime | 1 h |
 | Status | Commercial |
-| Price | US$3,200 (D1 Pro $3,200; D1 Edu $6,080 (official store)) |
 | SDK | yes |
 | Compute | High-performance 8-core CPU |
 | Sensors | Camera (DFOV 122°) |
@@ -39,6 +38,7 @@ D1 Pro and D1 Edu are two SKUs on one official page: Pro $3,200 (no SDK), Edu $6
 ## Sources
 
 - Official page: [store.agibot.com](https://store.agibot.com/products/d1-pro)
+- [store.agibot.com](https://store.agibot.com/products/d1-edu)
 
 Listed by these directories (discovery only, never used as a spec source):
 

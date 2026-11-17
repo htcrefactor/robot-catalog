@@ -22,7 +22,6 @@
 | Runtime | 2 h |
 | Released | 2024 |
 | Status | Commercial |
-| Price | US$15,000 (Standard Edition on LimX online shop (EDU Ed. $25,000)) |
 | SDK | yes |
 | On-board compute | yes |
 | Compute | 12th Gen Intel Core i3 / 16GB / 512GB |
@@ -179,6 +178,9 @@ LimX TRON 1 spec page (checked 2026-11-17): dimensions <=392 x 420 x 845 mm, net
 
 - Official page: [limxdynamics.com](https://www.limxdynamics.com/en/products/tron1/spec)
 - [limxdynamics.com](https://www.limxdynamics.com/en/products/tron1)
+- [limxdynamics.com](https://www.limxdynamics.com/en/tron1)
+- [shop.limxdynamics.com](https://shop.limxdynamics.com/products/point-foot-pipedal-robot-for-reserach)
+- [shop.limxdynamics.com](https://shop.limxdynamics.com/products/tron-1-edu)
 
 ---
 

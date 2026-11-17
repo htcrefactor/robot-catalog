@@ -20,7 +20,6 @@
 | Battery | 1,152 Wh |
 | Released | 2026 |
 | Status | Commercial |
-| Price | US$89,900 (MSRP, standard All-New Futurist (Ultra $129,900)) |
 | API | yes |
 | SDK | yes |
 | On-board compute | yes |

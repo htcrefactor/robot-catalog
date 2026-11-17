@@ -14,7 +14,6 @@
 |---|---|
 | Runtime | 12 h |
 | Status | Commercial |
-| Price | RaaS from US$2,190/robot/month (min. 15 robots) |
 | Sensors | 3D vision cameras, SLAM navigation sensors |
 
 Fields the maker does not publish are left out here — the catalog never fills a value by guess. Prices are list or starting prices where the maker states one.
@@ -30,6 +29,7 @@ Wheeled mobile manipulator (AMR with in-aisle robotic picking arm) - current gen
 ## Sources
 
 - Official page: [brightpick.ai](https://brightpick.ai/autopicker/)
+- [brightpick.ai](https://www.brightpick.ai/pricing)
 
 Listed by these directories (discovery only, never used as a spec source):
 

@@ -19,7 +19,7 @@
 | Degrees of freedom | 17 |
 | Runtime | 0.83 h |
 | Status | Commercial |
-| Price | US$299 (US$299 MSRP) |
+| Price | US$299 MSRP |
 | SDK | no |
 | Sensors | Gyroscope, Microphone |
 
@@ -85,6 +85,7 @@ Maker shop listing and quick-start guide: 349 x 176 x 99 mm, 0.94 kg, 17 servo j
 
 - Official page: [shop.ff.com](https://shop.ff.com/products/ff-nova-mini)
 - [robotics.ff.com](https://robotics.ff.com/us/nova-mini-hello/)
+- [humanoidstore.co](https://humanoidstore.co/robots/faraday-future-nova-mini)
 
 ---
 

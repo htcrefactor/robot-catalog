@@ -21,7 +21,6 @@
 | Degrees of freedom | 12 |
 | Runtime | 1 h |
 | Status | Commercial |
-| Price | US$2,800 (tax and freight excluded) |
 | SDK | no |
 | Compute | 8-core high-performance CPU |
 | Sensors | 4D LiDAR L2, HD wide-angle camera, Wireless vector positioning module |
@@ -190,6 +189,7 @@ Unitree Go2 page comparison table (PRO column, checked 2026-11-17): 70 x 31 x 40
 - [github.com](https://github.com/unitreerobotics/unitree_ros/blob/master/robots/go2_description/urdf/go2_description.urdf)
 - [github.com](https://github.com/unitreerobotics/unitree_mujoco)
 - [github.com](https://github.com/unitreerobotics/unitree_ros)
+- [shop.unitree.com](https://shop.unitree.com/products/unitree-go2)
 
 ---
 

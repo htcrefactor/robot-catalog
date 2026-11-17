@@ -2060,10 +2060,11 @@
    "SLAM navigation sensors"
   ],
   "price_usd": null,
-  "price_note": "RaaS from US$2,190/robot/month (min. 15 robots)",
+  "price_note": null,
   "official_url": "https://brightpick.ai/autopicker/",
   "sources": [
-   "https://brightpick.ai/autopicker/"
+   "https://brightpick.ai/autopicker/",
+   "https://www.brightpick.ai/pricing"
   ],
   "summary": "Multi-purpose warehouse mobile manipulator that robotically picks items in the aisles and also handles goods-to-person, replenishment, buffering and sortation.",
   "image_url": null,
@@ -2073,7 +2074,17 @@
    "https://data.robo2u.com/robots/brightpick-autopicker"
   ],
   "verification": "official",
-  "note": "Wheeled mobile manipulator (AMR with in-aisle robotic picking arm) - current generation is Autopicker 2.0 (launched June 2025: +20% travel speed, 2x battery). Maker page: up to 12 h battery life, 1 h charge per 6 h work, SLAM + 3D vision navigation (no QR codes), 8 totes presented at G2P stations. FAQ: robotic picks up to 2.5 kg per item (not robot payload - payload left out). Price: RaaS from US$2,190 per robot per month (not a purchase price; price_usd left out). Company is Brightpick s.r.o. (Slovakia) / Brightpick Inc. (US; footer Austin TX) - country set United States with Slovak origin noted. Speed 1.2 m/s and 30 kg payload on aggregators are not maker-confirmed - not filled."
+  "note": "Wheeled mobile manipulator (AMR with in-aisle robotic picking arm) - current generation is Autopicker 2.0 (launched June 2025: +20% travel speed, 2x battery). Maker page: up to 12 h battery life, 1 h charge per 6 h work, SLAM + 3D vision navigation (no QR codes), 8 totes presented at G2P stations. FAQ: robotic picks up to 2.5 kg per item (not robot payload - payload left out). Price: RaaS from US$2,190 per robot per month (not a purchase price; price_usd left out). Company is Brightpick s.r.o. (Slovakia) / Brightpick Inc. (US; footer Austin TX) - country set United States with Slovak origin noted. Speed 1.2 m/s and 30 kg payload on aggregators are not maker-confirmed - not filled.",
+  "price_observations": [
+   {
+    "date": "2026-11-17",
+    "amount": 2190,
+    "currency": "USD",
+    "kind": "rental",
+    "source": "https://www.brightpick.ai/pricing",
+    "note": "Robots-as-a-Service: per robot per month, minimum 15 robots per installation, 3-year term"
+   }
+  ]
  },
  {
   "id": "addverb-zippy",

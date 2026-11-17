@@ -20,7 +20,6 @@
 | Max speed | 2.68 m/s (9.6 km/h) |
 | Runtime | 7 h |
 | Status | Commercial |
-| Price | US$2,475 |
 | Sensors | Cameras, Radar |
 
 Fields the maker does not publish are left out here — the catalog never fills a value by guess. Prices are list or starting prices where the maker states one.
@@ -38,6 +37,7 @@ PFF knowledge base spec: 17.9 x 16.5 x 18.9 in (LxWxH -> 455x419x480 mm), 28 lb 
 - Official page: [piaggiofastforward.com](https://piaggiofastforward.com/shop/gitamini)
 - [knowledge.mygita.com](https://knowledge.mygita.com/gitamini-physical-overview)
 - [piaggiofastforward.com](https://piaggiofastforward.com/blog/choose-your-robot-gitaplus-vs-gitamini)
+- [shop.piaggiofastforward.com](https://shop.piaggiofastforward.com/)
 
 Listed by these directories (discovery only, never used as a spec source):
 

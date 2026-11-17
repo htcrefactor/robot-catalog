@@ -17,7 +17,6 @@
 | Max speed | 3.7 m/s (13.3 km/h) |
 | Degrees of freedom | 12 |
 | Status | Commercial |
-| Price | US$2,700 (Go1 Air $2,700; Go1 Pro $3,500 (tax/freight excluded); Edu by quote) |
 | SDK | yes |
 | On-board compute | yes |
 | Compute | 16-core CPU + GPU (384 cores, 1.5 TFLOPS); Edu: Jetson Nano/NX |
@@ -39,6 +38,7 @@ Three versions: Air ($2,700, 0–2.5 m/s), Pro ($3,500, 0–3.5 m/s), Edu (conta
 - [github.com](https://github.com/unitreerobotics/unitree_legged_sdk)
 - [github.com](https://github.com/unitreerobotics/unitree_ros/blob/master/robots/go1_description/urdf/go1.urdf)
 - [github.com](https://github.com/unitreerobotics/unitree_ros)
+- [shop.unitree.com](https://shop.unitree.com/products/unitreeyushutechnologydog-artificial-intelligence-companion-bionic-companion-intelligent-robot-go1-quadruped-robot-dog)
 
 Listed by these directories (discovery only, never used as a spec source):
 

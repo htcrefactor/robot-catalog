@@ -20,7 +20,7 @@
 | Degrees of freedom | 31 |
 | Released | 2025 |
 | Status | Commercial |
-| Price | US$29,900 (US$29,900 for H2 (tax and shipping excluded); H2 EDU by quote) |
+| Price | US$29,900 for H2 (tax and shipping excluded); H2 EDU by quote |
 | API | yes |
 | SDK | yes |
 | SDK name | unitree_sdk2 |
@@ -253,6 +253,7 @@ Maker figures: 1820 x 456 x 218 mm, about 70 kg, 31 DoF (6 per leg, 7 per arm, 3
 - [github.com](https://github.com/unitreerobotics/unitree_ros)
 - [github.com](https://github.com/unitreerobotics/unitree_ros2)
 - [github.com](https://github.com/unitreerobotics/unitree_mujoco)
+- [shop.unitree.com](https://shop.unitree.com/products/unitree-h2)
 
 ---
 

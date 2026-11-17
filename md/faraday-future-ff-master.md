@@ -23,7 +23,6 @@
 | Battery | 500 Wh |
 | Released | 2026 |
 | Status | Commercial |
-| Price | US$37,990 (Master Classic Edu MSRP on shop.ff.com; Ultra $64,990) |
 | Sensors | RGB camera, 6-axis IMU, Head touch sensor |
 
 Fields the maker does not publish are left out here — the catalog never fills a value by guess. Prices are list or starting prices where the maker states one.
