@@ -1,0 +1,21 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><link rel="stylesheet" href="assets/style.css"><script src="assets/i18n.js"></script><script src="assets/specs-i18n.js"></script><script src="assets/app.js"></script><title>Changelog — Robot Catalog</title></head>
+<body><script>nav("changelog.html")</script>
+<main>
+<h1 data-i18n="changelog_title"></h1><p class="muted" data-i18n="changelog_sub"></p>
+<div id="log"><p class="muted">…</p></div>
+</main><div id="foot"></div>
+<script>
+document.title=t("changelog_title")+" — "+t("brand");
+(async()=>{const d=await loadData();document.getElementById("foot").innerHTML=footer(d.meta);
+let log=[];try{const res=await fetch("data/CHANGELOG.json",{cache:"no-cache"});if(res.ok)log=await res.json();}catch(e){}
+const R=Object.fromEntries(d.robots.map(r=>[r.id,r]));const MAX=30;
+const name=id=>R[id]?`<a href="robot.html?id=${encodeURIComponent(id)}">${esc(R[id].manufacturer)} ${esc(R[id].name)}</a>`:`<span class="muted">${esc(id)}</span>`;
+const fl=f=>esc(FIELD_LABEL[f]?t(FIELD_LABEL[f]):f);
+const list=(cls,key,ids,e)=>ids&&ids.length?`<div class="clgrp"><h3><span class="badge ${cls}">${t(key)}</span> <span class="muted small">${ids.length}</span></h3><ul class="small cl">${ids.map((id,i)=>`<li${i>=MAX?' class="hide"':""}>${name(id)}${key==="cl_updated"&&e.changed_fields&&e.changed_fields[id]?` <span class="muted">— ${e.changed_fields[id].map(fl).join(", ")}</span>`:""}</li>`).join("")}</ul>${ids.length>MAX?`<button class="btn more">${t("show_all",{n:ids.length})}</button>`:""}</div>`:"";
+const el=document.getElementById("log");
+el.innerHTML=log.length?[...log].reverse().map(e=>`<div class="panel"><h2>v${esc(e.version)} <span class="muted small">${esc(e.date||"")}</span></h2>${e.notes?`<p class="small">${esc(e.notes)}</p>`:""}
+${list("yes","cl_added",e.added,e)}${list("unk","cl_updated",e.updated,e)}${list("no","cl_removed",e.removed,e)}
+${!(e.added||[]).length&&!(e.updated||[]).length&&!(e.removed||[]).length?`<p class="small muted">${t("cl_nochange")}</p>`:""}</div>`).join(""):`<p class="muted">${t("cl_none")}</p>`;
+el.addEventListener("click",ev=>{const b=ev.target.closest("button.more");if(!b)return;b.previousElementSibling.querySelectorAll("li.hide").forEach(li=>li.classList.remove("hide"));b.remove();});
+})();
+</script></body></html>
