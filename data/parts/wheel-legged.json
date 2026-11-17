@@ -34,7 +34,9 @@
   "sources": [
    "https://www.unitree.com/b2-w"
   ],
-  "summary": "Industrial wheel-legged quadruped (B2 with wheeled feet) for long-range inspection and patrol; >40 kg walking load (120 kg standing), 15 km/h max in special configuration, ~25 km range with 40 kg."
+  "summary": "Industrial wheel-legged quadruped (B2 with wheeled feet) for long-range inspection and patrol; >40 kg walking load (120 kg standing), 15 km/h max in special configuration, ~25 km range with 40 kg.",
+  "verification": "official",
+  "note": "Unitree B2-W page (checked 2026-11-17): standing about 1098 x 550 x 758 mm, about 85 kg with battery, wheel diameter 225 mm, battery >2 kWh at 58 V (no Wh figure), max speed 15 km/h (4.17 m/s, special configurations), 25 km with 40 kg / about 30 km unloaded, walking load >40 kg and standing load 120 kg, IP67, -20 to 55 C. No runtime in hours and no DoF are published; battery_wh and runtime_h stay empty."
  },
  {
   "id": "unitree-go2-w",
@@ -74,7 +76,9 @@
   "sources": [
    "https://www.unitree.com/go2-w"
   ],
-  "summary": "Consumer/education wheel-legged version of Go2 with 7-inch pneumatic in-wheel-motor tyres; runtime stated 1.5–3 h (lower bound recorded), payload ≈8 kg (max ~12 kg)."
+  "summary": "Consumer/education wheel-legged version of Go2 with 7-inch pneumatic in-wheel-motor tyres; runtime stated 1.5–3 h (lower bound recorded), payload ≈8 kg (max ~12 kg).",
+  "verification": "official",
+  "note": "Unitree Go2-W page (checked 2026-11-17): 70 x 43 x 50 cm, about 18 kg, 16 joint motors, payload about 8 kg (max ~12 kg), 0-2.5 m/s, 35 deg climb, 15000 mAh battery with 1.5-3 h endurance (1.5 h recorded is the lower bound), 7-inch pneumatic tyres (178 mm)."
  },
  {
   "id": "unitree-a2-w",
@@ -115,7 +119,9 @@
   "sources": [
    "https://www.unitree.com/A2-W"
   ],
-  "summary": "Industrial wheel-legged quadruped for inspection, park logistics and rescue with hot-swappable dual batteries; 0–3 m/s normal, up to ~6 m/s; Pro variant adds a second LiDAR and IP56–IP67."
+  "summary": "Industrial wheel-legged quadruped for inspection, park logistics and rescue with hot-swappable dual batteries; 0–3 m/s normal, up to ~6 m/s; Pro variant adds a second LiDAR and IP56–IP67.",
+  "verification": "official",
+  "note": "Unitree A2-W page (checked 2026-11-17): standing 900 x 440 x 625 mm, 52 kg with battery (45 kg without), tyre 190 mm diameter, 16 joint motors, single 9000 mAh (453.6 Wh) / dual (907.2 Wh) battery, 0-3 m/s up to ~6 m/s, battery life >3.5 h unloaded and >1.5 h with 25 kg, 25 kg walking load, IP56 (A2-W Pro IP56-IP67)."
  },
  {
   "id": "unitree-as2-w",
@@ -157,7 +163,9 @@
   "sources": [
    "https://www.unitree.com/As2-W"
   ],
-  "summary": "Compact wheel-legged quadruped with 7-inch wheels, side-follow mode and SDK/APIs for security, inspection and outdoor carrying; 0–3.7 m/s normal, ~6 m/s max."
+  "summary": "Compact wheel-legged quadruped with 7-inch wheels, side-follow mode and SDK/APIs for security, inspection and outdoor carrying; 0–3.7 m/s normal, ~6 m/s max.",
+  "verification": "official",
+  "note": "Unitree As2-W page (checked 2026-11-17): 721 x 493 x 521 mm, about 25 kg with battery, 7-inch wheels (178 mm), 16 joint motors, 95 N.m peak joint torque, 648 Wh (15000 mAh) battery, 0-3.7 m/s (max ~6 m/s), about 3 h unloaded / >2 h with 16 kg, IP54, 64-128-line LiDAR, 36-50.4 V supply. The 150 TOPS figure in the summary is the optional expansion module, not standard compute."
  },
  {
   "id": "deep-robotics-lynx-m20",
@@ -198,7 +206,9 @@
    "https://www.deeprobotics.us/products/lynx-m20",
    "https://www.deeprobotics.us/wp-content/uploads/2025/08/Lynx-M20-Pro-User-Manual-V1.0.2-0.pdf"
   ],
-  "summary": "Industrial wheel-legged quadruped for power inspection, emergency response and field work; 5 m/s lab-tested max (2 m/s operating), 80 cm single step, hot-swap batteries; M20 Pro manual lists 35 kg."
+  "summary": "Industrial wheel-legged quadruped for power inspection, emergency response and field work; 5 m/s lab-tested max (2 m/s operating), 80 cm single step, hot-swap batteries; M20 Pro manual lists 35 kg.",
+  "verification": "official",
+  "note": "DEEP Robotics Lynx M20 product page (checked 2026-11-17): standing 820 x 430 x 570 mm, 33 kg with battery, payload 15 kg (maximum load 50 kg), 3 h / 15 km unloaded and 2.5 h / 12 km at 15 kg, 5 m/s lab-tested with 2 m/s safe operational speed, 25 cm continuous stair height, 80 cm single step, 45 deg slope, dual 96-line LiDAR and dual wide-angle cameras, dual octa-core processors, IP66, -20 to 55 C, 72 V input, 1.5 h single-battery charge. DoF (16) comes from the M20 Pro user manual, not the product page; battery capacity is not published."
  },
  {
   "id": "limx-dynamics-tron-1",
@@ -234,12 +244,14 @@
   ],
   "price_usd": 15000,
   "price_note": "Standard Edition on LimX online shop (EDU Ed. $25,000)",
-  "official_url": "https://www.limxdynamics.com/en/products/tron1",
+  "official_url": "https://www.limxdynamics.com/en/products/tron1/spec",
   "sources": [
    "https://www.limxdynamics.com/en/products/tron1/spec",
-   "https://www.limxdynamics.com/en/tron1"
+   "https://www.limxdynamics.com/en/products/tron1"
   ],
-  "summary": "Multi-modal biped research robot with swappable point-foot, sole and wheeled feet for RL and embodied-AI research; ≤3 m/s in wheeled mode, open SDK with Isaac/MuJoCo/Gazebo support."
+  "summary": "Multi-modal biped research robot with swappable point-foot, sole and wheeled feet for RL and embodied-AI research; ≤3 m/s in wheeled mode, open SDK with Isaac/MuJoCo/Gazebo support.",
+  "verification": "official",
+  "note": "LimX TRON 1 spec page (checked 2026-11-17): dimensions <=392 x 420 x 845 mm, net weight <=20 kg, payload 10 kg, speed 1 m/s point-foot / 1 m/s sole / 3 m/s wheeled, 30 deg climb, 20 cm obstacle, 2 h battery life, 4.5 Ah at 46.8 V (about 210.6 Wh, derived - the maker gives no Wh figure), 12th-gen Intel i3 / 16 GB / 512 GB computer, -5 to 40 C, RGBD camera optional, IMU standard. Degrees of freedom are not stated."
  },
  {
   "id": "direct-drive-tech-diablo",
@@ -276,7 +288,9 @@
   "sources": [
    "https://robotics.directdrive.com/en/products/xingtian-robot/1653337674873306"
   ],
-  "summary": "Self-balancing two-wheel-legged open development platform with six direct-drive joints; 4 kg payload standing, 80 kg in crouched mode, near-silent operation."
+  "summary": "Self-balancing two-wheel-legged open development platform with six direct-drive joints; 4 kg payload standing, 80 kg in crouched mode, near-silent operation.",
+  "verification": "official",
+  "note": "Direct Drive Technology Diablo product page (checked 2026-11-17): standing 540 x 371 x 491 mm (crouched 540 x 371 x 270 mm), 22.9 kg incl. docking mechanism, 6 DoF, battery 0.178 kWh (178 Wh), runtime about 1.5 h, charge about 1 h, payload 4 kg standing / 80 kg crouched, 2 m/s, 80 mm jump, Raspberry Pi 4 Model B, Ubuntu 20.04."
  },
  {
   "id": "ascento-guard",
@@ -320,7 +334,9 @@
    "https://www.ascento.ai/",
    "https://www.therobotreport.com/ascento-launches-nimble-guard-robot-following-a-new-4-3m-funding-round/"
   ],
-  "summary": "Two-wheeled, legged self-balancing autonomous outdoor security patrol robot sold as RaaS, with autonomous charging and 8 h+ battery (2023 launch spec: <30 kg, 4.5 h)."
+  "summary": "Two-wheeled, legged self-balancing autonomous outdoor security patrol robot sold as RaaS, with autonomous charging and 8 h+ battery (2023 launch spec: <30 kg, 4.5 h).",
+  "verification": "official",
+  "note": "Ascento's own site (checked 2026-11-17) states 8 h battery life with fast charging and 24/7 availability for Guard, sold only as Robotics-as-a-Service. The maker's September 2023 launch factsheet, as reported at launch, gave 4.5 h and a walking speed of about 1.4 m/s with a system weight under 30 kg; those figures are press-sourced and the runtime conflict is recorded here rather than resolved. Ascento publishes no product page with a full specification table, so mass, dimensions and speed stay empty."
  },
  {
   "id": "rivr-one",
@@ -358,7 +374,9 @@
    "https://www.rivr.ai/product.html",
    "https://www.rivr.ai/"
   ],
-  "summary": "Wheeled-legged doorstep-delivery robot (formerly Swiss-Mile) that rides sidewalks at up to 14 km/h and climbs stairs; carries >30 kg, >30 km range, can deploy from delivery vans."
+  "summary": "Wheeled-legged doorstep-delivery robot (formerly Swiss-Mile) that rides sidewalks at up to 14 km/h and climbs stairs; carries >30 kg, >30 km range, can deploy from delivery vans.",
+  "verification": "official",
+  "note": "RIVR's product page (checked 2026-11-17): wheeled-legged doorstep delivery robot that rides sidewalks and bike lanes, climbs stairs and opens gates; more than 30 kg payload, up to 14 km/h (3.89 m/s) when needed, over 30 km range with a 2-3 h recharge, and van-dispensed delivery mode. Mass, dimensions and battery capacity are not published."
  },
  {
   "id": "hyundai-mobed-pro",
@@ -395,11 +413,14 @@
   ],
   "price_usd": null,
   "price_note": null,
-  "official_url": "https://robotics.hyundai.com/en/",
+  "official_url": "https://www.hyundai.com/worldwide/en/newsroom/detail/0000001082",
   "sources": [
-   "https://www.hyundai.com/worldwide/en/newsroom/detail/0000001082"
+   "https://www.hyundai.com/worldwide/en/newsroom/detail/0000001082",
+   "https://www.hyundaimotorgroup.com/en/story/mobed-next-gen-mobility-robot-platform"
   ],
-  "summary": "Production autonomous mobility platform using eccentric Drive-and-Lift wheel modules for posture control over curbs (100–200 mm) and slopes; Ethernet API, follow-me; unveiled iREX Dec 2025 with sales scheduled H1 2026."
+  "summary": "Production autonomous mobility platform using eccentric Drive-and-Lift wheel modules for posture control over curbs (100–200 mm) and slopes; Ethernet API, follow-me; unveiled iREX Dec 2025 with sales scheduled H1 2026.",
+  "verification": "official",
+  "note": "Hyundai Motor Group press release at iREX 2025 (3 Dec 2025) specification table: Pro up to 750 x 1150 x 650 mm incl. antenna, tare weight up to 88 kg, maximum payload up to 47 kg, autonomous (Autonomous/Smart Assist) plus manual modes, up to 0.3 m/s in inward posture and up to 2.8 m/s otherwise, 1.47 kWh at 36-49.2 V, >=4 h, charge <=2 h 30 min, IP54, 0-40 C, Ethernet API. Sensor set from the HMG Journal piece: GPS, two 3D LiDARs, three cameras, eight radars and an IMU."
  },
  {
   "id": "hyundai-mobed-basic",
@@ -432,11 +453,13 @@
   "sensors": [],
   "price_usd": null,
   "price_note": null,
-  "official_url": "https://robotics.hyundai.com/en/",
+  "official_url": "https://www.hyundai.com/worldwide/en/newsroom/detail/0000001082",
   "sources": [
    "https://www.hyundai.com/worldwide/en/newsroom/detail/0000001082"
   ],
-  "summary": "R&D version of MobED without pre-installed autonomy (manual drive, RS422 API) built on the eccentric Drive-and-Lift wheel modules; sales scheduled H1 2026."
+  "summary": "R&D version of MobED without pre-installed autonomy (manual drive, RS422 API) built on the eccentric Drive-and-Lift wheel modules; sales scheduled H1 2026.",
+  "verification": "official",
+  "note": "Hyundai Motor Group press release at iREX 2025 (3 Dec 2025) specification table: Basic up to 750 x 1150 x 430 mm, tare weight up to 78 kg, maximum payload up to 57 kg, manual drive only (Basic/Freestyle/Zigzag, no autonomous mode), up to 2.8 m/s outside the inward posture, battery rated capacity 1.47 kWh at 36-49.2 V, operating time >=4 h (BMS 90->10 %), charge <=2 h 30 min, IP54, 0-40 C, RS422 API, no pre-installed autonomy. No degrees of freedom are published."
  },
  {
   "id": "deep-robotics-lynx-s10",
@@ -1264,16 +1287,19 @@
   "sensors": [],
   "price_usd": null,
   "price_note": null,
-  "official_url": null,
-  "sources": [],
-  "summary": "",
+  "official_url": "https://www.hyundai.com/au/en/news/mobility/hyundai-motor-group-unveils-tiger-uncrewed-ultimate-mobility-vehicle-concept",
+  "sources": [
+   "https://www.hyundai.com/au/en/news/mobility/hyundai-motor-group-unveils-tiger-uncrewed-ultimate-mobility-vehicle-concept"
+  ],
+  "summary": "Uncrewed transforming Ultimate Mobility Vehicle concept (TIGER X-1) with four leg-and-wheel units that drives on retracted legs and walks over terrain that stops a wheeled vehicle, built around an internal cargo bay.",
   "image_url": null,
   "image_source": null,
   "videos": [],
   "seen_on": [
    "https://embodied.guide/robots/hyundai-tiger-x-1/"
   ],
-  "verification": null
+  "verification": "official",
+  "note": "Hyundai Motor Group's TIGER press release (Feb 2021, hyundai.com) describes TIGER X-1 as the experimental first version developed by New Horizons Studio with Autodesk and Sundberg-Ferar: four leg-and-wheel units, 360-degree directional control, an internal load bay and sensors for remote observation. The maker publishes no mass, dimensions, speed, payload or battery figure for X-1, so no spec field is filled."
  },
  {
   "id": "svt-four-wheeled-robot",
@@ -1283,18 +1309,18 @@
   "category": "Wheel-legged",
   "locomotion": "Wheel-legged",
   "release_year": null,
-  "status": null,
-  "length_mm": null,
-  "width_mm": null,
-  "height_mm": null,
-  "weight_kg": null,
-  "payload_kg": null,
-  "max_speed_mps": null,
+  "status": "Commercial",
+  "length_mm": 820,
+  "width_mm": 430,
+  "height_mm": 570,
+  "weight_kg": 33,
+  "payload_kg": 20,
+  "max_speed_mps": 5,
   "min_speed_mps": null,
   "wheel_diameter_mm": null,
   "wheel_count": null,
   "dof": null,
-  "runtime_h": null,
+  "runtime_h": 3,
   "battery_wh": null,
   "ip_rating": null,
   "api_support": null,
@@ -1306,16 +1332,19 @@
   "sensors": [],
   "price_usd": null,
   "price_note": null,
-  "official_url": null,
-  "sources": [],
-  "summary": "",
+  "official_url": "https://svtrobot.com/products/quadruped-robot",
+  "sources": [
+   "https://svtrobot.com/products/quadruped-robot"
+  ],
+  "summary": "Sheet-metal industrial quadruped from SVT Robot (时空变量) for teleoperation, imitation learning and data collection, military reconnaissance and search and rescue.",
   "image_url": null,
   "image_source": null,
   "videos": [],
   "seen_on": [
    "https://embodied.guide/robots/svt-four-wheel-legged/"
   ],
-  "verification": null
+  "verification": "official",
+  "note": "SVT Robot product page (checked 2026-11-17): 820 x 430 x 570 mm, 33 kg with battery, effective payload 20-30 kg (20 kg recorded as the lower bound), 3 h / 15 km unloaded and 2.5 h / 12 km loaded, 5 m/s limit and 2 m/s working speed, 25 cm stair height, 80 cm step, 45 degree slope, dual 96-line LiDAR and wide-angle camera, dual battery pack with BMS, octa-core industrial controller, CAN/RS485/USB, 1.5 h charge per battery. The maker gives no battery capacity, DoF or IP rating."
  },
  {
   "id": "yobotics-y20-w",
@@ -1349,15 +1378,19 @@
   "price_usd": null,
   "price_note": null,
   "official_url": null,
-  "sources": [],
-  "summary": "",
+  "sources": [
+   "https://www.yobotics.cn/cpzx/szjqrxl/",
+   "https://www.yobotics.cn/xinwenzixun/41.html"
+  ],
+  "summary": "Wheel-legged version of the Yobotics Y20 announced on 18 September 2025 for all-terrain inspection work.",
   "image_url": null,
   "image_source": null,
   "videos": [],
   "seen_on": [
    "https://embodied.guide/robots/yobotics-y20-w/"
   ],
-  "verification": null
+  "verification": "unconfirmed",
+  "note": "Yobotics announced Y20-W on 18 September 2025 and lists it in the quadruped catalogue, but its parameter table is published only as a graphic on the maker's site; no text specification, datasheet or PDF was found, so no field is filled from the maker and the record stays unconfirmed. Third-party transcriptions of that graphic (e.g. 920 x 550 x 670 mm, 52 kg, IP67, 40 kg dynamic load) are not maker sources and were not used."
  },
  {
   "id": "yuejia-yj30-w",
@@ -1368,19 +1401,19 @@
   "locomotion": "Wheel-legged",
   "release_year": null,
   "status": "Commercial",
-  "length_mm": null,
-  "width_mm": null,
-  "height_mm": null,
-  "weight_kg": null,
-  "payload_kg": null,
-  "max_speed_mps": null,
+  "length_mm": 682,
+  "width_mm": 354,
+  "height_mm": 532,
+  "weight_kg": 20.0,
+  "payload_kg": 12,
+  "max_speed_mps": 5.0,
   "min_speed_mps": null,
   "wheel_diameter_mm": null,
   "wheel_count": null,
   "dof": null,
-  "runtime_h": null,
+  "runtime_h": 1.5,
   "battery_wh": null,
-  "ip_rating": null,
+  "ip_rating": "IP54",
   "api_support": null,
   "sdk_available": null,
   "sdk_name": null,
@@ -1390,8 +1423,11 @@
   "sensors": [],
   "price_usd": null,
   "price_note": null,
-  "official_url": null,
-  "sources": [],
+  "official_url": "https://www.yuejialingdong.com/yuejiasizuxilie/56.html",
+  "sources": [
+   "https://www.yuejialingdong.com/yuejiasizuxilie/56.html",
+   "https://wrc.cie.org.cn/profile/robot/download/2026/07/22/20260722102923000455_20260722102923A213.pdf"
+  ],
   "summary": "",
   "image_url": null,
   "image_source": null,
@@ -1399,6 +1435,7 @@
   "seen_on": [
    "https://embodied.guide/robots/yuejia-yj30-w/"
   ],
-  "verification": null
+  "verification": "official",
+  "note": "Yuejia Lingdong YJ30W page and brochure (checked 2026-11-17): standing 682 x 354 x 532 mm, 20 kg, payload 12 kg, 1.5-2 h (3.5-4 h with a second battery), 60 cm stair, 5 m/s, 50 deg climb, IP54. DoF is merged with climb angle in the maker table and not stated separately."
  }
 ]

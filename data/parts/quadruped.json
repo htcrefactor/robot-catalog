@@ -166,7 +166,9 @@
   "sources": [
    "https://www.unitree.com/go2"
   ],
-  "summary": "Entry consumer quadruped robot dog with 4D LiDAR for hobby and companionship use."
+  "summary": "Entry consumer quadruped robot dog with 4D LiDAR for hobby and companionship use.",
+  "verification": "official",
+  "note": "Unitree Go2 page comparison table (AIR column, checked 2026-11-17): standing 70 x 31 x 40 cm, about 15 kg, payload about 7 kg (max ~10 kg), 0-2.5 m/s, 12 joint motors, battery 8000 mAh at 28-33.6 V, battery life about 1-2 h, max climb 30 deg, $1,600 tax and freight excluded. No IP rating is given for any Go2 version and no battery Wh figure is published, so both stay empty."
  },
  {
   "id": "unitree-go2-pro",
@@ -207,7 +209,9 @@
   "sources": [
    "https://www.unitree.com/go2"
   ],
-  "summary": "Consumer quadruped with 4G, voice and side-follow features for enthusiasts."
+  "summary": "Consumer quadruped with 4G, voice and side-follow features for enthusiasts.",
+  "verification": "official",
+  "note": "Unitree Go2 page comparison table (PRO column, checked 2026-11-17): 70 x 31 x 40 cm, about 15 kg, payload about 8 kg (max ~10 kg), 0-3.5 m/s, 12 joint motors, 8000 mAh battery, 1-2 h, 4D LiDAR L2 + HD wide-angle camera + wireless vector positioning module, 8-core CPU, $2,800. IP rating and battery Wh are not published."
  },
  {
   "id": "unitree-go2-edu",
@@ -250,7 +254,9 @@
    "https://www.unitree.com/go2",
    "https://github.com/unitreerobotics/unitree_sdk2"
   ],
-  "summary": "Research and education version of Go2 with secondary-development access, foot force sensors and a long-endurance battery."
+  "summary": "Research and education version of Go2 with secondary-development access, foot force sensors and a long-endurance battery.",
+  "verification": "official",
+  "note": "Unitree Go2 page comparison table (EDU column, checked 2026-11-17): 70 x 31 x 40 cm, about 15 kg, payload about 8 kg (max ~12 kg), 0-3.7 m/s (max ~5 m/s), 12 joint motors, long-endurance 15000 mAh battery, about 2-4 h (2 h recorded is the lower bound), foot-end force sensor, depth camera, secondary development supported; optional Orin module 40-100 TOPS. Only EDU supports the full SDK and secondary development."
  },
  {
   "id": "unitree-b2",
@@ -291,7 +297,9 @@
   "sources": [
    "https://www.unitree.com/b2"
   ],
-  "summary": "Heavy industrial quadruped for power inspection, emergency rescue and logistics with 40 kg walking load."
+  "summary": "Heavy industrial quadruped for power inspection, emergency rescue and logistics with 40 kg walking load.",
+  "verification": "official",
+  "note": "Unitree B2 page (checked 2026-11-17): standing about 1098 x 450 x 645 mm, 60 kg with battery, battery 45 Ah (2250 Wh) at 58 V, 4-6 h, >6 m/s in special configurations, IP67, -20 to 55 C, standing load >=120 kg and walking load >40 kg (40 kg recorded is the walking figure). The page states no degrees of freedom."
  },
  {
   "id": "unitree-a2",
@@ -332,7 +340,9 @@
   "sources": [
    "https://www.unitree.com/A2"
   ],
-  "summary": "Mid-size industrial quadruped with hot-swappable dual batteries for inspection, logistics and rescue."
+  "summary": "Mid-size industrial quadruped with hot-swappable dual batteries for inspection, logistics and rescue.",
+  "verification": "official",
+  "note": "Unitree A2 page (checked 2026-11-17): standing 820 x 440 x 570 mm, 42 kg with battery (35 kg without), 12 joint motors, single battery 9000 mAh (453.6 Wh) and dual 18000 mAh (907.2 Wh) - the 907.2 Wh recorded is the dual-battery figure; walking load about 25 kg (ideally ~35 kg), standing load about 100 kg; battery life >5 h without load / >3 h with 25 kg (the 3 h recorded is the loaded figure); speed 0-3.7 m/s (up to ~5 m/s in special configuration); IP56 on A2, IP56-IP67 on A2 Pro. A2 Pro adds a second LiDAR and wireless-vector follow module."
  },
  {
   "id": "deep-robotics-x30-pro",
@@ -470,14 +480,14 @@
   "width_mm": 339,
   "height_mm": 481,
   "weight_kg": 8.9,
-  "payload_kg": null,
+  "payload_kg": 1,
   "max_speed_mps": 1.6,
   "min_speed_mps": null,
   "wheel_diameter_mm": null,
   "wheel_count": null,
   "dof": 12,
   "runtime_h": 1.5,
-  "battery_wh": null,
+  "battery_wh": 97.2,
   "ip_rating": null,
   "api_support": null,
   "sdk_available": null,
@@ -497,12 +507,14 @@
   ],
   "price_usd": null,
   "price_note": "CNY 12,999 at China launch (about US$1,785 per New Atlas)",
-  "official_url": "https://www.mi.com/cyberdog2",
+  "official_url": "https://www.mi.com/cyberdog2/specs",
   "sources": [
-   "https://newatlas.com/robotics/xiaomi-cyberdog-2/",
+   "https://www.mi.com/cyberdog2/specs",
    "https://agreement.cyberdog.xiaomi.com/guide.html"
   ],
-  "summary": "Small open-source bionic robot dog for developers and enthusiasts, sold in mainland China."
+  "summary": "Small open-source bionic robot dog for developers and enthusiasts, sold in mainland China.",
+  "verification": "official",
+  "note": "Xiaomi CyberDog 2 specification page (mi.com/cyberdog2/specs, read 2026-11-17): standing 562 x 339 x 481 mm (crouched 603 x 339 x 300 mm), 8.9 +/- 0.5 kg with battery, 12 DoF (3 per leg), maximum payload 1 kg, 1.6 m/s forward, about 90 min runtime (1.5 h recorded) and about 90 min charge, battery 4500 mAh / 97.2 Wh at 21.6 V, 0-40 C, Ubuntu 18.04 + ROS 2, 6-core NVIDIA Carmel CPU with 384-core Volta GPU and 8 GB RAM, YDLIDAR TG30 laser sensor plus RealSense D430 depth camera, fisheye, AI interaction camera, ToF, ultrasonic, UWB and 4-mic array."
  },
  {
   "id": "rainbow-robotics-rbq-10",
@@ -655,21 +667,23 @@
   "compute_detail": "128 TOPS AI compute",
   "ros_support": true,
   "sensors": [
-   "360° LiDAR",
-   "Stereo camera",
+   "360° 16-line LiDAR",
+   "Depth stereo camera",
    "UWB",
-   "Microphone array",
+   "4-microphone array",
    "IMU"
   ],
   "price_usd": null,
   "price_note": "CNY 22,988 list; CNY 20,988 limited offer 10–20 Nov 2026",
-  "official_url": null,
+  "official_url": "https://www.vbot.cn/Detail",
   "sources": [
-   "https://ai.42how.com/en/article/b3a58c9d-4873-4d89-a13f-ceb0801b54a9",
-   "https://www.timesauto.com/czix/202611/478920.html",
-   "https://robosignal.ai/items/vbot-dev-a-20-988-yuan-quadruped-robot-for-personal-developers-i4my8cu1t9u13aqa10fbhknvx"
+   "https://www.vbot.cn/Detail",
+   "https://www.sina.cn/weibo/detail/5363652203911245.html",
+   "https://ai.42how.com/en/article/b3a58c9d-4873-4d89-a13f-ceb0801b54a9"
   ],
-  "summary": "Developer-oriented quadruped platform with LiDAR, stereo cameras, ROS 2 and SDK, launched 10 Nov 2026 at about CNY 20,988."
+  "summary": "Developer-oriented quadruped platform with LiDAR, stereo cameras, ROS 2 and SDK, launched 10 Nov 2026 at about CNY 20,988.",
+  "verification": "official",
+  "note": "Vita Dynamics (维他动力) released the DEV Geek Edition on 10 November 2026 for CNY 22,988 (CNY 20,988 from 10 to 20 November) as a developer version of its Vbot platform, with a 360 degree 16-line LiDAR, 1080p depth stereo cameras, UWB, a four-microphone array, 128 TOPS on-device compute, ROS 2 and the open-sourced Aorta middleware. The 594 Wh battery and the sensor set are the maker's platform figures on vbot.cn/Detail; the maker publishes no separate DEV mass, dimensions, speed or runtime table, so those fields stay empty."
  },
  {
   "id": "unitree-unidoggy",
@@ -680,12 +694,12 @@
   "locomotion": "Legged",
   "release_year": 2026,
   "status": "Commercial",
-  "length_mm": null,
-  "width_mm": null,
-  "height_mm": null,
+  "length_mm": 700,
+  "width_mm": 310,
+  "height_mm": 400,
   "weight_kg": 19,
-  "payload_kg": null,
-  "max_speed_mps": 2,
+  "payload_kg": 4,
+  "max_speed_mps": 2.0,
   "min_speed_mps": null,
   "wheel_diameter_mm": null,
   "wheel_count": null,
@@ -703,12 +717,15 @@
    "Nose camera"
   ],
   "price_usd": null,
-  "price_note": "CNY 43,900",
-  "official_url": null,
+  "price_note": "CNY 43,900; 2,000 units worldwide",
+  "official_url": "https://a.unidoggie.com/market/",
   "sources": [
-   "https://www.mk.co.kr/en/world/12203626"
+   "https://a.unidoggie.com/market/",
+   "https://www.splegend.com/en/business/robot.html"
   ],
-  "summary": "Consumer IP-themed robot dog from Unitree and StarPlus Legend, unveiled at CIIE Shanghai on 9 Nov 2026."
+  "summary": "Consumer collectible robot dog developed by Unitree with Star Plus Legend, launched at CIIE in November 2026 with an OLED face, 4G app control and ISS 2.0 follow system.",
+  "verification": "official",
+  "note": "Official UNI-DOGGIE site (a.unidoggie.com/market/, checked 2026-11-17): standing about 70 x 31 x 40 cm, about 19 kg with battery, payload 4 kg normally (6 kg maximum), 0-2 m/s, 16 cm step, 40 degree slope, 28-33.6 V, 15000 mAh battery with about 2-4 h, 12 aluminium-alloy joint motors, touch sensor, OLED eyes, WiFi 6/Bluetooth/4G. Launch price CNY 43,900 in a run of 2,000 units. Star Plus Legend (splegend.com) confirms the joint development and joint venture."
  },
  {
   "id": "unitree-a1",
@@ -6058,14 +6075,14 @@
   "length_mm": null,
   "width_mm": null,
   "height_mm": null,
-  "weight_kg": null,
-  "payload_kg": null,
+  "weight_kg": 149,
+  "payload_kg": 200,
   "max_speed_mps": null,
   "min_speed_mps": null,
   "wheel_diameter_mm": null,
   "wheel_count": null,
   "dof": null,
-  "runtime_h": null,
+  "runtime_h": 1.5,
   "battery_wh": null,
   "ip_rating": null,
   "api_support": null,
@@ -6077,16 +6094,21 @@
   "sensors": [],
   "price_usd": null,
   "price_note": null,
-  "official_url": null,
-  "sources": [],
-  "summary": "",
+  "official_url": "https://sevnce.com/",
+  "sources": [
+   "https://robot.ofweek.com/2024-04/ART-8321200-8100-30630747.html",
+   "https://www.cnsoe.com.cn/gs/content_138191.html",
+   "https://sevnce.com/"
+  ],
+  "summary": "Sevnce's first-generation explosion-proof quadruped (SREX-SGZT-01), an electro-hydrostatic heavy-load inspection platform for oil, gas and chemical sites.",
   "image_url": null,
   "image_source": null,
   "videos": [],
   "seen_on": [
    "https://embodied.guide/robots/sevnce-explosion-proof-quadruped/"
   ],
-  "verification": null
+  "verification": "official",
+  "note": "Maker launch release of 2 April 2024 (published with Sevnce as its source by OFweek, and repeated in the July 2025 review of the model line): whole-machine mass 149 kg, rated payload 200 kg, continuous working time 1.5 h, Ex IIB T4 Gb explosion protection, electro-hydrostatic drive. Sevnce's current site promotes the later X3 Stable and X5 and keeps no SGZT-01 page, so no dimension, DoF, IP rating or battery figure is filled; a distributor's page (100 kg / 30 kg / 1150 x 600 x 800 mm) is not a maker source and was not used. Superseded by X3 Stable and X5."
  },
  {
   "id": "sevnce-x5",
@@ -6097,19 +6119,19 @@
   "locomotion": "Legged",
   "release_year": null,
   "status": "Commercial",
-  "length_mm": null,
-  "width_mm": null,
-  "height_mm": null,
-  "weight_kg": null,
-  "payload_kg": null,
-  "max_speed_mps": null,
+  "length_mm": 1200,
+  "width_mm": 750,
+  "height_mm": 950,
+  "weight_kg": 125,
+  "payload_kg": 30,
+  "max_speed_mps": 2.0,
   "min_speed_mps": null,
   "wheel_diameter_mm": null,
   "wheel_count": null,
-  "dof": null,
-  "runtime_h": null,
+  "dof": 16,
+  "runtime_h": 2,
   "battery_wh": null,
-  "ip_rating": null,
+  "ip_rating": "IP66",
   "api_support": null,
   "sdk_available": null,
   "sdk_name": null,
@@ -6119,8 +6141,10 @@
   "sensors": [],
   "price_usd": null,
   "price_note": null,
-  "official_url": null,
-  "sources": [],
+  "official_url": "https://sevnce.com/detail?id=72",
+  "sources": [
+   "https://sevnce.com/detail?id=72"
+  ],
   "summary": "",
   "image_url": null,
   "image_source": null,
@@ -6128,7 +6152,8 @@
   "seen_on": [
    "https://embodied.guide/robots/sevnce-x5/"
   ],
-  "verification": null
+  "verification": "official",
+  "note": "Sevnce (七腾机器人) X5 product page sevnce.com/detail?id=72 (checked 2026-11-17): all figures are stated as maxima - dimensions <=1200 x 750 x 950 mm, weight <=125 kg, payload 30 kg, straight-line speed <=2.0 m/s, 16+2 degrees of freedom, IP66, Ex IIB T4 Gb, -20 to +60 C, stairs <=20 cm high and >=25 cm deep, obstacle <=40 cm, wading <=15 cm, combined runtime >=2 h, charge <=3 h, laser SLAM + IMU with visual localisation, positioning <=5 cm. The page lists it as a wheel-leg hybrid, so the record's Quadruped category is the catalogue's own choice. Battery capacity is not published."
  },
  {
   "id": "sjtu-baby-elephant",
@@ -6139,16 +6164,16 @@
   "locomotion": "Legged",
   "release_year": null,
   "status": "Discontinued",
-  "length_mm": null,
-  "width_mm": null,
-  "height_mm": null,
-  "weight_kg": null,
-  "payload_kg": null,
+  "length_mm": 1200,
+  "width_mm": 500,
+  "height_mm": 1000,
+  "weight_kg": 130,
+  "payload_kg": 50,
   "max_speed_mps": null,
   "min_speed_mps": null,
   "wheel_diameter_mm": null,
   "wheel_count": null,
-  "dof": null,
+  "dof": 12,
   "runtime_h": null,
   "battery_wh": null,
   "ip_rating": null,
@@ -6162,15 +6187,20 @@
   "price_usd": null,
   "price_note": null,
   "official_url": null,
-  "sources": [],
-  "summary": "",
+  "sources": [
+   "https://doi.org/10.1115/detc2013-12873",
+   "https://doi.org/10.1115/1.4025754",
+   "https://doi.org/10.1177/0954406214563110"
+  ],
+  "summary": "Hydraulic quadruped with parallel-serial legs built at Shanghai Jiao Tong University as a heavy-load carrier for nuclear-plant maintenance and disaster relief.",
   "image_url": null,
   "image_source": null,
   "videos": [],
   "seen_on": [
    "https://embodied.guide/robots/sjtu-baby-elephant/"
   ],
-  "verification": null
+  "verification": "official",
+  "note": "From the Shanghai Jiao Tong University authors' own papers (ASME IDETC/CIE 2013 and the ASME Journal of Mechanisms and Robotics 2013): about 1 m tall, 1.2 m long, 0.5 m wide, about 130 kg, payload no less than 50 kg (a 2013 conference paper by the same group gives 60 kg), hydraulic actuation with three actuators per leg (12 in total, from the 2014 reaction-force paper) and a lithium battery in the belly; walks and trots outdoors by wireless remote control over 10 degree inclines. No speed, runtime or battery capacity is published."
  },
  {
   "id": "svaya-robotics-quadruped",
@@ -6204,15 +6234,19 @@
   "price_usd": null,
   "price_note": null,
   "official_url": null,
-  "sources": [],
-  "summary": "",
+  "sources": [
+   "https://svayarobotics.com/",
+   "https://www.thehindu.com/news/cities/Hyderabad/hyderabad-firm-with-drdo-labs-develops-indias-first-quadruped-robot-and-exo-skeleton/article66616035.ece"
+  ],
+  "summary": "Quadruped technology demonstrator built by Svaya Robotics with DRDO's R&DE (Pune) for reconnaissance and inspection in unstructured terrain for defence and security forces.",
   "image_url": null,
   "image_source": null,
   "videos": [],
   "seen_on": [
    "https://embodied.guide/robots/svaya-robotics-quadruped/"
   ],
-  "verification": null
+  "verification": "unconfirmed",
+  "note": "No maker product page exists. Svaya's own site (svayarobotics.com, checked 2026-11-17) presents only collaborative and humanoid robots and has no quadruped page; the robot is known from the company's March 2023 release, reported by The Hindu, that it was developed with DRDO labs R&DE and DEBEL as a technology demonstrator with design inputs from R&DE, for remote reconnaissance and inspection where it is unsafe for people to operate. No mass, dimension, speed, payload or battery figure has been published by Svaya, so every spec field stays empty."
  },
  {
   "id": "tencent-robotics-x-jamoca",
@@ -6223,10 +6257,10 @@
   "locomotion": "Legged",
   "release_year": null,
   "status": "Research",
-  "length_mm": null,
-  "width_mm": null,
-  "height_mm": null,
-  "weight_kg": null,
+  "length_mm": 1000,
+  "width_mm": 500,
+  "height_mm": 750,
+  "weight_kg": 70,
   "payload_kg": null,
   "max_speed_mps": null,
   "min_speed_mps": null,
@@ -6246,15 +6280,19 @@
   "price_usd": null,
   "price_note": null,
   "official_url": null,
-  "sources": [],
-  "summary": "",
+  "sources": [
+   "https://news.qq.com/rain/a/TEC2020112000809500",
+   "https://www.ithome.com/0/520/668.htm"
+  ],
+  "summary": "Research quadruped from Tencent Robotics X that walks Kung-Fu plum-blossom piles using its own perception, planning and 1 kHz torque control; the body is an externally supplied platform.",
   "image_url": null,
   "image_source": null,
   "videos": [],
   "seen_on": [
    "https://embodied.guide/robots/tencent-jamoca/"
   ],
-  "verification": null
+  "verification": "official",
+  "note": "Tencent's own announcement of 20 November 2020: Jamoca is built on an externally supplied body, weighs about 70 kg, is 1 m long, 0.5 m wide and 0.75 m tall, walks, trots and jumps, and localises to within 1 cm with 10 ms replanning and 1 kHz torque control. One Tencent report gives 1.5 m for the length while the same announcement's figures give 1 m; the shorter figure is recorded. Tencent publishes no speed, payload, DoF (12 is usually assumed for this body), battery or IP figure; it is used for internal lab experiments only."
  },
  {
   "id": "tokyo-tech-titan-xiii",
@@ -6265,16 +6303,16 @@
   "locomotion": "Legged",
   "release_year": null,
   "status": "Discontinued",
-  "length_mm": null,
-  "width_mm": null,
-  "height_mm": null,
-  "weight_kg": null,
-  "payload_kg": null,
-  "max_speed_mps": null,
+  "length_mm": 220,
+  "width_mm": 550,
+  "height_mm": 300,
+  "weight_kg": 5.65,
+  "payload_kg": 5,
+  "max_speed_mps": 1.38,
   "min_speed_mps": null,
   "wheel_diameter_mm": null,
   "wheel_count": null,
-  "dof": null,
+  "dof": 12,
   "runtime_h": null,
   "battery_wh": null,
   "ip_rating": null,
@@ -6288,15 +6326,20 @@
   "price_usd": null,
   "price_note": null,
   "official_url": null,
-  "sources": [],
-  "summary": "",
+  "sources": [
+   "https://link.springer.com/article/10.1186/s40648-016-0047-1",
+   "https://doi.org/10.1109/iros.2013.6697231",
+   "https://doi.org/10.1299/jsmermd.2013._1a1-p12_1"
+  ],
+  "summary": "Lightweight sprawling-type quadruped built by the Hirose/Endo laboratory at Tokyo Institute of Technology with wire-driven legs, used to demonstrate fast, energy-efficient dynamic walking.",
   "image_url": null,
   "image_source": null,
   "videos": [],
   "seen_on": [
    "https://embodied.guide/robots/tokyo-tech-titan-xiii/"
   ],
-  "verification": null
+  "verification": "official",
+  "note": "Figures are from the laboratory's own publications - ROBOMECH Journal 2016 (Kitano, Hirose, Horigome, Endo) and IROS 2013: standard posture 220 x 550 x 300 mm, 5.65 kg including the LiFePO4 battery (26.4 V, 1100 mAh), 12 DoF (3 per leg), maximum walking speed 1.38 m/s at COT 1.76, and a 5 kg walking payload (20 kg when statically supported). Published size differs between papers - 420 x 420 x 300 mm in the IROS 2013 table and 600 x 600 x 300 mm in the ROBOMECH 2013 table - and the ROBOMECH 2013 table lists 1.0 m/s and a 1 kg payload, so the 2016 journal values are recorded here. Battery Wh is not stated by the maker."
  },
  {
   "id": "topstar-xingzai",
@@ -6306,20 +6349,20 @@
   "category": "Quadruped",
   "locomotion": "Legged",
   "release_year": null,
-  "status": null,
+  "status": "Commercial",
   "length_mm": null,
   "width_mm": null,
   "height_mm": null,
   "weight_kg": null,
-  "payload_kg": null,
-  "max_speed_mps": null,
+  "payload_kg": 80,
+  "max_speed_mps": 5,
   "min_speed_mps": null,
   "wheel_diameter_mm": null,
   "wheel_count": null,
   "dof": null,
-  "runtime_h": null,
+  "runtime_h": 8,
   "battery_wh": null,
-  "ip_rating": null,
+  "ip_rating": "IP66",
   "api_support": null,
   "sdk_available": null,
   "sdk_name": null,
@@ -6329,16 +6372,20 @@
   "sensors": [],
   "price_usd": null,
   "price_note": null,
-  "official_url": null,
-  "sources": [],
-  "summary": "",
+  "official_url": "https://www.topstarltd.com/lang-cn/productview/2271.html",
+  "sources": [
+   "https://www.topstarltd.com/lang-cn/productview/2271.html",
+   "https://www.topstarltd.com/lang-cn/newsview/2270.html"
+  ],
+  "summary": "Topstar's (拓斯达) first quadruped, launched 16 January 2026 at Songshan Lake for industrial inspection, forest firefighting and security patrols.",
   "image_url": null,
   "image_source": null,
   "videos": [],
   "seen_on": [
    "https://embodied.guide/robots/topstar-xingzai/"
   ],
-  "verification": null
+  "verification": "official",
+  "note": "Topstar product page (checked 2026-11-17) and its launch item of 16 January 2026: 8 h endurance, 5 m/s, 20 km per mission, obstacles and stairs over 20 cm, 45 degree inner slope, 200 kg static load and 80 kg walking load (80 kg recorded), IP66, -20 to 55 C, expandable with night-vision, dual-light gimbal, partial-discharge tester or an arm. The maker publishes no mass, dimensions, DoF, battery or price."
  },
  {
   "id": "unitree-laikago",
@@ -6347,18 +6394,18 @@
   "country": "China",
   "category": "Quadruped",
   "locomotion": "Legged",
-  "release_year": null,
+  "release_year": 2017,
   "status": "Discontinued",
-  "length_mm": null,
-  "width_mm": null,
-  "height_mm": null,
-  "weight_kg": null,
+  "length_mm": 560,
+  "width_mm": 350,
+  "height_mm": 600,
+  "weight_kg": 22,
   "payload_kg": null,
   "max_speed_mps": null,
   "min_speed_mps": null,
   "wheel_diameter_mm": null,
   "wheel_count": null,
-  "dof": null,
+  "dof": 12,
   "runtime_h": null,
   "battery_wh": null,
   "ip_rating": null,
@@ -6372,15 +6419,19 @@
   "price_usd": null,
   "price_note": null,
   "official_url": null,
-  "sources": [],
-  "summary": "",
+  "sources": [
+   "https://www.youtube.com/watch?v=d6Ja643GqL8",
+   "https://github.com/unitreerobotics/laikago_ros"
+  ],
+  "summary": "Unitree's first quadruped, an all-electric research platform from 2017 named after the space dog Laika and later replaced by the Aliengo and Go series.",
   "image_url": null,
   "image_source": null,
   "videos": [],
   "seen_on": [
    "https://embodied.guide/robots/unitree-laikago/"
   ],
-  "verification": null
+  "verification": "official",
+  "note": "Unitree no longer carries a Laikago page (unitree.com/laikago returns 404, checked 2026-11-17). The figures recorded are the maker's own: the launch video on Unitree's channel gives 22 kg and 0.56 x 0.35 x 0.6 m standing, and Unitree's laikago_ros model has 12 revolute joints (3 per leg). Unitree never published a full Laikago datasheet - the 2020 page had an empty parameters section - so speed, payload, runtime and battery capacity stay empty rather than taking press figures (0.8 m/s and 7 kg appear in press coverage only). A later 2019 revision was listed at 24 kg."
  },
  {
   "id": "weilan-alphadog-c500",
@@ -6494,8 +6545,8 @@
   "width_mm": null,
   "height_mm": null,
   "weight_kg": null,
-  "payload_kg": null,
-  "max_speed_mps": null,
+  "payload_kg": 5,
+  "max_speed_mps": 3,
   "min_speed_mps": null,
   "wheel_diameter_mm": null,
   "wheel_count": null,
@@ -6512,8 +6563,11 @@
   "sensors": [],
   "price_usd": null,
   "price_note": null,
-  "official_url": null,
-  "sources": [],
+  "official_url": "https://www.weilan.com/en/en/robots.html",
+  "sources": [
+   "https://www.weilan.com/en/en/alphadoge.html",
+   "https://www.weilan.com/en/en/robots.html"
+  ],
   "summary": "",
   "image_url": null,
   "image_source": null,
@@ -6521,7 +6575,8 @@
   "seen_on": [
    "https://embodied.guide/robots/weilan-alphadog-e300/"
   ],
-  "verification": null
+  "verification": "official",
+  "note": "WEILAN's AlphaDog E-Series page (alphadoge.html, read 2026-11-17) carries a 'Reference Specifications' table for the E300: speed up to 3 m/s, adjustable walking height 18-37 cm, adjustable width 20-32 cm, gradeability up to 20 degrees, payload up to 5 kg, V-SLAM, autonomous navigation and dynamic balancing. The maker publishes no mass, length, runtime, DoF or battery capacity for the E300, so those stay empty; third-party figures (13 kg, 3 h) are not used."
  },
  {
   "id": "weilan-alphadog-e400l",
@@ -6536,8 +6591,8 @@
   "width_mm": null,
   "height_mm": null,
   "weight_kg": null,
-  "payload_kg": null,
-  "max_speed_mps": null,
+  "payload_kg": 10,
+  "max_speed_mps": 4,
   "min_speed_mps": null,
   "wheel_diameter_mm": null,
   "wheel_count": null,
@@ -6554,8 +6609,11 @@
   "sensors": [],
   "price_usd": null,
   "price_note": null,
-  "official_url": null,
-  "sources": [],
+  "official_url": "https://www.weilan.com/en/en/robots.html",
+  "sources": [
+   "https://www.weilan.com/en/en/alphadoge.html",
+   "https://www.weilan.com/en/en/robots.html"
+  ],
   "summary": "",
   "image_url": null,
   "image_source": null,
@@ -6563,7 +6621,8 @@
   "seen_on": [
    "https://embodied.guide/robots/weilan-alphadog-e400l/"
   ],
-  "verification": null
+  "verification": "official",
+  "note": "WEILAN's AlphaDog E-Series page (read 2026-11-17) 'Reference Specifications' table for the E400L: speed up to 4 m/s, adjustable walking height 25-50 cm, width 20-32 cm, gradeability up to 20 degrees, payload up to 10 kg, V-SLAM, autonomous navigation and dynamic balancing. The maker publishes no mass, length, runtime, DoF or battery capacity, so those fields stay empty; third-party figures (18 kg, 5 h, USD 27,690) are not used."
  },
  {
   "id": "weilan-babyalpha-a2",
@@ -6722,38 +6781,42 @@
   "locomotion": "Legged",
   "release_year": null,
   "status": "Commercial",
-  "length_mm": null,
-  "width_mm": null,
-  "height_mm": null,
-  "weight_kg": null,
-  "payload_kg": null,
-  "max_speed_mps": null,
+  "length_mm": 412,
+  "width_mm": 400,
+  "height_mm": 412,
+  "weight_kg": 11,
+  "payload_kg": 5,
+  "max_speed_mps": 1.0,
   "min_speed_mps": null,
   "wheel_diameter_mm": null,
   "wheel_count": null,
-  "dof": null,
+  "dof": 12,
   "runtime_h": null,
-  "battery_wh": null,
+  "battery_wh": 240,
   "ip_rating": null,
   "api_support": null,
   "sdk_available": null,
   "sdk_name": null,
   "onboard_compute": null,
   "compute_detail": null,
-  "ros_support": null,
+  "ros_support": true,
   "sensors": [],
   "price_usd": null,
   "price_note": null,
-  "official_url": null,
-  "sources": [],
-  "summary": "",
+  "official_url": "https://xterrarobotics.com/svan-m2/",
+  "sources": [
+   "https://xterrarobotics.com/svan-m2/",
+   "https://docs.xterrarobotics.com/svan-m2/"
+  ],
+  "summary": "xTerra Robotics' small Indian quadruped for industrial inspection, research and security patrols, driven by quasi-direct-drive actuators and controlled over ROS.",
   "image_url": null,
   "image_source": null,
   "videos": [],
   "seen_on": [
    "https://embodied.guide/robots/xterra-svan-m2/"
   ],
-  "verification": null
+  "verification": "official",
+  "note": "xTerra SVAN M2 product page (checked 2026-11-17): 11 kg, payload about 5 kg, 41.2 x 40 x 41.2 cm, 12 actuated DoF with QDD A2 actuators, max speed 1.0 m/s, 240 Wh lithium-polymer battery, Raspberry Pi 4B 8 GB, ROS, -5 to 40 C, 2.4 GHz WiFi. The maker's documentation site for the same robot gives 15 kg, 1.5 m/s and 2-4 h battery life, and describes ROS 2 support; the product page figures are recorded and the difference is noted here."
  },
  {
   "id": "yobotics-e-dog",
@@ -6764,17 +6827,17 @@
   "locomotion": "Legged",
   "release_year": null,
   "status": "Commercial",
-  "length_mm": null,
-  "width_mm": null,
-  "height_mm": null,
-  "weight_kg": null,
-  "payload_kg": null,
-  "max_speed_mps": null,
+  "length_mm": 390,
+  "width_mm": 230,
+  "height_mm": 240,
+  "weight_kg": 2.5,
+  "payload_kg": 1,
+  "max_speed_mps": 0.67,
   "min_speed_mps": null,
   "wheel_diameter_mm": null,
   "wheel_count": null,
-  "dof": null,
-  "runtime_h": null,
+  "dof": 13,
+  "runtime_h": 2.5,
   "battery_wh": null,
   "ip_rating": null,
   "api_support": null,
@@ -6786,16 +6849,19 @@
   "sensors": [],
   "price_usd": null,
   "price_note": null,
-  "official_url": null,
-  "sources": [],
-  "summary": "",
+  "official_url": "https://www.yobotics.cn/cpzx/szjqrxl/",
+  "sources": [
+   "https://www.yobotics.cn/cpzx/szjqrxl/"
+  ],
+  "summary": "Small servo-driven robot dog from Yobotics for education, voice interaction and secondary development, sold with an open Android and STM32 control stack.",
   "image_url": null,
   "image_source": null,
   "videos": [],
   "seen_on": [
    "https://embodied.guide/robots/yobotics-e-dog/"
   ],
-  "verification": null
+  "verification": "official",
+  "note": "Yobotics quadruped page (checked 2026-11-17), e-Dog table: 390 x 230 x 240 mm, 2.5 kg, 1 kg payload, 2.5 h, 0.67 m/s, 10 degree climb, PC+ABS shell, 13 DoF, high-torque servos, phone-app and voice control, Android (quad-core Cortex-A7) plus STM32 motion control, ultrasonic/infrared/vision/attitude/voice sensors, 8.4 V 2 A adapter. The maker's tab labels on that page are shifted by one section, but the table under the e-Dog entry names the model itself."
  },
  {
   "id": "yobotics-y10",
@@ -6806,17 +6872,17 @@
   "locomotion": "Legged",
   "release_year": null,
   "status": "Commercial",
-  "length_mm": null,
-  "width_mm": null,
-  "height_mm": null,
-  "weight_kg": null,
-  "payload_kg": null,
-  "max_speed_mps": null,
+  "length_mm": 980,
+  "width_mm": 510,
+  "height_mm": 500,
+  "weight_kg": 37,
+  "payload_kg": 15,
+  "max_speed_mps": 4,
   "min_speed_mps": null,
   "wheel_diameter_mm": null,
   "wheel_count": null,
-  "dof": null,
-  "runtime_h": null,
+  "dof": 12,
+  "runtime_h": 1,
   "battery_wh": null,
   "ip_rating": null,
   "api_support": null,
@@ -6828,16 +6894,19 @@
   "sensors": [],
   "price_usd": null,
   "price_note": null,
-  "official_url": null,
-  "sources": [],
-  "summary": "",
+  "official_url": "https://www.yobotics.cn/cpzx/szjqrxl/",
+  "sources": [
+   "https://www.yobotics.cn/cpzx/szjqrxl/"
+  ],
+  "summary": "Mid-size lightweight high-dynamics quadruped from Yobotics for research, with 144 N.m peak actuators and a CAN-bus, Linux-based controller.",
   "image_url": null,
   "image_source": null,
   "videos": [],
   "seen_on": [
    "https://embodied.guide/robots/yobotics-y10/"
   ],
-  "verification": null
+  "verification": "official",
+  "note": "Yobotics quadruped page (checked 2026-11-17), Y10 table: about 980 x 510 x 500 mm, about 37 kg, load >=15 kg, speed >=4 m/s, slope >=30 degrees, runtime >=70 min (1 h recorded as the lower bound), 12 DoF (3 per leg), aluminium body, quasi-direct-drive planetary reduction, peak torque about 144 N.m, Intel Atom core board, CAN bus, 1 kHz feedback control, Linux, Yobotics IMU. The page also lists a CNY 43,300 price."
  },
  {
   "id": "yobotics-y20",
@@ -6871,15 +6940,19 @@
   "price_usd": null,
   "price_note": null,
   "official_url": null,
-  "sources": [],
-  "summary": "",
+  "sources": [
+   "https://www.yobotics.cn/cpzx/szjqrxl/",
+   "https://www.yobotics.cn/xinwenzixun/41.html"
+  ],
+  "summary": "Yobotics all-terrain inspection quadruped positioned between the Y10 research platform and the Y30 outdoor flagship.",
   "image_url": null,
   "image_source": null,
   "videos": [],
   "seen_on": [
    "https://embodied.guide/robots/yobotics-y20/"
   ],
-  "verification": null
+  "verification": "unconfirmed",
+  "note": "Yobotics lists Y20 in its quadruped catalogue navigation and announced the wheeled Y20-W on 18 September 2025, but the published parameter table for Y20 is an image on the maker's category page and no text specification was obtained; the maker's news list carries no Y20 specification item. With no maker figure to cite, no field is filled and the record stays unconfirmed."
  },
  {
   "id": "yobotics-y30",
@@ -6890,19 +6963,19 @@
   "locomotion": "Legged",
   "release_year": null,
   "status": "Commercial",
-  "length_mm": null,
-  "width_mm": null,
-  "height_mm": null,
-  "weight_kg": null,
-  "payload_kg": null,
-  "max_speed_mps": null,
+  "length_mm": 1100,
+  "width_mm": 475,
+  "height_mm": 610,
+  "weight_kg": 60,
+  "payload_kg": 80,
+  "max_speed_mps": 4,
   "min_speed_mps": null,
   "wheel_diameter_mm": null,
   "wheel_count": null,
   "dof": null,
-  "runtime_h": null,
+  "runtime_h": 5,
   "battery_wh": null,
-  "ip_rating": null,
+  "ip_rating": "IP54",
   "api_support": null,
   "sdk_available": null,
   "sdk_name": null,
@@ -6912,16 +6985,19 @@
   "sensors": [],
   "price_usd": null,
   "price_note": null,
-  "official_url": null,
-  "sources": [],
-  "summary": "",
+  "official_url": "https://www.yobotics.cn/cpzx/szjqrxl/",
+  "sources": [
+   "https://www.yobotics.cn/cpzx/szjqrxl/"
+  ],
+  "summary": "Yobotics' all-terrain outdoor flagship quadruped for inspection, load carrying and work in hazardous environments.",
   "image_url": null,
   "image_source": null,
   "videos": [],
   "seen_on": [
    "https://embodied.guide/robots/yobotics-y30/"
   ],
-  "verification": null
+  "verification": "official",
+  "note": "Yobotics quadruped page (checked 2026-11-17), Y30 table: standing about 1100 x 475 x 610 mm, folded 930 x 450 x 370 mm, about 60 kg with battery, battery 25 Ah (Wh not stated), >5 h continuous walking without load and >2.5 h with a working load, standing load up to 150 kg and walking load up to 80 kg (80 kg recorded), max 4 m/s, IP54, 40 degree stairs and 40 degree slopes, 30 cm step height, -25 to +50 C, Intel Atom x5-Z8350 controller; 3D LiDAR and depth camera optional. DoF is not stated on the page."
  },
  {
   "id": "yuejia-yj30",
@@ -6932,19 +7008,19 @@
   "locomotion": "Legged",
   "release_year": null,
   "status": "Commercial",
-  "length_mm": null,
-  "width_mm": null,
-  "height_mm": null,
-  "weight_kg": null,
-  "payload_kg": null,
-  "max_speed_mps": null,
+  "length_mm": 682,
+  "width_mm": 354,
+  "height_mm": 462,
+  "weight_kg": 17.5,
+  "payload_kg": 10,
+  "max_speed_mps": 3.0,
   "min_speed_mps": null,
   "wheel_diameter_mm": null,
   "wheel_count": null,
   "dof": null,
-  "runtime_h": null,
+  "runtime_h": 1.5,
   "battery_wh": null,
-  "ip_rating": null,
+  "ip_rating": "IP54",
   "api_support": null,
   "sdk_available": null,
   "sdk_name": null,
@@ -6953,9 +7029,12 @@
   "ros_support": null,
   "sensors": [],
   "price_usd": null,
-  "price_note": null,
-  "official_url": null,
-  "sources": [],
+  "price_note": "CNY 88,000",
+  "official_url": "https://www.yuejialingdong.com/yuejiasizuxilie/56.html",
+  "sources": [
+   "https://www.yuejialingdong.com/yuejiasizuxilie/56.html",
+   "https://wrc.cie.org.cn/profile/robot/download/2026/07/22/20260722102923000455_20260722102923A213.pdf"
+  ],
   "summary": "",
   "image_url": null,
   "image_source": null,
@@ -6963,7 +7042,8 @@
   "seen_on": [
    "https://embodied.guide/robots/yuejia-yj30/"
   ],
-  "verification": null
+  "verification": "official",
+  "note": "Yuejia Lingdong YJ30 page (checked 2026-11-17) and the maker's bilingual brochure: standing 682 x 354 x 462 mm, 17.5 kg, payload 10 kg, 1.5-2 h (3 h with a second battery), 20 cm stair, 3 m/s, 50 deg climb, IP54, WiFi/4G/5G, video transmission, ASR and follow/navigation. Price CNY 88,000 on the maker's page. The table merges climb angle and DoF under one heading and gives only 50 deg, so dof stays empty; no battery capacity is published."
  },
  {
   "id": "yufan-lingmao-cyvet",
@@ -6973,39 +7053,43 @@
   "category": "Quadruped",
   "locomotion": "Legged",
   "release_year": null,
-  "status": null,
-  "length_mm": null,
-  "width_mm": null,
-  "height_mm": null,
-  "weight_kg": null,
-  "payload_kg": null,
-  "max_speed_mps": null,
+  "status": "Commercial",
+  "length_mm": 672,
+  "width_mm": 355,
+  "height_mm": 432,
+  "weight_kg": 15,
+  "payload_kg": 20,
+  "max_speed_mps": 3.0,
   "min_speed_mps": null,
   "wheel_diameter_mm": null,
   "wheel_count": null,
-  "dof": null,
-  "runtime_h": null,
-  "battery_wh": null,
+  "dof": 12,
+  "runtime_h": 5.5,
+  "battery_wh": 432,
   "ip_rating": null,
   "api_support": null,
-  "sdk_available": null,
+  "sdk_available": true,
   "sdk_name": null,
   "onboard_compute": null,
   "compute_detail": null,
   "ros_support": null,
   "sensors": [],
   "price_usd": null,
-  "price_note": null,
-  "official_url": null,
-  "sources": [],
-  "summary": "",
+  "price_note": "CNY 15,999 incl. tax (maker's Chinese page)",
+  "official_url": "https://www.uniubi.com/en/products/quadruped-robot/cyvet",
+  "sources": [
+   "https://www.uniubi.com/en/products/quadruped-robot/cyvet",
+   "https://www.uniubi.com/embodied-ai/robot"
+  ],
+  "summary": "Uniubi AI's (宇泛智能) 15 kg quadruped developer platform with optional NVIDIA Jetson Orin compute, sold for embodied-AI research and developer projects.",
   "image_url": null,
   "image_source": null,
   "videos": [],
   "seen_on": [
    "https://embodied.guide/robots/yufan-lingmao-cyvet/"
   ],
-  "verification": null
+  "verification": "official",
+  "note": "Uniubi AI product page (checked 2026-11-17): standing 672 x 355 x 432 mm (crouched 718 x 410 x 178 mm), about 15 kg with battery, payload about 20 kg, 0-3 m/s, up to 5.5 h unloaded and about 3.5 h with 15 kg, 432 Wh (10000 mAh) battery, 12 self-developed joints (60 N.m peak), 17 cm continuous stairs, -10 to 50 C, binocular camera, IMU, microphone and speaker standard with LiDAR and 360 degree UWB optional, Orin Nano/NX up to 157 TOPS optional, C++/Python SDK. Standard version is indoor/dry-outdoor only; IP54 applies to an industrial customized version, so ip_rating stays empty."
  },
  {
   "id": "zen-technologies-prahasta",
@@ -7038,15 +7122,18 @@
   "sensors": [],
   "price_usd": null,
   "price_note": null,
-  "official_url": null,
-  "sources": [],
-  "summary": "",
+  "official_url": "https://www.zentechnologies.com/prahasta.php",
+  "sources": [
+   "https://www.zentechnologies.com/prahasta.php"
+  ],
+  "summary": "Zen Technologies' four-legged robot for counter-insurgency and close-quarter defence work, using LiDAR and reinforcement learning and carrying 9 mm, 5.56 mm or 7.62 mm small arms.",
   "image_url": null,
   "image_source": null,
   "videos": [],
   "seen_on": [
    "https://embodied.guide/robots/zen-technologies-prahasta/"
   ],
-  "verification": null
+  "verification": "official",
+  "note": "Zen's own Prahasta page (checked 2026-11-17) describes the robot and its weapon compatibility but publishes no numeric specification at all - no mass, dimensions, speed, payload, runtime or battery. Press coverage of the July 2024 launch gives 2.5 h with a 45 kg load, an 80 kg lift and obstacles of about 40 cm, but those figures are press-only, so no field is filled."
  }
 ]
