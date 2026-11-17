@@ -21,6 +21,21 @@
   "runtime_h": 13,
   "battery_wh": 1630,
   "ip_rating": "IP21",
+  "safety_standards": [
+   "ISO 3691-4",
+   "ISO 13849-1",
+   "ISO 13850",
+   "ISO 12100",
+   "ITSDF B56.5",
+   "RIA R15.08-1",
+   "EN 61000-6-4",
+   "EN 61000-6-2",
+   "EN 12895"
+  ],
+  "certifications": [],
+  "safety_pl": null,
+  "safety_note": "ISO 3691-4 except Clause 4.4, 4.9.4, 5.1, 6 and Annex A. 12 safety functions per ISO 13849-1.",
+  "safety_source": "https://mobile-industrial-robots.com/products/robots/mir250/specifications",
   "api_support": null,
   "sdk_available": null,
   "sdk_name": null,
@@ -64,6 +79,21 @@
   "runtime_h": 8.33,
   "battery_wh": 1631,
   "ip_rating": "IP52",
+  "safety_standards": [
+   "ISO 13849-1",
+   "ISO 3691-4",
+   "ISO 12100",
+   "ISO 13850",
+   "ITSDF B56.5",
+   "RIA R15.08-1",
+   "EN 61000-6-4"
+  ],
+  "certifications": [
+   "TÜV Rheinland certificate (ISO 13849-1)"
+  ],
+  "safety_pl": null,
+  "safety_note": "ISO 3691-4 except Clause 4.4, 4.9.4, 5.1, 5.2, 6 and Annex A. 13 safety functions per ISO 13849-1, certified by TÜV Rheinland.",
+  "safety_source": "https://mobile-industrial-robots.com/products/robots/mir600/specifications",
   "api_support": true,
   "sdk_available": null,
   "sdk_name": null,
@@ -107,6 +137,19 @@
   "runtime_h": 10,
   "battery_wh": null,
   "ip_rating": "IP52",
+  "safety_standards": [
+   "EN ISO 12100:2010",
+   "ISO 13849-1:2023",
+   "EN ISO 13850:2015",
+   "EN ISO 3691-4:2023",
+   "EN IEC 61000-6-4:2007/A1:2011",
+   "EN IEC 61000-6-2:2005/AC:2005",
+   "EN 12895:2015+A1:2019"
+  ],
+  "certifications": [],
+  "safety_pl": null,
+  "safety_note": null,
+  "safety_source": "https://mobile-industrial-robots.com/products/robots/mir1200-pallet-jack/specifications",
   "api_support": null,
   "sdk_available": null,
   "sdk_name": null,
@@ -151,6 +194,24 @@
   "runtime_h": 6,
   "battery_wh": 924,
   "ip_rating": "IP20",
+  "safety_standards": [
+   "ISO 12100",
+   "ISO 13849-1",
+   "ISO 3691-4",
+   "ANSI/ITSDF B56.5",
+   "RIA R15.08-1",
+   "EN 1175-1",
+   "EN 60204-1"
+  ],
+  "certifications": [
+   "CE",
+   "FCC Part 15 Subpart B",
+   "ICES-003",
+   "ICES-002"
+  ],
+  "safety_pl": null,
+  "safety_note": "Maker's “Standards compliance” list for OTTO 100.",
+  "safety_source": "https://ottomotors.com/100/",
   "api_support": null,
   "sdk_available": null,
   "sdk_name": null,
@@ -167,7 +228,8 @@
   "price_note": null,
   "official_url": "https://ottomotors.com/100/",
   "sources": [
-   "https://www.rockwellautomation.com/content/dam/rockwell-automation/documents/pdf/events/automate/otto-100-datasheet.pdf"
+   "https://www.rockwellautomation.com/content/dam/rockwell-automation/documents/pdf/events/automate/otto-100-datasheet.pdf",
+   "https://ottomotors.com/100/"
   ],
   "summary": "Compact all-metal AMR with an integrated lift for moving boxes, bins and carts up to 150 kg in manufacturing."
  },
@@ -193,6 +255,24 @@
   "runtime_h": 10,
   "battery_wh": 4224,
   "ip_rating": "IP20",
+  "safety_standards": [
+   "ISO 12100",
+   "ISO 13849-1",
+   "ISO 3691-4",
+   "ANSI/ITSDF B56.5",
+   "RIA R15.08-1",
+   "EN 1175-1",
+   "EN 60204-1"
+  ],
+  "certifications": [
+   "CE",
+   "FCC Part 15 Subpart B",
+   "ICES-003",
+   "ICES-002"
+  ],
+  "safety_pl": null,
+  "safety_note": "Maker's “Standards compliance” list for OTTO 1500.",
+  "safety_source": "https://ottomotors.com/1500",
   "api_support": null,
   "sdk_available": null,
   "sdk_name": null,
@@ -208,7 +288,8 @@
   "price_note": null,
   "official_url": "https://ottomotors.com/1500",
   "sources": [
-   "https://www.rockwellautomation.com/content/dam/rockwell-automation/documents/pdf/events/automate/otto-1500-data-sheet.pdf"
+   "https://www.rockwellautomation.com/content/dam/rockwell-automation/documents/pdf/events/automate/otto-1500-data-sheet.pdf",
+   "https://ottomotors.com/1500"
   ],
   "summary": "Heavy-duty AMR for pallet-sized loads up to 1,900 kg (capacity includes attachment) in demanding plants."
  },
@@ -313,6 +394,29 @@
   "runtime_h": 10,
   "battery_wh": 1843,
   "ip_rating": "IP20",
+  "safety_standards": [
+   "UL 3100",
+   "EN ISO 12100",
+   "EN ISO 13849-1",
+   "EN 60204-1",
+   "ANSI B56.5",
+   "EN ISO 3691-4",
+   "EN 61000-6-2",
+   "EN 61000-6-4",
+   "KN 61000-6-2",
+   "KN 61000-6-4",
+   "UN 38.3",
+   "ANSI/CAN/UL/ULC 2271",
+   "UL 1012",
+   "CSA C22.2.107.2"
+  ],
+  "certifications": [
+   "cULus",
+   "cRUus"
+  ],
+  "safety_pl": "PL d",
+  "safety_note": "ISO 3691-4 except clauses 4.1.15b, 4.8.2.6 items 6–7, 4.12 and 4.14. Safety scanning laser is Class 1 PL d per ISO 13849-1. AMR and docking station are cULus, battery cRUus.",
+  "safety_source": "https://assets.omron.eu/downloads/latest/datasheet/en/i828_ld-series_mobile_robot_datasheet_en.pdf",
   "api_support": true,
   "sdk_available": null,
   "sdk_name": null,
@@ -355,6 +459,35 @@
   "runtime_h": 9,
   "battery_wh": 3590,
   "ip_rating": "IP20",
+  "safety_standards": [
+   "EN ISO 12100",
+   "EN ISO 13849-1",
+   "EN 60204-1",
+   "EN ISO 10218-1",
+   "EN 61326-3-1",
+   "EN 61326-1",
+   "EN ISO 3691-4",
+   "EN 12895",
+   "CAN/CSA Z434",
+   "CAN/UL 3100",
+   "KS C 9610-6-2",
+   "KS C 9610-6-4",
+   "ANSI/CAN/UL/ULC 2271",
+   "UN 38.3",
+   "UL 1012",
+   "CAN/CSA C22.2.107.2",
+   "EN 61204-7",
+   "EN 62477-1"
+  ],
+  "certifications": [
+   "cTUVus",
+   "KC",
+   "cURus",
+   "CE"
+  ],
+  "safety_pl": null,
+  "safety_note": "Certification markings: AMR cTUVus and KC; battery cURus and CE; power supply box and docking target cTUVus.",
+  "safety_source": "https://assets.omron.eu/downloads/latest/datasheet/en/i855_hd-series_mobile_robot_datasheet_en.pdf",
   "api_support": true,
   "sdk_available": null,
   "sdk_name": null,
@@ -396,6 +529,13 @@
   "runtime_h": 14,
   "battery_wh": null,
   "ip_rating": null,
+  "safety_standards": [],
+  "certifications": [
+   "CE"
+  ],
+  "safety_pl": null,
+  "safety_note": "Maker: “Locus Origin is CE Certified for European operations”.",
+  "safety_source": "https://locusrobotics.com/platform/locus-origin/",
   "api_support": null,
   "sdk_available": null,
   "sdk_name": null,
@@ -644,6 +784,13 @@
   "runtime_h": 8,
   "battery_wh": null,
   "ip_rating": null,
+  "safety_standards": [
+   "ISO 3691-4"
+  ],
+  "certifications": [],
+  "safety_pl": null,
+  "safety_note": "Maker: “Compliant with the ISO 3691-4 standard”.",
+  "safety_source": "https://www.pudurobotics.com/en/products/pudut300",
   "api_support": null,
   "sdk_available": null,
   "sdk_name": null,
@@ -1610,6 +1757,14 @@
   "runtime_h": null,
   "battery_wh": null,
   "ip_rating": null,
+  "safety_standards": [
+   "ISO 3691-4:2023",
+   "ANSI/ITSDF B56.5-2019"
+  ],
+  "certifications": [],
+  "safety_pl": null,
+  "safety_note": "Specification sheet: “Built with ISO 3691-4:2023 and ANSI/ITSDF B56.5-2019 as guiding principles” — a design basis, not a stated certificate.",
+  "safety_source": "https://thirdwave.ai/twa-reach-specifications-sheet.pdf",
   "api_support": null,
   "sdk_available": null,
   "sdk_name": null,
@@ -1763,6 +1918,20 @@
   "runtime_h": null,
   "battery_wh": 1008,
   "ip_rating": null,
+  "safety_standards": [
+   "ISO 12100",
+   "ISO 13849-1",
+   "EN 1175-1",
+   "EN 60204-1"
+  ],
+  "certifications": [
+   "FCC Part 15 Subpart B",
+   "ICES-003",
+   "ICES-002"
+  ],
+  "safety_pl": null,
+  "safety_note": "Maker's “Standards compliance” list for OTTO 1200; no CE mark or ISO 3691-4 is named.",
+  "safety_source": "https://ottomotors.com/1200",
   "api_support": null,
   "sdk_available": null,
   "sdk_name": null,
@@ -1778,7 +1947,8 @@
   "price_note": null,
   "official_url": "https://ottomotors.com/1200",
   "sources": [
-   "https://www.rockwellautomation.com/content/dam/rockwell-automation/documents/pdf/events/automate/OTTO1200-DS001G-EN-SEP2026.pdf"
+   "https://www.rockwellautomation.com/content/dam/rockwell-automation/documents/pdf/events/automate/OTTO1200-DS001G-EN-SEP2026.pdf",
+   "https://ottomotors.com/1200"
   ],
   "summary": "Compact heavy-duty AMR that moves payloads up to 1,200 kg through narrow factory aisles with adaptive safety fieldsets and 30-minute opportunity charging.",
   "image_url": null,
@@ -1951,6 +2121,16 @@
   "runtime_h": null,
   "battery_wh": null,
   "ip_rating": null,
+  "safety_standards": [
+   "ISO 3691-4"
+  ],
+  "certifications": [
+   "CE",
+   "UL 3100"
+  ],
+  "safety_pl": null,
+  "safety_note": "Datasheet lists certification as CE certified, certified to ISO 3691-4 and certified to UL 3100.",
+  "safety_source": "https://www.agilox.net/media/agilox-ocf-datasheet-en.pdf",
   "api_support": null,
   "sdk_available": null,
   "sdk_name": null,
@@ -2282,6 +2462,13 @@
   "runtime_h": 6,
   "battery_wh": 2016,
   "ip_rating": null,
+  "safety_standards": [],
+  "certifications": [
+   "CE"
+  ],
+  "safety_pl": null,
+  "safety_note": "Maker: “CE certified for safe 24/7 operation” (C56, C series page).",
+  "safety_source": "https://www.quicktron.com/products/c-series",
   "api_support": null,
   "sdk_available": null,
   "sdk_name": null,
@@ -2332,6 +2519,18 @@
   "runtime_h": 4,
   "battery_wh": null,
   "ip_rating": null,
+  "safety_standards": [
+   "ISO 3691-4",
+   "EN ISO 12100",
+   "EN 60204-1",
+   "EN 1175-1"
+  ],
+  "certifications": [
+   "CE"
+  ],
+  "safety_pl": null,
+  "safety_note": "Dynamo 100 datasheet: “Passed in accordance with CE, ISO 3691-4, EN ISO 12100, EN 60204-1, EN 1175-1”.",
+  "safety_source": "https://addverb.com/wp-content/uploads/2023/10/Dynamo-100-Datasheet.pdf",
   "api_support": null,
   "sdk_available": null,
   "sdk_name": null,
@@ -2432,6 +2631,15 @@
   "runtime_h": 8,
   "battery_wh": null,
   "ip_rating": null,
+  "safety_standards": [
+   "ISO 13849-1:2015",
+   "ANSI/ITSDF B56.5",
+   "RIA 15.08"
+  ],
+  "certifications": [],
+  "safety_pl": "PL d",
+  "safety_note": "Safety system uses PL=d-rated sensors and safety controllers.",
+  "safety_source": "https://www.vecnarobotics.com/wp-content/uploads/2024/10/ATG-AutonomousTugger-2024Q4.pdf",
   "api_support": null,
   "sdk_available": null,
   "sdk_name": null,
@@ -2626,6 +2834,16 @@
   "runtime_h": null,
   "battery_wh": null,
   "ip_rating": null,
+  "safety_standards": [
+   "ISO 3691-4"
+  ],
+  "certifications": [
+   "CE",
+   "UL"
+  ],
+  "safety_pl": null,
+  "safety_note": "Product page names CE, UL and ISO 3691-4 as examples of the safety standards the AMRs are certified to; the ONE datasheet states CE with a declaration of conformity.",
+  "safety_source": "https://www.agilox.net/en/product/agilox-one",
   "api_support": null,
   "sdk_available": null,
   "sdk_name": null,
@@ -2767,6 +2985,22 @@
   "runtime_h": null,
   "battery_wh": 1008,
   "ip_rating": null,
+  "safety_standards": [
+   "ISO 12100",
+   "ISO 13849-1",
+   "RIA R15.08-1",
+   "EN 1175-1",
+   "EN 60204-1"
+  ],
+  "certifications": [
+   "CE",
+   "FCC Part 15 Subpart B",
+   "ICES-003",
+   "ICES-002"
+  ],
+  "safety_pl": null,
+  "safety_note": "Maker's “Standards compliance” list for OTTO 600; it does not name ISO 3691-4 or B56.5.",
+  "safety_source": "https://ottomotors.com/600",
   "api_support": null,
   "sdk_available": null,
   "sdk_name": null,
@@ -2782,7 +3016,8 @@
   "price_note": null,
   "official_url": "https://ottomotors.com/600",
   "sources": [
-   "https://www.rockwellautomation.com/content/dam/rockwell-automation/documents/pdf/events/automate/OTTO600-DS001G-EN-SEP2026.pdf"
+   "https://www.rockwellautomation.com/content/dam/rockwell-automation/documents/pdf/events/automate/OTTO600-DS001G-EN-SEP2026.pdf",
+   "https://ottomotors.com/600"
   ],
   "summary": "Mid-size 600 kg-capacity AMR from OTTO by Rockwell Automation for moving carts and pallets in tight manufacturing spaces.",
   "image_url": null,
@@ -2816,6 +3051,21 @@
   "runtime_h": null,
   "battery_wh": null,
   "ip_rating": null,
+  "safety_standards": [
+   "ANSI/ITSDF B56.5",
+   "ISO 12100",
+   "ISO 13849-1",
+   "EN 1175-1",
+   "EN 60204-1"
+  ],
+  "certifications": [
+   "FCC Part 15 Subpart B",
+   "ICES-003",
+   "ICES-002"
+  ],
+  "safety_pl": null,
+  "safety_note": "Maker's “Standards compliance” list for OTTO Lifter; no CE mark is named.",
+  "safety_source": "https://ottomotors.com/lifter",
   "api_support": null,
   "sdk_available": null,
   "sdk_name": null,
@@ -2830,7 +3080,8 @@
   "price_note": null,
   "official_url": "https://ottomotors.com/lifter",
   "sources": [
-   "https://www.rockwellautomation.com/content/dam/rockwell-automation/documents/pdf/events/automate/OTTOLIFTER-DS001F-EN-AUG2026.pdf"
+   "https://www.rockwellautomation.com/content/dam/rockwell-automation/documents/pdf/events/automate/OTTOLIFTER-DS001F-EN-AUG2026.pdf",
+   "https://ottomotors.com/lifter"
   ],
   "summary": "Autonomous forklift that moves pallets up to 1,200 kg between stands, machines and floor locations.",
   "image_url": null,
@@ -2864,6 +3115,21 @@
   "runtime_h": 9.8,
   "battery_wh": null,
   "ip_rating": "IP52",
+  "safety_standards": [
+   "ISO 13849-1",
+   "ISO 3691-4",
+   "ISO 12100",
+   "ISO 13850",
+   "ITSDF B56.5",
+   "RIA R15.08-1",
+   "EN 61000-6-4"
+  ],
+  "certifications": [
+   "TÜV Rheinland certificate (ISO 13849-1)"
+  ],
+  "safety_pl": null,
+  "safety_note": "ISO 3691-4 except Clause 4.4, 4.9.4, 5.1, 5.2, 6 and Annex A. 13 safety functions per ISO 13849-1, certified by TÜV Rheinland.",
+  "safety_source": "https://mobile-industrial-robots.com/products/robots/mir1350/specifications",
   "api_support": null,
   "sdk_available": null,
   "sdk_name": null,
@@ -2959,6 +3225,16 @@
   "runtime_h": null,
   "battery_wh": null,
   "ip_rating": null,
+  "safety_standards": [
+   "ANSI/ITSDF B56.5-2019",
+   "ANSI B11.0"
+  ],
+  "certifications": [
+   "UL 583"
+  ],
+  "safety_pl": null,
+  "safety_note": "Seegrid states its AMRs also satisfy the applicable ANSI R15.08 safety requirements.",
+  "safety_source": "https://seegrid.com/autonomous-mobile-robots/tow-tractor-s7-amr",
   "api_support": null,
   "sdk_available": null,
   "sdk_name": null,
@@ -3056,6 +3332,15 @@
   "runtime_h": 4,
   "battery_wh": 1440,
   "ip_rating": null,
+  "safety_standards": [
+   "ISO 13849-1:2015",
+   "ANSI/ITSDF B56.5",
+   "RIA 15.08"
+  ],
+  "certifications": [],
+  "safety_pl": "PL d",
+  "safety_note": "Safety system uses PL=d-rated sensors and safety controllers.",
+  "safety_source": "https://www.vecnarobotics.com/wp-content/uploads/2026/03/Tear-Sheet-CPJ.pdf",
   "api_support": null,
   "sdk_available": null,
   "sdk_name": null,
@@ -3438,6 +3723,15 @@
   "runtime_h": 12,
   "battery_wh": null,
   "ip_rating": null,
+  "safety_standards": [
+   "ISO 3691-4"
+  ],
+  "certifications": [
+   "CE"
+  ],
+  "safety_pl": null,
+  "safety_note": "Maker: “Meeting rigorous ISO 3691-4 standards and holding industrial-specific CE certification”.",
+  "safety_source": "https://www.pudurobotics.com/en/products/puduT150",
   "api_support": null,
   "sdk_available": null,
   "sdk_name": null,
@@ -4141,6 +4435,14 @@
   "runtime_h": 10,
   "battery_wh": null,
   "ip_rating": null,
+  "safety_standards": [
+   "ISO 13849-1",
+   "ISO 3691-4"
+  ],
+  "certifications": [],
+  "safety_pl": "PL d",
+  "safety_note": "Datasheet: PLd / Category 2 (ISO 13849-1) and ISO 3691-4; the product page states PLd / Category 3 instead — the category differs between the two maker documents.",
+  "safety_source": "https://neurarobotics.px.media/plk/3K/MAV_NEURA_Robotics_Datasheet_Web.pdf",
   "api_support": null,
   "sdk_available": null,
   "sdk_name": null,
@@ -4340,6 +4642,31 @@
   "runtime_h": 9,
   "battery_wh": null,
   "ip_rating": null,
+  "safety_standards": [
+   "EN 12100:2010",
+   "EN 60204-1:2006+A1:2009",
+   "IEC 60034-1:2004-04",
+   "EN 55022",
+   "EN 61000-6-4:2007",
+   "EN 61000-6-2:2005",
+   "EN 60601-1-2:2007",
+   "EN 301 489-1",
+   "EN 301 489-17",
+   "EN 300 220-1",
+   "EN 300 220-2",
+   "EN 300 328",
+   "EN 301 893"
+  ],
+  "certifications": [
+   "FCC Part 15",
+   "IC",
+   "CE",
+   "ICES-001",
+   "RCM"
+  ],
+  "safety_pl": null,
+  "safety_note": null,
+  "safety_source": "https://aethon.com/wp-content/uploads/2025/06/Aethon_SpecSheet_T3-1.pdf",
   "api_support": null,
   "sdk_available": null,
   "sdk_name": null,

@@ -65,3 +65,4 @@ header.top .tools{margin-left:auto;display:flex;gap:10px;align-items:center}
 .legend{display:flex;flex-wrap:wrap;gap:12px;font-size:12px;color:var(--muted);margin:4px 0}.legend i{display:inline-block;width:10px;height:10px;border-radius:2px;margin-right:5px;vertical-align:-1px}
 details.miss{margin-top:12px}details.miss summary{cursor:pointer;color:var(--muted);font-size:13px}
 .specsgrid>*{min-width:0}
+.card .safety{font-weight:600;color:var(--ink)}.card .safety::before{content:"🛡 ";opacity:.7}

@@ -21,6 +21,29 @@
   "runtime_h": 4,
   "battery_wh": 1024,
   "ip_rating": "IP54",
+  "safety_standards": [
+   "ISO 12100 (risk assessment)",
+   "EN 61326-1:2013",
+   "EN 61010-1:2010",
+   "EN 50566:2017",
+   "EN 55032:2015",
+   "AS/NZS 4268:2017",
+   "AS/NZS 4024.1204:2019",
+   "KS 3124:2020",
+   "KS 3126:2020",
+   "KS C 9610-6-2:2019",
+   "KS C 9610-6-4:2022"
+  ],
+  "certifications": [
+   "CE",
+   "FCC Part 15 Subpart B",
+   "FCC Part 18",
+   "ICES-002",
+   "ICES-003"
+  ],
+  "safety_pl": "PL c (E-stop), PL a (braking)",
+  "safety_note": "Datasheet lists ISO 12100 risk assessment; the user manual adds CE marking and E-stop PLc / electrical braking PLa per ISO 13849.",
+  "safety_source": "https://docs.clearpathrobotics.com/docs_robots/outdoor_robots/husky/a300/user_manual_husky",
   "api_support": true,
   "sdk_available": true,
   "sdk_name": "ROS 2 Jazzy (Clearpath packages)",
@@ -63,6 +86,14 @@
   "runtime_h": 4,
   "battery_wh": 332,
   "ip_rating": "IP62",
+  "safety_standards": [],
+  "certifications": [
+   "FCC Part 18",
+   "ICES-002"
+  ],
+  "safety_pl": null,
+  "safety_note": "Maker's Husky/Jackal spec comparison lists FCC Part 18 / ICES-002 for Jackal and no ISO 12100 risk assessment.",
+  "safety_source": "https://clearpathrobotics.com/husky-spec-comparison/",
   "api_support": true,
   "sdk_available": true,
   "sdk_name": "ROS 2 Jazzy (Clearpath packages)",
@@ -80,7 +111,8 @@
   "sources": [
    "https://clearpathrobotics.com/jackal-small-unmanned-ground-vehicle/",
    "https://storage.pardot.com/92812/1748526832JH1SIJ41/JACKAL_DATA_SHEET_May2025.pdf",
-   "https://docs.clearpathrobotics.com/docs_robots/outdoor_robots/jackal/user_manual_jackal"
+   "https://docs.clearpathrobotics.com/docs_robots/outdoor_robots/jackal/user_manual_jackal",
+   "https://clearpathrobotics.com/husky-spec-comparison/"
   ],
   "summary": "Small, fast, weatherproof 4x4 field-robotics research UGV with onboard PC, GPS and IMU integrated with ROS 2."
  },
@@ -415,6 +447,11 @@
   "runtime_h": 2,
   "battery_wh": null,
   "ip_rating": null,
+  "safety_standards": [],
+  "certifications": [],
+  "safety_pl": null,
+  "safety_note": "Hardware guide: not certified as a consumer device; claimed as an exempt digital device under FCC 47 CFR 15.103(c).",
+  "safety_source": "https://github.com/hello-robot/stretch_hardware_guides/blob/master/docs/hardware_guide_stretch_3.md",
   "api_support": true,
   "sdk_available": true,
   "sdk_name": "Python SDK + ROS 2",
@@ -633,6 +670,23 @@
   "runtime_h": 10,
   "battery_wh": null,
   "ip_rating": null,
+  "safety_standards": [
+   "EN ISO 12100:2010",
+   "EN ISO 13849-1:2015",
+   "EN 1037:1995+A1:2008",
+   "EN ISO 13482:2014",
+   "ISO/TS 15066:2016",
+   "IEC 62133",
+   "EN 61000-6-2:2017",
+   "EN 61000-6-4:2017",
+   "EN 60204-1:2006/A1:2009"
+  ],
+  "certifications": [
+   "CE"
+  ],
+  "safety_pl": null,
+  "safety_note": "Maker: an industry certified version complies with CE marking under the Machinery Directive 2006/42/EC, Low Voltage Directive 2014/35/UE and EMC Directive 2014/30/UE, and is being tested to the EMC and EN 60204-1 norms by a certified laboratory.",
+  "safety_source": "https://pal-robotics.com/robot/tiago-base/",
   "api_support": true,
   "sdk_available": null,
   "sdk_name": null,
@@ -741,6 +795,15 @@
   "runtime_h": 6,
   "battery_wh": null,
   "ip_rating": null,
+  "safety_standards": [],
+  "certifications": [
+   "ATEX Zone 1",
+   "IECEx Zone 1",
+   "UL listed"
+  ],
+  "safety_pl": null,
+  "safety_note": "Maker: “ATEX, IECEx Zone 1 certified & UL-listed”.",
+  "safety_source": "https://www.exrobotics.com/products",
   "api_support": null,
   "sdk_available": null,
   "sdk_name": null,
@@ -936,6 +999,18 @@
   "runtime_h": 8,
   "battery_wh": null,
   "ip_rating": "IP54",
+  "safety_standards": [
+   "ISO 61340-5-1",
+   "ANSI ESD S20.20"
+  ],
+  "certifications": [
+   "UL",
+   "FCC",
+   "TÜV Saar (MRK system)"
+  ],
+  "safety_pl": null,
+  "safety_note": "Maker: UL and FCC approval “for the IoT devices” and a TÜV Saar tested MRK system; ESD qualification to ISO 61340-5-1 and ANSI ESD S20.20.",
+  "safety_source": "https://www.kuka.com/-/media/kuka-corporate/countries/nordic/documents/amr---autonomous-mobile-robotics.pdf",
   "api_support": null,
   "sdk_available": null,
   "sdk_name": null,
@@ -951,7 +1026,8 @@
   "price_note": null,
   "official_url": "https://www.kuka.com/en-de/products/amr-autonomous-mobile-robotics/mobile-robot-systems/kmr-iisy-autonomous-mobile-cobot",
   "sources": [
-   "https://www.kuka.com/en-de/products/amr-autonomous-mobile-robotics/mobile-robot-systems/kmr-iisy-autonomous-mobile-cobot"
+   "https://www.kuka.com/en-de/products/amr-autonomous-mobile-robotics/mobile-robot-systems/kmr-iisy-autonomous-mobile-cobot",
+   "https://www.kuka.com/-/media/kuka-corporate/countries/nordic/documents/amr---autonomous-mobile-robotics.pdf"
   ],
   "summary": "KUKA autonomous mobile cobot combining a SLAM-navigating platform (up to 200 kg) with an LBR iisy arm for machine tending, pick-and-place and cleanroom logistics.",
   "image_url": "https://www.kuka.com/-/media/kuka-corporate/images/products/mobility/kmr-iisy-mobile-cobot/kuka-kmr-iisy-mobile-cobot.jpg?rev=5a7824ca3d4743d688d471595472a703&w=767&hash=F431C8BCCFECAFC2D250451611FF4CBA",
@@ -1500,6 +1576,11 @@
   "runtime_h": null,
   "battery_wh": null,
   "ip_rating": null,
+  "safety_standards": [],
+  "certifications": [],
+  "safety_pl": null,
+  "safety_note": "Prototype manual: the E-stops are redundant, but the current design “does not claim compliance with IEC 60204-1 or ISO 13849-1”.",
+  "safety_source": "https://franka.de/hubfs/Prototype%20Manual%20and%20Datasheets%20_Mobile%20FR3%20Duo_R04245_EN.pdf",
   "api_support": true,
   "sdk_available": null,
   "sdk_name": "Franka Control Interface (FCI, 1 kHz)",
@@ -1553,6 +1634,11 @@
   "runtime_h": 8,
   "battery_wh": 512,
   "ip_rating": null,
+  "safety_standards": [],
+  "certifications": [],
+  "safety_pl": null,
+  "safety_note": "Datasheet: not yet certified for FCC Class A compliance; intended for research, development and laboratory use.",
+  "safety_source": "https://hello-robot.com/wp-content/uploads/2026/05/HelloRobot-DataSheet-Stretch-4-Rev5_AsLaunched.pdf",
   "api_support": true,
   "sdk_available": true,
   "sdk_name": "Stretch ROS 2 and Python SDK (open source)",

@@ -182,6 +182,15 @@
   "runtime_h": 10,
   "battery_wh": null,
   "ip_rating": null,
+  "safety_standards": [],
+  "certifications": [
+   "FCC Part 15 (Class A)",
+   "FCC ID PD99260NG",
+   "FCC ID 2AC7Z-ESPC3MINI1"
+  ],
+  "safety_pl": null,
+  "safety_note": "User manual, Standards Approvals (USA only).",
+  "safety_source": "https://www.bearrobotics.ai/s/200-Servi-Plus_User-Manual_EN.pdf",
   "api_support": null,
   "sdk_available": null,
   "sdk_name": null,
@@ -193,7 +202,8 @@
   "price_note": "battery life stated as 10-12 h; lower bound recorded",
   "official_url": "https://www.bearrobotics.ai/servi-plus",
   "sources": [
-   "https://www.bearrobotics.ai/servi-plus"
+   "https://www.bearrobotics.ai/servi-plus",
+   "https://www.bearrobotics.ai/s/200-Servi-Plus_User-Manual_EN.pdf"
   ],
   "summary": "High-capacity restaurant serving robot with 2-4 trays (10 kg each) and active suspension for soups and drinks."
  },
@@ -461,6 +471,13 @@
   "runtime_h": 8,
   "battery_wh": 1500,
   "ip_rating": null,
+  "safety_standards": [],
+  "certifications": [
+   "KIRIA outdoor mobile robot operation safety certification"
+  ],
+  "safety_pl": null,
+  "safety_note": "Certificate KIRIA-01-24-002-04 (changed 2026-06-15). Unsignalised crosswalks are crossed autonomously only after remote approval from the control centre.",
+  "safety_source": "https://www.kiria.org/portal/cert/portalCertEstiStats.do",
   "api_support": null,
   "sdk_available": null,
   "sdk_name": null,
@@ -504,6 +521,13 @@
   "runtime_h": null,
   "battery_wh": null,
   "ip_rating": null,
+  "safety_standards": [],
+  "certifications": [
+   "KIRIA outdoor mobile robot operation safety certification"
+  ],
+  "safety_pl": null,
+  "safety_note": "Certificate KIRIA-01-25-003-01 (first issued 2025-06-17). Registered operating limits: transparent obstacles are not detected; max 7.2 km/h on ramps.",
+  "safety_source": "https://www.kiria.org/portal/cert/portalCertEstiStats.do",
   "api_support": null,
   "sdk_available": null,
   "sdk_name": null,
