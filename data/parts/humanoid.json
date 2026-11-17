@@ -5768,8 +5768,8 @@
   "min_speed_mps": null,
   "wheel_diameter_mm": null,
   "wheel_count": null,
-  "dof": null,
-  "runtime_h": null,
+  "dof": 38,
+  "runtime_h": 6,
   "battery_wh": null,
   "ip_rating": null,
   "api_support": null,
@@ -5782,7 +5782,10 @@
   "price_usd": null,
   "price_note": null,
   "official_url": "https://www.gacgroup.com/en",
-  "sources": [],
+  "sources": [
+   "https://mp.weixin.qq.com/s/bPpAhBKxasnUm80UXLTqGA",
+   "https://www.gacgroup.com/cn/about/history"
+  ],
   "summary": "GAC's third-generation wheel-legged humanoid robot that switches between four-wheel and two-wheel modes for security, inspection and service tasks.",
   "image_url": null,
   "image_source": null,
@@ -5792,8 +5795,8 @@
    "https://embodied.guide/robots/gac-gomate/",
    "https://humanoid.guide/product/gomate/"
   ],
-  "verification": "unconfirmed",
-  "note": "GAC Group official news pages (gacgroup.com/cn/news/detail?baseid=18961 and 19014) failed to load (HTTP 408 x3); search excerpts of those maker pages state: third-generation full-size wheel-legged humanoid, 38 DoF, variable wheel-foot structure (4-wheel mode ~1.4 m, 2-wheel standing up to 1.75 m), unveiled 26 Dec 2024, runtime up to 6 h. Values left out because page not actually opened. Locomotion is WHEEL-LEGGED (not bipedal). GAC also has a 4th-gen 'GoMate Mini' (1.7 m, 27 DoF, 8 h) per its HKEX filing - different model."
+  "verification": "official",
+  "note": "Maker sources opened 2026-11-17: GAC Group's official WeChat post on the 26 Dec 2024 launch calls GoMate a full-size wheel-legged humanoid ('全尺寸的轮足人形机器人') with 38 DoF and an industry-first variable wheel-foot structure combining four-wheel-foot and two-wheel-foot modes (~1.4 m stable on four, up to 1.75 m standing on two); gacgroup.com history page states 'GoMate行业首创可变轮足'. Runtime up to 6 h on GAC's all-solid-state battery. Locomotion is WHEEL-LEGGED, not bipedal. height_mm left null because it depends on the mode. GoMate Mini is a separate 4th-gen model."
  },
  {
   "id": "genesis-ai-eno",
@@ -13077,8 +13080,10 @@
   "sensors": [],
   "price_usd": null,
   "price_note": null,
-  "official_url": null,
-  "sources": [],
+  "official_url": "https://www.realman-robotics.com/en/products/realbot-l2.html",
+  "sources": [
+   "https://www.realman-robotics.com/en/products/realbot-l2.html"
+  ],
   "summary": "",
   "image_url": null,
   "image_source": null,
@@ -13088,7 +13093,8 @@
    "https://embodied.guide/robots/realman-realbot-l2/",
    "https://humanoid.guide/product/realbot-l2/"
   ],
-  "verification": null
+  "verification": "official",
+  "note": "Maker product page (opened 2026-11-17): full-size wheeled dual-arm lift humanoid, 17 active DoF, 0-2.1 m vertical working range, 300 mm lift travel, 5 kg payload per arm, two-wheel differential chassis, 48 V 20 Ah / ~6 h, 650x512x1700 mm, ~120 kg, Jetson AGX Orin 64G (D-Robotics S100 option). Locomotion confirmed WHEELED (two-wheel differential chassis). Numeric spec fields left for the thin-record batch (issue #15)."
  },
  {
   "id": "realman-realbot-s2",
@@ -13121,8 +13127,10 @@
   "sensors": [],
   "price_usd": null,
   "price_note": null,
-  "official_url": null,
-  "sources": [],
+  "official_url": "https://www.realman-robotics.com/en/products/realbot-s2.html",
+  "sources": [
+   "https://www.realman-robotics.com/en/products/realbot-s2.html"
+  ],
   "summary": "",
   "image_url": null,
   "image_source": null,
@@ -13132,7 +13140,8 @@
    "https://embodied.guide/robots/realman-realbot-s2/",
    "https://humanoid.guide/product/realbot-s2/"
   ],
-  "verification": null
+  "verification": "official",
+  "note": "Maker product page (opened 2026-11-17): full-size wheeled dual-arm foldable humanoid, 20 active DoF, four-steer four-drive chassis, 0-2.1 m vertical working range, 0.69 m reach, 5 kg payload per arm, 0.1-1.5 m/s, 48 V 20 Ah / ~6 h, 614x552x1700 mm, ~125 kg, Wi-Fi / 5G optional. Locomotion confirmed WHEELED (four-steer four-drive chassis). Numeric spec fields left for the thin-record batch (issue #15)."
  },
  {
   "id": "robotera-q5",
@@ -16403,7 +16412,7 @@
   "manufacturer": "GAC Group",
   "country": "China",
   "category": "Humanoid",
-  "locomotion": "Legged",
+  "locomotion": "Wheel-legged",
   "release_year": null,
   "status": null,
   "length_mm": null,
@@ -16429,7 +16438,10 @@
   "price_usd": null,
   "price_note": null,
   "official_url": null,
-  "sources": [],
+  "sources": [
+   "https://www.gacgroup.com/cn/news/detail?baseid=19183",
+   "https://www.gacgroup.com/cn/news/detail?baseid=19068"
+  ],
   "summary": "",
   "image_url": null,
   "image_source": null,
@@ -16438,7 +16450,8 @@
    "https://embodied.guide/robots/gac-gomate-mini/",
    "https://humanoid.guide/product/gomate-mini/"
   ],
-  "verification": null
+  "verification": "official",
+  "note": "GAC official news pages, opened 2026-11-17: gacgroup.com baseid=19183 (21 Aug 2026) calls GoMate Mini '慧仑科技第四代轮足人形机器人' - GAC Huilun Technology's 4th-generation wheel-legged humanoid, and reports ~50 units deployed in Guangzhou, Hong Kong, Xiamen and Tianjin for factory-line and park security inspection; baseid=19068 (7 Jan 2026) calls it the 4th-generation embodied-AI humanoid. Locomotion corrected Legged -> Wheel-legged (轮足 = wheel-foot). No product page or datasheet published; remaining spec fields left empty."
  },
  {
   "id": "galaxea-r1-lite",
