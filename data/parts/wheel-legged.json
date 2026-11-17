@@ -944,7 +944,7 @@
   "category": "Wheel-legged",
   "locomotion": "Wheel-legged",
   "release_year": null,
-  "status": "Commercial",
+  "status": "Discontinued",
   "length_mm": 800,
   "width_mm": 500,
   "height_mm": 600,
@@ -972,7 +972,8 @@
   "price_note": null,
   "official_url": "https://www.deeprobotics.cn/en/index/deeproboticslynx.html",
   "sources": [
-   "https://www.deeprobotics.cn/en/index/deeproboticslynx.html"
+   "https://www.deeprobotics.cn/en/index/deeproboticslynx.html",
+   "https://www.deeprobotics.us/products/"
   ],
   "summary": "DEEP Robotics' original 30 kg wheel-legged all-terrain robot that climbs 80 cm platforms and reaches 5 m/s.",
   "image_url": null,
@@ -982,7 +983,7 @@
    "https://droid.monster/robots/deep-robotics/deeproboticslynx"
   ],
   "verification": "official",
-  "note": "Superseded in DEEP's lineup by the LYNX M20 (industrial, 2025) and Lynx S10 (2026); first-gen page still live. Range 15 km, step height 22 cm."
+  "note": "First generation of the LYNX wheel-legged line. Superseded in DEEP's lineup by the LYNX M20 (industrial, 2025) and Lynx S10 (2026) -> Discontinued: the maker's product list marks the earlier LYNX Sport line as discontinued and offers M20/S10 in its place, and this record's gen-1 page (deeprobotics.cn/en/index/deeproboticslynx.html) now returns 404 (checked 2026-11-17). Range 15 km, step height 22 cm."
  },
  {
   "id": "galileo-c1-w",
