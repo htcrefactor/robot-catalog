@@ -14,7 +14,11 @@ function setLang(l){localStorage.setItem("lang",l);location.reload();}
 function applyI18n(){document.querySelectorAll("[data-i18n]").forEach(e=>e.textContent=t(e.dataset.i18n));document.querySelectorAll("[data-i18n-ph]").forEach(e=>e.placeholder=t(e.dataset.i18nPh));}
 document.addEventListener("DOMContentLoaded",applyI18n);
 // ---- helpers ----
-const FEATURES=[["api_support","api"],["sdk_available","sdk"],["onboard_compute","onboard"],["ros_support","ros"]];
+const FEATURES=[["api_support","api"],["sdk_available","sdk"],["ros_support","ros"],["ros2_support","ros2"],["onboard_compute","onboard"]];
+// Developer-readiness filters (issue #29): each one narrows the list, nothing is scored.
+const SIMK=["urdf","mjcf","usd","isaac","mujoco","gazebo"];
+const hasSim=(r,k)=>!!(r.sim_models&&r.sim_models[k]);
+const DEV_FILTERS=[["sdk",r=>r.sdk_available===true||!!r.sdk],["ros2",r=>r.ros2_support===true],["urdf",r=>hasSim(r,"urdf")],["mjcf",r=>hasSim(r,"mjcf")],["usd",r=>hasSim(r,"usd")||hasSim(r,"isaac")],["mujoco",r=>hasSim(r,"mjcf")||hasSim(r,"mujoco")],["oss",r=>!!(r.sdk&&r.sdk.open_source===true)||(r.open_source_repos||[]).length>0]];
 const esc=s=>String(s??"").replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
 const fmt=(v,u="")=>v===null||v===undefined||v===""?"—":(typeof v==="number"?(+v.toFixed(2)).toLocaleString():esc(v))+(u?` ${u}`:"");
 const yn=v=>v===true?`<span class="badge yes">${t("yes")}</span>`:v===false?`<span class="badge no">${t("no")}</span>`:`<span class="badge unk">${t("ns")}</span>`;

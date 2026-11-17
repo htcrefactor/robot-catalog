@@ -40,7 +40,7 @@ table.mega td:first-child,table.mega th:first-child{position:sticky;left:0;backg
 table.mega tr:nth-child(even) td{background:var(--zebra)}table.mega tr:nth-child(odd) td{background:var(--card)}
 table.mega td.num{text-align:right;font-variant-numeric:tabular-nums}
 .spec{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:16px}
-.spec table{width:100%;border-collapse:collapse}.spec td{padding:7px 0;border-bottom:1px solid var(--line);vertical-align:top}.spec td:first-child{color:var(--muted);width:45%}
+.spec table{width:100%;border-collapse:collapse}.spec td{padding:7px 0;border-bottom:1px solid var(--line);vertical-align:top}.spec td:first-child{color:var(--muted);width:45%}.spec td:last-child{word-break:break-word}
 .btn{border:1px solid var(--line);background:var(--input);color:var(--ink);border-radius:8px;padding:8px 12px;cursor:pointer;font:inherit;font-size:13px}
 footer{max-width:1280px;margin:0 auto;padding:12px 24px 40px;color:var(--muted);font-size:12px}
 @media(max-width:600px){.cols{grid-template-columns:1fr}main{padding:14px}}

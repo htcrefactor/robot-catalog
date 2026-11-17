@@ -24,15 +24,63 @@
   "api_support": null,
   "sdk_available": null,
   "sdk_name": null,
+  "sdk": {
+   "languages": [
+    "C++",
+    "Python"
+   ],
+   "open_source": true,
+   "license": "BSD-3-Clause",
+   "url": "https://github.com/unitreerobotics/unitree_sdk2"
+  },
   "onboard_compute": true,
   "compute_detail": "Intel Core i5 (platform) + Intel Core i7 (user development); optional Intel Core i7 or Orin NX, up to 3 devices",
   "ros_support": null,
+  "sim_models": {
+   "urdf": {
+    "url": "https://github.com/unitreerobotics/unitree_ros/blob/master/robots/b2w_description/urdf/b2w_description.urdf",
+    "license": "BSD-3-Clause"
+   }
+  },
+  "open_source_repos": [
+   {
+    "name": "unitree_sdk2",
+    "url": "https://github.com/unitreerobotics/unitree_sdk2",
+    "license": "BSD-3-Clause"
+   },
+   {
+    "name": "unitree_sdk2_python",
+    "url": "https://github.com/unitreerobotics/unitree_sdk2_python",
+    "license": "BSD-3-Clause"
+   },
+   {
+    "name": "unitree_ros",
+    "url": "https://github.com/unitreerobotics/unitree_ros",
+    "license": "BSD-3-Clause"
+   },
+   {
+    "name": "unitree_ros2",
+    "url": "https://github.com/unitreerobotics/unitree_ros2",
+    "license": "BSD-3-Clause"
+   },
+   {
+    "name": "unitree_mujoco",
+    "url": "https://github.com/unitreerobotics/unitree_mujoco",
+    "license": "BSD-3-Clause"
+   }
+  ],
   "sensors": [],
   "price_usd": null,
   "price_note": null,
   "official_url": "https://www.unitree.com/b2-w",
   "sources": [
-   "https://www.unitree.com/b2-w"
+   "https://www.unitree.com/b2-w",
+   "https://github.com/unitreerobotics/unitree_sdk2",
+   "https://github.com/unitreerobotics/unitree_ros/blob/master/robots/b2w_description/urdf/b2w_description.urdf",
+   "https://github.com/unitreerobotics/unitree_sdk2_python",
+   "https://github.com/unitreerobotics/unitree_ros",
+   "https://github.com/unitreerobotics/unitree_ros2",
+   "https://github.com/unitreerobotics/unitree_mujoco"
   ],
   "summary": "Industrial wheel-legged quadruped (B2 with wheeled feet) for long-range inspection and patrol; >40 kg walking load (120 kg standing), 15 km/h max in special configuration, ~25 km range with 40 kg."
  },
@@ -61,9 +109,51 @@
   "api_support": null,
   "sdk_available": true,
   "sdk_name": null,
+  "sdk": {
+   "languages": [
+    "C++",
+    "Python"
+   ],
+   "open_source": true,
+   "license": "BSD-3-Clause",
+   "url": "https://github.com/unitreerobotics/unitree_sdk2"
+  },
   "onboard_compute": null,
   "compute_detail": "8-core high-performance CPU; optional expansion module (e.g. Orin NX)",
   "ros_support": null,
+  "sim_models": {
+   "urdf": {
+    "url": "https://github.com/unitreerobotics/unitree_ros/blob/master/robots/go2w_description/urdf/go2w_description.urdf",
+    "license": "BSD-3-Clause"
+   }
+  },
+  "open_source_repos": [
+   {
+    "name": "unitree_sdk2",
+    "url": "https://github.com/unitreerobotics/unitree_sdk2",
+    "license": "BSD-3-Clause"
+   },
+   {
+    "name": "unitree_sdk2_python",
+    "url": "https://github.com/unitreerobotics/unitree_sdk2_python",
+    "license": "BSD-3-Clause"
+   },
+   {
+    "name": "unitree_ros",
+    "url": "https://github.com/unitreerobotics/unitree_ros",
+    "license": "BSD-3-Clause"
+   },
+   {
+    "name": "unitree_ros2",
+    "url": "https://github.com/unitreerobotics/unitree_ros2",
+    "license": "BSD-3-Clause"
+   },
+   {
+    "name": "unitree_mujoco",
+    "url": "https://github.com/unitreerobotics/unitree_mujoco",
+    "license": "BSD-3-Clause"
+   }
+  ],
   "sensors": [
    "Super-wide-angle 3D LiDAR",
    "HD wide-angle camera"
@@ -72,7 +162,13 @@
   "price_note": null,
   "official_url": "https://www.unitree.com/go2-w",
   "sources": [
-   "https://www.unitree.com/go2-w"
+   "https://www.unitree.com/go2-w",
+   "https://github.com/unitreerobotics/unitree_sdk2",
+   "https://github.com/unitreerobotics/unitree_ros/blob/master/robots/go2w_description/urdf/go2w_description.urdf",
+   "https://github.com/unitreerobotics/unitree_sdk2_python",
+   "https://github.com/unitreerobotics/unitree_ros",
+   "https://github.com/unitreerobotics/unitree_ros2",
+   "https://github.com/unitreerobotics/unitree_mujoco"
   ],
   "summary": "Consumer/education wheel-legged version of Go2 with 7-inch pneumatic in-wheel-motor tyres; runtime stated 1.5–3 h (lower bound recorded), payload ≈8 kg (max ~12 kg)."
  },
@@ -145,6 +241,12 @@
   "onboard_compute": null,
   "compute_detail": "8-core high-performance CPU; optional high-compute expansion dock (e.g. Orin NX, 150 TOPS module)",
   "ros_support": null,
+  "sim_models": {
+   "urdf": {
+    "url": "https://github.com/unitreerobotics/unitree_ros/blob/master/robots/as2w_description/as2w.urdf",
+    "license": "BSD-3-Clause"
+   }
+  },
   "sensors": [
    "64–128-line LiDAR",
    "HD camera",
@@ -155,7 +257,8 @@
   "price_note": "Contact sales",
   "official_url": "https://www.unitree.com/As2-W",
   "sources": [
-   "https://www.unitree.com/As2-W"
+   "https://www.unitree.com/As2-W",
+   "https://github.com/unitreerobotics/unitree_ros/blob/master/robots/as2w_description/as2w.urdf"
   ],
   "summary": "Compact wheel-legged quadruped with 7-inch wheels, side-follow mode and SDK/APIs for security, inspection and outdoor carrying; 0–3.7 m/s normal, ~6 m/s max."
  },
@@ -187,6 +290,20 @@
   "onboard_compute": null,
   "compute_detail": "Dual octa-core 64-bit industrial processors (16GB+128GB) ×2 (M20 Pro: ×3)",
   "ros_support": null,
+  "sim_models": {
+   "urdf": {
+    "url": "https://github.com/DeepRoboticsLab/deep_robotics_model/blob/main/M20/urdf/M20.urdf",
+    "license": "BSD-3-Clause"
+   },
+   "mjcf": {
+    "url": "https://github.com/DeepRoboticsLab/deep_robotics_model/blob/main/M20/mjcf/M20.xml",
+    "license": "BSD-3-Clause"
+   },
+   "usd": {
+    "url": "https://github.com/DeepRoboticsLab/deep_robotics_model/blob/main/M20/usd/M20.usd",
+    "license": "BSD-3-Clause"
+   }
+  },
   "sensors": [
    "96-line LiDAR ×2",
    "Wide-angle camera ×2"
@@ -196,7 +313,10 @@
   "official_url": "https://www.deeprobotics.cn/en/index/lynx.html",
   "sources": [
    "https://www.deeprobotics.us/products/lynx-m20",
-   "https://www.deeprobotics.us/wp-content/uploads/2025/08/Lynx-M20-Pro-User-Manual-V1.0.2-0.pdf"
+   "https://www.deeprobotics.us/wp-content/uploads/2025/08/Lynx-M20-Pro-User-Manual-V1.0.2-0.pdf",
+   "https://github.com/DeepRoboticsLab/deep_robotics_model/blob/main/M20/urdf/M20.urdf",
+   "https://github.com/DeepRoboticsLab/deep_robotics_model/blob/main/M20/mjcf/M20.xml",
+   "https://github.com/DeepRoboticsLab/deep_robotics_model/blob/main/M20/usd/M20.usd"
   ],
   "summary": "Industrial wheel-legged quadruped for power inspection, emergency response and field work; 5 m/s lab-tested max (2 m/s operating), 80 cm single step, hot-swap batteries; M20 Pro manual lists 35 kg."
  },
@@ -466,6 +586,20 @@
   "onboard_compute": null,
   "compute_detail": "Octa-core 64-bit industrial processor (×1 S10, ×2 S10 Pro)",
   "ros_support": null,
+  "sim_models": {
+   "urdf": {
+    "url": "https://github.com/DeepRoboticsLab/deep_robotics_model/blob/main/S10/urdf/S10.urdf",
+    "license": "BSD-3-Clause"
+   },
+   "mjcf": {
+    "url": "https://github.com/DeepRoboticsLab/deep_robotics_model/blob/main/S10/mjcf/S10.xml",
+    "license": "BSD-3-Clause"
+   },
+   "usd": {
+    "url": "https://github.com/DeepRoboticsLab/deep_robotics_model/blob/main/S10/usd/S10.usd",
+    "license": "BSD-3-Clause"
+   }
+  },
   "sensors": [
    "LiDAR (front/rear on Pro)",
    "Wide-angle cameras (×4 on Pro)",
@@ -475,7 +609,10 @@
   "price_note": null,
   "official_url": "https://www.deeprobotics.cn/en/products/detail/2.html",
   "sources": [
-   "https://www.deeprobotics.cn/en/products/detail/2.html"
+   "https://www.deeprobotics.cn/en/products/detail/2.html",
+   "https://github.com/DeepRoboticsLab/deep_robotics_model/blob/main/S10/urdf/S10.urdf",
+   "https://github.com/DeepRoboticsLab/deep_robotics_model/blob/main/S10/mjcf/S10.xml",
+   "https://github.com/DeepRoboticsLab/deep_robotics_model/blob/main/S10/usd/S10.usd"
   ],
   "summary": "Compact 21 kg all-terrain wheel-legged robot for inspection, patrol, search-and-rescue and research, IP66-rated with autonomous charging.",
   "image_url": null,

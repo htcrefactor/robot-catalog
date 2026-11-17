@@ -24,9 +24,27 @@
   "api_support": true,
   "sdk_available": true,
   "sdk_name": "ROS 2 Jazzy (Clearpath packages)",
+  "sdk": {
+   "languages": [
+    "C++",
+    "Python"
+   ],
+   "open_source": true,
+   "license": "BSD-3-Clause",
+   "url": "https://github.com/clearpathrobotics/clearpath_robot"
+  },
   "onboard_compute": true,
   "compute_detail": "Standard Intel i3-13100TE; Performance Intel i7-13700TE (GPU optional)",
   "ros_support": true,
+  "ros2_support": true,
+  "ros2_url": "https://github.com/clearpathrobotics/clearpath_robot",
+  "open_source_repos": [
+   {
+    "name": "clearpath_robot",
+    "url": "https://github.com/clearpathrobotics/clearpath_robot",
+    "license": "BSD-3-Clause"
+   }
+  ],
   "sensors": [
    "Wheel encoders"
   ],
@@ -37,7 +55,8 @@
    "https://clearpathrobotics.com/husky-a300-unmanned-ground-vehicle-robot/",
    "https://storage.pardot.com/92812/1728925412aC5a34ww/Husky_A300_DataSheet_Oct24.pdf",
    "https://clearpathrobotics.com/husky-spec-comparison/",
-   "https://docs.clearpathrobotics.com/docs_robots/outdoor_robots/husky/a300/user_manual_husky"
+   "https://docs.clearpathrobotics.com/docs_robots/outdoor_robots/husky/a300/user_manual_husky",
+   "https://github.com/clearpathrobotics/clearpath_robot"
   ],
   "summary": "Rugged all-terrain 4-wheel skid-steer UGV for outdoor robotics research and field prototyping, shipped with ROS 2."
  },
@@ -66,9 +85,27 @@
   "api_support": true,
   "sdk_available": true,
   "sdk_name": "ROS 2 Jazzy (Clearpath packages)",
+  "sdk": {
+   "languages": [
+    "C++",
+    "Python"
+   ],
+   "open_source": true,
+   "license": "BSD-3-Clause",
+   "url": "https://github.com/clearpathrobotics/clearpath_robot"
+  },
   "onboard_compute": true,
   "compute_detail": "Standard Intel i3-9100TE 16GB; Performance Intel i7-9700TE 16GB",
   "ros_support": true,
+  "ros2_support": true,
+  "ros2_url": "https://github.com/clearpathrobotics/clearpath_robot",
+  "open_source_repos": [
+   {
+    "name": "clearpath_robot",
+    "url": "https://github.com/clearpathrobotics/clearpath_robot",
+    "license": "BSD-3-Clause"
+   }
+  ],
   "sensors": [
    "GPS",
    "IMU",
@@ -80,7 +117,8 @@
   "sources": [
    "https://clearpathrobotics.com/jackal-small-unmanned-ground-vehicle/",
    "https://storage.pardot.com/92812/1748526832JH1SIJ41/JACKAL_DATA_SHEET_May2025.pdf",
-   "https://docs.clearpathrobotics.com/docs_robots/outdoor_robots/jackal/user_manual_jackal"
+   "https://docs.clearpathrobotics.com/docs_robots/outdoor_robots/jackal/user_manual_jackal",
+   "https://github.com/clearpathrobotics/clearpath_robot"
   ],
   "summary": "Small, fast, weatherproof 4x4 field-robotics research UGV with onboard PC, GPS and IMU integrated with ROS 2."
  },
@@ -109,9 +147,27 @@
   "api_support": true,
   "sdk_available": true,
   "sdk_name": "ROS 2 Jazzy; MoveIt / MoveIt Pro",
+  "sdk": {
+   "languages": [
+    "C++",
+    "Python"
+   ],
+   "open_source": true,
+   "license": "BSD-3-Clause",
+   "url": "https://github.com/clearpathrobotics/clearpath_robot"
+  },
   "onboard_compute": true,
   "compute_detail": null,
   "ros_support": true,
+  "ros2_support": true,
+  "ros2_url": "https://github.com/clearpathrobotics/clearpath_robot",
+  "open_source_repos": [
+   {
+    "name": "clearpath_robot",
+    "url": "https://github.com/clearpathrobotics/clearpath_robot",
+    "license": "BSD-3-Clause"
+   }
+  ],
   "sensors": [
    "2D LiDAR (front, optional rear)",
    "IMU",
@@ -123,7 +179,8 @@
   "sources": [
    "https://clearpathrobotics.com/ridgeback-indoor-robot-platform/",
    "https://storage.pardot.com/92812/1748526548LF9RMqfY/RIDGEBACK_DATA_SHEET_May2025.pdf",
-   "https://docs.clearpathrobotics.com/docs_robots/indoor_robots/ridgeback/user_manual_ridgeback"
+   "https://docs.clearpathrobotics.com/docs_robots/indoor_robots/ridgeback/user_manual_ridgeback",
+   "https://github.com/clearpathrobotics/clearpath_robot"
   ],
   "summary": "Indoor omnidirectional mecanum-wheel base for carrying manipulators and heavy payloads in mobile-manipulation research."
  },
@@ -152,16 +209,35 @@
   "api_support": true,
   "sdk_available": true,
   "sdk_name": "ROS 2 Jazzy (Clearpath packages)",
+  "sdk": {
+   "languages": [
+    "C++",
+    "Python"
+   ],
+   "open_source": true,
+   "license": "BSD-3-Clause",
+   "url": "https://github.com/clearpathrobotics/clearpath_robot"
+  },
   "onboard_compute": null,
   "compute_detail": null,
   "ros_support": true,
+  "ros2_support": true,
+  "ros2_url": "https://github.com/clearpathrobotics/clearpath_robot",
+  "open_source_repos": [
+   {
+    "name": "clearpath_robot",
+    "url": "https://github.com/clearpathrobotics/clearpath_robot",
+    "license": "BSD-3-Clause"
+   }
+  ],
   "sensors": [],
   "price_usd": null,
   "price_note": null,
   "official_url": "https://clearpathrobotics.com/dingo-indoor-mobile-robot/",
   "sources": [
    "https://clearpathrobotics.com/dingo-indoor-mobile-robot/",
-   "https://docs.clearpathrobotics.com/docs_robots/indoor_robots/dingo/user_manual_dingo"
+   "https://docs.clearpathrobotics.com/docs_robots/indoor_robots/dingo/user_manual_dingo",
+   "https://github.com/clearpathrobotics/clearpath_robot"
   ],
   "summary": "Lightweight, low-profile indoor omnidirectional (mecanum) base for robotics research and education; a differential Dingo-D variant also exists."
  },
@@ -190,16 +266,53 @@
   "api_support": true,
   "sdk_available": true,
   "sdk_name": "AgileX UGV SDK (C++) + CAN protocol",
+  "sdk": {
+   "languages": [
+    "C++"
+   ],
+   "open_source": true,
+   "license": "Apache-2.0",
+   "url": "https://github.com/agilexrobotics/ugv_sdk"
+  },
   "onboard_compute": false,
   "compute_detail": null,
   "ros_support": true,
+  "ros2_support": true,
+  "ros2_url": "https://github.com/agilexrobotics/scout_ros2",
+  "sim_models": {
+   "urdf": {
+    "url": "https://github.com/agilexrobotics/scout_ros2/blob/humble/scout_description/urdf/scout_v2.urdf",
+    "license": "Apache-2.0"
+   }
+  },
+  "open_source_repos": [
+   {
+    "name": "ugv_sdk",
+    "url": "https://github.com/agilexrobotics/ugv_sdk",
+    "license": "Apache-2.0"
+   },
+   {
+    "name": "pyagxrobots",
+    "url": "https://github.com/agilexrobotics/pyagxrobots",
+    "license": "MIT"
+   },
+   {
+    "name": "scout_ros2",
+    "url": "https://github.com/agilexrobotics/scout_ros2",
+    "license": "Apache-2.0"
+   }
+  ],
   "sensors": [],
   "price_usd": null,
   "price_note": null,
   "official_url": "https://global.agilex.ai/products/scout-2-0",
   "sources": [
    "https://global.agilex.ai/products/scout-2-0",
-   "https://cdn.shopify.com/s/files/1/0551/0630/6141/files/SCOUT_2.0_USER_MANUAL.pdf?v=1787960361"
+   "https://cdn.shopify.com/s/files/1/0551/0630/6141/files/SCOUT_2.0_USER_MANUAL.pdf?v=1787960361",
+   "https://github.com/agilexrobotics/ugv_sdk",
+   "https://github.com/agilexrobotics/scout_ros2",
+   "https://github.com/agilexrobotics/scout_ros2/blob/humble/scout_description/urdf/scout_v2.urdf",
+   "https://github.com/agilexrobotics/pyagxrobots"
   ],
   "summary": "Heavy-duty four-wheel-differential off-road UGV chassis for outdoor patrol, inspection, agriculture and field research builds."
  },
@@ -228,16 +341,39 @@
   "api_support": true,
   "sdk_available": true,
   "sdk_name": "AgileX UGV SDK (C++) + CAN protocol",
+  "sdk": {
+   "languages": [
+    "C++"
+   ],
+   "open_source": true,
+   "license": "Apache-2.0",
+   "url": "https://github.com/agilexrobotics/ugv_sdk"
+  },
   "onboard_compute": false,
   "compute_detail": null,
   "ros_support": true,
+  "open_source_repos": [
+   {
+    "name": "ugv_sdk",
+    "url": "https://github.com/agilexrobotics/ugv_sdk",
+    "license": "Apache-2.0"
+   },
+   {
+    "name": "pyagxrobots",
+    "url": "https://github.com/agilexrobotics/pyagxrobots",
+    "license": "MIT"
+   }
+  ],
   "sensors": [],
   "price_usd": null,
   "price_note": null,
   "official_url": "https://global.agilex.ai/products/scout-mini",
   "sources": [
    "https://global.agilex.ai/products/scout-mini",
-   "https://cdn.shopify.com/s/files/1/0551/0630/6141/files/SCOUT_MINI_USER_MANUAL_AgileX.pdf?v=1792636734"
+   "https://cdn.shopify.com/s/files/1/0551/0630/6141/files/SCOUT_MINI_USER_MANUAL_AgileX.pdf?v=1792636734",
+   "https://github.com/agilexrobotics/ugv_sdk",
+   "https://github.com/agilexrobotics/pyagxrobots",
+   "https://github.com/agilexrobotics/scout_ros"
   ],
   "summary": "Compact 4WD hub-motor differential base for outdoor navigation research, sensor integration and mobile manipulation."
  },
@@ -266,15 +402,45 @@
   "api_support": true,
   "sdk_available": true,
   "sdk_name": "AgileX UGV SDK (C++) + CAN protocol",
+  "sdk": {
+   "languages": [
+    "C++"
+   ],
+   "open_source": true,
+   "license": "Apache-2.0",
+   "url": "https://github.com/agilexrobotics/ugv_sdk"
+  },
   "onboard_compute": null,
   "compute_detail": null,
   "ros_support": true,
+  "ros2_support": true,
+  "ros2_url": "https://github.com/agilexrobotics/bunker_ros2",
+  "open_source_repos": [
+   {
+    "name": "ugv_sdk",
+    "url": "https://github.com/agilexrobotics/ugv_sdk",
+    "license": "Apache-2.0"
+   },
+   {
+    "name": "pyagxrobots",
+    "url": "https://github.com/agilexrobotics/pyagxrobots",
+    "license": "MIT"
+   },
+   {
+    "name": "bunker_ros2",
+    "url": "https://github.com/agilexrobotics/bunker_ros2",
+    "license": "Apache-2.0"
+   }
+  ],
   "sensors": [],
   "price_usd": null,
   "price_note": null,
   "official_url": "https://global.agilex.ai/products/bunker-pro",
   "sources": [
-   "https://global.agilex.ai/products/bunker-pro"
+   "https://global.agilex.ai/products/bunker-pro",
+   "https://github.com/agilexrobotics/ugv_sdk",
+   "https://github.com/agilexrobotics/bunker_ros2",
+   "https://github.com/agilexrobotics/pyagxrobots"
   ],
   "summary": "Heavy-duty IP67 tracked chassis for industrial inspection, emergency response and material transport over rugged terrain."
  },
@@ -303,16 +469,46 @@
   "api_support": true,
   "sdk_available": true,
   "sdk_name": "AgileX UGV SDK (C++) + CAN protocol",
+  "sdk": {
+   "languages": [
+    "C++"
+   ],
+   "open_source": true,
+   "license": "Apache-2.0",
+   "url": "https://github.com/agilexrobotics/ugv_sdk"
+  },
   "onboard_compute": null,
   "compute_detail": null,
   "ros_support": true,
+  "ros2_support": true,
+  "ros2_url": "https://github.com/agilexrobotics/ranger_ros2",
+  "open_source_repos": [
+   {
+    "name": "ugv_sdk",
+    "url": "https://github.com/agilexrobotics/ugv_sdk",
+    "license": "Apache-2.0"
+   },
+   {
+    "name": "pyagxrobots",
+    "url": "https://github.com/agilexrobotics/pyagxrobots",
+    "license": "MIT"
+   },
+   {
+    "name": "ranger_ros2",
+    "url": "https://github.com/agilexrobotics/ranger_ros2",
+    "license": "BSD-3-Clause"
+   }
+  ],
   "sensors": [],
   "price_usd": null,
   "price_note": null,
   "official_url": "https://global.agilex.ai/products/ranger-mini-3",
   "sources": [
    "https://global.agilex.ai/products/ranger-mini-3",
-   "https://www.agilex.ai/products/ranger-mini"
+   "https://www.agilex.ai/products/ranger-mini",
+   "https://github.com/agilexrobotics/ugv_sdk",
+   "https://github.com/agilexrobotics/ranger_ros2",
+   "https://github.com/agilexrobotics/pyagxrobots"
   ],
   "summary": "Four-wheel-drive, four-wheel-steer omnidirectional base for delivery, logistics and indoor-outdoor AMR development."
  },
@@ -341,15 +537,45 @@
   "api_support": true,
   "sdk_available": true,
   "sdk_name": "AgileX UGV SDK (C++) + CAN protocol",
+  "sdk": {
+   "languages": [
+    "C++"
+   ],
+   "open_source": true,
+   "license": "Apache-2.0",
+   "url": "https://github.com/agilexrobotics/ugv_sdk"
+  },
   "onboard_compute": false,
   "compute_detail": null,
   "ros_support": true,
+  "ros2_support": true,
+  "ros2_url": "https://github.com/agilexrobotics/tracer_ros2",
+  "open_source_repos": [
+   {
+    "name": "ugv_sdk",
+    "url": "https://github.com/agilexrobotics/ugv_sdk",
+    "license": "Apache-2.0"
+   },
+   {
+    "name": "pyagxrobots",
+    "url": "https://github.com/agilexrobotics/pyagxrobots",
+    "license": "MIT"
+   },
+   {
+    "name": "tracer_ros2",
+    "url": "https://github.com/agilexrobotics/tracer_ros2",
+    "license": "Apache-2.0"
+   }
+  ],
   "sensors": [],
   "price_usd": null,
   "price_note": null,
   "official_url": "https://global.agilex.ai/products/tracer-2-0-150kg-payload-indoor-mobile-robot",
   "sources": [
-   "https://global.agilex.ai/products/tracer-2-0-150kg-payload-indoor-mobile-robot"
+   "https://global.agilex.ai/products/tracer-2-0-150kg-payload-indoor-mobile-robot",
+   "https://github.com/agilexrobotics/ugv_sdk",
+   "https://github.com/agilexrobotics/tracer_ros2",
+   "https://github.com/agilexrobotics/pyagxrobots"
   ],
   "summary": "Low-profile two-wheel-differential indoor base (54–56 kg) for AGV/AMR material transport and line-side delivery development."
  },
@@ -378,9 +604,42 @@
   "api_support": true,
   "sdk_available": true,
   "sdk_name": "ROS 2 (TurtleBot 4 packages)",
+  "sdk": {
+   "languages": [
+    "C++",
+    "Python"
+   ],
+   "open_source": true,
+   "license": "Apache-2.0",
+   "url": "https://github.com/turtlebot/turtlebot4"
+  },
   "onboard_compute": true,
   "compute_detail": "Raspberry Pi 4B 4GB",
   "ros_support": true,
+  "ros2_support": true,
+  "ros2_url": "https://github.com/turtlebot/turtlebot4",
+  "sim_models": {
+   "urdf": {
+    "url": "https://github.com/turtlebot/turtlebot4/blob/jazzy/turtlebot4_description/urdf/standard/turtlebot4.urdf.xacro",
+    "license": "Apache-2.0"
+   },
+   "gazebo": {
+    "url": "https://github.com/turtlebot/turtlebot4_simulator",
+    "license": "Apache-2.0"
+   }
+  },
+  "open_source_repos": [
+   {
+    "name": "turtlebot4",
+    "url": "https://github.com/turtlebot/turtlebot4",
+    "license": "Apache-2.0"
+   },
+   {
+    "name": "turtlebot4_simulator",
+    "url": "https://github.com/turtlebot/turtlebot4_simulator",
+    "license": "Apache-2.0"
+   }
+  ],
   "sensors": [
    "2D LiDAR (RPLIDAR A1M8)",
    "Depth camera (OAK-D-Pro)"
@@ -389,7 +648,10 @@
   "price_note": null,
   "official_url": "https://turtlebot.github.io/turtlebot4-user-manual/overview/features.html",
   "sources": [
-   "https://turtlebot.github.io/turtlebot4-user-manual/overview/features.html"
+   "https://turtlebot.github.io/turtlebot4-user-manual/overview/features.html",
+   "https://github.com/turtlebot/turtlebot4",
+   "https://github.com/turtlebot/turtlebot4/blob/jazzy/turtlebot4_description/urdf/standard/turtlebot4.urdf.xacro",
+   "https://github.com/turtlebot/turtlebot4_simulator"
   ],
   "summary": "Low-cost ROS 2 education and research robot built on the iRobot Create 3 base with lidar, stereo-depth camera and Raspberry Pi."
  },
@@ -418,9 +680,46 @@
   "api_support": true,
   "sdk_available": true,
   "sdk_name": "Python SDK + ROS 2",
+  "sdk": {
+   "languages": [
+    "Python"
+   ],
+   "open_source": true,
+   "license": "LGPL-3.0",
+   "url": "https://github.com/hello-robot/stretch_body"
+  },
   "onboard_compute": true,
   "compute_detail": "Intel NUC 12",
   "ros_support": true,
+  "ros2_support": true,
+  "ros2_url": "https://github.com/hello-robot/stretch_ros2",
+  "sim_models": {
+   "urdf": {
+    "url": "https://github.com/hello-robot/stretch_urdf",
+    "license": "BSD-3-Clause-Clear"
+   },
+   "mujoco": {
+    "url": "https://github.com/hello-robot/stretch_mujoco",
+    "license": "BSD-3-Clause-Clear"
+   }
+  },
+  "open_source_repos": [
+   {
+    "name": "stretch_body",
+    "url": "https://github.com/hello-robot/stretch_body",
+    "license": "LGPL-3.0"
+   },
+   {
+    "name": "stretch_urdf",
+    "url": "https://github.com/hello-robot/stretch_urdf",
+    "license": "BSD-3-Clause-Clear"
+   },
+   {
+    "name": "stretch_mujoco",
+    "url": "https://github.com/hello-robot/stretch_mujoco",
+    "license": "BSD-3-Clause-Clear"
+   }
+  ],
   "sensors": [
    "Head RGB-D camera",
    "Gripper RGB-D camera",
@@ -433,7 +732,11 @@
   "official_url": "https://hello-stretch3.com/stretch-3-product",
   "sources": [
    "https://hello-stretch3.com/stretch-3-product",
-   "https://github.com/hello-robot/stretch_hardware_guides/blob/master/docs/hardware_guide_stretch_3.md"
+   "https://github.com/hello-robot/stretch_hardware_guides/blob/master/docs/hardware_guide_stretch_3.md",
+   "https://github.com/hello-robot/stretch_body",
+   "https://github.com/hello-robot/stretch_ros2",
+   "https://github.com/hello-robot/stretch_urdf",
+   "https://github.com/hello-robot/stretch_mujoco"
   ],
   "summary": "Lightweight differential-drive mobile manipulator with lift and telescoping arm for in-home and assistive manipulation research."
  },
@@ -639,6 +942,8 @@
   "onboard_compute": null,
   "compute_detail": null,
   "ros_support": true,
+  "ros2_support": true,
+  "ros2_url": "https://github.com/pal-robotics/tiago_robot",
   "sensors": [
    "LiDAR",
    "RGB-D camera (add-on)"
@@ -647,7 +952,8 @@
   "price_note": null,
   "official_url": "https://pal-robotics.com/robot/tiago-base/",
   "sources": [
-   "https://pal-robotics.com/robot/tiago-base/"
+   "https://pal-robotics.com/robot/tiago-base/",
+   "https://github.com/pal-robotics/tiago_robot"
   ],
   "summary": "Customisable ROS-based AMR base for logistics and research carrying 70 kg at up to 1 m/s with up to 10 h autonomy.",
   "image_url": "https://pal-robotics.com/wp-content/uploads/2024/04/TIAGo-Base-Robot-1.webp",
@@ -693,6 +999,8 @@
   "onboard_compute": null,
   "compute_detail": null,
   "ros_support": true,
+  "ros2_support": true,
+  "ros2_url": "https://github.com/pal-robotics/tiago_robot",
   "sensors": [
    "2x LiDAR",
    "RGB-D camera (optional)"
@@ -701,7 +1009,8 @@
   "price_note": null,
   "official_url": "https://pal-robotics.com/robot/tiago-omni-base/",
   "sources": [
-   "https://pal-robotics.com/robot/tiago-omni-base/"
+   "https://pal-robotics.com/robot/tiago-omni-base/",
+   "https://github.com/pal-robotics/tiago_robot"
   ],
   "summary": "Omnidirectional mecanum-wheel ROS base with two LiDARs, 100 kg payload, 1.5 m/s and 8–10 h autonomy for research and logistics.",
   "image_url": "https://pal-robotics.com/wp-content/uploads/2024/03/TIAGo-OMNI-Base-Robot.webp",
@@ -1093,6 +1402,30 @@
   "onboard_compute": null,
   "compute_detail": null,
   "ros_support": true,
+  "ros2_support": true,
+  "ros2_url": "https://github.com/pal-robotics/tiago_robot",
+  "sim_models": {
+   "urdf": {
+    "url": "https://github.com/pal-robotics/tiago_robot/blob/humble-devel/tiago_description/robots/tiago.urdf.xacro",
+    "license": "Apache-2.0"
+   },
+   "gazebo": {
+    "url": "https://github.com/pal-robotics/tiago_simulation",
+    "license": "Apache-2.0"
+   }
+  },
+  "open_source_repos": [
+   {
+    "name": "tiago_robot",
+    "url": "https://github.com/pal-robotics/tiago_robot",
+    "license": "Apache-2.0"
+   },
+   {
+    "name": "tiago_simulation",
+    "url": "https://github.com/pal-robotics/tiago_simulation",
+    "license": "Apache-2.0"
+   }
+  ],
   "sensors": [
    "Laser range-finder",
    "Sonars",
@@ -1107,7 +1440,10 @@
   "sources": [
    "https://pal-robotics.com/robot/tiago",
    "http://pal-robotics.com/wp-content/uploads/2024/04/Datasheet-TIAGo.pdf",
-   "https://docs.pal-robotics.com/sdk/24.09/hardware/tiago/hardware-overview.html"
+   "https://docs.pal-robotics.com/sdk/24.09/hardware/tiago/hardware-overview.html",
+   "https://github.com/pal-robotics/tiago_robot",
+   "https://github.com/pal-robotics/tiago_robot/blob/humble-devel/tiago_description/robots/tiago.urdf.xacro",
+   "https://github.com/pal-robotics/tiago_simulation"
   ],
   "summary": "Modular ROS-based mobile manipulator with lifting torso and 7-DoF arm, widely used for research and service robotics.",
   "image_url": null,
@@ -1506,6 +1842,26 @@
   "onboard_compute": true,
   "compute_detail": "NVIDIA Jetson AGX Orin",
   "ros_support": true,
+  "ros2_support": true,
+  "ros2_url": "https://github.com/frankarobotics/franka_ros2",
+  "sim_models": {
+   "urdf": {
+    "url": "https://github.com/frankarobotics/franka_description",
+    "license": "Apache-2.0"
+   }
+  },
+  "open_source_repos": [
+   {
+    "name": "franka_description",
+    "url": "https://github.com/frankarobotics/franka_description",
+    "license": "Apache-2.0"
+   },
+   {
+    "name": "franka_ros2",
+    "url": "https://github.com/frankarobotics/franka_ros2",
+    "license": "Apache-2.0"
+   }
+  ],
   "sensors": [
    "14 arm torque sensors",
    "2x LiDAR",
@@ -1519,7 +1875,9 @@
    "https://franka.de/mobile-fr3-duo",
    "https://franka.de/hubfs/Prototype%20Manual%20and%20Datasheets%20_Mobile%20FR3%20Duo_R04245_EN.pdf",
    "https://franka.de/hubfs/MobileFR3Duo_TwoPager_v2_digital.pdf?hsLang=en",
-   "https://franka.de/news/real-world-robotics-insights-from-fr3-duo-mobile-showcase"
+   "https://franka.de/news/real-world-robotics-insights-from-fr3-duo-mobile-showcase",
+   "https://github.com/frankarobotics/franka_ros2",
+   "https://github.com/frankarobotics/franka_description"
   ],
   "summary": "Omnidirectional dual-arm mobile manipulator prototype for physical-AI research: teleoperation, data collection and policy execution.",
   "image_url": null,
@@ -1556,9 +1914,46 @@
   "api_support": true,
   "sdk_available": true,
   "sdk_name": "Stretch ROS 2 and Python SDK (open source)",
+  "sdk": {
+   "languages": [
+    "Python"
+   ],
+   "open_source": true,
+   "license": "LGPL-3.0",
+   "url": "https://github.com/hello-robot/stretch_body"
+  },
   "onboard_compute": true,
   "compute_detail": null,
   "ros_support": true,
+  "ros2_support": true,
+  "ros2_url": "https://github.com/hello-robot/stretch_ros2",
+  "sim_models": {
+   "urdf": {
+    "url": "https://github.com/hello-robot/stretch4_urdf",
+    "license": "BSD-3-Clause-Clear"
+   },
+   "mujoco": {
+    "url": "https://github.com/hello-robot/stretch4_mujoco",
+    "license": "BSD-3-Clause-Clear"
+   }
+  },
+  "open_source_repos": [
+   {
+    "name": "stretch_body",
+    "url": "https://github.com/hello-robot/stretch_body",
+    "license": "LGPL-3.0"
+   },
+   {
+    "name": "stretch4_urdf",
+    "url": "https://github.com/hello-robot/stretch4_urdf",
+    "license": "BSD-3-Clause-Clear"
+   },
+   {
+    "name": "stretch4_mujoco",
+    "url": "https://github.com/hello-robot/stretch4_mujoco",
+    "license": "BSD-3-Clause-Clear"
+   }
+  ],
   "sensors": [
    "2x hemispherical 3D LiDAR",
    "2x fisheye RGB cameras",
@@ -1574,7 +1969,11 @@
    "https://hello-robot.com/purchase",
    "https://hello-robot.com/wp-content/uploads/2026/05/HelloRobot-DataSheet-Stretch-4-Rev5_AsLaunched.pdf",
    "https://forum.hello-robot.com/t/introducing-stretch-4/1505",
-   "https://docs.hello-robot.com/stretch4_docs/guides/hardware-guide"
+   "https://docs.hello-robot.com/stretch4_docs/guides/hardware-guide",
+   "https://github.com/hello-robot/stretch_body",
+   "https://github.com/hello-robot/stretch_ros2",
+   "https://github.com/hello-robot/stretch4_urdf",
+   "https://github.com/hello-robot/stretch4_mujoco"
   ],
   "summary": "Lightweight open-source mobile manipulator with telescoping arm and omnidirectional base for home and workplace tasks and embodied AI research.",
   "image_url": null,
@@ -1714,9 +2113,33 @@
   "api_support": true,
   "sdk_available": true,
   "sdk_name": "NVIDIA Isaac ROS (nova_carter packages)",
+  "sdk": {
+   "languages": [
+    "C++",
+    "Python"
+   ],
+   "open_source": true,
+   "license": "Apache-2.0",
+   "url": "https://github.com/NVIDIA-ISAAC-ROS/nova_carter"
+  },
   "onboard_compute": true,
   "compute_detail": "NVIDIA Jetson AGX Orin 64GB (2TB SSD, 10GbE)",
   "ros_support": true,
+  "ros2_support": true,
+  "ros2_url": "https://github.com/NVIDIA-ISAAC-ROS/nova_carter",
+  "sim_models": {
+   "urdf": {
+    "url": "https://github.com/NVIDIA-ISAAC-ROS/nova_carter/blob/main/nova_carter_description/urdf/nova_carter.urdf.xacro",
+    "license": "Apache-2.0"
+   }
+  },
+  "open_source_repos": [
+   {
+    "name": "nova_carter",
+    "url": "https://github.com/NVIDIA-ISAAC-ROS/nova_carter",
+    "license": "Apache-2.0"
+   }
+  ],
   "sensors": [
    "3D LiDAR (Hesai XT32)",
    "2x 2D LiDAR (RPLidar S2E)",
@@ -1733,7 +2156,9 @@
    "https://robotics.segway.com/nova-carter",
    "https://robotics.segway.com/wp-content/uploads/2023/11/Nova-Carter-Product-Manual-v1.0.pdf",
    "https://nvidia-isaac-ros.github.io/v/release-3.2/robots/nova_carter/index.html",
-   "https://github.com/nvidia-isaac-ros/nova_carter"
+   "https://github.com/nvidia-isaac-ros/nova_carter",
+   "https://github.com/NVIDIA-ISAAC-ROS/nova_carter",
+   "https://github.com/NVIDIA-ISAAC-ROS/nova_carter/blob/main/nova_carter_description/urdf/nova_carter.urdf.xacro"
   ],
   "summary": "Complete AMR development platform with Jetson AGX Orin and 360° camera/LiDAR sensing for Isaac ROS and Nav2 development.",
   "image_url": null,
@@ -1770,9 +2195,35 @@
   "api_support": true,
   "sdk_available": true,
   "sdk_name": "Hugging Face LeRobot",
+  "sdk": {
+   "languages": [
+    "Python"
+   ],
+   "open_source": true,
+   "license": "Apache-2.0",
+   "url": "https://github.com/huggingface/lerobot"
+  },
   "onboard_compute": true,
   "compute_detail": "Raspberry Pi (typical)",
   "ros_support": null,
+  "sim_models": {
+   "urdf": {
+    "url": "https://github.com/SIGRobotics-UIUC/LeKiwi/blob/main/URDF/LeKiwi.urdf",
+    "license": "Apache-2.0"
+   }
+  },
+  "open_source_repos": [
+   {
+    "name": "LeKiwi",
+    "url": "https://github.com/SIGRobotics-UIUC/LeKiwi",
+    "license": "Apache-2.0"
+   },
+   {
+    "name": "lerobot",
+    "url": "https://github.com/huggingface/lerobot",
+    "license": "Apache-2.0"
+   }
+  ],
   "sensors": [],
   "price_usd": null,
   "price_note": "DIY BOM ~US$482-499",
@@ -1780,7 +2231,9 @@
   "sources": [
    "https://github.com/SIGRobotics-UIUC/LeKiwi",
    "https://github.com/SIGRobotics-UIUC/LeKiwi/blob/main/BOM.md",
-   "https://huggingface.co/docs/lerobot/en/lekiwi"
+   "https://huggingface.co/docs/lerobot/en/lekiwi",
+   "https://github.com/huggingface/lerobot",
+   "https://github.com/SIGRobotics-UIUC/LeKiwi/blob/main/URDF/LeKiwi.urdf"
   ],
   "summary": "Open-source low-cost 3D-printed mobile manipulator combining an omniwheel base with an SO-100 arm for LeRobot teleoperation and learning.",
   "image_url": null,

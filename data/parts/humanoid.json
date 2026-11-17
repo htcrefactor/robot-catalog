@@ -24,9 +24,51 @@
   "api_support": true,
   "sdk_available": true,
   "sdk_name": "unitree_sdk2",
+  "sdk": {
+   "languages": [
+    "C++",
+    "Python"
+   ],
+   "open_source": true,
+   "license": "BSD-3-Clause",
+   "url": "https://github.com/unitreerobotics/unitree_sdk2"
+  },
   "onboard_compute": true,
   "compute_detail": "8-core CPU standard; EDU adds optional high-compute module (e.g. NVIDIA Orin); secondary development on EDU only",
   "ros_support": null,
+  "sim_models": {
+   "urdf": {
+    "url": "https://github.com/unitreerobotics/unitree_ros/blob/master/robots/g1_description/g1_29dof.urdf",
+    "license": "BSD-3-Clause"
+   }
+  },
+  "open_source_repos": [
+   {
+    "name": "unitree_sdk2",
+    "url": "https://github.com/unitreerobotics/unitree_sdk2",
+    "license": "BSD-3-Clause"
+   },
+   {
+    "name": "unitree_sdk2_python",
+    "url": "https://github.com/unitreerobotics/unitree_sdk2_python",
+    "license": "BSD-3-Clause"
+   },
+   {
+    "name": "unitree_ros",
+    "url": "https://github.com/unitreerobotics/unitree_ros",
+    "license": "BSD-3-Clause"
+   },
+   {
+    "name": "unitree_ros2",
+    "url": "https://github.com/unitreerobotics/unitree_ros2",
+    "license": "BSD-3-Clause"
+   },
+   {
+    "name": "unitree_mujoco",
+    "url": "https://github.com/unitreerobotics/unitree_mujoco",
+    "license": "BSD-3-Clause"
+   }
+  ],
   "sensors": [
    "Depth camera",
    "3D LiDAR",
@@ -40,7 +82,12 @@
    "https://github.com/unitreerobotics/unitree_sdk2",
    "https://humanoidstore.co/robots/unitree-g1",
    "https://humanoidstore.co/robots/unitree-g1-edu",
-   "https://humanoidstore.co/robots/unitree-g1-plus"
+   "https://humanoidstore.co/robots/unitree-g1-plus",
+   "https://github.com/unitreerobotics/unitree_ros/blob/master/robots/g1_description/g1_29dof.urdf",
+   "https://github.com/unitreerobotics/unitree_sdk2_python",
+   "https://github.com/unitreerobotics/unitree_ros",
+   "https://github.com/unitreerobotics/unitree_ros2",
+   "https://github.com/unitreerobotics/unitree_mujoco"
   ],
   "summary": "Compact, low-cost humanoid for research, education and development; arm payload ~2 kg (3 kg EDU), 9000 mAh quick-release battery."
  },
@@ -69,9 +116,57 @@
   "api_support": null,
   "sdk_available": null,
   "sdk_name": null,
+  "sdk": {
+   "languages": [
+    "C++",
+    "Python"
+   ],
+   "open_source": true,
+   "license": "BSD-3-Clause",
+   "url": "https://github.com/unitreerobotics/unitree_sdk2"
+  },
   "onboard_compute": true,
   "compute_detail": "Intel Core i5 (platform) + Intel Core i7 (user development); optional Orin NX",
   "ros_support": null,
+  "ros2_support": true,
+  "ros2_url": "https://github.com/unitreerobotics/unitree_ros2",
+  "sim_models": {
+   "urdf": {
+    "url": "https://github.com/unitreerobotics/unitree_ros/blob/master/robots/h1_description/urdf/h1.urdf",
+    "license": "BSD-3-Clause"
+   },
+   "mjcf": {
+    "url": "https://github.com/unitreerobotics/unitree_ros/blob/master/robots/h1_description/mjcf/h1.xml",
+    "license": "BSD-3-Clause"
+   }
+  },
+  "open_source_repos": [
+   {
+    "name": "unitree_sdk2",
+    "url": "https://github.com/unitreerobotics/unitree_sdk2",
+    "license": "BSD-3-Clause"
+   },
+   {
+    "name": "unitree_sdk2_python",
+    "url": "https://github.com/unitreerobotics/unitree_sdk2_python",
+    "license": "BSD-3-Clause"
+   },
+   {
+    "name": "unitree_ros",
+    "url": "https://github.com/unitreerobotics/unitree_ros",
+    "license": "BSD-3-Clause"
+   },
+   {
+    "name": "unitree_ros2",
+    "url": "https://github.com/unitreerobotics/unitree_ros2",
+    "license": "BSD-3-Clause"
+   },
+   {
+    "name": "unitree_mujoco",
+    "url": "https://github.com/unitreerobotics/unitree_mujoco",
+    "license": "BSD-3-Clause"
+   }
+  ],
   "sensors": [
    "3D LiDAR",
    "Depth camera"
@@ -81,7 +176,14 @@
   "official_url": "https://www.unitree.com/h1",
   "sources": [
    "https://www.unitree.com/h1",
-   "https://humanoidstore.co/robots/unitree-h1"
+   "https://humanoidstore.co/robots/unitree-h1",
+   "https://github.com/unitreerobotics/unitree_sdk2",
+   "https://github.com/unitreerobotics/unitree_ros2",
+   "https://github.com/unitreerobotics/unitree_ros/blob/master/robots/h1_description/urdf/h1.urdf",
+   "https://github.com/unitreerobotics/unitree_ros/blob/master/robots/h1_description/mjcf/h1.xml",
+   "https://github.com/unitreerobotics/unitree_sdk2_python",
+   "https://github.com/unitreerobotics/unitree_ros",
+   "https://github.com/unitreerobotics/unitree_mujoco"
   ],
   "summary": "Full-size research humanoid (dims 1520+285 x 570 x 220 mm) noted for 3.3 m/s running; H1-2 variant is 70 kg with 27 DoF."
  },
@@ -110,9 +212,51 @@
   "api_support": null,
   "sdk_available": null,
   "sdk_name": null,
+  "sdk": {
+   "languages": [
+    "C++",
+    "Python"
+   ],
+   "open_source": true,
+   "license": "BSD-3-Clause",
+   "url": "https://github.com/unitreerobotics/unitree_sdk2"
+  },
   "onboard_compute": true,
   "compute_detail": "PC1 Intel Core i5 (platform); EDU adds PC2 Intel Core i7 for custom development; optional module e.g. NVIDIA Thor",
   "ros_support": null,
+  "sim_models": {
+   "urdf": {
+    "url": "https://github.com/unitreerobotics/unitree_ros/blob/master/robots/h2_description/H2.urdf",
+    "license": "BSD-3-Clause"
+   }
+  },
+  "open_source_repos": [
+   {
+    "name": "unitree_sdk2",
+    "url": "https://github.com/unitreerobotics/unitree_sdk2",
+    "license": "BSD-3-Clause"
+   },
+   {
+    "name": "unitree_sdk2_python",
+    "url": "https://github.com/unitreerobotics/unitree_sdk2_python",
+    "license": "BSD-3-Clause"
+   },
+   {
+    "name": "unitree_ros",
+    "url": "https://github.com/unitreerobotics/unitree_ros",
+    "license": "BSD-3-Clause"
+   },
+   {
+    "name": "unitree_ros2",
+    "url": "https://github.com/unitreerobotics/unitree_ros2",
+    "license": "BSD-3-Clause"
+   },
+   {
+    "name": "unitree_mujoco",
+    "url": "https://github.com/unitreerobotics/unitree_mujoco",
+    "license": "BSD-3-Clause"
+   }
+  ],
   "sensors": [
    "Wide-FOV binocular camera",
    "Array microphone"
@@ -124,7 +268,13 @@
    "https://www.unitree.com/H2",
    "https://humanoidstore.co/robots/unitree-h2",
    "https://humanoidstore.co/robots/unitree-h2-edu",
-   "https://humanoidstore.co/robots/unitree-h2-plus"
+   "https://humanoidstore.co/robots/unitree-h2-plus",
+   "https://github.com/unitreerobotics/unitree_sdk2",
+   "https://github.com/unitreerobotics/unitree_ros/blob/master/robots/h2_description/H2.urdf",
+   "https://github.com/unitreerobotics/unitree_sdk2_python",
+   "https://github.com/unitreerobotics/unitree_ros",
+   "https://github.com/unitreerobotics/unitree_ros2",
+   "https://github.com/unitreerobotics/unitree_mujoco"
   ],
   "summary": "180 cm full-size humanoid with bionic head; arm payload rated ~7 kg (peak ~15 kg)."
  },
@@ -531,9 +681,39 @@
   "api_support": null,
   "sdk_available": true,
   "sdk_name": null,
+  "sdk": {
+   "languages": [
+    "C++"
+   ],
+   "open_source": true,
+   "license": "Apache-2.0",
+   "url": "https://github.com/BoosterRobotics/booster_robotics_sdk"
+  },
   "onboard_compute": true,
   "compute_detail": "NVIDIA Jetson AGX Orin 32GB (200 TOPS); Standard adds Intel i7 motion-control board",
   "ros_support": null,
+  "sim_models": {
+   "urdf": {
+    "url": "https://github.com/BoosterRobotics/booster_assets/blob/main/robots/T1/T1_23dof.urdf",
+    "license": "BSD-3-Clause"
+   },
+   "mjcf": {
+    "url": "https://github.com/BoosterRobotics/booster_assets/blob/main/robots/T1/T1_23dof.xml",
+    "license": "BSD-3-Clause"
+   }
+  },
+  "open_source_repos": [
+   {
+    "name": "booster_assets",
+    "url": "https://github.com/BoosterRobotics/booster_assets",
+    "license": "BSD-3-Clause"
+   },
+   {
+    "name": "booster_robotics_sdk",
+    "url": "https://github.com/BoosterRobotics/booster_robotics_sdk",
+    "license": "Apache-2.0"
+   }
+  ],
   "sensors": [
    "Depth camera",
    "Microphone array"
@@ -544,7 +724,11 @@
   "sources": [
    "https://docs.booster.tech/docs/product-manual/t1/getting-started/specifications/",
    "https://www.booster.tech/booster-t1/",
-   "https://humanoidstore.co/robots/booster-t1"
+   "https://humanoidstore.co/robots/booster-t1",
+   "https://github.com/BoosterRobotics/booster_robotics_sdk",
+   "https://github.com/BoosterRobotics/booster_assets/blob/main/robots/T1/T1_23dof.urdf",
+   "https://github.com/BoosterRobotics/booster_assets/blob/main/robots/T1/T1_23dof.xml",
+   "https://github.com/BoosterRobotics/booster_assets"
   ],
   "summary": "Small developer/RoboCup humanoid; T1 product page now redirects to a lineup of T2 and K1, so status recorded as discontinued (inferred)."
  },
@@ -1495,12 +1679,29 @@
   "onboard_compute": null,
   "compute_detail": null,
   "ros_support": null,
+  "sim_models": {
+   "urdf": {
+    "url": "https://github.com/DeepRoboticsLab/deep_robotics_model/blob/main/DR02/urdf/standard/DR02-std.urdf",
+    "license": "BSD-3-Clause"
+   },
+   "mjcf": {
+    "url": "https://github.com/DeepRoboticsLab/deep_robotics_model/blob/main/DR02/mjcf/standard/DR02_std.xml",
+    "license": "BSD-3-Clause"
+   },
+   "usd": {
+    "url": "https://github.com/DeepRoboticsLab/deep_robotics_model/blob/main/DR02/usd/standard/DR02-std.usd",
+    "license": "BSD-3-Clause"
+   }
+  },
   "sensors": [],
   "price_usd": null,
   "price_note": null,
   "official_url": null,
   "sources": [
-   "https://humanoidstore.co/robots/deep-robotics-dr02"
+   "https://humanoidstore.co/robots/deep-robotics-dr02",
+   "https://github.com/DeepRoboticsLab/deep_robotics_model/blob/main/DR02/urdf/standard/DR02-std.urdf",
+   "https://github.com/DeepRoboticsLab/deep_robotics_model/blob/main/DR02/mjcf/standard/DR02_std.xml",
+   "https://github.com/DeepRoboticsLab/deep_robotics_model/blob/main/DR02/usd/standard/DR02-std.usd"
   ],
   "summary": "Full-size humanoid from DEEP Robotics; announced, sold to businesses.",
   "data_source": "HumanoidStore open data (CC BY 4.0)"
@@ -4310,12 +4511,19 @@
   "onboard_compute": null,
   "compute_detail": null,
   "ros_support": null,
+  "sim_models": {
+   "urdf": {
+    "url": "https://github.com/unitreerobotics/unitree_ros/blob/master/robots/h1_2_description/h1_2.urdf",
+    "license": "BSD-3-Clause"
+   }
+  },
   "sensors": [],
   "price_usd": 128900,
   "price_note": "list 128900 USD (maker), per HumanoidStore, checked 2026-09",
   "official_url": null,
   "sources": [
-   "https://humanoidstore.co/robots/unitree-h1-2"
+   "https://humanoidstore.co/robots/unitree-h1-2",
+   "https://github.com/unitreerobotics/unitree_ros/blob/master/robots/h1_2_description/h1_2.urdf"
   ],
   "summary": "Full-size humanoid from Unitree Robotics; discontinued, sold to research buyers.",
   "data_source": "HumanoidStore open data (CC BY 4.0)"
@@ -4345,9 +4553,51 @@
   "api_support": null,
   "sdk_available": null,
   "sdk_name": null,
+  "sdk": {
+   "languages": [
+    "C++",
+    "Python"
+   ],
+   "open_source": true,
+   "license": "BSD-3-Clause",
+   "url": "https://github.com/unitreerobotics/unitree_sdk2"
+  },
   "onboard_compute": null,
   "compute_detail": null,
   "ros_support": null,
+  "sim_models": {
+   "urdf": {
+    "url": "https://github.com/unitreerobotics/unitree_ros/blob/master/robots/r1_description/R1.urdf",
+    "license": "BSD-3-Clause"
+   }
+  },
+  "open_source_repos": [
+   {
+    "name": "unitree_sdk2",
+    "url": "https://github.com/unitreerobotics/unitree_sdk2",
+    "license": "BSD-3-Clause"
+   },
+   {
+    "name": "unitree_sdk2_python",
+    "url": "https://github.com/unitreerobotics/unitree_sdk2_python",
+    "license": "BSD-3-Clause"
+   },
+   {
+    "name": "unitree_ros",
+    "url": "https://github.com/unitreerobotics/unitree_ros",
+    "license": "BSD-3-Clause"
+   },
+   {
+    "name": "unitree_ros2",
+    "url": "https://github.com/unitreerobotics/unitree_ros2",
+    "license": "BSD-3-Clause"
+   },
+   {
+    "name": "unitree_mujoco",
+    "url": "https://github.com/unitreerobotics/unitree_mujoco",
+    "license": "BSD-3-Clause"
+   }
+  ],
   "sensors": [],
   "price_usd": 5900,
   "price_note": "list 5900 USD (maker), per HumanoidStore, checked 2026-10",
@@ -4355,7 +4605,13 @@
   "sources": [
    "https://humanoidstore.co/robots/unitree-r1",
    "https://humanoidstore.co/robots/unitree-r1-air",
-   "https://humanoidstore.co/robots/unitree-r1-edu"
+   "https://humanoidstore.co/robots/unitree-r1-edu",
+   "https://github.com/unitreerobotics/unitree_sdk2",
+   "https://github.com/unitreerobotics/unitree_ros/blob/master/robots/r1_description/R1.urdf",
+   "https://github.com/unitreerobotics/unitree_sdk2_python",
+   "https://github.com/unitreerobotics/unitree_ros",
+   "https://github.com/unitreerobotics/unitree_ros2",
+   "https://github.com/unitreerobotics/unitree_mujoco"
   ],
   "summary": "Compact humanoid from Unitree Robotics; shipping now, anyone can order.",
   "data_source": "HumanoidStore open data (CC BY 4.0)"
@@ -8276,6 +8532,30 @@
   "onboard_compute": true,
   "compute_detail": "Intel i5, 16 GB RAM, 512 GB SSD (optional i7/32 GB, optional NVIDIA Jetson)",
   "ros_support": true,
+  "ros2_support": true,
+  "ros2_url": "https://github.com/pal-robotics/tiago_pro_robot",
+  "sim_models": {
+   "urdf": {
+    "url": "https://github.com/pal-robotics/tiago_pro_robot/blob/humble-devel/tiago_pro_description/robots/tiago_pro.urdf.xacro",
+    "license": "Apache-2.0"
+   },
+   "gazebo": {
+    "url": "https://github.com/pal-robotics/tiago_pro_simulation",
+    "license": "Apache-2.0"
+   }
+  },
+  "open_source_repos": [
+   {
+    "name": "tiago_pro_robot",
+    "url": "https://github.com/pal-robotics/tiago_pro_robot",
+    "license": "Apache-2.0"
+   },
+   {
+    "name": "tiago_pro_simulation",
+    "url": "https://github.com/pal-robotics/tiago_pro_simulation",
+    "license": "Apache-2.0"
+   }
+  ],
   "sensors": [
    "2x 2D LiDAR (10 m, 360°)",
    "RGB-D head camera",
@@ -8288,7 +8568,10 @@
   "official_url": "https://pal-robotics.com/robot/tiago-pro/",
   "sources": [
    "https://pal-robotics.com/robot/tiago-pro/",
-   "https://pal-robotics.com/datasheet/tiago-pro/"
+   "https://pal-robotics.com/datasheet/tiago-pro/",
+   "https://github.com/pal-robotics/tiago_pro_robot",
+   "https://github.com/pal-robotics/tiago_pro_robot/blob/humble-devel/tiago_pro_description/robots/tiago_pro.urdf.xacro",
+   "https://github.com/pal-robotics/tiago_pro_simulation"
   ],
   "summary": "Open-source ROS 2 dual-arm mobile manipulator with an omnidirectional base and expressive head for embodied-AI and HRI research and applied development.",
   "image_url": "https://pal-robotics.com/wp-content/uploads/2025/01/TIAGoPro_Sided1_Mobile-Manipulator_PAL-Robotics-921x1024.webp",
@@ -9722,6 +10005,12 @@
   "onboard_compute": true,
   "compute_detail": "8-core CPU; optional high-compute module e.g. NVIDIA Orin NX 16GB (100 TOPS)",
   "ros_support": null,
+  "sim_models": {
+   "urdf": {
+    "url": "https://github.com/unitreerobotics/unitree_ros/blob/master/robots/g1_d_description/g1_d.urdf",
+    "license": "BSD-3-Clause"
+   }
+  },
   "sensors": [
    "Head HD binocular camera",
    "Wrist HD camera x2",
@@ -9735,7 +10024,8 @@
   "official_url": "https://www.unitree.com/G1-D/",
   "sources": [
    "https://www.unitree.com/G1-D/",
-   "https://support.unitree.com/home/en/G1D_Developer/about"
+   "https://support.unitree.com/home/en/G1D_Developer/about",
+   "https://github.com/unitreerobotics/unitree_ros/blob/master/robots/g1_d_description/g1_d.urdf"
   ],
   "summary": "Wheeled dual-arm humanoid platform with a lifting column for embodied-AI data collection, training and deployment.",
   "image_url": null,
@@ -16369,9 +16659,25 @@
   "api_support": true,
   "sdk_available": true,
   "sdk_name": "Flexiv RDK",
+  "sdk": {
+   "languages": [
+    "C++",
+    "Python"
+   ],
+   "open_source": true,
+   "license": "Apache-2.0",
+   "url": "https://github.com/flexivrobotics/flexiv_rdk"
+  },
   "onboard_compute": null,
   "compute_detail": null,
   "ros_support": true,
+  "open_source_repos": [
+   {
+    "name": "flexiv_rdk",
+    "url": "https://github.com/flexivrobotics/flexiv_rdk",
+    "license": "Apache-2.0"
+   }
+  ],
   "sensors": [
    "Laser SLAM (LiDAR)",
    "Joint force/torque sensing"
@@ -16381,7 +16687,8 @@
   "official_url": "https://www.flexiv.com/product/robot-system",
   "sources": [
    "https://www.flexiv.com/product/robot-system",
-   "https://www.flexiv.com/software/rdk/manual/ros2_bridge.html"
+   "https://www.flexiv.com/software/rdk/manual/ros2_bridge.html",
+   "https://github.com/flexivrobotics/flexiv_rdk"
   ],
   "summary": "Wheeled dual-arm embodied-AI development platform built on two 7-DoF Rizon force-controlled arms, with laser-SLAM navigation.",
   "image_url": null,
