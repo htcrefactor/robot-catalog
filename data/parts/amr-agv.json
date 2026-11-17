@@ -3701,7 +3701,7 @@
    "https://data.robo2u.com/robots/visionnav-robotics-vnr-20"
   ],
   "verification": "official",
-  "note": "Autonomous forklift (AGV/AMR), not a mobile robot platform in the usual sense; weight from VisionNav's model comparison page."
+  "note": "Scope review (#16, 2026-11-17): kept as an in-scope AGV. VisionNav's own page titles it 'VNR20 Reach Truck AGV/AMR' and lists 2000 kg rated load, 7000 mm standard lift, 2.0 m/s and a 1915 mm minimum turning radius - a self-driving industrial truck, i.e. an AGV, which the owner's exclusion list (arms, cobots, vacuums, lawn/pool, drones, toys, cars/robotaxis, static or companion robots) does not cover. Weight 3460 kg from VisionNav's model comparison page."
  },
  {
   "id": "visionnav-vnp-15",
@@ -3746,7 +3746,7 @@
    "https://data.robo2u.com/robots/visionnav-robotics-vnp-15"
   ],
   "verification": "official",
-  "note": "Autonomous counterbalance stacker forklift."
+  "note": "Scope review (#16, 2026-11-17): kept as an in-scope AGV. Maker page titles it 'VNP15 Pallet Stacker AGV/AMR' (1500 kg, 3000 mm standard lift, 1.5 m/s, 1490 mm minimum turning radius); an autonomous counterbalance stacker is an AGV, not an excluded category."
  },
  {
   "id": "visionnav-vne40-66",
@@ -3794,7 +3794,7 @@
    "https://data.robo2u.com/robots/visionnav-robotics-vne40-66"
   ],
   "verification": "official",
-  "note": "Maker page conflicts with itself on speed: headline 5.59 mph (2.5 m/s, used) vs 'up to 4.5 m/s forward' in its notes. Payload converted from the stated 6,180 lb."
+  "note": "Scope review (#16, 2026-11-17): kept as an in-scope AGV. Maker page is headed 'VNE40-66 Autonomous Stacking Vehicle' with 3D SLAM navigation and 3D LiDAR perception. Payload converted from the stated 6180 lb. Maker page conflicts with itself on speed: headline 5.59 mph (2.5 m/s, used) vs 'up to 4.5 m/s forward' in its notes."
  },
  {
   "id": "visionnav-vnst-20",
@@ -3840,7 +3840,7 @@
    "https://data.robo2u.com/robots/visionnav-robotics-vnst-20"
   ],
   "verification": "official",
-  "note": "Launched May 2023 (initially Asia); product page now says currently available in North America."
+  "note": "Scope review (#16, 2026-11-17): kept as an in-scope AGV. Maker page titles it 'VNST20 Pallet Stacker AGV/AMR' with 1620x800x1830 mm, 520 kg vehicle mass and 2000 kg load. Launched May 2023 (initially Asia); product page now says currently available in North America."
  },
  {
   "id": "visionnav-vnk15",
@@ -3886,7 +3886,7 @@
    "https://data.robo2u.com/robots/visionnav-robotics-vnk15"
   ],
   "verification": "official",
-  "note": "Two maker pages differ: older page 1.8 m/s max driving speed; newer page 3.34 mph (1.5 m/s) under load."
+  "note": "Scope review (#16, 2026-11-17): kept as an in-scope AMR. Maker page titles it 'VNK15 autonomous mobile robot platform' / 'Platform AMR' with 3D SLAM positioning and a 3,306.93 lb rated load. Two maker pages differ: older page 1.8 m/s max driving speed; newer page 3.34 mph (1.5 m/s) under load."
  },
  {
   "id": "mushiny-t6-1500",
@@ -4216,7 +4216,7 @@
    "https://droid.monster/robots/pudu-robotics/mp2000"
   ],
   "verification": "official",
-  "note": "Launched Aug 18, 2026; Pudu's first industrial pallet robot (autonomous low-lift forklift). Speed 1.6 m/s empty / 1.2 m/s loaded; runtime 12 h empty / 6 h at max load."
+  "note": "Scope review (#16, 2026-11-17): kept as an in-scope AMR - the maker page describes an autonomous pallet-handling robot with 3D LiDAR-SLAM + VSLAM navigation and autonomous/manual dual mode (1585x910x1870 mm, 2000 kg, 1.6 m/s empty / 1.2 m/s loaded, 12 h no load / 6 h at max load). Launched Aug 18, 2026; Pudu's first industrial pallet robot (autonomous low-lift forklift)."
  },
  {
   "id": "rainbow-robotics-rbm-d1000",

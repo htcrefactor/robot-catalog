@@ -7170,7 +7170,8 @@
   "price_note": null,
   "official_url": "https://neodradynamics.com/neo1_product_en.html",
   "sources": [
-   "https://neodradynamics.com/neo1_product_en.html"
+   "https://neodradynamics.com/neo1_product_en.html",
+   "https://www.prnewswire.com/news-releases/neodradynamics-showcases-4-meter--1-2-ton-neo1-heavy-duty-hydraulic-robot-with-jd-industrial-at-ciif-hydraulicelectric-hybrid-solves-realworld-4d-industrial-challenges-302908332.html"
   ],
   "summary": "4-metre hydraulic-electric hybrid 'super humanoid' for heavy lifting in nuclear, deep-sea, rescue and heavy-manufacturing work.",
   "image_url": "https://neodradynamics.com/images/neo1_titan.webp",
@@ -7182,7 +7183,7 @@
    "https://humanoid.guide/product/neo1/"
   ],
   "verification": "official",
-  "note": "Maker page (NeodraDynamics / Qingzhuo Power, Beijing): 4 m, ~1.2 t, 41 DOF (7DOF arms x2, 15DOF hands x2), 300 kg single-arm / 600 kg dual-arm payload, -50~300°C, EtherCAT/CANopen. Conflict: maker press releases (PR Newswire Sep/Oct 2026, seen in search excerpts only) state 500 kg dual-arm payload; product page value (600 kg) used. Shown at WRC Aug 2026 and CIIF Oct 2026 with JD Industrial; no price/delivery date -> status left out (prototype-stage per press). Locomotion NOT stated by maker (press imagery suggests a wheeled base, aggregators call it humanoid) - left out; mobility should be checked before including in a mobile-robot catalog."
+  "note": "Maker page (NeodraDynamics / Qingzhuo Power, Beijing) and the maker's PR of 14 Oct 2026: 4 m, ~1.2 t, 41 full-body active DOF, 7DOF arms x2, 15DOF hands x2, 300 kg single-arm / 600 kg dual-arm payload, -50~300°C, EtherCAT/CANopen. Conflict: the maker's own PR (PR Newswire, 14 Oct 2026) states a 500 kg dual-arm payload; product page value (600 kg) used. Shown at WRC Aug 2026 and CIIF Oct 2026 with JD Industrial; no price or delivery date -> status left out. Scope review (#16, 2026-11-17): kept as an in-scope Humanoid. Mobility is unproven rather than excluded: the maker calls it a full-body humanoid and press breakdowns of the 41 joints count 12 in the legs and feet, but no maker video or text shows it walking or balancing, it was exhibited tethered and script-controlled, and the company told press that walking on legs is not the priority for industrial use and that the plan is to fit the arms on a wheeled base. Locomotion is left at the existing 'Legged' value but is not maker-stated: it follows from the maker calling it a humanoid and from press breakdowns of the joints, so it should be treated as unconfirmed until a maker source or footage shows it moving. If only demonstrated-mobile robots are to count as in scope, Neo1 (with Meta Max) is the pair to reconsider."
  },
  {
   "id": "tuesday-labs-voxel-series-1",
@@ -7373,7 +7374,7 @@
    "https://humanoid.guide/product/max-meta-humanoid/"
   ],
   "verification": "unconfirmed",
-  "note": "No Meta source: 'Max' is an internal codename reported by The Information (31 Oct 2026) and echoed by press (~1.5 m, ~48 kg, Jetson Thor, built with Fourier). Meta only told the press it is internal research with no plans to sell; no official page, spec or image. Locomotion 'Legged' assumed from humanoid description in press (not maker-stated). Recommend excluding or marking as rumoured prototype."
+  "note": "Scope review (#16, 2026-11-17): kept, still unconfirmed. Meta publishes nothing - no product page, spec, image or announcement; the only source is The Information (31 Oct 2026, Jyoti Mann) as echoed by Reuters, TNW and others. Meta's statement is that the work with Fourier is internal research and experimentation and that it has no plans to sell these units. Reported: internal codename 'Max', ~1.5 m, ~48 kg, NVIDIA Jetson Thor, screen face, five-fingered hands, built with Fourier in ~3 months; Max 2 began Sept 2026. Not moved to Misc because nothing shows it is not a mobile robot and the owner rule keeps unconfirmed records; locomotion 'Legged' is still an assumption from the humanoid description, not maker-stated."
  },
  {
   "id": "robot-com-r-noid",
@@ -9285,52 +9286,6 @@
   "note": "Toyota global newsroom (Nov 2017). dof = 32 axes (plus 10 fingers). Teleoperated via Master Maneuvering System."
  },
  {
-  "id": "diden-robotics-walker",
-  "name": "Diden Walker",
-  "manufacturer": "Diden Robotics",
-  "country": "South Korea",
-  "category": "Humanoid",
-  "locomotion": "Legged",
-  "release_year": null,
-  "status": "Prototype",
-  "length_mm": null,
-  "width_mm": null,
-  "height_mm": null,
-  "weight_kg": null,
-  "payload_kg": null,
-  "max_speed_mps": null,
-  "min_speed_mps": null,
-  "wheel_diameter_mm": null,
-  "wheel_count": null,
-  "dof": null,
-  "runtime_h": null,
-  "battery_wh": null,
-  "ip_rating": null,
-  "api_support": null,
-  "sdk_available": null,
-  "sdk_name": null,
-  "onboard_compute": null,
-  "compute_detail": null,
-  "ros_support": null,
-  "sensors": [],
-  "price_usd": null,
-  "price_note": null,
-  "official_url": "https://www.didenrobotics.com/en/products",
-  "sources": [
-   "https://www.didenrobotics.com/en/products",
-   "https://www.didenrobotics.com/en/resources-all/nvidia-gtc-2026-spider-30"
-  ],
-  "summary": "Biped work platform with electro-permanent-magnet feet for moving through ship hull blocks and access holes while carrying a manipulator.",
-  "image_url": null,
-  "image_source": null,
-  "videos": [],
-  "seen_on": [
-   "https://droid.monster/robots/diden-robotics/walker"
-  ],
-  "verification": "official",
-  "note": "Not a humanoid: a magnetic-foot biped work platform (lower body + manipulator). Diden's separate 'Diden Humanoid' (175 cm, 90 kg) is a different robot. Exhibitor listing gives launch date Dec 1, 2026."
- },
- {
   "id": "matrix-robotics-matrix-1",
   "name": "MATRIX-1",
   "manufacturer": "Matrix Robotics",
@@ -11000,7 +10955,9 @@
   "official_url": "https://casivision.com/",
   "sources": [
    "https://casivision.com/",
-   "https://www.stdaily.com/web/gdxw/2025-08/20/content_387784.html"
+   "https://www.stdaily.com/web/gdxw/2025-08/20/content_387784.html",
+   "https://www.casivision.com/",
+   "https://en.zhongkehuiyuan.com/"
   ],
   "summary": "CasiVision's mobile dual-arm 'embodied' quality-inspection robot pairing a three-camera multispectral head with switchable grippers and its Huinao AI for factory defect checks.",
   "image_url": null,
@@ -11011,7 +10968,7 @@
    "https://humanoid.guide/product/casivibot/"
   ],
   "verification": "official",
-  "note": "Out of scope-ish: an industrial inspection mobile manipulator, not a general humanoid. Not related to CASBOT despite similar names (some aggregators conflate them). Launched Aug 19, 2025; mass production from June 16, 2026. Maker says it moves autonomously; aggregators call it wheeled. No dimensions published."
+  "note": "Scope review (#16, 2026-11-17): kept in scope, and kept under Humanoid because this catalog files wheeled humanoid-form robots here (Pepper, TIAGo Pro, Atlas on Wheels). It is not an AOI station: CasiVision VP Shen Fei describes it as 自主移动 / 自主移动巡检 (moves and patrols on its own) and the maker's site lists it under 具身质检设备 (embodied inspection equipment) - human-like dual arms and a multispectral head on a base the press calls wheeled. Locomotion left null: the maker states autonomous movement but not the drive type, and no datasheet is published. Not related to CASBOT despite similar names (some aggregators conflate them). Launched Aug 19, 2025; mass production from June 16, 2026."
  },
  {
   "id": "changan-xiaoan",
