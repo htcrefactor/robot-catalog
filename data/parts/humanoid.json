@@ -1282,21 +1282,21 @@
   "country": "United States",
   "category": "Humanoid",
   "locomotion": "Wheeled",
-  "release_year": null,
+  "release_year": 2025,
   "status": "Commercial",
   "length_mm": null,
   "width_mm": null,
-  "height_mm": 1620,
-  "weight_kg": 100,
+  "height_mm": null,
+  "weight_kg": null,
   "payload_kg": null,
-  "max_speed_mps": 4,
+  "max_speed_mps": 4.0,
   "min_speed_mps": null,
   "wheel_diameter_mm": null,
   "wheel_count": null,
-  "dof": 21,
-  "runtime_h": 8.0,
+  "dof": null,
+  "runtime_h": null,
   "battery_wh": null,
-  "ip_rating": null,
+  "ip_rating": "IP65",
   "api_support": null,
   "sdk_available": null,
   "sdk_name": null,
@@ -1306,12 +1306,15 @@
   "sensors": [],
   "price_usd": null,
   "price_note": null,
-  "official_url": null,
+  "official_url": "https://www.bearrobotics.ai/kinisi",
   "sources": [
-   "https://humanoidstore.co/robots/kinisi-kr1"
+   "https://www.bearrobotics.ai/kinisi",
+   "https://www.bearrobotics.ai/blog/bear-robotics-to-acquire-kinisi-robotics"
   ],
-  "summary": "Wheeled (bimanual torso on a wheeled base) humanoid from Bear Robotics; b2b only, sold to businesses.",
-  "data_source": "HumanoidStore open data (CC BY 4.0)"
+  "summary": "Kinisi KR1, Bear Robotics' wheeled humanoid mobile manipulator for warehouse and factory pick, place, sort and move work.",
+  "data_source": "HumanoidStore open data (CC BY 4.0)",
+  "verification": "official",
+  "note": "Maker page (bearrobotics.ai/kinisi): wheeled humanoid mobile manipulator, up to 14.4 km/h (field = 4 m/s), a full shift per battery, IP65, autonomous omnidirectional base, Bear Universe cloud, trained by demonstration. Payload and reach are marked 'to be confirmed at launch'. Kinisi Robotics (Bristol, UK) built the KR1 with its VLA and Robot Foundation Model; Bear Robotics signed a definitive agreement to acquire Kinisi on 22 Jun 2026. Height (1620 mm), mass (100 kg), 21 DoF and 8 h runtime in the record had no maker source and were cleared."
  },
  {
   "id": "booster-k1",
@@ -2173,23 +2176,34 @@
   "wheel_count": null,
   "dof": 21,
   "runtime_h": 8.0,
-  "battery_wh": null,
-  "ip_rating": null,
+  "battery_wh": 1440,
+  "ip_rating": "IP54",
   "api_support": null,
   "sdk_available": null,
   "sdk_name": null,
-  "onboard_compute": null,
-  "compute_detail": null,
+  "onboard_compute": "NVIDIA Jetson AGX Orin 64GB",
+  "compute_detail": "275 TOPS",
   "ros_support": null,
-  "sensors": [],
-  "price_usd": 87000,
-  "price_note": "list 87000 USD (maker), per HumanoidStore, checked 2026-10",
-  "official_url": null,
-  "sources": [
-   "https://humanoidstore.co/robots/galbot-g1"
+  "sensors": [
+   "Stereo camera (head)",
+   "RGB cameras x4 (torso)",
+   "Depth cameras x2 (wrists)",
+   "6-axis force/torque sensors x2 (wrists)",
+   "3D LiDAR x1 (base)",
+   "Ultrasonic sensors x8 (base)",
+   "IMU x2",
+   "Linear 4-microphone array x2"
   ],
-  "summary": "Wheeled (bimanual torso on a wheeled base) humanoid from Galbot; b2b only, sold to businesses.",
-  "data_source": "HumanoidStore open data (CC BY 4.0)"
+  "price_usd": null,
+  "price_note": null,
+  "official_url": "https://www.galbot.com/g1/",
+  "sources": [
+   "https://www.galbot.com/g1/"
+  ],
+  "summary": "Galbot's wheeled bimanual humanoid on a four-wheel omnidirectional base with a lifting torso, used in unmanned retail stores and warehouses across China.",
+  "data_source": "HumanoidStore open data (CC BY 4.0)",
+  "verification": "official",
+  "note": "Maker spec panel (galbot.com/g1): max height 1730 mm (leg lift 650 mm), 92.5 kg, payload 5 kg per arm / 10 kg total at the wrist, 21 DoF (neck 2 + arms 7x2 + waist 3 + legs 2, excluding chassis and end effectors), 8 h working time with 3.5 h adapter charging, 48 V 30 Ah battery (=1440 Wh, derived from V x Ah), IP54, 4-wheel omnidirectional chassis 600/600/625 mm, 1.5 m/s, NVIDIA AGX Orin 64GB / 275 TOPS, 0-40 C. No price on the maker site; HumanoidStore's 87,000 USD list price was removed (aggregator)."
  },
  {
   "id": "generation-robots-poppy-humanoid",
@@ -2202,8 +2216,8 @@
   "status": "Discontinued",
   "length_mm": null,
   "width_mm": null,
-  "height_mm": 840,
-  "weight_kg": 3.5,
+  "height_mm": null,
+  "weight_kg": null,
   "payload_kg": null,
   "max_speed_mps": null,
   "min_speed_mps": null,
@@ -2214,20 +2228,22 @@
   "battery_wh": null,
   "ip_rating": null,
   "api_support": null,
-  "sdk_available": null,
-  "sdk_name": null,
-  "onboard_compute": null,
+  "sdk_available": true,
+  "sdk_name": "pypot",
+  "onboard_compute": "Raspberry Pi 3/4 or Odroid (per build)",
   "compute_detail": null,
   "ros_support": null,
   "sensors": [],
-  "price_usd": 11193,
-  "price_note": "list 9971.52 EUR (maker), per HumanoidStore, checked 2026-10",
-  "official_url": null,
+  "price_usd": null,
+  "price_note": null,
+  "official_url": "https://github.com/poppy-project/poppy-humanoid",
   "sources": [
-   "https://humanoidstore.co/robots/generation-robots-poppy-humanoid"
+   "https://github.com/poppy-project/poppy-humanoid"
   ],
-  "summary": "Compact humanoid from Generation Robots (Inria Flowers); discontinued, anyone can order.",
-  "data_source": "HumanoidStore open data (CC BY 4.0)"
+  "summary": "Open-source, 3D-printed Poppy Humanoid from the Poppy Project (Inria Flowers Lab), built from 25 Robotis Dynamixel actuators for research and education.",
+  "data_source": "HumanoidStore open data (CC BY 4.0)",
+  "verification": "official",
+  "note": "Maker repository (poppy-project/poppy-humanoid): open-source 3D-printed humanoid, 25 Robotis Dynamixel actuators, about 60% of the BOM cost, full build 8,000-9,000 USD, Raspberry Pi 3/4 on-board, pypot Python library, GPL v3 / CC BY-SA. The project site (www.poppy-project.org, docs.poppy-project.org) returned HTTP 500 on 2026-11-17, so the 83 cm / 3.5 kg figures on its v1.0.2 page could not be re-opened and height/weight were left empty instead of carrying the aggregator's 840 mm / 3.5 kg values. Generation Robots is a distributor, not the designer. The 11,193 USD price was an aggregator conversion of a EUR list price and was removed."
  },
  {
   "id": "hexagon-aeon",
@@ -2235,8 +2251,8 @@
   "manufacturer": "Hexagon Robotics",
   "country": "Switzerland",
   "category": "Humanoid",
-  "locomotion": "Wheeled",
-  "release_year": null,
+  "locomotion": "Wheel-legged",
+  "release_year": 2025,
   "status": "Pilot",
   "length_mm": null,
   "width_mm": null,
@@ -2248,7 +2264,7 @@
   "wheel_diameter_mm": null,
   "wheel_count": null,
   "dof": 34,
-  "runtime_h": 4.0,
+  "runtime_h": 5.0,
   "battery_wh": null,
   "ip_rating": null,
   "api_support": null,
@@ -2260,12 +2276,15 @@
   "sensors": [],
   "price_usd": null,
   "price_note": null,
-  "official_url": null,
+  "official_url": "https://robotics.hexagon.com/product/",
   "sources": [
-   "https://humanoidstore.co/robots/hexagon-aeon"
+   "https://robotics.hexagon.com/product/",
+   "https://hexagon.com/about/news-media/press-releases/2340225/hexagon-launches-aeon-a-humanoid-built-for-industry"
   ],
-  "summary": "Wheeled (bimanual torso on a wheeled base) humanoid from Hexagon Robotics; b2b only, sold to businesses.",
-  "data_source": "HumanoidStore open data (CC BY 4.0)"
+  "summary": "Hexagon's industrial humanoid on legs with foot-wheels: 34 DoF, 60 kg, 2.4 m/s and a one-minute self-swapping battery for continuous work.",
+  "data_source": "HumanoidStore open data (CC BY 4.0)",
+  "verification": "official",
+  "note": "Maker spec sheet (robotics.hexagon.com/product): top speed 2.4 m/s, mass 60 kg, height 165 cm, 34 DoF, payload 15 kg short-term / 8 kg constant carry, 5 h autonomous work per charge with a 1-minute self-swap (record had 4 h, corrected to 5 h). Locomotion is wheel-legged: each leg ends in a foot-wheel that locks for stairs, so 'Wheeled' was corrected to 'Wheel-legged'. Launched 17 Jun 2025; pilots with Schaeffler, Pilatus and BMW (Leipzig). No price published."
  },
  {
   "id": "hightorque-mini-pi-plus",
@@ -2280,30 +2299,37 @@
   "width_mm": null,
   "height_mm": 680,
   "weight_kg": 15.4,
-  "payload_kg": null,
+  "payload_kg": 10,
   "max_speed_mps": 1.1,
   "min_speed_mps": null,
   "wheel_diameter_mm": null,
   "wheel_count": null,
   "dof": 22,
   "runtime_h": 1.0,
-  "battery_wh": null,
+  "battery_wh": 97,
   "ip_rating": null,
   "api_support": null,
-  "sdk_available": null,
-  "sdk_name": null,
-  "onboard_compute": null,
+  "sdk_available": true,
+  "sdk_name": "HighTorque SDK",
+  "onboard_compute": "RK3588 (Base) / NVIDIA Jetson Orin NX (Pro)",
   "compute_detail": null,
-  "ros_support": null,
-  "sensors": [],
-  "price_usd": 6000,
-  "price_note": "list 6000 USD (maker), per HumanoidStore, checked 2026-10",
-  "official_url": null,
-  "sources": [
-   "https://humanoidstore.co/robots/hightorque-mini-pi-plus"
+  "ros_support": "ROS 1",
+  "sensors": [
+   "Intel RealSense D435i depth camera (Pro)",
+   "8-array microphone",
+   "Speaker"
   ],
-  "summary": "Compact humanoid from HighTorque Robotics; shipping now, anyone can order.",
-  "data_source": "HumanoidStore open data (CC BY 4.0)"
+  "price_usd": 6000,
+  "price_note": "USD 6,000 (Base) / 8,000 (Pro) on the maker store, checked 2026-11",
+  "official_url": "https://www.hightorque.cn/pi-plus/",
+  "sources": [
+   "https://www.hightorque.cn/pi-plus/",
+   "https://store.hightorque.cn/products/bipedal-robot-mini-pi-plus"
+  ],
+  "summary": "HighTorque's 680 mm, 22-DoF research humanoid kit with self-designed servo joint modules, sold as Base (RK3588) and Pro (Jetson Orin NX) configurations.",
+  "data_source": "HumanoidStore open data (CC BY 4.0)",
+  "verification": "official",
+  "note": "Maker page (hightorque.cn/pi-plus): standing height 680 mm, 15.15 kg with battery, 22 DoF, payload 10 kg, max joint torque 21 N.m, 24 V working voltage, modular open architecture, SDK, multi-channel CAN FD, jumping and gait walking. Maker store: Base 6,000 USD (RK3588, 15.4 kg) and Pro 8,000 USD (Jetson Orin NX + RealSense D435i, 15.6 kg), battery 21.6 V 4500 mAh (=97 Wh derived), 60 min operating time, 1.1 m/s, ROS 1 + SDK. Conflict: 24 V on the product page vs 21.6 V / 4500 mAh pack in the store spec. The 8,000 USD Pro price was not used for price_usd (Base configuration is recorded)."
  },
  {
   "id": "hiwonder-ainex",
@@ -2323,25 +2349,30 @@
   "min_speed_mps": null,
   "wheel_diameter_mm": null,
   "wheel_count": null,
-  "dof": 20,
+  "dof": 24,
   "runtime_h": null,
-  "battery_wh": null,
+  "battery_wh": 38.9,
   "ip_rating": null,
   "api_support": null,
-  "sdk_available": null,
-  "sdk_name": null,
-  "onboard_compute": null,
-  "compute_detail": null,
-  "ros_support": null,
-  "sensors": [],
-  "price_usd": 729.99,
-  "price_note": "list 729.99 USD (maker), per HumanoidStore, checked 2026-10",
-  "official_url": null,
-  "sources": [
-   "https://humanoidstore.co/robots/hiwonder-ainex"
+  "sdk_available": true,
+  "sdk_name": "ROS packages / Python",
+  "onboard_compute": "Raspberry Pi (Broadcom BCM2711, 4B/5)",
+  "compute_detail": "32 GB SD card",
+  "ros_support": "ROS",
+  "sensors": [
+   "2-DoF 120-degree wide-angle camera",
+   "3-axis gyroscope/accelerometer/compass IMU"
   ],
-  "summary": "Desktop-size humanoid from Hiwonder; shipping now, anyone can order.",
-  "data_source": "HumanoidStore open data (CC BY 4.0)"
+  "price_usd": 729.99,
+  "price_note": "standard kit USD 729.99 on the maker store, checked 2026-11",
+  "official_url": "https://www.hiwonder.com/products/ainex",
+  "sources": [
+   "https://www.hiwonder.com/products/ainex"
+  ],
+  "summary": "Hiwonder's desktop-size ROS humanoid kit with inverse-kinematics gait, 24 servos in the standard kit and OpenCV vision.",
+  "data_source": "HumanoidStore open data (CC BY 4.0)",
+  "verification": "official",
+  "note": "Maker product page: 193 x 135 x 415 mm, 20 DoF (Starter Kit) / 24 DoF (Standard Kit), 21 cm/s, 2.25 kg Starter / 2.45 kg Standard, HX-35H/HX-35HM/HX-12H serial-bus servos, 11.1 V 3500 mAh 5C LiPo (=38.9 Wh derived), Raspberry Pi controller, 120-degree 1 MP camera on a 2-DoF head, Gazebo simulation, ROS source code, 18 tutorials, 729.99 USD (standard kit). Record's 20 DoF referred to the Starter Kit and was corrected to the 24-DoF standard kit that the recorded weight and price belong to."
  },
  {
   "id": "hiwonder-tonybot",
@@ -2363,23 +2394,30 @@
   "wheel_count": null,
   "dof": 17,
   "runtime_h": null,
-  "battery_wh": null,
+  "battery_wh": 22.2,
   "ip_rating": null,
   "api_support": null,
-  "sdk_available": null,
-  "sdk_name": null,
-  "onboard_compute": null,
+  "sdk_available": true,
+  "sdk_name": "Arduino / Scratch / Python libraries",
+  "onboard_compute": "ESP32 + ESP32-S3 AI module (optional)",
   "compute_detail": null,
   "ros_support": null,
-  "sensors": [],
-  "price_usd": 519.99,
-  "price_note": "list 519.99 USD (maker), per HumanoidStore, checked 2026-11",
-  "official_url": null,
-  "sources": [
-   "https://humanoidstore.co/robots/hiwonder-tonybot"
+  "sensors": [
+   "Ultrasonic sensor (2-400 cm)",
+   "Accelerometer",
+   "Temperature/humidity sensor (kit)",
+   "ESP32-S3 vision module (optional)"
   ],
-  "summary": "Desktop-size humanoid from Hiwonder; shipping now, anyone can order.",
-  "data_source": "HumanoidStore open data (CC BY 4.0)"
+  "price_usd": 519.99,
+  "price_note": "standard kit USD 519.99 on the maker store, checked 2026-11 (advanced 584.99, Ultimate 649.99)",
+  "official_url": "https://www.hiwonder.com/products/tonybot",
+  "sources": [
+   "https://www.hiwonder.com/products/tonybot"
+  ],
+  "summary": "Hiwonder's 17-DoF ESP32 biped kit for learning embedded programming and first AI vision/voice projects.",
+  "data_source": "HumanoidStore open data (CC BY 4.0)",
+  "verification": "official",
+  "note": "Maker product page: 383 x 190 x 105 mm, about 1.8 kg, 17 DoF (16 body + 1 head), hard aluminium alloy, 11.1 V 2000 mAh 10C pack (=22.2 Wh derived), LX-824HV high-voltage bus servos plus LFD-01M anti-blocking servos, servo controller + ESP32 expansion board, ultrasonic 2-400 cm, PC/Bluetooth control, Arduino/Scratch/Python, optional ESP32-S3 vision and WonderEcho voice modules. No speed or payload published."
  },
  {
   "id": "hiwonder-tonypi-pro",
@@ -2401,23 +2439,27 @@
   "wheel_count": null,
   "dof": 20,
   "runtime_h": 1.0,
-  "battery_wh": null,
+  "battery_wh": 22.2,
   "ip_rating": null,
   "api_support": null,
-  "sdk_available": null,
-  "sdk_name": null,
-  "onboard_compute": null,
-  "compute_detail": null,
+  "sdk_available": true,
+  "sdk_name": "Python / OpenCV tutorials",
+  "onboard_compute": "Raspberry Pi 5",
+  "compute_detail": "2/4/8/16 GB RAM variants",
   "ros_support": null,
-  "sensors": [],
-  "price_usd": 889.99,
-  "price_note": "list 889.99 USD (maker), per HumanoidStore, checked 2026-10",
-  "official_url": null,
-  "sources": [
-   "https://humanoidstore.co/robots/hiwonder-tonypi-pro"
+  "sensors": [
+   "480P wide-angle camera on a 2-DoF gimbal"
   ],
-  "summary": "Desktop-size humanoid from Hiwonder; shipping now, anyone can order.",
-  "data_source": "HumanoidStore open data (CC BY 4.0)"
+  "price_usd": 889.99,
+  "price_note": "Pi 5 2GB kit USD 889.99 on the maker store, checked 2026-11 (4GB 949.99, 8GB 1,049.99, 16GB 1,169.99)",
+  "official_url": "https://www.hiwonder.com/products/tonypi-pro",
+  "sources": [
+   "https://www.hiwonder.com/products/tonypi-pro"
+  ],
+  "summary": "Hiwonder's 20-DoF Raspberry Pi 5 humanoid kit with a 2-DoF vision gimbal, opening hands and multimodal AI voice control.",
+  "data_source": "HumanoidStore open data (CC BY 4.0)",
+  "verification": "official",
+  "note": "Maker product page: 373 x 186 x 106 mm, about 1800 g, 18 DoF (Standard/Advanced) or 20 DoF (Pro kit with opening hands), 11.1 V 2000 mAh 10C pack (=22.2 Wh derived), about 60 min working time, Raspberry Pi 5, 480P camera on a 2-DoF head, LX-824HV and LFD-01M servos, hand opening 66 mm, Python + OpenCV tutorials, multimodal AI model integration. No top speed or payload published."
  },
  {
   "id": "humanoid-hmnd-01-alpha",
@@ -2426,7 +2468,7 @@
   "country": "United Kingdom",
   "category": "Humanoid",
   "locomotion": "Wheeled",
-  "release_year": null,
+  "release_year": 2025,
   "status": "Pilot",
   "length_mm": null,
   "width_mm": null,
@@ -2444,18 +2486,26 @@
   "api_support": null,
   "sdk_available": null,
   "sdk_name": null,
-  "onboard_compute": null,
+  "onboard_compute": "NVIDIA compute (Jetson/edge) with KinetIQ AI stack",
   "compute_detail": null,
   "ros_support": null,
-  "sensors": [],
+  "sensors": [
+   "RGB cameras",
+   "Depth cameras",
+   "6D force/torque sensors",
+   "Haptic feedback"
+  ],
   "price_usd": null,
   "price_note": null,
-  "official_url": null,
+  "official_url": "https://thehumanoid.ai/hmnd-01-alpha-wheeled/",
   "sources": [
-   "https://humanoidstore.co/robots/humanoid-hmnd-01-alpha"
+   "https://thehumanoid.ai/hmnd-01-alpha-wheeled/",
+   "https://thehumanoid.ai/humanoid-unveils-record-breaking-bipedal-robot-walking-48-hours-after-assembly/"
   ],
-  "summary": "Wheeled (bimanual torso on a wheeled base) humanoid from Humanoid (SKL Robotics); b2b only, sold to businesses.",
-  "data_source": "HumanoidStore open data (CC BY 4.0)"
+  "summary": "Humanoid's wheeled HMND 01 Alpha industrial platform: a 2.2 m, 300 kg dual-arm torso on an omnidirectional base, run by the KinetIQ AI stack.",
+  "data_source": "HumanoidStore open data (CC BY 4.0)",
+  "verification": "official",
+  "note": "Maker product page (HMND 01 Alpha Wheeled): 220 cm, 300 kg, 29 DoF excluding end effectors, 2 m/s, 4 h average runtime, 15 kg payload, RGB/depth/6D F-T sensors and haptic feedback, omnidirectional wheeled base with 7.2 km/h max speed, KinetIQ AI framework on NVIDIA compute. The bipedal Alpha is a separate model (179 cm, 90 kg) and is not this record. Pilots in industrial settings; no price published."
  },
  {
   "id": "igus-iggy",
@@ -2464,7 +2514,7 @@
   "country": "Germany",
   "category": "Humanoid",
   "locomotion": "Wheeled",
-  "release_year": null,
+  "release_year": 2025,
   "status": "Commercial",
   "length_mm": null,
   "width_mm": null,
@@ -2480,20 +2530,27 @@
   "battery_wh": null,
   "ip_rating": null,
   "api_support": null,
-  "sdk_available": null,
-  "sdk_name": null,
+  "sdk_available": true,
+  "sdk_name": "igus Robot Control (iRC)",
   "onboard_compute": null,
   "compute_detail": null,
-  "ros_support": null,
-  "sensors": [],
-  "price_usd": 58024,
-  "price_note": "list 51691.37 EUR (maker), per HumanoidStore, checked 2026-10",
-  "official_url": null,
-  "sources": [
-   "https://humanoidstore.co/robots/igus-iggy"
+  "ros_support": "ROS 2",
+  "sensors": [
+   "LiDAR",
+   "3D cameras (chest and base)"
   ],
-  "summary": "Wheeled (bimanual torso on a wheeled base) humanoid from igus; shipping now, sold to businesses.",
-  "data_source": "HumanoidStore open data (CC BY 4.0)"
+  "price_usd": null,
+  "price_note": null,
+  "official_url": "https://www.igus.com/product/0-LCA-IROB",
+  "sources": [
+   "https://www.igus.com/product/0-LCA-IROB",
+   "https://press.igus.eu/humanoid-robotics-from-germany-igus-launches-new-service-robot/",
+   "https://press.igus.com/2025/04/29/iggy-rob-humanoid/"
+  ],
+  "summary": "igus' humanoid service robot on a ReBeLMove AMR base with two 6-DoF ReBeL arms, sold as Iggy Rob Industrial and Iggy Rob Home.",
+  "data_source": "HumanoidStore open data (CC BY 4.0)",
+  "verification": "official",
+  "note": "Maker product page: 101 kg, maximum component weight 1.5 kg, AMR basis ReBeLMove Pro, two ReBeL-6DOF-03 arms (664 mm reach, 2 kg per arm), suction pad plus ReBeL gripper, LiDAR and 3D cameras, up to 8 h per charge, igus Robot Control, ROS 2 interface, CE and VDE 5050 fleet approval. Maker press: 1.30-1.70 m depending on configuration, '16 DOF' quoted in the press release while the product page lists two 6-DoF arms (record keeps 12), 2.5 kg per arm, ReBeLMove Pro load 50 kg / payload 100 kg. Launch price 47,999 EUR (Iggy Rob Industrial, 2025); Iggy Rob Home from 55,000 EUR (Jun 2026). The 58,024 USD list figure was an aggregator conversion and was removed."
  },
  {
   "id": "iit-icub",
@@ -2502,12 +2559,12 @@
   "country": "Italy",
   "category": "Humanoid",
   "locomotion": "Legged",
-  "release_year": null,
+  "release_year": 2008,
   "status": "Commercial",
   "length_mm": null,
   "width_mm": null,
-  "height_mm": 1050,
-  "weight_kg": 33,
+  "height_mm": 1040,
+  "weight_kg": 29,
   "payload_kg": null,
   "max_speed_mps": null,
   "min_speed_mps": null,
@@ -2518,20 +2575,31 @@
   "battery_wh": null,
   "ip_rating": null,
   "api_support": null,
-  "sdk_available": null,
-  "sdk_name": null,
-  "onboard_compute": null,
+  "sdk_available": true,
+  "sdk_name": "YARP middleware",
+  "onboard_compute": "External cluster over Gbit Ethernet (no on-board compute)",
   "compute_detail": null,
-  "ros_support": null,
-  "sensors": [],
-  "price_usd": 280625,
-  "price_note": "list 250000 EUR (maker), per HumanoidStore, checked 2026-10",
-  "official_url": null,
-  "sources": [
-   "https://humanoidstore.co/robots/iit-icub"
+  "ros_support": "YARP, ROS",
+  "sensors": [
+   "Binocular cameras",
+   "Microphones x2",
+   "Joint encoders (76)",
+   "Inertial sensors",
+   "Capacitive tactile skin (~4,000 points)",
+   "6-axis force/torque sensors (6)"
   ],
-  "summary": "Compact humanoid from Istituto Italiano di Tecnologia (IIT); b2b only, sold to research buyers.",
-  "data_source": "HumanoidStore open data (CC BY 4.0)"
+  "price_usd": null,
+  "price_note": null,
+  "official_url": "https://www.iit.it/research/lines/icub",
+  "sources": [
+   "https://www.iit.it/research/lines/icub",
+   "https://www.robotcub.org/index.php/robotcub/content/download/1277/4458/file/icub-leaflet.pdf",
+   "https://www.robotcub.org/misc/papers/08_Metta_Sandini_Vernon_etal.pdf"
+  ],
+  "summary": "IIT's open-source child-sized iCub, the standard platform for embodied-cognition research, with 53 DoF and a full-body capacitive skin.",
+  "data_source": "HumanoidStore open data (CC BY 4.0)",
+  "verification": "official",
+  "note": "Maker material (RobotCub leaflet and the iCub paper by IIT/Univ. of Genoa): 104 cm, 53 DoF (head 6, arms 7x2, hands 9x2, legs 6x2, waist 3), 25 kg without battery / 29 kg with battery (IIT facility documentation; weight field = 29 kg), 48 V on-board battery pack, ~4,000-point capacitive skin, YARP/ROS middleware, GPL/FDL open hardware and software. Earlier leaflets quote 22 kg. The 280,625 USD price was an aggregator conversion of a 250,000 EUR figure and was removed - IIT sells iCubs to labs by quotation."
  },
  {
   "id": "k-scale-labs-k-bot",
@@ -2540,7 +2608,7 @@
   "country": "United States",
   "category": "Humanoid",
   "locomotion": "Legged",
-  "release_year": null,
+  "release_year": 2025,
   "status": "Discontinued",
   "length_mm": null,
   "width_mm": null,
@@ -2553,23 +2621,26 @@
   "wheel_count": null,
   "dof": 20,
   "runtime_h": 4.0,
-  "battery_wh": null,
+  "battery_wh": 576,
   "ip_rating": null,
   "api_support": null,
-  "sdk_available": null,
-  "sdk_name": null,
+  "sdk_available": true,
+  "sdk_name": "K-OS / K-Sim (open source)",
   "onboard_compute": null,
   "compute_detail": null,
   "ros_support": null,
   "sensors": [],
   "price_usd": null,
   "price_note": null,
-  "official_url": null,
+  "official_url": "https://github.com/kscalelabs/kbot",
   "sources": [
-   "https://humanoidstore.co/robots/k-scale-labs-k-bot"
+   "https://github.com/kscalelabs/kbot",
+   "https://github.com/kscalelabs/docs/blob/master/docs/robots/k-bot/mechanical.md"
   ],
-  "summary": "Mid-size humanoid from K-Scale Labs; discontinued, sold to research buyers.",
-  "data_source": "HumanoidStore open data (CC BY 4.0)"
+  "summary": "K-Scale Labs' open-source full-size humanoid reference design, built from 20 Robstride actuators on a 48 V CAN bus.",
+  "data_source": "HumanoidStore open data (CC BY 4.0)",
+  "verification": "official",
+  "note": "Maker repository and docs: open-source humanoid (hardware CERN-OHL-S, software GPL v3/MIT) with 20 Robstride quasi-direct-drive actuators (RS00 x2, RS02 x6, RS03 x8, RS04 x4) on a 48 V power + CAN bus, a 12 Ah NCM pack (=576 Wh derived), Onshape CAD, K-OS and K-Sim simulation stack. K-Scale Labs shut down in November 2025 and refunded pre-orders, so the design is no longer sold (status Discontinued). Height, mass and payload appear only in third-party catalogues (about 140 cm, 34 kg, 10 kg, 8,999 USD pre-order) and were not filled."
  },
  {
   "id": "kawasaki-kaleido-9",
@@ -2578,18 +2649,18 @@
   "country": "Japan",
   "category": "Humanoid",
   "locomotion": "Legged",
-  "release_year": null,
+  "release_year": 2025,
   "status": "Research",
   "length_mm": null,
   "width_mm": null,
   "height_mm": 1900,
   "weight_kg": 99,
-  "payload_kg": 18,
+  "payload_kg": null,
   "max_speed_mps": null,
   "min_speed_mps": null,
   "wheel_diameter_mm": null,
   "wheel_count": null,
-  "dof": null,
+  "dof": 30,
   "runtime_h": null,
   "battery_wh": null,
   "ip_rating": null,
@@ -2602,12 +2673,15 @@
   "sensors": [],
   "price_usd": null,
   "price_note": null,
-  "official_url": null,
+  "official_url": "https://kawasakirobotics.com/asia-oceania/blog/20260316_kaleido9/",
   "sources": [
-   "https://humanoidstore.co/robots/kawasaki-kaleido-9"
+   "https://kawasakirobotics.com/asia-oceania/blog/20260316_kaleido9/",
+   "https://global.kawasaki.com/en/corp/rd/magazine/181/pdf/n181en07.pdf"
   ],
-  "summary": "Full-size humanoid from Kawasaki Heavy Industries; research only, restricted sales.",
-  "data_source": "HumanoidStore open data (CC BY 4.0)"
+  "summary": "Kawasaki's ninth-generation full-size humanoid, built to survive falls and aimed at factory, home and disaster-response work.",
+  "data_source": "HumanoidStore open data (CC BY 4.0)",
+  "verification": "official",
+  "note": "Maker blog (Kawasaki Robotics, 25 Mar 2026) covers Kaleido 9: leg structure redesigned to component ratings so the robot can step out faster and recover balance, developed since 2015 with commercial deployment in mind. Kawasaki's R&D magazine documents the programme's humanoid at 1.75 m, 84 kg and 32 DoF driven by electric actuators, with Hydro Servo Muscle electro-hydraulics for the legs. Version 9 itself (190 cm, 99 kg, 30 axes excluding hands, double the leg speed of v8) was reported from iREX 2025 press coverage rather than a spec sheet. The recorded 18 kg payload has no maker source and was cleared. Version 10, smaller, is in development."
  },
  {
   "id": "keenon-xman-f1",
@@ -2616,7 +2690,7 @@
   "country": "China",
   "category": "Humanoid",
   "locomotion": "Legged",
-  "release_year": null,
+  "release_year": 2025,
   "status": "Commercial",
   "length_mm": null,
   "width_mm": null,
@@ -2635,17 +2709,25 @@
   "sdk_available": null,
   "sdk_name": null,
   "onboard_compute": null,
-  "compute_detail": null,
+  "compute_detail": "275 TOPS, 64 GB VRAM, 64 GB storage",
   "ros_support": null,
-  "sensors": [],
+  "sensors": [
+   "3D LiDAR (forward/rearward)",
+   "4 depth vision cameras",
+   "4 HD wide-angle cameras",
+   "Omnidirectional microphone"
+  ],
   "price_usd": null,
   "price_note": null,
-  "official_url": null,
+  "official_url": "https://www.keenon.com/en/product/XMAN-F1",
   "sources": [
-   "https://humanoidstore.co/robots/keenon-xman-f1"
+   "https://www.keenon.com/en/product/XMAN-F1",
+   "https://www.keenon.com/en/news/keenon-debuts-first-bipedal-humanoid-service-robot-at-waic-showcasing-role-specific-embodied-ai-solutions"
   ],
-  "summary": "Full-size humanoid from KEENON Robotics; b2b only, sold to businesses.",
-  "data_source": "HumanoidStore open data (CC BY 4.0)"
+  "summary": "KEENON's first bipedal service humanoid (1.75 m, 68 kg, 43 DoF), demonstrated at WAIC 2025 making drinks, popcorn and presentations.",
+  "data_source": "HumanoidStore open data (CC BY 4.0)",
+  "verification": "official",
+  "note": "Maker product page: 175 cm, 68 kg, 43 DoF across the body (dual 7-DoF arms, dual 6-DoF hands, 6-DoF bipedal legs x2 and the rest in torso/head), 3D LiDAR for forward/rearward perception, 4 depth vision cameras, 4 HD wide-angle cameras, 275 TOPS with 64 GB VRAM, VR dual-arm teleoperation, VLA model. Premiered at WAIC 2025 on 26 Jul 2025. Payload, runtime, battery and price are not published."
  },
  {
   "id": "kondo-khr-3hv",
@@ -3985,36 +4067,44 @@
   "country": "China",
   "category": "Humanoid",
   "locomotion": "Legged",
-  "release_year": null,
+  "release_year": 2024,
   "status": "Commercial",
   "length_mm": null,
   "width_mm": null,
   "height_mm": 1750,
   "weight_kg": 75,
-  "payload_kg": null,
+  "payload_kg": 30,
   "max_speed_mps": 1,
   "min_speed_mps": null,
   "wheel_diameter_mm": null,
   "wheel_count": null,
-  "dof": 30,
+  "dof": 52,
   "runtime_h": 8.0,
-  "battery_wh": null,
+  "battery_wh": 2330,
   "ip_rating": null,
   "api_support": null,
   "sdk_available": null,
   "sdk_name": null,
   "onboard_compute": null,
-  "compute_detail": null,
+  "compute_detail": "100 TOPS on-board",
   "ros_support": null,
-  "sensors": [],
-  "price_usd": 34000,
-  "price_note": "list 34000 USD (maker), per HumanoidStore, checked 2026-10",
+  "sensors": [
+   "Binocular RGB-D cameras",
+   "Long-range 4-microphone array",
+   "Fingertip and palm force/tactile sensors",
+   "6-axis force wrists"
+  ],
+  "price_usd": null,
+  "price_note": null,
   "official_url": null,
   "sources": [
-   "https://humanoidstore.co/robots/kepler-forerunner-k2"
+   "https://www.prnewswire.com/news-releases/kepler-debuts-forerunner-k2-humanoid-robot-accelerating-commercial-deployment-302281546.html",
+   "https://www.prnewswire.com/news-releases/keplers-forerunner-k2-bumblebee-robot-completes-8-hour-livestream-at-waic-2025-signaling-major-step-toward-real-world-deployment-of-embodied-ai-in-industrial-settings-302520070.html"
   ],
-  "summary": "Full-size humanoid from Shanghai Kepler Robotics; b2b only, sold to businesses.",
-  "data_source": "HumanoidStore open data (CC BY 4.0)"
+  "summary": "Shanghai Kepler's full-size industrial humanoid with planetary roller-screw actuators, 8 h on a 2.33 kWh pack and a 30 kg bimanual rating.",
+  "data_source": "HumanoidStore open data (CC BY 4.0)",
+  "verification": "official",
+  "note": "Maker press releases: Forerunner K2 launched at GITEX GLOBAL 2024 (Oct 2024) and described at WAIC 2025 as 175 cm, 75 kg, 52 DoF (22 hand DoF), 2.33 kWh battery for 8 h operation with 1 h charging, bimanual payload 25-30 kg and 15 kg per hand, 11-DoF tactile hands with 96 contact points per fingertip, 2 head DoF, 100 TOPS on-board. Pre-sales opened with three configurations (Bipedal Basic, Bipedal Developer, Wheeled Developer) from 248,000 CNY. The 34,000 USD price was an aggregator figure and was removed. No maker product-domain page was found, so official_url is empty."
  },
  {
   "id": "stanford-robotis-toddlerbot",
@@ -13651,29 +13741,35 @@
   "status": null,
   "length_mm": null,
   "width_mm": null,
-  "height_mm": null,
+  "height_mm": 1720,
   "weight_kg": null,
-  "payload_kg": null,
+  "payload_kg": 5,
   "max_speed_mps": null,
   "min_speed_mps": null,
   "wheel_diameter_mm": null,
   "wheel_count": null,
-  "dof": null,
-  "runtime_h": null,
-  "battery_wh": null,
+  "dof": 26,
+  "runtime_h": 4.0,
+  "battery_wh": 1651,
   "ip_rating": null,
   "api_support": null,
-  "sdk_available": null,
-  "sdk_name": null,
-  "onboard_compute": null,
-  "compute_detail": null,
-  "ros_support": null,
-  "sensors": [],
+  "sdk_available": true,
+  "sdk_name": "Gento SDK",
+  "onboard_compute": "NVIDIA Jetson Orin AGX 64GB",
+  "compute_detail": "up to 275 TOPS",
+  "ros_support": "ROS 2",
+  "sensors": [
+   "3D LiDAR",
+   "Ultrasonic radar",
+   "Cameras"
+  ],
   "price_usd": null,
   "price_note": null,
-  "official_url": null,
-  "sources": [],
-  "summary": "",
+  "official_url": "https://gentorobotics.ai/products/gento-luna/",
+  "sources": [
+   "https://gentorobotics.ai/products/gento-luna/"
+  ],
+  "summary": "Gento Robotics' wheeled folding humanoid: a 26-DoF force-controlled body on an omnidirectional four-wheel chassis that folds from 1720 mm to 790 mm for transport.",
   "image_url": null,
   "image_source": null,
   "videos": [],
@@ -13682,7 +13778,8 @@
    "https://embodied.guide/robots/gento-robotics-gento-luna/",
    "https://humanoid.guide/product/gento-luna/"
   ],
-  "verification": null
+  "verification": "official",
+  "note": "Maker page: 26 DoF excluding dexterous hands plus an omnidirectional chassis (in-place rotation, any-direction translation); 1720 mm fully extended, folding to 790 mm; 7-DoF force-controlled arms in three reach options (615/680/750 mm) rated 5/4/3 kg per arm (payload field = 5 kg, the 615 mm option); 48 V 34.4 Ah LiFePO4 pack (=1651 Wh derived); 4-6 h continuous operation (runtime field = lower bound); three charging modes (manual/auto/quick-swap); Jetson Orin AGX 64GB up to 275 TOPS; ROS 2, SDK and secondary-development APIs; active anti-tipping. No price published."
  },
  {
   "id": "gento-robotics-gento-skye",
@@ -16723,7 +16820,7 @@
   "country": "Italy",
   "category": "Humanoid",
   "locomotion": "Legged",
-  "release_year": null,
+  "release_year": 2026,
   "status": null,
   "length_mm": null,
   "width_mm": null,
@@ -16739,17 +16836,25 @@
   "battery_wh": null,
   "ip_rating": null,
   "api_support": null,
-  "sdk_available": null,
-  "sdk_name": null,
+  "sdk_available": true,
+  "sdk_name": "open robot model (URDF via pip / conda-forge / ROS build farm)",
   "onboard_compute": null,
   "compute_detail": null,
-  "ros_support": null,
-  "sensors": [],
+  "ros_support": "URDF + ROS distribution",
+  "sensors": [
+   "Whole-body distributed tactile skin (touch, proximity, force, temperature)",
+   "Force sensing",
+   "Vision"
+  ],
   "price_usd": null,
   "price_note": null,
-  "official_url": null,
-  "sources": [],
-  "summary": "",
+  "official_url": "https://gbionics.ai/gene01/",
+  "sources": [
+   "https://gbionics.ai/gene01/",
+   "https://gbionics.ai/downloads/GENE01/CS_GENE01_EN.pdf",
+   "https://github.com/gbionics/gb-robot-models"
+  ],
+  "summary": "Generative Bionics' sensorized industrial humanoid platform with full-body tactile skin and physics-native AI, first configured as a welding robot for Fincantieri shipyards.",
   "image_url": null,
   "image_source": null,
   "videos": [],
@@ -16757,7 +16862,8 @@
    "https://embodied.guide/robots/generative-bionics-gene-01/",
    "https://humanoid.guide/product/gene-01/"
   ],
-  "verification": null
+  "verification": "official",
+  "note": "Maker page and press release (Genoa, 20 Jul 2026; concept shown at CES 2026 on 5 Jan 2026): GENE.01 is a fully functional, sensorized humanoid platform; whole-body distributed tactile skin senses touch, temperature, proximity and force; open digital twin published on PyPI, conda-forge and the ROS build farm. The maker publishes no height, mass, DoF, payload, battery or price figures, so those fields stay empty. Built on ergoCub research from IIT (Nature Machine Intelligence, 13 Jul 2026)."
  },
  {
   "id": "genisom-yinyi-ne01",
@@ -16839,9 +16945,11 @@
   "sensors": [],
   "price_usd": null,
   "price_note": null,
-  "official_url": null,
-  "sources": [],
-  "summary": "",
+  "official_url": "https://gigaai.cc/",
+  "sources": [
+   "https://gigaai.cc/"
+  ],
+  "summary": "GigaAI's wheeled industrial and service humanoid (about 1.6 m, twenty-plus DoF, dual 7-DoF arms) built as the body for its GigaBrain VLA model.",
   "image_url": null,
   "image_source": null,
   "videos": [],
@@ -16849,7 +16957,8 @@
    "https://embodied.guide/robots/gigaai-maker-h01/",
    "https://humanoid.guide/product/maker-h01/"
   ],
-  "verification": null
+  "verification": "official",
+  "note": "Maker homepage describes Maker H01 as a physical-AGI native body: adult-height version of about 1.6 m, 'twenty-plus' whole-body DoF, high-DoF dual arms on a mobile chassis, GigaBrain end-to-end VLA and GigaWorld simulation. No numeric spec table is published, so dimensions, mass, payload, battery and price stay empty. Third-party catalogue figures (28 DoF, 64 kg, 5 kg payload, 2.2 m/s, 160-162 cm) were not used."
  },
  {
   "id": "gigaai-seelight-s1",
@@ -16882,16 +16991,19 @@
   "sensors": [],
   "price_usd": null,
   "price_note": null,
-  "official_url": null,
-  "sources": [],
-  "summary": "",
+  "official_url": "https://gigaai.cc/",
+  "sources": [
+   "https://gigaai.cc/"
+  ],
+  "summary": "GigaAI's wheeled household humanoid SeeLight S1 ('Xiaoguang'), launched in Wuhan in May 2026 and placed in a 100-unit home pilot.",
   "image_url": null,
   "image_source": null,
   "videos": [],
   "seen_on": [
    "https://embodied.guide/robots/gigaai-seelight-s1/"
   ],
-  "verification": null
+  "verification": "unconfirmed",
+  "note": "No SeeLight S1 product page could be found on the maker site (gigaai.cc shows Maker H01 only; checked 2026-11-17), so no maker spec figures were available. Reported elsewhere: launched 20 May 2026 in Wuhan as a two-armed wheeled home robot, 167 cm, 70 kg, about 8 h after a 2 h charge (some reports say 6 h), first 100 units into Optics Valley talent apartments for household testing, target retail price around 100,000 CNY in 2027. Wheeled base, dual arms, embodied foundation model. Values not filled because they are not from a maker datasheet."
  },
  {
   "id": "guohua-yunyi-no-2",
@@ -17025,15 +17137,19 @@
   "price_usd": null,
   "price_note": null,
   "official_url": null,
-  "sources": [],
-  "summary": "",
+  "sources": [
+   "https://worldrobotconference.com/expo/company/863.html",
+   "https://en.people.cn/n3/2026/0210/c90000-20424379.html"
+  ],
+  "summary": "Wuhan HandX's wheeled service humanoid Yuanyou, working as a hospital guide and moxibustion therapist in Xianning since 2025.",
   "image_url": null,
   "image_source": null,
   "videos": [],
   "seen_on": [
    "https://embodied.guide/robots/handx-yuanyou/"
   ],
-  "verification": null
+  "verification": "unconfirmed",
+  "note": "Maker is Wuhan HandX Innovation Technology (武汉手智创新). Its WRC 2026 exhibitor entry describes Yuanyou as a wheeled general-purpose humanoid combining dexterous hands with multi-dimensional sensing for fine grasping, moxibustion therapy and daily assistance, aimed at civil services and industrial assistance, but publishes no numbers. People's Daily (29 Jan 2026) quotes HandX's general manager: 158 cm, 72 kg, 1.5 m/s, 9 months in service at Xianning Central Hospital, in mass production with 4 lines and 1,500 units/year capacity. Those figures are not from a maker datasheet, so the spec fields stay empty."
  },
  {
   "id": "haoling-robot-sf10",
@@ -17042,7 +17158,7 @@
   "country": "China",
   "category": "Humanoid",
   "locomotion": "Wheeled",
-  "release_year": null,
+  "release_year": 2026,
   "status": null,
   "length_mm": null,
   "width_mm": null,
@@ -17066,16 +17182,19 @@
   "sensors": [],
   "price_usd": null,
   "price_note": null,
-  "official_url": null,
-  "sources": [],
-  "summary": "",
+  "official_url": "https://www.haosen-global.com/",
+  "sources": [
+   "https://www.haosen-global.com/info-detail/scenarios-define-embodiment,-intelligence-reshapes-production-lines%E2%80%94haosenhaoling-launches-a-new-era-of-industrial-intelligence-with-dual-engines"
+  ],
+  "summary": "Shenzhen Haoling's wheeled industrial humanoid for unstructured assembly work, launched with Haosen in August 2026 and certified by China's National Robot Test and Assessment Center (Guangzhou).",
   "image_url": null,
   "image_source": null,
   "videos": [],
   "seen_on": [
    "https://embodied.guide/robots/haoling-robot-sf10/"
   ],
-  "verification": null
+  "verification": "official",
+  "note": "Maker press release (Haosen + subsidiary Shenzhen Haoling, 18 Aug 2026): Haoling Suizhi SF10 wheeled humanoid positioned as an 'industrial embodied intelligence assembly master', validated on customer production lines and certified by the National Robot Test and Assessment Center (Guangzhou). The release publishes no height, mass, DoF, payload, runtime, battery or price, so all spec fields stay empty."
  },
  {
   "id": "hcfa-yolo-01",
@@ -17142,28 +17261,36 @@
   "wheel_diameter_mm": null,
   "wheel_count": null,
   "dof": null,
-  "runtime_h": null,
+  "runtime_h": 2.0,
   "battery_wh": null,
   "ip_rating": null,
   "api_support": null,
-  "sdk_available": null,
-  "sdk_name": null,
-  "onboard_compute": null,
+  "sdk_available": true,
+  "sdk_name": "open SDK",
+  "onboard_compute": "RK3588 base board or NVIDIA Orin NX board",
   "compute_detail": null,
   "ros_support": null,
-  "sensors": [],
+  "sensors": [
+   "Head radar sensor",
+   "Chest depth-vision array",
+   "IMU",
+   "Microphone array"
+  ],
   "price_usd": null,
   "price_note": null,
-  "official_url": null,
-  "sources": [],
-  "summary": "",
+  "official_url": "http://www.hfun-tech.com/h-col-109.html",
+  "sources": [
+   "http://www.hfun-tech.com/h-col-109.html"
+  ],
+  "summary": "Jinhua HFun-Tech's full-size general-purpose humanoid base HM01, with dual hot-swap batteries, straight-knee walking and an open SDK.",
   "image_url": null,
   "image_source": null,
   "videos": [],
   "seen_on": [
    "https://embodied.guide/robots/hfun-tech-hm01/"
   ],
-  "verification": null
+  "verification": "official",
+  "note": "Maker product page (hfun-tech.com, HM01 全尺寸通用人形机器人): self-developed full-size motion control for stable straight-knee walking and dynamic balance; head radar sensor and speaker; chest depth-vision array; physical e-stop; open SDK for secondary development; dual-battery hot-swap architecture with about 2 h per battery (runtime field = 2 h per pack, second pack doubles it); IMU; body colour customisation. The page's numeric spec table did not render in the fetched text, so height, mass, DoF and speed stay empty rather than carrying second-hand values."
  },
  {
   "id": "hfun-tech-t01",
@@ -17172,7 +17299,7 @@
   "country": "China",
   "category": "Humanoid",
   "locomotion": "Legged",
-  "release_year": null,
+  "release_year": 2026,
   "status": null,
   "length_mm": null,
   "width_mm": null,
@@ -17196,16 +17323,20 @@
   "sensors": [],
   "price_usd": null,
   "price_note": null,
-  "official_url": null,
-  "sources": [],
-  "summary": "",
+  "official_url": "http://www.hfun-tech.com/",
+  "sources": [
+   "http://www.hfun-tech.com/",
+   "https://www.ezhejiang.gov.cn/2026-08/21/c_1207666.htm"
+  ],
+  "summary": "HFun-Tech's transformable T01, whose two limbs act as wheels, legs, chair handles or a carrier so one body serves as biped, wheeled robot, mobility chair and luggage.",
   "image_url": null,
   "image_source": null,
   "videos": [],
   "seen_on": [
    "https://embodied.guide/robots/hfun-tech-t01/"
   ],
-  "verification": null
+  "verification": "unconfirmed",
+  "note": "The maker site (hfun-tech.com) lists HM01 only; no T01 product page or datasheet was found on 2026-11-17, so spec fields stay empty. Zhejiang provincial government news (21 Aug 2026) and Korean trade press report T01 unveiled at WRC 2026 on 20 Aug 2026: 30 kg body, leg-arm reuse cutting core parts by nearly half, four modes (biped, wheeled, ride-on chair, stowed carrier), ride mode up to 10 km/h. Locomotion recorded as Legged because bipedal walking is the primary working mode."
  },
  {
   "id": "hhs-juliet",
@@ -17306,40 +17437,44 @@
   "country": "Japan",
   "category": "Humanoid",
   "locomotion": "Legged",
-  "release_year": null,
-  "status": null,
+  "release_year": 2025,
+  "status": "Prototype",
   "length_mm": null,
   "width_mm": null,
   "height_mm": null,
   "weight_kg": null,
   "payload_kg": null,
-  "max_speed_mps": null,
+  "max_speed_mps": 0.83,
   "min_speed_mps": null,
   "wheel_diameter_mm": null,
   "wheel_count": null,
-  "dof": null,
+  "dof": 19,
   "runtime_h": null,
   "battery_wh": null,
   "ip_rating": null,
   "api_support": null,
-  "sdk_available": null,
-  "sdk_name": null,
+  "sdk_available": true,
+  "sdk_name": "SDK/API (announced)",
   "onboard_compute": null,
   "compute_detail": null,
   "ros_support": null,
   "sensors": [],
   "price_usd": null,
   "price_note": null,
-  "official_url": null,
-  "sources": [],
-  "summary": "",
+  "official_url": "https://www.highlanders.co.jp/",
+  "sources": [
+   "https://prtimes.jp/main/html/rd/p/000000003.000156831.html",
+   "https://www.highlanders.ai/news"
+  ],
+  "summary": "Highlanders' 19-DoF AI humanoid prototype for factory, logistics, infrastructure-inspection and disaster work, built by a University of Tokyo spin-off.",
   "image_url": null,
   "image_source": null,
   "videos": [],
   "seen_on": [
    "https://embodied.guide/robots/highlanders-hl-human/"
   ],
-  "verification": null
+  "verification": "official",
+  "note": "Maker press release (30 Jun 2025): 19 whole-body DoF including 4 per arm, 3 km/h (0.83 m/s) autonomous movement with 3D stereo camera and LiDAR, collision detection with automatic braking and distance-based slow-down, natural-language/VLA interface, 48 V power bus for add-on modules, SDK/API planned, optional 5-finger hand grips up to 3 kg (hand figure, not robot payload). Early Access from Q4 2025, mass production planned for 2026. No height, mass or runtime published."
  },
  {
   "id": "highlanders-n",
@@ -17348,13 +17483,13 @@
   "country": "Japan",
   "category": "Humanoid",
   "locomotion": "Legged",
-  "release_year": null,
-  "status": null,
+  "release_year": 2026,
+  "status": "Prototype",
   "length_mm": null,
   "width_mm": null,
   "height_mm": null,
   "weight_kg": null,
-  "payload_kg": null,
+  "payload_kg": 12,
   "max_speed_mps": null,
   "min_speed_mps": null,
   "wheel_diameter_mm": null,
@@ -17372,16 +17507,20 @@
   "sensors": [],
   "price_usd": null,
   "price_note": null,
-  "official_url": null,
-  "sources": [],
-  "summary": "",
+  "official_url": "https://www.highlanders.co.jp/",
+  "sources": [
+   "https://prtimes.jp/main/html/rd/p/000000010.000156831.html",
+   "https://www.highlanders.ai/news"
+  ],
+  "summary": "Highlanders' Japan-made full-size humanoid N, heading to mass production with Mitsubishi Motors for shipments from 2027.",
   "image_url": null,
   "image_source": null,
   "videos": [],
   "seen_on": [
    "https://embodied.guide/robots/highlanders-n/"
   ],
-  "verification": null
+  "verification": "official",
+  "note": "Maker press release (13 Oct 2026, CEATEC 2026 mass-production prototype): carrying capacity 8 kg per arm and 12 kg with both arms (payload field = 12 kg, bimanual), mechanics, electronics, embedded software and AI all developed in-house, shipments planned from 2027, mass-production partnership with Mitsubishi Motors signed 9 Jul 2026. No height, mass, DoF, battery or runtime in the maker release; the 1750 mm / 75 kg / 29 DoF / 48 V 22 Ah / about 2 h seen in trade press were not filled."
  },
  {
   "id": "hisense-harley",
@@ -17442,14 +17581,14 @@
   "country": "Japan",
   "category": "Humanoid",
   "locomotion": "Wheeled",
-  "release_year": null,
+  "release_year": 2020,
   "status": "Commercial",
   "length_mm": null,
   "width_mm": null,
-  "height_mm": null,
-  "weight_kg": null,
+  "height_mm": 900,
+  "weight_kg": 18,
   "payload_kg": null,
-  "max_speed_mps": null,
+  "max_speed_mps": 1.39,
   "min_speed_mps": null,
   "wheel_diameter_mm": null,
   "wheel_count": null,
@@ -17466,16 +17605,20 @@
   "sensors": [],
   "price_usd": null,
   "price_note": null,
-  "official_url": null,
-  "sources": [],
-  "summary": "",
+  "official_url": "https://www.hitachi.com/en/press/articles/2020/03/0326/",
+  "sources": [
+   "https://www.hitachi.com/en/press/articles/2020/03/0326/",
+   "https://www.hitachi.com/rd/research/design/product/emiew4/index.html"
+  ],
+  "summary": "Hitachi's wheeled communication humanoid for building reception, guidance and night patrol, sold in Japan from April 2020 with automated recharging.",
   "image_url": null,
   "image_source": null,
   "videos": [],
   "seen_on": [
    "https://embodied.guide/robots/hitachi-emiew4/"
   ],
-  "verification": null
+  "verification": "official",
+  "note": "Maker press release (26 Mar 2020): EMIEW4 height 90 cm, mass 18 kg, max movement speed 5 km/h (field = 1.39 m/s), languages Japanese/English/Chinese/Korean, automated recharging for continuous operation, domestic sales from 20 Apr 2020 through Hitachi Building Systems, delivered about 4 months after order, price by individual quotation. It runs on wheels and does not walk. DoF, payload, runtime and battery figures are not published."
  },
  {
   "id": "honda-avatar-robot",
@@ -17488,14 +17631,14 @@
   "status": "Research",
   "length_mm": null,
   "width_mm": null,
-  "height_mm": null,
-  "weight_kg": null,
+  "height_mm": 1700,
+  "weight_kg": 110,
   "payload_kg": null,
-  "max_speed_mps": null,
+  "max_speed_mps": 1.0,
   "min_speed_mps": null,
   "wheel_diameter_mm": null,
-  "wheel_count": null,
-  "dof": null,
+  "wheel_count": 2,
+  "dof": 56,
   "runtime_h": null,
   "battery_wh": null,
   "ip_rating": null,
@@ -17505,12 +17648,20 @@
   "onboard_compute": null,
   "compute_detail": null,
   "ros_support": null,
-  "sensors": [],
+  "sensors": [
+   "Camera (operator view)",
+   "Vibration feedback gloves",
+   "Fingertip 6-axis force sensors",
+   "Contact sensors on hand surface"
+  ],
   "price_usd": null,
   "price_note": null,
-  "official_url": null,
-  "sources": [],
-  "summary": "",
+  "official_url": "https://global.honda/en/RandD/field/hgrx/honda-multi-fingered-hand/avatar-robot.html",
+  "sources": [
+   "https://global.honda/en/RandD/field/hgrx/honda-multi-fingered-hand/avatar-robot.html",
+   "https://global.honda/en/tech/Avatar_robot/"
+  ],
+  "summary": "Honda's teleoperated avatar humanoid with two 16-DoF multi-fingered hands that handle tools made for people from a remote location.",
   "image_url": null,
   "image_source": null,
   "videos": [],
@@ -17518,7 +17669,8 @@
    "https://embodied.guide/robots/honda-avatar-robot/",
    "https://humanoid.guide/product/honda-avatar/"
   ],
-  "verification": null
+  "verification": "official",
+  "note": "Maker spec (Honda R&D): height 1700 mm, mass 110 kg, 56 DoF in total - head 3, arm 8x2, multi-fingered hand 16x2, waist 3, wheel 2 - speed 1.0 m/s. Remotely operated with AI-supported assistance (intention estimation, 3D position correction, grasp-state checking); targets healthcare, infrastructure maintenance, disaster response and space. No payload, runtime, battery or price published."
  },
  {
   "id": "honor-d1",
@@ -17551,9 +17703,11 @@
   "sensors": [],
   "price_usd": null,
   "price_note": null,
-  "official_url": null,
-  "sources": [],
-  "summary": "",
+  "official_url": "https://www.honor.com/global/events/honor-robot/",
+  "sources": [
+   "https://www.honor.com/global/events/honor-robot/"
+  ],
+  "summary": "HONOR's D1 racing humanoid, which won the 2026 Beijing Yizhuang half-marathon for humanoids and set speed records.",
   "image_url": null,
   "image_source": null,
   "videos": [],
@@ -17561,7 +17715,8 @@
    "https://embodied.guide/robots/honor-d1/",
    "https://humanoid.guide/product/honor-d1/"
   ],
-  "verification": null
+  "verification": "official",
+  "note": "Maker product page markets D1 (HONOR Robotics) on autonomous perception and navigation, an in-house high-dynamic motion system, terrain traversal, voice interaction and light strips/gestures; it publishes no height, mass, DoF, payload, battery or speed table. HONOR's own campaign material claims five track records (100 m 9.32 s, 400 m 39.45 s, 1500 m 2:30, half marathon 50:26, peak 14.5 m/s). Trade press gives 169 cm and 45 kg; those figures were not filled. A racing demonstrator rather than a product; no price."
  },
  {
   "id": "huashu-hsr-er-hr705",
@@ -17570,19 +17725,19 @@
   "country": "China",
   "category": "Humanoid",
   "locomotion": "Wheeled",
-  "release_year": null,
+  "release_year": 2026,
   "status": null,
   "length_mm": null,
   "width_mm": null,
-  "height_mm": null,
-  "weight_kg": null,
-  "payload_kg": null,
-  "max_speed_mps": null,
+  "height_mm": 1700,
+  "weight_kg": 200,
+  "payload_kg": 10,
+  "max_speed_mps": 1.2,
   "min_speed_mps": null,
   "wheel_diameter_mm": null,
   "wheel_count": null,
-  "dof": null,
-  "runtime_h": null,
+  "dof": 23,
+  "runtime_h": 6.0,
   "battery_wh": null,
   "ip_rating": null,
   "api_support": null,
@@ -17591,12 +17746,19 @@
   "onboard_compute": null,
   "compute_detail": null,
   "ros_support": null,
-  "sensors": [],
+  "sensors": [
+   "Depth cameras x2 (standard)",
+   "Fisheye camera x1",
+   "Wrist depth cameras x2 (optional)"
+  ],
   "price_usd": null,
   "price_note": null,
-  "official_url": null,
-  "sources": [],
-  "summary": "",
+  "official_url": "https://www.hsrobotics.cn/products_xq/119.html",
+  "sources": [
+   "https://www.hsrobotics.cn/products_xq/119.html",
+   "https://www.huazhongcnc.com/portal/article/index/id/2187/cid/13.html"
+  ],
+  "summary": "Huashu's wheeled industrial humanoid with 23 DoF and a 10 kg dual-arm payload for assembly, sorting and machine tending, released at XAIR Expo 2026.",
   "image_url": null,
   "image_source": null,
   "videos": [],
@@ -17604,7 +17766,8 @@
    "https://embodied.guide/robots/huashu-robotics-hsr-er-hr705/",
    "https://humanoid.guide/product/hsr-er-hr705/"
   ],
-  "verification": null
+  "verification": "official",
+  "note": "Maker product page: 23 DoF (arms 7x2 + head 2 + waist 1 + legs 3 + chassis 3), rated payload 10 kg (5 kg x 2), max working radius 738 mm, repeatability +/-0.05 mm, height 1700 mm, mass 200 kg, arm-tip max speed 1.5 m/s, chassis max speed 1.2 m/s (field = chassis speed), chassis 745 x 620 x 343 mm, runtime 6 h+, charge <=2 h, SLAM laser navigation, omnidirectional drive, climb <=5 degrees, 0-45 C, 20-80 %RH, EtherCAT/SOCKET/MODBUS, quick-change end effectors. Formally released 3 Sep 2026 at XAIR Expo (parent Huazhong CNC)."
  },
  {
   "id": "hubei-qiling-shennong",
@@ -17617,36 +17780,43 @@
   "status": null,
   "length_mm": null,
   "width_mm": null,
-  "height_mm": null,
-  "weight_kg": null,
+  "height_mm": 1750,
+  "weight_kg": 55,
   "payload_kg": null,
-  "max_speed_mps": null,
+  "max_speed_mps": 2.0,
   "min_speed_mps": null,
   "wheel_diameter_mm": null,
   "wheel_count": null,
-  "dof": null,
-  "runtime_h": null,
+  "dof": 43,
+  "runtime_h": 2.0,
   "battery_wh": null,
   "ip_rating": null,
   "api_support": null,
-  "sdk_available": null,
-  "sdk_name": null,
-  "onboard_compute": null,
-  "compute_detail": null,
-  "ros_support": null,
-  "sensors": [],
+  "sdk_available": true,
+  "sdk_name": "Shennong SDK (ROS / Python / C++)",
+  "onboard_compute": "NVIDIA AGX Orin or Orin NX",
+  "compute_detail": "module-level, TOPS not stated",
+  "ros_support": "ROS",
+  "sensors": [
+   "LiDAR",
+   "RGB-D camera"
+  ],
   "price_usd": null,
   "price_note": null,
-  "official_url": null,
-  "sources": [],
-  "summary": "",
+  "official_url": "https://wrc.cie.org.cn/expo/product/1392.html",
+  "sources": [
+   "https://wrc.cie.org.cn/expo/product/1392.html",
+   "https://wrc.cie.org.cn/profile/robot/download/2026/07/30/20260730123237000308_20260730123237A012.pdf"
+  ],
+  "summary": "Hubei Qiling's Shennong industrial biped (1.75 m, 43 DoF) built on an RL+MPC whole-body controller for logistics, inspection and education.",
   "image_url": null,
   "image_source": null,
   "videos": [],
   "seen_on": [
    "https://embodied.guide/robots/hubei-qiling-shennong/"
   ],
-  "verification": null
+  "verification": "official",
+  "note": "Maker's own exhibit entry and product brochure (WRC 2026): 175 cm, 55 kg, up to 43 whole-body DoF (7 per arm = 3 shoulder + 1 elbow + 3 wrist, 6 per leg), self-developed high torque-density motors (200 N.m/kg peak), 2.0 m/s navigation and 6 km continuous running, about 2 h endurance, LiDAR + RGB-D perception, AGX Orin / Orin NX compute, open SDK supporting ROS/Python/C++, RL+MPC fused controller, voice interaction. Company founded 2025 with Huazhong University of Science and Technology ties. No price published."
  },
  {
   "id": "beijing-huiwen-iben-a03",
@@ -17703,34 +17873,42 @@
   "width_mm": null,
   "height_mm": null,
   "weight_kg": null,
-  "payload_kg": null,
+  "payload_kg": 7,
   "max_speed_mps": null,
   "min_speed_mps": null,
   "wheel_diameter_mm": null,
   "wheel_count": null,
   "dof": null,
-  "runtime_h": null,
-  "battery_wh": null,
+  "runtime_h": 3.0,
+  "battery_wh": 972,
   "ip_rating": null,
   "api_support": null,
   "sdk_available": null,
   "sdk_name": null,
-  "onboard_compute": null,
+  "onboard_compute": "NVIDIA Isaac GR00T reference stack",
   "compute_detail": null,
   "ros_support": null,
-  "sensors": [],
+  "sensors": [
+   "Head stereo camera (wide FOV)",
+   "Wrist cameras",
+   "IMU"
+  ],
   "price_usd": null,
   "price_note": null,
-  "official_url": null,
-  "sources": [],
-  "summary": "",
+  "official_url": "https://www.ihubrobotics.com/daksha-mini",
+  "sources": [
+   "https://www.ihubrobotics.com/daksha-mini",
+   "https://www.ihubrobotics.com/"
+  ],
+  "summary": "iHub Robotics' Daksha Gen-2 mobile humanoid for welding, electronics assembly and logistics, built on NVIDIA's Isaac GR00T reference stack.",
   "image_url": null,
   "image_source": null,
   "videos": [],
   "seen_on": [
    "https://embodied.guide/robots/ihub-robotics-daksha-gen-2/"
   ],
-  "verification": null
+  "verification": "official",
+  "note": "Maker page (/daksha-mini, 'Daksha Gen-2 - Mobile Humanoid Robot'; spec text on the DakshaMini product page): 15 Ah / 0.972 kWh battery giving about 3 h, rated arm payload 7 kg with 15 kg peak, head-mounted stereo camera with wide field of view plus wrist cameras and an IMU, remote emergency stop, NVIDIA Isaac GR00T open models and reference workflows. Payload field = 7 kg rated (15 kg peak). Height, mass, DoF and price are not published on the page checked. Note that 'TARA Gen 2' is the older DAKSHA semi-humanoid (190 cm, 120-150 kg, 27 DoF), a different model."
  },
  {
   "id": "ihub-robotics-karna",
@@ -17763,16 +17941,20 @@
   "sensors": [],
   "price_usd": null,
   "price_note": null,
-  "official_url": null,
-  "sources": [],
-  "summary": "",
+  "official_url": "https://www.ihubrobotics.com/karna",
+  "sources": [
+   "https://www.ihubrobotics.com/karna",
+   "https://www.ihubrobotics.com/"
+  ],
+  "summary": "iHub Robotics' KARNA, listed as its full-body heavy industrial humanoid for high-payload factory work.",
   "image_url": null,
   "image_source": null,
   "videos": [],
   "seen_on": [
    "https://embodied.guide/robots/ihub-robotics-karna/"
   ],
-  "verification": null
+  "verification": "official",
+  "note": "The maker page (/karna) exists and names KARNA a 'Full-Body Heavy Industrial Humanoid', but its specification block is rendered by script and returned no values on 2026-11-17, and no datasheet is published. Height, mass, DoF, payload, runtime, battery and price therefore stay empty."
  },
  {
   "id": "ihub-robotics-tara-gen-1",
@@ -17781,7 +17963,7 @@
   "country": "India",
   "category": "Humanoid",
   "locomotion": "Wheeled",
-  "release_year": null,
+  "release_year": 2026,
   "status": "Commercial",
   "length_mm": null,
   "width_mm": null,
@@ -17805,9 +17987,12 @@
   "sensors": [],
   "price_usd": null,
   "price_note": null,
-  "official_url": null,
-  "sources": [],
-  "summary": "",
+  "official_url": "https://www.ihubrobotics.com/tara",
+  "sources": [
+   "https://www.ihubrobotics.com/tara",
+   "https://www.ihubrobotics.com/blog/tara-gen1-indias-most-advanced-humanoid-robot"
+  ],
+  "summary": "iHub Robotics' TARA Gen 1, an Indian semi-humanoid service robot for reception, education and public-space guidance.",
   "image_url": null,
   "image_source": null,
   "videos": [],
@@ -17815,7 +18000,8 @@
    "https://embodied.guide/robots/ihub-robotics-tara-gen-1/",
    "https://humanoid.guide/product/tara-gen1/"
   ],
-  "verification": null
+  "verification": "official",
+  "note": "Maker pages describe TARA Gen 1 as a semi-humanoid service robot with multilingual conversation, face recognition, autonomous navigation and real-time AI, deployed in UAE government offices and with Sharjah Police, with TARA Learn (education) and TARA Greet (hospitality) variants. The maker publishes no height, mass, DoF, payload, runtime, battery or price for Gen 1, so the spec fields stay empty."
  },
  {
   "id": "infiforce-astrodroid-ad-01",
@@ -17824,33 +18010,36 @@
   "country": "China",
   "category": "Humanoid",
   "locomotion": "Wheeled",
-  "release_year": null,
+  "release_year": 2026,
   "status": null,
   "length_mm": null,
   "width_mm": null,
-  "height_mm": null,
+  "height_mm": 1700,
   "weight_kg": null,
   "payload_kg": null,
   "max_speed_mps": null,
   "min_speed_mps": null,
   "wheel_diameter_mm": null,
   "wheel_count": null,
-  "dof": null,
+  "dof": 43,
   "runtime_h": null,
   "battery_wh": null,
   "ip_rating": null,
   "api_support": null,
   "sdk_available": null,
   "sdk_name": null,
-  "onboard_compute": null,
+  "onboard_compute": "NVIDIA Jetson AGX Orin",
   "compute_detail": null,
   "ros_support": null,
   "sensors": [],
   "price_usd": null,
   "price_note": null,
-  "official_url": null,
-  "sources": [],
-  "summary": "",
+  "official_url": "https://www.infiforce.cn/robot",
+  "sources": [
+   "https://www.infiforce.cn/robot",
+   "https://www.prnewswire.com/news-releases/infiforces-isabella-bai-at-ces-2026-china-is-moving-from-manufacturing-to-defining-next-gen-embodied-intelligence-302657197.html"
+  ],
+  "summary": "INFIFORCE's full-size wheeled AstroDroid AD-01, driven by the company's Hyper-VLA model for warehouse order picking and packing.",
   "image_url": null,
   "image_source": null,
   "videos": [],
@@ -17858,7 +18047,8 @@
    "https://embodied.guide/robots/infiforce-astrodroid-ad-01/",
    "https://humanoid.guide/product/astrodroid-ad-01/"
   ],
-  "verification": null
+  "verification": "official",
+  "note": "Maker press release (CES 2026, via PR Newswire): the flagship AstroDroid AD-01 stands 170 cm tall with 43 DoF, runs on Jetson AGX Orin and is fully integrated with the Hyper-VLA model; the AstroDroid series is a general-purpose wheeled humanoid line. Maker news (May 2026) shows AD-01 completing a five-item quick-commerce order end to end in a Hangzhou front warehouse. Mass, payload, speed, battery and price are not published."
  },
  {
   "id": "infiforce-yuanzi",
@@ -17871,36 +18061,42 @@
   "status": null,
   "length_mm": null,
   "width_mm": null,
-  "height_mm": null,
-  "weight_kg": null,
+  "height_mm": 950,
+  "weight_kg": 20,
   "payload_kg": null,
   "max_speed_mps": null,
   "min_speed_mps": null,
   "wheel_diameter_mm": null,
   "wheel_count": null,
-  "dof": null,
-  "runtime_h": null,
+  "dof": 25,
+  "runtime_h": 1.5,
   "battery_wh": null,
   "ip_rating": null,
   "api_support": null,
-  "sdk_available": null,
-  "sdk_name": null,
+  "sdk_available": true,
+  "sdk_name": "open SDK (C++/Python)",
   "onboard_compute": null,
-  "compute_detail": null,
-  "ros_support": null,
-  "sensors": [],
+  "compute_detail": "275 TOPS",
+  "ros_support": "ROS",
+  "sensors": [
+   "Dual-camera perception array"
+  ],
   "price_usd": null,
   "price_note": null,
-  "official_url": null,
-  "sources": [],
-  "summary": "",
+  "official_url": "https://www.infiforce.cn/yuanzi",
+  "sources": [
+   "https://www.infiforce.cn/yuanzi",
+   "https://www.infiforce.cn/robot"
+  ],
+  "summary": "INFIFORCE's small biped YUANZI (小原子), a 95 cm companion and education humanoid with 275 TOPS on board.",
   "image_url": null,
   "image_source": null,
   "videos": [],
   "seen_on": [
    "https://embodied.guide/robots/infiforce-yuanzi/"
   ],
-  "verification": null
+  "verification": "official",
+  "note": "Maker product page (infiforce.cn/yuanzi) spec panel: height 95 cm, mass 20 kg, 25 DoF, max joint torque 36 N.m, dual-camera perception array, 275 TOPS core compute, about 1.5 h runtime, ROS/C++/Python development with an open SDK and standard expansion ports. Marketed for home companionship, education, research and reception; price on request."
  },
  {
   "id": "iono-workmate",
@@ -17909,8 +18105,8 @@
   "country": "Austria",
   "category": "Humanoid",
   "locomotion": "Legged",
-  "release_year": null,
-  "status": null,
+  "release_year": 2026,
+  "status": "Prototype",
   "length_mm": null,
   "width_mm": null,
   "height_mm": null,
@@ -17930,19 +18126,27 @@
   "onboard_compute": null,
   "compute_detail": null,
   "ros_support": null,
-  "sensors": [],
+  "sensors": [
+   "20+ sensors",
+   "Integrated drone camera (head)",
+   "IonoSkin sensor suit"
+  ],
   "price_usd": null,
   "price_note": null,
-  "official_url": null,
-  "sources": [],
-  "summary": "",
+  "official_url": "https://www.iono.tech/",
+  "sources": [
+   "https://www.iono.tech/",
+   "https://www.iono.tech/press/austrian-humanoid-robot-%E2%80%9Cworkmate%E2%80%9D-presented-publicly-for-the-first-time"
+  ],
+  "summary": "IONO Robotics' Austrian humanoid work robot WORKMATE, which carries a drone inside its head for aerial inspection.",
   "image_url": null,
   "image_source": null,
   "videos": [],
   "seen_on": [
    "https://embodied.guide/robots/iono-workmate/"
   ],
-  "verification": null
+  "verification": "official",
+  "note": "Maker home page lists WORKMATE with 20+ sensors, hybrid walk + drive locomotion, 24/7 continuous operation and delivery in 2026; the launch release (Linz, 27 May 2026) adds the drone integrated in the head, the modular multi-head concept, the IONOSPHERE control/AI stack and pilots with industrial partners in Austria, Germany and Italy. No datasheet is published: height, mass, DoF, payload, runtime, battery and price stay empty (early interviews cited 175-177 cm, 70 kg and 30 kg payload for an earlier V1, which are not current figures)."
  },
  {
   "id": "isoftstone-tianqing-a2",
@@ -17975,16 +18179,19 @@
   "sensors": [],
   "price_usd": null,
   "price_note": null,
-  "official_url": null,
-  "sources": [],
-  "summary": "",
+  "official_url": "https://www.worldrobotconference.com/expo/company/652.html",
+  "sources": [
+   "https://www.worldrobotconference.com/expo/company/652.html"
+  ],
+  "summary": "iSoftStone Tianqing's A2 wheeled service and industrial humanoid, offered in an interaction version and a work version.",
   "image_url": null,
   "image_source": null,
   "videos": [],
   "seen_on": [
    "https://embodied.guide/robots/isoftstone-tianqing-a2/"
   ],
-  "verification": null
+  "verification": "official",
+  "note": "Maker exhibit entry (WRC 2026, Hangzhou iSoftStone Tianqing Robot Technology, an iSoftStone spin-out): the A2 line covers an interaction version (public-space service with multimodal interaction and autonomous navigation) and a work version (a general mobile service platform with standard development interfaces for single and fleet applications); the S, A and T series cover biped and wheeled semi-humanoid robots. The entry publishes no numbers. Third-party catalogue figures (162 cm, 20 DoF, 7-DoF arms) were not filled."
  },
  {
   "id": "jianghuai-qijiang-humanoid",
@@ -17993,18 +18200,18 @@
   "country": "China",
   "category": "Humanoid",
   "locomotion": "Legged",
-  "release_year": null,
+  "release_year": 2024,
   "status": null,
   "length_mm": null,
   "width_mm": null,
-  "height_mm": null,
-  "weight_kg": null,
+  "height_mm": 1800,
+  "weight_kg": 60,
   "payload_kg": null,
   "max_speed_mps": null,
   "min_speed_mps": null,
   "wheel_diameter_mm": null,
   "wheel_count": null,
-  "dof": null,
+  "dof": 38,
   "runtime_h": null,
   "battery_wh": null,
   "ip_rating": null,
@@ -18014,19 +18221,26 @@
   "onboard_compute": null,
   "compute_detail": null,
   "ros_support": null,
-  "sensors": [],
+  "sensors": [
+   "Vision sensors",
+   "High-precision IMU",
+   "6-axis force/torque sensors"
+  ],
   "price_usd": null,
   "price_note": null,
-  "official_url": null,
-  "sources": [],
-  "summary": "",
+  "official_url": "https://worldrobotconference.com/expo/company/458.html",
+  "sources": [
+   "https://worldrobotconference.com/expo/company/458.html"
+  ],
+  "summary": "The JiangHuai (JAC) Advanced Technology Center's Qijiang humanoid, a 1.8 m, 38-DoF biped aimed at home service and industrial work.",
   "image_url": null,
   "image_source": null,
   "videos": [],
   "seen_on": [
    "https://embodied.guide/robots/jianghuai-qijiang-humanoid/"
   ],
-  "verification": null
+  "verification": "official",
+  "note": "Maker exhibit entry (WRC 2026): Qijiang is about 1.8 m tall, about 60 kg, with 38 active whole-body DoF and intelligent decision-making, robust locomotion and dexterous control on a 'smart brain - agile cerebellum - strong limbs' stack, targeted at household chore, elderly-care, assembly and high-risk tasks. The Qijiang-2 prototype was unveiled on 8 Sep 2024 with the same 1.8 m / 60 kg / 38 DoF figures; a Qijiang-2M variant is 170 cm / 50 kg / 32 DoF / 200 TOPS. Speed, runtime, battery and price are not published."
  },
  {
   "id": "jingchu-jingling",
@@ -18039,36 +18253,45 @@
   "status": null,
   "length_mm": null,
   "width_mm": null,
-  "height_mm": null,
-  "weight_kg": null,
-  "payload_kg": null,
-  "max_speed_mps": null,
+  "height_mm": 1650,
+  "weight_kg": 70,
+  "payload_kg": 3,
+  "max_speed_mps": 2.3,
   "min_speed_mps": null,
   "wheel_diameter_mm": null,
   "wheel_count": null,
-  "dof": null,
-  "runtime_h": null,
-  "battery_wh": null,
+  "dof": 18,
+  "runtime_h": 8.0,
+  "battery_wh": 960,
   "ip_rating": null,
   "api_support": null,
-  "sdk_available": null,
-  "sdk_name": null,
-  "onboard_compute": null,
-  "compute_detail": null,
+  "sdk_available": true,
+  "sdk_name": "SDK + handheld remote",
+  "onboard_compute": "Intel Core host + NVIDIA Jetson Orin NX",
+  "compute_detail": "Orin NX-class edge module",
   "ros_support": null,
-  "sensors": [],
+  "sensors": [
+   "360-degree LiDAR",
+   "RGB-D camera",
+   "4-microphone array",
+   "IMU"
+  ],
   "price_usd": null,
   "price_note": null,
-  "official_url": null,
-  "sources": [],
-  "summary": "",
+  "official_url": "https://www.jingchurobot.cn",
+  "sources": [
+   "https://wrc.cie.org.cn/profile/robot/download/2026/07/30/20260730092623000149_20260730092623A923.pdf",
+   "https://wrc.cie.org.cn/expo/company/860.html"
+  ],
+  "summary": "Jingchu's wheeled service humanoid for reception, guidance, retail data collection and light household assistance, with 7-DoF arms on a two-wheel chassis.",
   "image_url": null,
   "image_source": null,
   "videos": [],
   "seen_on": [
    "https://embodied.guide/robots/jingchu-jingling/"
   ],
-  "verification": null
+  "verification": "official",
+  "note": "Maker brochure (Jingchu Humanoid Robot Co., Wuhan, jingchurobot.cn): 165 cm, 70 kg, 18 DoF standard / 38 with dexterous hands (record keeps 18), 2 chassis DoF, 7-DoF arms, ~3 kg arm payload, 73 cm arm length, 2.3 m/s, 48 V 20 Ah (=960 Wh derived), about 8 h runtime, in-place rotation, 360-degree LiDAR + RGB-D, 5G, Wi-Fi 6, Bluetooth 5.0, 4-microphone array, auto-charging for 24 h operation, self-diagnosis and recovery, hand remote and OTA. The brochure's compute line reads 'Intel Core i14', likely a typo. Deliveries of 40+ units across three models reported Nov 2026."
  },
  {
   "id": "jingchu-xiaochu",
@@ -18081,36 +18304,43 @@
   "status": null,
   "length_mm": null,
   "width_mm": null,
-  "height_mm": null,
-  "weight_kg": null,
-  "payload_kg": null,
-  "max_speed_mps": null,
+  "height_mm": 850,
+  "weight_kg": 28,
+  "payload_kg": 1,
+  "max_speed_mps": 1.7,
   "min_speed_mps": null,
   "wheel_diameter_mm": null,
   "wheel_count": null,
-  "dof": null,
-  "runtime_h": null,
-  "battery_wh": null,
+  "dof": 12,
+  "runtime_h": 5.0,
+  "battery_wh": 288,
   "ip_rating": null,
   "api_support": null,
-  "sdk_available": null,
-  "sdk_name": null,
-  "onboard_compute": null,
+  "sdk_available": true,
+  "sdk_name": "SDK + handheld remote",
+  "onboard_compute": "NVIDIA Jetson Orin NX",
   "compute_detail": null,
   "ros_support": null,
-  "sensors": [],
+  "sensors": [
+   "Stereo depth camera",
+   "IMU"
+  ],
   "price_usd": null,
   "price_note": null,
-  "official_url": null,
-  "sources": [],
-  "summary": "",
+  "official_url": "https://www.jingchurobot.cn",
+  "sources": [
+   "https://wrc.cie.org.cn/expo/product/1341.html",
+   "https://wrc.cie.org.cn/profile/robot/download/2026/07/30/20260730092623000149_20260730092623A923.pdf"
+  ],
+  "summary": "Jingchu's small wheeled humanoid Xiaochu (85 cm, 28 kg) for education, tourism guidance and home companionship.",
   "image_url": null,
   "image_source": null,
   "videos": [],
   "seen_on": [
    "https://embodied.guide/robots/jingchu-xiaochu/"
   ],
-  "verification": null
+  "verification": "official",
+  "note": "Maker exhibit entry and brochure: about 85 cm, about 28 kg, 12 DoF excluding the optional gripper (3 per leg, 3 per arm), ~1 kg arm payload, 37 cm arm length, 1.7 m/s, 48 V 6 Ah (=288 Wh derived), about 5 h runtime, stereo depth camera for autonomous navigation, AI voice kit, rotatory joint modules with hub motors for squatting, waving and dancing, Orin NX compute, optional gripper, group control of dozens of units, custom shells and IP tie-ins. In use at tourism venues; no price published."
  },
  {
   "id": "kawasaki-nyokkey",
@@ -18120,7 +18350,7 @@
   "category": "Humanoid",
   "locomotion": "Wheeled",
   "release_year": null,
-  "status": "Research",
+  "status": "Pilot",
   "length_mm": null,
   "width_mm": null,
   "height_mm": null,
@@ -18143,16 +18373,19 @@
   "sensors": [],
   "price_usd": null,
   "price_note": null,
-  "official_url": null,
-  "sources": [],
-  "summary": "",
+  "official_url": "https://kawasakirobotics.com/jp/news/20260422_nyokkey/",
+  "sources": [
+   "https://kawasakirobotics.com/jp/news/20260422_nyokkey/"
+  ],
+  "summary": "Kawasaki's Nyokkey semi-humanoid service robot: a two-armed autonomous mobile base for reception, service, picking and transport.",
   "image_url": null,
   "image_source": null,
   "videos": [],
   "seen_on": [
    "https://embodied.guide/robots/kawasaki-nyokkey/"
   ],
-  "verification": null
+  "verification": "official",
+  "note": "Maker news (22 Apr 2026): Nyokkey is a semi-humanoid social robot built for the same space as people, based on Kawasaki's industrial robot technology and aimed at guidance, reception and transport; at Kawasaki Robostage it now runs a retail picking station (tablet order, 3D camera over the shelf, autonomous move, pick and hand-over to the cashier). Earlier trials: pantry service at the Akashi plant (2022) and Fujita Health University Hospital elevator use. The maker publishes no datasheet; the 150 cm / 75 kg / 6 kg payload / 6 km/h figures come from 2022 press coverage and were not filled."
  },
  {
   "id": "keenon-xman-l1",
@@ -18185,16 +18418,19 @@
   "sensors": [],
   "price_usd": null,
   "price_note": null,
-  "official_url": null,
-  "sources": [],
-  "summary": "",
+  "official_url": "https://www.keenon.com/en/product/XMAN-L1",
+  "sources": [
+   "https://www.keenon.com/en/product/XMAN-L1"
+  ],
+  "summary": "KEENON's XMAN-L1 humanoid, listed in the maker's humanoid line-up beside XMAN-R1 and XMAN-F1.",
   "image_url": null,
   "image_source": null,
   "videos": [],
   "seen_on": [
    "https://embodied.guide/robots/keenon-xman-l1/"
   ],
-  "verification": null
+  "verification": "official",
+  "note": "XMAN-L1 is listed in the maker's humanoid line-up (XMAN-R1, XMAN-F1, XMAN-L1), but its product page at keenon.com/en/product/XMAN-L1 serves only the contact form and publishes no specification content (checked 2026-11-17). No maker figures are available, so every spec field stays empty."
  },
  {
   "id": "kinetix-ai-kaibot",
@@ -18203,7 +18439,7 @@
   "country": "China",
   "category": "Humanoid",
   "locomotion": "Legged",
-  "release_year": null,
+  "release_year": 2026,
   "status": null,
   "length_mm": null,
   "width_mm": null,
@@ -18227,9 +18463,12 @@
   "sensors": [],
   "price_usd": null,
   "price_note": null,
-  "official_url": null,
-  "sources": [],
-  "summary": "",
+  "official_url": "https://www.kinetixai.tech/en/kaibot",
+  "sources": [
+   "https://www.kinetixai.tech/en/kaibot",
+   "https://www.kinetixai.tech/en/about"
+  ],
+  "summary": "Kinetix AI's KaiBot, a hyper-anthropomorphic humanoid platform paired with the company's KAI Hand and KAI Halo data pipeline.",
   "image_url": null,
   "image_source": null,
   "videos": [],
@@ -18237,7 +18476,8 @@
    "https://embodied.guide/robots/kinetix-ai-kaibot/",
    "https://humanoid.guide/product/kai/"
   ],
-  "verification": null
+  "verification": "official",
+  "note": "Maker site (kinetixai.tech): Kinetix AI (Shenzhen, founded July 2025) builds KaiBot as its highly anthropomorphic humanoid platform alongside KAI Hand, the KAI Halo Lite headset and the KAI EGO dataset, SMASH dynamic-scenario testing and an embodied-AI infrastructure. The maker's product page renders by script and publishes no numeric table, so spec fields stay empty. At the 'GIFTED' launch event on 26 Apr 2026 the company presented KAI as 173 cm, 70 kg, 115 DoF, 36-DoF hands (22 active + 14 compliant), a 1.7 kWh semi-solid-state pack giving about 3 h of dual-arm work, close to 20 kg dual-arm payload and an 18,000-point tactile skin; those figures are press-reported, not from a maker datasheet."
  },
  {
   "id": "knowin-ai-knowin-x1",
@@ -20034,7 +20274,7 @@
   "country": "China",
   "category": "Humanoid",
   "locomotion": "Legged",
-  "release_year": null,
+  "release_year": 2026,
   "status": null,
   "length_mm": null,
   "width_mm": null,
@@ -20058,16 +20298,19 @@
   "sensors": [],
   "price_usd": null,
   "price_note": null,
-  "official_url": null,
-  "sources": [],
-  "summary": "",
+  "official_url": "https://www.openloong.net",
+  "sources": [
+   "https://wrc.cie.org.cn/expo/company/395.html"
+  ],
+  "summary": "Linglong L1, the low-cost biped research platform of the National and Local Co-built Humanoid Robot Innovation Center (Shanghai).",
   "image_url": null,
   "image_source": null,
   "videos": [],
   "seen_on": [
    "https://embodied.guide/robots/shanghai-humanoid-linglong-l1/"
   ],
-  "verification": null
+  "verification": "official",
+  "note": "Maker is Humanoid Robot (Shanghai) Co., Ltd., which operates the National and Local Co-built Humanoid Robot Innovation Center and the OpenLoong community (openloong.net). Its WRC 2026 exhibit entry describes L1 as a biped platform for general light-load work, built for legged-locomotion research and for validating embodied algorithms on 7-DoF humanoid arms, with low cost, high compatibility and modularity as the selling points; the entry publishes no numbers. Third-party catalogue figures (161 cm, 64 kg, 28 DoF, 2 kg arm payload, 3 m/s) were not filled."
  },
  {
   "id": "humanoid-shanghai-linglong-l2",
@@ -20076,7 +20319,7 @@
   "country": "China",
   "category": "Humanoid",
   "locomotion": "Legged",
-  "release_year": null,
+  "release_year": 2026,
   "status": null,
   "length_mm": null,
   "width_mm": null,
@@ -20100,16 +20343,19 @@
   "sensors": [],
   "price_usd": null,
   "price_note": null,
-  "official_url": null,
-  "sources": [],
-  "summary": "",
+  "official_url": "https://www.openloong.net",
+  "sources": [
+   "https://wrc.cie.org.cn/expo/company/395.html"
+  ],
+  "summary": "Linglong L2.0, the firefighting configuration of the Shanghai humanoid innovation center's biped platform.",
   "image_url": null,
   "image_source": null,
   "videos": [],
   "seen_on": [
    "https://embodied.guide/robots/shanghai-humanoid-linglong-l2/"
   ],
-  "verification": null
+  "verification": "unconfirmed",
+  "note": "No maker product page or datasheet for L2.0 was found (the center's WRC 2026 entry lists Linglong L1 and H1 only; checked 2026-11-17), so spec fields stay empty. Press coverage of WRC 2026 and of the 2026 Yizhuang half-marathon reports L2.0 as a firefighting humanoid: 173 cm, 42 active DoF, up to 3 m/s, 560 TOPS edge compute, >95% domestic hardware, heat-resistant suit, RISC-V K3 AI CPU with the OpenLoong control framework. Those figures are press-reported, not maker-published."
  },
  {
   "id": "sharpa-north",
@@ -23376,16 +23622,20 @@
   "sensors": [],
   "price_usd": null,
   "price_note": null,
-  "official_url": null,
-  "sources": [],
-  "summary": "",
+  "official_url": "https://www.haier.com/",
+  "sources": [
+   "https://www.haier.com/about_haier/xinwen/20260825_294291.shtml",
+   "https://www.haier.com/lianghui2026/qwbd/20260305_287465.shtml"
+  ],
+  "summary": "Haier's HIVA (海娃) home-service humanoid, co-developed with Robot Era, that operates Haier appliances for laundry, cooking and cleaning.",
   "image_url": null,
   "image_source": null,
   "videos": [],
   "seen_on": [
    "https://humanoid.guide/product/hiva-haiwa/"
   ],
-  "verification": null
+  "verification": "official",
+  "note": "Haier's own news pages present HIVA 海娃 as its home-service humanoid (housework, cleaning and companion variants), co-developed with Beijing Robot Era and shown at WRC 2026 doing laundry folding, banana peeling and appliance operation. The maker publishes no spec table: height, mass, DoF, payload, runtime, battery and price stay empty. Media coverage of the 26 Jul 2025 unveiling (IT之家) reports 165 cm, 70 kg, 44 DoF and reach from floor to 2 m, and notes the demos were teleoperated; those figures were not filled."
  },
  {
   "id": "lg-kapex",
@@ -23563,13 +23813,13 @@
   "category": "Humanoid",
   "locomotion": null,
   "release_year": null,
-  "status": null,
+  "status": "Commercial",
   "length_mm": null,
   "width_mm": null,
   "height_mm": null,
   "weight_kg": null,
-  "payload_kg": null,
-  "max_speed_mps": null,
+  "payload_kg": 5,
+  "max_speed_mps": 1.0,
   "min_speed_mps": null,
   "wheel_diameter_mm": null,
   "wheel_count": null,
@@ -23578,24 +23828,27 @@
   "battery_wh": null,
   "ip_rating": null,
   "api_support": null,
-  "sdk_available": null,
-  "sdk_name": null,
-  "onboard_compute": null,
+  "sdk_available": true,
+  "sdk_name": "JAKA SDK / direct teaching",
+  "onboard_compute": "JAKA RoboHub controller (Intel Core i3/i5/i7 12th-13th gen, optional NVIDIA RTX 3050)",
   "compute_detail": null,
   "ros_support": null,
   "sensors": [],
   "price_usd": null,
   "price_note": null,
-  "official_url": null,
-  "sources": [],
-  "summary": "",
+  "official_url": "https://www.jaka.com/",
+  "sources": [
+   "https://www.jaka.com/profile/upload/2026/02/06/20260206111400A037.pdf"
+  ],
+  "summary": "JAKA's K1 seven-axis dual-arm platform for dual-arm assembly and embodied-AI data collection.",
   "image_url": null,
   "image_source": null,
   "videos": [],
   "seen_on": [
    "https://humanoid.guide/product/jaka-k1/"
   ],
-  "verification": null
+  "verification": "official",
+  "note": "Maker hardware manual (JAKA K1, V01): a 7-axis dual-arm collaborative platform - per arm 5 kg payload, 14 kg mass, 976 mm working radius, repeatability +/-0.05 mm, TCP max 1 m/s, 48 V DC supply, RoboHub controller with Intel Core i12/i13 CPU, EtherCAT. Dual-arm synchronised control (SyncPath, SyncForce, SyncCalib, SelfAware). DoF field left empty because the maker states 7 axes per arm, not a whole-body count; no height, weight or runtime for a complete robot is published. SCOPE: K1 has no mobile base - it is a bench-mounted dual-arm platform, which AGENTS.md section 3 excludes as arms/cobots; kept here unchanged (no deletion) and flagged for an owner scope decision. The wheeled K1W and legged K1L are separate models."
  },
  {
   "id": "boston-dynamics-atlas-hydraulic",
@@ -24067,7 +24320,7 @@
   "category": "Humanoid",
   "locomotion": "Legged",
   "release_year": null,
-  "status": null,
+  "status": "Research",
   "length_mm": null,
   "width_mm": null,
   "height_mm": null,
@@ -24077,7 +24330,7 @@
   "min_speed_mps": null,
   "wheel_diameter_mm": null,
   "wheel_count": null,
-  "dof": null,
+  "dof": 29,
   "runtime_h": null,
   "battery_wh": null,
   "ip_rating": null,
@@ -24090,16 +24343,20 @@
   "sensors": [],
   "price_usd": null,
   "price_note": null,
-  "official_url": null,
-  "sources": [],
-  "summary": "",
+  "official_url": "https://robots.ihmc.us/humanoid-design",
+  "sources": [
+   "https://robots.ihmc.us/humanoid-design",
+   "https://boardwalkrobotics.com/Nadia"
+  ],
+  "summary": "IHMC's full-size research humanoid with hybrid hydraulic-electric actuation and one of the widest ranges of motion of its generation, built with Boardwalk Robotics.",
   "image_url": null,
   "image_source": null,
   "videos": [],
   "seen_on": [
    "https://humanoid.guide/product/nadia/"
   ],
-  "verification": null
+  "verification": "official",
+  "note": "Maker pages (IHMC Robotics humanoid design; Boardwalk Robotics Nadia): 29 joints with unusually large range of motion, hybrid actuation (Moog hydraulic Integrated Smart Actuators in legs and spine, electric actuators at hip/spine yaw and in the arms), carbon-fibre exoskeleton, VR teleoperation, IHMC whole-body control software; funded by ONR, ARL, NASA JSC and TARDEC. Height, mass, speed and runtime are not published by IHMC (190 cm / 100 kg / 3.5 km/h appear only in third-party catalogues and were not filled). No price."
  },
  {
   "id": "vesoma-gen-1",
@@ -24234,19 +24491,19 @@
   "country": null,
   "category": "Humanoid",
   "locomotion": "Legged",
-  "release_year": null,
+  "release_year": 2026,
   "status": null,
   "length_mm": null,
   "width_mm": null,
-  "height_mm": null,
-  "weight_kg": null,
-  "payload_kg": null,
-  "max_speed_mps": null,
+  "height_mm": 1870,
+  "weight_kg": 86,
+  "payload_kg": 50,
+  "max_speed_mps": 1.2,
   "min_speed_mps": null,
   "wheel_diameter_mm": null,
   "wheel_count": null,
-  "dof": null,
-  "runtime_h": null,
+  "dof": 27,
+  "runtime_h": 2.0,
   "battery_wh": null,
   "ip_rating": null,
   "api_support": null,
@@ -24258,16 +24515,20 @@
   "sensors": [],
   "price_usd": null,
   "price_note": null,
-  "official_url": null,
-  "sources": [],
-  "summary": "",
+  "official_url": "http://www.glroad.com/ListIntroduction/info.aspx?itemid=548",
+  "sources": [
+   "http://www.glroad.com/ListIntroduction/info.aspx?itemid=548",
+   "https://www.glroad.com/HumanoidRobots/"
+  ],
+  "summary": "Glroad's heavy-load biped industrial humanoid (1.87 m, 86 kg) with a 50 kg dual-arm rating, billed as the industry's first 50 kg-class humanoid.",
   "image_url": null,
   "image_source": null,
   "videos": [],
   "seen_on": [
    "https://humanoid.guide/product/laborer-m1/"
   ],
-  "verification": null
+  "verification": "official",
+  "note": "Maker parameter table (glroad.com, 劳动者M1): height 187 cm, mass 86 kg, dual-arm payload 50 kg (combined, test conditions not stated), moving speed >1.2 m/s (field = 1.2 m/s, lower bound), battery 22 Ah (voltage not published), runtime 2 h, 27 whole-body DoF (6 per leg, 1 head; the table's single-arm figure is inconsistent with the maker's own diagram showing 7-DoF arms), peak joint torque 430 N.m, dual encoders, arm-end accuracy printed illegibly on the page. Released 20 Aug 2026 with the C1. C1 is a different, much smaller robot."
  },
  {
   "id": "glroad-laborer-c1",
@@ -24276,40 +24537,50 @@
   "country": null,
   "category": "Humanoid",
   "locomotion": null,
-  "release_year": null,
+  "release_year": 2026,
   "status": null,
   "length_mm": null,
   "width_mm": null,
-  "height_mm": null,
-  "weight_kg": null,
+  "height_mm": 1371,
+  "weight_kg": 38,
   "payload_kg": null,
-  "max_speed_mps": null,
+  "max_speed_mps": 2,
   "min_speed_mps": null,
   "wheel_diameter_mm": null,
   "wheel_count": null,
-  "dof": null,
-  "runtime_h": null,
+  "dof": 21,
+  "runtime_h": 2.0,
   "battery_wh": null,
   "ip_rating": null,
   "api_support": null,
   "sdk_available": null,
   "sdk_name": null,
-  "onboard_compute": null,
-  "compute_detail": null,
+  "onboard_compute": "NVIDIA Orin NX",
+  "compute_detail": "100 TOPS / 157 TOPS",
   "ros_support": null,
-  "sensors": [],
+  "sensors": [
+   "Interaction screen",
+   "Depth camera",
+   "LiDAR",
+   "Microphone array",
+   "6-axis IMU"
+  ],
   "price_usd": null,
   "price_note": null,
-  "official_url": null,
-  "sources": [],
-  "summary": "",
+  "official_url": "http://www.glroad.com/ListIntroduction/info.aspx?itemid=549",
+  "sources": [
+   "http://www.glroad.com/ListIntroduction/info.aspx?itemid=549",
+   "https://www.glroad.com/HumanoidRobots/"
+  ],
+  "summary": "Glroad's compact biped service humanoid (1.37 m, 21 DoF, 38 kg) for store guidance, reception and exhibition hosting.",
   "image_url": null,
   "image_source": null,
   "videos": [],
   "seen_on": [
    "https://humanoid.guide/product/laborer-c1/"
   ],
-  "verification": null
+  "verification": "official",
+  "note": "Maker parameter table (glroad.com, 劳动者C1): height 137.1 cm, mass 38 kg, arm length 57.9 cm, moving speed >2 m/s (field = 2 m/s, lower bound), operating -20 to 60 C, battery 10 Ah (voltage not published, so Wh left empty), runtime 2 h walking / 4 h standing, 21 whole-body DoF (6 per leg, 1 waist, 4 per arm expandable), peak joint torque 150 N.m, dual encoders, gear ratio 25, Orin NX 100T/157T, Wi-Fi 6, Bluetooth 5.2, 4G/5G, Type-C/Ethernet, handheld remote, secondary development supported. Released 20 Aug 2026 with the M1."
  },
  {
   "id": "tianlian-y2-b",
