@@ -1,0 +1,45 @@
+name: "Feature idea / 기능 제안"
+description: "An idea for the catalog site or its data. Say what you would do with it. / 카탈로그 사이트나 데이터에 대한 제안. 무엇에 쓰려는지 적어 주세요."
+title: "[Idea] "
+labels: ["type:feature"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        The catalog is a plain static site over a JSON dataset, so ideas that need no server are the ones that ship fastest. / 이 카탈로그는 JSON 데이터 위의 정적 사이트라, 서버가 필요 없는 제안이 가장 빨리 반영됩니다.
+
+        Two rules it will not break: **no scoring or ranking** of robots, and specs only from maker sources. / 지키지 않는 두 가지 원칙: 로봇의 **점수·순위 매기기는 하지 않고**, 사양은 제조사 출처만 씁니다.
+
+        UI text is written in both English and Korean, so a suggestion about wording should say what each language should read. / 화면 문구는 영어와 한국어를 함께 쓰므로, 문구 제안은 두 언어 표기를 함께 적어 주세요.
+
+  - type: input
+    id: idea
+    attributes:
+      label: "The idea in one line / 한 줄 요약"
+      placeholder: "Show a robot's weight in lb next to kg"
+    validations:
+      required: true
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: "What is hard today? / 지금 무엇이 불편한가요?"
+      description: "The task you were trying to do when the site got in the way. / 사이트 때문에 막혔던 실제 작업."
+    validations:
+      required: true
+
+  - type: textarea
+    id: proposal
+    attributes:
+      label: "What should it do? / 어떻게 바뀌면 좋을까요?"
+      description: "Which page it belongs on (index, robot, table, specs, dashboard) and how it should behave. / 어느 페이지에, 어떻게 동작하면 좋을지."
+    validations:
+      required: true
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: "Workaround or alternative / 지금 쓰는 우회 방법이나 다른 안"
+      description: "Optional. / 선택 사항."
+    validations:
+      required: false

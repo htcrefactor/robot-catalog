@@ -1,0 +1,129 @@
+name: "Add a robot / 로봇 추가"
+description: "Propose a mobile robot this catalog is missing. The maker's own URL is required. / 카탈로그에 없는 모바일 로봇을 제안합니다. 제조사 URL은 필수입니다."
+title: "[New robot] "
+labels: ["type:verify"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        **Scope — mobile robots only / 범위 — 모바일 로봇만**
+
+        In scope: AMR · AGV · Humanoid · Quadruped · Wheel-legged · Indoor delivery · Outdoor delivery · Mobile platform.
+        Out of scope: arms, cobots, hands, exoskeletons, vacuums, lawn/pool/window robots, drones, toys, cars and robotaxis, and static or companion robots.
+
+        범위에 포함: AMR · AGV · 휴머노이드 · 4족 보행 · 바퀴-다리형 · 실내 배송 · 실외 배송 · 모바일 플랫폼.
+        범위에서 제외: 로봇팔, 코봇, 핸드, 외골격, 청소기, 잔디·수영장·창문 로봇, 드론, 장난감, 자동차·로보택시, 고정형·반려 로봇.
+
+        **Sources — the maker only / 출처 — 제조사만**
+
+        Every value we publish comes from the maker's own site, datasheet, press release or manual. A reseller, competitor or aggregator is not a source, so a robot we can only find on one of those is added empty rather than filled with their numbers.
+
+        공개하는 모든 값의 출처는 제조사의 자체 사이트·데이터시트·보도자료·매뉴얼입니다. 리셀러·경쟁사·집계 사이트는 출처가 아니며, 그런 곳에서만 확인되는 로봇은 수치를 비운 채로 등록합니다.
+
+  - type: input
+    id: maker_name
+    attributes:
+      label: "Maker / 제조사"
+      description: "As the maker writes it. / 제조사가 표기하는 이름 그대로."
+      placeholder: "Unitree Robotics"
+    validations:
+      required: true
+
+  - type: input
+    id: robot_name
+    attributes:
+      label: "Robot name / 로봇 이름"
+      description: "Model name as the maker writes it, without the maker prefix. / 제조사 표기 그대로, 제조사 이름은 빼고."
+      placeholder: "Go2 Pro"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: category
+    attributes:
+      label: "Category / 카테고리"
+      description: "Best fit from the maker's own description. / 제조사 설명에 가장 가까운 분류."
+      options:
+        - "AMR"
+        - "AGV"
+        - "Humanoid"
+        - "Quadruped"
+        - "Wheel-legged"
+        - "Indoor delivery"
+        - "Outdoor delivery"
+        - "Mobile platform"
+        - "Not sure / 잘 모르겠음"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: locomotion
+    attributes:
+      label: "Locomotion / 이동 방식"
+      description: "Optional. / 선택 사항."
+      options:
+        - "Wheeled"
+        - "Tracked"
+        - "Legged"
+        - "Wheel-legged"
+        - "Not sure / 잘 모르겠음"
+    validations:
+      required: false
+
+  - type: input
+    id: official_url
+    attributes:
+      label: "Maker product page / 제조사 제품 페이지"
+      description: "The maker's own page for this model — not a shop, news site or directory. / 판매처·뉴스·디렉터리가 아닌 제조사 자체 제품 페이지."
+      placeholder: "https://www.unitree.com/go2"
+    validations:
+      required: true
+
+  - type: input
+    id: spec_source_url
+    attributes:
+      label: "Maker datasheet or manual / 제조사 데이터시트·매뉴얼"
+      description: "Only if the numbers are somewhere other than the product page. / 수치가 제품 페이지가 아닌 곳에 있으면 그 URL."
+      placeholder: "https://…"
+    validations:
+      required: false
+
+  - type: textarea
+    id: key_specs
+    attributes:
+      label: "Key specs from the maker / 제조사가 공개한 주요 수치"
+      description: "Copy the maker's numbers with their units — weight, payload, speed, runtime, battery, dimensions, IP rating, release year, price. Leave out anything the maker does not state. / 제조사가 적은 수치를 단위와 함께. 제조사가 밝히지 않은 항목은 비워 두세요."
+      placeholder: |
+        weight: 15 kg
+        payload: 8 kg (walking) / 12 kg (standing)
+        max speed: 3.5 m/s
+        runtime: 2 h
+    validations:
+      required: false
+
+  - type: textarea
+    id: summary
+    attributes:
+      label: "What it is for / 무엇에 쓰는 로봇인가"
+      description: "One plain sentence, in your own words. / 한 문장으로."
+      placeholder: "Four-legged inspection and research robot for indoor and outdoor use."
+    validations:
+      required: false
+
+  - type: textarea
+    id: context
+    attributes:
+      label: "Anything else / 참고 사항"
+      description: "Where you saw it, whether it is announced or shipping, links to a press release. / 어디서 봤는지, 발표 단계인지 판매 중인지, 보도자료 링크."
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: "Before you submit / 제출 전 확인"
+      options:
+        - label: "It is a standalone mobile robot in the scope above — not an arm, cobot, exoskeleton, vacuum, lawn/pool/window robot, drone, toy, car or static robot. / 위 범위의 독립된 모바일 로봇입니다."
+          required: true
+        - label: "The URLs I gave are the maker's own pages, and every value I entered comes from them. / 적은 URL은 제조사 자체 페이지이고, 입력한 값은 모두 그곳에서 가져왔습니다."
+          required: true
