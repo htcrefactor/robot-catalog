@@ -29,6 +29,7 @@ input[type=search],select{padding:9px 12px;border:1px solid var(--line);border-r
 .badge{display:inline-block;font-size:12px;font-weight:600;padding:2px 8px;border-radius:6px}
 .badge.yes{background:var(--yesbg);color:var(--yes)}.badge.no{background:var(--nobg);color:var(--no)}.badge.unk{background:var(--unkbg);color:var(--unk)}
 .panel{background:var(--card);border:1px solid var(--line);border-radius:var(--r);padding:18px;margin-bottom:16px}
+.ch{list-style:none;padding-left:0;margin:8px 0 0}.ch>li{padding:8px 0;border-top:1px solid var(--line)}.ch>li:first-child{border-top:0}.ch ul{margin:6px 0 0 18px;padding:0}.hide{display:none}
 .cols{display:grid;grid-template-columns:repeat(auto-fit,minmax(460px,1fr));gap:16px}
 .chartbox{position:relative;height:340px}.chartbox.tall{height:auto}
 table.mega{border-collapse:collapse;width:100%;font-size:13px;background:var(--card)}

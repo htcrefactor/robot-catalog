@@ -7,7 +7,12 @@ Product specs for mobile robots of all kinds — AMRs, AGVs, humanoids, quadrupe
 ## Layout
 - `data/parts/*.json` — source of truth, one file per category, one record per robot (see `data/SCHEMA.md`)
 - `data/robots.json` — merged file the site reads (`python scripts/merge.py`)
+- `data/history/<id>.json` — per-robot change history, written by `merge.py` (`data/SCHEMA.md`)
+- `feed.xml` — Atom feed of new robots and spec changes (`scripts/build_feed.py`)
 - `index.html` (all robots) · `robot.html?id=…` (one robot) · `dashboard.html` (charts) · `table.html` (mega table)
+
+## What changed
+Every merge keeps a field-level history per robot: old value → new value, the date and the source. A robot page shows it under **Changes**, and [feed.xml](https://htcrefactor.github.io/robot-catalog/feed.xml) carries new robots and spec changes for a reader or script to follow.
 
 ## Data rules
 Every number comes from a manufacturer page, datasheet or manual listed in that record's `sources`, except where noted below. Unknown values are `null` and show as "—" or "N/S" (not stated). Nothing is guessed.

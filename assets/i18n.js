@@ -18,7 +18,12 @@ en:{
  table_title:"Mega table",table_sub:"Every robot and every field. Click a column to sort.",filter:"Filter…",csv:"Download CSV",
  col_maker:"Maker",col_country:"Country",col_loco:"Locomotion",col_status:"Status",col_year:"Year",col_sdkname:"SDK name",col_pricenote:"Price note",
  footer:"Specs come from manufacturer pages and datasheets linked on each robot's page. \"N/S\" = not stated by the source.",updated:"Last updated {d}.",
- theme_dark:"Dark mode",theme_light:"Light mode",yes:"YES",no:"NO",ns:"N/S"
+ theme_dark:"Dark mode",theme_light:"Light mode",yes:"YES",no:"NO",ns:"N/S",
+ changelog_title:"Changelog",changelog_sub:"Every catalog update: which robots it added, changed and removed.",
+ cl_added:"Added",cl_updated:"Updated",cl_removed:"Removed",cl_none:"No changelog entries yet.",cl_nochange:"No record changed in this update.",show_all:"Show all {n}",
+ ch_title:"Changes",ch_sub:"Field-level changes recorded for this robot: old value → new value, with the source.",
+ ch_none:"No changes recorded for this robot yet. Updates to this record are listed here from now on.",ch_source:"Source",ch_feed:"Change feed (Atom)",ch_all:"All catalog changes",
+ f_name:"Name",f_length:"Length",f_width:"Width",f_height:"Height",f_summary:"Summary",f_official:"Official page",f_origcat:"Original category",f_verification:"Verification",f_note:"Note",f_datasource:"Data source",f_image:"Image",f_imagesrc:"Image source",f_videos:"Videos",f_seenon:"Also listed on"
 },
 ko:{
  brand:"로봇 카탈로그",nav_robots:"로봇",nav_dash:"대시보드",nav_table:"전체 표",
@@ -37,8 +42,24 @@ ko:{
  table_title:"전체 표",table_sub:"모든 로봇의 모든 항목. 열을 누르면 정렬됩니다.",filter:"필터…",csv:"CSV 다운로드",
  col_maker:"제조사",col_country:"국가",col_loco:"이동 방식",col_status:"상태",col_year:"연도",col_sdkname:"SDK 이름",col_pricenote:"가격 비고",
  footer:"사양은 각 로봇 페이지에 링크된 제조사 페이지와 데이터시트에서 가져왔습니다. \"N/S\" = 출처에 명시되지 않음.",updated:"최종 업데이트 {d}.",
- theme_dark:"다크 모드",theme_light:"라이트 모드",yes:"YES",no:"NO",ns:"N/S"
-}};
+ theme_dark:"다크 모드",theme_light:"라이트 모드",yes:"YES",no:"NO",ns:"N/S",
+ changelog_title:"변경 이력",changelog_sub:"카탈로그 갱신 기록입니다. 각 갱신에서 추가·변경·제외된 로봇을 보여줍니다.",
+ cl_added:"추가",cl_updated:"변경",cl_removed:"제외",cl_none:"아직 변경 기록이 없습니다.",cl_nochange:"이 갱신에서는 바뀐 레코드가 없습니다.",show_all:"전체 {n}개 보기",
+ ch_title:"변경 이력",ch_sub:"이 로봇에 기록된 항목별 변경 내역입니다. 이전 값 → 새 값과 출처를 함께 보여줍니다.",
+ ch_none:"이 로봇에 아직 기록된 변경 내역이 없습니다. 이후 갱신부터 이 레코드의 변경이 여기에 쌓입니다.",ch_source:"출처",ch_feed:"변경 피드 (Atom)",ch_all:"전체 변경 기록",
+ f_name:"이름",f_length:"길이",f_width:"너비",f_height:"높이",f_summary:"설명",f_official:"공식 페이지",f_origcat:"원래 카테고리",f_verification:"검증 상태",f_note:"비고",f_datasource:"데이터 출처",f_image:"이미지",f_imagesrc:"이미지 출처",f_videos:"영상",f_seenon:"경쟁 카탈로그 게재"
+}
+};
 const VALUE_KO={"AMR":"AMR","AGV":"AGV","Humanoid":"휴머노이드","Quadruped":"4족 보행","Wheel-legged":"바퀴-다리형","Indoor delivery":"실내 배송","Outdoor delivery":"실외 배송","Mobile platform":"모바일 플랫폼","Misc":"기타",
 "Wheeled":"바퀴형","Tracked":"궤도형","Legged":"보행형","Commercial":"상용","Pre-order":"사전 주문","Pilot":"시범 운영","Research":"연구용","Discontinued":"단종","Announced":"발표됨",
 "China":"중국","United States":"미국","South Korea":"한국","Switzerland":"스위스","Denmark":"덴마크","Germany":"독일","Japan":"일본","Canada":"캐나다","Norway":"노르웨이","United Kingdom":"영국","Estonia":"에스토니아","Colombia":"콜롬비아","France":"프랑스","Israel":"이스라엘","Netherlands":"네덜란드","Taiwan":"대만"};
+// Data field -> i18n key, for the per-robot change history (robot.html) and the catalog changelog.
+const FIELD_LABEL={name:"f_name",manufacturer:"col_maker",country:"col_country",category:"category",locomotion:"col_loco",status:"col_status",
+ length_mm:"f_length",width_mm:"f_width",height_mm:"f_height",weight_kg:"weight",payload_kg:"payload",max_speed_mps:"max_speed",min_speed_mps:"min_speed",
+ wheel_diameter_mm:"wheel_d",wheel_count:"wheels",dof:"dof",runtime_h:"runtime",battery_wh:"battery",ip_rating:"ip",release_year:"released",
+ price_usd:"price",price_note:"col_pricenote",api_support:"api",sdk_available:"sdk",sdk_name:"col_sdkname",ros_support:"ros",onboard_compute:"onboard",
+ compute_detail:"compute",sensors:"sensors",summary:"f_summary",official_url:"f_official",sources:"sources",variants:"variants",misc_reason:"misc_why",
+ original_category:"f_origcat",verification:"f_verification",note:"f_note",data_source:"f_datasource",image_url:"f_image",image_source:"f_imagesrc",
+ videos:"f_videos",seen_on:"f_seenon",id:"f_name"};
+// Units shown next to a changed value in the change lists.
+const FIELD_UNIT={length_mm:"mm",width_mm:"mm",height_mm:"mm",wheel_diameter_mm:"mm",weight_kg:"kg",payload_kg:"kg",max_speed_mps:"m/s",min_speed_mps:"m/s",runtime_h:"h",battery_wh:"Wh",price_usd:"USD"};
