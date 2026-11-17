@@ -1086,7 +1086,8 @@
   "official_url": "https://otsaw.com/camello",
   "sources": [
    "https://www.sec.gov/Archives/edgar/data/2046462/000121390025061733/ea0227213-08.htm",
-   "https://otsaw.com/shaping-tomorrow-the-rise-of-service-robots/"
+   "https://otsaw.com/shaping-tomorrow-the-rise-of-service-robots/",
+   "https://web.archive.org/web/20230603135238/https://otsaw.com/camello/"
   ],
   "summary": "OTSAW's sidewalk last-mile delivery robot with lockable compartments, trialled for grocery and parcel delivery in Singapore housing estates.",
   "image_url": null,
@@ -1096,7 +1097,7 @@
    "https://botupyourlife.com/en/robots/otsaw-camello/"
   ],
   "verification": "official",
-  "note": "OTSAW's own SEC prospectus (2025) confirms Camello as its last-mile delivery AMR and states the second generation, Camello+, launched January 2024 (delivery + security, indoor/outdoor, up to 132 lb cargo - Camello+ value, not applied here). otsaw.com currently returns 'Account Suspended', so the original Camello spec pages (search-index copies: 20 kg load, 5 km/h, 100 L, ~6 h) could not be opened and are left out. Original Camello entered a one-year Punggol (Singapore) trial in Feb 2021. Status not stated by maker (likely superseded by Camello+)."
+  "note": "OTSAW's own SEC prospectus (2025) confirms Camello as its last-mile delivery AMR and states the second generation, Camello+, launched January 2024 with up to 132 lb (60 kg) cargo - Camello+ values, not applied here. Re-checked 2026-11-17: otsaw.com returns 'Account Suspended'; the archived maker Camello page (Wayback, 2020 and 2023 snapshots) carries no specification table, only a brochure link; the archived copy of OTSAW's own Camello brochure is truncated at 1 MB and cannot be read, and the 2024 OTSAW brochure covers Camello+. No Camello-specific maker figure for height, weight or payload could be verified, so those fields stay empty (search-index copies: 20 kg load, 5 km/h, 100 L, ~6 h). Original Camello entered a one-year Punggol (Singapore) trial in Feb 2021. Status not stated by maker (likely superseded by Camello+)."
  },
  {
   "id": "temi-go",
@@ -1392,18 +1393,18 @@
   "locomotion": "Wheeled",
   "release_year": null,
   "status": "Commercial",
-  "length_mm": null,
-  "width_mm": null,
-  "height_mm": null,
-  "weight_kg": null,
-  "payload_kg": null,
-  "max_speed_mps": null,
+  "length_mm": 620,
+  "width_mm": 510,
+  "height_mm": 1350,
+  "weight_kg": 45,
+  "payload_kg": 35,
+  "max_speed_mps": 1.0,
   "min_speed_mps": null,
   "wheel_diameter_mm": null,
   "wheel_count": null,
   "dof": null,
-  "runtime_h": null,
-  "battery_wh": null,
+  "runtime_h": 8,
+  "battery_wh": 1500,
   "ip_rating": null,
   "api_support": true,
   "sdk_available": null,
@@ -1416,7 +1417,10 @@
   "price_note": null,
   "official_url": "https://www.kompai.com/kompai-delivery",
   "sources": [
-   "https://www.kompai.com/kompai-delivery"
+   "https://www.kompairobotics.com/en_US/kompai-delivery-top-module",
+   "https://drive.google.com/file/d/1mdSAZl4iV0vORtNukKUyQyzPimwwaI6Y/view",
+   "https://drive.google.com/file/d/1QpdIXfTpIAdVL3ycar9dRMn6N5Gor8Pa/view",
+   "https://www.kompairobotics.com/en_US/kompai-delivery"
   ],
   "summary": "Range of autonomous mobile robots for hospital logistics carrying medicines, medical supplies and containers through corridors and lifts.",
   "image_url": "https://www.kompai.com/web/image/34989-fd440916/KR-delively-11%20%281%29.jpg",
@@ -1426,7 +1430,7 @@
    "https://botupyourlife.com/en/robots/kompai-delivery/"
   ],
   "verification": "official",
-  "note": "Official Kompai Robotics page: KOMPAÏ delivery is a RANGE of hospital-logistics AMRs (Top module, Top module +, Transfer, Transfer +, Tractor, Container), not a single model; listed on French UniHA hospital purchasing platform; designed for 10-year life; API/R&D version for universities. No dimensions/payload/speed on the page opened. Wheeled AMR. Maker HQ Anglet, France."
+  "note": "Values are the maker's KOMPAÏ delivery Top module data sheet (FR and EN PDFs linked from kompairobotics.com; re-checked 2026-11-17): 620 x 510 x 1350 mm (LxWxH), 45 kg empty, up to 35 kg of goods, 2.0 m/s maximum clamped to 1 m/s (stored as 1.0), 8 h battery life with 4 h full recharge, 1.5 kWh 40 Ah battery, LIDAR + cameras, indoor only, CE marking. KOMPAÏ delivery is a RANGE: these are the Top module (medium cabinet) figures - Top module +, Transfer, Transfer +, Tractor and Container differ, and their data sheets could not be reached (the Top module + link on the range page returns 404). The Top module page text also says '6h non-stop', conflicting with the data sheet's 8 h; the data sheet value is kept. No IP rating published. Maker HQ Anglet, France."
  },
  {
   "id": "anseboo-as09",

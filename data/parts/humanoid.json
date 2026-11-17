@@ -5303,15 +5303,15 @@
   "status": "Discontinued",
   "length_mm": null,
   "width_mm": null,
-  "height_mm": null,
-  "weight_kg": null,
-  "payload_kg": null,
-  "max_speed_mps": null,
+  "height_mm": 1676,
+  "weight_kg": 70,
+  "payload_kg": 20,
+  "max_speed_mps": 1.2,
   "min_speed_mps": null,
   "wheel_diameter_mm": null,
   "wheel_count": null,
   "dof": null,
-  "runtime_h": null,
+  "runtime_h": 5,
   "battery_wh": 2250,
   "ip_rating": null,
   "api_support": null,
@@ -5328,6 +5328,7 @@
   "price_note": null,
   "official_url": "https://www.figure.ai/",
   "sources": [
+   "https://web.archive.org/web/20241231190709/https://www.figure.ai/",
    "https://prnewswire.com/news-releases/figure-unveils-figure-02-its-second-generation-humanoid-setting-new-standards-in-ai-and-robotics-302214889.html",
    "https://www.figure.ai/news/f-02-decommission"
   ],
@@ -5342,7 +5343,7 @@
    "https://humanoid.guide/product/figure-02/"
   ],
   "verification": "official",
-  "note": "Figure press release (6 Aug 2024): 2.25 kWh torso battery, 6 onboard RGB cameras, 4th-gen hands with 16 DoF each (per hand, not total), onboard VLM, 3x compute vs Figure 01; tested at BMW Spartanburg. Figure began retiring F.02 after Figure 03 (Oct 2025) and announced fleet decommissioning on 30 Sep 2026 (a few units kept in storage) -> Discontinued. Widely cited 5'6\"/70 kg/20 kg/5 h/1.2 m/s figures were not found in the maker pages opened, so left out."
+  "note": "Figure's own homepage at the time (Wayback snapshot, 31 Dec 2024) lists Figure 02 as 5'6\" (1676 mm), 70 kg, 20 kg payload, 5 h runtime, 1.2 m/s, electric - the maker values stored here. The 6 Aug 2024 press release covers the 2.25 kWh torso battery, 6 onboard RGB cameras, 4th-gen hands with 16 DoF each (per hand, not total), onboard VLM and 3x compute vs Figure 01; tested at BMW Spartanburg. Figure began retiring F.02 after Figure 03 (Oct 2025) and announced fleet decommissioning on 30 Sep 2026 (a few units kept in storage) -> Discontinued. Total body DoF is not published by Figure (aggregators give 35/41) - left empty."
  },
  {
   "id": "unitree-superman",
@@ -5487,7 +5488,7 @@
    "https://humanoid.guide/product/northstar/"
   ],
   "verification": "official",
-  "note": "Maker press release (Business Wire, 7 Jul 2026) confirms UMA unveiled the DESIGN of its first humanoid at Machina Summit (name 'Northstar' is from UMA's X post, not the release). No specs published by UMA: aggregator figures (165 cm, 40 kg, 24 DoF, bipedal) are NOT maker-stated. Reports conflict on locomotion (one says first industrial version is wheeled) - left blank. Prototype only; uma.bot has no product page."
+  "note": "Maker press release (Business Wire, 7 Jul 2026) confirms UMA unveiled the DESIGN of its first humanoid at Machina Summit (name 'Northstar' is from UMA's X post, not the release). No specs published by UMA: the release carries no numbers, uma.bot is still a teaser ('More to come soon', keynote video) re-checked 2026-11-17, and UMA has no spec sheet of its own (Humanoids Daily, 12 Sep 2026, says the same). Aggregator figures (165 cm, 40 kg, 15 kg payload, 24 DoF, bipedal) are NOT maker-stated, and the ~40 kg 'target weight' the CEO gave press (Bloomberg/AFP, Jul 2026) is not a published specification - so height, weight and payload stay empty. Reports conflict on locomotion (one says first industrial version is wheeled) - left blank. Prototype only; uma.bot has no product page."
  },
  {
   "id": "robotera-m7",
@@ -14364,15 +14365,15 @@
   "status": "Pre-order",
   "length_mm": null,
   "width_mm": null,
-  "height_mm": null,
-  "weight_kg": null,
+  "height_mm": 1650,
+  "weight_kg": 58,
   "payload_kg": null,
   "max_speed_mps": null,
   "min_speed_mps": null,
   "wheel_diameter_mm": null,
   "wheel_count": null,
-  "dof": null,
-  "runtime_h": null,
+  "dof": 25,
+  "runtime_h": 2.33,
   "battery_wh": null,
   "ip_rating": null,
   "api_support": null,
@@ -14387,7 +14388,8 @@
   "official_url": "https://www.zeroth0.com/products/jupiter",
   "sources": [
    "https://www.zeroth0.com/products/jupiter",
-   "https://www.zeroth0.com/zh/products/jupiter"
+   "https://www.zeroth0.com/zh/products/jupiter",
+   "https://www.ifa-berlin.com/exhibitors/zeroth"
   ],
   "summary": "Full-size humanoid supporting teleoperation and autonomous modes for training, simulation and front-of-house service.",
   "image_url": null,
@@ -14398,7 +14400,7 @@
    "https://humanoid.guide/product/jupiter/"
   ],
   "verification": "official",
-  "note": "Official Zeroth store page; reservation price $89,999 (list $131,999), US shipping. Maker entity: Suzhou JoyIn Intelligent Technology (Zeroth). Height/weight only on IFA/ITU pages (left null)."
+  "note": "Official Zeroth store page: reservation price $89,999 (list $131,999), US shipping; maker entity Suzhou JoyIn Intelligent Technology (Zeroth). Height, weight, joints and runtime come from the maker-supplied IFA 2026 exhibitor listing for Zeroth: 165 cm, 58 kg, 25 joints, 22 hand articulation points (10 per hand), footprint about 2 m2, 2 h 20 min of active use -> 1650 mm, 58 kg, 25 DoF, 2.33 h. Zeroth publishes no payload or top speed for Jupiter (store and product pages have no specification table) - left empty; humanoid.guide's 60 kg / 30 DoF / 4 h / 6 kg are not maker-stated and were not used."
  },
  {
   "id": "zj-humanoid-navigator-2",

@@ -10773,15 +10773,15 @@
    "status": "Discontinued",
    "length_mm": null,
    "width_mm": null,
-   "height_mm": null,
-   "weight_kg": null,
-   "payload_kg": null,
-   "max_speed_mps": null,
+   "height_mm": 1676,
+   "weight_kg": 70,
+   "payload_kg": 20,
+   "max_speed_mps": 1.2,
    "min_speed_mps": null,
    "wheel_diameter_mm": null,
    "wheel_count": null,
    "dof": null,
-   "runtime_h": null,
+   "runtime_h": 5,
    "battery_wh": 2250,
    "ip_rating": null,
    "api_support": null,
@@ -10798,6 +10798,7 @@
    "price_note": null,
    "official_url": "https://www.figure.ai/",
    "sources": [
+    "https://web.archive.org/web/20241231190709/https://www.figure.ai/",
     "https://prnewswire.com/news-releases/figure-unveils-figure-02-its-second-generation-humanoid-setting-new-standards-in-ai-and-robotics-302214889.html",
     "https://www.figure.ai/news/f-02-decommission"
    ],
@@ -10812,7 +10813,7 @@
     "https://humanoid.guide/product/figure-02/"
    ],
    "verification": "official",
-   "note": "Figure press release (6 Aug 2024): 2.25 kWh torso battery, 6 onboard RGB cameras, 4th-gen hands with 16 DoF each (per hand, not total), onboard VLM, 3x compute vs Figure 01; tested at BMW Spartanburg. Figure began retiring F.02 after Figure 03 (Oct 2025) and announced fleet decommissioning on 30 Sep 2026 (a few units kept in storage) -> Discontinued. Widely cited 5'6\"/70 kg/20 kg/5 h/1.2 m/s figures were not found in the maker pages opened, so left out."
+   "note": "Figure's own homepage at the time (Wayback snapshot, 31 Dec 2024) lists Figure 02 as 5'6\" (1676 mm), 70 kg, 20 kg payload, 5 h runtime, 1.2 m/s, electric - the maker values stored here. The 6 Aug 2024 press release covers the 2.25 kWh torso battery, 6 onboard RGB cameras, 4th-gen hands with 16 DoF each (per hand, not total), onboard VLM and 3x compute vs Figure 01; tested at BMW Spartanburg. Figure began retiring F.02 after Figure 03 (Oct 2025) and announced fleet decommissioning on 30 Sep 2026 (a few units kept in storage) -> Discontinued. Total body DoF is not published by Figure (aggregators give 35/41) - left empty."
   },
   {
    "id": "figure-03",
@@ -24890,7 +24891,7 @@
     "https://humanoid.guide/product/northstar/"
    ],
    "verification": "official",
-   "note": "Maker press release (Business Wire, 7 Jul 2026) confirms UMA unveiled the DESIGN of its first humanoid at Machina Summit (name 'Northstar' is from UMA's X post, not the release). No specs published by UMA: aggregator figures (165 cm, 40 kg, 24 DoF, bipedal) are NOT maker-stated. Reports conflict on locomotion (one says first industrial version is wheeled) - left blank. Prototype only; uma.bot has no product page."
+   "note": "Maker press release (Business Wire, 7 Jul 2026) confirms UMA unveiled the DESIGN of its first humanoid at Machina Summit (name 'Northstar' is from UMA's X post, not the release). No specs published by UMA: the release carries no numbers, uma.bot is still a teaser ('More to come soon', keynote video) re-checked 2026-11-17, and UMA has no spec sheet of its own (Humanoids Daily, 12 Sep 2026, says the same). Aggregator figures (165 cm, 40 kg, 15 kg payload, 24 DoF, bipedal) are NOT maker-stated, and the ~40 kg 'target weight' the CEO gave press (Bloomberg/AFP, Jul 2026) is not a published specification - so height, weight and payload stay empty. Reports conflict on locomotion (one says first industrial version is wheeled) - left blank. Prototype only; uma.bot has no product page."
   },
   {
    "id": "unix-ai-martian",
@@ -27924,15 +27925,15 @@
    "status": "Pre-order",
    "length_mm": null,
    "width_mm": null,
-   "height_mm": null,
-   "weight_kg": null,
+   "height_mm": 1650,
+   "weight_kg": 58,
    "payload_kg": null,
    "max_speed_mps": null,
    "min_speed_mps": null,
    "wheel_diameter_mm": null,
    "wheel_count": null,
-   "dof": null,
-   "runtime_h": null,
+   "dof": 25,
+   "runtime_h": 2.33,
    "battery_wh": null,
    "ip_rating": null,
    "api_support": null,
@@ -27947,7 +27948,8 @@
    "official_url": "https://www.zeroth0.com/products/jupiter",
    "sources": [
     "https://www.zeroth0.com/products/jupiter",
-    "https://www.zeroth0.com/zh/products/jupiter"
+    "https://www.zeroth0.com/zh/products/jupiter",
+    "https://www.ifa-berlin.com/exhibitors/zeroth"
    ],
    "summary": "Full-size humanoid supporting teleoperation and autonomous modes for training, simulation and front-of-house service.",
    "image_url": null,
@@ -27958,7 +27960,7 @@
     "https://humanoid.guide/product/jupiter/"
    ],
    "verification": "official",
-   "note": "Official Zeroth store page; reservation price $89,999 (list $131,999), US shipping. Maker entity: Suzhou JoyIn Intelligent Technology (Zeroth). Height/weight only on IFA/ITU pages (left null)."
+   "note": "Official Zeroth store page: reservation price $89,999 (list $131,999), US shipping; maker entity Suzhou JoyIn Intelligent Technology (Zeroth). Height, weight, joints and runtime come from the maker-supplied IFA 2026 exhibitor listing for Zeroth: 165 cm, 58 kg, 25 joints, 22 hand articulation points (10 per hand), footprint about 2 m2, 2 h 20 min of active use -> 1650 mm, 58 kg, 25 DoF, 2.33 h. Zeroth publishes no payload or top speed for Jupiter (store and product pages have no specification table) - left empty; humanoid.guide's 60 kg / 30 DoF / 4 h / 6 kg are not maker-stated and were not used."
   },
   {
    "id": "zeroth-m1",
@@ -29619,18 +29621,18 @@
    "locomotion": "Wheeled",
    "release_year": null,
    "status": "Commercial",
-   "length_mm": null,
-   "width_mm": null,
-   "height_mm": null,
-   "weight_kg": null,
-   "payload_kg": null,
-   "max_speed_mps": null,
+   "length_mm": 620,
+   "width_mm": 510,
+   "height_mm": 1350,
+   "weight_kg": 45,
+   "payload_kg": 35,
+   "max_speed_mps": 1.0,
    "min_speed_mps": null,
    "wheel_diameter_mm": null,
    "wheel_count": null,
    "dof": null,
-   "runtime_h": null,
-   "battery_wh": null,
+   "runtime_h": 8,
+   "battery_wh": 1500,
    "ip_rating": null,
    "api_support": true,
    "sdk_available": null,
@@ -29643,7 +29645,10 @@
    "price_note": null,
    "official_url": "https://www.kompai.com/kompai-delivery",
    "sources": [
-    "https://www.kompai.com/kompai-delivery"
+    "https://www.kompairobotics.com/en_US/kompai-delivery-top-module",
+    "https://drive.google.com/file/d/1mdSAZl4iV0vORtNukKUyQyzPimwwaI6Y/view",
+    "https://drive.google.com/file/d/1QpdIXfTpIAdVL3ycar9dRMn6N5Gor8Pa/view",
+    "https://www.kompairobotics.com/en_US/kompai-delivery"
    ],
    "summary": "Range of autonomous mobile robots for hospital logistics carrying medicines, medical supplies and containers through corridors and lifts.",
    "image_url": "https://www.kompai.com/web/image/34989-fd440916/KR-delively-11%20%281%29.jpg",
@@ -29653,7 +29658,7 @@
     "https://botupyourlife.com/en/robots/kompai-delivery/"
    ],
    "verification": "official",
-   "note": "Official Kompai Robotics page: KOMPAÏ delivery is a RANGE of hospital-logistics AMRs (Top module, Top module +, Transfer, Transfer +, Tractor, Container), not a single model; listed on French UniHA hospital purchasing platform; designed for 10-year life; API/R&D version for universities. No dimensions/payload/speed on the page opened. Wheeled AMR. Maker HQ Anglet, France."
+   "note": "Values are the maker's KOMPAÏ delivery Top module data sheet (FR and EN PDFs linked from kompairobotics.com; re-checked 2026-11-17): 620 x 510 x 1350 mm (LxWxH), 45 kg empty, up to 35 kg of goods, 2.0 m/s maximum clamped to 1 m/s (stored as 1.0), 8 h battery life with 4 h full recharge, 1.5 kWh 40 Ah battery, LIDAR + cameras, indoor only, CE marking. KOMPAÏ delivery is a RANGE: these are the Top module (medium cabinet) figures - Top module +, Transfer, Transfer +, Tractor and Container differ, and their data sheets could not be reached (the Top module + link on the range page returns 404). The Top module page text also says '6h non-stop', conflicting with the data sheet's 8 h; the data sheet value is kept. No IP rating published. Maker HQ Anglet, France."
   },
   {
    "id": "lg-cloi-servebot",
@@ -33237,7 +33242,8 @@
    "official_url": "https://otsaw.com/camello",
    "sources": [
     "https://www.sec.gov/Archives/edgar/data/2046462/000121390025061733/ea0227213-08.htm",
-    "https://otsaw.com/shaping-tomorrow-the-rise-of-service-robots/"
+    "https://otsaw.com/shaping-tomorrow-the-rise-of-service-robots/",
+    "https://web.archive.org/web/20230603135238/https://otsaw.com/camello/"
    ],
    "summary": "OTSAW's sidewalk last-mile delivery robot with lockable compartments, trialled for grocery and parcel delivery in Singapore housing estates.",
    "image_url": null,
@@ -33247,7 +33253,7 @@
     "https://botupyourlife.com/en/robots/otsaw-camello/"
    ],
    "verification": "official",
-   "note": "OTSAW's own SEC prospectus (2025) confirms Camello as its last-mile delivery AMR and states the second generation, Camello+, launched January 2024 (delivery + security, indoor/outdoor, up to 132 lb cargo - Camello+ value, not applied here). otsaw.com currently returns 'Account Suspended', so the original Camello spec pages (search-index copies: 20 kg load, 5 km/h, 100 L, ~6 h) could not be opened and are left out. Original Camello entered a one-year Punggol (Singapore) trial in Feb 2021. Status not stated by maker (likely superseded by Camello+)."
+   "note": "OTSAW's own SEC prospectus (2025) confirms Camello as its last-mile delivery AMR and states the second generation, Camello+, launched January 2024 with up to 132 lb (60 kg) cargo - Camello+ values, not applied here. Re-checked 2026-11-17: otsaw.com returns 'Account Suspended'; the archived maker Camello page (Wayback, 2020 and 2023 snapshots) carries no specification table, only a brochure link; the archived copy of OTSAW's own Camello brochure is truncated at 1 MB and cannot be read, and the 2024 OTSAW brochure covers Camello+. No Camello-specific maker figure for height, weight or payload could be verified, so those fields stay empty (search-index copies: 20 kg load, 5 km/h, 100 L, ~6 h). Original Camello entered a one-year Punggol (Singapore) trial in Feb 2021. Status not stated by maker (likely superseded by Camello+)."
   },
   {
    "id": "ottonomy-ottobot",
