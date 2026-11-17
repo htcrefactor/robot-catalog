@@ -28,6 +28,7 @@ Official product page confirms GAEMI indoor service robot (also called GAEMI-0);
 
 - Official page: [robotis.com](https://www.robotis.com/en/product/ecosystem-ingaemi.php)
 - [robotis.us](https://robotis.us/collections/indoor-delivery-robot)
+- [robotis.com](https://www.robotis.com/ko/)
 
 Listed by these directories (discovery only, never used as a spec source):
 

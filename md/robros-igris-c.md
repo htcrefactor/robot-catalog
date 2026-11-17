@@ -95,6 +95,8 @@ Maker product page: 154 cm, 56 kg, 17,000 mAh 48 V battery (=816 Wh, derived), 2
 
 - Official page: [robros.co.kr](https://www.robros.co.kr/en/igrisc)
 - [robros.co.kr](https://www.robros.co.kr/ko/developers/v2.1.1/c304d82d-d289-40e1-a6dd-036e028279de/Overview)
+- [humanoidstore.co](https://humanoidstore.co/robots/robros-igris-c)
+- [robros.co.kr](https://www.robros.co.kr/ko)
 
 ---
 

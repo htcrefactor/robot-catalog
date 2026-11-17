@@ -28,6 +28,7 @@ Official product page confirms GAEMI outdoor delivery robot (also called GAEMI-1
 
 - Official page: [robotis.com](https://www.robotis.com/en/product/ecosystem-outgaemi.php)
 - [en.robotis.com](https://en.robotis.com/sub/business_012.php)
+- [robotis.com](https://www.robotis.com/ko/)
 
 Listed by these directories (discovery only, never used as a spec source):
 

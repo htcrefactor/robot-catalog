@@ -35,6 +35,7 @@ Welcome/guide robot (3rd gen shown 2024); wheeled autonomous indoor robot, deplo
 - Official page: [eng.arobot4all.com](http://eng.arobot4all.com/AIMY)
 - [arobot4all.com](http://www.arobot4all.com/AIMY)
 - [arobot4all.com](https://www.arobot4all.com/history)
+- [arobot4all.com](http://www.arobot4all.com/)
 
 Listed by these directories (discovery only, never used as a spec source):
 

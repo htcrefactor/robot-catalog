@@ -30,6 +30,7 @@ No product page, datasheet or press release on unitree.com; the only maker state
 - Official page: [unitree.com](https://www.unitree.com)
 - [english.news.cn](https://english.news.cn/20260817/ad14838a779e42e6a67957e5bef74bcf/c.html)
 - [chinadaily.com.cn](http://www.chinadaily.com.cn/a/202608/20/WS6a86f01ea3106bc57421c9c6.html)
+- [younginmobility.com](https://www.younginmobility.com/)
 
 Listed by these directories (discovery only, never used as a spec source):
 

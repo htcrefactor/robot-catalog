@@ -33,6 +33,7 @@ Lab page: 45 kg, torso 0.7 x 0.2 x 0.14 m (body dimensions, not a standing envel
 
 - Official page: [dynamicrobot.kaist.ac.kr](https://www.dynamicrobot.kaist.ac.kr/kaist-hound-1)
 - [news.kaist.ac.kr](https://news.kaist.ac.kr/newsen/html/news/?mng_no=60690&mode=V)
+- [rainbow-robotics.com](https://rainbow-robotics.com/)
 
 Listed by these directories (discovery only, never used as a spec source):
 

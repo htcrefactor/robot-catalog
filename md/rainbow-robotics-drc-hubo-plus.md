@@ -80,6 +80,8 @@ Rainbow Robotics' current site no longer hosts a DRC-HUBO+ product page (only co
 - Official page: [doi.org](https://doi.org/10.1109/tro.2017.2776287)
 - [breakthroughs.kaist.ac.kr](https://breakthroughs.kaist.ac.kr/sub02/view/id/289)
 - [rainbow-robotics.com](https://rainbow-robotics.com/%ec%9d%b4%eb%8d%b0%ec%9d%bc%eb%a6%ac-%eb%a0%88%ec%9d%b8%eb%b3%b4%ec%9a%b0%eb%a1%9c%eb%b3%b4%ed%8b%b1%ec%8a%a4-10%ec%96%b5-%ea%b7%9c%eb%aa%a8-%e7%be%8e-%ec%a3%bc%ec%9a%94-%eb%8c%80%ed%95%99/)
+- [humanoidstore.co](https://humanoidstore.co/robots/rainbow-robotics-drc-hubo-plus)
+- [rainbow-robotics.com](https://rainbow-robotics.com/)
 
 ---
 

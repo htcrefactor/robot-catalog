@@ -189,6 +189,8 @@ Fields the maker does not publish are left out here — the catalog never fills 
 
 - Official page: [robotics.omron.com](https://robotics.omron.com/products/mobile-robots/ld-series/ld-250/)
 - [assets.omron.eu](https://assets.omron.eu/downloads/latest/datasheet/en/i828_ld-series_mobile_robot_datasheet_en.pdf)
+- [omron.co.kr](https://www.omron.co.kr/)
+- [robotics.omron.com](https://robotics.omron.com/ko/products/mobile-robots/ld-series/ld-250/)
 
 ---
 

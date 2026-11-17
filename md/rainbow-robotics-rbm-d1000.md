@@ -39,6 +39,7 @@ Official product page with full spec table. battery: battery_wh computed from st
 
 - Official page: [rainbow-robotics.com](https://rainbow-robotics.com/en/products/rbm-d1000/)
 - [rainbow-robotics.com](https://www.rainbow-robotics.com/product_spec/download?id=7d8969fc-04c8-4ff9-9c39-e837c3b357fe)
+- [rainbow-robotics.com](https://rainbow-robotics.com/)
 
 Listed by these directories (discovery only, never used as a spec source):
 

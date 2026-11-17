@@ -67,6 +67,8 @@ Fields the maker does not publish are left out here — the catalog never fills 
 
 - [humanoid.robocup.org](http://humanoid.robocup.org/wp-content/uploads/HERoEHS-specs-67938e21e04fd.pdf)
 - [hsl.robocup.org](https://hsl.robocup.org/wp-content/uploads/2026/03/large_HERoEHS-specs-697d5d67a1742.pdf)
+- [humanoidstore.co](https://humanoidstore.co/robots/aeirobot-alice-4)
+- [arobot4all.com](http://www.arobot4all.com/)
 
 ---
 

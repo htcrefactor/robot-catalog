@@ -27,6 +27,7 @@ Hyundai Motor Group's TIGER press release (Feb 2021, hyundai.com) describes TIGE
 ## Sources
 
 - Official page: [hyundai.com](https://www.hyundai.com/au/en/news/mobility/hyundai-motor-group-unveils-tiger-uncrewed-ultimate-mobility-vehicle-concept)
+- [robotics.hyundai.com](https://robotics.hyundai.com/story/log/view.do?seq=181)
 
 Listed by these directories (discovery only, never used as a spec source):
 

@@ -99,6 +99,7 @@ Maker figures: about 178 cm, about 70 kg, (1503+285) x 510 x 287 mm, 27 DoF tota
 - [unitree.com](https://www.unitree.com/h1)
 - [humanoidstore.co](https://humanoidstore.co/robots/unitree-h1-2)
 - [github.com](https://github.com/unitreerobotics/unitree_ros/blob/master/robots/h1_2_description/h1_2.urdf)
+- [younginmobility.com](https://www.younginmobility.com/)
 
 ---
 

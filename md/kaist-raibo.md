@@ -27,6 +27,7 @@ RAILAB's robots page describes RAIBO as a middle-sized quadruped for inspection,
 ## Sources
 
 - Official page: [railab.kaist.ac.kr](https://railab.kaist.ac.kr/sections/robots.html)
+- [rainbow-robotics.com](https://rainbow-robotics.com/)
 
 Listed by these directories (discovery only, never used as a spec source):
 

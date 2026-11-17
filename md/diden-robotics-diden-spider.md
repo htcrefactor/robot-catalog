@@ -118,6 +118,10 @@ Maker sources (products page and the GTC 2026 article) state a 30 kg payload and
 
 - Official page: [didenrobotics.com](https://www.didenrobotics.com/en/products)
 - [didenrobotics.com](https://www.didenrobotics.com/en/resources-all/nvidia-gtc-2026-spider-30)
+- [robotworld.or.kr](https://robotworld.or.kr/visitors/pop_list_of_exhibitors.php?idx=1431)
+- [eweek.com](https://www.eweek.com/news/news-diden-spider-30-magnetic-robot-shipyards-south-korea-apac/)
+- [en.fnnews.com](https://en.fnnews.com/news/202611041829341672)
+- [didenrobotics.com](https://www.didenrobotics.com/)
 
 ---
 

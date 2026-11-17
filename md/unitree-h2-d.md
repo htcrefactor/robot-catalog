@@ -39,6 +39,7 @@ H2 dual-arm series: H2-A (fixed base), H2-D Standard (manual base), H2-D Flagshi
 ## Sources
 
 - Official page: [unitree.com](https://www.unitree.com/H2-D/)
+- [younginmobility.com](https://www.younginmobility.com/)
 
 Listed by these directories (discovery only, never used as a spec source):
 

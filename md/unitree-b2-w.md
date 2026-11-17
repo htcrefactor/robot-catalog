@@ -121,6 +121,7 @@ Unitree B2-W page (checked 2026-11-17): standing about 1098 x 550 x 758 mm, abou
 - [github.com](https://github.com/unitreerobotics/unitree_ros)
 - [github.com](https://github.com/unitreerobotics/unitree_ros2)
 - [github.com](https://github.com/unitreerobotics/unitree_mujoco)
+- [younginmobility.com](https://www.younginmobility.com/)
 
 ---
 

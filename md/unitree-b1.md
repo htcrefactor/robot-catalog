@@ -38,6 +38,7 @@ Payload: 20 kg continuous walking load (80 kg max standing). Runtime: 2 h walkin
 ## Sources
 
 - Official page: [unitree.com](https://www.unitree.com/b1/)
+- [younginmobility.com](https://www.younginmobility.com/)
 
 Listed by these directories (discovery only, never used as a spec source):
 

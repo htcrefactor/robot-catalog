@@ -42,6 +42,7 @@ Weight 21.5 kg is without battery. Dimensions 0.65×0.31×0.6 m (standing) / 0.6
 - [github.com](https://github.com/unitreerobotics/unitree_legged_sdk)
 - [github.com](https://github.com/unitreerobotics/unitree_ros/blob/master/robots/aliengo_description/urdf/aliengo.urdf)
 - [shop.unitree.com](https://shop.unitree.com/products/aliengo)
+- [younginmobility.com](https://www.younginmobility.com/)
 
 Listed by these directories (discovery only, never used as a spec source):
 

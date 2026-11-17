@@ -190,6 +190,7 @@ Unitree Go2 page comparison table (PRO column, checked 2026-11-17): 70 x 31 x 40
 - [github.com](https://github.com/unitreerobotics/unitree_mujoco)
 - [github.com](https://github.com/unitreerobotics/unitree_ros)
 - [shop.unitree.com](https://shop.unitree.com/products/unitree-go2)
+- [younginmobility.com](https://www.younginmobility.com/)
 
 ---
 

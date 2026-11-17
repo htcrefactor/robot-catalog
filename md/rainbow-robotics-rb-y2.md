@@ -28,6 +28,7 @@ Official product page exists but marked 'Coming soon' with no published specs. S
 
 - Official page: [rainbow-robotics.com](https://rainbow-robotics.com/en/products/rb-y2)
 - [rainbow-robotics.com](https://rainbow-robotics.com/en/products/lineup)
+- [rainbow-robotics.com](https://rainbow-robotics.com/)
 
 Listed by these directories (discovery only, never used as a spec source):
 

@@ -37,6 +37,7 @@ Wheeled (mobile) humanoid for manufacturing; height adjustable 130-180 cm. Engli
 - [eng.arobot4all.com](http://eng.arobot4all.com/42)
 - [arobot4all.com](https://www.arobot4all.com/history)
 - [advantech.com](https://www.advantech.com/en-us/resources/news/arobot-advantech)
+- [arobot4all.com](http://www.arobot4all.com/)
 
 Listed by these directories (discovery only, never used as a spec source):
 

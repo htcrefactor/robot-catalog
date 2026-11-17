@@ -86,6 +86,8 @@ Maker page and e-manual: about 510 mm, about 3.5 kg without the skin cover, 20 a
 
 - Official page: [en.robotis.com](https://en.robotis.com/model/page.php?co_id=prd_op3)
 - [github.com](https://github.com/ROBOTIS-GIT/emanual/blob/master/docs/en/platform/op3/introduction.md)
+- [humanoidstore.co](https://humanoidstore.co/robots/robotis-op3)
+- [robotis.com](https://www.robotis.com/ko/)
 
 ---
 

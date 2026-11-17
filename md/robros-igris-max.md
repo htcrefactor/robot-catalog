@@ -30,6 +30,7 @@ Only maker material is the 2026-11-04 launch announcement ('Introducing IGRIS-MA
 
 - [robros.co.kr](https://www.robros.co.kr/en/)
 - [linkedin.com](https://www.linkedin.com/posts/robros_robros-igrismax-humanoid-activity-7523555519786074113-7vj5)
+- [robros.co.kr](https://www.robros.co.kr/ko)
 
 Listed by these directories (discovery only, never used as a spec source):
 

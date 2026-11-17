@@ -103,6 +103,9 @@ Fields the maker does not publish are left out here — the catalog never fills 
 - [zdnet.co.kr](https://zdnet.co.kr/view/?no=20200518084101)
 - [biz.heraldcorp.com](https://biz.heraldcorp.com/article/2650656)
 - [koreajoongangdaily.com](https://www.koreajoongangdaily.com/business/no-tip-required-robots-deliver-to-your-door/10564062)
+- [yna.co.kr](https://www.yna.co.kr/view/AKR20200518149000030)
+- [koreajoongangdaily.com](https://www.koreajoongangdaily.com/business/postcovid19-new-normal-letting-the-robots-take-over-is-the-secret-to-social-distancing/11155620)
+- [mk.co.kr](https://www.mk.co.kr/news/business/10547977)
 
 ---
 

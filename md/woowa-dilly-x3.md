@@ -107,6 +107,7 @@ Woowa Brothers' own robot site (robot.baemin.com) describes Dilly only in servic
 
 - Official page: [robot.baemin.com](https://robot.baemin.com)
 - [kiria.org](https://www.kiria.org/portal/cert/portalCertEstiStats.do)
+- [mk.co.kr](https://www.mk.co.kr/news/business/10547977)
 
 ---
 

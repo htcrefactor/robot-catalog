@@ -64,6 +64,7 @@ Media (2026-11-17): press photo of CLOiD folding laundry from LG's own CES 2026 
 - [humanoidstore.co](https://humanoidstore.co/robots/lg-cloid)
 - [humanoid.pub](https://humanoid.pub/en/robots/lg-cloid)
 - [lge.co.kr](https://www.lge.co.kr/story/newsroom/234937)
+- [lge.co.kr](https://www.lge.co.kr/story/newsroom/225625)
 
 ---
 

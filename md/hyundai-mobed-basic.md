@@ -156,6 +156,7 @@ Hyundai Motor Group press release at iREX 2025 (3 Dec 2025) specification table:
 ## Sources
 
 - Official page: [hyundai.com](https://www.hyundai.com/worldwide/en/newsroom/detail/0000001082)
+- [robotics.hyundai.com](https://robotics.hyundai.com/story/log/view.do?seq=181)
 
 ---
 

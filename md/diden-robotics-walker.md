@@ -29,6 +29,7 @@ Scope review (#16, 2026-11-17): kept in scope and moved Humanoid -> Mobile platf
 - Official page: [didenrobotics.com](https://www.didenrobotics.com/en/products)
 - [didenrobotics.com](https://www.didenrobotics.com/en/resources-all/nvidia-gtc-2026-spider-30)
 - [didenrobotics.com](https://www.didenrobotics.com/en/resources-all/amazon-mars-conference-2026)
+- [didenrobotics.com](https://www.didenrobotics.com/)
 
 Listed by these directories (discovery only, never used as a spec source):
 

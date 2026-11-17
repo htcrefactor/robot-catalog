@@ -98,6 +98,8 @@ Maker spec table for the follower FFW-SG2: 604 x 602 x 1,623 mm, 90 kg, 25 total
 - Official page: [ai.robotis.com](https://ai.robotis.com/ai_worker/hardware_ai_worker.html)
 - [ai.robotis.com](https://ai.robotis.com/ai_worker/hardware_ai_worker)
 - [robotis.us](https://robotis.us/ai-worker-ffw-sg2-us/)
+- [humanoidstore.co](https://humanoidstore.co/robots/robotis-ai-worker)
+- [robotis.com](https://www.robotis.com/ko/)
 
 ---
 

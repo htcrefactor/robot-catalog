@@ -33,6 +33,7 @@ Values from the Hubo Lab's own papers (not a product page): 1.3 m / 45 kg / 40 D
 
 - [doi.org](https://doi.org/10.7210/jrsj.30.367)
 - [cmu.edu](https://www.cmu.edu/dynamic-walking/files/abstracts/Oh_2013_DW.pdf)
+- [rainbow-robotics.com](https://rainbow-robotics.com/)
 
 Listed by these directories (discovery only, never used as a spec source):
 

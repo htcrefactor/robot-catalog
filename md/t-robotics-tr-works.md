@@ -33,6 +33,7 @@ Maker product page lists TR-WORKS as its next-generation humanoid for semiconduc
 
 - Official page: [t-robotics.co.kr](http://www.t-robotics.co.kr/product_rehabilitation.do)
 - [irobotnews.com](https://www.irobotnews.com/news/articleView.html?idxno=45174)
+- [t-robotics.co.kr](http://www.t-robotics.co.kr/)
 
 Listed by these directories (discovery only, never used as a spec source):
 

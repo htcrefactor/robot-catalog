@@ -33,6 +33,7 @@ OUT OF SCOPE (not mobile): WIRobotics' own spec table states 'General-purpose hu
 ## Sources
 
 - Official page: [corp.wirobotics.com](https://corp.wirobotics.com/en/product/allex)
+- [rih.wirobotics.com](https://rih.wirobotics.com/allex)
 
 Listed by these directories (discovery only, never used as a spec source):
 

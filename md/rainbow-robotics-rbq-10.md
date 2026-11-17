@@ -301,6 +301,7 @@ Maker page: 98 x 43 x 62 cm, 42 kg, 15 kg payload, walking 6 km/h and running 14
 - Official page: [rainbow-robotics.com](https://rainbow-robotics.com/en/products/rbq-10)
 - [rainbowrobotics.github.io](https://rainbowrobotics.github.io/RBQ/manual/product-descriptions/general-specification.html)
 - [hani.co.kr](https://www.hani.co.kr/arti/economy/marketing/1285758.html)
+- [rainbow-robotics.com](https://rainbow-robotics.com/)
 
 ---
 

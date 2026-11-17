@@ -35,6 +35,7 @@ Unitree no longer carries a Laikago page (unitree.com/laikago returns 404, check
 - [youtube.com](https://www.youtube.com/watch?v=d6Ja643GqL8)
 - [github.com](https://github.com/unitreerobotics/laikago_ros)
 - [github.com](https://github.com/unitreerobotics/unitree_ros/blob/master/robots/laikago_description/urdf/laikago.urdf)
+- [younginmobility.com](https://www.younginmobility.com/)
 
 Listed by these directories (discovery only, never used as a spec source):
 

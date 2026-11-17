@@ -37,6 +37,7 @@ Runtime 9 h 50 min with no payload (6 h 45 min at max payload); 'up to 10 h' hea
 
 - Official page: [mobile-industrial-robots.com](https://mobile-industrial-robots.com/products/robots/mir1350)
 - [mobile-industrial-robots.com](https://mobile-industrial-robots.com/products/robots/mir1350/specifications)
+- [mobile-industrial-robots.com](https://mobile-industrial-robots.com/ko/contacts)
 
 Listed by these directories (discovery only, never used as a spec source):
 

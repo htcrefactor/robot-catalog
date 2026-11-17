@@ -36,6 +36,7 @@ Battery 15 Ah @ 48 V (Wh not stated). Page also lists a '320×180×375 mm' size 
 - Official page: [rainbow-robotics.com](https://rainbow-robotics.com/products/rbm-s100a/)
 - [github.com](https://github.com/rainbow-mobile)
 - [rainbow-mobile.github.io](https://rainbow-mobile.github.io/doc-s100-ttk/)
+- [rainbow-robotics.com](https://rainbow-robotics.com/)
 
 Listed by these directories (discovery only, never used as a spec source):
 

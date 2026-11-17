@@ -49,7 +49,8 @@
    "https://github.com/unitreerobotics/unitree_ros",
    "https://github.com/unitreerobotics/unitree_ros2",
    "https://github.com/unitreerobotics/unitree_mujoco",
-   "https://shop.unitree.com/products/unitree-g1"
+   "https://shop.unitree.com/products/unitree-g1",
+   "https://www.younginmobility.com/"
   ],
   "summary": "Unitree's small full-body humanoid for research and development, with 23 joints on the base model, expandable to 43 on the EDU version with dexterous hands.",
   "note": "Maker page unitree.com/g1 re-checked 2026-11-17: standing 1,320 x 450 x 200 mm (H x W x T), folded 690 x 450 x 300 mm, 35 kg with battery, 23 DoF base (23-43 EDU), arm load about 2 kg (3 kg EDU), about 2 h, US$13.5K base (tax and shipping excluded). The stored height is the maker's standing figure; an earlier G1 manual and the May-2024 launch coverage give 1,270 mm (127 cm), which the current maker page does not state. | Maker figures: 1320 x 450 x 200 mm standing (690 x 450 x 300 folded), ~35 kg, 23 DoF (G1) or 23-43 (G1 EDU), 6 per leg, 1 waist (+2 optional), 5 per arm, optional 7-DoF three-finger hand, 90 Nm knee (120 Nm on EDU), about 2 kg arm load (3 kg on EDU), 9000 mAh quick-release pack, about 2 h, depth camera plus 3D LiDAR, 4-microphone array, 5 W speaker, Wi-Fi 6 and Bluetooth 5.2, 8-core CPU; trotting speed above 2 m/s. Price US$13,500 for G1.",
@@ -90,6 +91,13 @@
     "kind": "list",
     "source": "https://shop.unitree.com/products/unitree-g1",
     "note": "G1 base unit; G1 Pro US$21,500 on the same page; tax and freight excluded; G1 EDU by quote"
+   }
+  ],
+  "kr_distributors": [
+   {
+    "name": "영인모빌리티 (Unitree 한국 공식 파트너)",
+    "kind": "distributor",
+    "url": "https://www.younginmobility.com/"
    }
   ]
  },
@@ -140,7 +148,8 @@
    "https://github.com/unitreerobotics/unitree_sdk2_python",
    "https://github.com/unitreerobotics/unitree_ros",
    "https://github.com/unitreerobotics/unitree_mujoco",
-   "https://shop.unitree.com/products/unitree-h1"
+   "https://shop.unitree.com/products/unitree-h1",
+   "https://www.younginmobility.com/"
   ],
   "summary": "Unitree's first full-size humanoid, the H1, able to walk and run at up to 3.3 m/s on a 360-degree LiDAR and depth-camera perception stack.",
   "verification": "official",
@@ -193,6 +202,13 @@
     "source": "https://shop.unitree.com/products/unitree-h1",
     "note": "store lists US$90,000 and titles the page \"Contact us for the real price\""
    }
+  ],
+  "kr_distributors": [
+   {
+    "name": "영인모빌리티 (Unitree 한국 공식 파트너)",
+    "kind": "distributor",
+    "url": "https://www.younginmobility.com/"
+   }
   ]
  },
  {
@@ -243,7 +259,8 @@
    "https://github.com/unitreerobotics/unitree_ros",
    "https://github.com/unitreerobotics/unitree_ros2",
    "https://github.com/unitreerobotics/unitree_mujoco",
-   "https://shop.unitree.com/products/unitree-h2"
+   "https://shop.unitree.com/products/unitree-h2",
+   "https://www.younginmobility.com/"
   ],
   "summary": "Unitree's 1.82 m humanoid with a bionic head and 31 DoF, built for heavier industrial and research work with 360 Nm leg joints.",
   "verification": "official",
@@ -284,6 +301,13 @@
     "kind": "list",
     "source": "https://shop.unitree.com/products/unitree-h2",
     "note": "H2; tax and freight excluded; H2 EDU by quote"
+   }
+  ],
+  "kr_distributors": [
+   {
+    "name": "영인모빌리티 (Unitree 한국 공식 파트너)",
+    "kind": "distributor",
+    "url": "https://www.younginmobility.com/"
    }
   ]
  },
@@ -962,11 +986,22 @@
   "official_url": null,
   "sources": [
    "http://humanoid.robocup.org/wp-content/uploads/HERoEHS-specs-67938e21e04fd.pdf",
-   "https://hsl.robocup.org/wp-content/uploads/2026/03/large_HERoEHS-specs-697d5d67a1742.pdf"
+   "https://hsl.robocup.org/wp-content/uploads/2026/03/large_HERoEHS-specs-697d5d67a1742.pdf",
+   "https://humanoidstore.co/robots/aeirobot-alice-4",
+   "http://www.arobot4all.com/"
   ],
   "summary": "Full-size humanoid from AeiROBOT; research only, sold to businesses.",
   "verification": "official",
-  "notes": "Issue #17 (2026-11-17): 160 cm, 45 kg, 41 DoF (legs 6x2, arms 7x2, hands 6x2, waist 1, head 2) and 1.0 m/s omnidirectional walking from the AeiROBOT/Hanyang University ALICE 4 specification sheets; four 140.4 Wh packs. HumanoidStore's 48 kg variant not used. [replaced max_speed_mps: None -> 1.0]"
+  "notes": "Issue #17 (2026-11-17): 160 cm, 45 kg, 41 DoF (legs 6x2, arms 7x2, hands 6x2, waist 1, head 2) and 1.0 m/s omnidirectional walking from the AeiROBOT/Hanyang University ALICE 4 specification sheets; four 140.4 Wh packs. HumanoidStore's 48 kg variant not used. [replaced max_speed_mps: None -> 1.0]",
+  "name_ko": "앨리스4",
+  "kr_distributors": [
+   {
+    "name": "에이로봇 (본사 직판)",
+    "kind": "direct",
+    "url": "http://www.arobot4all.com/"
+   }
+  ],
+  "manufacturer_ko": "에이로봇"
  },
  {
   "id": "aeolus-aeo",
@@ -3401,7 +3436,8 @@
    "https://humanoidstore.co/robots/lg-cloid",
    "https://www.lg.com/global/newsroom/news/home-appliance-solution/lg-electronics-presents-lg-cloid-home-robot-to-demonstrate-zero-labor-home-at-ces-2026/",
    "https://humanoid.pub/en/robots/lg-cloid",
-   "https://www.lge.co.kr/story/newsroom/234937"
+   "https://www.lge.co.kr/story/newsroom/234937",
+   "https://www.lge.co.kr/story/newsroom/225625"
   ],
   "summary": "LG's wheeled home robot: two 7-DoF arms with five-fingered hands on a self-driving base, torso height adjustable from 1.05 to 1.43 m, with a head unit that doubles as an AI home hub. Shown at CES 2026.",
   "image_url": "https://www.lg.com/content/dam/channel/wcms/global/newsroom/news/home-appliance-solution/lg-electronics-presents-lg-cloid-home-robot-to-demonstrate-zero-labor-home-at-ces-2026/press-setting-image-desktop-tablet-cloid.png",
@@ -3410,7 +3446,17 @@
   "image_source": "https://www.lg.com/global/newsroom/news/home-appliance-solution/lg-electronics-presents-lg-cloid-home-robot-to-demonstrate-zero-labor-home-at-ces-2026/",
   "verification": "official",
   "notes": "Issue #17 (2026-11-17): LG publishes only the dual 7-DoF arms and an adjustable working height of about 1.05-1.43 m (143 cm taken as standing height); weight, payload, speed, runtime and total DoF are all undisclosed, so they stay empty.",
-  "data_source": "Maker sources (verified 2026-11-17)"
+  "data_source": "Maker sources (verified 2026-11-17)",
+  "name_ko": "LG 클로이드",
+  "kr_distributors": [
+   {
+    "name": "LG전자 (직판·로봇 구독)",
+    "kind": "direct",
+    "url": "https://www.lge.co.kr/"
+   }
+  ],
+  "kr_note": "국내에서는 구매 외에 로봇 구독(RaaS) 방식으로도 공급합니다.",
+  "manufacturer_ko": "LG전자"
  },
  {
   "id": "lightberry-lumi",
@@ -4448,12 +4494,23 @@
   "sources": [
    "https://breakthroughs.kaist.ac.kr/sub02/view/id/289",
    "https://doi.org/10.1109/tro.2017.2776287",
-   "https://rainbow-robotics.com/%ec%9d%b4%eb%8d%b0%ec%9d%bc%eb%a6%ac-%eb%a0%88%ec%9d%b8%eb%b3%b4%ec%9a%b0%eb%a1%9c%eb%b3%b4%ed%8b%b1%ec%8a%a4-10%ec%96%b5-%ea%b7%9c%eb%aa%a8-%e7%be%8e-%ec%a3%bc%ec%9a%94-%eb%8c%80%ed%95%99/"
+   "https://rainbow-robotics.com/%ec%9d%b4%eb%8d%b0%ec%9d%bc%eb%a6%ac-%eb%a0%88%ec%9d%b8%eb%b3%b4%ec%9a%b0%eb%a1%9c%eb%b3%b4%ed%8b%b1%ec%8a%a4-10%ec%96%b5-%ea%b7%9c%eb%aa%a8-%e7%be%8e-%ec%a3%bc%ec%9a%94-%eb%8c%80%ed%95%99/",
+   "https://humanoidstore.co/robots/rainbow-robotics-drc-hubo-plus",
+   "https://rainbow-robotics.com/"
   ],
   "summary": "KAIST and Rainbow Robotics' DARPA Robotics Challenge winner: a 1.7 m disaster-response humanoid that walks on two legs and kneels onto knee wheels to roll on flat ground.",
   "verification": "official",
   "notes": "Issue #17 (2026-11-17): DRC-HUBO+ - 173 cm, 82 kg, 32 DoF (7 per arm, 6 per leg) per KAIST/Rainbow. The IEEE T-RO paper gives 170 cm and 80 kg. No maker payload, speed, runtime or price, so HumanoidStore's values were emptied. [replaced height_mm: 1700 -> 1730; weight_kg: 80 -> 82; dof: 31 -> 32 | emptied (no maker value) payload_kg=15; max_speed_mps=0.5]",
-  "note": "Rainbow Robotics' current site no longer hosts a DRC-HUBO+ product page (only company news; the old rainbow.re.kr manual page is empty), so the maker-side source is the platform paper by the KAIST HUBO team that built it with Rainbow Robotics: 170 cm height, 80 kg mass, 32 DOF (7 per arm, 6 per leg, head and waist), wheel mode using wheels on both knees via a biped-to-wheel transition, LIDAR and head cameras, PODO software framework on Linux/Xenomai, exoskeletal aluminium structure, air-cooled high-ratio joints, FT sensors. Width 590 mm is from the maker-linked spec listing (robotsguide), the only figure available. The 31 DOF in this record was corrected to 32. The earlier 0.5 m/s max speed and 15 kg payload were aggregator figures with no maker value, so both were removed (robotsguide gives 1.5 km/h, not maker-confirmed). Won the 2015 DRC Finals; Rainbow sold units to universities as a research platform (e.g. 2021 order from a major US university)."
+  "note": "Rainbow Robotics' current site no longer hosts a DRC-HUBO+ product page (only company news; the old rainbow.re.kr manual page is empty), so the maker-side source is the platform paper by the KAIST HUBO team that built it with Rainbow Robotics: 170 cm height, 80 kg mass, 32 DOF (7 per arm, 6 per leg, head and waist), wheel mode using wheels on both knees via a biped-to-wheel transition, LIDAR and head cameras, PODO software framework on Linux/Xenomai, exoskeletal aluminium structure, air-cooled high-ratio joints, FT sensors. Width 590 mm is from the maker-linked spec listing (robotsguide), the only figure available. The 31 DOF in this record was corrected to 32. The earlier 0.5 m/s max speed and 15 kg payload were aggregator figures with no maker value, so both were removed (robotsguide gives 1.5 km/h, not maker-confirmed). Won the 2015 DRC Finals; Rainbow sold units to universities as a research platform (e.g. 2021 order from a major US university).",
+  "kr_distributors": [
+   {
+    "name": "레인보우로보틱스 (본사·파트너사 직판)",
+    "kind": "direct",
+    "url": "https://rainbow-robotics.com/"
+   }
+  ],
+  "kr_note": "국내 판매·데모·기술 상담은 본사와 전문 파트너사를 통해 진행합니다.",
+  "manufacturer_ko": "레인보우로보틱스"
  },
  {
   "id": "rainbow-rby1",
@@ -4489,12 +4546,23 @@
   "official_url": "https://rainbow-robotics.com/en/products/rb-y1/",
   "sources": [
    "https://rainbow-robotics.com/en/products/rb-y1/",
-   "https://rainbowrobotics.github.io/rby1-dev/hardware/overview.html"
+   "https://rainbowrobotics.github.io/rby1-dev/hardware/overview.html",
+   "https://humanoidstore.co/robots/rainbow-rby1",
+   "https://rainbow-robotics.com/"
   ],
   "summary": "Rainbow Robotics' wheeled dual-arm humanoid research platform: 24 DOF all-in-one mobile manipulator with 7-DOF arms, 6-DOF leg/torso and a rolling base.",
   "verification": "official",
   "notes": "Issue #17 (2026-11-17): Rainbow RB-Y1 - 600x690x1400 mm, 131 kg (Model A), 24 DoF (Model A; Model M 26), 3 kg per arm, 1.5 m/s, 50 V 25 Ah (1250-1270 Wh). [replaced payload_kg: 6 -> 3; battery_wh: None -> 1250] HumanoidStore price (US$80000) removed: no maker list price confirmed.",
-  "note": "Maker spec table (English product page + RB-Y1 developer docs): 600 x 690 x 1,400 mm (W x D x H), 131 kg in Model A (mobile base 51 kg; Model M with mecanum base is 170 kg), 3 kg payload per arm, 600 mm arm reach to the wrist, 1.5 m/s drive speed, 24 DOF in Model A (wheel 1 x 2, torso/leg 6, arm 7 x 2, head 2) and 26 DOF in Model M (wheel 1 x 4), +/-0.05 mm arm repeatability, 48 VDC, 50 V 25 Ah battery = 1,250 Wh per the maker table (the docs page prints 1,270 Wh). Price: the maker publishes no price; the 80,000 USD in this record came from HumanoidStore and was removed. Runtime is not published by the maker (the earlier 3 h figure was reseller-sourced and was removed). Maker notes no vision camera is included (the wrist 'camera' is a motor pulley)."
+  "note": "Maker spec table (English product page + RB-Y1 developer docs): 600 x 690 x 1,400 mm (W x D x H), 131 kg in Model A (mobile base 51 kg; Model M with mecanum base is 170 kg), 3 kg payload per arm, 600 mm arm reach to the wrist, 1.5 m/s drive speed, 24 DOF in Model A (wheel 1 x 2, torso/leg 6, arm 7 x 2, head 2) and 26 DOF in Model M (wheel 1 x 4), +/-0.05 mm arm repeatability, 48 VDC, 50 V 25 Ah battery = 1,250 Wh per the maker table (the docs page prints 1,270 Wh). Price: the maker publishes no price; the 80,000 USD in this record came from HumanoidStore and was removed. Runtime is not published by the maker (the earlier 3 h figure was reseller-sourced and was removed). Maker notes no vision camera is included (the wrist 'camera' is a motor pulley).",
+  "kr_distributors": [
+   {
+    "name": "레인보우로보틱스 (본사·파트너사 직판)",
+    "kind": "direct",
+    "url": "https://rainbow-robotics.com/"
+   }
+  ],
+  "kr_note": "국내 판매·데모·기술 상담은 본사와 전문 파트너사를 통해 진행합니다.",
+  "manufacturer_ko": "레인보우로보틱스"
  },
  {
   "id": "richtech-dex",
@@ -4670,12 +4738,22 @@
   "sources": [
    "https://ai.robotis.com/ai_worker/hardware_ai_worker",
    "https://ai.robotis.com/ai_worker/hardware_ai_worker.html",
-   "https://robotis.us/ai-worker-ffw-sg2-us/"
+   "https://robotis.us/ai-worker-ffw-sg2-us/",
+   "https://humanoidstore.co/robots/robotis-ai-worker",
+   "https://www.robotis.com/ko/"
   ],
   "summary": "ROBOTIS' semi-humanoid industrial platform: a swerve-drive mobile base with dual 7-DOF DYNAMIXEL arms, a lift column and a leader-follower teleoperation rig for imitation learning.",
   "verification": "official",
   "notes": "Issue #17 (2026-11-17): ROBOTIS AI Worker FFW-SG2 - 604x602x1623 mm, 90 kg, 25 DoF (arms 7x2, grippers 1x2, head 2, lift 1, mobile 6), 3 kg nominal / 5 kg peak per arm, 1.5 m/s, 25 V 80 Ah (2040 Wh). [replaced battery_wh: None -> 2040] HumanoidStore price (US$69000) removed: no maker list price confirmed.",
-  "note": "Maker spec table for the follower FFW-SG2: 604 x 602 x 1,623 mm, 90 kg, 25 total DOF (arm 7 x 2, gripper 1 x 2, head 2, lift 1, mobile 6), 641 mm arm reach to the wrist, 3.0 kg nominal payload per arm (6.0 kg dual; 5.0 kg / 10.0 kg peak), 1.5 m/s swerve drive, 25 V 80 Ah battery (2,040 Wh), RGBD x 3 + LiDAR x 2 + IMU, NVIDIA Jetson AGX Orin 32GB, ROS 2 / Python / C++ / Web UI, 0-40 C operation, aluminium and plastic exterior. Payload entered as the nominal single-arm figure. Maker store states up to 6 hours of continuous operation on the built-in battery. FFW-BG2 is a Korea-only 19-DOF version without the mobile base; FFW-SH3P is in preparation. The 69,000 USD in this record was a reseller figure (the maker sells by quote) and was removed."
+  "note": "Maker spec table for the follower FFW-SG2: 604 x 602 x 1,623 mm, 90 kg, 25 total DOF (arm 7 x 2, gripper 1 x 2, head 2, lift 1, mobile 6), 641 mm arm reach to the wrist, 3.0 kg nominal payload per arm (6.0 kg dual; 5.0 kg / 10.0 kg peak), 1.5 m/s swerve drive, 25 V 80 Ah battery (2,040 Wh), RGBD x 3 + LiDAR x 2 + IMU, NVIDIA Jetson AGX Orin 32GB, ROS 2 / Python / C++ / Web UI, 0-40 C operation, aluminium and plastic exterior. Payload entered as the nominal single-arm figure. Maker store states up to 6 hours of continuous operation on the built-in battery. FFW-BG2 is a Korea-only 19-DOF version without the mobile base; FFW-SH3P is in preparation. The 69,000 USD in this record was a reseller figure (the maker sells by quote) and was removed.",
+  "kr_distributors": [
+   {
+    "name": "로보티즈 (본사 직판·구매 문의)",
+    "kind": "direct",
+    "url": "https://www.robotis.com/ko/"
+   }
+  ],
+  "manufacturer_ko": "로보티즈"
  },
  {
   "id": "robotis-op3",
@@ -4716,12 +4794,22 @@
   "official_url": "https://en.robotis.com/model/page.php?co_id=prd_op3",
   "sources": [
    "https://en.robotis.com/model/page.php?co_id=prd_op3",
-   "https://github.com/ROBOTIS-GIT/emanual/blob/master/docs/en/platform/op3/introduction.md"
+   "https://github.com/ROBOTIS-GIT/emanual/blob/master/docs/en/platform/op3/introduction.md",
+   "https://humanoidstore.co/robots/robotis-op3",
+   "https://www.robotis.com/ko/"
   ],
   "summary": "ROBOTIS OP3 is the XM430-based successor to OP2 with an Intel i3 NUC and ROS 2 support, the current miniature humanoid platform for research and education.",
   "verification": "official",
   "notes": "Issue #17 (2026-11-17): ROBOTIS OP3 - 20 actuator modules (legs 6x2, arms 3x2, neck 2), 1800 mAh LiPo for about 30 min of operation, per ROBOTIS' product page. ROBOTIS publishes no height, weight or speed on that page, so the HumanoidStore figures were emptied. [emptied (no maker value) height_mm=510; weight_kg=3.5; max_speed_mps=0.24; runtime_h=0.5; price_usd=11969; price_note=list 11969 USD (maker), per HumanoidStore, checked 2026-10]",
-  "note": "Maker page and e-manual: about 510 mm, about 3.5 kg without the skin cover, 20 actuator modules (6 DOF leg x 2, 3 DOF arm x 2, 2 DOF neck), DYNAMIXEL XM430-W350-R, Intel NUC with Core i3 dual core, 8 GB DDR4 and a 128 GB (maker store page) / 250 GB (e-manual) M.2 SSD, OpenCR management controller (ARM Cortex-M7), Logitech C920 1080p camera, 3-axis gyro/accelerometer/magnetometer, 1,800 mAh 3-cell 11.1 V LiPo with about 30 minutes of operation (36.6 Wh derived), 4 buttons, RGB LED x 1 and LED x 3, speaker, HDMI/DP. The 2025 re-release was rebuilt for ROS 2. The 11,969 USD price was a HumanoidStore figure with no maker price and was removed; the maker sells by inquiry. Walking speed is not stated on the maker pages, so max speed is left empty."
+  "note": "Maker page and e-manual: about 510 mm, about 3.5 kg without the skin cover, 20 actuator modules (6 DOF leg x 2, 3 DOF arm x 2, 2 DOF neck), DYNAMIXEL XM430-W350-R, Intel NUC with Core i3 dual core, 8 GB DDR4 and a 128 GB (maker store page) / 250 GB (e-manual) M.2 SSD, OpenCR management controller (ARM Cortex-M7), Logitech C920 1080p camera, 3-axis gyro/accelerometer/magnetometer, 1,800 mAh 3-cell 11.1 V LiPo with about 30 minutes of operation (36.6 Wh derived), 4 buttons, RGB LED x 1 and LED x 3, speaker, HDMI/DP. The 2025 re-release was rebuilt for ROS 2. The 11,969 USD price was a HumanoidStore figure with no maker price and was removed; the maker sells by inquiry. Walking speed is not stated on the maker pages, so max speed is left empty.",
+  "kr_distributors": [
+   {
+    "name": "로보티즈 (본사 직판·구매 문의)",
+    "kind": "direct",
+    "url": "https://www.robotis.com/ko/"
+   }
+  ],
+  "manufacturer_ko": "로보티즈"
  },
  {
   "id": "robros-igris-c",
@@ -4762,12 +4850,23 @@
   "official_url": "https://www.robros.co.kr/en/igrisc",
   "sources": [
    "https://www.robros.co.kr/en/igrisc",
-   "https://www.robros.co.kr/ko/developers/v2.1.1/c304d82d-d289-40e1-a6dd-036e028279de/Overview"
+   "https://www.robros.co.kr/ko/developers/v2.1.1/c304d82d-d289-40e1-a6dd-036e028279de/Overview",
+   "https://humanoidstore.co/robots/robros-igris-c",
+   "https://www.robros.co.kr/ko"
   ],
   "summary": "ROBROS' 154 cm bipedal indoor humanoid for research, pilot deployment and education, with 11-DOF hands, whole-body force limiting and a master-arm teleoperation kit.",
   "verification": "official",
   "notes": "Issue #17 (2026-11-17): ROBROS IGRIS-C - 154 cm, 56 kg, 43 DoF with 6-DoF hands (31 without), about 6 kg across both arms, 48 V 17 Ah, per ROBROS. No maker price or runtime figure, so those fields were emptied. [replaced dof: 53 -> 43 | emptied (no maker value) price_usd=100000; price_note=list 100000 USD (maker), per HumanoidStore, checked 2026-10]",
-  "note": "Maker product page: 154 cm, 56 kg, 17,000 mAh 48 V battery (=816 Wh, derived), 2.5 h charge, 53 DOF per the maker docs (legs 6 x 2, arms 7 x 2, waist 3, neck 2, hands 11 x 2 where each hand has 6 active + 5 passive DoF); the marketing page's DOF list omits the hand joints and adds up to 43. CONFLICT: the developer docs (v1.0.5 and v2.1.1, updated 2026-06-24) give 60 kg and 1540 x 440 x 300 mm while the product page gives 56 kg; the product page figure is used here and the docs figure is recorded. Max joint torque 150 Nm, 6 kg payload with both arms, Linux/Cyclone DDS with C++ and Python APIs, RGB stereo + RealSense D435i depth head cameras and per-hand RGB cameras, 6-axis IMU, Wi-Fi AP and BLE, force limiting and collision detection, emergency stop, industrial Class A, sold in Korea with global inquiries. Max speed and runtime are not published. ROBROS reported building 36 units and selling 18 by end-August 2026."
+  "note": "Maker product page: 154 cm, 56 kg, 17,000 mAh 48 V battery (=816 Wh, derived), 2.5 h charge, 53 DOF per the maker docs (legs 6 x 2, arms 7 x 2, waist 3, neck 2, hands 11 x 2 where each hand has 6 active + 5 passive DoF); the marketing page's DOF list omits the hand joints and adds up to 43. CONFLICT: the developer docs (v1.0.5 and v2.1.1, updated 2026-06-24) give 60 kg and 1540 x 440 x 300 mm while the product page gives 56 kg; the product page figure is used here and the docs figure is recorded. Max joint torque 150 Nm, 6 kg payload with both arms, Linux/Cyclone DDS with C++ and Python APIs, RGB stereo + RealSense D435i depth head cameras and per-hand RGB cameras, 6-axis IMU, Wi-Fi AP and BLE, force limiting and collision detection, emergency stop, industrial Class A, sold in Korea with global inquiries. Max speed and runtime are not published. ROBROS reported building 36 units and selling 18 by end-August 2026.",
+  "kr_distributors": [
+   {
+    "name": "로브로스 (본사 직판)",
+    "kind": "direct",
+    "url": "https://www.robros.co.kr/ko"
+   }
+  ],
+  "kr_note": "국내 판매를 우선하며 해외 문의도 받습니다.",
+  "manufacturer_ko": "로브로스"
  },
  {
   "id": "sanctuary-phoenix",
@@ -5209,7 +5308,8 @@
    "https://www.unitree.com/h1",
    "https://www.unitree.com/h1/",
    "https://humanoidstore.co/robots/unitree-h1-2",
-   "https://github.com/unitreerobotics/unitree_ros/blob/master/robots/h1_2_description/h1_2.urdf"
+   "https://github.com/unitreerobotics/unitree_ros/blob/master/robots/h1_2_description/h1_2.urdf",
+   "https://www.younginmobility.com/"
   ],
   "summary": "The H1-2 update of Unitree's full-size humanoid: 27 DoF, 7-DoF arms and a 21 kg peak arm payload, for heavier manipulation than the H1.",
   "verification": "official",
@@ -5220,7 +5320,14 @@
     "url": "https://github.com/unitreerobotics/unitree_ros/blob/master/robots/h1_2_description/h1_2.urdf",
     "license": "BSD-3-Clause"
    }
-  }
+  },
+  "kr_distributors": [
+   {
+    "name": "영인모빌리티 (Unitree 한국 공식 파트너)",
+    "kind": "distributor",
+    "url": "https://www.younginmobility.com/"
+   }
+  ]
  },
  {
   "id": "unitree-r1",
@@ -5270,7 +5377,8 @@
    "https://github.com/unitreerobotics/unitree_ros",
    "https://github.com/unitreerobotics/unitree_ros2",
    "https://github.com/unitreerobotics/unitree_mujoco",
-   "https://shop.unitree.com/products/unitree-r1"
+   "https://shop.unitree.com/products/unitree-r1",
+   "https://www.younginmobility.com/"
   ],
   "summary": "Unitree's lightweight companion humanoid: 123 cm and about 29 kg with 26 DoF, a 2-DoF waist and head, and a multimodal voice and image model.",
   "verification": "official",
@@ -5319,6 +5427,13 @@
     "kind": "edu",
     "source": "https://shop.unitree.com/products/unitree-r1",
     "note": "R1 EDU"
+   }
+  ],
+  "kr_distributors": [
+   {
+    "name": "영인모빌리티 (Unitree 한국 공식 파트너)",
+    "kind": "distributor",
+    "url": "https://www.younginmobility.com/"
    }
   ]
  },
@@ -6405,7 +6520,8 @@
   "official_url": "https://www.unitree.com",
   "sources": [
    "https://english.news.cn/20260817/ad14838a779e42e6a67957e5bef74bcf/c.html",
-   "http://www.chinadaily.com.cn/a/202608/20/WS6a86f01ea3106bc57421c9c6.html"
+   "http://www.chinadaily.com.cn/a/202608/20/WS6a86f01ea3106bc57421c9c6.html",
+   "https://www.younginmobility.com/"
   ],
   "summary": "Unitree's high-speed bipedal humanoid prototype unveiled in August 2026 to demonstrate record sprint and jump performance.",
   "image_url": null,
@@ -6416,7 +6532,14 @@
    "https://humanoid.guide/product/superman/"
   ],
   "verification": "unconfirmed",
-  "note": "No product page, datasheet or press release on unitree.com; the only maker statement is a short social-media preview post (17 Aug 2026) reported by Xinhua/Reuters/China Daily: prototype 'new robot preview' with 0.85 m leg length, 2 m standing high jump, 12.66 m/s top speed, developed in ~3 months. Values not filled because no maker page could be opened. Status = research prototype/demonstrator, not a product. Re-checked 2026-11-17: unitree.com/cn news centre and homepage product grid opened - neither lists 'Superman'; no product page, datasheet or press release on unitree.com. Only the 17 Aug 2026 maker social-media preview (reported by Xinhua/China Daily) exists, so the record stays unconfirmed."
+  "note": "No product page, datasheet or press release on unitree.com; the only maker statement is a short social-media preview post (17 Aug 2026) reported by Xinhua/Reuters/China Daily: prototype 'new robot preview' with 0.85 m leg length, 2 m standing high jump, 12.66 m/s top speed, developed in ~3 months. Values not filled because no maker page could be opened. Status = research prototype/demonstrator, not a product. Re-checked 2026-11-17: unitree.com/cn news centre and homepage product grid opened - neither lists 'Superman'; no product page, datasheet or press release on unitree.com. Only the 17 Aug 2026 maker social-media preview (reported by Xinhua/China Daily) exists, so the record stays unconfirmed.",
+  "kr_distributors": [
+   {
+    "name": "영인모빌리티 (Unitree 한국 공식 파트너)",
+    "kind": "distributor",
+    "url": "https://www.younginmobility.com/"
+   }
+  ]
  },
  {
   "id": "galbot-et1",
@@ -10577,7 +10700,8 @@
    "https://docs.robotis.com/docs/systems/aisapiens/specifications/electrical_system/",
    "https://github.com/ROBOTIS-GIT/ai_sapiens",
    "https://www.robotis.com/en/product/ecosystem-aisapiens.php",
-   "https://www.robotis.us/dynamixel-q"
+   "https://www.robotis.us/dynamixel-q",
+   "https://www.robotis.com/ko/"
   ],
   "summary": "Open-source 23-DoF humanoid platform on DYNAMIXEL-Q actuators for physical-AI research, imitation and reinforcement learning on real hardware.",
   "image_url": null,
@@ -10588,7 +10712,15 @@
    "https://humanoid.guide/product/ai-sapiens-k1/"
   ],
   "verification": "official",
-  "note": "Official docs + ROS 2 GitHub. Hardware page says 1355 mm/35 kg; robotis.us DYNAMIXEL-Q page says 1366 mm (preview). Predecessor K0 (1300 mm, 34 kg) is a different model. Product marked as early preview. status: 'Pre-order' is a judgment: ROBOTIS calls it an early product/platform preview; no public price"
+  "note": "Official docs + ROS 2 GitHub. Hardware page says 1355 mm/35 kg; robotis.us DYNAMIXEL-Q page says 1366 mm (preview). Predecessor K0 (1300 mm, 34 kg) is a different model. Product marked as early preview. status: 'Pre-order' is a judgment: ROBOTIS calls it an early product/platform preview; no public price",
+  "manufacturer_ko": "로보티즈",
+  "kr_distributors": [
+   {
+    "name": "로보티즈 (본사 직판·구매 문의)",
+    "kind": "direct",
+    "url": "https://www.robotis.com/ko/"
+   }
+  ]
  },
  {
   "id": "tokyo-robotics-torobo",
@@ -10748,7 +10880,8 @@
   "sources": [
    "https://www.unitree.com/G1-D/",
    "https://support.unitree.com/home/en/G1D_Developer/about",
-   "https://github.com/unitreerobotics/unitree_ros/blob/master/robots/g1_d_description/g1_d.urdf"
+   "https://github.com/unitreerobotics/unitree_ros/blob/master/robots/g1_d_description/g1_d.urdf",
+   "https://www.younginmobility.com/"
   ],
   "summary": "Wheeled dual-arm humanoid platform with a lifting column for embodied-AI data collection, training and deployment.",
   "image_url": null,
@@ -10765,7 +10898,14 @@
     "url": "https://github.com/unitreerobotics/unitree_ros/blob/master/robots/g1_d_description/g1_d.urdf",
     "license": "BSD-3-Clause"
    }
-  }
+  },
+  "kr_distributors": [
+   {
+    "name": "영인모빌리티 (Unitree 한국 공식 파트너)",
+    "kind": "distributor",
+    "url": "https://www.younginmobility.com/"
+   }
+  ]
  },
  {
   "id": "unitree-h2-d",
@@ -10808,7 +10948,8 @@
   "price_note": null,
   "official_url": "https://www.unitree.com/H2-D/",
   "sources": [
-   "https://www.unitree.com/H2-D/"
+   "https://www.unitree.com/H2-D/",
+   "https://www.younginmobility.com/"
   ],
   "summary": "Dual-arm humanoid on a lifting column and mobile chassis for industrial mobile manipulation and embodied-AI training.",
   "image_url": null,
@@ -10819,7 +10960,14 @@
    "https://humanoid.guide/product/h2-d/"
   ],
   "verification": "official",
-  "note": "H2 dual-arm series: H2-A (fixed base), H2-D Standard (manual base), H2-D Flagship (mobile base). Values are H2-D Flagship. dims: height 1700 at max column (1200 min); payload rated ~7 kg per arm (peak ~15); H2-D Standard 148 kg, 19 DoF"
+  "note": "H2 dual-arm series: H2-A (fixed base), H2-D Standard (manual base), H2-D Flagship (mobile base). Values are H2-D Flagship. dims: height 1700 at max column (1200 min); payload rated ~7 kg per arm (peak ~15); H2-D Standard 148 kg, 19 DoF",
+  "kr_distributors": [
+   {
+    "name": "영인모빌리티 (Unitree 한국 공식 파트너)",
+    "kind": "distributor",
+    "url": "https://www.younginmobility.com/"
+   }
+  ]
  },
  {
   "id": "westwood-robotics-bruce",
@@ -12668,7 +12816,8 @@
   "sources": [
    "https://holiday-robotics.com/product",
    "https://holiday-robotics.com/blog/series-a",
-   "https://holiday-robotics.com/"
+   "https://holiday-robotics.com/",
+   "https://holiday-robotics.com/ko/about"
   ],
   "summary": "Holiday Robotics' wheeled industrial humanoid built around two 20-DOF tactile hands, with hot-swap batteries for full shifts; research units ship from H1 2027.",
   "image_url": null,
@@ -12680,7 +12829,15 @@
    "https://humanoid.guide/product/friday/"
   ],
   "verification": "official",
-  "note": "Wheeled-not-legged (mobile base + humanoid upper body). Launch specs (Oct 2025: 115 kg, 63 DOF, 1,900 Hz tactile) were revised on the current page to 125 kg, 64 DOF, 250 Hz; current page used. In private PoCs; pre-orders for research version open."
+  "note": "Wheeled-not-legged (mobile base + humanoid upper body). Launch specs (Oct 2025: 115 kg, 63 DOF, 1,900 Hz tactile) were revised on the current page to 125 kg, 64 DOF, 250 Hz; current page used. In private PoCs; pre-orders for research version open.",
+  "manufacturer_ko": "홀리데이로보틱스",
+  "kr_distributors": [
+   {
+    "name": "홀리데이로보틱스 (본사 직판)",
+    "kind": "direct",
+    "url": "https://holiday-robotics.com/ko"
+   }
+  ]
  },
  {
   "id": "honda-e2-dr",
@@ -13140,7 +13297,8 @@
   "price_note": null,
   "official_url": "https://news.kaist.ac.kr/news/html/news/?mng_no=353&mode=V",
   "sources": [
-   "https://news.kaist.ac.kr/news/html/news/?mng_no=353&mode=V"
+   "https://news.kaist.ac.kr/news/html/news/?mng_no=353&mode=V",
+   "https://rainbow-robotics.com/"
   ],
   "summary": "KAIST's KHR-3 'HUBO', Korea's first walking full-size humanoid, unveiled at the turn of 2005 with speech synthesis and recognition.",
   "image_url": null,
@@ -13150,7 +13308,9 @@
    "https://humanoidversus.com/robots/kaist-hubo"
   ],
   "verification": "official",
-  "note": "KAIST's release gives 1.25 km/h walking and 90 min per charge; height/weight are in the release only for KHR-2. Historical research robot."
+  "note": "KAIST's release gives 1.25 km/h walking and 90 min per charge; height/weight are in the release only for KHR-2. Historical research robot.",
+  "manufacturer_ko": "한국과학기술원",
+  "name_ko": "휴보"
  },
  {
   "id": "kaist-hubo-2",
@@ -13186,7 +13346,8 @@
   "official_url": null,
   "sources": [
    "https://doi.org/10.7210/jrsj.30.367",
-   "https://www.cmu.edu/dynamic-walking/files/abstracts/Oh_2013_DW.pdf"
+   "https://www.cmu.edu/dynamic-walking/files/abstracts/Oh_2013_DW.pdf",
+   "https://rainbow-robotics.com/"
   ],
   "summary": "KAIST Hubo Lab's lighter 45 kg, 40-DOF humanoid that could walk with stretched legs and run at 3.6 km/h.",
   "image_url": null,
@@ -13196,7 +13357,9 @@
    "https://humanoidversus.com/robots/kaist-hubo-2"
   ],
   "verification": "official",
-  "note": "Values from the Hubo Lab's own papers (not a product page): 1.3 m / 45 kg / 40 DOF, running 3.6 km/h (1.0 m/s). Aggregators list 125 cm and 41 DOF; HUBO 2 Plus (2011) is a separate 130 cm, 43 kg variant."
+  "note": "Values from the Hubo Lab's own papers (not a product page): 1.3 m / 45 kg / 40 DOF, running 3.6 km/h (1.0 m/s). Aggregators list 125 cm and 41 DOF; HUBO 2 Plus (2011) is a separate 130 cm, 43 kg variant.",
+  "manufacturer_ko": "한국과학기술원",
+  "name_ko": "휴보 2"
  },
  {
   "id": "kanop-rhm-t1w",
@@ -15822,7 +15985,8 @@
   "sources": [
    "http://eng.arobot4all.com/AIMY",
    "http://www.arobot4all.com/AIMY",
-   "https://www.arobot4all.com/history"
+   "https://www.arobot4all.com/history",
+   "http://www.arobot4all.com/"
   ],
   "summary": "Autonomous welcome robot that greets visitors and provides information using eye contact, gestures and LLM-powered dialogue.",
   "image_url": null,
@@ -15832,7 +15996,16 @@
    "https://embodied.guide/robots/aeirobot-aimy/"
   ],
   "verification": "official",
-  "note": "Welcome/guide robot (3rd gen shown 2024); wheeled autonomous indoor robot, deployed in libraries and a nursing simulation center."
+  "note": "Welcome/guide robot (3rd gen shown 2024); wheeled autonomous indoor robot, deployed in libraries and a nursing simulation center.",
+  "manufacturer_ko": "에이로봇",
+  "name_ko": "에이미",
+  "kr_distributors": [
+   {
+    "name": "에이로봇 (본사 직판)",
+    "kind": "direct",
+    "url": "http://www.arobot4all.com/"
+   }
+  ]
  },
  {
   "id": "aeirobot-alice-m1",
@@ -15875,7 +16048,8 @@
    "http://eng.arobot4all.com/2069803258",
    "http://eng.arobot4all.com/42",
    "https://www.arobot4all.com/history",
-   "https://www.advantech.com/en-us/resources/news/arobot-advantech"
+   "https://www.advantech.com/en-us/resources/news/arobot-advantech",
+   "http://www.arobot4all.com/"
   ],
   "summary": "Wheeled mobile humanoid with 7-DoF arms and adjustable waist for precise manufacturing tasks in confined spaces.",
   "image_url": null,
@@ -15886,7 +16060,15 @@
    "https://humanoid.guide/product/alice-m1/"
   ],
   "verification": "official",
-  "note": "Wheeled (mobile) humanoid for manufacturing; height adjustable 130-180 cm. English page: 97 kg, 31 DoF (Korean page shows a different 160 cm/45 kg/41 DoF table, likely stale). Pre-order opened Oct 2025; URDF downloadable."
+  "note": "Wheeled (mobile) humanoid for manufacturing; height adjustable 130-180 cm. English page: 97 kg, 31 DoF (Korean page shows a different 160 cm/45 kg/41 DoF table, likely stale). Pre-order opened Oct 2025; URDF downloadable.",
+  "manufacturer_ko": "에이로봇",
+  "kr_distributors": [
+   {
+    "name": "에이로봇 (본사 직판)",
+    "kind": "direct",
+    "url": "http://www.arobot4all.com/"
+   }
+  ]
  },
  {
   "id": "agile-robots-h10-w",
@@ -20347,7 +20529,8 @@
   "official_url": "https://www.neubility.ai/en/discover/detail?id=160",
   "sources": [
    "https://www.neubility.ai/en/discover/detail?id=160",
-   "https://www.neubility.ai/en/discover/detail?id=156"
+   "https://www.neubility.ai/en/discover/detail?id=156",
+   "https://www.neubility.ai/ko/"
   ],
   "summary": "Wheeled hybrid humanoid with height-adjustable rotating torso, arms and modular cargo bay for material transport and loading in factories and logistics.",
   "image_url": "https://urtbw7qbz1jqlei2.public.blob.vercel-storage.com/images/c532b003-1c9f-4391-a811-2eacfb25b424/%5B%EC%82%AC%EC%A7%84%EC%9E%90%EB%A3%8C%5D%20%ED%95%98%EC%9D%B4%EB%B8%8C%EB%A6%AC%EB%93%9C%20%ED%9C%B4%EB%A8%B8%EB%85%B8%EC%9D%B4%EB%93%9C%20%EB%B9%8C%EB%A6%AC%20%EA%B8%B0%EC%88%A0%20%EC%8B%9C%EC%97%B0-XptnS5m3sWCFyAaeZlxtkRkGWqn4b6.jpg",
@@ -20358,7 +20541,16 @@
    "https://humanoid.guide/product/billi/"
   ],
   "verification": "official",
-  "note": "Wheeled 'hybrid humanoid' (wheeled base, lift torso, dual arms, modular cargo); PoC trials 2H 2026. No numeric specs published."
+  "note": "Wheeled 'hybrid humanoid' (wheeled base, lift torso, dual arms, modular cargo); PoC trials 2H 2026. No numeric specs published.",
+  "kr_note": "국내에서는 자율주행 배달·순찰 서비스로 운영합니다.",
+  "manufacturer_ko": "뉴빌리티",
+  "kr_distributors": [
+   {
+    "name": "뉴빌리티 (서비스 계약)",
+    "kind": "direct",
+    "url": "https://www.neubility.ai/ko"
+   }
+  ]
  },
  {
   "id": "neuromeka-nami",
@@ -20394,7 +20586,8 @@
   "official_url": "https://en.neuromeka.com/humanoids",
   "sources": [
    "https://en.neuromeka.com/humanoids",
-   "https://www.neuromeka.com/post/%EB%89%B4%EB%A1%9C%EB%A9%94%EC%B9%B4-ieee-rsa-humanoids-2025-%EC%97%90%EC%84%9C-%ED%9C%B4%EB%A8%B8%EB%85%B8%EC%9D%B4%EB%93%9C-%ED%94%8C%EB%9E%AB%ED%8F%BC-2%EC%A2%85-%EC%B5%9C%EC%B4%88-%EA%B3%B5%EA%B0%9C"
+   "https://www.neuromeka.com/post/%EB%89%B4%EB%A1%9C%EB%A9%94%EC%B9%B4-ieee-rsa-humanoids-2025-%EC%97%90%EC%84%9C-%ED%9C%B4%EB%A8%B8%EB%85%B8%EC%9D%B4%EB%93%9C-%ED%94%8C%EB%9E%AB%ED%8F%BC-2%EC%A2%85-%EC%B5%9C%EC%B4%88-%EA%B3%B5%EA%B0%9C",
+   "https://www.neuromeka.com/humanoids"
   ],
   "summary": "Service humanoid platform from Neuromeka for repetitive indoor tasks and safe human collaboration, using VLA-based AI.",
   "image_url": null,
@@ -20404,7 +20597,17 @@
    "https://embodied.guide/robots/neuromeka-nami/"
   ],
   "verification": "official",
-  "note": "Official press releases spell it NAMY; humanoid page lists NAMI. Service-oriented wheeled upper-body humanoid; spec table not machine-readable on official page."
+  "note": "Official press releases spell it NAMY; humanoid page lists NAMI. Service-oriented wheeled upper-body humanoid; spec table not machine-readable on official page.",
+  "kr_note": "한국어 제품명은 'NAMY(나미)'입니다.",
+  "manufacturer_ko": "뉴로메카",
+  "name_ko": "나미",
+  "kr_distributors": [
+   {
+    "name": "뉴로메카 (본사 직판)",
+    "kind": "direct",
+    "url": "https://www.neuromeka.com/"
+   }
+  ]
  },
  {
   "id": "novax-mason-h1",
@@ -21039,7 +21242,8 @@
   "official_url": "https://rainbow-robotics.com/en/products/rb-y2",
   "sources": [
    "https://rainbow-robotics.com/en/products/rb-y2",
-   "https://rainbow-robotics.com/en/products/lineup"
+   "https://rainbow-robotics.com/en/products/lineup",
+   "https://rainbow-robotics.com/"
   ],
   "summary": "Next-generation mobile dual-arm robot platform from Rainbow Robotics, extending the RB-Y series from research to field operation.",
   "image_url": null,
@@ -21049,7 +21253,16 @@
    "https://embodied.guide/robots/rainbow-robotics-rb-y2/"
   ],
   "verification": "official",
-  "note": "Official product page exists but marked 'Coming soon' with no published specs. Successor to RB-Y1 (wheeled mobile dual-arm platform)."
+  "note": "Official product page exists but marked 'Coming soon' with no published specs. Successor to RB-Y1 (wheeled mobile dual-arm platform).",
+  "kr_note": "국내 판매·데모·기술 상담은 본사와 전문 파트너사를 통해 진행합니다.",
+  "manufacturer_ko": "레인보우로보틱스",
+  "kr_distributors": [
+   {
+    "name": "레인보우로보틱스 (본사·파트너사 직판)",
+    "kind": "direct",
+    "url": "https://rainbow-robotics.com/"
+   }
+  ]
  },
  {
   "id": "realman-dual-arm-lift",
@@ -21422,7 +21635,8 @@
   "official_url": null,
   "sources": [
    "https://www.robros.co.kr/en/",
-   "https://www.linkedin.com/posts/robros_robros-igrismax-humanoid-activity-7523555519786074113-7vj5"
+   "https://www.linkedin.com/posts/robros_robros-igrismax-humanoid-activity-7523555519786074113-7vj5",
+   "https://www.robros.co.kr/ko"
   ],
   "summary": "ROBROS' next-generation bipedal industrial humanoid, announced 2026-11-04, built around stronger shoulder joints to carry loads of up to 30 kg.",
   "image_url": null,
@@ -21432,7 +21646,16 @@
    "https://embodied.guide/robots/robros-igris-max/"
   ],
   "verification": "official",
-  "note": "Only maker material is the 2026-11-04 launch announcement ('Introducing IGRIS-MAX. More power. Greater possibilities', ROBROS LinkedIn and YouTube launch film 'Built for More'), which states a carrying capacity of up to 30 kg enabled by increased shoulder joint torque, aimed at heavier industrial handling. ROBROS' website still lists only IGRIS-C under Humanoid, and no datasheet, dimensions, weight, DOF, battery, speed or price has been published, so those fields stay empty. The 30 kg is a maker claim shown as a chest-held load in a film; it has not been independently tested, and no duration or walking condition is given."
+  "note": "Only maker material is the 2026-11-04 launch announcement ('Introducing IGRIS-MAX. More power. Greater possibilities', ROBROS LinkedIn and YouTube launch film 'Built for More'), which states a carrying capacity of up to 30 kg enabled by increased shoulder joint torque, aimed at heavier industrial handling. ROBROS' website still lists only IGRIS-C under Humanoid, and no datasheet, dimensions, weight, DOF, battery, speed or price has been published, so those fields stay empty. The 30 kg is a maker claim shown as a chest-held load in a film; it has not been independently tested, and no duration or walking condition is given.",
+  "kr_note": "국내 판매를 우선하며 해외 문의도 받습니다.",
+  "manufacturer_ko": "로브로스",
+  "kr_distributors": [
+   {
+    "name": "로브로스 (본사 직판)",
+    "kind": "direct",
+    "url": "https://www.robros.co.kr/ko"
+   }
+  ]
  },
  {
   "id": "rokae-helios-h2",
@@ -22399,7 +22622,8 @@
   "official_url": "http://www.t-robotics.co.kr/product_rehabilitation.do",
   "sources": [
    "http://www.t-robotics.co.kr/product_rehabilitation.do",
-   "https://www.irobotnews.com/news/articleView.html?idxno=45174"
+   "https://www.irobotnews.com/news/articleView.html?idxno=45174",
+   "http://www.t-robotics.co.kr/"
   ],
   "summary": "TR-WORKS is T-Robotics' process-logistics humanoid for semiconductor and display lines: an AMR base with a 20-DOF body, 3 kg payload and vacuum-robot precision motion.",
   "image_url": null,
@@ -22409,7 +22633,15 @@
    "https://embodied.guide/robots/t-robotics-tr-works/"
   ],
   "verification": "official",
-  "note": "Maker product page lists TR-WORKS as its next-generation humanoid for semiconductor and display process logistics; the figures come from the company's statements at its first public showing (Automation World 2026, 2026-03-04): height 180 cm, weight 180 kg, payload 3 kg, 20 DOF (arms 14, body/legs 4, AMR 2), 55 cm up-down travel, +/-45-degree bending, +/-180-degree torso rotation, an AMR base with FMS integration, 3-finger and 2-finger interchangeable hands, teleoperation and VR teaching, imitation learning and RFM zero-shot recognition; the company plans to raise payload to 20-30 kg. Speed, battery and runtime are not published. Status is Prototype: it was exhibited and is being tested in the company's own lines and in a government project with a display maker and KAIST through 2030."
+  "note": "Maker product page lists TR-WORKS as its next-generation humanoid for semiconductor and display process logistics; the figures come from the company's statements at its first public showing (Automation World 2026, 2026-03-04): height 180 cm, weight 180 kg, payload 3 kg, 20 DOF (arms 14, body/legs 4, AMR 2), 55 cm up-down travel, +/-45-degree bending, +/-180-degree torso rotation, an AMR base with FMS integration, 3-finger and 2-finger interchangeable hands, teleoperation and VR teaching, imitation learning and RFM zero-shot recognition; the company plans to raise payload to 20-30 kg. Speed, battery and runtime are not published. Status is Prototype: it was exhibited and is being tested in the company's own lines and in a government project with a display maker and KAIST through 2030.",
+  "manufacturer_ko": "티로보틱스",
+  "kr_distributors": [
+   {
+    "name": "티로보틱스 (본사 직판)",
+    "kind": "direct",
+    "url": "http://www.t-robotics.co.kr/"
+   }
+  ]
  },
  {
   "id": "tetrabot-t4-c",

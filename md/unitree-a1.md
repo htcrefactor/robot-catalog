@@ -35,6 +35,7 @@ Runtime stated 1–2.5 h (lower bound used). Weight/dimensions not in page text 
 
 - Official page: [unitree.com](https://www.unitree.com/a1/)
 - [github.com](https://github.com/unitreerobotics/unitree_ros/blob/master/robots/a1_description/urdf/a1.urdf)
+- [younginmobility.com](https://www.younginmobility.com/)
 
 Listed by these directories (discovery only, never used as a spec source):
 

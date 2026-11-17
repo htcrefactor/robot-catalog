@@ -173,6 +173,7 @@ Fields the maker does not publish are left out here — the catalog never fills 
 
 - Official page: [mobile-industrial-robots.com](https://mobile-industrial-robots.com/products/robots/mir1200-pallet-jack)
 - [mobile-industrial-robots.com](https://mobile-industrial-robots.com/products/robots/mir1200-pallet-jack/specifications)
+- [mobile-industrial-robots.com](https://mobile-industrial-robots.com/ko/contacts)
 
 ---
 

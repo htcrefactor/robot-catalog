@@ -42,6 +42,7 @@ Wheeled dual-arm G1 variant on a lifting column; Standard (manual push base) vs 
 - Official page: [unitree.com](https://www.unitree.com/G1-D/)
 - [support.unitree.com](https://support.unitree.com/home/en/G1D_Developer/about)
 - [github.com](https://github.com/unitreerobotics/unitree_ros/blob/master/robots/g1_d_description/g1_d.urdf)
+- [younginmobility.com](https://www.younginmobility.com/)
 
 Listed by these directories (discovery only, never used as a spec source):
 

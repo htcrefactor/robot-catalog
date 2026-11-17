@@ -151,6 +151,7 @@ Fields the maker does not publish are left out here — the catalog never fills 
 
 - Official page: [solutions.lg.com](https://solutions.lg.com/us/cloi-servebot/lg-ldltr30)
 - [media.us.lg.com](https://media.us.lg.com/m/64dc60ed87812982/original/LDLTR30-Series-Spec-Sheet.pdf)
+- [lge.co.kr](https://www.lge.co.kr/story/newsroom/225625)
 
 ---
 

@@ -95,6 +95,8 @@ Maker spec table (English product page + RB-Y1 developer docs): 600 x 690 x 1,40
 
 - Official page: [rainbow-robotics.com](https://rainbow-robotics.com/en/products/rb-y1/)
 - [rainbowrobotics.github.io](https://rainbowrobotics.github.io/rby1-dev/hardware/overview.html)
+- [humanoidstore.co](https://humanoidstore.co/robots/rainbow-rby1)
+- [rainbow-robotics.com](https://rainbow-robotics.com/)
 
 ---
 

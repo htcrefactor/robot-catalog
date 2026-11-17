@@ -163,6 +163,7 @@ Hyundai Motor Group press release at iREX 2025 (3 Dec 2025) specification table:
 
 - Official page: [hyundai.com](https://www.hyundai.com/worldwide/en/newsroom/detail/0000001082)
 - [hyundaimotorgroup.com](https://www.hyundaimotorgroup.com/en/story/mobed-next-gen-mobility-robot-platform)
+- [robotics.hyundai.com](https://robotics.hyundai.com/story/log/view.do?seq=181)
 
 ---
 

@@ -30,6 +30,7 @@ KAIST's release gives 1.25 km/h walking and 90 min per charge; height/weight are
 ## Sources
 
 - Official page: [news.kaist.ac.kr](https://news.kaist.ac.kr/news/html/news/?mng_no=353&mode=V)
+- [rainbow-robotics.com](https://rainbow-robotics.com/)
 
 Listed by these directories (discovery only, never used as a spec source):
 

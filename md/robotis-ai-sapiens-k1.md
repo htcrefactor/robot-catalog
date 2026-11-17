@@ -41,6 +41,7 @@ Official docs + ROS 2 GitHub. Hardware page says 1355 mm/35 kg; robotis.us DYNAM
 - [github.com](https://github.com/ROBOTIS-GIT/ai_sapiens)
 - [robotis.com](https://www.robotis.com/en/product/ecosystem-aisapiens.php)
 - [robotis.us](https://www.robotis.us/dynamixel-q)
+- [robotis.com](https://www.robotis.com/ko/)
 
 Listed by these directories (discovery only, never used as a spec source):
 

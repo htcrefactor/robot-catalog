@@ -37,6 +37,7 @@ Wheeled-not-legged (mobile base + humanoid upper body). Launch specs (Oct 2025: 
 - Official page: [holiday-robotics.com](https://holiday-robotics.com/product)
 - [holiday-robotics.com](https://holiday-robotics.com/blog/series-a)
 - [holiday-robotics.com](https://holiday-robotics.com/)
+- [holiday-robotics.com](https://holiday-robotics.com/ko/about)
 
 Listed by these directories (discovery only, never used as a spec source):
 

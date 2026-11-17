@@ -1326,7 +1326,8 @@
   "sources": [
    "https://www.kuka.com/en-de/products/amr-autonomous-mobile-robotics/mobile-robot-systems/kmr-iisy-autonomous-mobile-cobot",
    "https://www.kuka.com/en-gb/company/press/news/2023/06/kmr-iisy-and-kmp-1500p",
-   "https://www.kuka.com/-/media/kuka-corporate/countries/nordic/documents/amr---autonomous-mobile-robotics.pdf"
+   "https://www.kuka.com/-/media/kuka-corporate/countries/nordic/documents/amr---autonomous-mobile-robotics.pdf",
+   "https://www.kuka.com/ko-kr/"
   ],
   "summary": "KUKA autonomous mobile cobot combining a SLAM-navigating platform (up to 200 kg) with an LBR iisy arm for machine tending, pick-and-place and cleanroom logistics.",
   "image_url": "https://www.kuka.com/-/media/kuka-corporate/images/products/mobility/kmr-iisy-mobile-cobot/kuka-kmr-iisy-mobile-cobot.jpg?rev=5a7824ca3d4743d688d471595472a703&w=767&hash=F431C8BCCFECAFC2D250451611FF4CBA",
@@ -1348,6 +1349,13 @@
    "UL",
    "FCC",
    "TÜV Saar (MRK system)"
+  ],
+  "kr_distributors": [
+   {
+    "name": "쿠카로보틱스코리아 (KUKA Robotics Korea Co., Ltd.)",
+    "kind": "direct",
+    "url": "https://www.kuka.com/ko-kr/"
+   }
   ]
  },
  {
@@ -1573,7 +1581,8 @@
   "sources": [
    "https://www.kuka.com/en-us/products/amr-autonomous-mobile-robotics/mobile-robot-systems/kmr-iiwa",
    "https://www.kuka.com/-/media/kuka-downloads/files/87f2706ce77c4318877932fb36f6002d/kuka_kmriiwa_en.pdf",
-   "https://my.kuka.com/s/product/kmr-iiwa-omnimove-c/01t1i000000AQtGAAW?language=en_US"
+   "https://my.kuka.com/s/product/kmr-iiwa-omnimove-c/01t1i000000AQtGAAW?language=en_US",
+   "https://www.kuka.com/ko-kr/"
   ],
   "summary": "Autonomous HRC-capable mobile robot combining KUKA's LBR iiwa 7-axis cobot with an omnidirectional Mecanum-wheel platform.",
   "image_url": null,
@@ -1583,7 +1592,14 @@
    "https://data.robo2u.com/robots/kuka-kmr-iiwa"
   ],
   "verification": "official",
-  "note": "KUKA brochure: platform 700 x 1080 x 630 mm (H x L x W incl. scanners), 390 kg, payload 170 kg with LBR iiwa (200 kg without). my.KUKA lists omniMove C+ variants (181 kg payload, 1849x1445x2001 mm, 8 h) 'only available till 31.12.2026'. dof = 7-axis LBR iiwa arm."
+  "note": "KUKA brochure: platform 700 x 1080 x 630 mm (H x L x W incl. scanners), 390 kg, payload 170 kg with LBR iiwa (200 kg without). my.KUKA lists omniMove C+ variants (181 kg payload, 1849x1445x2001 mm, 8 h) 'only available till 31.12.2026'. dof = 7-axis LBR iiwa arm.",
+  "kr_distributors": [
+   {
+    "name": "쿠카로보틱스코리아 (KUKA Robotics Korea Co., Ltd.)",
+    "kind": "direct",
+    "url": "https://www.kuka.com/ko-kr/"
+   }
+  ]
  },
  {
   "id": "zebra-fetch-mobile-manipulator",
@@ -2652,7 +2668,8 @@
   "sources": [
    "https://www.didenrobotics.com/en/products",
    "https://www.didenrobotics.com/en/resources-all/nvidia-gtc-2026-spider-30",
-   "https://www.didenrobotics.com/en/resources-all/amazon-mars-conference-2026"
+   "https://www.didenrobotics.com/en/resources-all/amazon-mars-conference-2026",
+   "https://www.didenrobotics.com/"
   ],
   "summary": "Biped work platform with electro-permanent-magnet feet for moving through ship hull blocks and access holes while carrying a manipulator.",
   "image_url": null,
@@ -2662,7 +2679,15 @@
    "https://droid.monster/robots/diden-robotics/walker"
   ],
   "verification": "official",
-  "note": "Scope review (#16, 2026-11-17): kept in scope and moved Humanoid -> Mobile platform. Diden's own product page lists 'Diden Walker - a biped work platform with magnetic feet' as a separate product from 'Diden Humanoid', so it is not a humanoid but a legged mobile platform that carries task modules (manipulator, inspection equipment). It walks on its own: maker blog says the lower body went from hardware to stable walking in about three months, successful on its first physical test (GTC 2026 and MARS 2026 posts). Feet are electro-permanent-magnet (EPM) with a differential ankle joint. Exhibitor listing gives launch date Dec 1, 2026."
+  "note": "Scope review (#16, 2026-11-17): kept in scope and moved Humanoid -> Mobile platform. Diden's own product page lists 'Diden Walker - a biped work platform with magnetic feet' as a separate product from 'Diden Humanoid', so it is not a humanoid but a legged mobile platform that carries task modules (manipulator, inspection equipment). It walks on its own: maker blog says the lower body went from hardware to stable walking in about three months, successful on its first physical test (GTC 2026 and MARS 2026 posts). Feet are electro-permanent-magnet (EPM) with a differential ankle joint. Exhibitor listing gives launch date Dec 1, 2026.",
+  "manufacturer_ko": "디든로보틱스",
+  "kr_distributors": [
+   {
+    "name": "디든로보틱스 (본사 직판)",
+    "kind": "direct",
+    "url": "https://www.didenrobotics.com/"
+   }
+  ]
  },
  {
   "id": "robotnik-rb-theron",

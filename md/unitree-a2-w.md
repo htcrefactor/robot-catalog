@@ -186,6 +186,7 @@ Unitree A2-W page (checked 2026-11-17): standing 900 x 440 x 625 mm, 52 kg with 
 ## Sources
 
 - Official page: [unitree.com](https://www.unitree.com/A2-W)
+- [younginmobility.com](https://www.younginmobility.com/)
 
 ---
 

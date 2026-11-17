@@ -10,6 +10,13 @@ document.title=`${r.manufacturer} ${r.name} — ${t("brand")}`;{const m=document
 document.addEventListener("click",e=>{const a=e.target.closest&&e.target.closest("a[data-lt]");if(!a)return;let dom="";try{dom=new URL(a.href).hostname}catch(_){}
 ga("maker_link_click",{...ev,link_type:a.dataset.lt,link_url:a.href,link_domain:dom});});}
 const row=(k,v,f)=>`<tr><td>${t(k)}</td><td>${v}${pvBadge(r,f)}</td></tr>`;
+const KINDS={direct:"kr_channel_direct",distributor:"kr_channel_distributor",reseller:"kr_channel_reseller"};
+const titleName=LANG==="ko"&&r.name_ko?r.name_ko:r.name;
+const titleSub=LANG==="ko"?(r.name_ko?r.name:""):(r.name_ko||"");
+const makerName=LANG==="ko"&&r.manufacturer_ko?r.manufacturer_ko:r.manufacturer;
+const makerSub=LANG==="ko"?(r.manufacturer_ko?r.manufacturer:""):(r.manufacturer_ko||"");
+const krDist=Array.isArray(r.kr_distributors)?r.kr_distributors:[];
+const krPanel=(krDist.length||r.kr_note)?`<div class="panel"><h2>${t("kr_channels")}</h2>${r.kr_note?`<p class="small"><b>${t("kr_note_label")}:</b> ${esc(r.kr_note)}</p>`:""}${krDist.length?`<ul class="small">${krDist.map(d=>`<li><a href="${esc(d.url)}" target="_blank" rel="noopener">${esc(d.name)}</a>${d.kind?` <span class="muted">· ${esc(t(KINDS[d.kind]||d.kind))}</span>`:""}</li>`).join("")}</ul>`:`<p class="muted small">${t("kr_no_channels")}</p>`}</div>`:"";
 const dims=[r.length_mm,r.width_mm,r.height_mm].some(v=>v!=null)?[r.length_mm,r.width_mm,r.height_mm].map(v=>v??"?").join(" × ")+" mm":"—";
 const peers=d.robots.filter(x=>x.category===r.category&&x.id!==r.id);
 // "Suggest a correction" opens the correction issue form with this record's id filled in.
@@ -51,8 +58,8 @@ ${row("compute",fmt(r.compute_detail),"compute_detail")}
 ${row("sensors",(r.sensors||[]).map(esc).join(", ")||"—","sensors")}
 </table><p class="small muted">${t("dev_note")}</p></div>`;
 m.innerHTML=`<p class="small"><a href="index.html">${t("back")}</a></p>
-<div class="muted" style="text-transform:uppercase;font-size:12px;letter-spacing:.5px">${esc(r.manufacturer)} · ${esc(tv(r.country))}</div>
-<h1>${esc(r.name)}</h1>
+<div class="muted" style="text-transform:uppercase;font-size:12px;letter-spacing:.5px">${esc(makerName)}${makerSub?` · ${esc(makerSub)}`:""} · ${esc(tv(r.country))}</div>
+<h1>${esc(titleName)}${titleSub?` <span class="muted" style="font-size:.55em;letter-spacing:0">${esc(titleSub)}</span>`:""}</h1>
 <p><span class="tag" style="background:${CAT_COLORS[r.category]}22;color:${CAT_COLORS[r.category]}">${esc(tv(r.category))}</span><span class="tag plain">${esc(tv(r.locomotion))}</span><span class="tag plain">${esc(tv(r.status))}</span></p>
 <p>${esc(LANG==="ko"&&r.summary_ko?r.summary_ko:r.summary)}${LANG==="ko"&&!r.summary_ko&&r.summary?` <span class="muted small">(${t("summary_lang_note")})</span>`:""}</p>
 <p class="small"><a href="${esc(correctionUrl())}" target="_blank" rel="noopener">${t("suggest_correction")}</a></p>
@@ -67,6 +74,7 @@ m.innerHTML=`<p class="small"><a href="index.html">${t("back")}</a></p>
 ${buildPanel}
 </div>
 ${pricePanel(r,fx)}
+${krPanel}
 ${r.misc_reason?`<div class="panel small"><b>${t("misc_why")}</b> ${esc(r.misc_reason)}</div>`:""}${(r.variants||[]).length?`<div class="panel"><h2>${t("variants")}</h2><ul class="small">${r.variants.map(v=>`<li><b>${esc(v.name)}</b> — ${esc(LANG==="ko"&&v.note_ko?v.note_ko:v.note)}${v.url?` <a data-lt="variant" href="${esc(v.url)}" target="_blank" rel="noopener">↗</a>`:""}</li>`).join("")}</ul></div>`:""}
 <div id="full"></div>
 <div class="panel"><h2>${t("sources")}</h2>${r.official_url?`<p><a data-lt="official" href="${esc(r.official_url)}" target="_blank" rel="noopener">${t("official")}</a></p>`:""}<ul class="small">${(r.sources||[]).map(s=>`<li><a data-lt="source" href="${esc(s)}" target="_blank" rel="noopener">${esc(s)}</a></li>`).join("")}</ul></div>

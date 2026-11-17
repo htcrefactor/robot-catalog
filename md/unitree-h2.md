@@ -253,6 +253,7 @@ Maker figures: 1820 x 456 x 218 mm, about 70 kg, 31 DoF (6 per leg, 7 per arm, 3
 - [github.com](https://github.com/unitreerobotics/unitree_ros2)
 - [github.com](https://github.com/unitreerobotics/unitree_mujoco)
 - [shop.unitree.com](https://shop.unitree.com/products/unitree-h2)
+- [younginmobility.com](https://www.younginmobility.com/)
 
 ---
 

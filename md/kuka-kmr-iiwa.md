@@ -39,6 +39,7 @@ KUKA brochure: platform 700 x 1080 x 630 mm (H x L x W incl. scanners), 390 kg, 
 - Official page: [kuka.com](https://www.kuka.com/en-us/products/amr-autonomous-mobile-robotics/mobile-robot-systems/kmr-iiwa)
 - [kuka.com](https://www.kuka.com/-/media/kuka-downloads/files/87f2706ce77c4318877932fb36f6002d/kuka_kmriiwa_en.pdf)
 - [my.kuka.com](https://my.kuka.com/s/product/kmr-iiwa-omnimove-c/01t1i000000AQtGAAW?language=en_US)
+- [kuka.com](https://www.kuka.com/ko-kr/)
 
 Listed by these directories (discovery only, never used as a spec source):
 

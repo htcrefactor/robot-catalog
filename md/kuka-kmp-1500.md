@@ -160,6 +160,7 @@ Fields the maker does not publish are left out here — the catalog never fills 
 
 - Official page: [kuka.com](https://www.kuka.com/)
 - [kuka.com](https://www.kuka.com/-/media/kuka-corporate/countries/nordic/documents/amr---autonomous-mobile-robotics.pdf)
+- [kuka.com](https://www.kuka.com/ko-kr/)
 
 ---
 

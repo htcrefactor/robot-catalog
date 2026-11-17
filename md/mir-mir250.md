@@ -208,6 +208,7 @@ Fields the maker does not publish are left out here — the catalog never fills 
 - Official page: [mobile-industrial-robots.com](https://mobile-industrial-robots.com/products/robots/mir250)
 - [mobile-industrial-robots.com](https://mobile-industrial-robots.com/products/robots/mir250/specifications)
 - [ai.motion.com](https://ai.motion.com/wp-content/uploads/2025/10/MiR250-Specifications-2.99.pdf)
+- [mobile-industrial-robots.com](https://mobile-industrial-robots.com/ko/contacts)
 
 ---
 

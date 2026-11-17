@@ -30,6 +30,7 @@ Wheeled 'hybrid humanoid' (wheeled base, lift torso, dual arms, modular cargo); 
 
 - Official page: [neubility.ai](https://www.neubility.ai/en/discover/detail?id=160)
 - [neubility.ai](https://www.neubility.ai/en/discover/detail?id=156)
+- [neubility.ai](https://www.neubility.ai/ko/)
 
 Listed by these directories (discovery only, never used as a spec source):
 

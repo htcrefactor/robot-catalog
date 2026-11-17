@@ -34,6 +34,7 @@ Multi-tray variant of RBM-S100a. Battery 15 Ah @ 48 V. Same image as S100a on of
 
 - Official page: [rainbow-robotics.com](https://rainbow-robotics.com/products/rbm-s100b/)
 - [github.com](https://github.com/rainbow-mobile)
+- [rainbow-robotics.com](https://rainbow-robotics.com/)
 
 Listed by these directories (discovery only, never used as a spec source):
 

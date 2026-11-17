@@ -36,7 +36,9 @@
   "sources": [
    "https://bostondynamics.com/products/spot/",
    "https://dev.bostondynamics.com/",
-   "https://github.com/boston-dynamics/spot-sdk"
+   "https://github.com/boston-dynamics/spot-sdk",
+   "https://bostondynamics.com/blog/expanding-our-reach-in-korea/",
+   "https://spot.clobot.co.kr/"
   ],
   "summary": "Agile industrial quadruped for autonomous inspection, data capture and hazardous-area response, extendable with payloads and an arm.",
   "verification": "official",
@@ -48,7 +50,15 @@
    "open_source": false,
    "license": "Boston Dynamics SDK License",
    "url": "https://github.com/boston-dynamics/spot-sdk"
-  }
+  },
+  "name_ko": "스팟",
+  "kr_distributors": [
+   {
+    "name": "클로봇 (Clobot)",
+    "kind": "distributor",
+    "url": "https://spot.clobot.co.kr/"
+   }
+  ]
  },
  {
   "id": "anybotics-anymal-d",
@@ -190,7 +200,8 @@
    "https://github.com/unitreerobotics/unitree_ros/blob/master/robots/go2_description/urdf/go2_description.urdf",
    "https://github.com/unitreerobotics/unitree_mujoco",
    "https://github.com/unitreerobotics/unitree_ros",
-   "https://shop.unitree.com/products/unitree-go2"
+   "https://shop.unitree.com/products/unitree-go2",
+   "https://www.younginmobility.com/"
   ],
   "summary": "Entry consumer quadruped robot dog with 4D LiDAR for hobby and companionship use.",
   "note": "Unitree Go2 page comparison table (AIR column, checked 2026-11-17): standing 70 x 31 x 40 cm, about 15 kg, payload about 7 kg (max ~10 kg), 0-2.5 m/s, 12 joint motors, battery 8000 mAh at 28-33.6 V, battery life about 1-2 h, max climb 30 deg, $1,600 tax and freight excluded. No IP rating is given for any Go2 version and no battery Wh figure is published, so both stay empty.",
@@ -225,6 +236,13 @@
     "kind": "from",
     "source": "https://shop.unitree.com/products/unitree-go2",
     "note": "Go2 Air without controller; US$1,850 with controller; tax and freight excluded"
+   }
+  ],
+  "kr_distributors": [
+   {
+    "name": "영인모빌리티 (Unitree 한국 공식 파트너)",
+    "kind": "distributor",
+    "url": "https://www.younginmobility.com/"
    }
   ]
  },
@@ -269,7 +287,8 @@
    "https://github.com/unitreerobotics/unitree_ros/blob/master/robots/go2_description/urdf/go2_description.urdf",
    "https://github.com/unitreerobotics/unitree_mujoco",
    "https://github.com/unitreerobotics/unitree_ros",
-   "https://shop.unitree.com/products/unitree-go2"
+   "https://shop.unitree.com/products/unitree-go2",
+   "https://www.younginmobility.com/"
   ],
   "summary": "Consumer quadruped with 4G, voice and side-follow features for enthusiasts.",
   "note": "Unitree Go2 page comparison table (PRO column, checked 2026-11-17): 70 x 31 x 40 cm, about 15 kg, payload about 8 kg (max ~10 kg), 0-3.5 m/s, 12 joint motors, 8000 mAh battery, 1-2 h, 4D LiDAR L2 + HD wide-angle camera + wireless vector positioning module, 8-core CPU, $2,800. IP rating and battery Wh are not published.",
@@ -304,6 +323,13 @@
     "kind": "list",
     "source": "https://shop.unitree.com/products/unitree-go2",
     "note": "Go2 Pro without controller; US$3,050 with controller; tax and freight excluded"
+   }
+  ],
+  "kr_distributors": [
+   {
+    "name": "영인모빌리티 (Unitree 한국 공식 파트너)",
+    "kind": "distributor",
+    "url": "https://www.younginmobility.com/"
    }
   ]
  },
@@ -351,7 +377,8 @@
    "https://github.com/unitreerobotics/unitree_ros/blob/master/robots/go2_description/urdf/go2_description.urdf",
    "https://github.com/unitreerobotics/unitree_mujoco",
    "https://github.com/unitreerobotics/unitree_sdk2_python",
-   "https://github.com/unitreerobotics/unitree_ros"
+   "https://github.com/unitreerobotics/unitree_ros",
+   "https://www.younginmobility.com/"
   ],
   "summary": "Research and education version of Go2 with secondary-development access, foot force sensors and a long-endurance battery.",
   "note": "Unitree Go2 page comparison table (EDU column, checked 2026-11-17): 70 x 31 x 40 cm, about 15 kg, payload about 8 kg (max ~12 kg), 0-3.7 m/s (max ~5 m/s), 12 joint motors, long-endurance 15000 mAh battery, about 2-4 h (2 h recorded is the lower bound), foot-end force sensor, depth camera, secondary development supported; optional Orin module 40-100 TOPS. Only EDU supports the full SDK and secondary development.",
@@ -398,7 +425,14 @@
     "license": "BSD-3-Clause"
    }
   ],
-  "ros2_url": "https://github.com/unitreerobotics/unitree_ros2"
+  "ros2_url": "https://github.com/unitreerobotics/unitree_ros2",
+  "kr_distributors": [
+   {
+    "name": "영인모빌리티 (Unitree 한국 공식 파트너)",
+    "kind": "distributor",
+    "url": "https://www.younginmobility.com/"
+   }
+  ]
  },
  {
   "id": "unitree-b2",
@@ -444,7 +478,8 @@
    "https://github.com/unitreerobotics/unitree_ros/blob/master/robots/b2_description_mujoco/xml/b2.xml",
    "https://github.com/unitreerobotics/unitree_sdk2_python",
    "https://github.com/unitreerobotics/unitree_ros",
-   "https://github.com/unitreerobotics/unitree_mujoco"
+   "https://github.com/unitreerobotics/unitree_mujoco",
+   "https://www.younginmobility.com/"
   ],
   "summary": "Heavy industrial quadruped for power inspection, emergency rescue and logistics with 40 kg walking load.",
   "note": "Unitree B2 page (checked 2026-11-17): standing about 1098 x 450 x 645 mm, 60 kg with battery, battery 45 Ah (2250 Wh) at 58 V, 4-6 h, >6 m/s in special configurations, IP67, -20 to 55 C, standing load >=120 kg and walking load >40 kg (40 kg recorded is the walking figure). The page states no degrees of freedom.",
@@ -486,7 +521,14 @@
     "license": "BSD-3-Clause"
    }
   ],
-  "ros2_url": "https://github.com/unitreerobotics/unitree_ros2"
+  "ros2_url": "https://github.com/unitreerobotics/unitree_ros2",
+  "kr_distributors": [
+   {
+    "name": "영인모빌리티 (Unitree 한국 공식 파트너)",
+    "kind": "distributor",
+    "url": "https://www.younginmobility.com/"
+   }
+  ]
  },
  {
   "id": "unitree-a2",
@@ -532,7 +574,8 @@
    "https://github.com/unitreerobotics/unitree_sdk2_python",
    "https://github.com/unitreerobotics/unitree_ros",
    "https://github.com/unitreerobotics/unitree_ros2",
-   "https://github.com/unitreerobotics/unitree_mujoco"
+   "https://github.com/unitreerobotics/unitree_mujoco",
+   "https://www.younginmobility.com/"
   ],
   "summary": "Mid-size industrial quadruped with hot-swappable dual batteries for inspection, logistics and rescue.",
   "note": "Unitree A2 page (checked 2026-11-17): standing 820 x 440 x 570 mm, 42 kg with battery (35 kg without), 12 joint motors, single battery 9000 mAh (453.6 Wh) and dual 18000 mAh (907.2 Wh) - the 907.2 Wh recorded is the dual-battery figure; walking load about 25 kg (ideally ~35 kg), standing load about 100 kg; battery life >5 h without load / >3 h with 25 kg (the 3 h recorded is the loaded figure); speed 0-3.7 m/s (up to ~5 m/s in special configuration); IP56 on A2, IP56-IP67 on A2 Pro. A2 Pro adds a second LiDAR and wireless-vector follow module.",
@@ -566,6 +609,13 @@
     "name": "unitree_ros",
     "url": "https://github.com/unitreerobotics/unitree_ros",
     "license": "BSD-3-Clause"
+   }
+  ],
+  "kr_distributors": [
+   {
+    "name": "영인모빌리티 (Unitree 한국 공식 파트너)",
+    "kind": "distributor",
+    "url": "https://www.younginmobility.com/"
    }
   ]
  },
@@ -856,11 +906,21 @@
   "official_url": "https://rainbow-robotics.com/en/products/rbq-10",
   "sources": [
    "https://rainbowrobotics.github.io/RBQ/manual/product-descriptions/general-specification.html",
-   "https://www.hani.co.kr/arti/economy/marketing/1285758.html"
+   "https://www.hani.co.kr/arti/economy/marketing/1285758.html",
+   "https://rainbow-robotics.com/"
   ],
   "summary": "Korean outdoor quadruped platform for patrol, inspection, observation and research with sensor expansion.",
   "verification": "official",
-  "note": "Maker page: 98 x 43 x 62 cm, 42 kg, 15 kg payload, walking 6 km/h and running 14 km/h (3.89 m/s recorded as max, the page also lists 9 km/h as the working walk), 2 h standard with up to 4 h, IP54, IMU plus RGB/depth cameras with optional 3D lidar, PTZ or thermal payloads. The KRW 75 million figure in price_note is a press remark by a Rainbow Robotics technical director, not a maker price."
+  "note": "Maker page: 98 x 43 x 62 cm, 42 kg, 15 kg payload, walking 6 km/h and running 14 km/h (3.89 m/s recorded as max, the page also lists 9 km/h as the working walk), 2 h standard with up to 4 h, IP54, IMU plus RGB/depth cameras with optional 3D lidar, PTZ or thermal payloads. The KRW 75 million figure in price_note is a press remark by a Rainbow Robotics technical director, not a maker price.",
+  "kr_distributors": [
+   {
+    "name": "레인보우로보틱스 (본사·파트너사 직판)",
+    "kind": "direct",
+    "url": "https://rainbow-robotics.com/"
+   }
+  ],
+  "kr_note": "국내 판매·데모·기술 상담은 본사와 전문 파트너사를 통해 진행합니다.",
+  "manufacturer_ko": "레인보우로보틱스"
  },
  {
   "id": "diden-robotics-diden-spider",
@@ -896,11 +956,24 @@
   "official_url": "https://www.didenrobotics.com/en/products",
   "sources": [
    "https://www.didenrobotics.com/en/products",
-   "https://www.didenrobotics.com/en/resources-all/nvidia-gtc-2026-spider-30"
+   "https://www.didenrobotics.com/en/resources-all/nvidia-gtc-2026-spider-30",
+   "https://robotworld.or.kr/visitors/pop_list_of_exhibitors.php?idx=1431",
+   "https://www.eweek.com/news/news-diden-spider-30-magnetic-robot-shipyards-south-korea-apac/",
+   "https://en.fnnews.com/news/202611041829341672",
+   "https://www.didenrobotics.com/"
   ],
   "summary": "Magnetic-foot quadruped that climbs steel walls and ceilings inside ship blocks to carry welding and inspection tools.",
   "verification": "official",
-  "note": "Maker sources (products page and the GTC 2026 article) state a 30 kg payload and electro-permanent magnet feet with pulse switching, and report field deployment at Korean shipyards with welds applied to production vessels. Mass, dimensions, joint count, IP rating and speed are not published on the maker's site; press reports (eWeek, Oct 2026) give 958 x 460 x 494 mm, 45 kg, 12 actuators, 0.1 m/s and IP54 connectors, and those values are cleared here rather than asserted."
+  "note": "Maker sources (products page and the GTC 2026 article) state a 30 kg payload and electro-permanent magnet feet with pulse switching, and report field deployment at Korean shipyards with welds applied to production vessels. Mass, dimensions, joint count, IP rating and speed are not published on the maker's site; press reports (eWeek, Oct 2026) give 958 x 460 x 494 mm, 45 kg, 12 actuators, 0.1 m/s and IP54 connectors, and those values are cleared here rather than asserted.",
+  "name_ko": "디든 스파이더 30",
+  "kr_distributors": [
+   {
+    "name": "디든로보틱스 (본사 직판)",
+    "kind": "direct",
+    "url": "https://www.didenrobotics.com/"
+   }
+  ],
+  "manufacturer_ko": "디든로보틱스"
  },
  {
   "id": "kuwa-d0",
@@ -1070,7 +1143,8 @@
   "official_url": "https://www.unitree.com/a1/",
   "sources": [
    "https://www.unitree.com/a1/",
-   "https://github.com/unitreerobotics/unitree_ros/blob/master/robots/a1_description/urdf/a1.urdf"
+   "https://github.com/unitreerobotics/unitree_ros/blob/master/robots/a1_description/urdf/a1.urdf",
+   "https://www.younginmobility.com/"
   ],
   "summary": "Mid-size research quadruped with 3.3 m/s continuous running speed, 5 kg payload and high/low-level real-time API for secondary development.",
   "image_url": null,
@@ -1088,7 +1162,14 @@
     "url": "https://github.com/unitreerobotics/unitree_ros/blob/master/robots/a1_description/urdf/a1.urdf",
     "license": "BSD-3-Clause"
    }
-  }
+  },
+  "kr_distributors": [
+   {
+    "name": "영인모빌리티 (Unitree 한국 공식 파트너)",
+    "kind": "distributor",
+    "url": "https://www.younginmobility.com/"
+   }
+  ]
  },
  {
   "id": "odri-solo-12",
@@ -1355,7 +1436,8 @@
    "https://www.unitree.com/aliengo/",
    "https://github.com/unitreerobotics/unitree_legged_sdk",
    "https://github.com/unitreerobotics/unitree_ros/blob/master/robots/aliengo_description/urdf/aliengo.urdf",
-   "https://shop.unitree.com/products/aliengo"
+   "https://shop.unitree.com/products/aliengo",
+   "https://www.younginmobility.com/"
   ],
   "summary": "Industrial-level research quadruped with 12 servo motors, 13 kg load, C/C++ and ROS high/low-level control interfaces.",
   "image_url": null,
@@ -1390,6 +1472,13 @@
     "kind": "list",
     "source": "https://shop.unitree.com/products/aliengo",
     "note": "store lists US$50,000 for Aliengo"
+   }
+  ],
+  "kr_distributors": [
+   {
+    "name": "영인모빌리티 (Unitree 한국 공식 파트너)",
+    "kind": "distributor",
+    "url": "https://www.younginmobility.com/"
    }
   ]
  },
@@ -1428,7 +1517,8 @@
   "price_note": null,
   "official_url": "https://www.unitree.com/b1/",
   "sources": [
-   "https://www.unitree.com/b1/"
+   "https://www.unitree.com/b1/",
+   "https://www.younginmobility.com/"
   ],
   "summary": "IP68 industrial heavy-load quadruped (~50 kg) carrying 20 kg while walking, with five depth cameras and 932 Wh battery.",
   "image_url": null,
@@ -1442,7 +1532,14 @@
    "https://embodied.guide/robots/unitree-b1/"
   ],
   "verification": "official",
-  "note": "Payload: 20 kg continuous walking load (80 kg max standing). Runtime: 2 h walking unloaded, 5 h standing. Compute 'XavierNX ×3'."
+  "note": "Payload: 20 kg continuous walking load (80 kg max standing). Runtime: 2 h walking unloaded, 5 h standing. Compute 'XavierNX ×3'.",
+  "kr_distributors": [
+   {
+    "name": "영인모빌리티 (Unitree 한국 공식 파트너)",
+    "kind": "distributor",
+    "url": "https://www.younginmobility.com/"
+   }
+  ]
  },
  {
   "id": "unitree-go1",
@@ -1486,7 +1583,8 @@
    "https://github.com/unitreerobotics/unitree_legged_sdk",
    "https://github.com/unitreerobotics/unitree_ros/blob/master/robots/go1_description/urdf/go1.urdf",
    "https://github.com/unitreerobotics/unitree_ros",
-   "https://shop.unitree.com/products/unitreeyushutechnologydog-artificial-intelligence-companion-bionic-companion-intelligent-robot-go1-quadruped-robot-dog"
+   "https://shop.unitree.com/products/unitreeyushutechnologydog-artificial-intelligence-companion-bionic-companion-intelligent-robot-go1-quadruped-robot-dog",
+   "https://www.younginmobility.com/"
   ],
   "summary": "Consumer-level bionic companion quadruped (12 kg) with super-sensing stereo cameras, AI compute and up to 3.7 m/s (Edu).",
   "image_url": null,
@@ -1544,6 +1642,13 @@
     "kind": "list",
     "source": "https://shop.unitree.com/products/unitreeyushutechnologydog-artificial-intelligence-companion-bionic-companion-intelligent-robot-go1-quadruped-robot-dog",
     "note": "Go1 Pro"
+   }
+  ],
+  "kr_distributors": [
+   {
+    "name": "영인모빌리티 (Unitree 한국 공식 파트너)",
+    "kind": "distributor",
+    "url": "https://www.younginmobility.com/"
    }
   ]
  },
@@ -3199,7 +3304,8 @@
    "https://github.com/unitreerobotics/unitree_sdk2_python",
    "https://github.com/unitreerobotics/unitree_ros",
    "https://github.com/unitreerobotics/unitree_ros2",
-   "https://github.com/unitreerobotics/unitree_mujoco"
+   "https://github.com/unitreerobotics/unitree_mujoco",
+   "https://www.younginmobility.com/"
   ],
   "summary": "Compact 20 kg industrial quadruped with 15 kg walking payload, IP54, 648 Wh battery for 4+ h, and up to 5 m/s.",
   "image_url": null,
@@ -3257,6 +3363,13 @@
     "kind": "list",
     "source": "https://shop.unitree.com/products/unitree-as2",
     "note": "As2 Pro; As2 EDU by quote"
+   }
+  ],
+  "kr_distributors": [
+   {
+    "name": "영인모빌리티 (Unitree 한국 공식 파트너)",
+    "kind": "distributor",
+    "url": "https://www.younginmobility.com/"
    }
   ]
  },
@@ -5669,7 +5782,8 @@
   "official_url": "https://www.dynamicrobot.kaist.ac.kr/kaist-hound-1",
   "sources": [
    "https://www.dynamicrobot.kaist.ac.kr/kaist-hound-1",
-   "https://news.kaist.ac.kr/newsen/html/news/?mng_no=60690&mode=V"
+   "https://news.kaist.ac.kr/newsen/html/news/?mng_no=60690&mode=V",
+   "https://rainbow-robotics.com/"
   ],
   "summary": "KAIST DRCD Lab's high-speed quadruped, holder of the Guinness record for the fastest 100 m by a legged robot.",
   "image_url": null,
@@ -5679,7 +5793,8 @@
    "https://embodied.guide/robots/kaist-hound/"
   ],
   "verification": "official",
-  "note": "Lab page: 45 kg, torso 0.7 x 0.2 x 0.14 m (body dimensions, not a standing envelope), thigh/calf 0.33/0.35 m, 50 Nm joints. KAIST news: 6.5 m/s on a treadmill and 100 m in 19.87 s from a standing start (Guinness World Record), 22 deg slopes, 35 cm obstacles, 3.2 km continuous. Joint count is not stated on the lab page, so DoF is left empty."
+  "note": "Lab page: 45 kg, torso 0.7 x 0.2 x 0.14 m (body dimensions, not a standing envelope), thigh/calf 0.33/0.35 m, 50 Nm joints. KAIST news: 6.5 m/s on a treadmill and 100 m in 19.87 s from a standing start (Guinness World Record), 22 deg slopes, 35 cm obstacles, 3.2 km continuous. Joint count is not stated on the lab page, so DoF is left empty.",
+  "manufacturer_ko": "한국과학기술원"
  },
  {
   "id": "kaist-raibo",
@@ -5714,7 +5829,8 @@
   "price_note": null,
   "official_url": "https://railab.kaist.ac.kr/sections/robots.html",
   "sources": [
-   "https://railab.kaist.ac.kr/sections/robots.html"
+   "https://railab.kaist.ac.kr/sections/robots.html",
+   "https://rainbow-robotics.com/"
   ],
   "summary": "KAIST RAILAB's middle-sized quadruped, the platform behind its learned locomotion work on deformable terrain.",
   "image_url": null,
@@ -5724,7 +5840,8 @@
    "https://embodied.guide/robots/kaist-raibo/"
   ],
   "verification": "official",
-  "note": "RAILAB's robots page describes RAIBO as a middle-sized quadruped for inspection, exploration and patrol with 12 powerful motors, and publishes no mass, dimensions or speed for RAIBO itself. Its successor RAIBO2 is 42 kg, up to 6 m/s and 8 h. Status kept as Discontinued on the strength of the successor being the platform RAION Robotics now takes to market."
+  "note": "RAILAB's robots page describes RAIBO as a middle-sized quadruped for inspection, exploration and patrol with 12 powerful motors, and publishes no mass, dimensions or speed for RAIBO itself. Its successor RAIBO2 is 42 kg, up to 6 m/s and 8 h. Status kept as Discontinued on the strength of the successor being the platform RAION Robotics now takes to market.",
+  "manufacturer_ko": "한국과학기술원"
  },
  {
   "id": "keybotic-keyper",
@@ -6067,7 +6184,16 @@
    "https://embodied.guide/robots/maum-ai-jindo-bot/"
   ],
   "verification": "official",
-  "note": "maum.ai lists JINDO BOT on its Physical AI product line; it is a family brand with four mission variants (Guard, Ranger, Haechi, Vanguard). No official spec sheet found; pre-order/subscription stage."
+  "note": "maum.ai lists JINDO BOT on its Physical AI product line; it is a family brand with four mission variants (Guard, Ranger, Haechi, Vanguard). No official spec sheet found; pre-order/subscription stage.",
+  "manufacturer_ko": "마음AI",
+  "name_ko": "진도봇",
+  "kr_distributors": [
+   {
+    "name": "마음AI (본사 직판·사전 예약)",
+    "kind": "direct",
+    "url": "https://maum.ai/"
+   }
+  ]
  },
  {
   "id": "microrobotech-haoqizhe-s01",
@@ -6753,7 +6879,8 @@
    "https://raionrobotics.com/en/product/Raibo2",
    "https://www.hannovermesse.de/apollo/hannover_messe_2026/obs/Binary/A1513828/Company%20ProfileEN_smallsize_1.pdf",
    "https://railab.kaist.ac.kr/sections/robots.html",
-   "https://doi.org/10.21203/rs.3.rs-6040970/v1"
+   "https://doi.org/10.21203/rs.3.rs-6040970/v1",
+   "https://raionrobotics.com/"
   ],
   "summary": "Energy-efficient field quadruped with in-house actuators and RL control, running up to 6 m/s and walking about 8 hours per charge.",
   "image_url": "https://raionrobotics.com/news/marathon_raibo2.png",
@@ -6763,7 +6890,16 @@
    "https://embodied.guide/robots/raion-robotics-raibo2/"
   ],
   "verification": "official",
-  "note": "Developed by KAIST RaiLab (Prof. Hwangbo), commercialized by spin-off Raion Robotics. First quadruped to finish a full marathon (4:19:52). Weight/battery from developer's lab page and Nature preprint."
+  "note": "Developed by KAIST RaiLab (Prof. Hwangbo), commercialized by spin-off Raion Robotics. First quadruped to finish a full marathon (4:19:52). Weight/battery from developer's lab page and Nature preprint.",
+  "manufacturer_ko": "라이온로보틱스",
+  "name_ko": "라이보2",
+  "kr_distributors": [
+   {
+    "name": "라이온로보틱스 (본사 직판)",
+    "kind": "direct",
+    "url": "https://raionrobotics.com/"
+   }
+  ]
  },
  {
   "id": "roketsan-koz",
@@ -7265,7 +7401,8 @@
   "sources": [
    "https://www.youtube.com/watch?v=d6Ja643GqL8",
    "https://github.com/unitreerobotics/laikago_ros",
-   "https://github.com/unitreerobotics/unitree_ros/blob/master/robots/laikago_description/urdf/laikago.urdf"
+   "https://github.com/unitreerobotics/unitree_ros/blob/master/robots/laikago_description/urdf/laikago.urdf",
+   "https://www.younginmobility.com/"
   ],
   "summary": "Unitree's first quadruped, an all-electric research platform from 2017 named after the space dog Laika and later replaced by the Aliengo and Go series.",
   "image_url": null,
@@ -7281,7 +7418,14 @@
     "url": "https://github.com/unitreerobotics/unitree_ros/blob/master/robots/laikago_description/urdf/laikago.urdf",
     "license": "BSD-3-Clause"
    }
-  }
+  },
+  "kr_distributors": [
+   {
+    "name": "영인모빌리티 (Unitree 한국 공식 파트너)",
+    "kind": "distributor",
+    "url": "https://www.younginmobility.com/"
+   }
+  ]
  },
  {
   "id": "weilan-alphadog-c500",

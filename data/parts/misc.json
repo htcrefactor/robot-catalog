@@ -130,7 +130,8 @@
   "price_note": null,
   "official_url": "https://corp.wirobotics.com/en/product/allex",
   "sources": [
-   "https://corp.wirobotics.com/en/product/allex"
+   "https://corp.wirobotics.com/en/product/allex",
+   "https://rih.wirobotics.com/allex"
   ],
   "summary": "WIRobotics' compliant general-purpose humanoid upper body with force-sensitive 15-DoF hands, currently without legs or a mobile base.",
   "image_url": "https://d2nxb27ysr05sd.cloudfront.net/global-landing-page/allex-page/allex-section-3-image.png",
@@ -143,7 +144,16 @@
   "verification": "official",
   "note": "OUT OF SCOPE (not mobile): WIRobotics' own spec table states 'General-purpose humanoid robot upper body (Currently without lower body)'. Maker states hand/arm 15 DoF (English RIH page typo '115DOF'), >3 kg per hand, hook grip >30 kg, hand ~700 g, below-shoulder ~5 kg. Aggregator values (1650 mm, 55 kg, 43 DoF, 1.2 m/s, 120 min) are not maker-stated and were ignored. Unveiled Aug 2025 (press release). Category 'Humanoid' is fine but locomotion n/a.",
   "original_category": "Humanoid",
-  "misc_reason": "Upper body only; maker says no lower body yet."
+  "misc_reason": "Upper body only; maker says no lower body yet.",
+  "manufacturer_ko": "위로보틱스",
+  "name_ko": "알렉스",
+  "kr_distributors": [
+   {
+    "name": "위로보틱스 (본사 직판)",
+    "kind": "direct",
+    "url": "https://corp.wirobotics.com/"
+   }
+  ]
  },
  {
   "id": "iit-ironcub3",

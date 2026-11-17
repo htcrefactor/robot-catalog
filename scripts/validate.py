@@ -7,7 +7,8 @@ from catalog_data import CSV_COLUMNS, csv_row  # noqa: E402
 root = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 CATS = {"AMR","AGV","Humanoid","Quadruped","Wheel-legged","Indoor delivery","Outdoor delivery","Mobile platform","Misc"}
 KINDS = {"list","from","rental","edu"}
-err, ids, records = [], {}, {}
+err, ids, records, warn = [], {}, {}, []
+KR_KINDS = {"direct", "distributor", "reseller"}
 SDK_KEYS = {"languages", "open_source", "license", "url"}
 SIM_KEYS = {"urdf", "mjcf", "usd", "isaac", "mujoco", "gazebo"}
 def is_url(v): return isinstance(v, str) and v.startswith(("http://", "https://"))
@@ -106,6 +107,24 @@ for f in sorted(glob.glob(os.path.join(root, "data/parts/*.json"))):
                 err.append(f"{i}: safety_source {ssrc} is not listed in sources")
         elif has_safety:
             err.append(f"{i}: safety fields set but safety_source is null")
+        for k in ("name_ko", "manufacturer_ko"):
+            if r.get(k) is not None and not (isinstance(r[k], str) and r[k].strip()): err.append(f"{i}: {k} must be a non-empty string")
+        if r.get("kr_note") is not None and not (isinstance(r["kr_note"], str) and r["kr_note"].strip()): err.append(f"{i}: kr_note must be a non-empty string")
+        dists = r.get("kr_distributors")
+        if dists is not None:
+            if not isinstance(dists, list): err.append(f"{i}: kr_distributors must be a list")
+            else:
+                if len(dists) > 6: err.append(f"{i}: kr_distributors has more than 6 entries")
+                seen = set()
+                for d in dists:
+                    if not isinstance(d, dict): err.append(f"{i}: kr_distributors entry must be an object"); continue
+                    name = d.get("name")
+                    if not (isinstance(name, str) and name.strip()): err.append(f"{i}: kr_distributors entry without name")
+                    elif name in seen: err.append(f"{i}: duplicate kr_distributors name {name}")
+                    else: seen.add(name)
+                    if not (isinstance(d.get("url"), str) and d["url"].startswith("http")): err.append(f"{i}: kr_distributors entry needs an http(s) url ({name})")
+                    if d.get("kind") not in KR_KINDS: err.append(f"{i}: kr_distributors kind must be one of {sorted(KR_KINDS)} ({name})")
+        if r.get("country") == "South Korea" and not r.get("manufacturer_ko"): warn.append(f"{i}: South Korean record without manufacturer_ko")
         obs = r.get("price_observations")
         if obs is None: continue
         if not isinstance(obs, list): err.append(f"{i}: price_observations must be a list"); continue
@@ -169,4 +188,5 @@ if base and len(ids) < int(base) and os.environ.get("ALLOW_DROP") != "1":
     err.append(f"robot count dropped from {base} to {len(ids)}: explain in the PR and add the label count-drop-ok")
 print(f"{len(ids)} robots checked, {len(err)} problems")
 for e in err[:300]: print("ERROR:", e)
+for w in warn[:50]: print("WARN:", w)
 sys.exit(1 if err else 0)
