@@ -12,7 +12,7 @@
   "width_mm": 500,
   "height_mm": 610,
   "weight_kg": 33.8,
-  "payload_kg": 14,
+  "payload_kg": null,
   "max_speed_mps": 1.6,
   "min_speed_mps": null,
   "wheel_diameter_mm": null,
@@ -37,7 +37,9 @@
    "https://bostondynamics.com/products/spot/",
    "https://dev.bostondynamics.com/"
   ],
-  "summary": "Agile industrial quadruped for autonomous inspection, data capture and hazardous-area response, extendable with payloads and an arm."
+  "summary": "Agile industrial quadruped for autonomous inspection, data capture and hazardous-area response, extendable with payloads and an arm.",
+  "verification": "official",
+  "note": "Maker product page specifications: length 1100 mm, width 500 mm, walking height 610 mm, 33.8 kg with battery, 1.6 m/s, +/-30 deg slope, 300 mm step, IP54, -20 to 55 C, 564 Wh battery, 90 min average runtime and 60 min recharge, 360 deg perception. Payload is not stated on the page (its 20.43 kg figure is the Spot Arm's max lift), so the catalogue's 14 kg payload is cleared rather than asserted."
  },
  {
   "id": "anybotics-anymal-d",
@@ -83,7 +85,9 @@
    "https://www.anybotics.com/robotics/anymal/",
    "https://www.anybotics.com/anymal-technical-specifications.pdf"
   ],
-  "summary": "Autonomous IP67 legged robot for routine visual, thermal and acoustic inspection in industrial plants."
+  "summary": "Autonomous IP67 legged robot for routine visual, thermal and acoustic inspection in industrial plants.",
+  "verification": "official",
+  "note": "ANYmal technical specifications (V.1 May 2022) and the Apr 2024 sheet: 930x530x890 mm walking, 50 kg (55.7 kg with inspection payload), payload up to 10 kg nominal (15 kg with reduced performance), 1.3 m/s max (0.75 m/s recommended), 90-120 min on 932.4 Wh, IP67, 2x 8th-gen Intel Core i7 with 2x 8 GB RAM and 2x 240 GB SSD, Ubuntu 20.04, 16-channel lidar plus depth and tele-operation cameras, ANYmal API."
  },
  {
   "id": "anybotics-anymal-x",
@@ -115,7 +119,7 @@
   "ros_support": null,
   "sensors": [
    "Zoom camera",
-   "Thermal camera (640×512 radiometric)",
+   "Thermal camera (640x512 radiometric)",
    "Acoustic imager",
    "Microphone",
    "Gas sensing module (optional)"
@@ -126,7 +130,9 @@
   "sources": [
    "https://www.anybotics.com/robotics/anymal-x/"
   ],
-  "summary": "ATEX Zone 1/2 explosion-protected version of ANYmal for autonomous inspection in oil, gas and chemical plants."
+  "summary": "ATEX Zone 1/2 explosion-protected version of ANYmal for autonomous inspection in oil, gas and chemical plants.",
+  "verification": "official",
+  "note": "Maker page: ATEX-certified for Zones 1 and 2 (IIB, T4, category 2G) with IECEx to follow first production; over 3 h battery runtime with autonomous docking; stairs to 45 deg (230 mm rise / 210 mm run); IP65 robot, IP67 payload; Wi-Fi 6 and 5G/4G; continuous ambient -10 to 50 C; 0 lux navigation. Overall mass and dimensions are not published."
  },
  {
   "id": "unitree-go2-air",
@@ -371,9 +377,11 @@
   "price_note": null,
   "official_url": "https://www.deeprobotics.cn/en/index/product3.html",
   "sources": [
-   "https://cdn.robotshop.com/media/D/DER/RB-Der-02/pdf/deep-robotics-x30-user-manual.pdf"
+   "https://www.deeprobotics.cn/en/index/product3.html"
   ],
-  "summary": "Flagship IP67 industrial quadruped for inspection, security and emergency response in extreme weather."
+  "summary": "Flagship IP67 industrial quadruped for inspection, security and emergency response in extreme weather.",
+  "verification": "official",
+  "note": "Maker X30 page: X30 Pro is ~1000 x 470 x 715 mm and ~59 kg (X30: 695 mm, ~56 kg), 20 kg payload, 2.5 m/s working speed with a 4.5 m/s extreme, 30 cm stairs, IP67, -20 to 55 C, output power 5/12/24 V. Runtime 2.5 h and the 1,612.8 Wh pack come from the X30 user manual, which is hosted outside the maker's domain."
  },
  {
   "id": "deep-robotics-lite3",
@@ -414,7 +422,9 @@
   "sources": [
    "https://www.deeprobotics.us/products/lite-3/"
   ],
-  "summary": "Compact quadruped for robotics education, reinforcement-learning research and entertainment."
+  "summary": "Compact quadruped for robotics education, reinforcement-learning research and entertainment.",
+  "verification": "official",
+  "note": "Maker page: Basic 610 x 370 x 406 mm, 12 kg, 5 kg payload, 1.5-2 h operation (1.5 recorded), 40 deg slope, RK3588 motion host plus Jetson Xavier NX perception host on Pro/LiDAR versions, Ubuntu 20.04, ROS 1 Noetic / ROS 2 Foxy and a Motion SDK. Other editions: Venture 445 mm/12.2 kg/4.5 kg, Pro 450 mm/12.9 kg/4 kg, LiDAR 496 mm/13.5 kg/2.5 kg."
  },
  {
   "id": "ghost-robotics-vision-60",
@@ -455,7 +465,9 @@
   "sources": [
    "https://www.ghostrobotics.io/vision-60"
   ],
-  "summary": "Rugged all-weather quadruped UGV for defense, public safety and industrial inspection with modular payloads."
+  "summary": "Rugged all-weather quadruped UGV for defense, public safety and industrial inspection with modular payloads.",
+  "verification": "official",
+  "note": "Ghost Robotics' own technical specifications on the Vision 60 page: 51 kg tare, 950 x 570 x 685 mm standing (250 mm body width, 419 mm ride height), 10 kg payload, standard walk 0.9 m/s with 1.2 m/s fast-walk and 2.4 m/s sprint (target 3.0), 3.15 h continuous walking at 0.9 m/s or 21 h standby, IP67, -40 to 55 C, 4G/LTE and Wi-Fi with a GigE switch. The Jetson Xavier 32 GB / 2 TB NVMe compute entry comes from the maker's spec sheet v3.3."
  },
  {
   "id": "xiaomi-cyberdog-2",
@@ -547,7 +559,9 @@
    "https://rainbowrobotics.github.io/RBQ/manual/product-descriptions/general-specification.html",
    "https://www.hani.co.kr/arti/economy/marketing/1285758.html"
   ],
-  "summary": "Korean outdoor quadruped platform for patrol, inspection, observation and research with sensor expansion."
+  "summary": "Korean outdoor quadruped platform for patrol, inspection, observation and research with sensor expansion.",
+  "verification": "official",
+  "note": "Maker page: 98 x 43 x 62 cm, 42 kg, 15 kg payload, walking 6 km/h and running 14 km/h (3.89 m/s recorded as max, the page also lists 9 km/h as the working walk), 2 h standard with up to 4 h, IP54, IMU plus RGB/depth cameras with optional 3D lidar, PTZ or thermal payloads. The KRW 75 million figure in price_note is a press remark by a Rainbow Robotics technical director, not a maker price."
  },
  {
   "id": "diden-robotics-diden-spider",
@@ -558,16 +572,16 @@
   "locomotion": "Legged",
   "release_year": 2026,
   "status": "Commercial",
-  "length_mm": 958,
-  "width_mm": 460,
-  "height_mm": 494,
-  "weight_kg": 45,
+  "length_mm": null,
+  "width_mm": null,
+  "height_mm": null,
+  "weight_kg": null,
   "payload_kg": 30,
   "max_speed_mps": null,
   "min_speed_mps": null,
   "wheel_diameter_mm": null,
   "wheel_count": null,
-  "dof": 12,
+  "dof": null,
   "runtime_h": null,
   "battery_wh": null,
   "ip_rating": null,
@@ -582,12 +596,12 @@
   "price_note": null,
   "official_url": "https://www.didenrobotics.com/en/products",
   "sources": [
-   "https://robotworld.or.kr/visitors/pop_list_of_exhibitors.php?idx=1431",
-   "https://www.eweek.com/news/news-diden-spider-30-magnetic-robot-shipyards-south-korea-apac/",
-   "https://www.didenrobotics.com/en/resources-all/nvidia-gtc-2026-spider-30",
-   "https://en.fnnews.com/news/202611041829341672"
+   "https://www.didenrobotics.com/en/products",
+   "https://www.didenrobotics.com/en/resources-all/nvidia-gtc-2026-spider-30"
   ],
-  "summary": "Magnetic-foot (electro-permanent magnet) quadruped that climbs steel walls and ceilings inside ship blocks to carry welding and inspection tools."
+  "summary": "Magnetic-foot quadruped that climbs steel walls and ceilings inside ship blocks to carry welding and inspection tools.",
+  "verification": "official",
+  "note": "Maker sources (products page and the GTC 2026 article) state a 30 kg payload and electro-permanent magnet feet with pulse switching, and report field deployment at Korean shipyards with welds applied to production vessels. Mass, dimensions, joint count, IP rating and speed are not published on the maker's site; press reports (eWeek, Oct 2026) give 958 x 460 x 494 mm, 45 kg, 12 actuators, 0.1 m/s and IP54 connectors, and those values are cleared here rather than asserted."
  },
  {
   "id": "kuwa-d0",
@@ -622,9 +636,12 @@
   "price_note": null,
   "official_url": null,
   "sources": [
-   "https://ai123.com/newshub/17507"
+   "https://ai123.com/newshub/17507",
+   "https://www.jushenhome.com/news_list.php?kd=D0+%E9%87%8D%E8%BD%BD%E5%9B%9B%E8%B6%B3%E6%9C%BA%E5%99%A8%E4%BA%BA"
   ],
-  "summary": "Heavy-load all-terrain quadruped on the Aether platform with swappable modules for sanitation, delivery and patrol; shown at CIIE 6 Nov 2026."
+  "summary": "Heavy-load all-terrain quadruped on Kuwa's Aether platform with swappable top modules for sanitation, delivery and patrol.",
+  "verification": "unconfirmed",
+  "note": "Kuwa (酷哇科技 COOWA, cowarobot.com) showed D0 with the wheeled X1 at CIIE on 6 Nov 2026, built on the Aether heavy-load platform with quick-change modules for municipal sanitation, last-mile delivery and security patrol, driven by the same COOWAM world model. cowarobot.com's quadruped page lists only the C0 and X0 with a specification table for the X0, so no maker page or figures exist for D0; it may be a rename of X0, but that is not established. No specs entered."
  },
  {
   "id": "vbot-dev",
@@ -3119,38 +3136,48 @@
   "locomotion": "Legged",
   "release_year": null,
   "status": "Discontinued",
-  "length_mm": null,
-  "width_mm": null,
-  "height_mm": null,
-  "weight_kg": null,
-  "payload_kg": null,
-  "max_speed_mps": null,
+  "length_mm": 800,
+  "width_mm": 600,
+  "height_mm": 700,
+  "weight_kg": 30,
+  "payload_kg": 10,
+  "max_speed_mps": 1.0,
   "min_speed_mps": null,
   "wheel_diameter_mm": null,
   "wheel_count": null,
   "dof": null,
-  "runtime_h": null,
+  "runtime_h": 4,
   "battery_wh": null,
-  "ip_rating": null,
-  "api_support": null,
-  "sdk_available": null,
-  "sdk_name": null,
+  "ip_rating": "IP67",
+  "api_support": true,
+  "sdk_available": true,
+  "sdk_name": "ANYmal Research (ROS 1 control software, released to community members)",
   "onboard_compute": null,
   "compute_detail": null,
-  "ros_support": null,
-  "sensors": [],
+  "ros_support": true,
+  "sensors": [
+   "Rotating lidar",
+   "Depth cameras",
+   "Joint torque sensors (ANYdrive)",
+   "IMU",
+   "Foot contact sensors"
+  ],
   "price_usd": null,
   "price_note": null,
   "official_url": null,
-  "sources": [],
-  "summary": "",
+  "sources": [
+   "https://www.anybotics.com/hazardex_december_2018.pdf",
+   "https://github.com/ANYbotics/anymal_b_simple_description"
+  ],
+  "summary": "First-generation (Gen B) ANYmal research quadruped with torque-controlled ANYdrive joints, sold to research groups and early industrial pilots.",
   "image_url": null,
   "image_source": null,
   "videos": [],
   "seen_on": [
    "https://embodied.guide/robots/anybotics-anymal-b/"
   ],
-  "verification": null
+  "verification": "official",
+  "note": "No Gen B product page remains on anybotics.com (the current ANYmal page is Gen D). Maker documents read: ANYbotics' own ANYmal overview sheet (2017/11) - 30 kg, payload up to 10 kg, 80x60x40 cm lying / 80x60x70 cm standing, up to 1.0 m/s, 2-4 h autonomy, IP67, ROS - and the ANYmal article by ANYbotics' P. Fankhauser in HazardEx (Dec 2018) - 30 kg, 12 ANYdrive joints, IP67, 2-4 h. Runtime recorded as the top of the maker's 2-4 h range; the maker's URDF package is on the ANYbotics GitHub organisation."
  },
  {
   "id": "arl-llama",
@@ -3161,30 +3188,37 @@
   "locomotion": "Legged",
   "release_year": null,
   "status": "Discontinued",
-  "length_mm": null,
+  "length_mm": 1000,
   "width_mm": null,
   "height_mm": null,
-  "weight_kg": null,
-  "payload_kg": null,
-  "max_speed_mps": null,
+  "weight_kg": 70,
+  "payload_kg": 9,
+  "max_speed_mps": 1.8,
   "min_speed_mps": null,
   "wheel_diameter_mm": null,
   "wheel_count": null,
-  "dof": null,
-  "runtime_h": null,
-  "battery_wh": null,
-  "ip_rating": null,
+  "dof": 12,
+  "runtime_h": 0.58,
+  "battery_wh": 1200,
+  "ip_rating": "IP10",
   "api_support": null,
   "sdk_available": null,
   "sdk_name": null,
   "onboard_compute": null,
   "compute_detail": null,
   "ros_support": null,
-  "sensors": [],
+  "sensors": [
+   "Stereo camera pair",
+   "1-2 lidars",
+   "IMU"
+  ],
   "price_usd": null,
   "price_note": null,
-  "official_url": null,
-  "sources": [],
+  "official_url": "https://www.jpl.nasa.gov/robotics-at-jpl/llama/",
+  "sources": [
+   "https://www.jpl.nasa.gov/robotics-at-jpl/llama/",
+   "https://doi.org/10.55417/fr.2022012"
+  ],
   "summary": "",
   "image_url": null,
   "image_source": null,
@@ -3192,7 +3226,8 @@
   "seen_on": [
    "https://embodied.guide/robots/arl-llama/"
   ],
-  "verification": null
+  "verification": "official",
+  "note": "Built at NASA JPL for the US Army Research Laboratory's Robotics Collaborative Technology Alliance; the JPL robot page gives 70 kg, 1 m length and 1.8 m/s. The JPL/ARL team's Field Robotics 2022 paper gives LLAMA 1.0 at 73 kg (tethered) and LLAMA 1.1 at 70 kg including an 8 kg 1.2 kWh battery, 12 DoF (3 per leg, single 5.25:1 quasi-direct-drive actuator design), 9 kg payload, ~35 min untethered, IP10 (environmental protection not a design goal), stereo cameras and 1-2 lidars. Runtime recorded as 35 min = 0.58 h."
  },
  {
   "id": "bhairav-robotics-shvana",
@@ -3206,14 +3241,14 @@
   "length_mm": null,
   "width_mm": null,
   "height_mm": null,
-  "weight_kg": null,
-  "payload_kg": null,
-  "max_speed_mps": null,
+  "weight_kg": 25,
+  "payload_kg": 10,
+  "max_speed_mps": 5,
   "min_speed_mps": null,
   "wheel_diameter_mm": null,
   "wheel_count": null,
   "dof": null,
-  "runtime_h": null,
+  "runtime_h": 2,
   "battery_wh": null,
   "ip_rating": null,
   "api_support": null,
@@ -3225,16 +3260,19 @@
   "sensors": [],
   "price_usd": null,
   "price_note": null,
-  "official_url": null,
-  "sources": [],
-  "summary": "",
+  "official_url": "https://www.bhairavrobotics.com/shvana-robot/",
+  "sources": [
+   "https://www.bhairavrobotics.com/shvana-robot/"
+  ],
+  "summary": "Indian armed quadruped UGV for defence, border patrol and hazardous industrial inspection, carrying 10 kg of payload over LTE and RF links.",
   "image_url": null,
   "image_source": null,
   "videos": [],
   "seen_on": [
    "https://embodied.guide/robots/bhairav-robotics-shvana/"
   ],
-  "verification": null
+  "verification": "official",
+  "note": "Maker specifications panel: speed ~2-5 m/s (recorded as the 5 m/s top of the range), payload 10 kg, weight 25 kg minus payload, range 8-10 km, LTE and RF communication, endurance ~120 min. No test conditions are attached to the figures. The maker markets it as India's first armed quadruped and accepts inquiries/customisation; no deliveries are public."
  },
  {
   "id": "boston-dynamics-bigdog",
@@ -3245,12 +3283,12 @@
   "locomotion": "Legged",
   "release_year": null,
   "status": "Discontinued",
-  "length_mm": null,
-  "width_mm": null,
-  "height_mm": null,
-  "weight_kg": null,
-  "payload_kg": null,
-  "max_speed_mps": null,
+  "length_mm": 1100,
+  "width_mm": 300,
+  "height_mm": 1000,
+  "weight_kg": 109,
+  "payload_kg": 154,
+  "max_speed_mps": 3.1,
   "min_speed_mps": null,
   "wheel_diameter_mm": null,
   "wheel_count": null,
@@ -3267,16 +3305,20 @@
   "sensors": [],
   "price_usd": null,
   "price_note": null,
-  "official_url": null,
-  "sources": [],
-  "summary": "",
+  "official_url": "https://bostondynamics.com/legacy/",
+  "sources": [
+   "https://bostondynamics.com/legacy/",
+   "https://skoge.folk.ntnu.no/prost/proceedings/ifac2008/data/papers/4278.pdf"
+  ],
+  "summary": "Boston Dynamics' first legged robot to leave the lab: a hydraulic rough-terrain carrier funded by DARPA.",
   "image_url": null,
   "image_source": null,
   "videos": [],
   "seen_on": [
    "https://embodied.guide/robots/boston-dynamics-bigdog/"
   ],
-  "verification": null
+  "verification": "official",
+  "note": "The maker's legacy page describes BigDog without figures, so the numbers come from the Boston Dynamics team's own IFAC 2008 paper 'BigDog, the Rough-Terrain Quadruped Robot' (Raibert, Blankespoor, Nelson, Playter): ~109 kg, ~1 m tall, 1.1 m long, 0.3 m wide, 154 kg (340 lb) carried on flat ground, trot ~1.6 m/s, running trot ~2.0 m/s and briefly over 3.1 m/s while bounding (3.1 recorded as max speed), 4 hydraulic actuators per leg, ~50 sensors, water-cooled two-stroke engine."
  },
  {
   "id": "boston-dynamics-cheetah",
@@ -3292,7 +3334,7 @@
   "height_mm": null,
   "weight_kg": null,
   "payload_kg": null,
-  "max_speed_mps": null,
+  "max_speed_mps": 12.65,
   "min_speed_mps": null,
   "wheel_diameter_mm": null,
   "wheel_count": null,
@@ -3309,16 +3351,19 @@
   "sensors": [],
   "price_usd": null,
   "price_note": null,
-  "official_url": null,
-  "sources": [],
-  "summary": "",
+  "official_url": "https://www.youtube.com/watch?v=chPanW0QWhA",
+  "sources": [
+   "https://www.youtube.com/watch?v=chPanW0QWhA"
+  ],
+  "summary": "DARPA-funded laboratory sprinting quadruped that set the 2012 legged-robot speed record on a treadmill.",
   "image_url": null,
   "image_source": null,
   "videos": [],
   "seen_on": [
    "https://embodied.guide/robots/boston-dynamics-cheetah/"
   ],
-  "verification": null
+  "verification": "official",
+  "note": "Only maker statement located: Boston Dynamics' own video release (5 Sep 2012) - 28.3 mph (12.65 m/s) on a treadmill, offboard power, tethered, funded by DARPA. bostondynamics.com/legacy does not list Cheetah, and no maker page, datasheet or spec table exists for it, so mass, dimensions, payload and runtime are left empty."
  },
  {
   "id": "boston-dynamics-littledog",
@@ -3329,38 +3374,47 @@
   "locomotion": "Legged",
   "release_year": null,
   "status": "Discontinued",
-  "length_mm": null,
-  "width_mm": null,
-  "height_mm": null,
-  "weight_kg": null,
+  "length_mm": 340,
+  "width_mm": 180,
+  "height_mm": 143,
+  "weight_kg": 3,
   "payload_kg": null,
   "max_speed_mps": null,
   "min_speed_mps": null,
   "wheel_diameter_mm": null,
   "wheel_count": null,
-  "dof": null,
-  "runtime_h": null,
-  "battery_wh": null,
+  "dof": 12,
+  "runtime_h": 0.5,
+  "battery_wh": 31.1,
   "ip_rating": null,
-  "api_support": null,
-  "sdk_available": null,
-  "sdk_name": null,
-  "onboard_compute": null,
-  "compute_detail": null,
+  "api_support": true,
+  "sdk_available": true,
+  "sdk_name": "LittleDog API",
+  "onboard_compute": true,
+  "compute_detail": "x86 266 MHz, 128 MB RAM, 802.11b wireless Ethernet",
   "ros_support": null,
-  "sensors": [],
+  "sensors": [
+   "Joint position encoders",
+   "MEMS IMU",
+   "Single-axis force sensor per lower leg",
+   "Foot contact sensing",
+   "Vicon motion-capture tracking"
+  ],
   "price_usd": null,
   "price_note": null,
-  "official_url": null,
-  "sources": [],
-  "summary": "",
+  "official_url": "http://www.cs.cmu.edu/~cga/bdi/LittleDog_User_Guide_V1.0.0.pdf",
+  "sources": [
+   "http://www.cs.cmu.edu/~cga/bdi/LittleDog_User_Guide_V1.0.0.pdf"
+  ],
+  "summary": "Small research quadruped built by Boston Dynamics for the DARPA Learning Locomotion programme, controlled over a wireless host link.",
   "image_url": null,
   "image_source": null,
   "videos": [],
   "seen_on": [
    "https://embodied.guide/robots/boston-dynamics-littledog/"
   ],
-  "verification": null
+  "verification": "official",
+  "note": "Boston Dynamics 'LittleDog Robot 1.0 User Guide' (2006, A. Saunders): 340x180x143 mm, 3 kg, 12 actuated DoF (3 per leg), ~30 min on the 2.1 Ah 14.8 V LiPo, x86 266 MHz with 128 MB RAM and 802.11b, LittleDog API, Vicon motion capture for ground truth. Battery 31.1 Wh is derived from 2.1 Ah x 14.8 V (maker gives Ah, not Wh). The guide is hosted on CMU's BDI archive, not bostondynamics.com, and the maker site has no LittleDog page."
  },
  {
   "id": "boston-dynamics-ls3",
@@ -3375,7 +3429,7 @@
   "width_mm": null,
   "height_mm": null,
   "weight_kg": null,
-  "payload_kg": null,
+  "payload_kg": 181,
   "max_speed_mps": null,
   "min_speed_mps": null,
   "wheel_diameter_mm": null,
@@ -3393,16 +3447,19 @@
   "sensors": [],
   "price_usd": null,
   "price_note": null,
-  "official_url": null,
-  "sources": [],
-  "summary": "",
+  "official_url": "https://bostondynamics.com/legacy/",
+  "sources": [
+   "https://bostondynamics.com/legacy/"
+  ],
+  "summary": "Boston Dynamics' Legged Squad Support System: a rough-terrain hydraulic quadruped built to carry a squad's equipment for a day's march.",
   "image_url": null,
   "image_source": null,
   "videos": [],
   "seen_on": [
    "https://embodied.guide/robots/boston-dynamics-ls3/"
   ],
-  "verification": null
+  "verification": "official",
+  "note": "Maker legacy page: 400 lbs (181 kg) of payload, 20 miles (32 km) before refuelling, sensors for navigating obstacles. Mass, dimensions and top speed are not published by the maker, so those fields are left empty."
  },
  {
   "id": "boston-dynamics-wildcat",
@@ -3418,7 +3475,7 @@
   "height_mm": null,
   "weight_kg": null,
   "payload_kg": null,
-  "max_speed_mps": null,
+  "max_speed_mps": 8.49,
   "min_speed_mps": null,
   "wheel_diameter_mm": null,
   "wheel_count": null,
@@ -3435,16 +3492,19 @@
   "sensors": [],
   "price_usd": null,
   "price_note": null,
-  "official_url": null,
-  "sources": [],
-  "summary": "",
+  "official_url": "https://bostondynamics.com/legacy/",
+  "sources": [
+   "https://bostondynamics.com/legacy/"
+  ],
+  "summary": "Untethered outdoor version of the Cheetah line, built as the fastest quadruped of its time.",
   "image_url": null,
   "image_source": null,
   "videos": [],
   "seen_on": [
    "https://embodied.guide/robots/boston-dynamics-wildcat/"
   ],
-  "verification": null
+  "verification": "official",
+  "note": "Maker legacy page: 19 mph (8.49 m/s) on flat terrain, dynamic balance, variable gait options. Mass, dimensions and payload are not published."
  },
  {
   "id": "coowa-c0",
@@ -3460,14 +3520,14 @@
   "height_mm": null,
   "weight_kg": null,
   "payload_kg": null,
-  "max_speed_mps": null,
+  "max_speed_mps": 1.39,
   "min_speed_mps": null,
   "wheel_diameter_mm": null,
   "wheel_count": null,
   "dof": null,
   "runtime_h": null,
   "battery_wh": null,
-  "ip_rating": null,
+  "ip_rating": "IP67",
   "api_support": null,
   "sdk_available": null,
   "sdk_name": null,
@@ -3477,16 +3537,19 @@
   "sensors": [],
   "price_usd": null,
   "price_note": null,
-  "official_url": null,
-  "sources": [],
-  "summary": "",
+  "official_url": "https://cowarobot.com/business/robodog",
+  "sources": [
+   "https://cowarobot.com/business/robodog"
+  ],
+  "summary": "Community last-mile delivery quadruped with an in-house 7-DoF arm that rides the lift and hands parcels over at the door.",
   "image_url": null,
   "image_source": null,
   "videos": [],
   "seen_on": [
    "https://embodied.guide/robots/coowa-c0/"
   ],
-  "verification": null
+  "verification": "official",
+  "note": "Maker page (cowarobot.com): C0 on the 'Aether-Medium' platform, maximum travel speed 5 km/h (1.39 m/s), IP67, -20 to 55 C, self-developed 7-DoF arm that presses lift buttons, stated manipulation success above 99.99%. The page publishes no specification table for the C0 (the only table belongs to the X0), so mass, dimensions, payload, battery and runtime remain empty."
  },
  {
   "id": "coowa-x0",
@@ -3497,38 +3560,43 @@
   "locomotion": "Legged",
   "release_year": null,
   "status": null,
-  "length_mm": null,
-  "width_mm": null,
-  "height_mm": null,
-  "weight_kg": null,
-  "payload_kg": null,
-  "max_speed_mps": null,
+  "length_mm": 988,
+  "width_mm": 451,
+  "height_mm": 685,
+  "weight_kg": 68,
+  "payload_kg": 40,
+  "max_speed_mps": 4.17,
   "min_speed_mps": null,
   "wheel_diameter_mm": null,
   "wheel_count": null,
   "dof": null,
-  "runtime_h": null,
+  "runtime_h": 2.5,
   "battery_wh": null,
-  "ip_rating": null,
+  "ip_rating": "IP67",
   "api_support": null,
   "sdk_available": null,
   "sdk_name": null,
-  "onboard_compute": null,
-  "compute_detail": null,
+  "onboard_compute": true,
+  "compute_detail": "2,070 TFLOPS on-device compute (maker figure)",
   "ros_support": null,
-  "sensors": [],
+  "sensors": [
+   "7-DoF arm with quick-change end tools (0-150 cm working height, 5 kg at the tool)"
+  ],
   "price_usd": null,
   "price_note": null,
-  "official_url": null,
-  "sources": [],
-  "summary": "",
+  "official_url": "https://cowarobot.com/business/robodog",
+  "sources": [
+   "https://cowarobot.com/business/robodog"
+  ],
+  "summary": "Heavy-duty city-maintenance quadruped on the Aether-Magnum platform, driven by COOWA's world model with a 7-DoF arm and swappable tools.",
   "image_url": null,
   "image_source": null,
   "videos": [],
   "seen_on": [
    "https://embodied.guide/robots/coowa-x0/"
   ],
-  "verification": null
+  "verification": "official",
+  "note": "Maker specification table: 68 kg, 988 x 451 x 685 mm standing, continuous payload >=40 kg (limit >=100 kg), max running speed 15 km/h (4.17 m/s), 45 deg climb, 30 cm continuous / 80 cm maximum obstacle, 2.5-5 h endurance (2.5 recorded), IP67, -20 to 55 C, 2,070 TFLOPS on-device, 7-DoF arm with 0-150 cm (max 170 cm) working height and 5 kg tool payload."
  },
  {
   "id": "csiro-magneto",
@@ -3539,16 +3607,16 @@
   "locomotion": "Legged",
   "release_year": null,
   "status": "Research",
-  "length_mm": null,
-  "width_mm": null,
-  "height_mm": null,
-  "weight_kg": null,
+  "length_mm": 660,
+  "width_mm": 600,
+  "height_mm": 320,
+  "weight_kg": 5.53,
   "payload_kg": null,
   "max_speed_mps": null,
   "min_speed_mps": null,
   "wheel_diameter_mm": null,
   "wheel_count": null,
-  "dof": null,
+  "dof": 12,
   "runtime_h": null,
   "battery_wh": null,
   "ip_rating": null,
@@ -3558,19 +3626,26 @@
   "onboard_compute": null,
   "compute_detail": null,
   "ros_support": null,
-  "sensors": [],
+  "sensors": [
+   "Electro-permanent magnet foot per leg (40 mm)",
+   "Localisation and object-detection perception"
+  ],
   "price_usd": null,
   "price_note": null,
-  "official_url": null,
-  "sources": [],
-  "summary": "",
+  "official_url": "https://www.csiro.au/en/research/technology-space/robotics/magneto",
+  "sources": [
+   "https://www.csiro.au/en/research/technology-space/robotics/magneto",
+   "https://research.csiro.au/robotics/wp-content/uploads/sites/96/2018/09/Magneto_IROS18_Paper.pdf"
+  ],
+  "summary": "Quadruped inspection robot with permanent-electromagnet feet that climbs and inspects ferrous structures at any inclination.",
   "image_url": null,
   "image_source": null,
   "videos": [],
   "seen_on": [
    "https://embodied.guide/robots/csiro-magneto/"
   ],
-  "verification": null
+  "verification": "official",
+  "note": "The CSIRO page describes the capability without figures; the numbers come from the Data61 team's IROS 2018 paper (Bandyopadhyay et al.): 5.53 kg (5.87 kg with tether), 660 x 600 x 320 mm in operation and 370 x 210 x 250 mm packed, 3 DoF per leg (12), Kanetec KEP-4C magnets of 40 mm footprint, squeezes through a 230 mm gap. Figures are the operating envelope, not a standing height. Licensed to Nexxis for market."
  },
  {
   "id": "cvte-maxhub-x7",
@@ -3585,34 +3660,42 @@
   "width_mm": null,
   "height_mm": null,
   "weight_kg": null,
-  "payload_kg": null,
+  "payload_kg": 40,
   "max_speed_mps": null,
   "min_speed_mps": null,
   "wheel_diameter_mm": null,
   "wheel_count": null,
   "dof": null,
-  "runtime_h": null,
+  "runtime_h": 5,
   "battery_wh": null,
-  "ip_rating": null,
+  "ip_rating": "IP66",
   "api_support": null,
   "sdk_available": null,
   "sdk_name": null,
   "onboard_compute": null,
   "compute_detail": null,
   "ros_support": null,
-  "sensors": [],
+  "sensors": [
+   "Dual optical gimbals (option)",
+   "Gas sensors (option)",
+   "Robotic arm (option)"
+  ],
   "price_usd": null,
   "price_note": null,
-  "official_url": null,
-  "sources": [],
-  "summary": "",
+  "official_url": "https://www.cvte.com/en/product/quadrupedrobot",
+  "sources": [
+   "https://www.cvte.com/en/product/quadrupedrobot",
+   "https://www.cvte.com/news/detail/42fef550-8faf-11f1-9d72-1fb0411954d4"
+  ],
+  "summary": "CVTE's industrial quadruped (MAXHUB X7) for power-plant inspection, patrol and rescue, with 12 in-house joint modules and plug-in payload rails.",
   "image_url": null,
   "image_source": null,
   "videos": [],
   "seen_on": [
    "https://embodied.guide/robots/cvte-maxhub-x7/"
   ],
-  "verification": null
+  "verification": "official",
+  "note": "Product page: over 5 h at 40 kg load, over 8 h at 20 kg, over 11 h unloaded, IP66, slopes to 35 deg, -20 to 55 C, expansion for dual gimbals, gas sensors and arms, HTTP/WebSocket development interfaces. CVTE's own 30 Jul 2026 news item conflicts with the product page (65 kg self weight, 150 kg max load, 40 cm steps, 45 deg, IP67, -22 to 57 C) and the 2026 WRC exhibitor entry gives 64 kg, so mass and dimensions are left empty and the product page's IP66/35 deg/-20 to 55 C are kept."
  },
  {
   "id": "deep-robotics-jueying-lite2",
@@ -3623,38 +3706,45 @@
   "locomotion": "Legged",
   "release_year": null,
   "status": "Discontinued",
-  "length_mm": null,
-  "width_mm": null,
-  "height_mm": null,
-  "weight_kg": null,
-  "payload_kg": null,
-  "max_speed_mps": null,
+  "length_mm": 540,
+  "width_mm": 315,
+  "height_mm": 355,
+  "weight_kg": 10,
+  "payload_kg": 7.5,
+  "max_speed_mps": 3.75,
   "min_speed_mps": null,
   "wheel_diameter_mm": null,
   "wheel_count": null,
   "dof": null,
-  "runtime_h": null,
+  "runtime_h": 1,
   "battery_wh": null,
   "ip_rating": null,
   "api_support": null,
   "sdk_available": null,
   "sdk_name": null,
-  "onboard_compute": null,
-  "compute_detail": null,
+  "onboard_compute": true,
+  "compute_detail": "NVIDIA Jetson Nano (Explorer/Pro) or Jetson Xavier NX (Pro/LiDAR)",
   "ros_support": null,
-  "sensors": [],
+  "sensors": [
+   "Colour + greyscale stereo depth camera",
+   "Multi-line lidar (LiDAR edition)"
+  ],
   "price_usd": null,
   "price_note": null,
-  "official_url": null,
-  "sources": [],
-  "summary": "",
+  "official_url": "https://www.deeprobotics.cn/",
+  "sources": [
+   "https://deep-website.oss-cn-hangzhou.aliyuncs.com/file/Jueying%20Lite2.pdf",
+   "https://www.deeprobotics.cn/"
+  ],
+  "summary": "Second-generation Jueying education/research quadruped, sold in Explorer, Professional and LiDAR editions.",
   "image_url": null,
   "image_source": null,
   "videos": [],
   "seen_on": [
    "https://embodied.guide/robots/deep-robotics-jueying-lite2/"
   ],
-  "verification": null
+  "verification": "official",
+  "note": "Maker spec sheet (Jueying Lite2 PDF on deeprobotics.cn's CDN): Explorer and Professional editions 10 kg, >=7.5 kg payload, 540 x 315 x 355 mm, 1-2.5 h on a detachable battery (1 h recorded as the low end), 33 deg slope, 10 cm steps, 3.75 m/s (peak above 4 m/s); LiDAR edition 12 kg, >=5 kg payload, 455 mm tall, 0.8-2 h, 3.4 m/s; 28.8 V service voltage, Jetson Nano / Xavier NX, SDK and V2 URDF provided."
  },
  {
   "id": "deep-robotics-jueying-pro",
@@ -3665,38 +3755,45 @@
   "locomotion": "Legged",
   "release_year": null,
   "status": "Discontinued",
-  "length_mm": null,
-  "width_mm": null,
-  "height_mm": null,
-  "weight_kg": null,
-  "payload_kg": null,
-  "max_speed_mps": null,
+  "length_mm": 950,
+  "width_mm": 500,
+  "height_mm": 700,
+  "weight_kg": 55,
+  "payload_kg": 30,
+  "max_speed_mps": 2.22,
   "min_speed_mps": null,
   "wheel_diameter_mm": null,
   "wheel_count": null,
-  "dof": null,
-  "runtime_h": null,
+  "dof": 12,
+  "runtime_h": 2,
   "battery_wh": null,
   "ip_rating": null,
   "api_support": null,
   "sdk_available": null,
   "sdk_name": null,
-  "onboard_compute": null,
-  "compute_detail": null,
+  "onboard_compute": true,
+  "compute_detail": "Intel Core i7 2.2 GHz (QNX), Intel Core i7 8 GB RAM perception host, optional Jetson Xavier NX",
   "ros_support": null,
-  "sensors": [],
+  "sensors": [
+   "Lidar",
+   "Intel RealSense D435i depth camera",
+   "GPS"
+  ],
   "price_usd": null,
   "price_note": null,
-  "official_url": null,
-  "sources": [],
-  "summary": "",
+  "official_url": "https://web.archive.org/web/20210623084540/http://www.deeprobotics.cn/en/products_jy_303.html",
+  "sources": [
+   "https://web.archive.org/web/20210623084540/http://www.deeprobotics.cn/en/products_jy_303.html"
+  ],
+  "summary": "Heavy-duty Jueying edition for firefighting, rescue and anti-terror work, with a 30 kg payload and an on-board perception computer.",
   "image_url": null,
   "image_source": null,
   "videos": [],
   "seen_on": [
    "https://embodied.guide/robots/deep-robotics-jueying-pro/"
   ],
-  "verification": null
+  "verification": "official",
+  "note": "Figures are from DEEP Robotics' own Jueying Pro product page, read through the Internet Archive (23 Jun 2021) because the current site no longer carries the model: gross weight 55 kg, maximum load 30 kg, 950 x 500 x 700 mm, 12 joint DoF, >=8 km/h (2.22 m/s), 2-4 h (2 h recorded), Intel Core i7 with QNX, EtherCAT at 1 ms, D435i plus lidar and GPS, optional Xavier NX."
  },
  {
   "id": "deep-robotics-jueying-x50",
@@ -3707,38 +3804,44 @@
   "locomotion": "Legged",
   "release_year": null,
   "status": null,
-  "length_mm": null,
-  "width_mm": null,
-  "height_mm": null,
-  "weight_kg": null,
-  "payload_kg": null,
-  "max_speed_mps": null,
+  "length_mm": 990,
+  "width_mm": 455,
+  "height_mm": 685,
+  "weight_kg": 57.5,
+  "payload_kg": 50,
+  "max_speed_mps": 3.0,
   "min_speed_mps": null,
   "wheel_diameter_mm": null,
   "wheel_count": null,
   "dof": null,
-  "runtime_h": null,
+  "runtime_h": 2,
   "battery_wh": null,
-  "ip_rating": null,
+  "ip_rating": "IP67",
   "api_support": null,
   "sdk_available": null,
   "sdk_name": null,
-  "onboard_compute": null,
-  "compute_detail": null,
+  "onboard_compute": true,
+  "compute_detail": "2x high-performance 8-core processor (X50 Pro: 3x)",
   "ros_support": null,
-  "sensors": [],
+  "sensors": [
+   "Lidar x4",
+   "Wide-angle camera x1"
+  ],
   "price_usd": null,
   "price_note": null,
-  "official_url": null,
-  "sources": [],
-  "summary": "",
+  "official_url": "https://www.deeprobotics.cn/products/detail/10.html",
+  "sources": [
+   "https://www.deeprobotics.cn/products/detail/10.html"
+  ],
+  "summary": "X-series heavy-payload quadruped rated to carry 50 kg continuously while running, for power inspection, fire response and patrol.",
   "image_url": null,
   "image_source": null,
   "videos": [],
   "seen_on": [
    "https://embodied.guide/robots/deep-robotics-jueying-x50/"
   ],
-  "verification": null
+  "verification": "official",
+  "note": "Maker product page (X50 / X50 Pro parameter table): 990 x 455 x 685 mm, 57.5 kg with battery, 50 kg continuous running load (200 kg standing limit), 2 h at 50 kg and 3.5 h at 20 kg, IP67, -20 to 55 C, 1.5 m/s working walk, 3 m/s sustained run, 2 km at 50 kg/3 m/s, 25 cm stairs, 35 deg slope, 4 lidars and one wide-angle camera. The 4.5 m/s figure is a laboratory extreme the maker says is not released for use, so it is not recorded. X50 Pro differs in height (705 mm), mass (60 kg) and I/O."
  },
  {
   "id": "dfki-quad-b12",
@@ -3749,38 +3852,44 @@
   "locomotion": "Legged",
   "release_year": null,
   "status": "Research",
-  "length_mm": null,
-  "width_mm": null,
-  "height_mm": null,
-  "weight_kg": null,
+  "length_mm": 500,
+  "width_mm": 350,
+  "height_mm": 350,
+  "weight_kg": 10.5,
   "payload_kg": null,
   "max_speed_mps": null,
   "min_speed_mps": null,
   "wheel_diameter_mm": null,
   "wheel_count": null,
-  "dof": null,
+  "dof": 12,
   "runtime_h": null,
   "battery_wh": null,
   "ip_rating": null,
   "api_support": null,
   "sdk_available": null,
   "sdk_name": null,
-  "onboard_compute": null,
-  "compute_detail": null,
+  "onboard_compute": true,
+  "compute_detail": "Raspberry Pi",
   "ros_support": null,
-  "sensors": [],
+  "sensors": [
+   "IMU (mjbots pi3hat)",
+   "Position, velocity and torque sensing on all 12 actuators"
+  ],
   "price_usd": null,
   "price_note": null,
-  "official_url": null,
-  "sources": [],
-  "summary": "",
+  "official_url": "https://robotik.dfki-bremen.de/en/research/robot-systems/quad-b12",
+  "sources": [
+   "https://robotik.dfki-bremen.de/en/research/robot-systems/quad-b12"
+  ],
+  "summary": "Small in-house quadruped research platform of DFKI Bremen's Underactuated Lab, built from 12 mjbots quasi-direct drives.",
   "image_url": null,
   "image_source": null,
   "videos": [],
   "seen_on": [
    "https://embodied.guide/robots/dfki-quad-b12/"
   ],
-  "verification": null
+  "verification": "official",
+  "note": "Maker page: 0.50 x 0.35 x 0.35 m, 10.5 kg, 12 mjbots quasi-direct drives (1:6) giving 12 actuated DoF (18 total including 6 underactuated), CAN control at 400-600 Hz, 18-24 V, Raspberry Pi, IMU. DoF recorded as the 12 actuated joints. The page states the system is no longer actively used."
  },
  {
   "id": "dlr-bert",
@@ -3791,16 +3900,16 @@
   "locomotion": "Legged",
   "release_year": null,
   "status": "Research",
-  "length_mm": null,
-  "width_mm": null,
-  "height_mm": null,
-  "weight_kg": null,
+  "length_mm": 400,
+  "width_mm": 300,
+  "height_mm": 250,
+  "weight_kg": 3,
   "payload_kg": null,
-  "max_speed_mps": null,
+  "max_speed_mps": 0.22,
   "min_speed_mps": null,
   "wheel_diameter_mm": null,
   "wheel_count": null,
-  "dof": null,
+  "dof": 8,
   "runtime_h": null,
   "battery_wh": null,
   "ip_rating": null,
@@ -3810,19 +3919,25 @@
   "onboard_compute": null,
   "compute_detail": null,
   "ros_support": null,
-  "sensors": [],
+  "sensors": [
+   "16 position sensors (two per joint, before and after the springs)",
+   "Inertial sensor system"
+  ],
   "price_usd": null,
   "price_note": null,
-  "official_url": null,
-  "sources": [],
-  "summary": "",
+  "official_url": "https://www.dlr.de/en/rm/research/robotic-systems/legged/bert",
+  "sources": [
+   "https://www.dlr.de/en/rm/research/robotic-systems/legged/bert"
+  ],
+  "summary": "DLR's family of elastic quadrupeds built to exploit mechanical resonance for energy-efficient locomotion, tested for space exploration.",
   "image_url": null,
   "image_source": null,
   "videos": [],
   "seen_on": [
    "https://embodied.guide/robots/dlr-bert/"
   ],
-  "verification": null
+  "verification": "official",
+  "note": "Maker page technical data (a family, so figures vary between versions): 0.40 x 0.30 x 0.25 m, 3 kg, 8 DoF, approx. 0.8 km/h (0.22 m/s), wired or battery power, series-elastic actuators, 16 position sensors plus inertial sensing. Whitebert is the 8-DoF original, Ebert the 12-DoF variant with an added shoulder joint; first shown in 2017. Germane reference: Graybert and Norbert were used on ESA's Mars testbed and the ISS Surface Avatar mission."
  },
  {
   "id": "epfl-cheetah-cub",
@@ -3878,16 +3993,16 @@
   "locomotion": "Legged",
   "release_year": null,
   "status": "Discontinued",
-  "length_mm": null,
-  "width_mm": null,
-  "height_mm": null,
-  "weight_kg": null,
+  "length_mm": 400,
+  "width_mm": 250,
+  "height_mm": 310,
+  "weight_kg": 5.1,
   "payload_kg": null,
   "max_speed_mps": null,
   "min_speed_mps": null,
   "wheel_diameter_mm": null,
   "wheel_count": null,
-  "dof": null,
+  "dof": 12,
   "runtime_h": null,
   "battery_wh": null,
   "ip_rating": null,
@@ -3897,19 +4012,28 @@
   "onboard_compute": null,
   "compute_detail": null,
   "ros_support": null,
-  "sensors": [],
+  "sensors": [
+   "Absolute encoders at hip and both leg joints",
+   "Force/moment sensing at the hips",
+   "IMU",
+   "3D force sensors in the feet"
+  ],
   "price_usd": null,
   "price_note": null,
-  "official_url": null,
-  "sources": [],
-  "summary": "",
+  "official_url": "https://www.epfl.ch/labs/biorob/research/quadruped/quadruped-active/oncilla/",
+  "sources": [
+   "https://www.epfl.ch/labs/biorob/research/quadruped/quadruped-active/oncilla/",
+   "https://www.frontiersin.org/journals/robotics-and-ai/articles/10.3389/frobt.2018.00067/full"
+  ],
+  "summary": "Open-source compliant quadruped with spring-loaded pantograph legs, built in the EU AMARSi project with Ghent University.",
   "image_url": null,
   "image_source": null,
   "videos": [],
   "seen_on": [
    "https://embodied.guide/robots/epfl-oncilla/"
   ],
-  "verification": null
+  "verification": "official",
+  "note": "The EPFL BioRob page describes the design without figures; the numbers are from the BioRob team's Frontiers in Robotics and AI 2018 paper: 0.40 m long, 0.31 m tall, 0.25 m wide, 4.5 kg without and 5.1 kg with a 4,500 mAh LiPo, 3 active DoF per leg (12), 0.16 m standing hip height. Battery capacity is published only in mAh, so Wh is left empty."
  },
  {
   "id": "esa-spacebok",
@@ -3922,14 +4046,14 @@
   "status": "Research",
   "length_mm": null,
   "width_mm": null,
-  "height_mm": null,
-  "weight_kg": null,
+  "height_mm": 500,
+  "weight_kg": 22,
   "payload_kg": null,
-  "max_speed_mps": null,
+  "max_speed_mps": 1.0,
   "min_speed_mps": null,
   "wheel_diameter_mm": null,
   "wheel_count": null,
-  "dof": null,
+  "dof": 8,
   "runtime_h": null,
   "battery_wh": null,
   "ip_rating": null,
@@ -3942,16 +4066,20 @@
   "sensors": [],
   "price_usd": null,
   "price_note": null,
-  "official_url": null,
-  "sources": [],
-  "summary": "",
+  "official_url": "https://rsl.ethz.ch/robots-media/spacebok.html",
+  "sources": [
+   "https://rsl.ethz.ch/robots-media/spacebok.html",
+   "https://www.esa.int/media/spacebok-robot"
+  ],
+  "summary": "ETH Zurich quadruped built to research hopping locomotion for low-gravity surfaces, tested in ESA's Mars Yard.",
   "image_url": null,
   "image_source": null,
   "videos": [],
   "seen_on": [
    "https://embodied.guide/robots/esa-spacebok/"
   ],
-  "verification": null
+  "verification": "official",
+  "note": "ETH Robotic Systems Lab page: 22 kg, 2 DoF per leg (8), hip height 500 mm (recorded as height - it is the hip height, not an overall standing height), developed 2018-2021 and not space-graded. The ICRA 2019 paper gives 1 m/s walking and jumps to 1.05 m; ESA reports a 4 m jump potential in lunar gravity. Built with ZHAW under Marco Hutter and Hendrik Kolvenbach."
  },
  {
   "id": "eth-starleth",
@@ -4418,16 +4546,20 @@
   "sensors": [],
   "price_usd": null,
   "price_note": null,
-  "official_url": null,
-  "sources": [],
-  "summary": "",
+  "official_url": "https://www.ghostrobotics.io/",
+  "sources": [
+   "https://www.prnewswire.com/news-releases/ghost-robotics-launches-ghost-minitaur-direct-drive-legged-robot-platform-for-autonomous-vehicle-applications-300328304.html",
+   "https://www.prnewswire.com/news-releases/ghost-minitaur-highly-agile-direct-drive-quadruped-demonstrates-why-legged-robots-are-far-superior-to-wheels-and-tracks-when-venturing-outdoors-300414820.html"
+  ],
+  "summary": "Ghost Robotics' first direct-drive quadruped: a gearless, high-bandwidth research platform for tactile terrain interaction.",
   "image_url": null,
   "image_source": null,
   "videos": [],
   "seen_on": [
    "https://embodied.guide/robots/ghost-robotics-minitaur/"
   ],
-  "verification": null
+  "verification": "official",
+  "note": "Maker press releases (launch 14 Sep 2016 and update 28 Feb 2017): direct-drive (gearless) legs with 5-bar linkages, 35 deg inclines, 15 cm steps in stride, 27 cm crawl height, 40 cm ledges, 80 cm gaps. The maker publishes no mass, dimensions, payload or top speed, and ghostrobotics.io/minitaur now returns 404, so those fields stay empty; the 3 kg payload, 6 kg mass and 2 m/s that catalogues quote are not maker figures."
  },
  {
   "id": "greentrans-gt3x",
@@ -4442,7 +4574,7 @@
   "width_mm": null,
   "height_mm": null,
   "weight_kg": null,
-  "payload_kg": null,
+  "payload_kg": 30,
   "max_speed_mps": null,
   "min_speed_mps": null,
   "wheel_diameter_mm": null,
@@ -4460,16 +4592,20 @@
   "sensors": [],
   "price_usd": null,
   "price_note": null,
-  "official_url": null,
-  "sources": [],
-  "summary": "",
+  "official_url": "https://www.greentrans-agv.com/",
+  "sources": [
+   "https://www.cna.com.tw/news/afe/202609020312.aspx",
+   "https://news.u-car.com.tw/news/article/89594"
+  ],
+  "summary": "Taiwan-developed inspection quadruped from China Motor's GreenTrans subsidiary, with a 30 kg payload and local supply chain.",
   "image_url": null,
   "image_source": null,
   "videos": [],
   "seen_on": [
    "https://embodied.guide/robots/greentrans-gt3x/"
   ],
-  "verification": null
+  "verification": "official",
+  "note": "GreenTrans (綠捷), China Motor's wholly owned subsidiary, launched GT5X and GT3X at SEMICON Taiwan on 2 Sep 2026; the maker's release, carried by CNA and U-CAR, gives GT3X a 30 kg payload for factory inspection, campus patrol, equipment monitoring, warehousing and outdoor rounds, with NVIDIA Jetson Orin compute, Isaac Lab training and an LFP battery developed with Formosa Plastics New Smart Energy. Mass, dimensions, speed and runtime are not published, and the maker's site carries AMR/AGV pages only."
  },
  {
   "id": "greentrans-gt5x",
@@ -4484,7 +4620,7 @@
   "width_mm": null,
   "height_mm": null,
   "weight_kg": null,
-  "payload_kg": null,
+  "payload_kg": 50,
   "max_speed_mps": null,
   "min_speed_mps": null,
   "wheel_diameter_mm": null,
@@ -4502,16 +4638,20 @@
   "sensors": [],
   "price_usd": null,
   "price_note": null,
-  "official_url": null,
-  "sources": [],
-  "summary": "",
+  "official_url": "https://www.greentrans-agv.com/",
+  "sources": [
+   "https://www.cna.com.tw/news/afe/202609020312.aspx",
+   "https://news.u-car.com.tw/news/article/89594"
+  ],
+  "summary": "Larger of the two GreenTrans quadrupeds, rated for 50 kg payloads on stairs and ramps with 3D lidar and arm options.",
   "image_url": null,
   "image_source": null,
   "videos": [],
   "seen_on": [
    "https://embodied.guide/robots/greentrans-gt5x/"
   ],
-  "verification": null
+  "verification": "official",
+  "note": "Maker release via CNA/U-CAR (2 Sep 2026): GT5X carries up to 50 kg, climbs about 30 deg, takes steps of about 20 cm and can integrate 3D lidar, stereo vision, a robotic arm and special sensors; Jetson Orin compute and an LFP battery. No mass, dimensions, speed or runtime published."
  },
  {
   "id": "highlanders-hlq-edge",
@@ -4524,36 +4664,42 @@
   "status": null,
   "length_mm": null,
   "width_mm": null,
-  "height_mm": null,
+  "height_mm": 500,
   "weight_kg": null,
-  "payload_kg": null,
+  "payload_kg": 60,
   "max_speed_mps": null,
   "min_speed_mps": null,
   "wheel_diameter_mm": null,
   "wheel_count": null,
-  "dof": null,
-  "runtime_h": null,
+  "dof": 12,
+  "runtime_h": 3,
   "battery_wh": null,
   "ip_rating": null,
   "api_support": null,
   "sdk_available": null,
   "sdk_name": null,
-  "onboard_compute": null,
-  "compute_detail": null,
+  "onboard_compute": true,
+  "compute_detail": "NVIDIA Jetson Orin NX",
   "ros_support": null,
-  "sensors": [],
+  "sensors": [
+   "Depth camera x2",
+   "Hand Vision"
+  ],
   "price_usd": null,
   "price_note": null,
-  "official_url": null,
-  "sources": [],
-  "summary": "",
+  "official_url": "https://highlanders.ai",
+  "sources": [
+   "https://prtimes.jp/main/html/rd/p/000000008.000156831.html"
+  ],
+  "summary": "University of Tokyo spin-off Highlanders' industrial quadruped, driven by a world-model walking AI and rated for 60 kg payloads.",
   "image_url": null,
   "image_source": null,
   "videos": [],
   "seen_on": [
    "https://embodied.guide/robots/highlanders-hlq-edge/"
   ],
-  "verification": null
+  "verification": "official",
+  "note": "Maker press release (7 Sep 2026): payload up to 60 kg, walking height adjustable 250-500 mm (500 mm recorded as the top of the range), 12 DoF excluding the rear attachment, joints up to 330 Nm, 48 V battery for 3 h continuous, two depth cameras plus Hand Vision, Jetson Orin NX, 6-channel CAN/USB/RJ-45, Wi-Fi 6 and 5G, rear mount rail for the in-house arm. Mass, footprint and top speed are not published; the earlier HLQ Pro carried 20 kg for 4 h."
  },
  {
   "id": "hyperever-proteo",
@@ -4567,15 +4713,15 @@
   "length_mm": null,
   "width_mm": null,
   "height_mm": null,
-  "weight_kg": null,
-  "payload_kg": null,
-  "max_speed_mps": null,
+  "weight_kg": 50,
+  "payload_kg": 10,
+  "max_speed_mps": 1,
   "min_speed_mps": null,
   "wheel_diameter_mm": null,
   "wheel_count": null,
   "dof": null,
-  "runtime_h": null,
-  "battery_wh": null,
+  "runtime_h": 2,
+  "battery_wh": 1000,
   "ip_rating": null,
   "api_support": null,
   "sdk_available": null,
@@ -4583,19 +4729,25 @@
   "onboard_compute": null,
   "compute_detail": null,
   "ros_support": null,
-  "sensors": [],
+  "sensors": [
+   "LiDAR",
+   "Depth sensing"
+  ],
   "price_usd": null,
   "price_note": null,
-  "official_url": null,
-  "sources": [],
-  "summary": "",
+  "official_url": "https://www.hyperever.com/proteo.html",
+  "sources": [
+   "https://www.hyperever.com/proteo.html"
+  ],
+  "summary": "Turkish quadruped prototype for industrial inspection and defence trials, with a stabilised stair-climbing controller.",
   "image_url": null,
   "image_source": null,
   "videos": [],
   "seen_on": [
    "https://embodied.guide/robots/hyperever-proteo/"
   ],
-  "verification": null
+  "verification": "official",
+  "note": "Maker page for Proteo V0: 50 kg, max speed 1 m/s, max payload 10 kg, 1 kWh battery for up to 2 h, lidar and depth sensing, with a controller the maker says keeps balance on stairs and non-linear surfaces. The page now announces Proteo V1 as 'available soon', so these are V0 prototype figures."
  },
  {
   "id": "iit-hyq",
@@ -4606,38 +4758,47 @@
   "locomotion": "Legged",
   "release_year": null,
   "status": "Discontinued",
-  "length_mm": null,
-  "width_mm": null,
-  "height_mm": null,
-  "weight_kg": null,
+  "length_mm": 1000,
+  "width_mm": 500,
+  "height_mm": 980,
+  "weight_kg": 80,
   "payload_kg": null,
-  "max_speed_mps": null,
+  "max_speed_mps": 2,
   "min_speed_mps": null,
   "wheel_diameter_mm": null,
   "wheel_count": null,
-  "dof": null,
+  "dof": 12,
   "runtime_h": null,
   "battery_wh": null,
   "ip_rating": null,
   "api_support": null,
   "sdk_available": null,
   "sdk_name": null,
-  "onboard_compute": null,
-  "compute_detail": null,
+  "onboard_compute": true,
+  "compute_detail": "PC104 Pentium with real-time Linux (Xenomai), 1 kHz joint control",
   "ros_support": null,
-  "sensors": [],
+  "sensors": [
+   "Joint position and torque sensors",
+   "IMU",
+   "Hydraulic pressure sensing",
+   "Stereo camera",
+   "LIDAR"
+  ],
   "price_usd": null,
   "price_note": null,
-  "official_url": null,
-  "sources": [],
-  "summary": "",
+  "official_url": "https://dls.iit.it/hyq",
+  "sources": [
+   "https://dls.iit.it/hyq"
+  ],
+  "summary": "IIT's hydraulically actuated quadruped research platform, the base of the HyQ line.",
   "image_url": null,
   "image_source": null,
   "videos": [],
   "seen_on": [
    "https://embodied.guide/robots/iit-hyq/"
   ],
-  "verification": null
+  "verification": "official",
+  "note": "Maker page (Dynamic Legged Systems): 1.0 x 0.5 x 0.98 m with legs stretched, 80 kg with external hydraulics and 100 kg with the onboard supply, 12 hydraulically actuated DoF, running up to 2 m/s, stereo camera and lidar, PC104 Pentium running real-time Linux. The 2011 design paper gives 70 kg / 91 kg for the same machine, so the maker's page figures are kept and the paper's are recorded here as the conflict."
  },
  {
   "id": "iit-hyq2max",
@@ -4670,16 +4831,19 @@
   "sensors": [],
   "price_usd": null,
   "price_note": null,
-  "official_url": null,
-  "sources": [],
-  "summary": "",
+  "official_url": "https://dls.iit.it/hyq2max",
+  "sources": [
+   "https://dls.iit.it/hyq2max"
+  ],
+  "summary": "Strengthened HyQ with a far larger joint range and higher torque, built for robustness after impacts.",
   "image_url": null,
   "image_source": null,
   "videos": [],
   "seen_on": [
    "https://embodied.guide/robots/iit-hyq2max/"
   ],
-  "verification": null
+  "verification": "official",
+  "note": "The maker page describes HyQ2Max only qualitatively - increased hardware reliability and robustness, larger joint range, higher output torque at no weight cost - and publishes no mass, dimensions, speed, payload or runtime table, so all spec fields are left empty."
  },
  {
   "id": "iit-hyqreal",
@@ -4690,10 +4854,10 @@
   "locomotion": "Legged",
   "release_year": null,
   "status": "Research",
-  "length_mm": null,
+  "length_mm": 1350,
   "width_mm": null,
-  "height_mm": null,
-  "weight_kg": null,
+  "height_mm": 900,
+  "weight_kg": 140,
   "payload_kg": null,
   "max_speed_mps": null,
   "min_speed_mps": null,
@@ -4712,16 +4876,19 @@
   "sensors": [],
   "price_usd": null,
   "price_note": null,
-  "official_url": null,
-  "sources": [],
-  "summary": "",
+  "official_url": "https://dls.iit.it/hyqreal",
+  "sources": [
+   "https://dls.iit.it/hyqreal"
+  ],
+  "summary": "Battery-powered hydraulic quadruped built with Moog, with integrated servo actuators and a Kevlar and aluminium roll cage.",
   "image_url": null,
   "image_source": null,
   "videos": [],
   "seen_on": [
    "https://embodied.guide/robots/iit-hyqreal/"
   ],
-  "verification": null
+  "verification": "official",
+  "note": "Maker page: 1.35 m long, 90 cm tall, 140 kg, 48 V battery, aluminium roll cage with a Kevlar, glass-fibre and plastic skin, rubber feet. DoF, speed, payload and runtime are not published on the page."
  },
  {
   "id": "iit-minihyq",
@@ -4735,7 +4902,7 @@
   "length_mm": null,
   "width_mm": null,
   "height_mm": null,
-  "weight_kg": null,
+  "weight_kg": 35,
   "payload_kg": null,
   "max_speed_mps": null,
   "min_speed_mps": null,
@@ -4754,16 +4921,20 @@
   "sensors": [],
   "price_usd": null,
   "price_note": null,
-  "official_url": null,
-  "sources": [],
-  "summary": "",
+  "official_url": "https://dls.iit.it/robots",
+  "sources": [
+   "https://dls.iit.it/robots",
+   "https://dls.iit.it/minihyq"
+  ],
+  "summary": "Miniature fully torque-controlled hydraulic quadruped with reconfigurable legs and an on-board power pack.",
   "image_url": null,
   "image_source": null,
   "videos": [],
   "seen_on": [
    "https://embodied.guide/robots/iit-minihyq/"
   ],
-  "verification": null
+  "verification": "official",
+  "note": "Maker robots page: 35 kg (24 kg with an offboard pump unit), described as the lightest and smallest hydraulic quadruped built, with reconfigurable leg configurations and a self-righting motion from its wide joint range. Dimensions, speed, payload and runtime are not published."
  },
  {
   "id": "itri-quadruped",
@@ -4778,12 +4949,12 @@
   "width_mm": null,
   "height_mm": null,
   "weight_kg": null,
-  "payload_kg": null,
-  "max_speed_mps": null,
+  "payload_kg": 20,
+  "max_speed_mps": 2,
   "min_speed_mps": null,
   "wheel_diameter_mm": null,
   "wheel_count": null,
-  "dof": null,
+  "dof": 12,
   "runtime_h": null,
   "battery_wh": null,
   "ip_rating": null,
@@ -4796,16 +4967,20 @@
   "sensors": [],
   "price_usd": null,
   "price_note": null,
-  "official_url": null,
-  "sources": [],
-  "summary": "",
+  "official_url": "https://www.itri.org.tw/ListStyle.aspx?DisplayStyle=18_content&MGID=1345233517124301610&MmmID=1036452026061075714&SiteID=1",
+  "sources": [
+   "https://www.itri.org.tw/ListStyle.aspx?DisplayStyle=18_content&MGID=1345233517124301610&MmmID=1036452026061075714&SiteID=1",
+   "https://www.taipeitimes.com/News/biz/archives/2026/07/09/2003860433"
+  ],
+  "summary": "Taiwan's ITRI-led domestic quadruped platform, built with Teco, Solomon, Compal and Inventec, in large and small prototypes.",
   "image_url": null,
   "image_source": null,
   "videos": [],
   "seen_on": [
    "https://embodied.guide/robots/itri-quadruped/"
   ],
-  "verification": null
+  "verification": "official",
+  "note": "ITRI's own account (Industrial Technology and Information monthly, Aug 2026) describes two prototypes: a small one with ~5 kg payload and ~7.2 km/h (2 m/s) for culverts, and a large one with ~20 kg payload carrying lidar, thermal and gas sensors; both use 12 main joints. The record holds the large prototype's payload and the small prototype's speed. Fire test: 15 min at 2 m from the fire with a 100 C ceiling. Mass and dimensions are not published."
  },
  {
   "id": "jianshe-robot-wolf",
@@ -4839,15 +5014,19 @@
   "price_usd": null,
   "price_note": null,
   "official_url": null,
-  "sources": [],
-  "summary": "",
+  "sources": [
+   "http://eng.mod.gov.cn/2025xb/D/V/16451655.html",
+   "http://www.news.cn/milpro/20250905/c984f7595e5c4807a5b93816cbf4fcd4/c.html"
+  ],
+  "summary": "Chinese military quadruped 'wolf' family shown as a swarming ground-combat system with reconnaissance, strike and support units.",
   "image_url": null,
   "image_source": null,
   "videos": [],
   "seen_on": [
    "https://embodied.guide/robots/jianshe-robot-wolf/"
   ],
-  "verification": null
+  "verification": "unconfirmed",
+  "note": "No maker website or datasheet: Robot Wolf is a product of Jianshe Industry (China South Industries Group), reported by China Military Online, Xinhua and CCTV. Official military media give 15 km/h, 12 joint DoF, 25 kg carried, 30 cm obstacles, and state the units share perception data; these are state-media figures, not a maker specification, so no spec field is filled. First shown at Airshow China in November 2024 and paraded in September 2025."
  },
  {
   "id": "kaist-hound",
@@ -4858,12 +5037,12 @@
   "locomotion": "Legged",
   "release_year": null,
   "status": "Research",
-  "length_mm": null,
-  "width_mm": null,
-  "height_mm": null,
-  "weight_kg": null,
+  "length_mm": 700,
+  "width_mm": 200,
+  "height_mm": 140,
+  "weight_kg": 45,
   "payload_kg": null,
-  "max_speed_mps": null,
+  "max_speed_mps": 6.5,
   "min_speed_mps": null,
   "wheel_diameter_mm": null,
   "wheel_count": null,
@@ -4880,16 +5059,20 @@
   "sensors": [],
   "price_usd": null,
   "price_note": null,
-  "official_url": null,
-  "sources": [],
-  "summary": "",
+  "official_url": "https://www.dynamicrobot.kaist.ac.kr/kaist-hound-1",
+  "sources": [
+   "https://www.dynamicrobot.kaist.ac.kr/kaist-hound-1",
+   "https://news.kaist.ac.kr/newsen/html/news/?mng_no=60690&mode=V"
+  ],
+  "summary": "KAIST DRCD Lab's high-speed quadruped, holder of the Guinness record for the fastest 100 m by a legged robot.",
   "image_url": null,
   "image_source": null,
   "videos": [],
   "seen_on": [
    "https://embodied.guide/robots/kaist-hound/"
   ],
-  "verification": null
+  "verification": "official",
+  "note": "Lab page: 45 kg, torso 0.7 x 0.2 x 0.14 m (body dimensions, not a standing envelope), thigh/calf 0.33/0.35 m, 50 Nm joints. KAIST news: 6.5 m/s on a treadmill and 100 m in 19.87 s from a standing start (Guinness World Record), 22 deg slopes, 35 cm obstacles, 3.2 km continuous. Joint count is not stated on the lab page, so DoF is left empty."
  },
  {
   "id": "kaist-raibo",
@@ -4922,16 +5105,19 @@
   "sensors": [],
   "price_usd": null,
   "price_note": null,
-  "official_url": null,
-  "sources": [],
-  "summary": "",
+  "official_url": "https://railab.kaist.ac.kr/sections/robots.html",
+  "sources": [
+   "https://railab.kaist.ac.kr/sections/robots.html"
+  ],
+  "summary": "KAIST RAILAB's middle-sized quadruped, the platform behind its learned locomotion work on deformable terrain.",
   "image_url": null,
   "image_source": null,
   "videos": [],
   "seen_on": [
    "https://embodied.guide/robots/kaist-raibo/"
   ],
-  "verification": null
+  "verification": "official",
+  "note": "RAILAB's robots page describes RAIBO as a middle-sized quadruped for inspection, exploration and patrol with 12 powerful motors, and publishes no mass, dimensions or speed for RAIBO itself. Its successor RAIBO2 is 42 kg, up to 6 m/s and 8 h. Status kept as Discontinued on the strength of the successor being the platform RAION Robotics now takes to market."
  },
  {
   "id": "keybotic-keyper",
@@ -4965,15 +5151,18 @@
   "price_usd": null,
   "price_note": null,
   "official_url": null,
-  "sources": [],
-  "summary": "",
+  "sources": [
+   "https://www.hannovermesse.de/apollo/hannover_messe_2024/obs/Binary/A1341736/General%20Product%20Brochure%20%28EN%29_compressed.pdf"
+  ],
+  "summary": "Spanish industrial inspection quadruped that runs teach-and-repeat rounds and reports gas, thermal and acoustic anomalies.",
   "image_url": null,
   "image_source": null,
   "videos": [],
   "seen_on": [
    "https://embodied.guide/robots/keybotic-keyper/"
   ],
-  "verification": null
+  "verification": "unconfirmed",
+  "note": "keybotic.com did not load (HTTP 504 through the page reader and ERR_TUNNEL_CONNECTION_FAILED in the browser) on 2026-11-17, so the maker's specification page could not be read. The maker's Hannover Messe brochure describes the capability only (autonomous or teleoperated inspection rounds, Detect&Alert gas/thermal detection, instrument reading, 3D mapping, fleet coordination, robot-as-a-service). The 43 kg, 60 x 95 cm, 35-75 cm, 32-channel lidar, 90/120 min and 60 min charge that aggregators attribute to keybotic.com are therefore not entered."
  },
  {
   "id": "latent-action-p05",
@@ -4984,38 +5173,45 @@
   "locomotion": "Legged",
   "release_year": null,
   "status": null,
-  "length_mm": null,
-  "width_mm": null,
-  "height_mm": null,
-  "weight_kg": null,
-  "payload_kg": null,
-  "max_speed_mps": null,
+  "length_mm": 700,
+  "width_mm": 400,
+  "height_mm": 450,
+  "weight_kg": 16,
+  "payload_kg": 5,
+  "max_speed_mps": 3,
   "min_speed_mps": null,
   "wheel_diameter_mm": null,
   "wheel_count": null,
-  "dof": null,
-  "runtime_h": null,
-  "battery_wh": null,
-  "ip_rating": null,
+  "dof": 12,
+  "runtime_h": 1.5,
+  "battery_wh": 280.8,
+  "ip_rating": "IP32",
   "api_support": null,
   "sdk_available": null,
   "sdk_name": null,
-  "onboard_compute": null,
-  "compute_detail": null,
+  "onboard_compute": true,
+  "compute_detail": "High-performance 8-core CPU",
   "ros_support": null,
-  "sensors": [],
+  "sensors": [
+   "Camera (standard)",
+   "IMU (standard)"
+  ],
   "price_usd": null,
   "price_note": null,
-  "official_url": null,
-  "sources": [],
-  "summary": "",
+  "official_url": "https://latent-action.com/en/",
+  "sources": [
+   "https://cdn.latent-action.com/uploads/20260915/7ca654a55e6d466752912782de861a1d.pptx",
+   "https://latent-action.com/en/news/60.html"
+  ],
+  "summary": "Lightweight companion quadruped from Hangzhou's Latent-Action, positioned for education, consumer use and light inspection.",
   "image_url": null,
   "image_source": null,
   "videos": [],
   "seen_on": [
    "https://embodied.guide/robots/latent-action-p05/"
   ],
-  "verification": null
+  "verification": "official",
+  "note": "Maker specification sheet (P05 Series, latent-action.com CDN): standing 700 x 400 x 450 mm (prone 750 x 420 x 180), weight <=16 kg with battery, rated payload 5 kg (max 8 kg), speed >=3 m/s, 1.5 h / 6 km, 20 cm continuous stair step, 30 deg typical / 40 deg max slope, 70 cm max step, 12 joint modules at 48 Nm, IP32, 0 to 40 C, quick-release 46.8 V 6 Ah battery (280.8 Wh), Wi-Fi 6, Bluetooth 5.3, 8-core CPU, Ethernet/USB and 48 V 8 A power out. Public debut at the 2026 World Robot Conference."
  },
  {
   "id": "lumen-q1",
@@ -5965,16 +6161,20 @@
   "sensors": [],
   "price_usd": null,
   "price_note": null,
-  "official_url": null,
-  "sources": [],
-  "summary": "",
+  "official_url": "https://www.roketsan.com.tr/haberler/roketsan-turkiye-nin-savunma-vitrini-idef-e-ilk-kez-sergiledigi-savunma-sistemleri-ile-damga-vurdu/",
+  "sources": [
+   "https://www.roketsan.com.tr/haberler/roketsan-turkiye-nin-savunma-vitrini-idef-e-ilk-kez-sergiledigi-savunma-sistemleri-ile-damga-vurdu/",
+   "https://www.cnnturk.com/video/turkiye/4-ayakli-kara-araci-koz-2313488"
+  ],
+  "summary": "Roketsan's armed quadruped that carries the METE laser-guided mini-missile, unveiled at IDEF 2025.",
   "image_url": null,
   "image_source": null,
   "videos": [],
   "seen_on": [
    "https://embodied.guide/robots/roketsan-koz/"
   ],
-  "verification": null
+  "verification": "official",
+  "note": "Roketsan's own IDEF 2025 release lists METE as mounted 'on robot dog' (Robot Kopek Uzeri), which is the maker's only statement about KOZ; the page carries no weight, dimensions, speed, payload or endurance table. Turkish broadcast reporting (CNN Turk, 22 Jul 2025) adds up to 2.5 h of continuous mission time, four guided munitions and autonomous/remote modes, and TRT World reports a 45 deg climb and a TV plus thermal electro-optic suite; those are press figures and are not entered."
  },
  {
   "id": "rt-corporation-mujina",
@@ -5988,35 +6188,42 @@
   "length_mm": null,
   "width_mm": null,
   "height_mm": null,
-  "weight_kg": null,
+  "weight_kg": 11,
   "payload_kg": null,
   "max_speed_mps": null,
   "min_speed_mps": null,
   "wheel_diameter_mm": null,
   "wheel_count": null,
-  "dof": null,
+  "dof": 12,
   "runtime_h": null,
   "battery_wh": null,
   "ip_rating": null,
   "api_support": null,
-  "sdk_available": null,
-  "sdk_name": null,
-  "onboard_compute": null,
-  "compute_detail": null,
-  "ros_support": null,
-  "sensors": [],
+  "sdk_available": true,
+  "sdk_name": "mujina_ros (ROS 2, MIT) with open CAD under CC BY-SA 4.0",
+  "onboard_compute": true,
+  "compute_detail": "LattePanda IOTA running Ubuntu 24.04 and ROS 2 Jazzy",
+  "ros_support": true,
+  "sensors": [
+   "USB 9-axis IMU"
+  ],
   "price_usd": null,
   "price_note": null,
-  "official_url": null,
-  "sources": [],
-  "summary": "",
+  "official_url": "https://rt-net.jp/",
+  "sources": [
+   "https://prtimes.jp/main/html/rd/p/000000075.000069918.html",
+   "https://github.com/rt-net/Mujina_Hardware",
+   "https://github.com/rt-net/mujina_ros"
+  ],
+  "summary": "Japanese-designed open-hardware quadruped from RT Corporation, a first-step development model for light inspection and surveying.",
   "image_url": null,
   "image_source": null,
   "videos": [],
   "seen_on": [
    "https://embodied.guide/robots/rt-corporation-mujina/"
   ],
-  "verification": null
+  "verification": "official",
+  "note": "Maker press release (27 Nov 2025) and RT's own posts: 11 kg, 12 joint motors (RobStride RS02, IDs 1-12 on two CAN buses), LattePanda IOTA computer, ROS 2 Jazzy, open CAD and MIT-licensed control software; positioned as a technology-verification unit rather than a production model. Dimensions, speed, battery and runtime are not published."
  },
  {
   "id": "sdu-scalf",
@@ -6027,16 +6234,16 @@
   "locomotion": "Legged",
   "release_year": null,
   "status": "Discontinued",
-  "length_mm": null,
-  "width_mm": null,
+  "length_mm": 1400,
+  "width_mm": 750,
   "height_mm": null,
-  "weight_kg": null,
-  "payload_kg": null,
+  "weight_kg": 200,
+  "payload_kg": 200,
   "max_speed_mps": null,
   "min_speed_mps": null,
   "wheel_diameter_mm": null,
   "wheel_count": null,
-  "dof": null,
+  "dof": 12,
   "runtime_h": null,
   "battery_wh": null,
   "ip_rating": null,
@@ -6049,16 +6256,20 @@
   "sensors": [],
   "price_usd": null,
   "price_note": null,
-  "official_url": null,
-  "sources": [],
-  "summary": "",
+  "official_url": "https://robot.sia.cn/en/article/doi/10.13973/j.cnki.robot.2014.0385",
+  "sources": [
+   "https://doi.org/10.3390/app9091771",
+   "https://journals.sagepub.com/doi/10.1177/1729881418813235"
+  ],
+  "summary": "Hydraulically actuated bionic quadruped from Shandong University's robotics centre, built for heavy loads on rough terrain.",
   "image_url": null,
   "image_source": null,
   "videos": [],
   "seen_on": [
    "https://embodied.guide/robots/sdu-scalf/"
   ],
-  "verification": null
+  "verification": "official",
+  "note": "Shandong University papers by the robot's own team: SCalf is 1.4 m long, 0.75 m wide and 200 kg overall, with a 200 kg load capacity, a 3-DoF leg (12 DoF) and a gasoline-engine hydraulic supply; the later SCalf-II is 1.1 x 0.45 x 1.1 m at 120 kg on a 19 MPa system. No maker product page exists, so the laboratory papers are the maker source."
  },
  {
   "id": "sevnce-sgzt-01",
