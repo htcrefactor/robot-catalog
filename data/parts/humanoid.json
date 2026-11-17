@@ -5259,8 +5259,8 @@
   "locomotion": "Wheeled",
   "release_year": null,
   "status": "Commercial",
-  "length_mm": null,
-  "width_mm": null,
+  "length_mm": 630,
+  "width_mm": 463,
   "height_mm": 1756,
   "weight_kg": 111,
   "payload_kg": null,
@@ -5272,20 +5272,28 @@
   "runtime_h": 4.0,
   "battery_wh": null,
   "ip_rating": null,
-  "api_support": null,
+  "api_support": true,
   "sdk_available": null,
   "sdk_name": null,
-  "onboard_compute": null,
-  "compute_detail": null,
+  "onboard_compute": true,
+  "compute_detail": "20-core/28-thread CPU, 32 GB DDR5, 1 TB SSD, RTX 5060 GPU",
   "ros_support": null,
-  "sensors": [],
+  "sensors": [
+   "Head depth camera",
+   "Wrist depth camera",
+   "LiDAR",
+   "6-axis IMU",
+   "Microphone array"
+  ],
   "price_usd": null,
   "price_note": null,
-  "official_url": null,
+  "official_url": "https://www.zerith.com/product/comparison/",
   "sources": [
-   "https://zerith.com/product/comparison/"
+   "https://zerith.com/product/comparison/",
+   "https://www.zerith.com/product/comparison/",
+   "https://www.zerith.com/product/ZerithH1/"
   ],
-  "summary": "Wheeled (bimanual torso on a wheeled base) humanoid from Zerith (Zerith Robotics); b2b only, sold to businesses.",
+  "summary": "Wheeled humanoid mobile manipulator with a lifting column, 7-axis arms and a 1 kg-per-arm rating for shelf, retail and lab handling.",
   "verification": "official",
   "notes": "Issue #17 (2026-11-17): Zerith H1 wheel-arm humanoid - height adjustable 955-1756 mm (1756 taken), 111 kg, 23 active DoF (head 2, hand 7, waist incl. lift 3, chassis 2, effector 1), base speed 1 m/s, 4 h continuous. Payload is published per arm only (1.5 kg max), so the whole-robot payload field was emptied. [replaced height_mm: 1760 -> 1756 | emptied (no maker value) payload_kg=1; price_usd=13600; price_note=list 13600 USD (maker), per HumanoidStore, checked 2026-10]"
  },
@@ -5312,19 +5320,23 @@
   "battery_wh": null,
   "ip_rating": null,
   "api_support": null,
-  "sdk_available": null,
-  "sdk_name": null,
-  "onboard_compute": null,
-  "compute_detail": null,
+  "sdk_available": true,
+  "sdk_name": "OpenBridge SDK",
+  "onboard_compute": true,
+  "compute_detail": "Rockchip RK3588 8-core; optional Jetson Xavier NX EDU expansion",
   "ros_support": null,
-  "sensors": [],
+  "sensors": [
+   "IMU",
+   "Circular microphone array",
+   "Capacitive touch sensing"
+  ],
   "price_usd": null,
   "price_note": null,
-  "official_url": null,
+  "official_url": "https://zeroth-openbridge.com/products/zeroth-bridge",
   "sources": [
    "https://zeroth-openbridge.com/products/zeroth-bridge"
   ],
-  "summary": "Compact humanoid from Zeroth; preorder, anyone can order.",
+  "summary": "Desk-scale open developer humanoid with 21 joints, teleoperation and simulation tooling for reinforcement-learning research.",
   "verification": "official",
   "notes": "Issue #17 (2026-11-17): Zeroth Bridge - 85 cm (~10 kg; 13 kg system mass in the spec table), 0.2 m/s walking, 21 DoF (arms 4x2, waist 1, legs 6x2), 2 kg end-effector payload, 48 V. No maker runtime or price, so those fields were emptied. [replaced height_mm: 880 -> 850; weight_kg: 13 -> 10; payload_kg: None -> 2 | emptied (no maker value) price_usd=3999; price_note=list 3999 USD (maker), per HumanoidStore, checked 2026-10]"
  },
@@ -5346,24 +5358,30 @@
   "min_speed_mps": null,
   "wheel_diameter_mm": null,
   "wheel_count": null,
-  "dof": 20,
+  "dof": null,
   "runtime_h": 2.0,
   "battery_wh": null,
   "ip_rating": null,
-  "api_support": null,
-  "sdk_available": null,
-  "sdk_name": null,
-  "onboard_compute": null,
-  "compute_detail": null,
-  "ros_support": null,
-  "sensors": [],
+  "api_support": true,
+  "sdk_available": true,
+  "sdk_name": "M1 Python SDK and M1 Spine SDK",
+  "onboard_compute": true,
+  "compute_detail": "Horizon RDK 5 (Sunrise) with 10 TOPS NPU",
+  "ros_support": true,
+  "sensors": [
+   "LDS LiDAR",
+   "RGB camera",
+   "iTOF depth camera",
+   "3-mic array"
+  ],
   "price_usd": 2499,
   "price_note": "US$2,499 list (promotional US$1,699)",
-  "official_url": null,
+  "official_url": "https://www.zeroth0.com/products/m1",
   "sources": [
-   "https://www.zeroth0.com/pages/m1-landing-page"
+   "https://www.zeroth0.com/pages/m1-landing-page",
+   "https://www.zeroth0.com/products/m1"
   ],
-  "summary": "Desktop-size humanoid from Zeroth; preorder, anyone can order.",
+  "summary": "Desk-sized bipedal humanoid for learning reinforcement-learning locomotion before moving to full-size platforms.",
   "verification": "official",
   "notes": "Issue #17 (2026-11-17): Zeroth M1 - 195x125x494 mm, robot body 2.8 kg plus 1.4 kg mobility base, 20 DoF, 0.05 m/s biped / 0.6 m/s wheeled, about 2 h, US$2,499 MSRP. [replaced height_mm: 500 -> 494; max_speed_mps: 0.2 -> 0.6; price_note: list 2499 USD (maker), per HumanoidStore, checked 2026-10 -> US$2,499 list (promotional US$1,699)]"
  },
@@ -13529,7 +13547,7 @@
   "wheel_diameter_mm": null,
   "wheel_count": null,
   "dof": null,
-  "runtime_h": null,
+  "runtime_h": 6,
   "battery_wh": null,
   "ip_rating": null,
   "api_support": null,
@@ -13541,9 +13559,11 @@
   "sensors": [],
   "price_usd": null,
   "price_note": null,
-  "official_url": null,
-  "sources": [],
-  "summary": "",
+  "official_url": "https://us.zj-humanoid.com/zujian/10",
+  "sources": [
+   "https://us.zj-humanoid.com/zujian/10"
+  ],
+  "summary": "Wheeled general-purpose mobile manipulator for logistics handling, laboratory work and commercial service tasks.",
   "image_url": null,
   "image_source": null,
   "videos": [],
@@ -13551,7 +13571,8 @@
    "https://humanoidversus.com/robots/naviai-wa2",
    "https://embodied.guide/robots/zj-humanoid-naviai-wa2/"
   ],
-  "verification": null
+  "verification": "official",
+  "notes": "Maker states 8-DoF arms with +/-0.02 mm end-effector positioning accuracy, up to 6 h runtime with about 2 h charging, and slopes up to 20 deg. Height, weight, total DoF, payload and battery capacity are not published on the reachable product page, so those fields stay empty."
  },
  {
   "id": "phybot-m1",
@@ -23299,31 +23320,40 @@
   "locomotion": "Wheeled",
   "release_year": null,
   "status": null,
-  "length_mm": null,
-  "width_mm": null,
-  "height_mm": null,
+  "length_mm": 800,
+  "width_mm": 680,
+  "height_mm": 1820,
   "weight_kg": null,
-  "payload_kg": null,
-  "max_speed_mps": null,
+  "payload_kg": 60,
+  "max_speed_mps": 1.5,
   "min_speed_mps": null,
   "wheel_diameter_mm": null,
   "wheel_count": null,
-  "dof": null,
-  "runtime_h": null,
-  "battery_wh": null,
+  "dof": 27,
+  "runtime_h": 8,
+  "battery_wh": 2880,
   "ip_rating": null,
-  "api_support": null,
+  "api_support": true,
   "sdk_available": null,
   "sdk_name": null,
   "onboard_compute": null,
   "compute_detail": null,
-  "ros_support": null,
-  "sensors": [],
+  "ros_support": true,
+  "sensors": [
+   "Stereo camera",
+   "3D LiDAR",
+   "6-axis F/T sensor",
+   "RGB-D camera",
+   "Fisheye camera"
+  ],
   "price_usd": null,
   "price_note": null,
-  "official_url": null,
-  "sources": [],
-  "summary": "",
+  "official_url": "https://www.ymbot.com/product/detail/7",
+  "sources": [
+   "https://www.ymbot.com/product/detail/7",
+   "https://www.worldrobotconference.com/profile/robot/download/2026/07/23/20260723170520000751_20260723170520A912.pdf"
+  ],
+  "summary": "Heavy-payload industrial wheeled humanoid with a 60 kg dual-arm rating, an 800 mm lifting column and a four-wheel-steer omnidirectional base for palletizing and material transfer.",
   "image_url": null,
   "image_source": null,
   "videos": [],
@@ -23331,7 +23361,8 @@
    "https://embodied.guide/robots/yunmu-ymbot-d4/",
    "https://humanoid.guide/product/ymbot-d4/"
   ],
-  "verification": null
+  "verification": "official",
+  "notes": "Maker lists overall size as height 1820 mm with an 800 x 680 mm base and 27 DoF excluding end effectors. 60 kg is the dual-arm maximum (30 kg per arm), not a whole-robot rating. Battery 48 V 30 Ah x2; 2880 Wh is derived (V x Ah). ROS 2 protocol plus low-level joint/sensor and high-level motion interfaces."
  },
  {
   "id": "yunmu-ymbot-e3",
@@ -23344,29 +23375,31 @@
   "status": null,
   "length_mm": null,
   "width_mm": null,
-  "height_mm": null,
-  "weight_kg": null,
-  "payload_kg": null,
-  "max_speed_mps": null,
+  "height_mm": 1400,
+  "weight_kg": 35,
+  "payload_kg": 2,
+  "max_speed_mps": 1.2,
   "min_speed_mps": null,
   "wheel_diameter_mm": null,
   "wheel_count": null,
-  "dof": null,
-  "runtime_h": null,
+  "dof": 27,
+  "runtime_h": 2,
   "battery_wh": null,
   "ip_rating": null,
-  "api_support": null,
+  "api_support": true,
   "sdk_available": null,
   "sdk_name": null,
   "onboard_compute": null,
   "compute_detail": null,
-  "ros_support": null,
+  "ros_support": true,
   "sensors": [],
   "price_usd": null,
   "price_note": null,
-  "official_url": null,
-  "sources": [],
-  "summary": "",
+  "official_url": "https://www.worldrobotconference.com/profile/robot/download/2026/07/23/20260723170520000751_20260723170520A912.pdf",
+  "sources": [
+   "https://www.worldrobotconference.com/profile/robot/download/2026/07/23/20260723170520000751_20260723170520A912.pdf"
+  ],
+  "summary": "Bipedal education and research humanoid with modular joints, 27 DoF and ROS 2/URDF support for teaching motion control.",
   "image_url": null,
   "image_source": null,
   "videos": [],
@@ -23374,7 +23407,8 @@
    "https://embodied.guide/robots/yunmu-ymbot-e3/",
    "https://humanoid.guide/product/ymbot-e3/"
   ],
-  "verification": null
+  "verification": "official",
+  "notes": "Education model: 27 DoF excluding the optional five-finger hands; 2 kg is the both-arms combined load; repeatability 0.1 deg; grip force >=50 N. Battery 10 Ah lithium with no voltage stated, so Wh is left empty. CAN and EtherCAT buses; ROS 2 with URDF provided."
  },
  {
   "id": "yunmu-ymbot-type-a",
@@ -23387,16 +23421,16 @@
   "status": null,
   "length_mm": null,
   "width_mm": null,
-  "height_mm": null,
-  "weight_kg": null,
-  "payload_kg": null,
-  "max_speed_mps": null,
+  "height_mm": 1750,
+  "weight_kg": 75,
+  "payload_kg": 5,
+  "max_speed_mps": 0.5,
   "min_speed_mps": null,
   "wheel_diameter_mm": null,
   "wheel_count": null,
-  "dof": null,
-  "runtime_h": null,
-  "battery_wh": null,
+  "dof": 30,
+  "runtime_h": 3,
+  "battery_wh": 672,
   "ip_rating": null,
   "api_support": null,
   "sdk_available": null,
@@ -23404,19 +23438,27 @@
   "onboard_compute": null,
   "compute_detail": null,
   "ros_support": null,
-  "sensors": [],
+  "sensors": [
+   "Depth camera",
+   "Solid-state LiDAR",
+   "IMU",
+   "6-axis F/T sensor"
+  ],
   "price_usd": null,
   "price_note": null,
-  "official_url": null,
-  "sources": [],
-  "summary": "",
+  "official_url": "https://www.worldrobotconference.com/profile/robot/download/2026/07/23/20260723170520000751_20260723170520A912.pdf",
+  "sources": [
+   "https://www.worldrobotconference.com/profile/robot/download/2026/07/23/20260723170520000751_20260723170520A912.pdf"
+  ],
+  "summary": "Bipedal electric humanoid built on the maker's high-thrust linear actuators, aimed at two-legged locomotion research and interaction.",
   "image_url": null,
   "image_source": null,
   "videos": [],
   "seen_on": [
    "https://embodied.guide/robots/yunmu-ymbot-type-a/"
   ],
-  "verification": null
+  "verification": "official",
+  "notes": "Maker states bounds, not exact values: height <=175 cm (1750 recorded), weight <=75 kg, walking speed <=0.5 m/s, runtime <=3 h. 5 kg is the single-arm payload; whole-robot payload is not stated. 30 DoF is the maker's '>30 (body)' minimum. Battery 48 V 14 Ah; 672 Wh derived. Slope <=10 deg; each linear actuator gives 8000 N."
  },
  {
   "id": "yunmu-ymbot-type-c",
@@ -23450,8 +23492,10 @@
   "price_usd": null,
   "price_note": null,
   "official_url": null,
-  "sources": [],
-  "summary": "",
+  "sources": [
+   "https://www.worldrobotconference.com/profile/robot/download/2026/07/23/20260723170520000751_20260723170520A912.pdf"
+  ],
+  "summary": "First-generation full-body silicone-skin bipedal character robot for museum, science-centre and showroom guiding.",
   "image_url": null,
   "image_source": null,
   "videos": [],
@@ -23459,7 +23503,8 @@
    "https://embodied.guide/robots/yunmu-ymbot-type-c/",
    "https://humanoid.guide/product/ymbot-c/"
   ],
-  "verification": null
+  "verification": "unconfirmed",
+  "notes": "No maker specification page for the first-generation C model was found. The maker's 2026 product manual documents only the C2 variant (a separate catalogue record), so no figures are copied here."
  },
  {
   "id": "yunmu-ymbot-type-d",
@@ -23470,17 +23515,17 @@
   "locomotion": "Wheeled",
   "release_year": null,
   "status": null,
-  "length_mm": null,
-  "width_mm": null,
-  "height_mm": null,
-  "weight_kg": null,
-  "payload_kg": null,
-  "max_speed_mps": null,
+  "length_mm": 600,
+  "width_mm": 600,
+  "height_mm": 1650,
+  "weight_kg": 100,
+  "payload_kg": 5,
+  "max_speed_mps": 1.5,
   "min_speed_mps": null,
   "wheel_diameter_mm": null,
   "wheel_count": null,
-  "dof": null,
-  "runtime_h": null,
+  "dof": 22,
+  "runtime_h": 8,
   "battery_wh": null,
   "ip_rating": null,
   "api_support": null,
@@ -23489,12 +23534,17 @@
   "onboard_compute": null,
   "compute_detail": null,
   "ros_support": null,
-  "sensors": [],
+  "sensors": [
+   "Depth camera"
+  ],
   "price_usd": null,
   "price_note": null,
-  "official_url": null,
-  "sources": [],
-  "summary": "",
+  "official_url": "https://www.ymbot.com/product/detail/4",
+  "sources": [
+   "https://www.ymbot.com/product/detail/4",
+   "https://www.worldrobotconference.com/profile/robot/download/2026/07/23/20260723170520000751_20260723170520A912.pdf"
+  ],
+  "summary": "Wheeled industrial humanoid with twin 7-DoF arms and dexterous hands on a mapping/navigation base, used for data collection, patrol and light industrial tasks.",
   "image_url": null,
   "image_source": null,
   "videos": [],
@@ -23502,7 +23552,8 @@
    "https://embodied.guide/robots/yunmu-ymbot-type-d/",
    "https://humanoid.guide/product/ymbot-d/"
   ],
-  "verification": null
+  "verification": "official",
+  "notes": "Maker gives extended-state size as <=600 x 600 x 1650 mm and folded height <=1100 mm; 100 kg includes the battery. 5 kg is the single-arm payload. Battery 45 Ah lithium with no voltage stated, so Wh is left empty; mobility endurance <=100 km. Network port is reserved and secondary development is supported, but no documented API is published."
  },
  {
   "id": "yunmu-ymbot-type-e",
@@ -23515,36 +23566,40 @@
   "status": null,
   "length_mm": null,
   "width_mm": null,
-  "height_mm": null,
-  "weight_kg": null,
+  "height_mm": 1400,
+  "weight_kg": 38,
   "payload_kg": null,
-  "max_speed_mps": null,
+  "max_speed_mps": 1.2,
   "min_speed_mps": null,
   "wheel_diameter_mm": null,
   "wheel_count": null,
-  "dof": null,
-  "runtime_h": null,
+  "dof": 52,
+  "runtime_h": 2,
   "battery_wh": null,
   "ip_rating": null,
-  "api_support": null,
+  "api_support": true,
   "sdk_available": null,
   "sdk_name": null,
   "onboard_compute": null,
   "compute_detail": null,
-  "ros_support": null,
+  "ros_support": true,
   "sensors": [],
   "price_usd": null,
   "price_note": null,
-  "official_url": null,
-  "sources": [],
-  "summary": "",
+  "official_url": "https://www.ymbot.com/product/detail/3",
+  "sources": [
+   "https://www.ymbot.com/product/detail/3",
+   "https://www.worldrobotconference.com/profile/robot/download/2026/07/23/20260723170520000751_20260723170520A912.pdf"
+  ],
+  "summary": "Silicone-skin education and culture humanoid with 52 DoF and expressive head, walkable on two legs for guiding and research demos.",
   "image_url": null,
   "image_source": null,
   "videos": [],
   "seen_on": [
    "https://embodied.guide/robots/yunmu-ymbot-type-e/"
   ],
-  "verification": null
+  "verification": "official",
+  "notes": "2026 product manual gives about 140 cm and about 38 kg with battery, 52 DoF excluding the optional five-finger hands, head 26 DoF, joint torque >=150 Nm, >=10 facial expressions. The maker's product web page states minimums instead (height >=1.3 m, weight >=35 kg, >=40 DoF, both arms >=1.5 kg); the manual figures are recorded. Battery 10 Ah with no voltage stated."
  },
  {
   "id": "yunmu-ymbot-type-f",
@@ -23557,36 +23612,42 @@
   "status": null,
   "length_mm": null,
   "width_mm": null,
-  "height_mm": null,
-  "weight_kg": null,
-  "payload_kg": null,
+  "height_mm": 1700,
+  "weight_kg": 60,
+  "payload_kg": 3,
   "max_speed_mps": null,
   "min_speed_mps": null,
   "wheel_diameter_mm": null,
   "wheel_count": null,
-  "dof": null,
+  "dof": 29,
   "runtime_h": null,
   "battery_wh": null,
   "ip_rating": null,
-  "api_support": null,
+  "api_support": true,
   "sdk_available": null,
   "sdk_name": null,
   "onboard_compute": null,
   "compute_detail": null,
-  "ros_support": null,
-  "sensors": [],
+  "ros_support": true,
+  "sensors": [
+   "Active stereo depth camera"
+  ],
   "price_usd": null,
   "price_note": null,
-  "official_url": null,
-  "sources": [],
-  "summary": "",
+  "official_url": "https://www.ymbot.com/product/detail/5",
+  "sources": [
+   "https://www.ymbot.com/product/detail/5",
+   "https://www.worldrobotconference.com/profile/robot/download/2026/07/23/20260723170520000751_20260723170520A912.pdf"
+  ],
+  "summary": "Full-force-controlled industrial bipedal humanoid with a five-finger end effector for precise grasping on production lines.",
   "image_url": null,
   "image_source": null,
   "videos": [],
   "seen_on": [
    "https://embodied.guide/robots/yunmu-ymbot-type-f/"
   ],
-  "verification": null
+  "verification": "official",
+  "notes": "Product manual: 170 cm, about 60 kg, 29 DoF excluding the dexterous hands, joint torque >=360 Nm, 15 Ah battery, single-arm payload about 3 kg, active stereo depth camera with optional LiDAR, CAN/EtherCAT, ROS with URDF. The product web page instead lists height <=130 cm, weight <=40 kg, <=50 DoF including hands and payload <=2 kg; the more specific manual figures are recorded and the conflict stays open."
  },
  {
   "id": "yunmu-ymbot-type-h",
@@ -23597,31 +23658,33 @@
   "locomotion": "Wheeled",
   "release_year": null,
   "status": null,
-  "length_mm": null,
-  "width_mm": null,
-  "height_mm": null,
+  "length_mm": 500,
+  "width_mm": 410,
+  "height_mm": 1700,
   "weight_kg": null,
-  "payload_kg": null,
+  "payload_kg": 0.5,
   "max_speed_mps": null,
   "min_speed_mps": null,
   "wheel_diameter_mm": null,
   "wheel_count": null,
-  "dof": null,
-  "runtime_h": null,
-  "battery_wh": null,
+  "dof": 54,
+  "runtime_h": 6,
+  "battery_wh": 1080,
   "ip_rating": null,
-  "api_support": null,
+  "api_support": true,
   "sdk_available": null,
   "sdk_name": null,
   "onboard_compute": null,
   "compute_detail": null,
-  "ros_support": null,
+  "ros_support": true,
   "sensors": [],
   "price_usd": null,
   "price_note": null,
-  "official_url": null,
-  "sources": [],
-  "summary": "",
+  "official_url": "https://www.worldrobotconference.com/profile/robot/download/2026/07/23/20260723170520000751_20260723170520A912.pdf",
+  "sources": [
+   "https://www.worldrobotconference.com/profile/robot/download/2026/07/23/20260723170520000751_20260723170520A912.pdf"
+  ],
+  "summary": "Silicone-skin character robot on an AGV base with twin 6-DoF arms, used for guiding and reception in museums, malls and showrooms.",
   "image_url": null,
   "image_source": null,
   "videos": [],
@@ -23629,7 +23692,8 @@
    "https://embodied.guide/robots/yunmu-ymbot-type-h/",
    "https://humanoid.guide/product/ymbot-h/"
   ],
-  "verification": null
+  "verification": "official",
+  "notes": "Height 170 cm +/-10 cm with a 170 x 50 x 41 cm body; 54 DoF; minimum passage 1.2 m; turn in place on an AGV base; climbing <=5 deg; arm-end payload about 0.5 kg. Battery 24 V 45 Ah; 1080 Wh derived. CAN bus; ROS 2 interfaces for secondary development."
  },
  {
   "id": "zerith-z1",
@@ -23663,8 +23727,10 @@
   "price_usd": null,
   "price_note": null,
   "official_url": null,
-  "sources": [],
-  "summary": "",
+  "sources": [
+   "https://www.worldrobotconference.com/expo/product/393.html"
+  ],
+  "summary": "Bipedal general-purpose humanoid from Zerith (Hefei Zerith Robotics) aimed at education, exhibition and service work.",
   "image_url": null,
   "image_source": null,
   "videos": [],
@@ -23672,7 +23738,8 @@
    "https://embodied.guide/robots/zerith-z1/",
    "https://humanoid.guide/product/zerith-z1/"
   ],
-  "verification": null
+  "verification": "unconfirmed",
+  "notes": "The maker's site (zerith.com) now lists only the H1 series; no Z1 product page or datasheet is published. Its WRC 2026 exhibit entry states 31 DoF, a wrist depth camera and voice interaction, while launch coverage (Oct 2024) states 27 DoF and resellers list 21 DoF, and weight is given as 33 kg (Z1) or 37 kg (Z1 max). The figures conflict, so none are recorded."
  },
  {
   "id": "zhicheng-ai-tr6",
@@ -23685,36 +23752,42 @@
   "status": null,
   "length_mm": null,
   "width_mm": null,
-  "height_mm": null,
-  "weight_kg": null,
+  "height_mm": 1760,
+  "weight_kg": 62,
   "payload_kg": null,
-  "max_speed_mps": null,
+  "max_speed_mps": 2.0,
   "min_speed_mps": null,
   "wheel_diameter_mm": null,
   "wheel_count": null,
-  "dof": null,
-  "runtime_h": null,
+  "dof": 53,
+  "runtime_h": 8,
   "battery_wh": null,
   "ip_rating": null,
   "api_support": null,
   "sdk_available": null,
   "sdk_name": null,
-  "onboard_compute": null,
-  "compute_detail": null,
+  "onboard_compute": true,
+  "compute_detail": "NVIDIA Jetson Thor",
   "ros_support": null,
-  "sensors": [],
+  "sensors": [
+   "Depth camera",
+   "6-axis F/T sensor"
+  ],
   "price_usd": null,
   "price_note": null,
-  "official_url": null,
-  "sources": [],
-  "summary": "",
+  "official_url": "https://www.zhicheng-robot.com/en/tr6.html",
+  "sources": [
+   "https://www.zhicheng-robot.com/en/tr6.html"
+  ],
+  "summary": "Full-size bipedal industrial humanoid running the maker's Chengling world model on Jetson Thor for force-controlled assembly and handling.",
   "image_url": null,
   "image_source": null,
   "videos": [],
   "seen_on": [
    "https://embodied.guide/robots/zhicheng-ai-tr6/"
   ],
-  "verification": null
+  "verification": "official",
+  "notes": "Maker calls these the production-version figures. Hybrid series-parallel actuation with 8000 N linear-actuator peak thrust and closed-loop force control in every joint. Payload, battery capacity and DoF breakdown are not published."
  },
  {
   "id": "zhicheng-ai-xr1",
@@ -23727,36 +23800,43 @@
   "status": null,
   "length_mm": null,
   "width_mm": null,
-  "height_mm": null,
-  "weight_kg": null,
-  "payload_kg": null,
+  "height_mm": 1900,
+  "weight_kg": 160,
+  "payload_kg": 50,
   "max_speed_mps": null,
   "min_speed_mps": null,
   "wheel_diameter_mm": null,
   "wheel_count": null,
-  "dof": null,
+  "dof": 25,
   "runtime_h": null,
   "battery_wh": null,
   "ip_rating": null,
   "api_support": null,
   "sdk_available": null,
   "sdk_name": null,
-  "onboard_compute": null,
-  "compute_detail": null,
-  "ros_support": null,
-  "sensors": [],
+  "onboard_compute": true,
+  "compute_detail": "NVIDIA industrial-grade GPU platform",
+  "ros_support": true,
+  "sensors": [
+   "3D vision",
+   "LiDAR",
+   "Force sensing"
+  ],
   "price_usd": null,
   "price_note": null,
-  "official_url": null,
-  "sources": [],
-  "summary": "",
+  "official_url": "https://www.zhicheng-robot.com/en/xr1.html",
+  "sources": [
+   "https://www.zhicheng-robot.com/en/xr1.html"
+  ],
+  "summary": "Wheeled dual-arm mobile manipulator with a lifting torso and 50 kg combined payload for assembly, inspection and handling.",
   "image_url": null,
   "image_source": null,
   "videos": [],
   "seen_on": [
    "https://embodied.guide/robots/zhicheng-ai-xr1/"
   ],
-  "verification": null
+  "verification": "official",
+  "notes": "Height is an adjustable range of 900-1900 mm (lifting torso), so the top of the range is recorded. 50 kg is the dual-arm combined payload with two servo grippers. Work envelope about 2 m vertically and across both arms. Four-wheel swerve base, dual parallel hot-swap batteries with autonomous swap for continuous operation. Runtime in hours and battery capacity are not published."
  },
  {
   "id": "zhiwang-future-armstrong-pro",
@@ -23790,15 +23870,18 @@
   "price_usd": null,
   "price_note": null,
   "official_url": null,
-  "sources": [],
-  "summary": "",
+  "sources": [
+   "https://www.zwwlai.com/"
+  ],
+  "summary": "Wheeled dual-arm warehouse picking robot for dense-shelf SKU picking, tote handling and shelf-to-tote transfer.",
   "image_url": null,
   "image_source": null,
   "videos": [],
   "seen_on": [
    "https://embodied.guide/robots/zhiwang-future-armstrong-pro/"
   ],
-  "verification": null
+  "verification": "unconfirmed",
+  "notes": "The maker's site (zwwlai.com) renders its product section from media that does not load, so no maker specification could be read. Company statements at CeMAT Asia 2026 reported by trade press give 22 DoF (up from 17 on the first Armstrong), a 0 to 2.4 m working height and a four-wheel omnidirectional base; those are third-party reports, so no figures are recorded."
  },
  {
   "id": "zioneer-xiaomu",
@@ -23832,15 +23915,19 @@
   "price_usd": null,
   "price_note": null,
   "official_url": null,
-  "sources": [],
-  "summary": "",
+  "sources": [
+   "https://www.zioneer.com/",
+   "https://www.zioneer.com/nd.jsp?id=30"
+  ],
+  "summary": "Commercial-service and pharmacy robot that maps a store and runs night-time sales, guidance and consultation tasks.",
   "image_url": null,
   "image_source": null,
   "videos": [],
   "seen_on": [
    "https://embodied.guide/robots/zioneer-xiaomu/"
   ],
-  "verification": null
+  "verification": "unconfirmed",
+  "notes": "The maker (ZIONEER Robotics, Jilin) describes Xiaomu only as a commercial-service and pharmacy robot that builds its own semantic map of a store; its site publishes no dimensions, payload, battery or speed. The maker's copy also does not describe it as a humanoid, so the humanoid category may need review."
  },
  {
   "id": "zj-humanoid-naviai-i3",
@@ -23853,10 +23940,10 @@
   "status": null,
   "length_mm": null,
   "width_mm": null,
-  "height_mm": null,
+  "height_mm": 1800,
   "weight_kg": null,
   "payload_kg": null,
-  "max_speed_mps": null,
+  "max_speed_mps": 2.5,
   "min_speed_mps": null,
   "wheel_diameter_mm": null,
   "wheel_count": null,
@@ -23873,9 +23960,11 @@
   "sensors": [],
   "price_usd": null,
   "price_note": null,
-  "official_url": null,
-  "sources": [],
-  "summary": "",
+  "official_url": "https://us.zj-humanoid.com/zujian/2",
+  "sources": [
+   "https://us.zj-humanoid.com/zujian/2"
+  ],
+  "summary": "All-terrain bipedal humanoid built for outdoor security patrol and inspection on rough ground.",
   "image_url": null,
   "image_source": null,
   "videos": [],
@@ -23883,7 +23972,8 @@
    "https://embodied.guide/robots/zj-humanoid-naviai-i3/",
    "https://humanoid.guide/product/navai-i3/"
   ],
-  "verification": null
+  "verification": "official",
+  "notes": "Maker states 180 cm standing height and a 9 km/h top speed (2.5 m/s, converted). High-torque lower limbs, walking over gravel, slopes and grass, standing-to-crouch transitions. Weight, DoF and payload are not on the maker's product page; press coverage quotes 37 DoF and about 80 kg, which is not recorded here."
  },
  {
   "id": "zj-humanoid-naviai-wa1",
@@ -23913,19 +24003,26 @@
   "onboard_compute": null,
   "compute_detail": null,
   "ros_support": null,
-  "sensors": [],
+  "sensors": [
+   "Vision camera",
+   "Force sensing",
+   "Tactile sensing"
+  ],
   "price_usd": null,
   "price_note": null,
-  "official_url": null,
-  "sources": [],
-  "summary": "",
+  "official_url": "https://us.zj-humanoid.com/zujian/9",
+  "sources": [
+   "https://us.zj-humanoid.com/zujian/9"
+  ],
+  "summary": "Wheeled industrial mobile manipulator for ultra-precision assembly, fabric cutting and laboratory dispensing.",
   "image_url": null,
   "image_source": null,
   "videos": [],
   "seen_on": [
    "https://embodied.guide/robots/zj-humanoid-naviai-wa1/"
   ],
-  "verification": null
+  "verification": "official",
+  "notes": "Maker states an industrial omnidirectional chassis with lift, pitch and rotation that reaches 2 m, 0.03 mm assembly accuracy, under 1 mL dispensing error and +/-2 mm fabric alignment. Height, weight, DoF, payload and battery are not published on the reachable product page, so those fields stay empty."
  },
  {
   "id": "zvalley-z03",
@@ -23959,15 +24056,18 @@
   "price_usd": null,
   "price_note": null,
   "official_url": null,
-  "sources": [],
-  "summary": "",
+  "sources": [
+   "https://www.zoomlion.com/content/details20_34088.html"
+  ],
+  "summary": "Wheeled humanoid for factory sorting, picking, handling and precision sub-assembly work.",
   "image_url": null,
   "image_source": null,
   "videos": [],
   "seen_on": [
    "https://embodied.guide/robots/zoomlion-z03/"
   ],
-  "verification": null
+  "verification": "unconfirmed",
+  "notes": "Z03 is the wheeled humanoid of Zoomlion's ZValley (Cloud Valley) robot line, shown at WRC 2026 doing sorting and mirror pre-assembly. No maker specification page or datasheet was found; coverage describes the tasks only, so no figures are recorded."
  },
  {
   "id": "zte-xingqing",
@@ -23982,13 +24082,13 @@
   "width_mm": null,
   "height_mm": null,
   "weight_kg": null,
-  "payload_kg": null,
+  "payload_kg": 30,
   "max_speed_mps": null,
   "min_speed_mps": null,
   "wheel_diameter_mm": null,
   "wheel_count": null,
   "dof": null,
-  "runtime_h": null,
+  "runtime_h": 6,
   "battery_wh": null,
   "ip_rating": null,
   "api_support": null,
@@ -24000,16 +24100,19 @@
   "sensors": [],
   "price_usd": null,
   "price_note": null,
-  "official_url": null,
-  "sources": [],
-  "summary": "",
+  "official_url": "https://m.c114.com.cn/w127-1314330.html",
+  "sources": [
+   "https://m.c114.com.cn/w127-1314330.html"
+  ],
+  "summary": "Heavy-duty bipedal industrial humanoid preloaded with manufacturing and inspection skills.",
   "image_url": null,
   "image_source": null,
   "videos": [],
   "seen_on": [
    "https://embodied.guide/robots/zte-xingqing/"
   ],
-  "verification": null
+  "verification": "official",
+  "notes": "From ZTE's WAIC 2026 launch release: bipedal heavy-duty robot with the same payload as Xingwang ('over 30 kg', recorded as 30) and about 6 h runtime, preloaded with industrial operation skills. Height, weight, DoF and battery are not published."
  },
  {
   "id": "zte-xingwang",
@@ -24024,7 +24127,7 @@
   "width_mm": null,
   "height_mm": null,
   "weight_kg": null,
-  "payload_kg": null,
+  "payload_kg": 30,
   "max_speed_mps": null,
   "min_speed_mps": null,
   "wheel_diameter_mm": null,
@@ -24042,16 +24145,19 @@
   "sensors": [],
   "price_usd": null,
   "price_note": null,
-  "official_url": null,
-  "sources": [],
-  "summary": "",
+  "official_url": "https://m.c114.com.cn/w127-1314330.html",
+  "sources": [
+   "https://m.c114.com.cn/w127-1314330.html"
+  ],
+  "summary": "Wheeled heavy-duty industrial humanoid for material handling and power-facility inspection.",
   "image_url": null,
   "image_source": null,
   "videos": [],
   "seen_on": [
    "https://embodied.guide/robots/zte-xingwang/"
   ],
-  "verification": null
+  "verification": "official",
+  "notes": "From ZTE's WAIC 2026 launch release: wheeled heavy-duty robot with a payload of over 30 kg (recorded as 30), already deployed in advanced manufacturing and power-grid inspection. Height, weight, DoF, runtime and battery are not published."
  },
  {
   "id": "zte-xingzai",
@@ -24064,8 +24170,8 @@
   "status": null,
   "length_mm": null,
   "width_mm": null,
-  "height_mm": null,
-  "weight_kg": null,
+  "height_mm": 1600,
+  "weight_kg": 30,
   "payload_kg": null,
   "max_speed_mps": null,
   "min_speed_mps": null,
@@ -24084,16 +24190,19 @@
   "sensors": [],
   "price_usd": null,
   "price_note": null,
-  "official_url": null,
-  "sources": [],
-  "summary": "",
+  "official_url": "https://m.c114.com.cn/w127-1314330.html",
+  "sources": [
+   "https://m.c114.com.cn/w127-1314330.html"
+  ],
+  "summary": "Lightweight full-size bipedal commercial-service humanoid for reception, exhibition guidance and enquiries.",
   "image_url": null,
   "image_source": null,
   "videos": [],
   "seen_on": [
    "https://embodied.guide/robots/zte-xingzai/"
   ],
-  "verification": null
+  "verification": "official",
+  "notes": "Figures are from ZTE's WAIC 2026 launch release (July 2026). Weight is stated as '30-odd kg', recorded as 30. Tendon-driven lightweight frame with a soft lattice skin and bionic walking gait. DoF, payload, runtime and price are not published, and ZTE says the robot business has no material revenue yet."
  },
  {
   "id": "psibot-synrobot",
