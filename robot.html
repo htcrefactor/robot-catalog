@@ -8,12 +8,16 @@ document.title=`${r.manufacturer} ${r.name} — ${t("brand")}`;{const m=document
 const row=(k,v)=>`<tr><td>${t(k)}</td><td>${v}</td></tr>`;
 const dims=[r.length_mm,r.width_mm,r.height_mm].some(v=>v!=null)?[r.length_mm,r.width_mm,r.height_mm].map(v=>v??"?").join(" × ")+" mm":"—";
 const peers=d.robots.filter(x=>x.category===r.category&&x.id!==r.id);
+// "Suggest a correction" opens the correction issue form with this record's id filled in.
+const ISSUES_NEW="https://github.com/htcrefactor/robot-catalog/issues/new";
+const correctionUrl=()=>ISSUES_NEW+"?template=correction.yml&title="+encodeURIComponent(`[Correction] ${r.manufacturer} ${r.name}`)+"&robot_id="+encodeURIComponent(r.id)+"&robot_name="+encodeURIComponent(`${r.manufacturer} ${r.name}`)+"&robot_page="+encodeURIComponent(location.href);
 const price=r.price_usd==null?(r.price_note?esc(r.price_note):"—"):`$${r.price_usd.toLocaleString()}${r.price_note?` <span class="muted small">(${esc(r.price_note)})</span>`:""}`;
 m.innerHTML=`<p class="small"><a href="index.html">${t("back")}</a></p>
 <div class="muted" style="text-transform:uppercase;font-size:12px;letter-spacing:.5px">${esc(r.manufacturer)} · ${esc(tv(r.country))}</div>
 <h1>${esc(r.name)}</h1>
 <p><span class="tag" style="background:${CAT_COLORS[r.category]}22;color:${CAT_COLORS[r.category]}">${esc(tv(r.category))}</span><span class="tag plain">${esc(tv(r.locomotion))}</span><span class="tag plain">${esc(tv(r.status))}</span></p>
 <p>${esc(LANG==="ko"&&r.summary_ko?r.summary_ko:r.summary)}${LANG==="ko"&&!r.summary_ko&&r.summary?` <span class="muted small">(${t("summary_lang_note")})</span>`:""}</p>
+<p class="small"><a href="${esc(correctionUrl())}" target="_blank" rel="noopener">${t("suggest_correction")}</a></p>
 <div class="spec">
 <div class="panel"><h2>${t("body_motion")}</h2><table>${row("dims",dims)}${row("weight",fmt(r.weight_kg,"kg"))}${row("payload",fmt(r.payload_kg,"kg"))}${row("max_speed",r.max_speed_mps==null?"—":`${fmt(r.max_speed_mps,"m/s")} (${fmt(kmh(r.max_speed_mps),"km/h")})`)}${row("min_speed",fmt(r.min_speed_mps,"m/s"))}${row("wheel_d",fmt(r.wheel_diameter_mm,"mm"))}${row("wheels",fmt(r.wheel_count))}${row("dof",fmt(r.dof))}</table></div>
 <div class="panel"><h2>${t("power_env")}</h2><table>${row("runtime",fmt(r.runtime_h,"h"))}${row("battery",fmt(r.battery_wh,"Wh"))}${row("ip",fmt(r.ip_rating))}${row("released",fmt(r.release_year))}${row("price",price)}</table></div>

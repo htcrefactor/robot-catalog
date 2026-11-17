@@ -1,0 +1,118 @@
+name: "Correct a value / 정보 수정"
+description: "A number or fact on a robot page is wrong or out of date. A maker source URL is required. / 로봇 페이지의 값이 틀렸거나 오래되었을 때. 제조사 출처 URL은 필수입니다."
+title: "[Correction] "
+labels: ["type:fix"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for checking a value against the maker. / 제조사 자료와 대조해 주셔서 고맙습니다.
+
+        The maker's own page, datasheet, manual or press release is the only authority here. If two maker documents disagree, the catalog keeps one value and records the other in the record's `notes` — so tell us both if you have both.
+
+        여기서는 제조사 자체 페이지·데이터시트·매뉴얼·보도자료만 근거로 인정합니다. 제조사 문서끼리 값이 다르면 한 값을 유지하고 다른 값을 `notes`에 남기니, 두 값이 모두 있으면 함께 적어 주세요.
+
+        One field per issue is easiest to act on. / 이슈 하나에는 한 항목만 적어 주시면 처리하기 쉽습니다.
+
+  - type: input
+    id: robot_id
+    attributes:
+      label: "Robot ID / 로봇 ID"
+      description: "Filled in automatically from the robot page. It is the `id=` part of the page address, e.g. `robot.html?id=unitree-go2-pro`. / 로봇 페이지에서 자동으로 채워집니다. 주소의 `id=` 값입니다."
+      placeholder: "unitree-go2-pro"
+    validations:
+      required: true
+
+  - type: input
+    id: robot_name
+    attributes:
+      label: "Robot / 로봇"
+      description: "Maker and model, so the record is easy to find. / 제조사와 모델명."
+      placeholder: "Unitree Robotics Go2 Pro"
+    validations:
+      required: false
+
+  - type: input
+    id: robot_page
+    attributes:
+      label: "Catalog page / 카탈로그 페이지"
+      description: "Filled in automatically. / 자동으로 채워집니다."
+      placeholder: "https://htcrefactor.github.io/robot-catalog/robot.html?id=…"
+    validations:
+      required: false
+
+  - type: dropdown
+    id: field
+    attributes:
+      label: "Which value is wrong? / 어떤 값이 잘못되었나요?"
+      description: "The field name in brackets is the record key. / 괄호 안은 레코드 필드 이름입니다."
+      options:
+        - "Name or maker (name, manufacturer)"
+        - "Category or locomotion (category, locomotion)"
+        - "Status — commercial, research, discontinued… (status)"
+        - "Release year (release_year)"
+        - "Dimensions (length_mm, width_mm, height_mm)"
+        - "Weight (weight_kg)"
+        - "Payload (payload_kg)"
+        - "Max speed (max_speed_mps)"
+        - "Min speed (min_speed_mps)"
+        - "Wheel diameter (wheel_diameter_mm)"
+        - "Wheel count (wheel_count)"
+        - "Degrees of freedom (dof)"
+        - "Runtime (runtime_h)"
+        - "Battery (battery_wh)"
+        - "IP rating (ip_rating)"
+        - "Price (price_usd, price_note)"
+        - "API / SDK / ROS (api_support, sdk_available, sdk_name, ros_support)"
+        - "On-board compute (onboard_compute, compute_detail)"
+        - "Sensors (sensors)"
+        - "Summary or description (summary)"
+        - "Official page or sources (official_url, sources)"
+        - "Something else / 기타"
+    validations:
+      required: true
+
+  - type: textarea
+    id: current_value
+    attributes:
+      label: "Value the catalog shows now / 지금 카탈로그에 있는 값"
+      description: "Copy it from the page, with its unit. / 단위까지 그대로."
+      placeholder: "Payload 8 kg"
+    validations:
+      required: true
+
+  - type: textarea
+    id: correct_value
+    attributes:
+      label: "Correct value / 올바른 값"
+      description: "As the maker states it, with the unit. If the maker says nothing about this field, write \"not published\" — an empty field is allowed and better than a guess. / 제조사 표기 그대로, 단위 포함. 제조사가 밝히지 않았다면 \"미공개\"라고 적어 주세요. 추측보다 빈 항목이 낫습니다."
+      placeholder: "Payload 12 kg (standing) / 8 kg (walking)"
+    validations:
+      required: true
+
+  - type: input
+    id: source_url
+    attributes:
+      label: "Maker source URL / 제조사 출처 URL"
+      description: "The maker page, datasheet or manual that states the value. / 그 값이 적힌 제조사 페이지·데이터시트·매뉴얼."
+      placeholder: "https://www.unitree.com/go2"
+    validations:
+      required: true
+
+  - type: textarea
+    id: note
+    attributes:
+      label: "Extra context / 참고 사항"
+      description: "Where the old value came from, whether it was a different variant or an older revision, or anything a reviewer should know. / 이전 값의 출처, 다른 파생 모델이나 이전 리비전의 값인지 등."
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: "Before you submit / 제출 전 확인"
+      options:
+        - label: "The source URL is the maker's own page, datasheet, manual or release — not a reseller, competitor or aggregator. / 출처 URL은 리셀러·경쟁사·집계 사이트가 아닌 제조사 자체 자료입니다."
+          required: true
+        - label: "I read both values off the maker's material, not from memory. / 두 값 모두 기억이 아니라 제조사 자료에서 확인했습니다."
+          required: true
