@@ -347,6 +347,10 @@
   "sdk_name": null,
   "onboard_compute": null,
   "compute_detail": "NVIDIA Jetson Orin",
+  "compute_soc": "NVIDIA Jetson Orin",
+  "compute_tops": null,
+  "compute_memory_gb": null,
+  "compute_source": "https://www.serverobotics.com/robot",
   "ros_support": null,
   "sensors": [
    "Ouster REV7 digital LiDAR",
@@ -357,7 +361,8 @@
   "official_url": "https://www.serverobotics.com/robot",
   "sources": [
    "https://www.globenewswire.com/news-release/2024/10/16/2963910/0/en/Serve-Robotics-Rolls-Out-Third-Generation-Autonomous-Delivery-Robot-Platform-Upgrade-Will-Support-National-Scaling.html",
-   "https://www.sec.gov/Archives/edgar/data/1832483/000183248326000034/finalserve_investorxdeck.htm"
+   "https://www.sec.gov/Archives/edgar/data/1832483/000183248326000034/finalserve_investorxdeck.htm",
+   "https://www.serverobotics.com/robot"
   ],
   "summary": "Third-generation Level 4 sidewalk food-delivery robot built with Magna, running on Uber Eats and other platforms in US cities."
  },
@@ -878,6 +883,10 @@
   "sdk_name": null,
   "onboard_compute": true,
   "compute_detail": "Up to 15 TOPS processing",
+  "compute_soc": null,
+  "compute_tops": 15,
+  "compute_memory_gb": null,
+  "compute_source": "https://academy.pudutech.com/en/docs/chan-pin-jian-jie-mGSQ",
   "ros_support": null,
   "sensors": [
    "3x RGB-D depth cameras",
@@ -1889,6 +1898,10 @@
   "sdk_name": null,
   "onboard_compute": null,
   "compute_detail": "NVIDIA Xavier",
+  "compute_soc": "NVIDIA Jetson Xavier",
+  "compute_tops": null,
+  "compute_memory_gb": null,
+  "compute_source": "https://www.alpha-robot.com.cn/productrwx/139/detail/14.html",
   "ros_support": null,
   "sensors": [
    "16-line LiDAR ×2",
@@ -2037,6 +2050,10 @@
   "sdk_name": null,
   "onboard_compute": null,
   "compute_detail": "NVIDIA Jetson Thor (Moxi 2.0)",
+  "compute_soc": "NVIDIA Jetson Thor",
+  "compute_tops": null,
+  "compute_memory_gb": null,
+  "compute_source": "https://www.diligentrobots.com/blog/moxi2-0",
   "ros_support": null,
   "sensors": [
    "3D LiDAR (Moxi 2.0)"

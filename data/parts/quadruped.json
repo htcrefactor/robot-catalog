@@ -66,6 +66,10 @@
   "sdk_name": null,
   "onboard_compute": true,
   "compute_detail": "2× 8th Gen Intel Core i7 (6-core), 2× 8 GB RAM, 2× 240 GB SSD, Ubuntu 20.04",
+  "compute_soc": "Intel Core i7 (8th gen)",
+  "compute_tops": null,
+  "compute_memory_gb": 8,
+  "compute_source": null,
   "ros_support": true,
   "sensors": [
    "LiDAR (16-channel)",
@@ -279,6 +283,10 @@
   "sdk_name": null,
   "onboard_compute": true,
   "compute_detail": "Intel Core i5 (platform) + Intel Core i7 (user development); optional i7 or Orin NX (up to 3 devices)",
+  "compute_soc": "Intel Core i5 + Intel Core i7",
+  "compute_tops": null,
+  "compute_memory_gb": null,
+  "compute_source": "https://www.unitree.com/b2",
   "ros_support": null,
   "sensors": [
    "3D LiDAR",
@@ -320,6 +328,10 @@
   "sdk_name": null,
   "onboard_compute": true,
   "compute_detail": "8-core CPU (platform) + Intel Core i7 (user development); optional compute expansion dock",
+  "compute_soc": "Intel Core i7",
+  "compute_tops": null,
+  "compute_memory_gb": null,
+  "compute_source": "https://www.unitree.com/A2",
   "ros_support": null,
   "sensors": [
    "LiDAR",
@@ -402,6 +414,10 @@
   "sdk_name": "Lite3 Motion SDK",
   "onboard_compute": true,
   "compute_detail": "RK3588 motion host; NVIDIA Jetson Xavier NX perception host on Pro/LiDAR versions",
+  "compute_soc": "Rockchip RK3588 + NVIDIA Jetson Xavier NX",
+  "compute_tops": null,
+  "compute_memory_gb": null,
+  "compute_source": "https://developer.deeprobotics.cn/docs/lite3/guide/software/compute/",
   "ros_support": true,
   "sensors": [
    "Wide-angle camera",
@@ -412,7 +428,8 @@
   "price_note": null,
   "official_url": "https://www.deeprobotics.us/products/lite-3/",
   "sources": [
-   "https://www.deeprobotics.us/products/lite-3/"
+   "https://www.deeprobotics.us/products/lite-3/",
+   "https://developer.deeprobotics.cn/docs/lite3/guide/software/compute/"
   ],
   "summary": "Compact quadruped for robotics education, reinforcement-learning research and entertainment."
  },
@@ -443,6 +460,10 @@
   "sdk_name": null,
   "onboard_compute": true,
   "compute_detail": "NVIDIA Xavier, 32 GB RAM, 2 TB NVMe SSD",
+  "compute_soc": "NVIDIA Jetson Xavier",
+  "compute_tops": null,
+  "compute_memory_gb": 32,
+  "compute_source": "https://www.ghostrobotics.io/vision-60",
   "ros_support": true,
   "sensors": [
    "RGB camera ×5 (1080p)",
@@ -484,6 +505,10 @@
   "sdk_name": null,
   "onboard_compute": true,
   "compute_detail": "NVIDIA Jetson NX chip with dual co-processors, 8 GB RAM, 16 GB storage; Ubuntu + ROS 2",
+  "compute_soc": "NVIDIA Jetson Xavier NX",
+  "compute_tops": 21,
+  "compute_memory_gb": 8,
+  "compute_source": null,
   "ros_support": true,
   "sensors": [
    "Intel RealSense depth camera",
@@ -653,6 +678,10 @@
   "sdk_name": null,
   "onboard_compute": null,
   "compute_detail": "128 TOPS AI compute",
+  "compute_soc": null,
+  "compute_tops": 128,
+  "compute_memory_gb": null,
+  "compute_source": null,
   "ros_support": true,
   "sensors": [
    "360° LiDAR",
@@ -836,6 +865,10 @@
   "sdk_name": null,
   "onboard_compute": true,
   "compute_detail": "Intel Core i7 / 8 GB RAM perception processor + NVIDIA Jetson Xavier NX",
+  "compute_soc": "Intel Core i7 + NVIDIA Jetson Xavier NX",
+  "compute_tops": null,
+  "compute_memory_gb": 8,
+  "compute_source": "https://deep-website.oss-cn-hangzhou.aliyuncs.com/file/Jueying%20Mini.pdf",
   "ros_support": null,
   "sensors": [
    "LiDAR",
@@ -1036,6 +1069,10 @@
   "sdk_name": null,
   "onboard_compute": true,
   "compute_detail": "NVIDIA Jetson Xavier NX ×3",
+  "compute_soc": "NVIDIA Jetson Xavier NX",
+  "compute_tops": null,
+  "compute_memory_gb": null,
+  "compute_source": "https://www.unitree.com/b1/",
   "ros_support": null,
   "sensors": [
    "Intel RealSense D430 (x5)"
@@ -1190,6 +1227,10 @@
   "sdk_name": null,
   "onboard_compute": true,
   "compute_detail": "128 TOPS on-device AI",
+  "compute_soc": null,
+  "compute_tops": 128,
+  "compute_memory_gb": null,
+  "compute_source": "https://www.vbot.cn/Detail",
   "ros_support": null,
   "sensors": [
    "Binocular depth camera",
@@ -1601,6 +1642,10 @@
   "sdk_name": null,
   "onboard_compute": null,
   "compute_detail": "8-core CPU + 157 TOPS computing module",
+  "compute_soc": null,
+  "compute_tops": 157,
+  "compute_memory_gb": null,
+  "compute_source": "https://www.magiclabglobal.com/products/magicdog-y1/",
   "ros_support": null,
   "sensors": [
    "3D LiDAR",
@@ -1708,6 +1753,10 @@
   "sdk_name": null,
   "onboard_compute": true,
   "compute_detail": "NVIDIA Jetson AGX Orin 64GB + RK3588 (up to 275 TOPS)",
+  "compute_soc": "NVIDIA Jetson AGX Orin 64GB + Rockchip RK3588",
+  "compute_tops": 275,
+  "compute_memory_gb": 64,
+  "compute_source": "https://www.pudurobotics.com/en/products/d5",
   "ros_support": null,
   "sensors": [
    "Dual 96-line 3D LiDAR",
@@ -1952,6 +2001,10 @@
   "sdk_name": "OpenCat (C++/Arduino), OpenCat Python API, Petoi Coding Blocks",
   "onboard_compute": true,
   "compute_detail": "BiBoard ESP32-WROOM-32D (optional Raspberry Pi mount)",
+  "compute_soc": "Espressif ESP32",
+  "compute_tops": null,
+  "compute_memory_gb": null,
+  "compute_source": "https://www.petoi.com/products/petoi-robot-dog-bittle-x-voice-controlled",
   "ros_support": null,
   "sensors": [
    "6-axis IMU",
@@ -1961,7 +2014,8 @@
   "price_note": null,
   "official_url": "https://www.petoi.com/products/petoi-robot-dog-bittle-x-voice-controlled",
   "sources": [
-   "https://www.petoi.com/pages/robot-dog-bittle-x-technical-specifications"
+   "https://www.petoi.com/pages/robot-dog-bittle-x-technical-specifications",
+   "https://www.petoi.com/products/petoi-robot-dog-bittle-x-voice-controlled"
   ],
   "summary": "Palm-sized open-source, voice-controlled ESP32 robot dog kit for STEM education and hobby robotics, programmable in blocks, C++ and Python.",
   "image_url": null,
@@ -2001,6 +2055,10 @@
   "sdk_name": null,
   "onboard_compute": true,
   "compute_detail": "Raspberry Pi CM4 + ESP32-S3 MCU",
+  "compute_soc": "Raspberry Pi CM4 + Espressif ESP32-S3",
+  "compute_tops": null,
+  "compute_memory_gb": null,
+  "compute_source": "https://mangdang.store/products/mp2",
   "ros_support": true,
   "sensors": [
    "IMU",
@@ -2107,6 +2165,10 @@
   "sdk_name": null,
   "onboard_compute": true,
   "compute_detail": "3 onboard computers with Intel i7 hexa-core (one free for custom software); optional NVIDIA Jetson AGX Xavier",
+  "compute_soc": "Intel Core i7",
+  "compute_tops": null,
+  "compute_memory_gb": null,
+  "compute_source": "https://ethz.ch/content/dam/ethz/special-interest/mavt/robotics-n-intelligent-systems/rsl-dam/ROS2021/lec5/ANYbotics_ROS_Case_Study_2021.pdf",
   "ros_support": true,
   "sensors": [
    "LiDAR",
@@ -4254,6 +4316,10 @@
   "sdk_name": "genisom_L1_sdk (C++, UDP high-level API)",
   "onboard_compute": true,
   "compute_detail": "8-core CPU (EDU: NVIDIA Jetson Orin NX, 100 TOPS)",
+  "compute_soc": "NVIDIA Jetson Orin NX",
+  "compute_tops": 100,
+  "compute_memory_gb": null,
+  "compute_source": "https://www.genisomai.com/product-robot/L1",
   "ros_support": null,
   "sensors": [
    "IMU",
@@ -4348,6 +4414,10 @@
   "sdk_name": "genisom_robot_sdk",
   "onboard_compute": true,
   "compute_detail": "8-core CPU, 100 TOPS (Ultra: 128 TOPS)",
+  "compute_soc": null,
+  "compute_tops": 100,
+  "compute_memory_gb": null,
+  "compute_source": null,
   "ros_support": null,
   "sensors": [
    "2× 8 MP wide-angle cameras",
@@ -5079,6 +5149,10 @@
   "sdk_name": null,
   "onboard_compute": true,
   "compute_detail": "NVIDIA Jetson Xavier NX (Ubuntu)",
+  "compute_soc": "NVIDIA Jetson Xavier NX",
+  "compute_tops": null,
+  "compute_memory_gb": null,
+  "compute_source": null,
   "ros_support": true,
   "sensors": [
    "LiDAR (Livox Mid-360)",
@@ -5424,6 +5498,10 @@
   "sdk_name": "Micbot Reinforcement Learning SDK / T1 SDK",
   "onboard_compute": true,
   "compute_detail": "181 TOPS",
+  "compute_soc": null,
+  "compute_tops": 181,
+  "compute_memory_gb": null,
+  "compute_source": "https://www.micbotics.com/list_13/96.html",
   "ros_support": null,
   "sensors": [
    "HD depth camera",
@@ -6686,6 +6764,10 @@
   "sdk_name": null,
   "onboard_compute": true,
   "compute_detail": "NVIDIA Jetson Xavier NX (21 TOPS), 128 GB SSD",
+  "compute_soc": "NVIDIA Jetson Xavier NX",
+  "compute_tops": 21,
+  "compute_memory_gb": null,
+  "compute_source": null,
   "ros_support": null,
   "sensors": [
    "AI interactive camera",

@@ -10,7 +10,7 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 data = json.load(open(os.path.join(ROOT, "data", "robots.json"), encoding="utf-8"))
 updated = data["meta"].get("updated")
 
-urls = [(BASE, "1.0"), (BASE + "table.html", "0.8"),
+urls = [(BASE, "1.0"), (BASE + "chips.html", "0.8"), (BASE + "table.html", "0.8"),
         (BASE + "specs.html", "0.8"), (BASE + "dashboard.html", "0.6")]
 for r in sorted(data["robots"], key=lambda r: r["id"]):
     urls.append((BASE + "robot.html?id=" + quote(r["id"]), "0.7"))

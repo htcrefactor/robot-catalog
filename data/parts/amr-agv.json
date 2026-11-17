@@ -198,6 +198,10 @@
   "sdk_name": null,
   "onboard_compute": null,
   "compute_detail": "Solid-state military-spec computer with dedicated GPU",
+  "compute_soc": "Intel Core i7-6700TE",
+  "compute_tops": null,
+  "compute_memory_gb": 16,
+  "compute_source": "https://s3.amazonaws.com/assets.ottomotors.com/pdf/OTTO1500-v2-Datasheet-210406_eng.pdf",
   "ros_support": null,
   "sensors": [
    "4x Intel RealSense cameras",
@@ -208,7 +212,8 @@
   "price_note": null,
   "official_url": "https://ottomotors.com/1500",
   "sources": [
-   "https://www.rockwellautomation.com/content/dam/rockwell-automation/documents/pdf/events/automate/otto-1500-data-sheet.pdf"
+   "https://www.rockwellautomation.com/content/dam/rockwell-automation/documents/pdf/events/automate/otto-1500-data-sheet.pdf",
+   "https://s3.amazonaws.com/assets.ottomotors.com/pdf/OTTO1500-v2-Datasheet-210406_eng.pdf"
   ],
   "summary": "Heavy-duty AMR for pallet-sized loads up to 1,900 kg (capacity includes attachment) in demanding plants."
  },

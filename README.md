@@ -7,7 +7,7 @@ Product specs for mobile robots of all kinds — AMRs, AGVs, humanoids, quadrupe
 ## Layout
 - `data/parts/*.json` — source of truth, one file per category, one record per robot (see `data/SCHEMA.md`)
 - `data/robots.json` — merged file the site reads (`python scripts/merge.py`)
-- `index.html` (all robots) · `robot.html?id=…` (one robot) · `dashboard.html` (charts) · `table.html` (mega table)
+- `index.html` (all robots) · `robot.html?id=…` (one robot) · `chips.html` (robots by compute chip) · `dashboard.html` (charts) · `table.html` (mega table)
 
 ## Data rules
 Every number comes from a manufacturer page, datasheet or manual listed in that record's `sources`, except where noted below. Unknown values are `null` and show as "—" or "N/S" (not stated). Nothing is guessed.
