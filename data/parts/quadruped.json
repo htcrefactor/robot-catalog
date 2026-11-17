@@ -160,11 +160,22 @@
    "4D LiDAR L2",
    "HD wide-angle camera"
   ],
-  "price_usd": 1600,
-  "price_note": "tax and freight excluded",
+  "price_usd": null,
+  "price_note": null,
+  "price_observations": [
+   {
+    "date": "2026-11-17",
+    "amount": 1600,
+    "currency": "USD",
+    "kind": "from",
+    "source": "https://shop.unitree.com/products/unitree-go2",
+    "note": "Go2 Air without controller; US$1,850 with controller; tax and freight excluded"
+   }
+  ],
   "official_url": "https://www.unitree.com/go2",
   "sources": [
-   "https://www.unitree.com/go2"
+   "https://www.unitree.com/go2",
+   "https://shop.unitree.com/products/unitree-go2"
   ],
   "summary": "Entry consumer quadruped robot dog with 4D LiDAR for hobby and companionship use."
  },
@@ -201,11 +212,22 @@
    "HD wide-angle camera",
    "Wireless vector positioning module"
   ],
-  "price_usd": 2800,
-  "price_note": "tax and freight excluded",
+  "price_usd": null,
+  "price_note": null,
+  "price_observations": [
+   {
+    "date": "2026-11-17",
+    "amount": 2800,
+    "currency": "USD",
+    "kind": "list",
+    "source": "https://shop.unitree.com/products/unitree-go2",
+    "note": "Go2 Pro without controller; US$3,050 with controller; tax and freight excluded"
+   }
+  ],
   "official_url": "https://www.unitree.com/go2",
   "sources": [
-   "https://www.unitree.com/go2"
+   "https://www.unitree.com/go2",
+   "https://shop.unitree.com/products/unitree-go2"
   ],
   "summary": "Consumer quadruped with 4G, voice and side-follow features for enthusiasts."
  },
@@ -993,9 +1015,20 @@
   ],
   "price_usd": null,
   "price_note": null,
+  "price_observations": [
+   {
+    "date": "2026-11-17",
+    "amount": 50000,
+    "currency": "USD",
+    "kind": "list",
+    "source": "https://shop.unitree.com/products/aliengo",
+    "note": "store lists US$50,000 for Aliengo"
+   }
+  ],
   "official_url": "https://www.unitree.com/aliengo/",
   "sources": [
-   "https://www.unitree.com/aliengo/"
+   "https://www.unitree.com/aliengo/",
+   "https://shop.unitree.com/products/aliengo"
   ],
   "summary": "Industrial-level research quadruped with 12 servo motors, 13 kg load, C/C++ and ROS high/low-level control interfaces.",
   "image_url": null,
@@ -1094,11 +1127,30 @@
    "Foot-end force sensors (Edu)",
    "2D/3D LiDAR (Edu option)"
   ],
-  "price_usd": 2700,
-  "price_note": "Go1 Air $2,700; Go1 Pro $3,500 (tax/freight excluded); Edu by quote",
+  "price_usd": null,
+  "price_note": null,
+  "price_observations": [
+   {
+    "date": "2026-11-17",
+    "amount": 2700,
+    "currency": "USD",
+    "kind": "list",
+    "source": "https://shop.unitree.com/products/unitreeyushutechnologydog-artificial-intelligence-companion-bionic-companion-intelligent-robot-go1-quadruped-robot-dog",
+    "note": "Go1 Air"
+   },
+   {
+    "date": "2026-11-17",
+    "amount": 3500,
+    "currency": "USD",
+    "kind": "list",
+    "source": "https://shop.unitree.com/products/unitreeyushutechnologydog-artificial-intelligence-companion-bionic-companion-intelligent-robot-go1-quadruped-robot-dog",
+    "note": "Go1 Pro"
+   }
+  ],
   "official_url": "https://www.unitree.com/go1/",
   "sources": [
-   "https://www.unitree.com/go1/"
+   "https://www.unitree.com/go1/",
+   "https://shop.unitree.com/products/unitreeyushutechnologydog-artificial-intelligence-companion-bionic-companion-intelligent-robot-go1-quadruped-robot-dog"
   ],
   "summary": "Consumer-level bionic companion quadruped (12 kg) with super-sensing stereo cameras, AI compute and up to 3.7 m/s (Edu).",
   "image_url": null,
@@ -1293,11 +1345,30 @@
   "sensors": [
    "Camera (DFOV 122°)"
   ],
-  "price_usd": 3200,
-  "price_note": "D1 Pro $3,200; D1 Edu $6,080 (official store)",
+  "price_usd": null,
+  "price_note": null,
+  "price_observations": [
+   {
+    "date": "2026-11-17",
+    "amount": 3200,
+    "currency": "USD",
+    "kind": "list",
+    "source": "https://store.agibot.com/products/d1-pro",
+    "note": "D1 Pro"
+   },
+   {
+    "date": "2026-11-17",
+    "amount": 6080,
+    "currency": "USD",
+    "kind": "edu",
+    "source": "https://store.agibot.com/products/d1-edu",
+    "note": "D1 Edu"
+   }
+  ],
   "official_url": "https://store.agibot.com/products/d1-pro",
   "sources": [
-   "https://store.agibot.com/products/d1-pro"
+   "https://store.agibot.com/products/d1-pro",
+   "https://store.agibot.com/products/d1-edu"
   ],
   "summary": "Compact 12-DoF quadruped for remote operation and entertainment with RL gait control; Edu version adds SDK and expansion ports.",
   "image_url": "https://store.agibot.com/cdn/shop/files/AgiBotD1Edu.png?v=1764049158&width=2048",
@@ -1354,9 +1425,19 @@
   "sensors": [],
   "price_usd": null,
   "price_note": null,
+  "price_observations": [
+   {
+    "date": "2026-11-17",
+    "amount": 9600,
+    "currency": "USD",
+    "kind": "list",
+    "source": "https://store.agibot.com/products/d1-ultra"
+   }
+  ],
   "official_url": "https://www.agibot.com/products/D1Ultra",
   "sources": [
-   "https://www.agibot.com/products/D1Ultra"
+   "https://www.agibot.com/products/D1Ultra",
+   "https://store.agibot.com/products/d1-ultra"
   ],
   "summary": "Rugged IP54 quadruped with 3.7 m/s top speed, 5 kg payload and open SDK plus Ethernet/USB/UART expansion for LiDAR, depth camera or RTK.",
   "image_url": null,
@@ -1663,11 +1744,46 @@
    "8 MP wide-angle camera",
    "IMU"
   ],
-  "price_usd": 2990,
-  "price_note": "Aegis Classic - Pro sale price (list $4,490); Pro Edu $9,990; Ultra/Ultra W $12,990",
+  "price_usd": null,
+  "price_note": null,
+  "price_observations": [
+   {
+    "date": "2026-11-17",
+    "amount": 2490,
+    "currency": "USD",
+    "kind": "list",
+    "source": "https://shop.ff.com/products/aegis",
+    "note": "Aegis"
+   },
+   {
+    "date": "2026-11-17",
+    "amount": 2990,
+    "currency": "USD",
+    "kind": "list",
+    "source": "https://shop.ff.com/products/aegis",
+    "note": "Aegis Classic Pro"
+   },
+   {
+    "date": "2026-11-17",
+    "amount": 9990,
+    "currency": "USD",
+    "kind": "edu",
+    "source": "https://shop.ff.com/products/aegis",
+    "note": "Aegis Classic Edu"
+   },
+   {
+    "date": "2026-11-17",
+    "amount": 12990,
+    "currency": "USD",
+    "kind": "list",
+    "source": "https://shop.ff.com/products/aegis",
+    "note": "Aegis Classic Ultra, also the price of Classic Ultra-W"
+   }
+  ],
   "official_url": "https://robotics.ff.com/us/fx-aegis/",
   "sources": [
-   "https://robotics.ff.com/us/fx-aegis/"
+   "https://robotics.ff.com/us/fx-aegis/",
+   "https://shop.ff.com/products/aegis"
   ],
   "summary": "Compact quadruped (optional wheel-legged trim) for inspection, education and development, with swappable battery and open SDK/API on higher trims.",
   "image_url": "https://genesis-cdn.ff.com/assets/pages/us/robotics/fx-aegis-classic/hero.260919160406-default.jpg",
@@ -1812,8 +1928,17 @@
   "sensors": [
    "Paired smartphone camera/microphone"
   ],
-  "price_usd": 1990,
+  "price_usd": null,
   "price_note": null,
+  "price_observations": [
+   {
+    "date": "2026-11-17",
+    "amount": 1990,
+    "currency": "USD",
+    "kind": "list",
+    "source": "https://shop.ff.com/products/fx-navi"
+   }
+  ],
   "official_url": "https://shop.ff.com/products/fx-navi",
   "sources": [
    "https://shop.ff.com/products/fx-navi"
@@ -2262,8 +2387,17 @@
    "Wide-angle camera",
    "RTK"
   ],
-  "price_usd": 137900,
+  "price_usd": null,
   "price_note": null,
+  "price_observations": [
+   {
+    "date": "2026-11-17",
+    "amount": 137900,
+    "currency": "USD",
+    "kind": "list",
+    "source": "https://shop.ff.com/products/fx-aegis-hyper"
+   }
+  ],
   "official_url": "https://robotics.ff.com/us/fx-aegis-hyper/",
   "sources": [
    "https://robotics.ff.com/us/fx-aegis-hyper/",
@@ -2607,8 +2741,26 @@
    "Microphone",
    "GPS (Pro/X/EDU)"
   ],
-  "price_usd": 3100,
-  "price_note": "starting price (As2 Air) on Unitree shop; EDU via sales",
+  "price_usd": null,
+  "price_note": null,
+  "price_observations": [
+   {
+    "date": "2026-11-17",
+    "amount": 3100,
+    "currency": "USD",
+    "kind": "from",
+    "source": "https://shop.unitree.com/products/unitree-as2",
+    "note": "As2 Air"
+   },
+   {
+    "date": "2026-11-17",
+    "amount": 4650,
+    "currency": "USD",
+    "kind": "list",
+    "source": "https://shop.unitree.com/products/unitree-as2",
+    "note": "As2 Pro; As2 EDU by quote"
+   }
+  ],
   "official_url": "https://www.unitree.com/As2",
   "sources": [
    "https://www.unitree.com/As2",

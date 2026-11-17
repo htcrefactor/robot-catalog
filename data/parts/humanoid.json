@@ -32,15 +32,26 @@
    "3D LiDAR",
    "4-mic array"
   ],
-  "price_usd": 13500,
-  "price_note": "base G1 from US$13.5K (tax/shipping excl.); G1 EDU contact sales; 23 DoF base, 23-43 DoF EDU",
+  "price_usd": null,
+  "price_note": null,
+  "price_observations": [
+   {
+    "date": "2026-11-17",
+    "amount": 13500,
+    "currency": "USD",
+    "kind": "list",
+    "source": "https://shop.unitree.com/products/unitree-g1",
+    "note": "G1 base unit; G1 Pro US$21,500 on the same page; tax and freight excluded; G1 EDU by quote"
+   }
+  ],
   "official_url": "https://www.unitree.com/g1",
   "sources": [
    "https://www.unitree.com/g1",
    "https://github.com/unitreerobotics/unitree_sdk2",
    "https://humanoidstore.co/robots/unitree-g1",
    "https://humanoidstore.co/robots/unitree-g1-edu",
-   "https://humanoidstore.co/robots/unitree-g1-plus"
+   "https://humanoidstore.co/robots/unitree-g1-plus",
+   "https://shop.unitree.com/products/unitree-g1"
   ],
   "summary": "Compact, low-cost humanoid for research, education and development; arm payload ~2 kg (3 kg EDU), 9000 mAh quick-release battery."
  },
@@ -76,12 +87,23 @@
    "3D LiDAR",
    "Depth camera"
   ],
-  "price_usd": 90000,
-  "price_note": "list price per HumanoidStore, checked 2026-10",
+  "price_usd": null,
+  "price_note": null,
+  "price_observations": [
+   {
+    "date": "2026-11-17",
+    "amount": 90000,
+    "currency": "USD",
+    "kind": "list",
+    "source": "https://shop.unitree.com/products/unitree-h1",
+    "note": "store lists US$90,000 and titles the page \"Contact us for the real price\""
+   }
+  ],
   "official_url": "https://www.unitree.com/h1",
   "sources": [
    "https://www.unitree.com/h1",
-   "https://humanoidstore.co/robots/unitree-h1"
+   "https://humanoidstore.co/robots/unitree-h1",
+   "https://shop.unitree.com/products/unitree-h1"
   ],
   "summary": "Full-size research humanoid (dims 1520+285 x 570 x 220 mm) noted for 3.3 m/s running; H1-2 variant is 70 kg with 27 DoF."
  },
@@ -117,14 +139,25 @@
    "Wide-FOV binocular camera",
    "Array microphone"
   ],
-  "price_usd": 29900,
-  "price_note": "H2 US$29,900 (tax/shipping excl.); H2 EDU contact sales",
+  "price_usd": null,
+  "price_note": null,
+  "price_observations": [
+   {
+    "date": "2026-11-17",
+    "amount": 29900,
+    "currency": "USD",
+    "kind": "list",
+    "source": "https://shop.unitree.com/products/unitree-h2",
+    "note": "H2; tax and freight excluded; H2 EDU by quote"
+   }
+  ],
   "official_url": "https://www.unitree.com/H2",
   "sources": [
    "https://www.unitree.com/H2",
    "https://humanoidstore.co/robots/unitree-h2",
    "https://humanoidstore.co/robots/unitree-h2-edu",
-   "https://humanoidstore.co/robots/unitree-h2-plus"
+   "https://humanoidstore.co/robots/unitree-h2-plus",
+   "https://shop.unitree.com/products/unitree-h2"
   ],
   "summary": "180 cm full-size humanoid with bionic head; arm payload rated ~7 kg (peak ~15 kg)."
  },
@@ -769,12 +802,23 @@
   "compute_detail": null,
   "ros_support": null,
   "sensors": [],
-  "price_usd": 44560,
-  "price_note": "list 44560 USD (maker), per HumanoidStore, checked 2026-10",
+  "price_usd": null,
+  "price_note": null,
+  "price_observations": [
+   {
+    "date": "2026-11-17",
+    "amount": 44560,
+    "currency": "USD",
+    "kind": "list",
+    "source": "https://store.agibot.com/products/a2-lite",
+    "note": "store lists the A2 Lite at this price"
+   }
+  ],
   "official_url": "https://www.agibot.com.cn/products/A2_Ultra",
   "sources": [
    "https://humanoidstore.co/robots/agibot-a2",
-   "https://www.agibot.com.cn/products/A2_Ultra"
+   "https://www.agibot.com.cn/products/A2_Ultra",
+   "https://store.agibot.com/products/a2-lite"
   ],
   "summary": "Full-size humanoid from AgiBot; shipping now, anyone can order.",
   "data_source": "HumanoidStore + maker page"
@@ -923,12 +967,23 @@
   "compute_detail": null,
   "ros_support": null,
   "sensors": [],
-  "price_usd": 25600,
-  "price_note": "list 25600 USD (maker), per HumanoidStore, checked 2026-10",
+  "price_usd": null,
+  "price_note": null,
+  "price_observations": [
+   {
+    "date": "2026-11-17",
+    "amount": 25600,
+    "currency": "USD",
+    "kind": "list",
+    "source": "https://store.agibot.com/products/x2",
+    "note": "store lists the X2 Neo"
+   }
+  ],
   "official_url": "https://www.agibot.com.cn/products/X2",
   "sources": [
    "https://humanoidstore.co/robots/agibot-x2",
-   "https://www.agibot.com.cn/products/X2"
+   "https://www.agibot.com.cn/products/X2",
+   "https://store.agibot.com/products/x2"
   ],
   "summary": "Mid-size humanoid from AgiBot; shipping now, anyone can order.",
   "data_source": "HumanoidStore + maker page"
@@ -1839,11 +1894,21 @@
   "compute_detail": null,
   "ros_support": null,
   "sensors": [],
-  "price_usd": 2490,
-  "price_note": "list 2490 USD (maker), per HumanoidStore, checked 2026-10",
+  "price_usd": null,
+  "price_note": null,
+  "price_observations": [
+   {
+    "date": "2026-11-17",
+    "amount": 2490,
+    "currency": "USD",
+    "kind": "list",
+    "source": "https://shop.ff.com/products/ff-nova"
+   }
+  ],
   "official_url": null,
   "sources": [
-   "https://humanoidstore.co/robots/faraday-future-nova"
+   "https://humanoidstore.co/robots/faraday-future-nova",
+   "https://shop.ff.com/products/ff-nova"
   ],
   "summary": "Desktop-size humanoid from Faraday Future; preorder, anyone can order.",
   "data_source": "HumanoidStore open data (CC BY 4.0)"
@@ -1877,11 +1942,21 @@
   "compute_detail": null,
   "ros_support": null,
   "sensors": [],
-  "price_usd": 299,
-  "price_note": "list 299 USD (maker), per HumanoidStore, checked 2026-10",
+  "price_usd": null,
+  "price_note": null,
+  "price_observations": [
+   {
+    "date": "2026-11-17",
+    "amount": 299,
+    "currency": "USD",
+    "kind": "list",
+    "source": "https://shop.ff.com/products/ff-nova-mini"
+   }
+  ],
   "official_url": null,
   "sources": [
-   "https://humanoidstore.co/robots/faraday-future-nova-mini"
+   "https://humanoidstore.co/robots/faraday-future-nova-mini",
+   "https://shop.ff.com/products/ff-nova-mini"
   ],
   "summary": "Desktop-size humanoid from Faraday Future; shipping now, anyone can order.",
   "data_source": "HumanoidStore open data (CC BY 4.0)"
@@ -4349,13 +4424,32 @@
   "compute_detail": null,
   "ros_support": null,
   "sensors": [],
-  "price_usd": 5900,
-  "price_note": "list 5900 USD (maker), per HumanoidStore, checked 2026-10",
+  "price_usd": null,
+  "price_note": null,
+  "price_observations": [
+   {
+    "date": "2026-11-17",
+    "amount": 5900,
+    "currency": "USD",
+    "kind": "list",
+    "source": "https://shop.unitree.com/products/unitree-r1",
+    "note": "R1; R1 Air US$4,900 on the same page"
+   },
+   {
+    "date": "2026-11-17",
+    "amount": 10500,
+    "currency": "USD",
+    "kind": "edu",
+    "source": "https://shop.unitree.com/products/unitree-r1",
+    "note": "R1 EDU"
+   }
+  ],
   "official_url": null,
   "sources": [
    "https://humanoidstore.co/robots/unitree-r1",
    "https://humanoidstore.co/robots/unitree-r1-air",
-   "https://humanoidstore.co/robots/unitree-r1-edu"
+   "https://humanoidstore.co/robots/unitree-r1-edu",
+   "https://shop.unitree.com/products/unitree-r1"
   ],
   "summary": "Compact humanoid from Unitree Robotics; shipping now, anyone can order.",
   "data_source": "HumanoidStore open data (CC BY 4.0)"
@@ -5969,8 +6063,26 @@
    "6-axis IMU",
    "Head touch sensor"
   ],
-  "price_usd": 37990,
-  "price_note": "Master Classic Edu MSRP on shop.ff.com; Ultra $64,990",
+  "price_usd": null,
+  "price_note": null,
+  "price_observations": [
+   {
+    "date": "2026-11-17",
+    "amount": 37990,
+    "currency": "USD",
+    "kind": "edu",
+    "source": "https://shop.ff.com/products/master",
+    "note": "Master Classic Edu"
+   },
+   {
+    "date": "2026-11-17",
+    "amount": 64990,
+    "currency": "USD",
+    "kind": "list",
+    "source": "https://shop.ff.com/products/master",
+    "note": "Master Classic Ultra"
+   }
+  ],
   "official_url": "https://robotics.ff.com/us/ff-master",
   "sources": [
    "https://robotics.ff.com/us/",
@@ -6650,8 +6762,26 @@
    "Shoulder touch sensors",
    "8-mic array"
   ],
-  "price_usd": 89900,
-  "price_note": "MSRP, standard All-New Futurist (Ultra $129,900)",
+  "price_usd": null,
+  "price_note": null,
+  "price_observations": [
+   {
+    "date": "2026-11-17",
+    "amount": 89900,
+    "currency": "USD",
+    "kind": "list",
+    "source": "https://shop.ff.com/products/ff-all-new-futurist",
+    "note": "All-New Futurist"
+   },
+   {
+    "date": "2026-11-17",
+    "amount": 129900,
+    "currency": "USD",
+    "kind": "list",
+    "source": "https://shop.ff.com/products/ff-all-new-futurist",
+    "note": "All-New Futurist Ultra"
+   }
+  ],
   "official_url": "https://robotics.ff.com/us/futurist/",
   "sources": [
    "https://shop.ff.com/products/ff-all-new-futurist",

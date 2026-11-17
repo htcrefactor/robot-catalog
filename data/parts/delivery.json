@@ -833,13 +833,24 @@
    "Cameras",
    "Radar"
   ],
-  "price_usd": 2475,
+  "price_usd": null,
   "price_note": null,
+  "price_observations": [
+   {
+    "date": "2026-11-17",
+    "amount": 2475,
+    "currency": "USD",
+    "kind": "list",
+    "source": "https://shop.piaggiofastforward.com/",
+    "note": "price on the official shop page"
+   }
+  ],
   "official_url": "https://piaggiofastforward.com/shop/gitamini",
   "sources": [
    "https://knowledge.mygita.com/gitamini-physical-overview",
    "https://piaggiofastforward.com/shop/gitamini",
-   "https://piaggiofastforward.com/blog/choose-your-robot-gitaplus-vs-gitamini"
+   "https://piaggiofastforward.com/blog/choose-your-robot-gitaplus-vs-gitamini",
+   "https://shop.piaggiofastforward.com/"
   ],
   "summary": "Compact self-balancing robot from Piaggio Fast Forward that follows its owner on foot while carrying up to 20 lb of cargo.",
   "image_url": null,
@@ -1946,11 +1957,22 @@
    "Cameras",
    "Sensors array (leader following)"
   ],
-  "price_usd": 2475,
-  "price_note": "list price on official shop",
+  "price_usd": null,
+  "price_note": null,
+  "price_observations": [
+   {
+    "date": "2026-11-17",
+    "amount": 2475,
+    "currency": "USD",
+    "kind": "list",
+    "source": "https://shop.piaggiofastforward.com/",
+    "note": "price on the official shop page"
+   }
+  ],
   "official_url": "https://piaggiofastforward.com/shop/gitaplus",
   "sources": [
-   "https://piaggiofastforward.com/shop/gitaplus"
+   "https://piaggiofastforward.com/shop/gitaplus",
+   "https://shop.piaggiofastforward.com/"
   ],
   "summary": "Larger following cargo robot from Piaggio Fast Forward that carries up to 40 lb behind its user.",
   "image_url": "https://a.storyblok.com/f/255103/1036x1200/fe5fe271e6/product_rapidblue_desktop_1_2x.webp",

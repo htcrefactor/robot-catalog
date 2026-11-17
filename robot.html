@@ -1,14 +1,14 @@
-<!doctype html><html lang="en"><head><script async src="https://www.googletagmanager.com/gtm.js?id=GTM-N5QZLXVX"></script><script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());</script><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><link rel="stylesheet" href="assets/style.css"><script src="assets/i18n.js"></script><script src="assets/specs-i18n.js"></script><script src="assets/app.js"></script><meta name="description" content="Full published specs for a mobile robot, with sources."><title>Robot Catalog</title></head>
+<!doctype html><html lang="en"><head><script async src="https://www.googletagmanager.com/gtm.js?id=GTM-N5QZLXVX"></script><script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());</script><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><link rel="stylesheet" href="assets/style.css"><script src="assets/i18n.js"></script><script src="assets/specs-i18n.js"></script><script src="assets/app.js"></script><script src="assets/price.js"></script><meta name="description" content="Full published specs for a mobile robot, with sources."><title>Robot Catalog</title></head>
 <body><script>nav("")</script><main id="m"><p class="muted">…</p></main><div id="foot"></div>
 <script>
-(async()=>{const d=await loadData();const id=new URLSearchParams(location.search).get("id");
+(async()=>{const d=await loadData();const fx=await loadFx();const id=new URLSearchParams(location.search).get("id");
 const r=d.robots.find(x=>x.id===id)||d.robots.find(x=>(x.variants||[]).some(v=>v.id===id));const m=document.getElementById("m");document.getElementById("foot").innerHTML=footer(d.meta);
 if(!r){m.innerHTML=`<h1>${t("not_found")}</h1><p><a href="index.html">${t("back")}</a></p>`;return;}
 document.title=`${r.manufacturer} ${r.name} — ${t("brand")}`;{const m=document.querySelector('meta[name="description"]');if(m)m.content=`${r.manufacturer} ${r.name} specs: every published value with sources — Robot Catalog`};
 const row=(k,v)=>`<tr><td>${t(k)}</td><td>${v}</td></tr>`;
 const dims=[r.length_mm,r.width_mm,r.height_mm].some(v=>v!=null)?[r.length_mm,r.width_mm,r.height_mm].map(v=>v??"?").join(" × ")+" mm":"—";
 const peers=d.robots.filter(x=>x.category===r.category&&x.id!==r.id);
-const price=r.price_usd==null?(r.price_note?esc(r.price_note):"—"):`$${r.price_usd.toLocaleString()}${r.price_note?` <span class="muted small">(${esc(r.price_note)})</span>`:""}`;
+const price=(()=>{const o=latestObs(r);if(o)return priceText(o,fx);return r.price_usd==null?(r.price_note?esc(r.price_note):"—"):`$${r.price_usd.toLocaleString()}${r.price_note?` <span class="muted small">(${esc(r.price_note)})</span>`:""}`;})();
 m.innerHTML=`<p class="small"><a href="index.html">${t("back")}</a></p>
 <div class="muted" style="text-transform:uppercase;font-size:12px;letter-spacing:.5px">${esc(r.manufacturer)} · ${esc(tv(r.country))}</div>
 <h1>${esc(r.name)}</h1>
@@ -19,6 +19,7 @@ m.innerHTML=`<p class="small"><a href="index.html">${t("back")}</a></p>
 <div class="panel"><h2>${t("power_env")}</h2><table>${row("runtime",fmt(r.runtime_h,"h"))}${row("battery",fmt(r.battery_wh,"Wh"))}${row("ip",fmt(r.ip_rating))}${row("released",fmt(r.release_year))}${row("price",price)}</table></div>
 <div class="panel"><h2>${t("soft_compute")}</h2><table>${row("api",yn(r.api_support))}${row("sdk",yn(r.sdk_available)+(r.sdk_name?` <span class="small">${esc(r.sdk_name)}</span>`:""))}${row("ros",yn(r.ros_support))}${row("onboard",yn(r.onboard_compute))}${row("compute",fmt(r.compute_detail))}${row("sensors",(r.sensors||[]).map(esc).join(", ")||"—")}</table></div>
 </div>
+${pricePanel(r,fx)}
 ${r.misc_reason?`<div class="panel small"><b>${t("misc_why")}</b> ${esc(r.misc_reason)}</div>`:""}${(r.variants||[]).length?`<div class="panel"><h2>${t("variants")}</h2><ul class="small">${r.variants.map(v=>`<li><b>${esc(v.name)}</b> — ${esc(LANG==="ko"&&v.note_ko?v.note_ko:v.note)}${v.url?` <a href="${esc(v.url)}" target="_blank" rel="noopener">↗</a>`:""}</li>`).join("")}</ul></div>`:""}
 <div id="full"></div>
 <div class="panel"><h2>${t("sources")}</h2>${r.official_url?`<p><a href="${esc(r.official_url)}" target="_blank" rel="noopener">${t("official")}</a></p>`:""}<ul class="small">${(r.sources||[]).map(s=>`<li><a href="${esc(s)}" target="_blank" rel="noopener">${esc(s)}</a></li>`).join("")}</ul></div>

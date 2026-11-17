@@ -2056,10 +2056,21 @@
    "SLAM navigation sensors"
   ],
   "price_usd": null,
-  "price_note": "RaaS from US$2,190/robot/month (min. 15 robots)",
+  "price_note": null,
+  "price_observations": [
+   {
+    "date": "2026-11-17",
+    "amount": 2190,
+    "currency": "USD",
+    "kind": "rental",
+    "source": "https://www.brightpick.ai/pricing",
+    "note": "Robots-as-a-Service: per robot per month, minimum 15 robots per installation, 3-year term"
+   }
+  ],
   "official_url": "https://brightpick.ai/autopicker/",
   "sources": [
-   "https://brightpick.ai/autopicker/"
+   "https://brightpick.ai/autopicker/",
+   "https://www.brightpick.ai/pricing"
   ],
   "summary": "Multi-purpose warehouse mobile manipulator that robotically picks items in the aisles and also handles goods-to-person, replenishment, buffering and sortation.",
   "image_url": null,

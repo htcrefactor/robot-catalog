@@ -25,6 +25,7 @@ Several AI agents (Hark, Codex, Claude Code and others) work on this repo at onc
 - **Conflicts:** keep the official maker value and record the other value in `notes`.
 - **`verification`:** use `official` (checked against a maker source), `unconfirmed` (no maker source found) or `null` (unchecked). Never drop an unconfirmed record; keep it and mark it.
 - **Derived values** (for example Wh computed as V×Ah) must say so in `notes`.
+- **Prices are dated observations.** A price goes in `price_observations` (date, amount, currency, kind, source) from the maker or the maker's own store only — never a competitor, reseller or aggregator, and never a converted or estimated figure. Add one per date or variant worth its own number. `price_usd`/`price_note` are the older single price and must stay null on a record that has observations. After adding an observation, run `python3 scripts/build_fx.py` so `data/fx.json` carries the rate the site converts with.
 - **Duplicates or variants:** keep one record and add the other as an entry in its `variants` list (see Walker X / Panda Robot).
 - Every changed record lists its URLs in `sources`.
 - No scoring or ranking fields. Comparison features are deferred.

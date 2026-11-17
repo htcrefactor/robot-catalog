@@ -232,12 +232,32 @@
    "IMU",
    "RGBD camera (optional)"
   ],
-  "price_usd": 15000,
-  "price_note": "Standard Edition on LimX online shop (EDU Ed. $25,000)",
+  "price_usd": null,
+  "price_note": null,
+  "price_observations": [
+   {
+    "date": "2026-11-17",
+    "amount": 15000,
+    "currency": "USD",
+    "kind": "list",
+    "source": "https://shop.limxdynamics.com/products/point-foot-pipedal-robot-for-reserach",
+    "note": "TRON 1 Standard Edition"
+   },
+   {
+    "date": "2026-11-17",
+    "amount": 25000,
+    "currency": "USD",
+    "kind": "edu",
+    "source": "https://shop.limxdynamics.com/products/tron-1-edu",
+    "note": "TRON 1 Educational Edition"
+   }
+  ],
   "official_url": "https://www.limxdynamics.com/en/products/tron1",
   "sources": [
    "https://www.limxdynamics.com/en/products/tron1/spec",
-   "https://www.limxdynamics.com/en/tron1"
+   "https://www.limxdynamics.com/en/tron1",
+   "https://shop.limxdynamics.com/products/point-foot-pipedal-robot-for-reserach",
+   "https://shop.limxdynamics.com/products/tron-1-edu"
   ],
   "summary": "Multi-modal biped research robot with swappable point-foot, sole and wheeled feet for RL and embodied-AI research; ≤3 m/s in wheeled mode, open SDK with Isaac/MuJoCo/Gazebo support."
  },
@@ -824,8 +844,18 @@
    "Ultrasonic radar",
    "RTK"
   ],
-  "price_usd": 74990,
+  "price_usd": null,
   "price_note": null,
+  "price_observations": [
+   {
+    "date": "2026-11-17",
+    "amount": 74990,
+    "currency": "USD",
+    "kind": "list",
+    "source": "https://shop.ff.com/products/fx-aegis-mega",
+    "note": "Aegis Mega A and Mega D are the same price"
+   }
+  ],
   "official_url": "http://robotics.ff.com/us/fx-aegis-mega/",
   "sources": [
    "http://robotics.ff.com/us/fx-aegis-mega/",
@@ -871,12 +901,23 @@
   "compute_detail": null,
   "ros_support": null,
   "sensors": [],
-  "price_usd": 12990,
+  "price_usd": null,
   "price_note": null,
+  "price_observations": [
+   {
+    "date": "2026-11-17",
+    "amount": 12990,
+    "currency": "USD",
+    "kind": "list",
+    "source": "https://shop.ff.com/products/aegis",
+    "note": "Aegis Classic Ultra-W"
+   }
+  ],
   "official_url": "https://www.ff.com/us/919-ff-eai-robotics/",
   "sources": [
    "https://www.ff.com/us/919-ff-eai-robotics/",
-   "https://app-us.ff.com/ff-v3/news/1625?lang=en-US"
+   "https://app-us.ff.com/ff-v3/news/1625?lang=en-US",
+   "https://shop.ff.com/products/aegis"
   ],
   "summary": "Lightweight 22 kg wheel-legged trim of the FX Aegis Classic for security and companionship, $12,990 with a $3,000 skills package.",
   "image_url": null,
