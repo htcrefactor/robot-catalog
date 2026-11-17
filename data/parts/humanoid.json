@@ -249,9 +249,14 @@
   "sources": [
    "https://www.tesla.com/AI",
    "https://tech.yahoo.com/general/articles/tesla-starts-optimus-production-elon-215423739.html",
-   "https://humanoidstore.co/robots/tesla-optimus"
+   "https://humanoidstore.co/robots/tesla-optimus",
+   "https://www.tesla.com/SI"
   ],
-  "summary": "General-purpose bipedal humanoid; Tesla began 'early production' at Fremont in Oct 2026 with external deliveries targeted for late 2027; Tesla publishes no official spec sheet or price."
+  "summary": "General-purpose bipedal humanoid; Tesla began 'early production' at Fremont in Oct 2026 with external deliveries targeted for late 2027; Tesla publishes no official spec sheet or price.",
+  "image_url": "https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Tesla-Bot-AI.jpg",
+  "videos": [],
+  "note": "Media (2026-11-17): tesla.com/AI now redirects to tesla.com/SI (SI & Robotics); the 'Tesla Bot' image above is published there. Tesla publishes no Optimus demo video on that page (its video is about the FSD network), so no video is recorded.",
+  "image_source": "https://www.tesla.com/SI"
  },
  {
   "id": "boston-dynamics-atlas",
@@ -420,9 +425,40 @@
   "official_url": "https://www.fftai.com/grx/gr3",
   "sources": [
    "https://support.fftai.com/en/gr3/getting-started/general-information",
-   "https://humanoidstore.co/robots/fourier-gr3"
+   "https://humanoidstore.co/robots/fourier-gr3",
+   "https://www.fftai.com/grx/gr3"
   ],
-  "summary": "'Care-bot' companion humanoid for public service and care settings; DoF is up to 55 with optional 12-DoF hands; 702+234 Wh hot-swap batteries; 6.1 km/h walk converted."
+  "summary": "'Care-bot' companion humanoid for public service and care settings; DoF is up to 55 with optional 12-DoF hands; 702+234 Wh hot-swap batteries; 6.1 km/h walk converted.",
+  "image_url": "https://www.fftai.com/images/gr3/gr3-mb.png",
+  "videos": [
+   {
+    "url": "https://www.fftai.com/videos/gr3/walk.mp4",
+    "title": "GR-3 — walking demo",
+    "channel": "Fourier"
+   },
+   {
+    "url": "https://www.fftai.com/videos/gr3/terrain-walk.mp4",
+    "title": "GR-3 — walking over rough terrain",
+    "channel": "Fourier"
+   },
+   {
+    "url": "https://www.fftai.com/videos/gr3/operation.mp4",
+    "title": "GR-3 — manipulation demo",
+    "channel": "Fourier"
+   },
+   {
+    "url": "https://www.fftai.com/videos/gr3/stability.mp4",
+    "title": "GR-3 — stability push test",
+    "channel": "Fourier"
+   },
+   {
+    "url": "https://www.fftai.com/videos/gr3/pingpong.mp4",
+    "title": "GR-3 — playing ping-pong",
+    "channel": "Fourier"
+   }
+  ],
+  "note": "Media (2026-11-17): product render gr3-mb.png and the demo clips (walk, terrain-walk, operation, stability, ping-pong) are served from fftai.com's GR-3 page.",
+  "image_source": "https://www.fftai.com/grx/gr3"
  },
  {
   "id": "agibot-a2-ultra",
@@ -659,12 +695,17 @@
   "sensors": [],
   "price_usd": null,
   "price_note": null,
-  "official_url": null,
+  "official_url": "https://www.1x.tech/eve",
   "sources": [
-   "https://humanoidstore.co/robots/1x-technologies-eve"
+   "https://humanoidstore.co/robots/1x-technologies-eve",
+   "https://www.1x.tech/eve"
   ],
   "summary": "Wheeled (bimanual torso on a wheeled base) humanoid from 1X Technologies; b2b only, sold to businesses.",
-  "data_source": "HumanoidStore open data (CC BY 4.0)"
+  "data_source": "HumanoidStore open data (CC BY 4.0)",
+  "image_url": "https://image.mux.com/uw4pe1rSWH6ho4sahqI5VFAJskWuNEaQYlxsqxYONSY/thumbnail.webp?width=1920&time=14",
+  "videos": [],
+  "note": "Media (2026-11-17): 1X's EVE page shows the robot only inside its hero film; the still above is a frame of that film (Mux, time=14s). The film is a Mux HLS stream with no downloadable file, so no video entry is recorded.",
+  "image_source": "https://www.1x.tech/eve"
  },
  {
   "id": "aeirobot-alice-4",
@@ -1270,12 +1311,21 @@
   "sensors": [],
   "price_usd": 13500,
   "price_note": "list 13500 USD (maker), per HumanoidStore, checked 2026-10",
-  "official_url": null,
+  "official_url": "https://www.astribot.com/en",
   "sources": [
-   "https://humanoidstore.co/robots/astribot-t1"
+   "https://humanoidstore.co/robots/astribot-t1",
+   "https://www.astribot.com/en"
   ],
   "summary": "Wheeled (bimanual torso on a wheeled base) humanoid from Astribot; shipping now, sold to businesses.",
-  "data_source": "HumanoidStore open data (CC BY 4.0)"
+  "data_source": "HumanoidStore open data (CC BY 4.0)",
+  "videos": [
+   {
+    "url": "https://www.astribot.com/index/t1banner/banner.mp4",
+    "title": "Astribot T1 — official banner film",
+    "channel": "Astribot"
+   }
+  ],
+  "note": "Media (2026-11-17): the T1 still cannot be hotlinked — astribot.com serves its product images from Aliyun OSS with short-lived signed URLs, and the stable poster path is 404. The banner film above is served from the site's own /index/t1banner/ path. Astribot has no dedicated T1 product page yet; T1 is presented on the home page."
  },
  {
   "id": "kinisi-kr1",
@@ -2073,10 +2123,14 @@
   "price_note": null,
   "official_url": null,
   "sources": [
-   "https://humanoidstore.co/robots/fourier-intelligence-gr-2"
+   "https://humanoidstore.co/robots/fourier-intelligence-gr-2",
+   "https://www.fftai.com/grx/gr3"
   ],
   "summary": "Full-size humanoid from Fourier; b2b only, sold to businesses.",
-  "data_source": "HumanoidStore open data (CC BY 4.0)"
+  "data_source": "HumanoidStore open data (CC BY 4.0)",
+  "image_url": "https://www.fftai.com/images/grx/gr2.jpg",
+  "note": "Media (2026-11-17): product image grx/gr2.jpg is the GR-2 card in Fourier's GRx family section on the official GR-3 page; the section carries no video.",
+  "image_source": "https://www.fftai.com/grx/gr3"
  },
  {
   "id": "fourier-n1",
@@ -2112,10 +2166,21 @@
   "official_url": "https://support-old.fftai.com/en/docs/GR-X-Humanoid-Robot/Fouriern1/N1_Introduction/",
   "sources": [
    "https://humanoidstore.co/robots/fourier-n1",
-   "https://support-old.fftai.com/en/docs/GR-X-Humanoid-Robot/Fouriern1/N1_Introduction/"
+   "https://support-old.fftai.com/en/docs/GR-X-Humanoid-Robot/Fouriern1/N1_Introduction/",
+   "https://www.fftai.com/ecosystem/n1"
   ],
   "summary": "Mid-size humanoid from Fourier; shipping now, anyone can order.",
-  "data_source": "HumanoidStore + maker page"
+  "data_source": "HumanoidStore + maker page",
+  "image_url": "https://www.fftai.com/images/n1/robot.png",
+  "videos": [
+   {
+    "url": "https://www.fftai.com/videos/n1/banner-video.mp4",
+    "title": "N1 — outdoor running test",
+    "channel": "Fourier"
+   }
+  ],
+  "note": "Media (2026-11-17): product render images/n1/robot.png and the hero film videos/n1/banner-video.mp4 come from the official N1 page (fftai.com/ecosystem/n1).",
+  "image_source": "https://www.fftai.com/ecosystem/n1"
  },
  {
   "id": "galaxea-r1",
@@ -2794,12 +2859,17 @@
   "sensors": [],
   "price_usd": null,
   "price_note": null,
-  "official_url": null,
+  "official_url": "https://www.lg.com/global/newsroom/news/home-appliance-solution/lg-electronics-presents-lg-cloid-home-robot-to-demonstrate-zero-labor-home-at-ces-2026/",
   "sources": [
-   "https://humanoidstore.co/robots/lg-cloid"
+   "https://humanoidstore.co/robots/lg-cloid",
+   "https://www.lg.com/global/newsroom/news/home-appliance-solution/lg-electronics-presents-lg-cloid-home-robot-to-demonstrate-zero-labor-home-at-ces-2026/"
   ],
   "summary": "Wheeled (bimanual torso on a wheeled base) humanoid from LG Electronics; announced, restricted sales.",
-  "data_source": "HumanoidStore open data (CC BY 4.0)"
+  "data_source": "HumanoidStore open data (CC BY 4.0)",
+  "image_url": "https://www.lg.com/content/dam/channel/wcms/global/newsroom/news/home-appliance-solution/lg-electronics-presents-lg-cloid-home-robot-to-demonstrate-zero-labor-home-at-ces-2026/press-setting-image-desktop-tablet-cloid.png",
+  "videos": [],
+  "note": "Media (2026-11-17): press photo of CLOiD folding laundry from LG's own CES 2026 release (4 Jan 2026). That release states height adjusts from 105 to 143 cm, 7-DoF arms and a wheeled base; it carries no video asset.",
+  "image_source": "https://www.lg.com/global/newsroom/news/home-appliance-solution/lg-electronics-presents-lg-cloid-home-robot-to-demonstrate-zero-labor-home-at-ces-2026/"
  },
  {
   "id": "lightberry-lumi",
@@ -6182,11 +6252,12 @@
    "https://static-gcs.edit.site/users-files/75329df683dc786c44cd1ae27c78c5f8/fourier-gr-1-humanoid-robot-introduction-3.pdf?dl=1",
    "https://fftai.github.io/fourier-grx-GR1/",
    "https://www.fftai.com/resources/download",
-   "https://www.fftai.com/pdf/en/Fourier_GR_Family_Product_Catalog_202610.pdf"
+   "https://www.fftai.com/pdf/en/Fourier_GR_Family_Product_Catalog_202610.pdf",
+   "https://www.fftai.com/grx/gr3"
   ],
   "summary": "Fourier's first mass-produced full-size bipedal humanoid, a 1.65 m, 55 kg research and service platform with FSA actuators.",
-  "image_url": null,
-  "image_source": null,
+  "image_url": "https://www.fftai.com/images/grx/gr1.jpg",
+  "image_source": "https://www.fftai.com/grx/gr3",
   "videos": [],
   "seen_on": [
    "https://botupyourlife.com/en/robots/fourier-gr-1/",
@@ -16734,17 +16805,32 @@
   "sensors": [],
   "price_usd": null,
   "price_note": null,
-  "official_url": null,
-  "sources": [],
-  "summary": "",
-  "image_url": null,
-  "image_source": null,
-  "videos": [],
+  "official_url": "https://gbionics.ai/gene01",
+  "sources": [
+   "https://gbionics.ai/gene01",
+   "https://news.gbionics.ai/?article=gene-01-comes-to-life&lang=en"
+  ],
+  "summary": "GENE.01 is the first seed of a new lineage of humanoid robots, made by the Italian company Generative Bionics and aimed at industrial use cases.",
+  "image_url": "https://i.ytimg.com/vi/mGF142yepjc/maxresdefault.jpg",
+  "image_source": "https://gbionics.ai/gene01",
+  "videos": [
+   {
+    "url": "https://www.youtube.com/watch?v=mGF142yepjc",
+    "title": "GENE.01 Comes to Life",
+    "channel": "Generative Bionics"
+   },
+   {
+    "url": "https://gbionics.ai/assets/1_gene_walk_xpJG_jtIdJOJ2j_AyHUhA.mp4",
+    "title": "GENE.01 — walking",
+    "channel": "Generative Bionics"
+   }
+  ],
   "seen_on": [
    "https://embodied.guide/robots/generative-bionics-gene-01/",
    "https://humanoid.guide/product/gene-01/"
   ],
-  "verification": null
+  "verification": null,
+  "note": "Media (2026-11-17): the still is the cover frame of the maker's own film 'GENE.01 Comes to Life', which gbionics.ai/gene01 and its news portal embed; the model page itself renders only looping clips, no product still."
  },
  {
   "id": "genisom-yinyi-ne01",
