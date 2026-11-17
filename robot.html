@@ -34,6 +34,22 @@ const lineupHtml=lineupAll.length?`<div class="panel"><h2>${t("lineup_title",{ma
 const relatedHtml=relatedAll.length?`<div class="panel"><h2>${t("related_title")}</h2><p class="muted small">${t("related_sub")}</p><div class="grid">${relatedAll.slice(0,MAX_REL).map(x=>rcard(x,true)).join("")}</div>${moreTxt(relatedAll.length-MAX_REL,"related_more")}</div>`:"";
 const price=(()=>{const o=latestObs(r);if(o)return priceText(o,fx);return r.price_usd==null?(r.price_note?esc(r.price_note):"—"):`$${r.price_usd.toLocaleString()}${r.price_note?` <span class="muted small">(${esc(r.price_note)})</span>`:""}`;})();
 const cm=completeness(r);
+const short=u=>{const s=u.replace(/^https?:\/\/(www\.)?/,"");const p=s.split("/");if(p[0]==="github.com"&&p.length>=3){const f=p[p.length-1];return p[1]+"/"+p[2]+(p.length>3?` · ${f}`:"")}return s.length>58?s.slice(0,55)+"…":s};
+const link=u=>u?`<a href="${esc(u)}" target="_blank" rel="noopener" title="${esc(u)}">${esc(short(u))}</a>`:"—";
+const sdk=r.sdk||null;
+const sdkBits=sdk?[(sdk.languages||[]).length?`${t("sdk_langs")}: ${esc(sdk.languages.join(", "))}`:"",sdk.open_source===true?t("sdk_open"):sdk.open_source===false?t("sdk_closed"):"",sdk.license?esc(sdk.license):""].filter(Boolean).join(" · "):"";
+const simRows=SIMK.filter(k=>r.sim_models&&r.sim_models[k]).map(k=>{const v=r.sim_models[k];return `<tr><td>${t("sim_"+k)}</td><td>${link(v.url)}${v.license?` <span class="small muted">${esc(v.license)}</span>`:""}</td></tr>`}).join("");
+const buildPanel=`<div class="panel"><h2>${t("build_with_it")}</h2><table>
+${row("api",yn(r.api_support),"api_support")}
+${row("sdk",yn(r.sdk_available==null&&sdk?true:r.sdk_available)+(r.sdk_name?` <span class="small">${esc(r.sdk_name)}</span>`:"")+(sdkBits?`<div class="small muted">${sdkBits}</div>`:"")+(sdk?`<div class="small">${link(sdk.url)}</div>`:""),["sdk_available","sdk_name"])}
+${row("ros",yn(r.ros_support==null&&r.ros2_support===true?true:r.ros_support),"ros_support")}
+${row("ros2",yn(r.ros2_support)+(r.ros2_url?`<div class="small">${link(r.ros2_url)}</div>`:""))}
+${simRows||row("sim_models",`<span class="muted">${t("sim_none")}</span>`)}
+${(r.open_source_repos||[]).length?row("oss_repos",`<ul class="small" style="margin:0;padding-left:18px">${r.open_source_repos.map(o=>`<li>${link(o.url)}${o.license?` <span class="muted">${esc(o.license)}</span>`:""}</li>`).join("")}</ul>`):""}
+${row("onboard",yn(r.onboard_compute),"onboard_compute")}
+${row("compute",fmt(r.compute_detail),"compute_detail")}
+${row("sensors",(r.sensors||[]).map(esc).join(", ")||"—","sensors")}
+</table><p class="small muted">${t("dev_note")}</p></div>`;
 m.innerHTML=`<p class="small"><a href="index.html">${t("back")}</a></p>
 <div class="muted" style="text-transform:uppercase;font-size:12px;letter-spacing:.5px">${esc(r.manufacturer)} · ${esc(tv(r.country))}</div>
 <h1>${esc(r.name)}</h1>
@@ -47,7 +63,7 @@ m.innerHTML=`<p class="small"><a href="index.html">${t("back")}</a></p>
 <div class="spec">
 <div class="panel"><h2>${t("body_motion")}</h2><table>${row("dims",dims,["length_mm","width_mm","height_mm"])}${row("weight",fmt(r.weight_kg,"kg"),"weight_kg")}${row("payload",fmt(r.payload_kg,"kg"),"payload_kg")}${row("max_speed",r.max_speed_mps==null?"—":`${fmt(r.max_speed_mps,"m/s")} (${fmt(kmh(r.max_speed_mps),"km/h")})`,"max_speed_mps")}${row("min_speed",fmt(r.min_speed_mps,"m/s"),"min_speed_mps")}${row("wheel_d",fmt(r.wheel_diameter_mm,"mm"),"wheel_diameter_mm")}${row("wheels",fmt(r.wheel_count),"wheel_count")}${row("dof",fmt(r.dof),"dof")}</table></div>
 <div class="panel"><h2>${t("power_env")}</h2><table>${row("runtime",fmt(r.runtime_h,"h"),"runtime_h")}${row("battery",fmt(r.battery_wh,"Wh"),"battery_wh")}${row("ip",fmt(r.ip_rating),"ip_rating")}${row("released",fmt(r.release_year),"release_year")}${row("price",price,["price_usd","price_note"])}</table></div>
-<div class="panel"><h2>${t("soft_compute")}</h2><table>${row("api",yn(r.api_support),"api_support")}${row("sdk",yn(r.sdk_available)+(r.sdk_name?` <span class="small">${esc(r.sdk_name)}</span>`:""),["sdk_available","sdk_name"])}${row("ros",yn(r.ros_support),"ros_support")}${row("onboard",yn(r.onboard_compute),"onboard_compute")}${row("compute",fmt(r.compute_detail),"compute_detail")}${row("sensors",(r.sensors||[]).map(esc).join(", ")||"—","sensors")}</table></div>
+${buildPanel}
 </div>
 ${pricePanel(r,fx)}
 ${r.misc_reason?`<div class="panel small"><b>${t("misc_why")}</b> ${esc(r.misc_reason)}</div>`:""}${(r.variants||[]).length?`<div class="panel"><h2>${t("variants")}</h2><ul class="small">${r.variants.map(v=>`<li><b>${esc(v.name)}</b> — ${esc(LANG==="ko"&&v.note_ko?v.note_ko:v.note)}${v.url?` <a data-lt="variant" href="${esc(v.url)}" target="_blank" rel="noopener">↗</a>`:""}</li>`).join("")}</ul></div>`:""}
