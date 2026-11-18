@@ -1,0 +1,20 @@
+{
+ "id": "pal-kangaroo",
+ "name": "Kangaroo",
+ "manufacturer": "PAL Robotics",
+ "updated": "2026-11-18",
+ "events": [
+  {
+   "date": "2026-11-18",
+   "type": "updated",
+   "source": "https://pal-robotics.com/robot/kangaroo/",
+   "changes": [
+    {
+     "field": "notes",
+     "from": "Issue #17 (2026-11-17): Kangaroo - 1.60 m, 50-65 kg depending on configuration, 14-40 DoF and 3-7 kg arm payload by arm configuration (lowest values taken: 14 DoF, 3 kg), 63 V 15 Ah (976 Wh). PAL publishes no single runtime, so that field was emptied. [replaced dof: 28 -> 14; payload_kg: 5 -> 3; battery_wh: None -> 976 | emptied (no maker value) weight_kg=55; runtime_h=3.0]",
+     "to": "Issue #17 (2026-11-17): Kangaroo - 1.60 m, 50-65 kg depending on configuration, 14-40 DoF and 3-7 kg arm payload by arm configuration (lowest values taken: 14 DoF, 3 kg), 63 V 15 Ah (976 Wh). PAL publishes no single runtime, so that field was emptied. [replaced dof: 28 -> 14; payload_kg: 5 -> 3; battery_wh: None -> 976 | emptied (no maker value) weight_kg=55; runtime_h=3.0] Issue #64 (2026-11-18): dof kept at 14 - the maker table gives 14-40 DoF by platform configuration and the record takes the minimum configuration (PR #57 had left it empty)."
+    }
+   ]
+  }
+ ]
+}

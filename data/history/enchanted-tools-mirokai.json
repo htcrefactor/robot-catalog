@@ -1,0 +1,25 @@
+{
+ "id": "enchanted-tools-mirokai",
+ "name": "Mirokaï",
+ "manufacturer": "Enchanted Tools",
+ "updated": "2026-11-18",
+ "events": [
+  {
+   "date": "2026-11-18",
+   "type": "updated",
+   "source": "https://enchanted.tools/",
+   "changes": [
+    {
+     "field": "notes",
+     "from": "Issue #17 (2026-11-17): Mirokaï - 123 cm, 29 kg, 26 DoF (neck 3, arms 4x2, wrists 3x2, hands 2x2, ears 1x2, base 3), 3.2 km/h (0.889 m/s) among people, 4 h, per Enchanted Tools' published figures (reproduced in the GO Robotics brochure, Sept 2026; enchanted.tools itself has no spec table). [replaced weight_kg: 32 -> 29; max_speed_mps: 0.9 -> 0.889; runtime_h: 3.0 -> 4.0] HumanoidStore price (US$56125) removed: no maker list price confirmed.",
+     "to": "Issue #17 (2026-11-17): Mirokaï - 123 cm, 29 kg, 26 DoF (neck 3, arms 4x2, wrists 3x2, hands 2x2, ears 1x2, base 3), 3.2 km/h (0.889 m/s) among people, 4 h, per Enchanted Tools' published figures (reproduced in the GO Robotics brochure, Sept 2026; enchanted.tools itself has no spec table). [replaced weight_kg: 32 -> 29; max_speed_mps: 0.9 -> 0.889; runtime_h: 3.0 -> 4.0] HumanoidStore price (US$56125) removed: no maker list price confirmed. Issue #64 (2026-11-18): verification official -> unconfirmed. enchanted.tools (re-checked 2026-11-18) still publishes no numeric spec table, so the figures remain the maker's earlier sheet as reproduced by catalogues (PR #58)."
+    },
+    {
+     "field": "verification",
+     "from": "official",
+     "to": "unconfirmed"
+    }
+   ]
+  }
+ ]
+}

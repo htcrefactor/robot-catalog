@@ -1,0 +1,25 @@
+{
+ "id": "faraday-future-nova",
+ "name": "Nova",
+ "manufacturer": "Faraday Future",
+ "updated": "2026-11-18",
+ "events": [
+  {
+   "date": "2026-11-18",
+   "type": "updated",
+   "source": "https://robotics.ff.com/us/nova/",
+   "changes": [
+    {
+     "field": "notes",
+     "from": "Issue #17 (2026-11-17): FF Nova - 497 mm, 2.8 kg, 20 DoF (head 2, arms 6, legs 12), 0.1 m/s bipedal (0.8 m/s on its wheeled base), 2-3 h, US$2,490 from Faraday Future's Nova page and launch release. [replaced runtime_h: 2.0 -> 2.5; price_note: list 2490 USD (maker), per HumanoidStore, checked 2026-10 -> US$2,490 robot device; US$390 developer skills package]",
+     "to": "Issue #17 (2026-11-17): FF Nova - 497 mm, 2.8 kg, 20 DoF (head 2, arms 6, legs 12), 0.1 m/s bipedal (0.8 m/s on its wheeled base), 2-3 h, US$2,490 from Faraday Future's Nova page and launch release. [replaced runtime_h: 2.0 -> 2.5; price_note: list 2490 USD (maker), per HumanoidStore, checked 2026-10 -> US$2,490 robot device; US$390 developer skills package] Issue #64 (2026-11-18): runtime_h 2.5 -> none, because robotics.ff.com/us/nova (re-read 2026-11-18) states no battery life anywhere on the page and the 2.5 h was the HumanoidStore figure. price_note also stays empty: US$2,490 for the device and US$390 for the Developer Skills Package are dated price observations from shop.ff.com (2026-11-17), the maker's own shop linked from the launch page."
+    },
+    {
+     "field": "runtime_h",
+     "from": 2.5,
+     "to": null
+    }
+   ]
+  }
+ ]
+}

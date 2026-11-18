@@ -1,0 +1,25 @@
+{
+ "id": "zerith-zerith-h1",
+ "name": "Zerith H1",
+ "manufacturer": "Zerith (Zerith Robotics)",
+ "updated": "2026-11-18",
+ "events": [
+  {
+   "date": "2026-11-18",
+   "type": "updated",
+   "source": "https://www.zerith.com/product/comparison/",
+   "changes": [
+    {
+     "field": "note",
+     "from": null,
+     "to": "Maker comparison table (checked 2026-11-18): height adjustable over 955-1756 mm (800 mm lift, top of the range recorded); base 630 x 463 x 226 mm; 111 kg including the battery; 1 kg rated single-arm payload (1.5 kg maximum), so no whole-robot payload is published; 23 active DoF (head 2, hand 7, waist including lift 3, base 2, end effector 1); base speed 1 m/s; runtime 4-7 h depending on use, 4 h recorded; 20,000 mAh pack with no voltage stated, so Wh stays empty; arm span 1,788 mm. The earlier 13,600 USD figure came from HumanoidStore, not the maker, and is removed."
+    },
+    {
+     "field": "notes",
+     "from": "Issue #17 (2026-11-17): Zerith H1 wheel-arm humanoid - height adjustable 955-1756 mm (1756 taken), 111 kg, 23 active DoF (head 2, hand 7, waist incl. lift 3, chassis 2, effector 1), base speed 1 m/s, 4 h continuous. Payload is published per arm only (1.5 kg max), so the whole-robot payload field was emptied. [replaced height_mm: 1760 -> 1756 | emptied (no maker value) payload_kg=1; price_usd=13600; price_note=list 13600 USD (maker), per HumanoidStore, checked 2026-10]",
+     "to": "Issue #17 (2026-11-17): Zerith H1 wheel-arm humanoid - height adjustable 955-1756 mm (1756 taken), 111 kg, 23 active DoF (head 2, hand 7, waist incl. lift 3, chassis 2, effector 1), base speed 1 m/s, 4 h continuous. Payload is published per arm only (1.5 kg max), so the whole-robot payload field was emptied. [replaced height_mm: 1760 -> 1756 | emptied (no maker value) payload_kg=1; price_usd=13600; price_note=list 13600 USD (maker), per HumanoidStore, checked 2026-10] Issue #64 (2026-11-18): the descriptive text from PR #62 moved into note, where prose belongs; the data_source conflict between #62 and this record was null on both sides. runtime kept at 4 h, the low end of the maker's 4-7 h."
+    }
+   ]
+  }
+ ]
+}

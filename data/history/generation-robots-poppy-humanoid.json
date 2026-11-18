@@ -1,0 +1,25 @@
+{
+ "id": "generation-robots-poppy-humanoid",
+ "name": "Poppy Humanoid",
+ "manufacturer": "Generation Robots (Inria Flowers)",
+ "updated": "2026-11-18",
+ "events": [
+  {
+   "date": "2026-11-18",
+   "type": "updated",
+   "source": "https://github.com/poppy-project/poppy-humanoid",
+   "changes": [
+    {
+     "field": "note",
+     "from": "Maker repository (poppy-project/poppy-humanoid): open-source 3D-printed humanoid, 25 Robotis Dynamixel actuators, about 60% of the BOM cost, full build 8,000-9,000 USD, Raspberry Pi 3/4 on-board, pypot Python library, GPL v3 / CC BY-SA. The project site (www.poppy-project.org, docs.poppy-project.org) returned HTTP 500 on 2026-11-17, so the 83 cm / 3.5 kg figures on its v1.0.2 page could not be re-opened and height/weight were left empty instead of carrying the aggregator's 840 mm / 3.5 kg values. Generation Robots is a distributor, not the designer. The 11,193 USD price was an aggregator conversion of a EUR list price and was removed.",
+     "to": "Maker repository (poppy-project/poppy-humanoid): open-source 3D-printed humanoid, 25 Robotis Dynamixel actuators, about 60% of the BOM cost, full build 8,000-9,000 USD, Raspberry Pi 3/4 on-board, pypot Python library, GPL v3 / CC BY-SA. The project site (www.poppy-project.org, docs.poppy-project.org) returned HTTP 500 on 2026-11-17, so the 83 cm / 3.5 kg figures on its v1.0.2 page could not be re-opened; height keeps the 830 mm read from that page rather than the aggregator's 840 mm, and weight stays empty because no maker figure was readable. Generation Robots is a distributor, not the designer. The 11,193 USD price was an aggregator conversion of a EUR list price and was removed."
+    },
+    {
+     "field": "notes",
+     "from": "Issue #17 (2026-11-17): Poppy Humanoid - 83 cm, 3.5 kg, 25 Robotis Dynamixel actuators per the Poppy project. The project publishes a build cost (US$8,000-9,000 in parts), not a product price, so HumanoidStore's price was removed. [replaced height_mm: 840 -> 830 | emptied (no maker value) price_usd=11193; price_note=list 9971.52 EUR (maker), per HumanoidStore, checked 2026-10]",
+     "to": "Issue #17 (2026-11-17): Poppy Humanoid - 83 cm, 3.5 kg, 25 Robotis Dynamixel actuators per the Poppy project. The project publishes a build cost (US$8,000-9,000 in parts), not a product price, so HumanoidStore's price was removed. [replaced height_mm: 840 -> 830 | emptied (no maker value) price_usd=11193; price_note=list 9971.52 EUR (maker), per HumanoidStore, checked 2026-10] Issue #64 (2026-11-18): height kept at 830 mm from the project's own v1.0.2 page; its site and documentation still return server errors (checked 2026-11-18) and the repository README carries no dimension, so the field is kept rather than re-derived (PR #56 emptied it)."
+    }
+   ]
+  }
+ ]
+}

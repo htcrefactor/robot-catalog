@@ -1,0 +1,20 @@
+{
+ "id": "generative-bionics-gene-01",
+ "name": "GENE.01",
+ "manufacturer": "Generative Bionics",
+ "updated": "2026-11-18",
+ "events": [
+  {
+   "date": "2026-11-18",
+   "type": "updated",
+   "source": "https://gbionics.ai/gene01",
+   "changes": [
+    {
+     "field": "notes",
+     "from": null,
+     "to": "Issue #64 (2026-11-18): official_url kept without the trailing slash - gbionics.ai/gene01 and /gene01/ serve the same page (re-checked 2026-11-18). Summary kept in the record's own wording; PR #56's welding-robot wording for Fincantieri is not on the page read today."
+    }
+   ]
+  }
+ ]
+}

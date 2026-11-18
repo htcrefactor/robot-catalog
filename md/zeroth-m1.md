@@ -81,6 +81,10 @@ Fields the maker does not publish are left out here — the catalog never fills 
 
 - [HumanoidStore datasheet – Zeroth M1 (CC BY 4.0)](https://humanoidstore.co/robots/zeroth-m1)
 
+## Notes
+
+Maker pages (checked 2026-11-18): 195 x 125 x 494 mm and 2.8 kg for the robot body (a 1.4 kg mobility base and a 6.2 lb dock are separate); bipedal mode 0.05 m/s and wheeled mode 0.6 m/s on the landing page, with about 1.1 m/s on the optional cart; about 2 h of endurance with 80% charge in an hour; only the 12 leg DoF (6 per leg) are published, so total DoF stays empty; arm span 510 mm; LDS LiDAR, iTOF depth and an RGB camera. Pre-order, ships Q4 2026, US shipping only. US$2,499 MSRP with a promotional US$1,699 price on the same page.
+
 ## Sources
 
 - Official page: [zeroth0.com](https://www.zeroth0.com/products/m1)
@@ -88,4 +92,4 @@ Fields the maker does not publish are left out here — the catalog never fills 
 
 ---
 
-*Robot Catalog — generated from data/robots.json (last merged 2026-11-17). Source repository: https://github.com/htcrefactor/robot-catalog*
+*Robot Catalog — generated from data/robots.json (last merged 2026-11-18). Source repository: https://github.com/htcrefactor/robot-catalog*

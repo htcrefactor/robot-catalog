@@ -78,4 +78,4 @@ Maker product page: 175 cm, 68 kg, 43 DoF across the body (dual 7-DoF arms, dual
 
 ---
 
-*Robot Catalog — generated from data/robots.json (last merged 2026-11-17). Source repository: https://github.com/htcrefactor/robot-catalog*
+*Robot Catalog — generated from data/robots.json (last merged 2026-11-18). Source repository: https://github.com/htcrefactor/robot-catalog*

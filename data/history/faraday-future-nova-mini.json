@@ -1,0 +1,20 @@
+{
+ "id": "faraday-future-nova-mini",
+ "name": "Nova Mini",
+ "manufacturer": "Faraday Future",
+ "updated": "2026-11-18",
+ "events": [
+  {
+   "date": "2026-11-18",
+   "type": "updated",
+   "source": "https://shop.ff.com/products/ff-nova-mini",
+   "changes": [
+    {
+     "field": "notes",
+     "from": "Issue #17 (2026-11-17): FF Nova Mini - 349x176x99 mm, 0.94 kg, 17 servo joints (head 1, arms 3x2, legs 5x2), about 50 min, US$299. [replaced price_note: list 299 USD (maker), per HumanoidStore, checked 2026-10 -> US$299 MSRP]",
+     "to": "Issue #17 (2026-11-17): FF Nova Mini - 349x176x99 mm, 0.94 kg, 17 servo joints (head 1, arms 3x2, legs 5x2), about 50 min, US$299. [replaced price_note: list 299 USD (maker), per HumanoidStore, checked 2026-10 -> US$299 MSRP] Issue #64 (2026-11-18): price_note stays empty - the US$299 MSRP is carried as a dated price observation from shop.ff.com (2026-11-17). PR #58's wording ('MSRP on the maker's own shop, checked 2026-11') is covered by that observation."
+    }
+   ]
+  }
+ ]
+}

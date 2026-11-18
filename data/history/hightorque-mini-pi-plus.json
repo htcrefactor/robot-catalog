@@ -1,0 +1,20 @@
+{
+ "id": "hightorque-mini-pi-plus",
+ "name": "Mini Pi Plus",
+ "manufacturer": "HighTorque Robotics",
+ "updated": "2026-11-18",
+ "events": [
+  {
+   "date": "2026-11-18",
+   "type": "updated",
+   "source": "https://www.hightorque.cn/pi-plus/",
+   "changes": [
+    {
+     "field": "notes",
+     "from": "Issue #17 (2026-11-17): Mini Pi Plus - 680 mm, 15.4 kg (Base) / 15.6 kg (Pro), 22 DoF, 1.1 m/s, 21.6 V 4500 mAh (97.2 Wh), 60 min, US$6,000 Base / US$8,000 Pro from HighTorque's store. [replaced battery_wh: None -> 97.2; price_note: list 6000 USD (maker), per HumanoidStore, checked 2026-10 -> Base US$6,000; Pro US$8,000]",
+     "to": "Issue #17 (2026-11-17): Mini Pi Plus - 680 mm, 15.4 kg (Base) / 15.6 kg (Pro), 22 DoF, 1.1 m/s, 21.6 V 4500 mAh (97.2 Wh), 60 min, US$6,000 Base / US$8,000 Pro from HighTorque's store. [replaced battery_wh: None -> 97.2; price_note: list 6000 USD (maker), per HumanoidStore, checked 2026-10 -> Base US$6,000; Pro US$8,000] Issue #64 (2026-11-18): battery_wh kept at 97.2 (21.6 V x 4,500 mAh from the maker store spec); PR #56's 97 was the rounded form. The price note matches the store's US$6,000 Base / US$8,000 Pro, re-read 2026-11-18."
+    }
+   ]
+  }
+ ]
+}

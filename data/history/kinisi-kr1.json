@@ -1,0 +1,25 @@
+{
+ "id": "kinisi-kr1",
+ "name": "Kinisi",
+ "manufacturer": "Bear Robotics",
+ "updated": "2026-11-18",
+ "events": [
+  {
+   "date": "2026-11-18",
+   "type": "updated",
+   "source": "https://www.bearrobotics.ai/kinisi",
+   "changes": [
+    {
+     "field": "notes",
+     "from": "Issue #17 (2026-11-17): Bear Robotics' Kinisi page confirms up to 14.4 km/h (4.0 m/s) but lists payload, reach and mobility as 'to be confirmed at launch'. Height 162 cm, weight 100 kg, 21 DoF and 8 h come from Kinisi's pre-acquisition published specifications and could not be re-opened today, so the record is marked unconfirmed rather than official.",
+     "to": "Issue #17 (2026-11-17): Bear Robotics' Kinisi page confirms up to 14.4 km/h (4.0 m/s) but lists payload, reach and mobility as 'to be confirmed at launch'. Height 162 cm, weight 100 kg, 21 DoF and 8 h come from Kinisi's pre-acquisition published specifications and could not be re-opened today, so the record is marked unconfirmed rather than official. Issue #64 (2026-11-18): verification unconfirmed -> official. Every field left in the record (4 m/s, IP65, a full shift per battery) is from bearrobotics.ai/kinisi, re-read 2026-11-18; payload and reach are 'to be confirmed at launch'."
+    },
+    {
+     "field": "verification",
+     "from": "unconfirmed",
+     "to": "official"
+    }
+   ]
+  }
+ ]
+}

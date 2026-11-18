@@ -1,0 +1,20 @@
+{
+ "id": "unitree-h1",
+ "name": "H1",
+ "manufacturer": "Unitree Robotics",
+ "updated": "2026-11-18",
+ "events": [
+  {
+   "date": "2026-11-18",
+   "type": "updated",
+   "source": "https://www.unitree.com/h1/",
+   "changes": [
+    {
+     "field": "notes",
+     "from": "Issue #17 (2026-11-17): height 1805 mm, weight 47 kg, 3.3 m/s, 864 Wh confirmed on Unitree's H1 page. DoF 19 derived from the maker's per-limb table (5x2 legs + 4x2 arms + 1 waist). Arm payload 7 kg rated / 21 kg peak added from the same page. HumanoidStore's US$90,000 price removed: Unitree publishes no H1 price. [replaced payload_kg: None -> 7; dof: None -> 19 | emptied (no maker value) price_usd=90000; price_note=list price per HumanoidStore, checked 2026-10]",
+     "to": "Issue #17 (2026-11-17): height 1805 mm, weight 47 kg, 3.3 m/s, 864 Wh confirmed on Unitree's H1 page. DoF 19 derived from the maker's per-limb table (5x2 legs + 4x2 arms + 1 waist). Arm payload 7 kg rated / 21 kg peak added from the same page. HumanoidStore's US$90,000 price removed: Unitree publishes no H1 price. [replaced payload_kg: None -> 7; dof: None -> 19 | emptied (no maker value) price_usd=90000; price_note=list price per HumanoidStore, checked 2026-10] Issue #64 (2026-11-18): dof kept at 19 - the maker's H1 URDF (unitreerobotics/unitree_ros) has 19 revolute joints (5 per leg, 4 per arm, 1 torso), so PR #60's 18 misses the torso joint."
+    }
+   ]
+  }
+ ]
+}

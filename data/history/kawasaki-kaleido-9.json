@@ -1,0 +1,25 @@
+{
+ "id": "kawasaki-kaleido-9",
+ "name": "Kaleido (Gen 9)",
+ "manufacturer": "Kawasaki Heavy Industries",
+ "updated": "2026-11-18",
+ "events": [
+  {
+   "date": "2026-11-18",
+   "type": "updated",
+   "source": "https://kawasakirobotics.com/asia-oceania/blog/20260316_kaleido9/",
+   "changes": [
+    {
+     "field": "notes",
+     "from": "Issue #17 (2026-11-17): Kaleido - 178 cm, 85 kg, 32 axes and a bench-press capability of 50-60 kg (50 taken) per Kawasaki Robotics; Kawasaki's R&D magazine gives 1.75 m, 84 kg and 32 DoF for the development unit. Runtime is not published, so the HumanoidStore runtime was emptied. [replaced height_mm: 1900 -> 1780; weight_kg: 99 -> 85; payload_kg: 18 -> 50; dof: None -> 32]",
+     "to": "Issue #17 (2026-11-17): Kaleido - 178 cm, 85 kg, 32 axes and a bench-press capability of 50-60 kg (50 taken) per Kawasaki Robotics; Kawasaki's R&D magazine gives 1.75 m, 84 kg and 32 DoF for the development unit. Runtime is not published, so the HumanoidStore runtime was emptied. [replaced height_mm: 1900 -> 1780; weight_kg: 99 -> 85; payload_kg: 18 -> 50; dof: None -> 32] Issue #64 (2026-11-18): payload 50 -> none. Kawasaki states a bench-press capability of about 50-60 kg, which is not a payload rating (blog re-read 2026-11-18). DoF kept at 32: the maker blog gives 32 axes; PR #56's 30 axes came from iREX 2025 press coverage, not a maker source."
+    },
+    {
+     "field": "payload_kg",
+     "from": 50,
+     "to": null
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,25 @@
+{
+ "id": "zeroth-m1",
+ "name": "M1",
+ "manufacturer": "Zeroth",
+ "updated": "2026-11-18",
+ "events": [
+  {
+   "date": "2026-11-18",
+   "type": "updated",
+   "source": "https://www.zeroth0.com/products/m1",
+   "changes": [
+    {
+     "field": "note",
+     "from": null,
+     "to": "Maker pages (checked 2026-11-18): 195 x 125 x 494 mm and 2.8 kg for the robot body (a 1.4 kg mobility base and a 6.2 lb dock are separate); bipedal mode 0.05 m/s and wheeled mode 0.6 m/s on the landing page, with about 1.1 m/s on the optional cart; about 2 h of endurance with 80% charge in an hour; only the 12 leg DoF (6 per leg) are published, so total DoF stays empty; arm span 510 mm; LDS LiDAR, iTOF depth and an RGB camera. Pre-order, ships Q4 2026, US shipping only. US$2,499 MSRP with a promotional US$1,699 price on the same page."
+    },
+    {
+     "field": "notes",
+     "from": "Issue #17 (2026-11-17): Zeroth M1 - 195x125x494 mm, robot body 2.8 kg plus 1.4 kg mobility base, 20 DoF, 0.05 m/s biped / 0.6 m/s wheeled, about 2 h, US$2,499 MSRP. [replaced height_mm: 500 -> 494; max_speed_mps: 0.2 -> 0.6; price_note: list 2499 USD (maker), per HumanoidStore, checked 2026-10 -> US$2,499 list (promotional US$1,699)]",
+     "to": "Issue #17 (2026-11-17): Zeroth M1 - 195x125x494 mm, robot body 2.8 kg plus 1.4 kg mobility base, 20 DoF, 0.05 m/s biped / 0.6 m/s wheeled, about 2 h, US$2,499 MSRP. [replaced height_mm: 500 -> 494; max_speed_mps: 0.2 -> 0.6; price_note: list 2499 USD (maker), per HumanoidStore, checked 2026-10 -> US$2,499 list (promotional US$1,699)] Issue #64 (2026-11-18): max_speed_mps kept at 0.6 - the maker publishes 0.6 m/s for the wheeled mode and 0.05 m/s bipedal; PR #62's 0.15 m/s is not on the pages read today. Its descriptive text moved into note; the data_source conflict was null on both sides."
+    }
+   ]
+  }
+ ]
+}

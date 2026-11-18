@@ -1,0 +1,25 @@
+{
+ "id": "pndbotics-adam-u",
+ "name": "Adam-U",
+ "manufacturer": "PNDbotics",
+ "updated": "2026-11-18",
+ "events": [
+  {
+   "date": "2026-11-18",
+   "type": "updated",
+   "source": "https://wiki.pndbotics.com/en/robot/adam_u/",
+   "changes": [
+    {
+     "field": "battery_wh",
+     "from": 1172,
+     "to": 1188
+    },
+    {
+     "field": "notes",
+     "from": "Issue #17 (2026-11-17): Adam-U upper-body robot - adjustable 1.35-1.77 m (1770 taken as max), 26 kg unit + 48 kg lift platform/chassis = 74 kg, 31 DoF (arms 13 each incl. 6 finger DoF, waist 3, head 2), 1172 Wh. [replaced battery_wh: None -> 1172 | emptied (no maker value) price_usd=45000; price_note=list 45000 USD (maker), per HumanoidStore, checked 2026-10]",
+     "to": "Issue #17 (2026-11-17): Adam-U upper-body robot - adjustable 1.35-1.77 m (1770 taken as max), 26 kg unit + 48 kg lift platform/chassis = 74 kg, 31 DoF (arms 13 each incl. 6 finger DoF, waist 3, head 2), 1172 Wh. [replaced battery_wh: None -> 1172 | emptied (no maker value) price_usd=45000; price_note=list 45000 USD (maker), per HumanoidStore, checked 2026-10] Issue #64 (2026-11-18): battery_wh 1172 -> 1188. The maker wiki (re-read 2026-11-18) gives a 1,188 Wh pack at 46.2 V maximum voltage (PR #57)."
+    }
+   ]
+  }
+ ]
+}

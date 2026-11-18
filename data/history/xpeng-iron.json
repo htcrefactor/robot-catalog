@@ -1,0 +1,30 @@
+{
+ "id": "xpeng-iron",
+ "name": "IRON",
+ "manufacturer": "Xpeng",
+ "updated": "2026-11-18",
+ "events": [
+  {
+   "date": "2026-11-18",
+   "type": "updated",
+   "source": "https://www.xpeng.com/news/019301d2135392fa562d8a0282200016",
+   "changes": [
+    {
+     "field": "height_mm",
+     "from": 1730,
+     "to": null
+    },
+    {
+     "field": "notes",
+     "from": "Issue #17 (2026-11-17): XPeng IRON (production version) - about 173 cm, 65 kg, 76 DoF with 21 per hand, up to 2 m/s, per XPeng's production-line release. [replaced height_mm: 1780 -> 1730; weight_kg: 70 -> 65; max_speed_mps: None -> 2.0]",
+     "to": "Issue #17 (2026-11-17): XPeng IRON (production version) - about 173 cm, 65 kg, 76 DoF with 21 per hand, up to 2 m/s, per XPeng's production-line release. [replaced height_mm: 1780 -> 1730; weight_kg: 70 -> 65; max_speed_mps: None -> 2.0] Issue #64 (2026-11-18): height 1730 mm and weight 65 kg -> none. XPeng's own releases (AI Day 2024, Tech Day 2025, the 2026 production-line release; re-read 2026-11-18) give DoF, chips and TOPS but no size or mass for IRON."
+    },
+    {
+     "field": "weight_kg",
+     "from": 65,
+     "to": null
+    }
+   ]
+  }
+ ]
+}

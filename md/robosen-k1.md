@@ -82,4 +82,4 @@ Maker store spec sheet: 176 x 99 x 349 mm, 0.94 kg, 17 servo motors (head 1, han
 
 ---
 
-*Robot Catalog — generated from data/robots.json (last merged 2026-11-17). Source repository: https://github.com/htcrefactor/robot-catalog*
+*Robot Catalog — generated from data/robots.json (last merged 2026-11-18). Source repository: https://github.com/htcrefactor/robot-catalog*

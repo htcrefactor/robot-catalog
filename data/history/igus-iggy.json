@@ -1,0 +1,20 @@
+{
+ "id": "igus-iggy",
+ "name": "iggyRob",
+ "manufacturer": "igus",
+ "updated": "2026-11-18",
+ "events": [
+  {
+   "date": "2026-11-18",
+   "type": "updated",
+   "source": "https://www.igus.com/product/0-LCA-IROB",
+   "changes": [
+    {
+     "field": "notes",
+     "from": "Issue #17 (2026-11-17): iggyRob - about 1.70 m, 101 kg, 2 kg per ReBeL arm, up to 8 h, EUR 47,999 (about US$54,500) from igus' product page and launch release. DoF is not published as a total, so the HumanoidStore DoF was emptied. [replaced payload_kg: 1.5 -> 2; price_usd: 58024 -> 54500; price_note: list 51691.37 EUR (maker), per HumanoidStore, checked 2026-10 -> EUR 47,999 (about US$54,500) from igus]",
+     "to": "Issue #17 (2026-11-17): iggyRob - about 1.70 m, 101 kg, 2 kg per ReBeL arm, up to 8 h, EUR 47,999 (about US$54,500) from igus' product page and launch release. DoF is not published as a total, so the HumanoidStore DoF was emptied. [replaced payload_kg: 1.5 -> 2; price_usd: 58024 -> 54500; price_note: list 51691.37 EUR (maker), per HumanoidStore, checked 2026-10 -> EUR 47,999 (about US$54,500) from igus] Issue #64 (2026-11-18): price kept - EUR 47,999 is igus' own launch price for Iggy Rob Industrial and the figure the record has always labelled; PR #56 had emptied both price fields, but igus.com/product/0-LCA-IROB (re-read 2026-11-18) publishes no price and the maker press release is the source. price_usd 54,500 is its labelled approximate conversion."
+    }
+   ]
+  }
+ ]
+}

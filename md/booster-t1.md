@@ -199,4 +199,4 @@ Maker T1 manual (docs.booster.tech > T1 > Specifications): height 1.18 m, ~30 kg
 
 ---
 
-*Robot Catalog — generated from data/robots.json (last merged 2026-11-17). Source repository: https://github.com/htcrefactor/robot-catalog*
+*Robot Catalog — generated from data/robots.json (last merged 2026-11-18). Source repository: https://github.com/htcrefactor/robot-catalog*

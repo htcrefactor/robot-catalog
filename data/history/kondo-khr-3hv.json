@@ -1,0 +1,20 @@
+{
+ "id": "kondo-khr-3hv",
+ "name": "KHR-3HV",
+ "manufacturer": "Kondo Kagaku",
+ "updated": "2026-11-18",
+ "events": [
+  {
+   "date": "2026-11-18",
+   "type": "updated",
+   "source": "https://kondo-robot.com/product/03243",
+   "changes": [
+    {
+     "field": "notes",
+     "from": "Issue #17 (2026-11-17): KHR-3HV Ver.3.1 - 401x194x129 mm, about 1.8 kg, 22 axes (17 servos + 5 extension), 9.9 V 850 mAh Li-Fe (8.4 Wh), JPY 172,480 list. [replaced weight_kg: 1.5 -> 1.8; dof: 17 -> 22; battery_wh: None -> 8.4; price_usd: 786 -> 1091; price_note: list 786 USD (maker), per HumanoidStore, checked 2026-11 -> JPY 172,480 incl. tax (about US$1,091) in Kondo's ROBOSPOT shop]",
+     "to": "Issue #17 (2026-11-17): KHR-3HV Ver.3.1 - 401x194x129 mm, about 1.8 kg, 22 axes (17 servos + 5 extension), 9.9 V 850 mAh Li-Fe (8.4 Wh), JPY 172,480 list. [replaced weight_kg: 1.5 -> 1.8; dof: 17 -> 22; battery_wh: None -> 8.4; price_usd: 786 -> 1091; price_note: list 786 USD (maker), per HumanoidStore, checked 2026-11 -> JPY 172,480 incl. tax (about US$1,091) in Kondo's ROBOSPOT shop] Issue #64 (2026-11-18): price kept - US$1,091 is the labelled approximate conversion of Kondo's JPY 172,480 list price, which is the maker figure; kondo-robot.com still refuses automated access (HTTP 403, 2026-11-18). PR #57 adds that the kit was listed out of stock when checked in 2026-11."
+    }
+   ]
+  }
+ ]
+}

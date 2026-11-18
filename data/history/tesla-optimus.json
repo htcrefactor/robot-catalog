@@ -1,0 +1,20 @@
+{
+ "id": "tesla-optimus",
+ "name": "Optimus",
+ "manufacturer": "Tesla",
+ "updated": "2026-11-18",
+ "events": [
+  {
+   "date": "2026-11-18",
+   "type": "updated",
+   "source": "https://www.tesla.com/AI",
+   "changes": [
+    {
+     "field": "notes",
+     "from": "Issue #17 (2026-11-17): Tesla publishes no spec sheet or price for Optimus, so no maker value exists for any spec field; record kept with fields empty. HumanoidStore row dropped.",
+     "to": "Issue #17 (2026-11-17): Tesla publishes no spec sheet or price for Optimus, so no maker value exists for any spec field; record kept with fields empty. HumanoidStore row dropped. Issue #64 (2026-11-18): verification kept unconfirmed - Tesla publishes prose only and no spec or price, so there is no maker value to verify (PR #60 had official; not used)."
+    }
+   ]
+  }
+ ]
+}

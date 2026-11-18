@@ -85,6 +85,10 @@ Fields the maker does not publish are left out here — the catalog never fills 
 
 - [HumanoidStore datasheet – Zerith H1 (CC BY 4.0)](https://humanoidstore.co/robots/zerith-zerith-h1)
 
+## Notes
+
+Maker comparison table (checked 2026-11-18): height adjustable over 955-1756 mm (800 mm lift, top of the range recorded); base 630 x 463 x 226 mm; 111 kg including the battery; 1 kg rated single-arm payload (1.5 kg maximum), so no whole-robot payload is published; 23 active DoF (head 2, hand 7, waist including lift 3, base 2, end effector 1); base speed 1 m/s; runtime 4-7 h depending on use, 4 h recorded; 20,000 mAh pack with no voltage stated, so Wh stays empty; arm span 1,788 mm. The earlier 13,600 USD figure came from HumanoidStore, not the maker, and is removed.
+
 ## Sources
 
 - Official page: [zerith.com](https://www.zerith.com/product/comparison/)
@@ -93,4 +97,4 @@ Fields the maker does not publish are left out here — the catalog never fills 
 
 ---
 
-*Robot Catalog — generated from data/robots.json (last merged 2026-11-17). Source repository: https://github.com/htcrefactor/robot-catalog*
+*Robot Catalog — generated from data/robots.json (last merged 2026-11-18). Source repository: https://github.com/htcrefactor/robot-catalog*

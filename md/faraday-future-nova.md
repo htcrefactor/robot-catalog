@@ -16,7 +16,6 @@
 | Weight | 2.8 kg |
 | Max speed | 0.1 m/s (0.4 km/h) |
 | Degrees of freedom | 20 |
-| Runtime | 2.5 h |
 | Status | Pre-order |
 | SDK | yes |
 | SDK name | FF Nova open SDK with ROS 2 workflow and Sim2Real RL pipeline |
@@ -93,4 +92,4 @@ Maker pages (robotics.ff.com/us/nova and the 14 Oct 2026 launch page): 49.7 cm, 
 
 ---
 
-*Robot Catalog — generated from data/robots.json (last merged 2026-11-17). Source repository: https://github.com/htcrefactor/robot-catalog*
+*Robot Catalog — generated from data/robots.json (last merged 2026-11-18). Source repository: https://github.com/htcrefactor/robot-catalog*

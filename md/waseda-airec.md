@@ -13,7 +13,6 @@
 | Field | Value |
 |---|---|
 | Height | 1,540 mm |
-| Weight | 150 kg |
 | Status | Research |
 
 Fields the maker does not publish are left out here — the catalog never fills a value by guess. Prices are list or starting prices where the maker states one.
@@ -73,4 +72,4 @@ The project publishes no height, weight or whole-robot DoF: airec-waseda.jp sets
 
 ---
 
-*Robot Catalog — generated from data/robots.json (last merged 2026-11-17). Source repository: https://github.com/htcrefactor/robot-catalog*
+*Robot Catalog — generated from data/robots.json (last merged 2026-11-18). Source repository: https://github.com/htcrefactor/robot-catalog*

@@ -1,0 +1,25 @@
+{
+ "id": "flourish-1",
+ "name": "Flourish 1",
+ "manufacturer": "Flourish Robots",
+ "updated": "2026-11-18",
+ "events": [
+  {
+   "date": "2026-11-18",
+   "type": "updated",
+   "source": "https://flourish-robots.com/",
+   "changes": [
+    {
+     "field": "notes",
+     "from": "Issue #17 (2026-11-17): 110 cm (3'7\"), 20 kg (44 lb), 3.3 lb (1.5 kg) lift, up to 12 h and US$3,555 from Flourish's Sept 2026 launch as reported; no maker spec page could be opened, so the record stays unconfirmed. [replaced height_mm: 1090 -> 1100; price_note: list 3555 USD (maker), per HumanoidStore, checked 2026-10 -> US$3,555 pre-order for the first 50 units]",
+     "to": "Issue #17 (2026-11-17): 110 cm (3'7\"), 20 kg (44 lb), 3.3 lb (1.5 kg) lift, up to 12 h and US$3,555 from Flourish's Sept 2026 launch as reported; no maker spec page could be opened, so the record stays unconfirmed. [replaced height_mm: 1090 -> 1100; price_note: list 3555 USD (maker), per HumanoidStore, checked 2026-10 -> US$3,555 pre-order for the first 50 units] Issue #64 (2026-11-18): verification unconfirmed -> official. flourish-robots.com (re-checked 2026-11-18) publishes 3 ft 7 in, 44 lb, 3.3 lb payload, 12 h and the US$3,555 / US$200 refundable deposit / December 2026 terms, so these are maker-read figures."
+    },
+    {
+     "field": "verification",
+     "from": "unconfirmed",
+     "to": "official"
+    }
+   ]
+  }
+ ]
+}

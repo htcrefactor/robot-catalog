@@ -1,0 +1,20 @@
+{
+ "id": "foundation-phantom-mk2",
+ "name": "Phantom MK-2",
+ "manufacturer": "Foundation",
+ "updated": "2026-11-18",
+ "events": [
+  {
+   "date": "2026-11-18",
+   "type": "updated",
+   "source": "https://foundation.bot/phantom",
+   "changes": [
+    {
+     "field": "notes",
+     "from": "Issue #17 (2026-11-17): MK-2 has had no public launch; The San Francisco Standard describes it as about 6 ft and 200 lb and gives no payload, DoF or speed, so those fields were emptied. Foundation's Phantom page (1.8 m, 80 kg, 40 kg, 29 DoF) does not name a generation. [replaced height_mm: 1800 -> 1830; weight_kg: 80 -> 90 | emptied (no maker value) payload_kg=30; dof=29; max_speed_mps=1.7]",
+     "to": "Issue #17 (2026-11-17): MK-2 has had no public launch; The San Francisco Standard describes it as about 6 ft and 200 lb and gives no payload, DoF or speed, so those fields were emptied. Foundation's Phantom page (1.8 m, 80 kg, 40 kg, 29 DoF) does not name a generation. [replaced height_mm: 1800 -> 1830; weight_kg: 80 -> 90 | emptied (no maker value) payload_kg=30; dof=29; max_speed_mps=1.7] Issue #64 (2026-11-18): verification kept unconfirmed - the maker page does not label which generation its figures describe (PR #60 had official; not used)."
+    }
+   ]
+  }
+ ]
+}

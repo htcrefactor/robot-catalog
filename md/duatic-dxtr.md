@@ -37,6 +37,7 @@ Duatic's DXTR page titles the robot 'Alpha Half-Humanoid' - the same robot was l
 
 - Official page: [duatic.com](https://www.duatic.com/dxtr)
 - [duatic.com](https://www.duatic.com/duatorso)
+- [hannovermesse.de](https://www.hannovermesse.de/apollo/hannover_messe_2026/obs/Binary/A1508335/Duatic%20Flyer%202026%20(1)-compressed.pdf)
 
 Listed by these directories (discovery only, never used as a spec source):
 
@@ -44,4 +45,4 @@ Listed by these directories (discovery only, never used as a spec source):
 
 ---
 
-*Robot Catalog — generated from data/robots.json (last merged 2026-11-17). Source repository: https://github.com/htcrefactor/robot-catalog*
+*Robot Catalog — generated from data/robots.json (last merged 2026-11-18). Source repository: https://github.com/htcrefactor/robot-catalog*

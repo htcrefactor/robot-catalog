@@ -1,0 +1,20 @@
+{
+ "id": "realman-realbot-s2",
+ "name": "RealBot-S2",
+ "manufacturer": "RealMan Robotics",
+ "updated": "2026-11-18",
+ "events": [
+  {
+   "date": "2026-11-18",
+   "type": "updated",
+   "source": "https://www.realman-robotics.com/en/products/realbot-s2.html",
+   "changes": [
+    {
+     "field": "notes",
+     "from": null,
+     "to": "Issue #64 (2026-11-18): official_url kept on the maker's product page (realman-robotics.com/en/products/realbot-s2.html), which is live with the full spec table; PR #59's developer-docs page is the same maker's documentation and stays in sources."
+    }
+   ]
+  }
+ ]
+}
