@@ -1,0 +1,28 @@
+{
+ "id": "honda-e2-dr",
+ "name": "E2-DR",
+ "manufacturer": "Honda",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-17",
+   "type": "added",
+   "source": "https://doi.org/10.1109/mra.2019.2941241",
+   "commit": "b596d3e",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://doi.org/10.1109/mra.2019.2941241",
+   "commit": "2e2527b",
+   "changes": [
+    {
+     "field": "note",
+     "from": "Known only through Honda R&D research papers (IROS 2017, IEEE RAM 2019); no Honda product or press page. Press-quoted figures (1.68 m, 85 kg, 33 DOF, 1,000 Wh, 90 min) not verified on a Honda page, so left out.",
+     "to": "Known only through Honda R&D research papers (IROS 2017, IEEE RAM 2019); no Honda product or press page. Press-quoted figures (1.68 m, 85 kg, 33 DOF, 1,000 Wh, 90 min) not verified on a Honda page, so left out. Re-checked 2026-11-17: Honda's robotics history page (global.honda/en/ASIMO/history, opened) runs E0-P3-ASIMO and does not list E2-DR; the robot is documented only in Honda R&D papers (IROS 2017, IEEE RAM 2019). Still unconfirmed."
+    }
+   ]
+  }
+ ]
+}

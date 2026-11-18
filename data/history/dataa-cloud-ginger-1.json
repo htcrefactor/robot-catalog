@@ -1,0 +1,93 @@
+{
+ "id": "dataa-cloud-ginger-1",
+ "name": "Cloud Ginger 1.0",
+ "manufacturer": "Dataa Robotics (CloudMinds)",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-17",
+   "type": "added",
+   "source": null,
+   "commit": "b596d3e",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://www.dataarobotics.com/zh/product-44",
+   "commit": "4b395bc",
+   "changes": [
+    {
+     "field": "compute_detail",
+     "from": null,
+     "to": "Cloud brain (HARIX) with HARIX OS; on-robot controllers for the SCA joints"
+    },
+    {
+     "field": "dof",
+     "from": null,
+     "to": 34
+    },
+    {
+     "field": "height_mm",
+     "from": null,
+     "to": 1600
+    },
+    {
+     "field": "note",
+     "from": null,
+     "to": "Maker product page (dataarobotics.com/zh/product-44): Cloud Ginger 1.0 / XR1 is 160 cm tall, 65 kg, with 34 intelligent flexible actuators (SCA) spanning neck, shoulders, elbows, wrists, hands, waist, knees and the omni-directional wheeled chassis, multiple 2D/3D cameras, LiDAR, ultrasonic sensors, IMU, force sensors and a microphone array, with perception and dialogue running on the HARIX cloud brain over 5G (the maker's own blog says the robot reported under 30 ms round-trip). Payload, speed, runtime, battery and price are not published on the page; the marketing blog notes the 1.0 hand carries about 0.5 kg against 5 kg on the 2.0. 2020 Red Star Design award."
+    },
+    {
+     "field": "official_url",
+     "from": null,
+     "to": "https://www.dataarobotics.com/zh/product-44"
+    },
+    {
+     "field": "onboard_compute",
+     "from": null,
+     "to": true
+    },
+    {
+     "field": "sensors",
+     "from": [],
+     "to": [
+      "2D/3D cameras",
+      "LiDAR",
+      "Ultrasonic sensors",
+      "IMU",
+      "Force sensors",
+      "Microphone array"
+     ]
+    },
+    {
+     "field": "sources",
+     "from": [],
+     "to": [
+      "https://www.dataarobotics.com/zh/product-44",
+      "https://www.dataarobotics.com/zh/blog/news-373.html"
+     ]
+    },
+    {
+     "field": "status",
+     "from": null,
+     "to": "Commercial"
+    },
+    {
+     "field": "summary",
+     "from": "",
+     "to": "Dataa (CloudMinds) 5G cloud-brained service humanoid with 34 flexible joints on an omni-directional wheeled base, used for reception, guidance, group dance and elder care."
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "official"
+    },
+    {
+     "field": "weight_kg",
+     "from": null,
+     "to": 65
+    }
+   ]
+  }
+ ]
+}

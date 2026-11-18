@@ -1,0 +1,38 @@
+{
+ "id": "hisense-harley",
+ "name": "Harley",
+ "manufacturer": "Hisense",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-17",
+   "type": "added",
+   "source": "https://www.hisense-robot.com/en/products/harley/",
+   "commit": "b596d3e",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://www.hisense-robot.com/en/products/harley/",
+   "commit": "ae60ceb",
+   "changes": [
+    {
+     "field": "compute_memory_gb",
+     "from": null,
+     "to": 16
+    },
+    {
+     "field": "compute_soc",
+     "from": null,
+     "to": "NVIDIA Jetson Orin NX 16GB"
+    },
+    {
+     "field": "compute_source",
+     "from": null,
+     "to": "https://www.hisense-robot.com/en/products/harley/"
+    }
+   ]
+  }
+ ]
+}

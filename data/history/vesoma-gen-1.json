@@ -1,0 +1,71 @@
+{
+ "id": "vesoma-gen-1",
+ "name": "Vesoma Gen 1",
+ "manufacturer": "Vesoma",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-17",
+   "type": "added",
+   "source": null,
+   "commit": "b596d3e",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://vesoma.com/",
+   "commit": "30bdc91",
+   "changes": [
+    {
+     "field": "country",
+     "from": null,
+     "to": "Germany"
+    },
+    {
+     "field": "locomotion",
+     "from": null,
+     "to": "Legged"
+    },
+    {
+     "field": "note",
+     "from": null,
+     "to": "Vesoma publishes no dimensions, weight, DoF, payload, battery, runtime or price: its site shows Vesoma 1 only as a design visualisation marked 'under development', while alpha prototypes walk in the lab on a self-learned policy, and the company's launch note describes a six-month build from design to walking. Those fields are left empty rather than filled from catalogues."
+    },
+    {
+     "field": "official_url",
+     "from": null,
+     "to": "https://vesoma.com/"
+    },
+    {
+     "field": "release_year",
+     "from": null,
+     "to": 2026
+    },
+    {
+     "field": "sources",
+     "from": [],
+     "to": [
+      "https://vesoma.com/",
+      "https://vesoma.com/news/introducing-vesoma"
+     ]
+    },
+    {
+     "field": "status",
+     "from": null,
+     "to": "Prototype"
+    },
+    {
+     "field": "summary",
+     "from": "",
+     "to": "Vesoma's first bipedal humanoid, built as one system with a self-improving reinforcement-learning agent that acquires locomotion and manipulation from its own interaction, for manufacturing, logistics and warehousing."
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "official"
+    }
+   ]
+  }
+ ]
+}

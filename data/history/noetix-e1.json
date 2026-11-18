@@ -1,0 +1,43 @@
+{
+ "id": "noetix-e1",
+ "name": "E1",
+ "manufacturer": "Noetix Robotics",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-17",
+   "type": "added",
+   "source": "https://www.noetixrobotics.com/en/detail/E1",
+   "commit": "b596d3e",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://www.noetixrobotics.com/en/detail/E1",
+   "commit": "ae60ceb",
+   "changes": [
+    {
+     "field": "note",
+     "from": "Official Noetix page: BIPEDAL humanoid, 140 cm, 40 kg, max travel speed up to 3.5 m/s (as stated), continuous walking payload 5 kg, knee torque 150 N·m, 10.6 Ah quick-swap battery (5 s swap), runtime up to 2 h; EDU edition with 67 TOPS compute board; SDK docs provided; modeled hands standard, dexterous hands optional.",
+     "to": "Official Noetix page re-checked 2026-11-17: BIPEDAL humanoid, 140 cm, 40 kg, max travel speed up to 3.5 m/s (as stated - flagged as unusually high for a 140 cm biped, but it is the maker's own figure), continuous walking payload 5 kg, knee torque 150 N·m, 10.6 Ah quick-swap battery (5 s swap), runtime up to 2 h; EDU edition with 67 TOPS compute board; SDK docs provided; modeled hands standard, dexterous hands optional. CONFLICT: the Noetix E-series brochure lists 136 cm and 4-5 h runtime with a top speed 'exceeding 3.5 m/s', and a company press release quotes 1.2 m/s walking; official product-page figures kept."
+    },
+    {
+     "field": "sources",
+     "from": [
+      "https://www.noetixrobotics.com/en/detail/E1"
+     ],
+     "to": [
+      "https://www.noetixrobotics.com/en/detail/E1",
+      "https://www.noetixrobotics.com/detail/E1"
+     ]
+    },
+    {
+     "field": "compute_tops",
+     "from": null,
+     "to": 67
+    }
+   ]
+  }
+ ]
+}

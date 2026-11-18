@@ -210,9 +210,17 @@ for path in sorted(glob.glob(os.path.join(root, "data/history/*.json"))):
         err.append(f"data/history/{name}: unknown robot id {rid}")
     for e in events:
         if not isinstance(e, dict): err.append(f"data/history/{name}: event is not an object"); continue
+        extra = set(e) - {"date", "type", "source", "changes", "commit", "note"}
+        if extra: err.append(f"data/history/{name}: event has unknown keys {sorted(extra)}")
         if not re.fullmatch(r"\d{4}-\d{2}-\d{2}", str(e.get("date") or "")): err.append(f"data/history/{name}: bad date {e.get('date')!r}")
         if e.get("type") not in ("added", "updated", "removed"): err.append(f"data/history/{name}: bad type {e.get('type')!r}")
         if e.get("type") == "updated" and not e.get("changes"): err.append(f"data/history/{name}: updated event without changes")
+        cm = e.get("commit")
+        if cm is not None and not (isinstance(cm, str) and re.fullmatch(r"[0-9a-f]{7,40}", cm)):
+            err.append(f"data/history/{name}: commit must be a hex sha of 7-40 characters, got {cm!r}")
+        nt = e.get("note")
+        if nt is not None and not (isinstance(nt, str) and nt.strip()):
+            err.append(f"data/history/{name}: note must be a non-empty string or left out")
         for c in e.get("changes") or []:
             if not isinstance(c, dict) or not c.get("field") or "from" not in c or "to" not in c:
                 err.append(f"data/history/{name}: change needs field, from and to ({c!r})")

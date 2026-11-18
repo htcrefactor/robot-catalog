@@ -1,0 +1,51 @@
+{
+ "id": "neura-mav",
+ "name": "MAV (MAV 1500)",
+ "manufacturer": "NEURA Robotics",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-17",
+   "type": "added",
+   "source": "https://neura-robotics.com/products/mav/",
+   "commit": "b596d3e",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://neura-robotics.com/products/mav/",
+   "commit": "e6ebd1a",
+   "changes": [
+    {
+     "field": "certifications",
+     "from": null,
+     "to": []
+    },
+    {
+     "field": "safety_note",
+     "from": null,
+     "to": "Datasheet: PLd / Category 2 (ISO 13849-1) and ISO 3691-4; the product page states PLd / Category 3 instead — the category differs between the two maker documents."
+    },
+    {
+     "field": "safety_pl",
+     "from": null,
+     "to": "PL d"
+    },
+    {
+     "field": "safety_source",
+     "from": null,
+     "to": "https://neurarobotics.px.media/plk/3K/MAV_NEURA_Robotics_Datasheet_Web.pdf"
+    },
+    {
+     "field": "safety_standards",
+     "from": null,
+     "to": [
+      "ISO 13849-1",
+      "ISO 3691-4"
+     ]
+    }
+   ]
+  }
+ ]
+}

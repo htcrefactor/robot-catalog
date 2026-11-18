@@ -1,0 +1,48 @@
+{
+ "id": "agilox-one",
+ "name": "AGILOX ONE",
+ "manufacturer": "AGILOX",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-17",
+   "type": "added",
+   "source": "https://www.agilox.net/en/product/agilox-one",
+   "commit": "b596d3e",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://www.agilox.net/en/product/agilox-one",
+   "commit": "e6ebd1a",
+   "changes": [
+    {
+     "field": "certifications",
+     "from": null,
+     "to": [
+      "CE",
+      "UL"
+     ]
+    },
+    {
+     "field": "safety_note",
+     "from": null,
+     "to": "Product page names CE, UL and ISO 3691-4 as examples of the safety standards the AMRs are certified to; the ONE datasheet states CE with a declaration of conformity."
+    },
+    {
+     "field": "safety_source",
+     "from": null,
+     "to": "https://www.agilox.net/en/product/agilox-one"
+    },
+    {
+     "field": "safety_standards",
+     "from": null,
+     "to": [
+      "ISO 3691-4"
+     ]
+    }
+   ]
+  }
+ ]
+}

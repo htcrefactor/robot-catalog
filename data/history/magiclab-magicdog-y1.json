@@ -1,0 +1,33 @@
+{
+ "id": "magiclab-magicdog-y1",
+ "name": "MagicDog Y1",
+ "manufacturer": "MagicLab",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-17",
+   "type": "added",
+   "source": "https://www.magiclabglobal.com/products/magicdog-y1/",
+   "commit": "b596d3e",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://www.magiclabglobal.com/products/magicdog-y1/",
+   "commit": "ae60ceb",
+   "changes": [
+    {
+     "field": "compute_source",
+     "from": null,
+     "to": "https://www.magiclabglobal.com/products/magicdog-y1/"
+    },
+    {
+     "field": "compute_tops",
+     "from": null,
+     "to": 157
+    }
+   ]
+  }
+ ]
+}

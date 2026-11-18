@@ -1,0 +1,117 @@
+{
+ "id": "agibot-x2",
+ "name": "X2 Neo",
+ "manufacturer": "AgiBot",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-13",
+   "type": "added",
+   "source": "https://humanoidstore.co/robots/agibot-x2",
+   "commit": "14cd746",
+   "changes": []
+  },
+  {
+   "date": "2026-11-13",
+   "type": "updated",
+   "source": "https://www.agibot.com.cn/products/X2",
+   "commit": "b923ddc",
+   "changes": [
+    {
+     "field": "battery_wh",
+     "from": null,
+     "to": 500
+    },
+    {
+     "field": "data_source",
+     "from": "HumanoidStore open data (CC BY 4.0)",
+     "to": "HumanoidStore + maker page"
+    },
+    {
+     "field": "length_mm",
+     "from": null,
+     "to": 1310
+    },
+    {
+     "field": "official_url",
+     "from": null,
+     "to": "https://www.agibot.com.cn/products/X2"
+    },
+    {
+     "field": "sources",
+     "from": [
+      "https://humanoidstore.co/robots/agibot-x2"
+     ],
+     "to": [
+      "https://humanoidstore.co/robots/agibot-x2",
+      "https://www.agibot.com.cn/products/X2"
+     ]
+    },
+    {
+     "field": "width_mm",
+     "from": null,
+     "to": 460
+    }
+   ]
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://www.agibot.com.cn/products/X2",
+   "commit": "4b7ab4b",
+   "changes": [
+    {
+     "field": "data_source",
+     "from": "HumanoidStore + maker page",
+     "to": null
+    },
+    {
+     "field": "notes",
+     "from": null,
+     "to": "Issue #17 (2026-11-17): 1.31 m, 35 kg, 3 kg arm payload, 500 Wh, ~2 h and 2 m/s from AgiBot's X2 page; DoF 30 derived (head 1 + arms 7x2 + waist 3 + legs 6x2). HumanoidStore's US$25,600 price removed: AgiBot publishes none. [emptied (no maker value) price_usd=25600; price_note=list 25600 USD (maker), per HumanoidStore, checked 2026-10]"
+    },
+    {
+     "field": "price_note",
+     "from": "list 25600 USD (maker), per HumanoidStore, checked 2026-10",
+     "to": null
+    },
+    {
+     "field": "price_usd",
+     "from": 25600,
+     "to": null
+    },
+    {
+     "field": "sources",
+     "from": [
+      "https://humanoidstore.co/robots/agibot-x2",
+      "https://www.agibot.com.cn/products/X2"
+     ],
+     "to": [
+      "https://www.agibot.com.cn/products/X2",
+      "https://humanoidstore.co/robots/agibot-x2",
+      "https://store.agibot.com/products/x2"
+     ]
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "official"
+    },
+    {
+     "field": "price_observations",
+     "from": null,
+     "to": [
+      {
+       "date": "2026-11-17",
+       "amount": 25600,
+       "currency": "USD",
+       "kind": "list",
+       "source": "https://store.agibot.com/products/x2",
+       "note": "store lists the X2 Neo"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

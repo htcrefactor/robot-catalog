@@ -1,0 +1,87 @@
+{
+ "id": "1x-neo",
+ "name": "NEO",
+ "manufacturer": "1X Technologies",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-03",
+   "type": "added",
+   "source": "https://www.1x.tech/neo",
+   "commit": "1a533a7",
+   "changes": []
+  },
+  {
+   "date": "2026-11-13",
+   "type": "updated",
+   "source": "https://www.1x.tech/neo",
+   "commit": "14cd746",
+   "changes": [
+    {
+     "field": "price_note",
+     "from": "US$200 deposit to order; full price not shown on product page",
+     "to": "list price per HumanoidStore, checked 2026-10"
+    },
+    {
+     "field": "price_usd",
+     "from": null,
+     "to": 20000
+    },
+    {
+     "field": "sources",
+     "from": [
+      "https://www.1x.tech/neo"
+     ],
+     "to": [
+      "https://www.1x.tech/neo",
+      "https://humanoidstore.co/robots/1x-neo"
+     ]
+    }
+   ]
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://www.1x.tech/neo",
+   "commit": "ae60ceb",
+   "changes": [
+    {
+     "field": "notes",
+     "from": null,
+     "to": "Issue #17 (2026-11-17): confirmed on 1x.tech/neo - 5'6\" (1676 mm), 66 lb (29.9 kg), 55 lb carry, arm payload 18 lb, 842 Wh, 4 h, IP44 body / IP68 hands, US$20,000 Early Access (1x.tech/order). 6.2 m/s is 1X's stated max run speed (walking 1.4 m/s). DoF 75 derived (hands 22x2 + arms 7x2 + neck 3 + spine 2 + legs 6x2)."
+    },
+    {
+     "field": "price_note",
+     "from": "list price per HumanoidStore, checked 2026-10",
+     "to": "Early Access US$20,000 per 1X's order page; a US$499/month subscription option is also listed"
+    },
+    {
+     "field": "sources",
+     "from": [
+      "https://www.1x.tech/neo",
+      "https://humanoidstore.co/robots/1x-neo"
+     ],
+     "to": [
+      "https://www.1x.tech/neo",
+      "https://www.1x.tech/order"
+     ]
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "official"
+    },
+    {
+     "field": "compute_soc",
+     "from": null,
+     "to": "NVIDIA Jetson Thor"
+    },
+    {
+     "field": "compute_source",
+     "from": null,
+     "to": "https://www.1x.tech/neo"
+    }
+   ]
+  }
+ ]
+}

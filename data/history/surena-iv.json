@@ -1,0 +1,106 @@
+{
+ "id": "surena-iv",
+ "name": "Surena IV",
+ "manufacturer": "University of Tehran",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-17",
+   "type": "added",
+   "source": null,
+   "commit": "b596d3e",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://cast-tech.ir/surena-iv/",
+   "commit": "75b989d",
+   "changes": [
+    {
+     "field": "country",
+     "from": null,
+     "to": "Iran"
+    },
+    {
+     "field": "dof",
+     "from": null,
+     "to": 43
+    },
+    {
+     "field": "height_mm",
+     "from": null,
+     "to": 1700
+    },
+    {
+     "field": "max_speed_mps",
+     "from": null,
+     "to": 0.19
+    },
+    {
+     "field": "note",
+     "from": null,
+     "to": "Maker page (Center of Advanced Systems and Technologies, University of Tehran) and the SURENA IV paper: 1.7 m, 68 kg, 43 DOF (7 per arm, 6 per hand, 6 per leg, 2 waist, 3 neck), continuous walking at 0.7 km/h (0.19 m/s), 200 Hz control loop on an FPGA board, ROS-based software, face/object detection, speech recognition and synthesis, online grip and imitation, no force/torque sensors (an inexpensive predictive foot sensor instead), i7 CPU with 32 GB RAM and a GTX 1060 GPU, 3D-printed SLA covers on a magnesium-alloy structure. Unveiled 2019-12-14. Unchanged from the earlier record: research platform, not sold, payload and battery not published."
+    },
+    {
+     "field": "official_url",
+     "from": null,
+     "to": "https://cast-tech.ir/surena-iv/"
+    },
+    {
+     "field": "onboard_compute",
+     "from": null,
+     "to": "Intel Core i7 with 32 GB RAM and NVIDIA GTX 1060, plus Xilinx ZYNQ-7020 FPGA board"
+    },
+    {
+     "field": "release_year",
+     "from": null,
+     "to": 2019
+    },
+    {
+     "field": "ros_support",
+     "from": null,
+     "to": true
+    },
+    {
+     "field": "sensors",
+     "from": [],
+     "to": [
+      "Cameras",
+      "Predictive foot sensor",
+      "Encoders",
+      "Microphones"
+     ]
+    },
+    {
+     "field": "sources",
+     "from": [],
+     "to": [
+      "https://cast-tech.ir/surena-iv/",
+      "https://arxiv.org/html/2108.13515"
+     ]
+    },
+    {
+     "field": "status",
+     "from": null,
+     "to": "Research"
+    },
+    {
+     "field": "summary",
+     "from": "",
+     "to": "Surena IV is the University of Tehran CAST lab's full-size research humanoid: 1.7 m, 68 kg, 43 DOF and continuous walking at 0.7 km/h, unveiled in December 2019."
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "official"
+    },
+    {
+     "field": "weight_kg",
+     "from": null,
+     "to": 68
+    }
+   ]
+  }
+ ]
+}

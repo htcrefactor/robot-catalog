@@ -1,0 +1,38 @@
+{
+ "id": "syrius-flexswift",
+ "name": "FlexSwift MAX",
+ "manufacturer": "Syrius Robotics",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-17",
+   "type": "added",
+   "source": "https://www.syriusrobotics.com/",
+   "commit": "b596d3e",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://www.syriustechnology.com/flexswift-max",
+   "commit": "48ef25e",
+   "changes": [
+    {
+     "field": "name",
+     "from": "FlexSwift",
+     "to": "FlexSwift MAX"
+    },
+    {
+     "field": "note",
+     "from": "FlexSwift listed on syriusrobotics.com; current flagship marketed as 'FlexSwift MAX' (syriustechnology.com), possibly the successor of FlexSwift. Only payload 100 kg confirmed on a Syrius-owned page (Japan site, FlexSwift MAX); other specs only on distributor/aggregator pages, left null.",
+     "to": "Maker's current lineup (syriusrobotics.com -> syriustechnology.com) sells this pick-assist AMR as 'FlexSwift MAX' alongside FlexPorter GO/DO; the earlier listing used 'FlexSwift'. The 100 kg payload is stated on a Syrius-owned page (Japan site, FlexSwift MAX); other specs appear only on distributor or aggregator pages and are left null."
+    },
+    {
+     "field": "official_url",
+     "from": "https://www.syriusrobotics.com/",
+     "to": "https://www.syriustechnology.com/flexswift-max"
+    }
+   ]
+  }
+ ]
+}

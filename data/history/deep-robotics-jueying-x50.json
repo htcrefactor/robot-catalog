@@ -1,0 +1,108 @@
+{
+ "id": "deep-robotics-jueying-x50",
+ "name": "Jueying X50",
+ "manufacturer": "DEEP Robotics",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-17",
+   "type": "added",
+   "source": null,
+   "commit": "b596d3e",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://www.deeprobotics.cn/products/detail/10.html",
+   "commit": "1173def",
+   "changes": [
+    {
+     "field": "compute_detail",
+     "from": null,
+     "to": "2x high-performance 8-core processor (X50 Pro: 3x)"
+    },
+    {
+     "field": "height_mm",
+     "from": null,
+     "to": 685
+    },
+    {
+     "field": "ip_rating",
+     "from": null,
+     "to": "IP67"
+    },
+    {
+     "field": "length_mm",
+     "from": null,
+     "to": 990
+    },
+    {
+     "field": "max_speed_mps",
+     "from": null,
+     "to": 3.0
+    },
+    {
+     "field": "note",
+     "from": null,
+     "to": "Maker product page (X50 / X50 Pro parameter table): 990 x 455 x 685 mm, 57.5 kg with battery, 50 kg continuous running load (200 kg standing limit), 2 h at 50 kg and 3.5 h at 20 kg, IP67, -20 to 55 C, 1.5 m/s working walk, 3 m/s sustained run, 2 km at 50 kg/3 m/s, 25 cm stairs, 35 deg slope, 4 lidars and one wide-angle camera. The 4.5 m/s figure is a laboratory extreme the maker says is not released for use, so it is not recorded. X50 Pro differs in height (705 mm), mass (60 kg) and I/O."
+    },
+    {
+     "field": "official_url",
+     "from": null,
+     "to": "https://www.deeprobotics.cn/products/detail/10.html"
+    },
+    {
+     "field": "onboard_compute",
+     "from": null,
+     "to": true
+    },
+    {
+     "field": "payload_kg",
+     "from": null,
+     "to": 50
+    },
+    {
+     "field": "runtime_h",
+     "from": null,
+     "to": 2
+    },
+    {
+     "field": "sensors",
+     "from": [],
+     "to": [
+      "Lidar x4",
+      "Wide-angle camera x1"
+     ]
+    },
+    {
+     "field": "sources",
+     "from": [],
+     "to": [
+      "https://www.deeprobotics.cn/products/detail/10.html"
+     ]
+    },
+    {
+     "field": "summary",
+     "from": "",
+     "to": "X-series heavy-payload quadruped rated to carry 50 kg continuously while running, for power inspection, fire response and patrol."
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "official"
+    },
+    {
+     "field": "weight_kg",
+     "from": null,
+     "to": 57.5
+    },
+    {
+     "field": "width_mm",
+     "from": null,
+     "to": 455
+    }
+   ]
+  }
+ ]
+}

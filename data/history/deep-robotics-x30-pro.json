@@ -1,0 +1,64 @@
+{
+ "id": "deep-robotics-x30-pro",
+ "name": "X30 Pro",
+ "manufacturer": "DEEP Robotics",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-03",
+   "type": "added",
+   "source": "https://www.deeprobotics.cn/en/index/product3.html",
+   "commit": "1a533a7",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://www.deeprobotics.cn/en/index/product3.html",
+   "commit": "c3614dc",
+   "changes": [
+    {
+     "field": "note",
+     "from": null,
+     "to": "Maker X30 page: X30 Pro is ~1000 x 470 x 715 mm and ~59 kg (X30: 695 mm, ~56 kg), 20 kg payload, 2.5 m/s working speed with a 4.5 m/s extreme, 30 cm stairs, IP67, -20 to 55 C, output power 5/12/24 V. Runtime 2.5 h and the 1,612.8 Wh pack come from the X30 user manual, which is hosted outside the maker's domain."
+    },
+    {
+     "field": "sources",
+     "from": [
+      "https://cdn.robotshop.com/media/D/DER/RB-Der-02/pdf/deep-robotics-x30-user-manual.pdf"
+     ],
+     "to": [
+      "https://www.deeprobotics.cn/en/index/product3.html",
+      "https://cdn.robotshop.com/media/D/DER/RB-Der-02/pdf/deep-robotics-x30-user-manual.pdf",
+      "https://github.com/DeepRoboticsLab/deep_robotics_model/blob/main/X30/urdf/X30.urdf",
+      "https://github.com/DeepRoboticsLab/deep_robotics_model/blob/main/X30/mjcf/X30.xml",
+      "https://github.com/DeepRoboticsLab/deep_robotics_model/blob/main/X30/usd/X30.usd"
+     ]
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "official"
+    },
+    {
+     "field": "sim_models",
+     "from": null,
+     "to": {
+      "urdf": {
+       "url": "https://github.com/DeepRoboticsLab/deep_robotics_model/blob/main/X30/urdf/X30.urdf",
+       "license": "BSD-3-Clause"
+      },
+      "mjcf": {
+       "url": "https://github.com/DeepRoboticsLab/deep_robotics_model/blob/main/X30/mjcf/X30.xml",
+       "license": "BSD-3-Clause"
+      },
+      "usd": {
+       "url": "https://github.com/DeepRoboticsLab/deep_robotics_model/blob/main/X30/usd/X30.usd",
+       "license": "BSD-3-Clause"
+      }
+     }
+    }
+   ]
+  }
+ ]
+}

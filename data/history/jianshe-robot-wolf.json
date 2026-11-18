@@ -1,0 +1,46 @@
+{
+ "id": "jianshe-robot-wolf",
+ "name": "Robot Wolf",
+ "manufacturer": "Jianshe Industry",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-17",
+   "type": "added",
+   "source": null,
+   "commit": "b596d3e",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "http://eng.mod.gov.cn/2025xb/D/V/16451655.html",
+   "commit": "1173def",
+   "changes": [
+    {
+     "field": "note",
+     "from": null,
+     "to": "No maker website or datasheet: Robot Wolf is a product of Jianshe Industry (China South Industries Group), reported by China Military Online, Xinhua and CCTV. Official military media give 15 km/h, 12 joint DoF, 25 kg carried, 30 cm obstacles, and state the units share perception data; these are state-media figures, not a maker specification, so no spec field is filled. First shown at Airshow China in November 2024 and paraded in September 2025."
+    },
+    {
+     "field": "sources",
+     "from": [],
+     "to": [
+      "http://eng.mod.gov.cn/2025xb/D/V/16451655.html",
+      "http://www.news.cn/milpro/20250905/c984f7595e5c4807a5b93816cbf4fcd4/c.html"
+     ]
+    },
+    {
+     "field": "summary",
+     "from": "",
+     "to": "Chinese military quadruped 'wolf' family shown as a swarming ground-combat system with reconnaissance, strike and support units."
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "unconfirmed"
+    }
+   ]
+  }
+ ]
+}

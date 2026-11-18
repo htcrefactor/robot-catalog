@@ -1,0 +1,28 @@
+{
+ "id": "nori-robotics-nori-l2",
+ "name": "Nori L2",
+ "manufacturer": "Nori Robotics",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-17",
+   "type": "added",
+   "source": "https://docs.norirobotics.com/guide/l2",
+   "commit": "b596d3e",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://docs.norirobotics.com/guide/l2",
+   "commit": "ae60ceb",
+   "changes": [
+    {
+     "field": "compute_soc",
+     "from": null,
+     "to": "Raspberry Pi 5"
+    }
+   ]
+  }
+ ]
+}

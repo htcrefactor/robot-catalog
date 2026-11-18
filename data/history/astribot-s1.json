@@ -1,0 +1,62 @@
+{
+ "id": "astribot-s1",
+ "name": "S1",
+ "manufacturer": "Astribot",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-13",
+   "type": "added",
+   "source": "https://humanoidstore.co/robots/astribot-s1",
+   "commit": "14cd746",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://www.astribot.com/product",
+   "commit": "0be5d4c",
+   "changes": [
+    {
+     "field": "data_source",
+     "from": "HumanoidStore open data (CC BY 4.0)",
+     "to": null
+    },
+    {
+     "field": "dof",
+     "from": 23,
+     "to": null
+    },
+    {
+     "field": "max_speed_mps",
+     "from": 2,
+     "to": null
+    },
+    {
+     "field": "notes",
+     "from": null,
+     "to": "Issue #17 (2026-11-17): Astribot's S1 page - 170 cm, 80 kg, 7 DoF per arm (5 kg rated, horizontal), arm span 194 cm, end effector >=10 m/s, 4-6 h (5 taken). Astribot publishes no total DoF, no base travel speed and no price, so those HumanoidStore values (2 m/s, 23 DoF) were emptied. [replaced weight_kg: 90 -> 80 | emptied (no maker value) max_speed_mps=2; dof=23]"
+    },
+    {
+     "field": "sources",
+     "from": [
+      "https://humanoidstore.co/robots/astribot-s1"
+     ],
+     "to": [
+      "https://www.astribot.com/product"
+     ]
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "official"
+    },
+    {
+     "field": "weight_kg",
+     "from": 90,
+     "to": 80
+    }
+   ]
+  }
+ ]
+}

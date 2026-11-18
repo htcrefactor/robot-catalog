@@ -1,0 +1,88 @@
+{
+ "id": "pal-reemc",
+ "name": "REEM-C",
+ "manufacturer": "PAL Robotics",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-13",
+   "type": "added",
+   "source": "https://humanoidstore.co/robots/pal-reemc",
+   "commit": "14cd746",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://pal-robotics.com/robot/reem-c/",
+   "commit": "976d9e6",
+   "changes": [
+    {
+     "field": "battery_wh",
+     "from": null,
+     "to": 1225
+    },
+    {
+     "field": "data_source",
+     "from": "HumanoidStore open data (CC BY 4.0)",
+     "to": "Maker sources (verified 2026-11-17)"
+    },
+    {
+     "field": "notes",
+     "from": null,
+     "to": "Issue #17 (2026-11-17): REEM-C - 165 cm, 80 kg, 68 DoF with hands, 10 kg both arms / 1 kg per stretched arm, 2.5 km/h (0.69 m/s), 1225 Wh, 3 h walking / 6 h standby. [replaced payload_kg: 1 -> 10; battery_wh: None -> 1225]"
+    },
+    {
+     "field": "payload_kg",
+     "from": 1,
+     "to": 10
+    },
+    {
+     "field": "sources",
+     "from": [
+      "https://humanoidstore.co/robots/pal-reemc"
+     ],
+     "to": [
+      "https://pal-robotics.com/robot/reem-c/",
+      "https://pal-robotics.com/wp-content/uploads/2024/05/Datasheet-REEMC.pdf"
+     ]
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "official"
+    },
+    {
+     "field": "note",
+     "from": null,
+     "to": "PAL's REEM-C page and datasheet (checked 2026-11-17): 165 cm, 60 cm wide, 80 kg, 68 DoF (6 per leg, 7 per arm, 19-DoF hands driven by 3 actuators, 2 waist, 2 neck), hand payload 1 kg with the arm stretched, walking speed up to 2.5 km/h, 3 h walking or 6 h standby on a 48 V 1,225 Wh lithium-ion pack, Linux/Ubuntu/ROS."
+    },
+    {
+     "field": "official_url",
+     "from": null,
+     "to": "https://pal-robotics.com/robot/reem-c/"
+    },
+    {
+     "field": "sensors",
+     "from": [],
+     "to": [
+      "Stereo camera pair in the head",
+      "6-axis F/T sensors at ankles and wrists",
+      "Laser range finder in each leg",
+      "Torque sensors in ankles and wrists"
+     ]
+    },
+    {
+     "field": "summary",
+     "from": "Full-size humanoid from PAL Robotics; shipping now, sold to research buyers.",
+     "to": "PAL's research biped REEM-C: 1.65 m, 80 kg, 68 DoF, walking up to 2.5 km/h and 3 h of autonomy, fully ROS based with 19-DoF underactuated hands."
+    },
+    {
+     "field": "width_mm",
+     "from": null,
+     "to": 600
+    }
+   ]
+  }
+ ]
+}

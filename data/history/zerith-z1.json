@@ -1,0 +1,45 @@
+{
+ "id": "zerith-z1",
+ "name": "Z1",
+ "manufacturer": "Zerith",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-17",
+   "type": "added",
+   "source": null,
+   "commit": "b596d3e",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://www.worldrobotconference.com/expo/product/393.html",
+   "commit": "b1429ab",
+   "changes": [
+    {
+     "field": "notes",
+     "from": null,
+     "to": "The maker's site (zerith.com) now lists only the H1 series; no Z1 product page or datasheet is published. Its WRC 2026 exhibit entry states 31 DoF, a wrist depth camera and voice interaction, while launch coverage (Oct 2024) states 27 DoF and resellers list 21 DoF, and weight is given as 33 kg (Z1) or 37 kg (Z1 max). The figures conflict, so none are recorded."
+    },
+    {
+     "field": "sources",
+     "from": [],
+     "to": [
+      "https://www.worldrobotconference.com/expo/product/393.html"
+     ]
+    },
+    {
+     "field": "summary",
+     "from": "",
+     "to": "Bipedal general-purpose humanoid from Zerith (Hefei Zerith Robotics) aimed at education, exhibition and service work."
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "unconfirmed"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,55 @@
+{
+ "id": "unitree-a1",
+ "name": "A1",
+ "manufacturer": "Unitree Robotics",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-17",
+   "type": "added",
+   "source": "https://www.unitree.com/a1/",
+   "commit": "b596d3e",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://www.unitree.com/a1/",
+   "commit": "0c54867",
+   "changes": [
+    {
+     "field": "sim_models",
+     "from": null,
+     "to": {
+      "urdf": {
+       "url": "https://github.com/unitreerobotics/unitree_ros/blob/master/robots/a1_description/urdf/a1.urdf",
+       "license": "BSD-3-Clause"
+      }
+     }
+    },
+    {
+     "field": "sources",
+     "from": [
+      "https://www.unitree.com/a1/"
+     ],
+     "to": [
+      "https://www.unitree.com/a1/",
+      "https://github.com/unitreerobotics/unitree_ros/blob/master/robots/a1_description/urdf/a1.urdf",
+      "https://www.younginmobility.com/"
+     ]
+    },
+    {
+     "field": "kr_distributors",
+     "from": null,
+     "to": [
+      {
+       "name": "영인모빌리티 (Unitree 한국 공식 파트너)",
+       "kind": "distributor",
+       "url": "https://www.younginmobility.com/"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

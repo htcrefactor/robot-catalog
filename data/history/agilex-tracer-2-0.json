@@ -1,0 +1,88 @@
+{
+ "id": "agilex-tracer-2-0",
+ "name": "TRACER 2.0",
+ "manufacturer": "AgileX Robotics",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-03",
+   "type": "added",
+   "source": "https://global.agilex.ai/products/tracer-2-0-150kg-payload-indoor-mobile-robot",
+   "commit": "1a533a7",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://global.agilex.ai/products/tracer-2-0-150kg-payload-indoor-mobile-robot",
+   "commit": "c3614dc",
+   "changes": [
+    {
+     "field": "notes",
+     "from": null,
+     "to": "Maker page: 702 x 610 x 169 mm, weight 54-56 kg (55 recorded as the midpoint), 150 kg payload, 2 m/s, 3.5 h at full load, IP22, 8 deg climb, 10 mm obstacle clearance, differential drive. Battery capacity is not published on the page."
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "official"
+    },
+    {
+     "field": "weight_kg",
+     "from": null,
+     "to": 55
+    },
+    {
+     "field": "open_source_repos",
+     "from": null,
+     "to": [
+      {
+       "name": "ugv_sdk",
+       "url": "https://github.com/agilexrobotics/ugv_sdk",
+       "license": "Apache-2.0"
+      },
+      {
+       "name": "tracer_ros2",
+       "url": "https://github.com/agilexrobotics/tracer_ros2",
+       "license": "Apache-2.0"
+      }
+     ]
+    },
+    {
+     "field": "ros2_support",
+     "from": null,
+     "to": true
+    },
+    {
+     "field": "ros2_url",
+     "from": null,
+     "to": "https://github.com/agilexrobotics/tracer_ros2"
+    },
+    {
+     "field": "sdk",
+     "from": null,
+     "to": {
+      "languages": [
+       "C++"
+      ],
+      "open_source": true,
+      "license": "Apache-2.0",
+      "url": "https://github.com/agilexrobotics/ugv_sdk"
+     }
+    },
+    {
+     "field": "sources",
+     "from": [
+      "https://global.agilex.ai/products/tracer-2-0-150kg-payload-indoor-mobile-robot"
+     ],
+     "to": [
+      "https://global.agilex.ai/products/tracer-2-0-150kg-payload-indoor-mobile-robot",
+      "https://github.com/agilexrobotics/ugv_sdk",
+      "https://github.com/agilexrobotics/tracer_ros2",
+      "https://github.com/agilexrobotics/pyagxrobots"
+     ]
+    }
+   ]
+  }
+ ]
+}

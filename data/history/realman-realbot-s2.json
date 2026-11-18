@@ -1,0 +1,127 @@
+{
+ "id": "realman-realbot-s2",
+ "name": "RealBot-S2",
+ "manufacturer": "RealMan Robotics",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-17",
+   "type": "added",
+   "source": null,
+   "commit": "b596d3e",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://www.realman-robotics.com/en/products/realbot-s2.html",
+   "commit": "75b989d",
+   "changes": [
+    {
+     "field": "note",
+     "from": null,
+     "to": "Maker product page (opened 2026-11-17): full-size wheeled dual-arm foldable humanoid, 20 active DoF, four-steer four-drive chassis, 0-2.1 m vertical working range, 0.69 m reach, 5 kg payload per arm, 0.1-1.5 m/s, 48 V 20 Ah / ~6 h, 614x552x1700 mm, ~125 kg, Wi-Fi / 5G optional. Locomotion confirmed WHEELED (four-steer four-drive chassis). Numeric spec fields left for the thin-record batch (issue #15). | Maker developer documentation (the maker's product site lists L2; S2 is documented in the same RealBot series): 614 x 552 x 1,700 mm, about 125 kg, 20 DOF with 7 DOF per arm, 5 kg per arm, 0.69 m arm reach excluding the end effector, 0.1-1.5 m/s, 0-2.1 m working range, National Chengdu/Orin AGX 64G compute (Jetson AGX Orin 64G), stereo RGB head camera plus 2 fisheye with 360-degree view and dual LiDAR, RGBD hand cameras, 2-finger gripper or 5-finger hand, four-wheel steering/four-wheel drive chassis, 48 V 20 Ah battery (=960 Wh, derived), about 6 h runtime, wired/Wi-Fi with 5G optional. Folding design for transport."
+    },
+    {
+     "field": "official_url",
+     "from": null,
+     "to": "https://www.realman-robotics.com/en/products/realbot-s2.html"
+    },
+    {
+     "field": "sources",
+     "from": [],
+     "to": [
+      "https://www.realman-robotics.com/en/products/realbot-s2.html",
+      "https://develop.realman-robotics.com/en/wheelRobot/RealBotS2/",
+      "https://develop.realman-robotics.com/wheelRobot/RealBotS2/"
+     ]
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "official"
+    },
+    {
+     "field": "battery_wh",
+     "from": null,
+     "to": 960
+    },
+    {
+     "field": "dof",
+     "from": null,
+     "to": 20
+    },
+    {
+     "field": "height_mm",
+     "from": null,
+     "to": 1700
+    },
+    {
+     "field": "length_mm",
+     "from": null,
+     "to": 614
+    },
+    {
+     "field": "max_speed_mps",
+     "from": null,
+     "to": 1.5
+    },
+    {
+     "field": "onboard_compute",
+     "from": null,
+     "to": "NVIDIA Jetson AGX Orin 64G"
+    },
+    {
+     "field": "payload_kg",
+     "from": null,
+     "to": 5
+    },
+    {
+     "field": "runtime_h",
+     "from": null,
+     "to": 6
+    },
+    {
+     "field": "sdk_available",
+     "from": null,
+     "to": true
+    },
+    {
+     "field": "sdk_name",
+     "from": null,
+     "to": "Teaching pendant, local and remote teleoperation, OTA maintenance"
+    },
+    {
+     "field": "sensors",
+     "from": [],
+     "to": [
+      "Stereo RGB head camera",
+      "2x fisheye cameras (360-degree head view)",
+      "RGBD hand cameras (mono RGB optional)",
+      "Dual LiDAR navigation"
+     ]
+    },
+    {
+     "field": "status",
+     "from": null,
+     "to": "Commercial"
+    },
+    {
+     "field": "summary",
+     "from": "",
+     "to": "RealMan's folding wheeled dual-arm humanoid: 20 active DOF, four-wheel-steering/four-wheel-drive chassis, 5 kg per arm and 0-2.1 m vertical working range for data collection and service work."
+    },
+    {
+     "field": "weight_kg",
+     "from": null,
+     "to": 125
+    },
+    {
+     "field": "width_mm",
+     "from": null,
+     "to": 552
+    }
+   ]
+  }
+ ]
+}

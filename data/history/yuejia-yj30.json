@@ -1,0 +1,91 @@
+{
+ "id": "yuejia-yj30",
+ "name": "YJ30",
+ "manufacturer": "Yuejia Lingdong",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-17",
+   "type": "added",
+   "source": null,
+   "commit": "b596d3e",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://www.yuejialingdong.com/yuejiasizuxilie/56.html",
+   "commit": "fa098f7",
+   "changes": [
+    {
+     "field": "height_mm",
+     "from": null,
+     "to": 462
+    },
+    {
+     "field": "ip_rating",
+     "from": null,
+     "to": "IP54"
+    },
+    {
+     "field": "length_mm",
+     "from": null,
+     "to": 682
+    },
+    {
+     "field": "max_speed_mps",
+     "from": null,
+     "to": 3.0
+    },
+    {
+     "field": "note",
+     "from": null,
+     "to": "Yuejia Lingdong YJ30 page (checked 2026-11-17) and the maker's bilingual brochure: standing 682 x 354 x 462 mm, 17.5 kg, payload 10 kg, 1.5-2 h (3 h with a second battery), 20 cm stair, 3 m/s, 50 deg climb, IP54, WiFi/4G/5G, video transmission, ASR and follow/navigation. Price CNY 88,000 on the maker's page. The table merges climb angle and DoF under one heading and gives only 50 deg, so dof stays empty; no battery capacity is published."
+    },
+    {
+     "field": "official_url",
+     "from": null,
+     "to": "https://www.yuejialingdong.com/yuejiasizuxilie/56.html"
+    },
+    {
+     "field": "payload_kg",
+     "from": null,
+     "to": 10
+    },
+    {
+     "field": "price_note",
+     "from": null,
+     "to": "CNY 88,000"
+    },
+    {
+     "field": "runtime_h",
+     "from": null,
+     "to": 1.5
+    },
+    {
+     "field": "sources",
+     "from": [],
+     "to": [
+      "https://www.yuejialingdong.com/yuejiasizuxilie/56.html",
+      "https://wrc.cie.org.cn/profile/robot/download/2026/07/22/20260722102923000455_20260722102923A213.pdf"
+     ]
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "official"
+    },
+    {
+     "field": "weight_kg",
+     "from": null,
+     "to": 17.5
+    },
+    {
+     "field": "width_mm",
+     "from": null,
+     "to": 354
+    }
+   ]
+  }
+ ]
+}

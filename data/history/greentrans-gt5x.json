@@ -1,0 +1,56 @@
+{
+ "id": "greentrans-gt5x",
+ "name": "GT5X",
+ "manufacturer": "GreenTrans",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-17",
+   "type": "added",
+   "source": null,
+   "commit": "b596d3e",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://www.greentrans-agv.com/",
+   "commit": "1173def",
+   "changes": [
+    {
+     "field": "note",
+     "from": null,
+     "to": "Maker release via CNA/U-CAR (2 Sep 2026): GT5X carries up to 50 kg, climbs about 30 deg, takes steps of about 20 cm and can integrate 3D lidar, stereo vision, a robotic arm and special sensors; Jetson Orin compute and an LFP battery. No mass, dimensions, speed or runtime published."
+    },
+    {
+     "field": "official_url",
+     "from": null,
+     "to": "https://www.greentrans-agv.com/"
+    },
+    {
+     "field": "payload_kg",
+     "from": null,
+     "to": 50
+    },
+    {
+     "field": "sources",
+     "from": [],
+     "to": [
+      "https://www.cna.com.tw/news/afe/202609020312.aspx",
+      "https://news.u-car.com.tw/news/article/89594"
+     ]
+    },
+    {
+     "field": "summary",
+     "from": "",
+     "to": "Larger of the two GreenTrans quadrupeds, rated for 50 kg payloads on stairs and ramps with 3D lidar and arm options."
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "official"
+    }
+   ]
+  }
+ ]
+}

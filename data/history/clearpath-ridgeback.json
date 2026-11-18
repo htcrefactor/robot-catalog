@@ -1,0 +1,81 @@
+{
+ "id": "clearpath-ridgeback",
+ "name": "Ridgeback",
+ "manufacturer": "Clearpath Robotics (Rockwell Automation)",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-03",
+   "type": "added",
+   "source": "https://clearpathrobotics.com/ridgeback-indoor-robot-platform/",
+   "commit": "1a533a7",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://clearpathrobotics.com/ridgeback-indoor-robot-platform/",
+   "commit": "c3614dc",
+   "changes": [
+    {
+     "field": "notes",
+     "from": null,
+     "to": "Maker page: 960 x 793 x 311 mm, 135 kg, 100 kg payload, 1.1 m/s, mecanum omnidirectional drive with 35840 pulses-per-revolution encoders, front LIDAR with optional rear unit, IMU, ROS 2 Jazzy with MoveIt and MoveIt Pro. The 15 h runtime and 2.4 kWh battery come from the May 2025 datasheet."
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "official"
+    },
+    {
+     "field": "open_source_repos",
+     "from": null,
+     "to": [
+      {
+       "name": "clearpath_robot",
+       "url": "https://github.com/clearpathrobotics/clearpath_robot",
+       "license": "BSD-3-Clause"
+      }
+     ]
+    },
+    {
+     "field": "ros2_support",
+     "from": null,
+     "to": true
+    },
+    {
+     "field": "ros2_url",
+     "from": null,
+     "to": "https://github.com/clearpathrobotics/clearpath_robot"
+    },
+    {
+     "field": "sdk",
+     "from": null,
+     "to": {
+      "languages": [
+       "C++",
+       "Python"
+      ],
+      "open_source": true,
+      "license": "BSD-3-Clause",
+      "url": "https://github.com/clearpathrobotics/clearpath_robot"
+     }
+    },
+    {
+     "field": "sources",
+     "from": [
+      "https://clearpathrobotics.com/ridgeback-indoor-robot-platform/",
+      "https://storage.pardot.com/92812/1748526548LF9RMqfY/RIDGEBACK_DATA_SHEET_May2025.pdf",
+      "https://docs.clearpathrobotics.com/docs_robots/indoor_robots/ridgeback/user_manual_ridgeback"
+     ],
+     "to": [
+      "https://clearpathrobotics.com/ridgeback-indoor-robot-platform/",
+      "https://storage.pardot.com/92812/1748526548LF9RMqfY/RIDGEBACK_DATA_SHEET_May2025.pdf",
+      "https://docs.clearpathrobotics.com/docs_robots/indoor_robots/ridgeback/user_manual_ridgeback",
+      "https://github.com/clearpathrobotics/clearpath_robot"
+     ]
+    }
+   ]
+  }
+ ]
+}

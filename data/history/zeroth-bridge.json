@@ -1,0 +1,111 @@
+{
+ "id": "zeroth-bridge",
+ "name": "Bridge",
+ "manufacturer": "Zeroth",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-13",
+   "type": "added",
+   "source": "https://humanoidstore.co/robots/zeroth-bridge",
+   "commit": "14cd746",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://zeroth-openbridge.com/products/zeroth-bridge",
+   "commit": "b1429ab",
+   "changes": [
+    {
+     "field": "data_source",
+     "from": "HumanoidStore open data (CC BY 4.0)",
+     "to": null
+    },
+    {
+     "field": "height_mm",
+     "from": 880,
+     "to": 850
+    },
+    {
+     "field": "notes",
+     "from": null,
+     "to": "Issue #17 (2026-11-17): Zeroth Bridge - 85 cm (~10 kg; 13 kg system mass in the spec table), 0.2 m/s walking, 21 DoF (arms 4x2, waist 1, legs 6x2), 2 kg end-effector payload, 48 V. No maker runtime or price, so those fields were emptied. [replaced height_mm: 880 -> 850; weight_kg: 13 -> 10; payload_kg: None -> 2 | emptied (no maker value) price_usd=3999; price_note=list 3999 USD (maker), per HumanoidStore, checked 2026-10]"
+    },
+    {
+     "field": "payload_kg",
+     "from": null,
+     "to": 2
+    },
+    {
+     "field": "price_note",
+     "from": "list 3999 USD (maker), per HumanoidStore, checked 2026-10",
+     "to": null
+    },
+    {
+     "field": "price_usd",
+     "from": 3999,
+     "to": null
+    },
+    {
+     "field": "sources",
+     "from": [
+      "https://humanoidstore.co/robots/zeroth-bridge"
+     ],
+     "to": [
+      "https://zeroth-openbridge.com/products/zeroth-bridge"
+     ]
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "official"
+    },
+    {
+     "field": "weight_kg",
+     "from": 13,
+     "to": 10
+    },
+    {
+     "field": "compute_detail",
+     "from": null,
+     "to": "Rockchip RK3588 8-core; optional Jetson Xavier NX EDU expansion"
+    },
+    {
+     "field": "official_url",
+     "from": null,
+     "to": "https://zeroth-openbridge.com/products/zeroth-bridge"
+    },
+    {
+     "field": "onboard_compute",
+     "from": null,
+     "to": true
+    },
+    {
+     "field": "sdk_available",
+     "from": null,
+     "to": true
+    },
+    {
+     "field": "sdk_name",
+     "from": null,
+     "to": "OpenBridge SDK"
+    },
+    {
+     "field": "sensors",
+     "from": [],
+     "to": [
+      "IMU",
+      "Circular microphone array",
+      "Capacitive touch sensing"
+     ]
+    },
+    {
+     "field": "summary",
+     "from": "Compact humanoid from Zeroth; preorder, anyone can order.",
+     "to": "Desk-scale open developer humanoid with 21 joints, teleoperation and simulation tooling for reinforcement-learning research."
+    }
+   ]
+  }
+ ]
+}

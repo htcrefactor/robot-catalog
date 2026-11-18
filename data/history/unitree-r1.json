@@ -1,0 +1,212 @@
+{
+ "id": "unitree-r1",
+ "name": "R1",
+ "manufacturer": "Unitree Robotics",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-13",
+   "type": "added",
+   "source": "https://humanoidstore.co/robots/unitree-r1",
+   "commit": "14cd746",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://www.unitree.com/R1/",
+   "commit": "0c54867",
+   "changes": [
+    {
+     "field": "data_source",
+     "from": "HumanoidStore open data (CC BY 4.0)",
+     "to": null
+    },
+    {
+     "field": "notes",
+     "from": null,
+     "to": "Issue #17 (2026-11-17): Unitree R1 - 1230x357x190 mm, about 29 kg (R1) / 27 kg (R1 AIR), 26 DoF on R1 (20 on AIR, up to 40 on EDU), about 1 h, US$5,900 (AIR US$4,900) from Unitree's R1 page. Arm load about 3-5 kg. [replaced price_note: list 5900 USD (maker), per HumanoidStore, checked 2026-10 -> R1 US$5,900; R1 AIR US$4,900 (tax and shipping excluded)]"
+    },
+    {
+     "field": "price_note",
+     "from": "list 5900 USD (maker), per HumanoidStore, checked 2026-10",
+     "to": null
+    },
+    {
+     "field": "sources",
+     "from": [
+      "https://humanoidstore.co/robots/unitree-r1",
+      "https://humanoidstore.co/robots/unitree-r1-air",
+      "https://humanoidstore.co/robots/unitree-r1-edu"
+     ],
+     "to": [
+      "https://www.unitree.com/R1",
+      "https://www.unitree.com/R1/",
+      "https://www.unitree.com/cn/R1/",
+      "https://humanoidstore.co/robots/unitree-r1",
+      "https://humanoidstore.co/robots/unitree-r1-air",
+      "https://humanoidstore.co/robots/unitree-r1-edu",
+      "https://github.com/unitreerobotics/unitree_sdk2",
+      "https://github.com/unitreerobotics/unitree_ros/blob/master/robots/r1_description/R1.urdf",
+      "https://github.com/unitreerobotics/unitree_sdk2_python",
+      "https://github.com/unitreerobotics/unitree_ros",
+      "https://github.com/unitreerobotics/unitree_ros2",
+      "https://github.com/unitreerobotics/unitree_mujoco",
+      "https://shop.unitree.com/products/unitree-r1",
+      "https://www.younginmobility.com/"
+     ]
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "official"
+    },
+    {
+     "field": "api_support",
+     "from": null,
+     "to": true
+    },
+    {
+     "field": "compute_detail",
+     "from": null,
+     "to": "8-core high-performance processor; optional NVIDIA Jetson Orin (40-100 TOPS) on R1 EDU"
+    },
+    {
+     "field": "length_mm",
+     "from": null,
+     "to": 190
+    },
+    {
+     "field": "note",
+     "from": null,
+     "to": "Maker figures: 1230 x 357 x 190 mm, about 29 kg for R1 (about 25 kg for R1 AIR on the English page, 27 kg on the Chinese page), 26 DoF on R1 (20 on AIR, 26-40 on EDU), 6 per leg, 5 per arm, 2 waist, 2 head, about 2 kg arm load (the Chinese page says 3-5 kg), about 1 h runtime, 8-core processor with optional Orin at 40-100 TOPS on EDU, stereo camera (monocular on AIR). Prices US$4,900 for AIR and US$5,900 for R1."
+    },
+    {
+     "field": "official_url",
+     "from": null,
+     "to": "https://www.unitree.com/R1/"
+    },
+    {
+     "field": "onboard_compute",
+     "from": null,
+     "to": true
+    },
+    {
+     "field": "release_year",
+     "from": null,
+     "to": 2025
+    },
+    {
+     "field": "ros_support",
+     "from": null,
+     "to": true
+    },
+    {
+     "field": "sdk_available",
+     "from": null,
+     "to": true
+    },
+    {
+     "field": "sdk_name",
+     "from": null,
+     "to": "unitree_sdk2"
+    },
+    {
+     "field": "sensors",
+     "from": [],
+     "to": [
+      "Binocular camera (monocular on R1 AIR)",
+      "4-microphone array"
+     ]
+    },
+    {
+     "field": "summary",
+     "from": "Compact humanoid from Unitree Robotics; shipping now, anyone can order.",
+     "to": "Unitree's lightweight companion humanoid: 123 cm and about 29 kg with 26 DoF, a 2-DoF waist and head, and a multimodal voice and image model."
+    },
+    {
+     "field": "width_mm",
+     "from": null,
+     "to": 357
+    },
+    {
+     "field": "open_source_repos",
+     "from": null,
+     "to": [
+      {
+       "name": "unitree_sdk2",
+       "url": "https://github.com/unitreerobotics/unitree_sdk2",
+       "license": "BSD-3-Clause"
+      },
+      {
+       "name": "unitree_ros",
+       "url": "https://github.com/unitreerobotics/unitree_ros",
+       "license": "BSD-3-Clause"
+      }
+     ]
+    },
+    {
+     "field": "sdk",
+     "from": null,
+     "to": {
+      "languages": [
+       "C++",
+       "Python"
+      ],
+      "open_source": true,
+      "license": "BSD-3-Clause",
+      "url": "https://github.com/unitreerobotics/unitree_sdk2"
+     }
+    },
+    {
+     "field": "sim_models",
+     "from": null,
+     "to": {
+      "urdf": {
+       "url": "https://github.com/unitreerobotics/unitree_ros/blob/master/robots/r1_description/R1.urdf",
+       "license": "BSD-3-Clause"
+      }
+     }
+    },
+    {
+     "field": "price_observations",
+     "from": null,
+     "to": [
+      {
+       "date": "2026-11-17",
+       "amount": 5900,
+       "currency": "USD",
+       "kind": "list",
+       "source": "https://shop.unitree.com/products/unitree-r1",
+       "note": "R1; R1 Air US$4,900 on the same page"
+      },
+      {
+       "date": "2026-11-17",
+       "amount": 10500,
+       "currency": "USD",
+       "kind": "edu",
+       "source": "https://shop.unitree.com/products/unitree-r1",
+       "note": "R1 EDU"
+      }
+     ]
+    },
+    {
+     "field": "price_usd",
+     "from": 5900,
+     "to": null
+    },
+    {
+     "field": "kr_distributors",
+     "from": null,
+     "to": [
+      {
+       "name": "영인모빌리티 (Unitree 한국 공식 파트너)",
+       "kind": "distributor",
+       "url": "https://www.younginmobility.com/"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

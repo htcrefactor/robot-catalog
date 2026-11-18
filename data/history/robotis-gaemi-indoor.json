@@ -1,0 +1,56 @@
+{
+ "id": "robotis-gaemi-indoor",
+ "name": "GAEMI Indoor Service Robot",
+ "manufacturer": "ROBOTIS",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-17",
+   "type": "added",
+   "source": "https://www.robotis.com/en/product/ecosystem-ingaemi.php",
+   "commit": "73aee2c",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://www.robotis.com/en/product/ecosystem-ingaemi.php",
+   "commit": "0c54867",
+   "changes": [
+    {
+     "field": "kr_distributors",
+     "from": null,
+     "to": [
+      {
+       "name": "로보티즈 (본사 직판·구매 문의)",
+       "kind": "direct",
+       "url": "https://www.robotis.com/ko/"
+      }
+     ]
+    },
+    {
+     "field": "manufacturer_ko",
+     "from": null,
+     "to": "로보티즈"
+    },
+    {
+     "field": "name_ko",
+     "from": null,
+     "to": "개미 (실내)"
+    },
+    {
+     "field": "sources",
+     "from": [
+      "https://www.robotis.com/en/product/ecosystem-ingaemi.php",
+      "https://robotis.us/collections/indoor-delivery-robot"
+     ],
+     "to": [
+      "https://www.robotis.com/en/product/ecosystem-ingaemi.php",
+      "https://robotis.us/collections/indoor-delivery-robot",
+      "https://www.robotis.com/ko/"
+     ]
+    }
+   ]
+  }
+ ]
+}

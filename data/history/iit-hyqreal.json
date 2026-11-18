@@ -1,0 +1,65 @@
+{
+ "id": "iit-hyqreal",
+ "name": "HyQReal",
+ "manufacturer": "Istituto Italiano di Tecnologia (IIT)",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-17",
+   "type": "added",
+   "source": null,
+   "commit": "b596d3e",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://dls.iit.it/hyqreal",
+   "commit": "1173def",
+   "changes": [
+    {
+     "field": "height_mm",
+     "from": null,
+     "to": 900
+    },
+    {
+     "field": "length_mm",
+     "from": null,
+     "to": 1350
+    },
+    {
+     "field": "note",
+     "from": null,
+     "to": "Maker page: 1.35 m long, 90 cm tall, 140 kg, 48 V battery, aluminium roll cage with a Kevlar, glass-fibre and plastic skin, rubber feet. DoF, speed, payload and runtime are not published on the page."
+    },
+    {
+     "field": "official_url",
+     "from": null,
+     "to": "https://dls.iit.it/hyqreal"
+    },
+    {
+     "field": "sources",
+     "from": [],
+     "to": [
+      "https://dls.iit.it/hyqreal"
+     ]
+    },
+    {
+     "field": "summary",
+     "from": "",
+     "to": "Battery-powered hydraulic quadruped built with Moog, with integrated servo actuators and a Kevlar and aluminium roll cage."
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "official"
+    },
+    {
+     "field": "weight_kg",
+     "from": null,
+     "to": 140
+    }
+   ]
+  }
+ ]
+}

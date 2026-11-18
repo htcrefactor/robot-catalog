@@ -1,0 +1,81 @@
+{
+ "id": "tianlian-y4",
+ "name": "Y4",
+ "manufacturer": "Sichuan Tianlian Robotics (TliBot)",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-17",
+   "type": "added",
+   "source": null,
+   "commit": "b596d3e",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://www.tlibot.com/Composite/251.html",
+   "commit": "30bdc91",
+   "changes": [
+    {
+     "field": "api_support",
+     "from": null,
+     "to": true
+    },
+    {
+     "field": "country",
+     "from": null,
+     "to": "China"
+    },
+    {
+     "field": "height_mm",
+     "from": null,
+     "to": 1445
+    },
+    {
+     "field": "note",
+     "from": null,
+     "to": "Maker selection guide: fixed base with no chassis (so no locomotion is recorded and no battery runtime is quoted), 1445 mm tall, <=55 kg, dual arms, 653 mm working range, ROS 2 and API. The maker's Y4 product note adds 30 Hz high-frequency teleoperation support for data collection."
+    },
+    {
+     "field": "official_url",
+     "from": null,
+     "to": "https://www.tlibot.com/Composite/251.html"
+    },
+    {
+     "field": "ros_support",
+     "from": null,
+     "to": true
+    },
+    {
+     "field": "sdk_available",
+     "from": null,
+     "to": true
+    },
+    {
+     "field": "sources",
+     "from": [],
+     "to": [
+      "https://www.tlibot.com/Composite/251.html",
+      "https://www.tlibot.com/arm/166.html"
+     ]
+    },
+    {
+     "field": "summary",
+     "from": "",
+     "to": "Fixed-base dual-arm data-collection robot (Y4) from Sichuan TLIBOT with a 653 mm working range and 30 Hz teleoperation for industrial and embodied-AI teaching."
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "official"
+    },
+    {
+     "field": "weight_kg",
+     "from": null,
+     "to": 55
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,64 @@
+{
+ "id": "unitree-a2-w",
+ "name": "A2-W",
+ "manufacturer": "Unitree Robotics",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-03",
+   "type": "added",
+   "source": "https://www.unitree.com/A2-W",
+   "commit": "1a533a7",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://www.unitree.com/A2-W",
+   "commit": "ae60ceb",
+   "changes": [
+    {
+     "field": "note",
+     "from": null,
+     "to": "Unitree A2-W page (checked 2026-11-17): standing 900 x 440 x 625 mm, 52 kg with battery (45 kg without), tyre 190 mm diameter, 16 joint motors, single 9000 mAh (453.6 Wh) / dual (907.2 Wh) battery, 0-3 m/s up to ~6 m/s, battery life >3.5 h unloaded and >1.5 h with 25 kg, 25 kg walking load, IP56 (A2-W Pro IP56-IP67)."
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "official"
+    },
+    {
+     "field": "kr_distributors",
+     "from": null,
+     "to": [
+      {
+       "name": "영인모빌리티 (Unitree 한국 공식 파트너)",
+       "kind": "distributor",
+       "url": "https://www.younginmobility.com/"
+      }
+     ]
+    },
+    {
+     "field": "sources",
+     "from": [
+      "https://www.unitree.com/A2-W"
+     ],
+     "to": [
+      "https://www.unitree.com/A2-W",
+      "https://www.younginmobility.com/"
+     ]
+    },
+    {
+     "field": "compute_soc",
+     "from": null,
+     "to": "Intel Core i7"
+    },
+    {
+     "field": "compute_source",
+     "from": null,
+     "to": "https://www.unitree.com/A2-W"
+    }
+   ]
+  }
+ ]
+}

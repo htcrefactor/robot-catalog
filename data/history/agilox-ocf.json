@@ -1,0 +1,48 @@
+{
+ "id": "agilox-ocf",
+ "name": "AGILOX OCF",
+ "manufacturer": "AGILOX",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-17",
+   "type": "added",
+   "source": "https://www.agilox.net/en/product/agilox-ocf",
+   "commit": "b596d3e",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://www.agilox.net/en/product/agilox-ocf",
+   "commit": "e6ebd1a",
+   "changes": [
+    {
+     "field": "certifications",
+     "from": null,
+     "to": [
+      "CE",
+      "UL 3100"
+     ]
+    },
+    {
+     "field": "safety_note",
+     "from": null,
+     "to": "Datasheet lists certification as CE certified, certified to ISO 3691-4 and certified to UL 3100."
+    },
+    {
+     "field": "safety_source",
+     "from": null,
+     "to": "https://www.agilox.net/media/agilox-ocf-datasheet-en.pdf"
+    },
+    {
+     "field": "safety_standards",
+     "from": null,
+     "to": [
+      "ISO 3691-4"
+     ]
+    }
+   ]
+  }
+ ]
+}

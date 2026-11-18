@@ -1,0 +1,79 @@
+{
+ "id": "pal-tiago",
+ "name": "TIAGo",
+ "manufacturer": "PAL Robotics",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-17",
+   "type": "added",
+   "source": "https://pal-robotics.com/robot/tiago",
+   "commit": "ebcdc70",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://pal-robotics.com/robot/tiago",
+   "commit": "c3614dc",
+   "changes": [
+    {
+     "field": "open_source_repos",
+     "from": null,
+     "to": [
+      {
+       "name": "tiago_robot",
+       "url": "https://github.com/pal-robotics/tiago_robot",
+       "license": "Apache-2.0"
+      },
+      {
+       "name": "tiago_simulation",
+       "url": "https://github.com/pal-robotics/tiago_simulation",
+       "license": "Apache-2.0"
+      }
+     ]
+    },
+    {
+     "field": "ros2_support",
+     "from": null,
+     "to": true
+    },
+    {
+     "field": "ros2_url",
+     "from": null,
+     "to": "https://github.com/pal-robotics/tiago_robot"
+    },
+    {
+     "field": "sim_models",
+     "from": null,
+     "to": {
+      "urdf": {
+       "url": "https://github.com/pal-robotics/tiago_robot/blob/humble-devel/tiago_description/robots/tiago.urdf.xacro",
+       "license": "Apache-2.0"
+      },
+      "gazebo": {
+       "url": "https://github.com/pal-robotics/tiago_simulation",
+       "license": "Apache-2.0"
+      }
+     }
+    },
+    {
+     "field": "sources",
+     "from": [
+      "https://pal-robotics.com/robot/tiago",
+      "http://pal-robotics.com/wp-content/uploads/2024/04/Datasheet-TIAGo.pdf",
+      "https://docs.pal-robotics.com/sdk/24.09/hardware/tiago/hardware-overview.html"
+     ],
+     "to": [
+      "https://pal-robotics.com/robot/tiago",
+      "http://pal-robotics.com/wp-content/uploads/2024/04/Datasheet-TIAGo.pdf",
+      "https://docs.pal-robotics.com/sdk/24.09/hardware/tiago/hardware-overview.html",
+      "https://github.com/pal-robotics/tiago_robot",
+      "https://github.com/pal-robotics/tiago_robot/blob/humble-devel/tiago_description/robots/tiago.urdf.xacro",
+      "https://github.com/pal-robotics/tiago_simulation"
+     ]
+    }
+   ]
+  }
+ ]
+}

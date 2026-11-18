@@ -1,0 +1,65 @@
+{
+ "id": "anybotics-anymal-d",
+ "name": "ANYmal (Gen D)",
+ "manufacturer": "ANYbotics",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-03",
+   "type": "added",
+   "source": "https://www.anybotics.com/robotics/anymal/",
+   "commit": "1a533a7",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://www.anybotics.com/robotics/anymal/",
+   "commit": "ae60ceb",
+   "changes": [
+    {
+     "field": "note",
+     "from": null,
+     "to": "ANYmal technical specifications (V.1 May 2022) and the Apr 2024 sheet: 930x530x890 mm walking, 50 kg (55.7 kg with inspection payload), payload up to 10 kg nominal (15 kg with reduced performance), 1.3 m/s max (0.75 m/s recommended), 90-120 min on 932.4 Wh, IP67, 2x 8th-gen Intel Core i7 with 2x 8 GB RAM and 2x 240 GB SSD, Ubuntu 20.04, 16-channel lidar plus depth and tele-operation cameras, ANYmal API."
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "official"
+    },
+    {
+     "field": "sim_models",
+     "from": null,
+     "to": {
+      "urdf": {
+       "url": "https://github.com/ANYbotics/anymal_d_simple_description/blob/master/urdf/anymal.urdf",
+       "license": "BSD-3-Clause"
+      }
+     }
+    },
+    {
+     "field": "sources",
+     "from": [
+      "https://www.anybotics.com/robotics/anymal/",
+      "https://www.anybotics.com/anymal-technical-specifications.pdf"
+     ],
+     "to": [
+      "https://www.anybotics.com/robotics/anymal/",
+      "https://www.anybotics.com/anymal-technical-specifications.pdf",
+      "https://github.com/ANYbotics/anymal_d_simple_description/blob/master/urdf/anymal.urdf"
+     ]
+    },
+    {
+     "field": "compute_memory_gb",
+     "from": null,
+     "to": 8
+    },
+    {
+     "field": "compute_soc",
+     "from": null,
+     "to": "Intel Core i7 (8th gen)"
+    }
+   ]
+  }
+ ]
+}

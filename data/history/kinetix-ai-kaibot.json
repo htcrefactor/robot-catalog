@@ -1,0 +1,56 @@
+{
+ "id": "kinetix-ai-kaibot",
+ "name": "KaiBot (KAI)",
+ "manufacturer": "Kinetix AI",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-17",
+   "type": "added",
+   "source": null,
+   "commit": "b596d3e",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://www.kinetixai.tech/en/kaibot",
+   "commit": "b310609",
+   "changes": [
+    {
+     "field": "note",
+     "from": null,
+     "to": "Maker site (kinetixai.tech): Kinetix AI (Shenzhen, founded July 2025) builds KaiBot as its highly anthropomorphic humanoid platform alongside KAI Hand, the KAI Halo Lite headset and the KAI EGO dataset, SMASH dynamic-scenario testing and an embodied-AI infrastructure. The maker's product page renders by script and publishes no numeric table, so spec fields stay empty. At the 'GIFTED' launch event on 26 Apr 2026 the company presented KAI as 173 cm, 70 kg, 115 DoF, 36-DoF hands (22 active + 14 compliant), a 1.7 kWh semi-solid-state pack giving about 3 h of dual-arm work, close to 20 kg dual-arm payload and an 18,000-point tactile skin; those figures are press-reported, not from a maker datasheet."
+    },
+    {
+     "field": "official_url",
+     "from": null,
+     "to": "https://www.kinetixai.tech/en/kaibot"
+    },
+    {
+     "field": "release_year",
+     "from": null,
+     "to": 2026
+    },
+    {
+     "field": "sources",
+     "from": [],
+     "to": [
+      "https://www.kinetixai.tech/en/kaibot",
+      "https://www.kinetixai.tech/en/about"
+     ]
+    },
+    {
+     "field": "summary",
+     "from": "",
+     "to": "Kinetix AI's KaiBot, a hyper-anthropomorphic humanoid platform paired with the company's KAI Hand and KAI Halo data pipeline."
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "official"
+    }
+   ]
+  }
+ ]
+}

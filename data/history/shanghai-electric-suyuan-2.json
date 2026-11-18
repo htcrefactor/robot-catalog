@@ -1,0 +1,91 @@
+{
+ "id": "shanghai-electric-suyuan-2",
+ "name": "Suyuan 2.0",
+ "manufacturer": "Shanghai Electric",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-17",
+   "type": "added",
+   "source": null,
+   "commit": "b596d3e",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://www.linkedin.com/posts/shanghai-electric-group-co%2E-ltd_humanoidrobot-industrialai-smartmanufacturing-activity-7484091162891272192-kGJn",
+   "commit": "75b989d",
+   "changes": [
+    {
+     "field": "country",
+     "from": null,
+     "to": "China"
+    },
+    {
+     "field": "dof",
+     "from": null,
+     "to": 41
+    },
+    {
+     "field": "height_mm",
+     "from": null,
+     "to": 1750
+    },
+    {
+     "field": "locomotion",
+     "from": null,
+     "to": "Legged"
+    },
+    {
+     "field": "note",
+     "from": null,
+     "to": "Maker statements conflict on DOF: Shanghai Electric's own LinkedIn post (2026-07-18) says 43 degrees of freedom, while the company's WAIC 2026 release (2026-07-24, via PR wire) says 41; 41 is used here as the later figure and 43 is recorded as the conflict (Jiefang Daily also reported 43, with 12 DOF per hand against 6 in the first generation). The maker confirms multimodal vision on head and torso and a dual-battery hot-swap system. Height 175 cm and weight 65 kg come from Jiefang Daily's July 2026 report, not from a maker release, and the 5 kg single-arm payload was quoted by Shanghai Electric staff at the June 2026 debut; 10 units were reported working on Shanghai Electric's own production lines (warehouse and electrical-cabinet tasks), hence Pilot. No speed, battery capacity, runtime, compute or price is published."
+    },
+    {
+     "field": "official_url",
+     "from": null,
+     "to": "https://www.linkedin.com/posts/shanghai-electric-group-co%2E-ltd_humanoidrobot-industrialai-smartmanufacturing-activity-7484091162891272192-kGJn"
+    },
+    {
+     "field": "payload_kg",
+     "from": null,
+     "to": 5
+    },
+    {
+     "field": "release_year",
+     "from": null,
+     "to": 2026
+    },
+    {
+     "field": "sources",
+     "from": [],
+     "to": [
+      "https://www.linkedin.com/posts/shanghai-electric-group-co%2E-ltd_humanoidrobot-industrialai-smartmanufacturing-activity-7484091162891272192-kGJn",
+      "https://humanoidversus.com/robots/shanghai-electric-suyuan-2-0"
+     ]
+    },
+    {
+     "field": "status",
+     "from": null,
+     "to": "Pilot"
+    },
+    {
+     "field": "summary",
+     "from": "",
+     "to": "Shanghai Electric's second-generation bipedal factory humanoid, shown at the Shanghai technology fair and WAIC 2026 with multimodal vision, hot-swappable dual batteries and 10 units already on internal lines."
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "official"
+    },
+    {
+     "field": "weight_kg",
+     "from": null,
+     "to": 65
+    }
+   ]
+  }
+ ]
+}

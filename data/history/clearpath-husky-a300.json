@@ -1,0 +1,131 @@
+{
+ "id": "clearpath-husky-a300",
+ "name": "Husky A300",
+ "manufacturer": "Clearpath Robotics (Rockwell Automation)",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-03",
+   "type": "added",
+   "source": "https://clearpathrobotics.com/husky-a300-unmanned-ground-vehicle-robot/",
+   "commit": "1a533a7",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://clearpathrobotics.com/husky-a300-unmanned-ground-vehicle-robot/",
+   "commit": "ae60ceb",
+   "changes": [
+    {
+     "field": "notes",
+     "from": null,
+     "to": "Maker page: 990 x 698 x 381 mm, 80 kg, 100 kg payload, 2 m/s, IP54, 30 deg climb, four in-wheel brushless motors, ROS 2 Jazzy. Page runtime is 8 h typical, 16 h upgraded and 24 h extended, while the October 2024 datasheet gives 4 h with the 1.02 kWh standard pack, so 4 h is kept. Page height is 381 mm including the rear e-ink display; the datasheet gives 372 mm."
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "official"
+    },
+    {
+     "field": "open_source_repos",
+     "from": null,
+     "to": [
+      {
+       "name": "clearpath_robot",
+       "url": "https://github.com/clearpathrobotics/clearpath_robot",
+       "license": "BSD-3-Clause"
+      }
+     ]
+    },
+    {
+     "field": "ros2_support",
+     "from": null,
+     "to": true
+    },
+    {
+     "field": "ros2_url",
+     "from": null,
+     "to": "https://github.com/clearpathrobotics/clearpath_robot"
+    },
+    {
+     "field": "sdk",
+     "from": null,
+     "to": {
+      "languages": [
+       "C++",
+       "Python"
+      ],
+      "open_source": true,
+      "license": "BSD-3-Clause",
+      "url": "https://github.com/clearpathrobotics/clearpath_robot"
+     }
+    },
+    {
+     "field": "sources",
+     "from": [
+      "https://clearpathrobotics.com/husky-a300-unmanned-ground-vehicle-robot/",
+      "https://storage.pardot.com/92812/1728925412aC5a34ww/Husky_A300_DataSheet_Oct24.pdf",
+      "https://clearpathrobotics.com/husky-spec-comparison/",
+      "https://docs.clearpathrobotics.com/docs_robots/outdoor_robots/husky/a300/user_manual_husky"
+     ],
+     "to": [
+      "https://clearpathrobotics.com/husky-a300-unmanned-ground-vehicle-robot/",
+      "https://storage.pardot.com/92812/1728925412aC5a34ww/Husky_A300_DataSheet_Oct24.pdf",
+      "https://clearpathrobotics.com/husky-spec-comparison/",
+      "https://docs.clearpathrobotics.com/docs_robots/outdoor_robots/husky/a300/user_manual_husky",
+      "https://github.com/clearpathrobotics/clearpath_robot"
+     ]
+    },
+    {
+     "field": "certifications",
+     "from": null,
+     "to": [
+      "CE",
+      "FCC Part 15 Subpart B",
+      "FCC Part 18",
+      "ICES-002",
+      "ICES-003"
+     ]
+    },
+    {
+     "field": "safety_note",
+     "from": null,
+     "to": "Datasheet lists ISO 12100 risk assessment; the user manual adds CE marking and E-stop PLc / electrical braking PLa per ISO 13849."
+    },
+    {
+     "field": "safety_pl",
+     "from": null,
+     "to": "PL c (E-stop), PL a (braking)"
+    },
+    {
+     "field": "safety_source",
+     "from": null,
+     "to": "https://docs.clearpathrobotics.com/docs_robots/outdoor_robots/husky/a300/user_manual_husky"
+    },
+    {
+     "field": "safety_standards",
+     "from": null,
+     "to": [
+      "ISO 12100 (risk assessment)",
+      "EN 61326-1:2013",
+      "EN 61010-1:2010",
+      "EN 50566:2017",
+      "EN 55032:2015",
+      "AS/NZS 4268:2017",
+      "AS/NZS 4024.1204:2019",
+      "KS 3124:2020",
+      "KS 3126:2020",
+      "KS C 9610-6-2:2019",
+      "KS C 9610-6-4:2022"
+     ]
+    },
+    {
+     "field": "compute_soc",
+     "from": null,
+     "to": "Intel Core i3-13100TE"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,43 @@
+{
+ "id": "genisom-gangben-l1-w",
+ "name": "Genisom L1-W",
+ "manufacturer": "GENISOM AI (ZsiBot)",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-17",
+   "type": "added",
+   "source": "https://www.genisomai.com/product-robot/L1-W",
+   "commit": "0a6305b",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://www.genisomai.com/product-robot/L1-W",
+   "commit": "ae60ceb",
+   "changes": [
+    {
+     "field": "name",
+     "from": "Gangben L1-W",
+     "to": "Genisom L1-W"
+    },
+    {
+     "field": "compute_soc",
+     "from": null,
+     "to": "NVIDIA Jetson Orin NX"
+    },
+    {
+     "field": "compute_source",
+     "from": null,
+     "to": "https://www.genisomai.com/product-robot/L1-W"
+    },
+    {
+     "field": "compute_tops",
+     "from": null,
+     "to": 100
+    }
+   ]
+  }
+ ]
+}

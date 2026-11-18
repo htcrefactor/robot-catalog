@@ -1,0 +1,85 @@
+{
+ "id": "sanctuary-phoenix",
+ "name": "Phoenix",
+ "manufacturer": "Sanctuary AI",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-13",
+   "type": "added",
+   "source": "https://humanoidstore.co/robots/sanctuary-phoenix",
+   "commit": "14cd746",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://sanctuary.ai/news/sanctuary-ai-unveils-phoenix-a-humanoid-general-purpose-robot-designed-for-work/",
+   "commit": "75b989d",
+   "changes": [
+    {
+     "field": "data_source",
+     "from": "HumanoidStore open data (CC BY 4.0)",
+     "to": null
+    },
+    {
+     "field": "max_speed_mps",
+     "from": 1.34,
+     "to": 1.33
+    },
+    {
+     "field": "notes",
+     "from": null,
+     "to": "Issue #17 (2026-11-17): Phoenix - 1.7 m, 70 kg, 25 kg payload, 4.8 km/h (1.33 m/s) per Sanctuary AI's published figures. Sanctuary gives '20+ DoF' rather than a number, so the DoF field stays empty. [replaced max_speed_mps: 1.34 -> 1.33]"
+    },
+    {
+     "field": "sources",
+     "from": [
+      "https://humanoidstore.co/robots/sanctuary-phoenix"
+     ],
+     "to": [
+      "https://robozaps.com/products/phoenix",
+      "https://sanctuary.ai/news/sanctuary-ai-unveils-phoenix-a-humanoid-general-purpose-robot-designed-for-work/",
+      "https://sanctuary.ai/news/sanctuary-ai-releases-new-generation-of-ai-robots-for-high-quality-data-capture/",
+      "https://www.sanctuary.ai/"
+     ]
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "official"
+    },
+    {
+     "field": "locomotion",
+     "from": "Legged",
+     "to": "Wheeled"
+    },
+    {
+     "field": "note",
+     "from": null,
+     "to": "Maker release 2023-05-16: 5 ft 7 in (170 cm), 155 lb (70.3 kg), maximum payload 55 lb (25 kg), maximum speed 3 mph (1.34 m/s), hands with 20 DOF total (the maker's own text says 20 'in total'; later material cites 20-21 per hand), Carbon control system with symbolic reasoning plus LLMs and RL, hydraulic actuation. LOCOMOTION CORRECTED: Generation 8 (release 2024-12-16) moved to a WHEELED base, with the maker stating customer feedback showed bipedal legs were too frail for a strong torso, so 'Legged' was changed to 'Wheeled'. Status stays Discontinued: Sanctuary's current site sells hardware-agnostic Physical AI deployed on commercially available robots and only describes 'a path to humanoids', and Phoenix no longer appears in its product material. No DOF total or battery is published, so those fields stay empty."
+    },
+    {
+     "field": "official_url",
+     "from": null,
+     "to": "https://sanctuary.ai/news/sanctuary-ai-unveils-phoenix-a-humanoid-general-purpose-robot-designed-for-work/"
+    },
+    {
+     "field": "release_year",
+     "from": null,
+     "to": 2023
+    },
+    {
+     "field": "summary",
+     "from": "Full-size humanoid from Sanctuary AI; discontinued, sold to businesses.",
+     "to": "Sanctuary AI's sixth-generation general-purpose humanoid, run by its Carbon AI control system, later moved to a wheeled base for industrial data capture before the company pivoted to hardware-agnostic AI."
+    },
+    {
+     "field": "weight_kg",
+     "from": 70,
+     "to": 70.3
+    }
+   ]
+  }
+ ]
+}

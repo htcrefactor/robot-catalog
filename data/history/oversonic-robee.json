@@ -1,0 +1,92 @@
+{
+ "id": "oversonic-robee",
+ "name": "RoBee",
+ "manufacturer": "Oversonic Robotics",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-13",
+   "type": "added",
+   "source": "https://humanoidstore.co/robots/oversonic-robee",
+   "commit": "14cd746",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://www.oversonicrobotics.com/robee-r/",
+   "commit": "976d9e6",
+   "changes": [
+    {
+     "field": "data_source",
+     "from": "HumanoidStore open data (CC BY 4.0)",
+     "to": "Maker sources (verified 2026-11-17)"
+    },
+    {
+     "field": "height_mm",
+     "from": 1990,
+     "to": 1900
+    },
+    {
+     "field": "ip_rating",
+     "from": null,
+     "to": "IPX4"
+    },
+    {
+     "field": "notes",
+     "from": null,
+     "to": "Issue #17 (2026-11-17): RoBee R - height 162-199 cm (190 taken), weight up to 293 kg on the current page vs up to 180 kg in the 2025 sheet (180 kept), 10 kg both arms / 5 kg single arm, 1.2 m/s, up to 8 h, IPX4. DoF is not published, so the HumanoidStore DoF was emptied. [replaced height_mm: 1990 -> 1900; weight_kg: 293 -> 180; payload_kg: 15 -> 10; ip_rating: None -> IPX4]"
+    },
+    {
+     "field": "payload_kg",
+     "from": 15,
+     "to": 10
+    },
+    {
+     "field": "sources",
+     "from": [
+      "https://humanoidstore.co/robots/oversonic-robee"
+     ],
+     "to": [
+      "https://www.oversonicrobotics.com/robee-r/"
+     ]
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "official"
+    },
+    {
+     "field": "weight_kg",
+     "from": 293,
+     "to": 180
+    },
+    {
+     "field": "note",
+     "from": null,
+     "to": "Oversonic RoBee R page (checked 2026-11-17): weight up to 293 kg, height 165-199 cm (recorded at the top of the range), footprint 65 x 71 cm, 7.5 kg per arm and 15 kg bimanual payload, 1.2 m/s, up to 8 h on dual lithium-ion packs, differential or omnidirectional wheeled base, IPX4. Total DoF is not published."
+    },
+    {
+     "field": "official_url",
+     "from": null,
+     "to": "https://www.oversonicrobotics.com/robee-r/"
+    },
+    {
+     "field": "sensors",
+     "from": [],
+     "to": [
+      "LiDAR and cameras for navigation",
+      "Depth cameras",
+      "Power/force feedback on motor controls",
+      "Thermal camera on request"
+     ]
+    },
+    {
+     "field": "summary",
+     "from": "Wheeled (bimanual torso on a wheeled base) humanoid from Oversonic Robotics; b2b only, sold to businesses.",
+     "to": "Oversonic's industrial cognitive humanoid RoBee R: a wheeled bimanual body 1.65-1.99 m tall, 15 kg bimanual payload, 1.2 m/s and up to 8 h, with IPX4 and SIL 3 obstacle detection."
+    }
+   ]
+  }
+ ]
+}

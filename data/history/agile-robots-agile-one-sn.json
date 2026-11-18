@@ -1,0 +1,47 @@
+{
+ "id": "agile-robots-agile-one-sn",
+ "name": "Agile ONE SN",
+ "manufacturer": "Agile Robots",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-13",
+   "type": "added",
+   "source": "https://humanoidstore.co/robots/agile-robots-agile-one-sn",
+   "commit": "14cd746",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://www.agile-robots.com/en/news/detail/agile-robots-launches-agile-one-sn/",
+   "commit": "0be5d4c",
+   "changes": [
+    {
+     "field": "data_source",
+     "from": "HumanoidStore open data (CC BY 4.0)",
+     "to": null
+    },
+    {
+     "field": "notes",
+     "from": null,
+     "to": "Issue #17 (2026-11-17): Agile ONE SN - 1.4 m, 43 kg (NVIDIA lists 40 kg), 31 body DoF + 20 per hand = 71, 3 kg per arm, Jetson Thor, from Agile Robots' launch release. No speed, runtime or price published."
+    },
+    {
+     "field": "sources",
+     "from": [
+      "https://humanoidstore.co/robots/agile-robots-agile-one-sn"
+     ],
+     "to": [
+      "https://www.agile-robots.com/en/news/detail/agile-robots-launches-agile-one-sn/"
+     ]
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "official"
+    }
+   ]
+  }
+ ]
+}

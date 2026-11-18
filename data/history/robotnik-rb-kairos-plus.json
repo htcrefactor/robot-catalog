@@ -1,0 +1,33 @@
+{
+ "id": "robotnik-rb-kairos-plus",
+ "name": "RB-KAIROS+",
+ "manufacturer": "Robotnik",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-17",
+   "type": "added",
+   "source": "https://robotnik.eu/products/mobile-manipulators/rb-kairos/",
+   "commit": "ebcdc70",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://robotnik.eu/products/mobile-manipulators/rb-kairos/",
+   "commit": "ae60ceb",
+   "changes": [
+    {
+     "field": "compute_soc",
+     "from": null,
+     "to": "Intel Core i7"
+    },
+    {
+     "field": "compute_source",
+     "from": null,
+     "to": "https://robotnik.eu/products/mobile-manipulators/rb-kairos/"
+    }
+   ]
+  }
+ ]
+}

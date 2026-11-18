@@ -1,0 +1,107 @@
+{
+ "id": "igus-iggy",
+ "name": "iggyRob",
+ "manufacturer": "igus",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-13",
+   "type": "added",
+   "source": "https://humanoidstore.co/robots/igus-iggy",
+   "commit": "14cd746",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://www.igus.com/product/0-LCA-IROB",
+   "commit": "b310609",
+   "changes": [
+    {
+     "field": "data_source",
+     "from": "HumanoidStore open data (CC BY 4.0)",
+     "to": null
+    },
+    {
+     "field": "notes",
+     "from": null,
+     "to": "Issue #17 (2026-11-17): iggyRob - about 1.70 m, 101 kg, 2 kg per ReBeL arm, up to 8 h, EUR 47,999 (about US$54,500) from igus' product page and launch release. DoF is not published as a total, so the HumanoidStore DoF was emptied. [replaced payload_kg: 1.5 -> 2; price_usd: 58024 -> 54500; price_note: list 51691.37 EUR (maker), per HumanoidStore, checked 2026-10 -> EUR 47,999 (about US$54,500) from igus]"
+    },
+    {
+     "field": "payload_kg",
+     "from": 1.5,
+     "to": 2
+    },
+    {
+     "field": "price_note",
+     "from": "list 51691.37 EUR (maker), per HumanoidStore, checked 2026-10",
+     "to": "EUR 47,999 (about US$54,500) from igus"
+    },
+    {
+     "field": "price_usd",
+     "from": 58024,
+     "to": 54500
+    },
+    {
+     "field": "sources",
+     "from": [
+      "https://humanoidstore.co/robots/igus-iggy"
+     ],
+     "to": [
+      "https://www.igus.com/product/0-LCA-IROB",
+      "https://press.igus.com/2025/04/29/iggy-rob-humanoid/",
+      "https://press.igus.eu/humanoid-robotics-from-germany-igus-launches-new-service-robot/"
+     ]
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "official"
+    },
+    {
+     "field": "note",
+     "from": null,
+     "to": "Maker product page: 101 kg, maximum component weight 1.5 kg, AMR basis ReBeLMove Pro, two ReBeL-6DOF-03 arms (664 mm reach, 2 kg per arm), suction pad plus ReBeL gripper, LiDAR and 3D cameras, up to 8 h per charge, igus Robot Control, ROS 2 interface, CE and VDE 5050 fleet approval. Maker press: 1.30-1.70 m depending on configuration, '16 DOF' quoted in the press release while the product page lists two 6-DoF arms (record keeps 12), 2.5 kg per arm, ReBeLMove Pro load 50 kg / payload 100 kg. Launch price 47,999 EUR (Iggy Rob Industrial, 2025); Iggy Rob Home from 55,000 EUR (Jun 2026). The 58,024 USD list figure was an aggregator conversion and was removed."
+    },
+    {
+     "field": "official_url",
+     "from": null,
+     "to": "https://www.igus.com/product/0-LCA-IROB"
+    },
+    {
+     "field": "release_year",
+     "from": null,
+     "to": 2025
+    },
+    {
+     "field": "ros_support",
+     "from": null,
+     "to": "ROS 2"
+    },
+    {
+     "field": "sdk_available",
+     "from": null,
+     "to": true
+    },
+    {
+     "field": "sdk_name",
+     "from": null,
+     "to": "igus Robot Control (iRC)"
+    },
+    {
+     "field": "sensors",
+     "from": [],
+     "to": [
+      "LiDAR",
+      "3D cameras (chest and base)"
+     ]
+    },
+    {
+     "field": "summary",
+     "from": "Wheeled (bimanual torso on a wheeled base) humanoid from igus; shipping now, sold to businesses.",
+     "to": "igus' humanoid service robot on a ReBeLMove AMR base with two 6-DoF ReBeL arms, sold as Iggy Rob Industrial and Iggy Rob Home."
+    }
+   ]
+  }
+ ]
+}

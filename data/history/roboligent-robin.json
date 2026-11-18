@@ -1,0 +1,55 @@
+{
+ "id": "roboligent-robin",
+ "name": "ROBIN",
+ "manufacturer": "Roboligent",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-17",
+   "type": "added",
+   "source": null,
+   "commit": "ebcdc70",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://roboligent.com/",
+   "commit": "b1429ab",
+   "changes": [
+    {
+     "field": "notes",
+     "from": null,
+     "to": "Maker page: two 7-DOF arms on an omnidirectional base with a motorized lifting column; compliant force-controlled actuators with force sensing at every joint; up to 20 kg hugged between both arms; VR demonstration teaching; stack runs onboard. Height, weight, speed, battery and total DoF are not published."
+    },
+    {
+     "field": "official_url",
+     "from": null,
+     "to": "https://roboligent.com/"
+    },
+    {
+     "field": "payload_kg",
+     "from": null,
+     "to": 20
+    },
+    {
+     "field": "sources",
+     "from": [],
+     "to": [
+      "https://roboligent.com/"
+     ]
+    },
+    {
+     "field": "summary",
+     "from": "",
+     "to": "Compliant dual-arm mobile manipulator that works beside people without fencing for carton, tote and line-side handling."
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "official"
+    }
+   ]
+  }
+ ]
+}

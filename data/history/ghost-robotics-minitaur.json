@@ -1,0 +1,51 @@
+{
+ "id": "ghost-robotics-minitaur",
+ "name": "Minitaur",
+ "manufacturer": "Ghost Robotics",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-17",
+   "type": "added",
+   "source": null,
+   "commit": "b596d3e",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://www.ghostrobotics.io/",
+   "commit": "1173def",
+   "changes": [
+    {
+     "field": "note",
+     "from": null,
+     "to": "Maker press releases (launch 14 Sep 2016 and update 28 Feb 2017): direct-drive (gearless) legs with 5-bar linkages, 35 deg inclines, 15 cm steps in stride, 27 cm crawl height, 40 cm ledges, 80 cm gaps. The maker publishes no mass, dimensions, payload or top speed, and ghostrobotics.io/minitaur now returns 404, so those fields stay empty; the 3 kg payload, 6 kg mass and 2 m/s that catalogues quote are not maker figures."
+    },
+    {
+     "field": "official_url",
+     "from": null,
+     "to": "https://www.ghostrobotics.io/"
+    },
+    {
+     "field": "sources",
+     "from": [],
+     "to": [
+      "https://www.prnewswire.com/news-releases/ghost-robotics-launches-ghost-minitaur-direct-drive-legged-robot-platform-for-autonomous-vehicle-applications-300328304.html",
+      "https://www.prnewswire.com/news-releases/ghost-minitaur-highly-agile-direct-drive-quadruped-demonstrates-why-legged-robots-are-far-superior-to-wheels-and-tracks-when-venturing-outdoors-300414820.html"
+     ]
+    },
+    {
+     "field": "summary",
+     "from": "",
+     "to": "Ghost Robotics' first direct-drive quadruped: a gearless, high-bandwidth research platform for tactile terrain interaction."
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "official"
+    }
+   ]
+  }
+ ]
+}

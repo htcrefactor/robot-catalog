@@ -1,0 +1,99 @@
+{
+ "id": "faraday-future-fx-aegis",
+ "name": "FX Aegis (Classic)",
+ "manufacturer": "Faraday Future",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-17",
+   "type": "added",
+   "source": "https://robotics.ff.com/us/fx-aegis/",
+   "commit": "b596d3e",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://robotics.ff.com/us/fx-aegis/",
+   "commit": "4b7ab4b",
+   "changes": [
+    {
+     "field": "note",
+     "from": "Page lists four FX Aegis Classic trims; values here are the base 'Aegis Classic - Pro' (12 DoF, 3.7 m/s, IP32, 15 kg, $2,990 sale / $4,490 list). Ultra: 5.0 m/s, IP54, 16 kg, $12,990; Ultra W (wheel-legged, 12+4 DoF): >5.5 m/s, 22 kg, $12,990. SDK/API only on Edu/Ultra trims.",
+     "to": "Page lists four FX Aegis Classic trims; values here are the base 'Aegis Classic - Pro' (12 DoF, 3.7 m/s, IP32, 15 kg, $2,990 sale / $4,490 list). Ultra: 5.0 m/s, IP54, 16 kg, $12,990; Ultra W (wheel-legged, 12+4 DoF): >5.5 m/s, 22 kg, $12,990 - kept here as a variant, not a separate record. SDK/API only on Edu/Ultra trims."
+    },
+    {
+     "field": "variants",
+     "from": null,
+     "to": [
+      {
+       "id": "faraday-future-fx-aegis-ultra-w",
+       "name": "FX Aegis Classic Ultra-W",
+       "note": "Wheel-legged trim of FX Aegis Classic, released 2026: 22 kg, 12+4 DoF, open SDK/API, $12,990 plus a $3,000 skills package. Speed (>5.5 m/s) and obstacle height (60 vs 65 cm) appear only on third-party sites.",
+       "note_ko": "FX Aegis Classic의 휠-레그 트림으로 2026년 출시. 22 kg, 12+4 DoF, SDK/API 공개, $12,990에 스킬 패키지 $3,000 별도. 최고 속도(>5.5 m/s)와 장애물 높이(60 vs 65 cm)는 3자 사이트에만 있습니다.",
+       "url": "https://www.ff.com/us/919-ff-eai-robotics/"
+      }
+     ]
+    },
+    {
+     "field": "price_note",
+     "from": "Aegis Classic - Pro sale price (list $4,490); Pro Edu $9,990; Ultra/Ultra W $12,990",
+     "to": null
+    },
+    {
+     "field": "price_observations",
+     "from": null,
+     "to": [
+      {
+       "date": "2026-11-17",
+       "amount": 2490,
+       "currency": "USD",
+       "kind": "list",
+       "source": "https://shop.ff.com/products/aegis",
+       "note": "Aegis"
+      },
+      {
+       "date": "2026-11-17",
+       "amount": 2990,
+       "currency": "USD",
+       "kind": "list",
+       "source": "https://shop.ff.com/products/aegis",
+       "note": "Aegis Classic Pro"
+      },
+      {
+       "date": "2026-11-17",
+       "amount": 9990,
+       "currency": "USD",
+       "kind": "edu",
+       "source": "https://shop.ff.com/products/aegis",
+       "note": "Aegis Classic Edu"
+      },
+      {
+       "date": "2026-11-17",
+       "amount": 12990,
+       "currency": "USD",
+       "kind": "list",
+       "source": "https://shop.ff.com/products/aegis",
+       "note": "Aegis Classic Ultra, also the price of Classic Ultra-W"
+      }
+     ]
+    },
+    {
+     "field": "price_usd",
+     "from": 2990,
+     "to": null
+    },
+    {
+     "field": "sources",
+     "from": [
+      "https://robotics.ff.com/us/fx-aegis/"
+     ],
+     "to": [
+      "https://robotics.ff.com/us/fx-aegis/",
+      "https://shop.ff.com/products/aegis"
+     ]
+    }
+   ]
+  }
+ ]
+}

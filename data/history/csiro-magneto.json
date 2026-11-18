@@ -1,0 +1,84 @@
+{
+ "id": "csiro-magneto",
+ "name": "Magneto",
+ "manufacturer": "CSIRO Data61",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-17",
+   "type": "added",
+   "source": null,
+   "commit": "b596d3e",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://www.csiro.au/en/research/technology-space/robotics/magneto",
+   "commit": "1173def",
+   "changes": [
+    {
+     "field": "dof",
+     "from": null,
+     "to": 12
+    },
+    {
+     "field": "height_mm",
+     "from": null,
+     "to": 320
+    },
+    {
+     "field": "length_mm",
+     "from": null,
+     "to": 660
+    },
+    {
+     "field": "note",
+     "from": null,
+     "to": "The CSIRO page describes the capability without figures; the numbers come from the Data61 team's IROS 2018 paper (Bandyopadhyay et al.): 5.53 kg (5.87 kg with tether), 660 x 600 x 320 mm in operation and 370 x 210 x 250 mm packed, 3 DoF per leg (12), Kanetec KEP-4C magnets of 40 mm footprint, squeezes through a 230 mm gap. Figures are the operating envelope, not a standing height. Licensed to Nexxis for market."
+    },
+    {
+     "field": "official_url",
+     "from": null,
+     "to": "https://www.csiro.au/en/research/technology-space/robotics/magneto"
+    },
+    {
+     "field": "sensors",
+     "from": [],
+     "to": [
+      "Electro-permanent magnet foot per leg (40 mm)",
+      "Localisation and object-detection perception"
+     ]
+    },
+    {
+     "field": "sources",
+     "from": [],
+     "to": [
+      "https://www.csiro.au/en/research/technology-space/robotics/magneto",
+      "https://research.csiro.au/robotics/wp-content/uploads/sites/96/2018/09/Magneto_IROS18_Paper.pdf"
+     ]
+    },
+    {
+     "field": "summary",
+     "from": "",
+     "to": "Quadruped inspection robot with permanent-electromagnet feet that climbs and inspects ferrous structures at any inclination."
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "official"
+    },
+    {
+     "field": "weight_kg",
+     "from": null,
+     "to": 5.53
+    },
+    {
+     "field": "width_mm",
+     "from": null,
+     "to": 600
+    }
+   ]
+  }
+ ]
+}

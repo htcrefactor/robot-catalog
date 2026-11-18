@@ -1,0 +1,55 @@
+{
+ "id": "kawasaki-nyokkey",
+ "name": "Nyokkey",
+ "manufacturer": "Kawasaki Heavy Industries",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-17",
+   "type": "added",
+   "source": null,
+   "commit": "b596d3e",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://kawasakirobotics.com/jp/news/20260422_nyokkey/",
+   "commit": "b310609",
+   "changes": [
+    {
+     "field": "note",
+     "from": null,
+     "to": "Maker news (22 Apr 2026): Nyokkey is a semi-humanoid social robot built for the same space as people, based on Kawasaki's industrial robot technology and aimed at guidance, reception and transport; at Kawasaki Robostage it now runs a retail picking station (tablet order, 3D camera over the shelf, autonomous move, pick and hand-over to the cashier). Earlier trials: pantry service at the Akashi plant (2022) and Fujita Health University Hospital elevator use. The maker publishes no datasheet; the 150 cm / 75 kg / 6 kg payload / 6 km/h figures come from 2022 press coverage and were not filled."
+    },
+    {
+     "field": "official_url",
+     "from": null,
+     "to": "https://kawasakirobotics.com/jp/news/20260422_nyokkey/"
+    },
+    {
+     "field": "sources",
+     "from": [],
+     "to": [
+      "https://kawasakirobotics.com/jp/news/20260422_nyokkey/"
+     ]
+    },
+    {
+     "field": "status",
+     "from": "Research",
+     "to": "Pilot"
+    },
+    {
+     "field": "summary",
+     "from": "",
+     "to": "Kawasaki's Nyokkey semi-humanoid service robot: a two-armed autonomous mobile base for reception, service, picking and transport."
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "official"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,76 @@
+{
+ "id": "sdu-scalf",
+ "name": "SCalf",
+ "manufacturer": "Shandong University",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-17",
+   "type": "added",
+   "source": null,
+   "commit": "b596d3e",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://robot.sia.cn/en/article/doi/10.13973/j.cnki.robot.2014.0385",
+   "commit": "1173def",
+   "changes": [
+    {
+     "field": "dof",
+     "from": null,
+     "to": 12
+    },
+    {
+     "field": "length_mm",
+     "from": null,
+     "to": 1400
+    },
+    {
+     "field": "note",
+     "from": null,
+     "to": "Shandong University papers by the robot's own team: SCalf is 1.4 m long, 0.75 m wide and 200 kg overall, with a 200 kg load capacity, a 3-DoF leg (12 DoF) and a gasoline-engine hydraulic supply; the later SCalf-II is 1.1 x 0.45 x 1.1 m at 120 kg on a 19 MPa system. No maker product page exists, so the laboratory papers are the maker source."
+    },
+    {
+     "field": "official_url",
+     "from": null,
+     "to": "https://robot.sia.cn/en/article/doi/10.13973/j.cnki.robot.2014.0385"
+    },
+    {
+     "field": "payload_kg",
+     "from": null,
+     "to": 200
+    },
+    {
+     "field": "sources",
+     "from": [],
+     "to": [
+      "https://doi.org/10.3390/app9091771",
+      "https://journals.sagepub.com/doi/10.1177/1729881418813235"
+     ]
+    },
+    {
+     "field": "summary",
+     "from": "",
+     "to": "Hydraulically actuated bionic quadruped from Shandong University's robotics centre, built for heavy loads on rough terrain."
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "official"
+    },
+    {
+     "field": "weight_kg",
+     "from": null,
+     "to": 200
+    },
+    {
+     "field": "width_mm",
+     "from": null,
+     "to": 750
+    }
+   ]
+  }
+ ]
+}

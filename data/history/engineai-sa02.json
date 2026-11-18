@@ -1,0 +1,75 @@
+{
+ "id": "engineai-sa02",
+ "name": "SA02",
+ "manufacturer": "EngineAI",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-17",
+   "type": "added",
+   "source": null,
+   "commit": "b596d3e",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://en.engineai.com.cn/about-news-media/16.html",
+   "commit": "4b395bc",
+   "changes": [
+    {
+     "field": "country",
+     "from": null,
+     "to": "China"
+    },
+    {
+     "field": "height_mm",
+     "from": null,
+     "to": 1250
+    },
+    {
+     "field": "note",
+     "from": null,
+     "to": "EngineAI's own news page (10 Aug 2025) previews SA02 as 'Everyone's First Humanoid Robot' starting at CNY 38,500 (about USD 5,300) at the 2025 World Robot Conference. EngineAI has no SA02 product page (its current product line is PM01, T800, JS01, SE01 and S2), and the 1 .25 m / 25 kg build and DoF count come only from the launch spec sheet as reproduced in trade press, which quotes both 26 and 28 DoF - so dof is left empty and the conflicting counts noted. Payload, speed, runtime and battery are not published."
+    },
+    {
+     "field": "official_url",
+     "from": null,
+     "to": "https://en.engineai.com.cn/about-news-media/16.html"
+    },
+    {
+     "field": "price_note",
+     "from": null,
+     "to": "from CNY 38,500 (maker pre-announcement at WRC 2025)"
+    },
+    {
+     "field": "sources",
+     "from": [],
+     "to": [
+      "https://en.engineai.com.cn/about-news-media/16.html"
+     ]
+    },
+    {
+     "field": "status",
+     "from": null,
+     "to": "Announced"
+    },
+    {
+     "field": "summary",
+     "from": "",
+     "to": "EngineAI's low-cost companion humanoid for young buyers, previewed at the 2025 World Robot Conference at CNY 38,500 and not yet on sale."
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "official"
+    },
+    {
+     "field": "weight_kg",
+     "from": null,
+     "to": 25
+    }
+   ]
+  }
+ ]
+}

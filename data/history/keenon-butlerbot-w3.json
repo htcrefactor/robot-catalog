@@ -1,0 +1,33 @@
+{
+ "id": "keenon-butlerbot-w3",
+ "name": "BUTLERBOT W3",
+ "manufacturer": "KEENON Robotics",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-03",
+   "type": "added",
+   "source": "https://www.keenon.com/en/product/W3",
+   "commit": "1a533a7",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://www.keenon.com/en/product/W3",
+   "commit": "b1429ab",
+   "changes": [
+    {
+     "field": "notes",
+     "from": null,
+     "to": "Maker page: 45.9 x 54.9 x 108.1 cm (W x D x H), 48 kg, total load 20 kg, 0.8 m/s, battery life up to 12 h with 6.5 h charging, slope 7 deg, minimum passage 70 cm, up to four independently opening compartments and IoT elevator riding."
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "official"
+    }
+   ]
+  }
+ ]
+}

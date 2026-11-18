@@ -1,0 +1,65 @@
+{
+ "id": "tau-robotics-tau-humanoid",
+ "name": "Tau Humanoid",
+ "manufacturer": "Tau Robotics",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-17",
+   "type": "added",
+   "source": null,
+   "commit": "b596d3e",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://www.tau-robotics.com/",
+   "commit": "30bdc91",
+   "changes": [
+    {
+     "field": "country",
+     "from": null,
+     "to": "United States"
+    },
+    {
+     "field": "locomotion",
+     "from": null,
+     "to": "Legged"
+    },
+    {
+     "field": "note",
+     "from": null,
+     "to": "Tau Robotics publishes no hardware specifications: its site describes the robots only as humanoids with 3D-printed claw hands and antennae heads that work alongside a supervising human, able to walk stairs and use elevators (checked 2026-11-17). Press reports describe the body as a modified Unitree G1 with Tau's own cameras, grippers and compute, but the maker does not state this. Per-unit price, height, weight, payload, speed, battery and runtime are therefore left empty; the ~USD 55,000 and 132 cm / 35 kg figures in catalogues are not maker figures."
+    },
+    {
+     "field": "official_url",
+     "from": null,
+     "to": "https://www.tau-robotics.com/"
+    },
+    {
+     "field": "sources",
+     "from": [],
+     "to": [
+      "https://www.tau-robotics.com/"
+     ]
+    },
+    {
+     "field": "status",
+     "from": null,
+     "to": "Pilot"
+    },
+    {
+     "field": "summary",
+     "from": "",
+     "to": "Humanoid that cleans homes and offices as an invite-only service in San Francisco, working with a human supervisor rather than being sold as a product."
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "official"
+    }
+   ]
+  }
+ ]
+}

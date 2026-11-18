@@ -1,0 +1,94 @@
+{
+ "id": "kinisi-kr1",
+ "name": "Kinisi",
+ "manufacturer": "Bear Robotics",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-13",
+   "type": "added",
+   "source": "https://humanoidstore.co/robots/kinisi-kr1",
+   "commit": "14cd746",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://www.bearrobotics.ai/kinisi",
+   "commit": "b310609",
+   "changes": [
+    {
+     "field": "data_source",
+     "from": "HumanoidStore open data (CC BY 4.0)",
+     "to": null
+    },
+    {
+     "field": "notes",
+     "from": null,
+     "to": "Issue #17 (2026-11-17): Bear Robotics' Kinisi page confirms up to 14.4 km/h (4.0 m/s) but lists payload, reach and mobility as 'to be confirmed at launch'. Height 162 cm, weight 100 kg, 21 DoF and 8 h come from Kinisi's pre-acquisition published specifications and could not be re-opened today, so the record is marked unconfirmed rather than official."
+    },
+    {
+     "field": "sources",
+     "from": [
+      "https://humanoidstore.co/robots/kinisi-kr1"
+     ],
+     "to": [
+      "https://www.kinisi.com/",
+      "https://www.bearrobotics.ai/kinisi",
+      "https://www.bearrobotics.ai/blog/bear-robotics-to-acquire-kinisi-robotics"
+     ]
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "unconfirmed"
+    },
+    {
+     "field": "dof",
+     "from": 21,
+     "to": null
+    },
+    {
+     "field": "height_mm",
+     "from": 1620,
+     "to": null
+    },
+    {
+     "field": "ip_rating",
+     "from": null,
+     "to": "IP65"
+    },
+    {
+     "field": "note",
+     "from": null,
+     "to": "Maker page (bearrobotics.ai/kinisi): wheeled humanoid mobile manipulator, up to 14.4 km/h (field = 4 m/s), a full shift per battery, IP65, autonomous omnidirectional base, Bear Universe cloud, trained by demonstration. Payload and reach are marked 'to be confirmed at launch'. Kinisi Robotics (Bristol, UK) built the KR1 with its VLA and Robot Foundation Model; Bear Robotics signed a definitive agreement to acquire Kinisi on 22 Jun 2026. Height (1620 mm), mass (100 kg), 21 DoF and 8 h runtime in the record had no maker source and were cleared."
+    },
+    {
+     "field": "official_url",
+     "from": null,
+     "to": "https://www.bearrobotics.ai/kinisi"
+    },
+    {
+     "field": "release_year",
+     "from": null,
+     "to": 2025
+    },
+    {
+     "field": "runtime_h",
+     "from": 8.0,
+     "to": null
+    },
+    {
+     "field": "summary",
+     "from": "Wheeled (bimanual torso on a wheeled base) humanoid from Bear Robotics; b2b only, sold to businesses.",
+     "to": "Kinisi KR1, Bear Robotics' wheeled humanoid mobile manipulator for warehouse and factory pick, place, sort and move work."
+    },
+    {
+     "field": "weight_kg",
+     "from": 100,
+     "to": null
+    }
+   ]
+  }
+ ]
+}

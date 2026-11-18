@@ -1,0 +1,55 @@
+{
+ "id": "faraday-future-ff-master",
+ "name": "FF Master (Master Classic)",
+ "manufacturer": "Faraday Future",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-17",
+   "type": "added",
+   "source": "https://robotics.ff.com/us/ff-master",
+   "commit": "b596d3e",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://robotics.ff.com/us/ff-master",
+   "commit": "4b7ab4b",
+   "changes": [
+    {
+     "field": "price_note",
+     "from": "Master Classic Edu MSRP on shop.ff.com; Ultra $64,990",
+     "to": null
+    },
+    {
+     "field": "price_observations",
+     "from": null,
+     "to": [
+      {
+       "date": "2026-11-17",
+       "amount": 37990,
+       "currency": "USD",
+       "kind": "edu",
+       "source": "https://shop.ff.com/products/master",
+       "note": "Master Classic Edu"
+      },
+      {
+       "date": "2026-11-17",
+       "amount": 64990,
+       "currency": "USD",
+       "kind": "list",
+       "source": "https://shop.ff.com/products/master",
+       "note": "Master Classic Ultra"
+      }
+     ]
+    },
+    {
+     "field": "price_usd",
+     "from": 37990,
+     "to": null
+    }
+   ]
+  }
+ ]
+}

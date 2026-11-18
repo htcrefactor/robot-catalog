@@ -1,0 +1,70 @@
+{
+ "id": "knowin-ai-knowin-x1",
+ "name": "KNOWIN-X1",
+ "manufacturer": "Knowin AI",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-17",
+   "type": "added",
+   "source": null,
+   "commit": "b596d3e",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://www.knowinai.com/en/product.html",
+   "commit": "5150daa",
+   "changes": [
+    {
+     "field": "data_source",
+     "from": null,
+     "to": "Maker sources (verified 2026-11-17)"
+    },
+    {
+     "field": "dof",
+     "from": null,
+     "to": 23
+    },
+    {
+     "field": "height_mm",
+     "from": null,
+     "to": 1300
+    },
+    {
+     "field": "note",
+     "from": null,
+     "to": "Maker (KNOWIN, checked 2026-11-17): extended height 130 cm, folds to 40 cm or less; 23 DoF total with 7 DoF per arm; 6 kg dual-arm payload; wheeled chassis; vision, depth and LiDAR perception. Weight, speed, battery and runtime are not published."
+    },
+    {
+     "field": "official_url",
+     "from": null,
+     "to": "https://www.knowinai.com/en/product.html"
+    },
+    {
+     "field": "payload_kg",
+     "from": null,
+     "to": 6.0
+    },
+    {
+     "field": "sources",
+     "from": [],
+     "to": [
+      "https://www.knowinai.com/en/product.html"
+     ]
+    },
+    {
+     "field": "summary",
+     "from": "",
+     "to": "Foldable wheeled dual-arm household robot from Knowin AI: 1.3 m tall when extended, 23 DoF and a 6 kg dual-arm payload, with vision, depth and LiDAR perception."
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "official"
+    }
+   ]
+  }
+ ]
+}

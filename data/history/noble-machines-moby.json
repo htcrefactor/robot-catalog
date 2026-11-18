@@ -1,0 +1,62 @@
+{
+ "id": "noble-machines-moby",
+ "name": "Moby",
+ "manufacturer": "Noble Machines",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-13",
+   "type": "added",
+   "source": "https://humanoidstore.co/robots/noble-machines-moby",
+   "commit": "14cd746",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://www.noblemachines.ai/",
+   "commit": "976d9e6",
+   "changes": [
+    {
+     "field": "data_source",
+     "from": "HumanoidStore open data (CC BY 4.0)",
+     "to": "Maker sources (verified 2026-11-17)"
+    },
+    {
+     "field": "notes",
+     "from": null,
+     "to": "Issue #17 (2026-11-17): Moby - 170 cm, 45 kg, 34 DoF, 23 kg payload, 0.8 m/s, 5 h as catalogued from Noble Machines' published figures; the maker site could not be opened for a spec table, so the record stays unconfirmed."
+    },
+    {
+     "field": "sources",
+     "from": [
+      "https://humanoidstore.co/robots/noble-machines-moby"
+     ],
+     "to": [
+      "https://www.noblemachines.ai/"
+     ]
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "unconfirmed"
+    },
+    {
+     "field": "note",
+     "from": null,
+     "to": "Maker homepage (checked 2026-11-17): 23 kg payload, 5 h battery life, 0.8 m/s walking speed, modular end-effectors, remote and autonomous operation for industrial work. Height, weight, DoF and price are not published, so those stay empty."
+    },
+    {
+     "field": "official_url",
+     "from": null,
+     "to": "https://www.noblemachines.ai/"
+    },
+    {
+     "field": "summary",
+     "from": "Full-size humanoid from Noble Machines; b2b only, sold to businesses.",
+     "to": "Noble Machines' industrial humanoid Moby: 23 kg payload, 5 h of battery and 0.8 m/s walking, built for hazardous and physically demanding work."
+    }
+   ]
+  }
+ ]
+}

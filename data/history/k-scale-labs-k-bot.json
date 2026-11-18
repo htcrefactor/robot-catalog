@@ -1,0 +1,84 @@
+{
+ "id": "k-scale-labs-k-bot",
+ "name": "K-Bot",
+ "manufacturer": "K-Scale Labs",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-13",
+   "type": "added",
+   "source": "https://humanoidstore.co/robots/k-scale-labs-k-bot",
+   "commit": "14cd746",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://github.com/kscalelabs/kbot",
+   "commit": "b310609",
+   "changes": [
+    {
+     "field": "data_source",
+     "from": "HumanoidStore open data (CC BY 4.0)",
+     "to": null
+    },
+    {
+     "field": "notes",
+     "from": null,
+     "to": "Issue #17 (2026-11-17): K-Scale Labs shut down in November 2025 and its site is offline, so nothing can be re-checked against a maker page. 140 cm, 34 kg, 20 DoF, 10 kg payload and 4 h are the maker's published figures as recorded by independent catalogs; record stays unconfirmed."
+    },
+    {
+     "field": "sources",
+     "from": [
+      "https://humanoidstore.co/robots/k-scale-labs-k-bot"
+     ],
+     "to": [
+      "https://kscale.dev/",
+      "https://github.com/kscalelabs/kbot",
+      "https://github.com/kscalelabs/docs/blob/master/docs/robots/k-bot/mechanical.md"
+     ]
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "unconfirmed"
+    },
+    {
+     "field": "battery_wh",
+     "from": null,
+     "to": 576
+    },
+    {
+     "field": "note",
+     "from": null,
+     "to": "Maker repository and docs: open-source humanoid (hardware CERN-OHL-S, software GPL v3/MIT) with 20 Robstride quasi-direct-drive actuators (RS00 x2, RS02 x6, RS03 x8, RS04 x4) on a 48 V power + CAN bus, a 12 Ah NCM pack (=576 Wh derived), Onshape CAD, K-OS and K-Sim simulation stack. K-Scale Labs shut down in November 2025 and refunded pre-orders, so the design is no longer sold (status Discontinued). Height, mass and payload appear only in third-party catalogues (about 140 cm, 34 kg, 10 kg, 8,999 USD pre-order) and were not filled."
+    },
+    {
+     "field": "official_url",
+     "from": null,
+     "to": "https://github.com/kscalelabs/kbot"
+    },
+    {
+     "field": "release_year",
+     "from": null,
+     "to": 2025
+    },
+    {
+     "field": "sdk_available",
+     "from": null,
+     "to": true
+    },
+    {
+     "field": "sdk_name",
+     "from": null,
+     "to": "K-OS / K-Sim (open source)"
+    },
+    {
+     "field": "summary",
+     "from": "Mid-size humanoid from K-Scale Labs; discontinued, sold to research buyers.",
+     "to": "K-Scale Labs' open-source full-size humanoid reference design, built from 20 Robstride actuators on a 48 V CAN bus."
+    }
+   ]
+  }
+ ]
+}

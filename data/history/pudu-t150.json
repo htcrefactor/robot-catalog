@@ -1,0 +1,47 @@
+{
+ "id": "pudu-t150",
+ "name": "PUDU T150",
+ "manufacturer": "Pudu Robotics",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-17",
+   "type": "added",
+   "source": "https://www.pudurobotics.com/en/products/puduT150",
+   "commit": "b596d3e",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://www.pudurobotics.com/en/products/puduT150",
+   "commit": "e6ebd1a",
+   "changes": [
+    {
+     "field": "certifications",
+     "from": null,
+     "to": [
+      "CE"
+     ]
+    },
+    {
+     "field": "safety_note",
+     "from": null,
+     "to": "Maker: “Meeting rigorous ISO 3691-4 standards and holding industrial-specific CE certification”."
+    },
+    {
+     "field": "safety_source",
+     "from": null,
+     "to": "https://www.pudurobotics.com/en/products/puduT150"
+    },
+    {
+     "field": "safety_standards",
+     "from": null,
+     "to": [
+      "ISO 3691-4"
+     ]
+    }
+   ]
+  }
+ ]
+}

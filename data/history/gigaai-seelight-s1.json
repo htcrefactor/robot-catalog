@@ -1,0 +1,50 @@
+{
+ "id": "gigaai-seelight-s1",
+ "name": "SeeLight S1",
+ "manufacturer": "GigaAI",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-17",
+   "type": "added",
+   "source": null,
+   "commit": "b596d3e",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://gigaai.cc/",
+   "commit": "b310609",
+   "changes": [
+    {
+     "field": "note",
+     "from": null,
+     "to": "No SeeLight S1 product page could be found on the maker site (gigaai.cc shows Maker H01 only; checked 2026-11-17), so no maker spec figures were available. Reported elsewhere: launched 20 May 2026 in Wuhan as a two-armed wheeled home robot, 167 cm, 70 kg, about 8 h after a 2 h charge (some reports say 6 h), first 100 units into Optics Valley talent apartments for household testing, target retail price around 100,000 CNY in 2027. Wheeled base, dual arms, embodied foundation model. Values not filled because they are not from a maker datasheet."
+    },
+    {
+     "field": "official_url",
+     "from": null,
+     "to": "https://gigaai.cc/"
+    },
+    {
+     "field": "sources",
+     "from": [],
+     "to": [
+      "https://gigaai.cc/"
+     ]
+    },
+    {
+     "field": "summary",
+     "from": "",
+     "to": "GigaAI's wheeled household humanoid SeeLight S1 ('Xiaoguang'), launched in Wuhan in May 2026 and placed in a 100-unit home pilot."
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "unconfirmed"
+    }
+   ]
+  }
+ ]
+}

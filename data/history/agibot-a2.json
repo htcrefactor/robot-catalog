@@ -1,0 +1,122 @@
+{
+ "id": "agibot-a2",
+ "name": "A2",
+ "manufacturer": "AgiBot",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-13",
+   "type": "added",
+   "source": "https://humanoidstore.co/robots/agibot-a2",
+   "commit": "14cd746",
+   "changes": []
+  },
+  {
+   "date": "2026-11-13",
+   "type": "updated",
+   "source": "https://www.agibot.com.cn/products/A2_Ultra",
+   "commit": "b923ddc",
+   "changes": [
+    {
+     "field": "data_source",
+     "from": "HumanoidStore open data (CC BY 4.0)",
+     "to": "HumanoidStore + maker page"
+    },
+    {
+     "field": "length_mm",
+     "from": null,
+     "to": 300
+    },
+    {
+     "field": "official_url",
+     "from": null,
+     "to": "https://www.agibot.com.cn/products/A2_Ultra"
+    },
+    {
+     "field": "payload_kg",
+     "from": 1.5,
+     "to": 2
+    },
+    {
+     "field": "sources",
+     "from": [
+      "https://humanoidstore.co/robots/agibot-a2"
+     ],
+     "to": [
+      "https://humanoidstore.co/robots/agibot-a2",
+      "https://www.agibot.com.cn/products/A2_Ultra"
+     ]
+    },
+    {
+     "field": "weight_kg",
+     "from": 63,
+     "to": 64
+    },
+    {
+     "field": "width_mm",
+     "from": null,
+     "to": 750
+    }
+   ]
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://www.agibot.com.cn/products/A2_Ultra",
+   "commit": "4b7ab4b",
+   "changes": [
+    {
+     "field": "data_source",
+     "from": "HumanoidStore + maker page",
+     "to": null
+    },
+    {
+     "field": "notes",
+     "from": null,
+     "to": "Issue #17 (2026-11-17): A2 figures (169 cm, 64 kg, 2 kg arm payload, 4.5 h standing / 1.5 h walking) are from AgiBot's A2 Ultra page, which also gives 1.5 kg as HumanoidStore's arm payload; maker values kept. HumanoidStore's US$44,560 removed: AgiBot publishes no price there. [emptied (no maker value) price_usd=44560; price_note=list 44560 USD (maker), per HumanoidStore, checked 2026-10]"
+    },
+    {
+     "field": "price_note",
+     "from": "list 44560 USD (maker), per HumanoidStore, checked 2026-10",
+     "to": null
+    },
+    {
+     "field": "price_usd",
+     "from": 44560,
+     "to": null
+    },
+    {
+     "field": "sources",
+     "from": [
+      "https://humanoidstore.co/robots/agibot-a2",
+      "https://www.agibot.com.cn/products/A2_Ultra"
+     ],
+     "to": [
+      "https://www.agibot.com.cn/products/A2_Ultra",
+      "https://humanoidstore.co/robots/agibot-a2",
+      "https://store.agibot.com/products/a2-lite"
+     ]
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "official"
+    },
+    {
+     "field": "price_observations",
+     "from": null,
+     "to": [
+      {
+       "date": "2026-11-17",
+       "amount": 44560,
+       "currency": "USD",
+       "kind": "list",
+       "source": "https://store.agibot.com/products/a2-lite",
+       "note": "store lists the A2 Lite at this price"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

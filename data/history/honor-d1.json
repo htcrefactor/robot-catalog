@@ -1,0 +1,50 @@
+{
+ "id": "honor-d1",
+ "name": "D1",
+ "manufacturer": "HONOR",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-17",
+   "type": "added",
+   "source": null,
+   "commit": "b596d3e",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://www.honor.com/global/events/honor-robot/",
+   "commit": "b310609",
+   "changes": [
+    {
+     "field": "note",
+     "from": null,
+     "to": "Maker product page markets D1 (HONOR Robotics) on autonomous perception and navigation, an in-house high-dynamic motion system, terrain traversal, voice interaction and light strips/gestures; it publishes no height, mass, DoF, payload, battery or speed table. HONOR's own campaign material claims five track records (100 m 9.32 s, 400 m 39.45 s, 1500 m 2:30, half marathon 50:26, peak 14.5 m/s). Trade press gives 169 cm and 45 kg; those figures were not filled. A racing demonstrator rather than a product; no price."
+    },
+    {
+     "field": "official_url",
+     "from": null,
+     "to": "https://www.honor.com/global/events/honor-robot/"
+    },
+    {
+     "field": "sources",
+     "from": [],
+     "to": [
+      "https://www.honor.com/global/events/honor-robot/"
+     ]
+    },
+    {
+     "field": "summary",
+     "from": "",
+     "to": "HONOR's D1 racing humanoid, which won the 2026 Beijing Yizhuang half-marathon for humanoids and set speed records."
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "official"
+    }
+   ]
+  }
+ ]
+}

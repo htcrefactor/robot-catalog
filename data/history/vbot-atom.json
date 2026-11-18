@@ -1,0 +1,71 @@
+{
+ "id": "vbot-atom",
+ "name": "ATOM",
+ "manufacturer": "Vbot (Vita Dynamics)",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-17",
+   "type": "added",
+   "source": null,
+   "commit": "b596d3e",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://www.vbot.cn/",
+   "commit": "30bdc91",
+   "changes": [
+    {
+     "field": "dof",
+     "from": null,
+     "to": 31
+    },
+    {
+     "field": "height_mm",
+     "from": null,
+     "to": 1600
+    },
+    {
+     "field": "note",
+     "from": null,
+     "to": "Maker launch at the 2026 World Robot Conference (2026-08-19): 160 cm tall, 180 cm arm span, 95 cm leg length, 31 body DoF (2 head, 7 per arm, 3 waist, 6 per leg), face screen and ear lighting, fabric cover, quiet soles, personal, enterprise and developer editions with deliveries from end-2026; the Embodied Genome model family and three core models back its interaction. Vbot's site (vbot.cn) currently profiles its robot dog and the ATOM page is not public, so the launch figures are recorded here and weight, speed, payload, runtime and price are left empty (catalogue figures such as 50 kg, 4 km/h, 6 kg and USD 25,000 are not maker values)."
+    },
+    {
+     "field": "official_url",
+     "from": null,
+     "to": "https://www.vbot.cn/"
+    },
+    {
+     "field": "release_year",
+     "from": null,
+     "to": 2026
+    },
+    {
+     "field": "sources",
+     "from": [],
+     "to": [
+      "https://www.vbot.cn/",
+      "http://www.news.cn/auto/20260822/552eab20bbfb45aab48880b1878f7938/c.html"
+     ]
+    },
+    {
+     "field": "status",
+     "from": null,
+     "to": "Pre-order"
+    },
+    {
+     "field": "summary",
+     "from": "",
+     "to": "Vbot's humanoid terminal for living spaces: 160 cm and 31 body DoF with a face screen, ear lights, fabric-covered body and quiet soles, sold for home, retail, public-service and office use."
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "official"
+    }
+   ]
+  }
+ ]
+}

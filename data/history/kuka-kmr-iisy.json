@@ -1,0 +1,78 @@
+{
+ "id": "kuka-kmr-iisy",
+ "name": "KMR iisy",
+ "manufacturer": "KUKA",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-17",
+   "type": "added",
+   "source": "https://www.kuka.com/en-de/products/amr-autonomous-mobile-robotics/mobile-robot-systems/kmr-iisy-autonomous-mobile-cobot",
+   "commit": "ebcdc70",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://www.kuka.com/en-de/products/amr-autonomous-mobile-robotics/mobile-robot-systems/kmr-iisy-autonomous-mobile-cobot",
+   "commit": "0c54867",
+   "changes": [
+    {
+     "field": "note",
+     "from": "Mobile manipulator: differential-drive platform plus integrated LBR iisy 6-axis cobot (11 or 15 kg arm payload). payload_kg = platform capacity 200 kg (my.KUKA lists rated payload 200 kg for KMR iisy-2; a CR C+ variant lists 100 kg). Dimensions/weight from KUKA's my.KUKA product page for KMR iisy-2 (1120 x 695 x 700 mm, 425 kg, 8 h max operating time) - seen in search excerpt of the maker portal, not opened; main product page (opened) confirms 695 x 1120 mm platform, 1.5 m/s, IP54, ISO cleanroom class 3. Launched 2023 (press release July 2023). dof = 6 (arm only).",
+     "to": "Mobile manipulator: differential-drive platform plus integrated LBR iisy 6-axis cobot (11 or 15 kg arm payload). payload_kg = platform capacity 200 kg (my.KUKA lists rated payload 200 kg for KMR iisy-2; a CR C+ variant lists 100 kg). Dimensions/weight from KUKA's my.KUKA product page for KMR iisy-2 (1120 x 695 x 700 mm, 425 kg, 8 h max operating time) - seen in search excerpt of the maker portal, not opened; main product page (opened) confirms 695 x 1120 mm platform, 1.5 m/s, IP54, ISO cleanroom class 3. Launched 2023 (press release July 2023). dof = 6 (arm only). Re-checked 2026-11-17: KUKA product page opened - platform area 695 x 1120 mm, platform capacity up to 200 kg, cobot payload 11 or 15 kg, max 1.5 m/s, IP54, cleanroom class 3, ESD (ISO 61340-5-1 / ANSI ESD S20.20), SLAM navigation with safety scanners + 3D cameras to 2 m, inductive charging, differential drive; launch press release (17 Jul 2023) opened. Platform height 700 mm and 425 kg total weight and 8 h battery come from KUKA's my.KUKA variant page (KMR iisy-2) as seen in a search excerpt; no KUKA-hosted datasheet PDF was found."
+    },
+    {
+     "field": "sources",
+     "from": [
+      "https://www.kuka.com/en-de/products/amr-autonomous-mobile-robotics/mobile-robot-systems/kmr-iisy-autonomous-mobile-cobot"
+     ],
+     "to": [
+      "https://www.kuka.com/en-de/products/amr-autonomous-mobile-robotics/mobile-robot-systems/kmr-iisy-autonomous-mobile-cobot",
+      "https://www.kuka.com/en-gb/company/press/news/2023/06/kmr-iisy-and-kmp-1500p",
+      "https://www.kuka.com/-/media/kuka-corporate/countries/nordic/documents/amr---autonomous-mobile-robotics.pdf",
+      "https://www.kuka.com/ko-kr/"
+     ]
+    },
+    {
+     "field": "certifications",
+     "from": null,
+     "to": [
+      "UL",
+      "FCC",
+      "TÜV Saar (MRK system)"
+     ]
+    },
+    {
+     "field": "safety_note",
+     "from": null,
+     "to": "Maker: UL and FCC approval “for the IoT devices” and a TÜV Saar tested MRK system; ESD qualification to ISO 61340-5-1 and ANSI ESD S20.20."
+    },
+    {
+     "field": "safety_source",
+     "from": null,
+     "to": "https://www.kuka.com/-/media/kuka-corporate/countries/nordic/documents/amr---autonomous-mobile-robotics.pdf"
+    },
+    {
+     "field": "safety_standards",
+     "from": null,
+     "to": [
+      "ISO 61340-5-1",
+      "ANSI ESD S20.20"
+     ]
+    },
+    {
+     "field": "kr_distributors",
+     "from": null,
+     "to": [
+      {
+       "name": "쿠카로보틱스코리아 (KUKA Robotics Korea Co., Ltd.)",
+       "kind": "direct",
+       "url": "https://www.kuka.com/ko-kr/"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

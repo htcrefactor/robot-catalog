@@ -1,0 +1,33 @@
+{
+ "id": "segway-rmp-lite-220",
+ "name": "RMP Lite 220",
+ "manufacturer": "Segway Robotics (Segway-Ninebot)",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-03",
+   "type": "added",
+   "source": "https://robotics.segway.com/rmp",
+   "commit": "1a533a7",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://robotics.segway.com/rmp",
+   "commit": "b1429ab",
+   "changes": [
+    {
+     "field": "notes",
+     "from": null,
+     "to": "Maker datasheet: 730 x 499 x 280 mm, 33 kg, 50 kg payload, 3 m/s, 48 V 20 Ah or 24 Ah battery (1152 Wh at 24 Ah, derived), 10 h operation and 80 km range, IP65, 280 mm hub-motor wheels, front-wheel differential drive, 5 cm obstacle and 8 deg slope, UART/CAN with C/C++ and ROS support, Gazebo and RViz models."
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "official"
+    }
+   ]
+  }
+ ]
+}

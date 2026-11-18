@@ -1,0 +1,45 @@
+{
+ "id": "xpeng-px5",
+ "name": "PX5",
+ "manufacturer": "Xpeng",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-17",
+   "type": "added",
+   "source": "https://www.xpeng.com/news/018b620c16468a69338c2c9e8a510658",
+   "commit": "b596d3e",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://www.xpeng.com/news/018b620c16468a69338c2c9e8a510658",
+   "commit": "11442a0",
+   "changes": [
+    {
+     "field": "note",
+     "from": "Unveiled at XPENG Tech Day Oct 2023; official community post confirms PX5 name and 11-DoF hands. Early-stage prototype, succeeded by XPENG IRON. Specs like 1.5 m/109 kg are from media, not official pages.",
+     "to": "Unveiled at XPENG Tech Day Oct 2023; official community post confirms PX5 name and 11-DoF hands. Early-stage prototype, never offered for sale, superseded by XPENG IRON (unveiled at AI Day, 6 Nov 2024) -> Discontinued. Specs like 1.5 m/109 kg are from media, not official pages."
+    },
+    {
+     "field": "sources",
+     "from": [
+      "https://www.xpeng.com/news/018b620c16468a69338c2c9e8a510658",
+      "https://bbs.xiaopeng.com/article/2127779"
+     ],
+     "to": [
+      "https://www.xpeng.com/news/018b620c16468a69338c2c9e8a510658",
+      "https://bbs.xiaopeng.com/article/2127779",
+      "https://www.xpeng.com/news/019301d2135392fa562d8a0282200016"
+     ]
+    },
+    {
+     "field": "status",
+     "from": null,
+     "to": "Discontinued"
+    }
+   ]
+  }
+ ]
+}

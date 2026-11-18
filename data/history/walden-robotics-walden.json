@@ -1,0 +1,66 @@
+{
+ "id": "walden-robotics-walden",
+ "name": "Walden",
+ "manufacturer": "Walden Robotics",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-17",
+   "type": "added",
+   "source": null,
+   "commit": "b596d3e",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://www.waldenrobotics.com/",
+   "commit": "30bdc91",
+   "changes": [
+    {
+     "field": "country",
+     "from": null,
+     "to": "United States"
+    },
+    {
+     "field": "note",
+     "from": null,
+     "to": "Walden publishes no hardware specifications (checked 2026-11-17): its site describes a wheeled or fixed base with a humanoid upper body, two arms and a sensor head, running its Large Behavior Models (LBM 2.0, 'Sage') with remote assistance, and reports production work at a Toyota plant since February 2026. Height, weight, DoF, payload, speed, runtime and price therefore stay empty; catalogue figures such as 165 cm, 90 kg, 24 DoF or USD 120,000 are not maker values."
+    },
+    {
+     "field": "official_url",
+     "from": null,
+     "to": "https://www.waldenrobotics.com/"
+    },
+    {
+     "field": "release_year",
+     "from": null,
+     "to": 2026
+    },
+    {
+     "field": "sources",
+     "from": [],
+     "to": [
+      "https://www.waldenrobotics.com/",
+      "https://www.waldenrobotics.com/news/walden-robotics-launches-from-stealth.md"
+     ]
+    },
+    {
+     "field": "status",
+     "from": null,
+     "to": "Pilot"
+    },
+    {
+     "field": "summary",
+     "from": "",
+     "to": "Wheeled dual-arm robot from Walden Robotics (a Toyota Research Institute spin-out) doing machine tending, tool setting, parts kitting and assembly in production, including at a Toyota plant in North America."
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "official"
+    }
+   ]
+  }
+ ]
+}

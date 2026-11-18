@@ -1,0 +1,80 @@
+{
+ "id": "kompai-delivery",
+ "name": "KOMPAÏ delivery (range)",
+ "manufacturer": "Kompai Robotics",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-17",
+   "type": "added",
+   "source": "https://www.kompai.com/kompai-delivery",
+   "commit": "73aee2c",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://www.kompai.com/kompai-delivery",
+   "commit": "be08523",
+   "changes": [
+    {
+     "field": "battery_wh",
+     "from": null,
+     "to": 1500
+    },
+    {
+     "field": "height_mm",
+     "from": null,
+     "to": 1350
+    },
+    {
+     "field": "length_mm",
+     "from": null,
+     "to": 620
+    },
+    {
+     "field": "max_speed_mps",
+     "from": null,
+     "to": 1.0
+    },
+    {
+     "field": "note",
+     "from": "Official Kompai Robotics page: KOMPAÏ delivery is a RANGE of hospital-logistics AMRs (Top module, Top module +, Transfer, Transfer +, Tractor, Container), not a single model; listed on French UniHA hospital purchasing platform; designed for 10-year life; API/R&D version for universities. No dimensions/payload/speed on the page opened. Wheeled AMR. Maker HQ Anglet, France.",
+     "to": "Values are the maker's KOMPAÏ delivery Top module data sheet (FR and EN PDFs linked from kompairobotics.com; re-checked 2026-11-17): 620 x 510 x 1350 mm (LxWxH), 45 kg empty, up to 35 kg of goods, 2.0 m/s maximum clamped to 1 m/s (stored as 1.0), 8 h battery life with 4 h full recharge, 1.5 kWh 40 Ah battery, LIDAR + cameras, indoor only, CE marking. KOMPAÏ delivery is a RANGE: these are the Top module (medium cabinet) figures - Top module +, Transfer, Transfer +, Tractor and Container differ, and their data sheets could not be reached (the Top module + link on the range page returns 404). The Top module page text also says '6h non-stop', conflicting with the data sheet's 8 h; the data sheet value is kept. No IP rating published. Maker HQ Anglet, France."
+    },
+    {
+     "field": "payload_kg",
+     "from": null,
+     "to": 35
+    },
+    {
+     "field": "runtime_h",
+     "from": null,
+     "to": 8
+    },
+    {
+     "field": "sources",
+     "from": [
+      "https://www.kompai.com/kompai-delivery"
+     ],
+     "to": [
+      "https://www.kompairobotics.com/en_US/kompai-delivery-top-module",
+      "https://drive.google.com/file/d/1mdSAZl4iV0vORtNukKUyQyzPimwwaI6Y/view",
+      "https://drive.google.com/file/d/1QpdIXfTpIAdVL3ycar9dRMn6N5Gor8Pa/view",
+      "https://www.kompairobotics.com/en_US/kompai-delivery"
+     ]
+    },
+    {
+     "field": "weight_kg",
+     "from": null,
+     "to": 45
+    },
+    {
+     "field": "width_mm",
+     "from": null,
+     "to": 510
+    }
+   ]
+  }
+ ]
+}

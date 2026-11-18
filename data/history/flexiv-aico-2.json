@@ -1,0 +1,59 @@
+{
+ "id": "flexiv-aico-2",
+ "name": "AICO 2",
+ "manufacturer": "Flexiv",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-17",
+   "type": "added",
+   "source": "https://www.flexiv.com/product/robot-system",
+   "commit": "b596d3e",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://www.flexiv.com/product/robot-system",
+   "commit": "c3614dc",
+   "changes": [
+    {
+     "field": "open_source_repos",
+     "from": null,
+     "to": [
+      {
+       "name": "flexiv_rdk",
+       "url": "https://github.com/flexivrobotics/flexiv_rdk",
+       "license": "Apache-2.0"
+      }
+     ]
+    },
+    {
+     "field": "sdk",
+     "from": null,
+     "to": {
+      "languages": [
+       "C++",
+       "Python"
+      ],
+      "open_source": true,
+      "license": "Apache-2.0",
+      "url": "https://github.com/flexivrobotics/flexiv_rdk"
+     }
+    },
+    {
+     "field": "sources",
+     "from": [
+      "https://www.flexiv.com/product/robot-system",
+      "https://www.flexiv.com/software/rdk/manual/ros2_bridge.html"
+     ],
+     "to": [
+      "https://www.flexiv.com/product/robot-system",
+      "https://www.flexiv.com/software/rdk/manual/ros2_bridge.html",
+      "https://github.com/flexivrobotics/flexiv_rdk"
+     ]
+    }
+   ]
+  }
+ ]
+}

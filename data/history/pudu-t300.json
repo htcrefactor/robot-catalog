@@ -1,0 +1,45 @@
+{
+ "id": "pudu-t300",
+ "name": "PUDU T300",
+ "manufacturer": "Pudu Robotics",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-17",
+   "type": "added",
+   "source": "https://www.pudurobotics.com/en/products/pudut300",
+   "commit": "b596d3e",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://www.pudurobotics.com/en/products/pudut300",
+   "commit": "e6ebd1a",
+   "changes": [
+    {
+     "field": "certifications",
+     "from": null,
+     "to": []
+    },
+    {
+     "field": "safety_note",
+     "from": null,
+     "to": "Maker: “Compliant with the ISO 3691-4 standard”."
+    },
+    {
+     "field": "safety_source",
+     "from": null,
+     "to": "https://www.pudurobotics.com/en/products/pudut300"
+    },
+    {
+     "field": "safety_standards",
+     "from": null,
+     "to": [
+      "ISO 3691-4"
+     ]
+    }
+   ]
+  }
+ ]
+}

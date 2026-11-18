@@ -1,0 +1,86 @@
+{
+ "id": "sunrising-ai-phi-bot-x1",
+ "name": "Phi-Bot X1",
+ "manufacturer": "Sunrising AI",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-17",
+   "type": "added",
+   "source": null,
+   "commit": "b596d3e",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://www.sunrisingai.com/en-US/",
+   "commit": "75b989d",
+   "changes": [
+    {
+     "field": "dof",
+     "from": null,
+     "to": 27
+    },
+    {
+     "field": "note",
+     "from": null,
+     "to": "Maker site (Sunrising AI / 光象科技, Tsinghua-incubated, founded 2025-04; released Phi-Bot X1 on 2026-06-10): 27 whole-body DOF with 1 kHz whole-joint control, 6 kg single-arm payload, 0-2.5 m working range, four-swerve-wheel omnidirectional chassis with active steering, crab and diagonal motion and in-place turning, 10 mm positioning and 0.05 mm end-effector repeatability, perception with 3 LiDAR, 3 RGBD (up to 5), 1 binocular camera and 8 ultrasonic radars, dual batteries with 1-minute hot-swap, quick-change end effectors. Height, weight, speed, battery capacity and runtime are not published. Maker reports real line deployment at premium car makers (welding load/unload, mobile inspection) and ISO 9001/45001/14001 certification from TUV Rheinland."
+    },
+    {
+     "field": "official_url",
+     "from": null,
+     "to": "https://www.sunrisingai.com/en-US/"
+    },
+    {
+     "field": "payload_kg",
+     "from": null,
+     "to": 6
+    },
+    {
+     "field": "release_year",
+     "from": null,
+     "to": 2026
+    },
+    {
+     "field": "sdk_available",
+     "from": null,
+     "to": true
+    },
+    {
+     "field": "sensors",
+     "from": [],
+     "to": [
+      "3x LiDAR",
+      "3x RGBD cameras (5 optional)",
+      "1x binocular camera",
+      "8x ultrasonic sensors"
+     ]
+    },
+    {
+     "field": "sources",
+     "from": [],
+     "to": [
+      "https://www.sunrisingai.com/en-US/",
+      "https://www.sunrisingai.com/about"
+     ]
+    },
+    {
+     "field": "status",
+     "from": null,
+     "to": "Commercial"
+    },
+    {
+     "field": "summary",
+     "from": "",
+     "to": "Sunrising AI's Phi-Bot X1 is an industrial self-evolving embodied robot on a four-swerve-wheel chassis, with 27 DOF, 6 kg per arm and a 0-2.5 m working range for loading, inspection and sorting."
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "official"
+    }
+   ]
+  }
+ ]
+}

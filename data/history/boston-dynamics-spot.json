@@ -1,0 +1,80 @@
+{
+ "id": "boston-dynamics-spot",
+ "name": "Spot",
+ "manufacturer": "Boston Dynamics",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-03",
+   "type": "added",
+   "source": "https://bostondynamics.com/products/spot/",
+   "commit": "1a533a7",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://bostondynamics.com/products/spot/",
+   "commit": "0c54867",
+   "changes": [
+    {
+     "field": "note",
+     "from": null,
+     "to": "Maker product page specifications: length 1100 mm, width 500 mm, walking height 610 mm, 33.8 kg with battery, 1.6 m/s, +/-30 deg slope, 300 mm step, IP54, -20 to 55 C, 564 Wh battery, 90 min average runtime and 60 min recharge, 360 deg perception. Payload is not stated on the page (its 20.43 kg figure is the Spot Arm's max lift), so the catalogue's 14 kg payload is cleared rather than asserted."
+    },
+    {
+     "field": "payload_kg",
+     "from": 14,
+     "to": null
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "official"
+    },
+    {
+     "field": "sdk",
+     "from": null,
+     "to": {
+      "languages": [
+       "Python"
+      ],
+      "open_source": false,
+      "license": "Boston Dynamics SDK License",
+      "url": "https://github.com/boston-dynamics/spot-sdk"
+     }
+    },
+    {
+     "field": "sources",
+     "from": [
+      "https://bostondynamics.com/products/spot/",
+      "https://dev.bostondynamics.com/"
+     ],
+     "to": [
+      "https://bostondynamics.com/products/spot/",
+      "https://dev.bostondynamics.com/",
+      "https://github.com/boston-dynamics/spot-sdk",
+      "https://bostondynamics.com/blog/expanding-our-reach-in-korea/",
+      "https://spot.clobot.co.kr/"
+     ]
+    },
+    {
+     "field": "kr_distributors",
+     "from": null,
+     "to": [
+      {
+       "name": "클로봇 (Clobot)",
+       "kind": "distributor",
+       "url": "https://spot.clobot.co.kr/"
+      }
+     ]
+    },
+    {
+     "field": "name_ko",
+     "from": null,
+     "to": "스팟"
+    }
+   ]
+  }
+ ]
+}

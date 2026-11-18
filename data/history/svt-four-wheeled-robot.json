@@ -1,0 +1,90 @@
+{
+ "id": "svt-four-wheeled-robot",
+ "name": "Four-Wheeled Robot",
+ "manufacturer": "SVT Robot",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-17",
+   "type": "added",
+   "source": null,
+   "commit": "0a6305b",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://svtrobot.com/products/quadruped-robot",
+   "commit": "fa098f7",
+   "changes": [
+    {
+     "field": "height_mm",
+     "from": null,
+     "to": 570
+    },
+    {
+     "field": "length_mm",
+     "from": null,
+     "to": 820
+    },
+    {
+     "field": "max_speed_mps",
+     "from": null,
+     "to": 5
+    },
+    {
+     "field": "note",
+     "from": null,
+     "to": "SVT Robot product page (checked 2026-11-17): 820 x 430 x 570 mm, 33 kg with battery, effective payload 20-30 kg (20 kg recorded as the lower bound), 3 h / 15 km unloaded and 2.5 h / 12 km loaded, 5 m/s limit and 2 m/s working speed, 25 cm stair height, 80 cm step, 45 degree slope, dual 96-line LiDAR and wide-angle camera, dual battery pack with BMS, octa-core industrial controller, CAN/RS485/USB, 1.5 h charge per battery. The maker gives no battery capacity, DoF or IP rating."
+    },
+    {
+     "field": "official_url",
+     "from": null,
+     "to": "https://svtrobot.com/products/quadruped-robot"
+    },
+    {
+     "field": "payload_kg",
+     "from": null,
+     "to": 20
+    },
+    {
+     "field": "runtime_h",
+     "from": null,
+     "to": 3
+    },
+    {
+     "field": "sources",
+     "from": [],
+     "to": [
+      "https://svtrobot.com/products/quadruped-robot"
+     ]
+    },
+    {
+     "field": "status",
+     "from": null,
+     "to": "Commercial"
+    },
+    {
+     "field": "summary",
+     "from": "",
+     "to": "Sheet-metal industrial quadruped from SVT Robot (时空变量) for teleoperation, imitation learning and data collection, military reconnaissance and search and rescue."
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "official"
+    },
+    {
+     "field": "weight_kg",
+     "from": null,
+     "to": 33
+    },
+    {
+     "field": "width_mm",
+     "from": null,
+     "to": 430
+    }
+   ]
+  }
+ ]
+}

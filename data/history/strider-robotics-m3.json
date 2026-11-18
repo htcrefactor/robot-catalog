@@ -1,0 +1,28 @@
+{
+ "id": "strider-robotics-m3",
+ "name": "M3",
+ "manufacturer": "Strider Robotics",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-17",
+   "type": "added",
+   "source": "https://www.strider-robotics.in/",
+   "commit": "b596d3e",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://www.strider-robotics.in/",
+   "commit": "2e2527b",
+   "changes": [
+    {
+     "field": "note",
+     "from": "Strider's site describes autonomous inspection quadrupeds but has no M3 spec page; 20 kg rated / 40 kg tested and the car-towing demo come only from press, so payload left out.",
+     "to": "Strider's site describes autonomous inspection quadrupeds but has no M3 spec page; 20 kg rated / 40 kg tested and the car-towing demo come only from press, so payload left out. Re-checked 2026-11-17: strider-robotics.in opened - capability copy only, no M3 model page or numbers. Still unconfirmed."
+    }
+   ]
+  }
+ ]
+}

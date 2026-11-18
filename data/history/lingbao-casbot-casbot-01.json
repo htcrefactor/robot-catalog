@@ -1,0 +1,68 @@
+{
+ "id": "lingbao-casbot-casbot-01",
+ "name": "CASBOT 01",
+ "manufacturer": "Lingbao CASBOT",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-13",
+   "type": "added",
+   "source": "https://humanoidstore.co/robots/lingbao-casbot-casbot-01",
+   "commit": "14cd746",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://www.casbot.tech",
+   "commit": "976d9e6",
+   "changes": [
+    {
+     "field": "data_source",
+     "from": "HumanoidStore open data (CC BY 4.0)",
+     "to": "Maker sources (verified 2026-11-17)"
+    },
+    {
+     "field": "notes",
+     "from": null,
+     "to": "Issue #17 (2026-11-17): CASBOT's own CES 2025 release - 1.79 m, 60 kg, 52 DoF, 550 TOPS, over 4 h. Payload 5 kg had no maker source and was emptied; 'Discontinued' status kept as recorded. [emptied (no maker value) payload_kg=5]"
+    },
+    {
+     "field": "payload_kg",
+     "from": 5,
+     "to": null
+    },
+    {
+     "field": "sources",
+     "from": [
+      "https://humanoidstore.co/robots/lingbao-casbot-casbot-01"
+     ],
+     "to": [
+      "https://www.prnewswire.com/news-releases/ces-2025-casbot-unveils-full-size-biped-humanoid-robot-casbot-01-pioneering-a-vision-of-human-machine-harmony-302347006.html",
+      "https://www.prnasia.com/story/475468-1.shtml"
+     ]
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "official"
+    },
+    {
+     "field": "note",
+     "from": null,
+     "to": "CASBOT's own CES 2025 release (checked 2026-11-17): 1.79 m, 60 kg, 52 DoF, 550 TOPS onboard compute, more than 4 h of operation, 2 DoF head, five-finger hands rated 5 kg, quick-swap dual battery with 30-minute fast charge. Payload is the hand's rated load, not a whole-body figure; speed is not published."
+    },
+    {
+     "field": "official_url",
+     "from": null,
+     "to": "https://www.casbot.tech"
+    },
+    {
+     "field": "summary",
+     "from": "Full-size humanoid from Lingbao CASBOT; discontinued, sold to businesses.",
+     "to": "CASBOT's first full-size biped: 1.79 m, 60 kg, 52 DoF and 550 TOPS of onboard compute, with 5 kg-rated bionic hands and more than 4 h of running time."
+    }
+   ]
+  }
+ ]
+}

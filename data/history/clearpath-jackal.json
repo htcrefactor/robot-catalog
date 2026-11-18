@@ -1,0 +1,115 @@
+{
+ "id": "clearpath-jackal",
+ "name": "Jackal",
+ "manufacturer": "Clearpath Robotics (Rockwell Automation)",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-03",
+   "type": "added",
+   "source": "https://clearpathrobotics.com/jackal-small-unmanned-ground-vehicle/",
+   "commit": "1a533a7",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://clearpathrobotics.com/jackal-small-unmanned-ground-vehicle/",
+   "commit": "ae60ceb",
+   "changes": [
+    {
+     "field": "notes",
+     "from": null,
+     "to": "Maker page: 508 x 430 x 250 mm, 17 kg, 20 kg payload, 2.0 m/s, 4 h basic-usage runtime, IP62 casing, -20 to 45 C, 5/12/24 V user power, ROS 2 Jazzy. Onboard PC options and the 332 Wh battery come from the May 2025 datasheet."
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "official"
+    },
+    {
+     "field": "open_source_repos",
+     "from": null,
+     "to": [
+      {
+       "name": "clearpath_robot",
+       "url": "https://github.com/clearpathrobotics/clearpath_robot",
+       "license": "BSD-3-Clause"
+      }
+     ]
+    },
+    {
+     "field": "ros2_support",
+     "from": null,
+     "to": true
+    },
+    {
+     "field": "ros2_url",
+     "from": null,
+     "to": "https://github.com/clearpathrobotics/clearpath_robot"
+    },
+    {
+     "field": "sdk",
+     "from": null,
+     "to": {
+      "languages": [
+       "C++",
+       "Python"
+      ],
+      "open_source": true,
+      "license": "BSD-3-Clause",
+      "url": "https://github.com/clearpathrobotics/clearpath_robot"
+     }
+    },
+    {
+     "field": "sources",
+     "from": [
+      "https://clearpathrobotics.com/jackal-small-unmanned-ground-vehicle/",
+      "https://storage.pardot.com/92812/1748526832JH1SIJ41/JACKAL_DATA_SHEET_May2025.pdf",
+      "https://docs.clearpathrobotics.com/docs_robots/outdoor_robots/jackal/user_manual_jackal"
+     ],
+     "to": [
+      "https://clearpathrobotics.com/jackal-small-unmanned-ground-vehicle/",
+      "https://storage.pardot.com/92812/1748526832JH1SIJ41/JACKAL_DATA_SHEET_May2025.pdf",
+      "https://docs.clearpathrobotics.com/docs_robots/outdoor_robots/jackal/user_manual_jackal",
+      "https://github.com/clearpathrobotics/clearpath_robot",
+      "https://clearpathrobotics.com/husky-spec-comparison/"
+     ]
+    },
+    {
+     "field": "certifications",
+     "from": null,
+     "to": [
+      "FCC Part 18",
+      "ICES-002"
+     ]
+    },
+    {
+     "field": "safety_note",
+     "from": null,
+     "to": "Maker's Husky/Jackal spec comparison lists FCC Part 18 / ICES-002 for Jackal and no ISO 12100 risk assessment."
+    },
+    {
+     "field": "safety_source",
+     "from": null,
+     "to": "https://clearpathrobotics.com/husky-spec-comparison/"
+    },
+    {
+     "field": "safety_standards",
+     "from": null,
+     "to": []
+    },
+    {
+     "field": "compute_memory_gb",
+     "from": null,
+     "to": 16
+    },
+    {
+     "field": "compute_soc",
+     "from": null,
+     "to": "Intel Core i3-9100TE"
+    }
+   ]
+  }
+ ]
+}

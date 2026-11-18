@@ -1,0 +1,28 @@
+{
+ "id": "visionnav-vnp-15",
+ "name": "VNP 15",
+ "manufacturer": "VisionNav Robotics",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-17",
+   "type": "added",
+   "source": "https://www.visionnav.com/product/detail/vnp15-pallet-stacker-agv",
+   "commit": "b596d3e",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://www.visionnav.com/product/detail/vnp15-pallet-stacker-agv",
+   "commit": "7864761",
+   "changes": [
+    {
+     "field": "note",
+     "from": "Autonomous counterbalance stacker forklift.",
+     "to": "Scope review (#16, 2026-11-17): kept as an in-scope AGV. Maker page titles it 'VNP15 Pallet Stacker AGV/AMR' (1500 kg, 3000 mm standard lift, 1.5 m/s, 1490 mm minimum turning radius); an autonomous counterbalance stacker is an AGV, not an excluded category."
+    }
+   ]
+  }
+ ]
+}

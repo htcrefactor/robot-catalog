@@ -1,0 +1,113 @@
+{
+ "id": "xiaomi-cyberone",
+ "name": "CyberOne",
+ "manufacturer": "Xiaomi",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-13",
+   "type": "added",
+   "source": "https://humanoidstore.co/robots/xiaomi-cyberone",
+   "commit": "14cd746",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://www.mi.com/cyberone/",
+   "commit": "30bdc91",
+   "changes": [
+    {
+     "field": "data_source",
+     "from": "HumanoidStore open data (CC BY 4.0)",
+     "to": null
+    },
+    {
+     "field": "max_speed_mps",
+     "from": null,
+     "to": 1.0
+    },
+    {
+     "field": "notes",
+     "from": null,
+     "to": "Issue #17 (2026-11-17): Xiaomi CyberOne - 177 cm, 52 kg, 21 DoF, 3.6 km/h (1.0 m/s), 1.5 kg in one hand, 300 N-m peak torque, from Xiaomi's CyberOne page. [replaced max_speed_mps: None -> 1.0]"
+    },
+    {
+     "field": "sources",
+     "from": [
+      "https://humanoidstore.co/robots/xiaomi-cyberone"
+     ],
+     "to": [
+      "https://www.mi.com/tr/product/xiaomi-cyberone/",
+      "https://www.mi.com/cyberone/",
+      "https://robotics.xiaomi.com/xiaomi-robotics-1.html",
+      "https://humanoidstore.co/robots/xiaomi-cyberone",
+      "https://prtimes.jp/main/html/rd/p/000000013.000098799.html"
+     ]
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "official"
+    },
+    {
+     "field": "note",
+     "from": null,
+     "to": "Duplicate merged: 'Tieda' (铁大) is Xiaomi's own nickname for CyberOne, so the separate xiaomi-tieda record is kept here as a variant. Xiaomi product page: 177 cm, 52 kg, 21 DoF, 1.5 kg single-hand load, 3.6 km/h (1.0 m/s) max. The 2026-generation Tieda shown at WRC Aug 2026 (1.70 m, 66 kg, 66 DoF per press) has no maker spec page, so no second record is kept for it. Prototype, not for sale. | Maker product page: 177 cm, 52 kg, 21 DoF, 300 Nm peak joint torque, 96 Nm/kg torque density, 3.6 km/h (1.0 m/s), 1.5 kg held in one hand, Mi-Sense depth module with 99 % depth accuracy within 8 m, 85 environmental sounds and 45 emotions recognised, dual-microphone voice system, curved OLED face display. Xiaomi's Japanese release adds a 168 cm arm span and a 30 Nm, 500 g upper-limb motor. Battery capacity, runtime and price are not published."
+    },
+    {
+     "field": "official_url",
+     "from": null,
+     "to": "https://www.mi.com/cyberone/"
+    },
+    {
+     "field": "release_year",
+     "from": null,
+     "to": 2022
+    },
+    {
+     "field": "variants",
+     "from": null,
+     "to": [
+      {
+       "id": "xiaomi-tieda",
+       "name": "Tieda (铁大)",
+       "note": "Chinese name/nickname of CyberOne, not a separate model; the 2026 generation shown at WRC (1.70 m, 66 kg, 66 DoF per press) also carries it.",
+       "note_ko": "CyberOne의 중국어 애칭으로 별도 모델이 아닙니다. WRC 2026에 공개된 신형(보도 기준 1.70 m, 66 kg, 66 DoF)도 같은 이름을 씁니다.",
+       "url": "https://robotics.xiaomi.com/xiaomi-robotics-1.html"
+      }
+     ]
+    },
+    {
+     "field": "compute_detail",
+     "from": null,
+     "to": "Xiaomi in-house control stack with Mi-Sense depth vision module"
+    },
+    {
+     "field": "onboard_compute",
+     "from": null,
+     "to": true
+    },
+    {
+     "field": "sensors",
+     "from": [],
+     "to": [
+      "Mi-Sense depth vision module (AI interactive camera)",
+      "Dual-microphone voice recognition",
+      "Curved OLED face display"
+     ]
+    },
+    {
+     "field": "status",
+     "from": "Research",
+     "to": "Prototype"
+    },
+    {
+     "field": "summary",
+     "from": "Full-size humanoid from Xiaomi; research only, restricted sales.",
+     "to": "Xiaomi's first full-size bipedal humanoid: 177 cm and 52 kg with 21 DoF, an OLED face, depth vision and voice-emotion recognition; a research prototype rather than a product."
+    }
+   ]
+  }
+ ]
+}

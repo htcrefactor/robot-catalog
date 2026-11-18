@@ -1,0 +1,66 @@
+{
+ "id": "tencent-robotics-x-jamoca",
+ "name": "Jamoca",
+ "manufacturer": "Tencent Robotics X",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-17",
+   "type": "added",
+   "source": null,
+   "commit": "b596d3e",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://news.qq.com/rain/a/TEC2020112000809500",
+   "commit": "fa098f7",
+   "changes": [
+    {
+     "field": "height_mm",
+     "from": null,
+     "to": 750
+    },
+    {
+     "field": "length_mm",
+     "from": null,
+     "to": 1000
+    },
+    {
+     "field": "note",
+     "from": null,
+     "to": "Tencent's own announcement of 20 November 2020: Jamoca is built on an externally supplied body, weighs about 70 kg, is 1 m long, 0.5 m wide and 0.75 m tall, walks, trots and jumps, and localises to within 1 cm with 10 ms replanning and 1 kHz torque control. One Tencent report gives 1.5 m for the length while the same announcement's figures give 1 m; the shorter figure is recorded. Tencent publishes no speed, payload, DoF (12 is usually assumed for this body), battery or IP figure; it is used for internal lab experiments only."
+    },
+    {
+     "field": "sources",
+     "from": [],
+     "to": [
+      "https://news.qq.com/rain/a/TEC2020112000809500",
+      "https://www.ithome.com/0/520/668.htm"
+     ]
+    },
+    {
+     "field": "summary",
+     "from": "",
+     "to": "Research quadruped from Tencent Robotics X that walks Kung-Fu plum-blossom piles using its own perception, planning and 1 kHz torque control; the body is an externally supplied platform."
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "official"
+    },
+    {
+     "field": "weight_kg",
+     "from": null,
+     "to": 70
+    },
+    {
+     "field": "width_mm",
+     "from": null,
+     "to": 500
+    }
+   ]
+  }
+ ]
+}

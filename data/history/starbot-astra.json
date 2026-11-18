@@ -1,0 +1,101 @@
+{
+ "id": "starbot-astra",
+ "name": "Astra",
+ "manufacturer": "StarBot Robotics",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-17",
+   "type": "added",
+   "source": null,
+   "commit": "b596d3e",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://www.starbotusa.com/",
+   "commit": "75b989d",
+   "changes": [
+    {
+     "field": "country",
+     "from": null,
+     "to": "United States"
+    },
+    {
+     "field": "dof",
+     "from": null,
+     "to": 23
+    },
+    {
+     "field": "height_mm",
+     "from": null,
+     "to": 1520
+    },
+    {
+     "field": "locomotion",
+     "from": "Wheeled",
+     "to": null
+    },
+    {
+     "field": "note",
+     "from": null,
+     "to": "Maker page: 5 ft (about 152 cm), 75 lb (about 34 kg), 23 full-body DOF, 48 V battery, 2-5 h runtime (3.5 h entered as the midpoint; the maker does not say which end matches which condition), 1 h charge, from USD 9,999 with a USD 200 reservation deposit, released July 2026 and listed with an Isaac Simulation label. Payload, DOF breakdown, sensors, compute, SDK and locomotion type are not stated for Astra (the homepage's detailed spec sheet is labelled a Nova reference configuration and was not applied to Astra), so locomotion is left empty rather than assumed wheeled. Deliveries are not confirmed: availability and schedule are confirmed in the purchase agreement."
+    },
+    {
+     "field": "official_url",
+     "from": null,
+     "to": "https://www.starbotusa.com/"
+    },
+    {
+     "field": "price_note",
+     "from": null,
+     "to": "from USD 9,999 standard price; reservation with a USD 200 deposit (maker, checked 2026-11-17)"
+    },
+    {
+     "field": "price_usd",
+     "from": null,
+     "to": 9999
+    },
+    {
+     "field": "release_year",
+     "from": null,
+     "to": 2026
+    },
+    {
+     "field": "runtime_h",
+     "from": null,
+     "to": 3.5
+    },
+    {
+     "field": "sources",
+     "from": [],
+     "to": [
+      "https://www.starbotusa.com/",
+      "https://merarobotics.com/catalog/starbot-astra"
+     ]
+    },
+    {
+     "field": "status",
+     "from": null,
+     "to": "Pre-order"
+    },
+    {
+     "field": "summary",
+     "from": "",
+     "to": "StarBot Astra is a 5 ft, 23-DOF humanoid research platform from StarBot USA for motion control, reinforcement learning and sim-to-real work, sold by reservation from USD 9,999."
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "official"
+    },
+    {
+     "field": "weight_kg",
+     "from": null,
+     "to": 34
+    }
+   ]
+  }
+ ]
+}

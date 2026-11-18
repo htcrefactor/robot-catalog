@@ -1,0 +1,38 @@
+{
+ "id": "zebra-fetch-mobile-manipulator",
+ "name": "Fetch Mobile Manipulator",
+ "manufacturer": "Zebra Technologies (Fetch Robotics)",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-17",
+   "type": "added",
+   "source": "https://docs.fetchrobotics.com/robot_hardware.html",
+   "commit": "ebcdc70",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://docs.fetchrobotics.com/robot_hardware.html",
+   "commit": "ae60ceb",
+   "changes": [
+    {
+     "field": "note",
+     "from": "Fetch Robotics official docs (docs.fetchrobotics.com) + Fetch spec sheet (copy on reseller host). Footprint 508 mm wide / 559 mm dia. Height = torso up. dof 13 includes base. Current availability under Zebra not stated.",
+     "to": "Re-checked 2026-11-17: Zebra/Fetch have no live product page (zebra.com/us/en/products/robotics.html returns 404; Zebra sold its robotics automation business - formerly Fetch Robotics - to Skild AI, closing 2026-03-27 per Zebra's 10-Q) and the maker's documentation host docs.fetchrobotics.com no longer resolves (ERR_TUNNEL_CONNECTION_FAILED; page fetch HTTP 500), although the Wayback Machine holds a 200 snapshot of this page from 2024-04-18. Stored figures are the Fetch hardware documentation values (113.3 kg, 508 mm wide / 559 mm dia base, 1.49 m with torso up, 6 kg arm payload, 1.0 m/s, 13 DoF, i5 / 16 GB / 120 GB SSD, 3 h to 90%) plus the Fetch spec sheet copy on a reseller host; no value was changed in this pass."
+    },
+    {
+     "field": "compute_memory_gb",
+     "from": null,
+     "to": 16
+    },
+    {
+     "field": "compute_soc",
+     "from": null,
+     "to": "Intel Core i5 (Haswell)"
+    }
+   ]
+  }
+ ]
+}

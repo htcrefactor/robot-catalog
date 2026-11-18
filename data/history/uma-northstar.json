@@ -1,0 +1,28 @@
+{
+ "id": "uma-northstar",
+ "name": "Northstar",
+ "manufacturer": "UMA",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-17",
+   "type": "added",
+   "source": "https://uma.bot/",
+   "commit": "b596d3e",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://uma.bot/",
+   "commit": "be08523",
+   "changes": [
+    {
+     "field": "note",
+     "from": "Maker press release (Business Wire, 7 Jul 2026) confirms UMA unveiled the DESIGN of its first humanoid at Machina Summit (name 'Northstar' is from UMA's X post, not the release). No specs published by UMA: aggregator figures (165 cm, 40 kg, 24 DoF, bipedal) are NOT maker-stated. Reports conflict on locomotion (one says first industrial version is wheeled) - left blank. Prototype only; uma.bot has no product page.",
+     "to": "Maker press release (Business Wire, 7 Jul 2026) confirms UMA unveiled the DESIGN of its first humanoid at Machina Summit (name 'Northstar' is from UMA's X post, not the release). No specs published by UMA: the release carries no numbers, uma.bot is still a teaser ('More to come soon', keynote video) re-checked 2026-11-17, and UMA has no spec sheet of its own (Humanoids Daily, 12 Sep 2026, says the same). Aggregator figures (165 cm, 40 kg, 15 kg payload, 24 DoF, bipedal) are NOT maker-stated, and the ~40 kg 'target weight' the CEO gave press (Bloomberg/AFP, Jul 2026) is not a published specification - so height, weight and payload stay empty. Reports conflict on locomotion (one says first industrial version is wheeled) - left blank. Prototype only; uma.bot has no product page."
+    }
+   ]
+  }
+ ]
+}

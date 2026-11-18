@@ -1,0 +1,92 @@
+{
+ "id": "pal-tiago-pro",
+ "name": "TIAGo Pro",
+ "manufacturer": "PAL Robotics",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-17",
+   "type": "added",
+   "source": "https://pal-robotics.com/robot/tiago-pro/",
+   "commit": "b596d3e",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://pal-robotics.com/robot/tiago-pro/",
+   "commit": "ae60ceb",
+   "changes": [
+    {
+     "field": "open_source_repos",
+     "from": null,
+     "to": [
+      {
+       "name": "tiago_pro_robot",
+       "url": "https://github.com/pal-robotics/tiago_pro_robot",
+       "license": "Apache-2.0"
+      },
+      {
+       "name": "tiago_pro_simulation",
+       "url": "https://github.com/pal-robotics/tiago_pro_simulation",
+       "license": "Apache-2.0"
+      }
+     ]
+    },
+    {
+     "field": "ros2_support",
+     "from": null,
+     "to": true
+    },
+    {
+     "field": "ros2_url",
+     "from": null,
+     "to": "https://github.com/pal-robotics/tiago_pro_robot"
+    },
+    {
+     "field": "sim_models",
+     "from": null,
+     "to": {
+      "urdf": {
+       "url": "https://github.com/pal-robotics/tiago_pro_robot/blob/humble-devel/tiago_pro_description/robots/tiago_pro.urdf.xacro",
+       "license": "Apache-2.0"
+      },
+      "gazebo": {
+       "url": "https://github.com/pal-robotics/tiago_pro_simulation",
+       "license": "Apache-2.0"
+      }
+     }
+    },
+    {
+     "field": "sources",
+     "from": [
+      "https://pal-robotics.com/robot/tiago-pro/",
+      "https://pal-robotics.com/datasheet/tiago-pro/"
+     ],
+     "to": [
+      "https://pal-robotics.com/robot/tiago-pro/",
+      "https://pal-robotics.com/datasheet/tiago-pro/",
+      "https://github.com/pal-robotics/tiago_pro_robot",
+      "https://github.com/pal-robotics/tiago_pro_robot/blob/humble-devel/tiago_pro_description/robots/tiago_pro.urdf.xacro",
+      "https://github.com/pal-robotics/tiago_pro_simulation"
+     ]
+    },
+    {
+     "field": "compute_memory_gb",
+     "from": null,
+     "to": 16
+    },
+    {
+     "field": "compute_soc",
+     "from": null,
+     "to": "Intel Core i5"
+    },
+    {
+     "field": "compute_source",
+     "from": null,
+     "to": "https://pal-robotics.com/robot/tiago-pro/"
+    }
+   ]
+  }
+ ]
+}

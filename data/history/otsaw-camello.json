@@ -1,0 +1,40 @@
+{
+ "id": "otsaw-camello",
+ "name": "Camello",
+ "manufacturer": "Otsaw",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-17",
+   "type": "added",
+   "source": "https://otsaw.com/camello",
+   "commit": "73aee2c",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://otsaw.com/camello",
+   "commit": "be08523",
+   "changes": [
+    {
+     "field": "note",
+     "from": "OTSAW's own SEC prospectus (2025) confirms Camello as its last-mile delivery AMR and states the second generation, Camello+, launched January 2024 (delivery + security, indoor/outdoor, up to 132 lb cargo - Camello+ value, not applied here). otsaw.com currently returns 'Account Suspended', so the original Camello spec pages (search-index copies: 20 kg load, 5 km/h, 100 L, ~6 h) could not be opened and are left out. Original Camello entered a one-year Punggol (Singapore) trial in Feb 2021. Status not stated by maker (likely superseded by Camello+).",
+     "to": "OTSAW's own SEC prospectus (2025) confirms Camello as its last-mile delivery AMR and states the second generation, Camello+, launched January 2024 with up to 132 lb (60 kg) cargo - Camello+ values, not applied here. Re-checked 2026-11-17: otsaw.com returns 'Account Suspended'; the archived maker Camello page (Wayback, 2020 and 2023 snapshots) carries no specification table, only a brochure link; the archived copy of OTSAW's own Camello brochure is truncated at 1 MB and cannot be read, and the 2024 OTSAW brochure covers Camello+. No Camello-specific maker figure for height, weight or payload could be verified, so those fields stay empty (search-index copies: 20 kg load, 5 km/h, 100 L, ~6 h). Original Camello entered a one-year Punggol (Singapore) trial in Feb 2021. Status not stated by maker (likely superseded by Camello+)."
+    },
+    {
+     "field": "sources",
+     "from": [
+      "https://www.sec.gov/Archives/edgar/data/2046462/000121390025061733/ea0227213-08.htm",
+      "https://otsaw.com/shaping-tomorrow-the-rise-of-service-robots/"
+     ],
+     "to": [
+      "https://www.sec.gov/Archives/edgar/data/2046462/000121390025061733/ea0227213-08.htm",
+      "https://otsaw.com/shaping-tomorrow-the-rise-of-service-robots/",
+      "https://web.archive.org/web/20230603135238/https://otsaw.com/camello/"
+     ]
+    }
+   ]
+  }
+ ]
+}

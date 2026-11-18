@@ -1,0 +1,28 @@
+{
+ "id": "phymi-sagi",
+ "name": "Sagi",
+ "manufacturer": "PHYMI",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-17",
+   "type": "added",
+   "source": "https://news.pedaily.cn/20261028/141758.shtml",
+   "commit": "b596d3e",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://news.pedaily.cn/20261028/141758.shtml",
+   "commit": "2e2527b",
+   "changes": [
+    {
+     "field": "note",
+     "from": "PHYMI (费莫一科技), Shenzhen. Launched 28 Oct 2026 as a 'Physical Agent'; four wheeled legs + humanoid torso + cargo box (wheel-legged, not a classic humanoid). No maker website or spec sheet found; press-release text via pedaily.cn. No specs published.",
+     "to": "PHYMI (费莫一科技), Shenzhen. Launched 28 Oct 2026 as a 'Physical Agent'; four wheeled legs + humanoid torso + cargo box (wheel-legged, not a classic humanoid). No maker website or spec sheet found; press-release text via pedaily.cn. No specs published. Re-checked 2026-11-17: PHYMI still publishes no website, datasheet or spec sheet (no maker domain found; launch material distributed via press release and YouTube only). Still unconfirmed."
+    }
+   ]
+  }
+ ]
+}

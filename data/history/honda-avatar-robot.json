@@ -1,0 +1,86 @@
+{
+ "id": "honda-avatar-robot",
+ "name": "Avatar Robot",
+ "manufacturer": "Honda",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-17",
+   "type": "added",
+   "source": null,
+   "commit": "b596d3e",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://global.honda/en/RandD/field/hgrx/honda-multi-fingered-hand/avatar-robot.html",
+   "commit": "b310609",
+   "changes": [
+    {
+     "field": "dof",
+     "from": null,
+     "to": 56
+    },
+    {
+     "field": "height_mm",
+     "from": null,
+     "to": 1700
+    },
+    {
+     "field": "max_speed_mps",
+     "from": null,
+     "to": 1.0
+    },
+    {
+     "field": "note",
+     "from": null,
+     "to": "Maker spec (Honda R&D): height 1700 mm, mass 110 kg, 56 DoF in total - head 3, arm 8x2, multi-fingered hand 16x2, waist 3, wheel 2 - speed 1.0 m/s. Remotely operated with AI-supported assistance (intention estimation, 3D position correction, grasp-state checking); targets healthcare, infrastructure maintenance, disaster response and space. No payload, runtime, battery or price published."
+    },
+    {
+     "field": "official_url",
+     "from": null,
+     "to": "https://global.honda/en/RandD/field/hgrx/honda-multi-fingered-hand/avatar-robot.html"
+    },
+    {
+     "field": "sensors",
+     "from": [],
+     "to": [
+      "Camera (operator view)",
+      "Vibration feedback gloves",
+      "Fingertip 6-axis force sensors",
+      "Contact sensors on hand surface"
+     ]
+    },
+    {
+     "field": "sources",
+     "from": [],
+     "to": [
+      "https://global.honda/en/RandD/field/hgrx/honda-multi-fingered-hand/avatar-robot.html",
+      "https://global.honda/en/tech/Avatar_robot/"
+     ]
+    },
+    {
+     "field": "summary",
+     "from": "",
+     "to": "Honda's teleoperated avatar humanoid with two 16-DoF multi-fingered hands that handle tools made for people from a remote location."
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "official"
+    },
+    {
+     "field": "weight_kg",
+     "from": null,
+     "to": 110
+    },
+    {
+     "field": "wheel_count",
+     "from": null,
+     "to": 2
+    }
+   ]
+  }
+ ]
+}

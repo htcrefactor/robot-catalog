@@ -1,0 +1,96 @@
+{
+ "id": "xterra-svan-m2",
+ "name": "Svan M2",
+ "manufacturer": "xTerra Robotics",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-17",
+   "type": "added",
+   "source": null,
+   "commit": "b596d3e",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://xterrarobotics.com/svan-m2/",
+   "commit": "fa098f7",
+   "changes": [
+    {
+     "field": "battery_wh",
+     "from": null,
+     "to": 240
+    },
+    {
+     "field": "dof",
+     "from": null,
+     "to": 12
+    },
+    {
+     "field": "height_mm",
+     "from": null,
+     "to": 412
+    },
+    {
+     "field": "length_mm",
+     "from": null,
+     "to": 412
+    },
+    {
+     "field": "max_speed_mps",
+     "from": null,
+     "to": 1.0
+    },
+    {
+     "field": "note",
+     "from": null,
+     "to": "xTerra SVAN M2 product page (checked 2026-11-17): 11 kg, payload about 5 kg, 41.2 x 40 x 41.2 cm, 12 actuated DoF with QDD A2 actuators, max speed 1.0 m/s, 240 Wh lithium-polymer battery, Raspberry Pi 4B 8 GB, ROS, -5 to 40 C, 2.4 GHz WiFi. The maker's documentation site for the same robot gives 15 kg, 1.5 m/s and 2-4 h battery life, and describes ROS 2 support; the product page figures are recorded and the difference is noted here."
+    },
+    {
+     "field": "official_url",
+     "from": null,
+     "to": "https://xterrarobotics.com/svan-m2/"
+    },
+    {
+     "field": "payload_kg",
+     "from": null,
+     "to": 5
+    },
+    {
+     "field": "ros_support",
+     "from": null,
+     "to": true
+    },
+    {
+     "field": "sources",
+     "from": [],
+     "to": [
+      "https://xterrarobotics.com/svan-m2/",
+      "https://docs.xterrarobotics.com/svan-m2/"
+     ]
+    },
+    {
+     "field": "summary",
+     "from": "",
+     "to": "xTerra Robotics' small Indian quadruped for industrial inspection, research and security patrols, driven by quasi-direct-drive actuators and controlled over ROS."
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "official"
+    },
+    {
+     "field": "weight_kg",
+     "from": null,
+     "to": 11
+    },
+    {
+     "field": "width_mm",
+     "from": null,
+     "to": 400
+    }
+   ]
+  }
+ ]
+}

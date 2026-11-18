@@ -1,0 +1,108 @@
+{
+ "id": "robotera-l7",
+ "name": "L7",
+ "manufacturer": "RobotEra",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-13",
+   "type": "added",
+   "source": "https://humanoidstore.co/robots/robotera-l7",
+   "commit": "14cd746",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://www.robotera.com/en/enl7#/product/L7",
+   "commit": "75b989d",
+   "changes": [
+    {
+     "field": "data_source",
+     "from": "HumanoidStore open data (CC BY 4.0)",
+     "to": null
+    },
+    {
+     "field": "notes",
+     "from": null,
+     "to": "Issue #17 (2026-11-17): RobotEra L7 - 171 cm, 70 kg, 55 DoF, up to 20 kg with both arms, up to 4 m/s, from RobotEra's CES 2026 release. HumanoidStore's price removed: RobotEra publishes none. [replaced weight_kg: 65 -> 70 | emptied (no maker value) price_usd=120000; price_note=list 120000 USD (maker), per HumanoidStore, checked 2026-10]"
+    },
+    {
+     "field": "price_note",
+     "from": "list 120000 USD (maker), per HumanoidStore, checked 2026-10",
+     "to": null
+    },
+    {
+     "field": "price_usd",
+     "from": 120000,
+     "to": null
+    },
+    {
+     "field": "sources",
+     "from": [
+      "https://humanoidstore.co/robots/robotera-l7"
+     ],
+     "to": [
+      "https://tools.prnewswire.com/en-us/live/20813/release/20260108EN59122",
+      "https://www.robotera.com/en/enl7#/product/L7",
+      "https://www.robotera.com/robot/l7.html"
+     ]
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "official"
+    },
+    {
+     "field": "weight_kg",
+     "from": 65,
+     "to": 70
+    },
+    {
+     "field": "battery_wh",
+     "from": null,
+     "to": 900
+    },
+    {
+     "field": "compute_detail",
+     "from": null,
+     "to": "ERA-42 VLA model"
+    },
+    {
+     "field": "note",
+     "from": null,
+     "to": "Maker product page (read 2026-11-17): height 1.71 m, 65 kg without dexterous hands, 55 total DOF with hands (neck 2, arms 7 x 2, hands 12 x 2, legs 6 x 2, waist 3), 20 kg dual-arm payload, 4 m/s running speed, 400 N.m knee peak torque, 25 rad/s knee peak speed, 2.1 m arm span, 60 V 15 Ah battery (=900 Wh, derived from V x Ah; the maker states no Wh figure), 80 TOPS (x86) + 275 TOPS (Orin), binocular camera + 3D LiDAR + microphone array and speaker, XHAND 1 12-DOF hands, 360-degree rotational jump. CONFLICT: the maker's CES 2026 release (2026-01-08) states 70 kg, which is the figure with dexterous hands fitted; the product page's 65 kg is used here. The earlier 120,000 USD price was an aggregator figure with no maker price and was removed. Runtime is not published."
+    },
+    {
+     "field": "official_url",
+     "from": null,
+     "to": "https://www.robotera.com/en/enl7#/product/L7"
+    },
+    {
+     "field": "onboard_compute",
+     "from": null,
+     "to": "80 TOPS (x86) + 275 TOPS (NVIDIA Jetson Orin)"
+    },
+    {
+     "field": "release_year",
+     "from": null,
+     "to": 2025
+    },
+    {
+     "field": "sensors",
+     "from": [],
+     "to": [
+      "Binocular camera",
+      "3D LiDAR",
+      "Microphone array and speaker"
+     ]
+    },
+    {
+     "field": "summary",
+     "from": "Full-size humanoid from RobotEra; b2b only, sold to businesses.",
+     "to": "RobotEra's full-size bipedal humanoid: 1.71 m, 55 DOF with XHAND 1 hands, 20 kg dual-arm payload and a 4 m/s running speed, sold as a full body or upper-body M7 torso."
+    }
+   ]
+  }
+ ]
+}

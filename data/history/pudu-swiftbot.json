@@ -1,0 +1,33 @@
+{
+ "id": "pudu-swiftbot",
+ "name": "SwiftBot",
+ "manufacturer": "Pudu Robotics",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-17",
+   "type": "added",
+   "source": "https://www.pudurobotics.com/product/detail/swiftbot",
+   "commit": "73aee2c",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://www.pudurobotics.com/product/detail/swiftbot",
+   "commit": "ae60ceb",
+   "changes": [
+    {
+     "field": "compute_source",
+     "from": null,
+     "to": "https://academy.pudutech.com/en/docs/chan-pin-jian-jie-mGSQ"
+    },
+    {
+     "field": "compute_tops",
+     "from": null,
+     "to": 15
+    }
+   ]
+  }
+ ]
+}

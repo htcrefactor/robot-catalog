@@ -59,7 +59,7 @@ en:{
  changelog_title:"Changelog",changelog_sub:"Every catalog update: which robots it added, changed and removed.",
  cl_added:"Added",cl_updated:"Updated",cl_removed:"Removed",cl_none:"No changelog entries yet.",cl_nochange:"No record changed in this update.",show_all:"Show all {n}",
  ch_title:"Changes",ch_sub:"Field-level changes recorded for this robot: old value → new value, with the source.",
- ch_none:"No changes recorded for this robot yet. Updates to this record are listed here from now on.",ch_source:"Source",ch_feed:"Change feed (Atom)",ch_all:"All catalog changes",
+ ch_none:"No changes recorded for this robot yet. Updates to this record are listed here from now on.",ch_source:"Source",ch_commit:"commit",ch_feed:"Change feed (Atom)",ch_all:"All catalog changes",
  f_name:"Name",f_length:"Length",f_width:"Width",f_height:"Height",f_summary:"Summary",f_official:"Official page",f_origcat:"Original category",f_verification:"Verification",f_note:"Note",f_datasource:"Data source",f_image:"Image",f_imagesrc:"Image source",f_videos:"Videos",f_seenon:"Also listed on"
 },
 ko:{
@@ -120,7 +120,7 @@ ko:{
  changelog_title:"변경 이력",changelog_sub:"카탈로그 갱신 기록입니다. 각 갱신에서 추가·변경·제외된 로봇을 보여줍니다.",
  cl_added:"추가",cl_updated:"변경",cl_removed:"제외",cl_none:"아직 변경 기록이 없습니다.",cl_nochange:"이 갱신에서는 바뀐 레코드가 없습니다.",show_all:"전체 {n}개 보기",
  ch_title:"변경 이력",ch_sub:"이 로봇에 기록된 항목별 변경 내역입니다. 이전 값 → 새 값과 출처를 함께 보여줍니다.",
- ch_none:"이 로봇에 아직 기록된 변경 내역이 없습니다. 이후 갱신부터 이 레코드의 변경이 여기에 쌓입니다.",ch_source:"출처",ch_feed:"변경 피드 (Atom)",ch_all:"전체 변경 기록",
+ ch_none:"이 로봇에 아직 기록된 변경 내역이 없습니다. 이후 갱신부터 이 레코드의 변경이 여기에 쌓입니다.",ch_source:"출처",ch_commit:"커밋",ch_feed:"변경 피드 (Atom)",ch_all:"전체 변경 기록",
  f_name:"이름",f_length:"길이",f_width:"너비",f_height:"높이",f_summary:"설명",f_official:"공식 페이지",f_origcat:"원래 카테고리",f_verification:"검증 상태",f_note:"비고",f_datasource:"데이터 출처",f_image:"이미지",f_imagesrc:"이미지 출처",f_videos:"영상",f_seenon:"경쟁 카탈로그 게재"
 }
 };

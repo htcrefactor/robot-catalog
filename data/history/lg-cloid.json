@@ -1,0 +1,107 @@
+{
+ "id": "lg-cloid",
+ "name": "CLOiD",
+ "manufacturer": "LG Electronics",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-13",
+   "type": "added",
+   "source": "https://humanoidstore.co/robots/lg-cloid",
+   "commit": "14cd746",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://www.lg.com/global/newsroom/news/home-appliance-solution/lg-electronics-presents-lg-cloid-home-robot-to-demonstrate-zero-labor-home-at-ces-2026/",
+   "commit": "0c54867",
+   "changes": [
+    {
+     "field": "image_source",
+     "from": null,
+     "to": "https://www.lg.com/global/newsroom/news/home-appliance-solution/lg-electronics-presents-lg-cloid-home-robot-to-demonstrate-zero-labor-home-at-ces-2026/"
+    },
+    {
+     "field": "image_url",
+     "from": null,
+     "to": "https://www.lg.com/content/dam/channel/wcms/global/newsroom/news/home-appliance-solution/lg-electronics-presents-lg-cloid-home-robot-to-demonstrate-zero-labor-home-at-ces-2026/press-setting-image-desktop-tablet-cloid.png"
+    },
+    {
+     "field": "note",
+     "from": null,
+     "to": "Media (2026-11-17): press photo of CLOiD folding laundry from LG's own CES 2026 release (4 Jan 2026). That release states height adjusts from 105 to 143 cm, 7-DoF arms and a wheeled base; it carries no video asset. | LG newsroom (checked 2026-11-17): a head unit, torso with two arms and a wheeled autonomous base; torso height adjustable from 1,050 to 1,430 mm, arms about 87 cm long, 7 DoF per arm (shoulder 3, elbow 1, wrist 3) and five independently actuated fingers per hand. Total DoF, weight, speed and battery are not published. Shown at CES 2026; no sale price or order route."
+    },
+    {
+     "field": "official_url",
+     "from": null,
+     "to": "https://www.lg.com/global/newsroom/news/home-appliance-solution/lg-electronics-presents-lg-cloid-home-robot-to-demonstrate-zero-labor-home-at-ces-2026/"
+    },
+    {
+     "field": "sources",
+     "from": [
+      "https://humanoidstore.co/robots/lg-cloid"
+     ],
+     "to": [
+      "https://humanoidstore.co/robots/lg-cloid",
+      "https://www.lg.com/global/newsroom/news/home-appliance-solution/lg-electronics-presents-lg-cloid-home-robot-to-demonstrate-zero-labor-home-at-ces-2026/",
+      "https://humanoid.pub/en/robots/lg-cloid",
+      "https://www.lge.co.kr/story/newsroom/234937",
+      "https://www.lge.co.kr/story/newsroom/225625"
+     ]
+    },
+    {
+     "field": "videos",
+     "from": null,
+     "to": []
+    },
+    {
+     "field": "data_source",
+     "from": "HumanoidStore open data (CC BY 4.0)",
+     "to": "Maker sources (verified 2026-11-17)"
+    },
+    {
+     "field": "notes",
+     "from": null,
+     "to": "Issue #17 (2026-11-17): LG publishes only the dual 7-DoF arms and an adjustable working height of about 1.05-1.43 m (143 cm taken as standing height); weight, payload, speed, runtime and total DoF are all undisclosed, so they stay empty."
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "official"
+    },
+    {
+     "field": "summary",
+     "from": "Wheeled (bimanual torso on a wheeled base) humanoid from LG Electronics; announced, restricted sales.",
+     "to": "LG's wheeled home robot: two 7-DoF arms with five-fingered hands on a self-driving base, torso height adjustable from 1.05 to 1.43 m, with a head unit that doubles as an AI home hub. Shown at CES 2026."
+    },
+    {
+     "field": "kr_distributors",
+     "from": null,
+     "to": [
+      {
+       "name": "LG전자 (직판·로봇 구독)",
+       "kind": "direct",
+       "url": "https://www.lge.co.kr/"
+      }
+     ]
+    },
+    {
+     "field": "kr_note",
+     "from": null,
+     "to": "국내에서는 구매 외에 로봇 구독(RaaS) 방식으로도 공급합니다."
+    },
+    {
+     "field": "manufacturer_ko",
+     "from": null,
+     "to": "LG전자"
+    },
+    {
+     "field": "name_ko",
+     "from": null,
+     "to": "LG 클로이드"
+    }
+   ]
+  }
+ ]
+}

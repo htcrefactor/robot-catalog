@@ -1,0 +1,56 @@
+{
+ "id": "weilan-alphadog-e300",
+ "name": "AlphaDog E300",
+ "manufacturer": "WEILAN",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-17",
+   "type": "added",
+   "source": null,
+   "commit": "b596d3e",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://www.weilan.com/en/en/robots.html",
+   "commit": "fa098f7",
+   "changes": [
+    {
+     "field": "max_speed_mps",
+     "from": null,
+     "to": 3
+    },
+    {
+     "field": "note",
+     "from": null,
+     "to": "WEILAN's AlphaDog E-Series page (alphadoge.html, read 2026-11-17) carries a 'Reference Specifications' table for the E300: speed up to 3 m/s, adjustable walking height 18-37 cm, adjustable width 20-32 cm, gradeability up to 20 degrees, payload up to 5 kg, V-SLAM, autonomous navigation and dynamic balancing. The maker publishes no mass, length, runtime, DoF or battery capacity for the E300, so those stay empty; third-party figures (13 kg, 3 h) are not used."
+    },
+    {
+     "field": "official_url",
+     "from": null,
+     "to": "https://www.weilan.com/en/en/robots.html"
+    },
+    {
+     "field": "payload_kg",
+     "from": null,
+     "to": 5
+    },
+    {
+     "field": "sources",
+     "from": [],
+     "to": [
+      "https://www.weilan.com/en/en/alphadoge.html",
+      "https://www.weilan.com/en/en/robots.html"
+     ]
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "official"
+    }
+   ]
+  }
+ ]
+}

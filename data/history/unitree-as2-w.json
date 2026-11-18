@@ -1,0 +1,75 @@
+{
+ "id": "unitree-as2-w",
+ "name": "As2-W",
+ "manufacturer": "Unitree Robotics",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-03",
+   "type": "added",
+   "source": "https://www.unitree.com/As2-W",
+   "commit": "1a533a7",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://www.unitree.com/As2-W",
+   "commit": "ae60ceb",
+   "changes": [
+    {
+     "field": "note",
+     "from": null,
+     "to": "Unitree As2-W page (checked 2026-11-17): 721 x 493 x 521 mm, about 25 kg with battery, 7-inch wheels (178 mm), 16 joint motors, 95 N.m peak joint torque, 648 Wh (15000 mAh) battery, 0-3.7 m/s (max ~6 m/s), about 3 h unloaded / >2 h with 16 kg, IP54, 64-128-line LiDAR, 36-50.4 V supply. The 150 TOPS figure in the summary is the optional expansion module, not standard compute."
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "official"
+    },
+    {
+     "field": "sim_models",
+     "from": null,
+     "to": {
+      "urdf": {
+       "url": "https://github.com/unitreerobotics/unitree_ros/blob/master/robots/as2w_description/as2w.urdf",
+       "license": "BSD-3-Clause"
+      }
+     }
+    },
+    {
+     "field": "sources",
+     "from": [
+      "https://www.unitree.com/As2-W"
+     ],
+     "to": [
+      "https://www.unitree.com/As2-W",
+      "https://github.com/unitreerobotics/unitree_ros/blob/master/robots/as2w_description/as2w.urdf",
+      "https://www.younginmobility.com/"
+     ]
+    },
+    {
+     "field": "kr_distributors",
+     "from": null,
+     "to": [
+      {
+       "name": "영인모빌리티 (Unitree 한국 공식 파트너)",
+       "kind": "distributor",
+       "url": "https://www.younginmobility.com/"
+      }
+     ]
+    },
+    {
+     "field": "compute_source",
+     "from": null,
+     "to": "https://www.unitree.com/As2-W"
+    },
+    {
+     "field": "compute_tops",
+     "from": null,
+     "to": 150
+    }
+   ]
+  }
+ ]
+}

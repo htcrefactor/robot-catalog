@@ -1,0 +1,80 @@
+{
+ "id": "ihub-robotics-daksha-gen-2",
+ "name": "Daksha Gen-2",
+ "manufacturer": "iHub Robotics",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-17",
+   "type": "added",
+   "source": null,
+   "commit": "b596d3e",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://www.ihubrobotics.com/daksha-mini",
+   "commit": "b310609",
+   "changes": [
+    {
+     "field": "battery_wh",
+     "from": null,
+     "to": 972
+    },
+    {
+     "field": "note",
+     "from": null,
+     "to": "Maker page (/daksha-mini, 'Daksha Gen-2 - Mobile Humanoid Robot'; spec text on the DakshaMini product page): 15 Ah / 0.972 kWh battery giving about 3 h, rated arm payload 7 kg with 15 kg peak, head-mounted stereo camera with wide field of view plus wrist cameras and an IMU, remote emergency stop, NVIDIA Isaac GR00T open models and reference workflows. Payload field = 7 kg rated (15 kg peak). Height, mass, DoF and price are not published on the page checked. Note that 'TARA Gen 2' is the older DAKSHA semi-humanoid (190 cm, 120-150 kg, 27 DoF), a different model."
+    },
+    {
+     "field": "official_url",
+     "from": null,
+     "to": "https://www.ihubrobotics.com/daksha-mini"
+    },
+    {
+     "field": "onboard_compute",
+     "from": null,
+     "to": "NVIDIA Isaac GR00T reference stack"
+    },
+    {
+     "field": "payload_kg",
+     "from": null,
+     "to": 7
+    },
+    {
+     "field": "runtime_h",
+     "from": null,
+     "to": 3.0
+    },
+    {
+     "field": "sensors",
+     "from": [],
+     "to": [
+      "Head stereo camera (wide FOV)",
+      "Wrist cameras",
+      "IMU"
+     ]
+    },
+    {
+     "field": "sources",
+     "from": [],
+     "to": [
+      "https://www.ihubrobotics.com/daksha-mini",
+      "https://www.ihubrobotics.com/"
+     ]
+    },
+    {
+     "field": "summary",
+     "from": "",
+     "to": "iHub Robotics' Daksha Gen-2 mobile humanoid for welding, electronics assembly and logistics, built on NVIDIA's Isaac GR00T reference stack."
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "official"
+    }
+   ]
+  }
+ ]
+}

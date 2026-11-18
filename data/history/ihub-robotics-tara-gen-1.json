@@ -1,0 +1,56 @@
+{
+ "id": "ihub-robotics-tara-gen-1",
+ "name": "TARA Gen 1",
+ "manufacturer": "iHub Robotics",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-17",
+   "type": "added",
+   "source": null,
+   "commit": "b596d3e",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://www.ihubrobotics.com/tara",
+   "commit": "b310609",
+   "changes": [
+    {
+     "field": "note",
+     "from": null,
+     "to": "Maker pages describe TARA Gen 1 as a semi-humanoid service robot with multilingual conversation, face recognition, autonomous navigation and real-time AI, deployed in UAE government offices and with Sharjah Police, with TARA Learn (education) and TARA Greet (hospitality) variants. The maker publishes no height, mass, DoF, payload, runtime, battery or price for Gen 1, so the spec fields stay empty."
+    },
+    {
+     "field": "official_url",
+     "from": null,
+     "to": "https://www.ihubrobotics.com/tara"
+    },
+    {
+     "field": "release_year",
+     "from": null,
+     "to": 2026
+    },
+    {
+     "field": "sources",
+     "from": [],
+     "to": [
+      "https://www.ihubrobotics.com/tara",
+      "https://www.ihubrobotics.com/blog/tara-gen1-indias-most-advanced-humanoid-robot"
+     ]
+    },
+    {
+     "field": "summary",
+     "from": "",
+     "to": "iHub Robotics' TARA Gen 1, an Indian semi-humanoid service robot for reception, education and public-space guidance."
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "official"
+    }
+   ]
+  }
+ ]
+}

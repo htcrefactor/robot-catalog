@@ -1,0 +1,115 @@
+{
+ "id": "lumos-robotics-nix",
+ "name": "NIX (NIX S3)",
+ "manufacturer": "Lumos Robotics",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-17",
+   "type": "added",
+   "source": null,
+   "commit": "b596d3e",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://www.lumosbot.tech/products/luxiaoming",
+   "commit": "5150daa",
+   "changes": [
+    {
+     "field": "battery_wh",
+     "from": null,
+     "to": 282.0
+    },
+    {
+     "field": "compute_detail",
+     "from": null,
+     "to": "About 6 TOPS NPU; external compute can be added over RJ45 Ethernet"
+    },
+    {
+     "field": "data_source",
+     "from": null,
+     "to": "Maker sources (verified 2026-11-17)"
+    },
+    {
+     "field": "dof",
+     "from": null,
+     "to": 21
+    },
+    {
+     "field": "height_mm",
+     "from": null,
+     "to": 892
+    },
+    {
+     "field": "length_mm",
+     "from": null,
+     "to": 176
+    },
+    {
+     "field": "note",
+     "from": null,
+     "to": "Maker NIX S3 page and Project EDGE programme (checked 2026-11-17): 892 x 445 x 176 mm, 25.41 kg with battery, 21 DoF (4 per arm, 1 waist, 6 per leg), 3 kg maximum payload, 282 Wh quick-release battery with about 2 h, 102 N.m peak joint torque, RK3588 with about 6 TOPS. No price is published; units go to selected labs through Project EDGE and by purchase inquiry, so availability is pilot-level."
+    },
+    {
+     "field": "official_url",
+     "from": null,
+     "to": "https://www.lumosbot.tech/products/luxiaoming"
+    },
+    {
+     "field": "onboard_compute",
+     "from": null,
+     "to": "RK3588"
+    },
+    {
+     "field": "payload_kg",
+     "from": null,
+     "to": 3.0
+    },
+    {
+     "field": "runtime_h",
+     "from": null,
+     "to": 2.0
+    },
+    {
+     "field": "sensors",
+     "from": [],
+     "to": [
+      "RGB camera",
+      "4-microphone array",
+      "Speaker"
+     ]
+    },
+    {
+     "field": "sources",
+     "from": [],
+     "to": [
+      "https://www.lumosbot.tech/products/luxiaoming",
+      "https://www.lumosbot.tech/project-edge/"
+     ]
+    },
+    {
+     "field": "summary",
+     "from": "",
+     "to": "Lumos Robotics NIX S3, an 89 cm entertainment humanoid: 21 DoF, 25.4 kg, 3 kg payload and about 2 h on a 282 Wh pack, offered to labs through Project EDGE."
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "official"
+    },
+    {
+     "field": "weight_kg",
+     "from": null,
+     "to": 25.41
+    },
+    {
+     "field": "width_mm",
+     "from": null,
+     "to": 445
+    }
+   ]
+  }
+ ]
+}

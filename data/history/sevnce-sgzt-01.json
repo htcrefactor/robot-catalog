@@ -1,0 +1,67 @@
+{
+ "id": "sevnce-sgzt-01",
+ "name": "Explosion-Proof Quadruped Robot (SGZT-01)",
+ "manufacturer": "Sevnce Robotics",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-17",
+   "type": "added",
+   "source": null,
+   "commit": "b596d3e",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://sevnce.com/",
+   "commit": "fa098f7",
+   "changes": [
+    {
+     "field": "note",
+     "from": null,
+     "to": "Maker launch release of 2 April 2024 (published with Sevnce as its source by OFweek, and repeated in the July 2025 review of the model line): whole-machine mass 149 kg, rated payload 200 kg, continuous working time 1.5 h, Ex IIB T4 Gb explosion protection, electro-hydrostatic drive. Sevnce's current site promotes the later X3 Stable and X5 and keeps no SGZT-01 page, so no dimension, DoF, IP rating or battery figure is filled; a distributor's page (100 kg / 30 kg / 1150 x 600 x 800 mm) is not a maker source and was not used. Superseded by X3 Stable and X5."
+    },
+    {
+     "field": "official_url",
+     "from": null,
+     "to": "https://sevnce.com/"
+    },
+    {
+     "field": "payload_kg",
+     "from": null,
+     "to": 200
+    },
+    {
+     "field": "runtime_h",
+     "from": null,
+     "to": 1.5
+    },
+    {
+     "field": "sources",
+     "from": [],
+     "to": [
+      "https://robot.ofweek.com/2024-04/ART-8321200-8100-30630747.html",
+      "https://www.cnsoe.com.cn/gs/content_138191.html",
+      "https://sevnce.com/"
+     ]
+    },
+    {
+     "field": "summary",
+     "from": "",
+     "to": "Sevnce's first-generation explosion-proof quadruped (SREX-SGZT-01), an electro-hydrostatic heavy-load inspection platform for oil, gas and chemical sites."
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "official"
+    },
+    {
+     "field": "weight_kg",
+     "from": null,
+     "to": 149
+    }
+   ]
+  }
+ ]
+}

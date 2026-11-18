@@ -1,0 +1,88 @@
+{
+ "id": "dlr-bert",
+ "name": "Bert",
+ "manufacturer": "German Aerospace Center (DLR)",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-17",
+   "type": "added",
+   "source": null,
+   "commit": "b596d3e",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://www.dlr.de/en/rm/research/robotic-systems/legged/bert",
+   "commit": "1173def",
+   "changes": [
+    {
+     "field": "dof",
+     "from": null,
+     "to": 8
+    },
+    {
+     "field": "height_mm",
+     "from": null,
+     "to": 250
+    },
+    {
+     "field": "length_mm",
+     "from": null,
+     "to": 400
+    },
+    {
+     "field": "max_speed_mps",
+     "from": null,
+     "to": 0.22
+    },
+    {
+     "field": "note",
+     "from": null,
+     "to": "Maker page technical data (a family, so figures vary between versions): 0.40 x 0.30 x 0.25 m, 3 kg, 8 DoF, approx. 0.8 km/h (0.22 m/s), wired or battery power, series-elastic actuators, 16 position sensors plus inertial sensing. Whitebert is the 8-DoF original, Ebert the 12-DoF variant with an added shoulder joint; first shown in 2017. Germane reference: Graybert and Norbert were used on ESA's Mars testbed and the ISS Surface Avatar mission."
+    },
+    {
+     "field": "official_url",
+     "from": null,
+     "to": "https://www.dlr.de/en/rm/research/robotic-systems/legged/bert"
+    },
+    {
+     "field": "sensors",
+     "from": [],
+     "to": [
+      "16 position sensors (two per joint, before and after the springs)",
+      "Inertial sensor system"
+     ]
+    },
+    {
+     "field": "sources",
+     "from": [],
+     "to": [
+      "https://www.dlr.de/en/rm/research/robotic-systems/legged/bert"
+     ]
+    },
+    {
+     "field": "summary",
+     "from": "",
+     "to": "DLR's family of elastic quadrupeds built to exploit mechanical resonance for energy-efficient locomotion, tested for space exploration."
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "official"
+    },
+    {
+     "field": "weight_kg",
+     "from": null,
+     "to": 3
+    },
+    {
+     "field": "width_mm",
+     "from": null,
+     "to": 300
+    }
+   ]
+  }
+ ]
+}

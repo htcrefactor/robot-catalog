@@ -1,0 +1,33 @@
+{
+ "id": "diligent-robotics-moxi",
+ "name": "Moxi",
+ "manufacturer": "Diligent Robotics",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-17",
+   "type": "added",
+   "source": "https://www.diligentrobots.com/moxi",
+   "commit": "73aee2c",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://www.diligentrobots.com/moxi",
+   "commit": "ae60ceb",
+   "changes": [
+    {
+     "field": "compute_soc",
+     "from": null,
+     "to": "NVIDIA Jetson Thor"
+    },
+    {
+     "field": "compute_source",
+     "from": null,
+     "to": "https://www.diligentrobots.com/blog/moxi2-0"
+    }
+   ]
+  }
+ ]
+}

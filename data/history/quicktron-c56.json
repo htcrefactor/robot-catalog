@@ -1,0 +1,45 @@
+{
+ "id": "quicktron-c56",
+ "name": "C56",
+ "manufacturer": "Quicktron",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-17",
+   "type": "added",
+   "source": "https://www.quicktron.com/products/c-series",
+   "commit": "b596d3e",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://www.quicktron.com/products/c-series",
+   "commit": "e6ebd1a",
+   "changes": [
+    {
+     "field": "certifications",
+     "from": null,
+     "to": [
+      "CE"
+     ]
+    },
+    {
+     "field": "safety_note",
+     "from": null,
+     "to": "Maker: “CE certified for safe 24/7 operation” (C56, C series page)."
+    },
+    {
+     "field": "safety_source",
+     "from": null,
+     "to": "https://www.quicktron.com/products/c-series"
+    },
+    {
+     "field": "safety_standards",
+     "from": null,
+     "to": []
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,103 @@
+{
+ "id": "yunmu-ymbot-d2",
+ "name": "YMBot D2",
+ "manufacturer": "Yunmu Intelligent Manufacturing",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-17",
+   "type": "added",
+   "source": null,
+   "commit": "b596d3e",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://www.ymbot.com/product/detail/8",
+   "commit": "30bdc91",
+   "changes": [
+    {
+     "field": "dof",
+     "from": null,
+     "to": 22
+    },
+    {
+     "field": "height_mm",
+     "from": null,
+     "to": 1800
+    },
+    {
+     "field": "length_mm",
+     "from": null,
+     "to": 560
+    },
+    {
+     "field": "max_speed_mps",
+     "from": null,
+     "to": 1.5
+    },
+    {
+     "field": "note",
+     "from": null,
+     "to": "Maker spec: <=560 x 560 x 1800 mm extended (the extended height is recorded; <=1400 mm folded), about 150 kg, about 1.5 m/s, 1.5 m arm span with <=1 m working radius, 22 DoF excluding hands, 3 kg rated and 6 kg peak per arm (the peak figure is recorded), 20 kg hoisting load, 2 drive wheels, silent lifting column with any-position stop, LiDAR mapping and obstacle avoidance, self-docking, optional dexterous hands or electric grippers."
+    },
+    {
+     "field": "official_url",
+     "from": null,
+     "to": "https://www.ymbot.com/product/detail/8"
+    },
+    {
+     "field": "payload_kg",
+     "from": null,
+     "to": 6
+    },
+    {
+     "field": "release_year",
+     "from": null,
+     "to": 2026
+    },
+    {
+     "field": "sensors",
+     "from": [],
+     "to": [
+      "LiDAR for mapping, navigation and obstacle avoidance"
+     ]
+    },
+    {
+     "field": "sources",
+     "from": [],
+     "to": [
+      "https://www.ymbot.com/product/detail/8",
+      "https://www.worldrobotconference.com/expo/company/502.html"
+     ]
+    },
+    {
+     "field": "status",
+     "from": null,
+     "to": "Commercial"
+    },
+    {
+     "field": "summary",
+     "from": "",
+     "to": "Yunmu's heavy industrial wheeled humanoid (YMBot D2): force-controlled dual arms on a 150 kg two-wheel differential base with a silent lift and 20 kg hoisting capacity."
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "official"
+    },
+    {
+     "field": "weight_kg",
+     "from": null,
+     "to": 150
+    },
+    {
+     "field": "width_mm",
+     "from": null,
+     "to": 560
+    }
+   ]
+  }
+ ]
+}

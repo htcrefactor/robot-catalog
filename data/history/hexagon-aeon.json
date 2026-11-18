@@ -1,0 +1,83 @@
+{
+ "id": "hexagon-aeon",
+ "name": "AEON",
+ "manufacturer": "Hexagon Robotics",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-13",
+   "type": "added",
+   "source": "https://humanoidstore.co/robots/hexagon-aeon",
+   "commit": "14cd746",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://robotics.hexagon.com/product/",
+   "commit": "b310609",
+   "changes": [
+    {
+     "field": "data_source",
+     "from": "HumanoidStore open data (CC BY 4.0)",
+     "to": null
+    },
+    {
+     "field": "notes",
+     "from": null,
+     "to": "Issue #17 (2026-11-17): Hexagon AEON - 165 cm, 60 kg, 34 DoF, 2.4 m/s, 8 kg constant carry (15 kg short-term), 5 h per charge with 1-minute self battery swap. [replaced payload_kg: 15 -> 8; runtime_h: 4.0 -> 5.0]"
+    },
+    {
+     "field": "payload_kg",
+     "from": 15,
+     "to": 8
+    },
+    {
+     "field": "runtime_h",
+     "from": 4.0,
+     "to": 5.0
+    },
+    {
+     "field": "sources",
+     "from": [
+      "https://humanoidstore.co/robots/hexagon-aeon"
+     ],
+     "to": [
+      "https://robotics.hexagon.com/product/",
+      "https://hexagon.com/about/news-media/press-releases/2340225/hexagon-launches-aeon-a-humanoid-built-for-industry"
+     ]
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "official"
+    },
+    {
+     "field": "locomotion",
+     "from": "Wheeled",
+     "to": "Wheel-legged"
+    },
+    {
+     "field": "note",
+     "from": null,
+     "to": "Maker spec sheet (robotics.hexagon.com/product): top speed 2.4 m/s, mass 60 kg, height 165 cm, 34 DoF, payload 15 kg short-term / 8 kg constant carry, 5 h autonomous work per charge with a 1-minute self-swap (record had 4 h, corrected to 5 h). Locomotion is wheel-legged: each leg ends in a foot-wheel that locks for stairs, so 'Wheeled' was corrected to 'Wheel-legged'. Launched 17 Jun 2025; pilots with Schaeffler, Pilatus and BMW (Leipzig). No price published."
+    },
+    {
+     "field": "official_url",
+     "from": null,
+     "to": "https://robotics.hexagon.com/product/"
+    },
+    {
+     "field": "release_year",
+     "from": null,
+     "to": 2025
+    },
+    {
+     "field": "summary",
+     "from": "Wheeled (bimanual torso on a wheeled base) humanoid from Hexagon Robotics; b2b only, sold to businesses.",
+     "to": "Hexagon's industrial humanoid on legs with foot-wheels: 34 DoF, 60 kg, 2.4 m/s and a one-minute self-swapping battery for continuous work."
+    }
+   ]
+  }
+ ]
+}

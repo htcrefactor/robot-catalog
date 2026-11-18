@@ -1,0 +1,45 @@
+{
+ "id": "zhiwang-future-armstrong-pro",
+ "name": "Armstrong Pro",
+ "manufacturer": "Zhiwang Future",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-17",
+   "type": "added",
+   "source": null,
+   "commit": "b596d3e",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://www.zwwlai.com/",
+   "commit": "b1429ab",
+   "changes": [
+    {
+     "field": "notes",
+     "from": null,
+     "to": "The maker's site (zwwlai.com) renders its product section from media that does not load, so no maker specification could be read. Company statements at CeMAT Asia 2026 reported by trade press give 22 DoF (up from 17 on the first Armstrong), a 0 to 2.4 m working height and a four-wheel omnidirectional base; those are third-party reports, so no figures are recorded."
+    },
+    {
+     "field": "sources",
+     "from": [],
+     "to": [
+      "https://www.zwwlai.com/"
+     ]
+    },
+    {
+     "field": "summary",
+     "from": "",
+     "to": "Wheeled dual-arm warehouse picking robot for dense-shelf SKU picking, tote handling and shelf-to-tote transfer."
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "unconfirmed"
+    }
+   ]
+  }
+ ]
+}

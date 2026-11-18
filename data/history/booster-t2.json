@@ -1,0 +1,124 @@
+{
+ "id": "booster-t2",
+ "name": "T2",
+ "manufacturer": "Booster Robotics",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-13",
+   "type": "added",
+   "source": "https://humanoidstore.co/robots/booster-t2",
+   "commit": "14cd746",
+   "changes": []
+  },
+  {
+   "date": "2026-11-14",
+   "type": "updated",
+   "source": "https://www.booster.tech/booster-t2/",
+   "commit": "1aeec2d",
+   "changes": [
+    {
+     "field": "data_source",
+     "from": "HumanoidStore open data (CC BY 4.0)",
+     "to": "HumanoidStore + maker page"
+    },
+    {
+     "field": "official_url",
+     "from": null,
+     "to": "https://www.booster.tech/booster-t2/"
+    },
+    {
+     "field": "sources",
+     "from": [
+      "https://humanoidstore.co/robots/booster-t2"
+     ],
+     "to": [
+      "https://humanoidstore.co/robots/booster-t2",
+      "https://docs.booster.tech/zh-CN/docs/product-manual/t2/getting-started/specifications"
+     ]
+    }
+   ]
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://www.booster.tech/booster-t2/",
+   "commit": "4b395bc",
+   "changes": [
+    {
+     "field": "data_source",
+     "from": "HumanoidStore + maker page",
+     "to": null
+    },
+    {
+     "field": "notes",
+     "from": null,
+     "to": "Issue #17 (2026-11-17): T2 values from Booster's product manual (1.4 m, 42 kg, 31 DoF = legs 6x2 + arms 7x2 + waist 3 + head 2, 2 h). HumanoidStore's reseller EUR 27,060 removed. [emptied (no maker value) price_usd=37999; price_note=list 27060 EUR (reseller), per HumanoidStore, checked 2026-10]"
+    },
+    {
+     "field": "price_note",
+     "from": "list 27060 EUR (reseller), per HumanoidStore, checked 2026-10",
+     "to": null
+    },
+    {
+     "field": "price_usd",
+     "from": 37999,
+     "to": null
+    },
+    {
+     "field": "sources",
+     "from": [
+      "https://humanoidstore.co/robots/booster-t2",
+      "https://docs.booster.tech/zh-CN/docs/product-manual/t2/getting-started/specifications"
+     ],
+     "to": [
+      "https://docs.booster.tech/zh-CN/docs/product-manual/t2/getting-started/specifications",
+      "https://www.booster.tech/booster-t2/",
+      "https://humanoidstore.co/robots/booster-t2"
+     ]
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "official"
+    },
+    {
+     "field": "battery_wh",
+     "from": null,
+     "to": 480
+    },
+    {
+     "field": "compute_detail",
+     "from": null,
+     "to": "High-performance ARM processor, 375 TOPS AI compute"
+    },
+    {
+     "field": "note",
+     "from": null,
+     "to": "Maker product page (booster.tech/booster-t2, Specifications tab): standing height ~1.4 m (140 cm), weight ~42 kg, 31 DoF (6 per leg, 7 per arm, 3 waist, 2 head), max dual-arm payload 10 kg, max peak torque 140 N.m, walking speed 3 m/s, battery 48 V 10 Ah with 2 h of continuous walking (battery_wh = 48x10 = 480 Wh, computed), magnetic charging port that allows charging while in use, 375 TOPS ARM compute, head and waist binocular cameras, optional wrist camera, mic array + speaker, Wi-Fi 6 / BT 5.2, optional LiDAR. payload_kg is the maker's maximum dual-arm payload, not a whole-body rated load. Maker publishes no runtime figure beyond the walking 2 h, no IP rating and no price; price is the HumanoidStore reseller figure."
+    },
+    {
+     "field": "onboard_compute",
+     "from": null,
+     "to": true
+    },
+    {
+     "field": "sensors",
+     "from": [],
+     "to": [
+      "Binocular camera (head)",
+      "Binocular camera (waist)",
+      "Microphone array",
+      "Speaker",
+      "LiDAR (optional)"
+     ]
+    },
+    {
+     "field": "summary",
+     "from": "Mid-size humanoid from Booster Robotics; shipping now, anyone can order.",
+     "to": "Booster Robotics' 1.4 m flagship embodied-development humanoid (31 DoF, 3 m/s walking, 375 TOPS) sold with an education configuration."
+    }
+   ]
+  }
+ ]
+}

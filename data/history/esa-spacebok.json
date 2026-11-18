@@ -1,0 +1,71 @@
+{
+ "id": "esa-spacebok",
+ "name": "SpaceBok",
+ "manufacturer": "ESA / ETH Zurich Robotic Systems Lab",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-17",
+   "type": "added",
+   "source": null,
+   "commit": "b596d3e",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://rsl.ethz.ch/robots-media/spacebok.html",
+   "commit": "1173def",
+   "changes": [
+    {
+     "field": "dof",
+     "from": null,
+     "to": 8
+    },
+    {
+     "field": "height_mm",
+     "from": null,
+     "to": 500
+    },
+    {
+     "field": "max_speed_mps",
+     "from": null,
+     "to": 1.0
+    },
+    {
+     "field": "note",
+     "from": null,
+     "to": "ETH Robotic Systems Lab page: 22 kg, 2 DoF per leg (8), hip height 500 mm (recorded as height - it is the hip height, not an overall standing height), developed 2018-2021 and not space-graded. The ICRA 2019 paper gives 1 m/s walking and jumps to 1.05 m; ESA reports a 4 m jump potential in lunar gravity. Built with ZHAW under Marco Hutter and Hendrik Kolvenbach."
+    },
+    {
+     "field": "official_url",
+     "from": null,
+     "to": "https://rsl.ethz.ch/robots-media/spacebok.html"
+    },
+    {
+     "field": "sources",
+     "from": [],
+     "to": [
+      "https://rsl.ethz.ch/robots-media/spacebok.html",
+      "https://www.esa.int/media/spacebok-robot"
+     ]
+    },
+    {
+     "field": "summary",
+     "from": "",
+     "to": "ETH Zurich quadruped built to research hopping locomotion for low-gravity surfaces, tested in ESA's Mars Yard."
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "official"
+    },
+    {
+     "field": "weight_kg",
+     "from": null,
+     "to": 22
+    }
+   ]
+  }
+ ]
+}

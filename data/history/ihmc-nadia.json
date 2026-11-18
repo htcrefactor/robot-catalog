@@ -1,0 +1,61 @@
+{
+ "id": "ihmc-nadia",
+ "name": "Nadia",
+ "manufacturer": "IHMC Robotics (with Boardwalk Robotics)",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-17",
+   "type": "added",
+   "source": null,
+   "commit": "b596d3e",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://robots.ihmc.us/humanoid-design",
+   "commit": "b310609",
+   "changes": [
+    {
+     "field": "dof",
+     "from": null,
+     "to": 29
+    },
+    {
+     "field": "note",
+     "from": null,
+     "to": "Maker pages (IHMC Robotics humanoid design; Boardwalk Robotics Nadia): 29 joints with unusually large range of motion, hybrid actuation (Moog hydraulic Integrated Smart Actuators in legs and spine, electric actuators at hip/spine yaw and in the arms), carbon-fibre exoskeleton, VR teleoperation, IHMC whole-body control software; funded by ONR, ARL, NASA JSC and TARDEC. Height, mass, speed and runtime are not published by IHMC (190 cm / 100 kg / 3.5 km/h appear only in third-party catalogues and were not filled). No price."
+    },
+    {
+     "field": "official_url",
+     "from": null,
+     "to": "https://robots.ihmc.us/humanoid-design"
+    },
+    {
+     "field": "sources",
+     "from": [],
+     "to": [
+      "https://robots.ihmc.us/humanoid-design",
+      "https://boardwalkrobotics.com/Nadia"
+     ]
+    },
+    {
+     "field": "status",
+     "from": null,
+     "to": "Research"
+    },
+    {
+     "field": "summary",
+     "from": "",
+     "to": "IHMC's full-size research humanoid with hybrid hydraulic-electric actuation and one of the widest ranges of motion of its generation, built with Boardwalk Robotics."
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "official"
+    }
+   ]
+  }
+ ]
+}

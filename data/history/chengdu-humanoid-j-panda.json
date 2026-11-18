@@ -1,0 +1,79 @@
+{
+ "id": "chengdu-humanoid-j-panda",
+ "name": "J-PANDA",
+ "manufacturer": "Chengdu Humanoid Robot Innovation Center",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-17",
+   "type": "added",
+   "source": null,
+   "commit": "b596d3e",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://wrc.cie.org.cn/expo/product/1267.html",
+   "commit": "4b395bc",
+   "changes": [
+    {
+     "field": "dof",
+     "from": null,
+     "to": 21
+    },
+    {
+     "field": "height_mm",
+     "from": null,
+     "to": 1520
+    },
+    {
+     "field": "note",
+     "from": null,
+     "to": "Figures come from the maker's own product listing and product catalogue submitted to the 2026 World Robot Conference (wrc.cie.org.cn product and exhibitor pages, and the 文旅机器人产品册 catalogue hosted by the same organiser): 1,520 mm tall, 21 body DoF, 2.5 h runtime with a quick-swap battery, dual 5-inch interaction displays, a dedicated app and cloud management platform, speech + gesture + eye-expression interaction driven by the centre's own LLM (multi-language and Sichuan dialect), with a 'small-brain' motion stack for straight-knee walking, dynamic balance and rough-terrain adaptation. The maker has no separate public product domain, so these organiser-hosted maker listings are the source; weight, payload, speed and price are not published. Status Pilot: first public debut at the Chengdu Two Sessions on 28 Jan 2026 with no public sales."
+    },
+    {
+     "field": "official_url",
+     "from": null,
+     "to": "https://wrc.cie.org.cn/expo/product/1267.html"
+    },
+    {
+     "field": "runtime_h",
+     "from": null,
+     "to": 2.5
+    },
+    {
+     "field": "sensors",
+     "from": [],
+     "to": [
+      "Dual 5-inch face/interaction displays"
+     ]
+    },
+    {
+     "field": "sources",
+     "from": [],
+     "to": [
+      "https://wrc.cie.org.cn/expo/product/1267.html",
+      "https://wrc.cie.org.cn/expo/company/772.html",
+      "https://www.worldrobotconference.com/profile/robot/download/2026/07/26/20260726231917000363_20260726231917A468.pdf"
+     ]
+    },
+    {
+     "field": "status",
+     "from": null,
+     "to": "Pilot"
+    },
+    {
+     "field": "summary",
+     "from": "",
+     "to": "The panda-themed J-PANDA (锦宝) humanoid from Chengdu's Humanoid Robot Innovation Center, built for cultural performances, guided tours and event interaction."
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "official"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,67 @@
+{
+ "id": "aeolus-aeo",
+ "name": "Aeo",
+ "manufacturer": "Aeolus Robotics",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-13",
+   "type": "added",
+   "source": "https://humanoidstore.co/robots/aeolus-aeo",
+   "commit": "14cd746",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://www.hannovermesse.de/apollo/hannover_messe_2026/obs/Binary/A1509840/Aeobot%20Flyer.pdf",
+   "commit": "0be5d4c",
+   "changes": [
+    {
+     "field": "data_source",
+     "from": "HumanoidStore open data (CC BY 4.0)",
+     "to": null
+    },
+    {
+     "field": "height_mm",
+     "from": null,
+     "to": 1830
+    },
+    {
+     "field": "max_speed_mps",
+     "from": null,
+     "to": 0.95
+    },
+    {
+     "field": "notes",
+     "from": null,
+     "to": "Issue #17 (2026-11-17): Aeolus AeoBot - 1.83 x 2.0 x 1.32 m (H x W x L), up to 0.95 m/s, 2.9 kg per 7-DoF arm, about 9 h with the flex gripper (6.5 h with night-vision camera). Aeolus publishes no total weight or DoF, so those fields were emptied; the launch-generation 3.6 kg arm payload is noted. [replaced height_mm: None -> 1830; payload_kg: 3.6 -> 2.9; max_speed_mps: None -> 0.95; runtime_h: None -> 9.0]"
+    },
+    {
+     "field": "payload_kg",
+     "from": 3.6,
+     "to": 2.9
+    },
+    {
+     "field": "runtime_h",
+     "from": null,
+     "to": 9.0
+    },
+    {
+     "field": "sources",
+     "from": [
+      "https://humanoidstore.co/robots/aeolus-aeo"
+     ],
+     "to": [
+      "https://www.hannovermesse.de/apollo/hannover_messe_2026/obs/Binary/A1509840/Aeobot%20Flyer.pdf"
+     ]
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "official"
+    }
+   ]
+  }
+ ]
+}

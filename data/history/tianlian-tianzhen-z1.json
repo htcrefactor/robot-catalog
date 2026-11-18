@@ -1,0 +1,127 @@
+{
+ "id": "tianlian-tianzhen-z1",
+ "name": "Tianzhen Z1",
+ "manufacturer": "Sichuan Tianlian Robotics (TliBot)",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-17",
+   "type": "added",
+   "source": null,
+   "commit": "b596d3e",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://www.en.fdrobot.com/Resistant_detail/111.html",
+   "commit": "30bdc91",
+   "changes": [
+    {
+     "field": "api_support",
+     "from": null,
+     "to": true
+    },
+    {
+     "field": "battery_wh",
+     "from": null,
+     "to": 660
+    },
+    {
+     "field": "compute_detail",
+     "from": null,
+     "to": "RK3588 standard; optional NVIDIA Jetson AGX Orin or Thor module"
+    },
+    {
+     "field": "dof",
+     "from": null,
+     "to": 40
+    },
+    {
+     "field": "height_mm",
+     "from": null,
+     "to": 1670
+    },
+    {
+     "field": "max_speed_mps",
+     "from": null,
+     "to": 2.0
+    },
+    {
+     "field": "note",
+     "from": null,
+     "to": "Maker spec sheet: 167 cm, ~45 kg, 600 mm arm length, up to 40 body DoF (neck 2, optional 5; waist 3, optional 5; 6 per leg; 9 per arm; optional 6-DoF hands), joint torque 30-145 Nm, 3-8 kg per arm, 2 m/s, more than 2 h on a 660 Wh quick-release pack (66.6 V / 10 Ah), RK3588 with optional Jetson AGX Orin or Thor, Ubuntu + LinuxRT, MuJoCo and Isaac Sim models, 3.9-inch and 7-inch OLED panels, RS485 and API access."
+    },
+    {
+     "field": "official_url",
+     "from": null,
+     "to": "https://www.en.fdrobot.com/Resistant_detail/111.html"
+    },
+    {
+     "field": "onboard_compute",
+     "from": null,
+     "to": true
+    },
+    {
+     "field": "payload_kg",
+     "from": null,
+     "to": 8
+    },
+    {
+     "field": "release_year",
+     "from": null,
+     "to": 2026
+    },
+    {
+     "field": "runtime_h",
+     "from": null,
+     "to": 2
+    },
+    {
+     "field": "sdk_available",
+     "from": null,
+     "to": true
+    },
+    {
+     "field": "sensors",
+     "from": [],
+     "to": [
+      "Mixed solid-state LiDAR",
+      "Depth and RGB cameras",
+      "4-microphone array",
+      "IMU",
+      "Dexterous-hand tactile sensors (optional)"
+     ]
+    },
+    {
+     "field": "sources",
+     "from": [],
+     "to": [
+      "https://www.en.fdrobot.com/Resistant_detail/111.html",
+      "https://www.tlibot.com/"
+     ]
+    },
+    {
+     "field": "status",
+     "from": null,
+     "to": "Announced"
+    },
+    {
+     "field": "summary",
+     "from": "",
+     "to": "Full-size bipedal humanoid (Tianzhen Z1, 天真 Z1) from Sichuan TLIBOT: 167 cm and 45 kg with up to 40 body DoF, shown for the first time at WAIC 2026."
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "official"
+    },
+    {
+     "field": "weight_kg",
+     "from": null,
+     "to": 45
+    }
+   ]
+  }
+ ]
+}

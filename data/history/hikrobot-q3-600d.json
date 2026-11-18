@@ -1,0 +1,53 @@
+{
+ "id": "hikrobot-q3-600d",
+ "name": "Q3-600D",
+ "manufacturer": "Hikrobot",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-17",
+   "type": "added",
+   "source": "https://www.hikrobotics.com/en/mobilerobot/LMR",
+   "commit": "b596d3e",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://wiki-lmr.rms.hikrobotics.com/zh/AMR/LMR/Q3/Product-Introduction/Quick-Start/Introduction-to-the-Product/Q3-600D-parameters",
+   "commit": "2e2527b",
+   "changes": [
+    {
+     "field": "note",
+     "from": "Latent (under-ride) lifting AMR. Model is listed on Hikrobot's LMR page and has a section in Hikrobot's LMR wiki; both pages render via JS so the fetch returned no spec text - values below come from the Hikrobot wiki parameter/intro pages as seen in search excerpts (maker-stated): 950x650x250 mm, 134 kg (distributors list 132 kg), 600 kg rated load, 60 mm electric lift, 2.0 m/s empty / 1.8 m/s loaded, differential drive, front laser + side ultrasonic + bumper. Runtime 8 h / charge <=1.5 h appear on distributor sheets only - left out. Navigation QR code / laser SLAM / visual SLAM. Category is better 'AMR' than 'AGV' (natural-feature SLAM option).",
+     "to": "Model-specific maker page opened 2026-11-17: Hikrobot's own LMR wiki page 'Q3-600D 主推车型技术参数' (no longer snippet-only). Maker-stated: 950x650x250 mm, 134 kg, rated load 600 kg, lift 60 mm electric (20 mm/s), platform 850x600 mm, ground clearance 25 mm, differential drive, rated speed 2.0 m/s empty / 1.8 m/s loaded, rotation 200/100 deg/s, positioning +/-10 mm / +/-1 deg, 3 deg slope, front laser + front/rear bumper + e-stop, QR/L-SLAM navigation, LiFePO4 48 V (1500 cycles), 8 h runtime at rated duty, charge <=1.5 h, rear charging, WiFi, touch screen. Distributor sheets list 132 kg and 9 h; maker page 134 kg / 8 h stored. Category note: natural-feature (L-SLAM/V-SLAM) navigation option makes 'AMR' arguably better than 'AGV'."
+    },
+    {
+     "field": "official_url",
+     "from": "https://www.hikrobotics.com/en/mobilerobot/LMR",
+     "to": "https://wiki-lmr.rms.hikrobotics.com/zh/AMR/LMR/Q3/Product-Introduction/Quick-Start/Introduction-to-the-Product/Q3-600D-parameters"
+    },
+    {
+     "field": "runtime_h",
+     "from": null,
+     "to": 8
+    },
+    {
+     "field": "sensors",
+     "from": [
+      "Front laser scanner",
+      "Side ultrasonic sensors",
+      "Bumper strip",
+      "QR-code / laser SLAM / visual SLAM navigation"
+     ],
+     "to": [
+      "Front laser scanner",
+      "Front/rear bumper strip",
+      "E-stop button",
+      "QR / 2D code, L-SLAM, V-SLAM navigation"
+     ]
+    }
+   ]
+  }
+ ]
+}

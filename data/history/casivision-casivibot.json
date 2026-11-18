@@ -1,0 +1,41 @@
+{
+ "id": "casivision-casivibot",
+ "name": "CASIVIBOT",
+ "manufacturer": "CasiVision",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-17",
+   "type": "added",
+   "source": "https://casivision.com/",
+   "commit": "b596d3e",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://casivision.com/",
+   "commit": "7864761",
+   "changes": [
+    {
+     "field": "note",
+     "from": "Out of scope-ish: an industrial inspection mobile manipulator, not a general humanoid. Not related to CASBOT despite similar names (some aggregators conflate them). Launched Aug 19, 2025; mass production from June 16, 2026. Maker says it moves autonomously; aggregators call it wheeled. No dimensions published.",
+     "to": "Scope review (#16, 2026-11-17): kept in scope, and kept under Humanoid because this catalog files wheeled humanoid-form robots here (Pepper, TIAGo Pro, Atlas on Wheels). It is not an AOI station: CasiVision VP Shen Fei describes it as 自主移动 / 自主移动巡检 (moves and patrols on its own) and the maker's site lists it under 具身质检设备 (embodied inspection equipment) - human-like dual arms and a multispectral head on a base the press calls wheeled. Locomotion left null: the maker states autonomous movement but not the drive type, and no datasheet is published. Not related to CASBOT despite similar names (some aggregators conflate them). Launched Aug 19, 2025; mass production from June 16, 2026."
+    },
+    {
+     "field": "sources",
+     "from": [
+      "https://casivision.com/",
+      "https://www.stdaily.com/web/gdxw/2025-08/20/content_387784.html"
+     ],
+     "to": [
+      "https://casivision.com/",
+      "https://www.stdaily.com/web/gdxw/2025-08/20/content_387784.html",
+      "https://www.casivision.com/",
+      "https://en.zhongkehuiyuan.com/"
+     ]
+    }
+   ]
+  }
+ ]
+}

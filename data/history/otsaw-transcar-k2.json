@@ -1,0 +1,52 @@
+{
+ "id": "otsaw-transcar-k2",
+ "name": "TransCar K2",
+ "manufacturer": "Otsaw",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-17",
+   "type": "added",
+   "source": "https://otsaw.com/transcar/",
+   "commit": "b596d3e",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://www.versigen.com.au/wp-content/uploads/2024/05/versigen-transcar-brochure.pdf",
+   "commit": "2e2527b",
+   "changes": [
+    {
+     "field": "note",
+     "from": "otsaw.com/transcar returned 'Account Suspended' on two fetches (Nov 2026) - maker site currently down. Search-index copies of the maker page and OTSAW posts describe TransCar as a hospital AGV/AMR that slides under and lifts trolleys, payload up to 500 kg; 'TransCar K2' named in OTSAW LinkedIn and an SEC-filed contract. Category note: it is an AGV (predetermined paths) for trolley transport. Values left out because no maker page could be opened.",
+     "to": "Re-checked 2026-11-17: otsaw.com still does not serve the product page (otsaw.com/transcar/ -> 404). OTSAW's own TransCar brochure (opened as a PDF, OTSAW Group, Sept 2023) gives TransCar as a tricycle-drive hospital AGV: speed 0.1-1.6 m/s, max load capacity 500 kg, 1706 x 616 x 346 mm, IP54, LiFeMnPO4 battery, battery life <=12 h. The brochure does not print 'K2' on its spec table, so only payload (500 kg, also stated by OTSAW for the K2 in its own FHA-HoReCa 2024 post, opened) is filled; dimensions, speed, IP and runtime are left null although the brochure lists them for the TransCar family. 'TransCar K2' is named in that OTSAW post and in an SEC-filed Swisslog/Otsaw agreement. Category note: it is an AGV (fixed routes) for trolley transport."
+    },
+    {
+     "field": "official_url",
+     "from": "https://otsaw.com/transcar/",
+     "to": "https://www.versigen.com.au/wp-content/uploads/2024/05/versigen-transcar-brochure.pdf"
+    },
+    {
+     "field": "payload_kg",
+     "from": null,
+     "to": 500
+    },
+    {
+     "field": "sources",
+     "from": [],
+     "to": [
+      "https://www.versigen.com.au/wp-content/uploads/2024/05/versigen-transcar-brochure.pdf",
+      "https://pdf.medicalexpo.com/pdf/otsaw-swisslog-healthcare-robotics/transcar-automated-guided-vehicle-brochure/4579365-263713.html",
+      "https://www.linkedin.com/posts/otsaw-digital_fhahoreca-transcar-robotics-activity-7252856500585447425-TF1w"
+     ]
+    },
+    {
+     "field": "verification",
+     "from": "unconfirmed",
+     "to": "official"
+    }
+   ]
+  }
+ ]
+}

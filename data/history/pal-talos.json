@@ -1,0 +1,88 @@
+{
+ "id": "pal-talos",
+ "name": "TALOS",
+ "manufacturer": "PAL Robotics",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-13",
+   "type": "added",
+   "source": "https://humanoidstore.co/robots/pal-talos",
+   "commit": "14cd746",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://pal-robotics.com/robot/talos/",
+   "commit": "976d9e6",
+   "changes": [
+    {
+     "field": "battery_wh",
+     "from": null,
+     "to": 1080
+    },
+    {
+     "field": "data_source",
+     "from": "HumanoidStore open data (CC BY 4.0)",
+     "to": "Maker sources (verified 2026-11-17)"
+    },
+    {
+     "field": "notes",
+     "from": null,
+     "to": "Issue #17 (2026-11-17): TALOS - 175 cm, 95 kg, 32 DoF, 6 kg per stretched arm, 1080 Wh, 1.5 h walking / 3 h standby. PAL publishes no walking speed, so that field was emptied. [replaced battery_wh: None -> 1080] HumanoidStore price (US$1122500) removed: no maker list price confirmed."
+    },
+    {
+     "field": "price_note",
+     "from": "list 1000000 EUR (maker), per HumanoidStore, checked 2026-10",
+     "to": "PAL publishes no price; the earlier 1,000,000 EUR figure came from a reseller listing"
+    },
+    {
+     "field": "price_usd",
+     "from": 1122500,
+     "to": null
+    },
+    {
+     "field": "sources",
+     "from": [
+      "https://humanoidstore.co/robots/pal-talos"
+     ],
+     "to": [
+      "https://pal-robotics.com/robot/talos/",
+      "https://pal-robotics.com/wp-content/uploads/2025/09/TALOS-DataSheet-1.pdf",
+      "https://pal-robotics.com/wp-content/uploads/2024/05/Datasheet-TALOS.pdf"
+     ]
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "official"
+    },
+    {
+     "field": "note",
+     "from": null,
+     "to": "PAL's TALOS page and datasheet (checked 2026-11-17): 175 cm, 95 kg, 32 DoF (6 per leg, 7 per arm, 1 per gripper, 2 waist, 2 neck), 6 kg arm payload fully extended, 1.5 h walking or 3 h standby on a 1,080 Wh lithium-ion pack, Ubuntu LTS, ROS and ros_control. The 3 km/h walking speed recorded here comes from PAL's 2016 launch post; the product page itself lists no speed."
+    },
+    {
+     "field": "official_url",
+     "from": null,
+     "to": "https://pal-robotics.com/robot/talos/"
+    },
+    {
+     "field": "sensors",
+     "from": [],
+     "to": [
+      "Full torque-sensor feedback in all joints (except head, wrists and grippers)",
+      "4x 6-axis F/T sensors at wrists and ankles",
+      "AHRS/IMU at 1 kHz"
+     ]
+    },
+    {
+     "field": "summary",
+     "from": "Full-size humanoid from PAL Robotics; shipping now, sold to research buyers.",
+     "to": "PAL's torque-controlled industrial research humanoid: 1.75 m, 95 kg, 32 DoF, 6 kg per arm and 1.5 h of walking, with EtherCAT control at 2 kHz."
+    }
+   ]
+  }
+ ]
+}

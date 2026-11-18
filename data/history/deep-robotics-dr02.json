@@ -1,0 +1,158 @@
+{
+ "id": "deep-robotics-dr02",
+ "name": "DR02",
+ "manufacturer": "DEEP Robotics",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-13",
+   "type": "added",
+   "source": "https://humanoidstore.co/robots/deep-robotics-dr02",
+   "commit": "14cd746",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://www.deeprobotics.cn/en/products/detail/5.html",
+   "commit": "c3614dc",
+   "changes": [
+    {
+     "field": "battery_wh",
+     "from": null,
+     "to": 1440
+    },
+    {
+     "field": "data_source",
+     "from": "HumanoidStore open data (CC BY 4.0)",
+     "to": null
+    },
+    {
+     "field": "dof",
+     "from": 31,
+     "to": 21
+    },
+    {
+     "field": "ip_rating",
+     "from": null,
+     "to": "IP66"
+    },
+    {
+     "field": "notes",
+     "from": null,
+     "to": "Issue #17 (2026-11-17): DEEP Robotics DR02 datasheet - 175 cm, 65 kg with battery, 21 DoF (legs 6x2, arms 4x2, waist 1), 10 kg dual-arm payload, 20 Ah/1440 Wh, IP66, max test speed 4 m/s (walking 1.5 m/s). DoF 31 belongs to the DR02 Pro. The DR02 user manual lists 180 cm, 68 kg and a 20 kg figure; datasheet values kept, manual figures noted. [replaced payload_kg: 20 -> 10; dof: 31 -> 21; runtime_h: None -> 3.0; battery_wh: None -> 1440; ip_rating: None -> IP66]"
+    },
+    {
+     "field": "payload_kg",
+     "from": 20,
+     "to": 10
+    },
+    {
+     "field": "runtime_h",
+     "from": null,
+     "to": 3.0
+    },
+    {
+     "field": "sources",
+     "from": [
+      "https://humanoidstore.co/robots/deep-robotics-dr02"
+     ],
+     "to": [
+      "https://deep-website.oss-cn-hangzhou.aliyuncs.com/app/DR02%E5%8D%95%E9%A1%B5202602-%E8%8B%B1%E6%96%87.pdf",
+      "https://www.deeprobotics.us/products/dr02/",
+      "https://www.deeprobotics.cn/en/products/detail/5.html",
+      "https://www.deeprobotics.cn/index.php/products/detail/5.html",
+      "https://deep-website.oss-cn-hangzhou.aliyuncs.com/app/DR02%E5%8D%95%E9%A1%B5202602-%E4%B8%AD%E6%96%87.pdf",
+      "https://humanoidstore.co/robots/deep-robotics-dr02",
+      "https://github.com/DeepRoboticsLab/deep_robotics_model/blob/main/DR02/urdf/standard/DR02-std.urdf",
+      "https://github.com/DeepRoboticsLab/deep_robotics_model/blob/main/DR02/mjcf/standard/DR02_std.xml",
+      "https://github.com/DeepRoboticsLab/deep_robotics_model/blob/main/DR02/usd/standard/DR02-std.usd"
+     ]
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "official"
+    },
+    {
+     "field": "compute_detail",
+     "from": null,
+     "to": "Octa-core 64-bit industrial processor plus NVIDIA AGX Orin (275 TOPS), AGX Thor (2,070 TOPS) optional"
+    },
+    {
+     "field": "height_mm",
+     "from": 1750,
+     "to": 1800
+    },
+    {
+     "field": "length_mm",
+     "from": null,
+     "to": 400
+    },
+    {
+     "field": "note",
+     "from": null,
+     "to": "Maker product page (deeprobotics.cn/en/products/detail/5.html): standing size approx 1800 x 558 x 400 mm, 68 kg as DR02 and 78 kg as DR02 Pro (recorded the Pro, 31-DoF configuration: 6 per leg, 7 per arm, 3 waist, 2 head), 10 kg continuous payload, unloaded runtime ~3 h and loaded ~2.5 h with ~2.5 h charging, 68 cm arms, walking speed 1.5 m/s with a lab top speed of 4 m/s, 25 cm stairs, 40 cm step, 20 deg slope, IP66, -20 to 55 C, octa-core industrial processor with a 275 TOPS NVIDIA AGX Orin (AGX Thor 2,070 TOPS optional), LiDAR, 3 depth cameras, wide-angle camera, mic array and speaker, 72 V external power. Battery 20 Ah at 72 V = 1440 Wh per the maker datasheet PDF. The datasheet states a 175 cm standing height and 175/65 kg or 175/75 kg while the web page says ~1800 mm and 68/78 kg - both are maker documents, the web page values are recorded and the datasheet values noted here."
+    },
+    {
+     "field": "official_url",
+     "from": null,
+     "to": "https://www.deeprobotics.cn/en/products/detail/5.html"
+    },
+    {
+     "field": "onboard_compute",
+     "from": null,
+     "to": true
+    },
+    {
+     "field": "sensors",
+     "from": [],
+     "to": [
+      "LiDAR",
+      "3 depth cameras",
+      "Wide-angle camera",
+      "Microphone array"
+     ]
+    },
+    {
+     "field": "status",
+     "from": "Announced",
+     "to": "Commercial"
+    },
+    {
+     "field": "summary",
+     "from": "Full-size humanoid from DEEP Robotics; announced, sold to businesses.",
+     "to": "DEEP Robotics' IP66 all-weather industrial humanoid for power-station inspection, emergency response and security patrols, sold in DR02 and DR02 Pro configurations."
+    },
+    {
+     "field": "weight_kg",
+     "from": 65,
+     "to": 78
+    },
+    {
+     "field": "width_mm",
+     "from": null,
+     "to": 558
+    },
+    {
+     "field": "sim_models",
+     "from": null,
+     "to": {
+      "urdf": {
+       "url": "https://github.com/DeepRoboticsLab/deep_robotics_model/blob/main/DR02/urdf/standard/DR02-std.urdf",
+       "license": "BSD-3-Clause"
+      },
+      "mjcf": {
+       "url": "https://github.com/DeepRoboticsLab/deep_robotics_model/blob/main/DR02/mjcf/standard/DR02_std.xml",
+       "license": "BSD-3-Clause"
+      },
+      "usd": {
+       "url": "https://github.com/DeepRoboticsLab/deep_robotics_model/blob/main/DR02/usd/standard/DR02-std.usd",
+       "license": "BSD-3-Clause"
+      }
+     }
+    }
+   ]
+  }
+ ]
+}

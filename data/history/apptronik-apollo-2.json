@@ -1,0 +1,64 @@
+{
+ "id": "apptronik-apollo-2",
+ "name": "Apollo 2",
+ "manufacturer": "Apptronik",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-03",
+   "type": "added",
+   "source": "https://apptronik.com/apollo/apollo-2",
+   "commit": "1a533a7",
+   "changes": []
+  },
+  {
+   "date": "2026-11-13",
+   "type": "updated",
+   "source": "https://apptronik.com/apollo/apollo-2",
+   "commit": "14cd746",
+   "changes": [
+    {
+     "field": "sources",
+     "from": [
+      "https://apptronik.com/apollo/apollo-2",
+      "https://apptronik.com/"
+     ],
+     "to": [
+      "https://apptronik.com/apollo/apollo-2",
+      "https://apptronik.com/",
+      "https://humanoidstore.co/robots/apptronik-apollo"
+     ]
+    }
+   ]
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://apptronik.com/apollo/apollo-2",
+   "commit": "0be5d4c",
+   "changes": [
+    {
+     "field": "notes",
+     "from": null,
+     "to": "Issue #17 (2026-11-17): Apptronik's Apollo 2 page publishes no numeric specifications; record kept with spec fields empty. HumanoidStore row dropped."
+    },
+    {
+     "field": "sources",
+     "from": [
+      "https://apptronik.com/apollo/apollo-2",
+      "https://apptronik.com/",
+      "https://humanoidstore.co/robots/apptronik-apollo"
+     ],
+     "to": [
+      "https://apptronik.com/apollo/apollo-2"
+     ]
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "unconfirmed"
+    }
+   ]
+  }
+ ]
+}

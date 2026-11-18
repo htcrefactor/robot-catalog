@@ -1,0 +1,99 @@
+{
+ "id": "menlo-research-asimov-v1",
+ "name": "Asimov 1",
+ "manufacturer": "Menlo Research",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-13",
+   "type": "added",
+   "source": "https://humanoidstore.co/robots/menlo-research-asimov-v1",
+   "commit": "14cd746",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://menlo.ai/asimov-1",
+   "commit": "976d9e6",
+   "changes": [
+    {
+     "field": "data_source",
+     "from": "HumanoidStore open data (CC BY 4.0)",
+     "to": "Maker sources (verified 2026-11-17)"
+    },
+    {
+     "field": "notes",
+     "from": null,
+     "to": "Issue #17 (2026-11-17): Asimov 1 - about 1.2 m, about 35 kg, 25 powered joints (legs 6x2, arms 5x2, waist 1, neck 2), 5 kg rated per arm for a bicep curl (15 kg peak), per Menlo's documentation. No speed, runtime or price published, so those fields were emptied. [emptied (no maker value) price_usd=20000; price_note=list 20000 USD (maker), per HumanoidStore, checked 2026-10]"
+    },
+    {
+     "field": "price_note",
+     "from": "list 20000 USD (maker), per HumanoidStore, checked 2026-10",
+     "to": "Asimov 1 DIY kit, $20,000 from Menlo (maker site and GitHub, checked 2026-11-17)"
+    },
+    {
+     "field": "price_usd",
+     "from": 20000,
+     "to": null
+    },
+    {
+     "field": "sources",
+     "from": [
+      "https://humanoidstore.co/robots/menlo-research-asimov-v1"
+     ],
+     "to": [
+      "https://docs.menlo.ai/asimov/1/overview",
+      "https://menlo.ai/asimov-1",
+      "https://github.com/menloresearch/asimov-1"
+     ]
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "official"
+    },
+    {
+     "field": "battery_wh",
+     "from": null,
+     "to": 491.0
+    },
+    {
+     "field": "compute_detail",
+     "from": null,
+     "to": "Raspberry Pi 5 head compute, Radxa CM5 motion-control board, power distribution board"
+    },
+    {
+     "field": "note",
+     "from": null,
+     "to": "Maker (checked 2026-11-17): 1.2 m, 35 kg, 25 powered joints (6 per leg, 5 per arm, 1 waist, 2 neck), 491 Wh battery, open CAD/simulation/firmware under CERN-OHL-S. Payload is rated per activity: 5 kg squat, 5 kg per arm sustained and 15 kg peak when curled or raised. The DIY kit is offered unassembled at $20,000; the maker says kits are shipping but sells them through a pre-order page."
+    },
+    {
+     "field": "official_url",
+     "from": null,
+     "to": "https://menlo.ai/asimov-1"
+    },
+    {
+     "field": "onboard_compute",
+     "from": null,
+     "to": "Radxa CM5 (motion control) + Raspberry Pi 5 (media and networking)"
+    },
+    {
+     "field": "sensors",
+     "from": [],
+     "to": [
+      "6-axis IMU",
+      "2 MP monocular camera",
+      "Stereo microphone array",
+      "Speaker"
+     ]
+    },
+    {
+     "field": "summary",
+     "from": "Mid-size humanoid from Menlo Research; preorder, anyone can order.",
+     "to": "Menlo's open-source humanoid sold as a DIY kit: 1.2 m, 35 kg, 25 powered joints, with CAD, simulation models and firmware released and a $20,000 kit."
+    }
+   ]
+  }
+ ]
+}

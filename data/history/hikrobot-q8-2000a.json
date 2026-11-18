@@ -1,0 +1,38 @@
+{
+ "id": "hikrobot-q8-2000a",
+ "name": "Q8-2000A",
+ "manufacturer": "Hikrobot",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-17",
+   "type": "added",
+   "source": "https://www.hikrobotics.com/en/mobilerobot/LMR",
+   "commit": "b596d3e",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://www.hikrobotics.com/en/mobilerobot/LMR",
+   "commit": "2e2527b",
+   "changes": [
+    {
+     "field": "note",
+     "from": "Heavy latent lifting AMR. Model is listed on Hikrobot's LMR page (JS tabs; confirmed via search excerpt) and has a section in Hikrobot's LMR wiki. Only maker-stated figures seen are from a Hikrobot-authored automotive solution brochure (search excerpt): rated load 2,000 kg, run time 6-8 h, running speed ~1 m/s. Widely repeated distributor spec (1523x1150x327 mm, 550 kg, 940 mm/s, 100 mm hydraulic lift, 8 h, <=1.5 h charge) not confirmed on an opened maker page - left out; note 0.94 m/s vs maker '1 m/s' rounding.",
+     "to": "Heavy latent lifting AMR. Model is listed on Hikrobot's LMR page (JS tabs; confirmed via search excerpt) and has a section in Hikrobot's LMR wiki. Only maker-stated figures seen are from a Hikrobot-authored automotive solution brochure (search excerpt): rated load 2,000 kg, run time 6-8 h, running speed ~1 m/s. Widely repeated distributor spec (1523x1150x327 mm, 550 kg, 940 mm/s, 100 mm hydraulic lift, 8 h, <=1.5 h charge) not confirmed on an opened maker page - left out; note 0.94 m/s vs maker '1 m/s' rounding. Re-checked 2026-11-17: Hikrobot's LMR wiki has a Q8-2000A section (index page opened), but its '技术规格' link is broken (Page Not Found) and the 3D product page still renders its tabs by JS, so no model-specific maker spec table could be read. Widely repeated distributor table (1523x1150x327 mm, 550 kg, 2000 kg, 940 mm/s, 100 mm hydraulic lift, 8 h, <=1.5 h charge) is NOT maker-verified and stays out of the fields; payload 2000 kg remains from the maker automotive brochure."
+    },
+    {
+     "field": "sources",
+     "from": [
+      "http://www.hikrobotics.com/en/mobilerobot/LMR"
+     ],
+     "to": [
+      "http://www.hikrobotics.com/en/mobilerobot/LMR",
+      "https://wiki-lmr.rms.hikrobotics.com/zh/AMR/LMR/Q8/Q8-2000-content"
+     ]
+    }
+   ]
+  }
+ ]
+}

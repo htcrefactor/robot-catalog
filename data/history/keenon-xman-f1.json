@@ -1,0 +1,84 @@
+{
+ "id": "keenon-xman-f1",
+ "name": "XMAN-F1",
+ "manufacturer": "KEENON Robotics",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-13",
+   "type": "added",
+   "source": "https://humanoidstore.co/robots/keenon-xman-f1",
+   "commit": "14cd746",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://www.keenon.com/en/product/XMAN-F1",
+   "commit": "b310609",
+   "changes": [
+    {
+     "field": "data_source",
+     "from": "HumanoidStore open data (CC BY 4.0)",
+     "to": null
+    },
+    {
+     "field": "notes",
+     "from": null,
+     "to": "Issue #17 (2026-11-17): KEENON XMAN-F1 - 175 cm, 68 kg, 43 DoF (arms 7x2, legs 6x2, waist 3, head 2, hands 6x2), 275 TOPS and 3D LiDAR, per KEENON's datasheet."
+    },
+    {
+     "field": "sources",
+     "from": [
+      "https://humanoidstore.co/robots/keenon-xman-f1"
+     ],
+     "to": [
+      "https://www.ivixrobotics.com/en/products/xman-f1/",
+      "https://www.keenon.com/en/product/XMAN-F1",
+      "https://www.keenon.com/en/news/keenon-debuts-first-bipedal-humanoid-service-robot-at-waic-showcasing-role-specific-embodied-ai-solutions"
+     ]
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "official"
+    },
+    {
+     "field": "compute_detail",
+     "from": null,
+     "to": "275 TOPS, 64 GB VRAM, 64 GB storage"
+    },
+    {
+     "field": "note",
+     "from": null,
+     "to": "Maker product page: 175 cm, 68 kg, 43 DoF across the body (dual 7-DoF arms, dual 6-DoF hands, 6-DoF bipedal legs x2 and the rest in torso/head), 3D LiDAR for forward/rearward perception, 4 depth vision cameras, 4 HD wide-angle cameras, 275 TOPS with 64 GB VRAM, VR dual-arm teleoperation, VLA model. Premiered at WAIC 2025 on 26 Jul 2025. Payload, runtime, battery and price are not published."
+    },
+    {
+     "field": "official_url",
+     "from": null,
+     "to": "https://www.keenon.com/en/product/XMAN-F1"
+    },
+    {
+     "field": "release_year",
+     "from": null,
+     "to": 2025
+    },
+    {
+     "field": "sensors",
+     "from": [],
+     "to": [
+      "3D LiDAR (forward/rearward)",
+      "4 depth vision cameras",
+      "4 HD wide-angle cameras",
+      "Omnidirectional microphone"
+     ]
+    },
+    {
+     "field": "summary",
+     "from": "Full-size humanoid from KEENON Robotics; b2b only, sold to businesses.",
+     "to": "KEENON's first bipedal service humanoid (1.75 m, 68 kg, 43 DoF), demonstrated at WAIC 2025 making drinks, popcorn and presentations."
+    }
+   ]
+  }
+ ]
+}

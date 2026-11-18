@@ -1,0 +1,71 @@
+{
+ "id": "sharpa-north",
+ "name": "North",
+ "manufacturer": "Sharpa",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-17",
+   "type": "added",
+   "source": null,
+   "commit": "b596d3e",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://www.sharpa.com/pages/north",
+   "commit": "75b989d",
+   "changes": [
+    {
+     "field": "dof",
+     "from": null,
+     "to": 67
+    },
+    {
+     "field": "locomotion",
+     "from": "Wheeled",
+     "to": null
+    },
+    {
+     "field": "note",
+     "from": null,
+     "to": "Maker pages give only the 67-DOF total and the demonstrated capabilities: fully autonomous manipulation over four consecutive 8-hour days at CES 2026, ping-pong rallies with <0.02 s hand response, a 30+ step paper-windmill assembly, card dealing from a full deck with vision-language input, and camera use with ~2 mm finger positioning. The hand is the Sharpa Wave, 22 active DOF with sub-millimetre tactile resolution. Height, weight, payload, speed, battery, runtime, compute and price are not published, so those fields stay empty; the page is an enquiry form only ('Enquire about North')."
+    },
+    {
+     "field": "official_url",
+     "from": null,
+     "to": "https://www.sharpa.com/pages/north"
+    },
+    {
+     "field": "release_year",
+     "from": null,
+     "to": 2026
+    },
+    {
+     "field": "sources",
+     "from": [],
+     "to": [
+      "https://www.sharpa.com/pages/north",
+      "https://www.sharpa.com/blogs/news/sharpa-unveils-its-first-autonomous-full-body-robot-with-human-dexterity-at-ces-2026"
+     ]
+    },
+    {
+     "field": "status",
+     "from": null,
+     "to": "Announced"
+    },
+    {
+     "field": "summary",
+     "from": "",
+     "to": "Sharpa's first full-body humanoid, a 67-DOF robot shown at CES 2026 running autonomous ping-pong, card dealing and a 30+ step assembly for four days straight."
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "official"
+    }
+   ]
+  }
+ ]
+}

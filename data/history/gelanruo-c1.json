@@ -1,0 +1,43 @@
+{
+ "id": "gelanruo-c1",
+ "name": "劳动者 C1 (Laborer C1)",
+ "manufacturer": "Gelanruo Robotics",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-17",
+   "type": "added",
+   "source": "https://www.glroad.com/ListIntroduction/info.aspx?itemid=549",
+   "commit": "b596d3e",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://www.glroad.com/ListIntroduction/info.aspx?itemid=549",
+   "commit": "ae60ceb",
+   "changes": [
+    {
+     "field": "name",
+     "from": "C1",
+     "to": "劳动者 C1 (Laborer C1)"
+    },
+    {
+     "field": "note",
+     "from": "Maker is Wuhan Glroad Intelligent Technology (武汉格蓝若智能技术); official name '劳动者C1' (Laborer C1). Speed stated as '>2 m/s'. Runtime 2 h walking / 4 h standing.",
+     "to": "Maker is Wuhan Glroad Intelligent Technology (武汉格蓝若智能技术); the maker's spec sheet names the robot '劳动者C1' (Laborer C1), so the record carries both. 1.37 m, 38 kg, 21 DoF, Orin NX compute. Speed stated as '>2 m/s'. Runtime 2 h walking / 4 h standing."
+    },
+    {
+     "field": "compute_soc",
+     "from": null,
+     "to": "NVIDIA Jetson Orin NX"
+    },
+    {
+     "field": "compute_source",
+     "from": null,
+     "to": "https://www.glroad.com/ListIntroduction/info.aspx?itemid=549"
+    }
+   ]
+  }
+ ]
+}

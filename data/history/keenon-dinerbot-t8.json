@@ -1,0 +1,33 @@
+{
+ "id": "keenon-dinerbot-t8",
+ "name": "DINERBOT T8",
+ "manufacturer": "KEENON Robotics",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-03",
+   "type": "added",
+   "source": "https://www.keenon.com/en/product/T8",
+   "commit": "1a533a7",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://www.keenon.com/en/product/T8",
+   "commit": "b1429ab",
+   "changes": [
+    {
+     "field": "notes",
+     "from": null,
+     "to": "Maker page: 38.4 x 46.8 x 111.1 cm (W x D x H), 34 kg, load 20 kg, 1.0 m/s, battery life up to 15 h, slope 5 deg, minimum passage 55 cm, three stereo vision sensors and a 10.1-inch touchscreen."
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "official"
+    }
+   ]
+  }
+ ]
+}

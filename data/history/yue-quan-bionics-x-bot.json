@@ -1,0 +1,50 @@
+{
+ "id": "yue-quan-bionics-x-bot",
+ "name": "X-Bot",
+ "manufacturer": "Yue Quan Bionics",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-17",
+   "type": "added",
+   "source": null,
+   "commit": "b596d3e",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://www.yqbionics.com/",
+   "commit": "30bdc91",
+   "changes": [
+    {
+     "field": "note",
+     "from": null,
+     "to": "The maker's site (yqbionics.com) served only an empty stub on 2026-11-17 and no maker page or datasheet with figures could be read, so the record stays unconfirmed with its spec fields empty. Catalogue and exhibition pages describe X-Bot as a 167 cm, 60 kg biped with 51 DoF, 20 kg payload and 340 Nm peak joint torque; those values are not maker-verified here."
+    },
+    {
+     "field": "official_url",
+     "from": null,
+     "to": "https://www.yqbionics.com/"
+    },
+    {
+     "field": "sources",
+     "from": [],
+     "to": [
+      "https://www.yqbionics.com/"
+     ]
+    },
+    {
+     "field": "summary",
+     "from": "",
+     "to": "Yue Quan Bionics' full-size bipedal humanoid (Boxing X-Bot) for research and industrial work."
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "unconfirmed"
+    }
+   ]
+  }
+ ]
+}

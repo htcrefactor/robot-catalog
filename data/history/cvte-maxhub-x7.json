@@ -1,0 +1,75 @@
+{
+ "id": "cvte-maxhub-x7",
+ "name": "MAXHUB X7",
+ "manufacturer": "CVTE",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-17",
+   "type": "added",
+   "source": null,
+   "commit": "b596d3e",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://www.cvte.com/en/product/quadrupedrobot",
+   "commit": "1173def",
+   "changes": [
+    {
+     "field": "ip_rating",
+     "from": null,
+     "to": "IP66"
+    },
+    {
+     "field": "note",
+     "from": null,
+     "to": "Product page: over 5 h at 40 kg load, over 8 h at 20 kg, over 11 h unloaded, IP66, slopes to 35 deg, -20 to 55 C, expansion for dual gimbals, gas sensors and arms, HTTP/WebSocket development interfaces. CVTE's own 30 Jul 2026 news item conflicts with the product page (65 kg self weight, 150 kg max load, 40 cm steps, 45 deg, IP67, -22 to 57 C) and the 2026 WRC exhibitor entry gives 64 kg, so mass and dimensions are left empty and the product page's IP66/35 deg/-20 to 55 C are kept."
+    },
+    {
+     "field": "official_url",
+     "from": null,
+     "to": "https://www.cvte.com/en/product/quadrupedrobot"
+    },
+    {
+     "field": "payload_kg",
+     "from": null,
+     "to": 40
+    },
+    {
+     "field": "runtime_h",
+     "from": null,
+     "to": 5
+    },
+    {
+     "field": "sensors",
+     "from": [],
+     "to": [
+      "Dual optical gimbals (option)",
+      "Gas sensors (option)",
+      "Robotic arm (option)"
+     ]
+    },
+    {
+     "field": "sources",
+     "from": [],
+     "to": [
+      "https://www.cvte.com/en/product/quadrupedrobot",
+      "https://www.cvte.com/news/detail/42fef550-8faf-11f1-9d72-1fb0411954d4"
+     ]
+    },
+    {
+     "field": "summary",
+     "from": "",
+     "to": "CVTE's industrial quadruped (MAXHUB X7) for power-plant inspection, patrol and rescue, with 12 in-house joint modules and plug-in payload rails."
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "official"
+    }
+   ]
+  }
+ ]
+}

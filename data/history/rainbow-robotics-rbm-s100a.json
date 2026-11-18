@@ -1,0 +1,58 @@
+{
+ "id": "rainbow-robotics-rbm-s100a",
+ "name": "RBM-S100a",
+ "manufacturer": "Rainbow Robotics",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-17",
+   "type": "added",
+   "source": "https://rainbow-robotics.com/products/rbm-s100a/",
+   "commit": "b596d3e",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://rainbow-robotics.com/products/rbm-s100a/",
+   "commit": "0c54867",
+   "changes": [
+    {
+     "field": "kr_distributors",
+     "from": null,
+     "to": [
+      {
+       "name": "레인보우로보틱스 (본사·파트너사 직판)",
+       "kind": "direct",
+       "url": "https://rainbow-robotics.com/"
+      }
+     ]
+    },
+    {
+     "field": "kr_note",
+     "from": null,
+     "to": "국내 판매·데모·기술 상담은 본사와 전문 파트너사를 통해 진행합니다."
+    },
+    {
+     "field": "manufacturer_ko",
+     "from": null,
+     "to": "레인보우로보틱스"
+    },
+    {
+     "field": "sources",
+     "from": [
+      "https://rainbow-robotics.com/products/rbm-s100a/",
+      "https://github.com/rainbow-mobile",
+      "https://rainbow-mobile.github.io/doc-s100-ttk/"
+     ],
+     "to": [
+      "https://rainbow-robotics.com/products/rbm-s100a/",
+      "https://github.com/rainbow-mobile",
+      "https://rainbow-mobile.github.io/doc-s100-ttk/",
+      "https://rainbow-robotics.com/"
+     ]
+    }
+   ]
+  }
+ ]
+}

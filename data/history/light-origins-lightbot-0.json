@@ -1,0 +1,95 @@
+{
+ "id": "light-origins-lightbot-0",
+ "name": "LightBot-0",
+ "manufacturer": "Light Origins",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-17",
+   "type": "added",
+   "source": null,
+   "commit": "b596d3e",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://www.lightorigins.com/en/blog/lightparkour",
+   "commit": "5150daa",
+   "changes": [
+    {
+     "field": "compute_detail",
+     "from": null,
+     "to": "7-25 W edge module, 67 INT8 TOPS"
+    },
+    {
+     "field": "data_source",
+     "from": null,
+     "to": "Maker sources (verified 2026-11-17)"
+    },
+    {
+     "field": "dof",
+     "from": null,
+     "to": 21
+    },
+    {
+     "field": "height_mm",
+     "from": null,
+     "to": 900
+    },
+    {
+     "field": "note",
+     "from": null,
+     "to": "Light Origins describes Lightbot 0 as its custom 90 cm, 18.9 kg humanoid with 21 actuated joints (research paper and blog, checked 2026-11-17). No price, payload, speed or runtime is published and the products page still says the bipedal humanoid is coming, so this is a research prototype."
+    },
+    {
+     "field": "official_url",
+     "from": null,
+     "to": "https://www.lightorigins.com/en/blog/lightparkour"
+    },
+    {
+     "field": "onboard_compute",
+     "from": null,
+     "to": "NVIDIA Jetson Orin Nano"
+    },
+    {
+     "field": "sensors",
+     "from": [],
+     "to": [
+      "Chest-mounted Intel RealSense D435 depth camera",
+      "6-axis IMU (pelvis)",
+      "Joint encoders"
+     ]
+    },
+    {
+     "field": "sources",
+     "from": [],
+     "to": [
+      "https://www.lightorigins.com/en/blog/lightparkour",
+      "https://www.lightorigins.com/en/products"
+     ]
+    },
+    {
+     "field": "status",
+     "from": null,
+     "to": "Prototype"
+    },
+    {
+     "field": "summary",
+     "from": "",
+     "to": "Light Origins' custom 90 cm research humanoid, 18.9 kg with 21 actuated joints, used to demonstrate onboard perceptive parkour with a single policy."
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "official"
+    },
+    {
+     "field": "weight_kg",
+     "from": null,
+     "to": 18.9
+    }
+   ]
+  }
+ ]
+}

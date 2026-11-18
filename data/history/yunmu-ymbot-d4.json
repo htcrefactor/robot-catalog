@@ -1,0 +1,112 @@
+{
+ "id": "yunmu-ymbot-d4",
+ "name": "YMBot D4",
+ "manufacturer": "Yunmu Intelligent Manufacturing",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-17",
+   "type": "added",
+   "source": null,
+   "commit": "b596d3e",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://www.ymbot.com/product/detail/7",
+   "commit": "b1429ab",
+   "changes": [
+    {
+     "field": "api_support",
+     "from": null,
+     "to": true
+    },
+    {
+     "field": "battery_wh",
+     "from": null,
+     "to": 2880
+    },
+    {
+     "field": "dof",
+     "from": null,
+     "to": 27
+    },
+    {
+     "field": "height_mm",
+     "from": null,
+     "to": 1820
+    },
+    {
+     "field": "length_mm",
+     "from": null,
+     "to": 800
+    },
+    {
+     "field": "max_speed_mps",
+     "from": null,
+     "to": 1.5
+    },
+    {
+     "field": "notes",
+     "from": null,
+     "to": "Maker lists overall size as height 1820 mm with an 800 x 680 mm base and 27 DoF excluding end effectors. 60 kg is the dual-arm maximum (30 kg per arm), not a whole-robot rating. Battery 48 V 30 Ah x2; 2880 Wh is derived (V x Ah). ROS 2 protocol plus low-level joint/sensor and high-level motion interfaces."
+    },
+    {
+     "field": "official_url",
+     "from": null,
+     "to": "https://www.ymbot.com/product/detail/7"
+    },
+    {
+     "field": "payload_kg",
+     "from": null,
+     "to": 60
+    },
+    {
+     "field": "ros_support",
+     "from": null,
+     "to": true
+    },
+    {
+     "field": "runtime_h",
+     "from": null,
+     "to": 8
+    },
+    {
+     "field": "sensors",
+     "from": [],
+     "to": [
+      "Stereo camera",
+      "3D LiDAR",
+      "6-axis F/T sensor",
+      "RGB-D camera",
+      "Fisheye camera"
+     ]
+    },
+    {
+     "field": "sources",
+     "from": [],
+     "to": [
+      "https://www.ymbot.com/product/detail/7",
+      "https://www.worldrobotconference.com/profile/robot/download/2026/07/23/20260723170520000751_20260723170520A912.pdf"
+     ]
+    },
+    {
+     "field": "summary",
+     "from": "",
+     "to": "Heavy-payload industrial wheeled humanoid with a 60 kg dual-arm rating, an 800 mm lifting column and a four-wheel-steer omnidirectional base for palletizing and material transfer."
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "official"
+    },
+    {
+     "field": "width_mm",
+     "from": null,
+     "to": 680
+    }
+   ]
+  }
+ ]
+}

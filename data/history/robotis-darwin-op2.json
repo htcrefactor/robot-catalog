@@ -1,0 +1,121 @@
+{
+ "id": "robotis-darwin-op2",
+ "name": "ROBOTIS OP2 (DARwIn-OP2)",
+ "manufacturer": "ROBOTIS",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-17",
+   "type": "added",
+   "source": null,
+   "commit": "b596d3e",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://en.robotis.com/model/page.php?co_id=prd_op2",
+   "commit": "75b989d",
+   "changes": [
+    {
+     "field": "battery_wh",
+     "from": null,
+     "to": 20
+    },
+    {
+     "field": "country",
+     "from": null,
+     "to": "South Korea"
+    },
+    {
+     "field": "dof",
+     "from": null,
+     "to": 20
+    },
+    {
+     "field": "height_mm",
+     "from": null,
+     "to": 454.5
+    },
+    {
+     "field": "max_speed_mps",
+     "from": null,
+     "to": 0.24
+    },
+    {
+     "field": "note",
+     "from": null,
+     "to": "Maker product page: 20 actuator modules (6 DOF leg x 2, 3 DOF arm x 2, 2 DOF neck), DYNAMIXEL MX-28T, CM-740 sub-controller, Intel Atom N2600 1.6 GHz dual-core PC with 4 GB DDR3 and 32 GB mSATA, default walking speed 24.0 cm/s at 0.25 s per step, 1,800 mAh LiPo good for about 30 minutes (hot-swappable with external power attached), 1 Mbps DYNAMIXEL bus, 3-axis gyro and accelerometer, two microphones. Height 454.5 mm and weight 3.0 kg are the maker's spec figures (identical frame to DARwIn-OP). Battery energy 20 Wh is derived (11.1 V x 1,800 mAh). Line discontinued."
+    },
+    {
+     "field": "official_url",
+     "from": null,
+     "to": "https://en.robotis.com/model/page.php?co_id=prd_op2"
+    },
+    {
+     "field": "onboard_compute",
+     "from": null,
+     "to": "Intel Atom N2600 1.6 GHz dual core PC (4 GB DDR3, 32 GB mSATA)"
+    },
+    {
+     "field": "release_year",
+     "from": null,
+     "to": 2013
+    },
+    {
+     "field": "runtime_h",
+     "from": null,
+     "to": 0.5
+    },
+    {
+     "field": "sdk_available",
+     "from": null,
+     "to": true
+    },
+    {
+     "field": "sdk_name",
+     "from": null,
+     "to": "Open Platform: ROBOTIS Framework, source code, e-manual"
+    },
+    {
+     "field": "sensors",
+     "from": [],
+     "to": [
+      "Camera",
+      "3-axis gyro",
+      "3-axis accelerometer",
+      "2x detection microphone"
+     ]
+    },
+    {
+     "field": "sources",
+     "from": [],
+     "to": [
+      "https://en.robotis.com/model/page.php?co_id=prd_op2",
+      "https://emanual.robotis.com/docs/en/platform/op2/getting_started/"
+     ]
+    },
+    {
+     "field": "status",
+     "from": null,
+     "to": "Discontinued"
+    },
+    {
+     "field": "summary",
+     "from": "",
+     "to": "ROBOTIS OP2 (DARwIn-OP2) is the dual-core PC refresh of DARwIn-OP with the same 20-DOF body and MX-28T actuators, kept as a research and RoboCup teaching platform."
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "official"
+    },
+    {
+     "field": "weight_kg",
+     "from": null,
+     "to": 3.0
+    }
+   ]
+  }
+ ]
+}

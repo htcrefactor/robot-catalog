@@ -1,0 +1,46 @@
+{
+ "id": "boshiac-dexbot",
+ "name": "DexBot",
+ "manufacturer": "BOSHIAC",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-17",
+   "type": "added",
+   "source": null,
+   "commit": "b596d3e",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://www.boshi.cn/",
+   "commit": "4b395bc",
+   "changes": [
+    {
+     "field": "note",
+     "from": null,
+     "to": "No maker source found. BOSHIAC is Harbin Boshi Automation (boshi.cn, SZ 002698); its own site (checked 2026-11-17) presents industrial robots, smelting robots, palletizing, bagging and intelligent-logistics equipment and carries no humanoid or DexBot page, and en.boshi.cn refused the connection. The only DexBot material is aggregator and reseller write-ups (humanoid.guide marks its DoF and height as 'assumed'), so no spec, url or price is filled. Record kept as unconfirmed."
+    },
+    {
+     "field": "sources",
+     "from": [],
+     "to": [
+      "https://www.boshi.cn/",
+      "https://humanoid.guide/product/dexbot/"
+     ]
+    },
+    {
+     "field": "summary",
+     "from": "",
+     "to": "A humanoid platform that BOSHIAC (Harbin Boshi Automation) and Harbin Institute of Technology were credited with building for industrial manipulation; no maker material has been found for it."
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "unconfirmed"
+    }
+   ]
+  }
+ ]
+}

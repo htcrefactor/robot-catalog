@@ -1,0 +1,107 @@
+{
+ "id": "hightorque-mini-pi-plus",
+ "name": "Mini Pi Plus",
+ "manufacturer": "HighTorque Robotics",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-13",
+   "type": "added",
+   "source": "https://humanoidstore.co/robots/hightorque-mini-pi-plus",
+   "commit": "14cd746",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://www.hightorque.cn/pi-plus/",
+   "commit": "b310609",
+   "changes": [
+    {
+     "field": "battery_wh",
+     "from": null,
+     "to": 97.2
+    },
+    {
+     "field": "data_source",
+     "from": "HumanoidStore open data (CC BY 4.0)",
+     "to": null
+    },
+    {
+     "field": "notes",
+     "from": null,
+     "to": "Issue #17 (2026-11-17): Mini Pi Plus - 680 mm, 15.4 kg (Base) / 15.6 kg (Pro), 22 DoF, 1.1 m/s, 21.6 V 4500 mAh (97.2 Wh), 60 min, US$6,000 Base / US$8,000 Pro from HighTorque's store. [replaced battery_wh: None -> 97.2; price_note: list 6000 USD (maker), per HumanoidStore, checked 2026-10 -> Base US$6,000; Pro US$8,000]"
+    },
+    {
+     "field": "price_note",
+     "from": "list 6000 USD (maker), per HumanoidStore, checked 2026-10",
+     "to": "Base US$6,000; Pro US$8,000"
+    },
+    {
+     "field": "sources",
+     "from": [
+      "https://humanoidstore.co/robots/hightorque-mini-pi-plus"
+     ],
+     "to": [
+      "https://store.hightorque.cn/products/bipedal-robot-mini-pi-plus",
+      "https://www.hightorque.cn/pi-plus/"
+     ]
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "official"
+    },
+    {
+     "field": "note",
+     "from": null,
+     "to": "Maker page (hightorque.cn/pi-plus): standing height 680 mm, 15.15 kg with battery, 22 DoF, payload 10 kg, max joint torque 21 N.m, 24 V working voltage, modular open architecture, SDK, multi-channel CAN FD, jumping and gait walking. Maker store: Base 6,000 USD (RK3588, 15.4 kg) and Pro 8,000 USD (Jetson Orin NX + RealSense D435i, 15.6 kg), battery 21.6 V 4500 mAh (=97 Wh derived), 60 min operating time, 1.1 m/s, ROS 1 + SDK. Conflict: 24 V on the product page vs 21.6 V / 4500 mAh pack in the store spec. The 8,000 USD Pro price was not used for price_usd (Base configuration is recorded)."
+    },
+    {
+     "field": "official_url",
+     "from": null,
+     "to": "https://www.hightorque.cn/pi-plus/"
+    },
+    {
+     "field": "onboard_compute",
+     "from": null,
+     "to": "RK3588 (Base) / NVIDIA Jetson Orin NX (Pro)"
+    },
+    {
+     "field": "payload_kg",
+     "from": null,
+     "to": 10
+    },
+    {
+     "field": "ros_support",
+     "from": null,
+     "to": "ROS 1"
+    },
+    {
+     "field": "sdk_available",
+     "from": null,
+     "to": true
+    },
+    {
+     "field": "sdk_name",
+     "from": null,
+     "to": "HighTorque SDK"
+    },
+    {
+     "field": "sensors",
+     "from": [],
+     "to": [
+      "Intel RealSense D435i depth camera (Pro)",
+      "8-array microphone",
+      "Speaker"
+     ]
+    },
+    {
+     "field": "summary",
+     "from": "Compact humanoid from HighTorque Robotics; shipping now, anyone can order.",
+     "to": "HighTorque's 680 mm, 22-DoF research humanoid kit with self-designed servo joint modules, sold as Base (RK3588) and Pro (Jetson Orin NX) configurations."
+    }
+   ]
+  }
+ ]
+}

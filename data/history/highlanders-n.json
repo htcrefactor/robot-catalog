@@ -1,0 +1,66 @@
+{
+ "id": "highlanders-n",
+ "name": "N",
+ "manufacturer": "Highlanders",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-17",
+   "type": "added",
+   "source": null,
+   "commit": "b596d3e",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://www.highlanders.co.jp/",
+   "commit": "b310609",
+   "changes": [
+    {
+     "field": "note",
+     "from": null,
+     "to": "Maker press release (13 Oct 2026, CEATEC 2026 mass-production prototype): carrying capacity 8 kg per arm and 12 kg with both arms (payload field = 12 kg, bimanual), mechanics, electronics, embedded software and AI all developed in-house, shipments planned from 2027, mass-production partnership with Mitsubishi Motors signed 9 Jul 2026. No height, mass, DoF, battery or runtime in the maker release; the 1750 mm / 75 kg / 29 DoF / 48 V 22 Ah / about 2 h seen in trade press were not filled."
+    },
+    {
+     "field": "official_url",
+     "from": null,
+     "to": "https://www.highlanders.co.jp/"
+    },
+    {
+     "field": "payload_kg",
+     "from": null,
+     "to": 12
+    },
+    {
+     "field": "release_year",
+     "from": null,
+     "to": 2026
+    },
+    {
+     "field": "sources",
+     "from": [],
+     "to": [
+      "https://prtimes.jp/main/html/rd/p/000000010.000156831.html",
+      "https://www.highlanders.ai/news"
+     ]
+    },
+    {
+     "field": "status",
+     "from": null,
+     "to": "Prototype"
+    },
+    {
+     "field": "summary",
+     "from": "",
+     "to": "Highlanders' Japan-made full-size humanoid N, heading to mass production with Mitsubishi Motors for shipments from 2027."
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "official"
+    }
+   ]
+  }
+ ]
+}

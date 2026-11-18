@@ -1,0 +1,141 @@
+{
+ "id": "fourier-n1",
+ "name": "N1",
+ "manufacturer": "Fourier",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-13",
+   "type": "added",
+   "source": "https://humanoidstore.co/robots/fourier-n1",
+   "commit": "14cd746",
+   "changes": []
+  },
+  {
+   "date": "2026-11-14",
+   "type": "updated",
+   "source": "https://support-old.fftai.com/en/docs/GR-X-Humanoid-Robot/Fouriern1/N1_Introduction/",
+   "commit": "1aeec2d",
+   "changes": [
+    {
+     "field": "data_source",
+     "from": "HumanoidStore open data (CC BY 4.0)",
+     "to": "HumanoidStore + maker page"
+    },
+    {
+     "field": "official_url",
+     "from": null,
+     "to": "https://support-old.fftai.com/en/docs/GR-X-Humanoid-Robot/Fouriern1/N1_Introduction/"
+    },
+    {
+     "field": "sources",
+     "from": [
+      "https://humanoidstore.co/robots/fourier-n1"
+     ],
+     "to": [
+      "https://humanoidstore.co/robots/fourier-n1",
+      "https://support-old.fftai.com/en/docs/GR-X-Humanoid-Robot/Fouriern1/N1_Introduction/"
+     ]
+    }
+   ]
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://support-old.fftai.com/en/docs/GR-X-Humanoid-Robot/Fouriern1/N1_Introduction/",
+   "commit": "4b395bc",
+   "changes": [
+    {
+     "field": "image_source",
+     "from": null,
+     "to": "https://www.fftai.com/ecosystem/n1"
+    },
+    {
+     "field": "image_url",
+     "from": null,
+     "to": "https://www.fftai.com/images/n1/robot.png"
+    },
+    {
+     "field": "note",
+     "from": null,
+     "to": "Media (2026-11-17): product render images/n1/robot.png and the hero film videos/n1/banner-video.mp4 come from the official N1 page (fftai.com/ecosystem/n1)."
+    },
+    {
+     "field": "sources",
+     "from": [
+      "https://humanoidstore.co/robots/fourier-n1",
+      "https://support-old.fftai.com/en/docs/GR-X-Humanoid-Robot/Fouriern1/N1_Introduction/"
+     ],
+     "to": [
+      "https://humanoidstore.co/robots/fourier-n1",
+      "https://support-old.fftai.com/en/docs/GR-X-Humanoid-Robot/Fouriern1/N1_Introduction/",
+      "https://www.fftai.com/ecosystem/n1"
+     ]
+    },
+    {
+     "field": "videos",
+     "from": null,
+     "to": [
+      {
+       "url": "https://www.fftai.com/videos/n1/banner-video.mp4",
+       "title": "N1 — outdoor running test",
+       "channel": "Fourier"
+      }
+     ]
+    },
+    {
+     "field": "data_source",
+     "from": "HumanoidStore + maker page",
+     "to": null
+    },
+    {
+     "field": "notes",
+     "from": null,
+     "to": "Issue #17 (2026-11-17): N1 - 1.3 m, 38 kg from Fourier's N1 documentation. HumanoidStore's US$40,000 removed: Fourier publishes no price. [emptied (no maker value) price_usd=40000; price_note=list 40000 USD (maker), per HumanoidStore, checked 2026-10]"
+    },
+    {
+     "field": "price_note",
+     "from": "list 40000 USD (maker), per HumanoidStore, checked 2026-10",
+     "to": null
+    },
+    {
+     "field": "price_usd",
+     "from": 40000,
+     "to": null
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "official"
+    },
+    {
+     "field": "compute_detail",
+     "from": null,
+     "to": "8-core high-performance CPU"
+    },
+    {
+     "field": "onboard_compute",
+     "from": null,
+     "to": true
+    },
+    {
+     "field": "runtime_h",
+     "from": 2.0,
+     "to": null
+    },
+    {
+     "field": "sensors",
+     "from": [],
+     "to": [
+      "Head expansion port for a stereo camera"
+     ]
+    },
+    {
+     "field": "summary",
+     "from": "Mid-size humanoid from Fourier; shipping now, anyone can order.",
+     "to": "Fourier's 1.3 m Nexus-01 general-purpose biped, built for dynamic locomotion with a 3.5 m/s measured run and 20 cm stair climbing."
+    }
+   ]
+  }
+ ]
+}

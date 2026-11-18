@@ -1,0 +1,106 @@
+{
+ "id": "qiyuan-primebot-q1",
+ "name": "PrimeBOT Q1",
+ "manufacturer": "PrimeBOT (Qiyuan Robotics)",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-17",
+   "type": "added",
+   "source": null,
+   "commit": "b596d3e",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://www.primebot.com/q1.html",
+   "commit": "75b989d",
+   "changes": [
+    {
+     "field": "api_support",
+     "from": null,
+     "to": true
+    },
+    {
+     "field": "battery_wh",
+     "from": null,
+     "to": 200
+    },
+    {
+     "field": "country",
+     "from": null,
+     "to": "China"
+    },
+    {
+     "field": "dof",
+     "from": null,
+     "to": 22
+    },
+    {
+     "field": "height_mm",
+     "from": null,
+     "to": 880
+    },
+    {
+     "field": "locomotion",
+     "from": null,
+     "to": "Legged"
+    },
+    {
+     "field": "manufacturer",
+     "from": "PrimeBOT (Qiyuan)",
+     "to": "PrimeBOT (Qiyuan Robotics)"
+    },
+    {
+     "field": "note",
+     "from": null,
+     "to": "Maker page: 88 cm tall, ~16 kg with battery, 22 DOF (4 per arm x2, 6 per leg x2, 2 waist), battery 200 Wh with a 240 W charger, USB-A/USB-C/RJ45 and 12 V 5 A power ports, QDD quasi-direct-drive joints (260 g, 85 N.m/kg peak torque density), 6 character presets, long-term memory. Payload and speed are not published. SCOPE FLAG: consumer companion/education toy-grade personal robot sold as a '具身潮玩' with AI tutoring, sold in standard and Exploration editions."
+    },
+    {
+     "field": "official_url",
+     "from": null,
+     "to": "https://www.primebot.com/q1.html"
+    },
+    {
+     "field": "sdk_available",
+     "from": null,
+     "to": true
+    },
+    {
+     "field": "sdk_name",
+     "from": null,
+     "to": "PrimeBOT SDK / HDK + PrimeToolkit, ROS/ROS2 compatible"
+    },
+    {
+     "field": "sources",
+     "from": [],
+     "to": [
+      "https://www.primebot.com/q1.html",
+      "https://www.primebot.com/"
+     ]
+    },
+    {
+     "field": "status",
+     "from": null,
+     "to": "Commercial"
+    },
+    {
+     "field": "summary",
+     "from": "",
+     "to": "PrimeBOT's 88 cm bipedal personal robot for AI-education and companion use, with 22 DoF and an open SDK/HDK for building agents on a real body."
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "official"
+    },
+    {
+     "field": "weight_kg",
+     "from": null,
+     "to": 16
+    }
+   ]
+  }
+ ]
+}

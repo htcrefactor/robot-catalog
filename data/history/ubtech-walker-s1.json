@@ -1,0 +1,83 @@
+{
+ "id": "ubtech-walker-s1",
+ "name": "Walker S1",
+ "manufacturer": "UBTech Robotics",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-13",
+   "type": "added",
+   "source": "https://humanoidstore.co/robots/ubtech-walker-s1",
+   "commit": "14cd746",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://www.ubtrobot.com/en/humanoid/products/walker-s1",
+   "commit": "30bdc91",
+   "changes": [
+    {
+     "field": "data_source",
+     "from": "HumanoidStore open data (CC BY 4.0)",
+     "to": null
+    },
+    {
+     "field": "notes",
+     "from": null,
+     "to": "Issue #17 (2026-11-17): Walker S1 - 172 cm, 76 kg, 15 kg payload, 41 DoF and about 2 h are UBTECH's published figures. 0.83 m/s (3 km/h) is the walker speed UBTECH quotes for the S1 in its materials; UBTECH publishes no list price, so the HumanoidStore price was removed."
+    },
+    {
+     "field": "sources",
+     "from": [
+      "https://humanoidstore.co/robots/ubtech-walker-s1"
+     ],
+     "to": [
+      "https://www.ubtrobot.com/en/humanoid/products/walker-s1",
+      "https://www.ubtrobot.com/cn/humanoid/products/walker-s1"
+     ]
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "official"
+    },
+    {
+     "field": "dof",
+     "from": 41,
+     "to": null
+    },
+    {
+     "field": "max_speed_mps",
+     "from": 0.83,
+     "to": null
+    },
+    {
+     "field": "note",
+     "from": null,
+     "to": "UBTECH's product page carries its specification panel as an image, so no machine-readable table is available. The figures recorded here are the ones UBTECH stated for Walker S1 at its October 2024 launch and at the BYD plant: 172 cm, 76 kg, and 15 kg carried while walking. Total DoF (catalogues list 41), speed (catalogues list 0.83 m/s), battery, runtime and IP rating are not stated in the maker's own announcement and are left empty."
+    },
+    {
+     "field": "official_url",
+     "from": null,
+     "to": "https://www.ubtrobot.com/en/humanoid/products/walker-s1"
+    },
+    {
+     "field": "release_year",
+     "from": null,
+     "to": 2024
+    },
+    {
+     "field": "runtime_h",
+     "from": 2.0,
+     "to": null
+    },
+    {
+     "field": "summary",
+     "from": "Full-size humanoid from UBTech Robotics; b2b only, sold to businesses.",
+     "to": "Industrial bipedal humanoid from UBTECH for automotive assembly lines, working with autonomous logistics vehicles and AMRs under smart-manufacturing systems; first trained in BYD's Changsha plant."
+    }
+   ]
+  }
+ ]
+}

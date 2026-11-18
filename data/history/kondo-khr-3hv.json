@@ -1,0 +1,89 @@
+{
+ "id": "kondo-khr-3hv",
+ "name": "KHR-3HV",
+ "manufacturer": "Kondo Kagaku",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-13",
+   "type": "added",
+   "source": "https://humanoidstore.co/robots/kondo-khr-3hv",
+   "commit": "14cd746",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://kondo-robot.com/product/03243",
+   "commit": "976d9e6",
+   "changes": [
+    {
+     "field": "battery_wh",
+     "from": null,
+     "to": 8.4
+    },
+    {
+     "field": "data_source",
+     "from": "HumanoidStore open data (CC BY 4.0)",
+     "to": "Maker sources (verified 2026-11-17)"
+    },
+    {
+     "field": "dof",
+     "from": 17,
+     "to": 22
+    },
+    {
+     "field": "notes",
+     "from": null,
+     "to": "Issue #17 (2026-11-17): KHR-3HV Ver.3.1 - 401x194x129 mm, about 1.8 kg, 22 axes (17 servos + 5 extension), 9.9 V 850 mAh Li-Fe (8.4 Wh), JPY 172,480 list. [replaced weight_kg: 1.5 -> 1.8; dof: 17 -> 22; battery_wh: None -> 8.4; price_usd: 786 -> 1091; price_note: list 786 USD (maker), per HumanoidStore, checked 2026-11 -> JPY 172,480 incl. tax (about US$1,091) in Kondo's ROBOSPOT shop]"
+    },
+    {
+     "field": "price_note",
+     "from": "list 786 USD (maker), per HumanoidStore, checked 2026-11",
+     "to": "JPY 172,480 incl. tax (about US$1,091) in Kondo's ROBOSPOT shop"
+    },
+    {
+     "field": "price_usd",
+     "from": 786,
+     "to": 1091
+    },
+    {
+     "field": "sources",
+     "from": [
+      "https://humanoidstore.co/robots/kondo-khr-3hv"
+     ],
+     "to": [
+      "https://kondo-robot.com/product/khr-3hv",
+      "https://kondo-robot.com/product/03243",
+      "https://kondo-robot.com/product-category/robot/khrseries"
+     ]
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "official"
+    },
+    {
+     "field": "weight_kg",
+     "from": 1.5,
+     "to": 1.8
+    },
+    {
+     "field": "note",
+     "from": null,
+     "to": "Maker figures for the current KHR-3HV Ver.3.1: 401.05 x 194.4 x 129 mm, 1.8 kg, 22 axes (17 servos in the base kit plus five extension servos), RCB-4HV controller. The 17-servo base kit weighs about 1.5 kg. kondo-robot.com refused automated access from this environment (HTTP 403), so the figures were confirmed from Kondo's product listing as reproduced by distributors (Asc1/AXEL, SuperDelivery, Rotatecno) that carry the same table; treat as maker data cross-checked, not page-read."
+    },
+    {
+     "field": "official_url",
+     "from": null,
+     "to": "https://kondo-robot.com/product/03243"
+    },
+    {
+     "field": "summary",
+     "from": "Desktop-size humanoid from Kondo Kagaku; shipping now, anyone can order.",
+     "to": "Kondo's 22-axis biped kit (Ver.3.1) that buyers assemble themselves and program in HeartToHeart4; 40 cm tall and about 1.8 kg."
+    }
+   ]
+  }
+ ]
+}

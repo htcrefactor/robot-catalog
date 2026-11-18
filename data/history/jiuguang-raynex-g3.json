@@ -1,0 +1,33 @@
+{
+ "id": "jiuguang-raynex-g3",
+ "name": "RayNex G3 (Xiaorui G3)",
+ "manufacturer": "NineRay Technology (Jiuguang)",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-17",
+   "type": "added",
+   "source": "https://www.nineraygroup.com/en/humanoid.html",
+   "commit": "b596d3e",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://www.nineraygroup.com/en/humanoid.html",
+   "commit": "48ef25e",
+   "changes": [
+    {
+     "field": "manufacturer",
+     "from": "Ninray (Jiuguang)",
+     "to": "NineRay Technology (Jiuguang)"
+    },
+    {
+     "field": "note",
+     "from": "Rename: maker brands itself NineRay (九光/Jiuguang), HQ Hong Kong. Unveiled Aug 17, 2026; sales from Sept 2026. Payload is 30 kg dual-hand operation (100 kg deadlift, 60 kg dual-arm hold). ~US$200k price is press-reported only, left out.",
+     "to": "Maker brands itself NineRay (NineRay Technology, 九光/Jiuguang; earlier recorded as 'Ninray'), HQ Hong Kong. Unveiled Aug 17, 2026; sales from Sept 2026. Payload is 30 kg dual-hand operation (100 kg deadlift, 60 kg dual-arm hold). ~US$200k price is press-reported only, left out."
+    }
+   ]
+  }
+ ]
+}

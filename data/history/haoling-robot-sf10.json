@@ -1,0 +1,55 @@
+{
+ "id": "haoling-robot-sf10",
+ "name": "SF10",
+ "manufacturer": "Haoling Robot",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-17",
+   "type": "added",
+   "source": null,
+   "commit": "b596d3e",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://www.haosen-global.com/",
+   "commit": "b310609",
+   "changes": [
+    {
+     "field": "note",
+     "from": null,
+     "to": "Maker press release (Haosen + subsidiary Shenzhen Haoling, 18 Aug 2026): Haoling Suizhi SF10 wheeled humanoid positioned as an 'industrial embodied intelligence assembly master', validated on customer production lines and certified by the National Robot Test and Assessment Center (Guangzhou). The release publishes no height, mass, DoF, payload, runtime, battery or price, so all spec fields stay empty."
+    },
+    {
+     "field": "official_url",
+     "from": null,
+     "to": "https://www.haosen-global.com/"
+    },
+    {
+     "field": "release_year",
+     "from": null,
+     "to": 2026
+    },
+    {
+     "field": "sources",
+     "from": [],
+     "to": [
+      "https://www.haosen-global.com/info-detail/scenarios-define-embodiment,-intelligence-reshapes-production-lines%E2%80%94haosenhaoling-launches-a-new-era-of-industrial-intelligence-with-dual-engines"
+     ]
+    },
+    {
+     "field": "summary",
+     "from": "",
+     "to": "Shenzhen Haoling's wheeled industrial humanoid for unstructured assembly work, launched with Haosen in August 2026 and certified by China's National Robot Test and Assessment Center (Guangzhou)."
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "official"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,81 @@
+{
+ "id": "boston-dynamics-bigdog",
+ "name": "BigDog",
+ "manufacturer": "Boston Dynamics",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-17",
+   "type": "added",
+   "source": null,
+   "commit": "b596d3e",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://bostondynamics.com/legacy/",
+   "commit": "1173def",
+   "changes": [
+    {
+     "field": "height_mm",
+     "from": null,
+     "to": 1000
+    },
+    {
+     "field": "length_mm",
+     "from": null,
+     "to": 1100
+    },
+    {
+     "field": "max_speed_mps",
+     "from": null,
+     "to": 3.1
+    },
+    {
+     "field": "note",
+     "from": null,
+     "to": "The maker's legacy page describes BigDog without figures, so the numbers come from the Boston Dynamics team's own IFAC 2008 paper 'BigDog, the Rough-Terrain Quadruped Robot' (Raibert, Blankespoor, Nelson, Playter): ~109 kg, ~1 m tall, 1.1 m long, 0.3 m wide, 154 kg (340 lb) carried on flat ground, trot ~1.6 m/s, running trot ~2.0 m/s and briefly over 3.1 m/s while bounding (3.1 recorded as max speed), 4 hydraulic actuators per leg, ~50 sensors, water-cooled two-stroke engine."
+    },
+    {
+     "field": "official_url",
+     "from": null,
+     "to": "https://bostondynamics.com/legacy/"
+    },
+    {
+     "field": "payload_kg",
+     "from": null,
+     "to": 154
+    },
+    {
+     "field": "sources",
+     "from": [],
+     "to": [
+      "https://bostondynamics.com/legacy/",
+      "https://skoge.folk.ntnu.no/prost/proceedings/ifac2008/data/papers/4278.pdf"
+     ]
+    },
+    {
+     "field": "summary",
+     "from": "",
+     "to": "Boston Dynamics' first legged robot to leave the lab: a hydraulic rough-terrain carrier funded by DARPA."
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "official"
+    },
+    {
+     "field": "weight_kg",
+     "from": null,
+     "to": 109
+    },
+    {
+     "field": "width_mm",
+     "from": null,
+     "to": 300
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,111 @@
+{
+ "id": "pollen-reachy-2",
+ "name": "Reachy 2",
+ "manufacturer": "Pollen Robotics",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-13",
+   "type": "added",
+   "source": "https://humanoidstore.co/robots/pollen-reachy-2",
+   "commit": "14cd746",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://www.pollen-robotics.com/reachy/",
+   "commit": "976d9e6",
+   "changes": [
+    {
+     "field": "data_source",
+     "from": "HumanoidStore open data (CC BY 4.0)",
+     "to": "Maker sources (verified 2026-11-17)"
+    },
+    {
+     "field": "dof",
+     "from": 17,
+     "to": null
+    },
+    {
+     "field": "max_speed_mps",
+     "from": 1.86,
+     "to": null
+    },
+    {
+     "field": "notes",
+     "from": null,
+     "to": "Issue #17 (2026-11-17): Reachy 2 - adjustable 136-166 cm (166 taken), 50 kg with mobile base, 3 kg per 7-DoF arm. Pollen publishes no total DoF, base speed or runtime, so those fields were emptied. [emptied (no maker value) dof=17; max_speed_mps=1.86; runtime_h=8.0; price_usd=70000; price_note=list 70000 EUR (maker), per HumanoidStore, checked 2026-10]"
+    },
+    {
+     "field": "price_note",
+     "from": "list 70000 EUR (maker), per HumanoidStore, checked 2026-10",
+     "to": "Pollen sells through sales quotes and publishes no price; about 70,000 USD was reported at the 2025 Hugging Face acquisition"
+    },
+    {
+     "field": "price_usd",
+     "from": 70000,
+     "to": null
+    },
+    {
+     "field": "runtime_h",
+     "from": 8.0,
+     "to": null
+    },
+    {
+     "field": "sources",
+     "from": [
+      "https://humanoidstore.co/robots/pollen-reachy-2"
+     ],
+     "to": [
+      "https://pollen-robotics.com/reachy-2/",
+      "https://pollen-robotics.com/assets/reachy2/datasheets/reachy2-dual-arm-mobile-base.pdf",
+      "https://www.pollen-robotics.com/reachy/",
+      "https://docs.pollen-robotics.com/hardware-guide/specifications/general/"
+     ]
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "official"
+    },
+    {
+     "field": "battery_wh",
+     "from": null,
+     "to": 840.0
+    },
+    {
+     "field": "compute_detail",
+     "from": null,
+     "to": "Onboard CPU running the Reachy stack; EtherCAT low-level loop at 500 Hz; ROS 2 Humble with a Python SDK"
+    },
+    {
+     "field": "note",
+     "from": null,
+     "to": "Pollen's datasheet and docs (checked 2026-11-17): height adjustable 136-166 cm (recorded at the top), about 50 kg, 7-DoF arms with about 3 kg payload per arm, 3-DoF neck, so 17 DoF for arms plus neck, three omniwheels with LiDAR, LiFePO4 pack at 24 V 35 Ah (840 Wh computed as V x Ah), ROS 2 Humble and a Python SDK. Top speed and runtime per charge are not published."
+    },
+    {
+     "field": "official_url",
+     "from": null,
+     "to": "https://www.pollen-robotics.com/reachy/"
+    },
+    {
+     "field": "sensors",
+     "from": [],
+     "to": [
+      "2x IMX296 global-shutter RGB cameras",
+      "Luxonis OAK-FFC ToF depth sensor",
+      "Orbbec Gemini 336 RGB-D torso camera",
+      "RPLIDAR S2",
+      "Hall sensors and IMU on each wheel"
+     ]
+    },
+    {
+     "field": "summary",
+     "from": "Wheeled (bimanual torso on a wheeled base) humanoid from Pollen Robotics; shipping now, anyone can order.",
+     "to": "Pollen's open-source bimanual humanoid for embodied AI: 7-DoF arms and a 3-DoF neck on an omnidirectional base, 3 kg per arm, ROS 2 and a Python SDK, height adjustable 136-166 cm."
+    }
+   ]
+  }
+ ]
+}

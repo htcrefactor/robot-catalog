@@ -1,0 +1,86 @@
+{
+ "id": "sigrobotics-lekiwi",
+ "name": "LeKiwi",
+ "manufacturer": "SIGRobotics (University of Illinois Urbana-Champaign)",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-17",
+   "type": "added",
+   "source": "https://github.com/SIGRobotics-UIUC/LeKiwi",
+   "commit": "ebcdc70",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://github.com/SIGRobotics-UIUC/LeKiwi",
+   "commit": "ae60ceb",
+   "changes": [
+    {
+     "field": "open_source_repos",
+     "from": null,
+     "to": [
+      {
+       "name": "lerobot",
+       "url": "https://github.com/huggingface/lerobot",
+       "license": "Apache-2.0"
+      },
+      {
+       "name": "LeKiwi",
+       "url": "https://github.com/SIGRobotics-UIUC/LeKiwi",
+       "license": "Apache-2.0"
+      }
+     ]
+    },
+    {
+     "field": "sdk",
+     "from": null,
+     "to": {
+      "languages": [
+       "Python"
+      ],
+      "open_source": true,
+      "license": "Apache-2.0",
+      "url": "https://github.com/huggingface/lerobot"
+     }
+    },
+    {
+     "field": "sim_models",
+     "from": null,
+     "to": {
+      "urdf": {
+       "url": "https://github.com/SIGRobotics-UIUC/LeKiwi/blob/main/URDF/LeKiwi.urdf",
+       "license": "Apache-2.0"
+      }
+     }
+    },
+    {
+     "field": "sources",
+     "from": [
+      "https://github.com/SIGRobotics-UIUC/LeKiwi",
+      "https://github.com/SIGRobotics-UIUC/LeKiwi/blob/main/BOM.md",
+      "https://huggingface.co/docs/lerobot/en/lekiwi"
+     ],
+     "to": [
+      "https://github.com/SIGRobotics-UIUC/LeKiwi",
+      "https://github.com/SIGRobotics-UIUC/LeKiwi/blob/main/BOM.md",
+      "https://huggingface.co/docs/lerobot/en/lekiwi",
+      "https://github.com/huggingface/lerobot",
+      "https://github.com/SIGRobotics-UIUC/LeKiwi/blob/main/URDF/LeKiwi.urdf"
+     ]
+    },
+    {
+     "field": "compute_soc",
+     "from": null,
+     "to": "Raspberry Pi"
+    },
+    {
+     "field": "compute_source",
+     "from": null,
+     "to": "https://github.com/SIGRobotics-UIUC/LeKiwi"
+    }
+   ]
+  }
+ ]
+}

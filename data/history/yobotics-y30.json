@@ -1,0 +1,90 @@
+{
+ "id": "yobotics-y30",
+ "name": "Y30",
+ "manufacturer": "Shandong Youbaote Intelligent Robot (Yobotics)",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-17",
+   "type": "added",
+   "source": null,
+   "commit": "b596d3e",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://www.yobotics.cn/cpzx/szjqrxl/",
+   "commit": "fa098f7",
+   "changes": [
+    {
+     "field": "height_mm",
+     "from": null,
+     "to": 610
+    },
+    {
+     "field": "ip_rating",
+     "from": null,
+     "to": "IP54"
+    },
+    {
+     "field": "length_mm",
+     "from": null,
+     "to": 1100
+    },
+    {
+     "field": "max_speed_mps",
+     "from": null,
+     "to": 4
+    },
+    {
+     "field": "note",
+     "from": null,
+     "to": "Yobotics quadruped page (checked 2026-11-17), Y30 table: standing about 1100 x 475 x 610 mm, folded 930 x 450 x 370 mm, about 60 kg with battery, battery 25 Ah (Wh not stated), >5 h continuous walking without load and >2.5 h with a working load, standing load up to 150 kg and walking load up to 80 kg (80 kg recorded), max 4 m/s, IP54, 40 degree stairs and 40 degree slopes, 30 cm step height, -25 to +50 C, Intel Atom x5-Z8350 controller; 3D LiDAR and depth camera optional. DoF is not stated on the page."
+    },
+    {
+     "field": "official_url",
+     "from": null,
+     "to": "https://www.yobotics.cn/cpzx/szjqrxl/"
+    },
+    {
+     "field": "payload_kg",
+     "from": null,
+     "to": 80
+    },
+    {
+     "field": "runtime_h",
+     "from": null,
+     "to": 5
+    },
+    {
+     "field": "sources",
+     "from": [],
+     "to": [
+      "https://www.yobotics.cn/cpzx/szjqrxl/"
+     ]
+    },
+    {
+     "field": "summary",
+     "from": "",
+     "to": "Yobotics' all-terrain outdoor flagship quadruped for inspection, load carrying and work in hazardous environments."
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "official"
+    },
+    {
+     "field": "weight_kg",
+     "from": null,
+     "to": 60
+    },
+    {
+     "field": "width_mm",
+     "from": null,
+     "to": 475
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,86 @@
+{
+ "id": "astribot-t1",
+ "name": "T1",
+ "manufacturer": "Astribot",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-13",
+   "type": "added",
+   "source": "https://humanoidstore.co/robots/astribot-t1",
+   "commit": "14cd746",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://www.astribot.com/en",
+   "commit": "0be5d4c",
+   "changes": [
+    {
+     "field": "note",
+     "from": null,
+     "to": "Media (2026-11-17): the T1 still cannot be hotlinked — astribot.com serves its product images from Aliyun OSS with short-lived signed URLs, and the stable poster path is 404. The banner film above is served from the site's own /index/t1banner/ path. Astribot has no dedicated T1 product page yet; T1 is presented on the home page."
+    },
+    {
+     "field": "official_url",
+     "from": null,
+     "to": "https://www.astribot.com/en"
+    },
+    {
+     "field": "sources",
+     "from": [
+      "https://humanoidstore.co/robots/astribot-t1"
+     ],
+     "to": [
+      "https://humanoidstore.co/robots/astribot-t1",
+      "https://www.astribot.com/en",
+      "https://english.news.cn/20260528/75e55832dd9245b9ae69a6d60a5f532b/c.html",
+      "https://www.astribot.com/product"
+     ]
+    },
+    {
+     "field": "videos",
+     "from": null,
+     "to": [
+      {
+       "url": "https://www.astribot.com/index/t1banner/banner.mp4",
+       "title": "Astribot T1 — official banner film",
+       "channel": "Astribot"
+      }
+     ]
+    },
+    {
+     "field": "data_source",
+     "from": "HumanoidStore open data (CC BY 4.0)",
+     "to": null
+    },
+    {
+     "field": "max_speed_mps",
+     "from": 1.4,
+     "to": 1.39
+    },
+    {
+     "field": "notes",
+     "from": null,
+     "to": "Issue #17 (2026-11-17): T1 - 1.55 m, about 66 kg, 23 DoF excluding end effectors (16 in the hands), 5 kg per arm, up to 5 km/h (1.39 m/s), 4-6 h, from Astribot's May 2026 launch. HumanoidStore's US$13,500 replaced by the announced from-about-US$14,000. [replaced max_speed_mps: 1.4 -> 1.39; price_usd: 13500 -> 14000; price_note: list 13500 USD (maker), per HumanoidStore, checked 2026-10 -> from about US$14,000 at launch (May 2026)]"
+    },
+    {
+     "field": "price_note",
+     "from": "list 13500 USD (maker), per HumanoidStore, checked 2026-10",
+     "to": "from about US$14,000 at launch (May 2026)"
+    },
+    {
+     "field": "price_usd",
+     "from": 13500,
+     "to": 14000
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "official"
+    }
+   ]
+  }
+ ]
+}

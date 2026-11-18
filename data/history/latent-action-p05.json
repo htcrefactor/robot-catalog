@@ -1,0 +1,119 @@
+{
+ "id": "latent-action-p05",
+ "name": "P05",
+ "manufacturer": "Latent-Action",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-17",
+   "type": "added",
+   "source": null,
+   "commit": "b596d3e",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://latent-action.com/en/",
+   "commit": "1173def",
+   "changes": [
+    {
+     "field": "battery_wh",
+     "from": null,
+     "to": 280.8
+    },
+    {
+     "field": "compute_detail",
+     "from": null,
+     "to": "High-performance 8-core CPU"
+    },
+    {
+     "field": "dof",
+     "from": null,
+     "to": 12
+    },
+    {
+     "field": "height_mm",
+     "from": null,
+     "to": 450
+    },
+    {
+     "field": "ip_rating",
+     "from": null,
+     "to": "IP32"
+    },
+    {
+     "field": "length_mm",
+     "from": null,
+     "to": 700
+    },
+    {
+     "field": "max_speed_mps",
+     "from": null,
+     "to": 3
+    },
+    {
+     "field": "note",
+     "from": null,
+     "to": "Maker specification sheet (P05 Series, latent-action.com CDN): standing 700 x 400 x 450 mm (prone 750 x 420 x 180), weight <=16 kg with battery, rated payload 5 kg (max 8 kg), speed >=3 m/s, 1.5 h / 6 km, 20 cm continuous stair step, 30 deg typical / 40 deg max slope, 70 cm max step, 12 joint modules at 48 Nm, IP32, 0 to 40 C, quick-release 46.8 V 6 Ah battery (280.8 Wh), Wi-Fi 6, Bluetooth 5.3, 8-core CPU, Ethernet/USB and 48 V 8 A power out. Public debut at the 2026 World Robot Conference."
+    },
+    {
+     "field": "official_url",
+     "from": null,
+     "to": "https://latent-action.com/en/"
+    },
+    {
+     "field": "onboard_compute",
+     "from": null,
+     "to": true
+    },
+    {
+     "field": "payload_kg",
+     "from": null,
+     "to": 5
+    },
+    {
+     "field": "runtime_h",
+     "from": null,
+     "to": 1.5
+    },
+    {
+     "field": "sensors",
+     "from": [],
+     "to": [
+      "Camera (standard)",
+      "IMU (standard)"
+     ]
+    },
+    {
+     "field": "sources",
+     "from": [],
+     "to": [
+      "https://cdn.latent-action.com/uploads/20260915/7ca654a55e6d466752912782de861a1d.pptx",
+      "https://latent-action.com/en/news/60.html"
+     ]
+    },
+    {
+     "field": "summary",
+     "from": "",
+     "to": "Lightweight companion quadruped from Hangzhou's Latent-Action, positioned for education, consumer use and light inspection."
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "official"
+    },
+    {
+     "field": "weight_kg",
+     "from": null,
+     "to": 16
+    },
+    {
+     "field": "width_mm",
+     "from": null,
+     "to": 400
+    }
+   ]
+  }
+ ]
+}

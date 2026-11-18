@@ -1,0 +1,55 @@
+{
+ "id": "boston-dynamics-ls3",
+ "name": "LS3 (Legged Squad Support System)",
+ "manufacturer": "Boston Dynamics",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-17",
+   "type": "added",
+   "source": null,
+   "commit": "b596d3e",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://bostondynamics.com/legacy/",
+   "commit": "1173def",
+   "changes": [
+    {
+     "field": "note",
+     "from": null,
+     "to": "Maker legacy page: 400 lbs (181 kg) of payload, 20 miles (32 km) before refuelling, sensors for navigating obstacles. Mass, dimensions and top speed are not published by the maker, so those fields are left empty."
+    },
+    {
+     "field": "official_url",
+     "from": null,
+     "to": "https://bostondynamics.com/legacy/"
+    },
+    {
+     "field": "payload_kg",
+     "from": null,
+     "to": 181
+    },
+    {
+     "field": "sources",
+     "from": [],
+     "to": [
+      "https://bostondynamics.com/legacy/"
+     ]
+    },
+    {
+     "field": "summary",
+     "from": "",
+     "to": "Boston Dynamics' Legged Squad Support System: a rough-terrain hydraulic quadruped built to carry a squad's equipment for a day's march."
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "official"
+    }
+   ]
+  }
+ ]
+}

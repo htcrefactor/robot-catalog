@@ -1,0 +1,43 @@
+{
+ "id": "pudu-d5",
+ "name": "D5",
+ "manufacturer": "Pudu Robotics",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-17",
+   "type": "added",
+   "source": "https://www.pudurobotics.com/en/products/d5",
+   "commit": "b596d3e",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://www.pudurobotics.com/en/products/d5",
+   "commit": "ae60ceb",
+   "changes": [
+    {
+     "field": "compute_memory_gb",
+     "from": null,
+     "to": 64
+    },
+    {
+     "field": "compute_soc",
+     "from": null,
+     "to": "NVIDIA Jetson AGX Orin 64GB + Rockchip RK3588"
+    },
+    {
+     "field": "compute_source",
+     "from": null,
+     "to": "https://www.pudurobotics.com/en/products/d5"
+    },
+    {
+     "field": "compute_tops",
+     "from": null,
+     "to": 275
+    }
+   ]
+  }
+ ]
+}

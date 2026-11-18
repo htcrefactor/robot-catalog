@@ -1,0 +1,33 @@
+{
+ "id": "general-autonomy-atom",
+ "name": "Taara",
+ "manufacturer": "General Autonomy",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-17",
+   "type": "added",
+   "source": "https://ga.tech/",
+   "commit": "b596d3e",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://ga.tech/",
+   "commit": "48ef25e",
+   "changes": [
+    {
+     "field": "name",
+     "from": "Atom",
+     "to": "Taara"
+    },
+    {
+     "field": "note",
+     "from": "Official site ga.tech now names the humanoid 'Taara' (video files still named 'atom-*'); likely renamed from Atom. HQ country not stated on official site (press says Bengaluru, India).",
+     "to": "Renamed: ga.tech now publishes its humanoid only as 'Taara' (1.43 m, 60 kg, 23 DoF, 10 kg payload); earlier pages and the site's video files still carry 'Atom'. Id kept for link stability. HQ country is not stated on the maker site (press reports Bengaluru, India)."
+    }
+   ]
+  }
+ ]
+}

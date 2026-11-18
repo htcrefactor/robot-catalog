@@ -1,0 +1,61 @@
+{
+ "id": "yunmu-ymbot-c2",
+ "name": "YMBot C2",
+ "manufacturer": "Yunmu Intelligent Manufacturing",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-17",
+   "type": "added",
+   "source": null,
+   "commit": "b596d3e",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://www.ymbot.com/",
+   "commit": "30bdc91",
+   "changes": [
+    {
+     "field": "note",
+     "from": null,
+     "to": "The maker's exhibit entry for YMBot C2 describes bionic bipedal walking, dual 6-DoF arms, bionic skin, dexterous hands, fine expression actuation and multimodal LLM voice interaction; it publishes no height, weight, DoF, payload, speed, runtime or price, so those fields are empty."
+    },
+    {
+     "field": "official_url",
+     "from": null,
+     "to": "https://www.ymbot.com/"
+    },
+    {
+     "field": "release_year",
+     "from": null,
+     "to": 2026
+    },
+    {
+     "field": "sources",
+     "from": [],
+     "to": [
+      "https://www.ymbot.com/",
+      "https://www.worldrobotconference.com/expo/product/63.html"
+     ]
+    },
+    {
+     "field": "status",
+     "from": null,
+     "to": "Announced"
+    },
+    {
+     "field": "summary",
+     "from": "",
+     "to": "Yunmu Intelligent Manufacturing's YMBot C2: a bionic-skin bipedal humanoid with two 6-DoF arms, dexterous hands and expression actuation for cultural-tourism and exhibition guidance."
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "official"
+    }
+   ]
+  }
+ ]
+}

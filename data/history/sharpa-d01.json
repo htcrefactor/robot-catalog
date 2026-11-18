@@ -1,0 +1,121 @@
+{
+ "id": "sharpa-d01",
+ "name": "D01",
+ "manufacturer": "Sharpa",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-17",
+   "type": "added",
+   "source": null,
+   "commit": "b596d3e",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://www.sharpa.com/pages/d01",
+   "commit": "75b989d",
+   "changes": [
+    {
+     "field": "country",
+     "from": null,
+     "to": "Singapore"
+    },
+    {
+     "field": "dof",
+     "from": null,
+     "to": 66
+    },
+    {
+     "field": "height_mm",
+     "from": null,
+     "to": 1624
+    },
+    {
+     "field": "length_mm",
+     "from": null,
+     "to": 594
+    },
+    {
+     "field": "note",
+     "from": null,
+     "to": "Maker spec sheet: height 1,109-1,624 mm depending on folding (1,624 mm standing entered here), 495 mm wide x 594 mm long, about 40 kg WITHOUT the chassis, 66 DOF with hands (head 3, arms 7 x 2, Wave hands 22 x 2, torso 5 - no leg or wheel DOF appear in the total), dual-arm span 1,900 mm, rated 5 kg payload per arm, end-effector speed >10.5 m/s, +/-0.2 mm repeatability, up to 1,000 Hz control, 1000BASE-T Ethernet and Wi-Fi 6, Jetson Thor with 128 GB LPDDR5X, head stereo camera and wrist fisheye cameras, body tactile E-skin. Announced at IROS 2026 (2026-09-28, PR Newswire). Locomotion left empty because the maker lists no leg or drive DOF for D01 and its weight is quoted without a chassis; battery, runtime and price are not published."
+    },
+    {
+     "field": "official_url",
+     "from": null,
+     "to": "https://www.sharpa.com/pages/d01"
+    },
+    {
+     "field": "onboard_compute",
+     "from": null,
+     "to": "NVIDIA Jetson Thor (128 GB LPDDR5X)"
+    },
+    {
+     "field": "payload_kg",
+     "from": null,
+     "to": 5
+    },
+    {
+     "field": "release_year",
+     "from": null,
+     "to": 2026
+    },
+    {
+     "field": "sdk_available",
+     "from": null,
+     "to": true
+    },
+    {
+     "field": "sdk_name",
+     "from": null,
+     "to": "Native teleoperation system; 1000 Hz control"
+    },
+    {
+     "field": "sensors",
+     "from": [],
+     "to": [
+      "Head stereo camera (3.7 MP, 60 Hz)",
+      "2x wrist fisheye cameras (3 MP, 200-degree FoV)",
+      "Whole-body tactile E-skin (0.1-20 N per taxel, 0.2 N resolution, 10 mm spatial resolution, 100 Hz)"
+     ]
+    },
+    {
+     "field": "sources",
+     "from": [],
+     "to": [
+      "https://www.sharpa.com/pages/d01",
+      "https://www.sharpa.com/",
+      "https://www.prnewswire.com/news-releases/sharpa-unveils-three-flagship-products-d01-robot-w02-dexterous-hand-and-ae01-data-glove-at-iros-2026-302892129.html"
+     ]
+    },
+    {
+     "field": "status",
+     "from": null,
+     "to": "Announced"
+    },
+    {
+     "field": "summary",
+     "from": "",
+     "to": "Sharpa's D01 dexterous upper-body humanoid: 66 DOF with Wave hands, 7-DOF arms and whole-body tactile E-skin, built for manipulation research and teleoperation data collection."
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "official"
+    },
+    {
+     "field": "weight_kg",
+     "from": null,
+     "to": 40
+    },
+    {
+     "field": "width_mm",
+     "from": null,
+     "to": 495
+    }
+   ]
+  }
+ ]
+}

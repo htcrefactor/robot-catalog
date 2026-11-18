@@ -1,0 +1,88 @@
+{
+ "id": "enchanted-tools-mirokai",
+ "name": "Mirokaï",
+ "manufacturer": "Enchanted Tools",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-13",
+   "type": "added",
+   "source": "https://humanoidstore.co/robots/enchanted-tools-mirokai",
+   "commit": "14cd746",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://enchanted.tools/",
+   "commit": "4b395bc",
+   "changes": [
+    {
+     "field": "data_source",
+     "from": "HumanoidStore open data (CC BY 4.0)",
+     "to": null
+    },
+    {
+     "field": "max_speed_mps",
+     "from": 0.9,
+     "to": 0.889
+    },
+    {
+     "field": "notes",
+     "from": null,
+     "to": "Issue #17 (2026-11-17): Mirokaï - 123 cm, 29 kg, 26 DoF (neck 3, arms 4x2, wrists 3x2, hands 2x2, ears 1x2, base 3), 3.2 km/h (0.889 m/s) among people, 4 h, per Enchanted Tools' published figures (reproduced in the GO Robotics brochure, Sept 2026; enchanted.tools itself has no spec table). [replaced weight_kg: 32 -> 29; max_speed_mps: 0.9 -> 0.889; runtime_h: 3.0 -> 4.0] HumanoidStore price (US$56125) removed: no maker list price confirmed."
+    },
+    {
+     "field": "price_note",
+     "from": "list 50000 EUR (maker), per HumanoidStore, checked 2026-10",
+     "to": null
+    },
+    {
+     "field": "price_usd",
+     "from": 56125,
+     "to": null
+    },
+    {
+     "field": "runtime_h",
+     "from": 3.0,
+     "to": 4.0
+    },
+    {
+     "field": "sources",
+     "from": [
+      "https://humanoidstore.co/robots/enchanted-tools-mirokai"
+     ],
+     "to": [
+      "https://enchanted.tools/",
+      "https://enchanted.tools/buy-mirokai"
+     ]
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "official"
+    },
+    {
+     "field": "weight_kg",
+     "from": 32,
+     "to": 29
+    },
+    {
+     "field": "note",
+     "from": null,
+     "to": "Enchanted Tools' current site (checked 2026-11-17) confirms the Mirokaï as a commercially deployed social robot for hospitals, nursing homes, retail, hotels and airports, but publishes no numeric specification table on its pages (the site is a Nuxt app and its robot pages carry prose only). The numeric fields in this record therefore could not be re-confirmed against a maker source: their values (123 cm, 32 kg, 26 DoF, ~0.9 m/s, 1.5 kg per arm, 3-4 h, two NVIDIA Jetson NX, ~EUR 50k) come from the maker's earlier spec sheet as reproduced by RobotsGuide and partner catalogues. Left marked unconfirmed rather than restated as maker data. The maker's order page sells first commercial deployments with local partners."
+    },
+    {
+     "field": "official_url",
+     "from": null,
+     "to": "https://enchanted.tools/"
+    },
+    {
+     "field": "summary",
+     "from": "Mid-size humanoid from Enchanted Tools; b2b only, sold to businesses.",
+     "to": "Enchanted Tools' French social robot on a ball base: a 1.2 m character robot that greets, guides and carries small objects in care homes, hospitals, hotels and airports, now in first commercial deployments."
+    }
+   ]
+  }
+ ]
+}

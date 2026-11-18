@@ -1,0 +1,76 @@
+{
+ "id": "vecna-autonomous-tugger-atg",
+ "name": "Autonomous Tugger (ATG)",
+ "manufacturer": "Vecna Robotics",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-17",
+   "type": "added",
+   "source": "https://www.vecnarobotics.com/atg-autonomous-tugger/",
+   "commit": "b596d3e",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://www.vecnarobotics.com/atg-autonomous-tugger/",
+   "commit": "e6ebd1a",
+   "changes": [
+    {
+     "field": "max_speed_mps",
+     "from": 2.68,
+     "to": 2.0
+    },
+    {
+     "field": "note",
+     "from": "Vecna spec sheets. payload_kg = max tow payload 4,500 kg. Weight excludes battery. Speed conflicts across Vecna docs (6.0 mph/2.7 m/s on product page and one sheet; 4.5 mph/2 m/s on 2023 sheet); product-page 6.0 mph used.",
+     "to": "Vecna maker docs re-checked 2026-11-17. payload_kg = max tow payload 4,500 kg (9,920 lb). Weight excludes battery. Speed: all three Vecna spec sheets give 2 m/s (4.5 mph on the Aug-2023 sheet, 5 mph on the 2024-Q4 sheet and on the Mar-2026 tear sheet), so 2 m/s is stored; the live product page headline states 6.0 mph (= 2.68 m/s) and is the conflicting figure. Run time up to 8+ h per full charge."
+    },
+    {
+     "field": "sources",
+     "from": [
+      "https://www.vecnarobotics.com/atg-autonomous-tugger/",
+      "https://www.vecnarobotics.com/wp-content/uploads/2024/10/ATG-AutonomousTugger-2024Q4.pdf",
+      "https://www.vecnarobotics.com/wp-content/uploads/2023/08/Vecna_ATG.pdf"
+     ],
+     "to": [
+      "https://www.vecnarobotics.com/atg-autonomous-tugger/",
+      "https://www.vecnarobotics.com/wp-content/uploads/2026/03/Tear-Sheet-ATG.pdf",
+      "https://www.vecnarobotics.com/wp-content/uploads/2024/10/ATG-AutonomousTugger-2024Q4.pdf",
+      "https://www.vecnarobotics.com/wp-content/uploads/2023/08/Vecna_ATG.pdf"
+     ]
+    },
+    {
+     "field": "certifications",
+     "from": null,
+     "to": []
+    },
+    {
+     "field": "safety_note",
+     "from": null,
+     "to": "Safety system uses PL=d-rated sensors and safety controllers."
+    },
+    {
+     "field": "safety_pl",
+     "from": null,
+     "to": "PL d"
+    },
+    {
+     "field": "safety_source",
+     "from": null,
+     "to": "https://www.vecnarobotics.com/wp-content/uploads/2024/10/ATG-AutonomousTugger-2024Q4.pdf"
+    },
+    {
+     "field": "safety_standards",
+     "from": null,
+     "to": [
+      "ISO 13849-1:2015",
+      "ANSI/ITSDF B56.5",
+      "RIA 15.08"
+     ]
+    }
+   ]
+  }
+ ]
+}

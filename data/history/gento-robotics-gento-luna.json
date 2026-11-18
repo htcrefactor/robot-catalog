@@ -1,0 +1,109 @@
+{
+ "id": "gento-robotics-gento-luna",
+ "name": "Gento Luna",
+ "manufacturer": "Gento Robotics (Tianji)",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-17",
+   "type": "added",
+   "source": null,
+   "commit": "b596d3e",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://gentorobotics.ai/products/gento-luna/",
+   "commit": "b310609",
+   "changes": [
+    {
+     "field": "battery_wh",
+     "from": null,
+     "to": 1651
+    },
+    {
+     "field": "compute_detail",
+     "from": null,
+     "to": "up to 275 TOPS"
+    },
+    {
+     "field": "dof",
+     "from": null,
+     "to": 26
+    },
+    {
+     "field": "height_mm",
+     "from": null,
+     "to": 1720
+    },
+    {
+     "field": "note",
+     "from": null,
+     "to": "Maker page: 26 DoF excluding dexterous hands plus an omnidirectional chassis (in-place rotation, any-direction translation); 1720 mm fully extended, folding to 790 mm; 7-DoF force-controlled arms in three reach options (615/680/750 mm) rated 5/4/3 kg per arm (payload field = 5 kg, the 615 mm option); 48 V 34.4 Ah LiFePO4 pack (=1651 Wh derived); 4-6 h continuous operation (runtime field = lower bound); three charging modes (manual/auto/quick-swap); Jetson Orin AGX 64GB up to 275 TOPS; ROS 2, SDK and secondary-development APIs; active anti-tipping. No price published."
+    },
+    {
+     "field": "official_url",
+     "from": null,
+     "to": "https://gentorobotics.ai/products/gento-luna/"
+    },
+    {
+     "field": "onboard_compute",
+     "from": null,
+     "to": "NVIDIA Jetson Orin AGX 64GB"
+    },
+    {
+     "field": "payload_kg",
+     "from": null,
+     "to": 5
+    },
+    {
+     "field": "ros_support",
+     "from": null,
+     "to": "ROS 2"
+    },
+    {
+     "field": "runtime_h",
+     "from": null,
+     "to": 4.0
+    },
+    {
+     "field": "sdk_available",
+     "from": null,
+     "to": true
+    },
+    {
+     "field": "sdk_name",
+     "from": null,
+     "to": "Gento SDK"
+    },
+    {
+     "field": "sensors",
+     "from": [],
+     "to": [
+      "3D LiDAR",
+      "Ultrasonic radar",
+      "Cameras"
+     ]
+    },
+    {
+     "field": "sources",
+     "from": [],
+     "to": [
+      "https://gentorobotics.ai/products/gento-luna/"
+     ]
+    },
+    {
+     "field": "summary",
+     "from": "",
+     "to": "Gento Robotics' wheeled folding humanoid: a 26-DoF force-controlled body on an omnidirectional four-wheel chassis that folds from 1720 mm to 790 mm for transport."
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "official"
+    }
+   ]
+  }
+ ]
+}

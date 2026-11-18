@@ -1,0 +1,50 @@
+{
+ "id": "anybotics-anymal-x",
+ "name": "ANYmal X",
+ "manufacturer": "ANYbotics",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-03",
+   "type": "added",
+   "source": "https://www.anybotics.com/robotics/anymal-x/",
+   "commit": "1a533a7",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://www.anybotics.com/robotics/anymal-x/",
+   "commit": "1173def",
+   "changes": [
+    {
+     "field": "note",
+     "from": null,
+     "to": "Maker page: ATEX-certified for Zones 1 and 2 (IIB, T4, category 2G) with IECEx to follow first production; over 3 h battery runtime with autonomous docking; stairs to 45 deg (230 mm rise / 210 mm run); IP65 robot, IP67 payload; Wi-Fi 6 and 5G/4G; continuous ambient -10 to 50 C; 0 lux navigation. Overall mass and dimensions are not published."
+    },
+    {
+     "field": "sensors",
+     "from": [
+      "Zoom camera",
+      "Thermal camera (640×512 radiometric)",
+      "Acoustic imager",
+      "Microphone",
+      "Gas sensing module (optional)"
+     ],
+     "to": [
+      "Zoom camera",
+      "Thermal camera (640x512 radiometric)",
+      "Acoustic imager",
+      "Microphone",
+      "Gas sensing module (optional)"
+     ]
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "official"
+    }
+   ]
+  }
+ ]
+}

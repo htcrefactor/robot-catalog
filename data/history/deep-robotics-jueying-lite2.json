@@ -1,0 +1,104 @@
+{
+ "id": "deep-robotics-jueying-lite2",
+ "name": "Jueying Lite2",
+ "manufacturer": "DEEP Robotics",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-17",
+   "type": "added",
+   "source": null,
+   "commit": "b596d3e",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://www.deeprobotics.cn/",
+   "commit": "1173def",
+   "changes": [
+    {
+     "field": "compute_detail",
+     "from": null,
+     "to": "NVIDIA Jetson Nano (Explorer/Pro) or Jetson Xavier NX (Pro/LiDAR)"
+    },
+    {
+     "field": "height_mm",
+     "from": null,
+     "to": 355
+    },
+    {
+     "field": "length_mm",
+     "from": null,
+     "to": 540
+    },
+    {
+     "field": "max_speed_mps",
+     "from": null,
+     "to": 3.75
+    },
+    {
+     "field": "note",
+     "from": null,
+     "to": "Maker spec sheet (Jueying Lite2 PDF on deeprobotics.cn's CDN): Explorer and Professional editions 10 kg, >=7.5 kg payload, 540 x 315 x 355 mm, 1-2.5 h on a detachable battery (1 h recorded as the low end), 33 deg slope, 10 cm steps, 3.75 m/s (peak above 4 m/s); LiDAR edition 12 kg, >=5 kg payload, 455 mm tall, 0.8-2 h, 3.4 m/s; 28.8 V service voltage, Jetson Nano / Xavier NX, SDK and V2 URDF provided."
+    },
+    {
+     "field": "official_url",
+     "from": null,
+     "to": "https://www.deeprobotics.cn/"
+    },
+    {
+     "field": "onboard_compute",
+     "from": null,
+     "to": true
+    },
+    {
+     "field": "payload_kg",
+     "from": null,
+     "to": 7.5
+    },
+    {
+     "field": "runtime_h",
+     "from": null,
+     "to": 1
+    },
+    {
+     "field": "sensors",
+     "from": [],
+     "to": [
+      "Colour + greyscale stereo depth camera",
+      "Multi-line lidar (LiDAR edition)"
+     ]
+    },
+    {
+     "field": "sources",
+     "from": [],
+     "to": [
+      "https://deep-website.oss-cn-hangzhou.aliyuncs.com/file/Jueying%20Lite2.pdf",
+      "https://www.deeprobotics.cn/"
+     ]
+    },
+    {
+     "field": "summary",
+     "from": "",
+     "to": "Second-generation Jueying education/research quadruped, sold in Explorer, Professional and LiDAR editions."
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "official"
+    },
+    {
+     "field": "weight_kg",
+     "from": null,
+     "to": 10
+    },
+    {
+     "field": "width_mm",
+     "from": null,
+     "to": 315
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,96 @@
+{
+ "id": "pudu-flashbot-max",
+ "name": "FlashBot Max",
+ "manufacturer": "Pudu Robotics",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-17",
+   "type": "added",
+   "source": "https://pudurobotics.com/de/products/flashbot-new",
+   "commit": "73aee2c",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://www.pudurobotics.com/en/products/flashbot-new",
+   "commit": "2e2527b",
+   "changes": [
+    {
+     "field": "height_mm",
+     "from": null,
+     "to": 1052
+    },
+    {
+     "field": "length_mm",
+     "from": null,
+     "to": 538
+    },
+    {
+     "field": "max_speed_mps",
+     "from": null,
+     "to": 1.2
+    },
+    {
+     "field": "min_speed_mps",
+     "from": null,
+     "to": 0.5
+    },
+    {
+     "field": "note",
+     "from": "Given URL is Pudu's 'FlashBot (new)' building-delivery page (German); it does not use the name 'FlashBot Max'. Specs not filled until Max is confirmed.",
+     "to": "Confirmed 2026-11-17: Pudu's own product page is titled 'FlashBot Max' and its product-overview table gives 538 x 534 x 1052 mm, 60 kg, 10 kg per layer, 2-4 adjustable compartments, 9 h runtime, 4 h charge, VSLAM+ and LiDAR SLAM, 0.5-1.2 m/s cruise, 60 cm path clearance, IoT/elevator integration. Payload stored is per layer (Pudu publishes no whole-robot payload). Pudu does not state an IP rating, battery capacity, screen size or sensor hardware. The Oct 2024 launch release says 70 cm corridor width while the product page says 60 cm - both maker documents disagree, page value recorded."
+    },
+    {
+     "field": "official_url",
+     "from": "https://pudurobotics.com/de/products/flashbot-new",
+     "to": "https://www.pudurobotics.com/en/products/flashbot-new"
+    },
+    {
+     "field": "payload_kg",
+     "from": null,
+     "to": 10
+    },
+    {
+     "field": "runtime_h",
+     "from": null,
+     "to": 9
+    },
+    {
+     "field": "sensors",
+     "from": [],
+     "to": [
+      "VSLAM+ and LiDAR SLAM navigation",
+      "3D obstacle avoidance (multi-sensor fusion)"
+     ]
+    },
+    {
+     "field": "sources",
+     "from": [
+      "https://pudurobotics.com/de/products/flashbot-new"
+     ],
+     "to": [
+      "https://pudurobotics.com/de/products/flashbot-new",
+      "https://www.pudurobotics.com/en/products/flashbot-new"
+     ]
+    },
+    {
+     "field": "verification",
+     "from": "unconfirmed",
+     "to": "official"
+    },
+    {
+     "field": "weight_kg",
+     "from": null,
+     "to": 60
+    },
+    {
+     "field": "width_mm",
+     "from": null,
+     "to": 534
+    }
+   ]
+  }
+ ]
+}

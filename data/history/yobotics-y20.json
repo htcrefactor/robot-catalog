@@ -1,0 +1,46 @@
+{
+ "id": "yobotics-y20",
+ "name": "Y20",
+ "manufacturer": "Shandong Youbaote Intelligent Robot (Yobotics)",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-17",
+   "type": "added",
+   "source": null,
+   "commit": "b596d3e",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://www.yobotics.cn/cpzx/szjqrxl/",
+   "commit": "fa098f7",
+   "changes": [
+    {
+     "field": "note",
+     "from": null,
+     "to": "Yobotics lists Y20 in its quadruped catalogue navigation and announced the wheeled Y20-W on 18 September 2025, but the published parameter table for Y20 is an image on the maker's category page and no text specification was obtained; the maker's news list carries no Y20 specification item. With no maker figure to cite, no field is filled and the record stays unconfirmed."
+    },
+    {
+     "field": "sources",
+     "from": [],
+     "to": [
+      "https://www.yobotics.cn/cpzx/szjqrxl/",
+      "https://www.yobotics.cn/xinwenzixun/41.html"
+     ]
+    },
+    {
+     "field": "summary",
+     "from": "",
+     "to": "Yobotics all-terrain inspection quadruped positioned between the Y10 research platform and the Y30 outdoor flagship."
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "unconfirmed"
+    }
+   ]
+  }
+ ]
+}

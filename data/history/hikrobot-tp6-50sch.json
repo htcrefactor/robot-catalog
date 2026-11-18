@@ -1,0 +1,28 @@
+{
+ "id": "hikrobot-tp6-50sch",
+ "name": "TP6-50SCH",
+ "manufacturer": "Hikrobot",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-17",
+   "type": "added",
+   "source": "https://www.hikrobotics.com/cn/mobilerobot/CTU",
+   "commit": "b596d3e",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://www.hikrobotics.com/cn/mobilerobot/CTU",
+   "commit": "2e2527b",
+   "changes": [
+    {
+     "field": "note",
+     "from": "Hikrobot's CTU page confirms the TP6 high-density tote series but its spec tabs don't render the TP6-50SCH model; 50 kg load, 3 m/s and 12 m reach appear only on resellers, so left out.",
+     "to": "Hikrobot's CTU page confirms the TP6 high-density tote series but its spec tabs don't render the TP6-50SCH model; 50 kg load, 3 m/s and 12 m reach appear only on resellers, so left out. Re-checked 2026-11-17: Hikrobot's CTU page still renders no TP6-50SCH tab and no maker datasheet for this model was found; 50 kg / 3 m/s / 12 m remain reseller-only, so the record stays unconfirmed."
+    }
+   ]
+  }
+ ]
+}

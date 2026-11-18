@@ -1,0 +1,124 @@
+{
+ "id": "realman-realbot-l2",
+ "name": "RealBot-L2",
+ "manufacturer": "RealMan Robotics",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-17",
+   "type": "added",
+   "source": null,
+   "commit": "b596d3e",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://www.realman-robotics.com/en/products/realbot-l2.html",
+   "commit": "75b989d",
+   "changes": [
+    {
+     "field": "note",
+     "from": null,
+     "to": "Maker product page (opened 2026-11-17): full-size wheeled dual-arm lift humanoid, 17 active DoF, 0-2.1 m vertical working range, 300 mm lift travel, 5 kg payload per arm, two-wheel differential chassis, 48 V 20 Ah / ~6 h, 650x512x1700 mm, ~120 kg, Jetson AGX Orin 64G (D-Robotics S100 option). Locomotion confirmed WHEELED (two-wheel differential chassis). Numeric spec fields left for the thin-record batch (issue #15). | Maker product page and developer docs: 650 x 512 x 1,700 mm, about 120 kg, 17 active DOF, 5 kg per arm, vertical working range 0-2.1 m, 300 mm lift stroke, lift capacity >=60 kg including arms and payload, 0.1-1.0 m/s, Jetson AGX Orin 64G (or D-Robotics S100), stereo RGB head camera with optional depth, RGBD hand cameras, 2-finger gripper or 5-finger hand quick-swap, two-wheel differential chassis, 48 V 20 Ah battery (=960 Wh, derived from V x Ah; the maker states only 48 V 20 Ah), about 6 h typical runtime with about 1 h full charge, wired and Wi-Fi (5G optional on S2). Per-arm 7 DOF."
+    },
+    {
+     "field": "official_url",
+     "from": null,
+     "to": "https://www.realman-robotics.com/en/products/realbot-l2.html"
+    },
+    {
+     "field": "sources",
+     "from": [],
+     "to": [
+      "https://www.realman-robotics.com/en/products/realbot-l2.html",
+      "https://develop.realman-robotics.com/en/wheelRobot/RealBotL2/"
+     ]
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "official"
+    },
+    {
+     "field": "battery_wh",
+     "from": null,
+     "to": 960
+    },
+    {
+     "field": "dof",
+     "from": null,
+     "to": 17
+    },
+    {
+     "field": "height_mm",
+     "from": null,
+     "to": 1700
+    },
+    {
+     "field": "length_mm",
+     "from": null,
+     "to": 650
+    },
+    {
+     "field": "max_speed_mps",
+     "from": null,
+     "to": 1.0
+    },
+    {
+     "field": "onboard_compute",
+     "from": null,
+     "to": "NVIDIA Jetson AGX Orin 64G (D-Robotics S100 optional)"
+    },
+    {
+     "field": "payload_kg",
+     "from": null,
+     "to": 5
+    },
+    {
+     "field": "runtime_h",
+     "from": null,
+     "to": 6
+    },
+    {
+     "field": "sdk_available",
+     "from": null,
+     "to": true
+    },
+    {
+     "field": "sdk_name",
+     "from": null,
+     "to": "Teaching pendant, local and remote teleoperation"
+    },
+    {
+     "field": "sensors",
+     "from": [],
+     "to": [
+      "Stereo RGB head camera (depth optional)",
+      "RGBD hand cameras (mono RGB optional)"
+     ]
+    },
+    {
+     "field": "status",
+     "from": null,
+     "to": "Commercial"
+    },
+    {
+     "field": "summary",
+     "from": "",
+     "to": "RealMan's full-size wheeled dual-arm lift humanoid: 17 active DOF, a 300 mm lift that reaches 0-2.1 m, 5 kg per arm and about 6 h of running time for home service, retail and data collection."
+    },
+    {
+     "field": "weight_kg",
+     "from": null,
+     "to": 120
+    },
+    {
+     "field": "width_mm",
+     "from": null,
+     "to": 512
+    }
+   ]
+  }
+ ]
+}

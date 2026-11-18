@@ -1,0 +1,33 @@
+{
+ "id": "genisom-gangben-l2",
+ "name": "Genisom L2",
+ "manufacturer": "GENISOM AI (ZsiBot)",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-17",
+   "type": "added",
+   "source": "https://www.genisomai.com/en/product-robot/L2",
+   "commit": "b596d3e",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://www.genisomai.com/en/product-robot/L2",
+   "commit": "48ef25e",
+   "changes": [
+    {
+     "field": "name",
+     "from": "Genisom L2 (Gangbeng L2)",
+     "to": "Genisom L2"
+    },
+    {
+     "field": "note",
+     "from": "Maker now brands it Genisom L2 (钢镚/Gangbeng; record had 'Gangben'). Speed 3.2 m/s rated, 5 m/s peak. The 70 cm obstacle headline belongs to the wheeled L2-W variant (27 kg) per maker brochure.",
+     "to": "Official name 'Genisom L2' (钢镚 L2; recorded earlier as 'Gangben/Gangbeng L2'). Speed 3.2 m/s rated, 5 m/s peak. The 70 cm obstacle headline belongs to the wheeled L2-W variant (27 kg) per maker brochure."
+    }
+   ]
+  }
+ ]
+}

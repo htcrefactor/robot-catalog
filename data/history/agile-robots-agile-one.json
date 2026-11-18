@@ -1,0 +1,48 @@
+{
+ "id": "agile-robots-agile-one",
+ "name": "Agile ONE",
+ "manufacturer": "Agile Robots",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-13",
+   "type": "added",
+   "source": "https://humanoidstore.co/robots/agile-robots-agile-one",
+   "commit": "14cd746",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://www.agile-robots.com/en/products/humanoid-robots/agile-one/",
+   "commit": "0be5d4c",
+   "changes": [
+    {
+     "field": "data_source",
+     "from": "HumanoidStore open data (CC BY 4.0)",
+     "to": null
+    },
+    {
+     "field": "notes",
+     "from": null,
+     "to": "Issue #17 (2026-11-17): 174 cm, 69 kg, 20 kg payload, 2.0 m/s on Agile Robots' product page; 71 DoF (21 per hand) and up to 8 h from Agile Robots' own LinkedIn post. HumanoidStore rows dropped."
+    },
+    {
+     "field": "sources",
+     "from": [
+      "https://humanoidstore.co/robots/agile-robots-agile-one"
+     ],
+     "to": [
+      "https://www.agile-robots.com/en/products/humanoid-robots/agile-one/",
+      "https://www.linkedin.com/posts/agile-robots-se_agilerobots-agileone-humanoid-activity-7417569512302129152-zLuj"
+     ]
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "official"
+    }
+   ]
+  }
+ ]
+}

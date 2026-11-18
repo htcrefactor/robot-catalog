@@ -1,0 +1,57 @@
+{
+ "id": "akinrobotics-mini-ada",
+ "name": "Mini ADA",
+ "manufacturer": "AKINROBOTICS",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-13",
+   "type": "added",
+   "source": "https://humanoidstore.co/robots/akinrobotics-mini-ada",
+   "commit": "14cd746",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://www.akinrobotics.com/asset/pdf/akinrobotics-product-catalog-2026.pdf",
+   "commit": "0be5d4c",
+   "changes": [
+    {
+     "field": "data_source",
+     "from": "HumanoidStore open data (CC BY 4.0)",
+     "to": null
+    },
+    {
+     "field": "notes",
+     "from": null,
+     "to": "Issue #17 (2026-11-17): AKINROBOTICS 2026 catalogue - 46x46x123 cm, 45 kg, 0.6 m/s max, lithium-ion, 8 h use (4 h charge). HumanoidStore's US$18,900 removed: no maker price. Arms are 3-axis, so no DoF figure is published. [emptied (no maker value) price_usd=18900; price_note=list 18900 USD (maker), per HumanoidStore, checked 2026-10]"
+    },
+    {
+     "field": "price_note",
+     "from": "list 18900 USD (maker), per HumanoidStore, checked 2026-10",
+     "to": null
+    },
+    {
+     "field": "price_usd",
+     "from": 18900,
+     "to": null
+    },
+    {
+     "field": "sources",
+     "from": [
+      "https://humanoidstore.co/robots/akinrobotics-mini-ada"
+     ],
+     "to": [
+      "https://www.akinrobotics.com/asset/pdf/akinrobotics-product-catalog-2026.pdf"
+     ]
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "official"
+    }
+   ]
+  }
+ ]
+}

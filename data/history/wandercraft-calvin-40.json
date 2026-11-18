@@ -1,0 +1,94 @@
+{
+ "id": "wandercraft-calvin-40",
+ "name": "Calvin-40",
+ "manufacturer": "Wandercraft",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-13",
+   "type": "added",
+   "source": "https://humanoidstore.co/robots/wandercraft-calvin-40",
+   "commit": "14cd746",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://en.wandercraft.eu/calvin-40",
+   "commit": "30bdc91",
+   "changes": [
+    {
+     "field": "data_source",
+     "from": "HumanoidStore open data (CC BY 4.0)",
+     "to": null
+    },
+    {
+     "field": "dof",
+     "from": null,
+     "to": 28
+    },
+    {
+     "field": "height_mm",
+     "from": null,
+     "to": 1700
+    },
+    {
+     "field": "max_speed_mps",
+     "from": null,
+     "to": 0.83
+    },
+    {
+     "field": "notes",
+     "from": null,
+     "to": "Issue #17 (2026-11-17): Calvin-40 - Wandercraft's site describes the industrial humanoid and its 40 kg handling but publishes no table of height, mass, DoF or speed, so the figures here come from third-party cataloguing of Wandercraft's material and the record stays unconfirmed. [replaced height_mm: None -> 1700; weight_kg: None -> 80; max_speed_mps: None -> 0.83; dof: None -> 28; runtime_h: None -> 4.0]"
+    },
+    {
+     "field": "runtime_h",
+     "from": null,
+     "to": 4.0
+    },
+    {
+     "field": "sources",
+     "from": [
+      "https://humanoidstore.co/robots/wandercraft-calvin-40"
+     ],
+     "to": [
+      "https://de.wandercraft.eu/calvin",
+      "https://en.wandercraft.eu/calvin-40",
+      "https://en.wandercraft.eu/"
+     ]
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "unconfirmed"
+    },
+    {
+     "field": "weight_kg",
+     "from": null,
+     "to": 80
+    },
+    {
+     "field": "note",
+     "from": null,
+     "to": "Wandercraft's Calvin page publishes no height, weight, DoF, payload, runtime, battery or price (checked 2026-11-17): it states high-torque motors, a 3D sensor with an AI vision stack, autonomous navigation, a certifiable safety system for use without physical barriers, a target failure rate below 1 in 1,000 and first series delivery expected in H1 2027. The name refers to a 40 kg handling capability, but no figure is stated on the page, so the spec fields are left empty."
+    },
+    {
+     "field": "official_url",
+     "from": null,
+     "to": "https://en.wandercraft.eu/calvin-40"
+    },
+    {
+     "field": "release_year",
+     "from": null,
+     "to": 2025
+    },
+    {
+     "field": "summary",
+     "from": "Full-size humanoid from Wandercraft; b2b only, sold to businesses.",
+     "to": "Wandercraft's first industrial humanoid: a headless biped built on the self-balancing platform of its medical exoskeletons, for heavy handling and flow logistics in factories and warehouses."
+    }
+   ]
+  }
+ ]
+}

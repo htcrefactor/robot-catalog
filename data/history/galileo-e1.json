@@ -1,0 +1,45 @@
+{
+ "id": "galileo-e1",
+ "name": "E1",
+ "manufacturer": "Galileo (Tianjin)",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-17",
+   "type": "added",
+   "source": "https://www.galileotimes.com/news/2026wrc-galileo-releases-dual-new-products-with-full-range-mobile-technology-to-create-a-new-paradigm-of-intelligent-land-based-vehicles/",
+   "commit": "b596d3e",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://www.galileotimes.com/galileo-intelligent-bionic-quadruped-robot-e1-w-series-industrial-grade-product/",
+   "commit": "2e2527b",
+   "changes": [
+    {
+     "field": "note",
+     "from": "Specs from Galileo (Tianjin) official product brochure (maker PDF hosted on WRC exhibitor site); product also listed on official site galileotimes.com. max_speed is stated limit (极限) speed; runtime range 2–4 h, upper value used; max payload 85 kg.",
+     "to": "Specs from Galileo (Tianjin) official product brochure (maker PDF hosted on WRC exhibitor site); product also listed on official site galileotimes.com. max_speed is stated limit (极限) speed; runtime range 2–4 h, upper value used; max payload 85 kg. Re-checked 2026-11-17: maker's own product page opened (galileotimes.com, Galileo Tianjin's product site, contacts @galileotime.com). Its current parameter table for this model reads - E1 (legged) column: 1000x452x550 mm, 52 kg, 30Ah/1440 Wh 48 V, 0-3.5 m/s, climb 80 cm platform, 2.5-4.5 h, 30 kg continuous walking load, 100 kg standing load, >16 km, IP67. The stored numbers come from Galileo's 2025 product manual (maker PDF) and are LOWER/lighter than the current page (C1 660x320x470 mm /15 kg vs 765x410x475 mm /22 kg; E1 1000x420x600 mm /38 kg vs 1000x452x550 mm /52 kg; S1 1100x450x700 mm /60 kg vs 1200x550x650 mm /118 kg), i.e. the page appears to describe the 2026 line-up. Stored values kept so this PR does not silently rewrite specs; the current-page figures are recorded here for the owner to choose between."
+    },
+    {
+     "field": "official_url",
+     "from": "https://www.galileotimes.com/news/2026wrc-galileo-releases-dual-new-products-with-full-range-mobile-technology-to-create-a-new-paradigm-of-intelligent-land-based-vehicles/",
+     "to": "https://www.galileotimes.com/galileo-intelligent-bionic-quadruped-robot-e1-w-series-industrial-grade-product/"
+    },
+    {
+     "field": "sources",
+     "from": [
+      "https://www.worldrobotconference.com/profile/robot/download/2025/07/08/Galileo-%E6%99%BA%E8%83%BD%E4%BB%BF%E7%94%9F%E5%9B%9B%E8%B6%B3%E6%9C%BA%E5%99%A8%E4%BA%BA%E4%BA%A7%E5%93%81%E6%89%8B%E5%86%8C_20250708115131A101.pdf",
+      "https://www.galileotimes.com/news/2026wrc-galileo-releases-dual-new-products-with-full-range-mobile-technology-to-create-a-new-paradigm-of-intelligent-land-based-vehicles/"
+     ],
+     "to": [
+      "https://www.worldrobotconference.com/profile/robot/download/2025/07/08/Galileo-%E6%99%BA%E8%83%BD%E4%BB%BF%E7%94%9F%E5%9B%9B%E8%B6%B3%E6%9C%BA%E5%99%A8%E4%BA%BA%E4%BA%A7%E5%93%81%E6%89%8B%E5%86%8C_20250708115131A101.pdf",
+      "https://www.galileotimes.com/news/2026wrc-galileo-releases-dual-new-products-with-full-range-mobile-technology-to-create-a-new-paradigm-of-intelligent-land-based-vehicles/",
+      "https://www.galileotimes.com/galileo-intelligent-bionic-quadruped-robot-e1-w-series-industrial-grade-product/"
+     ]
+    }
+   ]
+  }
+ ]
+}

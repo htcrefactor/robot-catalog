@@ -1,0 +1,59 @@
+{
+ "id": "agibot-a3",
+ "name": "Expedition A3",
+ "manufacturer": "AgiBot",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-13",
+   "type": "added",
+   "source": "https://humanoidstore.co/robots/agibot-a3",
+   "commit": "14cd746",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://www.agibot.com/products/A3",
+   "commit": "0be5d4c",
+   "changes": [
+    {
+     "field": "battery_wh",
+     "from": null,
+     "to": 1152
+    },
+    {
+     "field": "data_source",
+     "from": "HumanoidStore open data (CC BY 4.0)",
+     "to": null
+    },
+    {
+     "field": "max_speed_mps",
+     "from": 1.94,
+     "to": 1.8
+    },
+    {
+     "field": "notes",
+     "from": null,
+     "to": "Issue #17 (2026-11-17): 173 cm, 55 kg, 31 DoF, 5 kg per arm, 10 h endurance, 1152 Wh per agibot.com and store.agibot.com. Speed conflict kept in favour of AgiBot's own product/FAQ pages (max walk 1.8 m/s, max run 5 m/s); the developer guide's 1.2 m/s was not used. HumanoidStore listed 1.94 m/s, now replaced. [replaced max_speed_mps: 1.94 -> 1.8; battery_wh: None -> 1152]"
+    },
+    {
+     "field": "sources",
+     "from": [
+      "https://humanoidstore.co/robots/agibot-a3"
+     ],
+     "to": [
+      "https://www.agibot.com/products/A3",
+      "https://store.agibot.com/products/a3",
+      "https://open.agibot.com/docs/en/aimdk/a3/v3_2/dev_guide/01-a3_overview"
+     ]
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "official"
+    }
+   ]
+  }
+ ]
+}

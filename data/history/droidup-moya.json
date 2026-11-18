@@ -1,0 +1,68 @@
+{
+ "id": "droidup-moya",
+ "name": "Moya",
+ "manufacturer": "DroidUp",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-13",
+   "type": "added",
+   "source": "https://humanoidstore.co/robots/droidup-moya",
+   "commit": "14cd746",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://www.droidup.com/product/7",
+   "commit": "4b395bc",
+   "changes": [
+    {
+     "field": "data_source",
+     "from": "HumanoidStore open data (CC BY 4.0)",
+     "to": null
+    },
+    {
+     "field": "notes",
+     "from": null,
+     "to": "Issue #17 (2026-11-17): DroidUp's Moya page - 165 cm, about 30 kg, 100+ total DoF, 8-10 h (8 taken). DoF cannot be expressed as one number (100+) so the field stays empty; press reports 32 kg, maker page 30 kg kept. [replaced runtime_h: None -> 8.0]"
+    },
+    {
+     "field": "runtime_h",
+     "from": null,
+     "to": 8.0
+    },
+    {
+     "field": "sources",
+     "from": [
+      "https://humanoidstore.co/robots/droidup-moya"
+     ],
+     "to": [
+      "https://www.droidup.com/product/7",
+      "https://droidup.com/"
+     ]
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "official"
+    },
+    {
+     "field": "note",
+     "from": null,
+     "to": "Maker product page (droidup.com/product/7): height 165 cm, weight about 30 kg, total DoF 100+, 8-10 h runtime, 32-36 °C constant-temperature silicone skin with 40 facial muscle drive units and 60+ expressions, tendon-driven body, DroidSoul whole-body interaction agent with emotion recognition. The maker gives 100+ and 8-10 h as ranges, so dof and runtime are left empty rather than pinned to a number. Maker publishes no payload, speed, battery or price on the page; press reports a 1.2-1.5 m CNY first-batch price with Q4 2026 pre-sale, which is not a maker figure and so not recorded."
+    },
+    {
+     "field": "official_url",
+     "from": null,
+     "to": "https://www.droidup.com/product/7"
+    },
+    {
+     "field": "summary",
+     "from": "Full-size humanoid from DroidUp; b2b only, sold to businesses.",
+     "to": "Shanghai DroidUp's fully biomimetic android with a heated silicone skin, 40 facial muscle units and tendon-driven limbs, aimed at elder care, education and high-end reception."
+    }
+   ]
+  }
+ ]
+}

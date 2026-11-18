@@ -1,0 +1,117 @@
+{
+ "id": "anybotics-anymal-b",
+ "name": "ANYmal B",
+ "manufacturer": "ANYbotics",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-17",
+   "type": "added",
+   "source": null,
+   "commit": "b596d3e",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://www.anybotics.com/hazardex_december_2018.pdf",
+   "commit": "1173def",
+   "changes": [
+    {
+     "field": "api_support",
+     "from": null,
+     "to": true
+    },
+    {
+     "field": "height_mm",
+     "from": null,
+     "to": 700
+    },
+    {
+     "field": "ip_rating",
+     "from": null,
+     "to": "IP67"
+    },
+    {
+     "field": "length_mm",
+     "from": null,
+     "to": 800
+    },
+    {
+     "field": "max_speed_mps",
+     "from": null,
+     "to": 1.0
+    },
+    {
+     "field": "note",
+     "from": null,
+     "to": "No Gen B product page remains on anybotics.com (the current ANYmal page is Gen D). Maker documents read: ANYbotics' own ANYmal overview sheet (2017/11) - 30 kg, payload up to 10 kg, 80x60x40 cm lying / 80x60x70 cm standing, up to 1.0 m/s, 2-4 h autonomy, IP67, ROS - and the ANYmal article by ANYbotics' P. Fankhauser in HazardEx (Dec 2018) - 30 kg, 12 ANYdrive joints, IP67, 2-4 h. Runtime recorded as the top of the maker's 2-4 h range; the maker's URDF package is on the ANYbotics GitHub organisation."
+    },
+    {
+     "field": "payload_kg",
+     "from": null,
+     "to": 10
+    },
+    {
+     "field": "ros_support",
+     "from": null,
+     "to": true
+    },
+    {
+     "field": "runtime_h",
+     "from": null,
+     "to": 4
+    },
+    {
+     "field": "sdk_available",
+     "from": null,
+     "to": true
+    },
+    {
+     "field": "sdk_name",
+     "from": null,
+     "to": "ANYmal Research (ROS 1 control software, released to community members)"
+    },
+    {
+     "field": "sensors",
+     "from": [],
+     "to": [
+      "Rotating lidar",
+      "Depth cameras",
+      "Joint torque sensors (ANYdrive)",
+      "IMU",
+      "Foot contact sensors"
+     ]
+    },
+    {
+     "field": "sources",
+     "from": [],
+     "to": [
+      "https://www.anybotics.com/hazardex_december_2018.pdf",
+      "https://github.com/ANYbotics/anymal_b_simple_description"
+     ]
+    },
+    {
+     "field": "summary",
+     "from": "",
+     "to": "First-generation (Gen B) ANYmal research quadruped with torque-controlled ANYdrive joints, sold to research groups and early industrial pilots."
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "official"
+    },
+    {
+     "field": "weight_kg",
+     "from": null,
+     "to": 30
+    },
+    {
+     "field": "width_mm",
+     "from": null,
+     "to": 600
+    }
+   ]
+  }
+ ]
+}

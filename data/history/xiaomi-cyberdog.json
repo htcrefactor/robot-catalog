@@ -1,0 +1,33 @@
+{
+ "id": "xiaomi-cyberdog",
+ "name": "CyberDog (1st generation)",
+ "manufacturer": "Xiaomi",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-17",
+   "type": "added",
+   "source": "https://www.mi.com/cyberdog",
+   "commit": "b596d3e",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://www.mi.com/cyberdog",
+   "commit": "ae60ceb",
+   "changes": [
+    {
+     "field": "compute_soc",
+     "from": null,
+     "to": "NVIDIA Jetson Xavier NX"
+    },
+    {
+     "field": "compute_tops",
+     "from": null,
+     "to": 21
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,88 @@
+{
+ "id": "yunmu-ymbot-type-f",
+ "name": "YMbot Type F",
+ "manufacturer": "Yunmu Intelligent Manufacturing",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-17",
+   "type": "added",
+   "source": null,
+   "commit": "b596d3e",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://www.ymbot.com/product/detail/5",
+   "commit": "b1429ab",
+   "changes": [
+    {
+     "field": "api_support",
+     "from": null,
+     "to": true
+    },
+    {
+     "field": "dof",
+     "from": null,
+     "to": 29
+    },
+    {
+     "field": "height_mm",
+     "from": null,
+     "to": 1700
+    },
+    {
+     "field": "notes",
+     "from": null,
+     "to": "Product manual: 170 cm, about 60 kg, 29 DoF excluding the dexterous hands, joint torque >=360 Nm, 15 Ah battery, single-arm payload about 3 kg, active stereo depth camera with optional LiDAR, CAN/EtherCAT, ROS with URDF. The product web page instead lists height <=130 cm, weight <=40 kg, <=50 DoF including hands and payload <=2 kg; the more specific manual figures are recorded and the conflict stays open."
+    },
+    {
+     "field": "official_url",
+     "from": null,
+     "to": "https://www.ymbot.com/product/detail/5"
+    },
+    {
+     "field": "payload_kg",
+     "from": null,
+     "to": 3
+    },
+    {
+     "field": "ros_support",
+     "from": null,
+     "to": true
+    },
+    {
+     "field": "sensors",
+     "from": [],
+     "to": [
+      "Active stereo depth camera"
+     ]
+    },
+    {
+     "field": "sources",
+     "from": [],
+     "to": [
+      "https://www.ymbot.com/product/detail/5",
+      "https://www.worldrobotconference.com/profile/robot/download/2026/07/23/20260723170520000751_20260723170520A912.pdf"
+     ]
+    },
+    {
+     "field": "summary",
+     "from": "",
+     "to": "Full-force-controlled industrial bipedal humanoid with a five-finger end effector for precise grasping on production lines."
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "official"
+    },
+    {
+     "field": "weight_kg",
+     "from": null,
+     "to": 60
+    }
+   ]
+  }
+ ]
+}

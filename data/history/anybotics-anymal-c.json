@@ -1,0 +1,57 @@
+{
+ "id": "anybotics-anymal-c",
+ "name": "ANYmal C",
+ "manufacturer": "ANYbotics",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-17",
+   "type": "added",
+   "source": "https://www.anybotics.com/news/the-next-step-in-robotic-industrial-inspection/",
+   "commit": "b596d3e",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://www.anybotics.com/news/the-next-step-in-robotic-industrial-inspection/",
+   "commit": "ae60ceb",
+   "changes": [
+    {
+     "field": "sim_models",
+     "from": null,
+     "to": {
+      "urdf": {
+       "url": "https://github.com/ANYbotics/anymal_c_simple_description/blob/master/urdf/anymal.urdf",
+       "license": "BSD-3-Clause"
+      }
+     }
+    },
+    {
+     "field": "sources",
+     "from": [
+      "https://www.anybotics.com/news/the-next-step-in-robotic-industrial-inspection/",
+      "https://www.anybotics.com/news/advancing-legged-robotics-research",
+      "https://ethz.ch/content/dam/ethz/special-interest/mavt/robotics-n-intelligent-systems/rsl-dam/ROS2021/lec5/ANYbotics_ROS_Case_Study_2021.pdf"
+     ],
+     "to": [
+      "https://www.anybotics.com/news/the-next-step-in-robotic-industrial-inspection/",
+      "https://www.anybotics.com/news/advancing-legged-robotics-research",
+      "https://ethz.ch/content/dam/ethz/special-interest/mavt/robotics-n-intelligent-systems/rsl-dam/ROS2021/lec5/ANYbotics_ROS_Case_Study_2021.pdf",
+      "https://github.com/ANYbotics/anymal_c_simple_description/blob/master/urdf/anymal.urdf"
+     ]
+    },
+    {
+     "field": "compute_soc",
+     "from": null,
+     "to": "Intel Core i7"
+    },
+    {
+     "field": "compute_source",
+     "from": null,
+     "to": "https://ethz.ch/content/dam/ethz/special-interest/mavt/robotics-n-intelligent-systems/rsl-dam/ROS2021/lec5/ANYbotics_ROS_Case_Study_2021.pdf"
+    }
+   ]
+  }
+ ]
+}

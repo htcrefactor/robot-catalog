@@ -1,0 +1,81 @@
+{
+ "id": "mirrorme-bolt",
+ "name": "Bolt",
+ "manufacturer": "MirrorMe Technology",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-17",
+   "type": "added",
+   "source": null,
+   "commit": "b596d3e",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://www.mirrormetech.com/en/product_5.html",
+   "commit": "5150daa",
+   "changes": [
+    {
+     "field": "data_source",
+     "from": null,
+     "to": "Maker sources (verified 2026-11-17)"
+    },
+    {
+     "field": "height_mm",
+     "from": null,
+     "to": 1750
+    },
+    {
+     "field": "max_speed_mps",
+     "from": null,
+     "to": 11.0
+    },
+    {
+     "field": "note",
+     "from": null,
+     "to": "MirrorMe's product page (checked 2026-11-17): 175 cm, 75 kg, peak speed above 11 m/s (recorded as the 11 m/s lower bound), 50 kg load capacity, full-body dynamics control; the page shows 21-DoF bionic hands but gives no total DoF, battery, runtime or price. No sales or deliveries are announced, so status is Prototype."
+    },
+    {
+     "field": "official_url",
+     "from": null,
+     "to": "https://www.mirrormetech.com/en/product_5.html"
+    },
+    {
+     "field": "payload_kg",
+     "from": null,
+     "to": 50.0
+    },
+    {
+     "field": "sources",
+     "from": [],
+     "to": [
+      "https://www.mirrormetech.com/en/product_5.html",
+      "https://www.mirrormetech.com/en/about.html"
+     ]
+    },
+    {
+     "field": "status",
+     "from": null,
+     "to": "Prototype"
+    },
+    {
+     "field": "summary",
+     "from": "",
+     "to": "MirrorMe's full-size sprinting humanoid: 1.75 m, 75 kg, a claimed peak above 11 m/s and 50 kg load capacity, shown as a prototype for locomotion research."
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "official"
+    },
+    {
+     "field": "weight_kg",
+     "from": null,
+     "to": 75.0
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,114 @@
+{
+ "id": "vinrobotics-vr-h5",
+ "name": "VR-H5",
+ "manufacturer": "VinRobotics (Vingroup)",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-17",
+   "type": "added",
+   "source": null,
+   "commit": "b596d3e",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://vinrobotics.net/product",
+   "commit": "30bdc91",
+   "changes": [
+    {
+     "field": "api_support",
+     "from": null,
+     "to": true
+    },
+    {
+     "field": "dof",
+     "from": null,
+     "to": 30
+    },
+    {
+     "field": "height_mm",
+     "from": null,
+     "to": 1720
+    },
+    {
+     "field": "max_speed_mps",
+     "from": null,
+     "to": 3.0
+    },
+    {
+     "field": "note",
+     "from": null,
+     "to": "Maker datasheet: 172 cm, 75 kg, 30 DoF, 8 kg per arm (recorded as the payload), 3 m/s, 4 h 'under standard conditions', a 24 Ah duo-pack battery without a stated voltage, depth camera, 360 Nm peak joint torque and 2 waist DoF; ROS 2 support and SDKs shipped with the June 2026 platform launch. Whole-body carrying capacity, battery capacity in Wh and price are not published."
+    },
+    {
+     "field": "official_url",
+     "from": null,
+     "to": "https://vinrobotics.net/product"
+    },
+    {
+     "field": "payload_kg",
+     "from": null,
+     "to": 8
+    },
+    {
+     "field": "release_year",
+     "from": null,
+     "to": 2026
+    },
+    {
+     "field": "ros_support",
+     "from": null,
+     "to": true
+    },
+    {
+     "field": "runtime_h",
+     "from": null,
+     "to": 4
+    },
+    {
+     "field": "sdk_available",
+     "from": null,
+     "to": true
+    },
+    {
+     "field": "sensors",
+     "from": [],
+     "to": [
+      "Depth camera"
+     ]
+    },
+    {
+     "field": "sources",
+     "from": [],
+     "to": [
+      "https://vinrobotics.net/product",
+      "https://vinrobotics.net/blog/vin-robotics-officially-launches-the-vin-robotics-humanoid-platform-and-open-source-ecosystem",
+      "https://d3ua5x8wkveuo2.cloudfront.net/H5_8629e25d93.pdf"
+     ]
+    },
+    {
+     "field": "status",
+     "from": null,
+     "to": "Commercial"
+    },
+    {
+     "field": "summary",
+     "from": "",
+     "to": "VinRobotics' flagship bipedal industrial humanoid (Vingroup), launched in June 2026 with an SDK, ROS 2 support and an open-source ecosystem."
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "official"
+    },
+    {
+     "field": "weight_kg",
+     "from": null,
+     "to": 75
+    }
+   ]
+  }
+ ]
+}

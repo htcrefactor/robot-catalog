@@ -1,0 +1,93 @@
+{
+ "id": "neubility-neubie",
+ "name": "Neubie",
+ "manufacturer": "Neubility",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-03",
+   "type": "added",
+   "source": "https://www.neubility.ai/en/product",
+   "commit": "1a533a7",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://www.neubility.ai/en/product",
+   "commit": "0c54867",
+   "changes": [
+    {
+     "field": "notes",
+     "from": null,
+     "to": "The maker's product page describes Neubi as Korea's first commercially deployed mapless autonomous delivery robot and lists its operating sites, but carries no dimension, weight, payload or battery table that could be read, and its older product page no longer renders. The recorded figures are retained but were not re-confirmed against a maker datasheet in this pass."
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "unconfirmed"
+    },
+    {
+     "field": "certifications",
+     "from": null,
+     "to": [
+      "KIRIA outdoor mobile robot operation safety certification"
+     ]
+    },
+    {
+     "field": "safety_note",
+     "from": null,
+     "to": "Certificate KIRIA-01-24-002-04 (changed 2026-06-15). Unsignalised crosswalks are crossed autonomously only after remote approval from the control centre."
+    },
+    {
+     "field": "safety_source",
+     "from": null,
+     "to": "https://www.kiria.org/portal/cert/portalCertEstiStats.do"
+    },
+    {
+     "field": "safety_standards",
+     "from": null,
+     "to": []
+    },
+    {
+     "field": "kr_distributors",
+     "from": null,
+     "to": [
+      {
+       "name": "뉴빌리티 (서비스 계약)",
+       "kind": "direct",
+       "url": "https://www.neubility.ai/ko"
+      }
+     ]
+    },
+    {
+     "field": "kr_note",
+     "from": null,
+     "to": "국내에서는 자율주행 배달·순찰 서비스로 운영합니다."
+    },
+    {
+     "field": "manufacturer_ko",
+     "from": null,
+     "to": "뉴빌리티"
+    },
+    {
+     "field": "name_ko",
+     "from": null,
+     "to": "뉴비"
+    },
+    {
+     "field": "sources",
+     "from": [
+      "https://www.neubility.ai/en/product",
+      "https://www.kiria.org/portal/cert/portalCertEstiStats.do"
+     ],
+     "to": [
+      "https://www.neubility.ai/en/product",
+      "https://www.kiria.org/portal/cert/portalCertEstiStats.do",
+      "https://www.neubility.ai/ko/"
+     ]
+    }
+   ]
+  }
+ ]
+}

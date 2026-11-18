@@ -1,0 +1,43 @@
+{
+ "id": "pal-tiago-omni-base",
+ "name": "TIAGo OMNI Base",
+ "manufacturer": "PAL Robotics",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-17",
+   "type": "added",
+   "source": "https://pal-robotics.com/robot/tiago-omni-base/",
+   "commit": "ebcdc70",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://pal-robotics.com/robot/tiago-omni-base/",
+   "commit": "c3614dc",
+   "changes": [
+    {
+     "field": "ros2_support",
+     "from": null,
+     "to": true
+    },
+    {
+     "field": "ros2_url",
+     "from": null,
+     "to": "https://github.com/pal-robotics/tiago_robot"
+    },
+    {
+     "field": "sources",
+     "from": [
+      "https://pal-robotics.com/robot/tiago-omni-base/"
+     ],
+     "to": [
+      "https://pal-robotics.com/robot/tiago-omni-base/",
+      "https://github.com/pal-robotics/tiago_robot"
+     ]
+    }
+   ]
+  }
+ ]
+}

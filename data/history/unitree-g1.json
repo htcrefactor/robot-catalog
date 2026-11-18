@@ -1,0 +1,214 @@
+{
+ "id": "unitree-g1",
+ "name": "G1",
+ "manufacturer": "Unitree Robotics",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-03",
+   "type": "added",
+   "source": "https://www.unitree.com/g1",
+   "commit": "1a533a7",
+   "changes": []
+  },
+  {
+   "date": "2026-11-13",
+   "type": "updated",
+   "source": "https://www.unitree.com/g1",
+   "commit": "14cd746",
+   "changes": [
+    {
+     "field": "sources",
+     "from": [
+      "https://www.unitree.com/g1",
+      "https://github.com/unitreerobotics/unitree_sdk2"
+     ],
+     "to": [
+      "https://www.unitree.com/g1",
+      "https://github.com/unitreerobotics/unitree_sdk2",
+      "https://humanoidstore.co/robots/unitree-g1",
+      "https://humanoidstore.co/robots/unitree-g1-edu",
+      "https://humanoidstore.co/robots/unitree-g1-plus"
+     ]
+    }
+   ]
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://www.unitree.com/g1/",
+   "commit": "ae60ceb",
+   "changes": [
+    {
+     "field": "note",
+     "from": null,
+     "to": "Maker page unitree.com/g1 re-checked 2026-11-17: standing 1,320 x 450 x 200 mm (H x W x T), folded 690 x 450 x 300 mm, 35 kg with battery, 23 DoF base (23-43 EDU), arm load about 2 kg (3 kg EDU), about 2 h, US$13.5K base (tax and shipping excluded). The stored height is the maker's standing figure; an earlier G1 manual and the May-2024 launch coverage give 1,270 mm (127 cm), which the current maker page does not state. | Maker figures: 1320 x 450 x 200 mm standing (690 x 450 x 300 folded), ~35 kg, 23 DoF (G1) or 23-43 (G1 EDU), 6 per leg, 1 waist (+2 optional), 5 per arm, optional 7-DoF three-finger hand, 90 Nm knee (120 Nm on EDU), about 2 kg arm load (3 kg on EDU), 9000 mAh quick-release pack, about 2 h, depth camera plus 3D LiDAR, 4-microphone array, 5 W speaker, Wi-Fi 6 and Bluetooth 5.2, 8-core CPU; trotting speed above 2 m/s. Price US$13,500 for G1."
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "official"
+    },
+    {
+     "field": "notes",
+     "from": null,
+     "to": "Issue #17 (2026-11-17): re-checked against Unitree's G1 page - height 1320 mm, weight 35 kg, arm payload 2 kg (3 kg EDU), DoF 23 (6x2 legs + 1 waist + 5x2 arms), runtime 2 h, US$13,500 confirmed. HumanoidStore rows dropped."
+    },
+    {
+     "field": "sources",
+     "from": [
+      "https://www.unitree.com/g1",
+      "https://github.com/unitreerobotics/unitree_sdk2",
+      "https://humanoidstore.co/robots/unitree-g1",
+      "https://humanoidstore.co/robots/unitree-g1-edu",
+      "https://humanoidstore.co/robots/unitree-g1-plus"
+     ],
+     "to": [
+      "https://www.unitree.com/g1",
+      "https://support.unitree.com/home/en/G1_developer/about_G1",
+      "https://www.unitree.com/g1/",
+      "https://www.unitree.com/operate/g1/",
+      "https://github.com/unitreerobotics/unitree_sdk2",
+      "https://humanoidstore.co/robots/unitree-g1",
+      "https://humanoidstore.co/robots/unitree-g1-edu",
+      "https://humanoidstore.co/robots/unitree-g1-plus",
+      "https://github.com/unitreerobotics/unitree_ros/blob/master/robots/g1_description/g1_29dof.urdf",
+      "https://github.com/unitreerobotics/unitree_sdk2_python",
+      "https://github.com/unitreerobotics/unitree_ros",
+      "https://github.com/unitreerobotics/unitree_ros2",
+      "https://github.com/unitreerobotics/unitree_mujoco",
+      "https://shop.unitree.com/products/unitree-g1",
+      "https://www.younginmobility.com/"
+     ]
+    },
+    {
+     "field": "compute_detail",
+     "from": "8-core CPU standard; EDU adds optional high-compute module (e.g. NVIDIA Orin); secondary development on EDU only",
+     "to": "8-core high-performance CPU standard; EDU adds optional high-compute module (e.g. NVIDIA Orin)"
+    },
+    {
+     "field": "max_speed_mps",
+     "from": null,
+     "to": 2.0
+    },
+    {
+     "field": "official_url",
+     "from": "https://www.unitree.com/g1",
+     "to": "https://www.unitree.com/g1/"
+    },
+    {
+     "field": "price_note",
+     "from": "base G1 from US$13.5K (tax/shipping excl.); G1 EDU contact sales; 23 DoF base, 23-43 DoF EDU",
+     "to": null
+    },
+    {
+     "field": "ros_support",
+     "from": null,
+     "to": true
+    },
+    {
+     "field": "sensors",
+     "from": [
+      "Depth camera",
+      "3D LiDAR",
+      "4-mic array"
+     ],
+     "to": [
+      "Depth camera",
+      "3D LiDAR",
+      "4-microphone array"
+     ]
+    },
+    {
+     "field": "summary",
+     "from": "Compact, low-cost humanoid for research, education and development; arm payload ~2 kg (3 kg EDU), 9000 mAh quick-release battery.",
+     "to": "Unitree's small full-body humanoid for research and development, with 23 joints on the base model, expandable to 43 on the EDU version with dexterous hands."
+    },
+    {
+     "field": "open_source_repos",
+     "from": null,
+     "to": [
+      {
+       "name": "unitree_sdk2",
+       "url": "https://github.com/unitreerobotics/unitree_sdk2",
+       "license": "BSD-3-Clause"
+      },
+      {
+       "name": "unitree_ros",
+       "url": "https://github.com/unitreerobotics/unitree_ros",
+       "license": "BSD-3-Clause"
+      }
+     ]
+    },
+    {
+     "field": "sdk",
+     "from": null,
+     "to": {
+      "languages": [
+       "C++",
+       "Python"
+      ],
+      "open_source": true,
+      "license": "BSD-3-Clause",
+      "url": "https://github.com/unitreerobotics/unitree_sdk2"
+     }
+    },
+    {
+     "field": "sim_models",
+     "from": null,
+     "to": {
+      "urdf": {
+       "url": "https://github.com/unitreerobotics/unitree_ros/blob/master/robots/g1_description/g1_29dof.urdf",
+       "license": "BSD-3-Clause"
+      }
+     }
+    },
+    {
+     "field": "price_observations",
+     "from": null,
+     "to": [
+      {
+       "date": "2026-11-17",
+       "amount": 13500,
+       "currency": "USD",
+       "kind": "list",
+       "source": "https://shop.unitree.com/products/unitree-g1",
+       "note": "G1 base unit; G1 Pro US$21,500 on the same page; tax and freight excluded; G1 EDU by quote"
+      }
+     ]
+    },
+    {
+     "field": "price_usd",
+     "from": 13500,
+     "to": null
+    },
+    {
+     "field": "kr_distributors",
+     "from": null,
+     "to": [
+      {
+       "name": "영인모빌리티 (Unitree 한국 공식 파트너)",
+       "kind": "distributor",
+       "url": "https://www.younginmobility.com/"
+      }
+     ]
+    },
+    {
+     "field": "compute_memory_gb",
+     "from": null,
+     "to": 16
+    },
+    {
+     "field": "compute_soc",
+     "from": null,
+     "to": "NVIDIA Jetson Orin NX"
+    },
+    {
+     "field": "compute_source",
+     "from": null,
+     "to": "https://www.unitree.com/g1"
+    }
+   ]
+  }
+ ]
+}

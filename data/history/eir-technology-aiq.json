@@ -1,0 +1,105 @@
+{
+ "id": "eir-technology-aiq",
+ "name": "AIQ",
+ "manufacturer": "EIR Technology",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-17",
+   "type": "added",
+   "source": null,
+   "commit": "b596d3e",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://www.eir.com.cn/aiq",
+   "commit": "4b395bc",
+   "changes": [
+    {
+     "field": "compute_detail",
+     "from": null,
+     "to": "NVIDIA Orin NX Super 16GB (perception), Intel Core i5-1350P (motion control), i9-12900HK (face projection), RK3576 (networking)"
+    },
+    {
+     "field": "dof",
+     "from": null,
+     "to": 32
+    },
+    {
+     "field": "height_mm",
+     "from": null,
+     "to": 1430
+    },
+    {
+     "field": "note",
+     "from": null,
+     "to": "Maker product page (eir.com.cn/aiq, read 2026-11-17): 1.43 m, 38 kg, 32 DoF excluding arm end effectors, 2 h runtime, 3 kg payload, aviation aluminium with high-strength engineering plastic, 40 N.m rated joint torque, 8-mic 360-degree ring array, 3D ultra-short-throw projected face, 10 W x 2 speakers, optional remote controller and dexterous hands, hot-swappable quick-charge battery, Orin NX Super 16GB for perception plus an Intel Core i5-1350P for motion, an i9-12900HK for projection and RK3576 for networking. Arm layout: shoulder 2 + elbow 1 + wrist 2 per arm, 3 neck, 3 per hip-knee-ankle leg. The maker's launch price is CNY 98,000 (interaction and motion-control editions), reported by Sichuan Daily's Chuanguan News on 20 Aug 2026; no USD price is published, so price_usd stays empty."
+    },
+    {
+     "field": "official_url",
+     "from": null,
+     "to": "https://www.eir.com.cn/aiq"
+    },
+    {
+     "field": "onboard_compute",
+     "from": null,
+     "to": true
+    },
+    {
+     "field": "payload_kg",
+     "from": null,
+     "to": 3
+    },
+    {
+     "field": "price_note",
+     "from": null,
+     "to": "from CNY 98,000 (maker launch price at WRC, 19 Aug 2026)"
+    },
+    {
+     "field": "runtime_h",
+     "from": null,
+     "to": 2
+    },
+    {
+     "field": "sensors",
+     "from": [],
+     "to": [
+      "8-mic 360-degree ring array",
+      "3D ultra-short-throw face projection",
+      "10 W x 2 speakers"
+     ]
+    },
+    {
+     "field": "sources",
+     "from": [],
+     "to": [
+      "https://www.eir.com.cn/aiq",
+      "https://cbgc.scol.com.cn/news/7869112"
+     ]
+    },
+    {
+     "field": "status",
+     "from": null,
+     "to": "Commercial"
+    },
+    {
+     "field": "summary",
+     "from": "",
+     "to": "EIR's emotion-focused bipedal humanoid with a 3D projected face, sold in interaction and motion-control editions for banking halls, tourism and education."
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "official"
+    },
+    {
+     "field": "weight_kg",
+     "from": null,
+     "to": 38
+    }
+   ]
+  }
+ ]
+}

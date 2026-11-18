@@ -1,0 +1,44 @@
+{
+ "id": "kuka-kmp-1500",
+ "name": "KMP 1500",
+ "manufacturer": "KUKA",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-03",
+   "type": "added",
+   "source": "https://www.kuka.com/",
+   "commit": "1a533a7",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://www.kuka.com/",
+   "commit": "0c54867",
+   "changes": [
+    {
+     "field": "kr_distributors",
+     "from": null,
+     "to": [
+      {
+       "name": "쿠카로보틱스코리아 (KUKA Robotics Korea Co., Ltd.)",
+       "kind": "direct",
+       "url": "https://www.kuka.com/ko-kr/"
+      }
+     ]
+    },
+    {
+     "field": "sources",
+     "from": [
+      "https://www.kuka.com/-/media/kuka-corporate/countries/nordic/documents/amr---autonomous-mobile-robotics.pdf"
+     ],
+     "to": [
+      "https://www.kuka.com/-/media/kuka-corporate/countries/nordic/documents/amr---autonomous-mobile-robotics.pdf",
+      "https://www.kuka.com/ko-kr/"
+     ]
+    }
+   ]
+  }
+ ]
+}

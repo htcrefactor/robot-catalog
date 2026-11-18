@@ -1,0 +1,101 @@
+{
+ "id": "iit-hyq",
+ "name": "HyQ",
+ "manufacturer": "Istituto Italiano di Tecnologia (IIT)",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-17",
+   "type": "added",
+   "source": null,
+   "commit": "b596d3e",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://dls.iit.it/hyq",
+   "commit": "1173def",
+   "changes": [
+    {
+     "field": "compute_detail",
+     "from": null,
+     "to": "PC104 Pentium with real-time Linux (Xenomai), 1 kHz joint control"
+    },
+    {
+     "field": "dof",
+     "from": null,
+     "to": 12
+    },
+    {
+     "field": "height_mm",
+     "from": null,
+     "to": 980
+    },
+    {
+     "field": "length_mm",
+     "from": null,
+     "to": 1000
+    },
+    {
+     "field": "max_speed_mps",
+     "from": null,
+     "to": 2
+    },
+    {
+     "field": "note",
+     "from": null,
+     "to": "Maker page (Dynamic Legged Systems): 1.0 x 0.5 x 0.98 m with legs stretched, 80 kg with external hydraulics and 100 kg with the onboard supply, 12 hydraulically actuated DoF, running up to 2 m/s, stereo camera and lidar, PC104 Pentium running real-time Linux. The 2011 design paper gives 70 kg / 91 kg for the same machine, so the maker's page figures are kept and the paper's are recorded here as the conflict."
+    },
+    {
+     "field": "official_url",
+     "from": null,
+     "to": "https://dls.iit.it/hyq"
+    },
+    {
+     "field": "onboard_compute",
+     "from": null,
+     "to": true
+    },
+    {
+     "field": "sensors",
+     "from": [],
+     "to": [
+      "Joint position and torque sensors",
+      "IMU",
+      "Hydraulic pressure sensing",
+      "Stereo camera",
+      "LIDAR"
+     ]
+    },
+    {
+     "field": "sources",
+     "from": [],
+     "to": [
+      "https://dls.iit.it/hyq"
+     ]
+    },
+    {
+     "field": "summary",
+     "from": "",
+     "to": "IIT's hydraulically actuated quadruped research platform, the base of the HyQ line."
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "official"
+    },
+    {
+     "field": "weight_kg",
+     "from": null,
+     "to": 80
+    },
+    {
+     "field": "width_mm",
+     "from": null,
+     "to": 500
+    }
+   ]
+  }
+ ]
+}

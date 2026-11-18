@@ -1,0 +1,99 @@
+{
+ "id": "topstar-star",
+ "name": "Star",
+ "manufacturer": "Topstar",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-17",
+   "type": "added",
+   "source": null,
+   "commit": "b596d3e",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://www.topstarltd.com/lang-cn/productlist/001005.html",
+   "commit": "30bdc91",
+   "changes": [
+    {
+     "field": "dof",
+     "from": null,
+     "to": 41
+    },
+    {
+     "field": "height_mm",
+     "from": null,
+     "to": 1720
+    },
+    {
+     "field": "max_speed_mps",
+     "from": null,
+     "to": 1.2
+    },
+    {
+     "field": "note",
+     "from": null,
+     "to": "Figures as disclosed by Topstar at its TOPS DAY 2026 open day in Dongguan on 2026-11-07: 172 cm, 72 kg, 10 kg dual-arm payload, 41 DoF, 1.2 m/s walking, 7-axis arms with +/-170 deg cross-axis wrists, three RGB-D cameras (head, chest, back) for 360-degree perception, module battery with more than 4 h runtime and quick charging. No maker product page with a spec table was found as of 2026-11-17; mass-production timing, price and first customers are not disclosed."
+    },
+    {
+     "field": "official_url",
+     "from": null,
+     "to": "https://www.topstarltd.com/lang-cn/productlist/001005.html"
+    },
+    {
+     "field": "payload_kg",
+     "from": null,
+     "to": 10
+    },
+    {
+     "field": "release_year",
+     "from": null,
+     "to": 2026
+    },
+    {
+     "field": "runtime_h",
+     "from": null,
+     "to": 4
+    },
+    {
+     "field": "sensors",
+     "from": [],
+     "to": [
+      "3 RGB-D cameras (head, chest, back) for 360-degree perception",
+      "Microphone array and speaker"
+     ]
+    },
+    {
+     "field": "sources",
+     "from": [],
+     "to": [
+      "https://www.topstarltd.com/lang-cn/productlist/001005.html",
+      "https://www.topstarltd.com/"
+     ]
+    },
+    {
+     "field": "status",
+     "from": null,
+     "to": "Announced"
+    },
+    {
+     "field": "summary",
+     "from": "",
+     "to": "Full-size industrial bipedal humanoid from Topstar with 7-axis arms and cross-axis wrists, aimed at material handling and sorting on existing production lines."
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "official"
+    },
+    {
+     "field": "weight_kg",
+     "from": null,
+     "to": 72
+    }
+   ]
+  }
+ ]
+}

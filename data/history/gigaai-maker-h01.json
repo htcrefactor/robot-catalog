@@ -1,0 +1,50 @@
+{
+ "id": "gigaai-maker-h01",
+ "name": "Maker H01",
+ "manufacturer": "GigaAI",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-17",
+   "type": "added",
+   "source": null,
+   "commit": "b596d3e",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://gigaai.cc/",
+   "commit": "b310609",
+   "changes": [
+    {
+     "field": "note",
+     "from": null,
+     "to": "Maker homepage describes Maker H01 as a physical-AGI native body: adult-height version of about 1.6 m, 'twenty-plus' whole-body DoF, high-DoF dual arms on a mobile chassis, GigaBrain end-to-end VLA and GigaWorld simulation. No numeric spec table is published, so dimensions, mass, payload, battery and price stay empty. Third-party catalogue figures (28 DoF, 64 kg, 5 kg payload, 2.2 m/s, 160-162 cm) were not used."
+    },
+    {
+     "field": "official_url",
+     "from": null,
+     "to": "https://gigaai.cc/"
+    },
+    {
+     "field": "sources",
+     "from": [],
+     "to": [
+      "https://gigaai.cc/"
+     ]
+    },
+    {
+     "field": "summary",
+     "from": "",
+     "to": "GigaAI's wheeled industrial and service humanoid (about 1.6 m, twenty-plus DoF, dual 7-DoF arms) built as the body for its GigaBrain VLA model."
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "official"
+    }
+   ]
+  }
+ ]
+}

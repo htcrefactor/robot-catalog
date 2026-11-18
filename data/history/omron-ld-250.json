@@ -1,0 +1,88 @@
+{
+ "id": "omron-ld-250",
+ "name": "LD-250",
+ "manufacturer": "OMRON",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-03",
+   "type": "added",
+   "source": "https://robotics.omron.com/products/mobile-robots/ld-series/ld-250/",
+   "commit": "1a533a7",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://robotics.omron.com/products/mobile-robots/ld-series/ld-250/",
+   "commit": "0c54867",
+   "changes": [
+    {
+     "field": "certifications",
+     "from": null,
+     "to": [
+      "cULus",
+      "cRUus"
+     ]
+    },
+    {
+     "field": "safety_note",
+     "from": null,
+     "to": "ISO 3691-4 except clauses 4.1.15b, 4.8.2.6 items 6–7, 4.12 and 4.14. Safety scanning laser is Class 1 PL d per ISO 13849-1. AMR and docking station are cULus, battery cRUus."
+    },
+    {
+     "field": "safety_pl",
+     "from": null,
+     "to": "PL d"
+    },
+    {
+     "field": "safety_source",
+     "from": null,
+     "to": "https://assets.omron.eu/downloads/latest/datasheet/en/i828_ld-series_mobile_robot_datasheet_en.pdf"
+    },
+    {
+     "field": "safety_standards",
+     "from": null,
+     "to": [
+      "UL 3100",
+      "EN ISO 12100",
+      "EN ISO 13849-1",
+      "EN 60204-1",
+      "ANSI B56.5",
+      "EN ISO 3691-4",
+      "EN 61000-6-2",
+      "EN 61000-6-4",
+      "KN 61000-6-2",
+      "KN 61000-6-4",
+      "UN 38.3",
+      "ANSI/CAN/UL/ULC 2271",
+      "UL 1012",
+      "CSA C22.2.107.2"
+     ]
+    },
+    {
+     "field": "kr_distributors",
+     "from": null,
+     "to": [
+      {
+       "name": "한국오므론제어기기(주)",
+       "kind": "direct",
+       "url": "https://www.omron.co.kr/"
+      }
+     ]
+    },
+    {
+     "field": "sources",
+     "from": [
+      "https://assets.omron.eu/downloads/latest/datasheet/en/i828_ld-series_mobile_robot_datasheet_en.pdf"
+     ],
+     "to": [
+      "https://assets.omron.eu/downloads/latest/datasheet/en/i828_ld-series_mobile_robot_datasheet_en.pdf",
+      "https://www.omron.co.kr/",
+      "https://robotics.omron.com/ko/products/mobile-robots/ld-series/ld-250/"
+     ]
+    }
+   ]
+  }
+ ]
+}

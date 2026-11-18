@@ -1,0 +1,60 @@
+{
+ "id": "raion-robotics-raibo2",
+ "name": "RAIBO2",
+ "manufacturer": "Raion Robotics",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-17",
+   "type": "added",
+   "source": "https://raionrobotics.com/en/product/Raibo2",
+   "commit": "b596d3e",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://raionrobotics.com/en/product/Raibo2",
+   "commit": "0c54867",
+   "changes": [
+    {
+     "field": "kr_distributors",
+     "from": null,
+     "to": [
+      {
+       "name": "라이온로보틱스 (본사 직판)",
+       "kind": "direct",
+       "url": "https://raionrobotics.com/"
+      }
+     ]
+    },
+    {
+     "field": "manufacturer_ko",
+     "from": null,
+     "to": "라이온로보틱스"
+    },
+    {
+     "field": "name_ko",
+     "from": null,
+     "to": "라이보2"
+    },
+    {
+     "field": "sources",
+     "from": [
+      "https://raionrobotics.com/en/product/Raibo2",
+      "https://www.hannovermesse.de/apollo/hannover_messe_2026/obs/Binary/A1513828/Company%20ProfileEN_smallsize_1.pdf",
+      "https://railab.kaist.ac.kr/sections/robots.html",
+      "https://doi.org/10.21203/rs.3.rs-6040970/v1"
+     ],
+     "to": [
+      "https://raionrobotics.com/en/product/Raibo2",
+      "https://www.hannovermesse.de/apollo/hannover_messe_2026/obs/Binary/A1513828/Company%20ProfileEN_smallsize_1.pdf",
+      "https://railab.kaist.ac.kr/sections/robots.html",
+      "https://doi.org/10.21203/rs.3.rs-6040970/v1",
+      "https://raionrobotics.com/"
+     ]
+    }
+   ]
+  }
+ ]
+}

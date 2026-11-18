@@ -1,0 +1,51 @@
+{
+ "id": "ihub-robotics-karna",
+ "name": "KARNA",
+ "manufacturer": "iHub Robotics",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-17",
+   "type": "added",
+   "source": null,
+   "commit": "b596d3e",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://www.ihubrobotics.com/karna",
+   "commit": "b310609",
+   "changes": [
+    {
+     "field": "note",
+     "from": null,
+     "to": "The maker page (/karna) exists and names KARNA a 'Full-Body Heavy Industrial Humanoid', but its specification block is rendered by script and returned no values on 2026-11-17, and no datasheet is published. Height, mass, DoF, payload, runtime, battery and price therefore stay empty."
+    },
+    {
+     "field": "official_url",
+     "from": null,
+     "to": "https://www.ihubrobotics.com/karna"
+    },
+    {
+     "field": "sources",
+     "from": [],
+     "to": [
+      "https://www.ihubrobotics.com/karna",
+      "https://www.ihubrobotics.com/"
+     ]
+    },
+    {
+     "field": "summary",
+     "from": "",
+     "to": "iHub Robotics' KARNA, listed as its full-body heavy industrial humanoid for high-payload factory work."
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "official"
+    }
+   ]
+  }
+ ]
+}

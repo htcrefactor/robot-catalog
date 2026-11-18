@@ -1,0 +1,119 @@
+{
+ "id": "unitree-go1",
+ "name": "Go1",
+ "manufacturer": "Unitree Robotics",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-17",
+   "type": "added",
+   "source": "https://www.unitree.com/go1/",
+   "commit": "b596d3e",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://www.unitree.com/go1/",
+   "commit": "0c54867",
+   "changes": [
+    {
+     "field": "open_source_repos",
+     "from": null,
+     "to": [
+      {
+       "name": "unitree_legged_sdk",
+       "url": "https://github.com/unitreerobotics/unitree_legged_sdk",
+       "license": "BSD-3-Clause"
+      },
+      {
+       "name": "unitree_ros",
+       "url": "https://github.com/unitreerobotics/unitree_ros",
+       "license": "BSD-3-Clause"
+      }
+     ]
+    },
+    {
+     "field": "sdk",
+     "from": null,
+     "to": {
+      "languages": [
+       "C++",
+       "Python"
+      ],
+      "open_source": true,
+      "license": "BSD-3-Clause",
+      "url": "https://github.com/unitreerobotics/unitree_legged_sdk"
+     }
+    },
+    {
+     "field": "sim_models",
+     "from": null,
+     "to": {
+      "urdf": {
+       "url": "https://github.com/unitreerobotics/unitree_ros/blob/master/robots/go1_description/urdf/go1.urdf",
+       "license": "BSD-3-Clause"
+      }
+     }
+    },
+    {
+     "field": "sources",
+     "from": [
+      "https://www.unitree.com/go1/"
+     ],
+     "to": [
+      "https://www.unitree.com/go1/",
+      "https://github.com/unitreerobotics/unitree_legged_sdk",
+      "https://github.com/unitreerobotics/unitree_ros/blob/master/robots/go1_description/urdf/go1.urdf",
+      "https://github.com/unitreerobotics/unitree_ros",
+      "https://shop.unitree.com/products/unitreeyushutechnologydog-artificial-intelligence-companion-bionic-companion-intelligent-robot-go1-quadruped-robot-dog",
+      "https://www.younginmobility.com/"
+     ]
+    },
+    {
+     "field": "price_note",
+     "from": "Go1 Air $2,700; Go1 Pro $3,500 (tax/freight excluded); Edu by quote",
+     "to": null
+    },
+    {
+     "field": "price_observations",
+     "from": null,
+     "to": [
+      {
+       "date": "2026-11-17",
+       "amount": 2700,
+       "currency": "USD",
+       "kind": "list",
+       "source": "https://shop.unitree.com/products/unitreeyushutechnologydog-artificial-intelligence-companion-bionic-companion-intelligent-robot-go1-quadruped-robot-dog",
+       "note": "Go1 Air"
+      },
+      {
+       "date": "2026-11-17",
+       "amount": 3500,
+       "currency": "USD",
+       "kind": "list",
+       "source": "https://shop.unitree.com/products/unitreeyushutechnologydog-artificial-intelligence-companion-bionic-companion-intelligent-robot-go1-quadruped-robot-dog",
+       "note": "Go1 Pro"
+      }
+     ]
+    },
+    {
+     "field": "price_usd",
+     "from": 2700,
+     "to": null
+    },
+    {
+     "field": "kr_distributors",
+     "from": null,
+     "to": [
+      {
+       "name": "영인모빌리티 (Unitree 한국 공식 파트너)",
+       "kind": "distributor",
+       "url": "https://www.younginmobility.com/"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

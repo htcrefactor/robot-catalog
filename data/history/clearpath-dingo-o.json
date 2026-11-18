@@ -1,0 +1,79 @@
+{
+ "id": "clearpath-dingo-o",
+ "name": "Dingo-O",
+ "manufacturer": "Clearpath Robotics (Rockwell Automation)",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-03",
+   "type": "added",
+   "source": "https://clearpathrobotics.com/dingo-indoor-mobile-robot/",
+   "commit": "1a533a7",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://clearpathrobotics.com/dingo-indoor-mobile-robot/",
+   "commit": "c3614dc",
+   "changes": [
+    {
+     "field": "notes",
+     "from": null,
+     "to": "Maker page: 686 x 517 x 114 mm, 13.0 kg, 20 kg payload, 1.3 m/s, 16 mm obstacle clearance, shipped with ROS 2 Jazzy and Gazebo/RViz/MoveIt support. The page describes the Dingo platform as omnidirectional; wheel diameter and battery figures come from the user manual."
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "official"
+    },
+    {
+     "field": "open_source_repos",
+     "from": null,
+     "to": [
+      {
+       "name": "clearpath_robot",
+       "url": "https://github.com/clearpathrobotics/clearpath_robot",
+       "license": "BSD-3-Clause"
+      }
+     ]
+    },
+    {
+     "field": "ros2_support",
+     "from": null,
+     "to": true
+    },
+    {
+     "field": "ros2_url",
+     "from": null,
+     "to": "https://github.com/clearpathrobotics/clearpath_robot"
+    },
+    {
+     "field": "sdk",
+     "from": null,
+     "to": {
+      "languages": [
+       "C++",
+       "Python"
+      ],
+      "open_source": true,
+      "license": "BSD-3-Clause",
+      "url": "https://github.com/clearpathrobotics/clearpath_robot"
+     }
+    },
+    {
+     "field": "sources",
+     "from": [
+      "https://clearpathrobotics.com/dingo-indoor-mobile-robot/",
+      "https://docs.clearpathrobotics.com/docs_robots/indoor_robots/dingo/user_manual_dingo"
+     ],
+     "to": [
+      "https://clearpathrobotics.com/dingo-indoor-mobile-robot/",
+      "https://docs.clearpathrobotics.com/docs_robots/indoor_robots/dingo/user_manual_dingo",
+      "https://github.com/clearpathrobotics/clearpath_robot"
+     ]
+    }
+   ]
+  }
+ ]
+}

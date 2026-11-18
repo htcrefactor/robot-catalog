@@ -1,0 +1,60 @@
+{
+ "id": "zeroth-jupiter",
+ "name": "Jupiter",
+ "manufacturer": "Zeroth",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-17",
+   "type": "added",
+   "source": "https://www.zeroth0.com/products/jupiter",
+   "commit": "b596d3e",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://www.zeroth0.com/products/jupiter",
+   "commit": "be08523",
+   "changes": [
+    {
+     "field": "dof",
+     "from": null,
+     "to": 25
+    },
+    {
+     "field": "height_mm",
+     "from": null,
+     "to": 1650
+    },
+    {
+     "field": "note",
+     "from": "Official Zeroth store page; reservation price $89,999 (list $131,999), US shipping. Maker entity: Suzhou JoyIn Intelligent Technology (Zeroth). Height/weight only on IFA/ITU pages (left null).",
+     "to": "Official Zeroth store page: reservation price $89,999 (list $131,999), US shipping; maker entity Suzhou JoyIn Intelligent Technology (Zeroth). Height, weight, joints and runtime come from the maker-supplied IFA 2026 exhibitor listing for Zeroth: 165 cm, 58 kg, 25 joints, 22 hand articulation points (10 per hand), footprint about 2 m2, 2 h 20 min of active use -> 1650 mm, 58 kg, 25 DoF, 2.33 h. Zeroth publishes no payload or top speed for Jupiter (store and product pages have no specification table) - left empty; humanoid.guide's 60 kg / 30 DoF / 4 h / 6 kg are not maker-stated and were not used."
+    },
+    {
+     "field": "runtime_h",
+     "from": null,
+     "to": 2.33
+    },
+    {
+     "field": "sources",
+     "from": [
+      "https://www.zeroth0.com/products/jupiter",
+      "https://www.zeroth0.com/zh/products/jupiter"
+     ],
+     "to": [
+      "https://www.zeroth0.com/products/jupiter",
+      "https://www.zeroth0.com/zh/products/jupiter",
+      "https://www.ifa-berlin.com/exhibitors/zeroth"
+     ]
+    },
+    {
+     "field": "weight_kg",
+     "from": null,
+     "to": 58
+    }
+   ]
+  }
+ ]
+}

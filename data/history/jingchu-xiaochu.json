@@ -1,0 +1,109 @@
+{
+ "id": "jingchu-xiaochu",
+ "name": "Xiaochu",
+ "manufacturer": "Hubei Jingchu Humanoid Robot (JCBOT)",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-17",
+   "type": "added",
+   "source": null,
+   "commit": "b596d3e",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://www.jingchurobot.cn",
+   "commit": "b310609",
+   "changes": [
+    {
+     "field": "battery_wh",
+     "from": null,
+     "to": 288
+    },
+    {
+     "field": "dof",
+     "from": null,
+     "to": 12
+    },
+    {
+     "field": "height_mm",
+     "from": null,
+     "to": 850
+    },
+    {
+     "field": "max_speed_mps",
+     "from": null,
+     "to": 1.7
+    },
+    {
+     "field": "note",
+     "from": null,
+     "to": "Maker exhibit entry and brochure: about 85 cm, about 28 kg, 12 DoF excluding the optional gripper (3 per leg, 3 per arm), ~1 kg arm payload, 37 cm arm length, 1.7 m/s, 48 V 6 Ah (=288 Wh derived), about 5 h runtime, stereo depth camera for autonomous navigation, AI voice kit, rotatory joint modules with hub motors for squatting, waving and dancing, Orin NX compute, optional gripper, group control of dozens of units, custom shells and IP tie-ins. In use at tourism venues; no price published."
+    },
+    {
+     "field": "official_url",
+     "from": null,
+     "to": "https://www.jingchurobot.cn"
+    },
+    {
+     "field": "onboard_compute",
+     "from": null,
+     "to": "NVIDIA Jetson Orin NX"
+    },
+    {
+     "field": "payload_kg",
+     "from": null,
+     "to": 1
+    },
+    {
+     "field": "runtime_h",
+     "from": null,
+     "to": 5.0
+    },
+    {
+     "field": "sdk_available",
+     "from": null,
+     "to": true
+    },
+    {
+     "field": "sdk_name",
+     "from": null,
+     "to": "SDK + handheld remote"
+    },
+    {
+     "field": "sensors",
+     "from": [],
+     "to": [
+      "Stereo depth camera",
+      "IMU"
+     ]
+    },
+    {
+     "field": "sources",
+     "from": [],
+     "to": [
+      "https://wrc.cie.org.cn/expo/product/1341.html",
+      "https://wrc.cie.org.cn/profile/robot/download/2026/07/30/20260730092623000149_20260730092623A923.pdf"
+     ]
+    },
+    {
+     "field": "summary",
+     "from": "",
+     "to": "Jingchu's small wheeled humanoid Xiaochu (85 cm, 28 kg) for education, tourism guidance and home companionship."
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "official"
+    },
+    {
+     "field": "weight_kg",
+     "from": null,
+     "to": 28
+    }
+   ]
+  }
+ ]
+}

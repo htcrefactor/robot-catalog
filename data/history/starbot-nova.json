@@ -1,0 +1,101 @@
+{
+ "id": "starbot-nova",
+ "name": "Nova",
+ "manufacturer": "StarBot Robotics",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-17",
+   "type": "added",
+   "source": null,
+   "commit": "b596d3e",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://www.starbotusa.com/",
+   "commit": "75b989d",
+   "changes": [
+    {
+     "field": "height_mm",
+     "from": null,
+     "to": 1520
+    },
+    {
+     "field": "max_speed_mps",
+     "from": null,
+     "to": 1.2
+    },
+    {
+     "field": "note",
+     "from": null,
+     "to": "Maker page and its specification sheet (a Nova reference configuration): 5 ft (about 152 cm), 70 lb (31.8 kg), wheeled differential drive with zero-radius turning, 0.8-1.2 m/s (1.2 m/s entered as the upper bound), 2-3 kg arm payload (3 kg entered), depth cameras plus RGB camera and IMU, on-device LLM with cloud fallback, voice interaction in English/Spanish/Italian, interactive touchscreen, target runtime up to 10-12 h configuration-dependent (11 h entered as the midpoint), 3 h charge, indoor commercial spaces, Wi-Fi with OTA updates and a monitoring dashboard. Launched December 2025 when the company moved from bipedal testing to a wheeled base with two 7-DOF arms. DOF total, battery capacity and price are not stated."
+    },
+    {
+     "field": "official_url",
+     "from": null,
+     "to": "https://www.starbotusa.com/"
+    },
+    {
+     "field": "onboard_compute",
+     "from": null,
+     "to": "On-device LLM with cloud fallback"
+    },
+    {
+     "field": "payload_kg",
+     "from": null,
+     "to": 3
+    },
+    {
+     "field": "release_year",
+     "from": null,
+     "to": 2025
+    },
+    {
+     "field": "runtime_h",
+     "from": null,
+     "to": 11
+    },
+    {
+     "field": "sensors",
+     "from": [],
+     "to": [
+      "Depth cameras (Intel RealSense class)",
+      "RGB camera",
+      "IMU",
+      "Interactive touchscreen"
+     ]
+    },
+    {
+     "field": "sources",
+     "from": [],
+     "to": [
+      "https://www.starbotusa.com/",
+      "https://www.starbotusa.com/features"
+     ]
+    },
+    {
+     "field": "status",
+     "from": null,
+     "to": "Commercial"
+    },
+    {
+     "field": "summary",
+     "from": "",
+     "to": "Nova is StarBot's first-generation wheeled service humanoid — a 5 ft, differential-drive platform with two arms, on-device LLM conversation and a touchscreen, used for hospitality and retail pilots."
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "official"
+    },
+    {
+     "field": "weight_kg",
+     "from": null,
+     "to": 31.8
+    }
+   ]
+  }
+ ]
+}

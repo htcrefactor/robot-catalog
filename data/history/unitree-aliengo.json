@@ -1,0 +1,83 @@
+{
+ "id": "unitree-aliengo",
+ "name": "AlienGo",
+ "manufacturer": "Unitree Robotics",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-17",
+   "type": "added",
+   "source": "https://www.unitree.com/aliengo/",
+   "commit": "b596d3e",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://www.unitree.com/aliengo/",
+   "commit": "0c54867",
+   "changes": [
+    {
+     "field": "sdk",
+     "from": null,
+     "to": {
+      "languages": [
+       "C++"
+      ],
+      "open_source": true,
+      "license": "BSD-3-Clause",
+      "url": "https://github.com/unitreerobotics/unitree_legged_sdk"
+     }
+    },
+    {
+     "field": "sim_models",
+     "from": null,
+     "to": {
+      "urdf": {
+       "url": "https://github.com/unitreerobotics/unitree_ros/blob/master/robots/aliengo_description/urdf/aliengo.urdf",
+       "license": "BSD-3-Clause"
+      }
+     }
+    },
+    {
+     "field": "sources",
+     "from": [
+      "https://www.unitree.com/aliengo/"
+     ],
+     "to": [
+      "https://www.unitree.com/aliengo/",
+      "https://github.com/unitreerobotics/unitree_legged_sdk",
+      "https://github.com/unitreerobotics/unitree_ros/blob/master/robots/aliengo_description/urdf/aliengo.urdf",
+      "https://shop.unitree.com/products/aliengo",
+      "https://www.younginmobility.com/"
+     ]
+    },
+    {
+     "field": "price_observations",
+     "from": null,
+     "to": [
+      {
+       "date": "2026-11-17",
+       "amount": 50000,
+       "currency": "USD",
+       "kind": "list",
+       "source": "https://shop.unitree.com/products/aliengo",
+       "note": "store lists US$50,000 for Aliengo"
+      }
+     ]
+    },
+    {
+     "field": "kr_distributors",
+     "from": null,
+     "to": [
+      {
+       "name": "영인모빌리티 (Unitree 한국 공식 파트너)",
+       "kind": "distributor",
+       "url": "https://www.younginmobility.com/"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,124 @@
+{
+ "id": "unitree-go2-edu",
+ "name": "Go2 EDU",
+ "manufacturer": "Unitree Robotics",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-03",
+   "type": "added",
+   "source": "https://www.unitree.com/go2",
+   "commit": "1a533a7",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://www.unitree.com/go2",
+   "commit": "0c54867",
+   "changes": [
+    {
+     "field": "note",
+     "from": null,
+     "to": "Unitree Go2 page comparison table (EDU column, checked 2026-11-17): 70 x 31 x 40 cm, about 15 kg, payload about 8 kg (max ~12 kg), 0-3.7 m/s (max ~5 m/s), 12 joint motors, long-endurance 15000 mAh battery, about 2-4 h (2 h recorded is the lower bound), foot-end force sensor, depth camera, secondary development supported; optional Orin module 40-100 TOPS. Only EDU supports the full SDK and secondary development."
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "official"
+    },
+    {
+     "field": "open_source_repos",
+     "from": null,
+     "to": [
+      {
+       "name": "unitree_sdk2",
+       "url": "https://github.com/unitreerobotics/unitree_sdk2",
+       "license": "BSD-3-Clause"
+      },
+      {
+       "name": "unitree_ros2",
+       "url": "https://github.com/unitreerobotics/unitree_ros2",
+       "license": "BSD-3-Clause"
+      },
+      {
+       "name": "unitree_ros",
+       "url": "https://github.com/unitreerobotics/unitree_ros",
+       "license": "BSD-3-Clause"
+      },
+      {
+       "name": "unitree_mujoco",
+       "url": "https://github.com/unitreerobotics/unitree_mujoco",
+       "license": "BSD-3-Clause"
+      }
+     ]
+    },
+    {
+     "field": "ros2_support",
+     "from": null,
+     "to": true
+    },
+    {
+     "field": "ros2_url",
+     "from": null,
+     "to": "https://github.com/unitreerobotics/unitree_ros2"
+    },
+    {
+     "field": "sdk",
+     "from": null,
+     "to": {
+      "languages": [
+       "C++",
+       "Python"
+      ],
+      "open_source": true,
+      "license": "BSD-3-Clause",
+      "url": "https://github.com/unitreerobotics/unitree_sdk2"
+     }
+    },
+    {
+     "field": "sim_models",
+     "from": null,
+     "to": {
+      "urdf": {
+       "url": "https://github.com/unitreerobotics/unitree_ros/blob/master/robots/go2_description/urdf/go2_description.urdf",
+       "license": "BSD-3-Clause"
+      },
+      "mujoco": {
+       "url": "https://github.com/unitreerobotics/unitree_mujoco",
+       "license": "BSD-3-Clause"
+      }
+     }
+    },
+    {
+     "field": "sources",
+     "from": [
+      "https://www.unitree.com/go2",
+      "https://github.com/unitreerobotics/unitree_sdk2"
+     ],
+     "to": [
+      "https://www.unitree.com/go2",
+      "https://github.com/unitreerobotics/unitree_sdk2",
+      "https://github.com/unitreerobotics/unitree_ros2",
+      "https://github.com/unitreerobotics/unitree_ros/blob/master/robots/go2_description/urdf/go2_description.urdf",
+      "https://github.com/unitreerobotics/unitree_mujoco",
+      "https://github.com/unitreerobotics/unitree_sdk2_python",
+      "https://github.com/unitreerobotics/unitree_ros",
+      "https://www.younginmobility.com/"
+     ]
+    },
+    {
+     "field": "kr_distributors",
+     "from": null,
+     "to": [
+      {
+       "name": "영인모빌리티 (Unitree 한국 공식 파트너)",
+       "kind": "distributor",
+       "url": "https://www.younginmobility.com/"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

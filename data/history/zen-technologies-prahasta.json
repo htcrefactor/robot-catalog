@@ -1,0 +1,50 @@
+{
+ "id": "zen-technologies-prahasta",
+ "name": "Prahasta",
+ "manufacturer": "Zen Technologies",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-17",
+   "type": "added",
+   "source": null,
+   "commit": "b596d3e",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://www.zentechnologies.com/prahasta.php",
+   "commit": "fa098f7",
+   "changes": [
+    {
+     "field": "note",
+     "from": null,
+     "to": "Zen's own Prahasta page (checked 2026-11-17) describes the robot and its weapon compatibility but publishes no numeric specification at all - no mass, dimensions, speed, payload, runtime or battery. Press coverage of the July 2024 launch gives 2.5 h with a 45 kg load, an 80 kg lift and obstacles of about 40 cm, but those figures are press-only, so no field is filled."
+    },
+    {
+     "field": "official_url",
+     "from": null,
+     "to": "https://www.zentechnologies.com/prahasta.php"
+    },
+    {
+     "field": "sources",
+     "from": [],
+     "to": [
+      "https://www.zentechnologies.com/prahasta.php"
+     ]
+    },
+    {
+     "field": "summary",
+     "from": "",
+     "to": "Zen Technologies' four-legged robot for counter-insurgency and close-quarter defence work, using LiDAR and reinforcement learning and carrying 9 mm, 5.56 mm or 7.62 mm small arms."
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "official"
+    }
+   ]
+  }
+ ]
+}

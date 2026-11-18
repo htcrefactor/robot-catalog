@@ -1,0 +1,55 @@
+{
+ "id": "zte-xingwang",
+ "name": "Xingwang",
+ "manufacturer": "ZTE",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-17",
+   "type": "added",
+   "source": null,
+   "commit": "b596d3e",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://m.c114.com.cn/w127-1314330.html",
+   "commit": "b1429ab",
+   "changes": [
+    {
+     "field": "notes",
+     "from": null,
+     "to": "From ZTE's WAIC 2026 launch release: wheeled heavy-duty robot with a payload of over 30 kg (recorded as 30), already deployed in advanced manufacturing and power-grid inspection. Height, weight, DoF, runtime and battery are not published."
+    },
+    {
+     "field": "official_url",
+     "from": null,
+     "to": "https://m.c114.com.cn/w127-1314330.html"
+    },
+    {
+     "field": "payload_kg",
+     "from": null,
+     "to": 30
+    },
+    {
+     "field": "sources",
+     "from": [],
+     "to": [
+      "https://m.c114.com.cn/w127-1314330.html"
+     ]
+    },
+    {
+     "field": "summary",
+     "from": "",
+     "to": "Wheeled heavy-duty industrial humanoid for material handling and power-facility inspection."
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "official"
+    }
+   ]
+  }
+ ]
+}

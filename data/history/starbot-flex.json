@@ -1,0 +1,65 @@
+{
+ "id": "starbot-flex",
+ "name": "Flex",
+ "manufacturer": "StarBot Robotics",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-17",
+   "type": "added",
+   "source": null,
+   "commit": "b596d3e",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://www.starbotusa.com/",
+   "commit": "75b989d",
+   "changes": [
+    {
+     "field": "height_mm",
+     "from": null,
+     "to": 1753
+    },
+    {
+     "field": "note",
+     "from": null,
+     "to": "Maker page: 5 ft 9 in (about 1,753 mm) foldable wheeled humanoid for evaluation in restaurants, hospitality and retail; released/announced September 2026, with 'availability and final specifications to be announced'. Weight, DOF, payload, speed, battery, runtime and price are not published, so those fields stay empty."
+    },
+    {
+     "field": "official_url",
+     "from": null,
+     "to": "https://www.starbotusa.com/"
+    },
+    {
+     "field": "release_year",
+     "from": null,
+     "to": 2026
+    },
+    {
+     "field": "sources",
+     "from": [],
+     "to": [
+      "https://www.starbotusa.com/"
+     ]
+    },
+    {
+     "field": "status",
+     "from": null,
+     "to": "Announced"
+    },
+    {
+     "field": "summary",
+     "from": "",
+     "to": "StarBot Flex is a 5 ft 9 in foldable wheeled humanoid from StarBot USA, aimed at restaurants, hospitality and retail service workflows."
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "official"
+    }
+   ]
+  }
+ ]
+}

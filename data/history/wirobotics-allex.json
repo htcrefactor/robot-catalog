@@ -1,0 +1,54 @@
+{
+ "id": "wirobotics-allex",
+ "name": "ALLEX",
+ "manufacturer": "WIRobotics",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-17",
+   "type": "added",
+   "source": "https://corp.wirobotics.com/en/product/allex",
+   "commit": "d8dfa07",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://corp.wirobotics.com/en/product/allex",
+   "commit": "0c54867",
+   "changes": [
+    {
+     "field": "kr_distributors",
+     "from": null,
+     "to": [
+      {
+       "name": "위로보틱스 (본사 직판)",
+       "kind": "direct",
+       "url": "https://corp.wirobotics.com/"
+      }
+     ]
+    },
+    {
+     "field": "manufacturer_ko",
+     "from": null,
+     "to": "위로보틱스"
+    },
+    {
+     "field": "name_ko",
+     "from": null,
+     "to": "알렉스"
+    },
+    {
+     "field": "sources",
+     "from": [
+      "https://corp.wirobotics.com/en/product/allex"
+     ],
+     "to": [
+      "https://corp.wirobotics.com/en/product/allex",
+      "https://rih.wirobotics.com/allex"
+     ]
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,109 @@
+{
+ "id": "hubei-qiling-shennong",
+ "name": "Shennong",
+ "manufacturer": "Hubei Qiling Robotics",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-17",
+   "type": "added",
+   "source": null,
+   "commit": "b596d3e",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://wrc.cie.org.cn/expo/product/1392.html",
+   "commit": "b310609",
+   "changes": [
+    {
+     "field": "compute_detail",
+     "from": null,
+     "to": "module-level, TOPS not stated"
+    },
+    {
+     "field": "dof",
+     "from": null,
+     "to": 43
+    },
+    {
+     "field": "height_mm",
+     "from": null,
+     "to": 1750
+    },
+    {
+     "field": "max_speed_mps",
+     "from": null,
+     "to": 2.0
+    },
+    {
+     "field": "note",
+     "from": null,
+     "to": "Maker's own exhibit entry and product brochure (WRC 2026): 175 cm, 55 kg, up to 43 whole-body DoF (7 per arm = 3 shoulder + 1 elbow + 3 wrist, 6 per leg), self-developed high torque-density motors (200 N.m/kg peak), 2.0 m/s navigation and 6 km continuous running, about 2 h endurance, LiDAR + RGB-D perception, AGX Orin / Orin NX compute, open SDK supporting ROS/Python/C++, RL+MPC fused controller, voice interaction. Company founded 2025 with Huazhong University of Science and Technology ties. No price published."
+    },
+    {
+     "field": "official_url",
+     "from": null,
+     "to": "https://wrc.cie.org.cn/expo/product/1392.html"
+    },
+    {
+     "field": "onboard_compute",
+     "from": null,
+     "to": "NVIDIA AGX Orin or Orin NX"
+    },
+    {
+     "field": "ros_support",
+     "from": null,
+     "to": "ROS"
+    },
+    {
+     "field": "runtime_h",
+     "from": null,
+     "to": 2.0
+    },
+    {
+     "field": "sdk_available",
+     "from": null,
+     "to": true
+    },
+    {
+     "field": "sdk_name",
+     "from": null,
+     "to": "Shennong SDK (ROS / Python / C++)"
+    },
+    {
+     "field": "sensors",
+     "from": [],
+     "to": [
+      "LiDAR",
+      "RGB-D camera"
+     ]
+    },
+    {
+     "field": "sources",
+     "from": [],
+     "to": [
+      "https://wrc.cie.org.cn/expo/product/1392.html",
+      "https://wrc.cie.org.cn/profile/robot/download/2026/07/30/20260730123237000308_20260730123237A012.pdf"
+     ]
+    },
+    {
+     "field": "summary",
+     "from": "",
+     "to": "Hubei Qiling's Shennong industrial biped (1.75 m, 43 DoF) built on an RL+MPC whole-body controller for logistics, inspection and education."
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "official"
+    },
+    {
+     "field": "weight_kg",
+     "from": null,
+     "to": 55
+    }
+   ]
+  }
+ ]
+}

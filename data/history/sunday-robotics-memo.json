@@ -1,0 +1,91 @@
+{
+ "id": "sunday-robotics-memo",
+ "name": "Memo",
+ "manufacturer": "Sunday Robotics",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-13",
+   "type": "added",
+   "source": "https://humanoidstore.co/robots/sunday-robotics-memo",
+   "commit": "14cd746",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://www.sunday.ai/",
+   "commit": "75b989d",
+   "changes": [
+    {
+     "field": "data_source",
+     "from": "HumanoidStore open data (CC BY 4.0)",
+     "to": null
+    },
+    {
+     "field": "dof",
+     "from": 27,
+     "to": 20
+    },
+    {
+     "field": "notes",
+     "from": null,
+     "to": "Issue #17 (2026-11-17): Memo - 1.7 m, 77 kg, 20+ DoF (7 per arm, 4 per leg), 1 m/s, per Sunday Robotics' launch material. Sunday publishes no payload, runtime or price, so those fields were emptied. [replaced dof: 27 -> 20 | emptied (no maker value) payload_kg=6; runtime_h=4.0]"
+    },
+    {
+     "field": "payload_kg",
+     "from": 6,
+     "to": null
+    },
+    {
+     "field": "runtime_h",
+     "from": 4.0,
+     "to": null
+    },
+    {
+     "field": "sources",
+     "from": [
+      "https://humanoidstore.co/robots/sunday-robotics-memo"
+     ],
+     "to": [
+      "https://www.sunday.ai/",
+      "https://www.globenewswire.com/news-release/2025/11/19/3191274/0/en/sunday-launches-memo-the-robot-that-actually-learns-your-home.html"
+     ]
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "official"
+    },
+    {
+     "field": "note",
+     "from": null,
+     "to": "Maker site: 170 cm resting at about 4 ft with arms reaching 7 ft (about 210 cm), 170 lb (77 kg), rolling base with passive stability and no legs, about 4 h runtime and 1 h recharge, speed limited by software to roughly half human pace (about 1 m/s), a single camera under the hat brim, compliant control, and DOF given only as a breakdown - arms 2 x 7, hands 2 x 4, torso 1, lower body 4, which sums to 27 (the total is our sum, not the maker's). Hands are IP67 and lower arms IP66. Not for sale: invite-only 2026 beta for Founding Families, and the maker says a hand-built unit costs about USD 20,000 today with retail pricing to be announced, so no price is entered. The earlier 6 kg payload figure is not maker-stated and was removed."
+    },
+    {
+     "field": "official_url",
+     "from": null,
+     "to": "https://www.sunday.ai/"
+    },
+    {
+     "field": "release_year",
+     "from": null,
+     "to": 2025
+    },
+    {
+     "field": "sensors",
+     "from": [],
+     "to": [
+      "Single camera under the hat brim",
+      "Tactile/compliant control sensing"
+     ]
+    },
+    {
+     "field": "summary",
+     "from": "Wheeled (bimanual torso on a wheeled base) humanoid from Sunday Robotics; waitlist, restricted sales.",
+     "to": "Sunday Robotics' Memo is a wheeled two-armed home robot trained from glove-captured human demonstrations, sold as a founding-family beta for clearing tables, dishes, coffee and laundry."
+    }
+   ]
+  }
+ ]
+}

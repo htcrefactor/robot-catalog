@@ -1,0 +1,71 @@
+{
+ "id": "tianlian-t1",
+ "name": "T1",
+ "manufacturer": "Sichuan Tianlian Robotics (TliBot)",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-17",
+   "type": "added",
+   "source": null,
+   "commit": "b596d3e",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://www.tlibot.com/product_detail/36.html",
+   "commit": "30bdc91",
+   "changes": [
+    {
+     "field": "battery_wh",
+     "from": null,
+     "to": 1110
+    },
+    {
+     "field": "dof",
+     "from": null,
+     "to": 41
+    },
+    {
+     "field": "note",
+     "from": null,
+     "to": "Maker figures: 41 body DoF excluding dexterous hands (neck 5, 9 per arm, waist 4, 7 per leg), 43 kg with battery and without skin, 1110 Wh battery, 10 kg maximum arm load and >100 kg deep-load capacity, joint speeds to 720 deg/s (900 deg/s peak), hip 450 Nm, knee 281 Nm, ankle 148 Nm. Height and walking speed are not published on the maker page."
+    },
+    {
+     "field": "official_url",
+     "from": null,
+     "to": "https://www.tlibot.com/product_detail/36.html"
+    },
+    {
+     "field": "payload_kg",
+     "from": null,
+     "to": 10
+    },
+    {
+     "field": "sources",
+     "from": [],
+     "to": [
+      "https://www.tlibot.com/product_detail/36.html",
+      "https://www.tlibot.com/"
+     ]
+    },
+    {
+     "field": "summary",
+     "from": "",
+     "to": "Bipedal humanoid from Sichuan TLIBOT with 41 body DoF and a 1110 Wh battery, rated to carry 10 kg in its arms and over 100 kg in a deep squat."
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "official"
+    },
+    {
+     "field": "weight_kg",
+     "from": null,
+     "to": 43
+    }
+   ]
+  }
+ ]
+}

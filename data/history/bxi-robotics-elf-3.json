@@ -1,0 +1,141 @@
+{
+ "id": "bxi-robotics-elf-3",
+ "name": "Elf 3",
+ "manufacturer": "BXI Robotics",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-17",
+   "type": "added",
+   "source": null,
+   "commit": "b596d3e",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://www.bxirobotics.com/robots/humanoid-robot",
+   "commit": "4b395bc",
+   "changes": [
+    {
+     "field": "api_support",
+     "from": null,
+     "to": true
+    },
+    {
+     "field": "battery_wh",
+     "from": null,
+     "to": 518
+    },
+    {
+     "field": "compute_detail",
+     "from": null,
+     "to": "Intel Core i7-1370P, 16 GB RAM, 512 GB storage"
+    },
+    {
+     "field": "dof",
+     "from": null,
+     "to": 31
+    },
+    {
+     "field": "height_mm",
+     "from": null,
+     "to": 1450
+    },
+    {
+     "field": "length_mm",
+     "from": null,
+     "to": 280
+    },
+    {
+     "field": "max_speed_mps",
+     "from": null,
+     "to": 5
+    },
+    {
+     "field": "note",
+     "from": null,
+     "to": "Maker product page and its own spec article: 31 DoF excluding hands (6 per leg, 7 per arm, 3 waist, 2 head), height 1450 mm, width x depth 450 x 280 mm (recorded as width 450, length 280), ~38 kg, max speed 5 m/s, single-arm payload 5 kg horizontal continuous / 10 kg elbow-supported (payload_kg = 5), 518 Wh battery with ~1 h walking runtime, 31 in-house hollow-shaft planetary joint motors (5014/5018/7010/8515) at 25-150 N.m peak torque with dual absolute encoders, >1000 Hz control over PCIE-CANFD, Intel i7-1370P / 16 GB / 512 GB onboard, RealSense D435i + IMU + 8-mic array, Ubuntu 22.04 with a ROS2 SDK and MuJoCo sim, teleoperation and autonomous modes. Maker quotes price per configuration and publishes no list price, so price stays empty."
+    },
+    {
+     "field": "official_url",
+     "from": null,
+     "to": "https://www.bxirobotics.com/robots/humanoid-robot"
+    },
+    {
+     "field": "onboard_compute",
+     "from": null,
+     "to": true
+    },
+    {
+     "field": "payload_kg",
+     "from": null,
+     "to": 5
+    },
+    {
+     "field": "ros_support",
+     "from": null,
+     "to": true
+    },
+    {
+     "field": "runtime_h",
+     "from": null,
+     "to": 1
+    },
+    {
+     "field": "sdk_available",
+     "from": null,
+     "to": true
+    },
+    {
+     "field": "sdk_name",
+     "from": null,
+     "to": "BXI ROS2 hardware-control SDK + MuJoCo simulation (Ubuntu 22.04)"
+    },
+    {
+     "field": "sensors",
+     "from": [],
+     "to": [
+      "RealSense D435i depth camera",
+      "IMU",
+      "8-microphone array"
+     ]
+    },
+    {
+     "field": "sources",
+     "from": [],
+     "to": [
+      "https://www.bxirobotics.com/robots/humanoid-robot",
+      "https://www.bxirobotics.com/blog/elf3-humanoid-robot-specifications",
+      "https://wiki.bxirobotics.com/"
+     ]
+    },
+    {
+     "field": "status",
+     "from": null,
+     "to": "Commercial"
+    },
+    {
+     "field": "summary",
+     "from": "",
+     "to": "BXI Robotics' 1.45 m research humanoid with 31 DoF, a ROS2 SDK and MuJoCo simulation, built around the company's own hollow-shaft joint motors."
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "official"
+    },
+    {
+     "field": "weight_kg",
+     "from": null,
+     "to": 38
+    },
+    {
+     "field": "width_mm",
+     "from": null,
+     "to": 450
+    }
+   ]
+  }
+ ]
+}

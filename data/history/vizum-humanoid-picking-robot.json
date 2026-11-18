@@ -1,0 +1,69 @@
+{
+ "id": "vizum-humanoid-picking-robot",
+ "name": "Humanoid picking robot",
+ "manufacturer": "Vizum",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-17",
+   "type": "added",
+   "source": null,
+   "commit": "b596d3e",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "http://www.vizumtech.com/EN/?page_id=171",
+   "commit": "30bdc91",
+   "changes": [
+    {
+     "field": "note",
+     "from": null,
+     "to": "Maker pages describe the picking robot and its vision and hand-eye system (line-laser binocular stereo vision on the body and in the head, two markers per hand, eye-to-hand servo tracking of palm and arm, hands with 9 DoF and 18 joints) but publish no dimensions, weight, total DoF, payload, speed, battery or price, so those fields are left empty. Vizum reported small-batch delivery of its bipedal humanoid in December 2024."
+    },
+    {
+     "field": "official_url",
+     "from": null,
+     "to": "http://www.vizumtech.com/EN/?page_id=171"
+    },
+    {
+     "field": "release_year",
+     "from": null,
+     "to": 2024
+    },
+    {
+     "field": "sensors",
+     "from": [],
+     "to": [
+      "Line-laser binocular stereo vision (body)",
+      "Stereo vision with marker tracking (head, hands)"
+     ]
+    },
+    {
+     "field": "sources",
+     "from": [],
+     "to": [
+      "http://www.vizumtech.com/EN/?page_id=171",
+      "http://www.vizumtech.com/product_detail/265.html"
+     ]
+    },
+    {
+     "field": "status",
+     "from": null,
+     "to": "Pilot"
+    },
+    {
+     "field": "summary",
+     "from": "",
+     "to": "Vizum's humanoid picking robot: a humanoid upper body on a wheeled navigation chassis with line-laser stereo vision and marker-tracked hands, harvesting tomatoes in a smart greenhouse in Xiong'an."
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "official"
+    }
+   ]
+  }
+ ]
+}

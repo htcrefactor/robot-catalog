@@ -1,0 +1,139 @@
+{
+ "id": "tien-kung-xingzhe",
+ "name": "Walker Tienkung",
+ "manufacturer": "UBTech Robotics",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-13",
+   "type": "added",
+   "source": "https://humanoidstore.co/robots/tien-kung-xingzhe",
+   "commit": "14cd746",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://www.ubtrobot.com/cn/ai-education/products/walker-tienkung",
+   "commit": "976d9e6",
+   "changes": [
+    {
+     "field": "battery_wh",
+     "from": null,
+     "to": 720
+    },
+    {
+     "field": "data_source",
+     "from": "HumanoidStore open data (CC BY 4.0)",
+     "to": null
+    },
+    {
+     "field": "height_mm",
+     "from": 1730,
+     "to": 1630
+    },
+    {
+     "field": "max_speed_mps",
+     "from": 2.78,
+     "to": 1.67
+    },
+    {
+     "field": "notes",
+     "from": null,
+     "to": "Issue #17 (2026-11-17): This row is X-Humanoid's Tiangong (Lite 1.0), not a UBTECH Walker - the HumanoidStore row conflated the two names. 163 cm, 43 kg, 20 body DoF, 6 km/h (1.67 m/s), 15 Ah 48 V (720 Wh), 2 h walking per the Lite 1.0 manual; payload is not published. [replaced height_mm: 1730 -> 1630; weight_kg: 64 -> 43; max_speed_mps: 2.78 -> 1.67; runtime_h: 3.5 -> 2.0; battery_wh: None -> 720 | emptied (no maker value) price_usd=41200; price_note=list 41200 USD (maker), per HumanoidStore, checked 2026-10]"
+    },
+    {
+     "field": "price_note",
+     "from": "list 41200 USD (maker), per HumanoidStore, checked 2026-10",
+     "to": "CNY 299,000 (research and education platform)"
+    },
+    {
+     "field": "price_usd",
+     "from": 41200,
+     "to": null
+    },
+    {
+     "field": "runtime_h",
+     "from": 3.5,
+     "to": 2.0
+    },
+    {
+     "field": "sources",
+     "from": [
+      "https://humanoidstore.co/robots/tien-kung-xingzhe"
+     ],
+     "to": [
+      "https://humanoidversus.com/robots/x-humanoid-tiangong",
+      "https://www.ubtrobot.com/cn/ai-education/products/walker-tienkung",
+      "https://www.ubtrobot.com/en/ai-education/products/walker-tienkung"
+     ]
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "official"
+    },
+    {
+     "field": "weight_kg",
+     "from": 64,
+     "to": 43
+    },
+    {
+     "field": "api_support",
+     "from": null,
+     "to": true
+    },
+    {
+     "field": "compute_detail",
+     "from": null,
+     "to": "Up to 550 TOPS expandable compute module (NVIDIA Orin option)"
+    },
+    {
+     "field": "note",
+     "from": null,
+     "to": "Maker figures: 170 cm, 20 humanoid DoF (7-DoF arms, 6-DoF hands, 3-DoF head), 300 Nm peak joint torque, 10 km/h running (2.78 m/s converted from the maker's km/h figure), dual 30 Ah + 3 Ah quick-swap packs, up to 550 TOPS expandable compute, optional depth camera, LiDAR, Orin board, 6-axis force/torque sensors and five-finger hands, open motor, sensor and motion-control interfaces; CNY 299,000. Weight is not published. Released jointly with the Beijing Humanoid Robot Innovation Center on 2025-03-12; the catalogue's manufacturer field matches the official product page. Weight is not published by the maker; the 64 kg in catalogue data is not a maker figure, and the USD value catalogues carry is a currency conversion of the CNY price, so only the CNY price is recorded."
+    },
+    {
+     "field": "official_url",
+     "from": null,
+     "to": "https://www.ubtrobot.com/cn/ai-education/products/walker-tienkung"
+    },
+    {
+     "field": "onboard_compute",
+     "from": null,
+     "to": true
+    },
+    {
+     "field": "release_year",
+     "from": null,
+     "to": 2025
+    },
+    {
+     "field": "ros_support",
+     "from": null,
+     "to": true
+    },
+    {
+     "field": "sdk_available",
+     "from": null,
+     "to": true
+    },
+    {
+     "field": "sensors",
+     "from": [],
+     "to": [
+      "Optional depth camera",
+      "Optional LiDAR",
+      "Optional 6-axis force/torque sensors",
+      "Optional 7-DoF cooperative arms and 5-finger hands"
+     ]
+    },
+    {
+     "field": "summary",
+     "from": "Full-size humanoid from UBTech Robotics; shipping now, sold to research buyers.",
+     "to": "Full-size research and education humanoid (Tiangong Xingzhe, 天工行者) co-developed by UBTECH and the Beijing Humanoid Robot Innovation Center: 170 cm, 20 DoF, 10 km/h running and fully open low-level interfaces."
+    }
+   ]
+  }
+ ]
+}

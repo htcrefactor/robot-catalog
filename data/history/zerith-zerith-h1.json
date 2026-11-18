@@ -1,0 +1,115 @@
+{
+ "id": "zerith-zerith-h1",
+ "name": "Zerith H1",
+ "manufacturer": "Zerith (Zerith Robotics)",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-13",
+   "type": "added",
+   "source": "https://humanoidstore.co/robots/zerith-zerith-h1",
+   "commit": "14cd746",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://www.zerith.com/product/comparison/",
+   "commit": "b1429ab",
+   "changes": [
+    {
+     "field": "data_source",
+     "from": "HumanoidStore open data (CC BY 4.0)",
+     "to": null
+    },
+    {
+     "field": "height_mm",
+     "from": 1760,
+     "to": 1756
+    },
+    {
+     "field": "notes",
+     "from": null,
+     "to": "Issue #17 (2026-11-17): Zerith H1 wheel-arm humanoid - height adjustable 955-1756 mm (1756 taken), 111 kg, 23 active DoF (head 2, hand 7, waist incl. lift 3, chassis 2, effector 1), base speed 1 m/s, 4 h continuous. Payload is published per arm only (1.5 kg max), so the whole-robot payload field was emptied. [replaced height_mm: 1760 -> 1756 | emptied (no maker value) payload_kg=1; price_usd=13600; price_note=list 13600 USD (maker), per HumanoidStore, checked 2026-10]"
+    },
+    {
+     "field": "payload_kg",
+     "from": 1,
+     "to": null
+    },
+    {
+     "field": "price_note",
+     "from": "list 13600 USD (maker), per HumanoidStore, checked 2026-10",
+     "to": null
+    },
+    {
+     "field": "price_usd",
+     "from": 13600,
+     "to": null
+    },
+    {
+     "field": "sources",
+     "from": [
+      "https://humanoidstore.co/robots/zerith-zerith-h1"
+     ],
+     "to": [
+      "https://zerith.com/product/comparison/",
+      "https://www.zerith.com/product/comparison/",
+      "https://www.zerith.com/product/ZerithH1/"
+     ]
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "official"
+    },
+    {
+     "field": "api_support",
+     "from": null,
+     "to": true
+    },
+    {
+     "field": "compute_detail",
+     "from": null,
+     "to": "20-core/28-thread CPU, 32 GB DDR5, 1 TB SSD, RTX 5060 GPU"
+    },
+    {
+     "field": "length_mm",
+     "from": null,
+     "to": 630
+    },
+    {
+     "field": "official_url",
+     "from": null,
+     "to": "https://www.zerith.com/product/comparison/"
+    },
+    {
+     "field": "onboard_compute",
+     "from": null,
+     "to": true
+    },
+    {
+     "field": "sensors",
+     "from": [],
+     "to": [
+      "Head depth camera",
+      "Wrist depth camera",
+      "LiDAR",
+      "6-axis IMU",
+      "Microphone array"
+     ]
+    },
+    {
+     "field": "summary",
+     "from": "Wheeled (bimanual torso on a wheeled base) humanoid from Zerith (Zerith Robotics); b2b only, sold to businesses.",
+     "to": "Wheeled humanoid mobile manipulator with a lifting column, 7-axis arms and a 1 kg-per-arm rating for shelf, retail and lab handling."
+    },
+    {
+     "field": "width_mm",
+     "from": null,
+     "to": 463
+    }
+   ]
+  }
+ ]
+}

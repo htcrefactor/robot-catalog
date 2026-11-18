@@ -1,0 +1,45 @@
+{
+ "id": "yunmu-ymbot-type-c",
+ "name": "YMbot Type C",
+ "manufacturer": "Yunmu Intelligent Manufacturing",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-17",
+   "type": "added",
+   "source": null,
+   "commit": "b596d3e",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://www.worldrobotconference.com/profile/robot/download/2026/07/23/20260723170520000751_20260723170520A912.pdf",
+   "commit": "b1429ab",
+   "changes": [
+    {
+     "field": "notes",
+     "from": null,
+     "to": "No maker specification page for the first-generation C model was found. The maker's 2026 product manual documents only the C2 variant (a separate catalogue record), so no figures are copied here."
+    },
+    {
+     "field": "sources",
+     "from": [],
+     "to": [
+      "https://www.worldrobotconference.com/profile/robot/download/2026/07/23/20260723170520000751_20260723170520A912.pdf"
+     ]
+    },
+    {
+     "field": "summary",
+     "from": "",
+     "to": "First-generation full-body silicone-skin bipedal character robot for museum, science-centre and showroom guiding."
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "unconfirmed"
+    }
+   ]
+  }
+ ]
+}

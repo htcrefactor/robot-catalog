@@ -1,0 +1,40 @@
+{
+ "id": "daxai-qiji-xs",
+ "name": "Qiji XS",
+ "manufacturer": "DaxAI Robotics",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-17",
+   "type": "added",
+   "source": "https://ex.chinadaily.com.cn/exchange/partners/82/rss/channel/cn/columns/sz8srm/stories/WS6a87e6bca3105d3d7a27c2fa.html",
+   "commit": "0a6305b",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://ex.chinadaily.com.cn/exchange/partners/82/rss/channel/cn/columns/sz8srm/stories/WS6a87e6bca3105d3d7a27c2fa.html",
+   "commit": "7864761",
+   "changes": [
+    {
+     "field": "note",
+     "from": "DaxAI's own releases conflict on range: 100 km (WAIC, July 2026) vs 60 km (WRC, Aug 2026). Not yet shown running in public per press. Rideable mount, borderline scope.",
+     "to": "Scope review (#16, 2026-11-17): kept as an in-scope Wheel-legged - a wheel-foot robot horse that drives on wheels on flat ground and switches to legs for rough terrain; rideable is not an excluded category here (see CORLEO, RHP Bex). DaxAI's own releases conflict on range: 100 km (WAIC, July 2026) vs 60 km (WRC, Aug 2026), and press repeats 60 km. Not yet shown running in public per press. No XS page on the maker's site (daxrobotics.cn lists 骑骥 T1000 only)."
+    },
+    {
+     "field": "sources",
+     "from": [
+      "https://ex.chinadaily.com.cn/exchange/partners/82/rss/channel/cn/columns/sz8srm/stories/WS6a87e6bca3105d3d7a27c2fa.html",
+      "https://www.bjnews.com.cn/detail/1784446831129245.html"
+     ],
+     "to": [
+      "https://ex.chinadaily.com.cn/exchange/partners/82/rss/channel/cn/columns/sz8srm/stories/WS6a87e6bca3105d3d7a27c2fa.html",
+      "https://www.bjnews.com.cn/detail/1784446831129245.html",
+      "https://www.daxrobotics.cn/"
+     ]
+    }
+   ]
+  }
+ ]
+}

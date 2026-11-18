@@ -1,0 +1,111 @@
+{
+ "id": "yufan-lingmao-cyvet",
+ "name": "Lingmao Cyvet",
+ "manufacturer": "Yufan Intelligent",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-17",
+   "type": "added",
+   "source": null,
+   "commit": "b596d3e",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://www.uniubi.com/en/products/quadruped-robot/cyvet",
+   "commit": "fa098f7",
+   "changes": [
+    {
+     "field": "battery_wh",
+     "from": null,
+     "to": 432
+    },
+    {
+     "field": "dof",
+     "from": null,
+     "to": 12
+    },
+    {
+     "field": "height_mm",
+     "from": null,
+     "to": 432
+    },
+    {
+     "field": "length_mm",
+     "from": null,
+     "to": 672
+    },
+    {
+     "field": "max_speed_mps",
+     "from": null,
+     "to": 3.0
+    },
+    {
+     "field": "note",
+     "from": null,
+     "to": "Uniubi AI product page (checked 2026-11-17): standing 672 x 355 x 432 mm (crouched 718 x 410 x 178 mm), about 15 kg with battery, payload about 20 kg, 0-3 m/s, up to 5.5 h unloaded and about 3.5 h with 15 kg, 432 Wh (10000 mAh) battery, 12 self-developed joints (60 N.m peak), 17 cm continuous stairs, -10 to 50 C, binocular camera, IMU, microphone and speaker standard with LiDAR and 360 degree UWB optional, Orin Nano/NX up to 157 TOPS optional, C++/Python SDK. Standard version is indoor/dry-outdoor only; IP54 applies to an industrial customized version, so ip_rating stays empty."
+    },
+    {
+     "field": "official_url",
+     "from": null,
+     "to": "https://www.uniubi.com/en/products/quadruped-robot/cyvet"
+    },
+    {
+     "field": "payload_kg",
+     "from": null,
+     "to": 20
+    },
+    {
+     "field": "price_note",
+     "from": null,
+     "to": "CNY 15,999 incl. tax (maker's Chinese page)"
+    },
+    {
+     "field": "runtime_h",
+     "from": null,
+     "to": 5.5
+    },
+    {
+     "field": "sdk_available",
+     "from": null,
+     "to": true
+    },
+    {
+     "field": "sources",
+     "from": [],
+     "to": [
+      "https://www.uniubi.com/en/products/quadruped-robot/cyvet",
+      "https://www.uniubi.com/embodied-ai/robot"
+     ]
+    },
+    {
+     "field": "status",
+     "from": null,
+     "to": "Commercial"
+    },
+    {
+     "field": "summary",
+     "from": "",
+     "to": "Uniubi AI's (宇泛智能) 15 kg quadruped developer platform with optional NVIDIA Jetson Orin compute, sold for embodied-AI research and developer projects."
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "official"
+    },
+    {
+     "field": "weight_kg",
+     "from": null,
+     "to": 15
+    },
+    {
+     "field": "width_mm",
+     "from": null,
+     "to": 355
+    }
+   ]
+  }
+ ]
+}

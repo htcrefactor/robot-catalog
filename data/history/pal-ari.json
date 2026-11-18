@@ -1,0 +1,38 @@
+{
+ "id": "pal-ari",
+ "name": "ARI",
+ "manufacturer": "PAL Robotics",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-17",
+   "type": "added",
+   "source": "https://pal-robotics.com/robot/ari/",
+   "commit": "b596d3e",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://pal-robotics.com/robot/ari/",
+   "commit": "ae60ceb",
+   "changes": [
+    {
+     "field": "compute_memory_gb",
+     "from": null,
+     "to": 32
+    },
+    {
+     "field": "compute_soc",
+     "from": null,
+     "to": "Intel Core i5/i7/i9"
+    },
+    {
+     "field": "compute_source",
+     "from": null,
+     "to": "https://pal-robotics.com/wp-content/uploads/2025/02/ARI-Datasheet.pdf"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,33 @@
+{
+ "id": "leju-kuavo-4-pro",
+ "name": "KUAVO 4 Pro (Kuavo MY)",
+ "manufacturer": "Leju Robotics",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-17",
+   "type": "added",
+   "source": "https://www.lejurobot.com/en/products/kuavo-my",
+   "commit": "b596d3e",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://www.lejurobot.com/en/products/kuavo-my",
+   "commit": "ae60ceb",
+   "changes": [
+    {
+     "field": "compute_soc",
+     "from": null,
+     "to": "Intel Core i9-13900 + NVIDIA Jetson Orin NX/AGX Orin"
+    },
+    {
+     "field": "compute_source",
+     "from": null,
+     "to": "https://kuavo.lejurobot.com/beta_manual/basic_usage/kuavo-ros-control/docs/1%E4%BA%A7%E5%93%81%E4%BB%8B%E7%BB%8D/KUAVO_4PRO%20%E8%BF%9B%E9%98%B6%E7%89%88%E4%BA%A7%E5%93%81%E4%BB%8B%E7%BB%8D/"
+    }
+   ]
+  }
+ ]
+}

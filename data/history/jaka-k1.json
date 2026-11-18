@@ -1,0 +1,80 @@
+{
+ "id": "jaka-k1",
+ "name": "K1",
+ "manufacturer": "JAKA Robotics",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-17",
+   "type": "added",
+   "source": null,
+   "commit": "b596d3e",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://www.jaka.com/",
+   "commit": "b310609",
+   "changes": [
+    {
+     "field": "max_speed_mps",
+     "from": null,
+     "to": 1.0
+    },
+    {
+     "field": "note",
+     "from": null,
+     "to": "Maker hardware manual (JAKA K1, V01): a 7-axis dual-arm collaborative platform - per arm 5 kg payload, 14 kg mass, 976 mm working radius, repeatability +/-0.05 mm, TCP max 1 m/s, 48 V DC supply, RoboHub controller with Intel Core i12/i13 CPU, EtherCAT. Dual-arm synchronised control (SyncPath, SyncForce, SyncCalib, SelfAware). DoF field left empty because the maker states 7 axes per arm, not a whole-body count; no height, weight or runtime for a complete robot is published. SCOPE: K1 has no mobile base - it is a bench-mounted dual-arm platform, which AGENTS.md section 3 excludes as arms/cobots; kept here unchanged (no deletion) and flagged for an owner scope decision. The wheeled K1W and legged K1L are separate models."
+    },
+    {
+     "field": "official_url",
+     "from": null,
+     "to": "https://www.jaka.com/"
+    },
+    {
+     "field": "onboard_compute",
+     "from": null,
+     "to": "JAKA RoboHub controller (Intel Core i3/i5/i7 12th-13th gen, optional NVIDIA RTX 3050)"
+    },
+    {
+     "field": "payload_kg",
+     "from": null,
+     "to": 5
+    },
+    {
+     "field": "sdk_available",
+     "from": null,
+     "to": true
+    },
+    {
+     "field": "sdk_name",
+     "from": null,
+     "to": "JAKA SDK / direct teaching"
+    },
+    {
+     "field": "sources",
+     "from": [],
+     "to": [
+      "https://www.jaka.com/profile/upload/2026/02/06/20260206111400A037.pdf"
+     ]
+    },
+    {
+     "field": "status",
+     "from": null,
+     "to": "Commercial"
+    },
+    {
+     "field": "summary",
+     "from": "",
+     "to": "JAKA's K1 seven-axis dual-arm platform for dual-arm assembly and embodied-AI data collection."
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "official"
+    }
+   ]
+  }
+ ]
+}

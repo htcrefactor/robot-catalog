@@ -1,0 +1,45 @@
+{
+ "id": "zvalley-z03",
+ "name": "Z03",
+ "manufacturer": "Zvalley Technology (Zoomlion)",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-17",
+   "type": "added",
+   "source": null,
+   "commit": "b596d3e",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://www.zoomlion.com/content/details20_34088.html",
+   "commit": "b1429ab",
+   "changes": [
+    {
+     "field": "notes",
+     "from": null,
+     "to": "Z03 is the wheeled humanoid of Zoomlion's ZValley (Cloud Valley) robot line, shown at WRC 2026 doing sorting and mirror pre-assembly. No maker specification page or datasheet was found; coverage describes the tasks only, so no figures are recorded."
+    },
+    {
+     "field": "sources",
+     "from": [],
+     "to": [
+      "https://www.zoomlion.com/content/details20_34088.html"
+     ]
+    },
+    {
+     "field": "summary",
+     "from": "",
+     "to": "Wheeled humanoid for factory sorting, picking, handling and precision sub-assembly work."
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "unconfirmed"
+    }
+   ]
+  }
+ ]
+}

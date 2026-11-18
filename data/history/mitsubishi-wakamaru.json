@@ -1,0 +1,101 @@
+{
+ "id": "mitsubishi-wakamaru",
+ "name": "wakamaru",
+ "manufacturer": "Mitsubishi Heavy Industries",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-17",
+   "type": "added",
+   "source": null,
+   "commit": "b596d3e",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://www.mhi.com/technology/review/sites/g/files/jwhtju2326/files/tr/pdf/e431/e431044.pdf",
+   "commit": "5150daa",
+   "changes": [
+    {
+     "field": "data_source",
+     "from": null,
+     "to": "Maker sources (verified 2026-11-17)"
+    },
+    {
+     "field": "dof",
+     "from": null,
+     "to": 13
+    },
+    {
+     "field": "height_mm",
+     "from": null,
+     "to": 1000
+    },
+    {
+     "field": "max_speed_mps",
+     "from": null,
+     "to": 0.28
+    },
+    {
+     "field": "note",
+     "from": null,
+     "to": "MHI's technical review and news releases (checked 2026-11-17): 100 cm tall, 45 cm diameter, about 30 kg, 1 km/h on two driven wheels plus casters, 2 h driving and 2 h charging, 10 mm step clearance, face recognition for 2 owners and 8 others, about 10,000-word speech recognition. Joints are 3 in the neck, 4 per arm and 2 drive wheels, so 13 DoF in total (summed from the maker's breakdown). MHI rented rather than sold it and ended the line."
+    },
+    {
+     "field": "official_url",
+     "from": null,
+     "to": "https://www.mhi.com/technology/review/sites/g/files/jwhtju2326/files/tr/pdf/e431/e431044.pdf"
+    },
+    {
+     "field": "runtime_h",
+     "from": null,
+     "to": 2.0
+    },
+    {
+     "field": "sensors",
+     "from": [],
+     "to": [
+      "Omnidirectional camera",
+      "Forward camera",
+      "1 directional and 3 omnidirectional microphones",
+      "Ultrasonic obstacle sensors"
+     ]
+    },
+    {
+     "field": "sources",
+     "from": [],
+     "to": [
+      "https://www.mhi.com/jp/technology/review/sites/g/files/jwhtju2326/files/tr/pdf/405/405270.pdf",
+      "https://www.mhi.com/jp/news/200706144594.html"
+     ]
+    },
+    {
+     "field": "status",
+     "from": null,
+     "to": "Discontinued"
+    },
+    {
+     "field": "summary",
+     "from": "",
+     "to": "Mitsubishi Heavy Industries' home communication robot: 1 m tall, wheeled, with voice and face recognition and autonomous roaming; rented rather than sold before the line ended."
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "official"
+    },
+    {
+     "field": "weight_kg",
+     "from": null,
+     "to": 30.0
+    },
+    {
+     "field": "width_mm",
+     "from": null,
+     "to": 450
+    }
+   ]
+  }
+ ]
+}

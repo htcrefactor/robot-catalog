@@ -1,0 +1,223 @@
+{
+ "id": "unitree-h2",
+ "name": "H2",
+ "manufacturer": "Unitree Robotics",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-03",
+   "type": "added",
+   "source": "https://www.unitree.com/H2",
+   "commit": "1a533a7",
+   "changes": []
+  },
+  {
+   "date": "2026-11-13",
+   "type": "updated",
+   "source": "https://www.unitree.com/H2",
+   "commit": "14cd746",
+   "changes": [
+    {
+     "field": "sources",
+     "from": [
+      "https://www.unitree.com/H2"
+     ],
+     "to": [
+      "https://www.unitree.com/H2",
+      "https://humanoidstore.co/robots/unitree-h2",
+      "https://humanoidstore.co/robots/unitree-h2-edu",
+      "https://humanoidstore.co/robots/unitree-h2-plus"
+     ]
+    }
+   ]
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://www.unitree.com/H2/",
+   "commit": "ae60ceb",
+   "changes": [
+    {
+     "field": "notes",
+     "from": null,
+     "to": "Issue #17 (2026-11-17): height 1820 mm, weight 70 kg, 7 kg rated payload, DoF 31 (6x2 legs + 7x2 arms + 3 waist + 2 head), 3 h, 972 Wh, US$29,900 confirmed on Unitree's H2 page. HumanoidStore rows dropped."
+    },
+    {
+     "field": "sources",
+     "from": [
+      "https://www.unitree.com/H2",
+      "https://humanoidstore.co/robots/unitree-h2",
+      "https://humanoidstore.co/robots/unitree-h2-edu",
+      "https://humanoidstore.co/robots/unitree-h2-plus"
+     ],
+     "to": [
+      "https://www.unitree.com/H2",
+      "https://support.unitree.com/home/en/H2_developer/About_H2",
+      "https://www.unitree.com/H2/",
+      "https://www.unitree.com/cn/H2/",
+      "https://humanoidstore.co/robots/unitree-h2",
+      "https://humanoidstore.co/robots/unitree-h2-edu",
+      "https://humanoidstore.co/robots/unitree-h2-plus",
+      "https://github.com/unitreerobotics/unitree_sdk2",
+      "https://github.com/unitreerobotics/unitree_ros/blob/master/robots/h2_description/H2.urdf",
+      "https://github.com/unitreerobotics/unitree_sdk2_python",
+      "https://github.com/unitreerobotics/unitree_ros",
+      "https://github.com/unitreerobotics/unitree_ros2",
+      "https://github.com/unitreerobotics/unitree_mujoco",
+      "https://shop.unitree.com/products/unitree-h2",
+      "https://www.younginmobility.com/"
+     ]
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "official"
+    },
+    {
+     "field": "api_support",
+     "from": null,
+     "to": true
+    },
+    {
+     "field": "battery_wh",
+     "from": 972,
+     "to": null
+    },
+    {
+     "field": "note",
+     "from": null,
+     "to": "Maker figures: 1820 x 456 x 218 mm, about 70 kg, 31 DoF (6 per leg, 7 per arm, 3 waist, 2 head), 360 Nm peak leg joint, 120 Nm arm joint, about 15 kg peak and 7 kg rated arm payload, bionic head with facial features, optional dexterous hands, 1045 mm calf plus thigh and 690 mm forearm plus upper arm. Price US$29,900 for H2; the 15 kg figure is the maker's peak value. Unitree does not publish runtime or battery capacity for the H2."
+    },
+    {
+     "field": "official_url",
+     "from": "https://www.unitree.com/H2",
+     "to": "https://www.unitree.com/H2/"
+    },
+    {
+     "field": "payload_kg",
+     "from": 7,
+     "to": 15
+    },
+    {
+     "field": "price_note",
+     "from": "H2 US$29,900 (tax/shipping excl.); H2 EDU contact sales",
+     "to": null
+    },
+    {
+     "field": "ros_support",
+     "from": null,
+     "to": true
+    },
+    {
+     "field": "runtime_h",
+     "from": 3,
+     "to": null
+    },
+    {
+     "field": "sdk_available",
+     "from": null,
+     "to": true
+    },
+    {
+     "field": "sdk_name",
+     "from": null,
+     "to": "unitree_sdk2"
+    },
+    {
+     "field": "sensors",
+     "from": [
+      "Wide-FOV binocular camera",
+      "Array microphone"
+     ],
+     "to": [
+      "Bionic head with facial features"
+     ]
+    },
+    {
+     "field": "summary",
+     "from": "180 cm full-size humanoid with bionic head; arm payload rated ~7 kg (peak ~15 kg).",
+     "to": "Unitree's 1.82 m humanoid with a bionic head and 31 DoF, built for heavier industrial and research work with 360 Nm leg joints."
+    },
+    {
+     "field": "open_source_repos",
+     "from": null,
+     "to": [
+      {
+       "name": "unitree_sdk2",
+       "url": "https://github.com/unitreerobotics/unitree_sdk2",
+       "license": "BSD-3-Clause"
+      },
+      {
+       "name": "unitree_ros",
+       "url": "https://github.com/unitreerobotics/unitree_ros",
+       "license": "BSD-3-Clause"
+      }
+     ]
+    },
+    {
+     "field": "sdk",
+     "from": null,
+     "to": {
+      "languages": [
+       "C++",
+       "Python"
+      ],
+      "open_source": true,
+      "license": "BSD-3-Clause",
+      "url": "https://github.com/unitreerobotics/unitree_sdk2"
+     }
+    },
+    {
+     "field": "sim_models",
+     "from": null,
+     "to": {
+      "urdf": {
+       "url": "https://github.com/unitreerobotics/unitree_ros/blob/master/robots/h2_description/H2.urdf",
+       "license": "BSD-3-Clause"
+      }
+     }
+    },
+    {
+     "field": "price_observations",
+     "from": null,
+     "to": [
+      {
+       "date": "2026-11-17",
+       "amount": 29900,
+       "currency": "USD",
+       "kind": "list",
+       "source": "https://shop.unitree.com/products/unitree-h2",
+       "note": "H2; tax and freight excluded; H2 EDU by quote"
+      }
+     ]
+    },
+    {
+     "field": "price_usd",
+     "from": 29900,
+     "to": null
+    },
+    {
+     "field": "kr_distributors",
+     "from": null,
+     "to": [
+      {
+       "name": "영인모빌리티 (Unitree 한국 공식 파트너)",
+       "kind": "distributor",
+       "url": "https://www.younginmobility.com/"
+      }
+     ]
+    },
+    {
+     "field": "compute_soc",
+     "from": null,
+     "to": "Intel Core i5"
+    },
+    {
+     "field": "compute_source",
+     "from": null,
+     "to": "https://www.unitree.com/H2"
+    }
+   ]
+  }
+ ]
+}

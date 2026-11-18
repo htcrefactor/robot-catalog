@@ -1,0 +1,39 @@
+{
+ "id": "samhyun-boldum",
+ "name": "BOLDUM (HAMR 3-ton)",
+ "manufacturer": "Samhyun",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-04",
+   "type": "added",
+   "source": "https://www.samhyun.co.kr/our-up/robot-industry/view?category_code=1210&code=164&tpf=product%2Fview",
+   "commit": "72ea16d",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://www.samhyun.co.kr/our-up/robot-industry/view?category_code=1210&code=164&tpf=product%2Fview",
+   "commit": "0c54867",
+   "changes": [
+    {
+     "field": "kr_distributors",
+     "from": null,
+     "to": [
+      {
+       "name": "삼현 (본사 직판)",
+       "kind": "direct",
+       "url": "https://www.samhyun.co.kr/"
+      }
+     ]
+    },
+    {
+     "field": "manufacturer_ko",
+     "from": null,
+     "to": "주식회사 삼현"
+    }
+   ]
+  }
+ ]
+}

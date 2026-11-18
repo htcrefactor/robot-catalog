@@ -1,0 +1,112 @@
+{
+ "id": "ugo-pro",
+ "name": "ugo Pro",
+ "manufacturer": "ugo",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-17",
+   "type": "added",
+   "source": null,
+   "commit": "b596d3e",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://ugo-plus.zendesk.com/hc/ja/sections/24259662582425",
+   "commit": "30bdc91",
+   "changes": [
+    {
+     "field": "dof",
+     "from": null,
+     "to": 14
+    },
+    {
+     "field": "height_mm",
+     "from": null,
+     "to": 1800
+    },
+    {
+     "field": "length_mm",
+     "from": null,
+     "to": 580
+    },
+    {
+     "field": "max_speed_mps",
+     "from": null,
+     "to": 1.0
+    },
+    {
+     "field": "min_speed_mps",
+     "from": null,
+     "to": 0.11
+    },
+    {
+     "field": "note",
+     "from": null,
+     "to": "Maker figures: 1800 x 440 x 580 mm, ~54 kg, 0.4-3.6 km/h (0.11-1.0 m/s), 4 h of continuous travel at 1.9 km/h or 8 h standby, ~2.5 h charging, 1 cm steps and 5 deg slopes, elevator buttons pressed with the arms, 2D LiDAR plus two depth sensors and ultrasonic sensors, three HD cameras, 5G/4G/Wi-Fi, PC and smartphone control. 14 DoF is derived from the maker's two 7-axis arms; arm payload and battery capacity are not in the maker's table."
+    },
+    {
+     "field": "official_url",
+     "from": null,
+     "to": "https://ugo-plus.zendesk.com/hc/ja/sections/24259662582425"
+    },
+    {
+     "field": "release_year",
+     "from": null,
+     "to": 2022
+    },
+    {
+     "field": "runtime_h",
+     "from": null,
+     "to": 4
+    },
+    {
+     "field": "sdk_available",
+     "from": null,
+     "to": true
+    },
+    {
+     "field": "sensors",
+     "from": [],
+     "to": [
+      "3 HD cameras",
+      "2D LiDAR",
+      "2 depth sensors",
+      "Ultrasonic sensors",
+      "Temperature and barometric sensors"
+     ]
+    },
+    {
+     "field": "sources",
+     "from": [],
+     "to": [
+      "https://ugo-plus.zendesk.com/hc/ja/sections/24259662582425",
+      "https://prtimes.jp/main/html/rd/p/000000049.000034305.html"
+     ]
+    },
+    {
+     "field": "summary",
+     "from": "",
+     "to": "ugo's full-specification autonomous service robot: a wheeled body with two 7-axis arms, a lifting column and three HD cameras for security patrol, inspection and guidance across floors."
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "official"
+    },
+    {
+     "field": "weight_kg",
+     "from": null,
+     "to": 54
+    },
+    {
+     "field": "width_mm",
+     "from": null,
+     "to": 440
+    }
+   ]
+  }
+ ]
+}

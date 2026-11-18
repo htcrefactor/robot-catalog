@@ -1,0 +1,127 @@
+{
+ "id": "iit-icub",
+ "name": "IIT iCub",
+ "manufacturer": "Istituto Italiano di Tecnologia (IIT)",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-13",
+   "type": "added",
+   "source": "https://humanoidstore.co/robots/iit-icub",
+   "commit": "14cd746",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://www.iit.it/research/lines/icub",
+   "commit": "b310609",
+   "changes": [
+    {
+     "field": "battery_wh",
+     "from": null,
+     "to": 324
+    },
+    {
+     "field": "data_source",
+     "from": "HumanoidStore open data (CC BY 4.0)",
+     "to": null
+    },
+    {
+     "field": "notes",
+     "from": null,
+     "to": "Issue #17 (2026-11-17): IIT iCub technical specification Rev 2.5 - about 105 cm, 33 kg with battery pack (30 kg body), 53 DoF (eyes 3, head 3, chest 3, arms 7x2, hands 9x2, legs 6x2), 36 V 9 Ah (324 Wh) battery listed as not yet available. HumanoidStore's price removed: IIT quotes per request. [replaced battery_wh: None -> 324] HumanoidStore price (US$280625) removed: no maker list price confirmed."
+    },
+    {
+     "field": "price_note",
+     "from": "list 250000 EUR (maker), per HumanoidStore, checked 2026-10",
+     "to": null
+    },
+    {
+     "field": "price_usd",
+     "from": 280625,
+     "to": null
+    },
+    {
+     "field": "sources",
+     "from": [
+      "https://humanoidstore.co/robots/iit-icub"
+     ],
+     "to": [
+      "https://icub.iit.it/documents/175012/528824/Technical-specs_iCub_robot_Rev_2.3_05082019+%282%29.pdf",
+      "https://www.iit.it/research/lines/icub",
+      "https://www.robotcub.org/index.php/robotcub/content/download/1277/4458/file/icub-leaflet.pdf",
+      "https://www.robotcub.org/misc/papers/08_Metta_Sandini_Vernon_etal.pdf"
+     ]
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "official"
+    },
+    {
+     "field": "height_mm",
+     "from": 1050,
+     "to": 1040
+    },
+    {
+     "field": "note",
+     "from": null,
+     "to": "Maker material (RobotCub leaflet and the iCub paper by IIT/Univ. of Genoa): 104 cm, 53 DoF (head 6, arms 7x2, hands 9x2, legs 6x2, waist 3), 25 kg without battery / 29 kg with battery (IIT facility documentation; weight field = 29 kg), 48 V on-board battery pack, ~4,000-point capacitive skin, YARP/ROS middleware, GPL/FDL open hardware and software. Earlier leaflets quote 22 kg. The 280,625 USD price was an aggregator conversion of a 250,000 EUR figure and was removed - IIT sells iCubs to labs by quotation."
+    },
+    {
+     "field": "official_url",
+     "from": null,
+     "to": "https://www.iit.it/research/lines/icub"
+    },
+    {
+     "field": "onboard_compute",
+     "from": null,
+     "to": "External cluster over Gbit Ethernet (no on-board compute)"
+    },
+    {
+     "field": "release_year",
+     "from": null,
+     "to": 2008
+    },
+    {
+     "field": "ros_support",
+     "from": null,
+     "to": "YARP, ROS"
+    },
+    {
+     "field": "sdk_available",
+     "from": null,
+     "to": true
+    },
+    {
+     "field": "sdk_name",
+     "from": null,
+     "to": "YARP middleware"
+    },
+    {
+     "field": "sensors",
+     "from": [],
+     "to": [
+      "Binocular cameras",
+      "Microphones x2",
+      "Joint encoders (76)",
+      "Inertial sensors",
+      "Capacitive tactile skin (~4,000 points)",
+      "6-axis force/torque sensors (6)"
+     ]
+    },
+    {
+     "field": "summary",
+     "from": "Compact humanoid from Istituto Italiano di Tecnologia (IIT); b2b only, sold to research buyers.",
+     "to": "IIT's open-source child-sized iCub, the standard platform for embodied-cognition research, with 53 DoF and a full-body capacitive skin."
+    },
+    {
+     "field": "weight_kg",
+     "from": 33,
+     "to": 29
+    }
+   ]
+  }
+ ]
+}

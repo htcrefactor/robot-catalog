@@ -1,0 +1,68 @@
+{
+ "id": "aethon-t3",
+ "name": "T3",
+ "manufacturer": "Aethon (ST Engineering)",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-17",
+   "type": "added",
+   "source": "https://aethon.com/t3",
+   "commit": "b596d3e",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://aethon.com/t3",
+   "commit": "e6ebd1a",
+   "changes": [
+    {
+     "field": "name",
+     "from": "TUG T3",
+     "to": "T3"
+    },
+    {
+     "field": "note",
+     "from": "Official model name is T3 (formerly TUG T3); maker ST Engineering Aethon. Spec sheet: 340 kg (T3XL: 454 kg / 1,000 lb). Width 22.44 in, height 48.1 in; overall length not given (lift surface 33.81 in).",
+     "to": "Official model name is T3 (marketed earlier as 'TUG T3'); maker ST Engineering Aethon sells T3 and T3XL. Spec sheet: 340 kg (T3XL: 454 kg / 1,000 lb), 22.44 in width, 48.1 in height; overall length not given (lift surface 33.81 in)."
+    },
+    {
+     "field": "certifications",
+     "from": null,
+     "to": [
+      "FCC Part 15",
+      "IC",
+      "CE",
+      "ICES-001",
+      "RCM"
+     ]
+    },
+    {
+     "field": "safety_source",
+     "from": null,
+     "to": "https://aethon.com/wp-content/uploads/2025/06/Aethon_SpecSheet_T3-1.pdf"
+    },
+    {
+     "field": "safety_standards",
+     "from": null,
+     "to": [
+      "EN 12100:2010",
+      "EN 60204-1:2006+A1:2009",
+      "IEC 60034-1:2004-04",
+      "EN 55022",
+      "EN 61000-6-4:2007",
+      "EN 61000-6-2:2005",
+      "EN 60601-1-2:2007",
+      "EN 301 489-1",
+      "EN 301 489-17",
+      "EN 300 220-1",
+      "EN 300 220-2",
+      "EN 300 328",
+      "EN 301 893"
+     ]
+    }
+   ]
+  }
+ ]
+}

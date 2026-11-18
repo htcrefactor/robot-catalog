@@ -1,0 +1,33 @@
+{
+ "id": "vinmotion-motion-2",
+ "name": "Motion 2",
+ "manufacturer": "VinMotion (Vingroup)",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-17",
+   "type": "added",
+   "source": "https://vinmotion.net/en/products/motion-2/",
+   "commit": "b596d3e",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://vinmotion.net/en/products/motion-2/",
+   "commit": "ed40a2a",
+   "changes": [
+    {
+     "field": "sources",
+     "from": [
+      "https://vinmotion.net/"
+     ],
+     "to": [
+      "https://vinmotion.net/en/products/motion-2/",
+      "https://vinmotion.net/"
+     ]
+    }
+   ]
+  }
+ ]
+}

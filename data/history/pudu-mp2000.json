@@ -1,0 +1,28 @@
+{
+ "id": "pudu-mp2000",
+ "name": "PUDU MP2000",
+ "manufacturer": "Pudu Robotics",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-17",
+   "type": "added",
+   "source": "https://www.pudurobotics.com/en/products/mp2000",
+   "commit": "b596d3e",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://www.pudurobotics.com/en/products/mp2000",
+   "commit": "7864761",
+   "changes": [
+    {
+     "field": "note",
+     "from": "Launched Aug 18, 2026; Pudu's first industrial pallet robot (autonomous low-lift forklift). Speed 1.6 m/s empty / 1.2 m/s loaded; runtime 12 h empty / 6 h at max load.",
+     "to": "Scope review (#16, 2026-11-17): kept as an in-scope AMR - the maker page describes an autonomous pallet-handling robot with 3D LiDAR-SLAM + VSLAM navigation and autonomous/manual dual mode (1585x910x1870 mm, 2000 kg, 1.6 m/s empty / 1.2 m/s loaded, 12 h no load / 6 h at max load). Launched Aug 18, 2026; Pudu's first industrial pallet robot (autonomous low-lift forklift)."
+    }
+   ]
+  }
+ ]
+}

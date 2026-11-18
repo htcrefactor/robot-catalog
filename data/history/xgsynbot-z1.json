@@ -1,0 +1,113 @@
+{
+ "id": "xgsynbot-z1",
+ "name": "Z1",
+ "manufacturer": "XGSynBot",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-17",
+   "type": "added",
+   "source": null,
+   "commit": "b596d3e",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://www.prnewswire.com/news-releases/xgsynbot-debuts-z1-wheeled-robot-targeting-the-last-mile-of-industrial-embodied-ai-302709126.html",
+   "commit": "30bdc91",
+   "changes": [
+    {
+     "field": "api_support",
+     "from": null,
+     "to": true
+    },
+    {
+     "field": "compute_detail",
+     "from": null,
+     "to": "Up to 2070 TOPS"
+    },
+    {
+     "field": "dof",
+     "from": null,
+     "to": 24
+    },
+    {
+     "field": "height_mm",
+     "from": null,
+     "to": 1320
+    },
+    {
+     "field": "length_mm",
+     "from": null,
+     "to": 735
+    },
+    {
+     "field": "note",
+     "from": null,
+     "to": "Maker release (launch 2026-03-05, release 2026-03-10) plus the launch briefing: 735 x 642 x 1320 mm folded and about 130 kg, 24 DoF with a +/-180-degree folding torso, 7-DoF arms and a 4-DoF folding torso, a 200-2200 mm vertical and 0-1900 mm lateral working envelope, the MRS quick-change system swapping 10+ end effectors in under 6 seconds, self-developed XG joint modules from 45 to 1500 Nm, up to 2070 TOPS compute, 360-degree multimodal perception and a dual-system architecture with a 100 Hz reflex loop. Price and runtime are not published."
+    },
+    {
+     "field": "official_url",
+     "from": null,
+     "to": "https://www.prnewswire.com/news-releases/xgsynbot-debuts-z1-wheeled-robot-targeting-the-last-mile-of-industrial-embodied-ai-302709126.html"
+    },
+    {
+     "field": "onboard_compute",
+     "from": null,
+     "to": true
+    },
+    {
+     "field": "release_year",
+     "from": null,
+     "to": 2026
+    },
+    {
+     "field": "sdk_available",
+     "from": null,
+     "to": true
+    },
+    {
+     "field": "sensors",
+     "from": [],
+     "to": [
+      "360-degree multimodal perception (LiDAR and cameras)"
+     ]
+    },
+    {
+     "field": "sources",
+     "from": [],
+     "to": [
+      "https://www.prnewswire.com/news-releases/xgsynbot-debuts-z1-wheeled-robot-targeting-the-last-mile-of-industrial-embodied-ai-302709126.html",
+      "https://www.eet-china.com/mp/a478691.html"
+     ]
+    },
+    {
+     "field": "status",
+     "from": null,
+     "to": "Announced"
+    },
+    {
+     "field": "summary",
+     "from": "",
+     "to": "XGSynBot's wheeled humanoid for industrial work, with a modular end-effector quick-change system (under 6 seconds), 7-DoF arms, a folding torso and a dual fast/slow control architecture."
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "official"
+    },
+    {
+     "field": "weight_kg",
+     "from": null,
+     "to": 130
+    },
+    {
+     "field": "width_mm",
+     "from": null,
+     "to": 642
+    }
+   ]
+  }
+ ]
+}

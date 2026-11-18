@@ -1,0 +1,80 @@
+{
+ "id": "agility-digit-5",
+ "name": "Digit 5",
+ "manufacturer": "Agility Robotics",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-03",
+   "type": "added",
+   "source": "https://www.agilityrobotics.com/solutions/digit-5",
+   "commit": "1a533a7",
+   "changes": []
+  },
+  {
+   "date": "2026-11-13",
+   "type": "updated",
+   "source": "https://www.agilityrobotics.com/solutions/digit-5",
+   "commit": "14cd746",
+   "changes": [
+    {
+     "field": "sources",
+     "from": [
+      "https://www.agilityrobotics.com/solutions/digit-5",
+      "https://www.agilityrobotics.com/solution"
+     ],
+     "to": [
+      "https://www.agilityrobotics.com/solutions/digit-5",
+      "https://www.agilityrobotics.com/solution",
+      "https://humanoidstore.co/robots/agility-digit"
+     ]
+    }
+   ]
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://www.agilityrobotics.com/solutions/digit-5",
+   "commit": "0be5d4c",
+   "changes": [
+    {
+     "field": "height_mm",
+     "from": null,
+     "to": 1810
+    },
+    {
+     "field": "notes",
+     "from": null,
+     "to": "Issue #17 (2026-11-17): height 1.81 m, weight 129 kg, 90 min runtime added from Agility's Digit 5 launch material; payload 23 kg is Agility's max figure (22.7 kg rated, preliminary on pre-production hardware). agilityrobotics.com timed out on re-check, so figures are the maker pages recorded in data/specs/agility-digit-5.json [replaced height_mm: None -> 1810; weight_kg: None -> 129; runtime_h: None -> 1.5]"
+    },
+    {
+     "field": "runtime_h",
+     "from": null,
+     "to": 1.5
+    },
+    {
+     "field": "sources",
+     "from": [
+      "https://www.agilityrobotics.com/solutions/digit-5",
+      "https://www.agilityrobotics.com/solution",
+      "https://humanoidstore.co/robots/agility-digit"
+     ],
+     "to": [
+      "https://www.agilityrobotics.com/solutions/digit-5",
+      "https://www.agilityrobotics.com/content/agility-unveils-digit-5-humanoid-robot-built-for-cooperatively-safe-work-at-scale"
+     ]
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "official"
+    },
+    {
+     "field": "weight_kg",
+     "from": null,
+     "to": 129
+    }
+   ]
+  }
+ ]
+}

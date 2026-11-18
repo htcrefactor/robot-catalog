@@ -1,0 +1,99 @@
+{
+ "id": "unitree-laikago",
+ "name": "Laikago",
+ "manufacturer": "Unitree Robotics",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-17",
+   "type": "added",
+   "source": null,
+   "commit": "b596d3e",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://www.youtube.com/watch?v=d6Ja643GqL8",
+   "commit": "0c54867",
+   "changes": [
+    {
+     "field": "dof",
+     "from": null,
+     "to": 12
+    },
+    {
+     "field": "height_mm",
+     "from": null,
+     "to": 600
+    },
+    {
+     "field": "length_mm",
+     "from": null,
+     "to": 560
+    },
+    {
+     "field": "note",
+     "from": null,
+     "to": "Unitree no longer carries a Laikago page (unitree.com/laikago returns 404, checked 2026-11-17). The figures recorded are the maker's own: the launch video on Unitree's channel gives 22 kg and 0.56 x 0.35 x 0.6 m standing, and Unitree's laikago_ros model has 12 revolute joints (3 per leg). Unitree never published a full Laikago datasheet - the 2020 page had an empty parameters section - so speed, payload, runtime and battery capacity stay empty rather than taking press figures (0.8 m/s and 7 kg appear in press coverage only). A later 2019 revision was listed at 24 kg."
+    },
+    {
+     "field": "release_year",
+     "from": null,
+     "to": 2017
+    },
+    {
+     "field": "sources",
+     "from": [],
+     "to": [
+      "https://www.youtube.com/watch?v=d6Ja643GqL8",
+      "https://github.com/unitreerobotics/laikago_ros",
+      "https://github.com/unitreerobotics/unitree_ros/blob/master/robots/laikago_description/urdf/laikago.urdf",
+      "https://www.younginmobility.com/"
+     ]
+    },
+    {
+     "field": "summary",
+     "from": "",
+     "to": "Unitree's first quadruped, an all-electric research platform from 2017 named after the space dog Laika and later replaced by the Aliengo and Go series."
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "official"
+    },
+    {
+     "field": "weight_kg",
+     "from": null,
+     "to": 22
+    },
+    {
+     "field": "width_mm",
+     "from": null,
+     "to": 350
+    },
+    {
+     "field": "sim_models",
+     "from": null,
+     "to": {
+      "urdf": {
+       "url": "https://github.com/unitreerobotics/unitree_ros/blob/master/robots/laikago_description/urdf/laikago.urdf",
+       "license": "BSD-3-Clause"
+      }
+     }
+    },
+    {
+     "field": "kr_distributors",
+     "from": null,
+     "to": [
+      {
+       "name": "영인모빌리티 (Unitree 한국 공식 파트너)",
+       "kind": "distributor",
+       "url": "https://www.younginmobility.com/"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

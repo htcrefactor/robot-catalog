@@ -1,0 +1,41 @@
+{
+ "id": "faraday-future-fx-aegis-hyper",
+ "name": "FX Aegis Hyper",
+ "manufacturer": "Faraday Future",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-17",
+   "type": "added",
+   "source": "https://robotics.ff.com/us/fx-aegis-hyper/",
+   "commit": "b596d3e",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://robotics.ff.com/us/fx-aegis-hyper/",
+   "commit": "4b7ab4b",
+   "changes": [
+    {
+     "field": "price_observations",
+     "from": null,
+     "to": [
+      {
+       "date": "2026-11-17",
+       "amount": 137900,
+       "currency": "USD",
+       "kind": "list",
+       "source": "https://shop.ff.com/products/fx-aegis-hyper"
+      }
+     ]
+    },
+    {
+     "field": "price_usd",
+     "from": 137900,
+     "to": null
+    }
+   ]
+  }
+ ]
+}

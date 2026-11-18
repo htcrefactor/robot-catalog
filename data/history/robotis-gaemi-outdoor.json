@@ -1,0 +1,56 @@
+{
+ "id": "robotis-gaemi-outdoor",
+ "name": "GAEMI Outdoor Delivery Robot",
+ "manufacturer": "ROBOTIS",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-17",
+   "type": "added",
+   "source": "https://www.robotis.com/en/product/ecosystem-outgaemi.php",
+   "commit": "73aee2c",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://www.robotis.com/en/product/ecosystem-outgaemi.php",
+   "commit": "0c54867",
+   "changes": [
+    {
+     "field": "kr_distributors",
+     "from": null,
+     "to": [
+      {
+       "name": "로보티즈 (본사 직판·구매 문의)",
+       "kind": "direct",
+       "url": "https://www.robotis.com/ko/"
+      }
+     ]
+    },
+    {
+     "field": "manufacturer_ko",
+     "from": null,
+     "to": "로보티즈"
+    },
+    {
+     "field": "name_ko",
+     "from": null,
+     "to": "개미 (실외)"
+    },
+    {
+     "field": "sources",
+     "from": [
+      "https://www.robotis.com/en/product/ecosystem-outgaemi.php",
+      "https://en.robotis.com/sub/business_012.php"
+     ],
+     "to": [
+      "https://www.robotis.com/en/product/ecosystem-outgaemi.php",
+      "https://en.robotis.com/sub/business_012.php",
+      "https://www.robotis.com/ko/"
+     ]
+    }
+   ]
+  }
+ ]
+}

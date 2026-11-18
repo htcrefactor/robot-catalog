@@ -1,0 +1,95 @@
+{
+ "id": "tetrabot-t4-c",
+ "name": "T4-C",
+ "manufacturer": "TetraBOT",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-17",
+   "type": "added",
+   "source": null,
+   "commit": "b596d3e",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://tetrabot.com/article/64/226.html",
+   "commit": "30bdc91",
+   "changes": [
+    {
+     "field": "compute_detail",
+     "from": null,
+     "to": "8-core high-performance CPU with 6 TOPS; optional high-compute module (e.g. NVIDIA Orin, 40-100 TOPS)"
+    },
+    {
+     "field": "note",
+     "from": null,
+     "to": "The maker's spec table (poster on TetraBOT's CDN, 2026-07-16) covers four variants that differ in size, weight and DoF, so variant-dependent fields are left empty: Lite 630x840x260 mm, 18 kg, 10 DoF (5 per arm), external power only; Pro 630x840x260 mm, 20 kg, 14 DoF (7 per arm), external power; Max 570x1470x550 mm folded / 570x1870x550 mm extended, 48 kg, 13 DoF (5 per arm, 1 waist, 2 base), about 1.5 h on battery; Ultra same size, 50 kg, 17 DoF (7 per arm, 1 waist, 2 base), about 1.5 h. Shared: 82 Nm peak shoulder torque, 3 kg hand payload, 740 mm arm span, 8-core CPU at 6 TOPS with optional Orin, 8-microphone array, 6 W speaker, Wi-Fi 6 and Bluetooth 5.2, binocular head camera with optional wrist depth camera, base LiDAR on Max and Ultra."
+    },
+    {
+     "field": "official_url",
+     "from": null,
+     "to": "https://tetrabot.com/article/64/226.html"
+    },
+    {
+     "field": "onboard_compute",
+     "from": null,
+     "to": true
+    },
+    {
+     "field": "payload_kg",
+     "from": null,
+     "to": 3
+    },
+    {
+     "field": "price_note",
+     "from": null,
+     "to": "From CNY 23,900 (developer edition)"
+    },
+    {
+     "field": "release_year",
+     "from": null,
+     "to": 2026
+    },
+    {
+     "field": "sdk_available",
+     "from": null,
+     "to": true
+    },
+    {
+     "field": "sensors",
+     "from": [],
+     "to": [
+      "Binocular head camera",
+      "Wrist depth camera (optional)",
+      "Base LiDAR (Max and Ultra variants)"
+     ]
+    },
+    {
+     "field": "sources",
+     "from": [],
+     "to": [
+      "https://tetrabot.com/article/64/226.html",
+      "https://tetraelcoss.oss-cn-hangzhou.aliyuncs.com/uploads/file/20260716/20260716141659539602.jpg"
+     ]
+    },
+    {
+     "field": "status",
+     "from": null,
+     "to": "Commercial"
+    },
+    {
+     "field": "summary",
+     "from": "",
+     "to": "Low-cost wheeled humanoid developer platform from TetraBOT (Nanjing): dual arms with 5- or 7-DoF options on a fixed or two-wheel differential base, sold from CNY 23,900 for research, education and factory handling."
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "official"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,33 @@
+{
+ "id": "kinova-movo",
+ "name": "MOVO",
+ "manufacturer": "Kinova",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-17",
+   "type": "added",
+   "source": "https://github.com/Kinovarobotics/kinova-movo",
+   "commit": "b596d3e",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://github.com/Kinovarobotics/kinova-movo",
+   "commit": "ae60ceb",
+   "changes": [
+    {
+     "field": "compute_soc",
+     "from": null,
+     "to": "Intel NUC"
+    },
+    {
+     "field": "compute_source",
+     "from": null,
+     "to": "https://kinovarobotics.github.io/kinova-movo/Concepts/c_movo_hardware_overview.html"
+    }
+   ]
+  }
+ ]
+}

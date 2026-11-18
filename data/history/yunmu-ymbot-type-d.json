@@ -1,0 +1,98 @@
+{
+ "id": "yunmu-ymbot-type-d",
+ "name": "YMbot Type D",
+ "manufacturer": "Yunmu Intelligent Manufacturing",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-17",
+   "type": "added",
+   "source": null,
+   "commit": "b596d3e",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://www.ymbot.com/product/detail/4",
+   "commit": "b1429ab",
+   "changes": [
+    {
+     "field": "dof",
+     "from": null,
+     "to": 22
+    },
+    {
+     "field": "height_mm",
+     "from": null,
+     "to": 1650
+    },
+    {
+     "field": "length_mm",
+     "from": null,
+     "to": 600
+    },
+    {
+     "field": "max_speed_mps",
+     "from": null,
+     "to": 1.5
+    },
+    {
+     "field": "notes",
+     "from": null,
+     "to": "Maker gives extended-state size as <=600 x 600 x 1650 mm and folded height <=1100 mm; 100 kg includes the battery. 5 kg is the single-arm payload. Battery 45 Ah lithium with no voltage stated, so Wh is left empty; mobility endurance <=100 km. Network port is reserved and secondary development is supported, but no documented API is published."
+    },
+    {
+     "field": "official_url",
+     "from": null,
+     "to": "https://www.ymbot.com/product/detail/4"
+    },
+    {
+     "field": "payload_kg",
+     "from": null,
+     "to": 5
+    },
+    {
+     "field": "runtime_h",
+     "from": null,
+     "to": 8
+    },
+    {
+     "field": "sensors",
+     "from": [],
+     "to": [
+      "Depth camera"
+     ]
+    },
+    {
+     "field": "sources",
+     "from": [],
+     "to": [
+      "https://www.ymbot.com/product/detail/4",
+      "https://www.worldrobotconference.com/profile/robot/download/2026/07/23/20260723170520000751_20260723170520A912.pdf"
+     ]
+    },
+    {
+     "field": "summary",
+     "from": "",
+     "to": "Wheeled industrial humanoid with twin 7-DoF arms and dexterous hands on a mapping/navigation base, used for data collection, patrol and light industrial tasks."
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "official"
+    },
+    {
+     "field": "weight_kg",
+     "from": null,
+     "to": 100
+    },
+    {
+     "field": "width_mm",
+     "from": null,
+     "to": 600
+    }
+   ]
+  }
+ ]
+}

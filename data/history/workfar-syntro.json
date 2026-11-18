@@ -1,0 +1,33 @@
+{
+ "id": "workfar-syntro",
+ "name": "Syntro",
+ "manufacturer": "WorkFar",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-17",
+   "type": "added",
+   "source": "https://www.workfar.com/product/syntro",
+   "commit": "b596d3e",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://www.workfar.com/product/syntro",
+   "commit": "ae60ceb",
+   "changes": [
+    {
+     "field": "compute_soc",
+     "from": null,
+     "to": "Intel Core i5"
+    },
+    {
+     "field": "compute_source",
+     "from": null,
+     "to": "https://www.workfar.com/product/syntro"
+    }
+   ]
+  }
+ ]
+}

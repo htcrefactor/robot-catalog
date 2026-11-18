@@ -1,0 +1,55 @@
+{
+ "id": "zj-humanoid-naviai-wa2",
+ "name": "NAVIAI WA2",
+ "manufacturer": "Zhejiang Humanoid Robot Innovation Center",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-17",
+   "type": "added",
+   "source": null,
+   "commit": "b596d3e",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://us.zj-humanoid.com/zujian/10",
+   "commit": "b1429ab",
+   "changes": [
+    {
+     "field": "notes",
+     "from": null,
+     "to": "Maker states 8-DoF arms with +/-0.02 mm end-effector positioning accuracy, up to 6 h runtime with about 2 h charging, and slopes up to 20 deg. Height, weight, total DoF, payload and battery capacity are not published on the reachable product page, so those fields stay empty."
+    },
+    {
+     "field": "official_url",
+     "from": null,
+     "to": "https://us.zj-humanoid.com/zujian/10"
+    },
+    {
+     "field": "runtime_h",
+     "from": null,
+     "to": 6
+    },
+    {
+     "field": "sources",
+     "from": [],
+     "to": [
+      "https://us.zj-humanoid.com/zujian/10"
+     ]
+    },
+    {
+     "field": "summary",
+     "from": "",
+     "to": "Wheeled general-purpose mobile manipulator for logistics handling, laboratory work and commercial service tasks."
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "official"
+    }
+   ]
+  }
+ ]
+}

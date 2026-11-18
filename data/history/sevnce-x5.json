@@ -1,0 +1,90 @@
+{
+ "id": "sevnce-x5",
+ "name": "Explosion-Proof Four-Legged Robot X5",
+ "manufacturer": "Sevnce Robotics",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-17",
+   "type": "added",
+   "source": null,
+   "commit": "b596d3e",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://sevnce.com/detail?id=72",
+   "commit": "fa098f7",
+   "changes": [
+    {
+     "field": "dof",
+     "from": null,
+     "to": 16
+    },
+    {
+     "field": "height_mm",
+     "from": null,
+     "to": 950
+    },
+    {
+     "field": "ip_rating",
+     "from": null,
+     "to": "IP66"
+    },
+    {
+     "field": "length_mm",
+     "from": null,
+     "to": 1200
+    },
+    {
+     "field": "max_speed_mps",
+     "from": null,
+     "to": 2.0
+    },
+    {
+     "field": "note",
+     "from": null,
+     "to": "Sevnce (七腾机器人) X5 product page sevnce.com/detail?id=72 (checked 2026-11-17): all figures are stated as maxima - dimensions <=1200 x 750 x 950 mm, weight <=125 kg, payload 30 kg, straight-line speed <=2.0 m/s, 16+2 degrees of freedom, IP66, Ex IIB T4 Gb, -20 to +60 C, stairs <=20 cm high and >=25 cm deep, obstacle <=40 cm, wading <=15 cm, combined runtime >=2 h, charge <=3 h, laser SLAM + IMU with visual localisation, positioning <=5 cm. The page lists it as a wheel-leg hybrid, so the record's Quadruped category is the catalogue's own choice. Battery capacity is not published."
+    },
+    {
+     "field": "official_url",
+     "from": null,
+     "to": "https://sevnce.com/detail?id=72"
+    },
+    {
+     "field": "payload_kg",
+     "from": null,
+     "to": 30
+    },
+    {
+     "field": "runtime_h",
+     "from": null,
+     "to": 2
+    },
+    {
+     "field": "sources",
+     "from": [],
+     "to": [
+      "https://sevnce.com/detail?id=72"
+     ]
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "official"
+    },
+    {
+     "field": "weight_kg",
+     "from": null,
+     "to": 125
+    },
+    {
+     "field": "width_mm",
+     "from": null,
+     "to": 750
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,38 @@
+{
+ "id": "ti5-ti70a",
+ "name": "Ti70A",
+ "manufacturer": "Ti5 Robot",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-17",
+   "type": "added",
+   "source": null,
+   "commit": "b596d3e",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": null,
+   "commit": "30bdc91",
+   "changes": [
+    {
+     "field": "note",
+     "from": null,
+     "to": "No maker product, page or release was found for a 'Ti70A' (checked 2026-11-17). Ti5 Robot's humanoid line-up is T140A, T170A, T170C and T230C; the id matches a catalogue entry at humanoidversus.com and appears to be a mis-keyed T170A, but that is an inference, not a maker record. No specs are recorded; the record is kept and marked unconfirmed."
+    },
+    {
+     "field": "summary",
+     "from": "",
+     "to": "Catalogue entry for a 'Ti70A' from Ti5 Robot that no maker material corroborates; kept as unverified."
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "unconfirmed"
+    }
+   ]
+  }
+ ]
+}

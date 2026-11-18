@@ -1,0 +1,55 @@
+{
+ "id": "sinovai-xiaoxin",
+ "name": "Xiaoxin",
+ "manufacturer": "Sinovai Robotics",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-17",
+   "type": "added",
+   "source": null,
+   "commit": "b596d3e",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://www.worldrobotconference.com/expo/company/849.html",
+   "commit": "75b989d",
+   "changes": [
+    {
+     "field": "dof",
+     "from": null,
+     "to": 44
+    },
+    {
+     "field": "note",
+     "from": null,
+     "to": "No maker website or datasheet was found. The only company-supplied source is Sinovai Robotics' own WRC 2026 exhibitor entry: 44 DOF, 7-axis arms, operating height above 2 m, an 11-DOF 'elf hand', squatting and lifting motion, a large-model voice system with second-level response, and uses in cultural-tourism guiding, commercial service, research and education, and corporate reception. Press reports place Xiaoxin at the Chengdu Natural History Museum from December 2025 and in service as a qualified guide from February 2026, hence Pilot. Height, weight, payload, speed, battery and runtime are not published. Left as unconfirmed because the maker has no verifiable product page and the figures come from an exhibitor submission, not a maker datasheet."
+    },
+    {
+     "field": "sources",
+     "from": [],
+     "to": [
+      "https://www.worldrobotconference.com/expo/company/849.html"
+     ]
+    },
+    {
+     "field": "status",
+     "from": null,
+     "to": "Pilot"
+    },
+    {
+     "field": "summary",
+     "from": "",
+     "to": "Xiaoxin (小芯), a cultural-tourism guide humanoid from Chengdu-based Sinovai Robotics, built on the company's Lingshu robot-skills platform and already guiding visitors at the Chengdu Natural History Museum."
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "unconfirmed"
+    }
+   ]
+  }
+ ]
+}

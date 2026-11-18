@@ -1,0 +1,45 @@
+{
+ "id": "kaist-hubo-2",
+ "name": "HUBO 2 (KHR-4)",
+ "manufacturer": "KAIST",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-17",
+   "type": "added",
+   "source": "https://doi.org/10.7210/jrsj.30.367",
+   "commit": "b596d3e",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://doi.org/10.7210/jrsj.30.367",
+   "commit": "0c54867",
+   "changes": [
+    {
+     "field": "manufacturer_ko",
+     "from": null,
+     "to": "한국과학기술원"
+    },
+    {
+     "field": "name_ko",
+     "from": null,
+     "to": "휴보 2"
+    },
+    {
+     "field": "sources",
+     "from": [
+      "https://doi.org/10.7210/jrsj.30.367",
+      "https://www.cmu.edu/dynamic-walking/files/abstracts/Oh_2013_DW.pdf"
+     ],
+     "to": [
+      "https://doi.org/10.7210/jrsj.30.367",
+      "https://www.cmu.edu/dynamic-walking/files/abstracts/Oh_2013_DW.pdf",
+      "https://rainbow-robotics.com/"
+     ]
+    }
+   ]
+  }
+ ]
+}

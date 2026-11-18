@@ -1,0 +1,71 @@
+{
+ "id": "infiforce-astrodroid-ad-01",
+ "name": "AstroDroid AD-01",
+ "manufacturer": "INFIFORCE",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-17",
+   "type": "added",
+   "source": null,
+   "commit": "b596d3e",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://www.infiforce.cn/robot",
+   "commit": "b310609",
+   "changes": [
+    {
+     "field": "dof",
+     "from": null,
+     "to": 43
+    },
+    {
+     "field": "height_mm",
+     "from": null,
+     "to": 1700
+    },
+    {
+     "field": "note",
+     "from": null,
+     "to": "Maker press release (CES 2026, via PR Newswire): the flagship AstroDroid AD-01 stands 170 cm tall with 43 DoF, runs on Jetson AGX Orin and is fully integrated with the Hyper-VLA model; the AstroDroid series is a general-purpose wheeled humanoid line. Maker news (May 2026) shows AD-01 completing a five-item quick-commerce order end to end in a Hangzhou front warehouse. Mass, payload, speed, battery and price are not published."
+    },
+    {
+     "field": "official_url",
+     "from": null,
+     "to": "https://www.infiforce.cn/robot"
+    },
+    {
+     "field": "onboard_compute",
+     "from": null,
+     "to": "NVIDIA Jetson AGX Orin"
+    },
+    {
+     "field": "release_year",
+     "from": null,
+     "to": 2026
+    },
+    {
+     "field": "sources",
+     "from": [],
+     "to": [
+      "https://www.infiforce.cn/robot",
+      "https://www.prnewswire.com/news-releases/infiforces-isabella-bai-at-ces-2026-china-is-moving-from-manufacturing-to-defining-next-gen-embodied-intelligence-302657197.html"
+     ]
+    },
+    {
+     "field": "summary",
+     "from": "",
+     "to": "INFIFORCE's full-size wheeled AstroDroid AD-01, driven by the company's Hyper-VLA model for warehouse order picking and packing."
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "official"
+    }
+   ]
+  }
+ ]
+}

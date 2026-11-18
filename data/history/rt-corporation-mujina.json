@@ -1,0 +1,94 @@
+{
+ "id": "rt-corporation-mujina",
+ "name": "Mujina",
+ "manufacturer": "RT Corporation",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-17",
+   "type": "added",
+   "source": null,
+   "commit": "b596d3e",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://rt-net.jp/",
+   "commit": "1173def",
+   "changes": [
+    {
+     "field": "compute_detail",
+     "from": null,
+     "to": "LattePanda IOTA running Ubuntu 24.04 and ROS 2 Jazzy"
+    },
+    {
+     "field": "dof",
+     "from": null,
+     "to": 12
+    },
+    {
+     "field": "note",
+     "from": null,
+     "to": "Maker press release (27 Nov 2025) and RT's own posts: 11 kg, 12 joint motors (RobStride RS02, IDs 1-12 on two CAN buses), LattePanda IOTA computer, ROS 2 Jazzy, open CAD and MIT-licensed control software; positioned as a technology-verification unit rather than a production model. Dimensions, speed, battery and runtime are not published."
+    },
+    {
+     "field": "official_url",
+     "from": null,
+     "to": "https://rt-net.jp/"
+    },
+    {
+     "field": "onboard_compute",
+     "from": null,
+     "to": true
+    },
+    {
+     "field": "ros_support",
+     "from": null,
+     "to": true
+    },
+    {
+     "field": "sdk_available",
+     "from": null,
+     "to": true
+    },
+    {
+     "field": "sdk_name",
+     "from": null,
+     "to": "mujina_ros (ROS 2, MIT) with open CAD under CC BY-SA 4.0"
+    },
+    {
+     "field": "sensors",
+     "from": [],
+     "to": [
+      "USB 9-axis IMU"
+     ]
+    },
+    {
+     "field": "sources",
+     "from": [],
+     "to": [
+      "https://prtimes.jp/main/html/rd/p/000000075.000069918.html",
+      "https://github.com/rt-net/Mujina_Hardware",
+      "https://github.com/rt-net/mujina_ros"
+     ]
+    },
+    {
+     "field": "summary",
+     "from": "",
+     "to": "Japanese-designed open-hardware quadruped from RT Corporation, a first-step development model for light inspection and surveying."
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "official"
+    },
+    {
+     "field": "weight_kg",
+     "from": null,
+     "to": 11
+    }
+   ]
+  }
+ ]
+}

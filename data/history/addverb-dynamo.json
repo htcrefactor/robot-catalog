@@ -1,0 +1,50 @@
+{
+ "id": "addverb-dynamo",
+ "name": "Dynamo",
+ "manufacturer": "Addverb Technologies",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-17",
+   "type": "added",
+   "source": "https://addverb.com/automated-warehouse-robots/mobile-robots/autonomous-mobile-robot",
+   "commit": "b596d3e",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://addverb.com/automated-warehouse-robots/mobile-robots/autonomous-mobile-robot",
+   "commit": "e6ebd1a",
+   "changes": [
+    {
+     "field": "certifications",
+     "from": null,
+     "to": [
+      "CE"
+     ]
+    },
+    {
+     "field": "safety_note",
+     "from": null,
+     "to": "Dynamo 100 datasheet: “Passed in accordance with CE, ISO 3691-4, EN ISO 12100, EN 60204-1, EN 1175-1”."
+    },
+    {
+     "field": "safety_source",
+     "from": null,
+     "to": "https://addverb.com/wp-content/uploads/2023/10/Dynamo-100-Datasheet.pdf"
+    },
+    {
+     "field": "safety_standards",
+     "from": null,
+     "to": [
+      "ISO 3691-4",
+      "EN ISO 12100",
+      "EN 60204-1",
+      "EN 1175-1"
+     ]
+    }
+   ]
+  }
+ ]
+}

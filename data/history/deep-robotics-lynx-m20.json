@@ -1,0 +1,70 @@
+{
+ "id": "deep-robotics-lynx-m20",
+ "name": "LYNX M20",
+ "manufacturer": "DEEP Robotics",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-03",
+   "type": "added",
+   "source": "https://www.deeprobotics.cn/en/index/lynx.html",
+   "commit": "1a533a7",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://www.deeprobotics.cn/en/index/lynx.html",
+   "commit": "ae60ceb",
+   "changes": [
+    {
+     "field": "note",
+     "from": null,
+     "to": "DEEP Robotics Lynx M20 product page (checked 2026-11-17): standing 820 x 430 x 570 mm, 33 kg with battery, payload 15 kg (maximum load 50 kg), 3 h / 15 km unloaded and 2.5 h / 12 km at 15 kg, 5 m/s lab-tested with 2 m/s safe operational speed, 25 cm continuous stair height, 80 cm single step, 45 deg slope, dual 96-line LiDAR and dual wide-angle cameras, dual octa-core processors, IP66, -20 to 55 C, 72 V input, 1.5 h single-battery charge. DoF (16) comes from the M20 Pro user manual, not the product page; battery capacity is not published."
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "official"
+    },
+    {
+     "field": "sim_models",
+     "from": null,
+     "to": {
+      "urdf": {
+       "url": "https://github.com/DeepRoboticsLab/deep_robotics_model/blob/main/M20/urdf/M20.urdf",
+       "license": "BSD-3-Clause"
+      },
+      "mjcf": {
+       "url": "https://github.com/DeepRoboticsLab/deep_robotics_model/blob/main/M20/mjcf/M20.xml",
+       "license": "BSD-3-Clause"
+      },
+      "usd": {
+       "url": "https://github.com/DeepRoboticsLab/deep_robotics_model/blob/main/M20/usd/M20.usd",
+       "license": "BSD-3-Clause"
+      }
+     }
+    },
+    {
+     "field": "sources",
+     "from": [
+      "https://www.deeprobotics.us/products/lynx-m20",
+      "https://www.deeprobotics.us/wp-content/uploads/2025/08/Lynx-M20-Pro-User-Manual-V1.0.2-0.pdf"
+     ],
+     "to": [
+      "https://www.deeprobotics.us/products/lynx-m20",
+      "https://www.deeprobotics.us/wp-content/uploads/2025/08/Lynx-M20-Pro-User-Manual-V1.0.2-0.pdf",
+      "https://github.com/DeepRoboticsLab/deep_robotics_model/blob/main/M20/urdf/M20.urdf",
+      "https://github.com/DeepRoboticsLab/deep_robotics_model/blob/main/M20/mjcf/M20.xml",
+      "https://github.com/DeepRoboticsLab/deep_robotics_model/blob/main/M20/usd/M20.usd"
+     ]
+    },
+    {
+     "field": "compute_memory_gb",
+     "from": null,
+     "to": 16
+    }
+   ]
+  }
+ ]
+}

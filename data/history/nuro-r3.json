@@ -1,0 +1,53 @@
+{
+ "id": "nuro-r3",
+ "name": "Nuro R3",
+ "manufacturer": "Nuro",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-03",
+   "type": "added",
+   "source": "https://nuro.sfo3.digitaloceanspaces.com/Nuro-R3-Spec-Sheet-Letter.pdf",
+   "commit": "1a533a7",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://nuro.ai",
+   "commit": "1173def",
+   "changes": [
+    {
+     "field": "note",
+     "from": null,
+     "to": "Maker spec sheet 'Nuro R3 - Third-generation vehicle' (2022, nuro.ai): 45 mph, 52 kWh battery, gross weight 1,610 kg, payload 225 kg, 0.917 m3 cargo, AC 6.6 kW / DC CCS charging; sensors camera/radar/lidar/thermal; external pedestrian airbag and collapsible front end. Dimensions are not in the specification list - they are the labels on the drawing (3.2 m, 1.44 m, 2.1 m). nuro.ai itself now markets the Nuro Driver rather than this vehicle, so the spec sheet is the only maker document for the R3."
+    },
+    {
+     "field": "official_url",
+     "from": null,
+     "to": "https://nuro.ai"
+    },
+    {
+     "field": "price_note",
+     "from": "road-going vehicle, not a sidewalk robot; gross weight 1,610 kg; 45 mph max; dims 3.2/1.44/2.1 m from drawing (axis assignment inferred)",
+     "to": "road-going vehicle, not a sidewalk robot; gross weight 1,610 kg; 3.2 m long x 1.44 m wide x 2.1 m tall read from the dimensioned drawing on the maker spec sheet (axis assignment inferred)"
+    },
+    {
+     "field": "sources",
+     "from": [
+      "https://nuro.sfo3.digitaloceanspaces.com/Nuro-R3-Spec-Sheet-Letter.pdf"
+     ],
+     "to": [
+      "https://nuro.sfo3.digitaloceanspaces.com/Nuro-R3-Spec-Sheet-Letter.pdf",
+      "https://nuro.ai"
+     ]
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "official"
+    }
+   ]
+  }
+ ]
+}

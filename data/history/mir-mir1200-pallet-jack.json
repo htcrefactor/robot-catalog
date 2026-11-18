@@ -1,0 +1,69 @@
+{
+ "id": "mir-mir1200-pallet-jack",
+ "name": "MiR1200 Pallet Jack",
+ "manufacturer": "Mobile Industrial Robots (MiR)",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-03",
+   "type": "added",
+   "source": "https://mobile-industrial-robots.com/products/robots/mir1200-pallet-jack",
+   "commit": "1a533a7",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://mobile-industrial-robots.com/products/robots/mir1200-pallet-jack",
+   "commit": "0c54867",
+   "changes": [
+    {
+     "field": "certifications",
+     "from": null,
+     "to": []
+    },
+    {
+     "field": "safety_source",
+     "from": null,
+     "to": "https://mobile-industrial-robots.com/products/robots/mir1200-pallet-jack/specifications"
+    },
+    {
+     "field": "safety_standards",
+     "from": null,
+     "to": [
+      "EN ISO 12100:2010",
+      "ISO 13849-1:2023",
+      "EN ISO 13850:2015",
+      "EN ISO 3691-4:2023",
+      "EN IEC 61000-6-4:2007/A1:2011",
+      "EN IEC 61000-6-2:2005/AC:2005",
+      "EN 12895:2015+A1:2019"
+     ]
+    },
+    {
+     "field": "kr_distributors",
+     "from": null,
+     "to": [
+      {
+       "name": "MiR 코리아 (Mobile Industrial Robots 한국 지사)",
+       "kind": "direct",
+       "url": "https://mobile-industrial-robots.com/ko/contacts"
+      }
+     ]
+    },
+    {
+     "field": "sources",
+     "from": [
+      "https://mobile-industrial-robots.com/products/robots/mir1200-pallet-jack",
+      "https://mobile-industrial-robots.com/products/robots/mir1200-pallet-jack/specifications"
+     ],
+     "to": [
+      "https://mobile-industrial-robots.com/products/robots/mir1200-pallet-jack",
+      "https://mobile-industrial-robots.com/products/robots/mir1200-pallet-jack/specifications",
+      "https://mobile-industrial-robots.com/ko/contacts"
+     ]
+    }
+   ]
+  }
+ ]
+}

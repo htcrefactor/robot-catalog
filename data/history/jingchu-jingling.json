@@ -1,0 +1,116 @@
+{
+ "id": "jingchu-jingling",
+ "name": "Jingling",
+ "manufacturer": "Hubei Jingchu Humanoid Robot (JCBOT)",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-17",
+   "type": "added",
+   "source": null,
+   "commit": "b596d3e",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://www.jingchurobot.cn",
+   "commit": "b310609",
+   "changes": [
+    {
+     "field": "battery_wh",
+     "from": null,
+     "to": 960
+    },
+    {
+     "field": "compute_detail",
+     "from": null,
+     "to": "Orin NX-class edge module"
+    },
+    {
+     "field": "dof",
+     "from": null,
+     "to": 18
+    },
+    {
+     "field": "height_mm",
+     "from": null,
+     "to": 1650
+    },
+    {
+     "field": "max_speed_mps",
+     "from": null,
+     "to": 2.3
+    },
+    {
+     "field": "note",
+     "from": null,
+     "to": "Maker brochure (Jingchu Humanoid Robot Co., Wuhan, jingchurobot.cn): 165 cm, 70 kg, 18 DoF standard / 38 with dexterous hands (record keeps 18), 2 chassis DoF, 7-DoF arms, ~3 kg arm payload, 73 cm arm length, 2.3 m/s, 48 V 20 Ah (=960 Wh derived), about 8 h runtime, in-place rotation, 360-degree LiDAR + RGB-D, 5G, Wi-Fi 6, Bluetooth 5.0, 4-microphone array, auto-charging for 24 h operation, self-diagnosis and recovery, hand remote and OTA. The brochure's compute line reads 'Intel Core i14', likely a typo. Deliveries of 40+ units across three models reported Nov 2026."
+    },
+    {
+     "field": "official_url",
+     "from": null,
+     "to": "https://www.jingchurobot.cn"
+    },
+    {
+     "field": "onboard_compute",
+     "from": null,
+     "to": "Intel Core host + NVIDIA Jetson Orin NX"
+    },
+    {
+     "field": "payload_kg",
+     "from": null,
+     "to": 3
+    },
+    {
+     "field": "runtime_h",
+     "from": null,
+     "to": 8.0
+    },
+    {
+     "field": "sdk_available",
+     "from": null,
+     "to": true
+    },
+    {
+     "field": "sdk_name",
+     "from": null,
+     "to": "SDK + handheld remote"
+    },
+    {
+     "field": "sensors",
+     "from": [],
+     "to": [
+      "360-degree LiDAR",
+      "RGB-D camera",
+      "4-microphone array",
+      "IMU"
+     ]
+    },
+    {
+     "field": "sources",
+     "from": [],
+     "to": [
+      "https://wrc.cie.org.cn/profile/robot/download/2026/07/30/20260730092623000149_20260730092623A923.pdf",
+      "https://wrc.cie.org.cn/expo/company/860.html"
+     ]
+    },
+    {
+     "field": "summary",
+     "from": "",
+     "to": "Jingchu's wheeled service humanoid for reception, guidance, retail data collection and light household assistance, with 7-DoF arms on a two-wheel chassis."
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "official"
+    },
+    {
+     "field": "weight_kg",
+     "from": null,
+     "to": 70
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,50 @@
+{
+ "id": "yue-quan-bionics-w-bot",
+ "name": "W-Bot",
+ "manufacturer": "Yue Quan Bionics",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-17",
+   "type": "added",
+   "source": null,
+   "commit": "b596d3e",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://www.yqbionics.com/",
+   "commit": "30bdc91",
+   "changes": [
+    {
+     "field": "note",
+     "from": null,
+     "to": "The maker's site (yqbionics.com) served only an empty stub on 2026-11-17 (HTTP 200 with no product content) and no maker product page, datasheet or release with figures could be read, so the record stays unconfirmed with its spec fields empty. Catalogue pages describe W-Bot as a 178 cm wheeled humanoid with 43 DoF, 20 kg dual-arm payload and a 2400 Wh battery; those values are not maker-verified here."
+    },
+    {
+     "field": "official_url",
+     "from": null,
+     "to": "https://www.yqbionics.com/"
+    },
+    {
+     "field": "sources",
+     "from": [],
+     "to": [
+      "https://www.yqbionics.com/"
+     ]
+    },
+    {
+     "field": "summary",
+     "from": "",
+     "to": "Yue Quan Bionics' wheeled humanoid (Bowen W-Bot) with a compact folding hip-knee-ankle torso for narrow spaces and 7-DoF bionic arms."
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "unconfirmed"
+    }
+   ]
+  }
+ ]
+}

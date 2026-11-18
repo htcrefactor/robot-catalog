@@ -1,0 +1,64 @@
+{
+ "id": "otto-otto-600",
+ "name": "OTTO 600",
+ "manufacturer": "OTTO by Rockwell Automation",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-17",
+   "type": "added",
+   "source": "https://ottomotors.com/600",
+   "commit": "b596d3e",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://ottomotors.com/600",
+   "commit": "e6ebd1a",
+   "changes": [
+    {
+     "field": "certifications",
+     "from": null,
+     "to": [
+      "CE",
+      "FCC Part 15 Subpart B",
+      "ICES-003",
+      "ICES-002"
+     ]
+    },
+    {
+     "field": "safety_note",
+     "from": null,
+     "to": "Maker's “Standards compliance” list for OTTO 600; it does not name ISO 3691-4 or B56.5."
+    },
+    {
+     "field": "safety_source",
+     "from": null,
+     "to": "https://ottomotors.com/600"
+    },
+    {
+     "field": "safety_standards",
+     "from": null,
+     "to": [
+      "ISO 12100",
+      "ISO 13849-1",
+      "RIA R15.08-1",
+      "EN 1175-1",
+      "EN 60204-1"
+     ]
+    },
+    {
+     "field": "sources",
+     "from": [
+      "https://www.rockwellautomation.com/content/dam/rockwell-automation/documents/pdf/events/automate/OTTO600-DS001G-EN-SEP2026.pdf"
+     ],
+     "to": [
+      "https://www.rockwellautomation.com/content/dam/rockwell-automation/documents/pdf/events/automate/OTTO600-DS001G-EN-SEP2026.pdf",
+      "https://ottomotors.com/600"
+     ]
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,56 @@
+{
+ "id": "iit-minihyq",
+ "name": "MiniHyQ",
+ "manufacturer": "Istituto Italiano di Tecnologia (IIT)",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-17",
+   "type": "added",
+   "source": null,
+   "commit": "b596d3e",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://dls.iit.it/robots",
+   "commit": "1173def",
+   "changes": [
+    {
+     "field": "note",
+     "from": null,
+     "to": "Maker robots page: 35 kg (24 kg with an offboard pump unit), described as the lightest and smallest hydraulic quadruped built, with reconfigurable leg configurations and a self-righting motion from its wide joint range. Dimensions, speed, payload and runtime are not published."
+    },
+    {
+     "field": "official_url",
+     "from": null,
+     "to": "https://dls.iit.it/robots"
+    },
+    {
+     "field": "sources",
+     "from": [],
+     "to": [
+      "https://dls.iit.it/robots",
+      "https://dls.iit.it/minihyq"
+     ]
+    },
+    {
+     "field": "summary",
+     "from": "",
+     "to": "Miniature fully torque-controlled hydraulic quadruped with reconfigurable legs and an on-board power pack."
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "official"
+    },
+    {
+     "field": "weight_kg",
+     "from": null,
+     "to": 35
+    }
+   ]
+  }
+ ]
+}

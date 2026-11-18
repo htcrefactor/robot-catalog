@@ -1,0 +1,66 @@
+{
+ "id": "two-labs-tobi",
+ "name": "Tobi",
+ "manufacturer": "Two Labs",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-17",
+   "type": "added",
+   "source": null,
+   "commit": "b596d3e",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://www.twolabs.ai/",
+   "commit": "30bdc91",
+   "changes": [
+    {
+     "field": "country",
+     "from": null,
+     "to": "United States"
+    },
+    {
+     "field": "note",
+     "from": null,
+     "to": "Two Labs publishes no hardware specifications: its site, launch material and Y Combinator profile describe use cases, a full-stack in-house build (hardware, VLAs, social-intelligence layer) and a completed prototype design, but give no height, weight, DoF, payload, speed, runtime or price. Catalogue figures (150 cm, 60 kg, 16 DoF, USD 50,000) are not maker values and are not used."
+    },
+    {
+     "field": "official_url",
+     "from": null,
+     "to": "https://www.twolabs.ai/"
+    },
+    {
+     "field": "release_year",
+     "from": null,
+     "to": 2026
+    },
+    {
+     "field": "sources",
+     "from": [],
+     "to": [
+      "https://www.twolabs.ai/",
+      "https://www.ycombinator.com/companies/twolabs"
+     ]
+    },
+    {
+     "field": "status",
+     "from": null,
+     "to": "Prototype"
+    },
+    {
+     "field": "summary",
+     "from": "",
+     "to": "Semi-humanoid caregiving robot from Two Labs (San Francisco) for nursing homes and senior living: feeding, dressing, medication reminders, mobility support, fetching objects and conversation."
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "official"
+    }
+   ]
+  }
+ ]
+}

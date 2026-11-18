@@ -1,0 +1,66 @@
+{
+ "id": "boston-dynamics-atlas-on-wheels",
+ "name": "Atlas on Wheels",
+ "manufacturer": "Boston Dynamics",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-17",
+   "type": "added",
+   "source": null,
+   "commit": "b596d3e",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://bostondynamics.com/blog/atlas-on-a-roll/",
+   "commit": "4b395bc",
+   "changes": [
+    {
+     "field": "country",
+     "from": null,
+     "to": "United States"
+    },
+    {
+     "field": "locomotion",
+     "from": "Wheeled",
+     "to": "Wheel-legged"
+    },
+    {
+     "field": "note",
+     "from": null,
+     "to": "Maker blog post 'Atlas On a Roll' by Atlas controls engineer Xiaoyu (Andy) Wu, published with a video on 9 Nov 2026: the feet of an electric Atlas were replaced by off-the-shelf scooter rims on the existing ankle actuators, with a single custom adapter as the only new part, and driven by a whole-body reinforcement-learning policy trained in simulation. Boston Dynamics states plainly that 'a wheeled Atlas isn't a product. It's a research testbed', announces no price or date, and says the insights are being fed back into the standard legged Atlas. Because the wheels sit on the legs in place of feet, locomotion recorded as Wheel-legged (the seed value was Wheeled). Maker publishes no height, weight, speed or payload for this configuration, so all spec fields stay empty."
+    },
+    {
+     "field": "official_url",
+     "from": null,
+     "to": "https://bostondynamics.com/blog/atlas-on-a-roll/"
+    },
+    {
+     "field": "sources",
+     "from": [],
+     "to": [
+      "https://bostondynamics.com/blog/atlas-on-a-roll/",
+      "https://www.youtube.com/watch?v=NL65Awuv8gU"
+     ]
+    },
+    {
+     "field": "status",
+     "from": null,
+     "to": "Research"
+    },
+    {
+     "field": "summary",
+     "from": "",
+     "to": "A one-off experiment in which Boston Dynamics swapped the electric Atlas' feet for scooter wheels to stress-test its actuators and whole-body RL control."
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "official"
+    }
+   ]
+  }
+ ]
+}

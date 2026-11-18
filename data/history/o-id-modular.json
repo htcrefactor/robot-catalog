@@ -1,0 +1,75 @@
+{
+ "id": "o-id-modular",
+ "name": "Modular humanoid",
+ "manufacturer": "O-ID",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-17",
+   "type": "added",
+   "source": null,
+   "commit": "b596d3e",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://o-id.net/",
+   "commit": "5150daa",
+   "changes": [
+    {
+     "field": "data_source",
+     "from": null,
+     "to": "Maker sources (verified 2026-11-17)"
+    },
+    {
+     "field": "dof",
+     "from": null,
+     "to": 30
+    },
+    {
+     "field": "height_mm",
+     "from": null,
+     "to": 1720
+    },
+    {
+     "field": "note",
+     "from": null,
+     "to": "O-ID's platform page (checked 2026-11-17): 172 cm, 70 kg, 16 kg payload, 30 DoF, nine or more swappable modules, holonomic wheeled base, 24/7 uptime target. The maker labels all figures indicative and offers the full datasheet only on request; speed, runtime and price are not published, and the current unit is a stationary dual-arm prototype."
+    },
+    {
+     "field": "official_url",
+     "from": null,
+     "to": "https://o-id.net/"
+    },
+    {
+     "field": "payload_kg",
+     "from": null,
+     "to": 16.0
+    },
+    {
+     "field": "sources",
+     "from": [],
+     "to": [
+      "https://o-id.net/"
+     ]
+    },
+    {
+     "field": "summary",
+     "from": "",
+     "to": "O-ID's modular humanoid platform: 1.72 m, 70 kg, 30 DoF and 16 kg payload with nine or more swappable modules on a holonomic base; specifications are indicative and the current unit is a stationary prototype."
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "official"
+    },
+    {
+     "field": "weight_kg",
+     "from": null,
+     "to": 70.0
+    }
+   ]
+  }
+ ]
+}

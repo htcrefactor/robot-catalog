@@ -1,0 +1,98 @@
+{
+ "id": "leju-kuavo-5",
+ "name": "Kuavo 5",
+ "manufacturer": "Leju Robotics",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-13",
+   "type": "added",
+   "source": "https://humanoidstore.co/robots/leju-kuavo-5",
+   "commit": "14cd746",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://lejurobot.com/en/products/kuavo-5",
+   "commit": "976d9e6",
+   "changes": [
+    {
+     "field": "battery_wh",
+     "from": null,
+     "to": 360
+    },
+    {
+     "field": "data_source",
+     "from": "HumanoidStore open data (CC BY 4.0)",
+     "to": "Maker sources (verified 2026-11-17)"
+    },
+    {
+     "field": "dof",
+     "from": 41,
+     "to": 29
+    },
+    {
+     "field": "max_speed_mps",
+     "from": 1.28,
+     "to": 1.39
+    },
+    {
+     "field": "notes",
+     "from": null,
+     "to": "Issue #17 (2026-11-17): KUAVO 5 product manual - 1.73 m, 63.5 kg, 29 body DoF excluding end effectors (41 with 6-DoF hands), 0.4 m/s walk / 5 km/h run, 60 V 6 Ah, about 1 h walking. HumanoidStore's 8 h is the wheeled KUAVO 5-W; Leju's IPO draft gives at least 2 h for the biped, so the manual's 1 h is used. [replaced payload_kg: 20 -> 5; max_speed_mps: 1.28 -> 1.39; dof: 41 -> 29; runtime_h: 2.0 -> 1.0; battery_wh: None -> 360 | emptied (no maker value) price_usd=42500; price_note=list 42500 USD (maker), per HumanoidStore, checked 2026-10]"
+    },
+    {
+     "field": "payload_kg",
+     "from": 20,
+     "to": 5
+    },
+    {
+     "field": "price_note",
+     "from": "list 42500 USD (maker), per HumanoidStore, checked 2026-10",
+     "to": "Leju publishes no price; quotes through sales"
+    },
+    {
+     "field": "price_usd",
+     "from": 42500,
+     "to": null
+    },
+    {
+     "field": "runtime_h",
+     "from": 2.0,
+     "to": 1.0
+    },
+    {
+     "field": "sources",
+     "from": [
+      "https://humanoidstore.co/robots/leju-kuavo-5"
+     ],
+     "to": [
+      "https://kuavo.lejurobot.com/beta_manual/en/basic_usage/kuavo-ros-control/docs/1%E4%BA%A7%E5%93%81%E4%BB%8B%E7%BB%8D/%E4%BA%94%E4%BB%A3%E4%BA%A7%E5%93%81/KUAVO_5%20%E5%B1%95%E5%8E%85%E7%AE%97%E5%8A%9B%E7%89%88%E4%BA%A7%E5%93%81%E4%BB%8B%E7%BB%8D/",
+      "https://lejurobot.com/en/products/kuavo-5"
+     ]
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "official"
+    },
+    {
+     "field": "note",
+     "from": null,
+     "to": "Maker (checked 2026-11-17): 607 x 270 x 1730 mm, 63.5 kg, 41 DoF in the dexterous-hand configuration, whole-body payload 20 kg (single arm 5 kg), running speed 5 km/h, at least 2 h per battery. Leju's product manual gives about 1 h of walking per battery, so runtime is the published lower bound."
+    },
+    {
+     "field": "official_url",
+     "from": null,
+     "to": "https://lejurobot.com/en/products/kuavo-5"
+    },
+    {
+     "field": "summary",
+     "from": "Full-size humanoid from Leju Robotics; b2b only, sold to businesses.",
+     "to": "Fifth-generation Leju humanoid for industrial and research work: 1.73 m, 63.5 kg, 41 DoF, 20 kg whole-body payload and up to 5 km/h running."
+    }
+   ]
+  }
+ ]
+}

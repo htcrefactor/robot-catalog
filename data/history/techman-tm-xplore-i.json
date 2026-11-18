@@ -1,0 +1,79 @@
+{
+ "id": "techman-tm-xplore-i",
+ "name": "TM Xplore I",
+ "manufacturer": "Techman Robot",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-17",
+   "type": "added",
+   "source": null,
+   "commit": "b596d3e",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://www.tm-robot.com/en/company/news/Techman-Robot-at-GTC-2026_Unveils-New-AI-Strategy-and-Humanoid-Robot-TM-Xplore-I",
+   "commit": "30bdc91",
+   "changes": [
+    {
+     "field": "compute_detail",
+     "from": null,
+     "to": "NVIDIA Jetson Thor module"
+    },
+    {
+     "field": "note",
+     "from": null,
+     "to": "Maker announcements (GTC 2026, 2026-03-18) describe a humanoid upper body on a wheeled base, NVIDIA Jetson Thor, a vision-language-action model, Isaac Sim and FoundationStereo, and a quick-change end-effector system shown in demos, but publish no dimension, weight, DoF, speed, payload, runtime or battery table. Those fields are left empty; catalogue figures such as 167 cm, 22 DoF, 0.83 m/s or USD 25,000 are not maker values."
+    },
+    {
+     "field": "official_url",
+     "from": null,
+     "to": "https://www.tm-robot.com/en/company/news/Techman-Robot-at-GTC-2026_Unveils-New-AI-Strategy-and-Humanoid-Robot-TM-Xplore-I"
+    },
+    {
+     "field": "onboard_compute",
+     "from": null,
+     "to": true
+    },
+    {
+     "field": "release_year",
+     "from": null,
+     "to": 2026
+    },
+    {
+     "field": "sensors",
+     "from": [],
+     "to": [
+      "Vision cameras (TM AI Vision)",
+      "Multimodal sensor fusion for the vision-language-action model"
+     ]
+    },
+    {
+     "field": "sources",
+     "from": [],
+     "to": [
+      "https://www.tm-robot.com/en/company/news/Techman-Robot-at-GTC-2026_Unveils-New-AI-Strategy-and-Humanoid-Robot-TM-Xplore-I",
+      "https://www.tm-robot.com/en/company/news/Techman-Robot-Accelerates-Physical-AI-at-GTC-2026"
+     ]
+    },
+    {
+     "field": "status",
+     "from": null,
+     "to": "Prototype"
+    },
+    {
+     "field": "summary",
+     "from": "",
+     "to": "Techman Robot's first humanoid platform: a humanoid upper body on a wheeled mobile base, developed with Quanta Cloud Technology and NVIDIA for semiconductor, electronics and automotive work."
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "official"
+    }
+   ]
+  }
+ ]
+}

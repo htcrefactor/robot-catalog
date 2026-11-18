@@ -1,0 +1,111 @@
+{
+ "id": "faraday-future-nova-mini",
+ "name": "Nova Mini",
+ "manufacturer": "Faraday Future",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-13",
+   "type": "added",
+   "source": "https://humanoidstore.co/robots/faraday-future-nova-mini",
+   "commit": "14cd746",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://shop.ff.com/products/ff-nova-mini",
+   "commit": "f5274ae",
+   "changes": [
+    {
+     "field": "data_source",
+     "from": "HumanoidStore open data (CC BY 4.0)",
+     "to": null
+    },
+    {
+     "field": "notes",
+     "from": null,
+     "to": "Issue #17 (2026-11-17): FF Nova Mini - 349x176x99 mm, 0.94 kg, 17 servo joints (head 1, arms 3x2, legs 5x2), about 50 min, US$299. [replaced price_note: list 299 USD (maker), per HumanoidStore, checked 2026-10 -> US$299 MSRP]"
+    },
+    {
+     "field": "price_note",
+     "from": "list 299 USD (maker), per HumanoidStore, checked 2026-10",
+     "to": null
+    },
+    {
+     "field": "sources",
+     "from": [
+      "https://humanoidstore.co/robots/faraday-future-nova-mini"
+     ],
+     "to": [
+      "https://shop.ff.com/products/ff-nova-mini",
+      "https://robotics.ff.com/us/nova-mini-hello/",
+      "https://humanoidstore.co/robots/faraday-future-nova-mini"
+     ]
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "official"
+    },
+    {
+     "field": "length_mm",
+     "from": null,
+     "to": 99
+    },
+    {
+     "field": "note",
+     "from": null,
+     "to": "Maker shop listing and quick-start guide: 349 x 176 x 99 mm, 0.94 kg, 17 servo joints (chest 1, arms 3x2, legs 5x2), 2000 mAh lithium pack with about 50 min of use and a same-length charge, Bluetooth 4.2 BLE, block-based Brain Blocks programming plus pose teaching, built-in voice commands, no developer SDK published, 0-35 C operating range. Maker gives no payload and no battery voltage, so those fields stay empty; the shop's own MSRP is USD 299."
+    },
+    {
+     "field": "official_url",
+     "from": null,
+     "to": "https://shop.ff.com/products/ff-nova-mini"
+    },
+    {
+     "field": "sdk_available",
+     "from": null,
+     "to": false
+    },
+    {
+     "field": "sensors",
+     "from": [],
+     "to": [
+      "Gyroscope",
+      "Microphone"
+     ]
+    },
+    {
+     "field": "summary",
+     "from": "Desktop-size humanoid from Faraday Future; shipping now, anyone can order.",
+     "to": "A USD 299 programmable 35 cm desk humanoid for STEM teaching, with 17 servo joints, block coding and pose teaching rather than an SDK."
+    },
+    {
+     "field": "width_mm",
+     "from": null,
+     "to": 176
+    },
+    {
+     "field": "price_observations",
+     "from": null,
+     "to": [
+      {
+       "date": "2026-11-17",
+       "amount": 299,
+       "currency": "USD",
+       "kind": "list",
+       "source": "https://shop.ff.com/products/ff-nova-mini",
+       "note": "MSRP (from the former price note)"
+      }
+     ]
+    },
+    {
+     "field": "price_usd",
+     "from": 299,
+     "to": null
+    }
+   ]
+  }
+ ]
+}

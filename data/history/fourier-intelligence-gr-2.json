@@ -1,0 +1,124 @@
+{
+ "id": "fourier-intelligence-gr-2",
+ "name": "GR-2",
+ "manufacturer": "Fourier",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-13",
+   "type": "added",
+   "source": "https://humanoidstore.co/robots/fourier-intelligence-gr-2",
+   "commit": "14cd746",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://www.fftai.com/pdf/en/gr2.pdf",
+   "commit": "4b395bc",
+   "changes": [
+    {
+     "field": "image_source",
+     "from": null,
+     "to": "https://www.fftai.com/grx/gr3"
+    },
+    {
+     "field": "image_url",
+     "from": null,
+     "to": "https://www.fftai.com/images/grx/gr2.jpg"
+    },
+    {
+     "field": "note",
+     "from": null,
+     "to": "Media (2026-11-17): product image grx/gr2.jpg is the GR-2 card in Fourier's GRx family section on the official GR-3 page; the section carries no video."
+    },
+    {
+     "field": "sources",
+     "from": [
+      "https://humanoidstore.co/robots/fourier-intelligence-gr-2"
+     ],
+     "to": [
+      "https://humanoidstore.co/robots/fourier-intelligence-gr-2",
+      "https://www.fftai.com/grx/gr3",
+      "https://www.fftai.com/pdf/en/gr2.pdf",
+      "https://www.prnewswire.com/news-releases/fourier-unveils-the-next-generation-humanoid-robot-gr-2-302262432.html"
+     ]
+    },
+    {
+     "field": "battery_wh",
+     "from": null,
+     "to": 950
+    },
+    {
+     "field": "data_source",
+     "from": "HumanoidStore open data (CC BY 4.0)",
+     "to": null
+    },
+    {
+     "field": "notes",
+     "from": null,
+     "to": "Issue #17 (2026-11-17): Fourier GR-2 datasheet - 1750x552x275 mm, about 63 kg, 53 DoF with 12-DoF hands, 3 kg per arm, 5 km/h (1.39 m/s), about 950 Wh, about 2 h. [replaced battery_wh: None -> 950]"
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "official"
+    },
+    {
+     "field": "compute_detail",
+     "from": null,
+     "to": "Intel Core i7 14-core with an optional 275 TOPS computing unit, Ubuntu 20.04"
+    },
+    {
+     "field": "length_mm",
+     "from": null,
+     "to": 275
+    },
+    {
+     "field": "official_url",
+     "from": null,
+     "to": "https://www.fftai.com/pdf/en/gr2.pdf"
+    },
+    {
+     "field": "onboard_compute",
+     "from": null,
+     "to": true
+    },
+    {
+     "field": "ros_support",
+     "from": null,
+     "to": true
+    },
+    {
+     "field": "sdk_available",
+     "from": null,
+     "to": true
+    },
+    {
+     "field": "sdk_name",
+     "from": null,
+     "to": "Fourier Toolkit (ROS, NVIDIA Isaac Lab, MuJoCo)"
+    },
+    {
+     "field": "sensors",
+     "from": [],
+     "to": [
+      "Stereo camera",
+      "6-axis IMU",
+      "6 array-type tactile sensors (hands)"
+     ]
+    },
+    {
+     "field": "summary",
+     "from": "Full-size humanoid from Fourier; b2b only, sold to businesses.",
+     "to": "Fourier's second-generation GRx humanoid: a 1.75 m, 53-DoF biped with 12-DoF dexterous hands and an open SDK for embodied-AI research and service work."
+    },
+    {
+     "field": "width_mm",
+     "from": null,
+     "to": 552
+    }
+   ]
+  }
+ ]
+}

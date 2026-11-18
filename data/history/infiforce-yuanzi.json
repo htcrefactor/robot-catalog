@@ -1,0 +1,98 @@
+{
+ "id": "infiforce-yuanzi",
+ "name": "YUANZI",
+ "manufacturer": "INFIFORCE",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-17",
+   "type": "added",
+   "source": null,
+   "commit": "b596d3e",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://www.infiforce.cn/yuanzi",
+   "commit": "b310609",
+   "changes": [
+    {
+     "field": "compute_detail",
+     "from": null,
+     "to": "275 TOPS"
+    },
+    {
+     "field": "dof",
+     "from": null,
+     "to": 25
+    },
+    {
+     "field": "height_mm",
+     "from": null,
+     "to": 950
+    },
+    {
+     "field": "note",
+     "from": null,
+     "to": "Maker product page (infiforce.cn/yuanzi) spec panel: height 95 cm, mass 20 kg, 25 DoF, max joint torque 36 N.m, dual-camera perception array, 275 TOPS core compute, about 1.5 h runtime, ROS/C++/Python development with an open SDK and standard expansion ports. Marketed for home companionship, education, research and reception; price on request."
+    },
+    {
+     "field": "official_url",
+     "from": null,
+     "to": "https://www.infiforce.cn/yuanzi"
+    },
+    {
+     "field": "ros_support",
+     "from": null,
+     "to": "ROS"
+    },
+    {
+     "field": "runtime_h",
+     "from": null,
+     "to": 1.5
+    },
+    {
+     "field": "sdk_available",
+     "from": null,
+     "to": true
+    },
+    {
+     "field": "sdk_name",
+     "from": null,
+     "to": "open SDK (C++/Python)"
+    },
+    {
+     "field": "sensors",
+     "from": [],
+     "to": [
+      "Dual-camera perception array"
+     ]
+    },
+    {
+     "field": "sources",
+     "from": [],
+     "to": [
+      "https://www.infiforce.cn/yuanzi",
+      "https://www.infiforce.cn/robot"
+     ]
+    },
+    {
+     "field": "summary",
+     "from": "",
+     "to": "INFIFORCE's small biped YUANZI (小原子), a 95 cm companion and education humanoid with 275 TOPS on board."
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "official"
+    },
+    {
+     "field": "weight_kg",
+     "from": null,
+     "to": 20
+    }
+   ]
+  }
+ ]
+}

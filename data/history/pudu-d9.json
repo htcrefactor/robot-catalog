@@ -1,0 +1,99 @@
+{
+ "id": "pudu-d9",
+ "name": "D9",
+ "manufacturer": "Pudu Robotics",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-13",
+   "type": "added",
+   "source": "https://humanoidstore.co/robots/pudu-d9",
+   "commit": "14cd746",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://www.pudurobotics.com/en/products/d9",
+   "commit": "75b989d",
+   "changes": [
+    {
+     "field": "battery_wh",
+     "from": null,
+     "to": 720
+    },
+    {
+     "field": "data_source",
+     "from": "HumanoidStore open data (CC BY 4.0)",
+     "to": null
+    },
+    {
+     "field": "notes",
+     "from": null,
+     "to": "Issue #17 (2026-11-17): PUDU D9 - 170 cm, 65 kg, 42 DoF (single leg 6, single arm 7, hands 11), 20 kg payload (10 kg single arm, test environment), 2 m/s, 15 Ah (0.72 kWh), 275 TOPS. [replaced weight_kg: 58 -> 65; battery_wh: None -> 720]"
+    },
+    {
+     "field": "sources",
+     "from": [
+      "https://humanoidstore.co/robots/pudu-d9"
+     ],
+     "to": [
+      "https://www.pudurobotics.com/en/products/d9",
+      "https://cdn.pudutech.com/PUDU_D9_Product_Flyer_20250103_EN_0021e78f68.pdf",
+      "https://www.pudurobotics.com/about/news/6763cce40767a20044b4a69a"
+     ]
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "official"
+    },
+    {
+     "field": "weight_kg",
+     "from": 58,
+     "to": 65
+    },
+    {
+     "field": "note",
+     "from": null,
+     "to": "Corrected against the maker's product page: official weight is 65 kg (HumanoidStore listed 58 kg). 42 total DOF (6 per leg, 7 per arm + 2 neck-related joints), 352 N.m max joint torque, 20 kg payload / 10 kg per arm in a test environment, 2 m/s, battery 15 Ah 0.72 kWh (=720 Wh) published as both, 275 TOPS compute, thigh 325 mm / calf 383 mm, arm 580 mm / hand 220 mm, PUDU DH11 hand with 12 tactile regions, 30 N palm-finger grip, 40 kg lifting load. Runtime (1.5 h in HumanoidStore) is NOT maker-published and was removed. Announced 2024-12-19; maker notes promotional features may not yet be available to customers."
+    },
+    {
+     "field": "official_url",
+     "from": null,
+     "to": "https://www.pudurobotics.com/en/products/d9"
+    },
+    {
+     "field": "onboard_compute",
+     "from": null,
+     "to": "275 TOPS"
+    },
+    {
+     "field": "release_year",
+     "from": null,
+     "to": 2024
+    },
+    {
+     "field": "runtime_h",
+     "from": 1.5,
+     "to": null
+    },
+    {
+     "field": "sensors",
+     "from": [],
+     "to": [
+      "RGB camera",
+      "RGBD depth camera",
+      "Tactile sensors (PUDU DH11 hands)",
+      "IMU"
+     ]
+    },
+    {
+     "field": "summary",
+     "from": "Full-size humanoid from Pudu Robotics; b2b only, sold to businesses.",
+     "to": "Pudu Robotics' first full-size bipedal humanoid, built by Pudu X-Lab with 42 DoF, PUDU DH11 dexterous hands and a 20 kg payload for service and manipulation work."
+    }
+   ]
+  }
+ ]
+}

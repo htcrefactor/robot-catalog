@@ -1,0 +1,106 @@
+{
+ "id": "neura-robotics-mipa",
+ "name": "MiPA",
+ "manufacturer": "NEURA Robotics",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-13",
+   "type": "added",
+   "source": "https://humanoidstore.co/robots/neura-robotics-mipa",
+   "commit": "14cd746",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://neura-robotics.com/products/mipa/",
+   "commit": "976d9e6",
+   "changes": [
+    {
+     "field": "data_source",
+     "from": "HumanoidStore open data (CC BY 4.0)",
+     "to": "Maker sources (verified 2026-11-17)"
+    },
+    {
+     "field": "height_mm",
+     "from": null,
+     "to": 1457
+    },
+    {
+     "field": "notes",
+     "from": null,
+     "to": "Issue #17 (2026-11-17): NEURA MiPA - 789x606x1457 mm, 170 kg, 2x7-DoF arms with 3 kg per arm, 4-8 h depending on load (4 taken), about 7 kg carry capacity, from NEURA's research page. [replaced height_mm: None -> 1457; weight_kg: None -> 170; runtime_h: None -> 4.0 | emptied (no maker value) price_usd=11224; price_note=list 9999 EUR (maker), per HumanoidStore, checked 2026-10]"
+    },
+    {
+     "field": "price_note",
+     "from": "list 9999 EUR (maker), per HumanoidStore, checked 2026-10",
+     "to": "EUR 9,999 introductory price for MiPA Home with a EUR 100 refundable reservation fee (maker reservation page, checked 2026-11-17)"
+    },
+    {
+     "field": "price_usd",
+     "from": 11224,
+     "to": null
+    },
+    {
+     "field": "runtime_h",
+     "from": null,
+     "to": 4.0
+    },
+    {
+     "field": "sources",
+     "from": [
+      "https://humanoidstore.co/robots/neura-robotics-mipa"
+     ],
+     "to": [
+      "https://neura-robotics.com/mipa-research-program/",
+      "https://neura-robotics.com/products/mipa/",
+      "https://neura-robotics.com/product/mipa-reservation/",
+      "https://neurarobotics.px.media/plk/hD/MiPA_NEURA_Robotics_Datasheet_Web.pdf"
+     ]
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "official"
+    },
+    {
+     "field": "weight_kg",
+     "from": null,
+     "to": 170
+    },
+    {
+     "field": "dof",
+     "from": null,
+     "to": 17
+    },
+    {
+     "field": "note",
+     "from": null,
+     "to": "NEURA MiPA datasheet V5 (2026-06-05) gives 17 DoF for the base robot without end effectors, 3 kg single-arm payload and 2-8 h motion endurance with automatic recharging; the reservation page states 16 DoF of manipulation. NEURA publishes no height, weight or top speed, so those stay empty. Late-2026 release planned."
+    },
+    {
+     "field": "official_url",
+     "from": null,
+     "to": "https://neura-robotics.com/products/mipa/"
+    },
+    {
+     "field": "sensors",
+     "from": [],
+     "to": [
+      "LiDAR",
+      "RGB camera and webcam",
+      "Temperature, humidity and air-quality sensors",
+      "Infrared and ultrasonic sensors",
+      "Microphone array"
+     ]
+    },
+    {
+     "field": "summary",
+     "from": "Wheeled (bimanual torso on a wheeled base) humanoid from NEURA Robotics; preorder, anyone can order.",
+     "to": "NEURA's mobile service robot MiPA: a wheeled platform with two arms and modular attachments, 3 kg per arm, 2-8 h of operation and a EUR 9,999 introductory price."
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,76 @@
+{
+ "id": "vanar-robots-vanar-gen-1",
+ "name": "Vanar Generation 1",
+ "manufacturer": "Vanar Robots",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-17",
+   "type": "added",
+   "source": null,
+   "commit": "b596d3e",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://www.vanarrobots.com/Gen1",
+   "commit": "30bdc91",
+   "changes": [
+    {
+     "field": "dof",
+     "from": null,
+     "to": 38
+    },
+    {
+     "field": "height_mm",
+     "from": null,
+     "to": 1753
+    },
+    {
+     "field": "note",
+     "from": null,
+     "to": "Maker page: 5 ft 9 in (about 175.3 cm), about 60 kg, 38 DoF, in-house full-stack proprietary actuators, tendon-driven high-payload manipulators, structure, actuators, manipulators and software all built in-house; first industrial beta deployments planned for 2027 from a beta sign-up list. Speed, payload, battery, runtime and price are not published."
+    },
+    {
+     "field": "official_url",
+     "from": null,
+     "to": "https://www.vanarrobots.com/Gen1"
+    },
+    {
+     "field": "release_year",
+     "from": null,
+     "to": 2026
+    },
+    {
+     "field": "sources",
+     "from": [],
+     "to": [
+      "https://www.vanarrobots.com/Gen1",
+      "https://www.vanarrobots.com/"
+     ]
+    },
+    {
+     "field": "status",
+     "from": null,
+     "to": "Prototype"
+    },
+    {
+     "field": "summary",
+     "from": "",
+     "to": "Vanar Robots' first humanoid: a 5 ft 9 in, about 60 kg biped with in-house actuators and tendon-driven manipulators for industrial work, with industrial beta deployment targeted for 2027."
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "official"
+    },
+    {
+     "field": "weight_kg",
+     "from": null,
+     "to": 60
+    }
+   ]
+  }
+ ]
+}

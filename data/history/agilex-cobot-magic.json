@@ -1,0 +1,33 @@
+{
+ "id": "agilex-cobot-magic",
+ "name": "Cobot Magic",
+ "manufacturer": "AgileX Robotics",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-17",
+   "type": "added",
+   "source": "https://global.agilex.ai/products/cobot-magic-bimanual-teleoperation-platform-mobile-aloha",
+   "commit": "ebcdc70",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://global.agilex.ai/products/cobot-magic-bimanual-teleoperation-platform-mobile-aloha",
+   "commit": "ae60ceb",
+   "changes": [
+    {
+     "field": "compute_soc",
+     "from": null,
+     "to": "NVIDIA GeForce RTX 4060"
+    },
+    {
+     "field": "compute_source",
+     "from": null,
+     "to": "https://global.agilex.ai/pages/blogs"
+    }
+   ]
+  }
+ ]
+}

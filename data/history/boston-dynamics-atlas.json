@@ -1,0 +1,90 @@
+{
+ "id": "boston-dynamics-atlas",
+ "name": "Atlas (electric)",
+ "manufacturer": "Boston Dynamics",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-03",
+   "type": "added",
+   "source": "https://bostondynamics.com/atlas/",
+   "commit": "1a533a7",
+   "changes": []
+  },
+  {
+   "date": "2026-11-13",
+   "type": "updated",
+   "source": "https://bostondynamics.com/atlas/",
+   "commit": "14cd746",
+   "changes": [
+    {
+     "field": "sources",
+     "from": [
+      "https://bostondynamics.com/atlas/",
+      "https://bostondynamics.com/wp-content/uploads/2026/01/atlas-spec-sheet.pdf"
+     ],
+     "to": [
+      "https://bostondynamics.com/atlas/",
+      "https://bostondynamics.com/wp-content/uploads/2026/01/atlas-spec-sheet.pdf",
+      "https://humanoidstore.co/robots/bostondynamics-atlas"
+     ]
+    }
+   ]
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://bostondynamics.com/atlas/",
+   "commit": "4b395bc",
+   "changes": [
+    {
+     "field": "notes",
+     "from": null,
+     "to": "Issue #17 (2026-11-17): confirmed on bostondynamics.com/atlas and the Atlas spec sheet - 1.9 m, 90 kg, 56 DoF, 30 kg sustained / 50 kg instant lift, 4 h battery, IP67. HumanoidStore rows dropped."
+    },
+    {
+     "field": "sources",
+     "from": [
+      "https://bostondynamics.com/atlas/",
+      "https://bostondynamics.com/wp-content/uploads/2026/01/atlas-spec-sheet.pdf",
+      "https://humanoidstore.co/robots/bostondynamics-atlas"
+     ],
+     "to": [
+      "https://bostondynamics.com/atlas/",
+      "https://bostondynamics.com/wp-content/uploads/2026/01/atlas-spec-sheet.pdf",
+      "https://bostondynamics.com/news/introducing-electric-atlas/",
+      "https://humanoidstore.co/robots/bostondynamics-atlas"
+     ]
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "official"
+    },
+    {
+     "field": "note",
+     "from": null,
+     "to": "Maker Atlas spec sheet (Rev 10/15/2026, bostondynamics.com/wp-content/uploads/2026/01/atlas-spec-sheet.pdf): height 1.9 m, 90 kg, 56 DoF, weight capacity 50 kg instant / 30 kg sustained / 20 kg one-handed (payload_kg = the sustained figure), reach 2.3 m, battery life 4 h (2 h with heavy lifting), autonomous battery swap in 3 min with 1.5 h charge at 110 V (220 V optional), IP67, -20 to 40 C. Sensing is tactile fingers and palm plus a 360-degree camera view; a barcode scanner and RFID are listed as workflow integrations, not sensors, and fenceless guarding with human detection plus autonomous / VR-teleoperated / tablet control modes are stated. Status kept at Pilot: the maker sells into pilot plants and publishes a volume-production spec sheet, but no public price or order page exists. Price figure is the HumanoidStore listing."
+    },
+    {
+     "field": "sensors",
+     "from": [
+      "360° camera view",
+      "Tactile fingers and palm",
+      "Barcode scanner",
+      "RFID"
+     ],
+     "to": [
+      "Tactile fingers and palm",
+      "360-degree camera view"
+     ]
+    },
+    {
+     "field": "summary",
+     "from": "Enterprise industrial humanoid for material handling and part sequencing; 30 kg sustained / 50 kg instant lift, 2.3 m reach, autonomous 3-min battery swap, integrates via Orbit; early-adopter deployments.",
+     "to": "Boston Dynamics' electric Atlas: a 1.9 m, 56-DoF humanoid built for factory part sequencing, machine tending and order fulfilment, with autonomous battery swap."
+    }
+   ]
+  }
+ ]
+}

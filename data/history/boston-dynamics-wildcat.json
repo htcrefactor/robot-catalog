@@ -1,0 +1,55 @@
+{
+ "id": "boston-dynamics-wildcat",
+ "name": "WildCat",
+ "manufacturer": "Boston Dynamics",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-17",
+   "type": "added",
+   "source": null,
+   "commit": "b596d3e",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://bostondynamics.com/legacy/",
+   "commit": "1173def",
+   "changes": [
+    {
+     "field": "max_speed_mps",
+     "from": null,
+     "to": 8.49
+    },
+    {
+     "field": "note",
+     "from": null,
+     "to": "Maker legacy page: 19 mph (8.49 m/s) on flat terrain, dynamic balance, variable gait options. Mass, dimensions and payload are not published."
+    },
+    {
+     "field": "official_url",
+     "from": null,
+     "to": "https://bostondynamics.com/legacy/"
+    },
+    {
+     "field": "sources",
+     "from": [],
+     "to": [
+      "https://bostondynamics.com/legacy/"
+     ]
+    },
+    {
+     "field": "summary",
+     "from": "",
+     "to": "Untethered outdoor version of the Cheetah line, built as the fastest quadruped of its time."
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "official"
+    }
+   ]
+  }
+ ]
+}

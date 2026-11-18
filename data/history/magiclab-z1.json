@@ -1,0 +1,115 @@
+{
+ "id": "magiclab-z1",
+ "name": "MagicBot Z1",
+ "manufacturer": "MagicLab",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-13",
+   "type": "added",
+   "source": "https://humanoidstore.co/robots/magiclab-z1",
+   "commit": "14cd746",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://www.magiclab.top/en/z1",
+   "commit": "976d9e6",
+   "changes": [
+    {
+     "field": "data_source",
+     "from": "HumanoidStore open data (CC BY 4.0)",
+     "to": "Maker sources (verified 2026-11-17)"
+    },
+    {
+     "field": "height_mm",
+     "from": 1370,
+     "to": 1369
+    },
+    {
+     "field": "notes",
+     "from": null,
+     "to": "Issue #17 (2026-11-17): MagicBot Z1 - 1369x422x200 mm, 40 kg+ with battery, 24 joint motors in the Developer Edition (up to 50 with options), 3 kg per arm, >=2.5 m/s, 10000 mAh (~2 h), MagicLab's published specifications. [replaced height_mm: 1370 -> 1369; payload_kg: 2 -> 3 | emptied (no maker value) price_usd=39800; price_note=list 39800 USD (reseller), per HumanoidStore, checked 2026-10]"
+    },
+    {
+     "field": "payload_kg",
+     "from": 2,
+     "to": 3
+    },
+    {
+     "field": "price_note",
+     "from": "list 39800 USD (reseller), per HumanoidStore, checked 2026-10",
+     "to": "MagicLab sells by inquiry; no list price on the maker site"
+    },
+    {
+     "field": "price_usd",
+     "from": 39800,
+     "to": null
+    },
+    {
+     "field": "sources",
+     "from": [
+      "https://humanoidstore.co/robots/magiclab-z1"
+     ],
+     "to": [
+      "https://magiclabglobal.com/",
+      "https://www.magiclab.top/en/z1",
+      "https://www.magiclab.top/en/news/55"
+     ]
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "official"
+    },
+    {
+     "field": "length_mm",
+     "from": null,
+     "to": 200
+    },
+    {
+     "field": "max_speed_mps",
+     "from": 2.5,
+     "to": null
+    },
+    {
+     "field": "note",
+     "from": null,
+     "to": "Maker spec table (checked 2026-11-17): standing 1369 x 422 x 200 mm, about 40 kg with battery, 24 DoF (6 per leg, 1 head, 1 waist, 5 per arm), 2 kg maximum arm load, 10,000 mAh 15-cell pack with about 2 h, 100 N.m maximum knee torque; the Developer Version adds wrist DoF, an optional 11-DoF hand and up to 50 DoF. Walking speed is not published on the maker page."
+    },
+    {
+     "field": "official_url",
+     "from": null,
+     "to": "https://www.magiclab.top/en/z1"
+    },
+    {
+     "field": "onboard_compute",
+     "from": null,
+     "to": "8-core high-performance CPU"
+    },
+    {
+     "field": "sensors",
+     "from": [],
+     "to": [
+      "3D LiDAR",
+      "Depth camera",
+      "Binocular fisheye camera",
+      "Head tactile sensor",
+      "Microphone array"
+     ]
+    },
+    {
+     "field": "summary",
+     "from": "Mid-size humanoid from MagicLab; shipping now, anyone can order.",
+     "to": "MagicLab's compact MagicBot Z1: 1.37 m, about 40 kg, 24 DoF expandable to 50 and 2 kg per arm, sold in Standard and Developer editions."
+    },
+    {
+     "field": "width_mm",
+     "from": null,
+     "to": 422
+    }
+   ]
+  }
+ ]
+}

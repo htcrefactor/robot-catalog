@@ -1,0 +1,118 @@
+{
+ "id": "zeroth-m1",
+ "name": "M1",
+ "manufacturer": "Zeroth",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-13",
+   "type": "added",
+   "source": "https://humanoidstore.co/robots/zeroth-m1",
+   "commit": "14cd746",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://www.zeroth0.com/products/m1",
+   "commit": "b1429ab",
+   "changes": [
+    {
+     "field": "data_source",
+     "from": "HumanoidStore open data (CC BY 4.0)",
+     "to": null
+    },
+    {
+     "field": "height_mm",
+     "from": 500,
+     "to": 494
+    },
+    {
+     "field": "max_speed_mps",
+     "from": 0.2,
+     "to": 0.6
+    },
+    {
+     "field": "notes",
+     "from": null,
+     "to": "Issue #17 (2026-11-17): Zeroth M1 - 195x125x494 mm, robot body 2.8 kg plus 1.4 kg mobility base, 20 DoF, 0.05 m/s biped / 0.6 m/s wheeled, about 2 h, US$2,499 MSRP. [replaced height_mm: 500 -> 494; max_speed_mps: 0.2 -> 0.6; price_note: list 2499 USD (maker), per HumanoidStore, checked 2026-10 -> US$2,499 list (promotional US$1,699)]"
+    },
+    {
+     "field": "price_note",
+     "from": "list 2499 USD (maker), per HumanoidStore, checked 2026-10",
+     "to": "US$2,499 list (promotional US$1,699)"
+    },
+    {
+     "field": "sources",
+     "from": [
+      "https://humanoidstore.co/robots/zeroth-m1"
+     ],
+     "to": [
+      "https://www.zeroth0.com/pages/m1-landing-page",
+      "https://www.zeroth0.com/products/m1"
+     ]
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "official"
+    },
+    {
+     "field": "api_support",
+     "from": null,
+     "to": true
+    },
+    {
+     "field": "compute_detail",
+     "from": null,
+     "to": "Horizon RDK 5 (Sunrise) with 10 TOPS NPU"
+    },
+    {
+     "field": "dof",
+     "from": 20,
+     "to": null
+    },
+    {
+     "field": "official_url",
+     "from": null,
+     "to": "https://www.zeroth0.com/products/m1"
+    },
+    {
+     "field": "onboard_compute",
+     "from": null,
+     "to": true
+    },
+    {
+     "field": "ros_support",
+     "from": null,
+     "to": true
+    },
+    {
+     "field": "sdk_available",
+     "from": null,
+     "to": true
+    },
+    {
+     "field": "sdk_name",
+     "from": null,
+     "to": "M1 Python SDK and M1 Spine SDK"
+    },
+    {
+     "field": "sensors",
+     "from": [],
+     "to": [
+      "LDS LiDAR",
+      "RGB camera",
+      "iTOF depth camera",
+      "3-mic array"
+     ]
+    },
+    {
+     "field": "summary",
+     "from": "Desktop-size humanoid from Zeroth; preorder, anyone can order.",
+     "to": "Desk-sized bipedal humanoid for learning reinforcement-learning locomotion before moving to full-size platforms."
+    }
+   ]
+  }
+ ]
+}

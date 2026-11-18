@@ -1,0 +1,53 @@
+{
+ "id": "holiday-robotics-friday",
+ "name": "FRIDAY",
+ "manufacturer": "Holiday Robotics",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-17",
+   "type": "added",
+   "source": "https://holiday-robotics.com/product",
+   "commit": "b596d3e",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://holiday-robotics.com/product",
+   "commit": "0c54867",
+   "changes": [
+    {
+     "field": "kr_distributors",
+     "from": null,
+     "to": [
+      {
+       "name": "홀리데이로보틱스 (본사 직판)",
+       "kind": "direct",
+       "url": "https://holiday-robotics.com/ko"
+      }
+     ]
+    },
+    {
+     "field": "manufacturer_ko",
+     "from": null,
+     "to": "홀리데이로보틱스"
+    },
+    {
+     "field": "sources",
+     "from": [
+      "https://holiday-robotics.com/product",
+      "https://holiday-robotics.com/blog/series-a",
+      "https://holiday-robotics.com/"
+     ],
+     "to": [
+      "https://holiday-robotics.com/product",
+      "https://holiday-robotics.com/blog/series-a",
+      "https://holiday-robotics.com/",
+      "https://holiday-robotics.com/ko/about"
+     ]
+    }
+   ]
+  }
+ ]
+}
