@@ -97,6 +97,10 @@ PAL's TALOS page and datasheet (checked 2026-11-17): 175 cm, 95 kg, 32 DoF (6 pe
 - [pal-robotics.com](https://pal-robotics.com/wp-content/uploads/2025/09/TALOS-DataSheet-1.pdf)
 - [pal-robotics.com](https://pal-robotics.com/wp-content/uploads/2024/05/Datasheet-TALOS.pdf)
 
+Listed by these directories (discovery only, never used as a spec source):
+
+- [robopear.com](https://robopear.com/robots/pal-talos)
+
 ---
 
-*Robot Catalog — generated from data/robots.json (last merged 2026-11-17). Source repository: https://github.com/htcrefactor/robot-catalog*
+*Robot Catalog — generated from data/robots.json (last merged 2026-11-18). Source repository: https://github.com/htcrefactor/robot-catalog*

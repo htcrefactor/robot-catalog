@@ -129,4 +129,4 @@ Ascento's own site (checked 2026-11-17) states 8 h battery life with fast chargi
 
 ---
 
-*Robot Catalog — generated from data/robots.json (last merged 2026-11-17). Source repository: https://github.com/htcrefactor/robot-catalog*
+*Robot Catalog — generated from data/robots.json (last merged 2026-11-18). Source repository: https://github.com/htcrefactor/robot-catalog*

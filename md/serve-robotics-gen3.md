@@ -116,4 +116,4 @@ serverobotics.com/robot is service copy with no specification table, so the figu
 
 ---
 
-*Robot Catalog — generated from data/robots.json (last merged 2026-11-17). Source repository: https://github.com/htcrefactor/robot-catalog*
+*Robot Catalog — generated from data/robots.json (last merged 2026-11-18). Source repository: https://github.com/htcrefactor/robot-catalog*

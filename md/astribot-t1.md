@@ -93,6 +93,10 @@ Media (2026-11-17): the T1 still cannot be hotlinked — astribot.com serves its
 - [english.news.cn](https://english.news.cn/20260528/75e55832dd9245b9ae69a6d60a5f532b/c.html)
 - [astribot.com](https://www.astribot.com/product)
 
+Listed by these directories (discovery only, never used as a spec source):
+
+- [robopear.com](https://robopear.com/robots/astribot-t1)
+
 ---
 
-*Robot Catalog — generated from data/robots.json (last merged 2026-11-17). Source repository: https://github.com/htcrefactor/robot-catalog*
+*Robot Catalog — generated from data/robots.json (last merged 2026-11-18). Source repository: https://github.com/htcrefactor/robot-catalog*

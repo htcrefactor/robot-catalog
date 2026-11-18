@@ -86,6 +86,10 @@ Noetix product page and WRC 2026 profile (checked 2026-11-17): 98 cm, about 17 k
 - Official page: [noetixrobotics.com](https://www.noetixrobotics.com)
 - [webuildhumanoids.com](https://webuildhumanoids.com/compare/noetix-bumi-vs-noetix-n2)
 
+Listed by these directories (discovery only, never used as a spec source):
+
+- [robopear.com](https://robopear.com/robots/noetix-bumi)
+
 ---
 
-*Robot Catalog — generated from data/robots.json (last merged 2026-11-17). Source repository: https://github.com/htcrefactor/robot-catalog*
+*Robot Catalog — generated from data/robots.json (last merged 2026-11-18). Source repository: https://github.com/htcrefactor/robot-catalog*

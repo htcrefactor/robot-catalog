@@ -87,6 +87,11 @@ Maker product page exists and describes SE01 as a full-size general-purpose bipe
 - [en.engineai.com.cn](https://en.engineai.com.cn/)
 - [humanoidstore.co](https://humanoidstore.co/robots/engineai-se01)
 
+Listed by these directories (discovery only, never used as a spec source):
+
+- [robocensus.com](https://robocensus.com/robots/engineai-se01/)
+- [robopear.com](https://robopear.com/robots/engineai-se01)
+
 ---
 
-*Robot Catalog — generated from data/robots.json (last merged 2026-11-17). Source repository: https://github.com/htcrefactor/robot-catalog*
+*Robot Catalog — generated from data/robots.json (last merged 2026-11-18). Source repository: https://github.com/htcrefactor/robot-catalog*

@@ -38,7 +38,8 @@ Maker figures: 5'9" tall, 140 lb, lifts up to 35 lb (Agility GXO release, Dec 20
 Listed by these directories (discovery only, never used as a spec source):
 
 - [botupyourlife.com](https://botupyourlife.com/en/robots/agility-digit/)
+- [robopear.com](https://robopear.com/robots/agility-digit-gen4)
 
 ---
 
-*Robot Catalog — generated from data/robots.json (last merged 2026-11-17). Source repository: https://github.com/htcrefactor/robot-catalog*
+*Robot Catalog — generated from data/robots.json (last merged 2026-11-18). Source repository: https://github.com/htcrefactor/robot-catalog*

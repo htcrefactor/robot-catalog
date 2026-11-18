@@ -97,6 +97,10 @@ Maker product page and its own shop (shop.dexmate.ai): 'Vega 1 Pro' is a general
 - [shop.dexmate.ai](https://shop.dexmate.ai/products/vega)
 - [humanoidstore.co](https://humanoidstore.co/robots/dexmate-vega)
 
+Listed by these directories (discovery only, never used as a spec source):
+
+- [robopear.com](https://robopear.com/robots/dexmate-vega)
+
 ---
 
-*Robot Catalog — generated from data/robots.json (last merged 2026-11-17). Source repository: https://github.com/htcrefactor/robot-catalog*
+*Robot Catalog — generated from data/robots.json (last merged 2026-11-18). Source repository: https://github.com/htcrefactor/robot-catalog*

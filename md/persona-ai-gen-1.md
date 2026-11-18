@@ -33,7 +33,8 @@ Listed by these directories (discovery only, never used as a spec source):
 - [data.robo2u.com](https://data.robo2u.com/robots/persona-ai-gen1)
 - [embodied.guide](https://embodied.guide/robots/persona-ai-gen-1/)
 - [humanoid.guide](https://humanoid.guide/product/persona-ai/)
+- [robopear.com](https://robopear.com/robots/persona-ai-gen1)
 
 ---
 
-*Robot Catalog — generated from data/robots.json (last merged 2026-11-17). Source repository: https://github.com/htcrefactor/robot-catalog*
+*Robot Catalog — generated from data/robots.json (last merged 2026-11-18). Source repository: https://github.com/htcrefactor/robot-catalog*

@@ -1,0 +1,6919 @@
+{
+ "schema_version": 4,
+ "generated_at": "2026-11-16T22:30:46.942Z",
+ "license": "CC-BY-4.0",
+ "attribution": "Robocensus — robocensus.com",
+ "source": "https://robocensus.com/data",
+ "count": 77,
+ "robots": [
+  {
+   "slug": "pollen-robotics-microduck",
+   "name": "Microduck",
+   "maker": "Pollen Robotics",
+   "category": "biped",
+   "locomotion": "legged",
+   "status": "commercial",
+   "release_date": null,
+   "price": {
+    "amount": 399,
+    "currency": "USD",
+    "date": "2026-11-07"
+   },
+   "specs": {
+    "height_cm": 25,
+    "weight_kg": 0.8,
+    "battery_runtime_hr": 1,
+    "weight_kg_qualifier": "maximum",
+    "degrees_of_freedom": 15,
+    "manipulation": "Articulated grasping beak (no hands)",
+    "sensors": "Front camera, compact LiDAR (8x8 time-of-flight matrix), 2 IMUs (body and head), microphones, 2 NFC antennas",
+    "compute": "Rockchip RK3566 with AI accelerator, 1 GB RAM, 32 GB storage",
+    "software": "Open-source software stack (Apache-2.0) — SDK, MuJoCo simulation and RL training; the hardware design files are not open source"
+   },
+   "product_url": "https://pollen-robotics.com/microduck/",
+   "links": {
+    "video": "https://pollen-robotics.com/assets/microduck/launch-film.mp4",
+    "docs": null,
+    "price_source": "https://pollen-robotics.com/microduck/"
+   },
+   "canonical_url": "https://robocensus.com/robots/pollen-robotics-microduck/",
+   "image": {
+    "status": "glyph",
+    "url": null,
+    "credit": null
+   },
+   "sources": {
+    "s1": {
+     "url": "https://pollen-robotics.com/microduck/",
+     "last_verified": "2026-11-07"
+    },
+    "s2": {
+     "url": "https://pollen-robotics.com/microduck/press-kit/",
+     "last_verified": "2026-11-05"
+    }
+   },
+   "provenance": {
+    "name": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "maker": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "status": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "price.amount": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "price.currency": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "specs.height_cm": {
+     "source": "s2",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "specs.weight_kg": {
+     "source": "s2",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "specs.weight_kg_qualifier": {
+     "source": "s2",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "specs.degrees_of_freedom": {
+     "source": "s2",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "specs.battery_runtime_hr": {
+     "source": "s2",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "specs.manipulation": {
+     "source": "s2",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "specs.sensors": {
+     "source": "s2",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "specs.compute": {
+     "source": "s2",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "specs.software": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "product_url": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "links.video": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "price.date": {
+     "source": "s1",
+     "changed": "2026-11-07",
+     "verification": "verified"
+    },
+    "links.price_source": {
+     "source": "s1",
+     "changed": "2026-11-07",
+     "verification": "verified"
+    }
+   }
+  },
+  {
+   "slug": "limx-tron1",
+   "name": "TRON 1",
+   "maker": "LimX Dynamics",
+   "category": "biped",
+   "locomotion": "legged",
+   "status": "commercial",
+   "release_date": null,
+   "price": {
+    "amount": 15000,
+    "currency": "USD",
+    "date": "2026-09-04"
+   },
+   "specs": {
+    "height_cm": 84.5,
+    "weight_kg": 20,
+    "payload_kg": 10,
+    "battery_runtime_hr": 2,
+    "max_speed_kmh": 3.6,
+    "height_cm_qualifier": "maximum",
+    "weight_kg_qualifier": "maximum",
+    "max_rolling_speed_kmh": 10.8,
+    "max_rolling_speed_kmh_qualifier": "rolling"
+   },
+   "product_url": "https://www.limxdynamics.com/en/products/tron1",
+   "links": {
+    "video": null,
+    "docs": null,
+    "price_source": "https://shop.limxdynamics.com/products/point-foot-pipedal-robot-for-reserach"
+   },
+   "canonical_url": "https://robocensus.com/robots/limx-tron1/",
+   "image": {
+    "status": "glyph",
+    "url": null,
+    "credit": null
+   },
+   "sources": {
+    "s1": {
+     "url": "https://www.limxdynamics.com/en/products/tron1",
+     "last_verified": "2026-11-05"
+    },
+    "s2": {
+     "url": "https://www.limxdynamics.com/en/products/tron1/spec",
+     "last_verified": "2026-11-05"
+    }
+   },
+   "provenance": {
+    "name": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "maker": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "product_url": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "specs.height_cm": {
+     "source": "s2",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "specs.height_cm_qualifier": {
+     "source": "s2",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "specs.weight_kg": {
+     "source": "s2",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "specs.weight_kg_qualifier": {
+     "source": "s2",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "specs.payload_kg": {
+     "source": "s2",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "specs.battery_runtime_hr": {
+     "source": "s2",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "specs.max_speed_kmh": {
+     "source": "s2",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "specs.max_rolling_speed_kmh": {
+     "source": "s2",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "specs.max_rolling_speed_kmh_qualifier": {
+     "source": "s2",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    }
+   }
+  },
+  {
+   "slug": "neura-4ne1",
+   "name": "4NE1",
+   "maker": "Neura Robotics",
+   "category": "humanoid",
+   "locomotion": "legged",
+   "status": "commercial",
+   "release_date": null,
+   "price": {
+    "amount": 98000,
+    "currency": "EUR",
+    "date": "2026-11-05"
+   },
+   "specs": {
+    "height_cm": 180,
+    "weight_kg": 80,
+    "max_speed_kmh": 5,
+    "hands": "NEURA's own hands, 12 DoF",
+    "models": "Gen 3.5 — reservable at EUR 98,000/unit for 1-19 units, expected end of 2026; the price and all figures in this entry are Gen 3.5's. Gen 4 — unveiled 2026-10-22, 20% lighter than the previous generation, specs and price not published",
+    "payload_kg_range": "10-100 kg",
+    "volume_price": "EUR 60,000/unit for 20+ units (vs. EUR 98,000 for 1-19)",
+    "deposit": "EUR 100, refundable, credited toward the purchase price"
+   },
+   "product_url": "https://neura-robotics.com/products/4ne1/",
+   "links": {
+    "video": null,
+    "docs": null,
+    "price_source": "https://neura-robotics.com/product/4ne1-reservation/"
+   },
+   "canonical_url": "https://robocensus.com/robots/neura-4ne1/",
+   "image": {
+    "status": "glyph",
+    "url": null,
+    "credit": null
+   },
+   "sources": {
+    "s1": {
+     "url": "https://neura-robotics.com/products/4ne1/",
+     "last_verified": "2026-11-05"
+    },
+    "s2": {
+     "url": "https://neura-robotics.com/product/4ne1-reservation/",
+     "last_verified": "2026-11-05"
+    },
+    "s3": {
+     "url": "https://neurarobotics.px.media/plk/Qc/4NE1Gen3.5Datasheet.pdf",
+     "last_verified": "2026-11-05"
+    }
+   },
+   "provenance": {
+    "name": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "maker": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "product_url": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "price.amount": {
+     "source": "s2",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "price.currency": {
+     "source": "s2",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "price.date": {
+     "source": "s2",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "specs.volume_price": {
+     "source": "s2",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "specs.deposit": {
+     "source": "s2",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "links.price_source": {
+     "source": "s2",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "specs.height_cm": {
+     "source": "s3",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "specs.weight_kg": {
+     "source": "s3",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "specs.max_speed_kmh": {
+     "source": "s3",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "specs.hands": {
+     "source": "s3",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "specs.payload_kg_range": {
+     "source": "s3",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    }
+   }
+  },
+  {
+   "slug": "agibot-yuanzheng-a2",
+   "name": "A2",
+   "maker": "AgiBot",
+   "category": "humanoid",
+   "locomotion": "legged",
+   "status": "commercial",
+   "release_date": null,
+   "price": {
+    "amount": null,
+    "currency": null,
+    "date": null
+   },
+   "specs": {
+    "height_cm": 169,
+    "weight_kg": 69,
+    "battery_runtime_hr": 2,
+    "degrees_of_freedom": 40,
+    "hands": "Dexterous Hand (finger count/DoF not published)",
+    "degrees_of_freedom_qualifier": "minimum"
+   },
+   "product_url": "https://agibot.com/products/A2",
+   "links": {
+    "video": null,
+    "docs": null,
+    "price_source": null
+   },
+   "canonical_url": "https://robocensus.com/robots/agibot-yuanzheng-a2/",
+   "image": {
+    "status": "glyph",
+    "url": null,
+    "credit": null
+   },
+   "sources": {
+    "s1": {
+     "url": "https://agibot.com/products/A2",
+     "last_verified": "2026-11-06"
+    }
+   },
+   "provenance": {
+    "name": {
+     "source": "s1",
+     "changed": "2026-11-06",
+     "verification": "verified"
+    },
+    "maker": {
+     "source": "s1",
+     "changed": "2026-11-06",
+     "verification": "verified"
+    },
+    "specs.height_cm": {
+     "source": "s1",
+     "changed": "2026-11-06",
+     "verification": "verified"
+    },
+    "specs.weight_kg": {
+     "source": "s1",
+     "changed": "2026-11-06",
+     "verification": "verified"
+    },
+    "specs.battery_runtime_hr": {
+     "source": "s1",
+     "changed": "2026-11-06",
+     "verification": "verified"
+    },
+    "specs.degrees_of_freedom": {
+     "source": "s1",
+     "changed": "2026-11-06",
+     "verification": "verified"
+    },
+    "specs.degrees_of_freedom_qualifier": {
+     "source": "s1",
+     "changed": "2026-11-06",
+     "verification": "verified"
+    },
+    "specs.hands": {
+     "source": "s1",
+     "changed": "2026-11-06",
+     "verification": "verified"
+    },
+    "product_url": {
+     "source": "s1",
+     "changed": "2026-11-06",
+     "verification": "verified"
+    }
+   }
+  },
+  {
+   "slug": "agibot-a3",
+   "name": "A3",
+   "maker": "AgiBot",
+   "category": "humanoid",
+   "locomotion": "legged",
+   "status": "commercial",
+   "release_date": null,
+   "price": {
+    "amount": null,
+    "currency": null,
+    "date": null
+   },
+   "specs": {
+    "height_cm": 173,
+    "weight_kg": 55,
+    "battery_runtime_hr": 10,
+    "max_speed_kmh": 6.5,
+    "degrees_of_freedom": 31,
+    "models": "A3 / A3 Ultra. A3 Ultra is a separate quote-only listing on store.agibot.com; the official A3 page doesn't detail its differences",
+    "battery_runtime_hr_qualifier": "maximum",
+    "battery": "Dual battery packs, 1152 Wh, hot-swappable",
+    "peak_power_kw": 12,
+    "max_speed_kmh_qualifier": "walking",
+    "max_running_speed_kmh": 18,
+    "max_running_speed_kmh_qualifier": "running"
+   },
+   "product_url": "https://www.agibot.com/products/A3",
+   "links": {
+    "video": null,
+    "docs": null,
+    "price_source": null
+   },
+   "canonical_url": "https://robocensus.com/robots/agibot-a3/",
+   "image": {
+    "status": "glyph",
+    "url": null,
+    "credit": null
+   },
+   "sources": {
+    "s1": {
+     "url": "https://www.agibot.com/products/A3",
+     "last_verified": "2026-11-05"
+    }
+   },
+   "provenance": {
+    "name": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "maker": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "specs.height_cm": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "specs.weight_kg": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "specs.battery_runtime_hr": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "specs.battery_runtime_hr_qualifier": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "specs.battery": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "specs.peak_power_kw": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "product_url": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    }
+   }
+  },
+  {
+   "slug": "pndbotics-adam",
+   "name": "Adam SP",
+   "maker": "PNDbotics",
+   "category": "humanoid",
+   "locomotion": "legged",
+   "status": "pilot",
+   "release_date": null,
+   "price": {
+    "amount": null,
+    "currency": null,
+    "date": null
+   },
+   "specs": {
+    "height_cm": 167,
+    "weight_kg": 62,
+    "max_speed_kmh": 5.4,
+    "degrees_of_freedom": 41,
+    "hands": "Dexterous hand, 6 finger joints per hand (per official DoF breakdown)"
+   },
+   "product_url": "https://wiki.pndbotics.com/en/robot/humanoid_robot/",
+   "links": {
+    "video": null,
+    "docs": null,
+    "price_source": null
+   },
+   "canonical_url": "https://robocensus.com/robots/pndbotics-adam/",
+   "image": {
+    "status": "glyph",
+    "url": null,
+    "credit": null
+   },
+   "sources": {
+    "s1": {
+     "url": "https://wiki.pndbotics.com/en/robot/humanoid_robot/",
+     "last_verified": "2026-11-05"
+    }
+   },
+   "provenance": {
+    "name": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "maker": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "specs.height_cm": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "specs.weight_kg": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "specs.max_speed_kmh": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "specs.degrees_of_freedom": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "specs.hands": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "product_url": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    }
+   }
+  },
+  {
+   "slug": "robotis-ai-sapiens",
+   "name": "AI Sapiens",
+   "maker": "ROBOTIS",
+   "category": "humanoid",
+   "locomotion": "legged",
+   "status": "prototype",
+   "release_date": null,
+   "price": {
+    "amount": null,
+    "currency": null,
+    "date": null
+   },
+   "specs": {
+    "height_cm": 135.5,
+    "weight_kg": 35,
+    "degrees_of_freedom": 23,
+    "models": "K1 — the platform the official manual covers; all figures here are K1's"
+   },
+   "product_url": "https://docs.robotis.com/docs/systems/aisapiens/introduction",
+   "links": {
+    "video": null,
+    "docs": null,
+    "price_source": null
+   },
+   "canonical_url": "https://robocensus.com/robots/robotis-ai-sapiens/",
+   "image": {
+    "status": "photo",
+    "url": "https://robocensus.com/robots/robotis-ai-sapiens.webp",
+    "credit": {
+     "author": "ROBOTIS",
+     "license": "used with permission",
+     "source_url": null
+    }
+   },
+   "sources": {
+    "s1": {
+     "url": "https://docs.robotis.com/docs/systems/aisapiens/introduction",
+     "last_verified": "2026-11-07"
+    },
+    "s2": {
+     "url": "https://docs.robotis.com/docs/systems/aisapiens/specifications/hardware",
+     "last_verified": "2026-11-07"
+    }
+   },
+   "provenance": {
+    "name": {
+     "source": "s1",
+     "changed": "2026-11-07",
+     "verification": "verified"
+    },
+    "maker": {
+     "source": "s1",
+     "changed": "2026-11-07",
+     "verification": "verified"
+    },
+    "specs.models": {
+     "source": "s1",
+     "changed": "2026-11-07",
+     "verification": "verified"
+    },
+    "product_url": {
+     "source": "s1",
+     "changed": "2026-11-07",
+     "verification": "verified"
+    },
+    "specs.height_cm": {
+     "source": "s2",
+     "changed": "2026-11-07",
+     "verification": "verified"
+    },
+    "specs.weight_kg": {
+     "source": "s2",
+     "changed": "2026-11-07",
+     "verification": "verified"
+    },
+    "specs.degrees_of_freedom": {
+     "source": "s2",
+     "changed": "2026-11-07",
+     "verification": "verified"
+    }
+   }
+  },
+  {
+   "slug": "hiwonder-ainex",
+   "name": "AiNex",
+   "maker": "Hiwonder",
+   "category": "humanoid",
+   "locomotion": "legged",
+   "status": "commercial",
+   "release_date": null,
+   "price": {
+    "amount": 729.99,
+    "currency": "USD",
+    "date": "2026-11-05"
+   },
+   "specs": {
+    "max_speed_kmh": 0.76,
+    "models": "Starter Kit (20 DOF, 2.25 kg) / Standard Kit (24 DOF, 2.45 kg); Raspberry Pi 5 controller in 2/4/8GB",
+    "dimensions_mm": "193 x 135 x 415",
+    "battery": "11.1V 3500mAh 5C LiPo"
+   },
+   "product_url": "https://www.hiwonder.com/products/ainex",
+   "links": {
+    "video": null,
+    "docs": null,
+    "price_source": null
+   },
+   "canonical_url": "https://robocensus.com/robots/hiwonder-ainex/",
+   "image": {
+    "status": "glyph",
+    "url": null,
+    "credit": null
+   },
+   "sources": {
+    "s1": {
+     "url": "https://www.hiwonder.com/products/ainex",
+     "last_verified": "2026-11-05"
+    }
+   },
+   "provenance": {
+    "name": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "maker": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "price.amount": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "price.currency": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "price.date": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "specs.models": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "specs.dimensions_mm": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "specs.max_speed_kmh": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "specs.battery": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "product_url": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    }
+   }
+  },
+  {
+   "slug": "apptronik-apollo",
+   "name": "Apollo 2",
+   "maker": "Apptronik",
+   "category": "humanoid",
+   "locomotion": "legged",
+   "status": "pilot",
+   "release_date": null,
+   "price": {
+    "amount": null,
+    "currency": null,
+    "date": null
+   },
+   "specs": {
+    "note": "No spec numbers published for this generation as of 2026-09-03."
+   },
+   "product_url": "https://apptronik.com/apollo/apollo-2",
+   "links": {
+    "video": null,
+    "docs": null,
+    "price_source": null
+   },
+   "canonical_url": "https://robocensus.com/robots/apptronik-apollo/",
+   "image": {
+    "status": "glyph",
+    "url": null,
+    "credit": null
+   },
+   "sources": {
+    "s1": {
+     "url": "https://apptronik.com/apollo/apollo-2",
+     "last_verified": "2026-11-05"
+    }
+   },
+   "provenance": {
+    "name": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "maker": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "product_url": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    }
+   }
+  },
+  {
+   "slug": "boston-dynamics-atlas",
+   "name": "Atlas",
+   "maker": "Boston Dynamics",
+   "category": "humanoid",
+   "locomotion": "legged",
+   "status": "pilot",
+   "release_date": null,
+   "price": {
+    "amount": null,
+    "currency": null,
+    "date": null
+   },
+   "specs": {
+    "height_cm": 190,
+    "weight_kg": 90,
+    "payload_kg": 30,
+    "battery_runtime_hr": 4,
+    "degrees_of_freedom": 56,
+    "peak_payload_kg": 50,
+    "ip_rating": "IP67"
+   },
+   "product_url": "https://bostondynamics.com/atlas/",
+   "links": {
+    "video": null,
+    "docs": null,
+    "price_source": null
+   },
+   "canonical_url": "https://robocensus.com/robots/boston-dynamics-atlas/",
+   "image": {
+    "status": "photo",
+    "url": "https://robocensus.com/robots/boston-dynamics-atlas.webp",
+    "credit": {
+     "author": "Damian B Oh",
+     "license": "CC BY-SA 4.0",
+     "source_url": "https://commons.wikimedia.org/wiki/File:Boston_Dynamics_Atlas_(1).jpg"
+    }
+   },
+   "sources": {
+    "s1": {
+     "url": "https://bostondynamics.com/atlas/",
+     "last_verified": "2026-11-05"
+    }
+   },
+   "provenance": {
+    "name": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "maker": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "specs.height_cm": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "specs.weight_kg": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "specs.payload_kg": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "specs.peak_payload_kg": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "specs.battery_runtime_hr": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "specs.degrees_of_freedom": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "specs.ip_rating": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "product_url": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    }
+   }
+  },
+  {
+   "slug": "xiaomi-cyberone",
+   "name": "CyberOne",
+   "maker": "Xiaomi",
+   "category": "humanoid",
+   "locomotion": "legged",
+   "status": "pilot",
+   "release_date": null,
+   "price": {
+    "amount": null,
+    "currency": null,
+    "date": null
+   },
+   "specs": {
+    "note": "No specs verifiable from an official source as of 2026-09-04 (see comment above)"
+   },
+   "product_url": "https://www.mi.com/cyberone",
+   "links": {
+    "video": null,
+    "docs": null,
+    "price_source": null
+   },
+   "canonical_url": "https://robocensus.com/robots/xiaomi-cyberone/",
+   "image": {
+    "status": "glyph",
+    "url": null,
+    "credit": null
+   },
+   "sources": {},
+   "provenance": {}
+  },
+  {
+   "slug": "pudu-d9",
+   "name": "D9",
+   "maker": "Pudu Robotics",
+   "category": "humanoid",
+   "locomotion": "legged",
+   "status": "commercial",
+   "release_date": null,
+   "price": {
+    "amount": null,
+    "currency": null,
+    "date": null
+   },
+   "specs": {
+    "height_cm": 170,
+    "weight_kg": 65,
+    "payload_kg": 20,
+    "max_speed_kmh": 7.2,
+    "degrees_of_freedom": 42,
+    "hands": "PUDU DH11 dexterous hands, 11 DoF each (6 active, 5 passive), 12 tactile sensing regions",
+    "max_joint_torque_nm": 352,
+    "battery": "15 Ah (0.72 kWh)",
+    "compute_tops": 275
+   },
+   "product_url": "https://www.pudurobotics.com/en/products/d9",
+   "links": {
+    "video": null,
+    "docs": null,
+    "price_source": null
+   },
+   "canonical_url": "https://robocensus.com/robots/pudu-d9/",
+   "image": {
+    "status": "glyph",
+    "url": null,
+    "credit": null
+   },
+   "sources": {
+    "s1": {
+     "url": "https://www.pudurobotics.com/en/products/d9",
+     "last_verified": "2026-11-05"
+    }
+   },
+   "provenance": {
+    "name": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "maker": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "specs.height_cm": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "specs.weight_kg": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "specs.degrees_of_freedom": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "specs.payload_kg": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "specs.max_speed_kmh": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "specs.max_joint_torque_nm": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "specs.hands": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "specs.battery": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "specs.compute_tops": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "product_url": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    }
+   }
+  },
+  {
+   "slug": "agility-robotics-digit",
+   "name": "Digit",
+   "maker": "Agility Robotics",
+   "category": "humanoid",
+   "locomotion": "legged",
+   "status": "commercial",
+   "release_date": null,
+   "price": {
+    "amount": null,
+    "currency": null,
+    "date": null
+   },
+   "specs": {
+    "payload_kg": 15.9,
+    "battery_runtime_hr": 4,
+    "models": "Deployed generation (2023 onward; commercial) — the figures in this entry are its own. Digit 5 (fifth generation, unveiled 2026-09-15, in development) — Agility's preliminary estimates on pre-production hardware, subject to change; payload 23 kg (50 lb), reach 2.2 m, run-to-charge ratio 10:1, 20 h work per 24 h shift"
+   },
+   "product_url": "https://www.agilityrobotics.com/solutions/digit-5",
+   "links": {
+    "video": null,
+    "docs": null,
+    "price_source": null
+   },
+   "canonical_url": "https://robocensus.com/robots/agility-robotics-digit/",
+   "image": {
+    "status": "glyph",
+    "url": null,
+    "credit": null
+   },
+   "sources": {
+    "s1": {
+     "url": "https://www.agilityrobotics.com/solutions/digit-5",
+     "last_verified": "2026-11-05"
+    },
+    "s2": {
+     "url": "https://web.archive.org/web/20260914122647/https://www.agilityrobotics.com/solutions",
+     "last_verified": "2026-09-14"
+    }
+   },
+   "provenance": {
+    "name": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "maker": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "product_url": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "specs.payload_kg": {
+     "source": "s2",
+     "changed": "2026-09-14",
+     "verification": "verified"
+    },
+    "specs.battery_runtime_hr": {
+     "source": "s2",
+     "changed": "2026-09-14",
+     "verification": "verified"
+    }
+   }
+  },
+  {
+   "slug": "deep-robotics-dr02",
+   "name": "DR02",
+   "maker": "DEEP Robotics",
+   "category": "humanoid",
+   "locomotion": "legged",
+   "status": "pilot",
+   "release_date": null,
+   "price": {
+    "amount": null,
+    "currency": null,
+    "date": null
+   },
+   "specs": {
+    "height_cm": 180,
+    "weight_kg": 68,
+    "payload_kg": 10,
+    "battery_runtime_hr": 3,
+    "max_speed_kmh": 3.6,
+    "degrees_of_freedom": 21,
+    "ip_rating": "IP66",
+    "operating_temp": "-20°C to 55°C",
+    "models": "DR02 (approx. 68 kg, 21 DoF; the edition tracked here); DR02 Pro (approx. 78 kg, 31 DoF)"
+   },
+   "product_url": "https://www.deeprobotics.cn/en/index/dr02.html",
+   "links": {
+    "video": null,
+    "docs": null,
+    "price_source": null
+   },
+   "canonical_url": "https://robocensus.com/robots/deep-robotics-dr02/",
+   "image": {
+    "status": "glyph",
+    "url": null,
+    "credit": null
+   },
+   "sources": {
+    "s1": {
+     "url": "https://www.deeprobotics.cn/en/products/detail/5.html",
+     "last_verified": "2026-11-05"
+    },
+    "s2": {
+     "url": "https://www.deeprobotics.cn/en/index/dr02.html",
+     "last_verified": "2026-11-09"
+    }
+   },
+   "provenance": {
+    "name": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "maker": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "specs.ip_rating": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "specs.operating_temp": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "specs.height_cm": {
+     "source": "s2",
+     "changed": "2026-11-09",
+     "verification": "verified"
+    },
+    "specs.weight_kg": {
+     "source": "s2",
+     "changed": "2026-11-09",
+     "verification": "verified"
+    },
+    "specs.payload_kg": {
+     "source": "s2",
+     "changed": "2026-11-09",
+     "verification": "verified"
+    },
+    "specs.battery_runtime_hr": {
+     "source": "s2",
+     "changed": "2026-11-09",
+     "verification": "verified"
+    },
+    "specs.degrees_of_freedom": {
+     "source": "s2",
+     "changed": "2026-11-09",
+     "verification": "verified"
+    },
+    "specs.max_speed_kmh": {
+     "source": "s2",
+     "changed": "2026-11-09",
+     "verification": "verified"
+    },
+    "specs.models": {
+     "source": "s2",
+     "changed": "2026-11-09",
+     "verification": "verified"
+    },
+    "product_url": {
+     "source": "s2",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    }
+   }
+  },
+  {
+   "slug": "galbot-et1",
+   "name": "ET1",
+   "maker": "Galbot",
+   "category": "humanoid",
+   "locomotion": "legged",
+   "status": "commercial",
+   "release_date": null,
+   "price": {
+    "amount": null,
+    "currency": null,
+    "date": null
+   },
+   "specs": {
+    "height_cm": 125,
+    "weight_kg": 32,
+    "degrees_of_freedom": 26,
+    "models": "Standard / Pro / Flagship. Standard has 26 DoF; Pro and Flagship add dexterous hands (26 + 12 DoF). Compute is RK3588 + RDK X5 on all, plus Jetson Orin Nano 40 TOPS (Pro) or Orin NX 100 TOPS (Flagship)",
+    "configuration": "Standard",
+    "compute": "RK3588 + RDK X5"
+   },
+   "product_url": "https://www.galbot.com/et1",
+   "links": {
+    "video": null,
+    "docs": null,
+    "price_source": null
+   },
+   "canonical_url": "https://robocensus.com/robots/galbot-et1/",
+   "image": {
+    "status": "glyph",
+    "url": null,
+    "credit": null
+   },
+   "sources": {
+    "s1": {
+     "url": "https://www.galbot.com/et1",
+     "last_verified": "2026-11-05"
+    }
+   },
+   "provenance": {
+    "name": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "maker": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "specs.models": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "specs.configuration": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "specs.height_cm": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "specs.weight_kg": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "specs.degrees_of_freedom": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "specs.compute": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "product_url": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    }
+   }
+  },
+  {
+   "slug": "figure-03",
+   "name": "Figure 03",
+   "maker": "Figure AI",
+   "category": "humanoid",
+   "locomotion": "legged",
+   "status": "commercial",
+   "release_date": "2025-10-09",
+   "price": {
+    "amount": null,
+    "currency": null,
+    "date": null
+   },
+   "specs": {
+    "height_cm": 172.7,
+    "weight_kg": 61,
+    "payload_kg": 20,
+    "battery_runtime_hr": 5,
+    "max_speed_kmh": 4.3,
+    "hands": "Tactile, compliant fingertips (finger count/DoF not published)"
+   },
+   "product_url": "https://www.figure.ai/figure",
+   "links": {
+    "video": null,
+    "docs": null,
+    "price_source": null
+   },
+   "canonical_url": "https://robocensus.com/robots/figure-03/",
+   "image": {
+    "status": "glyph",
+    "url": null,
+    "credit": null
+   },
+   "sources": {
+    "s1": {
+     "url": "https://www.figure.ai/figure",
+     "last_verified": "2026-11-05"
+    },
+    "s2": {
+     "url": "https://www.figure.ai/news/introducing-figure-03",
+     "last_verified": "2026-11-05"
+    }
+   },
+   "provenance": {
+    "name": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "maker": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "specs.height_cm": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "specs.weight_kg": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "specs.payload_kg": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "specs.battery_runtime_hr": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "specs.max_speed_kmh": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "product_url": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "release_date": {
+     "source": "s2",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "specs.hands": {
+     "source": "s2",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    }
+   }
+  },
+  {
+   "slug": "kepler-k2",
+   "name": "Forerunner K2",
+   "maker": "Kepler Robotics",
+   "category": "humanoid",
+   "locomotion": "legged",
+   "status": "commercial",
+   "release_date": null,
+   "price": {
+    "amount": null,
+    "currency": null,
+    "date": null
+   },
+   "specs": {
+    "height_cm": 175,
+    "weight_kg": 75,
+    "battery_runtime_hr": 8,
+    "degrees_of_freedom": 30,
+    "configuration": "Basic Version",
+    "models": "Bipedal Development Version: 52 DoF, dexterous hands with 11 DoF each, 100 TOPS GPU compute, 12-month warranty, and 25-30 kg dual-arm handling, the capacity of this dexterous-hand configuration (Basic: 30 DoF, no dexterous hands, 8-month warranty)",
+    "charge_time_hr": 1
+   },
+   "product_url": "https://www.gotokepler.com",
+   "links": {
+    "video": null,
+    "docs": null,
+    "price_source": null
+   },
+   "canonical_url": "https://robocensus.com/robots/kepler-k2/",
+   "image": {
+    "status": "glyph",
+    "url": null,
+    "credit": null
+   },
+   "sources": {
+    "s1": {
+     "url": "https://www.gotokepler.com",
+     "last_verified": "2026-11-05"
+    },
+    "s2": {
+     "url": "https://www.gotokepler.com/productDetailK2",
+     "last_verified": "2026-11-05"
+    }
+   },
+   "provenance": {
+    "name": {
+     "source": "s2",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "maker": {
+     "source": "s2",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "product_url": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "specs.configuration": {
+     "source": "s2",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "specs.models": {
+     "source": "s2",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "specs.height_cm": {
+     "source": "s2",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "specs.weight_kg": {
+     "source": "s2",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "specs.degrees_of_freedom": {
+     "source": "s2",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "specs.battery_runtime_hr": {
+     "source": "s2",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "specs.charge_time_hr": {
+     "source": "s2",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    }
+   }
+  },
+  {
+   "slug": "unitree-g1",
+   "name": "G1",
+   "maker": "Unitree",
+   "category": "humanoid",
+   "locomotion": "legged",
+   "status": "commercial",
+   "release_date": null,
+   "price": {
+    "amount": 13500,
+    "currency": "USD",
+    "date": "2026-11-07"
+   },
+   "specs": {
+    "height_cm": 132,
+    "weight_kg": 35,
+    "payload_kg": 2,
+    "battery_runtime_hr": 2,
+    "degrees_of_freedom": 23,
+    "hands": "None standard (optional 7-DoF three-finger dexterous hand on EDU tier only)",
+    "configuration": "Base"
+   },
+   "product_url": "https://www.unitree.com/g1/",
+   "links": {
+    "video": null,
+    "docs": null,
+    "price_source": "https://www.unitree.com/g1/"
+   },
+   "canonical_url": "https://robocensus.com/robots/unitree-g1/",
+   "image": {
+    "status": "photo",
+    "url": "https://robocensus.com/robots/unitree-g1.webp",
+    "credit": {
+     "author": "Sayanesy",
+     "license": "CC0 1.0",
+     "source_url": "https://commons.wikimedia.org/wiki/File:Unitree_G1.jpg"
+    }
+   },
+   "sources": {
+    "s1": {
+     "url": "https://www.unitree.com/g1/",
+     "last_verified": "2026-11-07"
+    }
+   },
+   "provenance": {
+    "name": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "maker": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "price.amount": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "price.currency": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "specs.height_cm": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "specs.weight_kg": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "specs.payload_kg": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "specs.battery_runtime_hr": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "specs.degrees_of_freedom": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "specs.hands": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "product_url": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "price.date": {
+     "source": "s1",
+     "changed": "2026-11-07",
+     "verification": "verified"
+    },
+    "links.price_source": {
+     "source": "s1",
+     "changed": "2026-11-07",
+     "verification": "verified"
+    }
+   }
+  },
+  {
+   "slug": "fourier-gr3",
+   "name": "GR-3",
+   "maker": "Fourier Intelligence",
+   "category": "humanoid",
+   "locomotion": "legged",
+   "status": "pilot",
+   "release_date": null,
+   "price": {
+    "amount": null,
+    "currency": null,
+    "date": null
+   },
+   "specs": {
+    "height_cm": 165,
+    "weight_kg": 71,
+    "payload_kg": 3,
+    "degrees_of_freedom": 55,
+    "degrees_of_freedom_qualifier": "maximum"
+   },
+   "product_url": "https://support.fftai.com/en/gr3/getting-started/general-information",
+   "links": {
+    "video": null,
+    "docs": null,
+    "price_source": null
+   },
+   "canonical_url": "https://robocensus.com/robots/fourier-gr3/",
+   "image": {
+    "status": "glyph",
+    "url": null,
+    "credit": null
+   },
+   "sources": {
+    "s1": {
+     "url": "https://support.fftai.com/en/gr3/getting-started/general-information",
+     "last_verified": "2026-11-05"
+    }
+   },
+   "provenance": {
+    "name": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "maker": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "specs.height_cm": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "specs.weight_kg": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "specs.payload_kg": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "specs.degrees_of_freedom": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "specs.degrees_of_freedom_qualifier": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "product_url": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    }
+   }
+  },
+  {
+   "slug": "unitree-h1",
+   "name": "H1",
+   "maker": "Unitree",
+   "category": "humanoid",
+   "locomotion": "legged",
+   "status": "commercial",
+   "release_date": null,
+   "price": {
+    "amount": null,
+    "currency": null,
+    "date": null
+   },
+   "specs": {
+    "height_cm": 180,
+    "weight_kg": 47,
+    "hands": "None standard (optional end-effector)",
+    "dof_note": "Per leg 5 DoF (hip x3, knee x1, ankle x1); per arm 4 DoF (expandable) — official page gives no single verified total"
+   },
+   "product_url": "https://www.unitree.com/h1/",
+   "links": {
+    "video": null,
+    "docs": null,
+    "price_source": null
+   },
+   "canonical_url": "https://robocensus.com/robots/unitree-h1/",
+   "image": {
+    "status": "glyph",
+    "url": null,
+    "credit": null
+   },
+   "sources": {
+    "s1": {
+     "url": "https://www.unitree.com/h1/",
+     "last_verified": "2026-11-05"
+    }
+   },
+   "provenance": {
+    "name": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "maker": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "specs.height_cm": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "specs.weight_kg": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "specs.hands": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "specs.dof_note": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "product_url": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    }
+   }
+  },
+  {
+   "slug": "unitree-h2",
+   "name": "H2",
+   "maker": "Unitree",
+   "category": "humanoid",
+   "locomotion": "legged",
+   "status": "commercial",
+   "release_date": null,
+   "price": {
+    "amount": 29900,
+    "currency": "USD",
+    "date": "2026-11-07"
+   },
+   "specs": {
+    "height_cm": 182,
+    "weight_kg": 70,
+    "payload_kg": 7,
+    "battery_runtime_hr": 3,
+    "degrees_of_freedom": 31,
+    "hands": "None standard (optional dexterous hand on H2 EDU only)",
+    "configuration": "Base",
+    "peak_payload_kg": 15
+   },
+   "product_url": "https://www.unitree.com/H2/",
+   "links": {
+    "video": null,
+    "docs": null,
+    "price_source": "https://www.unitree.com/H2/"
+   },
+   "canonical_url": "https://robocensus.com/robots/unitree-h2/",
+   "image": {
+    "status": "glyph",
+    "url": null,
+    "credit": null
+   },
+   "sources": {
+    "s1": {
+     "url": "https://www.unitree.com/H2/",
+     "last_verified": "2026-11-07"
+    }
+   },
+   "provenance": {
+    "name": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "maker": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "price.amount": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "price.currency": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "price.date": {
+     "source": "s1",
+     "changed": "2026-11-07",
+     "verification": "verified"
+    },
+    "links.price_source": {
+     "source": "s1",
+     "changed": "2026-11-07",
+     "verification": "verified"
+    },
+    "specs.height_cm": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "specs.weight_kg": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "specs.payload_kg": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "specs.peak_payload_kg": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "specs.battery_runtime_hr": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "specs.degrees_of_freedom": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "specs.hands": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "product_url": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    }
+   }
+  },
+  {
+   "slug": "xpeng-iron",
+   "name": "IRON",
+   "maker": "XPeng",
+   "category": "humanoid",
+   "locomotion": "legged",
+   "status": "prototype",
+   "release_date": null,
+   "price": {
+    "amount": null,
+    "currency": null,
+    "date": null
+   },
+   "specs": {
+    "degrees_of_freedom": 82,
+    "hands": "22-DoF dexterous hand (harmonic-joint design, 1:1 human hand size)"
+   },
+   "product_url": "https://www.xpeng.com/au/explore/xpeng_ai_robot_iron",
+   "links": {
+    "video": null,
+    "docs": null,
+    "price_source": null
+   },
+   "canonical_url": "https://robocensus.com/robots/xpeng-iron/",
+   "image": {
+    "status": "photo",
+    "url": "https://robocensus.com/robots/xpeng-iron.webp",
+    "credit": {
+     "author": "Tim Wu",
+     "license": "CC BY-SA 4.0",
+     "source_url": "https://commons.wikimedia.org/wiki/File:XPeng_Iron_at_Auto_Guangzhou_2025_20251123.jpg"
+    }
+   },
+   "sources": {
+    "s1": {
+     "url": "https://www.xpeng.com/au/explore/xpeng_ai_robot_iron",
+     "last_verified": "2026-11-05"
+    }
+   },
+   "provenance": {
+    "name": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "maker": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "specs.degrees_of_freedom": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "product_url": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    }
+   }
+  },
+  {
+   "slug": "booster-k1",
+   "name": "K1",
+   "maker": "Booster Robotics",
+   "category": "humanoid",
+   "locomotion": "legged",
+   "status": "commercial",
+   "release_date": null,
+   "price": {
+    "amount": null,
+    "currency": null,
+    "date": null
+   },
+   "specs": {
+    "height_cm": 95,
+    "weight_kg": 19.5,
+    "max_speed_kmh": 7.2,
+    "degrees_of_freedom": 22,
+    "models": "Geek / Education / Professional — Geek 48 TOPS (dense), 2 Ah battery, 20 min walking runtime, 3-month warranty; Education 117 TOPS, 5 Ah, 1 h 10 min, 1-year warranty; Professional 200 TOPS, 5 Ah, 1 h 10 min, 1-year warranty (runtimes \"walking at 1.1 m/s\"); all other specs identical",
+    "max_speed_kmh_qualifier": "walking",
+    "max_joint_torque_nm": 60
+   },
+   "product_url": "https://www.booster.tech/booster-k1/",
+   "links": {
+    "video": null,
+    "docs": null,
+    "price_source": null
+   },
+   "canonical_url": "https://robocensus.com/robots/booster-k1/",
+   "image": {
+    "status": "glyph",
+    "url": null,
+    "credit": null
+   },
+   "sources": {
+    "s1": {
+     "url": "https://www.booster.tech/booster-k1/",
+     "last_verified": "2026-11-05"
+    }
+   },
+   "provenance": {
+    "name": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "maker": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "specs.models": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "specs.height_cm": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "specs.weight_kg": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "specs.degrees_of_freedom": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "specs.max_speed_kmh": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "specs.max_speed_kmh_qualifier": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "specs.max_joint_torque_nm": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "product_url": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    }
+   }
+  },
+  {
+   "slug": "limx-luna",
+   "name": "Luna",
+   "maker": "LimX Dynamics",
+   "category": "humanoid",
+   "locomotion": "legged",
+   "status": "commercial",
+   "release_date": null,
+   "price": {
+    "amount": null,
+    "currency": null,
+    "date": null
+   },
+   "specs": {
+    "height_cm": 160,
+    "degrees_of_freedom": 27
+   },
+   "product_url": "https://www.limxdynamics.com/en/products/luna",
+   "links": {
+    "video": null,
+    "docs": null,
+    "price_source": null
+   },
+   "canonical_url": "https://robocensus.com/robots/limx-luna/",
+   "image": {
+    "status": "glyph",
+    "url": null,
+    "credit": null
+   },
+   "sources": {
+    "s1": {
+     "url": "https://www.limxdynamics.com/en/products/luna",
+     "last_verified": "2026-11-05"
+    },
+    "s2": {
+     "url": "https://www.limxdynamics.com/en/products/luna/spec",
+     "last_verified": "2026-11-05"
+    }
+   },
+   "provenance": {
+    "name": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "maker": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "specs.height_cm": {
+     "source": "s2",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "specs.degrees_of_freedom": {
+     "source": "s2",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "product_url": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    }
+   }
+  },
+  {
+   "slug": "noble-machines-moby",
+   "name": "Moby",
+   "maker": "Noble Machines",
+   "category": "humanoid",
+   "locomotion": "legged",
+   "status": "pilot",
+   "release_date": null,
+   "price": {
+    "amount": null,
+    "currency": null,
+    "date": null
+   },
+   "specs": {
+    "payload_kg": 23,
+    "battery_runtime_hr": 5,
+    "max_speed_kmh": 2.9,
+    "hands": "Modular end-effectors",
+    "max_speed_kmh_qualifier": "walking"
+   },
+   "product_url": "https://www.noblemachines.ai/",
+   "links": {
+    "video": null,
+    "docs": null,
+    "price_source": null
+   },
+   "canonical_url": "https://robocensus.com/robots/noble-machines-moby/",
+   "image": {
+    "status": "glyph",
+    "url": null,
+    "credit": null
+   },
+   "sources": {
+    "s1": {
+     "url": "https://www.noblemachines.ai/",
+     "last_verified": "2026-11-06"
+    },
+    "s2": {
+     "url": "https://www.noblemachines.ai/blog/beyond-the-demo-building-a-learning-stack-for-industrial-autonomy",
+     "last_verified": "2026-11-05"
+    }
+   },
+   "provenance": {
+    "name": {
+     "source": "s2",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "maker": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "status": {
+     "source": "s1",
+     "changed": "2026-11-06",
+     "verification": "verified"
+    },
+    "specs.payload_kg": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "specs.battery_runtime_hr": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "specs.max_speed_kmh": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "specs.max_speed_kmh_qualifier": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "specs.hands": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "product_url": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    }
+   }
+  },
+  {
+   "slug": "fourier-n1",
+   "name": "N1",
+   "maker": "Fourier Intelligence",
+   "category": "humanoid",
+   "locomotion": "legged",
+   "status": "pilot",
+   "release_date": null,
+   "price": {
+    "amount": null,
+    "currency": null,
+    "date": null
+   },
+   "specs": {
+    "height_cm": 130,
+    "weight_kg": 38,
+    "battery_runtime_hr": 2,
+    "max_speed_kmh": 12.6,
+    "degrees_of_freedom": 23,
+    "battery_runtime_hr_qualifier": "minimum"
+   },
+   "product_url": "https://www.fftai.com/en/ecosystem/n1",
+   "links": {
+    "video": null,
+    "docs": null,
+    "price_source": null
+   },
+   "canonical_url": "https://robocensus.com/robots/fourier-n1/",
+   "image": {
+    "status": "glyph",
+    "url": null,
+    "credit": null
+   },
+   "sources": {
+    "s1": {
+     "url": "https://www.fftai.com/en/ecosystem/n1",
+     "last_verified": "2026-11-05"
+    },
+    "s2": {
+     "url": "https://www.fftai.com/en/ecosystem/nexus",
+     "last_verified": "2026-11-05"
+    }
+   },
+   "provenance": {
+    "name": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "maker": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "product_url": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "specs.height_cm": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "specs.weight_kg": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "specs.max_speed_kmh": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "specs.battery_runtime_hr": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "specs.battery_runtime_hr_qualifier": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "specs.degrees_of_freedom": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    }
+   }
+  },
+  {
+   "slug": "maxtronics-nao6",
+   "name": "NAO6",
+   "maker": "Maxtronics Robotics",
+   "category": "humanoid",
+   "locomotion": "legged",
+   "status": "commercial",
+   "release_date": null,
+   "price": {
+    "amount": null,
+    "currency": null,
+    "date": null
+   },
+   "specs": {
+    "height_cm": 57.4,
+    "weight_kg": 5.48,
+    "degrees_of_freedom": 25,
+    "hands": "Functional hands, 1 DoF per hand (per official DoF breakdown)",
+    "ip_rating": "IPX0",
+    "battery_runtime_hr_range": "1 hr (active use) / 1.5 hr (normal use)"
+   },
+   "product_url": "https://maxtronics.com/en/nao6/",
+   "links": {
+    "video": null,
+    "docs": null,
+    "price_source": null
+   },
+   "canonical_url": "https://robocensus.com/robots/maxtronics-nao6/",
+   "image": {
+    "status": "photo",
+    "url": "https://robocensus.com/robots/maxtronics-nao6.webp",
+    "credit": {
+     "author": "Philippe Dureuil (via Softbank Robotics Europe)",
+     "license": "CC BY-SA 4.0",
+     "source_url": "https://commons.wikimedia.org/wiki/File:NAO_Robot_.jpg"
+    }
+   },
+   "sources": {
+    "s1": {
+     "url": "https://maxtronics.com/en/nao6/",
+     "last_verified": "2026-11-05"
+    },
+    "s2": {
+     "url": "https://maxtronics.com/wp-content/uploads/nao-v6-datasheet-en-20260605-maxtronics_v5.pdf",
+     "last_verified": "2026-11-05"
+    }
+   },
+   "provenance": {
+    "name": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "maker": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "specs.height_cm": {
+     "source": "s2",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "specs.weight_kg": {
+     "source": "s2",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "specs.degrees_of_freedom": {
+     "source": "s2",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "specs.hands": {
+     "source": "s2",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "specs.ip_rating": {
+     "source": "s2",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "specs.battery_runtime_hr_range": {
+     "source": "s2",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "product_url": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    }
+   }
+  },
+  {
+   "slug": "1x-neo",
+   "name": "NEO",
+   "maker": "1X Technologies",
+   "category": "humanoid",
+   "locomotion": "legged",
+   "status": "commercial",
+   "release_date": null,
+   "price": {
+    "amount": 20000,
+    "currency": "USD",
+    "date": "2026-11-05"
+   },
+   "specs": {
+    "height_cm": 167.6,
+    "weight_kg": 29.9,
+    "payload_kg": 24.9,
+    "battery_runtime_hr": 4,
+    "max_speed_kmh": 5,
+    "hands": "22-DoF dexterous hand (x2), IP68 submersible-rated",
+    "max_speed_kmh_qualifier": "walking",
+    "max_running_speed_kmh": 22.3,
+    "max_running_speed_kmh_qualifier": "running",
+    "arm_payload_kg": 8.2,
+    "lift_capacity_kg": 69.9,
+    "subscription": "$499/mo, ships later (separate from the $20,000 purchase price)",
+    "deposit": "$200, credited toward the $20,000 purchase price"
+   },
+   "product_url": "https://www.1x.tech/neo",
+   "links": {
+    "video": null,
+    "docs": null,
+    "price_source": "https://www.1x.tech/discover/neo-home-robot"
+   },
+   "canonical_url": "https://robocensus.com/robots/1x-neo/",
+   "image": {
+    "status": "glyph",
+    "url": null,
+    "credit": null
+   },
+   "sources": {
+    "s1": {
+     "url": "https://www.1x.tech/neo",
+     "last_verified": "2026-11-05"
+    },
+    "s2": {
+     "url": "https://www.1x.tech/discover/neo-home-robot",
+     "last_verified": "2026-11-05"
+    }
+   },
+   "provenance": {
+    "name": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "maker": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "status": {
+     "source": "s2",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "price.amount": {
+     "source": "s2",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "price.currency": {
+     "source": "s2",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "price.date": {
+     "source": "s2",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "specs.height_cm": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "specs.weight_kg": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "specs.payload_kg": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "specs.battery_runtime_hr": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "specs.max_speed_kmh": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "specs.max_speed_kmh_qualifier": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "specs.max_running_speed_kmh": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "specs.max_running_speed_kmh_qualifier": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "specs.arm_payload_kg": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "specs.lift_capacity_kg": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "specs.hands": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "specs.subscription": {
+     "source": "s2",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "product_url": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "links.price_source": {
+     "source": "s2",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    }
+   }
+  },
+  {
+   "slug": "limx-oli",
+   "name": "Oli",
+   "maker": "LimX Dynamics",
+   "category": "humanoid",
+   "locomotion": "legged",
+   "status": "commercial",
+   "release_date": null,
+   "price": {
+    "amount": null,
+    "currency": null,
+    "date": null
+   },
+   "specs": {
+    "height_cm": 165,
+    "weight_kg": 55,
+    "payload_kg": 3,
+    "battery_runtime_hr": 1.5,
+    "max_speed_kmh": 5,
+    "degrees_of_freedom": 31,
+    "models": "Oli EDU; 31 body DoF; parallel 2-finger gripper (1 DoF) standard; 5-finger dexterous hand (6 DoF) and self-developed 2-finger (1 DoF) and 3-finger (4 DoF) grippers optional",
+    "weight_kg_qualifier": "maximum",
+    "max_joint_torque_nm": 150
+   },
+   "product_url": "https://www.limxdynamics.com/en/products/oli",
+   "links": {
+    "video": null,
+    "docs": null,
+    "price_source": null
+   },
+   "canonical_url": "https://robocensus.com/robots/limx-oli/",
+   "image": {
+    "status": "glyph",
+    "url": null,
+    "credit": null
+   },
+   "sources": {
+    "s1": {
+     "url": "https://www.limxdynamics.com/en/products/oli",
+     "last_verified": "2026-11-05"
+    },
+    "s2": {
+     "url": "https://www.limxdynamics.com/en/products/oli/spec",
+     "last_verified": "2026-11-06"
+    }
+   },
+   "provenance": {
+    "name": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "maker": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "specs.height_cm": {
+     "source": "s2",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "specs.weight_kg": {
+     "source": "s2",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "specs.weight_kg_qualifier": {
+     "source": "s2",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "specs.payload_kg": {
+     "source": "s2",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "specs.battery_runtime_hr": {
+     "source": "s2",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "specs.max_speed_kmh": {
+     "source": "s2",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "specs.degrees_of_freedom": {
+     "source": "s2",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "specs.max_joint_torque_nm": {
+     "source": "s2",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "specs.models": {
+     "source": "s2",
+     "changed": "2026-11-06",
+     "verification": "verified"
+    },
+    "product_url": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    }
+   }
+  },
+  {
+   "slug": "robotis-op3",
+   "name": "OP3",
+   "maker": "ROBOTIS",
+   "category": "humanoid",
+   "locomotion": "legged",
+   "status": "discontinued",
+   "release_date": null,
+   "price": {
+    "amount": null,
+    "currency": null,
+    "date": null
+   },
+   "specs": {
+    "height_cm": 51,
+    "weight_kg": 3.5,
+    "battery_runtime_hr": 0.5,
+    "degrees_of_freedom": 20
+   },
+   "product_url": "https://emanual.robotis.com/docs/en/platform/op3/introduction/",
+   "links": {
+    "video": null,
+    "docs": null,
+    "price_source": null
+   },
+   "canonical_url": "https://robocensus.com/robots/robotis-op3/",
+   "image": {
+    "status": "glyph",
+    "url": null,
+    "credit": null
+   },
+   "sources": {
+    "s1": {
+     "url": "https://emanual.robotis.com/docs/en/platform/op3/introduction/",
+     "last_verified": "2026-11-05"
+    },
+    "s2": {
+     "url": "https://docs.robotis.com/docs/systems/op3/introduction/",
+     "last_verified": "2026-11-05"
+    }
+   },
+   "provenance": {
+    "name": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "maker": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "specs.height_cm": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "specs.weight_kg": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "specs.degrees_of_freedom": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "product_url": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "status": {
+     "source_note": "ROBOTIS, direct email",
+     "changed": "2026-11-05",
+     "verification": "first_party_private"
+    }
+   }
+  },
+  {
+   "slug": "tesla-optimus",
+   "name": "Optimus",
+   "maker": "Tesla",
+   "category": "humanoid",
+   "locomotion": "legged",
+   "status": "prototype",
+   "release_date": null,
+   "price": {
+    "amount": null,
+    "currency": null,
+    "date": null
+   },
+   "specs": {
+    "height_cm": 173,
+    "weight_kg": 57,
+    "hands": "5-finger, 22-DoF"
+   },
+   "product_url": "https://www.tesla.com/AI",
+   "links": {
+    "video": "https://www.youtube.com/watch?v=cpraXaw7dyc",
+    "docs": null,
+    "price_source": null
+   },
+   "canonical_url": "https://robocensus.com/robots/tesla-optimus/",
+   "image": {
+    "status": "glyph",
+    "url": null,
+    "credit": null
+   },
+   "sources": {
+    "s1": {
+     "url": "https://www.youtube.com/watch?v=cpraXaw7dyc",
+     "last_verified": "2026-11-05"
+    }
+   },
+   "provenance": {
+    "name": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "maker": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "status": {
+     "source_note": "Wikipedia",
+     "changed": "2026-11-05",
+     "verification": "unverifiable"
+    },
+    "specs.height_cm": {
+     "source_note": "Wikipedia",
+     "changed": "2026-11-05",
+     "verification": "unverifiable"
+    },
+    "specs.weight_kg": {
+     "source_note": "Wikipedia",
+     "changed": "2026-11-05",
+     "verification": "unverifiable"
+    },
+    "links.video": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "specs.hands": {
+     "source_note": "Wikipedia",
+     "changed": "2026-11-05",
+     "verification": "unverifiable"
+    }
+   }
+  },
+  {
+   "slug": "engineai-pm01",
+   "name": "PM01",
+   "maker": "EngineAI",
+   "category": "humanoid",
+   "locomotion": "legged",
+   "status": "commercial",
+   "release_date": null,
+   "price": {
+    "amount": null,
+    "currency": null,
+    "date": null
+   },
+   "specs": {
+    "height_cm": 140,
+    "weight_kg": 44,
+    "battery_runtime_hr": 2,
+    "max_speed_kmh": 7.2,
+    "degrees_of_freedom": 24,
+    "configuration": "2026 Education Edition",
+    "max_speed_kmh_qualifier": "minimum"
+   },
+   "product_url": "https://en.engineai.com.cn/product-pm01.html",
+   "links": {
+    "video": null,
+    "docs": null,
+    "price_source": null
+   },
+   "canonical_url": "https://robocensus.com/robots/engineai-pm01/",
+   "image": {
+    "status": "glyph",
+    "url": null,
+    "credit": null
+   },
+   "sources": {
+    "s1": {
+     "url": "https://en.engineai.com.cn/product-pm01.html",
+     "last_verified": "2026-11-05"
+    }
+   },
+   "provenance": {
+    "name": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "maker": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "specs.height_cm": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "specs.weight_kg": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "specs.battery_runtime_hr": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "specs.max_speed_kmh": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "specs.max_speed_kmh_qualifier": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "specs.configuration": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "specs.degrees_of_freedom": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "product_url": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    }
+   }
+  },
+  {
+   "slug": "unitree-r1",
+   "name": "R1",
+   "maker": "Unitree",
+   "category": "humanoid",
+   "locomotion": "legged",
+   "status": "commercial",
+   "release_date": null,
+   "price": {
+    "amount": 5900,
+    "currency": "USD",
+    "date": "2026-11-07"
+   },
+   "specs": {
+    "height_cm": 123,
+    "weight_kg": 29,
+    "battery_runtime_hr": 1,
+    "degrees_of_freedom": 26,
+    "hands": "None standard (no dexterous hand option on base R1; available only on R1 EDU)",
+    "configuration": "Base"
+   },
+   "product_url": "https://www.unitree.com/R1/",
+   "links": {
+    "video": null,
+    "docs": null,
+    "price_source": "https://www.unitree.com/R1/"
+   },
+   "canonical_url": "https://robocensus.com/robots/unitree-r1/",
+   "image": {
+    "status": "glyph",
+    "url": null,
+    "credit": null
+   },
+   "sources": {
+    "s1": {
+     "url": "https://www.unitree.com/R1/",
+     "last_verified": "2026-11-07"
+    }
+   },
+   "provenance": {
+    "name": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "maker": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "price.amount": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "price.currency": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "price.date": {
+     "source": "s1",
+     "changed": "2026-11-07",
+     "verification": "verified"
+    },
+    "links.price_source": {
+     "source": "s1",
+     "changed": "2026-11-07",
+     "verification": "verified"
+    },
+    "specs.height_cm": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "specs.weight_kg": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "specs.battery_runtime_hr": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "specs.degrees_of_freedom": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "specs.hands": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "product_url": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    }
+   }
+  },
+  {
+   "slug": "engineai-se01",
+   "name": "SE01",
+   "maker": "EngineAI",
+   "category": "humanoid",
+   "locomotion": "legged",
+   "status": "pilot",
+   "release_date": null,
+   "price": {
+    "amount": null,
+    "currency": null,
+    "date": null
+   },
+   "specs": {
+    "hands": "Bionic five-finger dexterous hand (6 DoF)"
+   },
+   "product_url": "https://en.engineai.com.cn/product-se01.html",
+   "links": {
+    "video": null,
+    "docs": null,
+    "price_source": null
+   },
+   "canonical_url": "https://robocensus.com/robots/engineai-se01/",
+   "image": {
+    "status": "glyph",
+    "url": null,
+    "credit": null
+   },
+   "sources": {
+    "s1": {
+     "url": "https://en.engineai.com.cn/product-se01.html",
+     "last_verified": "2026-11-06"
+    }
+   },
+   "provenance": {
+    "name": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "maker": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "specs.hands": {
+     "source": "s1",
+     "changed": "2026-11-06",
+     "verification": "verified"
+    },
+    "product_url": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    }
+   }
+  },
+  {
+   "slug": "fauna-sprout",
+   "name": "Sprout",
+   "maker": "Fauna Robotics",
+   "category": "humanoid",
+   "locomotion": "legged",
+   "status": "commercial",
+   "release_date": null,
+   "price": {
+    "amount": null,
+    "currency": null,
+    "date": null
+   },
+   "specs": {
+    "height_cm": 107,
+    "weight_kg": 22.7,
+    "degrees_of_freedom": 29,
+    "hands": "Robust and durable 1 DoF grippers",
+    "models": "Creator Edition (the only edition named on the product page)",
+    "battery_runtime_hr_range": "3-3.5 hr",
+    "compute": "NVIDIA Jetson AGX Orin 64GB"
+   },
+   "product_url": "https://faunarobotics.com/product",
+   "links": {
+    "video": null,
+    "docs": null,
+    "price_source": null
+   },
+   "canonical_url": "https://robocensus.com/robots/fauna-sprout/",
+   "image": {
+    "status": "glyph",
+    "url": null,
+    "credit": null
+   },
+   "sources": {
+    "s1": {
+     "url": "https://faunarobotics.com/product",
+     "last_verified": "2026-11-05"
+    },
+    "s2": {
+     "url": "https://faunarobotics.com/",
+     "last_verified": "2026-11-05"
+    }
+   },
+   "provenance": {
+    "name": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "maker": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "status": {
+     "source": "s2",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "specs.models": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "specs.height_cm": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "specs.weight_kg": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "specs.degrees_of_freedom": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "specs.battery_runtime_hr_range": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "specs.hands": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "specs.compute": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "product_url": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    }
+   }
+  },
+  {
+   "slug": "booster-t1",
+   "name": "T1",
+   "maker": "Booster Robotics",
+   "category": "humanoid",
+   "locomotion": "legged",
+   "status": "commercial",
+   "release_date": null,
+   "price": {
+    "amount": null,
+    "currency": null,
+    "date": null
+   },
+   "specs": {
+    "weight_kg": 30,
+    "battery_runtime_hr": 2,
+    "degrees_of_freedom": 23,
+    "dimensions_mm": "1180 x 470 x 230",
+    "battery_runtime_hr_qualifier": "walking",
+    "battery_standing_hr": 4
+   },
+   "product_url": "https://www.booster.tech/booster-t1",
+   "links": {
+    "video": null,
+    "docs": null,
+    "price_source": null
+   },
+   "canonical_url": "https://robocensus.com/robots/booster-t1/",
+   "image": {
+    "status": "glyph",
+    "url": null,
+    "credit": null
+   },
+   "sources": {
+    "s1": {
+     "url": "https://web.archive.org/web/20260914015013/https://www.booster.tech/booster-t1/",
+     "last_verified": "2026-09-14"
+    }
+   },
+   "provenance": {
+    "name": {
+     "source": "s1",
+     "changed": "2026-09-14",
+     "verification": "verified"
+    },
+    "maker": {
+     "source": "s1",
+     "changed": "2026-09-14",
+     "verification": "verified"
+    },
+    "specs.weight_kg": {
+     "source": "s1",
+     "changed": "2026-09-14",
+     "verification": "verified"
+    },
+    "specs.battery_runtime_hr": {
+     "source": "s1",
+     "changed": "2026-09-14",
+     "verification": "verified"
+    },
+    "specs.battery_runtime_hr_qualifier": {
+     "source": "s1",
+     "changed": "2026-09-14",
+     "verification": "verified"
+    },
+    "specs.degrees_of_freedom": {
+     "source": "s1",
+     "changed": "2026-09-14",
+     "verification": "verified"
+    },
+    "specs.dimensions_mm": {
+     "source": "s1",
+     "changed": "2026-09-14",
+     "verification": "verified"
+    },
+    "specs.battery_standing_hr": {
+     "source": "s1",
+     "changed": "2026-09-14",
+     "verification": "verified"
+    }
+   }
+  },
+  {
+   "slug": "booster-t2",
+   "name": "T2",
+   "maker": "Booster Robotics",
+   "category": "humanoid",
+   "locomotion": "legged",
+   "status": "commercial",
+   "release_date": null,
+   "price": {
+    "amount": null,
+    "currency": null,
+    "date": null
+   },
+   "specs": {
+    "height_cm": 140,
+    "weight_kg": 42,
+    "payload_kg": 10,
+    "battery_runtime_hr": 2,
+    "max_speed_kmh": 10.8,
+    "degrees_of_freedom": 31,
+    "hands": "None standard (optional end-effector, compatible with dexterous hands and grippers)",
+    "models": "Education / Professional — Professional adds NVIDIA Jetson Thor T5000 compute (vs. Education's base high-performance ARM processor); all other specs identical",
+    "max_speed_kmh_qualifier": "walking",
+    "battery_runtime_hr_qualifier": "walking"
+   },
+   "product_url": "https://www.booster.tech/booster-t2/",
+   "links": {
+    "video": null,
+    "docs": null,
+    "price_source": null
+   },
+   "canonical_url": "https://robocensus.com/robots/booster-t2/",
+   "image": {
+    "status": "glyph",
+    "url": null,
+    "credit": null
+   },
+   "sources": {
+    "s1": {
+     "url": "https://www.booster.tech/booster-t2/?target=en",
+     "last_verified": "2026-11-06"
+    }
+   },
+   "provenance": {
+    "name": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "maker": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "specs.height_cm": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "specs.weight_kg": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "specs.payload_kg": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "specs.battery_runtime_hr": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "specs.max_speed_kmh": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "specs.max_speed_kmh_qualifier": {
+     "source": "s1",
+     "changed": "2026-11-06",
+     "verification": "verified"
+    },
+    "specs.battery_runtime_hr_qualifier": {
+     "source": "s1",
+     "changed": "2026-11-06",
+     "verification": "verified"
+    },
+    "specs.degrees_of_freedom": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "specs.hands": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "specs.models": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "product_url": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    }
+   }
+  },
+  {
+   "slug": "engineai-t800",
+   "name": "T800",
+   "maker": "EngineAI",
+   "category": "humanoid",
+   "locomotion": "legged",
+   "status": "commercial",
+   "release_date": null,
+   "price": {
+    "amount": null,
+    "currency": null,
+    "date": null
+   },
+   "specs": {
+    "height_cm": 173,
+    "max_speed_kmh": 7.2,
+    "degrees_of_freedom": 25,
+    "models": "Basic / Open Source / Pro / Max. Same 173 cm body and 75-85 kg range; total DoF (joint motors) 25 / 25 / 29+14 hand = 43 / 32+14 hand = 46; dexterous hands (7 DoF each) on Pro/Max only; compute Orin NX 16G (Basic) vs AGX Orin 64G (Open Source/Pro/Max); 3D LiDAR on Open Source/Pro/Max, not Basic",
+    "configuration": "Basic",
+    "weight_kg_range": "75-85 kg",
+    "max_speed_kmh_qualifier": "minimum",
+    "battery_runtime_hr_range": "3-5 hr",
+    "max_joint_torque_nm": 450
+   },
+   "product_url": "https://en.engineai.com.cn/product-t800.html",
+   "links": {
+    "video": null,
+    "docs": null,
+    "price_source": null
+   },
+   "canonical_url": "https://robocensus.com/robots/engineai-t800/",
+   "image": {
+    "status": "glyph",
+    "url": null,
+    "credit": null
+   },
+   "sources": {
+    "s1": {
+     "url": "https://en.engineai.com.cn/product-t800.html",
+     "last_verified": "2026-11-06"
+    }
+   },
+   "provenance": {
+    "name": {
+     "source": "s1",
+     "changed": "2026-11-06",
+     "verification": "verified"
+    },
+    "maker": {
+     "source": "s1",
+     "changed": "2026-11-06",
+     "verification": "verified"
+    },
+    "specs.configuration": {
+     "source": "s1",
+     "changed": "2026-11-06",
+     "verification": "verified"
+    },
+    "specs.models": {
+     "source": "s1",
+     "changed": "2026-11-06",
+     "verification": "verified"
+    },
+    "specs.height_cm": {
+     "source": "s1",
+     "changed": "2026-11-06",
+     "verification": "verified"
+    },
+    "specs.weight_kg_range": {
+     "source": "s1",
+     "changed": "2026-11-06",
+     "verification": "verified"
+    },
+    "specs.degrees_of_freedom": {
+     "source": "s1",
+     "changed": "2026-11-06",
+     "verification": "verified"
+    },
+    "specs.max_speed_kmh": {
+     "source": "s1",
+     "changed": "2026-11-06",
+     "verification": "verified"
+    },
+    "specs.max_speed_kmh_qualifier": {
+     "source": "s1",
+     "changed": "2026-11-06",
+     "verification": "verified"
+    },
+    "specs.battery_runtime_hr_range": {
+     "source": "s1",
+     "changed": "2026-11-06",
+     "verification": "verified"
+    },
+    "specs.max_joint_torque_nm": {
+     "source": "s1",
+     "changed": "2026-11-06",
+     "verification": "verified"
+    },
+    "product_url": {
+     "source": "s1",
+     "changed": "2026-11-06",
+     "verification": "verified"
+    }
+   }
+  },
+  {
+   "slug": "westwood-robotics-themis",
+   "name": "THEMIS",
+   "maker": "Westwood Robotics",
+   "category": "humanoid",
+   "locomotion": "legged",
+   "status": "pilot",
+   "release_date": null,
+   "price": {
+    "amount": null,
+    "currency": null,
+    "date": null
+   },
+   "specs": {
+    "height_cm": 160,
+    "weight_kg": 36.5,
+    "payload_kg": 15,
+    "battery_runtime_hr": 2,
+    "max_speed_kmh": 5,
+    "degrees_of_freedom": 42,
+    "hands": "Three-finger adaptive hands, 7 DoF each, with force control",
+    "models": "THEMIS TH02 Gen2.5, one standard configuration. Available upgrades are a 302Wh extended-range battery (endurance up to 180 min), liquid cooling on the hip and knee actuators, GPS, and a 1TB or 2TB SSD",
+    "battery_runtime_hr_qualifier": "maximum",
+    "max_speed_kmh_qualifier": "walking",
+    "compute": "AMD Ryzen 7840HS main computer; NVIDIA Jetson Orin NX 16GB for head vision (ZED 2i stereo); optional body vision unit with a second Jetson Orin NX"
+   },
+   "product_url": "https://www.westwoodrobotics.io/themis/",
+   "links": {
+    "video": "https://www.youtube.com/watch?v=8hAt3ILlJrk",
+    "docs": null,
+    "price_source": null
+   },
+   "canonical_url": "https://robocensus.com/robots/westwood-robotics-themis/",
+   "image": {
+    "status": "glyph",
+    "url": null,
+    "credit": null
+   },
+   "sources": {},
+   "provenance": {}
+  },
+  {
+   "slug": "x-humanoid-tiangong",
+   "name": "Tiangong",
+   "maker": "X-Humanoid (Beijing Humanoid Robot Innovation Center)",
+   "category": "humanoid",
+   "locomotion": "legged",
+   "status": "pilot",
+   "release_date": "2024-04-27",
+   "price": {
+    "amount": null,
+    "currency": null,
+    "date": null
+   },
+   "specs": {
+    "height_cm": 163,
+    "weight_kg": 43,
+    "max_speed_kmh": 6,
+    "max_speed_kmh_qualifier": "running"
+   },
+   "product_url": "https://www.x-humanoid.com/detail/jstg.html",
+   "links": {
+    "video": null,
+    "docs": null,
+    "price_source": null
+   },
+   "canonical_url": "https://robocensus.com/robots/x-humanoid-tiangong/",
+   "image": {
+    "status": "glyph",
+    "url": null,
+    "credit": null
+   },
+   "sources": {
+    "s1": {
+     "url": "https://www.x-humanoid.com/en",
+     "last_verified": "2026-11-05"
+    },
+    "s2": {
+     "url": "https://www.x-humanoid.com/news-view-4.html",
+     "last_verified": "2026-11-05"
+    }
+   },
+   "provenance": {
+    "name": {
+     "source": "s2",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "maker": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "release_date": {
+     "source": "s2",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "specs.height_cm": {
+     "source": "s2",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "specs.weight_kg": {
+     "source": "s2",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "specs.max_speed_kmh": {
+     "source": "s2",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "specs.max_speed_kmh_qualifier": {
+     "source": "s2",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    }
+   }
+  },
+  {
+   "slug": "hiwonder-tonybot",
+   "name": "Tonybot",
+   "maker": "Hiwonder",
+   "category": "humanoid",
+   "locomotion": "legged",
+   "status": "commercial",
+   "release_date": null,
+   "price": {
+    "amount": 519.99,
+    "currency": "USD",
+    "date": "2026-11-05"
+   },
+   "specs": {
+    "weight_kg": 1.8,
+    "degrees_of_freedom": 17,
+    "models": "Tonybot standard kit / advanced kit / Ultimate kit (page's package selector; per-kit contents not compared here)",
+    "dimensions_mm": "383 x 190 x 105",
+    "battery": "11.1V 2000mAh 10C lithium"
+   },
+   "product_url": "https://www.hiwonder.com/products/tonybot",
+   "links": {
+    "video": null,
+    "docs": null,
+    "price_source": null
+   },
+   "canonical_url": "https://robocensus.com/robots/hiwonder-tonybot/",
+   "image": {
+    "status": "glyph",
+    "url": null,
+    "credit": null
+   },
+   "sources": {
+    "s1": {
+     "url": "https://www.hiwonder.com/products/tonybot",
+     "last_verified": "2026-11-05"
+    }
+   },
+   "provenance": {
+    "name": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "maker": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "price.amount": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "price.currency": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "price.date": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "specs.models": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "specs.dimensions_mm": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "specs.weight_kg": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "specs.degrees_of_freedom": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "specs.battery": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "product_url": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    }
+   }
+  },
+  {
+   "slug": "hiwonder-tonypi",
+   "name": "TonyPi",
+   "maker": "Hiwonder",
+   "category": "humanoid",
+   "locomotion": "legged",
+   "status": "commercial",
+   "release_date": null,
+   "price": {
+    "amount": 599.99,
+    "currency": "USD",
+    "date": "2026-11-05"
+   },
+   "specs": {
+    "weight_kg": 1.8,
+    "battery_runtime_hr": 1,
+    "degrees_of_freedom": 18,
+    "models": "TonyPi Standard Kit / Advanced Kit (18 DOF); Raspberry Pi 4B (4GB) or Pi 5 (2/4/8GB) controller. The spec table also lists 20 DOF for a \"Pro Kit\"",
+    "dimensions_mm": "373 x 186 x 106",
+    "battery": "11.1V 2000mAh 10C lithium"
+   },
+   "product_url": "https://www.hiwonder.com/products/tonypi",
+   "links": {
+    "video": null,
+    "docs": null,
+    "price_source": null
+   },
+   "canonical_url": "https://robocensus.com/robots/hiwonder-tonypi/",
+   "image": {
+    "status": "glyph",
+    "url": null,
+    "credit": null
+   },
+   "sources": {
+    "s1": {
+     "url": "https://www.hiwonder.com/products/tonypi",
+     "last_verified": "2026-11-05"
+    }
+   },
+   "provenance": {
+    "name": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "maker": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "price.amount": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "price.currency": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "price.date": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "specs.models": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "specs.dimensions_mm": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "specs.weight_kg": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "specs.degrees_of_freedom": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "specs.battery_runtime_hr": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "specs.battery": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "product_url": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    }
+   }
+  },
+  {
+   "slug": "ubtech-walker-s1",
+   "name": "Walker S1",
+   "maker": "UBTech",
+   "category": "humanoid",
+   "locomotion": "legged",
+   "status": "commercial",
+   "release_date": null,
+   "price": {
+    "amount": null,
+    "currency": null,
+    "date": null
+   },
+   "specs": {
+    "height_cm": 172,
+    "weight_kg": 76,
+    "payload_kg": 15,
+    "max_joint_torque_nm": 250
+   },
+   "product_url": "https://www.ubtrobot.com/en/humanoid/products/walker-s1",
+   "links": {
+    "video": null,
+    "docs": null,
+    "price_source": null
+   },
+   "canonical_url": "https://robocensus.com/robots/ubtech-walker-s1/",
+   "image": {
+    "status": "glyph",
+    "url": null,
+    "credit": null
+   },
+   "sources": {
+    "s1": {
+     "url": "https://www.ubtrobot.com/en/humanoid/products/walker-s1",
+     "last_verified": "2026-11-05"
+    }
+   },
+   "provenance": {
+    "name": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "maker": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "product_url": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    }
+   }
+  },
+  {
+   "slug": "ubtech-walker-s2",
+   "name": "Walker S2",
+   "maker": "UBTech",
+   "category": "humanoid",
+   "locomotion": "legged",
+   "status": "commercial",
+   "release_date": null,
+   "price": {
+    "amount": null,
+    "currency": null,
+    "date": null
+   },
+   "specs": {
+    "payload_kg": 15,
+    "battery_swap_time": "3 min (autonomous)"
+   },
+   "product_url": "https://www.ubtrobot.com/en/humanoid/products/walker-s2",
+   "links": {
+    "video": null,
+    "docs": null,
+    "price_source": null
+   },
+   "canonical_url": "https://robocensus.com/robots/ubtech-walker-s2/",
+   "image": {
+    "status": "glyph",
+    "url": null,
+    "credit": null
+   },
+   "sources": {
+    "s1": {
+     "url": "https://www.ubtrobot.com/en/humanoid/products/walker-s2",
+     "last_verified": "2026-11-05"
+    }
+   },
+   "provenance": {
+    "name": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "status": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "maker": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "specs.payload_kg": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "specs.battery_swap_time": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "product_url": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    }
+   }
+  },
+  {
+   "slug": "ubtech-walker-x",
+   "name": "Walker X",
+   "maker": "UBTech",
+   "category": "humanoid",
+   "locomotion": "legged",
+   "status": "commercial",
+   "release_date": null,
+   "price": {
+    "amount": null,
+    "currency": null,
+    "date": null
+   },
+   "specs": {
+    "height_cm": 130,
+    "weight_kg": 63,
+    "payload_kg": 1.5,
+    "battery_runtime_hr": 2,
+    "max_speed_kmh": 3,
+    "degrees_of_freedom": 41,
+    "max_speed_kmh_qualifier": "walking",
+    "max_climbing_slope_deg": 20,
+    "stair_climb_height_cm": 15
+   },
+   "product_url": "https://www.ubtrobot.com/en/humanoid/products/walker-x",
+   "links": {
+    "video": null,
+    "docs": null,
+    "price_source": null
+   },
+   "canonical_url": "https://robocensus.com/robots/ubtech-walker-x/",
+   "image": {
+    "status": "glyph",
+    "url": null,
+    "credit": null
+   },
+   "sources": {
+    "s1": {
+     "url": "https://www.ubtrobot.com/en/humanoid/products/walker-x",
+     "last_verified": "2026-11-06"
+    }
+   },
+   "provenance": {
+    "name": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "maker": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "specs.height_cm": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "specs.weight_kg": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "specs.payload_kg": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "specs.battery_runtime_hr": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "specs.max_speed_kmh": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "specs.max_speed_kmh_qualifier": {
+     "source": "s1",
+     "changed": "2026-11-06",
+     "verification": "verified"
+    },
+    "specs.degrees_of_freedom": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "specs.max_climbing_slope_deg": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "specs.stair_climb_height_cm": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "product_url": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    }
+   }
+  },
+  {
+   "slug": "agibot-x1",
+   "name": "X1",
+   "maker": "AgiBot",
+   "category": "humanoid",
+   "locomotion": "legged",
+   "status": "commercial",
+   "release_date": null,
+   "price": {
+    "amount": null,
+    "currency": null,
+    "date": null
+   },
+   "specs": {
+    "height_cm": 130,
+    "weight_kg": 33,
+    "payload_kg": 0.5,
+    "battery_runtime_hr": 2,
+    "max_speed_kmh": 3.6,
+    "degrees_of_freedom": 34,
+    "hands": "OmniPicker adaptive gripper (not a multi-finger dexterous hand), max clamping force 30N",
+    "max_speed_kmh_qualifier": "walking"
+   },
+   "product_url": "https://www.agibot.com/products/X1",
+   "links": {
+    "video": null,
+    "docs": null,
+    "price_source": null
+   },
+   "canonical_url": "https://robocensus.com/robots/agibot-x1/",
+   "image": {
+    "status": "glyph",
+    "url": null,
+    "credit": null
+   },
+   "sources": {
+    "s1": {
+     "url": "https://www.agibot.com/products/X1",
+     "last_verified": "2026-11-06"
+    }
+   },
+   "provenance": {
+    "name": {
+     "source": "s1",
+     "changed": "2026-11-06",
+     "verification": "verified"
+    },
+    "maker": {
+     "source": "s1",
+     "changed": "2026-11-06",
+     "verification": "verified"
+    },
+    "specs.height_cm": {
+     "source": "s1",
+     "changed": "2026-11-06",
+     "verification": "verified"
+    },
+    "specs.weight_kg": {
+     "source": "s1",
+     "changed": "2026-11-06",
+     "verification": "verified"
+    },
+    "specs.payload_kg": {
+     "source": "s1",
+     "changed": "2026-11-06",
+     "verification": "verified"
+    },
+    "specs.battery_runtime_hr": {
+     "source": "s1",
+     "changed": "2026-11-06",
+     "verification": "verified"
+    },
+    "specs.max_speed_kmh": {
+     "source": "s1",
+     "changed": "2026-11-06",
+     "verification": "verified"
+    },
+    "specs.max_speed_kmh_qualifier": {
+     "source": "s1",
+     "changed": "2026-11-06",
+     "verification": "verified"
+    },
+    "specs.degrees_of_freedom": {
+     "source": "s1",
+     "changed": "2026-11-06",
+     "verification": "verified"
+    },
+    "specs.hands": {
+     "source": "s1",
+     "changed": "2026-11-06",
+     "verification": "verified"
+    },
+    "product_url": {
+     "source": "s1",
+     "changed": "2026-11-06",
+     "verification": "verified"
+    }
+   }
+  },
+  {
+   "slug": "agibot-x2",
+   "name": "X2",
+   "maker": "AgiBot",
+   "category": "humanoid",
+   "locomotion": "legged",
+   "status": "commercial",
+   "release_date": null,
+   "price": {
+    "amount": 24240,
+    "currency": "USD",
+    "date": "2026-09-19"
+   },
+   "specs": {
+    "height_cm": 131,
+    "weight_kg": 35,
+    "payload_kg": 3,
+    "battery_runtime_hr": 2,
+    "max_speed_kmh": 6.5,
+    "degrees_of_freedom": 25,
+    "models": "X2 / X2 Ultra — X2 Ultra adds 5 DoF (30 total vs X2's 25 — +1 neck, +2 per arm), a 3D LiDAR + RGB-D camera, an Orin NX (157 TOPS) high-performance compute board, and secondary-development support; X2 Ultra is ~39kg vs X2's ~35kg",
+    "battery_runtime_hr_qualifier": "walking",
+    "max_speed_kmh_qualifier": "walking"
+   },
+   "product_url": "https://www.agibot.com/products/X2",
+   "links": {
+    "video": null,
+    "docs": null,
+    "price_source": "https://store.agibot.com/products/x2"
+   },
+   "canonical_url": "https://robocensus.com/robots/agibot-x2/",
+   "image": {
+    "status": "photo",
+    "url": "https://robocensus.com/robots/agibot-x2.webp",
+    "credit": {
+     "author": "JJxFile",
+     "license": "CC BY 4.0",
+     "source_url": "https://commons.wikimedia.org/wiki/File:AGIBOT-X2-_by_JxFile_MWC26.jpg"
+    }
+   },
+   "sources": {
+    "s1": {
+     "url": "https://www.agibot.com/products/X2",
+     "last_verified": "2026-11-06"
+    }
+   },
+   "provenance": {
+    "name": {
+     "source": "s1",
+     "changed": "2026-11-06",
+     "verification": "verified"
+    },
+    "maker": {
+     "source": "s1",
+     "changed": "2026-11-06",
+     "verification": "verified"
+    },
+    "specs.height_cm": {
+     "source": "s1",
+     "changed": "2026-11-06",
+     "verification": "verified"
+    },
+    "specs.weight_kg": {
+     "source": "s1",
+     "changed": "2026-11-06",
+     "verification": "verified"
+    },
+    "specs.payload_kg": {
+     "source": "s1",
+     "changed": "2026-11-06",
+     "verification": "verified"
+    },
+    "specs.battery_runtime_hr": {
+     "source": "s1",
+     "changed": "2026-11-06",
+     "verification": "verified"
+    },
+    "specs.battery_runtime_hr_qualifier": {
+     "source": "s1",
+     "changed": "2026-11-06",
+     "verification": "verified"
+    },
+    "specs.max_speed_kmh": {
+     "source": "s1",
+     "changed": "2026-11-06",
+     "verification": "verified"
+    },
+    "specs.max_speed_kmh_qualifier": {
+     "source": "s1",
+     "changed": "2026-11-06",
+     "verification": "verified"
+    },
+    "specs.models": {
+     "source": "s1",
+     "changed": "2026-11-06",
+     "verification": "verified"
+    },
+    "specs.degrees_of_freedom": {
+     "source": "s1",
+     "changed": "2026-11-06",
+     "verification": "verified"
+    },
+    "product_url": {
+     "source": "s1",
+     "changed": "2026-11-06",
+     "verification": "verified"
+    }
+   }
+  },
+  {
+   "slug": "unitree-a2",
+   "name": "A2",
+   "maker": "Unitree",
+   "category": "quadruped",
+   "locomotion": "legged",
+   "status": "commercial",
+   "release_date": null,
+   "price": {
+    "amount": 100000,
+    "currency": "USD",
+    "date": "2026-09-04"
+   },
+   "specs": {
+    "height_cm": 57,
+    "weight_kg": 42,
+    "payload_kg": 25,
+    "battery_runtime_hr": 5,
+    "max_speed_kmh": 13.3,
+    "ip_rating": "IP56",
+    "max_standing_load_kg": 100,
+    "battery_runtime_hr_qualifier": "walking, minimum",
+    "degrees_of_freedom": 12
+   },
+   "product_url": "https://www.unitree.com/mobile/A2/",
+   "links": {
+    "video": null,
+    "docs": null,
+    "price_source": "https://shop.unitree.com/products/unitree-a2"
+   },
+   "canonical_url": "https://robocensus.com/robots/unitree-a2/",
+   "image": {
+    "status": "glyph",
+    "url": null,
+    "credit": null
+   },
+   "sources": {
+    "s1": {
+     "url": "https://www.unitree.com/mobile/A2/",
+     "last_verified": "2026-11-06"
+    }
+   },
+   "provenance": {
+    "name": {
+     "source": "s1",
+     "changed": "2026-11-06",
+     "verification": "verified"
+    },
+    "maker": {
+     "source": "s1",
+     "changed": "2026-11-06",
+     "verification": "verified"
+    },
+    "specs.height_cm": {
+     "source": "s1",
+     "changed": "2026-11-06",
+     "verification": "verified"
+    },
+    "specs.weight_kg": {
+     "source": "s1",
+     "changed": "2026-11-06",
+     "verification": "verified"
+    },
+    "specs.payload_kg": {
+     "source": "s1",
+     "changed": "2026-11-06",
+     "verification": "verified"
+    },
+    "specs.max_standing_load_kg": {
+     "source": "s1",
+     "changed": "2026-11-06",
+     "verification": "verified"
+    },
+    "specs.battery_runtime_hr": {
+     "source": "s1",
+     "changed": "2026-11-06",
+     "verification": "verified"
+    },
+    "specs.battery_runtime_hr_qualifier": {
+     "source": "s1",
+     "changed": "2026-11-06",
+     "verification": "verified"
+    },
+    "specs.max_speed_kmh": {
+     "source": "s1",
+     "changed": "2026-11-06",
+     "verification": "verified"
+    },
+    "specs.degrees_of_freedom": {
+     "source": "s1",
+     "changed": "2026-11-06",
+     "verification": "verified"
+    },
+    "specs.ip_rating": {
+     "source": "s1",
+     "changed": "2026-11-06",
+     "verification": "verified"
+    },
+    "product_url": {
+     "source": "s1",
+     "changed": "2026-11-06",
+     "verification": "verified"
+    }
+   }
+  },
+  {
+   "slug": "anybotics-anymal",
+   "name": "ANYmal",
+   "maker": "ANYbotics",
+   "category": "quadruped",
+   "locomotion": "legged",
+   "status": "commercial",
+   "release_date": null,
+   "price": {
+    "amount": null,
+    "currency": null,
+    "date": null
+   },
+   "specs": {
+    "payload_kg": 10,
+    "battery_runtime_hr": 1.5,
+    "max_speed_kmh": 2.7,
+    "ip_rating": "IP67",
+    "max_speed_kmh_qualifier": "walking"
+   },
+   "product_url": "https://www.anybotics.com/robotics/anymal/",
+   "links": {
+    "video": null,
+    "docs": null,
+    "price_source": null
+   },
+   "canonical_url": "https://robocensus.com/robots/anybotics-anymal/",
+   "image": {
+    "status": "photo",
+    "url": "https://robocensus.com/robots/anybotics-anymal.webp",
+    "credit": {
+     "author": "ANYbotics",
+     "license": "CC BY-SA 4.0",
+     "source_url": "https://commons.wikimedia.org/wiki/File:ANYbotics_robot_dog_ANYmal.jpg"
+    }
+   },
+   "sources": {},
+   "provenance": {}
+  },
+  {
+   "slug": "unitree-as2",
+   "name": "As2",
+   "maker": "Unitree",
+   "category": "quadruped",
+   "locomotion": "legged",
+   "status": "commercial",
+   "release_date": null,
+   "price": {
+    "amount": 4650,
+    "currency": "USD",
+    "date": "2026-10-06"
+   },
+   "specs": {
+    "height_cm": 45.7,
+    "weight_kg": 20,
+    "payload_kg": 13,
+    "battery_runtime_hr": 4,
+    "max_speed_kmh": 13.3,
+    "ip_rating": "IP54",
+    "models": "As2 AIR / PRO / X / EDU. Same body (720 x 378 x 457 mm standing, ~20 kg, 12 joint motors) across all four; they differ in max joint torque (~65 / ~75 / ~95 / ~95 N·m), unloaded runtime (~2 h / ~4 h / ~4 h / ~4 h), continuous walking load (~10 / ~13 / ~15 / ~15 kg), speed (0~3.0 / 0~3.7 / up to ~5 / up to ~5 m/s), IP rating (none stated / IP54 / IP54 / IP54), LiDAR (Unitree L2 on AIR; industrial 64~128-line on PRO/X/EDU), and warranty (6 / 12 / 12 / 12 months)",
+    "configuration": "Pro",
+    "degrees_of_freedom": 12,
+    "max_standing_load_kg": 55,
+    "battery_runtime_hr_qualifier": "walking",
+    "max_climbing_slope_deg": 40,
+    "stair_climb_height_cm": 25,
+    "stair_climb_height_cm_qualifier": "maximum"
+   },
+   "product_url": "https://www.unitree.com/As2",
+   "links": {
+    "video": null,
+    "docs": null,
+    "price_source": "https://shop.unitree.com/products/unitree-as2"
+   },
+   "canonical_url": "https://robocensus.com/robots/unitree-as2/",
+   "image": {
+    "status": "glyph",
+    "url": null,
+    "credit": null
+   },
+   "sources": {
+    "s1": {
+     "url": "https://www.unitree.com/As2",
+     "last_verified": "2026-11-06"
+    }
+   },
+   "provenance": {
+    "name": {
+     "source": "s1",
+     "changed": "2026-11-06",
+     "verification": "verified"
+    },
+    "maker": {
+     "source": "s1",
+     "changed": "2026-11-06",
+     "verification": "verified"
+    },
+    "specs.configuration": {
+     "source": "s1",
+     "changed": "2026-11-06",
+     "verification": "verified"
+    },
+    "specs.models": {
+     "source": "s1",
+     "changed": "2026-11-06",
+     "verification": "verified"
+    },
+    "specs.height_cm": {
+     "source": "s1",
+     "changed": "2026-11-06",
+     "verification": "verified"
+    },
+    "specs.weight_kg": {
+     "source": "s1",
+     "changed": "2026-11-06",
+     "verification": "verified"
+    },
+    "specs.degrees_of_freedom": {
+     "source": "s1",
+     "changed": "2026-11-06",
+     "verification": "verified"
+    },
+    "specs.payload_kg": {
+     "source": "s1",
+     "changed": "2026-11-06",
+     "verification": "verified"
+    },
+    "specs.max_standing_load_kg": {
+     "source": "s1",
+     "changed": "2026-11-06",
+     "verification": "verified"
+    },
+    "specs.battery_runtime_hr": {
+     "source": "s1",
+     "changed": "2026-11-06",
+     "verification": "verified"
+    },
+    "specs.battery_runtime_hr_qualifier": {
+     "source": "s1",
+     "changed": "2026-11-06",
+     "verification": "verified"
+    },
+    "specs.max_speed_kmh": {
+     "source": "s1",
+     "changed": "2026-11-06",
+     "verification": "verified"
+    },
+    "specs.ip_rating": {
+     "source": "s1",
+     "changed": "2026-11-06",
+     "verification": "verified"
+    },
+    "specs.max_climbing_slope_deg": {
+     "source": "s1",
+     "changed": "2026-11-06",
+     "verification": "verified"
+    },
+    "specs.stair_climb_height_cm": {
+     "source": "s1",
+     "changed": "2026-11-06",
+     "verification": "verified"
+    },
+    "specs.stair_climb_height_cm_qualifier": {
+     "source": "s1",
+     "changed": "2026-11-06",
+     "verification": "verified"
+    },
+    "product_url": {
+     "source": "s1",
+     "changed": "2026-11-06",
+     "verification": "verified"
+    }
+   }
+  },
+  {
+   "slug": "unitree-b2",
+   "name": "B2",
+   "maker": "Unitree",
+   "category": "quadruped",
+   "locomotion": "legged",
+   "status": "commercial",
+   "release_date": null,
+   "price": {
+    "amount": null,
+    "currency": null,
+    "date": null
+   },
+   "specs": {
+    "height_cm": 64.5,
+    "weight_kg": 60,
+    "payload_kg": 40,
+    "max_speed_kmh": 21.6,
+    "ip_rating": "IP67",
+    "payload_kg_qualifier": "minimum",
+    "max_standing_load_kg": 120,
+    "max_standing_load_kg_qualifier": "minimum",
+    "battery_runtime_hr_range": "4-6 hr",
+    "max_speed_kmh_qualifier": "running, minimum"
+   },
+   "product_url": "https://www.unitree.com/b2/",
+   "links": {
+    "video": null,
+    "docs": null,
+    "price_source": null
+   },
+   "canonical_url": "https://robocensus.com/robots/unitree-b2/",
+   "image": {
+    "status": "glyph",
+    "url": null,
+    "credit": null
+   },
+   "sources": {
+    "s1": {
+     "url": "https://www.unitree.com/b2/",
+     "last_verified": "2026-11-05"
+    }
+   },
+   "provenance": {
+    "name": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "maker": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "specs.height_cm": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "specs.weight_kg": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "specs.payload_kg": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "specs.payload_kg_qualifier": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "specs.max_standing_load_kg": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "specs.max_standing_load_kg_qualifier": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "specs.battery_runtime_hr_range": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "specs.max_speed_kmh": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "specs.max_speed_kmh_qualifier": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "specs.ip_rating": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "product_url": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    }
+   }
+  },
+  {
+   "slug": "petoi-bittle",
+   "name": "Bittle",
+   "maker": "Petoi",
+   "category": "quadruped",
+   "locomotion": "legged",
+   "status": "discontinued",
+   "release_date": null,
+   "price": {
+    "amount": 349,
+    "currency": "USD",
+    "date": "2026-11-05"
+   },
+   "specs": {
+    "height_cm": 11,
+    "battery_runtime_hr": 1,
+    "weight_kg_range": "0.265-0.29 kg"
+   },
+   "product_url": "https://www.petoi.com/products/petoi-bittle-robot-dog",
+   "links": {
+    "video": null,
+    "docs": null,
+    "price_source": null
+   },
+   "canonical_url": "https://robocensus.com/robots/petoi-bittle/",
+   "image": {
+    "status": "photo",
+    "url": "https://robocensus.com/robots/petoi-bittle.webp",
+    "credit": {
+     "author": "Petoi",
+     "license": "used with permission",
+     "source_url": null
+    }
+   },
+   "sources": {
+    "s1": {
+     "url": "https://www.petoi.com/products/petoi-bittle-robot-dog",
+     "last_verified": "2026-11-05"
+    },
+    "s2": {
+     "url": "https://www.petoi.com/pages/bittle-robot-dog-specifications",
+     "last_verified": "2026-11-05"
+    }
+   },
+   "provenance": {
+    "name": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "maker": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "price.amount": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "price.currency": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "price.date": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "specs.height_cm": {
+     "source": "s2",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "specs.weight_kg_range": {
+     "source": "s2",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "specs.battery_runtime_hr": {
+     "source": "s2",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "product_url": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "status": {
+     "source_note": "Petoi, direct email, 2026-11-05",
+     "changed": "2026-11-05",
+     "verification": "first_party_private"
+    }
+   }
+  },
+  {
+   "slug": "petoi-bittle-x",
+   "name": "Bittle X",
+   "maker": "Petoi",
+   "category": "quadruped",
+   "locomotion": "legged",
+   "status": "commercial",
+   "release_date": null,
+   "price": {
+    "amount": 319,
+    "currency": "USD",
+    "date": "2026-11-05"
+   },
+   "specs": {
+    "height_cm": 10.7,
+    "payload_kg": 0.45,
+    "battery_runtime_hr": 1,
+    "weight_kg_range": "0.269-0.353 kg",
+    "degrees_of_freedom": 9,
+    "models": "Bittle X V2 (construction kit or pre-assembled; lite or alloy servos) / Bittle X V2+Arm (alloy servos, robotic arm gripper)"
+   },
+   "product_url": "https://www.petoi.com/products/petoi-robot-dog-bittle-x-voice-controlled",
+   "links": {
+    "video": null,
+    "docs": null,
+    "price_source": null
+   },
+   "canonical_url": "https://robocensus.com/robots/petoi-bittle-x/",
+   "image": {
+    "status": "photo",
+    "url": "https://robocensus.com/robots/petoi-bittle-x.webp",
+    "credit": {
+     "author": "Petoi",
+     "license": "used with permission",
+     "source_url": null
+    }
+   },
+   "sources": {
+    "s1": {
+     "url": "https://www.petoi.com/products/petoi-robot-dog-bittle-x-voice-controlled",
+     "last_verified": "2026-11-05"
+    },
+    "s2": {
+     "url": "https://www.petoi.com/pages/bittle-x-robot-dog-with-arm-specifications",
+     "last_verified": "2026-11-05"
+    }
+   },
+   "provenance": {
+    "name": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "maker": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "price.amount": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "price.currency": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "price.date": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "specs.height_cm": {
+     "source": "s2",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "specs.weight_kg_range": {
+     "source": "s2",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "specs.degrees_of_freedom": {
+     "source": "s2",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "specs.battery_runtime_hr": {
+     "source": "s2",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "specs.payload_kg": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "specs.models": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "product_url": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    }
+   }
+  },
+  {
+   "slug": "xiaomi-cyberdog2",
+   "name": "CyberDog 2",
+   "maker": "Xiaomi",
+   "category": "quadruped",
+   "locomotion": "legged",
+   "status": "commercial",
+   "release_date": null,
+   "price": {
+    "amount": null,
+    "currency": null,
+    "date": null
+   },
+   "specs": {
+    "note": "No specs verifiable from an official source as of 2026-09-04 (see links comment above)"
+   },
+   "product_url": "https://www.mi.com/cyberdog2",
+   "links": {
+    "video": null,
+    "docs": null,
+    "price_source": null
+   },
+   "canonical_url": "https://robocensus.com/robots/xiaomi-cyberdog2/",
+   "image": {
+    "status": "glyph",
+    "url": null,
+    "credit": null
+   },
+   "sources": {},
+   "provenance": {}
+  },
+  {
+   "slug": "agibot-d1",
+   "name": "D1",
+   "maker": "AgiBot",
+   "category": "quadruped",
+   "locomotion": "legged",
+   "status": "commercial",
+   "release_date": null,
+   "price": {
+    "amount": 3200,
+    "currency": "USD",
+    "date": "2026-09-19"
+   },
+   "specs": {
+    "height_cm": 42,
+    "weight_kg": 15.5,
+    "payload_kg": 5,
+    "max_speed_kmh": 12.6,
+    "models": "Pro / Edu / Ultra — Pro and Edu share identical hardware specs; Edu adds secondary-development (SDK) support and functional expansion ports (Ethernet/USB/Power/SBUS/UART) that Pro lacks. Ultra isn't detailed on this page.",
+    "battery_runtime_hr_range": "1-2 hr",
+    "degrees_of_freedom": 12,
+    "max_climbing_slope_deg": 40,
+    "stair_climb_height_cm": 16
+   },
+   "product_url": "https://store.agibot.com/products/d1-pro",
+   "links": {
+    "video": null,
+    "docs": null,
+    "price_source": null
+   },
+   "canonical_url": "https://robocensus.com/robots/agibot-d1/",
+   "image": {
+    "status": "glyph",
+    "url": null,
+    "credit": null
+   },
+   "sources": {
+    "s1": {
+     "url": "https://www.agibot.com/products/D1_Pro",
+     "last_verified": "2026-11-06"
+    }
+   },
+   "provenance": {
+    "name": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "maker": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "specs.height_cm": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "specs.weight_kg": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "specs.payload_kg": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "specs.max_speed_kmh": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "specs.battery_runtime_hr_range": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "specs.max_climbing_slope_deg": {
+     "source": "s1",
+     "changed": "2026-11-06",
+     "verification": "verified"
+    },
+    "specs.stair_climb_height_cm": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    }
+   }
+  },
+  {
+   "slug": "genisom-l1",
+   "name": "Genisom L1",
+   "maker": "GENISOM AI",
+   "category": "quadruped",
+   "locomotion": "legged",
+   "status": "commercial",
+   "release_date": null,
+   "price": {
+    "amount": null,
+    "currency": null,
+    "date": null
+   },
+   "specs": {
+    "height_cm": 41.5,
+    "weight_kg": 15,
+    "payload_kg": 8,
+    "max_speed_kmh": 13.3,
+    "ip_rating": "IP54",
+    "models": "Single published parameter set; page also lists model tabs ZSL-1 Air / Pro / Max without per-tab figures. Related variants shown on the page but not covered here are L1-W (wheel-legged) and L1 EDU (Orin NX, 3D LiDAR, depth camera, GNSS, 5G)",
+    "battery_runtime_hr_range": "1-2 hr",
+    "max_climbing_slope_deg": 30,
+    "stair_climb_height_cm": 16
+   },
+   "product_url": "https://www.genisomai.com/product-robot/L1",
+   "links": {
+    "video": null,
+    "docs": null,
+    "price_source": null
+   },
+   "canonical_url": "https://robocensus.com/robots/genisom-l1/",
+   "image": {
+    "status": "glyph",
+    "url": null,
+    "credit": null
+   },
+   "sources": {
+    "s1": {
+     "url": "https://www.genisomai.com/en/product-robot/L1",
+     "last_verified": "2026-11-06"
+    },
+    "s2": {
+     "url": "https://www.genisomai.com/product-robot/L1",
+     "last_verified": "2026-11-06"
+    }
+   },
+   "provenance": {
+    "name": {
+     "source": "s1",
+     "changed": "2026-11-06",
+     "verification": "verified"
+    },
+    "maker": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "specs.height_cm": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "specs.weight_kg": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "specs.payload_kg": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "specs.max_speed_kmh": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "specs.ip_rating": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "specs.models": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "specs.battery_runtime_hr_range": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "specs.max_climbing_slope_deg": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "specs.stair_climb_height_cm": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "product_url": {
+     "source": "s2",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    }
+   }
+  },
+  {
+   "slug": "genisom-l2",
+   "name": "Genisom L2",
+   "maker": "GENISOM AI",
+   "category": "quadruped",
+   "locomotion": "wheel-legged",
+   "status": "commercial",
+   "release_date": null,
+   "price": {
+    "amount": null,
+    "currency": null,
+    "date": null
+   },
+   "specs": {
+    "height_cm": 50,
+    "weight_kg": 27,
+    "payload_kg": 16,
+    "battery_runtime_hr": 5.5,
+    "max_speed_kmh": 13.3,
+    "ip_rating": "IP66",
+    "models": "L2 (Legged Sport Edition; 720 × 390 × 480 mm, 21 kg, 3.2 m/s, 22 cm stairs) / L2-W (Wheeled-Leg Sport Edition) / L2-W Ultra (Wheeled-Leg Surround-View Edition; dual industrial-grade 96-line LiDAR, front stereo + surround-view fisheye cameras, 5G, 4.5 h). Same 16 kg payload, 95 N·m peak joint torque and IP66 across all three",
+    "configuration": "L2-W",
+    "max_climbing_slope_deg": 40,
+    "stair_climb_height_cm": 25
+   },
+   "product_url": "https://www.genisomai.com/product-robot/L2",
+   "links": {
+    "video": null,
+    "docs": null,
+    "price_source": null
+   },
+   "canonical_url": "https://robocensus.com/robots/genisom-l2/",
+   "image": {
+    "status": "glyph",
+    "url": null,
+    "credit": null
+   },
+   "sources": {
+    "s1": {
+     "url": "https://www.genisomai.com/en/product-robot/L2",
+     "last_verified": "2026-11-06"
+    },
+    "s2": {
+     "url": "https://www.genisomai.com/product-robot/L2",
+     "last_verified": "2026-11-06"
+    }
+   },
+   "provenance": {
+    "name": {
+     "source": "s1",
+     "changed": "2026-11-06",
+     "verification": "verified"
+    },
+    "maker": {
+     "source": "s1",
+     "changed": "2026-11-06",
+     "verification": "verified"
+    },
+    "specs.models": {
+     "source": "s1",
+     "changed": "2026-11-06",
+     "verification": "verified"
+    },
+    "specs.configuration": {
+     "source": "s1",
+     "changed": "2026-11-06",
+     "verification": "verified"
+    },
+    "specs.height_cm": {
+     "source": "s1",
+     "changed": "2026-11-06",
+     "verification": "verified"
+    },
+    "specs.weight_kg": {
+     "source": "s1",
+     "changed": "2026-11-06",
+     "verification": "verified"
+    },
+    "specs.payload_kg": {
+     "source": "s1",
+     "changed": "2026-11-06",
+     "verification": "verified"
+    },
+    "specs.battery_runtime_hr": {
+     "source": "s1",
+     "changed": "2026-11-06",
+     "verification": "verified"
+    },
+    "specs.max_speed_kmh": {
+     "source": "s1",
+     "changed": "2026-11-06",
+     "verification": "verified"
+    },
+    "specs.ip_rating": {
+     "source": "s1",
+     "changed": "2026-11-06",
+     "verification": "verified"
+    },
+    "specs.max_climbing_slope_deg": {
+     "source": "s1",
+     "changed": "2026-11-06",
+     "verification": "verified"
+    },
+    "specs.stair_climb_height_cm": {
+     "source": "s1",
+     "changed": "2026-11-06",
+     "verification": "verified"
+    },
+    "product_url": {
+     "source": "s2",
+     "changed": "2026-11-06",
+     "verification": "verified"
+    }
+   }
+  },
+  {
+   "slug": "genisom-m1",
+   "name": "Genisom M1",
+   "maker": "GENISOM AI",
+   "category": "quadruped",
+   "locomotion": "wheel-legged",
+   "status": "pilot",
+   "release_date": null,
+   "price": {
+    "amount": null,
+    "currency": null,
+    "date": null
+   },
+   "specs": {
+    "height_cm": 58.5,
+    "weight_kg": 41,
+    "payload_kg": 30,
+    "battery_runtime_hr": 5,
+    "max_speed_kmh": 21.6,
+    "ip_rating": "IP67",
+    "models": "M1 / M1 Pro. Same 41 kg body, 6 m/s top speed, 30 kg payload, 180 N·m joints and IP67; Pro adds UWB and laser-vision following, voice dialogue, recording and broadcasting, an ultrasonic sensor, and Smart Navigation Pro as standard (optional on M1). Landing-gear kit optional on both",
+    "max_climbing_slope_deg": 45,
+    "stair_climb_height_cm": 25
+   },
+   "product_url": "https://www.genisomai.com/product-robot/M1",
+   "links": {
+    "video": null,
+    "docs": null,
+    "price_source": null
+   },
+   "canonical_url": "https://robocensus.com/robots/genisom-m1/",
+   "image": {
+    "status": "glyph",
+    "url": null,
+    "credit": null
+   },
+   "sources": {
+    "s1": {
+     "url": "https://www.genisomai.com/en/product-robot/M1",
+     "last_verified": "2026-11-06"
+    },
+    "s2": {
+     "url": "https://www.genisomai.com/product-robot/M1",
+     "last_verified": "2026-11-06"
+    }
+   },
+   "provenance": {
+    "name": {
+     "source": "s1",
+     "changed": "2026-11-06",
+     "verification": "verified"
+    },
+    "maker": {
+     "source": "s1",
+     "changed": "2026-11-06",
+     "verification": "verified"
+    },
+    "specs.models": {
+     "source": "s1",
+     "changed": "2026-11-06",
+     "verification": "verified"
+    },
+    "specs.height_cm": {
+     "source": "s1",
+     "changed": "2026-11-06",
+     "verification": "verified"
+    },
+    "specs.weight_kg": {
+     "source": "s1",
+     "changed": "2026-11-06",
+     "verification": "verified"
+    },
+    "specs.payload_kg": {
+     "source": "s1",
+     "changed": "2026-11-06",
+     "verification": "verified"
+    },
+    "specs.battery_runtime_hr": {
+     "source": "s1",
+     "changed": "2026-11-06",
+     "verification": "verified"
+    },
+    "specs.max_speed_kmh": {
+     "source": "s1",
+     "changed": "2026-11-06",
+     "verification": "verified"
+    },
+    "specs.ip_rating": {
+     "source": "s1",
+     "changed": "2026-11-06",
+     "verification": "verified"
+    },
+    "specs.max_climbing_slope_deg": {
+     "source": "s1",
+     "changed": "2026-11-06",
+     "verification": "verified"
+    },
+    "specs.stair_climb_height_cm": {
+     "source": "s1",
+     "changed": "2026-11-06",
+     "verification": "verified"
+    },
+    "product_url": {
+     "source": "s2",
+     "changed": "2026-11-06",
+     "verification": "verified"
+    }
+   }
+  },
+  {
+   "slug": "unitree-go2",
+   "name": "Go2",
+   "maker": "Unitree",
+   "category": "quadruped",
+   "locomotion": "legged",
+   "status": "commercial",
+   "release_date": null,
+   "price": {
+    "amount": 2800,
+    "currency": "USD",
+    "date": "2026-11-05"
+   },
+   "specs": {
+    "height_cm": 40,
+    "weight_kg": 15,
+    "payload_kg": 8,
+    "max_speed_kmh": 12.6,
+    "configuration": "Pro",
+    "battery_runtime_hr_range": "1-2 hr"
+   },
+   "product_url": "https://www.unitree.com/go2/",
+   "links": {
+    "video": null,
+    "docs": null,
+    "price_source": "https://shop.unitree.com/products/unitree-go2"
+   },
+   "canonical_url": "https://robocensus.com/robots/unitree-go2/",
+   "image": {
+    "status": "photo",
+    "url": "https://robocensus.com/robots/unitree-go2.webp",
+    "credit": {
+     "author": "HotNews Romania (Adi Iacob, Ovidiu Popica)",
+     "license": "CC BY 3.0",
+     "source_url": "https://commons.wikimedia.org/wiki/File:Unitree_Go2_of_Salvamont_side_view.jpg"
+    }
+   },
+   "sources": {
+    "s1": {
+     "url": "https://www.unitree.com/go2/",
+     "last_verified": "2026-11-05"
+    }
+   },
+   "provenance": {
+    "name": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "maker": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "price.amount": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "price.currency": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "specs.height_cm": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "specs.weight_kg": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "specs.payload_kg": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "specs.max_speed_kmh": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "specs.configuration": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "specs.battery_runtime_hr_range": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "product_url": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "price.date": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    }
+   }
+  },
+  {
+   "slug": "mab-robotics-honey-badger",
+   "name": "Honey Badger 5.0",
+   "maker": "MAB Robotics",
+   "category": "quadruped",
+   "locomotion": "legged",
+   "status": "commercial",
+   "release_date": null,
+   "price": {
+    "amount": null,
+    "currency": null,
+    "date": null
+   },
+   "specs": {
+    "weight_kg": 12,
+    "payload_kg": 4,
+    "battery_runtime_hr": 2,
+    "ip_rating": "up to IP67",
+    "dimensions_mm": "600 x 400 x 150-500",
+    "battery_runtime_hr_qualifier": "maximum"
+   },
+   "product_url": "https://www.mabrobotics.pl/honey-badger",
+   "links": {
+    "video": null,
+    "docs": null,
+    "price_source": null
+   },
+   "canonical_url": "https://robocensus.com/robots/mab-robotics-honey-badger/",
+   "image": {
+    "status": "photo",
+    "url": "https://robocensus.com/robots/mab-robotics-honey-badger.webp",
+    "credit": {
+     "author": "MAB Robotics",
+     "license": "used with permission",
+     "source_url": null
+    }
+   },
+   "sources": {
+    "s1": {
+     "url": "https://www.mabrobotics.pl/honey-badger",
+     "last_verified": "2026-11-05"
+    }
+   },
+   "provenance": {
+    "name": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "maker": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "status": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "specs.dimensions_mm": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "specs.weight_kg": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "specs.payload_kg": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "specs.battery_runtime_hr": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "specs.battery_runtime_hr_qualifier": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "specs.ip_rating": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "product_url": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    }
+   }
+  },
+  {
+   "slug": "engineai-js01",
+   "name": "JS01",
+   "maker": "EngineAI",
+   "category": "quadruped",
+   "locomotion": "legged",
+   "status": "pilot",
+   "release_date": null,
+   "price": {
+    "amount": null,
+    "currency": null,
+    "date": null
+   },
+   "specs": {
+    "max_speed_kmh": 10.8,
+    "max_load_kg": 80
+   },
+   "product_url": "https://en.engineai.com.cn/product-js01.html",
+   "links": {
+    "video": null,
+    "docs": null,
+    "price_source": null
+   },
+   "canonical_url": "https://robocensus.com/robots/engineai-js01/",
+   "image": {
+    "status": "glyph",
+    "url": null,
+    "credit": null
+   },
+   "sources": {
+    "s1": {
+     "url": "https://en.engineai.com.cn/product-js01.html",
+     "last_verified": "2026-11-06"
+    }
+   },
+   "provenance": {
+    "name": {
+     "source": "s1",
+     "changed": "2026-11-06",
+     "verification": "verified"
+    },
+    "maker": {
+     "source": "s1",
+     "changed": "2026-11-06",
+     "verification": "verified"
+    },
+    "specs.max_speed_kmh": {
+     "source": "s1",
+     "changed": "2026-11-06",
+     "verification": "verified"
+    },
+    "specs.max_load_kg": {
+     "source": "s1",
+     "changed": "2026-11-06",
+     "verification": "verified"
+    },
+    "product_url": {
+     "source": "s1",
+     "changed": "2026-11-06",
+     "verification": "verified"
+    }
+   }
+  },
+  {
+   "slug": "deep-robotics-lite3",
+   "name": "Lite 3",
+   "maker": "DEEP Robotics",
+   "category": "quadruped",
+   "locomotion": "legged",
+   "status": "commercial",
+   "release_date": null,
+   "price": {
+    "amount": 2890,
+    "currency": "USD",
+    "date": "2026-11-05"
+   },
+   "specs": {
+    "height_cm": 40.6,
+    "weight_kg": 12,
+    "payload_kg": 5,
+    "configuration": "Basic",
+    "battery_runtime_hr_range": "1.5-2 hr"
+   },
+   "product_url": "https://www.deeprobotics.cn/en/products/detail/7.html",
+   "links": {
+    "video": null,
+    "docs": null,
+    "price_source": "https://shop.deeprobotics.us/products/lite-3"
+   },
+   "canonical_url": "https://robocensus.com/robots/deep-robotics-lite3/",
+   "image": {
+    "status": "glyph",
+    "url": null,
+    "credit": null
+   },
+   "sources": {
+    "s1": {
+     "url": "https://shop.deeprobotics.us/products/lite-3",
+     "last_verified": "2026-11-05"
+    },
+    "s2": {
+     "url": "https://www.deeprobotics.cn/en/products/detail/7.html",
+     "last_verified": "2026-11-08"
+    }
+   },
+   "provenance": {
+    "name": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "maker": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "price.amount": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "price.currency": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "price.date": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "specs.height_cm": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "specs.weight_kg": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "specs.payload_kg": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "specs.configuration": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "specs.battery_runtime_hr_range": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "links.price_source": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "product_url": {
+     "source": "s2",
+     "changed": "2026-11-08",
+     "verification": "verified"
+    }
+   }
+  },
+  {
+   "slug": "deep-robotics-lynx-m20",
+   "name": "Lynx M20",
+   "maker": "DEEP Robotics",
+   "category": "quadruped",
+   "locomotion": "wheel-legged",
+   "status": "commercial",
+   "release_date": null,
+   "price": {
+    "amount": null,
+    "currency": null,
+    "date": null
+   },
+   "specs": {
+    "height_cm": 57,
+    "weight_kg": 35,
+    "payload_kg": 15,
+    "battery_runtime_hr": 3,
+    "ip_rating": "IP66",
+    "max_load_kg": 50,
+    "dimensions_mm": "820 x 430 x 570",
+    "range_km": 15,
+    "safe_speed_kmh": 7.2
+   },
+   "product_url": "https://www.deeprobotics.cn/en/products/detail/1.html",
+   "links": {
+    "video": null,
+    "docs": null,
+    "price_source": null
+   },
+   "canonical_url": "https://robocensus.com/robots/deep-robotics-lynx-m20/",
+   "image": {
+    "status": "glyph",
+    "url": null,
+    "credit": null
+   },
+   "sources": {
+    "s1": {
+     "url": "https://www.deeprobotics.cn/en/products/detail/1.html",
+     "last_verified": "2026-11-08"
+    }
+   },
+   "provenance": {
+    "name": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "maker": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "specs.height_cm": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "specs.weight_kg": {
+     "source": "s1",
+     "changed": "2026-11-06",
+     "verification": "verified"
+    },
+    "specs.payload_kg": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "specs.battery_runtime_hr": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "specs.ip_rating": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "specs.dimensions_mm": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "specs.range_km": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "specs.safe_speed_kmh": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "product_url": {
+     "source": "s1",
+     "changed": "2026-11-08",
+     "verification": "verified"
+    }
+   }
+  },
+  {
+   "slug": "hiwonder-mechdog",
+   "name": "MechDog",
+   "maker": "Hiwonder",
+   "category": "quadruped",
+   "locomotion": "legged",
+   "status": "commercial",
+   "release_date": null,
+   "price": {
+    "amount": 299.99,
+    "currency": "USD",
+    "date": "2026-11-05"
+   },
+   "specs": {
+    "weight_kg": 0.56,
+    "battery_runtime_hr": 1,
+    "models": "Standard Kit / Advanced Kit / Ultimate Kit / MechDog Pro Developer Kit",
+    "dimensions_mm": "214 x 126 x 138",
+    "degrees_of_freedom": 8,
+    "battery_runtime_hr_qualifier": "maximum",
+    "battery": "7.4V 1500mAh 5C LiPo"
+   },
+   "product_url": "https://www.hiwonder.com/products/mechdog",
+   "links": {
+    "video": null,
+    "docs": null,
+    "price_source": null
+   },
+   "canonical_url": "https://robocensus.com/robots/hiwonder-mechdog/",
+   "image": {
+    "status": "glyph",
+    "url": null,
+    "credit": null
+   },
+   "sources": {
+    "s1": {
+     "url": "https://www.hiwonder.com/products/mechdog",
+     "last_verified": "2026-11-05"
+    }
+   },
+   "provenance": {
+    "name": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "maker": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "price.amount": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "price.currency": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "price.date": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "specs.models": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "specs.dimensions_mm": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "specs.weight_kg": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "specs.degrees_of_freedom": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "specs.battery_runtime_hr": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "specs.battery_runtime_hr_qualifier": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "specs.battery": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "product_url": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    }
+   }
+  },
+  {
+   "slug": "mangdang-mini-pupper-1",
+   "name": "Mini Pupper 1",
+   "maker": "MangDang",
+   "category": "quadruped",
+   "locomotion": "legged",
+   "status": "commercial",
+   "release_date": "2021",
+   "price": {
+    "amount": 649,
+    "currency": "USD",
+    "date": "2026-09-23"
+   },
+   "specs": {
+    "weight_kg": 0.56,
+    "payload_kg": 0.15,
+    "compute": "Raspberry Pi 4B",
+    "ros": "ROS2 Humble",
+    "dimensions_mm": "209 x 165 x 145"
+   },
+   "product_url": "https://mangdang.store/products/mini-pupper?currency=USD",
+   "links": {
+    "video": null,
+    "docs": null,
+    "price_source": null
+   },
+   "canonical_url": "https://robocensus.com/robots/mangdang-mini-pupper-1/",
+   "image": {
+    "status": "glyph",
+    "url": null,
+    "credit": null
+   },
+   "sources": {
+    "s1": {
+     "url": "https://minipupperdocs.readthedocs.io/en/latest/",
+     "last_verified": "2026-11-07"
+    }
+   },
+   "provenance": {
+    "maker": {
+     "source": "s1",
+     "changed": "2026-11-07",
+     "verification": "verified"
+    },
+    "name": {
+     "source": "s1",
+     "changed": "2026-11-07",
+     "verification": "verified"
+    },
+    "release_date": {
+     "source": "s1",
+     "changed": "2026-11-07",
+     "verification": "verified"
+    }
+   }
+  },
+  {
+   "slug": "mangdang-mini-pupper-2",
+   "name": "Mini Pupper 2",
+   "maker": "MangDang",
+   "category": "quadruped",
+   "locomotion": "legged",
+   "status": "commercial",
+   "release_date": null,
+   "price": {
+    "amount": 649,
+    "currency": "USD",
+    "date": "2026-11-05"
+   },
+   "specs": {
+    "note": "Specs now published on the official page as an image (seen 2026-11-05); not yet transcribed into the census"
+   },
+   "product_url": "https://mangdang.store/products/mp2",
+   "links": {
+    "video": null,
+    "docs": null,
+    "price_source": null
+   },
+   "canonical_url": "https://robocensus.com/robots/mangdang-mini-pupper-2/",
+   "image": {
+    "status": "glyph",
+    "url": null,
+    "credit": null
+   },
+   "sources": {
+    "s1": {
+     "url": "https://mangdang.store/products/mp2",
+     "last_verified": "2026-11-05"
+    },
+    "s2": {
+     "url": "https://mangdang.store/products/mp2?country=US",
+     "last_verified": "2026-11-05"
+    }
+   },
+   "provenance": {
+    "name": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "maker": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "price.amount": {
+     "source": "s2",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "price.currency": {
+     "source": "s2",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "price.date": {
+     "source": "s2",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "product_url": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    }
+   }
+  },
+  {
+   "slug": "petoi-nybble-q",
+   "name": "Nybble Q",
+   "maker": "Petoi",
+   "category": "quadruped",
+   "locomotion": "legged",
+   "status": "commercial",
+   "release_date": null,
+   "price": {
+    "amount": 435,
+    "currency": "USD",
+    "date": "2026-11-05"
+   },
+   "specs": {
+    "height_cm": 15,
+    "battery_runtime_hr": 1,
+    "degrees_of_freedom": 11,
+    "weight_kg_range": "0.403-0.433 kg"
+   },
+   "product_url": "https://www.petoi.com/products/petoi-nybble-q-robot-cat",
+   "links": {
+    "video": null,
+    "docs": null,
+    "price_source": null
+   },
+   "canonical_url": "https://robocensus.com/robots/petoi-nybble-q/",
+   "image": {
+    "status": "photo",
+    "url": "https://robocensus.com/robots/petoi-nybble-q.webp",
+    "credit": {
+     "author": "Petoi",
+     "license": "used with permission",
+     "source_url": null
+    }
+   },
+   "sources": {
+    "s1": {
+     "url": "https://www.petoi.com/products/petoi-nybble-q-robot-cat",
+     "last_verified": "2026-11-05"
+    },
+    "s2": {
+     "url": "https://www.petoi.com/pages/robot-cat-nybble-q-technical-specifications",
+     "last_verified": "2026-11-05"
+    }
+   },
+   "provenance": {
+    "name": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "maker": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "price.amount": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "price.currency": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "price.date": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "specs.height_cm": {
+     "source": "s2",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "specs.degrees_of_freedom": {
+     "source": "s2",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "specs.battery_runtime_hr": {
+     "source": "s2",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "specs.weight_kg_range": {
+     "source": "s2",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "product_url": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    }
+   }
+  },
+  {
+   "slug": "hiwonder-puppypi",
+   "name": "PuppyPi",
+   "maker": "Hiwonder",
+   "category": "quadruped",
+   "locomotion": "legged",
+   "status": "commercial",
+   "release_date": null,
+   "price": {
+    "amount": 589.99,
+    "currency": "USD",
+    "date": "2026-11-05"
+   },
+   "specs": {
+    "weight_kg": 0.72,
+    "configuration": "Standard Kit / With Raspberry Pi 4B (4GB)",
+    "dimensions_mm": "226 x 149 x 190",
+    "degrees_of_freedom": 8
+   },
+   "product_url": "https://www.hiwonder.com/products/puppypi",
+   "links": {
+    "video": null,
+    "docs": null,
+    "price_source": null
+   },
+   "canonical_url": "https://robocensus.com/robots/hiwonder-puppypi/",
+   "image": {
+    "status": "glyph",
+    "url": null,
+    "credit": null
+   },
+   "sources": {
+    "s1": {
+     "url": "https://www.hiwonder.com/products/puppypi",
+     "last_verified": "2026-11-05"
+    }
+   },
+   "provenance": {
+    "name": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "maker": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "price.amount": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "price.currency": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "price.date": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "specs.configuration": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "specs.dimensions_mm": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "specs.weight_kg": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "specs.degrees_of_freedom": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "product_url": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    }
+   }
+  },
+  {
+   "slug": "petoi-quaddle",
+   "name": "Quaddle",
+   "maker": "Petoi",
+   "category": "quadruped",
+   "locomotion": "legged",
+   "status": "crowdfunding",
+   "release_date": null,
+   "price": {
+    "amount": 154,
+    "currency": "USD",
+    "date": "2026-11-05"
+   },
+   "specs": {
+    "servos": "4 (omnidirectional)",
+    "movements": "90+",
+    "expansion": "Raspberry Pi Zero socket on every model; Arduino/ESP32 support",
+    "assembly": "No-soldering kit build",
+    "shell": "LEGO-compatible",
+    "models": "Builder Plus / Buddy / Scout — Buddy adds AI conversation and Learn & Replay; Scout adds gesture, light and infrared sensors"
+   },
+   "product_url": "https://www.petoi.com/pages/quaddle-educational-robot-kit",
+   "links": {
+    "video": "https://www.youtube.com/watch?v=0Z7ZijSYeV8",
+    "docs": null,
+    "price_source": "https://www.petoi.com/pages/quaddle-educational-robot-kit"
+   },
+   "canonical_url": "https://robocensus.com/robots/petoi-quaddle/",
+   "image": {
+    "status": "photo",
+    "url": "https://robocensus.com/robots/petoi-quaddle.webp",
+    "credit": {
+     "author": "Petoi",
+     "license": "used with permission",
+     "source_url": null
+    }
+   },
+   "sources": {
+    "s1": {
+     "url": "https://www.petoi.com/pages/quaddle-educational-robot-kit",
+     "last_verified": "2026-11-05"
+    }
+   },
+   "provenance": {
+    "name": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "maker": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "status": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "price.amount": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "price.currency": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "price.date": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "specs.servos": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "specs.movements": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "specs.expansion": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "specs.assembly": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "specs.shell": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "product_url": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "links.video": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "specs.models": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "links.price_source": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    }
+   }
+  },
+  {
+   "slug": "rivr-one",
+   "name": "RIVR ONE",
+   "maker": "RIVR",
+   "category": "quadruped",
+   "locomotion": "wheel-legged",
+   "status": "commercial",
+   "release_date": null,
+   "price": {
+    "amount": null,
+    "currency": null,
+    "date": null
+   },
+   "specs": {
+    "payload_kg": 30,
+    "payload_kg_qualifier": "minimum",
+    "max_rolling_speed_kmh": 14,
+    "max_rolling_speed_kmh_qualifier": "rolling",
+    "range_km": 30,
+    "range_km_qualifier": "minimum",
+    "charge_time_hr": "2-3"
+   },
+   "product_url": "https://rivr.ai/product",
+   "links": {
+    "video": null,
+    "docs": null,
+    "price_source": null
+   },
+   "canonical_url": "https://robocensus.com/robots/rivr-one/",
+   "image": {
+    "status": "glyph",
+    "url": null,
+    "credit": null
+   },
+   "sources": {
+    "s1": {
+     "url": "https://rivr.ai/product",
+     "last_verified": "2026-11-05"
+    }
+   },
+   "provenance": {
+    "name": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "maker": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "specs.payload_kg": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "specs.payload_kg_qualifier": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "specs.max_rolling_speed_kmh": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "specs.range_km": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "specs.range_km_qualifier": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "specs.charge_time_hr": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "product_url": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    }
+   }
+  },
+  {
+   "slug": "hiwonder-rospug",
+   "name": "ROSPug",
+   "maker": "Hiwonder",
+   "category": "quadruped",
+   "locomotion": "legged",
+   "status": "commercial",
+   "release_date": null,
+   "price": {
+    "amount": 1129.99,
+    "currency": "USD",
+    "date": "2026-10-06"
+   },
+   "specs": {
+    "weight_kg": 1.65,
+    "dimensions_mm": "334 x 211 x 210",
+    "degrees_of_freedom": 12,
+    "compute": "NVIDIA Jetson Nano (4GB)",
+    "battery": "11.1V 3500mAh 5C LiPo",
+    "battery_runtime_hr_range": "1-2 hr"
+   },
+   "product_url": "https://www.hiwonder.com/products/rospug",
+   "links": {
+    "video": null,
+    "docs": null,
+    "price_source": null
+   },
+   "canonical_url": "https://robocensus.com/robots/hiwonder-rospug/",
+   "image": {
+    "status": "glyph",
+    "url": null,
+    "credit": null
+   },
+   "sources": {},
+   "provenance": {}
+  },
+  {
+   "slug": "boston-dynamics-spot",
+   "name": "Spot",
+   "maker": "Boston Dynamics",
+   "category": "quadruped",
+   "locomotion": "legged",
+   "status": "commercial",
+   "release_date": "2020-06-16",
+   "price": {
+    "amount": 74500,
+    "currency": "USD",
+    "date": null
+   },
+   "specs": {
+    "height_cm": 61,
+    "weight_kg": 33.8,
+    "payload_kg": 14,
+    "battery_runtime_hr": 1.5,
+    "max_speed_kmh": 5.8,
+    "ip_rating": "IP54"
+   },
+   "product_url": "https://bostondynamics.com/products/spot/",
+   "links": {
+    "video": null,
+    "docs": "https://support.bostondynamics.com/s/spot",
+    "price_source": null
+   },
+   "canonical_url": "https://robocensus.com/robots/boston-dynamics-spot/",
+   "image": {
+    "status": "photo",
+    "url": "https://robocensus.com/robots/boston-dynamics-spot.webp",
+    "credit": {
+     "author": "Jonte",
+     "license": "CC BY-SA 4.0",
+     "source_url": "https://commons.wikimedia.org/wiki/File:Spot_by_Boston_Dynamics.jpg"
+    }
+   },
+   "sources": {
+    "s1": {
+     "url": "https://bostondynamics.com/products/spot/",
+     "last_verified": "2026-11-05"
+    },
+    "s2": {
+     "url": "https://support.bostondynamics.com/s/spot",
+     "last_verified": "2026-11-05"
+    },
+    "s3": {
+     "url": "https://bostondynamics.com/news/boston-dynamics-expands-global-sales-of-spot-robot/",
+     "last_verified": "2026-11-05"
+    }
+   },
+   "provenance": {
+    "name": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "maker": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "release_date": {
+     "source_note": "2020 press coverage",
+     "changed": "2026-11-05",
+     "verification": "unverifiable"
+    },
+    "price.amount": {
+     "source_note": "2020 press coverage",
+     "changed": "2026-11-05",
+     "verification": "unverifiable"
+    },
+    "price.currency": {
+     "source_note": "2020 press coverage",
+     "changed": "2026-11-05",
+     "verification": "unverifiable"
+    },
+    "specs.height_cm": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "specs.weight_kg": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "specs.payload_kg": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "specs.battery_runtime_hr": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "specs.max_speed_kmh": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "specs.ip_rating": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "product_url": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "links.docs": {
+     "source": "s2",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "status": {
+     "source": "s3",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    }
+   }
+  },
+  {
+   "slug": "tny-robotics-tny-360",
+   "name": "TNY-360",
+   "maker": "TNY Robotics",
+   "category": "quadruped",
+   "locomotion": "legged",
+   "status": "commercial",
+   "release_date": null,
+   "price": {
+    "amount": 399,
+    "currency": "EUR",
+    "date": "2026-11-07"
+   },
+   "specs": {
+    "models": "V2 — BareBones €289 (PCBs, motors and hardware; you print the parts). Maker €399 (all parts, self-assembled). Ready2Run €599 (assembled and calibrated; coming soon, not yet orderable)."
+   },
+   "product_url": "https://tny-robotics.com/tny-360",
+   "links": {
+    "video": null,
+    "docs": null,
+    "price_source": "https://tny-robotics.com/tny-360"
+   },
+   "canonical_url": "https://robocensus.com/robots/tny-robotics-tny-360/",
+   "image": {
+    "status": "glyph",
+    "url": null,
+    "credit": null
+   },
+   "sources": {
+    "s1": {
+     "url": "https://tny-robotics.com/tny-360",
+     "last_verified": "2026-11-07"
+    },
+    "s2": {
+     "url": "https://tny-robotics.com/",
+     "last_verified": "2026-11-05"
+    }
+   },
+   "provenance": {
+    "name": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "maker": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "price.amount": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "price.currency": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "price.date": {
+     "source": "s1",
+     "changed": "2026-11-07",
+     "verification": "verified"
+    },
+    "links.price_source": {
+     "source": "s1",
+     "changed": "2026-11-07",
+     "verification": "verified"
+    },
+    "specs.models": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "product_url": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    }
+   }
+  },
+  {
+   "slug": "ghost-robotics-vision-60",
+   "name": "Vision 60",
+   "maker": "Ghost Robotics",
+   "category": "quadruped",
+   "locomotion": "legged",
+   "status": "commercial",
+   "release_date": null,
+   "price": {
+    "amount": null,
+    "currency": null,
+    "date": null
+   },
+   "specs": {
+    "height_cm": 68.5,
+    "weight_kg": 51,
+    "payload_kg": 10,
+    "battery_runtime_hr": 3.15,
+    "max_speed_kmh": 8.64,
+    "ip_rating": "IP67",
+    "max_speed_kmh_qualifier": "sprint"
+   },
+   "product_url": "https://www.ghostrobotics.io/vision-60",
+   "links": {
+    "video": null,
+    "docs": null,
+    "price_source": null
+   },
+   "canonical_url": "https://robocensus.com/robots/ghost-robotics-vision-60/",
+   "image": {
+    "status": "photo",
+    "url": "https://robocensus.com/robots/ghost-robotics-vision-60.webp",
+    "credit": {
+     "author": "TaurusEmerald",
+     "license": "CC BY-SA 4.0",
+     "source_url": "https://commons.wikimedia.org/wiki/File:AT%26T_FirstNet_Ghost_Robotics_Vision_60_Robot_Dog.jpg"
+    }
+   },
+   "sources": {
+    "s1": {
+     "url": "https://www.ghostrobotics.io/vision-60",
+     "last_verified": "2026-11-05"
+    }
+   },
+   "provenance": {
+    "name": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "maker": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "specs.height_cm": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "specs.weight_kg": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "specs.payload_kg": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "specs.battery_runtime_hr": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "specs.max_speed_kmh": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "specs.max_speed_kmh_qualifier": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "specs.ip_rating": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    },
+    "product_url": {
+     "source": "s1",
+     "changed": "2026-11-05",
+     "verification": "verified"
+    }
+   }
+  },
+  {
+   "slug": "deep-robotics-x20",
+   "name": "X20",
+   "maker": "DEEP Robotics",
+   "category": "quadruped",
+   "locomotion": "legged",
+   "status": "discontinued",
+   "release_date": null,
+   "price": {
+    "amount": null,
+    "currency": null,
+    "date": null
+   },
+   "specs": {
+    "height_cm": 70,
+    "weight_kg": 53,
+    "payload_kg": 20,
+    "max_speed_kmh": 14.4,
+    "ip_rating": "IP66",
+    "max_speed_kmh_qualifier": "minimum",
+    "battery_runtime_hr_range": "2-4 hr",
+    "range_km": 15,
+    "obstacle_clearance_mm": 200,
+    "obstacle_clearance_mm_qualifier": "minimum",
+    "max_climbing_slope_deg": 30,
+    "max_climbing_slope_deg_qualifier": "minimum"
+   },
+   "product_url": "https://www.deeprobotics.us/products/x20/",
+   "links": {
+    "video": null,
+    "docs": null,
+    "price_source": null
+   },
+   "canonical_url": "https://robocensus.com/robots/deep-robotics-x20/",
+   "image": {
+    "status": "glyph",
+    "url": null,
+    "credit": null
+   },
+   "sources": {
+    "s1": {
+     "url": "https://www.deeprobotics.us/products/x20/",
+     "last_verified": "2026-11-16"
+    }
+   },
+   "provenance": {
+    "status": {
+     "source": "s1",
+     "changed": "2026-11-16",
+     "verification": "verified"
+    }
+   }
+  },
+  {
+   "slug": "deep-robotics-x30",
+   "name": "X30",
+   "maker": "DEEP Robotics",
+   "category": "quadruped",
+   "locomotion": "legged",
+   "status": "commercial",
+   "release_date": null,
+   "price": {
+    "amount": null,
+    "currency": null,
+    "date": null
+   },
+   "specs": {
+    "height_cm": 69.5,
+    "weight_kg": 56,
+    "max_speed_kmh": 9,
+    "ip_rating": "IP67",
+    "battery_runtime_hr_range": "2.5-4 hr",
+    "models": "X30 (approx. 56 kg; the edition tracked here); X30 Pro (approx. 59 kg, the heavier variant)"
+   },
+   "product_url": "https://www.deeprobotics.cn/en/products/detail/6.html",
+   "links": {
+    "video": null,
+    "docs": null,
+    "price_source": null
+   },
+   "canonical_url": "https://robocensus.com/robots/deep-robotics-x30/",
+   "image": {
+    "status": "glyph",
+    "url": null,
+    "credit": null
+   },
+   "sources": {
+    "s1": {
+     "url": "https://www.deeprobotics.cn/en/products/detail/6.html",
+     "last_verified": "2026-11-07"
+    }
+   },
+   "provenance": {
+    "name": {
+     "source": "s1",
+     "changed": "2026-11-07",
+     "verification": "verified"
+    },
+    "maker": {
+     "source": "s1",
+     "changed": "2026-11-07",
+     "verification": "verified"
+    },
+    "specs.weight_kg": {
+     "source": "s1",
+     "changed": "2026-11-07",
+     "verification": "verified"
+    },
+    "specs.ip_rating": {
+     "source": "s1",
+     "changed": "2026-11-07",
+     "verification": "verified"
+    },
+    "specs.battery_runtime_hr_range": {
+     "source": "s1",
+     "changed": "2026-11-07",
+     "verification": "verified"
+    },
+    "specs.height_cm": {
+     "source": "s1",
+     "changed": "2026-11-07",
+     "verification": "verified"
+    },
+    "specs.max_speed_kmh": {
+     "source": "s1",
+     "changed": "2026-11-07",
+     "verification": "verified"
+    },
+    "specs.models": {
+     "source": "s1",
+     "changed": "2026-11-07",
+     "verification": "verified"
+    },
+    "product_url": {
+     "source": "s1",
+     "changed": "2026-11-07",
+     "verification": "verified"
+    }
+   }
+  },
+  {
+   "slug": "luwu-xgo-lite3",
+   "name": "XGO-lite3",
+   "maker": "Luwu Dynamics",
+   "category": "quadruped",
+   "locomotion": "legged",
+   "status": "commercial",
+   "release_date": null,
+   "price": {
+    "amount": 479.2,
+    "currency": "USD",
+    "date": "2026-10-26"
+   },
+   "specs": {
+    "degrees_of_freedom": 15
+   },
+   "product_url": "https://shop.xgorobot.com/products/xgo-3-world-s-first-raspberry-pi-robotic-dog-with-an-arm",
+   "links": {
+    "video": null,
+    "docs": null,
+    "price_source": null
+   },
+   "canonical_url": "https://robocensus.com/robots/luwu-xgo-lite3/",
+   "image": {
+    "status": "glyph",
+    "url": null,
+    "credit": null
+   },
+   "sources": {},
+   "provenance": {}
+  }
+ ]
+}

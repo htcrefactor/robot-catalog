@@ -87,6 +87,10 @@ Fields the maker does not publish are left out here — the catalog never fills 
 - [cdn.robotshop.com](https://cdn.robotshop.com/media/A/Agb/RB-Agb-09/pdf/AgiBot-G2-Specification.pdf)
 - [cdn.robotshop.com](https://cdn.robotshop.com/media/A/Agb/RB-Agb-09/pdf/AgiBot-G2-User-Manual.pdf)
 
+Listed by these directories (discovery only, never used as a spec source):
+
+- [robopear.com](https://robopear.com/robots/agibot-genie-g2)
+
 ---
 
-*Robot Catalog — generated from data/robots.json (last merged 2026-11-17). Source repository: https://github.com/htcrefactor/robot-catalog*
+*Robot Catalog — generated from data/robots.json (last merged 2026-11-18). Source repository: https://github.com/htcrefactor/robot-catalog*

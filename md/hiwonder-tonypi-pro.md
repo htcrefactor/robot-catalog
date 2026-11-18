@@ -88,6 +88,11 @@ Maker product page: 373 x 186 x 106 mm, about 1800 g, 18 DoF (Standard/Advanced)
 
 - Official page: [hiwonder.com](https://www.hiwonder.com/products/tonypi-pro)
 
+Listed by these directories (discovery only, never used as a spec source):
+
+- [robocensus.com](https://robocensus.com/robots/hiwonder-tonypi/)
+- [robopear.com](https://robopear.com/robots/hiwonder-tonypi)
+
 ---
 
-*Robot Catalog — generated from data/robots.json (last merged 2026-11-17). Source repository: https://github.com/htcrefactor/robot-catalog*
+*Robot Catalog — generated from data/robots.json (last merged 2026-11-18). Source repository: https://github.com/htcrefactor/robot-catalog*

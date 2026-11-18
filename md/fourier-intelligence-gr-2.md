@@ -99,6 +99,10 @@ Media (2026-11-17): product image grx/gr2.jpg is the GR-2 card in Fourier's GRx 
 - [fftai.com](https://www.fftai.com/grx/gr3)
 - [prnewswire.com](https://www.prnewswire.com/news-releases/fourier-unveils-the-next-generation-humanoid-robot-gr-2-302262432.html)
 
+Listed by these directories (discovery only, never used as a spec source):
+
+- [robopear.com](https://robopear.com/robots/fourier-gr-2)
+
 ---
 
-*Robot Catalog — generated from data/robots.json (last merged 2026-11-17). Source repository: https://github.com/htcrefactor/robot-catalog*
+*Robot Catalog — generated from data/robots.json (last merged 2026-11-18). Source repository: https://github.com/htcrefactor/robot-catalog*

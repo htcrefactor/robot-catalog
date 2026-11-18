@@ -47,7 +47,9 @@ Listed by these directories (discovery only, never used as a spec source):
 
 - [data.robo2u.com](https://data.robo2u.com/robots/petoi-bittle-x)
 - [roboticsrankings.com](https://roboticsrankings.com/robots/petoi-bittle-x/)
+- [robocensus.com](https://robocensus.com/robots/petoi-bittle/)
+- [robocensus.com](https://robocensus.com/robots/petoi-bittle-x/)
 
 ---
 
-*Robot Catalog — generated from data/robots.json (last merged 2026-11-17). Source repository: https://github.com/htcrefactor/robot-catalog*
+*Robot Catalog — generated from data/robots.json (last merged 2026-11-18). Source repository: https://github.com/htcrefactor/robot-catalog*

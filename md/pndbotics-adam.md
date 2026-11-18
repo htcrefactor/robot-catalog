@@ -92,6 +92,11 @@ PNDbotics wiki (checked 2026-11-17) lists four editions: Adam Lite 60 kg and 25 
 - Official page: [wiki.pndbotics.com](https://wiki.pndbotics.com/en/robot/humanoid_robot/)
 - [wiki.pndbotics.com](https://wiki.pndbotics.com/robot/humanoid_robot/)
 
+Listed by these directories (discovery only, never used as a spec source):
+
+- [robocensus.com](https://robocensus.com/robots/pndbotics-adam/)
+- [robopear.com](https://robopear.com/robots/pndbotics-adam)
+
 ---
 
-*Robot Catalog — generated from data/robots.json (last merged 2026-11-17). Source repository: https://github.com/htcrefactor/robot-catalog*
+*Robot Catalog — generated from data/robots.json (last merged 2026-11-18). Source repository: https://github.com/htcrefactor/robot-catalog*

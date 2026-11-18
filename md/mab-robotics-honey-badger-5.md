@@ -41,7 +41,8 @@ Listed by these directories (discovery only, never used as a spec source):
 
 - [roboticsrankings.com](https://roboticsrankings.com/robots/mab-robotics-honey-badger-5/)
 - [embodied.guide](https://embodied.guide/robots/mab-honey-badger-5/)
+- [robocensus.com](https://robocensus.com/robots/mab-robotics-honey-badger/)
 
 ---
 
-*Robot Catalog — generated from data/robots.json (last merged 2026-11-17). Source repository: https://github.com/htcrefactor/robot-catalog*
+*Robot Catalog — generated from data/robots.json (last merged 2026-11-18). Source repository: https://github.com/htcrefactor/robot-catalog*

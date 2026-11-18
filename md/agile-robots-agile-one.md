@@ -83,6 +83,10 @@ Fields the maker does not publish are left out here — the catalog never fills 
 - [agile-robots.com](https://www.agile-robots.com/en/products/humanoid-robots/agile-one/)
 - [linkedin.com](https://www.linkedin.com/posts/agile-robots-se_agilerobots-agileone-humanoid-activity-7417569512302129152-zLuj)
 
+Listed by these directories (discovery only, never used as a spec source):
+
+- [robopear.com](https://robopear.com/robots/agile-robots-agile-one)
+
 ---
 
-*Robot Catalog — generated from data/robots.json (last merged 2026-11-17). Source repository: https://github.com/htcrefactor/robot-catalog*
+*Robot Catalog — generated from data/robots.json (last merged 2026-11-18). Source repository: https://github.com/htcrefactor/robot-catalog*

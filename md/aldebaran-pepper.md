@@ -77,6 +77,10 @@ Fields the maker does not publish are left out here — the catalog never fills 
 
 - [softbankrobotics.com](https://www.softbankrobotics.com/jp/product/pepper/spec/)
 
+Listed by these directories (discovery only, never used as a spec source):
+
+- [robopear.com](https://robopear.com/robots/aldebaran-pepper)
+
 ---
 
-*Robot Catalog — generated from data/robots.json (last merged 2026-11-17). Source repository: https://github.com/htcrefactor/robot-catalog*
+*Robot Catalog — generated from data/robots.json (last merged 2026-11-18). Source repository: https://github.com/htcrefactor/robot-catalog*

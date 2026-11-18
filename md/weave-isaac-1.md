@@ -82,6 +82,10 @@ Maker spec page: height 3 ft to 5 ft 9 in (914-1753 mm; the taller figure is rec
 
 - Official page: [weaverobotics.com](https://www.weaverobotics.com/isaac-1)
 
+Listed by these directories (discovery only, never used as a spec source):
+
+- [robopear.com](https://robopear.com/robots/weave-isaac)
+
 ---
 
-*Robot Catalog — generated from data/robots.json (last merged 2026-11-17). Source repository: https://github.com/htcrefactor/robot-catalog*
+*Robot Catalog — generated from data/robots.json (last merged 2026-11-18). Source repository: https://github.com/htcrefactor/robot-catalog*

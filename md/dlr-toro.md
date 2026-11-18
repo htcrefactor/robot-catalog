@@ -40,7 +40,8 @@ Listed by these directories (discovery only, never used as a spec source):
 - [botupyourlife.com](https://botupyourlife.com/en/robots/dlr-toro/)
 - [data.robo2u.com](https://data.robo2u.com/robots/dlr-german-aerospace-center-toro)
 - [humanoidversus.com](https://humanoidversus.com/robots/dlr-toro)
+- [robopear.com](https://robopear.com/robots/dlr-toro)
 
 ---
 
-*Robot Catalog — generated from data/robots.json (last merged 2026-11-17). Source repository: https://github.com/htcrefactor/robot-catalog*
+*Robot Catalog — generated from data/robots.json (last merged 2026-11-18). Source repository: https://github.com/htcrefactor/robot-catalog*

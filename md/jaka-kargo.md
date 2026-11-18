@@ -45,7 +45,8 @@ Listed by these directories (discovery only, never used as a spec source):
 - [botupyourlife.com](https://botupyourlife.com/en/robots/jaka-kargo/)
 - [embodied.guide](https://embodied.guide/robots/jaka-robotics-kargo/)
 - [humanoid.guide](https://humanoid.guide/product/jaka-kargo/)
+- [robopear.com](https://robopear.com/robots/jaka-kargo)
 
 ---
 
-*Robot Catalog — generated from data/robots.json (last merged 2026-11-17). Source repository: https://github.com/htcrefactor/robot-catalog*
+*Robot Catalog — generated from data/robots.json (last merged 2026-11-18). Source repository: https://github.com/htcrefactor/robot-catalog*

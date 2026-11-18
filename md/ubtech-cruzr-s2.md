@@ -37,7 +37,8 @@ Listed by these directories (discovery only, never used as a spec source):
 - [droid.monster](https://droid.monster/robots/ubtech/cruzr-s2)
 - [embodied.guide](https://embodied.guide/robots/ubtech-robotics-cruzr-s2/)
 - [humanoid.guide](https://humanoid.guide/product/cruzr-s2/)
+- [robopear.com](https://robopear.com/robots/ubtech-cruzr-s2)
 
 ---
 
-*Robot Catalog — generated from data/robots.json (last merged 2026-11-17). Source repository: https://github.com/htcrefactor/robot-catalog*
+*Robot Catalog — generated from data/robots.json (last merged 2026-11-18). Source repository: https://github.com/htcrefactor/robot-catalog*

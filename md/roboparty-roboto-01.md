@@ -49,7 +49,8 @@ Listed by these directories (discovery only, never used as a spec source):
 - [embodied.guide](https://embodied.guide/robots/roboparty-roboto-01/)
 - [humanoid.guide](https://humanoid.guide/product/roboto-origin/)
 - [humanoid.guide](https://humanoid.guide/product/rp1/)
+- [robopear.com](https://robopear.com/robots/roboparty-rp1)
 
 ---
 
-*Robot Catalog — generated from data/robots.json (last merged 2026-11-17). Source repository: https://github.com/htcrefactor/robot-catalog*
+*Robot Catalog — generated from data/robots.json (last merged 2026-11-18). Source repository: https://github.com/htcrefactor/robot-catalog*

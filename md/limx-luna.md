@@ -92,6 +92,11 @@ Maker spec page (checked 2026-11-17): 160 cm, 56 kg with battery, 27 active DoF 
 - [limxdynamics.com](https://www.limxdynamics.com/en/products/luna/faq)
 - [limxdynamics.com](https://www.limxdynamics.com/en/products/luna/spec)
 
+Listed by these directories (discovery only, never used as a spec source):
+
+- [robocensus.com](https://robocensus.com/robots/limx-luna/)
+- [robopear.com](https://robopear.com/robots/limx-luna)
+
 ---
 
-*Robot Catalog — generated from data/robots.json (last merged 2026-11-17). Source repository: https://github.com/htcrefactor/robot-catalog*
+*Robot Catalog — generated from data/robots.json (last merged 2026-11-18). Source repository: https://github.com/htcrefactor/robot-catalog*

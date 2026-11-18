@@ -51,7 +51,9 @@ Listed by these directories (discovery only, never used as a spec source):
 - [humanoidversus.com](https://humanoidversus.com/robots/ubtech-walker-x)
 - [embodied.guide](https://embodied.guide/robots/ubtech-robotics-walker-x/)
 - [botupyourlife.com](https://botupyourlife.com/en/robots/ubtech-panda-robot/)
+- [robocensus.com](https://robocensus.com/robots/ubtech-walker-x/)
+- [robopear.com](https://robopear.com/robots/ubtech-walker-x)
 
 ---
 
-*Robot Catalog — generated from data/robots.json (last merged 2026-11-17). Source repository: https://github.com/htcrefactor/robot-catalog*
+*Robot Catalog — generated from data/robots.json (last merged 2026-11-18). Source repository: https://github.com/htcrefactor/robot-catalog*

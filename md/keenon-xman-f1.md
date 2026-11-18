@@ -76,6 +76,10 @@ Maker product page: 175 cm, 68 kg, 43 DoF across the body (dual 7-DoF arms, dual
 - [ivixrobotics.com](https://www.ivixrobotics.com/en/products/xman-f1/)
 - [keenon.com](https://www.keenon.com/en/news/keenon-debuts-first-bipedal-humanoid-service-robot-at-waic-showcasing-role-specific-embodied-ai-solutions)
 
+Listed by these directories (discovery only, never used as a spec source):
+
+- [robopear.com](https://robopear.com/robots/keenon-xman-f1)
+
 ---
 
-*Robot Catalog — generated from data/robots.json (last merged 2026-11-17). Source repository: https://github.com/htcrefactor/robot-catalog*
+*Robot Catalog — generated from data/robots.json (last merged 2026-11-18). Source repository: https://github.com/htcrefactor/robot-catalog*

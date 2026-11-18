@@ -101,6 +101,10 @@ Maker spec table for the follower FFW-SG2: 604 x 602 x 1,623 mm, 90 kg, 25 total
 - [humanoidstore.co](https://humanoidstore.co/robots/robotis-ai-worker)
 - [robotis.com](https://www.robotis.com/ko/)
 
+Listed by these directories (discovery only, never used as a spec source):
+
+- [robopear.com](https://robopear.com/robots/robotis-ai-worker)
+
 ---
 
-*Robot Catalog — generated from data/robots.json (last merged 2026-11-17). Source repository: https://github.com/htcrefactor/robot-catalog*
+*Robot Catalog — generated from data/robots.json (last merged 2026-11-18). Source repository: https://github.com/htcrefactor/robot-catalog*

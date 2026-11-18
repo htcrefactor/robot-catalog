@@ -786,6 +786,7 @@
   "id": "samhyun-boldum",
   "name": "BOLDUM (HAMR 3-ton)",
   "manufacturer": "Samhyun",
+  "manufacturer_ko": "주식회사 삼현",
   "country": "South Korea",
   "category": "AMR",
   "locomotion": "Wheeled",
@@ -830,8 +831,7 @@
     "kind": "direct",
     "url": "https://www.samhyun.co.kr/"
    }
-  ],
-  "manufacturer_ko": "주식회사 삼현"
+  ]
  },
  {
   "id": "pudu-t300",
@@ -1329,6 +1329,7 @@
   "id": "rainbow-robotics-rbm-s100a",
   "name": "RBM-S100a",
   "manufacturer": "Rainbow Robotics",
+  "manufacturer_ko": "레인보우로보틱스",
   "country": "South Korea",
   "category": "AMR",
   "locomotion": "Wheeled",
@@ -1384,7 +1385,6 @@
   "verification": "official",
   "note": "Battery 15 Ah @ 48 V (Wh not stated). Page also lists a '320×180×375 mm' size in a separate table that appears to be an accessory/charger, so robot dimensions left null. Official docs on GitHub (github.com/rainbow-mobile).",
   "kr_note": "국내 판매·데모·기술 상담은 본사와 전문 파트너사를 통해 진행합니다.",
-  "manufacturer_ko": "레인보우로보틱스",
   "kr_distributors": [
    {
     "name": "레인보우로보틱스 (본사·파트너사 직판)",
@@ -1397,6 +1397,7 @@
   "id": "rainbow-robotics-rbm-s100b",
   "name": "RBM-S100b",
   "manufacturer": "Rainbow Robotics",
+  "manufacturer_ko": "레인보우로보틱스",
   "country": "South Korea",
   "category": "AMR",
   "locomotion": "Wheeled",
@@ -1444,7 +1445,6 @@
   "verification": "official",
   "note": "Multi-tray variant of RBM-S100a. Battery 15 Ah @ 48 V. Same image as S100a on official page.",
   "kr_note": "국내 판매·데모·기술 상담은 본사와 전문 파트너사를 통해 진행합니다.",
-  "manufacturer_ko": "레인보우로보틱스",
   "kr_distributors": [
    {
     "name": "레인보우로보틱스 (본사·파트너사 직판)",
@@ -4644,6 +4644,7 @@
   "id": "rainbow-robotics-rbm-d1000",
   "name": "RBM-D1000",
   "manufacturer": "Rainbow Robotics",
+  "manufacturer_ko": "레인보우로보틱스",
   "country": "South Korea",
   "category": "AMR",
   "locomotion": "Wheeled",
@@ -4691,7 +4692,6 @@
   "verification": "official",
   "note": "Official product page with full spec table. battery: battery_wh computed from stated 50V×50Ah (14S10P); wheel_count = 2 drive + 4 caster; api_support from web-based FMS + official GitHub (github.com/rainbow-mobile)",
   "kr_note": "국내 판매·데모·기술 상담은 본사와 전문 파트너사를 통해 진행합니다.",
-  "manufacturer_ko": "레인보우로보틱스",
   "kr_distributors": [
    {
     "name": "레인보우로보틱스 (본사·파트너사 직판)",
@@ -4704,6 +4704,7 @@
   "id": "rainbow-robotics-rbm-d400",
   "name": "RBM-D400",
   "manufacturer": "Rainbow Robotics",
+  "manufacturer_ko": "레인보우로보틱스",
   "country": "South Korea",
   "category": "AMR",
   "locomotion": "Wheeled",
@@ -4751,7 +4752,6 @@
   "verification": "official",
   "note": "Official product page with full spec table. Older RBM-D400 page (rainbow-robotics.com/en_rbm_d400_new) listed self-weight 110 kg; current page says 70 kg — used current page. battery: battery_wh computed from stated 50V×25Ah (14S5P); wheel_count = 2 drive + 4 caster",
   "kr_note": "국내 판매·데모·기술 상담은 본사와 전문 파트너사를 통해 진행합니다.",
-  "manufacturer_ko": "레인보우로보틱스",
   "kr_distributors": [
    {
     "name": "레인보우로보틱스 (본사·파트너사 직판)",

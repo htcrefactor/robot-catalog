@@ -192,6 +192,10 @@ Unitree Go2 page comparison table (PRO column, checked 2026-11-17): 70 x 31 x 40
 - [shop.unitree.com](https://shop.unitree.com/products/unitree-go2)
 - [younginmobility.com](https://www.younginmobility.com/)
 
+Listed by these directories (discovery only, never used as a spec source):
+
+- [robocensus.com](https://robocensus.com/robots/unitree-go2/)
+
 ---
 
-*Robot Catalog — generated from data/robots.json (last merged 2026-11-17). Source repository: https://github.com/htcrefactor/robot-catalog*
+*Robot Catalog — generated from data/robots.json (last merged 2026-11-18). Source repository: https://github.com/htcrefactor/robot-catalog*

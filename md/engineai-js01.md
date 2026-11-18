@@ -39,7 +39,8 @@ Listed by these directories (discovery only, never used as a spec source):
 - [droid.monster](https://droid.monster/robots/engineai/js01)
 - [roboticsrankings.com](https://roboticsrankings.com/robots/engineai-js01/)
 - [embodied.guide](https://embodied.guide/robots/engineai-js01/)
+- [robocensus.com](https://robocensus.com/robots/engineai-js01/)
 
 ---
 
-*Robot Catalog — generated from data/robots.json (last merged 2026-11-17). Source repository: https://github.com/htcrefactor/robot-catalog*
+*Robot Catalog — generated from data/robots.json (last merged 2026-11-18). Source repository: https://github.com/htcrefactor/robot-catalog*

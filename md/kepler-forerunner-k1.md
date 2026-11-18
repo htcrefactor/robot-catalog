@@ -37,7 +37,8 @@ Maker spec is shared across the Forerunner K1/S1/D1 trio. Succeeded by the Forer
 Listed by these directories (discovery only, never used as a spec source):
 
 - [humanoidversus.com](https://humanoidversus.com/robots/kepler-forerunner-k1)
+- [robopear.com](https://robopear.com/robots/kepler-k1)
 
 ---
 
-*Robot Catalog — generated from data/robots.json (last merged 2026-11-17). Source repository: https://github.com/htcrefactor/robot-catalog*
+*Robot Catalog — generated from data/robots.json (last merged 2026-11-18). Source repository: https://github.com/htcrefactor/robot-catalog*

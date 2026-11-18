@@ -66,6 +66,10 @@ Media (2026-11-17): press photo of CLOiD folding laundry from LG's own CES 2026 
 - [lge.co.kr](https://www.lge.co.kr/story/newsroom/234937)
 - [lge.co.kr](https://www.lge.co.kr/story/newsroom/225625)
 
+Listed by these directories (discovery only, never used as a spec source):
+
+- [robopear.com](https://robopear.com/robots/lg-cloid)
+
 ---
 
-*Robot Catalog — generated from data/robots.json (last merged 2026-11-17). Source repository: https://github.com/htcrefactor/robot-catalog*
+*Robot Catalog — generated from data/robots.json (last merged 2026-11-18). Source repository: https://github.com/htcrefactor/robot-catalog*

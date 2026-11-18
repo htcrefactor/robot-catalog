@@ -2,6 +2,7 @@
  {
   "id": "boston-dynamics-spot",
   "name": "Spot",
+  "name_ko": "스팟",
   "manufacturer": "Boston Dynamics",
   "country": "United States",
   "category": "Quadruped",
@@ -41,6 +42,9 @@
    "https://spot.clobot.co.kr/"
   ],
   "summary": "Agile industrial quadruped for autonomous inspection, data capture and hazardous-area response, extendable with payloads and an arm.",
+  "seen_on": [
+   "https://robocensus.com/robots/boston-dynamics-spot/"
+  ],
   "verification": "official",
   "note": "Maker product page specifications: length 1100 mm, width 500 mm, walking height 610 mm, 33.8 kg with battery, 1.6 m/s, +/-30 deg slope, 300 mm step, IP54, -20 to 55 C, 564 Wh battery, 90 min average runtime and 60 min recharge, 360 deg perception. Payload is not stated on the page (its 20.43 kg figure is the Spot Arm's max lift), so the catalogue's 14 kg payload is cleared rather than asserted.",
   "sdk": {
@@ -51,7 +55,6 @@
    "license": "Boston Dynamics SDK License",
    "url": "https://github.com/boston-dynamics/spot-sdk"
   },
-  "name_ko": "스팟",
   "kr_distributors": [
    {
     "name": "클로봇 (Clobot)",
@@ -106,6 +109,9 @@
    "https://github.com/ANYbotics/anymal_d_simple_description/blob/master/urdf/anymal.urdf"
   ],
   "summary": "Autonomous IP67 legged robot for routine visual, thermal and acoustic inspection in industrial plants.",
+  "seen_on": [
+   "https://robocensus.com/robots/anybotics-anymal/"
+  ],
   "verification": "official",
   "note": "ANYmal technical specifications (V.1 May 2022) and the Apr 2024 sheet: 930x530x890 mm walking, 50 kg (55.7 kg with inspection payload), payload up to 10 kg nominal (15 kg with reduced performance), 1.3 m/s max (0.75 m/s recommended), 90-120 min on 932.4 Wh, IP67, 2x 8th-gen Intel Core i7 with 2x 8 GB RAM and 2x 240 GB SSD, Ubuntu 20.04, 16-channel lidar plus depth and tele-operation cameras, ANYmal API.",
   "sim_models": {
@@ -208,8 +214,8 @@
    "https://www.younginmobility.com/"
   ],
   "summary": "Entry consumer quadruped robot dog with 4D LiDAR for hobby and companionship use.",
-  "note": "Unitree Go2 page comparison table (AIR column, checked 2026-11-17): standing 70 x 31 x 40 cm, about 15 kg, payload about 7 kg (max ~10 kg), 0-2.5 m/s, 12 joint motors, battery 8000 mAh at 28-33.6 V, battery life about 1-2 h, max climb 30 deg, $1,600 tax and freight excluded. No IP rating is given for any Go2 version and no battery Wh figure is published, so both stay empty.",
   "verification": "official",
+  "note": "Unitree Go2 page comparison table (AIR column, checked 2026-11-17): standing 70 x 31 x 40 cm, about 15 kg, payload about 7 kg (max ~10 kg), 0-2.5 m/s, 12 joint motors, battery 8000 mAh at 28-33.6 V, battery life about 1-2 h, max climb 30 deg, $1,600 tax and freight excluded. No IP rating is given for any Go2 version and no battery Wh figure is published, so both stay empty.",
   "sim_models": {
    "urdf": {
     "url": "https://github.com/unitreerobotics/unitree_ros/blob/master/robots/go2_description/urdf/go2_description.urdf",
@@ -295,8 +301,11 @@
    "https://www.younginmobility.com/"
   ],
   "summary": "Consumer quadruped with 4G, voice and side-follow features for enthusiasts.",
-  "note": "Unitree Go2 page comparison table (PRO column, checked 2026-11-17): 70 x 31 x 40 cm, about 15 kg, payload about 8 kg (max ~10 kg), 0-3.5 m/s, 12 joint motors, 8000 mAh battery, 1-2 h, 4D LiDAR L2 + HD wide-angle camera + wireless vector positioning module, 8-core CPU, $2,800. IP rating and battery Wh are not published.",
+  "seen_on": [
+   "https://robocensus.com/robots/unitree-go2/"
+  ],
   "verification": "official",
+  "note": "Unitree Go2 page comparison table (PRO column, checked 2026-11-17): 70 x 31 x 40 cm, about 15 kg, payload about 8 kg (max ~10 kg), 0-3.5 m/s, 12 joint motors, 8000 mAh battery, 1-2 h, 4D LiDAR L2 + HD wide-angle camera + wireless vector positioning module, 8-core CPU, $2,800. IP rating and battery Wh are not published.",
   "sim_models": {
    "urdf": {
     "url": "https://github.com/unitreerobotics/unitree_ros/blob/master/robots/go2_description/urdf/go2_description.urdf",
@@ -385,8 +394,8 @@
    "https://www.younginmobility.com/"
   ],
   "summary": "Research and education version of Go2 with secondary-development access, foot force sensors and a long-endurance battery.",
-  "note": "Unitree Go2 page comparison table (EDU column, checked 2026-11-17): 70 x 31 x 40 cm, about 15 kg, payload about 8 kg (max ~12 kg), 0-3.7 m/s (max ~5 m/s), 12 joint motors, long-endurance 15000 mAh battery, about 2-4 h (2 h recorded is the lower bound), foot-end force sensor, depth camera, secondary development supported; optional Orin module 40-100 TOPS. Only EDU supports the full SDK and secondary development.",
   "verification": "official",
+  "note": "Unitree Go2 page comparison table (EDU column, checked 2026-11-17): 70 x 31 x 40 cm, about 15 kg, payload about 8 kg (max ~12 kg), 0-3.7 m/s (max ~5 m/s), 12 joint motors, long-endurance 15000 mAh battery, about 2-4 h (2 h recorded is the lower bound), foot-end force sensor, depth camera, secondary development supported; optional Orin module 40-100 TOPS. Only EDU supports the full SDK and secondary development.",
   "ros2_support": true,
   "sdk": {
    "languages": [
@@ -486,8 +495,11 @@
    "https://www.younginmobility.com/"
   ],
   "summary": "Heavy industrial quadruped for power inspection, emergency rescue and logistics with 40 kg walking load.",
-  "note": "Unitree B2 page (checked 2026-11-17): standing about 1098 x 450 x 645 mm, 60 kg with battery, battery 45 Ah (2250 Wh) at 58 V, 4-6 h, >6 m/s in special configurations, IP67, -20 to 55 C, standing load >=120 kg and walking load >40 kg (40 kg recorded is the walking figure). The page states no degrees of freedom.",
+  "seen_on": [
+   "https://robocensus.com/robots/unitree-b2/"
+  ],
   "verification": "official",
+  "note": "Unitree B2 page (checked 2026-11-17): standing about 1098 x 450 x 645 mm, 60 kg with battery, battery 45 Ah (2250 Wh) at 58 V, 4-6 h, >6 m/s in special configurations, IP67, -20 to 55 C, standing load >=120 kg and walking load >40 kg (40 kg recorded is the walking figure). The page states no degrees of freedom.",
   "ros2_support": true,
   "sdk": {
    "languages": [
@@ -586,8 +598,11 @@
    "https://www.younginmobility.com/"
   ],
   "summary": "Mid-size industrial quadruped with hot-swappable dual batteries for inspection, logistics and rescue.",
-  "note": "Unitree A2 page (checked 2026-11-17): standing 820 x 440 x 570 mm, 42 kg with battery (35 kg without), 12 joint motors, single battery 9000 mAh (453.6 Wh) and dual 18000 mAh (907.2 Wh) - the 907.2 Wh recorded is the dual-battery figure; walking load about 25 kg (ideally ~35 kg), standing load about 100 kg; battery life >5 h without load / >3 h with 25 kg (the 3 h recorded is the loaded figure); speed 0-3.7 m/s (up to ~5 m/s in special configuration); IP56 on A2, IP56-IP67 on A2 Pro. A2 Pro adds a second LiDAR and wireless-vector follow module.",
+  "seen_on": [
+   "https://robocensus.com/robots/unitree-a2/"
+  ],
   "verification": "official",
+  "note": "Unitree A2 page (checked 2026-11-17): standing 820 x 440 x 570 mm, 42 kg with battery (35 kg without), 12 joint motors, single battery 9000 mAh (453.6 Wh) and dual 18000 mAh (907.2 Wh) - the 907.2 Wh recorded is the dual-battery figure; walking load about 25 kg (ideally ~35 kg), standing load about 100 kg; battery life >5 h without load / >3 h with 25 kg (the 3 h recorded is the loaded figure); speed 0-3.7 m/s (up to ~5 m/s in special configuration); IP56 on A2, IP56-IP67 on A2 Pro. A2 Pro adds a second LiDAR and wireless-vector follow module.",
   "sdk": {
    "languages": [
     "C++",
@@ -675,6 +690,9 @@
    "https://github.com/DeepRoboticsLab/deep_robotics_model/blob/main/X30/usd/X30.usd"
   ],
   "summary": "Flagship IP67 industrial quadruped for inspection, security and emergency response in extreme weather.",
+  "seen_on": [
+   "https://robocensus.com/robots/deep-robotics-x30/"
+  ],
   "verification": "official",
   "note": "Maker X30 page: X30 Pro is ~1000 x 470 x 715 mm and ~59 kg (X30: 695 mm, ~56 kg), 20 kg payload, 2.5 m/s working speed with a 4.5 m/s extreme, 30 cm stairs, IP67, -20 to 55 C, output power 5/12/24 V. Runtime 2.5 h and the 1,612.8 Wh pack come from the X30 user manual, which is hosted outside the maker's domain.",
   "sim_models": {
@@ -740,6 +758,9 @@
    "https://developer.deeprobotics.cn/docs/lite3/guide/software/compute/"
   ],
   "summary": "Compact quadruped for robotics education, reinforcement-learning research and entertainment.",
+  "seen_on": [
+   "https://robocensus.com/robots/deep-robotics-lite3/"
+  ],
   "verification": "official",
   "note": "Maker page: Basic 610 x 370 x 406 mm, 12 kg, 5 kg payload, 1.5-2 h operation (1.5 recorded), 40 deg slope, RK3588 motion host plus Jetson Xavier NX perception host on Pro/LiDAR versions, Ubuntu 20.04, ROS 1 Noetic / ROS 2 Foxy and a Motion SDK. Other editions: Venture 445 mm/12.2 kg/4.5 kg, Pro 450 mm/12.9 kg/4 kg, LiDAR 496 mm/13.5 kg/2.5 kg.",
   "sdk": {
@@ -830,6 +851,9 @@
    "https://www.ghostrobotics.io/vision-60"
   ],
   "summary": "Rugged all-weather quadruped UGV for defense, public safety and industrial inspection with modular payloads.",
+  "seen_on": [
+   "https://robocensus.com/robots/ghost-robotics-vision-60/"
+  ],
   "verification": "official",
   "note": "Ghost Robotics' own technical specifications on the Vision 60 page: 51 kg tare, 950 x 570 x 685 mm standing (250 mm body width, 419 mm ride height), 10 kg payload, standard walk 0.9 m/s with 1.2 m/s fast-walk and 2.4 m/s sprint (target 3.0), 3.15 h continuous walking at 0.9 m/s or 21 h standby, IP67, -40 to 55 C, 4G/LTE and Wi-Fi with a GigE switch. The Jetson Xavier 32 GB / 2 TB NVMe compute entry comes from the maker's spec sheet v3.3.",
   "compute_memory_gb": 32,
@@ -883,8 +907,11 @@
    "https://agreement.cyberdog.xiaomi.com/guide.html"
   ],
   "summary": "Small open-source bionic robot dog for developers and enthusiasts, sold in mainland China.",
-  "note": "Xiaomi CyberDog 2 specification page (mi.com/cyberdog2/specs, read 2026-11-17): standing 562 x 339 x 481 mm (crouched 603 x 339 x 300 mm), 8.9 +/- 0.5 kg with battery, 12 DoF (3 per leg), maximum payload 1 kg, 1.6 m/s forward, about 90 min runtime (1.5 h recorded) and about 90 min charge, battery 4500 mAh / 97.2 Wh at 21.6 V, 0-40 C, Ubuntu 18.04 + ROS 2, 6-core NVIDIA Carmel CPU with 384-core Volta GPU and 8 GB RAM, YDLIDAR TG30 laser sensor plus RealSense D430 depth camera, fisheye, AI interaction camera, ToF, ultrasonic, UWB and 4-mic array.",
+  "seen_on": [
+   "https://robocensus.com/robots/xiaomi-cyberdog2/"
+  ],
   "verification": "official",
+  "note": "Xiaomi CyberDog 2 specification page (mi.com/cyberdog2/specs, read 2026-11-17): standing 562 x 339 x 481 mm (crouched 603 x 339 x 300 mm), 8.9 +/- 0.5 kg with battery, 12 DoF (3 per leg), maximum payload 1 kg, 1.6 m/s forward, about 90 min runtime (1.5 h recorded) and about 90 min charge, battery 4500 mAh / 97.2 Wh at 21.6 V, 0-40 C, Ubuntu 18.04 + ROS 2, 6-core NVIDIA Carmel CPU with 384-core Volta GPU and 8 GB RAM, YDLIDAR TG30 laser sensor plus RealSense D430 depth camera, fisheye, AI interaction camera, ToF, ultrasonic, UWB and 4-mic array.",
   "compute_memory_gb": 8,
   "compute_source": null,
   "compute_tops": 21,
@@ -894,6 +921,7 @@
   "id": "rainbow-robotics-rbq-10",
   "name": "RBQ-10",
   "manufacturer": "Rainbow Robotics",
+  "manufacturer_ko": "레인보우로보틱스",
   "country": "South Korea",
   "category": "Quadruped",
   "locomotion": "Legged",
@@ -944,13 +972,14 @@
     "url": "https://rainbow-robotics.com/"
    }
   ],
-  "kr_note": "국내 판매·데모·기술 상담은 본사와 전문 파트너사를 통해 진행합니다.",
-  "manufacturer_ko": "레인보우로보틱스"
+  "kr_note": "국내 판매·데모·기술 상담은 본사와 전문 파트너사를 통해 진행합니다."
  },
  {
   "id": "diden-robotics-diden-spider",
   "name": "Diden Spider (Spider 30)",
+  "name_ko": "디든 스파이더 30",
   "manufacturer": "Diden Robotics",
+  "manufacturer_ko": "디든로보틱스",
   "country": "South Korea",
   "category": "Quadruped",
   "locomotion": "Legged",
@@ -990,15 +1019,13 @@
   "summary": "Magnetic-foot quadruped that climbs steel walls and ceilings inside ship blocks to carry welding and inspection tools.",
   "verification": "official",
   "note": "Maker sources (products page and the GTC 2026 article) state a 30 kg payload and electro-permanent magnet feet with pulse switching, and report field deployment at Korean shipyards with welds applied to production vessels. Mass, dimensions, joint count, IP rating and speed are not published on the maker's site; press reports (eWeek, Oct 2026) give 958 x 460 x 494 mm, 45 kg, 12 actuators, 0.1 m/s and IP54 connectors, and those values are cleared here rather than asserted.",
-  "name_ko": "디든 스파이더 30",
   "kr_distributors": [
    {
     "name": "디든로보틱스 (본사 직판)",
     "kind": "direct",
     "url": "https://www.didenrobotics.com/"
    }
-  ],
-  "manufacturer_ko": "디든로보틱스"
+  ]
  },
  {
   "id": "kuwa-d0",
@@ -1084,8 +1111,8 @@
    "https://ai.42how.com/en/article/b3a58c9d-4873-4d89-a13f-ceb0801b54a9"
   ],
   "summary": "Developer-oriented quadruped platform with LiDAR, stereo cameras, ROS 2 and SDK, launched 10 Nov 2026 at about CNY 20,988.",
-  "note": "Vita Dynamics (维他动力) released the DEV Geek Edition on 10 November 2026 for CNY 22,988 (CNY 20,988 from 10 to 20 November) as a developer version of its Vbot platform, with a 360 degree 16-line LiDAR, 1080p depth stereo cameras, UWB, a four-microphone array, 128 TOPS on-device compute, ROS 2 and the open-sourced Aorta middleware. The 594 Wh battery and the sensor set are the maker's platform figures on vbot.cn/Detail; the maker publishes no separate DEV mass, dimensions, speed or runtime table, so those fields stay empty.",
   "verification": "official",
+  "note": "Vita Dynamics (维他动力) released the DEV Geek Edition on 10 November 2026 for CNY 22,988 (CNY 20,988 from 10 to 20 November) as a developer version of its Vbot platform, with a 360 degree 16-line LiDAR, 1080p depth stereo cameras, UWB, a four-microphone array, 128 TOPS on-device compute, ROS 2 and the open-sourced Aorta middleware. The 594 Wh battery and the sensor set are the maker's platform figures on vbot.cn/Detail; the maker publishes no separate DEV mass, dimensions, speed or runtime table, so those fields stay empty.",
   "compute_memory_gb": null,
   "compute_source": null,
   "compute_tops": 128,
@@ -1130,8 +1157,8 @@
    "https://www.splegend.com/en/business/robot.html"
   ],
   "summary": "Consumer collectible robot dog developed by Unitree with Star Plus Legend, launched at CIIE in November 2026 with an OLED face, 4G app control and ISS 2.0 follow system.",
-  "note": "Official UNI-DOGGIE site (a.unidoggie.com/market/, checked 2026-11-17): standing about 70 x 31 x 40 cm, about 19 kg with battery, payload 4 kg normally (6 kg maximum), 0-2 m/s, 16 cm step, 40 degree slope, 28-33.6 V, 15000 mAh battery with about 2-4 h, 12 aluminium-alloy joint motors, touch sensor, OLED eyes, WiFi 6/Bluetooth/4G. Launch price CNY 43,900 in a run of 2,000 units. Star Plus Legend (splegend.com) confirms the joint development and joint venture.",
-  "verification": "official"
+  "verification": "official",
+  "note": "Official UNI-DOGGIE site (a.unidoggie.com/market/, checked 2026-11-17): standing about 70 x 31 x 40 cm, about 19 kg with battery, payload 4 kg normally (6 kg maximum), 0-2 m/s, 16 cm step, 40 degree slope, 28-33.6 V, 15000 mAh battery with about 2-4 h, 12 aluminium-alloy joint motors, touch sensor, OLED eyes, WiFi 6/Bluetooth/4G. Launch price CNY 43,900 in a run of 2,000 units. Star Plus Legend (splegend.com) confirms the joint development and joint venture."
  },
  {
   "id": "unitree-a1",
@@ -1423,7 +1450,8 @@
    "https://botupyourlife.com/en/robots/deep-robotics-x20/",
    "https://data.robo2u.com/robots/deep-robotics-x20",
    "https://droid.monster/robots/deep-robotics/x20",
-   "https://embodied.guide/robots/deep-robotics-x20/"
+   "https://embodied.guide/robots/deep-robotics-x20/",
+   "https://robocensus.com/robots/deep-robotics-x20/"
   ],
   "verification": "official",
   "note": "DEEP Robotics' STAR Market prospectus (Sept 2026) confirms Jueying X20 launched in 2021 as its 2nd-generation industry-grade quadruped with IP66 protection and fully autonomous inspection. The maker's former X20 spec page (search-index copy only: 950x470x700 mm, 53 kg, 20 kg payload, >=4 m/s, 2-4 h, 15 km) now 404s after the site redesign and could not be opened, so those figures are left out. X20 is no longer in the current lineup (X50/X30/Lite3/M20/S10); status not stated."
@@ -1898,7 +1926,8 @@
    "https://droid.monster/robots/agibot/d1-pro-edu",
    "https://roboticsrankings.com/robots/agibot-d1/",
    "https://embodied.guide/robots/agibot-d1-edu/",
-   "https://embodied.guide/robots/agibot-d1-pro/"
+   "https://embodied.guide/robots/agibot-d1-pro/",
+   "https://robocensus.com/robots/agibot-d1/"
   ],
   "verification": "official",
   "note": "D1 Pro and D1 Edu are two SKUs on one official page: Pro $3,200 (no SDK), Edu $6,080 (SDK/expansion ports). Battery 4.6 Ah @ 43.2 V (Wh not stated). runtime 1–2 h stated; lower bound used.",
@@ -2642,7 +2671,9 @@
   "videos": [],
   "seen_on": [
    "https://data.robo2u.com/robots/petoi-bittle-x",
-   "https://roboticsrankings.com/robots/petoi-bittle-x/"
+   "https://roboticsrankings.com/robots/petoi-bittle-x/",
+   "https://robocensus.com/robots/petoi-bittle/",
+   "https://robocensus.com/robots/petoi-bittle-x/"
   ],
   "verification": "official",
   "note": "Maker spec page: standing dimensions 190 x 153 x 107 mm (axis order not labelled; only length_mm filled), weight 269-353 g depending on version/arm (older spec page: 200 x 110 x 110 mm, 265-290 g). 9 servo joints (8 legs + 1 neck) = 9 DoF. Battery 7.4 V 1000 mAh (= 7.4 Wh), ~1 h runtime. Maker FAQ (search excerpt) says it carries 1 lb (~0.45 kg) - filled; FAQ speed '2 body lengths/s, or 40 mm/s' is internally inconsistent - not filled. Price not read from an opened maker page (aggregator says $319 kit) - not filled. Variants: Bittle X, Bittle X V2, Bittle X V2+Arm.",
@@ -2727,7 +2758,8 @@
   "image_source": "https://mangdang.store/products/mp2",
   "videos": [],
   "seen_on": [
-   "https://data.robo2u.com/robots/mangdang-mini-pupper-2"
+   "https://data.robo2u.com/robots/mangdang-mini-pupper-2",
+   "https://robocensus.com/robots/mangdang-mini-pupper-2/"
   ],
   "verification": "official",
   "note": "Maker spec table (MiniPupperDocs): 209 x 109 x 145 mm, 465 g, 200 g payload, Raspberry Pi CM4 + ESP32-S3, serial-bus servos with position feedback, IMU, touch sensor, mic/speaker, 320x240 screen, 1000 mAh battery (voltage not stated, Wh not filled), Ubuntu 24.04/22.04, ROS 2 Humble/Jazzy. 12 DoF per maker Kickstarter (not opened) - left out. Launched 2022 (maker docs). Price US$649 pre-assembled on maker store (legs-pre-assembled kit cheaper). Distributor weight 450 g conflicts - maker 465 g used. LiDAR and camera are optional add-ons.",
@@ -3072,7 +3104,8 @@
   "videos": [],
   "seen_on": [
    "https://data.robo2u.com/robots/genisom-l2",
-   "https://embodied.guide/robots/genisom-gangben-l2/"
+   "https://embodied.guide/robots/genisom-gangben-l2/",
+   "https://robocensus.com/robots/genisom-l2/"
   ],
   "verification": "official",
   "note": "Official name 'Genisom L2' (钢镚 L2; recorded earlier as 'Gangben/Gangbeng L2'). Speed 3.2 m/s rated, 5 m/s peak. The 70 cm obstacle headline belongs to the wheeled L2-W variant (27 kg) per maker brochure."
@@ -3314,7 +3347,8 @@
   "seen_on": [
    "https://droid.monster/robots/engineai/js01",
    "https://roboticsrankings.com/robots/engineai-js01/",
-   "https://embodied.guide/robots/engineai-js01/"
+   "https://embodied.guide/robots/engineai-js01/",
+   "https://robocensus.com/robots/engineai-js01/"
   ],
   "verification": "official",
   "note": "Launched May 2025 (GAIE Shenzhen). Maker page says 10,000 mAh quick-swap battery while resellers quote a 50 Ah/48.1 V brochure figure, so battery left out."
@@ -3374,7 +3408,8 @@
   "image_source": null,
   "videos": [],
   "seen_on": [
-   "https://droid.monster/robots/unitree/as2"
+   "https://droid.monster/robots/unitree/as2",
+   "https://robocensus.com/robots/unitree-as2/"
   ],
   "verification": "official",
   "note": "Official page + shop. Variants Air/Pro/X/EDU; Air ships with Unitree L2 LiDAR, others 64–128-line LiDAR. CN mirror page shows older 18 kg/90 N·m figures; used current 20 kg. payload: 15 kg continuous walking load; 65 kg standing load; runtime 4h unloaded, 2.5h with 15 kg",
@@ -3525,7 +3560,8 @@
   "videos": [],
   "seen_on": [
    "https://roboticsrankings.com/robots/mab-robotics-honey-badger-5/",
-   "https://embodied.guide/robots/mab-honey-badger-5/"
+   "https://embodied.guide/robots/mab-honey-badger-5/",
+   "https://robocensus.com/robots/mab-robotics-honey-badger/"
   ],
   "verification": "official",
   "note": "Polish quadruped; launched July 2026, replaces HB 4.0. Height 13-50 cm (max used). IP66 per 5.0 page."
@@ -5195,7 +5231,8 @@
   "image_source": null,
   "videos": [],
   "seen_on": [
-   "https://embodied.guide/robots/genisom-gangben-l1/"
+   "https://embodied.guide/robots/genisom-gangben-l1/",
+   "https://robocensus.com/robots/genisom-l1/"
   ],
   "verification": "official",
   "note": "Official name 'Genisom L1' (钢镚 L1) - the record was listed as 'Gangben L1' from a competitor's transliteration. GENISOM AI (智身科技) page: limit speed 5 m/s; payload ≈8 kg (limit ~10 kg). Battery 43.2 V × 4.6 Ah rated (~199 Wh, computed; not stated as Wh). EDU version adds Jetson Orin NX, 3D LiDAR, depth camera.",
@@ -5296,7 +5333,8 @@
   "image_source": null,
   "videos": [],
   "seen_on": [
-   "https://embodied.guide/robots/genisom-tongchui-m1/"
+   "https://embodied.guide/robots/genisom-tongchui-m1/",
+   "https://robocensus.com/robots/genisom-m1/"
   ],
   "verification": "official",
   "note": "Official 铜锤 M1 (variants M1/Pro/Ultra): 12 joint motors + 4 hub motors (wheel-legged; optional point-foot kit), so category 'Quadruped' may be better as Wheel-legged. Limit speed 8 m/s. Battery 54 V × 9.35 Ah × 2 (~1010 Wh computed). Weight 41 kg with battery.",
@@ -5822,6 +5860,7 @@
   "id": "kaist-hound",
   "name": "HOUND",
   "manufacturer": "KAIST",
+  "manufacturer_ko": "한국과학기술원",
   "country": "South Korea",
   "category": "Quadruped",
   "locomotion": "Legged",
@@ -5863,13 +5902,13 @@
    "https://embodied.guide/robots/kaist-hound/"
   ],
   "verification": "official",
-  "note": "Lab page: 45 kg, torso 0.7 x 0.2 x 0.14 m (body dimensions, not a standing envelope), thigh/calf 0.33/0.35 m, 50 Nm joints. KAIST news: 6.5 m/s on a treadmill and 100 m in 19.87 s from a standing start (Guinness World Record), 22 deg slopes, 35 cm obstacles, 3.2 km continuous. Joint count is not stated on the lab page, so DoF is left empty.",
-  "manufacturer_ko": "한국과학기술원"
+  "note": "Lab page: 45 kg, torso 0.7 x 0.2 x 0.14 m (body dimensions, not a standing envelope), thigh/calf 0.33/0.35 m, 50 Nm joints. KAIST news: 6.5 m/s on a treadmill and 100 m in 19.87 s from a standing start (Guinness World Record), 22 deg slopes, 35 cm obstacles, 3.2 km continuous. Joint count is not stated on the lab page, so DoF is left empty."
  },
  {
   "id": "kaist-raibo",
   "name": "RAIBO",
   "manufacturer": "KAIST",
+  "manufacturer_ko": "한국과학기술원",
   "country": "South Korea",
   "category": "Quadruped",
   "locomotion": "Legged",
@@ -5910,8 +5949,7 @@
    "https://embodied.guide/robots/kaist-raibo/"
   ],
   "verification": "official",
-  "note": "RAILAB's robots page describes RAIBO as a middle-sized quadruped for inspection, exploration and patrol with 12 powerful motors, and publishes no mass, dimensions or speed for RAIBO itself. Its successor RAIBO2 is 42 kg, up to 6 m/s and 8 h. Status kept as Discontinued on the strength of the successor being the platform RAION Robotics now takes to market.",
-  "manufacturer_ko": "한국과학기술원"
+  "note": "RAILAB's robots page describes RAIBO as a middle-sized quadruped for inspection, exploration and patrol with 12 powerful motors, and publishes no mass, dimensions or speed for RAIBO itself. Its successor RAIBO2 is 42 kg, up to 6 m/s and 8 h. Status kept as Discontinued on the strength of the successor being the platform RAION Robotics now takes to market."
  },
  {
   "id": "keybotic-keyper",
@@ -6217,7 +6255,9 @@
  {
   "id": "maum-ai-jindo-bot",
   "name": "JINDO BOT",
+  "name_ko": "진도봇",
   "manufacturer": "Maum AI",
+  "manufacturer_ko": "마음AI",
   "country": "South Korea",
   "category": "Quadruped",
   "locomotion": "Legged",
@@ -6259,8 +6299,6 @@
   ],
   "verification": "official",
   "note": "maum.ai lists JINDO BOT on its Physical AI product line; it is a family brand with four mission variants (Guard, Ranger, Haechi, Vanguard). No official spec sheet found; pre-order/subscription stage.",
-  "manufacturer_ko": "마음AI",
-  "name_ko": "진도봇",
   "kr_distributors": [
    {
     "name": "마음AI (본사 직판·사전 예약)",
@@ -6920,7 +6958,9 @@
  {
   "id": "raion-robotics-raibo2",
   "name": "RAIBO2",
+  "name_ko": "라이보2",
   "manufacturer": "Raion Robotics",
+  "manufacturer_ko": "라이온로보틱스",
   "country": "South Korea",
   "category": "Quadruped",
   "locomotion": "Legged",
@@ -6969,8 +7009,6 @@
   ],
   "verification": "official",
   "note": "Developed by KAIST RaiLab (Prof. Hwangbo), commercialized by spin-off Raion Robotics. First quadruped to finish a full marathon (4:19:52). Weight/battery from developer's lab page and Nature preprint.",
-  "manufacturer_ko": "라이온로보틱스",
-  "name_ko": "라이보2",
   "kr_distributors": [
    {
     "name": "라이온로보틱스 (본사 직판)",
@@ -8250,7 +8288,8 @@
   "image_source": null,
   "videos": [],
   "seen_on": [
-   "https://botupyourlife.com/en/robots/ogadjet-xgo-lite3/"
+   "https://botupyourlife.com/en/robots/ogadjet-xgo-lite3/",
+   "https://robocensus.com/robots/luwu-xgo-lite3/"
   ],
   "verification": null
  },
@@ -8376,7 +8415,8 @@
   "image_source": null,
   "videos": [],
   "seen_on": [
-   "https://botupyourlife.com/en/robots/petoi-nybble-q/"
+   "https://botupyourlife.com/en/robots/petoi-nybble-q/",
+   "https://robocensus.com/robots/petoi-nybble-q/"
   ],
   "verification": null
  },
@@ -8460,7 +8500,8 @@
   "image_source": null,
   "videos": [],
   "seen_on": [
-   "https://botupyourlife.com/en/robots/petoi-quaddle/"
+   "https://botupyourlife.com/en/robots/petoi-quaddle/",
+   "https://robocensus.com/robots/petoi-quaddle/"
   ],
   "verification": null
  },
@@ -8505,5 +8546,230 @@
    "https://botupyourlife.com/en/robots/ogadjet-xgo-duck/"
   ],
   "verification": null
+ },
+ {
+  "id": "hiwonder-mechdog",
+  "name": "MechDog",
+  "manufacturer": "Hiwonder",
+  "country": "China",
+  "category": "Quadruped",
+  "locomotion": "Legged",
+  "release_year": null,
+  "status": null,
+  "length_mm": null,
+  "width_mm": null,
+  "height_mm": null,
+  "weight_kg": null,
+  "payload_kg": null,
+  "max_speed_mps": null,
+  "min_speed_mps": null,
+  "wheel_diameter_mm": null,
+  "wheel_count": null,
+  "dof": null,
+  "runtime_h": null,
+  "battery_wh": null,
+  "ip_rating": null,
+  "api_support": null,
+  "sdk_available": null,
+  "sdk_name": null,
+  "onboard_compute": null,
+  "compute_detail": null,
+  "ros_support": null,
+  "sensors": [],
+  "price_usd": null,
+  "price_note": null,
+  "official_url": "https://www.hiwonder.com/products/mechdog",
+  "sources": [
+   "https://www.hiwonder.com/products/mechdog"
+  ],
+  "summary": null,
+  "image_url": null,
+  "image_source": null,
+  "videos": [],
+  "seen_on": [
+   "https://robocensus.com/robots/hiwonder-mechdog/"
+  ],
+  "verification": null,
+  "note": null
+ },
+ {
+  "id": "mangdang-mini-pupper-1",
+  "name": "Mini Pupper (1st generation)",
+  "manufacturer": "MangDang",
+  "country": null,
+  "category": "Quadruped",
+  "locomotion": "Legged",
+  "release_year": null,
+  "status": null,
+  "length_mm": null,
+  "width_mm": null,
+  "height_mm": null,
+  "weight_kg": null,
+  "payload_kg": null,
+  "max_speed_mps": null,
+  "min_speed_mps": null,
+  "wheel_diameter_mm": null,
+  "wheel_count": null,
+  "dof": null,
+  "runtime_h": null,
+  "battery_wh": null,
+  "ip_rating": null,
+  "api_support": null,
+  "sdk_available": null,
+  "sdk_name": null,
+  "onboard_compute": null,
+  "compute_detail": null,
+  "ros_support": null,
+  "sensors": [],
+  "price_usd": null,
+  "price_note": null,
+  "official_url": "https://mangdang.store/products/mini-pupper",
+  "sources": [
+   "https://mangdang.store/products/mini-pupper"
+  ],
+  "summary": null,
+  "image_url": null,
+  "image_source": null,
+  "videos": [],
+  "seen_on": [
+   "https://robocensus.com/robots/mangdang-mini-pupper-1/"
+  ],
+  "verification": null,
+  "note": null
+ },
+ {
+  "id": "hiwonder-puppypi",
+  "name": "PuppyPi",
+  "manufacturer": "Hiwonder",
+  "country": "China",
+  "category": "Quadruped",
+  "locomotion": "Legged",
+  "release_year": null,
+  "status": null,
+  "length_mm": null,
+  "width_mm": null,
+  "height_mm": null,
+  "weight_kg": null,
+  "payload_kg": null,
+  "max_speed_mps": null,
+  "min_speed_mps": null,
+  "wheel_diameter_mm": null,
+  "wheel_count": null,
+  "dof": null,
+  "runtime_h": null,
+  "battery_wh": null,
+  "ip_rating": null,
+  "api_support": null,
+  "sdk_available": null,
+  "sdk_name": null,
+  "onboard_compute": null,
+  "compute_detail": null,
+  "ros_support": null,
+  "sensors": [],
+  "price_usd": null,
+  "price_note": null,
+  "official_url": "https://www.hiwonder.com/products/puppypi",
+  "sources": [
+   "https://www.hiwonder.com/products/puppypi"
+  ],
+  "summary": null,
+  "image_url": null,
+  "image_source": null,
+  "videos": [],
+  "seen_on": [
+   "https://robocensus.com/robots/hiwonder-puppypi/"
+  ],
+  "verification": null,
+  "note": null
+ },
+ {
+  "id": "hiwonder-rospug",
+  "name": "ROSPug",
+  "manufacturer": "Hiwonder",
+  "country": "China",
+  "category": "Quadruped",
+  "locomotion": "Legged",
+  "release_year": null,
+  "status": null,
+  "length_mm": null,
+  "width_mm": null,
+  "height_mm": null,
+  "weight_kg": null,
+  "payload_kg": null,
+  "max_speed_mps": null,
+  "min_speed_mps": null,
+  "wheel_diameter_mm": null,
+  "wheel_count": null,
+  "dof": null,
+  "runtime_h": null,
+  "battery_wh": null,
+  "ip_rating": null,
+  "api_support": null,
+  "sdk_available": null,
+  "sdk_name": null,
+  "onboard_compute": null,
+  "compute_detail": null,
+  "ros_support": null,
+  "sensors": [],
+  "price_usd": null,
+  "price_note": null,
+  "official_url": "https://www.hiwonder.com/products/rospug",
+  "sources": [
+   "https://www.hiwonder.com/products/rospug"
+  ],
+  "summary": null,
+  "image_url": null,
+  "image_source": null,
+  "videos": [],
+  "seen_on": [
+   "https://robocensus.com/robots/hiwonder-rospug/"
+  ],
+  "verification": null,
+  "note": null
+ },
+ {
+  "id": "tny-robotics-tny-360",
+  "name": "TNY-360",
+  "manufacturer": "TNY Robotics",
+  "country": "France",
+  "category": "Quadruped",
+  "locomotion": "Legged",
+  "release_year": null,
+  "status": null,
+  "length_mm": null,
+  "width_mm": null,
+  "height_mm": null,
+  "weight_kg": null,
+  "payload_kg": null,
+  "max_speed_mps": null,
+  "min_speed_mps": null,
+  "wheel_diameter_mm": null,
+  "wheel_count": null,
+  "dof": null,
+  "runtime_h": null,
+  "battery_wh": null,
+  "ip_rating": null,
+  "api_support": null,
+  "sdk_available": null,
+  "sdk_name": null,
+  "onboard_compute": null,
+  "compute_detail": null,
+  "ros_support": null,
+  "sensors": [],
+  "price_usd": null,
+  "price_note": null,
+  "official_url": "https://tny-robotics.com/tny-360",
+  "sources": [
+   "https://tny-robotics.com/tny-360"
+  ],
+  "summary": null,
+  "image_url": null,
+  "image_source": null,
+  "videos": [],
+  "seen_on": [
+   "https://robocensus.com/robots/tny-robotics-tny-360/"
+  ],
+  "verification": null,
+  "note": null
  }
 ]

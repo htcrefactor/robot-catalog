@@ -47,7 +47,8 @@ Listed by these directories (discovery only, never used as a spec source):
 
 - [droid.monster](https://droid.monster/robots/robotis/ai-sapiens-humanoid)
 - [humanoid.guide](https://humanoid.guide/product/ai-sapiens-k1/)
+- [robocensus.com](https://robocensus.com/robots/robotis-ai-sapiens/)
 
 ---
 
-*Robot Catalog — generated from data/robots.json (last merged 2026-11-17). Source repository: https://github.com/htcrefactor/robot-catalog*
+*Robot Catalog — generated from data/robots.json (last merged 2026-11-18). Source repository: https://github.com/htcrefactor/robot-catalog*

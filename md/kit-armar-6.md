@@ -44,7 +44,8 @@ Listed by these directories (discovery only, never used as a spec source):
 - [botupyourlife.com](https://botupyourlife.com/en/robots/kit-h2t-armar-6/)
 - [data.robo2u.com](https://data.robo2u.com/robots/karlsruhe-institute-of-technology-kit-armar-6)
 - [humanoidversus.com](https://humanoidversus.com/robots/kit-armar-6)
+- [robopear.com](https://robopear.com/robots/kit-armar-6)
 
 ---
 
-*Robot Catalog — generated from data/robots.json (last merged 2026-11-17). Source repository: https://github.com/htcrefactor/robot-catalog*
+*Robot Catalog — generated from data/robots.json (last merged 2026-11-18). Source repository: https://github.com/htcrefactor/robot-catalog*

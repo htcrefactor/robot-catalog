@@ -41,7 +41,8 @@ Wheeled service robot (2 drive + 2 steering wheels). Speed 'up to 0.2 m/s' in 20
 Listed by these directories (discovery only, never used as a spec source):
 
 - [embodied.guide](https://embodied.guide/robots/promobot-v4/)
+- [robopear.com](https://robopear.com/robots/promobot-v4)
 
 ---
 
-*Robot Catalog — generated from data/robots.json (last merged 2026-11-17). Source repository: https://github.com/htcrefactor/robot-catalog*
+*Robot Catalog — generated from data/robots.json (last merged 2026-11-18). Source repository: https://github.com/htcrefactor/robot-catalog*

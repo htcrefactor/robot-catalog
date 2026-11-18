@@ -229,6 +229,10 @@ Maker page: Basic 610 x 370 x 406 mm, 12 kg, 5 kg payload, 1.5-2 h operation (1.
 - [github.com](https://github.com/DeepRoboticsLab/Lite3_ROS)
 - [developer.deeprobotics.cn](https://developer.deeprobotics.cn/docs/lite3/guide/software/compute/)
 
+Listed by these directories (discovery only, never used as a spec source):
+
+- [robocensus.com](https://robocensus.com/robots/deep-robotics-lite3/)
+
 ---
 
-*Robot Catalog — generated from data/robots.json (last merged 2026-11-17). Source repository: https://github.com/htcrefactor/robot-catalog*
+*Robot Catalog — generated from data/robots.json (last merged 2026-11-18). Source repository: https://github.com/htcrefactor/robot-catalog*

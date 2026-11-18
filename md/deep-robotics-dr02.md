@@ -95,6 +95,11 @@ Maker product page (deeprobotics.cn/en/products/detail/5.html): standing size ap
 - [github.com](https://github.com/DeepRoboticsLab/deep_robotics_model/blob/main/DR02/mjcf/standard/DR02_std.xml)
 - [github.com](https://github.com/DeepRoboticsLab/deep_robotics_model/blob/main/DR02/usd/standard/DR02-std.usd)
 
+Listed by these directories (discovery only, never used as a spec source):
+
+- [robocensus.com](https://robocensus.com/robots/deep-robotics-dr02/)
+- [robopear.com](https://robopear.com/robots/deep-robotics-dr02)
+
 ---
 
-*Robot Catalog — generated from data/robots.json (last merged 2026-11-17). Source repository: https://github.com/htcrefactor/robot-catalog*
+*Robot Catalog — generated from data/robots.json (last merged 2026-11-18). Source repository: https://github.com/htcrefactor/robot-catalog*

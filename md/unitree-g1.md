@@ -271,6 +271,12 @@ Maker page unitree.com/g1 re-checked 2026-11-17: standing 1,320 x 450 x 200 mm (
 - [shop.unitree.com](https://shop.unitree.com/products/unitree-g1)
 - [younginmobility.com](https://www.younginmobility.com/)
 
+Listed by these directories (discovery only, never used as a spec source):
+
+- [robocensus.com](https://robocensus.com/robots/unitree-g1/)
+- [robopear.com](https://robopear.com/robots/unitree-g1)
+- [robopear.com](https://robopear.com/robots/unitree-g1-plus)
+
 ---
 
-*Robot Catalog — generated from data/robots.json (last merged 2026-11-17). Source repository: https://github.com/htcrefactor/robot-catalog*
+*Robot Catalog — generated from data/robots.json (last merged 2026-11-18). Source repository: https://github.com/htcrefactor/robot-catalog*

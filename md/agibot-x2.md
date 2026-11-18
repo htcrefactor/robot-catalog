@@ -142,6 +142,11 @@ Fields the maker does not publish are left out here — the catalog never fills 
 - [humanoidstore.co](https://humanoidstore.co/robots/agibot-x2)
 - [store.agibot.com](https://store.agibot.com/products/x2)
 
+Listed by these directories (discovery only, never used as a spec source):
+
+- [robocensus.com](https://robocensus.com/robots/agibot-x2/)
+- [robopear.com](https://robopear.com/robots/agibot-x2)
+
 ---
 
-*Robot Catalog — generated from data/robots.json (last merged 2026-11-17). Source repository: https://github.com/htcrefactor/robot-catalog*
+*Robot Catalog — generated from data/robots.json (last merged 2026-11-18). Source repository: https://github.com/htcrefactor/robot-catalog*

@@ -35,7 +35,8 @@ Listed by these directories (discovery only, never used as a spec source):
 
 - [humanoidversus.com](https://humanoidversus.com/robots/limx-cl-1-cl-series)
 - [humanoid.guide](https://humanoid.guide/product/limx-cl-series/)
+- [robopear.com](https://robopear.com/robots/limx-cl-1)
 
 ---
 
-*Robot Catalog — generated from data/robots.json (last merged 2026-11-17). Source repository: https://github.com/htcrefactor/robot-catalog*
+*Robot Catalog — generated from data/robots.json (last merged 2026-11-18). Source repository: https://github.com/htcrefactor/robot-catalog*

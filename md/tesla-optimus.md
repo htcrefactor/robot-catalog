@@ -91,6 +91,11 @@ Media (2026-11-17): tesla.com/AI now redirects to tesla.com/SI (SI & Robotics); 
 - [humanoidstore.co](https://humanoidstore.co/robots/tesla-optimus)
 - [tesla.com](https://www.tesla.com/SI)
 
+Listed by these directories (discovery only, never used as a spec source):
+
+- [robocensus.com](https://robocensus.com/robots/tesla-optimus/)
+- [robopear.com](https://robopear.com/robots/tesla-optimus)
+
 ---
 
-*Robot Catalog — generated from data/robots.json (last merged 2026-11-17). Source repository: https://github.com/htcrefactor/robot-catalog*
+*Robot Catalog — generated from data/robots.json (last merged 2026-11-18). Source repository: https://github.com/htcrefactor/robot-catalog*

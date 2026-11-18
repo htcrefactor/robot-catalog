@@ -91,6 +91,10 @@ Maker product page and documentation (R1 series, R1 Pro 2026): the record descri
 - [galaxea-ai.com](https://www.galaxea-ai.com/en/product2.html)
 - [docs.galaxea-dynamics.com](https://docs.galaxea-dynamics.com/R1Pro/en/docs/2026/)
 
+Listed by these directories (discovery only, never used as a spec source):
+
+- [robopear.com](https://robopear.com/robots/galaxea-r1)
+
 ---
 
-*Robot Catalog — generated from data/robots.json (last merged 2026-11-17). Source repository: https://github.com/htcrefactor/robot-catalog*
+*Robot Catalog — generated from data/robots.json (last merged 2026-11-18). Source repository: https://github.com/htcrefactor/robot-catalog*

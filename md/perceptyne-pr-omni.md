@@ -40,7 +40,8 @@ Wheeled semi-humanoid (4-wheel holonomic base, vertical gantry, dual 7-DoF arms)
 Listed by these directories (discovery only, never used as a spec source):
 
 - [embodied.guide](https://embodied.guide/robots/perceptyne-pr-omni/)
+- [robopear.com](https://robopear.com/robots/perceptyne-pr-omni)
 
 ---
 
-*Robot Catalog — generated from data/robots.json (last merged 2026-11-17). Source repository: https://github.com/htcrefactor/robot-catalog*
+*Robot Catalog — generated from data/robots.json (last merged 2026-11-18). Source repository: https://github.com/htcrefactor/robot-catalog*

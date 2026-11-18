@@ -90,6 +90,11 @@ Maker press releases: Forerunner K2 launched at GITEX GLOBAL 2024 (Oct 2024) and
 - [prnewswire.com](https://www.prnewswire.com/news-releases/kepler-debuts-forerunner-k2-humanoid-robot-accelerating-commercial-deployment-302281546.html)
 - [prnewswire.com](https://www.prnewswire.com/news-releases/keplers-forerunner-k2-bumblebee-robot-completes-8-hour-livestream-at-waic-2025-signaling-major-step-toward-real-world-deployment-of-embodied-ai-in-industrial-settings-302520070.html)
 
+Listed by these directories (discovery only, never used as a spec source):
+
+- [robocensus.com](https://robocensus.com/robots/kepler-k2/)
+- [robopear.com](https://robopear.com/robots/kepler-k2)
+
 ---
 
-*Robot Catalog — generated from data/robots.json (last merged 2026-11-17). Source repository: https://github.com/htcrefactor/robot-catalog*
+*Robot Catalog — generated from data/robots.json (last merged 2026-11-18). Source repository: https://github.com/htcrefactor/robot-catalog*

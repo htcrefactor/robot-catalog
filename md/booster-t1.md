@@ -197,6 +197,11 @@ Maker T1 manual (docs.booster.tech > T1 > Specifications): height 1.18 m, ~30 kg
 - [github.com](https://github.com/BoosterRobotics/booster_assets/blob/main/robots/T1/T1_23dof.xml)
 - [github.com](https://github.com/BoosterRobotics/booster_assets)
 
+Listed by these directories (discovery only, never used as a spec source):
+
+- [robocensus.com](https://robocensus.com/robots/booster-t1/)
+- [robopear.com](https://robopear.com/robots/booster-t1)
+
 ---
 
-*Robot Catalog — generated from data/robots.json (last merged 2026-11-17). Source repository: https://github.com/htcrefactor/robot-catalog*
+*Robot Catalog — generated from data/robots.json (last merged 2026-11-18). Source repository: https://github.com/htcrefactor/robot-catalog*

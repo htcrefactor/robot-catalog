@@ -93,6 +93,11 @@ Maker product page (HMND 01 Alpha Wheeled): 220 cm, 300 kg, 29 DoF excluding end
 - [thehumanoid.ai](https://thehumanoid.ai/hmnd-01-alpha-bipedal/)
 - [thehumanoid.ai](https://thehumanoid.ai/humanoid-unveils-record-breaking-bipedal-robot-walking-48-hours-after-assembly/)
 
+Listed by these directories (discovery only, never used as a spec source):
+
+- [robopear.com](https://robopear.com/robots/humanoid-hmnd-01-biped)
+- [robopear.com](https://robopear.com/robots/humanoid-hmnd-01-wheeled)
+
 ---
 
-*Robot Catalog — generated from data/robots.json (last merged 2026-11-17). Source repository: https://github.com/htcrefactor/robot-catalog*
+*Robot Catalog — generated from data/robots.json (last merged 2026-11-18). Source repository: https://github.com/htcrefactor/robot-catalog*

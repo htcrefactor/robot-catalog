@@ -136,6 +136,11 @@ Fields the maker does not publish are left out here — the catalog never fills 
 - Official page: [agilityrobotics.com](https://www.agilityrobotics.com/solutions/digit-5)
 - [agilityrobotics.com](https://www.agilityrobotics.com/content/agility-unveils-digit-5-humanoid-robot-built-for-cooperatively-safe-work-at-scale)
 
+Listed by these directories (discovery only, never used as a spec source):
+
+- [robopear.com](https://robopear.com/robots/agility-digit)
+- [robocensus.com](https://robocensus.com/robots/agility-robotics-digit/)
+
 ---
 
-*Robot Catalog — generated from data/robots.json (last merged 2026-11-17). Source repository: https://github.com/htcrefactor/robot-catalog*
+*Robot Catalog — generated from data/robots.json (last merged 2026-11-18). Source repository: https://github.com/htcrefactor/robot-catalog*

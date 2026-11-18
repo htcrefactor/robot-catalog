@@ -38,7 +38,8 @@ Listed by these directories (discovery only, never used as a spec source):
 - [humanoidversus.com](https://humanoidversus.com/robots/donut-robotics-cinnamon-1)
 - [embodied.guide](https://embodied.guide/robots/donut-robotics-cinnamon-1/)
 - [humanoid.guide](https://humanoid.guide/product/cinnamon-1/)
+- [robopear.com](https://robopear.com/robots/donut-cinnamon-1)
 
 ---
 
-*Robot Catalog — generated from data/robots.json (last merged 2026-11-17). Source repository: https://github.com/htcrefactor/robot-catalog*
+*Robot Catalog — generated from data/robots.json (last merged 2026-11-18). Source repository: https://github.com/htcrefactor/robot-catalog*

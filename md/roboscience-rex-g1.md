@@ -42,7 +42,8 @@ Listed by these directories (discovery only, never used as a spec source):
 
 - [embodied.guide](https://embodied.guide/robots/roboscience-rex-g1/)
 - [humanoid.guide](https://humanoid.guide/product/rex-g1/)
+- [robopear.com](https://robopear.com/robots/roboscience-rex-g1)
 
 ---
 
-*Robot Catalog — generated from data/robots.json (last merged 2026-11-17). Source repository: https://github.com/htcrefactor/robot-catalog*
+*Robot Catalog — generated from data/robots.json (last merged 2026-11-18). Source repository: https://github.com/htcrefactor/robot-catalog*

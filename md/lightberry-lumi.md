@@ -88,6 +88,10 @@ Maker figures (checked 2026-11-17): 1.3 m, about 40 kg, 34 DoF, 2.5-3.5 h on a 4
 - [lightberry.com](https://lightberry.com/docs/hardware)
 - [lightberry.com](https://lightberry.com/lumi/order)
 
+Listed by these directories (discovery only, never used as a spec source):
+
+- [robopear.com](https://robopear.com/robots/lightberry-lumi)
+
 ---
 
-*Robot Catalog — generated from data/robots.json (last merged 2026-11-17). Source repository: https://github.com/htcrefactor/robot-catalog*
+*Robot Catalog — generated from data/robots.json (last merged 2026-11-18). Source repository: https://github.com/htcrefactor/robot-catalog*

@@ -87,6 +87,10 @@ Media (2026-11-17): 1X's EVE page shows the robot only inside its hero film; the
 - [humanoidstore.co](https://humanoidstore.co/robots/1x-technologies-eve)
 - [1x-tech.webflow.io](https://1x-tech.webflow.io/androids/eve)
 
+Listed by these directories (discovery only, never used as a spec source):
+
+- [robopear.com](https://robopear.com/robots/1x-eve)
+
 ---
 
-*Robot Catalog — generated from data/robots.json (last merged 2026-11-17). Source repository: https://github.com/htcrefactor/robot-catalog*
+*Robot Catalog — generated from data/robots.json (last merged 2026-11-18). Source repository: https://github.com/htcrefactor/robot-catalog*

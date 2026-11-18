@@ -88,6 +88,10 @@ Maker page: 'nearly 15 inches' tall (about 38 cm), 17 servos (DoF), programmable
 - [roboguidebook.com](https://www.roboguidebook.com/en/products/ubtech-yanshee.html)
 - [yandev.ubtrobot.com](https://yandev.ubtrobot.com/)
 
+Listed by these directories (discovery only, never used as a spec source):
+
+- [robopear.com](https://robopear.com/robots/ubtech-yanshee)
+
 ---
 
-*Robot Catalog — generated from data/robots.json (last merged 2026-11-17). Source repository: https://github.com/htcrefactor/robot-catalog*
+*Robot Catalog — generated from data/robots.json (last merged 2026-11-18). Source repository: https://github.com/htcrefactor/robot-catalog*

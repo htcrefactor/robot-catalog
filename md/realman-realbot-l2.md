@@ -47,7 +47,8 @@ Listed by these directories (discovery only, never used as a spec source):
 - [humanoidversus.com](https://humanoidversus.com/robots/realman-realbot-l2)
 - [embodied.guide](https://embodied.guide/robots/realman-realbot-l2/)
 - [humanoid.guide](https://humanoid.guide/product/realbot-l2/)
+- [robopear.com](https://robopear.com/robots/realman-realbot-l2)
 
 ---
 
-*Robot Catalog — generated from data/robots.json (last merged 2026-11-17). Source repository: https://github.com/htcrefactor/robot-catalog*
+*Robot Catalog — generated from data/robots.json (last merged 2026-11-18). Source repository: https://github.com/htcrefactor/robot-catalog*
