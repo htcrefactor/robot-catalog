@@ -1,0 +1,20 @@
+{
+ "id": "stanford-robotis-toddlerbot",
+ "name": "ToddlerBot",
+ "manufacturer": "Stanford University",
+ "updated": "2026-11-18",
+ "events": [
+  {
+   "date": "2026-11-18",
+   "type": "updated",
+   "source": "https://toddlerbot.github.io/",
+   "changes": [
+    {
+     "field": "notes",
+     "from": "Issue #17 (2026-11-17): ToddlerBot - about 0.6 m and 2.7 kg, 30 active DoF (arms 7x2, legs 6x2, neck 2, waist 2), 0.25 m/s walking, lifts 1,484 g (about half its weight) per the Stanford project. ROBOTIS sells a US$4,335 parts bundle, not the robot, so no price is recorded; runtime varies (19 min under a walking policy before thermal limits). [replaced height_mm: 560 -> 600; weight_kg: 3.4 -> 2.7; payload_kg: 1.484 -> 1.5 | emptied (no maker value) runtime_h=0.32; price_usd=6000; price_note=list 6000 USD (maker), per HumanoidStore, checked 2026-09]",
+     "to": "Issue #17 (2026-11-17): ToddlerBot - about 0.6 m and 2.7 kg, 30 active DoF (arms 7x2, legs 6x2, neck 2, waist 2), 0.25 m/s walking, lifts 1,484 g (about half its weight) per the Stanford project. ROBOTIS sells a US$4,335 parts bundle, not the robot, so no price is recorded; runtime varies (19 min under a walking policy before thermal limits). [replaced height_mm: 560 -> 600; weight_kg: 3.4 -> 2.7; payload_kg: 1.484 -> 1.5 | emptied (no maker value) runtime_h=0.32; price_usd=6000; price_note=list 6000 USD (maker), per HumanoidStore, checked 2026-09] Issue #64 (2026-11-18): payload kept at 1.5 kg - the paper's own 1,484 g lift maintaining balance is the basis (PR #59 had left the field empty)."
+    }
+   ]
+  }
+ ]
+}

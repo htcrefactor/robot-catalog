@@ -6,7 +6,7 @@
 - Category: Humanoid
 - Locomotion: Legged
 - Manufacturer: Enchanted Tools (France)
-- Verification: official — checked against a maker source
+- Verification: unconfirmed — no maker source found yet
 
 ## Core specs
 
@@ -92,4 +92,4 @@ Enchanted Tools' current site (checked 2026-11-17) confirms the Mirokaï as a co
 
 ---
 
-*Robot Catalog — generated from data/robots.json (last merged 2026-11-17). Source repository: https://github.com/htcrefactor/robot-catalog*
+*Robot Catalog — generated from data/robots.json (last merged 2026-11-18). Source repository: https://github.com/htcrefactor/robot-catalog*

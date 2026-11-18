@@ -1,0 +1,20 @@
+{
+ "id": "richtech-dex",
+ "name": "Dex",
+ "manufacturer": "Richtech Robotics",
+ "updated": "2026-11-18",
+ "events": [
+  {
+   "date": "2026-11-18",
+   "type": "updated",
+   "source": "https://www.richtechrobotics.com/solutions/dex",
+   "changes": [
+    {
+     "field": "notes",
+     "from": "Issue #17 (2026-11-17): Richtech Dex-M - 30.1x28.1x54.3 in (1379 mm tall), 198 lb (90 kg), 11 lb (5 kg) per 6-DoF arm, 1.2 m/s, 3 h on a 24 V 30 Ah pack, from Richtech's Dex page. No list price. [replaced height_mm: 1370 -> 1379; weight_kg: None -> 90; max_speed_mps: None -> 1.2; runtime_h: 4.0 -> 3.0]",
+     "to": "Issue #17 (2026-11-17): Richtech Dex-M - 30.1x28.1x54.3 in (1379 mm tall), 198 lb (90 kg), 11 lb (5 kg) per 6-DoF arm, 1.2 m/s, 3 h on a 24 V 30 Ah pack, from Richtech's Dex page. No list price. [replaced height_mm: 1370 -> 1379; weight_kg: None -> 90; max_speed_mps: None -> 1.2; runtime_h: 4.0 -> 3.0] Issue #64 (2026-11-18): weight kept at 90 kg, the rounded conversion of the maker's 198 lb; PR #59's 89.8 kg is the exact conversion of the same figure."
+    }
+   ]
+  }
+ ]
+}

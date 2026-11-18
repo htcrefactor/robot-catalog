@@ -5,8 +5,304 @@
   <link rel="self" type="application/atom+xml" href="https://htcrefactor.github.io/robot-catalog/feed.xml"/>
   <link rel="alternate" type="text/html" href="https://htcrefactor.github.io/robot-catalog/"/>
   <id>tag:htcrefactor.github.io,2026:robot-catalog/feed</id>
-  <updated>2026-11-14T00:00:00Z</updated>
+  <updated>2026-11-18T00:00:00Z</updated>
   <author><name>Robot Catalog</name><uri>https://github.com/htcrefactor/robot-catalog</uri></author>
+  <entry>
+    <id>tag:htcrefactor.github.io,2026:robot-catalog/zeroth-m1/updated/2026-11-18</id>
+    <title>Zeroth M1: 2 fields changed</title>
+    <updated>2026-11-18T00:00:00Z</updated>
+    <link rel="alternate" type="text/html" href="https://htcrefactor.github.io/robot-catalog/robot.html?id=zeroth-m1"/>
+    <category term="updated"/>
+    <summary type="html">&lt;ul&gt;&lt;li&gt;note: &lt;em&gt;—&lt;/em&gt; → Maker pages (checked 2026-11-18): 195 x 125 x 494 mm and 2.8 kg for the robot body (a 1.4 kg mobility base and a 6.2 lb dock are separate); bipedal mode 0.05 m/s and wheeled mode 0.6 m/s on the landing page, with about 1.1 m/s on the optional cart; about 2 h of endurance with 80% charge in an hour; only the 12 leg DoF (6 per leg) are published, so total DoF stays empty; arm span 510 mm; LDS LiDAR, iTOF depth and an RGB camera. Pre-order, ships Q4 2026, US shipping only. US$2,499 MSRP with a promotional US$1,699 price on the same page.&lt;/li&gt;&lt;li&gt;notes: Issue #17 (2026-11-17): Zeroth M1 - 195x125x494 mm, robot body 2.8 kg plus 1.4 kg mobility base, 20 DoF, 0.05 m/s biped / 0.6 m/s wheeled, about 2 h, US$2,499 MSRP. [replaced height_mm: 500 -&amp;gt; 494; max_speed_mps: 0.2 -&amp;gt; 0.6; price_note: list 2499 USD (maker), per HumanoidStore, checked 2026-10 -&amp;gt; US$2,499 list (promotional US$1,699)] → Issue #17 (2026-11-17): Zeroth M1 - 195x125x494 mm, robot body 2.8 kg plus 1.4 kg mobility base, 20 DoF, 0.05 m/s biped / 0.6 m/s wheeled, about 2 h, US$2,499 MSRP. [replaced height_mm: 500 -&amp;gt; 494; max_speed_mps: 0.2 -&amp;gt; 0.6; price_note: list 2499 USD (maker), per HumanoidStore, checked 2026-10 -&amp;gt; US$2,499 list (promotional US$1,699)] Issue #64 (2026-11-18): max_speed_mps kept at 0.6 - the maker publishes 0.6 m/s for the wheeled mode and 0.05 m/s bipedal; PR #62's 0.15 m/s is not on the pages read today. Its descriptive text moved into note; the data_source conflict was null on both sides.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://htcrefactor.github.io/robot-catalog/robot.html?id=zeroth-m1"&gt;Zeroth M1 — robot page&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Source: &lt;a href="https://www.zeroth0.com/products/m1"&gt;https://www.zeroth0.com/products/m1&lt;/a&gt;&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <id>tag:htcrefactor.github.io,2026:robot-catalog/zeroth-bridge/updated/2026-11-18</id>
+    <title>Zeroth Bridge: 2 fields changed</title>
+    <updated>2026-11-18T00:00:00Z</updated>
+    <link rel="alternate" type="text/html" href="https://htcrefactor.github.io/robot-catalog/robot.html?id=zeroth-bridge"/>
+    <category term="updated"/>
+    <summary type="html">&lt;ul&gt;&lt;li&gt;note: &lt;em&gt;—&lt;/em&gt; → Maker page (checked 2026-11-18): the page carries two figures for both size and mass - its banner gives 85 cm and about 10 kg, its specification table gives 88 cm overall height and about 13 kg system mass - and the banner figures are recorded. 21 DoF is the sum of the maker's joint list (4 per arm, 1 waist, 6 per leg) and is derived; 2 kg is the end-effector payload. Walking speed, runtime, battery capacity and price are not published (the 0.2 m/s in this record has no maker figure and was left for a follow-up).&lt;/li&gt;&lt;li&gt;notes: Issue #17 (2026-11-17): Zeroth Bridge - 85 cm (~10 kg; 13 kg system mass in the spec table), 0.2 m/s walking, 21 DoF (arms 4x2, waist 1, legs 6x2), 2 kg end-effector payload, 48 V. No maker runtime or price, so those fields were emptied. [replaced height_mm: 880 -&amp;gt; 850; weight_kg: 13 -&amp;gt; 10; payload_kg: None -&amp;gt; 2 | emptied (no maker value) price_usd=3999; price_note=list 3999 USD (maker), per HumanoidStore, checked 2026-10] → Issue #17 (2026-11-17): Zeroth Bridge - 85 cm (~10 kg; 13 kg system mass in the spec table), 0.2 m/s walking, 21 DoF (arms 4x2, waist 1, legs 6x2), 2 kg end-effector payload, 48 V. No maker runtime or price, so those fields were emptied. [replaced height_mm: 880 -&amp;gt; 850; weight_kg: 13 -&amp;gt; 10; payload_kg: None -&amp;gt; 2 | emptied (no maker value) price_usd=3999; price_note=list 3999 USD (maker), per HumanoidStore, checked 2026-10] Issue #64 (2026-11-18): values kept (banner 85 cm / 10 kg, not the table's 88 cm / 13 kg); PR #62's descriptive text moved into note, where prose belongs, and the data_source conflict was null on both sides.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://htcrefactor.github.io/robot-catalog/robot.html?id=zeroth-bridge"&gt;Zeroth Bridge — robot page&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Source: &lt;a href="https://zeroth-openbridge.com/products/zeroth-bridge"&gt;https://zeroth-openbridge.com/products/zeroth-bridge&lt;/a&gt;&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <id>tag:htcrefactor.github.io,2026:robot-catalog/zerith-zerith-h1/updated/2026-11-18</id>
+    <title>Zerith (Zerith Robotics) Zerith H1: 2 fields changed</title>
+    <updated>2026-11-18T00:00:00Z</updated>
+    <link rel="alternate" type="text/html" href="https://htcrefactor.github.io/robot-catalog/robot.html?id=zerith-zerith-h1"/>
+    <category term="updated"/>
+    <summary type="html">&lt;ul&gt;&lt;li&gt;note: &lt;em&gt;—&lt;/em&gt; → Maker comparison table (checked 2026-11-18): height adjustable over 955-1756 mm (800 mm lift, top of the range recorded); base 630 x 463 x 226 mm; 111 kg including the battery; 1 kg rated single-arm payload (1.5 kg maximum), so no whole-robot payload is published; 23 active DoF (head 2, hand 7, waist including lift 3, base 2, end effector 1); base speed 1 m/s; runtime 4-7 h depending on use, 4 h recorded; 20,000 mAh pack with no voltage stated, so Wh stays empty; arm span 1,788 mm. The earlier 13,600 USD figure came from HumanoidStore, not the maker, and is removed.&lt;/li&gt;&lt;li&gt;notes: Issue #17 (2026-11-17): Zerith H1 wheel-arm humanoid - height adjustable 955-1756 mm (1756 taken), 111 kg, 23 active DoF (head 2, hand 7, waist incl. lift 3, chassis 2, effector 1), base speed 1 m/s, 4 h continuous. Payload is published per arm only (1.5 kg max), so the whole-robot payload field was emptied. [replaced height_mm: 1760 -&amp;gt; 1756 | emptied (no maker value) payload_kg=1; price_usd=13600; price_note=list 13600 USD (maker), per HumanoidStore, checked 2026-10] → Issue #17 (2026-11-17): Zerith H1 wheel-arm humanoid - height adjustable 955-1756 mm (1756 taken), 111 kg, 23 active DoF (head 2, hand 7, waist incl. lift 3, chassis 2, effector 1), base speed 1 m/s, 4 h continuous. Payload is published per arm only (1.5 kg max), so the whole-robot payload field was emptied. [replaced height_mm: 1760 -&amp;gt; 1756 | emptied (no maker value) payload_kg=1; price_usd=13600; price_note=list 13600 USD (maker), per HumanoidStore, checked 2026-10] Issue #64 (2026-11-18): the descriptive text from PR #62 moved into note, where prose belongs; the data_source conflict between #62 and this record was null on both sides. runtime kept at 4 h, the low end of the maker's 4-7 h.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://htcrefactor.github.io/robot-catalog/robot.html?id=zerith-zerith-h1"&gt;Zerith (Zerith Robotics) Zerith H1 — robot page&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Source: &lt;a href="https://www.zerith.com/product/comparison/"&gt;https://www.zerith.com/product/comparison/&lt;/a&gt;&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <id>tag:htcrefactor.github.io,2026:robot-catalog/xpeng-iron/updated/2026-11-18</id>
+    <title>Xpeng IRON: 3 fields changed</title>
+    <updated>2026-11-18T00:00:00Z</updated>
+    <link rel="alternate" type="text/html" href="https://htcrefactor.github.io/robot-catalog/robot.html?id=xpeng-iron"/>
+    <category term="updated"/>
+    <summary type="html">&lt;ul&gt;&lt;li&gt;height_mm: 1730 mm → &lt;em&gt;—&lt;/em&gt;&lt;/li&gt;&lt;li&gt;notes: Issue #17 (2026-11-17): XPeng IRON (production version) - about 173 cm, 65 kg, 76 DoF with 21 per hand, up to 2 m/s, per XPeng's production-line release. [replaced height_mm: 1780 -&amp;gt; 1730; weight_kg: 70 -&amp;gt; 65; max_speed_mps: None -&amp;gt; 2.0] → Issue #17 (2026-11-17): XPeng IRON (production version) - about 173 cm, 65 kg, 76 DoF with 21 per hand, up to 2 m/s, per XPeng's production-line release. [replaced height_mm: 1780 -&amp;gt; 1730; weight_kg: 70 -&amp;gt; 65; max_speed_mps: None -&amp;gt; 2.0] Issue #64 (2026-11-18): height 1730 mm and weight 65 kg -&amp;gt; none. XPeng's own releases (AI Day 2024, Tech Day 2025, the 2026 production-line release; re-read 2026-11-18) give DoF, chips and TOPS but no size or mass for IRON.&lt;/li&gt;&lt;li&gt;weight_kg: 65 kg → &lt;em&gt;—&lt;/em&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://htcrefactor.github.io/robot-catalog/robot.html?id=xpeng-iron"&gt;Xpeng IRON — robot page&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Source: &lt;a href="https://www.xpeng.com/news/019301d2135392fa562d8a0282200016"&gt;https://www.xpeng.com/news/019301d2135392fa562d8a0282200016&lt;/a&gt;&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <id>tag:htcrefactor.github.io,2026:robot-catalog/xiaomi-cyberone/updated/2026-11-18</id>
+    <title>Xiaomi CyberOne: 1 field changed</title>
+    <updated>2026-11-18T00:00:00Z</updated>
+    <link rel="alternate" type="text/html" href="https://htcrefactor.github.io/robot-catalog/robot.html?id=xiaomi-cyberone"/>
+    <category term="updated"/>
+    <summary type="html">&lt;ul&gt;&lt;li&gt;notes: Issue #17 (2026-11-17): Xiaomi CyberOne - 177 cm, 52 kg, 21 DoF, 3.6 km/h (1.0 m/s), 1.5 kg in one hand, 300 N-m peak torque, from Xiaomi's CyberOne page. [replaced max_speed_mps: None -&amp;gt; 1.0] → Issue #17 (2026-11-17): Xiaomi CyberOne - 177 cm, 52 kg, 21 DoF, 3.6 km/h (1.0 m/s), 1.5 kg in one hand, 300 N-m peak torque, from Xiaomi's CyberOne page. [replaced max_speed_mps: None -&amp;gt; 1.0] Issue #64 (2026-11-18): official_url kept on Xiaomi's own CyberOne page (mi.com/cyberone); PR #60's /tr/product/ link is the Turkish regional copy of it.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://htcrefactor.github.io/robot-catalog/robot.html?id=xiaomi-cyberone"&gt;Xiaomi CyberOne — robot page&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Source: &lt;a href="https://www.mi.com/cyberone/"&gt;https://www.mi.com/cyberone/&lt;/a&gt;&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <id>tag:htcrefactor.github.io,2026:robot-catalog/waseda-airec/updated/2026-11-18</id>
+    <title>Waseda University (JST Moonshot Program) AIREC: 2 fields changed</title>
+    <updated>2026-11-18T00:00:00Z</updated>
+    <link rel="alternate" type="text/html" href="https://htcrefactor.github.io/robot-catalog/robot.html?id=waseda-airec"/>
+    <category term="updated"/>
+    <summary type="html">&lt;ul&gt;&lt;li&gt;notes: Issue #17 (2026-11-17): AIREC - 154 cm, 150 kg per the JST Moonshot / Waseda project materials. No DoF count is published, so the HumanoidStore DoF was emptied. [replaced height_mm: None -&amp;gt; 1540; weight_kg: 149 -&amp;gt; 150 | emptied (no maker value) dof=20] → Issue #17 (2026-11-17): AIREC - 154 cm, 150 kg per the JST Moonshot / Waseda project materials. No DoF count is published, so the HumanoidStore DoF was emptied. [replaced height_mm: None -&amp;gt; 1540; weight_kg: 149 -&amp;gt; 150 | emptied (no maker value) dof=20] Issue #64 (2026-11-18): weight 150 kg -&amp;gt; none. Neither airec-waseda.jp nor the JST Moonshot 2024 progress report gives a whole-robot mass; both describe subsystems only (18-DoF fluid-actuator body, 14-DoF hand), as PR #60 found.&lt;/li&gt;&lt;li&gt;weight_kg: 150 kg → &lt;em&gt;—&lt;/em&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://htcrefactor.github.io/robot-catalog/robot.html?id=waseda-airec"&gt;Waseda University (JST Moonshot Program) AIREC — robot page&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Source: &lt;a href="https://airec-waseda.jp/"&gt;https://airec-waseda.jp/&lt;/a&gt;&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <id>tag:htcrefactor.github.io,2026:robot-catalog/wandercraft-calvin-40/updated/2026-11-18</id>
+    <title>Wandercraft Calvin-40: 1 field changed</title>
+    <updated>2026-11-18T00:00:00Z</updated>
+    <link rel="alternate" type="text/html" href="https://htcrefactor.github.io/robot-catalog/robot.html?id=wandercraft-calvin-40"/>
+    <category term="updated"/>
+    <summary type="html">&lt;ul&gt;&lt;li&gt;notes: Issue #17 (2026-11-17): Calvin-40 - Wandercraft's site describes the industrial humanoid and its 40 kg handling but publishes no table of height, mass, DoF or speed, so the figures here come from third-party cataloguing of Wandercraft's material and the record stays unconfirmed. [replaced height_mm: None -&amp;gt; 1700; weight_kg: None -&amp;gt; 80; max_speed_mps: None -&amp;gt; 0.83; dof: None -&amp;gt; 28; runtime_h: None -&amp;gt; 4.0] → Issue #17 (2026-11-17): Calvin-40 - Wandercraft's site describes the industrial humanoid and its 40 kg handling but publishes no table of height, mass, DoF or speed, so the figures here come from third-party cataloguing of Wandercraft's material and the record stays unconfirmed. [replaced height_mm: None -&amp;gt; 1700; weight_kg: None -&amp;gt; 80; max_speed_mps: None -&amp;gt; 0.83; dof: None -&amp;gt; 28; runtime_h: None -&amp;gt; 4.0] Issue #64 (2026-11-18): verification kept unconfirmed - en.wandercraft.eu/calvin-40 (re-read 2026-11-18) publishes no height, mass, DoF, speed or runtime, so the figures here are third-party cataloguing (PR #60 had official; not used).&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://htcrefactor.github.io/robot-catalog/robot.html?id=wandercraft-calvin-40"&gt;Wandercraft Calvin-40 — robot page&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Source: &lt;a href="https://en.wandercraft.eu/calvin-40"&gt;https://en.wandercraft.eu/calvin-40&lt;/a&gt;&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <id>tag:htcrefactor.github.io,2026:robot-catalog/unitree-r1/updated/2026-11-18</id>
+    <title>Unitree Robotics R1: 1 field changed</title>
+    <updated>2026-11-18T00:00:00Z</updated>
+    <link rel="alternate" type="text/html" href="https://htcrefactor.github.io/robot-catalog/robot.html?id=unitree-r1"/>
+    <category term="updated"/>
+    <summary type="html">&lt;ul&gt;&lt;li&gt;notes: Issue #17 (2026-11-17): Unitree R1 - 1230x357x190 mm, about 29 kg (R1) / 27 kg (R1 AIR), 26 DoF on R1 (20 on AIR, up to 40 on EDU), about 1 h, US$5,900 (AIR US$4,900) from Unitree's R1 page. Arm load about 3-5 kg. [replaced price_note: list 5900 USD (maker), per HumanoidStore, checked 2026-10 -&amp;gt; R1 US$5,900; R1 AIR US$4,900 (tax and shipping excluded)] → Issue #17 (2026-11-17): Unitree R1 - 1230x357x190 mm, about 29 kg (R1) / 27 kg (R1 AIR), 26 DoF on R1 (20 on AIR, up to 40 on EDU), about 1 h, US$5,900 (AIR US$4,900) from Unitree's R1 page. Arm load about 3-5 kg. [replaced price_note: list 5900 USD (maker), per HumanoidStore, checked 2026-10 -&amp;gt; R1 US$5,900; R1 AIR US$4,900 (tax and shipping excluded)] Issue #64 (2026-11-18): price_note stays empty - R1, R1 Air and R1 EDU prices are dated price observations from shop.unitree.com (2026-11-17). PR #60's 'R1 EDU by quote' is superseded by the US$10,500 EDU observation.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://htcrefactor.github.io/robot-catalog/robot.html?id=unitree-r1"&gt;Unitree Robotics R1 — robot page&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Source: &lt;a href="https://www.unitree.com/R1/"&gt;https://www.unitree.com/R1/&lt;/a&gt;&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <id>tag:htcrefactor.github.io,2026:robot-catalog/unitree-h1/updated/2026-11-18</id>
+    <title>Unitree Robotics H1: 1 field changed</title>
+    <updated>2026-11-18T00:00:00Z</updated>
+    <link rel="alternate" type="text/html" href="https://htcrefactor.github.io/robot-catalog/robot.html?id=unitree-h1"/>
+    <category term="updated"/>
+    <summary type="html">&lt;ul&gt;&lt;li&gt;notes: Issue #17 (2026-11-17): height 1805 mm, weight 47 kg, 3.3 m/s, 864 Wh confirmed on Unitree's H1 page. DoF 19 derived from the maker's per-limb table (5x2 legs + 4x2 arms + 1 waist). Arm payload 7 kg rated / 21 kg peak added from the same page. HumanoidStore's US$90,000 price removed: Unitree publishes no H1 price. [replaced payload_kg: None -&amp;gt; 7; dof: None -&amp;gt; 19 | emptied (no maker value) price_usd=90000; price_note=list price per HumanoidStore, checked 2026-10] → Issue #17 (2026-11-17): height 1805 mm, weight 47 kg, 3.3 m/s, 864 Wh confirmed on Unitree's H1 page. DoF 19 derived from the maker's per-limb table (5x2 legs + 4x2 arms + 1 waist). Arm payload 7 kg rated / 21 kg peak added from the same page. HumanoidStore's US$90,000 price removed: Unitree publishes no H1 price. [replaced payload_kg: None -&amp;gt; 7; dof: None -&amp;gt; 19 | emptied (no maker value) price_usd=90000; price_note=list price per HumanoidStore, checked 2026-10] Issue #64 (2026-11-18): dof kept at 19 - the maker's H1 URDF (unitreerobotics/unitree_ros) has 19 revolute joints (5 per leg, 4 per arm, 1 torso), so PR #60's 18 misses the torso joint.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://htcrefactor.github.io/robot-catalog/robot.html?id=unitree-h1"&gt;Unitree Robotics H1 — robot page&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Source: &lt;a href="https://www.unitree.com/h1/"&gt;https://www.unitree.com/h1/&lt;/a&gt;&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <id>tag:htcrefactor.github.io,2026:robot-catalog/tien-kung-xingzhe/updated/2026-11-18</id>
+    <title>UBTech Robotics Walker Tienkung: 4 fields changed</title>
+    <updated>2026-11-18T00:00:00Z</updated>
+    <link rel="alternate" type="text/html" href="https://htcrefactor.github.io/robot-catalog/robot.html?id=tien-kung-xingzhe"/>
+    <category term="updated"/>
+    <summary type="html">&lt;ul&gt;&lt;li&gt;height_mm: 1630 mm → 1700 mm&lt;/li&gt;&lt;li&gt;notes: Issue #17 (2026-11-17): This row is X-Humanoid's Tiangong (Lite 1.0), not a UBTECH Walker - the HumanoidStore row conflated the two names. 163 cm, 43 kg, 20 body DoF, 6 km/h (1.67 m/s), 15 Ah 48 V (720 Wh), 2 h walking per the Lite 1.0 manual; payload is not published. [replaced height_mm: 1730 -&amp;gt; 1630; weight_kg: 64 -&amp;gt; 43; max_speed_mps: 2.78 -&amp;gt; 1.67; runtime_h: 3.5 -&amp;gt; 2.0; battery_wh: None -&amp;gt; 720 | emptied (no maker value) price_usd=41200; price_note=list 41200 USD (maker), per HumanoidStore, checked 2026-10] → Issue #17 (2026-11-17): This row is X-Humanoid's Tiangong (Lite 1.0), not a UBTECH Walker - the HumanoidStore row conflated the two names. 163 cm, 43 kg, 20 body DoF, 6 km/h (1.67 m/s), 15 Ah 48 V (720 Wh), 2 h walking per the Lite 1.0 manual; payload is not published. [replaced height_mm: 1730 -&amp;gt; 1630; weight_kg: 64 -&amp;gt; 43; max_speed_mps: 2.78 -&amp;gt; 1.67; runtime_h: 3.5 -&amp;gt; 2.0; battery_wh: None -&amp;gt; 720 | emptied (no maker value) price_usd=41200; price_note=list 41200 USD (maker), per HumanoidStore, checked 2026-10] Issue #64 (2026-11-18): ubtrobot.com (re-read 2026-11-18) gives 170 cm, 20 DoF, 10 km/h, dual 30 Ah + 3 Ah quick-swap packs and 8 h of continuous work, and publishes no mass. height_mm 1630 -&amp;gt; 1700, runtime_h 2 -&amp;gt; 8, weight_kg 43 -&amp;gt; none (the 163 cm / 43 kg / 2 h set came from the Tiangong Lite 1.0 manual, a different configuration). max_speed_mps still carries 1.67 m/s from that manual although the same page states 10 km/h (2.78 m/s); left as it is because it is outside #64's list.&lt;/li&gt;&lt;li&gt;runtime_h: 2.0 h → 8.0 h&lt;/li&gt;&lt;li&gt;weight_kg: 43 kg → &lt;em&gt;—&lt;/em&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://htcrefactor.github.io/robot-catalog/robot.html?id=tien-kung-xingzhe"&gt;UBTech Robotics Walker Tienkung — robot page&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Source: &lt;a href="https://www.ubtrobot.com/cn/ai-education/products/walker-tienkung"&gt;https://www.ubtrobot.com/cn/ai-education/products/walker-tienkung&lt;/a&gt;&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <id>tag:htcrefactor.github.io,2026:robot-catalog/tesla-optimus/updated/2026-11-18</id>
+    <title>Tesla Optimus: 1 field changed</title>
+    <updated>2026-11-18T00:00:00Z</updated>
+    <link rel="alternate" type="text/html" href="https://htcrefactor.github.io/robot-catalog/robot.html?id=tesla-optimus"/>
+    <category term="updated"/>
+    <summary type="html">&lt;ul&gt;&lt;li&gt;notes: Issue #17 (2026-11-17): Tesla publishes no spec sheet or price for Optimus, so no maker value exists for any spec field; record kept with fields empty. HumanoidStore row dropped. → Issue #17 (2026-11-17): Tesla publishes no spec sheet or price for Optimus, so no maker value exists for any spec field; record kept with fields empty. HumanoidStore row dropped. Issue #64 (2026-11-18): verification kept unconfirmed - Tesla publishes prose only and no spec or price, so there is no maker value to verify (PR #60 had official; not used).&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://htcrefactor.github.io/robot-catalog/robot.html?id=tesla-optimus"&gt;Tesla Optimus — robot page&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Source: &lt;a href="https://www.tesla.com/AI"&gt;https://www.tesla.com/AI&lt;/a&gt;&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <id>tag:htcrefactor.github.io,2026:robot-catalog/stanford-robotis-toddlerbot/updated/2026-11-18</id>
+    <title>Stanford University ToddlerBot: 1 field changed</title>
+    <updated>2026-11-18T00:00:00Z</updated>
+    <link rel="alternate" type="text/html" href="https://htcrefactor.github.io/robot-catalog/robot.html?id=stanford-robotis-toddlerbot"/>
+    <category term="updated"/>
+    <summary type="html">&lt;ul&gt;&lt;li&gt;notes: Issue #17 (2026-11-17): ToddlerBot - about 0.6 m and 2.7 kg, 30 active DoF (arms 7x2, legs 6x2, neck 2, waist 2), 0.25 m/s walking, lifts 1,484 g (about half its weight) per the Stanford project. ROBOTIS sells a US$4,335 parts bundle, not the robot, so no price is recorded; runtime varies (19 min under a walking policy before thermal limits). [replaced height_mm: 560 -&amp;gt; 600; weight_kg: 3.4 -&amp;gt; 2.7; payload_kg: 1.484 -&amp;gt; 1.5 | emptied (no maker value) runtime_h=0.32; price_usd=6000; price_note=list 6000 USD (maker), per HumanoidStore, checked 2026-09] → Issue #17 (2026-11-17): ToddlerBot - about 0.6 m and 2.7 kg, 30 active DoF (arms 7x2, legs 6x2, neck 2, waist 2), 0.25 m/s walking, lifts 1,484 g (about half its weight) per the Stanford project. ROBOTIS sells a US$4,335 parts bundle, not the robot, so no price is recorded; runtime varies (19 min under a walking policy before thermal limits). [replaced height_mm: 560 -&amp;gt; 600; weight_kg: 3.4 -&amp;gt; 2.7; payload_kg: 1.484 -&amp;gt; 1.5 | emptied (no maker value) runtime_h=0.32; price_usd=6000; price_note=list 6000 USD (maker), per HumanoidStore, checked 2026-09] Issue #64 (2026-11-18): payload kept at 1.5 kg - the paper's own 1,484 g lift maintaining balance is the basis (PR #59 had left the field empty).&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://htcrefactor.github.io/robot-catalog/robot.html?id=stanford-robotis-toddlerbot"&gt;Stanford University ToddlerBot — robot page&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Source: &lt;a href="https://toddlerbot.github.io/"&gt;https://toddlerbot.github.io/&lt;/a&gt;&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <id>tag:htcrefactor.github.io,2026:robot-catalog/kepler-forerunner-k2/updated/2026-11-18</id>
+    <title>Shanghai Kepler Robotics Forerunner K2: 1 field changed</title>
+    <updated>2026-11-18T00:00:00Z</updated>
+    <link rel="alternate" type="text/html" href="https://htcrefactor.github.io/robot-catalog/robot.html?id=kepler-forerunner-k2"/>
+    <category term="updated"/>
+    <summary type="html">&lt;ul&gt;&lt;li&gt;notes: Issue #17 (2026-11-17): Kepler K2 Bumblebee - 175 cm, 75 kg, 52 DoF, 15 kg per arm / 30 kg both, 8 h on a 1-hour charge, base model US$30,000 per Kepler's ICRA 2025 release and product page. Kepler publishes no walking speed, so that field was emptied. [replaced payload_kg: None -&amp;gt; 30; dof: 30 -&amp;gt; 52; price_usd: 34000 -&amp;gt; 30000; price_note: list 34000 USD (maker), per HumanoidStore, checked 2026-10 -&amp;gt; base model US$30,000] → Issue #17 (2026-11-17): Kepler K2 Bumblebee - 175 cm, 75 kg, 52 DoF, 15 kg per arm / 30 kg both, 8 h on a 1-hour charge, base model US$30,000 per Kepler's ICRA 2025 release and product page. Kepler publishes no walking speed, so that field was emptied. [replaced payload_kg: None -&amp;gt; 30; dof: 30 -&amp;gt; 52; price_usd: 34000 -&amp;gt; 30000; price_note: list 34000 USD (maker), per HumanoidStore, checked 2026-10 -&amp;gt; base model US$30,000] Issue #64 (2026-11-18): price kept - US$30,000 for the base model comes from Kepler's ICRA 2025 release and product page; PR #56 had emptied it.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://htcrefactor.github.io/robot-catalog/robot.html?id=kepler-forerunner-k2"&gt;Shanghai Kepler Robotics Forerunner K2 — robot page&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Source: &lt;a href="https://www.gotokepler.com/productDetailK2"&gt;https://www.gotokepler.com/productDetailK2&lt;/a&gt;&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <id>tag:htcrefactor.github.io,2026:robot-catalog/richtech-dex/updated/2026-11-18</id>
+    <title>Richtech Robotics Dex: 1 field changed</title>
+    <updated>2026-11-18T00:00:00Z</updated>
+    <link rel="alternate" type="text/html" href="https://htcrefactor.github.io/robot-catalog/robot.html?id=richtech-dex"/>
+    <category term="updated"/>
+    <summary type="html">&lt;ul&gt;&lt;li&gt;notes: Issue #17 (2026-11-17): Richtech Dex-M - 30.1x28.1x54.3 in (1379 mm tall), 198 lb (90 kg), 11 lb (5 kg) per 6-DoF arm, 1.2 m/s, 3 h on a 24 V 30 Ah pack, from Richtech's Dex page. No list price. [replaced height_mm: 1370 -&amp;gt; 1379; weight_kg: None -&amp;gt; 90; max_speed_mps: None -&amp;gt; 1.2; runtime_h: 4.0 -&amp;gt; 3.0] → Issue #17 (2026-11-17): Richtech Dex-M - 30.1x28.1x54.3 in (1379 mm tall), 198 lb (90 kg), 11 lb (5 kg) per 6-DoF arm, 1.2 m/s, 3 h on a 24 V 30 Ah pack, from Richtech's Dex page. No list price. [replaced height_mm: 1370 -&amp;gt; 1379; weight_kg: None -&amp;gt; 90; max_speed_mps: None -&amp;gt; 1.2; runtime_h: 4.0 -&amp;gt; 3.0] Issue #64 (2026-11-18): weight kept at 90 kg, the rounded conversion of the maker's 198 lb; PR #59's 89.8 kg is the exact conversion of the same figure.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://htcrefactor.github.io/robot-catalog/robot.html?id=richtech-dex"&gt;Richtech Robotics Dex — robot page&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Source: &lt;a href="https://www.richtechrobotics.com/solutions/dex"&gt;https://www.richtechrobotics.com/solutions/dex&lt;/a&gt;&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <id>tag:htcrefactor.github.io,2026:robot-catalog/realman-realbot-s2/updated/2026-11-18</id>
+    <title>RealMan Robotics RealBot-S2: 1 field changed</title>
+    <updated>2026-11-18T00:00:00Z</updated>
+    <link rel="alternate" type="text/html" href="https://htcrefactor.github.io/robot-catalog/robot.html?id=realman-realbot-s2"/>
+    <category term="updated"/>
+    <summary type="html">&lt;ul&gt;&lt;li&gt;notes: &lt;em&gt;—&lt;/em&gt; → Issue #64 (2026-11-18): official_url kept on the maker's product page (realman-robotics.com/en/products/realbot-s2.html), which is live with the full spec table; PR #59's developer-docs page is the same maker's documentation and stays in sources.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://htcrefactor.github.io/robot-catalog/robot.html?id=realman-realbot-s2"&gt;RealMan Robotics RealBot-S2 — robot page&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Source: &lt;a href="https://www.realman-robotics.com/en/products/realbot-s2.html"&gt;https://www.realman-robotics.com/en/products/realbot-s2.html&lt;/a&gt;&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <id>tag:htcrefactor.github.io,2026:robot-catalog/pndbotics-adam-u/updated/2026-11-18</id>
+    <title>PNDbotics Adam-U: 2 fields changed</title>
+    <updated>2026-11-18T00:00:00Z</updated>
+    <link rel="alternate" type="text/html" href="https://htcrefactor.github.io/robot-catalog/robot.html?id=pndbotics-adam-u"/>
+    <category term="updated"/>
+    <summary type="html">&lt;ul&gt;&lt;li&gt;battery_wh: 1172 Wh → 1188 Wh&lt;/li&gt;&lt;li&gt;notes: Issue #17 (2026-11-17): Adam-U upper-body robot - adjustable 1.35-1.77 m (1770 taken as max), 26 kg unit + 48 kg lift platform/chassis = 74 kg, 31 DoF (arms 13 each incl. 6 finger DoF, waist 3, head 2), 1172 Wh. [replaced battery_wh: None -&amp;gt; 1172 | emptied (no maker value) price_usd=45000; price_note=list 45000 USD (maker), per HumanoidStore, checked 2026-10] → Issue #17 (2026-11-17): Adam-U upper-body robot - adjustable 1.35-1.77 m (1770 taken as max), 26 kg unit + 48 kg lift platform/chassis = 74 kg, 31 DoF (arms 13 each incl. 6 finger DoF, waist 3, head 2), 1172 Wh. [replaced battery_wh: None -&amp;gt; 1172 | emptied (no maker value) price_usd=45000; price_note=list 45000 USD (maker), per HumanoidStore, checked 2026-10] Issue #64 (2026-11-18): battery_wh 1172 -&amp;gt; 1188. The maker wiki (re-read 2026-11-18) gives a 1,188 Wh pack at 46.2 V maximum voltage (PR #57).&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://htcrefactor.github.io/robot-catalog/robot.html?id=pndbotics-adam-u"&gt;PNDbotics Adam-U — robot page&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Source: &lt;a href="https://wiki.pndbotics.com/en/robot/adam_u/"&gt;https://wiki.pndbotics.com/en/robot/adam_u/&lt;/a&gt;&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <id>tag:htcrefactor.github.io,2026:robot-catalog/pal-kangaroo/updated/2026-11-18</id>
+    <title>PAL Robotics Kangaroo: 1 field changed</title>
+    <updated>2026-11-18T00:00:00Z</updated>
+    <link rel="alternate" type="text/html" href="https://htcrefactor.github.io/robot-catalog/robot.html?id=pal-kangaroo"/>
+    <category term="updated"/>
+    <summary type="html">&lt;ul&gt;&lt;li&gt;notes: Issue #17 (2026-11-17): Kangaroo - 1.60 m, 50-65 kg depending on configuration, 14-40 DoF and 3-7 kg arm payload by arm configuration (lowest values taken: 14 DoF, 3 kg), 63 V 15 Ah (976 Wh). PAL publishes no single runtime, so that field was emptied. [replaced dof: 28 -&amp;gt; 14; payload_kg: 5 -&amp;gt; 3; battery_wh: None -&amp;gt; 976 | emptied (no maker value) weight_kg=55; runtime_h=3.0] → Issue #17 (2026-11-17): Kangaroo - 1.60 m, 50-65 kg depending on configuration, 14-40 DoF and 3-7 kg arm payload by arm configuration (lowest values taken: 14 DoF, 3 kg), 63 V 15 Ah (976 Wh). PAL publishes no single runtime, so that field was emptied. [replaced dof: 28 -&amp;gt; 14; payload_kg: 5 -&amp;gt; 3; battery_wh: None -&amp;gt; 976 | emptied (no maker value) weight_kg=55; runtime_h=3.0] Issue #64 (2026-11-18): dof kept at 14 - the maker table gives 14-40 DoF by platform configuration and the record takes the minimum configuration (PR #57 had left it empty).&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://htcrefactor.github.io/robot-catalog/robot.html?id=pal-kangaroo"&gt;PAL Robotics Kangaroo — robot page&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Source: &lt;a href="https://pal-robotics.com/robot/kangaroo/"&gt;https://pal-robotics.com/robot/kangaroo/&lt;/a&gt;&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <id>tag:htcrefactor.github.io,2026:robot-catalog/nori-robotics-nori-a3/updated/2026-11-18</id>
+    <title>Nori Robotics A3: 1 field changed</title>
+    <updated>2026-11-18T00:00:00Z</updated>
+    <link rel="alternate" type="text/html" href="https://htcrefactor.github.io/robot-catalog/robot.html?id=nori-robotics-nori-a3"/>
+    <category term="updated"/>
+    <summary type="html">&lt;ul&gt;&lt;li&gt;notes: Issue #17 (2026-11-17): Nori A3 - 19 DoF bimanual mobile manipulator, 20.4 kg, 45x45 cm footprint, telescoping lift 69-145 cm (145 taken as max height), 1.5 kg per arm, 24 V 18 Ah (432 Wh) for 6-8 h (6 taken), US$1,688. [replaced battery_wh: None -&amp;gt; 432; price_note: list 1688 USD (maker), per HumanoidStore, checked 2026-10 -&amp;gt; US$1,688, ships assembled] → Issue #17 (2026-11-17): Nori A3 - 19 DoF bimanual mobile manipulator, 20.4 kg, 45x45 cm footprint, telescoping lift 69-145 cm (145 taken as max height), 1.5 kg per arm, 24 V 18 Ah (432 Wh) for 6-8 h (6 taken), US$1,688. [replaced battery_wh: None -&amp;gt; 432; price_note: list 1688 USD (maker), per HumanoidStore, checked 2026-10 -&amp;gt; US$1,688, ships assembled] Issue #64 (2026-11-18): price note kept - norirobotics.com/preorder (re-read 2026-11-18) shows US$1,688 and ships fall 2026 with no deposit; 'ships assembled' is the record's shorthand for the assembled unit PR #57 also describes.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://htcrefactor.github.io/robot-catalog/robot.html?id=nori-robotics-nori-a3"&gt;Nori Robotics A3 — robot page&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Source: &lt;a href="https://www.norirobotics.com/"&gt;https://www.norirobotics.com/&lt;/a&gt;&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <id>tag:htcrefactor.github.io,2026:robot-catalog/noble-machines-moby/updated/2026-11-18</id>
+    <title>Noble Machines Moby: 1 field changed</title>
+    <updated>2026-11-18T00:00:00Z</updated>
+    <link rel="alternate" type="text/html" href="https://htcrefactor.github.io/robot-catalog/robot.html?id=noble-machines-moby"/>
+    <category term="updated"/>
+    <summary type="html">&lt;ul&gt;&lt;li&gt;notes: Issue #17 (2026-11-17): Moby - 170 cm, 45 kg, 34 DoF, 23 kg payload, 0.8 m/s, 5 h as catalogued from Noble Machines' published figures; the maker site could not be opened for a spec table, so the record stays unconfirmed. → Issue #17 (2026-11-17): Moby - 170 cm, 45 kg, 34 DoF, 23 kg payload, 0.8 m/s, 5 h as catalogued from Noble Machines' published figures; the maker site could not be opened for a spec table, so the record stays unconfirmed. Issue #64 (2026-11-18): verification kept unconfirmed - noblemachines.ai (re-read 2026-11-18) confirms the 23 kg payload, 5 h and 0.8 m/s but publishes no height, mass or DoF, so the 170 cm / 45 kg / 34 DoF here are not maker figures (PR #57 had official; not used).&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://htcrefactor.github.io/robot-catalog/robot.html?id=noble-machines-moby"&gt;Noble Machines Moby — robot page&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Source: &lt;a href="https://www.noblemachines.ai/"&gt;https://www.noblemachines.ai/&lt;/a&gt;&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <id>tag:htcrefactor.github.io,2026:robot-catalog/lightberry-lumi/updated/2026-11-18</id>
+    <title>Lightberry Lumi: 1 field changed</title>
+    <updated>2026-11-18T00:00:00Z</updated>
+    <link rel="alternate" type="text/html" href="https://htcrefactor.github.io/robot-catalog/robot.html?id=lightberry-lumi"/>
+    <category term="updated"/>
+    <summary type="html">&lt;ul&gt;&lt;li&gt;notes: Issue #17 (2026-11-17): Lightberry Lumi - 1.3 m, about 40 kg, 34 DoF (built on a Unitree G1 base), 421 Wh for 2.5-3.5 h (3 taken), US$39,990. [replaced runtime_h: 2.5 -&amp;gt; 3.0; battery_wh: None -&amp;gt; 421; price_note: list 39990 USD (maker), per HumanoidStore, checked 2026-11 -&amp;gt; US$39,990 reservation price] → Issue #17 (2026-11-17): Lightberry Lumi - 1.3 m, about 40 kg, 34 DoF (built on a Unitree G1 base), 421 Wh for 2.5-3.5 h (3 taken), US$39,990. [replaced runtime_h: 2.5 -&amp;gt; 3.0; battery_wh: None -&amp;gt; 421; price_note: list 39990 USD (maker), per HumanoidStore, checked 2026-11 -&amp;gt; US$39,990 reservation price] Issue #64 (2026-11-18): price note kept - lightberry.com/lumi/order (re-read 2026-11-18) shows US$39,990 for the Founder Edition, 100 units, US$200 fully refundable deposit, shipping from 2026 (PR #57's wording agrees with this record).&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://htcrefactor.github.io/robot-catalog/robot.html?id=lightberry-lumi"&gt;Lightberry Lumi — robot page&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Source: &lt;a href="https://lightberry.com/lumi"&gt;https://lightberry.com/lumi&lt;/a&gt;&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <id>tag:htcrefactor.github.io,2026:robot-catalog/lg-cloid/updated/2026-11-18</id>
+    <title>LG Electronics CLOiD: 1 field changed</title>
+    <updated>2026-11-18T00:00:00Z</updated>
+    <link rel="alternate" type="text/html" href="https://htcrefactor.github.io/robot-catalog/robot.html?id=lg-cloid"/>
+    <category term="updated"/>
+    <summary type="html">&lt;ul&gt;&lt;li&gt;notes: Issue #17 (2026-11-17): LG publishes only the dual 7-DoF arms and an adjustable working height of about 1.05-1.43 m (143 cm taken as standing height); weight, payload, speed, runtime and total DoF are all undisclosed, so they stay empty. → Issue #17 (2026-11-17): LG publishes only the dual 7-DoF arms and an adjustable working height of about 1.05-1.43 m (143 cm taken as standing height); weight, payload, speed, runtime and total DoF are all undisclosed, so they stay empty. Issue #64 (2026-11-18): official_url kept - the LG global newsroom release is the maker page this record's figures come from; PR #57's lge.co.kr link is the Korean copy of the same release and stays in sources.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://htcrefactor.github.io/robot-catalog/robot.html?id=lg-cloid"&gt;LG Electronics CLOiD — robot page&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Source: &lt;a href="https://www.lg.com/global/newsroom/news/home-appliance-solution/lg-electronics-presents-lg-cloid-home-robot-to-demonstrate-zero-labor-home-at-ces-2026/"&gt;https://www.lg.com/global/newsroom/news/home-appliance-solution/lg-electronics-presents-lg-cloid-home-robot-to-demonstrate-zero-labor-home-at-ces-2026/&lt;/a&gt;&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <id>tag:htcrefactor.github.io,2026:robot-catalog/kondo-khr-3hv/updated/2026-11-18</id>
+    <title>Kondo Kagaku KHR-3HV: 1 field changed</title>
+    <updated>2026-11-18T00:00:00Z</updated>
+    <link rel="alternate" type="text/html" href="https://htcrefactor.github.io/robot-catalog/robot.html?id=kondo-khr-3hv"/>
+    <category term="updated"/>
+    <summary type="html">&lt;ul&gt;&lt;li&gt;notes: Issue #17 (2026-11-17): KHR-3HV Ver.3.1 - 401x194x129 mm, about 1.8 kg, 22 axes (17 servos + 5 extension), 9.9 V 850 mAh Li-Fe (8.4 Wh), JPY 172,480 list. [replaced weight_kg: 1.5 -&amp;gt; 1.8; dof: 17 -&amp;gt; 22; battery_wh: None -&amp;gt; 8.4; price_usd: 786 -&amp;gt; 1091; price_note: list 786 USD (maker), per HumanoidStore, checked 2026-11 -&amp;gt; JPY 172,480 incl. tax (about US$1,091) in Kondo's ROBOSPOT shop] → Issue #17 (2026-11-17): KHR-3HV Ver.3.1 - 401x194x129 mm, about 1.8 kg, 22 axes (17 servos + 5 extension), 9.9 V 850 mAh Li-Fe (8.4 Wh), JPY 172,480 list. [replaced weight_kg: 1.5 -&amp;gt; 1.8; dof: 17 -&amp;gt; 22; battery_wh: None -&amp;gt; 8.4; price_usd: 786 -&amp;gt; 1091; price_note: list 786 USD (maker), per HumanoidStore, checked 2026-11 -&amp;gt; JPY 172,480 incl. tax (about US$1,091) in Kondo's ROBOSPOT shop] Issue #64 (2026-11-18): price kept - US$1,091 is the labelled approximate conversion of Kondo's JPY 172,480 list price, which is the maker figure; kondo-robot.com still refuses automated access (HTTP 403, 2026-11-18). PR #57 adds that the kit was listed out of stock when checked in 2026-11.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://htcrefactor.github.io/robot-catalog/robot.html?id=kondo-khr-3hv"&gt;Kondo Kagaku KHR-3HV — robot page&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Source: &lt;a href="https://kondo-robot.com/product/03243"&gt;https://kondo-robot.com/product/03243&lt;/a&gt;&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <id>tag:htcrefactor.github.io,2026:robot-catalog/kawasaki-kaleido-9/updated/2026-11-18</id>
+    <title>Kawasaki Heavy Industries Kaleido (Gen 9): 2 fields changed</title>
+    <updated>2026-11-18T00:00:00Z</updated>
+    <link rel="alternate" type="text/html" href="https://htcrefactor.github.io/robot-catalog/robot.html?id=kawasaki-kaleido-9"/>
+    <category term="updated"/>
+    <summary type="html">&lt;ul&gt;&lt;li&gt;notes: Issue #17 (2026-11-17): Kaleido - 178 cm, 85 kg, 32 axes and a bench-press capability of 50-60 kg (50 taken) per Kawasaki Robotics; Kawasaki's R&amp;amp;D magazine gives 1.75 m, 84 kg and 32 DoF for the development unit. Runtime is not published, so the HumanoidStore runtime was emptied. [replaced height_mm: 1900 -&amp;gt; 1780; weight_kg: 99 -&amp;gt; 85; payload_kg: 18 -&amp;gt; 50; dof: None -&amp;gt; 32] → Issue #17 (2026-11-17): Kaleido - 178 cm, 85 kg, 32 axes and a bench-press capability of 50-60 kg (50 taken) per Kawasaki Robotics; Kawasaki's R&amp;amp;D magazine gives 1.75 m, 84 kg and 32 DoF for the development unit. Runtime is not published, so the HumanoidStore runtime was emptied. [replaced height_mm: 1900 -&amp;gt; 1780; weight_kg: 99 -&amp;gt; 85; payload_kg: 18 -&amp;gt; 50; dof: None -&amp;gt; 32] Issue #64 (2026-11-18): payload 50 -&amp;gt; none. Kawasaki states a bench-press capability of about 50-60 kg, which is not a payload rating (blog re-read 2026-11-18). DoF kept at 32: the maker blog gives 32 axes; PR #56's 30 axes came from iREX 2025 press coverage, not a maker source.&lt;/li&gt;&lt;li&gt;payload_kg: 50 kg → &lt;em&gt;—&lt;/em&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://htcrefactor.github.io/robot-catalog/robot.html?id=kawasaki-kaleido-9"&gt;Kawasaki Heavy Industries Kaleido (Gen 9) — robot page&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Source: &lt;a href="https://kawasakirobotics.com/asia-oceania/blog/20260316_kaleido9/"&gt;https://kawasakirobotics.com/asia-oceania/blog/20260316_kaleido9/&lt;/a&gt;&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <id>tag:htcrefactor.github.io,2026:robot-catalog/k-scale-labs-k-bot/updated/2026-11-18</id>
+    <title>K-Scale Labs K-Bot: 1 field changed</title>
+    <updated>2026-11-18T00:00:00Z</updated>
+    <link rel="alternate" type="text/html" href="https://htcrefactor.github.io/robot-catalog/robot.html?id=k-scale-labs-k-bot"/>
+    <category term="updated"/>
+    <summary type="html">&lt;ul&gt;&lt;li&gt;notes: Issue #17 (2026-11-17): K-Scale Labs shut down in November 2025 and its site is offline, so nothing can be re-checked against a maker page. 140 cm, 34 kg, 20 DoF, 10 kg payload and 4 h are the maker's published figures as recorded by independent catalogs; record stays unconfirmed. → Issue #17 (2026-11-17): K-Scale Labs shut down in November 2025 and its site is offline, so nothing can be re-checked against a maker page. 140 cm, 34 kg, 20 DoF, 10 kg payload and 4 h are the maker's published figures as recorded by independent catalogs; record stays unconfirmed. Issue #64 (2026-11-18): verification kept unconfirmed - the company shut down and its site is offline; the repository documents the 20 actuators and the 576 Wh pack, but height, mass and payload exist only in catalogues (PR #56 had official; not used).&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://htcrefactor.github.io/robot-catalog/robot.html?id=k-scale-labs-k-bot"&gt;K-Scale Labs K-Bot — robot page&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Source: &lt;a href="https://github.com/kscalelabs/kbot"&gt;https://github.com/kscalelabs/kbot&lt;/a&gt;&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <id>tag:htcrefactor.github.io,2026:robot-catalog/igus-iggy/updated/2026-11-18</id>
+    <title>igus iggyRob: 1 field changed</title>
+    <updated>2026-11-18T00:00:00Z</updated>
+    <link rel="alternate" type="text/html" href="https://htcrefactor.github.io/robot-catalog/robot.html?id=igus-iggy"/>
+    <category term="updated"/>
+    <summary type="html">&lt;ul&gt;&lt;li&gt;notes: Issue #17 (2026-11-17): iggyRob - about 1.70 m, 101 kg, 2 kg per ReBeL arm, up to 8 h, EUR 47,999 (about US$54,500) from igus' product page and launch release. DoF is not published as a total, so the HumanoidStore DoF was emptied. [replaced payload_kg: 1.5 -&amp;gt; 2; price_usd: 58024 -&amp;gt; 54500; price_note: list 51691.37 EUR (maker), per HumanoidStore, checked 2026-10 -&amp;gt; EUR 47,999 (about US$54,500) from igus] → Issue #17 (2026-11-17): iggyRob - about 1.70 m, 101 kg, 2 kg per ReBeL arm, up to 8 h, EUR 47,999 (about US$54,500) from igus' product page and launch release. DoF is not published as a total, so the HumanoidStore DoF was emptied. [replaced payload_kg: 1.5 -&amp;gt; 2; price_usd: 58024 -&amp;gt; 54500; price_note: list 51691.37 EUR (maker), per HumanoidStore, checked 2026-10 -&amp;gt; EUR 47,999 (about US$54,500) from igus] Issue #64 (2026-11-18): price kept - EUR 47,999 is igus' own launch price for Iggy Rob Industrial and the figure the record has always labelled; PR #56 had emptied both price fields, but igus.com/product/0-LCA-IROB (re-read 2026-11-18) publishes no price and the maker press release is the source. price_usd 54,500 is its labelled approximate conversion.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://htcrefactor.github.io/robot-catalog/robot.html?id=igus-iggy"&gt;igus iggyRob — robot page&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Source: &lt;a href="https://www.igus.com/product/0-LCA-IROB"&gt;https://www.igus.com/product/0-LCA-IROB&lt;/a&gt;&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <id>tag:htcrefactor.github.io,2026:robot-catalog/hightorque-mini-pi-plus/updated/2026-11-18</id>
+    <title>HighTorque Robotics Mini Pi Plus: 1 field changed</title>
+    <updated>2026-11-18T00:00:00Z</updated>
+    <link rel="alternate" type="text/html" href="https://htcrefactor.github.io/robot-catalog/robot.html?id=hightorque-mini-pi-plus"/>
+    <category term="updated"/>
+    <summary type="html">&lt;ul&gt;&lt;li&gt;notes: Issue #17 (2026-11-17): Mini Pi Plus - 680 mm, 15.4 kg (Base) / 15.6 kg (Pro), 22 DoF, 1.1 m/s, 21.6 V 4500 mAh (97.2 Wh), 60 min, US$6,000 Base / US$8,000 Pro from HighTorque's store. [replaced battery_wh: None -&amp;gt; 97.2; price_note: list 6000 USD (maker), per HumanoidStore, checked 2026-10 -&amp;gt; Base US$6,000; Pro US$8,000] → Issue #17 (2026-11-17): Mini Pi Plus - 680 mm, 15.4 kg (Base) / 15.6 kg (Pro), 22 DoF, 1.1 m/s, 21.6 V 4500 mAh (97.2 Wh), 60 min, US$6,000 Base / US$8,000 Pro from HighTorque's store. [replaced battery_wh: None -&amp;gt; 97.2; price_note: list 6000 USD (maker), per HumanoidStore, checked 2026-10 -&amp;gt; Base US$6,000; Pro US$8,000] Issue #64 (2026-11-18): battery_wh kept at 97.2 (21.6 V x 4,500 mAh from the maker store spec); PR #56's 97 was the rounded form. The price note matches the store's US$6,000 Base / US$8,000 Pro, re-read 2026-11-18.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://htcrefactor.github.io/robot-catalog/robot.html?id=hightorque-mini-pi-plus"&gt;HighTorque Robotics Mini Pi Plus — robot page&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Source: &lt;a href="https://www.hightorque.cn/pi-plus/"&gt;https://www.hightorque.cn/pi-plus/&lt;/a&gt;&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <id>tag:htcrefactor.github.io,2026:robot-catalog/generative-bionics-gene-01/updated/2026-11-18</id>
+    <title>Generative Bionics GENE.01: 1 field changed</title>
+    <updated>2026-11-18T00:00:00Z</updated>
+    <link rel="alternate" type="text/html" href="https://htcrefactor.github.io/robot-catalog/robot.html?id=generative-bionics-gene-01"/>
+    <category term="updated"/>
+    <summary type="html">&lt;ul&gt;&lt;li&gt;notes: &lt;em&gt;—&lt;/em&gt; → Issue #64 (2026-11-18): official_url kept without the trailing slash - gbionics.ai/gene01 and /gene01/ serve the same page (re-checked 2026-11-18). Summary kept in the record's own wording; PR #56's welding-robot wording for Fincantieri is not on the page read today.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://htcrefactor.github.io/robot-catalog/robot.html?id=generative-bionics-gene-01"&gt;Generative Bionics GENE.01 — robot page&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Source: &lt;a href="https://gbionics.ai/gene01"&gt;https://gbionics.ai/gene01&lt;/a&gt;&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <id>tag:htcrefactor.github.io,2026:robot-catalog/generation-robots-poppy-humanoid/updated/2026-11-18</id>
+    <title>Generation Robots (Inria Flowers) Poppy Humanoid: 2 fields changed</title>
+    <updated>2026-11-18T00:00:00Z</updated>
+    <link rel="alternate" type="text/html" href="https://htcrefactor.github.io/robot-catalog/robot.html?id=generation-robots-poppy-humanoid"/>
+    <category term="updated"/>
+    <summary type="html">&lt;ul&gt;&lt;li&gt;note: Maker repository (poppy-project/poppy-humanoid): open-source 3D-printed humanoid, 25 Robotis Dynamixel actuators, about 60% of the BOM cost, full build 8,000-9,000 USD, Raspberry Pi 3/4 on-board, pypot Python library, GPL v3 / CC BY-SA. The project site (www.poppy-project.org, docs.poppy-project.org) returned HTTP 500 on 2026-11-17, so the 83 cm / 3.5 kg figures on its v1.0.2 page could not be re-opened and height/weight were left empty instead of carrying the aggregator's 840 mm / 3.5 kg values. Generation Robots is a distributor, not the designer. The 11,193 USD price was an aggregator conversion of a EUR list price and was removed. → Maker repository (poppy-project/poppy-humanoid): open-source 3D-printed humanoid, 25 Robotis Dynamixel actuators, about 60% of the BOM cost, full build 8,000-9,000 USD, Raspberry Pi 3/4 on-board, pypot Python library, GPL v3 / CC BY-SA. The project site (www.poppy-project.org, docs.poppy-project.org) returned HTTP 500 on 2026-11-17, so the 83 cm / 3.5 kg figures on its v1.0.2 page could not be re-opened; height keeps the 830 mm read from that page rather than the aggregator's 840 mm, and weight stays empty because no maker figure was readable. Generation Robots is a distributor, not the designer. The 11,193 USD price was an aggregator conversion of a EUR list price and was removed.&lt;/li&gt;&lt;li&gt;notes: Issue #17 (2026-11-17): Poppy Humanoid - 83 cm, 3.5 kg, 25 Robotis Dynamixel actuators per the Poppy project. The project publishes a build cost (US$8,000-9,000 in parts), not a product price, so HumanoidStore's price was removed. [replaced height_mm: 840 -&amp;gt; 830 | emptied (no maker value) price_usd=11193; price_note=list 9971.52 EUR (maker), per HumanoidStore, checked 2026-10] → Issue #17 (2026-11-17): Poppy Humanoid - 83 cm, 3.5 kg, 25 Robotis Dynamixel actuators per the Poppy project. The project publishes a build cost (US$8,000-9,000 in parts), not a product price, so HumanoidStore's price was removed. [replaced height_mm: 840 -&amp;gt; 830 | emptied (no maker value) price_usd=11193; price_note=list 9971.52 EUR (maker), per HumanoidStore, checked 2026-10] Issue #64 (2026-11-18): height kept at 830 mm from the project's own v1.0.2 page; its site and documentation still return server errors (checked 2026-11-18) and the repository README carries no dimension, so the field is kept rather than re-derived (PR #56 emptied it).&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://htcrefactor.github.io/robot-catalog/robot.html?id=generation-robots-poppy-humanoid"&gt;Generation Robots (Inria Flowers) Poppy Humanoid — robot page&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Source: &lt;a href="https://github.com/poppy-project/poppy-humanoid"&gt;https://github.com/poppy-project/poppy-humanoid&lt;/a&gt;&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <id>tag:htcrefactor.github.io,2026:robot-catalog/foundation-phantom-mk1/updated/2026-11-18</id>
+    <title>Foundation Phantom MK1: 2 fields changed</title>
+    <updated>2026-11-18T00:00:00Z</updated>
+    <link rel="alternate" type="text/html" href="https://htcrefactor.github.io/robot-catalog/robot.html?id=foundation-phantom-mk1"/>
+    <category term="updated"/>
+    <summary type="html">&lt;ul&gt;&lt;li&gt;notes: Issue #17 (2026-11-17): foundation.bot/phantom - 5'11" (1.8 m), 176 lb (80 kg), 88.2 lb (40 kg) payload, 29 DoF, 1.7 m/s. HumanoidStore values replaced with the maker's. [replaced payload_kg: 20 -&amp;gt; 40] → Issue #17 (2026-11-17): foundation.bot/phantom - 5'11" (1.8 m), 176 lb (80 kg), 88.2 lb (40 kg) payload, 29 DoF, 1.7 m/s. HumanoidStore values replaced with the maker's. [replaced payload_kg: 20 -&amp;gt; 40] Issue #64 (2026-11-18): verification official -&amp;gt; unconfirmed. foundation.bot/phantom publishes one combined Phantom specification and names no generation, so nothing on it can be attributed to the MK-1 (re-checked 2026-11-18).&lt;/li&gt;&lt;li&gt;verification: official → unconfirmed&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://htcrefactor.github.io/robot-catalog/robot.html?id=foundation-phantom-mk1"&gt;Foundation Phantom MK1 — robot page&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Source: &lt;a href="https://foundation.bot/phantom"&gt;https://foundation.bot/phantom&lt;/a&gt;&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <id>tag:htcrefactor.github.io,2026:robot-catalog/foundation-phantom-mk2/updated/2026-11-18</id>
+    <title>Foundation Phantom MK-2: 1 field changed</title>
+    <updated>2026-11-18T00:00:00Z</updated>
+    <link rel="alternate" type="text/html" href="https://htcrefactor.github.io/robot-catalog/robot.html?id=foundation-phantom-mk2"/>
+    <category term="updated"/>
+    <summary type="html">&lt;ul&gt;&lt;li&gt;notes: Issue #17 (2026-11-17): MK-2 has had no public launch; The San Francisco Standard describes it as about 6 ft and 200 lb and gives no payload, DoF or speed, so those fields were emptied. Foundation's Phantom page (1.8 m, 80 kg, 40 kg, 29 DoF) does not name a generation. [replaced height_mm: 1800 -&amp;gt; 1830; weight_kg: 80 -&amp;gt; 90 | emptied (no maker value) payload_kg=30; dof=29; max_speed_mps=1.7] → Issue #17 (2026-11-17): MK-2 has had no public launch; The San Francisco Standard describes it as about 6 ft and 200 lb and gives no payload, DoF or speed, so those fields were emptied. Foundation's Phantom page (1.8 m, 80 kg, 40 kg, 29 DoF) does not name a generation. [replaced height_mm: 1800 -&amp;gt; 1830; weight_kg: 80 -&amp;gt; 90 | emptied (no maker value) payload_kg=30; dof=29; max_speed_mps=1.7] Issue #64 (2026-11-18): verification kept unconfirmed - the maker page does not label which generation its figures describe (PR #60 had official; not used).&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://htcrefactor.github.io/robot-catalog/robot.html?id=foundation-phantom-mk2"&gt;Foundation Phantom MK-2 — robot page&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Source: &lt;a href="https://foundation.bot/phantom"&gt;https://foundation.bot/phantom&lt;/a&gt;&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <id>tag:htcrefactor.github.io,2026:robot-catalog/flourish-1/updated/2026-11-18</id>
+    <title>Flourish Robots Flourish 1: 2 fields changed</title>
+    <updated>2026-11-18T00:00:00Z</updated>
+    <link rel="alternate" type="text/html" href="https://htcrefactor.github.io/robot-catalog/robot.html?id=flourish-1"/>
+    <category term="updated"/>
+    <summary type="html">&lt;ul&gt;&lt;li&gt;notes: Issue #17 (2026-11-17): 110 cm (3'7"), 20 kg (44 lb), 3.3 lb (1.5 kg) lift, up to 12 h and US$3,555 from Flourish's Sept 2026 launch as reported; no maker spec page could be opened, so the record stays unconfirmed. [replaced height_mm: 1090 -&amp;gt; 1100; price_note: list 3555 USD (maker), per HumanoidStore, checked 2026-10 -&amp;gt; US$3,555 pre-order for the first 50 units] → Issue #17 (2026-11-17): 110 cm (3'7"), 20 kg (44 lb), 3.3 lb (1.5 kg) lift, up to 12 h and US$3,555 from Flourish's Sept 2026 launch as reported; no maker spec page could be opened, so the record stays unconfirmed. [replaced height_mm: 1090 -&amp;gt; 1100; price_note: list 3555 USD (maker), per HumanoidStore, checked 2026-10 -&amp;gt; US$3,555 pre-order for the first 50 units] Issue #64 (2026-11-18): verification unconfirmed -&amp;gt; official. flourish-robots.com (re-checked 2026-11-18) publishes 3 ft 7 in, 44 lb, 3.3 lb payload, 12 h and the US$3,555 / US$200 refundable deposit / December 2026 terms, so these are maker-read figures.&lt;/li&gt;&lt;li&gt;verification: unconfirmed → official&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://htcrefactor.github.io/robot-catalog/robot.html?id=flourish-1"&gt;Flourish Robots Flourish 1 — robot page&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Source: &lt;a href="https://flourish-robots.com/"&gt;https://flourish-robots.com/&lt;/a&gt;&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <id>tag:htcrefactor.github.io,2026:robot-catalog/faraday-future-nova-mini/updated/2026-11-18</id>
+    <title>Faraday Future Nova Mini: 1 field changed</title>
+    <updated>2026-11-18T00:00:00Z</updated>
+    <link rel="alternate" type="text/html" href="https://htcrefactor.github.io/robot-catalog/robot.html?id=faraday-future-nova-mini"/>
+    <category term="updated"/>
+    <summary type="html">&lt;ul&gt;&lt;li&gt;notes: Issue #17 (2026-11-17): FF Nova Mini - 349x176x99 mm, 0.94 kg, 17 servo joints (head 1, arms 3x2, legs 5x2), about 50 min, US$299. [replaced price_note: list 299 USD (maker), per HumanoidStore, checked 2026-10 -&amp;gt; US$299 MSRP] → Issue #17 (2026-11-17): FF Nova Mini - 349x176x99 mm, 0.94 kg, 17 servo joints (head 1, arms 3x2, legs 5x2), about 50 min, US$299. [replaced price_note: list 299 USD (maker), per HumanoidStore, checked 2026-10 -&amp;gt; US$299 MSRP] Issue #64 (2026-11-18): price_note stays empty - the US$299 MSRP is carried as a dated price observation from shop.ff.com (2026-11-17). PR #58's wording ('MSRP on the maker's own shop, checked 2026-11') is covered by that observation.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://htcrefactor.github.io/robot-catalog/robot.html?id=faraday-future-nova-mini"&gt;Faraday Future Nova Mini — robot page&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Source: &lt;a href="https://shop.ff.com/products/ff-nova-mini"&gt;https://shop.ff.com/products/ff-nova-mini&lt;/a&gt;&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <id>tag:htcrefactor.github.io,2026:robot-catalog/faraday-future-nova/updated/2026-11-18</id>
+    <title>Faraday Future Nova: 2 fields changed</title>
+    <updated>2026-11-18T00:00:00Z</updated>
+    <link rel="alternate" type="text/html" href="https://htcrefactor.github.io/robot-catalog/robot.html?id=faraday-future-nova"/>
+    <category term="updated"/>
+    <summary type="html">&lt;ul&gt;&lt;li&gt;notes: Issue #17 (2026-11-17): FF Nova - 497 mm, 2.8 kg, 20 DoF (head 2, arms 6, legs 12), 0.1 m/s bipedal (0.8 m/s on its wheeled base), 2-3 h, US$2,490 from Faraday Future's Nova page and launch release. [replaced runtime_h: 2.0 -&amp;gt; 2.5; price_note: list 2490 USD (maker), per HumanoidStore, checked 2026-10 -&amp;gt; US$2,490 robot device; US$390 developer skills package] → Issue #17 (2026-11-17): FF Nova - 497 mm, 2.8 kg, 20 DoF (head 2, arms 6, legs 12), 0.1 m/s bipedal (0.8 m/s on its wheeled base), 2-3 h, US$2,490 from Faraday Future's Nova page and launch release. [replaced runtime_h: 2.0 -&amp;gt; 2.5; price_note: list 2490 USD (maker), per HumanoidStore, checked 2026-10 -&amp;gt; US$2,490 robot device; US$390 developer skills package] Issue #64 (2026-11-18): runtime_h 2.5 -&amp;gt; none, because robotics.ff.com/us/nova (re-read 2026-11-18) states no battery life anywhere on the page and the 2.5 h was the HumanoidStore figure. price_note also stays empty: US$2,490 for the device and US$390 for the Developer Skills Package are dated price observations from shop.ff.com (2026-11-17), the maker's own shop linked from the launch page.&lt;/li&gt;&lt;li&gt;runtime_h: 2.5 h → &lt;em&gt;—&lt;/em&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://htcrefactor.github.io/robot-catalog/robot.html?id=faraday-future-nova"&gt;Faraday Future Nova — robot page&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Source: &lt;a href="https://robotics.ff.com/us/nova/"&gt;https://robotics.ff.com/us/nova/&lt;/a&gt;&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <id>tag:htcrefactor.github.io,2026:robot-catalog/engineai-t800/updated/2026-11-18</id>
+    <title>EngineAI T800: 1 field changed</title>
+    <updated>2026-11-18T00:00:00Z</updated>
+    <link rel="alternate" type="text/html" href="https://htcrefactor.github.io/robot-catalog/robot.html?id=engineai-t800"/>
+    <category term="updated"/>
+    <summary type="html">&lt;ul&gt;&lt;li&gt;notes: Issue #17 (2026-11-17): T800 - 173 cm, 84.5 kg (Developer) / 85.3 kg (Pro), 25 DoF Developer / 29 + 14 hands Pro, walking 0-1.5 m/s, running &amp;lt;3 m/s, 1.22 kWh, 2 h standard. HumanoidStore's US$26,000 removed: EngineAI publishes no price. [replaced weight_kg: 75 -&amp;gt; 85; dof: 25 -&amp;gt; 29; max_speed_mps: 2 -&amp;gt; 3.0; runtime_h: 4.0 -&amp;gt; 2.0; battery_wh: None -&amp;gt; 1220 | emptied (no maker value) price_usd=25000; price_note=list 25000 USD (maker), per HumanoidStore, checked 2026-10] → Issue #17 (2026-11-17): T800 - 173 cm, 84.5 kg (Developer) / 85.3 kg (Pro), 25 DoF Developer / 29 + 14 hands Pro, walking 0-1.5 m/s, running &amp;lt;3 m/s, 1.22 kWh, 2 h standard. HumanoidStore's US$26,000 removed: EngineAI publishes no price. [replaced weight_kg: 75 -&amp;gt; 85; dof: 25 -&amp;gt; 29; max_speed_mps: 2 -&amp;gt; 3.0; runtime_h: 4.0 -&amp;gt; 2.0; battery_wh: None -&amp;gt; 1220 | emptied (no maker value) price_usd=25000; price_note=list 25000 USD (maker), per HumanoidStore, checked 2026-10] Issue #64 (2026-11-18): weight kept at 85 - the product page gives 75-85 kg by configuration; PR #58's 84.5 kg is the Developer Edition figure in the same maker's open-platform documentation.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://htcrefactor.github.io/robot-catalog/robot.html?id=engineai-t800"&gt;EngineAI T800 — robot page&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Source: &lt;a href="https://en.engineai.com.cn/product-t800"&gt;https://en.engineai.com.cn/product-t800&lt;/a&gt;&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <id>tag:htcrefactor.github.io,2026:robot-catalog/enchanted-tools-mirokai/updated/2026-11-18</id>
+    <title>Enchanted Tools Mirokaï: 2 fields changed</title>
+    <updated>2026-11-18T00:00:00Z</updated>
+    <link rel="alternate" type="text/html" href="https://htcrefactor.github.io/robot-catalog/robot.html?id=enchanted-tools-mirokai"/>
+    <category term="updated"/>
+    <summary type="html">&lt;ul&gt;&lt;li&gt;notes: Issue #17 (2026-11-17): Mirokaï - 123 cm, 29 kg, 26 DoF (neck 3, arms 4x2, wrists 3x2, hands 2x2, ears 1x2, base 3), 3.2 km/h (0.889 m/s) among people, 4 h, per Enchanted Tools' published figures (reproduced in the GO Robotics brochure, Sept 2026; enchanted.tools itself has no spec table). [replaced weight_kg: 32 -&amp;gt; 29; max_speed_mps: 0.9 -&amp;gt; 0.889; runtime_h: 3.0 -&amp;gt; 4.0] HumanoidStore price (US$56125) removed: no maker list price confirmed. → Issue #17 (2026-11-17): Mirokaï - 123 cm, 29 kg, 26 DoF (neck 3, arms 4x2, wrists 3x2, hands 2x2, ears 1x2, base 3), 3.2 km/h (0.889 m/s) among people, 4 h, per Enchanted Tools' published figures (reproduced in the GO Robotics brochure, Sept 2026; enchanted.tools itself has no spec table). [replaced weight_kg: 32 -&amp;gt; 29; max_speed_mps: 0.9 -&amp;gt; 0.889; runtime_h: 3.0 -&amp;gt; 4.0] HumanoidStore price (US$56125) removed: no maker list price confirmed. Issue #64 (2026-11-18): verification official -&amp;gt; unconfirmed. enchanted.tools (re-checked 2026-11-18) still publishes no numeric spec table, so the figures remain the maker's earlier sheet as reproduced by catalogues (PR #58).&lt;/li&gt;&lt;li&gt;verification: official → unconfirmed&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://htcrefactor.github.io/robot-catalog/robot.html?id=enchanted-tools-mirokai"&gt;Enchanted Tools Mirokaï — robot page&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Source: &lt;a href="https://enchanted.tools/"&gt;https://enchanted.tools/&lt;/a&gt;&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <id>tag:htcrefactor.github.io,2026:robot-catalog/duatic-dxtr/updated/2026-11-18</id>
+    <title>Duatic DXTR (Alpha Half-Humanoid): 2 fields changed</title>
+    <updated>2026-11-18T00:00:00Z</updated>
+    <link rel="alternate" type="text/html" href="https://htcrefactor.github.io/robot-catalog/robot.html?id=duatic-dxtr"/>
+    <category term="updated"/>
+    <summary type="html">&lt;ul&gt;&lt;li&gt;notes: &lt;em&gt;—&lt;/em&gt; → Issue #64 (2026-11-18): the verify-batch edit made on the removed duatic-alpha record is carried here - Duatic's 2026 Hannover Messe flyer states lifts 60 kg, carries 200 kg, moves 1.5 m/s and 12 h autonomy, and the DynaArm module weighs 9 kg with a 6 kg payload (14 kg for 10 s at full reach), 1 m reach, IP66 and a ROS 2 stack. The product-page values in the fields are kept where the two maker sources disagree.&lt;/li&gt;&lt;li&gt;sources: https://www.duatic.com/dxtr; https://www.duatic.com/duatorso → https://www.duatic.com/dxtr; https://www.duatic.com/duatorso; https://www.hannovermesse.de/apollo/hannover_messe_2026…&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://htcrefactor.github.io/robot-catalog/robot.html?id=duatic-dxtr"&gt;Duatic DXTR (Alpha Half-Humanoid) — robot page&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Source: &lt;a href="https://www.duatic.com/dxtr"&gt;https://www.duatic.com/dxtr&lt;/a&gt;&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <id>tag:htcrefactor.github.io,2026:robot-catalog/kinisi-kr1/updated/2026-11-18</id>
+    <title>Bear Robotics Kinisi: 2 fields changed</title>
+    <updated>2026-11-18T00:00:00Z</updated>
+    <link rel="alternate" type="text/html" href="https://htcrefactor.github.io/robot-catalog/robot.html?id=kinisi-kr1"/>
+    <category term="updated"/>
+    <summary type="html">&lt;ul&gt;&lt;li&gt;notes: Issue #17 (2026-11-17): Bear Robotics' Kinisi page confirms up to 14.4 km/h (4.0 m/s) but lists payload, reach and mobility as 'to be confirmed at launch'. Height 162 cm, weight 100 kg, 21 DoF and 8 h come from Kinisi's pre-acquisition published specifications and could not be re-opened today, so the record is marked unconfirmed rather than official. → Issue #17 (2026-11-17): Bear Robotics' Kinisi page confirms up to 14.4 km/h (4.0 m/s) but lists payload, reach and mobility as 'to be confirmed at launch'. Height 162 cm, weight 100 kg, 21 DoF and 8 h come from Kinisi's pre-acquisition published specifications and could not be re-opened today, so the record is marked unconfirmed rather than official. Issue #64 (2026-11-18): verification unconfirmed -&amp;gt; official. Every field left in the record (4 m/s, IP65, a full shift per battery) is from bearrobotics.ai/kinisi, re-read 2026-11-18; payload and reach are 'to be confirmed at launch'.&lt;/li&gt;&lt;li&gt;verification: unconfirmed → official&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://htcrefactor.github.io/robot-catalog/robot.html?id=kinisi-kr1"&gt;Bear Robotics Kinisi — robot page&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Source: &lt;a href="https://www.bearrobotics.ai/kinisi"&gt;https://www.bearrobotics.ai/kinisi&lt;/a&gt;&lt;/p&gt;</summary>
+  </entry>
   <entry>
     <id>tag:htcrefactor.github.io,2026:robot-catalog/zvalley-z03/added/2026-11-14</id>
     <title>New robot: Zvalley Technology (Zoomlion) Z03</title>
@@ -510,301 +806,5 @@
     <link rel="alternate" type="text/html" href="https://htcrefactor.github.io/robot-catalog/robot.html?id=vizum-humanoid-picking-robot"/>
     <category term="added"/>
     <summary type="html">&lt;p&gt;&lt;a href="https://htcrefactor.github.io/robot-catalog/robot.html?id=vizum-humanoid-picking-robot"&gt;Vizum Humanoid picking robot — robot page&lt;/a&gt;&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <id>tag:htcrefactor.github.io,2026:robot-catalog/visionnav-vnst-20/added/2026-11-14</id>
-    <title>New robot: VisionNav Robotics VNST 20</title>
-    <updated>2026-11-14T00:00:00Z</updated>
-    <link rel="alternate" type="text/html" href="https://htcrefactor.github.io/robot-catalog/robot.html?id=visionnav-vnst-20"/>
-    <category term="added"/>
-    <summary type="html">&lt;p&gt;&lt;a href="https://htcrefactor.github.io/robot-catalog/robot.html?id=visionnav-vnst-20"&gt;VisionNav Robotics VNST 20 — robot page&lt;/a&gt;&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <id>tag:htcrefactor.github.io,2026:robot-catalog/visionnav-vnr-20/added/2026-11-14</id>
-    <title>New robot: VisionNav Robotics VNR 20</title>
-    <updated>2026-11-14T00:00:00Z</updated>
-    <link rel="alternate" type="text/html" href="https://htcrefactor.github.io/robot-catalog/robot.html?id=visionnav-vnr-20"/>
-    <category term="added"/>
-    <summary type="html">&lt;p&gt;&lt;a href="https://htcrefactor.github.io/robot-catalog/robot.html?id=visionnav-vnr-20"&gt;VisionNav Robotics VNR 20 — robot page&lt;/a&gt;&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <id>tag:htcrefactor.github.io,2026:robot-catalog/visionnav-vnp-15/added/2026-11-14</id>
-    <title>New robot: VisionNav Robotics VNP 15</title>
-    <updated>2026-11-14T00:00:00Z</updated>
-    <link rel="alternate" type="text/html" href="https://htcrefactor.github.io/robot-catalog/robot.html?id=visionnav-vnp-15"/>
-    <category term="added"/>
-    <summary type="html">&lt;p&gt;&lt;a href="https://htcrefactor.github.io/robot-catalog/robot.html?id=visionnav-vnp-15"&gt;VisionNav Robotics VNP 15 — robot page&lt;/a&gt;&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <id>tag:htcrefactor.github.io,2026:robot-catalog/visionnav-vnk15/added/2026-11-14</id>
-    <title>New robot: VisionNav Robotics VNK 15</title>
-    <updated>2026-11-14T00:00:00Z</updated>
-    <link rel="alternate" type="text/html" href="https://htcrefactor.github.io/robot-catalog/robot.html?id=visionnav-vnk15"/>
-    <category term="added"/>
-    <summary type="html">&lt;p&gt;&lt;a href="https://htcrefactor.github.io/robot-catalog/robot.html?id=visionnav-vnk15"&gt;VisionNav Robotics VNK 15 — robot page&lt;/a&gt;&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <id>tag:htcrefactor.github.io,2026:robot-catalog/visionnav-vne40-66/added/2026-11-14</id>
-    <title>New robot: VisionNav Robotics VNE40-66</title>
-    <updated>2026-11-14T00:00:00Z</updated>
-    <link rel="alternate" type="text/html" href="https://htcrefactor.github.io/robot-catalog/robot.html?id=visionnav-vne40-66"/>
-    <category term="added"/>
-    <summary type="html">&lt;p&gt;&lt;a href="https://htcrefactor.github.io/robot-catalog/robot.html?id=visionnav-vne40-66"&gt;VisionNav Robotics VNE40-66 — robot page&lt;/a&gt;&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <id>tag:htcrefactor.github.io,2026:robot-catalog/vinrobotics-vr-m3/added/2026-11-14</id>
-    <title>New robot: VinRobotics (Vingroup) VR-M3</title>
-    <updated>2026-11-14T00:00:00Z</updated>
-    <link rel="alternate" type="text/html" href="https://htcrefactor.github.io/robot-catalog/robot.html?id=vinrobotics-vr-m3"/>
-    <category term="added"/>
-    <summary type="html">&lt;p&gt;&lt;a href="https://htcrefactor.github.io/robot-catalog/robot.html?id=vinrobotics-vr-m3"&gt;VinRobotics (Vingroup) VR-M3 — robot page&lt;/a&gt;&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <id>tag:htcrefactor.github.io,2026:robot-catalog/vinrobotics-vr-h5/added/2026-11-14</id>
-    <title>New robot: VinRobotics (Vingroup) VR-H5</title>
-    <updated>2026-11-14T00:00:00Z</updated>
-    <link rel="alternate" type="text/html" href="https://htcrefactor.github.io/robot-catalog/robot.html?id=vinrobotics-vr-h5"/>
-    <category term="added"/>
-    <summary type="html">&lt;p&gt;&lt;a href="https://htcrefactor.github.io/robot-catalog/robot.html?id=vinrobotics-vr-h5"&gt;VinRobotics (Vingroup) VR-H5 — robot page&lt;/a&gt;&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <id>tag:htcrefactor.github.io,2026:robot-catalog/vinrobotics-vr-h3/added/2026-11-14</id>
-    <title>New robot: VinRobotics (Vingroup) VR-H3</title>
-    <updated>2026-11-14T00:00:00Z</updated>
-    <link rel="alternate" type="text/html" href="https://htcrefactor.github.io/robot-catalog/robot.html?id=vinrobotics-vr-h3"/>
-    <category term="added"/>
-    <summary type="html">&lt;p&gt;&lt;a href="https://htcrefactor.github.io/robot-catalog/robot.html?id=vinrobotics-vr-h3"&gt;VinRobotics (Vingroup) VR-H3 — robot page&lt;/a&gt;&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <id>tag:htcrefactor.github.io,2026:robot-catalog/vinmotion-motion-2/added/2026-11-14</id>
-    <title>New robot: VinMotion (Vingroup) Motion 2</title>
-    <updated>2026-11-14T00:00:00Z</updated>
-    <link rel="alternate" type="text/html" href="https://htcrefactor.github.io/robot-catalog/robot.html?id=vinmotion-motion-2"/>
-    <category term="added"/>
-    <summary type="html">&lt;p&gt;&lt;a href="https://htcrefactor.github.io/robot-catalog/robot.html?id=vinmotion-motion-2"&gt;VinMotion (Vingroup) Motion 2 — robot page&lt;/a&gt;&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <id>tag:htcrefactor.github.io,2026:robot-catalog/vinmotion-motion-1/added/2026-11-14</id>
-    <title>New robot: VinMotion (Vingroup) Motion 1</title>
-    <updated>2026-11-14T00:00:00Z</updated>
-    <link rel="alternate" type="text/html" href="https://htcrefactor.github.io/robot-catalog/robot.html?id=vinmotion-motion-1"/>
-    <category term="added"/>
-    <summary type="html">&lt;p&gt;&lt;a href="https://htcrefactor.github.io/robot-catalog/robot.html?id=vinmotion-motion-1"&gt;VinMotion (Vingroup) Motion 1 — robot page&lt;/a&gt;&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <id>tag:htcrefactor.github.io,2026:robot-catalog/vindynamics-dyno/added/2026-11-14</id>
-    <title>New robot: VinDynamics (Vingroup) Dyno</title>
-    <updated>2026-11-14T00:00:00Z</updated>
-    <link rel="alternate" type="text/html" href="https://htcrefactor.github.io/robot-catalog/robot.html?id=vindynamics-dyno"/>
-    <category term="added"/>
-    <summary type="html">&lt;p&gt;&lt;a href="https://htcrefactor.github.io/robot-catalog/robot.html?id=vindynamics-dyno"&gt;VinDynamics (Vingroup) Dyno — robot page&lt;/a&gt;&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <id>tag:htcrefactor.github.io,2026:robot-catalog/vesoma-gen-1/added/2026-11-14</id>
-    <title>New robot: Vesoma Vesoma Gen 1</title>
-    <updated>2026-11-14T00:00:00Z</updated>
-    <link rel="alternate" type="text/html" href="https://htcrefactor.github.io/robot-catalog/robot.html?id=vesoma-gen-1"/>
-    <category term="added"/>
-    <summary type="html">&lt;p&gt;&lt;a href="https://htcrefactor.github.io/robot-catalog/robot.html?id=vesoma-gen-1"&gt;Vesoma Vesoma Gen 1 — robot page&lt;/a&gt;&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <id>tag:htcrefactor.github.io,2026:robot-catalog/vecna-co-bot-pallet-jack/added/2026-11-14</id>
-    <title>New robot: Vecna Robotics CPJ (Co-bot Pallet Jack)</title>
-    <updated>2026-11-14T00:00:00Z</updated>
-    <link rel="alternate" type="text/html" href="https://htcrefactor.github.io/robot-catalog/robot.html?id=vecna-co-bot-pallet-jack"/>
-    <category term="added"/>
-    <summary type="html">&lt;p&gt;&lt;a href="https://htcrefactor.github.io/robot-catalog/robot.html?id=vecna-co-bot-pallet-jack"&gt;Vecna Robotics CPJ (Co-bot Pallet Jack) — robot page&lt;/a&gt;&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <id>tag:htcrefactor.github.io,2026:robot-catalog/vecna-autonomous-tugger-atg/added/2026-11-14</id>
-    <title>New robot: Vecna Robotics Autonomous Tugger (ATG)</title>
-    <updated>2026-11-14T00:00:00Z</updated>
-    <link rel="alternate" type="text/html" href="https://htcrefactor.github.io/robot-catalog/robot.html?id=vecna-autonomous-tugger-atg"/>
-    <category term="added"/>
-    <summary type="html">&lt;p&gt;&lt;a href="https://htcrefactor.github.io/robot-catalog/robot.html?id=vecna-autonomous-tugger-atg"&gt;Vecna Robotics Autonomous Tugger (ATG) — robot page&lt;/a&gt;&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <id>tag:htcrefactor.github.io,2026:robot-catalog/vbot-superdog/added/2026-11-14</id>
-    <title>New robot: Vbot (Vita Dynamics) SuperDog (Vbot 超能机器狗)</title>
-    <updated>2026-11-14T00:00:00Z</updated>
-    <link rel="alternate" type="text/html" href="https://htcrefactor.github.io/robot-catalog/robot.html?id=vbot-superdog"/>
-    <category term="added"/>
-    <summary type="html">&lt;p&gt;&lt;a href="https://htcrefactor.github.io/robot-catalog/robot.html?id=vbot-superdog"&gt;Vbot (Vita Dynamics) SuperDog (Vbot 超能机器狗) — robot page&lt;/a&gt;&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <id>tag:htcrefactor.github.io,2026:robot-catalog/vbot-atom/added/2026-11-14</id>
-    <title>New robot: Vbot (Vita Dynamics) ATOM</title>
-    <updated>2026-11-14T00:00:00Z</updated>
-    <link rel="alternate" type="text/html" href="https://htcrefactor.github.io/robot-catalog/robot.html?id=vbot-atom"/>
-    <category term="added"/>
-    <summary type="html">&lt;p&gt;&lt;a href="https://htcrefactor.github.io/robot-catalog/robot.html?id=vbot-atom"&gt;Vbot (Vita Dynamics) ATOM — robot page&lt;/a&gt;&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <id>tag:htcrefactor.github.io,2026:robot-catalog/vanar-robots-vanar-gen-1/added/2026-11-14</id>
-    <title>New robot: Vanar Robots Vanar Generation 1</title>
-    <updated>2026-11-14T00:00:00Z</updated>
-    <link rel="alternate" type="text/html" href="https://htcrefactor.github.io/robot-catalog/robot.html?id=vanar-robots-vanar-gen-1"/>
-    <category term="added"/>
-    <summary type="html">&lt;p&gt;&lt;a href="https://htcrefactor.github.io/robot-catalog/robot.html?id=vanar-robots-vanar-gen-1"&gt;Vanar Robots Vanar Generation 1 — robot page&lt;/a&gt;&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <id>tag:htcrefactor.github.io,2026:robot-catalog/unix-ai-wanda-2/added/2026-11-14</id>
-    <title>New robot: UniX AI Wanda 2.0</title>
-    <updated>2026-11-14T00:00:00Z</updated>
-    <link rel="alternate" type="text/html" href="https://htcrefactor.github.io/robot-catalog/robot.html?id=unix-ai-wanda-2"/>
-    <category term="added"/>
-    <summary type="html">&lt;p&gt;&lt;a href="https://htcrefactor.github.io/robot-catalog/robot.html?id=unix-ai-wanda-2"&gt;UniX AI Wanda 2.0 — robot page&lt;/a&gt;&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <id>tag:htcrefactor.github.io,2026:robot-catalog/unix-ai-panther/added/2026-11-14</id>
-    <title>New robot: UniX AI Panther</title>
-    <updated>2026-11-14T00:00:00Z</updated>
-    <link rel="alternate" type="text/html" href="https://htcrefactor.github.io/robot-catalog/robot.html?id=unix-ai-panther"/>
-    <category term="added"/>
-    <summary type="html">&lt;p&gt;&lt;a href="https://htcrefactor.github.io/robot-catalog/robot.html?id=unix-ai-panther"&gt;UniX AI Panther — robot page&lt;/a&gt;&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <id>tag:htcrefactor.github.io,2026:robot-catalog/unix-ai-martian/added/2026-11-14</id>
-    <title>New robot: UniX AI Martian</title>
-    <updated>2026-11-14T00:00:00Z</updated>
-    <link rel="alternate" type="text/html" href="https://htcrefactor.github.io/robot-catalog/robot.html?id=unix-ai-martian"/>
-    <category term="added"/>
-    <summary type="html">&lt;p&gt;&lt;a href="https://htcrefactor.github.io/robot-catalog/robot.html?id=unix-ai-martian"&gt;UniX AI Martian — robot page&lt;/a&gt;&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <id>tag:htcrefactor.github.io,2026:robot-catalog/surena-mini/added/2026-11-14</id>
-    <title>New robot: University of Tehran Surena Mini</title>
-    <updated>2026-11-14T00:00:00Z</updated>
-    <link rel="alternate" type="text/html" href="https://htcrefactor.github.io/robot-catalog/robot.html?id=surena-mini"/>
-    <category term="added"/>
-    <summary type="html">&lt;p&gt;&lt;a href="https://htcrefactor.github.io/robot-catalog/robot.html?id=surena-mini"&gt;University of Tehran Surena Mini — robot page&lt;/a&gt;&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <id>tag:htcrefactor.github.io,2026:robot-catalog/surena-iv/added/2026-11-14</id>
-    <title>New robot: University of Tehran Surena IV</title>
-    <updated>2026-11-14T00:00:00Z</updated>
-    <link rel="alternate" type="text/html" href="https://htcrefactor.github.io/robot-catalog/robot.html?id=surena-iv"/>
-    <category term="added"/>
-    <summary type="html">&lt;p&gt;&lt;a href="https://htcrefactor.github.io/robot-catalog/robot.html?id=surena-iv"&gt;University of Tehran Surena IV — robot page&lt;/a&gt;&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <id>tag:htcrefactor.github.io,2026:robot-catalog/bonn-nimbro-op2/added/2026-11-14</id>
-    <title>New robot: University of Bonn (NimbRo) NimbRo-OP2</title>
-    <updated>2026-11-14T00:00:00Z</updated>
-    <link rel="alternate" type="text/html" href="https://htcrefactor.github.io/robot-catalog/robot.html?id=bonn-nimbro-op2"/>
-    <category term="added"/>
-    <summary type="html">&lt;p&gt;&lt;a href="https://htcrefactor.github.io/robot-catalog/robot.html?id=bonn-nimbro-op2"&gt;University of Bonn (NimbRo) NimbRo-OP2 — robot page&lt;/a&gt;&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <id>tag:htcrefactor.github.io,2026:robot-catalog/bonn-nimbro-op/added/2026-11-14</id>
-    <title>New robot: University of Bonn (NimbRo) NimbRo-OP</title>
-    <updated>2026-11-14T00:00:00Z</updated>
-    <link rel="alternate" type="text/html" href="https://htcrefactor.github.io/robot-catalog/robot.html?id=bonn-nimbro-op"/>
-    <category term="added"/>
-    <summary type="html">&lt;p&gt;&lt;a href="https://htcrefactor.github.io/robot-catalog/robot.html?id=bonn-nimbro-op"&gt;University of Bonn (NimbRo) NimbRo-OP — robot page&lt;/a&gt;&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <id>tag:htcrefactor.github.io,2026:robot-catalog/unitree-superman/added/2026-11-14</id>
-    <title>New robot: Unitree Robotics Superman (prototype)</title>
-    <updated>2026-11-14T00:00:00Z</updated>
-    <link rel="alternate" type="text/html" href="https://htcrefactor.github.io/robot-catalog/robot.html?id=unitree-superman"/>
-    <category term="added"/>
-    <summary type="html">&lt;p&gt;&lt;a href="https://htcrefactor.github.io/robot-catalog/robot.html?id=unitree-superman"&gt;Unitree Robotics Superman (prototype) — robot page&lt;/a&gt;&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <id>tag:htcrefactor.github.io,2026:robot-catalog/unitree-laikago/added/2026-11-14</id>
-    <title>New robot: Unitree Robotics Laikago</title>
-    <updated>2026-11-14T00:00:00Z</updated>
-    <link rel="alternate" type="text/html" href="https://htcrefactor.github.io/robot-catalog/robot.html?id=unitree-laikago"/>
-    <category term="added"/>
-    <summary type="html">&lt;p&gt;&lt;a href="https://htcrefactor.github.io/robot-catalog/robot.html?id=unitree-laikago"&gt;Unitree Robotics Laikago — robot page&lt;/a&gt;&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <id>tag:htcrefactor.github.io,2026:robot-catalog/unitree-h2-d/added/2026-11-14</id>
-    <title>New robot: Unitree Robotics H2-D</title>
-    <updated>2026-11-14T00:00:00Z</updated>
-    <link rel="alternate" type="text/html" href="https://htcrefactor.github.io/robot-catalog/robot.html?id=unitree-h2-d"/>
-    <category term="added"/>
-    <summary type="html">&lt;p&gt;&lt;a href="https://htcrefactor.github.io/robot-catalog/robot.html?id=unitree-h2-d"&gt;Unitree Robotics H2-D — robot page&lt;/a&gt;&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <id>tag:htcrefactor.github.io,2026:robot-catalog/unitree-go1/added/2026-11-14</id>
-    <title>New robot: Unitree Robotics Go1</title>
-    <updated>2026-11-14T00:00:00Z</updated>
-    <link rel="alternate" type="text/html" href="https://htcrefactor.github.io/robot-catalog/robot.html?id=unitree-go1"/>
-    <category term="added"/>
-    <summary type="html">&lt;p&gt;&lt;a href="https://htcrefactor.github.io/robot-catalog/robot.html?id=unitree-go1"&gt;Unitree Robotics Go1 — robot page&lt;/a&gt;&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <id>tag:htcrefactor.github.io,2026:robot-catalog/unitree-g1-d/added/2026-11-14</id>
-    <title>New robot: Unitree Robotics G1-D</title>
-    <updated>2026-11-14T00:00:00Z</updated>
-    <link rel="alternate" type="text/html" href="https://htcrefactor.github.io/robot-catalog/robot.html?id=unitree-g1-d"/>
-    <category term="added"/>
-    <summary type="html">&lt;p&gt;&lt;a href="https://htcrefactor.github.io/robot-catalog/robot.html?id=unitree-g1-d"&gt;Unitree Robotics G1-D — robot page&lt;/a&gt;&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <id>tag:htcrefactor.github.io,2026:robot-catalog/unitree-b1/added/2026-11-14</id>
-    <title>New robot: Unitree Robotics B1</title>
-    <updated>2026-11-14T00:00:00Z</updated>
-    <link rel="alternate" type="text/html" href="https://htcrefactor.github.io/robot-catalog/robot.html?id=unitree-b1"/>
-    <category term="added"/>
-    <summary type="html">&lt;p&gt;&lt;a href="https://htcrefactor.github.io/robot-catalog/robot.html?id=unitree-b1"&gt;Unitree Robotics B1 — robot page&lt;/a&gt;&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <id>tag:htcrefactor.github.io,2026:robot-catalog/unitree-as2/added/2026-11-14</id>
-    <title>New robot: Unitree Robotics As2</title>
-    <updated>2026-11-14T00:00:00Z</updated>
-    <link rel="alternate" type="text/html" href="https://htcrefactor.github.io/robot-catalog/robot.html?id=unitree-as2"/>
-    <category term="added"/>
-    <summary type="html">&lt;p&gt;&lt;a href="https://htcrefactor.github.io/robot-catalog/robot.html?id=unitree-as2"&gt;Unitree Robotics As2 — robot page&lt;/a&gt;&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <id>tag:htcrefactor.github.io,2026:robot-catalog/unitree-aliengo/added/2026-11-14</id>
-    <title>New robot: Unitree Robotics AlienGo</title>
-    <updated>2026-11-14T00:00:00Z</updated>
-    <link rel="alternate" type="text/html" href="https://htcrefactor.github.io/robot-catalog/robot.html?id=unitree-aliengo"/>
-    <category term="added"/>
-    <summary type="html">&lt;p&gt;&lt;a href="https://htcrefactor.github.io/robot-catalog/robot.html?id=unitree-aliengo"&gt;Unitree Robotics AlienGo — robot page&lt;/a&gt;&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <id>tag:htcrefactor.github.io,2026:robot-catalog/unitree-a1/added/2026-11-14</id>
-    <title>New robot: Unitree Robotics A1</title>
-    <updated>2026-11-14T00:00:00Z</updated>
-    <link rel="alternate" type="text/html" href="https://htcrefactor.github.io/robot-catalog/robot.html?id=unitree-a1"/>
-    <category term="added"/>
-    <summary type="html">&lt;p&gt;&lt;a href="https://htcrefactor.github.io/robot-catalog/robot.html?id=unitree-a1"&gt;Unitree Robotics A1 — robot page&lt;/a&gt;&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <id>tag:htcrefactor.github.io,2026:robot-catalog/uma-northstar/added/2026-11-14</id>
-    <title>New robot: UMA Northstar</title>
-    <updated>2026-11-14T00:00:00Z</updated>
-    <link rel="alternate" type="text/html" href="https://htcrefactor.github.io/robot-catalog/robot.html?id=uma-northstar"/>
-    <category term="added"/>
-    <summary type="html">&lt;p&gt;&lt;a href="https://htcrefactor.github.io/robot-catalog/robot.html?id=uma-northstar"&gt;UMA Northstar — robot page&lt;/a&gt;&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <id>tag:htcrefactor.github.io,2026:robot-catalog/ugo-pro/added/2026-11-14</id>
-    <title>New robot: ugo ugo Pro</title>
-    <updated>2026-11-14T00:00:00Z</updated>
-    <link rel="alternate" type="text/html" href="https://htcrefactor.github.io/robot-catalog/robot.html?id=ugo-pro"/>
-    <category term="added"/>
-    <summary type="html">&lt;p&gt;&lt;a href="https://htcrefactor.github.io/robot-catalog/robot.html?id=ugo-pro"&gt;ugo ugo Pro — robot page&lt;/a&gt;&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <id>tag:htcrefactor.github.io,2026:robot-catalog/ugo-nova/added/2026-11-14</id>
-    <title>New robot: ugo ugo Nova</title>
-    <updated>2026-11-14T00:00:00Z</updated>
-    <link rel="alternate" type="text/html" href="https://htcrefactor.github.io/robot-catalog/robot.html?id=ugo-nova"/>
-    <category term="added"/>
-    <summary type="html">&lt;p&gt;&lt;a href="https://htcrefactor.github.io/robot-catalog/robot.html?id=ugo-nova"&gt;ugo ugo Nova — robot page&lt;/a&gt;&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <id>tag:htcrefactor.github.io,2026:robot-catalog/ucla-romela-artemis/added/2026-11-14</id>
-    <title>New robot: UCLA RoMeLa ARTEMIS</title>
-    <updated>2026-11-14T00:00:00Z</updated>
-    <link rel="alternate" type="text/html" href="https://htcrefactor.github.io/robot-catalog/robot.html?id=ucla-romela-artemis"/>
-    <category term="added"/>
-    <summary type="html">&lt;p&gt;&lt;a href="https://htcrefactor.github.io/robot-catalog/robot.html?id=ucla-romela-artemis"&gt;UCLA RoMeLa ARTEMIS — robot page&lt;/a&gt;&lt;/p&gt;</summary>
   </entry>
 </feed>

@@ -190,4 +190,4 @@ Unitree A2-W page (checked 2026-11-17): standing 900 x 440 x 625 mm, 52 kg with 
 
 ---
 
-*Robot Catalog — generated from data/robots.json (last merged 2026-11-17). Source repository: https://github.com/htcrefactor/robot-catalog*
+*Robot Catalog — generated from data/robots.json (last merged 2026-11-18). Source repository: https://github.com/htcrefactor/robot-catalog*

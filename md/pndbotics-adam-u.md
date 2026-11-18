@@ -15,7 +15,7 @@
 |---|---|
 | Height | 1,770 mm |
 | Degrees of freedom | 31 |
-| Battery | 1,172 Wh |
+| Battery | 1,188 Wh |
 | Status | Pre-order |
 | On-board compute | Intel NUC12WSKi7 (motion) + NVIDIA Jetson Orin NX 16GB (perception/AI) |
 | Sensors | ZED MINI stereo camera |
@@ -79,4 +79,4 @@ PNDbotics wiki (checked 2026-11-17): Adam-U is an upper-body humanoid on a heigh
 
 ---
 
-*Robot Catalog — generated from data/robots.json (last merged 2026-11-17). Source repository: https://github.com/htcrefactor/robot-catalog*
+*Robot Catalog — generated from data/robots.json (last merged 2026-11-18). Source repository: https://github.com/htcrefactor/robot-catalog*

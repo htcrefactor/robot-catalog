@@ -1,0 +1,32 @@
+{
+ "id": "duatic-dxtr",
+ "name": "DXTR (Alpha Half-Humanoid)",
+ "manufacturer": "Duatic",
+ "updated": "2026-11-18",
+ "events": [
+  {
+   "date": "2026-11-18",
+   "type": "updated",
+   "source": "https://www.duatic.com/dxtr",
+   "changes": [
+    {
+     "field": "notes",
+     "from": null,
+     "to": "Issue #64 (2026-11-18): the verify-batch edit made on the removed duatic-alpha record is carried here - Duatic's 2026 Hannover Messe flyer states lifts 60 kg, carries 200 kg, moves 1.5 m/s and 12 h autonomy, and the DynaArm module weighs 9 kg with a 6 kg payload (14 kg for 10 s at full reach), 1 m reach, IP66 and a ROS 2 stack. The product-page values in the fields are kept where the two maker sources disagree."
+    },
+    {
+     "field": "sources",
+     "from": [
+      "https://www.duatic.com/dxtr",
+      "https://www.duatic.com/duatorso"
+     ],
+     "to": [
+      "https://www.duatic.com/dxtr",
+      "https://www.duatic.com/duatorso",
+      "https://www.hannovermesse.de/apollo/hannover_messe_2026/obs/Binary/A1508335/Duatic%20Flyer%202026%20(1)-compressed.pdf"
+     ]
+    }
+   ]
+  }
+ ]
+}

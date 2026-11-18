@@ -98,4 +98,4 @@ Maker paper (CoRL 2025) and project site: 0.56 m tall, 3.4 kg, 30 active DOF exc
 
 ---
 
-*Robot Catalog — generated from data/robots.json (last merged 2026-11-17). Source repository: https://github.com/htcrefactor/robot-catalog*
+*Robot Catalog — generated from data/robots.json (last merged 2026-11-18). Source repository: https://github.com/htcrefactor/robot-catalog*

@@ -73,10 +73,14 @@ Fields the maker does not publish are left out here — the catalog never fills 
 
 - [HumanoidStore datasheet – Zeroth Bridge (CC BY 4.0)](https://humanoidstore.co/robots/zeroth-bridge)
 
+## Notes
+
+Maker page (checked 2026-11-18): the page carries two figures for both size and mass - its banner gives 85 cm and about 10 kg, its specification table gives 88 cm overall height and about 13 kg system mass - and the banner figures are recorded. 21 DoF is the sum of the maker's joint list (4 per arm, 1 waist, 6 per leg) and is derived; 2 kg is the end-effector payload. Walking speed, runtime, battery capacity and price are not published (the 0.2 m/s in this record has no maker figure and was left for a follow-up).
+
 ## Sources
 
 - Official page: [zeroth-openbridge.com](https://zeroth-openbridge.com/products/zeroth-bridge)
 
 ---
 
-*Robot Catalog — generated from data/robots.json (last merged 2026-11-17). Source repository: https://github.com/htcrefactor/robot-catalog*
+*Robot Catalog — generated from data/robots.json (last merged 2026-11-18). Source repository: https://github.com/htcrefactor/robot-catalog*

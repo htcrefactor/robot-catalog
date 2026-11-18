@@ -6,7 +6,7 @@
 - Category: Humanoid
 - Locomotion: Legged
 - Manufacturer: Foundation (United States)
-- Verification: official — checked against a maker source
+- Verification: unconfirmed — no maker source found yet
 
 ## Core specs
 
@@ -81,4 +81,4 @@ Foundation's own site (foundation.bot/phantom) presents a single 'Phantom' produ
 
 ---
 
-*Robot Catalog — generated from data/robots.json (last merged 2026-11-17). Source repository: https://github.com/htcrefactor/robot-catalog*
+*Robot Catalog — generated from data/robots.json (last merged 2026-11-18). Source repository: https://github.com/htcrefactor/robot-catalog*

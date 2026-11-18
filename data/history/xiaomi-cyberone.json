@@ -1,0 +1,20 @@
+{
+ "id": "xiaomi-cyberone",
+ "name": "CyberOne",
+ "manufacturer": "Xiaomi",
+ "updated": "2026-11-18",
+ "events": [
+  {
+   "date": "2026-11-18",
+   "type": "updated",
+   "source": "https://www.mi.com/cyberone/",
+   "changes": [
+    {
+     "field": "notes",
+     "from": "Issue #17 (2026-11-17): Xiaomi CyberOne - 177 cm, 52 kg, 21 DoF, 3.6 km/h (1.0 m/s), 1.5 kg in one hand, 300 N-m peak torque, from Xiaomi's CyberOne page. [replaced max_speed_mps: None -> 1.0]",
+     "to": "Issue #17 (2026-11-17): Xiaomi CyberOne - 177 cm, 52 kg, 21 DoF, 3.6 km/h (1.0 m/s), 1.5 kg in one hand, 300 N-m peak torque, from Xiaomi's CyberOne page. [replaced max_speed_mps: None -> 1.0] Issue #64 (2026-11-18): official_url kept on Xiaomi's own CyberOne page (mi.com/cyberone); PR #60's /tr/product/ link is the Turkish regional copy of it."
+    }
+   ]
+  }
+ ]
+}

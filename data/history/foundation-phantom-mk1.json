@@ -1,0 +1,25 @@
+{
+ "id": "foundation-phantom-mk1",
+ "name": "Phantom MK1",
+ "manufacturer": "Foundation",
+ "updated": "2026-11-18",
+ "events": [
+  {
+   "date": "2026-11-18",
+   "type": "updated",
+   "source": "https://foundation.bot/phantom",
+   "changes": [
+    {
+     "field": "notes",
+     "from": "Issue #17 (2026-11-17): foundation.bot/phantom - 5'11\" (1.8 m), 176 lb (80 kg), 88.2 lb (40 kg) payload, 29 DoF, 1.7 m/s. HumanoidStore values replaced with the maker's. [replaced payload_kg: 20 -> 40]",
+     "to": "Issue #17 (2026-11-17): foundation.bot/phantom - 5'11\" (1.8 m), 176 lb (80 kg), 88.2 lb (40 kg) payload, 29 DoF, 1.7 m/s. HumanoidStore values replaced with the maker's. [replaced payload_kg: 20 -> 40] Issue #64 (2026-11-18): verification official -> unconfirmed. foundation.bot/phantom publishes one combined Phantom specification and names no generation, so nothing on it can be attributed to the MK-1 (re-checked 2026-11-18)."
+    },
+    {
+     "field": "verification",
+     "from": "official",
+     "to": "unconfirmed"
+    }
+   ]
+  }
+ ]
+}

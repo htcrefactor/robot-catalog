@@ -12,11 +12,10 @@
 
 | Field | Value |
 |---|---|
-| Height | 1,630 mm |
-| Weight | 43 kg |
+| Height | 1,700 mm |
 | Max speed | 1.67 m/s (6.0 km/h) |
 | Degrees of freedom | 20 |
-| Runtime | 2 h |
+| Runtime | 8 h |
 | Battery | 720 Wh |
 | Released | 2025 |
 | Status | Commercial |
@@ -94,4 +93,4 @@ Maker figures: 170 cm, 20 humanoid DoF (7-DoF arms, 6-DoF hands, 3-DoF head), 30
 
 ---
 
-*Robot Catalog — generated from data/robots.json (last merged 2026-11-17). Source repository: https://github.com/htcrefactor/robot-catalog*
+*Robot Catalog — generated from data/robots.json (last merged 2026-11-18). Source repository: https://github.com/htcrefactor/robot-catalog*

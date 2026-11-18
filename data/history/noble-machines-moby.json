@@ -1,0 +1,20 @@
+{
+ "id": "noble-machines-moby",
+ "name": "Moby",
+ "manufacturer": "Noble Machines",
+ "updated": "2026-11-18",
+ "events": [
+  {
+   "date": "2026-11-18",
+   "type": "updated",
+   "source": "https://www.noblemachines.ai/",
+   "changes": [
+    {
+     "field": "notes",
+     "from": "Issue #17 (2026-11-17): Moby - 170 cm, 45 kg, 34 DoF, 23 kg payload, 0.8 m/s, 5 h as catalogued from Noble Machines' published figures; the maker site could not be opened for a spec table, so the record stays unconfirmed.",
+     "to": "Issue #17 (2026-11-17): Moby - 170 cm, 45 kg, 34 DoF, 23 kg payload, 0.8 m/s, 5 h as catalogued from Noble Machines' published figures; the maker site could not be opened for a spec table, so the record stays unconfirmed. Issue #64 (2026-11-18): verification kept unconfirmed - noblemachines.ai (re-read 2026-11-18) confirms the 23 kg payload, 5 h and 0.8 m/s but publishes no height, mass or DoF, so the 170 cm / 45 kg / 34 DoF here are not maker figures (PR #57 had official; not used)."
+    }
+   ]
+  }
+ ]
+}

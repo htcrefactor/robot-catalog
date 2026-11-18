@@ -1,0 +1,20 @@
+{
+ "id": "k-scale-labs-k-bot",
+ "name": "K-Bot",
+ "manufacturer": "K-Scale Labs",
+ "updated": "2026-11-18",
+ "events": [
+  {
+   "date": "2026-11-18",
+   "type": "updated",
+   "source": "https://github.com/kscalelabs/kbot",
+   "changes": [
+    {
+     "field": "notes",
+     "from": "Issue #17 (2026-11-17): K-Scale Labs shut down in November 2025 and its site is offline, so nothing can be re-checked against a maker page. 140 cm, 34 kg, 20 DoF, 10 kg payload and 4 h are the maker's published figures as recorded by independent catalogs; record stays unconfirmed.",
+     "to": "Issue #17 (2026-11-17): K-Scale Labs shut down in November 2025 and its site is offline, so nothing can be re-checked against a maker page. 140 cm, 34 kg, 20 DoF, 10 kg payload and 4 h are the maker's published figures as recorded by independent catalogs; record stays unconfirmed. Issue #64 (2026-11-18): verification kept unconfirmed - the company shut down and its site is offline; the repository documents the 20 actuators and the 576 Wh pack, but height, mass and payload exist only in catalogues (PR #56 had official; not used)."
+    }
+   ]
+  }
+ ]
+}

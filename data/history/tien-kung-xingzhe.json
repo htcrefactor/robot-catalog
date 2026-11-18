@@ -1,0 +1,35 @@
+{
+ "id": "tien-kung-xingzhe",
+ "name": "Walker Tienkung",
+ "manufacturer": "UBTech Robotics",
+ "updated": "2026-11-18",
+ "events": [
+  {
+   "date": "2026-11-18",
+   "type": "updated",
+   "source": "https://www.ubtrobot.com/cn/ai-education/products/walker-tienkung",
+   "changes": [
+    {
+     "field": "height_mm",
+     "from": 1630,
+     "to": 1700
+    },
+    {
+     "field": "notes",
+     "from": "Issue #17 (2026-11-17): This row is X-Humanoid's Tiangong (Lite 1.0), not a UBTECH Walker - the HumanoidStore row conflated the two names. 163 cm, 43 kg, 20 body DoF, 6 km/h (1.67 m/s), 15 Ah 48 V (720 Wh), 2 h walking per the Lite 1.0 manual; payload is not published. [replaced height_mm: 1730 -> 1630; weight_kg: 64 -> 43; max_speed_mps: 2.78 -> 1.67; runtime_h: 3.5 -> 2.0; battery_wh: None -> 720 | emptied (no maker value) price_usd=41200; price_note=list 41200 USD (maker), per HumanoidStore, checked 2026-10]",
+     "to": "Issue #17 (2026-11-17): This row is X-Humanoid's Tiangong (Lite 1.0), not a UBTECH Walker - the HumanoidStore row conflated the two names. 163 cm, 43 kg, 20 body DoF, 6 km/h (1.67 m/s), 15 Ah 48 V (720 Wh), 2 h walking per the Lite 1.0 manual; payload is not published. [replaced height_mm: 1730 -> 1630; weight_kg: 64 -> 43; max_speed_mps: 2.78 -> 1.67; runtime_h: 3.5 -> 2.0; battery_wh: None -> 720 | emptied (no maker value) price_usd=41200; price_note=list 41200 USD (maker), per HumanoidStore, checked 2026-10] Issue #64 (2026-11-18): ubtrobot.com (re-read 2026-11-18) gives 170 cm, 20 DoF, 10 km/h, dual 30 Ah + 3 Ah quick-swap packs and 8 h of continuous work, and publishes no mass. height_mm 1630 -> 1700, runtime_h 2 -> 8, weight_kg 43 -> none (the 163 cm / 43 kg / 2 h set came from the Tiangong Lite 1.0 manual, a different configuration). max_speed_mps still carries 1.67 m/s from that manual although the same page states 10 km/h (2.78 m/s); left as it is because it is outside #64's list."
+    },
+    {
+     "field": "runtime_h",
+     "from": 2.0,
+     "to": 8.0
+    },
+    {
+     "field": "weight_kg",
+     "from": 43,
+     "to": null
+    }
+   ]
+  }
+ ]
+}

@@ -94,4 +94,4 @@ PNDbotics wiki (checked 2026-11-17) lists four editions: Adam Lite 60 kg and 25 
 
 ---
 
-*Robot Catalog — generated from data/robots.json (last merged 2026-11-17). Source repository: https://github.com/htcrefactor/robot-catalog*
+*Robot Catalog — generated from data/robots.json (last merged 2026-11-18). Source repository: https://github.com/htcrefactor/robot-catalog*

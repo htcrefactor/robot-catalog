@@ -1,0 +1,25 @@
+{
+ "id": "waseda-airec",
+ "name": "AIREC",
+ "manufacturer": "Waseda University (JST Moonshot Program)",
+ "updated": "2026-11-18",
+ "events": [
+  {
+   "date": "2026-11-18",
+   "type": "updated",
+   "source": "https://airec-waseda.jp/",
+   "changes": [
+    {
+     "field": "notes",
+     "from": "Issue #17 (2026-11-17): AIREC - 154 cm, 150 kg per the JST Moonshot / Waseda project materials. No DoF count is published, so the HumanoidStore DoF was emptied. [replaced height_mm: None -> 1540; weight_kg: 149 -> 150 | emptied (no maker value) dof=20]",
+     "to": "Issue #17 (2026-11-17): AIREC - 154 cm, 150 kg per the JST Moonshot / Waseda project materials. No DoF count is published, so the HumanoidStore DoF was emptied. [replaced height_mm: None -> 1540; weight_kg: 149 -> 150 | emptied (no maker value) dof=20] Issue #64 (2026-11-18): weight 150 kg -> none. Neither airec-waseda.jp nor the JST Moonshot 2024 progress report gives a whole-robot mass; both describe subsystems only (18-DoF fluid-actuator body, 14-DoF hand), as PR #60 found."
+    },
+    {
+     "field": "weight_kg",
+     "from": 150,
+     "to": null
+    }
+   ]
+  }
+ ]
+}

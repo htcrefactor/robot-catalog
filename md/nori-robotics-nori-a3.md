@@ -98,4 +98,4 @@ Maker docs and site (checked 2026-11-17): 19-DoF bimanual mobile manipulator, 20
 
 ---
 
-*Robot Catalog — generated from data/robots.json (last merged 2026-11-17). Source repository: https://github.com/htcrefactor/robot-catalog*
+*Robot Catalog — generated from data/robots.json (last merged 2026-11-18). Source repository: https://github.com/htcrefactor/robot-catalog*

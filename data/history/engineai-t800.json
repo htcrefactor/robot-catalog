@@ -1,0 +1,20 @@
+{
+ "id": "engineai-t800",
+ "name": "T800",
+ "manufacturer": "EngineAI",
+ "updated": "2026-11-18",
+ "events": [
+  {
+   "date": "2026-11-18",
+   "type": "updated",
+   "source": "https://en.engineai.com.cn/product-t800",
+   "changes": [
+    {
+     "field": "notes",
+     "from": "Issue #17 (2026-11-17): T800 - 173 cm, 84.5 kg (Developer) / 85.3 kg (Pro), 25 DoF Developer / 29 + 14 hands Pro, walking 0-1.5 m/s, running <3 m/s, 1.22 kWh, 2 h standard. HumanoidStore's US$26,000 removed: EngineAI publishes no price. [replaced weight_kg: 75 -> 85; dof: 25 -> 29; max_speed_mps: 2 -> 3.0; runtime_h: 4.0 -> 2.0; battery_wh: None -> 1220 | emptied (no maker value) price_usd=25000; price_note=list 25000 USD (maker), per HumanoidStore, checked 2026-10]",
+     "to": "Issue #17 (2026-11-17): T800 - 173 cm, 84.5 kg (Developer) / 85.3 kg (Pro), 25 DoF Developer / 29 + 14 hands Pro, walking 0-1.5 m/s, running <3 m/s, 1.22 kWh, 2 h standard. HumanoidStore's US$26,000 removed: EngineAI publishes no price. [replaced weight_kg: 75 -> 85; dof: 25 -> 29; max_speed_mps: 2 -> 3.0; runtime_h: 4.0 -> 2.0; battery_wh: None -> 1220 | emptied (no maker value) price_usd=25000; price_note=list 25000 USD (maker), per HumanoidStore, checked 2026-10] Issue #64 (2026-11-18): weight kept at 85 - the product page gives 75-85 kg by configuration; PR #58's 84.5 kg is the Developer Edition figure in the same maker's open-platform documentation."
+    }
+   ]
+  }
+ ]
+}

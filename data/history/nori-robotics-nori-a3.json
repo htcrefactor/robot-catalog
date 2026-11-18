@@ -1,0 +1,20 @@
+{
+ "id": "nori-robotics-nori-a3",
+ "name": "A3",
+ "manufacturer": "Nori Robotics",
+ "updated": "2026-11-18",
+ "events": [
+  {
+   "date": "2026-11-18",
+   "type": "updated",
+   "source": "https://www.norirobotics.com/",
+   "changes": [
+    {
+     "field": "notes",
+     "from": "Issue #17 (2026-11-17): Nori A3 - 19 DoF bimanual mobile manipulator, 20.4 kg, 45x45 cm footprint, telescoping lift 69-145 cm (145 taken as max height), 1.5 kg per arm, 24 V 18 Ah (432 Wh) for 6-8 h (6 taken), US$1,688. [replaced battery_wh: None -> 432; price_note: list 1688 USD (maker), per HumanoidStore, checked 2026-10 -> US$1,688, ships assembled]",
+     "to": "Issue #17 (2026-11-17): Nori A3 - 19 DoF bimanual mobile manipulator, 20.4 kg, 45x45 cm footprint, telescoping lift 69-145 cm (145 taken as max height), 1.5 kg per arm, 24 V 18 Ah (432 Wh) for 6-8 h (6 taken), US$1,688. [replaced battery_wh: None -> 432; price_note: list 1688 USD (maker), per HumanoidStore, checked 2026-10 -> US$1,688, ships assembled] Issue #64 (2026-11-18): price note kept - norirobotics.com/preorder (re-read 2026-11-18) shows US$1,688 and ships fall 2026 with no deposit; 'ships assembled' is the record's shorthand for the assembled unit PR #57 also describes."
+    }
+   ]
+  }
+ ]
+}

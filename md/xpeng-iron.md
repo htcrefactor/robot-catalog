@@ -12,8 +12,6 @@
 
 | Field | Value |
 |---|---|
-| Height | 1,730 mm |
-| Weight | 65 kg |
 | Max speed | 2 m/s (7.2 km/h) |
 | Degrees of freedom | 82 |
 | Released | 2024 |
@@ -79,4 +77,4 @@ XPENG's own releases: the first IRON (AI Day, 2024-11-06) was described with mor
 
 ---
 
-*Robot Catalog — generated from data/robots.json (last merged 2026-11-17). Source repository: https://github.com/htcrefactor/robot-catalog*
+*Robot Catalog — generated from data/robots.json (last merged 2026-11-18). Source repository: https://github.com/htcrefactor/robot-catalog*

@@ -5,7 +5,7 @@
 - Canonical site: https://htcrefactor.github.io/robot-catalog/
 - Index for agents: https://htcrefactor.github.io/robot-catalog/llms.txt
 - Per-robot Markdown with the full spec sheet and a source on every value: https://htcrefactor.github.io/robot-catalog/md/<id>.md
-- Generated from data/robots.json, last merged 2026-11-17. No scoring, no ranking.
+- Generated from data/robots.json, last merged 2026-11-18. No scoring, no ranking.
 
 ## AMR (90)
 
@@ -2291,7 +2291,7 @@
 - Humanoid · Wheeled · Switzerland
 - Summary: Swiss wheeled half-humanoid with two DynaArms for dynamic manipulation and autonomous navigation; 12 kg continuous, 30 kg peak payload, ROS 2.
 - Specs: Payload 12 kg; Max speed 2 m/s (7.2 km/h); IP rating IP66; API yes; ROS yes; Sensors Integrated vision system
-- Sources: https://www.duatic.com/dxtr, https://www.duatic.com/duatorso
+- Sources: https://www.duatic.com/dxtr, https://www.duatic.com/duatorso, https://www.hannovermesse.de/apollo/hannover_messe_2026/obs/Binary/A1508335/Duatic%20Flyer%202026%20(1)-compressed.pdf
 
 ### DYNA Robotics Taku (Dyna-2.1)
 
@@ -2469,7 +2469,7 @@
 - Markdown: https://htcrefactor.github.io/robot-catalog/md/faraday-future-nova.md
 - Humanoid · Legged · Pre-order · United States
 - Summary: Faraday Future's sub-USD-2,500 entry-level EAI humanoid for developers and classrooms: a 50 cm biped with 20 DoF that can also ride a detachable wheeled base.
-- Specs: Height 497 mm; Weight 2.8 kg; Max speed 0.1 m/s (0.4 km/h); Degrees of freedom 20; Runtime 2.5 h; Status Pre-order; SDK yes; SDK name FF Nova open SDK with ROS 2 workflow and Sim2Real RL pipeline; ROS yes; On-board compute yes; Compute 10 TOPS, 8 GB RAM, 32 GB storage; Sensors 2D LiDAR, ~4 MP wide-angle camera, 3D ToF sensor, 3-microphone ring array, 2-inch face display
+- Specs: Height 497 mm; Weight 2.8 kg; Max speed 0.1 m/s (0.4 km/h); Degrees of freedom 20; Status Pre-order; SDK yes; SDK name FF Nova open SDK with ROS 2 workflow and Sim2Real RL pipeline; ROS yes; On-board compute yes; Compute 10 TOPS, 8 GB RAM, 32 GB storage; Sensors 2D LiDAR, ~4 MP wide-angle camera, 3D ToF sensor, 3-microphone ring array, 2-inch face display
 - Sources: https://robotics.ff.com/us/nova/, https://www.ff.com/us/1014launch/, https://humanoidstore.co/robots/faraday-future-nova, https://shop.ff.com/products/ff-nova
 
 ### Faraday Future Nova Mini
@@ -3554,7 +3554,7 @@
 - Markdown: https://htcrefactor.github.io/robot-catalog/md/kawasaki-kaleido-9.md
 - Humanoid · Legged · Research · Japan · released 2025
 - Summary: Kawasaki's ninth-generation full-size humanoid, built to survive falls and aimed at factory, home and disaster-response work.
-- Specs: Height 1,780 mm; Weight 85 kg; Payload 50 kg; Degrees of freedom 32; Released 2025; Status Research
+- Specs: Height 1,780 mm; Weight 85 kg; Degrees of freedom 32; Released 2025; Status Research
 - Sources: https://kawasakirobotics.com/asia-oceania/blog/20260316_kaleido9/, https://kawasakirobotics.com/in/blog/2003-02/, https://global.kawasaki.com/en/corp/rd/magazine/181/pdf/n181en07.pdf
 
 ### Kawasaki Heavy Industries Nyokkey
@@ -4596,7 +4596,7 @@
 - Markdown: https://htcrefactor.github.io/robot-catalog/md/pndbotics-adam-u.md
 - Humanoid · Wheeled · Pre-order · China
 - Summary: Upper-body version of PNDbotics' Adam: a head, torso and two 13-DoF arms on a height-adjustable column from 1.35 to 1.77 m, 31 DoF and no legs.
-- Specs: Height 1,770 mm; Degrees of freedom 31; Battery 1,172 Wh; Status Pre-order; On-board compute Intel NUC12WSKi7 (motion) + NVIDIA Jetson Orin NX 16GB (perception/AI); Sensors ZED MINI stereo camera
+- Specs: Height 1,770 mm; Degrees of freedom 31; Battery 1,188 Wh; Status Pre-order; On-board compute Intel NUC12WSKi7 (motion) + NVIDIA Jetson Orin NX 16GB (perception/AI); Sensors ZED MINI stereo camera
 - Sources: https://wiki.pndbotics.com/en/robot/adam_u/, https://wiki.pndbotics.com/en/half_robot/half_robot/
 
 ### Pollen Robotics Microduck
@@ -5698,7 +5698,7 @@
 - Markdown: https://htcrefactor.github.io/robot-catalog/md/tien-kung-xingzhe.md
 - Humanoid · Legged · Commercial · China · released 2025
 - Summary: Full-size research and education humanoid (Tiangong Xingzhe, 天工行者) co-developed by UBTECH and the Beijing Humanoid Robot Innovation Center: 170 cm, 20 DoF, 10 km/h running and fully open low-level interfaces.
-- Specs: Height 1,630 mm; Weight 43 kg; Max speed 1.67 m/s (6.0 km/h); Degrees of freedom 20; Runtime 2 h; Battery 720 Wh; Released 2025; Status Commercial; Price CNY 299,000 (research and education platform); API yes; SDK yes; ROS yes; On-board compute yes; Compute Up to 550 TOPS expandable compute module (NVIDIA Orin option); Sensors Optional depth camera, Optional LiDAR, Optional 6-axis force/torque sensors, Optional 7-DoF cooperative arms and 5-finger hands
+- Specs: Height 1,700 mm; Max speed 1.67 m/s (6.0 km/h); Degrees of freedom 20; Runtime 8 h; Battery 720 Wh; Released 2025; Status Commercial; Price CNY 299,000 (research and education platform); API yes; SDK yes; ROS yes; On-board compute yes; Compute Up to 550 TOPS expandable compute module (NVIDIA Orin option); Sensors Optional depth camera, Optional LiDAR, Optional 6-axis force/torque sensors, Optional 7-DoF cooperative arms and 5-finger hands
 - Sources: https://www.ubtrobot.com/cn/ai-education/products/walker-tienkung, https://humanoidversus.com/robots/x-humanoid-tiangong, https://www.ubtrobot.com/en/ai-education/products/walker-tienkung
 
 ### UBTECH Robotics Walker X
@@ -6105,7 +6105,7 @@
 - Markdown: https://htcrefactor.github.io/robot-catalog/md/waseda-airec.md
 - Humanoid · Wheeled · Research · Japan
 - Summary: AIREC (AI-driven Robot for Embrace and Care), a Waseda-led Moonshot Goal 3 research humanoid for cooking, laundry, transfer, bathing and meal assistance, aimed at care work by 2030-2050.
-- Specs: Height 1,540 mm; Weight 150 kg; Status Research
+- Specs: Height 1,540 mm; Status Research
 - Sources: https://airec-waseda.jp/, https://airec-waseda.jp/en/toppage_en/, https://airec-waseda.jp/about/, https://www.jst.go.jp/moonshot/program/goal3/files/31_sugano_report2024.pdf
 
 ### Weave Robotics Isaac 1
@@ -6224,7 +6224,7 @@
 - Markdown: https://htcrefactor.github.io/robot-catalog/md/xpeng-iron.md
 - Humanoid · Legged · In development · China · released 2024
 - Summary: XPENG's humanoid, which reuses the company's Turing AI chips, Eagle Eye vision and AI models; the November 2025 generation adds a bionic spine, flexible skin and an all-solid-state battery, with volume production targeted for the end of 2026.
-- Specs: Height 1,730 mm; Weight 65 kg; Max speed 2 m/s (7.2 km/h); Degrees of freedom 82; Released 2024; Status In development; On-board compute yes; Compute 3 x XPENG Turing AI chip, 2250 TOPS effective; all-solid-state battery; Sensors Eagle Eye vision system shared with XPENG cars
+- Specs: Max speed 2 m/s (7.2 km/h); Degrees of freedom 82; Released 2024; Status In development; On-board compute yes; Compute 3 x XPENG Turing AI chip, 2250 TOPS effective; all-solid-state battery; Sensors Eagle Eye vision system shared with XPENG cars
 - Sources: https://www.xpeng.com/news/019301d2135392fa562d8a0282200016, https://www.xpeng.com/pressroom/news/01a080371029a057bc8e8a02a2c6012b, https://www.xiaopeng.com/news/company_news/5511.html
 
 ### Xpeng PX5

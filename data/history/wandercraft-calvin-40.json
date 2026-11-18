@@ -1,0 +1,20 @@
+{
+ "id": "wandercraft-calvin-40",
+ "name": "Calvin-40",
+ "manufacturer": "Wandercraft",
+ "updated": "2026-11-18",
+ "events": [
+  {
+   "date": "2026-11-18",
+   "type": "updated",
+   "source": "https://en.wandercraft.eu/calvin-40",
+   "changes": [
+    {
+     "field": "notes",
+     "from": "Issue #17 (2026-11-17): Calvin-40 - Wandercraft's site describes the industrial humanoid and its 40 kg handling but publishes no table of height, mass, DoF or speed, so the figures here come from third-party cataloguing of Wandercraft's material and the record stays unconfirmed. [replaced height_mm: None -> 1700; weight_kg: None -> 80; max_speed_mps: None -> 0.83; dof: None -> 28; runtime_h: None -> 4.0]",
+     "to": "Issue #17 (2026-11-17): Calvin-40 - Wandercraft's site describes the industrial humanoid and its 40 kg handling but publishes no table of height, mass, DoF or speed, so the figures here come from third-party cataloguing of Wandercraft's material and the record stays unconfirmed. [replaced height_mm: None -> 1700; weight_kg: None -> 80; max_speed_mps: None -> 0.83; dof: None -> 28; runtime_h: None -> 4.0] Issue #64 (2026-11-18): verification kept unconfirmed - en.wandercraft.eu/calvin-40 (re-read 2026-11-18) publishes no height, mass, DoF, speed or runtime, so the figures here are third-party cataloguing (PR #60 had official; not used)."
+    }
+   ]
+  }
+ ]
+}

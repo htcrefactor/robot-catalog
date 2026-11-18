@@ -6,7 +6,7 @@
 - Category: Humanoid
 - Locomotion: Wheeled
 - Manufacturer: Flourish Robots (United States)
-- Verification: unconfirmed — no maker source found yet
+- Verification: official — checked against a maker source
 
 ## Core specs
 
@@ -89,4 +89,4 @@ Maker site and launch release (29 Sep 2026): 3 ft 7 in (1090 mm), 44 lb (20 kg),
 
 ---
 
-*Robot Catalog — generated from data/robots.json (last merged 2026-11-17). Source repository: https://github.com/htcrefactor/robot-catalog*
+*Robot Catalog — generated from data/robots.json (last merged 2026-11-18). Source repository: https://github.com/htcrefactor/robot-catalog*

@@ -14,7 +14,6 @@
 |---|---|
 | Height | 1,780 mm |
 | Weight | 85 kg |
-| Payload | 50 kg |
 | Degrees of freedom | 32 |
 | Released | 2025 |
 | Status | Research |
@@ -76,4 +75,4 @@ Maker blog (Kawasaki Robotics, 25 Mar 2026) covers Kaleido 9: leg structure rede
 
 ---
 
-*Robot Catalog — generated from data/robots.json (last merged 2026-11-17). Source repository: https://github.com/htcrefactor/robot-catalog*
+*Robot Catalog — generated from data/robots.json (last merged 2026-11-18). Source repository: https://github.com/htcrefactor/robot-catalog*

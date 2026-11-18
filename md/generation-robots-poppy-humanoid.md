@@ -69,7 +69,7 @@ Fields the maker does not publish are left out here — the catalog never fills 
 
 ## Notes
 
-Maker repository (poppy-project/poppy-humanoid): open-source 3D-printed humanoid, 25 Robotis Dynamixel actuators, about 60% of the BOM cost, full build 8,000-9,000 USD, Raspberry Pi 3/4 on-board, pypot Python library, GPL v3 / CC BY-SA. The project site (www.poppy-project.org, docs.poppy-project.org) returned HTTP 500 on 2026-11-17, so the 83 cm / 3.5 kg figures on its v1.0.2 page could not be re-opened and height/weight were left empty instead of carrying the aggregator's 840 mm / 3.5 kg values. Generation Robots is a distributor, not the designer. The 11,193 USD price was an aggregator conversion of a EUR list price and was removed.
+Maker repository (poppy-project/poppy-humanoid): open-source 3D-printed humanoid, 25 Robotis Dynamixel actuators, about 60% of the BOM cost, full build 8,000-9,000 USD, Raspberry Pi 3/4 on-board, pypot Python library, GPL v3 / CC BY-SA. The project site (www.poppy-project.org, docs.poppy-project.org) returned HTTP 500 on 2026-11-17, so the 83 cm / 3.5 kg figures on its v1.0.2 page could not be re-opened; height keeps the 830 mm read from that page rather than the aggregator's 840 mm, and weight stays empty because no maker figure was readable. Generation Robots is a distributor, not the designer. The 11,193 USD price was an aggregator conversion of a EUR list price and was removed.
 
 ## Sources
 
@@ -77,4 +77,4 @@ Maker repository (poppy-project/poppy-humanoid): open-source 3D-printed humanoid
 
 ---
 
-*Robot Catalog — generated from data/robots.json (last merged 2026-11-17). Source repository: https://github.com/htcrefactor/robot-catalog*
+*Robot Catalog — generated from data/robots.json (last merged 2026-11-18). Source repository: https://github.com/htcrefactor/robot-catalog*

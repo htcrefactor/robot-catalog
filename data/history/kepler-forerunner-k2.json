@@ -1,0 +1,20 @@
+{
+ "id": "kepler-forerunner-k2",
+ "name": "Forerunner K2",
+ "manufacturer": "Shanghai Kepler Robotics",
+ "updated": "2026-11-18",
+ "events": [
+  {
+   "date": "2026-11-18",
+   "type": "updated",
+   "source": "https://www.gotokepler.com/productDetailK2",
+   "changes": [
+    {
+     "field": "notes",
+     "from": "Issue #17 (2026-11-17): Kepler K2 Bumblebee - 175 cm, 75 kg, 52 DoF, 15 kg per arm / 30 kg both, 8 h on a 1-hour charge, base model US$30,000 per Kepler's ICRA 2025 release and product page. Kepler publishes no walking speed, so that field was emptied. [replaced payload_kg: None -> 30; dof: 30 -> 52; price_usd: 34000 -> 30000; price_note: list 34000 USD (maker), per HumanoidStore, checked 2026-10 -> base model US$30,000]",
+     "to": "Issue #17 (2026-11-17): Kepler K2 Bumblebee - 175 cm, 75 kg, 52 DoF, 15 kg per arm / 30 kg both, 8 h on a 1-hour charge, base model US$30,000 per Kepler's ICRA 2025 release and product page. Kepler publishes no walking speed, so that field was emptied. [replaced payload_kg: None -> 30; dof: 30 -> 52; price_usd: 34000 -> 30000; price_note: list 34000 USD (maker), per HumanoidStore, checked 2026-10 -> base model US$30,000] Issue #64 (2026-11-18): price kept - US$30,000 for the base model comes from Kepler's ICRA 2025 release and product page; PR #56 had emptied it."
+    }
+   ]
+  }
+ ]
+}
