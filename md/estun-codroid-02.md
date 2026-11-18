@@ -36,7 +36,8 @@ Official Codroid (Estun subsidiary 南京埃斯顿酷卓科技) page.
 Listed by these directories (discovery only, never used as a spec source):
 
 - [embodied.guide](https://embodied.guide/robots/estun-codroid-02/)
+- [robopear.com](https://robopear.com/robots/estun-codroid-codroid)
 
 ---
 
-*Robot Catalog — generated from data/robots.json (last merged 2026-11-17). Source repository: https://github.com/htcrefactor/robot-catalog*
+*Robot Catalog — generated from data/robots.json (last merged 2026-11-18). Source repository: https://github.com/htcrefactor/robot-catalog*

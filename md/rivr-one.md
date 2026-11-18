@@ -113,6 +113,10 @@ RIVR's product page (checked 2026-11-17): wheeled-legged doorstep delivery robot
 - Official page: [rivr.ai](https://www.rivr.ai/product.html)
 - [rivr.ai](https://www.rivr.ai/)
 
+Listed by these directories (discovery only, never used as a spec source):
+
+- [robocensus.com](https://robocensus.com/robots/rivr-one/)
+
 ---
 
-*Robot Catalog — generated from data/robots.json (last merged 2026-11-17). Source repository: https://github.com/htcrefactor/robot-catalog*
+*Robot Catalog — generated from data/robots.json (last merged 2026-11-18). Source repository: https://github.com/htcrefactor/robot-catalog*

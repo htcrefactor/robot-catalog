@@ -221,7 +221,9 @@
  {
   "id": "lg-cloi-servebot",
   "name": "CLOi ServeBot (Shelf type, LDLTR30)",
+  "name_ko": "LG 클로이 서브봇",
   "manufacturer": "LG Electronics",
+  "manufacturer_ko": "LG전자",
   "country": "South Korea",
   "category": "Indoor delivery",
   "locomotion": "Wheeled",
@@ -263,7 +265,6 @@
   "summary": "Restaurant and hospitality serving robot with four height-adjustable shelves, weight-sensing trays and six-wheel independent suspension.",
   "verification": "official",
   "notes": "LG's LDLTR30 page now marks CLOi ServeBot 3.0 as discontinued. Maker figures: 560 x 1370 x 550 mm (W x H x D), 51 kg, 40 kg load (10 kg per tray, four shelves), max 1.2 m/s, 11 h continuous at 0.7 m/s, 25,000 mAh battery (voltage not stated), manual charging 4-4.5 h or automatic 3-3.5 h, sensors LiDAR, load cell, RGB-D camera and ToF.",
-  "name_ko": "LG 클로이 서브봇",
   "kr_distributors": [
    {
     "name": "LG전자 (직판·로봇 구독)",
@@ -271,13 +272,14 @@
     "url": "https://www.lge.co.kr/"
    }
   ],
-  "kr_note": "국내에서는 구매 외에 로봇 구독(RaaS) 방식으로도 공급합니다.",
-  "manufacturer_ko": "LG전자"
+  "kr_note": "국내에서는 구매 외에 로봇 구독(RaaS) 방식으로도 공급합니다."
  },
  {
   "id": "woowa-dilly-tower",
   "name": "Dilly Tower",
+  "name_ko": "딜리타워",
   "manufacturer": "Woowa Brothers",
+  "manufacturer_ko": "우아한형제들",
   "country": "South Korea",
   "category": "Indoor delivery",
   "locomotion": "Wheeled",
@@ -317,7 +319,6 @@
   "summary": "Baemin's indoor last-leg delivery robot that opens lobby doors and rides elevators to bring orders to apartment and office doors.",
   "verification": "unconfirmed",
   "notes": "No maker specification page for Dilly Tower was found; Woowa Brothers reports the figures through press coverage only: 1.08 m tall, 20 kg load (23 L upper and 15 L lower compartments), 1.2 m/s, about 6 h per charge. They are recorded as the operator's stated figures but could not be checked against a maker datasheet.",
-  "name_ko": "딜리타워",
   "kr_distributors": [
    {
     "name": "우아한형제들 (배달 서비스로 운영)",
@@ -325,8 +326,7 @@
     "url": "https://www.woowahan.com/"
    }
   ],
-  "kr_note": "로봇을 판매하지 않고 배민 앱의 로봇배달 서비스로 운영합니다.",
-  "manufacturer_ko": "우아한형제들"
+  "kr_note": "로봇을 판매하지 않고 배민 앱의 로봇배달 서비스로 운영합니다."
  },
  {
   "id": "starship-delivery-robot",
@@ -506,7 +506,9 @@
  {
   "id": "neubility-neubie",
   "name": "Neubie",
+  "name_ko": "뉴비",
   "manufacturer": "Neubility",
+  "manufacturer_ko": "뉴빌리티",
   "country": "South Korea",
   "category": "Outdoor delivery",
   "locomotion": "Wheeled",
@@ -555,7 +557,6 @@
   "certifications": [
    "KIRIA outdoor mobile robot operation safety certification"
   ],
-  "name_ko": "뉴비",
   "kr_distributors": [
    {
     "name": "뉴빌리티 (서비스 계약)",
@@ -563,13 +564,13 @@
     "url": "https://www.neubility.ai/ko"
    }
   ],
-  "kr_note": "국내에서는 자율주행 배달·순찰 서비스로 운영합니다.",
-  "manufacturer_ko": "뉴빌리티"
+  "kr_note": "국내에서는 자율주행 배달·순찰 서비스로 운영합니다."
  },
  {
   "id": "woowa-dilly-x3",
   "name": "Dilly X3",
   "manufacturer": "Woowa Brothers",
+  "manufacturer_ko": "우아한형제들",
   "country": "South Korea",
   "category": "Outdoor delivery",
   "locomotion": "Wheeled",
@@ -620,8 +621,7 @@
     "url": "https://www.woowahan.com/"
    }
   ],
-  "kr_note": "로봇을 판매하지 않고 배민 앱의 로봇배달 서비스로 운영합니다.",
-  "manufacturer_ko": "우아한형제들"
+  "kr_note": "로봇을 판매하지 않고 배민 앱의 로봇배달 서비스로 운영합니다."
  },
  {
   "id": "avride-delivery-robot",
@@ -2366,7 +2366,9 @@
  {
   "id": "robotis-gaemi-indoor",
   "name": "GAEMI Indoor Service Robot",
+  "name_ko": "개미 (실내)",
   "manufacturer": "ROBOTIS",
+  "manufacturer_ko": "로보티즈",
   "country": "South Korea",
   "category": "Indoor delivery",
   "locomotion": "Wheeled",
@@ -2420,8 +2422,6 @@
   ],
   "verification": "official",
   "note": "Official product page confirms GAEMI indoor service robot (also called GAEMI-0); no spec table published.",
-  "manufacturer_ko": "로보티즈",
-  "name_ko": "개미 (실내)",
   "kr_distributors": [
    {
     "name": "로보티즈 (본사 직판·구매 문의)",
@@ -2433,7 +2433,9 @@
  {
   "id": "robotis-gaemi-outdoor",
   "name": "GAEMI Outdoor Delivery Robot",
+  "name_ko": "개미 (실외)",
   "manufacturer": "ROBOTIS",
+  "manufacturer_ko": "로보티즈",
   "country": "South Korea",
   "category": "Outdoor delivery",
   "locomotion": "Wheeled",
@@ -2487,8 +2489,6 @@
   ],
   "verification": "official",
   "note": "Official product page confirms GAEMI outdoor delivery robot (also called GAEMI-1); no spec table published.",
-  "manufacturer_ko": "로보티즈",
-  "name_ko": "개미 (실외)",
   "kr_distributors": [
    {
     "name": "로보티즈 (본사 직판·구매 문의)",

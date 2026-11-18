@@ -51,7 +51,8 @@ Listed by these directories (discovery only, never used as a spec source):
 - [embodied.guide](https://embodied.guide/robots/leju-robotics-kuavo-4pro/)
 - [humanoid.guide](https://humanoid.guide/product/xtron-kuavo-my/)
 - [humanoid.guide](https://humanoid.guide/product/kuavo-my/)
+- [robopear.com](https://robopear.com/robots/leju-kuavo-4-pro)
 
 ---
 
-*Robot Catalog — generated from data/robots.json (last merged 2026-11-17). Source repository: https://github.com/htcrefactor/robot-catalog*
+*Robot Catalog — generated from data/robots.json (last merged 2026-11-18). Source repository: https://github.com/htcrefactor/robot-catalog*

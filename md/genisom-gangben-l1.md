@@ -47,7 +47,8 @@ Official name 'Genisom L1' (钢镚 L1) - the record was listed as 'Gangben L1' f
 Listed by these directories (discovery only, never used as a spec source):
 
 - [embodied.guide](https://embodied.guide/robots/genisom-gangben-l1/)
+- [robocensus.com](https://robocensus.com/robots/genisom-l1/)
 
 ---
 
-*Robot Catalog — generated from data/robots.json (last merged 2026-11-17). Source repository: https://github.com/htcrefactor/robot-catalog*
+*Robot Catalog — generated from data/robots.json (last merged 2026-11-18). Source repository: https://github.com/htcrefactor/robot-catalog*

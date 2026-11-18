@@ -203,6 +203,10 @@ DEEP Robotics Lynx M20 product page (checked 2026-11-17): standing 820 x 430 x 5
 - [github.com](https://github.com/DeepRoboticsLab/deep_robotics_model/blob/main/M20/mjcf/M20.xml)
 - [github.com](https://github.com/DeepRoboticsLab/deep_robotics_model/blob/main/M20/usd/M20.usd)
 
+Listed by these directories (discovery only, never used as a spec source):
+
+- [robocensus.com](https://robocensus.com/robots/deep-robotics-lynx-m20/)
+
 ---
 
-*Robot Catalog — generated from data/robots.json (last merged 2026-11-17). Source repository: https://github.com/htcrefactor/robot-catalog*
+*Robot Catalog — generated from data/robots.json (last merged 2026-11-18). Source repository: https://github.com/htcrefactor/robot-catalog*

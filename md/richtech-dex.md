@@ -86,6 +86,10 @@ Maker spec table, DEX-M mobile configuration: 30.1 x 28.1 x 54.3 in (765 x 714 x
 - Official page: [richtechrobotics.com](https://www.richtechrobotics.com/solutions/dex)
 - [ir.richtechrobotics.com](https://ir.richtechrobotics.com/news-releases/news-release-details/richtech-robotics-offers-first-look-dex-mobile-humanoid-robot)
 
+Listed by these directories (discovery only, never used as a spec source):
+
+- [robopear.com](https://robopear.com/robots/richtech-dex)
+
 ---
 
-*Robot Catalog — generated from data/robots.json (last merged 2026-11-17). Source repository: https://github.com/htcrefactor/robot-catalog*
+*Robot Catalog — generated from data/robots.json (last merged 2026-11-18). Source repository: https://github.com/htcrefactor/robot-catalog*

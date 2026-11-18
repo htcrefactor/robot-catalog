@@ -92,6 +92,10 @@ Maker figures: 170 cm, 20 humanoid DoF (7-DoF arms, 6-DoF hands, 3-DoF head), 30
 - [humanoidversus.com](https://humanoidversus.com/robots/x-humanoid-tiangong)
 - [ubtrobot.com](https://www.ubtrobot.com/en/ai-education/products/walker-tienkung)
 
+Listed by these directories (discovery only, never used as a spec source):
+
+- [robopear.com](https://robopear.com/robots/ubtech-tiangong-xingzhe)
+
 ---
 
-*Robot Catalog — generated from data/robots.json (last merged 2026-11-17). Source repository: https://github.com/htcrefactor/robot-catalog*
+*Robot Catalog — generated from data/robots.json (last merged 2026-11-18). Source repository: https://github.com/htcrefactor/robot-catalog*

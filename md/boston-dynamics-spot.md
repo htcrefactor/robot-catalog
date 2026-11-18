@@ -460,6 +460,10 @@ Maker product page specifications: length 1100 mm, width 500 mm, walking height 
 - [bostondynamics.com](https://bostondynamics.com/blog/expanding-our-reach-in-korea/)
 - [spot.clobot.co.kr](https://spot.clobot.co.kr/)
 
+Listed by these directories (discovery only, never used as a spec source):
+
+- [robocensus.com](https://robocensus.com/robots/boston-dynamics-spot/)
+
 ---
 
-*Robot Catalog — generated from data/robots.json (last merged 2026-11-17). Source repository: https://github.com/htcrefactor/robot-catalog*
+*Robot Catalog — generated from data/robots.json (last merged 2026-11-18). Source repository: https://github.com/htcrefactor/robot-catalog*

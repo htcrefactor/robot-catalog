@@ -49,7 +49,8 @@ Wheeled social humanoid (2-DoF differential base). dims: depth 75 cm per datashe
 Listed by these directories (discovery only, never used as a spec source):
 
 - [humanoid.guide](https://humanoid.guide/product/ari/)
+- [robopear.com](https://robopear.com/robots/pal-ari)
 
 ---
 
-*Robot Catalog — generated from data/robots.json (last merged 2026-11-17). Source repository: https://github.com/htcrefactor/robot-catalog*
+*Robot Catalog — generated from data/robots.json (last merged 2026-11-18). Source repository: https://github.com/htcrefactor/robot-catalog*

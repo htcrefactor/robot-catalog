@@ -45,7 +45,8 @@ Listed by these directories (discovery only, never used as a spec source):
 - [humanoidversus.com](https://humanoidversus.com/robots/lumos-robotics-lus2)
 - [embodied.guide](https://embodied.guide/robots/lumos-robotics-lus2/)
 - [humanoid.guide](https://humanoid.guide/product/lus2/)
+- [robopear.com](https://robopear.com/robots/lumos-lus2)
 
 ---
 
-*Robot Catalog — generated from data/robots.json (last merged 2026-11-17). Source repository: https://github.com/htcrefactor/robot-catalog*
+*Robot Catalog — generated from data/robots.json (last merged 2026-11-18). Source repository: https://github.com/htcrefactor/robot-catalog*

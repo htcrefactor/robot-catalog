@@ -47,7 +47,8 @@ Maker spec table (MiniPupperDocs): 209 x 109 x 145 mm, 465 g, 200 g payload, Ras
 Listed by these directories (discovery only, never used as a spec source):
 
 - [data.robo2u.com](https://data.robo2u.com/robots/mangdang-mini-pupper-2)
+- [robocensus.com](https://robocensus.com/robots/mangdang-mini-pupper-2/)
 
 ---
 
-*Robot Catalog — generated from data/robots.json (last merged 2026-11-17). Source repository: https://github.com/htcrefactor/robot-catalog*
+*Robot Catalog — generated from data/robots.json (last merged 2026-11-18). Source repository: https://github.com/htcrefactor/robot-catalog*

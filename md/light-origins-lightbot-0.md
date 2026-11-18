@@ -39,7 +39,8 @@ Light Origins describes Lightbot 0 as its custom 90 cm, 18.9 kg humanoid with 21
 Listed by these directories (discovery only, never used as a spec source):
 
 - [humanoid.guide](https://humanoid.guide/product/lightbot-0/)
+- [robopear.com](https://robopear.com/robots/light-origins-lightbot-0)
 
 ---
 
-*Robot Catalog — generated from data/robots.json (last merged 2026-11-17). Source repository: https://github.com/htcrefactor/robot-catalog*
+*Robot Catalog — generated from data/robots.json (last merged 2026-11-18). Source repository: https://github.com/htcrefactor/robot-catalog*

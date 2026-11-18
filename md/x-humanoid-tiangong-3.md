@@ -40,7 +40,8 @@ Listed by these directories (discovery only, never used as a spec source):
 - [data.robo2u.com](https://data.robo2u.com/robots/beijing-humanoid-robot-innovation-center-x-humanoid-tiangong-3-0)
 - [embodied.guide](https://embodied.guide/robots/x-humanoid-tiangong-3-0/)
 - [humanoid.guide](https://humanoid.guide/product/tien-kung-3-0/)
+- [robopear.com](https://robopear.com/robots/x-humanoid-tiangong-3)
 
 ---
 
-*Robot Catalog — generated from data/robots.json (last merged 2026-11-17). Source repository: https://github.com/htcrefactor/robot-catalog*
+*Robot Catalog — generated from data/robots.json (last merged 2026-11-18). Source repository: https://github.com/htcrefactor/robot-catalog*

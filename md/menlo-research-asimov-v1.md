@@ -89,6 +89,10 @@ Maker (checked 2026-11-17): 1.2 m, 35 kg, 25 powered joints (6 per leg, 5 per ar
 - [docs.menlo.ai](https://docs.menlo.ai/asimov/1/overview)
 - [github.com](https://github.com/menloresearch/asimov-1)
 
+Listed by these directories (discovery only, never used as a spec source):
+
+- [robopear.com](https://robopear.com/robots/menloai-asimov-1)
+
 ---
 
-*Robot Catalog — generated from data/robots.json (last merged 2026-11-17). Source repository: https://github.com/htcrefactor/robot-catalog*
+*Robot Catalog — generated from data/robots.json (last merged 2026-11-18). Source repository: https://github.com/htcrefactor/robot-catalog*

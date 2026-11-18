@@ -33,7 +33,8 @@ Maker refers to first generation as 天工 / Tien Kung 1.0 (and 1.0 Lite, releas
 Listed by these directories (discovery only, never used as a spec source):
 
 - [humanoidversus.com](https://humanoidversus.com/robots/x-humanoid-tiangong)
+- [robocensus.com](https://robocensus.com/robots/x-humanoid-tiangong/)
 
 ---
 
-*Robot Catalog — generated from data/robots.json (last merged 2026-11-17). Source repository: https://github.com/htcrefactor/robot-catalog*
+*Robot Catalog — generated from data/robots.json (last merged 2026-11-18). Source repository: https://github.com/htcrefactor/robot-catalog*

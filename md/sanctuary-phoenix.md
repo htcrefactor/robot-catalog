@@ -81,6 +81,10 @@ Maker release 2023-05-16: 5 ft 7 in (170 cm), 155 lb (70.3 kg), maximum payload 
 - [sanctuary.ai](https://sanctuary.ai/news/sanctuary-ai-releases-new-generation-of-ai-robots-for-high-quality-data-capture/)
 - [sanctuary.ai](https://www.sanctuary.ai/)
 
+Listed by these directories (discovery only, never used as a spec source):
+
+- [robopear.com](https://robopear.com/robots/sanctuary-phoenix)
+
 ---
 
-*Robot Catalog — generated from data/robots.json (last merged 2026-11-17). Source repository: https://github.com/htcrefactor/robot-catalog*
+*Robot Catalog — generated from data/robots.json (last merged 2026-11-18). Source repository: https://github.com/htcrefactor/robot-catalog*

@@ -261,6 +261,11 @@ Maker figures (product page and Walker S2 Product Manual V1.0, 2025-09-23): 176 
 - [cdn.robotshop.com](https://cdn.robotshop.com/media/U/Ubt/RB-Ubt-37/pdf/ubtech-walker-s2-product%20manual.pdf)
 - [humanoidstore.co](https://humanoidstore.co/robots/ubtech-walker-s2)
 
+Listed by these directories (discovery only, never used as a spec source):
+
+- [robocensus.com](https://robocensus.com/robots/ubtech-walker-s2/)
+- [robopear.com](https://robopear.com/robots/ubtech-walker-s2)
+
 ---
 
-*Robot Catalog — generated from data/robots.json (last merged 2026-11-17). Source repository: https://github.com/htcrefactor/robot-catalog*
+*Robot Catalog — generated from data/robots.json (last merged 2026-11-18). Source repository: https://github.com/htcrefactor/robot-catalog*

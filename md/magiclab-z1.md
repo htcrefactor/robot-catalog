@@ -95,6 +95,10 @@ Maker spec table (checked 2026-11-17): standing 1369 x 422 x 200 mm, about 40 kg
 - [magiclabglobal.com](https://magiclabglobal.com/)
 - [magiclab.top](https://www.magiclab.top/en/news/55)
 
+Listed by these directories (discovery only, never used as a spec source):
+
+- [robopear.com](https://robopear.com/robots/magiclab-magicbot-z1)
+
 ---
 
-*Robot Catalog — generated from data/robots.json (last merged 2026-11-17). Source repository: https://github.com/htcrefactor/robot-catalog*
+*Robot Catalog — generated from data/robots.json (last merged 2026-11-18). Source repository: https://github.com/htcrefactor/robot-catalog*

@@ -38,7 +38,8 @@ Listed by these directories (discovery only, never used as a spec source):
 - [data.robo2u.com](https://data.robo2u.com/robots/engineai-robotics-sa01)
 - [humanoidversus.com](https://humanoidversus.com/robots/engineai-sa01)
 - [roboticsrankings.com](https://roboticsrankings.com/robots/engineai-sa01/)
+- [robopear.com](https://robopear.com/robots/engineai-sa01)
 
 ---
 
-*Robot Catalog — generated from data/robots.json (last merged 2026-11-17). Source repository: https://github.com/htcrefactor/robot-catalog*
+*Robot Catalog — generated from data/robots.json (last merged 2026-11-18). Source repository: https://github.com/htcrefactor/robot-catalog*

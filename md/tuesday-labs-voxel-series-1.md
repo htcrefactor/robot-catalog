@@ -36,7 +36,8 @@ Listed by these directories (discovery only, never used as a spec source):
 - [humanoidversus.com](https://humanoidversus.com/robots/tuesday-labs-voxel-series-1)
 - [embodied.guide](https://embodied.guide/robots/tuesday-labs-voxel-series-1/)
 - [humanoid.guide](https://humanoid.guide/product/voxel/)
+- [robopear.com](https://robopear.com/robots/tuesday-labs-voxel)
 
 ---
 
-*Robot Catalog — generated from data/robots.json (last merged 2026-11-17). Source repository: https://github.com/htcrefactor/robot-catalog*
+*Robot Catalog — generated from data/robots.json (last merged 2026-11-18). Source repository: https://github.com/htcrefactor/robot-catalog*

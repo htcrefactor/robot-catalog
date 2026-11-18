@@ -241,6 +241,10 @@ ANYmal technical specifications (V.1 May 2022) and the Apr 2024 sheet: 930x530x8
 - [anybotics.com](https://www.anybotics.com/anymal-technical-specifications.pdf)
 - [github.com](https://github.com/ANYbotics/anymal_d_simple_description/blob/master/urdf/anymal.urdf)
 
+Listed by these directories (discovery only, never used as a spec source):
+
+- [robocensus.com](https://robocensus.com/robots/anybotics-anymal/)
+
 ---
 
-*Robot Catalog — generated from data/robots.json (last merged 2026-11-17). Source repository: https://github.com/htcrefactor/robot-catalog*
+*Robot Catalog — generated from data/robots.json (last merged 2026-11-18). Source repository: https://github.com/htcrefactor/robot-catalog*

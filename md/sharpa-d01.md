@@ -43,7 +43,8 @@ Maker spec sheet: height 1,109-1,624 mm depending on folding (1,624 mm standing 
 Listed by these directories (discovery only, never used as a spec source):
 
 - [humanoid.guide](https://humanoid.guide/product/d01/)
+- [robopear.com](https://robopear.com/robots/sharpa-d01)
 
 ---
 
-*Robot Catalog — generated from data/robots.json (last merged 2026-11-17). Source repository: https://github.com/htcrefactor/robot-catalog*
+*Robot Catalog — generated from data/robots.json (last merged 2026-11-18). Source repository: https://github.com/htcrefactor/robot-catalog*

@@ -91,6 +91,11 @@ Corrected against the maker's product page: official weight is 65 kg (HumanoidSt
 - [cdn.pudutech.com](https://cdn.pudutech.com/PUDU_D9_Product_Flyer_20250103_EN_0021e78f68.pdf)
 - [pudurobotics.com](https://www.pudurobotics.com/about/news/6763cce40767a20044b4a69a)
 
+Listed by these directories (discovery only, never used as a spec source):
+
+- [robocensus.com](https://robocensus.com/robots/pudu-d9/)
+- [robopear.com](https://robopear.com/robots/pudu-d9)
+
 ---
 
-*Robot Catalog — generated from data/robots.json (last merged 2026-11-17). Source repository: https://github.com/htcrefactor/robot-catalog*
+*Robot Catalog — generated from data/robots.json (last merged 2026-11-18). Source repository: https://github.com/htcrefactor/robot-catalog*

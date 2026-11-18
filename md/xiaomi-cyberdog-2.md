@@ -245,6 +245,10 @@ Xiaomi CyberDog 2 specification page (mi.com/cyberdog2/specs, read 2026-11-17): 
 - Official page: [mi.com](https://www.mi.com/cyberdog2/specs)
 - [agreement.cyberdog.xiaomi.com](https://agreement.cyberdog.xiaomi.com/guide.html)
 
+Listed by these directories (discovery only, never used as a spec source):
+
+- [robocensus.com](https://robocensus.com/robots/xiaomi-cyberdog2/)
+
 ---
 
-*Robot Catalog — generated from data/robots.json (last merged 2026-11-17). Source repository: https://github.com/htcrefactor/robot-catalog*
+*Robot Catalog — generated from data/robots.json (last merged 2026-11-18). Source repository: https://github.com/htcrefactor/robot-catalog*

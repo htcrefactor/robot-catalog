@@ -45,7 +45,8 @@ Listed by these directories (discovery only, never used as a spec source):
 - [droid.monster](https://droid.monster/robots/paxini/tora-double-one)
 - [embodied.guide](https://embodied.guide/robots/paxini-tora-double-one/)
 - [humanoid.guide](https://humanoid.guide/product/tora-doubleone/)
+- [robopear.com](https://robopear.com/robots/paxini-tora-doubleone)
 
 ---
 
-*Robot Catalog — generated from data/robots.json (last merged 2026-11-17). Source repository: https://github.com/htcrefactor/robot-catalog*
+*Robot Catalog — generated from data/robots.json (last merged 2026-11-18). Source repository: https://github.com/htcrefactor/robot-catalog*

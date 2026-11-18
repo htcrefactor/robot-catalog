@@ -206,6 +206,11 @@ Media (2026-11-17): product render gr3-mb.png and the demo clips (walk, terrain-
 - [humanoidstore.co](https://humanoidstore.co/robots/fourier-gr3)
 - [fftai.com](https://www.fftai.com/grx/gr3)
 
+Listed by these directories (discovery only, never used as a spec source):
+
+- [robocensus.com](https://robocensus.com/robots/fourier-gr3/)
+- [robopear.com](https://robopear.com/robots/fourier-gr-3)
+
 ---
 
-*Robot Catalog — generated from data/robots.json (last merged 2026-11-17). Source repository: https://github.com/htcrefactor/robot-catalog*
+*Robot Catalog — generated from data/robots.json (last merged 2026-11-18). Source repository: https://github.com/htcrefactor/robot-catalog*

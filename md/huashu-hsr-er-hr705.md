@@ -40,7 +40,8 @@ Listed by these directories (discovery only, never used as a spec source):
 
 - [embodied.guide](https://embodied.guide/robots/huashu-robotics-hsr-er-hr705/)
 - [humanoid.guide](https://humanoid.guide/product/hsr-er-hr705/)
+- [robopear.com](https://robopear.com/robots/huashu-hr705)
 
 ---
 
-*Robot Catalog — generated from data/robots.json (last merged 2026-11-17). Source repository: https://github.com/htcrefactor/robot-catalog*
+*Robot Catalog — generated from data/robots.json (last merged 2026-11-18). Source repository: https://github.com/htcrefactor/robot-catalog*

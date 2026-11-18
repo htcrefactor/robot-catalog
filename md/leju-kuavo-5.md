@@ -92,6 +92,10 @@ Maker (checked 2026-11-17): 607 x 270 x 1730 mm, 63.5 kg, 41 DoF in the dexterou
 - Official page: [lejurobot.com](https://lejurobot.com/en/products/kuavo-5)
 - [kuavo.lejurobot.com](https://kuavo.lejurobot.com/beta_manual/en/basic_usage/kuavo-ros-control/docs/1%E4%BA%A7%E5%93%81%E4%BB%8B%E7%BB%8D/%E4%BA%94%E4%BB%A3%E4%BA%A7%E5%93%81/KUAVO_5%20%E5%B1%95%E5%8E%85%E7%AE%97%E5%8A%9B%E7%89%88%E4%BA%A7%E5%93%81%E4%BB%8B%E7%BB%8D/)
 
+Listed by these directories (discovery only, never used as a spec source):
+
+- [robopear.com](https://robopear.com/robots/leju-kuavo-5)
+
 ---
 
-*Robot Catalog — generated from data/robots.json (last merged 2026-11-17). Source repository: https://github.com/htcrefactor/robot-catalog*
+*Robot Catalog — generated from data/robots.json (last merged 2026-11-18). Source repository: https://github.com/htcrefactor/robot-catalog*

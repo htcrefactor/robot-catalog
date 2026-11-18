@@ -98,6 +98,11 @@ Media (2026-11-17): product render images/n1/robot.png and the hero film videos/
 - [humanoidstore.co](https://humanoidstore.co/robots/fourier-n1)
 - [fftai.com](https://www.fftai.com/ecosystem/n1)
 
+Listed by these directories (discovery only, never used as a spec source):
+
+- [robocensus.com](https://robocensus.com/robots/fourier-n1/)
+- [robopear.com](https://robopear.com/robots/fourier-n1)
+
 ---
 
-*Robot Catalog — generated from data/robots.json (last merged 2026-11-17). Source repository: https://github.com/htcrefactor/robot-catalog*
+*Robot Catalog — generated from data/robots.json (last merged 2026-11-18). Source repository: https://github.com/htcrefactor/robot-catalog*

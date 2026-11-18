@@ -80,6 +80,10 @@ Maker launch (2026-06-30, Shenzhen): 88 DoF across the series, a dual-pivot biom
 - [robotspoint.com](https://robotspoint.com/catalog/ubtech/ubtech-uworld-u1/)
 - [prnewswire.com](https://www.prnewswire.com/news-releases/ubtech-launches-uworld-u1-the-worlds-first-full-size-mass-produced-ultra-bionic-humanoid-robot-302815272.html)
 
+Listed by these directories (discovery only, never used as a spec source):
+
+- [robopear.com](https://robopear.com/robots/ubtech-uworld-u1)
+
 ---
 
-*Robot Catalog — generated from data/robots.json (last merged 2026-11-17). Source repository: https://github.com/htcrefactor/robot-catalog*
+*Robot Catalog — generated from data/robots.json (last merged 2026-11-18). Source repository: https://github.com/htcrefactor/robot-catalog*

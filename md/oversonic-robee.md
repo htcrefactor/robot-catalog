@@ -91,6 +91,10 @@ Oversonic RoBee R page (checked 2026-11-17): weight up to 293 kg, height 165-199
 
 - Official page: [oversonicrobotics.com](https://www.oversonicrobotics.com/robee-r/)
 
+Listed by these directories (discovery only, never used as a spec source):
+
+- [robopear.com](https://robopear.com/robots/oversonic-robee)
+
 ---
 
-*Robot Catalog — generated from data/robots.json (last merged 2026-11-17). Source repository: https://github.com/htcrefactor/robot-catalog*
+*Robot Catalog — generated from data/robots.json (last merged 2026-11-18). Source repository: https://github.com/htcrefactor/robot-catalog*

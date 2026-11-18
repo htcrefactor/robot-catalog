@@ -92,6 +92,10 @@ PAL's REEM-C page and datasheet (checked 2026-11-17): 165 cm, 60 cm wide, 80 kg,
 - Official page: [pal-robotics.com](https://pal-robotics.com/robot/reem-c/)
 - [pal-robotics.com](https://pal-robotics.com/wp-content/uploads/2024/05/Datasheet-REEMC.pdf)
 
+Listed by these directories (discovery only, never used as a spec source):
+
+- [robopear.com](https://robopear.com/robots/pal-reem-c)
+
 ---
 
-*Robot Catalog — generated from data/robots.json (last merged 2026-11-17). Source repository: https://github.com/htcrefactor/robot-catalog*
+*Robot Catalog — generated from data/robots.json (last merged 2026-11-18). Source repository: https://github.com/htcrefactor/robot-catalog*

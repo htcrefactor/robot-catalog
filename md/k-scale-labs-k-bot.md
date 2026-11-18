@@ -90,6 +90,10 @@ Maker repository and docs: open-source humanoid (hardware CERN-OHL-S, software G
 - [kscale.dev](https://kscale.dev/)
 - [github.com](https://github.com/kscalelabs/docs/blob/master/docs/robots/k-bot/mechanical.md)
 
+Listed by these directories (discovery only, never used as a spec source):
+
+- [robopear.com](https://robopear.com/robots/kscale-kbot)
+
 ---
 
-*Robot Catalog — generated from data/robots.json (last merged 2026-11-17). Source repository: https://github.com/htcrefactor/robot-catalog*
+*Robot Catalog — generated from data/robots.json (last merged 2026-11-18). Source repository: https://github.com/htcrefactor/robot-catalog*

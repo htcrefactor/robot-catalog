@@ -92,6 +92,11 @@ Aldebaran's NAO V6 datasheet (model H25600, checked 2026-11-17): 574 x 311 x 275
 - [maxtronics.com](https://maxtronics.com/library/NAO6/NAO%20V6%20Datasheet_EN_ALD%202024-2025%20(1).pdf)
 - [cdn.robotshop.com](https://cdn.robotshop.com/media/A/Ald/RB-Ald-18/pdf/nao-6-humanoid-robot-datasheet.pdf)
 
+Listed by these directories (discovery only, never used as a spec source):
+
+- [robocensus.com](https://robocensus.com/robots/maxtronics-nao6/)
+- [robopear.com](https://robopear.com/robots/aldebaran-nao)
+
 ---
 
-*Robot Catalog — generated from data/robots.json (last merged 2026-11-17). Source repository: https://github.com/htcrefactor/robot-catalog*
+*Robot Catalog — generated from data/robots.json (last merged 2026-11-18). Source repository: https://github.com/htcrefactor/robot-catalog*

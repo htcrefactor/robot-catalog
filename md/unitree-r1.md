@@ -132,6 +132,11 @@ Maker figures: 1230 x 357 x 190 mm, about 29 kg for R1 (about 25 kg for R1 AIR o
 - [shop.unitree.com](https://shop.unitree.com/products/unitree-r1)
 - [younginmobility.com](https://www.younginmobility.com/)
 
+Listed by these directories (discovery only, never used as a spec source):
+
+- [robocensus.com](https://robocensus.com/robots/unitree-r1/)
+- [robopear.com](https://robopear.com/robots/unitree-r1)
+
 ---
 
-*Robot Catalog — generated from data/robots.json (last merged 2026-11-17). Source repository: https://github.com/htcrefactor/robot-catalog*
+*Robot Catalog — generated from data/robots.json (last merged 2026-11-18). Source repository: https://github.com/htcrefactor/robot-catalog*

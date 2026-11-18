@@ -1,11 +1,11 @@
 # Robot Catalog — full catalog
 
-> Every robot in Robot Catalog (993) with its core specs and sources, in one file. Values are as the maker publishes them; fields the maker does not publish are left out rather than estimated.
+> Every robot in Robot Catalog (1019) with its core specs and sources, in one file. Values are as the maker publishes them; fields the maker does not publish are left out rather than estimated.
 
 - Canonical site: https://htcrefactor.github.io/robot-catalog/
 - Index for agents: https://htcrefactor.github.io/robot-catalog/llms.txt
 - Per-robot Markdown with the full spec sheet and a source on every value: https://htcrefactor.github.io/robot-catalog/md/<id>.md
-- Generated from data/robots.json, last merged 2026-11-17. No scoring, no ranking.
+- Generated from data/robots.json, last merged 2026-11-18. No scoring, no ranking.
 
 ## AMR (90)
 
@@ -1045,7 +1045,7 @@
 - Specs: Length 1,620 mm; Width 800 mm; Height 1,830 mm; Weight 520 kg; Payload 2,000 kg; Max speed 1.8 m/s (6.5 km/h); Released 2023; Status Commercial
 - Sources: https://www.visionnav.com/product/detail/VNST20-Pallet-Stacker-AGV, https://www.visionnav.com/news/detail/detail298.html
 
-## Humanoid (562)
+## Humanoid (575)
 
 ### 1X Technologies EVE
 
@@ -1155,6 +1155,22 @@
 - Specs: Length 300 mm; Width 750 mm; Height 1,690 mm; Weight 69 kg; Payload 2 kg; Max speed 1.2 m/s (4.3 km/h); Degrees of freedom 40; Runtime 1.5 h; Status Commercial; On-board compute yes; Compute 16-core CPU + NVIDIA Jetson Orin 64GB; Sensors 3D LiDAR, RGB-D camera, RGB camera, Fisheye camera, Array microphone
 - Sources: https://www.agibot.com/products/A2_Ultra
 
+### AgiBot A2-W
+
+- id: `agibot-a2-w`
+- Page: https://htcrefactor.github.io/robot-catalog/robot.html?id=agibot-a2-w
+- Markdown: https://htcrefactor.github.io/robot-catalog/md/agibot-a2-w.md
+- Humanoid · Wheeled · China
+- Sources: https://www.agibot.com/products/A2W
+
+### AgiBot A3 Ultra
+
+- id: `agibot-a3-ultra`
+- Page: https://htcrefactor.github.io/robot-catalog/robot.html?id=agibot-a3-ultra
+- Markdown: https://htcrefactor.github.io/robot-catalog/md/agibot-a3-ultra.md
+- Humanoid · Legged · China
+- Sources: https://www.agibot.com/products/A3Ultra
+
 ### AgiBot AGIBOT G1
 
 - id: `agibot-g1`
@@ -1210,6 +1226,14 @@
 - Summary: Wheeled (bimanual torso on a wheeled base) humanoid from AgiBot; b2b only, sold to businesses.
 - Specs: Height 1,795 mm; Weight 185 kg; Payload 5 kg; Max speed 1.5 m/s (5.4 km/h); Degrees of freedom 26; Runtime 4 h; Battery 1,652 Wh; IP rating IP42; Status Commercial
 - Sources: https://cdn.robotshop.com/media/A/Agb/RB-Agb-09/pdf/AgiBot-G2-Specification.pdf, https://cdn.robotshop.com/media/A/Agb/RB-Agb-09/pdf/AgiBot-G2-User-Manual.pdf
+
+### AgiBot G2 Max
+
+- id: `agibot-g2-max`
+- Page: https://htcrefactor.github.io/robot-catalog/robot.html?id=agibot-g2-max
+- Markdown: https://htcrefactor.github.io/robot-catalog/md/agibot-g2-max.md
+- Humanoid · Wheeled · China
+- Sources: https://www.agibot.com/products/G2Max
 
 ### AgiBot Lingxi X1
 
@@ -1621,6 +1645,14 @@
 - Summary: Wheeled industrial humanoid with a Stewart parallel waist (200 kg waist load) and 7-axis force-controlled arms for heavy handling and precision assembly.
 - Specs: Height 1,750 mm; Weight 200 kg; Payload 12.5 kg; Max speed 1.25 m/s (4.5 km/h); Degrees of freedom 26; Released 2025; Status Commercial; API yes; On-board compute yes; Compute 170 TOPS module: 12-core Arm Cortex-A78AE + 2048-core NVIDIA CUDA GPU; Sensors Depth camera, Multi-line LiDAR, IMU
 - Sources: https://www.atomrobot.com/product/163, https://www.atomrobot.com/detail/16/1900, https://www.atomrobot.com/detail/16/1771, https://www.atomrobot.com/detail/16/1430, https://www.atomrobot.ai/products/embodied-intelligent-robots
+
+### Avatar Robotics Avatar
+
+- id: `avatar-robotics-avatar`
+- Page: https://htcrefactor.github.io/robot-catalog/robot.html?id=avatar-robotics-avatar
+- Markdown: https://htcrefactor.github.io/robot-catalog/md/avatar-robotics-avatar.md
+- Humanoid · Wheeled
+- Sources: https://www.avatarrobotics.com/platform
 
 ### AVIC Fengxing-001
 
@@ -2532,6 +2564,14 @@
 - Specs: Height 1,727 mm; Weight 61 kg; Payload 20 kg; Max speed 1.2 m/s (4.3 km/h); Runtime 5 h; Released 2025; Status Pilot; Sensors Palm cameras, Fingertip tactile sensors, Cameras, Microphone, Speaker
 - Sources: https://www.figure.ai/figure, https://www.figure.ai/news/introducing-figure-03
 
+### Figure AI Figure 04
+
+- id: `figure-04`
+- Page: https://htcrefactor.github.io/robot-catalog/robot.html?id=figure-04
+- Markdown: https://htcrefactor.github.io/robot-catalog/md/figure-04.md
+- Humanoid · United States
+- Sources: none recorded
+
 ### Flexiv AICO 2
 
 - id: `flexiv-aico-2`
@@ -2936,6 +2976,14 @@
 - Summary: Haier's HIVA (海娃) home-service humanoid, co-developed with Robot Era, that operates Haier appliances for laundry, cooking and cleaning.
 - Sources: https://www.haier.com/, https://www.haier.com/about_haier/xinwen/20260825_294291.shtml, https://www.haier.com/lianghui2026/qwbd/20260305_287465.shtml
 
+### Hangcha X1 Humanoid Logistics Robot
+
+- id: `hangcha-x1`
+- Page: https://htcrefactor.github.io/robot-catalog/robot.html?id=hangcha-x1
+- Markdown: https://htcrefactor.github.io/robot-catalog/md/hangcha-x1.md
+- Humanoid · Wheeled · China
+- Sources: https://www.hcforklift.com/talk/detail/470
+
 ### Haoling Robot SF10
 
 - id: `haoling-robot-sf10`
@@ -3195,6 +3243,14 @@
 - Specs: Released 2026; Status Prototype
 - Sources: https://www.honor.com/global/events/honor-robot/, https://www.honor.com/global/news/honor-mwc2026-launch
 
+### HONOR Lightning
+
+- id: `honor-lightning`
+- Page: https://htcrefactor.github.io/robot-catalog/robot.html?id=honor-lightning
+- Markdown: https://htcrefactor.github.io/robot-catalog/md/honor-lightning.md
+- Humanoid · Legged · China
+- Sources: https://www.honor.com/cn/robot/robot-games/
+
 ### Huashu Robotics HSR-ER-HR705
 
 - id: `huashu-hsr-er-hr705`
@@ -3204,6 +3260,14 @@
 - Summary: Huashu's wheeled industrial humanoid with 23 DoF and a 10 kg dual-arm payload for assembly, sorting and machine tending, released at XAIR Expo 2026.
 - Specs: Height 1,700 mm; Weight 200 kg; Payload 10 kg; Max speed 1.2 m/s (4.3 km/h); Degrees of freedom 23; Runtime 6 h; Released 2026; Sensors Depth cameras x2 (standard), Fisheye camera x1, Wrist depth cameras x2 (optional)
 - Sources: https://www.hsrobotics.cn/products_xq/119.html, https://www.huazhongcnc.com/portal/article/index/id/2187/cid/13.html
+
+### Hubei Jingchu Humanoid Robot (JCBOT) Jingchu 1 (荆楚一号)
+
+- id: `jingchu-1`
+- Page: https://htcrefactor.github.io/robot-catalog/robot.html?id=jingchu-1
+- Markdown: https://htcrefactor.github.io/robot-catalog/md/jingchu-1.md
+- Humanoid · Legged · China
+- Sources: https://www.jingchurobot.cn/product_detail/1.html
 
 ### Hubei Jingchu Humanoid Robot (JCBOT) Jingling
 
@@ -3294,6 +3358,14 @@
 - Summary: Open-source, 3D-printed 92 cm child-sized research humanoid with 20 Dynamixel actuators and ROS software, built by Uni Bonn's AIS group with igus.
 - Specs: Height 920 mm; Weight 6.6 kg; Degrees of freedom 20; Released 2015; Status Research; ROS yes; On-board compute yes; Sensors Wide-angle 720p camera, Gyroscope, Accelerometer, Magnetometer
 - Sources: https://www.ais.uni-bonn.de/nimbro/OP/HMI_2014_igus_Humanoid_Open_Platform_Flyer.pdf, https://www.ais.uni-bonn.de/papers/Humanoids_2015_Allgeuer.pdf, https://arxiv.org/html/1809.11110v1
+
+### IHMC Alex
+
+- id: `ihmc-alex`
+- Page: https://htcrefactor.github.io/robot-catalog/robot.html?id=ihmc-alex
+- Markdown: https://htcrefactor.github.io/robot-catalog/md/ihmc-alex.md
+- Humanoid · Legged · United States
+- Sources: https://robots.ihmc.us/alex-humanoid
 
 ### IHMC Robotics (with Boardwalk Robotics) Nadia
 
@@ -4864,6 +4936,14 @@
 - Humanoid · Legged · China
 - Sources: none recorded
 
+### Roborn ME
+
+- id: `roborn-me`
+- Page: https://htcrefactor.github.io/robot-catalog/robot.html?id=roborn-me
+- Markdown: https://htcrefactor.github.io/robot-catalog/md/roborn-me.md
+- Humanoid · Hong Kong
+- Sources: https://www.roborn.com/?page_id=961
+
 ### RoboScience REX G1
 
 - id: `roboscience-rex-g1`
@@ -5344,6 +5424,14 @@
 - Specs: Length 466 mm; Width 470 mm; Height 1,520 mm; Weight 77 kg; Payload 3 kg; Degrees of freedom 21; Runtime 3 h; Released 2026; Status Commercial; Price US$9,999 (US list price on SwitchBot US store)
 - Sources: https://www.switch-bot.com/products/onero-h1, https://us.switch-bot.com/products/onero-h1, http://www.onerobot.com/cn/products/oneroh1, https://onerobot.com/products/oneroh1
 
+### Syntheva Robotics Synthia
+
+- id: `syntheva-synthia`
+- Page: https://htcrefactor.github.io/robot-catalog/robot.html?id=syntheva-synthia
+- Markdown: https://htcrefactor.github.io/robot-catalog/md/syntheva-synthia.md
+- Humanoid · Legged · Norway
+- Sources: https://robotics.syntheva.no/products/synthia
+
 ### T-Robotics TR-WORKS
 
 - id: `t-robotics-tr-works`
@@ -5821,6 +5909,14 @@
 - Specs: Length 218 mm; Width 456 mm; Height 1,820 mm; Weight 70 kg; Payload 15 kg; Degrees of freedom 31; Released 2025; Status Commercial; API yes; SDK yes; SDK name unitree_sdk2; ROS yes; On-board compute yes; Compute PC1 Intel Core i5 (platform); EDU adds PC2 Intel Core i7 for custom development; optional module e.g. NVIDIA Thor; Sensors Bionic head with facial features
 - Sources: https://www.unitree.com/H2/, https://www.unitree.com/H2, https://support.unitree.com/home/en/H2_developer/About_H2, https://www.unitree.com/cn/H2/, https://humanoidstore.co/robots/unitree-h2, https://humanoidstore.co/robots/unitree-h2-edu, https://humanoidstore.co/robots/unitree-h2-plus, https://github.com/unitreerobotics/unitree_sdk2, https://github.com/unitreerobotics/unitree_ros/blob/master/robots/h2_description/H2.urdf, https://github.com/unitreerobotics/unitree_sdk2_python, https://github.com/unitreerobotics/unitree_ros, https://github.com/unitreerobotics/unitree_ros2, https://github.com/unitreerobotics/unitree_mujoco, https://shop.unitree.com/products/unitree-h2, https://www.younginmobility.com/
 
+### Unitree Robotics H2 Plus
+
+- id: `unitree-h2-plus`
+- Page: https://htcrefactor.github.io/robot-catalog/robot.html?id=unitree-h2-plus
+- Markdown: https://htcrefactor.github.io/robot-catalog/md/unitree-h2-plus.md
+- Humanoid · Legged · China
+- Sources: https://www.unitree.com/H2plus
+
 ### Unitree Robotics H2-D
 
 - id: `unitree-h2-d`
@@ -5890,6 +5986,14 @@
 - Summary: Surena mini is the University of Tehran's knee-high 3D-printed humanoid for education and research, unveiled in 2017 with a graphical programming environment.
 - Specs: Height 500 mm; Weight 3.4 kg; Degrees of freedom 23; Released 2017; Status Research; On-board compute Intel Core CPU (compact onboard computer); Sensors Cameras, Infrared sensors, IMU, Speaker
 - Sources: https://cast-tech.ir/surena-mini/, https://doi.org/10.1109/icrom.2017.8466166
+
+### University of Tokyo JSK Laboratory Kengoro
+
+- id: `jsk-kengoro`
+- Page: https://htcrefactor.github.io/robot-catalog/robot.html?id=jsk-kengoro
+- Markdown: https://htcrefactor.github.io/robot-catalog/md/jsk-kengoro.md
+- Humanoid · Legged · Japan
+- Sources: https://www.jsk.t.u-tokyo.ac.jp/research/kengoro.html
 
 ### UniX AI Martian
 
@@ -6568,7 +6672,7 @@
 - Summary: Wheeled humanoid for factory sorting, picking, handling and precision sub-assembly work.
 - Sources: https://www.zoomlion.com/content/details20_34088.html
 
-## Quadruped (161)
+## Quadruped (166)
 
 ### Addverb Technologies Trakr 20
 
@@ -7230,6 +7334,30 @@
 - Specs: Height 500 mm; Payload 60 kg; Degrees of freedom 12; Runtime 3 h; On-board compute yes; Compute NVIDIA Jetson Orin NX; Sensors Depth camera x2, Hand Vision
 - Sources: https://highlanders.ai, https://prtimes.jp/main/html/rd/p/000000008.000156831.html
 
+### Hiwonder MechDog
+
+- id: `hiwonder-mechdog`
+- Page: https://htcrefactor.github.io/robot-catalog/robot.html?id=hiwonder-mechdog
+- Markdown: https://htcrefactor.github.io/robot-catalog/md/hiwonder-mechdog.md
+- Quadruped · Legged · China
+- Sources: https://www.hiwonder.com/products/mechdog
+
+### Hiwonder PuppyPi
+
+- id: `hiwonder-puppypi`
+- Page: https://htcrefactor.github.io/robot-catalog/robot.html?id=hiwonder-puppypi
+- Markdown: https://htcrefactor.github.io/robot-catalog/md/hiwonder-puppypi.md
+- Quadruped · Legged · China
+- Sources: https://www.hiwonder.com/products/puppypi
+
+### Hiwonder ROSPug
+
+- id: `hiwonder-rospug`
+- Page: https://htcrefactor.github.io/robot-catalog/robot.html?id=hiwonder-rospug
+- Markdown: https://htcrefactor.github.io/robot-catalog/md/hiwonder-rospug.md
+- Quadruped · Legged · China
+- Sources: https://www.hiwonder.com/products/rospug
+
 ### Hyperever Proteo
 
 - id: `hyperever-proteo`
@@ -7439,6 +7567,14 @@
 - Summary: IP67 industrial quadruped for inspection, emergency response and rescue, with 45 kg dynamic payload and hot-swap 2400 Wh battery.
 - Specs: Length 1,050 mm; Width 458 mm; Height 810 mm; Weight 70 kg; Payload 45 kg; Max speed 6 m/s (21.6 km/h); Runtime 4 h; Battery 2,400 Wh; IP rating IP67; Status Commercial; Compute 8-core CPU + 157 TOPS computing module; Sensors 3D LiDAR, Depth cameras ×2, Optical cameras ×2
 - Sources: https://www.magiclabglobal.com/products/magicdog-y1/
+
+### MangDang Mini Pupper (1st generation)
+
+- id: `mangdang-mini-pupper-1`
+- Page: https://htcrefactor.github.io/robot-catalog/robot.html?id=mangdang-mini-pupper-1
+- Markdown: https://htcrefactor.github.io/robot-catalog/md/mangdang-mini-pupper-1.md
+- Quadruped · Legged
+- Sources: https://mangdang.store/products/mini-pupper
 
 ### MangDang Mini Pupper 2
 
@@ -7838,6 +7974,14 @@
 - Summary: Research quadruped from Tencent Robotics X that walks Kung-Fu plum-blossom piles using its own perception, planning and 1 kHz torque control; the body is an externally supplied platform.
 - Specs: Length 1,000 mm; Width 500 mm; Height 750 mm; Weight 70 kg; Status Research
 - Sources: https://news.qq.com/rain/a/TEC2020112000809500, https://www.ithome.com/0/520/668.htm
+
+### TNY Robotics TNY-360
+
+- id: `tny-robotics-tny-360`
+- Page: https://htcrefactor.github.io/robot-catalog/robot.html?id=tny-robotics-tny-360
+- Markdown: https://htcrefactor.github.io/robot-catalog/md/tny-robotics-tny-360.md
+- Quadruped · Legged · France
+- Sources: https://tny-robotics.com/tny-360
 
 ### Tokyo Institute of Technology TITAN-XIII
 
@@ -9691,7 +9835,23 @@
 - Specs: Width 508 mm; Height 1,491 mm; Weight 113.3 kg; Payload 6 kg; Max speed 1 m/s (3.6 km/h); Degrees of freedom 13; Status Commercial; API yes; ROS yes; On-board compute yes; Compute Intel i5 Haswell, 16 GB RAM, 120 GB SSD; Sensors 2D laser (25 m, 220°), RGB-D camera (Primesense Carmine 1.09), 2x 6-DoF IMU
 - Sources: https://docs.fetchrobotics.com/robot_hardware.html, https://docs.fetchrobotics.com/api_overview.html, https://www.amaasia.net/product%20PDF/Fetch_spec_download.pdf
 
-## Misc (5)
+## Misc (13)
+
+### AheadForm Elf Xuan 2.0
+
+- id: `aheadform-elf-xuan-2`
+- Page: https://htcrefactor.github.io/robot-catalog/robot.html?id=aheadform-elf-xuan-2
+- Markdown: https://htcrefactor.github.io/robot-catalog/md/aheadform-elf-xuan-2.md
+- Misc · China
+- Sources: https://www.aheadform.com/elf-xuan-2/
+
+### Engineered Arts Ameca
+
+- id: `engineered-arts-ameca`
+- Page: https://htcrefactor.github.io/robot-catalog/robot.html?id=engineered-arts-ameca
+- Markdown: https://htcrefactor.github.io/robot-catalog/md/engineered-arts-ameca.md
+- Misc · United Kingdom
+- Sources: https://engineeredarts.com/robots/ameca
 
 ### Geek+ RoboShuttle V5
 
@@ -9703,6 +9863,22 @@
 - Specs: Released 2026; Status Commercial; Sensors Six-camera Multi-Eyes Vision array (picking station)
 - Sources: https://www.geekplus.com/resources/news/geekplus-launches-next-gen-roboshuttle-v5-setting-a-new-industry-standard-for-autonomous-picking-and-fulfillment
 
+### Hanson Robotics Sophia
+
+- id: `hanson-sophia`
+- Page: https://htcrefactor.github.io/robot-catalog/robot.html?id=hanson-sophia
+- Markdown: https://htcrefactor.github.io/robot-catalog/md/hanson-sophia.md
+- Misc · Hong Kong
+- Sources: https://www.hansonrobotics.com/sophia-utility
+
+### HIRO Industries Origin
+
+- id: `hiro-origin`
+- Page: https://htcrefactor.github.io/robot-catalog/robot.html?id=hiro-origin
+- Markdown: https://htcrefactor.github.io/robot-catalog/md/hiro-origin.md
+- Misc
+- Sources: https://www.hiroindustries.com/
+
 ### Istituto Italiano di Tecnologia (IIT) iRonCub3
 
 - id: `iit-ironcub3`
@@ -9712,6 +9888,14 @@
 - Summary: IIT's experimental jet-powered humanoid that combines iCub walking and manipulation with turbine flight for future disaster-response research.
 - Specs: Weight 70 kg; Released 2025; Status Research; Sensors IMU, Intel RealSense depth camera
 - Sources: https://ami.iit.it/aerial-humanoid-robotics
+
+### Kawada Robotics NEXTAGE
+
+- id: `kawada-nextage`
+- Page: https://htcrefactor.github.io/robot-catalog/robot.html?id=kawada-nextage
+- Markdown: https://htcrefactor.github.io/robot-catalog/md/kawada-nextage.md
+- Misc · Japan
+- Sources: https://www.kawadarobot.co.jp/en/nextage/
 
 ### Noetix Robotics Xiao Nuo (AI robotic head)
 
@@ -9723,6 +9907,14 @@
 - Specs: Degrees of freedom 32; Status Commercial; SDK yes
 - Sources: https://www.noetixrobotics.com/en/detail/XN
 
+### Orbit Robotics HELIOS
+
+- id: `orbit-helios`
+- Page: https://htcrefactor.github.io/robot-catalog/robot.html?id=orbit-helios
+- Markdown: https://htcrefactor.github.io/robot-catalog/md/orbit-helios.md
+- Misc · Switzerland
+- Sources: https://www.orbitrobotics.ch/
+
 ### Skyborne Technologies CODiAQ
 
 - id: `skyborne-codiaq`
@@ -9732,6 +9924,22 @@
 - Summary: AI-targeted weapon kit on a Ghost Robotics Vision 60 quadruped that gives small special-operations units remote direct-fire and breaching capability.
 - Specs: Weight 66 kg; Max speed 2.92 m/s (10.5 km/h); Runtime 2.25 h; IP rating IP67; Status Pilot; On-board compute yes; Sensors 5x 1080p RGB, 4x depth 640x480, EO 1280x808, LWIR 640x512
 - Sources: https://www.skybornetech.com/codiaq, https://skybornetech.com/wp-content/uploads/2026/08/CODiAQ-DataSheet-Final-1-1.pdf
+
+### Svaya Robotics Bimanual
+
+- id: `svaya-bimanual`
+- Page: https://htcrefactor.github.io/robot-catalog/robot.html?id=svaya-bimanual
+- Markdown: https://htcrefactor.github.io/robot-catalog/md/svaya-bimanual.md
+- Misc · India
+- Sources: https://svayarobotics.com/product/
+
+### Toyota Research Institute Punyo
+
+- id: `toyota-punyo`
+- Page: https://htcrefactor.github.io/robot-catalog/robot.html?id=toyota-punyo
+- Markdown: https://htcrefactor.github.io/robot-catalog/md/toyota-punyo.md
+- Misc · United States
+- Sources: https://punyo.tech/
 
 ### WIRobotics ALLEX
 

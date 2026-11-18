@@ -89,6 +89,11 @@ Maker page and e-manual: about 510 mm, about 3.5 kg without the skin cover, 20 a
 - [humanoidstore.co](https://humanoidstore.co/robots/robotis-op3)
 - [robotis.com](https://www.robotis.com/ko/)
 
+Listed by these directories (discovery only, never used as a spec source):
+
+- [robocensus.com](https://robocensus.com/robots/robotis-op3/)
+- [robopear.com](https://robopear.com/robots/robotis-op3)
+
 ---
 
-*Robot Catalog — generated from data/robots.json (last merged 2026-11-17). Source repository: https://github.com/htcrefactor/robot-catalog*
+*Robot Catalog — generated from data/robots.json (last merged 2026-11-18). Source repository: https://github.com/htcrefactor/robot-catalog*

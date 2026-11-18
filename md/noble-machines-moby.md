@@ -88,6 +88,11 @@ Maker homepage (checked 2026-11-17): 23 kg payload, 5 h battery life, 0.8 m/s wa
 
 - Official page: [noblemachines.ai](https://www.noblemachines.ai/)
 
+Listed by these directories (discovery only, never used as a spec source):
+
+- [robocensus.com](https://robocensus.com/robots/noble-machines-moby/)
+- [robopear.com](https://robopear.com/robots/noble-moby)
+
 ---
 
-*Robot Catalog — generated from data/robots.json (last merged 2026-11-17). Source repository: https://github.com/htcrefactor/robot-catalog*
+*Robot Catalog — generated from data/robots.json (last merged 2026-11-18). Source repository: https://github.com/htcrefactor/robot-catalog*

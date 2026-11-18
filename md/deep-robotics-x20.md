@@ -38,7 +38,8 @@ Listed by these directories (discovery only, never used as a spec source):
 - [data.robo2u.com](https://data.robo2u.com/robots/deep-robotics-x20)
 - [droid.monster](https://droid.monster/robots/deep-robotics/x20)
 - [embodied.guide](https://embodied.guide/robots/deep-robotics-x20/)
+- [robocensus.com](https://robocensus.com/robots/deep-robotics-x20/)
 
 ---
 
-*Robot Catalog — generated from data/robots.json (last merged 2026-11-17). Source repository: https://github.com/htcrefactor/robot-catalog*
+*Robot Catalog — generated from data/robots.json (last merged 2026-11-18). Source repository: https://github.com/htcrefactor/robot-catalog*

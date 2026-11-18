@@ -96,6 +96,10 @@ Noetix N2 page and brochure (checked 2026-11-17): 114 cm standing (118 x 47 x 29
 - Official page: [noetixrobotics.com](https://www.noetixrobotics.com)
 - [webuildhumanoids.com](https://webuildhumanoids.com/compare/noetix-bumi-vs-noetix-n2)
 
+Listed by these directories (discovery only, never used as a spec source):
+
+- [robopear.com](https://robopear.com/robots/noetix-n2)
+
 ---
 
-*Robot Catalog — generated from data/robots.json (last merged 2026-11-17). Source repository: https://github.com/htcrefactor/robot-catalog*
+*Robot Catalog — generated from data/robots.json (last merged 2026-11-18). Source repository: https://github.com/htcrefactor/robot-catalog*

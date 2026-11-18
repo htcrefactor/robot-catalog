@@ -84,6 +84,11 @@ Maker product page: 193 x 135 x 415 mm, 20 DoF (Starter Kit) / 24 DoF (Standard 
 
 - Official page: [hiwonder.com](https://www.hiwonder.com/products/ainex)
 
+Listed by these directories (discovery only, never used as a spec source):
+
+- [robocensus.com](https://robocensus.com/robots/hiwonder-ainex/)
+- [robopear.com](https://robopear.com/robots/hiwonder-ainex)
+
 ---
 
-*Robot Catalog — generated from data/robots.json (last merged 2026-11-17). Source repository: https://github.com/htcrefactor/robot-catalog*
+*Robot Catalog — generated from data/robots.json (last merged 2026-11-18). Source repository: https://github.com/htcrefactor/robot-catalog*

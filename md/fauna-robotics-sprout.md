@@ -95,6 +95,11 @@ Maker product page, launch release (27 Jan 2026) and the team's arXiv paper: 107
 - [faunarobotics.com](https://www.faunarobotics.com/news/fauna-robotics-launches-sprout-the-easiest-way-to-build-with-humanoids)
 - [arxiv.org](https://arxiv.org/html/2601.18963)
 
+Listed by these directories (discovery only, never used as a spec source):
+
+- [robocensus.com](https://robocensus.com/robots/fauna-sprout/)
+- [robopear.com](https://robopear.com/robots/fauna-sprout)
+
 ---
 
-*Robot Catalog — generated from data/robots.json (last merged 2026-11-17). Source repository: https://github.com/htcrefactor/robot-catalog*
+*Robot Catalog — generated from data/robots.json (last merged 2026-11-18). Source repository: https://github.com/htcrefactor/robot-catalog*

@@ -38,7 +38,8 @@ Maker product page (dataarobotics.com/zh/product-44): Cloud Ginger 1.0 / XR1 is 
 Listed by these directories (discovery only, never used as a spec source):
 
 - [embodied.guide](https://embodied.guide/robots/dataa-robotics-cloud-ginger-1/)
+- [robopear.com](https://robopear.com/robots/dataa-cloud-ginger-xr-1)
 
 ---
 
-*Robot Catalog — generated from data/robots.json (last merged 2026-11-17). Source repository: https://github.com/htcrefactor/robot-catalog*
+*Robot Catalog — generated from data/robots.json (last merged 2026-11-18). Source repository: https://github.com/htcrefactor/robot-catalog*

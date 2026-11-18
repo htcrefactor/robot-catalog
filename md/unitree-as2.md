@@ -56,7 +56,8 @@ Official page + shop. Variants Air/Pro/X/EDU; Air ships with Unitree L2 LiDAR, o
 Listed by these directories (discovery only, never used as a spec source):
 
 - [droid.monster](https://droid.monster/robots/unitree/as2)
+- [robocensus.com](https://robocensus.com/robots/unitree-as2/)
 
 ---
 
-*Robot Catalog — generated from data/robots.json (last merged 2026-11-17). Source repository: https://github.com/htcrefactor/robot-catalog*
+*Robot Catalog — generated from data/robots.json (last merged 2026-11-18). Source repository: https://github.com/htcrefactor/robot-catalog*

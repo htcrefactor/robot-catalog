@@ -43,7 +43,8 @@ Listed by these directories (discovery only, never used as a spec source):
 - [humanoidversus.com](https://humanoidversus.com/robots/tianji-gento-luna)
 - [embodied.guide](https://embodied.guide/robots/gento-robotics-gento-luna/)
 - [humanoid.guide](https://humanoid.guide/product/gento-luna/)
+- [robopear.com](https://robopear.com/robots/gento-luna)
 
 ---
 
-*Robot Catalog — generated from data/robots.json (last merged 2026-11-17). Source repository: https://github.com/htcrefactor/robot-catalog*
+*Robot Catalog — generated from data/robots.json (last merged 2026-11-18). Source repository: https://github.com/htcrefactor/robot-catalog*

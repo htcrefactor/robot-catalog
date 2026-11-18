@@ -88,6 +88,10 @@ Maker product page (read 2026-11-17): height 1.71 m, 65 kg without dexterous han
 - [tools.prnewswire.com](https://tools.prnewswire.com/en-us/live/20813/release/20260108EN59122)
 - [robotera.com](https://www.robotera.com/robot/l7.html)
 
+Listed by these directories (discovery only, never used as a spec source):
+
+- [robopear.com](https://robopear.com/robots/robotera-l7)
+
 ---
 
-*Robot Catalog — generated from data/robots.json (last merged 2026-11-17). Source repository: https://github.com/htcrefactor/robot-catalog*
+*Robot Catalog — generated from data/robots.json (last merged 2026-11-18). Source repository: https://github.com/htcrefactor/robot-catalog*

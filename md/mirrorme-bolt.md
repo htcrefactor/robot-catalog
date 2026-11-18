@@ -39,7 +39,8 @@ Listed by these directories (discovery only, never used as a spec source):
 - [humanoidversus.com](https://humanoidversus.com/robots/mirrorme-bolt)
 - [embodied.guide](https://embodied.guide/robots/mirrorme-technology-bolt/)
 - [humanoid.guide](https://humanoid.guide/product/bolt/)
+- [robopear.com](https://robopear.com/robots/mirrorme-bolt)
 
 ---
 
-*Robot Catalog — generated from data/robots.json (last merged 2026-11-17). Source repository: https://github.com/htcrefactor/robot-catalog*
+*Robot Catalog — generated from data/robots.json (last merged 2026-11-18). Source repository: https://github.com/htcrefactor/robot-catalog*

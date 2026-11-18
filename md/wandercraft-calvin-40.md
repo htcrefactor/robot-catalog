@@ -71,6 +71,10 @@ Wandercraft's Calvin page publishes no height, weight, DoF, payload, runtime, ba
 - [de.wandercraft.eu](https://de.wandercraft.eu/calvin)
 - [en.wandercraft.eu](https://en.wandercraft.eu/)
 
+Listed by these directories (discovery only, never used as a spec source):
+
+- [robopear.com](https://robopear.com/robots/wandercraft-calvin)
+
 ---
 
-*Robot Catalog — generated from data/robots.json (last merged 2026-11-17). Source repository: https://github.com/htcrefactor/robot-catalog*
+*Robot Catalog — generated from data/robots.json (last merged 2026-11-18). Source repository: https://github.com/htcrefactor/robot-catalog*

@@ -38,7 +38,8 @@ Maker parameter table (glroad.com, 劳动者M1): height 187 cm, mass 86 kg, dual
 Listed by these directories (discovery only, never used as a spec source):
 
 - [humanoid.guide](https://humanoid.guide/product/laborer-m1/)
+- [robopear.com](https://robopear.com/robots/glroad-laborer-m1)
 
 ---
 
-*Robot Catalog — generated from data/robots.json (last merged 2026-11-17). Source repository: https://github.com/htcrefactor/robot-catalog*
+*Robot Catalog — generated from data/robots.json (last merged 2026-11-18). Source repository: https://github.com/htcrefactor/robot-catalog*

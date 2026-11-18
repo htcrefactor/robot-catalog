@@ -90,6 +90,10 @@ Maker (checked 2026-11-17): MenteeBot V3.0 stands 175 cm, weighs 70 kg, has 40 D
 - [webuildhumanoids.com](https://webuildhumanoids.com/robots/menteebot-v3)
 - [linkedin.com](https://www.linkedin.com/posts/mentee-robotics_menteebot-v30-teaser-activity-7295086881388552193-yNvT)
 
+Listed by these directories (discovery only, never used as a spec source):
+
+- [robopear.com](https://robopear.com/robots/mentee-menteebot)
+
 ---
 
-*Robot Catalog — generated from data/robots.json (last merged 2026-11-17). Source repository: https://github.com/htcrefactor/robot-catalog*
+*Robot Catalog — generated from data/robots.json (last merged 2026-11-18). Source repository: https://github.com/htcrefactor/robot-catalog*

@@ -30,7 +30,8 @@ No maker page names an 'Xialan S0'. Digital Huaxia's own catalogue (digit.com.cn
 Listed by these directories (discovery only, never used as a spec source):
 
 - [humanoid.guide](https://humanoid.guide/product/xialan-s0/)
+- [robopear.com](https://robopear.com/robots/digit-robotics-xialan-s0)
 
 ---
 
-*Robot Catalog — generated from data/robots.json (last merged 2026-11-17). Source repository: https://github.com/htcrefactor/robot-catalog*
+*Robot Catalog — generated from data/robots.json (last merged 2026-11-18). Source repository: https://github.com/htcrefactor/robot-catalog*

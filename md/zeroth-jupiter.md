@@ -40,7 +40,8 @@ Listed by these directories (discovery only, never used as a spec source):
 
 - [humanoidversus.com](https://humanoidversus.com/robots/zeroth-jupiter)
 - [humanoid.guide](https://humanoid.guide/product/jupiter/)
+- [robopear.com](https://robopear.com/robots/zeroth-jupiter)
 
 ---
 
-*Robot Catalog — generated from data/robots.json (last merged 2026-11-17). Source repository: https://github.com/htcrefactor/robot-catalog*
+*Robot Catalog — generated from data/robots.json (last merged 2026-11-18). Source repository: https://github.com/htcrefactor/robot-catalog*
