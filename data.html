@@ -85,7 +85,7 @@ document.getElementById("snap").innerHTML=snap.map(([k,v])=>`<dt>${t(k)}</dt><dd
 document.getElementById("cite").textContent=`Robot Catalog — ${DATA_BASE}\nSnapshot ${m.version||m.updated||""} · CC BY 4.0 · https://creativecommons.org/licenses/by/4.0/`;
 
 // Fields and units, with how many robots publish each one.
-const present=f=>robots.filter(r=>{const v=r[f.k];return Array.isArray(v)?v.length>0:!(v===null||v===undefined||v==="")}).length;
+const present=f=>{const path=(f.p||f.k).split(".");return robots.filter(r=>{let v=r;for(const k of path)v=v==null?undefined:v[k];return Array.isArray(v)?v.length>0:!(v===null||v===undefined||v==="")}).length};
 const body=Object.entries(DATA_GROUPS).map(([g,gg])=>`<tr class="grp"><th colspan="5">${esc(gg[LANG]||gg.en)}</th></tr>`+
  DATA_FIELDS.filter(f=>f.g===g).map(f=>`<tr><td><code>${f.k}</code></td><td class="small">${t("type_"+f.t)}</td><td class="small">${f.u||"—"}</td><td>${esc(f[LANG]||f.en)}</td><td class="num small">${t("pub_of",{n:present(f),t:robots.length})}</td></tr>`).join("")).join("");
 document.getElementById("fields").innerHTML=`<thead><tr><th>${t("col_field")}</th><th>${t("col_type")}</th><th>${t("col_unit")}</th><th>${t("col_meaning")}</th><th>${t("col_pub")}</th></tr></thead><tbody>${body}</tbody>`;
