@@ -1,0 +1,96 @@
+{
+ "id": "topstar-twh020",
+ "name": "TWH020",
+ "manufacturer": "Topstar",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-17",
+   "type": "added",
+   "source": null,
+   "commit": "b596d3e",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://www.topstarltd.com/lang-cn/productview/2239.html",
+   "commit": "30bdc91",
+   "changes": [
+    {
+     "field": "compute_detail",
+     "from": null,
+     "to": "3352 TOPS compute platform"
+    },
+    {
+     "field": "dof",
+     "from": null,
+     "to": 21
+    },
+    {
+     "field": "max_speed_mps",
+     "from": null,
+     "to": 1.5
+    },
+    {
+     "field": "note",
+     "from": null,
+     "to": "Maker spec page: 7-DoF arms x2 plus 2 head, 2 waist and 3 chassis = 21 DoF, rated load 10 kg (20 kg maximum), 690 mm arm radius, +/-0.05 mm repeatability, 500 W typical, 3352 TOPS, chassis 1.5 m/s and 1 m/s at the TCP, waist bend 0-95 deg and lift 0-550 mm, 48 V DC, 0-50 degC at 20-80 % RH, RGB-D camera, 4-microphone array, speaker, touch display, 360-degree LiDAR with two line-scan radars and three AI vision sensors, quick battery swap and self-docking. Height, weight and runtime are not published."
+    },
+    {
+     "field": "official_url",
+     "from": null,
+     "to": "https://www.topstarltd.com/lang-cn/productview/2239.html"
+    },
+    {
+     "field": "onboard_compute",
+     "from": null,
+     "to": true
+    },
+    {
+     "field": "payload_kg",
+     "from": null,
+     "to": 10
+    },
+    {
+     "field": "sdk_available",
+     "from": null,
+     "to": true
+    },
+    {
+     "field": "sensors",
+     "from": [],
+     "to": [
+      "360-degree LiDAR",
+      "2 line-scan LiDARs",
+      "3 AI vision sensors",
+      "RGB-D camera",
+      "Force sensors"
+     ]
+    },
+    {
+     "field": "sources",
+     "from": [],
+     "to": [
+      "https://www.topstarltd.com/lang-cn/productview/2239.html"
+     ]
+    },
+    {
+     "field": "status",
+     "from": null,
+     "to": "Announced"
+    },
+    {
+     "field": "summary",
+     "from": "",
+     "to": "Wheeled industrial humanoid (Xiao Tuo, 小拓) from Topstar with two 7-DoF arms, a bending and lifting waist and a four-swerve-wheel chassis."
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "official"
+    }
+   ]
+  }
+ ]
+}

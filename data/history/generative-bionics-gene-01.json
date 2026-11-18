@@ -1,0 +1,109 @@
+{
+ "id": "generative-bionics-gene-01",
+ "name": "GENE.01",
+ "manufacturer": "Generative Bionics",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-17",
+   "type": "added",
+   "source": null,
+   "commit": "b596d3e",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://gbionics.ai/gene01",
+   "commit": "b310609",
+   "changes": [
+    {
+     "field": "image_source",
+     "from": null,
+     "to": "https://gbionics.ai/gene01"
+    },
+    {
+     "field": "image_url",
+     "from": null,
+     "to": "https://i.ytimg.com/vi/mGF142yepjc/maxresdefault.jpg"
+    },
+    {
+     "field": "note",
+     "from": null,
+     "to": "Media (2026-11-17): the still is the cover frame of the maker's own film 'GENE.01 Comes to Life', which gbionics.ai/gene01 and its news portal embed; the model page itself renders only looping clips, no product still."
+    },
+    {
+     "field": "official_url",
+     "from": null,
+     "to": "https://gbionics.ai/gene01"
+    },
+    {
+     "field": "sources",
+     "from": [],
+     "to": [
+      "https://gbionics.ai/gene01",
+      "https://news.gbionics.ai/?article=gene-01-comes-to-life&lang=en",
+      "https://gbionics.ai/gene01/",
+      "https://gbionics.ai/downloads/GENE01/CS_GENE01_EN.pdf",
+      "https://github.com/gbionics/gb-robot-models"
+     ]
+    },
+    {
+     "field": "summary",
+     "from": "",
+     "to": "GENE.01 is the first seed of a new lineage of humanoid robots, made by the Italian company Generative Bionics and aimed at industrial use cases."
+    },
+    {
+     "field": "videos",
+     "from": [],
+     "to": [
+      {
+       "url": "https://www.youtube.com/watch?v=mGF142yepjc",
+       "title": "GENE.01 Comes to Life",
+       "channel": "Generative Bionics"
+      },
+      {
+       "url": "https://gbionics.ai/assets/1_gene_walk_xpJG_jtIdJOJ2j_AyHUhA.mp4",
+       "title": "GENE.01 — walking",
+       "channel": "Generative Bionics"
+      }
+     ]
+    },
+    {
+     "field": "release_year",
+     "from": null,
+     "to": 2026
+    },
+    {
+     "field": "ros_support",
+     "from": null,
+     "to": "URDF + ROS distribution"
+    },
+    {
+     "field": "sdk_available",
+     "from": null,
+     "to": true
+    },
+    {
+     "field": "sdk_name",
+     "from": null,
+     "to": "open robot model (URDF via pip / conda-forge / ROS build farm)"
+    },
+    {
+     "field": "sensors",
+     "from": [],
+     "to": [
+      "Whole-body distributed tactile skin (touch, proximity, force, temperature)",
+      "Force sensing",
+      "Vision"
+     ]
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "official"
+    }
+   ]
+  }
+ ]
+}

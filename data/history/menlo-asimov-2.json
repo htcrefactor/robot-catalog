@@ -1,0 +1,43 @@
+{
+ "id": "menlo-asimov-2",
+ "name": "Asimov 2",
+ "manufacturer": "Menlo Research",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-17",
+   "type": "added",
+   "source": null,
+   "commit": "b596d3e",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": null,
+   "commit": "5150daa",
+   "changes": [
+    {
+     "field": "data_source",
+     "from": null,
+     "to": "No maker source found (checked 2026-11-17)"
+    },
+    {
+     "field": "note",
+     "from": null,
+     "to": "Menlo's own documentation page for Asimov 2 (checked 2026-11-17) says the page holds V2 concepts only and that full specs and the shipping date are unknown, so no specification can be recorded. Announced as the successor to Asimov 1."
+    },
+    {
+     "field": "summary",
+     "from": "",
+     "to": "Announced successor to Menlo's open-source Asimov 1; Menlo has published no specifications or shipping date yet."
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "unconfirmed"
+    }
+   ]
+  }
+ ]
+}

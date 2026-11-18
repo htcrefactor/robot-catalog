@@ -1,0 +1,112 @@
+{
+ "id": "unitree-go2-pro",
+ "name": "Go2 Pro",
+ "manufacturer": "Unitree Robotics",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-03",
+   "type": "added",
+   "source": "https://www.unitree.com/go2",
+   "commit": "1a533a7",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://www.unitree.com/go2",
+   "commit": "0c54867",
+   "changes": [
+    {
+     "field": "note",
+     "from": null,
+     "to": "Unitree Go2 page comparison table (PRO column, checked 2026-11-17): 70 x 31 x 40 cm, about 15 kg, payload about 8 kg (max ~10 kg), 0-3.5 m/s, 12 joint motors, 8000 mAh battery, 1-2 h, 4D LiDAR L2 + HD wide-angle camera + wireless vector positioning module, 8-core CPU, $2,800. IP rating and battery Wh are not published."
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "official"
+    },
+    {
+     "field": "open_source_repos",
+     "from": null,
+     "to": [
+      {
+       "name": "unitree_ros",
+       "url": "https://github.com/unitreerobotics/unitree_ros",
+       "license": "BSD-3-Clause"
+      },
+      {
+       "name": "unitree_mujoco",
+       "url": "https://github.com/unitreerobotics/unitree_mujoco",
+       "license": "BSD-3-Clause"
+      }
+     ]
+    },
+    {
+     "field": "sim_models",
+     "from": null,
+     "to": {
+      "urdf": {
+       "url": "https://github.com/unitreerobotics/unitree_ros/blob/master/robots/go2_description/urdf/go2_description.urdf",
+       "license": "BSD-3-Clause"
+      },
+      "mujoco": {
+       "url": "https://github.com/unitreerobotics/unitree_mujoco",
+       "license": "BSD-3-Clause"
+      }
+     }
+    },
+    {
+     "field": "sources",
+     "from": [
+      "https://www.unitree.com/go2"
+     ],
+     "to": [
+      "https://www.unitree.com/go2",
+      "https://github.com/unitreerobotics/unitree_ros/blob/master/robots/go2_description/urdf/go2_description.urdf",
+      "https://github.com/unitreerobotics/unitree_mujoco",
+      "https://github.com/unitreerobotics/unitree_ros",
+      "https://shop.unitree.com/products/unitree-go2",
+      "https://www.younginmobility.com/"
+     ]
+    },
+    {
+     "field": "price_note",
+     "from": "tax and freight excluded",
+     "to": null
+    },
+    {
+     "field": "price_observations",
+     "from": null,
+     "to": [
+      {
+       "date": "2026-11-17",
+       "amount": 2800,
+       "currency": "USD",
+       "kind": "list",
+       "source": "https://shop.unitree.com/products/unitree-go2",
+       "note": "Go2 Pro without controller; US$3,050 with controller; tax and freight excluded"
+      }
+     ]
+    },
+    {
+     "field": "price_usd",
+     "from": 2800,
+     "to": null
+    },
+    {
+     "field": "kr_distributors",
+     "from": null,
+     "to": [
+      {
+       "name": "영인모빌리티 (Unitree 한국 공식 파트너)",
+       "kind": "distributor",
+       "url": "https://www.younginmobility.com/"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

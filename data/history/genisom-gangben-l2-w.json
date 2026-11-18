@@ -1,0 +1,58 @@
+{
+ "id": "genisom-gangben-l2-w",
+ "name": "Genisom L2-W",
+ "manufacturer": "GENISOM AI (ZsiBot)",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-17",
+   "type": "added",
+   "source": "https://www.genisomai.com/product-robot/L2",
+   "commit": "0a6305b",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://www.genisomai.com/product-robot/L2",
+   "commit": "48ef25e",
+   "changes": [
+    {
+     "field": "compute_detail",
+     "from": null,
+     "to": "8-core high-performance CPU"
+    },
+    {
+     "field": "dof",
+     "from": null,
+     "to": 12
+    },
+    {
+     "field": "note",
+     "from": "Official URL is the 钢镚 L2 page, whose spec table lists L2 (point-foot), L2-W (wheel-legged) and L2-W Ultra; values here are L2-W. Limit speed 5 m/s; payload ≈16 kg (150 kg static). '¥39,999 起' on page is the L2 family starting price, not specific to L2-W, so price left null. 756 Wh battery stated on page (spec table lists 15000 mAh).",
+     "to": "Official URL is the 钢镚 L2 page, whose spec table lists L2 (point-foot), L2-W (wheel-legged) and L2-W Ultra; values here are L2-W. Limit speed 5 m/s; payload ≈16 kg (150 kg static). '¥39,999 起' on page is the L2 family starting price, not specific to L2-W, so price left null. 756 Wh battery stated on page (spec table lists 15000 mAh). Re-checked 2026-11-17: the L2 product page (opened) carries a per-variant spec table with an explicit L2-W column - standing 760x450x500 mm, prone 780x550x190 mm, 27 kg with battery, ~16 kg continuous payload (150 kg static), 3.7 m/s max / 5 m/s limit, 25 cm continuous stairs, 40 deg slope, 5.5 h no-load / 3.5 h full-load, 20 km / 12 km range, 756 Wh (15000 mAh), 1.5 h charge, 12 joint motors / 95 N.m, 4G, UWB, stereo camera, IP66, -20~55 C. CORRECTION: LiDAR and GNSS/RTK are NOT in the L2-W column (the 96-line LiDAR x2 and RTK are L2-W Ultra only), so they were removed from sensors; dof filled with the 12 joint motors. The page's marketing copy ('RoamerX ... LiDAR + GNSS', '720 deg fusion sensing') describes the family, not the L2-W configuration."
+    },
+    {
+     "field": "sensors",
+     "from": [
+      "IMU",
+      "Stereo camera",
+      "LiDAR",
+      "GNSS",
+      "UWB"
+     ],
+     "to": [
+      "Stereo camera (2.07 MP x2)",
+      "IMU",
+      "UWB (GLUE omnidirectional following)"
+     ]
+    },
+    {
+     "field": "name",
+     "from": "Gangben L2-W",
+     "to": "Genisom L2-W"
+    }
+   ]
+  }
+ ]
+}

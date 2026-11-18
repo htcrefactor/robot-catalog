@@ -1,0 +1,56 @@
+{
+ "id": "piaggio-gitamini",
+ "name": "gita mini",
+ "manufacturer": "Piaggio Fast Forward",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-17",
+   "type": "added",
+   "source": "https://piaggiofastforward.com/shop/gitamini",
+   "commit": "73aee2c",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://piaggiofastforward.com/shop/gitamini",
+   "commit": "4b7ab4b",
+   "changes": [
+    {
+     "field": "price_observations",
+     "from": null,
+     "to": [
+      {
+       "date": "2026-11-17",
+       "amount": 2475,
+       "currency": "USD",
+       "kind": "list",
+       "source": "https://shop.piaggiofastforward.com/",
+       "note": "price on the official shop page"
+      }
+     ]
+    },
+    {
+     "field": "price_usd",
+     "from": 2475,
+     "to": null
+    },
+    {
+     "field": "sources",
+     "from": [
+      "https://knowledge.mygita.com/gitamini-physical-overview",
+      "https://piaggiofastforward.com/shop/gitamini",
+      "https://piaggiofastforward.com/blog/choose-your-robot-gitaplus-vs-gitamini"
+     ],
+     "to": [
+      "https://knowledge.mygita.com/gitamini-physical-overview",
+      "https://piaggiofastforward.com/shop/gitamini",
+      "https://piaggiofastforward.com/blog/choose-your-robot-gitaplus-vs-gitamini",
+      "https://shop.piaggiofastforward.com/"
+     ]
+    }
+   ]
+  }
+ ]
+}

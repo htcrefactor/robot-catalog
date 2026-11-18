@@ -1,0 +1,121 @@
+{
+ "id": "boston-dynamics-littledog",
+ "name": "LittleDog",
+ "manufacturer": "Boston Dynamics",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-17",
+   "type": "added",
+   "source": null,
+   "commit": "b596d3e",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "http://www.cs.cmu.edu/~cga/bdi/LittleDog_User_Guide_V1.0.0.pdf",
+   "commit": "1173def",
+   "changes": [
+    {
+     "field": "api_support",
+     "from": null,
+     "to": true
+    },
+    {
+     "field": "battery_wh",
+     "from": null,
+     "to": 31.1
+    },
+    {
+     "field": "compute_detail",
+     "from": null,
+     "to": "x86 266 MHz, 128 MB RAM, 802.11b wireless Ethernet"
+    },
+    {
+     "field": "dof",
+     "from": null,
+     "to": 12
+    },
+    {
+     "field": "height_mm",
+     "from": null,
+     "to": 143
+    },
+    {
+     "field": "length_mm",
+     "from": null,
+     "to": 340
+    },
+    {
+     "field": "note",
+     "from": null,
+     "to": "Boston Dynamics 'LittleDog Robot 1.0 User Guide' (2006, A. Saunders): 340x180x143 mm, 3 kg, 12 actuated DoF (3 per leg), ~30 min on the 2.1 Ah 14.8 V LiPo, x86 266 MHz with 128 MB RAM and 802.11b, LittleDog API, Vicon motion capture for ground truth. Battery 31.1 Wh is derived from 2.1 Ah x 14.8 V (maker gives Ah, not Wh). The guide is hosted on CMU's BDI archive, not bostondynamics.com, and the maker site has no LittleDog page."
+    },
+    {
+     "field": "official_url",
+     "from": null,
+     "to": "http://www.cs.cmu.edu/~cga/bdi/LittleDog_User_Guide_V1.0.0.pdf"
+    },
+    {
+     "field": "onboard_compute",
+     "from": null,
+     "to": true
+    },
+    {
+     "field": "runtime_h",
+     "from": null,
+     "to": 0.5
+    },
+    {
+     "field": "sdk_available",
+     "from": null,
+     "to": true
+    },
+    {
+     "field": "sdk_name",
+     "from": null,
+     "to": "LittleDog API"
+    },
+    {
+     "field": "sensors",
+     "from": [],
+     "to": [
+      "Joint position encoders",
+      "MEMS IMU",
+      "Single-axis force sensor per lower leg",
+      "Foot contact sensing",
+      "Vicon motion-capture tracking"
+     ]
+    },
+    {
+     "field": "sources",
+     "from": [],
+     "to": [
+      "http://www.cs.cmu.edu/~cga/bdi/LittleDog_User_Guide_V1.0.0.pdf"
+     ]
+    },
+    {
+     "field": "summary",
+     "from": "",
+     "to": "Small research quadruped built by Boston Dynamics for the DARPA Learning Locomotion programme, controlled over a wireless host link."
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "official"
+    },
+    {
+     "field": "weight_kg",
+     "from": null,
+     "to": 3
+    },
+    {
+     "field": "width_mm",
+     "from": null,
+     "to": 180
+    }
+   ]
+  }
+ ]
+}

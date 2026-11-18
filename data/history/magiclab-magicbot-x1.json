@@ -1,0 +1,33 @@
+{
+ "id": "magiclab-magicbot-x1",
+ "name": "MagicBot X1",
+ "manufacturer": "MagicLab",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-17",
+   "type": "added",
+   "source": "https://www.magiclab.top/en/x1",
+   "commit": "b596d3e",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://www.magiclab.top/en/x1",
+   "commit": "ae60ceb",
+   "changes": [
+    {
+     "field": "compute_soc",
+     "from": null,
+     "to": "NVIDIA Jetson Orin NX"
+    },
+    {
+     "field": "compute_source",
+     "from": null,
+     "to": "https://www.magiclab.top/en/x1"
+    }
+   ]
+  }
+ ]
+}

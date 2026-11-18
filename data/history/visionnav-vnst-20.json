@@ -1,0 +1,28 @@
+{
+ "id": "visionnav-vnst-20",
+ "name": "VNST 20",
+ "manufacturer": "VisionNav Robotics",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-17",
+   "type": "added",
+   "source": "https://www.visionnav.com/product/detail/VNST20-Pallet-Stacker-AGV",
+   "commit": "b596d3e",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://www.visionnav.com/product/detail/VNST20-Pallet-Stacker-AGV",
+   "commit": "7864761",
+   "changes": [
+    {
+     "field": "note",
+     "from": "Launched May 2023 (initially Asia); product page now says currently available in North America.",
+     "to": "Scope review (#16, 2026-11-17): kept as an in-scope AGV. Maker page titles it 'VNST20 Pallet Stacker AGV/AMR' with 1620x800x1830 mm, 520 kg vehicle mass and 2000 kg load. Launched May 2023 (initially Asia); product page now says currently available in North America."
+    }
+   ]
+  }
+ ]
+}

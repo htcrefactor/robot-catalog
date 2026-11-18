@@ -1,0 +1,86 @@
+{
+ "id": "yunmu-ymbot-type-e",
+ "name": "YMbot Type E",
+ "manufacturer": "Yunmu Intelligent Manufacturing",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-17",
+   "type": "added",
+   "source": null,
+   "commit": "b596d3e",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://www.ymbot.com/product/detail/3",
+   "commit": "b1429ab",
+   "changes": [
+    {
+     "field": "api_support",
+     "from": null,
+     "to": true
+    },
+    {
+     "field": "dof",
+     "from": null,
+     "to": 52
+    },
+    {
+     "field": "height_mm",
+     "from": null,
+     "to": 1400
+    },
+    {
+     "field": "max_speed_mps",
+     "from": null,
+     "to": 1.2
+    },
+    {
+     "field": "notes",
+     "from": null,
+     "to": "2026 product manual gives about 140 cm and about 38 kg with battery, 52 DoF excluding the optional five-finger hands, head 26 DoF, joint torque >=150 Nm, >=10 facial expressions. The maker's product web page states minimums instead (height >=1.3 m, weight >=35 kg, >=40 DoF, both arms >=1.5 kg); the manual figures are recorded. Battery 10 Ah with no voltage stated."
+    },
+    {
+     "field": "official_url",
+     "from": null,
+     "to": "https://www.ymbot.com/product/detail/3"
+    },
+    {
+     "field": "ros_support",
+     "from": null,
+     "to": true
+    },
+    {
+     "field": "runtime_h",
+     "from": null,
+     "to": 2
+    },
+    {
+     "field": "sources",
+     "from": [],
+     "to": [
+      "https://www.ymbot.com/product/detail/3",
+      "https://www.worldrobotconference.com/profile/robot/download/2026/07/23/20260723170520000751_20260723170520A912.pdf"
+     ]
+    },
+    {
+     "field": "summary",
+     "from": "",
+     "to": "Silicone-skin education and culture humanoid with 52 DoF and expressive head, walkable on two legs for guiding and research demos."
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "official"
+    },
+    {
+     "field": "weight_kg",
+     "from": null,
+     "to": 38
+    }
+   ]
+  }
+ ]
+}

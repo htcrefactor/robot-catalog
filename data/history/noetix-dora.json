@@ -1,0 +1,43 @@
+{
+ "id": "noetix-dora",
+ "name": "Dora",
+ "manufacturer": "Noetix Robotics",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-17",
+   "type": "added",
+   "source": null,
+   "commit": "b596d3e",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": null,
+   "commit": "5150daa",
+   "changes": [
+    {
+     "field": "data_source",
+     "from": null,
+     "to": "No maker source found (checked 2026-11-17)"
+    },
+    {
+     "field": "note",
+     "from": null,
+     "to": "Noetix no longer lists Dora: its founder said in a March 2025 interview that Dora became the E1 after the tooling was consolidated, and the maker's current catalogue has no Dora page (checked 2026-11-17). Third-party figures (100 cm, 20 kg, 20 DoF) are not used."
+    },
+    {
+     "field": "summary",
+     "from": "",
+     "to": "Noetix's compact service humanoid from 2024, later folded into the E1 line; the maker no longer documents it."
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "unconfirmed"
+    }
+   ]
+  }
+ ]
+}

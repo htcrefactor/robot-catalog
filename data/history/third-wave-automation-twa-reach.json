@@ -1,0 +1,46 @@
+{
+ "id": "third-wave-automation-twa-reach",
+ "name": "TWA Reach",
+ "manufacturer": "Third Wave Automation",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-17",
+   "type": "added",
+   "source": "https://www.thirdwave.ai/",
+   "commit": "b596d3e",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://www.thirdwave.ai/",
+   "commit": "e6ebd1a",
+   "changes": [
+    {
+     "field": "certifications",
+     "from": null,
+     "to": []
+    },
+    {
+     "field": "safety_note",
+     "from": null,
+     "to": "Specification sheet: “Built with ISO 3691-4:2023 and ANSI/ITSDF B56.5-2019 as guiding principles” — a design basis, not a stated certificate."
+    },
+    {
+     "field": "safety_source",
+     "from": null,
+     "to": "https://thirdwave.ai/twa-reach-specifications-sheet.pdf"
+    },
+    {
+     "field": "safety_standards",
+     "from": null,
+     "to": [
+      "ISO 3691-4:2023",
+      "ANSI/ITSDF B56.5-2019"
+     ]
+    }
+   ]
+  }
+ ]
+}

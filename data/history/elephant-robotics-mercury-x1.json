@@ -1,0 +1,43 @@
+{
+ "id": "elephant-robotics-mercury-x1",
+ "name": "Mercury X1",
+ "manufacturer": "Elephant Robotics",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-17",
+   "type": "added",
+   "source": "https://www.elephantrobotics.com/en/mercury-x1-en/",
+   "commit": "b596d3e",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://www.elephantrobotics.com/en/mercury-x1-en/",
+   "commit": "ae60ceb",
+   "changes": [
+    {
+     "field": "compute_memory_gb",
+     "from": null,
+     "to": 8
+    },
+    {
+     "field": "compute_soc",
+     "from": null,
+     "to": "NVIDIA Jetson Orin Nano Super 8GB"
+    },
+    {
+     "field": "compute_source",
+     "from": null,
+     "to": "https://www.elephantrobotics.com/en/mercury-specifications-en/"
+    },
+    {
+     "field": "compute_tops",
+     "from": null,
+     "to": 67
+    }
+   ]
+  }
+ ]
+}

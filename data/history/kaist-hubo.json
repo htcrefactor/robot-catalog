@@ -1,0 +1,43 @@
+{
+ "id": "kaist-hubo",
+ "name": "HUBO (KHR-3)",
+ "manufacturer": "KAIST",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-17",
+   "type": "added",
+   "source": "https://news.kaist.ac.kr/news/html/news/?mng_no=353&mode=V",
+   "commit": "b596d3e",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://news.kaist.ac.kr/news/html/news/?mng_no=353&mode=V",
+   "commit": "0c54867",
+   "changes": [
+    {
+     "field": "manufacturer_ko",
+     "from": null,
+     "to": "한국과학기술원"
+    },
+    {
+     "field": "name_ko",
+     "from": null,
+     "to": "휴보"
+    },
+    {
+     "field": "sources",
+     "from": [
+      "https://news.kaist.ac.kr/news/html/news/?mng_no=353&mode=V"
+     ],
+     "to": [
+      "https://news.kaist.ac.kr/news/html/news/?mng_no=353&mode=V",
+      "https://rainbow-robotics.com/"
+     ]
+    }
+   ]
+  }
+ ]
+}

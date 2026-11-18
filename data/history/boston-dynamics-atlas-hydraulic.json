@@ -1,0 +1,90 @@
+{
+ "id": "boston-dynamics-atlas-hydraulic",
+ "name": "Atlas (hydraulic, 2013)",
+ "manufacturer": "Boston Dynamics",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-17",
+   "type": "added",
+   "source": null,
+   "commit": "b596d3e",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://www.darpa.mil/news/2013/atlas-robot-unveiled",
+   "commit": "4b395bc",
+   "changes": [
+    {
+     "field": "country",
+     "from": null,
+     "to": "United States"
+    },
+    {
+     "field": "dof",
+     "from": null,
+     "to": 28
+    },
+    {
+     "field": "height_mm",
+     "from": null,
+     "to": 1880
+    },
+    {
+     "field": "note",
+     "from": null,
+     "to": "Built by Boston Dynamics for DARPA and unveiled 11 Jul 2013; the figures come from the commissioning agency's release (darpa.mil/news/2013/atlas-robot-unveiled): 6 ft 2 in (1.88 m), 330 lb (150 kg), 28 hydraulically actuated joints, a Carnegie Robotics sensor head with LIDAR and stereo sensors, an on-board real-time control computer, a hydraulic pump with thermal management, and two hand sets (iRobot, Sandia). It ran tethered to off-board power and computing in the 2013 DRC Trials; DARPA's own timeline records the mid-2015 rebuild to on-board power. Boston Dynamics has no current product page for this generation. Marked Discontinued because Boston Dynamics announced the retirement of the hydraulic Atlas on 17 Apr 2024 with the 'Introducing Electric Atlas' post. Runtime, speed and payload are not published by the maker and stay empty."
+    },
+    {
+     "field": "official_url",
+     "from": null,
+     "to": "https://www.darpa.mil/news/2013/atlas-robot-unveiled"
+    },
+    {
+     "field": "onboard_compute",
+     "from": null,
+     "to": true
+    },
+    {
+     "field": "sensors",
+     "from": [],
+     "to": [
+      "LIDAR (Carnegie Robotics sensor head)",
+      "Stereo cameras"
+     ]
+    },
+    {
+     "field": "sources",
+     "from": [],
+     "to": [
+      "https://www.darpa.mil/news/2013/atlas-robot-unveiled",
+      "https://www.darpa.mil/about/innovation-timeline/atlas-robot-debut",
+      "https://bostondynamics.com/news/introducing-electric-atlas/"
+     ]
+    },
+    {
+     "field": "status",
+     "from": null,
+     "to": "Discontinued"
+    },
+    {
+     "field": "summary",
+     "from": "",
+     "to": "The original hydraulic Atlas that Boston Dynamics built for DARPA's Robotics Challenge in 2013, retired in April 2024 when the electric Atlas replaced it."
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "official"
+    },
+    {
+     "field": "weight_kg",
+     "from": null,
+     "to": 150
+    }
+   ]
+  }
+ ]
+}

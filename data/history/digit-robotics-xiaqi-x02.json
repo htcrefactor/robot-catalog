@@ -1,0 +1,50 @@
+{
+ "id": "digit-robotics-xiaqi-x02",
+ "name": "XiaQi X02",
+ "manufacturer": "Digit Robotics",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-17",
+   "type": "added",
+   "source": null,
+   "commit": "b596d3e",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://www.digit.com.cn/ProductsDetail/93.html",
+   "commit": "4b395bc",
+   "changes": [
+    {
+     "field": "note",
+     "from": null,
+     "to": "Maker product page (digit.com.cn/ProductsDetail/93.html): 夏起 X02 is a general-purpose interaction humanoid for marketing counters, showroom guidance, retail tours and reception, with multi-turn voice dialogue, natural facial expression and gestures, face tracking, lip detection and sound-source localisation, multi-language and Chinese-dialect conversation, and autonomous walking over marble, carpet and wooden floors in indoor spaces up to 100,000 m2. Maker publishes no height, weight, DoF, speed, runtime or price, so those fields stay empty. Manufacturer is Digital Huaxia (数字华夏); 'Digit Robotics' is the aggregator's name for the same company."
+    },
+    {
+     "field": "official_url",
+     "from": null,
+     "to": "https://www.digit.com.cn/ProductsDetail/93.html"
+    },
+    {
+     "field": "sources",
+     "from": [],
+     "to": [
+      "https://www.digit.com.cn/ProductsDetail/93.html"
+     ]
+    },
+    {
+     "field": "summary",
+     "from": "",
+     "to": "Digital Huaxia's general-purpose service humanoid for reception, exhibition guidance and business consulting, with multimodal dialogue and autonomous indoor walking over up to 100,000 m2."
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "official"
+    }
+   ]
+  }
+ ]
+}

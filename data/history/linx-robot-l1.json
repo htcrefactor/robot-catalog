@@ -1,0 +1,43 @@
+{
+ "id": "linx-robot-l1",
+ "name": "LINXROBOT-L1",
+ "manufacturer": "LINX Robot",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-17",
+   "type": "added",
+   "source": null,
+   "commit": "b596d3e",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": null,
+   "commit": "5150daa",
+   "changes": [
+    {
+     "field": "data_source",
+     "from": null,
+     "to": "No maker source found (checked 2026-11-17)"
+    },
+    {
+     "field": "note",
+     "from": null,
+     "to": "No maker source found (checked 2026-11-17). The maker's site linxrobot.com still covers only its 3D vision products; the wheeled LINXROBOT-L1 was launched on 14 May 2026 through the maker's WeChat account and no official product or spec page exists. Third-party figures (about 170 cm, 150 kg, 24 arm DoF, 3 kg per arm, 8 h) are not used."
+    },
+    {
+     "field": "summary",
+     "from": "",
+     "to": "Wheeled dual-arm industrial humanoid from LINX Robot (Lingxi), announced in May 2026 for warehouse picking; no maker specification has been published."
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "unconfirmed"
+    }
+   ]
+  }
+ ]
+}

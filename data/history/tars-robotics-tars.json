@@ -1,0 +1,66 @@
+{
+ "id": "tars-robotics-tars",
+ "name": "TARS",
+ "manufacturer": "TARS Robotics",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-17",
+   "type": "added",
+   "source": null,
+   "commit": "b596d3e",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://www.prnewswire.com/news-releases/tars-demonstrates-a-robot-that-can-perform-hand-embroidery-breaking-through-a-key-automation-bottleneck-in-flexible-manufacturing-302648045.html",
+   "commit": "75b989d",
+   "changes": [
+    {
+     "field": "country",
+     "from": null,
+     "to": "China"
+    },
+    {
+     "field": "note",
+     "from": null,
+     "to": "The catalog record is brand-level ('TARS'), so no single model's specs were written in. Maker (TARS Robotics, founded 2025-02-05, Beijing and Shanghai, AWE foundation model, SenseHub data system) sells two series sharing one upper body: the A Series industrial humanoid (wheeled or stationary base) and the T Series general-purpose bipedal humanoid. Maker press releases confirm the 2025-12-22 public debut demonstrating hand embroidery (needle threading and stitching with both hands at sub-millimetre precision) and the 2026-11-16 Aptiv agreement for 100 A-Series units across 8 process categories and 33 scenarios, with the first batch already running in a live Aptiv smart factory and mass production targeted for 2026. No maker datasheet is public and tars.ai blocks automated access, so height, weight, DOF, payload, speed and battery stay empty; secondary profiles give roughly 160-175 cm and 80 kg for the A Series and about 3 km/h, 3 h and 30-40 DOF for the T Series, which were not used. Status Commercial reflects the A-Series fleet in production; the T Series remains a pilot platform."
+    },
+    {
+     "field": "official_url",
+     "from": null,
+     "to": "https://www.prnewswire.com/news-releases/tars-demonstrates-a-robot-that-can-perform-hand-embroidery-breaking-through-a-key-automation-bottleneck-in-flexible-manufacturing-302648045.html"
+    },
+    {
+     "field": "release_year",
+     "from": null,
+     "to": 2025
+    },
+    {
+     "field": "sources",
+     "from": [],
+     "to": [
+      "https://www.prnewswire.com/news-releases/tars-demonstrates-a-robot-that-can-perform-hand-embroidery-breaking-through-a-key-automation-bottleneck-in-flexible-manufacturing-302648045.html",
+      "https://www.prnewswire.com/news-releases/tarsbot-and-aptiv-deepen-strategic-collaboration-on-embodied-ai-302939149.html"
+     ]
+    },
+    {
+     "field": "status",
+     "from": null,
+     "to": "Commercial"
+    },
+    {
+     "field": "summary",
+     "from": "",
+     "to": "TARS Robotics (它石智航) builds two humanoid lines on one upper body - the wheeled or fixed A Series for industrial work and the bipedal T Series - driven by its AWE world-engine model."
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "official"
+    }
+   ]
+  }
+ ]
+}

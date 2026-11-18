@@ -1,0 +1,144 @@
+{
+ "id": "xyz-deux",
+ "name": "DEUX",
+ "manufacturer": "XYZ",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-17",
+   "type": "added",
+   "source": null,
+   "commit": "b596d3e",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://xyzjp.imweb.me/DEUX",
+   "commit": "30bdc91",
+   "changes": [
+    {
+     "field": "api_support",
+     "from": null,
+     "to": true
+    },
+    {
+     "field": "battery_wh",
+     "from": null,
+     "to": 1440
+    },
+    {
+     "field": "compute_detail",
+     "from": null,
+     "to": "NVIDIA Thor module optional (sold separately)"
+    },
+    {
+     "field": "dof",
+     "from": null,
+     "to": 32
+    },
+    {
+     "field": "height_mm",
+     "from": null,
+     "to": 1550
+    },
+    {
+     "field": "length_mm",
+     "from": null,
+     "to": 652
+    },
+    {
+     "field": "note",
+     "from": null,
+     "to": "Maker spec table: W530 x D652 mm, height 900-1550 mm (the taller figure is recorded), 60 kg total (35 kg base plus 25 kg body), 32 DoF (7 per arm, 7 per hand, 1 lift, 3 swerve base), 24 V 60 Ah battery (1440 Wh), 501 mm reach, 5.5 kg single-arm and 11 kg dual-arm payload (the dual figure is recorded), 1000 Hz CAN-FD control, ROS 2 with Python and the DEUX Controller, NVIDIA Thor optional. An April 2026 announcement described a 30-DoF configuration; the current maker spec table says 32."
+    },
+    {
+     "field": "official_url",
+     "from": null,
+     "to": "https://xyzjp.imweb.me/DEUX"
+    },
+    {
+     "field": "onboard_compute",
+     "from": null,
+     "to": true
+    },
+    {
+     "field": "payload_kg",
+     "from": null,
+     "to": 11
+    },
+    {
+     "field": "price_note",
+     "from": null,
+     "to": "US$29,900 for DEUX; US$39,900 for mobile DEUX; Glove X US$3,900; NVIDIA Thor sold separately"
+    },
+    {
+     "field": "price_usd",
+     "from": null,
+     "to": 29900
+    },
+    {
+     "field": "release_year",
+     "from": null,
+     "to": 2026
+    },
+    {
+     "field": "ros_support",
+     "from": null,
+     "to": true
+    },
+    {
+     "field": "sdk_available",
+     "from": null,
+     "to": true
+    },
+    {
+     "field": "sdk_name",
+     "from": null,
+     "to": "ROS 2 support, Python, DEUX Controller"
+    },
+    {
+     "field": "sensors",
+     "from": [],
+     "to": [
+      "Dual cameras with 220-degree ultra-wide lens (hand data-collection kit)",
+      "Three-channel fingertip tactile sensors"
+     ]
+    },
+    {
+     "field": "sources",
+     "from": [],
+     "to": [
+      "https://xyzjp.imweb.me/DEUX",
+      "https://github.com/xyz-brainx/deux_description"
+     ]
+    },
+    {
+     "field": "status",
+     "from": null,
+     "to": "Pre-order"
+    },
+    {
+     "field": "summary",
+     "from": "",
+     "to": "XYZ's semi-humanoid service robot for cafes, retail and offices: three-finger 7-DoF hands on two 7-DoF arms, a 1-DoF lift and a 3-DoF swerve base, trained on data collected in real stores."
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "official"
+    },
+    {
+     "field": "weight_kg",
+     "from": null,
+     "to": 60
+    },
+    {
+     "field": "width_mm",
+     "from": null,
+     "to": 530
+    }
+   ]
+  }
+ ]
+}

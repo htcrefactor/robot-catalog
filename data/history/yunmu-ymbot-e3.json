@@ -1,0 +1,90 @@
+{
+ "id": "yunmu-ymbot-e3",
+ "name": "YMBot E3",
+ "manufacturer": "Yunmu Intelligent Manufacturing",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-17",
+   "type": "added",
+   "source": null,
+   "commit": "b596d3e",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://www.worldrobotconference.com/profile/robot/download/2026/07/23/20260723170520000751_20260723170520A912.pdf",
+   "commit": "b1429ab",
+   "changes": [
+    {
+     "field": "api_support",
+     "from": null,
+     "to": true
+    },
+    {
+     "field": "dof",
+     "from": null,
+     "to": 27
+    },
+    {
+     "field": "height_mm",
+     "from": null,
+     "to": 1400
+    },
+    {
+     "field": "max_speed_mps",
+     "from": null,
+     "to": 1.2
+    },
+    {
+     "field": "notes",
+     "from": null,
+     "to": "Education model: 27 DoF excluding the optional five-finger hands; 2 kg is the both-arms combined load; repeatability 0.1 deg; grip force >=50 N. Battery 10 Ah lithium with no voltage stated, so Wh is left empty. CAN and EtherCAT buses; ROS 2 with URDF provided."
+    },
+    {
+     "field": "official_url",
+     "from": null,
+     "to": "https://www.worldrobotconference.com/profile/robot/download/2026/07/23/20260723170520000751_20260723170520A912.pdf"
+    },
+    {
+     "field": "payload_kg",
+     "from": null,
+     "to": 2
+    },
+    {
+     "field": "ros_support",
+     "from": null,
+     "to": true
+    },
+    {
+     "field": "runtime_h",
+     "from": null,
+     "to": 2
+    },
+    {
+     "field": "sources",
+     "from": [],
+     "to": [
+      "https://www.worldrobotconference.com/profile/robot/download/2026/07/23/20260723170520000751_20260723170520A912.pdf"
+     ]
+    },
+    {
+     "field": "summary",
+     "from": "",
+     "to": "Bipedal education and research humanoid with modular joints, 27 DoF and ROS 2/URDF support for teaching motion control."
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "official"
+    },
+    {
+     "field": "weight_kg",
+     "from": null,
+     "to": 35
+    }
+   ]
+  }
+ ]
+}

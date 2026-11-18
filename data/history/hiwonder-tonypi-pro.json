@@ -1,0 +1,104 @@
+{
+ "id": "hiwonder-tonypi-pro",
+ "name": "TonyPi Pro",
+ "manufacturer": "Hiwonder",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-13",
+   "type": "added",
+   "source": "https://humanoidstore.co/robots/hiwonder-tonypi-pro",
+   "commit": "14cd746",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://www.hiwonder.com/products/tonypi-pro",
+   "commit": "976d9e6",
+   "changes": [
+    {
+     "field": "data_source",
+     "from": "HumanoidStore open data (CC BY 4.0)",
+     "to": null
+    },
+    {
+     "field": "notes",
+     "from": null,
+     "to": "Issue #17 (2026-11-17): Hiwonder TonyPi Pro - 373x186x106 mm, about 1.8 kg, 18 DoF (20 with 2-DoF hands), about 60 min working time, 11.1 V 2000 mAh. HumanoidStore price (US$889.99) removed: no maker list price confirmed."
+    },
+    {
+     "field": "price_note",
+     "from": "list 889.99 USD (maker), per HumanoidStore, checked 2026-10",
+     "to": "Pi 5 2GB kit USD 889.99 on the maker store, checked 2026-11 (4GB 949.99, 8GB 1,049.99, 16GB 1,169.99)"
+    },
+    {
+     "field": "price_usd",
+     "from": 889.99,
+     "to": null
+    },
+    {
+     "field": "sources",
+     "from": [
+      "https://humanoidstore.co/robots/hiwonder-tonypi-pro"
+     ],
+     "to": [
+      "https://www.hiwonder.com/products/tonypi-pro"
+     ]
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "official"
+    },
+    {
+     "field": "battery_wh",
+     "from": null,
+     "to": 22.2
+    },
+    {
+     "field": "compute_detail",
+     "from": null,
+     "to": "2/4/8/16 GB RAM variants"
+    },
+    {
+     "field": "note",
+     "from": null,
+     "to": "Maker product page: 373 x 186 x 106 mm, about 1800 g, 18 DoF (Standard/Advanced) or 20 DoF (Pro kit with opening hands), 11.1 V 2000 mAh 10C pack (=22.2 Wh derived), about 60 min working time, Raspberry Pi 5, 480P camera on a 2-DoF head, LX-824HV and LFD-01M servos, hand opening 66 mm, Python + OpenCV tutorials, multimodal AI model integration. No top speed or payload published."
+    },
+    {
+     "field": "official_url",
+     "from": null,
+     "to": "https://www.hiwonder.com/products/tonypi-pro"
+    },
+    {
+     "field": "onboard_compute",
+     "from": null,
+     "to": "Raspberry Pi 5"
+    },
+    {
+     "field": "sdk_available",
+     "from": null,
+     "to": true
+    },
+    {
+     "field": "sdk_name",
+     "from": null,
+     "to": "Python / OpenCV tutorials"
+    },
+    {
+     "field": "sensors",
+     "from": [],
+     "to": [
+      "480P wide-angle camera on a 2-DoF gimbal"
+     ]
+    },
+    {
+     "field": "summary",
+     "from": "Desktop-size humanoid from Hiwonder; shipping now, anyone can order.",
+     "to": "Hiwonder's 20-DoF Raspberry Pi 5 humanoid kit with a 2-DoF vision gimbal, opening hands and multimodal AI voice control."
+    }
+   ]
+  }
+ ]
+}

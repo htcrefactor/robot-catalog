@@ -1,0 +1,78 @@
+{
+ "id": "neura-4ne1",
+ "name": "4NE1",
+ "manufacturer": "NEURA Robotics",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-13",
+   "type": "added",
+   "source": "https://humanoidstore.co/robots/neura-4ne1",
+   "commit": "14cd746",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://neura-robotics.com/products/4ne1/",
+   "commit": "976d9e6",
+   "changes": [
+    {
+     "field": "data_source",
+     "from": "HumanoidStore open data (CC BY 4.0)",
+     "to": "Maker sources (verified 2026-11-17)"
+    },
+    {
+     "field": "notes",
+     "from": null,
+     "to": "Issue #17 (2026-11-17): 4NE1 - 180 cm, 80 kg, 55 DoF, 20 kg payload, 5 km/h (1.39 m/s) from NEURA's datasheet and product page. NEURA quotes 24/7 operation with battery exchange rather than a per-charge runtime, so that field was emptied. [emptied (no maker value) runtime_h=6.0] HumanoidStore price (US$105000) removed: no maker list price confirmed."
+    },
+    {
+     "field": "price_note",
+     "from": "list 98000 EUR (maker), per HumanoidStore, checked 2026-10",
+     "to": "EUR 98,000 per unit for 1-19 units and EUR 60,000 from 20 units, maker reservation page (excl. tax and shipping); a EUR 100 refundable deposit reserves a unit"
+    },
+    {
+     "field": "price_usd",
+     "from": 105000,
+     "to": null
+    },
+    {
+     "field": "runtime_h",
+     "from": 6.0,
+     "to": null
+    },
+    {
+     "field": "sources",
+     "from": [
+      "https://humanoidstore.co/robots/neura-4ne1"
+     ],
+     "to": [
+      "https://neura-robotics.com/products/4ne1/",
+      "https://neurarobotics.px.media/plk/cE/NEURA_Robotics_4NE1_Datasheet_Web.pdf"
+     ]
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "official"
+    },
+    {
+     "field": "note",
+     "from": null,
+     "to": "NEURA datasheet V7 (2026-06-05, checked 2026-11-17): 180 cm, 80 kg, 55 DoF including 12-DoF hands, arm payload 20 kg, speed 5 km/h, 360-degree perception, 24/7 operating claim. The maker footnote puts the 100 kg figure at leg-supported configurations only. Charge life per battery is not published, so runtime is empty."
+    },
+    {
+     "field": "official_url",
+     "from": null,
+     "to": "https://neura-robotics.com/products/4ne1/"
+    },
+    {
+     "field": "summary",
+     "from": "Full-size humanoid from NEURA Robotics; preorder, anyone can order.",
+     "to": "NEURA's industrial humanoid 4NE1 Gen 4: 1.8 m, 80 kg, 55 DoF, 20 kg arm payload and 5 km/h, built and trained in Germany for series production."
+    }
+   ]
+  }
+ ]
+}

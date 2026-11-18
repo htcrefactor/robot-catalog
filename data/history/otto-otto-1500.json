@@ -1,0 +1,82 @@
+{
+ "id": "otto-otto-1500",
+ "name": "OTTO 1500",
+ "manufacturer": "OTTO by Rockwell Automation (formerly OTTO Motors / Clearpath)",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-03",
+   "type": "added",
+   "source": "https://ottomotors.com/1500",
+   "commit": "1a533a7",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://ottomotors.com/1500",
+   "commit": "ae60ceb",
+   "changes": [
+    {
+     "field": "certifications",
+     "from": null,
+     "to": [
+      "CE",
+      "FCC Part 15 Subpart B",
+      "ICES-003",
+      "ICES-002"
+     ]
+    },
+    {
+     "field": "safety_note",
+     "from": null,
+     "to": "Maker's “Standards compliance” list for OTTO 1500."
+    },
+    {
+     "field": "safety_source",
+     "from": null,
+     "to": "https://ottomotors.com/1500"
+    },
+    {
+     "field": "safety_standards",
+     "from": null,
+     "to": [
+      "ISO 12100",
+      "ISO 13849-1",
+      "ISO 3691-4",
+      "ANSI/ITSDF B56.5",
+      "RIA R15.08-1",
+      "EN 1175-1",
+      "EN 60204-1"
+     ]
+    },
+    {
+     "field": "sources",
+     "from": [
+      "https://www.rockwellautomation.com/content/dam/rockwell-automation/documents/pdf/events/automate/otto-1500-data-sheet.pdf"
+     ],
+     "to": [
+      "https://www.rockwellautomation.com/content/dam/rockwell-automation/documents/pdf/events/automate/otto-1500-data-sheet.pdf",
+      "https://ottomotors.com/1500",
+      "https://s3.amazonaws.com/assets.ottomotors.com/pdf/OTTO1500-v2-Datasheet-210406_eng.pdf"
+     ]
+    },
+    {
+     "field": "compute_memory_gb",
+     "from": null,
+     "to": 16
+    },
+    {
+     "field": "compute_soc",
+     "from": null,
+     "to": "Intel Core i7-6700TE"
+    },
+    {
+     "field": "compute_source",
+     "from": null,
+     "to": "https://s3.amazonaws.com/assets.ottomotors.com/pdf/OTTO1500-v2-Datasheet-210406_eng.pdf"
+    }
+   ]
+  }
+ ]
+}

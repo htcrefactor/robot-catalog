@@ -1,0 +1,46 @@
+{
+ "id": "handx-yuanyou",
+ "name": "Yuanyou",
+ "manufacturer": "Wuhan HandX Innovation Technology",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-17",
+   "type": "added",
+   "source": null,
+   "commit": "b596d3e",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://worldrobotconference.com/expo/company/863.html",
+   "commit": "b310609",
+   "changes": [
+    {
+     "field": "note",
+     "from": null,
+     "to": "Maker is Wuhan HandX Innovation Technology (武汉手智创新). Its WRC 2026 exhibitor entry describes Yuanyou as a wheeled general-purpose humanoid combining dexterous hands with multi-dimensional sensing for fine grasping, moxibustion therapy and daily assistance, aimed at civil services and industrial assistance, but publishes no numbers. People's Daily (29 Jan 2026) quotes HandX's general manager: 158 cm, 72 kg, 1.5 m/s, 9 months in service at Xianning Central Hospital, in mass production with 4 lines and 1,500 units/year capacity. Those figures are not from a maker datasheet, so the spec fields stay empty."
+    },
+    {
+     "field": "sources",
+     "from": [],
+     "to": [
+      "https://worldrobotconference.com/expo/company/863.html",
+      "https://en.people.cn/n3/2026/0210/c90000-20424379.html"
+     ]
+    },
+    {
+     "field": "summary",
+     "from": "",
+     "to": "Wuhan HandX's wheeled service humanoid Yuanyou, working as a hospital guide and moxibustion therapist in Xianning since 2025."
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "unconfirmed"
+    }
+   ]
+  }
+ ]
+}

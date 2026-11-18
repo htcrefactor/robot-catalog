@@ -1,0 +1,111 @@
+{
+ "id": "xpeng-iron",
+ "name": "IRON",
+ "manufacturer": "Xpeng",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-13",
+   "type": "added",
+   "source": "https://humanoidstore.co/robots/xpeng-iron",
+   "commit": "14cd746",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://www.xpeng.com/news/019301d2135392fa562d8a0282200016",
+   "commit": "30bdc91",
+   "changes": [
+    {
+     "field": "data_source",
+     "from": "HumanoidStore open data (CC BY 4.0)",
+     "to": null
+    },
+    {
+     "field": "height_mm",
+     "from": 1780,
+     "to": 1730
+    },
+    {
+     "field": "max_speed_mps",
+     "from": null,
+     "to": 2.0
+    },
+    {
+     "field": "notes",
+     "from": null,
+     "to": "Issue #17 (2026-11-17): XPeng IRON (production version) - about 173 cm, 65 kg, 76 DoF with 21 per hand, up to 2 m/s, per XPeng's production-line release. [replaced height_mm: 1780 -> 1730; weight_kg: 70 -> 65; max_speed_mps: None -> 2.0]"
+    },
+    {
+     "field": "sources",
+     "from": [
+      "https://humanoidstore.co/robots/xpeng-iron"
+     ],
+     "to": [
+      "https://www.xpeng.com/pressroom/news/01a080371029a057bc8e8a02a2c6012b",
+      "https://www.xpeng.com/news/019301d2135392fa562d8a0282200016",
+      "https://www.xiaopeng.com/news/company_news/5511.html"
+     ]
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "official"
+    },
+    {
+     "field": "weight_kg",
+     "from": 70,
+     "to": 65
+    },
+    {
+     "field": "compute_detail",
+     "from": null,
+     "to": "3 x XPENG Turing AI chip, 2250 TOPS effective; all-solid-state battery"
+    },
+    {
+     "field": "dof",
+     "from": 76,
+     "to": 82
+    },
+    {
+     "field": "note",
+     "from": null,
+     "to": "XPENG's own releases: the first IRON (AI Day, 2024-11-06) was described with more than 60 joints and more than 200 degrees of freedom by the company's own count, and was trialled on the P7+ line in Guangzhou. The 2025-11-05 generation is quoted at 82 body DoF with 22-DoF hands, three Turing chips at 2250 TOPS effective (an earlier English release's 3000 TOPS does not match three chips), an all-solid-state battery, a bionic spine and flexible skin, and volume production targeted for the end of 2026. XPENG has not published height or weight for the current robot; the widely quoted 178 cm and 70 kg belong to the earlier IRON, so those fields are empty."
+    },
+    {
+     "field": "official_url",
+     "from": null,
+     "to": "https://www.xpeng.com/news/019301d2135392fa562d8a0282200016"
+    },
+    {
+     "field": "onboard_compute",
+     "from": null,
+     "to": true
+    },
+    {
+     "field": "release_year",
+     "from": null,
+     "to": 2024
+    },
+    {
+     "field": "sensors",
+     "from": [],
+     "to": [
+      "Eagle Eye vision system shared with XPENG cars"
+     ]
+    },
+    {
+     "field": "status",
+     "from": "Announced",
+     "to": "In development"
+    },
+    {
+     "field": "summary",
+     "from": "Full-size humanoid from Xpeng; announced, restricted sales.",
+     "to": "XPENG's humanoid, which reuses the company's Turing AI chips, Eagle Eye vision and AI models; the November 2025 generation adds a bionic spine, flexible skin and an all-solid-state battery, with volume production targeted for the end of 2026."
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,89 @@
+{
+ "id": "kawasaki-kaleido-9",
+ "name": "Kaleido (Gen 9)",
+ "manufacturer": "Kawasaki Heavy Industries",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-13",
+   "type": "added",
+   "source": "https://humanoidstore.co/robots/kawasaki-kaleido-9",
+   "commit": "14cd746",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://kawasakirobotics.com/asia-oceania/blog/20260316_kaleido9/",
+   "commit": "b310609",
+   "changes": [
+    {
+     "field": "data_source",
+     "from": "HumanoidStore open data (CC BY 4.0)",
+     "to": null
+    },
+    {
+     "field": "dof",
+     "from": null,
+     "to": 32
+    },
+    {
+     "field": "height_mm",
+     "from": 1900,
+     "to": 1780
+    },
+    {
+     "field": "notes",
+     "from": null,
+     "to": "Issue #17 (2026-11-17): Kaleido - 178 cm, 85 kg, 32 axes and a bench-press capability of 50-60 kg (50 taken) per Kawasaki Robotics; Kawasaki's R&D magazine gives 1.75 m, 84 kg and 32 DoF for the development unit. Runtime is not published, so the HumanoidStore runtime was emptied. [replaced height_mm: 1900 -> 1780; weight_kg: 99 -> 85; payload_kg: 18 -> 50; dof: None -> 32]"
+    },
+    {
+     "field": "payload_kg",
+     "from": 18,
+     "to": 50
+    },
+    {
+     "field": "sources",
+     "from": [
+      "https://humanoidstore.co/robots/kawasaki-kaleido-9"
+     ],
+     "to": [
+      "https://kawasakirobotics.com/in/blog/2003-02/",
+      "https://global.kawasaki.com/en/corp/rd/magazine/181/pdf/n181en07.pdf",
+      "https://kawasakirobotics.com/asia-oceania/blog/20260316_kaleido9/"
+     ]
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "official"
+    },
+    {
+     "field": "weight_kg",
+     "from": 99,
+     "to": 85
+    },
+    {
+     "field": "note",
+     "from": null,
+     "to": "Maker blog (Kawasaki Robotics, 25 Mar 2026) covers Kaleido 9: leg structure redesigned to component ratings so the robot can step out faster and recover balance, developed since 2015 with commercial deployment in mind. Kawasaki's R&D magazine documents the programme's humanoid at 1.75 m, 84 kg and 32 DoF driven by electric actuators, with Hydro Servo Muscle electro-hydraulics for the legs. Version 9 itself (190 cm, 99 kg, 30 axes excluding hands, double the leg speed of v8) was reported from iREX 2025 press coverage rather than a spec sheet. The recorded 18 kg payload has no maker source and was cleared. Version 10, smaller, is in development."
+    },
+    {
+     "field": "official_url",
+     "from": null,
+     "to": "https://kawasakirobotics.com/asia-oceania/blog/20260316_kaleido9/"
+    },
+    {
+     "field": "release_year",
+     "from": null,
+     "to": 2025
+    },
+    {
+     "field": "summary",
+     "from": "Full-size humanoid from Kawasaki Heavy Industries; research only, restricted sales.",
+     "to": "Kawasaki's ninth-generation full-size humanoid, built to survive falls and aimed at factory, home and disaster-response work."
+    }
+   ]
+  }
+ ]
+}

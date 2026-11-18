@@ -1,0 +1,43 @@
+{
+ "id": "direct-drive-tech-diablo",
+ "name": "DIABLO",
+ "manufacturer": "Direct Drive Tech",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-03",
+   "type": "added",
+   "source": "https://robotics.directdrive.com/en/products/xingtian-robot/1653337674873306",
+   "commit": "1a533a7",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://robotics.directdrive.com/en/products/xingtian-robot/1653337674873306",
+   "commit": "ae60ceb",
+   "changes": [
+    {
+     "field": "note",
+     "from": null,
+     "to": "Direct Drive Technology Diablo product page (checked 2026-11-17): standing 540 x 371 x 491 mm (crouched 540 x 371 x 270 mm), 22.9 kg incl. docking mechanism, 6 DoF, battery 0.178 kWh (178 Wh), runtime about 1.5 h, charge about 1 h, payload 4 kg standing / 80 kg crouched, 2 m/s, 80 mm jump, Raspberry Pi 4 Model B, Ubuntu 20.04."
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "official"
+    },
+    {
+     "field": "compute_soc",
+     "from": null,
+     "to": "Raspberry Pi 4B"
+    },
+    {
+     "field": "compute_source",
+     "from": null,
+     "to": "https://robotics.directdrive.com/en/products/xingtian-robot/1653337674873306"
+    }
+   ]
+  }
+ ]
+}

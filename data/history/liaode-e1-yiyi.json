@@ -1,0 +1,76 @@
+{
+ "id": "liaode-e1-yiyi",
+ "name": "E1 Yiyi",
+ "manufacturer": "Liaode",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-17",
+   "type": "added",
+   "source": null,
+   "commit": "b596d3e",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://www.liaode.net/en/pd.jsp?id=1",
+   "commit": "5150daa",
+   "changes": [
+    {
+     "field": "data_source",
+     "from": null,
+     "to": "Maker sources (verified 2026-11-17)"
+    },
+    {
+     "field": "dof",
+     "from": null,
+     "to": 39
+    },
+    {
+     "field": "note",
+     "from": null,
+     "to": "Maker (LD Tech / 上海了得, checked 2026-11-17): 1:1 human-scale walking companion robot, 39 DoF (E1-Max) or 32 DoF (E1-Pro), 30 kg, battery 2-4 h, controlled by 2.4G remote, auto-follow and voice. Height and speed are not published; the maker notes some features are still in development."
+    },
+    {
+     "field": "official_url",
+     "from": null,
+     "to": "https://www.liaode.net/en/pd.jsp?id=1"
+    },
+    {
+     "field": "price_note",
+     "from": null,
+     "to": "248,000 CNY (E1-Max) / 226,800 CNY (E1-Pro) on the maker's store, checked 2026-11"
+    },
+    {
+     "field": "sources",
+     "from": [],
+     "to": [
+      "https://www.liaode.net/en/pd.jsp?id=1",
+      "https://www.liaode.net/en/col.jsp?id=120"
+     ]
+    },
+    {
+     "field": "status",
+     "from": null,
+     "to": "Pre-order"
+    },
+    {
+     "field": "summary",
+     "from": "",
+     "to": "LD Tech's full-scale bionic companion humanoid: 1:1 human proportions, 39 DoF, 30 kg, walking on two legs with a lifelike head and a 2-4 h battery."
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "official"
+    },
+    {
+     "field": "weight_kg",
+     "from": null,
+     "to": 30.0
+    }
+   ]
+  }
+ ]
+}

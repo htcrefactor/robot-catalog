@@ -1,0 +1,119 @@
+{
+ "id": "corenetic-monte02",
+ "name": "Monte02",
+ "manufacturer": "Corenetic",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-17",
+   "type": "added",
+   "source": null,
+   "commit": "b596d3e",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://www.corenetic.ai/en/product",
+   "commit": "4b395bc",
+   "changes": [
+    {
+     "field": "battery_wh",
+     "from": null,
+     "to": 1536
+    },
+    {
+     "field": "compute_detail",
+     "from": null,
+     "to": "Embedded AI processor 200+ TOPS plus an x86 industrial real-time control board"
+    },
+    {
+     "field": "dof",
+     "from": null,
+     "to": 25
+    },
+    {
+     "field": "height_mm",
+     "from": null,
+     "to": 1623
+    },
+    {
+     "field": "length_mm",
+     "from": null,
+     "to": 590
+    },
+    {
+     "field": "max_speed_mps",
+     "from": null,
+     "to": 1.0
+    },
+    {
+     "field": "note",
+     "from": null,
+     "to": "Maker spec slide linked from corenetic.ai/en/product (cdn.yuanluo.cloud/.../monte02_params.webp, read 2026-11-17): dimensions 590 x 619 x 1623 mm, 100 kg, high-strength magnesium-aluminium frame with ABS shell, 25 DoF with grippers (base 2 + waist 3 + head 2 + arms 7x2 + grippers 2x2; 39 with two 9-DoF dexterous hands), 702 mm arm length with 7-DoF SRS anthropomorphic arms, 6.5 kg max per arm at the end flange (payload_kg = per-arm figure), adaptive two-finger gripper or multi-finger hand with automatic quick swap, two-wheel differential drive at 1.0 m/s on indoor floors with slope <=10 deg, 51.2 V / 30 Ah battery (1536 Wh computed), 8 h typical runtime, 2 h fast charge, 200+ TOPS AI processor plus x86 real-time board, 1 head RGBD and 2x1 arm-end RGBD cameras, Wi-Fi 6 / gigabit Ethernet / full Type-C. Maker's slide notes the figures are lab measurements for reference only."
+    },
+    {
+     "field": "official_url",
+     "from": null,
+     "to": "https://www.corenetic.ai/en/product"
+    },
+    {
+     "field": "onboard_compute",
+     "from": null,
+     "to": true
+    },
+    {
+     "field": "payload_kg",
+     "from": null,
+     "to": 6.5
+    },
+    {
+     "field": "runtime_h",
+     "from": null,
+     "to": 8
+    },
+    {
+     "field": "sensors",
+     "from": [],
+     "to": [
+      "1 RGBD camera (head)",
+      "2 RGBD cameras (arm ends)"
+     ]
+    },
+    {
+     "field": "sources",
+     "from": [],
+     "to": [
+      "https://www.corenetic.ai/en/product",
+      "https://cdn.yuanluo.cloud/corenetic_original/assets/webp/monte02_params.webp"
+     ]
+    },
+    {
+     "field": "status",
+     "from": null,
+     "to": "Commercial"
+    },
+    {
+     "field": "summary",
+     "from": "",
+     "to": "Corenetic's larger wheeled humanoid variant with a magnesium-aluminium frame, 6.5 kg per arm and quick-swap end effectors for lab and industrial work."
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "official"
+    },
+    {
+     "field": "weight_kg",
+     "from": null,
+     "to": 100
+    },
+    {
+     "field": "width_mm",
+     "from": null,
+     "to": 619
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,55 @@
+{
+ "id": "boston-dynamics-cheetah",
+ "name": "Cheetah",
+ "manufacturer": "Boston Dynamics",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-17",
+   "type": "added",
+   "source": null,
+   "commit": "b596d3e",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://www.youtube.com/watch?v=chPanW0QWhA",
+   "commit": "1173def",
+   "changes": [
+    {
+     "field": "max_speed_mps",
+     "from": null,
+     "to": 12.65
+    },
+    {
+     "field": "note",
+     "from": null,
+     "to": "Only maker statement located: Boston Dynamics' own video release (5 Sep 2012) - 28.3 mph (12.65 m/s) on a treadmill, offboard power, tethered, funded by DARPA. bostondynamics.com/legacy does not list Cheetah, and no maker page, datasheet or spec table exists for it, so mass, dimensions, payload and runtime are left empty."
+    },
+    {
+     "field": "official_url",
+     "from": null,
+     "to": "https://www.youtube.com/watch?v=chPanW0QWhA"
+    },
+    {
+     "field": "sources",
+     "from": [],
+     "to": [
+      "https://www.youtube.com/watch?v=chPanW0QWhA"
+     ]
+    },
+    {
+     "field": "summary",
+     "from": "",
+     "to": "DARPA-funded laboratory sprinting quadruped that set the 2012 legged-robot speed record on a treadmill."
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "official"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,130 @@
+{
+ "id": "faraday-future-nova",
+ "name": "Nova",
+ "manufacturer": "Faraday Future",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-13",
+   "type": "added",
+   "source": "https://humanoidstore.co/robots/faraday-future-nova",
+   "commit": "14cd746",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://robotics.ff.com/us/nova/",
+   "commit": "f5274ae",
+   "changes": [
+    {
+     "field": "data_source",
+     "from": "HumanoidStore open data (CC BY 4.0)",
+     "to": null
+    },
+    {
+     "field": "notes",
+     "from": null,
+     "to": "Issue #17 (2026-11-17): FF Nova - 497 mm, 2.8 kg, 20 DoF (head 2, arms 6, legs 12), 0.1 m/s bipedal (0.8 m/s on its wheeled base), 2-3 h, US$2,490 from Faraday Future's Nova page and launch release. [replaced runtime_h: 2.0 -> 2.5; price_note: list 2490 USD (maker), per HumanoidStore, checked 2026-10 -> US$2,490 robot device; US$390 developer skills package]"
+    },
+    {
+     "field": "price_note",
+     "from": "list 2490 USD (maker), per HumanoidStore, checked 2026-10",
+     "to": null
+    },
+    {
+     "field": "runtime_h",
+     "from": 2.0,
+     "to": 2.5
+    },
+    {
+     "field": "sources",
+     "from": [
+      "https://humanoidstore.co/robots/faraday-future-nova"
+     ],
+     "to": [
+      "https://robotics.ff.com/us/nova/",
+      "https://www.ff.com/us/1014launch/",
+      "https://humanoidstore.co/robots/faraday-future-nova",
+      "https://shop.ff.com/products/ff-nova"
+     ]
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "official"
+    },
+    {
+     "field": "compute_detail",
+     "from": null,
+     "to": "10 TOPS, 8 GB RAM, 32 GB storage"
+    },
+    {
+     "field": "note",
+     "from": null,
+     "to": "Maker pages (robotics.ff.com/us/nova and the 14 Oct 2026 launch page): 49.7 cm, 2.8 kg, 20 DoF (head 2 + arms 6 + legs 12), 0.1 m/s bipedal walking and 0.8 m/s on the detachable wheeled base, 2 cm obstacle height, 10 TOPS with 8 GB RAM and 32 GB storage, 2D LiDAR + ~4 MP wide-angle camera + 3D ToF + three-mic ring with sound-source localisation and voiceprint recognition, 240 x 296 2-inch face display, Wi-Fi 6 and BLE 5.4, open SDK with a ROS 2 workflow and a Sim2Real RL pipeline, four hours of runtime not stated by the maker so left empty. USD 2,490 device price (Skills Package USD 390 extra); Phase One invitations closed with units expected by end-November 2026 and open pre-orders shipping around January 2027."
+    },
+    {
+     "field": "official_url",
+     "from": null,
+     "to": "https://robotics.ff.com/us/nova/"
+    },
+    {
+     "field": "onboard_compute",
+     "from": null,
+     "to": true
+    },
+    {
+     "field": "ros_support",
+     "from": null,
+     "to": true
+    },
+    {
+     "field": "sdk_available",
+     "from": null,
+     "to": true
+    },
+    {
+     "field": "sdk_name",
+     "from": null,
+     "to": "FF Nova open SDK with ROS 2 workflow and Sim2Real RL pipeline"
+    },
+    {
+     "field": "sensors",
+     "from": [],
+     "to": [
+      "2D LiDAR",
+      "~4 MP wide-angle camera",
+      "3D ToF sensor",
+      "3-microphone ring array",
+      "2-inch face display"
+     ]
+    },
+    {
+     "field": "summary",
+     "from": "Desktop-size humanoid from Faraday Future; preorder, anyone can order.",
+     "to": "Faraday Future's sub-USD-2,500 entry-level EAI humanoid for developers and classrooms: a 50 cm biped with 20 DoF that can also ride a detachable wheeled base."
+    },
+    {
+     "field": "price_observations",
+     "from": null,
+     "to": [
+      {
+       "date": "2026-11-17",
+       "amount": 2490,
+       "currency": "USD",
+       "kind": "list",
+       "source": "https://shop.ff.com/products/ff-nova",
+       "note": "Robot device; US$390 developer skills package (from the former price note)"
+      }
+     ]
+    },
+    {
+     "field": "price_usd",
+     "from": 2490,
+     "to": null
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,53 @@
+{
+ "id": "deep-robotics-lynx-s10",
+ "name": "Lynx S10",
+ "manufacturer": "DEEP Robotics",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-17",
+   "type": "added",
+   "source": "https://www.deeprobotics.cn/en/products/detail/2.html",
+   "commit": "0a6305b",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://www.deeprobotics.cn/en/products/detail/2.html",
+   "commit": "c3614dc",
+   "changes": [
+    {
+     "field": "sim_models",
+     "from": null,
+     "to": {
+      "urdf": {
+       "url": "https://github.com/DeepRoboticsLab/deep_robotics_model/blob/main/S10/urdf/S10.urdf",
+       "license": "BSD-3-Clause"
+      },
+      "mjcf": {
+       "url": "https://github.com/DeepRoboticsLab/deep_robotics_model/blob/main/S10/mjcf/S10.xml",
+       "license": "BSD-3-Clause"
+      },
+      "usd": {
+       "url": "https://github.com/DeepRoboticsLab/deep_robotics_model/blob/main/S10/usd/S10.usd",
+       "license": "BSD-3-Clause"
+      }
+     }
+    },
+    {
+     "field": "sources",
+     "from": [
+      "https://www.deeprobotics.cn/en/products/detail/2.html"
+     ],
+     "to": [
+      "https://www.deeprobotics.cn/en/products/detail/2.html",
+      "https://github.com/DeepRoboticsLab/deep_robotics_model/blob/main/S10/urdf/S10.urdf",
+      "https://github.com/DeepRoboticsLab/deep_robotics_model/blob/main/S10/mjcf/S10.xml",
+      "https://github.com/DeepRoboticsLab/deep_robotics_model/blob/main/S10/usd/S10.usd"
+     ]
+    }
+   ]
+  }
+ ]
+}

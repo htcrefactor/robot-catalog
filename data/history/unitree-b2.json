@@ -1,0 +1,129 @@
+{
+ "id": "unitree-b2",
+ "name": "B2",
+ "manufacturer": "Unitree Robotics",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-03",
+   "type": "added",
+   "source": "https://www.unitree.com/b2",
+   "commit": "1a533a7",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://www.unitree.com/b2",
+   "commit": "ae60ceb",
+   "changes": [
+    {
+     "field": "note",
+     "from": null,
+     "to": "Unitree B2 page (checked 2026-11-17): standing about 1098 x 450 x 645 mm, 60 kg with battery, battery 45 Ah (2250 Wh) at 58 V, 4-6 h, >6 m/s in special configurations, IP67, -20 to 55 C, standing load >=120 kg and walking load >40 kg (40 kg recorded is the walking figure). The page states no degrees of freedom."
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "official"
+    },
+    {
+     "field": "open_source_repos",
+     "from": null,
+     "to": [
+      {
+       "name": "unitree_sdk2",
+       "url": "https://github.com/unitreerobotics/unitree_sdk2",
+       "license": "BSD-3-Clause"
+      },
+      {
+       "name": "unitree_ros2",
+       "url": "https://github.com/unitreerobotics/unitree_ros2",
+       "license": "BSD-3-Clause"
+      },
+      {
+       "name": "unitree_ros",
+       "url": "https://github.com/unitreerobotics/unitree_ros",
+       "license": "BSD-3-Clause"
+      }
+     ]
+    },
+    {
+     "field": "ros2_support",
+     "from": null,
+     "to": true
+    },
+    {
+     "field": "ros2_url",
+     "from": null,
+     "to": "https://github.com/unitreerobotics/unitree_ros2"
+    },
+    {
+     "field": "sdk",
+     "from": null,
+     "to": {
+      "languages": [
+       "C++",
+       "Python"
+      ],
+      "open_source": true,
+      "license": "BSD-3-Clause",
+      "url": "https://github.com/unitreerobotics/unitree_sdk2"
+     }
+    },
+    {
+     "field": "sim_models",
+     "from": null,
+     "to": {
+      "urdf": {
+       "url": "https://github.com/unitreerobotics/unitree_ros/blob/master/robots/b2_description/urdf/b2_description.urdf",
+       "license": "BSD-3-Clause"
+      },
+      "mjcf": {
+       "url": "https://github.com/unitreerobotics/unitree_ros/blob/master/robots/b2_description_mujoco/xml/b2.xml",
+       "license": "BSD-3-Clause"
+      }
+     }
+    },
+    {
+     "field": "sources",
+     "from": [
+      "https://www.unitree.com/b2"
+     ],
+     "to": [
+      "https://www.unitree.com/b2",
+      "https://github.com/unitreerobotics/unitree_sdk2",
+      "https://github.com/unitreerobotics/unitree_ros2",
+      "https://github.com/unitreerobotics/unitree_ros/blob/master/robots/b2_description/urdf/b2_description.urdf",
+      "https://github.com/unitreerobotics/unitree_ros/blob/master/robots/b2_description_mujoco/xml/b2.xml",
+      "https://github.com/unitreerobotics/unitree_sdk2_python",
+      "https://github.com/unitreerobotics/unitree_ros",
+      "https://github.com/unitreerobotics/unitree_mujoco",
+      "https://www.younginmobility.com/"
+     ]
+    },
+    {
+     "field": "kr_distributors",
+     "from": null,
+     "to": [
+      {
+       "name": "영인모빌리티 (Unitree 한국 공식 파트너)",
+       "kind": "distributor",
+       "url": "https://www.younginmobility.com/"
+      }
+     ]
+    },
+    {
+     "field": "compute_soc",
+     "from": null,
+     "to": "Intel Core i5 + Intel Core i7"
+    },
+    {
+     "field": "compute_source",
+     "from": null,
+     "to": "https://www.unitree.com/b2"
+    }
+   ]
+  }
+ ]
+}

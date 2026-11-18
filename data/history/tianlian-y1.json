@@ -1,0 +1,80 @@
+{
+ "id": "tianlian-y1",
+ "name": "Y1",
+ "manufacturer": "Sichuan Tianlian Robotics (TliBot)",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-17",
+   "type": "added",
+   "source": null,
+   "commit": "b596d3e",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://www.tlibot.com/Composite/251.html",
+   "commit": "30bdc91",
+   "changes": [
+    {
+     "field": "api_support",
+     "from": null,
+     "to": true
+    },
+    {
+     "field": "height_mm",
+     "from": null,
+     "to": 1450
+    },
+    {
+     "field": "note",
+     "from": null,
+     "to": "Maker selection guide: 1450 mm tall, <=150 kg, 2470 mm working range, 700 mm minimum pass width, dual arms, folding lift, 4-6 h runtime (the shorter figure is recorded), ROS 2 and API. Arm payload, speed and battery capacity are not stated in the guide."
+    },
+    {
+     "field": "official_url",
+     "from": null,
+     "to": "https://www.tlibot.com/Composite/251.html"
+    },
+    {
+     "field": "ros_support",
+     "from": null,
+     "to": true
+    },
+    {
+     "field": "runtime_h",
+     "from": null,
+     "to": 4
+    },
+    {
+     "field": "sdk_available",
+     "from": null,
+     "to": true
+    },
+    {
+     "field": "sources",
+     "from": [],
+     "to": [
+      "https://www.tlibot.com/Composite/251.html"
+     ]
+    },
+    {
+     "field": "summary",
+     "from": "",
+     "to": "Wheeled dual-arm composite robot (Tianyi Y1) from Sichuan TLIBOT with a folding lift column on an OSH100 Ranger Pro base, for mobile manipulation in narrow aisles."
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "official"
+    },
+    {
+     "field": "weight_kg",
+     "from": null,
+     "to": 150
+    }
+   ]
+  }
+ ]
+}

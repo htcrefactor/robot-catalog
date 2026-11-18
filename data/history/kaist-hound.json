@@ -1,0 +1,82 @@
+{
+ "id": "kaist-hound",
+ "name": "HOUND",
+ "manufacturer": "KAIST",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-17",
+   "type": "added",
+   "source": null,
+   "commit": "b596d3e",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://www.dynamicrobot.kaist.ac.kr/kaist-hound-1",
+   "commit": "0c54867",
+   "changes": [
+    {
+     "field": "height_mm",
+     "from": null,
+     "to": 140
+    },
+    {
+     "field": "length_mm",
+     "from": null,
+     "to": 700
+    },
+    {
+     "field": "max_speed_mps",
+     "from": null,
+     "to": 6.5
+    },
+    {
+     "field": "note",
+     "from": null,
+     "to": "Lab page: 45 kg, torso 0.7 x 0.2 x 0.14 m (body dimensions, not a standing envelope), thigh/calf 0.33/0.35 m, 50 Nm joints. KAIST news: 6.5 m/s on a treadmill and 100 m in 19.87 s from a standing start (Guinness World Record), 22 deg slopes, 35 cm obstacles, 3.2 km continuous. Joint count is not stated on the lab page, so DoF is left empty."
+    },
+    {
+     "field": "official_url",
+     "from": null,
+     "to": "https://www.dynamicrobot.kaist.ac.kr/kaist-hound-1"
+    },
+    {
+     "field": "sources",
+     "from": [],
+     "to": [
+      "https://www.dynamicrobot.kaist.ac.kr/kaist-hound-1",
+      "https://news.kaist.ac.kr/newsen/html/news/?mng_no=60690&mode=V",
+      "https://rainbow-robotics.com/"
+     ]
+    },
+    {
+     "field": "summary",
+     "from": "",
+     "to": "KAIST DRCD Lab's high-speed quadruped, holder of the Guinness record for the fastest 100 m by a legged robot."
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "official"
+    },
+    {
+     "field": "weight_kg",
+     "from": null,
+     "to": 45
+    },
+    {
+     "field": "width_mm",
+     "from": null,
+     "to": 200
+    },
+    {
+     "field": "manufacturer_ko",
+     "from": null,
+     "to": "한국과학기술원"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,61 @@
+{
+ "id": "neuromeka-nami",
+ "name": "NAMI",
+ "manufacturer": "Neuromeka",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-17",
+   "type": "added",
+   "source": "https://en.neuromeka.com/humanoids",
+   "commit": "b596d3e",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://en.neuromeka.com/humanoids",
+   "commit": "0c54867",
+   "changes": [
+    {
+     "field": "kr_distributors",
+     "from": null,
+     "to": [
+      {
+       "name": "뉴로메카 (본사 직판)",
+       "kind": "direct",
+       "url": "https://www.neuromeka.com/"
+      }
+     ]
+    },
+    {
+     "field": "kr_note",
+     "from": null,
+     "to": "한국어 제품명은 'NAMY(나미)'입니다."
+    },
+    {
+     "field": "manufacturer_ko",
+     "from": null,
+     "to": "뉴로메카"
+    },
+    {
+     "field": "name_ko",
+     "from": null,
+     "to": "나미"
+    },
+    {
+     "field": "sources",
+     "from": [
+      "https://en.neuromeka.com/humanoids",
+      "https://www.neuromeka.com/post/%EB%89%B4%EB%A1%9C%EB%A9%94%EC%B9%B4-ieee-rsa-humanoids-2025-%EC%97%90%EC%84%9C-%ED%9C%B4%EB%A8%B8%EB%85%B8%EC%9D%B4%EB%93%9C-%ED%94%8C%EB%9E%AB%ED%8F%BC-2%EC%A2%85-%EC%B5%9C%EC%B4%88-%EA%B3%B5%EA%B0%9C"
+     ],
+     "to": [
+      "https://en.neuromeka.com/humanoids",
+      "https://www.neuromeka.com/post/%EB%89%B4%EB%A1%9C%EB%A9%94%EC%B9%B4-ieee-rsa-humanoids-2025-%EC%97%90%EC%84%9C-%ED%9C%B4%EB%A8%B8%EB%85%B8%EC%9D%B4%EB%93%9C-%ED%94%8C%EB%9E%AB%ED%8F%BC-2%EC%A2%85-%EC%B5%9C%EC%B4%88-%EA%B3%B5%EA%B0%9C",
+      "https://www.neuromeka.com/humanoids"
+     ]
+    }
+   ]
+  }
+ ]
+}

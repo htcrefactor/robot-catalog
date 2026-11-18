@@ -1,0 +1,60 @@
+{
+ "id": "zte-xingzai",
+ "name": "Xingzai",
+ "manufacturer": "ZTE",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-17",
+   "type": "added",
+   "source": null,
+   "commit": "b596d3e",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://m.c114.com.cn/w127-1314330.html",
+   "commit": "b1429ab",
+   "changes": [
+    {
+     "field": "height_mm",
+     "from": null,
+     "to": 1600
+    },
+    {
+     "field": "notes",
+     "from": null,
+     "to": "Figures are from ZTE's WAIC 2026 launch release (July 2026). Weight is stated as '30-odd kg', recorded as 30. Tendon-driven lightweight frame with a soft lattice skin and bionic walking gait. DoF, payload, runtime and price are not published, and ZTE says the robot business has no material revenue yet."
+    },
+    {
+     "field": "official_url",
+     "from": null,
+     "to": "https://m.c114.com.cn/w127-1314330.html"
+    },
+    {
+     "field": "sources",
+     "from": [],
+     "to": [
+      "https://m.c114.com.cn/w127-1314330.html"
+     ]
+    },
+    {
+     "field": "summary",
+     "from": "",
+     "to": "Lightweight full-size bipedal commercial-service humanoid for reception, exhibition guidance and enquiries."
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "official"
+    },
+    {
+     "field": "weight_kg",
+     "from": null,
+     "to": 30
+    }
+   ]
+  }
+ ]
+}

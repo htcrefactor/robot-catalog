@@ -1,0 +1,51 @@
+{
+ "id": "roketsan-koz",
+ "name": "KOZ",
+ "manufacturer": "Roketsan",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-17",
+   "type": "added",
+   "source": null,
+   "commit": "b596d3e",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://www.roketsan.com.tr/haberler/roketsan-turkiye-nin-savunma-vitrini-idef-e-ilk-kez-sergiledigi-savunma-sistemleri-ile-damga-vurdu/",
+   "commit": "1173def",
+   "changes": [
+    {
+     "field": "note",
+     "from": null,
+     "to": "Roketsan's own IDEF 2025 release lists METE as mounted 'on robot dog' (Robot Kopek Uzeri), which is the maker's only statement about KOZ; the page carries no weight, dimensions, speed, payload or endurance table. Turkish broadcast reporting (CNN Turk, 22 Jul 2025) adds up to 2.5 h of continuous mission time, four guided munitions and autonomous/remote modes, and TRT World reports a 45 deg climb and a TV plus thermal electro-optic suite; those are press figures and are not entered."
+    },
+    {
+     "field": "official_url",
+     "from": null,
+     "to": "https://www.roketsan.com.tr/haberler/roketsan-turkiye-nin-savunma-vitrini-idef-e-ilk-kez-sergiledigi-savunma-sistemleri-ile-damga-vurdu/"
+    },
+    {
+     "field": "sources",
+     "from": [],
+     "to": [
+      "https://www.roketsan.com.tr/haberler/roketsan-turkiye-nin-savunma-vitrini-idef-e-ilk-kez-sergiledigi-savunma-sistemleri-ile-damga-vurdu/",
+      "https://www.cnnturk.com/video/turkiye/4-ayakli-kara-araci-koz-2313488"
+     ]
+    },
+    {
+     "field": "summary",
+     "from": "",
+     "to": "Roketsan's armed quadruped that carries the METE laser-guided mini-missile, unveiled at IDEF 2025."
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "official"
+    }
+   ]
+  }
+ ]
+}

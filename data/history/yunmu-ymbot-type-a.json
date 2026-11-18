@@ -1,0 +1,95 @@
+{
+ "id": "yunmu-ymbot-type-a",
+ "name": "YMbot Type A",
+ "manufacturer": "Yunmu Intelligent Manufacturing",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-17",
+   "type": "added",
+   "source": null,
+   "commit": "b596d3e",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://www.worldrobotconference.com/profile/robot/download/2026/07/23/20260723170520000751_20260723170520A912.pdf",
+   "commit": "b1429ab",
+   "changes": [
+    {
+     "field": "battery_wh",
+     "from": null,
+     "to": 672
+    },
+    {
+     "field": "dof",
+     "from": null,
+     "to": 30
+    },
+    {
+     "field": "height_mm",
+     "from": null,
+     "to": 1750
+    },
+    {
+     "field": "max_speed_mps",
+     "from": null,
+     "to": 0.5
+    },
+    {
+     "field": "notes",
+     "from": null,
+     "to": "Maker states bounds, not exact values: height <=175 cm (1750 recorded), weight <=75 kg, walking speed <=0.5 m/s, runtime <=3 h. 5 kg is the single-arm payload; whole-robot payload is not stated. 30 DoF is the maker's '>30 (body)' minimum. Battery 48 V 14 Ah; 672 Wh derived. Slope <=10 deg; each linear actuator gives 8000 N."
+    },
+    {
+     "field": "official_url",
+     "from": null,
+     "to": "https://www.worldrobotconference.com/profile/robot/download/2026/07/23/20260723170520000751_20260723170520A912.pdf"
+    },
+    {
+     "field": "payload_kg",
+     "from": null,
+     "to": 5
+    },
+    {
+     "field": "runtime_h",
+     "from": null,
+     "to": 3
+    },
+    {
+     "field": "sensors",
+     "from": [],
+     "to": [
+      "Depth camera",
+      "Solid-state LiDAR",
+      "IMU",
+      "6-axis F/T sensor"
+     ]
+    },
+    {
+     "field": "sources",
+     "from": [],
+     "to": [
+      "https://www.worldrobotconference.com/profile/robot/download/2026/07/23/20260723170520000751_20260723170520A912.pdf"
+     ]
+    },
+    {
+     "field": "summary",
+     "from": "",
+     "to": "Bipedal electric humanoid built on the maker's high-thrust linear actuators, aimed at two-legged locomotion research and interaction."
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "official"
+    },
+    {
+     "field": "weight_kg",
+     "from": null,
+     "to": 75
+    }
+   ]
+  }
+ ]
+}

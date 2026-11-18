@@ -1,0 +1,83 @@
+{
+ "id": "agilex-bunker-pro-2-0",
+ "name": "BUNKER PRO 2.0",
+ "manufacturer": "AgileX Robotics",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-03",
+   "type": "added",
+   "source": "https://global.agilex.ai/products/bunker-pro",
+   "commit": "1a533a7",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://global.agilex.ai/products/bunker-pro",
+   "commit": "c3614dc",
+   "changes": [
+    {
+     "field": "notes",
+     "from": null,
+     "to": "Maker page: 1080 x 785 x 470 mm, 225 kg, 120 kg rated payload, 1.5 m/s, 2.5 h at full load, IP67, 25 deg climb, 150 mm obstacle clearance, 120 mm ground clearance, -20 to 60 C, dual 1800 W brushless servos. CAN, SDK and ROS development resources."
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "official"
+    },
+    {
+     "field": "open_source_repos",
+     "from": null,
+     "to": [
+      {
+       "name": "ugv_sdk",
+       "url": "https://github.com/agilexrobotics/ugv_sdk",
+       "license": "Apache-2.0"
+      },
+      {
+       "name": "bunker_ros2",
+       "url": "https://github.com/agilexrobotics/bunker_ros2",
+       "license": "Apache-2.0"
+      }
+     ]
+    },
+    {
+     "field": "ros2_support",
+     "from": null,
+     "to": true
+    },
+    {
+     "field": "ros2_url",
+     "from": null,
+     "to": "https://github.com/agilexrobotics/bunker_ros2"
+    },
+    {
+     "field": "sdk",
+     "from": null,
+     "to": {
+      "languages": [
+       "C++"
+      ],
+      "open_source": true,
+      "license": "Apache-2.0",
+      "url": "https://github.com/agilexrobotics/ugv_sdk"
+     }
+    },
+    {
+     "field": "sources",
+     "from": [
+      "https://global.agilex.ai/products/bunker-pro"
+     ],
+     "to": [
+      "https://global.agilex.ai/products/bunker-pro",
+      "https://github.com/agilexrobotics/ugv_sdk",
+      "https://github.com/agilexrobotics/bunker_ros2",
+      "https://github.com/agilexrobotics/pyagxrobots"
+     ]
+    }
+   ]
+  }
+ ]
+}

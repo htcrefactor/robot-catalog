@@ -1,0 +1,99 @@
+{
+ "id": "segway-nova-carter",
+ "name": "Nova Carter",
+ "manufacturer": "Segway Robotics",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-17",
+   "type": "added",
+   "source": "https://robotics.segway.com/nova-carter",
+   "commit": "ebcdc70",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://robotics.segway.com/nova-carter",
+   "commit": "ae60ceb",
+   "changes": [
+    {
+     "field": "open_source_repos",
+     "from": null,
+     "to": [
+      {
+       "name": "nova_carter",
+       "url": "https://github.com/NVIDIA-ISAAC-ROS/nova_carter",
+       "license": "Apache-2.0"
+      }
+     ]
+    },
+    {
+     "field": "ros2_support",
+     "from": null,
+     "to": true
+    },
+    {
+     "field": "ros2_url",
+     "from": null,
+     "to": "https://github.com/NVIDIA-ISAAC-ROS/nova_carter"
+    },
+    {
+     "field": "sdk",
+     "from": null,
+     "to": {
+      "languages": [
+       "C++",
+       "Python"
+      ],
+      "open_source": true,
+      "license": "Apache-2.0",
+      "url": "https://github.com/NVIDIA-ISAAC-ROS/nova_carter"
+     }
+    },
+    {
+     "field": "sim_models",
+     "from": null,
+     "to": {
+      "urdf": {
+       "url": "https://github.com/NVIDIA-ISAAC-ROS/nova_carter/blob/main/nova_carter_description/urdf/nova_carter.urdf.xacro",
+       "license": "Apache-2.0"
+      }
+     }
+    },
+    {
+     "field": "sources",
+     "from": [
+      "https://robotics.segway.com/nova-carter",
+      "https://robotics.segway.com/wp-content/uploads/2023/11/Nova-Carter-Product-Manual-v1.0.pdf",
+      "https://nvidia-isaac-ros.github.io/v/release-3.2/robots/nova_carter/index.html",
+      "https://github.com/nvidia-isaac-ros/nova_carter"
+     ],
+     "to": [
+      "https://robotics.segway.com/nova-carter",
+      "https://robotics.segway.com/wp-content/uploads/2023/11/Nova-Carter-Product-Manual-v1.0.pdf",
+      "https://nvidia-isaac-ros.github.io/v/release-3.2/robots/nova_carter/index.html",
+      "https://github.com/nvidia-isaac-ros/nova_carter",
+      "https://github.com/NVIDIA-ISAAC-ROS/nova_carter",
+      "https://github.com/NVIDIA-ISAAC-ROS/nova_carter/blob/main/nova_carter_description/urdf/nova_carter.urdf.xacro"
+     ]
+    },
+    {
+     "field": "compute_memory_gb",
+     "from": null,
+     "to": 64
+    },
+    {
+     "field": "compute_soc",
+     "from": null,
+     "to": "NVIDIA Jetson AGX Orin 64GB"
+    },
+    {
+     "field": "compute_source",
+     "from": null,
+     "to": "https://robotics.segway.com/nova-carter"
+    }
+   ]
+  }
+ ]
+}

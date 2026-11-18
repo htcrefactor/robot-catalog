@@ -1,0 +1,123 @@
+{
+ "id": "primebot-t1",
+ "name": "PrimeBOT T1",
+ "manufacturer": "PrimeBOT (Qiyuan Robotics)",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-17",
+   "type": "added",
+   "source": null,
+   "commit": "b596d3e",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://www.primebot.com/t1.html",
+   "commit": "75b989d",
+   "changes": [
+    {
+     "field": "compute_detail",
+     "from": null,
+     "to": "8-core high-performance processor + Orin Nano"
+    },
+    {
+     "field": "country",
+     "from": null,
+     "to": "China"
+    },
+    {
+     "field": "height_mm",
+     "from": null,
+     "to": 1000
+    },
+    {
+     "field": "locomotion",
+     "from": null,
+     "to": "Wheel-legged"
+    },
+    {
+     "field": "manufacturer",
+     "from": "PrimeBOT (Qiyuan)",
+     "to": "PrimeBOT (Qiyuan Robotics)"
+    },
+    {
+     "field": "max_speed_mps",
+     "from": null,
+     "to": 3
+    },
+    {
+     "field": "note",
+     "from": null,
+     "to": "Maker (启元机器人 / PrimeBOT, Shanghai; STAR Market 688585) spec page: 100 cm tall, ~16.3 kg with battery (T1) / ~16.8 kg (T1 Pro), payload <=3 kg, 3 m/s in quadruped form and 2.5 m/s in wheel-legged form, 2x ToF + monocular camera (T1) or 5x ToF + stereo (T1 Pro), 2 fisheye cameras, 360-degree coverage, 15 cm obstacle crossing, 30-degree slope, 10 km/h running (OTA), voice-guided stair following, auto-docking (accessory). Battery capacity, runtime and DOF count are not published. SCOPE FLAG: sold as a consumer personal/companion and education robot ('global first transformable personal robot'); form factor is wheel-legged/quadruped, not a bipedal humanoid."
+    },
+    {
+     "field": "official_url",
+     "from": null,
+     "to": "https://www.primebot.com/t1.html"
+    },
+    {
+     "field": "onboard_compute",
+     "from": null,
+     "to": "NVIDIA Jetson Orin Nano"
+    },
+    {
+     "field": "payload_kg",
+     "from": null,
+     "to": 3
+    },
+    {
+     "field": "sdk_available",
+     "from": null,
+     "to": true
+    },
+    {
+     "field": "sdk_name",
+     "from": null,
+     "to": "PrimeBOT SDK (二次开发 SDK)"
+    },
+    {
+     "field": "sensors",
+     "from": [],
+     "to": [
+      "2x ToF depth sensors (T1) / 5x ToF (T1 Pro)",
+      "Monocular camera (T1) / stereo camera (T1 Pro)",
+      "2x fisheye cameras",
+      "2x touch sensors",
+      "6-microphone array",
+      "Spotlight"
+     ]
+    },
+    {
+     "field": "sources",
+     "from": [],
+     "to": [
+      "https://www.primebot.com/t1.html",
+      "https://www.primebot.com/product_spec1.html"
+     ]
+    },
+    {
+     "field": "status",
+     "from": null,
+     "to": "Commercial"
+    },
+    {
+     "field": "summary",
+     "from": "",
+     "to": "PrimeBOT's transformable personal robot: walks as a wheel-legged humanoid indoors and switches to quadruped form outdoors for grass, slopes and stairs."
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "official"
+    },
+    {
+     "field": "weight_kg",
+     "from": null,
+     "to": 16.3
+    }
+   ]
+  }
+ ]
+}

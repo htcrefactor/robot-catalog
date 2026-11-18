@@ -1,0 +1,55 @@
+{
+ "id": "serve-robotics-gen3",
+ "name": "Serve Gen3",
+ "manufacturer": "Serve Robotics",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-03",
+   "type": "added",
+   "source": "https://www.serverobotics.com/robot",
+   "commit": "1a533a7",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://www.serverobotics.com/robot",
+   "commit": "ae60ceb",
+   "changes": [
+    {
+     "field": "note",
+     "from": null,
+     "to": "serverobotics.com/robot is service copy with no specification table, so the figures come from the maker's own launch release (16 Oct 2024, via GlobeNewswire) and its SEC investor deck: Level 4 sidewalk robot built with Magna, top speed 11 mph, 48 mi range, 15 gal cargo, NVIDIA Jetson Orin, Ouster REV7 lidar. Payload, mass and dimensions are not published in either document."
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "official"
+    },
+    {
+     "field": "compute_soc",
+     "from": null,
+     "to": "NVIDIA Jetson Orin"
+    },
+    {
+     "field": "compute_source",
+     "from": null,
+     "to": "https://www.serverobotics.com/robot"
+    },
+    {
+     "field": "sources",
+     "from": [
+      "https://www.globenewswire.com/news-release/2024/10/16/2963910/0/en/Serve-Robotics-Rolls-Out-Third-Generation-Autonomous-Delivery-Robot-Platform-Upgrade-Will-Support-National-Scaling.html",
+      "https://www.sec.gov/Archives/edgar/data/1832483/000183248326000034/finalserve_investorxdeck.htm"
+     ],
+     "to": [
+      "https://www.globenewswire.com/news-release/2024/10/16/2963910/0/en/Serve-Robotics-Rolls-Out-Third-Generation-Autonomous-Delivery-Robot-Platform-Upgrade-Will-Support-National-Scaling.html",
+      "https://www.sec.gov/Archives/edgar/data/1832483/000183248326000034/finalserve_investorxdeck.htm",
+      "https://www.serverobotics.com/robot"
+     ]
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,47 @@
+{
+ "id": "aimoga-mobo",
+ "name": "Mobo",
+ "manufacturer": "AiMOGA Robotics (Chery)",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-13",
+   "type": "added",
+   "source": "https://humanoidstore.co/robots/aimoga-mobo",
+   "commit": "14cd746",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://www.globenewswire.com/news-release/2026/10/23/3387030/0/en/mobo-makes-global-debut-and-opens-pre-orders-as-aimoga-unveils-its-new-path-to-industrialization.html",
+   "commit": "0be5d4c",
+   "changes": [
+    {
+     "field": "data_source",
+     "from": "HumanoidStore open data (CC BY 4.0)",
+     "to": null
+    },
+    {
+     "field": "notes",
+     "from": null,
+     "to": "Issue #17 (2026-11-17): 0.9 m and 22 DoF from AiMOGA's own launch release. Weight 18 kg and ~90 min runtime come from AiMOGA launch coverage, not a maker spec page; treat those two as maker-reported only."
+    },
+    {
+     "field": "sources",
+     "from": [
+      "https://humanoidstore.co/robots/aimoga-mobo"
+     ],
+     "to": [
+      "https://www.globenewswire.com/news-release/2026/10/23/3387030/0/en/mobo-makes-global-debut-and-opens-pre-orders-as-aimoga-unveils-its-new-path-to-industrialization.html"
+     ]
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "official"
+    }
+   ]
+  }
+ ]
+}

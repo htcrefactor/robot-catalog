@@ -1,0 +1,118 @@
+{
+ "id": "senad-iloabot-x",
+ "name": "iLoabot-X",
+ "manufacturer": "Senad",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-17",
+   "type": "added",
+   "source": null,
+   "commit": "b596d3e",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://www.senad.cn/robot_detail/3",
+   "commit": "75b989d",
+   "changes": [
+    {
+     "field": "battery_wh",
+     "from": null,
+     "to": 6000
+    },
+    {
+     "field": "dof",
+     "from": null,
+     "to": 22
+    },
+    {
+     "field": "height_mm",
+     "from": null,
+     "to": 1850
+    },
+    {
+     "field": "length_mm",
+     "from": null,
+     "to": 852
+    },
+    {
+     "field": "max_speed_mps",
+     "from": null,
+     "to": 2
+    },
+    {
+     "field": "note",
+     "from": null,
+     "to": "Maker product brochure (Oct 2026) and product page: size 852 mm (upper body) / 700 mm (chassis) x 800 mm x 1,850 mm with 0-2 m dynamic lift, net weight 250-300 kg (entered as the 275 kg midpoint of the maker's range), 22 DOF (8 per arm x 2, torso 1, head 2, chassis 3), payload 46 kg with both arms (clamp/grip: 23 kg rated and 35 kg momentary per arm; suction: 12 kg rated per arm), max forward reach 955 mm and max arm span 2,060 mm, 0-2 m/s in the plant with a 1.2 m/s safety limit, 48 V / 6 kWh battery (=6,000 Wh) with 12 h continuous operation, 2.5 h charge and hot-swappable packs, -10 to 55 C, vision + LiDAR + force + pose fusion with 8 vision sensors, 3 LiDAR, UWB, IMU and 2 six-axis force sensors, quick-change gripper and suction end effectors. First shown at WRC 2025 in August 2025."
+    },
+    {
+     "field": "official_url",
+     "from": null,
+     "to": "https://www.senad.cn/robot_detail/3"
+    },
+    {
+     "field": "payload_kg",
+     "from": null,
+     "to": 46
+    },
+    {
+     "field": "release_year",
+     "from": null,
+     "to": 2025
+    },
+    {
+     "field": "runtime_h",
+     "from": null,
+     "to": 12
+    },
+    {
+     "field": "sensors",
+     "from": [],
+     "to": [
+      "8x vision cameras",
+      "3x LiDAR",
+      "UWB indoor positioning",
+      "IMU",
+      "2x 6-axis force/torque sensors"
+     ]
+    },
+    {
+     "field": "sources",
+     "from": [],
+     "to": [
+      "https://www.senad.cn/robot_detail/3",
+      "https://senad.oss-rg-china-mainland.aliyuncs.com/uploads/files/202610/b777de947af8bb32e591a2d4a0900e97.pdf",
+      "https://www.senad.cn/news_detail/12"
+     ]
+    },
+    {
+     "field": "status",
+     "from": null,
+     "to": "Commercial"
+    },
+    {
+     "field": "summary",
+     "from": "",
+     "to": "Senad's heavy-duty wheeled dual-arm humanoid for the last 20 m of industrial logistics: 46 kg dual-arm load, a 0-2 m lifting column and a VLA logistics model for loading, palletizing and sorting."
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "official"
+    },
+    {
+     "field": "weight_kg",
+     "from": null,
+     "to": 275
+    },
+    {
+     "field": "width_mm",
+     "from": null,
+     "to": 800
+    }
+   ]
+  }
+ ]
+}

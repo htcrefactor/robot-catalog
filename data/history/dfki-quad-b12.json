@@ -1,0 +1,93 @@
+{
+ "id": "dfki-quad-b12",
+ "name": "Quad B12",
+ "manufacturer": "DFKI",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-17",
+   "type": "added",
+   "source": null,
+   "commit": "b596d3e",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://robotik.dfki-bremen.de/en/research/robot-systems/quad-b12",
+   "commit": "1173def",
+   "changes": [
+    {
+     "field": "compute_detail",
+     "from": null,
+     "to": "Raspberry Pi"
+    },
+    {
+     "field": "dof",
+     "from": null,
+     "to": 12
+    },
+    {
+     "field": "height_mm",
+     "from": null,
+     "to": 350
+    },
+    {
+     "field": "length_mm",
+     "from": null,
+     "to": 500
+    },
+    {
+     "field": "note",
+     "from": null,
+     "to": "Maker page: 0.50 x 0.35 x 0.35 m, 10.5 kg, 12 mjbots quasi-direct drives (1:6) giving 12 actuated DoF (18 total including 6 underactuated), CAN control at 400-600 Hz, 18-24 V, Raspberry Pi, IMU. DoF recorded as the 12 actuated joints. The page states the system is no longer actively used."
+    },
+    {
+     "field": "official_url",
+     "from": null,
+     "to": "https://robotik.dfki-bremen.de/en/research/robot-systems/quad-b12"
+    },
+    {
+     "field": "onboard_compute",
+     "from": null,
+     "to": true
+    },
+    {
+     "field": "sensors",
+     "from": [],
+     "to": [
+      "IMU (mjbots pi3hat)",
+      "Position, velocity and torque sensing on all 12 actuators"
+     ]
+    },
+    {
+     "field": "sources",
+     "from": [],
+     "to": [
+      "https://robotik.dfki-bremen.de/en/research/robot-systems/quad-b12"
+     ]
+    },
+    {
+     "field": "summary",
+     "from": "",
+     "to": "Small in-house quadruped research platform of DFKI Bremen's Underactuated Lab, built from 12 mjbots quasi-direct drives."
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "official"
+    },
+    {
+     "field": "weight_kg",
+     "from": null,
+     "to": 10.5
+    },
+    {
+     "field": "width_mm",
+     "from": null,
+     "to": 350
+    }
+   ]
+  }
+ ]
+}

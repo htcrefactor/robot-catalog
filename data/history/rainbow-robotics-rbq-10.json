@@ -1,0 +1,89 @@
+{
+ "id": "rainbow-robotics-rbq-10",
+ "name": "RBQ-10",
+ "manufacturer": "Rainbow Robotics",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-03",
+   "type": "added",
+   "source": "https://rainbow-robotics.com/en/products/rbq-10",
+   "commit": "1a533a7",
+   "changes": []
+  },
+  {
+   "date": "2026-11-04",
+   "type": "updated",
+   "source": "https://rainbow-robotics.com/en/products/rbq-10",
+   "commit": "72ea16d",
+   "changes": [
+    {
+     "field": "price_note",
+     "from": null,
+     "to": "about KRW 75 million for the base model (Rainbow Robotics technical director to Hankyoreh, Nov 2026)"
+    },
+    {
+     "field": "sources",
+     "from": [
+      "https://rainbowrobotics.github.io/RBQ/manual/product-descriptions/general-specification.html"
+     ],
+     "to": [
+      "https://rainbowrobotics.github.io/RBQ/manual/product-descriptions/general-specification.html",
+      "https://www.hani.co.kr/arti/economy/marketing/1285758.html"
+     ]
+    }
+   ]
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://rainbow-robotics.com/en/products/rbq-10",
+   "commit": "0c54867",
+   "changes": [
+    {
+     "field": "note",
+     "from": null,
+     "to": "Maker page: 98 x 43 x 62 cm, 42 kg, 15 kg payload, walking 6 km/h and running 14 km/h (3.89 m/s recorded as max, the page also lists 9 km/h as the working walk), 2 h standard with up to 4 h, IP54, IMU plus RGB/depth cameras with optional 3D lidar, PTZ or thermal payloads. The KRW 75 million figure in price_note is a press remark by a Rainbow Robotics technical director, not a maker price."
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "official"
+    },
+    {
+     "field": "kr_distributors",
+     "from": null,
+     "to": [
+      {
+       "name": "레인보우로보틱스 (본사·파트너사 직판)",
+       "kind": "direct",
+       "url": "https://rainbow-robotics.com/"
+      }
+     ]
+    },
+    {
+     "field": "kr_note",
+     "from": null,
+     "to": "국내 판매·데모·기술 상담은 본사와 전문 파트너사를 통해 진행합니다."
+    },
+    {
+     "field": "manufacturer_ko",
+     "from": null,
+     "to": "레인보우로보틱스"
+    },
+    {
+     "field": "sources",
+     "from": [
+      "https://rainbowrobotics.github.io/RBQ/manual/product-descriptions/general-specification.html",
+      "https://www.hani.co.kr/arti/economy/marketing/1285758.html"
+     ],
+     "to": [
+      "https://rainbowrobotics.github.io/RBQ/manual/product-descriptions/general-specification.html",
+      "https://www.hani.co.kr/arti/economy/marketing/1285758.html",
+      "https://rainbow-robotics.com/"
+     ]
+    }
+   ]
+  }
+ ]
+}

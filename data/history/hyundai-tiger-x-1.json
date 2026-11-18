@@ -1,0 +1,72 @@
+{
+ "id": "hyundai-tiger-x-1",
+ "name": "TIGER X-1",
+ "manufacturer": "Hyundai Motor Group",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-17",
+   "type": "added",
+   "source": null,
+   "commit": "0a6305b",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://www.hyundai.com/au/en/news/mobility/hyundai-motor-group-unveils-tiger-uncrewed-ultimate-mobility-vehicle-concept",
+   "commit": "0c54867",
+   "changes": [
+    {
+     "field": "note",
+     "from": null,
+     "to": "Hyundai Motor Group's TIGER press release (Feb 2021, hyundai.com) describes TIGER X-1 as the experimental first version developed by New Horizons Studio with Autodesk and Sundberg-Ferar: four leg-and-wheel units, 360-degree directional control, an internal load bay and sensors for remote observation. The maker publishes no mass, dimensions, speed, payload or battery figure for X-1, so no spec field is filled."
+    },
+    {
+     "field": "official_url",
+     "from": null,
+     "to": "https://www.hyundai.com/au/en/news/mobility/hyundai-motor-group-unveils-tiger-uncrewed-ultimate-mobility-vehicle-concept"
+    },
+    {
+     "field": "sources",
+     "from": [],
+     "to": [
+      "https://www.hyundai.com/au/en/news/mobility/hyundai-motor-group-unveils-tiger-uncrewed-ultimate-mobility-vehicle-concept",
+      "https://robotics.hyundai.com/story/log/view.do?seq=181"
+     ]
+    },
+    {
+     "field": "summary",
+     "from": "",
+     "to": "Uncrewed transforming Ultimate Mobility Vehicle concept (TIGER X-1) with four leg-and-wheel units that drives on retracted legs and walks over terrain that stops a wheeled vehicle, built around an internal cargo bay."
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "official"
+    },
+    {
+     "field": "kr_distributors",
+     "from": null,
+     "to": [
+      {
+       "name": "현대자동차그룹 로보틱스랩",
+       "kind": "direct",
+       "url": "https://robotics.hyundai.com/"
+      }
+     ]
+    },
+    {
+     "field": "kr_note",
+     "from": null,
+     "to": "2026년 1분기부터 고객 판매 예정입니다."
+    },
+    {
+     "field": "manufacturer_ko",
+     "from": null,
+     "to": "현대자동차그룹 로보틱스랩"
+    }
+   ]
+  }
+ ]
+}

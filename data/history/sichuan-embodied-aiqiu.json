@@ -1,0 +1,61 @@
+{
+ "id": "sichuan-embodied-aiqiu",
+ "name": "Aiqiu",
+ "manufacturer": "Sichuan Embodied AI Robot Innovation Center",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-17",
+   "type": "added",
+   "source": null,
+   "commit": "b596d3e",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://wrc.cie.org.cn/expo/company/789.html",
+   "commit": "75b989d",
+   "changes": [
+    {
+     "field": "country",
+     "from": null,
+     "to": "China"
+    },
+    {
+     "field": "note",
+     "from": null,
+     "to": "Maker: Sichuan Embodied Humanoid Robot Technology Co. (EIR, 四川具身人形机器人科技有限公司), Chengdu, founded 2024-09 by University of Electronic Science and Technology professors, whose lineup also includes the Skywalker full-size humanoid and the Tianxun industrial quadruped. Aiqiu was previewed 2025-12-16 as the world's first emotion-interaction humanoid, with a 3D ultra-short-throw projected face (a first in China), the ELA Emotion-Language-Action model and a multimodal emotion engine; the new generation was launched and put on sale at WRC 2026 (August 2026) in an interaction edition for finance, culture-tourism, education and commercial service and a motion-control edition for universities and developers, from CNY 98,000. No maker spec sheet is public and eir.com.cn did not respond, so height, weight, DOF, payload, speed, battery and runtime stay empty; the 143 cm / 38 kg / 32 DOF / 2 h figures circulating on aggregator sites were not used. Marked unconfirmed because the only maker-side sources are an exhibitor entry and press coverage, not a datasheet."
+    },
+    {
+     "field": "release_year",
+     "from": null,
+     "to": 2025
+    },
+    {
+     "field": "sources",
+     "from": [],
+     "to": [
+      "https://wrc.cie.org.cn/expo/company/789.html",
+      "https://www.thecover.cn/news/8/d%2Bv2sD64SH90qSdq8Jkw=="
+     ]
+    },
+    {
+     "field": "status",
+     "from": null,
+     "to": "Commercial"
+    },
+    {
+     "field": "summary",
+     "from": "",
+     "to": "Aiqiu (AIQ) is Sichuan Embodied AI's emotion-interaction humanoid, with a 3D ultra-short-throw projection face and an Emotion-Language-Action model, on sale from CNY 98,000."
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "unconfirmed"
+    }
+   ]
+  }
+ ]
+}

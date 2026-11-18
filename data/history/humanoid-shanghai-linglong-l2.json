@@ -1,0 +1,55 @@
+{
+ "id": "humanoid-shanghai-linglong-l2",
+ "name": "Linglong L2.0",
+ "manufacturer": "Humanoid Robot (Shanghai)",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-17",
+   "type": "added",
+   "source": null,
+   "commit": "b596d3e",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://www.openloong.net",
+   "commit": "b310609",
+   "changes": [
+    {
+     "field": "note",
+     "from": null,
+     "to": "No maker product page or datasheet for L2.0 was found (the center's WRC 2026 entry lists Linglong L1 and H1 only; checked 2026-11-17), so spec fields stay empty. Press coverage of WRC 2026 and of the 2026 Yizhuang half-marathon reports L2.0 as a firefighting humanoid: 173 cm, 42 active DoF, up to 3 m/s, 560 TOPS edge compute, >95% domestic hardware, heat-resistant suit, RISC-V K3 AI CPU with the OpenLoong control framework. Those figures are press-reported, not maker-published."
+    },
+    {
+     "field": "official_url",
+     "from": null,
+     "to": "https://www.openloong.net"
+    },
+    {
+     "field": "release_year",
+     "from": null,
+     "to": 2026
+    },
+    {
+     "field": "sources",
+     "from": [],
+     "to": [
+      "https://wrc.cie.org.cn/expo/company/395.html"
+     ]
+    },
+    {
+     "field": "summary",
+     "from": "",
+     "to": "Linglong L2.0, the firefighting configuration of the Shanghai humanoid innovation center's biped platform."
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "unconfirmed"
+    }
+   ]
+  }
+ ]
+}

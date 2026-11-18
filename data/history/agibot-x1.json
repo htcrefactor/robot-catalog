@@ -1,0 +1,81 @@
+{
+ "id": "agibot-x1",
+ "name": "Lingxi X1",
+ "manufacturer": "AgiBot",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-13",
+   "type": "added",
+   "source": "https://humanoidstore.co/robots/agibot-x1",
+   "commit": "14cd746",
+   "changes": []
+  },
+  {
+   "date": "2026-11-13",
+   "type": "updated",
+   "source": "https://www.agibot.com.cn/products/X1",
+   "commit": "b923ddc",
+   "changes": [
+    {
+     "field": "data_source",
+     "from": "HumanoidStore open data (CC BY 4.0)",
+     "to": "HumanoidStore + maker page"
+    },
+    {
+     "field": "dof",
+     "from": 34,
+     "to": 31
+    },
+    {
+     "field": "official_url",
+     "from": null,
+     "to": "https://www.agibot.com.cn/products/X1"
+    },
+    {
+     "field": "sources",
+     "from": [
+      "https://humanoidstore.co/robots/agibot-x1"
+     ],
+     "to": [
+      "https://humanoidstore.co/robots/agibot-x1",
+      "https://www.agibot.com.cn/products/X1"
+     ]
+    }
+   ]
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://www.agibot.com.cn/products/X1",
+   "commit": "0be5d4c",
+   "changes": [
+    {
+     "field": "data_source",
+     "from": "HumanoidStore + maker page",
+     "to": null
+    },
+    {
+     "field": "notes",
+     "from": null,
+     "to": "Issue #17 (2026-11-17): X1 figures (130 cm, 33 kg, 0.5 kg arm payload, 2 h) are from AgiBot's X1 page; AgiBot publishes no total DoF or price there, so HumanoidStore's 31 DoF and 1 m/s remain the weakest values on this row."
+    },
+    {
+     "field": "sources",
+     "from": [
+      "https://humanoidstore.co/robots/agibot-x1",
+      "https://www.agibot.com.cn/products/X1"
+     ],
+     "to": [
+      "https://www.agibot.com.cn/products/X1"
+     ]
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "official"
+    }
+   ]
+  }
+ ]
+}

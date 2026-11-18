@@ -1,0 +1,66 @@
+{
+ "id": "otto-otto-100",
+ "name": "OTTO 100",
+ "manufacturer": "OTTO by Rockwell Automation (formerly OTTO Motors / Clearpath)",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-03",
+   "type": "added",
+   "source": "https://ottomotors.com/100/",
+   "commit": "1a533a7",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://ottomotors.com/100/",
+   "commit": "e6ebd1a",
+   "changes": [
+    {
+     "field": "certifications",
+     "from": null,
+     "to": [
+      "CE",
+      "FCC Part 15 Subpart B",
+      "ICES-003",
+      "ICES-002"
+     ]
+    },
+    {
+     "field": "safety_note",
+     "from": null,
+     "to": "Maker's “Standards compliance” list for OTTO 100."
+    },
+    {
+     "field": "safety_source",
+     "from": null,
+     "to": "https://ottomotors.com/100/"
+    },
+    {
+     "field": "safety_standards",
+     "from": null,
+     "to": [
+      "ISO 12100",
+      "ISO 13849-1",
+      "ISO 3691-4",
+      "ANSI/ITSDF B56.5",
+      "RIA R15.08-1",
+      "EN 1175-1",
+      "EN 60204-1"
+     ]
+    },
+    {
+     "field": "sources",
+     "from": [
+      "https://www.rockwellautomation.com/content/dam/rockwell-automation/documents/pdf/events/automate/otto-100-datasheet.pdf"
+     ],
+     "to": [
+      "https://www.rockwellautomation.com/content/dam/rockwell-automation/documents/pdf/events/automate/otto-100-datasheet.pdf",
+      "https://ottomotors.com/100/"
+     ]
+    }
+   ]
+  }
+ ]
+}

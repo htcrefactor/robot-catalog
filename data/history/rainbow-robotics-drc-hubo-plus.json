@@ -1,0 +1,127 @@
+{
+ "id": "rainbow-robotics-drc-hubo-plus",
+ "name": "DRC-HUBO+",
+ "manufacturer": "Rainbow Robotics",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-13",
+   "type": "added",
+   "source": "https://humanoidstore.co/robots/rainbow-robotics-drc-hubo-plus",
+   "commit": "14cd746",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://doi.org/10.1109/tro.2017.2776287",
+   "commit": "0c54867",
+   "changes": [
+    {
+     "field": "data_source",
+     "from": "HumanoidStore open data (CC BY 4.0)",
+     "to": null
+    },
+    {
+     "field": "dof",
+     "from": 31,
+     "to": 32
+    },
+    {
+     "field": "height_mm",
+     "from": 1700,
+     "to": 1730
+    },
+    {
+     "field": "max_speed_mps",
+     "from": 0.5,
+     "to": null
+    },
+    {
+     "field": "notes",
+     "from": null,
+     "to": "Issue #17 (2026-11-17): DRC-HUBO+ - 173 cm, 82 kg, 32 DoF (7 per arm, 6 per leg) per KAIST/Rainbow. The IEEE T-RO paper gives 170 cm and 80 kg. No maker payload, speed, runtime or price, so HumanoidStore's values were emptied. [replaced height_mm: 1700 -> 1730; weight_kg: 80 -> 82; dof: 31 -> 32 | emptied (no maker value) payload_kg=15; max_speed_mps=0.5]"
+    },
+    {
+     "field": "payload_kg",
+     "from": 15,
+     "to": null
+    },
+    {
+     "field": "sources",
+     "from": [
+      "https://humanoidstore.co/robots/rainbow-robotics-drc-hubo-plus"
+     ],
+     "to": [
+      "https://breakthroughs.kaist.ac.kr/sub02/view/id/289",
+      "https://doi.org/10.1109/tro.2017.2776287",
+      "https://rainbow-robotics.com/%ec%9d%b4%eb%8d%b0%ec%9d%bc%eb%a6%ac-%eb%a0%88%ec%9d%b8%eb%b3%b4%ec%9a%b0%eb%a1%9c%eb%b3%b4%ed%8b%b1%ec%8a%a4-10%ec%96%b5-%ea%b7%9c%eb%aa%a8-%e7%be%8e-%ec%a3%bc%ec%9a%94-%eb%8c%80%ed%95%99/",
+      "https://humanoidstore.co/robots/rainbow-robotics-drc-hubo-plus",
+      "https://rainbow-robotics.com/"
+     ]
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "official"
+    },
+    {
+     "field": "weight_kg",
+     "from": 80,
+     "to": 82
+    },
+    {
+     "field": "locomotion",
+     "from": "Legged",
+     "to": "Wheel-legged"
+    },
+    {
+     "field": "note",
+     "from": null,
+     "to": "Rainbow Robotics' current site no longer hosts a DRC-HUBO+ product page (only company news; the old rainbow.re.kr manual page is empty), so the maker-side source is the platform paper by the KAIST HUBO team that built it with Rainbow Robotics: 170 cm height, 80 kg mass, 32 DOF (7 per arm, 6 per leg, head and waist), wheel mode using wheels on both knees via a biped-to-wheel transition, LIDAR and head cameras, PODO software framework on Linux/Xenomai, exoskeletal aluminium structure, air-cooled high-ratio joints, FT sensors. Width 590 mm is from the maker-linked spec listing (robotsguide), the only figure available. The 31 DOF in this record was corrected to 32. The earlier 0.5 m/s max speed and 15 kg payload were aggregator figures with no maker value, so both were removed (robotsguide gives 1.5 km/h, not maker-confirmed). Won the 2015 DRC Finals; Rainbow sold units to universities as a research platform (e.g. 2021 order from a major US university)."
+    },
+    {
+     "field": "official_url",
+     "from": null,
+     "to": "https://doi.org/10.1109/tro.2017.2776287"
+    },
+    {
+     "field": "release_year",
+     "from": null,
+     "to": 2015
+    },
+    {
+     "field": "summary",
+     "from": "Full-size humanoid from Rainbow Robotics; research only, sold to research buyers.",
+     "to": "KAIST and Rainbow Robotics' DARPA Robotics Challenge winner: a 1.7 m disaster-response humanoid that walks on two legs and kneels onto knee wheels to roll on flat ground."
+    },
+    {
+     "field": "width_mm",
+     "from": null,
+     "to": 590
+    },
+    {
+     "field": "kr_distributors",
+     "from": null,
+     "to": [
+      {
+       "name": "레인보우로보틱스 (본사·파트너사 직판)",
+       "kind": "direct",
+       "url": "https://rainbow-robotics.com/"
+      }
+     ]
+    },
+    {
+     "field": "kr_note",
+     "from": null,
+     "to": "국내 판매·데모·기술 상담은 본사와 전문 파트너사를 통해 진행합니다."
+    },
+    {
+     "field": "manufacturer_ko",
+     "from": null,
+     "to": "레인보우로보틱스"
+    }
+   ]
+  }
+ ]
+}

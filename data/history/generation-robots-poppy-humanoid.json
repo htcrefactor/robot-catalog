@@ -1,0 +1,97 @@
+{
+ "id": "generation-robots-poppy-humanoid",
+ "name": "Poppy Humanoid",
+ "manufacturer": "Generation Robots (Inria Flowers)",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-13",
+   "type": "added",
+   "source": "https://humanoidstore.co/robots/generation-robots-poppy-humanoid",
+   "commit": "14cd746",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://github.com/poppy-project/poppy-humanoid",
+   "commit": "b310609",
+   "changes": [
+    {
+     "field": "data_source",
+     "from": "HumanoidStore open data (CC BY 4.0)",
+     "to": null
+    },
+    {
+     "field": "height_mm",
+     "from": 840,
+     "to": 830
+    },
+    {
+     "field": "notes",
+     "from": null,
+     "to": "Issue #17 (2026-11-17): Poppy Humanoid - 83 cm, 3.5 kg, 25 Robotis Dynamixel actuators per the Poppy project. The project publishes a build cost (US$8,000-9,000 in parts), not a product price, so HumanoidStore's price was removed. [replaced height_mm: 840 -> 830 | emptied (no maker value) price_usd=11193; price_note=list 9971.52 EUR (maker), per HumanoidStore, checked 2026-10]"
+    },
+    {
+     "field": "price_note",
+     "from": "list 9971.52 EUR (maker), per HumanoidStore, checked 2026-10",
+     "to": null
+    },
+    {
+     "field": "price_usd",
+     "from": 11193,
+     "to": null
+    },
+    {
+     "field": "sources",
+     "from": [
+      "https://humanoidstore.co/robots/generation-robots-poppy-humanoid"
+     ],
+     "to": [
+      "https://github.com/poppy-project/poppy-humanoid"
+     ]
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "official"
+    },
+    {
+     "field": "note",
+     "from": null,
+     "to": "Maker repository (poppy-project/poppy-humanoid): open-source 3D-printed humanoid, 25 Robotis Dynamixel actuators, about 60% of the BOM cost, full build 8,000-9,000 USD, Raspberry Pi 3/4 on-board, pypot Python library, GPL v3 / CC BY-SA. The project site (www.poppy-project.org, docs.poppy-project.org) returned HTTP 500 on 2026-11-17, so the 83 cm / 3.5 kg figures on its v1.0.2 page could not be re-opened and height/weight were left empty instead of carrying the aggregator's 840 mm / 3.5 kg values. Generation Robots is a distributor, not the designer. The 11,193 USD price was an aggregator conversion of a EUR list price and was removed."
+    },
+    {
+     "field": "official_url",
+     "from": null,
+     "to": "https://github.com/poppy-project/poppy-humanoid"
+    },
+    {
+     "field": "onboard_compute",
+     "from": null,
+     "to": "Raspberry Pi 3/4 or Odroid (per build)"
+    },
+    {
+     "field": "sdk_available",
+     "from": null,
+     "to": true
+    },
+    {
+     "field": "sdk_name",
+     "from": null,
+     "to": "pypot"
+    },
+    {
+     "field": "summary",
+     "from": "Compact humanoid from Generation Robots (Inria Flowers); discontinued, anyone can order.",
+     "to": "Open-source, 3D-printed Poppy Humanoid from the Poppy Project (Inria Flowers Lab), built from 25 Robotis Dynamixel actuators for research and education."
+    },
+    {
+     "field": "weight_kg",
+     "from": 3.5,
+     "to": null
+    }
+   ]
+  }
+ ]
+}

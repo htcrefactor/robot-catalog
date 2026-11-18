@@ -1,0 +1,86 @@
+{
+ "id": "glroad-laborer-m1",
+ "name": "Laborer M1",
+ "manufacturer": "GLRoad",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-17",
+   "type": "added",
+   "source": null,
+   "commit": "b596d3e",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "http://www.glroad.com/ListIntroduction/info.aspx?itemid=548",
+   "commit": "b310609",
+   "changes": [
+    {
+     "field": "dof",
+     "from": null,
+     "to": 27
+    },
+    {
+     "field": "height_mm",
+     "from": null,
+     "to": 1870
+    },
+    {
+     "field": "max_speed_mps",
+     "from": null,
+     "to": 1.2
+    },
+    {
+     "field": "note",
+     "from": null,
+     "to": "Maker parameter table (glroad.com, 劳动者M1): height 187 cm, mass 86 kg, dual-arm payload 50 kg (combined, test conditions not stated), moving speed >1.2 m/s (field = 1.2 m/s, lower bound), battery 22 Ah (voltage not published), runtime 2 h, 27 whole-body DoF (6 per leg, 1 head; the table's single-arm figure is inconsistent with the maker's own diagram showing 7-DoF arms), peak joint torque 430 N.m, dual encoders, arm-end accuracy printed illegibly on the page. Released 20 Aug 2026 with the C1. C1 is a different, much smaller robot."
+    },
+    {
+     "field": "official_url",
+     "from": null,
+     "to": "http://www.glroad.com/ListIntroduction/info.aspx?itemid=548"
+    },
+    {
+     "field": "payload_kg",
+     "from": null,
+     "to": 50
+    },
+    {
+     "field": "release_year",
+     "from": null,
+     "to": 2026
+    },
+    {
+     "field": "runtime_h",
+     "from": null,
+     "to": 2.0
+    },
+    {
+     "field": "sources",
+     "from": [],
+     "to": [
+      "http://www.glroad.com/ListIntroduction/info.aspx?itemid=548",
+      "https://www.glroad.com/HumanoidRobots/"
+     ]
+    },
+    {
+     "field": "summary",
+     "from": "",
+     "to": "Glroad's heavy-load biped industrial humanoid (1.87 m, 86 kg) with a 50 kg dual-arm rating, billed as the industry's first 50 kg-class humanoid."
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "official"
+    },
+    {
+     "field": "weight_kg",
+     "from": null,
+     "to": 86
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,51 @@
+{
+ "id": "unitree-superman",
+ "name": "Superman (prototype)",
+ "manufacturer": "Unitree Robotics",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-17",
+   "type": "added",
+   "source": "https://www.unitree.com",
+   "commit": "b596d3e",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://www.unitree.com",
+   "commit": "0c54867",
+   "changes": [
+    {
+     "field": "note",
+     "from": "No product page, datasheet or press release on unitree.com; the only maker statement is a short social-media preview post (17 Aug 2026) reported by Xinhua/Reuters/China Daily: prototype 'new robot preview' with 0.85 m leg length, 2 m standing high jump, 12.66 m/s top speed, developed in ~3 months. Values not filled because no maker page could be opened. Status = research prototype/demonstrator, not a product.",
+     "to": "No product page, datasheet or press release on unitree.com; the only maker statement is a short social-media preview post (17 Aug 2026) reported by Xinhua/Reuters/China Daily: prototype 'new robot preview' with 0.85 m leg length, 2 m standing high jump, 12.66 m/s top speed, developed in ~3 months. Values not filled because no maker page could be opened. Status = research prototype/demonstrator, not a product. Re-checked 2026-11-17: unitree.com/cn news centre and homepage product grid opened - neither lists 'Superman'; no product page, datasheet or press release on unitree.com. Only the 17 Aug 2026 maker social-media preview (reported by Xinhua/China Daily) exists, so the record stays unconfirmed."
+    },
+    {
+     "field": "kr_distributors",
+     "from": null,
+     "to": [
+      {
+       "name": "영인모빌리티 (Unitree 한국 공식 파트너)",
+       "kind": "distributor",
+       "url": "https://www.younginmobility.com/"
+      }
+     ]
+    },
+    {
+     "field": "sources",
+     "from": [
+      "https://english.news.cn/20260817/ad14838a779e42e6a67957e5bef74bcf/c.html",
+      "http://www.chinadaily.com.cn/a/202608/20/WS6a86f01ea3106bc57421c9c6.html"
+     ],
+     "to": [
+      "https://english.news.cn/20260817/ad14838a779e42e6a67957e5bef74bcf/c.html",
+      "http://www.chinadaily.com.cn/a/202608/20/WS6a86f01ea3106bc57421c9c6.html",
+      "https://www.younginmobility.com/"
+     ]
+    }
+   ]
+  }
+ ]
+}

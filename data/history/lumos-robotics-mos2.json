@@ -1,0 +1,38 @@
+{
+ "id": "lumos-robotics-mos2",
+ "name": "MOS 2",
+ "manufacturer": "Lumos Robotics",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-17",
+   "type": "added",
+   "source": "https://www.lumosbot.tech/products/mos",
+   "commit": "b596d3e",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://www.lumosbot.tech/products/mos",
+   "commit": "ae60ceb",
+   "changes": [
+    {
+     "field": "compute_soc",
+     "from": null,
+     "to": "NVIDIA Jetson AGX Orin"
+    },
+    {
+     "field": "compute_source",
+     "from": null,
+     "to": "https://www.lumosbot.tech/products/mos"
+    },
+    {
+     "field": "compute_tops",
+     "from": null,
+     "to": 275
+    }
+   ]
+  }
+ ]
+}

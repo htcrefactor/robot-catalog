@@ -1,0 +1,115 @@
+{
+ "id": "deep-robotics-lite3",
+ "name": "Lite3 (Basic)",
+ "manufacturer": "DEEP Robotics",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-03",
+   "type": "added",
+   "source": "https://www.deeprobotics.us/products/lite-3/",
+   "commit": "1a533a7",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://www.deeprobotics.us/products/lite-3/",
+   "commit": "ae60ceb",
+   "changes": [
+    {
+     "field": "note",
+     "from": null,
+     "to": "Maker page: Basic 610 x 370 x 406 mm, 12 kg, 5 kg payload, 1.5-2 h operation (1.5 recorded), 40 deg slope, RK3588 motion host plus Jetson Xavier NX perception host on Pro/LiDAR versions, Ubuntu 20.04, ROS 1 Noetic / ROS 2 Foxy and a Motion SDK. Other editions: Venture 445 mm/12.2 kg/4.5 kg, Pro 450 mm/12.9 kg/4 kg, LiDAR 496 mm/13.5 kg/2.5 kg."
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "official"
+    },
+    {
+     "field": "open_source_repos",
+     "from": null,
+     "to": [
+      {
+       "name": "Lite3_MotionSDK",
+       "url": "https://github.com/DeepRoboticsLab/Lite3_MotionSDK",
+       "license": "MIT"
+      },
+      {
+       "name": "deep_robotics_model",
+       "url": "https://github.com/DeepRoboticsLab/deep_robotics_model",
+       "license": "BSD-3-Clause"
+      },
+      {
+       "name": "rl_training",
+       "url": "https://github.com/DeepRoboticsLab/rl_training",
+       "license": "BSD-3-Clause"
+      }
+     ]
+    },
+    {
+     "field": "sdk",
+     "from": null,
+     "to": {
+      "languages": [
+       "C++"
+      ],
+      "open_source": true,
+      "license": "MIT",
+      "url": "https://github.com/DeepRoboticsLab/Lite3_MotionSDK"
+     }
+    },
+    {
+     "field": "sim_models",
+     "from": null,
+     "to": {
+      "urdf": {
+       "url": "https://github.com/DeepRoboticsLab/deep_robotics_model/blob/main/Lite3/urdf/Lite3.urdf",
+       "license": "BSD-3-Clause"
+      },
+      "mjcf": {
+       "url": "https://github.com/DeepRoboticsLab/deep_robotics_model/blob/main/Lite3/mjcf/Lite3.xml",
+       "license": "BSD-3-Clause"
+      },
+      "usd": {
+       "url": "https://github.com/DeepRoboticsLab/deep_robotics_model/blob/main/Lite3/usd/Lite3.usd",
+       "license": "BSD-3-Clause"
+      },
+      "isaac": {
+       "url": "https://github.com/DeepRoboticsLab/rl_training",
+       "license": "BSD-3-Clause"
+      }
+     }
+    },
+    {
+     "field": "sources",
+     "from": [
+      "https://www.deeprobotics.us/products/lite-3/"
+     ],
+     "to": [
+      "https://www.deeprobotics.us/products/lite-3/",
+      "https://github.com/DeepRoboticsLab/Lite3_MotionSDK",
+      "https://github.com/DeepRoboticsLab/deep_robotics_model/blob/main/Lite3/urdf/Lite3.urdf",
+      "https://github.com/DeepRoboticsLab/deep_robotics_model/blob/main/Lite3/mjcf/Lite3.xml",
+      "https://github.com/DeepRoboticsLab/deep_robotics_model/blob/main/Lite3/usd/Lite3.usd",
+      "https://github.com/DeepRoboticsLab/rl_training",
+      "https://github.com/DeepRoboticsLab/deep_robotics_model",
+      "https://github.com/DeepRoboticsLab/Lite3_ROS",
+      "https://developer.deeprobotics.cn/docs/lite3/guide/software/compute/"
+     ]
+    },
+    {
+     "field": "compute_soc",
+     "from": null,
+     "to": "Rockchip RK3588 + NVIDIA Jetson Xavier NX"
+    },
+    {
+     "field": "compute_source",
+     "from": null,
+     "to": "https://developer.deeprobotics.cn/docs/lite3/guide/software/compute/"
+    }
+   ]
+  }
+ ]
+}

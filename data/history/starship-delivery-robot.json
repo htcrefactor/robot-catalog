@@ -1,0 +1,33 @@
+{
+ "id": "starship-delivery-robot",
+ "name": "Starship delivery robot",
+ "manufacturer": "Starship Technologies",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-03",
+   "type": "added",
+   "source": "https://www.starship.xyz/our-robots/",
+   "commit": "1a533a7",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://www.starship.xyz/our-robots/",
+   "commit": "1173def",
+   "changes": [
+    {
+     "field": "note",
+     "from": null,
+     "to": "Maker pages: our-robots lists 12 cameras including time-of-flight, radar, ultrasonic sensors, six wheels with a bogie system, 18 h battery and up to three shopping bags; the FAQ states approx. 38 kg without cargo and ~4 mph (6.4 km/h). Battery capacity and dimensions are not published."
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "official"
+    }
+   ]
+  }
+ ]
+}

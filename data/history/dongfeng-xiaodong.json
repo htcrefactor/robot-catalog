@@ -1,0 +1,56 @@
+{
+ "id": "dongfeng-xiaodong",
+ "name": "Xiaodong",
+ "manufacturer": "Dongfeng Motor",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-17",
+   "type": "added",
+   "source": null,
+   "commit": "b596d3e",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://etp.dfmc.com.cn/xydt/002002/20260824/31848afc-4d5c-474f-94a0-960780ecc23f.html",
+   "commit": "4b395bc",
+   "changes": [
+    {
+     "field": "note",
+     "from": null,
+     "to": "Maker-side announcements only (Dongfeng's procurement/news portal carrying the 东风汽车报 report of 19 Aug 2026, and the company's own timetable reported 14 Sep 2026): Xiaodong is a full-size biped shown at the 2026 World Robot Conference, built with Huazhong University of Science and Technology (Dongfeng owns the 'brain', HUST the motion-control 'cerebellum'), running Dongfeng's Tianyuan embodied brain on an automotive-grade DF30 MCU and T500 controller, with a self-developed linear joint module rated 8,500 N peak thrust at 300 mm/s. Dongfeng plans pilot production at the end of 2026, hundreds of units in 2027 and thousands in 2028. No height, weight, DoF, payload or price is published by the maker, so every spec field stays empty."
+    },
+    {
+     "field": "official_url",
+     "from": null,
+     "to": "https://etp.dfmc.com.cn/xydt/002002/20260824/31848afc-4d5c-474f-94a0-960780ecc23f.html"
+    },
+    {
+     "field": "sources",
+     "from": [],
+     "to": [
+      "https://etp.dfmc.com.cn/xydt/002002/20260824/31848afc-4d5c-474f-94a0-960780ecc23f.html",
+      "https://www.nbd.com.cn/articles/2026-09-14/4581099.html"
+     ]
+    },
+    {
+     "field": "status",
+     "from": null,
+     "to": "Pilot"
+    },
+    {
+     "field": "summary",
+     "from": "",
+     "to": "Dongfeng Motor's first humanoid, shown at WRC 2026 and being trained for sorting, handling and inspection work in Dongfeng's own assembly shops."
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "official"
+    }
+   ]
+  }
+ ]
+}

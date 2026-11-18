@@ -1,0 +1,42 @@
+{
+ "id": "honda-asimo",
+ "name": "ASIMO",
+ "manufacturer": "Honda",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-17",
+   "type": "added",
+   "source": "https://global.honda/en/ASIMO/about",
+   "commit": "b596d3e",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://global.honda/en/ASIMO/about",
+   "commit": "11442a0",
+   "changes": [
+    {
+     "field": "note",
+     "from": "Specs are the 2011 'all-new ASIMO' per Honda (130x45x34 cm, 48 kg, 57 DoF, 9 km/h, 40 min). Earlier versions differ (2000: 120 cm/43 kg). Honda ended ASIMO development (reported 2018) - status not set from an official statement.",
+     "to": "Specs are the 2011 'all-new ASIMO' per Honda (130x45x34 cm, 48 kg, 57 DoF, 9 km/h, 40 min). Earlier versions differ (2000: 120 cm/43 kg). Honda ended ASIMO development in 2018 (Nikkei report of 28 Jun 2018; Honda said humanoid research continues) -> Discontinued."
+    },
+    {
+     "field": "sources",
+     "from": [
+      "https://global.honda/en/ASIMO/about",
+      "https://global.honda/en/newsroom/news/2011/c111108aeng.html",
+      "https://global.honda/jp/tech/ASIMO/about?from=asimo_top"
+     ],
+     "to": [
+      "https://global.honda/en/ASIMO/about",
+      "https://global.honda/en/newsroom/news/2011/c111108aeng.html",
+      "https://global.honda/jp/tech/ASIMO/about?from=asimo_top",
+      "https://www.nikkei.com/article/DGXMZO32334040Y8A620C1EAF000/"
+     ]
+    }
+   ]
+  }
+ ]
+}

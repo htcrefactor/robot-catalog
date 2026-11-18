@@ -1,0 +1,46 @@
+{
+ "id": "yobotics-y20-w",
+ "name": "Y20-W",
+ "manufacturer": "Shandong Youbaote Intelligent Robot (Yobotics)",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-17",
+   "type": "added",
+   "source": null,
+   "commit": "0a6305b",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://www.yobotics.cn/cpzx/szjqrxl/",
+   "commit": "fa098f7",
+   "changes": [
+    {
+     "field": "note",
+     "from": null,
+     "to": "Yobotics announced Y20-W on 18 September 2025 and lists it in the quadruped catalogue, but its parameter table is published only as a graphic on the maker's site; no text specification, datasheet or PDF was found, so no field is filled from the maker and the record stays unconfirmed. Third-party transcriptions of that graphic (e.g. 920 x 550 x 670 mm, 52 kg, IP67, 40 kg dynamic load) are not maker sources and were not used."
+    },
+    {
+     "field": "sources",
+     "from": [],
+     "to": [
+      "https://www.yobotics.cn/cpzx/szjqrxl/",
+      "https://www.yobotics.cn/xinwenzixun/41.html"
+     ]
+    },
+    {
+     "field": "summary",
+     "from": "",
+     "to": "Wheel-legged version of the Yobotics Y20 announced on 18 September 2025 for all-terrain inspection work."
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "unconfirmed"
+    }
+   ]
+  }
+ ]
+}

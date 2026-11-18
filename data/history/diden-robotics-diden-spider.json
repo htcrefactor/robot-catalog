@@ -1,0 +1,101 @@
+{
+ "id": "diden-robotics-diden-spider",
+ "name": "Diden Spider (Spider 30)",
+ "manufacturer": "Diden Robotics",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-04",
+   "type": "added",
+   "source": "https://www.didenrobotics.com/en/products",
+   "commit": "72ea16d",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://www.didenrobotics.com/en/products",
+   "commit": "0c54867",
+   "changes": [
+    {
+     "field": "dof",
+     "from": 12,
+     "to": null
+    },
+    {
+     "field": "height_mm",
+     "from": 494,
+     "to": null
+    },
+    {
+     "field": "length_mm",
+     "from": 958,
+     "to": null
+    },
+    {
+     "field": "note",
+     "from": null,
+     "to": "Maker sources (products page and the GTC 2026 article) state a 30 kg payload and electro-permanent magnet feet with pulse switching, and report field deployment at Korean shipyards with welds applied to production vessels. Mass, dimensions, joint count, IP rating and speed are not published on the maker's site; press reports (eWeek, Oct 2026) give 958 x 460 x 494 mm, 45 kg, 12 actuators, 0.1 m/s and IP54 connectors, and those values are cleared here rather than asserted."
+    },
+    {
+     "field": "sources",
+     "from": [
+      "https://robotworld.or.kr/visitors/pop_list_of_exhibitors.php?idx=1431",
+      "https://www.eweek.com/news/news-diden-spider-30-magnetic-robot-shipyards-south-korea-apac/",
+      "https://www.didenrobotics.com/en/resources-all/nvidia-gtc-2026-spider-30",
+      "https://en.fnnews.com/news/202611041829341672"
+     ],
+     "to": [
+      "https://www.didenrobotics.com/en/products",
+      "https://www.didenrobotics.com/en/resources-all/nvidia-gtc-2026-spider-30",
+      "https://robotworld.or.kr/visitors/pop_list_of_exhibitors.php?idx=1431",
+      "https://www.eweek.com/news/news-diden-spider-30-magnetic-robot-shipyards-south-korea-apac/",
+      "https://en.fnnews.com/news/202611041829341672",
+      "https://www.didenrobotics.com/"
+     ]
+    },
+    {
+     "field": "summary",
+     "from": "Magnetic-foot (electro-permanent magnet) quadruped that climbs steel walls and ceilings inside ship blocks to carry welding and inspection tools.",
+     "to": "Magnetic-foot quadruped that climbs steel walls and ceilings inside ship blocks to carry welding and inspection tools."
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "official"
+    },
+    {
+     "field": "weight_kg",
+     "from": 45,
+     "to": null
+    },
+    {
+     "field": "width_mm",
+     "from": 460,
+     "to": null
+    },
+    {
+     "field": "kr_distributors",
+     "from": null,
+     "to": [
+      {
+       "name": "디든로보틱스 (본사 직판)",
+       "kind": "direct",
+       "url": "https://www.didenrobotics.com/"
+      }
+     ]
+    },
+    {
+     "field": "manufacturer_ko",
+     "from": null,
+     "to": "디든로보틱스"
+    },
+    {
+     "field": "name_ko",
+     "from": null,
+     "to": "디든 스파이더 30"
+    }
+   ]
+  }
+ ]
+}

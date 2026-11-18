@@ -1,0 +1,55 @@
+{
+ "id": "humanoid-shanghai-linglong-l1",
+ "name": "Linglong L1",
+ "manufacturer": "Humanoid Robot (Shanghai)",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-17",
+   "type": "added",
+   "source": null,
+   "commit": "b596d3e",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://www.openloong.net",
+   "commit": "b310609",
+   "changes": [
+    {
+     "field": "note",
+     "from": null,
+     "to": "Maker is Humanoid Robot (Shanghai) Co., Ltd., which operates the National and Local Co-built Humanoid Robot Innovation Center and the OpenLoong community (openloong.net). Its WRC 2026 exhibit entry describes L1 as a biped platform for general light-load work, built for legged-locomotion research and for validating embodied algorithms on 7-DoF humanoid arms, with low cost, high compatibility and modularity as the selling points; the entry publishes no numbers. Third-party catalogue figures (161 cm, 64 kg, 28 DoF, 2 kg arm payload, 3 m/s) were not filled."
+    },
+    {
+     "field": "official_url",
+     "from": null,
+     "to": "https://www.openloong.net"
+    },
+    {
+     "field": "release_year",
+     "from": null,
+     "to": 2026
+    },
+    {
+     "field": "sources",
+     "from": [],
+     "to": [
+      "https://wrc.cie.org.cn/expo/company/395.html"
+     ]
+    },
+    {
+     "field": "summary",
+     "from": "",
+     "to": "Linglong L1, the low-cost biped research platform of the National and Local Co-built Humanoid Robot Innovation Center (Shanghai)."
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "official"
+    }
+   ]
+  }
+ ]
+}

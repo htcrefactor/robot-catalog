@@ -1,0 +1,45 @@
+{
+ "id": "collaborative-robotics-proxie-gen-2",
+ "name": "Proxie Gen 2",
+ "manufacturer": "Collaborative Robotics",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-17",
+   "type": "added",
+   "source": null,
+   "commit": "ebcdc70",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://www.co.bot/proxie",
+   "commit": "b1429ab",
+   "changes": [
+    {
+     "field": "notes",
+     "from": null,
+     "to": "The maker's Proxie page describes Glide 360 swerve drive, a Flex Grasp gripper, hot-swappable batteries, a vertical spine and an optional bimanual arm kit, but publishes no dimensions, weight, payload or speed. Press coverage quotes 1,500 lb cart towing and 220 lb spine lift and a USD 5,000-per-month subscription; those figures are not maker-published specifications, so no numeric fields are filled."
+    },
+    {
+     "field": "sources",
+     "from": [],
+     "to": [
+      "https://www.co.bot/proxie"
+     ]
+    },
+    {
+     "field": "summary",
+     "from": "",
+     "to": "Wheeled mobile manipulator with a vertical spine and optional dual arms for hospital, warehouse and line-side cart and tote handling."
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "unconfirmed"
+    }
+   ]
+  }
+ ]
+}

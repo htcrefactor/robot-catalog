@@ -1,0 +1,50 @@
+{
+ "id": "iit-hyq2max",
+ "name": "HyQ2Max",
+ "manufacturer": "Istituto Italiano di Tecnologia (IIT)",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-17",
+   "type": "added",
+   "source": null,
+   "commit": "b596d3e",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://dls.iit.it/hyq2max",
+   "commit": "1173def",
+   "changes": [
+    {
+     "field": "note",
+     "from": null,
+     "to": "The maker page describes HyQ2Max only qualitatively - increased hardware reliability and robustness, larger joint range, higher output torque at no weight cost - and publishes no mass, dimensions, speed, payload or runtime table, so all spec fields are left empty."
+    },
+    {
+     "field": "official_url",
+     "from": null,
+     "to": "https://dls.iit.it/hyq2max"
+    },
+    {
+     "field": "sources",
+     "from": [],
+     "to": [
+      "https://dls.iit.it/hyq2max"
+     ]
+    },
+    {
+     "field": "summary",
+     "from": "",
+     "to": "Strengthened HyQ with a far larger joint range and higher torque, built for robustness after impacts."
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "official"
+    }
+   ]
+  }
+ ]
+}

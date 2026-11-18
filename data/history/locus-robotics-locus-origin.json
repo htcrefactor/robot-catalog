@@ -1,0 +1,45 @@
+{
+ "id": "locus-robotics-locus-origin",
+ "name": "Locus Origin",
+ "manufacturer": "Locus Robotics",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-03",
+   "type": "added",
+   "source": "https://locusrobotics.com/platform/locus-origin/",
+   "commit": "1a533a7",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://locusrobotics.com/platform/locus-origin/",
+   "commit": "e6ebd1a",
+   "changes": [
+    {
+     "field": "certifications",
+     "from": null,
+     "to": [
+      "CE"
+     ]
+    },
+    {
+     "field": "safety_note",
+     "from": null,
+     "to": "Maker: “Locus Origin is CE Certified for European operations”."
+    },
+    {
+     "field": "safety_source",
+     "from": null,
+     "to": "https://locusrobotics.com/platform/locus-origin/"
+    },
+    {
+     "field": "safety_standards",
+     "from": null,
+     "to": []
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,184 @@
+{
+ "id": "booster-t1",
+ "name": "T1",
+ "manufacturer": "Booster Robotics",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-03",
+   "type": "added",
+   "source": "https://www.booster.tech/",
+   "commit": "1a533a7",
+   "changes": []
+  },
+  {
+   "date": "2026-11-13",
+   "type": "updated",
+   "source": "https://www.booster.tech/",
+   "commit": "14cd746",
+   "changes": [
+    {
+     "field": "price_note",
+     "from": null,
+     "to": "list price per HumanoidStore, checked 2026-10"
+    },
+    {
+     "field": "price_usd",
+     "from": null,
+     "to": 44670
+    },
+    {
+     "field": "sources",
+     "from": [
+      "https://docs.booster.tech/docs/product-manual/t1/getting-started/specifications/",
+      "https://www.booster.tech/booster-t1/"
+     ],
+     "to": [
+      "https://docs.booster.tech/docs/product-manual/t1/getting-started/specifications/",
+      "https://www.booster.tech/booster-t1/",
+      "https://humanoidstore.co/robots/booster-t1"
+     ]
+    }
+   ]
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://docs.booster.tech/docs/product-manual/t1/getting-started/specifications/",
+   "commit": "ae60ceb",
+   "changes": [
+    {
+     "field": "notes",
+     "from": null,
+     "to": "Issue #17 (2026-11-17): specs from Booster's T1 product manual; humanoidstore price removed (Booster publishes none; T1 page now redirects to T2/K1, so status Discontinued is inferred). [emptied (no maker value) price_usd=44670; price_note=list price per HumanoidStore, checked 2026-10]"
+    },
+    {
+     "field": "price_note",
+     "from": "list price per HumanoidStore, checked 2026-10",
+     "to": null
+    },
+    {
+     "field": "price_usd",
+     "from": 44670,
+     "to": null
+    },
+    {
+     "field": "sources",
+     "from": [
+      "https://docs.booster.tech/docs/product-manual/t1/getting-started/specifications/",
+      "https://www.booster.tech/booster-t1/",
+      "https://humanoidstore.co/robots/booster-t1"
+     ],
+     "to": [
+      "https://docs.booster.tech/docs/product-manual/t1/getting-started/specifications/",
+      "https://www.booster.tech/booster-t1/",
+      "https://humanoidstore.co/robots/booster-t1",
+      "https://github.com/BoosterRobotics/booster_robotics_sdk",
+      "https://github.com/BoosterRobotics/booster_assets/blob/main/robots/T1/T1_23dof.urdf",
+      "https://github.com/BoosterRobotics/booster_assets/blob/main/robots/T1/T1_23dof.xml",
+      "https://github.com/BoosterRobotics/booster_assets"
+     ]
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "official"
+    },
+    {
+     "field": "compute_detail",
+     "from": "NVIDIA Jetson AGX Orin 32GB (200 TOPS); Standard adds Intel i7 motion-control board",
+     "to": "NVIDIA Jetson AGX Orin (200 TOPS) in Basic; Standard and Customized add an Intel i7 board"
+    },
+    {
+     "field": "note",
+     "from": null,
+     "to": "Maker T1 manual (docs.booster.tech > T1 > Specifications): height 1.18 m, ~30 kg, 23 DoF (6 per leg, 4 per arm expandable, 1 waist, 2 head), walking speed 1 m/s, turning 1.5 rad/s, battery life 2 h with <=2 h charge, -10 to 45 C, 5-90% humidity, depth camera + mic array + speaker, Wi-Fi 6 / BT 5.2, CE/FCC, emergency stop; Basic ships the Jetson AGX Orin (200 TOPS), Standard and Customized add an Intel i7 board. The printed spec sheet on the maker's old product page adds 10.5 Ah battery, 130 N.m peak torque and 6-mic array; pack voltage is not published so battery_wh stays empty. The product page booster.tech/booster-t1 now redirects to the T2/K1 lineup, so status recorded as Discontinued. Price is the HumanoidStore figure, not a maker price."
+    },
+    {
+     "field": "official_url",
+     "from": "https://www.booster.tech/",
+     "to": "https://docs.booster.tech/docs/product-manual/t1/getting-started/specifications/"
+    },
+    {
+     "field": "sensors",
+     "from": [
+      "Depth camera",
+      "Microphone array"
+     ],
+     "to": [
+      "Depth camera",
+      "Microphone array",
+      "Speaker"
+     ]
+    },
+    {
+     "field": "summary",
+     "from": "Small developer/RoboCup humanoid; T1 product page now redirects to a lineup of T2 and K1, so status recorded as discontinued (inferred).",
+     "to": "Booster Robotics' 1.18 m developer humanoid that won the RoboCup AdultSize 2025 title and is now superseded by T2 and K1."
+    },
+    {
+     "field": "open_source_repos",
+     "from": null,
+     "to": [
+      {
+       "name": "booster_robotics_sdk",
+       "url": "https://github.com/BoosterRobotics/booster_robotics_sdk",
+       "license": "Apache-2.0"
+      },
+      {
+       "name": "booster_assets",
+       "url": "https://github.com/BoosterRobotics/booster_assets",
+       "license": "BSD-3-Clause"
+      }
+     ]
+    },
+    {
+     "field": "sdk",
+     "from": null,
+     "to": {
+      "languages": [
+       "C++"
+      ],
+      "open_source": true,
+      "license": "Apache-2.0",
+      "url": "https://github.com/BoosterRobotics/booster_robotics_sdk"
+     }
+    },
+    {
+     "field": "sim_models",
+     "from": null,
+     "to": {
+      "urdf": {
+       "url": "https://github.com/BoosterRobotics/booster_assets/blob/main/robots/T1/T1_23dof.urdf",
+       "license": "BSD-3-Clause"
+      },
+      "mjcf": {
+       "url": "https://github.com/BoosterRobotics/booster_assets/blob/main/robots/T1/T1_23dof.xml",
+       "license": "BSD-3-Clause"
+      }
+     }
+    },
+    {
+     "field": "compute_memory_gb",
+     "from": null,
+     "to": 32
+    },
+    {
+     "field": "compute_soc",
+     "from": null,
+     "to": "NVIDIA Jetson AGX Orin 32GB"
+    },
+    {
+     "field": "compute_source",
+     "from": null,
+     "to": "https://docs.booster.tech/docs/product-manual/t1/getting-started/specifications/"
+    },
+    {
+     "field": "compute_tops",
+     "from": null,
+     "to": 200
+    }
+   ]
+  }
+ ]
+}

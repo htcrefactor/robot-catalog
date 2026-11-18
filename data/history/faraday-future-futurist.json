@@ -1,0 +1,65 @@
+{
+ "id": "faraday-future-futurist",
+ "name": "Futurist (All-New Futurist)",
+ "manufacturer": "Faraday Future",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-17",
+   "type": "added",
+   "source": "https://robotics.ff.com/us/futurist/",
+   "commit": "b596d3e",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://robotics.ff.com/us/futurist/",
+   "commit": "ae60ceb",
+   "changes": [
+    {
+     "field": "price_note",
+     "from": "MSRP, standard All-New Futurist (Ultra $129,900)",
+     "to": null
+    },
+    {
+     "field": "price_observations",
+     "from": null,
+     "to": [
+      {
+       "date": "2026-11-17",
+       "amount": 89900,
+       "currency": "USD",
+       "kind": "list",
+       "source": "https://shop.ff.com/products/ff-all-new-futurist",
+       "note": "All-New Futurist"
+      },
+      {
+       "date": "2026-11-17",
+       "amount": 129900,
+       "currency": "USD",
+       "kind": "list",
+       "source": "https://shop.ff.com/products/ff-all-new-futurist",
+       "note": "All-New Futurist Ultra"
+      }
+     ]
+    },
+    {
+     "field": "price_usd",
+     "from": 89900,
+     "to": null
+    },
+    {
+     "field": "compute_soc",
+     "from": null,
+     "to": "Rockchip RK3588"
+    },
+    {
+     "field": "compute_source",
+     "from": null,
+     "to": "https://shop.ff.com/products/ff-all-new-futurist"
+    }
+   ]
+  }
+ ]
+}

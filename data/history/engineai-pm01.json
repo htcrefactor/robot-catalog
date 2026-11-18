@@ -1,0 +1,135 @@
+{
+ "id": "engineai-pm01",
+ "name": "PM01",
+ "manufacturer": "EngineAI",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-03",
+   "type": "added",
+   "source": "https://en.engineai.com.cn/product-pm01.html",
+   "commit": "1a533a7",
+   "changes": []
+  },
+  {
+   "date": "2026-11-13",
+   "type": "updated",
+   "source": "https://en.engineai.com.cn/product-pm01.html",
+   "commit": "14cd746",
+   "changes": [
+    {
+     "field": "price_note",
+     "from": null,
+     "to": "list price per HumanoidStore, checked 2026-10"
+    },
+    {
+     "field": "price_usd",
+     "from": null,
+     "to": 26000
+    },
+    {
+     "field": "sources",
+     "from": [
+      "https://en.engineai.com.cn/product-pm01.html"
+     ],
+     "to": [
+      "https://en.engineai.com.cn/product-pm01.html",
+      "https://humanoidstore.co/robots/engineai-pm01"
+     ]
+    }
+   ]
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://www.engineai.com.cn/product-pm01.html",
+   "commit": "ae60ceb",
+   "changes": [
+    {
+     "field": "notes",
+     "from": null,
+     "to": "Issue #17 (2026-11-17): specs from EngineAI's PM01 page; humanoidstore price removed (no maker price). [emptied (no maker value) price_usd=26000; price_note=list price per HumanoidStore, checked 2026-10]"
+    },
+    {
+     "field": "price_note",
+     "from": "list price per HumanoidStore, checked 2026-10",
+     "to": null
+    },
+    {
+     "field": "price_usd",
+     "from": 26000,
+     "to": null
+    },
+    {
+     "field": "sources",
+     "from": [
+      "https://en.engineai.com.cn/product-pm01.html",
+      "https://humanoidstore.co/robots/engineai-pm01"
+     ],
+     "to": [
+      "https://en.engineai.com.cn/product-pm01.html",
+      "https://www.engineai.com.cn/product-pm01.html",
+      "https://humanoidstore.co/robots/engineai-pm01"
+     ]
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "official"
+    },
+    {
+     "field": "compute_detail",
+     "from": "8-core CPU + NVIDIA Jetson Orin NX 16GB",
+     "to": "NVIDIA Jetson Orin NX 16GB"
+    },
+    {
+     "field": "length_mm",
+     "from": 253,
+     "to": 295
+    },
+    {
+     "field": "note",
+     "from": null,
+     "to": "Maker product page (engineai.com.cn/product-pm01.html, Chinese page carries the numeric table): 1400 (H) x 540 (W) x 295 (D) mm, about 44.5 kg, 24 total DoF with a waist that rotates 320 degrees, walking speed over 2 m/s with hardware support, 10,000 mAh battery for about 2 h and about 2 h to full charge, NVIDIA Jetson Orin NX (16G) onboard, head and waist wide-angle binocular cameras, 3D LiDAR on the navigation edition, open SDK/ROS 2 development framework. Earlier record had depth 253 mm and 44 kg; the maker page values are recorded. Maker publishes no list price, so the HumanoidStore figure stands with its own label."
+    },
+    {
+     "field": "official_url",
+     "from": "https://en.engineai.com.cn/product-pm01.html",
+     "to": "https://www.engineai.com.cn/product-pm01.html"
+    },
+    {
+     "field": "sensors",
+     "from": [
+      "Wide-FOV binocular camera x2 (head and waist)",
+      "3D LiDAR (Navigation Edition only)"
+     ],
+     "to": [
+      "Wide-FOV binocular camera (head)",
+      "Wide-FOV binocular camera (waist)",
+      "3D LiDAR (Navigation Edition)"
+     ]
+    },
+    {
+     "field": "weight_kg",
+     "from": 44,
+     "to": 44.5
+    },
+    {
+     "field": "compute_memory_gb",
+     "from": null,
+     "to": 16
+    },
+    {
+     "field": "compute_soc",
+     "from": null,
+     "to": "NVIDIA Jetson Orin NX 16GB"
+    },
+    {
+     "field": "compute_source",
+     "from": null,
+     "to": "https://en.engineai.com.cn/product-pm01.html"
+    }
+   ]
+  }
+ ]
+}

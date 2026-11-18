@@ -1,0 +1,73 @@
+{
+ "id": "vbot-dev",
+ "name": "DEV Geek Edition",
+ "manufacturer": "Vbot (Vita Dynamics)",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-10",
+   "type": "added",
+   "source": "https://ai.42how.com/en/article/b3a58c9d-4873-4d89-a13f-ceb0801b54a9",
+   "commit": "7872acf",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://www.vbot.cn/Detail",
+   "commit": "ae60ceb",
+   "changes": [
+    {
+     "field": "note",
+     "from": null,
+     "to": "Vita Dynamics (维他动力) released the DEV Geek Edition on 10 November 2026 for CNY 22,988 (CNY 20,988 from 10 to 20 November) as a developer version of its Vbot platform, with a 360 degree 16-line LiDAR, 1080p depth stereo cameras, UWB, a four-microphone array, 128 TOPS on-device compute, ROS 2 and the open-sourced Aorta middleware. The 594 Wh battery and the sensor set are the maker's platform figures on vbot.cn/Detail; the maker publishes no separate DEV mass, dimensions, speed or runtime table, so those fields stay empty."
+    },
+    {
+     "field": "official_url",
+     "from": null,
+     "to": "https://www.vbot.cn/Detail"
+    },
+    {
+     "field": "sensors",
+     "from": [
+      "360° LiDAR",
+      "Stereo camera",
+      "UWB",
+      "Microphone array",
+      "IMU"
+     ],
+     "to": [
+      "360° 16-line LiDAR",
+      "Depth stereo camera",
+      "UWB",
+      "4-microphone array",
+      "IMU"
+     ]
+    },
+    {
+     "field": "sources",
+     "from": [
+      "https://ai.42how.com/en/article/b3a58c9d-4873-4d89-a13f-ceb0801b54a9",
+      "https://www.timesauto.com/czix/202611/478920.html",
+      "https://robosignal.ai/items/vbot-dev-a-20-988-yuan-quadruped-robot-for-personal-developers-i4my8cu1t9u13aqa10fbhknvx"
+     ],
+     "to": [
+      "https://www.vbot.cn/Detail",
+      "https://www.sina.cn/weibo/detail/5363652203911245.html",
+      "https://ai.42how.com/en/article/b3a58c9d-4873-4d89-a13f-ceb0801b54a9"
+     ]
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "official"
+    },
+    {
+     "field": "compute_tops",
+     "from": null,
+     "to": 128
+    }
+   ]
+  }
+ ]
+}

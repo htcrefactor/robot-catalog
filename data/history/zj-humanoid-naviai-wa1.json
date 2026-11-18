@@ -1,0 +1,59 @@
+{
+ "id": "zj-humanoid-naviai-wa1",
+ "name": "NAVIAI WA1",
+ "manufacturer": "Zhejiang Humanoid Robot Innovation Center",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-17",
+   "type": "added",
+   "source": null,
+   "commit": "b596d3e",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://us.zj-humanoid.com/zujian/9",
+   "commit": "b1429ab",
+   "changes": [
+    {
+     "field": "notes",
+     "from": null,
+     "to": "Maker states an industrial omnidirectional chassis with lift, pitch and rotation that reaches 2 m, 0.03 mm assembly accuracy, under 1 mL dispensing error and +/-2 mm fabric alignment. Height, weight, DoF, payload and battery are not published on the reachable product page, so those fields stay empty."
+    },
+    {
+     "field": "official_url",
+     "from": null,
+     "to": "https://us.zj-humanoid.com/zujian/9"
+    },
+    {
+     "field": "sensors",
+     "from": [],
+     "to": [
+      "Vision camera",
+      "Force sensing",
+      "Tactile sensing"
+     ]
+    },
+    {
+     "field": "sources",
+     "from": [],
+     "to": [
+      "https://us.zj-humanoid.com/zujian/9"
+     ]
+    },
+    {
+     "field": "summary",
+     "from": "",
+     "to": "Wheeled industrial mobile manipulator for ultra-precision assembly, fabric cutting and laboratory dispensing."
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "official"
+    }
+   ]
+  }
+ ]
+}

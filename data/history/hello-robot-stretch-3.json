@@ -1,0 +1,135 @@
+{
+ "id": "hello-robot-stretch-3",
+ "name": "Stretch 3",
+ "manufacturer": "Hello Robot",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-03",
+   "type": "added",
+   "source": "https://hello-stretch3.com/stretch-3-product",
+   "commit": "1a533a7",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://hello-stretch3.com/stretch-3-product",
+   "commit": "ae60ceb",
+   "changes": [
+    {
+     "field": "notes",
+     "from": null,
+     "to": "Maker page: 33 x 34 x 141 cm, 24.5 kg, 2 kg payload, 2-5 h runtime depending on CPU load, differential drive with 2 DoF base, 1 DoF lift, 1 DoF telescoping arm and 3 DoF wrist plus gripper, Intel NUC 12, ROS 2 and Python SDK, gripper and head RGB-D cameras, RPLIDAR A1 and 4-microphone array. The page currently marks Stretch 3 as sold out."
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "official"
+    },
+    {
+     "field": "open_source_repos",
+     "from": null,
+     "to": [
+      {
+       "name": "stretch_body",
+       "url": "https://github.com/hello-robot/stretch_body",
+       "license": "LGPL-3.0"
+      },
+      {
+       "name": "stretch_urdf",
+       "url": "https://github.com/hello-robot/stretch_urdf",
+       "license": "BSD-3-Clause-Clear"
+      },
+      {
+       "name": "stretch_mujoco",
+       "url": "https://github.com/hello-robot/stretch_mujoco",
+       "license": "BSD-3-Clause-Clear"
+      }
+     ]
+    },
+    {
+     "field": "ros2_support",
+     "from": null,
+     "to": true
+    },
+    {
+     "field": "ros2_url",
+     "from": null,
+     "to": "https://github.com/hello-robot/stretch_ros2"
+    },
+    {
+     "field": "sdk",
+     "from": null,
+     "to": {
+      "languages": [
+       "Python"
+      ],
+      "open_source": true,
+      "license": "LGPL-3.0",
+      "url": "https://github.com/hello-robot/stretch_body"
+     }
+    },
+    {
+     "field": "sim_models",
+     "from": null,
+     "to": {
+      "urdf": {
+       "url": "https://github.com/hello-robot/stretch_urdf",
+       "license": "BSD-3-Clause-Clear"
+      },
+      "mujoco": {
+       "url": "https://github.com/hello-robot/stretch_mujoco",
+       "license": "BSD-3-Clause-Clear"
+      }
+     }
+    },
+    {
+     "field": "sources",
+     "from": [
+      "https://hello-stretch3.com/stretch-3-product",
+      "https://github.com/hello-robot/stretch_hardware_guides/blob/master/docs/hardware_guide_stretch_3.md"
+     ],
+     "to": [
+      "https://hello-stretch3.com/stretch-3-product",
+      "https://github.com/hello-robot/stretch_hardware_guides/blob/master/docs/hardware_guide_stretch_3.md",
+      "https://github.com/hello-robot/stretch_body",
+      "https://github.com/hello-robot/stretch_ros2",
+      "https://github.com/hello-robot/stretch_urdf",
+      "https://github.com/hello-robot/stretch_mujoco"
+     ]
+    },
+    {
+     "field": "certifications",
+     "from": null,
+     "to": []
+    },
+    {
+     "field": "safety_note",
+     "from": null,
+     "to": "Hardware guide: not certified as a consumer device; claimed as an exempt digital device under FCC 47 CFR 15.103(c)."
+    },
+    {
+     "field": "safety_source",
+     "from": null,
+     "to": "https://github.com/hello-robot/stretch_hardware_guides/blob/master/docs/hardware_guide_stretch_3.md"
+    },
+    {
+     "field": "safety_standards",
+     "from": null,
+     "to": []
+    },
+    {
+     "field": "compute_soc",
+     "from": null,
+     "to": "Intel NUC 12"
+    },
+    {
+     "field": "compute_source",
+     "from": null,
+     "to": "https://hello-stretch3.com/stretch-3-product"
+    }
+   ]
+  }
+ ]
+}

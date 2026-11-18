@@ -1,0 +1,56 @@
+{
+ "id": "greentrans-gt3x",
+ "name": "GT3X",
+ "manufacturer": "GreenTrans",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-17",
+   "type": "added",
+   "source": null,
+   "commit": "b596d3e",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://www.greentrans-agv.com/",
+   "commit": "1173def",
+   "changes": [
+    {
+     "field": "note",
+     "from": null,
+     "to": "GreenTrans (綠捷), China Motor's wholly owned subsidiary, launched GT5X and GT3X at SEMICON Taiwan on 2 Sep 2026; the maker's release, carried by CNA and U-CAR, gives GT3X a 30 kg payload for factory inspection, campus patrol, equipment monitoring, warehousing and outdoor rounds, with NVIDIA Jetson Orin compute, Isaac Lab training and an LFP battery developed with Formosa Plastics New Smart Energy. Mass, dimensions, speed and runtime are not published, and the maker's site carries AMR/AGV pages only."
+    },
+    {
+     "field": "official_url",
+     "from": null,
+     "to": "https://www.greentrans-agv.com/"
+    },
+    {
+     "field": "payload_kg",
+     "from": null,
+     "to": 30
+    },
+    {
+     "field": "sources",
+     "from": [],
+     "to": [
+      "https://www.cna.com.tw/news/afe/202609020312.aspx",
+      "https://news.u-car.com.tw/news/article/89594"
+     ]
+    },
+    {
+     "field": "summary",
+     "from": "",
+     "to": "Taiwan-developed inspection quadruped from China Motor's GreenTrans subsidiary, with a 30 kg payload and local supply chain."
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "official"
+    }
+   ]
+  }
+ ]
+}

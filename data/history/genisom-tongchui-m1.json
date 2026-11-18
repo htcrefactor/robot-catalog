@@ -1,0 +1,28 @@
+{
+ "id": "genisom-tongchui-m1",
+ "name": "Tongchui M1",
+ "manufacturer": "GENISOM AI (ZsiBot)",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-17",
+   "type": "added",
+   "source": "https://www.genisomai.com/product-robot/M1",
+   "commit": "b596d3e",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://www.genisomai.com/product-robot/M1",
+   "commit": "ae60ceb",
+   "changes": [
+    {
+     "field": "compute_tops",
+     "from": null,
+     "to": 100
+    }
+   ]
+  }
+ ]
+}

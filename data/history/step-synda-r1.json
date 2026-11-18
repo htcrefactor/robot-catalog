@@ -1,0 +1,60 @@
+{
+ "id": "step-synda-r1",
+ "name": "SYNDA R1",
+ "manufacturer": "STEP",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-17",
+   "type": "added",
+   "source": null,
+   "commit": "b596d3e",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://www.stepelectric.com/News_details/215.html",
+   "commit": "75b989d",
+   "changes": [
+    {
+     "field": "note",
+     "from": null,
+     "to": "Maker release (2025-12-29 launch event) announces SYNDA R1 as the industry's first humanoid built to industrial-grade standards, with a full-size humanoid design, high-precision manipulation, all-weather continuous operation and adaptation to complex environments, plus a self-developed joint module line launched alongside. The release carries the specification table only as an image, so no height, weight, DOF, payload, speed or battery figure could be read from a maker source and every spec field is left empty. STEP (新时达, Shanghai STEP Electric, 002527) is an industrial robot and motion-control company; the humanoid line targets its own manufacturing scenarios first."
+    },
+    {
+     "field": "official_url",
+     "from": null,
+     "to": "https://www.stepelectric.com/News_details/215.html"
+    },
+    {
+     "field": "release_year",
+     "from": null,
+     "to": 2025
+    },
+    {
+     "field": "sources",
+     "from": [],
+     "to": [
+      "https://www.stepelectric.com/News_details/215.html"
+     ]
+    },
+    {
+     "field": "status",
+     "from": null,
+     "to": "Commercial"
+    },
+    {
+     "field": "summary",
+     "from": "",
+     "to": "SYNDA R1 is Shanghai STEP Electric's first industrial-grade embodied humanoid, launched in December 2025 as a full-size bipedal-style platform for factory work."
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "official"
+    }
+   ]
+  }
+ ]
+}

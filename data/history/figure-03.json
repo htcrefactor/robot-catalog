@@ -1,0 +1,92 @@
+{
+ "id": "figure-03",
+ "name": "Figure 03",
+ "manufacturer": "Figure AI",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-03",
+   "type": "added",
+   "source": "https://www.figure.ai/figure",
+   "commit": "1a533a7",
+   "changes": []
+  },
+  {
+   "date": "2026-11-13",
+   "type": "updated",
+   "source": "https://www.figure.ai/figure",
+   "commit": "14cd746",
+   "changes": [
+    {
+     "field": "sources",
+     "from": [
+      "https://www.figure.ai/figure",
+      "https://www.figure.ai/news/introducing-figure-03"
+     ],
+     "to": [
+      "https://www.figure.ai/figure",
+      "https://www.figure.ai/news/introducing-figure-03",
+      "https://humanoidstore.co/robots/figure-03"
+     ]
+    }
+   ]
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://www.figure.ai/figure",
+   "commit": "4b395bc",
+   "changes": [
+    {
+     "field": "notes",
+     "from": null,
+     "to": "Issue #17 (2026-11-17): 5'8\" (1727 mm), 61 kg, 20 kg payload, 1.2 m/s, 5 h runtime confirmed on figure.ai. HumanoidStore rows dropped."
+    },
+    {
+     "field": "sources",
+     "from": [
+      "https://www.figure.ai/figure",
+      "https://www.figure.ai/news/introducing-figure-03",
+      "https://humanoidstore.co/robots/figure-03"
+     ],
+     "to": [
+      "https://www.figure.ai/figure",
+      "https://www.figure.ai/news/introducing-figure-03"
+     ]
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "official"
+    },
+    {
+     "field": "note",
+     "from": null,
+     "to": "Maker page figure.ai/figure (checked 2026-11-17): 5 ft 8 in (1727 mm), 61 kg, 20 kg payload, 5 h runtime, 1.2 m/s, electric. The 'Introducing Figure 03' release adds 2 kW wireless inductive charging through coils in the feet, 10 Gbps mmWave data offload, fingertip tactile sensors that resolve about 3 g, palm cameras, cameras with twice the frame rate, a quarter of the latency and 60% wider field of view than Figure 02, 9% less mass than Figure 02 and a UN 38.3 battery. DoF is not published by the maker, so it stays empty; no price is published."
+    },
+    {
+     "field": "sensors",
+     "from": [
+      "Cameras",
+      "Palm cameras",
+      "Fingertip tactile sensors",
+      "Microphone",
+      "Speaker"
+     ],
+     "to": [
+      "Palm cameras",
+      "Fingertip tactile sensors",
+      "Cameras",
+      "Microphone",
+      "Speaker"
+     ]
+    },
+    {
+     "field": "summary",
+     "from": "General-purpose humanoid aimed at the home and commercial work, built around Figure's Helix VLA model; 2 kW wireless foot charging. Height 5'8\" converted.",
+     "to": "Figure's third-generation electric humanoid for household work, with tactile hands, palm cameras, inductive foot charging and a 5 h runtime."
+    }
+   ]
+  }
+ ]
+}

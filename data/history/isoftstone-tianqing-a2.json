@@ -1,0 +1,50 @@
+{
+ "id": "isoftstone-tianqing-a2",
+ "name": "A2",
+ "manufacturer": "iSoftStone Tianqing",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-17",
+   "type": "added",
+   "source": null,
+   "commit": "b596d3e",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://www.worldrobotconference.com/expo/company/652.html",
+   "commit": "b310609",
+   "changes": [
+    {
+     "field": "note",
+     "from": null,
+     "to": "Maker exhibit entry (WRC 2026, Hangzhou iSoftStone Tianqing Robot Technology, an iSoftStone spin-out): the A2 line covers an interaction version (public-space service with multimodal interaction and autonomous navigation) and a work version (a general mobile service platform with standard development interfaces for single and fleet applications); the S, A and T series cover biped and wheeled semi-humanoid robots. The entry publishes no numbers. Third-party catalogue figures (162 cm, 20 DoF, 7-DoF arms) were not filled."
+    },
+    {
+     "field": "official_url",
+     "from": null,
+     "to": "https://www.worldrobotconference.com/expo/company/652.html"
+    },
+    {
+     "field": "sources",
+     "from": [],
+     "to": [
+      "https://www.worldrobotconference.com/expo/company/652.html"
+     ]
+    },
+    {
+     "field": "summary",
+     "from": "",
+     "to": "iSoftStone Tianqing's A2 wheeled service and industrial humanoid, offered in an interaction version and a work version."
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "official"
+    }
+   ]
+  }
+ ]
+}

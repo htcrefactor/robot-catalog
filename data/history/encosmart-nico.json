@@ -1,0 +1,46 @@
+{
+ "id": "encosmart-nico",
+ "name": "Nico",
+ "manufacturer": "EncoSmart",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-17",
+   "type": "added",
+   "source": null,
+   "commit": "b596d3e",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://encosmart.com/",
+   "commit": "4b395bc",
+   "changes": [
+    {
+     "field": "note",
+     "from": null,
+     "to": "No maker page could be found. EncoSmart's own site (encosmart.com) presents kitchen automation - the LAVA frying station and the Encobot Tornado and Linn - and does not list Nico; the robot was announced 16 Apr 2026 at the Canton Fair by Ninebot Commercial (九号商用) with EncoSmart, and the only spec text is a press release republished by venues and Korean trade press: 165 cm, under 55 kg, 7-DoF food-grade arms with biomimetic hands, 8-10 h in a hybrid move/standby mode, no-track navigation. Those numbers are press-release claims without a maker page behind them, so no field is filled."
+    },
+    {
+     "field": "sources",
+     "from": [],
+     "to": [
+      "https://encosmart.com/",
+      "http://www.continentalgrandhotel.com/cn/news/8610.html"
+     ]
+    },
+    {
+     "field": "summary",
+     "from": "",
+     "to": "A food-service humanoid announced by Ninebot Commercial with EncoSmart for restaurant and hotel work; only press-release material exists, with no maker product page."
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "unconfirmed"
+    }
+   ]
+  }
+ ]
+}

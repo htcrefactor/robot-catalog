@@ -1,0 +1,79 @@
+{
+ "id": "jianghuai-qijiang-humanoid",
+ "name": "Qijiang humanoid",
+ "manufacturer": "JiangHuai Advanced Technology Center",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-17",
+   "type": "added",
+   "source": null,
+   "commit": "b596d3e",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://worldrobotconference.com/expo/company/458.html",
+   "commit": "b310609",
+   "changes": [
+    {
+     "field": "dof",
+     "from": null,
+     "to": 38
+    },
+    {
+     "field": "height_mm",
+     "from": null,
+     "to": 1800
+    },
+    {
+     "field": "note",
+     "from": null,
+     "to": "Maker exhibit entry (WRC 2026): Qijiang is about 1.8 m tall, about 60 kg, with 38 active whole-body DoF and intelligent decision-making, robust locomotion and dexterous control on a 'smart brain - agile cerebellum - strong limbs' stack, targeted at household chore, elderly-care, assembly and high-risk tasks. The Qijiang-2 prototype was unveiled on 8 Sep 2024 with the same 1.8 m / 60 kg / 38 DoF figures; a Qijiang-2M variant is 170 cm / 50 kg / 32 DoF / 200 TOPS. Speed, runtime, battery and price are not published."
+    },
+    {
+     "field": "official_url",
+     "from": null,
+     "to": "https://worldrobotconference.com/expo/company/458.html"
+    },
+    {
+     "field": "release_year",
+     "from": null,
+     "to": 2024
+    },
+    {
+     "field": "sensors",
+     "from": [],
+     "to": [
+      "Vision sensors",
+      "High-precision IMU",
+      "6-axis force/torque sensors"
+     ]
+    },
+    {
+     "field": "sources",
+     "from": [],
+     "to": [
+      "https://worldrobotconference.com/expo/company/458.html"
+     ]
+    },
+    {
+     "field": "summary",
+     "from": "",
+     "to": "The JiangHuai (JAC) Advanced Technology Center's Qijiang humanoid, a 1.8 m, 38-DoF biped aimed at home service and industrial work."
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "official"
+    },
+    {
+     "field": "weight_kg",
+     "from": null,
+     "to": 60
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,46 @@
+{
+ "id": "zioneer-xiaomu",
+ "name": "Xiaomu",
+ "manufacturer": "Zioneer",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-17",
+   "type": "added",
+   "source": null,
+   "commit": "b596d3e",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://www.zioneer.com/",
+   "commit": "b1429ab",
+   "changes": [
+    {
+     "field": "notes",
+     "from": null,
+     "to": "The maker (ZIONEER Robotics, Jilin) describes Xiaomu only as a commercial-service and pharmacy robot that builds its own semantic map of a store; its site publishes no dimensions, payload, battery or speed. The maker's copy also does not describe it as a humanoid, so the humanoid category may need review."
+    },
+    {
+     "field": "sources",
+     "from": [],
+     "to": [
+      "https://www.zioneer.com/",
+      "https://www.zioneer.com/nd.jsp?id=30"
+     ]
+    },
+    {
+     "field": "summary",
+     "from": "",
+     "to": "Commercial-service and pharmacy robot that maps a store and runs night-time sales, guidance and consultation tasks."
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "unconfirmed"
+    }
+   ]
+  }
+ ]
+}

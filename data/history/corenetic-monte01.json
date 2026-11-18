@@ -1,0 +1,119 @@
+{
+ "id": "corenetic-monte01",
+ "name": "Monte01",
+ "manufacturer": "Corenetic",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-17",
+   "type": "added",
+   "source": null,
+   "commit": "b596d3e",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://www.corenetic.ai/en/product",
+   "commit": "4b395bc",
+   "changes": [
+    {
+     "field": "battery_wh",
+     "from": null,
+     "to": 1536
+    },
+    {
+     "field": "compute_detail",
+     "from": null,
+     "to": "Embedded AI processor 200+ TOPS plus an x86 industrial real-time control board"
+    },
+    {
+     "field": "dof",
+     "from": null,
+     "to": 25
+    },
+    {
+     "field": "height_mm",
+     "from": null,
+     "to": 1530
+    },
+    {
+     "field": "length_mm",
+     "from": null,
+     "to": 600
+    },
+    {
+     "field": "max_speed_mps",
+     "from": null,
+     "to": 1.0
+    },
+    {
+     "field": "note",
+     "from": null,
+     "to": "Maker spec slide linked from corenetic.ai/en/product (cdn.yuanluo.cloud/.../monte_01_params.webp, read 2026-11-17): dimensions 600 x 650 x 1530 mm, 120 kg, 25 DoF with the two-finger grippers (base 2 + waist 3 + head 2 + arms 7x2 + grippers 2x2; with two 9-DoF dexterous hands it is 39), 700 mm arm length, 3.5 kg max per arm at the end flange (payload_kg = per-arm figure), two-wheel differential drive at 1.0 m/s max on indoor floors with slope <=10 deg, 51.2 V / 30 Ah battery (battery_wh = 51.2x30 = 1536 Wh, computed), 8 h typical runtime and 4 h charge, 200+ TOPS embedded AI processor plus x86 industrial real-time control board, 1 head RGBD camera and 2x1 RGBD cameras at the arm ends, Wi-Fi 6 / gigabit Ethernet / full Type-C. Maker's slide carries a disclaimer that the figures are lab measurements for reference only."
+    },
+    {
+     "field": "official_url",
+     "from": null,
+     "to": "https://www.corenetic.ai/en/product"
+    },
+    {
+     "field": "onboard_compute",
+     "from": null,
+     "to": true
+    },
+    {
+     "field": "payload_kg",
+     "from": null,
+     "to": 3.5
+    },
+    {
+     "field": "runtime_h",
+     "from": null,
+     "to": 8
+    },
+    {
+     "field": "sensors",
+     "from": [],
+     "to": [
+      "1 RGBD camera (head)",
+      "2 RGBD cameras (arm ends)"
+     ]
+    },
+    {
+     "field": "sources",
+     "from": [],
+     "to": [
+      "https://www.corenetic.ai/en/product",
+      "https://cdn.yuanluo.cloud/corenetic_original/assets/webp/monte_01_params.webp"
+     ]
+    },
+    {
+     "field": "status",
+     "from": null,
+     "to": "Commercial"
+    },
+    {
+     "field": "summary",
+     "from": "",
+     "to": "Corenetic's wheeled two-arm humanoid on a two-wheel differential base, aimed at laboratory automation, logistics and caregiving work."
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "official"
+    },
+    {
+     "field": "weight_kg",
+     "from": null,
+     "to": 120
+    },
+    {
+     "field": "width_mm",
+     "from": null,
+     "to": 650
+    }
+   ]
+  }
+ ]
+}

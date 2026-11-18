@@ -1,0 +1,62 @@
+{
+ "id": "robot-george-george",
+ "name": "GEORGE",
+ "manufacturer": "Robot George",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-17",
+   "type": "added",
+   "source": null,
+   "commit": "b596d3e",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://robotgeorge.com/george",
+   "commit": "75b989d",
+   "changes": [
+    {
+     "field": "locomotion",
+     "from": "Legged",
+     "to": null
+    },
+    {
+     "field": "note",
+     "from": null,
+     "to": "Maker site (Robot George a.s., Zlin, Czech Republic; 30+ staff, CEO Zdenek Huspenina, CTO Jiri Palka): GEORGE is an industrial humanoid with dual arms, quick-change wrists (4-finger dexterous hand, 2-jaw gripper, suction, hook) and one upper body mountable three ways - fixed pedestal, scissor lift, or walking legs - plus GeorgeOS with skills and fleet management, VR teleoperation and a mobile app. First series is not shipping: the site takes non-binding 'early access' pre-orders. No height, weight, payload, speed, DOF, battery or runtime figures are published, so all spec fields stay empty. Maker timeline on its own site: whole robot assembled June 2026, multi-task demos summer 2026."
+    },
+    {
+     "field": "official_url",
+     "from": null,
+     "to": "https://robotgeorge.com/george"
+    },
+    {
+     "field": "sources",
+     "from": [],
+     "to": [
+      "https://robotgeorge.com/george",
+      "https://www.robotgeorge.com/",
+      "https://robotgeorge.com/press-kit"
+     ]
+    },
+    {
+     "field": "status",
+     "from": null,
+     "to": "Announced"
+    },
+    {
+     "field": "summary",
+     "from": "",
+     "to": "Czech industrial humanoid from Robot George a.s. in Zlin, sold as one upper body that can mount on a pedestal, a scissor lift or legs, running the GeorgeOS platform."
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "official"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,33 @@
+{
+ "id": "unix-ai-wanda-2",
+ "name": "Wanda 2.0",
+ "manufacturer": "UniX AI",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-17",
+   "type": "added",
+   "source": "https://www.unix-group.ai/Wanda",
+   "commit": "b596d3e",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://www.unix-group.ai/Wanda",
+   "commit": "ae60ceb",
+   "changes": [
+    {
+     "field": "compute_source",
+     "from": null,
+     "to": "https://www.unix-group.ai/Wanda"
+    },
+    {
+     "field": "compute_tops",
+     "from": null,
+     "to": 275
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,45 @@
+{
+ "id": "keybotic-keyper",
+ "name": "Keyper",
+ "manufacturer": "Keybotic",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-17",
+   "type": "added",
+   "source": null,
+   "commit": "b596d3e",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://www.hannovermesse.de/apollo/hannover_messe_2024/obs/Binary/A1341736/General%20Product%20Brochure%20%28EN%29_compressed.pdf",
+   "commit": "1173def",
+   "changes": [
+    {
+     "field": "note",
+     "from": null,
+     "to": "keybotic.com did not load (HTTP 504 through the page reader and ERR_TUNNEL_CONNECTION_FAILED in the browser) on 2026-11-17, so the maker's specification page could not be read. The maker's Hannover Messe brochure describes the capability only (autonomous or teleoperated inspection rounds, Detect&Alert gas/thermal detection, instrument reading, 3D mapping, fleet coordination, robot-as-a-service). The 43 kg, 60 x 95 cm, 35-75 cm, 32-channel lidar, 90/120 min and 60 min charge that aggregators attribute to keybotic.com are therefore not entered."
+    },
+    {
+     "field": "sources",
+     "from": [],
+     "to": [
+      "https://www.hannovermesse.de/apollo/hannover_messe_2024/obs/Binary/A1341736/General%20Product%20Brochure%20%28EN%29_compressed.pdf"
+     ]
+    },
+    {
+     "field": "summary",
+     "from": "",
+     "to": "Spanish industrial inspection quadruped that runs teach-and-repeat rounds and reports gas, thermal and acoustic anomalies."
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "unconfirmed"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,33 @@
+{
+ "id": "robotera-star1",
+ "name": "STAR1",
+ "manufacturer": "RobotEra",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-17",
+   "type": "added",
+   "source": "https://www.robotera.com/upload/goods/20250108/c8e2f76b3177dd9f2483fef1176fe85e.pdf",
+   "commit": "b596d3e",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://www.robotera.com/upload/goods/20250108/c8e2f76b3177dd9f2483fef1176fe85e.pdf",
+   "commit": "ae60ceb",
+   "changes": [
+    {
+     "field": "compute_soc",
+     "from": null,
+     "to": "NVIDIA Jetson Orin + Intel CPU"
+    },
+    {
+     "field": "compute_tops",
+     "from": null,
+     "to": 275
+    }
+   ]
+  }
+ ]
+}

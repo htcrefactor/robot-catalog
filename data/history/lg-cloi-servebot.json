@@ -1,0 +1,85 @@
+{
+ "id": "lg-cloi-servebot",
+ "name": "CLOi ServeBot (Shelf type, LDLTR30)",
+ "manufacturer": "LG Electronics",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-03",
+   "type": "added",
+   "source": "https://solutions.lg.com/us/cloi-servebot/lg-ldltr30",
+   "commit": "1a533a7",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://solutions.lg.com/us/cloi-servebot/lg-ldltr30",
+   "commit": "0c54867",
+   "changes": [
+    {
+     "field": "height_mm",
+     "from": 1374,
+     "to": 1370
+    },
+    {
+     "field": "length_mm",
+     "from": 551,
+     "to": 550
+    },
+    {
+     "field": "notes",
+     "from": null,
+     "to": "LG's LDLTR30 page now marks CLOi ServeBot 3.0 as discontinued. Maker figures: 560 x 1370 x 550 mm (W x H x D), 51 kg, 40 kg load (10 kg per tray, four shelves), max 1.2 m/s, 11 h continuous at 0.7 m/s, 25,000 mAh battery (voltage not stated), manual charging 4-4.5 h or automatic 3-3.5 h, sensors LiDAR, load cell, RGB-D camera and ToF."
+    },
+    {
+     "field": "sources",
+     "from": [
+      "https://media.us.lg.com/m/64dc60ed87812982/original/LDLTR30-Series-Spec-Sheet.pdf"
+     ],
+     "to": [
+      "https://solutions.lg.com/us/cloi-servebot/lg-ldltr30",
+      "https://media.us.lg.com/m/64dc60ed87812982/original/LDLTR30-Series-Spec-Sheet.pdf",
+      "https://www.lge.co.kr/story/newsroom/225625"
+     ]
+    },
+    {
+     "field": "status",
+     "from": "Commercial",
+     "to": "Discontinued"
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "official"
+    },
+    {
+     "field": "kr_distributors",
+     "from": null,
+     "to": [
+      {
+       "name": "LG전자 (직판·로봇 구독)",
+       "kind": "direct",
+       "url": "https://www.lge.co.kr/"
+      }
+     ]
+    },
+    {
+     "field": "kr_note",
+     "from": null,
+     "to": "국내에서는 구매 외에 로봇 구독(RaaS) 방식으로도 공급합니다."
+    },
+    {
+     "field": "manufacturer_ko",
+     "from": null,
+     "to": "LG전자"
+    },
+    {
+     "field": "name_ko",
+     "from": null,
+     "to": "LG 클로이 서브봇"
+    }
+   ]
+  }
+ ]
+}

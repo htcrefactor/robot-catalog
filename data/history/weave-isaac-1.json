@@ -1,0 +1,92 @@
+{
+ "id": "weave-isaac-1",
+ "name": "Isaac 1",
+ "manufacturer": "Weave Robotics",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-13",
+   "type": "added",
+   "source": "https://humanoidstore.co/robots/weave-isaac-1",
+   "commit": "14cd746",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://www.weaverobotics.com/isaac-1",
+   "commit": "976d9e6",
+   "changes": [
+    {
+     "field": "data_source",
+     "from": "HumanoidStore open data (CC BY 4.0)",
+     "to": null
+    },
+    {
+     "field": "notes",
+     "from": null,
+     "to": "Issue #17 (2026-11-17): Isaac 1 - height 3 ft to 5'9\" (1750 taken), 21 DoF (neck 2, arms 6x2, hands 1x2, torso 2, base 3), 8 h battery with a 2-hour charge, from Weave's Isaac 1 page. Weave publishes no mass, payload, speed or price, so those fields were emptied. [emptied (no maker value) price_usd=7999; price_note=list 7999 USD (maker), per HumanoidStore, checked 2026-10]"
+    },
+    {
+     "field": "price_note",
+     "from": "list 7999 USD (maker), per HumanoidStore, checked 2026-10",
+     "to": "US$7,999 up front or US$449 per month; US$250 refundable deposit"
+    },
+    {
+     "field": "price_usd",
+     "from": 7999,
+     "to": null
+    },
+    {
+     "field": "sources",
+     "from": [
+      "https://humanoidstore.co/robots/weave-isaac-1"
+     ],
+     "to": [
+      "https://www.weaverobotics.com/isaac-1"
+     ]
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "official"
+    },
+    {
+     "field": "height_mm",
+     "from": 1750,
+     "to": 1753
+    },
+    {
+     "field": "length_mm",
+     "from": null,
+     "to": 559
+    },
+    {
+     "field": "note",
+     "from": null,
+     "to": "Maker spec page: height 3 ft to 5 ft 9 in (914-1753 mm; the taller figure is recorded), footprint 20.5 x 22 in (521 x 559 mm), 8 h battery and 2 h charge, 80 in vertical and 38 in horizontal reach, 21 DoF summed from the maker's breakdown (2 neck, 6 per arm, 1 per hand, 2 torso, 3 base), Wi-Fi. Weight, payload and speed are not published. First shipments from autumn 2026, starting in California."
+    },
+    {
+     "field": "official_url",
+     "from": null,
+     "to": "https://www.weaverobotics.com/isaac-1"
+    },
+    {
+     "field": "release_year",
+     "from": null,
+     "to": 2026
+    },
+    {
+     "field": "summary",
+     "from": "Wheeled (bimanual torso on a wheeled base) humanoid from Weave Robotics; preorder, anyone can order.",
+     "to": "Weave Robotics' home robot: a wheeled, collapsible-torso dual-arm robot that folds and puts away laundry, resets rooms and picks up clutter, controlled through a companion app."
+    },
+    {
+     "field": "width_mm",
+     "from": null,
+     "to": 521
+    }
+   ]
+  }
+ ]
+}

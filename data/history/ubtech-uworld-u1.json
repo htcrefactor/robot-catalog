@@ -1,0 +1,99 @@
+{
+ "id": "ubtech-uworld-u1",
+ "name": "UWORLD U1",
+ "manufacturer": "UBTech Robotics",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-13",
+   "type": "added",
+   "source": "https://humanoidstore.co/robots/ubtech-uworld-u1",
+   "commit": "14cd746",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://www.uworldrobotics.com/",
+   "commit": "976d9e6",
+   "changes": [
+    {
+     "field": "data_source",
+     "from": "HumanoidStore open data (CC BY 4.0)",
+     "to": null
+    },
+    {
+     "field": "notes",
+     "from": null,
+     "to": "Issue #17 (2026-11-17): UWORLD U1 - 1.83 m / 42 kg male form (1.68 m / 35.2 kg female), 88 DoF with 19 active facial axes, 2-4 h per charge (2 taken as the conservative figure), per UBTECH's launch release. UBTECH lists it from CNY 119,800; the HumanoidStore US$ price was removed. HumanoidStore price (US$23400) removed: no maker list price confirmed."
+    },
+    {
+     "field": "price_note",
+     "from": "list 23400 USD (maker), per HumanoidStore, checked 2026-10",
+     "to": "From CNY 119,800 (U1 Lite); U1 Pro and U1 Ultra by quote at launch"
+    },
+    {
+     "field": "price_usd",
+     "from": 23400,
+     "to": null
+    },
+    {
+     "field": "sources",
+     "from": [
+      "https://humanoidstore.co/robots/ubtech-uworld-u1"
+     ],
+     "to": [
+      "https://robotspoint.com/catalog/ubtech/ubtech-uworld-u1/",
+      "https://www.prnewswire.com/news-releases/ubtech-launches-uworld-u1-the-worlds-first-full-size-mass-produced-ultra-bionic-humanoid-robot-302815272.html",
+      "https://www.uworldrobotics.com/"
+     ]
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "official"
+    },
+    {
+     "field": "height_mm",
+     "from": 1830,
+     "to": null
+    },
+    {
+     "field": "note",
+     "from": null,
+     "to": "Maker launch (2026-06-30, Shenzhen): 88 DoF across the series, a dual-pivot biomimetic cervical spine, up to 90 % of fundamental human movements, an emotion-aware LLM recognising more than 20 emotional states, lip synchronisation within 20 ms, a 500 ms response path, Agent Memory OS with local-first processing, prices from CNY 119,800 and 13,361 cumulative orders at launch. Heights and weights (1.83 m / 42 kg male, 1.68 m / 35.2 kg female on full-body builds) are quoted by resellers from maker materials but are not in the launch release, so they are left out; trade coverage reports that the 88 DoF includes passive joints, with 24 actively driven on full-body builds. No height, weight, runtime or USD price appears in the launch release, so none is recorded."
+    },
+    {
+     "field": "official_url",
+     "from": null,
+     "to": "https://www.uworldrobotics.com/"
+    },
+    {
+     "field": "release_year",
+     "from": null,
+     "to": 2026
+    },
+    {
+     "field": "runtime_h",
+     "from": 2.0,
+     "to": null
+    },
+    {
+     "field": "status",
+     "from": "Pre-order",
+     "to": "Commercial"
+    },
+    {
+     "field": "summary",
+     "from": "Full-size humanoid from UBTech Robotics; preorder, anyone can order.",
+     "to": "UBTECH's full-size bionic companion humanoid, sold as the UWORLD U1 series (Lite torso, Pro and Ultra full body) with 88 degrees of freedom, silicone skin and an emotion-aware language model."
+    },
+    {
+     "field": "weight_kg",
+     "from": 42,
+     "to": null
+    }
+   ]
+  }
+ ]
+}

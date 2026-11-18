@@ -1,0 +1,86 @@
+{
+ "id": "simple-ai-simbot",
+ "name": "Simbot",
+ "manufacturer": "Beijing Simple AI Tech",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-17",
+   "type": "added",
+   "source": null,
+   "commit": "b596d3e",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://www.simpleai.tech/",
+   "commit": "75b989d",
+   "changes": [
+    {
+     "field": "api_support",
+     "from": null,
+     "to": true
+    },
+    {
+     "field": "dof",
+     "from": null,
+     "to": 23
+    },
+    {
+     "field": "note",
+     "from": null,
+     "to": "Maker site headline specs: 23 DOF whole body, 7 DOF per arm, 5 kg end payload per arm, 2,000 TOPS main compute, cloud brain plus on-device large and small models, LiDAR x 2, RGBD x 2, 6 GMSL camera links, multimodal interaction over voice, vision, touch and force, a memory-augmented Agentic OS, and the Omni-Simple-World VLA foundation model; the maker's own training rig is the open-source HiFi-UMI. The maker does not publish a product name (the catalog and WRC exhibitor record use 'Simbot'), and height, weight, speed, battery, runtime and price are not published, so those fields stay empty. Target settings are hotels, homes, senior care and retail; no customer deployment has been named."
+    },
+    {
+     "field": "official_url",
+     "from": null,
+     "to": "https://www.simpleai.tech/"
+    },
+    {
+     "field": "onboard_compute",
+     "from": null,
+     "to": "2,000 TOPS main compute with cloud brain plus on-device large/small models"
+    },
+    {
+     "field": "payload_kg",
+     "from": null,
+     "to": 5
+    },
+    {
+     "field": "sensors",
+     "from": [],
+     "to": [
+      "2x LiDAR",
+      "2x RGBD cameras",
+      "6x GMSL camera links",
+      "Tactile and force sensing"
+     ]
+    },
+    {
+     "field": "sources",
+     "from": [],
+     "to": [
+      "https://www.simpleai.tech/",
+      "https://robottoday.com/suppliers-discovery/simple-ai"
+     ]
+    },
+    {
+     "field": "status",
+     "from": null,
+     "to": "Announced"
+    },
+    {
+     "field": "summary",
+     "from": "",
+     "to": "Simple AI's (深朴智能) home-and-hospitality service humanoid on a wheeled base, with 23 DOF, 7-DOF arms carrying 5 kg, and a memory-augmented agentic OS on top of its Omni-Simple-World model."
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "official"
+    }
+   ]
+  }
+ ]
+}

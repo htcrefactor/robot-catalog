@@ -1,0 +1,28 @@
+{
+ "id": "honda-p4",
+ "name": "P4",
+ "manufacturer": "Honda",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-17",
+   "type": "added",
+   "source": "https://global.honda/en/ASIMO/history/",
+   "commit": "b596d3e",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://global.honda/en/ASIMO/history/",
+   "commit": "2e2527b",
+   "changes": [
+    {
+     "field": "note",
+     "from": "Honda's official ASIMO history lists P1, P2 and P3 and then ASIMO (2000), with no P4; could not confirm this model or its specs from Honda.",
+     "to": "Honda's official ASIMO history lists P1, P2 and P3 and then ASIMO (2000), with no P4; could not confirm this model or its specs from Honda. Re-checked 2026-11-17: Honda's official robotics history (opened) still lists P1, P2, P3 and then ASIMO - no P4 - so the model cannot be confirmed from Honda. Still unconfirmed."
+    }
+   ]
+  }
+ ]
+}

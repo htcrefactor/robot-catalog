@@ -1,0 +1,45 @@
+{
+ "id": "ghost-robotics-spirit-40",
+ "name": "Spirit 40",
+ "manufacturer": "Ghost Robotics",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-17",
+   "type": "added",
+   "source": "https://www.youtube.com/watch?v=FrqUo4M3tY4",
+   "commit": "b596d3e",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://www.youtube.com/watch?v=FrqUo4M3tY4",
+   "commit": "11442a0",
+   "changes": [
+    {
+     "field": "note",
+     "from": "Exists per Ghost Robotics' official YouTube channel; product page ghostrobotics.io/spirit-40 now removed (maker site lists only Vision 60) - likely discontinued, not stated. No official spec page reachable; aggregator specs (12 kg, 2 m/s) left null.",
+     "to": "Product page ghostrobotics.io/spirit-40 now returns 404 and the maker's site offers only Vision 60 (checked 2026-11-17), so the 2020 Spirit 40 is treated as discontinued; the maker never states it in words. Exists per Ghost Robotics' official YouTube channel. No official spec page reachable; aggregator specs (12 kg, 2 m/s) left null."
+    },
+    {
+     "field": "sources",
+     "from": [
+      "https://www.youtube.com/watch?v=FrqUo4M3tY4",
+      "https://www.ghostrobotics.io/"
+     ],
+     "to": [
+      "https://www.youtube.com/watch?v=FrqUo4M3tY4",
+      "https://www.ghostrobotics.io/",
+      "https://www.ghostrobotics.io/spirit-40"
+     ]
+    },
+    {
+     "field": "status",
+     "from": "Commercial",
+     "to": "Discontinued"
+    }
+   ]
+  }
+ ]
+}

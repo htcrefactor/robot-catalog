@@ -1,0 +1,33 @@
+{
+ "id": "ascento-guard",
+ "name": "Ascento Guard",
+ "manufacturer": "Ascento",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-03",
+   "type": "added",
+   "source": "https://www.ascento.ai/",
+   "commit": "1a533a7",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://www.ascento.ai/",
+   "commit": "fa098f7",
+   "changes": [
+    {
+     "field": "note",
+     "from": null,
+     "to": "Ascento's own site (checked 2026-11-17) states 8 h battery life with fast charging and 24/7 availability for Guard, sold only as Robotics-as-a-Service. The maker's September 2023 launch factsheet, as reported at launch, gave 4.5 h and a walking speed of about 1.4 m/s with a system weight under 30 kg; those figures are press-sourced and the runtime conflict is recorded here rather than resolved. Ascento publishes no product page with a full specification table, so mass, dimensions and speed stay empty."
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "official"
+    }
+   ]
+  }
+ ]
+}

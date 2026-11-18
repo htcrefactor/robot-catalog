@@ -1,0 +1,56 @@
+{
+ "id": "hfun-tech-t01",
+ "name": "T01",
+ "manufacturer": "HFun-Tech",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-17",
+   "type": "added",
+   "source": null,
+   "commit": "b596d3e",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "http://www.hfun-tech.com/",
+   "commit": "b310609",
+   "changes": [
+    {
+     "field": "note",
+     "from": null,
+     "to": "The maker site (hfun-tech.com) lists HM01 only; no T01 product page or datasheet was found on 2026-11-17, so spec fields stay empty. Zhejiang provincial government news (21 Aug 2026) and Korean trade press report T01 unveiled at WRC 2026 on 20 Aug 2026: 30 kg body, leg-arm reuse cutting core parts by nearly half, four modes (biped, wheeled, ride-on chair, stowed carrier), ride mode up to 10 km/h. Locomotion recorded as Legged because bipedal walking is the primary working mode."
+    },
+    {
+     "field": "official_url",
+     "from": null,
+     "to": "http://www.hfun-tech.com/"
+    },
+    {
+     "field": "release_year",
+     "from": null,
+     "to": 2026
+    },
+    {
+     "field": "sources",
+     "from": [],
+     "to": [
+      "http://www.hfun-tech.com/",
+      "https://www.ezhejiang.gov.cn/2026-08/21/c_1207666.htm"
+     ]
+    },
+    {
+     "field": "summary",
+     "from": "",
+     "to": "HFun-Tech's transformable T01, whose two limbs act as wheels, legs, chair handles or a carrier so one body serves as biped, wheeled robot, mobility chair and luggage."
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "unconfirmed"
+    }
+   ]
+  }
+ ]
+}

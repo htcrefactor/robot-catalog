@@ -1,0 +1,109 @@
+{
+ "id": "deep-robotics-jueying-pro",
+ "name": "Jueying Pro",
+ "manufacturer": "DEEP Robotics",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-17",
+   "type": "added",
+   "source": null,
+   "commit": "b596d3e",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://web.archive.org/web/20210623084540/http://www.deeprobotics.cn/en/products_jy_303.html",
+   "commit": "1173def",
+   "changes": [
+    {
+     "field": "compute_detail",
+     "from": null,
+     "to": "Intel Core i7 2.2 GHz (QNX), Intel Core i7 8 GB RAM perception host, optional Jetson Xavier NX"
+    },
+    {
+     "field": "dof",
+     "from": null,
+     "to": 12
+    },
+    {
+     "field": "height_mm",
+     "from": null,
+     "to": 700
+    },
+    {
+     "field": "length_mm",
+     "from": null,
+     "to": 950
+    },
+    {
+     "field": "max_speed_mps",
+     "from": null,
+     "to": 2.22
+    },
+    {
+     "field": "note",
+     "from": null,
+     "to": "Figures are from DEEP Robotics' own Jueying Pro product page, read through the Internet Archive (23 Jun 2021) because the current site no longer carries the model: gross weight 55 kg, maximum load 30 kg, 950 x 500 x 700 mm, 12 joint DoF, >=8 km/h (2.22 m/s), 2-4 h (2 h recorded), Intel Core i7 with QNX, EtherCAT at 1 ms, D435i plus lidar and GPS, optional Xavier NX."
+    },
+    {
+     "field": "official_url",
+     "from": null,
+     "to": "https://web.archive.org/web/20210623084540/http://www.deeprobotics.cn/en/products_jy_303.html"
+    },
+    {
+     "field": "onboard_compute",
+     "from": null,
+     "to": true
+    },
+    {
+     "field": "payload_kg",
+     "from": null,
+     "to": 30
+    },
+    {
+     "field": "runtime_h",
+     "from": null,
+     "to": 2
+    },
+    {
+     "field": "sensors",
+     "from": [],
+     "to": [
+      "Lidar",
+      "Intel RealSense D435i depth camera",
+      "GPS"
+     ]
+    },
+    {
+     "field": "sources",
+     "from": [],
+     "to": [
+      "https://web.archive.org/web/20210623084540/http://www.deeprobotics.cn/en/products_jy_303.html"
+     ]
+    },
+    {
+     "field": "summary",
+     "from": "",
+     "to": "Heavy-duty Jueying edition for firefighting, rescue and anti-terror work, with a 30 kg payload and an on-board perception computer."
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "official"
+    },
+    {
+     "field": "weight_kg",
+     "from": null,
+     "to": 55
+    },
+    {
+     "field": "width_mm",
+     "from": null,
+     "to": 500
+    }
+   ]
+  }
+ ]
+}

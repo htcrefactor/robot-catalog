@@ -1,0 +1,94 @@
+{
+ "id": "zhicheng-ai-xr1",
+ "name": "XR1",
+ "manufacturer": "Zhicheng AI",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-17",
+   "type": "added",
+   "source": null,
+   "commit": "b596d3e",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://www.zhicheng-robot.com/en/xr1.html",
+   "commit": "b1429ab",
+   "changes": [
+    {
+     "field": "compute_detail",
+     "from": null,
+     "to": "NVIDIA industrial-grade GPU platform"
+    },
+    {
+     "field": "dof",
+     "from": null,
+     "to": 25
+    },
+    {
+     "field": "height_mm",
+     "from": null,
+     "to": 1900
+    },
+    {
+     "field": "notes",
+     "from": null,
+     "to": "Height is an adjustable range of 900-1900 mm (lifting torso), so the top of the range is recorded. 50 kg is the dual-arm combined payload with two servo grippers. Work envelope about 2 m vertically and across both arms. Four-wheel swerve base, dual parallel hot-swap batteries with autonomous swap for continuous operation. Runtime in hours and battery capacity are not published."
+    },
+    {
+     "field": "official_url",
+     "from": null,
+     "to": "https://www.zhicheng-robot.com/en/xr1.html"
+    },
+    {
+     "field": "onboard_compute",
+     "from": null,
+     "to": true
+    },
+    {
+     "field": "payload_kg",
+     "from": null,
+     "to": 50
+    },
+    {
+     "field": "ros_support",
+     "from": null,
+     "to": true
+    },
+    {
+     "field": "sensors",
+     "from": [],
+     "to": [
+      "3D vision",
+      "LiDAR",
+      "Force sensing"
+     ]
+    },
+    {
+     "field": "sources",
+     "from": [],
+     "to": [
+      "https://www.zhicheng-robot.com/en/xr1.html"
+     ]
+    },
+    {
+     "field": "summary",
+     "from": "",
+     "to": "Wheeled dual-arm mobile manipulator with a lifting torso and 50 kg combined payload for assembly, inspection and handling."
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "official"
+    },
+    {
+     "field": "weight_kg",
+     "from": null,
+     "to": 160
+    }
+   ]
+  }
+ ]
+}

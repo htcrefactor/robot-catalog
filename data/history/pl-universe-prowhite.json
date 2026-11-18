@@ -1,0 +1,95 @@
+{
+ "id": "pl-universe-prowhite",
+ "name": "ProWhite",
+ "manufacturer": "PL-Universe Robotics",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-17",
+   "type": "added",
+   "source": null,
+   "commit": "b596d3e",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://en.pl-universe.com/product/12",
+   "commit": "5150daa",
+   "changes": [
+    {
+     "field": "battery_wh",
+     "from": null,
+     "to": 2400.0
+    },
+    {
+     "field": "data_source",
+     "from": null,
+     "to": "Maker sources (verified 2026-11-17)"
+    },
+    {
+     "field": "height_mm",
+     "from": null,
+     "to": 1950
+    },
+    {
+     "field": "max_speed_mps",
+     "from": null,
+     "to": 2.5
+    },
+    {
+     "field": "note",
+     "from": null,
+     "to": "PL-Universe product page (checked 2026-11-17): height adjustable 165-195 cm (recorded at the top), 300 kg, 7-DoF arms with 954 mm span and about 7 kg per arm, four-wheel omnidirectional base at more than 2.5 m/s, at least 8 h on a 48 V 50 Ah pack (2,400 Wh computed as V x Ah) with 2 h charging, plus or minus 0.05 mm repeatability. Total DoF is not published for the body. The newer ProWhite Robot 2.0 is a different, heavier 400 kg configuration with 2,035 mm height and 6-DoF arms."
+    },
+    {
+     "field": "official_url",
+     "from": null,
+     "to": "https://en.pl-universe.com/product/12"
+    },
+    {
+     "field": "payload_kg",
+     "from": null,
+     "to": 7.0
+    },
+    {
+     "field": "runtime_h",
+     "from": null,
+     "to": 8.0
+    },
+    {
+     "field": "sensors",
+     "from": [],
+     "to": [
+      "Infrared 3D camera",
+      "Microphone array",
+      "Interactive facial recognition screen"
+     ]
+    },
+    {
+     "field": "sources",
+     "from": [],
+     "to": [
+      "https://en.pl-universe.com/product/12",
+      "https://en.pl-universe.com/Products/ProWhiteRobot"
+     ]
+    },
+    {
+     "field": "summary",
+     "from": "",
+     "to": "PL-Universe's industrial wheeled humanoid ProWhite: 7-DoF arms carrying about 7 kg each on a four-wheel omnidirectional base, height adjustable 165-195 cm, 300 kg, 8 h and plus or minus 0.05 mm repeatability."
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "official"
+    },
+    {
+     "field": "weight_kg",
+     "from": null,
+     "to": 300.0
+    }
+   ]
+  }
+ ]
+}

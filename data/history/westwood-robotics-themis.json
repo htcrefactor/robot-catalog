@@ -1,0 +1,33 @@
+{
+ "id": "westwood-robotics-themis",
+ "name": "THEMIS",
+ "manufacturer": "Westwood Robotics",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-17",
+   "type": "added",
+   "source": "https://www.westwoodrobotics.io/themis/",
+   "commit": "b596d3e",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://www.westwoodrobotics.io/themis/",
+   "commit": "ae60ceb",
+   "changes": [
+    {
+     "field": "compute_soc",
+     "from": null,
+     "to": "AMD Ryzen 7840 + NVIDIA Jetson Orin"
+    },
+    {
+     "field": "compute_source",
+     "from": null,
+     "to": "https://www.westwoodrobotics.io/themis/"
+    }
+   ]
+  }
+ ]
+}

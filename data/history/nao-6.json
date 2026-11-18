@@ -1,0 +1,118 @@
+{
+ "id": "nao-6",
+ "name": "NAO 6",
+ "manufacturer": "Aldebaran",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-13",
+   "type": "added",
+   "source": "https://humanoidstore.co/robots/nao-6",
+   "commit": "14cd746",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://www.aldebaran.com/en/nao",
+   "commit": "976d9e6",
+   "changes": [
+    {
+     "field": "battery_wh",
+     "from": null,
+     "to": 62.5
+    },
+    {
+     "field": "data_source",
+     "from": "HumanoidStore open data (CC BY 4.0)",
+     "to": "Maker sources (verified 2026-11-17)"
+    },
+    {
+     "field": "height_mm",
+     "from": 580,
+     "to": 574
+    },
+    {
+     "field": "max_speed_mps",
+     "from": 0.17,
+     "to": null
+    },
+    {
+     "field": "notes",
+     "from": null,
+     "to": "Issue #17 (2026-11-17): Aldebaran NAO V6 datasheet - 574x311x275 mm, 5.48 kg, 25 DoF (head 2, arms 5x2, pelvis 1, legs 5x2, hands 1x2), 62.5 Wh, 60 min active / 90 min normal use. HumanoidStore's 0.17 m/s speed and US$16,990 price removed (the datasheet states neither). [replaced height_mm: 580 -> 574; weight_kg: 5.5 -> 5.48; battery_wh: None -> 62.5 | emptied (no maker value) max_speed_mps=0.17; price_usd=16990; price_note=list 10020 EUR (maker), per HumanoidStore, checked 2026-10]"
+    },
+    {
+     "field": "price_note",
+     "from": "list 10020 EUR (maker), per HumanoidStore, checked 2026-10",
+     "to": "Aldebaran/SoftBank sell through distributors; no maker list price (the earlier 16,990 USD was a reseller figure)"
+    },
+    {
+     "field": "price_usd",
+     "from": 16990,
+     "to": null
+    },
+    {
+     "field": "sources",
+     "from": [
+      "https://humanoidstore.co/robots/nao-6"
+     ],
+     "to": [
+      "https://maxtronics.com/library/NAO6/NAO%20V6%20Datasheet_EN_ALD%202024-2025%20(1).pdf",
+      "https://cdn.robotshop.com/media/A/Ald/RB-Ald-18/pdf/nao-6-humanoid-robot-datasheet.pdf"
+     ]
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "official"
+    },
+    {
+     "field": "weight_kg",
+     "from": 5.5,
+     "to": 5.48
+    },
+    {
+     "field": "compute_detail",
+     "from": null,
+     "to": "1.91 GHz quad-core Atom, 4 GB DDR3 RAM, 32 GB eMMC"
+    },
+    {
+     "field": "length_mm",
+     "from": null,
+     "to": 311
+    },
+    {
+     "field": "note",
+     "from": null,
+     "to": "Aldebaran's NAO V6 datasheet (model H25600, checked 2026-11-17): 574 x 311 x 275 mm, 5.48 kg, 25 DoF (2 head, 5 per arm, 1 pelvis, 5 per leg, 1 per hand), Atom E3845 with 4 GB RAM and 32 GB eMMC. Walking speed and runtime are not stated in the datasheet, so both are left empty."
+    },
+    {
+     "field": "official_url",
+     "from": null,
+     "to": "https://www.aldebaran.com/en/nao"
+    },
+    {
+     "field": "onboard_compute",
+     "from": null,
+     "to": "Intel Atom E3845"
+    },
+    {
+     "field": "runtime_h",
+     "from": 1.5,
+     "to": null
+    },
+    {
+     "field": "summary",
+     "from": "Desktop-size humanoid from Aldebaran; shipping now, anyone can order.",
+     "to": "Aldebaran's 58 cm programmable biped for education and research: 25 DoF, 5.48 kg and an Intel Atom computer with cameras, microphones and sonar."
+    },
+    {
+     "field": "width_mm",
+     "from": null,
+     "to": 275
+    }
+   ]
+  }
+ ]
+}

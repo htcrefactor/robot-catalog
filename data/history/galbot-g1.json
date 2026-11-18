@@ -1,0 +1,111 @@
+{
+ "id": "galbot-g1",
+ "name": "G1",
+ "manufacturer": "Galbot",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-13",
+   "type": "added",
+   "source": "https://humanoidstore.co/robots/galbot-g1",
+   "commit": "14cd746",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://www.galbot.com/g1/",
+   "commit": "b310609",
+   "changes": [
+    {
+     "field": "battery_wh",
+     "from": null,
+     "to": 1440
+    },
+    {
+     "field": "data_source",
+     "from": "HumanoidStore open data (CC BY 4.0)",
+     "to": null
+    },
+    {
+     "field": "ip_rating",
+     "from": null,
+     "to": "IP54"
+    },
+    {
+     "field": "notes",
+     "from": null,
+     "to": "Issue #17 (2026-11-17): Galbot G1 - 1730 mm (650 mm leg lift), 92.5 kg, 21 DoF excluding base and end effectors, 5 kg per arm / 10 kg both, 1.5 m/s, 48 V 30 Ah (1440 Wh), 8 h, IP54. HumanoidStore's price removed: Galbot publishes none. [replaced payload_kg: 10 -> 5; battery_wh: None -> 1440; ip_rating: None -> IP54 | emptied (no maker value) price_usd=87000; price_note=list 87000 USD (maker), per HumanoidStore, checked 2026-10]"
+    },
+    {
+     "field": "payload_kg",
+     "from": 10,
+     "to": 5
+    },
+    {
+     "field": "price_note",
+     "from": "list 87000 USD (maker), per HumanoidStore, checked 2026-10",
+     "to": null
+    },
+    {
+     "field": "price_usd",
+     "from": 87000,
+     "to": null
+    },
+    {
+     "field": "sources",
+     "from": [
+      "https://humanoidstore.co/robots/galbot-g1"
+     ],
+     "to": [
+      "https://www.galbot.com/g1/"
+     ]
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "official"
+    },
+    {
+     "field": "compute_detail",
+     "from": null,
+     "to": "275 TOPS"
+    },
+    {
+     "field": "note",
+     "from": null,
+     "to": "Maker spec panel (galbot.com/g1): max height 1730 mm (leg lift 650 mm), 92.5 kg, payload 5 kg per arm / 10 kg total at the wrist, 21 DoF (neck 2 + arms 7x2 + waist 3 + legs 2, excluding chassis and end effectors), 8 h working time with 3.5 h adapter charging, 48 V 30 Ah battery (=1440 Wh, derived from V x Ah), IP54, 4-wheel omnidirectional chassis 600/600/625 mm, 1.5 m/s, NVIDIA AGX Orin 64GB / 275 TOPS, 0-40 C. No price on the maker site; HumanoidStore's 87,000 USD list price was removed (aggregator)."
+    },
+    {
+     "field": "official_url",
+     "from": null,
+     "to": "https://www.galbot.com/g1/"
+    },
+    {
+     "field": "onboard_compute",
+     "from": null,
+     "to": "NVIDIA Jetson AGX Orin 64GB"
+    },
+    {
+     "field": "sensors",
+     "from": [],
+     "to": [
+      "Stereo camera (head)",
+      "RGB cameras x4 (torso)",
+      "Depth cameras x2 (wrists)",
+      "6-axis force/torque sensors x2 (wrists)",
+      "3D LiDAR x1 (base)",
+      "Ultrasonic sensors x8 (base)",
+      "IMU x2",
+      "Linear 4-microphone array x2"
+     ]
+    },
+    {
+     "field": "summary",
+     "from": "Wheeled (bimanual torso on a wheeled base) humanoid from Galbot; b2b only, sold to businesses.",
+     "to": "Galbot's wheeled bimanual humanoid on a four-wheel omnidirectional base with a lifting torso, used in unmanned retail stores and warehouses across China."
+    }
+   ]
+  }
+ ]
+}

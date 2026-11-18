@@ -1,0 +1,48 @@
+{
+ "id": "kuwa-d0",
+ "name": "D0",
+ "manufacturer": "Kuwa",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-06",
+   "type": "added",
+   "source": "https://ai123.com/newshub/17507",
+   "commit": "93dd29a",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://ai123.com/newshub/17507",
+   "commit": "1173def",
+   "changes": [
+    {
+     "field": "note",
+     "from": null,
+     "to": "Kuwa (酷哇科技 COOWA, cowarobot.com) showed D0 with the wheeled X1 at CIIE on 6 Nov 2026, built on the Aether heavy-load platform with quick-change modules for municipal sanitation, last-mile delivery and security patrol, driven by the same COOWAM world model. cowarobot.com's quadruped page lists only the C0 and X0 with a specification table for the X0, so no maker page or figures exist for D0; it may be a rename of X0, but that is not established. No specs entered."
+    },
+    {
+     "field": "sources",
+     "from": [
+      "https://ai123.com/newshub/17507"
+     ],
+     "to": [
+      "https://ai123.com/newshub/17507",
+      "https://www.jushenhome.com/news_list.php?kd=D0+%E9%87%8D%E8%BD%BD%E5%9B%9B%E8%B6%B3%E6%9C%BA%E5%99%A8%E4%BA%BA"
+     ]
+    },
+    {
+     "field": "summary",
+     "from": "Heavy-load all-terrain quadruped on the Aether platform with swappable modules for sanitation, delivery and patrol; shown at CIIE 6 Nov 2026.",
+     "to": "Heavy-load all-terrain quadruped on Kuwa's Aether platform with swappable top modules for sanitation, delivery and patrol."
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "unconfirmed"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,33 @@
+{
+ "id": "pudu-kettybot",
+ "name": "KettyBot",
+ "manufacturer": "Pudu Robotics",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-03",
+   "type": "added",
+   "source": "https://www.pudurobotics.com/en/products/kettybot",
+   "commit": "1a533a7",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://www.pudurobotics.com/en/products/kettybot",
+   "commit": "b1429ab",
+   "changes": [
+    {
+     "field": "notes",
+     "from": null,
+     "to": "Pudu's own product document gives 25.6 V x 20 Ah = 512 Wh (derived), 8 h without load, cruise 0.2-1.2 m/s, 38 kg, 435 x 450 x 1120 mm, two 10 kg trays plus a dish-return box, 55 cm minimum width, 5 mm step and 5 deg slope, 4 h charging, IP20, and the listed LiDAR, depth vision sensors, positioning camera and 6-mic array."
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "official"
+    }
+   ]
+  }
+ ]
+}

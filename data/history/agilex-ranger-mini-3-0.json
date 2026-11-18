@@ -1,0 +1,85 @@
+{
+ "id": "agilex-ranger-mini-3-0",
+ "name": "RANGER MINI 3.0",
+ "manufacturer": "AgileX Robotics",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-03",
+   "type": "added",
+   "source": "https://global.agilex.ai/products/ranger-mini-3",
+   "commit": "1a533a7",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://global.agilex.ai/products/ranger-mini-3",
+   "commit": "c3614dc",
+   "changes": [
+    {
+     "field": "notes",
+     "from": null,
+     "to": "Maker page: 720 x 500 x 345 mm, 73 kg, 120 kg rated payload, 2 m/s, 3 h at full load, IP54, 20 deg climb, 75 mm obstacle clearance, four-wheel drive and four-wheel steering with independent suspension. Battery capacity is not on the page; the 1152 Wh figure comes from the user manual. AgileX UGV SDK, CAN and ROS 1/ROS 2 resources."
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "official"
+    },
+    {
+     "field": "open_source_repos",
+     "from": null,
+     "to": [
+      {
+       "name": "ugv_sdk",
+       "url": "https://github.com/agilexrobotics/ugv_sdk",
+       "license": "Apache-2.0"
+      },
+      {
+       "name": "ranger_ros2",
+       "url": "https://github.com/agilexrobotics/ranger_ros2",
+       "license": "BSD-3-Clause"
+      }
+     ]
+    },
+    {
+     "field": "ros2_support",
+     "from": null,
+     "to": true
+    },
+    {
+     "field": "ros2_url",
+     "from": null,
+     "to": "https://github.com/agilexrobotics/ranger_ros2"
+    },
+    {
+     "field": "sdk",
+     "from": null,
+     "to": {
+      "languages": [
+       "C++"
+      ],
+      "open_source": true,
+      "license": "Apache-2.0",
+      "url": "https://github.com/agilexrobotics/ugv_sdk"
+     }
+    },
+    {
+     "field": "sources",
+     "from": [
+      "https://global.agilex.ai/products/ranger-mini-3",
+      "https://www.agilex.ai/products/ranger-mini"
+     ],
+     "to": [
+      "https://global.agilex.ai/products/ranger-mini-3",
+      "https://www.agilex.ai/products/ranger-mini",
+      "https://github.com/agilexrobotics/ugv_sdk",
+      "https://github.com/agilexrobotics/ranger_ros2",
+      "https://github.com/agilexrobotics/pyagxrobots"
+     ]
+    }
+   ]
+  }
+ ]
+}

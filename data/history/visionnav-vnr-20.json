@@ -1,0 +1,28 @@
+{
+ "id": "visionnav-vnr-20",
+ "name": "VNR 20",
+ "manufacturer": "VisionNav Robotics",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-17",
+   "type": "added",
+   "source": "https://www.visionnav.com/product/detail/VNR20-Reach-Truck-AGV",
+   "commit": "b596d3e",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://www.visionnav.com/product/detail/VNR20-Reach-Truck-AGV",
+   "commit": "7864761",
+   "changes": [
+    {
+     "field": "note",
+     "from": "Autonomous forklift (AGV/AMR), not a mobile robot platform in the usual sense; weight from VisionNav's model comparison page.",
+     "to": "Scope review (#16, 2026-11-17): kept as an in-scope AGV. VisionNav's own page titles it 'VNR20 Reach Truck AGV/AMR' and lists 2000 kg rated load, 7000 mm standard lift, 2.0 m/s and a 1915 mm minimum turning radius - a self-driving industrial truck, i.e. an AGV, which the owner's exclusion list (arms, cobots, vacuums, lawn/pool, drones, toys, cars/robotaxis, static or companion robots) does not cover. Weight 3460 kg from VisionNav's model comparison page."
+    }
+   ]
+  }
+ ]
+}

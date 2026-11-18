@@ -1,0 +1,33 @@
+{
+ "id": "robust-ai-carter-pro",
+ "name": "Carter",
+ "manufacturer": "Robust.AI",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-17",
+   "type": "added",
+   "source": "https://www.robust.ai/carter",
+   "commit": "b596d3e",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://www.robust.ai/carter",
+   "commit": "48ef25e",
+   "changes": [
+    {
+     "field": "name",
+     "from": "Carter (launched as Carter Pro)",
+     "to": "Carter"
+    },
+    {
+     "field": "note",
+     "from": "Launched as 'Carter Pro' (press release 16 Oct 2024); maker site now brands it simply 'Carter(R)' - same specs. Holonomic drive, camera-only vSLAM (no LiDAR). A Robust.AI overview deck (hosted on a third-party awards site) adds 1.5 m/s max speed and 6 h charge - not on maker site, left out.",
+     "to": "Launched as 'Carter Pro' (press release 16 Oct 2024); maker site now brands it simply 'Carter(R)' - same specs, so the id keeps the launch slug. Holonomic drive, camera-only vSLAM (no LiDAR). A Robust.AI overview deck (hosted on a third-party awards site) adds 1.5 m/s max speed and 6 h charge - not on maker site, left out."
+    }
+   ]
+  }
+ ]
+}

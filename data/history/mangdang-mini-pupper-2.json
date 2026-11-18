@@ -1,0 +1,79 @@
+{
+ "id": "mangdang-mini-pupper-2",
+ "name": "Mini Pupper 2",
+ "manufacturer": "MangDang",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-17",
+   "type": "added",
+   "source": "https://mangdang.store/products/mp2",
+   "commit": "b596d3e",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://mangdang.store/products/mp2",
+   "commit": "ae60ceb",
+   "changes": [
+    {
+     "field": "open_source_repos",
+     "from": null,
+     "to": [
+      {
+       "name": "mini_pupper_ros",
+       "url": "https://github.com/mangdangroboticsclub/mini_pupper_ros",
+       "license": "Apache-2.0"
+      }
+     ]
+    },
+    {
+     "field": "ros2_support",
+     "from": null,
+     "to": true
+    },
+    {
+     "field": "ros2_url",
+     "from": null,
+     "to": "https://github.com/mangdangroboticsclub/mini_pupper_ros"
+    },
+    {
+     "field": "sim_models",
+     "from": null,
+     "to": {
+      "urdf": {
+       "url": "https://github.com/mangdangroboticsclub/mini_pupper_ros/blob/ros2-dev/mini_pupper_description/urdf/mini_pupper/mini_pupper_description.urdf.xacro",
+       "license": "Apache-2.0"
+      }
+     }
+    },
+    {
+     "field": "sources",
+     "from": [
+      "https://mangdang.store/products/mp2",
+      "https://mangdangroboticsclub.github.io/MiniPupperDocs/en/guide/Features.html",
+      "https://mangdangroboticsclub.github.io/MiniPupperDocs/en/index.html"
+     ],
+     "to": [
+      "https://mangdang.store/products/mp2",
+      "https://mangdangroboticsclub.github.io/MiniPupperDocs/en/guide/Features.html",
+      "https://mangdangroboticsclub.github.io/MiniPupperDocs/en/index.html",
+      "https://github.com/mangdangroboticsclub/mini_pupper_ros",
+      "https://github.com/mangdangroboticsclub/mini_pupper_ros/blob/ros2-dev/mini_pupper_description/urdf/mini_pupper/mini_pupper_description.urdf.xacro"
+     ]
+    },
+    {
+     "field": "compute_soc",
+     "from": null,
+     "to": "Raspberry Pi CM4 + Espressif ESP32-S3"
+    },
+    {
+     "field": "compute_source",
+     "from": null,
+     "to": "https://mangdang.store/products/mp2"
+    }
+   ]
+  }
+ ]
+}

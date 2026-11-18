@@ -1,0 +1,79 @@
+{
+ "id": "limx-luna",
+ "name": "Luna",
+ "manufacturer": "LimX Dynamics",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-13",
+   "type": "added",
+   "source": "https://humanoidstore.co/robots/limx-luna",
+   "commit": "14cd746",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://www.limxdynamics.com/en/products/luna",
+   "commit": "976d9e6",
+   "changes": [
+    {
+     "field": "data_source",
+     "from": "HumanoidStore open data (CC BY 4.0)",
+     "to": "Maker sources (verified 2026-11-17)"
+    },
+    {
+     "field": "notes",
+     "from": null,
+     "to": "Issue #17 (2026-11-17): LimX Luna - 160 cm, 54 kg (56 kg with battery per the spec table), 27 DoF, 3 kg arm payload, 5 km/h, about 4 h, from LimX's Luna FAQ and spec table. [replaced weight_kg: 56 -> 54] HumanoidStore price (US$41000) removed: no maker list price confirmed."
+    },
+    {
+     "field": "price_note",
+     "from": "list 41000 USD (maker), per HumanoidStore, checked 2026-10",
+     "to": "LimX publishes no price"
+    },
+    {
+     "field": "price_usd",
+     "from": 41000,
+     "to": null
+    },
+    {
+     "field": "sources",
+     "from": [
+      "https://humanoidstore.co/robots/limx-luna"
+     ],
+     "to": [
+      "https://www.limxdynamics.com/en/products/luna/faq",
+      "https://www.limxdynamics.com/en/products/luna",
+      "https://www.limxdynamics.com/en/products/luna/spec"
+     ]
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "official"
+    },
+    {
+     "field": "weight_kg",
+     "from": 56,
+     "to": 54
+    },
+    {
+     "field": "note",
+     "from": null,
+     "to": "Maker spec page (checked 2026-11-17): 160 cm, 56 kg with battery, 27 active DoF (6 per leg, 5 per arm, 3 waist, 2 neck), 3 kg maximum arm payload, 5 km/h, about 4 h on two 10,000 mAh slide-out packs, 200 N·m peak motor torque."
+    },
+    {
+     "field": "official_url",
+     "from": null,
+     "to": "https://www.limxdynamics.com/en/products/luna"
+    },
+    {
+     "field": "summary",
+     "from": "Full-size humanoid from LimX Dynamics; shipping now, sold to businesses.",
+     "to": "LimX's interactive humanoid Luna: 1.6 m, 27 DoF, 3 kg per arm, about 4 h on two swappable packs and an AI task editor for building motion routines."
+    }
+   ]
+  }
+ ]
+}

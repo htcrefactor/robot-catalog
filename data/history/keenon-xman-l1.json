@@ -1,0 +1,50 @@
+{
+ "id": "keenon-xman-l1",
+ "name": "XMAN-L1",
+ "manufacturer": "KEENON Robotics",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-17",
+   "type": "added",
+   "source": null,
+   "commit": "b596d3e",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://www.keenon.com/en/product/XMAN-L1",
+   "commit": "b310609",
+   "changes": [
+    {
+     "field": "note",
+     "from": null,
+     "to": "XMAN-L1 is listed in the maker's humanoid line-up (XMAN-R1, XMAN-F1, XMAN-L1), but its product page at keenon.com/en/product/XMAN-L1 serves only the contact form and publishes no specification content (checked 2026-11-17). No maker figures are available, so every spec field stays empty."
+    },
+    {
+     "field": "official_url",
+     "from": null,
+     "to": "https://www.keenon.com/en/product/XMAN-L1"
+    },
+    {
+     "field": "sources",
+     "from": [],
+     "to": [
+      "https://www.keenon.com/en/product/XMAN-L1"
+     ]
+    },
+    {
+     "field": "summary",
+     "from": "",
+     "to": "KEENON's XMAN-L1 humanoid, listed in the maker's humanoid line-up beside XMAN-R1 and XMAN-F1."
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "official"
+    }
+   ]
+  }
+ ]
+}

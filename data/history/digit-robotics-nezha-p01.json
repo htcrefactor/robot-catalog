@@ -1,0 +1,55 @@
+{
+ "id": "digit-robotics-nezha-p01",
+ "name": "Nezha P01",
+ "manufacturer": "Digit Robotics",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-17",
+   "type": "added",
+   "source": null,
+   "commit": "b596d3e",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://www.digit.com.cn/ProductsDetail/171.html",
+   "commit": "4b395bc",
+   "changes": [
+    {
+     "field": "locomotion",
+     "from": "Legged",
+     "to": "Wheel-legged"
+    },
+    {
+     "field": "note",
+     "from": null,
+     "to": "Maker product page (digit.com.cn/ProductsDetail/171.html): Nezha (星行侠) P01 is a highly customizable interaction robot with 'dual-mode, wheel and leg separable' mobility, hands-on teaching, an emotional-intelligence dialogue model, elevator control, long battery life and remote management through the JuHao app, and appearance/hands/voice customization. The maker publishes no height, weight, DoF, speed, runtime or price on the page, so specs stay empty. Manufacturer note: digit.com.cn is 数字华夏（深圳）科技有限公司 (Digital Huaxia); this record and digital-huaxia-xingxingxia-p02 are the same maker under two spellings, and 'Digit Robotics' comes from aggregator listings."
+    },
+    {
+     "field": "official_url",
+     "from": null,
+     "to": "https://www.digit.com.cn/ProductsDetail/171.html"
+    },
+    {
+     "field": "sources",
+     "from": [],
+     "to": [
+      "https://www.digit.com.cn/ProductsDetail/171.html"
+     ]
+    },
+    {
+     "field": "summary",
+     "from": "",
+     "to": "Digital Huaxia's customizable dual-mode service humanoid (Nezha / 星行侠 P01) that can switch between walking legs and a wheeled base, managed through the company's JuHao app."
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "official"
+    }
+   ]
+  }
+ ]
+}

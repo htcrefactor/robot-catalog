@@ -1,0 +1,62 @@
+{
+ "id": "aimoga-mornine-m1",
+ "name": "Mornine M1",
+ "manufacturer": "AiMOGA Robotics (Chery)",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-13",
+   "type": "added",
+   "source": "https://humanoidstore.co/robots/aimoga-mornine-m1",
+   "commit": "14cd746",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://www.aimoga-robot.com/global/en/mornine/",
+   "commit": "0be5d4c",
+   "changes": [
+    {
+     "field": "battery_wh",
+     "from": null,
+     "to": 673.92
+    },
+    {
+     "field": "data_source",
+     "from": "HumanoidStore open data (CC BY 4.0)",
+     "to": null
+    },
+    {
+     "field": "notes",
+     "from": null,
+     "to": "Issue #17 (2026-11-17): 167 cm, 70 kg, 40 DoF, 1 m/s, 1.5 kg arm load, 0.7 kWh (673.92 Wh) and 2 h operation from AiMOGA's Mornine page. HumanoidStore's US$41,400 price removed: AiMOGA publishes no price on its own site (the M1 was listed on JD at launch, per press). [replaced battery_wh: None -> 673.92 | emptied (no maker value) price_usd=41400; price_note=list 41400 USD (maker), per HumanoidStore, checked 2026-10]"
+    },
+    {
+     "field": "price_note",
+     "from": "list 41400 USD (maker), per HumanoidStore, checked 2026-10",
+     "to": null
+    },
+    {
+     "field": "price_usd",
+     "from": 41400,
+     "to": null
+    },
+    {
+     "field": "sources",
+     "from": [
+      "https://humanoidstore.co/robots/aimoga-mornine-m1"
+     ],
+     "to": [
+      "https://www.aimoga-robot.com/global/en/mornine/"
+     ]
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "official"
+    }
+   ]
+  }
+ ]
+}

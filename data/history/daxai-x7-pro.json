@@ -1,0 +1,102 @@
+{
+ "id": "daxai-x7-pro",
+ "name": "X7 Pro",
+ "manufacturer": "DaxAI Robotics",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-17",
+   "type": "added",
+   "source": null,
+   "commit": "b596d3e",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://www.daxrobotics.cn/",
+   "commit": "4b395bc",
+   "changes": [
+    {
+     "field": "compute_detail",
+     "from": null,
+     "to": "NVIDIA Jetson AGX Orin 32GB, 200 TOPS"
+    },
+    {
+     "field": "dof",
+     "from": null,
+     "to": 26
+    },
+    {
+     "field": "height_mm",
+     "from": null,
+     "to": 1750
+    },
+    {
+     "field": "max_speed_mps",
+     "from": null,
+     "to": 1.5
+    },
+    {
+     "field": "note",
+     "from": null,
+     "to": "Maker materials - the company brochure submitted to WRC 2026 and its exhibitor product entry: X7 Pro is 1750 mm tall and 600 mm wide, 26 DoF (7 per arm, 2 head, 4 torso, 6 chassis), 750 mm arms with a 1975 mm span, 5 kg per arm and 10 kg with both, 0-2 m vertical workspace, chassis 1.5 m/s, NVIDIA Jetson AGX Orin 32GB at 200 TOPS, head depth camera, wrist depth cameras, chassis LiDAR plus three depth cameras, grippers or a dexterous hand optional. The maker's own site is a JavaScript shell that serves no text to a plain fetch, so the brochure and WRC entry stand as its published data. Weight and price are not published."
+    },
+    {
+     "field": "official_url",
+     "from": null,
+     "to": "https://www.daxrobotics.cn/"
+    },
+    {
+     "field": "onboard_compute",
+     "from": null,
+     "to": true
+    },
+    {
+     "field": "payload_kg",
+     "from": null,
+     "to": 10
+    },
+    {
+     "field": "sensors",
+     "from": [],
+     "to": [
+      "Depth camera (head)",
+      "2 depth cameras (wrists)",
+      "LiDAR (chassis)",
+      "3 depth cameras (chassis)"
+     ]
+    },
+    {
+     "field": "sources",
+     "from": [],
+     "to": [
+      "https://www.daxrobotics.cn/",
+      "https://www.worldrobotconference.com/profile/robot/download/2026/07/23/20260723103929000694_20260723103929A287.pdf",
+      "https://www.worldrobotconference.com/expo/product/929.html"
+     ]
+    },
+    {
+     "field": "status",
+     "from": null,
+     "to": "Commercial"
+    },
+    {
+     "field": "summary",
+     "from": "",
+     "to": "DAX Robotics' X7 Pro wheeled industrial humanoid: two 7-DoF arms with 10 kg dual-arm load on a 6-DoF omni-directional base, sold for logistics and retail work."
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "official"
+    },
+    {
+     "field": "width_mm",
+     "from": null,
+     "to": 600
+    }
+   ]
+  }
+ ]
+}

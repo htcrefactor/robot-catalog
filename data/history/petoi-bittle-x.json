@@ -1,0 +1,84 @@
+{
+ "id": "petoi-bittle-x",
+ "name": "Bittle X",
+ "manufacturer": "Petoi",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-17",
+   "type": "added",
+   "source": "https://www.petoi.com/products/petoi-robot-dog-bittle-x-voice-controlled",
+   "commit": "b596d3e",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://www.petoi.com/products/petoi-robot-dog-bittle-x-voice-controlled",
+   "commit": "ae60ceb",
+   "changes": [
+    {
+     "field": "open_source_repos",
+     "from": null,
+     "to": [
+      {
+       "name": "OpenCat-Quadruped-Robot",
+       "url": "https://github.com/PetoiCamp/OpenCat-Quadruped-Robot",
+       "license": "MIT"
+      },
+      {
+       "name": "ros_opencat",
+       "url": "https://github.com/PetoiCamp/ros_opencat",
+       "license": "MIT"
+      }
+     ]
+    },
+    {
+     "field": "sdk",
+     "from": null,
+     "to": {
+      "languages": [
+       "C++"
+      ],
+      "open_source": true,
+      "license": "MIT",
+      "url": "https://github.com/PetoiCamp/OpenCat-Quadruped-Robot"
+     }
+    },
+    {
+     "field": "sim_models",
+     "from": null,
+     "to": {
+      "urdf": {
+       "url": "https://github.com/PetoiCamp/ros_opencat/blob/ros1/petoi_ROS_model_docs/bittle_ros/bittle_description/urdf/bittle.xacro",
+       "license": "MIT"
+      }
+     }
+    },
+    {
+     "field": "sources",
+     "from": [
+      "https://www.petoi.com/pages/robot-dog-bittle-x-technical-specifications"
+     ],
+     "to": [
+      "https://www.petoi.com/pages/robot-dog-bittle-x-technical-specifications",
+      "https://github.com/PetoiCamp/OpenCat-Quadruped-Robot",
+      "https://github.com/PetoiCamp/ros_opencat/blob/ros1/petoi_ROS_model_docs/bittle_ros/bittle_description/urdf/bittle.xacro",
+      "https://github.com/PetoiCamp/ros_opencat",
+      "https://www.petoi.com/products/petoi-robot-dog-bittle-x-voice-controlled"
+     ]
+    },
+    {
+     "field": "compute_soc",
+     "from": null,
+     "to": "Espressif ESP32"
+    },
+    {
+     "field": "compute_source",
+     "from": null,
+     "to": "https://www.petoi.com/products/petoi-robot-dog-bittle-x-voice-controlled"
+    }
+   ]
+  }
+ ]
+}

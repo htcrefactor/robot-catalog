@@ -1,0 +1,46 @@
+{
+ "id": "duatic-dxtr",
+ "name": "DXTR (Alpha Half-Humanoid)",
+ "manufacturer": "Duatic",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-17",
+   "type": "added",
+   "source": "https://www.duatic.com/dxtr",
+   "commit": "b596d3e",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://www.duatic.com/dxtr",
+   "commit": "48ef25e",
+   "changes": [
+    {
+     "field": "name",
+     "from": "DXTR",
+     "to": "DXTR (Alpha Half-Humanoid)"
+    },
+    {
+     "field": "note",
+     "from": "Official Duatic product page; page title calls it 'Alpha Half-Humanoid' (formerly Duatic Alpha, same robot). Wheeled half-humanoid with two DynaArms.",
+     "to": "Duatic's DXTR page titles the robot 'Alpha Half-Humanoid' - the same robot was listed separately as 'Duatic Alpha', now kept here as a variant. Wheeled half-humanoid with two DynaArms; 12 kg continuous / 30 kg peak payload, ROS 2."
+    },
+    {
+     "field": "variants",
+     "from": null,
+     "to": [
+      {
+       "id": "duatic-alpha",
+       "name": "Alpha (Duatic Alpha)",
+       "note": "Earlier/alternate name of DXTR - the maker page still reads 'Alpha Half-Humanoid'. Same robot, not a separate model.",
+       "note_ko": "DXTR의 이전 명칭입니다. 제조사 페이지 제목은 아직 'Alpha Half-Humanoid'이며, 별도 모델이 아닙니다.",
+       "url": "https://www.duatic.com/dxtr"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

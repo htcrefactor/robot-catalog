@@ -1,0 +1,76 @@
+{
+ "id": "aeirobot-alice-4",
+ "name": "ALICE 4",
+ "manufacturer": "AeiROBOT",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-13",
+   "type": "added",
+   "source": "https://humanoidstore.co/robots/aeirobot-alice-4",
+   "commit": "14cd746",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "http://humanoid.robocup.org/wp-content/uploads/HERoEHS-specs-67938e21e04fd.pdf",
+   "commit": "0c54867",
+   "changes": [
+    {
+     "field": "data_source",
+     "from": "HumanoidStore open data (CC BY 4.0)",
+     "to": null
+    },
+    {
+     "field": "max_speed_mps",
+     "from": null,
+     "to": 1.0
+    },
+    {
+     "field": "notes",
+     "from": null,
+     "to": "Issue #17 (2026-11-17): 160 cm, 45 kg, 41 DoF (legs 6x2, arms 7x2, hands 6x2, waist 1, head 2) and 1.0 m/s omnidirectional walking from the AeiROBOT/Hanyang University ALICE 4 specification sheets; four 140.4 Wh packs. HumanoidStore's 48 kg variant not used. [replaced max_speed_mps: None -> 1.0]"
+    },
+    {
+     "field": "sources",
+     "from": [
+      "https://humanoidstore.co/robots/aeirobot-alice-4"
+     ],
+     "to": [
+      "http://humanoid.robocup.org/wp-content/uploads/HERoEHS-specs-67938e21e04fd.pdf",
+      "https://hsl.robocup.org/wp-content/uploads/2026/03/large_HERoEHS-specs-697d5d67a1742.pdf",
+      "https://humanoidstore.co/robots/aeirobot-alice-4",
+      "http://www.arobot4all.com/"
+     ]
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "official"
+    },
+    {
+     "field": "kr_distributors",
+     "from": null,
+     "to": [
+      {
+       "name": "에이로봇 (본사 직판)",
+       "kind": "direct",
+       "url": "http://www.arobot4all.com/"
+      }
+     ]
+    },
+    {
+     "field": "manufacturer_ko",
+     "from": null,
+     "to": "에이로봇"
+    },
+    {
+     "field": "name_ko",
+     "from": null,
+     "to": "앨리스4"
+    }
+   ]
+  }
+ ]
+}

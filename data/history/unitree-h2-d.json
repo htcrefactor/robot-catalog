@@ -1,0 +1,54 @@
+{
+ "id": "unitree-h2-d",
+ "name": "H2-D",
+ "manufacturer": "Unitree Robotics",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-17",
+   "type": "added",
+   "source": "https://www.unitree.com/H2-D/",
+   "commit": "b596d3e",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://www.unitree.com/H2-D/",
+   "commit": "ae60ceb",
+   "changes": [
+    {
+     "field": "kr_distributors",
+     "from": null,
+     "to": [
+      {
+       "name": "영인모빌리티 (Unitree 한국 공식 파트너)",
+       "kind": "distributor",
+       "url": "https://www.younginmobility.com/"
+      }
+     ]
+    },
+    {
+     "field": "sources",
+     "from": [
+      "https://www.unitree.com/H2-D/"
+     ],
+     "to": [
+      "https://www.unitree.com/H2-D/",
+      "https://www.younginmobility.com/"
+     ]
+    },
+    {
+     "field": "compute_soc",
+     "from": null,
+     "to": "Intel Core i5 + Intel Core i7"
+    },
+    {
+     "field": "compute_source",
+     "from": null,
+     "to": "https://www.unitree.com/H2-D/"
+    }
+   ]
+  }
+ ]
+}

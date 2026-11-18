@@ -1,0 +1,33 @@
+{
+ "id": "avride-delivery-robot",
+ "name": "Avride Delivery Robot",
+ "manufacturer": "Avride",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-03",
+   "type": "added",
+   "source": "https://www.avride.ai/robot",
+   "commit": "1a533a7",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://www.avride.ai/robot",
+   "commit": "b1429ab",
+   "changes": [
+    {
+     "field": "notes",
+     "from": null,
+     "to": "Maker page: 915 x 659 x 851 mm (1298 mm with flag), 25 kg maximum cargo, cargo bay 520 x 464 x 300 mm, 8 km/h (2.22 m/s), 50 km per charge and up to 12 h on one battery, IP66, four wheels, swappable battery and wireless charging, LiDAR with 60 m detection plus cameras and ultrasonic sensors."
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "official"
+    }
+   ]
+  }
+ ]
+}

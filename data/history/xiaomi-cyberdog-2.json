@@ -1,0 +1,74 @@
+{
+ "id": "xiaomi-cyberdog-2",
+ "name": "CyberDog 2",
+ "manufacturer": "Xiaomi",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-03",
+   "type": "added",
+   "source": "https://www.mi.com/cyberdog2",
+   "commit": "1a533a7",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://www.mi.com/cyberdog2/specs",
+   "commit": "ae60ceb",
+   "changes": [
+    {
+     "field": "battery_wh",
+     "from": null,
+     "to": 97.2
+    },
+    {
+     "field": "note",
+     "from": null,
+     "to": "Xiaomi CyberDog 2 specification page (mi.com/cyberdog2/specs, read 2026-11-17): standing 562 x 339 x 481 mm (crouched 603 x 339 x 300 mm), 8.9 +/- 0.5 kg with battery, 12 DoF (3 per leg), maximum payload 1 kg, 1.6 m/s forward, about 90 min runtime (1.5 h recorded) and about 90 min charge, battery 4500 mAh / 97.2 Wh at 21.6 V, 0-40 C, Ubuntu 18.04 + ROS 2, 6-core NVIDIA Carmel CPU with 384-core Volta GPU and 8 GB RAM, YDLIDAR TG30 laser sensor plus RealSense D430 depth camera, fisheye, AI interaction camera, ToF, ultrasonic, UWB and 4-mic array."
+    },
+    {
+     "field": "official_url",
+     "from": "https://www.mi.com/cyberdog2",
+     "to": "https://www.mi.com/cyberdog2/specs"
+    },
+    {
+     "field": "payload_kg",
+     "from": null,
+     "to": 1
+    },
+    {
+     "field": "sources",
+     "from": [
+      "https://newatlas.com/robotics/xiaomi-cyberdog-2/",
+      "https://agreement.cyberdog.xiaomi.com/guide.html"
+     ],
+     "to": [
+      "https://www.mi.com/cyberdog2/specs",
+      "https://agreement.cyberdog.xiaomi.com/guide.html"
+     ]
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "official"
+    },
+    {
+     "field": "compute_memory_gb",
+     "from": null,
+     "to": 8
+    },
+    {
+     "field": "compute_soc",
+     "from": null,
+     "to": "NVIDIA Jetson Xavier NX"
+    },
+    {
+     "field": "compute_tops",
+     "from": null,
+     "to": 21
+    }
+   ]
+  }
+ ]
+}

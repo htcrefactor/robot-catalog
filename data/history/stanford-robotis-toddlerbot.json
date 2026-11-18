@@ -1,0 +1,134 @@
+{
+ "id": "stanford-robotis-toddlerbot",
+ "name": "ToddlerBot",
+ "manufacturer": "Stanford University",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-13",
+   "type": "added",
+   "source": "https://humanoidstore.co/robots/stanford-robotis-toddlerbot",
+   "commit": "14cd746",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://toddlerbot.github.io/",
+   "commit": "976d9e6",
+   "changes": [
+    {
+     "field": "data_source",
+     "from": "HumanoidStore open data (CC BY 4.0)",
+     "to": null
+    },
+    {
+     "field": "height_mm",
+     "from": 560,
+     "to": 600
+    },
+    {
+     "field": "notes",
+     "from": null,
+     "to": "Issue #17 (2026-11-17): ToddlerBot - about 0.6 m and 2.7 kg, 30 active DoF (arms 7x2, legs 6x2, neck 2, waist 2), 0.25 m/s walking, lifts 1,484 g (about half its weight) per the Stanford project. ROBOTIS sells a US$4,335 parts bundle, not the robot, so no price is recorded; runtime varies (19 min under a walking policy before thermal limits). [replaced height_mm: 560 -> 600; weight_kg: 3.4 -> 2.7; payload_kg: 1.484 -> 1.5 | emptied (no maker value) runtime_h=0.32; price_usd=6000; price_note=list 6000 USD (maker), per HumanoidStore, checked 2026-09]"
+    },
+    {
+     "field": "payload_kg",
+     "from": 1.484,
+     "to": 1.5
+    },
+    {
+     "field": "price_note",
+     "from": "list 6000 USD (maker), per HumanoidStore, checked 2026-09",
+     "to": "bill of materials under USD 6,000 for the open-source build (maker paper), not a sale price"
+    },
+    {
+     "field": "price_usd",
+     "from": 6000,
+     "to": null
+    },
+    {
+     "field": "runtime_h",
+     "from": 0.32,
+     "to": null
+    },
+    {
+     "field": "sources",
+     "from": [
+      "https://humanoidstore.co/robots/stanford-robotis-toddlerbot"
+     ],
+     "to": [
+      "https://toddlerbot.github.io/",
+      "https://arxiv.org/abs/2502.00893",
+      "https://github.com/hshi74/toddlerbot"
+     ]
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "official"
+    },
+    {
+     "field": "weight_kg",
+     "from": 3.4,
+     "to": 2.7
+    },
+    {
+     "field": "max_speed_mps",
+     "from": 0.25,
+     "to": null
+    },
+    {
+     "field": "note",
+     "from": null,
+     "to": "Maker paper (CoRL 2025) and project site: 0.56 m tall, 3.4 kg, 30 active DOF excluding end effectors (7 per arm, 6 per leg, 2 neck, 2 waist), 2 fisheye cameras, IMU in the chest, speaker, 2 microphones, Jetson Orin NX 16GB, entirely 3D-printed with off-the-shelf Dynamixel motors, total BOM cost under USD 6,000, design under CC BY-NC-SA and code under MIT, with zero-shot sim-to-real transfer and a teleoperation interface; two end-effector designs (parallel jaw gripper and compliant palm) swap in two minutes. The catalog's earlier payload (1.484 kg), max speed (0.25 m/s) and runtime (0.32 h) were HumanoidStore figures that the maker paper does not state in those terms, so they were removed rather than kept on an aggregator's authority."
+    },
+    {
+     "field": "official_url",
+     "from": null,
+     "to": "https://toddlerbot.github.io/"
+    },
+    {
+     "field": "onboard_compute",
+     "from": null,
+     "to": "NVIDIA Jetson Orin NX 16GB"
+    },
+    {
+     "field": "release_year",
+     "from": null,
+     "to": 2025
+    },
+    {
+     "field": "sdk_available",
+     "from": null,
+     "to": true
+    },
+    {
+     "field": "sdk_name",
+     "from": null,
+     "to": "Open-source: Python library (pip installable), RL/DP training, teleoperation interface; design files under CC BY-NC-SA"
+    },
+    {
+     "field": "sensors",
+     "from": [],
+     "to": [
+      "2x fisheye cameras",
+      "IMU (chest)",
+      "Speaker",
+      "2x microphones"
+     ]
+    },
+    {
+     "field": "status",
+     "from": "Commercial",
+     "to": "Research"
+    },
+    {
+     "field": "summary",
+     "from": "Compact humanoid from Stanford University; shipping now, anyone can order.",
+     "to": "ToddlerBot is Stanford's open-source, 3D-printed 56 cm humanoid for loco-manipulation research, with 30 active DOF, a Jetson Orin NX and a build cost under USD 6,000."
+    }
+   ]
+  }
+ ]
+}

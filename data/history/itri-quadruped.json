@@ -1,0 +1,66 @@
+{
+ "id": "itri-quadruped",
+ "name": "ITRI Quadruped",
+ "manufacturer": "Industrial Technology Research Institute (ITRI)",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-17",
+   "type": "added",
+   "source": null,
+   "commit": "b596d3e",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://www.itri.org.tw/ListStyle.aspx?DisplayStyle=18_content&MGID=1345233517124301610&MmmID=1036452026061075714&SiteID=1",
+   "commit": "1173def",
+   "changes": [
+    {
+     "field": "dof",
+     "from": null,
+     "to": 12
+    },
+    {
+     "field": "max_speed_mps",
+     "from": null,
+     "to": 2
+    },
+    {
+     "field": "note",
+     "from": null,
+     "to": "ITRI's own account (Industrial Technology and Information monthly, Aug 2026) describes two prototypes: a small one with ~5 kg payload and ~7.2 km/h (2 m/s) for culverts, and a large one with ~20 kg payload carrying lidar, thermal and gas sensors; both use 12 main joints. The record holds the large prototype's payload and the small prototype's speed. Fire test: 15 min at 2 m from the fire with a 100 C ceiling. Mass and dimensions are not published."
+    },
+    {
+     "field": "official_url",
+     "from": null,
+     "to": "https://www.itri.org.tw/ListStyle.aspx?DisplayStyle=18_content&MGID=1345233517124301610&MmmID=1036452026061075714&SiteID=1"
+    },
+    {
+     "field": "payload_kg",
+     "from": null,
+     "to": 20
+    },
+    {
+     "field": "sources",
+     "from": [],
+     "to": [
+      "https://www.itri.org.tw/ListStyle.aspx?DisplayStyle=18_content&MGID=1345233517124301610&MmmID=1036452026061075714&SiteID=1",
+      "https://www.taipeitimes.com/News/biz/archives/2026/07/09/2003860433"
+     ]
+    },
+    {
+     "field": "summary",
+     "from": "",
+     "to": "Taiwan's ITRI-led domestic quadruped platform, built with Teco, Solomon, Compal and Inventec, in large and small prototypes."
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "official"
+    }
+   ]
+  }
+ ]
+}

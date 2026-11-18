@@ -1,0 +1,130 @@
+{
+ "id": "unitree-as2",
+ "name": "As2",
+ "manufacturer": "Unitree Robotics",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-17",
+   "type": "added",
+   "source": "https://www.unitree.com/As2",
+   "commit": "b596d3e",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://www.unitree.com/As2",
+   "commit": "0c54867",
+   "changes": [
+    {
+     "field": "open_source_repos",
+     "from": null,
+     "to": [
+      {
+       "name": "unitree_sdk2",
+       "url": "https://github.com/unitreerobotics/unitree_sdk2",
+       "license": "BSD-3-Clause"
+      },
+      {
+       "name": "unitree_ros",
+       "url": "https://github.com/unitreerobotics/unitree_ros",
+       "license": "BSD-3-Clause"
+      }
+     ]
+    },
+    {
+     "field": "sdk",
+     "from": null,
+     "to": {
+      "languages": [
+       "C++",
+       "Python"
+      ],
+      "open_source": true,
+      "license": "BSD-3-Clause",
+      "url": "https://github.com/unitreerobotics/unitree_sdk2"
+     }
+    },
+    {
+     "field": "sim_models",
+     "from": null,
+     "to": {
+      "urdf": {
+       "url": "https://github.com/unitreerobotics/unitree_ros/blob/master/robots/as2_description/urdf/as2.urdf",
+       "license": "BSD-3-Clause"
+      },
+      "mjcf": {
+       "url": "https://github.com/unitreerobotics/unitree_ros/blob/master/robots/as2_description/as2.xml",
+       "license": "BSD-3-Clause"
+      }
+     }
+    },
+    {
+     "field": "sources",
+     "from": [
+      "https://www.unitree.com/As2",
+      "https://shop.unitree.com/products/unitree-as2",
+      "https://support.unitree.com/home/en/AS2_SDK_Development_Guide"
+     ],
+     "to": [
+      "https://www.unitree.com/As2",
+      "https://shop.unitree.com/products/unitree-as2",
+      "https://support.unitree.com/home/en/AS2_SDK_Development_Guide",
+      "https://github.com/unitreerobotics/unitree_sdk2",
+      "https://github.com/unitreerobotics/unitree_ros/blob/master/robots/as2_description/urdf/as2.urdf",
+      "https://github.com/unitreerobotics/unitree_ros/blob/master/robots/as2_description/as2.xml",
+      "https://github.com/unitreerobotics/unitree_sdk2_python",
+      "https://github.com/unitreerobotics/unitree_ros",
+      "https://github.com/unitreerobotics/unitree_ros2",
+      "https://github.com/unitreerobotics/unitree_mujoco",
+      "https://www.younginmobility.com/"
+     ]
+    },
+    {
+     "field": "price_note",
+     "from": "starting price (As2 Air) on Unitree shop; EDU via sales",
+     "to": null
+    },
+    {
+     "field": "price_observations",
+     "from": null,
+     "to": [
+      {
+       "date": "2026-11-17",
+       "amount": 3100,
+       "currency": "USD",
+       "kind": "from",
+       "source": "https://shop.unitree.com/products/unitree-as2",
+       "note": "As2 Air"
+      },
+      {
+       "date": "2026-11-17",
+       "amount": 4650,
+       "currency": "USD",
+       "kind": "list",
+       "source": "https://shop.unitree.com/products/unitree-as2",
+       "note": "As2 Pro; As2 EDU by quote"
+      }
+     ]
+    },
+    {
+     "field": "price_usd",
+     "from": 3100,
+     "to": null
+    },
+    {
+     "field": "kr_distributors",
+     "from": null,
+     "to": [
+      {
+       "name": "영인모빌리티 (Unitree 한국 공식 파트너)",
+       "kind": "distributor",
+       "url": "https://www.younginmobility.com/"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

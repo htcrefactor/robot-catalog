@@ -1,0 +1,101 @@
+{
+ "id": "robotera-q5",
+ "name": "Q5",
+ "manufacturer": "RobotEra",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-17",
+   "type": "added",
+   "source": null,
+   "commit": "b596d3e",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://www.robotera.com/en/enl7#/product/Q5",
+   "commit": "75b989d",
+   "changes": [
+    {
+     "field": "dof",
+     "from": null,
+     "to": 44
+    },
+    {
+     "field": "height_mm",
+     "from": null,
+     "to": 1650
+    },
+    {
+     "field": "length_mm",
+     "from": null,
+     "to": 582
+    },
+    {
+     "field": "note",
+     "from": null,
+     "to": "Maker product page (read 2026-11-17): 44 DOF (waist 1, neck 2, arms 7 x 2, hands 11 x 2, legs 3, chassis 2), standing size 582 x 519 x 1650 mm with a 225 mm chassis height, 70 kg, max dual-arm payload 10 kg, arm span 1,380 mm, working range 0-2 m, 3D LiDAR + stereo camera, load runtime >4 hours, 60 V supply, 2 drive wheels + 4 universal wheels, XHAND 1 Lite 11-DOF hands (single-hand payload 10 kg, up to 10 CPS), low-latency full-body teleoperation, EraAI platform. Payload entered as the maker's dual-arm figure. Max speed, battery capacity in Ah, compute and price are not published, so those fields stay empty."
+    },
+    {
+     "field": "official_url",
+     "from": null,
+     "to": "https://www.robotera.com/en/enl7#/product/Q5"
+    },
+    {
+     "field": "payload_kg",
+     "from": null,
+     "to": 10
+    },
+    {
+     "field": "runtime_h",
+     "from": null,
+     "to": 4
+    },
+    {
+     "field": "sensors",
+     "from": [],
+     "to": [
+      "3D LiDAR",
+      "Stereo HD camera",
+      "Status display screen"
+     ]
+    },
+    {
+     "field": "sources",
+     "from": [],
+     "to": [
+      "https://www.robotera.com/en/enl7#/product/Q5",
+      "https://www.robotera.com/q5",
+      "https://tools.prnewswire.com/en-us/live/20813/release/20260108EN59122"
+     ]
+    },
+    {
+     "field": "status",
+     "from": null,
+     "to": "Commercial"
+    },
+    {
+     "field": "summary",
+     "from": "",
+     "to": "RobotEra's full-size wheeled humanoid for service and research: 44 DOF, XHAND 1 Lite hands with 10 kg single-hand payload, and a slim chassis for corridors and malls."
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "official"
+    },
+    {
+     "field": "weight_kg",
+     "from": null,
+     "to": 70
+    },
+    {
+     "field": "width_mm",
+     "from": null,
+     "to": 519
+    }
+   ]
+  }
+ ]
+}

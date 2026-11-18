@@ -1,0 +1,91 @@
+{
+ "id": "sony-qrio",
+ "name": "QRIO",
+ "manufacturer": "Sony",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-17",
+   "type": "added",
+   "source": null,
+   "commit": "b596d3e",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://www.sony.com/en/SonyInfo/CorporateInfo/History/sonyhistory-j.html",
+   "commit": "75b989d",
+   "changes": [
+    {
+     "field": "country",
+     "from": null,
+     "to": "Japan"
+    },
+    {
+     "field": "dof",
+     "from": null,
+     "to": 38
+    },
+    {
+     "field": "height_mm",
+     "from": null,
+     "to": 580
+    },
+    {
+     "field": "length_mm",
+     "from": null,
+     "to": 190
+    },
+    {
+     "field": "note",
+     "from": null,
+     "to": "Sony's own corporate history and press releases confirm the identity and status: SDR-4X (2002, 58 cm, 38 joints) and QRIO SDR-4XII (2003), which Sony's history page states explicitly was a prototype and never launched commercially, plus Sony's 2003-12-18 release announcing QRIO as the world's first running humanoid robot. Height 58 cm, width 27 cm, length 19 cm, mass 7 kg and 38 DOF (neck 4, waist 2, 5 per arm, 6 per leg, 5 independent fingers per hand) are the SDR-4XII figures published in the maker-side technical literature (Nagasaka, Sony, in Humanoid Robotics: A Reference). No maker page carries a full spec table today, and walking/running speed, payload, battery capacity and price are not published, so those fields stay empty. Project ended in 2006."
+    },
+    {
+     "field": "official_url",
+     "from": null,
+     "to": "https://www.sony.com/en/SonyInfo/CorporateInfo/History/sonyhistory-j.html"
+    },
+    {
+     "field": "release_year",
+     "from": null,
+     "to": 2003
+    },
+    {
+     "field": "sources",
+     "from": [],
+     "to": [
+      "https://www.sony.com/en/SonyInfo/CorporateInfo/History/sonyhistory-j.html",
+      "https://www.sony.com/en/SonyInfo/News/Press/200312/03-060E/"
+     ]
+    },
+    {
+     "field": "status",
+     "from": null,
+     "to": "Discontinued"
+    },
+    {
+     "field": "summary",
+     "from": "",
+     "to": "QRIO (SDR-4XII) was Sony's 58 cm bipedal entertainment humanoid, which in December 2003 became the world's first running humanoid robot and was never sold commercially."
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "official"
+    },
+    {
+     "field": "weight_kg",
+     "from": null,
+     "to": 7
+    },
+    {
+     "field": "width_mm",
+     "from": null,
+     "to": 270
+    }
+   ]
+  }
+ ]
+}

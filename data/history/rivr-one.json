@@ -1,0 +1,33 @@
+{
+ "id": "rivr-one",
+ "name": "RIVR ONE",
+ "manufacturer": "RIVR Technologies",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-03",
+   "type": "added",
+   "source": "https://www.rivr.ai/product.html",
+   "commit": "1a533a7",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://www.rivr.ai/product.html",
+   "commit": "fa098f7",
+   "changes": [
+    {
+     "field": "note",
+     "from": null,
+     "to": "RIVR's product page (checked 2026-11-17): wheeled-legged doorstep delivery robot that rides sidewalks and bike lanes, climbs stairs and opens gates; more than 30 kg payload, up to 14 km/h (3.89 m/s) when needed, over 30 km range with a 2-3 h recharge, and van-dispensed delivery mode. Mass, dimensions and battery capacity are not published."
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "official"
+    }
+   ]
+  }
+ ]
+}

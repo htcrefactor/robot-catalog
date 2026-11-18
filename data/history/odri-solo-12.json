@@ -1,0 +1,75 @@
+{
+ "id": "odri-solo-12",
+ "name": "Solo 12",
+ "manufacturer": "Open Dynamic Robot Initiative (ODRI) / PAL Robotics",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-17",
+   "type": "added",
+   "source": "https://open-dynamic-robot-initiative.github.io/",
+   "commit": "b596d3e",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://open-dynamic-robot-initiative.github.io/",
+   "commit": "c3614dc",
+   "changes": [
+    {
+     "field": "open_source_repos",
+     "from": null,
+     "to": [
+      {
+       "name": "solo",
+       "url": "https://github.com/open-dynamic-robot-initiative/solo",
+       "license": "BSD-3-Clause"
+      },
+      {
+       "name": "robot_properties_solo",
+       "url": "https://github.com/open-dynamic-robot-initiative/robot_properties_solo",
+       "license": "BSD-3-Clause"
+      }
+     ]
+    },
+    {
+     "field": "sdk",
+     "from": null,
+     "to": {
+      "languages": [
+       "C++"
+      ],
+      "open_source": true,
+      "license": "BSD-3-Clause",
+      "url": "https://github.com/open-dynamic-robot-initiative/solo"
+     }
+    },
+    {
+     "field": "sim_models",
+     "from": null,
+     "to": {
+      "urdf": {
+       "url": "https://github.com/open-dynamic-robot-initiative/robot_properties_solo/blob/master/src/robot_properties_solo/resources/xacro/solo12.urdf.xacro",
+       "license": "BSD-3-Clause"
+      }
+     }
+    },
+    {
+     "field": "sources",
+     "from": [
+      "https://github.com/open-dynamic-robot-initiative/open_robot_actuator_hardware/blob/master/mechanics/quadruped_robot_12dof_v1/README.md",
+      "https://solo.pal-robotics.com/solo"
+     ],
+     "to": [
+      "https://github.com/open-dynamic-robot-initiative/open_robot_actuator_hardware/blob/master/mechanics/quadruped_robot_12dof_v1/README.md",
+      "https://solo.pal-robotics.com/solo",
+      "https://github.com/open-dynamic-robot-initiative/solo",
+      "https://github.com/open-dynamic-robot-initiative/robot_properties_solo/blob/master/src/robot_properties_solo/resources/xacro/solo12.urdf.xacro",
+      "https://github.com/open-dynamic-robot-initiative/robot_properties_solo"
+     ]
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,49 @@
+{
+ "id": "embodied-ai-air01",
+ "name": "AIR01",
+ "manufacturer": "Embodied AI",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-15",
+   "type": "added",
+   "source": "https://embodiedai.ch/",
+   "commit": "e2c4370",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://embodiedai.ch/",
+   "commit": "4b395bc",
+   "changes": [
+    {
+     "field": "note",
+     "from": null,
+     "to": "Embodied AI's own site lists the humanoid as AIR01 ('The versatile humanoid for everyday operations') with a modular-arm, safe-by-design build, while the 6 Nov 2026 launch release names it AIR; this record and embodied-ai-air therefore describe the same robot and are a candidate for a variants merge that is left to the owner. Maker publishes no height, weight, DoF, payload, speed, runtime, compute or price, so those fields stay empty."
+    },
+    {
+     "field": "sources",
+     "from": [
+      "https://roboticsandautomationnews.com/2026/11/15/embodied-ai-unveils-air-humanoid-robot-designed-to-learn-factory-tasks-on-the-job/107133/",
+      "https://embodiedai.ch/"
+     ],
+     "to": [
+      "https://embodiedai.ch/",
+      "https://cdn.prod.website-files.com/696e4d2b681829764d29ce1c/6aed7eac45a2f3ef02919537_2026%20Press%20Release%20-%20Embodied%20AI%20AIR%20Launch_v2%20LOOK%20AI.pdf"
+     ]
+    },
+    {
+     "field": "summary",
+     "from": "Wheeled, tendon-driven humanoid for safe factory work that learns tasks from operator demonstrations; unveiled at Humanoid Europe 2026.",
+     "to": "The AIR01 listing on Embodied AI's site: the same Swiss wheeled humanoid introduced as AIR in November 2026 for safe, teleoperated-then-autonomous factory work."
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "official"
+    }
+   ]
+  }
+ ]
+}

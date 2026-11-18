@@ -1,0 +1,40 @@
+{
+ "id": "daxai-qiji-x1",
+ "name": "Qiji X1",
+ "manufacturer": "DaxAI Robotics",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-17",
+   "type": "added",
+   "source": "https://ex.chinadaily.com.cn/exchange/partners/82/rss/channel/cn/columns/sz8srm/stories/WS6a87e6bca3105d3d7a27c2fa.html",
+   "commit": "b596d3e",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://ex.chinadaily.com.cn/exchange/partners/82/rss/channel/cn/columns/sz8srm/stories/WS6a87e6bca3105d3d7a27c2fa.html",
+   "commit": "7864761",
+   "changes": [
+    {
+     "field": "note",
+     "from": "Values from DaxAI's WRC 2026 launch release (Aug 19, 2026): 165 V pack, 40 km range, 8-10 h, 1,400 Nm joint torque. Not listed on DaxAI's own site yet. Rideable mount, borderline scope.",
+     "to": "Scope review (#16, 2026-11-17): kept as an in-scope Quadruped. Being rideable is not grounds for Misc - the catalog already files Kawasaki CORLEO (also rideable) as Quadruped and RHP Bex as Wheel-legged. The X1 walks on four point feet and carries a rider: a mobile robot, not a car or a toy. Values from DaxAI's WRC 2026 launch release (Aug 19, 2026): 165 V pack, 40 km range, 8-10 h, 1,400 Nm joint torque. The maker's own site (daxrobotics.cn) lists the Qiji line only as 骑骥 T1000, so there is no X1 product page yet and the sources stay press-based."
+    },
+    {
+     "field": "sources",
+     "from": [
+      "https://ex.chinadaily.com.cn/exchange/partners/82/rss/channel/cn/columns/sz8srm/stories/WS6a87e6bca3105d3d7a27c2fa.html",
+      "https://www.bjnews.com.cn/detail/1784446831129245.html"
+     ],
+     "to": [
+      "https://ex.chinadaily.com.cn/exchange/partners/82/rss/channel/cn/columns/sz8srm/stories/WS6a87e6bca3105d3d7a27c2fa.html",
+      "https://www.bjnews.com.cn/detail/1784446831129245.html",
+      "https://www.daxrobotics.cn/"
+     ]
+    }
+   ]
+  }
+ ]
+}

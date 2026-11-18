@@ -1,0 +1,102 @@
+{
+ "id": "glroad-laborer-c1",
+ "name": "Laborer C1",
+ "manufacturer": "GLRoad",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-17",
+   "type": "added",
+   "source": null,
+   "commit": "b596d3e",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "http://www.glroad.com/ListIntroduction/info.aspx?itemid=549",
+   "commit": "b310609",
+   "changes": [
+    {
+     "field": "compute_detail",
+     "from": null,
+     "to": "100 TOPS / 157 TOPS"
+    },
+    {
+     "field": "dof",
+     "from": null,
+     "to": 21
+    },
+    {
+     "field": "height_mm",
+     "from": null,
+     "to": 1371
+    },
+    {
+     "field": "max_speed_mps",
+     "from": null,
+     "to": 2
+    },
+    {
+     "field": "note",
+     "from": null,
+     "to": "Maker parameter table (glroad.com, 劳动者C1): height 137.1 cm, mass 38 kg, arm length 57.9 cm, moving speed >2 m/s (field = 2 m/s, lower bound), operating -20 to 60 C, battery 10 Ah (voltage not published, so Wh left empty), runtime 2 h walking / 4 h standing, 21 whole-body DoF (6 per leg, 1 waist, 4 per arm expandable), peak joint torque 150 N.m, dual encoders, gear ratio 25, Orin NX 100T/157T, Wi-Fi 6, Bluetooth 5.2, 4G/5G, Type-C/Ethernet, handheld remote, secondary development supported. Released 20 Aug 2026 with the M1."
+    },
+    {
+     "field": "official_url",
+     "from": null,
+     "to": "http://www.glroad.com/ListIntroduction/info.aspx?itemid=549"
+    },
+    {
+     "field": "onboard_compute",
+     "from": null,
+     "to": "NVIDIA Orin NX"
+    },
+    {
+     "field": "release_year",
+     "from": null,
+     "to": 2026
+    },
+    {
+     "field": "runtime_h",
+     "from": null,
+     "to": 2.0
+    },
+    {
+     "field": "sensors",
+     "from": [],
+     "to": [
+      "Interaction screen",
+      "Depth camera",
+      "LiDAR",
+      "Microphone array",
+      "6-axis IMU"
+     ]
+    },
+    {
+     "field": "sources",
+     "from": [],
+     "to": [
+      "http://www.glroad.com/ListIntroduction/info.aspx?itemid=549",
+      "https://www.glroad.com/HumanoidRobots/"
+     ]
+    },
+    {
+     "field": "summary",
+     "from": "",
+     "to": "Glroad's compact biped service humanoid (1.37 m, 21 DoF, 38 kg) for store guidance, reception and exhibition hosting."
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "official"
+    },
+    {
+     "field": "weight_kg",
+     "from": null,
+     "to": 38
+    }
+   ]
+  }
+ ]
+}

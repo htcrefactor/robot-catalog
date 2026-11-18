@@ -1,0 +1,65 @@
+{
+ "id": "agibot-d1-pro",
+ "name": "D1 Pro (D1 Edu)",
+ "manufacturer": "AgiBot",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-17",
+   "type": "added",
+   "source": "https://store.agibot.com/products/d1-pro",
+   "commit": "b596d3e",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://store.agibot.com/products/d1-pro",
+   "commit": "4b7ab4b",
+   "changes": [
+    {
+     "field": "price_note",
+     "from": "D1 Pro $3,200; D1 Edu $6,080 (official store)",
+     "to": null
+    },
+    {
+     "field": "price_observations",
+     "from": null,
+     "to": [
+      {
+       "date": "2026-11-17",
+       "amount": 3200,
+       "currency": "USD",
+       "kind": "list",
+       "source": "https://store.agibot.com/products/d1-pro",
+       "note": "D1 Pro"
+      },
+      {
+       "date": "2026-11-17",
+       "amount": 6080,
+       "currency": "USD",
+       "kind": "edu",
+       "source": "https://store.agibot.com/products/d1-edu",
+       "note": "D1 Edu"
+      }
+     ]
+    },
+    {
+     "field": "price_usd",
+     "from": 3200,
+     "to": null
+    },
+    {
+     "field": "sources",
+     "from": [
+      "https://store.agibot.com/products/d1-pro"
+     ],
+     "to": [
+      "https://store.agibot.com/products/d1-pro",
+      "https://store.agibot.com/products/d1-edu"
+     ]
+    }
+   ]
+  }
+ ]
+}

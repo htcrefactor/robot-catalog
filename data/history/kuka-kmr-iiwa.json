@@ -1,0 +1,48 @@
+{
+ "id": "kuka-kmr-iiwa",
+ "name": "KMR iiwa",
+ "manufacturer": "KUKA",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-17",
+   "type": "added",
+   "source": "https://www.kuka.com/en-us/products/amr-autonomous-mobile-robotics/mobile-robot-systems/kmr-iiwa",
+   "commit": "ebcdc70",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://www.kuka.com/en-us/products/amr-autonomous-mobile-robotics/mobile-robot-systems/kmr-iiwa",
+   "commit": "0c54867",
+   "changes": [
+    {
+     "field": "kr_distributors",
+     "from": null,
+     "to": [
+      {
+       "name": "쿠카로보틱스코리아 (KUKA Robotics Korea Co., Ltd.)",
+       "kind": "direct",
+       "url": "https://www.kuka.com/ko-kr/"
+      }
+     ]
+    },
+    {
+     "field": "sources",
+     "from": [
+      "https://www.kuka.com/en-us/products/amr-autonomous-mobile-robotics/mobile-robot-systems/kmr-iiwa",
+      "https://www.kuka.com/-/media/kuka-downloads/files/87f2706ce77c4318877932fb36f6002d/kuka_kmriiwa_en.pdf",
+      "https://my.kuka.com/s/product/kmr-iiwa-omnimove-c/01t1i000000AQtGAAW?language=en_US"
+     ],
+     "to": [
+      "https://www.kuka.com/en-us/products/amr-autonomous-mobile-robotics/mobile-robot-systems/kmr-iiwa",
+      "https://www.kuka.com/-/media/kuka-downloads/files/87f2706ce77c4318877932fb36f6002d/kuka_kmriiwa_en.pdf",
+      "https://my.kuka.com/s/product/kmr-iiwa-omnimove-c/01t1i000000AQtGAAW?language=en_US",
+      "https://www.kuka.com/ko-kr/"
+     ]
+    }
+   ]
+  }
+ ]
+}

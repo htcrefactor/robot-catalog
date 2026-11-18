@@ -1,0 +1,28 @@
+{
+ "id": "microrobotech-movenew-p2",
+ "name": "MOVENEW P2",
+ "manufacturer": "MICBOT (Hangzhou Juwei Technology)",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-17",
+   "type": "added",
+   "source": "https://www.micbotics.cn/list_12/95.html",
+   "commit": "b596d3e",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://www.micbotics.cn/list_12/95.html",
+   "commit": "48ef25e",
+   "changes": [
+    {
+     "field": "manufacturer",
+     "from": "MicroRoboTech",
+     "to": "MICBOT (Hangzhou Juwei Technology)"
+    }
+   ]
+  }
+ ]
+}

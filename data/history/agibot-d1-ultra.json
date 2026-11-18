@@ -1,0 +1,46 @@
+{
+ "id": "agibot-d1-ultra",
+ "name": "D1 Ultra",
+ "manufacturer": "AgiBot",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-17",
+   "type": "added",
+   "source": "https://www.agibot.com/products/D1Ultra",
+   "commit": "b596d3e",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://www.agibot.com/products/D1Ultra",
+   "commit": "4b7ab4b",
+   "changes": [
+    {
+     "field": "price_observations",
+     "from": null,
+     "to": [
+      {
+       "date": "2026-11-17",
+       "amount": 9600,
+       "currency": "USD",
+       "kind": "list",
+       "source": "https://store.agibot.com/products/d1-ultra"
+      }
+     ]
+    },
+    {
+     "field": "sources",
+     "from": [
+      "https://www.agibot.com/products/D1Ultra"
+     ],
+     "to": [
+      "https://www.agibot.com/products/D1Ultra",
+      "https://store.agibot.com/products/d1-ultra"
+     ]
+    }
+   ]
+  }
+ ]
+}

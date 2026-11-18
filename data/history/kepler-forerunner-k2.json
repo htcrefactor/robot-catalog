@@ -1,0 +1,105 @@
+{
+ "id": "kepler-forerunner-k2",
+ "name": "Forerunner K2",
+ "manufacturer": "Shanghai Kepler Robotics",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-13",
+   "type": "added",
+   "source": "https://humanoidstore.co/robots/kepler-forerunner-k2",
+   "commit": "14cd746",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://www.gotokepler.com/productDetailK2",
+   "commit": "b310609",
+   "changes": [
+    {
+     "field": "data_source",
+     "from": "HumanoidStore open data (CC BY 4.0)",
+     "to": null
+    },
+    {
+     "field": "dof",
+     "from": 30,
+     "to": 52
+    },
+    {
+     "field": "notes",
+     "from": null,
+     "to": "Issue #17 (2026-11-17): Kepler K2 Bumblebee - 175 cm, 75 kg, 52 DoF, 15 kg per arm / 30 kg both, 8 h on a 1-hour charge, base model US$30,000 per Kepler's ICRA 2025 release and product page. Kepler publishes no walking speed, so that field was emptied. [replaced payload_kg: None -> 30; dof: 30 -> 52; price_usd: 34000 -> 30000; price_note: list 34000 USD (maker), per HumanoidStore, checked 2026-10 -> base model US$30,000]"
+    },
+    {
+     "field": "payload_kg",
+     "from": null,
+     "to": 30
+    },
+    {
+     "field": "price_note",
+     "from": "list 34000 USD (maker), per HumanoidStore, checked 2026-10",
+     "to": "base model US$30,000"
+    },
+    {
+     "field": "price_usd",
+     "from": 34000,
+     "to": 30000
+    },
+    {
+     "field": "sources",
+     "from": [
+      "https://humanoidstore.co/robots/kepler-forerunner-k2"
+     ],
+     "to": [
+      "https://www.gotokepler.com/productDetailK2",
+      "https://www.prnewswire.com/news-releases/kepler-k2-bumblebee-debuts-at-icra-2025-captivating-attendees-302471503.html",
+      "https://www.prnewswire.com/news-releases/kepler-debuts-forerunner-k2-humanoid-robot-accelerating-commercial-deployment-302281546.html",
+      "https://www.prnewswire.com/news-releases/keplers-forerunner-k2-bumblebee-robot-completes-8-hour-livestream-at-waic-2025-signaling-major-step-toward-real-world-deployment-of-embodied-ai-in-industrial-settings-302520070.html"
+     ]
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "official"
+    },
+    {
+     "field": "battery_wh",
+     "from": null,
+     "to": 2330
+    },
+    {
+     "field": "compute_detail",
+     "from": null,
+     "to": "100 TOPS on-board"
+    },
+    {
+     "field": "note",
+     "from": null,
+     "to": "Maker press releases: Forerunner K2 launched at GITEX GLOBAL 2024 (Oct 2024) and described at WAIC 2025 as 175 cm, 75 kg, 52 DoF (22 hand DoF), 2.33 kWh battery for 8 h operation with 1 h charging, bimanual payload 25-30 kg and 15 kg per hand, 11-DoF tactile hands with 96 contact points per fingertip, 2 head DoF, 100 TOPS on-board. Pre-sales opened with three configurations (Bipedal Basic, Bipedal Developer, Wheeled Developer) from 248,000 CNY. The 34,000 USD price was an aggregator figure and was removed. No maker product-domain page was found, so official_url is empty."
+    },
+    {
+     "field": "release_year",
+     "from": null,
+     "to": 2024
+    },
+    {
+     "field": "sensors",
+     "from": [],
+     "to": [
+      "Binocular RGB-D cameras",
+      "Long-range 4-microphone array",
+      "Fingertip and palm force/tactile sensors",
+      "6-axis force wrists"
+     ]
+    },
+    {
+     "field": "summary",
+     "from": "Full-size humanoid from Shanghai Kepler Robotics; b2b only, sold to businesses.",
+     "to": "Shanghai Kepler's full-size industrial humanoid with planetary roller-screw actuators, 8 h on a 2.33 kWh pack and a 30 kg bimanual rating."
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,107 @@
+{
+ "id": "coowa-x0",
+ "name": "X0",
+ "manufacturer": "COOWA",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-17",
+   "type": "added",
+   "source": null,
+   "commit": "b596d3e",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://cowarobot.com/business/robodog",
+   "commit": "1173def",
+   "changes": [
+    {
+     "field": "compute_detail",
+     "from": null,
+     "to": "2,070 TFLOPS on-device compute (maker figure)"
+    },
+    {
+     "field": "height_mm",
+     "from": null,
+     "to": 685
+    },
+    {
+     "field": "ip_rating",
+     "from": null,
+     "to": "IP67"
+    },
+    {
+     "field": "length_mm",
+     "from": null,
+     "to": 988
+    },
+    {
+     "field": "max_speed_mps",
+     "from": null,
+     "to": 4.17
+    },
+    {
+     "field": "note",
+     "from": null,
+     "to": "Maker specification table: 68 kg, 988 x 451 x 685 mm standing, continuous payload >=40 kg (limit >=100 kg), max running speed 15 km/h (4.17 m/s), 45 deg climb, 30 cm continuous / 80 cm maximum obstacle, 2.5-5 h endurance (2.5 recorded), IP67, -20 to 55 C, 2,070 TFLOPS on-device, 7-DoF arm with 0-150 cm (max 170 cm) working height and 5 kg tool payload."
+    },
+    {
+     "field": "official_url",
+     "from": null,
+     "to": "https://cowarobot.com/business/robodog"
+    },
+    {
+     "field": "onboard_compute",
+     "from": null,
+     "to": true
+    },
+    {
+     "field": "payload_kg",
+     "from": null,
+     "to": 40
+    },
+    {
+     "field": "runtime_h",
+     "from": null,
+     "to": 2.5
+    },
+    {
+     "field": "sensors",
+     "from": [],
+     "to": [
+      "7-DoF arm with quick-change end tools (0-150 cm working height, 5 kg at the tool)"
+     ]
+    },
+    {
+     "field": "sources",
+     "from": [],
+     "to": [
+      "https://cowarobot.com/business/robodog"
+     ]
+    },
+    {
+     "field": "summary",
+     "from": "",
+     "to": "Heavy-duty city-maintenance quadruped on the Aether-Magnum platform, driven by COOWA's world model with a 7-DoF arm and swappable tools."
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "official"
+    },
+    {
+     "field": "weight_kg",
+     "from": null,
+     "to": 68
+    },
+    {
+     "field": "width_mm",
+     "from": null,
+     "to": 451
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,62 @@
+{
+ "id": "berkeley-humanoid-lite",
+ "name": "Humanoid Lite",
+ "manufacturer": "UC Berkeley",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-13",
+   "type": "added",
+   "source": "https://humanoidstore.co/robots/berkeley-humanoid-lite",
+   "commit": "14cd746",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://lite.berkeley-humanoid.org/",
+   "commit": "0be5d4c",
+   "changes": [
+    {
+     "field": "data_source",
+     "from": "HumanoidStore open data (CC BY 4.0)",
+     "to": null
+    },
+    {
+     "field": "notes",
+     "from": null,
+     "to": "Issue #17 (2026-11-17): Berkeley Humanoid Lite - 0.8 m, 16 kg, 22 actuated joints (12 legs, 10 arms) plus two grippers; hardware cost under US$5,000 in parts (not a product price). No maker payload, speed or runtime figure, so those HumanoidStore values were emptied. [emptied (no maker value) runtime_h=0.5; price_usd=5000; price_note=list 5000 USD (maker), per HumanoidStore, checked 2026-09]"
+    },
+    {
+     "field": "price_note",
+     "from": "list 5000 USD (maker), per HumanoidStore, checked 2026-09",
+     "to": null
+    },
+    {
+     "field": "price_usd",
+     "from": 5000,
+     "to": null
+    },
+    {
+     "field": "runtime_h",
+     "from": 0.5,
+     "to": null
+    },
+    {
+     "field": "sources",
+     "from": [
+      "https://humanoidstore.co/robots/berkeley-humanoid-lite"
+     ],
+     "to": [
+      "https://lite.berkeley-humanoid.org/"
+     ]
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "official"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,129 @@
+{
+ "id": "galaxea-r1",
+ "name": "R1",
+ "manufacturer": "Galaxea Dynamics",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-13",
+   "type": "added",
+   "source": "https://humanoidstore.co/robots/galaxea-r1",
+   "commit": "14cd746",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://galaxea-dynamics.com/products/galaxea-r1-series-pioneering-wheeled-dual-arm-robotics",
+   "commit": "976d9e6",
+   "changes": [
+    {
+     "field": "data_source",
+     "from": "HumanoidStore open data (CC BY 4.0)",
+     "to": null
+    },
+    {
+     "field": "dof",
+     "from": 24,
+     "to": 26
+    },
+    {
+     "field": "max_speed_mps",
+     "from": 1.5,
+     "to": null
+    },
+    {
+     "field": "notes",
+     "from": null,
+     "to": "Issue #17 (2026-11-17): Galaxea R1 - 1700 mm max height, 126 kg with battery, 5 kg peak payload per arm, 86 cm arm radius, per Galaxea's product page. The maker publishes end-effector speed (7.5 m/s) rather than base travel speed, and no total DoF or price, so those fields were emptied. [replaced weight_kg: 96 -> 126; payload_kg: 3.5 -> 5 | emptied (no maker value) dof=24; max_speed_mps=1.5; price_usd=44500; price_note=list 44500 USD (maker), per HumanoidStore, checked 2026-10]"
+    },
+    {
+     "field": "payload_kg",
+     "from": 3.5,
+     "to": 5
+    },
+    {
+     "field": "price_note",
+     "from": "list 44500 USD (maker), per HumanoidStore, checked 2026-10",
+     "to": "R1 series price on the maker's product page, direct purchase not enabled"
+    },
+    {
+     "field": "price_usd",
+     "from": 44500,
+     "to": 39999
+    },
+    {
+     "field": "sources",
+     "from": [
+      "https://humanoidstore.co/robots/galaxea-r1"
+     ],
+     "to": [
+      "https://www.galaxea-ai.com/en/product2.html",
+      "https://galaxea-dynamics.com/products/galaxea-r1-series-pioneering-wheeled-dual-arm-robotics",
+      "https://docs.galaxea-dynamics.com/R1Pro/en/docs/2026/"
+     ]
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "official"
+    },
+    {
+     "field": "weight_kg",
+     "from": 96,
+     "to": 126
+    },
+    {
+     "field": "battery_wh",
+     "from": null,
+     "to": 1680
+    },
+    {
+     "field": "compute_detail",
+     "from": null,
+     "to": "NVIDIA Jetson AGX Orin 32GB (200 TOPS), 1 TB SSD"
+    },
+    {
+     "field": "note",
+     "from": null,
+     "to": "Maker product page and documentation (R1 series, R1 Pro 2026): the record describes the R1 Pro variant - 1700 x 675 x 126 mm, 126 kg with battery, 26 DoF (7 per arm, 1 gripper, 4 torso, 6 chassis), 3.5 kg rated / 5 kg peak payload per arm at 0.6 m, 0-2000 mm vertical workspace, chassis 1.5 m/s omni-directional, 48 V 35 Ah battery (1680 Wh), NVIDIA Jetson AGX Orin 32GB at 200 TOPS with 1 TB SSD, two head monocular cameras, optional wrist depth/fisheye cameras, chest and chassis IMUs and a 360-degree LiDAR. The same page lists the smaller R1 Lite (1281 x 596 x 670 mm, 96 kg, 23+ DoF, 6-DoF arms, Intel i9-12900HK). The page shows USD 39,999 for the series but states the product is not currently available for direct purchase; the earlier HumanoidStore figure was 44,500."
+    },
+    {
+     "field": "official_url",
+     "from": null,
+     "to": "https://galaxea-dynamics.com/products/galaxea-r1-series-pioneering-wheeled-dual-arm-robotics"
+    },
+    {
+     "field": "onboard_compute",
+     "from": null,
+     "to": true
+    },
+    {
+     "field": "sdk_available",
+     "from": null,
+     "to": true
+    },
+    {
+     "field": "sensors",
+     "from": [],
+     "to": [
+      "2 monocular cameras (head)",
+      "2 optional wrist cameras",
+      "2 IMU (chest, chassis)",
+      "360-degree LiDAR (chassis)"
+     ]
+    },
+    {
+     "field": "summary",
+     "from": "Wheeled (bimanual torso on a wheeled base) humanoid from Galaxea Dynamics; shipping now, sold to businesses.",
+     "to": "Galaxea's wheeled dual-arm research platform: the R1 Pro pairs a 6-DoF omni chassis with two 7-DoF arms and a 4-DoF torso for real-world data collection and embodied AI."
+    },
+    {
+     "field": "width_mm",
+     "from": null,
+     "to": 675
+    }
+   ]
+  }
+ ]
+}

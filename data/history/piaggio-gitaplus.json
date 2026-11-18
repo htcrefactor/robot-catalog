@@ -1,0 +1,57 @@
+{
+ "id": "piaggio-gitaplus",
+ "name": "gitaplus",
+ "manufacturer": "Piaggio Fast Forward",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-17",
+   "type": "added",
+   "source": "https://piaggiofastforward.com/shop/gitaplus",
+   "commit": "73aee2c",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://piaggiofastforward.com/shop/gitaplus",
+   "commit": "4b7ab4b",
+   "changes": [
+    {
+     "field": "price_note",
+     "from": "list price on official shop",
+     "to": null
+    },
+    {
+     "field": "price_observations",
+     "from": null,
+     "to": [
+      {
+       "date": "2026-11-17",
+       "amount": 2475,
+       "currency": "USD",
+       "kind": "list",
+       "source": "https://shop.piaggiofastforward.com/",
+       "note": "price on the official shop page"
+      }
+     ]
+    },
+    {
+     "field": "price_usd",
+     "from": 2475,
+     "to": null
+    },
+    {
+     "field": "sources",
+     "from": [
+      "https://piaggiofastforward.com/shop/gitaplus"
+     ],
+     "to": [
+      "https://piaggiofastforward.com/shop/gitaplus",
+      "https://shop.piaggiofastforward.com/"
+     ]
+    }
+   ]
+  }
+ ]
+}

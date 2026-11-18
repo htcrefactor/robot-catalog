@@ -1,0 +1,92 @@
+{
+ "id": "woowa-dilly-x3",
+ "name": "Dilly X3",
+ "manufacturer": "Woowa Brothers",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-03",
+   "type": "added",
+   "source": "https://www.kiria.org/portal/cert/portalCertEstiStats.do",
+   "commit": "1a533a7",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://robot.baemin.com",
+   "commit": "0c54867",
+   "changes": [
+    {
+     "field": "note",
+     "from": null,
+     "to": "Woowa Brothers' own robot site (robot.baemin.com) describes Dilly only in service terms and publishes no specification table. The figures kept here (width 625 mm, 20 kg payload, 9 km/h, max mass 106.5 kg, 15 deg grade) are from the KIRIA outdoor-operation safety certificate record, not a maker page. The maker's 3 Aug 2026 announcement covers a newer variant, Dilly X3-R 1.4 (<100 kg total, up to 15 km/h, 2 km service radius, EPP body), and gives no table either."
+    },
+    {
+     "field": "official_url",
+     "from": null,
+     "to": "https://robot.baemin.com"
+    },
+    {
+     "field": "sources",
+     "from": [
+      "https://www.kiria.org/portal/cert/portalCertEstiStats.do"
+     ],
+     "to": [
+      "https://www.kiria.org/portal/cert/portalCertEstiStats.do",
+      "https://robot.baemin.com",
+      "https://www.mk.co.kr/news/business/10547977"
+     ]
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "unconfirmed"
+    },
+    {
+     "field": "certifications",
+     "from": null,
+     "to": [
+      "KIRIA outdoor mobile robot operation safety certification"
+     ]
+    },
+    {
+     "field": "safety_note",
+     "from": null,
+     "to": "Certificate KIRIA-01-25-003-01 (first issued 2025-06-17). Registered operating limits: transparent obstacles are not detected; max 7.2 km/h on ramps."
+    },
+    {
+     "field": "safety_source",
+     "from": null,
+     "to": "https://www.kiria.org/portal/cert/portalCertEstiStats.do"
+    },
+    {
+     "field": "safety_standards",
+     "from": null,
+     "to": []
+    },
+    {
+     "field": "kr_distributors",
+     "from": null,
+     "to": [
+      {
+       "name": "우아한형제들 (배달 서비스로 운영)",
+       "kind": "direct",
+       "url": "https://www.woowahan.com/"
+      }
+     ]
+    },
+    {
+     "field": "kr_note",
+     "from": null,
+     "to": "로봇을 판매하지 않고 배민 앱의 로봇배달 서비스로 운영합니다."
+    },
+    {
+     "field": "manufacturer_ko",
+     "from": null,
+     "to": "우아한형제들"
+    }
+   ]
+  }
+ ]
+}

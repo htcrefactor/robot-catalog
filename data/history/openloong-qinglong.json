@@ -1,0 +1,98 @@
+{
+ "id": "openloong-qinglong",
+ "name": "OpenLoong Qinglong",
+ "manufacturer": "OpenLoong (Shanghai Humanoid Robot Innovation Center)",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-13",
+   "type": "added",
+   "source": "https://humanoidstore.co/robots/openloong-qinglong",
+   "commit": "14cd746",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://www.openloong.org.cn/cn/documents/robot/product_introduction",
+   "commit": "976d9e6",
+   "changes": [
+    {
+     "field": "data_source",
+     "from": "HumanoidStore open data (CC BY 4.0)",
+     "to": "Maker sources (verified 2026-11-17)"
+    },
+    {
+     "field": "max_speed_mps",
+     "from": 1.4,
+     "to": 1.39
+    },
+    {
+     "field": "notes",
+     "from": null,
+     "to": "Issue #17 (2026-11-17): QingLoong - 185 cm, 80 kg, 43 DoF, walking speed >=5 km/h (1.39 m/s), payload >=20 kg, battery life >=3 h per the OpenLoong hardware release. [replaced max_speed_mps: 1.4 -> 1.39]"
+    },
+    {
+     "field": "sources",
+     "from": [
+      "https://humanoidstore.co/robots/openloong-qinglong"
+     ],
+     "to": [
+      "https://github.com/loongOpen/Openloong-hardware",
+      "https://www.openloong.net/"
+     ]
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "official"
+    },
+    {
+     "field": "compute_detail",
+     "from": null,
+     "to": "Motion-control computer plus EtherCAT bus"
+    },
+    {
+     "field": "length_mm",
+     "from": null,
+     "to": 300
+    },
+    {
+     "field": "note",
+     "from": null,
+     "to": "OpenLoong's open-source hardware repository (V2.5, checked 2026-11-17): 1,850 mm tall, 2,192 mm arm span, 300 mm deep, 80 kg, 43 active DoF, walking speed at least 5 km/h, payload at least 20 kg, battery life at least 3 h, up to 400 TOPS, EtherCAT bus. The width recorded here is the arm-span figure the maker publishes rather than a body width. Sold as an open platform, not a product; no price or order route."
+    },
+    {
+     "field": "official_url",
+     "from": null,
+     "to": "https://www.openloong.org.cn/cn/documents/robot/product_introduction"
+    },
+    {
+     "field": "onboard_compute",
+     "from": null,
+     "to": "Up to 400 TOPS"
+    },
+    {
+     "field": "sensors",
+     "from": [],
+     "to": [
+      "3D LiDAR",
+      "Depth cameras",
+      "Surround cameras",
+      "Tactile sensors in the dexterous hands"
+     ]
+    },
+    {
+     "field": "summary",
+     "from": "Full-size humanoid from OpenLoong (Shanghai Humanoid Robot Innovation Center); research only, sold to research buyers.",
+     "to": "OpenLoong's open-source full-size humanoid Qinglong: 1.85 m, 80 kg, 43 active DoF, at least 20 kg payload and 3 h, published with hardware drawings for research."
+    },
+    {
+     "field": "width_mm",
+     "from": null,
+     "to": 2192
+    }
+   ]
+  }
+ ]
+}

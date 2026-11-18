@@ -1,0 +1,76 @@
+{
+ "id": "topstar-xingzai",
+ "name": "Xingzai",
+ "manufacturer": "Topstar",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-17",
+   "type": "added",
+   "source": null,
+   "commit": "b596d3e",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://www.topstarltd.com/lang-cn/productview/2271.html",
+   "commit": "fa098f7",
+   "changes": [
+    {
+     "field": "ip_rating",
+     "from": null,
+     "to": "IP66"
+    },
+    {
+     "field": "max_speed_mps",
+     "from": null,
+     "to": 5
+    },
+    {
+     "field": "note",
+     "from": null,
+     "to": "Topstar product page (checked 2026-11-17) and its launch item of 16 January 2026: 8 h endurance, 5 m/s, 20 km per mission, obstacles and stairs over 20 cm, 45 degree inner slope, 200 kg static load and 80 kg walking load (80 kg recorded), IP66, -20 to 55 C, expandable with night-vision, dual-light gimbal, partial-discharge tester or an arm. The maker publishes no mass, dimensions, DoF, battery or price."
+    },
+    {
+     "field": "official_url",
+     "from": null,
+     "to": "https://www.topstarltd.com/lang-cn/productview/2271.html"
+    },
+    {
+     "field": "payload_kg",
+     "from": null,
+     "to": 80
+    },
+    {
+     "field": "runtime_h",
+     "from": null,
+     "to": 8
+    },
+    {
+     "field": "sources",
+     "from": [],
+     "to": [
+      "https://www.topstarltd.com/lang-cn/productview/2271.html",
+      "https://www.topstarltd.com/lang-cn/newsview/2270.html"
+     ]
+    },
+    {
+     "field": "status",
+     "from": null,
+     "to": "Commercial"
+    },
+    {
+     "field": "summary",
+     "from": "",
+     "to": "Topstar's (拓斯达) first quadruped, launched 16 January 2026 at Songshan Lake for industrial inspection, forest firefighting and security patrols."
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "official"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,56 @@
+{
+ "id": "kaist-raibo",
+ "name": "RAIBO",
+ "manufacturer": "KAIST",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-17",
+   "type": "added",
+   "source": null,
+   "commit": "b596d3e",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://railab.kaist.ac.kr/sections/robots.html",
+   "commit": "0c54867",
+   "changes": [
+    {
+     "field": "note",
+     "from": null,
+     "to": "RAILAB's robots page describes RAIBO as a middle-sized quadruped for inspection, exploration and patrol with 12 powerful motors, and publishes no mass, dimensions or speed for RAIBO itself. Its successor RAIBO2 is 42 kg, up to 6 m/s and 8 h. Status kept as Discontinued on the strength of the successor being the platform RAION Robotics now takes to market."
+    },
+    {
+     "field": "official_url",
+     "from": null,
+     "to": "https://railab.kaist.ac.kr/sections/robots.html"
+    },
+    {
+     "field": "sources",
+     "from": [],
+     "to": [
+      "https://railab.kaist.ac.kr/sections/robots.html",
+      "https://rainbow-robotics.com/"
+     ]
+    },
+    {
+     "field": "summary",
+     "from": "",
+     "to": "KAIST RAILAB's middle-sized quadruped, the platform behind its learned locomotion work on deformable terrain."
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "official"
+    },
+    {
+     "field": "manufacturer_ko",
+     "from": null,
+     "to": "한국과학기술원"
+    }
+   ]
+  }
+ ]
+}

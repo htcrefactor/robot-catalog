@@ -1,0 +1,43 @@
+{
+ "id": "pudu-bellabot",
+ "name": "BellaBot",
+ "manufacturer": "Pudu Robotics",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-03",
+   "type": "added",
+   "source": "https://www.pudurobotics.com/en/products/bellabot",
+   "commit": "1a533a7",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://www.pudurobotics.com/en/products/bellabot",
+   "commit": "b1429ab",
+   "changes": [
+    {
+     "field": "notes",
+     "from": null,
+     "to": "Maker page: 56.5 x 53.7 x 129 cm, 55 kg, max 40 kg load (10 kg per tray, four trays), speed 0.5-1.2 m/s, battery life 13 h withoutLoad, 4.5 h charging, slope 5 deg, 3 RGB-D cameras plus LiDAR with dual SLAM and quick battery swap."
+    },
+    {
+     "field": "sources",
+     "from": [
+      "https://www.pudurobotics.com/en/products/bellabot"
+     ],
+     "to": [
+      "https://www.pudurobotics.com/products/bellabot",
+      "https://www.pudurobotics.com/en/products/bellabot"
+     ]
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "official"
+    }
+   ]
+  }
+ ]
+}

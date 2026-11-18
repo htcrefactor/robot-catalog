@@ -1,0 +1,47 @@
+{
+ "id": "exrobotics-exr-2-5",
+ "name": "ExR-2.5",
+ "manufacturer": "ExRobotics",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-17",
+   "type": "added",
+   "source": "https://www.exrobotics.com/products",
+   "commit": "ebcdc70",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://www.exrobotics.com/products",
+   "commit": "e6ebd1a",
+   "changes": [
+    {
+     "field": "certifications",
+     "from": null,
+     "to": [
+      "ATEX Zone 1",
+      "IECEx Zone 1",
+      "UL listed"
+     ]
+    },
+    {
+     "field": "safety_note",
+     "from": null,
+     "to": "Maker: “ATEX, IECEx Zone 1 certified & UL-listed”."
+    },
+    {
+     "field": "safety_source",
+     "from": null,
+     "to": "https://www.exrobotics.com/products"
+    },
+    {
+     "field": "safety_standards",
+     "from": null,
+     "to": []
+    }
+   ]
+  }
+ ]
+}

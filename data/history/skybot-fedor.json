@@ -1,0 +1,106 @@
+{
+ "id": "skybot-fedor",
+ "name": "FEDOR (Skybot F-850)",
+ "manufacturer": "Android Technics",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-17",
+   "type": "added",
+   "source": null,
+   "commit": "b596d3e",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://npo-at.com/en/news/solnechnuyu-sistemu-pomogut-osvoit-potomki-fedor/",
+   "commit": "75b989d",
+   "changes": [
+    {
+     "field": "country",
+     "from": null,
+     "to": "Russia"
+    },
+    {
+     "field": "dof",
+     "from": null,
+     "to": 48
+    },
+    {
+     "field": "height_mm",
+     "from": null,
+     "to": 1820
+    },
+    {
+     "field": "max_speed_mps",
+     "from": null,
+     "to": 1.11
+    },
+    {
+     "field": "note",
+     "from": null,
+     "to": "Maker (NPO Android Technics, Magnitogorsk) describes FEDOR as an anthropomorphic rescue robot built under the FPV 'Rescuer' project, modified after handover to Roscosmos into Skybot F-850 for the Soyuz MS-14 flight (launched 2019-08-22, returned 2019-09-07). Nascent maker technical listings give 182 cm, 106 kg, 48 electromechanical drives, shoulder width 48 cm, about 1 h of continuous operation and walking speed about 4 km/h (1.11 m/s), Linux-based real-time OS; the ISS flight configuration is separately reported as 184 cm / 105 kg with 6 DOF per gripper and 10 kg per arm. CONFLICT recorded: press accounts of the 2019 flight give 160 kg for the ground model, so the weight depends on configuration; 106 kg is the maker listing figure. The legs were disabled in microgravity and the robot was teleoperated or ran predefined programs, so it is a research/demonstrator platform, never sold. No maker datasheet exists today - npo-at.com carries only news, so official_url points to the maker's FEDOR news item, and the 48 drives / 4 km/h / 1 h / 106 kg block is the most cited compilation of FEDOR listings (crediting Android Technics material), not a maker PDF. These figures are the least certain in this record."
+    },
+    {
+     "field": "official_url",
+     "from": null,
+     "to": "https://npo-at.com/en/news/solnechnuyu-sistemu-pomogut-osvoit-potomki-fedor/"
+    },
+    {
+     "field": "payload_kg",
+     "from": null,
+     "to": 10
+    },
+    {
+     "field": "release_year",
+     "from": null,
+     "to": 2019
+    },
+    {
+     "field": "runtime_h",
+     "from": null,
+     "to": 1
+    },
+    {
+     "field": "sensors",
+     "from": [],
+     "to": [
+      "Cameras",
+      "Microphones",
+      "3-axis inertial sensing",
+      "Magnetic-field sensing"
+     ]
+    },
+    {
+     "field": "sources",
+     "from": [],
+     "to": [
+      "https://npo-at.com/en/news/solnechnuyu-sistemu-pomogut-osvoit-potomki-fedor/",
+      "https://en.wikipedia.org/wiki/FEDOR"
+     ]
+    },
+    {
+     "field": "status",
+     "from": null,
+     "to": "Research"
+    },
+    {
+     "field": "summary",
+     "from": "",
+     "to": "FEDOR (callsign Skybot F-850) is NPO Android Technics' Russian rescue humanoid, flown to the ISS on Soyuz MS-14 in August 2019 to test telepresence work in orbit."
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "official"
+    },
+    {
+     "field": "weight_kg",
+     "from": null,
+     "to": 106
+    }
+   ]
+  }
+ ]
+}

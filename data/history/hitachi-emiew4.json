@@ -1,0 +1,71 @@
+{
+ "id": "hitachi-emiew4",
+ "name": "EMIEW4",
+ "manufacturer": "Hitachi",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-17",
+   "type": "added",
+   "source": null,
+   "commit": "b596d3e",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://www.hitachi.com/en/press/articles/2020/03/0326/",
+   "commit": "b310609",
+   "changes": [
+    {
+     "field": "height_mm",
+     "from": null,
+     "to": 900
+    },
+    {
+     "field": "max_speed_mps",
+     "from": null,
+     "to": 1.39
+    },
+    {
+     "field": "note",
+     "from": null,
+     "to": "Maker press release (26 Mar 2020): EMIEW4 height 90 cm, mass 18 kg, max movement speed 5 km/h (field = 1.39 m/s), languages Japanese/English/Chinese/Korean, automated recharging for continuous operation, domestic sales from 20 Apr 2020 through Hitachi Building Systems, delivered about 4 months after order, price by individual quotation. It runs on wheels and does not walk. DoF, payload, runtime and battery figures are not published."
+    },
+    {
+     "field": "official_url",
+     "from": null,
+     "to": "https://www.hitachi.com/en/press/articles/2020/03/0326/"
+    },
+    {
+     "field": "release_year",
+     "from": null,
+     "to": 2020
+    },
+    {
+     "field": "sources",
+     "from": [],
+     "to": [
+      "https://www.hitachi.com/en/press/articles/2020/03/0326/",
+      "https://www.hitachi.com/rd/research/design/product/emiew4/index.html"
+     ]
+    },
+    {
+     "field": "summary",
+     "from": "",
+     "to": "Hitachi's wheeled communication humanoid for building reception, guidance and night patrol, sold in Japan from April 2020 with automated recharging."
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "official"
+    },
+    {
+     "field": "weight_kg",
+     "from": null,
+     "to": 18
+    }
+   ]
+  }
+ ]
+}

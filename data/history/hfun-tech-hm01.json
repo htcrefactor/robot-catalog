@@ -1,0 +1,80 @@
+{
+ "id": "hfun-tech-hm01",
+ "name": "HM01",
+ "manufacturer": "HFun-Tech",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-17",
+   "type": "added",
+   "source": null,
+   "commit": "b596d3e",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "http://www.hfun-tech.com/h-col-109.html",
+   "commit": "b310609",
+   "changes": [
+    {
+     "field": "note",
+     "from": null,
+     "to": "Maker product page (hfun-tech.com, HM01 全尺寸通用人形机器人): self-developed full-size motion control for stable straight-knee walking and dynamic balance; head radar sensor and speaker; chest depth-vision array; physical e-stop; open SDK for secondary development; dual-battery hot-swap architecture with about 2 h per battery (runtime field = 2 h per pack, second pack doubles it); IMU; body colour customisation. The page's numeric spec table did not render in the fetched text, so height, mass, DoF and speed stay empty rather than carrying second-hand values."
+    },
+    {
+     "field": "official_url",
+     "from": null,
+     "to": "http://www.hfun-tech.com/h-col-109.html"
+    },
+    {
+     "field": "onboard_compute",
+     "from": null,
+     "to": "RK3588 base board or NVIDIA Orin NX board"
+    },
+    {
+     "field": "runtime_h",
+     "from": null,
+     "to": 2.0
+    },
+    {
+     "field": "sdk_available",
+     "from": null,
+     "to": true
+    },
+    {
+     "field": "sdk_name",
+     "from": null,
+     "to": "open SDK"
+    },
+    {
+     "field": "sensors",
+     "from": [],
+     "to": [
+      "Head radar sensor",
+      "Chest depth-vision array",
+      "IMU",
+      "Microphone array"
+     ]
+    },
+    {
+     "field": "sources",
+     "from": [],
+     "to": [
+      "http://www.hfun-tech.com/h-col-109.html"
+     ]
+    },
+    {
+     "field": "summary",
+     "from": "",
+     "to": "Jinhua HFun-Tech's full-size general-purpose humanoid base HM01, with dual hot-swap batteries, straight-knee walking and an open SDK."
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "official"
+    }
+   ]
+  }
+ ]
+}

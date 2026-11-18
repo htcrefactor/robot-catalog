@@ -1,0 +1,48 @@
+{
+ "id": "embodied-ai-air",
+ "name": "AIR",
+ "manufacturer": "Embodied AI",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-06",
+   "type": "added",
+   "source": "https://embodiedai.ch/",
+   "commit": "93dd29a",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://embodiedai.ch/",
+   "commit": "4b395bc",
+   "changes": [
+    {
+     "field": "note",
+     "from": null,
+     "to": "Unveiled 6 Nov 2026 at Humanoid Europe in Munich; the maker's launch release describes 'a body and two arms on a wheeled base built to work beside people without a safety cage', a site assessment then a pilot, teleoperation first with the robot taking the task over on its own 'within a month', imitation learning and VLM orchestration running on the robot, and says orders open after the unveiling. The maker publishes no height, weight, DoF, payload, speed, runtime or price, so all spec fields stay empty. Note that the same robot also has a record as embodied-ai-air01: the website names it AIR01 while the launch calls it AIR - a candidate for a variants merge that is left to the owner (this issue only verifies)."
+    },
+    {
+     "field": "sources",
+     "from": [
+      "https://www.businesswire.com/news/home/20261106661068/en/Embodied-AI-Unveils-AIR-a-Physically-Safe-Humanoid-Robot-That-Learns-on-the-Job"
+     ],
+     "to": [
+      "https://embodiedai.ch/",
+      "https://cdn.prod.website-files.com/696e4d2b681829764d29ce1c/6aed7eac45a2f3ef02919537_2026%20Press%20Release%20-%20Embodied%20AI%20AIR%20Launch_v2%20LOOK%20AI.pdf"
+     ]
+    },
+    {
+     "field": "summary",
+     "from": "Wheeled, tendon-driven humanoid for factory floors, unveiled 6 Nov 2026 at Humanoid Europe; learns tasks from operator demonstrations.",
+     "to": "Lausanne-based Embodied AI's wheeled humanoid that starts under human teleoperation and is claimed to take over factory tasks on its own within a month."
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "official"
+    }
+   ]
+  }
+ ]
+}

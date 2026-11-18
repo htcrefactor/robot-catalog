@@ -1,0 +1,66 @@
+{
+ "id": "tencent-robotics-x-xiao-liu",
+ "name": "Xiao Liu",
+ "manufacturer": "Tencent Robotics X",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-17",
+   "type": "added",
+   "source": null,
+   "commit": "b596d3e",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://www.tencent.com/tencent-unveils-full-stack-embodied-intelligence-solution-at-waic-2026/",
+   "commit": "30bdc91",
+   "changes": [
+    {
+     "field": "country",
+     "from": null,
+     "to": "China"
+    },
+    {
+     "field": "note",
+     "from": null,
+     "to": "Xiao Liu was shown at WAIC on 2026-07-17 and is described by Tencent as a demonstrative robot; the maker says technical parameters, further demonstrations and commercialisation plans are not yet disclosed, and its WAIC release covers models and platforms only. Dimensions, weight, DoF, payload, runtime and price are therefore empty; catalogue figures (165 cm, 70 kg, 38 DoF, USD 90,000) are not maker figures."
+    },
+    {
+     "field": "official_url",
+     "from": null,
+     "to": "https://www.tencent.com/tencent-unveils-full-stack-embodied-intelligence-solution-at-waic-2026/"
+    },
+    {
+     "field": "release_year",
+     "from": null,
+     "to": 2026
+    },
+    {
+     "field": "sources",
+     "from": [],
+     "to": [
+      "https://www.tencent.com/tencent-unveils-full-stack-embodied-intelligence-solution-at-waic-2026/",
+      "https://www.tencent.com/"
+     ]
+    },
+    {
+     "field": "status",
+     "from": null,
+     "to": "Prototype"
+    },
+    {
+     "field": "summary",
+     "from": "",
+     "to": "Wheeled demonstration humanoid from Tencent Robotics X Lab and the successor to Xiao Wu, built for eldercare and home assistance with cable-tendon arms and three-fingered hands; it gave a therapeutic-massage demonstration at WAIC 2026."
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "official"
+    }
+   ]
+  }
+ ]
+}

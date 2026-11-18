@@ -1,0 +1,124 @@
+{
+ "id": "fauna-robotics-sprout",
+ "name": "Sprout",
+ "manufacturer": "Fauna Robotics",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-13",
+   "type": "added",
+   "source": "https://humanoidstore.co/robots/fauna-robotics-sprout",
+   "commit": "14cd746",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://faunarobotics.com/product",
+   "commit": "4b395bc",
+   "changes": [
+    {
+     "field": "data_source",
+     "from": "HumanoidStore open data (CC BY 4.0)",
+     "to": null
+    },
+    {
+     "field": "notes",
+     "from": null,
+     "to": "Issue #17 (2026-11-17): Sprout - 107 cm, 22.7 kg, 29 DoF (including eyebrow DoF), swappable battery 3-3.5 h (3 taken), per Fauna's product page and launch release. Fauna publishes no rated payload, so the HumanoidStore payload was emptied. [replaced runtime_h: 3.5 -> 3.0] HumanoidStore price (US$50000) removed: no maker list price confirmed."
+    },
+    {
+     "field": "price_note",
+     "from": "list 50000 USD (maker), per HumanoidStore, checked 2026-10",
+     "to": null
+    },
+    {
+     "field": "price_usd",
+     "from": 50000,
+     "to": null
+    },
+    {
+     "field": "runtime_h",
+     "from": 3.5,
+     "to": 3.0
+    },
+    {
+     "field": "sources",
+     "from": [
+      "https://humanoidstore.co/robots/fauna-robotics-sprout"
+     ],
+     "to": [
+      "https://faunarobotics.com/product",
+      "https://www.faunarobotics.com/news/fauna-robotics-launches-sprout-the-easiest-way-to-build-with-humanoids",
+      "https://arxiv.org/html/2601.18963"
+     ]
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "official"
+    },
+    {
+     "field": "compute_detail",
+     "from": null,
+     "to": "NVIDIA Jetson AGX Orin 64GB with 1 TB SSD"
+    },
+    {
+     "field": "length_mm",
+     "from": null,
+     "to": 210
+    },
+    {
+     "field": "note",
+     "from": null,
+     "to": "Maker product page, launch release (27 Jan 2026) and the team's arXiv paper: 107 cm tall, 45 cm wide, 21 cm deep, 22.7 kg, 29 DoF including two active eyebrows, 6-DoF arms with 1-DoF grippers (fingertip grip limited to 12 N), 5-DoF legs, NVIDIA Jetson AGX Orin 64GB with 1 TB SSD, ZED 2i stereo camera plus four ToF sensors, 9-axis IMU and a 4-mic array, 46.8 V pack at 5000 mAh (or 10,000 mAh extended) with 3-3.5 h runtime, 10-30 C operating range, indoor use, E-Stop, Fauna SDK, VR teleoperation with Meta Quest 3. Payload left empty because the maker's paper gives per-arm theoretical maxima by pose (3.7/1.75/0.7 kg forward raise, 11.2/5.0/1.1 kg bent elbow) rather than one rated figure. Price is not published."
+    },
+    {
+     "field": "official_url",
+     "from": null,
+     "to": "https://faunarobotics.com/product"
+    },
+    {
+     "field": "onboard_compute",
+     "from": null,
+     "to": true
+    },
+    {
+     "field": "payload_kg",
+     "from": 2,
+     "to": null
+    },
+    {
+     "field": "sdk_available",
+     "from": null,
+     "to": true
+    },
+    {
+     "field": "sdk_name",
+     "from": null,
+     "to": "Fauna SDK"
+    },
+    {
+     "field": "sensors",
+     "from": [],
+     "to": [
+      "ZED 2i stereo RGB-D camera",
+      "4x VL53L8CX time-of-flight sensors",
+      "9-axis IMU",
+      "4-mic MEMS array"
+     ]
+    },
+    {
+     "field": "summary",
+     "from": "Compact humanoid from Fauna Robotics; shipping now, sold to businesses.",
+     "to": "Fauna Robotics' 1.07 m soft-bodied developer humanoid built to work safely beside people, with 29 DoF, VR teleoperation and a swappable battery."
+    },
+    {
+     "field": "width_mm",
+     "from": null,
+     "to": 450
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,68 @@
+{
+ "id": "agibot-g2",
+ "name": "G2",
+ "manufacturer": "AgiBot",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-13",
+   "type": "added",
+   "source": "https://humanoidstore.co/robots/agibot-g2",
+   "commit": "14cd746",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://cdn.robotshop.com/media/A/Agb/RB-Agb-09/pdf/AgiBot-G2-Specification.pdf",
+   "commit": "0be5d4c",
+   "changes": [
+    {
+     "field": "battery_wh",
+     "from": null,
+     "to": 1652
+    },
+    {
+     "field": "data_source",
+     "from": "HumanoidStore open data (CC BY 4.0)",
+     "to": null
+    },
+    {
+     "field": "dof",
+     "from": 25,
+     "to": 26
+    },
+    {
+     "field": "height_mm",
+     "from": 1800,
+     "to": 1795
+    },
+    {
+     "field": "ip_rating",
+     "from": null,
+     "to": "IP42"
+    },
+    {
+     "field": "notes",
+     "from": null,
+     "to": "Issue #17 (2026-11-17): AgiBot G2 spec sheet - height 1225-1795 mm (leg lift), 185 kg, 26 DoF (neck 3, arms 7x2, waist+legs 5, chassis 4), 5 kg per arm, chassis 1.5 m/s, 1652 Wh, ~4 h, IP42. HumanoidStore's 25 DoF corrected to 26. [replaced height_mm: 1800 -> 1795; dof: 25 -> 26; battery_wh: None -> 1652; ip_rating: None -> IP42]"
+    },
+    {
+     "field": "sources",
+     "from": [
+      "https://humanoidstore.co/robots/agibot-g2"
+     ],
+     "to": [
+      "https://cdn.robotshop.com/media/A/Agb/RB-Agb-09/pdf/AgiBot-G2-Specification.pdf",
+      "https://cdn.robotshop.com/media/A/Agb/RB-Agb-09/pdf/AgiBot-G2-User-Manual.pdf"
+     ]
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "official"
+    }
+   ]
+  }
+ ]
+}

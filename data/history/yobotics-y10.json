@@ -1,0 +1,90 @@
+{
+ "id": "yobotics-y10",
+ "name": "Y10",
+ "manufacturer": "Shandong Youbaote Intelligent Robot (Yobotics)",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-17",
+   "type": "added",
+   "source": null,
+   "commit": "b596d3e",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://www.yobotics.cn/cpzx/szjqrxl/",
+   "commit": "fa098f7",
+   "changes": [
+    {
+     "field": "dof",
+     "from": null,
+     "to": 12
+    },
+    {
+     "field": "height_mm",
+     "from": null,
+     "to": 500
+    },
+    {
+     "field": "length_mm",
+     "from": null,
+     "to": 980
+    },
+    {
+     "field": "max_speed_mps",
+     "from": null,
+     "to": 4
+    },
+    {
+     "field": "note",
+     "from": null,
+     "to": "Yobotics quadruped page (checked 2026-11-17), Y10 table: about 980 x 510 x 500 mm, about 37 kg, load >=15 kg, speed >=4 m/s, slope >=30 degrees, runtime >=70 min (1 h recorded as the lower bound), 12 DoF (3 per leg), aluminium body, quasi-direct-drive planetary reduction, peak torque about 144 N.m, Intel Atom core board, CAN bus, 1 kHz feedback control, Linux, Yobotics IMU. The page also lists a CNY 43,300 price."
+    },
+    {
+     "field": "official_url",
+     "from": null,
+     "to": "https://www.yobotics.cn/cpzx/szjqrxl/"
+    },
+    {
+     "field": "payload_kg",
+     "from": null,
+     "to": 15
+    },
+    {
+     "field": "runtime_h",
+     "from": null,
+     "to": 1
+    },
+    {
+     "field": "sources",
+     "from": [],
+     "to": [
+      "https://www.yobotics.cn/cpzx/szjqrxl/"
+     ]
+    },
+    {
+     "field": "summary",
+     "from": "",
+     "to": "Mid-size lightweight high-dynamics quadruped from Yobotics for research, with 144 N.m peak actuators and a CAN-bus, Linux-based controller."
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "official"
+    },
+    {
+     "field": "weight_kg",
+     "from": null,
+     "to": 37
+    },
+    {
+     "field": "width_mm",
+     "from": null,
+     "to": 510
+    }
+   ]
+  }
+ ]
+}

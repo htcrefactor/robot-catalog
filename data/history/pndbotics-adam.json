@@ -1,0 +1,110 @@
+{
+ "id": "pndbotics-adam",
+ "name": "Adam",
+ "manufacturer": "PNDbotics",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-13",
+   "type": "added",
+   "source": "https://humanoidstore.co/robots/pndbotics-adam",
+   "commit": "14cd746",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://wiki.pndbotics.com/en/robot/humanoid_robot/",
+   "commit": "976d9e6",
+   "changes": [
+    {
+     "field": "battery_wh",
+     "from": null,
+     "to": 1172
+    },
+    {
+     "field": "data_source",
+     "from": "HumanoidStore open data (CC BY 4.0)",
+     "to": "Maker sources (verified 2026-11-17)"
+    },
+    {
+     "field": "dof",
+     "from": 41,
+     "to": 29
+    },
+    {
+     "field": "notes",
+     "from": null,
+     "to": "Issue #17 (2026-11-17): PND Adam - 1.67 m, 60-63 kg by edition (61 kg Standard taken), 25-43 DoF by edition (29 Standard taken), max 1.5 m/s, 1172 Wh from PNDbotics' wiki. HumanoidStore's US$ price removed: PNDbotics quotes per configuration. [replaced weight_kg: 62 -> 61; dof: 41 -> 29; battery_wh: None -> 1172 | emptied (no maker value) price_usd=100000; price_note=list 100000 USD (maker), per HumanoidStore, checked 2026-10]"
+    },
+    {
+     "field": "price_note",
+     "from": "list 100000 USD (maker), per HumanoidStore, checked 2026-10",
+     "to": "PNDbotics publishes no price; quotes through sales"
+    },
+    {
+     "field": "price_usd",
+     "from": 100000,
+     "to": null
+    },
+    {
+     "field": "sources",
+     "from": [
+      "https://humanoidstore.co/robots/pndbotics-adam"
+     ],
+     "to": [
+      "https://wiki.pndbotics.com/robot/humanoid_robot/",
+      "https://wiki.pndbotics.com/en/robot/humanoid_robot/"
+     ]
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "official"
+    },
+    {
+     "field": "weight_kg",
+     "from": 62,
+     "to": 61
+    },
+    {
+     "field": "note",
+     "from": null,
+     "to": "PNDbotics wiki (checked 2026-11-17) lists four editions: Adam Lite 60 kg and 25 DoF, Adam Standard 61 kg and 29 DoF, Adam SP 62 kg and 41 DoF, Adam Pro 63 kg and 43 DoF, all 1.67 m, walking up to 1.5 m/s on a 1,172 Wh pack. Recorded figures are the Standard, which has 6 DoF per leg, a 3-DoF waist and 7 DoF per arm. Payload, runtime and price are not published by the maker."
+    },
+    {
+     "field": "official_url",
+     "from": null,
+     "to": "https://wiki.pndbotics.com/en/robot/humanoid_robot/"
+    },
+    {
+     "field": "onboard_compute",
+     "from": null,
+     "to": "Intel NUC12WSKi7 (motion) + NVIDIA Jetson Orin NX 16GB (perception/AI)"
+    },
+    {
+     "field": "payload_kg",
+     "from": 5,
+     "to": null
+    },
+    {
+     "field": "runtime_h",
+     "from": 2.0,
+     "to": null
+    },
+    {
+     "field": "sensors",
+     "from": [],
+     "to": [
+      "Intel RealSense D455 depth camera"
+     ]
+    },
+    {
+     "field": "summary",
+     "from": "Full-size humanoid from PNDbotics; b2b only, sold to businesses.",
+     "to": "PNDbotics' full-size humanoid Adam: 1.67 m, 61 kg and 29 DoF in the Standard edition, walking at 1.5 m/s on a 1,172 Wh pack."
+    }
+   ]
+  }
+ ]
+}

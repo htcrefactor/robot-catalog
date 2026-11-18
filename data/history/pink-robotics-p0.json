@@ -1,0 +1,80 @@
+{
+ "id": "pink-robotics-p0",
+ "name": "P0",
+ "manufacturer": "Pink Robotics",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-17",
+   "type": "added",
+   "source": null,
+   "commit": "b596d3e",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://www.pink-robotics.com/",
+   "commit": "5150daa",
+   "changes": [
+    {
+     "field": "data_source",
+     "from": null,
+     "to": "Maker sources (verified 2026-11-17)"
+    },
+    {
+     "field": "dof",
+     "from": null,
+     "to": 32
+    },
+    {
+     "field": "height_mm",
+     "from": null,
+     "to": 1750
+    },
+    {
+     "field": "note",
+     "from": null,
+     "to": "Pink Robotics (Anyscrew GmbH) site (checked 2026-11-17): 1.75 m, 82 kg, 32-DoF motion system, 8 kg payload, German-built prototype for parcel sorting. Speed, runtime, sensing and price are not published; demonstrations are teleoperated."
+    },
+    {
+     "field": "official_url",
+     "from": null,
+     "to": "https://www.pink-robotics.com/"
+    },
+    {
+     "field": "payload_kg",
+     "from": null,
+     "to": 8.0
+    },
+    {
+     "field": "sources",
+     "from": [],
+     "to": [
+      "https://www.pink-robotics.com/"
+     ]
+    },
+    {
+     "field": "status",
+     "from": null,
+     "to": "Prototype"
+    },
+    {
+     "field": "summary",
+     "from": "",
+     "to": "Pink Robotics' German-built prototype P0: 1.75 m, 82 kg, 32 DoF and 8 kg payload, aimed at parcel sorting in distribution centres."
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "official"
+    },
+    {
+     "field": "weight_kg",
+     "from": null,
+     "to": 82.0
+    }
+   ]
+  }
+ ]
+}

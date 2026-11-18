@@ -1,0 +1,107 @@
+{
+ "id": "pal-kangaroo",
+ "name": "Kangaroo",
+ "manufacturer": "PAL Robotics",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-13",
+   "type": "added",
+   "source": "https://humanoidstore.co/robots/pal-kangaroo",
+   "commit": "14cd746",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://pal-robotics.com/robot/kangaroo/",
+   "commit": "976d9e6",
+   "changes": [
+    {
+     "field": "battery_wh",
+     "from": null,
+     "to": 976
+    },
+    {
+     "field": "data_source",
+     "from": "HumanoidStore open data (CC BY 4.0)",
+     "to": "Maker sources (verified 2026-11-17)"
+    },
+    {
+     "field": "dof",
+     "from": 28,
+     "to": 14
+    },
+    {
+     "field": "notes",
+     "from": null,
+     "to": "Issue #17 (2026-11-17): Kangaroo - 1.60 m, 50-65 kg depending on configuration, 14-40 DoF and 3-7 kg arm payload by arm configuration (lowest values taken: 14 DoF, 3 kg), 63 V 15 Ah (976 Wh). PAL publishes no single runtime, so that field was emptied. [replaced dof: 28 -> 14; payload_kg: 5 -> 3; battery_wh: None -> 976 | emptied (no maker value) weight_kg=55; runtime_h=3.0]"
+    },
+    {
+     "field": "payload_kg",
+     "from": 5,
+     "to": 3
+    },
+    {
+     "field": "runtime_h",
+     "from": 3.0,
+     "to": null
+    },
+    {
+     "field": "sources",
+     "from": [
+      "https://humanoidstore.co/robots/pal-kangaroo"
+     ],
+     "to": [
+      "https://pal-robotics.com/robot/kangaroo/"
+     ]
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "official"
+    },
+    {
+     "field": "weight_kg",
+     "from": 55,
+     "to": 50.0
+    },
+    {
+     "field": "compute_detail",
+     "from": null,
+     "to": "32 GB RAM and 1 TB SSD each; optional NVIDIA Jetson GPU; 2x WiFi 6"
+    },
+    {
+     "field": "note",
+     "from": null,
+     "to": "PAL's Kangaroo page (checked 2026-11-17): 1.60 m, 50-65 kg (recorded at 50 kg), total DoF 14-40 depending on platform configuration with 6 DoF per leg, 2 torso DoF and 4, 5 or 7 DoF arms; 3 kg payload with 7-DoF arms fully extended and 25 kg bimanual; 15 Ah 63 V battery (976 Wh), EtherCAT loop at 2 kHz, Ubuntu LTS with ROS 2. Speed and runtime are not published."
+    },
+    {
+     "field": "official_url",
+     "from": null,
+     "to": "https://pal-robotics.com/robot/kangaroo/"
+    },
+    {
+     "field": "onboard_compute",
+     "from": null,
+     "to": "2x Intel i7 (control PC and multimedia PC)"
+    },
+    {
+     "field": "sensors",
+     "from": [],
+     "to": [
+      "4x RGB-D cameras",
+      "IMU and AHRS at 1 kHz",
+      "6-axis F/T sensor on wrists and feet (add-ons)",
+      "Integrated force sensors in leg actuators"
+     ]
+    },
+    {
+     "field": "summary",
+     "from": "Mid-size humanoid from PAL Robotics; shipping now, sold to research buyers.",
+     "to": "PAL's configurable biped for locomotion research: 1.6 m, 50-65 kg, 14-40 DoF depending on arm and leg configuration, with a 976 Wh pack and ROS 2 tooling."
+    }
+   ]
+  }
+ ]
+}

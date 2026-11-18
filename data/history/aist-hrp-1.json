@@ -1,0 +1,36 @@
+{
+ "id": "aist-hrp-1",
+ "name": "HRP-1",
+ "manufacturer": "AIST",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-17",
+   "type": "added",
+   "source": null,
+   "commit": "b596d3e",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://www.aist.go.jp/aist_j/press_release/pr2002/pr20020319_1/pr20020319_1.html",
+   "commit": "2e2527b",
+   "changes": [
+    {
+     "field": "note",
+     "from": "No official AIST/Honda spec page found. HRP-1 was Honda's P3-based platform supplied to the METI Humanoid Robotics Project (AIST exhibit text mentions it), so 'AIST' as manufacturer is questionable — maker is Honda. Left specs null.",
+     "to": "No official AIST/Honda spec page found. HRP-1 was Honda's P3-based platform supplied to the METI Humanoid Robotics Project (AIST exhibit text mentions it), so 'AIST' as manufacturer is questionable — maker is Honda. Left specs null. Re-checked 2026-11-17: AIST's own press releases (2002-03-19 and 2003-02-26, opened) describe HRP-1 as the humanoid platform of the METI/AIST Humanoid Robotics Project, built by Honda R&D (P3-based). AIST thus confirms the platform but publishes no HRP-1 spec table or product page, and the hardware maker is Honda, so the record stays unconfirmed with specs null."
+    },
+    {
+     "field": "sources",
+     "from": [],
+     "to": [
+      "https://www.aist.go.jp/aist_j/press_release/pr2002/pr20020319_1/pr20020319_1.html",
+      "https://www.aist.go.jp/aist_j/press_release/pr2003/pr20030226/pr20030226.html"
+     ]
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,66 @@
+{
+ "id": "tangible-robots-eggie",
+ "name": "Eggie",
+ "manufacturer": "Tangible Robots",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-17",
+   "type": "added",
+   "source": null,
+   "commit": "b596d3e",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://www.tangiblerobots.ai/",
+   "commit": "75b989d",
+   "changes": [
+    {
+     "field": "country",
+     "from": null,
+     "to": "United States"
+    },
+    {
+     "field": "note",
+     "from": null,
+     "to": "Maker (Tangible, San Francisco/Palo Alto; founder and CEO Bipasha Sen) revealed Eggie on 2025-11-18 as a wheeled, non-bipedal home robot with dexterous human-like hands, positioned on three pillars - dexterity, compliance and whole-body control - and trained from 'in the wild' data plus exoskeleton-captured tactile data. Its own site is a single landing page with no specifications, so height, weight, DOF, payload, speed, battery, runtime and price stay empty. Status is In development: no sale or pre-order, and BBC reporting in January 2026 showed tasks still performed under human teleoperation."
+    },
+    {
+     "field": "official_url",
+     "from": null,
+     "to": "https://www.tangiblerobots.ai/"
+    },
+    {
+     "field": "release_year",
+     "from": null,
+     "to": 2025
+    },
+    {
+     "field": "sources",
+     "from": [],
+     "to": [
+      "https://www.tangiblerobots.ai/",
+      "https://www.linkedin.com/posts/tangiblerobots_hello-eggie-the-world-was-built-around-activity-7396595297604497408-Ccg2"
+     ]
+    },
+    {
+     "field": "status",
+     "from": null,
+     "to": "In development"
+    },
+    {
+     "field": "summary",
+     "from": "",
+     "to": "Eggie is Tangible's wheeled home robot with anthropomorphic five-fingered hands, pitched on dexterity, compliance and whole-body control for contact-rich household chores."
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "official"
+    }
+   ]
+  }
+ ]
+}

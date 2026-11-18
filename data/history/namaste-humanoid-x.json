@@ -1,0 +1,84 @@
+{
+ "id": "namaste-humanoid-x",
+ "name": "Humanoid-X",
+ "manufacturer": "Namaste",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-17",
+   "type": "added",
+   "source": "https://wrc.cie.org.cn/expo/company/787.html",
+   "commit": "b596d3e",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://hsswai.com/",
+   "commit": "2e2527b",
+   "changes": [
+    {
+     "field": "dof",
+     "from": null,
+     "to": 56
+    },
+    {
+     "field": "height_mm",
+     "from": null,
+     "to": 1680
+    },
+    {
+     "field": "max_speed_mps",
+     "from": null,
+     "to": 1.5
+    },
+    {
+     "field": "note",
+     "from": "Maker is 合十思维（北京）科技 (Heshi Siwei, brand 'Namaste'), Beijing. No maker-owned website found; confirmed via the maker's own WRC 2026 exhibitor listing and a Science and Technology Daily launch report (29 May 2026). Full-size biped running 'Wujie OS' dual-brain system. No official numeric specs found.",
+     "to": "Maker site hsswai.com (合十思维（北京）科技, brand 'Namaste') found and opened 2026-11-17: its Humanoid-X parameter block states 168 cm, 57 kg, 56 DoF, 50 kg payload, 5.4 km/h (=1.5 m/s), 48 V, 8 h runtime, 350 N·m peak joint torque, RGBD camera, motor-driven; head module is a 250 mm unit with 3D LiDAR + depth camera. CONFLICT: the same page's full-body module breakdown gives 1750 mm tall, 500 mm wide, about 47 kg and 41 DoF, and the WRC 2026 maker brochure repeats both sets (168 cm/57 kg/56 DoF in its parameter table vs 1750 mm/≈47 kg/41 DoF in its full-body spec). Stored values are the headline parameter block that matches the launch brochure's parameter table; the 1750 mm/41 DoF figures are recorded here. Battery capacity is stated only as 48 V (no Ah/Wh), so battery_wh stays null."
+    },
+    {
+     "field": "official_url",
+     "from": null,
+     "to": "https://hsswai.com/"
+    },
+    {
+     "field": "payload_kg",
+     "from": null,
+     "to": 50
+    },
+    {
+     "field": "runtime_h",
+     "from": null,
+     "to": 8
+    },
+    {
+     "field": "sensors",
+     "from": [],
+     "to": [
+      "3D LiDAR (head module)",
+      "Depth / RGB-D camera"
+     ]
+    },
+    {
+     "field": "sources",
+     "from": [
+      "https://wrc.cie.org.cn/expo/company/787.html",
+      "https://www.stdaily.com/web/gdxw/2026-06/01/content_525834.html"
+     ],
+     "to": [
+      "https://wrc.cie.org.cn/expo/company/787.html",
+      "https://www.stdaily.com/web/gdxw/2026-06/01/content_525834.html",
+      "https://hsswai.com/",
+      "https://hsswai.com/about"
+     ]
+    },
+    {
+     "field": "weight_kg",
+     "from": null,
+     "to": 57
+    }
+   ]
+  }
+ ]
+}

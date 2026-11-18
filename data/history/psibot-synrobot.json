@@ -1,0 +1,66 @@
+{
+ "id": "psibot-synrobot",
+ "name": "ψ-SynRobot",
+ "manufacturer": "PsiBot (Shanghai Lingchu Intelligent Technology)",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-17",
+   "type": "added",
+   "source": null,
+   "commit": "b596d3e",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://www.psibot.ai/%E7%81%B5%E5%88%9D%E6%99%BA%E8%83%BD%E5%8F%91%E5%B8%83%E8%87%AA%E7%A0%94%E6%95%B4%E6%9C%BA%CF%88-synrobot%E5%B9%B6%E5%90%AF%E5%8A%A8%E9%87%8F%E4%BA%A7%EF%BC%8C%E6%AD%A3%E5%BC%8F%E5%BC%80%E5%90%AF/",
+   "commit": "75b989d",
+   "changes": [
+    {
+     "field": "country",
+     "from": null,
+     "to": "China"
+    },
+    {
+     "field": "manufacturer",
+     "from": "PsiBot",
+     "to": "PsiBot (Shanghai Lingchu Intelligent Technology)"
+    },
+    {
+     "field": "note",
+     "from": null,
+     "to": "Maker press release 2026-04-20 announces ψ-SynRobot (also written Psi SynRobot) and the start of volume production; it is described as a general robot platform for complex logistics, retail and industrial sites with 'manipulation + data collection' in one body, 7x24 h continuous operation, bionic multi-joint arms for long-horizon tasks. No height, weight, payload, speed, DOF, battery or runtime figures are published, so all spec fields are left empty. The maker's separate PsiBot V1 product page (<180 cm, 683 mm arm span, >8 h, 4 RGBD + 3 fisheye cameras, Thor compute) is a different model and was not used."
+    },
+    {
+     "field": "official_url",
+     "from": null,
+     "to": "https://www.psibot.ai/%E7%81%B5%E5%88%9D%E6%99%BA%E8%83%BD%E5%8F%91%E5%B8%83%E8%87%AA%E7%A0%94%E6%95%B4%E6%9C%BA%CF%88-synrobot%E5%B9%B6%E5%90%AF%E5%8A%A8%E9%87%8F%E4%BA%A7%EF%BC%8C%E6%AD%A3%E5%BC%8F%E5%BC%80%E5%90%AF/"
+    },
+    {
+     "field": "sources",
+     "from": [],
+     "to": [
+      "https://www.psibot.ai/%E7%81%B5%E5%88%9D%E6%99%BA%E8%83%BD%E5%8F%91%E5%B8%83%E8%87%AA%E7%A0%94%E6%95%B4%E6%9C%BA%CF%88-synrobot%E5%B9%B6%E5%90%AF%E5%8A%A8%E9%87%8F%E4%BA%A7%EF%BC%8C%E6%AD%A3%E5%BC%8F%E5%BC%80%E5%90%AF/",
+      "https://www.psibot.ai/"
+     ]
+    },
+    {
+     "field": "status",
+     "from": null,
+     "to": "Commercial"
+    },
+    {
+     "field": "summary",
+     "from": "",
+     "to": "PsiBot's full-stack humanoid platform for logistics, retail and industrial work, built on the PSI foundation models and used to collect manipulation data while it works."
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "official"
+    }
+   ]
+  }
+ ]
+}

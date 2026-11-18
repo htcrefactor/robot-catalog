@@ -1,0 +1,41 @@
+{
+ "id": "faraday-future-fx-navi",
+ "name": "FX Navi",
+ "manufacturer": "Faraday Future",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-17",
+   "type": "added",
+   "source": "https://shop.ff.com/products/fx-navi",
+   "commit": "b596d3e",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://shop.ff.com/products/fx-navi",
+   "commit": "4b7ab4b",
+   "changes": [
+    {
+     "field": "price_observations",
+     "from": null,
+     "to": [
+      {
+       "date": "2026-11-17",
+       "amount": 1990,
+       "currency": "USD",
+       "kind": "list",
+       "source": "https://shop.ff.com/products/fx-navi"
+      }
+     ]
+    },
+    {
+     "field": "price_usd",
+     "from": 1990,
+     "to": null
+    }
+   ]
+  }
+ ]
+}

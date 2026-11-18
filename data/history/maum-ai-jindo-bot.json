@@ -1,0 +1,44 @@
+{
+ "id": "maum-ai-jindo-bot",
+ "name": "JINDO BOT",
+ "manufacturer": "Maum AI",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-17",
+   "type": "added",
+   "source": "https://maum.ai/",
+   "commit": "b596d3e",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://maum.ai/",
+   "commit": "0c54867",
+   "changes": [
+    {
+     "field": "kr_distributors",
+     "from": null,
+     "to": [
+      {
+       "name": "마음AI (본사 직판·사전 예약)",
+       "kind": "direct",
+       "url": "https://maum.ai/"
+      }
+     ]
+    },
+    {
+     "field": "manufacturer_ko",
+     "from": null,
+     "to": "마음AI"
+    },
+    {
+     "field": "name_ko",
+     "from": null,
+     "to": "진도봇"
+    }
+   ]
+  }
+ ]
+}

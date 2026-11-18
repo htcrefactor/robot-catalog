@@ -1,0 +1,146 @@
+{
+ "id": "rainbow-rby1",
+ "name": "RB-Y1",
+ "manufacturer": "Rainbow Robotics",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-13",
+   "type": "added",
+   "source": "https://humanoidstore.co/robots/rainbow-rby1",
+   "commit": "14cd746",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://rainbow-robotics.com/en/products/rb-y1/",
+   "commit": "0c54867",
+   "changes": [
+    {
+     "field": "battery_wh",
+     "from": null,
+     "to": 1250
+    },
+    {
+     "field": "data_source",
+     "from": "HumanoidStore open data (CC BY 4.0)",
+     "to": null
+    },
+    {
+     "field": "notes",
+     "from": null,
+     "to": "Issue #17 (2026-11-17): Rainbow RB-Y1 - 600x690x1400 mm, 131 kg (Model A), 24 DoF (Model A; Model M 26), 3 kg per arm, 1.5 m/s, 50 V 25 Ah (1250-1270 Wh). [replaced payload_kg: 6 -> 3; battery_wh: None -> 1250] HumanoidStore price (US$80000) removed: no maker list price confirmed."
+    },
+    {
+     "field": "payload_kg",
+     "from": 6,
+     "to": 3
+    },
+    {
+     "field": "price_note",
+     "from": "list 80000 USD (maker), per HumanoidStore, checked 2026-10",
+     "to": null
+    },
+    {
+     "field": "price_usd",
+     "from": 80000,
+     "to": null
+    },
+    {
+     "field": "sources",
+     "from": [
+      "https://humanoidstore.co/robots/rainbow-rby1"
+     ],
+     "to": [
+      "https://rainbow-robotics.com/en/products/rb-y1/",
+      "https://rainbowrobotics.github.io/rby1-dev/hardware/overview.html",
+      "https://humanoidstore.co/robots/rainbow-rby1",
+      "https://rainbow-robotics.com/"
+     ]
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "official"
+    },
+    {
+     "field": "length_mm",
+     "from": null,
+     "to": 690
+    },
+    {
+     "field": "note",
+     "from": null,
+     "to": "Maker spec table (English product page + RB-Y1 developer docs): 600 x 690 x 1,400 mm (W x D x H), 131 kg in Model A (mobile base 51 kg; Model M with mecanum base is 170 kg), 3 kg payload per arm, 600 mm arm reach to the wrist, 1.5 m/s drive speed, 24 DOF in Model A (wheel 1 x 2, torso/leg 6, arm 7 x 2, head 2) and 26 DOF in Model M (wheel 1 x 4), +/-0.05 mm arm repeatability, 48 VDC, 50 V 25 Ah battery = 1,250 Wh per the maker table (the docs page prints 1,270 Wh). Price: the maker publishes no price; the 80,000 USD in this record came from HumanoidStore and was removed. Runtime is not published by the maker (the earlier 3 h figure was reseller-sourced and was removed). Maker notes no vision camera is included (the wrist 'camera' is a motor pulley)."
+    },
+    {
+     "field": "official_url",
+     "from": null,
+     "to": "https://rainbow-robotics.com/en/products/rb-y1/"
+    },
+    {
+     "field": "onboard_compute",
+     "from": null,
+     "to": "Dual PC (Robot PC + User PC)"
+    },
+    {
+     "field": "release_year",
+     "from": null,
+     "to": 2024
+    },
+    {
+     "field": "ros_support",
+     "from": null,
+     "to": true
+    },
+    {
+     "field": "runtime_h",
+     "from": 3.0,
+     "to": null
+    },
+    {
+     "field": "sdk_available",
+     "from": null,
+     "to": true
+    },
+    {
+     "field": "sdk_name",
+     "from": null,
+     "to": "RB-Y1 SDK (ROS 2, dual-PC architecture)"
+    },
+    {
+     "field": "summary",
+     "from": "Wheeled (bimanual torso on a wheeled base) humanoid from Rainbow Robotics; shipping now, anyone can order.",
+     "to": "Rainbow Robotics' wheeled dual-arm humanoid research platform: 24 DOF all-in-one mobile manipulator with 7-DOF arms, 6-DOF leg/torso and a rolling base."
+    },
+    {
+     "field": "width_mm",
+     "from": null,
+     "to": 600
+    },
+    {
+     "field": "kr_distributors",
+     "from": null,
+     "to": [
+      {
+       "name": "레인보우로보틱스 (본사·파트너사 직판)",
+       "kind": "direct",
+       "url": "https://rainbow-robotics.com/"
+      }
+     ]
+    },
+    {
+     "field": "kr_note",
+     "from": null,
+     "to": "국내 판매·데모·기술 상담은 본사와 전문 파트너사를 통해 진행합니다."
+    },
+    {
+     "field": "manufacturer_ko",
+     "from": null,
+     "to": "레인보우로보틱스"
+    }
+   ]
+  }
+ ]
+}

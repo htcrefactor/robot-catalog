@@ -1,0 +1,77 @@
+{
+ "id": "aldebaran-pepper",
+ "name": "Pepper",
+ "manufacturer": "Aldebaran",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-13",
+   "type": "added",
+   "source": "https://humanoidstore.co/robots/aldebaran-pepper",
+   "commit": "14cd746",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://www.softbankrobotics.com/jp/product/pepper/spec/",
+   "commit": "0be5d4c",
+   "changes": [
+    {
+     "field": "battery_wh",
+     "from": null,
+     "to": 795
+    },
+    {
+     "field": "data_source",
+     "from": "HumanoidStore open data (CC BY 4.0)",
+     "to": null
+    },
+    {
+     "field": "height_mm",
+     "from": 1200,
+     "to": 1210
+    },
+    {
+     "field": "max_speed_mps",
+     "from": 0.83,
+     "to": 0.556
+    },
+    {
+     "field": "notes",
+     "from": null,
+     "to": "Issue #17 (2026-11-17): SoftBank Robotics' Pepper spec - 1210x480x425 mm, 29 kg, 20 DoF (20 motors), 795 Wh (30 Ah), max 2 km/h = 0.556 m/s, 12 h intensive use. Pepper datasheet states 28 kg; SoftBank's own spec page (29 kg) kept. HumanoidStore's 0.83 m/s and US$32,000 removed. [replaced height_mm: 1200 -> 1210; weight_kg: 28 -> 29; max_speed_mps: 0.83 -> 0.556; battery_wh: None -> 795 | emptied (no maker value) price_usd=32000; price_note=list 32000 USD (maker), per HumanoidStore, checked 2026-09]"
+    },
+    {
+     "field": "price_note",
+     "from": "list 32000 USD (maker), per HumanoidStore, checked 2026-09",
+     "to": null
+    },
+    {
+     "field": "price_usd",
+     "from": 32000,
+     "to": null
+    },
+    {
+     "field": "sources",
+     "from": [
+      "https://humanoidstore.co/robots/aldebaran-pepper"
+     ],
+     "to": [
+      "https://www.softbankrobotics.com/jp/product/pepper/spec/"
+     ]
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "official"
+    },
+    {
+     "field": "weight_kg",
+     "from": 28,
+     "to": 29
+    }
+   ]
+  }
+ ]
+}

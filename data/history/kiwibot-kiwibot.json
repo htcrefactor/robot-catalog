@@ -1,0 +1,43 @@
+{
+ "id": "kiwibot-kiwibot",
+ "name": "Kiwibot",
+ "manufacturer": "Robot.com (formerly Kiwibot)",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-03",
+   "type": "added",
+   "source": "https://usi.sodexomyway.com/en-us/kiwibot/frequently-asked-questions",
+   "commit": "1a533a7",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://usi.sodexomyway.com/en-us/kiwibot/frequently-asked-questions",
+   "commit": "b1429ab",
+   "changes": [
+    {
+     "field": "notes",
+     "from": null,
+     "to": "Robot.com (formerly Kiwibot) publishes no numbered specification sheet for this generation. Its current page for the successor R-Kiwi states Level 4 autonomy, 19 L cargo, a 12 h battery and six cameras with 3D LiDAR, which does not match these older figures. The recorded values come from campus-operator material: about 20.5 kg, 3-4 kg payload and 3.9 km/h, kept but not confirmed against a maker datasheet."
+    },
+    {
+     "field": "sources",
+     "from": [
+      "https://usi.sodexomyway.com/en-us/kiwibot/frequently-asked-questions"
+     ],
+     "to": [
+      "https://usi.sodexomyway.com/en-us/kiwibot/frequently-asked-questions",
+      "https://robot.com/"
+     ]
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "unconfirmed"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,33 @@
+{
+ "id": "psibot-v1",
+ "name": "PsiBot V1",
+ "manufacturer": "PsiBot",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-17",
+   "type": "added",
+   "source": "https://www.psibot.ai/en/products/product_psibot-v1",
+   "commit": "b596d3e",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://www.psibot.ai/en/products/product_psibot-v1",
+   "commit": "ae60ceb",
+   "changes": [
+    {
+     "field": "compute_soc",
+     "from": null,
+     "to": "NVIDIA Jetson Thor"
+    },
+    {
+     "field": "compute_source",
+     "from": null,
+     "to": "https://www.psibot.ai/en/products/product_psibot-v1"
+    }
+   ]
+  }
+ ]
+}

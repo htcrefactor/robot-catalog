@@ -1,0 +1,80 @@
+{
+ "id": "waseda-airec",
+ "name": "AIREC",
+ "manufacturer": "Waseda University (JST Moonshot Program)",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-13",
+   "type": "added",
+   "source": "https://humanoidstore.co/robots/waseda-airec",
+   "commit": "14cd746",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://airec-waseda.jp/",
+   "commit": "30bdc91",
+   "changes": [
+    {
+     "field": "data_source",
+     "from": "HumanoidStore open data (CC BY 4.0)",
+     "to": null
+    },
+    {
+     "field": "dof",
+     "from": 20,
+     "to": null
+    },
+    {
+     "field": "height_mm",
+     "from": null,
+     "to": 1540
+    },
+    {
+     "field": "notes",
+     "from": null,
+     "to": "Issue #17 (2026-11-17): AIREC - 154 cm, 150 kg per the JST Moonshot / Waseda project materials. No DoF count is published, so the HumanoidStore DoF was emptied. [replaced height_mm: None -> 1540; weight_kg: 149 -> 150 | emptied (no maker value) dof=20]"
+    },
+    {
+     "field": "sources",
+     "from": [
+      "https://humanoidstore.co/robots/waseda-airec"
+     ],
+     "to": [
+      "https://airec-waseda.jp/en/toppage_en/",
+      "https://airec-waseda.jp/",
+      "https://airec-waseda.jp/about/",
+      "https://www.jst.go.jp/moonshot/program/goal3/files/31_sugano_report2024.pdf"
+     ]
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "official"
+    },
+    {
+     "field": "weight_kg",
+     "from": 149,
+     "to": 150
+    },
+    {
+     "field": "note",
+     "from": null,
+     "to": "The project publishes no height, weight or whole-robot DoF: airec-waseda.jp sets out goals and tasks, and the JST progress reports describe subsystems (an 18-DoF rotary fluid-actuator body, a 4-finger fluid-driven hand with 14 DoF, 10-DoF electric multi-finger hands, 27.5 kg holding force in the worst posture). Figures such as about 68 kg have no official source and are not used. Locomotion is recorded as wheeled from the mobile humanoid prototype; the project does not state the form officially. Neither weight nor a whole-robot DoF count is published, so both stay empty."
+    },
+    {
+     "field": "official_url",
+     "from": null,
+     "to": "https://airec-waseda.jp/"
+    },
+    {
+     "field": "summary",
+     "from": "Wheeled (bimanual torso on a wheeled base) humanoid from Waseda University (JST Moonshot Program); research only, sold to research buyers.",
+     "to": "AIREC (AI-driven Robot for Embrace and Care), a Waseda-led Moonshot Goal 3 research humanoid for cooking, laundry, transfer, bathing and meal assistance, aimed at care work by 2030-2050."
+    }
+   ]
+  }
+ ]
+}

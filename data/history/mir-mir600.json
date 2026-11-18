@@ -1,0 +1,78 @@
+{
+ "id": "mir-mir600",
+ "name": "MiR600",
+ "manufacturer": "Mobile Industrial Robots (MiR)",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-03",
+   "type": "added",
+   "source": "https://mobile-industrial-robots.com/products/robots/mir600",
+   "commit": "1a533a7",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://mobile-industrial-robots.com/products/robots/mir600",
+   "commit": "0c54867",
+   "changes": [
+    {
+     "field": "certifications",
+     "from": null,
+     "to": [
+      "TÜV Rheinland certificate (ISO 13849-1)"
+     ]
+    },
+    {
+     "field": "safety_note",
+     "from": null,
+     "to": "ISO 3691-4 except Clause 4.4, 4.9.4, 5.1, 5.2, 6 and Annex A. 13 safety functions per ISO 13849-1, certified by TÜV Rheinland."
+    },
+    {
+     "field": "safety_source",
+     "from": null,
+     "to": "https://mobile-industrial-robots.com/products/robots/mir600/specifications"
+    },
+    {
+     "field": "safety_standards",
+     "from": null,
+     "to": [
+      "ISO 13849-1",
+      "ISO 3691-4",
+      "ISO 12100",
+      "ISO 13850",
+      "ITSDF B56.5",
+      "RIA R15.08-1",
+      "EN 61000-6-4"
+     ]
+    },
+    {
+     "field": "kr_distributors",
+     "from": null,
+     "to": [
+      {
+       "name": "MiR 코리아 (Mobile Industrial Robots 한국 지사)",
+       "kind": "direct",
+       "url": "https://mobile-industrial-robots.com/ko/contacts"
+      }
+     ]
+    },
+    {
+     "field": "sources",
+     "from": [
+      "https://mobile-industrial-robots.com/products/robots/mir600",
+      "https://mobile-industrial-robots.com/products/robots/mir600/specifications",
+      "https://ai.motion.com/wp-content/uploads/2025/10/MiR600-Specifications-2.99.pdf"
+     ],
+     "to": [
+      "https://mobile-industrial-robots.com/products/robots/mir600",
+      "https://mobile-industrial-robots.com/products/robots/mir600/specifications",
+      "https://ai.motion.com/wp-content/uploads/2025/10/MiR600-Specifications-2.99.pdf",
+      "https://mobile-industrial-robots.com/ko/contacts"
+     ]
+    }
+   ]
+  }
+ ]
+}

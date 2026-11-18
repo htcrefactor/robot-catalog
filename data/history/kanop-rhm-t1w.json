@@ -1,0 +1,33 @@
+{
+ "id": "kanop-rhm-t1w",
+ "name": "RHM-T1W",
+ "manufacturer": "CRP (Chengdu CRP Robot Technology)",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-17",
+   "type": "added",
+   "source": "https://www.crprobot.com/d/gongsidongtai/146.html",
+   "commit": "b596d3e",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://www.crprobot.com/d/gongsidongtai/146.html",
+   "commit": "48ef25e",
+   "changes": [
+    {
+     "field": "manufacturer",
+     "from": "Kanop",
+     "to": "CRP (Chengdu CRP Robot Technology)"
+    },
+    {
+     "field": "note",
+     "from": "Wheeled-not-legged. Maker spelling is Canop/CRP (Chengdu CRP Robot Technology). Maker's own figures conflict: launch article 1.9 m / 85 kg (used) vs earlier table 1,430-1,870 mm adjustable / 170 kg incl. 110 kg AMR base. Payload 5 kg per arm. Debuted Mar 2026, Hannover Messe Apr 2026.",
+     "to": "Maker is Chengdu CRP Robot Technology (成都卡诺普, brand CRP; the 'Kanop/Canop' spelling on competitor listings is a transliteration). Wheeled-not-legged. Maker's own figures conflict: launch article 1.9 m / 85 kg (used) vs earlier table 1,430-1,870 mm adjustable / 170 kg incl. 110 kg AMR base. Payload 5 kg per arm. Debuted Mar 2026, Hannover Messe Apr 2026."
+    }
+   ]
+  }
+ ]
+}

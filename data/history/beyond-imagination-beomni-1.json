@@ -1,0 +1,33 @@
+{
+ "id": "beyond-imagination-beomni-1",
+ "name": "Beomni V3",
+ "manufacturer": "Beyond Imagination",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-17",
+   "type": "added",
+   "source": "https://www.beyondimagination.com/",
+   "commit": "b596d3e",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://www.beyondimagination.com/",
+   "commit": "48ef25e",
+   "changes": [
+    {
+     "field": "name",
+     "from": "Beomni 1.0",
+     "to": "Beomni V3"
+    },
+    {
+     "field": "note",
+     "from": "Maker site confirms Beomni humanoid (CES 2022 public reveal of 'Beomni V3', pilots 2022-2024). '1.0' naming comes from press; maker milestone page calls the CES 2022 unit V3. No maker spec sheet found; payload claims (35 lb/arm) only in press.",
+     "to": "Maker milestone page: 'CES 2022 - Public reveal of Beomni V3', so the CES 2022 unit is V3 ('Beomni 1.0' was press usage). Later generations are Beyond Mark 1 (2023), Beyond Mark 2 (2024) and Beyond Mark 3 (2025). No maker spec sheet found; payload claims (35 lb/arm) only in press."
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,38 @@
+{
+ "id": "westwood-robotics-bruce",
+ "name": "BRUCE",
+ "manufacturer": "Westwood Robotics",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-17",
+   "type": "added",
+   "source": "https://www.westwoodrobotics.io/bruce/",
+   "commit": "b596d3e",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://www.westwoodrobotics.io/bruce/",
+   "commit": "ae60ceb",
+   "changes": [
+    {
+     "field": "compute_memory_gb",
+     "from": null,
+     "to": 8
+    },
+    {
+     "field": "compute_source",
+     "from": null,
+     "to": "http://store.westwoodrobotics.io/product/bruce-humanoid-open-platform-16-dof-kid-size-biped-robot"
+    },
+    {
+     "field": "compute_tops",
+     "from": null,
+     "to": 6
+    }
+   ]
+  }
+ ]
+}

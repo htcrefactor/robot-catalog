@@ -1,0 +1,93 @@
+{
+ "id": "nori-robotics-nori-a3",
+ "name": "A3",
+ "manufacturer": "Nori Robotics",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-13",
+   "type": "added",
+   "source": "https://humanoidstore.co/robots/nori-robotics-nori-a3",
+   "commit": "14cd746",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://www.norirobotics.com/",
+   "commit": "976d9e6",
+   "changes": [
+    {
+     "field": "battery_wh",
+     "from": null,
+     "to": 432
+    },
+    {
+     "field": "data_source",
+     "from": "HumanoidStore open data (CC BY 4.0)",
+     "to": "Maker sources (verified 2026-11-17)"
+    },
+    {
+     "field": "notes",
+     "from": null,
+     "to": "Issue #17 (2026-11-17): Nori A3 - 19 DoF bimanual mobile manipulator, 20.4 kg, 45x45 cm footprint, telescoping lift 69-145 cm (145 taken as max height), 1.5 kg per arm, 24 V 18 Ah (432 Wh) for 6-8 h (6 taken), US$1,688. [replaced battery_wh: None -> 432; price_note: list 1688 USD (maker), per HumanoidStore, checked 2026-10 -> US$1,688, ships assembled]"
+    },
+    {
+     "field": "price_note",
+     "from": "list 1688 USD (maker), per HumanoidStore, checked 2026-10",
+     "to": "US$1,688, ships assembled"
+    },
+    {
+     "field": "sources",
+     "from": [
+      "https://humanoidstore.co/robots/nori-robotics-nori-a3"
+     ],
+     "to": [
+      "https://docs.norirobotics.com/guide/a3",
+      "https://www.norirobotics.com/",
+      "https://www.norirobotics.com/preorder"
+     ]
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "official"
+    },
+    {
+     "field": "compute_detail",
+     "from": null,
+     "to": "Bus I/O, control loop and protection layers onboard; inference runs off-board"
+    },
+    {
+     "field": "note",
+     "from": null,
+     "to": "Maker docs and site (checked 2026-11-17): 19-DoF bimanual mobile manipulator, 20.4 kg, arms 7+1 DoF each with 1.5 kg payload per arm, telescoping lift giving 69-145 cm overall height (recorded as the 1,450 mm maximum), differential base 45 x 45 cm, 24 V 18 Ah battery for 6-8 h (432 Wh computed as V x Ah). Height_mm is the top of the lift range, not a fixed stature."
+    },
+    {
+     "field": "official_url",
+     "from": null,
+     "to": "https://www.norirobotics.com/"
+    },
+    {
+     "field": "onboard_compute",
+     "from": null,
+     "to": "Raspberry Pi 5, 4 GB"
+    },
+    {
+     "field": "sensors",
+     "from": [],
+     "to": [
+      "4x 720p RGB cameras (wrists, head, neck)",
+      "12 m LiDAR, 8-12 Hz, 0.72 degrees at 10 Hz",
+      "Speaker and microphone"
+     ]
+    },
+    {
+     "field": "summary",
+     "from": "Wheeled (bimanual torso on a wheeled base) humanoid from Nori Robotics; preorder, anyone can order.",
+     "to": "Nori's low-cost bimanual home robot: a 20.4 kg mobile manipulator with two 7+1 DoF arms, a 69-145 cm lift and 6-8 h of battery, sold for $1,688."
+    }
+   ]
+  }
+ ]
+}

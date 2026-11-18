@@ -1,0 +1,82 @@
+{
+ "id": "kuwa-x1",
+ "name": "X1",
+ "manufacturer": "Kuwa",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-06",
+   "type": "added",
+   "source": "https://ai123.com/newshub/17507",
+   "commit": "93dd29a",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://cowarobot.com/business/sweeper",
+   "commit": "b1429ab",
+   "changes": [
+    {
+     "field": "battery_wh",
+     "from": null,
+     "to": 10000
+    },
+    {
+     "field": "height_mm",
+     "from": null,
+     "to": 1375
+    },
+    {
+     "field": "length_mm",
+     "from": null,
+     "to": 1804
+    },
+    {
+     "field": "max_speed_mps",
+     "from": null,
+     "to": 2.78
+    },
+    {
+     "field": "notes",
+     "from": null,
+     "to": "Maker (COOWA, formerly Cowarobot) gives kerb weight 640 kg and gross 766 kg, 1804 x 850 x 1375 mm excluding a 1100 mm top section, a 10 kWh battery, 158 L hopper and 46 L clean-water tank, 1260 mm sweeping width, 1-5 km/h working speed and 10 km/h maximum (2.78 m/s, converted), 2320 mm turning diameter, 26% climb and 70 dB working noise. Three-wheel steer-by-wire chassis with independent suspension."
+    },
+    {
+     "field": "official_url",
+     "from": null,
+     "to": "https://cowarobot.com/business/sweeper"
+    },
+    {
+     "field": "sources",
+     "from": [
+      "https://ai123.com/newshub/17507"
+     ],
+     "to": [
+      "https://cowarobot.com/business/sweeper"
+     ]
+    },
+    {
+     "field": "summary",
+     "from": "Urban service robot on a 1-tonne three-wheel drive-by-wire chassis for sidewalk edge sweeping; shown at CIIE 6 Nov 2026.",
+     "to": "Compact three-wheel autonomous street sweeper for sidewalks, kerbs and narrow service roads."
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "official"
+    },
+    {
+     "field": "weight_kg",
+     "from": null,
+     "to": 640
+    },
+    {
+     "field": "width_mm",
+     "from": null,
+     "to": 850
+    }
+   ]
+  }
+ ]
+}

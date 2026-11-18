@@ -1,0 +1,97 @@
+{
+ "id": "tesla-optimus",
+ "name": "Optimus",
+ "manufacturer": "Tesla",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-03",
+   "type": "added",
+   "source": "https://www.tesla.com/AI",
+   "commit": "1a533a7",
+   "changes": []
+  },
+  {
+   "date": "2026-11-13",
+   "type": "updated",
+   "source": "https://www.tesla.com/AI",
+   "commit": "14cd746",
+   "changes": [
+    {
+     "field": "sources",
+     "from": [
+      "https://www.tesla.com/AI",
+      "https://tech.yahoo.com/general/articles/tesla-starts-optimus-production-elon-215423739.html"
+     ],
+     "to": [
+      "https://www.tesla.com/AI",
+      "https://tech.yahoo.com/general/articles/tesla-starts-optimus-production-elon-215423739.html",
+      "https://humanoidstore.co/robots/tesla-optimus"
+     ]
+    }
+   ]
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://www.tesla.com/AI",
+   "commit": "30bdc91",
+   "changes": [
+    {
+     "field": "image_source",
+     "from": null,
+     "to": "https://www.tesla.com/SI"
+    },
+    {
+     "field": "image_url",
+     "from": null,
+     "to": "https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Tesla-Bot-AI.jpg"
+    },
+    {
+     "field": "note",
+     "from": null,
+     "to": "Media (2026-11-17): tesla.com/AI now redirects to tesla.com/SI (SI & Robotics); the 'Tesla Bot' image above is published there. Tesla publishes no Optimus demo video on that page (its video is about the FSD network), so no video is recorded. | Tesla's SI & Robotics page (tesla.com/AI, which resolves to tesla.com/SI) describes Optimus in prose only and publishes no height, weight, payload, speed, DoF, battery or price; tesla.com/optimus returns 404 (checked 2026-11-17, rendered in a browser). The figures usually quoted elsewhere (173 cm, 57 kg, 20 kg payload, 28 DoF) come from Tesla presentations and press coverage rather than a maker spec sheet, so the spec fields are left empty."
+    },
+    {
+     "field": "sources",
+     "from": [
+      "https://www.tesla.com/AI",
+      "https://tech.yahoo.com/general/articles/tesla-starts-optimus-production-elon-215423739.html",
+      "https://humanoidstore.co/robots/tesla-optimus"
+     ],
+     "to": [
+      "https://www.tesla.com/AI",
+      "https://tech.yahoo.com/general/articles/tesla-starts-optimus-production-elon-215423739.html",
+      "https://humanoidstore.co/robots/tesla-optimus",
+      "https://www.tesla.com/SI"
+     ]
+    },
+    {
+     "field": "videos",
+     "from": null,
+     "to": []
+    },
+    {
+     "field": "notes",
+     "from": null,
+     "to": "Issue #17 (2026-11-17): Tesla publishes no spec sheet or price for Optimus, so no maker value exists for any spec field; record kept with fields empty. HumanoidStore row dropped."
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "unconfirmed"
+    },
+    {
+     "field": "status",
+     "from": "Pilot",
+     "to": "In development"
+    },
+    {
+     "field": "summary",
+     "from": "General-purpose bipedal humanoid; Tesla began 'early production' at Fremont in Oct 2026 with external deliveries targeted for late 2027; Tesla publishes no official spec sheet or price.",
+     "to": "Tesla's general-purpose bipedal humanoid, presented by Tesla as a robot for unsafe, repetitive or boring work, shown at the company's own events and used in its factories."
+    }
+   ]
+  }
+ ]
+}

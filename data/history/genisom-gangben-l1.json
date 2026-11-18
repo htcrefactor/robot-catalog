@@ -1,0 +1,48 @@
+{
+ "id": "genisom-gangben-l1",
+ "name": "Genisom L1",
+ "manufacturer": "GENISOM AI (ZsiBot)",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-17",
+   "type": "added",
+   "source": "https://www.genisomai.com/product-robot/L1",
+   "commit": "b596d3e",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://www.genisomai.com/product-robot/L1",
+   "commit": "ae60ceb",
+   "changes": [
+    {
+     "field": "name",
+     "from": "Gangben L1",
+     "to": "Genisom L1"
+    },
+    {
+     "field": "note",
+     "from": "GENISOM AI (智身科技) official page, product 钢镚 L1. Limit speed 5 m/s; payload ≈8 kg (limit ~10 kg). Battery 43.2 V × 4.6 Ah rated (~199 Wh, computed; not stated as Wh). EDU version adds Jetson Orin NX, 3D LiDAR, depth camera.",
+     "to": "Official name 'Genisom L1' (钢镚 L1) - the record was listed as 'Gangben L1' from a competitor's transliteration. GENISOM AI (智身科技) page: limit speed 5 m/s; payload ≈8 kg (limit ~10 kg). Battery 43.2 V × 4.6 Ah rated (~199 Wh, computed; not stated as Wh). EDU version adds Jetson Orin NX, 3D LiDAR, depth camera."
+    },
+    {
+     "field": "compute_soc",
+     "from": null,
+     "to": "NVIDIA Jetson Orin NX"
+    },
+    {
+     "field": "compute_source",
+     "from": null,
+     "to": "https://www.genisomai.com/product-robot/L1"
+    },
+    {
+     "field": "compute_tops",
+     "from": null,
+     "to": 100
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,68 @@
+{
+ "id": "aeirobot-aimy",
+ "name": "AIMY",
+ "manufacturer": "AeiROBOT",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-17",
+   "type": "added",
+   "source": "http://eng.arobot4all.com/AIMY",
+   "commit": "b596d3e",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "http://eng.arobot4all.com/AIMY",
+   "commit": "ae60ceb",
+   "changes": [
+    {
+     "field": "kr_distributors",
+     "from": null,
+     "to": [
+      {
+       "name": "에이로봇 (본사 직판)",
+       "kind": "direct",
+       "url": "http://www.arobot4all.com/"
+      }
+     ]
+    },
+    {
+     "field": "manufacturer_ko",
+     "from": null,
+     "to": "에이로봇"
+    },
+    {
+     "field": "name_ko",
+     "from": null,
+     "to": "에이미"
+    },
+    {
+     "field": "sources",
+     "from": [
+      "http://eng.arobot4all.com/AIMY",
+      "http://www.arobot4all.com/AIMY",
+      "https://www.arobot4all.com/history"
+     ],
+     "to": [
+      "http://eng.arobot4all.com/AIMY",
+      "http://www.arobot4all.com/AIMY",
+      "https://www.arobot4all.com/history",
+      "http://www.arobot4all.com/"
+     ]
+    },
+    {
+     "field": "compute_soc",
+     "from": null,
+     "to": "AMD Ryzen 5 7600"
+    },
+    {
+     "field": "compute_source",
+     "from": null,
+     "to": "http://eng.arobot4all.com/AIMY"
+    }
+   ]
+  }
+ ]
+}

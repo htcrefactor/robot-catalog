@@ -1,0 +1,97 @@
+{
+ "id": "limx-cl3",
+ "name": "Oli (CL-3)",
+ "manufacturer": "LimX Dynamics",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-13",
+   "type": "added",
+   "source": "https://humanoidstore.co/robots/limx-cl3",
+   "commit": "14cd746",
+   "changes": []
+  },
+  {
+   "date": "2026-11-14",
+   "type": "updated",
+   "source": "https://www.limxdynamics.com/en/products/oli",
+   "commit": "1aeec2d",
+   "changes": [
+    {
+     "field": "data_source",
+     "from": "HumanoidStore open data (CC BY 4.0)",
+     "to": "HumanoidStore + maker page"
+    },
+    {
+     "field": "official_url",
+     "from": null,
+     "to": "https://www.limxdynamics.com/en/products/oli"
+    },
+    {
+     "field": "sources",
+     "from": [
+      "https://humanoidstore.co/robots/limx-cl3"
+     ],
+     "to": [
+      "https://humanoidstore.co/robots/limx-cl3",
+      "https://www.limxdynamics.com/en/products/oli/spec"
+     ]
+    }
+   ]
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://www.limxdynamics.com/en/products/oli",
+   "commit": "976d9e6",
+   "changes": [
+    {
+     "field": "data_source",
+     "from": "HumanoidStore + maker page",
+     "to": "Maker sources (verified 2026-11-17)"
+    },
+    {
+     "field": "notes",
+     "from": null,
+     "to": "Issue #17 (2026-11-17): LimX Oli (CL-3) - 165 cm, 55 kg, 3 kg arm payload from LimX's Oli spec page; DoF 31 derived (legs 6x2 + arms 7x2 + waist 3 + head 2). HumanoidStore's US$50,000 removed. [emptied (no maker value) price_usd=52875; price_note=list 52875 USD (reseller), per HumanoidStore, checked 2026-10]"
+    },
+    {
+     "field": "price_note",
+     "from": "list 52875 USD (reseller), per HumanoidStore, checked 2026-10",
+     "to": "LimX publishes no price; 52,875 USD in the earlier record came from a reseller listing"
+    },
+    {
+     "field": "price_usd",
+     "from": 52875,
+     "to": null
+    },
+    {
+     "field": "sources",
+     "from": [
+      "https://humanoidstore.co/robots/limx-cl3",
+      "https://www.limxdynamics.com/en/products/oli/spec"
+     ],
+     "to": [
+      "https://www.limxdynamics.com/en/products/oli/spec",
+      "https://www.limxdynamics.com/en/products/oli"
+     ]
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "official"
+    },
+    {
+     "field": "note",
+     "from": null,
+     "to": "Maker spec page (checked 2026-11-17): 165 cm, 55 kg or less with battery, 31 active DoF (6 per leg, 7 per arm, 3 waist, 2 neck), 3 kg maximum single-arm load, 5 km/h, 1.5 h on a 9,500 mAh pack, motion control RK3588 plus Orin NX 157 TOPS perception."
+    },
+    {
+     "field": "summary",
+     "from": "Full-size humanoid from LimX Dynamics; shipping now, anyone can order.",
+     "to": "LimX's full-size general-purpose humanoid Oli: 1.65 m, 31 DoF, 3 kg per arm and 1.5 h per battery, positioned for industrial and research work."
+    }
+   ]
+  }
+ ]
+}

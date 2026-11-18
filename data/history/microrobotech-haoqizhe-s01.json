@@ -1,0 +1,33 @@
+{
+ "id": "microrobotech-haoqizhe-s01",
+ "name": "Haoqizhe S01",
+ "manufacturer": "MICBOT (Hangzhou Juwei Technology)",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-17",
+   "type": "added",
+   "source": "https://www.micbotics.cn/list_3/126.html",
+   "commit": "b596d3e",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://www.micbotics.cn/list_3/126.html",
+   "commit": "48ef25e",
+   "changes": [
+    {
+     "field": "manufacturer",
+     "from": "MicroRoboTech",
+     "to": "MICBOT (Hangzhou Juwei Technology)"
+    },
+    {
+     "field": "note",
+     "from": "Maker name should be MICBOT (Hangzhou Juwei Technology / 杭州具微科技), not 'MicroRoboTech'. Official name 好奇者 S01; wheeled quadruped launched at WAIC 2026. No spec table published.",
+     "to": "Maker is MICBOT (Hangzhou Juwei Technology / 杭州具微科技), recorded earlier as 'MicroRoboTech' - the ids keep the old slug for link stability. Official name 好奇者 S01; wheeled quadruped launched at WAIC 2026. No spec table published."
+    }
+   ]
+  }
+ ]
+}

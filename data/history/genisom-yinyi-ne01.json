@@ -1,0 +1,28 @@
+{
+ "id": "genisom-yinyi-ne01",
+ "name": "Yinyi NE01",
+ "manufacturer": "GENISOM AI (ZsiBot)",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-17",
+   "type": "added",
+   "source": "https://www.genisomai.com/product-robot/ne01",
+   "commit": "b596d3e",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://www.genisomai.com/product-robot/ne01",
+   "commit": "ae60ceb",
+   "changes": [
+    {
+     "field": "compute_soc",
+     "from": null,
+     "to": "NVIDIA Jetson Orin Nano / Orin NX"
+    }
+   ]
+  }
+ ]
+}

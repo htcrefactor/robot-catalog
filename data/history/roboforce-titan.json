@@ -1,0 +1,66 @@
+{
+ "id": "roboforce-titan",
+ "name": "TITAN",
+ "manufacturer": "RoboForce",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-17",
+   "type": "added",
+   "source": null,
+   "commit": "ebcdc70",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://www.prnewswire.com/news-releases/roboforce-introduces-ai-robot-titan-for-real-world-industrial-deployment-and-announces-15m-in-total-funding-302458546.html",
+   "commit": "b1429ab",
+   "changes": [
+    {
+     "field": "locomotion",
+     "from": null,
+     "to": "Wheeled"
+    },
+    {
+     "field": "notes",
+     "from": null,
+     "to": "From RoboForce's own release: 40 kg dual-arm payload, 1100 mm arm reach, 8 h production runtime and 1 mm manipulation precision, with wheeled and tracked base variants. Height, weight, speed and battery are not published; the maker's site carries no specification page yet."
+    },
+    {
+     "field": "official_url",
+     "from": null,
+     "to": "https://www.prnewswire.com/news-releases/roboforce-introduces-ai-robot-titan-for-real-world-industrial-deployment-and-announces-15m-in-total-funding-302458546.html"
+    },
+    {
+     "field": "payload_kg",
+     "from": null,
+     "to": 40
+    },
+    {
+     "field": "runtime_h",
+     "from": null,
+     "to": 8
+    },
+    {
+     "field": "sources",
+     "from": [],
+     "to": [
+      "https://www.prnewswire.com/news-releases/roboforce-introduces-ai-robot-titan-for-real-world-industrial-deployment-and-announces-15m-in-total-funding-302458546.html",
+      "https://www.prnewswire.com/news-releases/roboforce-highlighted-by-nvidia-ceo-jensen-huang-in-gtc-keynote-for-breakthroughs-in-physical-ai-featuring-its-ai-robot-titan-302599902.html"
+     ]
+    },
+    {
+     "field": "summary",
+     "from": "",
+     "to": "Rugged dual-arm mobile manipulator for outdoor industrial pick, place, press, twist and connect tasks on solar, mining and construction sites."
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "official"
+    }
+   ]
+  }
+ ]
+}

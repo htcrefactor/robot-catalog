@@ -1,0 +1,151 @@
+{
+ "id": "robotis-op3",
+ "name": "OP3",
+ "manufacturer": "Robotis",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-13",
+   "type": "added",
+   "source": "https://humanoidstore.co/robots/robotis-op3",
+   "commit": "14cd746",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://en.robotis.com/model/page.php?co_id=prd_op3",
+   "commit": "0c54867",
+   "changes": [
+    {
+     "field": "data_source",
+     "from": "HumanoidStore open data (CC BY 4.0)",
+     "to": null
+    },
+    {
+     "field": "height_mm",
+     "from": 510,
+     "to": null
+    },
+    {
+     "field": "max_speed_mps",
+     "from": 0.24,
+     "to": null
+    },
+    {
+     "field": "notes",
+     "from": null,
+     "to": "Issue #17 (2026-11-17): ROBOTIS OP3 - 20 actuator modules (legs 6x2, arms 3x2, neck 2), 1800 mAh LiPo for about 30 min of operation, per ROBOTIS' product page. ROBOTIS publishes no height, weight or speed on that page, so the HumanoidStore figures were emptied. [emptied (no maker value) height_mm=510; weight_kg=3.5; max_speed_mps=0.24; runtime_h=0.5; price_usd=11969; price_note=list 11969 USD (maker), per HumanoidStore, checked 2026-10]"
+    },
+    {
+     "field": "price_note",
+     "from": "list 11969 USD (maker), per HumanoidStore, checked 2026-10",
+     "to": null
+    },
+    {
+     "field": "price_usd",
+     "from": 11969,
+     "to": null
+    },
+    {
+     "field": "runtime_h",
+     "from": 0.5,
+     "to": null
+    },
+    {
+     "field": "sources",
+     "from": [
+      "https://humanoidstore.co/robots/robotis-op3"
+     ],
+     "to": [
+      "https://en.robotis.com/model/page.php?co_id=prd_op3",
+      "https://github.com/ROBOTIS-GIT/emanual/blob/master/docs/en/platform/op3/introduction.md",
+      "https://humanoidstore.co/robots/robotis-op3",
+      "https://www.robotis.com/ko/"
+     ]
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "official"
+    },
+    {
+     "field": "weight_kg",
+     "from": 3.5,
+     "to": null
+    },
+    {
+     "field": "battery_wh",
+     "from": null,
+     "to": 36.6
+    },
+    {
+     "field": "note",
+     "from": null,
+     "to": "Maker page and e-manual: about 510 mm, about 3.5 kg without the skin cover, 20 actuator modules (6 DOF leg x 2, 3 DOF arm x 2, 2 DOF neck), DYNAMIXEL XM430-W350-R, Intel NUC with Core i3 dual core, 8 GB DDR4 and a 128 GB (maker store page) / 250 GB (e-manual) M.2 SSD, OpenCR management controller (ARM Cortex-M7), Logitech C920 1080p camera, 3-axis gyro/accelerometer/magnetometer, 1,800 mAh 3-cell 11.1 V LiPo with about 30 minutes of operation (36.6 Wh derived), 4 buttons, RGB LED x 1 and LED x 3, speaker, HDMI/DP. The 2025 re-release was rebuilt for ROS 2. The 11,969 USD price was a HumanoidStore figure with no maker price and was removed; the maker sells by inquiry. Walking speed is not stated on the maker pages, so max speed is left empty."
+    },
+    {
+     "field": "official_url",
+     "from": null,
+     "to": "https://en.robotis.com/model/page.php?co_id=prd_op3"
+    },
+    {
+     "field": "onboard_compute",
+     "from": null,
+     "to": "Intel NUC Core i3 dual core (8 GB DDR4, 128-250 GB M.2 SSD) + OpenCR (ARM Cortex-M7)"
+    },
+    {
+     "field": "release_year",
+     "from": null,
+     "to": 2017
+    },
+    {
+     "field": "ros_support",
+     "from": null,
+     "to": true
+    },
+    {
+     "field": "sdk_available",
+     "from": null,
+     "to": true
+    },
+    {
+     "field": "sdk_name",
+     "from": null,
+     "to": "ROS 2, DYNAMIXEL SDK, C++, Open Platform source"
+    },
+    {
+     "field": "sensors",
+     "from": [],
+     "to": [
+      "Logitech C920 HD Pro camera",
+      "3-axis gyroscope",
+      "3-axis accelerometer",
+      "3-axis magnetometer"
+     ]
+    },
+    {
+     "field": "summary",
+     "from": "Desktop-size humanoid from Robotis; shipping now, anyone can order.",
+     "to": "ROBOTIS OP3 is the XM430-based successor to OP2 with an Intel i3 NUC and ROS 2 support, the current miniature humanoid platform for research and education."
+    },
+    {
+     "field": "kr_distributors",
+     "from": null,
+     "to": [
+      {
+       "name": "로보티즈 (본사 직판·구매 문의)",
+       "kind": "direct",
+       "url": "https://www.robotis.com/ko/"
+      }
+     ]
+    },
+    {
+     "field": "manufacturer_ko",
+     "from": null,
+     "to": "로보티즈"
+    }
+   ]
+  }
+ ]
+}

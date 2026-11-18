@@ -1,0 +1,89 @@
+{
+ "id": "omron-hd-1500",
+ "name": "HD-1500",
+ "manufacturer": "OMRON",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-03",
+   "type": "added",
+   "source": "https://robotics.omron.com/products/mobile-robots/hd-series/hd-1500",
+   "commit": "1a533a7",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://robotics.omron.com/products/mobile-robots/hd-series/hd-1500",
+   "commit": "0c54867",
+   "changes": [
+    {
+     "field": "certifications",
+     "from": null,
+     "to": [
+      "cTUVus",
+      "KC",
+      "cURus",
+      "CE"
+     ]
+    },
+    {
+     "field": "safety_note",
+     "from": null,
+     "to": "Certification markings: AMR cTUVus and KC; battery cURus and CE; power supply box and docking target cTUVus."
+    },
+    {
+     "field": "safety_source",
+     "from": null,
+     "to": "https://assets.omron.eu/downloads/latest/datasheet/en/i855_hd-series_mobile_robot_datasheet_en.pdf"
+    },
+    {
+     "field": "safety_standards",
+     "from": null,
+     "to": [
+      "EN ISO 12100",
+      "EN ISO 13849-1",
+      "EN 60204-1",
+      "EN ISO 10218-1",
+      "EN 61326-3-1",
+      "EN 61326-1",
+      "EN ISO 3691-4",
+      "EN 12895",
+      "CAN/CSA Z434",
+      "CAN/UL 3100",
+      "KS C 9610-6-2",
+      "KS C 9610-6-4",
+      "ANSI/CAN/UL/ULC 2271",
+      "UN 38.3",
+      "UL 1012",
+      "CAN/CSA C22.2.107.2",
+      "EN 61204-7",
+      "EN 62477-1"
+     ]
+    },
+    {
+     "field": "kr_distributors",
+     "from": null,
+     "to": [
+      {
+       "name": "한국오므론제어기기(주)",
+       "kind": "direct",
+       "url": "https://www.omron.co.kr/"
+      }
+     ]
+    },
+    {
+     "field": "sources",
+     "from": [
+      "https://assets.omron.eu/downloads/latest/datasheet/en/i855_hd-series_mobile_robot_datasheet_en.pdf"
+     ],
+     "to": [
+      "https://assets.omron.eu/downloads/latest/datasheet/en/i855_hd-series_mobile_robot_datasheet_en.pdf",
+      "https://www.omron.co.kr/",
+      "https://robotics.omron.com/ko/products/mobile-robots/ld-series/ld-250/"
+     ]
+    }
+   ]
+  }
+ ]
+}

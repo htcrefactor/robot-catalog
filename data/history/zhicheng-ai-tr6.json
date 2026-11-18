@@ -1,0 +1,93 @@
+{
+ "id": "zhicheng-ai-tr6",
+ "name": "TR6",
+ "manufacturer": "Zhicheng AI",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-17",
+   "type": "added",
+   "source": null,
+   "commit": "b596d3e",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://www.zhicheng-robot.com/en/tr6.html",
+   "commit": "b1429ab",
+   "changes": [
+    {
+     "field": "compute_detail",
+     "from": null,
+     "to": "NVIDIA Jetson Thor"
+    },
+    {
+     "field": "dof",
+     "from": null,
+     "to": 53
+    },
+    {
+     "field": "height_mm",
+     "from": null,
+     "to": 1760
+    },
+    {
+     "field": "max_speed_mps",
+     "from": null,
+     "to": 2.0
+    },
+    {
+     "field": "notes",
+     "from": null,
+     "to": "Maker calls these the production-version figures. Hybrid series-parallel actuation with 8000 N linear-actuator peak thrust and closed-loop force control in every joint. Payload, battery capacity and DoF breakdown are not published."
+    },
+    {
+     "field": "official_url",
+     "from": null,
+     "to": "https://www.zhicheng-robot.com/en/tr6.html"
+    },
+    {
+     "field": "onboard_compute",
+     "from": null,
+     "to": true
+    },
+    {
+     "field": "runtime_h",
+     "from": null,
+     "to": 8
+    },
+    {
+     "field": "sensors",
+     "from": [],
+     "to": [
+      "Depth camera",
+      "6-axis F/T sensor"
+     ]
+    },
+    {
+     "field": "sources",
+     "from": [],
+     "to": [
+      "https://www.zhicheng-robot.com/en/tr6.html"
+     ]
+    },
+    {
+     "field": "summary",
+     "from": "",
+     "to": "Full-size bipedal industrial humanoid running the maker's Chengling world model on Jetson Thor for force-controlled assembly and handling."
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "official"
+    },
+    {
+     "field": "weight_kg",
+     "from": null,
+     "to": 62
+    }
+   ]
+  }
+ ]
+}

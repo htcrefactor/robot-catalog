@@ -1,0 +1,89 @@
+{
+ "id": "kondo-kxr-l2",
+ "name": "KXR-L2",
+ "manufacturer": "Kondo Kagaku",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-13",
+   "type": "added",
+   "source": "https://humanoidstore.co/robots/kondo-kxr-l2",
+   "commit": "14cd746",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://kondo-robot.com/product/03155",
+   "commit": "976d9e6",
+   "changes": [
+    {
+     "field": "data_source",
+     "from": "HumanoidStore open data (CC BY 4.0)",
+     "to": "Maker sources (verified 2026-11-17)"
+    },
+    {
+     "field": "height_mm",
+     "from": 295,
+     "to": null
+    },
+    {
+     "field": "notes",
+     "from": null,
+     "to": "Issue #17 (2026-11-17): KXR-L2 Ver.2 - 16 axes, about 1.1 kg, JPY 76,780 (radio sold separately) per Kondo's ROBOSPOT listing. Kondo does not publish a standing height for the assembled kit, so that field was emptied. [emptied (no maker value) height_mm=295; price_usd=443; price_note=list 443 USD (maker), per HumanoidStore, checked 2026-11]"
+    },
+    {
+     "field": "price_note",
+     "from": "list 443 USD (maker), per HumanoidStore, checked 2026-11",
+     "to": "Kondo publishes no USD price; sold through Japanese distributors"
+    },
+    {
+     "field": "price_usd",
+     "from": 443,
+     "to": null
+    },
+    {
+     "field": "sources",
+     "from": [
+      "https://humanoidstore.co/robots/kondo-kxr-l2"
+     ],
+     "to": [
+      "https://kondo-robot.com/",
+      "https://kondo-robot.com/product/03155",
+      "https://www.qts.tw/uploads/2/2/2/9/22295134/kxr-l2_assymanual_v_1_0_en.pdf"
+     ]
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "official"
+    },
+    {
+     "field": "length_mm",
+     "from": null,
+     "to": 107
+    },
+    {
+     "field": "note",
+     "from": null,
+     "to": "Kondo's own KXR-L2 assembly manual and product listing: 295 (H) x 197 (W) x 107 (D) mm, about 1,100 g including battery, 16 KRS-3302 ICS servos, RCB-4mini controller, Ni-MH 6N-800 mAh pack. kondo-robot.com returned HTTP 403 to automated access; the manual copy and distributor listings carry the same table."
+    },
+    {
+     "field": "official_url",
+     "from": null,
+     "to": "https://kondo-robot.com/product/03155"
+    },
+    {
+     "field": "summary",
+     "from": "Desktop-size humanoid from Kondo Kagaku; shipping now, anyone can order.",
+     "to": "Entry-level 16-servo biped kit from Kondo's KXR series, 29.5 cm tall and about 1.1 kg, assembled and driven from HeartToHeart4."
+    },
+    {
+     "field": "width_mm",
+     "from": null,
+     "to": 197
+    }
+   ]
+  }
+ ]
+}

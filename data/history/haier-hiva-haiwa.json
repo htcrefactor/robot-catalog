@@ -1,0 +1,51 @@
+{
+ "id": "haier-hiva-haiwa",
+ "name": "HIVA Haiwa",
+ "manufacturer": "Haier",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-17",
+   "type": "added",
+   "source": null,
+   "commit": "b596d3e",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://www.haier.com/",
+   "commit": "b310609",
+   "changes": [
+    {
+     "field": "note",
+     "from": null,
+     "to": "Haier's own news pages present HIVA 海娃 as its home-service humanoid (housework, cleaning and companion variants), co-developed with Beijing Robot Era and shown at WRC 2026 doing laundry folding, banana peeling and appliance operation. The maker publishes no spec table: height, mass, DoF, payload, runtime, battery and price stay empty. Media coverage of the 26 Jul 2025 unveiling (IT之家) reports 165 cm, 70 kg, 44 DoF and reach from floor to 2 m, and notes the demos were teleoperated; those figures were not filled."
+    },
+    {
+     "field": "official_url",
+     "from": null,
+     "to": "https://www.haier.com/"
+    },
+    {
+     "field": "sources",
+     "from": [],
+     "to": [
+      "https://www.haier.com/about_haier/xinwen/20260825_294291.shtml",
+      "https://www.haier.com/lianghui2026/qwbd/20260305_287465.shtml"
+     ]
+    },
+    {
+     "field": "summary",
+     "from": "",
+     "to": "Haier's HIVA (海娃) home-service humanoid, co-developed with Robot Era, that operates Haier appliances for laundry, cooking and cleaning."
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "official"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,94 @@
+{
+ "id": "limx-dynamics-tron-1",
+ "name": "TRON 1",
+ "manufacturer": "LimX Dynamics",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-03",
+   "type": "added",
+   "source": "https://www.limxdynamics.com/en/products/tron1",
+   "commit": "1a533a7",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://www.limxdynamics.com/en/products/tron1/spec",
+   "commit": "ae60ceb",
+   "changes": [
+    {
+     "field": "note",
+     "from": null,
+     "to": "LimX TRON 1 spec page (checked 2026-11-17): dimensions <=392 x 420 x 845 mm, net weight <=20 kg, payload 10 kg, speed 1 m/s point-foot / 1 m/s sole / 3 m/s wheeled, 30 deg climb, 20 cm obstacle, 2 h battery life, 4.5 Ah at 46.8 V (about 210.6 Wh, derived - the maker gives no Wh figure), 12th-gen Intel i3 / 16 GB / 512 GB computer, -5 to 40 C, RGBD camera optional, IMU standard. Degrees of freedom are not stated."
+    },
+    {
+     "field": "official_url",
+     "from": "https://www.limxdynamics.com/en/products/tron1",
+     "to": "https://www.limxdynamics.com/en/products/tron1/spec"
+    },
+    {
+     "field": "sources",
+     "from": [
+      "https://www.limxdynamics.com/en/products/tron1/spec",
+      "https://www.limxdynamics.com/en/tron1"
+     ],
+     "to": [
+      "https://www.limxdynamics.com/en/products/tron1/spec",
+      "https://www.limxdynamics.com/en/products/tron1",
+      "https://www.limxdynamics.com/en/tron1",
+      "https://shop.limxdynamics.com/products/point-foot-pipedal-robot-for-reserach",
+      "https://shop.limxdynamics.com/products/tron-1-edu"
+     ]
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "official"
+    },
+    {
+     "field": "price_note",
+     "from": "Standard Edition on LimX online shop (EDU Ed. $25,000)",
+     "to": null
+    },
+    {
+     "field": "price_observations",
+     "from": null,
+     "to": [
+      {
+       "date": "2026-11-17",
+       "amount": 15000,
+       "currency": "USD",
+       "kind": "list",
+       "source": "https://shop.limxdynamics.com/products/point-foot-pipedal-robot-for-reserach",
+       "note": "TRON 1 Standard Edition"
+      },
+      {
+       "date": "2026-11-17",
+       "amount": 25000,
+       "currency": "USD",
+       "kind": "edu",
+       "source": "https://shop.limxdynamics.com/products/tron-1-edu",
+       "note": "TRON 1 Educational Edition"
+      }
+     ]
+    },
+    {
+     "field": "price_usd",
+     "from": 15000,
+     "to": null
+    },
+    {
+     "field": "compute_memory_gb",
+     "from": null,
+     "to": 16
+    },
+    {
+     "field": "compute_soc",
+     "from": null,
+     "to": "Intel Core i3 (12th gen)"
+    }
+   ]
+  }
+ ]
+}

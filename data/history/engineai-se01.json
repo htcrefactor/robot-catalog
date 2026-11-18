@@ -1,0 +1,98 @@
+{
+ "id": "engineai-se01",
+ "name": "SE01",
+ "manufacturer": "EngineAI",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-13",
+   "type": "added",
+   "source": "https://humanoidstore.co/robots/engineai-se01",
+   "commit": "14cd746",
+   "changes": []
+  },
+  {
+   "date": "2026-11-14",
+   "type": "updated",
+   "source": "https://en.engineai.com.cn/",
+   "commit": "1aeec2d",
+   "changes": [
+    {
+     "field": "data_source",
+     "from": "HumanoidStore open data (CC BY 4.0)",
+     "to": "HumanoidStore + maker page"
+    },
+    {
+     "field": "official_url",
+     "from": null,
+     "to": "https://en.engineai.com.cn/"
+    },
+    {
+     "field": "sources",
+     "from": [
+      "https://humanoidstore.co/robots/engineai-se01"
+     ],
+     "to": [
+      "https://humanoidstore.co/robots/engineai-se01",
+      "https://en.engineai.com.cn/"
+     ]
+    }
+   ]
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://en.engineai.com.cn/product-se01.html",
+   "commit": "4b395bc",
+   "changes": [
+    {
+     "field": "data_source",
+     "from": "HumanoidStore + maker page",
+     "to": null
+    },
+    {
+     "field": "notes",
+     "from": null,
+     "to": "Issue #17 (2026-11-17): SE01 - 170 cm and 2 h endurance confirmed on EngineAI's SE01 page. HumanoidStore's US$26,000 removed: EngineAI publishes no price. [emptied (no maker value) price_usd=26000; price_note=list 26000 USD (maker), per HumanoidStore, checked 2026-10]"
+    },
+    {
+     "field": "price_note",
+     "from": "list 26000 USD (maker), per HumanoidStore, checked 2026-10",
+     "to": null
+    },
+    {
+     "field": "price_usd",
+     "from": 26000,
+     "to": null
+    },
+    {
+     "field": "sources",
+     "from": [
+      "https://humanoidstore.co/robots/engineai-se01",
+      "https://en.engineai.com.cn/"
+     ],
+     "to": [
+      "https://en.engineai.com.cn/product-se01.html",
+      "https://en.engineai.com.cn/",
+      "https://humanoidstore.co/robots/engineai-se01"
+     ]
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "official"
+    },
+    {
+     "field": "note",
+     "from": null,
+     "to": "Maker product page exists and describes SE01 as a full-size general-purpose biped with an aluminium-alloy body, LiDAR + depth camera + infrared perception and a high-capacity quick-release battery, but the page presents its numbers as graphics and publishes no height, weight, DoF, speed, runtime or price as text (checked 2026-11-17, English and Chinese pages). The record's numbers and the USD 26,000 price remain HumanoidStore values and could not be confirmed against a maker source, so the record stays marked official only for the model's existence and design claims - treat the numeric fields as unverified."
+    },
+    {
+     "field": "official_url",
+     "from": "https://en.engineai.com.cn/",
+     "to": "https://en.engineai.com.cn/product-se01.html"
+    }
+   ]
+  }
+ ]
+}

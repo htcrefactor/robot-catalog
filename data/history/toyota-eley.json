@@ -1,0 +1,86 @@
+{
+ "id": "toyota-eley",
+ "name": "ELEY",
+ "manufacturer": "Toyota",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-17",
+   "type": "added",
+   "source": null,
+   "commit": "b596d3e",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://global.toyota/en/mobility/frontier-research/43588128.html",
+   "commit": "30bdc91",
+   "changes": [
+    {
+     "field": "height_mm",
+     "from": null,
+     "to": 1619
+    },
+    {
+     "field": "length_mm",
+     "from": null,
+     "to": 478
+    },
+    {
+     "field": "note",
+     "from": null,
+     "to": "Maker figures: 478 x 450 x 939-1619 mm, with the body extending in height (the taller figure is recorded above), 50 kg, dual arms with a scapular axis, all joints quasi-direct-drive, omnidirectional wheeled base, 1 kg payload per arm, battery or cable power, two-finger hands. Total DoF, speed, runtime and price are not published. ELEY was first shown at the World Robot Summit 2025 Aichi and is described by Toyota as a research platform being prepared for production-site deployment, not as a product."
+    },
+    {
+     "field": "official_url",
+     "from": null,
+     "to": "https://global.toyota/en/mobility/frontier-research/43588128.html"
+    },
+    {
+     "field": "payload_kg",
+     "from": null,
+     "to": 1
+    },
+    {
+     "field": "release_year",
+     "from": null,
+     "to": 2025
+    },
+    {
+     "field": "sources",
+     "from": [],
+     "to": [
+      "https://global.toyota/en/mobility/frontier-research/43588128.html",
+      "https://global.toyota/jp/mobility/frontier-research/44105139.html"
+     ]
+    },
+    {
+     "field": "status",
+     "from": null,
+     "to": "Prototype"
+    },
+    {
+     "field": "summary",
+     "from": "",
+     "to": "Toyota's wheeled dual-arm partner robot (Embodied Learning robot for Enhanced Yield), developed from the HSR service robot and a quasi-direct-drive 'gentle touch' arm for production-site work."
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "official"
+    },
+    {
+     "field": "weight_kg",
+     "from": null,
+     "to": 50
+    },
+    {
+     "field": "width_mm",
+     "from": null,
+     "to": 450
+    }
+   ]
+  }
+ ]
+}

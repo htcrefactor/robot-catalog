@@ -1,0 +1,112 @@
+{
+ "id": "cyborg-robotics-r01",
+ "name": "Cyborg-R01",
+ "manufacturer": "Cyborg Robotics",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-17",
+   "type": "added",
+   "source": null,
+   "commit": "b596d3e",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://www.cyb-org.cn/index.php?id=6",
+   "commit": "4b395bc",
+   "changes": [
+    {
+     "field": "battery_wh",
+     "from": null,
+     "to": 1440
+    },
+    {
+     "field": "compute_detail",
+     "from": null,
+     "to": "12-core perception compute platform, 275 TOPS"
+    },
+    {
+     "field": "dof",
+     "from": null,
+     "to": 62
+    },
+    {
+     "field": "height_mm",
+     "from": null,
+     "to": 1800
+    },
+    {
+     "field": "length_mm",
+     "from": null,
+     "to": 327
+    },
+    {
+     "field": "note",
+     "from": null,
+     "to": "Maker product page for the full-size biped (cyb-org.cn/index.php?id=6, checked 2026-11-17): height x width x thickness 1800 x 578 x 327 mm, 62 DoF, dual-arm load over 20 kg (payload_kg), slopes over 10 deg, 15 cm obstacles, self-recovery after a fall, 45 N.s impulse resistance, one-minute hot-swap batteries (main 48 V 15000 mAh on SE / 48 V 30000 mAh on PRO, plus a 48 V 3500 mAh backup), a 12-core 275 TOPS perception platform, LiDAR with IMU and a six-axis force sensor, fisheye plus RGB-D cameras, Wi-Fi 5 / BT 5.2 / 5G. Weight: the page table gives 75 kg (SE) and 80 kg (PRO); the PRO figure is recorded and the SE value noted here (the WRC exhibitor listing cites 70 kg). battery_wh = 48 V x 30 Ah = 1440 Wh for the PRO main pack, computed, excluding the 3.5 Ah backup. No runtime or IP rating is published."
+    },
+    {
+     "field": "official_url",
+     "from": null,
+     "to": "https://www.cyb-org.cn/index.php?id=6"
+    },
+    {
+     "field": "onboard_compute",
+     "from": null,
+     "to": true
+    },
+    {
+     "field": "payload_kg",
+     "from": null,
+     "to": 20
+    },
+    {
+     "field": "sensors",
+     "from": [],
+     "to": [
+      "LiDAR",
+      "RGB-D depth camera",
+      "Fisheye camera",
+      "IMU",
+      "Six-axis force sensor"
+     ]
+    },
+    {
+     "field": "sources",
+     "from": [],
+     "to": [
+      "https://www.cyb-org.cn/index.php?id=6",
+      "https://www.cyb-org.cn/index.php?id=36"
+     ]
+    },
+    {
+     "field": "status",
+     "from": null,
+     "to": "Commercial"
+    },
+    {
+     "field": "summary",
+     "from": "",
+     "to": "Shenzhen Cyborg's full-size bipedal industrial humanoid with 62 DoF and 20 kg dual-arm load for inspection, logistics and heavy-industry work."
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "official"
+    },
+    {
+     "field": "weight_kg",
+     "from": null,
+     "to": 80
+    },
+    {
+     "field": "width_mm",
+     "from": null,
+     "to": 578
+    }
+   ]
+  }
+ ]
+}

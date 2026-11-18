@@ -1,0 +1,80 @@
+{
+ "id": "lanxin-vb2",
+ "name": "VB2",
+ "manufacturer": "Lanxin Robotics",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-17",
+   "type": "added",
+   "source": null,
+   "commit": "b596d3e",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://lanxinrobotics.com/vb2/",
+   "commit": "5150daa",
+   "changes": [
+    {
+     "field": "data_source",
+     "from": null,
+     "to": "Maker sources (verified 2026-11-17)"
+    },
+    {
+     "field": "height_mm",
+     "from": null,
+     "to": 1700
+    },
+    {
+     "field": "length_mm",
+     "from": null,
+     "to": 580
+    },
+    {
+     "field": "max_speed_mps",
+     "from": null,
+     "to": 1.2
+    },
+    {
+     "field": "note",
+     "from": null,
+     "to": "Maker (checked 2026-11-17): 580 x 480 x 1700 mm, four-wheel omnidirectional base, 0-1.2 m/s, single-arm gripping load 5 kg, 7 arm joints per arm, operating height 0.4-2 m, 760 mm rotation diameter, 3D laser SLAM. Total DoF and weight are not published; runtime is given only as a 4-6 h range."
+    },
+    {
+     "field": "official_url",
+     "from": null,
+     "to": "https://lanxinrobotics.com/vb2/"
+    },
+    {
+     "field": "payload_kg",
+     "from": null,
+     "to": 5.0
+    },
+    {
+     "field": "sources",
+     "from": [],
+     "to": [
+      "https://lanxinrobotics.com/vb2/"
+     ]
+    },
+    {
+     "field": "summary",
+     "from": "",
+     "to": "Larger wheeled dual-arm humanoid from Lanxin Robotics: 1.7 m tall, 5 kg single-arm load, 760 mm reach and 4-6 h of battery life."
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "official"
+    },
+    {
+     "field": "width_mm",
+     "from": null,
+     "to": 480
+    }
+   ]
+  }
+ ]
+}

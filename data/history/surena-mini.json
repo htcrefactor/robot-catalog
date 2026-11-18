@@ -1,0 +1,96 @@
+{
+ "id": "surena-mini",
+ "name": "Surena Mini",
+ "manufacturer": "University of Tehran",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-17",
+   "type": "added",
+   "source": null,
+   "commit": "b596d3e",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://cast-tech.ir/surena-mini/",
+   "commit": "75b989d",
+   "changes": [
+    {
+     "field": "country",
+     "from": null,
+     "to": "Iran"
+    },
+    {
+     "field": "dof",
+     "from": null,
+     "to": 23
+    },
+    {
+     "field": "height_mm",
+     "from": null,
+     "to": 500
+    },
+    {
+     "field": "note",
+     "from": null,
+     "to": "Maker page: 50 cm tall, 3.4 kg, about twenty small servomotors driving arms, legs and neck, an Intel Core onboard computer, cameras, infrared sensors, speaker and IMU, a graphical programming environment with full feature access, and source code that advanced users can modify; purpose is education and research. CONFLICT: the ICRoM 2017 paper by the same lab gives 53 cm, 3.3 kg and 23 DOF; the maker page figures are entered and the paper's are recorded here. Payload, speed and battery are not published."
+    },
+    {
+     "field": "official_url",
+     "from": null,
+     "to": "https://cast-tech.ir/surena-mini/"
+    },
+    {
+     "field": "onboard_compute",
+     "from": null,
+     "to": "Intel Core CPU (compact onboard computer)"
+    },
+    {
+     "field": "release_year",
+     "from": null,
+     "to": 2017
+    },
+    {
+     "field": "sensors",
+     "from": [],
+     "to": [
+      "Cameras",
+      "Infrared sensors",
+      "IMU",
+      "Speaker"
+     ]
+    },
+    {
+     "field": "sources",
+     "from": [],
+     "to": [
+      "https://cast-tech.ir/surena-mini/",
+      "https://doi.org/10.1109/icrom.2017.8466166"
+     ]
+    },
+    {
+     "field": "status",
+     "from": null,
+     "to": "Research"
+    },
+    {
+     "field": "summary",
+     "from": "",
+     "to": "Surena mini is the University of Tehran's knee-high 3D-printed humanoid for education and research, unveiled in 2017 with a graphical programming environment."
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "official"
+    },
+    {
+     "field": "weight_kg",
+     "from": null,
+     "to": 3.4
+    }
+   ]
+  }
+ ]
+}

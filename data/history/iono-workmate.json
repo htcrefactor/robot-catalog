@@ -1,0 +1,70 @@
+{
+ "id": "iono-workmate",
+ "name": "WORKMATE",
+ "manufacturer": "IONO Robotics",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-17",
+   "type": "added",
+   "source": null,
+   "commit": "b596d3e",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://www.iono.tech/",
+   "commit": "b310609",
+   "changes": [
+    {
+     "field": "note",
+     "from": null,
+     "to": "Maker home page lists WORKMATE with 20+ sensors, hybrid walk + drive locomotion, 24/7 continuous operation and delivery in 2026; the launch release (Linz, 27 May 2026) adds the drone integrated in the head, the modular multi-head concept, the IONOSPHERE control/AI stack and pilots with industrial partners in Austria, Germany and Italy. No datasheet is published: height, mass, DoF, payload, runtime, battery and price stay empty (early interviews cited 175-177 cm, 70 kg and 30 kg payload for an earlier V1, which are not current figures)."
+    },
+    {
+     "field": "official_url",
+     "from": null,
+     "to": "https://www.iono.tech/"
+    },
+    {
+     "field": "release_year",
+     "from": null,
+     "to": 2026
+    },
+    {
+     "field": "sensors",
+     "from": [],
+     "to": [
+      "20+ sensors",
+      "Integrated drone camera (head)",
+      "IonoSkin sensor suit"
+     ]
+    },
+    {
+     "field": "sources",
+     "from": [],
+     "to": [
+      "https://www.iono.tech/",
+      "https://www.iono.tech/press/austrian-humanoid-robot-%E2%80%9Cworkmate%E2%80%9D-presented-publicly-for-the-first-time"
+     ]
+    },
+    {
+     "field": "status",
+     "from": null,
+     "to": "Prototype"
+    },
+    {
+     "field": "summary",
+     "from": "",
+     "to": "IONO Robotics' Austrian humanoid work robot WORKMATE, which carries a drone inside its head for aerial inspection."
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "official"
+    }
+   ]
+  }
+ ]
+}

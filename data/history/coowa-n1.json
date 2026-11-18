@@ -1,0 +1,65 @@
+{
+ "id": "coowa-n1",
+ "name": "N1",
+ "manufacturer": "COOWA",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-17",
+   "type": "added",
+   "source": null,
+   "commit": "b596d3e",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://cowarobot.com/business/humanoid",
+   "commit": "4b395bc",
+   "changes": [
+    {
+     "field": "battery_wh",
+     "from": null,
+     "to": 1512
+    },
+    {
+     "field": "height_mm",
+     "from": null,
+     "to": 1750
+    },
+    {
+     "field": "note",
+     "from": null,
+     "to": "Maker page (cowarobot.com/business/humanoid, checked 2026-11-17): full adult-scale design with an overall height of about 1.75 m, two-arm working height up to 2.2 m, max load 30 kg per arm and 50 kg with both arms (payload_kg = dual-arm figure), a 50.4 V / 15 Ah dual-battery system that can be swapped without powering down (battery_wh = 50.4x15x2 = 1512 Wh for both packs, computed), part-sorting accuracy of 99% and above 90% first-pass on fine assembly, screwdriving, welding and drilling with a dexterous hand or dedicated end effector, plus self-balancing after disturbance and getting up after a fall. The maker publishes no weight, DoF, speed, runtime, compute, sensor list or locomotion description for the N1, and no price, so those fields stay empty and locomotion is left as the seeded value rather than asserted."
+    },
+    {
+     "field": "official_url",
+     "from": null,
+     "to": "https://cowarobot.com/business/humanoid"
+    },
+    {
+     "field": "payload_kg",
+     "from": null,
+     "to": 50
+    },
+    {
+     "field": "sources",
+     "from": [],
+     "to": [
+      "https://cowarobot.com/business/humanoid"
+     ]
+    },
+    {
+     "field": "summary",
+     "from": "",
+     "to": "COOWA's full-size industrial humanoid on the Nexus platform: a 1.75 m two-arm worker rated for 30 kg per arm and 50 kg with both, driven by the company's COOWAM world model."
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "official"
+    }
+   ]
+  }
+ ]
+}

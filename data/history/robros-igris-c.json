@@ -1,0 +1,141 @@
+{
+ "id": "robros-igris-c",
+ "name": "IGRIS-C",
+ "manufacturer": "Robros",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-13",
+   "type": "added",
+   "source": "https://humanoidstore.co/robots/robros-igris-c",
+   "commit": "14cd746",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://www.robros.co.kr/en/igrisc",
+   "commit": "0c54867",
+   "changes": [
+    {
+     "field": "data_source",
+     "from": "HumanoidStore open data (CC BY 4.0)",
+     "to": null
+    },
+    {
+     "field": "dof",
+     "from": 53,
+     "to": 43
+    },
+    {
+     "field": "notes",
+     "from": null,
+     "to": "Issue #17 (2026-11-17): ROBROS IGRIS-C - 154 cm, 56 kg, 43 DoF with 6-DoF hands (31 without), about 6 kg across both arms, 48 V 17 Ah, per ROBROS. No maker price or runtime figure, so those fields were emptied. [replaced dof: 53 -> 43 | emptied (no maker value) price_usd=100000; price_note=list 100000 USD (maker), per HumanoidStore, checked 2026-10]"
+    },
+    {
+     "field": "price_note",
+     "from": "list 100000 USD (maker), per HumanoidStore, checked 2026-10",
+     "to": null
+    },
+    {
+     "field": "price_usd",
+     "from": 100000,
+     "to": null
+    },
+    {
+     "field": "sources",
+     "from": [
+      "https://humanoidstore.co/robots/robros-igris-c"
+     ],
+     "to": [
+      "https://www.robros.co.kr/en/igrisc",
+      "https://www.robros.co.kr/ko/developers/v2.1.1/c304d82d-d289-40e1-a6dd-036e028279de/Overview",
+      "https://humanoidstore.co/robots/robros-igris-c",
+      "https://www.robros.co.kr/ko"
+     ]
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "official"
+    },
+    {
+     "field": "battery_wh",
+     "from": null,
+     "to": 816
+    },
+    {
+     "field": "length_mm",
+     "from": null,
+     "to": 300
+    },
+    {
+     "field": "note",
+     "from": null,
+     "to": "Maker product page: 154 cm, 56 kg, 17,000 mAh 48 V battery (=816 Wh, derived), 2.5 h charge, 53 DOF per the maker docs (legs 6 x 2, arms 7 x 2, waist 3, neck 2, hands 11 x 2 where each hand has 6 active + 5 passive DoF); the marketing page's DOF list omits the hand joints and adds up to 43. CONFLICT: the developer docs (v1.0.5 and v2.1.1, updated 2026-06-24) give 60 kg and 1540 x 440 x 300 mm while the product page gives 56 kg; the product page figure is used here and the docs figure is recorded. Max joint torque 150 Nm, 6 kg payload with both arms, Linux/Cyclone DDS with C++ and Python APIs, RGB stereo + RealSense D435i depth head cameras and per-hand RGB cameras, 6-axis IMU, Wi-Fi AP and BLE, force limiting and collision detection, emergency stop, industrial Class A, sold in Korea with global inquiries. Max speed and runtime are not published. ROBROS reported building 36 units and selling 18 by end-August 2026."
+    },
+    {
+     "field": "official_url",
+     "from": null,
+     "to": "https://www.robros.co.kr/en/igrisc"
+    },
+    {
+     "field": "onboard_compute",
+     "from": null,
+     "to": "Intel Core i7 + NVIDIA Jetson Orin Nano (v1.0.5 docs) / Intel Core i7 (v2.1.1 docs)"
+    },
+    {
+     "field": "sdk_available",
+     "from": null,
+     "to": true
+    },
+    {
+     "field": "sdk_name",
+     "from": null,
+     "to": "C++ and Python APIs over Cyclone DDS on Linux; master arm + control app + data platform"
+    },
+    {
+     "field": "sensors",
+     "from": [],
+     "to": [
+      "GXIVISION LSM22100 stereo eye camera",
+      "Intel RealSense D435i RGBD head camera",
+      "RGB end-effector cameras (one per hand)",
+      "MicroStrain 3DM-CV7-AR IMU"
+     ]
+    },
+    {
+     "field": "summary",
+     "from": "Mid-size humanoid from Robros; b2b only, sold to research buyers.",
+     "to": "ROBROS' 154 cm bipedal indoor humanoid for research, pilot deployment and education, with 11-DOF hands, whole-body force limiting and a master-arm teleoperation kit."
+    },
+    {
+     "field": "width_mm",
+     "from": null,
+     "to": 440
+    },
+    {
+     "field": "kr_distributors",
+     "from": null,
+     "to": [
+      {
+       "name": "로브로스 (본사 직판)",
+       "kind": "direct",
+       "url": "https://www.robros.co.kr/ko"
+      }
+     ]
+    },
+    {
+     "field": "kr_note",
+     "from": null,
+     "to": "국내 판매를 우선하며 해외 문의도 받습니다."
+    },
+    {
+     "field": "manufacturer_ko",
+     "from": null,
+     "to": "로브로스"
+    }
+   ]
+  }
+ ]
+}

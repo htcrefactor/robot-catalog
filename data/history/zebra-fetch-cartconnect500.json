@@ -1,0 +1,58 @@
+{
+ "id": "zebra-fetch-cartconnect500",
+ "name": "CartConnect500",
+ "manufacturer": "Zebra Technologies (Fetch Robotics)",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-17",
+   "type": "added",
+   "source": "https://www.zebra.com/us/en/about-zebra/newsroom/press-releases/2022/zebra-introduces-new-purpose-built-offerings-for-digitizing-and-automating-fulfillment-at-modex-2022.html",
+   "commit": "b596d3e",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://www.zebra.com/us/en/about-zebra/newsroom/press-releases/2022/zebra-introduces-new-purpose-built-offerings-for-digitizing-and-automating-fulfillment-at-modex-2022.html",
+   "commit": "2e2527b",
+   "changes": [
+    {
+     "field": "max_speed_mps",
+     "from": null,
+     "to": 1.5
+    },
+    {
+     "field": "note",
+     "from": "Confirmed by Zebra MODEX 2022 press release (payload 600 lb). Detailed specs only in Zebra-authored brochure hosted by resellers; dims/weight taken from that Zebra brochure (cssi.com copy) - treat as maker document on third-party host. Earlier 2020 Fetch brochure stated 500 lb payload.",
+     "to": "Confirmed by Zebra MODEX 2022 press release (payload 600 lb). Detailed specs only in Zebra-authored brochure hosted by resellers; dims/weight taken from that Zebra brochure (cssi.com copy) - treat as maker document on third-party host. Earlier 2020 Fetch brochure stated 500 lb payload. Re-checked 2026-11-17: no CartConnect500 product page exists on zebra.com any more (zebra.com/us/en/products/robotics.html returns 404; Zebra sold its robotics automation business - formerly Fetch Robotics - to Skild AI, closed 2026-03-27 per Zebra's 10-Q, so the Fetch/Zebra AMR product pages are gone), so the Zebra-authored AMR solution guide (2021, sampled above) stays the source. That guide's spec table gives max speed 1.5 m/s, ~9 h runtime, 2x SICK 30 m/275 deg scanners and 8x 3D cameras, now filled. CONFLICT kept in the record: the same guide's spec table prints 'Maximum Payload Weight 800 lb (362.9 kg)' while its body text and Zebra's 2022 press release say loads up to 600 lb (272 kg); 272 kg is stored."
+    },
+    {
+     "field": "runtime_h",
+     "from": null,
+     "to": 9
+    },
+    {
+     "field": "sensors",
+     "from": [],
+     "to": [
+      "2x SICK 2D laser scanners (30 m, 275 deg)",
+      "8x 3D cameras (360 deg coverage)"
+     ]
+    },
+    {
+     "field": "sources",
+     "from": [
+      "https://www.zebra.com/us/en/about-zebra/newsroom/press-releases/2022/zebra-introduces-new-purpose-built-offerings-for-digitizing-and-automating-fulfillment-at-modex-2022.html",
+      "https://cssi.com/wp-content/uploads/cssi_fetch-cartconnect500-AMR-brochure.pdf"
+     ],
+     "to": [
+      "https://www.zebra.com/us/en/about-zebra/newsroom/press-releases/2022/zebra-introduces-new-purpose-built-offerings-for-digitizing-and-automating-fulfillment-at-modex-2022.html",
+      "https://cssi.com/wp-content/uploads/cssi_fetch-cartconnect500-AMR-brochure.pdf",
+      "https://avalonintegration.com/wp-content/uploads/2022/10/Zebra-Fetch-Fulfillment-Portfolio-Brochure.pdf"
+     ]
+    }
+   ]
+  }
+ ]
+}

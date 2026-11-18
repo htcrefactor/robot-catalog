@@ -1,0 +1,106 @@
+{
+ "id": "noetix-n2",
+ "name": "N2",
+ "manufacturer": "Noetix Robotics",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-13",
+   "type": "added",
+   "source": "https://humanoidstore.co/robots/noetix-n2",
+   "commit": "14cd746",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://www.noetixrobotics.com",
+   "commit": "976d9e6",
+   "changes": [
+    {
+     "field": "data_source",
+     "from": "HumanoidStore open data (CC BY 4.0)",
+     "to": "Maker sources (verified 2026-11-17)"
+    },
+    {
+     "field": "notes",
+     "from": null,
+     "to": "Issue #17 (2026-11-17): Noetix N2 - 114 cm, 30 kg, 18 DoF (18-20 EDU), 1-2 h, 48 V 7.5 Ah. Noetix publishes no payload, so that field was emptied; its price is quoted by distributors only. [emptied (no maker value) payload_kg=5; price_usd=5500; price_note=list 5500 USD (maker), per HumanoidStore, checked 2026-10]"
+    },
+    {
+     "field": "payload_kg",
+     "from": 5,
+     "to": null
+    },
+    {
+     "field": "price_note",
+     "from": "list 5500 USD (maker), per HumanoidStore, checked 2026-10",
+     "to": "Noetix publishes a CNY price for N2 in China; no USD list price"
+    },
+    {
+     "field": "price_usd",
+     "from": 5500,
+     "to": null
+    },
+    {
+     "field": "sources",
+     "from": [
+      "https://humanoidstore.co/robots/noetix-n2"
+     ],
+     "to": [
+      "https://webuildhumanoids.com/compare/noetix-bumi-vs-noetix-n2",
+      "https://www.noetixrobotics.com"
+     ]
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "official"
+    },
+    {
+     "field": "battery_wh",
+     "from": null,
+     "to": 336.0
+    },
+    {
+     "field": "compute_detail",
+     "from": null,
+     "to": "6 TOPS motion-control board; the EDU edition adds an NVIDIA Jetson Orin Nano Super (67 TOPS)"
+    },
+    {
+     "field": "max_speed_mps",
+     "from": 3.5,
+     "to": 3.2
+    },
+    {
+     "field": "note",
+     "from": null,
+     "to": "Noetix N2 page and brochure (checked 2026-11-17): 114 cm standing (118 x 47 x 29 cm in the brochure), 30 kg, 18 DoF for the whole body (6 per leg, 5 per arm, 1 waist), 5 kg maximum continuous-walking payload, 3.2 m/s top speed, 1-2 h on a 48 V 7 Ah quick-release pack (336 Wh computed as V x Ah), 150 N.m peak joint torque. Runtime is recorded as the published upper bound."
+    },
+    {
+     "field": "official_url",
+     "from": null,
+     "to": "https://www.noetixrobotics.com"
+    },
+    {
+     "field": "onboard_compute",
+     "from": null,
+     "to": "RK3588S"
+    },
+    {
+     "field": "sensors",
+     "from": [],
+     "to": [
+      "Depth camera",
+      "IMU"
+     ]
+    },
+    {
+     "field": "summary",
+     "from": "Compact humanoid from Noetix Robotics; shipping now, anyone can order.",
+     "to": "Noetix's athletic compact humanoid N2: 1.14 m, 30 kg, 18 DoF and 3.2 m/s running, with a 5 kg payload and an educational EDU edition."
+    }
+   ]
+  }
+ ]
+}

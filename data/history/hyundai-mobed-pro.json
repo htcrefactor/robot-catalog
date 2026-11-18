@@ -1,0 +1,75 @@
+{
+ "id": "hyundai-mobed-pro",
+ "name": "MobED Pro",
+ "manufacturer": "Hyundai Motor Group (Robotics LAB)",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-03",
+   "type": "added",
+   "source": "https://robotics.hyundai.com/en/",
+   "commit": "1a533a7",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://www.hyundai.com/worldwide/en/newsroom/detail/0000001082",
+   "commit": "0c54867",
+   "changes": [
+    {
+     "field": "note",
+     "from": null,
+     "to": "Hyundai Motor Group press release at iREX 2025 (3 Dec 2025) specification table: Pro up to 750 x 1150 x 650 mm incl. antenna, tare weight up to 88 kg, maximum payload up to 47 kg, autonomous (Autonomous/Smart Assist) plus manual modes, up to 0.3 m/s in inward posture and up to 2.8 m/s otherwise, 1.47 kWh at 36-49.2 V, >=4 h, charge <=2 h 30 min, IP54, 0-40 C, Ethernet API. Sensor set from the HMG Journal piece: GPS, two 3D LiDARs, three cameras, eight radars and an IMU."
+    },
+    {
+     "field": "official_url",
+     "from": "https://robotics.hyundai.com/en/",
+     "to": "https://www.hyundai.com/worldwide/en/newsroom/detail/0000001082"
+    },
+    {
+     "field": "sources",
+     "from": [
+      "https://www.hyundai.com/worldwide/en/newsroom/detail/0000001082"
+     ],
+     "to": [
+      "https://www.hyundai.com/worldwide/en/newsroom/detail/0000001082",
+      "https://www.hyundaimotorgroup.com/en/story/mobed-next-gen-mobility-robot-platform",
+      "https://robotics.hyundai.com/story/log/view.do?seq=181"
+     ]
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "official"
+    },
+    {
+     "field": "kr_distributors",
+     "from": null,
+     "to": [
+      {
+       "name": "현대자동차그룹 로보틱스랩",
+       "kind": "direct",
+       "url": "https://robotics.hyundai.com/"
+      }
+     ]
+    },
+    {
+     "field": "kr_note",
+     "from": null,
+     "to": "2026년 1분기부터 고객 판매 예정입니다."
+    },
+    {
+     "field": "manufacturer_ko",
+     "from": null,
+     "to": "현대자동차그룹 로보틱스랩"
+    },
+    {
+     "field": "name_ko",
+     "from": null,
+     "to": "모베드 프로"
+    }
+   ]
+  }
+ ]
+}

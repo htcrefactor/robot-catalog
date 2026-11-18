@@ -1,0 +1,106 @@
+{
+ "id": "franka-mobile-fr3-duo",
+ "name": "Franka Mobile FR3 Duo",
+ "manufacturer": "Franka Robotics",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-17",
+   "type": "added",
+   "source": "https://franka.de/mobile-fr3-duo",
+   "commit": "ebcdc70",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://franka.de/mobile-fr3-duo",
+   "commit": "ae60ceb",
+   "changes": [
+    {
+     "field": "open_source_repos",
+     "from": null,
+     "to": [
+      {
+       "name": "franka_ros2",
+       "url": "https://github.com/frankarobotics/franka_ros2",
+       "license": "Apache-2.0"
+      },
+      {
+       "name": "franka_description",
+       "url": "https://github.com/frankarobotics/franka_description",
+       "license": "Apache-2.0"
+      }
+     ]
+    },
+    {
+     "field": "ros2_support",
+     "from": null,
+     "to": true
+    },
+    {
+     "field": "ros2_url",
+     "from": null,
+     "to": "https://github.com/frankarobotics/franka_ros2"
+    },
+    {
+     "field": "sim_models",
+     "from": null,
+     "to": {
+      "urdf": {
+       "url": "https://github.com/frankarobotics/franka_description",
+       "license": "Apache-2.0"
+      }
+     }
+    },
+    {
+     "field": "sources",
+     "from": [
+      "https://franka.de/mobile-fr3-duo",
+      "https://franka.de/hubfs/Prototype%20Manual%20and%20Datasheets%20_Mobile%20FR3%20Duo_R04245_EN.pdf",
+      "https://franka.de/hubfs/MobileFR3Duo_TwoPager_v2_digital.pdf?hsLang=en",
+      "https://franka.de/news/real-world-robotics-insights-from-fr3-duo-mobile-showcase"
+     ],
+     "to": [
+      "https://franka.de/mobile-fr3-duo",
+      "https://franka.de/hubfs/Prototype%20Manual%20and%20Datasheets%20_Mobile%20FR3%20Duo_R04245_EN.pdf",
+      "https://franka.de/hubfs/MobileFR3Duo_TwoPager_v2_digital.pdf?hsLang=en",
+      "https://franka.de/news/real-world-robotics-insights-from-fr3-duo-mobile-showcase",
+      "https://github.com/frankarobotics/franka_ros2",
+      "https://github.com/frankarobotics/franka_description"
+     ]
+    },
+    {
+     "field": "certifications",
+     "from": null,
+     "to": []
+    },
+    {
+     "field": "safety_note",
+     "from": null,
+     "to": "Prototype manual: the E-stops are redundant, but the current design “does not claim compliance with IEC 60204-1 or ISO 13849-1”."
+    },
+    {
+     "field": "safety_source",
+     "from": null,
+     "to": "https://franka.de/hubfs/Prototype%20Manual%20and%20Datasheets%20_Mobile%20FR3%20Duo_R04245_EN.pdf"
+    },
+    {
+     "field": "safety_standards",
+     "from": null,
+     "to": []
+    },
+    {
+     "field": "compute_soc",
+     "from": null,
+     "to": "NVIDIA Jetson AGX Orin"
+    },
+    {
+     "field": "compute_source",
+     "from": null,
+     "to": "https://franka.de/mobile-fr3-duo"
+    }
+   ]
+  }
+ ]
+}

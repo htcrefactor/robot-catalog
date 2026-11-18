@@ -1,0 +1,81 @@
+{
+ "id": "highlanders-hl-human",
+ "name": "HL Human",
+ "manufacturer": "Highlanders",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-17",
+   "type": "added",
+   "source": null,
+   "commit": "b596d3e",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://www.highlanders.co.jp/",
+   "commit": "b310609",
+   "changes": [
+    {
+     "field": "dof",
+     "from": null,
+     "to": 19
+    },
+    {
+     "field": "max_speed_mps",
+     "from": null,
+     "to": 0.83
+    },
+    {
+     "field": "note",
+     "from": null,
+     "to": "Maker press release (30 Jun 2025): 19 whole-body DoF including 4 per arm, 3 km/h (0.83 m/s) autonomous movement with 3D stereo camera and LiDAR, collision detection with automatic braking and distance-based slow-down, natural-language/VLA interface, 48 V power bus for add-on modules, SDK/API planned, optional 5-finger hand grips up to 3 kg (hand figure, not robot payload). Early Access from Q4 2025, mass production planned for 2026. No height, mass or runtime published."
+    },
+    {
+     "field": "official_url",
+     "from": null,
+     "to": "https://www.highlanders.co.jp/"
+    },
+    {
+     "field": "release_year",
+     "from": null,
+     "to": 2025
+    },
+    {
+     "field": "sdk_available",
+     "from": null,
+     "to": true
+    },
+    {
+     "field": "sdk_name",
+     "from": null,
+     "to": "SDK/API (announced)"
+    },
+    {
+     "field": "sources",
+     "from": [],
+     "to": [
+      "https://prtimes.jp/main/html/rd/p/000000003.000156831.html",
+      "https://www.highlanders.ai/news"
+     ]
+    },
+    {
+     "field": "status",
+     "from": null,
+     "to": "Prototype"
+    },
+    {
+     "field": "summary",
+     "from": "",
+     "to": "Highlanders' 19-DoF AI humanoid prototype for factory, logistics, infrastructure-inspection and disaster work, built by a University of Tokyo spin-off."
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "official"
+    }
+   ]
+  }
+ ]
+}

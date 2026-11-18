@@ -1,0 +1,117 @@
+{
+ "id": "ubtech-yanshee",
+ "name": "Yanshee",
+ "manufacturer": "UBTech Robotics",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-13",
+   "type": "added",
+   "source": "https://humanoidstore.co/robots/ubtech-yanshee",
+   "commit": "14cd746",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://www.ubtrobot.com/en/ai-education/products/yanshee",
+   "commit": "30bdc91",
+   "changes": [
+    {
+     "field": "data_source",
+     "from": "HumanoidStore open data (CC BY 4.0)",
+     "to": null
+    },
+    {
+     "field": "notes",
+     "from": null,
+     "to": "Issue #17 (2026-11-17): Yanshee - 370x192x106 mm, about 2.05 kg, 17 servos, 3000 mAh, per UBTECH's vocational-education brochure. No maker price or speed, so those fields were emptied. [emptied (no maker value) price_usd=2199; price_note=list 2199 USD (reseller), per HumanoidStore, checked 2026-10]"
+    },
+    {
+     "field": "price_note",
+     "from": "list 2199 USD (reseller), per HumanoidStore, checked 2026-10",
+     "to": null
+    },
+    {
+     "field": "price_usd",
+     "from": 2199,
+     "to": null
+    },
+    {
+     "field": "sources",
+     "from": [
+      "https://humanoidstore.co/robots/ubtech-yanshee"
+     ],
+     "to": [
+      "https://www.roboguidebook.com/en/products/ubtech-yanshee.html",
+      "https://www.ubtrobot.com/en/ai-education/products/yanshee",
+      "https://yandev.ubtrobot.com/"
+     ]
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "official"
+    },
+    {
+     "field": "api_support",
+     "from": null,
+     "to": true
+    },
+    {
+     "field": "compute_detail",
+     "from": null,
+     "to": "Raspberry Pi 3B + STM32F103RDT6 controller"
+    },
+    {
+     "field": "length_mm",
+     "from": null,
+     "to": 106
+    },
+    {
+     "field": "note",
+     "from": null,
+     "to": "Maker page: 'nearly 15 inches' tall (about 38 cm), 17 servos (DoF), programmable Raspberry Pi card, infrared, temperature, humidity, pressure, capacitive and gyro sensors, Python, C/C++, Java, Perl and Blockly, 60 course hours. The maker's user manual gives 370 x 192 x 106 mm (height, width, depth recorded above), about 2.05 kg, 17 DoF and DC 9.6 V. Runtime, battery and price are not published."
+    },
+    {
+     "field": "official_url",
+     "from": null,
+     "to": "https://www.ubtrobot.com/en/ai-education/products/yanshee"
+    },
+    {
+     "field": "onboard_compute",
+     "from": null,
+     "to": true
+    },
+    {
+     "field": "sdk_available",
+     "from": null,
+     "to": true
+    },
+    {
+     "field": "sensors",
+     "from": [],
+     "to": [
+      "Infrared sensor",
+      "Temperature sensor",
+      "Humidity sensor",
+      "Pressure sensor",
+      "Capacitive touch sensor",
+      "Gyroscope",
+      "8 MP camera"
+     ]
+    },
+    {
+     "field": "summary",
+     "from": "Desktop-size humanoid from UBTech Robotics; shipping now, anyone can order.",
+     "to": "Small bipedal education humanoid from UBTECH with 17 servos on a Raspberry Pi 3B and STM32 controller, programmable in Python, C/C++, Java and Blockly."
+    },
+    {
+     "field": "width_mm",
+     "from": null,
+     "to": 192
+    }
+   ]
+  }
+ ]
+}

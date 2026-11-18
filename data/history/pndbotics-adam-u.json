@@ -1,0 +1,95 @@
+{
+ "id": "pndbotics-adam-u",
+ "name": "Adam-U",
+ "manufacturer": "PNDbotics",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-13",
+   "type": "added",
+   "source": "https://humanoidstore.co/robots/pndbotics-adam-u",
+   "commit": "14cd746",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://wiki.pndbotics.com/en/robot/adam_u/",
+   "commit": "976d9e6",
+   "changes": [
+    {
+     "field": "battery_wh",
+     "from": null,
+     "to": 1172
+    },
+    {
+     "field": "data_source",
+     "from": "HumanoidStore open data (CC BY 4.0)",
+     "to": "Maker sources (verified 2026-11-17)"
+    },
+    {
+     "field": "notes",
+     "from": null,
+     "to": "Issue #17 (2026-11-17): Adam-U upper-body robot - adjustable 1.35-1.77 m (1770 taken as max), 26 kg unit + 48 kg lift platform/chassis = 74 kg, 31 DoF (arms 13 each incl. 6 finger DoF, waist 3, head 2), 1172 Wh. [replaced battery_wh: None -> 1172 | emptied (no maker value) price_usd=45000; price_note=list 45000 USD (maker), per HumanoidStore, checked 2026-10]"
+    },
+    {
+     "field": "price_note",
+     "from": "list 45000 USD (maker), per HumanoidStore, checked 2026-10",
+     "to": null
+    },
+    {
+     "field": "price_usd",
+     "from": 45000,
+     "to": null
+    },
+    {
+     "field": "sources",
+     "from": [
+      "https://humanoidstore.co/robots/pndbotics-adam-u"
+     ],
+     "to": [
+      "https://wiki.pndbotics.com/en/half_robot/half_robot/",
+      "https://wiki.pndbotics.com/en/robot/adam_u/"
+     ]
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "official"
+    },
+    {
+     "field": "note",
+     "from": null,
+     "to": "PNDbotics wiki (checked 2026-11-17): Adam-U is an upper-body humanoid on a height-adjustable column, 1.35-1.77 m (recorded at the top of the range) with no legs, 31 DoF (13 per arm including 6-DoF fingers, 3 waist with brakes, 2 head), 1,188 Wh pack, ROS 2 Humble. The maker gives no weight, payload, speed or runtime for this model."
+    },
+    {
+     "field": "official_url",
+     "from": null,
+     "to": "https://wiki.pndbotics.com/en/robot/adam_u/"
+    },
+    {
+     "field": "onboard_compute",
+     "from": null,
+     "to": "Intel NUC12WSKi7 (motion) + NVIDIA Jetson Orin NX 16GB (perception/AI)"
+    },
+    {
+     "field": "sensors",
+     "from": [],
+     "to": [
+      "ZED MINI stereo camera"
+     ]
+    },
+    {
+     "field": "summary",
+     "from": "Wheeled (bimanual torso on a wheeled base) humanoid from PNDbotics; preorder, sold to research buyers.",
+     "to": "Upper-body version of PNDbotics' Adam: a head, torso and two 13-DoF arms on a height-adjustable column from 1.35 to 1.77 m, 31 DoF and no legs."
+    },
+    {
+     "field": "weight_kg",
+     "from": 74,
+     "to": null
+    }
+   ]
+  }
+ ]
+}

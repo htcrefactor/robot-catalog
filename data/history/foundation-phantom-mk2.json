@@ -1,0 +1,87 @@
+{
+ "id": "foundation-phantom-mk2",
+ "name": "Phantom MK-2",
+ "manufacturer": "Foundation",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-13",
+   "type": "added",
+   "source": "https://humanoidstore.co/robots/foundation-phantom-mk2",
+   "commit": "14cd746",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://foundation.bot/phantom",
+   "commit": "976d9e6",
+   "changes": [
+    {
+     "field": "data_source",
+     "from": "HumanoidStore open data (CC BY 4.0)",
+     "to": null
+    },
+    {
+     "field": "dof",
+     "from": 29,
+     "to": null
+    },
+    {
+     "field": "height_mm",
+     "from": 1800,
+     "to": 1830
+    },
+    {
+     "field": "max_speed_mps",
+     "from": 1.7,
+     "to": null
+    },
+    {
+     "field": "notes",
+     "from": null,
+     "to": "Issue #17 (2026-11-17): MK-2 has had no public launch; The San Francisco Standard describes it as about 6 ft and 200 lb and gives no payload, DoF or speed, so those fields were emptied. Foundation's Phantom page (1.8 m, 80 kg, 40 kg, 29 DoF) does not name a generation. [replaced height_mm: 1800 -> 1830; weight_kg: 80 -> 90 | emptied (no maker value) payload_kg=30; dof=29; max_speed_mps=1.7]"
+    },
+    {
+     "field": "payload_kg",
+     "from": 30,
+     "to": 40
+    },
+    {
+     "field": "sources",
+     "from": [
+      "https://humanoidstore.co/robots/foundation-phantom-mk2"
+     ],
+     "to": [
+      "https://foundation.bot/phantom"
+     ]
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "unconfirmed"
+    },
+    {
+     "field": "weight_kg",
+     "from": 80,
+     "to": 90
+    },
+    {
+     "field": "note",
+     "from": null,
+     "to": "Maker page foundation.bot/phantom: 5 ft 11 in (1.8 m), 176 lb (80 kg), 29 DoF, 1.7 m/s, payload capacity 88.2 lb (40 kg) - the same block also prints a stray '40l (20kg)' string, so the payload figure is uncertain between 40 and 20 kg and the page does not label which generation it describes. Actuators are cycloid units with 160 N.m peak torque, <1.0 N.m back-driving torque, <10 ms response, 48 V/72 V options. Status kept at Announced because the maker's own page calls Phantom its first production robot while press reporting dates MK-2 to April 2026; runtime is not published on the page."
+    },
+    {
+     "field": "official_url",
+     "from": null,
+     "to": "https://foundation.bot/phantom"
+    },
+    {
+     "field": "summary",
+     "from": "Full-size humanoid from Foundation; announced, sold to businesses.",
+     "to": "Foundation's production Phantom humanoid: a 1.8 m, 29-DoF electric biped with proprietary cycloid actuators, built for factories and dual-use defence work."
+    }
+   ]
+  }
+ ]
+}

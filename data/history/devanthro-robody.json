@@ -1,0 +1,87 @@
+{
+ "id": "devanthro-robody",
+ "name": "Robody",
+ "manufacturer": "Devanthro",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-13",
+   "type": "added",
+   "source": "https://humanoidstore.co/robots/devanthro-robody",
+   "commit": "14cd746",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://www.devanthro.com/technology/",
+   "commit": "4b395bc",
+   "changes": [
+    {
+     "field": "data_source",
+     "from": "HumanoidStore open data (CC BY 4.0)",
+     "to": null
+    },
+    {
+     "field": "notes",
+     "from": null,
+     "to": "Issue #17 (2026-11-17): Devanthro Robody - 1.65 m, 60 kg, 6-DoF arms (1.5 kg each) and a 3-DoF neck = 15 DoF, 6 h with self-dock, from Devanthro's technology page."
+    },
+    {
+     "field": "sources",
+     "from": [
+      "https://humanoidstore.co/robots/devanthro-robody"
+     ],
+     "to": [
+      "https://www.devanthro.com/technology/",
+      "https://www.devanthro.com/"
+     ]
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "official"
+    },
+    {
+     "field": "compute_detail",
+     "from": null,
+     "to": "NVIDIA Jetson Orin + Orin Nano"
+    },
+    {
+     "field": "note",
+     "from": null,
+     "to": "Maker technology page (devanthro.com/technology): height 1.65 m, 60 kg, 6-DoF arms with 1.5 kg payload each (payload_kg = per arm), 3-DoF neck, two-finger gripper, QDD plus Dynamixel actuators, differential drive, 6 h runtime with self-docking, 4K fisheye RGB camera, mm-wave radar, stereo mic, NVIDIA Jetson Orin + Orin Nano compute, ROS2 middleware. 15 DoF recorded as the sum of the maker's published joints (2 arms x 6 + 3 neck); the base and face are not given DoF counts. The robot is sold to care providers, not consumers, and the maker publishes no price. Teleoperated today with increasing AI autonomy."
+    },
+    {
+     "field": "official_url",
+     "from": null,
+     "to": "https://www.devanthro.com/technology/"
+    },
+    {
+     "field": "onboard_compute",
+     "from": null,
+     "to": true
+    },
+    {
+     "field": "ros_support",
+     "from": null,
+     "to": true
+    },
+    {
+     "field": "sensors",
+     "from": [],
+     "to": [
+      "4K fisheye RGB camera",
+      "mm-wave radar",
+      "Stereo microphone"
+     ]
+    },
+    {
+     "field": "summary",
+     "from": "Wheeled (bimanual torso on a wheeled base) humanoid from Devanthro; b2b only, sold to businesses.",
+     "to": "Munich-based Devanthro's teleoperated care robot: a soft-skinned wheeled humanoid that a remote operator or family member drives through a VR headset in a patient's home."
+    }
+   ]
+  }
+ ]
+}

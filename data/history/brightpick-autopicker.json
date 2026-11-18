@@ -1,0 +1,52 @@
+{
+ "id": "brightpick-autopicker",
+ "name": "Autopicker",
+ "manufacturer": "Brightpick",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-17",
+   "type": "added",
+   "source": "https://brightpick.ai/autopicker/",
+   "commit": "b596d3e",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://brightpick.ai/autopicker/",
+   "commit": "4b7ab4b",
+   "changes": [
+    {
+     "field": "price_note",
+     "from": "RaaS from US$2,190/robot/month (min. 15 robots)",
+     "to": null
+    },
+    {
+     "field": "price_observations",
+     "from": null,
+     "to": [
+      {
+       "date": "2026-11-17",
+       "amount": 2190,
+       "currency": "USD",
+       "kind": "rental",
+       "source": "https://www.brightpick.ai/pricing",
+       "note": "Robots-as-a-Service: per robot per month, minimum 15 robots per installation, 3-year term"
+      }
+     ]
+    },
+    {
+     "field": "sources",
+     "from": [
+      "https://brightpick.ai/autopicker/"
+     ],
+     "to": [
+      "https://brightpick.ai/autopicker/",
+      "https://www.brightpick.ai/pricing"
+     ]
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,102 @@
+{
+ "id": "hiwonder-tonybot",
+ "name": "Tonybot",
+ "manufacturer": "Hiwonder",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-13",
+   "type": "added",
+   "source": "https://humanoidstore.co/robots/hiwonder-tonybot",
+   "commit": "14cd746",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://www.hiwonder.com/products/tonybot",
+   "commit": "976d9e6",
+   "changes": [
+    {
+     "field": "data_source",
+     "from": "HumanoidStore open data (CC BY 4.0)",
+     "to": null
+    },
+    {
+     "field": "notes",
+     "from": null,
+     "to": "Issue #17 (2026-11-17): Hiwonder Tonybot - 383x190x105 mm, about 1.8 kg, 17 DoF, 11.1 V 2000 mAh. The maker publishes no travel speed, so the HumanoidStore speed was emptied. HumanoidStore price (US$519.99) removed: no maker list price confirmed."
+    },
+    {
+     "field": "price_note",
+     "from": "list 519.99 USD (maker), per HumanoidStore, checked 2026-11",
+     "to": "standard kit USD 519.99 on the maker store, checked 2026-11 (advanced 584.99, Ultimate 649.99)"
+    },
+    {
+     "field": "price_usd",
+     "from": 519.99,
+     "to": null
+    },
+    {
+     "field": "sources",
+     "from": [
+      "https://humanoidstore.co/robots/hiwonder-tonybot"
+     ],
+     "to": [
+      "https://www.hiwonder.com/products/tonybot"
+     ]
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "official"
+    },
+    {
+     "field": "battery_wh",
+     "from": null,
+     "to": 22.2
+    },
+    {
+     "field": "note",
+     "from": null,
+     "to": "Maker product page: 383 x 190 x 105 mm, about 1.8 kg, 17 DoF (16 body + 1 head), hard aluminium alloy, 11.1 V 2000 mAh 10C pack (=22.2 Wh derived), LX-824HV high-voltage bus servos plus LFD-01M anti-blocking servos, servo controller + ESP32 expansion board, ultrasonic 2-400 cm, PC/Bluetooth control, Arduino/Scratch/Python, optional ESP32-S3 vision and WonderEcho voice modules. No speed or payload published."
+    },
+    {
+     "field": "official_url",
+     "from": null,
+     "to": "https://www.hiwonder.com/products/tonybot"
+    },
+    {
+     "field": "onboard_compute",
+     "from": null,
+     "to": "ESP32 + ESP32-S3 AI module (optional)"
+    },
+    {
+     "field": "sdk_available",
+     "from": null,
+     "to": true
+    },
+    {
+     "field": "sdk_name",
+     "from": null,
+     "to": "Arduino / Scratch / Python libraries"
+    },
+    {
+     "field": "sensors",
+     "from": [],
+     "to": [
+      "Ultrasonic sensor (2-400 cm)",
+      "Accelerometer",
+      "Temperature/humidity sensor (kit)",
+      "ESP32-S3 vision module (optional)"
+     ]
+    },
+    {
+     "field": "summary",
+     "from": "Desktop-size humanoid from Hiwonder; shipping now, anyone can order.",
+     "to": "Hiwonder's 17-DoF ESP32 biped kit for learning embedded programming and first AI vision/voice projects."
+    }
+   ]
+  }
+ ]
+}

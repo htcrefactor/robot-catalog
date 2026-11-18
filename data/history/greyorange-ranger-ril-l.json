@@ -1,0 +1,33 @@
+{
+ "id": "greyorange-ranger-ril-l",
+ "name": "Ranger Uplift-L (RU-L)",
+ "manufacturer": "GreyOrange",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-17",
+   "type": "added",
+   "source": "https://www.greyorange.com/solutions/by-technology/intralogistic-amr-il",
+   "commit": "b596d3e",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://www.greyorange.com/solutions/by-technology/intralogistic-amr-il",
+   "commit": "48ef25e",
+   "changes": [
+    {
+     "field": "name",
+     "from": "Ranger Intralogistics (RIL-L)",
+     "to": "Ranger Uplift-L (RU-L)"
+    },
+    {
+     "field": "note",
+     "from": "GreyOrange now markets this as 'Ranger Uplift - L (RU-L)'; /ril/ page used the RIL-L name with identical specs. Launched March 2021 (GreyOrange press release). Max lift height 410 mm.",
+     "to": "Official Intralogistics (IL) page now lists this trim as 'Ranger Uplift - L (RU-L)': 1280 x 920 x 350 mm, 1,000 kg payload, 2 m/s - the same robot earlier listed as 'Ranger Intralogistics (RIL-L)' on greyorange.com/ril/. Launched March 2021 (GreyOrange press release). Max lift height 410 mm."
+    }
+   ]
+  }
+ ]
+}

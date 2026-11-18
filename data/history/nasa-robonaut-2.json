@@ -1,0 +1,100 @@
+{
+ "id": "nasa-robonaut-2",
+ "name": "Robonaut 2",
+ "manufacturer": "NASA",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-17",
+   "type": "added",
+   "source": null,
+   "commit": "b596d3e",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://www.nasa.gov/robonaut2/",
+   "commit": "5150daa",
+   "changes": [
+    {
+     "field": "compute_detail",
+     "from": null,
+     "to": "Computing and power conversion inside the torso and backpack"
+    },
+    {
+     "field": "data_source",
+     "from": null,
+     "to": "Maker sources (verified 2026-11-17)"
+    },
+    {
+     "field": "dof",
+     "from": null,
+     "to": 42
+    },
+    {
+     "field": "height_mm",
+     "from": null,
+     "to": 1016
+    },
+    {
+     "field": "max_speed_mps",
+     "from": null,
+     "to": 2.13
+    },
+    {
+     "field": "note",
+     "from": null,
+     "to": "NASA fact sheet (checked 2026-11-17): 330 lb (149.7 kg), 42 DoF (3 neck, 7 per arm, 12 per hand, 1 waist), up to 7 ft/s (2.13 m/s), shoulder width 2 ft 7 in, 350+ sensors, 38 PowerPC processors. The height of 3 ft 4 in is waist to head: R2 is a torso-only humanoid and the mobility legs added in 2014 are not covered by that figure. Each arm holds 20 lb (9.07 kg) in any pose in Earth gravity; the figure is a lift rating, not a payload spec."
+    },
+    {
+     "field": "official_url",
+     "from": null,
+     "to": "https://www.nasa.gov/robonaut2/"
+    },
+    {
+     "field": "onboard_compute",
+     "from": null,
+     "to": "38 PowerPC processors"
+    },
+    {
+     "field": "payload_kg",
+     "from": null,
+     "to": 9.07
+    },
+    {
+     "field": "sensors",
+     "from": [],
+     "to": [
+      "4 visible-light cameras (2 stereo, 2 auxiliary)",
+      "1 infrared camera for depth",
+      "More than 350 sensors in total"
+     ]
+    },
+    {
+     "field": "sources",
+     "from": [],
+     "to": [
+      "https://www.nasa.gov/wp-content/uploads/2016/09/robonaut2_508.pdf",
+      "https://www.nasa.gov/robonaut2/"
+     ]
+    },
+    {
+     "field": "summary",
+     "from": "",
+     "to": "NASA's dexterous humanoid for space work, first flown to the ISS in 2011: 42 DoF, 350+ sensors and hands that use human tools, later fitted with legs for in-station mobility."
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "official"
+    },
+    {
+     "field": "weight_kg",
+     "from": null,
+     "to": 149.7
+    }
+   ]
+  }
+ ]
+}

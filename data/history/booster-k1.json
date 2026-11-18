@@ -1,0 +1,97 @@
+{
+ "id": "booster-k1",
+ "name": "K1",
+ "manufacturer": "Booster Robotics",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-13",
+   "type": "added",
+   "source": "https://humanoidstore.co/robots/booster-k1",
+   "commit": "14cd746",
+   "changes": []
+  },
+  {
+   "date": "2026-11-14",
+   "type": "updated",
+   "source": "https://www.booster.tech/booster-k1",
+   "commit": "1aeec2d",
+   "changes": [
+    {
+     "field": "data_source",
+     "from": "HumanoidStore open data (CC BY 4.0)",
+     "to": "HumanoidStore + maker page"
+    },
+    {
+     "field": "max_speed_mps",
+     "from": 0.4,
+     "to": 1.1
+    },
+    {
+     "field": "official_url",
+     "from": null,
+     "to": "https://www.booster.tech/booster-k1"
+    },
+    {
+     "field": "runtime_h",
+     "from": 0.5,
+     "to": 1.17
+    },
+    {
+     "field": "sources",
+     "from": [
+      "https://humanoidstore.co/robots/booster-k1"
+     ],
+     "to": [
+      "https://humanoidstore.co/robots/booster-k1",
+      "https://docs.booster.tech/docs/product-manual/k1/getting-started/specifications"
+     ]
+    }
+   ]
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://www.booster.tech/booster-k1",
+   "commit": "0be5d4c",
+   "changes": [
+    {
+     "field": "data_source",
+     "from": "HumanoidStore + maker page",
+     "to": null
+    },
+    {
+     "field": "notes",
+     "from": null,
+     "to": "Issue #17 (2026-11-17): K1 values from Booster's product manual (0.95 m, 19.5 kg, 22 DoF = legs 6x2 + arms 4x2 + head 2, 70 min at 1.1 m/s). HumanoidStore's reseller EUR 9,000 removed. [emptied (no maker value) price_usd=10103; price_note=list 9000 EUR (reseller), per HumanoidStore, checked 2026-10]"
+    },
+    {
+     "field": "price_note",
+     "from": "list 9000 EUR (reseller), per HumanoidStore, checked 2026-10",
+     "to": null
+    },
+    {
+     "field": "price_usd",
+     "from": 10103,
+     "to": null
+    },
+    {
+     "field": "sources",
+     "from": [
+      "https://humanoidstore.co/robots/booster-k1",
+      "https://docs.booster.tech/docs/product-manual/k1/getting-started/specifications"
+     ],
+     "to": [
+      "https://docs.booster.tech/docs/product-manual/k1/getting-started/specifications",
+      "https://www.booster.tech/booster-k1"
+     ]
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "official"
+    }
+   ]
+  }
+ ]
+}

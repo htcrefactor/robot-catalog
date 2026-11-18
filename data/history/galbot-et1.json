@@ -1,0 +1,33 @@
+{
+ "id": "galbot-et1",
+ "name": "ET1",
+ "manufacturer": "Galbot",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-17",
+   "type": "added",
+   "source": "https://www.galbot.com/et1",
+   "commit": "b596d3e",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://www.galbot.com/et1",
+   "commit": "ae60ceb",
+   "changes": [
+    {
+     "field": "compute_soc",
+     "from": null,
+     "to": "Rockchip RK3588"
+    },
+    {
+     "field": "compute_source",
+     "from": null,
+     "to": "https://www.galbot.com/et1"
+    }
+   ]
+  }
+ ]
+}

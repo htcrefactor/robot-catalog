@@ -1,0 +1,67 @@
+{
+ "id": "bear-robotics-servi-plus",
+ "name": "Servi Plus",
+ "manufacturer": "Bear Robotics",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-03",
+   "type": "added",
+   "source": "https://www.bearrobotics.ai/servi-plus",
+   "commit": "1a533a7",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://www.bearrobotics.ai/servi-plus",
+   "commit": "e6ebd1a",
+   "changes": [
+    {
+     "field": "notes",
+     "from": null,
+     "to": "Maker page: 21 x 23 x 48 in (53.5 x 59 x 123 cm) as width x depth x height, drive speed 0.1-1.2 m/s, payload 40 kg total (10 kg per tray, 2-4 trays), battery life 10-12 h with 4-6 h charging, minimum passage 65 cm. Robot weight is not published."
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "official"
+    },
+    {
+     "field": "certifications",
+     "from": null,
+     "to": [
+      "FCC Part 15 (Class A)",
+      "FCC ID PD99260NG",
+      "FCC ID 2AC7Z-ESPC3MINI1"
+     ]
+    },
+    {
+     "field": "safety_note",
+     "from": null,
+     "to": "User manual, Standards Approvals (USA only)."
+    },
+    {
+     "field": "safety_source",
+     "from": null,
+     "to": "https://www.bearrobotics.ai/s/200-Servi-Plus_User-Manual_EN.pdf"
+    },
+    {
+     "field": "safety_standards",
+     "from": null,
+     "to": []
+    },
+    {
+     "field": "sources",
+     "from": [
+      "https://www.bearrobotics.ai/servi-plus"
+     ],
+     "to": [
+      "https://www.bearrobotics.ai/servi-plus",
+      "https://www.bearrobotics.ai/s/200-Servi-Plus_User-Manual_EN.pdf"
+     ]
+    }
+   ]
+  }
+ ]
+}

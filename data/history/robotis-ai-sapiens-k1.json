@@ -1,0 +1,72 @@
+{
+ "id": "robotis-ai-sapiens-k1",
+ "name": "AI Sapiens K1",
+ "manufacturer": "ROBOTIS",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-17",
+   "type": "added",
+   "source": "https://docs.robotis.com/docs/systems/aisapiens/introduction",
+   "commit": "b596d3e",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://docs.robotis.com/docs/systems/aisapiens/introduction",
+   "commit": "ae60ceb",
+   "changes": [
+    {
+     "field": "kr_distributors",
+     "from": null,
+     "to": [
+      {
+       "name": "로보티즈 (본사 직판·구매 문의)",
+       "kind": "direct",
+       "url": "https://www.robotis.com/ko/"
+      }
+     ]
+    },
+    {
+     "field": "manufacturer_ko",
+     "from": null,
+     "to": "로보티즈"
+    },
+    {
+     "field": "sources",
+     "from": [
+      "https://docs.robotis.com/docs/systems/aisapiens/specifications/hardware",
+      "https://docs.robotis.com/docs/systems/aisapiens/specifications/electrical_system/",
+      "https://github.com/ROBOTIS-GIT/ai_sapiens",
+      "https://www.robotis.com/en/product/ecosystem-aisapiens.php",
+      "https://www.robotis.us/dynamixel-q"
+     ],
+     "to": [
+      "https://docs.robotis.com/docs/systems/aisapiens/specifications/hardware",
+      "https://docs.robotis.com/docs/systems/aisapiens/specifications/electrical_system/",
+      "https://github.com/ROBOTIS-GIT/ai_sapiens",
+      "https://www.robotis.com/en/product/ecosystem-aisapiens.php",
+      "https://www.robotis.us/dynamixel-q",
+      "https://www.robotis.com/ko/"
+     ]
+    },
+    {
+     "field": "compute_memory_gb",
+     "from": null,
+     "to": 16
+    },
+    {
+     "field": "compute_soc",
+     "from": null,
+     "to": "NVIDIA Jetson Orin NX 16GB"
+    },
+    {
+     "field": "compute_source",
+     "from": null,
+     "to": "https://docs.robotis.com/docs/systems/aisapiens/specifications/electrical_system/"
+    }
+   ]
+  }
+ ]
+}

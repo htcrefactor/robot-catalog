@@ -1,0 +1,43 @@
+{
+ "id": "moon-dynamics-l1",
+ "name": "L1",
+ "manufacturer": "Moon Dynamics",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-17",
+   "type": "added",
+   "source": null,
+   "commit": "b596d3e",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": null,
+   "commit": "5150daa",
+   "changes": [
+    {
+     "field": "data_source",
+     "from": null,
+     "to": "No maker source found (checked 2026-11-17)"
+    },
+    {
+     "field": "note",
+     "from": null,
+     "to": "No maker page found (checked 2026-11-17): Moon Dynamics (揽月动力) appears only through press coverage and third-party catalogues, and no official site lists L1. Press figures are 165 cm, 60 kg, 25 kg payload, 7 km/h, 3 h, wheeled-legged; none is confirmed by a maker source, so no field is filled."
+    },
+    {
+     "field": "summary",
+     "from": "",
+     "to": "Wheeled-legged industrial humanoid from Moon Dynamics announced in June 2026 for heavy material handling; no maker page or confirmed specification exists."
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "unconfirmed"
+    }
+   ]
+  }
+ ]
+}

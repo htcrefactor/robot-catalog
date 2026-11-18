@@ -1,0 +1,33 @@
+{
+ "id": "vbot-superdog",
+ "name": "SuperDog (Vbot 超能机器狗)",
+ "manufacturer": "Vbot (Vita Dynamics)",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-17",
+   "type": "added",
+   "source": "https://www.vbot.cn/Detail",
+   "commit": "b596d3e",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://www.vbot.cn/Detail",
+   "commit": "ae60ceb",
+   "changes": [
+    {
+     "field": "compute_source",
+     "from": null,
+     "to": "https://www.vbot.cn/Detail"
+    },
+    {
+     "field": "compute_tops",
+     "from": null,
+     "to": 128
+    }
+   ]
+  }
+ ]
+}

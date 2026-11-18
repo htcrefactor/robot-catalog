@@ -1,0 +1,70 @@
+{
+ "id": "agilex-scout-mini",
+ "name": "SCOUT MINI",
+ "manufacturer": "AgileX Robotics",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-03",
+   "type": "added",
+   "source": "https://global.agilex.ai/products/scout-mini",
+   "commit": "1a533a7",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://global.agilex.ai/products/scout-mini",
+   "commit": "c3614dc",
+   "changes": [
+    {
+     "field": "notes",
+     "from": null,
+     "to": "Maker page: 612 x 580 x 245 mm, 23 kg, 10 kg payload, 1.5 m/s, 1 h at full load, IP22, 20 deg climb, 115 mm ground clearance, four-wheel differential drive. Battery capacity is not on the page; the 360 Wh figure comes from the user manual."
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "official"
+    },
+    {
+     "field": "open_source_repos",
+     "from": null,
+     "to": [
+      {
+       "name": "ugv_sdk",
+       "url": "https://github.com/agilexrobotics/ugv_sdk",
+       "license": "Apache-2.0"
+      }
+     ]
+    },
+    {
+     "field": "sdk",
+     "from": null,
+     "to": {
+      "languages": [
+       "C++"
+      ],
+      "open_source": true,
+      "license": "Apache-2.0",
+      "url": "https://github.com/agilexrobotics/ugv_sdk"
+     }
+    },
+    {
+     "field": "sources",
+     "from": [
+      "https://global.agilex.ai/products/scout-mini",
+      "https://cdn.shopify.com/s/files/1/0551/0630/6141/files/SCOUT_MINI_USER_MANUAL_AgileX.pdf?v=1792636734"
+     ],
+     "to": [
+      "https://global.agilex.ai/products/scout-mini",
+      "https://cdn.shopify.com/s/files/1/0551/0630/6141/files/SCOUT_MINI_USER_MANUAL_AgileX.pdf?v=1792636734",
+      "https://github.com/agilexrobotics/ugv_sdk",
+      "https://github.com/agilexrobotics/pyagxrobots",
+      "https://github.com/agilexrobotics/scout_ros"
+     ]
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,56 @@
+{
+ "id": "neubility-billi",
+ "name": "Billi",
+ "manufacturer": "Neubility",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-17",
+   "type": "added",
+   "source": "https://www.neubility.ai/en/discover/detail?id=160",
+   "commit": "b596d3e",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://www.neubility.ai/en/discover/detail?id=160",
+   "commit": "0c54867",
+   "changes": [
+    {
+     "field": "kr_distributors",
+     "from": null,
+     "to": [
+      {
+       "name": "뉴빌리티 (서비스 계약)",
+       "kind": "direct",
+       "url": "https://www.neubility.ai/ko"
+      }
+     ]
+    },
+    {
+     "field": "kr_note",
+     "from": null,
+     "to": "국내에서는 자율주행 배달·순찰 서비스로 운영합니다."
+    },
+    {
+     "field": "manufacturer_ko",
+     "from": null,
+     "to": "뉴빌리티"
+    },
+    {
+     "field": "sources",
+     "from": [
+      "https://www.neubility.ai/en/discover/detail?id=160",
+      "https://www.neubility.ai/en/discover/detail?id=156"
+     ],
+     "to": [
+      "https://www.neubility.ai/en/discover/detail?id=160",
+      "https://www.neubility.ai/en/discover/detail?id=156",
+      "https://www.neubility.ai/ko/"
+     ]
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,110 @@
+{
+ "id": "vstone-robovie-nano",
+ "name": "Robovie-nano",
+ "manufacturer": "Vstone",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-13",
+   "type": "added",
+   "source": "https://humanoidstore.co/robots/vstone-robovie-nano",
+   "commit": "14cd746",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://www.vstone.co.jp/products/robovie_nano/spec.html",
+   "commit": "976d9e6",
+   "changes": [
+    {
+     "field": "data_source",
+     "from": "HumanoidStore open data (CC BY 4.0)",
+     "to": null
+    },
+    {
+     "field": "notes",
+     "from": null,
+     "to": "Issue #17 (2026-11-17): Robovie-nano - 230x121x72 mm, about 575 g with battery, 15 DoF (head 1, arms 6, legs 8), 15 VS-S020A servos, JPY 47,000 excl. tax (the JPY list price was not converted into a USD price). [emptied (no maker value) price_usd=368; price_note=list 368 USD (maker), per HumanoidStore, checked 2026-11]"
+    },
+    {
+     "field": "price_note",
+     "from": "list 368 USD (maker), per HumanoidStore, checked 2026-11",
+     "to": "JPY 47,000 (tax excluded), assembly kit"
+    },
+    {
+     "field": "price_usd",
+     "from": 368,
+     "to": null
+    },
+    {
+     "field": "sources",
+     "from": [
+      "https://humanoidstore.co/robots/vstone-robovie-nano"
+     ],
+     "to": [
+      "https://www.vstone.co.jp/products/robovie_nano/spec.html",
+      "https://www.vstone.co.jp/products/robovie_nano/"
+     ]
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "official"
+    },
+    {
+     "field": "compute_detail",
+     "from": null,
+     "to": "VS-RC003HV controller board"
+    },
+    {
+     "field": "length_mm",
+     "from": null,
+     "to": 72
+    },
+    {
+     "field": "note",
+     "from": null,
+     "to": "Maker spec: 230 x 121 x 72 mm, ~575 g with battery, 15 DoF (head 1, arms 6, legs 8), 15 VS-S020A servos, VS-RC003HV controller board, RobovieMaker2 motion editor, USB interface, speaker, dedicated NiMH battery, parallel-link legs; JPY 47,000 (tax excluded) for the kit."
+    },
+    {
+     "field": "official_url",
+     "from": null,
+     "to": "https://www.vstone.co.jp/products/robovie_nano/spec.html"
+    },
+    {
+     "field": "onboard_compute",
+     "from": null,
+     "to": true
+    },
+    {
+     "field": "release_year",
+     "from": null,
+     "to": 2009
+    },
+    {
+     "field": "sdk_available",
+     "from": null,
+     "to": true
+    },
+    {
+     "field": "sensors",
+     "from": [],
+     "to": [
+      "Gyro/accelerometer expansion board (option)"
+     ]
+    },
+    {
+     "field": "summary",
+     "from": "Desktop-size humanoid from Vstone; shipping now, anyone can order.",
+     "to": "Vstone's smallest Robovie: a 23 cm, 575 g bipedal kit with 15 servos and the VS-RC003HV controller, programmed with RobovieMaker2."
+    },
+    {
+     "field": "width_mm",
+     "from": null,
+     "to": 121
+    }
+   ]
+  }
+ ]
+}

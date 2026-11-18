@@ -1,0 +1,77 @@
+{
+ "id": "droidup-xingzhe-2",
+ "name": "Xingzhe 2",
+ "manufacturer": "DroidUp",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-13",
+   "type": "added",
+   "source": "https://humanoidstore.co/robots/droidup-xingzhe-2",
+   "commit": "14cd746",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://www.droidup.com/",
+   "commit": "4b395bc",
+   "changes": [
+    {
+     "field": "data_source",
+     "from": "HumanoidStore open data (CC BY 4.0)",
+     "to": null
+    },
+    {
+     "field": "dof",
+     "from": 20,
+     "to": 30
+    },
+    {
+     "field": "notes",
+     "from": null,
+     "to": "Issue #17 (2026-11-17): 1.7 m, 38 kg, 30 active DoF excluding hands and about 6 h dynamic runtime are DroidUp's Walker III figures as given by its CEO and the WAIC 2025 launch; DroidUp has no open spec table, so this record stays unconfirmed and the 10 kg payload (no maker evidence) was emptied. [replaced weight_kg: 32 -> 38; dof: 20 -> 30; runtime_h: 3.0 -> 6.0 | emptied (no maker value) payload_kg=2]"
+    },
+    {
+     "field": "payload_kg",
+     "from": 2,
+     "to": null
+    },
+    {
+     "field": "runtime_h",
+     "from": 3.0,
+     "to": 6.0
+    },
+    {
+     "field": "sources",
+     "from": [
+      "https://humanoidstore.co/robots/droidup-xingzhe-2"
+     ],
+     "to": [
+      "https://www.droidup.com/"
+     ]
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "unconfirmed"
+    },
+    {
+     "field": "weight_kg",
+     "from": 32,
+     "to": 38
+    },
+    {
+     "field": "note",
+     "from": null,
+     "to": "The maker's current site (droidup.com, checked 2026-11-17) carries only Moya under 产品系列 and has no 行者二号 page, so no maker source could be checked for this record. The figures in the record came from the HumanoidStore import; third-party listings and a university lab page quote 170 cm, 32 kg, 30 DoF, 40 kg body load, 5-9 km/h and 6 h, which conflict with each other and with the values here (payload 2 kg, 20 DoF, 3 h). Kept unconfirmed rather than adjusted to any of those."
+    },
+    {
+     "field": "summary",
+     "from": "Full-size humanoid from DroidUp; b2b only, sold to businesses.",
+     "to": "DroidUp's tendon-driven Walker II-series biped from 2024-25, no longer listed on the maker's current site; treated as unconfirmed until a maker page can be cited."
+    }
+   ]
+  }
+ ]
+}

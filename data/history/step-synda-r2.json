@@ -1,0 +1,109 @@
+{
+ "id": "step-synda-r2",
+ "name": "SYNDA R2",
+ "manufacturer": "STEP",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-17",
+   "type": "added",
+   "source": null,
+   "commit": "b596d3e",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://wrc.cie.org.cn/expo/product/1003.html",
+   "commit": "75b989d",
+   "changes": [
+    {
+     "field": "dof",
+     "from": null,
+     "to": 24
+    },
+    {
+     "field": "ip_rating",
+     "from": null,
+     "to": "IP42"
+    },
+    {
+     "field": "max_speed_mps",
+     "from": null,
+     "to": 1.5
+    },
+    {
+     "field": "note",
+     "from": null,
+     "to": "The manufacturer's own WRC 2026 product entry (model IR2-06) gives: 24 DOF, 6 kg payload per arm, omnidirectional mobile base at up to 1.5 m/s, 4 h runtime on dual hot-swappable batteries with automatic or fast pack exchange, dual-LiDAR SLAM positioning at +/-10 mm, IP42, built-in torque brakes, optional 6-axis force sensor, ROS 2 compatibility with OTA and secondary development, and customizable end effectors, aimed at assembly, inspection and machine loading. Height, weight and price are not published. STEP's corporate site carries the R1 launch release but no R2 datasheet, so the WRC entry is the maker-side spec source."
+    },
+    {
+     "field": "official_url",
+     "from": null,
+     "to": "https://wrc.cie.org.cn/expo/product/1003.html"
+    },
+    {
+     "field": "payload_kg",
+     "from": null,
+     "to": 6
+    },
+    {
+     "field": "release_year",
+     "from": null,
+     "to": 2026
+    },
+    {
+     "field": "ros_support",
+     "from": null,
+     "to": true
+    },
+    {
+     "field": "runtime_h",
+     "from": null,
+     "to": 4
+    },
+    {
+     "field": "sdk_available",
+     "from": null,
+     "to": true
+    },
+    {
+     "field": "sdk_name",
+     "from": null,
+     "to": "ROS 2, OTA updates, secondary development; custom end effectors"
+    },
+    {
+     "field": "sensors",
+     "from": [],
+     "to": [
+      "2x LiDAR (SLAM, +/-10 mm positioning)",
+      "6-axis force sensor (optional)"
+     ]
+    },
+    {
+     "field": "sources",
+     "from": [],
+     "to": [
+      "https://wrc.cie.org.cn/expo/product/1003.html",
+      "https://www.stepelectric.com/News_details/215.html"
+     ]
+    },
+    {
+     "field": "status",
+     "from": null,
+     "to": "Commercial"
+    },
+    {
+     "field": "summary",
+     "from": "",
+     "to": "SYNDA R2 is Shanghai STEP's wheeled industrial humanoid for 24/7 line work, with 24 DOF, 6 kg per arm, dual hot-swap batteries and ROS 2 support."
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "official"
+    }
+   ]
+  }
+ ]
+}

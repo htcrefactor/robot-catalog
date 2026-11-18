@@ -1,0 +1,124 @@
+{
+ "id": "richtech-dex",
+ "name": "Dex",
+ "manufacturer": "Richtech Robotics",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-13",
+   "type": "added",
+   "source": "https://humanoidstore.co/robots/richtech-dex",
+   "commit": "14cd746",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://www.richtechrobotics.com/solutions/dex",
+   "commit": "75b989d",
+   "changes": [
+    {
+     "field": "data_source",
+     "from": "HumanoidStore open data (CC BY 4.0)",
+     "to": null
+    },
+    {
+     "field": "height_mm",
+     "from": 1370,
+     "to": 1379
+    },
+    {
+     "field": "max_speed_mps",
+     "from": null,
+     "to": 1.2
+    },
+    {
+     "field": "notes",
+     "from": null,
+     "to": "Issue #17 (2026-11-17): Richtech Dex-M - 30.1x28.1x54.3 in (1379 mm tall), 198 lb (90 kg), 11 lb (5 kg) per 6-DoF arm, 1.2 m/s, 3 h on a 24 V 30 Ah pack, from Richtech's Dex page. No list price. [replaced height_mm: 1370 -> 1379; weight_kg: None -> 90; max_speed_mps: None -> 1.2; runtime_h: 4.0 -> 3.0]"
+    },
+    {
+     "field": "runtime_h",
+     "from": 4.0,
+     "to": 3.0
+    },
+    {
+     "field": "sources",
+     "from": [
+      "https://humanoidstore.co/robots/richtech-dex"
+     ],
+     "to": [
+      "https://www.richtechrobotics.com/solutions/dex",
+      "https://ir.richtechrobotics.com/news-releases/news-release-details/richtech-robotics-offers-first-look-dex-mobile-humanoid-robot"
+     ]
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "official"
+    },
+    {
+     "field": "weight_kg",
+     "from": null,
+     "to": 90
+    },
+    {
+     "field": "battery_wh",
+     "from": null,
+     "to": 720
+    },
+    {
+     "field": "dof",
+     "from": null,
+     "to": 12
+    },
+    {
+     "field": "length_mm",
+     "from": null,
+     "to": 765
+    },
+    {
+     "field": "note",
+     "from": null,
+     "to": "Maker spec table, DEX-M mobile configuration: 30.1 x 28.1 x 54.3 in (765 x 714 x 1,379 mm), 198 lb (89.8 kg), 11 lb (5 kg) payload per arm, 6 DOF per arm (12 total entered here; the maker states the per-arm figure only), 56 in wingspan, 4 depth cameras, modular end effectors, 1.2 m/s travel speed, 24 V 30 Ah battery (=720 Wh, derived), 3 h full charge, 35.4 in lift, two-wheel differential drive, LiDAR/depth/RGB/IMU/wheel-speed sensors, NVIDIA Jetson Thor. The 10-28-2025 launch release states four-hour battery life in mobile mode, 24/7 running from a static base, and four-camera vision; DEX-F (fixed) is 88.1 lb and runs on AC 110-240 V. Status stays Announced: the maker is still taking early interest ahead of launch."
+    },
+    {
+     "field": "official_url",
+     "from": null,
+     "to": "https://www.richtechrobotics.com/solutions/dex"
+    },
+    {
+     "field": "onboard_compute",
+     "from": null,
+     "to": "NVIDIA Jetson Thor"
+    },
+    {
+     "field": "release_year",
+     "from": null,
+     "to": 2025
+    },
+    {
+     "field": "sensors",
+     "from": [],
+     "to": [
+      "4 depth cameras (head, front, one on each arm)",
+      "LiDAR",
+      "RGB camera",
+      "IMU",
+      "Wheel speed sensor"
+     ]
+    },
+    {
+     "field": "summary",
+     "from": "Wheeled (bimanual torso on a wheeled base) humanoid from Richtech Robotics; announced, sold to businesses.",
+     "to": "Richtech's wheeled industrial humanoid that pairs the Titan AMR base with ADAM's two arms, sold as the mobile DEX-M or the fixed DEX-F for machine tending, sorting and inspection."
+    },
+    {
+     "field": "width_mm",
+     "from": null,
+     "to": 714
+    }
+   ]
+  }
+ ]
+}

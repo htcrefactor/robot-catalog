@@ -1,0 +1,52 @@
+{
+ "id": "vecna-co-bot-pallet-jack",
+ "name": "CPJ (Co-bot Pallet Jack)",
+ "manufacturer": "Vecna Robotics",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-17",
+   "type": "added",
+   "source": "https://www.vecnarobotics.com/cobot-pallet-jack/",
+   "commit": "b596d3e",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://www.vecnarobotics.com/cobot-pallet-jack/",
+   "commit": "e6ebd1a",
+   "changes": [
+    {
+     "field": "certifications",
+     "from": null,
+     "to": []
+    },
+    {
+     "field": "safety_note",
+     "from": null,
+     "to": "Safety system uses PL=d-rated sensors and safety controllers."
+    },
+    {
+     "field": "safety_pl",
+     "from": null,
+     "to": "PL d"
+    },
+    {
+     "field": "safety_source",
+     "from": null,
+     "to": "https://www.vecnarobotics.com/wp-content/uploads/2026/03/Tear-Sheet-CPJ.pdf"
+    },
+    {
+     "field": "safety_standards",
+     "from": null,
+     "to": [
+      "ISO 13849-1:2015",
+      "ANSI/ITSDF B56.5",
+      "RIA 15.08"
+     ]
+    }
+   ]
+  }
+ ]
+}

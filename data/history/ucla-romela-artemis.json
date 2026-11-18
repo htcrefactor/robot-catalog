@@ -1,0 +1,33 @@
+{
+ "id": "ucla-romela-artemis",
+ "name": "ARTEMIS",
+ "manufacturer": "UCLA RoMeLa",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-17",
+   "type": "added",
+   "source": "https://artemis.romela.org/",
+   "commit": "b596d3e",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://artemis.romela.org/",
+   "commit": "ae60ceb",
+   "changes": [
+    {
+     "field": "compute_soc",
+     "from": null,
+     "to": "Intel Core i7-12700T"
+    },
+    {
+     "field": "compute_source",
+     "from": null,
+     "to": "https://artemis.romela.org/static/pdfs/artemis_final.pdf"
+    }
+   ]
+  }
+ ]
+}

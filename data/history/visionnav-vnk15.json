@@ -1,0 +1,28 @@
+{
+ "id": "visionnav-vnk15",
+ "name": "VNK 15",
+ "manufacturer": "VisionNav Robotics",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-17",
+   "type": "added",
+   "source": "https://www.visionnav.com/product/detail/vnk15",
+   "commit": "b596d3e",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://www.visionnav.com/product/detail/vnk15",
+   "commit": "7864761",
+   "changes": [
+    {
+     "field": "note",
+     "from": "Two maker pages differ: older page 1.8 m/s max driving speed; newer page 3.34 mph (1.5 m/s) under load.",
+     "to": "Scope review (#16, 2026-11-17): kept as an in-scope AMR. Maker page titles it 'VNK15 autonomous mobile robot platform' / 'Platform AMR' with 3D SLAM positioning and a 3,306.93 lb rated load. Two maker pages differ: older page 1.8 m/s max driving speed; newer page 3.34 mph (1.5 m/s) under load."
+    }
+   ]
+  }
+ ]
+}

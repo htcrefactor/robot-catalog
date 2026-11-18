@@ -1,0 +1,38 @@
+{
+ "id": "jaka-pi",
+ "name": "JAKA π (Pi)",
+ "manufacturer": "JAKA Robotics",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-17",
+   "type": "added",
+   "source": "https://www.jaka.com/zh/productDetails/JAKA_%CF%80",
+   "commit": "b596d3e",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://www.jaka.com/zh/productDetails/JAKA_%CF%80",
+   "commit": "ae60ceb",
+   "changes": [
+    {
+     "field": "compute_memory_gb",
+     "from": null,
+     "to": 64
+    },
+    {
+     "field": "compute_soc",
+     "from": null,
+     "to": "Intel Core Ultra 7 255H"
+    },
+    {
+     "field": "compute_source",
+     "from": null,
+     "to": "https://www.jaka.com/zh/productDetails/JAKA_%CF%80"
+    }
+   ]
+  }
+ ]
+}

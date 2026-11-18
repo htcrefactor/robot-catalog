@@ -1,0 +1,33 @@
+{
+ "id": "genisom-qiuqiu-sp1",
+ "name": "铅球 SP1 (Qianqiu SP1)",
+ "manufacturer": "GENISOM AI (ZsiBot)",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-17",
+   "type": "added",
+   "source": "https://www.genisomai.com/product-robot/sp1",
+   "commit": "b596d3e",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://www.genisomai.com/product-robot/sp1",
+   "commit": "48ef25e",
+   "changes": [
+    {
+     "field": "name",
+     "from": "Qiuqiu SP1",
+     "to": "铅球 SP1 (Qianqiu SP1)"
+    },
+    {
+     "field": "note",
+     "from": "Official product name is 铅球 SP1 (Qianqiu/'shot put'), not 'Qiuqiu'. Explosion-proof inspection quadruped for Zone 1/2 gas atmospheres. Weight stated '≤100 kg'; runtime '≥4 h'.",
+     "to": "Official product name is 铅球 SP1 (qiānqiú, 'shot put') - 'Qiuqiu' was a wrong romanisation, so the id keeps the old slug for link stability. Explosion-proof inspection quadruped for Zone 1/2 gas atmospheres (Ex d IIC T6 Gb), IP66, 50 kg continuous payload, 35° slope, 4 h full-load runtime. Weight stated '≤100 kg'; runtime '≥4 h'."
+    }
+   ]
+  }
+ ]
+}

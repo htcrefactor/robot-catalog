@@ -1,0 +1,77 @@
+{
+ "id": "unitree-g1-d",
+ "name": "G1-D",
+ "manufacturer": "Unitree Robotics",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-17",
+   "type": "added",
+   "source": "https://www.unitree.com/G1-D/",
+   "commit": "b596d3e",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://www.unitree.com/G1-D/",
+   "commit": "ae60ceb",
+   "changes": [
+    {
+     "field": "sim_models",
+     "from": null,
+     "to": {
+      "urdf": {
+       "url": "https://github.com/unitreerobotics/unitree_ros/blob/master/robots/g1_d_description/g1_d.urdf",
+       "license": "BSD-3-Clause"
+      }
+     }
+    },
+    {
+     "field": "sources",
+     "from": [
+      "https://www.unitree.com/G1-D/",
+      "https://support.unitree.com/home/en/G1D_Developer/about"
+     ],
+     "to": [
+      "https://www.unitree.com/G1-D/",
+      "https://support.unitree.com/home/en/G1D_Developer/about",
+      "https://github.com/unitreerobotics/unitree_ros/blob/master/robots/g1_d_description/g1_d.urdf",
+      "https://www.younginmobility.com/"
+     ]
+    },
+    {
+     "field": "kr_distributors",
+     "from": null,
+     "to": [
+      {
+       "name": "영인모빌리티 (Unitree 한국 공식 파트너)",
+       "kind": "distributor",
+       "url": "https://www.younginmobility.com/"
+      }
+     ]
+    },
+    {
+     "field": "compute_memory_gb",
+     "from": null,
+     "to": 16
+    },
+    {
+     "field": "compute_soc",
+     "from": null,
+     "to": "NVIDIA Jetson Orin NX 16GB"
+    },
+    {
+     "field": "compute_source",
+     "from": null,
+     "to": "https://www.unitree.com/G1-D/"
+    },
+    {
+     "field": "compute_tops",
+     "from": null,
+     "to": 100
+    }
+   ]
+  }
+ ]
+}

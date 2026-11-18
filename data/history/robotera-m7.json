@@ -1,0 +1,38 @@
+{
+ "id": "robotera-m7",
+ "name": "ROBOTERA M7",
+ "manufacturer": "RobotEra",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-17",
+   "type": "added",
+   "source": "https://www.robotera.com/en/",
+   "commit": "b596d3e",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://www.robotera.com/en/",
+   "commit": "ae60ceb",
+   "changes": [
+    {
+     "field": "compute_memory_gb",
+     "from": null,
+     "to": 32
+    },
+    {
+     "field": "compute_soc",
+     "from": null,
+     "to": "AMD Ryzen AI 9 HX 370"
+    },
+    {
+     "field": "compute_source",
+     "from": null,
+     "to": "https://docs.cloud.robotera.com/en/manuals/M7/v1.11.0"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,78 @@
+{
+ "id": "youibot-edge",
+ "name": "Edge",
+ "manufacturer": "YOUIBOT",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-17",
+   "type": "added",
+   "source": null,
+   "commit": "b596d3e",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://www.youibot.com/",
+   "commit": "30bdc91",
+   "changes": [
+    {
+     "field": "api_support",
+     "from": null,
+     "to": true
+    },
+    {
+     "field": "note",
+     "from": null,
+     "to": "Launched 2026-06-29 in two tiers at CNY 299,000 and CNY 499,000, both on an omnidirectional high-passage chassis, with the advanced tier upgrading radar, navigation, the waist mechanism and a battery-swap system; the maker claims 90 % task success after about 50 on-site data collections and 24-hour retraining cycles, and 4,000 units were signed for the first batch with eight ecosystem partners. Dimensions, weight, DoF, payload, speed, runtime and battery are not published, so those fields stay empty."
+    },
+    {
+     "field": "official_url",
+     "from": null,
+     "to": "https://www.youibot.com/"
+    },
+    {
+     "field": "release_year",
+     "from": null,
+     "to": 2026
+    },
+    {
+     "field": "sdk_available",
+     "from": null,
+     "to": true
+    },
+    {
+     "field": "sensors",
+     "from": [],
+     "to": [
+      "2 x RoboSense Airy digital LiDAR"
+     ]
+    },
+    {
+     "field": "sources",
+     "from": [],
+     "to": [
+      "https://www.youibot.com/",
+      "https://en.wedoany.com/shortnews/347691.html"
+     ]
+    },
+    {
+     "field": "status",
+     "from": null,
+     "to": "Announced"
+    },
+    {
+     "field": "summary",
+     "from": "",
+     "to": "YOUIBOT's industry-native humanoid (Xifeng, 隙锋, marketed as Edge): a semi-humanoid on an omnidirectional chassis with two RoboSense digital LiDARs, running the FabriX industrial embodied-AI model."
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "official"
+    }
+   ]
+  }
+ ]
+}

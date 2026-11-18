@@ -1,0 +1,61 @@
+{
+ "id": "gac-gomate",
+ "name": "GoMate",
+ "manufacturer": "GAC Group",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-17",
+   "type": "added",
+   "source": "https://www.gacgroup.com/en",
+   "commit": "b596d3e",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://mp.weixin.qq.com/s/bPpAhBKxasnUm80UXLTqGA",
+   "commit": "9796830",
+   "changes": [
+    {
+     "field": "dof",
+     "from": null,
+     "to": 38
+    },
+    {
+     "field": "note",
+     "from": "GAC Group official news pages (gacgroup.com/cn/news/detail?baseid=18961 and 19014) failed to load (HTTP 408 x3); search excerpts of those maker pages state: third-generation full-size wheel-legged humanoid, 38 DoF, variable wheel-foot structure (4-wheel mode ~1.4 m, 2-wheel standing up to 1.75 m), unveiled 26 Dec 2024, runtime up to 6 h. Values left out because page not actually opened. Locomotion is WHEEL-LEGGED (not bipedal). GAC also has a 4th-gen 'GoMate Mini' (1.7 m, 27 DoF, 8 h) per its HKEX filing - different model.",
+     "to": "Maker sources opened 2026-11-17: GAC Group's official WeChat post on the 26 Dec 2024 launch calls GoMate a full-size wheel-legged humanoid ('全尺寸的轮足人形机器人') with 38 DoF and an industry-first variable wheel-foot structure combining four-wheel-foot and two-wheel-foot modes (~1.4 m stable on four, up to 1.75 m standing on two); gacgroup.com history page states 'GoMate行业首创可变轮足'. Runtime up to 6 h on GAC's all-solid-state battery. Locomotion is WHEEL-LEGGED, not bipedal. height_mm left null because it depends on the mode. GoMate Mini is a separate 4th-gen model. | Maker release opened 2026-11-17: GAC Group's own launch article for the 3rd-generation GoMate (2024-12-26, 2024 China Robot Network annual conference) - full-size WHEEL-LEGGED humanoid, 38 DoF, industry-first variable wheel-foot structure (four-wheel mode ~1.4 m, two-wheel standing 1.75 m), solid-state battery, runtime up to 6 h, self-developed hands/drives/motors, about 80% lower energy consumption than comparable products. gacgroup.com/cn/about/history (opened) records the same 2024-12-26 launch. Height stored is the two-wheel standing figure (1.75 m); four-wheel mode is ~1.4 m. DoF = 38 maker-stated. No weight/payload published, so those stay null. Earlier failure of gacgroup.com news detail pages (HTTP 408) is why this record was unconfirmed. GAC also has a 4th-gen 'GoMate Mini' (1.7 m, 27 DoF, 8 h) per its HKEX filing - a different model."
+    },
+    {
+     "field": "runtime_h",
+     "from": null,
+     "to": 6
+    },
+    {
+     "field": "sources",
+     "from": [],
+     "to": [
+      "https://mp.weixin.qq.com/s/bPpAhBKxasnUm80UXLTqGA",
+      "https://www.gacgroup.com/cn/about/history"
+     ]
+    },
+    {
+     "field": "verification",
+     "from": "unconfirmed",
+     "to": "official"
+    },
+    {
+     "field": "height_mm",
+     "from": null,
+     "to": 1750
+    },
+    {
+     "field": "official_url",
+     "from": "https://www.gacgroup.com/en",
+     "to": "https://mp.weixin.qq.com/s/bPpAhBKxasnUm80UXLTqGA"
+    }
+   ]
+  }
+ ]
+}

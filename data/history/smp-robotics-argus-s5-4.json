@@ -1,0 +1,33 @@
+{
+ "id": "smp-robotics-argus-s5-4",
+ "name": "Argus S5.4",
+ "manufacturer": "SMP Robotics",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-17",
+   "type": "added",
+   "source": "https://smprobotics.com/usa/argus-s5-4-nvidia-jetson-orin-third-party-ai-software",
+   "commit": "ebcdc70",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://smprobotics.com/usa/argus-s5-4-nvidia-jetson-orin-third-party-ai-software",
+   "commit": "ae60ceb",
+   "changes": [
+    {
+     "field": "compute_soc",
+     "from": null,
+     "to": "NVIDIA Jetson Orin NX"
+    },
+    {
+     "field": "compute_source",
+     "from": null,
+     "to": "https://smprobotics.com/usa/argus-s5-4-nvidia-jetson-orin-third-party-ai-software"
+    }
+   ]
+  }
+ ]
+}

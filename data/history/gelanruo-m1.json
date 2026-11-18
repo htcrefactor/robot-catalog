@@ -1,0 +1,33 @@
+{
+ "id": "gelanruo-m1",
+ "name": "劳动者 M1 (Laborer M1)",
+ "manufacturer": "Gelanruo Robotics",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-17",
+   "type": "added",
+   "source": "https://www.glroad.com/ListIntroduction/info.aspx?itemid=548",
+   "commit": "b596d3e",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://www.glroad.com/ListIntroduction/info.aspx?itemid=548",
+   "commit": "48ef25e",
+   "changes": [
+    {
+     "field": "name",
+     "from": "M1",
+     "to": "劳动者 M1 (Laborer M1)"
+    },
+    {
+     "field": "note",
+     "from": "Maker is Wuhan Glroad Intelligent Technology (武汉格蓝若); official name '劳动者M1' (Laborer M1). Payload is dual-arm 50 kg; speed stated as '>1.2 m/s'; battery 22 Ah (voltage not stated).",
+     "to": "Maker is Wuhan Glroad Intelligent Technology (武汉格蓝若); the maker's spec sheet names the robot '劳动者M1' (Laborer M1). 1.87 m, 86 kg, 27 DoF, 50 kg dual-arm payload. Speed stated as '>1.2 m/s'; battery 22 Ah (voltage not stated)."
+    }
+   ]
+  }
+ ]
+}

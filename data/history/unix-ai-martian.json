@@ -1,0 +1,38 @@
+{
+ "id": "unix-ai-martian",
+ "name": "Martian",
+ "manufacturer": "UniX AI",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-17",
+   "type": "added",
+   "source": "https://www.unix-group.ai/Martian",
+   "commit": "b596d3e",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://www.unix-group.ai/Martian",
+   "commit": "ae60ceb",
+   "changes": [
+    {
+     "field": "compute_memory_gb",
+     "from": null,
+     "to": 32
+    },
+    {
+     "field": "compute_source",
+     "from": null,
+     "to": "https://www.unix-group.ai/Martian"
+    },
+    {
+     "field": "compute_tops",
+     "from": null,
+     "to": 40
+    }
+   ]
+  }
+ ]
+}

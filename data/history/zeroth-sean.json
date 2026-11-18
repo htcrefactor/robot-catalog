@@ -1,0 +1,38 @@
+{
+ "id": "zeroth-sean",
+ "name": "Sean (N1 / 小恩)",
+ "manufacturer": "Zeroth",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-17",
+   "type": "added",
+   "source": "https://www.zeroth0.com/",
+   "commit": "b596d3e",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://www.zeroth0.com/",
+   "commit": "2e2527b",
+   "changes": [
+    {
+     "field": "note",
+     "from": "Rename/correction: 'Sean' is the English name of Zeroth's N1 (小恩) home collaboration robot - NOT a 155 cm bipedal humanoid as aggregators claim. Maker-supplied IFA 2026 exhibitor copy: wheeled compact home robot, 30 kg, ~0.2 m2 footprint, 14 joints (telescopic left arm 4 joints, right cable-driven arm 7 joints, 3-finger gripper), 2-3 h active use, reach floor to countertop; detachable right arm. Launched at AWE 12 Mar 2026. No product page on zeroth0.com. Aggregator figures (155 cm, 45 kg, 16 DoF, 3 km/h) are not maker-stated.",
+     "to": "Rename/correction: 'Sean' is the English name of Zeroth's N1 (小恩) home collaboration robot - NOT a 155 cm bipedal humanoid as aggregators claim. Maker-supplied IFA 2026 exhibitor copy: wheeled compact home robot, 30 kg, ~0.2 m2 footprint, 14 joints (telescopic left arm 4 joints, right cable-driven arm 7 joints, 3-finger gripper), 2-3 h active use, reach floor to countertop; detachable right arm. Launched at AWE 12 Mar 2026. No product page on zeroth0.com. Aggregator figures (155 cm, 45 kg, 16 DoF, 3 km/h) are not maker-stated. Re-checked 2026-11-17: zeroth0.com opened - its product menu now lists M1 / M1 EDU, W1 and Jupiter only (products/m1, /w1, /jupiter); there is still no N1/Sean product page. The maker-supplied IFA Berlin exhibitor profile remains the only maker document with figures (30 kg, ~0.2 m2 footprint, 14 joints, 2-3 h, floor-to-countertop reach)."
+    },
+    {
+     "field": "sources",
+     "from": [
+      "https://www.ifa-berlin.com/exhibitors/zeroth"
+     ],
+     "to": [
+      "https://www.ifa-berlin.com/exhibitors/zeroth",
+      "https://www.zeroth0.com/"
+     ]
+    }
+   ]
+  }
+ ]
+}

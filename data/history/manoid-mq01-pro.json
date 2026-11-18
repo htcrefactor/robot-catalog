@@ -1,0 +1,28 @@
+{
+ "id": "manoid-mq01-pro",
+ "name": "MQ01 Pro",
+ "manufacturer": "Manoïd",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-17",
+   "type": "added",
+   "source": "https://manoid.fr/en/gamme-mq/",
+   "commit": "b596d3e",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://manoid.fr/en/gamme-mq/",
+   "commit": "ae60ceb",
+   "changes": [
+    {
+     "field": "compute_soc",
+     "from": null,
+     "to": "NVIDIA Jetson Xavier NX"
+    }
+   ]
+  }
+ ]
+}

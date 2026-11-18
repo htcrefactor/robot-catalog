@@ -1,0 +1,38 @@
+{
+ "id": "ai2-robotics-alphabot-2",
+ "name": "AlphaBot 2",
+ "manufacturer": "AI² Robotics",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-17",
+   "type": "added",
+   "source": "https://docs.ai2robotics.com/en/alphabot2/hardware/architecture/",
+   "commit": "b596d3e",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://docs.ai2robotics.com/en/alphabot2/hardware/architecture/",
+   "commit": "ae60ceb",
+   "changes": [
+    {
+     "field": "compute_memory_gb",
+     "from": null,
+     "to": 64
+    },
+    {
+     "field": "compute_soc",
+     "from": null,
+     "to": "NVIDIA Jetson AGX Orin 64GB"
+    },
+    {
+     "field": "compute_source",
+     "from": null,
+     "to": "https://docs.ai2robotics.com/en/alphabot2/hardware/architecture/"
+    }
+   ]
+  }
+ ]
+}

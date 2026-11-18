@@ -1,0 +1,88 @@
+{
+ "id": "highlanders-hlq-edge",
+ "name": "HLQ EDGE",
+ "manufacturer": "Highlanders",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-17",
+   "type": "added",
+   "source": null,
+   "commit": "b596d3e",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://highlanders.ai",
+   "commit": "1173def",
+   "changes": [
+    {
+     "field": "compute_detail",
+     "from": null,
+     "to": "NVIDIA Jetson Orin NX"
+    },
+    {
+     "field": "dof",
+     "from": null,
+     "to": 12
+    },
+    {
+     "field": "height_mm",
+     "from": null,
+     "to": 500
+    },
+    {
+     "field": "note",
+     "from": null,
+     "to": "Maker press release (7 Sep 2026): payload up to 60 kg, walking height adjustable 250-500 mm (500 mm recorded as the top of the range), 12 DoF excluding the rear attachment, joints up to 330 Nm, 48 V battery for 3 h continuous, two depth cameras plus Hand Vision, Jetson Orin NX, 6-channel CAN/USB/RJ-45, Wi-Fi 6 and 5G, rear mount rail for the in-house arm. Mass, footprint and top speed are not published; the earlier HLQ Pro carried 20 kg for 4 h."
+    },
+    {
+     "field": "official_url",
+     "from": null,
+     "to": "https://highlanders.ai"
+    },
+    {
+     "field": "onboard_compute",
+     "from": null,
+     "to": true
+    },
+    {
+     "field": "payload_kg",
+     "from": null,
+     "to": 60
+    },
+    {
+     "field": "runtime_h",
+     "from": null,
+     "to": 3
+    },
+    {
+     "field": "sensors",
+     "from": [],
+     "to": [
+      "Depth camera x2",
+      "Hand Vision"
+     ]
+    },
+    {
+     "field": "sources",
+     "from": [],
+     "to": [
+      "https://prtimes.jp/main/html/rd/p/000000008.000156831.html"
+     ]
+    },
+    {
+     "field": "summary",
+     "from": "",
+     "to": "University of Tokyo spin-off Highlanders' industrial quadruped, driven by a world-model walking AI and rated for 60 kg payloads."
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "official"
+    }
+   ]
+  }
+ ]
+}

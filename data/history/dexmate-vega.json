@@ -1,0 +1,128 @@
+{
+ "id": "dexmate-vega",
+ "name": "Vega",
+ "manufacturer": "Dexmate",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-13",
+   "type": "added",
+   "source": "https://humanoidstore.co/robots/dexmate-vega",
+   "commit": "14cd746",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://www.dexmate.com/product/vega-1-pro",
+   "commit": "976d9e6",
+   "changes": [
+    {
+     "field": "data_source",
+     "from": "HumanoidStore open data (CC BY 4.0)",
+     "to": null
+    },
+    {
+     "field": "dof",
+     "from": 24,
+     "to": 23
+    },
+    {
+     "field": "notes",
+     "from": null,
+     "to": "Issue #17 (2026-11-17): Dexmate Vega 1 Pro - 23 DoF (arms 14, torso 3, head 3, base 3), 135 kg, 5 kg per arm, 20 h per charge. HumanoidStore's 24 DoF corrected to 23 and its US$75,000 removed (Dexmate quotes per configuration). [replaced dof: 24 -> 23 | emptied (no maker value) price_usd=75000; price_note=list 75000 USD (maker), per HumanoidStore, checked 2026-10]"
+    },
+    {
+     "field": "price_note",
+     "from": "list 75000 USD (maker), per HumanoidStore, checked 2026-10",
+     "to": "list price on the maker's own shop (shop.dexmate.ai), hardware only; checked 2026-11"
+    },
+    {
+     "field": "price_usd",
+     "from": 75000,
+     "to": null
+    },
+    {
+     "field": "sources",
+     "from": [
+      "https://humanoidstore.co/robots/dexmate-vega"
+     ],
+     "to": [
+      "https://www.dexmate.com/product/vega-1-pro",
+      "https://shop.dexmate.ai/products/vega",
+      "https://humanoidstore.co/robots/dexmate-vega"
+     ]
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "official"
+    },
+    {
+     "field": "api_support",
+     "from": null,
+     "to": true
+    },
+    {
+     "field": "compute_detail",
+     "from": null,
+     "to": "NVIDIA Jetson AGX Thor"
+    },
+    {
+     "field": "height_mm",
+     "from": null,
+     "to": 660
+    },
+    {
+     "field": "length_mm",
+     "from": null,
+     "to": 660
+    },
+    {
+     "field": "note",
+     "from": null,
+     "to": "Maker product page and its own shop (shop.dexmate.ai): 'Vega 1 Pro' is a general-purpose wheeled humanoid, 23 DoF (arms 14 = 7 each, torso 3, head 3, base 3), 135 kg (298 lb), 5 kg (10+ lb) per arm in any pose (payload_kg = per-arm), floor-to-2.2 m reach, folded 0.66 x 0.56 x 0.66 m and 2.50 m max height with arms raised, 20 h operation per charge, NVIDIA Jetson AGX Thor compute, Python/C++/Rust APIs, SimReady URDF/USD, fleet management, VR and exoskeleton teleoperation, stereo RGB head camera, front and rear LiDAR, 4 base RGB cameras, optional F/T sensing. Maker prices it at USD 75,000 hardware-only on its own shop (end effectors and AI not included), which replaces the HumanoidStore figure. The maker calls out that no autonomy is bundled."
+    },
+    {
+     "field": "official_url",
+     "from": null,
+     "to": "https://www.dexmate.com/product/vega-1-pro"
+    },
+    {
+     "field": "onboard_compute",
+     "from": null,
+     "to": true
+    },
+    {
+     "field": "sdk_available",
+     "from": null,
+     "to": true
+    },
+    {
+     "field": "sdk_name",
+     "from": null,
+     "to": "Python, C++ and Rust APIs with SimReady URDF/USD models and fleet management (DexHub)"
+    },
+    {
+     "field": "sensors",
+     "from": [],
+     "to": [
+      "Stereo RGB camera (head)",
+      "2 LiDAR (front and rear)",
+      "4 RGB cameras (base)"
+     ]
+    },
+    {
+     "field": "summary",
+     "from": "Wheeled (bimanual torso on a wheeled base) humanoid from Dexmate; shipping now, anyone can order.",
+     "to": "Dexmate's general-purpose wheeled humanoid sold as a development platform: two 7-DoF arms on a 3-DoF torso and omni-directional base, with a 20 h battery and Python/C++/Rust APIs."
+    },
+    {
+     "field": "width_mm",
+     "from": null,
+     "to": 560
+    }
+   ]
+  }
+ ]
+}

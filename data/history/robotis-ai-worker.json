@@ -1,0 +1,137 @@
+{
+ "id": "robotis-ai-worker",
+ "name": "AI Worker",
+ "manufacturer": "ROBOTIS",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-13",
+   "type": "added",
+   "source": "https://humanoidstore.co/robots/robotis-ai-worker",
+   "commit": "14cd746",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://ai.robotis.com/ai_worker/hardware_ai_worker.html",
+   "commit": "0c54867",
+   "changes": [
+    {
+     "field": "battery_wh",
+     "from": null,
+     "to": 2040
+    },
+    {
+     "field": "data_source",
+     "from": "HumanoidStore open data (CC BY 4.0)",
+     "to": null
+    },
+    {
+     "field": "notes",
+     "from": null,
+     "to": "Issue #17 (2026-11-17): ROBOTIS AI Worker FFW-SG2 - 604x602x1623 mm, 90 kg, 25 DoF (arms 7x2, grippers 1x2, head 2, lift 1, mobile 6), 3 kg nominal / 5 kg peak per arm, 1.5 m/s, 25 V 80 Ah (2040 Wh). [replaced battery_wh: None -> 2040] HumanoidStore price (US$69000) removed: no maker list price confirmed."
+    },
+    {
+     "field": "price_note",
+     "from": "list 69000 USD (reseller), per HumanoidStore, checked 2026-10",
+     "to": null
+    },
+    {
+     "field": "price_usd",
+     "from": 69000,
+     "to": null
+    },
+    {
+     "field": "sources",
+     "from": [
+      "https://humanoidstore.co/robots/robotis-ai-worker"
+     ],
+     "to": [
+      "https://ai.robotis.com/ai_worker/hardware_ai_worker",
+      "https://ai.robotis.com/ai_worker/hardware_ai_worker.html",
+      "https://robotis.us/ai-worker-ffw-sg2-us/",
+      "https://humanoidstore.co/robots/robotis-ai-worker",
+      "https://www.robotis.com/ko/"
+     ]
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "official"
+    },
+    {
+     "field": "length_mm",
+     "from": null,
+     "to": 602
+    },
+    {
+     "field": "note",
+     "from": null,
+     "to": "Maker spec table for the follower FFW-SG2: 604 x 602 x 1,623 mm, 90 kg, 25 total DOF (arm 7 x 2, gripper 1 x 2, head 2, lift 1, mobile 6), 641 mm arm reach to the wrist, 3.0 kg nominal payload per arm (6.0 kg dual; 5.0 kg / 10.0 kg peak), 1.5 m/s swerve drive, 25 V 80 Ah battery (2,040 Wh), RGBD x 3 + LiDAR x 2 + IMU, NVIDIA Jetson AGX Orin 32GB, ROS 2 / Python / C++ / Web UI, 0-40 C operation, aluminium and plastic exterior. Payload entered as the nominal single-arm figure. Maker store states up to 6 hours of continuous operation on the built-in battery. FFW-BG2 is a Korea-only 19-DOF version without the mobile base; FFW-SH3P is in preparation. The 69,000 USD in this record was a reseller figure (the maker sells by quote) and was removed."
+    },
+    {
+     "field": "official_url",
+     "from": null,
+     "to": "https://ai.robotis.com/ai_worker/hardware_ai_worker.html"
+    },
+    {
+     "field": "onboard_compute",
+     "from": null,
+     "to": "NVIDIA Jetson AGX Orin 32GB"
+    },
+    {
+     "field": "ros_support",
+     "from": null,
+     "to": true
+    },
+    {
+     "field": "sdk_available",
+     "from": null,
+     "to": true
+    },
+    {
+     "field": "sdk_name",
+     "from": null,
+     "to": "ROS 2, Python, C++, Web UI"
+    },
+    {
+     "field": "sensors",
+     "from": [],
+     "to": [
+      "Stereolabs ZED Mini RGBD head camera",
+      "2x Intel RealSense D405 hand cameras",
+      "2x LakiBeam 1 2D LiDAR",
+      "IMU"
+     ]
+    },
+    {
+     "field": "summary",
+     "from": "Wheeled (bimanual torso on a wheeled base) humanoid from ROBOTIS; shipping now, anyone can order.",
+     "to": "ROBOTIS' semi-humanoid industrial platform: a swerve-drive mobile base with dual 7-DOF DYNAMIXEL arms, a lift column and a leader-follower teleoperation rig for imitation learning."
+    },
+    {
+     "field": "width_mm",
+     "from": null,
+     "to": 604
+    },
+    {
+     "field": "kr_distributors",
+     "from": null,
+     "to": [
+      {
+       "name": "로보티즈 (본사 직판·구매 문의)",
+       "kind": "direct",
+       "url": "https://www.robotis.com/ko/"
+      }
+     ]
+    },
+    {
+     "field": "manufacturer_ko",
+     "from": null,
+     "to": "로보티즈"
+    }
+   ]
+  }
+ ]
+}

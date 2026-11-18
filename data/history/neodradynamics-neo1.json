@@ -1,0 +1,38 @@
+{
+ "id": "neodradynamics-neo1",
+ "name": "Neo1",
+ "manufacturer": "NeodraDynamics",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-17",
+   "type": "added",
+   "source": "https://neodradynamics.com/neo1_product_en.html",
+   "commit": "b596d3e",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://neodradynamics.com/neo1_product_en.html",
+   "commit": "7864761",
+   "changes": [
+    {
+     "field": "note",
+     "from": "Maker page (NeodraDynamics / Qingzhuo Power, Beijing): 4 m, ~1.2 t, 41 DOF (7DOF arms x2, 15DOF hands x2), 300 kg single-arm / 600 kg dual-arm payload, -50~300°C, EtherCAT/CANopen. Conflict: maker press releases (PR Newswire Sep/Oct 2026, seen in search excerpts only) state 500 kg dual-arm payload; product page value (600 kg) used. Shown at WRC Aug 2026 and CIIF Oct 2026 with JD Industrial; no price/delivery date -> status left out (prototype-stage per press). Locomotion NOT stated by maker (press imagery suggests a wheeled base, aggregators call it humanoid) - left out; mobility should be checked before including in a mobile-robot catalog.",
+     "to": "Maker page (NeodraDynamics / Qingzhuo Power, Beijing) and the maker's PR of 14 Oct 2026: 4 m, ~1.2 t, 41 full-body active DOF, 7DOF arms x2, 15DOF hands x2, 300 kg single-arm / 600 kg dual-arm payload, -50~300°C, EtherCAT/CANopen. Conflict: the maker's own PR (PR Newswire, 14 Oct 2026) states a 500 kg dual-arm payload; product page value (600 kg) used. Shown at WRC Aug 2026 and CIIF Oct 2026 with JD Industrial; no price or delivery date -> status left out. Scope review (#16, 2026-11-17): kept as an in-scope Humanoid. Mobility is unproven rather than excluded: the maker calls it a full-body humanoid and press breakdowns of the 41 joints count 12 in the legs and feet, but no maker video or text shows it walking or balancing, it was exhibited tethered and script-controlled, and the company told press that walking on legs is not the priority for industrial use and that the plan is to fit the arms on a wheeled base. Locomotion is left at the existing 'Legged' value but is not maker-stated: it follows from the maker calling it a humanoid and from press breakdowns of the joints, so it should be treated as unconfirmed until a maker source or footage shows it moving. If only demonstrated-mobile robots are to count as in scope, Neo1 (with Meta Max) is the pair to reconsider."
+    },
+    {
+     "field": "sources",
+     "from": [
+      "https://neodradynamics.com/neo1_product_en.html"
+     ],
+     "to": [
+      "https://neodradynamics.com/neo1_product_en.html",
+      "https://www.prnewswire.com/news-releases/neodradynamics-showcases-4-meter--1-2-ton-neo1-heavy-duty-hydraulic-robot-with-jd-industrial-at-ciif-hydraulicelectric-hybrid-solves-realworld-4d-industrial-challenges-302908332.html"
+     ]
+    }
+   ]
+  }
+ ]
+}

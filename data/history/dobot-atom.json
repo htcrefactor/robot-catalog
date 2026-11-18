@@ -1,0 +1,107 @@
+{
+ "id": "dobot-atom",
+ "name": "Atom",
+ "manufacturer": "Dobot",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-13",
+   "type": "added",
+   "source": "https://humanoidstore.co/robots/dobot-atom",
+   "commit": "14cd746",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://www.dobot-robots.com/products/humanoid-robots/atom.html",
+   "commit": "4b395bc",
+   "changes": [
+    {
+     "field": "data_source",
+     "from": "HumanoidStore open data (CC BY 4.0)",
+     "to": null
+    },
+    {
+     "field": "notes",
+     "from": null,
+     "to": "Issue #17 (2026-11-17): DOBOT Atom - 1650 mm, about 62 kg without hands, 29 body DoF + 6 DoF per hand = 41, 3.5 kg per arm, 1.5 m/s walking, 2 h, from Dobot's product page and Atom quick-start. HumanoidStore's US$27,530 removed: Dobot publishes no price. [emptied (no maker value) price_usd=27530; price_note=list 27530 USD (maker), per HumanoidStore, checked 2026-10]"
+    },
+    {
+     "field": "price_note",
+     "from": "list 27530 USD (maker), per HumanoidStore, checked 2026-10",
+     "to": null
+    },
+    {
+     "field": "price_usd",
+     "from": 27530,
+     "to": null
+    },
+    {
+     "field": "sources",
+     "from": [
+      "https://humanoidstore.co/robots/dobot-atom"
+     ],
+     "to": [
+      "https://www.dobot-robots.com/products/humanoid-robots/atom.html",
+      "https://dobot-cloud-1256299428.cos.accelerate.myqcloud.com/dobot/Dobot%20Atom%20Humanoid%20Robot%20Quick%20Start_V1.1_20250904_en.pdf",
+      "https://humanoidstore.co/robots/dobot-atom"
+     ]
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "official"
+    },
+    {
+     "field": "compute_detail",
+     "from": null,
+     "to": "Intel i5 base compute; optional 1500 TOPS module (Intel i9 24-core with a 41.15 TFLOPS FP32 GPU)"
+    },
+    {
+     "field": "note",
+     "from": null,
+     "to": "Maker Quick Start V1.1 (2025-09-04) and product page: height about 1650 mm, about 62 kg without hands, 29 DoF without end effectors, 2 head + 7 per arm + 1 waist + 6 per leg, arm reach 600 mm, 3.5 kg per arm with +/-0.05 mm repeatability, 1.5 m/s walking and arm end speed, about 2 h runtime and 2 h charge, Intel i5 base with an optional 1500 TOPS module, head depth + HD stereo camera and 3D LiDAR, two wrist and two waist depth cameras, 360-degree mic and two speakers, secondary development supported. dof 41 is the Atom - Max figure with two 6-DoF dexterous hands (29 + 12). Price is the HumanoidStore listing, not a maker price."
+    },
+    {
+     "field": "official_url",
+     "from": null,
+     "to": "https://www.dobot-robots.com/products/humanoid-robots/atom.html"
+    },
+    {
+     "field": "onboard_compute",
+     "from": null,
+     "to": true
+    },
+    {
+     "field": "sdk_available",
+     "from": null,
+     "to": true
+    },
+    {
+     "field": "sdk_name",
+     "from": null,
+     "to": "Atom SDK (development guide published by Dobot)"
+    },
+    {
+     "field": "sensors",
+     "from": [],
+     "to": [
+      "Depth camera (head)",
+      "HD stereo camera (head)",
+      "3D LiDAR (head)",
+      "2 depth cameras (wrists)",
+      "2 depth cameras (waist)",
+      "360-degree microphone",
+      "Stereo speakers"
+     ]
+    },
+    {
+     "field": "summary",
+     "from": "Full-size humanoid from Dobot; shipping now, anyone can order.",
+     "to": "Dobot's straight-knee walking, dexterous-manipulation industrial humanoid for material handling, beverage service and pharmacy dispensing, sold in Max, Standard, Trainer and Data Collection editions."
+    }
+   ]
+  }
+ ]
+}

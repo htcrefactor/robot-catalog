@@ -1,0 +1,43 @@
+{
+ "id": "pl-universe-zeus-1",
+ "name": "Zeus 1",
+ "manufacturer": "PL-Universe Robotics",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-17",
+   "type": "added",
+   "source": null,
+   "commit": "b596d3e",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": null,
+   "commit": "5150daa",
+   "changes": [
+    {
+     "field": "data_source",
+     "from": null,
+     "to": "No maker source found (checked 2026-11-17)"
+    },
+    {
+     "field": "note",
+     "from": null,
+     "to": "No maker source for a 'Zeus 1' model (checked 2026-11-17): PL-Universe's English site lists only ProWhite and ProWhite Robot 2.0, and the Zeus 1 name with its 42 DoF, 14 hand DoF and 8 h runtime appears only in third-party catalogues. Treated as unconfirmed; ProWhite covers the maker's documented 300 kg wheeled platform."
+    },
+    {
+     "field": "summary",
+     "from": "",
+     "to": "Name used for PL-Universe's heavy industrial wheeled humanoid in third-party catalogues; the maker documents the same platform as ProWhite."
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "unconfirmed"
+    }
+   ]
+  }
+ ]
+}

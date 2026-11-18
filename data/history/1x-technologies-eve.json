@@ -1,0 +1,99 @@
+{
+ "id": "1x-technologies-eve",
+ "name": "EVE",
+ "manufacturer": "1X Technologies",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-13",
+   "type": "added",
+   "source": "https://humanoidstore.co/robots/1x-technologies-eve",
+   "commit": "14cd746",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://www.1x.tech/eve",
+   "commit": "0be5d4c",
+   "changes": [
+    {
+     "field": "image_source",
+     "from": null,
+     "to": "https://www.1x.tech/eve"
+    },
+    {
+     "field": "image_url",
+     "from": null,
+     "to": "https://image.mux.com/uw4pe1rSWH6ho4sahqI5VFAJskWuNEaQYlxsqxYONSY/thumbnail.webp?width=1920&time=14"
+    },
+    {
+     "field": "note",
+     "from": null,
+     "to": "Media (2026-11-17): 1X's EVE page shows the robot only inside its hero film; the still above is a frame of that film (Mux, time=14s). The film is a Mux HLS stream with no downloadable file, so no video entry is recorded."
+    },
+    {
+     "field": "official_url",
+     "from": null,
+     "to": "https://www.1x.tech/eve"
+    },
+    {
+     "field": "sources",
+     "from": [
+      "https://humanoidstore.co/robots/1x-technologies-eve"
+     ],
+     "to": [
+      "https://humanoidstore.co/robots/1x-technologies-eve",
+      "https://www.1x.tech/eve",
+      "https://1x-tech.webflow.io/androids/eve"
+     ]
+    },
+    {
+     "field": "videos",
+     "from": null,
+     "to": []
+    },
+    {
+     "field": "data_source",
+     "from": "HumanoidStore open data (CC BY 4.0)",
+     "to": null
+    },
+    {
+     "field": "dof",
+     "from": 25,
+     "to": null
+    },
+    {
+     "field": "height_mm",
+     "from": 1830,
+     "to": 1880
+    },
+    {
+     "field": "max_speed_mps",
+     "from": 4,
+     "to": 4.02
+    },
+    {
+     "field": "notes",
+     "from": null,
+     "to": "Issue #17 (2026-11-17): from 1X's official EVE page (1x.tech/eve now returns an error; this is 1X's hosted copy) - 6'2\" (1880 mm), 192 lb (87 kg), 9 mph (4.02 m/s) top speed, 33 lb (15 kg) carry, 6 h on a 1-hour charge. DoF 25 had no 1X source and was removed. [replaced height_mm: 1830 -> 1880; weight_kg: 83 -> 87; runtime_h: 4.0 -> 6.0; max_speed_mps: 4 -> 4.02 | emptied (no maker value) dof=25]"
+    },
+    {
+     "field": "runtime_h",
+     "from": 4.0,
+     "to": 6.0
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "official"
+    },
+    {
+     "field": "weight_kg",
+     "from": 83,
+     "to": 87
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,28 @@
+{
+ "id": "visionnav-vne40-66",
+ "name": "VNE40-66",
+ "manufacturer": "VisionNav Robotics",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-17",
+   "type": "added",
+   "source": "https://www.visionnav.com/product/detail/VNE40-66",
+   "commit": "b596d3e",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://www.visionnav.com/product/detail/VNE40-66",
+   "commit": "7864761",
+   "changes": [
+    {
+     "field": "note",
+     "from": "Maker page conflicts with itself on speed: headline 5.59 mph (2.5 m/s, used) vs 'up to 4.5 m/s forward' in its notes. Payload converted from the stated 6,180 lb.",
+     "to": "Scope review (#16, 2026-11-17): kept as an in-scope AGV. Maker page is headed 'VNE40-66 Autonomous Stacking Vehicle' with 3D SLAM navigation and 3D LiDAR perception. Payload converted from the stated 6180 lb. Maker page conflicts with itself on speed: headline 5.59 mph (2.5 m/s, used) vs 'up to 4.5 m/s forward' in its notes."
+    }
+   ]
+  }
+ ]
+}

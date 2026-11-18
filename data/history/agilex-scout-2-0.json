@@ -1,0 +1,96 @@
+{
+ "id": "agilex-scout-2-0",
+ "name": "SCOUT 2.0",
+ "manufacturer": "AgileX Robotics",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-03",
+   "type": "added",
+   "source": "https://global.agilex.ai/products/scout-2-0",
+   "commit": "1a533a7",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://global.agilex.ai/products/scout-2-0",
+   "commit": "c3614dc",
+   "changes": [
+    {
+     "field": "notes",
+     "from": null,
+     "to": "Maker page: 930 x 699 x 337 mm, 67 kg, 50 kg payload, 1.67 m/s, 2.5 h at full load, IP22, 30 deg climb, 115 mm ground clearance, differential drive with double-wishbone suspension. Battery capacity is not on the page; the 720 Wh figure comes from the user manual."
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "official"
+    },
+    {
+     "field": "open_source_repos",
+     "from": null,
+     "to": [
+      {
+       "name": "ugv_sdk",
+       "url": "https://github.com/agilexrobotics/ugv_sdk",
+       "license": "Apache-2.0"
+      },
+      {
+       "name": "scout_ros2",
+       "url": "https://github.com/agilexrobotics/scout_ros2",
+       "license": "Apache-2.0"
+      }
+     ]
+    },
+    {
+     "field": "ros2_support",
+     "from": null,
+     "to": true
+    },
+    {
+     "field": "ros2_url",
+     "from": null,
+     "to": "https://github.com/agilexrobotics/scout_ros2"
+    },
+    {
+     "field": "sdk",
+     "from": null,
+     "to": {
+      "languages": [
+       "C++"
+      ],
+      "open_source": true,
+      "license": "Apache-2.0",
+      "url": "https://github.com/agilexrobotics/ugv_sdk"
+     }
+    },
+    {
+     "field": "sim_models",
+     "from": null,
+     "to": {
+      "urdf": {
+       "url": "https://github.com/agilexrobotics/scout_ros2/blob/humble/scout_description/urdf/scout_v2.urdf",
+       "license": "Apache-2.0"
+      }
+     }
+    },
+    {
+     "field": "sources",
+     "from": [
+      "https://global.agilex.ai/products/scout-2-0",
+      "https://cdn.shopify.com/s/files/1/0551/0630/6141/files/SCOUT_2.0_USER_MANUAL.pdf?v=1787960361"
+     ],
+     "to": [
+      "https://global.agilex.ai/products/scout-2-0",
+      "https://cdn.shopify.com/s/files/1/0551/0630/6141/files/SCOUT_2.0_USER_MANUAL.pdf?v=1787960361",
+      "https://github.com/agilexrobotics/ugv_sdk",
+      "https://github.com/agilexrobotics/scout_ros2",
+      "https://github.com/agilexrobotics/scout_ros2/blob/humble/scout_description/urdf/scout_v2.urdf",
+      "https://github.com/agilexrobotics/pyagxrobots"
+     ]
+    }
+   ]
+  }
+ ]
+}

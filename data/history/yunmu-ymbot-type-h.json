@@ -1,0 +1,95 @@
+{
+ "id": "yunmu-ymbot-type-h",
+ "name": "YMbot Type H",
+ "manufacturer": "Yunmu Intelligent Manufacturing",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-17",
+   "type": "added",
+   "source": null,
+   "commit": "b596d3e",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://www.worldrobotconference.com/profile/robot/download/2026/07/23/20260723170520000751_20260723170520A912.pdf",
+   "commit": "b1429ab",
+   "changes": [
+    {
+     "field": "api_support",
+     "from": null,
+     "to": true
+    },
+    {
+     "field": "battery_wh",
+     "from": null,
+     "to": 1080
+    },
+    {
+     "field": "dof",
+     "from": null,
+     "to": 54
+    },
+    {
+     "field": "height_mm",
+     "from": null,
+     "to": 1700
+    },
+    {
+     "field": "length_mm",
+     "from": null,
+     "to": 500
+    },
+    {
+     "field": "notes",
+     "from": null,
+     "to": "Height 170 cm +/-10 cm with a 170 x 50 x 41 cm body; 54 DoF; minimum passage 1.2 m; turn in place on an AGV base; climbing <=5 deg; arm-end payload about 0.5 kg. Battery 24 V 45 Ah; 1080 Wh derived. CAN bus; ROS 2 interfaces for secondary development."
+    },
+    {
+     "field": "official_url",
+     "from": null,
+     "to": "https://www.worldrobotconference.com/profile/robot/download/2026/07/23/20260723170520000751_20260723170520A912.pdf"
+    },
+    {
+     "field": "payload_kg",
+     "from": null,
+     "to": 0.5
+    },
+    {
+     "field": "ros_support",
+     "from": null,
+     "to": true
+    },
+    {
+     "field": "runtime_h",
+     "from": null,
+     "to": 6
+    },
+    {
+     "field": "sources",
+     "from": [],
+     "to": [
+      "https://www.worldrobotconference.com/profile/robot/download/2026/07/23/20260723170520000751_20260723170520A912.pdf"
+     ]
+    },
+    {
+     "field": "summary",
+     "from": "",
+     "to": "Silicone-skin character robot on an AGV base with twin 6-DoF arms, used for guiding and reception in museums, malls and showrooms."
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "official"
+    },
+    {
+     "field": "width_mm",
+     "from": null,
+     "to": 410
+    }
+   ]
+  }
+ ]
+}

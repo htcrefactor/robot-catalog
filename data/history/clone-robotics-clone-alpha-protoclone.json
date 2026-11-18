@@ -1,0 +1,79 @@
+{
+ "id": "clone-robotics-clone-alpha-protoclone",
+ "name": "Clone Alpha (Protoclone)",
+ "manufacturer": "Clone Robotics",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-13",
+   "type": "added",
+   "source": "https://humanoidstore.co/robots/clone-robotics-clone-alpha-protoclone",
+   "commit": "14cd746",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://www.clonerobotics.com/android",
+   "commit": "4b395bc",
+   "changes": [
+    {
+     "field": "data_source",
+     "from": "HumanoidStore open data (CC BY 4.0)",
+     "to": null
+    },
+    {
+     "field": "notes",
+     "from": null,
+     "to": "Issue #17 (2026-11-17): 170 cm, 60 kg and 164 upper-torso DoF are Clone Robotics' own launch figures (Dec 2024); the current site has no spec table. HumanoidStore rows dropped."
+    },
+    {
+     "field": "sources",
+     "from": [
+      "https://humanoidstore.co/robots/clone-robotics-clone-alpha-protoclone"
+     ],
+     "to": [
+      "https://www.clonerobotics.com/",
+      "https://www.clonerobotics.com/android",
+      "https://www.youtube.com/watch?v=H7dhwFcuUn0"
+     ]
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "official"
+    },
+    {
+     "field": "dof",
+     "from": 164,
+     "to": null
+    },
+    {
+     "field": "height_mm",
+     "from": 1700,
+     "to": null
+    },
+    {
+     "field": "note",
+     "from": null,
+     "to": "Maker pages (clonerobotics.com/android and the 19 Feb 2025 Protoclone announcement video on Clone's own channel) describe a faceless, anatomically accurate bipedal android actuated by over 1,000 Myofiber artificial muscles with a synthetic skeleton, vascular, nervous and muscular systems, over 200 degrees of freedom and roughly 500 sensors, powered by water and electricity, with an on-board GPU. Height, weight and an exact DoF count are not published by the maker, so those fields are empty (the seed 1,700 mm / 60 kg / 164 DoF figures came from HumanoidStore and are not maker values; 'over 200 DoF' is recorded here rather than in dof). The Alpha Edition is open for reservation of the first 279 units with no ship date, so status stays Announced."
+    },
+    {
+     "field": "official_url",
+     "from": null,
+     "to": "https://www.clonerobotics.com/android"
+    },
+    {
+     "field": "summary",
+     "from": "Full-size humanoid from Clone Robotics; announced, anyone can order.",
+     "to": "Clone Robotics' musculoskeletal android built on a synthetic human skeleton and water-powered Myofiber artificial muscles, offered as a 279-unit Alpha Edition reservation."
+    },
+    {
+     "field": "weight_kg",
+     "from": 60,
+     "to": null
+    }
+   ]
+  }
+ ]
+}

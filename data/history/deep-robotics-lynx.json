@@ -1,0 +1,43 @@
+{
+ "id": "deep-robotics-lynx",
+ "name": "DEEP Robotics Lynx (first generation)",
+ "manufacturer": "DEEP Robotics",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-17",
+   "type": "added",
+   "source": "https://www.deeprobotics.cn/en/index/deeproboticslynx.html",
+   "commit": "0a6305b",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://www.deeprobotics.cn/en/index/deeproboticslynx.html",
+   "commit": "11442a0",
+   "changes": [
+    {
+     "field": "note",
+     "from": "Superseded in DEEP's lineup by the LYNX M20 (industrial, 2025) and Lynx S10 (2026); first-gen page still live. Range 15 km, step height 22 cm.",
+     "to": "First generation of the LYNX wheel-legged line. Superseded in DEEP's lineup by the LYNX M20 (industrial, 2025) and Lynx S10 (2026) -> Discontinued: the maker's product list marks the earlier LYNX Sport line as discontinued and offers M20/S10 in its place, and this record's gen-1 page (deeprobotics.cn/en/index/deeproboticslynx.html) now returns 404 (checked 2026-11-17). Range 15 km, step height 22 cm."
+    },
+    {
+     "field": "sources",
+     "from": [
+      "https://www.deeprobotics.cn/en/index/deeproboticslynx.html"
+     ],
+     "to": [
+      "https://www.deeprobotics.cn/en/index/deeproboticslynx.html",
+      "https://www.deeprobotics.us/products/"
+     ]
+    },
+    {
+     "field": "status",
+     "from": "Commercial",
+     "to": "Discontinued"
+    }
+   ]
+  }
+ ]
+}

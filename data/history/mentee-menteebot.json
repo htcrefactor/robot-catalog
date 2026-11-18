@@ -1,0 +1,81 @@
+{
+ "id": "mentee-menteebot",
+ "name": "MenteeBot",
+ "manufacturer": "Mentee Robotics",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-13",
+   "type": "added",
+   "source": "https://humanoidstore.co/robots/mentee-menteebot",
+   "commit": "14cd746",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://www.menteebot.com/bot/",
+   "commit": "976d9e6",
+   "changes": [
+    {
+     "field": "data_source",
+     "from": "HumanoidStore open data (CC BY 4.0)",
+     "to": "Maker sources (verified 2026-11-17)"
+    },
+    {
+     "field": "notes",
+     "from": null,
+     "to": "Issue #17 (2026-11-17): MenteeBot V3 - 175 cm, 70 kg, 40 DoF, up to 25 kg payload, 1.5 m/s from Mentee's own published figures. Mentee publishes no runtime, so the HumanoidStore 4 h was emptied. [emptied (no maker value) runtime_h=3.0]"
+    },
+    {
+     "field": "runtime_h",
+     "from": 3.0,
+     "to": null
+    },
+    {
+     "field": "sources",
+     "from": [
+      "https://humanoidstore.co/robots/mentee-menteebot"
+     ],
+     "to": [
+      "https://webuildhumanoids.com/robots/menteebot-v3",
+      "https://www.menteebot.com/bot/",
+      "https://www.linkedin.com/posts/mentee-robotics_menteebot-v30-teaser-activity-7295086881388552193-yNvT"
+     ]
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "official"
+    },
+    {
+     "field": "note",
+     "from": null,
+     "to": "Maker (checked 2026-11-17): MenteeBot V3.0 stands 175 cm, weighs 70 kg, has 40 DoF, walks up to 1.5 m/s, carries up to 25 kg and runs 3+ h on a hot-swappable battery, with two Jetson AGX Orin computers and 360-degree vision. The maker does not say whether the 25 kg payload applies while walking."
+    },
+    {
+     "field": "official_url",
+     "from": null,
+     "to": "https://www.menteebot.com/bot/"
+    },
+    {
+     "field": "onboard_compute",
+     "from": null,
+     "to": "2x NVIDIA Jetson AGX Orin"
+    },
+    {
+     "field": "sensors",
+     "from": [],
+     "to": [
+      "Head-mounted cameras with 360-degree coverage (fisheye side cameras and rear camera)"
+     ]
+    },
+    {
+     "field": "summary",
+     "from": "Full-size humanoid from Mentee Robotics; announced, restricted sales.",
+     "to": "Mentee Robotics' third-generation humanoid (V3.0): 1.75 m, 70 kg, 40 DoF, up to 25 kg carried, 1.5 m/s walking and 3+ h on a hot-swappable battery."
+    }
+   ]
+  }
+ ]
+}

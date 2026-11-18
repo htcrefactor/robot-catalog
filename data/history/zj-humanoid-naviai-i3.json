@@ -1,0 +1,60 @@
+{
+ "id": "zj-humanoid-naviai-i3",
+ "name": "NAVIAI i3",
+ "manufacturer": "Zhejiang Humanoid Robot Innovation Center",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-17",
+   "type": "added",
+   "source": null,
+   "commit": "b596d3e",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://us.zj-humanoid.com/zujian/2",
+   "commit": "b1429ab",
+   "changes": [
+    {
+     "field": "height_mm",
+     "from": null,
+     "to": 1800
+    },
+    {
+     "field": "max_speed_mps",
+     "from": null,
+     "to": 2.5
+    },
+    {
+     "field": "notes",
+     "from": null,
+     "to": "Maker states 180 cm standing height and a 9 km/h top speed (2.5 m/s, converted). High-torque lower limbs, walking over gravel, slopes and grass, standing-to-crouch transitions. Weight, DoF and payload are not on the maker's product page; press coverage quotes 37 DoF and about 80 kg, which is not recorded here."
+    },
+    {
+     "field": "official_url",
+     "from": null,
+     "to": "https://us.zj-humanoid.com/zujian/2"
+    },
+    {
+     "field": "sources",
+     "from": [],
+     "to": [
+      "https://us.zj-humanoid.com/zujian/2"
+     ]
+    },
+    {
+     "field": "summary",
+     "from": "",
+     "to": "All-terrain bipedal humanoid built for outdoor security patrol and inspection on rough ground."
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "official"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,98 @@
+{
+ "id": "lumen-h1",
+ "name": "Lumen H1",
+ "manufacturer": "Lumen Embodied Intelligence (HECbot)",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-17",
+   "type": "added",
+   "source": null,
+   "commit": "b596d3e",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://www.hecbot.cn/product.html",
+   "commit": "5150daa",
+   "changes": [
+    {
+     "field": "battery_wh",
+     "from": null,
+     "to": 700.0
+    },
+    {
+     "field": "data_source",
+     "from": null,
+     "to": "Maker sources (verified 2026-11-17)"
+    },
+    {
+     "field": "dof",
+     "from": null,
+     "to": 40
+    },
+    {
+     "field": "height_mm",
+     "from": null,
+     "to": 1690
+    },
+    {
+     "field": "max_speed_mps",
+     "from": null,
+     "to": 0.8
+    },
+    {
+     "field": "note",
+     "from": null,
+     "to": "Maker (HECbot / 光谷东智, checked 2026-11-17): 169 cm, 69 kg, 700 Wh, 40 active DoF (7 per arm, 6 per leg, 2 head, 6 per dexterous hand), 2 kg maximum grasp for the whole robot, autonomous navigation up to 0.8 m/s in three steps, 2 h with battery swap, 512 N·m in-house joints, LiDAR and RGB-D. The page does not say whether these figures describe the legged or the wheeled (H1D) variant."
+    },
+    {
+     "field": "official_url",
+     "from": null,
+     "to": "https://www.hecbot.cn/product.html"
+    },
+    {
+     "field": "payload_kg",
+     "from": null,
+     "to": 2.0
+    },
+    {
+     "field": "runtime_h",
+     "from": null,
+     "to": 2.0
+    },
+    {
+     "field": "sensors",
+     "from": [],
+     "to": [
+      "LiDAR",
+      "RGB-D camera"
+     ]
+    },
+    {
+     "field": "sources",
+     "from": [],
+     "to": [
+      "https://www.hecbot.cn/product.html"
+     ]
+    },
+    {
+     "field": "summary",
+     "from": "",
+     "to": "Guanggu Dongzhi's Lumen H1 service humanoid: 1.69 m, 69 kg, 40 active DoF, a 700 Wh battery and 2 h of use, built for reception, guiding and retail service."
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "official"
+    },
+    {
+     "field": "weight_kg",
+     "from": null,
+     "to": 69.0
+    }
+   ]
+  }
+ ]
+}

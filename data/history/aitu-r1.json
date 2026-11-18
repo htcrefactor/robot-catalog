@@ -1,0 +1,28 @@
+{
+ "id": "aitu-r1",
+ "name": "R1",
+ "manufacturer": "Aitu",
+ "updated": "2026-11-17",
+ "events": [
+  {
+   "date": "2026-11-17",
+   "type": "added",
+   "source": "https://en.aitu-ai.com/products/robot",
+   "commit": "b596d3e",
+   "changes": []
+  },
+  {
+   "date": "2026-11-17",
+   "type": "updated",
+   "source": "https://en.aitu-ai.com/products/robot",
+   "commit": "2e2527b",
+   "changes": [
+    {
+     "field": "note",
+     "from": "Maker exists: Aitu (Zhejiang) Intelligent Sewing / 艾图具身智能 (Jack Technology subsidiary); official site shows a wheeled sewing humanoid ('AITU humanoid robot' / 'AI Jenny'). Model name 'R1' appears only in media (planned release 28 Oct 2026), not on maker pages seen.",
+     "to": "Maker exists: Aitu (Zhejiang) Intelligent Sewing / 艾图具身智能 (Jack Technology subsidiary); official site shows a wheeled sewing humanoid ('AITU humanoid robot' / 'AI Jenny'). Model name 'R1' appears only in media (planned release 28 Oct 2026), not on maker pages seen. Re-checked 2026-11-17: en.aitu-ai.com/products/robot opened - the maker shows 'Ai Jenny', a wheeled sewing humanoid, with no model name 'R1' anywhere on the page; 'R1' still appears only in media. Still unconfirmed."
+    }
+   ]
+  }
+ ]
+}

@@ -164,9 +164,10 @@ part of it. `scripts/build_feed.py` turns them into `feed.xml` (Atom).
   "events": [                                    // oldest first, newest last, capped at 100
     {"date": "2026-11-17", "type": "updated",
      "source": "https://mobile-industrial-robots.com/products/robots/mir250",
+     "commit": "4b7ab4b",
      "changes": [{"field": "payload_kg", "from": 250, "to": 260}]},
-    {"date": "2026-11-19", "type": "added", "source": "...", "changes": []},
-    {"date": "2026-11-20", "type": "removed", "source": null, "changes": []}
+    {"date": "2026-11-19", "type": "added", "source": "...", "commit": "...", "changes": []},
+    {"date": "2026-11-20", "type": "removed", "source": null, "commit": "...", "changes": []}
   ]
 }
 ```
@@ -175,5 +176,13 @@ part of it. `scripts/build_feed.py` turns them into `feed.xml` (Atom).
   generated `robots.json`) or `removed` (id disappeared from `data/parts/`; the file stays).
 - `changes[].field` is a record field name, `from`/`to` are the raw values (`null` = not stated).
 - `source` is the record's `official_url`, else its first `sources` entry: the page behind the change.
+- `commit` is the short sha of the commit the event comes from, so a reader can open the change
+  itself: `https://github.com/htcrefactor/robot-catalog/commit/<commit>`. `scripts/backfill_history.py`
+  fills it when it replays `data/parts` history (events before 2026-11-18, when merge.py started
+  writing history); `scripts/merge.py` cannot, because it runs before the commit exists. When a
+  same-day fold takes in several commits, `commit` is the newest of them — the one whose values the
+  event now shows as `to`.
+- `note` is optional: a short qualifier merge.py or the backfill adds, for example the rename a
+  removed + added pair came from (`renamed to <id> in this commit`).
 - A second merge on the same day folds into that day's `updated` event instead of adding a new one,
   so a day of work reads as one entry.
