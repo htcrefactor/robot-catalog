@@ -19,7 +19,7 @@ col_field:"Field",col_type:"Type",col_unit:"Unit",col_meaning:"Meaning",col_pub:
 type_text:"text",type_number:"number",type_bool:"true / false",type_list:"list",type_enum:"one of a fixed set",type_url:"URL",
 data_use_h:"Use it in code",data_use_sub:"The files are static, so URLs are stable: fetching the same URL again gives the latest snapshot, and meta.version says which one you have. GitHub Pages sends Access-Control-Allow-Origin: *, so browser code can fetch the CSV and JSON directly.",
 use_curl:"Command line",use_py:"Python",use_js:"JavaScript",
-use_notes:"In the JSON, numbers are numbers, booleans are true/false, and an unknown value is null. In the CSV every cell is text, an unknown value is an empty cell, and lists (sensors, sources) are separated by \"; \". The CSV is UTF-8 without a byte-order mark and sorted by id.",
+use_notes:"In the JSON, numbers are numbers, booleans are true/false, and an unknown value is null. In the CSV every cell is text, an unknown value is an empty cell, and lists (sensors, sources, certifications and the other list columns) are separated by \"; \". The CSV is UTF-8 without a byte-order mark and sorted by id.",
 data_links_h:"Elsewhere",lnk_changelog:"Release notes page",lnk_schema:"SCHEMA.md",lnk_readme:"README",lnk_agents:"AGENTS.md — data rules",lnk_repo:"Repository",lnk_issue:"Report a correction or ask for a field"
 });
 Object.assign(I18N.ko, {
@@ -41,12 +41,12 @@ col_field:"항목",col_type:"형식",col_unit:"단위",col_meaning:"뜻",col_pub
 type_text:"텍스트",type_number:"숫자",type_bool:"true / false",type_list:"목록",type_enum:"정해진 값 중 하나",type_url:"URL",
 data_use_h:"코드에서 쓰기",data_use_sub:"정적 파일이라 URL이 고정입니다. 같은 URL을 다시 받으면 최신 스냅샷이 오고, meta.version으로 어느 버전인지 알 수 있습니다. GitHub Pages가 Access-Control-Allow-Origin: *를 보내므로 브라우저 코드에서도 CSV와 JSON을 바로 받을 수 있습니다.",
 use_curl:"명령줄",use_py:"파이썬",use_js:"자바스크립트",
-use_notes:"JSON에서는 숫자가 숫자로, true/false가 불리언으로 오고 모르는 값은 null입니다. CSV에서는 모든 칸이 텍스트이고 모르는 값은 빈 칸이며, 목록(sensors, sources)은 \"; \"로 구분합니다. CSV는 BOM 없는 UTF-8이고 id 순으로 정렬되어 있습니다.",
+use_notes:"JSON에서는 숫자가 숫자로, true/false가 불리언으로 오고 모르는 값은 null입니다. CSV에서는 모든 칸이 텍스트이고 모르는 값은 빈 칸이며, 목록(sensors, sources, certifications 등)은 \"; \"로 구분합니다. CSV는 BOM 없는 UTF-8이고 id 순으로 정렬되어 있습니다.",
 data_links_h:"함께 보기",lnk_changelog:"변경 내역 페이지",lnk_schema:"SCHEMA.md",lnk_readme:"README",lnk_agents:"AGENTS.md — 데이터 규칙",lnk_repo:"저장소",lnk_issue:"수정 제안·항목 요청"
 });
 // Field groups, in page order.
-const DATA_GROUPS={identity:{en:"Identity",ko:"식별"},size:{en:"Size and mass",ko:"크기와 무게"},
- motion:{en:"Motion and power",ko:"이동과 동력"},software:{en:"Software and compute",ko:"소프트웨어와 컴퓨팅"},
+const DATA_GROUPS={identity:{en:"Identity",ko:"식별"},korean:{en:"Korean market",ko:"한국 시장"},size:{en:"Size and mass",ko:"크기와 무게"},
+ motion:{en:"Motion and power",ko:"이동과 동력"},software:{en:"Software and compute",ko:"소프트웨어와 컴퓨팅"},safety:{en:"Safety and certification",ko:"안전과 인증"},
  price:{en:"Price",ko:"가격"},provenance:{en:"Links and provenance",ko:"링크와 출처"}};
 // One entry per CSV column, in CSV order. t = type, u = unit, g = group.
 const DATA_FIELDS=[
@@ -84,5 +84,26 @@ const DATA_FIELDS=[
 {k:"summary",t:"text",u:"",g:"provenance",en:"One plain sentence on what the robot is for (English).",ko:"이 로봇이 무엇에 쓰이는지 한 문장(영어)."},
 {k:"sources",t:"list",u:"",g:"provenance",en:"URLs actually opened for the numbers. In the CSV: separated by \"; \".",ko:"값을 확인하려 실제로 연 URL. CSV에서는 \"; \"로 구분."},
 {k:"verification",t:"enum",u:"",g:"provenance",en:"official = checked against a maker source; unconfirmed = no maker source found; empty = not checked yet.",ko:"official은 제조사 출처로 확인, unconfirmed는 제조사 출처를 찾지 못함, 빈 값은 아직 미확인."},
-{k:"data_source",t:"text",u:"",g:"provenance",en:"Set when the whole record comes from a third-party open dataset, with that dataset's attribution (e.g. HumanoidStore, CC BY 4.0).",ko:"레코드 전체가 제3자 오픈 데이터에서 온 경우 그 출처 표기를 적습니다(예: HumanoidStore, CC BY 4.0)."}
+{k:"data_source",t:"text",u:"",g:"provenance",en:"Set when the whole record comes from a third-party open dataset, with that dataset's attribution (e.g. HumanoidStore, CC BY 4.0).",ko:"레코드 전체가 제3자 오픈 데이터에서 온 경우 그 출처 표기를 적습니다(예: HumanoidStore, CC BY 4.0)."},
+{k:"name_ko",t:"text",u:"",g:"korean",en:"Official Korean product name from the maker's Korean page. Empty when the maker publishes none (a model number stays as it is).",ko:"제조사 한국어 페이지의 공식 국문 제품명. 제조사가 국문 이름을 두지 않으면 비어 있습니다(모델명은 그대로)."},
+{k:"manufacturer_ko",t:"text",u:"",g:"korean",en:"Korean name of the maker, as the maker writes it.",ko:"제조사가 스스로 쓰는 국문 회사명."},
+{k:"kr_distributors",t:"list",u:"",g:"korean",en:"Korean sales channels, by name: the maker's own Korean sales, an official distributor or a reseller. In the CSV, names are separated by a semicolon and a space; each channel's URL and kind stay in the JSON.",ko:"한국 판매 경로의 이름: 제조사 직판, 공식 유통사, 리셀러. CSV에서는 이름을 세미콜론과 공백으로 구분하며, 각 경로의 URL과 종류는 JSON에 있습니다."},
+{k:"compute_soc",t:"text",u:"",g:"software",en:"Chip or SoC as the maker states it, e.g. NVIDIA Jetson Orin NX 16GB.",ko:"제조사가 적은 칩·SoC 표기 그대로(예: NVIDIA Jetson Orin NX 16GB)."},
+{k:"compute_tops",t:"number",u:"TOPS",g:"software",en:"Onboard AI performance in TOPS as the maker states it. A figure the maker gives in TFLOPS is a different metric: it is not converted and stays in compute_detail.",ko:"제조사가 밝힌 온보드 AI 성능(TOPS). TFLOPS로 밝힌 값은 다른 지표라 환산하지 않고 compute_detail에만 둡니다."},
+{k:"compute_memory_gb",t:"number",u:"GB",g:"software",en:"Memory of the computer named in compute_soc; the first stated value when the maker gives a range.",ko:"compute_soc에 적힌 컴퓨터의 메모리. 범위로 밝히면 처음 값만 씁니다."},
+{k:"compute_source",t:"url",u:"",g:"software",en:"Maker page or datasheet that states these compute values. Always also in sources.",ko:"이 컴퓨팅 값을 밝힌 제조사 페이지나 데이터시트. 항상 sources에도 있습니다."},
+{k:"ros2_support",t:"bool",u:"",g:"software",en:"true when the maker publishes official ROS 2 packages.",ko:"제조사가 공식 ROS 2 패키지를 공개하면 true."},
+{k:"ros2_url",t:"url",u:"",g:"software",en:"The maker's ROS 2 packages or documentation.",ko:"제조사의 ROS 2 패키지 또는 문서."},
+{k:"sdk_url",t:"url",u:"",g:"software",p:"sdk.url",en:"Link to the maker's SDK repository or download page (the URL inside the record's sdk object).",ko:"제조사 SDK 저장소나 내려받기 페이지(레코드의 sdk 객체 안 URL)."},
+{k:"sdk_license",t:"text",u:"",g:"software",p:"sdk.license",en:"Licence the maker's SDK is published under: an SPDX id, or the licence's own name when it is not an open-source licence.",ko:"제조사 SDK의 라이선스. SPDX 식별자, 오픈소스가 아니면 그 라이선스의 고유 명칭."},
+{k:"sim_models",t:"list",u:"",g:"software",en:"Official simulation models the maker publishes, by key: urdf, mjcf, usd, isaac, mujoco, gazebo. In the CSV, keys are separated by a semicolon and a space; each model's URL and licence stay in the JSON.",ko:"제조사가 공개한 공식 시뮬레이션 모델의 키: urdf, mjcf, usd, isaac, mujoco, gazebo. CSV에서는 세미콜론과 공백으로 구분하며, 각 모델의 URL과 라이선스는 JSON에 있습니다."},
+{k:"safety_standards",t:"list",u:"",g:"safety",en:"Standards the maker states the robot is designed or certified to, in the maker's own wording, e.g. ISO 3691-4. In the CSV, entries are separated by a semicolon and a space.",ko:"제조사가 이 로봇이 설계·인증되었다고 밝힌 표준을 제조사 표기대로(예: ISO 3691-4). CSV에서는 세미콜론과 공백으로 구분합니다."},
+{k:"certifications",t:"list",u:"",g:"safety",en:"Marks and certificates the maker states, e.g. CE, UL 3100, FCC Part 15 Subpart B, KC, KIRIA. In the CSV, entries are separated by a semicolon and a space.",ko:"제조사가 밝힌 인증 마크(예: CE, UL 3100, FCC Part 15 Subpart B, KC, KIRIA). CSV에서는 세미콜론과 공백으로 구분합니다."},
+{k:"safety_pl",t:"text",u:"",g:"safety",en:"Stated performance level or safety integrity, e.g. PL d, SIL 2.",ko:"제조사가 밝힌 성능등급·안전무결성(예: PL d, SIL 2)."},
+{k:"safety_source",t:"url",u:"",g:"safety",en:"Maker page that states these safety values. Always also in sources. An exclusion, a scope limit or an explicit absence of certification is in safety_note in the JSON.",ko:"이 안전 값을 밝힌 제조사 페이지. 항상 sources에도 있습니다. 적용 제외나 범위 한정, 인증이 없다는 명시는 JSON의 safety_note에 있습니다."},
+{k:"price_latest_amount",t:"number",u:"in price_latest_currency",g:"price",p:"price_observations",en:"Amount of the newest dated price observation, as the maker states it. No conversion and no average, and KRW is never stored. Where several observations share the newest date, the first list price among them is used and the others stay in the JSON.",ko:"가장 최근 날짜의 가격 기록값(제조사 표기 그대로). 환산도 평균도 하지 않으며 KRW는 저장하지 않습니다. 같은 날짜 기록이 여럿이면 그중 첫 정가(kind가 list인 값)를 쓰고 나머지는 JSON에 남습니다."},
+{k:"price_latest_currency",t:"text",u:"",g:"price",p:"price_observations",en:"ISO 4217 code of that price, e.g. USD. The site converts to KRW at display time with the rate in data/fx.json.",ko:"그 가격의 ISO 4217 통화 코드(예: USD). 사이트는 data/fx.json의 환율로 화면에 보일 때만 KRW로 환산합니다."},
+{k:"price_latest_date",t:"text",u:"YYYY-MM-DD",g:"price",p:"price_observations",en:"Day the price was checked on the maker's page, as YYYY-MM-DD. Never a date the page does not state.",ko:"제조사 페이지에서 가격을 확인한 날(YYYY-MM-DD). 페이지에 적히지 않은 날짜는 쓰지 않습니다."},
+{k:"price_latest_kind",t:"enum",u:"",g:"price",p:"price_observations",en:"list = the model's price, from = a starting price, rental = a hire or subscription rate, edu = an education edition.",ko:"list = 모델 가격, from = 시작가, rental = 임대·구독 요금, edu = 교육용 에디션."},
+{k:"price_latest_source",t:"url",u:"",g:"price",p:"price_observations",en:"The maker page or the maker's own store that states that price. Always also in sources.",ko:"그 가격을 밝힌 제조사 페이지나 제조사 자체 스토어. 항상 sources에도 있습니다."}
 ];

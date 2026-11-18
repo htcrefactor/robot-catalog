@@ -68,6 +68,34 @@
 }
 Rules: never guess; unknown = null. Prefer manufacturer spec pages/datasheets. Numbers as numbers.
 
+## Open-data export (`data/robots.csv`)
+`scripts/catalog_data.py` holds `CSV_COLUMNS` and `csv_row()`; `scripts/merge.py` writes the file and
+`scripts/validate.py` fails when the committed CSV no longer matches `data/parts/` cell for cell. A
+column carries the name of the record field it comes from, `id` stays the first column, and a new
+column is appended at the end so an existing reader's script keeps working. The CSV is an export
+of values that are already in the records: no derived figure, no KRW, no score or ranking column.
+
+Twenty-one columns were appended on 2026-11-18 (Issue #65) for the fields added that day: the
+Korean-market fields (`name_ko`, `manufacturer_ko`, `kr_distributors`), the structured compute
+fields (`compute_soc`, `compute_tops`, `compute_memory_gb`, `compute_source`), developer readiness
+(`ros2_support`, `ros2_url`, `sdk_url`, `sdk_license`, `sim_models`), safety (`safety_standards`,
+`certifications`, `safety_pl`, `safety_source`) and the dated price (`price_latest_*`), taking the
+file from 35 to 56 columns. `data.html` lists every one of them with its unit, in EN and KO.
+
+Five record fields are nested, so the CSV carries their headline value in one flat column:
+
+| Column | Taken from | Rule |
+| --- | --- | --- |
+| `kr_distributors` | `kr_distributors[].name` | names joined with `; `. Each channel's `url` and `kind` stay in the JSON. |
+| `sdk_url` | `sdk.url` | as stored |
+| `sdk_license` | `sdk.license` | as stored |
+| `sim_models` | the keys of `sim_models` | joined in the order `urdf`, `mjcf`, `usd`, `isaac`, `mujoco`, `gazebo`, e.g. `urdf; mjcf`. Each model's URL and licence stay in the JSON. |
+| `price_latest_amount`, `_currency`, `_date`, `_kind`, `_source` | the newest `price_observations` entry | newest by `date`; where several observations share that date (one per variant), the first with `kind: "list"`, else the first. The other observations, and their per-variant `note`, stay in the JSON. No figure is averaged, ranged or converted. |
+
+Every other new column is a plain record field exported as it is, lists joined with `; ` and an
+unset value as an empty cell. A record that has no such value gets an empty cell in the CSV and no
+key in the JSON — nothing is filled in to make the column look complete.
+
 ## Dated price observations (`price_observations`)
 A price is a dated observation, not a standing fact: maker prices change, and a number without the
 day it was checked cannot be compared with another. Each entry is
