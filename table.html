@@ -1,8 +1,9 @@
-<!doctype html><html lang="en"><head><script async src="https://www.googletagmanager.com/gtm.js?id=GTM-N5QZLXVX"></script><script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());</script><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><link rel="stylesheet" href="assets/style.css"><script src="assets/i18n.js"></script><script src="assets/specs-i18n.js"></script><script src="assets/app.js"></script><script src="assets/price.js"></script><script src="assets/safety.js"></script><script src="assets/compute.js"></script><meta name="description" content="Side-by-side table of mobile robot specs: humanoids, quadrupeds, AMRs and more."><title>Mega table — Robot Catalog</title></head>
+<!doctype html><html lang="en"><head><script async src="https://www.googletagmanager.com/gtm.js?id=GTM-N5QZLXVX"></script><script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());</script><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><link rel="stylesheet" href="assets/style.css"><script src="assets/i18n.js"></script><script src="assets/specs-i18n.js"></script><script src="assets/app.js"></script><script src="assets/reqfilter.js"></script><script src="assets/price.js"></script><script src="assets/safety.js"></script><script src="assets/compute.js"></script><meta name="description" content="Side-by-side table of mobile robot specs: humanoids, quadrupeds, AMRs and more."><title>Mega table — Robot Catalog</title></head>
 <body><script>nav("table.html")</script>
 <main style="max-width:none">
 <h1 data-i18n="table_title"></h1><p class="muted" data-i18n="table_sub"></p>
 <div class="controls"><input type="search" id="q" data-i18n-ph="filter"><select id="cat"></select><select id="chip"></select><select id="price"></select><select id="sf"></select><select id="pc"></select><label class="small chk" id="verL"><input type="checkbox" id="ver"> <span id="verT"></span></label><button class="btn" id="csv" data-i18n="csv"></button><span class="small muted" id="n"></span></div>
+<div class="controls reqbar" id="reqf"></div>
 <p class="small muted" id="fx"></p>
 <div class="tablewrap"><table class="mega" id="t"></table></div>
 </main><div id="foot"></div>
@@ -11,25 +12,41 @@ document.title=t("table_title")+" — "+t("brand");
 const COLS=[["name","robot"],["name_ko","col_name_ko"],["manufacturer","col_maker"],["country","col_country",0,1],["kr_distributors","col_kr"],["category","category",0,1],["locomotion","col_loco",0,1],["status","col_status",0,1],["release_year","col_year",1],["length_mm","L mm",1],["width_mm","W mm",1],["height_mm","H mm",1],["weight_kg","weight",1,0,"kg"],["payload_kg","payload",1,0,"kg"],["payload_class","payload_class"],["max_speed_mps","max_speed",1,0,"m/s"],["min_speed_mps","min_speed",1,0,"m/s"],["wheel_diameter_mm","wheel_d",1,0,"mm"],["wheel_count","wheels",1],["dof","dof",1],["runtime_h","runtime",1,0,"h"],["battery_wh","battery",1,0,"Wh"],["ip_rating","ip"],["certifications","certifications"],["safety_standards","standards"],["safety_pl","perf_level"],["api_support","api","b"],["sdk_available","sdk","b"],["sdk_name","col_sdkname"],["ros_support","ros","b"],["onboard_compute","onboard","b"],["compute_detail","compute"],["compute_soc","compute_soc"],["compute_tops","compute_tops",1,0,"TOPS"],["compute_memory_gb","compute_memory",1,0,"GB"],["sensors","sensors"],["price_usd","price",1,0,"USD"],["price_note","col_pricenote"],["_krw","col_price_krw",1],["_dated","col_price_dated"]];
 const head=([k,l,,,u])=>t(l)+(u?` (${u})`:"");
 let all=[],key="manufacturer",asc=true;
+let req={match:()=>true,note:()=>{}}; // requirement minimums (assets/reqfilter.js)
+const P0=new URLSearchParams(location.search); // filter state is read from the URL, so a filtered view can be shared
+// write this page's filter state back to the query, leaving other keys (requirement minimums) as they are
+function writeURL(){const p=new URLSearchParams(location.search);const set=(k,v)=>{if(v)p.set(k,v);else p.delete(k);};
+set("q",document.getElementById("q").value.trim());set("cat",document.getElementById("cat").value==="All"?"":document.getElementById("cat").value);
+set("chip",document.getElementById("chip").value);set("price",document.getElementById("price").value==="all"?"":document.getElementById("price").value);
+set("sf",document.getElementById("sf").value);set("pc",document.getElementById("pc").value);set("ver",document.getElementById("ver").checked?"1":"");
+set("sort",key!=="manufacturer"?key:"");set("dir",asc?"":"desc");
+history.replaceState(null,"",location.pathname+(p.toString()?"?"+p:"")+location.hash);}
 function rows(){const q=document.getElementById("q").value.toLowerCase(),c=document.getElementById("cat").value,ch=document.getElementById("chip").value,pf=document.getElementById("price").value,vo=document.getElementById("ver").checked,sf=document.getElementById("sf").value,pc=document.getElementById("pc").value;
-return all.filter(r=>(!vo||makerVerified(r))&&(c==="All"||r.category===c)&&(!ch||chipIds(r).includes(ch))&&safetyMatch(r,sf)&&(!pc||payloadClassOf(r.payload_kg)===pc)&&(!q||JSON.stringify(r).toLowerCase().includes(q))&&inBand(r._krw,pf)).sort((a,b)=>{let x=a[key],y=b[key];if(key==="kr_distributors"){x=(x||[]).map(d=>d.name).join(", ");y=(y||[]).map(d=>d.name).join(", ")}if(x==null&&y==null)return 0;if(x==null)return 1;if(y==null)return -1;if(typeof x==="string")return asc?x.localeCompare(y):y.localeCompare(x);return asc?(x>y)-(x<y):(y>x)-(y<x)});}
+return all.filter(r=>req.match(r)&&(!vo||makerVerified(r))&&(c==="All"||r.category===c)&&(!ch||chipIds(r).includes(ch))&&safetyMatch(r,sf)&&(!pc||payloadClassOf(r.payload_kg)===pc)&&(!q||JSON.stringify(r).toLowerCase().includes(q))&&inBand(r._krw,pf)).sort((a,b)=>{let x=a[key],y=b[key];if(key==="kr_distributors"){x=(x||[]).map(d=>d.name).join(", ");y=(y||[]).map(d=>d.name).join(", ")}if(x==null&&y==null)return 0;if(x==null)return 1;if(y==null)return -1;if(typeof x==="string")return asc?x.localeCompare(y):y.localeCompare(x);return asc?(x>y)-(x<y):(y>x)-(y<x)});}
 function inBand(v,pf){if(pf==="all")return true;if(pf==="has")return v!=null;if(pf==="none")return v==null;if(v==null)return false;if(pf==="b1")return v<5e6;if(pf==="b2")return v>=5e6&&v<2e7;if(pf==="b3")return v>=2e7&&v<5e7;if(pf==="b4")return v>=5e7;return true;}
 function cell(r,[k,,ty,tr]){const v=r[k];if(k==="_krw")return `<td class="num">${v==null?"—":krwText(v)}</td>`;if(k==="_dated")return `<td>${v?`${esc(v)}<div class="small muted">${esc(r._date||"")}</div>`:"—"}</td>`;if(k==="payload_class")return `<td>${esc(payloadClassLabel(r.payload_kg))||"—"}</td>`;if(k==="name")return `<td><a href="robot.html?id=${encodeURIComponent(r.id)}">${esc(v)}</a></td>`;if(ty==="b")return `<td>${yn(v)}</td>`;if(Array.isArray(v)){const s=v.map(x=>typeof x==="object"&&x?(x.name??""):x).filter(Boolean).join(", ");return `<td>${esc(s)||"—"}</td>`}return `<td class="${ty?"num":""}">${fmt(tr?tv(v):v)}</td>`}
-function render(){const R=rows();const vo=document.getElementById("ver").checked;document.getElementById("n").textContent=vo?t("verified_n",{n:R.length,m:all.length}):`${R.length} ${t("robots")}`;
+function render(){const R=rows();const vo=document.getElementById("ver").checked;req.note(R.length,all.length);document.getElementById("n").textContent=vo?t("verified_n",{n:R.length,m:all.length}):`${R.length} ${t("robots")}`;
 document.getElementById("t").innerHTML=`<thead><tr>${COLS.map(c=>`<th data-k="${c[0]}" class="${c[0]===key?"sorted"+(asc?" asc":""):""}">${head(c)}</th>`).join("")}</tr></thead><tbody>${R.map(r=>`<tr>${COLS.map(c=>cell(r,c)).join("")}</tr>`).join("")}</tbody>`;}
-document.getElementById("t").onclick=e=>{const k=e.target.dataset.k;if(!k)return;if(k===key)asc=!asc;else{key=k;asc=true}render()};
+document.getElementById("t").onclick=e=>{const k=e.target.dataset.k;if(!k)return;if(k===key)asc=!asc;else{key=k;asc=true}writeURL();render()};
 document.getElementById("csv").onclick=()=>{const R=rows();const q=v=>{v=Array.isArray(v)?v.map(x=>typeof x==="object"&&x?(x.name??""):x).filter(Boolean).join("; "):v??"";v=String(v);return /[",\n]/.test(v)?`"${v.replace(/"/g,'""')}"`:v};
 const out="\ufeff"+[COLS.map(head).concat(["Official URL"]).map(q).join(","),...R.map(r=>COLS.map(([k])=>q(r[k])).concat([q(r.official_url)]).join(","))].join("\n");
 const a=document.createElement("a");a.href=URL.createObjectURL(new Blob([out],{type:"text/csv"}));a.download="robot-catalog.csv";a.click();};
-(async()=>{const d=await loadData();const fx=await loadFx();all=d.robots.map(r=>{const o=latestObs(r);r._krw=o?obsKrw(o,fx):null;r._date=o?o.date:null;r._dated=o?`${money(o.amount,o.currency)} · ${kindText(o.kind)}`:null;return r;});document.getElementById("foot").innerHTML=footer(d.meta);document.getElementById("fx").textContent=fxNote(fx);
-document.getElementById("verT").textContent=t("verified_only");document.getElementById("verL").title=t("verified_only_t");document.getElementById("ver").onchange=render;
-const sel=document.getElementById("cat");sel.add(new Option(t("all_cats"),"All"));CATS.filter(c=>all.some(r=>r.category===c)).forEach(c=>sel.add(new Option(tv(c),c)));sel.onchange=render;
-const ps=document.getElementById("price");[["all","price_all"],["has","price_has"],["none","price_none"],["b1","price_band_1"],["b2","price_band_2"],["b3","price_band_3"],["b4","price_band_4"]].forEach(([v,k])=>ps.add(new Option(t(k),v)));ps.onchange=render;
-const sf=document.getElementById("sf"),pc=document.getElementById("pc");safetyOptions(sf,"sf_any");payloadOptions(pc);sf.onchange=render;pc.onchange=render;
+(async()=>{const d=await loadData();const fx=await loadFx();all=d.robots.map(r=>{const o=latestObs(r);r._krw=o?obsKrw(o,fx):null;r._date=o?o.date:null;r._dated=o?`${money(o.amount,o.currency)} · ${kindText(o.kind)}`:null;return r;});
+req=makeReqFilters({el:document.getElementById("reqf"),robots:all,onChange:()=>render()});
+document.getElementById("foot").innerHTML=footer(d.meta);document.getElementById("fx").textContent=fxNote(fx);
+document.getElementById("verT").textContent=t("verified_only");document.getElementById("verL").title=t("verified_only_t");document.getElementById("ver").onchange=()=>{writeURL();render();};
+const sel=document.getElementById("cat");sel.add(new Option(t("all_cats"),"All"));CATS.filter(c=>all.some(r=>r.category===c)).forEach(c=>sel.add(new Option(tv(c),c)));if([...sel.options].some(o=>o.value===P0.get("cat")))sel.value=P0.get("cat");sel.onchange=()=>{writeURL();render();};
+const ps=document.getElementById("price");[["all","price_all"],["has","price_has"],["none","price_none"],["b1","price_band_1"],["b2","price_band_2"],["b3","price_band_3"],["b4","price_band_4"]].forEach(([v,k])=>ps.add(new Option(t(k),v)));if([...ps.options].some(o=>o.value===P0.get("price")))ps.value=P0.get("price");ps.onchange=()=>{writeURL();render();};
+const sf=document.getElementById("sf"),pc=document.getElementById("pc");safetyOptions(sf,"sf_any");payloadOptions(pc);
+const pick=(el,v)=>{if(v&&[...el.options].some(o=>o.value===v))el.value=v;};pick(sf,P0.get("sf"));pick(pc,P0.get("pc"));
+sf.onchange=()=>{writeURL();render();};pc.onchange=()=>{writeURL();render();};
 const fams=new Map();all.forEach(r=>chipIds(r).forEach(id=>fams.set(id,(fams.get(id)||0)+1)));
 const chSel=document.getElementById("chip");chSel.setAttribute("aria-label",t("chip"));chSel.add(new Option(t("all_chips"),""));
 [...fams.entries()].sort((a,b)=>b[1]-a[1]||chipLabel(a[0]).localeCompare(chipLabel(b[0]))).forEach(([id,n])=>chSel.add(new Option(`${chipLabel(id)} (${n})`,id)));
-const want=new URLSearchParams(location.search).get("chip")||"";if([...chSel.options].some(o=>o.value===want))chSel.value=want;
-chSel.onchange=render;
-document.getElementById("q").oninput=render;render();})();
+if([...chSel.options].some(o=>o.value===P0.get("chip")))chSel.value=P0.get("chip");
+chSel.onchange=()=>{writeURL();render();};
+document.getElementById("q").value=P0.get("q")||"";document.getElementById("q").oninput=()=>{writeURL();render();};
+document.getElementById("ver").checked=P0.get("ver")==="1";
+if(COLS.some(c=>c[0]===P0.get("sort")))key=P0.get("sort");asc=P0.get("dir")!=="desc";
+render();})();
 </script></body></html>
