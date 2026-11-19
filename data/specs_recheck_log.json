@@ -84,6 +84,18 @@
         "date": "2026-11-14",
         "result": "HumanoidStore verified vs EngineAI homepage: matched (170 cm, 2 m/s, 32 DoF); maker page lists no weight/runtime; added 3 rows"
       }
+    ],
+    "embodied-ai-air01": [
+      {
+        "date": "2026-11-19",
+        "result": "no new maker datasheet; embodiedai.ch and the 6 Nov release still give no height/weight/DoF/payload (third-party sites quoting 160 cm/65 kg not added)"
+      }
+    ],
+    "kuwa-x1": [
+      {
+        "date": "2026-11-19",
+        "result": "added 14 rows from the maker X1 parameter table (gross mass, bin/tank volumes, working width/speed, sweeping rate, turning diameter, gradient, noise)"
+      }
     ]
   }
 }

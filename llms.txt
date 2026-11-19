@@ -1,13 +1,13 @@
 # Robot Catalog
 
-> Open catalog of 993 mobile robots in 9 categories — humanoids, quadrupeds, AMRs, AGVs, wheel-legged robots, delivery robots and development platforms — each with its published specs and the maker source behind every value.
+> Open catalog of 996 mobile robots in 9 categories — humanoids, quadrupeds, AMRs, AGVs, wheel-legged robots, delivery robots and development platforms — each with its published specs and the maker source behind every value.
 
-Robot Catalog is a static, bilingual (English/Korean) catalog of mobile robots by 452 makers. Every value comes from the maker's own page, datasheet, manual, press release or lab paper and is linked on the robot's page; where the maker states nothing the field stays empty rather than being estimated. The catalog records published specs only — there is no scoring, no rating and no ranking.
+Robot Catalog is a static, bilingual (English/Korean) catalog of mobile robots by 453 makers. Every value comes from the maker's own page, datasheet, manual, press release or lab paper and is linked on the robot's page; where the maker states nothing the field stays empty rather than being estimated. The catalog records published specs only — there is no scoring, no rating and no ranking.
 
-- Robots: 993. 838 records are verified against a maker source, 194 carry a full spec sheet.
+- Robots: 996. 851 records are verified against a maker source, 197 carry a full spec sheet.
 - One page per robot: https://htcrefactor.github.io/robot-catalog/robot.html?id=<id>
 - One Markdown file per robot, with the full spec sheet and a source on every value: https://htcrefactor.github.io/robot-catalog/md/<id>.md
-- Data last merged: 2026-11-17.
+- Data last merged: 2026-11-19.
 - To cite a spec, link the robot's page and the maker document printed next to the value in its Markdown file.
 - Attribution: some humanoid prices and sales status come from HumanoidStore open data (CC BY 4.0, humanoidstore.co); the records that use it say so in their Markdown file.
 
@@ -22,7 +22,7 @@ Robot Catalog is a static, bilingual (English/Korean) catalog of mobile robots b
 
 ## Robots
 
-### AMR (90)
+### AMR (92)
 
 - [6 River Systems (Ocado Intelligent Automation) Chuck](https://htcrefactor.github.io/robot-catalog/md/6-river-systems-chuck.md): Collaborative person-to-goods picking cart AMR that guides warehouse associates and carries up to 90 kg of…
 - [Addverb Technologies Dynamo](https://htcrefactor.github.io/robot-catalog/md/addverb-dynamo.md): Addverb's natural-navigation AMR family for warehouse material movement, picking and tugging, from 100 kg to…
@@ -73,7 +73,9 @@ Robot Catalog is a static, bilingual (English/Korean) catalog of mobile robots b
 - [Mushiny Z50-S](https://htcrefactor.github.io/robot-catalog/md/mushiny-z50-s.md): Chain-lift tote shuttle AMR reaching up to 6 m for high-density bin storage.
 - [NEURA Robotics MAV (MAV 1500)](https://htcrefactor.github.io/robot-catalog/md/neura-mav.md): NEURA's autonomous pallet-carrying transport robot (MAV 500/1500/MAV+) with lift units and 360° safety…
 - [OMRON HD-1500](https://htcrefactor.github.io/robot-catalog/md/omron-hd-1500.md): Heavy-duty AMR for pallets and large assemblies up to 1,500 kg with 360° safety coverage.
+- [OMRON LD-150](https://htcrefactor.github.io/robot-catalog/md/omron-ld-150.md): Compact 150 kg AMR in a 500 mm-wide footprint for narrow aisles, with wireless charging and OMRON FLOW Core…
 - [OMRON LD-250](https://htcrefactor.github.io/robot-catalog/md/omron-ld-250.md): 250 kg natural-feature-navigation AMR for transport between workstations, lines and storage.
+- [OMRON LD-300](https://htcrefactor.github.io/robot-catalog/md/omron-ld-300.md): Compact 300 kg AMR in a 580 mm-wide footprint with dual safety scanners, wireless charging and OMRON FLOW…
 - [OrionStar CarryBot](https://htcrefactor.github.io/robot-catalog/md/orionstar-carrybot.md): Factory/warehouse AMR carrying up to 150 kg with LiDAR, three depth cameras and V-SLAM, 12 h runtime and 500+…
 - [OrionStar CarryBot AD](https://htcrefactor.github.io/robot-catalog/md/orionstar-carrybot-ad.md): Industrial line-side delivery AMR with four anti-static ESD trays, 150 kg payload, 1.2 m/s and 10 h runtime…
 - [Otsaw O-R3](https://htcrefactor.github.io/robot-catalog/md/otsaw-o-r3.md): AMR
@@ -863,7 +865,7 @@ Robot Catalog is a static, bilingual (English/Korean) catalog of mobile robots b
 - [Yufan Intelligent Lingmao Cyvet](https://htcrefactor.github.io/robot-catalog/md/yufan-lingmao-cyvet.md): Uniubi AI's (宇泛智能) 15 kg quadruped developer platform with optional NVIDIA Jetson Orin compute, sold for…
 - [Zen Technologies Prahasta](https://htcrefactor.github.io/robot-catalog/md/zen-technologies-prahasta.md): Zen Technologies' four-legged robot for counter-insurgency and close-quarter defence work, using LiDAR and…
 
-### Wheel-legged (31)
+### Wheel-legged (32)
 
 - [Ascento Ascento Guard](https://htcrefactor.github.io/robot-catalog/md/ascento-guard.md): Two-wheeled, legged self-balancing autonomous outdoor security patrol robot sold as RaaS, with autonomous…
 - [DaxAI Robotics Qiji XS](https://htcrefactor.github.io/robot-catalog/md/daxai-qiji-xs.md): Rideable 320 kg wheel-legged robot horse that cruises on wheels at over 40 km/h and switches to legs for…
@@ -872,6 +874,7 @@ Robot Catalog is a static, bilingual (English/Korean) catalog of mobile robots b
 - [DEEP Robotics Lynx S10](https://htcrefactor.github.io/robot-catalog/md/deep-robotics-lynx-s10.md): Compact 21 kg all-terrain wheel-legged robot for inspection, patrol, search-and-rescue and research…
 - [Direct Drive Tech DIABLO](https://htcrefactor.github.io/robot-catalog/md/direct-drive-tech-diablo.md): Self-balancing two-wheel-legged open development platform with six direct-drive joints; 4 kg payload…
 - [Faraday Future FX Aegis Mega](https://htcrefactor.github.io/robot-catalog/md/faraday-future-fx-aegis-mega.md): Mid-size IP67 wheel-legged industrial robot dog with dual 96-line LiDAR, from $74,990 (Mega A / Mega D).
+- [Foshan Kelly Robot Co., Ltd. C1-W](https://htcrefactor.github.io/robot-catalog/md/kelly-c1-w.md): Wheel-leg hybrid quadruped for industrial inspection, emergency response and security patrol, driving at up…
 - [Galileo (Tianjin) C1-W](https://htcrefactor.github.io/robot-catalog/md/galileo-c1-w.md): Small industrial wheel-legged robot (19 kg, IP67) for inspection, climbing 70 cm steps, with 8 kg payload and…
 - [Galileo (Tianjin) E1-W](https://htcrefactor.github.io/robot-catalog/md/galileo-e1-w.md): Medium industrial wheel-legged robot (44 kg, IP67) with 20 kg payload, >30 km range and 1 m step capability.
 - [Galileo (Tianjin) S1-W](https://htcrefactor.github.io/robot-catalog/md/galileo-s1-w.md): Large industrial wheel-legged robot (85 kg, IP67) with 40 kg payload, >60 km range and 110 cm step capability.

@@ -6,7 +6,7 @@
 - Category: AGV
 - Locomotion: Wheeled
 - Manufacturer: Hikrobot (China)
-- Verification: not recorded
+- Verification: official — checked against a maker source
 
 ## Core specs
 
@@ -142,6 +142,10 @@ Fields the maker does not publish are left out here — the catalog never fills 
 - [Latent Mobile Robot MR-Q7-1000E(HI)(CE) catalog (Hikrobot on DirectIndustry)](https://pdf.directindustry.com/pdf/hikrobot/latent-mobile-robot-mr-q7-1000e-hl-ce/242099-1031638.html)
 - [Hikrobot Mobile Robot Product Catalog R.101.EN.23Q1.1](https://www.mbintell.com/assets/doc/Hikrobot%20Mobile%20Robot%20Product%20Catalog_R.101.EN.23Q1.1.pdf)
 
+## Notes
+
+Checked 2026-11-19: record values come from the maker datasheet and Hikrobot LMR wiki parameter page already listed in sources; no conflicts found.
+
 ## Sources
 
 - Official page: [hikrobotics.com](https://www.hikrobotics.com/en/mobilerobot/LMR/)
@@ -149,4 +153,4 @@ Fields the maker does not publish are left out here — the catalog never fills 
 
 ---
 
-*Robot Catalog — generated from data/robots.json (last merged 2026-11-17). Source repository: https://github.com/htcrefactor/robot-catalog*
+*Robot Catalog — generated from data/robots.json (last merged 2026-11-19). Source repository: https://github.com/htcrefactor/robot-catalog*

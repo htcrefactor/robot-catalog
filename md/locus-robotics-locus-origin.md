@@ -6,7 +6,7 @@
 - Category: AMR
 - Locomotion: Wheeled
 - Manufacturer: Locus Robotics (United States)
-- Verification: not recorded
+- Verification: official — checked against a maker source
 
 ## Core specs
 
@@ -24,7 +24,7 @@ Fields the maker does not publish are left out here — the catalog never fills 
 
 ## Full spec sheet
 
-29 values from 5 documents, checked against maker sources on 2026-11-04.
+29 values from 5 documents, checked against maker sources on 2026-11-19.
 
 ### Identity
 
@@ -128,10 +128,14 @@ Fields the maker does not publish are left out here — the catalog never fills 
 - [Locus Origin listing by Locus Robotics supplier store, Global Robot Marketplace](https://www.robotmp.com/locus-origin-amr-robot)
 - [Locus Robotics FAQ](https://locusrobotics.com/resources/faq/)
 
+## Notes
+
+Checked 2026-11-19 on the maker page: 20.4x22.8x62 in (518x579x1575 mm), 36 kg payload, up to 14 h runtime, ~50 min charge, CE-certified all match. Maker publishes no weight or speed.
+
 ## Sources
 
 - Official page: [locusrobotics.com](https://locusrobotics.com/platform/locus-origin/)
 
 ---
 
-*Robot Catalog — generated from data/robots.json (last merged 2026-11-17). Source repository: https://github.com/htcrefactor/robot-catalog*
+*Robot Catalog — generated from data/robots.json (last merged 2026-11-19). Source repository: https://github.com/htcrefactor/robot-catalog*

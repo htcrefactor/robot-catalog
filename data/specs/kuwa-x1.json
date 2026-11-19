@@ -1,10 +1,14 @@
 {
  "id": "kuwa-x1",
- "checked": "2026-11-06",
+ "checked": "2026-11-19",
  "documents": [
   {
    "title": "Kuwa debuts D0 and X1 (AI123, 6 Nov 2026)",
    "url": "https://ai123.com/newshub/17507"
+  },
+  {
+   "title": "COOWA business product matrix: X1 sweeper parameters",
+   "url": "https://www.cowarobot.com/business/sweeper"
   }
  ],
  "specs": [
@@ -43,6 +47,132 @@
    "unit": "",
    "note": "dual-layer world model deployed on-device",
    "source": "https://ai123.com/newshub/17507"
+  },
+  {
+   "group": "Dimensions & Mass",
+   "key": "weight",
+   "label": "Kerb mass",
+   "value": 640,
+   "unit": "kg",
+   "note": "",
+   "source": "https://www.cowarobot.com/business/sweeper"
+  },
+  {
+   "group": "Dimensions & Mass",
+   "key": "max_gross_weight",
+   "label": "Maximum gross mass",
+   "value": 766,
+   "unit": "kg",
+   "note": "",
+   "source": "https://www.cowarobot.com/business/sweeper"
+  },
+  {
+   "group": "Dimensions & Mass",
+   "key": "overall_dimensions",
+   "label": "Vehicle dimensions",
+   "value": "1804 x 850 x 1375",
+   "unit": "mm",
+   "note": "L x W x H, excluding top section of 1100 mm",
+   "source": "https://www.cowarobot.com/business/sweeper"
+  },
+  {
+   "group": "Power & Battery",
+   "key": "battery_capacity",
+   "label": "Battery capacity",
+   "value": 10,
+   "unit": "kWh",
+   "note": "",
+   "source": "https://www.cowarobot.com/business/sweeper"
+  },
+  {
+   "group": "Payload & Mounting",
+   "key": "hopper_capacity",
+   "label": "Waste bin capacity",
+   "value": 158,
+   "unit": "L",
+   "note": "",
+   "source": "https://www.cowarobot.com/business/sweeper"
+  },
+  {
+   "group": "Payload & Mounting",
+   "key": "water_tank_capacity",
+   "label": "Clean-water tank capacity",
+   "value": 46,
+   "unit": "L",
+   "note": "",
+   "source": "https://www.cowarobot.com/business/sweeper"
+  },
+  {
+   "group": "Mobility & Performance",
+   "key": "working_width",
+   "label": "Working width",
+   "value": 1260,
+   "unit": "mm",
+   "note": "",
+   "source": "https://www.cowarobot.com/business/sweeper"
+  },
+  {
+   "group": "Mobility & Performance",
+   "key": "nominal_speed",
+   "label": "Working speed",
+   "value": "1 to 5",
+   "unit": "km/h",
+   "note": "",
+   "source": "https://www.cowarobot.com/business/sweeper"
+  },
+  {
+   "group": "Mobility & Performance",
+   "key": "max_cleaning_rate",
+   "label": "Maximum sweeping capacity",
+   "value": 6300,
+   "unit": "m²/h",
+   "note": "",
+   "source": "https://www.cowarobot.com/business/sweeper"
+  },
+  {
+   "group": "Mobility & Performance",
+   "key": "max_speed",
+   "label": "Maximum speed",
+   "value": 10,
+   "unit": "km/h",
+   "note": "",
+   "source": "https://www.cowarobot.com/business/sweeper"
+  },
+  {
+   "group": "Mobility & Performance",
+   "key": "turning_radius",
+   "label": "Turning diameter",
+   "value": "≤2320",
+   "unit": "mm",
+   "note": "maker states turning diameter",
+   "source": "https://www.cowarobot.com/business/sweeper"
+  },
+  {
+   "group": "Terrain & Navigation Limits",
+   "key": "max_slope",
+   "label": "Maximum gradient",
+   "value": 26,
+   "unit": "%",
+   "note": "",
+   "source": "https://www.cowarobot.com/business/sweeper"
+  },
+  {
+   "group": "Safety & Compliance",
+   "key": "max_noise_level",
+   "label": "Working noise",
+   "value": "≤70",
+   "unit": "dBA",
+   "note": "",
+   "source": "https://www.cowarobot.com/business/sweeper"
+  },
+  {
+   "group": "Payload & Mounting",
+   "key": "sweeper_module_power",
+   "label": "Sweeping module",
+   "value": "3.0 kW class smart working module (blow-and-roll sweeping)",
+   "unit": "",
+   "note": "",
+   "source": "https://www.cowarobot.com/business/sweeper"
   }
  ]
 }

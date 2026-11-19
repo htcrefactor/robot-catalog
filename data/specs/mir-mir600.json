@@ -1,6 +1,6 @@
 {
  "id": "mir-mir600",
- "checked": "2026-11-04",
+ "checked": "2026-11-19",
  "documents": [
   {
    "title": "MiR600 Specifications (2025-09-01, MiR, distributor-hosted PDF)",
@@ -826,6 +826,24 @@
    "unit": "",
    "note": "",
    "source": "https://ai.motion.com/wp-content/uploads/2025/10/MiR600-Specifications-2.99.pdf"
+  },
+  {
+   "group": "Power & Battery",
+   "key": "runtime_with_payload",
+   "label": "Active operation time with maximum payload",
+   "value": 8.5,
+   "unit": "h",
+   "note": "Maker page now states up to 8 h 30 min; earlier PDF figure was 8.33 h",
+   "source": "https://mobile-industrial-robots.com/products/robots/mir600/specifications"
+  },
+  {
+   "group": "Power & Battery",
+   "key": "runtime",
+   "label": "Active operation time with no payload",
+   "value": 11,
+   "unit": "h",
+   "note": "up to",
+   "source": "https://mobile-industrial-robots.com/products/robots/mir600/specifications"
   }
  ]
 }

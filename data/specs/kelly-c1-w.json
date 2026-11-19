@@ -1,0 +1,165 @@
+{
+ "id": "kelly-c1-w",
+ "checked": "2026-11-19",
+ "documents": [
+  {
+   "title": "Kelly Robot launches the C1-W wheeled-legged quadruped robot (2026-11-18)",
+   "url": "https://www.kellyrobot.com/news/kelly-c1-w-wheeled-legged-quadruped-robot/"
+  }
+ ],
+ "specs": [
+  {
+   "group": "Identity",
+   "key": "release_date",
+   "label": "Launch date",
+   "value": "2026-11-18",
+   "unit": "",
+   "note": "news post date",
+   "source": "https://www.kellyrobot.com/news/kelly-c1-w-wheeled-legged-quadruped-robot/"
+  },
+  {
+   "group": "Mobility & Performance",
+   "key": "locomotion_modes",
+   "label": "Locomotion modes",
+   "value": "Wheel-leg hybrid chassis: wheeled mode and legged mode",
+   "unit": "",
+   "note": "",
+   "source": "https://www.kellyrobot.com/news/kelly-c1-w-wheeled-legged-quadruped-robot/"
+  },
+  {
+   "group": "Mobility & Performance",
+   "key": "max_speed",
+   "label": "Maximum speed",
+   "value": 5,
+   "unit": "m/s",
+   "note": "wheeled mode",
+   "source": "https://www.kellyrobot.com/news/kelly-c1-w-wheeled-legged-quadruped-robot/"
+  },
+  {
+   "group": "Mobility & Performance",
+   "key": "max_payload",
+   "label": "Payload (continuous)",
+   "value": 12,
+   "unit": "kg",
+   "note": "",
+   "source": "https://www.kellyrobot.com/news/kelly-c1-w-wheeled-legged-quadruped-robot/"
+  },
+  {
+   "group": "Mobility & Performance",
+   "key": "max_payload_peak",
+   "label": "Payload (peak)",
+   "value": 15,
+   "unit": "kg",
+   "note": "",
+   "source": "https://www.kellyrobot.com/news/kelly-c1-w-wheeled-legged-quadruped-robot/"
+  },
+  {
+   "group": "Terrain & Navigation Limits",
+   "key": "max_slope",
+   "label": "Gradeability",
+   "value": ">30",
+   "unit": "°",
+   "note": "slopes steeper than 30°",
+   "source": "https://www.kellyrobot.com/news/kelly-c1-w-wheeled-legged-quadruped-robot/"
+  },
+  {
+   "group": "Terrain & Navigation Limits",
+   "key": "max_step_height",
+   "label": "Obstacle crossing (continuous step edges)",
+   "value": 200,
+   "unit": "mm",
+   "note": "20 cm",
+   "source": "https://www.kellyrobot.com/news/kelly-c1-w-wheeled-legged-quadruped-robot/"
+  },
+  {
+   "group": "Sensors & Perception",
+   "key": "lidar_type",
+   "label": "LiDAR",
+   "value": "4D wide-angle LiDAR",
+   "unit": "",
+   "note": "",
+   "source": "https://www.kellyrobot.com/news/kelly-c1-w-wheeled-legged-quadruped-robot/"
+  },
+  {
+   "group": "Sensors & Perception",
+   "key": "camera_type",
+   "label": "Cameras",
+   "value": "High-definition cameras",
+   "unit": "",
+   "note": "",
+   "source": "https://www.kellyrobot.com/news/kelly-c1-w-wheeled-legged-quadruped-robot/"
+  },
+  {
+   "group": "Compute & Software",
+   "key": "cpu",
+   "label": "Computing platform",
+   "value": "Domestic high-performance computing platform with AI algorithms (model not stated)",
+   "unit": "",
+   "note": "",
+   "source": "https://www.kellyrobot.com/news/kelly-c1-w-wheeled-legged-quadruped-robot/"
+  },
+  {
+   "group": "Payload & Mounting",
+   "key": "optional_payloads",
+   "label": "Expansion options",
+   "value": "Dual-spectrum thermal and visible gimbal; 5G module; robotic arm; detection equipment; breaching tools; explosion-proof devices",
+   "unit": "",
+   "note": "",
+   "source": "https://www.kellyrobot.com/news/kelly-c1-w-wheeled-legged-quadruped-robot/"
+  },
+  {
+   "group": "Environment & Protection",
+   "key": "ip_rating",
+   "label": "Protection rating",
+   "value": "IP67",
+   "unit": "",
+   "note": "",
+   "source": "https://www.kellyrobot.com/news/kelly-c1-w-wheeled-legged-quadruped-robot/"
+  },
+  {
+   "group": "Environment & Protection",
+   "key": "operating_temperature",
+   "label": "Operating temperature",
+   "value": "-20 to 55",
+   "unit": "°C",
+   "note": "",
+   "source": "https://www.kellyrobot.com/news/kelly-c1-w-wheeled-legged-quadruped-robot/"
+  },
+  {
+   "group": "Power & Battery",
+   "key": "runtime",
+   "label": "Endurance (no load)",
+   "value": 5,
+   "unit": "h",
+   "note": "up to",
+   "source": "https://www.kellyrobot.com/news/kelly-c1-w-wheeled-legged-quadruped-robot/"
+  },
+  {
+   "group": "Power & Battery",
+   "key": "runtime_with_payload",
+   "label": "Endurance (under load)",
+   "value": 3,
+   "unit": "h",
+   "note": "about",
+   "source": "https://www.kellyrobot.com/news/kelly-c1-w-wheeled-legged-quadruped-robot/"
+  },
+  {
+   "group": "Power & Battery",
+   "key": "battery_swappable",
+   "label": "Battery swap",
+   "value": true,
+   "unit": "",
+   "note": "field battery swap",
+   "source": "https://www.kellyrobot.com/news/kelly-c1-w-wheeled-legged-quadruped-robot/"
+  },
+  {
+   "group": "Charging & Docking",
+   "key": "charging_method",
+   "label": "Charging",
+   "value": "Autonomous charging supported",
+   "unit": "",
+   "note": "",
+   "source": "https://www.kellyrobot.com/news/kelly-c1-w-wheeled-legged-quadruped-robot/"
+  }
+ ]
+}

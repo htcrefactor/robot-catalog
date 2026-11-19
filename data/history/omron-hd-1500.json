@@ -1,0 +1,25 @@
+{
+ "id": "omron-hd-1500",
+ "name": "HD-1500",
+ "manufacturer": "OMRON",
+ "updated": "2026-11-19",
+ "events": [
+  {
+   "date": "2026-11-19",
+   "type": "updated",
+   "source": "https://robotics.omron.com/products/mobile-robots/hd-series/hd-1500",
+   "changes": [
+    {
+     "field": "note",
+     "from": null,
+     "to": "Checked 2026-11-19 against OMRON datasheet I855: 506 kg with battery, 1,500 kg, 1.8 m/s, 9 h at full payload (12.5 h no payload), IP20 match. Maker datasheet text gives no L x W x H, so those stay empty."
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "official"
+    }
+   ]
+  }
+ ]
+}

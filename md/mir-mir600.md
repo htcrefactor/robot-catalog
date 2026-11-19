@@ -6,7 +6,7 @@
 - Category: AMR
 - Locomotion: Wheeled
 - Manufacturer: Mobile Industrial Robots (MiR) (Denmark)
-- Verification: not recorded
+- Verification: official — checked against a maker source
 
 ## Core specs
 
@@ -19,7 +19,7 @@
 | Payload | 600 kg |
 | Max speed | 2 m/s (7.2 km/h) |
 | Wheel diameter | 200 mm |
-| Runtime | 8.33 h |
+| Runtime | 8.5 h |
 | Battery | 1,631 Wh |
 | IP rating | IP52 |
 | Status | Commercial |
@@ -30,7 +30,7 @@ Fields the maker does not publish are left out here — the catalog never fills 
 
 ## Full spec sheet
 
-91 values from 1 document, checked against maker sources on 2026-11-04.
+93 values from 1 document, checked against maker sources on 2026-11-19.
 
 ### Identity
 
@@ -99,6 +99,8 @@ Fields the maker does not publish are left out here — the catalog never fills 
 | Active operation time, no payload | 10 h 45 min | 100–0% | [ai.motion.com](https://ai.motion.com/wp-content/uploads/2025/10/MiR600-Specifications-2.99.pdf) |
 | Active operation time, maximum payload | 8 h 20 min | 100–0% | [ai.motion.com](https://ai.motion.com/wp-content/uploads/2025/10/MiR600-Specifications-2.99.pdf) |
 | Active standby time | 16 h 45 min | robot idle, 100–0% | [ai.motion.com](https://ai.motion.com/wp-content/uploads/2025/10/MiR600-Specifications-2.99.pdf) |
+| Active operation time with maximum payload | 8.5 h | Maker page now states up to 8 h 30 min; earlier PDF figure was 8.33 h | [mobile-industrial-robots.com](https://mobile-industrial-robots.com/products/robots/mir600/specifications) |
+| Active operation time with no payload | 11 h | up to | [mobile-industrial-robots.com](https://mobile-industrial-robots.com/products/robots/mir600/specifications) |
 
 ### Charging & Docking
 
@@ -197,6 +199,10 @@ Fields the maker does not publish are left out here — the catalog never fills 
 
 - [MiR600 Specifications (2025-09-01, MiR, distributor-hosted PDF)](https://ai.motion.com/wp-content/uploads/2025/10/MiR600-Specifications-2.99.pdf)
 
+## Notes
+
+Checked 2026-11-19 against the MiR specification page: 1350x910x322 mm, 240 kg, 600 kg, 2.0 m/s, IP52 match. Runtime updated from 8.33 h to 8.5 h (maker now states up to 8 h 30 min at maximum payload; 11 h with no payload).
+
 ## Sources
 
 - Official page: [mobile-industrial-robots.com](https://mobile-industrial-robots.com/products/robots/mir600)
@@ -206,4 +212,4 @@ Fields the maker does not publish are left out here — the catalog never fills 
 
 ---
 
-*Robot Catalog — generated from data/robots.json (last merged 2026-11-17). Source repository: https://github.com/htcrefactor/robot-catalog*
+*Robot Catalog — generated from data/robots.json (last merged 2026-11-19). Source repository: https://github.com/htcrefactor/robot-catalog*

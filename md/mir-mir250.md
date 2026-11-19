@@ -6,7 +6,7 @@
 - Category: AMR
 - Locomotion: Wheeled
 - Manufacturer: Mobile Industrial Robots (MiR) (Denmark)
-- Verification: not recorded
+- Verification: official — checked against a maker source
 
 ## Core specs
 
@@ -203,6 +203,10 @@ Fields the maker does not publish are left out here — the catalog never fills 
 - [MiR250 Specifications (2025-04-14, MiR, distributor-hosted PDF)](https://ai.motion.com/wp-content/uploads/2025/10/MiR250-Specifications-2.99.pdf)
 - [MiR250 specifications page (MiR)](https://mobile-industrial-robots.com/products/robots/mir250/specifications)
 
+## Notes
+
+Checked 2026-11-19 against the MiR specification page: 800x580x300 mm, 94 kg, 250 kg, 2.0 m/s, 13 h at full payload, IP21 all match.
+
 ## Sources
 
 - Official page: [mobile-industrial-robots.com](https://mobile-industrial-robots.com/products/robots/mir250)
@@ -212,4 +216,4 @@ Fields the maker does not publish are left out here — the catalog never fills 
 
 ---
 
-*Robot Catalog — generated from data/robots.json (last merged 2026-11-17). Source repository: https://github.com/htcrefactor/robot-catalog*
+*Robot Catalog — generated from data/robots.json (last merged 2026-11-19). Source repository: https://github.com/htcrefactor/robot-catalog*

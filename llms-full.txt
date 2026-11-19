@@ -1,13 +1,13 @@
 # Robot Catalog — full catalog
 
-> Every robot in Robot Catalog (993) with its core specs and sources, in one file. Values are as the maker publishes them; fields the maker does not publish are left out rather than estimated.
+> Every robot in Robot Catalog (996) with its core specs and sources, in one file. Values are as the maker publishes them; fields the maker does not publish are left out rather than estimated.
 
 - Canonical site: https://htcrefactor.github.io/robot-catalog/
 - Index for agents: https://htcrefactor.github.io/robot-catalog/llms.txt
 - Per-robot Markdown with the full spec sheet and a source on every value: https://htcrefactor.github.io/robot-catalog/md/<id>.md
-- Generated from data/robots.json, last merged 2026-11-17. No scoring, no ranking.
+- Generated from data/robots.json, last merged 2026-11-19. No scoring, no ranking.
 
-## AMR (90)
+## AMR (92)
 
 ### 6 River Systems (Ocado Intelligent Automation) Chuck
 
@@ -345,7 +345,7 @@
 - AMR · Wheeled · Commercial · Germany
 - Summary: Omnidirectional (Mecanum omniMove) 1.5 t platform that navigates freely to move products through flexible production.
 - Specs: Length 2,000 mm; Width 800 mm; Height 470 mm; Weight 711 kg; Payload 1,500 kg; Max speed 1 m/s (3.6 km/h); Wheel diameter 310 mm; Runtime 4 h; Battery 4,992 Wh; Status Commercial; Sensors Integrated safety laser scanners
-- Sources: https://www.kuka.com/, https://www.kuka.com/-/media/kuka-corporate/countries/nordic/documents/amr---autonomous-mobile-robotics.pdf, https://www.kuka.com/ko-kr/
+- Sources: https://my.kuka.com/s/product/kmp-15003-omnimove/01t1i000001WxgqAAC?language=en_US, https://www.kuka.com/-/media/kuka-corporate/countries/nordic/documents/amr---autonomous-mobile-robotics.pdf, https://www.kuka.com/ko-kr/
 
 ### Locus Robotics Locus Array
 
@@ -414,7 +414,7 @@
 - Markdown: https://htcrefactor.github.io/robot-catalog/md/mir-mir600.md
 - AMR · Wheeled · Commercial · Denmark
 - Summary: IP52-rated 600 kg AMR that picks up and moves pallets and heavy loads as a forklift alternative.
-- Specs: Length 1,350 mm; Width 910 mm; Height 322 mm; Weight 240 kg; Payload 600 kg; Max speed 2 m/s (7.2 km/h); Wheel diameter 200 mm; Runtime 8.33 h; Battery 1,631 Wh; IP rating IP52; Status Commercial; API yes; Sensors 2x SICK microScan3 safety laser scanners (360°), 2x 3D cameras, 8x proximity sensors
+- Specs: Length 1,350 mm; Width 910 mm; Height 322 mm; Weight 240 kg; Payload 600 kg; Max speed 2 m/s (7.2 km/h); Wheel diameter 200 mm; Runtime 8.5 h; Battery 1,631 Wh; IP rating IP52; Status Commercial; API yes; Sensors 2x SICK microScan3 safety laser scanners (360°), 2x 3D cameras, 8x proximity sensors
 - Sources: https://mobile-industrial-robots.com/products/robots/mir600, https://mobile-industrial-robots.com/products/robots/mir600/specifications, https://ai.motion.com/wp-content/uploads/2025/10/MiR600-Specifications-2.99.pdf, https://mobile-industrial-robots.com/ko/contacts
 
 ### Mushiny F15*2
@@ -487,6 +487,16 @@
 - Specs: Weight 506 kg; Payload 1,500 kg; Max speed 1.8 m/s (6.5 km/h); Runtime 9 h; Battery 3,590 Wh; IP rating IP20; Status Commercial; API yes; Compute Internally mounted OMRON NX102 controller (Ethernet access); Sensors 2x safety laser scanners (360°), 2x low lasers, Optional supplementary laser scanners
 - Sources: https://robotics.omron.com/products/mobile-robots/hd-series/hd-1500, https://assets.omron.eu/downloads/latest/datasheet/en/i855_hd-series_mobile_robot_datasheet_en.pdf, https://www.omron.co.kr/, https://robotics.omron.com/ko/products/mobile-robots/ld-series/ld-250/
 
+### OMRON LD-150
+
+- id: `omron-ld-150`
+- Page: https://htcrefactor.github.io/robot-catalog/robot.html?id=omron-ld-150
+- Markdown: https://htcrefactor.github.io/robot-catalog/md/omron-ld-150.md
+- AMR · Wheeled · Pre-order · Japan · released 2026
+- Summary: Compact 150 kg AMR in a 500 mm-wide footprint for narrow aisles, with wireless charging and OMRON FLOW Core fleet management.
+- Specs: Length 700 mm; Width 500 mm; Height 320 mm; Weight 91 kg; Payload 150 kg; Max speed 2.1 m/s (7.6 km/h); Runtime 7 h; Battery 1,074 Wh; IP rating IP22; Released 2026; Status Pre-order; Sensors Safety laser scanner (240° front field of view), Rear low LiDAR (front low laser optional)
+- Sources: https://robotics.omron.com/new-ld-series/, https://robotics.omron.com/news/new-ld-series-amr-launch/, https://robotics.omron.com/wp-content/uploads/2026/11/M146-E-01_LD-150-300_Datasheet_RevA.pdf
+
 ### OMRON LD-250
 
 - id: `omron-ld-250`
@@ -496,6 +506,16 @@
 - Summary: 250 kg natural-feature-navigation AMR for transport between workstations, lines and storage.
 - Specs: Length 969 mm; Height 383 mm; Weight 148 kg; Payload 250 kg; Max speed 1.2 m/s (4.3 km/h); Runtime 10 h; Battery 1,843 Wh; IP rating IP20; Status Commercial; API yes; Sensors Front safety laser scanner (240°, PLd), Low front laser (126°), Rear ToF sensors, Optional side lasers (270°)
 - Sources: https://robotics.omron.com/products/mobile-robots/ld-series/ld-250/, https://assets.omron.eu/downloads/latest/datasheet/en/i828_ld-series_mobile_robot_datasheet_en.pdf, https://www.omron.co.kr/, https://robotics.omron.com/ko/products/mobile-robots/ld-series/ld-250/
+
+### OMRON LD-300
+
+- id: `omron-ld-300`
+- Page: https://htcrefactor.github.io/robot-catalog/robot.html?id=omron-ld-300
+- Markdown: https://htcrefactor.github.io/robot-catalog/md/omron-ld-300.md
+- AMR · Wheeled · Pre-order · Japan · released 2026
+- Summary: Compact 300 kg AMR in a 580 mm-wide footprint with dual safety scanners, wireless charging and OMRON FLOW Core fleet management.
+- Specs: Length 800 mm; Width 580 mm; Height 320 mm; Weight 117 kg; Payload 300 kg; Max speed 2.1 m/s (7.6 km/h); Runtime 6.5 h; Battery 1,074 Wh; IP rating IP22; Released 2026; Status Pre-order; Sensors Two safety laser scanners (360° coverage), Rear low LiDAR (front low laser optional)
+- Sources: https://robotics.omron.com/new-ld-series/, https://robotics.omron.com/news/new-ld-series-amr-launch/, https://robotics.omron.com/wp-content/uploads/2026/11/M146-E-01_LD-150-300_Datasheet_RevA.pdf
 
 ### OrionStar CarryBot
 
@@ -8160,7 +8180,7 @@
 - Summary: Zen Technologies' four-legged robot for counter-insurgency and close-quarter defence work, using LiDAR and reinforcement learning and carrying 9 mm, 5.56 mm or 7.62 mm small arms.
 - Sources: https://www.zentechnologies.com/prahasta.php
 
-## Wheel-legged (31)
+## Wheel-legged (32)
 
 ### Ascento Ascento Guard
 
@@ -8231,6 +8251,16 @@
 - Summary: Mid-size IP67 wheel-legged industrial robot dog with dual 96-line LiDAR, from $74,990 (Mega A / Mega D).
 - Specs: Length 930 mm; Width 480 mm; Height 584 mm; Weight 40.8 kg; Payload 25 kg; Max speed 8 m/s (28.8 km/h); Degrees of freedom 16; Runtime 5 h; Battery 1,010 Wh; IP rating IP67; Released 2026; Status Commercial; On-board compute yes; Sensors Dual 96-line 3D LiDAR, Optical cameras, Ultrasonic radar, RTK
 - Sources: http://robotics.ff.com/us/fx-aegis-mega/, https://shop.ff.com/products/fx-aegis-mega, https://www.ff.com/us/919-ff-eai-robotics/
+
+### Foshan Kelly Robot Co., Ltd. C1-W
+
+- id: `kelly-c1-w`
+- Page: https://htcrefactor.github.io/robot-catalog/robot.html?id=kelly-c1-w
+- Markdown: https://htcrefactor.github.io/robot-catalog/md/kelly-c1-w.md
+- Wheel-legged · Wheel-legged · China · released 2026
+- Summary: Wheel-leg hybrid quadruped for industrial inspection, emergency response and security patrol, driving at up to 5 m/s on flat ground and walking over stairs and rubble.
+- Specs: Payload 12 kg; Max speed 5 m/s (18.0 km/h); Runtime 3 h; IP rating IP67; Released 2026; Sensors 4D wide-angle LiDAR, High-definition cameras
+- Sources: https://www.kellyrobot.com/news/kelly-c1-w-wheeled-legged-quadruped-robot/
 
 ### Galileo (Tianjin) C1-W
 

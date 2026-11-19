@@ -6,7 +6,7 @@
 - Category: AGV
 - Locomotion: Wheeled
 - Manufacturer: KUKA (Germany)
-- Verification: not recorded
+- Verification: official — checked against a maker source
 
 ## Core specs
 
@@ -165,6 +165,10 @@ Fields the maker does not publish are left out here — the catalog never fills 
 - [AMR – Autonomous mobile robotics brochure (KUKA Nordic)](https://www.kuka.com/-/media/kuka-corporate/countries/nordic/documents/amr---autonomous-mobile-robotics.pdf)
 - [KUKA Mobile Robotics presentation, 23.03.2023 (MAV conference)](https://mav.industrie.de/wp-content/uploads/2/3/230322_MAV-Final.pdf)
 
+## Notes
+
+Checked 2026-11-19 against the KUKA AMR brochure: 1,000x750x353 mm, 246 kg, 600 kg rated payload, 2 m/s, battery at least 8 h all match.
+
 ## Sources
 
 - Official page: [kuka.com](https://www.kuka.com/en-gb/products/amr-autonomous-mobile-robotics/mobile-platforms/kmp-600-s-diffdrive)
@@ -173,4 +177,4 @@ Fields the maker does not publish are left out here — the catalog never fills 
 
 ---
 
-*Robot Catalog — generated from data/robots.json (last merged 2026-11-17). Source repository: https://github.com/htcrefactor/robot-catalog*
+*Robot Catalog — generated from data/robots.json (last merged 2026-11-19). Source repository: https://github.com/htcrefactor/robot-catalog*

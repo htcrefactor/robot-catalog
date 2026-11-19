@@ -6,7 +6,7 @@
 - Category: AMR
 - Locomotion: Wheeled
 - Manufacturer: Mobile Industrial Robots (MiR) (Denmark)
-- Verification: not recorded
+- Verification: official — checked against a maker source
 
 ## Core specs
 
@@ -169,6 +169,10 @@ Fields the maker does not publish are left out here — the catalog never fills 
 - [MiR1200 Pallet Jack specifications page (MiR)](https://mobile-industrial-robots.com/products/robots/mir1200-pallet-jack/specifications)
 - [MiR1200 Pallet Jack launch press release (MiR, 2024-03-19)](https://mobile-industrial-robots.com/blog/mir1200-pallet-jack-using-ai-to-revolutionize-pallet-handling)
 
+## Notes
+
+Checked 2026-11-19 against the MiR specification page: 1934x820x2120 mm, 750 kg, 1,200 kg, 1.5 m/s, up to 10 h, IP52 all match.
+
 ## Sources
 
 - Official page: [mobile-industrial-robots.com](https://mobile-industrial-robots.com/products/robots/mir1200-pallet-jack)
@@ -177,4 +181,4 @@ Fields the maker does not publish are left out here — the catalog never fills 
 
 ---
 
-*Robot Catalog — generated from data/robots.json (last merged 2026-11-17). Source repository: https://github.com/htcrefactor/robot-catalog*
+*Robot Catalog — generated from data/robots.json (last merged 2026-11-19). Source repository: https://github.com/htcrefactor/robot-catalog*

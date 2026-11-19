@@ -90,4 +90,4 @@ Maker page: 'nearly 15 inches' tall (about 38 cm), 17 servos (DoF), programmable
 
 ---
 
-*Robot Catalog — generated from data/robots.json (last merged 2026-11-17). Source repository: https://github.com/htcrefactor/robot-catalog*
+*Robot Catalog — generated from data/robots.json (last merged 2026-11-19). Source repository: https://github.com/htcrefactor/robot-catalog*

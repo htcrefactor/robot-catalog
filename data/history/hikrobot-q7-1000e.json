@@ -1,0 +1,25 @@
+{
+ "id": "hikrobot-q7-1000e",
+ "name": "Q7-1000E (MR-Q7-1000CE-E1(HI)(CE))",
+ "manufacturer": "Hikrobot",
+ "updated": "2026-11-19",
+ "events": [
+  {
+   "date": "2026-11-19",
+   "type": "updated",
+   "source": "https://www.hikrobotics.com/en/mobilerobot/LMR/",
+   "changes": [
+    {
+     "field": "note",
+     "from": null,
+     "to": "Checked 2026-11-19: record values come from the maker datasheet and Hikrobot LMR wiki parameter page already listed in sources; no conflicts found."
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "official"
+    }
+   ]
+  }
+ ]
+}

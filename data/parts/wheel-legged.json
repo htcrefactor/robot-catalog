@@ -1669,5 +1669,54 @@
    "https://botupyourlife.com/en/robots/ogadjet-xgo-rider2/"
   ],
   "verification": null
+ },
+ {
+  "id": "kelly-c1-w",
+  "name": "C1-W",
+  "manufacturer": "Foshan Kelly Robot Co., Ltd.",
+  "country": "China",
+  "category": "Wheel-legged",
+  "locomotion": "Wheel-legged",
+  "release_year": 2026,
+  "status": null,
+  "length_mm": null,
+  "width_mm": null,
+  "height_mm": null,
+  "weight_kg": null,
+  "payload_kg": 12,
+  "max_speed_mps": 5,
+  "min_speed_mps": null,
+  "wheel_diameter_mm": null,
+  "wheel_count": null,
+  "dof": null,
+  "runtime_h": 3,
+  "battery_wh": null,
+  "ip_rating": "IP67",
+  "api_support": null,
+  "sdk_available": null,
+  "sdk_name": null,
+  "onboard_compute": null,
+  "compute_detail": null,
+  "ros_support": null,
+  "sensors": [
+   "4D wide-angle LiDAR",
+   "High-definition cameras"
+  ],
+  "price_usd": null,
+  "price_note": null,
+  "official_url": "https://www.kellyrobot.com/news/kelly-c1-w-wheeled-legged-quadruped-robot/",
+  "sources": [
+   "https://www.kellyrobot.com/news/kelly-c1-w-wheeled-legged-quadruped-robot/"
+  ],
+  "summary": "Wheel-leg hybrid quadruped for industrial inspection, emergency response and security patrol, driving at up to 5 m/s on flat ground and walking over stairs and rubble.",
+  "image_url": "https://ecdn6.globalso.com/upload/p/6032/image_other/2026-11/1-21.jpg",
+  "image_source": "https://www.kellyrobot.com/news/kelly-c1-w-wheeled-legged-quadruped-robot/",
+  "verification": "official",
+  "note": "Launched 2026-11-18 (maker news post). Payload 12 kg continuous, 15 kg peak. Runtime up to 5 h unloaded, about 3 h under load (3 h used). Maker publishes no size, weight, DoF or price; availability not stated.",
+  "safety_standards": [],
+  "certifications": [],
+  "safety_note": null,
+  "safety_source": null,
+  "safety_pl": null
  }
 ]

@@ -6,7 +6,7 @@
 - Category: AMR
 - Locomotion: Wheeled
 - Manufacturer: OMRON (Japan)
-- Verification: not recorded
+- Verification: official — checked against a maker source
 
 ## Core specs
 
@@ -189,6 +189,10 @@ Fields the maker does not publish are left out here — the catalog never fills 
 
 - [HD-1500 Autonomous Mobile Robots datasheet I855 (OMRON)](https://assets.omron.eu/downloads/latest/datasheet/en/i855_hd-series_mobile_robot_datasheet_en.pdf)
 
+## Notes
+
+Checked 2026-11-19 against OMRON datasheet I855: 506 kg with battery, 1,500 kg, 1.8 m/s, 9 h at full payload (12.5 h no payload), IP20 match. Maker datasheet text gives no L x W x H, so those stay empty.
+
 ## Sources
 
 - Official page: [robotics.omron.com](https://robotics.omron.com/products/mobile-robots/hd-series/hd-1500)
@@ -198,4 +202,4 @@ Fields the maker does not publish are left out here — the catalog never fills 
 
 ---
 
-*Robot Catalog — generated from data/robots.json (last merged 2026-11-17). Source repository: https://github.com/htcrefactor/robot-catalog*
+*Robot Catalog — generated from data/robots.json (last merged 2026-11-19). Source repository: https://github.com/htcrefactor/robot-catalog*

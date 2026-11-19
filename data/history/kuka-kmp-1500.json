@@ -1,0 +1,30 @@
+{
+ "id": "kuka-kmp-1500",
+ "name": "KMP 1500",
+ "manufacturer": "KUKA",
+ "updated": "2026-11-19",
+ "events": [
+  {
+   "date": "2026-11-19",
+   "type": "updated",
+   "source": "https://my.kuka.com/s/product/kmp-15003-omnimove/01t1i000001WxgqAAC?language=en_US",
+   "changes": [
+    {
+     "field": "note",
+     "from": null,
+     "to": "Checked 2026-11-19 against KUKA documents: 1,500 kg omniMove platform values match. official_url now points to the KUKA product page instead of the home page."
+    },
+    {
+     "field": "official_url",
+     "from": "https://www.kuka.com/",
+     "to": "https://my.kuka.com/s/product/kmp-15003-omnimove/01t1i000001WxgqAAC?language=en_US"
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "official"
+    }
+   ]
+  }
+ ]
+}

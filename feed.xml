@@ -5,8 +5,112 @@
   <link rel="self" type="application/atom+xml" href="https://htcrefactor.github.io/robot-catalog/feed.xml"/>
   <link rel="alternate" type="text/html" href="https://htcrefactor.github.io/robot-catalog/"/>
   <id>tag:htcrefactor.github.io,2026:robot-catalog/feed</id>
-  <updated>2026-11-14T00:00:00Z</updated>
+  <updated>2026-11-19T00:00:00Z</updated>
   <author><name>Robot Catalog</name><uri>https://github.com/htcrefactor/robot-catalog</uri></author>
+  <entry>
+    <id>tag:htcrefactor.github.io,2026:robot-catalog/omron-ld-300/added/2026-11-19</id>
+    <title>New robot: OMRON LD-300</title>
+    <updated>2026-11-19T00:00:00Z</updated>
+    <link rel="alternate" type="text/html" href="https://htcrefactor.github.io/robot-catalog/robot.html?id=omron-ld-300"/>
+    <category term="added"/>
+    <summary type="html">&lt;p&gt;&lt;a href="https://htcrefactor.github.io/robot-catalog/robot.html?id=omron-ld-300"&gt;OMRON LD-300 — robot page&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Source: &lt;a href="https://robotics.omron.com/new-ld-series/"&gt;https://robotics.omron.com/new-ld-series/&lt;/a&gt;&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <id>tag:htcrefactor.github.io,2026:robot-catalog/omron-ld-250/updated/2026-11-19</id>
+    <title>OMRON LD-250: 2 fields changed</title>
+    <updated>2026-11-19T00:00:00Z</updated>
+    <link rel="alternate" type="text/html" href="https://htcrefactor.github.io/robot-catalog/robot.html?id=omron-ld-250"/>
+    <category term="updated"/>
+    <summary type="html">&lt;ul&gt;&lt;li&gt;note: &lt;em&gt;—&lt;/em&gt; → Checked 2026-11-19 against OMRON datasheet I828: 148 kg, 250 kg, 1.2 m/s, IP20 match. Successor models LD-150 and LD-300 were announced 2026-11-18.&lt;/li&gt;&lt;li&gt;verification: &lt;em&gt;—&lt;/em&gt; → official&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://htcrefactor.github.io/robot-catalog/robot.html?id=omron-ld-250"&gt;OMRON LD-250 — robot page&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Source: &lt;a href="https://robotics.omron.com/products/mobile-robots/ld-series/ld-250/"&gt;https://robotics.omron.com/products/mobile-robots/ld-series/ld-250/&lt;/a&gt;&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <id>tag:htcrefactor.github.io,2026:robot-catalog/omron-ld-150/added/2026-11-19</id>
+    <title>New robot: OMRON LD-150</title>
+    <updated>2026-11-19T00:00:00Z</updated>
+    <link rel="alternate" type="text/html" href="https://htcrefactor.github.io/robot-catalog/robot.html?id=omron-ld-150"/>
+    <category term="added"/>
+    <summary type="html">&lt;p&gt;&lt;a href="https://htcrefactor.github.io/robot-catalog/robot.html?id=omron-ld-150"&gt;OMRON LD-150 — robot page&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Source: &lt;a href="https://robotics.omron.com/new-ld-series/"&gt;https://robotics.omron.com/new-ld-series/&lt;/a&gt;&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <id>tag:htcrefactor.github.io,2026:robot-catalog/omron-hd-1500/updated/2026-11-19</id>
+    <title>OMRON HD-1500: 2 fields changed</title>
+    <updated>2026-11-19T00:00:00Z</updated>
+    <link rel="alternate" type="text/html" href="https://htcrefactor.github.io/robot-catalog/robot.html?id=omron-hd-1500"/>
+    <category term="updated"/>
+    <summary type="html">&lt;ul&gt;&lt;li&gt;note: &lt;em&gt;—&lt;/em&gt; → Checked 2026-11-19 against OMRON datasheet I855: 506 kg with battery, 1,500 kg, 1.8 m/s, 9 h at full payload (12.5 h no payload), IP20 match. Maker datasheet text gives no L x W x H, so those stay empty.&lt;/li&gt;&lt;li&gt;verification: &lt;em&gt;—&lt;/em&gt; → official&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://htcrefactor.github.io/robot-catalog/robot.html?id=omron-hd-1500"&gt;OMRON HD-1500 — robot page&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Source: &lt;a href="https://robotics.omron.com/products/mobile-robots/hd-series/hd-1500"&gt;https://robotics.omron.com/products/mobile-robots/hd-series/hd-1500&lt;/a&gt;&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <id>tag:htcrefactor.github.io,2026:robot-catalog/mir-mir600/updated/2026-11-19</id>
+    <title>Mobile Industrial Robots (MiR) MiR600: 3 fields changed</title>
+    <updated>2026-11-19T00:00:00Z</updated>
+    <link rel="alternate" type="text/html" href="https://htcrefactor.github.io/robot-catalog/robot.html?id=mir-mir600"/>
+    <category term="updated"/>
+    <summary type="html">&lt;ul&gt;&lt;li&gt;note: &lt;em&gt;—&lt;/em&gt; → Checked 2026-11-19 against the MiR specification page: 1350x910x322 mm, 240 kg, 600 kg, 2.0 m/s, IP52 match. Runtime updated from 8.33 h to 8.5 h (maker now states up to 8 h 30 min at maximum payload; 11 h with no payload).&lt;/li&gt;&lt;li&gt;runtime_h: 8.33 h → 8.5 h&lt;/li&gt;&lt;li&gt;verification: &lt;em&gt;—&lt;/em&gt; → official&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://htcrefactor.github.io/robot-catalog/robot.html?id=mir-mir600"&gt;Mobile Industrial Robots (MiR) MiR600 — robot page&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Source: &lt;a href="https://mobile-industrial-robots.com/products/robots/mir600"&gt;https://mobile-industrial-robots.com/products/robots/mir600&lt;/a&gt;&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <id>tag:htcrefactor.github.io,2026:robot-catalog/mir-mir250/updated/2026-11-19</id>
+    <title>Mobile Industrial Robots (MiR) MiR250: 2 fields changed</title>
+    <updated>2026-11-19T00:00:00Z</updated>
+    <link rel="alternate" type="text/html" href="https://htcrefactor.github.io/robot-catalog/robot.html?id=mir-mir250"/>
+    <category term="updated"/>
+    <summary type="html">&lt;ul&gt;&lt;li&gt;note: &lt;em&gt;—&lt;/em&gt; → Checked 2026-11-19 against the MiR specification page: 800x580x300 mm, 94 kg, 250 kg, 2.0 m/s, 13 h at full payload, IP21 all match.&lt;/li&gt;&lt;li&gt;verification: &lt;em&gt;—&lt;/em&gt; → official&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://htcrefactor.github.io/robot-catalog/robot.html?id=mir-mir250"&gt;Mobile Industrial Robots (MiR) MiR250 — robot page&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Source: &lt;a href="https://mobile-industrial-robots.com/products/robots/mir250"&gt;https://mobile-industrial-robots.com/products/robots/mir250&lt;/a&gt;&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <id>tag:htcrefactor.github.io,2026:robot-catalog/mir-mir1200-pallet-jack/updated/2026-11-19</id>
+    <title>Mobile Industrial Robots (MiR) MiR1200 Pallet Jack: 2 fields changed</title>
+    <updated>2026-11-19T00:00:00Z</updated>
+    <link rel="alternate" type="text/html" href="https://htcrefactor.github.io/robot-catalog/robot.html?id=mir-mir1200-pallet-jack"/>
+    <category term="updated"/>
+    <summary type="html">&lt;ul&gt;&lt;li&gt;note: &lt;em&gt;—&lt;/em&gt; → Checked 2026-11-19 against the MiR specification page: 1934x820x2120 mm, 750 kg, 1,200 kg, 1.5 m/s, up to 10 h, IP52 all match.&lt;/li&gt;&lt;li&gt;verification: &lt;em&gt;—&lt;/em&gt; → official&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://htcrefactor.github.io/robot-catalog/robot.html?id=mir-mir1200-pallet-jack"&gt;Mobile Industrial Robots (MiR) MiR1200 Pallet Jack — robot page&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Source: &lt;a href="https://mobile-industrial-robots.com/products/robots/mir1200-pallet-jack"&gt;https://mobile-industrial-robots.com/products/robots/mir1200-pallet-jack&lt;/a&gt;&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <id>tag:htcrefactor.github.io,2026:robot-catalog/locus-robotics-locus-origin/updated/2026-11-19</id>
+    <title>Locus Robotics Locus Origin: 2 fields changed</title>
+    <updated>2026-11-19T00:00:00Z</updated>
+    <link rel="alternate" type="text/html" href="https://htcrefactor.github.io/robot-catalog/robot.html?id=locus-robotics-locus-origin"/>
+    <category term="updated"/>
+    <summary type="html">&lt;ul&gt;&lt;li&gt;note: &lt;em&gt;—&lt;/em&gt; → Checked 2026-11-19 on the maker page: 20.4x22.8x62 in (518x579x1575 mm), 36 kg payload, up to 14 h runtime, ~50 min charge, CE-certified all match. Maker publishes no weight or speed.&lt;/li&gt;&lt;li&gt;verification: &lt;em&gt;—&lt;/em&gt; → official&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://htcrefactor.github.io/robot-catalog/robot.html?id=locus-robotics-locus-origin"&gt;Locus Robotics Locus Origin — robot page&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Source: &lt;a href="https://locusrobotics.com/platform/locus-origin/"&gt;https://locusrobotics.com/platform/locus-origin/&lt;/a&gt;&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <id>tag:htcrefactor.github.io,2026:robot-catalog/kuka-kmp-600-s-diffdrive/updated/2026-11-19</id>
+    <title>KUKA KMP 600-S diffDrive: 2 fields changed</title>
+    <updated>2026-11-19T00:00:00Z</updated>
+    <link rel="alternate" type="text/html" href="https://htcrefactor.github.io/robot-catalog/robot.html?id=kuka-kmp-600-s-diffdrive"/>
+    <category term="updated"/>
+    <summary type="html">&lt;ul&gt;&lt;li&gt;note: &lt;em&gt;—&lt;/em&gt; → Checked 2026-11-19 against the KUKA AMR brochure: 1,000x750x353 mm, 246 kg, 600 kg rated payload, 2 m/s, battery at least 8 h all match.&lt;/li&gt;&lt;li&gt;verification: &lt;em&gt;—&lt;/em&gt; → official&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://htcrefactor.github.io/robot-catalog/robot.html?id=kuka-kmp-600-s-diffdrive"&gt;KUKA KMP 600-S diffDrive — robot page&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Source: &lt;a href="https://www.kuka.com/en-gb/products/amr-autonomous-mobile-robotics/mobile-platforms/kmp-600-s-diffdrive"&gt;https://www.kuka.com/en-gb/products/amr-autonomous-mobile-robotics/mobile-platforms/kmp-600-s-diffdrive&lt;/a&gt;&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <id>tag:htcrefactor.github.io,2026:robot-catalog/kuka-kmp-1500/updated/2026-11-19</id>
+    <title>KUKA KMP 1500: 3 fields changed</title>
+    <updated>2026-11-19T00:00:00Z</updated>
+    <link rel="alternate" type="text/html" href="https://htcrefactor.github.io/robot-catalog/robot.html?id=kuka-kmp-1500"/>
+    <category term="updated"/>
+    <summary type="html">&lt;ul&gt;&lt;li&gt;note: &lt;em&gt;—&lt;/em&gt; → Checked 2026-11-19 against KUKA documents: 1,500 kg omniMove platform values match. official_url now points to the KUKA product page instead of the home page.&lt;/li&gt;&lt;li&gt;official_url: https://www.kuka.com/ → https://my.kuka.com/s/product/kmp-15003-omnimove/01t1i000001WxgqAAC?language=en_US&lt;/li&gt;&lt;li&gt;verification: &lt;em&gt;—&lt;/em&gt; → official&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://htcrefactor.github.io/robot-catalog/robot.html?id=kuka-kmp-1500"&gt;KUKA KMP 1500 — robot page&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Source: &lt;a href="https://my.kuka.com/s/product/kmp-15003-omnimove/01t1i000001WxgqAAC?language=en_US"&gt;https://my.kuka.com/s/product/kmp-15003-omnimove/01t1i000001WxgqAAC?language=en_US&lt;/a&gt;&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <id>tag:htcrefactor.github.io,2026:robot-catalog/hikrobot-q7-1000e/updated/2026-11-19</id>
+    <title>Hikrobot Q7-1000E (MR-Q7-1000CE-E1(HI)(CE)): 2 fields changed</title>
+    <updated>2026-11-19T00:00:00Z</updated>
+    <link rel="alternate" type="text/html" href="https://htcrefactor.github.io/robot-catalog/robot.html?id=hikrobot-q7-1000e"/>
+    <category term="updated"/>
+    <summary type="html">&lt;ul&gt;&lt;li&gt;note: &lt;em&gt;—&lt;/em&gt; → Checked 2026-11-19: record values come from the maker datasheet and Hikrobot LMR wiki parameter page already listed in sources; no conflicts found.&lt;/li&gt;&lt;li&gt;verification: &lt;em&gt;—&lt;/em&gt; → official&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://htcrefactor.github.io/robot-catalog/robot.html?id=hikrobot-q7-1000e"&gt;Hikrobot Q7-1000E (MR-Q7-1000CE-E1(HI)(CE)) — robot page&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Source: &lt;a href="https://www.hikrobotics.com/en/mobilerobot/LMR/"&gt;https://www.hikrobotics.com/en/mobilerobot/LMR/&lt;/a&gt;&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <id>tag:htcrefactor.github.io,2026:robot-catalog/geekplus-p800r/updated/2026-11-19</id>
+    <title>Geek+ (Beijing Geekplus Technology) P800R: 2 fields changed</title>
+    <updated>2026-11-19T00:00:00Z</updated>
+    <link rel="alternate" type="text/html" href="https://htcrefactor.github.io/robot-catalog/robot.html?id=geekplus-p800r"/>
+    <category term="updated"/>
+    <summary type="html">&lt;ul&gt;&lt;li&gt;note: &lt;em&gt;—&lt;/em&gt; → Checked 2026-11-19 against the maker P-series datasheet: 1095x830x195 mm (regular), 142 kg, 1,000 kg, 2.3 m/s no-load / 2.0 m/s loaded, DC51.1V 27.9Ah battery (1,426 Wh derived from V x Ah) all match.&lt;/li&gt;&lt;li&gt;verification: &lt;em&gt;—&lt;/em&gt; → official&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://htcrefactor.github.io/robot-catalog/robot.html?id=geekplus-p800r"&gt;Geek+ (Beijing Geekplus Technology) P800R — robot page&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Source: &lt;a href="https://www.geekplus.com/technology-detail-page/p-series"&gt;https://www.geekplus.com/technology-detail-page/p-series&lt;/a&gt;&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <id>tag:htcrefactor.github.io,2026:robot-catalog/kelly-c1-w/added/2026-11-19</id>
+    <title>New robot: Foshan Kelly Robot Co., Ltd. C1-W</title>
+    <updated>2026-11-19T00:00:00Z</updated>
+    <link rel="alternate" type="text/html" href="https://htcrefactor.github.io/robot-catalog/robot.html?id=kelly-c1-w"/>
+    <category term="added"/>
+    <summary type="html">&lt;p&gt;&lt;a href="https://htcrefactor.github.io/robot-catalog/robot.html?id=kelly-c1-w"&gt;Foshan Kelly Robot Co., Ltd. C1-W — robot page&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Source: &lt;a href="https://www.kellyrobot.com/news/kelly-c1-w-wheeled-legged-quadruped-robot/"&gt;https://www.kellyrobot.com/news/kelly-c1-w-wheeled-legged-quadruped-robot/&lt;/a&gt;&lt;/p&gt;</summary>
+  </entry>
   <entry>
     <id>tag:htcrefactor.github.io,2026:robot-catalog/zvalley-z03/added/2026-11-14</id>
     <title>New robot: Zvalley Technology (Zoomlion) Z03</title>
@@ -702,109 +806,5 @@
     <link rel="alternate" type="text/html" href="https://htcrefactor.github.io/robot-catalog/robot.html?id=bonn-nimbro-op"/>
     <category term="added"/>
     <summary type="html">&lt;p&gt;&lt;a href="https://htcrefactor.github.io/robot-catalog/robot.html?id=bonn-nimbro-op"&gt;University of Bonn (NimbRo) NimbRo-OP — robot page&lt;/a&gt;&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <id>tag:htcrefactor.github.io,2026:robot-catalog/unitree-superman/added/2026-11-14</id>
-    <title>New robot: Unitree Robotics Superman (prototype)</title>
-    <updated>2026-11-14T00:00:00Z</updated>
-    <link rel="alternate" type="text/html" href="https://htcrefactor.github.io/robot-catalog/robot.html?id=unitree-superman"/>
-    <category term="added"/>
-    <summary type="html">&lt;p&gt;&lt;a href="https://htcrefactor.github.io/robot-catalog/robot.html?id=unitree-superman"&gt;Unitree Robotics Superman (prototype) — robot page&lt;/a&gt;&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <id>tag:htcrefactor.github.io,2026:robot-catalog/unitree-laikago/added/2026-11-14</id>
-    <title>New robot: Unitree Robotics Laikago</title>
-    <updated>2026-11-14T00:00:00Z</updated>
-    <link rel="alternate" type="text/html" href="https://htcrefactor.github.io/robot-catalog/robot.html?id=unitree-laikago"/>
-    <category term="added"/>
-    <summary type="html">&lt;p&gt;&lt;a href="https://htcrefactor.github.io/robot-catalog/robot.html?id=unitree-laikago"&gt;Unitree Robotics Laikago — robot page&lt;/a&gt;&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <id>tag:htcrefactor.github.io,2026:robot-catalog/unitree-h2-d/added/2026-11-14</id>
-    <title>New robot: Unitree Robotics H2-D</title>
-    <updated>2026-11-14T00:00:00Z</updated>
-    <link rel="alternate" type="text/html" href="https://htcrefactor.github.io/robot-catalog/robot.html?id=unitree-h2-d"/>
-    <category term="added"/>
-    <summary type="html">&lt;p&gt;&lt;a href="https://htcrefactor.github.io/robot-catalog/robot.html?id=unitree-h2-d"&gt;Unitree Robotics H2-D — robot page&lt;/a&gt;&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <id>tag:htcrefactor.github.io,2026:robot-catalog/unitree-go1/added/2026-11-14</id>
-    <title>New robot: Unitree Robotics Go1</title>
-    <updated>2026-11-14T00:00:00Z</updated>
-    <link rel="alternate" type="text/html" href="https://htcrefactor.github.io/robot-catalog/robot.html?id=unitree-go1"/>
-    <category term="added"/>
-    <summary type="html">&lt;p&gt;&lt;a href="https://htcrefactor.github.io/robot-catalog/robot.html?id=unitree-go1"&gt;Unitree Robotics Go1 — robot page&lt;/a&gt;&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <id>tag:htcrefactor.github.io,2026:robot-catalog/unitree-g1-d/added/2026-11-14</id>
-    <title>New robot: Unitree Robotics G1-D</title>
-    <updated>2026-11-14T00:00:00Z</updated>
-    <link rel="alternate" type="text/html" href="https://htcrefactor.github.io/robot-catalog/robot.html?id=unitree-g1-d"/>
-    <category term="added"/>
-    <summary type="html">&lt;p&gt;&lt;a href="https://htcrefactor.github.io/robot-catalog/robot.html?id=unitree-g1-d"&gt;Unitree Robotics G1-D — robot page&lt;/a&gt;&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <id>tag:htcrefactor.github.io,2026:robot-catalog/unitree-b1/added/2026-11-14</id>
-    <title>New robot: Unitree Robotics B1</title>
-    <updated>2026-11-14T00:00:00Z</updated>
-    <link rel="alternate" type="text/html" href="https://htcrefactor.github.io/robot-catalog/robot.html?id=unitree-b1"/>
-    <category term="added"/>
-    <summary type="html">&lt;p&gt;&lt;a href="https://htcrefactor.github.io/robot-catalog/robot.html?id=unitree-b1"&gt;Unitree Robotics B1 — robot page&lt;/a&gt;&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <id>tag:htcrefactor.github.io,2026:robot-catalog/unitree-as2/added/2026-11-14</id>
-    <title>New robot: Unitree Robotics As2</title>
-    <updated>2026-11-14T00:00:00Z</updated>
-    <link rel="alternate" type="text/html" href="https://htcrefactor.github.io/robot-catalog/robot.html?id=unitree-as2"/>
-    <category term="added"/>
-    <summary type="html">&lt;p&gt;&lt;a href="https://htcrefactor.github.io/robot-catalog/robot.html?id=unitree-as2"&gt;Unitree Robotics As2 — robot page&lt;/a&gt;&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <id>tag:htcrefactor.github.io,2026:robot-catalog/unitree-aliengo/added/2026-11-14</id>
-    <title>New robot: Unitree Robotics AlienGo</title>
-    <updated>2026-11-14T00:00:00Z</updated>
-    <link rel="alternate" type="text/html" href="https://htcrefactor.github.io/robot-catalog/robot.html?id=unitree-aliengo"/>
-    <category term="added"/>
-    <summary type="html">&lt;p&gt;&lt;a href="https://htcrefactor.github.io/robot-catalog/robot.html?id=unitree-aliengo"&gt;Unitree Robotics AlienGo — robot page&lt;/a&gt;&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <id>tag:htcrefactor.github.io,2026:robot-catalog/unitree-a1/added/2026-11-14</id>
-    <title>New robot: Unitree Robotics A1</title>
-    <updated>2026-11-14T00:00:00Z</updated>
-    <link rel="alternate" type="text/html" href="https://htcrefactor.github.io/robot-catalog/robot.html?id=unitree-a1"/>
-    <category term="added"/>
-    <summary type="html">&lt;p&gt;&lt;a href="https://htcrefactor.github.io/robot-catalog/robot.html?id=unitree-a1"&gt;Unitree Robotics A1 — robot page&lt;/a&gt;&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <id>tag:htcrefactor.github.io,2026:robot-catalog/uma-northstar/added/2026-11-14</id>
-    <title>New robot: UMA Northstar</title>
-    <updated>2026-11-14T00:00:00Z</updated>
-    <link rel="alternate" type="text/html" href="https://htcrefactor.github.io/robot-catalog/robot.html?id=uma-northstar"/>
-    <category term="added"/>
-    <summary type="html">&lt;p&gt;&lt;a href="https://htcrefactor.github.io/robot-catalog/robot.html?id=uma-northstar"&gt;UMA Northstar — robot page&lt;/a&gt;&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <id>tag:htcrefactor.github.io,2026:robot-catalog/ugo-pro/added/2026-11-14</id>
-    <title>New robot: ugo ugo Pro</title>
-    <updated>2026-11-14T00:00:00Z</updated>
-    <link rel="alternate" type="text/html" href="https://htcrefactor.github.io/robot-catalog/robot.html?id=ugo-pro"/>
-    <category term="added"/>
-    <summary type="html">&lt;p&gt;&lt;a href="https://htcrefactor.github.io/robot-catalog/robot.html?id=ugo-pro"&gt;ugo ugo Pro — robot page&lt;/a&gt;&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <id>tag:htcrefactor.github.io,2026:robot-catalog/ugo-nova/added/2026-11-14</id>
-    <title>New robot: ugo ugo Nova</title>
-    <updated>2026-11-14T00:00:00Z</updated>
-    <link rel="alternate" type="text/html" href="https://htcrefactor.github.io/robot-catalog/robot.html?id=ugo-nova"/>
-    <category term="added"/>
-    <summary type="html">&lt;p&gt;&lt;a href="https://htcrefactor.github.io/robot-catalog/robot.html?id=ugo-nova"&gt;ugo ugo Nova — robot page&lt;/a&gt;&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <id>tag:htcrefactor.github.io,2026:robot-catalog/ucla-romela-artemis/added/2026-11-14</id>
-    <title>New robot: UCLA RoMeLa ARTEMIS</title>
-    <updated>2026-11-14T00:00:00Z</updated>
-    <link rel="alternate" type="text/html" href="https://htcrefactor.github.io/robot-catalog/robot.html?id=ucla-romela-artemis"/>
-    <category term="added"/>
-    <summary type="html">&lt;p&gt;&lt;a href="https://htcrefactor.github.io/robot-catalog/robot.html?id=ucla-romela-artemis"&gt;UCLA RoMeLa ARTEMIS — robot page&lt;/a&gt;&lt;/p&gt;</summary>
   </entry>
 </feed>

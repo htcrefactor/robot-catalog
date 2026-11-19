@@ -1,0 +1,25 @@
+{
+ "id": "geekplus-p800r",
+ "name": "P800R",
+ "manufacturer": "Geek+ (Beijing Geekplus Technology)",
+ "updated": "2026-11-19",
+ "events": [
+  {
+   "date": "2026-11-19",
+   "type": "updated",
+   "source": "https://www.geekplus.com/technology-detail-page/p-series",
+   "changes": [
+    {
+     "field": "note",
+     "from": null,
+     "to": "Checked 2026-11-19 against the maker P-series datasheet: 1095x830x195 mm (regular), 142 kg, 1,000 kg, 2.3 m/s no-load / 2.0 m/s loaded, DC51.1V 27.9Ah battery (1,426 Wh derived from V x Ah) all match."
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "official"
+    }
+   ]
+  }
+ ]
+}

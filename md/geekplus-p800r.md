@@ -6,7 +6,7 @@
 - Category: AGV
 - Locomotion: Wheeled
 - Manufacturer: Geek+ (Beijing Geekplus Technology) (China)
-- Verification: not recorded
+- Verification: official — checked against a maker source
 
 ## Core specs
 
@@ -129,6 +129,10 @@ Fields the maker does not publish are left out here — the catalog never fills 
 - [P-Series robots page (Geek+)](https://www.geekplus.com/technology/p-series-robots?hsLang=en)
 - [Picking system spec page (Geek+ Japan)](https://www.geekplus.jp/service/products/picking/spec)
 
+## Notes
+
+Checked 2026-11-19 against the maker P-series datasheet: 1095x830x195 mm (regular), 142 kg, 1,000 kg, 2.3 m/s no-load / 2.0 m/s loaded, DC51.1V 27.9Ah battery (1,426 Wh derived from V x Ah) all match.
+
 ## Sources
 
 - Official page: [geekplus.com](https://www.geekplus.com/technology-detail-page/p-series)
@@ -136,4 +140,4 @@ Fields the maker does not publish are left out here — the catalog never fills 
 
 ---
 
-*Robot Catalog — generated from data/robots.json (last merged 2026-11-17). Source repository: https://github.com/htcrefactor/robot-catalog*
+*Robot Catalog — generated from data/robots.json (last merged 2026-11-19). Source repository: https://github.com/htcrefactor/robot-catalog*

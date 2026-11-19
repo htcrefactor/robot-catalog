@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-17",
- "robots_with_specs": 194,
+ "updated": "2026-11-19",
+ "robots_with_specs": 197,
  "keys": [
   {
    "key": "max_joint_torque",
@@ -582,7 +582,7 @@
    "dim": "",
    "base": "",
    "f2b": 1,
-   "robots": 48,
+   "robots": 50,
    "numeric": 1
   },
   {
@@ -593,7 +593,7 @@
    "dim": "power",
    "base": "W",
    "f2b": 1,
-   "robots": 35,
+   "robots": 37,
    "numeric": 2
   },
   {
@@ -846,8 +846,8 @@
    "dim": "time",
    "base": "h",
    "f2b": 1,
-   "robots": 50,
-   "numeric": 54
+   "robots": 52,
+   "numeric": 56
   },
   {
    "key": "charging_method",
@@ -857,7 +857,7 @@
    "dim": "",
    "base": "",
    "f2b": 1,
-   "robots": 40,
+   "robots": 43,
    "numeric": 0
   },
   {
@@ -916,6 +916,17 @@
    "numeric": 0
   },
   {
+   "key": "charge_to_runtime_ratio",
+   "group": "Charging & Docking",
+   "label": "Charging-to-runtime ratio",
+   "unit": "",
+   "dim": "",
+   "base": "",
+   "f2b": 1,
+   "robots": 6,
+   "numeric": 0
+  },
+  {
    "key": "charger_power",
    "group": "Charging & Docking",
    "label": "Wireless charging power",
@@ -947,17 +958,6 @@
    "f2b": 1,
    "robots": 5,
    "numeric": 4
-  },
-  {
-   "key": "charge_to_runtime_ratio",
-   "group": "Charging & Docking",
-   "label": "Charging-to-runtime ratio",
-   "unit": "",
-   "dim": "",
-   "base": "",
-   "f2b": 1,
-   "robots": 4,
-   "numeric": 0
   },
   {
    "key": "charger_dimensions",
@@ -1532,6 +1532,17 @@
    "numeric": 0
   },
   {
+   "key": "availability",
+   "group": "Commercial",
+   "label": "Status",
+   "unit": "",
+   "dim": "",
+   "base": "",
+   "f2b": 1,
+   "robots": 20,
+   "numeric": 0
+  },
+  {
    "key": "warranty",
    "group": "Commercial",
    "label": "Warranty",
@@ -1552,17 +1563,6 @@
    "f2b": 1,
    "robots": 19,
    "numeric": 1
-  },
-  {
-   "key": "availability",
-   "group": "Commercial",
-   "label": "Status",
-   "unit": "",
-   "dim": "",
-   "base": "",
-   "f2b": 1,
-   "robots": 18,
-   "numeric": 0
   },
   {
    "key": "price_usd_equiv",
@@ -1726,7 +1726,7 @@
    "dim": "",
    "base": "",
    "f2b": 1,
-   "robots": 35,
+   "robots": 36,
    "numeric": 0
   },
   {
@@ -1748,7 +1748,7 @@
    "dim": "",
    "base": "",
    "f2b": 1,
-   "robots": 22,
+   "robots": 24,
    "numeric": 0
   },
   {
@@ -2331,8 +2331,19 @@
    "dim": "",
    "base": "",
    "f2b": 1,
-   "robots": 40,
+   "robots": 42,
    "numeric": 0
+  },
+  {
+   "key": "ethernet",
+   "group": "Connectivity & Interfaces",
+   "label": "Ethernet",
+   "unit": "port",
+   "dim": "",
+   "base": "port",
+   "f2b": 1,
+   "robots": 24,
+   "numeric": 4
   },
   {
    "key": "external_ports",
@@ -2355,17 +2366,6 @@
    "f2b": 1,
    "robots": 23,
    "numeric": 0
-  },
-  {
-   "key": "ethernet",
-   "group": "Connectivity & Interfaces",
-   "label": "Ethernet",
-   "unit": "port",
-   "dim": "",
-   "base": "port",
-   "f2b": 1,
-   "robots": 22,
-   "numeric": 4
   },
   {
    "key": "bluetooth",
@@ -2412,6 +2412,17 @@
    "numeric": 0
   },
   {
+   "key": "gpio",
+   "group": "Connectivity & Interfaces",
+   "label": "Digital I/O",
+   "unit": "",
+   "dim": "",
+   "base": "",
+   "f2b": 1,
+   "robots": 6,
+   "numeric": 0
+  },
+  {
    "key": "fcc_id",
    "group": "Connectivity & Interfaces",
    "label": "FCC ID",
@@ -2426,17 +2437,6 @@
    "key": "data_security",
    "group": "Connectivity & Interfaces",
    "label": "Data security",
-   "unit": "",
-   "dim": "",
-   "base": "",
-   "f2b": 1,
-   "robots": 4,
-   "numeric": 0
-  },
-  {
-   "key": "gpio",
-   "group": "Connectivity & Interfaces",
-   "label": "Digital I/O",
    "unit": "",
    "dim": "",
    "base": "",
@@ -2892,7 +2892,7 @@
    "dim": "",
    "base": "",
    "f2b": 1,
-   "robots": 7,
+   "robots": 9,
    "numeric": 0
   },
   {
@@ -3541,8 +3541,8 @@
    "dim": "mass",
    "base": "kg",
    "f2b": 1,
-   "robots": 159,
-   "numeric": 175
+   "robots": 160,
+   "numeric": 176
   },
   {
    "key": "height_standing",
@@ -3563,8 +3563,8 @@
    "dim": "length",
    "base": "mm",
    "f2b": 1,
-   "robots": 68,
-   "numeric": 78
+   "robots": 70,
+   "numeric": 80
   },
   {
    "key": "length",
@@ -3574,8 +3574,8 @@
    "dim": "length",
    "base": "mm",
    "f2b": 1,
-   "robots": 67,
-   "numeric": 78
+   "robots": 69,
+   "numeric": 80
   },
   {
    "key": "height",
@@ -3585,8 +3585,8 @@
    "dim": "length",
    "base": "mm",
    "f2b": 1,
-   "robots": 54,
-   "numeric": 59
+   "robots": 56,
+   "numeric": 61
   },
   {
    "key": "weight_with_battery",
@@ -3688,6 +3688,17 @@
    "numeric": 7
   },
   {
+   "key": "weight_without_battery",
+   "group": "Dimensions & Mass",
+   "label": "Weight (no battery or accessories)",
+   "unit": "kg",
+   "dim": "mass",
+   "base": "kg",
+   "f2b": 1,
+   "robots": 5,
+   "numeric": 5
+  },
+  {
    "key": "height_max",
    "group": "Dimensions & Mass",
    "label": "Height with flag",
@@ -3710,6 +3721,17 @@
    "numeric": 4
   },
   {
+   "key": "footprint",
+   "group": "Dimensions & Mass",
+   "label": "Footprint (L x W)",
+   "unit": "",
+   "dim": "",
+   "base": "",
+   "f2b": 1,
+   "robots": 3,
+   "numeric": 0
+  },
+  {
    "key": "structural_material",
    "group": "Dimensions & Mass",
    "label": "Structural material",
@@ -3721,12 +3743,12 @@
    "numeric": 0
   },
   {
-   "key": "weight_without_battery",
+   "key": "swing_radius",
    "group": "Dimensions & Mass",
-   "label": "Weight (without battery)",
-   "unit": "kg",
-   "dim": "mass",
-   "base": "kg",
+   "label": "Swing radius",
+   "unit": "mm",
+   "dim": "length",
+   "base": "mm",
    "f2b": 1,
    "robots": 3,
    "numeric": 3
@@ -3741,6 +3763,17 @@
    "f2b": 1,
    "robots": 2,
    "numeric": 2
+  },
+  {
+   "key": "overall_dimensions",
+   "group": "Dimensions & Mass",
+   "label": "Dimensions",
+   "unit": "",
+   "dim": "",
+   "base": "",
+   "f2b": 1,
+   "robots": 2,
+   "numeric": 0
   },
   {
    "key": "drive_wheel_diameter",
@@ -3774,6 +3807,17 @@
    "f2b": 1,
    "robots": 2,
    "numeric": 0
+  },
+  {
+   "key": "max_gross_weight",
+   "group": "Dimensions & Mass",
+   "label": "Permissible total weight",
+   "unit": "kg",
+   "dim": "mass",
+   "base": "kg",
+   "f2b": 1,
+   "robots": 2,
+   "numeric": 2
   },
   {
    "key": "rotation_diameter",
@@ -3820,17 +3864,6 @@
    "numeric": 1
   },
   {
-   "key": "overall_dimensions",
-   "group": "Dimensions & Mass",
-   "label": "Dimensions",
-   "unit": "",
-   "dim": "",
-   "base": "",
-   "f2b": 1,
-   "robots": 1,
-   "numeric": 0
-  },
-  {
    "key": "wheel_effective_radius",
    "group": "Dimensions & Mass",
    "label": "Effective tire radius",
@@ -3851,17 +3884,6 @@
    "f2b": 1,
    "robots": 1,
    "numeric": 1
-  },
-  {
-   "key": "footprint",
-   "group": "Dimensions & Mass",
-   "label": "Footprint",
-   "unit": "",
-   "dim": "",
-   "base": "",
-   "f2b": 1,
-   "robots": 1,
-   "numeric": 0
   },
   {
    "key": "height_adjustment_range",
@@ -3941,17 +3963,6 @@
    "numeric": 1
   },
   {
-   "key": "max_gross_weight",
-   "group": "Dimensions & Mass",
-   "label": "Permissible total weight",
-   "unit": "kg",
-   "dim": "mass",
-   "base": "kg",
-   "f2b": 1,
-   "robots": 1,
-   "numeric": 1
-  },
-  {
    "key": "shoulder_width",
    "group": "Dimensions & Mass",
    "label": "Shoulder width",
@@ -3959,17 +3970,6 @@
    "dim": "length",
    "base": "mm",
    "f2b": 10,
-   "robots": 1,
-   "numeric": 1
-  },
-  {
-   "key": "swing_radius",
-   "group": "Dimensions & Mass",
-   "label": "Swing radius",
-   "unit": "mm",
-   "dim": "length",
-   "base": "mm",
-   "f2b": 1,
    "robots": 1,
    "numeric": 1
   },
@@ -4025,8 +4025,8 @@
    "dim": "temp",
    "base": "°C",
    "f2b": 1,
-   "robots": 50,
-   "numeric": 40
+   "robots": 53,
+   "numeric": 43
   },
   {
    "key": "ip_rating",
@@ -4036,7 +4036,7 @@
    "dim": "",
    "base": "",
    "f2b": 1,
-   "robots": 41,
+   "robots": 44,
    "numeric": 0
   },
   {
@@ -4047,8 +4047,8 @@
    "dim": "temp",
    "base": "°C",
    "f2b": 1,
-   "robots": 27,
-   "numeric": 18
+   "robots": 29,
+   "numeric": 20
   },
   {
    "key": "operating_humidity",
@@ -4058,7 +4058,7 @@
    "dim": "rh",
    "base": "% RH",
    "f2b": 1,
-   "robots": 24,
+   "robots": 26,
    "numeric": 7
   },
   {
@@ -4075,13 +4075,24 @@
   {
    "key": "max_altitude",
    "group": "Environment & Protection",
-   "label": "Recommended max altitude",
+   "label": "Altitude",
    "unit": "m",
    "dim": "length",
    "base": "mm",
    "f2b": 1000,
-   "robots": 14,
-   "numeric": 12
+   "robots": 16,
+   "numeric": 14
+  },
+  {
+   "key": "indoor_outdoor",
+   "group": "Environment & Protection",
+   "label": "Environment",
+   "unit": "",
+   "dim": "",
+   "base": "",
+   "f2b": 1,
+   "robots": 9,
+   "numeric": 0
   },
   {
    "key": "lighting_requirements",
@@ -4103,17 +4114,6 @@
    "base": "",
    "f2b": 1,
    "robots": 8,
-   "numeric": 0
-  },
-  {
-   "key": "indoor_outdoor",
-   "group": "Environment & Protection",
-   "label": "Environment",
-   "unit": "",
-   "dim": "",
-   "base": "",
-   "f2b": 1,
-   "robots": 7,
    "numeric": 0
   },
   {
@@ -4355,8 +4355,8 @@
    "dim": "",
    "base": "",
    "f2b": 1,
-   "robots": 24,
-   "numeric": 0
+   "robots": 26,
+   "numeric": 2
   },
   {
    "key": "robot_type",
@@ -4368,6 +4368,17 @@
    "f2b": 1,
    "robots": 23,
    "numeric": 0
+  },
+  {
+   "key": "release_date",
+   "group": "Identity",
+   "label": "Unveiled",
+   "unit": "",
+   "dim": "",
+   "base": "",
+   "f2b": 1,
+   "robots": 22,
+   "numeric": 1
   },
   {
    "key": "manufacturer_address",
@@ -4390,17 +4401,6 @@
    "f2b": 1,
    "robots": 20,
    "numeric": 0
-  },
-  {
-   "key": "release_date",
-   "group": "Identity",
-   "label": "Unveiled",
-   "unit": "",
-   "dim": "",
-   "base": "",
-   "f2b": 1,
-   "robots": 19,
-   "numeric": 1
   },
   {
    "key": "software_version",
@@ -4861,8 +4861,8 @@
    "dim": "speed",
    "base": "m/s",
    "f2b": 1,
-   "robots": 139,
-   "numeric": 165
+   "robots": 143,
+   "numeric": 169
   },
   {
    "key": "degrees_of_freedom",
@@ -4894,8 +4894,8 @@
    "dim": "mass",
    "base": "kg",
    "f2b": 1,
-   "robots": 61,
-   "numeric": 64
+   "robots": 64,
+   "numeric": 67
   },
   {
    "key": "nominal_speed",
@@ -4905,8 +4905,8 @@
    "dim": "speed",
    "base": "m/s",
    "f2b": 1,
-   "robots": 16,
-   "numeric": 17
+   "robots": 17,
+   "numeric": 18
   },
   {
    "key": "max_yaw_rate",
@@ -4916,8 +4916,30 @@
    "dim": "angvel",
    "base": "°/s",
    "f2b": 57.29577951,
+   "robots": 15,
+   "numeric": 13
+  },
+  {
+   "key": "turning_radius",
+   "group": "Mobility & Performance",
+   "label": "Minimum turning radius",
+   "unit": "mm",
+   "dim": "length",
+   "base": "mm",
+   "f2b": 1,
+   "robots": 15,
+   "numeric": 7
+  },
+  {
+   "key": "positioning_accuracy",
+   "group": "Mobility & Performance",
+   "label": "Stop position repeatability (single AMR)",
+   "unit": "mm",
+   "dim": "length",
+   "base": "mm",
+   "f2b": 1,
    "robots": 13,
-   "numeric": 11
+   "numeric": 1
   },
   {
    "key": "gaits",
@@ -4931,28 +4953,6 @@
    "numeric": 0
   },
   {
-   "key": "turning_radius",
-   "group": "Mobility & Performance",
-   "label": "Minimum turning radius",
-   "unit": "mm",
-   "dim": "length",
-   "base": "mm",
-   "f2b": 1,
-   "robots": 12,
-   "numeric": 4
-  },
-  {
-   "key": "positioning_accuracy",
-   "group": "Mobility & Performance",
-   "label": "Positioning accuracy",
-   "unit": "mm",
-   "dim": "length",
-   "base": "mm",
-   "f2b": 1,
-   "robots": 11,
-   "numeric": 1
-  },
-  {
    "key": "drive_train",
    "group": "Mobility & Performance",
    "label": "Drive configuration",
@@ -4962,6 +4962,17 @@
    "f2b": 1,
    "robots": 10,
    "numeric": 0
+  },
+  {
+   "key": "max_acceleration",
+   "group": "Mobility & Performance",
+   "label": "Maximum acceleration",
+   "unit": "m/s²",
+   "dim": "",
+   "base": "m/s²",
+   "f2b": 1,
+   "robots": 8,
+   "numeric": 8
   },
   {
    "key": "drive_type",
@@ -4978,6 +4989,17 @@
    "key": "drive_motor",
    "group": "Mobility & Performance",
    "label": "Drive motors",
+   "unit": "",
+   "dim": "",
+   "base": "",
+   "f2b": 1,
+   "robots": 7,
+   "numeric": 0
+  },
+  {
+   "key": "drive_wheel_material",
+   "group": "Mobility & Performance",
+   "label": "Drive wheel material",
    "unit": "",
    "dim": "",
    "base": "",
@@ -5008,17 +5030,6 @@
    "numeric": 0
   },
   {
-   "key": "max_acceleration",
-   "group": "Mobility & Performance",
-   "label": "Maximum acceleration",
-   "unit": "m/s²",
-   "dim": "",
-   "base": "m/s²",
-   "f2b": 1,
-   "robots": 6,
-   "numeric": 8
-  },
-  {
    "key": "wheel_count",
    "group": "Mobility & Performance",
    "label": "Wheels",
@@ -5033,17 +5044,6 @@
    "key": "drive_motor_encoder",
    "group": "Mobility & Performance",
    "label": "Drive motor sensor",
-   "unit": "",
-   "dim": "",
-   "base": "",
-   "f2b": 1,
-   "robots": 5,
-   "numeric": 0
-  },
-  {
-   "key": "drive_wheel_material",
-   "group": "Mobility & Performance",
-   "label": "Drive wheel material",
    "unit": "",
    "dim": "",
    "base": "",
@@ -5072,6 +5072,17 @@
    "f2b": 1,
    "robots": 5,
    "numeric": 5
+  },
+  {
+   "key": "caster_material",
+   "group": "Mobility & Performance",
+   "label": "Passive caster material",
+   "unit": "",
+   "dim": "",
+   "base": "",
+   "f2b": 1,
+   "robots": 5,
+   "numeric": 0
   },
   {
    "key": "drive_power",
@@ -5118,6 +5129,28 @@
    "numeric": 0
   },
   {
+   "key": "max_deceleration",
+   "group": "Mobility & Performance",
+   "label": "Maximum braking deceleration",
+   "unit": "g",
+   "dim": "mass",
+   "base": "kg",
+   "f2b": 0.001,
+   "robots": 4,
+   "numeric": 1
+  },
+  {
+   "key": "max_speed_reverse",
+   "group": "Mobility & Performance",
+   "label": "Maximum translational speed (reverse)",
+   "unit": "mm/s",
+   "dim": "speed",
+   "base": "m/s",
+   "f2b": 0.001,
+   "robots": 4,
+   "numeric": 4
+  },
+  {
    "key": "docking_accuracy",
    "group": "Mobility & Performance",
    "label": "Positioning accuracy, docking to VL-marker",
@@ -5151,15 +5184,26 @@
    "numeric": 1
   },
   {
-   "key": "caster_material",
+   "key": "locomotion_modes",
    "group": "Mobility & Performance",
-   "label": "Passive caster material",
+   "label": "Locomotion",
    "unit": "",
    "dim": "",
    "base": "",
    "f2b": 1,
    "robots": 3,
    "numeric": 0
+  },
+  {
+   "key": "max_rotational_acceleration",
+   "group": "Mobility & Performance",
+   "label": "Maximum rotational acceleration",
+   "unit": "°/s²",
+   "dim": "",
+   "base": "°/s²",
+   "f2b": 1,
+   "robots": 3,
+   "numeric": 3
   },
   {
    "key": "rotation_accuracy",
@@ -5228,28 +5272,6 @@
    "numeric": 2
   },
   {
-   "key": "locomotion_modes",
-   "group": "Mobility & Performance",
-   "label": "Locomotion",
-   "unit": "",
-   "dim": "",
-   "base": "",
-   "f2b": 1,
-   "robots": 2,
-   "numeric": 0
-  },
-  {
-   "key": "max_deceleration",
-   "group": "Mobility & Performance",
-   "label": "Maximum braking deceleration",
-   "unit": "g",
-   "dim": "mass",
-   "base": "kg",
-   "f2b": 0.001,
-   "robots": 2,
-   "numeric": 1
-  },
-  {
    "key": "max_docking_speed",
    "group": "Mobility & Performance",
    "label": "Maximum docking speed",
@@ -5261,13 +5283,13 @@
    "numeric": 2
   },
   {
-   "key": "max_speed_reverse",
+   "key": "max_moment_of_inertia",
    "group": "Mobility & Performance",
-   "label": "Maximum reverse speed",
-   "unit": "mm/s",
-   "dim": "speed",
-   "base": "m/s",
-   "f2b": 0.001,
+   "label": "Maximum moment of inertia",
+   "unit": "kg·m²",
+   "dim": "",
+   "base": "kg·m²",
+   "f2b": 1,
    "robots": 2,
    "numeric": 2
   },
@@ -5371,12 +5393,12 @@
    "numeric": 0
   },
   {
-   "key": "max_rotational_acceleration",
+   "key": "max_cleaning_rate",
    "group": "Mobility & Performance",
-   "label": "Maximum rotational acceleration/deceleration",
-   "unit": "°/s²",
+   "label": "Maximum sweeping capacity",
+   "unit": "m²/h",
    "dim": "",
-   "base": "°/s²",
+   "base": "m²/h",
    "f2b": 1,
    "robots": 1,
    "numeric": 1
@@ -5413,6 +5435,17 @@
    "f2b": 1,
    "robots": 1,
    "numeric": 0
+  },
+  {
+   "key": "max_payload_peak",
+   "group": "Mobility & Performance",
+   "label": "Payload (peak)",
+   "unit": "kg",
+   "dim": "mass",
+   "base": "kg",
+   "f2b": 1,
+   "robots": 1,
+   "numeric": 1
   },
   {
    "key": "push_assist_mode",
@@ -5459,6 +5492,17 @@
    "numeric": 1
   },
   {
+   "key": "working_width",
+   "group": "Mobility & Performance",
+   "label": "Working width",
+   "unit": "mm",
+   "dim": "length",
+   "base": "mm",
+   "f2b": 1,
+   "robots": 1,
+   "numeric": 1
+  },
+  {
    "key": "payload_port_power",
    "group": "Payload & Mounting",
    "label": "User power",
@@ -5466,7 +5510,7 @@
    "dim": "power",
    "base": "W",
    "f2b": 1,
-   "robots": 26,
+   "robots": 28,
    "numeric": 5
   },
   {
@@ -5477,7 +5521,7 @@
    "dim": "volt",
    "base": "V",
    "f2b": 1,
-   "robots": 12,
+   "robots": 14,
    "numeric": 4
   },
   {
@@ -5488,7 +5532,7 @@
    "dim": "",
    "base": "",
    "f2b": 1,
-   "robots": 11,
+   "robots": 13,
    "numeric": 0
   },
   {
@@ -5569,6 +5613,17 @@
    "numeric": 0
   },
   {
+   "key": "optional_payloads",
+   "group": "Payload & Mounting",
+   "label": "Optional sensors",
+   "unit": "",
+   "dim": "",
+   "base": "",
+   "f2b": 1,
+   "robots": 4,
+   "numeric": 0
+  },
+  {
    "key": "payload_ports",
    "group": "Payload & Mounting",
    "label": "Payload ports (attachment I/Os)",
@@ -5638,17 +5693,6 @@
    "key": "cargo_dimensions",
    "group": "Payload & Mounting",
    "label": "Max cargo L × W × H",
-   "unit": "",
-   "dim": "",
-   "base": "",
-   "f2b": 1,
-   "robots": 3,
-   "numeric": 0
-  },
-  {
-   "key": "optional_payloads",
-   "group": "Payload & Mounting",
-   "label": "Optional sensors",
    "unit": "",
    "dim": "",
    "base": "",
@@ -5831,6 +5875,17 @@
    "f2b": 1,
    "robots": 1,
    "numeric": 0
+  },
+  {
+   "key": "water_tank_capacity",
+   "group": "Payload & Mounting",
+   "label": "Clean-water tank capacity",
+   "unit": "L",
+   "dim": "",
+   "base": "L",
+   "f2b": 1,
+   "robots": 1,
+   "numeric": 1
   },
   {
    "key": "compartment_dimensions",
@@ -6273,6 +6328,17 @@
    "numeric": 0
   },
   {
+   "key": "sweeper_module_power",
+   "group": "Payload & Mounting",
+   "label": "Sweeping module",
+   "unit": "",
+   "dim": "",
+   "base": "",
+   "f2b": 1,
+   "robots": 1,
+   "numeric": 0
+  },
+  {
    "key": "payload_types",
    "group": "Payload & Mounting",
    "label": "Task modules",
@@ -6317,6 +6383,17 @@
    "numeric": 0
   },
   {
+   "key": "hopper_capacity",
+   "group": "Payload & Mounting",
+   "label": "Waste bin capacity",
+   "unit": "L",
+   "dim": "",
+   "base": "L",
+   "f2b": 1,
+   "robots": 1,
+   "numeric": 1
+  },
+  {
    "key": "runtime",
    "group": "Power & Battery",
    "label": "Runtime per charge",
@@ -6324,8 +6401,8 @@
    "dim": "time",
    "base": "h",
    "f2b": 0.0166666667,
-   "robots": 146,
-   "numeric": 160
+   "robots": 149,
+   "numeric": 164
   },
   {
    "key": "battery_voltage",
@@ -6335,8 +6412,8 @@
    "dim": "volt",
    "base": "V",
    "f2b": 1,
-   "robots": 49,
-   "numeric": 48
+   "robots": 51,
+   "numeric": 50
   },
   {
    "key": "battery_capacity",
@@ -6346,8 +6423,8 @@
    "dim": "energy",
    "base": "Wh",
    "f2b": 1,
-   "robots": 38,
-   "numeric": 29
+   "robots": 41,
+   "numeric": 32
   },
   {
    "key": "battery_swappable",
@@ -6357,7 +6434,7 @@
    "dim": "",
    "base": "",
    "f2b": 1,
-   "robots": 37,
+   "robots": 38,
    "numeric": 0
   },
   {
@@ -6368,8 +6445,8 @@
    "dim": "charge",
    "base": "Ah",
    "f2b": 1,
-   "robots": 34,
-   "numeric": 36
+   "robots": 36,
+   "numeric": 38
   },
   {
    "key": "battery_chemistry",
@@ -6379,7 +6456,7 @@
    "dim": "",
    "base": "",
    "f2b": 1,
-   "robots": 34,
+   "robots": 36,
    "numeric": 0
   },
   {
@@ -6396,13 +6473,13 @@
   {
    "key": "runtime_with_payload",
    "group": "Power & Battery",
-   "label": "Active operation time, maximum payload",
+   "label": "Run time (full payload)",
    "unit": "h",
    "dim": "time",
    "base": "h",
    "f2b": 1,
-   "robots": 13,
-   "numeric": 7
+   "robots": 16,
+   "numeric": 11
   },
   {
    "key": "battery_cycle_life",
@@ -6568,6 +6645,17 @@
    "f2b": 1,
    "robots": 2,
    "numeric": 2
+  },
+  {
+   "key": "uptime_ratio",
+   "group": "Power & Battery",
+   "label": "Uptime ratio (run time : charge time)",
+   "unit": "",
+   "dim": "",
+   "base": "",
+   "f2b": 1,
+   "robots": 2,
+   "numeric": 0
   },
   {
    "key": "daily_operating_hours",
@@ -6819,7 +6907,7 @@
    "dim": "",
    "base": "",
    "f2b": 1,
-   "robots": 40,
+   "robots": 42,
    "numeric": 3
   },
   {
@@ -6852,18 +6940,18 @@
    "dim": "",
    "base": "",
    "f2b": 1,
-   "robots": 21,
+   "robots": 23,
    "numeric": 0
   },
   {
    "key": "safety_standards",
    "group": "Safety & Compliance",
-   "label": "Safety standards",
+   "label": "Standards (AMR)",
    "unit": "",
    "dim": "",
    "base": "",
    "f2b": 1,
-   "robots": 17,
+   "robots": 19,
    "numeric": 0
   },
   {
@@ -6874,8 +6962,8 @@
    "dim": "dba",
    "base": "dB(A)",
    "f2b": 1,
-   "robots": 10,
-   "numeric": 4
+   "robots": 11,
+   "numeric": 5
   },
   {
    "key": "bumper",
@@ -6933,6 +7021,17 @@
    "numeric": 9
   },
   {
+   "key": "cleanroom_class",
+   "group": "Safety & Compliance",
+   "label": "Cleanroom rating",
+   "unit": "",
+   "dim": "",
+   "base": "",
+   "f2b": 1,
+   "robots": 5,
+   "numeric": 0
+  },
+  {
    "key": "prohibited_uses",
    "group": "Safety & Compliance",
    "label": "Prohibited uses",
@@ -6977,14 +7076,14 @@
    "numeric": 0
   },
   {
-   "key": "cleanroom_class",
+   "key": "battery_standards",
    "group": "Safety & Compliance",
-   "label": "Cleanroom rating",
+   "label": "Standards (battery)",
    "unit": "",
    "dim": "",
    "base": "",
    "f2b": 1,
-   "robots": 3,
+   "robots": 4,
    "numeric": 0
   },
   {
@@ -7109,6 +7208,17 @@
    "numeric": 0
   },
   {
+   "key": "regulatory_note",
+   "group": "Safety & Compliance",
+   "label": "Regulatory notes",
+   "unit": "",
+   "dim": "",
+   "base": "",
+   "f2b": 1,
+   "robots": 2,
+   "numeric": 0
+  },
+  {
    "key": "safe_guarded_stop",
    "group": "Safety & Compliance",
    "label": "Safe guarded stop",
@@ -7164,9 +7274,9 @@
    "numeric": 0
   },
   {
-   "key": "battery_standards",
+   "key": "dock_standards",
    "group": "Safety & Compliance",
-   "label": "Standards (battery)",
+   "label": "Standards (charging station)",
    "unit": "",
    "dim": "",
    "base": "",
@@ -7175,7 +7285,7 @@
    "numeric": 0
   },
   {
-   "key": "dock_standards",
+   "key": "charger_standards",
    "group": "Safety & Compliance",
    "label": "Standards (charging station)",
    "unit": "",
@@ -7787,7 +7897,7 @@
    "dim": "",
    "base": "",
    "f2b": 1,
-   "robots": 33,
+   "robots": 34,
    "numeric": 1
   },
   {
@@ -7798,7 +7908,7 @@
    "dim": "",
    "base": "",
    "f2b": 1,
-   "robots": 28,
+   "robots": 29,
    "numeric": 1
   },
   {
@@ -7835,6 +7945,17 @@
    "numeric": 0
   },
   {
+   "key": "lidar_fov",
+   "group": "Sensors & Perception",
+   "label": "LiDAR field of view",
+   "unit": "°",
+   "dim": "angle",
+   "base": "°",
+   "f2b": 1,
+   "robots": 16,
+   "numeric": 6
+  },
+  {
    "key": "camera_count",
    "group": "Sensors & Perception",
    "label": "Cameras",
@@ -7857,17 +7978,6 @@
    "numeric": 0
   },
   {
-   "key": "lidar_fov",
-   "group": "Sensors & Perception",
-   "label": "LiDAR field of view",
-   "unit": "°",
-   "dim": "angle",
-   "base": "°",
-   "f2b": 1,
-   "robots": 14,
-   "numeric": 4
-  },
-  {
    "key": "lidar_range",
    "group": "Sensors & Perception",
    "label": "LiDAR minimum detection distance",
@@ -7886,7 +7996,7 @@
    "dim": "",
    "base": "",
    "f2b": 1,
-   "robots": 9,
+   "robots": 11,
    "numeric": 0
   },
   {
@@ -8025,6 +8135,17 @@
    "key": "radar",
    "group": "Sensors & Perception",
    "label": "Functional safety sensor",
+   "unit": "",
+   "dim": "",
+   "base": "",
+   "f2b": 1,
+   "robots": 4,
+   "numeric": 0
+  },
+  {
+   "key": "supplementary_lasers",
+   "group": "Sensors & Perception",
+   "label": "Supplementary laser scanners (optional)",
    "unit": "",
    "dim": "",
    "base": "",
@@ -8207,17 +8328,6 @@
    "f2b": 1,
    "robots": 2,
    "numeric": 2
-  },
-  {
-   "key": "supplementary_lasers",
-   "group": "Sensors & Perception",
-   "label": "Supplementary laser scanners (optional)",
-   "unit": "",
-   "dim": "",
-   "base": "",
-   "f2b": 1,
-   "robots": 2,
-   "numeric": 0
   },
   {
    "key": "thermal_measurement_range",
@@ -8799,7 +8909,7 @@
    "dim": "angle",
    "base": "°",
    "f2b": 1,
-   "robots": 46,
+   "robots": 50,
    "numeric": 37
   },
   {
@@ -8821,8 +8931,19 @@
    "dim": "",
    "base": "",
    "f2b": 1,
-   "robots": 23,
+   "robots": 25,
    "numeric": 0
+  },
+  {
+   "key": "max_step_height",
+   "group": "Terrain & Navigation Limits",
+   "label": "Step",
+   "unit": "mm",
+   "dim": "length",
+   "base": "mm",
+   "f2b": 1,
+   "robots": 18,
+   "numeric": 19
   },
   {
    "key": "surface_types",
@@ -8836,6 +8957,17 @@
    "numeric": 0
   },
   {
+   "key": "min_corridor_width",
+   "group": "Terrain & Navigation Limits",
+   "label": "Minimum passable corridor / aisle width",
+   "unit": "mm",
+   "dim": "length",
+   "base": "mm",
+   "f2b": 1,
+   "robots": 17,
+   "numeric": 18
+  },
+  {
    "key": "suspension",
    "group": "Terrain & Navigation Limits",
    "label": "Suspension",
@@ -8847,28 +8979,6 @@
    "numeric": 0
   },
   {
-   "key": "min_corridor_width",
-   "group": "Terrain & Navigation Limits",
-   "label": "Minimum passable corridor / aisle width",
-   "unit": "mm",
-   "dim": "length",
-   "base": "mm",
-   "f2b": 1,
-   "robots": 15,
-   "numeric": 16
-  },
-  {
-   "key": "max_step_height",
-   "group": "Terrain & Navigation Limits",
-   "label": "Step",
-   "unit": "mm",
-   "dim": "length",
-   "base": "mm",
-   "f2b": 1,
-   "robots": 15,
-   "numeric": 16
-  },
-  {
    "key": "max_gap_crossing",
    "group": "Terrain & Navigation Limits",
    "label": "Traversable gap",
@@ -8876,8 +8986,30 @@
    "dim": "length",
    "base": "mm",
    "f2b": 1,
-   "robots": 15,
+   "robots": 17,
    "numeric": 15
+  },
+  {
+   "key": "floor_flatness_requirement",
+   "group": "Terrain & Navigation Limits",
+   "label": "Floor conditions",
+   "unit": "mm",
+   "dim": "length",
+   "base": "mm",
+   "f2b": 1,
+   "robots": 14,
+   "numeric": 1
+  },
+  {
+   "key": "mapping",
+   "group": "Terrain & Navigation Limits",
+   "label": "Map making",
+   "unit": "",
+   "dim": "",
+   "base": "",
+   "f2b": 1,
+   "robots": 14,
+   "numeric": 0
   },
   {
    "key": "max_stair_step_height",
@@ -8891,26 +9023,15 @@
    "numeric": 14
   },
   {
-   "key": "floor_flatness_requirement",
+   "key": "floor_friction_coefficient",
    "group": "Terrain & Navigation Limits",
-   "label": "Floor conditions",
-   "unit": "mm",
-   "dim": "length",
-   "base": "mm",
-   "f2b": 1,
-   "robots": 12,
-   "numeric": 1
-  },
-  {
-   "key": "mapping",
-   "group": "Terrain & Navigation Limits",
-   "label": "Mapping",
+   "label": "Floor-to-wheel friction coefficient",
    "unit": "",
    "dim": "",
    "base": "",
    "f2b": 1,
-   "robots": 12,
-   "numeric": 0
+   "robots": 6,
+   "numeric": 4
   },
   {
    "key": "corridor_width_two_robots_passing",
@@ -8946,6 +9067,17 @@
    "numeric": 3
   },
   {
+   "key": "floor_strength_requirement",
+   "group": "Terrain & Navigation Limits",
+   "label": "Minimum floor compressive strength",
+   "unit": "MPa",
+   "dim": "",
+   "base": "MPa",
+   "f2b": 1,
+   "robots": 5,
+   "numeric": 4
+  },
+  {
    "key": "corridor_width_90_turn",
    "group": "Terrain & Navigation Limits",
    "label": "Corridor width for a 90° turn",
@@ -8953,17 +9085,6 @@
    "dim": "length",
    "base": "mm",
    "f2b": 1000,
-   "robots": 4,
-   "numeric": 4
-  },
-  {
-   "key": "floor_friction_coefficient",
-   "group": "Terrain & Navigation Limits",
-   "label": "Floor-to-wheel friction coefficient",
-   "unit": "",
-   "dim": "",
-   "base": "",
-   "f2b": 1,
    "robots": 4,
    "numeric": 4
   },
@@ -8979,6 +9100,17 @@
    "numeric": 3
   },
   {
+   "key": "floor_max_resistivity",
+   "group": "Terrain & Navigation Limits",
+   "label": "Maximum floor resistivity",
+   "unit": "",
+   "dim": "",
+   "base": "",
+   "f2b": 1,
+   "robots": 3,
+   "numeric": 0
+  },
+  {
    "key": "min_doorway_width",
    "group": "Terrain & Navigation Limits",
    "label": "Minimum doorway width",
@@ -8988,17 +9120,6 @@
    "f2b": 1000,
    "robots": 3,
    "numeric": 3
-  },
-  {
-   "key": "floor_strength_requirement",
-   "group": "Terrain & Navigation Limits",
-   "label": "Minimum floor compressive strength",
-   "unit": "MPa",
-   "dim": "",
-   "base": "MPa",
-   "f2b": 1,
-   "robots": 3,
-   "numeric": 2
   },
   {
    "key": "min_ceiling_height",
@@ -9037,6 +9158,17 @@
    "key": "marker_space_requirements",
    "group": "Terrain & Navigation Limits",
    "label": "Marker space requirements",
+   "unit": "",
+   "dim": "",
+   "base": "",
+   "f2b": 1,
+   "robots": 2,
+   "numeric": 0
+  },
+  {
+   "key": "floor_levelness_requirement",
+   "group": "Terrain & Navigation Limits",
+   "label": "Minimum floor levelness",
    "unit": "",
    "dim": "",
    "base": "",
@@ -9219,17 +9351,6 @@
    "f2b": 1,
    "robots": 1,
    "numeric": 1
-  },
-  {
-   "key": "floor_max_resistivity",
-   "group": "Terrain & Navigation Limits",
-   "label": "Maximum floor resistivity",
-   "unit": "",
-   "dim": "",
-   "base": "",
-   "f2b": 1,
-   "robots": 1,
-   "numeric": 0
   },
   {
    "key": "stair_landing_min_size",

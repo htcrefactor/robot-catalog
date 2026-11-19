@@ -6,7 +6,7 @@
 - Category: AMR
 - Locomotion: Wheeled
 - Manufacturer: KUKA (Germany)
-- Verification: not recorded
+- Verification: official — checked against a maker source
 
 ## Core specs
 
@@ -156,12 +156,16 @@ Fields the maker does not publish are left out here — the catalog never fills 
 - [KMP 1500-3 omniMove product page (my.KUKA shop)](https://my.kuka.com/s/product/kmp-15003-omnimove/01t1i000001WxgqAAC?language=en_US)
 - [KMP 1500 product presentation, 16.06.2016 (KUKA)](https://www.kuka.com/-/media/kuka-corporate/documents/products/20160616_productpresentation_kmp-1500_en.pdf)
 
+## Notes
+
+Checked 2026-11-19 against KUKA documents: 1,500 kg omniMove platform values match. official_url now points to the KUKA product page instead of the home page.
+
 ## Sources
 
-- Official page: [kuka.com](https://www.kuka.com/)
+- Official page: [my.kuka.com](https://my.kuka.com/s/product/kmp-15003-omnimove/01t1i000001WxgqAAC?language=en_US)
 - [kuka.com](https://www.kuka.com/-/media/kuka-corporate/countries/nordic/documents/amr---autonomous-mobile-robotics.pdf)
 - [kuka.com](https://www.kuka.com/ko-kr/)
 
 ---
 
-*Robot Catalog — generated from data/robots.json (last merged 2026-11-17). Source repository: https://github.com/htcrefactor/robot-catalog*
+*Robot Catalog — generated from data/robots.json (last merged 2026-11-19). Source repository: https://github.com/htcrefactor/robot-catalog*
