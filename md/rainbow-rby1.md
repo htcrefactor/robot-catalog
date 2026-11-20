@@ -98,6 +98,10 @@ Maker spec table (English product page + RB-Y1 developer docs): 600 x 690 x 1,40
 - [humanoidstore.co](https://humanoidstore.co/robots/rainbow-rby1)
 - [rainbow-robotics.com](https://rainbow-robotics.com/)
 
+Listed by these directories (discovery only, never used as a spec source):
+
+- [thehumanoid.report](https://www.thehumanoid.report/robots/rainbow-rby1/)
+
 ---
 
-*Robot Catalog — generated from data/robots.json (last merged 2026-11-19). Source repository: https://github.com/htcrefactor/robot-catalog*
+*Robot Catalog — generated from data/robots.json (last merged 2026-11-20). Source repository: https://github.com/htcrefactor/robot-catalog*

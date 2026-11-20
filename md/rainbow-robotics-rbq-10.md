@@ -305,4 +305,4 @@ Maker page: 98 x 43 x 62 cm, 42 kg, 15 kg payload, walking 6 km/h and running 14
 
 ---
 
-*Robot Catalog — generated from data/robots.json (last merged 2026-11-19). Source repository: https://github.com/htcrefactor/robot-catalog*
+*Robot Catalog — generated from data/robots.json (last merged 2026-11-20). Source repository: https://github.com/htcrefactor/robot-catalog*

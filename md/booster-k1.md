@@ -116,6 +116,10 @@ Fields the maker does not publish are left out here — the catalog never fills 
 - Official page: [booster.tech](https://www.booster.tech/booster-k1)
 - [docs.booster.tech](https://docs.booster.tech/docs/product-manual/k1/getting-started/specifications)
 
+Listed by these directories (discovery only, never used as a spec source):
+
+- [thehumanoid.report](https://www.thehumanoid.report/robots/booster-k1/)
+
 ---
 
-*Robot Catalog — generated from data/robots.json (last merged 2026-11-19). Source repository: https://github.com/htcrefactor/robot-catalog*
+*Robot Catalog — generated from data/robots.json (last merged 2026-11-20). Source repository: https://github.com/htcrefactor/robot-catalog*

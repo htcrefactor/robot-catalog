@@ -1,0 +1,29 @@
+{
+ "id": "reflex-robotics-reflex",
+ "name": "Reflex",
+ "manufacturer": "Reflex Robotics",
+ "updated": "2026-11-20",
+ "events": [
+  {
+   "date": "2026-11-20",
+   "type": "updated",
+   "source": "https://reflexrobotics.com/",
+   "changes": [
+    {
+     "field": "seen_on",
+     "from": [
+      "https://data.robo2u.com/robots/reflex",
+      "https://embodied.guide/robots/reflex-robotics-reflex/",
+      "https://humanoid.guide/product/reflex/"
+     ],
+     "to": [
+      "https://data.robo2u.com/robots/reflex",
+      "https://embodied.guide/robots/reflex-robotics-reflex/",
+      "https://humanoid.guide/product/reflex/",
+      "https://www.thehumanoid.report/robots/reflex/"
+     ]
+    }
+   ]
+  }
+ ]
+}

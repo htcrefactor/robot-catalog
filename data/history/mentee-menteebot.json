@@ -1,0 +1,22 @@
+{
+ "id": "mentee-menteebot",
+ "name": "MenteeBot",
+ "manufacturer": "Mentee Robotics",
+ "updated": "2026-11-20",
+ "events": [
+  {
+   "date": "2026-11-20",
+   "type": "updated",
+   "source": "https://www.menteebot.com/bot/",
+   "changes": [
+    {
+     "field": "seen_on",
+     "from": null,
+     "to": [
+      "https://www.thehumanoid.report/robots/mentee/"
+     ]
+    }
+   ]
+  }
+ ]
+}

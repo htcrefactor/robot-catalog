@@ -91,6 +91,10 @@ Maker product page and open-platform documentation: 173 cm, 75-85 kg by configur
 - [en.engineai.com.cn](https://en.engineai.com.cn/open/docs/t800/t800/robot-specifications-electrical-interfaces)
 - [humanoidstore.co](https://humanoidstore.co/robots/engineai-t800)
 
+Listed by these directories (discovery only, never used as a spec source):
+
+- [thehumanoid.report](https://www.thehumanoid.report/robots/engineai-t800/)
+
 ---
 
-*Robot Catalog — generated from data/robots.json (last merged 2026-11-19). Source repository: https://github.com/htcrefactor/robot-catalog*
+*Robot Catalog — generated from data/robots.json (last merged 2026-11-20). Source repository: https://github.com/htcrefactor/robot-catalog*

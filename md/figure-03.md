@@ -149,6 +149,10 @@ Maker page figure.ai/figure (checked 2026-11-17): 5 ft 8 in (1727 mm), 61 kg, 20
 - Official page: [figure.ai](https://www.figure.ai/figure)
 - [figure.ai](https://www.figure.ai/news/introducing-figure-03)
 
+Listed by these directories (discovery only, never used as a spec source):
+
+- [thehumanoid.report](https://www.thehumanoid.report/robots/figure-03/)
+
 ---
 
-*Robot Catalog — generated from data/robots.json (last merged 2026-11-19). Source repository: https://github.com/htcrefactor/robot-catalog*
+*Robot Catalog — generated from data/robots.json (last merged 2026-11-20). Source repository: https://github.com/htcrefactor/robot-catalog*

@@ -97,4 +97,4 @@ Maker spec table (checked 2026-11-17): standing 1369 x 422 x 200 mm, about 40 kg
 
 ---
 
-*Robot Catalog — generated from data/robots.json (last merged 2026-11-19). Source repository: https://github.com/htcrefactor/robot-catalog*
+*Robot Catalog — generated from data/robots.json (last merged 2026-11-20). Source repository: https://github.com/htcrefactor/robot-catalog*

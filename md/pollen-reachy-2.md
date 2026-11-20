@@ -96,6 +96,10 @@ Pollen's datasheet and docs (checked 2026-11-17): height adjustable 136-166 cm (
 - [pollen-robotics.com](https://pollen-robotics.com/assets/reachy2/datasheets/reachy2-dual-arm-mobile-base.pdf)
 - [docs.pollen-robotics.com](https://docs.pollen-robotics.com/hardware-guide/specifications/general/)
 
+Listed by these directories (discovery only, never used as a spec source):
+
+- [thehumanoid.report](https://www.thehumanoid.report/robots/pollen-reachy2/)
+
 ---
 
-*Robot Catalog — generated from data/robots.json (last merged 2026-11-19). Source repository: https://github.com/htcrefactor/robot-catalog*
+*Robot Catalog — generated from data/robots.json (last merged 2026-11-20). Source repository: https://github.com/htcrefactor/robot-catalog*

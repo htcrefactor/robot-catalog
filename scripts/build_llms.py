@@ -314,6 +314,9 @@ def build_llms(data, specs):
       "its Markdown file.")
     a("- Attribution: some humanoid prices and sales status come from HumanoidStore open data "
       "(CC BY 4.0, humanoidstore.co); the records that use it say so in their Markdown file.")
+    a("- Attribution: cross-catalogue coverage of humanoids (which other open catalogues list a "
+      "model) comes from The Humanoid Report (thehumanoid.report, CC BY 4.0); those links are "
+      "recorded in each record's seen_on field and never contribute a spec value.")
     a("")
     a("## Pages")
     a("")

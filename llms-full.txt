@@ -1,11 +1,11 @@
 # Robot Catalog — full catalog
 
-> Every robot in Robot Catalog (996) with its core specs and sources, in one file. Values are as the maker publishes them; fields the maker does not publish are left out rather than estimated.
+> Every robot in Robot Catalog (998) with its core specs and sources, in one file. Values are as the maker publishes them; fields the maker does not publish are left out rather than estimated.
 
 - Canonical site: https://htcrefactor.github.io/robot-catalog/
 - Index for agents: https://htcrefactor.github.io/robot-catalog/llms.txt
 - Per-robot Markdown with the full spec sheet and a source on every value: https://htcrefactor.github.io/robot-catalog/md/<id>.md
-- Generated from data/robots.json, last merged 2026-11-19. No scoring, no ranking.
+- Generated from data/robots.json, last merged 2026-11-20. No scoring, no ranking.
 
 ## AMR (92)
 
@@ -9721,7 +9721,17 @@
 - Specs: Width 508 mm; Height 1,491 mm; Weight 113.3 kg; Payload 6 kg; Max speed 1 m/s (3.6 km/h); Degrees of freedom 13; Status Commercial; API yes; ROS yes; On-board compute yes; Compute Intel i5 Haswell, 16 GB RAM, 120 GB SSD; Sensors 2D laser (25 m, 220°), RGB-D camera (Primesense Carmine 1.09), 2x 6-DoF IMU
 - Sources: https://docs.fetchrobotics.com/robot_hardware.html, https://docs.fetchrobotics.com/api_overview.html, https://www.amaasia.net/product%20PDF/Fetch_spec_download.pdf
 
-## Misc (5)
+## Misc (7)
+
+### Engineered Arts Ameca
+
+- id: `engineered-arts-ameca`
+- Page: https://htcrefactor.github.io/robot-catalog/robot.html?id=engineered-arts-ameca
+- Markdown: https://htcrefactor.github.io/robot-catalog/md/engineered-arts-ameca.md
+- Misc · Commercial · United Kingdom · released 2021
+- Summary: Engineered Arts' expressive social humanoid for museums, events and human-robot interaction research, sold or rented on quote.
+- Specs: Width 470 mm; Height 1,870 mm; Weight 62 kg; Degrees of freedom 61; Released 2021; Status Commercial
+- Sources: https://engineeredarts.com/robots/ameca, https://engineeredarts.com/robots/ameca/specs
 
 ### Geek+ RoboShuttle V5
 
@@ -9752,6 +9762,16 @@
 - Summary: Stationary lifelike robotic head with 32 active DoF facial expressions and LLM voice interaction for reception and companionship (not a mobile robot).
 - Specs: Degrees of freedom 32; Status Commercial; SDK yes
 - Sources: https://www.noetixrobotics.com/en/detail/XN
+
+### Realbotix Realbotix Series 1
+
+- id: `realbotix-series-1`
+- Page: https://htcrefactor.github.io/robot-catalog/robot.html?id=realbotix-series-1
+- Markdown: https://htcrefactor.github.io/robot-catalog/md/realbotix-series-1.md
+- Misc · Pre-order · United States · released 2026
+- Summary: Realbotix's human-likeness companion and reception humanoid, sold as a tabletop (17 DoF) or full-body (39 DoF) unit with a monthly AI plan.
+- Specs: Height 1,830 mm; Weight 40 kg; Degrees of freedom 39; Released 2026; Status Pre-order; Sensors Dual cameras (Vinci Vision add-on), Quad microphone array, Stereo speakers
+- Sources: https://www.realbotix.com/, https://www.realbotix.com/pricing, https://shop.realbotix.com/products/aria
 
 ### Skyborne Technologies CODiAQ
 

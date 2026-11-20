@@ -97,6 +97,10 @@ Maker product page: 101 kg, maximum component weight 1.5 kg, AMR basis ReBeLMove
 - [press.igus.com](https://press.igus.com/2025/04/29/iggy-rob-humanoid/)
 - [press.igus.eu](https://press.igus.eu/humanoid-robotics-from-germany-igus-launches-new-service-robot/)
 
+Listed by these directories (discovery only, never used as a spec source):
+
+- [thehumanoid.report](https://www.thehumanoid.report/robots/igus-iggy/)
+
 ---
 
-*Robot Catalog — generated from data/robots.json (last merged 2026-11-19). Source repository: https://github.com/htcrefactor/robot-catalog*
+*Robot Catalog — generated from data/robots.json (last merged 2026-11-20). Source repository: https://github.com/htcrefactor/robot-catalog*

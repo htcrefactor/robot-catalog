@@ -90,6 +90,10 @@ Duplicate merged: 'Tieda' (铁大) is Xiaomi's own nickname for CyberOne, so the
 - [humanoidstore.co](https://humanoidstore.co/robots/xiaomi-cyberone)
 - [prtimes.jp](https://prtimes.jp/main/html/rd/p/000000013.000098799.html)
 
+Listed by these directories (discovery only, never used as a spec source):
+
+- [thehumanoid.report](https://www.thehumanoid.report/robots/xiaomi/)
+
 ---
 
-*Robot Catalog — generated from data/robots.json (last merged 2026-11-19). Source repository: https://github.com/htcrefactor/robot-catalog*
+*Robot Catalog — generated from data/robots.json (last merged 2026-11-20). Source repository: https://github.com/htcrefactor/robot-catalog*

@@ -101,6 +101,10 @@ Maker figures: about 178 cm, about 70 kg, (1503+285) x 510 x 287 mm, 27 DoF tota
 - [github.com](https://github.com/unitreerobotics/unitree_ros/blob/master/robots/h1_2_description/h1_2.urdf)
 - [younginmobility.com](https://www.younginmobility.com/)
 
+Listed by these directories (discovery only, never used as a spec source):
+
+- [thehumanoid.report](https://www.thehumanoid.report/robots/unitree-h1/)
+
 ---
 
-*Robot Catalog — generated from data/robots.json (last merged 2026-11-19). Source repository: https://github.com/htcrefactor/robot-catalog*
+*Robot Catalog — generated from data/robots.json (last merged 2026-11-20). Source repository: https://github.com/htcrefactor/robot-catalog*

@@ -1,0 +1,27 @@
+{
+ "id": "honda-asimo",
+ "name": "ASIMO",
+ "manufacturer": "Honda",
+ "updated": "2026-11-20",
+ "events": [
+  {
+   "date": "2026-11-20",
+   "type": "updated",
+   "source": "https://global.honda/en/ASIMO/about",
+   "changes": [
+    {
+     "field": "seen_on",
+     "from": [
+      "https://data.robo2u.com/robots/honda-asimo",
+      "https://humanoidversus.com/robots/honda-asimo"
+     ],
+     "to": [
+      "https://data.robo2u.com/robots/honda-asimo",
+      "https://humanoidversus.com/robots/honda-asimo",
+      "https://www.thehumanoid.report/robots/honda-asimo/"
+     ]
+    }
+   ]
+  }
+ ]
+}

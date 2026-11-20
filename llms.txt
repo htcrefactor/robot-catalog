@@ -1,15 +1,16 @@
 # Robot Catalog
 
-> Open catalog of 996 mobile robots in 9 categories — humanoids, quadrupeds, AMRs, AGVs, wheel-legged robots, delivery robots and development platforms — each with its published specs and the maker source behind every value.
+> Open catalog of 998 mobile robots in 9 categories — humanoids, quadrupeds, AMRs, AGVs, wheel-legged robots, delivery robots and development platforms — each with its published specs and the maker source behind every value.
 
-Robot Catalog is a static, bilingual (English/Korean) catalog of mobile robots by 453 makers. Every value comes from the maker's own page, datasheet, manual, press release or lab paper and is linked on the robot's page; where the maker states nothing the field stays empty rather than being estimated. The catalog records published specs only — there is no scoring, no rating and no ranking.
+Robot Catalog is a static, bilingual (English/Korean) catalog of mobile robots by 455 makers. Every value comes from the maker's own page, datasheet, manual, press release or lab paper and is linked on the robot's page; where the maker states nothing the field stays empty rather than being estimated. The catalog records published specs only — there is no scoring, no rating and no ranking.
 
-- Robots: 996. 851 records are verified against a maker source, 197 carry a full spec sheet.
+- Robots: 998. 853 records are verified against a maker source, 197 carry a full spec sheet.
 - One page per robot: https://htcrefactor.github.io/robot-catalog/robot.html?id=<id>
 - One Markdown file per robot, with the full spec sheet and a source on every value: https://htcrefactor.github.io/robot-catalog/md/<id>.md
-- Data last merged: 2026-11-19.
+- Data last merged: 2026-11-20.
 - To cite a spec, link the robot's page and the maker document printed next to the value in its Markdown file.
 - Attribution: some humanoid prices and sales status come from HumanoidStore open data (CC BY 4.0, humanoidstore.co); the records that use it say so in their Markdown file.
+- Attribution: cross-catalogue coverage of humanoids (which other open catalogues list a model) comes from The Humanoid Report (thehumanoid.report, CC BY 4.0); those links are recorded in each record's seen_on field and never contribute a spec value.
 
 ## Pages
 
@@ -1037,11 +1038,13 @@ Robot Catalog is a static, bilingual (English/Korean) catalog of mobile robots b
 - [Yahboom ROSMASTER M3 Pro](https://htcrefactor.github.io/robot-catalog/md/yahboom-rosmaster-m3-pro.md): Mobile platform
 - [Zebra Technologies (Fetch Robotics) Fetch Mobile Manipulator](https://htcrefactor.github.io/robot-catalog/md/zebra-fetch-mobile-manipulator.md): ROS-based research mobile manipulator with telescoping torso, 7-DoF arm and pan-tilt head for indoor…
 
-### Misc (5)
+### Misc (7)
 
+- [Engineered Arts Ameca](https://htcrefactor.github.io/robot-catalog/md/engineered-arts-ameca.md): Engineered Arts' expressive social humanoid for museums, events and human-robot interaction research, sold or…
 - [Geek+ RoboShuttle V5](https://htcrefactor.github.io/robot-catalog/md/geekplus-roboshuttle-v5.md): Geek+ tote-to-person warehouse system pairing rail and mobile case-handling robots with an AI robot-arm…
 - [Istituto Italiano di Tecnologia (IIT) iRonCub3](https://htcrefactor.github.io/robot-catalog/md/iit-ironcub3.md): IIT's experimental jet-powered humanoid that combines iCub walking and manipulation with turbine flight for…
 - [Noetix Robotics Xiao Nuo (AI robotic head)](https://htcrefactor.github.io/robot-catalog/md/noetix-xiaonuo.md): Stationary lifelike robotic head with 32 active DoF facial expressions and LLM voice interaction for…
+- [Realbotix Realbotix Series 1](https://htcrefactor.github.io/robot-catalog/md/realbotix-series-1.md): Realbotix's human-likeness companion and reception humanoid, sold as a tabletop (17 DoF) or full-body (39…
 - [Skyborne Technologies CODiAQ](https://htcrefactor.github.io/robot-catalog/md/skyborne-codiaq.md): AI-targeted weapon kit on a Ghost Robotics Vision 60 quadruped that gives small special-operations units…
 - [WIRobotics ALLEX](https://htcrefactor.github.io/robot-catalog/md/wirobotics-allex.md): WIRobotics' compliant general-purpose humanoid upper body with force-sensitive 15-DoF hands, currently…
 

@@ -29,6 +29,11 @@ Some values come from another open dataset and keep that dataset's attribution:
 - **HumanoidStore open data** (https://humanoidstore.co/data, CC BY 4.0) — prices, sales status
   and public tender prices for humanoids. Records built on it carry
   `"data_source": "HumanoidStore open data (CC BY 4.0)"`; keep that credit when you reuse those rows.
+- **The Humanoid Report open data** (https://www.thehumanoid.report/, dataset mirror
+  https://github.com/heimseiten/humanoid-robots-dataset, CC BY 4.0) — used to check which
+  humanoids an open index outside this catalog lists. The per-robot page is kept in each matched
+  record's `seen_on` field; no spec, price or status value is taken from it. Credit: "The
+  Humanoid Report (CC BY 4.0)".
 - Everything else comes from the maker's own page, datasheet, manual or paper listed in that
   record's `sources`.
 

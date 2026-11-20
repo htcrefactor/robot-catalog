@@ -1,8 +1,8 @@
 {
  "meta": {
-  "version": "2026.11.19",
-  "updated": "2026-11-19",
-  "count": 996,
+  "version": "2026.11.20",
+  "updated": "2026-11-20",
+  "count": 998,
   "license": "CC BY 4.0",
   "license_url": "https://creativecommons.org/licenses/by/4.0/",
   "homepage": "https://htcrefactor.github.io/robot-catalog/data.html"
@@ -5632,7 +5632,10 @@
    "compute_memory_gb": null,
    "compute_source": "https://www.1x.tech/neo",
    "compute_tops": null,
-   "compute_soc": "NVIDIA Jetson Thor"
+   "compute_soc": "NVIDIA Jetson Thor",
+   "seen_on": [
+    "https://www.thehumanoid.report/robots/1x-neo/"
+   ]
   },
   {
    "id": "aset-manav",
@@ -6860,6 +6863,9 @@
      "source": "https://store.agibot.com/products/a2-lite",
      "note": "store lists the A2 Lite at this price"
     }
+   ],
+   "seen_on": [
+    "https://www.thehumanoid.report/robots/agibot-a2/"
    ]
   },
   {
@@ -7185,7 +7191,10 @@
    ],
    "summary": "Wheeled (bimanual torso on a wheeled base) humanoid from AgiBot; b2b only, sold to businesses.",
    "verification": "official",
-   "notes": "Issue #17 (2026-11-17): AgiBot G2 spec sheet - height 1225-1795 mm (leg lift), 185 kg, 26 DoF (neck 3, arms 7x2, waist+legs 5, chassis 4), 5 kg per arm, chassis 1.5 m/s, 1652 Wh, ~4 h, IP42. HumanoidStore's 25 DoF corrected to 26. [replaced height_mm: 1800 -> 1795; dof: 25 -> 26; battery_wh: None -> 1652; ip_rating: None -> IP42]"
+   "notes": "Issue #17 (2026-11-17): AgiBot G2 spec sheet - height 1225-1795 mm (leg lift), 185 kg, 26 DoF (neck 3, arms 7x2, waist+legs 5, chassis 4), 5 kg per arm, chassis 1.5 m/s, 1652 Wh, ~4 h, IP42. HumanoidStore's 25 DoF corrected to 26. [replaced height_mm: 1800 -> 1795; dof: 25 -> 26; battery_wh: None -> 1652; ip_rating: None -> IP42]",
+   "seen_on": [
+    "https://www.thehumanoid.report/robots/agibot-g2/"
+   ]
   },
   {
    "id": "agibot-x1",
@@ -7374,6 +7383,9 @@
      "source": "https://store.agibot.com/products/x2",
      "note": "store lists the X2 Neo"
     }
+   ],
+   "seen_on": [
+    "https://www.thehumanoid.report/robots/agibot-x2/"
    ]
   },
   {
@@ -7414,7 +7426,10 @@
    ],
    "summary": "Full-size humanoid from Agile Robots; b2b only, sold to businesses.",
    "verification": "official",
-   "notes": "Issue #17 (2026-11-17): 174 cm, 69 kg, 20 kg payload, 2.0 m/s on Agile Robots' product page; 71 DoF (21 per hand) and up to 8 h from Agile Robots' own LinkedIn post. HumanoidStore rows dropped."
+   "notes": "Issue #17 (2026-11-17): 174 cm, 69 kg, 20 kg payload, 2.0 m/s on Agile Robots' product page; 71 DoF (21 per hand) and up to 8 h from Agile Robots' own LinkedIn post. HumanoidStore rows dropped.",
+   "seen_on": [
+    "https://www.thehumanoid.report/robots/agile-one/"
+   ]
   },
   {
    "id": "agile-robots-agile-one-sn",
@@ -7453,7 +7468,10 @@
    ],
    "summary": "Mid-size humanoid from Agile Robots; announced, sold to research buyers.",
    "verification": "official",
-   "notes": "Issue #17 (2026-11-17): Agile ONE SN - 1.4 m, 43 kg (NVIDIA lists 40 kg), 31 body DoF + 20 per hand = 71, 3 kg per arm, Jetson Thor, from Agile Robots' launch release. No speed, runtime or price published."
+   "notes": "Issue #17 (2026-11-17): Agile ONE SN - 1.4 m, 43 kg (NVIDIA lists 40 kg), 31 body DoF + 20 per hand = 71, 3 kg per arm, Jetson Thor, from Agile Robots' launch release. No speed, runtime or price published.",
+   "seen_on": [
+    "https://www.thehumanoid.report/robots/agile-one/"
+   ]
   },
   {
    "id": "agile-robots-h10-w",
@@ -7549,7 +7567,8 @@
    "image_source": null,
    "videos": [],
    "seen_on": [
-    "https://botupyourlife.com/en/robots/agility-digit/"
+    "https://botupyourlife.com/en/robots/agility-digit/",
+    "https://www.thehumanoid.report/robots/agility-digit/"
    ],
    "verification": "official",
    "note": "Maker figures: 5'9\" tall, 140 lb, lifts up to 35 lb (Agility GXO release, Dec 2023); next-gen Digit launched 20 Mar 2023 (ProMat). Agility's site now features Digit 5 (in development; preliminary 23 kg payload) and no longer hosts a v4 spec page, so speed/DoF/runtime/battery not confirmed from maker. Bipedal (legged)."
@@ -7592,7 +7611,10 @@
    ],
    "summary": "Fifth-gen logistics humanoid for tote handling, palletizing and machine tending; specs (23 kg payload, 2.2 m reach, 10:1 run-to-charge) are preliminary and the product is in development.",
    "verification": "official",
-   "notes": "Issue #17 (2026-11-17): height 1.81 m, weight 129 kg, 90 min runtime added from Agility's Digit 5 launch material; payload 23 kg is Agility's max figure (22.7 kg rated, preliminary on pre-production hardware). agilityrobotics.com timed out on re-check, so figures are the maker pages recorded in data/specs/agility-digit-5.json [replaced height_mm: None -> 1810; weight_kg: None -> 129; runtime_h: None -> 1.5]"
+   "notes": "Issue #17 (2026-11-17): height 1.81 m, weight 129 kg, 90 min runtime added from Agility's Digit 5 launch material; payload 23 kg is Agility's max figure (22.7 kg rated, preliminary on pre-production hardware). agilityrobotics.com timed out on re-check, so figures are the maker pages recorded in data/specs/agility-digit-5.json [replaced height_mm: None -> 1810; weight_kg: None -> 129; runtime_h: None -> 1.5]",
+   "seen_on": [
+    "https://www.thehumanoid.report/robots/agility-digit/"
+   ]
   },
   {
    "id": "aimoga-intelligent-police-r001",
@@ -7805,7 +7827,10 @@
    "verification": "official",
    "notes": "Issue #17 (2026-11-17): Aldebaran NAO V6 datasheet - 574x311x275 mm, 5.48 kg, 25 DoF (head 2, arms 5x2, pelvis 1, legs 5x2, hands 1x2), 62.5 Wh, 60 min active / 90 min normal use. HumanoidStore's 0.17 m/s speed and US$16,990 price removed (the datasheet states neither). [replaced height_mm: 580 -> 574; weight_kg: 5.5 -> 5.48; battery_wh: None -> 62.5 | emptied (no maker value) max_speed_mps=0.17; price_usd=16990; price_note=list 10020 EUR (maker), per HumanoidStore, checked 2026-10]",
    "note": "Aldebaran's NAO V6 datasheet (model H25600, checked 2026-11-17): 574 x 311 x 275 mm, 5.48 kg, 25 DoF (2 head, 5 per arm, 1 pelvis, 5 per leg, 1 per hand), Atom E3845 with 4 GB RAM and 32 GB eMMC. Walking speed and runtime are not stated in the datasheet, so both are left empty.",
-   "data_source": "Maker sources (verified 2026-11-17)"
+   "data_source": "Maker sources (verified 2026-11-17)",
+   "seen_on": [
+    "https://www.thehumanoid.report/robots/aldebaran-nao/"
+   ]
   },
   {
    "id": "aldebaran-pepper",
@@ -7844,7 +7869,10 @@
    ],
    "summary": "Wheeled (bimanual torso on a wheeled base) humanoid from Aldebaran; discontinued, anyone can order.",
    "verification": "official",
-   "notes": "Issue #17 (2026-11-17): SoftBank Robotics' Pepper spec - 1210x480x425 mm, 29 kg, 20 DoF (20 motors), 795 Wh (30 Ah), max 2 km/h = 0.556 m/s, 12 h intensive use. Pepper datasheet states 28 kg; SoftBank's own spec page (29 kg) kept. HumanoidStore's 0.83 m/s and US$32,000 removed. [replaced height_mm: 1200 -> 1210; weight_kg: 28 -> 29; max_speed_mps: 0.83 -> 0.556; battery_wh: None -> 795 | emptied (no maker value) price_usd=32000; price_note=list 32000 USD (maker), per HumanoidStore, checked 2026-09]"
+   "notes": "Issue #17 (2026-11-17): SoftBank Robotics' Pepper spec - 1210x480x425 mm, 29 kg, 20 DoF (20 motors), 795 Wh (30 Ah), max 2 km/h = 0.556 m/s, 12 h intensive use. Pepper datasheet states 28 kg; SoftBank's own spec page (29 kg) kept. HumanoidStore's 0.83 m/s and US$32,000 removed. [replaced height_mm: 1200 -> 1210; weight_kg: 28 -> 29; max_speed_mps: 0.83 -> 0.556; battery_wh: None -> 795 | emptied (no maker value) price_usd=32000; price_note=list 32000 USD (maker), per HumanoidStore, checked 2026-09]",
+   "seen_on": [
+    "https://www.thehumanoid.report/robots/aldebaran-nao/"
+   ]
   },
   {
    "id": "aldebaran-romeo",
@@ -8119,7 +8147,10 @@
    ],
    "summary": "Modular general-purpose humanoid (bipedal or wheeled base) for logistics and manufacturing, with swappable batteries; no numeric specs published on its site.",
    "verification": "unconfirmed",
-   "notes": "Issue #17 (2026-11-17): Apptronik's Apollo 2 page publishes no numeric specifications; record kept with spec fields empty. HumanoidStore row dropped."
+   "notes": "Issue #17 (2026-11-17): Apptronik's Apollo 2 page publishes no numeric specifications; record kept with spec fields empty. HumanoidStore row dropped.",
+   "seen_on": [
+    "https://www.thehumanoid.report/robots/apptronik-apollo/"
+   ]
   },
   {
    "id": "apptronik-qdh",
@@ -8284,7 +8315,10 @@
    ],
    "summary": "Wheeled (bimanual torso on a wheeled base) humanoid from Astribot; b2b only, sold to businesses.",
    "verification": "official",
-   "notes": "Issue #17 (2026-11-17): Astribot's S1 page - 170 cm, 80 kg, 7 DoF per arm (5 kg rated, horizontal), arm span 194 cm, end effector >=10 m/s, 4-6 h (5 taken). Astribot publishes no total DoF, no base travel speed and no price, so those HumanoidStore values (2 m/s, 23 DoF) were emptied. [replaced weight_kg: 90 -> 80 | emptied (no maker value) max_speed_mps=2; dof=23]"
+   "notes": "Issue #17 (2026-11-17): Astribot's S1 page - 170 cm, 80 kg, 7 DoF per arm (5 kg rated, horizontal), arm span 194 cm, end effector >=10 m/s, 4-6 h (5 taken). Astribot publishes no total DoF, no base travel speed and no price, so those HumanoidStore values (2 m/s, 23 DoF) were emptied. [replaced weight_kg: 90 -> 80 | emptied (no maker value) max_speed_mps=2; dof=23]",
+   "seen_on": [
+    "https://www.thehumanoid.report/robots/astribot/"
+   ]
   },
   {
    "id": "astribot-t1",
@@ -8334,7 +8368,10 @@
    ],
    "note": "Media (2026-11-17): the T1 still cannot be hotlinked — astribot.com serves its product images from Aliyun OSS with short-lived signed URLs, and the stable poster path is 404. The banner film above is served from the site's own /index/t1banner/ path. Astribot has no dedicated T1 product page yet; T1 is presented on the home page.",
    "verification": "official",
-   "notes": "Issue #17 (2026-11-17): T1 - 1.55 m, about 66 kg, 23 DoF excluding end effectors (16 in the hands), 5 kg per arm, up to 5 km/h (1.39 m/s), 4-6 h, from Astribot's May 2026 launch. HumanoidStore's US$13,500 replaced by the announced from-about-US$14,000. [replaced max_speed_mps: 1.4 -> 1.39; price_usd: 13500 -> 14000; price_note: list 13500 USD (maker), per HumanoidStore, checked 2026-10 -> from about US$14,000 at launch (May 2026)]"
+   "notes": "Issue #17 (2026-11-17): T1 - 1.55 m, about 66 kg, 23 DoF excluding end effectors (16 in the hands), 5 kg per arm, up to 5 km/h (1.39 m/s), 4-6 h, from Astribot's May 2026 launch. HumanoidStore's US$13,500 replaced by the announced from-about-US$14,000. [replaced max_speed_mps: 1.4 -> 1.39; price_usd: 13500 -> 14000; price_note: list 13500 USD (maker), per HumanoidStore, checked 2026-10 -> from about US$14,000 at launch (May 2026)]",
+   "seen_on": [
+    "https://www.thehumanoid.report/robots/astribot/"
+   ]
   },
   {
    "id": "ati-robotics-sherpa-mecha",
@@ -9132,7 +9169,10 @@
    ],
    "summary": "Compact humanoid from Booster Robotics; shipping now, anyone can order.",
    "verification": "official",
-   "notes": "Issue #17 (2026-11-17): K1 values from Booster's product manual (0.95 m, 19.5 kg, 22 DoF = legs 6x2 + arms 4x2 + head 2, 70 min at 1.1 m/s). HumanoidStore's reseller EUR 9,000 removed. [emptied (no maker value) price_usd=10103; price_note=list 9000 EUR (reseller), per HumanoidStore, checked 2026-10]"
+   "notes": "Issue #17 (2026-11-17): K1 values from Booster's product manual (0.95 m, 19.5 kg, 22 DoF = legs 6x2 + arms 4x2 + head 2, 70 min at 1.1 m/s). HumanoidStore's reseller EUR 9,000 removed. [emptied (no maker value) price_usd=10103; price_note=list 9000 EUR (reseller), per HumanoidStore, checked 2026-10]",
+   "seen_on": [
+    "https://www.thehumanoid.report/robots/booster-k1/"
+   ]
   },
   {
    "id": "booster-t1",
@@ -9264,7 +9304,10 @@
    "summary": "Booster Robotics' 1.4 m flagship embodied-development humanoid (31 DoF, 3 m/s walking, 375 TOPS) sold with an education configuration.",
    "verification": "official",
    "notes": "Issue #17 (2026-11-17): T2 values from Booster's product manual (1.4 m, 42 kg, 31 DoF = legs 6x2 + arms 7x2 + waist 3 + head 2, 2 h). HumanoidStore's reseller EUR 27,060 removed. [emptied (no maker value) price_usd=37999; price_note=list 27060 EUR (reseller), per HumanoidStore, checked 2026-10]",
-   "note": "Maker product page (booster.tech/booster-t2, Specifications tab): standing height ~1.4 m (140 cm), weight ~42 kg, 31 DoF (6 per leg, 7 per arm, 3 waist, 2 head), max dual-arm payload 10 kg, max peak torque 140 N.m, walking speed 3 m/s, battery 48 V 10 Ah with 2 h of continuous walking (battery_wh = 48x10 = 480 Wh, computed), magnetic charging port that allows charging while in use, 375 TOPS ARM compute, head and waist binocular cameras, optional wrist camera, mic array + speaker, Wi-Fi 6 / BT 5.2, optional LiDAR. payload_kg is the maker's maximum dual-arm payload, not a whole-body rated load. Maker publishes no runtime figure beyond the walking 2 h, no IP rating and no price; price is the HumanoidStore reseller figure."
+   "note": "Maker product page (booster.tech/booster-t2, Specifications tab): standing height ~1.4 m (140 cm), weight ~42 kg, 31 DoF (6 per leg, 7 per arm, 3 waist, 2 head), max dual-arm payload 10 kg, max peak torque 140 N.m, walking speed 3 m/s, battery 48 V 10 Ah with 2 h of continuous walking (battery_wh = 48x10 = 480 Wh, computed), magnetic charging port that allows charging while in use, 375 TOPS ARM compute, head and waist binocular cameras, optional wrist camera, mic array + speaker, Wi-Fi 6 / BT 5.2, optional LiDAR. payload_kg is the maker's maximum dual-arm payload, not a whole-body rated load. Maker publishes no runtime figure beyond the walking 2 h, no IP rating and no price; price is the HumanoidStore reseller figure.",
+   "seen_on": [
+    "https://www.thehumanoid.report/robots/booster-t2/"
+   ]
   },
   {
    "id": "boston-dynamics-atlas",
@@ -9310,7 +9353,10 @@
    "summary": "Boston Dynamics' electric Atlas: a 1.9 m, 56-DoF humanoid built for factory part sequencing, machine tending and order fulfilment, with autonomous battery swap.",
    "verification": "official",
    "notes": "Issue #17 (2026-11-17): confirmed on bostondynamics.com/atlas and the Atlas spec sheet - 1.9 m, 90 kg, 56 DoF, 30 kg sustained / 50 kg instant lift, 4 h battery, IP67. HumanoidStore rows dropped.",
-   "note": "Maker Atlas spec sheet (Rev 10/15/2026, bostondynamics.com/wp-content/uploads/2026/01/atlas-spec-sheet.pdf): height 1.9 m, 90 kg, 56 DoF, weight capacity 50 kg instant / 30 kg sustained / 20 kg one-handed (payload_kg = the sustained figure), reach 2.3 m, battery life 4 h (2 h with heavy lifting), autonomous battery swap in 3 min with 1.5 h charge at 110 V (220 V optional), IP67, -20 to 40 C. Sensing is tactile fingers and palm plus a 360-degree camera view; a barcode scanner and RFID are listed as workflow integrations, not sensors, and fenceless guarding with human detection plus autonomous / VR-teleoperated / tablet control modes are stated. Status kept at Pilot: the maker sells into pilot plants and publishes a volume-production spec sheet, but no public price or order page exists. Price figure is the HumanoidStore listing."
+   "note": "Maker Atlas spec sheet (Rev 10/15/2026, bostondynamics.com/wp-content/uploads/2026/01/atlas-spec-sheet.pdf): height 1.9 m, 90 kg, 56 DoF, weight capacity 50 kg instant / 30 kg sustained / 20 kg one-handed (payload_kg = the sustained figure), reach 2.3 m, battery life 4 h (2 h with heavy lifting), autonomous battery swap in 3 min with 1.5 h charge at 110 V (220 V optional), IP67, -20 to 40 C. Sensing is tactile fingers and palm plus a 360-degree camera view; a barcode scanner and RFID are listed as workflow integrations, not sensors, and fenceless guarding with human detection plus autonomous / VR-teleoperated / tablet control modes are stated. Status kept at Pilot: the maker sells into pilot plants and publishes a volume-production spec sheet, but no public price or order page exists. Price figure is the HumanoidStore listing.",
+   "seen_on": [
+    "https://www.thehumanoid.report/robots/bd-atlas/"
+   ]
   },
   {
    "id": "boston-dynamics-atlas-hydraulic",
@@ -9357,7 +9403,8 @@
    "image_source": null,
    "videos": [],
    "seen_on": [
-    "https://humanoid.guide/product/atlas-2013/"
+    "https://humanoid.guide/product/atlas-2013/",
+    "https://www.thehumanoid.report/robots/bd-atlas-hydraulic/"
    ],
    "verification": "official",
    "note": "Built by Boston Dynamics for DARPA and unveiled 11 Jul 2013; the figures come from the commissioning agency's release (darpa.mil/news/2013/atlas-robot-unveiled): 6 ft 2 in (1.88 m), 330 lb (150 kg), 28 hydraulically actuated joints, a Carnegie Robotics sensor head with LIDAR and stereo sensors, an on-board real-time control computer, a hydraulic pump with thermal management, and two hand sets (iRobot, Sandia). It ran tethered to off-board power and computing in the 2013 DRC Trials; DARPA's own timeline records the mid-2015 rebuild to on-board power. Boston Dynamics has no current product page for this generation. Marked Discontinued because Boston Dynamics announced the retirement of the hydraulic Atlas on 17 Apr 2024 with the 'Introducing Electric Atlas' post. Runtime, speed and payload are not published by the maker and stay empty."
@@ -10413,7 +10460,10 @@
    "summary": "Clone Robotics' musculoskeletal android built on a synthetic human skeleton and water-powered Myofiber artificial muscles, offered as a 279-unit Alpha Edition reservation.",
    "verification": "official",
    "notes": "Issue #17 (2026-11-17): 170 cm, 60 kg and 164 upper-torso DoF are Clone Robotics' own launch figures (Dec 2024); the current site has no spec table. HumanoidStore rows dropped.",
-   "note": "Maker pages (clonerobotics.com/android and the 19 Feb 2025 Protoclone announcement video on Clone's own channel) describe a faceless, anatomically accurate bipedal android actuated by over 1,000 Myofiber artificial muscles with a synthetic skeleton, vascular, nervous and muscular systems, over 200 degrees of freedom and roughly 500 sensors, powered by water and electricity, with an on-board GPU. Height, weight and an exact DoF count are not published by the maker, so those fields are empty (the seed 1,700 mm / 60 kg / 164 DoF figures came from HumanoidStore and are not maker values; 'over 200 DoF' is recorded here rather than in dof). The Alpha Edition is open for reservation of the first 279 units with no ship date, so status stays Announced."
+   "note": "Maker pages (clonerobotics.com/android and the 19 Feb 2025 Protoclone announcement video on Clone's own channel) describe a faceless, anatomically accurate bipedal android actuated by over 1,000 Myofiber artificial muscles with a synthetic skeleton, vascular, nervous and muscular systems, over 200 degrees of freedom and roughly 500 sensors, powered by water and electricity, with an on-board GPU. Height, weight and an exact DoF count are not published by the maker, so those fields are empty (the seed 1,700 mm / 60 kg / 164 DoF figures came from HumanoidStore and are not maker values; 'over 200 DoF' is recorded here rather than in dof). The Alpha Edition is open for reservation of the first 279 units with no ship date, so status stays Announced.",
+   "seen_on": [
+    "https://www.thehumanoid.report/robots/clone-alpha/"
+   ]
   },
   {
    "id": "corenetic-monte01",
@@ -11188,7 +11238,10 @@
    "summary": "Dexmate's general-purpose wheeled humanoid sold as a development platform: two 7-DoF arms on a 3-DoF torso and omni-directional base, with a 20 h battery and Python/C++/Rust APIs.",
    "verification": "official",
    "notes": "Issue #17 (2026-11-17): Dexmate Vega 1 Pro - 23 DoF (arms 14, torso 3, head 3, base 3), 135 kg, 5 kg per arm, 20 h per charge. HumanoidStore's 24 DoF corrected to 23 and its US$75,000 removed (Dexmate quotes per configuration). [replaced dof: 24 -> 23 | emptied (no maker value) price_usd=75000; price_note=list 75000 USD (maker), per HumanoidStore, checked 2026-10]",
-   "note": "Maker product page and its own shop (shop.dexmate.ai): 'Vega 1 Pro' is a general-purpose wheeled humanoid, 23 DoF (arms 14 = 7 each, torso 3, head 3, base 3), 135 kg (298 lb), 5 kg (10+ lb) per arm in any pose (payload_kg = per-arm), floor-to-2.2 m reach, folded 0.66 x 0.56 x 0.66 m and 2.50 m max height with arms raised, 20 h operation per charge, NVIDIA Jetson AGX Thor compute, Python/C++/Rust APIs, SimReady URDF/USD, fleet management, VR and exoskeleton teleoperation, stereo RGB head camera, front and rear LiDAR, 4 base RGB cameras, optional F/T sensing. Maker prices it at USD 75,000 hardware-only on its own shop (end effectors and AI not included), which replaces the HumanoidStore figure. The maker calls out that no autonomy is bundled."
+   "note": "Maker product page and its own shop (shop.dexmate.ai): 'Vega 1 Pro' is a general-purpose wheeled humanoid, 23 DoF (arms 14 = 7 each, torso 3, head 3, base 3), 135 kg (298 lb), 5 kg (10+ lb) per arm in any pose (payload_kg = per-arm), floor-to-2.2 m reach, folded 0.66 x 0.56 x 0.66 m and 2.50 m max height with arms raised, 20 h operation per charge, NVIDIA Jetson AGX Thor compute, Python/C++/Rust APIs, SimReady URDF/USD, fleet management, VR and exoskeleton teleoperation, stereo RGB head camera, front and rear LiDAR, 4 base RGB cameras, optional F/T sensing. Maker prices it at USD 75,000 hardware-only on its own shop (end effectors and AI not included), which replaces the HumanoidStore figure. The maker calls out that no autonomy is bundled.",
+   "seen_on": [
+    "https://www.thehumanoid.report/robots/dexmate-vega/"
+   ]
   },
   {
    "id": "digit-robotics-nezha-p01",
@@ -11424,7 +11477,10 @@
    "summary": "Dobot's straight-knee walking, dexterous-manipulation industrial humanoid for material handling, beverage service and pharmacy dispensing, sold in Max, Standard, Trainer and Data Collection editions.",
    "verification": "official",
    "notes": "Issue #17 (2026-11-17): DOBOT Atom - 1650 mm, about 62 kg without hands, 29 body DoF + 6 DoF per hand = 41, 3.5 kg per arm, 1.5 m/s walking, 2 h, from Dobot's product page and Atom quick-start. HumanoidStore's US$27,530 removed: Dobot publishes no price. [emptied (no maker value) price_usd=27530; price_note=list 27530 USD (maker), per HumanoidStore, checked 2026-10]",
-   "note": "Maker Quick Start V1.1 (2025-09-04) and product page: height about 1650 mm, about 62 kg without hands, 29 DoF without end effectors, 2 head + 7 per arm + 1 waist + 6 per leg, arm reach 600 mm, 3.5 kg per arm with +/-0.05 mm repeatability, 1.5 m/s walking and arm end speed, about 2 h runtime and 2 h charge, Intel i5 base with an optional 1500 TOPS module, head depth + HD stereo camera and 3D LiDAR, two wrist and two waist depth cameras, 360-degree mic and two speakers, secondary development supported. dof 41 is the Atom - Max figure with two 6-DoF dexterous hands (29 + 12). Price is the HumanoidStore listing, not a maker price."
+   "note": "Maker Quick Start V1.1 (2025-09-04) and product page: height about 1650 mm, about 62 kg without hands, 29 DoF without end effectors, 2 head + 7 per arm + 1 waist + 6 per leg, arm reach 600 mm, 3.5 kg per arm with +/-0.05 mm repeatability, 1.5 m/s walking and arm end speed, about 2 h runtime and 2 h charge, Intel i5 base with an optional 1500 TOPS module, head depth + HD stereo camera and 3D LiDAR, two wrist and two waist depth cameras, 360-degree mic and two speakers, secondary development supported. dof 41 is the Atom - Max figure with two 6-DoF dexterous hands (29 + 12). Price is the HumanoidStore listing, not a maker price.",
+   "seen_on": [
+    "https://www.thehumanoid.report/robots/dobot-atom/"
+   ]
   },
   {
    "id": "dobot-lumo",
@@ -12087,7 +12143,10 @@
    "summary": "Enchanted Tools' French social robot on a ball base: a 1.2 m character robot that greets, guides and carries small objects in care homes, hospitals, hotels and airports, now in first commercial deployments.",
    "verification": "official",
    "notes": "Issue #17 (2026-11-17): Mirokaï - 123 cm, 29 kg, 26 DoF (neck 3, arms 4x2, wrists 3x2, hands 2x2, ears 1x2, base 3), 3.2 km/h (0.889 m/s) among people, 4 h, per Enchanted Tools' published figures (reproduced in the GO Robotics brochure, Sept 2026; enchanted.tools itself has no spec table). [replaced weight_kg: 32 -> 29; max_speed_mps: 0.9 -> 0.889; runtime_h: 3.0 -> 4.0] HumanoidStore price (US$56125) removed: no maker list price confirmed.",
-   "note": "Enchanted Tools' current site (checked 2026-11-17) confirms the Mirokaï as a commercially deployed social robot for hospitals, nursing homes, retail, hotels and airports, but publishes no numeric specification table on its pages (the site is a Nuxt app and its robot pages carry prose only). The numeric fields in this record therefore could not be re-confirmed against a maker source: their values (123 cm, 32 kg, 26 DoF, ~0.9 m/s, 1.5 kg per arm, 3-4 h, two NVIDIA Jetson NX, ~EUR 50k) come from the maker's earlier spec sheet as reproduced by RobotsGuide and partner catalogues. Left marked unconfirmed rather than restated as maker data. The maker's order page sells first commercial deployments with local partners."
+   "note": "Enchanted Tools' current site (checked 2026-11-17) confirms the Mirokaï as a commercially deployed social robot for hospitals, nursing homes, retail, hotels and airports, but publishes no numeric specification table on its pages (the site is a Nuxt app and its robot pages carry prose only). The numeric fields in this record therefore could not be re-confirmed against a maker source: their values (123 cm, 32 kg, 26 DoF, ~0.9 m/s, 1.5 kg per arm, 3-4 h, two NVIDIA Jetson NX, ~EUR 50k) come from the maker's earlier spec sheet as reproduced by RobotsGuide and partner catalogues. Left marked unconfirmed rather than restated as maker data. The maker's order page sells first commercial deployments with local partners.",
+   "seen_on": [
+    "https://www.thehumanoid.report/robots/mirokai/"
+   ]
   },
   {
    "id": "encosmart-nico",
@@ -12363,7 +12422,10 @@
    "summary": "EngineAI's heavy-duty industrial humanoid with 450 N.m leg joints and an active-cooled leg for sustained work, sold in Basic, Open Source, Pro and Max editions.",
    "verification": "official",
    "notes": "Issue #17 (2026-11-17): T800 - 173 cm, 84.5 kg (Developer) / 85.3 kg (Pro), 25 DoF Developer / 29 + 14 hands Pro, walking 0-1.5 m/s, running <3 m/s, 1.22 kWh, 2 h standard. HumanoidStore's US$26,000 removed: EngineAI publishes no price. [replaced weight_kg: 75 -> 85; dof: 25 -> 29; max_speed_mps: 2 -> 3.0; runtime_h: 4.0 -> 2.0; battery_wh: None -> 1220 | emptied (no maker value) price_usd=25000; price_note=list 25000 USD (maker), per HumanoidStore, checked 2026-10]",
-   "note": "Maker product page and open-platform documentation: 173 cm, 75-85 kg by configuration (84.5 kg with battery as the Developer Edition), 25 DoF in the basic edition (5 per arm, 6 per leg, 1 waist, 2 neck) rising to 43 (Pro) and 46 (Max) with 7-DoF dexterous hands, leg joint peak torque 450 N.m, forward walking 0-1.5 m/s with hardware supporting up to <3 m/s, 20 cm steps and 20 deg slopes, 1.22 kWh ternary lithium battery with 2 h standard runtime and 2.5 h charging, AGX Orin 64GB with 256 GB SSD, stereo camera plus 3D LiDAR, secondary development supported. The marketing page quotes 3-5 h battery life while the documentation states 2 h standard - documentation value recorded and the range noted. Maker publishes no list price, so the HumanoidStore figure stands with its own label."
+   "note": "Maker product page and open-platform documentation: 173 cm, 75-85 kg by configuration (84.5 kg with battery as the Developer Edition), 25 DoF in the basic edition (5 per arm, 6 per leg, 1 waist, 2 neck) rising to 43 (Pro) and 46 (Max) with 7-DoF dexterous hands, leg joint peak torque 450 N.m, forward walking 0-1.5 m/s with hardware supporting up to <3 m/s, 20 cm steps and 20 deg slopes, 1.22 kWh ternary lithium battery with 2 h standard runtime and 2.5 h charging, AGX Orin 64GB with 256 GB SSD, stereo camera plus 3D LiDAR, secondary development supported. The marketing page quotes 3-5 h battery life while the documentation states 2 h standard - documentation value recorded and the range noted. Maker publishes no list price, so the HumanoidStore figure stands with its own label.",
+   "seen_on": [
+    "https://www.thehumanoid.report/robots/engineai-t800/"
+   ]
   },
   {
    "id": "estun-codroid-02",
@@ -12870,7 +12932,8 @@
     "https://botupyourlife.com/en/robots/figure-02/",
     "https://data.robo2u.com/robots/figure-02",
     "https://humanoidversus.com/robots/figure-02",
-    "https://humanoid.guide/product/figure-02/"
+    "https://humanoid.guide/product/figure-02/",
+    "https://www.thehumanoid.report/robots/figure-02/"
    ],
    "verification": "official",
    "note": "Figure's own homepage at the time (Wayback snapshot, 31 Dec 2024) lists Figure 02 as 5'6\" (1676 mm), 70 kg, 20 kg payload, 5 h runtime, 1.2 m/s, electric - the maker values stored here. The 6 Aug 2024 press release covers the 2.25 kWh torso battery, 6 onboard RGB cameras, 4th-gen hands with 16 DoF each (per hand, not total), onboard VLM and 3x compute vs Figure 01; tested at BMW Spartanburg. Figure began retiring F.02 after Figure 03 (Oct 2025) and announced fleet decommissioning on 30 Sep 2026 (a few units kept in storage) -> Discontinued. Total body DoF is not published by Figure (aggregators give 35/41) - left empty."
@@ -12920,7 +12983,10 @@
    "summary": "Figure's third-generation electric humanoid for household work, with tactile hands, palm cameras, inductive foot charging and a 5 h runtime.",
    "verification": "official",
    "notes": "Issue #17 (2026-11-17): 5'8\" (1727 mm), 61 kg, 20 kg payload, 1.2 m/s, 5 h runtime confirmed on figure.ai. HumanoidStore rows dropped.",
-   "note": "Maker page figure.ai/figure (checked 2026-11-17): 5 ft 8 in (1727 mm), 61 kg, 20 kg payload, 5 h runtime, 1.2 m/s, electric. The 'Introducing Figure 03' release adds 2 kW wireless inductive charging through coils in the feet, 10 Gbps mmWave data offload, fingertip tactile sensors that resolve about 3 g, palm cameras, cameras with twice the frame rate, a quarter of the latency and 60% wider field of view than Figure 02, 9% less mass than Figure 02 and a UN 38.3 battery. DoF is not published by the maker, so it stays empty; no price is published."
+   "note": "Maker page figure.ai/figure (checked 2026-11-17): 5 ft 8 in (1727 mm), 61 kg, 20 kg payload, 5 h runtime, 1.2 m/s, electric. The 'Introducing Figure 03' release adds 2 kW wireless inductive charging through coils in the feet, 10 Gbps mmWave data offload, fingertip tactile sensors that resolve about 3 g, palm cameras, cameras with twice the frame rate, a quarter of the latency and 60% wider field of view than Figure 02, 9% less mass than Figure 02 and a UN 38.3 battery. DoF is not published by the maker, so it stays empty; no price is published.",
+   "seen_on": [
+    "https://www.thehumanoid.report/robots/figure-03/"
+   ]
   },
   {
    "id": "flexiv-aico-2",
@@ -13110,7 +13176,10 @@
    "summary": "Foundation's first Phantom humanoid, a 1.8 m electric biped trialled in factories and, in 2026, in Ukraine; the maker now publishes only one combined Phantom specification.",
    "verification": "official",
    "notes": "Issue #17 (2026-11-17): foundation.bot/phantom - 5'11\" (1.8 m), 176 lb (80 kg), 88.2 lb (40 kg) payload, 29 DoF, 1.7 m/s. HumanoidStore values replaced with the maker's. [replaced payload_kg: 20 -> 40]",
-   "note": "Foundation's own site (foundation.bot/phantom) presents a single 'Phantom' production humanoid - 1.8 m, 80 kg, 29 DoF, 1.7 m/s, 40 kg payload capacity, 160 N.m cycloid actuators - without separating MK-1 from MK-2, so nothing there can be attributed to the MK-1 specifically. The MK-1 figures in this record come from the HumanoidStore import; reporting on the MK-1 (Ukraine trials, BBC, TIME) gives about 20 kg payload, no waterproofing and insufficient battery life, and about 5 ft 9 in. Kept unconfirmed rather than restated as maker data; the MK-2 record carries the maker page's figures."
+   "note": "Foundation's own site (foundation.bot/phantom) presents a single 'Phantom' production humanoid - 1.8 m, 80 kg, 29 DoF, 1.7 m/s, 40 kg payload capacity, 160 N.m cycloid actuators - without separating MK-1 from MK-2, so nothing there can be attributed to the MK-1 specifically. The MK-1 figures in this record come from the HumanoidStore import; reporting on the MK-1 (Ukraine trials, BBC, TIME) gives about 20 kg payload, no waterproofing and insufficient battery life, and about 5 ft 9 in. Kept unconfirmed rather than restated as maker data; the MK-2 record carries the maker page's figures.",
+   "seen_on": [
+    "https://www.thehumanoid.report/robots/foundation-phantom/"
+   ]
   },
   {
    "id": "fourier-gr-mini",
@@ -13345,7 +13414,10 @@
    "compute_memory_gb": 32,
    "compute_source": "https://support.fftai.com/en/gr3/getting-started/general-information",
    "compute_tops": null,
-   "compute_soc": "AMD Ryzen 7 8845HS"
+   "compute_soc": "AMD Ryzen 7 8845HS",
+   "seen_on": [
+    "https://www.thehumanoid.report/robots/fourier-gr3/"
+   ]
   },
   {
    "id": "fourier-n1",
@@ -14129,7 +14201,10 @@
    "summary": "Galbot's wheeled bimanual humanoid on a four-wheel omnidirectional base with a lifting torso, used in unmanned retail stores and warehouses across China.",
    "verification": "official",
    "notes": "Issue #17 (2026-11-17): Galbot G1 - 1730 mm (650 mm leg lift), 92.5 kg, 21 DoF excluding base and end effectors, 5 kg per arm / 10 kg both, 1.5 m/s, 48 V 30 Ah (1440 Wh), 8 h, IP54. HumanoidStore's price removed: Galbot publishes none. [replaced payload_kg: 10 -> 5; battery_wh: None -> 1440; ip_rating: None -> IP54 | emptied (no maker value) price_usd=87000; price_note=list 87000 USD (maker), per HumanoidStore, checked 2026-10]",
-   "note": "Maker spec panel (galbot.com/g1): max height 1730 mm (leg lift 650 mm), 92.5 kg, payload 5 kg per arm / 10 kg total at the wrist, 21 DoF (neck 2 + arms 7x2 + waist 3 + legs 2, excluding chassis and end effectors), 8 h working time with 3.5 h adapter charging, 48 V 30 Ah battery (=1440 Wh, derived from V x Ah), IP54, 4-wheel omnidirectional chassis 600/600/625 mm, 1.5 m/s, NVIDIA AGX Orin 64GB / 275 TOPS, 0-40 C. No price on the maker site; HumanoidStore's 87,000 USD list price was removed (aggregator)."
+   "note": "Maker spec panel (galbot.com/g1): max height 1730 mm (leg lift 650 mm), 92.5 kg, payload 5 kg per arm / 10 kg total at the wrist, 21 DoF (neck 2 + arms 7x2 + waist 3 + legs 2, excluding chassis and end effectors), 8 h working time with 3.5 h adapter charging, 48 V 30 Ah battery (=1440 Wh, derived from V x Ah), IP54, 4-wheel omnidirectional chassis 600/600/625 mm, 1.5 m/s, NVIDIA AGX Orin 64GB / 275 TOPS, 0-40 C. No price on the maker site; HumanoidStore's 87,000 USD list price was removed (aggregator).",
+   "seen_on": [
+    "https://www.thehumanoid.report/robots/galbot-g1/"
+   ]
   },
   {
    "id": "galbot-s1",
@@ -14486,7 +14561,8 @@
    ],
    "seen_on": [
     "https://embodied.guide/robots/generative-bionics-gene-01/",
-    "https://humanoid.guide/product/gene-01/"
+    "https://humanoid.guide/product/gene-01/",
+    "https://www.thehumanoid.report/robots/gene01/"
    ],
    "verification": "official",
    "note": "Media (2026-11-17): the still is the cover frame of the maker's own film 'GENE.01 Comes to Life', which gbionics.ai/gene01 and its news portal embed; the model page itself renders only looping clips, no product still."
@@ -15409,7 +15485,10 @@
    "summary": "Hexagon's industrial humanoid on legs with foot-wheels: 34 DoF, 60 kg, 2.4 m/s and a one-minute self-swapping battery for continuous work.",
    "verification": "official",
    "notes": "Issue #17 (2026-11-17): Hexagon AEON - 165 cm, 60 kg, 34 DoF, 2.4 m/s, 8 kg constant carry (15 kg short-term), 5 h per charge with 1-minute self battery swap. [replaced payload_kg: 15 -> 8; runtime_h: 4.0 -> 5.0]",
-   "note": "Maker spec sheet (robotics.hexagon.com/product): top speed 2.4 m/s, mass 60 kg, height 165 cm, 34 DoF, payload 15 kg short-term / 8 kg constant carry, 5 h autonomous work per charge with a 1-minute self-swap (record had 4 h, corrected to 5 h). Locomotion is wheel-legged: each leg ends in a foot-wheel that locks for stairs, so 'Wheeled' was corrected to 'Wheel-legged'. Launched 17 Jun 2025; pilots with Schaeffler, Pilatus and BMW (Leipzig). No price published."
+   "note": "Maker spec sheet (robotics.hexagon.com/product): top speed 2.4 m/s, mass 60 kg, height 165 cm, 34 DoF, payload 15 kg short-term / 8 kg constant carry, 5 h autonomous work per charge with a 1-minute self-swap (record had 4 h, corrected to 5 h). Locomotion is wheel-legged: each leg ends in a foot-wheel that locks for stairs, so 'Wheeled' was corrected to 'Wheel-legged'. Launched 17 Jun 2025; pilots with Schaeffler, Pilatus and BMW (Leipzig). No price published.",
+   "seen_on": [
+    "https://www.thehumanoid.report/robots/hexagon-aeon/"
+   ]
   },
   {
    "id": "hightorque-mini-hi",
@@ -15982,7 +16061,8 @@
    "videos": [],
    "seen_on": [
     "https://data.robo2u.com/robots/honda-asimo",
-    "https://humanoidversus.com/robots/honda-asimo"
+    "https://humanoidversus.com/robots/honda-asimo",
+    "https://www.thehumanoid.report/robots/honda-asimo/"
    ],
    "verification": "official",
    "note": "Specs are the 2011 'all-new ASIMO' per Honda (130x45x34 cm, 48 kg, 57 DoF, 9 km/h, 40 min). Earlier versions differ (2000: 120 cm/43 kg). Honda ended ASIMO development in 2018 (Nikkei report of 28 Jun 2018; Honda said humanoid research continues) -> Discontinued."
@@ -16464,7 +16544,10 @@
    "summary": "Humanoid's wheeled HMND 01 Alpha industrial platform: a 2.2 m, 300 kg dual-arm torso on an omnidirectional base, run by the KinetIQ AI stack.",
    "verification": "official",
    "notes": "Issue #17 (2026-11-17): HMND 01 Alpha (bipedal) - 179 cm, 90 kg, 29 DoF, 15 kg payload, 2 m/s, 4 h average, from Humanoid (thehumanoid.ai). [replaced height_mm: 2200 -> 1790; weight_kg: 300 -> 90]",
-   "note": "Maker product page (HMND 01 Alpha Wheeled): 220 cm, 300 kg, 29 DoF excluding end effectors, 2 m/s, 4 h average runtime, 15 kg payload, RGB/depth/6D F-T sensors and haptic feedback, omnidirectional wheeled base with 7.2 km/h max speed, KinetIQ AI framework on NVIDIA compute. The bipedal Alpha is a separate model (179 cm, 90 kg) and is not this record. Pilots in industrial settings; no price published."
+   "note": "Maker product page (HMND 01 Alpha Wheeled): 220 cm, 300 kg, 29 DoF excluding end effectors, 2 m/s, 4 h average runtime, 15 kg payload, RGB/depth/6D F-T sensors and haptic feedback, omnidirectional wheeled base with 7.2 km/h max speed, KinetIQ AI framework on NVIDIA compute. The bipedal Alpha is a separate model (179 cm, 90 kg) and is not this record. Pilots in industrial settings; no price published.",
+   "seen_on": [
+    "https://www.thehumanoid.report/robots/humanoid-hmnd01/"
+   ]
   },
   {
    "id": "humanoid-shanghai-linglong-l1",
@@ -17268,7 +17351,10 @@
    "summary": "K-Scale Labs' open-source full-size humanoid reference design, built from 20 Robstride actuators on a 48 V CAN bus.",
    "verification": "unconfirmed",
    "notes": "Issue #17 (2026-11-17): K-Scale Labs shut down in November 2025 and its site is offline, so nothing can be re-checked against a maker page. 140 cm, 34 kg, 20 DoF, 10 kg payload and 4 h are the maker's published figures as recorded by independent catalogs; record stays unconfirmed.",
-   "note": "Maker repository and docs: open-source humanoid (hardware CERN-OHL-S, software GPL v3/MIT) with 20 Robstride quasi-direct-drive actuators (RS00 x2, RS02 x6, RS03 x8, RS04 x4) on a 48 V power + CAN bus, a 12 Ah NCM pack (=576 Wh derived), Onshape CAD, K-OS and K-Sim simulation stack. K-Scale Labs shut down in November 2025 and refunded pre-orders, so the design is no longer sold (status Discontinued). Height, mass and payload appear only in third-party catalogues (about 140 cm, 34 kg, 10 kg, 8,999 USD pre-order) and were not filled."
+   "note": "Maker repository and docs: open-source humanoid (hardware CERN-OHL-S, software GPL v3/MIT) with 20 Robstride quasi-direct-drive actuators (RS00 x2, RS02 x6, RS03 x8, RS04 x4) on a 48 V power + CAN bus, a 12 Ah NCM pack (=576 Wh derived), Onshape CAD, K-OS and K-Sim simulation stack. K-Scale Labs shut down in November 2025 and refunded pre-orders, so the design is no longer sold (status Discontinued). Height, mass and payload appear only in third-party catalogues (about 140 cm, 34 kg, 10 kg, 8,999 USD pre-order) and were not filled.",
+   "seen_on": [
+    "https://www.thehumanoid.report/robots/kscale-kbot/"
+   ]
   },
   {
    "id": "k-scale-labs-m-bot",
@@ -17799,7 +17885,10 @@
    "summary": "Kawasaki's ninth-generation full-size humanoid, built to survive falls and aimed at factory, home and disaster-response work.",
    "verification": "official",
    "notes": "Issue #17 (2026-11-17): Kaleido - 178 cm, 85 kg, 32 axes and a bench-press capability of 50-60 kg (50 taken) per Kawasaki Robotics; Kawasaki's R&D magazine gives 1.75 m, 84 kg and 32 DoF for the development unit. Runtime is not published, so the HumanoidStore runtime was emptied. [replaced height_mm: 1900 -> 1780; weight_kg: 99 -> 85; payload_kg: 18 -> 50; dof: None -> 32]",
-   "note": "Maker blog (Kawasaki Robotics, 25 Mar 2026) covers Kaleido 9: leg structure redesigned to component ratings so the robot can step out faster and recover balance, developed since 2015 with commercial deployment in mind. Kawasaki's R&D magazine documents the programme's humanoid at 1.75 m, 84 kg and 32 DoF driven by electric actuators, with Hydro Servo Muscle electro-hydraulics for the legs. Version 9 itself (190 cm, 99 kg, 30 axes excluding hands, double the leg speed of v8) was reported from iREX 2025 press coverage rather than a spec sheet. The recorded 18 kg payload has no maker source and was cleared. Version 10, smaller, is in development."
+   "note": "Maker blog (Kawasaki Robotics, 25 Mar 2026) covers Kaleido 9: leg structure redesigned to component ratings so the robot can step out faster and recover balance, developed since 2015 with commercial deployment in mind. Kawasaki's R&D magazine documents the programme's humanoid at 1.75 m, 84 kg and 32 DoF driven by electric actuators, with Hydro Servo Muscle electro-hydraulics for the legs. Version 9 itself (190 cm, 99 kg, 30 axes excluding hands, double the leg speed of v8) was reported from iREX 2025 press coverage rather than a spec sheet. The recorded 18 kg payload has no maker source and was cleared. Version 10, smaller, is in development.",
+   "seen_on": [
+    "https://www.thehumanoid.report/robots/kawasaki-kaleido/"
+   ]
   },
   {
    "id": "kawasaki-nyokkey",
@@ -18752,7 +18841,10 @@
    "verification": "official",
    "notes": "Issue #17 (2026-11-17): KUAVO 5 product manual - 1.73 m, 63.5 kg, 29 body DoF excluding end effectors (41 with 6-DoF hands), 0.4 m/s walk / 5 km/h run, 60 V 6 Ah, about 1 h walking. HumanoidStore's 8 h is the wheeled KUAVO 5-W; Leju's IPO draft gives at least 2 h for the biped, so the manual's 1 h is used. [replaced payload_kg: 20 -> 5; max_speed_mps: 1.28 -> 1.39; dof: 41 -> 29; runtime_h: 2.0 -> 1.0; battery_wh: None -> 360 | emptied (no maker value) price_usd=42500; price_note=list 42500 USD (maker), per HumanoidStore, checked 2026-10]",
    "note": "Maker (checked 2026-11-17): 607 x 270 x 1730 mm, 63.5 kg, 41 DoF in the dexterous-hand configuration, whole-body payload 20 kg (single arm 5 kg), running speed 5 km/h, at least 2 h per battery. Leju's product manual gives about 1 h of walking per battery, so runtime is the published lower bound.",
-   "data_source": "Maker sources (verified 2026-11-17)"
+   "data_source": "Maker sources (verified 2026-11-17)",
+   "seen_on": [
+    "https://www.thehumanoid.report/robots/leju-kuavo/"
+   ]
   },
   {
    "id": "leju-roban-2",
@@ -19127,7 +19219,10 @@
    "verification": "official",
    "notes": "Issue #17 (2026-11-17): LimX Oli (CL-3) - 165 cm, 55 kg, 3 kg arm payload from LimX's Oli spec page; DoF 31 derived (legs 6x2 + arms 7x2 + waist 3 + head 2). HumanoidStore's US$50,000 removed. [emptied (no maker value) price_usd=52875; price_note=list 52875 USD (reseller), per HumanoidStore, checked 2026-10]",
    "note": "Maker spec page (checked 2026-11-17): 165 cm, 55 kg or less with battery, 31 active DoF (6 per leg, 7 per arm, 3 waist, 2 neck), 3 kg maximum single-arm load, 5 km/h, 1.5 h on a 9,500 mAh pack, motion control RK3588 plus Orin NX 157 TOPS perception.",
-   "data_source": "Maker sources (verified 2026-11-17)"
+   "data_source": "Maker sources (verified 2026-11-17)",
+   "seen_on": [
+    "https://www.thehumanoid.report/robots/limx-oli/"
+   ]
   },
   {
    "id": "limx-tron-2",
@@ -20056,7 +20151,10 @@
    "verification": "official",
    "notes": "Issue #17 (2026-11-17): MenteeBot V3 - 175 cm, 70 kg, 40 DoF, up to 25 kg payload, 1.5 m/s from Mentee's own published figures. Mentee publishes no runtime, so the HumanoidStore 4 h was emptied. [emptied (no maker value) runtime_h=3.0]",
    "note": "Maker (checked 2026-11-17): MenteeBot V3.0 stands 175 cm, weighs 70 kg, has 40 DoF, walks up to 1.5 m/s, carries up to 25 kg and runs 3+ h on a hot-swappable battery, with two Jetson AGX Orin computers and 360-degree vision. The maker does not say whether the 25 kg payload applies while walking.",
-   "data_source": "Maker sources (verified 2026-11-17)"
+   "data_source": "Maker sources (verified 2026-11-17)",
+   "seen_on": [
+    "https://www.thehumanoid.report/robots/mentee/"
+   ]
   },
   {
    "id": "meta-max",
@@ -20696,7 +20794,10 @@
    "verification": "official",
    "notes": "Issue #17 (2026-11-17): 4NE1 - 180 cm, 80 kg, 55 DoF, 20 kg payload, 5 km/h (1.39 m/s) from NEURA's datasheet and product page. NEURA quotes 24/7 operation with battery exchange rather than a per-charge runtime, so that field was emptied. [emptied (no maker value) runtime_h=6.0] HumanoidStore price (US$105000) removed: no maker list price confirmed.",
    "note": "NEURA datasheet V7 (2026-06-05, checked 2026-11-17): 180 cm, 80 kg, 55 DoF including 12-DoF hands, arm payload 20 kg, speed 5 km/h, 360-degree perception, 24/7 operating claim. The maker footnote puts the 100 kg figure at leg-supported configurations only. Charge life per battery is not published, so runtime is empty.",
-   "data_source": "Maker sources (verified 2026-11-17)"
+   "data_source": "Maker sources (verified 2026-11-17)",
+   "seen_on": [
+    "https://www.thehumanoid.report/robots/neura-4ne1/"
+   ]
   },
   {
    "id": "neura-4ne1-mini",
@@ -20738,7 +20839,10 @@
    "verification": "official",
    "notes": "Issue #17 (2026-11-17): 4NE1 Mini - 132 cm, 36 kg, 25 DoF (base unit, excluding hands), 3 kg payload, 4.6 km/h (1.28 m/s), 2.5 h motion endurance, from NEURA's Mini datasheet.",
    "note": "NEURA 4NE1 Mini datasheet V1 (checked 2026-11-17): 132 cm, 36 kg, 25 DoF for the base unit excluding hands or end effectors (which may add up to 12 DoF each), 3 kg payload without stating the basis, 4.6 km/h, 2.5 h motion endurance, ROS 2 and Python SDK. Standard has no manipulation hands; Pro adds 12-DoF hands, a C++ SDK, digital twin and teleoperation.",
-   "data_source": "Maker sources (verified 2026-11-17)"
+   "data_source": "Maker sources (verified 2026-11-17)",
+   "seen_on": [
+    "https://www.thehumanoid.report/robots/neura-4ne1-mini/"
+   ]
   },
   {
    "id": "neura-robotics-mipa",
@@ -21138,7 +21242,10 @@
    "verification": "unconfirmed",
    "notes": "Issue #17 (2026-11-17): Moby - 170 cm, 45 kg, 34 DoF, 23 kg payload, 0.8 m/s, 5 h as catalogued from Noble Machines' published figures; the maker site could not be opened for a spec table, so the record stays unconfirmed.",
    "note": "Maker homepage (checked 2026-11-17): 23 kg payload, 5 h battery life, 0.8 m/s walking speed, modular end-effectors, remote and autonomous operation for industrial work. Height, weight, DoF and price are not published, so those stay empty.",
-   "data_source": "Maker sources (verified 2026-11-17)"
+   "data_source": "Maker sources (verified 2026-11-17)",
+   "seen_on": [
+    "https://www.thehumanoid.report/robots/noble-machines-moby/"
+   ]
   },
   {
    "id": "noetix-bumi",
@@ -21321,7 +21428,10 @@
    "verification": "official",
    "notes": "Issue #17 (2026-11-17): Noetix N2 - 114 cm, 30 kg, 18 DoF (18-20 EDU), 1-2 h, 48 V 7.5 Ah. Noetix publishes no payload, so that field was emptied; its price is quoted by distributors only. [emptied (no maker value) payload_kg=5; price_usd=5500; price_note=list 5500 USD (maker), per HumanoidStore, checked 2026-10]",
    "note": "Noetix N2 page and brochure (checked 2026-11-17): 114 cm standing (118 x 47 x 29 cm in the brochure), 30 kg, 18 DoF for the whole body (6 per leg, 5 per arm, 1 waist), 5 kg maximum continuous-walking payload, 3.2 m/s top speed, 1-2 h on a 48 V 7 Ah quick-release pack (336 Wh computed as V x Ah), 150 N.m peak joint torque. Runtime is recorded as the published upper bound.",
-   "data_source": "Maker sources (verified 2026-11-17)"
+   "data_source": "Maker sources (verified 2026-11-17)",
+   "seen_on": [
+    "https://www.thehumanoid.report/robots/noetix-n2/"
+   ]
   },
   {
    "id": "noetix-w1",
@@ -21978,7 +22088,10 @@
    "verification": "official",
    "notes": "Issue #17 (2026-11-17): Kangaroo - 1.60 m, 50-65 kg depending on configuration, 14-40 DoF and 3-7 kg arm payload by arm configuration (lowest values taken: 14 DoF, 3 kg), 63 V 15 Ah (976 Wh). PAL publishes no single runtime, so that field was emptied. [replaced dof: 28 -> 14; payload_kg: 5 -> 3; battery_wh: None -> 976 | emptied (no maker value) weight_kg=55; runtime_h=3.0]",
    "note": "PAL's Kangaroo page (checked 2026-11-17): 1.60 m, 50-65 kg (recorded at 50 kg), total DoF 14-40 depending on platform configuration with 6 DoF per leg, 2 torso DoF and 4, 5 or 7 DoF arms; 3 kg payload with 7-DoF arms fully extended and 25 kg bimanual; 15 Ah 63 V battery (976 Wh), EtherCAT loop at 2 kHz, Ubuntu LTS with ROS 2. Speed and runtime are not published.",
-   "data_source": "Maker sources (verified 2026-11-17)"
+   "data_source": "Maker sources (verified 2026-11-17)",
+   "seen_on": [
+    "https://www.thehumanoid.report/robots/pal-kangaroo/"
+   ]
   },
   {
    "id": "pal-reemc",
@@ -22072,7 +22185,10 @@
    "verification": "official",
    "notes": "Issue #17 (2026-11-17): TALOS - 175 cm, 95 kg, 32 DoF, 6 kg per stretched arm, 1080 Wh, 1.5 h walking / 3 h standby. PAL publishes no walking speed, so that field was emptied. [replaced battery_wh: None -> 1080] HumanoidStore price (US$1122500) removed: no maker list price confirmed.",
    "note": "PAL's TALOS page and datasheet (checked 2026-11-17): 175 cm, 95 kg, 32 DoF (6 per leg, 7 per arm, 1 per gripper, 2 waist, 2 neck), 6 kg arm payload fully extended, 1.5 h walking or 3 h standby on a 1,080 Wh lithium-ion pack, Ubuntu LTS, ROS and ros_control. The 3 km/h walking speed recorded here comes from PAL's 2016 launch post; the product page itself lists no speed.",
-   "data_source": "Maker sources (verified 2026-11-17)"
+   "data_source": "Maker sources (verified 2026-11-17)",
+   "seen_on": [
+    "https://www.thehumanoid.report/robots/pal-kangaroo/"
+   ]
   },
   {
    "id": "pal-tiago-pro",
@@ -22786,7 +22902,8 @@
    "seen_on": [
     "https://data.robo2u.com/robots/persona-ai-gen1",
     "https://embodied.guide/robots/persona-ai-gen-1/",
-    "https://humanoid.guide/product/persona-ai/"
+    "https://humanoid.guide/product/persona-ai/",
+    "https://www.thehumanoid.report/robots/persona-ai/"
    ],
    "verification": "official",
    "note": "Persona AI (Houston) post of 8 Jul 2026 confirms its 'Gen 1 humanoid' performing an untethered, off-gantry teleoperated weld at ARC Specialties (squat, weld, stand). No specs published by maker; height/weight/DoF figures on aggregators are unverified. Conflict: a later Persona news page (excerpt) calls the July welding unit 'Gen 2'. Prototype with HD Hyundai shipyard program (prototype end-2026, field tests 2027); maker site offers a lease programme. Status Research (prototype)."
@@ -22927,7 +23044,10 @@
    "verification": "official",
    "notes": "Issue #17 (2026-11-17): Reachy 2 - adjustable 136-166 cm (166 taken), 50 kg with mobile base, 3 kg per 7-DoF arm. Pollen publishes no total DoF, base speed or runtime, so those fields were emptied. [emptied (no maker value) dof=17; max_speed_mps=1.86; runtime_h=8.0; price_usd=70000; price_note=list 70000 EUR (maker), per HumanoidStore, checked 2026-10]",
    "note": "Pollen's datasheet and docs (checked 2026-11-17): height adjustable 136-166 cm (recorded at the top), about 50 kg, 7-DoF arms with about 3 kg payload per arm, 3-DoF neck, so 17 DoF for arms plus neck, three omniwheels with LiDAR, LiFePO4 pack at 24 V 35 Ah (840 Wh computed as V x Ah), ROS 2 Humble and a Python SDK. Top speed and runtime per charge are not published.",
-   "data_source": "Maker sources (verified 2026-11-17)"
+   "data_source": "Maker sources (verified 2026-11-17)",
+   "seen_on": [
+    "https://www.thehumanoid.report/robots/pollen-reachy2/"
+   ]
   },
   {
    "id": "qiyuan-primebot-q1",
@@ -23813,7 +23933,10 @@
     }
    ],
    "kr_note": "국내 판매·데모·기술 상담은 본사와 전문 파트너사를 통해 진행합니다.",
-   "manufacturer_ko": "레인보우로보틱스"
+   "manufacturer_ko": "레인보우로보틱스",
+   "seen_on": [
+    "https://www.thehumanoid.report/robots/rainbow-rby1/"
+   ]
   },
   {
    "id": "rainbow-robotics-rb-y2",
@@ -24117,7 +24240,8 @@
    "seen_on": [
     "https://data.robo2u.com/robots/reflex",
     "https://embodied.guide/robots/reflex-robotics-reflex/",
-    "https://humanoid.guide/product/reflex/"
+    "https://humanoid.guide/product/reflex/",
+    "https://www.thehumanoid.report/robots/reflex/"
    ],
    "verification": "official",
    "note": "WHEELED humanoid (maker: 'first general-purpose wheeled humanoid'); torso on a vertically moving spine over a wheeled base. Maker homepage gives no numeric specs. Maker-authored ProMat 2025 exhibitor text and award entry (seen in search excerpts, not opened) state >25 lb per arm, 50 lb combined (~22.7 kg), 16+ h battery, base <2 ft x 2 ft, swappable grippers incl. 3-finger hands with suction — not filled. In pilots (GXO RaaS pilot, Sep 2024 GXO press release). Aggregator price ~$10k-50k unverified."
@@ -24747,7 +24871,10 @@
    "summary": "RobotEra's full-size bipedal humanoid: 1.71 m, 55 DOF with XHAND 1 hands, 20 kg dual-arm payload and a 4 m/s running speed, sold as a full body or upper-body M7 torso.",
    "verification": "official",
    "notes": "Issue #17 (2026-11-17): RobotEra L7 - 171 cm, 70 kg, 55 DoF, up to 20 kg with both arms, up to 4 m/s, from RobotEra's CES 2026 release. HumanoidStore's price removed: RobotEra publishes none. [replaced weight_kg: 65 -> 70 | emptied (no maker value) price_usd=120000; price_note=list 120000 USD (maker), per HumanoidStore, checked 2026-10]",
-   "note": "Maker product page (read 2026-11-17): height 1.71 m, 65 kg without dexterous hands, 55 total DOF with hands (neck 2, arms 7 x 2, hands 12 x 2, legs 6 x 2, waist 3), 20 kg dual-arm payload, 4 m/s running speed, 400 N.m knee peak torque, 25 rad/s knee peak speed, 2.1 m arm span, 60 V 15 Ah battery (=900 Wh, derived from V x Ah; the maker states no Wh figure), 80 TOPS (x86) + 275 TOPS (Orin), binocular camera + 3D LiDAR + microphone array and speaker, XHAND 1 12-DOF hands, 360-degree rotational jump. CONFLICT: the maker's CES 2026 release (2026-01-08) states 70 kg, which is the figure with dexterous hands fitted; the product page's 65 kg is used here. The earlier 120,000 USD price was an aggregator figure with no maker price and was removed. Runtime is not published."
+   "note": "Maker product page (read 2026-11-17): height 1.71 m, 65 kg without dexterous hands, 55 total DOF with hands (neck 2, arms 7 x 2, hands 12 x 2, legs 6 x 2, waist 3), 20 kg dual-arm payload, 4 m/s running speed, 400 N.m knee peak torque, 25 rad/s knee peak speed, 2.1 m arm span, 60 V 15 Ah battery (=900 Wh, derived from V x Ah; the maker states no Wh figure), 80 TOPS (x86) + 275 TOPS (Orin), binocular camera + 3D LiDAR + microphone array and speaker, XHAND 1 12-DOF hands, 360-degree rotational jump. CONFLICT: the maker's CES 2026 release (2026-01-08) states 70 kg, which is the figure with dexterous hands fitted; the product page's 65 kg is used here. The earlier 120,000 USD price was an aggregator figure with no maker price and was removed. Runtime is not published.",
+   "seen_on": [
+    "https://www.thehumanoid.report/robots/robot-era/"
+   ]
   },
   {
    "id": "robotera-q5",
@@ -24904,7 +25031,8 @@
    "seen_on": [
     "https://data.robo2u.com/robots/robotera-star1",
     "https://humanoidversus.com/robots/robotera-star1",
-    "https://humanoid.guide/product/star1/"
+    "https://humanoid.guide/product/star1/",
+    "https://www.thehumanoid.report/robots/robot-era/"
    ],
    "verification": "official",
    "note": "Values from RobotEra's own STAR1 brochure PDF (robotera.com/upload, rendered and read): 171 cm, 63 kg, 55 DoF (7-DoF arms, 12-DoF XHAND1 hands, 3-DoF waist, 2-DoF neck), 400 Nm max joint torque, 25 rad/s, outdoor running 3.6 m/s, load capacity 20 kg, 275 TOPS (Nvidia Orin + Intel), tactile sensors, 3D cameras, mic array. Launched Aug 2024 (press). Aggregators claim STAR1 has been removed from the current robotera.com lineup in favor of L7 — not verified on a maker page, status left blank. Some aggregators list 85 kg/32 DoF/1.8 m — wrong/other model.",
@@ -25306,7 +25434,10 @@
    "summary": "Sanctuary AI's sixth-generation general-purpose humanoid, run by its Carbon AI control system, later moved to a wheeled base for industrial data capture before the company pivoted to hardware-agnostic AI.",
    "verification": "official",
    "notes": "Issue #17 (2026-11-17): Phoenix - 1.7 m, 70 kg, 25 kg payload, 4.8 km/h (1.33 m/s) per Sanctuary AI's published figures. Sanctuary gives '20+ DoF' rather than a number, so the DoF field stays empty. [replaced max_speed_mps: 1.34 -> 1.33]",
-   "note": "Maker release 2023-05-16: 5 ft 7 in (170 cm), 155 lb (70.3 kg), maximum payload 55 lb (25 kg), maximum speed 3 mph (1.34 m/s), hands with 20 DOF total (the maker's own text says 20 'in total'; later material cites 20-21 per hand), Carbon control system with symbolic reasoning plus LLMs and RL, hydraulic actuation. LOCOMOTION CORRECTED: Generation 8 (release 2024-12-16) moved to a WHEELED base, with the maker stating customer feedback showed bipedal legs were too frail for a strong torso, so 'Legged' was changed to 'Wheeled'. Status stays Discontinued: Sanctuary's current site sells hardware-agnostic Physical AI deployed on commercially available robots and only describes 'a path to humanoids', and Phoenix no longer appears in its product material. No DOF total or battery is published, so those fields stay empty."
+   "note": "Maker release 2023-05-16: 5 ft 7 in (170 cm), 155 lb (70.3 kg), maximum payload 55 lb (25 kg), maximum speed 3 mph (1.34 m/s), hands with 20 DOF total (the maker's own text says 20 'in total'; later material cites 20-21 per hand), Carbon control system with symbolic reasoning plus LLMs and RL, hydraulic actuation. LOCOMOTION CORRECTED: Generation 8 (release 2024-12-16) moved to a WHEELED base, with the maker stating customer feedback showed bipedal legs were too frail for a strong torso, so 'Legged' was changed to 'Wheeled'. Status stays Discontinued: Sanctuary's current site sells hardware-agnostic Physical AI deployed on commercially available robots and only describes 'a path to humanoids', and Phoenix no longer appears in its product material. No DOF total or battery is published, so those fields stay empty.",
+   "seen_on": [
+    "https://www.thehumanoid.report/robots/sanctuary-phoenix/"
+   ]
   },
   {
    "id": "sber-green",
@@ -25504,7 +25635,10 @@
    "summary": "Shanghai Kepler's full-size industrial humanoid with planetary roller-screw actuators, 8 h on a 2.33 kWh pack and a 30 kg bimanual rating.",
    "verification": "official",
    "notes": "Issue #17 (2026-11-17): Kepler K2 Bumblebee - 175 cm, 75 kg, 52 DoF, 15 kg per arm / 30 kg both, 8 h on a 1-hour charge, base model US$30,000 per Kepler's ICRA 2025 release and product page. Kepler publishes no walking speed, so that field was emptied. [replaced payload_kg: None -> 30; dof: 30 -> 52; price_usd: 34000 -> 30000; price_note: list 34000 USD (maker), per HumanoidStore, checked 2026-10 -> base model US$30,000]",
-   "note": "Maker press releases: Forerunner K2 launched at GITEX GLOBAL 2024 (Oct 2024) and described at WAIC 2025 as 175 cm, 75 kg, 52 DoF (22 hand DoF), 2.33 kWh battery for 8 h operation with 1 h charging, bimanual payload 25-30 kg and 15 kg per hand, 11-DoF tactile hands with 96 contact points per fingertip, 2 head DoF, 100 TOPS on-board. Pre-sales opened with three configurations (Bipedal Basic, Bipedal Developer, Wheeled Developer) from 248,000 CNY. The 34,000 USD price was an aggregator figure and was removed. No maker product-domain page was found, so official_url is empty."
+   "note": "Maker press releases: Forerunner K2 launched at GITEX GLOBAL 2024 (Oct 2024) and described at WAIC 2025 as 175 cm, 75 kg, 52 DoF (22 hand DoF), 2.33 kWh battery for 8 h operation with 1 h charging, bimanual payload 25-30 kg and 15 kg per hand, 11-DoF tactile hands with 96 contact points per fingertip, 2 head DoF, 100 TOPS on-board. Pre-sales opened with three configurations (Bipedal Basic, Bipedal Developer, Wheeled Developer) from 248,000 CNY. The 34,000 USD price was an aggregator figure and was removed. No maker product-domain page was found, so official_url is empty.",
+   "seen_on": [
+    "https://www.thehumanoid.report/robots/kepler-k2/"
+   ]
   },
   {
    "id": "sharpa-d01",
@@ -26463,7 +26597,10 @@
    "summary": "Sunday Robotics' Memo is a wheeled two-armed home robot trained from glove-captured human demonstrations, sold as a founding-family beta for clearing tables, dishes, coffee and laundry.",
    "verification": "official",
    "notes": "Issue #17 (2026-11-17): Memo - 1.7 m, 77 kg, 20+ DoF (7 per arm, 4 per leg), 1 m/s, per Sunday Robotics' launch material. Sunday publishes no payload, runtime or price, so those fields were emptied. [replaced dof: 27 -> 20 | emptied (no maker value) payload_kg=6; runtime_h=4.0]",
-   "note": "Maker site: 170 cm resting at about 4 ft with arms reaching 7 ft (about 210 cm), 170 lb (77 kg), rolling base with passive stability and no legs, about 4 h runtime and 1 h recharge, speed limited by software to roughly half human pace (about 1 m/s), a single camera under the hat brim, compliant control, and DOF given only as a breakdown - arms 2 x 7, hands 2 x 4, torso 1, lower body 4, which sums to 27 (the total is our sum, not the maker's). Hands are IP67 and lower arms IP66. Not for sale: invite-only 2026 beta for Founding Families, and the maker says a hand-built unit costs about USD 20,000 today with retail pricing to be announced, so no price is entered. The earlier 6 kg payload figure is not maker-stated and was removed."
+   "note": "Maker site: 170 cm resting at about 4 ft with arms reaching 7 ft (about 210 cm), 170 lb (77 kg), rolling base with passive stability and no legs, about 4 h runtime and 1 h recharge, speed limited by software to roughly half human pace (about 1 m/s), a single camera under the hat brim, compliant control, and DOF given only as a breakdown - arms 2 x 7, hands 2 x 4, torso 1, lower body 4, which sums to 27 (the total is our sum, not the maker's). Hands are IP67 and lower arms IP66. Not for sale: invite-only 2026 beta for Founding Families, and the maker says a hand-built unit costs about USD 20,000 today with retail pricing to be announced, so no price is entered. The earlier 6 kg payload figure is not maker-stated and was removed.",
+   "seen_on": [
+    "https://www.thehumanoid.report/robots/sunday-memo/"
+   ]
   },
   {
    "id": "sunrising-ai-phi-bot-x1",
@@ -26900,7 +27037,10 @@
    "note": "Media (2026-11-17): tesla.com/AI now redirects to tesla.com/SI (SI & Robotics); the 'Tesla Bot' image above is published there. Tesla publishes no Optimus demo video on that page (its video is about the FSD network), so no video is recorded. | Tesla's SI & Robotics page (tesla.com/AI, which resolves to tesla.com/SI) describes Optimus in prose only and publishes no height, weight, payload, speed, DoF, battery or price; tesla.com/optimus returns 404 (checked 2026-11-17, rendered in a browser). The figures usually quoted elsewhere (173 cm, 57 kg, 20 kg payload, 28 DoF) come from Tesla presentations and press coverage rather than a maker spec sheet, so the spec fields are left empty.",
    "image_source": "https://www.tesla.com/SI",
    "verification": "unconfirmed",
-   "notes": "Issue #17 (2026-11-17): Tesla publishes no spec sheet or price for Optimus, so no maker value exists for any spec field; record kept with fields empty. HumanoidStore row dropped."
+   "notes": "Issue #17 (2026-11-17): Tesla publishes no spec sheet or price for Optimus, so no maker value exists for any spec field; record kept with fields empty. HumanoidStore row dropped.",
+   "seen_on": [
+    "https://www.thehumanoid.report/robots/tesla-optimus/"
+   ]
   },
   {
    "id": "tetrabot-t4-c",
@@ -27545,7 +27685,8 @@
    "image_source": null,
    "videos": [],
    "seen_on": [
-    "https://data.robo2u.com/robots/toyota-t-hr3"
+    "https://data.robo2u.com/robots/toyota-t-hr3",
+    "https://www.thehumanoid.report/robots/toyota-t-hr3/"
    ],
    "verification": "official",
    "note": "Toyota global newsroom (Nov 2017). dof = 32 axes (plus 10 fingers). Teleoperated via Master Maneuvering System."
@@ -28196,7 +28337,10 @@
    "compute_memory_gb": null,
    "compute_source": "https://www.ubtrobot.com/en/humanoid/products/walker-s2",
    "compute_tops": null,
-   "compute_soc": "NVIDIA Jetson Orin"
+   "compute_soc": "NVIDIA Jetson Orin",
+   "seen_on": [
+    "https://www.thehumanoid.report/robots/ubtech-walker-s2/"
+   ]
   },
   {
    "id": "ubtech-walker-x",
@@ -28346,7 +28490,10 @@
    "summary": "Industrial bipedal humanoid from UBTECH for automotive assembly lines, working with autonomous logistics vehicles and AMRs under smart-manufacturing systems; first trained in BYD's Changsha plant.",
    "verification": "official",
    "notes": "Issue #17 (2026-11-17): Walker S1 - 172 cm, 76 kg, 15 kg payload, 41 DoF and about 2 h are UBTECH's published figures. 0.83 m/s (3 km/h) is the walker speed UBTECH quotes for the S1 in its materials; UBTECH publishes no list price, so the HumanoidStore price was removed.",
-   "note": "UBTECH's product page carries its specification panel as an image, so no machine-readable table is available. The figures recorded here are the ones UBTECH stated for Walker S1 at its October 2024 launch and at the BYD plant: 172 cm, 76 kg, and 15 kg carried while walking. Total DoF (catalogues list 41), speed (catalogues list 0.83 m/s), battery, runtime and IP rating are not stated in the maker's own announcement and are left empty."
+   "note": "UBTECH's product page carries its specification panel as an image, so no machine-readable table is available. The figures recorded here are the ones UBTECH stated for Walker S1 at its October 2024 launch and at the BYD plant: 172 cm, 76 kg, and 15 kg carried while walking. Total DoF (catalogues list 41), speed (catalogues list 0.83 m/s), battery, runtime and IP rating are not stated in the maker's own announcement and are left empty.",
+   "seen_on": [
+    "https://www.thehumanoid.report/robots/ubtech-walker-s1/"
+   ]
   },
   {
    "id": "tien-kung-xingzhe",
@@ -28688,7 +28835,8 @@
     "https://botupyourlife.com/en/robots/unix-ai-panther/",
     "https://humanoidversus.com/robots/unix-ai-panther",
     "https://embodied.guide/robots/unix-ai-panther/",
-    "https://humanoid.guide/product/panther/"
+    "https://humanoid.guide/product/panther/",
+    "https://www.thehumanoid.report/robots/unix-ai-wanda/"
    ],
    "verification": "official",
    "note": "Page describes 'Panther Pro Max Mini'; height 1620–1720 mm (lift), runtime 4–8 h (lower bound), dual-arm load 12 kg. Wheeled 4WS/4WD omni chassis.",
@@ -28748,7 +28896,8 @@
    "seen_on": [
     "https://humanoidversus.com/robots/unix-ai-wanda-2-0",
     "https://embodied.guide/robots/unix-ai-wanda-2-0/",
-    "https://humanoid.guide/product/wanda-2-0/"
+    "https://humanoid.guide/product/wanda-2-0/",
+    "https://www.thehumanoid.report/robots/unix-ai-wanda/"
    ],
    "verification": "official",
    "note": "Wheeled dual-arm humanoid (differential drive). Height 1400-1680 mm via torso lift. Runtime 8-16 h (lower bound used). Payload = dual-arm. Presale Dec 2024; mass production Dec 2025.",
@@ -28861,7 +29010,10 @@
    "compute_memory_gb": 16,
    "compute_source": "https://www.unitree.com/g1",
    "compute_tops": null,
-   "compute_soc": "NVIDIA Jetson Orin NX"
+   "compute_soc": "NVIDIA Jetson Orin NX",
+   "seen_on": [
+    "https://www.thehumanoid.report/robots/unitree-g1/"
+   ]
   },
   {
    "id": "unitree-g1-d",
@@ -29048,7 +29200,10 @@
    "compute_memory_gb": null,
    "compute_source": "https://www.unitree.com/h1",
    "compute_tops": null,
-   "compute_soc": "Intel Core i5"
+   "compute_soc": "Intel Core i5",
+   "seen_on": [
+    "https://www.thehumanoid.report/robots/unitree-h1/"
+   ]
   },
   {
    "id": "unitree-h1-2",
@@ -29108,6 +29263,9 @@
      "kind": "distributor",
      "url": "https://www.younginmobility.com/"
     }
+   ],
+   "seen_on": [
+    "https://www.thehumanoid.report/robots/unitree-h1/"
    ]
   },
   {
@@ -29212,7 +29370,10 @@
    "compute_memory_gb": null,
    "compute_source": "https://www.unitree.com/H2",
    "compute_tops": null,
-   "compute_soc": "Intel Core i5"
+   "compute_soc": "Intel Core i5",
+   "seen_on": [
+    "https://www.thehumanoid.report/robots/unitree-h2/"
+   ]
   },
   {
    "id": "unitree-h2-d",
@@ -29386,6 +29547,9 @@
      "kind": "distributor",
      "url": "https://www.younginmobility.com/"
     }
+   ],
+   "seen_on": [
+    "https://www.thehumanoid.report/robots/unitree-r1/"
    ]
   },
   {
@@ -30452,7 +30616,10 @@
    "summary": "Wandercraft's first industrial humanoid: a headless biped built on the self-balancing platform of its medical exoskeletons, for heavy handling and flow logistics in factories and warehouses.",
    "verification": "unconfirmed",
    "notes": "Issue #17 (2026-11-17): Calvin-40 - Wandercraft's site describes the industrial humanoid and its 40 kg handling but publishes no table of height, mass, DoF or speed, so the figures here come from third-party cataloguing of Wandercraft's material and the record stays unconfirmed. [replaced height_mm: None -> 1700; weight_kg: None -> 80; max_speed_mps: None -> 0.83; dof: None -> 28; runtime_h: None -> 4.0]",
-   "note": "Wandercraft's Calvin page publishes no height, weight, DoF, payload, runtime, battery or price (checked 2026-11-17): it states high-torque motors, a 3D sensor with an AI vision stack, autonomous navigation, a certifiable safety system for use without physical barriers, a target failure rate below 1 in 1,000 and first series delivery expected in H1 2027. The name refers to a 40 kg handling capability, but no figure is stated on the page, so the spec fields are left empty."
+   "note": "Wandercraft's Calvin page publishes no height, weight, DoF, payload, runtime, battery or price (checked 2026-11-17): it states high-torque motors, a 3D sensor with an AI vision stack, autonomous navigation, a certifiable safety system for use without physical barriers, a target failure rate below 1 in 1,000 and first series delivery expected in H1 2027. The name refers to a 40 kg handling capability, but no figure is stated on the page, so the spec fields are left empty.",
+   "seen_on": [
+    "https://www.thehumanoid.report/robots/wandercraft-calvin/"
+   ]
   },
   {
    "id": "waseda-twendy-one",
@@ -31175,7 +31342,10 @@
      "url": "https://robotics.xiaomi.com/xiaomi-robotics-1.html"
     }
    ],
-   "note": "Duplicate merged: 'Tieda' (铁大) is Xiaomi's own nickname for CyberOne, so the separate xiaomi-tieda record is kept here as a variant. Xiaomi product page: 177 cm, 52 kg, 21 DoF, 1.5 kg single-hand load, 3.6 km/h (1.0 m/s) max. The 2026-generation Tieda shown at WRC Aug 2026 (1.70 m, 66 kg, 66 DoF per press) has no maker spec page, so no second record is kept for it. Prototype, not for sale. | Maker product page: 177 cm, 52 kg, 21 DoF, 300 Nm peak joint torque, 96 Nm/kg torque density, 3.6 km/h (1.0 m/s), 1.5 kg held in one hand, Mi-Sense depth module with 99 % depth accuracy within 8 m, 85 environmental sounds and 45 emotions recognised, dual-microphone voice system, curved OLED face display. Xiaomi's Japanese release adds a 168 cm arm span and a 30 Nm, 500 g upper-limb motor. Battery capacity, runtime and price are not published."
+   "note": "Duplicate merged: 'Tieda' (铁大) is Xiaomi's own nickname for CyberOne, so the separate xiaomi-tieda record is kept here as a variant. Xiaomi product page: 177 cm, 52 kg, 21 DoF, 1.5 kg single-hand load, 3.6 km/h (1.0 m/s) max. The 2026-generation Tieda shown at WRC Aug 2026 (1.70 m, 66 kg, 66 DoF per press) has no maker spec page, so no second record is kept for it. Prototype, not for sale. | Maker product page: 177 cm, 52 kg, 21 DoF, 300 Nm peak joint torque, 96 Nm/kg torque density, 3.6 km/h (1.0 m/s), 1.5 kg held in one hand, Mi-Sense depth module with 99 % depth accuracy within 8 m, 85 environmental sounds and 45 emotions recognised, dual-microphone voice system, curved OLED face display. Xiaomi's Japanese release adds a 168 cm arm span and a 30 Nm, 500 g upper-limb motor. Battery capacity, runtime and price are not published.",
+   "seen_on": [
+    "https://www.thehumanoid.report/robots/xiaomi/"
+   ]
   },
   {
    "id": "xpeng-iron",
@@ -31219,7 +31389,10 @@
    "summary": "XPENG's humanoid, which reuses the company's Turing AI chips, Eagle Eye vision and AI models; the November 2025 generation adds a bionic spine, flexible skin and an all-solid-state battery, with volume production targeted for the end of 2026.",
    "verification": "official",
    "notes": "Issue #17 (2026-11-17): XPeng IRON (production version) - about 173 cm, 65 kg, 76 DoF with 21 per hand, up to 2 m/s, per XPeng's production-line release. [replaced height_mm: 1780 -> 1730; weight_kg: 70 -> 65; max_speed_mps: None -> 2.0]",
-   "note": "XPENG's own releases: the first IRON (AI Day, 2024-11-06) was described with more than 60 joints and more than 200 degrees of freedom by the company's own count, and was trialled on the P7+ line in Guangzhou. The 2025-11-05 generation is quoted at 82 body DoF with 22-DoF hands, three Turing chips at 2250 TOPS effective (an earlier English release's 3000 TOPS does not match three chips), an all-solid-state battery, a bionic spine and flexible skin, and volume production targeted for the end of 2026. XPENG has not published height or weight for the current robot; the widely quoted 178 cm and 70 kg belong to the earlier IRON, so those fields are empty."
+   "note": "XPENG's own releases: the first IRON (AI Day, 2024-11-06) was described with more than 60 joints and more than 200 degrees of freedom by the company's own count, and was trialled on the P7+ line in Guangzhou. The 2025-11-05 generation is quoted at 82 body DoF with 22-DoF hands, three Turing chips at 2250 TOPS effective (an earlier English release's 3000 TOPS does not match three chips), an all-solid-state battery, a bionic spine and flexible skin, and volume production targeted for the end of 2026. XPENG has not published height or weight for the current robot; the widely quoted 178 cm and 70 kg belong to the earlier IRON, so those fields are empty.",
+   "seen_on": [
+    "https://www.thehumanoid.report/robots/xpeng-iron/"
+   ]
   },
   {
    "id": "xpeng-px5",
@@ -33044,7 +33217,10 @@
    "summary": "igus' humanoid service robot on a ReBeLMove AMR base with two 6-DoF ReBeL arms, sold as Iggy Rob Industrial and Iggy Rob Home.",
    "verification": "official",
    "notes": "Issue #17 (2026-11-17): iggyRob - about 1.70 m, 101 kg, 2 kg per ReBeL arm, up to 8 h, EUR 47,999 (about US$54,500) from igus' product page and launch release. DoF is not published as a total, so the HumanoidStore DoF was emptied. [replaced payload_kg: 1.5 -> 2; price_usd: 58024 -> 54500; price_note: list 51691.37 EUR (maker), per HumanoidStore, checked 2026-10 -> EUR 47,999 (about US$54,500) from igus]",
-   "note": "Maker product page: 101 kg, maximum component weight 1.5 kg, AMR basis ReBeLMove Pro, two ReBeL-6DOF-03 arms (664 mm reach, 2 kg per arm), suction pad plus ReBeL gripper, LiDAR and 3D cameras, up to 8 h per charge, igus Robot Control, ROS 2 interface, CE and VDE 5050 fleet approval. Maker press: 1.30-1.70 m depending on configuration, '16 DOF' quoted in the press release while the product page lists two 6-DoF arms (record keeps 12), 2.5 kg per arm, ReBeLMove Pro load 50 kg / payload 100 kg. Launch price 47,999 EUR (Iggy Rob Industrial, 2025); Iggy Rob Home from 55,000 EUR (Jun 2026). The 58,024 USD list figure was an aggregator conversion and was removed."
+   "note": "Maker product page: 101 kg, maximum component weight 1.5 kg, AMR basis ReBeLMove Pro, two ReBeL-6DOF-03 arms (664 mm reach, 2 kg per arm), suction pad plus ReBeL gripper, LiDAR and 3D cameras, up to 8 h per charge, igus Robot Control, ROS 2 interface, CE and VDE 5050 fleet approval. Maker press: 1.30-1.70 m depending on configuration, '16 DOF' quoted in the press release while the product page lists two 6-DoF arms (record keeps 12), 2.5 kg per arm, ReBeLMove Pro load 50 kg / payload 100 kg. Launch price 47,999 EUR (Iggy Rob Industrial, 2025); Iggy Rob Home from 55,000 EUR (Jun 2026). The 58,024 USD list figure was an aggregator conversion and was removed.",
+   "seen_on": [
+    "https://www.thehumanoid.report/robots/igus-iggy/"
+   ]
   },
   {
    "id": "igus-hop",
@@ -35897,6 +36073,54 @@
    "verification": null
   },
   {
+   "id": "engineered-arts-ameca",
+   "name": "Ameca",
+   "manufacturer": "Engineered Arts",
+   "country": "United Kingdom",
+   "category": "Misc",
+   "locomotion": null,
+   "release_year": 2021,
+   "status": "Commercial",
+   "length_mm": null,
+   "width_mm": 470,
+   "height_mm": 1870,
+   "weight_kg": 62,
+   "payload_kg": null,
+   "max_speed_mps": null,
+   "min_speed_mps": null,
+   "wheel_diameter_mm": null,
+   "wheel_count": null,
+   "dof": 61,
+   "runtime_h": null,
+   "battery_wh": null,
+   "ip_rating": null,
+   "api_support": null,
+   "sdk_available": null,
+   "sdk_name": null,
+   "onboard_compute": null,
+   "compute_detail": null,
+   "ros_support": null,
+   "sensors": [],
+   "price_usd": null,
+   "price_note": null,
+   "official_url": "https://engineeredarts.com/robots/ameca",
+   "sources": [
+    "https://engineeredarts.com/robots/ameca",
+    "https://engineeredarts.com/robots/ameca/specs"
+   ],
+   "summary": "Engineered Arts' expressive social humanoid for museums, events and human-robot interaction research, sold or rented on quote.",
+   "image_url": null,
+   "image_source": null,
+   "videos": [],
+   "seen_on": [
+    "https://www.thehumanoid.report/robots/ameca/"
+   ],
+   "verification": "official",
+   "note": "Maker spec page (engineeredarts.com/robots/ameca/specs): 1870 mm high, 470 mm wide, 850 mm deep, 62 kg, 61 actuated DoF (27 head, 5 neck, 8 shoulders, 10 arms and the rest of the upper body), first release 2021, generation 2.6 shown in 2024. Fixed base, no legs and no drive: it cannot walk, so it is not a standalone mobile robot and does not fit a catalog category. Price is quote-only (purchase or rental); the maker publishes no figure.",
+   "original_category": "Humanoid",
+   "misc_reason": "Fixed-base social humanoid — cannot walk and has no drive, so it is not a standalone mobile robot."
+  },
+  {
    "id": "geekplus-roboshuttle-v5",
    "name": "RoboShuttle V5",
    "manufacturer": "Geek+",
@@ -36041,6 +36265,59 @@
    "note": "MAJOR CORRECTION: official page title is 'Xiao Nuo AI Robotic Head' - it is a stationary biomimetic robotic HEAD/bust (32 active + 8 passive DoF facial expression) with no locomotion, not a mobile humanoid. Recommend removing from the mobile-robot catalog. Docs link names it 'Hobbs 3'. Cross-platform SDK, joint-control/face/lip-sync APIs.",
    "original_category": "Humanoid",
    "misc_reason": "Fixed robotic head; no locomotion."
+  },
+  {
+   "id": "realbotix-series-1",
+   "name": "Realbotix Series 1",
+   "manufacturer": "Realbotix",
+   "country": "United States",
+   "category": "Misc",
+   "locomotion": null,
+   "release_year": 2026,
+   "status": "Pre-order",
+   "length_mm": null,
+   "width_mm": null,
+   "height_mm": 1830,
+   "weight_kg": 40,
+   "payload_kg": null,
+   "max_speed_mps": null,
+   "min_speed_mps": null,
+   "wheel_diameter_mm": null,
+   "wheel_count": null,
+   "dof": 39,
+   "runtime_h": null,
+   "battery_wh": null,
+   "ip_rating": null,
+   "api_support": null,
+   "sdk_available": null,
+   "sdk_name": null,
+   "onboard_compute": null,
+   "compute_detail": null,
+   "ros_support": null,
+   "sensors": [
+    "Dual cameras (Vinci Vision add-on)",
+    "Quad microphone array",
+    "Stereo speakers"
+   ],
+   "price_usd": null,
+   "price_note": null,
+   "official_url": "https://www.realbotix.com/",
+   "sources": [
+    "https://www.realbotix.com/",
+    "https://www.realbotix.com/pricing",
+    "https://shop.realbotix.com/products/aria"
+   ],
+   "summary": "Realbotix's human-likeness companion and reception humanoid, sold as a tabletop (17 DoF) or full-body (39 DoF) unit with a monthly AI plan.",
+   "image_url": null,
+   "image_source": null,
+   "videos": [],
+   "seen_on": [
+    "https://www.thehumanoid.report/robots/realbotix-echo/"
+   ],
+   "verification": "official",
+   "note": "Maker site and its own shop (realbotix.com, shop.realbotix.com): two sizes — full body 39 DoF, 72 in (female) / 77 in (male) tall and 88 lb, and tabletop 17 DoF, 31-32 in tall and 25 lb; height_mm 1830 and weight_kg 40 are the full-body figures converted from the maker's imperial ones (72 in x 25.4, 88 lb / 2.205), and the maker calls sizes and weights approximate. Powered from a standard wall outlet with no battery, so it is fixed in place: not a standalone mobile robot and not a catalog category. Line launched for pre-order on 2026-10-27 as Echo and renamed Series 1 on 2026-11-04; delivery is stated for the second half of 2027, and a monthly AI plan is required. Maker-stated prices are not recorded here because market price fields await the owner's schema review on issue #74.",
+   "original_category": "Humanoid",
+   "misc_reason": "Fixed-base companion humanoid run from mains power — not a standalone mobile robot."
   },
   {
    "id": "skyborne-codiaq",

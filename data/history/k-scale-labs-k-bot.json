@@ -1,0 +1,22 @@
+{
+ "id": "k-scale-labs-k-bot",
+ "name": "K-Bot",
+ "manufacturer": "K-Scale Labs",
+ "updated": "2026-11-20",
+ "events": [
+  {
+   "date": "2026-11-20",
+   "type": "updated",
+   "source": "https://github.com/kscalelabs/kbot",
+   "changes": [
+    {
+     "field": "seen_on",
+     "from": null,
+     "to": [
+      "https://www.thehumanoid.report/robots/kscale-kbot/"
+     ]
+    }
+   ]
+  }
+ ]
+}

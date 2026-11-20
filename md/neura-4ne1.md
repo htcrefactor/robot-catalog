@@ -92,6 +92,10 @@ NEURA datasheet V7 (2026-06-05, checked 2026-11-17): 180 cm, 80 kg, 55 DoF inclu
 - Official page: [neura-robotics.com](https://neura-robotics.com/products/4ne1/)
 - [neurarobotics.px.media](https://neurarobotics.px.media/plk/cE/NEURA_Robotics_4NE1_Datasheet_Web.pdf)
 
+Listed by these directories (discovery only, never used as a spec source):
+
+- [thehumanoid.report](https://www.thehumanoid.report/robots/neura-4ne1/)
+
 ---
 
-*Robot Catalog — generated from data/robots.json (last merged 2026-11-19). Source repository: https://github.com/htcrefactor/robot-catalog*
+*Robot Catalog — generated from data/robots.json (last merged 2026-11-20). Source repository: https://github.com/htcrefactor/robot-catalog*

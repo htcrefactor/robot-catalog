@@ -69,6 +69,10 @@ Maker pages (clonerobotics.com/android and the 19 Feb 2025 Protoclone announceme
 - [clonerobotics.com](https://www.clonerobotics.com/)
 - [youtube.com](https://www.youtube.com/watch?v=H7dhwFcuUn0)
 
+Listed by these directories (discovery only, never used as a spec source):
+
+- [thehumanoid.report](https://www.thehumanoid.report/robots/clone-alpha/)
+
 ---
 
-*Robot Catalog — generated from data/robots.json (last merged 2026-11-19). Source repository: https://github.com/htcrefactor/robot-catalog*
+*Robot Catalog — generated from data/robots.json (last merged 2026-11-20). Source repository: https://github.com/htcrefactor/robot-catalog*
