@@ -140,4 +140,4 @@ Checked 2026-11-19 against the maker P-series datasheet: 1095x830x195 mm (regula
 
 ---
 
-*Robot Catalog — generated from data/robots.json (last merged 2026-11-19). Source repository: https://github.com/htcrefactor/robot-catalog*
+*Robot Catalog — generated from data/robots.json (last merged 2026-11-20). Source repository: https://github.com/htcrefactor/robot-catalog*

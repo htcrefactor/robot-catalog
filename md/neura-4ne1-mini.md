@@ -89,6 +89,10 @@ NEURA 4NE1 Mini datasheet V1 (checked 2026-11-17): 132 cm, 36 kg, 25 DoF for the
 - Official page: [neura-robotics.com](https://neura-robotics.com/product/4ne1-mini-reservation/)
 - [neurarobotics.px.media](https://neurarobotics.px.media/plk/Jj/4NE1Minidatasheet.pdf)
 
+Listed by these directories (discovery only, never used as a spec source):
+
+- [thehumanoid.report](https://www.thehumanoid.report/robots/neura-4ne1-mini/)
+
 ---
 
-*Robot Catalog — generated from data/robots.json (last merged 2026-11-19). Source repository: https://github.com/htcrefactor/robot-catalog*
+*Robot Catalog — generated from data/robots.json (last merged 2026-11-20). Source repository: https://github.com/htcrefactor/robot-catalog*

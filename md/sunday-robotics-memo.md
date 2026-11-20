@@ -88,6 +88,10 @@ Maker site: 170 cm resting at about 4 ft with arms reaching 7 ft (about 210 cm),
 - Official page: [sunday.ai](https://www.sunday.ai/)
 - [globenewswire.com](https://www.globenewswire.com/news-release/2025/11/19/3191274/0/en/sunday-launches-memo-the-robot-that-actually-learns-your-home.html)
 
+Listed by these directories (discovery only, never used as a spec source):
+
+- [thehumanoid.report](https://www.thehumanoid.report/robots/sunday-memo/)
+
 ---
 
-*Robot Catalog — generated from data/robots.json (last merged 2026-11-19). Source repository: https://github.com/htcrefactor/robot-catalog*
+*Robot Catalog — generated from data/robots.json (last merged 2026-11-20). Source repository: https://github.com/htcrefactor/robot-catalog*

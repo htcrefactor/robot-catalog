@@ -124,6 +124,10 @@ Maker spec page (checked 2026-11-17): 165 cm, 55 kg or less with battery, 31 act
 - Official page: [limxdynamics.com](https://www.limxdynamics.com/en/products/oli)
 - [limxdynamics.com](https://www.limxdynamics.com/en/products/oli/spec)
 
+Listed by these directories (discovery only, never used as a spec source):
+
+- [thehumanoid.report](https://www.thehumanoid.report/robots/limx-oli/)
+
 ---
 
-*Robot Catalog — generated from data/robots.json (last merged 2026-11-19). Source repository: https://github.com/htcrefactor/robot-catalog*
+*Robot Catalog — generated from data/robots.json (last merged 2026-11-20). Source repository: https://github.com/htcrefactor/robot-catalog*

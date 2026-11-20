@@ -79,6 +79,10 @@ Foundation's own site (foundation.bot/phantom) presents a single 'Phantom' produ
 
 - [foundation.bot](https://foundation.bot/phantom)
 
+Listed by these directories (discovery only, never used as a spec source):
+
+- [thehumanoid.report](https://www.thehumanoid.report/robots/foundation-phantom/)
+
 ---
 
-*Robot Catalog — generated from data/robots.json (last merged 2026-11-19). Source repository: https://github.com/htcrefactor/robot-catalog*
+*Robot Catalog — generated from data/robots.json (last merged 2026-11-20). Source repository: https://github.com/htcrefactor/robot-catalog*

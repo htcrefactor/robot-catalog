@@ -134,6 +134,10 @@ Maker product page (booster.tech/booster-t2, Specifications tab): standing heigh
 - [docs.booster.tech](https://docs.booster.tech/zh-CN/docs/product-manual/t2/getting-started/specifications)
 - [humanoidstore.co](https://humanoidstore.co/robots/booster-t2)
 
+Listed by these directories (discovery only, never used as a spec source):
+
+- [thehumanoid.report](https://www.thehumanoid.report/robots/booster-t2/)
+
 ---
 
-*Robot Catalog — generated from data/robots.json (last merged 2026-11-19). Source repository: https://github.com/htcrefactor/robot-catalog*
+*Robot Catalog — generated from data/robots.json (last merged 2026-11-20). Source repository: https://github.com/htcrefactor/robot-catalog*

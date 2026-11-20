@@ -1,0 +1,22 @@
+{
+ "id": "aldebaran-pepper",
+ "name": "Pepper",
+ "manufacturer": "Aldebaran",
+ "updated": "2026-11-20",
+ "events": [
+  {
+   "date": "2026-11-20",
+   "type": "updated",
+   "source": "https://www.softbankrobotics.com/jp/product/pepper/spec/",
+   "changes": [
+    {
+     "field": "seen_on",
+     "from": null,
+     "to": [
+      "https://www.thehumanoid.report/robots/aldebaran-nao/"
+     ]
+    }
+   ]
+  }
+ ]
+}

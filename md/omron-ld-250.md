@@ -198,4 +198,4 @@ Checked 2026-11-19 against OMRON datasheet I828: 148 kg, 250 kg, 1.2 m/s, IP20 m
 
 ---
 
-*Robot Catalog — generated from data/robots.json (last merged 2026-11-19). Source repository: https://github.com/htcrefactor/robot-catalog*
+*Robot Catalog — generated from data/robots.json (last merged 2026-11-20). Source repository: https://github.com/htcrefactor/robot-catalog*

@@ -77,6 +77,10 @@ XPENG's own releases: the first IRON (AI Day, 2024-11-06) was described with mor
 - [xpeng.com](https://www.xpeng.com/pressroom/news/01a080371029a057bc8e8a02a2c6012b)
 - [xiaopeng.com](https://www.xiaopeng.com/news/company_news/5511.html)
 
+Listed by these directories (discovery only, never used as a spec source):
+
+- [thehumanoid.report](https://www.thehumanoid.report/robots/xpeng-iron/)
+
 ---
 
-*Robot Catalog — generated from data/robots.json (last merged 2026-11-19). Source repository: https://github.com/htcrefactor/robot-catalog*
+*Robot Catalog — generated from data/robots.json (last merged 2026-11-20). Source repository: https://github.com/htcrefactor/robot-catalog*

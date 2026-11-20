@@ -1,0 +1,29 @@
+{
+ "id": "persona-ai-gen-1",
+ "name": "Gen 1",
+ "manufacturer": "Persona AI",
+ "updated": "2026-11-20",
+ "events": [
+  {
+   "date": "2026-11-20",
+   "type": "updated",
+   "source": "https://persona.ai/robot-welding-in-a-real-industrial-environment",
+   "changes": [
+    {
+     "field": "seen_on",
+     "from": [
+      "https://data.robo2u.com/robots/persona-ai-gen1",
+      "https://embodied.guide/robots/persona-ai-gen-1/",
+      "https://humanoid.guide/product/persona-ai/"
+     ],
+     "to": [
+      "https://data.robo2u.com/robots/persona-ai-gen1",
+      "https://embodied.guide/robots/persona-ai-gen-1/",
+      "https://humanoid.guide/product/persona-ai/",
+      "https://www.thehumanoid.report/robots/persona-ai/"
+     ]
+    }
+   ]
+  }
+ ]
+}

@@ -40,7 +40,8 @@ Listed by these directories (discovery only, never used as a spec source):
 
 - [embodied.guide](https://embodied.guide/robots/generative-bionics-gene-01/)
 - [humanoid.guide](https://humanoid.guide/product/gene-01/)
+- [thehumanoid.report](https://www.thehumanoid.report/robots/gene01/)
 
 ---
 
-*Robot Catalog — generated from data/robots.json (last merged 2026-11-19). Source repository: https://github.com/htcrefactor/robot-catalog*
+*Robot Catalog — generated from data/robots.json (last merged 2026-11-20). Source repository: https://github.com/htcrefactor/robot-catalog*

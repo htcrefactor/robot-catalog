@@ -86,6 +86,9 @@ for f in sorted(glob.glob(os.path.join(root, "data/parts/*.json"))):
         for k in ("name", "manufacturer", "category"):
             if not r.get(k): err.append(f"{i}: missing {k}")
         if r.get("category") and r["category"] not in CATS: err.append(f"{i}: unknown category {r['category']}")
+        # availability/deployments are a schema proposal awaiting the owner's review (issue #74)
+        for k in ("availability", "deployments"):
+            if r.get(k): err.append(f"{i}: {k} is a proposed schema field awaiting owner review (issue #74) — do not write it to a record yet")
         if r.get("verification") not in (None, "official", "unconfirmed"): err.append(f"{i}: bad verification {r.get('verification')}")
         check_dev(r, i)
         # safety & certification fields (issue #30)

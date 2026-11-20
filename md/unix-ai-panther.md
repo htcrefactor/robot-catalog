@@ -40,7 +40,8 @@ Listed by these directories (discovery only, never used as a spec source):
 - [humanoidversus.com](https://humanoidversus.com/robots/unix-ai-panther)
 - [embodied.guide](https://embodied.guide/robots/unix-ai-panther/)
 - [humanoid.guide](https://humanoid.guide/product/panther/)
+- [thehumanoid.report](https://www.thehumanoid.report/robots/unix-ai-wanda/)
 
 ---
 
-*Robot Catalog — generated from data/robots.json (last merged 2026-11-19). Source repository: https://github.com/htcrefactor/robot-catalog*
+*Robot Catalog — generated from data/robots.json (last merged 2026-11-20). Source repository: https://github.com/htcrefactor/robot-catalog*

@@ -165,6 +165,10 @@ Maker Atlas spec sheet (Rev 10/15/2026, bostondynamics.com/wp-content/uploads/20
 - [bostondynamics.com](https://bostondynamics.com/news/introducing-electric-atlas/)
 - [humanoidstore.co](https://humanoidstore.co/robots/bostondynamics-atlas)
 
+Listed by these directories (discovery only, never used as a spec source):
+
+- [thehumanoid.report](https://www.thehumanoid.report/robots/bd-atlas/)
+
 ---
 
-*Robot Catalog — generated from data/robots.json (last merged 2026-11-19). Source repository: https://github.com/htcrefactor/robot-catalog*
+*Robot Catalog — generated from data/robots.json (last merged 2026-11-20). Source repository: https://github.com/htcrefactor/robot-catalog*

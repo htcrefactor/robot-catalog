@@ -97,6 +97,10 @@ Maker Quick Start V1.1 (2025-09-04) and product page: height about 1650 mm, abou
 - [dobot-cloud-1256299428.cos.accelerate.myqcloud.com](https://dobot-cloud-1256299428.cos.accelerate.myqcloud.com/dobot/Dobot%20Atom%20Humanoid%20Robot%20Quick%20Start_V1.1_20250904_en.pdf)
 - [humanoidstore.co](https://humanoidstore.co/robots/dobot-atom)
 
+Listed by these directories (discovery only, never used as a spec source):
+
+- [thehumanoid.report](https://www.thehumanoid.report/robots/dobot-atom/)
+
 ---
 
-*Robot Catalog — generated from data/robots.json (last merged 2026-11-19). Source repository: https://github.com/htcrefactor/robot-catalog*
+*Robot Catalog — generated from data/robots.json (last merged 2026-11-20). Source repository: https://github.com/htcrefactor/robot-catalog*

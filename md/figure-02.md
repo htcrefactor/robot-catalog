@@ -47,7 +47,8 @@ Listed by these directories (discovery only, never used as a spec source):
 - [data.robo2u.com](https://data.robo2u.com/robots/figure-02)
 - [humanoidversus.com](https://humanoidversus.com/robots/figure-02)
 - [humanoid.guide](https://humanoid.guide/product/figure-02/)
+- [thehumanoid.report](https://www.thehumanoid.report/robots/figure-02/)
 
 ---
 
-*Robot Catalog — generated from data/robots.json (last merged 2026-11-19). Source repository: https://github.com/htcrefactor/robot-catalog*
+*Robot Catalog — generated from data/robots.json (last merged 2026-11-20). Source repository: https://github.com/htcrefactor/robot-catalog*

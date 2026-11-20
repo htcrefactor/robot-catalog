@@ -38,7 +38,8 @@ Built by Boston Dynamics for DARPA and unveiled 11 Jul 2013; the figures come fr
 Listed by these directories (discovery only, never used as a spec source):
 
 - [humanoid.guide](https://humanoid.guide/product/atlas-2013/)
+- [thehumanoid.report](https://www.thehumanoid.report/robots/bd-atlas-hydraulic/)
 
 ---
 
-*Robot Catalog — generated from data/robots.json (last merged 2026-11-19). Source repository: https://github.com/htcrefactor/robot-catalog*
+*Robot Catalog — generated from data/robots.json (last merged 2026-11-20). Source repository: https://github.com/htcrefactor/robot-catalog*

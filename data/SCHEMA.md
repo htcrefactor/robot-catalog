@@ -127,6 +127,92 @@ table column, so no derived value is written into the data.
 
 Korean-market fields: `name_ko`, `manufacturer_ko`, `kr_distributors` and `kr_note` come from the maker's own Korean page or an official Korean distributor's page, listed in that record's `sources`. Leave `name_ko` null when the maker publishes no Korean product name (a model number stays as it is). `kr_distributors` is a list and may be empty; when a record has an entry, `validate.py` checks name, http(s) url and kind.
 
+## Coverage links (`seen_on`)
+`seen_on` lists the pages of other catalogues, datasets or databases on which the record was found.
+It is evidence that the model exists and where a competitor or an open dataset lists it — never a
+source for a value in the record.
+
+- One entry per site, that site's page for this exact robot (a per-robot page, not the site's front
+  page or a list page). Add it when a sweep of that source matches the record; keep it while the
+  source still lists the robot, and never delete it as a way of resolving a disagreement.
+- A value seen only on such a page never enters the record. `sources` still has to hold the maker
+  page behind a number, and a field the maker does not state stays null. When the other catalogue
+  states a different number, the maker value stays and the other one is recorded in `notes` (see
+  "Conflicts" in `AGENTS.md`).
+- Third-party coverage is attributed on `data.html` and in `llms.txt` (see `README.md`, "Open data").
+
+## Market availability and named deployments (proposal — awaiting owner review, issue #74)
+
+**Status: proposed, not approved.** No record carries `availability` or `deployments` yet, and
+`scripts/validate.py` fails any record that has either key, so the proposal cannot be filled in by
+accident. The owner reviews this section first; the data lands afterwards, in its own PR.
+
+These two fields say where a robot can be bought and who runs it. Every fact in them has to stand on
+a maker or customer statement rather than on an aggregator's summary, because an availability line or
+a customer name is a claim about a company, not a spec the maker publishes once.
+
+### `availability`
+```json
+"availability": {
+  "EU": {"status": "purchasable", "as_of": "2026-11-20", "source": "https://maker.example/eu"},
+  "US": {"status": "preorder", "as_of": "2026-11-20", "source": "https://shop.maker.example/robot"},
+  "CN": {"status": "not_available", "as_of": "2026-11-20", "source": "https://maker.example/"}
+}
+```
+- Markets are exactly `EU`, `US`, `CN`. A market that was not checked is left out of the object; an
+  unchecked market is never written as `not_available`.
+- `status` — one of:
+  - `purchasable` — orderable now through the maker or the maker's own store or dealer.
+  - `preorder` — order book open, delivery later than the order.
+  - `deployed_b2b` — supplied to business customers without a public order channel.
+  - `prototype` — the maker shows or trials it but does not offer it for sale.
+  - `discontinued` — the maker has stopped offering it in that market.
+  - `not_available` — checked, and the maker offers no channel in that market.
+- `as_of` is the day the page behind `source` was checked, `YYYY-MM-DD`, the same convention as a
+  dated price observation. Never a date the page itself does not support.
+- `source` is the maker page, the maker's own store or an official dealer page that states the
+  status, and it is always also in the record's `sources`. For `not_available` it is the maker page
+  or store that was checked and shows no channel.
+- Availability and price are separate: availability says whether a market can be bought in, and the
+  figure for that market goes in a dated `price_observations` entry with its own currency and date.
+
+### `deployments`
+```json
+"deployments": [
+  {"customer": "Hyundai Motor Group",
+   "site": "Robotics Metaplant Application Center, Georgia, USA",
+   "status": "pilot", "date": "2026-01",
+   "source": "https://maker.example/news/…"}
+]
+```
+- `customer` — the organisation as it names itself. A deployment needs a named customer; "several
+  plants" or an unnamed "leading automaker" is not an entry.
+- `site` — optional: the plant, campus, city or country the source names.
+- `status` — one of `pilot` (trial or test), `deployed` (in productive use), `announced` (agreed,
+  not yet running), `exhibit` (museum, showroom or event appearance).
+- `date` — optional, `YYYY-MM`: when the deployment started or was announced as far as the source
+  states it. A year alone, or a date the source does not give, stays out.
+- `source` — the maker's own announcement, or the customer's own announcement or statement. Trade
+  press, a competitor's dataset or an analyst note is not a source of record for a customer name;
+  what such a page says can be kept in `notes` as an unconfirmed report with its date.
+- A deployment is a dated fact with a named party. A framework agreement, an order of intent or a
+  promised volume is not a deployment and belongs in `notes`.
+- A count of deployments in another dataset ("deployments: 2") is not data for us: each entry has
+  to trace to its own announcement.
+
+### Market prices
+A price stated for a market by another dataset is an observation, not a standing fact. When one is
+used it goes into `price_observations` under the rules above — the date it was checked, the amount
+and currency as stated, a `kind`, and a maker page or the maker's own store in `source`. A figure
+only an aggregator states is not written; it can be kept in `notes` as an unconfirmed third-party
+figure with the day it was seen. One price model stays in the catalog: there is no second,
+market-by-market price field.
+
+### UI, when the data lands
+`robot.html` shows one availability badge per market and the deployments as a short list; every
+string goes in `assets/i18n.js` in both EN and KO like the rest of the site. Nothing is scored or
+ranked.
+
 ## Structured compute (`compute_*`)
 The five `compute_*` fields are the filterable form of `compute_detail` (Issue #28). `compute_detail`
 stays the maker's full sentence; the structured fields hold only what that sentence — or the robot's
