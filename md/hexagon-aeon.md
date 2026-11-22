@@ -92,4 +92,4 @@ Maker spec sheet (robotics.hexagon.com/product): top speed 2.4 m/s, mass 60 kg, 
 
 ---
 
-*Robot Catalog — generated from data/robots.json (last merged 2026-11-19). Source repository: https://github.com/htcrefactor/robot-catalog*
+*Robot Catalog — generated from data/robots.json (last merged 2026-11-22). Source repository: https://github.com/htcrefactor/robot-catalog*

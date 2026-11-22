@@ -1,0 +1,156 @@
+{
+ "id": "agibot-quester1-q1",
+ "checked": "2026-11-22",
+ "documents": [
+  {
+   "title": "PrimeBOT Q1 product page, overview and specs",
+   "url": "https://www.primebot.com/q1.html"
+  }
+ ],
+ "specs": [
+  {
+   "group": "Identity",
+   "key": "model_number",
+   "label": "Model",
+   "value": "PrimeBOT Q1 (启元Q1) and Q1 Explorer Edition (启元Q1 探索版)",
+   "unit": "",
+   "note": "Two editions listed",
+   "source": "https://www.primebot.com/q1.html"
+  },
+  {
+   "group": "Dimensions & Mass",
+   "key": "height",
+   "label": "Overall height",
+   "value": 88,
+   "unit": "cm",
+   "note": "\"88cm golden height\"",
+   "source": "https://www.primebot.com/q1.html"
+  },
+  {
+   "group": "Dimensions & Mass",
+   "key": "weight_with_battery",
+   "label": "Weight (with battery)",
+   "value": 16,
+   "unit": "kg",
+   "note": "\"约16kg\" including battery",
+   "source": "https://www.primebot.com/q1.html"
+  },
+  {
+   "group": "Mobility & Performance",
+   "key": "degrees_of_freedom",
+   "label": "Total degrees of freedom",
+   "value": 22,
+   "unit": "",
+   "note": "Arm 4x2 + leg 6x2 + waist 2",
+   "source": "https://www.primebot.com/q1.html"
+  },
+  {
+   "group": "Actuation & Joints",
+   "key": "dof_per_arm",
+   "label": "DoF per arm",
+   "value": 4,
+   "unit": "",
+   "note": "",
+   "source": "https://www.primebot.com/q1.html"
+  },
+  {
+   "group": "Actuation & Joints",
+   "key": "dof_per_leg",
+   "label": "DoF per leg",
+   "value": 6,
+   "unit": "",
+   "note": "",
+   "source": "https://www.primebot.com/q1.html"
+  },
+  {
+   "group": "Actuation & Joints",
+   "key": "dof_waist",
+   "label": "Waist DoF",
+   "value": 2,
+   "unit": "",
+   "note": "",
+   "source": "https://www.primebot.com/q1.html"
+  },
+  {
+   "group": "Actuation & Joints",
+   "key": "joint_type",
+   "label": "Joint type",
+   "value": "Quasi-direct-drive (QDD) joints with 22 compliant force-controlled DoF",
+   "unit": "",
+   "note": "Ring-gear motor integrated with housing",
+   "source": "https://www.primebot.com/q1.html"
+  },
+  {
+   "group": "Actuation & Joints",
+   "key": "joint_mass",
+   "label": "Joint masses",
+   "value": 260,
+   "unit": "g",
+   "note": "Powder-metallurgy ring-gear motor + housing, 2.5 mm hollow wiring",
+   "source": "https://www.primebot.com/q1.html"
+  },
+  {
+   "group": "Actuation & Joints",
+   "key": "joint_torque_density",
+   "label": "Peak joint torque density",
+   "value": 85,
+   "unit": "N·m/kg",
+   "note": "Peak torque density",
+   "source": "https://www.primebot.com/q1.html"
+  },
+  {
+   "group": "Connectivity & Interfaces",
+   "key": "external_ports",
+   "label": "Rear panel",
+   "value": "USB Type-A x1; USB Type-C x1; RJ45 x1; power port 12 V/5 A x1",
+   "unit": "",
+   "note": "Expansion interfaces",
+   "source": "https://www.primebot.com/q1.html"
+  },
+  {
+   "group": "Compute & Software",
+   "key": "sdk",
+   "label": "Secondary development",
+   "value": "Open SDK, HDK and API; PrimeToolkit skill development platform; joint-level motion-control interface; official base locomotion model open-sourced",
+   "unit": "",
+   "note": "Developer section (items marked * on page)",
+   "source": "https://www.primebot.com/q1.html"
+  },
+  {
+   "group": "Compute & Software",
+   "key": "ros_support",
+   "label": "ROS",
+   "value": "Compatible with ROS/ROS2 ecosystem",
+   "unit": "",
+   "note": "Page wording; no package link given",
+   "source": "https://www.primebot.com/q1.html"
+  },
+  {
+   "group": "Mobility & Performance",
+   "key": "locomotion_control",
+   "label": "Locomotion control",
+   "value": "Mixture-of-experts RL locomotion model with force/position hybrid control (walking, posing, fall recovery, dynamic performance)",
+   "unit": "",
+   "note": "",
+   "source": "https://www.primebot.com/q1.html"
+  },
+  {
+   "group": "Commercial",
+   "key": "included_accessories",
+   "label": "Product list",
+   "value": "Power adapter; carrying bag (方舟携行包); original battery",
+   "unit": "",
+   "note": "",
+   "source": "https://www.primebot.com/q1.html"
+  },
+  {
+   "group": "Identity",
+   "key": "color",
+   "label": "Color",
+   "value": "Star Gray; Star White; Sakura Pink",
+   "unit": "",
+   "note": "Q1 Explorer Edition colours",
+   "source": "https://www.primebot.com/q1.html"
+  }
+ ]
+}

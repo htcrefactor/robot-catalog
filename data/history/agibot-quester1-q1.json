@@ -1,0 +1,87 @@
+{
+ "id": "agibot-quester1-q1",
+ "name": "QUESTER1 (Q1)",
+ "manufacturer": "AgiBot",
+ "updated": "2026-11-22",
+ "events": [
+  {
+   "date": "2026-11-22",
+   "type": "updated",
+   "source": "https://www.primebot.com/q1.html",
+   "changes": [
+    {
+     "field": "country",
+     "from": null,
+     "to": "China"
+    },
+    {
+     "field": "dof",
+     "from": null,
+     "to": 22
+    },
+    {
+     "field": "height_mm",
+     "from": null,
+     "to": 880
+    },
+    {
+     "field": "locomotion",
+     "from": null,
+     "to": "Legged"
+    },
+    {
+     "field": "note",
+     "from": null,
+     "to": "Maker product page is PrimeBOT \"启元Q1\" (primebot.com/q1.html): 88 cm, about 16 kg with battery, 22 DoF (arm 4x2 + leg 6x2 + waist 2), open SDK/HDK, ROS/ROS2 ecosystem compatible. Unveiled 2025-12-31 by AgiBot co-founder Peng Zhihui; launch coverage quoted ~80 cm, which the product page does not support. agibot.com has no Q1 page."
+    },
+    {
+     "field": "official_url",
+     "from": null,
+     "to": "https://www.primebot.com/q1.html"
+    },
+    {
+     "field": "release_year",
+     "from": null,
+     "to": 2025
+    },
+    {
+     "field": "ros_support",
+     "from": null,
+     "to": true
+    },
+    {
+     "field": "sdk_available",
+     "from": null,
+     "to": true
+    },
+    {
+     "field": "sources",
+     "from": [],
+     "to": [
+      "https://www.primebot.com/q1.html"
+     ]
+    },
+    {
+     "field": "status",
+     "from": null,
+     "to": "Commercial"
+    },
+    {
+     "field": "summary",
+     "from": "",
+     "to": "Backpack-sized personal/educational humanoid with 22 compliant joints, open SDK/HDK and ROS/ROS2 compatibility, sold as PrimeBOT Q1."
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "official"
+    },
+    {
+     "field": "weight_kg",
+     "from": null,
+     "to": 16
+    }
+   ]
+  }
+ ]
+}

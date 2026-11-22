@@ -1,0 +1,75 @@
+{
+ "id": "agile-robots-agile-one-s",
+ "checked": "2026-11-22",
+ "documents": [
+  {
+   "title": "Agile ONE S product page",
+   "url": "https://www.agile-robots.com/en/products/humanoid-robots/agile-one-s/"
+  }
+ ],
+ "specs": [
+  {
+   "group": "Compute & Software",
+   "key": "compute_module",
+   "label": "Chipset",
+   "value": "NVIDIA Jetson Thor (sensor processing and real-time inference) with Intel Core i3 N305 base computing module",
+   "unit": "",
+   "note": "",
+   "source": "https://www.agile-robots.com/en/products/humanoid-robots/agile-one-s/"
+  },
+  {
+   "group": "Sensors & Perception",
+   "key": "camera_type",
+   "label": "Camera",
+   "value": "Head RGB-D camera; RGB-D cameras at waist and back",
+   "unit": "",
+   "note": "",
+   "source": "https://www.agile-robots.com/en/products/humanoid-robots/agile-one-s/"
+  },
+  {
+   "group": "Sensors & Perception",
+   "key": "lidar_type",
+   "label": "LiDAR",
+   "value": "3D LiDAR at the waist",
+   "unit": "",
+   "note": "",
+   "source": "https://www.agile-robots.com/en/products/humanoid-robots/agile-one-s/"
+  },
+  {
+   "group": "Manipulation",
+   "key": "hand_dof",
+   "label": "Hand DoF",
+   "value": 9,
+   "unit": "",
+   "note": "Agile four-finger dexterous hand option",
+   "source": "https://www.agile-robots.com/en/products/humanoid-robots/agile-one-s/"
+  },
+  {
+   "group": "Manipulation",
+   "key": "hand_dof",
+   "label": "Hand DoF",
+   "value": 1,
+   "unit": "",
+   "note": "Two-finger gripper option",
+   "source": "https://www.agile-robots.com/en/products/humanoid-robots/agile-one-s/"
+  },
+  {
+   "group": "Compute & Software",
+   "key": "software_stack",
+   "label": "Software stack",
+   "value": "Open software stack; run the models and frameworks of your choice",
+   "unit": "",
+   "note": "",
+   "source": "https://www.agile-robots.com/en/products/humanoid-robots/agile-one-s/"
+  },
+  {
+   "group": "Controls & Operation",
+   "key": "control_method",
+   "label": "Control method",
+   "value": "Whole-body control coordinating arms, torso and legs",
+   "unit": "",
+   "note": "",
+   "source": "https://www.agile-robots.com/en/products/humanoid-robots/agile-one-s/"
+  }
+ ]
+}

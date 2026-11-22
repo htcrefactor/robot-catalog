@@ -1,0 +1,102 @@
+{
+ "id": "pudu-kettybot-pro",
+ "checked": "2026-11-22",
+ "documents": [
+  {
+   "title": "PUDU KettyBot Pro product page",
+   "url": "https://www.pudurobotics.com/en/products/kettybot_pro"
+  }
+ ],
+ "specs": [
+  {
+   "group": "Dimensions & Mass",
+   "key": "weight",
+   "label": "Weight",
+   "value": 38,
+   "unit": "kg",
+   "note": "",
+   "source": "https://www.pudurobotics.com/en/products/kettybot_pro"
+  },
+  {
+   "group": "Mobility & Performance",
+   "key": "rated_payload",
+   "label": "Rated payload",
+   "value": 10,
+   "unit": "kg",
+   "note": "Per tray layer",
+   "source": "https://www.pudurobotics.com/en/products/kettybot_pro"
+  },
+  {
+   "group": "Power & Battery",
+   "key": "runtime",
+   "label": "Runtime per charge",
+   "value": 9,
+   "unit": "hours",
+   "note": "No-load operation",
+   "source": "https://www.pudurobotics.com/en/products/kettybot_pro"
+  },
+  {
+   "group": "Mobility & Performance",
+   "key": "max_speed",
+   "label": "Top speed",
+   "value": 1.2,
+   "unit": "m/s",
+   "note": "Cruise speed, max",
+   "source": "https://www.pudurobotics.com/en/products/kettybot_pro"
+  },
+  {
+   "group": "Charging & Docking",
+   "key": "charge_time",
+   "label": "Charging time",
+   "value": 3.5,
+   "unit": "hours",
+   "note": "",
+   "source": "https://www.pudurobotics.com/en/products/kettybot_pro"
+  },
+  {
+   "group": "Terrain & Navigation Limits",
+   "key": "min_corridor_width",
+   "label": "Minimum passable corridor / aisle width",
+   "value": 52,
+   "unit": "cm",
+   "note": "Clearance >= 52 cm in specific situations",
+   "source": "https://www.pudurobotics.com/en/products/kettybot_pro"
+  },
+  {
+   "group": "Audio, Lights & HMI",
+   "key": "display",
+   "label": "Display",
+   "value": "18.5-inch advertising display",
+   "unit": "",
+   "note": "",
+   "source": "https://www.pudurobotics.com/en/products/kettybot_pro"
+  },
+  {
+   "group": "Payload & Mounting",
+   "key": "tray_dimensions",
+   "label": "Tray dimensions",
+   "value": "35.20 x 34.01 cm",
+   "unit": "",
+   "note": "",
+   "source": "https://www.pudurobotics.com/en/products/kettybot_pro"
+  },
+  {
+   "group": "Payload & Mounting",
+   "key": "tray_height",
+   "label": "Tray height",
+   "value": "24.79 / 25.30 / 22.30 cm",
+   "unit": "",
+   "note": "Per layer",
+   "source": "https://www.pudurobotics.com/en/products/kettybot_pro"
+  },
+  {
+   "group": "Sensors & Perception",
+   "key": "camera_type",
+   "label": "Camera",
+   "value": "360° fisheye lenses; smart tray detection",
+   "unit": "",
+   "note": "",
+   "source": "https://www.pudurobotics.com/en/products/kettybot_pro"
+  }
+ ]
+}

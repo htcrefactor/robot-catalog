@@ -1,0 +1,84 @@
+{
+ "id": "anyverse-dynamics-k15",
+ "name": "K15",
+ "manufacturer": "Anyverse Dynamics",
+ "updated": "2026-11-22",
+ "events": [
+  {
+   "date": "2026-11-22",
+   "type": "updated",
+   "source": "https://anyverse.com/",
+   "changes": [
+    {
+     "field": "certifications",
+     "from": null,
+     "to": [
+      "CE-MD",
+      "CE-RED",
+      "CE-EMC",
+      "EN ISO 13849 (functional safety)",
+      "EN 18031 (cybersecurity)"
+     ]
+    },
+    {
+     "field": "compute_source",
+     "from": null,
+     "to": "https://anyverse.com/"
+    },
+    {
+     "field": "compute_tops",
+     "from": null,
+     "to": 1000
+    },
+    {
+     "field": "dof",
+     "from": null,
+     "to": 32
+    },
+    {
+     "field": "note",
+     "from": null,
+     "to": "Maker site anyverse.com (checked 2026-11-22): 32 DoF, 1000+ TOPS compute, 6 h runtime, 2 mm manipulation accuracy, >1.5 m/s end-effector speed, >6 kg single-arm payload. No height, weight or dimensions are published; compute_tops is the \"1000+\" floor. Status Commercial: second-generation K15 shipping since July 2026 per company announcement as reported by Gasgoo."
+    },
+    {
+     "field": "official_url",
+     "from": null,
+     "to": "https://anyverse.com/"
+    },
+    {
+     "field": "runtime_h",
+     "from": null,
+     "to": 6
+    },
+    {
+     "field": "safety_source",
+     "from": null,
+     "to": "https://autonews.gasgoo.com/articles/news/chinese-humanoid-robots-enter-european-new-energy-vehicle-manufacturing-facilities-2075593705955053569"
+    },
+    {
+     "field": "sources",
+     "from": [],
+     "to": [
+      "https://anyverse.com/",
+      "https://autonews.gasgoo.com/articles/news/chinese-humanoid-robots-enter-european-new-energy-vehicle-manufacturing-facilities-2075593705955053569"
+     ]
+    },
+    {
+     "field": "status",
+     "from": null,
+     "to": "Commercial"
+    },
+    {
+     "field": "summary",
+     "from": "",
+     "to": "General-purpose dual-arm wheeled semi-humanoid for factory, service and home tasks, driven by the MWA latent world model."
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "official"
+    }
+   ]
+  }
+ ]
+}

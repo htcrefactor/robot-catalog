@@ -1,0 +1,25 @@
+{
+ "id": "seegrid-lift-cr1",
+ "name": "Lift CR1",
+ "manufacturer": "Seegrid",
+ "updated": "2026-11-22",
+ "events": [
+  {
+   "date": "2026-11-22",
+   "type": "updated",
+   "source": "https://seegrid.com/autonomous-mobile-robots/lift-cr1-amr",
+   "changes": [
+    {
+     "field": "note",
+     "from": null,
+     "to": "Checked 2026-11-22 against the Seegrid Lift CR1 page: 15 ft lift, 4,000 lb (1,814 kg) payload, 5 mph (2.24 m/s), 5 layered 2D/3D LiDARs, 3 e-stops."
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "official"
+    }
+   ]
+  }
+ ]
+}

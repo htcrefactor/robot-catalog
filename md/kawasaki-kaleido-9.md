@@ -76,4 +76,4 @@ Maker blog (Kawasaki Robotics, 25 Mar 2026) covers Kaleido 9: leg structure rede
 
 ---
 
-*Robot Catalog — generated from data/robots.json (last merged 2026-11-19). Source repository: https://github.com/htcrefactor/robot-catalog*
+*Robot Catalog — generated from data/robots.json (last merged 2026-11-22). Source repository: https://github.com/htcrefactor/robot-catalog*

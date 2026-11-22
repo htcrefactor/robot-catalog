@@ -6,7 +6,7 @@
 - Category: AMR
 - Locomotion: Wheeled
 - Manufacturer: OTTO by Rockwell Automation (formerly OTTO Motors / Clearpath) (United States)
-- Verification: not recorded
+- Verification: official — checked against a maker source
 
 ## Core specs
 
@@ -28,7 +28,7 @@ Fields the maker does not publish are left out here — the catalog never fills 
 
 ## Full spec sheet
 
-51 values from 2 documents, checked against maker sources on 2026-11-04.
+51 values from 3 documents, checked against maker sources on 2026-11-22.
 
 ### Identity
 
@@ -150,6 +150,11 @@ Fields the maker does not publish are left out here — the catalog never fills 
 
 - [OTTO 100 Spec Sheet OTTO-DS001F-EN-MAR2026 (OTTO by Rockwell Automation)](https://cdn.sanity.io/files/armc7p5y/production/ec1dac3528cb906c23589c86c036b565f27e36cf.pdf?dl=)
 - [OTTO 100 v2.5 Data Sheet (Clearpath, 2022, distributor-hosted)](https://www.amrobotics.eu/wp-content/uploads/2022/12/OTTO-100-v2.5-Data-Sheet-3.pdf)
+- [OTTO 100 product page (checked 2026-11-22)](https://ottomotors.com/100/)
+
+## Notes
+
+Checked 2026-11-22 against ottomotors.com/100 and its data sheet: 150 kg payload and the standards/marks list match the record.
 
 ## Sources
 
@@ -158,4 +163,4 @@ Fields the maker does not publish are left out here — the catalog never fills 
 
 ---
 
-*Robot Catalog — generated from data/robots.json (last merged 2026-11-19). Source repository: https://github.com/htcrefactor/robot-catalog*
+*Robot Catalog — generated from data/robots.json (last merged 2026-11-22). Source repository: https://github.com/htcrefactor/robot-catalog*

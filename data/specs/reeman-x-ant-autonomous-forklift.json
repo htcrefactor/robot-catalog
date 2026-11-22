@@ -1,0 +1,66 @@
+{
+ "id": "reeman-x-ant-autonomous-forklift",
+ "checked": "2026-11-22",
+ "documents": [
+  {
+   "title": "Reeman X-ant Autonomous Forklift page",
+   "url": "https://www.reemanrobot.com/forklift/x-ant-autonomous-forklift.html"
+  }
+ ],
+ "specs": [
+  {
+   "group": "Mobility & Performance",
+   "key": "max_payload",
+   "label": "Max payload",
+   "value": 2,
+   "unit": "t",
+   "note": "2-ton load capacity",
+   "source": "https://www.reemanrobot.com/forklift/x-ant-autonomous-forklift.html"
+  },
+  {
+   "group": "Mobility & Performance",
+   "key": "turning_radius",
+   "label": "Minimum turning radius",
+   "value": 1448,
+   "unit": "mm",
+   "note": "In-place rotation",
+   "source": "https://www.reemanrobot.com/forklift/x-ant-autonomous-forklift.html"
+  },
+  {
+   "group": "Sensors & Perception",
+   "key": "lidar_type",
+   "label": "LiDAR",
+   "value": "50 m single-line LiDAR",
+   "unit": "",
+   "note": "Real-time laser SLAM navigation",
+   "source": "https://www.reemanrobot.com/forklift/x-ant-autonomous-forklift.html"
+  },
+  {
+   "group": "Sensors & Perception",
+   "key": "depth_camera_type",
+   "label": "3D depth sensor",
+   "value": "3D obstacle-avoidance camera; 360° stereo vision",
+   "unit": "",
+   "note": "",
+   "source": "https://www.reemanrobot.com/forklift/x-ant-autonomous-forklift.html"
+  },
+  {
+   "group": "Sensors & Perception",
+   "key": "pallet_detection",
+   "label": "Pallet detection",
+   "value": "Industrial-grade pallet detection; automatic pallet pickup with no coding",
+   "unit": "",
+   "note": "",
+   "source": "https://www.reemanrobot.com/forklift/x-ant-autonomous-forklift.html"
+  },
+  {
+   "group": "Identity",
+   "key": "model_number",
+   "label": "Model",
+   "value": "X-ant Autonomous Forklift (300KG)",
+   "unit": "",
+   "note": "Title as printed on the page",
+   "source": "https://www.reemanrobot.com/forklift/x-ant-autonomous-forklift.html"
+  }
+ ]
+}

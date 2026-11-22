@@ -95,4 +95,4 @@ Maker product page (HMND 01 Alpha Wheeled): 220 cm, 300 kg, 29 DoF excluding end
 
 ---
 
-*Robot Catalog — generated from data/robots.json (last merged 2026-11-19). Source repository: https://github.com/htcrefactor/robot-catalog*
+*Robot Catalog — generated from data/robots.json (last merged 2026-11-22). Source repository: https://github.com/htcrefactor/robot-catalog*

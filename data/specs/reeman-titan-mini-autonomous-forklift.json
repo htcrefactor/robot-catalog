@@ -1,0 +1,39 @@
+{
+ "id": "reeman-titan-mini-autonomous-forklift",
+ "checked": "2026-11-22",
+ "documents": [
+  {
+   "title": "Reeman Titan Mini Autonomous Forklift page",
+   "url": "https://www.reemanrobot.com/forklift/titan-mini-autonomous-forklift.html"
+  }
+ ],
+ "specs": [
+  {
+   "group": "Mobility & Performance",
+   "key": "max_payload",
+   "label": "Max payload",
+   "value": 2,
+   "unit": "t",
+   "note": "2 T capacity",
+   "source": "https://www.reemanrobot.com/forklift/titan-mini-autonomous-forklift.html"
+  },
+  {
+   "group": "Dimensions & Mass",
+   "key": "weight",
+   "label": "Weight",
+   "value": 300,
+   "unit": "kg",
+   "note": "\"300kg light body\"",
+   "source": "https://www.reemanrobot.com/forklift/titan-mini-autonomous-forklift.html"
+  },
+  {
+   "group": "Identity",
+   "key": "intended_use",
+   "label": "Intended use",
+   "value": "Material cart handling; elevator integration for cross-floor delivery",
+   "unit": "",
+   "note": "",
+   "source": "https://www.reemanrobot.com/forklift/titan-mini-autonomous-forklift.html"
+  }
+ ]
+}

@@ -1,0 +1,205 @@
+{
+ "id": "anigon-fa-l",
+ "checked": "2026-11-22",
+ "documents": [
+  {
+   "title": "ANIGON FA-L robot platform page",
+   "url": "https://anigon.ch/robot-platform"
+  },
+  {
+   "title": "Aimbo AG co-founder LinkedIn post, 2026-03-03",
+   "url": "https://www.linkedin.com/posts/roland-wulz_aimboag-anigon-humanoidrobotics-activity-7434565450275160064-INDD"
+  }
+ ],
+ "specs": [
+  {
+   "group": "Identity",
+   "key": "model_number",
+   "label": "Model",
+   "value": "ANIGON FA-L series",
+   "unit": "",
+   "note": "",
+   "source": "https://anigon.ch/robot-platform"
+  },
+  {
+   "group": "Dimensions & Mass",
+   "key": "height",
+   "label": "Overall height",
+   "value": 189,
+   "unit": "cm",
+   "note": "Reference specification",
+   "source": "https://anigon.ch/robot-platform"
+  },
+  {
+   "group": "Dimensions & Mass",
+   "key": "arm_span",
+   "label": "Arm span",
+   "value": 65,
+   "unit": "cm",
+   "note": "Reference specification",
+   "source": "https://anigon.ch/robot-platform"
+  },
+  {
+   "group": "Mobility & Performance",
+   "key": "degrees_of_freedom",
+   "label": "Total degrees of freedom",
+   "value": 28,
+   "unit": "",
+   "note": "Full body",
+   "source": "https://anigon.ch/robot-platform"
+  },
+  {
+   "group": "Actuation & Joints",
+   "key": "dof_per_arm",
+   "label": "DoF per arm",
+   "value": 7,
+   "unit": "",
+   "note": "",
+   "source": "https://anigon.ch/robot-platform"
+  },
+  {
+   "group": "Mobility & Performance",
+   "key": "max_speed",
+   "label": "Top speed",
+   "value": 1.5,
+   "unit": "m/s",
+   "note": "Subject to operating mode and site policy",
+   "source": "https://anigon.ch/robot-platform"
+  },
+  {
+   "group": "Power & Battery",
+   "key": "battery_swappable",
+   "label": "Swappable battery",
+   "value": true,
+   "unit": "",
+   "note": "Dual hot-swap battery system",
+   "source": "https://anigon.ch/robot-platform"
+  },
+  {
+   "group": "Power & Battery",
+   "key": "battery_count",
+   "label": "Number of batteries",
+   "value": 2,
+   "unit": "",
+   "note": "Dual hot-swap batteries",
+   "source": "https://anigon.ch/robot-platform"
+  },
+  {
+   "group": "Power & Battery",
+   "key": "continuous_operation",
+   "label": "Continuous operation",
+   "value": "24/7 with battery rotation, maintenance and duty-cycle planning",
+   "unit": "",
+   "note": "",
+   "source": "https://anigon.ch/robot-platform"
+  },
+  {
+   "group": "Sensors & Perception",
+   "key": "joint_sensors",
+   "label": "Joint sensors",
+   "value": "Integrated joint torque sensors; full force-controlled compliance",
+   "unit": "",
+   "note": "",
+   "source": "https://anigon.ch/robot-platform"
+  },
+  {
+   "group": "Safety & Compliance",
+   "key": "holding_brake",
+   "label": "Holding brake",
+   "value": "Electromagnetic holding brake",
+   "unit": "",
+   "note": "Plus sensitive collision detection and response",
+   "source": "https://anigon.ch/robot-platform"
+  },
+  {
+   "group": "Compute & Software",
+   "key": "compute_module",
+   "label": "Chipset",
+   "value": "Integrated edge compute controller (compute backpack) with separate safety control unit",
+   "unit": "",
+   "note": "Local inference; safety-critical control separated from model execution",
+   "source": "https://anigon.ch/robot-platform"
+  },
+  {
+   "group": "Mobility & Performance",
+   "key": "base_type",
+   "label": "Base type",
+   "value": "Adaptive lifting mobile base",
+   "unit": "",
+   "note": "",
+   "source": "https://anigon.ch/robot-platform"
+  },
+  {
+   "group": "Connectivity & Interfaces",
+   "key": "integration_interfaces",
+   "label": "Integration interfaces",
+   "value": "ERP, MES and WMS interfaces",
+   "unit": "",
+   "note": "",
+   "source": "https://anigon.ch/robot-platform"
+  },
+  {
+   "group": "Dimensions & Mass",
+   "key": "height",
+   "label": "Overall height",
+   "value": 1870,
+   "unit": "mm",
+   "note": "Aimbo co-founder post (2026-03-03) — differs from anigon.ch (189 cm)",
+   "source": "https://www.linkedin.com/posts/roland-wulz_aimboag-anigon-humanoidrobotics-activity-7434565450275160064-INDD"
+  },
+  {
+   "group": "Dimensions & Mass",
+   "key": "weight",
+   "label": "Weight",
+   "value": 166,
+   "unit": "kg",
+   "note": "Aimbo co-founder post (2026-03-03); anigon.ch gives no weight",
+   "source": "https://www.linkedin.com/posts/roland-wulz_aimboag-anigon-humanoidrobotics-activity-7434565450275160064-INDD"
+  },
+  {
+   "group": "Mobility & Performance",
+   "key": "rated_payload",
+   "label": "Rated payload",
+   "value": 6,
+   "unit": "kg",
+   "note": "Single arm, rated (co-founder post)",
+   "source": "https://www.linkedin.com/posts/roland-wulz_aimboag-anigon-humanoidrobotics-activity-7434565450275160064-INDD"
+  },
+  {
+   "group": "Manipulation",
+   "key": "arm_payload_peak",
+   "label": "Arm payload (peak)",
+   "value": 10,
+   "unit": "kg",
+   "note": "Single arm, max (co-founder post)",
+   "source": "https://www.linkedin.com/posts/roland-wulz_aimboag-anigon-humanoidrobotics-activity-7434565450275160064-INDD"
+  },
+  {
+   "group": "Manipulation",
+   "key": "arm_reach",
+   "label": "Arm reach",
+   "value": 650,
+   "unit": "mm",
+   "note": "Arm reach ≥ 650 mm (co-founder post)",
+   "source": "https://www.linkedin.com/posts/roland-wulz_aimboag-anigon-humanoidrobotics-activity-7434565450275160064-INDD"
+  },
+  {
+   "group": "Manipulation",
+   "key": "repeatability",
+   "label": "Repeatability",
+   "value": 0.1,
+   "unit": "mm",
+   "note": "± value (co-founder post)",
+   "source": "https://www.linkedin.com/posts/roland-wulz_aimboag-anigon-humanoidrobotics-activity-7434565450275160064-INDD"
+  },
+  {
+   "group": "Manipulation",
+   "key": "max_tcp_speed",
+   "label": "Max TCP speed",
+   "value": 2,
+   "unit": "m/s",
+   "note": "Max TCP speed (co-founder post)",
+   "source": "https://www.linkedin.com/posts/roland-wulz_aimboag-anigon-humanoidrobotics-activity-7434565450275160064-INDD"
+  }
+ ]
+}

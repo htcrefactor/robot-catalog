@@ -6,7 +6,7 @@
 - Category: AMR
 - Locomotion: Wheeled
 - Manufacturer: Samhyun (South Korea)
-- Verification: not recorded
+- Verification: official — checked against a maker source
 
 ## Core specs
 
@@ -22,7 +22,7 @@ Fields the maker does not publish are left out here — the catalog never fills 
 
 ## Full spec sheet
 
-34 values from 2 documents, checked against maker sources on 2026-11-04.
+35 values from 2 documents, checked against maker sources on 2026-11-22.
 
 ### Identity
 
@@ -34,6 +34,7 @@ Fields the maker does not publish are left out here — the catalog never fills 
 | Unveiled | BOLDUM brand debut at ROBOTWORLD 2026, KINTEX, 4–7 Nov 2026 |  | [samhyun.co.kr](https://www.samhyun.co.kr/news?board_code=1&code=6868&tpf=board%2Fview) |
 | Variants | Two drive systems: standard and high-output |  | [samhyun.co.kr](https://www.samhyun.co.kr/our-up/robot-industry/view?category_code=1210&code=164&tpf=product%2Fview) |
 | Variants | 5 t, 7 t and 10 t classes planned | listed as '26년 출시 예정' (planned for 2026 release) | [samhyun.co.kr](https://www.samhyun.co.kr/our-up/robot-industry/view?category_code=1210&code=164&tpf=product%2Fview) |
+| Planned variants | 5 t, 7 t and 10 t models planned for 2026 | Page "특장점"/"라인업 확장": 3톤 외 5톤·7톤·10톤까지 단계적 확장 예정 | [samhyun.co.kr](https://www.samhyun.co.kr/our-up/robot-industry/view?category_code=1210&code=164&tpf=product%2Fview) |
 
 ### Mobility & Performance
 
@@ -108,6 +109,10 @@ Fields the maker does not publish are left out here — the catalog never fills 
 - [Samhyun – HAMR BOLDUM™ product page (spec tables)](https://www.samhyun.co.kr/our-up/robot-industry/view?category_code=1210&code=164&tpf=product%2Fview)
 - [Samhyun – (주)삼현, '2026 로보월드' 참가 (2026-10-26)](https://www.samhyun.co.kr/news?board_code=1&code=6868&tpf=board%2Fview)
 
+## Notes
+
+Checked 2026-11-22 against the Samhyun BOLDUM page: 3 t payload, 5.7 km/h (1.58 m/s), 7° slope, ±20 mm positioning, IP67, -20 to 50 °C. A high-power option (20 km/h, 10° slope) and 5/7/10 t models (planned for 2026) are mentioned but have no full spec table.
+
 ## Sources
 
 - Official page: [samhyun.co.kr](https://www.samhyun.co.kr/our-up/robot-industry/view?category_code=1210&code=164&tpf=product%2Fview)
@@ -115,4 +120,4 @@ Fields the maker does not publish are left out here — the catalog never fills 
 
 ---
 
-*Robot Catalog — generated from data/robots.json (last merged 2026-11-19). Source repository: https://github.com/htcrefactor/robot-catalog*
+*Robot Catalog — generated from data/robots.json (last merged 2026-11-22). Source repository: https://github.com/htcrefactor/robot-catalog*

@@ -1,0 +1,21 @@
+{
+ "id": "foxtech-xtron-t170a",
+ "checked": "2026-11-22",
+ "documents": [
+  {
+   "title": "Foxtech XTRON T170A page",
+   "url": "https://www.foxtechrobotics.com/xtron-t170a-bipedal-humanoid-research-platform.html"
+  }
+ ],
+ "specs": [
+  {
+   "group": "Manipulation",
+   "key": "arm_payload",
+   "label": "Arm payload",
+   "value": 5,
+   "unit": "kg",
+   "note": "Each arm up to 5 kg",
+   "source": "https://www.foxtechrobotics.com/xtron-t170a-bipedal-humanoid-research-platform.html"
+  }
+ ]
+}

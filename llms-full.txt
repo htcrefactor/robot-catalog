@@ -1,13 +1,13 @@
 # Robot Catalog — full catalog
 
-> Every robot in Robot Catalog (996) with its core specs and sources, in one file. Values are as the maker publishes them; fields the maker does not publish are left out rather than estimated.
+> Every robot in Robot Catalog (1004) with its core specs and sources, in one file. Values are as the maker publishes them; fields the maker does not publish are left out rather than estimated.
 
 - Canonical site: https://htcrefactor.github.io/robot-catalog/
 - Index for agents: https://htcrefactor.github.io/robot-catalog/llms.txt
 - Per-robot Markdown with the full spec sheet and a source on every value: https://htcrefactor.github.io/robot-catalog/md/<id>.md
-- Generated from data/robots.json, last merged 2026-11-19. No scoring, no ranking.
+- Generated from data/robots.json, last merged 2026-11-22. No scoring, no ranking.
 
-## AMR (92)
+## AMR (96)
 
 ### 6 River Systems (Ocado Intelligent Automation) Chuck
 
@@ -723,6 +723,16 @@
 - Specs: Payload 300 kg; Status Commercial; API yes; SDK yes
 - Sources: https://www.reemanrobot.com/agv-amr/fly-boat-pro-factory-delivery-robot.html
 
+### Reeman Hammer Counterbalanced Autonomous Forklift 2.0
+
+- id: `reeman-hammer-counterbalanced-autonomous-forklift-2`
+- Page: https://htcrefactor.github.io/robot-catalog/robot.html?id=reeman-hammer-counterbalanced-autonomous-forklift-2
+- Markdown: https://htcrefactor.github.io/robot-catalog/md/reeman-hammer-counterbalanced-autonomous-forklift-2.md
+- AMR · Wheeled · Commercial · China
+- Summary: Counterbalanced autonomous pallet forklift with 3D pallet recognition, quick-change battery and automatic charging.
+- Specs: Payload 1,200 kg; Status Commercial
+- Sources: https://www.reemanrobot.com/forklift/stackman-1200-autonomous-forklift-trucks.html
+
 ### Reeman Hussar Pro
 
 - id: `reeman-hussar-pro`
@@ -752,6 +762,36 @@
 - Summary: Narrow mini autonomous forklift for 1.1 m aisles with 1-tonne capacity, 3D vision and 24/7 operation.
 - Specs: Payload 1,000 kg; Status Commercial; Sensors 3D vision
 - Sources: https://www.reemanrobot.com/forklift/mini-autonomous-forklift-2-0.html
+
+### Reeman Rhinoceros Autonomous Forklift Trucks 3.0
+
+- id: `reeman-rhinoceros-autonomous-forklift-3`
+- Page: https://htcrefactor.github.io/robot-catalog/robot.html?id=reeman-rhinoceros-autonomous-forklift-3
+- Markdown: https://htcrefactor.github.io/robot-catalog/md/reeman-rhinoceros-autonomous-forklift-3.md
+- AMR · Wheeled · Commercial · China
+- Summary: Reeman autonomous forklift truck (RBOT30F 3.0 line).
+- Specs: Status Commercial
+- Sources: https://www.reemanrobot.com/forklift/rbot30f-autonomous-forklift-trucks-3-0.html
+
+### Reeman Titan Mini Autonomous Forklift
+
+- id: `reeman-titan-mini-autonomous-forklift`
+- Page: https://htcrefactor.github.io/robot-catalog/robot.html?id=reeman-titan-mini-autonomous-forklift
+- Markdown: https://htcrefactor.github.io/robot-catalog/md/reeman-titan-mini-autonomous-forklift.md
+- AMR · Wheeled · Commercial · China
+- Summary: Compact autonomous forklift for material cart handling with elevator integration for cross-floor delivery.
+- Specs: Weight 300 kg; Payload 2,000 kg; Status Commercial
+- Sources: https://www.reemanrobot.com/forklift/titan-mini-autonomous-forklift.html
+
+### Reeman X-ant Autonomous Forklift
+
+- id: `reeman-x-ant-autonomous-forklift`
+- Page: https://htcrefactor.github.io/robot-catalog/robot.html?id=reeman-x-ant-autonomous-forklift
+- Markdown: https://htcrefactor.github.io/robot-catalog/md/reeman-x-ant-autonomous-forklift.md
+- AMR · Wheeled · Commercial · China
+- Summary: Compact autonomous forklift with 2-ton capacity, laser SLAM navigation and elevator capability for confined spaces.
+- Specs: Payload 2,000 kg; Status Commercial; Sensors 360° stereo vision, 50 m single-line LiDAR, 3D obstacle-avoidance camera, Industrial pallet detection
+- Sources: https://www.reemanrobot.com/forklift/x-ant-autonomous-forklift.html
 
 ### Robotnik RB-WATCHER
 
@@ -1065,7 +1105,7 @@
 - Specs: Length 1,620 mm; Width 800 mm; Height 1,830 mm; Weight 520 kg; Payload 2,000 kg; Max speed 1.8 m/s (6.5 km/h); Released 2023; Status Commercial
 - Sources: https://www.visionnav.com/product/detail/VNST20-Pallet-Stacker-AGV, https://www.visionnav.com/news/detail/detail298.html
 
-## Humanoid (562)
+## Humanoid (565)
 
 ### 1X Technologies EVE
 
@@ -1124,6 +1164,16 @@
 - Summary: Autonomous welcome robot that greets visitors and provides information using eye contact, gestures and LLM-powered dialogue.
 - Specs: Height 1,500 mm; Weight 44 kg; Degrees of freedom 23; Status Commercial; On-board compute yes; Compute AMD Ryzen 5 7600 + NVIDIA RTX 4060 Ti; Sensors Depth camera, IR camera, Tracking camera, Laser sensor
 - Sources: http://eng.arobot4all.com/AIMY, http://www.arobot4all.com/AIMY, https://www.arobot4all.com/history, http://www.arobot4all.com/
+
+### AeiROBOT ALICE 3
+
+- id: `aeirobot-alice-3`
+- Page: https://htcrefactor.github.io/robot-catalog/robot.html?id=aeirobot-alice-3
+- Markdown: https://htcrefactor.github.io/robot-catalog/md/aeirobot-alice-3.md
+- Humanoid · Legged · South Korea
+- Summary: Korean research humanoid with human-like proportions: 144 cm, 27.5 kg, 27 DoF.
+- Specs: Height 1,440 mm; Weight 27.5 kg; Degrees of freedom 27; On-board compute yes; Compute NUC11TNKi7; Jetson AGX Xavier; Sensors 3DM-GX4-25 IMU, ZED2i stereo camera, RFT82-HA02-E force/torque sensor
+- Sources: https://eng.arobot4all.com/ALICE3
 
 ### AeiROBOT ALICE 4
 
@@ -1246,8 +1296,10 @@
 - id: `agibot-quester1-q1`
 - Page: https://htcrefactor.github.io/robot-catalog/robot.html?id=agibot-quester1-q1
 - Markdown: https://htcrefactor.github.io/robot-catalog/md/agibot-quester1-q1.md
-- Humanoid
-- Sources: none recorded
+- Humanoid · Legged · Commercial · China · released 2025
+- Summary: Backpack-sized personal/educational humanoid with 22 compliant joints, open SDK/HDK and ROS/ROS2 compatibility, sold as PrimeBOT Q1.
+- Specs: Height 880 mm; Weight 16 kg; Degrees of freedom 22; Released 2025; Status Commercial; SDK yes; ROS yes
+- Sources: https://www.primebot.com/q1.html
 
 ### AgiBot RAISE A1
 
@@ -1278,6 +1330,16 @@
 - Summary: Full-size humanoid from Agile Robots; b2b only, sold to businesses.
 - Specs: Height 1,740 mm; Weight 69 kg; Payload 20 kg; Max speed 2 m/s (7.2 km/h); Degrees of freedom 71; Runtime 8 h; Status Commercial
 - Sources: https://www.agile-robots.com/en/products/humanoid-robots/agile-one/, https://www.linkedin.com/posts/agile-robots-se_agilerobots-agileone-humanoid-activity-7417569512302129152-zLuj
+
+### Agile Robots Agile ONE S
+
+- id: `agile-robots-agile-one-s`
+- Page: https://htcrefactor.github.io/robot-catalog/robot.html?id=agile-robots-agile-one-s
+- Markdown: https://htcrefactor.github.io/robot-catalog/md/agile-robots-agile-one-s.md
+- Humanoid · Legged · Commercial · Germany
+- Summary: Open reference humanoid platform with onboard Jetson Thor compute and a choice of four-finger or two-finger hands.
+- Specs: Status Commercial; On-board compute yes; Compute NVIDIA Jetson Thor + Intel Core i3 N305 base computing module; Sensors Head RGB-D camera, Waist 3D LiDAR, Waist RGB-D camera, Back RGB-D camera
+- Sources: https://www.agile-robots.com/en/products/humanoid-robots/agile-one-s/
 
 ### Agile Robots Agile ONE SN
 
@@ -1532,16 +1594,19 @@
 - id: `anigon-fa-l`
 - Page: https://htcrefactor.github.io/robot-catalog/robot.html?id=anigon-fa-l
 - Markdown: https://htcrefactor.github.io/robot-catalog/md/anigon-fa-l.md
-- Humanoid · Wheeled · Switzerland
-- Sources: none recorded
+- Humanoid · Wheeled · Pilot · Switzerland
+- Specs: Height 1,890 mm; Max speed 1.5 m/s (5.4 km/h); Degrees of freedom 28; Status Pilot
+- Sources: https://anigon.ch/, https://anigon.ch/robot-platform, https://www.linkedin.com/posts/roland-wulz_aimboag-anigon-humanoidrobotics-activity-7434565450275160064-INDD
 
 ### Anyverse Dynamics K15
 
 - id: `anyverse-dynamics-k15`
 - Page: https://htcrefactor.github.io/robot-catalog/robot.html?id=anyverse-dynamics-k15
 - Markdown: https://htcrefactor.github.io/robot-catalog/md/anyverse-dynamics-k15.md
-- Humanoid · Wheeled · China
-- Sources: none recorded
+- Humanoid · Wheeled · Commercial · China
+- Summary: General-purpose dual-arm wheeled semi-humanoid for factory, service and home tasks, driven by the MWA latent world model.
+- Specs: Degrees of freedom 32; Runtime 6 h; Status Commercial
+- Sources: https://anyverse.com/, https://autonews.gasgoo.com/articles/news/chinese-humanoid-robots-enter-european-new-energy-vehicle-manufacturing-facilities-2075593705955053569
 
 ### Apptronik Apollo 2
 
@@ -1558,8 +1623,10 @@
 - id: `apptronik-qdh`
 - Page: https://htcrefactor.github.io/robot-catalog/robot.html?id=apptronik-qdh
 - Markdown: https://htcrefactor.github.io/robot-catalog/md/apptronik-qdh.md
-- Humanoid · Legged
-- Sources: none recorded
+- Humanoid · Legged · Research
+- Summary: Apptronik's Quick Development Humanoid, an early upper-body humanoid platform that preceded Apollo.
+- Specs: Status Research
+- Sources: https://apptronik.com/our-work/qdh
 
 ### Arkshel Robotics MX01
 
@@ -2649,6 +2716,16 @@
 - Markdown: https://htcrefactor.github.io/robot-catalog/md/foxtech-xtron-roban.md
 - Humanoid · Legged · China
 - Sources: none recorded
+
+### Foxtech XTRON T170A
+
+- id: `foxtech-xtron-t170a`
+- Page: https://htcrefactor.github.io/robot-catalog/robot.html?id=foxtech-xtron-t170a
+- Markdown: https://htcrefactor.github.io/robot-catalog/md/foxtech-xtron-t170a.md
+- Humanoid · Legged · Commercial · China
+- Summary: Bipedal humanoid research platform from Foxtech.
+- Specs: Status Commercial
+- Sources: https://www.foxtechrobotics.com/xtron-t170a-bipedal-humanoid-research-platform.html
 
 ### Fujitsu HOAP (HOAP-1/2/3)
 
@@ -8499,7 +8576,7 @@
 - Specs: Length 682 mm; Width 354 mm; Height 532 mm; Weight 20 kg; Payload 12 kg; Max speed 5 m/s (18.0 km/h); Runtime 1.5 h; IP rating IP54; Status Commercial
 - Sources: https://www.yuejialingdong.com/yuejiasizuxilie/56.html, https://wrc.cie.org.cn/profile/robot/download/2026/07/22/20260722102923000455_20260722102923A213.pdf
 
-## Indoor delivery (57)
+## Indoor delivery (58)
 
 ### Aethon (ST Engineering) Zena
 
@@ -8885,6 +8962,16 @@
 - Summary: Compact restaurant delivery and reception robot with two 10 kg trays, a dish-return box and an 18.5-inch advertising screen.
 - Specs: Length 435 mm; Width 450 mm; Height 1,120 mm; Weight 38 kg; Max speed 1.2 m/s (4.3 km/h); Min speed 0.2 m/s; Runtime 8 h; Battery 512 Wh; IP rating IP20; Status Commercial; Price battery_wh computed from stated 25.6 V x 20 Ah; Sensors LiDAR, Depth vision sensors, Front positioning camera, Vision sensor, 6-mic circular array
 - Sources: https://www.pudurobotics.com/en/products/kettybot, https://academy.pudutech.com/en/docs/chan-pin-jian-jie
+
+### Pudu Robotics KettyBot Pro
+
+- id: `pudu-kettybot-pro`
+- Page: https://htcrefactor.github.io/robot-catalog/robot.html?id=pudu-kettybot-pro
+- Markdown: https://htcrefactor.github.io/robot-catalog/md/pudu-kettybot-pro.md
+- Indoor delivery · Wheeled · Commercial · China
+- Summary: Restaurant and retail delivery and reception robot with an 18.5-inch advertising display and tray-load detection.
+- Specs: Weight 38 kg; Max speed 1.2 m/s (4.3 km/h); Runtime 9 h; Status Commercial; Sensors 360° fisheye lenses, Smart tray detection
+- Sources: https://www.pudurobotics.com/en/products/kettybot_pro
 
 ### Pudu Robotics PuduBot 2
 

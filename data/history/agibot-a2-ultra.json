@@ -1,0 +1,40 @@
+{
+ "id": "agibot-a2-ultra",
+ "name": "A2 Ultra",
+ "manufacturer": "AgiBot",
+ "updated": "2026-11-22",
+ "events": [
+  {
+   "date": "2026-11-22",
+   "type": "updated",
+   "source": "https://www.agibot.com/products/A2_Ultra",
+   "changes": [
+    {
+     "field": "certifications",
+     "from": null,
+     "to": [
+      "CR (China)",
+      "CE-MD",
+      "CE-RED",
+      "FCC"
+     ]
+    },
+    {
+     "field": "note",
+     "from": null,
+     "to": "Checked 2026-11-22 against agibot.com/products/A2_Ultra: 169 cm, ~69 kg, 40 DoF, 1.2 m/s, ~2 kg arm load, 1.5 h+ walking / 3 h standing all match. The page also lists A2 Lite (23 DoF, ~64 kg, 0.8 m/s)."
+    },
+    {
+     "field": "safety_source",
+     "from": null,
+     "to": "https://www.agibot.com/products/A2_Ultra"
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "official"
+    }
+   ]
+  }
+ ]
+}

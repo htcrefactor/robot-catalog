@@ -20,7 +20,7 @@ Fields the maker does not publish are left out here — the catalog never fills 
 
 ## Full spec sheet
 
-9 values from 1 document, checked against maker sources on 2026-11-13.
+15 values from 2 documents, checked against maker sources on 2026-11-22.
 
 ### Identity
 
@@ -33,18 +33,34 @@ Fields the maker does not publish are left out here — the catalog never fills 
 | Spec | Value | Note | Source |
 |---|---|---|---|
 | Weight | 149 kg | HumanoidStore open data (CC BY 4.0), checked 2026-09 | [humanoidstore.co](https://humanoidstore.co/robots/waseda-airec) |
+| Overall height | 1,660 mm | Same presentation; differs from the 154 cm in project materials | [careyounews.org](https://www.careyounews.org/news/articleView.html?idxno=12155) |
+| Weight | 150 kg | Same presentation | [careyounews.org](https://www.careyounews.org/news/articleView.html?idxno=12155) |
 
 ### Mobility & Performance
 
 | Spec | Value | Note | Source |
 |---|---|---|---|
 | Total degrees of freedom | 20 | HumanoidStore open data (CC BY 4.0), checked 2026-09 | [humanoidstore.co](https://humanoidstore.co/robots/waseda-airec) |
+| Total degrees of freedom | 36 axes | Dry-AIREC prototype; Waseda presentation (T. Miyake, 2026-10-21) as reported by CareYou News (2026-10-25) | [careyounews.org](https://www.careyounews.org/news/articleView.html?idxno=12155) |
+
+### Power & Battery
+
+| Spec | Value | Note | Source |
+|---|---|---|---|
+| Runtime per charge | 3 hours | Continuous operation about 3 hours | [careyounews.org](https://www.careyounews.org/news/articleView.html?idxno=12155) |
+
+### Sensors & Perception
+
+| Spec | Value | Note | Source |
+|---|---|---|---|
+| Joint sensors | Joint torque sensors; impedance control; gel covering on contact surfaces | Same presentation | [careyounews.org](https://www.careyounews.org/news/articleView.html?idxno=12155) |
 
 ### Manipulation
 
 | Spec | Value | Note | Source |
 |---|---|---|---|
 | Hands | fixed-grippers | HumanoidStore open data (CC BY 4.0), checked 2026-09 | [humanoidstore.co](https://humanoidstore.co/robots/waseda-airec) |
+| Arm payload | 20 kg | Per arm, maximum | [careyounews.org](https://www.careyounews.org/news/articleView.html?idxno=12155) |
 
 ### Commercial
 
@@ -59,6 +75,7 @@ Fields the maker does not publish are left out here — the catalog never fills 
 ## Documents
 
 - [HumanoidStore datasheet – Waseda University (JST Moonshot Program) AIREC (CC BY 4.0)](https://humanoidstore.co/robots/waseda-airec)
+- [CareYou News: K-AgeTech forum report on AIREC (2026-10-25)](https://www.careyounews.org/news/articleView.html?idxno=12155)
 
 ## Notes
 
@@ -73,4 +90,4 @@ The project publishes no height, weight or whole-robot DoF: airec-waseda.jp sets
 
 ---
 
-*Robot Catalog — generated from data/robots.json (last merged 2026-11-19). Source repository: https://github.com/htcrefactor/robot-catalog*
+*Robot Catalog — generated from data/robots.json (last merged 2026-11-22). Source repository: https://github.com/htcrefactor/robot-catalog*

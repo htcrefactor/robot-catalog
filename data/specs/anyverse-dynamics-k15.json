@@ -1,0 +1,106 @@
+{
+ "id": "anyverse-dynamics-k15",
+ "checked": "2026-11-22",
+ "documents": [
+  {
+   "title": "Anyverse Dynamics homepage (K15 product section)",
+   "url": "https://anyverse.com/"
+  },
+  {
+   "title": "Gasgoo, 2026-07-10: K15 shipped to Envision France factory",
+   "url": "https://autonews.gasgoo.com/articles/news/chinese-humanoid-robots-enter-european-new-energy-vehicle-manufacturing-facilities-2075593705955053569"
+  }
+ ],
+ "specs": [
+  {
+   "group": "Mobility & Performance",
+   "key": "degrees_of_freedom",
+   "label": "Total degrees of freedom",
+   "value": 32,
+   "unit": "",
+   "note": "Maker page lists \"32 DOF\"",
+   "source": "https://anyverse.com/"
+  },
+  {
+   "group": "Compute & Software",
+   "key": "ai_compute",
+   "label": "AI compute",
+   "value": "1000+",
+   "unit": "TOPS",
+   "note": "Maker page \"1000+ Tops Compute\"",
+   "source": "https://anyverse.com/"
+  },
+  {
+   "group": "Power & Battery",
+   "key": "runtime",
+   "label": "Runtime per charge",
+   "value": 6,
+   "unit": "hours",
+   "note": "Maker page \"6 hours Battery Runtime\"",
+   "source": "https://anyverse.com/"
+  },
+  {
+   "group": "Mobility & Performance",
+   "key": "positioning_accuracy",
+   "label": "Stop position repeatability (single AMR)",
+   "value": 2,
+   "unit": "mm",
+   "note": "Manipulation accuracy",
+   "source": "https://anyverse.com/"
+  },
+  {
+   "group": "Manipulation",
+   "key": "end_effector_speed",
+   "label": "End-effector speed",
+   "value": ">1.5",
+   "unit": "m/s",
+   "note": "",
+   "source": "https://anyverse.com/"
+  },
+  {
+   "group": "Manipulation",
+   "key": "arm_payload",
+   "label": "Arm payload",
+   "value": ">6",
+   "unit": "kg",
+   "note": "Single arm",
+   "source": "https://anyverse.com/"
+  },
+  {
+   "group": "Compute & Software",
+   "key": "ai_architecture",
+   "label": "AI architecture",
+   "value": "MWA latent world model with end-to-end learning and reinforcement learning; multimodal fusion of vision, tactile and force",
+   "unit": "",
+   "note": "",
+   "source": "https://anyverse.com/"
+  },
+  {
+   "group": "Manipulation",
+   "key": "wrist_flip_radius",
+   "label": "Wrist flip radius",
+   "value": 30,
+   "unit": "mm",
+   "note": "Company figure quoted by Gasgoo",
+   "source": "https://autonews.gasgoo.com/articles/news/chinese-humanoid-robots-enter-european-new-energy-vehicle-manufacturing-facilities-2075593705955053569"
+  },
+  {
+   "group": "Terrain & Navigation Limits",
+   "key": "workspace_width",
+   "label": "Workspace width",
+   "value": 800,
+   "unit": "mm",
+   "note": "Omnidirectional workspace width, company figure quoted by Gasgoo",
+   "source": "https://autonews.gasgoo.com/articles/news/chinese-humanoid-robots-enter-european-new-energy-vehicle-manufacturing-facilities-2075593705955053569"
+  },
+  {
+   "group": "Safety & Compliance",
+   "key": "certifications",
+   "label": "Certification",
+   "value": "CE-MD; CE-RED; CE-EMC; EN ISO 13849 (functional safety); EN 18031 (cybersecurity)",
+   "unit": "",
+   "note": "Company announcement of 2026-07-09 as reported by Gasgoo",
+   "source": "https://autonews.gasgoo.com/articles/news/chinese-humanoid-robots-enter-european-new-energy-vehicle-manufacturing-facilities-2075593705955053569"
+  }
+ ]
+}

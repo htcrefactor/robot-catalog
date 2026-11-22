@@ -1,0 +1,25 @@
+{
+ "id": "otto-otto-100",
+ "name": "OTTO 100",
+ "manufacturer": "OTTO by Rockwell Automation (formerly OTTO Motors / Clearpath)",
+ "updated": "2026-11-22",
+ "events": [
+  {
+   "date": "2026-11-22",
+   "type": "updated",
+   "source": "https://ottomotors.com/100/",
+   "changes": [
+    {
+     "field": "note",
+     "from": null,
+     "to": "Checked 2026-11-22 against ottomotors.com/100 and its data sheet: 150 kg payload and the standards/marks list match the record."
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "official"
+    }
+   ]
+  }
+ ]
+}

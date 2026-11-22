@@ -1,0 +1,111 @@
+{
+ "id": "aeirobot-alice-3",
+ "checked": "2026-11-22",
+ "documents": [
+  {
+   "title": "AeiROBOT ALICE 3 page",
+   "url": "https://eng.arobot4all.com/ALICE3"
+  }
+ ],
+ "specs": [
+  {
+   "group": "Dimensions & Mass",
+   "key": "height",
+   "label": "Overall height",
+   "value": 144,
+   "unit": "cm",
+   "note": "",
+   "source": "https://eng.arobot4all.com/ALICE3"
+  },
+  {
+   "group": "Dimensions & Mass",
+   "key": "weight",
+   "label": "Weight",
+   "value": 27.5,
+   "unit": "kg",
+   "note": "",
+   "source": "https://eng.arobot4all.com/ALICE3"
+  },
+  {
+   "group": "Mobility & Performance",
+   "key": "degrees_of_freedom",
+   "label": "Total degrees of freedom",
+   "value": 27,
+   "unit": "",
+   "note": "Leg 6x2, waist 1, arm 7x2, head 2",
+   "source": "https://eng.arobot4all.com/ALICE3"
+  },
+  {
+   "group": "Actuation & Joints",
+   "key": "dof_per_leg",
+   "label": "DoF per leg",
+   "value": 6,
+   "unit": "",
+   "note": "",
+   "source": "https://eng.arobot4all.com/ALICE3"
+  },
+  {
+   "group": "Actuation & Joints",
+   "key": "dof_per_arm",
+   "label": "DoF per arm",
+   "value": 7,
+   "unit": "",
+   "note": "",
+   "source": "https://eng.arobot4all.com/ALICE3"
+  },
+  {
+   "group": "Actuation & Joints",
+   "key": "dof_head",
+   "label": "Head DoF",
+   "value": 2,
+   "unit": "",
+   "note": "",
+   "source": "https://eng.arobot4all.com/ALICE3"
+  },
+  {
+   "group": "Actuation & Joints",
+   "key": "dof_waist",
+   "label": "Waist DoF",
+   "value": 1,
+   "unit": "",
+   "note": "",
+   "source": "https://eng.arobot4all.com/ALICE3"
+  },
+  {
+   "group": "Compute & Software",
+   "key": "computer",
+   "label": "Computer",
+   "value": "NUC11TNKi7; Jetson AGX Xavier",
+   "unit": "",
+   "note": "Computing module",
+   "source": "https://eng.arobot4all.com/ALICE3"
+  },
+  {
+   "group": "Sensors & Perception",
+   "key": "imu",
+   "label": "IMU",
+   "value": "3DM-GX4-25",
+   "unit": "",
+   "note": "",
+   "source": "https://eng.arobot4all.com/ALICE3"
+  },
+  {
+   "group": "Sensors & Perception",
+   "key": "camera_type",
+   "label": "Camera",
+   "value": "ZED2i",
+   "unit": "",
+   "note": "",
+   "source": "https://eng.arobot4all.com/ALICE3"
+  },
+  {
+   "group": "Sensors & Perception",
+   "key": "force_torque_sensor",
+   "label": "Force/torque sensor",
+   "value": "RFT82-HA02-E",
+   "unit": "",
+   "note": "",
+   "source": "https://eng.arobot4all.com/ALICE3"
+  }
+ ]
+}

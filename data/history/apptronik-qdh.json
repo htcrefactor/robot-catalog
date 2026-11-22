@@ -1,0 +1,47 @@
+{
+ "id": "apptronik-qdh",
+ "name": "QDH",
+ "manufacturer": "Apptronik",
+ "updated": "2026-11-22",
+ "events": [
+  {
+   "date": "2026-11-22",
+   "type": "updated",
+   "source": "https://apptronik.com/our-work/qdh",
+   "changes": [
+    {
+     "field": "note",
+     "from": null,
+     "to": "Maker page (checked 2026-11-22) calls QDH an upper-body humanoid platform that can be paired with different mobility bases, a completed predecessor to Apollo; it publishes no height, weight, payload, DoF or runtime. Third-party figures (14 DoF, 165 cm, 73 kg) were not added. Kept as a legged research platform per Apptronik's own description as a bipedal mobility platform in its 2023 post."
+    },
+    {
+     "field": "official_url",
+     "from": null,
+     "to": "https://apptronik.com/our-work/qdh"
+    },
+    {
+     "field": "sources",
+     "from": [],
+     "to": [
+      "https://apptronik.com/our-work/qdh"
+     ]
+    },
+    {
+     "field": "status",
+     "from": null,
+     "to": "Research"
+    },
+    {
+     "field": "summary",
+     "from": "",
+     "to": "Apptronik's Quick Development Humanoid, an early upper-body humanoid platform that preceded Apollo."
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "official"
+    }
+   ]
+  }
+ ]
+}

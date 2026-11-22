@@ -1,0 +1,57 @@
+{
+ "id": "reeman-hammer-counterbalanced-autonomous-forklift-2",
+ "checked": "2026-11-22",
+ "documents": [
+  {
+   "title": "Reeman Hammer Counterbalanced Autonomous Forklift 2.0 page",
+   "url": "https://www.reemanrobot.com/forklift/stackman-1200-autonomous-forklift-trucks.html"
+  }
+ ],
+ "specs": [
+  {
+   "group": "Mobility & Performance",
+   "key": "max_payload",
+   "label": "Max payload",
+   "value": 1.2,
+   "unit": "t",
+   "note": "Load capacity",
+   "source": "https://www.reemanrobot.com/forklift/stackman-1200-autonomous-forklift-trucks.html"
+  },
+  {
+   "group": "Payload & Mounting",
+   "key": "max_lift_height",
+   "label": "Maximum lift height",
+   "value": 2.5,
+   "unit": "m",
+   "note": "Lifting height",
+   "source": "https://www.reemanrobot.com/forklift/stackman-1200-autonomous-forklift-trucks.html"
+  },
+  {
+   "group": "Mobility & Performance",
+   "key": "turning_radius",
+   "label": "Minimum turning radius",
+   "value": 1.13,
+   "unit": "m",
+   "note": "Compact turning radius",
+   "source": "https://www.reemanrobot.com/forklift/stackman-1200-autonomous-forklift-trucks.html"
+  },
+  {
+   "group": "Sensors & Perception",
+   "key": "pallet_detection",
+   "label": "Pallet detection",
+   "value": "3D pallet recognition",
+   "unit": "",
+   "note": "",
+   "source": "https://www.reemanrobot.com/forklift/stackman-1200-autonomous-forklift-trucks.html"
+  },
+  {
+   "group": "Power & Battery",
+   "key": "battery_swappable",
+   "label": "Swappable battery",
+   "value": true,
+   "unit": "",
+   "note": "Quick-change battery; automatic charging",
+   "source": "https://www.reemanrobot.com/forklift/stackman-1200-autonomous-forklift-trucks.html"
+  }
+ ]
+}

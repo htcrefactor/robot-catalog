@@ -1,0 +1,25 @@
+{
+ "id": "samhyun-boldum",
+ "name": "BOLDUM (HAMR 3-ton)",
+ "manufacturer": "Samhyun",
+ "updated": "2026-11-22",
+ "events": [
+  {
+   "date": "2026-11-22",
+   "type": "updated",
+   "source": "https://www.samhyun.co.kr/our-up/robot-industry/view?category_code=1210&code=164&tpf=product%2Fview",
+   "changes": [
+    {
+     "field": "note",
+     "from": null,
+     "to": "Checked 2026-11-22 against the Samhyun BOLDUM page: 3 t payload, 5.7 km/h (1.58 m/s), 7° slope, ±20 mm positioning, IP67, -20 to 50 °C. A high-power option (20 km/h, 10° slope) and 5/7/10 t models (planned for 2026) are mentioned but have no full spec table."
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "official"
+    }
+   ]
+  }
+ ]
+}

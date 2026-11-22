@@ -6,7 +6,7 @@
 - Category: Humanoid
 - Locomotion: Legged
 - Manufacturer: AgiBot (China)
-- Verification: not recorded
+- Verification: official — checked against a maker source
 
 ## Core specs
 
@@ -29,13 +29,14 @@ Fields the maker does not publish are left out here — the catalog never fills 
 
 ## Full spec sheet
 
-41 values from 1 document, checked against maker sources on 2026-11-04.
+44 values from 1 document, checked against maker sources on 2026-11-22.
 
 ### Identity
 
 | Spec | Value | Note | Source |
 |---|---|---|---|
 | Models | A2 Ultra; A2 Lite | A2 Lite: 64 kg, 23 DoF, 0.8 m/s, no sensors suite | [agibot.com](https://www.agibot.com/products/A2_Ultra) |
+| Records | Guinness World Record: longest distance walked by a humanoid robot, 106.286 km | Maker claim on product page | [agibot.com](https://www.agibot.com/products/A2_Ultra) |
 
 ### Dimensions & Mass
 
@@ -124,6 +125,8 @@ Fields the maker does not publish are left out here — the catalog never fills 
 |---|---|---|---|
 | Wireless emergency stop switch | Included |  | [agibot.com](https://www.agibot.com/products/A2_Ultra) |
 | Walking test | Up to 1300 h continuous walking without anomalies | 5100-hour walking test programme; 92-item full inspection | [agibot.com](https://www.agibot.com/products/A2_Ultra) |
+| Certification | CR (China); CE-MD; CE-RED; FCC | Page: first humanoid to hold top-tier certifications across China, the US and Europe | [agibot.com](https://www.agibot.com/products/A2_Ultra) |
+| Walking test | 1,300 hours continuous walking without anomalies; 92-item full inspection | Maker claims on product page ("5100 hour walking test" tile, text says up to 1300 hours continuous) | [agibot.com](https://www.agibot.com/products/A2_Ultra) |
 
 ### Controls & Operation
 
@@ -151,10 +154,14 @@ Fields the maker does not publish are left out here — the catalog never fills 
 
 - [AgiBot A2 Ultra product page – Product Specifications](https://www.agibot.com/products/A2_Ultra)
 
+## Notes
+
+Checked 2026-11-22 against agibot.com/products/A2_Ultra: 169 cm, ~69 kg, 40 DoF, 1.2 m/s, ~2 kg arm load, 1.5 h+ walking / 3 h standing all match. The page also lists A2 Lite (23 DoF, ~64 kg, 0.8 m/s).
+
 ## Sources
 
 - Official page: [agibot.com](https://www.agibot.com/products/A2_Ultra)
 
 ---
 
-*Robot Catalog — generated from data/robots.json (last merged 2026-11-19). Source repository: https://github.com/htcrefactor/robot-catalog*
+*Robot Catalog — generated from data/robots.json (last merged 2026-11-22). Source repository: https://github.com/htcrefactor/robot-catalog*

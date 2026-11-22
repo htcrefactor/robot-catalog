@@ -1,0 +1,58 @@
+{
+ "id": "anigon-fa-l",
+ "name": "FA-L",
+ "manufacturer": "Anigon",
+ "updated": "2026-11-22",
+ "events": [
+  {
+   "date": "2026-11-22",
+   "type": "updated",
+   "source": "https://anigon.ch/",
+   "changes": [
+    {
+     "field": "dof",
+     "from": null,
+     "to": 28
+    },
+    {
+     "field": "height_mm",
+     "from": null,
+     "to": 1890
+    },
+    {
+     "field": "max_speed_mps",
+     "from": null,
+     "to": 1.5
+    },
+    {
+     "field": "note",
+     "from": null,
+     "to": "Maker site anigon.ch/robot-platform (checked 2026-11-22): 189 cm, 28 DoF (7 per arm), 1.5 m/s max (subject to operating mode and site policy), dual hot-swap batteries. A March 2026 post by an Aimbo co-founder (maker of the Anigon brand) gives 1,870 mm and 166 kg instead; the site value is kept and the post values are separate rows in the full specs."
+    },
+    {
+     "field": "official_url",
+     "from": null,
+     "to": "https://anigon.ch/"
+    },
+    {
+     "field": "sources",
+     "from": [],
+     "to": [
+      "https://anigon.ch/robot-platform",
+      "https://www.linkedin.com/posts/roland-wulz_aimboag-anigon-humanoidrobotics-activity-7434565450275160064-INDD"
+     ]
+    },
+    {
+     "field": "status",
+     "from": null,
+     "to": "Pilot"
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "official"
+    }
+   ]
+  }
+ ]
+}

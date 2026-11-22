@@ -1,0 +1,25 @@
+{
+ "id": "zebra-fetch-freight1500",
+ "name": "Freight1500",
+ "manufacturer": "Zebra Technologies (Fetch Robotics)",
+ "updated": "2026-11-22",
+ "events": [
+  {
+   "date": "2026-11-22",
+   "type": "updated",
+   "source": "https://cssi.com/wp-content/uploads/cssi_fetch-freight500-1500-AMR-brochure.pdf",
+   "changes": [
+    {
+     "field": "note",
+     "from": null,
+     "to": "Specs come from Zebra/Fetch Freight500/1500 documents (copyright Zebra, hosted by distributors). Product is Discontinued (Zebra restructuring note, SEC filing 2026). No live maker product page was reachable on 2026-11-22, so no newer values were added."
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "official"
+    }
+   ]
+  }
+ ]
+}

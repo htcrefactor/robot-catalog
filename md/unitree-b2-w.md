@@ -125,4 +125,4 @@ Unitree B2-W page (checked 2026-11-17): standing about 1098 x 550 x 758 mm, abou
 
 ---
 
-*Robot Catalog — generated from data/robots.json (last merged 2026-11-19). Source repository: https://github.com/htcrefactor/robot-catalog*
+*Robot Catalog — generated from data/robots.json (last merged 2026-11-22). Source repository: https://github.com/htcrefactor/robot-catalog*

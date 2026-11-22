@@ -6,7 +6,7 @@
 - Category: AMR
 - Locomotion: Wheeled
 - Manufacturer: Zebra Technologies (Fetch Robotics) (United States)
-- Verification: not recorded
+- Verification: official — checked against a maker source
 
 ## Core specs
 
@@ -133,6 +133,10 @@ Fields the maker does not publish are left out here — the catalog never fills 
 - [Fetch Robotics Freight500/Freight1500 spec sheet (©2020, Barcodesinc-hosted)](https://www.barcodesinc.com/media/pdf/Zebra/freight500-1500.pdf)
 - [Zebra Technologies SEC filing, restructuring note R14 (2026)](https://www.sec.gov/Archives/edgar/data/877212/000162828026034109/R14.htm)
 
+## Notes
+
+Specs come from Zebra/Fetch Freight500/1500 documents (copyright Zebra, hosted by distributors). Product is Discontinued (Zebra restructuring note, SEC filing 2026). No live maker product page was reachable on 2026-11-22, so no newer values were added.
+
 ## Sources
 
 - [cssi.com](https://cssi.com/wp-content/uploads/cssi_fetch-freight500-1500-AMR-brochure.pdf)
@@ -140,4 +144,4 @@ Fields the maker does not publish are left out here — the catalog never fills 
 
 ---
 
-*Robot Catalog — generated from data/robots.json (last merged 2026-11-19). Source repository: https://github.com/htcrefactor/robot-catalog*
+*Robot Catalog — generated from data/robots.json (last merged 2026-11-22). Source repository: https://github.com/htcrefactor/robot-catalog*

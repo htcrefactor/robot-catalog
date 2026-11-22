@@ -88,4 +88,4 @@ Maker spec table, DEX-M mobile configuration: 30.1 x 28.1 x 54.3 in (765 x 714 x
 
 ---
 
-*Robot Catalog — generated from data/robots.json (last merged 2026-11-19). Source repository: https://github.com/htcrefactor/robot-catalog*
+*Robot Catalog — generated from data/robots.json (last merged 2026-11-22). Source repository: https://github.com/htcrefactor/robot-catalog*

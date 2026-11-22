@@ -6,7 +6,7 @@
 - Category: AMR
 - Locomotion: Wheeled
 - Manufacturer: Seegrid (United States)
-- Verification: not recorded
+- Verification: official — checked against a maker source
 
 ## Core specs
 
@@ -21,7 +21,7 @@ Fields the maker does not publish are left out here — the catalog never fills 
 
 ## Full spec sheet
 
-37 values from 3 documents, checked against maker sources on 2026-11-04.
+39 values from 3 documents, checked against maker sources on 2026-11-22.
 
 ### Identity
 
@@ -93,6 +93,7 @@ Fields the maker does not publish are left out here — the catalog never fills 
 | Max lift height | 15 ft | mast supports future higher heights | [seegrid.com](https://seegrid.com/autonomous-mobile-robots/lift-cr1-amr) |
 | Reach | 180 in | legacy spec block | [web.archive.org](http://web.archive.org/web/20240529173544/https://seegrid.com/autonomous-mobile-robots/palion-lift-cr1/) |
 | Forks | ITA rated; 42 in standard, 36–72 in optional |  | [seegrid.com](https://seegrid.com/autonomous-mobile-robots/lift-cr1-amr) |
+| Fork dimensions | ITA rated; 42 in standard, 36-72 in optional | Key specifications on product page | [seegrid.com](https://seegrid.com/autonomous-mobile-robots/lift-cr1-amr) |
 
 ### Safety & Compliance
 
@@ -103,6 +104,7 @@ Fields the maker does not publish are left out here — the catalog never fills 
 | Emergency stop buttons | 3 |  | [seegrid.com](https://seegrid.com/autonomous-mobile-robots/lift-cr1-amr) |
 | Warning system | Acoustic warning system |  | [seegrid.com](https://seegrid.com/autonomous-mobile-robots/lift-cr1-amr) |
 | Workflows | Inbound to bulk storage, parts to line (pick from floor or staging up to 6 ft), inbound, outbound, cross docking; Autonomous Buffer Management (ABM), vertical storage |  | [seegrid.com](https://seegrid.com/autonomous-mobile-robots/lift-cr1-amr) |
+| Emergency stop | 3 emergency stop buttons | Safety list on product page | [seegrid.com](https://seegrid.com/autonomous-mobile-robots/lift-cr1-amr) |
 
 ### Controls & Operation
 
@@ -131,10 +133,14 @@ Fields the maker does not publish are left out here — the catalog never fills 
 - [Seegrid press release: Lift CR1 unveiled at MODEX 2024 (2024-02-15)](https://seegrid.com/news/seegrid-unveils-new-lift-cr1-at-modex-2024)
 - [Seegrid Palion Lift CR1 page, archived 2024-05-29 (Wayback Machine)](http://web.archive.org/web/20240529173544/https://seegrid.com/autonomous-mobile-robots/palion-lift-cr1/)
 
+## Notes
+
+Checked 2026-11-22 against the Seegrid Lift CR1 page: 15 ft lift, 4,000 lb (1,814 kg) payload, 5 mph (2.24 m/s), 5 layered 2D/3D LiDARs, 3 e-stops.
+
 ## Sources
 
 - Official page: [seegrid.com](https://seegrid.com/autonomous-mobile-robots/lift-cr1-amr)
 
 ---
 
-*Robot Catalog — generated from data/robots.json (last merged 2026-11-19). Source repository: https://github.com/htcrefactor/robot-catalog*
+*Robot Catalog — generated from data/robots.json (last merged 2026-11-22). Source repository: https://github.com/htcrefactor/robot-catalog*

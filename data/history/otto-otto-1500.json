@@ -1,0 +1,25 @@
+{
+ "id": "otto-otto-1500",
+ "name": "OTTO 1500",
+ "manufacturer": "OTTO by Rockwell Automation (formerly OTTO Motors / Clearpath)",
+ "updated": "2026-11-22",
+ "events": [
+  {
+   "date": "2026-11-22",
+   "type": "updated",
+   "source": "https://ottomotors.com/1500",
+   "changes": [
+    {
+     "field": "note",
+     "from": null,
+     "to": "Checked 2026-11-22 against ottomotors.com/1500 and its data sheet: 1,900 kg payload, 10 h runtime (90% to 10%), 60 min charge (10% to 90%) and the standards list match the record."
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "official"
+    }
+   ]
+  }
+ ]
+}

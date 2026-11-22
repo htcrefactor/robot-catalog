@@ -1,8 +1,8 @@
 {
  "meta": {
-  "version": "2026.11.19",
-  "updated": "2026-11-19",
-  "count": 996,
+  "version": "2026.11.22",
+  "updated": "2026-11-22",
+  "count": 1004,
   "license": "CC BY 4.0",
   "license_url": "https://creativecommons.org/licenses/by/4.0/",
   "homepage": "https://htcrefactor.github.io/robot-catalog/data.html"
@@ -3681,7 +3681,9 @@
     "FCC Part 15 Subpart B",
     "ICES-003",
     "ICES-002"
-   ]
+   ],
+   "verification": "official",
+   "note": "Checked 2026-11-22 against ottomotors.com/100 and its data sheet: 150 kg payload and the standards/marks list match the record."
   },
   {
    "id": "otto-otto-1500",
@@ -3746,7 +3748,9 @@
    "compute_memory_gb": 16,
    "compute_source": "https://s3.amazonaws.com/assets.ottomotors.com/pdf/OTTO1500-v2-Datasheet-210406_eng.pdf",
    "compute_tops": null,
-   "compute_soc": "Intel Core i7-6700TE"
+   "compute_soc": "Intel Core i7-6700TE",
+   "verification": "official",
+   "note": "Checked 2026-11-22 against ottomotors.com/1500 and its data sheet: 1,900 kg payload, 10 h runtime (90% to 10%), 60 min charge (10% to 90%) and the standards list match the record."
   },
   {
    "id": "orionstar-carrybot",
@@ -4596,6 +4600,51 @@
    "note": "Detailed spec sheet on page is an image; only text-stated values filled."
   },
   {
+   "id": "reeman-hammer-counterbalanced-autonomous-forklift-2",
+   "name": "Hammer Counterbalanced Autonomous Forklift 2.0",
+   "manufacturer": "Reeman",
+   "country": "China",
+   "category": "AMR",
+   "locomotion": "Wheeled",
+   "release_year": null,
+   "status": "Commercial",
+   "length_mm": null,
+   "width_mm": null,
+   "height_mm": null,
+   "weight_kg": null,
+   "payload_kg": 1200,
+   "max_speed_mps": null,
+   "min_speed_mps": null,
+   "wheel_diameter_mm": null,
+   "wheel_count": null,
+   "dof": null,
+   "runtime_h": null,
+   "battery_wh": null,
+   "ip_rating": null,
+   "api_support": null,
+   "sdk_available": null,
+   "sdk_name": null,
+   "onboard_compute": null,
+   "compute_detail": null,
+   "ros_support": null,
+   "price_usd": null,
+   "price_note": null,
+   "official_url": "https://www.reemanrobot.com/forklift/stackman-1200-autonomous-forklift-trucks.html",
+   "summary": "Counterbalanced autonomous pallet forklift with 3D pallet recognition, quick-change battery and automatic charging.",
+   "image_url": null,
+   "image_source": null,
+   "verification": "official",
+   "note": "Maker page states 1.2 t load capacity, 2.5 m lifting height and 1.13 m turning radius (page file name stackman-1200).",
+   "sensors": [],
+   "sources": [
+    "https://www.reemanrobot.com/forklift/stackman-1200-autonomous-forklift-trucks.html"
+   ],
+   "videos": [],
+   "seen_on": [
+    "https://botupyourlife.com/en/robots/reeman-hammer-counterbalanced-autonomous-forklift-2-0/"
+   ]
+  },
+  {
    "id": "reeman-hussar-pro",
    "name": "Hussar Pro",
    "manufacturer": "Reeman",
@@ -4738,6 +4787,146 @@
    "note": "Page states 1 t load capacity, 1.1 m aisles; full spec table is image-only."
   },
   {
+   "id": "reeman-rhinoceros-autonomous-forklift-3",
+   "name": "Rhinoceros Autonomous Forklift Trucks 3.0",
+   "manufacturer": "Reeman",
+   "country": "China",
+   "category": "AMR",
+   "locomotion": "Wheeled",
+   "release_year": null,
+   "status": "Commercial",
+   "length_mm": null,
+   "width_mm": null,
+   "height_mm": null,
+   "weight_kg": null,
+   "payload_kg": null,
+   "max_speed_mps": null,
+   "min_speed_mps": null,
+   "wheel_diameter_mm": null,
+   "wheel_count": null,
+   "dof": null,
+   "runtime_h": null,
+   "battery_wh": null,
+   "ip_rating": null,
+   "api_support": null,
+   "sdk_available": null,
+   "sdk_name": null,
+   "onboard_compute": null,
+   "compute_detail": null,
+   "ros_support": null,
+   "price_usd": null,
+   "price_note": null,
+   "official_url": "https://www.reemanrobot.com/forklift/rbot30f-autonomous-forklift-trucks-3-0.html",
+   "summary": "Reeman autonomous forklift truck (RBOT30F 3.0 line).",
+   "image_url": null,
+   "image_source": null,
+   "verification": "official",
+   "note": "Maker page lists the product (URL slug rbot30f-autonomous-forklift-trucks-3-0) but the fetched text carried no spec table, so spec fields stay empty.",
+   "sensors": [],
+   "sources": [
+    "https://www.reemanrobot.com/forklift/rbot30f-autonomous-forklift-trucks-3-0.html"
+   ],
+   "videos": [],
+   "seen_on": [
+    "https://botupyourlife.com/en/robots/reeman-rhinoceros-autonomous-forklift-trucks-3-0/"
+   ]
+  },
+  {
+   "id": "reeman-titan-mini-autonomous-forklift",
+   "name": "Titan Mini Autonomous Forklift",
+   "manufacturer": "Reeman",
+   "country": "China",
+   "category": "AMR",
+   "locomotion": "Wheeled",
+   "release_year": null,
+   "status": "Commercial",
+   "length_mm": null,
+   "width_mm": null,
+   "height_mm": null,
+   "weight_kg": 300,
+   "payload_kg": 2000,
+   "max_speed_mps": null,
+   "min_speed_mps": null,
+   "wheel_diameter_mm": null,
+   "wheel_count": null,
+   "dof": null,
+   "runtime_h": null,
+   "battery_wh": null,
+   "ip_rating": null,
+   "api_support": null,
+   "sdk_available": null,
+   "sdk_name": null,
+   "onboard_compute": null,
+   "compute_detail": null,
+   "ros_support": null,
+   "price_usd": null,
+   "price_note": null,
+   "official_url": "https://www.reemanrobot.com/forklift/titan-mini-autonomous-forklift.html",
+   "summary": "Compact autonomous forklift for material cart handling with elevator integration for cross-floor delivery.",
+   "image_url": null,
+   "image_source": null,
+   "verification": "official",
+   "note": "Maker page: 2 T capacity, 300 kg light body, autonomous navigation, elevator integration.",
+   "sensors": [],
+   "sources": [
+    "https://www.reemanrobot.com/forklift/titan-mini-autonomous-forklift.html"
+   ],
+   "videos": [],
+   "seen_on": [
+    "https://botupyourlife.com/en/robots/reeman-titan-mini-autonomous-forklift/"
+   ]
+  },
+  {
+   "id": "reeman-x-ant-autonomous-forklift",
+   "name": "X-ant Autonomous Forklift",
+   "manufacturer": "Reeman",
+   "country": "China",
+   "category": "AMR",
+   "locomotion": "Wheeled",
+   "release_year": null,
+   "status": "Commercial",
+   "length_mm": null,
+   "width_mm": null,
+   "height_mm": null,
+   "weight_kg": null,
+   "payload_kg": 2000,
+   "max_speed_mps": null,
+   "min_speed_mps": null,
+   "wheel_diameter_mm": null,
+   "wheel_count": null,
+   "dof": null,
+   "runtime_h": null,
+   "battery_wh": null,
+   "ip_rating": null,
+   "api_support": null,
+   "sdk_available": null,
+   "sdk_name": null,
+   "onboard_compute": null,
+   "compute_detail": null,
+   "ros_support": null,
+   "price_usd": null,
+   "price_note": null,
+   "official_url": "https://www.reemanrobot.com/forklift/x-ant-autonomous-forklift.html",
+   "summary": "Compact autonomous forklift with 2-ton capacity, laser SLAM navigation and elevator capability for confined spaces.",
+   "image_url": null,
+   "image_source": null,
+   "verification": "official",
+   "note": "Maker page title reads \"X-ant Autonomous Forklift (300KG)\"; the 300 kg is not labelled as weight, so weight_kg stays empty. 2-ton load capacity, 1,448 mm turning radius.",
+   "sensors": [
+    "360° stereo vision",
+    "50 m single-line LiDAR",
+    "3D obstacle-avoidance camera",
+    "Industrial pallet detection"
+   ],
+   "sources": [
+    "https://www.reemanrobot.com/forklift/x-ant-autonomous-forklift.html"
+   ],
+   "videos": [],
+   "seen_on": [
+    "https://botupyourlife.com/en/robots/reeman-x-ant-autonomous-forklift/"
+   ]
+  },
+  {
    "id": "robotnik-rb-watcher",
    "name": "RB-WATCHER",
    "manufacturer": "Robotnik",
@@ -4878,7 +5067,9 @@
      "url": "https://www.samhyun.co.kr/"
     }
    ],
-   "manufacturer_ko": "주식회사 삼현"
+   "manufacturer_ko": "주식회사 삼현",
+   "verification": "official",
+   "note": "Checked 2026-11-22 against the Samhyun BOLDUM page: 3 t payload, 5.7 km/h (1.58 m/s), 7° slope, ±20 mm positioning, IP67, -20 to 50 °C. A high-power option (20 km/h, 10° slope) and 5/7/10 t models (planned for 2026) are mentioned but have no full spec table."
   },
   {
    "id": "seegrid-lift-cr1",
@@ -4918,7 +5109,9 @@
    "sources": [
     "https://seegrid.com/autonomous-mobile-robots/lift-cr1-amr"
    ],
-   "summary": "Autonomous lift truck that moves and stacks pallets up to 4,000 lb to 15 ft without floor infrastructure."
+   "summary": "Autonomous lift truck that moves and stacks pallets up to 4,000 lb to 15 ft without floor infrastructure.",
+   "verification": "official",
+   "note": "Checked 2026-11-22 against the Seegrid Lift CR1 page: 15 ft lift, 4,000 lb (1,814 kg) payload, 5 mph (2.24 m/s), 5 layered 2D/3D LiDARs, 3 e-stops."
   },
   {
    "id": "seegrid-lift-rs1",
@@ -5449,7 +5642,9 @@
     "https://cssi.com/wp-content/uploads/cssi_fetch-freight500-1500-AMR-brochure.pdf",
     "https://www.sec.gov/Archives/edgar/data/877212/000162828026034109/R14.htm"
    ],
-   "summary": "Pallet-transport AMR base for loads up to 1,500 kg; Zebra exited the line and sold its robotics business to Skild AI in March 2026."
+   "summary": "Pallet-transport AMR base for loads up to 1,500 kg; Zebra exited the line and sold its robotics business to Skild AI in March 2026.",
+   "verification": "official",
+   "note": "Specs come from Zebra/Fetch Freight500/1500 documents (copyright Zebra, hosted by distributors). Product is Discontinued (Zebra restructuring note, SEC filing 2026). No live maker product page was reachable on 2026-11-22, so no newer values were added."
   },
   {
    "id": "zeroth-w1",
@@ -6655,6 +6850,55 @@
    "compute_soc": "AMD Ryzen 5 7600"
   },
   {
+   "id": "aeirobot-alice-3",
+   "name": "ALICE 3",
+   "manufacturer": "AeiROBOT",
+   "country": "South Korea",
+   "category": "Humanoid",
+   "locomotion": "Legged",
+   "release_year": null,
+   "status": null,
+   "length_mm": null,
+   "width_mm": null,
+   "height_mm": 1440,
+   "weight_kg": 27.5,
+   "payload_kg": null,
+   "max_speed_mps": null,
+   "min_speed_mps": null,
+   "wheel_diameter_mm": null,
+   "wheel_count": null,
+   "dof": 27,
+   "runtime_h": null,
+   "battery_wh": null,
+   "ip_rating": null,
+   "api_support": null,
+   "sdk_available": null,
+   "sdk_name": null,
+   "onboard_compute": true,
+   "compute_detail": "NUC11TNKi7; Jetson AGX Xavier",
+   "ros_support": null,
+   "price_usd": null,
+   "price_note": null,
+   "official_url": "https://eng.arobot4all.com/ALICE3",
+   "summary": "Korean research humanoid with human-like proportions: 144 cm, 27.5 kg, 27 DoF.",
+   "image_url": null,
+   "image_source": null,
+   "verification": "official",
+   "note": "Maker spec box: 144 cm / 27.5 kg; 27 DoF = leg 6x2, waist 1, arm 7x2, head 2; says specs vary with options.",
+   "sensors": [
+    "3DM-GX4-25 IMU",
+    "ZED2i stereo camera",
+    "RFT82-HA02-E force/torque sensor"
+   ],
+   "sources": [
+    "https://eng.arobot4all.com/ALICE3"
+   ],
+   "videos": [],
+   "seen_on": [
+    "https://botupyourlife.com/en/robots/aei-alice-3/"
+   ]
+  },
+  {
    "id": "aeirobot-alice-4",
    "name": "ALICE 4",
    "manufacturer": "AeiROBOT",
@@ -6907,7 +7151,16 @@
    "compute_memory_gb": 64,
    "compute_source": "https://www.agibot.com/products/A2_Ultra",
    "compute_tops": null,
-   "compute_soc": "NVIDIA Jetson Orin 64GB"
+   "compute_soc": "NVIDIA Jetson Orin 64GB",
+   "verification": "official",
+   "certifications": [
+    "CR (China)",
+    "CE-MD",
+    "CE-RED",
+    "FCC"
+   ],
+   "safety_source": "https://www.agibot.com/products/A2_Ultra",
+   "note": "Checked 2026-11-22 against agibot.com/products/A2_Ultra: 169 cm, ~69 kg, 40 DoF, 1.2 m/s, ~2 kg arm load, 1.5 h+ walking / 3 h standing all match. The page also lists A2 Lite (23 DoF, ~64 kg, 0.8 m/s)."
   },
   {
    "id": "agibot-g1",
@@ -7230,43 +7483,46 @@
    "id": "agibot-quester1-q1",
    "name": "QUESTER1 (Q1)",
    "manufacturer": "AgiBot",
-   "country": null,
+   "country": "China",
    "category": "Humanoid",
-   "locomotion": null,
-   "release_year": null,
-   "status": null,
+   "locomotion": "Legged",
+   "release_year": 2025,
+   "status": "Commercial",
    "length_mm": null,
    "width_mm": null,
-   "height_mm": null,
-   "weight_kg": null,
+   "height_mm": 880,
+   "weight_kg": 16,
    "payload_kg": null,
    "max_speed_mps": null,
    "min_speed_mps": null,
    "wheel_diameter_mm": null,
    "wheel_count": null,
-   "dof": null,
+   "dof": 22,
    "runtime_h": null,
    "battery_wh": null,
    "ip_rating": null,
    "api_support": null,
-   "sdk_available": null,
+   "sdk_available": true,
    "sdk_name": null,
    "onboard_compute": null,
    "compute_detail": null,
-   "ros_support": null,
+   "ros_support": true,
    "sensors": [],
    "price_usd": null,
    "price_note": null,
-   "official_url": null,
-   "sources": [],
-   "summary": "",
+   "official_url": "https://www.primebot.com/q1.html",
+   "sources": [
+    "https://www.primebot.com/q1.html"
+   ],
+   "summary": "Backpack-sized personal/educational humanoid with 22 compliant joints, open SDK/HDK and ROS/ROS2 compatibility, sold as PrimeBOT Q1.",
    "image_url": null,
    "image_source": null,
    "videos": [],
    "seen_on": [
     "https://humanoid.guide/product/quester1-q1/"
    ],
-   "verification": null
+   "verification": "official",
+   "note": "Maker product page is PrimeBOT \"启元Q1\" (primebot.com/q1.html): 88 cm, about 16 kg with battery, 22 DoF (arm 4x2 + leg 6x2 + waist 2), open SDK/HDK, ROS/ROS2 ecosystem compatible. Unveiled 2025-12-31 by AgiBot co-founder Peng Zhihui; launch coverage quoted ~80 cm, which the product page does not support. agibot.com has no Q1 page."
   },
   {
    "id": "agibot-raise-a1",
@@ -7415,6 +7671,56 @@
    "summary": "Full-size humanoid from Agile Robots; b2b only, sold to businesses.",
    "verification": "official",
    "notes": "Issue #17 (2026-11-17): 174 cm, 69 kg, 20 kg payload, 2.0 m/s on Agile Robots' product page; 71 DoF (21 per hand) and up to 8 h from Agile Robots' own LinkedIn post. HumanoidStore rows dropped."
+  },
+  {
+   "id": "agile-robots-agile-one-s",
+   "name": "Agile ONE S",
+   "manufacturer": "Agile Robots",
+   "country": "Germany",
+   "category": "Humanoid",
+   "locomotion": "Legged",
+   "release_year": null,
+   "status": "Commercial",
+   "length_mm": null,
+   "width_mm": null,
+   "height_mm": null,
+   "weight_kg": null,
+   "payload_kg": null,
+   "max_speed_mps": null,
+   "min_speed_mps": null,
+   "wheel_diameter_mm": null,
+   "wheel_count": null,
+   "dof": null,
+   "runtime_h": null,
+   "battery_wh": null,
+   "ip_rating": null,
+   "api_support": null,
+   "sdk_available": null,
+   "sdk_name": null,
+   "onboard_compute": true,
+   "compute_detail": "NVIDIA Jetson Thor + Intel Core i3 N305 base computing module",
+   "ros_support": null,
+   "price_usd": null,
+   "price_note": null,
+   "official_url": "https://www.agile-robots.com/en/products/humanoid-robots/agile-one-s/",
+   "summary": "Open reference humanoid platform with onboard Jetson Thor compute and a choice of four-finger or two-finger hands.",
+   "image_url": null,
+   "image_source": null,
+   "verification": "official",
+   "note": "Maker page gives no height, weight or speed. Hand options: four-finger 9 DoF hand or 1 DoF two-finger gripper.",
+   "sensors": [
+    "Head RGB-D camera",
+    "Waist 3D LiDAR",
+    "Waist RGB-D camera",
+    "Back RGB-D camera"
+   ],
+   "sources": [
+    "https://www.agile-robots.com/en/products/humanoid-robots/agile-one-s/"
+   ],
+   "videos": [],
+   "seen_on": [
+    "https://botupyourlife.com/en/robots/agile-one-s/"
+   ]
   },
   {
    "id": "agile-robots-agile-one-sn",
@@ -8005,17 +8311,17 @@
    "category": "Humanoid",
    "locomotion": "Wheeled",
    "release_year": null,
-   "status": null,
+   "status": "Pilot",
    "length_mm": null,
    "width_mm": null,
-   "height_mm": null,
+   "height_mm": 1890,
    "weight_kg": null,
    "payload_kg": null,
-   "max_speed_mps": null,
+   "max_speed_mps": 1.5,
    "min_speed_mps": null,
    "wheel_diameter_mm": null,
    "wheel_count": null,
-   "dof": null,
+   "dof": 28,
    "runtime_h": null,
    "battery_wh": null,
    "ip_rating": null,
@@ -8028,8 +8334,11 @@
    "sensors": [],
    "price_usd": null,
    "price_note": null,
-   "official_url": null,
-   "sources": [],
+   "official_url": "https://anigon.ch/",
+   "sources": [
+    "https://anigon.ch/robot-platform",
+    "https://www.linkedin.com/posts/roland-wulz_aimboag-anigon-humanoidrobotics-activity-7434565450275160064-INDD"
+   ],
    "summary": "",
    "image_url": null,
    "image_source": null,
@@ -8038,7 +8347,8 @@
     "https://embodied.guide/robots/anigon-fa-l/",
     "https://humanoid.guide/product/anigon/"
    ],
-   "verification": null
+   "verification": "official",
+   "note": "Maker site anigon.ch/robot-platform (checked 2026-11-22): 189 cm, 28 DoF (7 per arm), 1.5 m/s max (subject to operating mode and site policy), dual hot-swap batteries. A March 2026 post by an Aimbo co-founder (maker of the Anigon brand) gives 1,870 mm and 166 kg instead; the site value is kept and the post values are separate rows in the full specs."
   },
   {
    "id": "anyverse-dynamics-k15",
@@ -8048,7 +8358,7 @@
    "category": "Humanoid",
    "locomotion": "Wheeled",
    "release_year": null,
-   "status": null,
+   "status": "Commercial",
    "length_mm": null,
    "width_mm": null,
    "height_mm": null,
@@ -8058,8 +8368,8 @@
    "min_speed_mps": null,
    "wheel_diameter_mm": null,
    "wheel_count": null,
-   "dof": null,
-   "runtime_h": null,
+   "dof": 32,
+   "runtime_h": 6,
    "battery_wh": null,
    "ip_rating": null,
    "api_support": null,
@@ -8071,16 +8381,30 @@
    "sensors": [],
    "price_usd": null,
    "price_note": null,
-   "official_url": null,
-   "sources": [],
-   "summary": "",
+   "official_url": "https://anyverse.com/",
+   "sources": [
+    "https://anyverse.com/",
+    "https://autonews.gasgoo.com/articles/news/chinese-humanoid-robots-enter-european-new-energy-vehicle-manufacturing-facilities-2075593705955053569"
+   ],
+   "summary": "General-purpose dual-arm wheeled semi-humanoid for factory, service and home tasks, driven by the MWA latent world model.",
    "image_url": null,
    "image_source": null,
    "videos": [],
    "seen_on": [
     "https://embodied.guide/robots/anyverse-dynamics-k15/"
    ],
-   "verification": null
+   "verification": "official",
+   "compute_tops": 1000,
+   "compute_source": "https://anyverse.com/",
+   "note": "Maker site anyverse.com (checked 2026-11-22): 32 DoF, 1000+ TOPS compute, 6 h runtime, 2 mm manipulation accuracy, >1.5 m/s end-effector speed, >6 kg single-arm payload. No height, weight or dimensions are published; compute_tops is the \"1000+\" floor. Status Commercial: second-generation K15 shipping since July 2026 per company announcement as reported by Gasgoo.",
+   "certifications": [
+    "CE-MD",
+    "CE-RED",
+    "CE-EMC",
+    "EN ISO 13849 (functional safety)",
+    "EN 18031 (cybersecurity)"
+   ],
+   "safety_source": "https://autonews.gasgoo.com/articles/news/chinese-humanoid-robots-enter-european-new-energy-vehicle-manufacturing-facilities-2075593705955053569"
   },
   {
    "id": "apptronik-apollo-2",
@@ -8129,7 +8453,7 @@
    "category": "Humanoid",
    "locomotion": "Legged",
    "release_year": null,
-   "status": null,
+   "status": "Research",
    "length_mm": null,
    "width_mm": null,
    "height_mm": null,
@@ -8152,16 +8476,19 @@
    "sensors": [],
    "price_usd": null,
    "price_note": null,
-   "official_url": null,
-   "sources": [],
-   "summary": "",
+   "official_url": "https://apptronik.com/our-work/qdh",
+   "sources": [
+    "https://apptronik.com/our-work/qdh"
+   ],
+   "summary": "Apptronik's Quick Development Humanoid, an early upper-body humanoid platform that preceded Apollo.",
    "image_url": null,
    "image_source": null,
    "videos": [],
    "seen_on": [
     "https://humanoid.guide/product/qdh/"
    ],
-   "verification": null
+   "verification": "official",
+   "note": "Maker page (checked 2026-11-22) calls QDH an upper-body humanoid platform that can be paired with different mobility bases, a completed predecessor to Apollo; it publishes no height, weight, payload, DoF or runtime. Third-party figures (14 DoF, 165 cm, 73 kg) were not added. Kept as a legged research platform per Apptronik's own description as a bipedal mobility platform in its 2023 post."
   },
   {
    "id": "arkshel-mx01",
@@ -13441,6 +13768,51 @@
     "https://botupyourlife.com/en/robots/foxtech-xtron-roban/"
    ],
    "verification": null
+  },
+  {
+   "id": "foxtech-xtron-t170a",
+   "name": "XTRON T170A",
+   "manufacturer": "Foxtech",
+   "country": "China",
+   "category": "Humanoid",
+   "locomotion": "Legged",
+   "release_year": null,
+   "status": "Commercial",
+   "length_mm": null,
+   "width_mm": null,
+   "height_mm": null,
+   "weight_kg": null,
+   "payload_kg": null,
+   "max_speed_mps": null,
+   "min_speed_mps": null,
+   "wheel_diameter_mm": null,
+   "wheel_count": null,
+   "dof": null,
+   "runtime_h": null,
+   "battery_wh": null,
+   "ip_rating": null,
+   "api_support": null,
+   "sdk_available": null,
+   "sdk_name": null,
+   "onboard_compute": null,
+   "compute_detail": null,
+   "ros_support": null,
+   "price_usd": null,
+   "price_note": null,
+   "official_url": "https://www.foxtechrobotics.com/xtron-t170a-bipedal-humanoid-research-platform.html",
+   "summary": "Bipedal humanoid research platform from Foxtech.",
+   "image_url": null,
+   "image_source": null,
+   "verification": "official",
+   "note": "Maker page: each arm carries up to 5 kg. No other figures were extracted from the page text, so the remaining fields stay empty.",
+   "sensors": [],
+   "sources": [
+    "https://www.foxtechrobotics.com/xtron-t170a-bipedal-humanoid-research-platform.html"
+   ],
+   "videos": [],
+   "seen_on": [
+    "https://botupyourlife.com/en/robots/foxtech-xtron-t170a/"
+   ]
   },
   {
    "id": "fujitsu-hoap",
@@ -35164,6 +35536,54 @@
    "summary": "Compact restaurant delivery and reception robot with two 10 kg trays, a dish-return box and an 18.5-inch advertising screen.",
    "verification": "official",
    "notes": "Pudu's own product document gives 25.6 V x 20 Ah = 512 Wh (derived), 8 h without load, cruise 0.2-1.2 m/s, 38 kg, 435 x 450 x 1120 mm, two 10 kg trays plus a dish-return box, 55 cm minimum width, 5 mm step and 5 deg slope, 4 h charging, IP20, and the listed LiDAR, depth vision sensors, positioning camera and 6-mic array."
+  },
+  {
+   "id": "pudu-kettybot-pro",
+   "name": "KettyBot Pro",
+   "manufacturer": "Pudu Robotics",
+   "country": "China",
+   "category": "Indoor delivery",
+   "locomotion": "Wheeled",
+   "release_year": null,
+   "status": "Commercial",
+   "length_mm": null,
+   "width_mm": null,
+   "height_mm": null,
+   "weight_kg": 38,
+   "payload_kg": null,
+   "max_speed_mps": 1.2,
+   "min_speed_mps": null,
+   "wheel_diameter_mm": null,
+   "wheel_count": null,
+   "dof": null,
+   "runtime_h": 9,
+   "battery_wh": null,
+   "ip_rating": null,
+   "api_support": null,
+   "sdk_available": null,
+   "sdk_name": null,
+   "onboard_compute": null,
+   "compute_detail": null,
+   "ros_support": null,
+   "price_usd": null,
+   "price_note": null,
+   "official_url": "https://www.pudurobotics.com/en/products/kettybot_pro",
+   "summary": "Restaurant and retail delivery and reception robot with an 18.5-inch advertising display and tray-load detection.",
+   "image_url": null,
+   "image_source": null,
+   "verification": "official",
+   "note": "Maker page: 38 kg, 10 kg per layer, 9 h runtime (no load), cruise speed up to 1.2 m/s, 3.5 h charge, clearance >=52 cm.",
+   "sensors": [
+    "360° fisheye lenses",
+    "Smart tray detection"
+   ],
+   "sources": [
+    "https://www.pudurobotics.com/en/products/kettybot_pro"
+   ],
+   "videos": [],
+   "seen_on": [
+    "https://botupyourlife.com/en/robots/pudu-kettybot-pro/"
+   ]
   },
   {
    "id": "pudu-pudubot-2",

@@ -1,10 +1,14 @@
 {
  "id": "waseda-airec",
- "checked": "2026-11-13",
+ "checked": "2026-11-22",
  "documents": [
   {
    "title": "HumanoidStore datasheet – Waseda University (JST Moonshot Program) AIREC (CC BY 4.0)",
    "url": "https://humanoidstore.co/robots/waseda-airec"
+  },
+  {
+   "title": "CareYou News: K-AgeTech forum report on AIREC (2026-10-25)",
+   "url": "https://www.careyounews.org/news/articleView.html?idxno=12155"
   }
  ],
  "specs": [
@@ -88,6 +92,60 @@
    "unit": "",
    "note": "HumanoidStore open data (CC BY 4.0), checked 2026-09",
    "source": "https://humanoidstore.co/robots/waseda-airec"
+  },
+  {
+   "group": "Mobility & Performance",
+   "key": "degrees_of_freedom",
+   "label": "Total degrees of freedom",
+   "value": 36,
+   "unit": "axes",
+   "note": "Dry-AIREC prototype; Waseda presentation (T. Miyake, 2026-10-21) as reported by CareYou News (2026-10-25)",
+   "source": "https://www.careyounews.org/news/articleView.html?idxno=12155"
+  },
+  {
+   "group": "Dimensions & Mass",
+   "key": "height",
+   "label": "Overall height",
+   "value": 1660,
+   "unit": "mm",
+   "note": "Same presentation; differs from the 154 cm in project materials",
+   "source": "https://www.careyounews.org/news/articleView.html?idxno=12155"
+  },
+  {
+   "group": "Dimensions & Mass",
+   "key": "weight",
+   "label": "Weight",
+   "value": 150,
+   "unit": "kg",
+   "note": "Same presentation",
+   "source": "https://www.careyounews.org/news/articleView.html?idxno=12155"
+  },
+  {
+   "group": "Manipulation",
+   "key": "arm_payload",
+   "label": "Arm payload",
+   "value": 20,
+   "unit": "kg",
+   "note": "Per arm, maximum",
+   "source": "https://www.careyounews.org/news/articleView.html?idxno=12155"
+  },
+  {
+   "group": "Power & Battery",
+   "key": "runtime",
+   "label": "Runtime per charge",
+   "value": 3,
+   "unit": "hours",
+   "note": "Continuous operation about 3 hours",
+   "source": "https://www.careyounews.org/news/articleView.html?idxno=12155"
+  },
+  {
+   "group": "Sensors & Perception",
+   "key": "joint_sensors",
+   "label": "Joint sensors",
+   "value": "Joint torque sensors; impedance control; gel covering on contact surfaces",
+   "unit": "",
+   "note": "Same presentation",
+   "source": "https://www.careyounews.org/news/articleView.html?idxno=12155"
   }
  ]
 }

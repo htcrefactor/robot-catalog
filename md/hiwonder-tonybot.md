@@ -81,4 +81,4 @@ Maker product page: 383 x 190 x 105 mm, about 1.8 kg, 17 DoF (16 body + 1 head),
 
 ---
 
-*Robot Catalog — generated from data/robots.json (last merged 2026-11-19). Source repository: https://github.com/htcrefactor/robot-catalog*
+*Robot Catalog — generated from data/robots.json (last merged 2026-11-22). Source repository: https://github.com/htcrefactor/robot-catalog*

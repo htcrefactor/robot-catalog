@@ -1,6 +1,6 @@
 {
  "id": "seegrid-lift-cr1",
- "checked": "2026-11-04",
+ "checked": "2026-11-22",
  "documents": [
   {
    "title": "Seegrid Lift CR1 AMR product page",
@@ -347,6 +347,24 @@
    "value": "36 in – 72 in forks",
    "unit": "",
    "note": "",
+   "source": "https://seegrid.com/autonomous-mobile-robots/lift-cr1-amr"
+  },
+  {
+   "group": "Safety & Compliance",
+   "key": "emergency_stop",
+   "label": "Emergency stop",
+   "value": "3 emergency stop buttons",
+   "unit": "",
+   "note": "Safety list on product page",
+   "source": "https://seegrid.com/autonomous-mobile-robots/lift-cr1-amr"
+  },
+  {
+   "group": "Payload & Mounting",
+   "key": "fork_dimensions",
+   "label": "Fork dimensions",
+   "value": "ITA rated; 42 in standard, 36-72 in optional",
+   "unit": "",
+   "note": "Key specifications on product page",
    "source": "https://seegrid.com/autonomous-mobile-robots/lift-cr1-amr"
   }
  ]

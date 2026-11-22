@@ -6,7 +6,7 @@
 - Category: AMR
 - Locomotion: Wheeled
 - Manufacturer: OTTO by Rockwell Automation (formerly OTTO Motors / Clearpath) (United States)
-- Verification: not recorded
+- Verification: official — checked against a maker source
 
 ## Core specs
 
@@ -29,7 +29,7 @@ Fields the maker does not publish are left out here — the catalog never fills 
 
 ## Full spec sheet
 
-57 values from 2 documents, checked against maker sources on 2026-11-04.
+61 values from 3 documents, checked against maker sources on 2026-11-22.
 
 ### Identity
 
@@ -83,6 +83,7 @@ Fields the maker does not publish are left out here — the catalog never fills 
 | Runtime | 10 h | 90% to 10% | [cdn.sanity.io](https://cdn.sanity.io/files/armc7p5y/production/65f37f30ec55c632329ba48e31cb7013ca96c80d.pdf?dl=) |
 | Battery life | 3,000 cycles | full charge cycles | [cdn.sanity.io](https://cdn.sanity.io/files/armc7p5y/production/65f37f30ec55c632329ba48e31cb7013ca96c80d.pdf?dl=) |
 | Battery life | 10,000 cycles | v2 (2021); est. battery replacements over 5 yr: 0 | [s3.amazonaws.com](https://s3.amazonaws.com/assets.ottomotors.com/pdf/OTTO1500-v2-Datasheet-210406_eng.pdf) |
+| Battery type | Lithium-ion | Product page "Behind the Chassis" | [ottomotors.com](https://ottomotors.com/1500) |
 
 ### Charging & Docking
 
@@ -94,6 +95,7 @@ Fields the maker does not publish are left out here — the catalog never fills 
 | Charge time | 34 min | 10% to 90%, v2 (2021) | [s3.amazonaws.com](https://s3.amazonaws.com/assets.ottomotors.com/pdf/OTTO1500-v2-Datasheet-210406_eng.pdf) |
 | Battery charging options | Autonomous opportunity charging (default); manual charging |  | [cdn.sanity.io](https://cdn.sanity.io/files/armc7p5y/production/65f37f30ec55c632329ba48e31cb7013ca96c80d.pdf?dl=) |
 | Opportunity charging | yes | autonomous, default | [cdn.sanity.io](https://cdn.sanity.io/files/armc7p5y/production/65f37f30ec55c632329ba48e31cb7013ca96c80d.pdf?dl=) |
+| Charging time | 60 minutes | Charge time 10% to 90% (product page key specifications) | [ottomotors.com](https://ottomotors.com/1500) |
 
 ### Environment & Protection
 
@@ -111,6 +113,8 @@ Fields the maker does not publish are left out here — the catalog never fills 
 | Camera model | Intel RealSense |  | [cdn.sanity.io](https://cdn.sanity.io/files/armc7p5y/production/65f37f30ec55c632329ba48e31cb7013ca96c80d.pdf?dl=) |
 | Safety laser scanners | 2× SICK microScan3 (360° FOV) |  | [cdn.sanity.io](https://cdn.sanity.io/files/armc7p5y/production/65f37f30ec55c632329ba48e31cb7013ca96c80d.pdf?dl=) |
 | IMU | Embedded 6-axis IMU |  | [cdn.sanity.io](https://cdn.sanity.io/files/armc7p5y/production/65f37f30ec55c632329ba48e31cb7013ca96c80d.pdf?dl=) |
+| Camera | 4 x 3D cameras: two forward-facing, two rear-facing | Product page "Behind the Chassis" | [ottomotors.com](https://ottomotors.com/1500) |
+| LiDAR | 2 corner LiDARs giving a 360° field of view | Product page "Behind the Chassis" | [ottomotors.com](https://ottomotors.com/1500) |
 
 ### Compute & Software
 
@@ -162,6 +166,11 @@ Fields the maker does not publish are left out here — the catalog never fills 
 
 - [OTTO 1500 Spec Sheet OTTO-DS001F-EN-AUG2026 (OTTO by Rockwell Automation)](https://cdn.sanity.io/files/armc7p5y/production/65f37f30ec55c632329ba48e31cb7013ca96c80d.pdf?dl=)
 - [OTTO 1500 v2 Data Sheet 210406 (Clearpath/OTTO Motors)](https://s3.amazonaws.com/assets.ottomotors.com/pdf/OTTO1500-v2-Datasheet-210406_eng.pdf)
+- [OTTO 1500 product page (checked 2026-11-22)](https://ottomotors.com/1500)
+
+## Notes
+
+Checked 2026-11-22 against ottomotors.com/1500 and its data sheet: 1,900 kg payload, 10 h runtime (90% to 10%), 60 min charge (10% to 90%) and the standards list match the record.
 
 ## Sources
 
@@ -171,4 +180,4 @@ Fields the maker does not publish are left out here — the catalog never fills 
 
 ---
 
-*Robot Catalog — generated from data/robots.json (last merged 2026-11-19). Source repository: https://github.com/htcrefactor/robot-catalog*
+*Robot Catalog — generated from data/robots.json (last merged 2026-11-22). Source repository: https://github.com/htcrefactor/robot-catalog*

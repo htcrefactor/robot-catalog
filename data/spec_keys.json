@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-19",
- "robots_with_specs": 197,
+ "updated": "2026-11-22",
+ "robots_with_specs": 208,
  "keys": [
   {
    "key": "max_joint_torque",
@@ -17,6 +17,17 @@
    "key": "dof_per_leg",
    "group": "Actuation & Joints",
    "label": "DoF per leg",
+   "unit": "",
+   "dim": "",
+   "base": "",
+   "f2b": 1,
+   "robots": 19,
+   "numeric": 18
+  },
+  {
+   "key": "dof_per_arm",
+   "group": "Actuation & Joints",
+   "label": "DoF per arm",
    "unit": "",
    "dim": "",
    "base": "",
@@ -47,15 +58,26 @@
    "numeric": 67
   },
   {
-   "key": "dof_per_arm",
+   "key": "dof_waist",
    "group": "Actuation & Joints",
-   "label": "DoF per arm",
+   "label": "Waist DoF",
    "unit": "",
    "dim": "",
    "base": "",
    "f2b": 1,
-   "robots": 14,
-   "numeric": 13
+   "robots": 12,
+   "numeric": 12
+  },
+  {
+   "key": "dof_head",
+   "group": "Actuation & Joints",
+   "label": "Head DoF",
+   "unit": "",
+   "dim": "",
+   "base": "",
+   "f2b": 1,
+   "robots": 11,
+   "numeric": 11
   },
   {
    "key": "joint_count",
@@ -67,28 +89,6 @@
    "f2b": 1,
    "robots": 11,
    "numeric": 9
-  },
-  {
-   "key": "dof_head",
-   "group": "Actuation & Joints",
-   "label": "Head DoF",
-   "unit": "",
-   "dim": "",
-   "base": "",
-   "f2b": 1,
-   "robots": 10,
-   "numeric": 10
-  },
-  {
-   "key": "dof_waist",
-   "group": "Actuation & Joints",
-   "label": "Waist DoF",
-   "unit": "",
-   "dim": "",
-   "base": "",
-   "f2b": 1,
-   "robots": 10,
-   "numeric": 10
   },
   {
    "key": "cooling_system",
@@ -122,6 +122,17 @@
    "f2b": 57.29577951,
    "robots": 6,
    "numeric": 4
+  },
+  {
+   "key": "joint_mass",
+   "group": "Actuation & Joints",
+   "label": "Joint masses",
+   "unit": "g",
+   "dim": "mass",
+   "base": "kg",
+   "f2b": 0.001,
+   "robots": 4,
+   "numeric": 1
   },
   {
    "key": "joint_bearing_type",
@@ -160,17 +171,6 @@
    "key": "joint_bearings",
    "group": "Actuation & Joints",
    "label": "Joint bearings",
-   "unit": "",
-   "dim": "",
-   "base": "",
-   "f2b": 1,
-   "robots": 3,
-   "numeric": 0
-  },
-  {
-   "key": "joint_mass",
-   "group": "Actuation & Joints",
-   "label": "Joint masses",
    "unit": "",
    "dim": "",
    "base": "",
@@ -289,6 +289,17 @@
    "numeric": 2
   },
   {
+   "key": "repeatability",
+   "group": "Actuation & Joints",
+   "label": "Tendon drive repetition",
+   "unit": "mm",
+   "dim": "length",
+   "base": "mm",
+   "f2b": 1,
+   "robots": 2,
+   "numeric": 2
+  },
+  {
    "key": "actuator_supplier",
    "group": "Actuation & Joints",
    "label": "Actuators",
@@ -380,6 +391,17 @@
    "key": "joint_bearing",
    "group": "Actuation & Joints",
    "label": "Joint output bearing",
+   "unit": "",
+   "dim": "",
+   "base": "",
+   "f2b": 1,
+   "robots": 1,
+   "numeric": 0
+  },
+  {
+   "key": "joint_type",
+   "group": "Actuation & Joints",
+   "label": "Joint type",
    "unit": "",
    "dim": "",
    "base": "",
@@ -520,6 +542,17 @@
    "numeric": 2
   },
   {
+   "key": "joint_torque_density",
+   "group": "Actuation & Joints",
+   "label": "Peak joint torque density",
+   "unit": "N·m/kg",
+   "dim": "",
+   "base": "N·m/kg",
+   "f2b": 1,
+   "robots": 1,
+   "numeric": 1
+  },
+  {
    "key": "rotor_inertia",
    "group": "Actuation & Joints",
    "label": "Rotor inertia (hip roll / hip pitch / knee)",
@@ -548,17 +581,6 @@
    "unit": "%",
    "dim": "",
    "base": "%",
-   "f2b": 1,
-   "robots": 1,
-   "numeric": 1
-  },
-  {
-   "key": "repeatability",
-   "group": "Actuation & Joints",
-   "label": "Tendon drive repetition",
-   "unit": "mm",
-   "dim": "length",
-   "base": "mm",
    "f2b": 1,
    "robots": 1,
    "numeric": 1
@@ -604,7 +626,7 @@
    "dim": "",
    "base": "",
    "f2b": 1,
-   "robots": 28,
+   "robots": 29,
    "numeric": 0
   },
   {
@@ -846,7 +868,7 @@
    "dim": "time",
    "base": "h",
    "f2b": 1,
-   "robots": 52,
+   "robots": 53,
    "numeric": 56
   },
   {
@@ -1528,7 +1550,7 @@
    "dim": "",
    "base": "",
    "f2b": 1,
-   "robots": 28,
+   "robots": 29,
    "numeric": 0
   },
   {
@@ -1737,7 +1759,7 @@
    "dim": "",
    "base": "",
    "f2b": 1,
-   "robots": 25,
+   "robots": 26,
    "numeric": 0
   },
   {
@@ -1781,7 +1803,7 @@
    "dim": "",
    "base": "",
    "f2b": 1,
-   "robots": 15,
+   "robots": 16,
    "numeric": 0
   },
   {
@@ -1851,9 +1873,9 @@
    "numeric": 12
   },
   {
-   "key": "gpu",
+   "key": "compute_module",
    "group": "Compute & Software",
-   "label": "GPU",
+   "label": "Chipset",
    "unit": "",
    "dim": "",
    "base": "",
@@ -1862,14 +1884,14 @@
    "numeric": 0
   },
   {
-   "key": "compute_module",
+   "key": "gpu",
    "group": "Compute & Software",
-   "label": "Chipset",
+   "label": "GPU",
    "unit": "",
    "dim": "",
    "base": "",
    "f2b": 1,
-   "robots": 9,
+   "robots": 11,
    "numeric": 0
   },
   {
@@ -1994,6 +2016,17 @@
    "numeric": 0
   },
   {
+   "key": "computer",
+   "group": "Compute & Software",
+   "label": "Computer",
+   "unit": "",
+   "dim": "",
+   "base": "",
+   "f2b": 1,
+   "robots": 2,
+   "numeric": 0
+  },
+  {
    "key": "control_frequency",
    "group": "Compute & Software",
    "label": "Control frequency",
@@ -2060,9 +2093,9 @@
    "numeric": 0
   },
   {
-   "key": "attachment_software_updates",
+   "key": "ai_architecture",
    "group": "Compute & Software",
-   "label": "Attachment software updates",
+   "label": "AI architecture",
    "unit": "",
    "dim": "",
    "base": "",
@@ -2071,9 +2104,20 @@
    "numeric": 0
   },
   {
-   "key": "computer",
+   "key": "ai_compute",
    "group": "Compute & Software",
-   "label": "Computer",
+   "label": "AI compute",
+   "unit": "",
+   "dim": "",
+   "base": "",
+   "f2b": 1,
+   "robots": 1,
+   "numeric": 0
+  },
+  {
+   "key": "attachment_software_updates",
+   "group": "Compute & Software",
+   "label": "Attachment software updates",
    "unit": "",
    "dim": "",
    "base": "",
@@ -2258,6 +2302,17 @@
    "numeric": 0
   },
   {
+   "key": "software_stack",
+   "group": "Compute & Software",
+   "label": "Software stack",
+   "unit": "",
+   "dim": "",
+   "base": "",
+   "f2b": 1,
+   "robots": 1,
+   "numeric": 0
+  },
+  {
    "key": "software_support_policy",
    "group": "Compute & Software",
    "label": "Software support policy",
@@ -2335,6 +2390,17 @@
    "numeric": 0
   },
   {
+   "key": "external_ports",
+   "group": "Connectivity & Interfaces",
+   "label": "Rear panel",
+   "unit": "port",
+   "dim": "",
+   "base": "port",
+   "f2b": 1,
+   "robots": 25,
+   "numeric": 3
+  },
+  {
    "key": "ethernet",
    "group": "Connectivity & Interfaces",
    "label": "Ethernet",
@@ -2344,17 +2410,6 @@
    "f2b": 1,
    "robots": 24,
    "numeric": 4
-  },
-  {
-   "key": "external_ports",
-   "group": "Connectivity & Interfaces",
-   "label": "Rear panel",
-   "unit": "port",
-   "dim": "",
-   "base": "port",
-   "f2b": 1,
-   "robots": 24,
-   "numeric": 3
   },
   {
    "key": "cellular",
@@ -2652,6 +2707,17 @@
    "f2b": 1,
    "robots": 1,
    "numeric": 1
+  },
+  {
+   "key": "integration_interfaces",
+   "group": "Connectivity & Interfaces",
+   "label": "Integration interfaces",
+   "unit": "",
+   "dim": "",
+   "base": "",
+   "f2b": 1,
+   "robots": 1,
+   "numeric": 0
   },
   {
    "key": "interoperability",
@@ -3160,6 +3226,17 @@
    "numeric": 1
   },
   {
+   "key": "control_method",
+   "group": "Controls & Operation",
+   "label": "Control method",
+   "unit": "",
+   "dim": "",
+   "base": "",
+   "f2b": 1,
+   "robots": 1,
+   "numeric": 0
+  },
+  {
    "key": "controller_supervision_timeout",
    "group": "Controls & Operation",
    "label": "Controller supervision timeout, STRICT (default)",
@@ -3541,8 +3618,8 @@
    "dim": "mass",
    "base": "kg",
    "f2b": 1,
-   "robots": 160,
-   "numeric": 176
+   "robots": 164,
+   "numeric": 181
   },
   {
    "key": "height_standing",
@@ -3585,8 +3662,8 @@
    "dim": "length",
    "base": "mm",
    "f2b": 1,
-   "robots": 56,
-   "numeric": 61
+   "robots": 60,
+   "numeric": 66
   },
   {
    "key": "weight_with_battery",
@@ -3596,8 +3673,8 @@
    "dim": "mass",
    "base": "kg",
    "f2b": 1,
-   "robots": 23,
-   "numeric": 26
+   "robots": 24,
+   "numeric": 27
   },
   {
    "key": "ground_clearance",
@@ -3673,8 +3750,8 @@
    "dim": "length",
    "base": "mm",
    "f2b": 1,
-   "robots": 5,
-   "numeric": 5
+   "robots": 6,
+   "numeric": 6
   },
   {
    "key": "track_width",
@@ -4355,7 +4432,7 @@
    "dim": "",
    "base": "",
    "f2b": 1,
-   "robots": 26,
+   "robots": 29,
    "numeric": 2
   },
   {
@@ -4366,7 +4443,7 @@
    "dim": "",
    "base": "",
    "f2b": 1,
-   "robots": 23,
+   "robots": 24,
    "numeric": 0
   },
   {
@@ -4381,9 +4458,9 @@
    "numeric": 1
   },
   {
-   "key": "manufacturer_address",
+   "key": "manufacturer",
    "group": "Identity",
-   "label": "Manufacturer address",
+   "label": "Manufacturer",
    "unit": "",
    "dim": "",
    "base": "",
@@ -4392,14 +4469,14 @@
    "numeric": 0
   },
   {
-   "key": "manufacturer",
+   "key": "manufacturer_address",
    "group": "Identity",
-   "label": "Manufacturer",
+   "label": "Manufacturer address",
    "unit": "",
    "dim": "",
    "base": "",
    "f2b": 1,
-   "robots": 20,
+   "robots": 21,
    "numeric": 0
   },
   {
@@ -4436,9 +4513,9 @@
    "numeric": 0
   },
   {
-   "key": "document_number",
+   "key": "color",
    "group": "Identity",
-   "label": "Data sheet document number",
+   "label": "Color",
    "unit": "",
    "dim": "",
    "base": "",
@@ -4447,14 +4524,14 @@
    "numeric": 0
   },
   {
-   "key": "color",
+   "key": "document_number",
    "group": "Identity",
-   "label": "Color",
+   "label": "Data sheet document number",
    "unit": "",
    "dim": "",
    "base": "",
    "f2b": 1,
-   "robots": 3,
+   "robots": 4,
    "numeric": 0
   },
   {
@@ -4579,9 +4656,31 @@
    "numeric": 0
   },
   {
+   "key": "planned_variants",
+   "group": "Identity",
+   "label": "Planned variants",
+   "unit": "",
+   "dim": "",
+   "base": "",
+   "f2b": 1,
+   "robots": 1,
+   "numeric": 0
+  },
+  {
    "key": "predecessor",
    "group": "Identity",
    "label": "Predecessor model",
+   "unit": "",
+   "dim": "",
+   "base": "",
+   "f2b": 1,
+   "robots": 1,
+   "numeric": 0
+  },
+  {
+   "key": "record",
+   "group": "Identity",
+   "label": "Records",
    "unit": "",
    "dim": "",
    "base": "",
@@ -4619,8 +4718,8 @@
    "dim": "mass",
    "base": "kg",
    "f2b": 1,
-   "robots": 12,
-   "numeric": 13
+   "robots": 15,
+   "numeric": 15
   },
   {
    "key": "hand_dof",
@@ -4630,8 +4729,8 @@
    "dim": "",
    "base": "",
    "f2b": 1,
-   "robots": 6,
-   "numeric": 5
+   "robots": 7,
+   "numeric": 7
   },
   {
    "key": "gripper_type",
@@ -4652,8 +4751,19 @@
    "dim": "length",
    "base": "mm",
    "f2b": 1000,
-   "robots": 3,
-   "numeric": 3
+   "robots": 4,
+   "numeric": 4
+  },
+  {
+   "key": "arm_payload_peak",
+   "group": "Manipulation",
+   "label": "Arm payload (peak)",
+   "unit": "kg",
+   "dim": "mass",
+   "base": "kg",
+   "f2b": 1,
+   "robots": 2,
+   "numeric": 2
   },
   {
    "key": "hand_joint_range",
@@ -4676,17 +4786,6 @@
    "f2b": 1,
    "robots": 2,
    "numeric": 0
-  },
-  {
-   "key": "arm_payload_peak",
-   "group": "Manipulation",
-   "label": "Arm payload (peak)",
-   "unit": "kg",
-   "dim": "mass",
-   "base": "kg",
-   "f2b": 1,
-   "robots": 1,
-   "numeric": 1
   },
   {
    "key": "hand_operating_voltage",
@@ -4714,6 +4813,17 @@
    "key": "hand_model",
    "group": "Manipulation",
    "label": "Dexterous hand",
+   "unit": "",
+   "dim": "",
+   "base": "",
+   "f2b": 1,
+   "robots": 1,
+   "numeric": 0
+  },
+  {
+   "key": "end_effector_speed",
+   "group": "Manipulation",
+   "label": "End-effector speed",
    "unit": "",
    "dim": "",
    "base": "",
@@ -4788,6 +4898,17 @@
    "numeric": 1
   },
   {
+   "key": "max_tcp_speed",
+   "group": "Manipulation",
+   "label": "Max TCP speed",
+   "unit": "m/s",
+   "dim": "speed",
+   "base": "m/s",
+   "f2b": 1,
+   "robots": 1,
+   "numeric": 1
+  },
+  {
    "key": "arm_support",
    "group": "Manipulation",
    "label": "Spot Arm",
@@ -4819,6 +4940,17 @@
    "f2b": 1,
    "robots": 1,
    "numeric": 0
+  },
+  {
+   "key": "wrist_flip_radius",
+   "group": "Manipulation",
+   "label": "Wrist flip radius",
+   "unit": "mm",
+   "dim": "length",
+   "base": "mm",
+   "f2b": 1,
+   "robots": 1,
+   "numeric": 1
   },
   {
    "key": "wrist_pitch_range",
@@ -4861,8 +4993,8 @@
    "dim": "speed",
    "base": "m/s",
    "f2b": 1,
-   "robots": 143,
-   "numeric": 169
+   "robots": 145,
+   "numeric": 171
   },
   {
    "key": "degrees_of_freedom",
@@ -4872,8 +5004,8 @@
    "dim": "",
    "base": "",
    "f2b": 1,
-   "robots": 126,
-   "numeric": 140
+   "robots": 130,
+   "numeric": 144
   },
   {
    "key": "rated_payload",
@@ -4883,8 +5015,8 @@
    "dim": "mass",
    "base": "kg",
    "f2b": 1,
-   "robots": 95,
-   "numeric": 97
+   "robots": 97,
+   "numeric": 99
   },
   {
    "key": "max_payload",
@@ -4894,8 +5026,19 @@
    "dim": "mass",
    "base": "kg",
    "f2b": 1,
-   "robots": 64,
-   "numeric": 67
+   "robots": 67,
+   "numeric": 70
+  },
+  {
+   "key": "turning_radius",
+   "group": "Mobility & Performance",
+   "label": "Minimum turning radius",
+   "unit": "mm",
+   "dim": "length",
+   "base": "mm",
+   "f2b": 1,
+   "robots": 17,
+   "numeric": 9
   },
   {
    "key": "nominal_speed",
@@ -4920,17 +5063,6 @@
    "numeric": 13
   },
   {
-   "key": "turning_radius",
-   "group": "Mobility & Performance",
-   "label": "Minimum turning radius",
-   "unit": "mm",
-   "dim": "length",
-   "base": "mm",
-   "f2b": 1,
-   "robots": 15,
-   "numeric": 7
-  },
-  {
    "key": "positioning_accuracy",
    "group": "Mobility & Performance",
    "label": "Stop position repeatability (single AMR)",
@@ -4938,8 +5070,8 @@
    "dim": "length",
    "base": "mm",
    "f2b": 1,
-   "robots": 13,
-   "numeric": 1
+   "robots": 14,
+   "numeric": 2
   },
   {
    "key": "gaits",
@@ -5327,6 +5459,17 @@
    "numeric": 0
   },
   {
+   "key": "base_type",
+   "group": "Mobility & Performance",
+   "label": "Base type",
+   "unit": "",
+   "dim": "",
+   "base": "",
+   "f2b": 1,
+   "robots": 1,
+   "numeric": 0
+  },
+  {
    "key": "balance_tilt_range",
    "group": "Mobility & Performance",
    "label": "Controllable tilt angle",
@@ -5369,6 +5512,17 @@
    "f2b": 1,
    "robots": 1,
    "numeric": 1
+  },
+  {
+   "key": "locomotion_control",
+   "group": "Mobility & Performance",
+   "label": "Locomotion control",
+   "unit": "",
+   "dim": "",
+   "base": "",
+   "f2b": 1,
+   "robots": 1,
+   "numeric": 0
   },
   {
    "key": "max_jump_distance",
@@ -5587,24 +5741,24 @@
    "dim": "length",
    "base": "mm",
    "f2b": 1,
-   "robots": 5,
-   "numeric": 7
-  },
-  {
-   "key": "mounting_bolt_size",
-   "group": "Payload & Mounting",
-   "label": "Mechanical interface",
-   "unit": "",
-   "dim": "",
-   "base": "",
-   "f2b": 1,
-   "robots": 5,
-   "numeric": 0
+   "robots": 6,
+   "numeric": 8
   },
   {
    "key": "tray_dimensions",
    "group": "Payload & Mounting",
    "label": "Tray dimensions",
+   "unit": "",
+   "dim": "",
+   "base": "",
+   "f2b": 1,
+   "robots": 6,
+   "numeric": 0
+  },
+  {
+   "key": "mounting_bolt_size",
+   "group": "Payload & Mounting",
+   "label": "Mechanical interface",
    "unit": "",
    "dim": "",
    "base": "",
@@ -6372,6 +6526,17 @@
    "numeric": 0
   },
   {
+   "key": "tray_height",
+   "group": "Payload & Mounting",
+   "label": "Tray height",
+   "unit": "",
+   "dim": "",
+   "base": "",
+   "f2b": 1,
+   "robots": 1,
+   "numeric": 0
+  },
+  {
    "key": "user_power_connectors",
    "group": "Payload & Mounting",
    "label": "User power connectors",
@@ -6401,7 +6566,7 @@
    "dim": "time",
    "base": "h",
    "f2b": 0.0166666667,
-   "robots": 149,
+   "robots": 152,
    "numeric": 164
   },
   {
@@ -6434,7 +6599,18 @@
    "dim": "",
    "base": "",
    "f2b": 1,
-   "robots": 38,
+   "robots": 40,
+   "numeric": 0
+  },
+  {
+   "key": "battery_chemistry",
+   "group": "Power & Battery",
+   "label": "Battery type",
+   "unit": "",
+   "dim": "",
+   "base": "",
+   "f2b": 1,
+   "robots": 37,
    "numeric": 0
   },
   {
@@ -6447,17 +6623,6 @@
    "f2b": 1,
    "robots": 36,
    "numeric": 38
-  },
-  {
-   "key": "battery_chemistry",
-   "group": "Power & Battery",
-   "label": "Battery type",
-   "unit": "",
-   "dim": "",
-   "base": "",
-   "f2b": 1,
-   "robots": 36,
-   "numeric": 0
   },
   {
    "key": "range_per_charge",
@@ -6515,6 +6680,17 @@
    "numeric": 9
   },
   {
+   "key": "battery_count",
+   "group": "Power & Battery",
+   "label": "Number of batteries",
+   "unit": "",
+   "dim": "",
+   "base": "",
+   "f2b": 1,
+   "robots": 8,
+   "numeric": 5
+  },
+  {
    "key": "standby_time",
    "group": "Power & Battery",
    "label": "Standby time",
@@ -6535,17 +6711,6 @@
    "f2b": 1,
    "robots": 8,
    "numeric": 5
-  },
-  {
-   "key": "battery_count",
-   "group": "Power & Battery",
-   "label": "Number of batteries",
-   "unit": "",
-   "dim": "",
-   "base": "",
-   "f2b": 1,
-   "robots": 7,
-   "numeric": 4
   },
   {
    "key": "battery_certification",
@@ -6790,6 +6955,17 @@
    "numeric": 1
   },
   {
+   "key": "continuous_operation",
+   "group": "Power & Battery",
+   "label": "Continuous operation",
+   "unit": "",
+   "dim": "",
+   "base": "",
+   "f2b": 1,
+   "robots": 1,
+   "numeric": 0
+  },
+  {
    "key": "dual_battery",
    "group": "Power & Battery",
    "label": "Dual-battery mode",
@@ -6918,7 +7094,7 @@
    "dim": "",
    "base": "",
    "f2b": 1,
-   "robots": 26,
+   "robots": 27,
    "numeric": 0
   },
   {
@@ -6940,7 +7116,7 @@
    "dim": "",
    "base": "",
    "f2b": 1,
-   "robots": 23,
+   "robots": 25,
    "numeric": 0
   },
   {
@@ -7560,6 +7736,17 @@
    "numeric": 1
   },
   {
+   "key": "holding_brake",
+   "group": "Safety & Compliance",
+   "label": "Holding brake",
+   "unit": "",
+   "dim": "",
+   "base": "",
+   "f2b": 1,
+   "robots": 1,
+   "numeric": 0
+  },
+  {
    "key": "photobiological_safety_standard",
    "group": "Safety & Compliance",
    "label": "Indicator photobiological safety",
@@ -7897,7 +8084,7 @@
    "dim": "",
    "base": "",
    "f2b": 1,
-   "robots": 34,
+   "robots": 37,
    "numeric": 1
   },
   {
@@ -7908,7 +8095,7 @@
    "dim": "",
    "base": "",
    "f2b": 1,
-   "robots": 29,
+   "robots": 32,
    "numeric": 1
   },
   {
@@ -7941,7 +8128,7 @@
    "dim": "",
    "base": "",
    "f2b": 1,
-   "robots": 18,
+   "robots": 19,
    "numeric": 0
   },
   {
@@ -8000,6 +8187,17 @@
    "numeric": 0
   },
   {
+   "key": "depth_camera_type",
+   "group": "Sensors & Perception",
+   "label": "3D depth sensor",
+   "unit": "",
+   "dim": "",
+   "base": "",
+   "f2b": 1,
+   "robots": 8,
+   "numeric": 0
+  },
+  {
    "key": "depth_camera_model",
    "group": "Sensors & Perception",
    "label": "Depth camera",
@@ -8031,17 +8229,6 @@
    "f2b": 1,
    "robots": 8,
    "numeric": 2
-  },
-  {
-   "key": "depth_camera_type",
-   "group": "Sensors & Perception",
-   "label": "3D depth sensor",
-   "unit": "",
-   "dim": "",
-   "base": "",
-   "f2b": 1,
-   "robots": 7,
-   "numeric": 0
   },
   {
    "key": "depth_camera_fov",
@@ -8143,6 +8330,17 @@
    "numeric": 0
   },
   {
+   "key": "pallet_detection",
+   "group": "Sensors & Perception",
+   "label": "Pallet detection",
+   "unit": "",
+   "dim": "",
+   "base": "",
+   "f2b": 1,
+   "robots": 4,
+   "numeric": 0
+  },
+  {
    "key": "supplementary_lasers",
    "group": "Sensors & Perception",
    "label": "Supplementary laser scanners (optional)",
@@ -8190,6 +8388,17 @@
    "key": "foot_contact_sensors",
    "group": "Sensors & Perception",
    "label": "Foot-end force sensor",
+   "unit": "",
+   "dim": "",
+   "base": "",
+   "f2b": 1,
+   "robots": 3,
+   "numeric": 0
+  },
+  {
+   "key": "joint_sensors",
+   "group": "Sensors & Perception",
+   "label": "Joint sensors",
    "unit": "",
    "dim": "",
    "base": "",
@@ -8300,17 +8509,6 @@
    "key": "min_detectable_object",
    "group": "Sensors & Perception",
    "label": "Obstacle detection",
-   "unit": "",
-   "dim": "",
-   "base": "",
-   "f2b": 1,
-   "robots": 2,
-   "numeric": 0
-  },
-  {
-   "key": "pallet_detection",
-   "group": "Sensors & Perception",
-   "label": "Pallet detection",
    "unit": "",
    "dim": "",
    "base": "",
@@ -8583,6 +8781,17 @@
    "numeric": 0
   },
   {
+   "key": "force_torque_sensor",
+   "group": "Sensors & Perception",
+   "label": "Force/torque sensor",
+   "unit": "",
+   "dim": "",
+   "base": "",
+   "f2b": 1,
+   "robots": 1,
+   "numeric": 0
+  },
+  {
    "key": "gas_sensors",
    "group": "Sensors & Perception",
    "label": "Gas sensing (optional module)",
@@ -8625,17 +8834,6 @@
    "f2b": 1,
    "robots": 1,
    "numeric": 1
-  },
-  {
-   "key": "joint_sensors",
-   "group": "Sensors & Perception",
-   "label": "Joint sensors",
-   "unit": "",
-   "dim": "",
-   "base": "",
-   "f2b": 1,
-   "robots": 1,
-   "numeric": 0
   },
   {
    "key": "long_range_sensors",
@@ -8935,6 +9133,17 @@
    "numeric": 0
   },
   {
+   "key": "min_corridor_width",
+   "group": "Terrain & Navigation Limits",
+   "label": "Minimum passable corridor / aisle width",
+   "unit": "mm",
+   "dim": "length",
+   "base": "mm",
+   "f2b": 1,
+   "robots": 18,
+   "numeric": 19
+  },
+  {
    "key": "max_step_height",
    "group": "Terrain & Navigation Limits",
    "label": "Step",
@@ -8955,17 +9164,6 @@
    "f2b": 1,
    "robots": 18,
    "numeric": 0
-  },
-  {
-   "key": "min_corridor_width",
-   "group": "Terrain & Navigation Limits",
-   "label": "Minimum passable corridor / aisle width",
-   "unit": "mm",
-   "dim": "length",
-   "base": "mm",
-   "f2b": 1,
-   "robots": 17,
-   "numeric": 18
   },
   {
    "key": "suspension",
@@ -9535,6 +9733,17 @@
    "unit": "bar",
    "dim": "",
    "base": "bar",
+   "f2b": 1,
+   "robots": 1,
+   "numeric": 1
+  },
+  {
+   "key": "workspace_width",
+   "group": "Terrain & Navigation Limits",
+   "label": "Workspace width",
+   "unit": "mm",
+   "dim": "length",
+   "base": "mm",
    "f2b": 1,
    "robots": 1,
    "numeric": 1
