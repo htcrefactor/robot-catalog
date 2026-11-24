@@ -6,11 +6,17 @@ const RF_SORTS=[["name","robot"],["manufacturer","col_maker"],["release_year","c
 const RF_DESC=new Set(["release_year","payload_kg","max_speed_mps","runtime_h","completeness","battery_wh","dof"]);// these default to high→low
 const RF_FEAT=[["sdk","sdk_available","has_sdk"],["ros","ros_support","has_ros"],["onb","onboard_compute","has_onboard"],["photo","image_url","has_photo"]];
 const RF_SELECTS=[["status","status","all_status"],["country","country","all_countries"],["loco","locomotion","all_locos"]];
+// A record's variants are the other names and model codes for the same machine (a maker's alternate
+// name, a regulator's model code such as Bluepath's FCC code O1000), so a search has to reach them.
+// Only the identifying fields are indexed: a variant's note talks about neighbouring models too, and
+// indexing it would pull in records the query is not about.
+const RF_VARIANT_FIELDS=["name","name_ko","id"];
+const variantText=r=>(r.variants||[]).map(v=>RF_VARIANT_FIELDS.map(k=>v&&v[k]).filter(Boolean).join(" ")).filter(Boolean).join(" ");
 
 function makeFilters({el,robots,onChange,defaultSort="manufacturer",sortKeys=[]}){
  const validSort=new Set([...RF_SORTS.map(s=>s[0]),...sortKeys.map(s=>s[0])]);const sLabel=k=>{const a=sortKeys.find(s=>s[0]===k);return a?a[1]:k;};// sortKeys: [[field,label]] extra sorts (table columns)
  // precompute search text once (fast with hundreds of robots)
- robots.forEach(r=>{if(r._hay==null)r._hay=[r.name,r.manufacturer,r.id,r.category,tv(r.category),r.country,tv(r.country),r.locomotion,r.status,r.sdk_name,r.compute_detail,(r.sensors||[]).join(" "),r.summary,r.summary_ko].filter(Boolean).join(" ").toLowerCase();});
+ robots.forEach(r=>{if(r._hay==null)r._hay=[r.name,r.manufacturer,r.id,r.category,tv(r.category),r.country,tv(r.country),r.locomotion,r.status,r.sdk_name,r.compute_detail,(r.sensors||[]).join(" "),r.summary,r.summary_ko,variantText(r)].filter(Boolean).join(" ").toLowerCase();});
  const P=new URLSearchParams(location.search);
  const num=k=>{const v=P.get(k);return v===null||v===""||isNaN(+v)?"":+v;};
  const S={q:P.get("q")||"",cat:P.get("cat")||"",status:P.get("status")||"",country:P.get("country")||"",loco:P.get("loco")||"",
