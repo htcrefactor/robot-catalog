@@ -1,13 +1,13 @@
 # Robot Catalog — full catalog
 
-> Every robot in Robot Catalog (1004) with its core specs and sources, in one file. Values are as the maker publishes them; fields the maker does not publish are left out rather than estimated.
+> Every robot in Robot Catalog (1010) with its core specs and sources, in one file. Values are as the maker publishes them; fields the maker does not publish are left out rather than estimated.
 
 - Canonical site: https://htcrefactor.github.io/robot-catalog/
 - Index for agents: https://htcrefactor.github.io/robot-catalog/llms.txt
 - Per-robot Markdown with the full spec sheet and a source on every value: https://htcrefactor.github.io/robot-catalog/md/<id>.md
-- Generated from data/robots.json, last merged 2026-11-22. No scoring, no ranking.
+- Generated from data/robots.json, last merged 2026-11-24. No scoring, no ranking.
 
-## AMR (96)
+## AMR (98)
 
 ### 6 River Systems (Ocado Intelligent Automation) Chuck
 
@@ -144,6 +144,26 @@
 - Summary: Low-profile lifting AMR family (400–1,500 kg) that docks under carts with 15 cm clearance, 2 m/s, 8 h operation and fast auto-charging.
 - Specs: Length 775 mm; Width 540 mm; Height 260 mm; Weight 90 kg; Payload 400 kg; Max speed 2 m/s (7.2 km/h); Runtime 8 h; Status Commercial; API yes; Sensors SLAM navigation, QR docking
 - Sources: https://www.bearrobotics.ai/carti-low-profile
+
+### Bluepath Robotics Mouse/Tunnel High
+
+- id: `bluepath-mouse-tunnel-high`
+- Page: https://htcrefactor.github.io/robot-catalog/robot.html?id=bluepath-mouse-tunnel-high
+- Markdown: https://htcrefactor.github.io/robot-catalog/md/bluepath-mouse-tunnel-high.md
+- AMR · Wheeled · Commercial · Türkiye
+- Summary: Low tunnel AMR that engages carts from underneath and tows up to 1,000 kg with omnidirectional motion in narrow aisles, VDA 5050 compatible.
+- Specs: Length 2,100 mm; Width 500 mm; Height 230 mm; Weight 450 kg; Payload 1,000 kg; Max speed 1.5 m/s (5.4 km/h); Status Commercial
+- Sources: https://bluepathrobotics.com/product/mouse-tunnel-high-amr/
+
+### Bluepath Robotics Underdrive Omnidirectional
+
+- id: `bluepath-underdrive-omnidirectional`
+- Page: https://htcrefactor.github.io/robot-catalog/robot.html?id=bluepath-underdrive-omnidirectional
+- Markdown: https://htcrefactor.github.io/robot-catalog/md/bluepath-underdrive-omnidirectional.md
+- AMR · Wheeled · Commercial · Türkiye
+- Summary: Low-profile under-drive AMR that slides beneath pallets and racks for 1,000 kg moves with omnidirectional motion, VDA 5050 fleet integration and PL d safety.
+- Specs: Length 1,850 mm; Width 850 mm; Height 350 mm; Weight 400 kg; Payload 1,000 kg; Max speed 1.5 m/s (5.4 km/h); Status Commercial
+- Sources: https://bluepathrobotics.com/product/underdrive-omnidirectional/
 
 ### Brightpick Autopicker
 
@@ -1105,7 +1125,7 @@
 - Specs: Length 1,620 mm; Width 800 mm; Height 1,830 mm; Weight 520 kg; Payload 2,000 kg; Max speed 1.8 m/s (6.5 km/h); Released 2023; Status Commercial
 - Sources: https://www.visionnav.com/product/detail/VNST20-Pallet-Stacker-AGV, https://www.visionnav.com/news/detail/detail298.html
 
-## Humanoid (565)
+## Humanoid (568)
 
 ### 1X Technologies EVE
 
@@ -1280,6 +1300,16 @@
 - Summary: Wheeled (bimanual torso on a wheeled base) humanoid from AgiBot; b2b only, sold to businesses.
 - Specs: Height 1,795 mm; Weight 185 kg; Payload 5 kg; Max speed 1.5 m/s (5.4 km/h); Degrees of freedom 26; Runtime 4 h; Battery 1,652 Wh; IP rating IP42; Status Commercial
 - Sources: https://cdn.robotshop.com/media/A/Agb/RB-Agb-09/pdf/AgiBot-G2-Specification.pdf, https://cdn.robotshop.com/media/A/Agb/RB-Agb-09/pdf/AgiBot-G2-User-Manual.pdf
+
+### AgiBot G2 Max
+
+- id: `agibot-g2-max`
+- Page: https://htcrefactor.github.io/robot-catalog/robot.html?id=agibot-g2-max
+- Markdown: https://htcrefactor.github.io/robot-catalog/md/agibot-g2-max.md
+- Humanoid · Wheeled · Commercial · China · released 2026
+- Summary: Heavy-duty industrial wheeled dual-arm robot for palletizing, material transfer and line feeding, with 21 DoF, 40 kg dual-arm rated payload and a 0.1-2.5 m working height.
+- Specs: Payload 40 kg; Degrees of freedom 21; Released 2026; Status Commercial; Sensors 2D LiDAR, 3D LiDAR, Ultrasonic sensors, Chassis safety bumper, Physical emergency stop
+- Sources: https://agibot.com/news/newsroom/post-131, https://www.agibot.com/news/newsroom/post-85, https://www.agibot.com.cn/news/company/post-256
 
 ### AgiBot Lingxi X1
 
@@ -2538,6 +2568,16 @@
 - Summary: Compact 1.31 m bipedal humanoid for education, research and home companionship, sold in Edu and Ultra versions.
 - Specs: Length 210 mm; Width 460 mm; Height 1,310 mm; Weight 35 kg; Payload 3 kg; Max speed 1.8 m/s (6.5 km/h); Degrees of freedom 25; Runtime 2 h; Battery 500 Wh; Released 2026; Status Commercial; Sensors RGB camera, 6-axis IMU, Head touch sensor
 - Sources: https://robotics.ff.com/us/ff-master, https://robotics.ff.com/us/, https://shop.ff.com/products/master
+
+### Faraday Future FF Master Mini
+
+- id: `faraday-future-ff-master-mini`
+- Page: https://htcrefactor.github.io/robot-catalog/robot.html?id=faraday-future-ff-master-mini
+- Markdown: https://htcrefactor.github.io/robot-catalog/md/faraday-future-ff-master-mini.md
+- Humanoid · Legged · Commercial · United States · released 2026
+- Summary: 95 cm, 19.5 kg education-and-robot-soccer humanoid with 22 DoF, 48/117/200 TOPS compute tiers and an open ROS 2 SDK, from US$9,990.
+- Specs: Length 180 mm; Width 400 mm; Height 950 mm; Weight 19.5 kg; Max speed 1.12 m/s (4.0 km/h); Degrees of freedom 22; Runtime 0.5 h; Released 2026; Status Commercial; SDK yes; SDK name ROS 2 SDK; ROS yes; On-board compute yes; Compute Qualcomm QCS8550, 48 TOPS (Pro 117 TOPS, Ultra 200 TOPS); Sensors Stereo depth camera, 9-axis IMU, 3-microphone array, Speaker
+- Sources: https://robotics.ff.com/us/ff-master-mini/, https://shop.ff.com/products/ff-master-mini, https://app-us.ff.com/ff-v3/news/1623?lang=en-US
 
 ### Faraday Future Futurist (All-New Futurist)
 
@@ -4239,6 +4279,16 @@
 - Summary: Muks Robotics' wheeled enterprise humanoid with adjustable height for pick-and-place, inspection and material transport in factories and warehouses.
 - Specs: Length 450 mm; Width 450 mm; Height 1,625 mm; Weight 60 kg; Payload 5 kg; Max speed 1.5 m/s (5.4 km/h); Degrees of freedom 20; Runtime 4 h; Battery 1,152 Wh; Status Pilot; On-board compute yes; Compute NVIDIA Jetson AGX Orin (~275 TOPS) + Ryzen 7, 16GB RAM; Sensors Intel RealSense depth camera, 3x 5MP RGB camera, 4-mic array
 - Sources: https://muksrobotics.com/spaceo-pro
+
+### Multiway Robotics H01
+
+- id: `multiway-h01`
+- Page: https://htcrefactor.github.io/robot-catalog/robot.html?id=multiway-h01
+- Markdown: https://htcrefactor.github.io/robot-catalog/md/multiway-h01.md
+- Humanoid · Wheeled · Commercial · China · released 2026
+- Summary: Wheeled humanoid for tote handling and line-side supply: a 440 kg mobile base with two 7-DOF arms, 30 kg combined payload and a 1,000 mm lift stroke.
+- Specs: Length 720 mm; Width 720 mm; Height 1,708 mm; Weight 440 kg; Payload 30 kg; Max speed 2.7 m/s (9.7 km/h); Runtime 6 h; Battery 2,400 Wh; Released 2026; Status Commercial; Sensors LiDAR
+- Sources: https://www.mw-robot.com/rxjiqr/43, https://www.mw-robot.com/gongsixinwen/175, https://www.multiway.co.jp/gongsixinwen/56
 
 ### Namaste Humanoid-X
 
@@ -9292,7 +9342,7 @@
 - Specs: Width 625 mm; Payload 20 kg; Max speed 2.5 m/s (9.0 km/h); Status Commercial; Price KIRIA outdoor certification: max mass 106.5 kg incl. 20 kg payload, 9 km/h, 15 deg grade (width 625.3 mm)
 - Sources: https://robot.baemin.com, https://www.kiria.org/portal/cert/portalCertEstiStats.do, https://www.mk.co.kr/news/business/10547977
 
-## Mobile platform (53)
+## Mobile platform (54)
 
 ### AgileX Robotics BUNKER PRO 2.0
 
@@ -9483,6 +9533,16 @@
 - Summary: Explosion-proof (ATEX/IECEx Zone 1, UL) autonomous inspection robot for oil, gas, hydrogen and chemical sites.
 - Specs: Runtime 6 h; Status Commercial; Sensors LiDAR, Drive camera, PTZ camera, Thermal camera (optional), Acoustic camera (optional), Gas sensors CH4/H2S/H2/VOC (optional), Microphone
 - Sources: https://www.exrobotics.com/products
+
+### Faraday Future FF Faber (Faber U)
+
+- id: `faraday-future-ff-faber`
+- Page: https://htcrefactor.github.io/robot-catalog/robot.html?id=faraday-future-ff-faber
+- Markdown: https://htcrefactor.github.io/robot-catalog/md/faraday-future-ff-faber.md
+- Mobile platform · Wheeled · Commercial · United States · released 2026
+- Summary: Wheeled industrial mobile manipulator (Faber T/U/S series) with a height-adjustable body, dual 7-axis force-controlled arms and up to 2 m/s navigation, sold for industrial handling and machine tending.
+- Specs: Height 1,700 mm; Weight 185 kg; Payload 5 kg; Max speed 2 m/s (7.2 km/h); Degrees of freedom 26; Runtime 4 h; Battery 1,652 Wh; Released 2026; Status Commercial; API yes; SDK yes; SDK name Open SDK/API (Ubuntu 22.04 + ROS); ROS yes; On-board compute yes; Compute NVIDIA Jetson Thor T5000, 2,070 TOPS (family configurations 200 / 275 / 500-2,070 TOPS); Sensors Dual 3D LiDAR, RGB-D camera x2, Fisheye camera x3, Stereo camera x7, Joint force/torque sensing
+- Sources: https://robotics.ff.com/us/ff-faber/, https://www.sec.gov/Archives/edgar/data/1805521/000121390026070874/ea029552701ex99-1.htm
 
 ### Foxtech FOLO-300
 

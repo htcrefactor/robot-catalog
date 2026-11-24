@@ -3072,5 +3072,53 @@
    "https://botupyourlife.com/en/robots/irobot-create-3/"
   ],
   "verification": null
+ },
+ {
+  "id": "faraday-future-ff-faber",
+  "name": "FF Faber (Faber U)",
+  "manufacturer": "Faraday Future",
+  "country": "United States",
+  "category": "Mobile platform",
+  "locomotion": "Wheeled",
+  "release_year": 2026,
+  "status": "Commercial",
+  "length_mm": null,
+  "width_mm": null,
+  "height_mm": 1700,
+  "weight_kg": 185,
+  "payload_kg": 5,
+  "max_speed_mps": 2.0,
+  "min_speed_mps": null,
+  "wheel_diameter_mm": null,
+  "wheel_count": null,
+  "dof": 26,
+  "runtime_h": 4,
+  "battery_wh": 1652,
+  "ip_rating": null,
+  "api_support": true,
+  "sdk_available": true,
+  "sdk_name": "Open SDK/API (Ubuntu 22.04 + ROS)",
+  "onboard_compute": true,
+  "compute_detail": "NVIDIA Jetson Thor T5000, 2,070 TOPS (family configurations 200 / 275 / 500-2,070 TOPS)",
+  "compute_soc": "NVIDIA Jetson Thor T5000",
+  "compute_tops": 2070,
+  "ros_support": true,
+  "sensors": [
+   "Dual 3D LiDAR",
+   "RGB-D camera x2",
+   "Fisheye camera x3",
+   "Stereo camera x7",
+   "Joint force/torque sensing"
+  ],
+  "price_usd": null,
+  "price_note": null,
+  "official_url": "https://robotics.ff.com/us/ff-faber/",
+  "sources": [
+   "https://robotics.ff.com/us/ff-faber/",
+   "https://www.sec.gov/Archives/edgar/data/1805521/000121390026070874/ea029552701ex99-1.htm"
+  ],
+  "summary": "Wheeled industrial mobile manipulator (Faber T/U/S series) with a height-adjustable body, dual 7-axis force-controlled arms and up to 2 m/s navigation, sold for industrial handling and machine tending.",
+  "verification": "official",
+  "note": "Maker page and 2026-06-22 launch release: Faber is a mobile-manipulator series (Faber T, U, S); values here are the Thor-configured Faber U - height 1,225-1,700 mm (1,700 kept), 185 kg, 26 DoF, 5 kg per arm, >4 h on 1,652 Wh, up to 2 m/s navigation, dual 3D LiDAR plus RGB-D x2/fisheye x3/stereo x7, 500-2,070 TOPS. Other configurations on the same page: 1,300-1,600 mm, 88.5 kg, 35 DoF, 15 kg per arm, 720 Wh, >2 h, 275 TOPS with Gen-4 6-DOF hands; and 1,700 mm, 3.5-5 kg per arm, 1.5 m/s omnidirectional chassis, 200 TOPS. Filed under Mobile platform because it is a wheeled mobile manipulator, not a fixed arm."
  }
 ]
