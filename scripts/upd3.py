@@ -1,5 +1,5 @@
 import json
-exec(open('upd1.py').read().split("report = {}")[0])
+exec(open('scripts/upd1.py').read().split("report = {}")[0])
 b = json.load(open('/tmp/cs/botupyourlife.json'))
 def buyl(nameparts):
     for x in b:

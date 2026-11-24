@@ -1,5 +1,5 @@
 import json
-exec(open('upd1.py').read().split("report = {}")[0])
+exec(open('scripts/upd1.py').read().split("report = {}")[0])
 CY='https://www.careyounews.org/news/articleView.html?idxno=12155'
 n=add_specs('waseda-airec',[
  row('degrees_of_freedom',36,'axes','Dry-AIREC prototype; Waseda presentation (T. Miyake, 2026-10-21) as reported by CareYou News (2026-10-25)',CY),
