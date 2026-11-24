@@ -16,10 +16,14 @@ const cardNameSub=r=>LANG==="ko"?(r.name_ko?r.name:""):(r.name_ko||"");
 const cardMaker=r=>LANG==="ko"?(r.manufacturer_ko||r.manufacturer):r.manufacturer;
 let dev=new Set((new URLSearchParams(location.search).get("dev")||"").split(",").filter(k=>DEV_FILTERS.some(d=>d[0]===k)));
 const devPass=r=>DEV_FILTERS.every(([k,f])=>!dev.has(k)||f(r));
+// What the search box matches: names, makers and Korean sales channels as before, plus each record's
+// variants (alternate names and model codes such as Bluepath's O1000). A variant's note is left out
+// on purpose: it mentions other models, which would match records the query is not about.
+const searchHay=r=>[r.name,r.name_ko,r.manufacturer,r.manufacturer_ko,...(r.kr_distributors||[]).map(d=>d.name),...(r.variants||[]).flatMap(v=>[v.name,v.name_ko,v.id])].filter(Boolean).join(" ").toLowerCase();
 function renderDev(){const el=document.getElementById("devchips");if(!el)return;
 el.innerHTML=`<span class="small muted">${t("flt_dev")}</span>`+DEV_FILTERS.map(([k,f])=>`<button class="chip ${dev.has(k)?"on":""}" data-d="${k}" aria-pressed="${dev.has(k)}">${t("dev_"+k)} <span class="muted">${robots.filter(f).length}</span></button>`).join(" ");}
 function render(){const q=document.getElementById("q").value.toLowerCase();const sf=document.getElementById("sf").value,pc=document.getElementById("pc").value;
-const list=robots.filter(r=>(cat==="All"||r.category===cat)&&devPass(r)&&safetyMatch(r,sf)&&(!pc||payloadClassOf(r.payload_kg)===pc)&&(!krOnly||krInfo(r))&&(!chip||chipIds(r).includes(chip))&&(!q||[r.name,r.manufacturer,r.name_ko,r.manufacturer_ko,...(r.kr_distributors||[]).map(d=>d.name)].filter(Boolean).join(" ").toLowerCase().includes(q))).sort((a,b)=>a.manufacturer.localeCompare(b.manufacturer)||a.name.localeCompare(b.name));
+const list=robots.filter(r=>(cat==="All"||r.category===cat)&&devPass(r)&&safetyMatch(r,sf)&&(!pc||payloadClassOf(r.payload_kg)===pc)&&(!krOnly||krInfo(r))&&(!chip||chipIds(r).includes(chip))&&(!q||searchHay(r).includes(q))).sort((a,b)=>a.manufacturer.localeCompare(b.manufacturer)||a.name.localeCompare(b.name));
 document.getElementById("grid").innerHTML=list.map(r=>`<a class="card" href="robot.html?id=${encodeURIComponent(r.id)}">
 <div class="mk">${esc(cardMaker(r))}</div><div class="nm">${esc(cardName(r))}${cardNameSub(r)?` <span class="muted small">${esc(cardNameSub(r))}</span>`:""}</div>
 <div><span class="tag" style="background:${CAT_COLORS[r.category]}22;color:${CAT_COLORS[r.category]}">${esc(tv(r.category))}</span><span class="tag plain">${esc(tv(r.locomotion))}</span>${(r.kr_distributors||[]).length?`<span class="tag plain">🇰🇷 ${t("kr_market")}</span>`:""}</div>
