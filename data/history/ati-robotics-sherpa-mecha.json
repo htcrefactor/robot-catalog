@@ -1,0 +1,81 @@
+{
+ "id": "ati-robotics-sherpa-mecha",
+ "name": "Sherpa Mecha",
+ "manufacturer": "Ati Robotics",
+ "updated": "2026-11-24",
+ "events": [
+  {
+   "date": "2026-11-24",
+   "type": "updated",
+   "source": "https://www.atirobotics.ai/products/humanoid/sherpa-mecha/",
+   "changes": [
+    {
+     "field": "dof",
+     "from": null,
+     "to": 19
+    },
+    {
+     "field": "max_speed_mps",
+     "from": null,
+     "to": 1.5
+    },
+    {
+     "field": "note",
+     "from": null,
+     "to": "Issue #1 (2026-11-24): maker figures — 12 kg payload, 19 DoF across two arms, 900 mm reach, 580 mm wide, 1.5 m/s max, 3D LiDAR + camera, torso extends over 1,100-2,000 mm (a range, so height_mm stays empty), 55 Ah x 2 battery with 2 h charge. No weight, runtime or battery voltage is published, so weight_kg, runtime_h and battery_wh stay empty. Launched 2025-09; the maker is onboarding pilot partners and quotes price per configuration, hence status Pilot. Ati Motors now trades as Ati Robotics (formerly Ati Motors)."
+    },
+    {
+     "field": "official_url",
+     "from": null,
+     "to": "https://www.atirobotics.ai/products/humanoid/sherpa-mecha/"
+    },
+    {
+     "field": "payload_kg",
+     "from": null,
+     "to": 12
+    },
+    {
+     "field": "release_year",
+     "from": null,
+     "to": 2025
+    },
+    {
+     "field": "sensors",
+     "from": [],
+     "to": [
+      "3D LiDAR",
+      "Camera"
+     ]
+    },
+    {
+     "field": "sources",
+     "from": [],
+     "to": [
+      "https://www.atirobotics.ai/products/humanoid/sherpa-mecha/",
+      "https://www.atirobotics.ai/assets/downloads/sherpa-mecha.pdf"
+     ]
+    },
+    {
+     "field": "status",
+     "from": null,
+     "to": "Pilot"
+    },
+    {
+     "field": "summary",
+     "from": "",
+     "to": "Wheeled dual-arm industrial humanoid (mobile manipulator) for light-to-medium material handling and machine tending on Ati's Sherpa AMR base."
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "official"
+    },
+    {
+     "field": "width_mm",
+     "from": null,
+     "to": 580
+    }
+   ]
+  }
+ ]
+}

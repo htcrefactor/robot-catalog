@@ -5,8 +5,88 @@
   <link rel="self" type="application/atom+xml" href="https://htcrefactor.github.io/robot-catalog/feed.xml"/>
   <link rel="alternate" type="text/html" href="https://htcrefactor.github.io/robot-catalog/"/>
   <id>tag:htcrefactor.github.io,2026:robot-catalog/feed</id>
-  <updated>2026-11-22T00:00:00Z</updated>
+  <updated>2026-11-24T00:00:00Z</updated>
   <author><name>Robot Catalog</name><uri>https://github.com/htcrefactor/robot-catalog</uri></author>
+  <entry>
+    <id>tag:htcrefactor.github.io,2026:robot-catalog/blue-worm-mantis-standard/updated/2026-11-24</id>
+    <title>Blue Worm Robotics Mantis Standard: 18 fields changed</title>
+    <updated>2026-11-24T00:00:00Z</updated>
+    <link rel="alternate" type="text/html" href="https://htcrefactor.github.io/robot-catalog/robot.html?id=blue-worm-mantis-standard"/>
+    <category term="updated"/>
+    <summary type="html">&lt;ul&gt;&lt;li&gt;dof: &lt;em&gt;—&lt;/em&gt; → 22&lt;/li&gt;&lt;li&gt;height_mm: &lt;em&gt;—&lt;/em&gt; → 1400 mm&lt;/li&gt;&lt;li&gt;length_mm: &lt;em&gt;—&lt;/em&gt; → 633 mm&lt;/li&gt;&lt;li&gt;max_speed_mps: &lt;em&gt;—&lt;/em&gt; → 3.0 m/s&lt;/li&gt;&lt;li&gt;note: &lt;em&gt;—&lt;/em&gt; → Issue #1 (2026-11-24): 633 x 552 x 1,400 mm, 22 DoF, 7 kg per arm (663 mm span), 3 m/s forward, 550 mm waist lift at 200 mm/s, 3-DoF omnidirectional base, 3 h runtime, VR teleoperation (Quantum, &amp;lt;10 ms) and ROS 2 / MoveIt 2 / SDK support per configuration; the manual adds a 48 V 5 A charger. No weight or battery Ah is published, so weight_kg and battery_wh stay empty, and the sensor set varies by configuration, so sensors stay empty. Listed price is the maker's own 'from' figure, recorded as a dated observation.&lt;/li&gt;&lt;li&gt;official_url: &lt;em&gt;—&lt;/em&gt; → https://www.bluewormrobotics.com/products/mantis-standard&lt;/li&gt;&lt;li&gt;payload_kg: &lt;em&gt;—&lt;/em&gt; → 7 kg&lt;/li&gt;&lt;li&gt;price_observations: &lt;em&gt;—&lt;/em&gt; → {'date': '2026-11-24', 'amount': 9800, 'currency': 'CNY', 'kind': 'from', 'source': 'https://www.bluewormrobotics.com…&lt;/li&gt;&lt;li&gt;release_year: &lt;em&gt;—&lt;/em&gt; → 2026&lt;/li&gt;&lt;li&gt;ros_support: &lt;em&gt;—&lt;/em&gt; → YES&lt;/li&gt;&lt;li&gt;runtime_h: &lt;em&gt;—&lt;/em&gt; → 3.0 h&lt;/li&gt;&lt;li&gt;sdk_available: &lt;em&gt;—&lt;/em&gt; → YES&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;6 more field(s) changed.&lt;/p&gt;&lt;p&gt;&lt;a href="https://htcrefactor.github.io/robot-catalog/robot.html?id=blue-worm-mantis-standard"&gt;Blue Worm Robotics Mantis Standard — robot page&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Source: &lt;a href="https://www.bluewormrobotics.com/products/mantis-standard"&gt;https://www.bluewormrobotics.com/products/mantis-standard&lt;/a&gt;&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <id>tag:htcrefactor.github.io,2026:robot-catalog/beijing-huiwen-iben-a03/updated/2026-11-24</id>
+    <title>Beijing Huiwen Technology iBen-A03: 18 fields changed</title>
+    <updated>2026-11-24T00:00:00Z</updated>
+    <link rel="alternate" type="text/html" href="https://htcrefactor.github.io/robot-catalog/robot.html?id=beijing-huiwen-iben-a03"/>
+    <category term="updated"/>
+    <summary type="html">&lt;ul&gt;&lt;li&gt;compute_detail: &lt;em&gt;—&lt;/em&gt; → Rockchip RK3588 8-core CPU with 8 GB RAM + 64 GB storage (Android 12)&lt;/li&gt;&lt;li&gt;dof: &lt;em&gt;—&lt;/em&gt; → 10&lt;/li&gt;&lt;li&gt;height_mm: &lt;em&gt;—&lt;/em&gt; → 1550 mm&lt;/li&gt;&lt;li&gt;length_mm: &lt;em&gt;—&lt;/em&gt; → 540 mm&lt;/li&gt;&lt;li&gt;max_speed_mps: &lt;em&gt;—&lt;/em&gt; → 0.7 m/s&lt;/li&gt;&lt;li&gt;note: &lt;em&gt;—&lt;/em&gt; → Issue #1 (2026-11-24): 79 kg, 54 x 54 x 155 cm (W x D x H), 10 DoF (5 per arm, with touch sensing), 0.3-0.7 m/s adjustable (0.7 taken), 30 Ah LiFePO4 with 8 h use and 6 h charge, 30 m LiDAR + 3 ultrasonic sensors + 1 depth camera + 8 MP camera, 15-inch HD screen, RK3588 with 8 GB + 64 GB, Android 12, +/-5 cm positioning, Android SDK and JS interface for secondary development. Battery voltage is not stated, so battery_wh stays empty; no payload is published.&lt;/li&gt;&lt;li&gt;official_url: &lt;em&gt;—&lt;/em&gt; → https://en.ibenrobot.com/lists/238.html&lt;/li&gt;&lt;li&gt;onboard_compute: &lt;em&gt;—&lt;/em&gt; → YES&lt;/li&gt;&lt;li&gt;runtime_h: &lt;em&gt;—&lt;/em&gt; → 8.0 h&lt;/li&gt;&lt;li&gt;sdk_available: &lt;em&gt;—&lt;/em&gt; → YES&lt;/li&gt;&lt;li&gt;sdk_name: &lt;em&gt;—&lt;/em&gt; → iBen Android SDK&lt;/li&gt;&lt;li&gt;sensors:  → LiDAR; Ultrasonic sensor; Depth camera; Camera&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;6 more field(s) changed.&lt;/p&gt;&lt;p&gt;&lt;a href="https://htcrefactor.github.io/robot-catalog/robot.html?id=beijing-huiwen-iben-a03"&gt;Beijing Huiwen Technology iBen-A03 — robot page&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Source: &lt;a href="https://en.ibenrobot.com/lists/238.html"&gt;https://en.ibenrobot.com/lists/238.html&lt;/a&gt;&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <id>tag:htcrefactor.github.io,2026:robot-catalog/axl-imperial-mark-one/updated/2026-11-24</id>
+    <title>Axl Imperial MARK One: 10 fields changed</title>
+    <updated>2026-11-24T00:00:00Z</updated>
+    <link rel="alternate" type="text/html" href="https://htcrefactor.github.io/robot-catalog/robot.html?id=axl-imperial-mark-one"/>
+    <category term="updated"/>
+    <summary type="html">&lt;ul&gt;&lt;li&gt;max_speed_mps: &lt;em&gt;—&lt;/em&gt; → 1.5 m/s&lt;/li&gt;&lt;li&gt;note: &lt;em&gt;—&lt;/em&gt; → Issue #1 (2026-11-24): maker figures from markone.gr/hardware.html — 6 kg payload, 1.5 m/s, 8-10 h per charge (8 h recorded) with dual hot-swap batteries and a docking station for continuous work, LiDAR and proximity sensors in the base, high-resolution RGB and depth cameras in the head, dual 6-axis arms, 5-axis uplifter, five-finger hands with force and tactile sensing. No total DoF, weight or battery capacity is published, so those stay empty. Height is not on the site; the maker's own LinkedIn post (2026-11-16) says it adjusts from 1.7 m to 2.5 m, a range with no single figure, so height_mm stays empty. Price is quote-only. Publicly presented April 2026.&lt;/li&gt;&lt;li&gt;official_url: &lt;em&gt;—&lt;/em&gt; → https://markone.gr/&lt;/li&gt;&lt;li&gt;payload_kg: &lt;em&gt;—&lt;/em&gt; → 6 kg&lt;/li&gt;&lt;li&gt;release_year: &lt;em&gt;—&lt;/em&gt; → 2026&lt;/li&gt;&lt;li&gt;runtime_h: &lt;em&gt;—&lt;/em&gt; → 8.0 h&lt;/li&gt;&lt;li&gt;sensors:  → LiDAR; Proximity sensor; RGB camera; Depth camera&lt;/li&gt;&lt;li&gt;sources:  → https://markone.gr/; https://markone.gr/hardware.html; https://www.linkedin.com/posts/axlimperial_markone-humanoidrob…&lt;/li&gt;&lt;li&gt;summary: &lt;em&gt;—&lt;/em&gt; → Greek mobile industrial humanoid on an AMR base with a 5-axis uplifter and two 6-axis arms for pick-and-place, machine tending, palletizing and welding.&lt;/li&gt;&lt;li&gt;verification: &lt;em&gt;—&lt;/em&gt; → official&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://htcrefactor.github.io/robot-catalog/robot.html?id=axl-imperial-mark-one"&gt;Axl Imperial MARK One — robot page&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Source: &lt;a href="https://markone.gr/"&gt;https://markone.gr/&lt;/a&gt;&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <id>tag:htcrefactor.github.io,2026:robot-catalog/avic-fengxing-001/updated/2026-11-24</id>
+    <title>AVIC Fengxing-001: 9 fields changed</title>
+    <updated>2026-11-24T00:00:00Z</updated>
+    <link rel="alternate" type="text/html" href="https://htcrefactor.github.io/robot-catalog/robot.html?id=avic-fengxing-001"/>
+    <category term="updated"/>
+    <summary type="html">&lt;ul&gt;&lt;li&gt;compute_detail: &lt;em&gt;—&lt;/em&gt; → Self-developed high-performance compute platform (AVIC FACRI)&lt;/li&gt;&lt;li&gt;max_speed_mps: &lt;em&gt;—&lt;/em&gt; → 0.83 m/s&lt;/li&gt;&lt;li&gt;note: &lt;em&gt;—&lt;/em&gt; → Issue #1 (2026-11-24): figures from AVIC FACRI's own release (source line 航空工业自控所, published via 澎湃号, 2026-10-25) — walks a 10 degree slope, walks carrying 20 kg, jumps 30 cm, max about 3 km/h (= 0.83 m/s, converted), handles objects up to 15 kg (payload). Development self-funded since 2024; first shown at the 2026 World Robot Conference. No maker product page exists, so official_url is null. Height (about 1.8 m) and weight (80 kg) appear only in Global Times reporting attributed to AVIC staff, not in a maker document, so height_mm and weight_kg stay empty. No DoF, battery or runtime figure published.&lt;/li&gt;&lt;li&gt;onboard_compute: &lt;em&gt;—&lt;/em&gt; → YES&lt;/li&gt;&lt;li&gt;payload_kg: &lt;em&gt;—&lt;/em&gt; → 15 kg&lt;/li&gt;&lt;li&gt;release_year: &lt;em&gt;—&lt;/em&gt; → 2026&lt;/li&gt;&lt;li&gt;sources:  → https://www.thepaper.cn/newsDetail_forward_34327587&lt;/li&gt;&lt;li&gt;summary: &lt;em&gt;—&lt;/em&gt; → Aviation-focused special-purpose humanoid from AVIC's flight-control institute with an electro-hydraulic hybrid drive, shown at WRC 2026 for aircraft manufacturing, ground support and loading work; prototype.&lt;/li&gt;&lt;li&gt;verification: &lt;em&gt;—&lt;/em&gt; → official&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://htcrefactor.github.io/robot-catalog/robot.html?id=avic-fengxing-001"&gt;AVIC Fengxing-001 — robot page&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Source: &lt;a href="https://www.thepaper.cn/newsDetail_forward_34327587"&gt;https://www.thepaper.cn/newsDetail_forward_34327587&lt;/a&gt;&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <id>tag:htcrefactor.github.io,2026:robot-catalog/atomrobot-skybot-ar-h1/removed/2026-11-24</id>
+    <title>Removed from the catalog: atomrobot-skybot-ar-h1</title>
+    <updated>2026-11-24T00:00:00Z</updated>
+    <link rel="alternate" type="text/html" href="https://htcrefactor.github.io/robot-catalog/robot.html?id=atomrobot-skybot-ar-h1"/>
+    <category term="removed"/>
+    <summary type="html">&lt;p&gt;&lt;a href="https://htcrefactor.github.io/robot-catalog/robot.html?id=atomrobot-skybot-ar-h1"&gt;atomrobot-skybot-ar-h1 — robot page&lt;/a&gt;&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <id>tag:htcrefactor.github.io,2026:robot-catalog/atomrobot-tianbing-1/updated/2026-11-24</id>
+    <title>ATOMROBOT Tianbing-1: 5 fields changed</title>
+    <updated>2026-11-24T00:00:00Z</updated>
+    <link rel="alternate" type="text/html" href="https://htcrefactor.github.io/robot-catalog/robot.html?id=atomrobot-tianbing-1"/>
+    <category term="updated"/>
+    <summary type="html">&lt;ul&gt;&lt;li&gt;note: Model code AR-H1 / ATOM01 ('天兵一号'). Wheeled omnidirectional base with Stewart parallel waist. First 2025 version was 140 cm/70 kg/37 DoF; Dec 2025 update 27 DoF; current product page 26 DoF — values below from current page. Maker: Tianjin Atom Robotics (ATOMROBOT). spec: height 165–175 cm (max used); payload 12.5 kg per arm; api_support from 'open full secondary-development interface'; status Commercial per official 'external sales' statement (May 2026) → Model code AR-H1 / ATOM01 ('天兵一号'). Wheeled omnidirectional base with Stewart parallel waist. First 2025 version was 140 cm/70 kg/37 DoF; Dec 2025 update 27 DoF; current product page 26 DoF — values below from current page. Maker: Tianjin Atom Robotics (ATOMROBOT). spec: height 165–175 cm (max used); payload 12.5 kg per arm; api_support from 'open full secondary-development interface'; status Commercial per official 'external sales' statement (May 2026) | Issue #1 (2026-11-24): ATOMBOT's English AR-H1 page (same robot, 'SkyBot AR-H1') gives 26 DoF (dual 7-DoF arms, 2-DoF neck, 6-DoF Stewart waist, 4-DoF chassis), 12.5 kg per arm, 686 mm reach, 170 TOPS and 4 h runtime (runtime added here). It also states a 180 kg body weight while the Chinese product list gives 200 kg for the same model; the 200 kg value is kept and the conflict recorded. The duplicate record atomrobot-skybot-ar-h1 was folded into this record's variants (count -1).&lt;/li&gt;&lt;li&gt;official_url: https://www.atomrobot.com/product/163 → https://www.atomrobot.ai/products/embodied-intelligent-robots/skybot-ar-h1/&lt;/li&gt;&lt;li&gt;runtime_h: &lt;em&gt;—&lt;/em&gt; → 4.0 h&lt;/li&gt;&lt;li&gt;sources: https://www.atomrobot.com/product/163; https://www.atomrobot.com/detail/16/1900; https://www.atomrobot.com/detail/16/… → https://www.atomrobot.com/product/163; https://www.atomrobot.com/detail/16/1900; https://www.atomrobot.com/detail/16/…&lt;/li&gt;&lt;li&gt;variants: &lt;em&gt;—&lt;/em&gt; → {'id': 'atomrobot-skybot-ar-h1', 'name': 'SkyBot AR-H1', 'note': 'English product name of the same robot as Tianbing-…&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://htcrefactor.github.io/robot-catalog/robot.html?id=atomrobot-tianbing-1"&gt;ATOMROBOT Tianbing-1 — robot page&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Source: &lt;a href="https://www.atomrobot.ai/products/embodied-intelligent-robots/skybot-ar-h1/"&gt;https://www.atomrobot.ai/products/embodied-intelligent-robots/skybot-ar-h1/&lt;/a&gt;&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <id>tag:htcrefactor.github.io,2026:robot-catalog/atomrobot-skyrise-ar-h2/updated/2026-11-24</id>
+    <title>ATOMROBOT SkyRise AR-H2: 17 fields changed</title>
+    <updated>2026-11-24T00:00:00Z</updated>
+    <link rel="alternate" type="text/html" href="https://htcrefactor.github.io/robot-catalog/robot.html?id=atomrobot-skyrise-ar-h2"/>
+    <category term="updated"/>
+    <summary type="html">&lt;ul&gt;&lt;li&gt;api_support: &lt;em&gt;—&lt;/em&gt; → YES&lt;/li&gt;&lt;li&gt;compute_detail: &lt;em&gt;—&lt;/em&gt; → 12-core Arm Cortex-A78AE CPU + 2048-core NVIDIA CUDA GPU&lt;/li&gt;&lt;li&gt;dof: &lt;em&gt;—&lt;/em&gt; → 25&lt;/li&gt;&lt;li&gt;height_mm: &lt;em&gt;—&lt;/em&gt; → 1851 mm&lt;/li&gt;&lt;li&gt;length_mm: &lt;em&gt;—&lt;/em&gt; → 735 mm&lt;/li&gt;&lt;li&gt;max_speed_mps: &lt;em&gt;—&lt;/em&gt; → 1.5 m/s&lt;/li&gt;&lt;li&gt;note: &lt;em&gt;—&lt;/em&gt; → Issue #1 (2026-11-24): 25 DoF (dual 7-DoF force-controlled arms, lifting torso, 4-DoF omnidirectional chassis), 800 mm lift stroke, 686 mm arm reach, 12 kg rated per arm, 1.5 m/s, 220 kg, 735 x 644 x 1,851 mm (zh product list gives height 185.1 cm), 48 V battery with 4-6 h runtime (4 h recorded), 12-core Arm Cortex-A78AE + 2,048-core NVIDIA CUDA GPU, 2 depth cameras + 2 multi-line + 2 single-line LiDAR + 8 ultrasonic radars, 485/24 V end-effector interface. Battery Ah and AI TOPS are not stated, so battery_wh and compute_tops stay empty; the maker does not state availability, so status stays empty.&lt;/li&gt;&lt;li&gt;official_url: &lt;em&gt;—&lt;/em&gt; → https://www.atomrobot.ai/products/embodied-intelligent-robots/skyrise-ar-h2/&lt;/li&gt;&lt;li&gt;onboard_compute: &lt;em&gt;—&lt;/em&gt; → YES&lt;/li&gt;&lt;li&gt;payload_kg: &lt;em&gt;—&lt;/em&gt; → 12 kg&lt;/li&gt;&lt;li&gt;runtime_h: &lt;em&gt;—&lt;/em&gt; → 4.0 h&lt;/li&gt;&lt;li&gt;sensors:  → Depth camera; Multi-line LiDAR; Single-line LiDAR; Ultrasonic radar&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;5 more field(s) changed.&lt;/p&gt;&lt;p&gt;&lt;a href="https://htcrefactor.github.io/robot-catalog/robot.html?id=atomrobot-skyrise-ar-h2"&gt;ATOMROBOT SkyRise AR-H2 — robot page&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Source: &lt;a href="https://www.atomrobot.ai/products/embodied-intelligent-robots/skyrise-ar-h2/"&gt;https://www.atomrobot.ai/products/embodied-intelligent-robots/skyrise-ar-h2/&lt;/a&gt;&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <id>tag:htcrefactor.github.io,2026:robot-catalog/ati-robotics-sherpa-mecha/updated/2026-11-24</id>
+    <title>Ati Robotics Sherpa Mecha: 12 fields changed</title>
+    <updated>2026-11-24T00:00:00Z</updated>
+    <link rel="alternate" type="text/html" href="https://htcrefactor.github.io/robot-catalog/robot.html?id=ati-robotics-sherpa-mecha"/>
+    <category term="updated"/>
+    <summary type="html">&lt;ul&gt;&lt;li&gt;dof: &lt;em&gt;—&lt;/em&gt; → 19&lt;/li&gt;&lt;li&gt;max_speed_mps: &lt;em&gt;—&lt;/em&gt; → 1.5 m/s&lt;/li&gt;&lt;li&gt;note: &lt;em&gt;—&lt;/em&gt; → Issue #1 (2026-11-24): maker figures — 12 kg payload, 19 DoF across two arms, 900 mm reach, 580 mm wide, 1.5 m/s max, 3D LiDAR + camera, torso extends over 1,100-2,000 mm (a range, so height_mm stays empty), 55 Ah x 2 battery with 2 h charge. No weight, runtime or battery voltage is published, so weight_kg, runtime_h and battery_wh stay empty. Launched 2025-09; the maker is onboarding pilot partners and quotes price per configuration, hence status Pilot. Ati Motors now trades as Ati Robotics (formerly Ati Motors).&lt;/li&gt;&lt;li&gt;official_url: &lt;em&gt;—&lt;/em&gt; → https://www.atirobotics.ai/products/humanoid/sherpa-mecha/&lt;/li&gt;&lt;li&gt;payload_kg: &lt;em&gt;—&lt;/em&gt; → 12 kg&lt;/li&gt;&lt;li&gt;release_year: &lt;em&gt;—&lt;/em&gt; → 2025&lt;/li&gt;&lt;li&gt;sensors:  → 3D LiDAR; Camera&lt;/li&gt;&lt;li&gt;sources:  → https://www.atirobotics.ai/products/humanoid/sherpa-mecha/; https://www.atirobotics.ai/assets/downloads/sherpa-mecha.pdf&lt;/li&gt;&lt;li&gt;status: &lt;em&gt;—&lt;/em&gt; → Pilot&lt;/li&gt;&lt;li&gt;summary: &lt;em&gt;—&lt;/em&gt; → Wheeled dual-arm industrial humanoid (mobile manipulator) for light-to-medium material handling and machine tending on Ati's Sherpa AMR base.&lt;/li&gt;&lt;li&gt;verification: &lt;em&gt;—&lt;/em&gt; → official&lt;/li&gt;&lt;li&gt;width_mm: &lt;em&gt;—&lt;/em&gt; → 580 mm&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://htcrefactor.github.io/robot-catalog/robot.html?id=ati-robotics-sherpa-mecha"&gt;Ati Robotics Sherpa Mecha — robot page&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Source: &lt;a href="https://www.atirobotics.ai/products/humanoid/sherpa-mecha/"&gt;https://www.atirobotics.ai/products/humanoid/sherpa-mecha/&lt;/a&gt;&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <id>tag:htcrefactor.github.io,2026:robot-catalog/asimov-robotics-sayabot/updated/2026-11-24</id>
+    <title>Asimov Robotics SAYABOT: 7 fields changed</title>
+    <updated>2026-11-24T00:00:00Z</updated>
+    <link rel="alternate" type="text/html" href="https://htcrefactor.github.io/robot-catalog/robot.html?id=asimov-robotics-sayabot"/>
+    <category term="updated"/>
+    <summary type="html">&lt;ul&gt;&lt;li&gt;note: &lt;em&gt;—&lt;/em&gt; → Issue #1 (2026-11-24): Asimov's Sayabot page gives features only — wheels on flat floors, arms with gestures, built-in robot camera, face recognition, obstacle detection, teleoperation, tablet display — and no height, weight, speed, DoF, battery or payload figure. Optional fingerprint/thermal-camera items are options, so only the standard camera is listed. Reseller/aggregator figures (e.g. IndiaMart 40-50 kg, 160 cm) were not used. Status taken from the maker's product page, which offers the robot with customization.&lt;/li&gt;&lt;li&gt;official_url: &lt;em&gt;—&lt;/em&gt; → https://asimovrobotics.com/products.php?id=33&lt;/li&gt;&lt;li&gt;sensors:  → Camera&lt;/li&gt;&lt;li&gt;sources:  → https://asimovrobotics.com/products.php?id=33&lt;/li&gt;&lt;li&gt;status: &lt;em&gt;—&lt;/em&gt; → Commercial&lt;/li&gt;&lt;li&gt;summary: &lt;em&gt;—&lt;/em&gt; → Wheeled Indian multi-purpose humanoid-style service robot for reception, guidance, banking, healthcare and security; the maker lists features but no mechanical specs.&lt;/li&gt;&lt;li&gt;verification: &lt;em&gt;—&lt;/em&gt; → official&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://htcrefactor.github.io/robot-catalog/robot.html?id=asimov-robotics-sayabot"&gt;Asimov Robotics SAYABOT — robot page&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Source: &lt;a href="https://asimovrobotics.com/products.php?id=33"&gt;https://asimovrobotics.com/products.php?id=33&lt;/a&gt;&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <id>tag:htcrefactor.github.io,2026:robot-catalog/arkshel-mx01/updated/2026-11-24</id>
+    <title>Arkshel Robotics MX01: 6 fields changed</title>
+    <updated>2026-11-24T00:00:00Z</updated>
+    <link rel="alternate" type="text/html" href="https://htcrefactor.github.io/robot-catalog/robot.html?id=arkshel-mx01"/>
+    <category term="updated"/>
+    <summary type="html">&lt;ul&gt;&lt;li&gt;note: &lt;em&gt;—&lt;/em&gt; → Issue #1 (2026-11-24): Arkshel Robotics (Shenzhen, founded 2026-07) unveiled MX01 test footage on 2026-08-12 — humanoid base form that transforms into quadruped and, with a docking flight module, into an aerial configuration. The maker calls it a prototype and says final appearance and structure may change; no height, weight, payload, speed, battery or DoF figure is published on arkshel.com, so those fields stay empty. Locomotion kept as the base humanoid form; the machine is multi-form.&lt;/li&gt;&lt;li&gt;official_url: &lt;em&gt;—&lt;/em&gt; → https://arkshel.com/en/&lt;/li&gt;&lt;li&gt;release_year: &lt;em&gt;—&lt;/em&gt; → 2026&lt;/li&gt;&lt;li&gt;sources:  → https://arkshel.com/en/; https://arkshel.com/en/sys-nd/94.html&lt;/li&gt;&lt;li&gt;summary: &lt;em&gt;—&lt;/em&gt; → Flying transformable humanoid prototype that switches between humanoid, quadruped and aerial configurations (a wheeled mode is in development); the maker publishes no numeric specs.&lt;/li&gt;&lt;li&gt;verification: &lt;em&gt;—&lt;/em&gt; → official&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://htcrefactor.github.io/robot-catalog/robot.html?id=arkshel-mx01"&gt;Arkshel Robotics MX01 — robot page&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Source: &lt;a href="https://arkshel.com/en/"&gt;https://arkshel.com/en/&lt;/a&gt;&lt;/p&gt;</summary>
+  </entry>
   <entry>
     <id>tag:htcrefactor.github.io,2026:robot-catalog/zebra-fetch-freight1500/updated/2026-11-22</id>
     <title>Zebra Technologies (Fetch Robotics) Freight1500: 2 fields changed</title>
@@ -726,85 +806,5 @@
     <link rel="alternate" type="text/html" href="https://htcrefactor.github.io/robot-catalog/robot.html?id=walden-robotics-walden"/>
     <category term="added"/>
     <summary type="html">&lt;p&gt;&lt;a href="https://htcrefactor.github.io/robot-catalog/robot.html?id=walden-robotics-walden"&gt;Walden Robotics Walden — robot page&lt;/a&gt;&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <id>tag:htcrefactor.github.io,2026:robot-catalog/vstone-tichno/added/2026-11-14</id>
-    <title>New robot: Vstone Vstone Tichno</title>
-    <updated>2026-11-14T00:00:00Z</updated>
-    <link rel="alternate" type="text/html" href="https://htcrefactor.github.io/robot-catalog/robot.html?id=vstone-tichno"/>
-    <category term="added"/>
-    <summary type="html">&lt;p&gt;&lt;a href="https://htcrefactor.github.io/robot-catalog/robot.html?id=vstone-tichno"&gt;Vstone Vstone Tichno — robot page&lt;/a&gt;&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <id>tag:htcrefactor.github.io,2026:robot-catalog/vlai-robotics-k1/added/2026-11-14</id>
-    <title>New robot: VLAI Robotics K1</title>
-    <updated>2026-11-14T00:00:00Z</updated>
-    <link rel="alternate" type="text/html" href="https://htcrefactor.github.io/robot-catalog/robot.html?id=vlai-robotics-k1"/>
-    <category term="added"/>
-    <summary type="html">&lt;p&gt;&lt;a href="https://htcrefactor.github.io/robot-catalog/robot.html?id=vlai-robotics-k1"&gt;VLAI Robotics K1 — robot page&lt;/a&gt;&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <id>tag:htcrefactor.github.io,2026:robot-catalog/vizum-xiaowei-agv/added/2026-11-14</id>
-    <title>New robot: Vizum Xiaowei (AGV version)</title>
-    <updated>2026-11-14T00:00:00Z</updated>
-    <link rel="alternate" type="text/html" href="https://htcrefactor.github.io/robot-catalog/robot.html?id=vizum-xiaowei-agv"/>
-    <category term="added"/>
-    <summary type="html">&lt;p&gt;&lt;a href="https://htcrefactor.github.io/robot-catalog/robot.html?id=vizum-xiaowei-agv"&gt;Vizum Xiaowei (AGV version) — robot page&lt;/a&gt;&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <id>tag:htcrefactor.github.io,2026:robot-catalog/vizum-humanoid-picking-robot/added/2026-11-14</id>
-    <title>New robot: Vizum Humanoid picking robot</title>
-    <updated>2026-11-14T00:00:00Z</updated>
-    <link rel="alternate" type="text/html" href="https://htcrefactor.github.io/robot-catalog/robot.html?id=vizum-humanoid-picking-robot"/>
-    <category term="added"/>
-    <summary type="html">&lt;p&gt;&lt;a href="https://htcrefactor.github.io/robot-catalog/robot.html?id=vizum-humanoid-picking-robot"&gt;Vizum Humanoid picking robot — robot page&lt;/a&gt;&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <id>tag:htcrefactor.github.io,2026:robot-catalog/visionnav-vnst-20/added/2026-11-14</id>
-    <title>New robot: VisionNav Robotics VNST 20</title>
-    <updated>2026-11-14T00:00:00Z</updated>
-    <link rel="alternate" type="text/html" href="https://htcrefactor.github.io/robot-catalog/robot.html?id=visionnav-vnst-20"/>
-    <category term="added"/>
-    <summary type="html">&lt;p&gt;&lt;a href="https://htcrefactor.github.io/robot-catalog/robot.html?id=visionnav-vnst-20"&gt;VisionNav Robotics VNST 20 — robot page&lt;/a&gt;&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <id>tag:htcrefactor.github.io,2026:robot-catalog/visionnav-vnr-20/added/2026-11-14</id>
-    <title>New robot: VisionNav Robotics VNR 20</title>
-    <updated>2026-11-14T00:00:00Z</updated>
-    <link rel="alternate" type="text/html" href="https://htcrefactor.github.io/robot-catalog/robot.html?id=visionnav-vnr-20"/>
-    <category term="added"/>
-    <summary type="html">&lt;p&gt;&lt;a href="https://htcrefactor.github.io/robot-catalog/robot.html?id=visionnav-vnr-20"&gt;VisionNav Robotics VNR 20 — robot page&lt;/a&gt;&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <id>tag:htcrefactor.github.io,2026:robot-catalog/visionnav-vnp-15/added/2026-11-14</id>
-    <title>New robot: VisionNav Robotics VNP 15</title>
-    <updated>2026-11-14T00:00:00Z</updated>
-    <link rel="alternate" type="text/html" href="https://htcrefactor.github.io/robot-catalog/robot.html?id=visionnav-vnp-15"/>
-    <category term="added"/>
-    <summary type="html">&lt;p&gt;&lt;a href="https://htcrefactor.github.io/robot-catalog/robot.html?id=visionnav-vnp-15"&gt;VisionNav Robotics VNP 15 — robot page&lt;/a&gt;&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <id>tag:htcrefactor.github.io,2026:robot-catalog/visionnav-vnk15/added/2026-11-14</id>
-    <title>New robot: VisionNav Robotics VNK 15</title>
-    <updated>2026-11-14T00:00:00Z</updated>
-    <link rel="alternate" type="text/html" href="https://htcrefactor.github.io/robot-catalog/robot.html?id=visionnav-vnk15"/>
-    <category term="added"/>
-    <summary type="html">&lt;p&gt;&lt;a href="https://htcrefactor.github.io/robot-catalog/robot.html?id=visionnav-vnk15"&gt;VisionNav Robotics VNK 15 — robot page&lt;/a&gt;&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <id>tag:htcrefactor.github.io,2026:robot-catalog/visionnav-vne40-66/added/2026-11-14</id>
-    <title>New robot: VisionNav Robotics VNE40-66</title>
-    <updated>2026-11-14T00:00:00Z</updated>
-    <link rel="alternate" type="text/html" href="https://htcrefactor.github.io/robot-catalog/robot.html?id=visionnav-vne40-66"/>
-    <category term="added"/>
-    <summary type="html">&lt;p&gt;&lt;a href="https://htcrefactor.github.io/robot-catalog/robot.html?id=visionnav-vne40-66"&gt;VisionNav Robotics VNE40-66 — robot page&lt;/a&gt;&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <id>tag:htcrefactor.github.io,2026:robot-catalog/vinrobotics-vr-m3/added/2026-11-14</id>
-    <title>New robot: VinRobotics (Vingroup) VR-M3</title>
-    <updated>2026-11-14T00:00:00Z</updated>
-    <link rel="alternate" type="text/html" href="https://htcrefactor.github.io/robot-catalog/robot.html?id=vinrobotics-vr-m3"/>
-    <category term="added"/>
-    <summary type="html">&lt;p&gt;&lt;a href="https://htcrefactor.github.io/robot-catalog/robot.html?id=vinrobotics-vr-m3"&gt;VinRobotics (Vingroup) VR-M3 — robot page&lt;/a&gt;&lt;/p&gt;</summary>
   </entry>
 </feed>

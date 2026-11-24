@@ -180,4 +180,4 @@ Checked 2026-11-22 against ottomotors.com/1500 and its data sheet: 1,900 kg payl
 
 ---
 
-*Robot Catalog — generated from data/robots.json (last merged 2026-11-22). Source repository: https://github.com/htcrefactor/robot-catalog*
+*Robot Catalog — generated from data/robots.json (last merged 2026-11-24). Source repository: https://github.com/htcrefactor/robot-catalog*

@@ -1,0 +1,113 @@
+{
+ "id": "beijing-huiwen-iben-a03",
+ "name": "iBen-A03",
+ "manufacturer": "Beijing Huiwen Technology",
+ "updated": "2026-11-24",
+ "events": [
+  {
+   "date": "2026-11-24",
+   "type": "updated",
+   "source": "https://en.ibenrobot.com/lists/238.html",
+   "changes": [
+    {
+     "field": "compute_detail",
+     "from": null,
+     "to": "Rockchip RK3588 8-core CPU with 8 GB RAM + 64 GB storage (Android 12)"
+    },
+    {
+     "field": "dof",
+     "from": null,
+     "to": 10
+    },
+    {
+     "field": "height_mm",
+     "from": null,
+     "to": 1550
+    },
+    {
+     "field": "length_mm",
+     "from": null,
+     "to": 540
+    },
+    {
+     "field": "max_speed_mps",
+     "from": null,
+     "to": 0.7
+    },
+    {
+     "field": "note",
+     "from": null,
+     "to": "Issue #1 (2026-11-24): 79 kg, 54 x 54 x 155 cm (W x D x H), 10 DoF (5 per arm, with touch sensing), 0.3-0.7 m/s adjustable (0.7 taken), 30 Ah LiFePO4 with 8 h use and 6 h charge, 30 m LiDAR + 3 ultrasonic sensors + 1 depth camera + 8 MP camera, 15-inch HD screen, RK3588 with 8 GB + 64 GB, Android 12, +/-5 cm positioning, Android SDK and JS interface for secondary development. Battery voltage is not stated, so battery_wh stays empty; no payload is published."
+    },
+    {
+     "field": "official_url",
+     "from": null,
+     "to": "https://en.ibenrobot.com/lists/238.html"
+    },
+    {
+     "field": "onboard_compute",
+     "from": null,
+     "to": true
+    },
+    {
+     "field": "runtime_h",
+     "from": null,
+     "to": 8.0
+    },
+    {
+     "field": "sdk_available",
+     "from": null,
+     "to": true
+    },
+    {
+     "field": "sdk_name",
+     "from": null,
+     "to": "iBen Android SDK"
+    },
+    {
+     "field": "sensors",
+     "from": [],
+     "to": [
+      "LiDAR",
+      "Ultrasonic sensor",
+      "Depth camera",
+      "Camera"
+     ]
+    },
+    {
+     "field": "sources",
+     "from": [],
+     "to": [
+      "https://en.ibenrobot.com/lists/238.html",
+      "https://www.ibenrobot.com/lists/238.html"
+     ]
+    },
+    {
+     "field": "status",
+     "from": null,
+     "to": "Commercial"
+    },
+    {
+     "field": "summary",
+     "from": "",
+     "to": "Wheeled humanoid-style service robot (智灵动) for greeting, guidance and business consultation in banks, malls and hospitals, with 5-DoF arms and a 15-inch screen."
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "official"
+    },
+    {
+     "field": "weight_kg",
+     "from": null,
+     "to": 79
+    },
+    {
+     "field": "width_mm",
+     "from": null,
+     "to": 540
+    }
+   ]
+  }
+ ]
+}

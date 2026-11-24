@@ -1,0 +1,109 @@
+{
+ "id": "atomrobot-skyrise-ar-h2",
+ "name": "SkyRise AR-H2",
+ "manufacturer": "ATOMROBOT",
+ "updated": "2026-11-24",
+ "events": [
+  {
+   "date": "2026-11-24",
+   "type": "updated",
+   "source": "https://www.atomrobot.ai/products/embodied-intelligent-robots/skyrise-ar-h2/",
+   "changes": [
+    {
+     "field": "api_support",
+     "from": null,
+     "to": true
+    },
+    {
+     "field": "compute_detail",
+     "from": null,
+     "to": "12-core Arm Cortex-A78AE CPU + 2048-core NVIDIA CUDA GPU"
+    },
+    {
+     "field": "dof",
+     "from": null,
+     "to": 25
+    },
+    {
+     "field": "height_mm",
+     "from": null,
+     "to": 1851
+    },
+    {
+     "field": "length_mm",
+     "from": null,
+     "to": 735
+    },
+    {
+     "field": "max_speed_mps",
+     "from": null,
+     "to": 1.5
+    },
+    {
+     "field": "note",
+     "from": null,
+     "to": "Issue #1 (2026-11-24): 25 DoF (dual 7-DoF force-controlled arms, lifting torso, 4-DoF omnidirectional chassis), 800 mm lift stroke, 686 mm arm reach, 12 kg rated per arm, 1.5 m/s, 220 kg, 735 x 644 x 1,851 mm (zh product list gives height 185.1 cm), 48 V battery with 4-6 h runtime (4 h recorded), 12-core Arm Cortex-A78AE + 2,048-core NVIDIA CUDA GPU, 2 depth cameras + 2 multi-line + 2 single-line LiDAR + 8 ultrasonic radars, 485/24 V end-effector interface. Battery Ah and AI TOPS are not stated, so battery_wh and compute_tops stay empty; the maker does not state availability, so status stays empty."
+    },
+    {
+     "field": "official_url",
+     "from": null,
+     "to": "https://www.atomrobot.ai/products/embodied-intelligent-robots/skyrise-ar-h2/"
+    },
+    {
+     "field": "onboard_compute",
+     "from": null,
+     "to": true
+    },
+    {
+     "field": "payload_kg",
+     "from": null,
+     "to": 12
+    },
+    {
+     "field": "runtime_h",
+     "from": null,
+     "to": 4.0
+    },
+    {
+     "field": "sensors",
+     "from": [],
+     "to": [
+      "Depth camera",
+      "Multi-line LiDAR",
+      "Single-line LiDAR",
+      "Ultrasonic radar"
+     ]
+    },
+    {
+     "field": "sources",
+     "from": [],
+     "to": [
+      "https://www.atomrobot.ai/products/embodied-intelligent-robots/skyrise-ar-h2/",
+      "https://www.atomrobot.com/robot/163/1881",
+      "https://www.atomrobot.com/robot/163"
+     ]
+    },
+    {
+     "field": "summary",
+     "from": "",
+     "to": "Wheeled lifting dual-arm humanoid with an 800 mm lift mast that covers low-table assembly to high-rack handling in manufacturing, logistics and service work."
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "official"
+    },
+    {
+     "field": "weight_kg",
+     "from": null,
+     "to": 220
+    },
+    {
+     "field": "width_mm",
+     "from": null,
+     "to": 644
+    }
+   ]
+  }
+ ]
+}

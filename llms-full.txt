@@ -1,11 +1,11 @@
 # Robot Catalog — full catalog
 
-> Every robot in Robot Catalog (1004) with its core specs and sources, in one file. Values are as the maker publishes them; fields the maker does not publish are left out rather than estimated.
+> Every robot in Robot Catalog (1003) with its core specs and sources, in one file. Values are as the maker publishes them; fields the maker does not publish are left out rather than estimated.
 
 - Canonical site: https://htcrefactor.github.io/robot-catalog/
 - Index for agents: https://htcrefactor.github.io/robot-catalog/llms.txt
 - Per-robot Markdown with the full spec sheet and a source on every value: https://htcrefactor.github.io/robot-catalog/md/<id>.md
-- Generated from data/robots.json, last merged 2026-11-22. No scoring, no ranking.
+- Generated from data/robots.json, last merged 2026-11-24. No scoring, no ranking.
 
 ## AMR (96)
 
@@ -1105,7 +1105,7 @@
 - Specs: Length 1,620 mm; Width 800 mm; Height 1,830 mm; Weight 520 kg; Payload 2,000 kg; Max speed 1.8 m/s (6.5 km/h); Released 2023; Status Commercial
 - Sources: https://www.visionnav.com/product/detail/VNST20-Pallet-Stacker-AGV, https://www.visionnav.com/news/detail/detail298.html
 
-## Humanoid (565)
+## Humanoid (564)
 
 ### 1X Technologies EVE
 
@@ -1633,9 +1633,10 @@
 - id: `arkshel-mx01`
 - Page: https://htcrefactor.github.io/robot-catalog/robot.html?id=arkshel-mx01
 - Markdown: https://htcrefactor.github.io/robot-catalog/md/arkshel-mx01.md
-- Humanoid · Legged · Research · China
-- Specs: Status Research
-- Sources: none recorded
+- Humanoid · Legged · Research · China · released 2026
+- Summary: Flying transformable humanoid prototype that switches between humanoid, quadruped and aerial configurations (a wheeled mode is in development); the maker publishes no numeric specs.
+- Specs: Released 2026; Status Research
+- Sources: https://arkshel.com/en/, https://arkshel.com/en/sys-nd/94.html
 
 ### ASC Arjun
 
@@ -1652,8 +1653,10 @@
 - id: `asimov-robotics-sayabot`
 - Page: https://htcrefactor.github.io/robot-catalog/robot.html?id=asimov-robotics-sayabot
 - Markdown: https://htcrefactor.github.io/robot-catalog/md/asimov-robotics-sayabot.md
-- Humanoid · Wheeled · India
-- Sources: none recorded
+- Humanoid · Wheeled · Commercial · India
+- Summary: Wheeled Indian multi-purpose humanoid-style service robot for reception, guidance, banking, healthcare and security; the maker lists features but no mechanical specs.
+- Specs: Status Commercial; Sensors Camera
+- Sources: https://asimovrobotics.com/products.php?id=33
 
 ### Astribot S1
 
@@ -1680,16 +1683,10 @@
 - id: `ati-robotics-sherpa-mecha`
 - Page: https://htcrefactor.github.io/robot-catalog/robot.html?id=ati-robotics-sherpa-mecha
 - Markdown: https://htcrefactor.github.io/robot-catalog/md/ati-robotics-sherpa-mecha.md
-- Humanoid · Wheeled · India
-- Sources: none recorded
-
-### ATOMROBOT SkyBot AR-H1
-
-- id: `atomrobot-skybot-ar-h1`
-- Page: https://htcrefactor.github.io/robot-catalog/robot.html?id=atomrobot-skybot-ar-h1
-- Markdown: https://htcrefactor.github.io/robot-catalog/md/atomrobot-skybot-ar-h1.md
-- Humanoid · Wheeled · China
-- Sources: none recorded
+- Humanoid · Wheeled · Pilot · India · released 2025
+- Summary: Wheeled dual-arm industrial humanoid (mobile manipulator) for light-to-medium material handling and machine tending on Ati's Sherpa AMR base.
+- Specs: Width 580 mm; Payload 12 kg; Max speed 1.5 m/s (5.4 km/h); Degrees of freedom 19; Released 2025; Status Pilot; Sensors 3D LiDAR, Camera
+- Sources: https://www.atirobotics.ai/products/humanoid/sherpa-mecha/, https://www.atirobotics.ai/assets/downloads/sherpa-mecha.pdf
 
 ### ATOMROBOT SkyRise AR-H2
 
@@ -1697,7 +1694,9 @@
 - Page: https://htcrefactor.github.io/robot-catalog/robot.html?id=atomrobot-skyrise-ar-h2
 - Markdown: https://htcrefactor.github.io/robot-catalog/md/atomrobot-skyrise-ar-h2.md
 - Humanoid · Wheeled · China
-- Sources: none recorded
+- Summary: Wheeled lifting dual-arm humanoid with an 800 mm lift mast that covers low-table assembly to high-rack handling in manufacturing, logistics and service work.
+- Specs: Length 735 mm; Width 644 mm; Height 1,851 mm; Weight 220 kg; Payload 12 kg; Max speed 1.5 m/s (5.4 km/h); Degrees of freedom 25; Runtime 4 h; API yes; On-board compute yes; Compute 12-core Arm Cortex-A78AE CPU + 2048-core NVIDIA CUDA GPU; Sensors Depth camera, Multi-line LiDAR, Single-line LiDAR, Ultrasonic radar
+- Sources: https://www.atomrobot.ai/products/embodied-intelligent-robots/skyrise-ar-h2/, https://www.atomrobot.com/robot/163/1881, https://www.atomrobot.com/robot/163
 
 ### ATOMROBOT Tianbing-1
 
@@ -1706,25 +1705,28 @@
 - Markdown: https://htcrefactor.github.io/robot-catalog/md/atomrobot-tianbing-1.md
 - Humanoid · Wheeled · Commercial · China · released 2025
 - Summary: Wheeled industrial humanoid with a Stewart parallel waist (200 kg waist load) and 7-axis force-controlled arms for heavy handling and precision assembly.
-- Specs: Height 1,750 mm; Weight 200 kg; Payload 12.5 kg; Max speed 1.25 m/s (4.5 km/h); Degrees of freedom 26; Released 2025; Status Commercial; API yes; On-board compute yes; Compute 170 TOPS module: 12-core Arm Cortex-A78AE + 2048-core NVIDIA CUDA GPU; Sensors Depth camera, Multi-line LiDAR, IMU
-- Sources: https://www.atomrobot.com/product/163, https://www.atomrobot.com/detail/16/1900, https://www.atomrobot.com/detail/16/1771, https://www.atomrobot.com/detail/16/1430, https://www.atomrobot.ai/products/embodied-intelligent-robots
+- Specs: Height 1,750 mm; Weight 200 kg; Payload 12.5 kg; Max speed 1.25 m/s (4.5 km/h); Degrees of freedom 26; Runtime 4 h; Released 2025; Status Commercial; API yes; On-board compute yes; Compute 170 TOPS module: 12-core Arm Cortex-A78AE + 2048-core NVIDIA CUDA GPU; Sensors Depth camera, Multi-line LiDAR, IMU
+- Sources: https://www.atomrobot.ai/products/embodied-intelligent-robots/skybot-ar-h1/, https://www.atomrobot.com/product/163, https://www.atomrobot.com/detail/16/1900, https://www.atomrobot.com/detail/16/1771, https://www.atomrobot.com/detail/16/1430, https://www.atomrobot.ai/products/embodied-intelligent-robots
 
 ### AVIC Fengxing-001
 
 - id: `avic-fengxing-001`
 - Page: https://htcrefactor.github.io/robot-catalog/robot.html?id=avic-fengxing-001
 - Markdown: https://htcrefactor.github.io/robot-catalog/md/avic-fengxing-001.md
-- Humanoid · Legged · Research · China
-- Specs: Status Research
-- Sources: none recorded
+- Humanoid · Legged · Research · China · released 2026
+- Summary: Aviation-focused special-purpose humanoid from AVIC's flight-control institute with an electro-hydraulic hybrid drive, shown at WRC 2026 for aircraft manufacturing, ground support and loading work; prototype.
+- Specs: Payload 15 kg; Max speed 0.83 m/s (3.0 km/h); Released 2026; Status Research; On-board compute yes; Compute Self-developed high-performance compute platform (AVIC FACRI)
+- Sources: https://www.thepaper.cn/newsDetail_forward_34327587
 
 ### Axl Imperial MARK One
 
 - id: `axl-imperial-mark-one`
 - Page: https://htcrefactor.github.io/robot-catalog/robot.html?id=axl-imperial-mark-one
 - Markdown: https://htcrefactor.github.io/robot-catalog/md/axl-imperial-mark-one.md
-- Humanoid · Wheeled · Greece
-- Sources: none recorded
+- Humanoid · Wheeled · Greece · released 2026
+- Summary: Greek mobile industrial humanoid on an AMR base with a 5-axis uplifter and two 6-axis arms for pick-and-place, machine tending, palletizing and welding.
+- Specs: Payload 6 kg; Max speed 1.5 m/s (5.4 km/h); Runtime 8 h; Released 2026; Sensors LiDAR, Proximity sensor, RGB camera, Depth camera
+- Sources: https://markone.gr/, https://markone.gr/hardware.html, https://www.linkedin.com/posts/axlimperial_markone-humanoidrobotics-physicalai-activity-7528039676402905088-8rAN
 
 ### Bear Robotics Kinisi
 
@@ -1741,8 +1743,10 @@
 - id: `beijing-huiwen-iben-a03`
 - Page: https://htcrefactor.github.io/robot-catalog/robot.html?id=beijing-huiwen-iben-a03
 - Markdown: https://htcrefactor.github.io/robot-catalog/md/beijing-huiwen-iben-a03.md
-- Humanoid · Wheeled · China
-- Sources: none recorded
+- Humanoid · Wheeled · Commercial · China
+- Summary: Wheeled humanoid-style service robot (智灵动) for greeting, guidance and business consultation in banks, malls and hospitals, with 5-DoF arms and a 15-inch screen.
+- Specs: Length 540 mm; Width 540 mm; Height 1,550 mm; Weight 79 kg; Max speed 0.7 m/s (2.5 km/h); Degrees of freedom 10; Runtime 8 h; Status Commercial; SDK yes; SDK name iBen Android SDK; On-board compute yes; Compute Rockchip RK3588 8-core CPU with 8 GB RAM + 64 GB storage (Android 12); Sensors LiDAR, Ultrasonic sensor, Depth camera, Camera
+- Sources: https://en.ibenrobot.com/lists/238.html, https://www.ibenrobot.com/lists/238.html
 
 ### Beijing Humanoid Robot Innovation Center (X-Humanoid) Tian Yi 2.0
 
@@ -1829,8 +1833,10 @@
 - id: `blue-worm-mantis-standard`
 - Page: https://htcrefactor.github.io/robot-catalog/robot.html?id=blue-worm-mantis-standard
 - Markdown: https://htcrefactor.github.io/robot-catalog/md/blue-worm-mantis-standard.md
-- Humanoid · Wheeled · China
-- Sources: none recorded
+- Humanoid · Wheeled · Commercial · China · released 2026
+- Summary: Wheeled modular humanoid (arm, base, waist and head modules on quick-mount interfaces) built for upper-body work, sold from CNY 9,800 for research and light industrial use.
+- Specs: Length 633 mm; Width 552 mm; Height 1,400 mm; Payload 7 kg; Max speed 3 m/s (10.8 km/h); Degrees of freedom 22; Runtime 3 h; Released 2026; Status Commercial; SDK yes; SDK name Mantis SDK; ROS yes
+- Sources: https://www.bluewormrobotics.com/products/mantis-standard, https://www.bluewormrobotics.com/documents/mantis-standard/mantis-standard-user-manual.pdf
 
 ### Booster Robotics K1
 
