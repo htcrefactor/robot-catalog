@@ -55,4 +55,4 @@ Embodied AI's own site lists the humanoid as AIR01 ('The versatile humanoid for 
 
 ---
 
-*Robot Catalog — generated from data/robots.json (last merged 2026-11-22). Source repository: https://github.com/htcrefactor/robot-catalog*
+*Robot Catalog — generated from data/robots.json (last merged 2026-11-25). Source repository: https://github.com/htcrefactor/robot-catalog*

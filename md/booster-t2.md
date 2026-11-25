@@ -136,4 +136,4 @@ Maker product page (booster.tech/booster-t2, Specifications tab): standing heigh
 
 ---
 
-*Robot Catalog — generated from data/robots.json (last merged 2026-11-22). Source repository: https://github.com/htcrefactor/robot-catalog*
+*Robot Catalog — generated from data/robots.json (last merged 2026-11-25). Source repository: https://github.com/htcrefactor/robot-catalog*

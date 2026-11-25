@@ -90,4 +90,4 @@ Maker homepage (checked 2026-11-17): 23 kg payload, 5 h battery life, 0.8 m/s wa
 
 ---
 
-*Robot Catalog — generated from data/robots.json (last merged 2026-11-22). Source repository: https://github.com/htcrefactor/robot-catalog*
+*Robot Catalog — generated from data/robots.json (last merged 2026-11-25). Source repository: https://github.com/htcrefactor/robot-catalog*

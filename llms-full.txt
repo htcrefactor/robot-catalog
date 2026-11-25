@@ -5,7 +5,7 @@
 - Canonical site: https://htcrefactor.github.io/robot-catalog/
 - Index for agents: https://htcrefactor.github.io/robot-catalog/llms.txt
 - Per-robot Markdown with the full spec sheet and a source on every value: https://htcrefactor.github.io/robot-catalog/md/<id>.md
-- Generated from data/robots.json, last merged 2026-11-22. No scoring, no ranking.
+- Generated from data/robots.json, last merged 2026-11-25. No scoring, no ranking.
 
 ## AMR (96)
 
@@ -4366,9 +4366,9 @@
 - Page: https://htcrefactor.github.io/robot-catalog/robot.html?id=noetix-bumi
 - Markdown: https://htcrefactor.github.io/robot-catalog/md/noetix-bumi.md
 - Humanoid · Legged · Commercial · China
-- Summary: Noetix's consumer companion humanoid Bumi: 98 cm, about 17 kg, 21 DoF and 2-3 h of use, sold with graphical programming and dance routines.
-- Specs: Height 980 mm; Weight 17 kg; Max speed 0.5 m/s (1.8 km/h); Degrees of freedom 21; Runtime 3 h; Battery 244.8 Wh; Status Commercial; Price Noetix describes Bumi as a 万元-class (about CNY 10,000) consumer humanoid; no USD list price
-- Sources: https://www.noetixrobotics.com, https://webuildhumanoids.com/compare/noetix-bumi-vs-noetix-n2
+- Summary: Noetix's small consumer humanoid, sold in China as Bumi and internationally as Boomy: 98 cm, about 17 kg, 21 DoF, 2-3 h of use, graphical coding plus an open SDK on the international edition.
+- Specs: Height 980 mm; Weight 17 kg; Max speed 0.5 m/s (1.8 km/h); Degrees of freedom 21; Runtime 3 h; Battery 244.8 Wh; Status Commercial; API yes; SDK yes; SDK name Noetix Boomy open SDK; ROS yes; On-board compute yes; Compute NVIDIA Jetson Orin NX (Boomy EDU); Sensors RGB camera, Intel RealSense D435i depth camera (Boomy EDU), Microphone array, Speaker
+- Sources: http://www.noetixrobotics.com/en/detail/Bumi/, https://webuildhumanoids.com/compare/noetix-bumi-vs-noetix-n2, https://www.noetixrobotics.com, https://boomy.noetixrobotics.com/, https://www.newswire.com/news/noetix-robotics-introduces-noetix-boomy-a-programmable-humanoid-robot-22891909, https://www.kickstarter.com/projects/noetixrobotics/noetix-boomy-your-first-programmable-humanoid-robot
 
 ### Noetix Robotics Dora
 
@@ -5449,7 +5449,7 @@
 - Humanoid · Wheeled · Prototype · South Korea · released 2026
 - Summary: TR-WORKS is T-Robotics' process-logistics humanoid for semiconductor and display lines: an AMR base with a 20-DOF body, 3 kg payload and vacuum-robot precision motion.
 - Specs: Height 1,800 mm; Weight 180 kg; Payload 3 kg; Degrees of freedom 20; Released 2026; Status Prototype
-- Sources: http://www.t-robotics.co.kr/product_rehabilitation.do, https://www.irobotnews.com/news/articleView.html?idxno=45174, http://www.t-robotics.co.kr/
+- Sources: http://www.t-robotics.co.kr/product_rehabilitation.do, https://www.irobotnews.com/news/articleView.html?idxno=45174, http://www.t-robotics.co.kr/, https://core.asiae.co.kr/article/2026112508534481820
 
 ### Tangible Robots Eggie
 

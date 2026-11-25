@@ -96,4 +96,4 @@ OpenLoong's open-source hardware repository (V2.5, checked 2026-11-17): 1,850 mm
 
 ---
 
-*Robot Catalog — generated from data/robots.json (last merged 2026-11-22). Source repository: https://github.com/htcrefactor/robot-catalog*
+*Robot Catalog — generated from data/robots.json (last merged 2026-11-25). Source repository: https://github.com/htcrefactor/robot-catalog*
