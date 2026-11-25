@@ -95,3 +95,11 @@ table.mega.fields tr.grp th{position:static;background:var(--th);color:var(--mut
 table.mega.fields code{font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:12px}
 #links{padding-left:18px;line-height:1.9}
 .card .safety{font-weight:600;color:var(--ink)}.card .safety::before{content:"🛡 ";opacity:.7}
+
+/* requirement minimums (issue #72): one row above the list on index.html and table.html */
+.reqbar{gap:8px 14px;margin-top:-4px}
+.reqbar label.small{display:inline-flex;align-items:center;gap:4px;white-space:nowrap}
+.reqbar input[type=number]{padding:7px 10px;border:1px solid var(--line);border-radius:8px;font:inherit;font-size:13px;background:var(--input);color:var(--ink);width:92px;text-align:right;font-variant-numeric:tabular-nums}
+.reqbar select{min-width:0;padding:7px 10px;font-size:13px}
+.reqbar [hidden]{display:none!important}
+.reqbar .btn{padding:6px 11px}
