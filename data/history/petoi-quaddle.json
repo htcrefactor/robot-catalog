@@ -1,0 +1,98 @@
+{
+ "id": "petoi-quaddle",
+ "name": "Quaddle",
+ "manufacturer": "Petoi",
+ "updated": "2026-11-25",
+ "events": [
+  {
+   "date": "2026-11-25",
+   "type": "updated",
+   "source": "https://www.petoi.com/pages/quaddle-educational-robot-kit",
+   "changes": [
+    {
+     "field": "dof",
+     "from": null,
+     "to": 4
+    },
+    {
+     "field": "note",
+     "from": null,
+     "to": "Maker pages checked 2026-11-25: four feedback servos, one motor per leg driving shoulder and knee, backward-compatible OpenCat firmware (Petoi says it will open-source the Quaddle code before delivery), two ESP32-S3 boards (motion, and AI on Buddy/Scout) with a Raspberry Pi Zero socket, gyroscope and PIR on every model, gesture/light/IR distance sensors and an optional AI vision module on Scout, blocks/MicroPython/Python/C++/ROS programming. Dimensions, weight, battery capacity and speed are not published on the maker's pages and are left empty. Status Pre-order: the Kickstarter campaign is funded and the maker sells late pledges at US$154/189/229 against the MSRPs listed here."
+    },
+    {
+     "field": "official_url",
+     "from": null,
+     "to": "https://www.petoi.com/pages/quaddle-educational-robot-kit"
+    },
+    {
+     "field": "price_observations",
+     "from": null,
+     "to": [
+      {
+       "date": "2026-11-25",
+       "amount": 179,
+       "currency": "USD",
+       "kind": "list",
+       "source": "https://www.petoi.com/pages/quaddle-educational-robot-kit",
+       "note": "Quaddle Builder Plus MSRP; late-pledge price US$154"
+      },
+      {
+       "date": "2026-11-25",
+       "amount": 219,
+       "currency": "USD",
+       "kind": "list",
+       "source": "https://www.petoi.com/pages/quaddle-educational-robot-kit",
+       "note": "Quaddle Buddy MSRP (adds open-domain AI conversation); late-pledge price US$189"
+      },
+      {
+       "date": "2026-11-25",
+       "amount": 269,
+       "currency": "USD",
+       "kind": "list",
+       "source": "https://www.petoi.com/pages/quaddle-educational-robot-kit",
+       "note": "Quaddle Scout MSRP (adds gesture, light and IR distance sensors); late-pledge price US$229"
+      }
+     ]
+    },
+    {
+     "field": "ros_support",
+     "from": null,
+     "to": true
+    },
+    {
+     "field": "sensors",
+     "from": [],
+     "to": [
+      "Gyroscope",
+      "PIR sensor",
+      "Gesture, light and IR distance sensors (Scout)",
+      "Optional AI vision module"
+     ]
+    },
+    {
+     "field": "sources",
+     "from": [],
+     "to": [
+      "https://www.petoi.com/pages/quaddle-educational-robot-kit",
+      "https://guide.petoi.com/product/quaddle-under-construction"
+     ]
+    },
+    {
+     "field": "status",
+     "from": null,
+     "to": "Pre-order"
+    },
+    {
+     "field": "summary",
+     "from": "",
+     "to": "Petoi's 4-servo desk quadruped kit: an open-source, omnidirectional walker assembled without soldering and programmed with blocks, MicroPython, Python, C++ or ROS, sold as Builder Plus, Buddy and Scout."
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "official"
+    }
+   ]
+  }
+ ]
+}

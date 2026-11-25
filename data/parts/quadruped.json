@@ -8398,29 +8398,47 @@
   "min_speed_mps": null,
   "wheel_diameter_mm": null,
   "wheel_count": null,
-  "dof": null,
+  "dof": 12,
   "runtime_h": null,
   "battery_wh": null,
   "ip_rating": null,
   "api_support": null,
-  "sdk_available": null,
-  "sdk_name": null,
+  "sdk_available": true,
+  "sdk_name": "Yahboom DOGZILLA ROS 2 / Python repository",
   "onboard_compute": null,
   "compute_detail": null,
-  "ros_support": null,
-  "sensors": [],
+  "ros_support": true,
+  "sensors": [
+   "HD camera",
+   "MS200 LiDAR (S2 only)",
+   "Voice interaction module (S2 only)",
+   "IMU",
+   "Servo angle feedback"
+  ],
   "price_usd": null,
   "price_note": null,
-  "official_url": null,
-  "sources": [],
-  "summary": "",
+  "official_url": "https://github.com/YahboomTechnology/DOGZILLA",
+  "sources": [
+   "https://github.com/YahboomTechnology/DOGZILLA",
+   "https://www.yahboom.store/blogs/news/build-robotics-project-with-raspberrypi-robotdog"
+  ],
+  "summary": "Yahboom's 12-DoF desktop robot dog for Raspberry Pi 5: an aluminium-bodied quadruped with ROS 2 Humble and Python support, adding a LiDAR and a voice module on the S2 configuration.",
   "image_url": null,
   "image_source": null,
   "videos": [],
   "seen_on": [
    "https://botupyourlife.com/en/robots/yahboom-dogzilla-s2/"
   ],
-  "verification": null
+  "verification": "official",
+  "ros2_support": true,
+  "ros2_url": "https://github.com/YahboomTechnology/DOGZILLA",
+  "open_source_repos": [
+   {
+    "name": "YahboomTechnology/DOGZILLA",
+    "url": "https://github.com/YahboomTechnology/DOGZILLA"
+   }
+  ],
+  "note": "Maker repository and Yahboom's own store checked 2026-11-25: 12 DoF driven by 12 programmable metal bus servos (4.5 kg.cm), aluminium alloy frame, Raspberry Pi 5 as controller on raspios-bookworm + Docker + ROS 2 Humble, Python programming, IMU and servo-angle feedback, RVIZ and Gazebo simulation; the HD camera, MS200 LiDAR and voice module are listed for the S2 version only. Dimensions, weight, battery and runtime are not stated on the maker's current pages — a reseller table quotes 972 g, 246 x 145 x 195 mm and a 7.4 V 2500 mAh pack, which is not a maker figure and is not used here. battery capacity and runtime left empty."
  },
  {
   "id": "petoi-quaddle",
@@ -8430,7 +8448,7 @@
   "category": "Quadruped",
   "locomotion": "Legged",
   "release_year": null,
-  "status": null,
+  "status": "Pre-order",
   "length_mm": null,
   "width_mm": null,
   "height_mm": null,
@@ -8440,7 +8458,7 @@
   "min_speed_mps": null,
   "wheel_diameter_mm": null,
   "wheel_count": null,
-  "dof": null,
+  "dof": 4,
   "runtime_h": null,
   "battery_wh": null,
   "ip_rating": null,
@@ -8449,20 +8467,55 @@
   "sdk_name": null,
   "onboard_compute": null,
   "compute_detail": null,
-  "ros_support": null,
-  "sensors": [],
+  "ros_support": true,
+  "sensors": [
+   "Gyroscope",
+   "PIR sensor",
+   "Gesture, light and IR distance sensors (Scout)",
+   "Optional AI vision module"
+  ],
   "price_usd": null,
   "price_note": null,
-  "official_url": null,
-  "sources": [],
-  "summary": "",
+  "official_url": "https://www.petoi.com/pages/quaddle-educational-robot-kit",
+  "sources": [
+   "https://www.petoi.com/pages/quaddle-educational-robot-kit",
+   "https://guide.petoi.com/product/quaddle-under-construction"
+  ],
+  "summary": "Petoi's 4-servo desk quadruped kit: an open-source, omnidirectional walker assembled without soldering and programmed with blocks, MicroPython, Python, C++ or ROS, sold as Builder Plus, Buddy and Scout.",
   "image_url": null,
   "image_source": null,
   "videos": [],
   "seen_on": [
    "https://botupyourlife.com/en/robots/petoi-quaddle/"
   ],
-  "verification": null
+  "verification": "official",
+  "price_observations": [
+   {
+    "date": "2026-11-25",
+    "amount": 179,
+    "currency": "USD",
+    "kind": "list",
+    "source": "https://www.petoi.com/pages/quaddle-educational-robot-kit",
+    "note": "Quaddle Builder Plus MSRP; late-pledge price US$154"
+   },
+   {
+    "date": "2026-11-25",
+    "amount": 219,
+    "currency": "USD",
+    "kind": "list",
+    "source": "https://www.petoi.com/pages/quaddle-educational-robot-kit",
+    "note": "Quaddle Buddy MSRP (adds open-domain AI conversation); late-pledge price US$189"
+   },
+   {
+    "date": "2026-11-25",
+    "amount": 269,
+    "currency": "USD",
+    "kind": "list",
+    "source": "https://www.petoi.com/pages/quaddle-educational-robot-kit",
+    "note": "Quaddle Scout MSRP (adds gesture, light and IR distance sensors); late-pledge price US$229"
+   }
+  ],
+  "note": "Maker pages checked 2026-11-25: four feedback servos, one motor per leg driving shoulder and knee, backward-compatible OpenCat firmware (Petoi says it will open-source the Quaddle code before delivery), two ESP32-S3 boards (motion, and AI on Buddy/Scout) with a Raspberry Pi Zero socket, gyroscope and PIR on every model, gesture/light/IR distance sensors and an optional AI vision module on Scout, blocks/MicroPython/Python/C++/ROS programming. Dimensions, weight, battery capacity and speed are not published on the maker's pages and are left empty. Status Pre-order: the Kickstarter campaign is funded and the maker sells late pledges at US$154/189/229 against the MSRPs listed here."
  },
  {
   "id": "ogadjet-xgo-duck",

@@ -55,4 +55,4 @@ Kuwa (酷哇科技 COOWA, cowarobot.com) showed D0 with the wheeled X1 at CIIE o
 
 ---
 
-*Robot Catalog — generated from data/robots.json (last merged 2026-11-22). Source repository: https://github.com/htcrefactor/robot-catalog*
+*Robot Catalog — generated from data/robots.json (last merged 2026-11-25). Source repository: https://github.com/htcrefactor/robot-catalog*

@@ -5,7 +5,7 @@
 - Canonical site: https://htcrefactor.github.io/robot-catalog/
 - Index for agents: https://htcrefactor.github.io/robot-catalog/llms.txt
 - Per-robot Markdown with the full spec sheet and a source on every value: https://htcrefactor.github.io/robot-catalog/md/<id>.md
-- Generated from data/robots.json, last merged 2026-11-22. No scoring, no ranking.
+- Generated from data/robots.json, last merged 2026-11-25. No scoring, no ranking.
 
 ## AMR (96)
 
@@ -610,8 +610,10 @@
 - id: `pal-stockbot`
 - Page: https://htcrefactor.github.io/robot-catalog/robot.html?id=pal-stockbot
 - Markdown: https://htcrefactor.github.io/robot-catalog/md/pal-stockbot.md
-- AMR · Wheeled · Spain
-- Sources: none recorded
+- AMR · Wheeled · Commercial · Spain
+- Summary: PAL Robotics' StockBot is a fully autonomous retail inventory robot: 8 RAIN RFID antennas and 3D cameras scan shelves and locate items to about 0.5 m, reporting stock accuracy of about 99% without closing the store.
+- Specs: Length 460 mm; Width 460 mm; Height 1,830 mm; Runtime 10 h; Status Commercial; Sensors 3D cameras, Laser 2D, 2 RAIN RFID readers, 8 RAIN RFID antennas
+- Sources: https://pal-robotics.com/robot/stockbot/, https://pal-robotics.com/wp-content/uploads/2024/12/StockBot-datasheet-EN.pdf
 
 ### Pudu Robotics PUDU MP2000
 
@@ -798,8 +800,10 @@
 - id: `robotnik-rb-watcher`
 - Page: https://htcrefactor.github.io/robot-catalog/robot.html?id=robotnik-rb-watcher
 - Markdown: https://htcrefactor.github.io/robot-catalog/md/robotnik-rb-watcher.md
-- AMR · Wheeled · Spain
-- Sources: none recorded
+- AMR · Wheeled · Commercial · Spain
+- Summary: Robotnik's RB-WATCHER is an indoor/outdoor inspection and security AMR: a 4-wheel skid or mecanum platform carrying a thermal pan-tilt-zoom camera, 3D LiDAR and a microphone for autonomous patrolling, thermal inspection and anomaly alerts.
+- Specs: Length 731 mm; Width 614 mm; Height 904 mm; Weight 73 kg; Payload 50 kg; Max speed 2.5 m/s (9.0 km/h); Wheels 4; Runtime 5 h; Battery 720 Wh; IP rating IP54; Status Commercial; ROS yes; Sensors 3D LiDAR, RGBD camera, Bi-spectral pan-tilt-zoom camera (thermal + 30x optical zoom), Microphone, Speakers, GPS (RTK), IMU
+- Sources: https://robotnik.eu/products/mobile-robots/rb-watcher, https://robotnik.eu/wp-content/uploads/2024/07/Robotnik_Datasheet_RB-WATCHER_2024_EN.pdf
 
 ### Robust.AI Carter
 
@@ -856,8 +860,10 @@
 - id: `simbe-tally-4`
 - Page: https://htcrefactor.github.io/robot-catalog/robot.html?id=simbe-tally-4
 - Markdown: https://htcrefactor.github.io/robot-catalog/md/simbe-tally-4.md
-- AMR · Wheeled · United States
-- Sources: none recorded
+- AMR · Wheeled · Commercial · United States · released 2026
+- Summary: Simbe's Tally 4.0 is the fourth generation of its shelf-scanning retail robot: up to 12 hours of autonomous operation, a high-resolution camera suite with RealSense depth and 360-degree fisheye coverage, and NVIDIA edge AI that turns shelf images into stock and pricing data.
+- Specs: Runtime 12 h; Released 2026; Status Commercial; On-board compute yes; Compute NVIDIA edge AI platform (CUDA, TensorRT, DOCA Argus); Sensors Ultra-high-resolution camera suite, Intel RealSense depth cameras, Dual fisheye 360-degree cameras
+- Sources: https://www.simberobotics.com/platform, https://www.simberobotics.com/about/newsroom/simbe-unveils-tally-4-0-the-next-generation-of-autonomous-retail-robot-powering-store-intelligence-via-physical-ai
 
 ### Star Robotics Watchbot
 
@@ -3467,7 +3473,9 @@
 - Page: https://htcrefactor.github.io/robot-catalog/robot.html?id=isento-pib-pro
 - Markdown: https://htcrefactor.github.io/robot-catalog/md/isento-pib-pro.md
 - Humanoid · Germany
-- Sources: none recorded
+- Summary: pib.Pro is isento's ready-to-ship open-source humanoid platform, the professional step up from the 3D-printable pib: stronger actuators and payload, 3D vision and LiDAR, onboard AI and a modular ROS-based stack, sold through a pilot-partner programme.
+- Specs: ROS yes; Sensors 3D vision camera, LiDAR
+- Sources: https://pib.rocks/en/pib-pro/, https://pib.rocks/
 
 ### iSoftStone Tianqing A2
 
@@ -7764,8 +7772,10 @@
 - id: `petoi-quaddle`
 - Page: https://htcrefactor.github.io/robot-catalog/robot.html?id=petoi-quaddle
 - Markdown: https://htcrefactor.github.io/robot-catalog/md/petoi-quaddle.md
-- Quadruped · Legged · United States
-- Sources: none recorded
+- Quadruped · Legged · Pre-order · United States
+- Summary: Petoi's 4-servo desk quadruped kit: an open-source, omnidirectional walker assembled without soldering and programmed with blocks, MicroPython, Python, C++ or ROS, sold as Builder Plus, Buddy and Scout.
+- Specs: Degrees of freedom 4; Status Pre-order; ROS yes; Sensors Gyroscope, PIR sensor, Gesture, light and IR distance sensors (Scout), Optional AI vision module
+- Sources: https://www.petoi.com/pages/quaddle-educational-robot-kit, https://guide.petoi.com/product/quaddle-under-construction
 
 ### Pudu Robotics D5
 
@@ -8217,7 +8227,9 @@
 - Page: https://htcrefactor.github.io/robot-catalog/robot.html?id=yahboom-dogzilla-s2
 - Markdown: https://htcrefactor.github.io/robot-catalog/md/yahboom-dogzilla-s2.md
 - Quadruped · Legged · China
-- Sources: none recorded
+- Summary: Yahboom's 12-DoF desktop robot dog for Raspberry Pi 5: an aluminium-bodied quadruped with ROS 2 Humble and Python support, adding a LiDAR and a voice module on the S2 configuration.
+- Specs: Degrees of freedom 12; SDK yes; SDK name Yahboom DOGZILLA ROS 2 / Python repository; ROS yes; Sensors HD camera, MS200 LiDAR (S2 only), Voice interaction module (S2 only), IMU, Servo angle feedback
+- Sources: https://github.com/YahboomTechnology/DOGZILLA, https://www.yahboom.store/blogs/news/build-robotics-project-with-raspberrypi-robotdog
 
 ### Yahboom DOGZILLA-Lite
 
@@ -8465,7 +8477,9 @@
 - Page: https://htcrefactor.github.io/robot-catalog/robot.html?id=ogadjet-xgo-rider2
 - Markdown: https://htcrefactor.github.io/robot-catalog/md/ogadjet-xgo-rider2.md
 - Wheel-legged · Wheel-legged · China
-- Sources: none recorded
+- Summary: Luwu Dynamics' desktop wheel-legged robot: two FOC hub wheels plus two leg servos give it omnidirectional, self-balancing motion and an adjustable 116-158 mm stance, run by a Raspberry Pi CM5 with an ESP32 motion controller.
+- Specs: Length 135 mm; Width 118 mm; Height 116 mm; Weight 0.56 kg; Wheel diameter 48 mm; Wheels 2; Degrees of freedom 4; Runtime 2 h; Battery 10.36 Wh; SDK yes; SDK name Open ESP32 motion-controller SDK; ROS yes; On-board compute yes; Compute Raspberry Pi CM5 (2 GB) + ESP32 co-processor; Sensors 5 MP OV5647 camera, Dual MEMS microphone array, 8 ohm 2 W speaker, IMU, 2.0-inch IPS display (320 x 240)
+- Sources: https://www.xgorobot.com/en/rider.html, https://wiki.xgorobot.com/kb/the-xgo-series-robot/cmpgp22gn000bfk659hf250en, https://shop.xgorobot.com/products/xgo-rider-world-s-first-desktop-wheel-legged-robot-with-ai
 
 ### Pudu Robotics D5-W
 
@@ -8661,8 +8675,10 @@
 - id: `bear-robotics-servi`
 - Page: https://htcrefactor.github.io/robot-catalog/robot.html?id=bear-robotics-servi
 - Markdown: https://htcrefactor.github.io/robot-catalog/md/bear-robotics-servi.md
-- Indoor delivery · Wheeled · United States
-- Sources: none recorded
+- Indoor delivery · Wheeled · Commercial · United States
+- Summary: Bear Robotics' Servi is a restaurant delivery robot: a LiDAR-navigated tray carrier that runs food and buses tables for a 10-12 hour shift, carrying 10 kg per tray and 30 kg in total.
+- Specs: Length 430 mm; Width 445 mm; Height 1,046 mm; Payload 30 kg; Max speed 1.2 m/s (4.3 km/h); Min speed 0.1 m/s; Runtime 10 h; Status Commercial; Sensors LiDAR, Cameras, Tray weight sensors
+- Sources: https://www.bearrobotics.ai/servi
 
 ### Bear Robotics Servi Plus
 
@@ -8800,6 +8816,15 @@
 - Specs: Length 623 mm; Width 496 mm; Height 1,351 mm; Weight 71 kg; Payload 40 kg; Max speed 1 m/s (3.6 km/h); Min speed 0.1 m/s; Runtime 12 h; Status Commercial; Sensors 3D perception
 - Sources: https://www.keenon.com/en/product/T3
 
+### KEENON Robotics DINERBOT T5
+
+- id: `keenon-t5`
+- Page: https://htcrefactor.github.io/robot-catalog/robot.html?id=keenon-t5
+- Markdown: https://htcrefactor.github.io/robot-catalog/md/keenon-t5.md
+- Indoor delivery · Wheeled · China
+- Summary: KEENON's DINERBOT T5, the 2019 first-generation delivery robot that began the company's overseas expansion; KEENON no longer publishes a product page or spec sheet for it.
+- Sources: https://www.keenon.com/en/about/, https://www.keenon.com/en
+
 ### KEENON Robotics DINERBOT T8
 
 - id: `keenon-dinerbot-t8`
@@ -8819,14 +8844,6 @@
 - Summary: High-load restaurant delivery robot carrying 40 kg on adjustable trays, with up to 18 h per charge.
 - Specs: Length 527 mm; Width 500 mm; Height 1,266 mm; Weight 63 kg; Payload 40 kg; Max speed 1 m/s (3.6 km/h); Min speed 0.1 m/s; Runtime 18 h; Status Commercial; Sensors 3D perception
 - Sources: https://www.keenon.com/en/product/T9
-
-### KEENON Robotics Keenon T5
-
-- id: `keenon-t5`
-- Page: https://htcrefactor.github.io/robot-catalog/robot.html?id=keenon-t5
-- Markdown: https://htcrefactor.github.io/robot-catalog/md/keenon-t5.md
-- Indoor delivery · Wheeled · China
-- Sources: none recorded
 
 ### Kompai Robotics KOMPAÏ assist
 
@@ -8911,8 +8928,10 @@
 - id: `pudu-bellabot-pro`
 - Page: https://htcrefactor.github.io/robot-catalog/robot.html?id=pudu-bellabot-pro
 - Markdown: https://htcrefactor.github.io/robot-catalog/md/pudu-bellabot-pro.md
-- Indoor delivery · Wheeled · China
-- Sources: none recorded
+- Indoor delivery · Wheeled · Commercial · China
+- Summary: Pudu Robotics' BellaBot Pro is a restaurant delivery and advertising robot: four 10 kg trays under an 18.5-inch ad screen, VSLAM plus LiDAR navigation and 360-degree obstacle sensing in a 65 cm-wide footprint.
+- Specs: Length 570 mm; Width 550 mm; Height 1,290 mm; Weight 55 kg; Payload 40 kg; Max speed 1.2 m/s (4.3 km/h); Min speed 0.2 m/s; Runtime 11 h; Status Commercial; Sensors 2 front cameras, 3 RGBD sensors, 1 LiDAR
+- Sources: https://www.pudurobotics.com/en/products/bellabotpro
 
 ### Pudu Robotics FlashBot
 
@@ -9081,8 +9100,10 @@
 - id: `temi-v3`
 - Page: https://htcrefactor.github.io/robot-catalog/robot.html?id=temi-v3
 - Markdown: https://htcrefactor.github.io/robot-catalog/md/temi-v3.md
-- Indoor delivery · Wheeled · United States
-- Sources: none recorded
+- Indoor delivery · Wheeled · Commercial · United States
+- Summary: temi V3 is temi's 100 cm autonomous personal assistant robot: a two-wheel, zero-turn-radius platform with a 13.3-inch screen, 360-degree LiDAR navigation, an open Android SDK and about 8 hours of battery.
+- Specs: Length 450 mm; Width 350 mm; Height 1,000 mm; Weight 12 kg; Payload 3 kg; Max speed 1 m/s (3.6 km/h); Wheels 2; Runtime 8 h; Status Commercial; API yes; SDK yes; SDK name temi SDK; On-board compute yes; Compute ARM hexa-core (dual Cortex-A72 + quad Cortex-A53), Android 11; Sensors 360-degree LiDAR, 2 depth cameras, 13 MP RGB camera, IMU, 6 time-of-flight sensors, 4-microphone array
+- Sources: https://www.robotemi.com/product/temi/, https://www.robotemi.com/robots/, https://www.robotemi.com/faq/
 
 ### UBTECH Robotics CadeBot
 
@@ -9539,8 +9560,10 @@
 - id: `irobot-create-3`
 - Page: https://htcrefactor.github.io/robot-catalog/robot.html?id=irobot-create-3
 - Markdown: https://htcrefactor.github.io/robot-catalog/md/irobot-create-3.md
-- Mobile platform · Wheeled · United States
-- Sources: none recorded
+- Mobile platform · Wheeled · Commercial · United States · released 2022
+- Summary: iRobot's Create 3 educational mobile robot: a Roomba i3-based differential drive platform with ROS 2 and a Python SDK, 9 kg payload and a 26 Wh pack, built for teaching mobile robotics.
+- Specs: Payload 9 kg; Max speed 0.46 m/s (1.7 km/h); Wheels 2; Battery 26 Wh; Released 2022; Status Commercial; API yes; SDK yes; SDK name iRobot Education Python 3 SDK; ROS yes; Sensors IMU, Downward optical flow odometry sensor, Wheel encoders, 4 IR cliff sensors, 7 pairs of IR proximity sensors (bumper zoned), 6-LED RGB ring, Speaker
+- Sources: https://iroboteducation.github.io/create3_docs/, https://iroboteducation.github.io/create3_docs/hw/mechanical/, https://iroboteducation.github.io/create3_docs/hw/electrical/, https://iroboteducation.github.io/create3_docs/hw/overview/, https://iroboteducation.github.io/create3_docs/api/safety/, https://media.irobot.com/2022-04-05-In-Celebration-of-National-Robotics-Week,-iRobot-Launches-the-Create-R-3-Educational-Robot
 
 ### Knightscope K5
 

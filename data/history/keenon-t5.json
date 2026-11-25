@@ -1,0 +1,43 @@
+{
+ "id": "keenon-t5",
+ "name": "DINERBOT T5",
+ "manufacturer": "KEENON Robotics",
+ "updated": "2026-11-25",
+ "events": [
+  {
+   "date": "2026-11-25",
+   "type": "updated",
+   "source": "https://www.keenon.com/en/about/",
+   "changes": [
+    {
+     "field": "name",
+     "from": "Keenon T5",
+     "to": "DINERBOT T5"
+    },
+    {
+     "field": "note",
+     "from": "BUYL lists the T5 and a T5 LASER version separately; added as one record. Skeleton - maker values not checked.",
+     "to": "Checked 2026-11-25: KEENON's current product pages cover DINERBOT T3/T8/T9/T10/T11, BUTLERBOT W3 and the X and S series, and there is no T5 product page or datasheet on the maker's site (keenon.com/en/product/T5 returns 404). The maker's own history page still records that DINERBOT T5 and T6 launched in 2019 and its customer cases name T5 units in service, so the model exists, but no maker document states its specifications — every value is left empty and the record stays marked unconfirmed rather than deleted. Name follows the maker's DINERBOT naming used on its other records."
+    },
+    {
+     "field": "sources",
+     "from": [],
+     "to": [
+      "https://www.keenon.com/en/about/",
+      "https://www.keenon.com/en"
+     ]
+    },
+    {
+     "field": "summary",
+     "from": "",
+     "to": "KEENON's DINERBOT T5, the 2019 first-generation delivery robot that began the company's overseas expansion; KEENON no longer publishes a product page or spec sheet for it."
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "unconfirmed"
+    }
+   ]
+  }
+ ]
+}

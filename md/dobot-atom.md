@@ -99,4 +99,4 @@ Maker Quick Start V1.1 (2025-09-04) and product page: height about 1650 mm, abou
 
 ---
 
-*Robot Catalog — generated from data/robots.json (last merged 2026-11-22). Source repository: https://github.com/htcrefactor/robot-catalog*
+*Robot Catalog — generated from data/robots.json (last merged 2026-11-25). Source repository: https://github.com/htcrefactor/robot-catalog*

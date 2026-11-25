@@ -2735,18 +2735,18 @@
     "category": "Indoor delivery",
     "locomotion": "Wheeled",
     "release_year": null,
-    "status": null,
-    "length_mm": null,
-    "width_mm": null,
-    "height_mm": null,
+    "status": "Commercial",
+    "length_mm": 430,
+    "width_mm": 445,
+    "height_mm": 1046,
     "weight_kg": null,
-    "payload_kg": null,
-    "max_speed_mps": null,
-    "min_speed_mps": null,
+    "payload_kg": 30,
+    "max_speed_mps": 1.2,
+    "min_speed_mps": 0.1,
     "wheel_diameter_mm": null,
     "wheel_count": null,
     "dof": null,
-    "runtime_h": null,
+    "runtime_h": 10.0,
     "battery_wh": null,
     "ip_rating": null,
     "api_support": null,
@@ -2755,19 +2755,30 @@
     "onboard_compute": null,
     "compute_detail": null,
     "ros_support": null,
-    "sensors": [],
+    "sensors": [
+      "LiDAR",
+      "Cameras",
+      "Tray weight sensors"
+    ],
     "price_usd": null,
     "price_note": null,
-    "official_url": null,
-    "sources": [],
-    "summary": "",
+    "official_url": "https://www.bearrobotics.ai/servi",
+    "sources": [
+      "https://www.bearrobotics.ai/servi"
+    ],
+    "summary": "Bear Robotics' Servi is a restaurant delivery robot: a LiDAR-navigated tray carrier that runs food and buses tables for a 10-12 hour shift, carrying 10 kg per tray and 30 kg in total.",
     "image_url": null,
     "image_source": null,
     "videos": [],
     "seen_on": [
       "https://botupyourlife.com/en/robots/bear-robotics-servi/"
     ],
-    "verification": null
+    "verification": "official",
+    "certifications": [
+      "NSF"
+    ],
+    "note": "Values from Bear Robotics' Servi page (checked 2026-11-25): 44.5 x 43 x 104.6 cm, drive speed 0.1-1.2 m/s, 2 trays plus 1 bus tub, 10 kg per tray and 66 lb (30 kg) total, battery life 10-12 h with a 4 h wall-charger recharge, 7-inch screen, NSF-certified, LiDAR and cameras with real-time rerouting, internal weight sensors for auto return. Runtime is given as a 10-12 h range, 10 h used as the value. The same page also lists Servi mini (98 cm, 1 tray, 44 lb total); this record is the full-size Servi. Weight is not published.",
+    "safety_source": "https://www.bearrobotics.ai/servi"
   },
   {
     "id": "ubtech-cadebot",
@@ -2987,18 +2998,18 @@
     "category": "Indoor delivery",
     "locomotion": "Wheeled",
     "release_year": null,
-    "status": null,
-    "length_mm": null,
-    "width_mm": null,
-    "height_mm": null,
-    "weight_kg": null,
-    "payload_kg": null,
-    "max_speed_mps": null,
-    "min_speed_mps": null,
+    "status": "Commercial",
+    "length_mm": 570,
+    "width_mm": 550,
+    "height_mm": 1290,
+    "weight_kg": 55,
+    "payload_kg": 40,
+    "max_speed_mps": 1.2,
+    "min_speed_mps": 0.2,
     "wheel_diameter_mm": null,
     "wheel_count": null,
     "dof": null,
-    "runtime_h": null,
+    "runtime_h": 11.0,
     "battery_wh": null,
     "ip_rating": null,
     "api_support": null,
@@ -3007,19 +3018,26 @@
     "onboard_compute": null,
     "compute_detail": null,
     "ros_support": null,
-    "sensors": [],
+    "sensors": [
+      "2 front cameras",
+      "3 RGBD sensors",
+      "1 LiDAR"
+    ],
     "price_usd": null,
     "price_note": null,
-    "official_url": null,
-    "sources": [],
-    "summary": "",
+    "official_url": "https://www.pudurobotics.com/en/products/bellabotpro",
+    "sources": [
+      "https://www.pudurobotics.com/en/products/bellabotpro"
+    ],
+    "summary": "Pudu Robotics' BellaBot Pro is a restaurant delivery and advertising robot: four 10 kg trays under an 18.5-inch ad screen, VSLAM plus LiDAR navigation and 360-degree obstacle sensing in a 65 cm-wide footprint.",
     "image_url": null,
     "image_source": null,
     "videos": [],
     "seen_on": [
       "https://botupyourlife.com/en/robots/pudu-bellabot-pro/"
     ],
-    "verification": null
+    "verification": "official",
+    "note": "Values from Pudu's BellaBot Pro product page (checked 2026-11-25): 570 x 550 x 1290 mm, 55 kg, 40 kg total load (10 kg per tray, four adjustable trays), cruise speed 0.2-1.2 m/s, run-time 11 h with no load, 4.5 h charging, 10.1-inch operation screen plus 18.5-inch advertising screen, VSLAM + marker + LiDAR SLAM navigation, 65 cm path clearance, two forward cameras, three RGBD sensors and one radar/LiDAR for front-chassis coverage; 25.6 Ah battery capacity is stated without a pack voltage, so no Wh figure is stored. The same page's comparison table gives BellaBot 13 h of run-time and 70 cm clearance. Weight-bearing tray size 410 x 500 mm."
   },
   {
     "id": "aldebaran-plato",
@@ -3107,7 +3125,7 @@
   },
   {
     "id": "keenon-t5",
-    "name": "Keenon T5",
+    "name": "DINERBOT T5",
     "manufacturer": "KEENON Robotics",
     "country": "China",
     "category": "Indoor delivery",
@@ -3137,8 +3155,11 @@
     "price_usd": null,
     "price_note": null,
     "official_url": null,
-    "sources": [],
-    "summary": "",
+    "sources": [
+      "https://www.keenon.com/en/about/",
+      "https://www.keenon.com/en"
+    ],
+    "summary": "KEENON's DINERBOT T5, the 2019 first-generation delivery robot that began the company's overseas expansion; KEENON no longer publishes a product page or spec sheet for it.",
     "image_url": null,
     "image_source": null,
     "videos": [],
@@ -3146,8 +3167,8 @@
       "https://botupyourlife.com/en/robots/keenon-t5/",
       "https://botupyourlife.com/en/robots/keenon-t5-laser/"
     ],
-    "verification": null,
-    "note": "BUYL lists the T5 and a T5 LASER version separately; added as one record. Skeleton - maker values not checked."
+    "verification": "unconfirmed",
+    "note": "Checked 2026-11-25: KEENON's current product pages cover DINERBOT T3/T8/T9/T10/T11, BUTLERBOT W3 and the X and S series, and there is no T5 product page or datasheet on the maker's site (keenon.com/en/product/T5 returns 404). The maker's own history page still records that DINERBOT T5 and T6 launched in 2019 and its customer cases name T5 units in service, so the model exists, but no maker document states its specifications — every value is left empty and the record stays marked unconfirmed rather than deleted. Name follows the maker's DINERBOT naming used on its other records."
   },
   {
     "id": "anseboo-as07",
@@ -3493,39 +3514,57 @@
     "category": "Indoor delivery",
     "locomotion": "Wheeled",
     "release_year": null,
-    "status": null,
-    "length_mm": null,
-    "width_mm": null,
-    "height_mm": null,
-    "weight_kg": null,
-    "payload_kg": null,
-    "max_speed_mps": null,
+    "status": "Commercial",
+    "length_mm": 450,
+    "width_mm": 350,
+    "height_mm": 1000,
+    "weight_kg": 12,
+    "payload_kg": 3,
+    "max_speed_mps": 1.0,
     "min_speed_mps": null,
     "wheel_diameter_mm": null,
-    "wheel_count": null,
+    "wheel_count": 2,
     "dof": null,
-    "runtime_h": null,
+    "runtime_h": 8.0,
     "battery_wh": null,
     "ip_rating": null,
-    "api_support": null,
-    "sdk_available": null,
-    "sdk_name": null,
-    "onboard_compute": null,
-    "compute_detail": null,
+    "api_support": true,
+    "sdk_available": true,
+    "sdk_name": "temi SDK",
+    "onboard_compute": true,
+    "compute_detail": "ARM hexa-core (dual Cortex-A72 + quad Cortex-A53), Android 11",
     "ros_support": null,
-    "sensors": [],
+    "sensors": [
+      "360-degree LiDAR",
+      "2 depth cameras",
+      "13 MP RGB camera",
+      "IMU",
+      "6 time-of-flight sensors",
+      "4-microphone array"
+    ],
     "price_usd": null,
     "price_note": null,
-    "official_url": null,
-    "sources": [],
-    "summary": "",
+    "official_url": "https://www.robotemi.com/product/temi/",
+    "sources": [
+      "https://www.robotemi.com/product/temi/",
+      "https://www.robotemi.com/robots/",
+      "https://www.robotemi.com/faq/"
+    ],
+    "summary": "temi V3 is temi's 100 cm autonomous personal assistant robot: a two-wheel, zero-turn-radius platform with a 13.3-inch screen, 360-degree LiDAR navigation, an open Android SDK and about 8 hours of battery.",
     "image_url": null,
     "image_source": null,
     "videos": [],
     "seen_on": [
       "https://botupyourlife.com/en/robots/temi-v3/"
     ],
-    "verification": null
+    "verification": "official",
+    "sdk": {
+      "languages": [],
+      "open_source": null,
+      "license": null,
+      "url": "https://www.robotemi.com/product/temi/"
+    },
+    "note": "Values from temi's product, robots and FAQ pages (checked 2026-11-25): 100 x 35 x 45 cm, 12 kg, two 50 W direct-drive brushless wheels with zero turn radius and up to 1 m/s, 13.3-inch 1920 x 1080 display, 360-degree LiDAR with two depth cameras, a 13 MP RGB camera, IMU and six time-of-flight sensors, ARM hexa-core computers running Android 11 with a full SDK for third-party apps, about 8 h of operation per charge with a roughly 3 h full charge, tray load 3 kg and a 30 x 25 cm tray. The maker's spec page describes temi (the V3 hardware per its own manuals list and tray note); ROS support is not stated."
   },
   {
     "id": "orionstar-mini",

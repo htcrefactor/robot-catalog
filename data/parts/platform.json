@@ -3038,39 +3038,74 @@
   "country": "United States",
   "category": "Mobile platform",
   "locomotion": "Wheeled",
-  "release_year": null,
-  "status": null,
+  "release_year": 2022,
+  "status": "Commercial",
   "length_mm": null,
   "width_mm": null,
   "height_mm": null,
   "weight_kg": null,
-  "payload_kg": null,
-  "max_speed_mps": null,
+  "payload_kg": 9,
+  "max_speed_mps": 0.46,
   "min_speed_mps": null,
   "wheel_diameter_mm": null,
-  "wheel_count": null,
+  "wheel_count": 2,
   "dof": null,
   "runtime_h": null,
-  "battery_wh": null,
+  "battery_wh": 26,
   "ip_rating": null,
-  "api_support": null,
-  "sdk_available": null,
-  "sdk_name": null,
+  "api_support": true,
+  "sdk_available": true,
+  "sdk_name": "iRobot Education Python 3 SDK",
   "onboard_compute": null,
   "compute_detail": null,
-  "ros_support": null,
-  "sensors": [],
+  "ros_support": true,
+  "sensors": [
+   "IMU",
+   "Downward optical flow odometry sensor",
+   "Wheel encoders",
+   "4 IR cliff sensors",
+   "7 pairs of IR proximity sensors (bumper zoned)",
+   "6-LED RGB ring",
+   "Speaker"
+  ],
   "price_usd": null,
   "price_note": null,
-  "official_url": null,
-  "sources": [],
-  "summary": "",
+  "official_url": "https://iroboteducation.github.io/create3_docs/",
+  "sources": [
+   "https://iroboteducation.github.io/create3_docs/hw/mechanical/",
+   "https://iroboteducation.github.io/create3_docs/hw/electrical/",
+   "https://iroboteducation.github.io/create3_docs/hw/overview/",
+   "https://iroboteducation.github.io/create3_docs/api/safety/",
+   "https://media.irobot.com/2022-04-05-In-Celebration-of-National-Robotics-Week,-iRobot-Launches-the-Create-R-3-Educational-Robot"
+  ],
+  "summary": "iRobot's Create 3 educational mobile robot: a Roomba i3-based differential drive platform with ROS 2 and a Python SDK, 9 kg payload and a 26 Wh pack, built for teaching mobile robotics.",
   "image_url": null,
   "image_source": null,
   "videos": [],
   "seen_on": [
    "https://botupyourlife.com/en/robots/irobot-create-3/"
   ],
-  "verification": null
+  "verification": "official",
+  "sdk": {
+   "languages": [
+    "Python"
+   ],
+   "open_source": null,
+   "license": null,
+   "url": "https://iroboteducation.github.io/create3_docs/"
+  },
+  "ros2_support": true,
+  "ros2_url": "https://iroboteducation.github.io/create3_docs/",
+  "price_observations": [
+   {
+    "date": "2022-04-05",
+    "amount": 299,
+    "currency": "USD",
+    "kind": "list",
+    "source": "https://media.irobot.com/2022-04-05-In-Celebration-of-National-Robotics-Week,-iRobot-Launches-the-Create-R-3-Educational-Robot",
+    "note": "Launch price for the US and Canada (CAD 399); the release is the only maker page opened that states a price"
+   }
+  ],
+  "note": "Values from iRobot's own Create 3 documentation and 2022 launch release (checked 2026-11-25): maximum recommended payload 9 kg over the centre of gravity, true top speed 0.46 m/s with the safety override fully disabled (the robot limits itself to 0.306 m/s while cliff safety is active), 26 Wh 4S lithium-ion pack (nominal 14.4 V) shared with Roomba e/i series, differential drive with two wheels plus a front caster, sensors as listed, ROS 2 and the iRobot Education Python 3 SDK both stated by the maker. Weight and body dimensions are not given as text in the maker's documentation and are left empty. Price is the 2022 launch figure; no current maker price page was opened."
  }
 ]
