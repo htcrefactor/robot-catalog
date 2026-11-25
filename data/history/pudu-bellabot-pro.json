@@ -1,0 +1,96 @@
+{
+ "id": "pudu-bellabot-pro",
+ "name": "BellaBot Pro",
+ "manufacturer": "Pudu Robotics",
+ "updated": "2026-11-25",
+ "events": [
+  {
+   "date": "2026-11-25",
+   "type": "updated",
+   "source": "https://www.pudurobotics.com/en/products/bellabotpro",
+   "changes": [
+    {
+     "field": "height_mm",
+     "from": null,
+     "to": 1290
+    },
+    {
+     "field": "length_mm",
+     "from": null,
+     "to": 570
+    },
+    {
+     "field": "max_speed_mps",
+     "from": null,
+     "to": 1.2
+    },
+    {
+     "field": "min_speed_mps",
+     "from": null,
+     "to": 0.2
+    },
+    {
+     "field": "note",
+     "from": null,
+     "to": "Values from Pudu's BellaBot Pro product page (checked 2026-11-25): 570 x 550 x 1290 mm, 55 kg, 40 kg total load (10 kg per tray, four adjustable trays), cruise speed 0.2-1.2 m/s, run-time 11 h with no load, 4.5 h charging, 10.1-inch operation screen plus 18.5-inch advertising screen, VSLAM + marker + LiDAR SLAM navigation, 65 cm path clearance, two forward cameras, three RGBD sensors and one radar/LiDAR for front-chassis coverage; 25.6 Ah battery capacity is stated without a pack voltage, so no Wh figure is stored. The same page's comparison table gives BellaBot 13 h of run-time and 70 cm clearance. Weight-bearing tray size 410 x 500 mm."
+    },
+    {
+     "field": "official_url",
+     "from": null,
+     "to": "https://www.pudurobotics.com/en/products/bellabotpro"
+    },
+    {
+     "field": "payload_kg",
+     "from": null,
+     "to": 40
+    },
+    {
+     "field": "runtime_h",
+     "from": null,
+     "to": 11.0
+    },
+    {
+     "field": "sensors",
+     "from": [],
+     "to": [
+      "2 front cameras",
+      "3 RGBD sensors",
+      "1 LiDAR"
+     ]
+    },
+    {
+     "field": "sources",
+     "from": [],
+     "to": [
+      "https://www.pudurobotics.com/en/products/bellabotpro"
+     ]
+    },
+    {
+     "field": "status",
+     "from": null,
+     "to": "Commercial"
+    },
+    {
+     "field": "summary",
+     "from": "",
+     "to": "Pudu Robotics' BellaBot Pro is a restaurant delivery and advertising robot: four 10 kg trays under an 18.5-inch ad screen, VSLAM plus LiDAR navigation and 360-degree obstacle sensing in a 65 cm-wide footprint."
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "official"
+    },
+    {
+     "field": "weight_kg",
+     "from": null,
+     "to": 55
+    },
+    {
+     "field": "width_mm",
+     "from": null,
+     "to": 550
+    }
+   ]
+  }
+ ]
+}

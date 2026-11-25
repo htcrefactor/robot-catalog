@@ -27673,20 +27673,27 @@
     "sdk_name": null,
     "onboard_compute": null,
     "compute_detail": null,
-    "ros_support": null,
-    "sensors": [],
+    "ros_support": true,
+    "sensors": [
+      "3D vision camera",
+      "LiDAR"
+    ],
     "price_usd": null,
     "price_note": null,
-    "official_url": null,
-    "sources": [],
-    "summary": "",
+    "official_url": "https://pib.rocks/en/pib-pro/",
+    "sources": [
+      "https://pib.rocks/en/pib-pro/",
+      "https://pib.rocks/"
+    ],
+    "summary": "pib.Pro is isento's ready-to-ship open-source humanoid platform, the professional step up from the 3D-printable pib: stronger actuators and payload, 3D vision and LiDAR, onboard AI and a modular ROS-based stack, sold through a pilot-partner programme.",
     "image_url": null,
     "image_source": null,
     "videos": [],
     "seen_on": [
       "https://botupyourlife.com/en/robots/isento-pib-pro/"
     ],
-    "verification": null
+    "verification": "official",
+    "note": "Maker pages checked 2026-11-25: pib.Pro is described as Europe's first open, ready-to-ship humanoid platform, GDPR-compliant and modular, with stronger hardware and higher payload than pib, advanced 3D vision, LiDAR, onboard AI, and ROS software modules developed by its community; it is offered to pilot customers rather than sold as a catalogue product. The maker publishes no numeric specifications (height, weight, payload, speed, runtime, degrees of freedom, battery) for pib.Pro, so every value is left empty — figures circulating on aggregator sites are not maker values and are not used. pib, the 3D-printable predecessor, is a separate maker project."
   },
   {
     "id": "roboparty-roboto-origin",

@@ -1,0 +1,78 @@
+{
+ "id": "pal-stockbot",
+ "name": "StockBot",
+ "manufacturer": "PAL Robotics",
+ "updated": "2026-11-25",
+ "events": [
+  {
+   "date": "2026-11-25",
+   "type": "updated",
+   "source": "https://pal-robotics.com/robot/stockbot/",
+   "changes": [
+    {
+     "field": "height_mm",
+     "from": null,
+     "to": 1830
+    },
+    {
+     "field": "length_mm",
+     "from": null,
+     "to": 460
+    },
+    {
+     "field": "note",
+     "from": null,
+     "to": "Values from PAL Robotics' StockBot page and 2024 datasheet (checked 2026-11-25): 46 x 46 x 183 cm, two RAIN RFID readers with eight antennas (EPC Gen2 / ISO 18000-6C), 3D cameras for navigation and a 2D laser, autonomous dock charging, ERP/WMS integration through an API. Autonomy and charging figures differ between the two maker documents — the page says about 10 h of use and a 5 h recharge, the datasheet says 12 h of continuous use and a 4 h recharge — so 10 h is used and both are recorded here; capture height is 2.4 m in the datasheet and up to 4 m on the page. Weight, speed and payload are not published."
+    },
+    {
+     "field": "official_url",
+     "from": null,
+     "to": "https://pal-robotics.com/robot/stockbot/"
+    },
+    {
+     "field": "runtime_h",
+     "from": null,
+     "to": 10.0
+    },
+    {
+     "field": "sensors",
+     "from": [],
+     "to": [
+      "3D cameras",
+      "Laser 2D",
+      "2 RAIN RFID readers",
+      "8 RAIN RFID antennas"
+     ]
+    },
+    {
+     "field": "sources",
+     "from": [],
+     "to": [
+      "https://pal-robotics.com/robot/stockbot/",
+      "https://pal-robotics.com/wp-content/uploads/2024/12/StockBot-datasheet-EN.pdf"
+     ]
+    },
+    {
+     "field": "status",
+     "from": null,
+     "to": "Commercial"
+    },
+    {
+     "field": "summary",
+     "from": "",
+     "to": "PAL Robotics' StockBot is a fully autonomous retail inventory robot: 8 RAIN RFID antennas and 3D cameras scan shelves and locate items to about 0.5 m, reporting stock accuracy of about 99% without closing the store."
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "official"
+    },
+    {
+     "field": "width_mm",
+     "from": null,
+     "to": 460
+    }
+   ]
+  }
+ ]
+}

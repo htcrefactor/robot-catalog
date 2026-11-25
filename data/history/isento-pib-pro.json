@@ -1,0 +1,56 @@
+{
+ "id": "isento-pib-pro",
+ "name": "pib.Pro",
+ "manufacturer": "isento",
+ "updated": "2026-11-25",
+ "events": [
+  {
+   "date": "2026-11-25",
+   "type": "updated",
+   "source": "https://pib.rocks/en/pib-pro/",
+   "changes": [
+    {
+     "field": "note",
+     "from": null,
+     "to": "Maker pages checked 2026-11-25: pib.Pro is described as Europe's first open, ready-to-ship humanoid platform, GDPR-compliant and modular, with stronger hardware and higher payload than pib, advanced 3D vision, LiDAR, onboard AI, and ROS software modules developed by its community; it is offered to pilot customers rather than sold as a catalogue product. The maker publishes no numeric specifications (height, weight, payload, speed, runtime, degrees of freedom, battery) for pib.Pro, so every value is left empty — figures circulating on aggregator sites are not maker values and are not used. pib, the 3D-printable predecessor, is a separate maker project."
+    },
+    {
+     "field": "official_url",
+     "from": null,
+     "to": "https://pib.rocks/en/pib-pro/"
+    },
+    {
+     "field": "ros_support",
+     "from": null,
+     "to": true
+    },
+    {
+     "field": "sensors",
+     "from": [],
+     "to": [
+      "3D vision camera",
+      "LiDAR"
+     ]
+    },
+    {
+     "field": "sources",
+     "from": [],
+     "to": [
+      "https://pib.rocks/en/pib-pro/",
+      "https://pib.rocks/"
+     ]
+    },
+    {
+     "field": "summary",
+     "from": "",
+     "to": "pib.Pro is isento's ready-to-ship open-source humanoid platform, the professional step up from the 3D-printable pib: stronger actuators and payload, 3D vision and LiDAR, onboard AI and a modular ROS-based stack, sold through a pilot-partner programme."
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "official"
+    }
+   ]
+  }
+ ]
+}

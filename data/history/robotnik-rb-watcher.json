@@ -1,0 +1,116 @@
+{
+ "id": "robotnik-rb-watcher",
+ "name": "RB-WATCHER",
+ "manufacturer": "Robotnik",
+ "updated": "2026-11-25",
+ "events": [
+  {
+   "date": "2026-11-25",
+   "type": "updated",
+   "source": "https://robotnik.eu/products/mobile-robots/rb-watcher",
+   "changes": [
+    {
+     "field": "battery_wh",
+     "from": null,
+     "to": 720
+    },
+    {
+     "field": "height_mm",
+     "from": null,
+     "to": 904
+    },
+    {
+     "field": "ip_rating",
+     "from": null,
+     "to": "IP54"
+    },
+    {
+     "field": "length_mm",
+     "from": null,
+     "to": 731
+    },
+    {
+     "field": "max_speed_mps",
+     "from": null,
+     "to": 2.5
+    },
+    {
+     "field": "note",
+     "from": null,
+     "to": "Values from Robotnik's 2024 RB-WATCHER datasheet and product page (checked 2026-11-25): 731 x 614 x 904 mm, 73 kg, 50 kg payload, up to 2.5 m/s, IP54, up to 5 h of continuous operation, 48 V 15 Ah LiFePO4 pack (720 Wh computed as V x Ah), four 500 W traction motors, ROS architecture, 3D SLAM and RTK GPS localisation. An earlier (2023) brochure gives 790 x 614 x 856 mm and 62 kg; the newer datasheet values are used and the difference is recorded here."
+    },
+    {
+     "field": "official_url",
+     "from": null,
+     "to": "https://robotnik.eu/products/mobile-robots/rb-watcher"
+    },
+    {
+     "field": "payload_kg",
+     "from": null,
+     "to": 50
+    },
+    {
+     "field": "ros_support",
+     "from": null,
+     "to": true
+    },
+    {
+     "field": "runtime_h",
+     "from": null,
+     "to": 5.0
+    },
+    {
+     "field": "sensors",
+     "from": [],
+     "to": [
+      "3D LiDAR",
+      "RGBD camera",
+      "Bi-spectral pan-tilt-zoom camera (thermal + 30x optical zoom)",
+      "Microphone",
+      "Speakers",
+      "GPS (RTK)",
+      "IMU"
+     ]
+    },
+    {
+     "field": "sources",
+     "from": [],
+     "to": [
+      "https://robotnik.eu/products/mobile-robots/rb-watcher",
+      "https://robotnik.eu/wp-content/uploads/2024/07/Robotnik_Datasheet_RB-WATCHER_2024_EN.pdf"
+     ]
+    },
+    {
+     "field": "status",
+     "from": null,
+     "to": "Commercial"
+    },
+    {
+     "field": "summary",
+     "from": "",
+     "to": "Robotnik's RB-WATCHER is an indoor/outdoor inspection and security AMR: a 4-wheel skid or mecanum platform carrying a thermal pan-tilt-zoom camera, 3D LiDAR and a microphone for autonomous patrolling, thermal inspection and anomaly alerts."
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "official"
+    },
+    {
+     "field": "weight_kg",
+     "from": null,
+     "to": 73
+    },
+    {
+     "field": "wheel_count",
+     "from": null,
+     "to": 4
+    },
+    {
+     "field": "width_mm",
+     "from": null,
+     "to": 614
+    }
+   ]
+  }
+ ]
+}

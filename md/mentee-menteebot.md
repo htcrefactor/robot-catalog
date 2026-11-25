@@ -92,4 +92,4 @@ Maker (checked 2026-11-17): MenteeBot V3.0 stands 175 cm, weighs 70 kg, has 40 D
 
 ---
 
-*Robot Catalog — generated from data/robots.json (last merged 2026-11-22). Source repository: https://github.com/htcrefactor/robot-catalog*
+*Robot Catalog — generated from data/robots.json (last merged 2026-11-25). Source repository: https://github.com/htcrefactor/robot-catalog*

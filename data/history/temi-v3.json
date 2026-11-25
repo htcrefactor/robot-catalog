@@ -1,0 +1,136 @@
+{
+ "id": "temi-v3",
+ "name": "temi V3",
+ "manufacturer": "temi",
+ "updated": "2026-11-25",
+ "events": [
+  {
+   "date": "2026-11-25",
+   "type": "updated",
+   "source": "https://www.robotemi.com/product/temi/",
+   "changes": [
+    {
+     "field": "api_support",
+     "from": null,
+     "to": true
+    },
+    {
+     "field": "compute_detail",
+     "from": null,
+     "to": "ARM hexa-core (dual Cortex-A72 + quad Cortex-A53), Android 11"
+    },
+    {
+     "field": "height_mm",
+     "from": null,
+     "to": 1000
+    },
+    {
+     "field": "length_mm",
+     "from": null,
+     "to": 450
+    },
+    {
+     "field": "max_speed_mps",
+     "from": null,
+     "to": 1.0
+    },
+    {
+     "field": "note",
+     "from": null,
+     "to": "Values from temi's product, robots and FAQ pages (checked 2026-11-25): 100 x 35 x 45 cm, 12 kg, two 50 W direct-drive brushless wheels with zero turn radius and up to 1 m/s, 13.3-inch 1920 x 1080 display, 360-degree LiDAR with two depth cameras, a 13 MP RGB camera, IMU and six time-of-flight sensors, ARM hexa-core computers running Android 11 with a full SDK for third-party apps, about 8 h of operation per charge with a roughly 3 h full charge, tray load 3 kg and a 30 x 25 cm tray. The maker's spec page describes temi (the V3 hardware per its own manuals list and tray note); ROS support is not stated."
+    },
+    {
+     "field": "official_url",
+     "from": null,
+     "to": "https://www.robotemi.com/product/temi/"
+    },
+    {
+     "field": "onboard_compute",
+     "from": null,
+     "to": true
+    },
+    {
+     "field": "payload_kg",
+     "from": null,
+     "to": 3
+    },
+    {
+     "field": "runtime_h",
+     "from": null,
+     "to": 8.0
+    },
+    {
+     "field": "sdk",
+     "from": null,
+     "to": {
+      "languages": [],
+      "open_source": null,
+      "license": null,
+      "url": "https://www.robotemi.com/product/temi/"
+     }
+    },
+    {
+     "field": "sdk_available",
+     "from": null,
+     "to": true
+    },
+    {
+     "field": "sdk_name",
+     "from": null,
+     "to": "temi SDK"
+    },
+    {
+     "field": "sensors",
+     "from": [],
+     "to": [
+      "360-degree LiDAR",
+      "2 depth cameras",
+      "13 MP RGB camera",
+      "IMU",
+      "6 time-of-flight sensors",
+      "4-microphone array"
+     ]
+    },
+    {
+     "field": "sources",
+     "from": [],
+     "to": [
+      "https://www.robotemi.com/product/temi/",
+      "https://www.robotemi.com/robots/",
+      "https://www.robotemi.com/faq/"
+     ]
+    },
+    {
+     "field": "status",
+     "from": null,
+     "to": "Commercial"
+    },
+    {
+     "field": "summary",
+     "from": "",
+     "to": "temi V3 is temi's 100 cm autonomous personal assistant robot: a two-wheel, zero-turn-radius platform with a 13.3-inch screen, 360-degree LiDAR navigation, an open Android SDK and about 8 hours of battery."
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "official"
+    },
+    {
+     "field": "weight_kg",
+     "from": null,
+     "to": 12
+    },
+    {
+     "field": "wheel_count",
+     "from": null,
+     "to": 2
+    },
+    {
+     "field": "width_mm",
+     "from": null,
+     "to": 350
+    }
+   ]
+  }
+ ]
+}

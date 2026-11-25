@@ -1,0 +1,145 @@
+{
+ "id": "irobot-create-3",
+ "name": "Create 3",
+ "manufacturer": "iRobot",
+ "updated": "2026-11-25",
+ "events": [
+  {
+   "date": "2026-11-25",
+   "type": "updated",
+   "source": "https://iroboteducation.github.io/create3_docs/",
+   "changes": [
+    {
+     "field": "api_support",
+     "from": null,
+     "to": true
+    },
+    {
+     "field": "battery_wh",
+     "from": null,
+     "to": 26
+    },
+    {
+     "field": "max_speed_mps",
+     "from": null,
+     "to": 0.46
+    },
+    {
+     "field": "note",
+     "from": null,
+     "to": "Values from iRobot's own Create 3 documentation and 2022 launch release (checked 2026-11-25): maximum recommended payload 9 kg over the centre of gravity, true top speed 0.46 m/s with the safety override fully disabled (the robot limits itself to 0.306 m/s while cliff safety is active), 26 Wh 4S lithium-ion pack (nominal 14.4 V) shared with Roomba e/i series, differential drive with two wheels plus a front caster, sensors as listed, ROS 2 and the iRobot Education Python 3 SDK both stated by the maker. Weight and body dimensions are not given as text in the maker's documentation and are left empty. Price is the 2022 launch figure; no current maker price page was opened."
+    },
+    {
+     "field": "official_url",
+     "from": null,
+     "to": "https://iroboteducation.github.io/create3_docs/"
+    },
+    {
+     "field": "payload_kg",
+     "from": null,
+     "to": 9
+    },
+    {
+     "field": "price_observations",
+     "from": null,
+     "to": [
+      {
+       "date": "2022-04-05",
+       "amount": 299,
+       "currency": "USD",
+       "kind": "list",
+       "source": "https://media.irobot.com/2022-04-05-In-Celebration-of-National-Robotics-Week,-iRobot-Launches-the-Create-R-3-Educational-Robot",
+       "note": "Launch price for the US and Canada (CAD 399); the release is the only maker page opened that states a price"
+      }
+     ]
+    },
+    {
+     "field": "release_year",
+     "from": null,
+     "to": 2022
+    },
+    {
+     "field": "ros2_support",
+     "from": null,
+     "to": true
+    },
+    {
+     "field": "ros2_url",
+     "from": null,
+     "to": "https://iroboteducation.github.io/create3_docs/"
+    },
+    {
+     "field": "ros_support",
+     "from": null,
+     "to": true
+    },
+    {
+     "field": "sdk",
+     "from": null,
+     "to": {
+      "languages": [
+       "Python"
+      ],
+      "open_source": null,
+      "license": null,
+      "url": "https://iroboteducation.github.io/create3_docs/"
+     }
+    },
+    {
+     "field": "sdk_available",
+     "from": null,
+     "to": true
+    },
+    {
+     "field": "sdk_name",
+     "from": null,
+     "to": "iRobot Education Python 3 SDK"
+    },
+    {
+     "field": "sensors",
+     "from": [],
+     "to": [
+      "IMU",
+      "Downward optical flow odometry sensor",
+      "Wheel encoders",
+      "4 IR cliff sensors",
+      "7 pairs of IR proximity sensors (bumper zoned)",
+      "6-LED RGB ring",
+      "Speaker"
+     ]
+    },
+    {
+     "field": "sources",
+     "from": [],
+     "to": [
+      "https://iroboteducation.github.io/create3_docs/hw/mechanical/",
+      "https://iroboteducation.github.io/create3_docs/hw/electrical/",
+      "https://iroboteducation.github.io/create3_docs/hw/overview/",
+      "https://iroboteducation.github.io/create3_docs/api/safety/",
+      "https://media.irobot.com/2022-04-05-In-Celebration-of-National-Robotics-Week,-iRobot-Launches-the-Create-R-3-Educational-Robot"
+     ]
+    },
+    {
+     "field": "status",
+     "from": null,
+     "to": "Commercial"
+    },
+    {
+     "field": "summary",
+     "from": "",
+     "to": "iRobot's Create 3 educational mobile robot: a Roomba i3-based differential drive platform with ROS 2 and a Python SDK, 9 kg payload and a 26 Wh pack, built for teaching mobile robotics."
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "official"
+    },
+    {
+     "field": "wheel_count",
+     "from": null,
+     "to": 2
+    }
+   ]
+  }
+ ]
+}
