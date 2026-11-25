@@ -100,4 +100,4 @@ Maker product page: 154 cm, 56 kg, 17,000 mAh 48 V battery (=816 Wh, derived), 2
 
 ---
 
-*Robot Catalog — generated from data/robots.json (last merged 2026-11-22). Source repository: https://github.com/htcrefactor/robot-catalog*
+*Robot Catalog — generated from data/robots.json (last merged 2026-11-24). Source repository: https://github.com/htcrefactor/robot-catalog*

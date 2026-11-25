@@ -95,4 +95,4 @@ Maker spec panel (galbot.com/g1): max height 1730 mm (leg lift 650 mm), 92.5 kg,
 
 ---
 
-*Robot Catalog — generated from data/robots.json (last merged 2026-11-22). Source repository: https://github.com/htcrefactor/robot-catalog*
+*Robot Catalog — generated from data/robots.json (last merged 2026-11-24). Source repository: https://github.com/htcrefactor/robot-catalog*

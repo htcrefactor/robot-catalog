@@ -5,8 +5,72 @@
   <link rel="self" type="application/atom+xml" href="https://htcrefactor.github.io/robot-catalog/feed.xml"/>
   <link rel="alternate" type="text/html" href="https://htcrefactor.github.io/robot-catalog/"/>
   <id>tag:htcrefactor.github.io,2026:robot-catalog/feed</id>
-  <updated>2026-11-22T00:00:00Z</updated>
+  <updated>2026-11-24T00:00:00Z</updated>
   <author><name>Robot Catalog</name><uri>https://github.com/htcrefactor/robot-catalog</uri></author>
+  <entry>
+    <id>tag:htcrefactor.github.io,2026:robot-catalog/multiway-h01/added/2026-11-24</id>
+    <title>New robot: Multiway Robotics H01</title>
+    <updated>2026-11-24T00:00:00Z</updated>
+    <link rel="alternate" type="text/html" href="https://htcrefactor.github.io/robot-catalog/robot.html?id=multiway-h01"/>
+    <category term="added"/>
+    <summary type="html">&lt;p&gt;&lt;a href="https://htcrefactor.github.io/robot-catalog/robot.html?id=multiway-h01"&gt;Multiway Robotics H01 — robot page&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Source: &lt;a href="https://www.mw-robot.com/rxjiqr/43"&gt;https://www.mw-robot.com/rxjiqr/43&lt;/a&gt;&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <id>tag:htcrefactor.github.io,2026:robot-catalog/faraday-future-ff-master-mini/added/2026-11-24</id>
+    <title>New robot: Faraday Future FF Master Mini</title>
+    <updated>2026-11-24T00:00:00Z</updated>
+    <link rel="alternate" type="text/html" href="https://htcrefactor.github.io/robot-catalog/robot.html?id=faraday-future-ff-master-mini"/>
+    <category term="added"/>
+    <summary type="html">&lt;p&gt;&lt;a href="https://htcrefactor.github.io/robot-catalog/robot.html?id=faraday-future-ff-master-mini"&gt;Faraday Future FF Master Mini — robot page&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Source: &lt;a href="https://robotics.ff.com/us/ff-master-mini/"&gt;https://robotics.ff.com/us/ff-master-mini/&lt;/a&gt;&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <id>tag:htcrefactor.github.io,2026:robot-catalog/faraday-future-ff-faber/added/2026-11-24</id>
+    <title>New robot: Faraday Future FF Faber (Faber U)</title>
+    <updated>2026-11-24T00:00:00Z</updated>
+    <link rel="alternate" type="text/html" href="https://htcrefactor.github.io/robot-catalog/robot.html?id=faraday-future-ff-faber"/>
+    <category term="added"/>
+    <summary type="html">&lt;p&gt;&lt;a href="https://htcrefactor.github.io/robot-catalog/robot.html?id=faraday-future-ff-faber"&gt;Faraday Future FF Faber (Faber U) — robot page&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Source: &lt;a href="https://robotics.ff.com/us/ff-faber/"&gt;https://robotics.ff.com/us/ff-faber/&lt;/a&gt;&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <id>tag:htcrefactor.github.io,2026:robot-catalog/bluepath-underdrive-omnidirectional/updated/2026-11-24</id>
+    <title>Bluepath Robotics Underdrive Omnidirectional: 3 fields changed</title>
+    <updated>2026-11-24T00:00:00Z</updated>
+    <link rel="alternate" type="text/html" href="https://htcrefactor.github.io/robot-catalog/robot.html?id=bluepath-underdrive-omnidirectional"/>
+    <category term="updated"/>
+    <summary type="html">&lt;ul&gt;&lt;li&gt;note: Maker page: 1,850 x 850 x 350 mm, 1,000 kg payload, 1.5 m/s, visual SLAM / laser SLAM / line tracking, +/-10 mm positioning, 30 Ah battery (voltage not published, so Wh not derived), VDA 5050. Weight conflicts on the same page: the text says 400 kg and the spec table says 1,000 kg - 400 kg kept, table value recorded here. FCC conditional approval DA 26-1243 (2026-11-18) lists Bluepath's 'O1000 PLATFORM' AMR; the maker publishes no such code, so the maker's own product name is used. → Maker page: 1,850 x 850 x 350 mm, 1,000 kg payload, 1.5 m/s, visual SLAM / laser SLAM / line tracking, +/-10 mm positioning, 30 Ah battery (voltage not published, so Wh not derived), VDA 5050. Weight conflicts on the same page: the text says 400 kg and the spec table says 1,000 kg - 400 kg kept, table value recorded here. FCC conditional approval DA 26-1243 (2026-11-18) lists Bluepath's 'O1000 PLATFORM' AMR and its 'OM1500 TUNNEL AMR'; the maker publishes neither code, so both are kept in variants under the maker's own product names.&lt;/li&gt;&lt;li&gt;sources: https://bluepathrobotics.com/product/underdrive-omnidirectional/ → https://bluepathrobotics.com/product/underdrive-omnidirectional/; https://docs.fcc.gov/public/attachments/DA-26-1243A…&lt;/li&gt;&lt;li&gt;variants: &lt;em&gt;—&lt;/em&gt; → {'id': 'bluepath-o1000', 'name': 'O1000 PLATFORM', 'note': "FCC model designation for this underdrive platform AMR: F…&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://htcrefactor.github.io/robot-catalog/robot.html?id=bluepath-underdrive-omnidirectional"&gt;Bluepath Robotics Underdrive Omnidirectional — robot page&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Source: &lt;a href="https://bluepathrobotics.com/product/underdrive-omnidirectional/"&gt;https://bluepathrobotics.com/product/underdrive-omnidirectional/&lt;/a&gt;&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <id>tag:htcrefactor.github.io,2026:robot-catalog/bluepath-underdrive-omnidirectional/added/2026-11-24</id>
+    <title>New robot: Bluepath Robotics Underdrive Omnidirectional</title>
+    <updated>2026-11-24T00:00:00Z</updated>
+    <link rel="alternate" type="text/html" href="https://htcrefactor.github.io/robot-catalog/robot.html?id=bluepath-underdrive-omnidirectional"/>
+    <category term="added"/>
+    <summary type="html">&lt;p&gt;&lt;a href="https://htcrefactor.github.io/robot-catalog/robot.html?id=bluepath-underdrive-omnidirectional"&gt;Bluepath Robotics Underdrive Omnidirectional — robot page&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Source: &lt;a href="https://bluepathrobotics.com/product/underdrive-omnidirectional/"&gt;https://bluepathrobotics.com/product/underdrive-omnidirectional/&lt;/a&gt;&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <id>tag:htcrefactor.github.io,2026:robot-catalog/bluepath-mouse-tunnel-high/updated/2026-11-24</id>
+    <title>Bluepath Robotics Mouse/Tunnel High: 3 fields changed</title>
+    <updated>2026-11-24T00:00:00Z</updated>
+    <link rel="alternate" type="text/html" href="https://htcrefactor.github.io/robot-catalog/robot.html?id=bluepath-mouse-tunnel-high"/>
+    <category term="updated"/>
+    <summary type="html">&lt;ul&gt;&lt;li&gt;note: Maker page: 2,100 x 500 x 230 mm, 1,000 kg payload, 450 kg weight, 1.5 m/s, natural navigation + line tracking, +/-1 cm, 62 Ah battery (voltage not published), omnidirectional drive, VDA 5050. FCC conditional approval DA 26-1243 (2026-11-18) lists Bluepath's 'OM1500 TUNNEL AMR'; the maker publishes no such code, so the maker's own product name is used. → Maker page: 2,100 x 500 x 230 mm, 1,000 kg payload, 450 kg weight, 1.5 m/s, natural navigation + line tracking, +/-1 cm, 62 Ah battery (voltage not published), omnidirectional drive, VDA 5050. FCC conditional approval DA 26-1243 (2026-11-18) lists Bluepath's 'O1000 PLATFORM' AMR and its 'OM1500 TUNNEL AMR'; the maker publishes neither code, so both are kept in variants under the maker's own product names.&lt;/li&gt;&lt;li&gt;sources: https://bluepathrobotics.com/product/mouse-tunnel-high-amr/ → https://bluepathrobotics.com/product/mouse-tunnel-high-amr/; https://docs.fcc.gov/public/attachments/DA-26-1243A1.pdf&lt;/li&gt;&lt;li&gt;variants: &lt;em&gt;—&lt;/em&gt; → {'id': 'bluepath-om1500', 'name': 'OM1500 TUNNEL AMR', 'note': "FCC model designation for Bluepath's tunnel AMR: FCC …&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://htcrefactor.github.io/robot-catalog/robot.html?id=bluepath-mouse-tunnel-high"&gt;Bluepath Robotics Mouse/Tunnel High — robot page&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Source: &lt;a href="https://bluepathrobotics.com/product/mouse-tunnel-high-amr/"&gt;https://bluepathrobotics.com/product/mouse-tunnel-high-amr/&lt;/a&gt;&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <id>tag:htcrefactor.github.io,2026:robot-catalog/bluepath-mouse-tunnel-high/added/2026-11-24</id>
+    <title>New robot: Bluepath Robotics Mouse/Tunnel High</title>
+    <updated>2026-11-24T00:00:00Z</updated>
+    <link rel="alternate" type="text/html" href="https://htcrefactor.github.io/robot-catalog/robot.html?id=bluepath-mouse-tunnel-high"/>
+    <category term="added"/>
+    <summary type="html">&lt;p&gt;&lt;a href="https://htcrefactor.github.io/robot-catalog/robot.html?id=bluepath-mouse-tunnel-high"&gt;Bluepath Robotics Mouse/Tunnel High — robot page&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Source: &lt;a href="https://bluepathrobotics.com/product/mouse-tunnel-high-amr/"&gt;https://bluepathrobotics.com/product/mouse-tunnel-high-amr/&lt;/a&gt;&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <id>tag:htcrefactor.github.io,2026:robot-catalog/agibot-g2-max/added/2026-11-24</id>
+    <title>New robot: AgiBot G2 Max</title>
+    <updated>2026-11-24T00:00:00Z</updated>
+    <link rel="alternate" type="text/html" href="https://htcrefactor.github.io/robot-catalog/robot.html?id=agibot-g2-max"/>
+    <category term="added"/>
+    <summary type="html">&lt;p&gt;&lt;a href="https://htcrefactor.github.io/robot-catalog/robot.html?id=agibot-g2-max"&gt;AgiBot G2 Max — robot page&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Source: &lt;a href="https://agibot.com/news/newsroom/post-131"&gt;https://agibot.com/news/newsroom/post-131&lt;/a&gt;&lt;/p&gt;</summary>
+  </entry>
   <entry>
     <id>tag:htcrefactor.github.io,2026:robot-catalog/zebra-fetch-freight1500/updated/2026-11-22</id>
     <title>Zebra Technologies (Fetch Robotics) Freight1500: 2 fields changed</title>
@@ -742,69 +806,5 @@
     <link rel="alternate" type="text/html" href="https://htcrefactor.github.io/robot-catalog/robot.html?id=vlai-robotics-k1"/>
     <category term="added"/>
     <summary type="html">&lt;p&gt;&lt;a href="https://htcrefactor.github.io/robot-catalog/robot.html?id=vlai-robotics-k1"&gt;VLAI Robotics K1 — robot page&lt;/a&gt;&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <id>tag:htcrefactor.github.io,2026:robot-catalog/vizum-xiaowei-agv/added/2026-11-14</id>
-    <title>New robot: Vizum Xiaowei (AGV version)</title>
-    <updated>2026-11-14T00:00:00Z</updated>
-    <link rel="alternate" type="text/html" href="https://htcrefactor.github.io/robot-catalog/robot.html?id=vizum-xiaowei-agv"/>
-    <category term="added"/>
-    <summary type="html">&lt;p&gt;&lt;a href="https://htcrefactor.github.io/robot-catalog/robot.html?id=vizum-xiaowei-agv"&gt;Vizum Xiaowei (AGV version) — robot page&lt;/a&gt;&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <id>tag:htcrefactor.github.io,2026:robot-catalog/vizum-humanoid-picking-robot/added/2026-11-14</id>
-    <title>New robot: Vizum Humanoid picking robot</title>
-    <updated>2026-11-14T00:00:00Z</updated>
-    <link rel="alternate" type="text/html" href="https://htcrefactor.github.io/robot-catalog/robot.html?id=vizum-humanoid-picking-robot"/>
-    <category term="added"/>
-    <summary type="html">&lt;p&gt;&lt;a href="https://htcrefactor.github.io/robot-catalog/robot.html?id=vizum-humanoid-picking-robot"&gt;Vizum Humanoid picking robot — robot page&lt;/a&gt;&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <id>tag:htcrefactor.github.io,2026:robot-catalog/visionnav-vnst-20/added/2026-11-14</id>
-    <title>New robot: VisionNav Robotics VNST 20</title>
-    <updated>2026-11-14T00:00:00Z</updated>
-    <link rel="alternate" type="text/html" href="https://htcrefactor.github.io/robot-catalog/robot.html?id=visionnav-vnst-20"/>
-    <category term="added"/>
-    <summary type="html">&lt;p&gt;&lt;a href="https://htcrefactor.github.io/robot-catalog/robot.html?id=visionnav-vnst-20"&gt;VisionNav Robotics VNST 20 — robot page&lt;/a&gt;&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <id>tag:htcrefactor.github.io,2026:robot-catalog/visionnav-vnr-20/added/2026-11-14</id>
-    <title>New robot: VisionNav Robotics VNR 20</title>
-    <updated>2026-11-14T00:00:00Z</updated>
-    <link rel="alternate" type="text/html" href="https://htcrefactor.github.io/robot-catalog/robot.html?id=visionnav-vnr-20"/>
-    <category term="added"/>
-    <summary type="html">&lt;p&gt;&lt;a href="https://htcrefactor.github.io/robot-catalog/robot.html?id=visionnav-vnr-20"&gt;VisionNav Robotics VNR 20 — robot page&lt;/a&gt;&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <id>tag:htcrefactor.github.io,2026:robot-catalog/visionnav-vnp-15/added/2026-11-14</id>
-    <title>New robot: VisionNav Robotics VNP 15</title>
-    <updated>2026-11-14T00:00:00Z</updated>
-    <link rel="alternate" type="text/html" href="https://htcrefactor.github.io/robot-catalog/robot.html?id=visionnav-vnp-15"/>
-    <category term="added"/>
-    <summary type="html">&lt;p&gt;&lt;a href="https://htcrefactor.github.io/robot-catalog/robot.html?id=visionnav-vnp-15"&gt;VisionNav Robotics VNP 15 — robot page&lt;/a&gt;&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <id>tag:htcrefactor.github.io,2026:robot-catalog/visionnav-vnk15/added/2026-11-14</id>
-    <title>New robot: VisionNav Robotics VNK 15</title>
-    <updated>2026-11-14T00:00:00Z</updated>
-    <link rel="alternate" type="text/html" href="https://htcrefactor.github.io/robot-catalog/robot.html?id=visionnav-vnk15"/>
-    <category term="added"/>
-    <summary type="html">&lt;p&gt;&lt;a href="https://htcrefactor.github.io/robot-catalog/robot.html?id=visionnav-vnk15"&gt;VisionNav Robotics VNK 15 — robot page&lt;/a&gt;&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <id>tag:htcrefactor.github.io,2026:robot-catalog/visionnav-vne40-66/added/2026-11-14</id>
-    <title>New robot: VisionNav Robotics VNE40-66</title>
-    <updated>2026-11-14T00:00:00Z</updated>
-    <link rel="alternate" type="text/html" href="https://htcrefactor.github.io/robot-catalog/robot.html?id=visionnav-vne40-66"/>
-    <category term="added"/>
-    <summary type="html">&lt;p&gt;&lt;a href="https://htcrefactor.github.io/robot-catalog/robot.html?id=visionnav-vne40-66"&gt;VisionNav Robotics VNE40-66 — robot page&lt;/a&gt;&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <id>tag:htcrefactor.github.io,2026:robot-catalog/vinrobotics-vr-m3/added/2026-11-14</id>
-    <title>New robot: VinRobotics (Vingroup) VR-M3</title>
-    <updated>2026-11-14T00:00:00Z</updated>
-    <link rel="alternate" type="text/html" href="https://htcrefactor.github.io/robot-catalog/robot.html?id=vinrobotics-vr-m3"/>
-    <category term="added"/>
-    <summary type="html">&lt;p&gt;&lt;a href="https://htcrefactor.github.io/robot-catalog/robot.html?id=vinrobotics-vr-m3"&gt;VinRobotics (Vingroup) VR-M3 — robot page&lt;/a&gt;&lt;/p&gt;</summary>
   </entry>
 </feed>

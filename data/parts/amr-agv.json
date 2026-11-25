@@ -5727,5 +5727,103 @@
     "seen_on": [
       "https://botupyourlife.com/en/robots/reeman-rhinoceros-autonomous-forklift-trucks-3-0/"
     ]
+  },
+  {
+    "id": "bluepath-underdrive-omnidirectional",
+    "name": "Underdrive Omnidirectional",
+    "manufacturer": "Bluepath Robotics",
+    "country": "Türkiye",
+    "category": "AMR",
+    "locomotion": "Wheeled",
+    "release_year": null,
+    "status": "Commercial",
+    "length_mm": 1850,
+    "width_mm": 850,
+    "height_mm": 350,
+    "weight_kg": 400,
+    "payload_kg": 1000,
+    "max_speed_mps": 1.5,
+    "min_speed_mps": null,
+    "wheel_diameter_mm": null,
+    "wheel_count": null,
+    "dof": null,
+    "runtime_h": null,
+    "battery_wh": null,
+    "ip_rating": null,
+    "api_support": null,
+    "sdk_available": null,
+    "sdk_name": null,
+    "onboard_compute": null,
+    "compute_detail": null,
+    "ros_support": null,
+    "sensors": [],
+    "price_usd": null,
+    "price_note": null,
+    "official_url": "https://bluepathrobotics.com/product/underdrive-omnidirectional/",
+    "sources": [
+      "https://bluepathrobotics.com/product/underdrive-omnidirectional/",
+      "https://docs.fcc.gov/public/attachments/DA-26-1243A1.pdf"
+    ],
+    "summary": "Low-profile under-drive AMR that slides beneath pallets and racks for 1,000 kg moves with omnidirectional motion, VDA 5050 fleet integration and PL d safety.",
+    "verification": "official",
+    "safety_pl": "PL d",
+    "safety_source": "https://bluepathrobotics.com/product/underdrive-omnidirectional/",
+    "variants": [
+      {
+        "id": "bluepath-o1000",
+        "name": "O1000 PLATFORM",
+        "note": "FCC model designation for this underdrive platform AMR: FCC Public Notice DA 26-1243 (2026-11-18) lists BLUEPATH ROBOTICS, INC.'s 'O1000 PLATFORM advanced mobile robot (AMR)' together with 'OM1500 TUNNEL AMR'. The maker's site and datasheet name the line by function (Underdrive Omnidirectional) and publish no O1000 code, so the code is kept here as the record's alternate model designation - matched on the FCC's own description (a platform AMR, this 1,000 kg underdrive model), not on a maker statement, which does not exist yet.",
+        "note_ko": "이 언더드라이브 플랫폼 AMR의 FCC 모델 표기입니다. FCC 공고 DA 26-1243(2026-11-18)이 'O1000 PLATFORM advanced mobile robot (AMR)'과 'OM1500 TUNNEL AMR'을 함께 올렸습니다. 제조사 사이트·데이터시트는 이 제품군을 기능명(Underdrive Omnidirectional)으로만 부르고 O1000 코드를 공개하지 않아, FCC 설명(플랫폼형 AMR, 이 1,000 kg 언더드라이브 모델)에 근거해 레코드의 별칭 모델명으로 보존합니다. 제조사가 코드를 밝힌 적은 아직 없습니다."
+      }
+    ],
+    "note": "Maker page: 1,850 x 850 x 350 mm, 1,000 kg payload, 1.5 m/s, visual SLAM / laser SLAM / line tracking, +/-10 mm positioning, 30 Ah battery (voltage not published, so Wh not derived), VDA 5050. Weight conflicts on the same page: the text says 400 kg and the spec table says 1,000 kg - 400 kg kept, table value recorded here. FCC conditional approval DA 26-1243 (2026-11-18) lists Bluepath's 'O1000 PLATFORM' AMR and its 'OM1500 TUNNEL AMR'; the maker publishes neither code, so both are kept in variants under the maker's own product names."
+  },
+  {
+    "id": "bluepath-mouse-tunnel-high",
+    "name": "Mouse/Tunnel High",
+    "manufacturer": "Bluepath Robotics",
+    "country": "Türkiye",
+    "category": "AMR",
+    "locomotion": "Wheeled",
+    "release_year": null,
+    "status": "Commercial",
+    "length_mm": 2100,
+    "width_mm": 500,
+    "height_mm": 230,
+    "weight_kg": 450,
+    "payload_kg": 1000,
+    "max_speed_mps": 1.5,
+    "min_speed_mps": null,
+    "wheel_diameter_mm": null,
+    "wheel_count": null,
+    "dof": null,
+    "runtime_h": null,
+    "battery_wh": null,
+    "ip_rating": null,
+    "api_support": null,
+    "sdk_available": null,
+    "sdk_name": null,
+    "onboard_compute": null,
+    "compute_detail": null,
+    "ros_support": null,
+    "sensors": [],
+    "price_usd": null,
+    "price_note": null,
+    "official_url": "https://bluepathrobotics.com/product/mouse-tunnel-high-amr/",
+    "sources": [
+      "https://bluepathrobotics.com/product/mouse-tunnel-high-amr/",
+      "https://docs.fcc.gov/public/attachments/DA-26-1243A1.pdf"
+    ],
+    "summary": "Low tunnel AMR that engages carts from underneath and tows up to 1,000 kg with omnidirectional motion in narrow aisles, VDA 5050 compatible.",
+    "verification": "official",
+    "variants": [
+      {
+        "id": "bluepath-om1500",
+        "name": "OM1500 TUNNEL AMR",
+        "note": "FCC model designation for Bluepath's tunnel AMR: FCC Public Notice DA 26-1243 (2026-11-18) lists BLUEPATH ROBOTICS, INC.'s 'O1000 PLATFORM advanced mobile robot (AMR)' and 'OM1500 TUNNEL AMR'. The maker's site and datasheet name the line by function (Mouse/Tunnel High and Low) and publish no OM1500 code. The FCC text names only a tunnel AMR; the maker's tunnel line has a 500 kg differential Mouse/Tunnel Low and this 1,000 kg omnidirectional Mouse/Tunnel High, so the code is kept on this record as its alternate designation, matched on product type rather than on a maker statement, which does not exist yet.",
+        "note_ko": "블루패스 터널 AMR의 FCC 모델 표기입니다. FCC 공고 DA 26-1243(2026-11-18)이 'O1000 PLATFORM advanced mobile robot (AMR)'과 'OM1500 TUNNEL AMR'을 올렸습니다. 제조사 사이트·데이터시트는 이 제품군을 기능명(Mouse/Tunnel High·Low)으로만 부르고 OM1500 코드를 공개하지 않습니다. FCC 문구는 터널 AMR만 지칭하고, 제조사 터널 라인에는 500 kg 차동구동 Mouse/Tunnel Low와 이 1,000 kg 전방향 Mouse/Tunnel High가 있어, 제품 유형에 근거해 이 레코드의 별칭 모델명으로 보존합니다. 제조사가 코드를 밝힌 적은 아직 없습니다."
+      }
+    ],
+    "note": "Maker page: 2,100 x 500 x 230 mm, 1,000 kg payload, 450 kg weight, 1.5 m/s, natural navigation + line tracking, +/-1 cm, 62 Ah battery (voltage not published), omnidirectional drive, VDA 5050. FCC conditional approval DA 26-1243 (2026-11-18) lists Bluepath's 'O1000 PLATFORM' AMR and its 'OM1500 TUNNEL AMR'; the maker publishes neither code, so both are kept in variants under the maker's own product names."
   }
 ]

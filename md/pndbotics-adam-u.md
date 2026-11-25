@@ -79,4 +79,4 @@ PNDbotics wiki (checked 2026-11-17): Adam-U is an upper-body humanoid on a heigh
 
 ---
 
-*Robot Catalog — generated from data/robots.json (last merged 2026-11-22). Source repository: https://github.com/htcrefactor/robot-catalog*
+*Robot Catalog — generated from data/robots.json (last merged 2026-11-24). Source repository: https://github.com/htcrefactor/robot-catalog*
