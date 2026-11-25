@@ -4,13 +4,13 @@
 <h1 data-i18n="home_title"></h1>
 <p class="muted" data-i18n="home_sub"></p>
 <div class="stats" id="stats"></div>
-<div class="controls"><input type="search" id="q" data-i18n-ph="search"><select id="sf"></select><select id="pc"></select><select id="chip"></select><div id="chips"></div><div class="chiprow" id="devchips" style="flex-basis:100%"></div></div>
+<div class="controls"><input type="search" id="q" data-i18n-ph="search"><select id="sf"></select><select id="pc"></select><select id="chip"></select><label class="small chk" id="verL"><input type="checkbox" id="ver"> <span id="verT"></span></label><span class="small muted" id="verN"></span><div id="chips"></div><div class="chiprow" id="devchips" style="flex-basis:100%"></div></div>
 <div class="controls reqbar" id="reqf"></div>
 <div class="grid" id="grid"></div>
 </main><div id="foot"></div>
 <script>
 document.title=t("brand");
-let robots=[],cat="All",krOnly=false,chip="";
+let robots=[],cat="All",krOnly=false,chip="",verOnly=false;
 let req={match:()=>true,note:()=>{}}; // requirement minimums (assets/reqfilter.js)
 const P0=new URLSearchParams(location.search); // filter state is read from the URL, so a filtered view can be shared
 const krInfo=r=>r.country==="South Korea"||!!(r.name_ko||(r.kr_distributors||[]).length);
@@ -22,22 +22,25 @@ const devPass=r=>DEV_FILTERS.every(([k,f])=>!dev.has(k)||f(r));
 // write this page's filter state back to the query, leaving other keys (requirement minimums) as they are
 function writeURL(){const p=new URLSearchParams(location.search);const set=(k,v)=>{if(v)p.set(k,v);else p.delete(k);};
 set("q",document.getElementById("q").value.trim());set("cat",cat==="All"?"":cat);set("sf",document.getElementById("sf").value);
-set("pc",document.getElementById("pc").value);set("chip",chip);set("kr",krOnly?"1":"");set("dev",[...dev].join(","));
+set("pc",document.getElementById("pc").value);set("chip",chip);set("kr",krOnly?"1":"");set("ver",verOnly?"1":"");set("dev",[...dev].join(","));
 history.replaceState(null,"",location.pathname+(p.toString()?"?"+p:"")+location.hash);}
 function renderDev(){const el=document.getElementById("devchips");if(!el)return;
 el.innerHTML=`<span class="small muted">${t("flt_dev")}</span>`+DEV_FILTERS.map(([k,f])=>`<button class="chip ${dev.has(k)?"on":""}" data-d="${k}" aria-pressed="${dev.has(k)}">${t("dev_"+k)} <span class="muted">${robots.filter(f).length}</span></button>`).join(" ");}
 function render(){const q=document.getElementById("q").value.toLowerCase();const sf=document.getElementById("sf").value,pc=document.getElementById("pc").value;
-const list=robots.filter(r=>(cat==="All"||r.category===cat)&&devPass(r)&&req.match(r)&&safetyMatch(r,sf)&&(!pc||payloadClassOf(r.payload_kg)===pc)&&(!krOnly||krInfo(r))&&(!chip||chipIds(r).includes(chip))&&(!q||[r.name,r.manufacturer,r.name_ko,r.manufacturer_ko,...(r.kr_distributors||[]).map(d=>d.name)].filter(Boolean).join(" ").toLowerCase().includes(q))).sort((a,b)=>a.manufacturer.localeCompare(b.manufacturer)||a.name.localeCompare(b.name));
+const list=robots.filter(r=>(cat==="All"||r.category===cat)&&devPass(r)&&req.match(r)&&safetyMatch(r,sf)&&(!pc||payloadClassOf(r.payload_kg)===pc)&&(!krOnly||krInfo(r))&&(!chip||chipIds(r).includes(chip))&&(!verOnly||r.verification==="official")&&(!q||[r.name,r.manufacturer,r.name_ko,r.manufacturer_ko,...(r.kr_distributors||[]).map(d=>d.name)].filter(Boolean).join(" ").toLowerCase().includes(q))).sort((a,b)=>a.manufacturer.localeCompare(b.manufacturer)||a.name.localeCompare(b.name));
 req.note(list.length,robots.length);
+document.getElementById("verN").textContent=verOnly?t("verified_n",{n:list.length,m:robots.length}):"";
 document.getElementById("grid").innerHTML=list.map(r=>`<a class="card" href="robot.html?id=${encodeURIComponent(r.id)}">
 <div class="mk">${esc(cardMaker(r))}</div><div class="nm">${esc(cardName(r))}${cardNameSub(r)?` <span class="muted small">${esc(cardNameSub(r))}</span>`:""}</div>
-<div><span class="tag" style="background:${CAT_COLORS[r.category]}22;color:${CAT_COLORS[r.category]}">${esc(tv(r.category))}</span><span class="tag plain">${esc(tv(r.locomotion))}</span>${(r.kr_distributors||[]).length?`<span class="tag plain">🇰🇷 ${t("kr_market")}</span>`:""}</div>
+<div><span class="tag" style="background:${CAT_COLORS[r.category]}22;color:${CAT_COLORS[r.category]}">${esc(tv(r.category))}</span><span class="tag plain">${esc(tv(r.locomotion))}</span>${r.verification!=="official"?`<span class="tag plain" title="${esc(r.verification==="unconfirmed"?t("pv_unconfirmed_t"):t("pv_unchecked_t"))}">${t("pv_unconfirmed")}</span>`:""}${(r.kr_distributors||[]).length?`<span class="tag plain">🇰🇷 ${t("kr_market")}</span>`:""}</div>
 <div class="kv"><span>${t("max_speed")}</span><span>${fmt(r.max_speed_mps,"m/s")}</span><span>${t("payload")}</span><span>${fmt(r.payload_kg,"kg")}</span><span>${t("ip")}</span><span>${fmt(r.ip_rating)}</span></div>
 ${safetyLine(r)?`<div class="small safety">${esc(safetyLine(r))}</div>`:""}
 <div class="small">${FEATURES.map(([k,l])=>`${t(l)} ${yn(r[k])}`).join(" ")}</div>
 ${hasCompute(r)?`<div class="small">${t("compute_soc")}: ${esc(r.compute_soc||"—")}${r.compute_tops!=null?` · ${topsText(r)}`:``}</div>`:``}</a>`).join("")||`<p class="muted">${t("no_match")}</p>`;}
 (async()=>{const d=await loadData();robots=d.robots;
-cat=P0.get("cat")&&robots.some(r=>r.category===P0.get("cat"))?P0.get("cat"):"All";krOnly=P0.get("kr")==="1";
+cat=P0.get("cat")&&robots.some(r=>r.category===P0.get("cat"))?P0.get("cat"):"All";krOnly=P0.get("kr")==="1";verOnly=P0.get("ver")==="1";
+document.getElementById("verT").textContent=t("verified_only");document.getElementById("verL").title=t("verified_only_t");document.getElementById("ver").checked=verOnly;
+document.getElementById("ver").onchange=e=>{verOnly=e.target.checked;writeURL();render();};
 document.getElementById("q").value=P0.get("q")||"";
 req=makeReqFilters({el:document.getElementById("reqf"),robots,onChange:()=>render()});
 const makers=new Set(robots.map(r=>r.manufacturer)).size;
