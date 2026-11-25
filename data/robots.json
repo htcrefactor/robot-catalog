@@ -1,7 +1,7 @@
 {
  "meta": {
-  "version": "2026.11.22",
-  "updated": "2026-11-22",
+  "version": "2026.11.25",
+  "updated": "2026-11-25",
   "count": 1004,
   "license": "CC BY 4.0",
   "license_url": "https://creativecommons.org/licenses/by/4.0/",
@@ -21534,25 +21534,73 @@
    "runtime_h": 3.0,
    "battery_wh": 244.8,
    "ip_rating": null,
-   "api_support": null,
-   "sdk_available": null,
-   "sdk_name": null,
-   "onboard_compute": null,
-   "compute_detail": null,
-   "ros_support": null,
-   "sensors": [],
+   "api_support": true,
+   "sdk_available": true,
+   "sdk_name": "Noetix Boomy open SDK",
+   "onboard_compute": true,
+   "compute_detail": "NVIDIA Jetson Orin NX (Boomy EDU)",
+   "ros_support": true,
+   "sensors": [
+    "RGB camera",
+    "Intel RealSense D435i depth camera (Boomy EDU)",
+    "Microphone array",
+    "Speaker"
+   ],
    "price_usd": null,
-   "price_note": "Noetix describes Bumi as a 万元-class (about CNY 10,000) consumer humanoid; no USD list price",
-   "official_url": "https://www.noetixrobotics.com",
+   "price_note": null,
+   "official_url": "http://www.noetixrobotics.com/en/detail/Bumi/",
    "sources": [
     "https://webuildhumanoids.com/compare/noetix-bumi-vs-noetix-n2",
-    "https://www.noetixrobotics.com"
+    "https://www.noetixrobotics.com",
+    "https://boomy.noetixrobotics.com/",
+    "https://www.newswire.com/news/noetix-robotics-introduces-noetix-boomy-a-programmable-humanoid-robot-22891909",
+    "https://www.kickstarter.com/projects/noetixrobotics/noetix-boomy-your-first-programmable-humanoid-robot",
+    "http://www.noetixrobotics.com/en/detail/Bumi/"
    ],
-   "summary": "Noetix's consumer companion humanoid Bumi: 98 cm, about 17 kg, 21 DoF and 2-3 h of use, sold with graphical programming and dance routines.",
+   "summary": "Noetix's small consumer humanoid, sold in China as Bumi and internationally as Boomy: 98 cm, about 17 kg, 21 DoF, 2-3 h of use, graphical coding plus an open SDK on the international edition.",
    "verification": "official",
    "notes": "Issue #17 (2026-11-17): Noetix Bumi - 98 cm, 17 kg, 21 DoF, up to 3 h, 48 V 5.1 Ah (244.8 Wh), 0.5 m/s from Noetix's own pages. HumanoidStore's price removed: Noetix quotes through distributors. [replaced runtime_h: 2.0 -> 3.0; battery_wh: None -> 244.8] HumanoidStore price (US$1400) removed: no maker list price confirmed.",
-   "note": "Noetix product page and WRC 2026 profile (checked 2026-11-17): 98 cm, about 17 kg, 21 DoF (6 per leg, 4 per arm, 1 waist), 0.5 m/s, 2-3 h on a 48 V 5.1 Ah quick-release pack (244.8 Wh computed as V x Ah), camera and IMU, 6 TOPS motion board. The Pro edition adds high-dynamic dance; the EDU Pro adds a Jetson Orin Nano Super.",
-   "data_source": "Maker sources (verified 2026-11-17)"
+   "note": "Noetix product page and WRC 2026 profile (checked 2026-11-17): 98 cm, about 17 kg, 21 DoF (6 per leg, 4 per arm, 1 waist), 0.5 m/s, 2-3 h on a 48 V 5.1 Ah quick-release pack (244.8 Wh computed as V x Ah), camera and IMU, 6 TOPS motion board. The Pro edition adds high-dynamic dance; the EDU Pro adds a Jetson Orin Nano Super. International edition (Boomy, launched 2026-11-24 on Kickstarter) per Noetix's own Boomy page and release: 97 cm, up to 1 m/s, 2-3 h, 21 DoF split as 4 per arm / 6 per leg / 1 waist, open SDK with block coding, Python and C++, ROS 2 development, EDU adds an NVIDIA Jetson Orin NX (117 TOPS) and an Intel RealSense D435i, Wi-Fi/Bluetooth/OTA, built-in ChatGPT voice AI (requires internet), 3D-printable STP shell files. The China Bumi page states 98 cm and a 0.5 m/s lower-limb travel speed; those values stay in the fields. China retail price CNY 9,998 (JD Noetix flagship store, 2026-11) is not a dated observation from a page checked here.",
+   "data_source": "Maker sources (verified 2026-11-17)",
+   "variants": [
+    {
+     "id": "noetix-boomy",
+     "name": "Boomy (international edition)",
+     "note": "International, Kickstarter edition of Bumi: same 21-DoF body, launched 2026-11-24. Noetix's own Boomy page and release give 97 cm, up to 1 m/s and 2-3 h; the China Bumi page gives 98 cm, 0.5 m/s and up to 3 h. Not a separate model.",
+     "note_ko": "Bumi의 해외(킥스타터) 에디션으로, 같은 21자유도 기체를 2026-11-24에 출시했습니다. 노엑틱스의 Boomy 페이지·보도자료는 97 cm, 최대 1 m/s, 2~3시간을, 중국 Bumi 페이지는 98 cm, 0.5 m/s, 최대 3시간을 적고 있습니다. 별도 모델이 아닙니다.",
+     "url": "https://boomy.noetixrobotics.com/"
+    }
+   ],
+   "sdk": {
+    "languages": [
+     "Python",
+     "C++"
+    ],
+    "open_source": null,
+    "license": null,
+    "url": "https://boomy.noetixrobotics.com/"
+   },
+   "compute_soc": "NVIDIA Jetson Orin NX",
+   "compute_tops": 117,
+   "compute_source": "https://www.newswire.com/news/noetix-robotics-introduces-noetix-boomy-a-programmable-humanoid-robot-22891909",
+   "price_observations": [
+    {
+     "date": "2026-11-24",
+     "amount": 5899,
+     "currency": "USD",
+     "kind": "list",
+     "source": "https://www.kickstarter.com/projects/noetixrobotics/noetix-boomy-your-first-programmable-humanoid-robot",
+     "note": "Boomy Standard MSRP; Kickstarter super early bird US$3,599 (39% off), delivery from Jan 2027"
+    },
+    {
+     "date": "2026-11-24",
+     "amount": 9999,
+     "currency": "USD",
+     "kind": "list",
+     "source": "https://www.kickstarter.com/projects/noetixrobotics/noetix-boomy-your-first-programmable-humanoid-robot",
+     "note": "Boomy EDU MSRP (adds Jetson Orin NX and RealSense D435i); Kickstarter super early bird US$5,999 (40% off)"
+    }
+   ]
   },
   {
    "id": "noetix-dora",
@@ -26974,7 +27022,8 @@
    "sources": [
     "http://www.t-robotics.co.kr/product_rehabilitation.do",
     "https://www.irobotnews.com/news/articleView.html?idxno=45174",
-    "http://www.t-robotics.co.kr/"
+    "http://www.t-robotics.co.kr/",
+    "https://core.asiae.co.kr/article/2026112508534481820"
    ],
    "summary": "TR-WORKS is T-Robotics' process-logistics humanoid for semiconductor and display lines: an AMR base with a 20-DOF body, 3 kg payload and vacuum-robot precision motion.",
    "image_url": null,
@@ -26984,7 +27033,7 @@
     "https://embodied.guide/robots/t-robotics-tr-works/"
    ],
    "verification": "official",
-   "note": "Maker product page lists TR-WORKS as its next-generation humanoid for semiconductor and display process logistics; the figures come from the company's statements at its first public showing (Automation World 2026, 2026-03-04): height 180 cm, weight 180 kg, payload 3 kg, 20 DOF (arms 14, body/legs 4, AMR 2), 55 cm up-down travel, +/-45-degree bending, +/-180-degree torso rotation, an AMR base with FMS integration, 3-finger and 2-finger interchangeable hands, teleoperation and VR teaching, imitation learning and RFM zero-shot recognition; the company plans to raise payload to 20-30 kg. Speed, battery and runtime are not published. Status is Prototype: it was exhibited and is being tested in the company's own lines and in a government project with a display maker and KAIST through 2030.",
+   "note": "Maker product page lists TR-WORKS as its next-generation humanoid for semiconductor and display process logistics; the figures come from the company's statements at its first public showing (Automation World 2026, 2026-03-04): height 180 cm, weight 180 kg, payload 3 kg, 20 DOF (arms 14, body/legs 4, AMR 2), 55 cm up-down travel, +/-45-degree bending, +/-180-degree torso rotation, an AMR base with FMS integration, 3-finger and 2-finger interchangeable hands, teleoperation and VR teaching, imitation learning and RFM zero-shot recognition; the company plans to raise payload to 20-30 kg. Speed, battery and runtime are not published. Status is Prototype: it was exhibited and is being tested in the company's own lines and in a government project with a display maker and KAIST through 2030. A 2026-11-25 SK Securities note (Asia Economy) reports later figures — 140 cm, 131 kg, 30 kg payload and 8 h of continuous work on the AMR battery — and a first North American showing at CES 2027, with supply expected to start in 2027. Those are broker-report figures, not maker statements, so the fields keep the company's own Automation World 2026 values (180 cm, 180 kg, 3 kg) and only this note carries the difference; the 30 kg matches the company's stated plan to raise payload to 20-30 kg.",
    "manufacturer_ko": "티로보틱스",
    "kr_distributors": [
     {
