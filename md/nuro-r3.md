@@ -115,4 +115,4 @@ Maker spec sheet 'Nuro R3 - Third-generation vehicle' (2022, nuro.ai): 45 mph, 5
 
 ---
 
-*Robot Catalog — generated from data/robots.json (last merged 2026-11-22). Source repository: https://github.com/htcrefactor/robot-catalog*
+*Robot Catalog — generated from data/robots.json (last merged 2026-11-24). Source repository: https://github.com/htcrefactor/robot-catalog*

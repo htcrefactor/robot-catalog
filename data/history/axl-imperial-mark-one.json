@@ -1,0 +1,74 @@
+{
+ "id": "axl-imperial-mark-one",
+ "name": "MARK One",
+ "manufacturer": "Axl Imperial",
+ "updated": "2026-11-24",
+ "events": [
+  {
+   "date": "2026-11-24",
+   "type": "updated",
+   "source": "https://markone.gr/",
+   "changes": [
+    {
+     "field": "max_speed_mps",
+     "from": null,
+     "to": 1.5
+    },
+    {
+     "field": "note",
+     "from": null,
+     "to": "Issue #1 (2026-11-24): maker figures from markone.gr/hardware.html — 6 kg payload, 1.5 m/s, 8-10 h per charge (8 h recorded) with dual hot-swap batteries and a docking station for continuous work, LiDAR and proximity sensors in the base, high-resolution RGB and depth cameras in the head, dual 6-axis arms, 5-axis uplifter, five-finger hands with force and tactile sensing. No total DoF, weight or battery capacity is published, so those stay empty. Height is not on the site; the maker's own LinkedIn post (2026-11-16) says it adjusts from 1.7 m to 2.5 m, a range with no single figure, so height_mm stays empty. Price is quote-only. Publicly presented April 2026."
+    },
+    {
+     "field": "official_url",
+     "from": null,
+     "to": "https://markone.gr/"
+    },
+    {
+     "field": "payload_kg",
+     "from": null,
+     "to": 6
+    },
+    {
+     "field": "release_year",
+     "from": null,
+     "to": 2026
+    },
+    {
+     "field": "runtime_h",
+     "from": null,
+     "to": 8.0
+    },
+    {
+     "field": "sensors",
+     "from": [],
+     "to": [
+      "LiDAR",
+      "Proximity sensor",
+      "RGB camera",
+      "Depth camera"
+     ]
+    },
+    {
+     "field": "sources",
+     "from": [],
+     "to": [
+      "https://markone.gr/",
+      "https://markone.gr/hardware.html",
+      "https://www.linkedin.com/posts/axlimperial_markone-humanoidrobotics-physicalai-activity-7528039676402905088-8rAN"
+     ]
+    },
+    {
+     "field": "summary",
+     "from": "",
+     "to": "Greek mobile industrial humanoid on an AMR base with a 5-axis uplifter and two 6-axis arms for pick-and-place, machine tending, palletizing and welding."
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "official"
+    }
+   ]
+  }
+ ]
+}

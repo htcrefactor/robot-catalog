@@ -1,0 +1,48 @@
+{
+ "id": "arkshel-mx01",
+ "name": "MX01",
+ "manufacturer": "Arkshel Robotics",
+ "updated": "2026-11-24",
+ "events": [
+  {
+   "date": "2026-11-24",
+   "type": "updated",
+   "source": "https://arkshel.com/en/",
+   "changes": [
+    {
+     "field": "note",
+     "from": null,
+     "to": "Issue #1 (2026-11-24): Arkshel Robotics (Shenzhen, founded 2026-07) unveiled MX01 test footage on 2026-08-12 — humanoid base form that transforms into quadruped and, with a docking flight module, into an aerial configuration. The maker calls it a prototype and says final appearance and structure may change; no height, weight, payload, speed, battery or DoF figure is published on arkshel.com, so those fields stay empty. Locomotion kept as the base humanoid form; the machine is multi-form."
+    },
+    {
+     "field": "official_url",
+     "from": null,
+     "to": "https://arkshel.com/en/"
+    },
+    {
+     "field": "release_year",
+     "from": null,
+     "to": 2026
+    },
+    {
+     "field": "sources",
+     "from": [],
+     "to": [
+      "https://arkshel.com/en/",
+      "https://arkshel.com/en/sys-nd/94.html"
+     ]
+    },
+    {
+     "field": "summary",
+     "from": "",
+     "to": "Flying transformable humanoid prototype that switches between humanoid, quadruped and aerial configurations (a wheeled mode is in development); the maker publishes no numeric specs."
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "official"
+    }
+   ]
+  }
+ ]
+}

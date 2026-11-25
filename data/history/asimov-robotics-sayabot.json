@@ -1,0 +1,54 @@
+{
+ "id": "asimov-robotics-sayabot",
+ "name": "SAYABOT",
+ "manufacturer": "Asimov Robotics",
+ "updated": "2026-11-24",
+ "events": [
+  {
+   "date": "2026-11-24",
+   "type": "updated",
+   "source": "https://asimovrobotics.com/products.php?id=33",
+   "changes": [
+    {
+     "field": "note",
+     "from": null,
+     "to": "Issue #1 (2026-11-24): Asimov's Sayabot page gives features only — wheels on flat floors, arms with gestures, built-in robot camera, face recognition, obstacle detection, teleoperation, tablet display — and no height, weight, speed, DoF, battery or payload figure. Optional fingerprint/thermal-camera items are options, so only the standard camera is listed. Reseller/aggregator figures (e.g. IndiaMart 40-50 kg, 160 cm) were not used. Status taken from the maker's product page, which offers the robot with customization."
+    },
+    {
+     "field": "official_url",
+     "from": null,
+     "to": "https://asimovrobotics.com/products.php?id=33"
+    },
+    {
+     "field": "sensors",
+     "from": [],
+     "to": [
+      "Camera"
+     ]
+    },
+    {
+     "field": "sources",
+     "from": [],
+     "to": [
+      "https://asimovrobotics.com/products.php?id=33"
+     ]
+    },
+    {
+     "field": "status",
+     "from": null,
+     "to": "Commercial"
+    },
+    {
+     "field": "summary",
+     "from": "",
+     "to": "Wheeled Indian multi-purpose humanoid-style service robot for reception, guidance, banking, healthcare and security; the maker lists features but no mechanical specs."
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "official"
+    }
+   ]
+  }
+ ]
+}

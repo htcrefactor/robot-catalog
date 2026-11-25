@@ -1,0 +1,117 @@
+{
+ "id": "blue-worm-mantis-standard",
+ "name": "Mantis Standard",
+ "manufacturer": "Blue Worm Robotics",
+ "updated": "2026-11-24",
+ "events": [
+  {
+   "date": "2026-11-24",
+   "type": "updated",
+   "source": "https://www.bluewormrobotics.com/products/mantis-standard",
+   "changes": [
+    {
+     "field": "dof",
+     "from": null,
+     "to": 22
+    },
+    {
+     "field": "height_mm",
+     "from": null,
+     "to": 1400
+    },
+    {
+     "field": "length_mm",
+     "from": null,
+     "to": 633
+    },
+    {
+     "field": "max_speed_mps",
+     "from": null,
+     "to": 3.0
+    },
+    {
+     "field": "note",
+     "from": null,
+     "to": "Issue #1 (2026-11-24): 633 x 552 x 1,400 mm, 22 DoF, 7 kg per arm (663 mm span), 3 m/s forward, 550 mm waist lift at 200 mm/s, 3-DoF omnidirectional base, 3 h runtime, VR teleoperation (Quantum, <10 ms) and ROS 2 / MoveIt 2 / SDK support per configuration; the manual adds a 48 V 5 A charger. No weight or battery Ah is published, so weight_kg and battery_wh stay empty, and the sensor set varies by configuration, so sensors stay empty. Listed price is the maker's own 'from' figure, recorded as a dated observation."
+    },
+    {
+     "field": "official_url",
+     "from": null,
+     "to": "https://www.bluewormrobotics.com/products/mantis-standard"
+    },
+    {
+     "field": "payload_kg",
+     "from": null,
+     "to": 7
+    },
+    {
+     "field": "price_observations",
+     "from": null,
+     "to": [
+      {
+       "date": "2026-11-24",
+       "amount": 9800,
+       "currency": "CNY",
+       "kind": "from",
+       "source": "https://www.bluewormrobotics.com/products/mantis-standard",
+       "note": "Starting price ('0.98 万起') for the modular Mantis Standard platform; the configuration it covers is not stated."
+      }
+     ]
+    },
+    {
+     "field": "release_year",
+     "from": null,
+     "to": 2026
+    },
+    {
+     "field": "ros_support",
+     "from": null,
+     "to": true
+    },
+    {
+     "field": "runtime_h",
+     "from": null,
+     "to": 3.0
+    },
+    {
+     "field": "sdk_available",
+     "from": null,
+     "to": true
+    },
+    {
+     "field": "sdk_name",
+     "from": null,
+     "to": "Mantis SDK"
+    },
+    {
+     "field": "sources",
+     "from": [],
+     "to": [
+      "https://www.bluewormrobotics.com/products/mantis-standard",
+      "https://www.bluewormrobotics.com/documents/mantis-standard/mantis-standard-user-manual.pdf"
+     ]
+    },
+    {
+     "field": "status",
+     "from": null,
+     "to": "Commercial"
+    },
+    {
+     "field": "summary",
+     "from": "",
+     "to": "Wheeled modular humanoid (arm, base, waist and head modules on quick-mount interfaces) built for upper-body work, sold from CNY 9,800 for research and light industrial use."
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "official"
+    },
+    {
+     "field": "width_mm",
+     "from": null,
+     "to": 552
+    }
+   ]
+  }
+ ]
+}
