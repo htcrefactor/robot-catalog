@@ -5,7 +5,7 @@
 - Canonical site: https://htcrefactor.github.io/robot-catalog/
 - Index for agents: https://htcrefactor.github.io/robot-catalog/llms.txt
 - Per-robot Markdown with the full spec sheet and a source on every value: https://htcrefactor.github.io/robot-catalog/md/<id>.md
-- Generated from data/robots.json, last merged 2026-11-22. No scoring, no ranking.
+- Generated from data/robots.json, last merged 2026-11-26. No scoring, no ranking.
 
 ## AMR (96)
 
@@ -1105,7 +1105,7 @@
 - Specs: Length 1,620 mm; Width 800 mm; Height 1,830 mm; Weight 520 kg; Payload 2,000 kg; Max speed 1.8 m/s (6.5 km/h); Released 2023; Status Commercial
 - Sources: https://www.visionnav.com/product/detail/VNST20-Pallet-Stacker-AGV, https://www.visionnav.com/news/detail/detail298.html
 
-## Humanoid (565)
+## Humanoid (563)
 
 ### 1X Technologies EVE
 
@@ -1234,22 +1234,6 @@
 - Summary: Wheeled dual-arm general-purpose robot with lifting waist, designed for embodied-AI data collection and model inference.
 - Specs: Height 1,800 mm; Weight 150 kg; Payload 3 kg; Degrees of freedom 26; Runtime 4 h; Status Commercial; On-board compute yes; Compute NVIDIA Jetson AGX Orin 64GB; Sensors 3x RGB-D camera, 5x fisheye camera, Six-axis force sensors (both arms), Chassis front/rear RGB-D cameras, LiDAR
 - Sources: https://www.agibot.com/products/G1
-
-### AgiBot C4
-
-- id: `agibot-c4`
-- Page: https://htcrefactor.github.io/robot-catalog/robot.html?id=agibot-c4
-- Markdown: https://htcrefactor.github.io/robot-catalog/md/agibot-c4.md
-- Humanoid · China
-- Sources: none recorded
-
-### AgiBot C5
-
-- id: `agibot-c5`
-- Page: https://htcrefactor.github.io/robot-catalog/robot.html?id=agibot-c5
-- Markdown: https://htcrefactor.github.io/robot-catalog/md/agibot-c5.md
-- Humanoid · China
-- Sources: none recorded
 
 ### AgiBot Expedition A3
 
@@ -9808,7 +9792,27 @@
 - Specs: Width 508 mm; Height 1,491 mm; Weight 113.3 kg; Payload 6 kg; Max speed 1 m/s (3.6 km/h); Degrees of freedom 13; Status Commercial; API yes; ROS yes; On-board compute yes; Compute Intel i5 Haswell, 16 GB RAM, 120 GB SSD; Sensors 2D laser (25 m, 220°), RGB-D camera (Primesense Carmine 1.09), 2x 6-DoF IMU
 - Sources: https://docs.fetchrobotics.com/robot_hardware.html, https://docs.fetchrobotics.com/api_overview.html, https://www.amaasia.net/product%20PDF/Fetch_spec_download.pdf
 
-## Misc (5)
+## Misc (7)
+
+### AgiBot C4
+
+- id: `agibot-c4`
+- Page: https://htcrefactor.github.io/robot-catalog/robot.html?id=agibot-c4
+- Markdown: https://htcrefactor.github.io/robot-catalog/md/agibot-c4.md
+- Misc · Wheeled · Commercial · China
+- Summary: AGIBOT's commercial floor-cleaning robot for small-to-medium indoor spaces, sweeping, scrubbing and dust mopping in one pass from a docking station that charges it and refills and drains water.
+- Specs: Length 680 mm; Width 510 mm; Height 1,015 mm; Weight 140 kg; Max speed 1.2 m/s (4.3 km/h); Runtime 3 h; Status Commercial; Sensors LiDAR + vision fusion positioning
+- Sources: https://www.agibot.com/kr/products/C4, https://www.agibot.com.cn/products/C4, https://cms-tos.agibot.com/manuals/20261029/AGIBOT-Product-Brochure-EN-20261029.pdf
+
+### AgiBot C5
+
+- id: `agibot-c5`
+- Page: https://htcrefactor.github.io/robot-catalog/robot.html?id=agibot-c5
+- Markdown: https://htcrefactor.github.io/robot-catalog/md/agibot-c5.md
+- Misc · Wheeled · Commercial · China
+- Summary: AGIBOT's commercial floor-cleaning robot for medium-to-large indoor spaces, combining sweeping, scrubbing and dry mopping with a station that charges, refills and drains it.
+- Specs: Length 820 mm; Width 680 mm; Height 1,130 mm; Weight 170 kg; Max speed 1 m/s (3.6 km/h); Runtime 3 h; Status Commercial; Sensors LiDAR + vision fusion positioning
+- Sources: https://www.agibot.com/products/C5, https://store.agibot.com/products/c5, https://cms-tos.agibot.com/manuals/20261029/AGIBOT-Product-Brochure-EN-20261029.pdf
 
 ### Geek+ RoboShuttle V5
 

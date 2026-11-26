@@ -256,5 +256,117 @@
   "note": "Scope/identity flag: CODiAQ is an armed 'lethality kit' (Skyborne targeting box + HAVOC 40mm / CHAOS 12GA weapon) integrated on a Ghost Robotics Vision 60 quadruped; the walking platform is Ghost Robotics', not Skyborne's - risk of duplicating Vision 60 in the catalogue. Datasheet: 66 kg operational mass (with HAVOC), <=2 h 15 min runtime, 10.5 km/h (2.92 m/s), IP67, MIL-STD-810H, TRL 8, ATEC safety release; 14 systems delivering to SOF (maker one-pager excerpt). Status Pilot (operational test & combat evaluation). Country left out: datasheet lists Virginia USA + Brisbane AU.",
   "original_category": "Quadruped",
   "misc_reason": "Weapon payload kit mounted on Ghost Robotics Vision 60; not a separate robot."
+ },
+ {
+  "id": "agibot-c4",
+  "name": "C4",
+  "manufacturer": "AgiBot",
+  "country": "China",
+  "category": "Misc",
+  "locomotion": "Wheeled",
+  "release_year": null,
+  "status": "Commercial",
+  "length_mm": 680,
+  "width_mm": 510,
+  "height_mm": 1015,
+  "weight_kg": 140,
+  "payload_kg": null,
+  "max_speed_mps": 1.2,
+  "min_speed_mps": null,
+  "wheel_diameter_mm": null,
+  "wheel_count": null,
+  "dof": null,
+  "runtime_h": 3,
+  "battery_wh": null,
+  "ip_rating": null,
+  "api_support": null,
+  "sdk_available": null,
+  "sdk_name": null,
+  "onboard_compute": null,
+  "compute_detail": null,
+  "ros_support": null,
+  "sensors": [
+   "LiDAR + vision fusion positioning"
+  ],
+  "price_usd": null,
+  "price_note": null,
+  "official_url": "https://www.agibot.com/kr/products/C4",
+  "sources": [
+   "https://www.agibot.com/kr/products/C4",
+   "https://www.agibot.com.cn/products/C4",
+   "https://cms-tos.agibot.com/manuals/20261029/AGIBOT-Product-Brochure-EN-20261029.pdf"
+  ],
+  "summary": "AGIBOT's commercial floor-cleaning robot for small-to-medium indoor spaces, sweeping, scrubbing and dust mopping in one pass from a docking station that charges it and refills and drains water.",
+  "image_url": null,
+  "image_source": null,
+  "videos": [],
+  "seen_on": [
+   "https://botupyourlife.com/en/robots/agibot-c4/"
+  ],
+  "verification": "official",
+  "note": "Scope flag: C4 is a commercial floor-cleaning robot, which the catalog excludes, so the record sits in Misc instead of Humanoid; it is not a humanoid. AGIBOT's 2026-10-29 product brochure (pp. 48-49, C-series table) and its own Korean and Chinese product pages state 680 x 510 x 1015 mm, 140 kg, 1.2 m/s, scrubbing 3 h (dust mopping 8 h) on a 24 V 60 Ah battery with 1.5 h charging, 380 mm scrubbing width (600 mm with the side brushes), 540 mm squeegee, 25 L clean and 25 L dirty water, 1.6 L dustbin, up to 1,400 m2/h with a 95% debris pickup rate, 600 mm minimum aisle, 800 mm turning radius, 25 kg downforce and under 65 dB(A); the docking station holds 4 L, refills at 5-8 L/min, drains at 4-8 L/min and draws up to 1,200 W. Positioned for subway stations, factory warehouses, hotels, supermarkets, offices and showrooms, with access-control and elevator integration; AGIBOT states ISO 9001 for quality. No price is published on the maker's pages.",
+  "original_category": "Humanoid",
+  "misc_reason": "Commercial floor-cleaning robot (sweeping, scrubbing, dust mopping); the catalog excludes cleaning robots, and it is not a humanoid."
+ },
+ {
+  "id": "agibot-c5",
+  "name": "C5",
+  "manufacturer": "AgiBot",
+  "country": "China",
+  "category": "Misc",
+  "locomotion": "Wheeled",
+  "release_year": null,
+  "status": "Commercial",
+  "length_mm": 820,
+  "width_mm": 680,
+  "height_mm": 1130,
+  "weight_kg": 170,
+  "payload_kg": null,
+  "max_speed_mps": 1.0,
+  "min_speed_mps": null,
+  "wheel_diameter_mm": null,
+  "wheel_count": null,
+  "dof": null,
+  "runtime_h": 3,
+  "battery_wh": null,
+  "ip_rating": null,
+  "api_support": null,
+  "sdk_available": null,
+  "sdk_name": null,
+  "onboard_compute": null,
+  "compute_detail": null,
+  "ros_support": null,
+  "sensors": [
+   "LiDAR + vision fusion positioning"
+  ],
+  "price_observations": [
+   {
+    "date": "2026-11-26",
+    "amount": 32900,
+    "currency": "USD",
+    "kind": "list",
+    "source": "https://store.agibot.com/products/c5",
+    "note": "AGIBOT Store single variant ('Default Title'), no robot-only or with-workstation choice; page does not state whether the workstation is included; listed out of stock; shipping quoted separately at USD 500-3,000"
+   }
+  ],
+  "price_usd": null,
+  "price_note": null,
+  "official_url": "https://www.agibot.com/products/C5",
+  "sources": [
+   "https://www.agibot.com/products/C5",
+   "https://store.agibot.com/products/c5",
+   "https://cms-tos.agibot.com/manuals/20261029/AGIBOT-Product-Brochure-EN-20261029.pdf"
+  ],
+  "summary": "AGIBOT's commercial floor-cleaning robot for medium-to-large indoor spaces, combining sweeping, scrubbing and dry mopping with a station that charges, refills and drains it.",
+  "image_url": null,
+  "image_source": null,
+  "videos": [],
+  "seen_on": [
+   "https://botupyourlife.com/en/robots/agibot-c5/"
+  ],
+  "verification": "official",
+  "note": "Scope flag: C5 is a commercial floor-cleaning robot, which the catalog excludes, so the record sits in Misc instead of Humanoid; it is not a humanoid. AGIBOT calls it its first intelligent cleaning robot for medium-to-large scenes. AGIBOT's 2026-10-29 product brochure (pp. 48-49, C-series table) and its own product and store pages state 820 x 680 x 1130 mm, 170 kg, 1.0 m/s, scrubbing 3 h on a 24 V 80 Ah battery with 1.5 h charging, 550 mm scrubbing width (840 mm with the side brushes), 730 mm squeegee, 90 L clean and 45 L dirty water, 1.8 L dustbin, up to 1,980 m2/h with a 95% debris pickup rate, 900 mm minimum aisle, 1,720 mm turning radius, 25 kg downforce and under 68 dB(A); the workstation holds 8 L, refills at 7-10 L/min, drains at 10-15 L/min and draws up to 1,800 W. The maker's own store lists it at USD 32,900 (checked 2026-11-26) as its only variant, with a single 'Default Title' and no robot-only or with-workstation option; the store shows it out of stock, quotes shipping separately at USD 500-3,000, and does not state whether the price includes the workstation.",
+  "original_category": "Humanoid",
+  "misc_reason": "Commercial floor-cleaning robot (sweeping, scrubbing, dust mopping); the catalog excludes cleaning robots, and it is not a humanoid."
  }
 ]

@@ -4,10 +4,10 @@
 
 Robot Catalog is a static, bilingual (English/Korean) catalog of mobile robots by 453 makers. Every value comes from the maker's own page, datasheet, manual, press release or lab paper and is linked on the robot's page; where the maker states nothing the field stays empty rather than being estimated. The catalog records published specs only — there is no scoring, no rating and no ranking.
 
-- Robots: 1004. 869 records are verified against a maker source, 208 carry a full spec sheet.
+- Robots: 1004. 871 records are verified against a maker source, 208 carry a full spec sheet.
 - One page per robot: https://htcrefactor.github.io/robot-catalog/robot.html?id=<id>
 - One Markdown file per robot, with the full spec sheet and a source on every value: https://htcrefactor.github.io/robot-catalog/md/<id>.md
-- Data last merged: 2026-11-22.
+- Data last merged: 2026-11-26.
 - To cite a spec, link the robot's page and the maker document printed next to the value in its Markdown file.
 - Attribution: some humanoid prices and sales status come from HumanoidStore open data (CC BY 4.0, humanoidstore.co); the records that use it say so in their Markdown file.
 
@@ -140,7 +140,7 @@ Robot Catalog is a static, bilingual (English/Korean) catalog of mobile robots b
 - [VisionNav Robotics VNR 20](https://htcrefactor.github.io/robot-catalog/md/visionnav-vnr-20.md): Autonomous reach-truck forklift rated for 2,000 kg with a 7 m standard lift (up to 11.4 m optional).
 - [VisionNav Robotics VNST 20](https://htcrefactor.github.io/robot-catalog/md/visionnav-vnst-20.md): Slim autonomous pallet mover carrying 2,000 kg at up to 1.8 m/s for ground-to-ground pallet moves.
 
-### Humanoid (565)
+### Humanoid (563)
 
 - [1X Technologies EVE](https://htcrefactor.github.io/robot-catalog/md/1x-technologies-eve.md): Wheeled (bimanual torso on a wheeled base) humanoid from 1X Technologies; b2b only, sold to businesses.
 - [1X Technologies NEO](https://htcrefactor.github.io/robot-catalog/md/1x-neo.md): Soft-bodied, tendon-driven home humanoid for chores with a voice interface and remote 'Expert Mode'; hands…
@@ -155,8 +155,6 @@ Robot Catalog is a static, bilingual (English/Korean) catalog of mobile robots b
 - [AgiBot A2](https://htcrefactor.github.io/robot-catalog/md/agibot-a2.md): Full-size humanoid from AgiBot; shipping now, anyone can order.
 - [AgiBot A2 Ultra](https://htcrefactor.github.io/robot-catalog/md/agibot-a2-ultra.md): Full-size interactive service humanoid for reception, guiding and performances, deployed at 1,000+ units…
 - [AgiBot AGIBOT G1](https://htcrefactor.github.io/robot-catalog/md/agibot-g1.md): Wheeled dual-arm general-purpose robot with lifting waist, designed for embodied-AI data collection and model…
-- [AgiBot C4](https://htcrefactor.github.io/robot-catalog/md/agibot-c4.md): Humanoid
-- [AgiBot C5](https://htcrefactor.github.io/robot-catalog/md/agibot-c5.md): Humanoid
 - [AgiBot Expedition A3](https://htcrefactor.github.io/robot-catalog/md/agibot-a3.md): Full-size humanoid from AgiBot; b2b only, sold to businesses.
 - [AgiBot G1 Max](https://htcrefactor.github.io/robot-catalog/md/agibot-g1-max.md): Wheeled dual 7-DoF-arm embodied-AI robot with lifting waist, 2 kWh hot-swap battery and 5 h runtime for…
 - [AgiBot G2](https://htcrefactor.github.io/robot-catalog/md/agibot-g2.md): Wheeled (bimanual torso on a wheeled base) humanoid from AgiBot; b2b only, sold to businesses.
@@ -1045,8 +1043,10 @@ Robot Catalog is a static, bilingual (English/Korean) catalog of mobile robots b
 - [Yahboom ROSMASTER M3 Pro](https://htcrefactor.github.io/robot-catalog/md/yahboom-rosmaster-m3-pro.md): Mobile platform
 - [Zebra Technologies (Fetch Robotics) Fetch Mobile Manipulator](https://htcrefactor.github.io/robot-catalog/md/zebra-fetch-mobile-manipulator.md): ROS-based research mobile manipulator with telescoping torso, 7-DoF arm and pan-tilt head for indoor…
 
-### Misc (5)
+### Misc (7)
 
+- [AgiBot C4](https://htcrefactor.github.io/robot-catalog/md/agibot-c4.md): AGIBOT's commercial floor-cleaning robot for small-to-medium indoor spaces, sweeping, scrubbing and dust…
+- [AgiBot C5](https://htcrefactor.github.io/robot-catalog/md/agibot-c5.md): AGIBOT's commercial floor-cleaning robot for medium-to-large indoor spaces, combining sweeping, scrubbing and…
 - [Geek+ RoboShuttle V5](https://htcrefactor.github.io/robot-catalog/md/geekplus-roboshuttle-v5.md): Geek+ tote-to-person warehouse system pairing rail and mobile case-handling robots with an AI robot-arm…
 - [Istituto Italiano di Tecnologia (IIT) iRonCub3](https://htcrefactor.github.io/robot-catalog/md/iit-ironcub3.md): IIT's experimental jet-powered humanoid that combines iCub walking and manipulation with turbine flight for…
 - [Noetix Robotics Xiao Nuo (AI robotic head)](https://htcrefactor.github.io/robot-catalog/md/noetix-xiaonuo.md): Stationary lifelike robotic head with 32 active DoF facial expressions and LLM voice interaction for…

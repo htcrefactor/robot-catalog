@@ -5,8 +5,24 @@
   <link rel="self" type="application/atom+xml" href="https://htcrefactor.github.io/robot-catalog/feed.xml"/>
   <link rel="alternate" type="text/html" href="https://htcrefactor.github.io/robot-catalog/"/>
   <id>tag:htcrefactor.github.io,2026:robot-catalog/feed</id>
-  <updated>2026-11-22T00:00:00Z</updated>
+  <updated>2026-11-26T00:00:00Z</updated>
   <author><name>Robot Catalog</name><uri>https://github.com/htcrefactor/robot-catalog</uri></author>
+  <entry>
+    <id>tag:htcrefactor.github.io,2026:robot-catalog/agibot-c5/updated/2026-11-26</id>
+    <title>AgiBot C5: 18 fields changed</title>
+    <updated>2026-11-26T00:00:00Z</updated>
+    <link rel="alternate" type="text/html" href="https://htcrefactor.github.io/robot-catalog/robot.html?id=agibot-c5"/>
+    <category term="updated"/>
+    <summary type="html">&lt;ul&gt;&lt;li&gt;category: Humanoid → Misc&lt;/li&gt;&lt;li&gt;height_mm: &lt;em&gt;—&lt;/em&gt; → 1130 mm&lt;/li&gt;&lt;li&gt;length_mm: &lt;em&gt;—&lt;/em&gt; → 820 mm&lt;/li&gt;&lt;li&gt;locomotion: &lt;em&gt;—&lt;/em&gt; → Wheeled&lt;/li&gt;&lt;li&gt;max_speed_mps: &lt;em&gt;—&lt;/em&gt; → 1.0 m/s&lt;/li&gt;&lt;li&gt;misc_reason: &lt;em&gt;—&lt;/em&gt; → Commercial floor-cleaning robot (sweeping, scrubbing, dust mopping); the catalog excludes cleaning robots, and it is not a humanoid.&lt;/li&gt;&lt;li&gt;note: &lt;em&gt;—&lt;/em&gt; → Scope flag: C5 is a commercial floor-cleaning robot, which the catalog excludes, so the record sits in Misc instead of Humanoid; it is not a humanoid. AGIBOT calls it its first intelligent cleaning robot for medium-to-large scenes. AGIBOT's 2026-10-29 product brochure (pp. 48-49, C-series table) and its own product and store pages state 820 x 680 x 1130 mm, 170 kg, 1.0 m/s, scrubbing 3 h on a 24 V 80 Ah battery with 1.5 h charging, 550 mm scrubbing width (840 mm with the side brushes), 730 mm squeegee, 90 L clean and 45 L dirty water, 1.8 L dustbin, up to 1,980 m2/h with a 95% debris pickup rate, 900 mm minimum aisle, 1,720 mm turning radius, 25 kg downforce and under 68 dB(A); the workstation holds 8 L, refills at 7-10 L/min, drains at 10-15 L/min and draws up to 1,800 W. The maker's own store lists it at USD 32,900 (checked 2026-11-26) as its only variant, with a single 'Default Title' and no robot-only or with-workstation option; the store shows it out of stock, quotes shipping separately at USD 500-3,000, and does not state whether the price includes the workstation.&lt;/li&gt;&lt;li&gt;official_url: &lt;em&gt;—&lt;/em&gt; → https://www.agibot.com/products/C5&lt;/li&gt;&lt;li&gt;original_category: &lt;em&gt;—&lt;/em&gt; → Humanoid&lt;/li&gt;&lt;li&gt;runtime_h: &lt;em&gt;—&lt;/em&gt; → 3 h&lt;/li&gt;&lt;li&gt;sensors:  → LiDAR + vision fusion positioning&lt;/li&gt;&lt;li&gt;sources:  → https://www.agibot.com/products/C5; https://store.agibot.com/products/c5; https://cms-tos.agibot.com/manuals/20261029…&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;6 more field(s) changed.&lt;/p&gt;&lt;p&gt;&lt;a href="https://htcrefactor.github.io/robot-catalog/robot.html?id=agibot-c5"&gt;AgiBot C5 — robot page&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Source: &lt;a href="https://www.agibot.com/products/C5"&gt;https://www.agibot.com/products/C5&lt;/a&gt;&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <id>tag:htcrefactor.github.io,2026:robot-catalog/agibot-c4/updated/2026-11-26</id>
+    <title>AgiBot C4: 17 fields changed</title>
+    <updated>2026-11-26T00:00:00Z</updated>
+    <link rel="alternate" type="text/html" href="https://htcrefactor.github.io/robot-catalog/robot.html?id=agibot-c4"/>
+    <category term="updated"/>
+    <summary type="html">&lt;ul&gt;&lt;li&gt;category: Humanoid → Misc&lt;/li&gt;&lt;li&gt;height_mm: &lt;em&gt;—&lt;/em&gt; → 1015 mm&lt;/li&gt;&lt;li&gt;length_mm: &lt;em&gt;—&lt;/em&gt; → 680 mm&lt;/li&gt;&lt;li&gt;locomotion: &lt;em&gt;—&lt;/em&gt; → Wheeled&lt;/li&gt;&lt;li&gt;max_speed_mps: &lt;em&gt;—&lt;/em&gt; → 1.2 m/s&lt;/li&gt;&lt;li&gt;misc_reason: &lt;em&gt;—&lt;/em&gt; → Commercial floor-cleaning robot (sweeping, scrubbing, dust mopping); the catalog excludes cleaning robots, and it is not a humanoid.&lt;/li&gt;&lt;li&gt;note: &lt;em&gt;—&lt;/em&gt; → Scope flag: C4 is a commercial floor-cleaning robot, which the catalog excludes, so the record sits in Misc instead of Humanoid; it is not a humanoid. AGIBOT's 2026-10-29 product brochure (pp. 48-49, C-series table) and its own Korean and Chinese product pages state 680 x 510 x 1015 mm, 140 kg, 1.2 m/s, scrubbing 3 h (dust mopping 8 h) on a 24 V 60 Ah battery with 1.5 h charging, 380 mm scrubbing width (600 mm with the side brushes), 540 mm squeegee, 25 L clean and 25 L dirty water, 1.6 L dustbin, up to 1,400 m2/h with a 95% debris pickup rate, 600 mm minimum aisle, 800 mm turning radius, 25 kg downforce and under 65 dB(A); the docking station holds 4 L, refills at 5-8 L/min, drains at 4-8 L/min and draws up to 1,200 W. Positioned for subway stations, factory warehouses, hotels, supermarkets, offices and showrooms, with access-control and elevator integration; AGIBOT states ISO 9001 for quality. No price is published on the maker's pages.&lt;/li&gt;&lt;li&gt;official_url: &lt;em&gt;—&lt;/em&gt; → https://www.agibot.com/kr/products/C4&lt;/li&gt;&lt;li&gt;original_category: &lt;em&gt;—&lt;/em&gt; → Humanoid&lt;/li&gt;&lt;li&gt;runtime_h: &lt;em&gt;—&lt;/em&gt; → 3 h&lt;/li&gt;&lt;li&gt;sensors:  → LiDAR + vision fusion positioning&lt;/li&gt;&lt;li&gt;sources:  → https://www.agibot.com/kr/products/C4; https://www.agibot.com.cn/products/C4; https://cms-tos.agibot.com/manuals/2026…&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;5 more field(s) changed.&lt;/p&gt;&lt;p&gt;&lt;a href="https://htcrefactor.github.io/robot-catalog/robot.html?id=agibot-c4"&gt;AgiBot C4 — robot page&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Source: &lt;a href="https://www.agibot.com/kr/products/C4"&gt;https://www.agibot.com/kr/products/C4&lt;/a&gt;&lt;/p&gt;</summary>
+  </entry>
   <entry>
     <id>tag:htcrefactor.github.io,2026:robot-catalog/zebra-fetch-freight1500/updated/2026-11-22</id>
     <title>Zebra Technologies (Fetch Robotics) Freight1500: 2 fields changed</title>
@@ -790,21 +806,5 @@
     <link rel="alternate" type="text/html" href="https://htcrefactor.github.io/robot-catalog/robot.html?id=visionnav-vnk15"/>
     <category term="added"/>
     <summary type="html">&lt;p&gt;&lt;a href="https://htcrefactor.github.io/robot-catalog/robot.html?id=visionnav-vnk15"&gt;VisionNav Robotics VNK 15 — robot page&lt;/a&gt;&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <id>tag:htcrefactor.github.io,2026:robot-catalog/visionnav-vne40-66/added/2026-11-14</id>
-    <title>New robot: VisionNav Robotics VNE40-66</title>
-    <updated>2026-11-14T00:00:00Z</updated>
-    <link rel="alternate" type="text/html" href="https://htcrefactor.github.io/robot-catalog/robot.html?id=visionnav-vne40-66"/>
-    <category term="added"/>
-    <summary type="html">&lt;p&gt;&lt;a href="https://htcrefactor.github.io/robot-catalog/robot.html?id=visionnav-vne40-66"&gt;VisionNav Robotics VNE40-66 — robot page&lt;/a&gt;&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <id>tag:htcrefactor.github.io,2026:robot-catalog/vinrobotics-vr-m3/added/2026-11-14</id>
-    <title>New robot: VinRobotics (Vingroup) VR-M3</title>
-    <updated>2026-11-14T00:00:00Z</updated>
-    <link rel="alternate" type="text/html" href="https://htcrefactor.github.io/robot-catalog/robot.html?id=vinrobotics-vr-m3"/>
-    <category term="added"/>
-    <summary type="html">&lt;p&gt;&lt;a href="https://htcrefactor.github.io/robot-catalog/robot.html?id=vinrobotics-vr-m3"&gt;VinRobotics (Vingroup) VR-M3 — robot page&lt;/a&gt;&lt;/p&gt;</summary>
   </entry>
 </feed>
