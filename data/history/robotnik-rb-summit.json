@@ -1,0 +1,118 @@
+{
+ "id": "robotnik-rb-summit",
+ "name": "RB-SUMMIT",
+ "manufacturer": "Robotnik",
+ "updated": "2026-11-26",
+ "events": [
+  {
+   "date": "2026-11-26",
+   "type": "updated",
+   "source": "https://robotnik.eu/products/mobile-robots/rb-summit/",
+   "changes": [
+    {
+     "field": "compute_detail",
+     "from": null,
+     "to": "Intel i7 controller (CPU i7 included); optional ZED camera with GPU"
+    },
+    {
+     "field": "height_mm",
+     "from": null,
+     "to": 720
+    },
+    {
+     "field": "ip_rating",
+     "from": null,
+     "to": "IP54"
+    },
+    {
+     "field": "length_mm",
+     "from": null,
+     "to": 731
+    },
+    {
+     "field": "max_speed_mps",
+     "from": null,
+     "to": 2.5
+    },
+    {
+     "field": "note",
+     "from": null,
+     "to": "Robotnik product page: 731 x 614 x 720 mm, 65 kg, 50 kg payload, up to 2.5 m/s, up to 5 h, IP54 chassis, 5G router, 2D LiDARs (276°) and RGBD camera included, ROS 2 based. The maker's September 2024 datasheet instead gives 3 m/s and IP50 as standard with IP54 weatherproofing optional, so the product-page figures are kept and the datasheet ones recorded here. RB-SUMMIT+ adds a Kinova Gen3 Lite or Gen3 6/7 DoF arm with a 4 kg arm payload."
+    },
+    {
+     "field": "official_url",
+     "from": null,
+     "to": "https://robotnik.eu/products/mobile-robots/rb-summit/"
+    },
+    {
+     "field": "onboard_compute",
+     "from": null,
+     "to": true
+    },
+    {
+     "field": "payload_kg",
+     "from": null,
+     "to": 50
+    },
+    {
+     "field": "ros_support",
+     "from": null,
+     "to": true
+    },
+    {
+     "field": "runtime_h",
+     "from": null,
+     "to": 5
+    },
+    {
+     "field": "sensors",
+     "from": [],
+     "to": [
+      "2D LiDAR pack (276°)",
+      "RGBD camera",
+      "IMU",
+      "Pan-tilt-zoom camera (optional)"
+     ]
+    },
+    {
+     "field": "sources",
+     "from": [],
+     "to": [
+      "https://robotnik.eu/products/mobile-robots/rb-summit/",
+      "https://robotnik.eu/wp-content/uploads/2024/09/Robotnik_Datasheet_RB-SUMMIT_2024_EN-1.pdf"
+     ]
+    },
+    {
+     "field": "status",
+     "from": null,
+     "to": "Commercial"
+    },
+    {
+     "field": "summary",
+     "from": "",
+     "to": "Outdoor-capable four-wheel skid-steer mobile platform for R&D, with a 50 kg payload and a ROS 2 architecture."
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "official"
+    },
+    {
+     "field": "weight_kg",
+     "from": null,
+     "to": 65
+    },
+    {
+     "field": "wheel_count",
+     "from": null,
+     "to": 4
+    },
+    {
+     "field": "width_mm",
+     "from": null,
+     "to": 614
+    }
+   ]
+  }
+ ]
+}

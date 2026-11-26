@@ -1,0 +1,117 @@
+{
+ "id": "robotnik-rb-theron",
+ "name": "RB-THERON",
+ "manufacturer": "Robotnik",
+ "updated": "2026-11-26",
+ "events": [
+  {
+   "date": "2026-11-26",
+   "type": "updated",
+   "source": "https://robotnik.eu/products/mobile-robots/rb-theron/",
+   "changes": [
+    {
+     "field": "compute_detail",
+     "from": null,
+     "to": "Intel i7 controller"
+    },
+    {
+     "field": "height_mm",
+     "from": null,
+     "to": 320
+    },
+    {
+     "field": "ip_rating",
+     "from": null,
+     "to": "IP30"
+    },
+    {
+     "field": "length_mm",
+     "from": null,
+     "to": 717
+    },
+    {
+     "field": "max_speed_mps",
+     "from": null,
+     "to": 1.25
+    },
+    {
+     "field": "note",
+     "from": null,
+     "to": "Product page and May 2024 datasheet: 717 x 550 x 320 mm (418 mm with the lifting unit), 70 kg, 200 kg payload, 1.25 m/s, IP30, up to 8 h, differential drive with 2 x 250 W braked motors, 2D safety scanners and safety PLC included. An earlier 2023 datasheet states 687 x 550 x 305 mm and 55 kg, so the 2024 figures are kept."
+    },
+    {
+     "field": "official_url",
+     "from": null,
+     "to": "https://robotnik.eu/products/mobile-robots/rb-theron/"
+    },
+    {
+     "field": "onboard_compute",
+     "from": null,
+     "to": true
+    },
+    {
+     "field": "payload_kg",
+     "from": null,
+     "to": 200
+    },
+    {
+     "field": "ros_support",
+     "from": null,
+     "to": true
+    },
+    {
+     "field": "runtime_h",
+     "from": null,
+     "to": 8
+    },
+    {
+     "field": "sensors",
+     "from": [],
+     "to": [
+      "2x 2D safety laser scanners + safety PLC",
+      "RGBD camera",
+      "IMU"
+     ]
+    },
+    {
+     "field": "sources",
+     "from": [],
+     "to": [
+      "https://robotnik.eu/products/mobile-robots/rb-theron/",
+      "https://robotnik.eu/wp-content/uploads/2024/05/Robotnik_Datasheet_RB-THERON_EN_2024.pdf"
+     ]
+    },
+    {
+     "field": "status",
+     "from": null,
+     "to": "Commercial"
+    },
+    {
+     "field": "summary",
+     "from": "",
+     "to": "Compact modular indoor AMR for logistics and retail work, carrying 200 kg on a differential-drive base with a 360° safety pack."
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "official"
+    },
+    {
+     "field": "weight_kg",
+     "from": null,
+     "to": 70
+    },
+    {
+     "field": "wheel_count",
+     "from": null,
+     "to": 2
+    },
+    {
+     "field": "width_mm",
+     "from": null,
+     "to": 550
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,100 @@
+{
+ "id": "dogu-patrover",
+ "name": "Patrover",
+ "manufacturer": "DOGU",
+ "updated": "2026-11-26",
+ "events": [
+  {
+   "date": "2026-11-26",
+   "type": "updated",
+   "source": "https://www.dogu.xyz/product-Patrover",
+   "changes": [
+    {
+     "field": "country",
+     "from": null,
+     "to": "South Korea"
+    },
+    {
+     "field": "height_mm",
+     "from": null,
+     "to": 1153
+    },
+    {
+     "field": "length_mm",
+     "from": null,
+     "to": 1030
+    },
+    {
+     "field": "max_speed_mps",
+     "from": null,
+     "to": 1.5
+    },
+    {
+     "field": "note",
+     "from": null,
+     "to": "DOGU product page: W 755 x D 1,030 x H 1,153 mm, 90 kg, patrol speed 0.7 m/s with a 1.5 m/s maximum (1.5 kept as the max speed), 3D LiDAR scanning a 50 m radius plus front and rear 2D LiDAR, four cameras, thermal camera, fire-detection sensor and 14 ultrasonic sensors. The maker states no runtime, battery or payload, so those fields stay empty. The maker's Korean pages give the company as (주)도구공간 and the product as 패트로버."
+    },
+    {
+     "field": "official_url",
+     "from": null,
+     "to": "https://www.dogu.xyz/product-Patrover"
+    },
+    {
+     "field": "sensors",
+     "from": [],
+     "to": [
+      "3D LiDAR (50 m radius)",
+      "2D LiDAR front and rear",
+      "4 cameras (front, rear, left, right)",
+      "Thermal camera",
+      "Fire-detection sensor",
+      "14 ultrasonic sensors",
+      "Microphone array"
+     ]
+    },
+    {
+     "field": "sources",
+     "from": [],
+     "to": [
+      "https://www.dogu.xyz/product-Patrover"
+     ]
+    },
+    {
+     "field": "status",
+     "from": null,
+     "to": "Commercial"
+    },
+    {
+     "field": "summary",
+     "from": "",
+     "to": "Outdoor security-patrol robot that watches for intruders, fire, abnormal sound and road hazards and reports to a control centre."
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "official"
+    },
+    {
+     "field": "weight_kg",
+     "from": null,
+     "to": 90
+    },
+    {
+     "field": "width_mm",
+     "from": null,
+     "to": 755
+    },
+    {
+     "field": "manufacturer_ko",
+     "from": null,
+     "to": "도구공간"
+    },
+    {
+     "field": "name_ko",
+     "from": null,
+     "to": "패트로버"
+    }
+   ]
+  }
+ ]
+}

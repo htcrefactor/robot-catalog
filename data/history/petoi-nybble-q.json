@@ -1,0 +1,124 @@
+{
+ "id": "petoi-nybble-q",
+ "name": "Nybble Q",
+ "manufacturer": "Petoi",
+ "updated": "2026-11-26",
+ "events": [
+  {
+   "date": "2026-11-26",
+   "type": "updated",
+   "source": "https://www.petoi.com/products/petoi-nybble-q-robot-cat",
+   "changes": [
+    {
+     "field": "battery_wh",
+     "from": null,
+     "to": 7.4
+    },
+    {
+     "field": "compute_detail",
+     "from": null,
+     "to": "BiBoard V1 (ESP32-WROOM-32D, 520 KB SRAM, 4 MB flash); a Raspberry Pi can be mounted on the board"
+    },
+    {
+     "field": "dof",
+     "from": null,
+     "to": 11
+    },
+    {
+     "field": "height_mm",
+     "from": null,
+     "to": 150
+    },
+    {
+     "field": "length_mm",
+     "from": null,
+     "to": 240
+    },
+    {
+     "field": "note",
+     "from": null,
+     "to": "Petoi spec page: standing 240 x 115 x 150 mm, 403–433 g depending on the servo set (0.433 kg kept as the upper figure), 11 joints (2 head, 1 tail, 8 legs), BiBoard V1 with ESP32-WROOM-32D. Product page: 7.4 V 1,000 mAh Li-ion pack, so battery_wh is the derived 7.4 V x 1 Ah = 7.4 Wh, and about 45 minutes of walking per charge (0.75 h). OpenCat is the maker's open-source framework, also the Python and Arduino entry point."
+    },
+    {
+     "field": "official_url",
+     "from": null,
+     "to": "https://www.petoi.com/products/petoi-nybble-q-robot-cat"
+    },
+    {
+     "field": "onboard_compute",
+     "from": null,
+     "to": true
+    },
+    {
+     "field": "runtime_h",
+     "from": null,
+     "to": 0.75
+    },
+    {
+     "field": "sdk",
+     "from": null,
+     "to": {
+      "languages": [
+       "C++",
+       "Python"
+      ],
+      "open_source": true,
+      "url": "https://github.com/PetoiCamp/OpenCat"
+     }
+    },
+    {
+     "field": "sdk_available",
+     "from": null,
+     "to": true
+    },
+    {
+     "field": "sdk_name",
+     "from": null,
+     "to": "OpenCat Python API, Arduino IDE, Petoi Coding Blocks"
+    },
+    {
+     "field": "sensors",
+     "from": [],
+     "to": [
+      "6-axis IMU (MPU6050 or ICM42670)",
+      "Ultrasonic distance sensor",
+      "Voice microphone"
+     ]
+    },
+    {
+     "field": "sources",
+     "from": [],
+     "to": [
+      "https://www.petoi.com/pages/robot-cat-nybble-q-technical-specifications",
+      "https://www.petoi.com/products/petoi-nybble-q-robot-cat"
+     ]
+    },
+    {
+     "field": "status",
+     "from": null,
+     "to": "Commercial"
+    },
+    {
+     "field": "summary",
+     "from": "",
+     "to": "Open-source 3D-printed robot cat for teaching legged locomotion and physical AI, sold pre-assembled with 11 servo joints."
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "official"
+    },
+    {
+     "field": "weight_kg",
+     "from": null,
+     "to": 0.433
+    },
+    {
+     "field": "width_mm",
+     "from": null,
+     "to": 115
+    }
+   ]
+  }
+ ]
+}

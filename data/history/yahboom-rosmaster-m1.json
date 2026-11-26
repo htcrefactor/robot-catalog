@@ -1,0 +1,78 @@
+{
+ "id": "yahboom-rosmaster-m1",
+ "name": "ROSMASTER M1",
+ "manufacturer": "Yahboom",
+ "updated": "2026-11-26",
+ "events": [
+  {
+   "date": "2026-11-26",
+   "type": "updated",
+   "source": "https://www.yahboom.store/products/rosmaster-m1",
+   "changes": [
+    {
+     "field": "compute_detail",
+     "from": null,
+     "to": "Raspberry Pi 5 8GB, D-Robotics RDK X5, Jetson Nano 4GB or Jetson Orin Nano Super 8GB, with a Yahboom STM32 expansion board"
+    },
+    {
+     "field": "note",
+     "from": null,
+     "to": "Yahboom's own store describes the M1 as four-wheel Mecanum with 520 encoder motors, ROS 2 Humble support and a choice of Raspberry Pi 5, RDK X5, Jetson Nano 4GB or Jetson Orin Nano Super 8GB; the base kit is US$349.90 on that store. The maker publishes no length, width, height, weight, payload, speed or runtime for the M1, so those fields stay empty."
+    },
+    {
+     "field": "official_url",
+     "from": null,
+     "to": "https://www.yahboom.store/products/rosmaster-m1"
+    },
+    {
+     "field": "onboard_compute",
+     "from": null,
+     "to": true
+    },
+    {
+     "field": "ros_support",
+     "from": null,
+     "to": true
+    },
+    {
+     "field": "sensors",
+     "from": [],
+     "to": [
+      "T-MINI Plus 360° 2D LiDAR (optional)",
+      "2 MP HD camera on a pan-tilt mount or NUWA depth camera (optional)",
+      "AI voice module with microphone and speaker",
+      "OLED display"
+     ]
+    },
+    {
+     "field": "sources",
+     "from": [],
+     "to": [
+      "https://www.yahboom.store/products/rosmaster-m1",
+      "https://www.yahboom.net/study/ROSMASTER-M1"
+     ]
+    },
+    {
+     "field": "status",
+     "from": null,
+     "to": "Commercial"
+    },
+    {
+     "field": "summary",
+     "from": "",
+     "to": "Four-wheel Mecanum rover kit for ROS 2 teaching and embodied-AI experiments, sold with or without a compute board."
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "official"
+    },
+    {
+     "field": "wheel_count",
+     "from": null,
+     "to": 4
+    }
+   ]
+  }
+ ]
+}

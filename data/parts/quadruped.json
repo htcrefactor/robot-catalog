@@ -8346,39 +8346,55 @@
   "category": "Quadruped",
   "locomotion": "Legged",
   "release_year": null,
-  "status": null,
-  "length_mm": null,
-  "width_mm": null,
-  "height_mm": null,
-  "weight_kg": null,
+  "status": "Commercial",
+  "length_mm": 240,
+  "width_mm": 115,
+  "height_mm": 150,
+  "weight_kg": 0.433,
   "payload_kg": null,
   "max_speed_mps": null,
   "min_speed_mps": null,
   "wheel_diameter_mm": null,
   "wheel_count": null,
-  "dof": null,
-  "runtime_h": null,
-  "battery_wh": null,
+  "dof": 11,
+  "runtime_h": 0.75,
+  "battery_wh": 7.4,
   "ip_rating": null,
   "api_support": null,
-  "sdk_available": null,
-  "sdk_name": null,
-  "onboard_compute": null,
-  "compute_detail": null,
+  "sdk_available": true,
+  "sdk_name": "OpenCat Python API, Arduino IDE, Petoi Coding Blocks",
+  "onboard_compute": true,
+  "compute_detail": "BiBoard V1 (ESP32-WROOM-32D, 520 KB SRAM, 4 MB flash); a Raspberry Pi can be mounted on the board",
   "ros_support": null,
-  "sensors": [],
+  "sensors": [
+   "6-axis IMU (MPU6050 or ICM42670)",
+   "Ultrasonic distance sensor",
+   "Voice microphone"
+  ],
   "price_usd": null,
   "price_note": null,
-  "official_url": null,
-  "sources": [],
-  "summary": "",
+  "official_url": "https://www.petoi.com/products/petoi-nybble-q-robot-cat",
+  "sources": [
+   "https://www.petoi.com/pages/robot-cat-nybble-q-technical-specifications",
+   "https://www.petoi.com/products/petoi-nybble-q-robot-cat"
+  ],
+  "summary": "Open-source 3D-printed robot cat for teaching legged locomotion and physical AI, sold pre-assembled with 11 servo joints.",
   "image_url": null,
   "image_source": null,
   "videos": [],
   "seen_on": [
    "https://botupyourlife.com/en/robots/petoi-nybble-q/"
   ],
-  "verification": null
+  "verification": "official",
+  "sdk": {
+   "languages": [
+    "C++",
+    "Python"
+   ],
+   "open_source": true,
+   "url": "https://github.com/PetoiCamp/OpenCat"
+  },
+  "note": "Petoi spec page: standing 240 x 115 x 150 mm, 403–433 g depending on the servo set (0.433 kg kept as the upper figure), 11 joints (2 head, 1 tail, 8 legs), BiBoard V1 with ESP32-WROOM-32D. Product page: 7.4 V 1,000 mAh Li-ion pack, so battery_wh is the derived 7.4 V x 1 Ah = 7.4 Wh, and about 45 minutes of walking per charge (0.75 h). OpenCat is the maker's open-source framework, also the Python and Arduino entry point."
  },
  {
   "id": "yahboom-dogzilla-s2",

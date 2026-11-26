@@ -164,4 +164,4 @@ Checked 2026-11-22 against agibot.com/products/A2_Ultra: 169 cm, ~69 kg, 40 DoF,
 
 ---
 
-*Robot Catalog — generated from data/robots.json (last merged 2026-11-22). Source repository: https://github.com/htcrefactor/robot-catalog*
+*Robot Catalog — generated from data/robots.json (last merged 2026-11-26). Source repository: https://github.com/htcrefactor/robot-catalog*

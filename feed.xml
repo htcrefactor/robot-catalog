@@ -5,8 +5,104 @@
   <link rel="self" type="application/atom+xml" href="https://htcrefactor.github.io/robot-catalog/feed.xml"/>
   <link rel="alternate" type="text/html" href="https://htcrefactor.github.io/robot-catalog/"/>
   <id>tag:htcrefactor.github.io,2026:robot-catalog/feed</id>
-  <updated>2026-11-22T00:00:00Z</updated>
+  <updated>2026-11-26T00:00:00Z</updated>
   <author><name>Robot Catalog</name><uri>https://github.com/htcrefactor/robot-catalog</uri></author>
+  <entry>
+    <id>tag:htcrefactor.github.io,2026:robot-catalog/zeroth-w1/updated/2026-11-26</id>
+    <title>Zeroth W1: 17 fields changed</title>
+    <updated>2026-11-26T00:00:00Z</updated>
+    <link rel="alternate" type="text/html" href="https://htcrefactor.github.io/robot-catalog/robot.html?id=zeroth-w1"/>
+    <category term="updated"/>
+    <summary type="html">&lt;ul&gt;&lt;li&gt;battery_wh: &lt;em&gt;—&lt;/em&gt; → 360 Wh&lt;/li&gt;&lt;li&gt;compute_detail: &lt;em&gt;—&lt;/em&gt; → 8-core Horizon Sunrise-series SoC, 8 GB RAM, 32 GB storage&lt;/li&gt;&lt;li&gt;height_mm: &lt;em&gt;—&lt;/em&gt; → 680 mm&lt;/li&gt;&lt;li&gt;length_mm: &lt;em&gt;—&lt;/em&gt; → 578 mm&lt;/li&gt;&lt;li&gt;locomotion: Wheeled → Tracked&lt;/li&gt;&lt;li&gt;max_speed_mps: &lt;em&gt;—&lt;/em&gt; → 1.0 m/s&lt;/li&gt;&lt;li&gt;note: &lt;em&gt;—&lt;/em&gt; → Zeroth product page: 578 x 520 x 680 mm, 28 kg with battery, 20 kg load capacity (50 kg traction), 0.1–1 m/s on flat ground and 0.5 m/s on slopes, 5 cm obstacle height, 20° climbing angle, 360 Wh pack with 140 W charging in 4 h, 25 h standby. The maker states a standby time rather than an operating runtime, so runtime_h stays empty. Locomotion is a pair of tracks, corrected from Wheeled.&lt;/li&gt;&lt;li&gt;official_url: &lt;em&gt;—&lt;/em&gt; → https://www.zeroth0.com/products/w1&lt;/li&gt;&lt;li&gt;onboard_compute: &lt;em&gt;—&lt;/em&gt; → YES&lt;/li&gt;&lt;li&gt;payload_kg: &lt;em&gt;—&lt;/em&gt; → 20 kg&lt;/li&gt;&lt;li&gt;sensors:  → 13 MP RGB camera; 2 MP monitoring camera; RGB-D depth camera; Ultrasonic sensor; Human infrared (PIR) sensor; GNSS (G…&lt;/li&gt;&lt;li&gt;sources:  → https://www.zeroth0.com/products/w1&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;5 more field(s) changed.&lt;/p&gt;&lt;p&gt;&lt;a href="https://htcrefactor.github.io/robot-catalog/robot.html?id=zeroth-w1"&gt;Zeroth W1 — robot page&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Source: &lt;a href="https://www.zeroth0.com/products/w1"&gt;https://www.zeroth0.com/products/w1&lt;/a&gt;&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <id>tag:htcrefactor.github.io,2026:robot-catalog/yahboom-rosmaster-m1/updated/2026-11-26</id>
+    <title>Yahboom ROSMASTER M1: 11 fields changed</title>
+    <updated>2026-11-26T00:00:00Z</updated>
+    <link rel="alternate" type="text/html" href="https://htcrefactor.github.io/robot-catalog/robot.html?id=yahboom-rosmaster-m1"/>
+    <category term="updated"/>
+    <summary type="html">&lt;ul&gt;&lt;li&gt;compute_detail: &lt;em&gt;—&lt;/em&gt; → Raspberry Pi 5 8GB, D-Robotics RDK X5, Jetson Nano 4GB or Jetson Orin Nano Super 8GB, with a Yahboom STM32 expansion board&lt;/li&gt;&lt;li&gt;note: &lt;em&gt;—&lt;/em&gt; → Yahboom's own store describes the M1 as four-wheel Mecanum with 520 encoder motors, ROS 2 Humble support and a choice of Raspberry Pi 5, RDK X5, Jetson Nano 4GB or Jetson Orin Nano Super 8GB; the base kit is US$349.90 on that store. The maker publishes no length, width, height, weight, payload, speed or runtime for the M1, so those fields stay empty.&lt;/li&gt;&lt;li&gt;official_url: &lt;em&gt;—&lt;/em&gt; → https://www.yahboom.store/products/rosmaster-m1&lt;/li&gt;&lt;li&gt;onboard_compute: &lt;em&gt;—&lt;/em&gt; → YES&lt;/li&gt;&lt;li&gt;ros_support: &lt;em&gt;—&lt;/em&gt; → YES&lt;/li&gt;&lt;li&gt;sensors:  → T-MINI Plus 360° 2D LiDAR (optional); 2 MP HD camera on a pan-tilt mount or NUWA depth camera (optional); AI voice mo…&lt;/li&gt;&lt;li&gt;sources:  → https://www.yahboom.store/products/rosmaster-m1; https://www.yahboom.net/study/ROSMASTER-M1&lt;/li&gt;&lt;li&gt;status: &lt;em&gt;—&lt;/em&gt; → Commercial&lt;/li&gt;&lt;li&gt;summary: &lt;em&gt;—&lt;/em&gt; → Four-wheel Mecanum rover kit for ROS 2 teaching and embodied-AI experiments, sold with or without a compute board.&lt;/li&gt;&lt;li&gt;verification: &lt;em&gt;—&lt;/em&gt; → official&lt;/li&gt;&lt;li&gt;wheel_count: &lt;em&gt;—&lt;/em&gt; → 4&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://htcrefactor.github.io/robot-catalog/robot.html?id=yahboom-rosmaster-m1"&gt;Yahboom ROSMASTER M1 — robot page&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Source: &lt;a href="https://www.yahboom.store/products/rosmaster-m1"&gt;https://www.yahboom.store/products/rosmaster-m1&lt;/a&gt;&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <id>tag:htcrefactor.github.io,2026:robot-catalog/vstone-robovie-r3/updated/2026-11-26</id>
+    <title>Vstone Robovie-R3: 19 fields changed</title>
+    <updated>2026-11-26T00:00:00Z</updated>
+    <link rel="alternate" type="text/html" href="https://htcrefactor.github.io/robot-catalog/robot.html?id=vstone-robovie-r3"/>
+    <category term="updated"/>
+    <summary type="html">&lt;ul&gt;&lt;li&gt;battery_wh: &lt;em&gt;—&lt;/em&gt; → 336 Wh&lt;/li&gt;&lt;li&gt;compute_detail: &lt;em&gt;—&lt;/em&gt; → Windows laptop as main PC, VS-RC003HV (ARM7) sub-controller&lt;/li&gt;&lt;li&gt;dof: &lt;em&gt;—&lt;/em&gt; → 17&lt;/li&gt;&lt;li&gt;height_mm: &lt;em&gt;—&lt;/em&gt; → 1080 mm&lt;/li&gt;&lt;li&gt;length_mm: &lt;em&gt;—&lt;/em&gt; → 520 mm&lt;/li&gt;&lt;li&gt;locomotion: &lt;em&gt;—&lt;/em&gt; → Wheeled&lt;/li&gt;&lt;li&gt;max_speed_mps: &lt;em&gt;—&lt;/em&gt; → 0.69 m/s&lt;/li&gt;&lt;li&gt;note: &lt;em&gt;—&lt;/em&gt; → Vstone spec page: about 1,080 mm high x 500 mm wide x 520 mm deep, about 35 kg with battery, 17 DoF (4 eyes, 3 neck, 4 x 2 arms, 2 wheels), 12 V 28 Ah lead-acid pack (battery_wh is the derived 12 V x 28 Ah = 336 Wh), touch sensors and a speaker. Product page: about 2.5 km/h (0.69 m/s), production and sales ended. Support page: about 1 h of continuous operation with the built-in PC running.&lt;/li&gt;&lt;li&gt;official_url: &lt;em&gt;—&lt;/em&gt; → https://www.vstone.co.jp/products/robovie_r3/spec.html&lt;/li&gt;&lt;li&gt;onboard_compute: &lt;em&gt;—&lt;/em&gt; → YES&lt;/li&gt;&lt;li&gt;runtime_h: &lt;em&gt;—&lt;/em&gt; → 1.0 h&lt;/li&gt;&lt;li&gt;sensors:  → 2 USB cameras (stereo pair); 2 microphones; Speaker; 11 touch sensors; Range finder (optional, 2x)&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;7 more field(s) changed.&lt;/p&gt;&lt;p&gt;&lt;a href="https://htcrefactor.github.io/robot-catalog/robot.html?id=vstone-robovie-r3"&gt;Vstone Robovie-R3 — robot page&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Source: &lt;a href="https://www.vstone.co.jp/products/robovie_r3/spec.html"&gt;https://www.vstone.co.jp/products/robovie_r3/spec.html&lt;/a&gt;&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <id>tag:htcrefactor.github.io,2026:robot-catalog/telexistence-model-t/updated/2026-11-26</id>
+    <title>Telexistence Model-T: 8 fields changed</title>
+    <updated>2026-11-26T00:00:00Z</updated>
+    <link rel="alternate" type="text/html" href="https://htcrefactor.github.io/robot-catalog/robot.html?id=telexistence-model-t"/>
+    <category term="updated"/>
+    <summary type="html">&lt;ul&gt;&lt;li&gt;dof: &lt;em&gt;—&lt;/em&gt; → 22&lt;/li&gt;&lt;li&gt;note: &lt;em&gt;—&lt;/em&gt; → TX release 2020-07-21: 22-DoF body and arms, 50 ms end-to-end video latency with H.265/HEVC, a combined vacuum and two-finger 'Andrea-Yamaura' end effector, trialled at Lawson and FamilyMart stores. TX's own About page states the Model-T was discontinued and its retail automation line moved to TX SCARA (announced November 2021).&lt;/li&gt;&lt;li&gt;official_url: &lt;em&gt;—&lt;/em&gt; → https://tx-inc.com/en/blog/2020/07/21/10624/&lt;/li&gt;&lt;li&gt;release_year: &lt;em&gt;—&lt;/em&gt; → 2020&lt;/li&gt;&lt;li&gt;sources:  → https://tx-inc.com/en/blog/2020/07/21/10624/; https://tx-inc.com/en/about/&lt;/li&gt;&lt;li&gt;status: &lt;em&gt;—&lt;/em&gt; → Discontinued&lt;/li&gt;&lt;li&gt;summary: &lt;em&gt;—&lt;/em&gt; → Semi-autonomous shelf-stocking robot for convenience stores, driven remotely from a VR cockpit over a low-latency video link.&lt;/li&gt;&lt;li&gt;verification: &lt;em&gt;—&lt;/em&gt; → official&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://htcrefactor.github.io/robot-catalog/robot.html?id=telexistence-model-t"&gt;Telexistence Model-T — robot page&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Source: &lt;a href="https://tx-inc.com/en/blog/2020/07/21/10624/"&gt;https://tx-inc.com/en/blog/2020/07/21/10624/&lt;/a&gt;&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <id>tag:htcrefactor.github.io,2026:robot-catalog/robotnik-rb-theron/updated/2026-11-26</id>
+    <title>Robotnik RB-THERON: 19 fields changed</title>
+    <updated>2026-11-26T00:00:00Z</updated>
+    <link rel="alternate" type="text/html" href="https://htcrefactor.github.io/robot-catalog/robot.html?id=robotnik-rb-theron"/>
+    <category term="updated"/>
+    <summary type="html">&lt;ul&gt;&lt;li&gt;compute_detail: &lt;em&gt;—&lt;/em&gt; → Intel i7 controller&lt;/li&gt;&lt;li&gt;height_mm: &lt;em&gt;—&lt;/em&gt; → 320 mm&lt;/li&gt;&lt;li&gt;ip_rating: &lt;em&gt;—&lt;/em&gt; → IP30&lt;/li&gt;&lt;li&gt;length_mm: &lt;em&gt;—&lt;/em&gt; → 717 mm&lt;/li&gt;&lt;li&gt;max_speed_mps: &lt;em&gt;—&lt;/em&gt; → 1.25 m/s&lt;/li&gt;&lt;li&gt;note: &lt;em&gt;—&lt;/em&gt; → Product page and May 2024 datasheet: 717 x 550 x 320 mm (418 mm with the lifting unit), 70 kg, 200 kg payload, 1.25 m/s, IP30, up to 8 h, differential drive with 2 x 250 W braked motors, 2D safety scanners and safety PLC included. An earlier 2023 datasheet states 687 x 550 x 305 mm and 55 kg, so the 2024 figures are kept.&lt;/li&gt;&lt;li&gt;official_url: &lt;em&gt;—&lt;/em&gt; → https://robotnik.eu/products/mobile-robots/rb-theron/&lt;/li&gt;&lt;li&gt;onboard_compute: &lt;em&gt;—&lt;/em&gt; → YES&lt;/li&gt;&lt;li&gt;payload_kg: &lt;em&gt;—&lt;/em&gt; → 200 kg&lt;/li&gt;&lt;li&gt;ros_support: &lt;em&gt;—&lt;/em&gt; → YES&lt;/li&gt;&lt;li&gt;runtime_h: &lt;em&gt;—&lt;/em&gt; → 8 h&lt;/li&gt;&lt;li&gt;sensors:  → 2x 2D safety laser scanners + safety PLC; RGBD camera; IMU&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;7 more field(s) changed.&lt;/p&gt;&lt;p&gt;&lt;a href="https://htcrefactor.github.io/robot-catalog/robot.html?id=robotnik-rb-theron"&gt;Robotnik RB-THERON — robot page&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Source: &lt;a href="https://robotnik.eu/products/mobile-robots/rb-theron/"&gt;https://robotnik.eu/products/mobile-robots/rb-theron/&lt;/a&gt;&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <id>tag:htcrefactor.github.io,2026:robot-catalog/robotnik-rb-summit/updated/2026-11-26</id>
+    <title>Robotnik RB-SUMMIT: 19 fields changed</title>
+    <updated>2026-11-26T00:00:00Z</updated>
+    <link rel="alternate" type="text/html" href="https://htcrefactor.github.io/robot-catalog/robot.html?id=robotnik-rb-summit"/>
+    <category term="updated"/>
+    <summary type="html">&lt;ul&gt;&lt;li&gt;compute_detail: &lt;em&gt;—&lt;/em&gt; → Intel i7 controller (CPU i7 included); optional ZED camera with GPU&lt;/li&gt;&lt;li&gt;height_mm: &lt;em&gt;—&lt;/em&gt; → 720 mm&lt;/li&gt;&lt;li&gt;ip_rating: &lt;em&gt;—&lt;/em&gt; → IP54&lt;/li&gt;&lt;li&gt;length_mm: &lt;em&gt;—&lt;/em&gt; → 731 mm&lt;/li&gt;&lt;li&gt;max_speed_mps: &lt;em&gt;—&lt;/em&gt; → 2.5 m/s&lt;/li&gt;&lt;li&gt;note: &lt;em&gt;—&lt;/em&gt; → Robotnik product page: 731 x 614 x 720 mm, 65 kg, 50 kg payload, up to 2.5 m/s, up to 5 h, IP54 chassis, 5G router, 2D LiDARs (276°) and RGBD camera included, ROS 2 based. The maker's September 2024 datasheet instead gives 3 m/s and IP50 as standard with IP54 weatherproofing optional, so the product-page figures are kept and the datasheet ones recorded here. RB-SUMMIT+ adds a Kinova Gen3 Lite or Gen3 6/7 DoF arm with a 4 kg arm payload.&lt;/li&gt;&lt;li&gt;official_url: &lt;em&gt;—&lt;/em&gt; → https://robotnik.eu/products/mobile-robots/rb-summit/&lt;/li&gt;&lt;li&gt;onboard_compute: &lt;em&gt;—&lt;/em&gt; → YES&lt;/li&gt;&lt;li&gt;payload_kg: &lt;em&gt;—&lt;/em&gt; → 50 kg&lt;/li&gt;&lt;li&gt;ros_support: &lt;em&gt;—&lt;/em&gt; → YES&lt;/li&gt;&lt;li&gt;runtime_h: &lt;em&gt;—&lt;/em&gt; → 5 h&lt;/li&gt;&lt;li&gt;sensors:  → 2D LiDAR pack (276°); RGBD camera; IMU; Pan-tilt-zoom camera (optional)&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;7 more field(s) changed.&lt;/p&gt;&lt;p&gt;&lt;a href="https://htcrefactor.github.io/robot-catalog/robot.html?id=robotnik-rb-summit"&gt;Robotnik RB-SUMMIT — robot page&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Source: &lt;a href="https://robotnik.eu/products/mobile-robots/rb-summit/"&gt;https://robotnik.eu/products/mobile-robots/rb-summit/&lt;/a&gt;&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <id>tag:htcrefactor.github.io,2026:robot-catalog/petoi-nybble-q/updated/2026-11-26</id>
+    <title>Petoi Nybble Q: 19 fields changed</title>
+    <updated>2026-11-26T00:00:00Z</updated>
+    <link rel="alternate" type="text/html" href="https://htcrefactor.github.io/robot-catalog/robot.html?id=petoi-nybble-q"/>
+    <category term="updated"/>
+    <summary type="html">&lt;ul&gt;&lt;li&gt;battery_wh: &lt;em&gt;—&lt;/em&gt; → 7.4 Wh&lt;/li&gt;&lt;li&gt;compute_detail: &lt;em&gt;—&lt;/em&gt; → BiBoard V1 (ESP32-WROOM-32D, 520 KB SRAM, 4 MB flash); a Raspberry Pi can be mounted on the board&lt;/li&gt;&lt;li&gt;dof: &lt;em&gt;—&lt;/em&gt; → 11&lt;/li&gt;&lt;li&gt;height_mm: &lt;em&gt;—&lt;/em&gt; → 150 mm&lt;/li&gt;&lt;li&gt;length_mm: &lt;em&gt;—&lt;/em&gt; → 240 mm&lt;/li&gt;&lt;li&gt;note: &lt;em&gt;—&lt;/em&gt; → Petoi spec page: standing 240 x 115 x 150 mm, 403–433 g depending on the servo set (0.433 kg kept as the upper figure), 11 joints (2 head, 1 tail, 8 legs), BiBoard V1 with ESP32-WROOM-32D. Product page: 7.4 V 1,000 mAh Li-ion pack, so battery_wh is the derived 7.4 V x 1 Ah = 7.4 Wh, and about 45 minutes of walking per charge (0.75 h). OpenCat is the maker's open-source framework, also the Python and Arduino entry point.&lt;/li&gt;&lt;li&gt;official_url: &lt;em&gt;—&lt;/em&gt; → https://www.petoi.com/products/petoi-nybble-q-robot-cat&lt;/li&gt;&lt;li&gt;onboard_compute: &lt;em&gt;—&lt;/em&gt; → YES&lt;/li&gt;&lt;li&gt;runtime_h: &lt;em&gt;—&lt;/em&gt; → 0.75 h&lt;/li&gt;&lt;li&gt;sdk: &lt;em&gt;—&lt;/em&gt; → {"languages": ["C++", "Python"], "open_source": true, "url": "https://github.com/PetoiCamp/OpenCat"}&lt;/li&gt;&lt;li&gt;sdk_available: &lt;em&gt;—&lt;/em&gt; → YES&lt;/li&gt;&lt;li&gt;sdk_name: &lt;em&gt;—&lt;/em&gt; → OpenCat Python API, Arduino IDE, Petoi Coding Blocks&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;7 more field(s) changed.&lt;/p&gt;&lt;p&gt;&lt;a href="https://htcrefactor.github.io/robot-catalog/robot.html?id=petoi-nybble-q"&gt;Petoi Nybble Q — robot page&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Source: &lt;a href="https://www.petoi.com/products/petoi-nybble-q-robot-cat"&gt;https://www.petoi.com/products/petoi-nybble-q-robot-cat&lt;/a&gt;&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <id>tag:htcrefactor.github.io,2026:robot-catalog/otsaw-o-r3/updated/2026-11-26</id>
+    <title>Otsaw O-R3: 2 fields changed</title>
+    <updated>2026-11-26T00:00:00Z</updated>
+    <link rel="alternate" type="text/html" href="https://htcrefactor.github.io/robot-catalog/robot.html?id=otsaw-o-r3"/>
+    <category term="updated"/>
+    <summary type="html">&lt;ul&gt;&lt;li&gt;note: &lt;em&gt;—&lt;/em&gt; → Checked 2026-11-26: OTSAW's product page (https://otsaw.com/o-r3-autonomous-outdoor-surveillance-robot/) and the site root https://otsaw.com/ both answer HTTP 404, and no other maker page for the O-R3 was found. Aggregator catalogues quote 1,100 x 1,800 x 1,500 mm, 200 kg and 5 h, but those are not maker values, so no field is filled from them. The record stays in the catalogue, marked unconfirmed.&lt;/li&gt;&lt;li&gt;verification: &lt;em&gt;—&lt;/em&gt; → unconfirmed&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://htcrefactor.github.io/robot-catalog/robot.html?id=otsaw-o-r3"&gt;Otsaw O-R3 — robot page&lt;/a&gt;&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <id>tag:htcrefactor.github.io,2026:robot-catalog/iit-r1/updated/2026-11-26</id>
+    <title>Istituto Italiano di Tecnologia (IIT) R1: 20 fields changed</title>
+    <updated>2026-11-26T00:00:00Z</updated>
+    <link rel="alternate" type="text/html" href="https://htcrefactor.github.io/robot-catalog/robot.html?id=iit-r1"/>
+    <category term="updated"/>
+    <summary type="html">&lt;ul&gt;&lt;li&gt;compute_detail: &lt;em&gt;—&lt;/em&gt; → Two Intel i7 Nano-ITX units and a Xilinx Zynq board&lt;/li&gt;&lt;li&gt;dof: &lt;em&gt;—&lt;/em&gt; → 28&lt;/li&gt;&lt;li&gt;height_mm: &lt;em&gt;—&lt;/em&gt; → 1200 mm&lt;/li&gt;&lt;li&gt;locomotion: Legged → Wheeled&lt;/li&gt;&lt;li&gt;max_speed_mps: &lt;em&gt;—&lt;/em&gt; → 0.6 m/s&lt;/li&gt;&lt;li&gt;note: &lt;em&gt;—&lt;/em&gt; → IIT R1 technical specification (rev 1, 2019): 1.2 m tall with a torso adjustable from 1.15 m to 1.35 m, 51 kg with batteries, 400 x 350 mm footprint plus three castor wheels, two driving wheels with a 0.6 m/s software limit, two 8-DoF arms with a 1 kg target payload at 0.6 m, two 4-DoF hands, three hours of operation, YARP open-source APIs. The 28 DoF total (16 arms, 4 torso, 2 head, 2 wheels, 2 x 2 hand actuation) is the count IIT's own design paper publishes.&lt;/li&gt;&lt;li&gt;official_url: &lt;em&gt;—&lt;/em&gt; → https://icub.iit.it/products/product-catalog&lt;/li&gt;&lt;li&gt;onboard_compute: &lt;em&gt;—&lt;/em&gt; → YES&lt;/li&gt;&lt;li&gt;payload_kg: &lt;em&gt;—&lt;/em&gt; → 1 kg&lt;/li&gt;&lt;li&gt;runtime_h: &lt;em&gt;—&lt;/em&gt; → 3 h&lt;/li&gt;&lt;li&gt;sdk: &lt;em&gt;—&lt;/em&gt; → {"languages": ["C++", "Python"], "open_source": true, "url": "http://wiki.icub.org/yarp/"}&lt;/li&gt;&lt;li&gt;sdk_available: &lt;em&gt;—&lt;/em&gt; → YES&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;8 more field(s) changed.&lt;/p&gt;&lt;p&gt;&lt;a href="https://htcrefactor.github.io/robot-catalog/robot.html?id=iit-r1"&gt;Istituto Italiano di Tecnologia (IIT) R1 — robot page&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Source: &lt;a href="https://icub.iit.it/products/product-catalog"&gt;https://icub.iit.it/products/product-catalog&lt;/a&gt;&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <id>tag:htcrefactor.github.io,2026:robot-catalog/enabled-robotics-er-max-600/updated/2026-11-26</id>
+    <title>Enabled Robotics ER-MAX 600: 12 fields changed</title>
+    <updated>2026-11-26T00:00:00Z</updated>
+    <link rel="alternate" type="text/html" href="https://htcrefactor.github.io/robot-catalog/robot.html?id=enabled-robotics-er-max-600"/>
+    <category term="updated"/>
+    <summary type="html">&lt;ul&gt;&lt;li&gt;api_support: &lt;em&gt;—&lt;/em&gt; → YES&lt;/li&gt;&lt;li&gt;ip_rating: &lt;em&gt;—&lt;/em&gt; → IP52&lt;/li&gt;&lt;li&gt;length_mm: &lt;em&gt;—&lt;/em&gt; → 1350 mm&lt;/li&gt;&lt;li&gt;note: BUYL lists ER-MAX 600 in two arm configurations (600-20, 25 kg and 600-30, 35 kg payload); added as one record. Skeleton - maker values not checked. → Maker: the base carries up to 380 kg and the front module up to 411 kg, with a 1,350 x 910 mm footprint; the arm adds 25 kg (UR20) or 35 kg (UR30); the total system is IP52, the arm and module IP54; REST and OPC-UA interfaces; ER-ABILITY software for programming and QR/barcode reading. Sold as ER-MAX 600-20 (UR20) and ER-MAX 600-30 (UR30). The maker states no travel speed or system weight on its own pages, and the 460 kg / 2 m/s that a reseller lists are not copied.&lt;/li&gt;&lt;li&gt;official_url: &lt;em&gt;—&lt;/em&gt; → https://www.enabled-robotics.com/er-max&lt;/li&gt;&lt;li&gt;payload_kg: &lt;em&gt;—&lt;/em&gt; → 380 kg&lt;/li&gt;&lt;li&gt;sensors:  → Proximity sensors scanning the floor; 360° safety laser scanners; 3D cameras (1.8 m height / 1.2 m distance); Force s…&lt;/li&gt;&lt;li&gt;sources:  → https://www.enabled-robotics.com/er-max; https://www.enabled-robotics.com/faq; https://www.enabled-robotics.com/&lt;/li&gt;&lt;li&gt;status: &lt;em&gt;—&lt;/em&gt; → Commercial&lt;/li&gt;&lt;li&gt;summary: &lt;em&gt;—&lt;/em&gt; → Mobile cobot built on the MiR600 base with a Universal Robots UR20 or UR30 arm, for heavy part and pallet handling.&lt;/li&gt;&lt;li&gt;verification: &lt;em&gt;—&lt;/em&gt; → official&lt;/li&gt;&lt;li&gt;width_mm: &lt;em&gt;—&lt;/em&gt; → 910 mm&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://htcrefactor.github.io/robot-catalog/robot.html?id=enabled-robotics-er-max-600"&gt;Enabled Robotics ER-MAX 600 — robot page&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Source: &lt;a href="https://www.enabled-robotics.com/er-max"&gt;https://www.enabled-robotics.com/er-max&lt;/a&gt;&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <id>tag:htcrefactor.github.io,2026:robot-catalog/dogu-patrover/updated/2026-11-26</id>
+    <title>DOGU Patrover: 15 fields changed</title>
+    <updated>2026-11-26T00:00:00Z</updated>
+    <link rel="alternate" type="text/html" href="https://htcrefactor.github.io/robot-catalog/robot.html?id=dogu-patrover"/>
+    <category term="updated"/>
+    <summary type="html">&lt;ul&gt;&lt;li&gt;country: &lt;em&gt;—&lt;/em&gt; → South Korea&lt;/li&gt;&lt;li&gt;height_mm: &lt;em&gt;—&lt;/em&gt; → 1153 mm&lt;/li&gt;&lt;li&gt;length_mm: &lt;em&gt;—&lt;/em&gt; → 1030 mm&lt;/li&gt;&lt;li&gt;max_speed_mps: &lt;em&gt;—&lt;/em&gt; → 1.5 m/s&lt;/li&gt;&lt;li&gt;note: &lt;em&gt;—&lt;/em&gt; → DOGU product page: W 755 x D 1,030 x H 1,153 mm, 90 kg, patrol speed 0.7 m/s with a 1.5 m/s maximum (1.5 kept as the max speed), 3D LiDAR scanning a 50 m radius plus front and rear 2D LiDAR, four cameras, thermal camera, fire-detection sensor and 14 ultrasonic sensors. The maker states no runtime, battery or payload, so those fields stay empty. The maker's Korean pages give the company as (주)도구공간 and the product as 패트로버.&lt;/li&gt;&lt;li&gt;official_url: &lt;em&gt;—&lt;/em&gt; → https://www.dogu.xyz/product-Patrover&lt;/li&gt;&lt;li&gt;sensors:  → 3D LiDAR (50 m radius); 2D LiDAR front and rear; 4 cameras (front, rear, left, right); Thermal camera; Fire-detection…&lt;/li&gt;&lt;li&gt;sources:  → https://www.dogu.xyz/product-Patrover&lt;/li&gt;&lt;li&gt;status: &lt;em&gt;—&lt;/em&gt; → Commercial&lt;/li&gt;&lt;li&gt;summary: &lt;em&gt;—&lt;/em&gt; → Outdoor security-patrol robot that watches for intruders, fire, abnormal sound and road hazards and reports to a control centre.&lt;/li&gt;&lt;li&gt;verification: &lt;em&gt;—&lt;/em&gt; → official&lt;/li&gt;&lt;li&gt;weight_kg: &lt;em&gt;—&lt;/em&gt; → 90 kg&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;3 more field(s) changed.&lt;/p&gt;&lt;p&gt;&lt;a href="https://htcrefactor.github.io/robot-catalog/robot.html?id=dogu-patrover"&gt;DOGU Patrover — robot page&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Source: &lt;a href="https://www.dogu.xyz/product-Patrover"&gt;https://www.dogu.xyz/product-Patrover&lt;/a&gt;&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <id>tag:htcrefactor.github.io,2026:robot-catalog/aldebaran-plato/updated/2026-11-26</id>
+    <title>Aldebaran Plato: 16 fields changed</title>
+    <updated>2026-11-26T00:00:00Z</updated>
+    <link rel="alternate" type="text/html" href="https://htcrefactor.github.io/robot-catalog/robot.html?id=aldebaran-plato"/>
+    <category term="updated"/>
+    <summary type="html">&lt;ul&gt;&lt;li&gt;battery_wh: &lt;em&gt;—&lt;/em&gt; → 995 Wh&lt;/li&gt;&lt;li&gt;height_mm: &lt;em&gt;—&lt;/em&gt; → 1113 mm&lt;/li&gt;&lt;li&gt;ip_rating: &lt;em&gt;—&lt;/em&gt; → IP42&lt;/li&gt;&lt;li&gt;length_mm: &lt;em&gt;—&lt;/em&gt; → 545 mm&lt;/li&gt;&lt;li&gt;max_speed_mps: &lt;em&gt;—&lt;/em&gt; → 0.7 m/s&lt;/li&gt;&lt;li&gt;note: &lt;em&gt;—&lt;/em&gt; → Aldebaran Plato technical specification: 1,113 x 545 x 500 mm, 53 kg empty with battery, 30 kg total payload (10 kg top shelf, 10 kg middle, 20 kg bottom), 0.7 m/s, IP42, 12 h autonomy with the 995 Wh / 38.4 Ah pack, 10 mm gap crossing, no step or slope allowed, 10.1-inch touchscreen and three class-1 3D scanners.&lt;/li&gt;&lt;li&gt;official_url: &lt;em&gt;—&lt;/em&gt; → https://plato.documentation.aldebaran.com/en/docs/specs&lt;/li&gt;&lt;li&gt;payload_kg: &lt;em&gt;—&lt;/em&gt; → 30 kg&lt;/li&gt;&lt;li&gt;runtime_h: &lt;em&gt;—&lt;/em&gt; → 12 h&lt;/li&gt;&lt;li&gt;sensors:  → 3x 3D laser scanners (class 1); 10.1-inch touchscreen; Weight sensors per shelf&lt;/li&gt;&lt;li&gt;sources:  → https://plato.documentation.aldebaran.com/en/docs/specs; https://plato.documentation.aldebaran.com/en/docs/user-guide&lt;/li&gt;&lt;li&gt;status: &lt;em&gt;—&lt;/em&gt; → Commercial&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;4 more field(s) changed.&lt;/p&gt;&lt;p&gt;&lt;a href="https://htcrefactor.github.io/robot-catalog/robot.html?id=aldebaran-plato"&gt;Aldebaran Plato — robot page&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Source: &lt;a href="https://plato.documentation.aldebaran.com/en/docs/specs"&gt;https://plato.documentation.aldebaran.com/en/docs/specs&lt;/a&gt;&lt;/p&gt;</summary>
+  </entry>
   <entry>
     <id>tag:htcrefactor.github.io,2026:robot-catalog/zebra-fetch-freight1500/updated/2026-11-22</id>
     <title>Zebra Technologies (Fetch Robotics) Freight1500: 2 fields changed</title>
@@ -710,101 +806,5 @@
     <link rel="alternate" type="text/html" href="https://htcrefactor.github.io/robot-catalog/robot.html?id=weilan-alphadog-c500"/>
     <category term="added"/>
     <summary type="html">&lt;p&gt;&lt;a href="https://htcrefactor.github.io/robot-catalog/robot.html?id=weilan-alphadog-c500"&gt;WEILAN AlphaDog C500 — robot page&lt;/a&gt;&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <id>tag:htcrefactor.github.io,2026:robot-catalog/waseda-twendy-one/added/2026-11-14</id>
-    <title>New robot: Waseda University TWENDY-ONE</title>
-    <updated>2026-11-14T00:00:00Z</updated>
-    <link rel="alternate" type="text/html" href="https://htcrefactor.github.io/robot-catalog/robot.html?id=waseda-twendy-one"/>
-    <category term="added"/>
-    <summary type="html">&lt;p&gt;&lt;a href="https://htcrefactor.github.io/robot-catalog/robot.html?id=waseda-twendy-one"&gt;Waseda University TWENDY-ONE — robot page&lt;/a&gt;&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <id>tag:htcrefactor.github.io,2026:robot-catalog/walden-robotics-walden/added/2026-11-14</id>
-    <title>New robot: Walden Robotics Walden</title>
-    <updated>2026-11-14T00:00:00Z</updated>
-    <link rel="alternate" type="text/html" href="https://htcrefactor.github.io/robot-catalog/robot.html?id=walden-robotics-walden"/>
-    <category term="added"/>
-    <summary type="html">&lt;p&gt;&lt;a href="https://htcrefactor.github.io/robot-catalog/robot.html?id=walden-robotics-walden"&gt;Walden Robotics Walden — robot page&lt;/a&gt;&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <id>tag:htcrefactor.github.io,2026:robot-catalog/vstone-tichno/added/2026-11-14</id>
-    <title>New robot: Vstone Vstone Tichno</title>
-    <updated>2026-11-14T00:00:00Z</updated>
-    <link rel="alternate" type="text/html" href="https://htcrefactor.github.io/robot-catalog/robot.html?id=vstone-tichno"/>
-    <category term="added"/>
-    <summary type="html">&lt;p&gt;&lt;a href="https://htcrefactor.github.io/robot-catalog/robot.html?id=vstone-tichno"&gt;Vstone Vstone Tichno — robot page&lt;/a&gt;&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <id>tag:htcrefactor.github.io,2026:robot-catalog/vlai-robotics-k1/added/2026-11-14</id>
-    <title>New robot: VLAI Robotics K1</title>
-    <updated>2026-11-14T00:00:00Z</updated>
-    <link rel="alternate" type="text/html" href="https://htcrefactor.github.io/robot-catalog/robot.html?id=vlai-robotics-k1"/>
-    <category term="added"/>
-    <summary type="html">&lt;p&gt;&lt;a href="https://htcrefactor.github.io/robot-catalog/robot.html?id=vlai-robotics-k1"&gt;VLAI Robotics K1 — robot page&lt;/a&gt;&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <id>tag:htcrefactor.github.io,2026:robot-catalog/vizum-xiaowei-agv/added/2026-11-14</id>
-    <title>New robot: Vizum Xiaowei (AGV version)</title>
-    <updated>2026-11-14T00:00:00Z</updated>
-    <link rel="alternate" type="text/html" href="https://htcrefactor.github.io/robot-catalog/robot.html?id=vizum-xiaowei-agv"/>
-    <category term="added"/>
-    <summary type="html">&lt;p&gt;&lt;a href="https://htcrefactor.github.io/robot-catalog/robot.html?id=vizum-xiaowei-agv"&gt;Vizum Xiaowei (AGV version) — robot page&lt;/a&gt;&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <id>tag:htcrefactor.github.io,2026:robot-catalog/vizum-humanoid-picking-robot/added/2026-11-14</id>
-    <title>New robot: Vizum Humanoid picking robot</title>
-    <updated>2026-11-14T00:00:00Z</updated>
-    <link rel="alternate" type="text/html" href="https://htcrefactor.github.io/robot-catalog/robot.html?id=vizum-humanoid-picking-robot"/>
-    <category term="added"/>
-    <summary type="html">&lt;p&gt;&lt;a href="https://htcrefactor.github.io/robot-catalog/robot.html?id=vizum-humanoid-picking-robot"&gt;Vizum Humanoid picking robot — robot page&lt;/a&gt;&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <id>tag:htcrefactor.github.io,2026:robot-catalog/visionnav-vnst-20/added/2026-11-14</id>
-    <title>New robot: VisionNav Robotics VNST 20</title>
-    <updated>2026-11-14T00:00:00Z</updated>
-    <link rel="alternate" type="text/html" href="https://htcrefactor.github.io/robot-catalog/robot.html?id=visionnav-vnst-20"/>
-    <category term="added"/>
-    <summary type="html">&lt;p&gt;&lt;a href="https://htcrefactor.github.io/robot-catalog/robot.html?id=visionnav-vnst-20"&gt;VisionNav Robotics VNST 20 — robot page&lt;/a&gt;&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <id>tag:htcrefactor.github.io,2026:robot-catalog/visionnav-vnr-20/added/2026-11-14</id>
-    <title>New robot: VisionNav Robotics VNR 20</title>
-    <updated>2026-11-14T00:00:00Z</updated>
-    <link rel="alternate" type="text/html" href="https://htcrefactor.github.io/robot-catalog/robot.html?id=visionnav-vnr-20"/>
-    <category term="added"/>
-    <summary type="html">&lt;p&gt;&lt;a href="https://htcrefactor.github.io/robot-catalog/robot.html?id=visionnav-vnr-20"&gt;VisionNav Robotics VNR 20 — robot page&lt;/a&gt;&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <id>tag:htcrefactor.github.io,2026:robot-catalog/visionnav-vnp-15/added/2026-11-14</id>
-    <title>New robot: VisionNav Robotics VNP 15</title>
-    <updated>2026-11-14T00:00:00Z</updated>
-    <link rel="alternate" type="text/html" href="https://htcrefactor.github.io/robot-catalog/robot.html?id=visionnav-vnp-15"/>
-    <category term="added"/>
-    <summary type="html">&lt;p&gt;&lt;a href="https://htcrefactor.github.io/robot-catalog/robot.html?id=visionnav-vnp-15"&gt;VisionNav Robotics VNP 15 — robot page&lt;/a&gt;&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <id>tag:htcrefactor.github.io,2026:robot-catalog/visionnav-vnk15/added/2026-11-14</id>
-    <title>New robot: VisionNav Robotics VNK 15</title>
-    <updated>2026-11-14T00:00:00Z</updated>
-    <link rel="alternate" type="text/html" href="https://htcrefactor.github.io/robot-catalog/robot.html?id=visionnav-vnk15"/>
-    <category term="added"/>
-    <summary type="html">&lt;p&gt;&lt;a href="https://htcrefactor.github.io/robot-catalog/robot.html?id=visionnav-vnk15"&gt;VisionNav Robotics VNK 15 — robot page&lt;/a&gt;&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <id>tag:htcrefactor.github.io,2026:robot-catalog/visionnav-vne40-66/added/2026-11-14</id>
-    <title>New robot: VisionNav Robotics VNE40-66</title>
-    <updated>2026-11-14T00:00:00Z</updated>
-    <link rel="alternate" type="text/html" href="https://htcrefactor.github.io/robot-catalog/robot.html?id=visionnav-vne40-66"/>
-    <category term="added"/>
-    <summary type="html">&lt;p&gt;&lt;a href="https://htcrefactor.github.io/robot-catalog/robot.html?id=visionnav-vne40-66"&gt;VisionNav Robotics VNE40-66 — robot page&lt;/a&gt;&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <id>tag:htcrefactor.github.io,2026:robot-catalog/vinrobotics-vr-m3/added/2026-11-14</id>
-    <title>New robot: VinRobotics (Vingroup) VR-M3</title>
-    <updated>2026-11-14T00:00:00Z</updated>
-    <link rel="alternate" type="text/html" href="https://htcrefactor.github.io/robot-catalog/robot.html?id=vinrobotics-vr-m3"/>
-    <category term="added"/>
-    <summary type="html">&lt;p&gt;&lt;a href="https://htcrefactor.github.io/robot-catalog/robot.html?id=vinrobotics-vr-m3"&gt;VinRobotics (Vingroup) VR-M3 — robot page&lt;/a&gt;&lt;/p&gt;</summary>
   </entry>
 </feed>

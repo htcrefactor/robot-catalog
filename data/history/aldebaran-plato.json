@@ -1,0 +1,102 @@
+{
+ "id": "aldebaran-plato",
+ "name": "Plato",
+ "manufacturer": "Aldebaran",
+ "updated": "2026-11-26",
+ "events": [
+  {
+   "date": "2026-11-26",
+   "type": "updated",
+   "source": "https://plato.documentation.aldebaran.com/en/docs/specs",
+   "changes": [
+    {
+     "field": "battery_wh",
+     "from": null,
+     "to": 995
+    },
+    {
+     "field": "height_mm",
+     "from": null,
+     "to": 1113
+    },
+    {
+     "field": "ip_rating",
+     "from": null,
+     "to": "IP42"
+    },
+    {
+     "field": "length_mm",
+     "from": null,
+     "to": 545
+    },
+    {
+     "field": "max_speed_mps",
+     "from": null,
+     "to": 0.7
+    },
+    {
+     "field": "note",
+     "from": null,
+     "to": "Aldebaran Plato technical specification: 1,113 x 545 x 500 mm, 53 kg empty with battery, 30 kg total payload (10 kg top shelf, 10 kg middle, 20 kg bottom), 0.7 m/s, IP42, 12 h autonomy with the 995 Wh / 38.4 Ah pack, 10 mm gap crossing, no step or slope allowed, 10.1-inch touchscreen and three class-1 3D scanners."
+    },
+    {
+     "field": "official_url",
+     "from": null,
+     "to": "https://plato.documentation.aldebaran.com/en/docs/specs"
+    },
+    {
+     "field": "payload_kg",
+     "from": null,
+     "to": 30
+    },
+    {
+     "field": "runtime_h",
+     "from": null,
+     "to": 12
+    },
+    {
+     "field": "sensors",
+     "from": [],
+     "to": [
+      "3x 3D laser scanners (class 1)",
+      "10.1-inch touchscreen",
+      "Weight sensors per shelf"
+     ]
+    },
+    {
+     "field": "sources",
+     "from": [],
+     "to": [
+      "https://plato.documentation.aldebaran.com/en/docs/specs",
+      "https://plato.documentation.aldebaran.com/en/docs/user-guide"
+     ]
+    },
+    {
+     "field": "status",
+     "from": null,
+     "to": "Commercial"
+    },
+    {
+     "field": "summary",
+     "from": "",
+     "to": "Serving robot that carries food, drinks and dishes between kitchen and tables in restaurants, hotels and care settings."
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "official"
+    },
+    {
+     "field": "weight_kg",
+     "from": null,
+     "to": 53
+    },
+    {
+     "field": "width_mm",
+     "from": null,
+     "to": 500
+    }
+   ]
+  }
+ ]
+}
