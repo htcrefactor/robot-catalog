@@ -143,4 +143,4 @@ Checked 2026-11-22 against the Seegrid Lift CR1 page: 15 ft lift, 4,000 lb (1,81
 
 ---
 
-*Robot Catalog — generated from data/robots.json (last merged 2026-11-22). Source repository: https://github.com/htcrefactor/robot-catalog*
+*Robot Catalog — generated from data/robots.json (last merged 2026-11-26). Source repository: https://github.com/htcrefactor/robot-catalog*

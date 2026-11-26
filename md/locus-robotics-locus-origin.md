@@ -138,4 +138,4 @@ Checked 2026-11-19 on the maker page: 20.4x22.8x62 in (518x579x1575 mm), 36 kg p
 
 ---
 
-*Robot Catalog — generated from data/robots.json (last merged 2026-11-22). Source repository: https://github.com/htcrefactor/robot-catalog*
+*Robot Catalog — generated from data/robots.json (last merged 2026-11-26). Source repository: https://github.com/htcrefactor/robot-catalog*

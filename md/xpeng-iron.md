@@ -1,6 +1,6 @@
 # Xpeng IRON
 
-> XPENG's humanoid, which reuses the company's Turing AI chips, Eagle Eye vision and AI models; the November 2025 generation adds a bionic spine, flexible skin and an all-solid-state battery, with volume production targeted for the end of 2026.
+> XPENG's general-purpose humanoid, built on the company's Turing chips, Eagle Eye vision and VLA models; the November 2026 generation has 76 DoF, tactile skin and an all-solid-state battery, with store work from 2027.
 
 - Catalog page: https://htcrefactor.github.io/robot-catalog/robot.html?id=xpeng-iron
 - Category: Humanoid
@@ -15,12 +15,12 @@
 | Height | 1,730 mm |
 | Weight | 65 kg |
 | Max speed | 2 m/s (7.2 km/h) |
-| Degrees of freedom | 82 |
+| Degrees of freedom | 76 |
 | Released | 2024 |
 | Status | In development |
 | On-board compute | yes |
 | Compute | 3 x XPENG Turing AI chip, 2250 TOPS effective; all-solid-state battery |
-| Sensors | Eagle Eye vision system shared with XPENG cars |
+| Sensors | Eagle Eye vision system shared with XPENG cars, 1,500+ tactile sensing points covering >80% of key body areas, 360° environmental perception |
 
 Fields the maker does not publish are left out here — the catalog never fills a value by guess. Prices are list or starting prices where the maker states one.
 
@@ -69,14 +69,15 @@ Fields the maker does not publish are left out here — the catalog never fills 
 
 ## Notes
 
-XPENG's own releases: the first IRON (AI Day, 2024-11-06) was described with more than 60 joints and more than 200 degrees of freedom by the company's own count, and was trialled on the P7+ line in Guangzhou. The 2025-11-05 generation is quoted at 82 body DoF with 22-DoF hands, three Turing chips at 2250 TOPS effective (an earlier English release's 3000 TOPS does not match three chips), an all-solid-state battery, a bionic spine and flexible skin, and volume production targeted for the end of 2026. XPENG has not published height or weight for the current robot; the widely quoted 178 cm and 70 kg belong to the earlier IRON, so those fields are empty.
+XPENG's own releases: the first IRON (AI Day, 2024-11-06) was described with more than 60 joints and more than 200 degrees of freedom by the company's own count, and was trialled on the P7+ line in Guangzhou. The 2025-11-05 generation is quoted at 82 body DoF with 22-DoF hands, three Turing chips at 2250 TOPS effective (an earlier English release's 3000 TOPS does not match three chips), an all-solid-state battery, a bionic spine and flexible skin, and volume production targeted for the end of 2026. XPENG has not published height or weight for the current robot; the widely quoted 178 cm and 70 kg belong to the earlier IRON, so those fields are empty. [Updated 2026-11-26 from XPENG's AI Day 2026 release of 2026-11-25: the current generation is quoted at 76 DoF with a 21-DoF hand, more than 1,500 tactile sensing points over more than 80% of key body areas, three Turing chips (2,250 TOPS effective), an IRON OS whole-body stack and 360-degree perception; store-assistant training starts in Q1 2027 and public release is targeted for Q2 2027, with volume production by the end of 2026. XPENG's earlier 2025-11-05 release and its technology page give 82 body DoF and 22-DoF hands, so both pairs of figures exist in maker material; the November 2026 release is kept as the current value and the earlier one stays recorded here. The record's status is 'In development', a value the schema now lists (added 2026-11-26): IRON is announced with a 2027 timeline but is not on sale and cannot be pre-ordered yet.]
 
 ## Sources
 
 - Official page: [xpeng.com](https://www.xpeng.com/news/019301d2135392fa562d8a0282200016)
-- [xpeng.com](https://www.xpeng.com/pressroom/news/01a080371029a057bc8e8a02a2c6012b)
 - [xiaopeng.com](https://www.xiaopeng.com/news/company_news/5511.html)
+- [xpeng.com](https://www.xpeng.com/news/01a212b0d830a1e838d68a02a2110174)
+- [xpeng.com](https://www.xpeng.com/pressroom/news/01a080371029a057bc8e8a02a2c6012b)
 
 ---
 
-*Robot Catalog — generated from data/robots.json (last merged 2026-11-22). Source repository: https://github.com/htcrefactor/robot-catalog*
+*Robot Catalog — generated from data/robots.json (last merged 2026-11-26). Source repository: https://github.com/htcrefactor/robot-catalog*

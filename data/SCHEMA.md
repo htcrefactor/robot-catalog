@@ -7,7 +7,7 @@
   "category": "Quadruped",             // one of: AMR, AGV, Humanoid, Quadruped, Wheel-legged, Indoor delivery, Outdoor delivery, Mobile platform
   "locomotion": "Legged",              // one of: Wheeled, Tracked, Legged, Wheel-legged
   "release_year": 2023,
-  "status": "Commercial",              // Commercial, Pre-order, Pilot, Research, Discontinued
+  "status": "Commercial",              // Commercial, Pre-order, Pilot, Research, In development, Discontinued
   "length_mm": null, "width_mm": null, "height_mm": null,
   "weight_kg": null,
   "payload_kg": null,                  // rated payload
@@ -67,6 +67,8 @@
   "summary": ""                        // one plain sentence, what it is for
 }
 Rules: never guess; unknown = null. Prefer manufacturer spec pages/datasheets. Numbers as numbers.
+
+`status` is one of the six values listed above. `In development` (added 2026-11-26, owner-approved) marks a robot the maker has announced but does not sell or take pre-orders for yet; `Pre-order` is for a model the maker already takes orders on. Values that appear in older records but are not in that list (e.g. `Prototype`, `Announced`, `Concept`, `Preorder`) are not schema values; `scripts/validate.py` lists them as warnings until they are normalised or adopted.
 
 ## Dated price observations (`price_observations`)
 A price is a dated observation, not a standing fact: maker prices change, and a number without the
