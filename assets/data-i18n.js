@@ -57,7 +57,7 @@ const DATA_FIELDS=[
 {k:"category",t:"enum",u:"",g:"identity",en:"AMR, AGV, Humanoid, Quadruped, Wheel-legged, Indoor delivery, Outdoor delivery, Mobile platform or Misc.",ko:"AMR, AGV, 휴머노이드, 4족 보행, 바퀴-다리형, 실내 배송, 실외 배송, 모바일 플랫폼, 기타 중 하나."},
 {k:"locomotion",t:"enum",u:"",g:"identity",en:"Wheeled, Tracked, Legged or Wheel-legged.",ko:"바퀴형, 궤도형, 보행형, 바퀴-다리형 중 하나."},
 {k:"release_year",t:"number",u:"year",g:"identity",en:"Year the maker released or announced it, where stated.",ko:"제조사가 출시·발표한 연도(밝힌 경우)."},
-{k:"status",t:"enum",u:"",g:"identity",en:"Commercial, Pre-order, Pilot, Research or Discontinued.",ko:"상용, 사전 주문, 시범 운영, 연구용, 단종 중 하나."},
+{k:"status",t:"enum",u:"",g:"identity",en:"Commercial, Pre-order, Pilot, Research, In development or Discontinued.",ko:"상용, 사전 주문, 시범 운영, 연구용, 개발 중, 단종 중 하나."},
 {k:"length_mm",t:"number",u:"mm",g:"size",en:"Body length as stated (inch × 25.4 when the maker uses inches).",ko:"차체 길이(인치 표기는 × 25.4로 환산)."},
 {k:"width_mm",t:"number",u:"mm",g:"size",en:"Body width.",ko:"차체 폭."},
 {k:"height_mm",t:"number",u:"mm",g:"size",en:"Body height.",ko:"차체 높이."},

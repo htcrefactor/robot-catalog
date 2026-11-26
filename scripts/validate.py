@@ -7,6 +7,11 @@ from catalog_data import CSV_COLUMNS, csv_row  # noqa: E402
 root = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 CATS = {"AMR","AGV","Humanoid","Quadruped","Wheel-legged","Indoor delivery","Outdoor delivery","Mobile platform","Misc"}
 KINDS = {"list","from","rental","edu"}
+# data/SCHEMA.md status vocabulary. Values outside it are reported as warnings, not errors, because
+# older records still carry ad-hoc words (Prototype, Announced, Concept, Preorder) the owner has not
+# ruled on yet. "In development" was added on 2026-11-26 for announced, not-yet-sold robots.
+STATUS_VALUES = {"Commercial", "Pre-order", "Pilot", "Research", "In development", "Discontinued"}
+status_other = {}
 PRECISIONS = {"INT8","INT4","FP8","FP4","FP16","BF16","FP32"}
 err, ids, records, warn = [], {}, {}, []
 KR_KINDS = {"direct", "distributor", "reseller"}
@@ -87,6 +92,8 @@ for f in sorted(glob.glob(os.path.join(root, "data/parts/*.json"))):
             if not r.get(k): err.append(f"{i}: missing {k}")
         if r.get("category") and r["category"] not in CATS: err.append(f"{i}: unknown category {r['category']}")
         if r.get("verification") not in (None, "official", "unconfirmed"): err.append(f"{i}: bad verification {r.get('verification')}")
+        st = r.get("status")
+        if st is not None and st not in STATUS_VALUES: status_other[st] = status_other.get(st, 0) + 1
         check_dev(r, i)
         # safety & certification fields (issue #30)
         for k in ("safety_standards", "certifications"):
@@ -231,6 +238,8 @@ base = os.environ.get("BASE_COUNT")
 if base and len(ids) < int(base) and os.environ.get("ALLOW_DROP") != "1":
     err.append(f"robot count dropped from {base} to {len(ids)}: explain in the PR and add the label count-drop-ok")
 print(f"{len(ids)} robots checked, {len(err)} problems")
+for v, n in sorted(status_other.items(), key=lambda kv: (-kv[1], str(kv[0]))):
+    warn.append(f"status {v!r} is used by {n} records and is not one of the schema values {sorted(STATUS_VALUES)}")
 for e in err[:300]: print("ERROR:", e)
 for w in warn[:50]: print("WARN:", w)
 sys.exit(1 if err else 0)
