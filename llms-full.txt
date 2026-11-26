@@ -5,7 +5,7 @@
 - Canonical site: https://htcrefactor.github.io/robot-catalog/
 - Index for agents: https://htcrefactor.github.io/robot-catalog/llms.txt
 - Per-robot Markdown with the full spec sheet and a source on every value: https://htcrefactor.github.io/robot-catalog/md/<id>.md
-- Generated from data/robots.json, last merged 2026-11-22. No scoring, no ranking.
+- Generated from data/robots.json, last merged 2026-11-26. No scoring, no ranking.
 
 ## AMR (96)
 
@@ -1346,9 +1346,9 @@
 - id: `agile-robots-agile-one-sn`
 - Page: https://htcrefactor.github.io/robot-catalog/robot.html?id=agile-robots-agile-one-sn
 - Markdown: https://htcrefactor.github.io/robot-catalog/md/agile-robots-agile-one-sn.md
-- Humanoid · Legged · Announced · Germany
+- Humanoid · Legged · In development · Germany
 - Summary: Mid-size humanoid from Agile Robots; announced, sold to research buyers.
-- Specs: Height 1,400 mm; Weight 43 kg; Payload 3 kg; Degrees of freedom 71; Status Announced
+- Specs: Height 1,400 mm; Weight 43 kg; Payload 3 kg; Degrees of freedom 71; Status In development
 - Sources: https://www.agile-robots.com/en/news/detail/agile-robots-launches-agile-one-sn/
 
 ### Agile Robots H10-W
@@ -1386,9 +1386,9 @@
 - id: `aidol-aidol`
 - Page: https://htcrefactor.github.io/robot-catalog/robot.html?id=aidol-aidol
 - Markdown: https://htcrefactor.github.io/robot-catalog/md/aidol-aidol.md
-- Humanoid · Legged · Prototype · Russia · released 2025
+- Humanoid · Legged · In development · Russia · released 2025
 - Summary: Moscow startup AIDOL's 186 cm walking humanoid with an expressive face (12 basic emotions), GPU-based onboard AI that works offline, and up to 6 h runtime.
-- Specs: Height 1,860 mm; Weight 95 kg; Payload 10 kg; Max speed 1.67 m/s (6.0 km/h); Degrees of freedom 67; Runtime 6 h; Released 2025; Status Prototype; On-board compute yes
+- Specs: Height 1,860 mm; Weight 95 kg; Payload 10 kg; Max speed 1.67 m/s (6.0 km/h); Degrees of freedom 67; Runtime 6 h; Released 2025; Status In development; On-board compute yes
 - Sources: https://aidoltech.ru/en/walking, https://aidoltech.ru/en, https://aidoltech.ru/en/desktop
 
 ### AiMOGA Robotics (Chery) Intelligent Police R001
@@ -1809,9 +1809,9 @@
 - id: `simple-ai-simbot`
 - Page: https://htcrefactor.github.io/robot-catalog/robot.html?id=simple-ai-simbot
 - Markdown: https://htcrefactor.github.io/robot-catalog/md/simple-ai-simbot.md
-- Humanoid · Wheeled · Announced · China
+- Humanoid · Wheeled · In development · China
 - Summary: Simple AI's (深朴智能) home-and-hospitality service humanoid on a wheeled base, with 23 DOF, 7-DOF arms carrying 5 kg, and a memory-augmented agentic OS on top of its Omni-Simple-World model.
-- Specs: Payload 5 kg; Degrees of freedom 23; Status Announced; API yes; On-board compute 2,000 TOPS main compute with cloud brain plus on-device large/small models; Sensors 2x LiDAR, 2x RGBD cameras, 6x GMSL camera links, Tactile and force sensing
+- Specs: Payload 5 kg; Degrees of freedom 23; Status In development; API yes; On-board compute 2,000 TOPS main compute with cloud brain plus on-device large/small models; Sensors 2x LiDAR, 2x RGBD cameras, 6x GMSL camera links, Tactile and force sensing
 - Sources: https://www.simpleai.tech/, https://robottoday.com/suppliers-discovery/simple-ai
 
 ### Beyond Imagination Beomni V3
@@ -1983,9 +1983,9 @@
 - id: `changan-xiaoan`
 - Page: https://htcrefactor.github.io/robot-catalog/robot.html?id=changan-xiaoan
 - Markdown: https://htcrefactor.github.io/robot-catalog/md/changan-xiaoan.md
-- Humanoid · Legged · Prototype · China · released 2025
+- Humanoid · Legged · In development · China · released 2025
 - Summary: Changan Automobile's humanoid prototype 'Xiaoan' (169 cm, 40 DOF) that walks autonomously, chats via Changan's Tianshu model and demos martial arts; mass production targeted for 2028.
-- Specs: Height 1,690 mm; Weight 69 kg; Max speed 0.8 m/s (2.9 km/h); Degrees of freedom 40; Runtime 2 h; Released 2025; Status Prototype
+- Specs: Height 1,690 mm; Weight 69 kg; Max speed 0.8 m/s (2.9 km/h); Degrees of freedom 40; Runtime 2 h; Released 2025; Status In development
 - Sources: http://static.cninfo.com.cn/finalpage/2025-11-23/1224821559.PDF, http://static.cninfo.com.cn/finalpage/2025-11-20/1224817438.PDF
 
 ### Chengdu Humanoid Robot Innovation Center J-PANDA
@@ -2003,9 +2003,9 @@
 - id: `clone-robotics-clone-alpha-protoclone`
 - Page: https://htcrefactor.github.io/robot-catalog/robot.html?id=clone-robotics-clone-alpha-protoclone
 - Markdown: https://htcrefactor.github.io/robot-catalog/md/clone-robotics-clone-alpha-protoclone.md
-- Humanoid · Legged · Announced · Poland
+- Humanoid · Legged · In development · Poland
 - Summary: Clone Robotics' musculoskeletal android built on a synthetic human skeleton and water-powered Myofiber artificial muscles, offered as a 279-unit Alpha Edition reservation.
-- Specs: Status Announced
+- Specs: Status In development
 - Sources: https://www.clonerobotics.com/android, https://www.clonerobotics.com/, https://www.youtube.com/watch?v=H7dhwFcuUn0
 
 ### COOWA N1
@@ -2494,9 +2494,9 @@
 - id: `engineai-sa02`
 - Page: https://htcrefactor.github.io/robot-catalog/robot.html?id=engineai-sa02
 - Markdown: https://htcrefactor.github.io/robot-catalog/md/engineai-sa02.md
-- Humanoid · Legged · Announced · China
+- Humanoid · Legged · In development · China
 - Summary: EngineAI's low-cost companion humanoid for young buyers, previewed at the 2025 World Robot Conference at CNY 38,500 and not yet on sale.
-- Specs: Height 1,250 mm; Weight 25 kg; Status Announced; Price from CNY 38,500 (maker pre-announcement at WRC 2025)
+- Specs: Height 1,250 mm; Weight 25 kg; Status In development; Price from CNY 38,500 (maker pre-announcement at WRC 2025)
 - Sources: https://en.engineai.com.cn/about-news-media/16.html
 
 ### EngineAI SE01
@@ -2644,9 +2644,9 @@
 - id: `foundation-phantom-mk2`
 - Page: https://htcrefactor.github.io/robot-catalog/robot.html?id=foundation-phantom-mk2
 - Markdown: https://htcrefactor.github.io/robot-catalog/md/foundation-phantom-mk2.md
-- Humanoid · Legged · Announced · United States
+- Humanoid · Legged · In development · United States
 - Summary: Foundation's production Phantom humanoid: a 1.8 m, 29-DoF electric biped with proprietary cycloid actuators, built for factories and dual-use defence work.
-- Specs: Height 1,830 mm; Weight 90 kg; Payload 40 kg; Status Announced
+- Specs: Height 1,830 mm; Weight 90 kg; Payload 40 kg; Status In development
 - Sources: https://foundation.bot/phantom
 
 ### Foundation Phantom MK1
@@ -2664,9 +2664,9 @@
 - id: `fourier-gr-mini`
 - Page: https://htcrefactor.github.io/robot-catalog/robot.html?id=fourier-gr-mini
 - Markdown: https://htcrefactor.github.io/robot-catalog/md/fourier-gr-mini.md
-- Humanoid · Legged · Announced · China · released 2026
+- Humanoid · Legged · In development · China · released 2026
 - Summary: Fourier's compact 127 cm 'cat-head' biped for showroom guidance, retail and elder companionship, with touch-sensing head and developer interfaces.
-- Specs: Length 552 mm; Width 302 mm; Height 1,266 mm; Weight 43 kg; Degrees of freedom 25; Runtime 2 h; Battery 463 Wh; Released 2026; Status Announced; On-board compute yes
+- Specs: Length 552 mm; Width 302 mm; Height 1,266 mm; Weight 43 kg; Degrees of freedom 25; Runtime 2 h; Battery 463 Wh; Released 2026; Status In development; On-board compute yes
 - Sources: https://www.fftai.com/pdf/en/Fourier_GR_Family_Product_Catalog_202610.pdf
 
 ### Fourier GR-1
@@ -2782,9 +2782,9 @@
 - id: `galaxea-nexo`
 - Page: https://htcrefactor.github.io/robot-catalog/robot.html?id=galaxea-nexo
 - Markdown: https://htcrefactor.github.io/robot-catalog/md/galaxea-nexo.md
-- Humanoid · Wheeled · Announced · China · released 2026
+- Humanoid · Wheeled · In development · China · released 2026
 - Summary: Galaxea's flagship wheeled dual-arm humanoid with 30 force-controlled DOF, 20 kg dual-arm payload and 8 h runtime for factories, logistics and retail.
-- Specs: Height 1,700 mm; Payload 20 kg; Max speed 2.5 m/s (9.0 km/h); Degrees of freedom 30; Runtime 8 h; Released 2026; Status Announced; On-board compute yes; Sensors High-resolution RGB camera, Fisheye cameras, Depth camera
+- Specs: Height 1,700 mm; Payload 20 kg; Max speed 2.5 m/s (9.0 km/h); Degrees of freedom 30; Runtime 8 h; Released 2026; Status In development; On-board compute yes; Sensors High-resolution RGB camera, Fisheye cameras, Depth camera
 - Sources: https://www.galaxea-ai.com/zh/product1.html, https://galaxea-ai.com/en/news/wrc-2026-beijing.html
 
 ### Galaxea Dynamics R1
@@ -3107,9 +3107,9 @@
 - id: `highlanders-hl-human`
 - Page: https://htcrefactor.github.io/robot-catalog/robot.html?id=highlanders-hl-human
 - Markdown: https://htcrefactor.github.io/robot-catalog/md/highlanders-hl-human.md
-- Humanoid · Legged · Prototype · Japan · released 2025
+- Humanoid · Legged · In development · Japan · released 2025
 - Summary: Highlanders' 19-DoF AI humanoid prototype for factory, logistics, infrastructure-inspection and disaster work, built by a University of Tokyo spin-off.
-- Specs: Max speed 0.83 m/s (3.0 km/h); Degrees of freedom 19; Released 2025; Status Prototype; SDK yes; SDK name SDK/API (announced)
+- Specs: Max speed 0.83 m/s (3.0 km/h); Degrees of freedom 19; Released 2025; Status In development; SDK yes; SDK name SDK/API (announced)
 - Sources: https://www.highlanders.co.jp/, https://prtimes.jp/main/html/rd/p/000000003.000156831.html, https://www.highlanders.ai/news
 
 ### Highlanders N
@@ -3117,9 +3117,9 @@
 - id: `highlanders-n`
 - Page: https://htcrefactor.github.io/robot-catalog/robot.html?id=highlanders-n
 - Markdown: https://htcrefactor.github.io/robot-catalog/md/highlanders-n.md
-- Humanoid · Legged · Prototype · Japan · released 2026
+- Humanoid · Legged · In development · Japan · released 2026
 - Summary: Highlanders' Japan-made full-size humanoid N, heading to mass production with Mitsubishi Motors for shipments from 2027.
-- Specs: Payload 12 kg; Released 2026; Status Prototype
+- Specs: Payload 12 kg; Released 2026; Status In development
 - Sources: https://www.highlanders.co.jp/, https://prtimes.jp/main/html/rd/p/000000010.000156831.html, https://www.highlanders.ai/news
 
 ### HighTorque Robotics Mini Hi (Xiaohai)
@@ -3237,9 +3237,9 @@
 - id: `honda-e2-dr`
 - Page: https://htcrefactor.github.io/robot-catalog/robot.html?id=honda-e2-dr
 - Markdown: https://htcrefactor.github.io/robot-catalog/md/honda-e2-dr.md
-- Humanoid · Legged · Prototype · Japan · released 2017
+- Humanoid · Legged · Research · Japan · released 2017
 - Summary: Honda R&D's experimental disaster-response biped that climbs ladders, crawls over debris and works in rain, shown at IROS 2017.
-- Specs: Released 2017; Status Prototype
+- Specs: Released 2017; Status Research
 - Sources: https://doi.org/10.1109/mra.2019.2941241
 
 ### Honda P2
@@ -3287,9 +3287,9 @@
 - id: `honor-a1`
 - Page: https://htcrefactor.github.io/robot-catalog/robot.html?id=honor-a1
 - Markdown: https://htcrefactor.github.io/robot-catalog/md/honor-a1.md
-- Humanoid · Legged · Prototype · China · released 2026
+- Humanoid · Legged · In development · China · released 2026
 - Summary: HONOR's compact companion humanoid ('Yuanqi Zai') with voice dialogue, scene understanding and autonomous navigation, winner of the Best Gait Award at the 2026 Beijing E-Town half-marathon.
-- Specs: Released 2026; Status Prototype
+- Specs: Released 2026; Status In development
 - Sources: https://www.honor.com/global/events/honor-robot/, https://www.honor.com/global/news/honor-mwc2026-launch
 
 ### Huashu Robotics HSR-ER-HR705
@@ -3367,9 +3367,9 @@
 - id: `hunan-chaoneng-xiangjiang-1`
 - Page: https://htcrefactor.github.io/robot-catalog/robot.html?id=hunan-chaoneng-xiangjiang-1
 - Markdown: https://htcrefactor.github.io/robot-catalog/md/hunan-chaoneng-xiangjiang-1.md
-- Humanoid · Legged · Prototype · China · released 2025
+- Humanoid · Legged · In development · China · released 2025
 - Summary: Hunan Chaoneng's full-size biped healthcare-companion humanoid that checks vitals, gives massage and moxibustion, helps people stand and runs a local DeepSeek model.
-- Specs: Released 2025; Status Prototype
+- Specs: Released 2025; Status In development
 - Sources: http://www.hncnbot.com/cnbot/products/58165561.html, http://www.hncnbot.com/, http://www.hncnbot.com/cnbot/vip_doc/29366563.html
 
 ### igus iggyRob
@@ -3456,9 +3456,9 @@
 - id: `iono-workmate`
 - Page: https://htcrefactor.github.io/robot-catalog/robot.html?id=iono-workmate
 - Markdown: https://htcrefactor.github.io/robot-catalog/md/iono-workmate.md
-- Humanoid · Legged · Prototype · Austria · released 2026
+- Humanoid · Legged · In development · Austria · released 2026
 - Summary: IONO Robotics' Austrian humanoid work robot WORKMATE, which carries a drone inside its head for aerial inspection.
-- Specs: Released 2026; Status Prototype; Sensors 20+ sensors, Integrated drone camera (head), IonoSkin sensor suit
+- Specs: Released 2026; Status In development; Sensors 20+ sensors, Integrated drone camera (head), IonoSkin sensor suit
 - Sources: https://www.iono.tech/, https://www.iono.tech/press/austrian-humanoid-robot-%E2%80%9Cworkmate%E2%80%9D-presented-publicly-for-the-first-time
 
 ### isento pib.Pro
@@ -3708,9 +3708,9 @@
 - id: `kepler-forerunner-k1`
 - Page: https://htcrefactor.github.io/robot-catalog/robot.html?id=kepler-forerunner-k1
 - Markdown: https://htcrefactor.github.io/robot-catalog/md/kepler-forerunner-k1.md
-- Humanoid · Legged · Prototype · China · released 2023
+- Humanoid · Legged · In development · China · released 2023
 - Summary: Kepler's first general-purpose humanoid with planetary-roller-screw actuators, 12-DOF hands and a 100 TOPS NEBULA system, shown at CES 2024.
-- Specs: Height 1,780 mm; Weight 85 kg; Degrees of freedom 40; Released 2023; Status Prototype; On-board compute yes
+- Specs: Height 1,780 mm; Weight 85 kg; Degrees of freedom 40; Released 2023; Status In development; On-board compute yes
 - Sources: https://gotokepler.com/productDetailK1, https://www.prnewswire.com/news-releases/ces-2024-spotlight-keplers-humanoid-robot-launch-gains-international-recognition-302040175.html
 
 ### Kepler Robotics K3 Bumblebee
@@ -3868,9 +3868,9 @@
 - id: `lg-cloid`
 - Page: https://htcrefactor.github.io/robot-catalog/robot.html?id=lg-cloid
 - Markdown: https://htcrefactor.github.io/robot-catalog/md/lg-cloid.md
-- Humanoid · Wheeled · Announced · South Korea
+- Humanoid · Wheeled · In development · South Korea
 - Summary: LG's wheeled home robot: two 7-DoF arms with five-fingered hands on a self-driving base, torso height adjustable from 1.05 to 1.43 m, with a head unit that doubles as an AI home hub. Shown at CES 2026.
-- Specs: Height 1,430 mm; Status Announced
+- Specs: Height 1,430 mm; Status In development
 - Sources: https://www.lg.com/global/newsroom/news/home-appliance-solution/lg-electronics-presents-lg-cloid-home-robot-to-demonstrate-zero-labor-home-at-ces-2026/, https://humanoidstore.co/robots/lg-cloid, https://humanoid.pub/en/robots/lg-cloid, https://www.lge.co.kr/story/newsroom/234937, https://www.lge.co.kr/story/newsroom/225625
 
 ### LG Electronics / KIST KAPEX
@@ -3908,9 +3908,9 @@
 - id: `light-origins-lightbot-0`
 - Page: https://htcrefactor.github.io/robot-catalog/robot.html?id=light-origins-lightbot-0
 - Markdown: https://htcrefactor.github.io/robot-catalog/md/light-origins-lightbot-0.md
-- Humanoid · Legged · Prototype
+- Humanoid · Legged · Research
 - Summary: Light Origins' custom 90 cm research humanoid, 18.9 kg with 21 actuated joints, used to demonstrate onboard perceptive parkour with a single policy.
-- Specs: Height 900 mm; Weight 18.9 kg; Degrees of freedom 21; Status Prototype; On-board compute NVIDIA Jetson Orin Nano; Compute 7-25 W edge module, 67 INT8 TOPS; Sensors Chest-mounted Intel RealSense D435 depth camera, 6-axis IMU (pelvis), Joint encoders
+- Specs: Height 900 mm; Weight 18.9 kg; Degrees of freedom 21; Status Research; On-board compute NVIDIA Jetson Orin Nano; Compute 7-25 W edge module, 67 INT8 TOPS; Sensors Chest-mounted Intel RealSense D435 depth camera, 6-axis IMU (pelvis), Joint encoders
 - Sources: https://www.lightorigins.com/en/blog/lightparkour, https://www.lightorigins.com/en/products
 
 ### Lightberry Lumi
@@ -4077,9 +4077,9 @@
 - id: `matrix-robotics-matrix-1`
 - Page: https://htcrefactor.github.io/robot-catalog/robot.html?id=matrix-robotics-matrix-1
 - Markdown: https://htcrefactor.github.io/robot-catalog/md/matrix-robotics-matrix-1.md
-- Humanoid · Legged · Prototype · China · released 2024
+- Humanoid · Legged · In development · China · released 2024
 - Summary: Matrix Robotics' 180 cm full-size bipedal humanoid with 22-DOF tactile hands, 10 kg per-arm payload and about 5 h runtime with 45-minute fast charge.
-- Specs: Height 1,800 mm; Weight 67 kg; Payload 10 kg; Max speed 1.2 m/s (4.3 km/h); Runtime 5 h; Released 2024; Status Prototype
+- Specs: Height 1,800 mm; Weight 67 kg; Payload 10 kg; Max speed 1.2 m/s (4.3 km/h); Runtime 5 h; Released 2024; Status In development
 - Sources: https://www.matrixrobotics.ai/matrix-1
 
 ### Matrix Robotics MATRIX-3
@@ -4126,9 +4126,9 @@
 - id: `mentee-menteebot`
 - Page: https://htcrefactor.github.io/robot-catalog/robot.html?id=mentee-menteebot
 - Markdown: https://htcrefactor.github.io/robot-catalog/md/mentee-menteebot.md
-- Humanoid · Legged · Announced · Israel
+- Humanoid · Legged · In development · Israel
 - Summary: Mentee Robotics' third-generation humanoid (V3.0): 1.75 m, 70 kg, 40 DoF, up to 25 kg carried, 1.5 m/s walking and 3+ h on a hot-swappable battery.
-- Specs: Height 1,750 mm; Weight 70 kg; Payload 25 kg; Max speed 1.5 m/s (5.4 km/h); Degrees of freedom 40; Status Announced; On-board compute 2x NVIDIA Jetson AGX Orin; Sensors Head-mounted cameras with 360-degree coverage (fisheye side cameras and rear camera)
+- Specs: Height 1,750 mm; Weight 70 kg; Payload 25 kg; Max speed 1.5 m/s (5.4 km/h); Degrees of freedom 40; Status In development; On-board compute 2x NVIDIA Jetson AGX Orin; Sensors Head-mounted cameras with 360-degree coverage (fisheye side cameras and rear camera)
 - Sources: https://www.menteebot.com/bot/, https://webuildhumanoids.com/robots/menteebot-v3, https://www.linkedin.com/posts/mentee-robotics_menteebot-v30-teaser-activity-7295086881388552193-yNvT
 
 ### Meta Max (humanoid prototype)
@@ -4166,9 +4166,9 @@
 - id: `mirrorme-bolt`
 - Page: https://htcrefactor.github.io/robot-catalog/robot.html?id=mirrorme-bolt
 - Markdown: https://htcrefactor.github.io/robot-catalog/md/mirrorme-bolt.md
-- Humanoid · Legged · Prototype · China
+- Humanoid · Legged · In development · China
 - Summary: MirrorMe's full-size sprinting humanoid: 1.75 m, 75 kg, a claimed peak above 11 m/s and 50 kg load capacity, shown as a prototype for locomotion research.
-- Specs: Height 1,750 mm; Weight 75 kg; Payload 50 kg; Max speed 11 m/s (39.6 km/h); Status Prototype
+- Specs: Height 1,750 mm; Weight 75 kg; Payload 50 kg; Max speed 11 m/s (39.6 km/h); Status In development
 - Sources: https://www.mirrormetech.com/en/product_5.html, https://www.mirrormetech.com/en/about.html
 
 ### Mirsee Robotics MH3
@@ -4225,9 +4225,9 @@
 - id: `muks-spaceo-prime`
 - Page: https://htcrefactor.github.io/robot-catalog/robot.html?id=muks-spaceo-prime
 - Markdown: https://htcrefactor.github.io/robot-catalog/md/muks-spaceo-prime.md
-- Humanoid · Legged · Prototype · India · released 2026
+- Humanoid · Legged · In development · India · released 2026
 - Summary: Muks Robotics' bipedal 'Mars mission' humanoid in development, run by its FusionMax AI model and tied to an ISRO project for a humanoid space worker.
-- Specs: Released 2026; Status Prototype
+- Specs: Released 2026; Status In development
 - Sources: https://muksrobotics.com/spaceo-prime, https://muksrobotics.com/company
 
 ### Muks Robotics Spaceo Pro
@@ -4315,9 +4315,9 @@
 - id: `neura-4ne1-mini`
 - Page: https://htcrefactor.github.io/robot-catalog/robot.html?id=neura-4ne1-mini
 - Markdown: https://htcrefactor.github.io/robot-catalog/md/neura-4ne1-mini.md
-- Humanoid · Legged · Announced · Germany
+- Humanoid · Legged · In development · Germany
 - Summary: Compact NEURA humanoid for research and education: 1.32 m, 36 kg, 25 DoF, 3 kg payload and 2.5 h of motion; Standard and Pro editions, the Pro adding 12-DoF hands.
-- Specs: Height 1,320 mm; Weight 36 kg; Payload 3 kg; Max speed 1.28 m/s (4.6 km/h); Degrees of freedom 25; Runtime 2.5 h; Status Announced; Price EUR 19,999 (Standard) and EUR 29,999 (Pro) expected prices on the maker reservation page (excl. tax and shipping)
+- Specs: Height 1,320 mm; Weight 36 kg; Payload 3 kg; Max speed 1.28 m/s (4.6 km/h); Degrees of freedom 25; Runtime 2.5 h; Status In development; Price EUR 19,999 (Standard) and EUR 29,999 (Pro) expected prices on the maker reservation page (excl. tax and shipping)
 - Sources: https://neura-robotics.com/product/4ne1-mini-reservation/, https://neurarobotics.px.media/plk/Jj/4NE1Minidatasheet.pdf
 
 ### NEURA Robotics MiPA
@@ -4345,9 +4345,9 @@
 - id: `jiuguang-raynex-g3`
 - Page: https://htcrefactor.github.io/robot-catalog/robot.html?id=jiuguang-raynex-g3
 - Markdown: https://htcrefactor.github.io/robot-catalog/md/jiuguang-raynex-g3.md
-- Humanoid · Legged · Preorder · China · released 2026
+- Humanoid · Legged · Pre-order · China · released 2026
 - Summary: NineRay's 173 cm industrial humanoid with linear plus harmonic SEA joints and 44 force-control units, rated for 100 kg deadlift, 80 kg back-carry and 8 h runtime.
-- Specs: Height 1,730 mm; Weight 60 kg; Payload 30 kg; Degrees of freedom 32; Runtime 8 h; Released 2026; Status Preorder; SDK yes
+- Specs: Height 1,730 mm; Weight 60 kg; Payload 30 kg; Degrees of freedom 32; Runtime 8 h; Released 2026; Status Pre-order; SDK yes
 - Sources: https://www.nineraygroup.com/en/humanoid.html, https://nineraygroup.com/cn/humanoid.html, https://www.nineraygroup.com/en/
 
 ### Noble Machines Moby
@@ -4642,9 +4642,9 @@
 - id: `pink-robotics-p0`
 - Page: https://htcrefactor.github.io/robot-catalog/robot.html?id=pink-robotics-p0
 - Markdown: https://htcrefactor.github.io/robot-catalog/md/pink-robotics-p0.md
-- Humanoid · Prototype
+- Humanoid · In development
 - Summary: Pink Robotics' German-built prototype P0: 1.75 m, 82 kg, 32 DoF and 8 kg payload, aimed at parcel sorting in distribution centres.
-- Specs: Height 1,750 mm; Weight 82 kg; Payload 8 kg; Degrees of freedom 32; Status Prototype
+- Specs: Height 1,750 mm; Weight 82 kg; Payload 8 kg; Degrees of freedom 32; Status In development
 - Sources: https://www.pink-robotics.com/
 
 ### PL-Universe Robotics ProWhite
@@ -4888,9 +4888,9 @@
 - id: `richtech-dex`
 - Page: https://htcrefactor.github.io/robot-catalog/robot.html?id=richtech-dex
 - Markdown: https://htcrefactor.github.io/robot-catalog/md/richtech-dex.md
-- Humanoid · Wheeled · Announced · United States · released 2025
+- Humanoid · Wheeled · In development · United States · released 2025
 - Summary: Richtech's wheeled industrial humanoid that pairs the Titan AMR base with ADAM's two arms, sold as the mobile DEX-M or the fixed DEX-F for machine tending, sorting and inspection.
-- Specs: Length 765 mm; Width 714 mm; Height 1,379 mm; Weight 90 kg; Payload 5 kg; Max speed 1.2 m/s (4.3 km/h); Degrees of freedom 12; Runtime 3 h; Battery 720 Wh; Released 2025; Status Announced; On-board compute NVIDIA Jetson Thor; Sensors 4 depth cameras (head, front, one on each arm), LiDAR, RGB camera, IMU, Wheel speed sensor
+- Specs: Length 765 mm; Width 714 mm; Height 1,379 mm; Weight 90 kg; Payload 5 kg; Max speed 1.2 m/s (4.3 km/h); Degrees of freedom 12; Runtime 3 h; Battery 720 Wh; Released 2025; Status In development; On-board compute NVIDIA Jetson Thor; Sensors 4 depth cameras (head, front, one on each arm), LiDAR, RGB camera, IMU, Wheel speed sensor
 - Sources: https://www.richtechrobotics.com/solutions/dex, https://ir.richtechrobotics.com/news-releases/news-release-details/richtech-robotics-offers-first-look-dex-mobile-humanoid-robot
 
 ### Robbyant (Ant Group) R1
@@ -4986,9 +4986,9 @@
 - id: `robot-george-george`
 - Page: https://htcrefactor.github.io/robot-catalog/robot.html?id=robot-george-george
 - Markdown: https://htcrefactor.github.io/robot-catalog/md/robot-george-george.md
-- Humanoid · Announced · Czech Republic
+- Humanoid · In development · Czech Republic
 - Summary: Czech industrial humanoid from Robot George a.s. in Zlin, sold as one upper body that can mount on a pedestal, a scissor lift or legs, running the GeorgeOS platform.
-- Specs: Status Announced
+- Specs: Status In development
 - Sources: https://robotgeorge.com/george, https://www.robotgeorge.com/, https://robotgeorge.com/press-kit
 
 ### Robot.com R-noid
@@ -5076,9 +5076,9 @@
 - id: `robotis-k0`
 - Page: https://htcrefactor.github.io/robot-catalog/robot.html?id=robotis-k0
 - Markdown: https://htcrefactor.github.io/robot-catalog/md/robotis-k0.md
-- Humanoid · Legged · Announced · South Korea · released 2026
+- Humanoid · Legged · In development · South Korea · released 2026
 - Summary: K0 is the first open-source humanoid of ROBOTIS' AI Sapiens line: a 1.3 m, 23-DOF platform on in-house DYNAMIXEL-Q quasi-direct-drive actuators for learning-based locomotion and manipulation.
-- Specs: Height 1,300 mm; Weight 34 kg; Payload 3 kg; Degrees of freedom 23; Battery 421.2 Wh; Released 2026; Status Announced; SDK yes; SDK name Open-source stack: hardware BoM, STEP CAD, source code, simulation assets, tutorials (ROS 2); ROS yes; On-board compute NVIDIA Jetson Orin NX 16GB
+- Specs: Height 1,300 mm; Weight 34 kg; Payload 3 kg; Degrees of freedom 23; Battery 421.2 Wh; Released 2026; Status In development; SDK yes; SDK name Open-source stack: hardware BoM, STEP CAD, source code, simulation assets, tutorials (ROS 2); ROS yes; On-board compute NVIDIA Jetson Orin NX 16GB
 - Sources: https://ai.robotis.com/ai_sapiens/introduction_ai_sapiens.html, https://robotis.us/blogs/robotis-ir-pr-blog/k0-dynamixel-q
 
 ### Robotis OP3
@@ -5116,9 +5116,9 @@
 - id: `robros-igris-max`
 - Page: https://htcrefactor.github.io/robot-catalog/robot.html?id=robros-igris-max
 - Markdown: https://htcrefactor.github.io/robot-catalog/md/robros-igris-max.md
-- Humanoid · Legged · Announced · South Korea · released 2026
+- Humanoid · Legged · In development · South Korea · released 2026
 - Summary: ROBROS' next-generation bipedal industrial humanoid, announced 2026-11-04, built around stronger shoulder joints to carry loads of up to 30 kg.
-- Specs: Payload 30 kg; Released 2026; Status Announced
+- Specs: Payload 30 kg; Released 2026; Status In development
 - Sources: https://www.robros.co.kr/en/, https://www.linkedin.com/posts/robros_robros-igrismax-humanoid-activity-7523555519786074113-7vj5, https://www.robros.co.kr/ko
 
 ### Rokae Helios H2
@@ -5186,9 +5186,9 @@
 - id: `sharpa-d01`
 - Page: https://htcrefactor.github.io/robot-catalog/robot.html?id=sharpa-d01
 - Markdown: https://htcrefactor.github.io/robot-catalog/md/sharpa-d01.md
-- Humanoid · Announced · Singapore · released 2026
+- Humanoid · In development · Singapore · released 2026
 - Summary: Sharpa's D01 dexterous upper-body humanoid: 66 DOF with Wave hands, 7-DOF arms and whole-body tactile E-skin, built for manipulation research and teleoperation data collection.
-- Specs: Length 594 mm; Width 495 mm; Height 1,624 mm; Weight 40 kg; Payload 5 kg; Degrees of freedom 66; Released 2026; Status Announced; SDK yes; SDK name Native teleoperation system; 1000 Hz control; On-board compute NVIDIA Jetson Thor (128 GB LPDDR5X); Sensors Head stereo camera (3.7 MP, 60 Hz), 2x wrist fisheye cameras (3 MP, 200-degree FoV), Whole-body tactile E-skin (0.1-20 N per taxel, 0.2 N resolution, 10 mm spatial resolution, 100 Hz)
+- Specs: Length 594 mm; Width 495 mm; Height 1,624 mm; Weight 40 kg; Payload 5 kg; Degrees of freedom 66; Released 2026; Status In development; SDK yes; SDK name Native teleoperation system; 1000 Hz control; On-board compute NVIDIA Jetson Thor (128 GB LPDDR5X); Sensors Head stereo camera (3.7 MP, 60 Hz), 2x wrist fisheye cameras (3 MP, 200-degree FoV), Whole-body tactile E-skin (0.1-20 N per taxel, 0.2 N resolution, 10 mm spatial resolution, 100 Hz)
 - Sources: https://www.sharpa.com/pages/d01, https://www.sharpa.com/, https://www.prnewswire.com/news-releases/sharpa-unveils-three-flagship-products-d01-robot-w02-dexterous-hand-and-ae01-data-glove-at-iros-2026-302892129.html
 
 ### Sharpa North
@@ -5196,9 +5196,9 @@
 - id: `sharpa-north`
 - Page: https://htcrefactor.github.io/robot-catalog/robot.html?id=sharpa-north
 - Markdown: https://htcrefactor.github.io/robot-catalog/md/sharpa-north.md
-- Humanoid · Announced · Singapore · released 2026
+- Humanoid · In development · Singapore · released 2026
 - Summary: Sharpa's first full-body humanoid, a 67-DOF robot shown at CES 2026 running autonomous ping-pong, card dealing and a 30+ step assembly for four days straight.
-- Specs: Degrees of freedom 67; Released 2026; Status Announced
+- Specs: Degrees of freedom 67; Released 2026; Status In development
 - Sources: https://www.sharpa.com/pages/north, https://www.sharpa.com/blogs/news/sharpa-unveils-its-first-autonomous-full-body-robot-with-human-dexterity-at-ces-2026
 
 ### Shiyun RD3 Ultra
@@ -5226,9 +5226,9 @@
 - id: `siasun-songxing`
 - Page: https://htcrefactor.github.io/robot-catalog/robot.html?id=siasun-songxing
 - Markdown: https://htcrefactor.github.io/robot-catalog/md/siasun-songxing.md
-- Humanoid · Wheeled · Announced · China
+- Humanoid · Wheeled · In development · China
 - Summary: SIASUN's (新松) wheeled industrial humanoid line, shown at WRC 2026 as 松羿 (Songyi) Agile, which works from 0.3 m to 1.5 m on an omni wheel base, and Power, which carries 15 kg with both arms.
-- Specs: Status Announced
+- Specs: Status In development
 - Sources: https://www.siasun.com/news-detail1019.html, https://www.siasun.com/news-detail1024.html
 
 ### Sichuan Embodied AI Robot Innovation Center Aiqiu
@@ -5256,9 +5256,9 @@
 - id: `tianlian-tianzhen-z1`
 - Page: https://htcrefactor.github.io/robot-catalog/robot.html?id=tianlian-tianzhen-z1
 - Markdown: https://htcrefactor.github.io/robot-catalog/md/tianlian-tianzhen-z1.md
-- Humanoid · Legged · Announced · China · released 2026
+- Humanoid · Legged · In development · China · released 2026
 - Summary: Full-size bipedal humanoid (Tianzhen Z1, 天真 Z1) from Sichuan TLIBOT: 167 cm and 45 kg with up to 40 body DoF, shown for the first time at WAIC 2026.
-- Specs: Height 1,670 mm; Weight 45 kg; Payload 8 kg; Max speed 2 m/s (7.2 km/h); Degrees of freedom 40; Runtime 2 h; Battery 660 Wh; Released 2026; Status Announced; API yes; SDK yes; On-board compute yes; Compute RK3588 standard; optional NVIDIA Jetson AGX Orin or Thor module; Sensors Mixed solid-state LiDAR, Depth and RGB cameras, 4-microphone array, IMU, Dexterous-hand tactile sensors (optional)
+- Specs: Height 1,670 mm; Weight 45 kg; Payload 8 kg; Max speed 2 m/s (7.2 km/h); Degrees of freedom 40; Runtime 2 h; Battery 660 Wh; Released 2026; Status In development; API yes; SDK yes; On-board compute yes; Compute RK3588 standard; optional NVIDIA Jetson AGX Orin or Thor module; Sensors Mixed solid-state LiDAR, Depth and RGB cameras, 4-microphone array, IMU, Dexterous-hand tactile sensors (optional)
 - Sources: https://www.en.fdrobot.com/Resistant_detail/111.html, https://www.tlibot.com/
 
 ### Sichuan Tianlian Robotics (TliBot) Y1
@@ -5376,9 +5376,9 @@
 - id: `starbot-flex`
 - Page: https://htcrefactor.github.io/robot-catalog/robot.html?id=starbot-flex
 - Markdown: https://htcrefactor.github.io/robot-catalog/md/starbot-flex.md
-- Humanoid · Wheeled · Announced · United States · released 2026
+- Humanoid · Wheeled · In development · United States · released 2026
 - Summary: StarBot Flex is a 5 ft 9 in foldable wheeled humanoid from StarBot USA, aimed at restaurants, hospitality and retail service workflows.
-- Specs: Height 1,753 mm; Released 2026; Status Announced
+- Specs: Height 1,753 mm; Released 2026; Status In development
 - Sources: https://www.starbotusa.com/
 
 ### StarBot Robotics Nova
@@ -5446,9 +5446,9 @@
 - id: `t-robotics-tr-works`
 - Page: https://htcrefactor.github.io/robot-catalog/robot.html?id=t-robotics-tr-works
 - Markdown: https://htcrefactor.github.io/robot-catalog/md/t-robotics-tr-works.md
-- Humanoid · Wheeled · Prototype · South Korea · released 2026
+- Humanoid · Wheeled · In development · South Korea · released 2026
 - Summary: TR-WORKS is T-Robotics' process-logistics humanoid for semiconductor and display lines: an AMR base with a 20-DOF body, 3 kg payload and vacuum-robot precision motion.
-- Specs: Height 1,800 mm; Weight 180 kg; Payload 3 kg; Degrees of freedom 20; Released 2026; Status Prototype
+- Specs: Height 1,800 mm; Weight 180 kg; Payload 3 kg; Degrees of freedom 20; Released 2026; Status In development
 - Sources: http://www.t-robotics.co.kr/product_rehabilitation.do, https://www.irobotnews.com/news/articleView.html?idxno=45174, http://www.t-robotics.co.kr/
 
 ### Tangible Robots Eggie
@@ -5486,9 +5486,9 @@
 - id: `techman-tm-xplore-i`
 - Page: https://htcrefactor.github.io/robot-catalog/robot.html?id=techman-tm-xplore-i
 - Markdown: https://htcrefactor.github.io/robot-catalog/md/techman-tm-xplore-i.md
-- Humanoid · Wheeled · Prototype · Taiwan · released 2026
+- Humanoid · Wheeled · In development · Taiwan · released 2026
 - Summary: Techman Robot's first humanoid platform: a humanoid upper body on a wheeled mobile base, developed with Quanta Cloud Technology and NVIDIA for semiconductor, electronics and automotive work.
-- Specs: Released 2026; Status Prototype; On-board compute yes; Compute NVIDIA Jetson Thor module; Sensors Vision cameras (TM AI Vision), Multimodal sensor fusion for the vision-language-action model
+- Specs: Released 2026; Status In development; On-board compute yes; Compute NVIDIA Jetson Thor module; Sensors Vision cameras (TM AI Vision), Multimodal sensor fusion for the vision-language-action model
 - Sources: https://www.tm-robot.com/en/company/news/Techman-Robot-at-GTC-2026_Unveils-New-AI-Strategy-and-Humanoid-Robot-TM-Xplore-I, https://www.tm-robot.com/en/company/news/Techman-Robot-Accelerates-Physical-AI-at-GTC-2026
 
 ### Tencent Robotics X Xiao Liu
@@ -5496,9 +5496,9 @@
 - id: `tencent-robotics-x-xiao-liu`
 - Page: https://htcrefactor.github.io/robot-catalog/robot.html?id=tencent-robotics-x-xiao-liu
 - Markdown: https://htcrefactor.github.io/robot-catalog/md/tencent-robotics-x-xiao-liu.md
-- Humanoid · Wheeled · Prototype · China · released 2026
+- Humanoid · Wheeled · Research · China · released 2026
 - Summary: Wheeled demonstration humanoid from Tencent Robotics X Lab and the successor to Xiao Wu, built for eldercare and home assistance with cable-tendon arms and three-fingered hands; it gave a therapeutic-massage demonstration at WAIC 2026.
-- Specs: Released 2026; Status Prototype
+- Specs: Released 2026; Status Research
 - Sources: https://www.tencent.com/tencent-unveils-full-stack-embodied-intelligence-solution-at-waic-2026/, https://www.tencent.com/
 
 ### Tesla Optimus
@@ -5585,9 +5585,9 @@
 - id: `topstar-star`
 - Page: https://htcrefactor.github.io/robot-catalog/robot.html?id=topstar-star
 - Markdown: https://htcrefactor.github.io/robot-catalog/md/topstar-star.md
-- Humanoid · Legged · Announced · China · released 2026
+- Humanoid · Legged · In development · China · released 2026
 - Summary: Full-size industrial bipedal humanoid from Topstar with 7-axis arms and cross-axis wrists, aimed at material handling and sorting on existing production lines.
-- Specs: Height 1,720 mm; Weight 72 kg; Payload 10 kg; Max speed 1.2 m/s (4.3 km/h); Degrees of freedom 41; Runtime 4 h; Released 2026; Status Announced; Sensors 3 RGB-D cameras (head, chest, back) for 360-degree perception, Microphone array and speaker
+- Specs: Height 1,720 mm; Weight 72 kg; Payload 10 kg; Max speed 1.2 m/s (4.3 km/h); Degrees of freedom 41; Runtime 4 h; Released 2026; Status In development; Sensors 3 RGB-D cameras (head, chest, back) for 360-degree perception, Microphone array and speaker
 - Sources: https://www.topstarltd.com/lang-cn/productlist/001005.html, https://www.topstarltd.com/
 
 ### Topstar TWH020
@@ -5595,9 +5595,9 @@
 - id: `topstar-twh020`
 - Page: https://htcrefactor.github.io/robot-catalog/robot.html?id=topstar-twh020
 - Markdown: https://htcrefactor.github.io/robot-catalog/md/topstar-twh020.md
-- Humanoid · Wheeled · Announced · China
+- Humanoid · Wheeled · In development · China
 - Summary: Wheeled industrial humanoid (Xiao Tuo, 小拓) from Topstar with two 7-DoF arms, a bending and lifting waist and a four-swerve-wheel chassis.
-- Specs: Payload 10 kg; Max speed 1.5 m/s (5.4 km/h); Degrees of freedom 21; Status Announced; SDK yes; On-board compute yes; Compute 3352 TOPS compute platform; Sensors 360-degree LiDAR, 2 line-scan LiDARs, 3 AI vision sensors, RGB-D camera, Force sensors
+- Specs: Payload 10 kg; Max speed 1.5 m/s (5.4 km/h); Degrees of freedom 21; Status In development; SDK yes; On-board compute yes; Compute 3352 TOPS compute platform; Sensors 360-degree LiDAR, 2 line-scan LiDARs, 3 AI vision sensors, RGB-D camera, Force sensors
 - Sources: https://www.topstarltd.com/lang-cn/productview/2239.html
 
 ### Topstar Xiao Tuo
@@ -5623,9 +5623,9 @@
 - id: `toyota-eley`
 - Page: https://htcrefactor.github.io/robot-catalog/robot.html?id=toyota-eley
 - Markdown: https://htcrefactor.github.io/robot-catalog/md/toyota-eley.md
-- Humanoid · Wheeled · Prototype · Japan · released 2025
+- Humanoid · Wheeled · In development · Japan · released 2025
 - Summary: Toyota's wheeled dual-arm partner robot (Embodied Learning robot for Enhanced Yield), developed from the HSR service robot and a quasi-direct-drive 'gentle touch' arm for production-site work.
-- Specs: Length 478 mm; Width 450 mm; Height 1,619 mm; Weight 50 kg; Payload 1 kg; Released 2025; Status Prototype
+- Specs: Length 478 mm; Width 450 mm; Height 1,619 mm; Weight 50 kg; Payload 1 kg; Released 2025; Status In development
 - Sources: https://global.toyota/en/mobility/frontier-research/43588128.html, https://global.toyota/jp/mobility/frontier-research/44105139.html
 
 ### Toyota T-HR3
@@ -5663,9 +5663,9 @@
 - id: `two-labs-tobi`
 - Page: https://htcrefactor.github.io/robot-catalog/robot.html?id=two-labs-tobi
 - Markdown: https://htcrefactor.github.io/robot-catalog/md/two-labs-tobi.md
-- Humanoid · Wheeled · Prototype · United States · released 2026
+- Humanoid · Wheeled · In development · United States · released 2026
 - Summary: Semi-humanoid caregiving robot from Two Labs (San Francisco) for nursing homes and senior living: feeding, dressing, medication reminders, mobility support, fetching objects and conversation.
-- Specs: Released 2026; Status Prototype
+- Specs: Released 2026; Status In development
 - Sources: https://www.twolabs.ai/, https://www.ycombinator.com/companies/twolabs
 
 ### UBTECH Robotics Alpha 1S
@@ -5843,9 +5843,9 @@
 - id: `ugo-nova`
 - Page: https://htcrefactor.github.io/robot-catalog/robot.html?id=ugo-nova
 - Markdown: https://htcrefactor.github.io/robot-catalog/md/ugo-nova.md
-- Humanoid · Wheeled · Prototype · Japan · released 2026
+- Humanoid · Wheeled · In development · Japan · released 2026
 - Summary: ugo's domestically designed and built semi-humanoid (wheeled dual-arm) for factory work and physical-AI data collection, with ugo's autonomous navigation stack and teleoperation-based data capture; mass production planned for 2027.
-- Specs: Payload 10 kg; Runtime 6 h; Released 2026; Status Prototype; On-board compute yes; Compute NVIDIA Jetson Thor; Sensors Head stereo camera, RGB cameras in both hands
+- Specs: Payload 10 kg; Runtime 6 h; Released 2026; Status In development; On-board compute yes; Compute NVIDIA Jetson Thor; Sensors Head stereo camera, RGB cameras in both hands
 - Sources: https://prtimes.jp/main/html/rd/p/000000178.000034305.html
 
 ### ugo ugo Pro
@@ -6023,9 +6023,9 @@
 - id: `vanar-robots-vanar-gen-1`
 - Page: https://htcrefactor.github.io/robot-catalog/robot.html?id=vanar-robots-vanar-gen-1
 - Markdown: https://htcrefactor.github.io/robot-catalog/md/vanar-robots-vanar-gen-1.md
-- Humanoid · Legged · Prototype · India · released 2026
+- Humanoid · Legged · In development · India · released 2026
 - Summary: Vanar Robots' first humanoid: a 5 ft 9 in, about 60 kg biped with in-house actuators and tendon-driven manipulators for industrial work, with industrial beta deployment targeted for 2027.
-- Specs: Height 1,753 mm; Weight 60 kg; Degrees of freedom 38; Released 2026; Status Prototype
+- Specs: Height 1,753 mm; Weight 60 kg; Degrees of freedom 38; Released 2026; Status In development
 - Sources: https://www.vanarrobots.com/Gen1, https://www.vanarrobots.com/
 
 ### Vbot (Vita Dynamics) ATOM
@@ -6043,9 +6043,9 @@
 - id: `vesoma-gen-1`
 - Page: https://htcrefactor.github.io/robot-catalog/robot.html?id=vesoma-gen-1
 - Markdown: https://htcrefactor.github.io/robot-catalog/md/vesoma-gen-1.md
-- Humanoid · Legged · Prototype · Germany · released 2026
+- Humanoid · Legged · In development · Germany · released 2026
 - Summary: Vesoma's first bipedal humanoid, built as one system with a self-improving reinforcement-learning agent that acquires locomotion and manipulation from its own interaction, for manufacturing, logistics and warehousing.
-- Specs: Released 2026; Status Prototype
+- Specs: Released 2026; Status In development
 - Sources: https://vesoma.com/, https://vesoma.com/news/introducing-vesoma
 
 ### VinDynamics (Vingroup) Dyno
@@ -6299,9 +6299,9 @@
 - id: `xgsynbot-z1`
 - Page: https://htcrefactor.github.io/robot-catalog/robot.html?id=xgsynbot-z1
 - Markdown: https://htcrefactor.github.io/robot-catalog/md/xgsynbot-z1.md
-- Humanoid · Wheeled · Announced · China · released 2026
+- Humanoid · Wheeled · In development · China · released 2026
 - Summary: XGSynBot's wheeled humanoid for industrial work, with a modular end-effector quick-change system (under 6 seconds), 7-DoF arms, a folding torso and a dual fast/slow control architecture.
-- Specs: Length 735 mm; Width 642 mm; Height 1,320 mm; Weight 130 kg; Degrees of freedom 24; Released 2026; Status Announced; API yes; SDK yes; On-board compute yes; Compute Up to 2070 TOPS; Sensors 360-degree multimodal perception (LiDAR and cameras)
+- Specs: Length 735 mm; Width 642 mm; Height 1,320 mm; Weight 130 kg; Degrees of freedom 24; Released 2026; Status In development; API yes; SDK yes; On-board compute yes; Compute Up to 2070 TOPS; Sensors 360-degree multimodal perception (LiDAR and cameras)
 - Sources: https://www.prnewswire.com/news-releases/xgsynbot-debuts-z1-wheeled-robot-targeting-the-last-mile-of-industrial-embodied-ai-302709126.html, https://www.eet-china.com/mp/a478691.html
 
 ### Xiaomi CyberOne
@@ -6309,9 +6309,9 @@
 - id: `xiaomi-cyberone`
 - Page: https://htcrefactor.github.io/robot-catalog/robot.html?id=xiaomi-cyberone
 - Markdown: https://htcrefactor.github.io/robot-catalog/md/xiaomi-cyberone.md
-- Humanoid · Legged · Prototype · China · released 2022
+- Humanoid · Legged · Research · China · released 2022
 - Summary: Xiaomi's first full-size bipedal humanoid: 177 cm and 52 kg with 21 DoF, an OLED face, depth vision and voice-emotion recognition; a research prototype rather than a product.
-- Specs: Height 1,770 mm; Weight 52 kg; Payload 1.5 kg; Max speed 1 m/s (3.6 km/h); Degrees of freedom 21; Released 2022; Status Prototype; On-board compute yes; Compute Xiaomi in-house control stack with Mi-Sense depth vision module; Sensors Mi-Sense depth vision module (AI interactive camera), Dual-microphone voice recognition, Curved OLED face display
+- Specs: Height 1,770 mm; Weight 52 kg; Payload 1.5 kg; Max speed 1 m/s (3.6 km/h); Degrees of freedom 21; Released 2022; Status Research; On-board compute yes; Compute Xiaomi in-house control stack with Mi-Sense depth vision module; Sensors Mi-Sense depth vision module (AI interactive camera), Dual-microphone voice recognition, Curved OLED face display
 - Sources: https://www.mi.com/cyberone/, https://www.mi.com/tr/product/xiaomi-cyberone/, https://robotics.xiaomi.com/xiaomi-robotics-1.html, https://humanoidstore.co/robots/xiaomi-cyberone, https://prtimes.jp/main/html/rd/p/000000013.000098799.html
 
 ### Xpeng IRON
@@ -6349,9 +6349,9 @@
 - id: `youibot-edge`
 - Page: https://htcrefactor.github.io/robot-catalog/robot.html?id=youibot-edge
 - Markdown: https://htcrefactor.github.io/robot-catalog/md/youibot-edge.md
-- Humanoid · Wheeled · Announced · China · released 2026
+- Humanoid · Wheeled · In development · China · released 2026
 - Summary: YOUIBOT's industry-native humanoid (Xifeng, 隙锋, marketed as Edge): a semi-humanoid on an omnidirectional chassis with two RoboSense digital LiDARs, running the FabriX industrial embodied-AI model.
-- Specs: Released 2026; Status Announced; API yes; SDK yes; Sensors 2 x RoboSense Airy digital LiDAR
+- Specs: Released 2026; Status In development; API yes; SDK yes; Sensors 2 x RoboSense Airy digital LiDAR
 - Sources: https://www.youibot.com/, https://en.wedoany.com/shortnews/347691.html
 
 ### Yue Quan Bionics W-Bot
@@ -6377,9 +6377,9 @@
 - id: `yunmu-ymbot-c2`
 - Page: https://htcrefactor.github.io/robot-catalog/robot.html?id=yunmu-ymbot-c2
 - Markdown: https://htcrefactor.github.io/robot-catalog/md/yunmu-ymbot-c2.md
-- Humanoid · Legged · Announced · China · released 2026
+- Humanoid · Legged · In development · China · released 2026
 - Summary: Yunmu Intelligent Manufacturing's YMBot C2: a bionic-skin bipedal humanoid with two 6-DoF arms, dexterous hands and expression actuation for cultural-tourism and exhibition guidance.
-- Specs: Released 2026; Status Announced
+- Specs: Released 2026; Status In development
 - Sources: https://www.ymbot.com/, https://www.worldrobotconference.com/expo/product/63.html
 
 ### Yunmu Intelligent Manufacturing YMBot D2
@@ -7422,9 +7422,9 @@
 - id: `kawasaki-corleo`
 - Page: https://htcrefactor.github.io/robot-catalog/robot.html?id=kawasaki-corleo
 - Markdown: https://htcrefactor.github.io/robot-catalog/md/kawasaki-corleo.md
-- Quadruped · Legged · Concept · Japan · released 2025
+- Quadruped · Legged · In development · Japan · released 2025
 - Summary: Hydrogen-powered four-legged rideable off-road personal mobility vehicle concept steered by the rider's weight shifts.
-- Specs: Released 2025; Status Concept
+- Specs: Released 2025; Status In development
 - Sources: https://www.khi.co.jp/safe_adventure/en/about/mobility, https://global.kawasaki.com/en/corp/newsroom/news/detail?f=20251211_7502, https://www.khi.co.jp/expo2025/concept01/index_en.html
 
 ### Kawasaki Heavy Industries Home LEO
@@ -7432,9 +7432,9 @@
 - id: `kawasaki-home-leo`
 - Page: https://htcrefactor.github.io/robot-catalog/robot.html?id=kawasaki-home-leo
 - Markdown: https://htcrefactor.github.io/robot-catalog/md/kawasaki-home-leo.md
-- Quadruped · Legged · Prototype · Japan · released 2026
+- Quadruped · Legged · In development · Japan · released 2026
 - Summary: Kawasaki's four-legged physical-AI social robot prototype for supporting older people living at home, aimed at a fiscal-2028 launch.
-- Specs: Released 2026; Status Prototype
+- Specs: Released 2026; Status In development
 - Sources: https://global.kawasaki.com/en/corp/newsroom/news/detail?f=20261006_6729, https://www.khi.co.jp/pressrelease/detail/20261006_2.html
 
 ### Kepler Robotics Qilin (Mechanical Qilin)
@@ -7802,9 +7802,9 @@
 - id: `robot-com-r-dog`
 - Page: https://htcrefactor.github.io/robot-catalog/robot.html?id=robot-com-r-dog
 - Markdown: https://htcrefactor.github.io/robot-catalog/md/robot-com-r-dog.md
-- Quadruped · Legged · Concept · United States
+- Quadruped · Legged · In development · United States
 - Summary: Robot.com's (ex-Kiwibot) four-legged delivery and advertising robot concept with dual screens and FieldAI autonomy, due in 2027.
-- Specs: Status Concept
+- Specs: Status In development
 - Sources: https://www.robot.com/r-dog, https://www.robot.com/blog/robot-com-unveils-r-dog
 
 ### Roketsan KOZ
@@ -7911,9 +7911,9 @@
 - id: `strider-robotics-m3`
 - Page: https://htcrefactor.github.io/robot-catalog/robot.html?id=strider-robotics-m3
 - Markdown: https://htcrefactor.github.io/robot-catalog/md/strider-robotics-m3.md
-- Quadruped · Legged · Prototype · India · released 2026
+- Quadruped · Legged · In development · India · released 2026
 - Summary: IISc-spinoff industrial inspection quadruped prototype (TRL 6) rated around 20 kg payload and tested with 40 kg.
-- Specs: Released 2026; Status Prototype
+- Specs: Released 2026; Status In development
 - Sources: https://www.strider-robotics.in/, https://www.strider-robotics.in/about
 
 ### Svaya Robotics Quadruped robot (DRDO technology demonstrator)
@@ -9459,9 +9459,9 @@
 - id: `diden-robotics-walker`
 - Page: https://htcrefactor.github.io/robot-catalog/robot.html?id=diden-robotics-walker
 - Markdown: https://htcrefactor.github.io/robot-catalog/md/diden-robotics-walker.md
-- Mobile platform · Legged · Prototype · South Korea
+- Mobile platform · Legged · In development · South Korea
 - Summary: Biped work platform with electro-permanent-magnet feet for moving through ship hull blocks and access holes while carrying a manipulator.
-- Specs: Status Prototype
+- Specs: Status In development
 - Sources: https://www.didenrobotics.com/en/products, https://www.didenrobotics.com/en/resources-all/nvidia-gtc-2026-spider-30, https://www.didenrobotics.com/en/resources-all/amazon-mars-conference-2026, https://www.didenrobotics.com/
 
 ### Elite Robots M-Bot MC500-12

@@ -12,7 +12,7 @@
 
 | Field | Value |
 |---|---|
-| Status | Announced |
+| Status | In development |
 
 Fields the maker does not publish are left out here — the catalog never fills a value by guess. Prices are list or starting prices where the maker states one.
 
@@ -61,7 +61,7 @@ Fields the maker does not publish are left out here — the catalog never fills 
 
 ## Notes
 
-Maker pages (clonerobotics.com/android and the 19 Feb 2025 Protoclone announcement video on Clone's own channel) describe a faceless, anatomically accurate bipedal android actuated by over 1,000 Myofiber artificial muscles with a synthetic skeleton, vascular, nervous and muscular systems, over 200 degrees of freedom and roughly 500 sensors, powered by water and electricity, with an on-board GPU. Height, weight and an exact DoF count are not published by the maker, so those fields are empty (the seed 1,700 mm / 60 kg / 164 DoF figures came from HumanoidStore and are not maker values; 'over 200 DoF' is recorded here rather than in dof). The Alpha Edition is open for reservation of the first 279 units with no ship date, so status stays Announced.
+Maker pages (clonerobotics.com/android and the 19 Feb 2025 Protoclone announcement video on Clone's own channel) describe a faceless, anatomically accurate bipedal android actuated by over 1,000 Myofiber artificial muscles with a synthetic skeleton, vascular, nervous and muscular systems, over 200 degrees of freedom and roughly 500 sensors, powered by water and electricity, with an on-board GPU. Height, weight and an exact DoF count are not published by the maker, so those fields are empty (the seed 1,700 mm / 60 kg / 164 DoF figures came from HumanoidStore and are not maker values; 'over 200 DoF' is recorded here rather than in dof). The Alpha Edition is open for reservation of the first 279 units with no ship date, so its status is In development.
 
 ## Sources
 
@@ -71,4 +71,4 @@ Maker pages (clonerobotics.com/android and the 19 Feb 2025 Protoclone announceme
 
 ---
 
-*Robot Catalog — generated from data/robots.json (last merged 2026-11-22). Source repository: https://github.com/htcrefactor/robot-catalog*
+*Robot Catalog — generated from data/robots.json (last merged 2026-11-26). Source repository: https://github.com/htcrefactor/robot-catalog*

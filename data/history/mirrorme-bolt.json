@@ -1,0 +1,25 @@
+{
+ "id": "mirrorme-bolt",
+ "name": "Bolt",
+ "manufacturer": "MirrorMe Technology",
+ "updated": "2026-11-26",
+ "events": [
+  {
+   "date": "2026-11-26",
+   "type": "updated",
+   "source": "https://www.mirrormetech.com/en/product_5.html",
+   "changes": [
+    {
+     "field": "note",
+     "from": "MirrorMe's product page (checked 2026-11-17): 175 cm, 75 kg, peak speed above 11 m/s (recorded as the 11 m/s lower bound), 50 kg load capacity, full-body dynamics control; the page shows 21-DoF bionic hands but gives no total DoF, battery, runtime or price. No sales or deliveries are announced, so status is Prototype.",
+     "to": "MirrorMe's product page (checked 2026-11-17): 175 cm, 75 kg, peak speed above 11 m/s (recorded as the 11 m/s lower bound), 50 kg load capacity, full-body dynamics control; the page shows 21-DoF bionic hands but gives no total DoF, battery, runtime or price. No sales or deliveries are announced, so status is In development."
+    },
+    {
+     "field": "status",
+     "from": "Prototype",
+     "to": "In development"
+    }
+   ]
+  }
+ ]
+}

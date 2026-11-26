@@ -1,0 +1,25 @@
+{
+ "id": "clone-robotics-clone-alpha-protoclone",
+ "name": "Clone Alpha (Protoclone)",
+ "manufacturer": "Clone Robotics",
+ "updated": "2026-11-26",
+ "events": [
+  {
+   "date": "2026-11-26",
+   "type": "updated",
+   "source": "https://www.clonerobotics.com/android",
+   "changes": [
+    {
+     "field": "note",
+     "from": "Maker pages (clonerobotics.com/android and the 19 Feb 2025 Protoclone announcement video on Clone's own channel) describe a faceless, anatomically accurate bipedal android actuated by over 1,000 Myofiber artificial muscles with a synthetic skeleton, vascular, nervous and muscular systems, over 200 degrees of freedom and roughly 500 sensors, powered by water and electricity, with an on-board GPU. Height, weight and an exact DoF count are not published by the maker, so those fields are empty (the seed 1,700 mm / 60 kg / 164 DoF figures came from HumanoidStore and are not maker values; 'over 200 DoF' is recorded here rather than in dof). The Alpha Edition is open for reservation of the first 279 units with no ship date, so status stays Announced.",
+     "to": "Maker pages (clonerobotics.com/android and the 19 Feb 2025 Protoclone announcement video on Clone's own channel) describe a faceless, anatomically accurate bipedal android actuated by over 1,000 Myofiber artificial muscles with a synthetic skeleton, vascular, nervous and muscular systems, over 200 degrees of freedom and roughly 500 sensors, powered by water and electricity, with an on-board GPU. Height, weight and an exact DoF count are not published by the maker, so those fields are empty (the seed 1,700 mm / 60 kg / 164 DoF figures came from HumanoidStore and are not maker values; 'over 200 DoF' is recorded here rather than in dof). The Alpha Edition is open for reservation of the first 279 units with no ship date, so its status is In development."
+    },
+    {
+     "field": "status",
+     "from": "Announced",
+     "to": "In development"
+    }
+   ]
+  }
+ ]
+}

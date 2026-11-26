@@ -16,7 +16,7 @@
 | Height | 900 mm |
 | Weight | 18.9 kg |
 | Degrees of freedom | 21 |
-| Status | Prototype |
+| Status | Research |
 | On-board compute | NVIDIA Jetson Orin Nano |
 | Compute | 7-25 W edge module, 67 INT8 TOPS |
 | Sensors | Chest-mounted Intel RealSense D435 depth camera, 6-axis IMU (pelvis), Joint encoders |
@@ -42,4 +42,4 @@ Listed by these directories (discovery only, never used as a spec source):
 
 ---
 
-*Robot Catalog — generated from data/robots.json (last merged 2026-11-22). Source repository: https://github.com/htcrefactor/robot-catalog*
+*Robot Catalog — generated from data/robots.json (last merged 2026-11-26). Source repository: https://github.com/htcrefactor/robot-catalog*

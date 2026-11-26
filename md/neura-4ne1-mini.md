@@ -19,7 +19,7 @@
 | Max speed | 1.28 m/s (4.6 km/h) |
 | Degrees of freedom | 25 |
 | Runtime | 2.5 h |
-| Status | Announced |
+| Status | In development |
 | Price | EUR 19,999 (Standard) and EUR 29,999 (Pro) expected prices on the maker reservation page (excl. tax and shipping) |
 
 Fields the maker does not publish are left out here — the catalog never fills a value by guess. Prices are list or starting prices where the maker states one.
@@ -91,4 +91,4 @@ NEURA 4NE1 Mini datasheet V1 (checked 2026-11-17): 132 cm, 36 kg, 25 DoF for the
 
 ---
 
-*Robot Catalog — generated from data/robots.json (last merged 2026-11-22). Source repository: https://github.com/htcrefactor/robot-catalog*
+*Robot Catalog — generated from data/robots.json (last merged 2026-11-26). Source repository: https://github.com/htcrefactor/robot-catalog*

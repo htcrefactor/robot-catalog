@@ -1,0 +1,25 @@
+{
+ "id": "robotis-k0",
+ "name": "K0",
+ "manufacturer": "ROBOTIS",
+ "updated": "2026-11-26",
+ "events": [
+  {
+   "date": "2026-11-26",
+   "type": "updated",
+   "source": "https://ai.robotis.com/ai_sapiens/introduction_ai_sapiens.html",
+   "changes": [
+    {
+     "field": "note",
+     "from": "Maker page: 1,300 mm height, 34 kg, 23 DOF (5 per arm, 6 per leg, 1 waist), max arm payload 3 kg, DYNAMIXEL Q actuators (QM-060 x 14, QM-080 x 9), Jetson Orin NX 16GB (up to 100 sparse INT8 TOPS), 46.8 V 9,000 mAh battery (=421.2 Wh, derived from V x Ah), Wi-Fi 5 + Bluetooth 5.0, 2 Ethernet, USB 2.0 x 2 and USB 3.0 x 2, 24 V/10 A and 12 V/10 A power outputs. Sold as a development platform, not a finished product: DYNAMIXEL-Q and the open-source release (BoM, STEP files, code, simulation, tutorials) were still being rolled out, so status is Announced. Max speed, runtime and a sensor list are not published.",
+     "to": "Maker page: 1,300 mm height, 34 kg, 23 DOF (5 per arm, 6 per leg, 1 waist), max arm payload 3 kg, DYNAMIXEL Q actuators (QM-060 x 14, QM-080 x 9), Jetson Orin NX 16GB (up to 100 sparse INT8 TOPS), 46.8 V 9,000 mAh battery (=421.2 Wh, derived from V x Ah), Wi-Fi 5 + Bluetooth 5.0, 2 Ethernet, USB 2.0 x 2 and USB 3.0 x 2, 24 V/10 A and 12 V/10 A power outputs. Sold as a development platform, not a finished product: DYNAMIXEL-Q and the open-source release (BoM, STEP files, code, simulation, tutorials) were still being rolled out, so status is In development. Max speed, runtime and a sensor list are not published."
+    },
+    {
+     "field": "status",
+     "from": "Announced",
+     "to": "In development"
+    }
+   ]
+  }
+ ]
+}

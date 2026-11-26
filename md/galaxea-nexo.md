@@ -18,7 +18,7 @@
 | Degrees of freedom | 30 |
 | Runtime | 8 h |
 | Released | 2026 |
-| Status | Announced |
+| Status | In development |
 | On-board compute | yes |
 | Sensors | High-resolution RGB camera, Fisheye cameras, Depth camera |
 
@@ -45,4 +45,4 @@ Listed by these directories (discovery only, never used as a spec source):
 
 ---
 
-*Robot Catalog — generated from data/robots.json (last merged 2026-11-22). Source repository: https://github.com/htcrefactor/robot-catalog*
+*Robot Catalog — generated from data/robots.json (last merged 2026-11-26). Source repository: https://github.com/htcrefactor/robot-catalog*

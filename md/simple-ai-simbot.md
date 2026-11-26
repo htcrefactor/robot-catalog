@@ -14,7 +14,7 @@
 |---|---|
 | Payload | 5 kg |
 | Degrees of freedom | 23 |
-| Status | Announced |
+| Status | In development |
 | API | yes |
 | On-board compute | 2,000 TOPS main compute with cloud brain plus on-device large/small models |
 | Sensors | 2x LiDAR, 2x RGBD cameras, 6x GMSL camera links, Tactile and force sensing |
@@ -40,4 +40,4 @@ Listed by these directories (discovery only, never used as a spec source):
 
 ---
 
-*Robot Catalog — generated from data/robots.json (last merged 2026-11-22). Source repository: https://github.com/htcrefactor/robot-catalog*
+*Robot Catalog — generated from data/robots.json (last merged 2026-11-26). Source repository: https://github.com/htcrefactor/robot-catalog*

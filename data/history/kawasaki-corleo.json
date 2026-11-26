@@ -1,0 +1,25 @@
+{
+ "id": "kawasaki-corleo",
+ "name": "CORLEO",
+ "manufacturer": "Kawasaki Heavy Industries",
+ "updated": "2026-11-26",
+ "events": [
+  {
+   "date": "2026-11-26",
+   "type": "updated",
+   "source": "https://www.khi.co.jp/safe_adventure/en/about/mobility",
+   "changes": [
+    {
+     "field": "note",
+     "from": "Rideable Robotic Multi-legged Vehicle (RMV); unveiled as 2050 concept at Expo 2025, development toward commercialization targeted ~2035. 150cc hydrogen engine generator (series hybrid). Not a conventional quadruped robot. Kawasaki presents it as CONCEPT1 at Expo 2025, not a product for sale, so status is Concept rather than Research (checked 2026-11-17).",
+     "to": "Rideable Robotic Multi-legged Vehicle (RMV); unveiled as 2050 concept at Expo 2025, development toward commercialization targeted ~2035. 150cc hydrogen engine generator (series hybrid). Not a conventional quadruped robot. Kawasaki presents it as CONCEPT1 at Expo 2025, not a product for sale, so its status is In development rather than Research (checked 2026-11-17)."
+    },
+    {
+     "field": "status",
+     "from": "Concept",
+     "to": "In development"
+    }
+   ]
+  }
+ ]
+}
