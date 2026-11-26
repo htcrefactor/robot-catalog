@@ -18,7 +18,7 @@
 | Max speed | 1 m/s (3.6 km/h) |
 | Degrees of freedom | 21 |
 | Released | 2022 |
-| Status | Prototype |
+| Status | Research |
 | On-board compute | yes |
 | Compute | Xiaomi in-house control stack with Mi-Sense depth vision module |
 | Sensors | Mi-Sense depth vision module (AI interactive camera), Dual-microphone voice recognition, Curved OLED face display |
@@ -92,4 +92,4 @@ Duplicate merged: 'Tieda' (铁大) is Xiaomi's own nickname for CyberOne, so the
 
 ---
 
-*Robot Catalog — generated from data/robots.json (last merged 2026-11-22). Source repository: https://github.com/htcrefactor/robot-catalog*
+*Robot Catalog — generated from data/robots.json (last merged 2026-11-26). Source repository: https://github.com/htcrefactor/robot-catalog*

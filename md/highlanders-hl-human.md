@@ -15,7 +15,7 @@
 | Max speed | 0.83 m/s (3.0 km/h) |
 | Degrees of freedom | 19 |
 | Released | 2025 |
-| Status | Prototype |
+| Status | In development |
 | SDK | yes |
 | SDK name | SDK/API (announced) |
 
@@ -41,4 +41,4 @@ Listed by these directories (discovery only, never used as a spec source):
 
 ---
 
-*Robot Catalog — generated from data/robots.json (last merged 2026-11-22). Source repository: https://github.com/htcrefactor/robot-catalog*
+*Robot Catalog — generated from data/robots.json (last merged 2026-11-26). Source repository: https://github.com/htcrefactor/robot-catalog*

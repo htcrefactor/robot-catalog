@@ -14,7 +14,7 @@
 | Field | Value |
 |---|---|
 | Height | 1,430 mm |
-| Status | Announced |
+| Status | In development |
 
 Fields the maker does not publish are left out here — the catalog never fills a value by guess. Prices are list or starting prices where the maker states one.
 
@@ -68,4 +68,4 @@ Media (2026-11-17): press photo of CLOiD folding laundry from LG's own CES 2026 
 
 ---
 
-*Robot Catalog — generated from data/robots.json (last merged 2026-11-22). Source repository: https://github.com/htcrefactor/robot-catalog*
+*Robot Catalog — generated from data/robots.json (last merged 2026-11-26). Source repository: https://github.com/htcrefactor/robot-catalog*

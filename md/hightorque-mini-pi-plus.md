@@ -94,4 +94,4 @@ Maker page (hightorque.cn/pi-plus): standing height 680 mm, 15.15 kg with batter
 
 ---
 
-*Robot Catalog — generated from data/robots.json (last merged 2026-11-22). Source repository: https://github.com/htcrefactor/robot-catalog*
+*Robot Catalog — generated from data/robots.json (last merged 2026-11-26). Source repository: https://github.com/htcrefactor/robot-catalog*

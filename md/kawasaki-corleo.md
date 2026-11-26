@@ -13,7 +13,7 @@
 | Field | Value |
 |---|---|
 | Released | 2025 |
-| Status | Concept |
+| Status | In development |
 
 Fields the maker does not publish are left out here — the catalog never fills a value by guess. Prices are list or starting prices where the maker states one.
 
@@ -23,7 +23,7 @@ The full spec sheet for this robot is still being researched; the catalog core f
 
 ## Notes
 
-Rideable Robotic Multi-legged Vehicle (RMV); unveiled as 2050 concept at Expo 2025, development toward commercialization targeted ~2035. 150cc hydrogen engine generator (series hybrid). Not a conventional quadruped robot. Kawasaki presents it as CONCEPT1 at Expo 2025, not a product for sale, so status is Concept rather than Research (checked 2026-11-17).
+Rideable Robotic Multi-legged Vehicle (RMV); unveiled as 2050 concept at Expo 2025, development toward commercialization targeted ~2035. 150cc hydrogen engine generator (series hybrid). Not a conventional quadruped robot. Kawasaki presents it as CONCEPT1 at Expo 2025, not a product for sale, so its status is In development rather than Research (checked 2026-11-17).
 
 ## Sources
 
@@ -38,4 +38,4 @@ Listed by these directories (discovery only, never used as a spec source):
 
 ---
 
-*Robot Catalog — generated from data/robots.json (last merged 2026-11-22). Source repository: https://github.com/htcrefactor/robot-catalog*
+*Robot Catalog — generated from data/robots.json (last merged 2026-11-26). Source repository: https://github.com/htcrefactor/robot-catalog*

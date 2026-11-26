@@ -18,7 +18,7 @@
 | Payload | 5 kg |
 | Degrees of freedom | 66 |
 | Released | 2026 |
-| Status | Announced |
+| Status | In development |
 | SDK | yes |
 | SDK name | Native teleoperation system; 1000 Hz control |
 | On-board compute | NVIDIA Jetson Thor (128 GB LPDDR5X) |
@@ -46,4 +46,4 @@ Listed by these directories (discovery only, never used as a spec source):
 
 ---
 
-*Robot Catalog — generated from data/robots.json (last merged 2026-11-22). Source repository: https://github.com/htcrefactor/robot-catalog*
+*Robot Catalog — generated from data/robots.json (last merged 2026-11-26). Source repository: https://github.com/htcrefactor/robot-catalog*

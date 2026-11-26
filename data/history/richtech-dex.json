@@ -1,0 +1,25 @@
+{
+ "id": "richtech-dex",
+ "name": "Dex",
+ "manufacturer": "Richtech Robotics",
+ "updated": "2026-11-26",
+ "events": [
+  {
+   "date": "2026-11-26",
+   "type": "updated",
+   "source": "https://www.richtechrobotics.com/solutions/dex",
+   "changes": [
+    {
+     "field": "note",
+     "from": "Maker spec table, DEX-M mobile configuration: 30.1 x 28.1 x 54.3 in (765 x 714 x 1,379 mm), 198 lb (89.8 kg), 11 lb (5 kg) payload per arm, 6 DOF per arm (12 total entered here; the maker states the per-arm figure only), 56 in wingspan, 4 depth cameras, modular end effectors, 1.2 m/s travel speed, 24 V 30 Ah battery (=720 Wh, derived), 3 h full charge, 35.4 in lift, two-wheel differential drive, LiDAR/depth/RGB/IMU/wheel-speed sensors, NVIDIA Jetson Thor. The 10-28-2025 launch release states four-hour battery life in mobile mode, 24/7 running from a static base, and four-camera vision; DEX-F (fixed) is 88.1 lb and runs on AC 110-240 V. Status stays Announced: the maker is still taking early interest ahead of launch.",
+     "to": "Maker spec table, DEX-M mobile configuration: 30.1 x 28.1 x 54.3 in (765 x 714 x 1,379 mm), 198 lb (89.8 kg), 11 lb (5 kg) payload per arm, 6 DOF per arm (12 total entered here; the maker states the per-arm figure only), 56 in wingspan, 4 depth cameras, modular end effectors, 1.2 m/s travel speed, 24 V 30 Ah battery (=720 Wh, derived), 3 h full charge, 35.4 in lift, two-wheel differential drive, LiDAR/depth/RGB/IMU/wheel-speed sensors, NVIDIA Jetson Thor. The 10-28-2025 launch release states four-hour battery life in mobile mode, 24/7 running from a static base, and four-camera vision; DEX-F (fixed) is 88.1 lb and runs on AC 110-240 V. Status is In development: the maker is still taking early interest ahead of launch."
+    },
+    {
+     "field": "status",
+     "from": "Announced",
+     "to": "In development"
+    }
+   ]
+  }
+ ]
+}

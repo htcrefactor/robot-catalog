@@ -17,7 +17,7 @@
 | Payload | 3 kg |
 | Degrees of freedom | 20 |
 | Released | 2026 |
-| Status | Prototype |
+| Status | In development |
 
 Fields the maker does not publish are left out here — the catalog never fills a value by guess. Prices are list or starting prices where the maker states one.
 
@@ -27,7 +27,7 @@ The full spec sheet for this robot is still being researched; the catalog core f
 
 ## Notes
 
-Maker product page lists TR-WORKS as its next-generation humanoid for semiconductor and display process logistics; the figures come from the company's statements at its first public showing (Automation World 2026, 2026-03-04): height 180 cm, weight 180 kg, payload 3 kg, 20 DOF (arms 14, body/legs 4, AMR 2), 55 cm up-down travel, +/-45-degree bending, +/-180-degree torso rotation, an AMR base with FMS integration, 3-finger and 2-finger interchangeable hands, teleoperation and VR teaching, imitation learning and RFM zero-shot recognition; the company plans to raise payload to 20-30 kg. Speed, battery and runtime are not published. Status is Prototype: it was exhibited and is being tested in the company's own lines and in a government project with a display maker and KAIST through 2030.
+Maker product page lists TR-WORKS as its next-generation humanoid for semiconductor and display process logistics; the figures come from the company's statements at its first public showing (Automation World 2026, 2026-03-04): height 180 cm, weight 180 kg, payload 3 kg, 20 DOF (arms 14, body/legs 4, AMR 2), 55 cm up-down travel, +/-45-degree bending, +/-180-degree torso rotation, an AMR base with FMS integration, 3-finger and 2-finger interchangeable hands, teleoperation and VR teaching, imitation learning and RFM zero-shot recognition; the company plans to raise payload to 20-30 kg. Speed, battery and runtime are not published. Status is In development: it was exhibited and is being tested in the company's own lines and in a government project with a display maker and KAIST through 2030.
 
 ## Sources
 
@@ -41,4 +41,4 @@ Listed by these directories (discovery only, never used as a spec source):
 
 ---
 
-*Robot Catalog — generated from data/robots.json (last merged 2026-11-22). Source repository: https://github.com/htcrefactor/robot-catalog*
+*Robot Catalog — generated from data/robots.json (last merged 2026-11-26). Source repository: https://github.com/htcrefactor/robot-catalog*

@@ -17,7 +17,7 @@
 | Weight | 75 kg |
 | Payload | 50 kg |
 | Max speed | 11 m/s (39.6 km/h) |
-| Status | Prototype |
+| Status | In development |
 
 Fields the maker does not publish are left out here — the catalog never fills a value by guess. Prices are list or starting prices where the maker states one.
 
@@ -27,7 +27,7 @@ The full spec sheet for this robot is still being researched; the catalog core f
 
 ## Notes
 
-MirrorMe's product page (checked 2026-11-17): 175 cm, 75 kg, peak speed above 11 m/s (recorded as the 11 m/s lower bound), 50 kg load capacity, full-body dynamics control; the page shows 21-DoF bionic hands but gives no total DoF, battery, runtime or price. No sales or deliveries are announced, so status is Prototype.
+MirrorMe's product page (checked 2026-11-17): 175 cm, 75 kg, peak speed above 11 m/s (recorded as the 11 m/s lower bound), 50 kg load capacity, full-body dynamics control; the page shows 21-DoF bionic hands but gives no total DoF, battery, runtime or price. No sales or deliveries are announced, so status is In development.
 
 ## Sources
 
@@ -42,4 +42,4 @@ Listed by these directories (discovery only, never used as a spec source):
 
 ---
 
-*Robot Catalog — generated from data/robots.json (last merged 2026-11-22). Source repository: https://github.com/htcrefactor/robot-catalog*
+*Robot Catalog — generated from data/robots.json (last merged 2026-11-26). Source repository: https://github.com/htcrefactor/robot-catalog*

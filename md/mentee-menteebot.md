@@ -18,7 +18,7 @@
 | Payload | 25 kg |
 | Max speed | 1.5 m/s (5.4 km/h) |
 | Degrees of freedom | 40 |
-| Status | Announced |
+| Status | In development |
 | On-board compute | 2x NVIDIA Jetson AGX Orin |
 | Sensors | Head-mounted cameras with 360-degree coverage (fisheye side cameras and rear camera) |
 
@@ -92,4 +92,4 @@ Maker (checked 2026-11-17): MenteeBot V3.0 stands 175 cm, weighs 70 kg, has 40 D
 
 ---
 
-*Robot Catalog — generated from data/robots.json (last merged 2026-11-22). Source repository: https://github.com/htcrefactor/robot-catalog*
+*Robot Catalog — generated from data/robots.json (last merged 2026-11-26). Source repository: https://github.com/htcrefactor/robot-catalog*
