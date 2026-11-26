@@ -202,4 +202,4 @@ Checked 2026-11-19 against OMRON datasheet I855: 506 kg with battery, 1,500 kg, 
 
 ---
 
-*Robot Catalog — generated from data/robots.json (last merged 2026-11-22). Source repository: https://github.com/htcrefactor/robot-catalog*
+*Robot Catalog — generated from data/robots.json (last merged 2026-11-26). Source repository: https://github.com/htcrefactor/robot-catalog*

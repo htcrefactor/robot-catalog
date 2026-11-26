@@ -5,7 +5,7 @@
 - Canonical site: https://htcrefactor.github.io/robot-catalog/
 - Index for agents: https://htcrefactor.github.io/robot-catalog/llms.txt
 - Per-robot Markdown with the full spec sheet and a source on every value: https://htcrefactor.github.io/robot-catalog/md/<id>.md
-- Generated from data/robots.json, last merged 2026-11-22. No scoring, no ranking.
+- Generated from data/robots.json, last merged 2026-11-26. No scoring, no ranking.
 
 ## AMR (96)
 
@@ -6320,9 +6320,9 @@
 - Page: https://htcrefactor.github.io/robot-catalog/robot.html?id=xpeng-iron
 - Markdown: https://htcrefactor.github.io/robot-catalog/md/xpeng-iron.md
 - Humanoid · Legged · In development · China · released 2024
-- Summary: XPENG's humanoid, which reuses the company's Turing AI chips, Eagle Eye vision and AI models; the November 2025 generation adds a bionic spine, flexible skin and an all-solid-state battery, with volume production targeted for the end of 2026.
-- Specs: Height 1,730 mm; Weight 65 kg; Max speed 2 m/s (7.2 km/h); Degrees of freedom 82; Released 2024; Status In development; On-board compute yes; Compute 3 x XPENG Turing AI chip, 2250 TOPS effective; all-solid-state battery; Sensors Eagle Eye vision system shared with XPENG cars
-- Sources: https://www.xpeng.com/news/019301d2135392fa562d8a0282200016, https://www.xpeng.com/pressroom/news/01a080371029a057bc8e8a02a2c6012b, https://www.xiaopeng.com/news/company_news/5511.html
+- Summary: XPENG's general-purpose humanoid, built on the company's Turing chips, Eagle Eye vision and VLA models; the November 2026 generation has 76 DoF, tactile skin and an all-solid-state battery, with store work from 2027.
+- Specs: Height 1,730 mm; Weight 65 kg; Max speed 2 m/s (7.2 km/h); Degrees of freedom 76; Released 2024; Status In development; On-board compute yes; Compute 3 x XPENG Turing AI chip, 2250 TOPS effective; all-solid-state battery; Sensors Eagle Eye vision system shared with XPENG cars, 1,500+ tactile sensing points covering >80% of key body areas, 360° environmental perception
+- Sources: https://www.xpeng.com/news/019301d2135392fa562d8a0282200016, https://www.xiaopeng.com/news/company_news/5511.html, https://www.xpeng.com/news/01a212b0d830a1e838d68a02a2110174, https://www.xpeng.com/pressroom/news/01a080371029a057bc8e8a02a2c6012b
 
 ### Xpeng PX5
 
