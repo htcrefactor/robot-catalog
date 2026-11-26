@@ -42,7 +42,7 @@
     {
      "field": "note",
      "from": null,
-     "to": "Scope flag: C5 is a commercial floor-cleaning robot, which the catalog excludes, so the record sits in Misc instead of Humanoid; it is not a humanoid. AGIBOT calls it its first intelligent cleaning robot for medium-to-large scenes. AGIBOT's 2026-10-29 product brochure (pp. 48-49, C-series table) and its own product and store pages state 820 x 680 x 1130 mm, 170 kg, 1.0 m/s, scrubbing 3 h on a 24 V 80 Ah battery with 1.5 h charging, 550 mm scrubbing width (840 mm with the side brushes), 730 mm squeegee, 90 L clean and 45 L dirty water, 1.8 L dustbin, up to 1,980 m2/h with a 95% debris pickup rate, 900 mm minimum aisle, 1,720 mm turning radius, 25 kg downforce and under 68 dB(A); the workstation holds 8 L, refills at 7-10 L/min, drains at 10-15 L/min and draws up to 1,800 W. The maker's store lists it at USD 32,900 (checked 2026-11-26, shown as out of stock) with no statement of what the price covers, so no price observation is recorded here."
+     "to": "Scope flag: C5 is a commercial floor-cleaning robot, which the catalog excludes, so the record sits in Misc instead of Humanoid; it is not a humanoid. AGIBOT calls it its first intelligent cleaning robot for medium-to-large scenes. AGIBOT's 2026-10-29 product brochure (pp. 48-49, C-series table) and its own product and store pages state 820 x 680 x 1130 mm, 170 kg, 1.0 m/s, scrubbing 3 h on a 24 V 80 Ah battery with 1.5 h charging, 550 mm scrubbing width (840 mm with the side brushes), 730 mm squeegee, 90 L clean and 45 L dirty water, 1.8 L dustbin, up to 1,980 m2/h with a 95% debris pickup rate, 900 mm minimum aisle, 1,720 mm turning radius, 25 kg downforce and under 68 dB(A); the workstation holds 8 L, refills at 7-10 L/min, drains at 10-15 L/min and draws up to 1,800 W. The maker's own store lists it at USD 32,900 (checked 2026-11-26) as its only variant, with a single 'Default Title' and no robot-only or with-workstation option; the store shows it out of stock, quotes shipping separately at USD 500-3,000, and does not state whether the price includes the workstation."
     },
     {
      "field": "official_url",
@@ -99,6 +99,20 @@
      "field": "width_mm",
      "from": null,
      "to": 680
+    },
+    {
+     "field": "price_observations",
+     "from": null,
+     "to": [
+      {
+       "date": "2026-11-26",
+       "amount": 32900,
+       "currency": "USD",
+       "kind": "list",
+       "source": "https://store.agibot.com/products/c5",
+       "note": "AGIBOT Store single variant ('Default Title'), no robot-only or with-workstation choice; page does not state whether the workstation is included; listed out of stock; shipping quoted separately at USD 500-3,000"
+      }
+     ]
     }
    ]
   }
