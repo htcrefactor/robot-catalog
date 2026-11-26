@@ -5,7 +5,7 @@
 - Canonical site: https://htcrefactor.github.io/robot-catalog/
 - Index for agents: https://htcrefactor.github.io/robot-catalog/llms.txt
 - Per-robot Markdown with the full spec sheet and a source on every value: https://htcrefactor.github.io/robot-catalog/md/<id>.md
-- Generated from data/robots.json, last merged 2026-11-22. No scoring, no ranking.
+- Generated from data/robots.json, last merged 2026-11-26. No scoring, no ranking.
 
 ## AMR (96)
 
@@ -198,16 +198,20 @@
 - id: `dogu-patrover`
 - Page: https://htcrefactor.github.io/robot-catalog/robot.html?id=dogu-patrover
 - Markdown: https://htcrefactor.github.io/robot-catalog/md/dogu-patrover.md
-- AMR · Wheeled
-- Sources: none recorded
+- AMR · Wheeled · Commercial · South Korea
+- Summary: Outdoor security-patrol robot that watches for intruders, fire, abnormal sound and road hazards and reports to a control centre.
+- Specs: Length 1,030 mm; Width 755 mm; Height 1,153 mm; Weight 90 kg; Max speed 1.5 m/s (5.4 km/h); Status Commercial; Sensors 3D LiDAR (50 m radius), 2D LiDAR front and rear, 4 cameras (front, rear, left, right), Thermal camera, Fire-detection sensor, 14 ultrasonic sensors, Microphone array
+- Sources: https://www.dogu.xyz/product-Patrover
 
 ### Enabled Robotics ER-MAX 600
 
 - id: `enabled-robotics-er-max-600`
 - Page: https://htcrefactor.github.io/robot-catalog/robot.html?id=enabled-robotics-er-max-600
 - Markdown: https://htcrefactor.github.io/robot-catalog/md/enabled-robotics-er-max-600.md
-- AMR · Wheeled · Denmark
-- Sources: none recorded
+- AMR · Wheeled · Commercial · Denmark
+- Summary: Mobile cobot built on the MiR600 base with a Universal Robots UR20 or UR30 arm, for heavy part and pallet handling.
+- Specs: Length 1,350 mm; Width 910 mm; Payload 380 kg; IP rating IP52; Status Commercial; API yes; Sensors Proximity sensors scanning the floor, 360° safety laser scanners, 3D cameras (1.8 m height / 1.2 m distance), Force sensors stopping the arm
+- Sources: https://www.enabled-robotics.com/er-max, https://www.enabled-robotics.com/faq, https://www.enabled-robotics.com/
 
 ### Exotec Skypod
 
@@ -882,8 +886,10 @@
 - id: `telexistence-model-t`
 - Page: https://htcrefactor.github.io/robot-catalog/robot.html?id=telexistence-model-t
 - Markdown: https://htcrefactor.github.io/robot-catalog/md/telexistence-model-t.md
-- AMR · Wheeled · Japan
-- Sources: none recorded
+- AMR · Wheeled · Discontinued · Japan · released 2020
+- Summary: Semi-autonomous shelf-stocking robot for convenience stores, driven remotely from a VR cockpit over a low-latency video link.
+- Specs: Degrees of freedom 22; Released 2020; Status Discontinued
+- Sources: https://tx-inc.com/en/blog/2020/07/21/10624/, https://tx-inc.com/en/about/
 
 ### Vecna Robotics Autonomous Tugger (ATG)
 
@@ -940,8 +946,10 @@
 - id: `zeroth-w1`
 - Page: https://htcrefactor.github.io/robot-catalog/robot.html?id=zeroth-w1
 - Markdown: https://htcrefactor.github.io/robot-catalog/md/zeroth-w1.md
-- AMR · Wheeled · China
-- Sources: none recorded
+- AMR · Tracked · Commercial · China
+- Summary: Tracked outdoor companion robot that follows its owner, carries gear and doubles as a patrol camera and a portable power bank.
+- Specs: Length 578 mm; Width 520 mm; Height 680 mm; Weight 28 kg; Payload 20 kg; Max speed 1 m/s (3.6 km/h); Battery 360 Wh; Status Commercial; On-board compute yes; Compute 8-core Horizon Sunrise-series SoC, 8 GB RAM, 32 GB storage; Sensors 13 MP RGB camera, 2 MP monitoring camera, RGB-D depth camera, Ultrasonic sensor, Human infrared (PIR) sensor, GNSS (GPS / BeiDou)
+- Sources: https://www.zeroth0.com/products/w1
 
 ## AGV (16)
 
@@ -3503,8 +3511,10 @@
 - id: `iit-r1`
 - Page: https://htcrefactor.github.io/robot-catalog/robot.html?id=iit-r1
 - Markdown: https://htcrefactor.github.io/robot-catalog/md/iit-r1.md
-- Humanoid · Legged · Italy
-- Sources: none recorded
+- Humanoid · Wheeled · Research · Italy
+- Summary: Wheeled personal humanoid for domestic and professional service research, with two 8-DoF arms and an extensible torso.
+- Specs: Height 1,200 mm; Weight 51 kg; Payload 1 kg; Max speed 0.6 m/s (2.2 km/h); Wheels 2; Degrees of freedom 28; Runtime 3 h; Status Research; SDK yes; SDK name YARP (open source); ROS through dedicated protocols; On-board compute yes; Compute Two Intel i7 Nano-ITX units and a Xilinx Zynq board; Sensors Xtion Pro Live RGB-D, Twin stereo camera module, RPLIDAR laser scanner in the base, 2x 6-axis force/torque sensors in the arms, Tactile skin on hands and forearms, RGB LED face display, 2 microphones and a loudspeaker
+- Sources: https://icub.iit.it/products/product-catalog, https://icub.iit.it/documents/175012/528824/Technical_Specification_R1_20200531.pdf/89e31921-f77f-96ea-b196-d89b35aba5b8
 
 ### Istituto Italiano di Tecnologia (IIT) WALK-MAN
 
@@ -6152,8 +6162,10 @@
 - id: `vstone-robovie-r3`
 - Page: https://htcrefactor.github.io/robot-catalog/robot.html?id=vstone-robovie-r3
 - Markdown: https://htcrefactor.github.io/robot-catalog/md/vstone-robovie-r3.md
-- Humanoid · Japan
-- Sources: none recorded
+- Humanoid · Wheeled · Discontinued · Japan
+- Summary: Human-sized communication-research platform on a two-wheel base, built for guidance and service trials in streets and stations.
+- Specs: Length 520 mm; Width 500 mm; Height 1,080 mm; Weight 35 kg; Max speed 0.69 m/s (2.5 km/h); Wheels 2; Degrees of freedom 17; Runtime 1 h; Battery 336 Wh; Status Discontinued; On-board compute yes; Compute Windows laptop as main PC, VS-RC003HV (ARM7) sub-controller; Sensors 2 USB cameras (stereo pair), 2 microphones, Speaker, 11 touch sensors, Range finder (optional, 2x)
+- Sources: https://www.vstone.co.jp/products/robovie_r3/spec.html, https://www.vstone.co.jp/products/robovie_r3/, https://www.vstone.co.jp/products/robovie_r3/qa.html
 
 ### Vstone Vstone Tichno
 
@@ -7756,8 +7768,10 @@
 - id: `petoi-nybble-q`
 - Page: https://htcrefactor.github.io/robot-catalog/robot.html?id=petoi-nybble-q
 - Markdown: https://htcrefactor.github.io/robot-catalog/md/petoi-nybble-q.md
-- Quadruped · Legged · United States
-- Sources: none recorded
+- Quadruped · Legged · Commercial · United States
+- Summary: Open-source 3D-printed robot cat for teaching legged locomotion and physical AI, sold pre-assembled with 11 servo joints.
+- Specs: Length 240 mm; Width 115 mm; Height 150 mm; Weight 0.433 kg; Degrees of freedom 11; Runtime 0.75 h; Battery 7.4 Wh; Status Commercial; SDK yes; SDK name OpenCat Python API, Arduino IDE, Petoi Coding Blocks; On-board compute yes; Compute BiBoard V1 (ESP32-WROOM-32D, 520 KB SRAM, 4 MB flash); a Raspberry Pi can be mounted on the board; Sensors 6-axis IMU (MPU6050 or ICM42670), Ultrasonic distance sensor, Voice microphone
+- Sources: https://www.petoi.com/products/petoi-nybble-q-robot-cat, https://www.petoi.com/pages/robot-cat-nybble-q-technical-specifications
 
 ### Petoi Quaddle
 
@@ -8601,8 +8615,10 @@
 - id: `aldebaran-plato`
 - Page: https://htcrefactor.github.io/robot-catalog/robot.html?id=aldebaran-plato
 - Markdown: https://htcrefactor.github.io/robot-catalog/md/aldebaran-plato.md
-- Indoor delivery · Wheeled · France
-- Sources: none recorded
+- Indoor delivery · Wheeled · Commercial · France
+- Summary: Serving robot that carries food, drinks and dishes between kitchen and tables in restaurants, hotels and care settings.
+- Specs: Length 545 mm; Width 500 mm; Height 1,113 mm; Weight 53 kg; Payload 30 kg; Max speed 0.7 m/s (2.5 km/h); Runtime 12 h; Battery 995 Wh; IP rating IP42; Status Commercial; Sensors 3x 3D laser scanners (class 1), 10.1-inch touchscreen, Weight sensors per shelf
+- Sources: https://plato.documentation.aldebaran.com/en/docs/specs, https://plato.documentation.aldebaran.com/en/docs/user-guide
 
 ### Anseboo AS07
 
@@ -9693,16 +9709,20 @@
 - id: `robotnik-rb-summit`
 - Page: https://htcrefactor.github.io/robot-catalog/robot.html?id=robotnik-rb-summit
 - Markdown: https://htcrefactor.github.io/robot-catalog/md/robotnik-rb-summit.md
-- Mobile platform · Wheeled · Spain
-- Sources: none recorded
+- Mobile platform · Wheeled · Commercial · Spain
+- Summary: Outdoor-capable four-wheel skid-steer mobile platform for R&D, with a 50 kg payload and a ROS 2 architecture.
+- Specs: Length 731 mm; Width 614 mm; Height 720 mm; Weight 65 kg; Payload 50 kg; Max speed 2.5 m/s (9.0 km/h); Wheels 4; Runtime 5 h; IP rating IP54; Status Commercial; ROS yes; On-board compute yes; Compute Intel i7 controller (CPU i7 included); optional ZED camera with GPU; Sensors 2D LiDAR pack (276°), RGBD camera, IMU, Pan-tilt-zoom camera (optional)
+- Sources: https://robotnik.eu/products/mobile-robots/rb-summit/, https://robotnik.eu/wp-content/uploads/2024/09/Robotnik_Datasheet_RB-SUMMIT_2024_EN-1.pdf
 
 ### Robotnik RB-THERON
 
 - id: `robotnik-rb-theron`
 - Page: https://htcrefactor.github.io/robot-catalog/robot.html?id=robotnik-rb-theron
 - Markdown: https://htcrefactor.github.io/robot-catalog/md/robotnik-rb-theron.md
-- Mobile platform · Wheeled · Spain
-- Sources: none recorded
+- Mobile platform · Wheeled · Commercial · Spain
+- Summary: Compact modular indoor AMR for logistics and retail work, carrying 200 kg on a differential-drive base with a 360° safety pack.
+- Specs: Length 717 mm; Width 550 mm; Height 320 mm; Weight 70 kg; Payload 200 kg; Max speed 1.25 m/s (4.5 km/h); Wheels 2; Runtime 8 h; IP rating IP30; Status Commercial; ROS yes; On-board compute yes; Compute Intel i7 controller; Sensors 2x 2D safety laser scanners + safety PLC, RGBD camera, IMU
+- Sources: https://robotnik.eu/products/mobile-robots/rb-theron/, https://robotnik.eu/wp-content/uploads/2024/05/Robotnik_Datasheet_RB-THERON_EN_2024.pdf
 
 ### Robotnik RB-VOGUI+
 
@@ -9787,8 +9807,10 @@
 - id: `yahboom-rosmaster-m1`
 - Page: https://htcrefactor.github.io/robot-catalog/robot.html?id=yahboom-rosmaster-m1
 - Markdown: https://htcrefactor.github.io/robot-catalog/md/yahboom-rosmaster-m1.md
-- Mobile platform · Wheeled · China
-- Sources: none recorded
+- Mobile platform · Wheeled · Commercial · China
+- Summary: Four-wheel Mecanum rover kit for ROS 2 teaching and embodied-AI experiments, sold with or without a compute board.
+- Specs: Wheels 4; Status Commercial; ROS yes; On-board compute yes; Compute Raspberry Pi 5 8GB, D-Robotics RDK X5, Jetson Nano 4GB or Jetson Orin Nano Super 8GB, with a Yahboom STM32 expansion board; Sensors T-MINI Plus 360° 2D LiDAR (optional), 2 MP HD camera on a pan-tilt mount or NUWA depth camera (optional), AI voice module with microphone and speaker, OLED display
+- Sources: https://www.yahboom.store/products/rosmaster-m1, https://www.yahboom.net/study/ROSMASTER-M1
 
 ### Yahboom ROSMASTER M3 Pro
 

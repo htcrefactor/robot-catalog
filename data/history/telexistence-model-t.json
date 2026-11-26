@@ -1,0 +1,58 @@
+{
+ "id": "telexistence-model-t",
+ "name": "Model-T",
+ "manufacturer": "Telexistence",
+ "updated": "2026-11-26",
+ "events": [
+  {
+   "date": "2026-11-26",
+   "type": "updated",
+   "source": "https://tx-inc.com/en/blog/2020/07/21/10624/",
+   "changes": [
+    {
+     "field": "dof",
+     "from": null,
+     "to": 22
+    },
+    {
+     "field": "note",
+     "from": null,
+     "to": "TX release 2020-07-21: 22-DoF body and arms, 50 ms end-to-end video latency with H.265/HEVC, a combined vacuum and two-finger 'Andrea-Yamaura' end effector, trialled at Lawson and FamilyMart stores. TX's own About page states the Model-T was discontinued and its retail automation line moved to TX SCARA (announced November 2021)."
+    },
+    {
+     "field": "official_url",
+     "from": null,
+     "to": "https://tx-inc.com/en/blog/2020/07/21/10624/"
+    },
+    {
+     "field": "release_year",
+     "from": null,
+     "to": 2020
+    },
+    {
+     "field": "sources",
+     "from": [],
+     "to": [
+      "https://tx-inc.com/en/blog/2020/07/21/10624/",
+      "https://tx-inc.com/en/about/"
+     ]
+    },
+    {
+     "field": "status",
+     "from": null,
+     "to": "Discontinued"
+    },
+    {
+     "field": "summary",
+     "from": "",
+     "to": "Semi-autonomous shelf-stocking robot for convenience stores, driven remotely from a VR cockpit over a low-latency video link."
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "official"
+    }
+   ]
+  }
+ ]
+}

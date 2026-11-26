@@ -1,0 +1,84 @@
+{
+ "id": "enabled-robotics-er-max-600",
+ "name": "ER-MAX 600",
+ "manufacturer": "Enabled Robotics",
+ "updated": "2026-11-26",
+ "events": [
+  {
+   "date": "2026-11-26",
+   "type": "updated",
+   "source": "https://www.enabled-robotics.com/er-max",
+   "changes": [
+    {
+     "field": "api_support",
+     "from": null,
+     "to": true
+    },
+    {
+     "field": "ip_rating",
+     "from": null,
+     "to": "IP52"
+    },
+    {
+     "field": "length_mm",
+     "from": null,
+     "to": 1350
+    },
+    {
+     "field": "note",
+     "from": "BUYL lists ER-MAX 600 in two arm configurations (600-20, 25 kg and 600-30, 35 kg payload); added as one record. Skeleton - maker values not checked.",
+     "to": "Maker: the base carries up to 380 kg and the front module up to 411 kg, with a 1,350 x 910 mm footprint; the arm adds 25 kg (UR20) or 35 kg (UR30); the total system is IP52, the arm and module IP54; REST and OPC-UA interfaces; ER-ABILITY software for programming and QR/barcode reading. Sold as ER-MAX 600-20 (UR20) and ER-MAX 600-30 (UR30). The maker states no travel speed or system weight on its own pages, and the 460 kg / 2 m/s that a reseller lists are not copied."
+    },
+    {
+     "field": "official_url",
+     "from": null,
+     "to": "https://www.enabled-robotics.com/er-max"
+    },
+    {
+     "field": "payload_kg",
+     "from": null,
+     "to": 380
+    },
+    {
+     "field": "sensors",
+     "from": [],
+     "to": [
+      "Proximity sensors scanning the floor",
+      "360° safety laser scanners",
+      "3D cameras (1.8 m height / 1.2 m distance)",
+      "Force sensors stopping the arm"
+     ]
+    },
+    {
+     "field": "sources",
+     "from": [],
+     "to": [
+      "https://www.enabled-robotics.com/er-max",
+      "https://www.enabled-robotics.com/faq",
+      "https://www.enabled-robotics.com/"
+     ]
+    },
+    {
+     "field": "status",
+     "from": null,
+     "to": "Commercial"
+    },
+    {
+     "field": "summary",
+     "from": "",
+     "to": "Mobile cobot built on the MiR600 base with a Universal Robots UR20 or UR30 arm, for heavy part and pallet handling."
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "official"
+    },
+    {
+     "field": "width_mm",
+     "from": null,
+     "to": 910
+    }
+   ]
+  }
+ ]
+}

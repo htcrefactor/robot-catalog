@@ -1,0 +1,109 @@
+{
+ "id": "zeroth-w1",
+ "name": "W1",
+ "manufacturer": "Zeroth",
+ "updated": "2026-11-26",
+ "events": [
+  {
+   "date": "2026-11-26",
+   "type": "updated",
+   "source": "https://www.zeroth0.com/products/w1",
+   "changes": [
+    {
+     "field": "battery_wh",
+     "from": null,
+     "to": 360
+    },
+    {
+     "field": "compute_detail",
+     "from": null,
+     "to": "8-core Horizon Sunrise-series SoC, 8 GB RAM, 32 GB storage"
+    },
+    {
+     "field": "height_mm",
+     "from": null,
+     "to": 680
+    },
+    {
+     "field": "length_mm",
+     "from": null,
+     "to": 578
+    },
+    {
+     "field": "locomotion",
+     "from": "Wheeled",
+     "to": "Tracked"
+    },
+    {
+     "field": "max_speed_mps",
+     "from": null,
+     "to": 1.0
+    },
+    {
+     "field": "note",
+     "from": null,
+     "to": "Zeroth product page: 578 x 520 x 680 mm, 28 kg with battery, 20 kg load capacity (50 kg traction), 0.1–1 m/s on flat ground and 0.5 m/s on slopes, 5 cm obstacle height, 20° climbing angle, 360 Wh pack with 140 W charging in 4 h, 25 h standby. The maker states a standby time rather than an operating runtime, so runtime_h stays empty. Locomotion is a pair of tracks, corrected from Wheeled."
+    },
+    {
+     "field": "official_url",
+     "from": null,
+     "to": "https://www.zeroth0.com/products/w1"
+    },
+    {
+     "field": "onboard_compute",
+     "from": null,
+     "to": true
+    },
+    {
+     "field": "payload_kg",
+     "from": null,
+     "to": 20
+    },
+    {
+     "field": "sensors",
+     "from": [],
+     "to": [
+      "13 MP RGB camera",
+      "2 MP monitoring camera",
+      "RGB-D depth camera",
+      "Ultrasonic sensor",
+      "Human infrared (PIR) sensor",
+      "GNSS (GPS / BeiDou)"
+     ]
+    },
+    {
+     "field": "sources",
+     "from": [],
+     "to": [
+      "https://www.zeroth0.com/products/w1"
+     ]
+    },
+    {
+     "field": "status",
+     "from": null,
+     "to": "Commercial"
+    },
+    {
+     "field": "summary",
+     "from": "",
+     "to": "Tracked outdoor companion robot that follows its owner, carries gear and doubles as a patrol camera and a portable power bank."
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "official"
+    },
+    {
+     "field": "weight_kg",
+     "from": null,
+     "to": 28
+    },
+    {
+     "field": "width_mm",
+     "from": null,
+     "to": 520
+    }
+   ]
+  }
+ ]
+}

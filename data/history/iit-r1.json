@@ -1,0 +1,133 @@
+{
+ "id": "iit-r1",
+ "name": "R1",
+ "manufacturer": "Istituto Italiano di Tecnologia (IIT)",
+ "updated": "2026-11-26",
+ "events": [
+  {
+   "date": "2026-11-26",
+   "type": "updated",
+   "source": "https://icub.iit.it/products/product-catalog",
+   "changes": [
+    {
+     "field": "compute_detail",
+     "from": null,
+     "to": "Two Intel i7 Nano-ITX units and a Xilinx Zynq board"
+    },
+    {
+     "field": "dof",
+     "from": null,
+     "to": 28
+    },
+    {
+     "field": "height_mm",
+     "from": null,
+     "to": 1200
+    },
+    {
+     "field": "locomotion",
+     "from": "Legged",
+     "to": "Wheeled"
+    },
+    {
+     "field": "max_speed_mps",
+     "from": null,
+     "to": 0.6
+    },
+    {
+     "field": "note",
+     "from": null,
+     "to": "IIT R1 technical specification (rev 1, 2019): 1.2 m tall with a torso adjustable from 1.15 m to 1.35 m, 51 kg with batteries, 400 x 350 mm footprint plus three castor wheels, two driving wheels with a 0.6 m/s software limit, two 8-DoF arms with a 1 kg target payload at 0.6 m, two 4-DoF hands, three hours of operation, YARP open-source APIs. The 28 DoF total (16 arms, 4 torso, 2 head, 2 wheels, 2 x 2 hand actuation) is the count IIT's own design paper publishes."
+    },
+    {
+     "field": "official_url",
+     "from": null,
+     "to": "https://icub.iit.it/products/product-catalog"
+    },
+    {
+     "field": "onboard_compute",
+     "from": null,
+     "to": true
+    },
+    {
+     "field": "payload_kg",
+     "from": null,
+     "to": 1
+    },
+    {
+     "field": "runtime_h",
+     "from": null,
+     "to": 3
+    },
+    {
+     "field": "sdk",
+     "from": null,
+     "to": {
+      "languages": [
+       "C++",
+       "Python"
+      ],
+      "open_source": true,
+      "url": "http://wiki.icub.org/yarp/"
+     }
+    },
+    {
+     "field": "sdk_available",
+     "from": null,
+     "to": true
+    },
+    {
+     "field": "sdk_name",
+     "from": null,
+     "to": "YARP (open source); ROS through dedicated protocols"
+    },
+    {
+     "field": "sensors",
+     "from": [],
+     "to": [
+      "Xtion Pro Live RGB-D",
+      "Twin stereo camera module",
+      "RPLIDAR laser scanner in the base",
+      "2x 6-axis force/torque sensors in the arms",
+      "Tactile skin on hands and forearms",
+      "RGB LED face display",
+      "2 microphones and a loudspeaker"
+     ]
+    },
+    {
+     "field": "sources",
+     "from": [],
+     "to": [
+      "https://icub.iit.it/products/product-catalog",
+      "https://icub.iit.it/documents/175012/528824/Technical_Specification_R1_20200531.pdf/89e31921-f77f-96ea-b196-d89b35aba5b8"
+     ]
+    },
+    {
+     "field": "status",
+     "from": null,
+     "to": "Research"
+    },
+    {
+     "field": "summary",
+     "from": "",
+     "to": "Wheeled personal humanoid for domestic and professional service research, with two 8-DoF arms and an extensible torso."
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "official"
+    },
+    {
+     "field": "weight_kg",
+     "from": null,
+     "to": 51
+    },
+    {
+     "field": "wheel_count",
+     "from": null,
+     "to": 2
+    }
+   ]
+  }
+ ]
+}

@@ -177,4 +177,4 @@ Checked 2026-11-19 against the KUKA AMR brochure: 1,000x750x353 mm, 246 kg, 600 
 
 ---
 
-*Robot Catalog — generated from data/robots.json (last merged 2026-11-22). Source repository: https://github.com/htcrefactor/robot-catalog*
+*Robot Catalog — generated from data/robots.json (last merged 2026-11-26). Source repository: https://github.com/htcrefactor/robot-catalog*
