@@ -90,4 +90,4 @@ Maker site: 170 cm resting at about 4 ft with arms reaching 7 ft (about 210 cm),
 
 ---
 
-*Robot Catalog — generated from data/robots.json (last merged 2026-11-22). Source repository: https://github.com/htcrefactor/robot-catalog*
+*Robot Catalog — generated from data/robots.json (last merged 2026-11-26). Source repository: https://github.com/htcrefactor/robot-catalog*
