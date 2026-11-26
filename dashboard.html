@@ -53,8 +53,12 @@ options:{indexAxis:"y",maintainAspectRatio:false,scales:{x:{stacked:true,ticks:{
 // data completeness: share of core fields published, stacked by category
 const CB=[[0,20],[20,40],[40,60],[60,80],[80,100]];const clb=CB.map(([a,b])=>`${a}–${b}%`);
 const cp=R.map(r=>({r:r,c:completeness(r).pct}));const cb=cp.filter(x=>x.r.category);
-const cca=[...new Set(R.map(r=>r.category))];const cavg=cb.length?Math.round(cb.reduce((s,x)=>s+x.c,0)/cb.length):0;
-document.getElementById("cplN").textContent=t("cpl_sub_n",{p:cavg,b:cb.length});
+const cca=[...new Set(R.map(r=>r.category))];
+// Headline: the median robot, not the catalogue mean, which a few well-filled records pull up;
+// plus the share of robots that publish 60% or more, the top two bins of the chart below.
+const cs=cb.map(x=>x.c).sort((a,b)=>a-b);const cmed=cs.length?(cs[(cs.length-1)>>1]+cs[cs.length>>1])/2:0;
+const c60=cb.filter(x=>x.c>=60).length;const c60p=cb.length?Math.round(100*c60/cb.length):0;
+document.getElementById("cplN").textContent=t("cpl_sub_n",{m:cmed,a:c60,p:c60p,b:cb.length});
 const inBin=(x,i)=>{const [a,b]=CB[i];return x.c>=a&&(b===100?x.c<=100:x.c<b)};
 charts.cpl=new Chart(cpl,{type:"bar",data:{labels:clb,datasets:cca.map(ct=>({label:tv(ct),cat:ct,backgroundColor:CAT_COLORS[ct],data:CB.map((_,i)=>cb.filter(x=>x.r.category===ct&&inBin(x,i)).length)}))},
 options:{maintainAspectRatio:false,scales:{x:{stacked:true,title:{display:true,text:t("cpl_bins")}},y:{stacked:true,ticks:{precision:0},title:{display:true,text:t("robots")}}},plugins:{tooltip:{callbacks:{afterBody:(it)=>{const i=it[0].dataIndex;const list=cb.filter(x=>x.r.category===it[0].dataset.cat&&inBin(x,i));return list.slice(0,12).map(x=>`${label(x.r)}: ${x.c}%`).concat(list.length>12?[`+${list.length-12}`]:[])}}}}}});
