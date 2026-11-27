@@ -1,0 +1,106 @@
+{
+ "id": "ubtech-cadebot",
+ "name": "CadeBot",
+ "manufacturer": "UBTECH Robotics",
+ "updated": "2026-11-27",
+ "events": [
+  {
+   "date": "2026-11-27",
+   "type": "updated",
+   "source": "https://www.ubtrobot.com/en/commercial/products/cadebot",
+   "changes": [
+    {
+     "field": "battery_wh",
+     "from": null,
+     "to": 512
+    },
+    {
+     "field": "height_mm",
+     "from": null,
+     "to": 1265
+    },
+    {
+     "field": "length_mm",
+     "from": null,
+     "to": 550
+    },
+    {
+     "field": "max_speed_mps",
+     "from": null,
+     "to": 0.8
+    },
+    {
+     "field": "min_speed_mps",
+     "from": null,
+     "to": 0.0
+    },
+    {
+     "field": "note",
+     "from": null,
+     "to": "Maker's own pages (checked 2026-11-27) give the service modes, the 6-mic array with 5 m pickup, front-to-back LiDAR with RGB-D and ultrasonic sensing, infrared tray detection, 21.5-inch ad screen, and up to 8 h of continuous operation with automatic recharging. Dimensions, 55 kg weight, 40 kg total load and 0-0.8 m/s travel are stated in UBTECH's CADEBOT user manual for CADEBOT L100 (model XCAD101); 512 Wh is derived from that manual's 25.6 V 20 Ah pack. 4 trays at 10 kg each. The maker publishes no price."
+    },
+    {
+     "field": "official_url",
+     "from": null,
+     "to": "https://www.ubtrobot.com/en/commercial/products/cadebot"
+    },
+    {
+     "field": "payload_kg",
+     "from": null,
+     "to": 40
+    },
+    {
+     "field": "runtime_h",
+     "from": null,
+     "to": 8
+    },
+    {
+     "field": "sensors",
+     "from": [],
+     "to": [
+      "Front and rear LiDAR",
+      "RGB-D depth cameras",
+      "Ultrasonic sensors",
+      "Infrared tray sensors",
+      "Front camera",
+      "Top camera"
+     ]
+    },
+    {
+     "field": "sources",
+     "from": [],
+     "to": [
+      "https://www.ubtrobot.com/en/commercial/products/cadebot",
+      "http://www.commercial.ubtrobot.com/zh_cn/products/ubtech-cadebot-l100-open-food-delivery-robot-parameters.html",
+      "https://www.troysupply.com/static/docs/downloads/cadebot_User-Manual.pdf"
+     ]
+    },
+    {
+     "field": "status",
+     "from": null,
+     "to": "Commercial"
+    },
+    {
+     "field": "summary",
+     "from": "",
+     "to": "Open-tray restaurant delivery robot with a 21.5-inch advertising display, laser-and-vision fused SLAM and a 6-microphone array."
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "official"
+    },
+    {
+     "field": "weight_kg",
+     "from": null,
+     "to": 55
+    },
+    {
+     "field": "width_mm",
+     "from": null,
+     "to": 485
+    }
+   ]
+  }
+ ]
+}

@@ -167,4 +167,4 @@ Maker Atlas spec sheet (Rev 10/15/2026, bostondynamics.com/wp-content/uploads/20
 
 ---
 
-*Robot Catalog — generated from data/robots.json (last merged 2026-11-22). Source repository: https://github.com/htcrefactor/robot-catalog*
+*Robot Catalog — generated from data/robots.json (last merged 2026-11-27). Source repository: https://github.com/htcrefactor/robot-catalog*

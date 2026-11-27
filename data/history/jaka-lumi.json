@@ -1,0 +1,97 @@
+{
+ "id": "jaka-lumi",
+ "name": "Lumi",
+ "manufacturer": "JAKA Robotics",
+ "updated": "2026-11-27",
+ "events": [
+  {
+   "date": "2026-11-27",
+   "type": "updated",
+   "source": "https://www.jaka.com/en/productDetails/JAKA_Lumi",
+   "changes": [
+    {
+     "field": "api_support",
+     "from": null,
+     "to": true
+    },
+    {
+     "field": "dof",
+     "from": null,
+     "to": 12
+    },
+    {
+     "field": "height_mm",
+     "from": null,
+     "to": 1460
+    },
+    {
+     "field": "ip_rating",
+     "from": null,
+     "to": "IP20"
+    },
+    {
+     "field": "length_mm",
+     "from": null,
+     "to": 510
+    },
+    {
+     "field": "note",
+     "from": null,
+     "to": "Maker (checked 2026-11-27): 510 x 510 x 1460-1860 mm, where height_mm records the retracted figure and the waist lifts 0-400 mm; 95.6 kg, 12 DoF in total (a 6-axis arm plus +/-160 deg waist and +/-180 deg / -5 to 35 deg neck joints), 2 kg arm payload, 800 W at 48 V DC, IP20 control cabinet, TCP/IP, Modbus TCP/RTU, PROFINET and EtherNet/IP, 7 configurable I/O ports, MuJoCo and NVIDIA Isaac Sim support, and open SDK interfaces over TCP/IP and USB (api_support). Perception is a chassis LiDAR, a 3D vision camera and ultrasonic obstacle avoidance. Maker states the platform is sold in China now with international sales pending certification. Travel speed and battery capacity are not published; no price."
+    },
+    {
+     "field": "official_url",
+     "from": null,
+     "to": "https://www.jaka.com/en/productDetails/JAKA_Lumi"
+    },
+    {
+     "field": "payload_kg",
+     "from": null,
+     "to": 2
+    },
+    {
+     "field": "sensors",
+     "from": [],
+     "to": [
+      "LiDAR on the chassis",
+      "3D vision camera",
+      "Ultrasonic obstacle avoidance"
+     ]
+    },
+    {
+     "field": "sources",
+     "from": [],
+     "to": [
+      "https://www.jaka.com/en/productDetails/JAKA_Lumi",
+      "https://www.jaka.com/en/newsDetail/632"
+     ]
+    },
+    {
+     "field": "status",
+     "from": null,
+     "to": "Commercial"
+    },
+    {
+     "field": "summary",
+     "from": "",
+     "to": "Wheeled embodied-AI training platform: a differential AMR base with a lifting, rotating waist, a rotating neck and a 6-axis 2 kg arm."
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "official"
+    },
+    {
+     "field": "weight_kg",
+     "from": null,
+     "to": 95.6
+    },
+    {
+     "field": "width_mm",
+     "from": null,
+     "to": 510
+    }
+   ]
+  }
+ ]
+}

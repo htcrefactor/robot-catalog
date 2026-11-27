@@ -79,4 +79,4 @@ Maker page foundation.bot/phantom: 5 ft 11 in (1.8 m), 176 lb (80 kg), 29 DoF, 1
 
 ---
 
-*Robot Catalog — generated from data/robots.json (last merged 2026-11-22). Source repository: https://github.com/htcrefactor/robot-catalog*
+*Robot Catalog — generated from data/robots.json (last merged 2026-11-27). Source repository: https://github.com/htcrefactor/robot-catalog*

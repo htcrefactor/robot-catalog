@@ -1,0 +1,106 @@
+{
+ "id": "orionstar-luckibot-pro",
+ "name": "LuckiBot Pro",
+ "manufacturer": "OrionStar",
+ "updated": "2026-11-27",
+ "events": [
+  {
+   "date": "2026-11-27",
+   "type": "updated",
+   "source": "https://en.orionstar.com/lucki-pro.html",
+   "changes": [
+    {
+     "field": "battery_wh",
+     "from": null,
+     "to": 621
+    },
+    {
+     "field": "height_mm",
+     "from": null,
+     "to": 1375
+    },
+    {
+     "field": "length_mm",
+     "from": null,
+     "to": 558
+    },
+    {
+     "field": "max_speed_mps",
+     "from": null,
+     "to": 1.2
+    },
+    {
+     "field": "min_speed_mps",
+     "from": null,
+     "to": 0.5
+    },
+    {
+     "field": "note",
+     "from": null,
+     "to": "Maker (checked 2026-11-27): 558 x 525 x 1375 mm, 59 kg, 3 or 4 trays of 500 x 420 mm, 15 kg per tray and 60 kg in total, 0.5-1.2 m/s adjustable, 12 h typical cruising, 4.5 h charge when switched off, 14-inch 1080p screen, Android 9.0 RobotOS on a Qualcomm 8-core chip with 8 GB RAM and 64 GB storage, centimetre-level positioning, 6-mic array, 4G and Wi-Fi 2.4/5 GHz. 621 Wh is derived from the maker's comparison page figure of 24.3 Ah at 25.55 V. The Chinese page states 16 h of operation for the same model, so the English page's 12 h is recorded. No price published."
+    },
+    {
+     "field": "official_url",
+     "from": null,
+     "to": "https://en.orionstar.com/lucki-pro.html"
+    },
+    {
+     "field": "payload_kg",
+     "from": null,
+     "to": 60
+    },
+    {
+     "field": "runtime_h",
+     "from": null,
+     "to": 12
+    },
+    {
+     "field": "sensors",
+     "from": [],
+     "to": [
+      "LiDAR x1",
+      "Depth vision camera x3",
+      "Fisheye camera x2",
+      "Infrared camera x2",
+      "Odometer",
+      "IMU x1"
+     ]
+    },
+    {
+     "field": "sources",
+     "from": [],
+     "to": [
+      "https://en.orionstar.com/lucki-pro.html",
+      "https://en.orionstar.com/pro_compare.html",
+      "https://www.orionstar.com/lucki-pro.html"
+     ]
+    },
+    {
+     "field": "status",
+     "from": null,
+     "to": "Commercial"
+    },
+    {
+     "field": "summary",
+     "from": "",
+     "to": "Marketing delivery robot with a 14-inch screen, visual SLAM with 3D obstacle sensing, and 3-4 adjustable trays."
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "official"
+    },
+    {
+     "field": "weight_kg",
+     "from": null,
+     "to": 59
+    },
+    {
+     "field": "width_mm",
+     "from": null,
+     "to": 525
+    }
+   ]
+  }
+ ]
+}
