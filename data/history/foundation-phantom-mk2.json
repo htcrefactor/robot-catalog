@@ -1,0 +1,75 @@
+{
+ "id": "foundation-phantom-mk2",
+ "name": "Phantom MK-2",
+ "manufacturer": "Foundation",
+ "updated": "2026-11-27",
+ "events": [
+  {
+   "date": "2026-11-27",
+   "type": "updated",
+   "source": "https://foundation.bot/phantom",
+   "changes": [
+    {
+     "field": "battery_wh",
+     "from": null,
+     "to": 3000
+    },
+    {
+     "field": "dof",
+     "from": null,
+     "to": 29
+    },
+    {
+     "field": "ip_rating",
+     "from": null,
+     "to": "IP67"
+    },
+    {
+     "field": "note",
+     "from": "Maker page foundation.bot/phantom: 5 ft 11 in (1.8 m), 176 lb (80 kg), 29 DoF, 1.7 m/s, payload capacity 88.2 lb (40 kg) - the same block also prints a stray '40l (20kg)' string, so the payload figure is uncertain between 40 and 20 kg and the page does not label which generation it describes. Actuators are cycloid units with 160 N.m peak torque, <1.0 N.m back-driving torque, <10 ms response, 48 V/72 V options. Status kept at Announced because the maker's own page calls Phantom its first production robot while press reporting dates MK-2 to April 2026; runtime is not published on the page.",
+     "to": "Maker's Phantom page (checked 2026-11-27) now names the generation: the press kit is headed 'Phantom MKII and Cortex II', and the page lists 6.0 ft (1830 mm), 195 lb (88.5 kg), a 200 lb / 90 kg close-carry payload, 4-6 h runtime (runtime_h is the lower end), 29 DoF, a 3 kWh battery, IP67, and modular joints that swap in the field. Height and weight are published in feet and pounds, so the metric values are conversions. The maker states specifications describe shipping capability and are subject to change, with production planned for 2027; no price, unit count or customer is published. The payload is a close-carry rating and has no independent test."
+    },
+    {
+     "field": "payload_kg",
+     "from": 40,
+     "to": 90
+    },
+    {
+     "field": "runtime_h",
+     "from": null,
+     "to": 4
+    },
+    {
+     "field": "sources",
+     "from": [
+      "https://foundation.bot/phantom"
+     ],
+     "to": [
+      "https://foundation.bot/phantom",
+      "https://foundation.bot/press"
+     ]
+    },
+    {
+     "field": "status",
+     "from": "Announced",
+     "to": "In development"
+    },
+    {
+     "field": "summary",
+     "from": "Foundation's production Phantom humanoid: a 1.8 m, 29-DoF electric biped with proprietary cycloid actuators, built for factories and dual-use defence work.",
+     "to": "Foundation's Phantom MKII: a 1.83 m, 88.5 kg biped rated to carry 200 lb (90 kg) through factories, mines, ports and the frontlines."
+    },
+    {
+     "field": "verification",
+     "from": "unconfirmed",
+     "to": "official"
+    },
+    {
+     "field": "weight_kg",
+     "from": 90,
+     "to": 88.5
+    }
+   ]
+  }
+ ]
+}

@@ -1,11 +1,11 @@
 # Robot Catalog — full catalog
 
-> Every robot in Robot Catalog (1004) with its core specs and sources, in one file. Values are as the maker publishes them; fields the maker does not publish are left out rather than estimated.
+> Every robot in Robot Catalog (1006) with its core specs and sources, in one file. Values are as the maker publishes them; fields the maker does not publish are left out rather than estimated.
 
 - Canonical site: https://htcrefactor.github.io/robot-catalog/
 - Index for agents: https://htcrefactor.github.io/robot-catalog/llms.txt
 - Per-robot Markdown with the full spec sheet and a source on every value: https://htcrefactor.github.io/robot-catalog/md/<id>.md
-- Generated from data/robots.json, last merged 2026-11-22. No scoring, no ranking.
+- Generated from data/robots.json, last merged 2026-11-27. No scoring, no ranking.
 
 ## AMR (96)
 
@@ -1105,7 +1105,7 @@
 - Specs: Length 1,620 mm; Width 800 mm; Height 1,830 mm; Weight 520 kg; Payload 2,000 kg; Max speed 1.8 m/s (6.5 km/h); Released 2023; Status Commercial
 - Sources: https://www.visionnav.com/product/detail/VNST20-Pallet-Stacker-AGV, https://www.visionnav.com/news/detail/detail298.html
 
-## Humanoid (565)
+## Humanoid (566)
 
 ### 1X Technologies EVE
 
@@ -2644,10 +2644,10 @@
 - id: `foundation-phantom-mk2`
 - Page: https://htcrefactor.github.io/robot-catalog/robot.html?id=foundation-phantom-mk2
 - Markdown: https://htcrefactor.github.io/robot-catalog/md/foundation-phantom-mk2.md
-- Humanoid · Legged · Announced · United States
-- Summary: Foundation's production Phantom humanoid: a 1.8 m, 29-DoF electric biped with proprietary cycloid actuators, built for factories and dual-use defence work.
-- Specs: Height 1,830 mm; Weight 90 kg; Payload 40 kg; Status Announced
-- Sources: https://foundation.bot/phantom
+- Humanoid · Legged · In development · United States
+- Summary: Foundation's Phantom MKII: a 1.83 m, 88.5 kg biped rated to carry 200 lb (90 kg) through factories, mines, ports and the frontlines.
+- Specs: Height 1,830 mm; Weight 88.5 kg; Payload 90 kg; Degrees of freedom 29; Runtime 4 h; Battery 3,000 Wh; IP rating IP67; Status In development
+- Sources: https://foundation.bot/phantom, https://foundation.bot/press
 
 ### Foundation Phantom MK1
 
@@ -5311,6 +5311,16 @@
 - Specs: Length 670 mm; Width 548 mm; Height 1,560 mm; Weight 165 kg; Payload 6 kg; Max speed 1.5 m/s (5.4 km/h); Degrees of freedom 18; Runtime 4.5 h; Battery 1,650 Wh; Status Commercial; SDK yes; On-board compute NVIDIA Jetson Orin NX 16GB (standard) / NVIDIA DRIVE Thor-U (Pro); Sensors Head RGBD camera + 3x fisheye cameras, 2x wrist RGBD cameras, 2x LiDAR, 8x ultrasonic sensors, IMU
 - Sources: https://www.simplexityrobotics.com/products/i7-pro, https://www.simplexityrobotics.com/solutions
 
+### Simplexity Robotics iX
+
+- id: `simplexity-ix`
+- Page: https://htcrefactor.github.io/robot-catalog/robot.html?id=simplexity-ix
+- Markdown: https://htcrefactor.github.io/robot-catalog/md/simplexity-ix.md
+- Humanoid · Wheeled · In development · China · released 2026
+- Summary: Wheeled humanoid for lobbies and public service work: 24 active DoF, a 540 mm lifting waist, two 7-DoF force-controlled arms and a four-wheel-steering base.
+- Specs: Length 670 mm; Width 548 mm; Height 1,060 mm; Weight 160 kg; Payload 3 kg; Max speed 1.5 m/s (5.4 km/h); Degrees of freedom 24; Runtime 4.5 h; Battery 1,650 Wh; Released 2026; Status In development; SDK yes; On-board compute NVIDIA Jetson Orin NX 16GB 157 TOPS (standard) / NVIDIA Thor 64GB 730 TOPS (Pro); Sensors Head: 1 wide-angle camera + 3 fisheye cameras, Chest RGBD camera, 2 wrist wide-angle cameras, LiDAR x2, 8 ultrasonic sensors, IMU
+- Sources: https://www.simplexityrobotics.com/products/ix, https://www.simplexityrobotics.com/
+
 ### Sinovai Robotics Xiaoxin
 
 - id: `sinovai-xiaoxin`
@@ -6665,7 +6675,7 @@
 - Summary: Wheeled humanoid for factory sorting, picking, handling and precision sub-assembly work.
 - Sources: https://www.zoomlion.com/content/details20_34088.html
 
-## Quadruped (161)
+## Quadruped (162)
 
 ### Addverb Technologies Trakr 20
 
@@ -6826,6 +6836,16 @@
 - Summary: ATEX Zone 1/2 explosion-protected version of ANYmal for autonomous inspection in oil, gas and chemical plants.
 - Specs: Runtime 3 h; IP rating IP65; Released 2026; Status Pilot; API yes; Sensors Zoom camera, Thermal camera (640x512 radiometric), Acoustic imager, Microphone, Gas sensing module (optional)
 - Sources: https://www.anybotics.com/robotics/anymal-x/
+
+### Astrall Dynamics Hypertron-SW01
+
+- id: `astrall-dynamics-hypertron-sw01`
+- Page: https://htcrefactor.github.io/robot-catalog/robot.html?id=astrall-dynamics-hypertron-sw01
+- Markdown: https://htcrefactor.github.io/robot-catalog/md/astrall-dynamics-hypertron-sw01.md
+- Quadruped · Legged · Commercial · China
+- Summary: Mid-sized quadruped for inspection, patrol and firefighting duty that carries 40 kg over all-terrain ground and runs on hot-swappable batteries.
+- Specs: Length 929 mm; Width 556 mm; Height 656 mm; Weight 50 kg; Payload 40 kg; Max speed 8 m/s (28.8 km/h); Runtime 6 h; Battery 2,166 Wh; IP rating IP67; Status Commercial; SDK yes; On-board compute yes; Compute Industrial-grade 8-core processor, 16 GB RAM / 64 GB storage; Sensors Solid-state LiDAR x1 (120 deg H x 90 deg V, 30 m), RGB camera 1600 x 1296, 9-axis IMU
+- Sources: https://www.astralldynamics.com/en-US/product/1006.html, https://www.astralldynamics.com/product/6.html
 
 ### Astrall Dynamics Hypertron-T01
 

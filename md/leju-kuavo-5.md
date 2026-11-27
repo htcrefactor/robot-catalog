@@ -94,4 +94,4 @@ Maker (checked 2026-11-17): 607 x 270 x 1730 mm, 63.5 kg, 41 DoF in the dexterou
 
 ---
 
-*Robot Catalog — generated from data/robots.json (last merged 2026-11-22). Source repository: https://github.com/htcrefactor/robot-catalog*
+*Robot Catalog — generated from data/robots.json (last merged 2026-11-27). Source repository: https://github.com/htcrefactor/robot-catalog*

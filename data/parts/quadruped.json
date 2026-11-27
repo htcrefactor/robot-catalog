@@ -8505,5 +8505,55 @@
    "https://botupyourlife.com/en/robots/ogadjet-xgo-duck/"
   ],
   "verification": null
+ },
+ {
+  "id": "astrall-dynamics-hypertron-sw01",
+  "name": "Hypertron-SW01",
+  "manufacturer": "Astrall Dynamics",
+  "country": "China",
+  "category": "Quadruped",
+  "locomotion": "Legged",
+  "release_year": null,
+  "status": "Commercial",
+  "length_mm": 929,
+  "width_mm": 556,
+  "height_mm": 656,
+  "weight_kg": 50,
+  "payload_kg": 40,
+  "max_speed_mps": 8,
+  "min_speed_mps": null,
+  "wheel_diameter_mm": null,
+  "wheel_count": null,
+  "dof": null,
+  "runtime_h": 6,
+  "battery_wh": 2166,
+  "ip_rating": "IP67",
+  "api_support": null,
+  "sdk_available": true,
+  "sdk_name": null,
+  "onboard_compute": true,
+  "compute_detail": "Industrial-grade 8-core processor, 16 GB RAM / 64 GB storage",
+  "ros_support": null,
+  "sensors": [
+   "Solid-state LiDAR x1 (120 deg H x 90 deg V, 30 m)",
+   "RGB camera 1600 x 1296",
+   "9-axis IMU"
+  ],
+  "price_usd": null,
+  "price_note": null,
+  "official_url": "https://www.astralldynamics.com/en-US/product/1006.html",
+  "sources": [
+   "https://www.astralldynamics.com/en-US/product/1006.html",
+   "https://www.astralldynamics.com/product/6.html"
+  ],
+  "summary": "Mid-sized quadruped for inspection, patrol and firefighting duty that carries 40 kg over all-terrain ground and runs on hot-swappable batteries.",
+  "image_url": null,
+  "image_source": null,
+  "videos": [],
+  "seen_on": [
+   "https://embodied.guide/robots/astrall-dynamics-hypertron-sw01/"
+  ],
+  "verification": "official",
+  "note": "Maker spec table (Shenzhen Astrall/璇玑动力, checked 2026-11-27): standing 929 x 556 x 656 mm, about 50 kg with battery, 40 kg all-terrain dynamic payload, 50 kg continuous walking payload, 120 kg short-term static standing load, 6 h no-load and 3 h with a 40 kg load, dual hot-swappable 57.6 V 18.8 Ah packs (battery_wh 2166 derived as 2 x 57.6 V x 18.8 Ah), IP67, -20 to 55 C, 25 cm continuous stair steps, 2 h fast charge to 80 %, industrial 8-core compute with 16 GB RAM and 64 GB storage, solid-state LiDAR 120 x 90 deg at 30 m, 1600 x 1296 RGB camera, 9-axis IMU, gigabit Ethernet x2 and 48 V / 240 W expansion power, open SDK. The maker's own footnotes limit the headline figures: 8 m/s is a laboratory peak and the shipping robot is capped at 1 m/s in all-terrain mode and 5-6 m/s in low-centre-of-gravity mode; 45 deg climb and 100 cm obstacle clearing are laboratory limits with 30 deg recommended; 240 N.m is a momentary peak. No price. Unlike its wheel-legged sibling T01 this one walks on feet only, so locomotion is Legged."
  }
 ]

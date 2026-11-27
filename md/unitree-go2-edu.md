@@ -213,4 +213,4 @@ Unitree Go2 page comparison table (EDU column, checked 2026-11-17): 70 x 31 x 40
 
 ---
 
-*Robot Catalog — generated from data/robots.json (last merged 2026-11-22). Source repository: https://github.com/htcrefactor/robot-catalog*
+*Robot Catalog — generated from data/robots.json (last merged 2026-11-27). Source repository: https://github.com/htcrefactor/robot-catalog*
