@@ -2819,7 +2819,8 @@
   "seen_on": [
    "https://botupyourlife.com/en/robots/kompai-rf1/"
   ],
-  "verification": null
+  "verification": "unconfirmed",
+  "note": "Checked 2026-11-27: the maker's site no longer serves a product page - kompai.com resets the connection and www.kompai.com returns HTTP 500 - so no maker specification could be read and nothing was filled. The record keeps only what the listing that named it says. A maker page or datasheet is needed before any field is set."
  },
  {
   "id": "yahboom-rosmaster-m3-pro",
@@ -2997,7 +2998,7 @@
   "category": "Mobile platform",
   "locomotion": "Wheeled",
   "release_year": null,
-  "status": null,
+  "status": "Commercial",
   "length_mm": null,
   "width_mm": null,
   "height_mm": null,
@@ -3011,25 +3012,43 @@
   "runtime_h": null,
   "battery_wh": null,
   "ip_rating": null,
-  "api_support": null,
-  "sdk_available": null,
-  "sdk_name": null,
+  "api_support": true,
+  "sdk_available": true,
+  "sdk_name": "ROS 2 Humble (Python)",
   "onboard_compute": null,
   "compute_detail": null,
-  "ros_support": null,
-  "sensors": [],
+  "ros_support": true,
+  "sensors": [
+   "YDLIDAR T-mini Plus LiDAR",
+   "3D depth camera (Superior kit) or 2 MP pan-tilt camera (Standard kit)",
+   "AI voice module with microphone and speaker"
+  ],
   "price_usd": null,
   "price_note": null,
-  "official_url": null,
-  "sources": [],
-  "summary": "",
+  "official_url": "https://www.yahboom.store/products/rosmaster-a1",
+  "sources": [
+   "https://www.yahboom.store/products/rosmaster-a1",
+   "https://www.yahboom.net/study/ROSMASTER-A1"
+  ],
+  "summary": "Ackermann-steering ROS 2 education rover with LiDAR, an optional depth camera and a large-model voice module on a Raspberry Pi 5 or Jetson board.",
   "image_url": null,
   "image_source": null,
   "videos": [],
   "seen_on": [
    "https://botupyourlife.com/en/robots/yahboom-rosmaster-a1/"
   ],
-  "verification": null
+  "verification": "official",
+  "note": "Maker's store and tutorial site (checked 2026-11-27): ROS 2 Humble, an Ackermann chassis with metal 520 encoder motors, a T-mini Plus LiDAR, a 3D depth camera in the Superior kit or a 2 MP pan-tilt camera in the Standard kit, an AI voice module, a Yahboom ROS expansion board, and a choice of Raspberry Pi 5 8 GB, Jetson Nano 4 GB or Jetson Orin Nano 8 GB as the main board, with Gazebo and RViz support. The maker publishes its dimension, weight and battery table only as images, so those fields stay empty; it states no travel speed. The dated price is the maker's own store listing for the Standard kit without a main board, which the store shows next to the same kit priced with each board.",
+  "price_observations": [
+   {
+    "date": "2026-11-27",
+    "amount": 339.9,
+    "currency": "USD",
+    "kind": "from",
+    "source": "https://www.yahboom.store/products/rosmaster-a1",
+    "note": "Standard kit without a main board; the store prices the same kit higher with a Raspberry Pi 5 8 GB, Jetson Nano 4 GB or Jetson Orin Nano board, and the Superior and Ultimate kits separately"
+   }
+  ]
  },
  {
   "id": "irobot-create-3",

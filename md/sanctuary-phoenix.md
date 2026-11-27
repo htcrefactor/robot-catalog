@@ -83,4 +83,4 @@ Maker release 2023-05-16: 5 ft 7 in (170 cm), 155 lb (70.3 kg), maximum payload 
 
 ---
 
-*Robot Catalog — generated from data/robots.json (last merged 2026-11-22). Source repository: https://github.com/htcrefactor/robot-catalog*
+*Robot Catalog — generated from data/robots.json (last merged 2026-11-27). Source repository: https://github.com/htcrefactor/robot-catalog*

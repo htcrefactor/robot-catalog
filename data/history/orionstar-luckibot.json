@@ -1,0 +1,103 @@
+{
+ "id": "orionstar-luckibot",
+ "name": "LuckiBot",
+ "manufacturer": "OrionStar",
+ "updated": "2026-11-27",
+ "events": [
+  {
+   "date": "2026-11-27",
+   "type": "updated",
+   "source": "https://en.orionstar.com/lucki.html",
+   "changes": [
+    {
+     "field": "battery_wh",
+     "from": null,
+     "to": 382
+    },
+    {
+     "field": "height_mm",
+     "from": null,
+     "to": 1320
+    },
+    {
+     "field": "length_mm",
+     "from": null,
+     "to": 530
+    },
+    {
+     "field": "max_speed_mps",
+     "from": null,
+     "to": 1.2
+    },
+    {
+     "field": "min_speed_mps",
+     "from": null,
+     "to": 0.5
+    },
+    {
+     "field": "note",
+     "from": null,
+     "to": "Maker (checked 2026-11-27): 530 x 500 x 1320 mm, 39 kg, upper trays 500 x 430 mm and bottom tray 480 x 400 mm with 210/210/280 mm clearances, 10 kg per tray and 40 kg in total, 0.5-1.2 m/s adjustable, 10 h typical cruising, 4.5 h charge when off, 10.1-inch 1200x1920 touch screen, Android 9.0 RobotOS, centimetre-level positioning, 6-mic array, 4G and Wi-Fi. 382 Wh is derived from the comparison page's 15.15 Ah at 25.2 V. This is the first-generation LuckiBot that LuckiBot Pro supersedes. No price published."
+    },
+    {
+     "field": "official_url",
+     "from": null,
+     "to": "https://en.orionstar.com/lucki.html"
+    },
+    {
+     "field": "payload_kg",
+     "from": null,
+     "to": 40
+    },
+    {
+     "field": "runtime_h",
+     "from": null,
+     "to": 10
+    },
+    {
+     "field": "sensors",
+     "from": [],
+     "to": [
+      "LiDAR x1",
+      "Depth vision camera x1",
+      "Infrared camera x1",
+      "IMU x1"
+     ]
+    },
+    {
+     "field": "sources",
+     "from": [],
+     "to": [
+      "https://en.orionstar.com/lucki.html",
+      "https://en.orionstar.com/pro_compare.html"
+     ]
+    },
+    {
+     "field": "status",
+     "from": null,
+     "to": "Commercial"
+    },
+    {
+     "field": "summary",
+     "from": "",
+     "to": "Restaurant delivery robot with 3-4 adjustable trays, dual SLAM navigation and a 10.1-inch touch screen."
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "official"
+    },
+    {
+     "field": "weight_kg",
+     "from": null,
+     "to": 39
+    },
+    {
+     "field": "width_mm",
+     "from": null,
+     "to": 500
+    }
+   ]
+  }
+ ]
+}

@@ -5,7 +5,7 @@
 - Canonical site: https://htcrefactor.github.io/robot-catalog/
 - Index for agents: https://htcrefactor.github.io/robot-catalog/llms.txt
 - Per-robot Markdown with the full spec sheet and a source on every value: https://htcrefactor.github.io/robot-catalog/md/<id>.md
-- Generated from data/robots.json, last merged 2026-11-22. No scoring, no ranking.
+- Generated from data/robots.json, last merged 2026-11-27. No scoring, no ranking.
 
 ## AMR (96)
 
@@ -112,8 +112,10 @@
 - id: `anseboo-fd08`
 - Page: https://htcrefactor.github.io/robot-catalog/robot.html?id=anseboo-fd08
 - Markdown: https://htcrefactor.github.io/robot-catalog/md/anseboo-fd08.md
-- AMR · Wheeled · China
-- Sources: none recorded
+- AMR · Wheeled · Commercial · China
+- Summary: Indoor mobile advertising robot with a 27-inch HD screen and three 500 x 400 mm trays rated at 10 kg each.
+- Specs: Length 450 mm; Width 470 mm; Height 1,430 mm; Weight 60 kg; Payload 10 kg; Max speed 1 m/s (3.6 km/h); Runtime 10 h; Battery 672 Wh; Status Commercial
+- Sources: https://www.anseboo.com/en/products/commercial-advertising-robot-indoor-display-video-ad-robot-explain-with27-inch-hd-screen-for-supermarket-shoppingmal, https://www.anseboo.com/en/collections/delivery-robots
 
 ### Anseboo FD10
 
@@ -314,8 +316,10 @@
 - id: `jaka-s3`
 - Page: https://htcrefactor.github.io/robot-catalog/robot.html?id=jaka-s3
 - Markdown: https://htcrefactor.github.io/robot-catalog/md/jaka-s3.md
-- AMR · Wheeled · China
-- Sources: none recorded
+- AMR · Wheeled · Commercial · China
+- Summary: Mobile manipulator: a differential-drive AMR base carrying a 6-axis JAKA arm for machine tending, handling and inspection.
+- Specs: Length 950 mm; Width 620 mm; Height 975 mm; Weight 402.5 kg; Payload 95 kg; Max speed 1.5 m/s (5.4 km/h); Degrees of freedom 6; Runtime 8 h; Battery 2,591 Wh; Status Commercial; API yes; Sensors LiDAR x2 (diagonal layout, 270 deg), Vision camera 2592 x 1944, 360 deg safety edge, IMU
+- Sources: https://www.jaka.com/en/productDetails/JAKA_S%C2%B3_
 
 ### KEENON Robotics S100
 
@@ -2714,8 +2718,10 @@
 - id: `foxtech-xtron-roban`
 - Page: https://htcrefactor.github.io/robot-catalog/robot.html?id=foxtech-xtron-roban
 - Markdown: https://htcrefactor.github.io/robot-catalog/md/foxtech-xtron-roban.md
-- Humanoid · Legged · China
-- Sources: none recorded
+- Humanoid · Legged · Commercial · China
+- Summary: Educational bipedal humanoid with 22 degrees of freedom, vision and voice interaction, and a ROS/Linux open platform for teaching and research.
+- Specs: Degrees of freedom 22; Status Commercial; API yes; ROS yes; Sensors High-resolution cameras with a structured-light depth sensor, Microphone array, Tactile sensors
+- Sources: https://www.foxtechrobotics.com/xtron-roban-bipedal-humanoid-robot-education-research.html, https://www.foxtechrobotics.com/robot.html
 
 ### Foxtech XTRON T170A
 
@@ -3551,8 +3557,10 @@
 - id: `jaka-lumi`
 - Page: https://htcrefactor.github.io/robot-catalog/robot.html?id=jaka-lumi
 - Markdown: https://htcrefactor.github.io/robot-catalog/md/jaka-lumi.md
-- Humanoid · Wheeled · China
-- Sources: none recorded
+- Humanoid · Wheeled · Commercial · China
+- Summary: Wheeled embodied-AI training platform: a differential AMR base with a lifting, rotating waist, a rotating neck and a 6-axis 2 kg arm.
+- Specs: Length 510 mm; Width 510 mm; Height 1,460 mm; Weight 95.6 kg; Payload 2 kg; Degrees of freedom 12; IP rating IP20; Status Commercial; API yes; Sensors LiDAR on the chassis, 3D vision camera, Ultrasonic obstacle avoidance
+- Sources: https://www.jaka.com/en/productDetails/JAKA_Lumi, https://www.jaka.com/en/newsDetail/632
 
 ### JiangHuai Advanced Technology Center Qijiang humanoid
 
@@ -8861,32 +8869,40 @@
 - id: `orionstar-greetingbot-ad`
 - Page: https://htcrefactor.github.io/robot-catalog/robot.html?id=orionstar-greetingbot-ad
 - Markdown: https://htcrefactor.github.io/robot-catalog/md/orionstar-greetingbot-ad.md
-- Indoor delivery · Wheeled · China
-- Sources: none recorded
+- Indoor delivery · Wheeled · Commercial · China
+- Summary: Retail greeting robot that pairs a roaming 21.5-inch advertising display with a 14-inch touch screen to greet, promote and guide shoppers.
+- Specs: Runtime 8 h; Status Commercial; Sensors LiDAR with multi-sensor fusion navigation, 6-microphone 360-degree array
+- Sources: https://en.orionstar.com/greetingbot-ad.html
 
 ### OrionStar GreetingBot Nova
 
 - id: `orionstar-greetingbot-nova`
 - Page: https://htcrefactor.github.io/robot-catalog/robot.html?id=orionstar-greetingbot-nova
 - Markdown: https://htcrefactor.github.io/robot-catalog/md/orionstar-greetingbot-nova.md
-- Indoor delivery · Wheeled · China
-- Sources: none recorded
+- Indoor delivery · Wheeled · Commercial · China
+- Summary: Large-language-model reception robot that greets, guides and explains in 30+ languages, with marker-free V-SLAM on a 14-inch screen.
+- Specs: Length 558 mm; Width 525 mm; Height 1,350 mm; Weight 56 kg; Max speed 1.2 m/s (4.3 km/h); Min speed 0.5 m/s; Runtime 12 h; Status Commercial; Sensors 3D LiDAR (170 deg vertical / 240 deg horizontal), Depth camera, 13 MP head camera
+- Sources: https://en.orionstar.com/nova.html, https://www.orionstar.kr/greetingbotnova
 
 ### OrionStar LuckiBot
 
 - id: `orionstar-luckibot`
 - Page: https://htcrefactor.github.io/robot-catalog/robot.html?id=orionstar-luckibot
 - Markdown: https://htcrefactor.github.io/robot-catalog/md/orionstar-luckibot.md
-- Indoor delivery · Wheeled · China
-- Sources: none recorded
+- Indoor delivery · Wheeled · Commercial · China
+- Summary: Restaurant delivery robot with 3-4 adjustable trays, dual SLAM navigation and a 10.1-inch touch screen.
+- Specs: Length 530 mm; Width 500 mm; Height 1,320 mm; Weight 39 kg; Payload 40 kg; Max speed 1.2 m/s (4.3 km/h); Min speed 0.5 m/s; Runtime 10 h; Battery 382 Wh; Status Commercial; Sensors LiDAR x1, Depth vision camera x1, Infrared camera x1, IMU x1
+- Sources: https://en.orionstar.com/lucki.html, https://en.orionstar.com/pro_compare.html
 
 ### OrionStar LuckiBot Pro
 
 - id: `orionstar-luckibot-pro`
 - Page: https://htcrefactor.github.io/robot-catalog/robot.html?id=orionstar-luckibot-pro
 - Markdown: https://htcrefactor.github.io/robot-catalog/md/orionstar-luckibot-pro.md
-- Indoor delivery · Wheeled · China
-- Sources: none recorded
+- Indoor delivery · Wheeled · Commercial · China
+- Summary: Marketing delivery robot with a 14-inch screen, visual SLAM with 3D obstacle sensing, and 3-4 adjustable trays.
+- Specs: Length 558 mm; Width 525 mm; Height 1,375 mm; Weight 59 kg; Payload 60 kg; Max speed 1.2 m/s (4.3 km/h); Min speed 0.5 m/s; Runtime 12 h; Battery 621 Wh; Status Commercial; Sensors LiDAR x1, Depth vision camera x3, Fisheye camera x2, Infrared camera x2, Odometer, IMU x1
+- Sources: https://en.orionstar.com/lucki-pro.html, https://en.orionstar.com/pro_compare.html, https://www.orionstar.com/lucki-pro.html
 
 ### OrionStar OrionStar Mini
 
@@ -8999,7 +9015,7 @@
 - Page: https://htcrefactor.github.io/robot-catalog/robot.html?id=rainbow-robotics-mixx
 - Markdown: https://htcrefactor.github.io/robot-catalog/md/rainbow-robotics-mixx.md
 - Indoor delivery · Wheeled · South Korea
-- Sources: none recorded
+- Sources: https://rainbow-robotics.com/, https://www.hannovermesse.de/apollo/hannover_messe_2022/obs/Binary/A1163539/%5BRainbow%20Robotics%5D%20Company%20profile_EN_low.pdf
 
 ### Reeman Deligo
 
@@ -9089,8 +9105,10 @@
 - id: `ubtech-cadebot`
 - Page: https://htcrefactor.github.io/robot-catalog/robot.html?id=ubtech-cadebot
 - Markdown: https://htcrefactor.github.io/robot-catalog/md/ubtech-cadebot.md
-- Indoor delivery · Wheeled · China
-- Sources: none recorded
+- Indoor delivery · Wheeled · Commercial · China
+- Summary: Open-tray restaurant delivery robot with a 21.5-inch advertising display, laser-and-vision fused SLAM and a 6-microphone array.
+- Specs: Length 550 mm; Width 485 mm; Height 1,265 mm; Weight 55 kg; Payload 40 kg; Max speed 0.8 m/s (2.9 km/h); Min speed 0 m/s; Runtime 8 h; Battery 512 Wh; Status Commercial; Sensors Front and rear LiDAR, RGB-D depth cameras, Ultrasonic sensors, Infrared tray sensors, Front camera, Top camera
+- Sources: https://www.ubtrobot.com/en/commercial/products/cadebot, http://www.commercial.ubtrobot.com/zh_cn/products/ubtech-cadebot-l100-open-food-delivery-robot-parameters.html, https://www.troysupply.com/static/docs/downloads/cadebot_User-Manual.pdf
 
 ### Woowa Brothers Dilly Tower
 
@@ -9779,8 +9797,10 @@
 - id: `yahboom-rosmaster-a1`
 - Page: https://htcrefactor.github.io/robot-catalog/robot.html?id=yahboom-rosmaster-a1
 - Markdown: https://htcrefactor.github.io/robot-catalog/md/yahboom-rosmaster-a1.md
-- Mobile platform · Wheeled · China
-- Sources: none recorded
+- Mobile platform · Wheeled · Commercial · China
+- Summary: Ackermann-steering ROS 2 education rover with LiDAR, an optional depth camera and a large-model voice module on a Raspberry Pi 5 or Jetson board.
+- Specs: Status Commercial; API yes; SDK yes; SDK name ROS 2 Humble (Python); ROS yes; Sensors YDLIDAR T-mini Plus LiDAR, 3D depth camera (Superior kit) or 2 MP pan-tilt camera (Standard kit), AI voice module with microphone and speaker
+- Sources: https://www.yahboom.store/products/rosmaster-a1, https://www.yahboom.net/study/ROSMASTER-A1
 
 ### Yahboom ROSMASTER M1
 

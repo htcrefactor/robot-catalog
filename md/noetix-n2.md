@@ -98,4 +98,4 @@ Noetix N2 page and brochure (checked 2026-11-17): 114 cm standing (118 x 47 x 29
 
 ---
 
-*Robot Catalog — generated from data/robots.json (last merged 2026-11-22). Source repository: https://github.com/htcrefactor/robot-catalog*
+*Robot Catalog — generated from data/robots.json (last merged 2026-11-27). Source repository: https://github.com/htcrefactor/robot-catalog*

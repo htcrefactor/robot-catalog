@@ -91,4 +91,4 @@ Maker (checked 2026-11-17): 1.2 m, 35 kg, 25 powered joints (6 per leg, 5 per ar
 
 ---
 
-*Robot Catalog — generated from data/robots.json (last merged 2026-11-22). Source repository: https://github.com/htcrefactor/robot-catalog*
+*Robot Catalog — generated from data/robots.json (last merged 2026-11-27). Source repository: https://github.com/htcrefactor/robot-catalog*

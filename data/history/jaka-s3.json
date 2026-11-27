@@ -1,0 +1,107 @@
+{
+ "id": "jaka-s3",
+ "name": "JAKA S³",
+ "manufacturer": "JAKA Robotics",
+ "updated": "2026-11-27",
+ "events": [
+  {
+   "date": "2026-11-27",
+   "type": "updated",
+   "source": "https://www.jaka.com/en/productDetails/JAKA_S%C2%B3_",
+   "changes": [
+    {
+     "field": "api_support",
+     "from": null,
+     "to": true
+    },
+    {
+     "field": "battery_wh",
+     "from": null,
+     "to": 2591
+    },
+    {
+     "field": "dof",
+     "from": null,
+     "to": 6
+    },
+    {
+     "field": "height_mm",
+     "from": null,
+     "to": 975
+    },
+    {
+     "field": "length_mm",
+     "from": null,
+     "to": 950
+    },
+    {
+     "field": "max_speed_mps",
+     "from": null,
+     "to": 1.5
+    },
+    {
+     "field": "note",
+     "from": null,
+     "to": "Maker (checked 2026-11-27): the platform ships as S3-M3-12-L with 155 kg carrier capacity and 340.5 kg total weight, or S3-M3-12-B with 95 kg and 402.5 kg, so the numbers here record the B variant; 950 x 620 x 975 mm without the arm, arm reach 1327 mm, 12 kg arm payload including the end effector, 6-axis arm (dof) and a 1.8 m/s TCP speed. Differential two-wheel drive at up to 1.5 m/s (0.8 m/s recommended at rated load) and 0.3 m/s2, 3 deg / 5 % gradeability, 30 mm gap crossing, 10 mm obstacle clearance, 1000 mm turning diameter, 8 h or more of runtime, 51.2 V 50.6 Ah LiFePO4 single battery (2591 Wh derived) with 1.5 h charge from 15 % to 95 %. Two diagonal LiDARs cover 270 degrees, four emergency stops and a 360-degree safety edge are standard; TCP/IP, RS485 and Modbus TCP; JAKA Cobo pi programming. No price published."
+    },
+    {
+     "field": "official_url",
+     "from": null,
+     "to": "https://www.jaka.com/en/productDetails/JAKA_S%C2%B3_"
+    },
+    {
+     "field": "payload_kg",
+     "from": null,
+     "to": 95
+    },
+    {
+     "field": "runtime_h",
+     "from": null,
+     "to": 8
+    },
+    {
+     "field": "sensors",
+     "from": [],
+     "to": [
+      "LiDAR x2 (diagonal layout, 270 deg)",
+      "Vision camera 2592 x 1944",
+      "360 deg safety edge",
+      "IMU"
+     ]
+    },
+    {
+     "field": "sources",
+     "from": [],
+     "to": [
+      "https://www.jaka.com/en/productDetails/JAKA_S%C2%B3_"
+     ]
+    },
+    {
+     "field": "status",
+     "from": null,
+     "to": "Commercial"
+    },
+    {
+     "field": "summary",
+     "from": "",
+     "to": "Mobile manipulator: a differential-drive AMR base carrying a 6-axis JAKA arm for machine tending, handling and inspection."
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "official"
+    },
+    {
+     "field": "weight_kg",
+     "from": null,
+     "to": 402.5
+    },
+    {
+     "field": "width_mm",
+     "from": null,
+     "to": 620
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,25 @@
+{
+ "id": "kompai-rf1",
+ "name": "KOMPAÏ RF1",
+ "manufacturer": "Kompai Robotics",
+ "updated": "2026-11-27",
+ "events": [
+  {
+   "date": "2026-11-27",
+   "type": "updated",
+   "source": null,
+   "changes": [
+    {
+     "field": "note",
+     "from": null,
+     "to": "Checked 2026-11-27: the maker's site no longer serves a product page - kompai.com resets the connection and www.kompai.com returns HTTP 500 - so no maker specification could be read and nothing was filled. The record keeps only what the listing that named it says. A maker page or datasheet is needed before any field is set."
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "unconfirmed"
+    }
+   ]
+  }
+ ]
+}

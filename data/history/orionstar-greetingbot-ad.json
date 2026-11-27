@@ -1,0 +1,60 @@
+{
+ "id": "orionstar-greetingbot-ad",
+ "name": "GreetingBot AD",
+ "manufacturer": "OrionStar",
+ "updated": "2026-11-27",
+ "events": [
+  {
+   "date": "2026-11-27",
+   "type": "updated",
+   "source": "https://en.orionstar.com/greetingbot-ad.html",
+   "changes": [
+    {
+     "field": "note",
+     "from": null,
+     "to": "Maker (checked 2026-11-27) publishes a 21.5-inch ad display plus a 14-inch touch screen, a 6-mic 360-degree array, 46+ languages, LiDAR with multi-sensor fusion at centimetre-level positioning, a 60 cm minimum aisle, an 8 A lidar-guided auto-docking fast charge, Wi-Fi 6 and 4G, and a 20 Ah NMC battery for 8-10 h; runtime_h records the lower end of that range. Overall size, weight, travel speed and battery voltage are not published, so those fields stay empty and no Wh figure is derived. No price published."
+    },
+    {
+     "field": "official_url",
+     "from": null,
+     "to": "https://en.orionstar.com/greetingbot-ad.html"
+    },
+    {
+     "field": "runtime_h",
+     "from": null,
+     "to": 8
+    },
+    {
+     "field": "sensors",
+     "from": [],
+     "to": [
+      "LiDAR with multi-sensor fusion navigation",
+      "6-microphone 360-degree array"
+     ]
+    },
+    {
+     "field": "sources",
+     "from": [],
+     "to": [
+      "https://en.orionstar.com/greetingbot-ad.html"
+     ]
+    },
+    {
+     "field": "status",
+     "from": null,
+     "to": "Commercial"
+    },
+    {
+     "field": "summary",
+     "from": "",
+     "to": "Retail greeting robot that pairs a roaming 21.5-inch advertising display with a 14-inch touch screen to greet, promote and guide shoppers."
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "official"
+    }
+   ]
+  }
+ ]
+}

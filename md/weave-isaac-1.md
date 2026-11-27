@@ -84,4 +84,4 @@ Maker spec page: height 3 ft to 5 ft 9 in (914-1753 mm; the taller figure is rec
 
 ---
 
-*Robot Catalog — generated from data/robots.json (last merged 2026-11-22). Source repository: https://github.com/htcrefactor/robot-catalog*
+*Robot Catalog — generated from data/robots.json (last merged 2026-11-27). Source repository: https://github.com/htcrefactor/robot-catalog*

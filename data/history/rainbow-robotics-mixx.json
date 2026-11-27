@@ -1,0 +1,38 @@
+{
+ "id": "rainbow-robotics-mixx",
+ "name": "MIXX",
+ "manufacturer": "Rainbow Robotics",
+ "updated": "2026-11-27",
+ "events": [
+  {
+   "date": "2026-11-27",
+   "type": "updated",
+   "source": "https://rainbow-robotics.com/",
+   "changes": [
+    {
+     "field": "note",
+     "from": null,
+     "to": "Checked 2026-11-27: Rainbow Robotics' current line-up (RBC cobots, RBY mobile humanoid, RBM mobile robots, RBQ quadruped, ASTRO cells) no longer lists MIXX and the maker publishes no dimensions, payload, speed or runtime for it. The maker's own company profile presents MIXX as an F&B beverage-making/automation platform launched alongside the RB series - a fixed beverage kiosk rather than an indoor delivery robot - so this record's identity and category need an owner decision (the maker's later AI serving robot is a separate, unnamed product). Nothing was filled."
+    },
+    {
+     "field": "sources",
+     "from": [],
+     "to": [
+      "https://rainbow-robotics.com/",
+      "https://www.hannovermesse.de/apollo/hannover_messe_2022/obs/Binary/A1163539/%5BRainbow%20Robotics%5D%20Company%20profile_EN_low.pdf"
+     ]
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "unconfirmed"
+    },
+    {
+     "field": "manufacturer_ko",
+     "from": null,
+     "to": "레인보우로보틱스"
+    }
+   ]
+  }
+ ]
+}
