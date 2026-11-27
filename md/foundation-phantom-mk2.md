@@ -1,21 +1,25 @@
 # Foundation Phantom MK-2
 
-> Foundation's production Phantom humanoid: a 1.8 m, 29-DoF electric biped with proprietary cycloid actuators, built for factories and dual-use defence work.
+> Foundation's Phantom MKII: a 1.83 m, 88.5 kg biped rated to carry 200 lb (90 kg) through factories, mines, ports and the frontlines.
 
 - Catalog page: https://htcrefactor.github.io/robot-catalog/robot.html?id=foundation-phantom-mk2
 - Category: Humanoid
 - Locomotion: Legged
 - Manufacturer: Foundation (United States)
-- Verification: unconfirmed — no maker source found yet
+- Verification: official — checked against a maker source
 
 ## Core specs
 
 | Field | Value |
 |---|---|
 | Height | 1,830 mm |
-| Weight | 90 kg |
-| Payload | 40 kg |
-| Status | Announced |
+| Weight | 88.5 kg |
+| Payload | 90 kg |
+| Degrees of freedom | 29 |
+| Runtime | 4 h |
+| Battery | 3,000 Wh |
+| IP rating | IP67 |
+| Status | In development |
 
 Fields the maker does not publish are left out here — the catalog never fills a value by guess. Prices are list or starting prices where the maker states one.
 
@@ -71,12 +75,13 @@ Fields the maker does not publish are left out here — the catalog never fills 
 
 ## Notes
 
-Maker page foundation.bot/phantom: 5 ft 11 in (1.8 m), 176 lb (80 kg), 29 DoF, 1.7 m/s, payload capacity 88.2 lb (40 kg) - the same block also prints a stray '40l (20kg)' string, so the payload figure is uncertain between 40 and 20 kg and the page does not label which generation it describes. Actuators are cycloid units with 160 N.m peak torque, <1.0 N.m back-driving torque, <10 ms response, 48 V/72 V options. Status kept at Announced because the maker's own page calls Phantom its first production robot while press reporting dates MK-2 to April 2026; runtime is not published on the page.
+Maker's Phantom page (checked 2026-11-27) now names the generation: the press kit is headed 'Phantom MKII and Cortex II', and the page lists 6.0 ft (1830 mm), 195 lb (88.5 kg), a 200 lb / 90 kg close-carry payload, 4-6 h runtime (runtime_h is the lower end), 29 DoF, a 3 kWh battery, IP67, and modular joints that swap in the field. Height and weight are published in feet and pounds, so the metric values are conversions. The maker states specifications describe shipping capability and are subject to change, with production planned for 2027; no price, unit count or customer is published. The payload is a close-carry rating and has no independent test.
 
 ## Sources
 
 - Official page: [foundation.bot](https://foundation.bot/phantom)
+- [foundation.bot](https://foundation.bot/press)
 
 ---
 
-*Robot Catalog — generated from data/robots.json (last merged 2026-11-22). Source repository: https://github.com/htcrefactor/robot-catalog*
+*Robot Catalog — generated from data/robots.json (last merged 2026-11-27). Source repository: https://github.com/htcrefactor/robot-catalog*

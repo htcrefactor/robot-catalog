@@ -88,4 +88,4 @@ Maker shop listing and quick-start guide: 349 x 176 x 99 mm, 0.94 kg, 17 servo j
 
 ---
 
-*Robot Catalog — generated from data/robots.json (last merged 2026-11-22). Source repository: https://github.com/htcrefactor/robot-catalog*
+*Robot Catalog — generated from data/robots.json (last merged 2026-11-27). Source repository: https://github.com/htcrefactor/robot-catalog*

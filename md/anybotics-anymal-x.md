@@ -186,4 +186,4 @@ Maker page: ATEX-certified for Zones 1 and 2 (IIB, T4, category 2G) with IECEx t
 
 ---
 
-*Robot Catalog — generated from data/robots.json (last merged 2026-11-22). Source repository: https://github.com/htcrefactor/robot-catalog*
+*Robot Catalog — generated from data/robots.json (last merged 2026-11-27). Source repository: https://github.com/htcrefactor/robot-catalog*

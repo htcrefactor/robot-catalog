@@ -103,4 +103,4 @@ Maker spec table for the follower FFW-SG2: 604 x 602 x 1,623 mm, 90 kg, 25 total
 
 ---
 
-*Robot Catalog — generated from data/robots.json (last merged 2026-11-22). Source repository: https://github.com/htcrefactor/robot-catalog*
+*Robot Catalog — generated from data/robots.json (last merged 2026-11-27). Source repository: https://github.com/htcrefactor/robot-catalog*
