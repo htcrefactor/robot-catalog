@@ -22,6 +22,10 @@
 | Runtime | 2 h |
 | IP rating | IP32 |
 | Status | Commercial |
+| Price | US$2,490 · list price · 2026-11-17 · [shop.ff.com](https://shop.ff.com/products/aegis) (Aegis) |
+| Price | US$2,990 · list price · 2026-11-17 · [shop.ff.com](https://shop.ff.com/products/aegis) (Aegis Classic Pro) |
+| Price | US$12,990 · list price · 2026-11-17 · [shop.ff.com](https://shop.ff.com/products/aegis) (Aegis Classic Ultra, also the price of Classic Ultra-W) |
+| Price | US$9,990 · education price · 2026-11-17 · [shop.ff.com](https://shop.ff.com/products/aegis) (Aegis Classic Edu) |
 | API | yes |
 | SDK | yes |
 | On-board compute | yes |

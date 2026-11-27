@@ -21,6 +21,7 @@
 | Degrees of freedom | 12 |
 | Runtime | 2.5 h |
 | Status | Discontinued |
+| Price | US$50,000 · list price · 2026-11-17 · [shop.unitree.com](https://shop.unitree.com/products/aliengo) (store lists US$50,000 for Aliengo) |
 | API | yes |
 | SDK | yes |
 | ROS | yes |

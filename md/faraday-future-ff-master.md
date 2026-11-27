@@ -23,6 +23,8 @@
 | Battery | 500 Wh |
 | Released | 2026 |
 | Status | Commercial |
+| Price | US$64,990 · list price · 2026-11-17 · [shop.ff.com](https://shop.ff.com/products/master) (Master Classic Ultra) |
+| Price | US$37,990 · education price · 2026-11-17 · [shop.ff.com](https://shop.ff.com/products/master) (Master Classic Edu) |
 | Sensors | RGB camera, 6-axis IMU, Head touch sensor |
 
 Fields the maker does not publish are left out here — the catalog never fills a value by guess. Prices are list or starting prices where the maker states one.

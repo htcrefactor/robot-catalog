@@ -20,6 +20,7 @@
 | Max speed | 2.68 m/s (9.6 km/h) |
 | Runtime | 7 h |
 | Status | Commercial |
+| Price | US$2,475 · list price · 2026-11-17 · [shop.piaggiofastforward.com](https://shop.piaggiofastforward.com/) (price on the official shop page) |
 | Sensors | Cameras, Radar |
 
 Fields the maker does not publish are left out here — the catalog never fills a value by guess. Prices are list or starting prices where the maker states one.

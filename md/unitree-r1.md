@@ -21,6 +21,8 @@
 | Runtime | 1 h |
 | Released | 2025 |
 | Status | Commercial |
+| Price | US$5,900 · list price · 2026-11-17 · [shop.unitree.com](https://shop.unitree.com/products/unitree-r1) (R1; R1 Air US$4,900 on the same page) |
+| Price | US$10,500 · education price · 2026-11-17 · [shop.unitree.com](https://shop.unitree.com/products/unitree-r1) (R1 EDU) |
 | API | yes |
 | SDK | yes |
 | SDK name | unitree_sdk2 |

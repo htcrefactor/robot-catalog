@@ -21,6 +21,7 @@
 | Degrees of freedom | 12 |
 | Runtime | 1 h |
 | Status | Commercial |
+| Price | US$2,800 · list price · 2026-11-17 · [shop.unitree.com](https://shop.unitree.com/products/unitree-go2) (Go2 Pro without controller; US$3,050 with controller; tax and freight excluded) |
 | SDK | no |
 | Compute | 8-core high-performance CPU |
 | Sensors | 4D LiDAR L2, HD wide-angle camera, Wireless vector positioning module |

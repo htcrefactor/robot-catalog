@@ -21,6 +21,8 @@
 | Degrees of freedom | 12 |
 | Runtime | 1 h |
 | Status | Commercial |
+| Price | US$3,200 · list price · 2026-11-17 · [store.agibot.com](https://store.agibot.com/products/d1-pro) (D1 Pro) |
+| Price | US$6,080 · education price · 2026-11-17 · [store.agibot.com](https://store.agibot.com/products/d1-edu) (D1 Edu) |
 | SDK | yes |
 | Compute | High-performance 8-core CPU |
 | Sensors | Camera (DFOV 122°) |

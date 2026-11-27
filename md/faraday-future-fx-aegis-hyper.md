@@ -24,6 +24,7 @@
 | IP rating | IP67 |
 | Released | 2026 |
 | Status | Commercial |
+| Price | US$137,900 · list price · 2026-11-17 · [shop.ff.com](https://shop.ff.com/products/fx-aegis-hyper) |
 | SDK | yes |
 | Sensors | LiDAR x4, RGB-D camera, Thermal camera, Wide-angle camera, RTK |
 

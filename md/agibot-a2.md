@@ -21,6 +21,7 @@
 | Degrees of freedom | 23 |
 | Runtime | 1.5 h |
 | Status | Commercial |
+| Price | US$44,560 · list price · 2026-11-17 · [store.agibot.com](https://store.agibot.com/products/a2-lite) (store lists the A2 Lite at this price) |
 
 Fields the maker does not publish are left out here — the catalog never fills a value by guess. Prices are list or starting prices where the maker states one.
 
