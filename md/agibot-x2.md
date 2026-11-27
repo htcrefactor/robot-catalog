@@ -22,6 +22,7 @@
 | Runtime | 2 h |
 | Battery | 500 Wh |
 | Status | Commercial |
+| Price | US$25,600 · list price · 2026-11-17 · [store.agibot.com](https://store.agibot.com/products/x2) (store lists the X2 Neo) |
 
 Fields the maker does not publish are left out here — the catalog never fills a value by guess. Prices are list or starting prices where the maker states one.
 

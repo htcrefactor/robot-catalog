@@ -20,6 +20,7 @@
 | Degrees of freedom | 31 |
 | Released | 2025 |
 | Status | Commercial |
+| Price | US$29,900 · list price · 2026-11-17 · [shop.unitree.com](https://shop.unitree.com/products/unitree-h2) (H2; tax and freight excluded; H2 EDU by quote) |
 | API | yes |
 | SDK | yes |
 | SDK name | unitree_sdk2 |

@@ -22,6 +22,7 @@
 | Battery | 864 Wh |
 | Released | 2023 |
 | Status | Commercial |
+| Price | US$90,000 · list price · 2026-11-17 · [shop.unitree.com](https://shop.unitree.com/products/unitree-h1) (store lists US$90,000 and titles the page "Contact us for the real price") |
 | API | yes |
 | SDK | yes |
 | SDK name | unitree_sdk2 |

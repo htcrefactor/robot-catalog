@@ -22,6 +22,8 @@
 | Runtime | 2 h |
 | Released | 2024 |
 | Status | Commercial |
+| Price | US$15,000 · list price · 2026-11-17 · [shop.limxdynamics.com](https://shop.limxdynamics.com/products/point-foot-pipedal-robot-for-reserach) (TRON 1 Standard Edition) |
+| Price | US$25,000 · education price · 2026-11-17 · [shop.limxdynamics.com](https://shop.limxdynamics.com/products/tron-1-edu) (TRON 1 Educational Edition) |
 | SDK | yes |
 | On-board compute | yes |
 | Compute | 12th Gen Intel Core i3 / 16GB / 512GB |

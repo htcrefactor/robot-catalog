@@ -18,6 +18,7 @@
 | Runtime | 2 h |
 | Released | 2026 |
 | Status | Commercial |
+| Price | US$1,990 · list price · 2026-11-17 · [shop.ff.com](https://shop.ff.com/products/fx-navi) |
 | SDK | yes |
 | Sensors | Paired smartphone camera/microphone |
 

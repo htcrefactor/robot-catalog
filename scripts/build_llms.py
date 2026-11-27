@@ -79,6 +79,31 @@ def plain(value):
     return re.sub(r"\s+", " ", str(value)).strip()
 
 
+# A dated price observation is shown in the currency the maker states, with the date, the kind of
+# price and the maker / maker-store link it came from. No KRW figure is written here: the site
+# converts at run time from data/fx.json, so the export never stores a rate or a second currency.
+PRICE_SIGNS = {"USD": "US$", "EUR": "€", "KRW": "₩", "CNY": "CN¥", "JPY": "¥", "GBP": "£"}
+PRICE_KINDS = {"list": "list price", "from": "starting price", "rental": "rental rate", "edu": "education price"}
+
+
+def money(amount, currency):
+    sign = PRICE_SIGNS.get(currency)
+    text = number(amount)
+    return sign + text if sign else "%s %s" % (text, currency)
+
+
+def price_observation_text(o):
+    """`US$339.90 · starting price · 2026-11-27 · [yahboom.store](https://…) (note)`"""
+    parts = [money(o.get("amount"), o.get("currency")), PRICE_KINDS.get(o.get("kind"), o.get("kind") or "price"),
+             str(o.get("date") or "undated")]
+    if o.get("source"):
+        parts.append(link(o["source"]))
+    text = " · ".join(p for p in parts if p)
+    if o.get("note"):
+        text += " (%s)" % plain(o["note"])
+    return text
+
+
 def core_rows(r):
     """The record's own spec fields, in the order the site shows them. Absent values are left out."""
     rows = []
@@ -119,6 +144,10 @@ def core_rows(r):
         rows.append(("Price", price))
     elif r.get("price_note"):
         rows.append(("Price", plain(r["price_note"])))
+    for o in sorted(r.get("price_observations") or [],
+                    key=lambda o: (str(o.get("date") or ""), ["from", "list", "rental", "edu"].index(o.get("kind"))
+                                   if o.get("kind") in ("from", "list", "rental", "edu") else 9)):
+        rows.append(("Price", price_observation_text(o)))
     put("API", r.get("api_support"))
     put("SDK", r.get("sdk_available"))
     put("SDK name", r.get("sdk_name"))

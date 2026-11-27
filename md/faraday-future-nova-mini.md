@@ -19,6 +19,7 @@
 | Degrees of freedom | 17 |
 | Runtime | 0.83 h |
 | Status | Commercial |
+| Price | US$299 · list price · 2026-11-17 · [shop.ff.com](https://shop.ff.com/products/ff-nova-mini) (MSRP (from the former price note)) |
 | SDK | no |
 | Sensors | Gyroscope, Microphone |
 

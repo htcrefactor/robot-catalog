@@ -14,6 +14,7 @@
 |---|---|
 | Runtime | 12 h |
 | Status | Commercial |
+| Price | US$2,190 · rental rate · 2026-11-17 · [brightpick.ai](https://www.brightpick.ai/pricing) (Robots-as-a-Service: per robot per month, minimum 15 robots per installation, 3-year term) |
 | Sensors | 3D vision cameras, SLAM navigation sensors |
 
 Fields the maker does not publish are left out here — the catalog never fills a value by guess. Prices are list or starting prices where the maker states one.

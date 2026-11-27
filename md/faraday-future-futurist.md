@@ -20,6 +20,8 @@
 | Battery | 1,152 Wh |
 | Released | 2026 |
 | Status | Commercial |
+| Price | US$89,900 · list price · 2026-11-17 · [shop.ff.com](https://shop.ff.com/products/ff-all-new-futurist) (All-New Futurist) |
+| Price | US$129,900 · list price · 2026-11-17 · [shop.ff.com](https://shop.ff.com/products/ff-all-new-futurist) (All-New Futurist Ultra) |
 | API | yes |
 | SDK | yes |
 | On-board compute | yes |

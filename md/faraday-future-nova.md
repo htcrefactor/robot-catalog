@@ -18,6 +18,7 @@
 | Degrees of freedom | 20 |
 | Runtime | 2.5 h |
 | Status | Pre-order |
+| Price | US$2,490 · list price · 2026-11-17 · [shop.ff.com](https://shop.ff.com/products/ff-nova) (Robot device; US$390 developer skills package (from the former price note)) |
 | SDK | yes |
 | SDK name | FF Nova open SDK with ROS 2 workflow and Sim2Real RL pipeline |
 | ROS | yes |

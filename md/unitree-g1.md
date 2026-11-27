@@ -22,6 +22,7 @@
 | Runtime | 2 h |
 | Released | 2024 |
 | Status | Commercial |
+| Price | US$13,500 · list price · 2026-11-17 · [shop.unitree.com](https://shop.unitree.com/products/unitree-g1) (G1 base unit; G1 Pro US$21,500 on the same page; tax and freight excluded; G1 EDU by quote) |
 | API | yes |
 | SDK | yes |
 | SDK name | unitree_sdk2 |

@@ -17,6 +17,8 @@
 | Max speed | 3.7 m/s (13.3 km/h) |
 | Degrees of freedom | 12 |
 | Status | Commercial |
+| Price | US$2,700 · list price · 2026-11-17 · [shop.unitree.com](https://shop.unitree.com/products/unitreeyushutechnologydog-artificial-intelligence-companion-bionic-companion-intelligent-robot-go1-quadruped-robot-dog) (Go1 Air) |
+| Price | US$3,500 · list price · 2026-11-17 · [shop.unitree.com](https://shop.unitree.com/products/unitreeyushutechnologydog-artificial-intelligence-companion-bionic-companion-intelligent-robot-go1-quadruped-robot-dog) (Go1 Pro) |
 | SDK | yes |
 | On-board compute | yes |
 | Compute | 16-core CPU + GPU (384 cores, 1.5 TFLOPS); Edu: Jetson Nano/NX |

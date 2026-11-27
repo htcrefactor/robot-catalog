@@ -21,6 +21,7 @@
 | Degrees of freedom | 12 |
 | Runtime | 1 h |
 | Status | Commercial |
+| Price | US$1,600 · starting price · 2026-11-17 · [shop.unitree.com](https://shop.unitree.com/products/unitree-go2) (Go2 Air without controller; US$1,850 with controller; tax and freight excluded) |
 | SDK | no |
 | Sensors | 4D LiDAR L2, HD wide-angle camera |
 

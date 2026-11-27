@@ -24,6 +24,7 @@
 | IP rating | IP67 |
 | Released | 2026 |
 | Status | Commercial |
+| Price | US$74,990 · list price · 2026-11-17 · [shop.ff.com](https://shop.ff.com/products/fx-aegis-mega) (Aegis Mega A and Mega D are the same price) |
 | On-board compute | yes |
 | Sensors | Dual 96-line 3D LiDAR, Optical cameras, Ultrasonic radar, RTK |
 

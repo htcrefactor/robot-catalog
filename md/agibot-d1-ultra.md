@@ -19,6 +19,7 @@
 | Max speed | 3.7 m/s (13.3 km/h) |
 | IP rating | IP54 |
 | Status | Commercial |
+| Price | US$9,600 · list price · 2026-11-17 · [store.agibot.com](https://store.agibot.com/products/d1-ultra) |
 | API | yes |
 | SDK | yes |
 
