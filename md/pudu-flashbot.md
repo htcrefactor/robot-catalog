@@ -3,7 +3,7 @@
 > Pudu's multi-compartment building-delivery robot that rides elevators to deliver to hotel rooms and offices.
 
 - Catalog page: https://htcrefactor.github.io/robot-catalog/robot.html?id=pudu-flashbot
-- Category: Indoor delivery
+- Category: Indoor service
 - Locomotion: Wheeled
 - Manufacturer: Pudu Robotics (China)
 - Verification: official — checked against a maker source
@@ -43,4 +43,4 @@ Listed by these directories (discovery only, never used as a spec source):
 
 ---
 
-*Robot Catalog — generated from data/robots.json (last merged 2026-11-22). Source repository: https://github.com/htcrefactor/robot-catalog*
+*Robot Catalog — generated from data/robots.json (last merged 2026-11-28). Source repository: https://github.com/htcrefactor/robot-catalog*

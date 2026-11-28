@@ -1,0 +1,102 @@
+{
+ "id": "dogu-iroi",
+ "name": "IROI",
+ "manufacturer": "DOGU",
+ "updated": "2026-11-28",
+ "events": [
+  {
+   "date": "2026-11-28",
+   "type": "updated",
+   "source": "https://www.dogu.xyz/product-iroi",
+   "changes": [
+    {
+     "field": "category",
+     "from": "AMR",
+     "to": "Indoor service"
+    },
+    {
+     "field": "height_mm",
+     "from": null,
+     "to": 1440
+    },
+    {
+     "field": "length_mm",
+     "from": null,
+     "to": 578
+    },
+    {
+     "field": "max_speed_mps",
+     "from": null,
+     "to": 1.2
+    },
+    {
+     "field": "min_speed_mps",
+     "from": null,
+     "to": 0.5
+    },
+    {
+     "field": "note",
+     "from": null,
+     "to": "Maker page checked 2026-11-28: W 695.5 x D 578 x H 1440 mm (recorded as length 578, width 695.5), 100 kg, 0.5 m/s nominal with 1.2 m/s maximum, 100 W x 2 motors, Full HD front display, maximum operating time 8 h and charging 6 h. The page writes the power pack as \"1,536W x 2\"; the unit is ambiguous (W, Wh or mAh are all implausible as written), so battery_wh is left empty rather than converted. Sensors per the page: 3D LiDAR scanning a radius of about 50 m, 2D LiDAR, ultrasonic sensors, five cameras plus thermal camera and fire sensor, UVA/UVC lamps, and SOS/Planner remote software. Category moved from AMR to Indoor service on 2026-11-28 (issue #109): the maker describes an indoor security, guidance and disinfection patrol robot, a service task rather than industrial material transport."
+    },
+    {
+     "field": "official_url",
+     "from": null,
+     "to": "https://www.dogu.xyz/product-iroi"
+    },
+    {
+     "field": "runtime_h",
+     "from": null,
+     "to": 8.0
+    },
+    {
+     "field": "sensors",
+     "from": [],
+     "to": [
+      "3D LiDAR (about 50 m radius)",
+      "2D LiDAR",
+      "Ultrasonic sensors",
+      "Five cameras (front, rear, left, right and top)",
+      "Thermal camera",
+      "Fire detection sensor",
+      "Microphones and speaker",
+      "Full HD front display",
+      "UVA and UVC disinfection lamps"
+     ]
+    },
+    {
+     "field": "sources",
+     "from": [],
+     "to": [
+      "https://www.dogu.xyz/product-iroi"
+     ]
+    },
+    {
+     "field": "status",
+     "from": null,
+     "to": "Commercial"
+    },
+    {
+     "field": "summary",
+     "from": "",
+     "to": "DOGU's indoor AI security and guidance robot: a 1.44 m wheeled patrol platform with 3D/2D LiDAR, five cameras, gas and fire sensing and UVC disinfection, used for night patrol and daytime guidance."
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "official"
+    },
+    {
+     "field": "weight_kg",
+     "from": null,
+     "to": 100
+    },
+    {
+     "field": "width_mm",
+     "from": null,
+     "to": 695.5
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,25 @@
+{
+ "id": "smp-robotics-argus-s5-4",
+ "name": "Argus S5.4",
+ "manufacturer": "SMP Robotics",
+ "updated": "2026-11-28",
+ "events": [
+  {
+   "date": "2026-11-28",
+   "type": "updated",
+   "source": "https://smprobotics.com/usa/argus-s5-4-nvidia-jetson-orin-third-party-ai-software",
+   "changes": [
+    {
+     "field": "category",
+     "from": "Mobile platform",
+     "to": "Outdoor service"
+    },
+    {
+     "field": "note",
+     "from": "Shipping from March 2026; NVIDIA Jetson Orin NX for third-party AI apps (SMP Store), dual-system design, API. Speed 4-6 km/h and IP65 are stated for the Argus outdoor patrol platform generally (max 6 km/h used).",
+     "to": "Shipping from March 2026; NVIDIA Jetson Orin NX for third-party AI apps (SMP Store), dual-system design, API. Speed 4-6 km/h and IP65 are stated for the Argus outdoor patrol platform generally (max 6 km/h used). Category moved from Mobile platform to Outdoor service on 2026-11-28 (issue #109): a complete outdoor security patrol robot, not a chassis for builders."
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,25 @@
+{
+ "id": "diligent-robotics-moxi",
+ "name": "Moxi",
+ "manufacturer": "Diligent Robotics",
+ "updated": "2026-11-28",
+ "events": [
+  {
+   "date": "2026-11-28",
+   "type": "updated",
+   "source": "https://www.diligentrobots.com/moxi",
+   "changes": [
+    {
+     "field": "category",
+     "from": "Indoor delivery",
+     "to": "Indoor service"
+    },
+    {
+     "field": "note",
+     "from": "Maker product page + Moxi 2.0 announcement (Oct 2025; rollout Aug 2026, NVIDIA Thor compute). Maker publishes no dimensions/weight/speed; aggregator figures (136 kg, 152 cm) left null. Category 'Indoor delivery' ok but it is a mobile manipulator (one arm).",
+     "to": "Maker product page + Moxi 2.0 announcement (Oct 2025; rollout Aug 2026, NVIDIA Thor compute). Maker publishes no dimensions/weight/speed; aggregator figures (136 kg, 152 cm) left null. Category 'Indoor service' ok but it is a mobile manipulator (one arm)."
+    }
+   ]
+  }
+ ]
+}

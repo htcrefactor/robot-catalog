@@ -1,0 +1,25 @@
+{
+ "id": "cobalt-robot",
+ "name": "Cobalt Robot",
+ "manufacturer": "Cobalt AI",
+ "updated": "2026-11-28",
+ "events": [
+  {
+   "date": "2026-11-28",
+   "type": "updated",
+   "source": "https://www.cobaltai.com/security-robots",
+   "changes": [
+    {
+     "field": "category",
+     "from": "Mobile platform",
+     "to": "Indoor service"
+    },
+    {
+     "field": "note",
+     "from": "Indoor security patrol robot from Cobalt AI (formerly Cobalt Robotics); sold as a service with Cobalt Monitoring Intelligence. Height 5'1\" per maker spec sheet.",
+     "to": "Indoor security patrol robot from Cobalt AI (formerly Cobalt Robotics); sold as a service with Cobalt Monitoring Intelligence. Height 5'1\" per maker spec sheet. Category moved from Mobile platform to Indoor service on 2026-11-28 (issue #109): a complete indoor security patrol robot sold as a service, not a chassis for builders."
+    }
+   ]
+  }
+ ]
+}

@@ -3,7 +3,7 @@
 > Three-tray restaurant delivery robot (10 kg per tray) with LiDAR and 3D camera, 1.2 m/s and 14–20 h uptime.
 
 - Catalog page: https://htcrefactor.github.io/robot-catalog/robot.html?id=gausium-delivery-x1
-- Category: Indoor delivery
+- Category: Indoor service
 - Locomotion: Wheeled
 - Manufacturer: Gausium (China)
 - Verification: official — checked against a maker source
@@ -42,4 +42,4 @@ Listed by these directories (discovery only, never used as a spec source):
 
 ---
 
-*Robot Catalog — generated from data/robots.json (last merged 2026-11-22). Source repository: https://github.com/htcrefactor/robot-catalog*
+*Robot Catalog — generated from data/robots.json (last merged 2026-11-28). Source repository: https://github.com/htcrefactor/robot-catalog*

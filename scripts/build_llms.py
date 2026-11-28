@@ -25,7 +25,7 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 # Category order used by the site (assets/app.js CATS).
 CATS = ["AMR", "AGV", "Humanoid", "Quadruped", "Wheel-legged",
-        "Indoor delivery", "Outdoor delivery", "Mobile platform", "Misc"]
+        "Indoor service", "Outdoor service", "Mobile platform", "Misc"]
 
 # Full-spec group order used by the site (assets/specs-i18n.js GROUPS), plus the legacy Payload group.
 GROUPS = ["Identity", "Dimensions & Mass", "Mobility & Performance", "Terrain & Navigation Limits",
@@ -295,7 +295,7 @@ def build_llms(data, specs):
     a("# Robot Catalog")
     a("")
     a("> Open catalog of %d mobile robots in %d categories — humanoids, quadrupeds, AMRs, AGVs, "
-      "wheel-legged robots, delivery robots and development platforms — each with its published "
+      "wheel-legged robots, service robots and development platforms — each with its published "
       "specs and the maker source behind every value." % (len(robots), len(cats)))
     a("")
     a("Robot Catalog is a static, bilingual (English/Korean) catalog of mobile robots by %d makers. "

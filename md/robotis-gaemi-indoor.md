@@ -3,7 +3,7 @@
 > Indoor autonomous service robot with a robotic arm that rides elevators and delivers items in hotels, hospitals and offices.
 
 - Catalog page: https://htcrefactor.github.io/robot-catalog/robot.html?id=robotis-gaemi-indoor
-- Category: Indoor delivery
+- Category: Indoor service
 - Locomotion: Wheeled
 - Manufacturer: ROBOTIS (South Korea)
 - Verification: official — checked against a maker source
@@ -36,4 +36,4 @@ Listed by these directories (discovery only, never used as a spec source):
 
 ---
 
-*Robot Catalog — generated from data/robots.json (last merged 2026-11-22). Source repository: https://github.com/htcrefactor/robot-catalog*
+*Robot Catalog — generated from data/robots.json (last merged 2026-11-28). Source repository: https://github.com/htcrefactor/robot-catalog*

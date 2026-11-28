@@ -3,7 +3,7 @@
 > Compact indoor-outdoor autonomous delivery robot for light, secured point-to-point deliveries on sidewalks, campuses and industrial sites.
 
 - Catalog page: https://htcrefactor.github.io/robot-catalog/robot.html?id=cartken-courier
-- Category: Outdoor delivery
+- Category: Outdoor service
 - Locomotion: Wheeled
 - Manufacturer: Cartken (United States)
 - Verification: official — checked against a maker source
@@ -43,4 +43,4 @@ Listed by these directories (discovery only, never used as a spec source):
 
 ---
 
-*Robot Catalog — generated from data/robots.json (last merged 2026-11-22). Source repository: https://github.com/htcrefactor/robot-catalog*
+*Robot Catalog — generated from data/robots.json (last merged 2026-11-28). Source repository: https://github.com/htcrefactor/robot-catalog*

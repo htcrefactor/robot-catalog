@@ -3,7 +3,7 @@
 > LiDAR-SLAM delivery robot for hotels, hospitals and offices, 1.2 m/s, about 8 h battery, with open SDK/API.
 
 - Catalog page: https://htcrefactor.github.io/robot-catalog/robot.html?id=anseboo-as09
-- Category: Indoor delivery
+- Category: Indoor service
 - Locomotion: Wheeled
 - Manufacturer: Anseboo (China)
 - Verification: official — checked against a maker source
@@ -40,4 +40,4 @@ Listed by these directories (discovery only, never used as a spec source):
 
 ---
 
-*Robot Catalog — generated from data/robots.json (last merged 2026-11-22). Source repository: https://github.com/htcrefactor/robot-catalog*
+*Robot Catalog — generated from data/robots.json (last merged 2026-11-28). Source repository: https://github.com/htcrefactor/robot-catalog*

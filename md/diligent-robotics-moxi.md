@@ -3,7 +3,7 @@
 > Hospital mobile manipulator that autonomously delivers medications, lab samples and supplies, using elevators and secure doors.
 
 - Catalog page: https://htcrefactor.github.io/robot-catalog/robot.html?id=diligent-robotics-moxi
-- Category: Indoor delivery
+- Category: Indoor service
 - Locomotion: Wheeled
 - Manufacturer: Diligent Robotics (United States)
 - Verification: official — checked against a maker source
@@ -24,7 +24,7 @@ The full spec sheet for this robot is still being researched; the catalog core f
 
 ## Notes
 
-Maker product page + Moxi 2.0 announcement (Oct 2025; rollout Aug 2026, NVIDIA Thor compute). Maker publishes no dimensions/weight/speed; aggregator figures (136 kg, 152 cm) left null. Category 'Indoor delivery' ok but it is a mobile manipulator (one arm).
+Maker product page + Moxi 2.0 announcement (Oct 2025; rollout Aug 2026, NVIDIA Thor compute). Maker publishes no dimensions/weight/speed; aggregator figures (136 kg, 152 cm) left null. Category 'Indoor service' ok but it is a mobile manipulator (one arm).
 
 ## Sources
 
@@ -40,4 +40,4 @@ Listed by these directories (discovery only, never used as a spec source):
 
 ---
 
-*Robot Catalog — generated from data/robots.json (last merged 2026-11-22). Source repository: https://github.com/htcrefactor/robot-catalog*
+*Robot Catalog — generated from data/robots.json (last merged 2026-11-28). Source repository: https://github.com/htcrefactor/robot-catalog*

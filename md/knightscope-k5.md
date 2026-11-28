@@ -3,7 +3,7 @@
 > Outdoor autonomous security robot patrolling parking lots and campuses with 360° HD video, thermal imaging and license plate recognition.
 
 - Catalog page: https://htcrefactor.github.io/robot-catalog/robot.html?id=knightscope-k5
-- Category: Mobile platform
+- Category: Outdoor service
 - Locomotion: Wheeled
 - Manufacturer: Knightscope (United States)
 - Verification: official — checked against a maker source
@@ -29,7 +29,7 @@ The full spec sheet for this robot is still being researched; the catalog core f
 
 ## Notes
 
-Outdoor autonomous security robot. Weight 420 lb; 64.6 x 34.9 x 44.6 in; up to 3 mph; patrol 2.5-3 h between charges.
+Outdoor autonomous security robot. Weight 420 lb; 64.6 x 34.9 x 44.6 in; up to 3 mph; patrol 2.5-3 h between charges. Category moved from Mobile platform to Outdoor service on 2026-11-28 (issue #109): a complete outdoor security patrol robot, not a chassis for builders.
 
 ## Sources
 
@@ -42,4 +42,4 @@ Listed by these directories (discovery only, never used as a spec source):
 
 ---
 
-*Robot Catalog — generated from data/robots.json (last merged 2026-11-22). Source repository: https://github.com/htcrefactor/robot-catalog*
+*Robot Catalog — generated from data/robots.json (last merged 2026-11-28). Source repository: https://github.com/htcrefactor/robot-catalog*

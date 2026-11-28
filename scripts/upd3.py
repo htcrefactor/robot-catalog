@@ -49,7 +49,7 @@ add_rec('humanoid', mk(id='aeirobot-alice-3', name='ALICE 3', manufacturer='AeiR
     summary='Korean research humanoid with human-like proportions: 144 cm, 27.5 kg, 27 DoF.',
     note='Maker spec box: 144 cm / 27.5 kg; 27 DoF = leg 6x2, waist 1, arm 7x2, head 2; says specs vary with options.'))
 PK = 'https://www.pudurobotics.com/en/products/kettybot_pro'
-add_rec('delivery', mk(id='pudu-kettybot-pro', name='KettyBot Pro', manufacturer='Pudu Robotics', country='China', category='Indoor delivery', locomotion='Wheeled', status='Commercial', weight_kg=38, max_speed_mps=1.2, runtime_h=9, official_url=PK, sources=[PK], seen_on=[buyl(['KettyBot Pro'])], verification='official',
+add_rec('service', mk(id='pudu-kettybot-pro', name='KettyBot Pro', manufacturer='Pudu Robotics', country='China', category='Indoor service', locomotion='Wheeled', status='Commercial', weight_kg=38, max_speed_mps=1.2, runtime_h=9, official_url=PK, sources=[PK], seen_on=[buyl(['KettyBot Pro'])], verification='official',
     sensors=['360° fisheye lenses', 'Smart tray detection'],
     summary='Restaurant and retail delivery and reception robot with an 18.5-inch advertising display and tray-load detection.',
     note='Maker page: 38 kg, 10 kg per layer, 9 h runtime (no load), cruise speed up to 1.2 m/s, 3.5 h charge, clearance >=52 cm.'))

@@ -5,9 +5,9 @@
 - Canonical site: https://htcrefactor.github.io/robot-catalog/
 - Index for agents: https://htcrefactor.github.io/robot-catalog/llms.txt
 - Per-robot Markdown with the full spec sheet and a source on every value: https://htcrefactor.github.io/robot-catalog/md/<id>.md
-- Generated from data/robots.json, last merged 2026-11-22. No scoring, no ranking.
+- Generated from data/robots.json, last merged 2026-11-28. No scoring, no ranking.
 
-## AMR (96)
+## AMR (93)
 
 ### 6 River Systems (Ocado Intelligent Automation) Chuck
 
@@ -38,16 +38,6 @@
 - Summary: Addverb's fleet-based robotic parcel/SKU sorter that drops items into destination chutes at up to 30,000 sorts/hour.
 - Specs: Max speed 2 m/s (7.2 km/h); Runtime 4 h; Status Commercial; Sensors ToF laser sensor (obstacle detection), Ground-marker reader
 - Sources: https://addverb.com/automated-warehouse-robots/sorting-robots/robotic-sorter/
-
-### Aethon (ST Engineering) T3
-
-- id: `aethon-t3`
-- Page: https://htcrefactor.github.io/robot-catalog/robot.html?id=aethon-t3
-- Markdown: https://htcrefactor.github.io/robot-catalog/md/aethon-t3.md
-- AMR · Wheeled · Commercial · United States
-- Summary: Omnidirectional autonomous mobile robot that picks up and transports carts in hospitals and hotels without navigation infrastructure.
-- Specs: Width 570 mm; Height 1,222 mm; Payload 340 kg; Max speed 0.76 m/s (2.7 km/h); Runtime 9 h; Status Commercial
-- Sources: https://aethon.com/t3, https://aethon.com/wp-content/uploads/2025/06/Aethon_SpecSheet_T3-1.pdf
 
 ### AGILOX AGILOX OCF
 
@@ -184,14 +174,6 @@
 - Summary: Autonomous tow tractor (Motrec MT-160 with Cyngn DriveMod) that hauls cart trains up to 12,000 lb through live plant traffic with auto-unhitch.
 - Specs: Length 1,651 mm; Width 762 mm; Height 1,397 mm; Weight 567 kg; Payload 226.8 kg; Max speed 1.79 m/s (6.4 km/h); Runtime 12 h; Released 2024; Status Commercial; Sensors 360° 3D LiDAR, 2D safety LiDAR, Virtual Bumper
 - Sources: https://www.cyngn.com/vehicles/autonomous-tugger, https://www.cyngn.com/hubfs/3.5.26%20DriveMod%20Tugger%20Specifications.pdf
-
-### DOGU IROI
-
-- id: `dogu-iroi`
-- Page: https://htcrefactor.github.io/robot-catalog/robot.html?id=dogu-iroi
-- Markdown: https://htcrefactor.github.io/robot-catalog/md/dogu-iroi.md
-- AMR · Wheeled
-- Sources: none recorded
 
 ### DOGU Patrover
 
@@ -544,16 +526,6 @@
 - Markdown: https://htcrefactor.github.io/robot-catalog/md/otsaw-o-r3.md
 - AMR · Wheeled · Singapore
 - Sources: none recorded
-
-### Otsaw TransCar K2
-
-- id: `otsaw-transcar-k2`
-- Page: https://htcrefactor.github.io/robot-catalog/robot.html?id=otsaw-transcar-k2
-- Markdown: https://htcrefactor.github.io/robot-catalog/md/otsaw-transcar-k2.md
-- AMR · Wheeled · Commercial · Singapore
-- Summary: Heavy-duty hospital AGV that lifts and autonomously transports meal, linen, medication and waste trolleys.
-- Specs: Payload 500 kg; Status Commercial
-- Sources: https://www.versigen.com.au/wp-content/uploads/2024/05/versigen-transcar-brochure.pdf, https://pdf.medicalexpo.com/pdf/otsaw-swisslog-healthcare-robotics/transcar-automated-guided-vehicle-brochure/4579365-263713.html, https://www.linkedin.com/posts/otsaw-digital_fhahoreca-transcar-robotics-activity-7252856500585447425-TF1w
 
 ### OTTO by Rockwell Automation OTTO 1200
 
@@ -1105,7 +1077,7 @@
 - Specs: Length 1,620 mm; Width 800 mm; Height 1,830 mm; Weight 520 kg; Payload 2,000 kg; Max speed 1.8 m/s (6.5 km/h); Released 2023; Status Commercial
 - Sources: https://www.visionnav.com/product/detail/VNST20-Pallet-Stacker-AGV, https://www.visionnav.com/news/detail/detail298.html
 
-## Humanoid (565)
+## Humanoid (564)
 
 ### 1X Technologies EVE
 
@@ -2077,14 +2049,6 @@
 - Summary: Dual-column wheeled humanoid with four-wheel-drive, four-wheel-steer chassis and 20 kg payload for household, industrial and commercial tasks.
 - Specs: Payload 20 kg; Status Commercial
 - Sources: https://www.alpharobotics.ai/product-detail2/g1.html
-
-### CSJBot (Alpha Robotics) CatCop
-
-- id: `csjbot-catcop`
-- Page: https://htcrefactor.github.io/robot-catalog/robot.html?id=csjbot-catcop
-- Markdown: https://htcrefactor.github.io/robot-catalog/md/csjbot-catcop.md
-- Humanoid · China
-- Sources: none recorded
 
 ### CSJBot (Alpha Robotics) Ciao
 
@@ -8576,14 +8540,24 @@
 - Specs: Length 682 mm; Width 354 mm; Height 532 mm; Weight 20 kg; Payload 12 kg; Max speed 5 m/s (18.0 km/h); Runtime 1.5 h; IP rating IP54; Status Commercial
 - Sources: https://www.yuejialingdong.com/yuejiasizuxilie/56.html, https://wrc.cie.org.cn/profile/robot/download/2026/07/22/20260722102923000455_20260722102923A213.pdf
 
-## Indoor delivery (58)
+## Indoor service (62)
+
+### Aethon (ST Engineering) T3
+
+- id: `aethon-t3`
+- Page: https://htcrefactor.github.io/robot-catalog/robot.html?id=aethon-t3
+- Markdown: https://htcrefactor.github.io/robot-catalog/md/aethon-t3.md
+- Indoor service · Wheeled · Commercial · United States
+- Summary: Omnidirectional autonomous mobile robot that picks up and transports carts in hospitals and hotels without navigation infrastructure.
+- Specs: Width 570 mm; Height 1,222 mm; Payload 340 kg; Max speed 0.76 m/s (2.7 km/h); Runtime 9 h; Status Commercial
+- Sources: https://aethon.com/t3, https://aethon.com/wp-content/uploads/2025/06/Aethon_SpecSheet_T3-1.pdf
 
 ### Aethon (ST Engineering) Zena
 
 - id: `aethon-zena`
 - Page: https://htcrefactor.github.io/robot-catalog/robot.html?id=aethon-zena
 - Markdown: https://htcrefactor.github.io/robot-catalog/md/aethon-zena.md
-- Indoor delivery · Wheeled · Commercial · United States
+- Indoor service · Wheeled · Commercial · United States
 - Summary: Hotel delivery robot with lockable, reconfigurable compartments opened by a PIN sent to the guest's phone.
 - Specs: Payload 45 kg; Max speed 0.76 m/s (2.7 km/h); Runtime 10 h; Status Commercial; Sensors LiDAR, Side-curtain LiDAR, 3D sensors, Sonar
 - Sources: https://aethon.com/hospitality-robot-zena/, https://aethon.com/wp-content/uploads/2025/06/Aethon_SpecSheet_Zena-1.pdf
@@ -8593,7 +8567,7 @@
 - id: `ai-robotics-ugo`
 - Page: https://htcrefactor.github.io/robot-catalog/robot.html?id=ai-robotics-ugo
 - Markdown: https://htcrefactor.github.io/robot-catalog/md/ai-robotics-ugo.md
-- Indoor delivery · Wheeled · France
+- Indoor service · Wheeled · France
 - Sources: none recorded
 
 ### Aldebaran Plato
@@ -8601,7 +8575,7 @@
 - id: `aldebaran-plato`
 - Page: https://htcrefactor.github.io/robot-catalog/robot.html?id=aldebaran-plato
 - Markdown: https://htcrefactor.github.io/robot-catalog/md/aldebaran-plato.md
-- Indoor delivery · Wheeled · France
+- Indoor service · Wheeled · France
 - Sources: none recorded
 
 ### Anseboo AS07
@@ -8609,7 +8583,7 @@
 - id: `anseboo-as07`
 - Page: https://htcrefactor.github.io/robot-catalog/robot.html?id=anseboo-as07
 - Markdown: https://htcrefactor.github.io/robot-catalog/md/anseboo-as07.md
-- Indoor delivery · Wheeled · China
+- Indoor service · Wheeled · China
 - Sources: none recorded
 
 ### Anseboo AS09
@@ -8617,7 +8591,7 @@
 - id: `anseboo-as09`
 - Page: https://htcrefactor.github.io/robot-catalog/robot.html?id=anseboo-as09
 - Markdown: https://htcrefactor.github.io/robot-catalog/md/anseboo-as09.md
-- Indoor delivery · Wheeled · Commercial · China
+- Indoor service · Wheeled · Commercial · China
 - Summary: LiDAR-SLAM delivery robot for hotels, hospitals and offices, 1.2 m/s, about 8 h battery, with open SDK/API.
 - Specs: Weight 45 kg; Max speed 1.2 m/s (4.3 km/h); Runtime 8 h; Status Commercial; API yes; SDK yes; Sensors LiDAR
 - Sources: https://www.anseboo.com/en/products/robot-server-delivery-hospital-hotel-office-delivery-amr-waiter-robot
@@ -8627,7 +8601,7 @@
 - id: `anseboo-as10`
 - Page: https://htcrefactor.github.io/robot-catalog/robot.html?id=anseboo-as10
 - Markdown: https://htcrefactor.github.io/robot-catalog/md/anseboo-as10.md
-- Indoor delivery · Wheeled · Commercial · China
+- Indoor service · Wheeled · Commercial · China
 - Summary: Hotel cross-floor delivery robot with elevator control, locking door, 20 kg payload, 1.2 m/s and 6–8 h battery.
 - Specs: Length 520 mm; Width 510 mm; Height 930 mm; Weight 55 kg; Payload 20 kg; Max speed 1.2 m/s (4.3 km/h); Runtime 6 h; Status Commercial; API yes; SDK yes; Sensors LiDAR
 - Sources: https://www.anseboo.com/en/products/hotel-deliver-robot-cross-floor-control-elevator-intelligent-distribution-robot-with-lock-door-commercial-delivery-robot-1
@@ -8637,7 +8611,7 @@
 - id: `anseboo-ca01`
 - Page: https://htcrefactor.github.io/robot-catalog/robot.html?id=anseboo-ca01
 - Markdown: https://htcrefactor.github.io/robot-catalog/md/anseboo-ca01.md
-- Indoor delivery · Wheeled · China
+- Indoor service · Wheeled · China
 - Sources: none recorded
 
 ### Anseboo CA02
@@ -8645,7 +8619,7 @@
 - id: `anseboo-ca02`
 - Page: https://htcrefactor.github.io/robot-catalog/robot.html?id=anseboo-ca02
 - Markdown: https://htcrefactor.github.io/robot-catalog/md/anseboo-ca02.md
-- Indoor delivery · Wheeled · China
+- Indoor service · Wheeled · China
 - Sources: none recorded
 
 ### Anseboo FD09
@@ -8653,7 +8627,7 @@
 - id: `anseboo-fd09`
 - Page: https://htcrefactor.github.io/robot-catalog/robot.html?id=anseboo-fd09
 - Markdown: https://htcrefactor.github.io/robot-catalog/md/anseboo-fd09.md
-- Indoor delivery · Wheeled · China
+- Indoor service · Wheeled · China
 - Sources: none recorded
 
 ### Bear Robotics Servi
@@ -8661,7 +8635,7 @@
 - id: `bear-robotics-servi`
 - Page: https://htcrefactor.github.io/robot-catalog/robot.html?id=bear-robotics-servi
 - Markdown: https://htcrefactor.github.io/robot-catalog/md/bear-robotics-servi.md
-- Indoor delivery · Wheeled · United States
+- Indoor service · Wheeled · United States
 - Sources: none recorded
 
 ### Bear Robotics Servi Plus
@@ -8669,7 +8643,7 @@
 - id: `bear-robotics-servi-plus`
 - Page: https://htcrefactor.github.io/robot-catalog/robot.html?id=bear-robotics-servi-plus
 - Markdown: https://htcrefactor.github.io/robot-catalog/md/bear-robotics-servi-plus.md
-- Indoor delivery · Wheeled · Commercial · United States
+- Indoor service · Wheeled · Commercial · United States
 - Summary: High-capacity restaurant serving robot with 2-4 trays (10 kg each) and active suspension for soups and drinks.
 - Specs: Length 590 mm; Width 535 mm; Height 1,230 mm; Payload 40 kg; Max speed 1.2 m/s (4.3 km/h); Min speed 0.1 m/s; Runtime 10 h; Status Commercial; Price battery life stated as 10-12 h; lower bound recorded
 - Sources: https://www.bearrobotics.ai/servi-plus, https://www.bearrobotics.ai/s/200-Servi-Plus_User-Manual_EN.pdf
@@ -8679,17 +8653,27 @@
 - id: `bear-robotics-servi-q`
 - Page: https://htcrefactor.github.io/robot-catalog/robot.html?id=bear-robotics-servi-q
 - Markdown: https://htcrefactor.github.io/robot-catalog/md/bear-robotics-servi-q.md
-- Indoor delivery · Wheeled · Commercial · United States · released 2026
+- Indoor service · Wheeled · Commercial · United States · released 2026
 - Summary: Compact restaurant serving robot that navigates 45 cm aisles and carries up to 30 kg across 1-3 trays, with an 18.5-inch ad display.
 - Specs: Length 466 mm; Width 350 mm; Height 1,060 mm; Weight 45 kg; Payload 30 kg; Max speed 0.7 m/s (2.5 km/h); Runtime 12 h; Released 2026; Status Commercial
 - Sources: https://www.bearrobotics.ai/servi-q
+
+### Cobalt AI Cobalt Robot
+
+- id: `cobalt-robot`
+- Page: https://htcrefactor.github.io/robot-catalog/robot.html?id=cobalt-robot
+- Markdown: https://htcrefactor.github.io/robot-catalog/md/cobalt-robot.md
+- Indoor service · Wheeled · Commercial · United States
+- Summary: Autonomous indoor security robot with 60+ sensors that patrols facilities and escalates anomalies to remote human specialists.
+- Specs: Height 1,549 mm; Status Commercial; On-board compute yes; Compute Onboard GPU; Sensors 360° camera, Thermal camera, Depth camera, LiDAR, Ultrasonic sensors, Environmental sensors, Badge reader, Microphones
+- Sources: https://www.cobaltai.com/security-robots, https://cobaltrobotics.com/wp-content/uploads/2020/06/Cobalt-Robot-Spec-Sheet.pdf
 
 ### CSJBot (Alpha Robotics) Amy Delivery
 
 - id: `csjbot-amy-delivery`
 - Page: https://htcrefactor.github.io/robot-catalog/robot.html?id=csjbot-amy-delivery
 - Markdown: https://htcrefactor.github.io/robot-catalog/md/csjbot-amy-delivery.md
-- Indoor delivery · Wheeled · Commercial · China
+- Indoor service · Wheeled · Commercial · China
 - Summary: Humanoid-styled restaurant delivery robot with double-layer trays, 13-inch ad screen, voice dish introduction and LiDAR navigation.
 - Specs: Length 780 mm; Width 560 mm; Height 1,500 mm; Weight 45 kg; Payload 5 kg; Max speed 1.5 m/s (5.4 km/h); Runtime 8 h; Status Commercial; Sensors 40 m LiDAR, Infrared sensors, Ultrasonic sensors
 - Sources: https://www.alpharobotics.ai/product-detail1/amy-delivery-robot.html
@@ -8699,7 +8683,7 @@
 - id: `csjbot-panda`
 - Page: https://htcrefactor.github.io/robot-catalog/robot.html?id=csjbot-panda
 - Markdown: https://htcrefactor.github.io/robot-catalog/md/csjbot-panda.md
-- Indoor delivery · Wheeled · Commercial · China
+- Indoor service · Wheeled · Commercial · China
 - Summary: Multi-tray food delivery robot for restaurants, hotels and reception areas, carrying about 30 kg with autonomous navigation and charging.
 - Specs: Length 510 mm; Width 430 mm; Height 1,200 mm; Weight 43 kg; Payload 30 kg; Max speed 2 m/s (7.2 km/h); Runtime 8 h; Status Commercial; Sensors LiDAR, Infrared sensors, Ultrasonic sensors
 - Sources: https://www.alpharobotics.ai/product-detail1/panda-delivery-robot.html
@@ -8709,7 +8693,7 @@
 - id: `csjbot-panda-ultra`
 - Page: https://htcrefactor.github.io/robot-catalog/robot.html?id=csjbot-panda-ultra
 - Markdown: https://htcrefactor.github.io/robot-catalog/md/csjbot-panda-ultra.md
-- Indoor delivery · Wheeled · Commercial · China
+- Indoor service · Wheeled · Commercial · China
 - Summary: Restaurant delivery robot with food delivery, dish introduction, guest reception and advertising functions.
 - Specs: Status Commercial
 - Sources: https://www.alpharobotics.ai/product-detail2/panda-ultra.html
@@ -8719,17 +8703,27 @@
 - id: `diligent-robotics-moxi`
 - Page: https://htcrefactor.github.io/robot-catalog/robot.html?id=diligent-robotics-moxi
 - Markdown: https://htcrefactor.github.io/robot-catalog/md/diligent-robotics-moxi.md
-- Indoor delivery · Wheeled · Commercial · United States
+- Indoor service · Wheeled · Commercial · United States
 - Summary: Hospital mobile manipulator that autonomously delivers medications, lab samples and supplies, using elevators and secure doors.
 - Specs: Status Commercial; Compute NVIDIA Jetson Thor (Moxi 2.0); Sensors 3D LiDAR (Moxi 2.0)
 - Sources: https://www.diligentrobots.com/moxi, https://www.diligentrobots.com/faq, https://www.diligentrobots.com/blog/moxi2-0, https://www.diligentrobots.com/blog/diligent-robotics-a-serve-robotics-company-begins-rolling-out-moxi-20
+
+### DOGU IROI
+
+- id: `dogu-iroi`
+- Page: https://htcrefactor.github.io/robot-catalog/robot.html?id=dogu-iroi
+- Markdown: https://htcrefactor.github.io/robot-catalog/md/dogu-iroi.md
+- Indoor service · Wheeled · Commercial
+- Summary: DOGU's indoor AI security and guidance robot: a 1.44 m wheeled patrol platform with 3D/2D LiDAR, five cameras, gas and fire sensing and UVC disinfection, used for night patrol and daytime guidance.
+- Specs: Length 578 mm; Width 695.5 mm; Height 1,440 mm; Weight 100 kg; Max speed 1.2 m/s (4.3 km/h); Min speed 0.5 m/s; Runtime 8 h; Status Commercial; Sensors 3D LiDAR (about 50 m radius), 2D LiDAR, Ultrasonic sensors, Five cameras (front, rear, left, right and top), Thermal camera, Fire detection sensor, Microphones and speaker, Full HD front display, UVA and UVC disinfection lamps
+- Sources: https://www.dogu.xyz/product-iroi
 
 ### Future Robot FURo-S
 
 - id: `future-robot-furo-s`
 - Page: https://htcrefactor.github.io/robot-catalog/robot.html?id=future-robot-furo-s
 - Markdown: https://htcrefactor.github.io/robot-catalog/md/future-robot-furo-s.md
-- Indoor delivery · Wheeled · South Korea
+- Indoor service · Wheeled · South Korea
 - Sources: none recorded
 
 ### Gausium Delivery X1
@@ -8737,7 +8731,7 @@
 - id: `gausium-delivery-x1`
 - Page: https://htcrefactor.github.io/robot-catalog/robot.html?id=gausium-delivery-x1
 - Markdown: https://htcrefactor.github.io/robot-catalog/md/gausium-delivery-x1.md
-- Indoor delivery · Wheeled · Commercial · China
+- Indoor service · Wheeled · Commercial · China
 - Summary: Three-tray restaurant delivery robot (10 kg per tray) with LiDAR and 3D camera, 1.2 m/s and 14–20 h uptime.
 - Specs: Length 515 mm; Width 523 mm; Height 1,286 mm; Weight 35 kg; Payload 30 kg; Max speed 1.2 m/s (4.3 km/h); Runtime 14 h; Status Commercial; Sensors LiDAR, 3D camera
 - Sources: https://gausium.com/specs/delivery-x1/
@@ -8747,7 +8741,7 @@
 - id: `ipsum-tek-onyro`
 - Page: https://htcrefactor.github.io/robot-catalog/robot.html?id=ipsum-tek-onyro
 - Markdown: https://htcrefactor.github.io/robot-catalog/md/ipsum-tek-onyro.md
-- Indoor delivery · Wheeled · France
+- Indoor service · Wheeled · France
 - Sources: none recorded
 
 ### KEENON Robotics BUTLERBOT W3
@@ -8755,7 +8749,7 @@
 - id: `keenon-butlerbot-w3`
 - Page: https://htcrefactor.github.io/robot-catalog/robot.html?id=keenon-butlerbot-w3
 - Markdown: https://htcrefactor.github.io/robot-catalog/md/keenon-butlerbot-w3.md
-- Indoor delivery · Wheeled · Commercial · China
+- Indoor service · Wheeled · Commercial · China
 - Summary: Hotel and building delivery robot with up to four lockable compartments that rides elevators via IoT for multi-floor service.
 - Specs: Length 549 mm; Width 459 mm; Height 1,081 mm; Weight 48 kg; Payload 20 kg; Max speed 0.8 m/s (2.9 km/h); Runtime 12 h; Status Commercial
 - Sources: https://www.keenon.com/en/product/W3
@@ -8765,7 +8759,7 @@
 - id: `keenon-dinerbot-t10`
 - Page: https://htcrefactor.github.io/robot-catalog/robot.html?id=keenon-dinerbot-t10
 - Markdown: https://htcrefactor.github.io/robot-catalog/md/keenon-dinerbot-t10.md
-- Indoor delivery · Wheeled · Commercial · China
+- Indoor service · Wheeled · Commercial · China
 - Summary: Restaurant delivery and marketing robot with a 23.8-inch screen, movable head and open trays carrying 40 kg total.
 - Specs: Length 555 mm; Width 486 mm; Height 1,399 mm; Weight 58 kg; Payload 40 kg; Max speed 1 m/s (3.6 km/h); Runtime 9 h; Status Commercial; Sensors 4 stereo vision sensors, VSLAM, RGB camera
 - Sources: https://www.keenon.com/en/product/T10
@@ -8775,7 +8769,7 @@
 - id: `keenon-dinerbot-t11`
 - Page: https://htcrefactor.github.io/robot-catalog/robot.html?id=keenon-dinerbot-t11
 - Markdown: https://htcrefactor.github.io/robot-catalog/md/keenon-dinerbot-t11.md
-- Indoor delivery · Wheeled · Commercial · China
+- Indoor service · Wheeled · Commercial · China
 - Summary: Restaurant delivery and marketing robot with large display that navigates aisles as narrow as 49 cm using stereo-vision VSLAM.
 - Specs: Length 384 mm; Width 463 mm; Height 1,123 mm; Weight 38 kg; Payload 20 kg; Max speed 1 m/s (3.6 km/h); Min speed 0.1 m/s; Runtime 13.5 h; Status Commercial; Sensors Stereo vision sensors (x5), 3D vision
 - Sources: https://www.keenon.com/en/product/T11
@@ -8785,7 +8779,7 @@
 - id: `keenon-t2`
 - Page: https://htcrefactor.github.io/robot-catalog/robot.html?id=keenon-t2
 - Markdown: https://htcrefactor.github.io/robot-catalog/md/keenon-t2.md
-- Indoor delivery · Wheeled · Commercial · China · released 2018
+- Indoor service · Wheeled · Commercial · China · released 2018
 - Summary: Enclosed-cabin restaurant delivery robot from KEENON with large 160 L capacity and double-sided doors.
 - Specs: Length 470 mm; Width 590 mm; Height 1,315 mm; Weight 75 kg; Payload 40 kg; Max speed 1.2 m/s (4.3 km/h); Runtime 12 h; Battery 576 Wh; Released 2018; Status Commercial
 - Sources: https://www.keenon.com/, http://keenon.com/en/about, https://s3-ap-southeast-2.amazonaws.com/foodservice-australia-production/keenon-robotics/KEENON_Product-Brochure_EN_mini.pdf
@@ -8795,7 +8789,7 @@
 - id: `keenon-dinerbot-t3`
 - Page: https://htcrefactor.github.io/robot-catalog/robot.html?id=keenon-dinerbot-t3
 - Markdown: https://htcrefactor.github.io/robot-catalog/md/keenon-dinerbot-t3.md
-- Indoor delivery · Wheeled · Commercial · China
+- Indoor service · Wheeled · Commercial · China
 - Summary: Enclosed-cabin delivery robot with 180 L capacity, automatic doors and interior disinfection light for hygienic service.
 - Specs: Length 623 mm; Width 496 mm; Height 1,351 mm; Weight 71 kg; Payload 40 kg; Max speed 1 m/s (3.6 km/h); Min speed 0.1 m/s; Runtime 12 h; Status Commercial; Sensors 3D perception
 - Sources: https://www.keenon.com/en/product/T3
@@ -8805,7 +8799,7 @@
 - id: `keenon-dinerbot-t8`
 - Page: https://htcrefactor.github.io/robot-catalog/robot.html?id=keenon-dinerbot-t8
 - Markdown: https://htcrefactor.github.io/robot-catalog/md/keenon-dinerbot-t8.md
-- Indoor delivery · Wheeled · Commercial · China
+- Indoor service · Wheeled · Commercial · China
 - Summary: Slim restaurant tray-delivery robot that fits 55 cm aisles, with tray sensors and a 10.1-inch touchscreen.
 - Specs: Length 468 mm; Width 384 mm; Height 1,111 mm; Weight 34 kg; Payload 20 kg; Max speed 1 m/s (3.6 km/h); Runtime 15 h; Status Commercial; Sensors 3x stereo vision sensor
 - Sources: https://www.keenon.com/en/product/T8
@@ -8815,7 +8809,7 @@
 - id: `keenon-dinerbot-t9`
 - Page: https://htcrefactor.github.io/robot-catalog/robot.html?id=keenon-dinerbot-t9
 - Markdown: https://htcrefactor.github.io/robot-catalog/md/keenon-dinerbot-t9.md
-- Indoor delivery · Wheeled · Commercial · China
+- Indoor service · Wheeled · Commercial · China
 - Summary: High-load restaurant delivery robot carrying 40 kg on adjustable trays, with up to 18 h per charge.
 - Specs: Length 527 mm; Width 500 mm; Height 1,266 mm; Weight 63 kg; Payload 40 kg; Max speed 1 m/s (3.6 km/h); Min speed 0.1 m/s; Runtime 18 h; Status Commercial; Sensors 3D perception
 - Sources: https://www.keenon.com/en/product/T9
@@ -8825,7 +8819,7 @@
 - id: `keenon-t5`
 - Page: https://htcrefactor.github.io/robot-catalog/robot.html?id=keenon-t5
 - Markdown: https://htcrefactor.github.io/robot-catalog/md/keenon-t5.md
-- Indoor delivery · Wheeled · China
+- Indoor service · Wheeled · China
 - Sources: none recorded
 
 ### Kompai Robotics KOMPAÏ assist
@@ -8833,7 +8827,7 @@
 - id: `kompai-assist`
 - Page: https://htcrefactor.github.io/robot-catalog/robot.html?id=kompai-assist
 - Markdown: https://htcrefactor.github.io/robot-catalog/md/kompai-assist.md
-- Indoor delivery · Wheeled · France
+- Indoor service · Wheeled · France
 - Sources: none recorded
 
 ### Kompai Robotics KOMPAÏ delivery (range)
@@ -8841,7 +8835,7 @@
 - id: `kompai-delivery`
 - Page: https://htcrefactor.github.io/robot-catalog/robot.html?id=kompai-delivery
 - Markdown: https://htcrefactor.github.io/robot-catalog/md/kompai-delivery.md
-- Indoor delivery · Wheeled · Commercial · France
+- Indoor service · Wheeled · Commercial · France
 - Summary: Range of autonomous mobile robots for hospital logistics carrying medicines, medical supplies and containers through corridors and lifts.
 - Specs: Length 620 mm; Width 510 mm; Height 1,350 mm; Weight 45 kg; Payload 35 kg; Max speed 1 m/s (3.6 km/h); Runtime 8 h; Battery 1,500 Wh; Status Commercial; API yes
 - Sources: https://www.kompai.com/kompai-delivery, https://www.kompairobotics.com/en_US/kompai-delivery-top-module, https://drive.google.com/file/d/1mdSAZl4iV0vORtNukKUyQyzPimwwaI6Y/view, https://drive.google.com/file/d/1QpdIXfTpIAdVL3ycar9dRMn6N5Gor8Pa/view, https://www.kompairobotics.com/en_US/kompai-delivery
@@ -8851,7 +8845,7 @@
 - id: `lg-cloi-servebot`
 - Page: https://htcrefactor.github.io/robot-catalog/robot.html?id=lg-cloi-servebot
 - Markdown: https://htcrefactor.github.io/robot-catalog/md/lg-cloi-servebot.md
-- Indoor delivery · Wheeled · Discontinued · South Korea
+- Indoor service · Wheeled · Discontinued · South Korea
 - Summary: Restaurant and hospitality serving robot with four height-adjustable shelves, weight-sensing trays and six-wheel independent suspension.
 - Specs: Length 550 mm; Width 560 mm; Height 1,370 mm; Weight 51 kg; Payload 40 kg; Max speed 1.2 m/s (4.3 km/h); Runtime 11 h; Status Discontinued; Price runtime 11 h measured at 0.7 m/s; battery 25,000 mAh (voltage not stated); Sensors LiDAR, ToF sensor, RGBD camera, Load cell sensor
 - Sources: https://solutions.lg.com/us/cloi-servebot/lg-ldltr30, https://media.us.lg.com/m/64dc60ed87812982/original/LDLTR30-Series-Spec-Sheet.pdf, https://www.lge.co.kr/story/newsroom/225625
@@ -8861,7 +8855,7 @@
 - id: `orionstar-greetingbot-ad`
 - Page: https://htcrefactor.github.io/robot-catalog/robot.html?id=orionstar-greetingbot-ad
 - Markdown: https://htcrefactor.github.io/robot-catalog/md/orionstar-greetingbot-ad.md
-- Indoor delivery · Wheeled · China
+- Indoor service · Wheeled · China
 - Sources: none recorded
 
 ### OrionStar GreetingBot Nova
@@ -8869,7 +8863,7 @@
 - id: `orionstar-greetingbot-nova`
 - Page: https://htcrefactor.github.io/robot-catalog/robot.html?id=orionstar-greetingbot-nova
 - Markdown: https://htcrefactor.github.io/robot-catalog/md/orionstar-greetingbot-nova.md
-- Indoor delivery · Wheeled · China
+- Indoor service · Wheeled · China
 - Sources: none recorded
 
 ### OrionStar LuckiBot
@@ -8877,7 +8871,7 @@
 - id: `orionstar-luckibot`
 - Page: https://htcrefactor.github.io/robot-catalog/robot.html?id=orionstar-luckibot
 - Markdown: https://htcrefactor.github.io/robot-catalog/md/orionstar-luckibot.md
-- Indoor delivery · Wheeled · China
+- Indoor service · Wheeled · China
 - Sources: none recorded
 
 ### OrionStar LuckiBot Pro
@@ -8885,7 +8879,7 @@
 - id: `orionstar-luckibot-pro`
 - Page: https://htcrefactor.github.io/robot-catalog/robot.html?id=orionstar-luckibot-pro
 - Markdown: https://htcrefactor.github.io/robot-catalog/md/orionstar-luckibot-pro.md
-- Indoor delivery · Wheeled · China
+- Indoor service · Wheeled · China
 - Sources: none recorded
 
 ### OrionStar OrionStar Mini
@@ -8893,15 +8887,25 @@
 - id: `orionstar-mini`
 - Page: https://htcrefactor.github.io/robot-catalog/robot.html?id=orionstar-mini
 - Markdown: https://htcrefactor.github.io/robot-catalog/md/orionstar-mini.md
-- Indoor delivery · Wheeled · China
+- Indoor service · Wheeled · China
 - Sources: none recorded
+
+### Otsaw TransCar K2
+
+- id: `otsaw-transcar-k2`
+- Page: https://htcrefactor.github.io/robot-catalog/robot.html?id=otsaw-transcar-k2
+- Markdown: https://htcrefactor.github.io/robot-catalog/md/otsaw-transcar-k2.md
+- Indoor service · Wheeled · Commercial · Singapore
+- Summary: Heavy-duty hospital AGV that lifts and autonomously transports meal, linen, medication and waste trolleys.
+- Specs: Payload 500 kg; Status Commercial
+- Sources: https://www.versigen.com.au/wp-content/uploads/2024/05/versigen-transcar-brochure.pdf, https://pdf.medicalexpo.com/pdf/otsaw-swisslog-healthcare-robotics/transcar-automated-guided-vehicle-brochure/4579365-263713.html, https://www.linkedin.com/posts/otsaw-digital_fhahoreca-transcar-robotics-activity-7252856500585447425-TF1w
 
 ### Pudu Robotics BellaBot
 
 - id: `pudu-bellabot`
 - Page: https://htcrefactor.github.io/robot-catalog/robot.html?id=pudu-bellabot
 - Markdown: https://htcrefactor.github.io/robot-catalog/md/pudu-bellabot.md
-- Indoor delivery · Wheeled · Commercial · China
+- Indoor service · Wheeled · Commercial · China
 - Summary: Cat-faced restaurant and retail tray-delivery robot with four trays (10 kg each), dual LiDAR/visual SLAM and swappable battery.
 - Specs: Length 565 mm; Width 537 mm; Height 1,290 mm; Weight 55 kg; Payload 40 kg; Max speed 1.2 m/s (4.3 km/h); Min speed 0.5 m/s; Runtime 13 h; Status Commercial; Sensors LiDAR, 3x RGBD camera, Visual SLAM camera, Infrared tray sensors
 - Sources: https://www.pudurobotics.com/en/products/bellabot, https://www.pudurobotics.com/products/bellabot
@@ -8911,7 +8915,7 @@
 - id: `pudu-bellabot-pro`
 - Page: https://htcrefactor.github.io/robot-catalog/robot.html?id=pudu-bellabot-pro
 - Markdown: https://htcrefactor.github.io/robot-catalog/md/pudu-bellabot-pro.md
-- Indoor delivery · Wheeled · China
+- Indoor service · Wheeled · China
 - Sources: none recorded
 
 ### Pudu Robotics FlashBot
@@ -8919,7 +8923,7 @@
 - id: `pudu-flashbot`
 - Page: https://htcrefactor.github.io/robot-catalog/robot.html?id=pudu-flashbot
 - Markdown: https://htcrefactor.github.io/robot-catalog/md/pudu-flashbot.md
-- Indoor delivery · Wheeled · Commercial · China
+- Indoor service · Wheeled · Commercial · China
 - Summary: Pudu's multi-compartment building-delivery robot that rides elevators to deliver to hotel rooms and offices.
 - Specs: Length 538 mm; Width 534 mm; Height 1,052 mm; Weight 60 kg; Max speed 1.2 m/s (4.3 km/h); Runtime 9 h; Status Commercial; Sensors LiDAR, RGB-D cameras, VSLAM camera
 - Sources: https://www.pudurobotics.com/en/products/flashbot-new, https://cdn.pudutech.com/Flash_Bot_Max_Product_Flyer_20250218_EN_08ff8d7af7.pdf, https://academy.pudutech.com/en/docs/chan-pin-jian-jie-D00k
@@ -8929,7 +8933,7 @@
 - id: `pudu-flashbot-arm`
 - Page: https://htcrefactor.github.io/robot-catalog/robot.html?id=pudu-flashbot-arm
 - Markdown: https://htcrefactor.github.io/robot-catalog/md/pudu-flashbot-arm.md
-- Indoor delivery · Wheeled · Commercial · China · released 2025
+- Indoor service · Wheeled · Commercial · China · released 2025
 - Summary: Semi-humanoid delivery robot with two 7-DOF arms and PUDU DH11 hands that presses lift buttons, swipes cards and opens doors.
 - Specs: Length 539 mm; Width 515 mm; Height 1,440 mm; Payload 15 kg; Runtime 8 h; Released 2025; Status Commercial; Sensors RGB-D cameras, LiDAR, Panoramic cameras, Pressure-sensitive skin
 - Sources: https://www.pudurobotics.com/en/products/flashbot-arm, https://cdn.pudutech.com/Flash_Bot_Arm_Product_Flyer_20250416_EN_317ffcb373.pdf, https://www.pudurobotics.com/about/news/67e91a635ecba100435c836d
@@ -8939,7 +8943,7 @@
 - id: `pudu-flashbot-max`
 - Page: https://htcrefactor.github.io/robot-catalog/robot.html?id=pudu-flashbot-max
 - Markdown: https://htcrefactor.github.io/robot-catalog/md/pudu-flashbot-max.md
-- Indoor delivery · Wheeled · Commercial · China
+- Indoor service · Wheeled · Commercial · China
 - Specs: Length 538 mm; Width 534 mm; Height 1,052 mm; Weight 60 kg; Payload 10 kg; Max speed 1.2 m/s (4.3 km/h); Min speed 0.5 m/s; Runtime 9 h; Status Commercial; Sensors VSLAM+ and LiDAR SLAM navigation, 3D obstacle avoidance (multi-sensor fusion)
 - Sources: https://www.pudurobotics.com/en/products/flashbot-new, https://pudurobotics.com/de/products/flashbot-new
 
@@ -8948,7 +8952,7 @@
 - id: `pudu-holabot`
 - Page: https://htcrefactor.github.io/robot-catalog/robot.html?id=pudu-holabot
 - Markdown: https://htcrefactor.github.io/robot-catalog/md/pudu-holabot.md
-- Indoor delivery · Wheeled · Commercial · China
+- Indoor service · Wheeled · Commercial · China
 - Summary: High-capacity indoor delivery and dish-collection robot with pager calling and voice control for restaurants and hospitals.
 - Specs: Height 1,228 mm; Weight 55 kg; Payload 60 kg; Max speed 1.2 m/s (4.3 km/h); Runtime 12 h; Status Commercial; Sensors LiDAR, RGB-D cameras (upper and lower), 6-microphone array
 - Sources: https://www.pudurobotics.com/product/detail/holabot, https://academy.pudutech.com/en/docs/chan-pin-jian-jie-bAmR, https://academy.pudutech.com/en/docs/FAQ-Egsn
@@ -8958,7 +8962,7 @@
 - id: `pudu-kettybot`
 - Page: https://htcrefactor.github.io/robot-catalog/robot.html?id=pudu-kettybot
 - Markdown: https://htcrefactor.github.io/robot-catalog/md/pudu-kettybot.md
-- Indoor delivery · Wheeled · Commercial · China
+- Indoor service · Wheeled · Commercial · China
 - Summary: Compact restaurant delivery and reception robot with two 10 kg trays, a dish-return box and an 18.5-inch advertising screen.
 - Specs: Length 435 mm; Width 450 mm; Height 1,120 mm; Weight 38 kg; Max speed 1.2 m/s (4.3 km/h); Min speed 0.2 m/s; Runtime 8 h; Battery 512 Wh; IP rating IP20; Status Commercial; Price battery_wh computed from stated 25.6 V x 20 Ah; Sensors LiDAR, Depth vision sensors, Front positioning camera, Vision sensor, 6-mic circular array
 - Sources: https://www.pudurobotics.com/en/products/kettybot, https://academy.pudutech.com/en/docs/chan-pin-jian-jie
@@ -8968,7 +8972,7 @@
 - id: `pudu-kettybot-pro`
 - Page: https://htcrefactor.github.io/robot-catalog/robot.html?id=pudu-kettybot-pro
 - Markdown: https://htcrefactor.github.io/robot-catalog/md/pudu-kettybot-pro.md
-- Indoor delivery · Wheeled · Commercial · China
+- Indoor service · Wheeled · Commercial · China
 - Summary: Restaurant and retail delivery and reception robot with an 18.5-inch advertising display and tray-load detection.
 - Specs: Weight 38 kg; Max speed 1.2 m/s (4.3 km/h); Runtime 9 h; Status Commercial; Sensors 360° fisheye lenses, Smart tray detection
 - Sources: https://www.pudurobotics.com/en/products/kettybot_pro
@@ -8978,7 +8982,7 @@
 - id: `pudu-pudubot-2`
 - Page: https://htcrefactor.github.io/robot-catalog/robot.html?id=pudu-pudubot-2
 - Markdown: https://htcrefactor.github.io/robot-catalog/md/pudu-pudubot-2.md
-- Indoor delivery · Wheeled · Commercial · China
+- Indoor service · Wheeled · Commercial · China
 - Summary: Versatile restaurant/service delivery robot with dual LiDAR, up to 7 trays and 40 kg load, 0.5–1.2 m/s cruise.
 - Specs: Length 580 mm; Width 535 mm; Height 1,290 mm; Weight 39 kg; Payload 40 kg; Max speed 1.2 m/s (4.3 km/h); Min speed 0.5 m/s; Runtime 12 h; Status Commercial; Sensors Dual LiDAR
 - Sources: https://www.pudurobotics.com/en/products/pudubot2
@@ -8988,7 +8992,7 @@
 - id: `pudu-swiftbot`
 - Page: https://htcrefactor.github.io/robot-catalog/robot.html?id=pudu-swiftbot
 - Markdown: https://htcrefactor.github.io/robot-catalog/md/pudu-swiftbot.md
-- Indoor delivery · Wheeled · Commercial · China · released 2022
+- Indoor service · Wheeled · Commercial · China · released 2022
 - Summary: Pudu indoor delivery robot with enclosed compartments, laser path projection and pedestrian make-way behaviour for restaurants and hotels.
 - Specs: Max speed 1.2 m/s (4.3 km/h); Runtime 10 h; Released 2022; Status Commercial; On-board compute yes; Compute Up to 15 TOPS processing; Sensors 3x RGB-D depth cameras, 2x RGB cameras, Dual LiDAR (front/rear), 6-mic array, Laser projector
 - Sources: https://www.pudurobotics.com/product/detail/swiftbot, https://academy.pudutech.com/en/docs/chan-pin-jian-jie-mGSQ, https://www.pudurobotics.com/about/news/628c782cc832b9003940b31c
@@ -8998,7 +9002,7 @@
 - id: `rainbow-robotics-mixx`
 - Page: https://htcrefactor.github.io/robot-catalog/robot.html?id=rainbow-robotics-mixx
 - Markdown: https://htcrefactor.github.io/robot-catalog/md/rainbow-robotics-mixx.md
-- Indoor delivery · Wheeled · South Korea
+- Indoor service · Wheeled · South Korea
 - Sources: none recorded
 
 ### Reeman Deligo
@@ -9006,7 +9010,7 @@
 - id: `reeman-deligo`
 - Page: https://htcrefactor.github.io/robot-catalog/robot.html?id=reeman-deligo
 - Markdown: https://htcrefactor.github.io/robot-catalog/md/reeman-deligo.md
-- Indoor delivery · Wheeled · China
+- Indoor service · Wheeled · China
 - Sources: none recorded
 
 ### Reeman FLASH
@@ -9014,7 +9018,7 @@
 - id: `reeman-flash`
 - Page: https://htcrefactor.github.io/robot-catalog/robot.html?id=reeman-flash
 - Markdown: https://htcrefactor.github.io/robot-catalog/md/reeman-flash.md
-- Indoor delivery · Wheeled · Commercial · China
+- Indoor service · Wheeled · Commercial · China
 - Summary: Slim 4-tray restaurant delivery robot (15 kg per layer) passing 55 cm aisles with 3D camera + LiDAR, about 15 h battery.
 - Specs: Length 540 mm; Width 360 mm; Height 1,216 mm; Weight 40 kg; Payload 60 kg; Runtime 15 h; Status Commercial; Sensors 3D camera, LiDAR
 - Sources: https://www.reemanrobot.com/delivery-robot/food-delivery-robot/intelligent-delivery-robot.html
@@ -9024,7 +9028,7 @@
 - id: `reeman-r1d1`
 - Page: https://htcrefactor.github.io/robot-catalog/robot.html?id=reeman-r1d1
 - Markdown: https://htcrefactor.github.io/robot-catalog/md/reeman-r1d1.md
-- Indoor delivery · Wheeled · Commercial · China
+- Indoor service · Wheeled · Commercial · China
 - Summary: Enclosed delivery robot with three independent lockable bins that open after QR-code verification, for contactless food delivery.
 - Specs: Status Commercial
 - Sources: https://www.reemanrobot.com/delivery-robot/food-delivery-robot/package-delivery-robot.html
@@ -9034,7 +9038,7 @@
 - id: `relay-robotics-relay`
 - Page: https://htcrefactor.github.io/robot-catalog/robot.html?id=relay-robotics-relay
 - Markdown: https://htcrefactor.github.io/robot-catalog/md/relay-robotics-relay.md
-- Indoor delivery · Wheeled · Commercial · United States · released 2023
+- Indoor service · Wheeled · Commercial · United States · released 2023
 - Summary: Autonomous secure-compartment delivery robot that rides elevators to carry medications, lab specimens and supplies in hospitals.
 - Specs: Released 2023; Status Commercial; Sensors LiDAR, 3D computer vision
 - Sources: https://relayrobotics.com/, https://relayrobotics.com/blog/relay-announces-next-generation-of-delivery-robots-for-hospitals, https://relayrobotics.com/company
@@ -9044,7 +9048,7 @@
 - id: `richtech-robotics-matradee`
 - Page: https://htcrefactor.github.io/robot-catalog/robot.html?id=richtech-robotics-matradee
 - Markdown: https://htcrefactor.github.io/robot-catalog/md/richtech-robotics-matradee.md
-- Indoor delivery · Wheeled · United States
+- Indoor service · Wheeled · United States
 - Summary: Restaurant service robot line for food delivery and table bussing using SLAM and LiDAR navigation.
 - Sources: https://www.richtechrobotics.com/solutions/matradee-plus, https://www.richtechrobotics.com/solutions/matradee-plus?hsLang=en, https://www.sec.gov/Archives/edgar/data/1963685/000121390026086751/ea0298288-10ka1_richtech.htm
 
@@ -9053,7 +9057,7 @@
 - id: `robotis-gaemi-indoor`
 - Page: https://htcrefactor.github.io/robot-catalog/robot.html?id=robotis-gaemi-indoor
 - Markdown: https://htcrefactor.github.io/robot-catalog/md/robotis-gaemi-indoor.md
-- Indoor delivery · Wheeled · Commercial · South Korea
+- Indoor service · Wheeled · Commercial · South Korea
 - Summary: Indoor autonomous service robot with a robotic arm that rides elevators and delivers items in hotels, hospitals and offices.
 - Specs: Status Commercial
 - Sources: https://www.robotis.com/en/product/ecosystem-ingaemi.php, https://robotis.us/collections/indoor-delivery-robot, https://www.robotis.com/ko/
@@ -9063,7 +9067,7 @@
 - id: `temi-go`
 - Page: https://htcrefactor.github.io/robot-catalog/robot.html?id=temi-go
 - Markdown: https://htcrefactor.github.io/robot-catalog/md/temi-go.md
-- Indoor delivery · Wheeled
+- Indoor service · Wheeled
 - Sources: https://www.robotemi.com, https://www.robotemi.com/product/temi/
 
 ### temi temi GO PRO
@@ -9071,7 +9075,7 @@
 - id: `temi-go-pro`
 - Page: https://htcrefactor.github.io/robot-catalog/robot.html?id=temi-go-pro
 - Markdown: https://htcrefactor.github.io/robot-catalog/md/temi-go-pro.md
-- Indoor delivery · Wheeled · Commercial · United States
+- Indoor service · Wheeled · Commercial · United States
 - Summary: Quad-door autonomous delivery robot for restaurants, offices and retail, with electric doors and cross-floor delivery.
 - Specs: Length 548 mm; Width 548 mm; Height 1,228 mm; Weight 75.5 kg; Payload 39.5 kg; Max speed 1 m/s (3.6 km/h); Runtime 4 h; Status Commercial; SDK yes; Sensors LiDAR (40 m), Obstacle/cliff sensors
 - Sources: https://www.robotemi.com/product/temi-go-pro/
@@ -9081,7 +9085,7 @@
 - id: `temi-v3`
 - Page: https://htcrefactor.github.io/robot-catalog/robot.html?id=temi-v3
 - Markdown: https://htcrefactor.github.io/robot-catalog/md/temi-v3.md
-- Indoor delivery · Wheeled · United States
+- Indoor service · Wheeled · United States
 - Sources: none recorded
 
 ### UBTECH Robotics CadeBot
@@ -9089,7 +9093,7 @@
 - id: `ubtech-cadebot`
 - Page: https://htcrefactor.github.io/robot-catalog/robot.html?id=ubtech-cadebot
 - Markdown: https://htcrefactor.github.io/robot-catalog/md/ubtech-cadebot.md
-- Indoor delivery · Wheeled · China
+- Indoor service · Wheeled · China
 - Sources: none recorded
 
 ### Woowa Brothers Dilly Tower
@@ -9097,7 +9101,7 @@
 - id: `woowa-dilly-tower`
 - Page: https://htcrefactor.github.io/robot-catalog/robot.html?id=woowa-dilly-tower
 - Markdown: https://htcrefactor.github.io/robot-catalog/md/woowa-dilly-tower.md
-- Indoor delivery · Wheeled · Commercial · South Korea
+- Indoor service · Wheeled · Commercial · South Korea
 - Summary: Baemin's indoor last-leg delivery robot that opens lobby doors and rides elevators to bring orders to apartment and office doors.
 - Specs: Height 1,080 mm; Payload 20 kg; Max speed 1.2 m/s (4.3 km/h); Runtime 6 h; Status Commercial
 - Sources: https://zdnet.co.kr/view/?no=20200518084101, https://biz.heraldcorp.com/article/2650656, https://www.koreajoongangdaily.com/business/no-tip-required-robots-deliver-to-your-door/10564062, https://www.yna.co.kr/view/AKR20200518149000030, https://www.koreajoongangdaily.com/business/postcovid19-new-normal-letting-the-robots-take-over-is-the-secret-to-social-distancing/11155620, https://www.mk.co.kr/news/business/10547977
@@ -9107,17 +9111,17 @@
 - id: `zorabots-james`
 - Page: https://htcrefactor.github.io/robot-catalog/robot.html?id=zorabots-james
 - Markdown: https://htcrefactor.github.io/robot-catalog/md/zorabots-james.md
-- Indoor delivery · Wheeled · Belgium
+- Indoor service · Wheeled · Belgium
 - Sources: none recorded
 
-## Outdoor delivery (18)
+## Outdoor service (22)
 
 ### Anseboo Alout Outdoor Delivery Robot
 
 - id: `anseboo-alout`
 - Page: https://htcrefactor.github.io/robot-catalog/robot.html?id=anseboo-alout
 - Markdown: https://htcrefactor.github.io/robot-catalog/md/anseboo-alout.md
-- Outdoor delivery · Wheeled · Commercial · China
+- Outdoor service · Wheeled · Commercial · China
 - Summary: Outdoor autonomous delivery robot for campuses and industrial parks, up to 20 km/h with 80 km range and open SDK/API.
 - Specs: Length 1,079 mm; Width 628 mm; Height 785 mm; Weight 60 kg; Max speed 5.56 m/s (20.0 km/h); Status Commercial; API yes; SDK yes
 - Sources: https://www.anseboo.com/en/products/outdoor-delivery-robot-university-package-delivery-unmanned-automatic-self-driving
@@ -9127,7 +9131,7 @@
 - id: `avride-delivery-robot`
 - Page: https://htcrefactor.github.io/robot-catalog/robot.html?id=avride-delivery-robot
 - Markdown: https://htcrefactor.github.io/robot-catalog/md/avride-delivery-robot.md
-- Outdoor delivery · Wheeled · Commercial · United States
+- Outdoor service · Wheeled · Commercial · United States
 - Summary: Four-wheeled sidewalk courier robot with swappable battery and wireless charging, delivering Uber Eats orders in US cities.
 - Specs: Length 915 mm; Width 659 mm; Height 851 mm; Payload 25 kg; Max speed 2.22 m/s (8.0 km/h); Wheels 4; Runtime 12 h; IP rating IP66; Status Commercial; Price range 50 km; height with flag 1298 mm; Sensors LiDAR, Cameras, Ultrasonic sensors
 - Sources: https://www.avride.ai/robot
@@ -9137,7 +9141,7 @@
 - id: `cartken-courier`
 - Page: https://htcrefactor.github.io/robot-catalog/robot.html?id=cartken-courier
 - Markdown: https://htcrefactor.github.io/robot-catalog/md/cartken-courier.md
-- Outdoor delivery · Wheeled · Commercial · United States
+- Outdoor service · Wheeled · Commercial · United States
 - Summary: Compact indoor-outdoor autonomous delivery robot for light, secured point-to-point deliveries on sidewalks, campuses and industrial sites.
 - Specs: Length 830 mm; Width 510 mm; Height 620 mm; Payload 20 kg; Max speed 2.69 m/s (9.7 km/h); Runtime 13 h; Status Commercial; Sensors Cameras
 - Sources: https://www.cartken.com/, https://www.hannovermesse.de/product/cartken-courier/519510/N1613321, https://www.cartken.com/mosaic
@@ -9147,17 +9151,27 @@
 - id: `coco-robotics-coco-2`
 - Page: https://htcrefactor.github.io/robot-catalog/robot.html?id=coco-robotics-coco-2
 - Markdown: https://htcrefactor.github.io/robot-catalog/md/coco-robotics-coco-2.md
-- Outdoor delivery · Wheeled · Commercial · United States · released 2026
+- Outdoor service · Wheeled · Commercial · United States · released 2026
 - Summary: Urban delivery robot for sidewalks, bike lanes and permitted roads, with swappable battery and room for four 18-inch pizzas.
 - Specs: Max speed 5.83 m/s (21.0 km/h); Released 2026; Status Commercial; Price 21 km/h top speed (bike lanes/roads where permitted), 32 km range, 30% max grade; Sensors Solid-state LiDAR, Cameras, GPS
 - Sources: https://www.cocodelivery.com/coco2
+
+### CSJBot (Alpha Robotics) CatCop
+
+- id: `csjbot-catcop`
+- Page: https://htcrefactor.github.io/robot-catalog/robot.html?id=csjbot-catcop
+- Markdown: https://htcrefactor.github.io/robot-catalog/md/csjbot-catcop.md
+- Outdoor service · Wheeled · Commercial · China
+- Summary: Alpha Robotics' four-wheel security patrol robot (formerly sold as CSJBot): autonomous mapping, path planning and obstacle avoidance with 360-degree starlight surveillance, two-way voice intercom and self-charging.
+- Specs: Length 750 mm; Width 705 mm; Height 1,420 mm; Weight 75 kg; Max speed 1 m/s (3.6 km/h); Wheels 4; Runtime 8 h; Battery 960 Wh; Status Commercial; Sensors 360 deg starlight video surveillance camera, Face-recognition camera, Microphone and speaker for two-way voice intercom
+- Sources: https://www.alpharobotics.ai/product-detail2/catcop-security-patrol-robot.html
 
 ### CSJBot (Alpha Robotics) Renwoxing Unmanned Retail Vehicle
 
 - id: `csjbot-renwoxing`
 - Page: https://htcrefactor.github.io/robot-catalog/robot.html?id=csjbot-renwoxing
 - Markdown: https://htcrefactor.github.io/robot-catalog/md/csjbot-renwoxing.md
-- Outdoor delivery · Wheeled · Commercial · China
+- Outdoor service · Wheeled · Commercial · China
 - Summary: L4 driverless unmanned retail vehicle acting as a mobile convenience store for scenic areas, malls, communities and industrial parks.
 - Specs: Length 2,275 mm; Width 1,070 mm; Height 1,820 mm; Payload 300 kg; Max speed 2.78 m/s (10.0 km/h); Runtime 8 h; Status Commercial; Compute NVIDIA Xavier; Sensors 16-line LiDAR ×2, 32-line LiDAR ×1, Binocular camera, Surround cameras ×4, IMU+RTK+GPS, Ultrasonic sensors ×9
 - Sources: https://www.alpha-robot.com.cn/productrwx/139/detail/14.html
@@ -9167,17 +9181,37 @@
 - id: `csjbot-speedybot-pro`
 - Page: https://htcrefactor.github.io/robot-catalog/robot.html?id=csjbot-speedybot-pro
 - Markdown: https://htcrefactor.github.io/robot-catalog/md/csjbot-speedybot-pro.md
-- Outdoor delivery · Wheeled · Commercial · China
+- Outdoor service · Wheeled · Commercial · China
 - Summary: Indoor/outdoor last-mile delivery robot with L4 autonomous driving, 100 kg payload, elevator and gate integration, about 40 km range.
 - Specs: Length 700 mm; Width 560 mm; Height 715 mm; Weight 65 kg; Payload 100 kg; Max speed 2 m/s (7.2 km/h); Runtime 8 h; Battery 960 Wh; Status Commercial; Sensors Multi-line 3D LiDAR (60 m)
 - Sources: https://www.alpharobotics.ai/product-detail3/speedybot-indoor-and-outdoor-delivery-robot.html
+
+### Knightscope K5
+
+- id: `knightscope-k5`
+- Page: https://htcrefactor.github.io/robot-catalog/robot.html?id=knightscope-k5
+- Markdown: https://htcrefactor.github.io/robot-catalog/md/knightscope-k5.md
+- Outdoor service · Wheeled · Commercial · United States
+- Summary: Outdoor autonomous security robot patrolling parking lots and campuses with 360° HD video, thermal imaging and license plate recognition.
+- Specs: Length 1,133 mm; Width 886 mm; Height 1,641 mm; Weight 190.5 kg; Max speed 1.34 m/s (4.8 km/h); Runtime 2.5 h; Status Commercial; Sensors 4x HD cameras, Thermal camera, 6x LiDAR, 13x sonar, 4x microphones
+- Sources: https://knightscope.com/products/k5, https://knightscope.com/hubfs/K1H-K5V5%20Brochure.pdf?hsLang=en
+
+### Knightscope K7
+
+- id: `knightscope-k7`
+- Page: https://htcrefactor.github.io/robot-catalog/robot.html?id=knightscope-k7
+- Markdown: https://htcrefactor.github.io/robot-catalog/md/knightscope-k7.md
+- Outdoor service · Wheeled · Commercial · United States
+- Summary: Off-road autonomous security robot for large outdoor perimeters such as logistics hubs and industrial sites.
+- Specs: Max speed 4.47 m/s (16.1 km/h); Status Commercial; Sensors 360° HD video, PTZ camera, Thermal camera
+- Sources: https://knightscope.com/mediakit, https://knightscope.com/hubfs/mediakit/Knightscope-Media-Kit.pdf?hsLang=en
 
 ### Neubility Neubie
 
 - id: `neubility-neubie`
 - Page: https://htcrefactor.github.io/robot-catalog/robot.html?id=neubility-neubie
 - Markdown: https://htcrefactor.github.io/robot-catalog/md/neubility-neubie.md
-- Outdoor delivery · Wheeled · Commercial · South Korea
+- Outdoor service · Wheeled · Commercial · South Korea
 - Summary: LiDAR-free, camera-based 4WD sidewalk delivery robot certified for outdoor operation in Korea, used for app and campus deliveries.
 - Specs: Length 704 mm; Width 553 mm; Height 693 mm; Weight 61.5 kg; Payload 20 kg; Max speed 1.6 m/s (5.8 km/h); Wheel diameter 206 mm; Wheels 4; Runtime 8 h; Battery 1,500 Wh; Status Commercial; Price dimensions without flagpole (1303 mm tall with flag, 617 mm wide); Sensors Multi camera, Depth camera, Ultrasonic sensor, GPS
 - Sources: https://www.neubility.ai/en/product, https://www.kiria.org/portal/cert/portalCertEstiStats.do, https://www.neubility.ai/ko/
@@ -9187,7 +9221,7 @@
 - id: `nuro-r2`
 - Page: https://htcrefactor.github.io/robot-catalog/robot.html?id=nuro-r2
 - Markdown: https://htcrefactor.github.io/robot-catalog/md/nuro-r2.md
-- Outdoor delivery · Wheeled · Discontinued · United States · released 2020
+- Outdoor service · Wheeled · Discontinued · United States · released 2020
 - Summary: Nuro's second-generation zero-occupant autonomous road vehicle for curbside delivery of groceries, food and packages.
 - Specs: Length 2,740 mm; Width 1,100 mm; Height 1,880 mm; Weight 1,150 kg; Payload 190 kg; Max speed 11.18 m/s (40.2 km/h); Battery 31,000 Wh; Released 2020; Status Discontinued; Sensors 360° overlapping cameras, Thermal imaging camera, LiDAR, Short- and long-range radar
 - Sources: https://www.nuro.ai, https://nuro.sfo3.digitaloceanspaces.com/Nuro-R2-Spec-Sheet-Letter.pdf
@@ -9197,7 +9231,7 @@
 - id: `nuro-r3`
 - Page: https://htcrefactor.github.io/robot-catalog/robot.html?id=nuro-r3
 - Markdown: https://htcrefactor.github.io/robot-catalog/md/nuro-r3.md
-- Outdoor delivery · Wheeled · Pilot · United States · released 2022
+- Outdoor service · Wheeled · Pilot · United States · released 2022
 - Summary: Passengerless electric on-road autonomous delivery vehicle with heated/cooled compartments and an external pedestrian airbag.
 - Specs: Length 3,200 mm; Width 1,440 mm; Height 2,100 mm; Payload 225 kg; Max speed 20.1 m/s (72.4 km/h); Battery 52,000 Wh; Released 2022; Status Pilot; Price road-going vehicle, not a sidewalk robot; gross weight 1,610 kg; 3.2 m long x 1.44 m wide x 2.1 m tall read from the dimensioned drawing on the maker spec sheet (axis assignment inferred); Sensors Cameras, Radar, LiDAR, Thermal cameras
 - Sources: https://nuro.ai, https://nuro.sfo3.digitaloceanspaces.com/Nuro-R3-Spec-Sheet-Letter.pdf
@@ -9207,7 +9241,7 @@
 - id: `otsaw-camello`
 - Page: https://htcrefactor.github.io/robot-catalog/robot.html?id=otsaw-camello
 - Markdown: https://htcrefactor.github.io/robot-catalog/md/otsaw-camello.md
-- Outdoor delivery · Wheeled · Commercial · Singapore
+- Outdoor service · Wheeled · Commercial · Singapore
 - Summary: OTSAW's sidewalk last-mile delivery robot with lockable compartments, trialled for grocery and parcel delivery in Singapore housing estates.
 - Specs: Status Commercial
 - Sources: https://otsaw.com/camello, https://www.sec.gov/Archives/edgar/data/2046462/000121390025061733/ea0227213-08.htm, https://otsaw.com/shaping-tomorrow-the-rise-of-service-robots/, https://web.archive.org/web/20230603135238/https://otsaw.com/camello/
@@ -9217,7 +9251,7 @@
 - id: `ottonomy-ottobot`
 - Page: https://htcrefactor.github.io/robot-catalog/robot.html?id=ottonomy-ottobot
 - Markdown: https://htcrefactor.github.io/robot-catalog/md/ottonomy-ottobot.md
-- Outdoor delivery · Wheeled · Commercial · United States
+- Outdoor service · Wheeled · Commercial · United States
 - Summary: Ottonomy's four-wheel swerve-drive autonomous delivery robot with modular lockable compartments for airports, hospitals and campuses, indoors and out.
 - Specs: Payload 70 kg; Status Commercial; Sensors LiDAR, Cameras
 - Sources: https://ottonomy.io, https://ottonomy.io/, https://ottonomy.io/in-the-news/dpd-commences-autonomous-locker-on-wheels-robot-deliveries
@@ -9227,7 +9261,7 @@
 - id: `piaggio-gitamini`
 - Page: https://htcrefactor.github.io/robot-catalog/robot.html?id=piaggio-gitamini
 - Markdown: https://htcrefactor.github.io/robot-catalog/md/piaggio-gitamini.md
-- Outdoor delivery · Wheeled · Commercial · United States
+- Outdoor service · Wheeled · Commercial · United States
 - Summary: Compact self-balancing robot from Piaggio Fast Forward that follows its owner on foot while carrying up to 20 lb of cargo.
 - Specs: Length 455 mm; Width 419 mm; Height 480 mm; Weight 12.7 kg; Payload 9.1 kg; Max speed 2.68 m/s (9.6 km/h); Runtime 7 h; Status Commercial; Sensors Cameras, Radar
 - Sources: https://piaggiofastforward.com/shop/gitamini, https://knowledge.mygita.com/gitamini-physical-overview, https://piaggiofastforward.com/blog/choose-your-robot-gitaplus-vs-gitamini, https://shop.piaggiofastforward.com/
@@ -9237,7 +9271,7 @@
 - id: `piaggio-gitaplus`
 - Page: https://htcrefactor.github.io/robot-catalog/robot.html?id=piaggio-gitaplus
 - Markdown: https://htcrefactor.github.io/robot-catalog/md/piaggio-gitaplus.md
-- Outdoor delivery · Wheeled · Commercial · United States
+- Outdoor service · Wheeled · Commercial · United States
 - Summary: Larger following cargo robot from Piaggio Fast Forward that carries up to 40 lb behind its user.
 - Specs: Length 635 mm; Width 559 mm; Height 655 mm; Weight 22.7 kg; Payload 18.1 kg; Max speed 2.68 m/s (9.6 km/h); Wheels 2; Runtime 5 h; Status Commercial; Sensors Cameras, Sensors array (leader following)
 - Sources: https://piaggiofastforward.com/shop/gitaplus, https://shop.piaggiofastforward.com/
@@ -9247,7 +9281,7 @@
 - id: `kiwibot-kiwibot`
 - Page: https://htcrefactor.github.io/robot-catalog/robot.html?id=kiwibot-kiwibot
 - Markdown: https://htcrefactor.github.io/robot-catalog/md/kiwibot-kiwibot.md
-- Outdoor delivery · Wheeled · Commercial · United States
+- Outdoor service · Wheeled · Commercial · United States
 - Summary: Small cooler-sized campus sidewalk robot delivering food and drinks, remotely supervised.
 - Specs: Weight 20.5 kg; Payload 4 kg; Max speed 1.08 m/s (3.9 km/h); Status Commercial; Price per campus operator FAQ: speed 'up to 2 mi/h (3.9 km/h)' (inconsistent; km/h value used), payload 3-4 kg
 - Sources: https://usi.sodexomyway.com/en-us/kiwibot/frequently-asked-questions, https://robot.com/
@@ -9257,7 +9291,7 @@
 - id: `robotis-gaemi-outdoor`
 - Page: https://htcrefactor.github.io/robot-catalog/robot.html?id=robotis-gaemi-outdoor
 - Markdown: https://htcrefactor.github.io/robot-catalog/md/robotis-gaemi-outdoor.md
-- Outdoor delivery · Wheeled · Commercial · South Korea
+- Outdoor service · Wheeled · Commercial · South Korea
 - Summary: Outdoor autonomous delivery robot for sidewalks, campuses and parks, delivering food and goods and supporting collection and patrol services.
 - Specs: Status Commercial
 - Sources: https://www.robotis.com/en/product/ecosystem-outgaemi.php, https://en.robotis.com/sub/business_012.php, https://www.robotis.com/ko/
@@ -9267,17 +9301,27 @@
 - id: `serve-robotics-gen3`
 - Page: https://htcrefactor.github.io/robot-catalog/robot.html?id=serve-robotics-gen3
 - Markdown: https://htcrefactor.github.io/robot-catalog/md/serve-robotics-gen3.md
-- Outdoor delivery · Wheeled · Commercial · United States · released 2024
+- Outdoor service · Wheeled · Commercial · United States · released 2024
 - Summary: Third-generation Level 4 sidewalk food-delivery robot built with Magna, running on Uber Eats and other platforms in US cities.
 - Specs: Max speed 4.92 m/s (17.7 km/h); Runtime 14 h; Released 2024; Status Commercial; Price top speed 11 mph, range 48 mi, cargo 15 gal per investor deck; Compute NVIDIA Jetson Orin; Sensors Ouster REV7 digital LiDAR, Cameras
 - Sources: https://www.serverobotics.com/robot, https://www.globenewswire.com/news-release/2024/10/16/2963910/0/en/Serve-Robotics-Rolls-Out-Third-Generation-Autonomous-Delivery-Robot-Platform-Upgrade-Will-Support-National-Scaling.html, https://www.sec.gov/Archives/edgar/data/1832483/000183248326000034/finalserve_investorxdeck.htm
+
+### SMP Robotics Argus S5.4
+
+- id: `smp-robotics-argus-s5-4`
+- Page: https://htcrefactor.github.io/robot-catalog/robot.html?id=smp-robotics-argus-s5-4
+- Markdown: https://htcrefactor.github.io/robot-catalog/md/smp-robotics-argus-s5-4.md
+- Outdoor service · Wheeled · Commercial · United States · released 2026
+- Summary: Outdoor autonomous security patrol robot with onboard Jetson Orin NX for running third-party video analytics and AI applications.
+- Specs: Max speed 1.67 m/s (6.0 km/h); IP rating IP65; Released 2026; Status Commercial; API yes; On-board compute yes; Compute NVIDIA Jetson Orin NX; Sensors PTZ camera, Panoramic cameras
+- Sources: https://smprobotics.com/usa/argus-s5-4-nvidia-jetson-orin-third-party-ai-software, https://smprobotics.com/, https://smprobotics.com/security_robot/security-patrol-robot/
 
 ### Starship Technologies Starship delivery robot
 
 - id: `starship-delivery-robot`
 - Page: https://htcrefactor.github.io/robot-catalog/robot.html?id=starship-delivery-robot
 - Markdown: https://htcrefactor.github.io/robot-catalog/md/starship-delivery-robot.md
-- Outdoor delivery · Wheeled · Commercial · United States
+- Outdoor service · Wheeled · Commercial · United States
 - Summary: Six-wheeled insulated sidewalk robot delivering groceries and food within about 2 miles, the most deployed fleet worldwide.
 - Specs: Weight 38 kg; Max speed 1.78 m/s (6.4 km/h); Wheels 6; Runtime 18 h; Status Commercial; Price weight ~38 kg without cargo and speed ~6.4 km/h are approximate per FAQ; carries up to three shopping bags; Sensors 12 cameras (incl. time-of-flight), Radar, Ultrasonic sensors
 - Sources: https://www.starship.xyz/our-robots/, https://www.starship.xyz/faq/
@@ -9287,12 +9331,12 @@
 - id: `woowa-dilly-x3`
 - Page: https://htcrefactor.github.io/robot-catalog/robot.html?id=woowa-dilly-x3
 - Markdown: https://htcrefactor.github.io/robot-catalog/md/woowa-dilly-x3.md
-- Outdoor delivery · Wheeled · Commercial · South Korea
+- Outdoor service · Wheeled · Commercial · South Korea
 - Summary: Baemin's in-house indoor-outdoor autonomous delivery robot, certified for sidewalk operation in Korea.
 - Specs: Width 625 mm; Payload 20 kg; Max speed 2.5 m/s (9.0 km/h); Status Commercial; Price KIRIA outdoor certification: max mass 106.5 kg incl. 20 kg payload, 9 km/h, 15 deg grade (width 625.3 mm)
 - Sources: https://robot.baemin.com, https://www.kiria.org/portal/cert/portalCertEstiStats.do, https://www.mk.co.kr/news/business/10547977
 
-## Mobile platform (53)
+## Mobile platform (49)
 
 ### AgileX Robotics BUNKER PRO 2.0
 
@@ -9424,16 +9468,6 @@
 - Specs: Length 342 mm; Width 339 mm; Height 351 mm; Weight 3.945 kg; Payload 9 kg; Max speed 0.46 m/s (1.7 km/h); Wheel diameter 72 mm; Runtime 2.5 h; Battery 26 Wh; Status Commercial; API yes; SDK yes; SDK name ROS 2 (TurtleBot 4 packages); ROS yes; On-board compute yes; Compute Raspberry Pi 4B 4GB; Sensors 2D LiDAR (RPLIDAR A1M8), Depth camera (OAK-D-Pro)
 - Sources: https://turtlebot.github.io/turtlebot4-user-manual/overview/features.html, https://github.com/turtlebot/turtlebot4, https://github.com/turtlebot/turtlebot4/blob/jazzy/turtlebot4_description/urdf/standard/turtlebot4.urdf.xacro, https://github.com/turtlebot/turtlebot4_simulator
 
-### Cobalt AI Cobalt Robot
-
-- id: `cobalt-robot`
-- Page: https://htcrefactor.github.io/robot-catalog/robot.html?id=cobalt-robot
-- Markdown: https://htcrefactor.github.io/robot-catalog/md/cobalt-robot.md
-- Mobile platform · Wheeled · Commercial · United States
-- Summary: Autonomous indoor security robot with 60+ sensors that patrols facilities and escalates anomalies to remote human specialists.
-- Specs: Height 1,549 mm; Status Commercial; On-board compute yes; Compute Onboard GPU; Sensors 360° camera, Thermal camera, Depth camera, LiDAR, Ultrasonic sensors, Environmental sensors, Badge reader, Microphones
-- Sources: https://www.cobaltai.com/security-robots, https://cobaltrobotics.com/wp-content/uploads/2020/06/Cobalt-Robot-Spec-Sheet.pdf
-
 ### Collaborative Robotics Proxie Gen 2
 
 - id: `collaborative-robotics-proxie-gen-2`
@@ -9541,26 +9575,6 @@
 - Markdown: https://htcrefactor.github.io/robot-catalog/md/irobot-create-3.md
 - Mobile platform · Wheeled · United States
 - Sources: none recorded
-
-### Knightscope K5
-
-- id: `knightscope-k5`
-- Page: https://htcrefactor.github.io/robot-catalog/robot.html?id=knightscope-k5
-- Markdown: https://htcrefactor.github.io/robot-catalog/md/knightscope-k5.md
-- Mobile platform · Wheeled · Commercial · United States
-- Summary: Outdoor autonomous security robot patrolling parking lots and campuses with 360° HD video, thermal imaging and license plate recognition.
-- Specs: Length 1,133 mm; Width 886 mm; Height 1,641 mm; Weight 190.5 kg; Max speed 1.34 m/s (4.8 km/h); Runtime 2.5 h; Status Commercial; Sensors 4x HD cameras, Thermal camera, 6x LiDAR, 13x sonar, 4x microphones
-- Sources: https://knightscope.com/products/k5, https://knightscope.com/hubfs/K1H-K5V5%20Brochure.pdf?hsLang=en
-
-### Knightscope K7
-
-- id: `knightscope-k7`
-- Page: https://htcrefactor.github.io/robot-catalog/robot.html?id=knightscope-k7
-- Markdown: https://htcrefactor.github.io/robot-catalog/md/knightscope-k7.md
-- Mobile platform · Wheeled · Commercial · United States
-- Summary: Off-road autonomous security robot for large outdoor perimeters such as logistics hubs and industrial sites.
-- Specs: Max speed 4.47 m/s (16.1 km/h); Status Commercial; Sensors 360° HD video, PTZ camera, Thermal camera
-- Sources: https://knightscope.com/mediakit, https://knightscope.com/hubfs/mediakit/Knightscope-Media-Kit.pdf?hsLang=en
 
 ### Kompai Robotics KOMPAÏ AutoNAV 10
 
@@ -9743,16 +9757,6 @@
 - Summary: Open-source low-cost 3D-printed mobile manipulator combining an omniwheel base with an SO-100 arm for LeRobot teleoperation and learning.
 - Specs: Wheels 3; Released 2025; Price DIY BOM ~US$482-499; API yes; SDK yes; SDK name Hugging Face LeRobot; On-board compute yes; Compute Raspberry Pi (typical)
 - Sources: https://github.com/SIGRobotics-UIUC/LeKiwi, https://github.com/SIGRobotics-UIUC/LeKiwi/blob/main/BOM.md, https://huggingface.co/docs/lerobot/en/lekiwi, https://github.com/huggingface/lerobot, https://github.com/SIGRobotics-UIUC/LeKiwi/blob/main/URDF/LeKiwi.urdf
-
-### SMP Robotics Argus S5.4
-
-- id: `smp-robotics-argus-s5-4`
-- Page: https://htcrefactor.github.io/robot-catalog/robot.html?id=smp-robotics-argus-s5-4
-- Markdown: https://htcrefactor.github.io/robot-catalog/md/smp-robotics-argus-s5-4.md
-- Mobile platform · Wheeled · Commercial · United States · released 2026
-- Summary: Outdoor autonomous security patrol robot with onboard Jetson Orin NX for running third-party video analytics and AI applications.
-- Specs: Max speed 1.67 m/s (6.0 km/h); IP rating IP65; Released 2026; Status Commercial; API yes; On-board compute yes; Compute NVIDIA Jetson Orin NX; Sensors PTZ camera, Panoramic cameras
-- Sources: https://smprobotics.com/usa/argus-s5-4-nvidia-jetson-orin-third-party-ai-software, https://smprobotics.com/, https://smprobotics.com/security_robot/security-patrol-robot/
 
 ### Toyota Human Support Robot (HSR)
 

@@ -1,0 +1,25 @@
+{
+ "id": "otsaw-transcar-k2",
+ "name": "TransCar K2",
+ "manufacturer": "Otsaw",
+ "updated": "2026-11-28",
+ "events": [
+  {
+   "date": "2026-11-28",
+   "type": "updated",
+   "source": "https://www.versigen.com.au/wp-content/uploads/2024/05/versigen-transcar-brochure.pdf",
+   "changes": [
+    {
+     "field": "category",
+     "from": "AMR",
+     "to": "Indoor service"
+    },
+    {
+     "field": "note",
+     "from": "Re-checked 2026-11-17: otsaw.com still does not serve the product page (otsaw.com/transcar/ -> 404). OTSAW's own TransCar brochure (opened as a PDF, OTSAW Group, Sept 2023) gives TransCar as a tricycle-drive hospital AGV: speed 0.1-1.6 m/s, max load capacity 500 kg, 1706 x 616 x 346 mm, IP54, LiFeMnPO4 battery, battery life <=12 h. The brochure does not print 'K2' on its spec table, so only payload (500 kg, also stated by OTSAW for the K2 in its own FHA-HoReCa 2024 post, opened) is filled; dimensions, speed, IP and runtime are left null although the brochure lists them for the TransCar family. 'TransCar K2' is named in that OTSAW post and in an SEC-filed Swisslog/Otsaw agreement. Category note: it is an AGV (fixed routes) for trolley transport.",
+     "to": "Re-checked 2026-11-17: otsaw.com still does not serve the product page (otsaw.com/transcar/ -> 404). OTSAW's own TransCar brochure (opened as a PDF, OTSAW Group, Sept 2023) gives TransCar as a tricycle-drive hospital AGV: speed 0.1-1.6 m/s, max load capacity 500 kg, 1706 x 616 x 346 mm, IP54, LiFeMnPO4 battery, battery life <=12 h. The brochure does not print 'K2' on its spec table, so only payload (500 kg, also stated by OTSAW for the K2 in its own FHA-HoReCa 2024 post, opened) is filled; dimensions, speed, IP and runtime are left null although the brochure lists them for the TransCar family. 'TransCar K2' is named in that OTSAW post and in an SEC-filed Swisslog/Otsaw agreement. Category note: it is an AGV (fixed routes) for trolley transport. Category moved from AMR to Indoor service on 2026-11-28 (issue #109): it carries meals, linen, medication and waste inside hospitals, a facility service task, not factory or warehouse logistics."
+    }
+   ]
+  }
+ ]
+}

@@ -3,7 +3,7 @@
 > Compact restaurant delivery and reception robot with two 10 kg trays, a dish-return box and an 18.5-inch advertising screen.
 
 - Catalog page: https://htcrefactor.github.io/robot-catalog/robot.html?id=pudu-kettybot
-- Category: Indoor delivery
+- Category: Indoor service
 - Locomotion: Wheeled
 - Manufacturer: Pudu Robotics (China)
 - Verification: official — checked against a maker source
@@ -166,4 +166,4 @@ Fields the maker does not publish are left out here — the catalog never fills 
 
 ---
 
-*Robot Catalog — generated from data/robots.json (last merged 2026-11-22). Source repository: https://github.com/htcrefactor/robot-catalog*
+*Robot Catalog — generated from data/robots.json (last merged 2026-11-28). Source repository: https://github.com/htcrefactor/robot-catalog*

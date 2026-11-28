@@ -3,7 +3,7 @@
 > Restaurant and hospitality serving robot with four height-adjustable shelves, weight-sensing trays and six-wheel independent suspension.
 
 - Catalog page: https://htcrefactor.github.io/robot-catalog/robot.html?id=lg-cloi-servebot
-- Category: Indoor delivery
+- Category: Indoor service
 - Locomotion: Wheeled
 - Manufacturer: LG Electronics (South Korea)
 - Verification: official — checked against a maker source
@@ -155,4 +155,4 @@ Fields the maker does not publish are left out here — the catalog never fills 
 
 ---
 
-*Robot Catalog — generated from data/robots.json (last merged 2026-11-22). Source repository: https://github.com/htcrefactor/robot-catalog*
+*Robot Catalog — generated from data/robots.json (last merged 2026-11-28). Source repository: https://github.com/htcrefactor/robot-catalog*

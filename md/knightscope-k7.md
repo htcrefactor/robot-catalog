@@ -3,7 +3,7 @@
 > Off-road autonomous security robot for large outdoor perimeters such as logistics hubs and industrial sites.
 
 - Catalog page: https://htcrefactor.github.io/robot-catalog/robot.html?id=knightscope-k7
-- Category: Mobile platform
+- Category: Outdoor service
 - Locomotion: Wheeled
 - Manufacturer: Knightscope (United States)
 - Verification: official — checked against a maker source
@@ -24,7 +24,7 @@ The full spec sheet for this robot is still being researched; the catalog core f
 
 ## Notes
 
-Light-duty off-road autonomous security robot for large outdoor sites; up to 10 mph per Knightscope media kit.
+Light-duty off-road autonomous security robot for large outdoor sites; up to 10 mph per Knightscope media kit. Category moved from Mobile platform to Outdoor service on 2026-11-28 (issue #109): a complete outdoor security patrol robot, not a chassis for builders.
 
 ## Sources
 
@@ -37,4 +37,4 @@ Listed by these directories (discovery only, never used as a spec source):
 
 ---
 
-*Robot Catalog — generated from data/robots.json (last merged 2026-11-22). Source repository: https://github.com/htcrefactor/robot-catalog*
+*Robot Catalog — generated from data/robots.json (last merged 2026-11-28). Source repository: https://github.com/htcrefactor/robot-catalog*

@@ -3,7 +3,7 @@ const LANGS={en:"EN",ko:"KR"};
 const I18N={
 en:{
  brand:"Robot Catalog",nav_robots:"Robots",nav_dash:"Dashboard",nav_table:"Mega table",nav_data:"Open data",nav_chips:"Chips",
- home_title:"Mobile robot catalog",home_sub:"Wheeled, wheel-legged and legged robots: AMRs, AGVs, humanoids, quadrupeds, delivery robots and development platforms, with sourced specs.",
+ home_title:"Mobile robot catalog",home_sub:"Wheeled, wheel-legged and legged robots: AMRs, AGVs, humanoids, quadrupeds, service robots and development platforms, with sourced specs.",
  robots:"robots",manufacturers:"manufacturers",categories:"categories",search:"Search name or maker…",all:"All",no_match:"No robots match.",
  max_speed:"Max speed",min_speed:"Min speed",payload:"Payload",ip:"IP rating",
  back:"← All robots",not_found:"Robot not found",body_motion:"Body & motion",power_env:"Power & environment",
@@ -65,7 +65,7 @@ en:{
 },
 ko:{
  brand:"로봇 카탈로그",nav_robots:"로봇",nav_dash:"대시보드",nav_table:"전체 표",nav_data:"오픈 데이터",nav_chips:"칩",
- home_title:"모바일 로봇 카탈로그",home_sub:"바퀴형, 바퀴-다리형, 보행형 로봇: AMR, AGV, 휴머노이드, 4족 보행, 배송 로봇, 개발용 플랫폼의 출처 있는 사양.",
+ home_title:"모바일 로봇 카탈로그",home_sub:"바퀴형, 바퀴-다리형, 보행형 로봇: AMR, AGV, 휴머노이드, 4족 보행, 서비스 로봇, 개발용 플랫폼의 출처 있는 사양.",
  robots:"대",manufacturers:"제조사",categories:"카테고리",search:"이름 또는 제조사 검색…",all:"전체",no_match:"조건에 맞는 로봇이 없습니다.",
  max_speed:"최고 속도",min_speed:"최저 속도",payload:"가반하중",ip:"IP 등급",
  back:"← 전체 로봇",not_found:"로봇을 찾을 수 없습니다",body_motion:"차체 및 이동",power_env:"전원 및 환경",
@@ -126,7 +126,7 @@ ko:{
  f_name:"이름",f_length:"길이",f_width:"너비",f_height:"높이",f_summary:"설명",f_official:"공식 페이지",f_origcat:"원래 카테고리",f_verification:"검증 상태",f_note:"비고",f_datasource:"데이터 출처",f_image:"이미지",f_imagesrc:"이미지 출처",f_videos:"영상",f_seenon:"경쟁 카탈로그 게재"
 }
 };
-const VALUE_KO={"AMR":"AMR","AGV":"AGV","Humanoid":"휴머노이드","Quadruped":"4족 보행","Wheel-legged":"바퀴-다리형","Indoor delivery":"실내 배송","Outdoor delivery":"실외 배송","Mobile platform":"모바일 플랫폼","Misc":"기타",
+const VALUE_KO={"AMR":"AMR","AGV":"AGV","Humanoid":"휴머노이드","Quadruped":"4족 보행","Wheel-legged":"바퀴-다리형","Indoor service":"실내 서비스","Outdoor service":"실외 서비스","Mobile platform":"모바일 플랫폼","Misc":"기타",
 "Wheeled":"바퀴형","Tracked":"궤도형","Legged":"보행형","Commercial":"상용","Pre-order":"사전 주문","Pilot":"시범 운영","Research":"연구용","Discontinued":"단종","Announced":"발표됨",
 "China":"중국","United States":"미국","South Korea":"한국","Switzerland":"스위스","Denmark":"덴마크","Germany":"독일","Japan":"일본","Canada":"캐나다","Norway":"노르웨이","United Kingdom":"영국","Estonia":"에스토니아","Colombia":"콜롬비아","France":"프랑스","Israel":"이스라엘","Netherlands":"네덜란드","Taiwan":"대만"};
 // Data field -> i18n key, for the per-robot change history (robot.html) and the catalog changelog.

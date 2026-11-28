@@ -3,7 +3,7 @@
 > Baemin's in-house indoor-outdoor autonomous delivery robot, certified for sidewalk operation in Korea.
 
 - Catalog page: https://htcrefactor.github.io/robot-catalog/robot.html?id=woowa-dilly-x3
-- Category: Outdoor delivery
+- Category: Outdoor service
 - Locomotion: Wheeled
 - Manufacturer: Woowa Brothers (South Korea)
 - Verification: unconfirmed — no maker source found yet
@@ -111,4 +111,4 @@ Woowa Brothers' own robot site (robot.baemin.com) describes Dilly only in servic
 
 ---
 
-*Robot Catalog — generated from data/robots.json (last merged 2026-11-22). Source repository: https://github.com/htcrefactor/robot-catalog*
+*Robot Catalog — generated from data/robots.json (last merged 2026-11-28). Source repository: https://github.com/htcrefactor/robot-catalog*

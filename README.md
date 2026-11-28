@@ -1,6 +1,6 @@
 # Robot Catalog
 
-Product specs for mobile robots of all kinds — AMRs, AGVs, humanoids, quadrupeds, wheel-legged robots, indoor and outdoor delivery robots, and development platforms — with a page per robot, a dashboard and a mega table.
+Product specs for mobile robots of all kinds — AMRs, AGVs, humanoids, quadrupeds, wheel-legged robots, indoor and outdoor service robots, and development platforms — with a page per robot, a dashboard and a mega table.
 
 **Live site:** https://htcrefactor.github.io/robot-catalog/
 
@@ -44,7 +44,7 @@ A price is stored as a dated observation (`price_observations`): the amount in t
 KRW is not stored anywhere. `data/fx.json` holds KRW per 1 unit for 30 currencies crossed from the European Central Bank's daily reference rates, with the ECB's reference date, and the pages convert at display time so the rate and its date stay next to the figure (`python3 scripts/build_fx.py` refreshes it). A price recorded before dated observations were introduced has no date, so it is shown as stated and **not** converted; those are the only records that still use `price_usd` / `price_note`.
 
 ## Safety & certifications
-AMR, AGV, delivery and mobile-platform records carry the safety profile their maker states: `safety_standards` (e.g. ISO 3691-4, EN ISO 13849-1), `certifications` (CE, UL 3100, FCC, KC, KIRIA …), `safety_pl` (PL d, SIL 2), a `safety_note` for exclusions or an explicit absence of certification, and the maker URL that states them in `safety_source` (see `data/SCHEMA.md`). The robot list and mega table filter on them and the robot page shows them next to the IP rating. The payload class (≤50 / 50–200 / 200–500 / 500–1500 / >1500 kg) is a display band derived from `payload_kg`, not a stored field.
+AMR, AGV, service and mobile-platform records carry the safety profile their maker states: `safety_standards` (e.g. ISO 3691-4, EN ISO 13849-1), `certifications` (CE, UL 3100, FCC, KC, KIRIA …), `safety_pl` (PL d, SIL 2), a `safety_note` for exclusions or an explicit absence of certification, and the maker URL that states them in `safety_source` (see `data/SCHEMA.md`). The robot list and mega table filter on them and the robot page shows them next to the IP rating. The payload class (≤50 / 50–200 / 200–500 / 500–1500 / >1500 kg) is a display band derived from `payload_kg`, not a stored field.
 
 ## Theme and languages
 - Light/dark toggle (🌙/☀️) in the header; follows the system setting until changed, then remembered.

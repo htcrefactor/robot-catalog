@@ -3,7 +3,7 @@
 > Third-generation Level 4 sidewalk food-delivery robot built with Magna, running on Uber Eats and other platforms in US cities.
 
 - Catalog page: https://htcrefactor.github.io/robot-catalog/robot.html?id=serve-robotics-gen3
-- Category: Outdoor delivery
+- Category: Outdoor service
 - Locomotion: Wheeled
 - Manufacturer: Serve Robotics (United States)
 - Verification: official — checked against a maker source
@@ -116,4 +116,4 @@ serverobotics.com/robot is service copy with no specification table, so the figu
 
 ---
 
-*Robot Catalog — generated from data/robots.json (last merged 2026-11-22). Source repository: https://github.com/htcrefactor/robot-catalog*
+*Robot Catalog — generated from data/robots.json (last merged 2026-11-28). Source repository: https://github.com/htcrefactor/robot-catalog*

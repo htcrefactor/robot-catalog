@@ -1,7 +1,7 @@
 # Anseboo CA02
 
 - Catalog page: https://htcrefactor.github.io/robot-catalog/robot.html?id=anseboo-ca02
-- Category: Indoor delivery
+- Category: Indoor service
 - Locomotion: Wheeled
 - Manufacturer: Anseboo (China)
 - Verification: not recorded
@@ -26,4 +26,4 @@ Listed by these directories (discovery only, never used as a spec source):
 
 ---
 
-*Robot Catalog — generated from data/robots.json (last merged 2026-11-22). Source repository: https://github.com/htcrefactor/robot-catalog*
+*Robot Catalog — generated from data/robots.json (last merged 2026-11-28). Source repository: https://github.com/htcrefactor/robot-catalog*
