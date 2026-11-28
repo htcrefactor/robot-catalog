@@ -5,7 +5,7 @@
 - Canonical site: https://htcrefactor.github.io/robot-catalog/
 - Index for agents: https://htcrefactor.github.io/robot-catalog/llms.txt
 - Per-robot Markdown with the full spec sheet and a source on every value: https://htcrefactor.github.io/robot-catalog/md/<id>.md
-- Generated from data/robots.json, last merged 2026-11-22. No scoring, no ranking.
+- Generated from data/robots.json, last merged 2026-11-28. No scoring, no ranking.
 
 ## AMR (96)
 
@@ -190,8 +190,10 @@
 - id: `dogu-iroi`
 - Page: https://htcrefactor.github.io/robot-catalog/robot.html?id=dogu-iroi
 - Markdown: https://htcrefactor.github.io/robot-catalog/md/dogu-iroi.md
-- AMR · Wheeled
-- Sources: none recorded
+- AMR · Wheeled · Commercial
+- Summary: DOGU's indoor AI security and guidance robot: a 1.44 m wheeled patrol platform with 3D/2D LiDAR, five cameras, gas and fire sensing and UVC disinfection, used for night patrol and daytime guidance.
+- Specs: Length 578 mm; Width 695.5 mm; Height 1,440 mm; Weight 100 kg; Max speed 1.2 m/s (4.3 km/h); Min speed 0.5 m/s; Runtime 8 h; Status Commercial; Sensors 3D LiDAR (about 50 m radius), 2D LiDAR, Ultrasonic sensors, Five cameras (front, rear, left, right and top), Thermal camera, Fire detection sensor, Microphones and speaker, Full HD front display, UVA and UVC disinfection lamps
+- Sources: https://www.dogu.xyz/product-iroi
 
 ### DOGU Patrover
 
@@ -2083,8 +2085,10 @@
 - id: `csjbot-catcop`
 - Page: https://htcrefactor.github.io/robot-catalog/robot.html?id=csjbot-catcop
 - Markdown: https://htcrefactor.github.io/robot-catalog/md/csjbot-catcop.md
-- Humanoid · China
-- Sources: none recorded
+- Humanoid · Wheeled · Commercial · China
+- Summary: Alpha Robotics' four-wheel security patrol robot (formerly sold as CSJBot): autonomous mapping, path planning and obstacle avoidance with 360-degree starlight surveillance, two-way voice intercom and self-charging.
+- Specs: Length 750 mm; Width 705 mm; Height 1,420 mm; Weight 75 kg; Max speed 1 m/s (3.6 km/h); Wheels 4; Runtime 8 h; Battery 960 Wh; Status Commercial; Sensors 360 deg starlight video surveillance camera, Face-recognition camera, Microphone and speaker for two-way voice intercom
+- Sources: https://www.alpharobotics.ai/product-detail2/catcop-security-patrol-robot.html
 
 ### CSJBot (Alpha Robotics) Ciao
 
@@ -4701,8 +4705,10 @@
 - id: `pollen-microduck`
 - Page: https://htcrefactor.github.io/robot-catalog/robot.html?id=pollen-microduck
 - Markdown: https://htcrefactor.github.io/robot-catalog/md/pollen-microduck.md
-- Humanoid · Legged · France
-- Sources: none recorded
+- Humanoid · Legged · Pre-order · France · released 2026
+- Summary: Pollen Robotics' 25 cm open-source biped for physical AI: 15 motors, a ToF LiDAR, two IMUs and a grasping beak, shipped with seven learned moves and a reinforcement-learning sim-to-real stack.
+- Specs: Width 140 mm; Height 250 mm; Weight 0.78 kg; Degrees of freedom 15; Runtime 1 h; Released 2026; Status Pre-order; SDK yes; SDK name Microduck open-source SDK (robot control, MuJoCo simulation, RL training); On-board compute yes; Compute Rockchip RK3566 with AI accelerator, 1 GB RAM, 32 GB storage; Sensors Front camera, 8 x 8 ToF LiDAR matrix, Two IMUs (body and head), Microphones and speaker, Two NFC antennas (head and beak), Articulated grasping beak
+- Sources: https://pollen-robotics.com/microduck/, https://pollen-robotics.com/microduck/press-kit/, https://store.pollen-robotics.com/products/microduck
 
 ### Pollen Robotics Reachy 2
 
@@ -5615,8 +5621,10 @@
 - id: `toyota-cue7`
 - Page: https://htcrefactor.github.io/robot-catalog/robot.html?id=toyota-cue7
 - Markdown: https://htcrefactor.github.io/robot-catalog/md/toyota-cue7.md
-- Humanoid · Japan
-- Sources: none recorded
+- Humanoid · Legged · Research · Japan · released 2026
+- Summary: Toyota's seventh-generation AI basketball humanoid: a 2.19 m biped that walks, dribbles and shoots, debuted at a Toyota Alvark Tokyo home game in April 2026.
+- Specs: Height 2,190 mm; Weight 74 kg; Released 2026; Status Research
+- Sources: https://toyotatimes.jp/newscast/188.html, https://prtimes.jp/main/html/rd/p/000000524.000035222.html
 
 ### Toyota ELEY
 
@@ -7693,23 +7701,27 @@
 - Page: https://htcrefactor.github.io/robot-catalog/robot.html?id=ogadjet-xgo-duck
 - Markdown: https://htcrefactor.github.io/robot-catalog/md/ogadjet-xgo-duck.md
 - Quadruped · Legged · China
-- Sources: none recorded
+- Sources: https://www.xgorobot.com/
 
 ### Ogadjet (XGO) XGO-Lite3
 
 - id: `ogadjet-xgo-lite3`
 - Page: https://htcrefactor.github.io/robot-catalog/robot.html?id=ogadjet-xgo-lite3
 - Markdown: https://htcrefactor.github.io/robot-catalog/md/ogadjet-xgo-lite3.md
-- Quadruped · Legged · China
-- Sources: none recorded
+- Quadruped · Legged · Commercial · China
+- Summary: Luwu Intelligence's 15-DoF desktop quadruped with a 3-DoF arm and gripper, built on a Raspberry Pi CM5 for Python/Blockly, ROS and AI teaching.
+- Specs: Length 250 mm; Width 145 mm; Height 170 mm; Weight 0.61 kg; Degrees of freedom 15; Runtime 2 h; Battery 18.5 Wh; Status Commercial; API yes; SDK yes; SDK name xgolib (Python) / open serial protocol; ROS yes; On-board compute yes; Compute Raspberry Pi CM5 (2 GB) + ESP32 motion controller; Sensors 5 MP OV5647 camera, Dual MEMS microphone array, 8 ohm 2 W speaker, 6-axis IMU, Joint position sensors, 2.0-inch IPS display (320 x 240)
+- Sources: https://www.xgorobot.com/lite3.html, https://www.xgorobot.com/manual-lite3.html, https://wiki.xgorobot.com/kb/the-xgo-series-robot/cmpidwcrq000jhjqr5awou1iy?model=lite3, https://shop.xgorobot.com/products/xgo-3-world-s-first-raspberry-pi-robotic-dog-with-an-arm
 
 ### Ogadjet (XGO) XGO-Mini2S
 
 - id: `ogadjet-xgo-mini2s`
 - Page: https://htcrefactor.github.io/robot-catalog/robot.html?id=ogadjet-xgo-mini2s
 - Markdown: https://htcrefactor.github.io/robot-catalog/md/ogadjet-xgo-mini2s.md
-- Quadruped · Legged · China
-- Sources: none recorded
+- Quadruped · Legged · Commercial · China
+- Summary: Luwu Intelligence's research-grade desktop quadruped: 16 DoF with a 4-DoF arm, magnetic-encoder servos at 0.01 deg control resolution and a Raspberry Pi CM5 for ROS development.
+- Specs: Length 270 mm; Width 150 mm; Height 180 mm; Weight 0.915 kg; Degrees of freedom 16; Runtime 2 h; Battery 28.12 Wh; Status Commercial; API yes; SDK yes; SDK name xgolib (Python) / open serial protocol; ROS yes; On-board compute yes; Compute Raspberry Pi CM5 (4 GB) + ESP32 motion controller; Sensors 5 MP OV5647 camera, Dual MEMS microphone array, 8 ohm 2 W speaker, 6-axis IMU, Joint position sensors, 2.0-inch IPS display (320 x 240)
+- Sources: https://wiki.xgorobot.com/kb/the-xgo-series-robot/cmpidwcrq000jhjqr5awou1iy?model=lite3, https://www.xgorobot.com/
 
 ### Open Dynamic Robot Initiative (ODRI) Solo 8
 
@@ -8893,8 +8905,10 @@
 - id: `orionstar-mini`
 - Page: https://htcrefactor.github.io/robot-catalog/robot.html?id=orionstar-mini
 - Markdown: https://htcrefactor.github.io/robot-catalog/md/orionstar-mini.md
-- Indoor delivery · Wheeled · China
-- Sources: none recorded
+- Indoor delivery · Wheeled · Commercial · China
+- Summary: OrionStar's compact reception and guidance robot (GreetingBot Mini, 豹小秘 mini) for small spaces: a 1 m wheeled body with a 14-inch screen, 6-microphone array and autonomous docking.
+- Specs: Length 410 mm; Width 410 mm; Height 1,000 mm; Weight 21 kg; Max speed 1.2 m/s (4.3 km/h); Min speed 0.5 m/s; Runtime 12 h; Status Commercial; API yes; On-board compute yes; Compute Qualcomm Snapdragon 845 octa-core + industrial MCU, Android-based RobotOS; Sensors LiDAR (240 deg scan), Depth camera, 13 MP head camera, 2 MP wide-angle head camera, 6-microphone array
+- Sources: https://en.orionstar.com/mini.html, https://www.orionstar.com/bxiaomimini.html
 
 ### Pudu Robotics BellaBot
 
@@ -9107,8 +9121,10 @@
 - id: `zorabots-james`
 - Page: https://htcrefactor.github.io/robot-catalog/robot.html?id=zorabots-james
 - Markdown: https://htcrefactor.github.io/robot-catalog/md/zorabots-james.md
-- Indoor delivery · Wheeled · Belgium
-- Sources: none recorded
+- Indoor delivery · Wheeled · Commercial · Belgium
+- Summary: ZoraBots' wheeled guidance robot (hardware built by Siasun) that runs the ZBOS operating system to greet visitors, talk through its tablet and lead them to a point of interest.
+- Specs: Length 420 mm; Width 420 mm; Height 800 mm; Weight 17 kg; Wheels 3; Battery 187.2 Wh; Status Commercial; On-board compute yes; Compute 10-inch tablet head unit (Qualcomm MSM8953, 8 cores, 3 GB RAM, 32 GB storage); Sensors LiDAR (SLAM in the base), 6-microphone ring array, 13 MP head camera, Two 5 W speakers, 2 side bumpers, IR detector for docking
+- Sources: https://docs.talemate.co/robot-james/latest/manual/hardware.html
 
 ## Outdoor delivery (18)
 
@@ -9795,8 +9811,10 @@
 - id: `yahboom-rosmaster-m3-pro`
 - Page: https://htcrefactor.github.io/robot-catalog/robot.html?id=yahboom-rosmaster-m3-pro
 - Markdown: https://htcrefactor.github.io/robot-catalog/md/yahboom-rosmaster-m3-pro.md
-- Mobile platform · Wheeled · China
-- Sources: none recorded
+- Mobile platform · Wheeled · Commercial · China
+- Summary: Yahboom's ROS 2 Humble teaching platform: a four-wheel Mecanum chassis with a 6-DoF arm, dual ToF LiDAR, a structured-light depth camera and multimodal LLM voice interaction.
+- Specs: Wheel diameter 80 mm; Wheels 4; Status Commercial; ROS yes; On-board compute yes; Compute Raspberry Pi 5, Jetson Nano B01, Jetson Orin Nano Super or Jetson Orin NX Super (configuration chosen at order); Sensors Dual ToF LiDAR (front-left and rear-right), Binocular structured-light depth camera, 6-DoF robotic arm with gripper, Voice interaction module with speaker
+- Sources: https://www.yahboom.store/products/rosmaster-m3-pro, https://www.yahboom.net/study/ROSMASTER-M3PRO
 
 ### Zebra Technologies (Fetch Robotics) Fetch Mobile Manipulator
 

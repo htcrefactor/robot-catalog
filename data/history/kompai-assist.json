@@ -1,0 +1,25 @@
+{
+ "id": "kompai-assist",
+ "name": "KOMPAÏ assist",
+ "manufacturer": "Kompai Robotics",
+ "updated": "2026-11-28",
+ "events": [
+  {
+   "date": "2026-11-28",
+   "type": "updated",
+   "source": null,
+   "changes": [
+    {
+     "field": "note",
+     "from": null,
+     "to": "Checked 2026-11-28: kompai.com and kompairobotics.com both returned HTTP 500, so no maker page could be read and nothing is filled in. Third-party listings quote 118.6 cm, 45 kg, 8.3 km/h and 6 h runtime, which are not maker figures and are not used here. Re-check the maker site on a later batch."
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "unconfirmed"
+    }
+   ]
+  }
+ ]
+}

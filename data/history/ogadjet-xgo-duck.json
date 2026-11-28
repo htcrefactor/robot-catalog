@@ -1,0 +1,32 @@
+{
+ "id": "ogadjet-xgo-duck",
+ "name": "XGO-Duck",
+ "manufacturer": "Ogadjet (XGO)",
+ "updated": "2026-11-28",
+ "events": [
+  {
+   "date": "2026-11-28",
+   "type": "updated",
+   "source": "https://www.xgorobot.com/",
+   "changes": [
+    {
+     "field": "note",
+     "from": null,
+     "to": "Checked 2026-11-28: the maker's site (xgorobot.com, Luwu Intelligence) lists XGO-lite3, XGO-mini2S, XGO-mini2SW and XGO-Rider2, plus the RIG line (Puppy, Arm, Hover) — no XGO-Duck model and no 'Duck' product page or datasheet. The name comes only from the aggregator listing this record was seeded from, so nothing is filled in."
+    },
+    {
+     "field": "sources",
+     "from": [],
+     "to": [
+      "https://www.xgorobot.com/"
+     ]
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "unconfirmed"
+    }
+   ]
+  }
+ ]
+}

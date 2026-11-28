@@ -1,0 +1,97 @@
+{
+ "id": "yahboom-rosmaster-m3-pro",
+ "name": "ROSMASTER M3 Pro",
+ "manufacturer": "Yahboom",
+ "updated": "2026-11-28",
+ "events": [
+  {
+   "date": "2026-11-28",
+   "type": "updated",
+   "source": "https://www.yahboom.store/products/rosmaster-m3-pro",
+   "changes": [
+    {
+     "field": "compute_detail",
+     "from": null,
+     "to": "Raspberry Pi 5, Jetson Nano B01, Jetson Orin Nano Super or Jetson Orin NX Super (configuration chosen at order)"
+    },
+    {
+     "field": "note",
+     "from": null,
+     "to": "Maker store checked 2026-11-28: four 80 mm Mecanum wheels on an aluminium chassis with rear-wheel pendulum suspension, 6-DoF arm with gripper and MoveIt support, two ToF LiDAR units (front-left, rear-right) for 360 deg scans, binocular structured-light depth camera, voice module with speaker, ROS 2 Humble, and a choice of Raspberry Pi 5 / Jetson Nano B01 / Jetson Orin Nano Super / Jetson Orin NX Super as controller. Dimensions, weight, battery and runtime are shown only in parameter images on the store page, so they stay empty. Store price observed 2026-11-28: USD 1,444.00 for the base configuration."
+    },
+    {
+     "field": "official_url",
+     "from": null,
+     "to": "https://www.yahboom.store/products/rosmaster-m3-pro"
+    },
+    {
+     "field": "onboard_compute",
+     "from": null,
+     "to": true
+    },
+    {
+     "field": "price_observations",
+     "from": null,
+     "to": [
+      {
+       "date": "2026-11-28",
+       "amount": 1444,
+       "currency": "USD",
+       "kind": "list",
+       "source": "https://www.yahboom.store/products/rosmaster-m3-pro",
+       "note": "Raspberry Pi 5 base configuration; higher-compute configurations cost more"
+      }
+     ]
+    },
+    {
+     "field": "ros_support",
+     "from": null,
+     "to": true
+    },
+    {
+     "field": "sensors",
+     "from": [],
+     "to": [
+      "Dual ToF LiDAR (front-left and rear-right)",
+      "Binocular structured-light depth camera",
+      "6-DoF robotic arm with gripper",
+      "Voice interaction module with speaker"
+     ]
+    },
+    {
+     "field": "sources",
+     "from": [],
+     "to": [
+      "https://www.yahboom.store/products/rosmaster-m3-pro",
+      "https://www.yahboom.net/study/ROSMASTER-M3PRO"
+     ]
+    },
+    {
+     "field": "status",
+     "from": null,
+     "to": "Commercial"
+    },
+    {
+     "field": "summary",
+     "from": "",
+     "to": "Yahboom's ROS 2 Humble teaching platform: a four-wheel Mecanum chassis with a 6-DoF arm, dual ToF LiDAR, a structured-light depth camera and multimodal LLM voice interaction."
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "official"
+    },
+    {
+     "field": "wheel_count",
+     "from": null,
+     "to": 4
+    },
+    {
+     "field": "wheel_diameter_mm",
+     "from": null,
+     "to": 80
+    }
+   ]
+  }
+ ]
+}

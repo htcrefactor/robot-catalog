@@ -216,4 +216,4 @@ Checked 2026-11-19 against the MiR specification page: 800x580x300 mm, 94 kg, 25
 
 ---
 
-*Robot Catalog — generated from data/robots.json (last merged 2026-11-22). Source repository: https://github.com/htcrefactor/robot-catalog*
+*Robot Catalog — generated from data/robots.json (last merged 2026-11-28). Source repository: https://github.com/htcrefactor/robot-catalog*

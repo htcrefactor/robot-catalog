@@ -1,0 +1,135 @@
+{
+ "id": "ogadjet-xgo-mini2s",
+ "name": "XGO-Mini2S",
+ "manufacturer": "Ogadjet (XGO)",
+ "updated": "2026-11-28",
+ "events": [
+  {
+   "date": "2026-11-28",
+   "type": "updated",
+   "source": "https://wiki.xgorobot.com/kb/the-xgo-series-robot/cmpidwcrq000jhjqr5awou1iy?model=lite3",
+   "changes": [
+    {
+     "field": "api_support",
+     "from": null,
+     "to": true
+    },
+    {
+     "field": "battery_wh",
+     "from": null,
+     "to": 28.12
+    },
+    {
+     "field": "compute_detail",
+     "from": null,
+     "to": "Raspberry Pi CM5 (4 GB) + ESP32 motion controller"
+    },
+    {
+     "field": "compute_memory_gb",
+     "from": null,
+     "to": 4
+    },
+    {
+     "field": "compute_soc",
+     "from": null,
+     "to": "Raspberry Pi CM5"
+    },
+    {
+     "field": "dof",
+     "from": null,
+     "to": 16
+    },
+    {
+     "field": "height_mm",
+     "from": null,
+     "to": 180
+    },
+    {
+     "field": "length_mm",
+     "from": null,
+     "to": 270
+    },
+    {
+     "field": "note",
+     "from": null,
+     "to": "Maker wiki checked 2026-11-28 (shared lite3/mini2S page): 270 x 150 x 180 mm default standing, 915 g, 16 DoF (12 leg joints + 4-DoF arm), 18650 2S 3800 mAh pack (28.12 Wh computed as 7.4 V x 3.8 Ah), 4.5 kg.cm magnetic-encoder servos with 0-360 deg range and 0.01 deg control resolution, Raspberry Pi CM5 4 GB with ESP32, silicone + ABS feet, supplied 8.4 V 4 A DC charger (USB-C charging is not allowed), about 2 hours runtime, Python and ROS development. Top speed and payload are not published. The maker has no separate mini2S product page on xgorobot.com (404); the wiki is the current source."
+    },
+    {
+     "field": "official_url",
+     "from": null,
+     "to": "https://wiki.xgorobot.com/kb/the-xgo-series-robot/cmpidwcrq000jhjqr5awou1iy?model=lite3"
+    },
+    {
+     "field": "onboard_compute",
+     "from": null,
+     "to": true
+    },
+    {
+     "field": "ros_support",
+     "from": null,
+     "to": true
+    },
+    {
+     "field": "runtime_h",
+     "from": null,
+     "to": 2.0
+    },
+    {
+     "field": "sdk_available",
+     "from": null,
+     "to": true
+    },
+    {
+     "field": "sdk_name",
+     "from": null,
+     "to": "xgolib (Python) / open serial protocol"
+    },
+    {
+     "field": "sensors",
+     "from": [],
+     "to": [
+      "5 MP OV5647 camera",
+      "Dual MEMS microphone array",
+      "8 ohm 2 W speaker",
+      "6-axis IMU",
+      "Joint position sensors",
+      "2.0-inch IPS display (320 x 240)"
+     ]
+    },
+    {
+     "field": "sources",
+     "from": [],
+     "to": [
+      "https://wiki.xgorobot.com/kb/the-xgo-series-robot/cmpidwcrq000jhjqr5awou1iy?model=lite3",
+      "https://www.xgorobot.com/"
+     ]
+    },
+    {
+     "field": "status",
+     "from": null,
+     "to": "Commercial"
+    },
+    {
+     "field": "summary",
+     "from": "",
+     "to": "Luwu Intelligence's research-grade desktop quadruped: 16 DoF with a 4-DoF arm, magnetic-encoder servos at 0.01 deg control resolution and a Raspberry Pi CM5 for ROS development."
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "official"
+    },
+    {
+     "field": "weight_kg",
+     "from": null,
+     "to": 0.915
+    },
+    {
+     "field": "width_mm",
+     "from": null,
+     "to": 150
+    }
+   ]
+  }
+ ]
+}

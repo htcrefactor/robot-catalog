@@ -1,0 +1,68 @@
+{
+ "id": "toyota-cue7",
+ "name": "CUE7",
+ "manufacturer": "Toyota",
+ "updated": "2026-11-28",
+ "events": [
+  {
+   "date": "2026-11-28",
+   "type": "updated",
+   "source": "https://toyotatimes.jp/newscast/188.html",
+   "changes": [
+    {
+     "field": "height_mm",
+     "from": null,
+     "to": 2190
+    },
+    {
+     "field": "locomotion",
+     "from": null,
+     "to": "Legged"
+    },
+    {
+     "field": "note",
+     "from": null,
+     "to": "Checked 2026-11-28: Toyota Times (Toyota Motor Corporation) confirms CUE7 as the newest CUE model, debuted 2026-04-12 at TOYOTA ARENA TOKYO, a full model change with court movement and dribbling added. Toyota's own pages publish no spec table, so no maker-stated height or weight exists; the 219 cm / 74 kg figures come from Toyota Alvark Tokyo's signing release (the club's roster profile, not a Toyota Motor spec sheet), and B.League coverage reports the mass dropping from CUE6's 120 kg to 74 kg. Because the numbers rest on a club announcement rather than a maker spec source, the record is kept as unconfirmed (owner decision 2026-11-28) with those figures retained and attributed here. DoF, speed, battery and price are not published. Research/demonstration platform, not a product for sale."
+    },
+    {
+     "field": "official_url",
+     "from": null,
+     "to": "https://toyotatimes.jp/newscast/188.html"
+    },
+    {
+     "field": "release_year",
+     "from": null,
+     "to": 2026
+    },
+    {
+     "field": "sources",
+     "from": [],
+     "to": [
+      "https://toyotatimes.jp/newscast/188.html",
+      "https://prtimes.jp/main/html/rd/p/000000524.000035222.html"
+     ]
+    },
+    {
+     "field": "status",
+     "from": null,
+     "to": "Research"
+    },
+    {
+     "field": "summary",
+     "from": "",
+     "to": "Toyota's seventh-generation AI basketball humanoid: a 2.19 m biped that walks, dribbles and shoots, debuted at a Toyota Alvark Tokyo home game in April 2026."
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "unconfirmed"
+    },
+    {
+     "field": "weight_kg",
+     "from": null,
+     "to": 74
+    }
+   ]
+  }
+ ]
+}

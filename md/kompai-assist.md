@@ -4,7 +4,7 @@
 - Category: Indoor delivery
 - Locomotion: Wheeled
 - Manufacturer: Kompai Robotics (France)
-- Verification: not recorded
+- Verification: unconfirmed — no maker source found yet
 
 ## Core specs
 
@@ -16,6 +16,10 @@ Fields the maker does not publish are left out here — the catalog never fills 
 
 The full spec sheet for this robot is still being researched; the catalog core fields above are every value recorded so far.
 
+## Notes
+
+Checked 2026-11-28: kompai.com and kompairobotics.com both returned HTTP 500, so no maker page could be read and nothing is filled in. Third-party listings quote 118.6 cm, 45 kg, 8.3 km/h and 6 h runtime, which are not maker figures and are not used here. Re-check the maker site on a later batch.
+
 ## Sources
 
 - No source URL recorded for this robot yet.
@@ -26,4 +30,4 @@ Listed by these directories (discovery only, never used as a spec source):
 
 ---
 
-*Robot Catalog — generated from data/robots.json (last merged 2026-11-22). Source repository: https://github.com/htcrefactor/robot-catalog*
+*Robot Catalog — generated from data/robots.json (last merged 2026-11-28). Source repository: https://github.com/htcrefactor/robot-catalog*

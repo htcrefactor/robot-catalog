@@ -2829,7 +2829,7 @@
   "category": "Mobile platform",
   "locomotion": "Wheeled",
   "release_year": null,
-  "status": null,
+  "status": "Commercial",
   "length_mm": null,
   "width_mm": null,
   "height_mm": null,
@@ -2837,8 +2837,8 @@
   "payload_kg": null,
   "max_speed_mps": null,
   "min_speed_mps": null,
-  "wheel_diameter_mm": null,
-  "wheel_count": null,
+  "wheel_diameter_mm": 80,
+  "wheel_count": 4,
   "dof": null,
   "runtime_h": null,
   "battery_wh": null,
@@ -2846,22 +2846,41 @@
   "api_support": null,
   "sdk_available": null,
   "sdk_name": null,
-  "onboard_compute": null,
-  "compute_detail": null,
-  "ros_support": null,
-  "sensors": [],
+  "onboard_compute": true,
+  "compute_detail": "Raspberry Pi 5, Jetson Nano B01, Jetson Orin Nano Super or Jetson Orin NX Super (configuration chosen at order)",
+  "ros_support": true,
+  "sensors": [
+   "Dual ToF LiDAR (front-left and rear-right)",
+   "Binocular structured-light depth camera",
+   "6-DoF robotic arm with gripper",
+   "Voice interaction module with speaker"
+  ],
   "price_usd": null,
   "price_note": null,
-  "official_url": null,
-  "sources": [],
-  "summary": "",
+  "official_url": "https://www.yahboom.store/products/rosmaster-m3-pro",
+  "sources": [
+   "https://www.yahboom.store/products/rosmaster-m3-pro",
+   "https://www.yahboom.net/study/ROSMASTER-M3PRO"
+  ],
+  "summary": "Yahboom's ROS 2 Humble teaching platform: a four-wheel Mecanum chassis with a 6-DoF arm, dual ToF LiDAR, a structured-light depth camera and multimodal LLM voice interaction.",
   "image_url": null,
   "image_source": null,
   "videos": [],
   "seen_on": [
    "https://botupyourlife.com/en/robots/yahboom-rosmaster-m3-pro/"
   ],
-  "verification": null
+  "verification": "official",
+  "note": "Maker store checked 2026-11-28: four 80 mm Mecanum wheels on an aluminium chassis with rear-wheel pendulum suspension, 6-DoF arm with gripper and MoveIt support, two ToF LiDAR units (front-left, rear-right) for 360 deg scans, binocular structured-light depth camera, voice module with speaker, ROS 2 Humble, and a choice of Raspberry Pi 5 / Jetson Nano B01 / Jetson Orin Nano Super / Jetson Orin NX Super as controller. Dimensions, weight, battery and runtime are shown only in parameter images on the store page, so they stay empty. Store price observed 2026-11-28: USD 1,444.00 for the base configuration.",
+  "price_observations": [
+   {
+    "date": "2026-11-28",
+    "amount": 1444,
+    "currency": "USD",
+    "kind": "list",
+    "source": "https://www.yahboom.store/products/rosmaster-m3-pro",
+    "note": "Raspberry Pi 5 base configuration; higher-compute configurations cost more"
+   }
+  ]
  },
  {
   "id": "yahboom-rosmaster-m1",
@@ -2987,7 +3006,8 @@
   "seen_on": [
    "https://botupyourlife.com/en/robots/kompai-autonav-10/"
   ],
-  "verification": null
+  "verification": "unconfirmed",
+  "note": "Checked 2026-11-28: kompai.com and kompairobotics.com both returned HTTP 500, so the maker's AutoNAV 10 page could not be read and no field is filled in. Re-check on a later batch."
  },
  {
   "id": "yahboom-rosmaster-a1",

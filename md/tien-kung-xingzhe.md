@@ -94,4 +94,4 @@ Maker figures: 170 cm, 20 humanoid DoF (7-DoF arms, 6-DoF hands, 3-DoF head), 30
 
 ---
 
-*Robot Catalog — generated from data/robots.json (last merged 2026-11-22). Source repository: https://github.com/htcrefactor/robot-catalog*
+*Robot Catalog — generated from data/robots.json (last merged 2026-11-28). Source repository: https://github.com/htcrefactor/robot-catalog*
