@@ -3,7 +3,7 @@
 > Passengerless electric on-road autonomous delivery vehicle with heated/cooled compartments and an external pedestrian airbag.
 
 - Catalog page: https://htcrefactor.github.io/robot-catalog/robot.html?id=nuro-r3
-- Category: Outdoor delivery
+- Category: Outdoor service
 - Locomotion: Wheeled
 - Manufacturer: Nuro (United States)
 - Verification: official — checked against a maker source
@@ -115,4 +115,4 @@ Maker spec sheet 'Nuro R3 - Third-generation vehicle' (2022, nuro.ai): 45 mph, 5
 
 ---
 
-*Robot Catalog — generated from data/robots.json (last merged 2026-11-22). Source repository: https://github.com/htcrefactor/robot-catalog*
+*Robot Catalog — generated from data/robots.json (last merged 2026-11-28). Source repository: https://github.com/htcrefactor/robot-catalog*

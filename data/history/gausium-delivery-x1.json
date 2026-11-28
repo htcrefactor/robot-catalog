@@ -1,0 +1,20 @@
+{
+ "id": "gausium-delivery-x1",
+ "name": "Delivery X1",
+ "manufacturer": "Gausium",
+ "updated": "2026-11-28",
+ "events": [
+  {
+   "date": "2026-11-28",
+   "type": "updated",
+   "source": "https://gausium.com/specs/delivery-x1/",
+   "changes": [
+    {
+     "field": "category",
+     "from": "Indoor delivery",
+     "to": "Indoor service"
+    }
+   ]
+  }
+ ]
+}

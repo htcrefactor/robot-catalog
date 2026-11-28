@@ -3,7 +3,7 @@
 > Omnidirectional autonomous mobile robot that picks up and transports carts in hospitals and hotels without navigation infrastructure.
 
 - Catalog page: https://htcrefactor.github.io/robot-catalog/robot.html?id=aethon-t3
-- Category: AMR
+- Category: Indoor service
 - Locomotion: Wheeled
 - Manufacturer: Aethon (ST Engineering) (United States)
 - Verification: official — checked against a maker source
@@ -27,7 +27,7 @@ The full spec sheet for this robot is still being researched; the catalog core f
 
 ## Notes
 
-Official model name is T3 (marketed earlier as 'TUG T3'); maker ST Engineering Aethon sells T3 and T3XL. Spec sheet: 340 kg (T3XL: 454 kg / 1,000 lb), 22.44 in width, 48.1 in height; overall length not given (lift surface 33.81 in).
+Official model name is T3 (marketed earlier as 'TUG T3'); maker ST Engineering Aethon sells T3 and T3XL. Spec sheet: 340 kg (T3XL: 454 kg / 1,000 lb), 22.44 in width, 48.1 in height; overall length not given (lift surface 33.81 in). Category moved from AMR to Indoor service on 2026-11-28 (issue #109): it moves carts in hospitals and hotels, the same hospital-delivery service as aethon-zena, which is already in an Indoor service category.
 
 ## Sources
 
@@ -40,4 +40,4 @@ Listed by these directories (discovery only, never used as a spec source):
 
 ---
 
-*Robot Catalog — generated from data/robots.json (last merged 2026-11-22). Source repository: https://github.com/htcrefactor/robot-catalog*
+*Robot Catalog — generated from data/robots.json (last merged 2026-11-28). Source repository: https://github.com/htcrefactor/robot-catalog*

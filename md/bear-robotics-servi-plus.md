@@ -3,7 +3,7 @@
 > High-capacity restaurant serving robot with 2-4 trays (10 kg each) and active suspension for soups and drinks.
 
 - Catalog page: https://htcrefactor.github.io/robot-catalog/robot.html?id=bear-robotics-servi-plus
-- Category: Indoor delivery
+- Category: Indoor service
 - Locomotion: Wheeled
 - Manufacturer: Bear Robotics (United States)
 - Verification: official — checked against a maker source
@@ -178,4 +178,4 @@ Fields the maker does not publish are left out here — the catalog never fills 
 
 ---
 
-*Robot Catalog — generated from data/robots.json (last merged 2026-11-22). Source repository: https://github.com/htcrefactor/robot-catalog*
+*Robot Catalog — generated from data/robots.json (last merged 2026-11-28). Source repository: https://github.com/htcrefactor/robot-catalog*

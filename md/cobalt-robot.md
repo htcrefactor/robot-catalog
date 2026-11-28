@@ -3,7 +3,7 @@
 > Autonomous indoor security robot with 60+ sensors that patrols facilities and escalates anomalies to remote human specialists.
 
 - Catalog page: https://htcrefactor.github.io/robot-catalog/robot.html?id=cobalt-robot
-- Category: Mobile platform
+- Category: Indoor service
 - Locomotion: Wheeled
 - Manufacturer: Cobalt AI (United States)
 - Verification: official — checked against a maker source
@@ -26,7 +26,7 @@ The full spec sheet for this robot is still being researched; the catalog core f
 
 ## Notes
 
-Indoor security patrol robot from Cobalt AI (formerly Cobalt Robotics); sold as a service with Cobalt Monitoring Intelligence. Height 5'1" per maker spec sheet.
+Indoor security patrol robot from Cobalt AI (formerly Cobalt Robotics); sold as a service with Cobalt Monitoring Intelligence. Height 5'1" per maker spec sheet. Category moved from Mobile platform to Indoor service on 2026-11-28 (issue #109): a complete indoor security patrol robot sold as a service, not a chassis for builders.
 
 ## Sources
 
@@ -39,4 +39,4 @@ Listed by these directories (discovery only, never used as a spec source):
 
 ---
 
-*Robot Catalog — generated from data/robots.json (last merged 2026-11-22). Source repository: https://github.com/htcrefactor/robot-catalog*
+*Robot Catalog — generated from data/robots.json (last merged 2026-11-28). Source repository: https://github.com/htcrefactor/robot-catalog*

@@ -3,7 +3,7 @@
 > Humanoid-styled restaurant delivery robot with double-layer trays, 13-inch ad screen, voice dish introduction and LiDAR navigation.
 
 - Catalog page: https://htcrefactor.github.io/robot-catalog/robot.html?id=csjbot-amy-delivery
-- Category: Indoor delivery
+- Category: Indoor service
 - Locomotion: Wheeled
 - Manufacturer: CSJBot (Alpha Robotics) (China)
 - Verification: official — checked against a maker source
@@ -42,4 +42,4 @@ Listed by these directories (discovery only, never used as a spec source):
 
 ---
 
-*Robot Catalog — generated from data/robots.json (last merged 2026-11-22). Source repository: https://github.com/htcrefactor/robot-catalog*
+*Robot Catalog — generated from data/robots.json (last merged 2026-11-28). Source repository: https://github.com/htcrefactor/robot-catalog*

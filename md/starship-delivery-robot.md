@@ -3,7 +3,7 @@
 > Six-wheeled insulated sidewalk robot delivering groceries and food within about 2 miles, the most deployed fleet worldwide.
 
 - Catalog page: https://htcrefactor.github.io/robot-catalog/robot.html?id=starship-delivery-robot
-- Category: Outdoor delivery
+- Category: Outdoor service
 - Locomotion: Wheeled
 - Manufacturer: Starship Technologies (United States)
 - Verification: official — checked against a maker source
@@ -128,4 +128,4 @@ Maker pages: our-robots lists 12 cameras including time-of-flight, radar, ultras
 
 ---
 
-*Robot Catalog — generated from data/robots.json (last merged 2026-11-22). Source repository: https://github.com/htcrefactor/robot-catalog*
+*Robot Catalog — generated from data/robots.json (last merged 2026-11-28). Source repository: https://github.com/htcrefactor/robot-catalog*

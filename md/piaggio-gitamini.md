@@ -3,7 +3,7 @@
 > Compact self-balancing robot from Piaggio Fast Forward that follows its owner on foot while carrying up to 20 lb of cargo.
 
 - Catalog page: https://htcrefactor.github.io/robot-catalog/robot.html?id=piaggio-gitamini
-- Category: Outdoor delivery
+- Category: Outdoor service
 - Locomotion: Wheeled
 - Manufacturer: Piaggio Fast Forward (United States)
 - Verification: official — checked against a maker source
@@ -45,4 +45,4 @@ Listed by these directories (discovery only, never used as a spec source):
 
 ---
 
-*Robot Catalog — generated from data/robots.json (last merged 2026-11-22). Source repository: https://github.com/htcrefactor/robot-catalog*
+*Robot Catalog — generated from data/robots.json (last merged 2026-11-28). Source repository: https://github.com/htcrefactor/robot-catalog*

@@ -3,7 +3,7 @@
 > Ottonomy's four-wheel swerve-drive autonomous delivery robot with modular lockable compartments for airports, hospitals and campuses, indoors and out.
 
 - Catalog page: https://htcrefactor.github.io/robot-catalog/robot.html?id=ottonomy-ottobot
-- Category: Outdoor delivery
+- Category: Outdoor service
 - Locomotion: Wheeled
 - Manufacturer: Ottonomy (United States)
 - Verification: official — checked against a maker source
@@ -39,4 +39,4 @@ Listed by these directories (discovery only, never used as a spec source):
 
 ---
 
-*Robot Catalog — generated from data/robots.json (last merged 2026-11-22). Source repository: https://github.com/htcrefactor/robot-catalog*
+*Robot Catalog — generated from data/robots.json (last merged 2026-11-28). Source repository: https://github.com/htcrefactor/robot-catalog*

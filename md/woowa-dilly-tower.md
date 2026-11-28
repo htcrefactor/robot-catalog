@@ -3,7 +3,7 @@
 > Baemin's indoor last-leg delivery robot that opens lobby doors and rides elevators to bring orders to apartment and office doors.
 
 - Catalog page: https://htcrefactor.github.io/robot-catalog/robot.html?id=woowa-dilly-tower
-- Category: Indoor delivery
+- Category: Indoor service
 - Locomotion: Wheeled
 - Manufacturer: Woowa Brothers (South Korea)
 - Verification: unconfirmed — no maker source found yet
@@ -109,4 +109,4 @@ Fields the maker does not publish are left out here — the catalog never fills 
 
 ---
 
-*Robot Catalog — generated from data/robots.json (last merged 2026-11-22). Source repository: https://github.com/htcrefactor/robot-catalog*
+*Robot Catalog — generated from data/robots.json (last merged 2026-11-28). Source repository: https://github.com/htcrefactor/robot-catalog*

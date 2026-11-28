@@ -3,7 +3,7 @@
 > Compact restaurant serving robot that navigates 45 cm aisles and carries up to 30 kg across 1-3 trays, with an 18.5-inch ad display.
 
 - Catalog page: https://htcrefactor.github.io/robot-catalog/robot.html?id=bear-robotics-servi-q
-- Category: Indoor delivery
+- Category: Indoor service
 - Locomotion: Wheeled
 - Manufacturer: Bear Robotics (United States)
 - Verification: official — checked against a maker source
@@ -43,4 +43,4 @@ Listed by these directories (discovery only, never used as a spec source):
 
 ---
 
-*Robot Catalog — generated from data/robots.json (last merged 2026-11-22). Source repository: https://github.com/htcrefactor/robot-catalog*
+*Robot Catalog — generated from data/robots.json (last merged 2026-11-28). Source repository: https://github.com/htcrefactor/robot-catalog*

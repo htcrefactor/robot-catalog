@@ -83,4 +83,4 @@ Maker spec: 230 x 121 x 72 mm, ~575 g with battery, 15 DoF (head 1, arms 6, legs
 
 ---
 
-*Robot Catalog — generated from data/robots.json (last merged 2026-11-22). Source repository: https://github.com/htcrefactor/robot-catalog*
+*Robot Catalog — generated from data/robots.json (last merged 2026-11-28). Source repository: https://github.com/htcrefactor/robot-catalog*

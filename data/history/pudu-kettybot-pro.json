@@ -2,13 +2,25 @@
  "id": "pudu-kettybot-pro",
  "name": "KettyBot Pro",
  "manufacturer": "Pudu Robotics",
- "updated": "2026-11-22",
+ "updated": "2026-11-28",
  "events": [
   {
    "date": "2026-11-22",
    "type": "added",
    "source": "https://www.pudurobotics.com/en/products/kettybot_pro",
    "changes": []
+  },
+  {
+   "date": "2026-11-28",
+   "type": "updated",
+   "source": "https://www.pudurobotics.com/en/products/kettybot_pro",
+   "changes": [
+    {
+     "field": "category",
+     "from": "Indoor delivery",
+     "to": "Indoor service"
+    }
+   ]
   }
  ]
 }

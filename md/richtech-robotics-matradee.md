@@ -3,7 +3,7 @@
 > Restaurant service robot line for food delivery and table bussing using SLAM and LiDAR navigation.
 
 - Catalog page: https://htcrefactor.github.io/robot-catalog/robot.html?id=richtech-robotics-matradee
-- Category: Indoor delivery
+- Category: Indoor service
 - Locomotion: Wheeled
 - Manufacturer: Richtech Robotics (United States)
 - Verification: official — checked against a maker source
@@ -34,4 +34,4 @@ Listed by these directories (discovery only, never used as a spec source):
 
 ---
 
-*Robot Catalog — generated from data/robots.json (last merged 2026-11-22). Source repository: https://github.com/htcrefactor/robot-catalog*
+*Robot Catalog — generated from data/robots.json (last merged 2026-11-28). Source repository: https://github.com/htcrefactor/robot-catalog*

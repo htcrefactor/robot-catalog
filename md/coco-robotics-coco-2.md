@@ -3,7 +3,7 @@
 > Urban delivery robot for sidewalks, bike lanes and permitted roads, with swappable battery and room for four 18-inch pizzas.
 
 - Catalog page: https://htcrefactor.github.io/robot-catalog/robot.html?id=coco-robotics-coco-2
-- Category: Outdoor delivery
+- Category: Outdoor service
 - Locomotion: Wheeled
 - Manufacturer: Coco Robotics (United States)
 - Verification: official — checked against a maker source
@@ -105,4 +105,4 @@ Fields the maker does not publish are left out here — the catalog never fills 
 
 ---
 
-*Robot Catalog — generated from data/robots.json (last merged 2026-11-22). Source repository: https://github.com/htcrefactor/robot-catalog*
+*Robot Catalog — generated from data/robots.json (last merged 2026-11-28). Source repository: https://github.com/htcrefactor/robot-catalog*

@@ -3,7 +3,7 @@
 > Pudu indoor delivery robot with enclosed compartments, laser path projection and pedestrian make-way behaviour for restaurants and hotels.
 
 - Catalog page: https://htcrefactor.github.io/robot-catalog/robot.html?id=pudu-swiftbot
-- Category: Indoor delivery
+- Category: Indoor service
 - Locomotion: Wheeled
 - Manufacturer: Pudu Robotics (China)
 - Verification: official — checked against a maker source
@@ -42,4 +42,4 @@ Listed by these directories (discovery only, never used as a spec source):
 
 ---
 
-*Robot Catalog — generated from data/robots.json (last merged 2026-11-22). Source repository: https://github.com/htcrefactor/robot-catalog*
+*Robot Catalog — generated from data/robots.json (last merged 2026-11-28). Source repository: https://github.com/htcrefactor/robot-catalog*

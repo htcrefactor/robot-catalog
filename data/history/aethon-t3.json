@@ -1,0 +1,25 @@
+{
+ "id": "aethon-t3",
+ "name": "T3",
+ "manufacturer": "Aethon (ST Engineering)",
+ "updated": "2026-11-28",
+ "events": [
+  {
+   "date": "2026-11-28",
+   "type": "updated",
+   "source": "https://aethon.com/t3",
+   "changes": [
+    {
+     "field": "category",
+     "from": "AMR",
+     "to": "Indoor service"
+    },
+    {
+     "field": "note",
+     "from": "Official model name is T3 (marketed earlier as 'TUG T3'); maker ST Engineering Aethon sells T3 and T3XL. Spec sheet: 340 kg (T3XL: 454 kg / 1,000 lb), 22.44 in width, 48.1 in height; overall length not given (lift surface 33.81 in).",
+     "to": "Official model name is T3 (marketed earlier as 'TUG T3'); maker ST Engineering Aethon sells T3 and T3XL. Spec sheet: 340 kg (T3XL: 454 kg / 1,000 lb), 22.44 in width, 48.1 in height; overall length not given (lift surface 33.81 in). Category moved from AMR to Indoor service on 2026-11-28 (issue #109): it moves carts in hospitals and hotels, the same hospital-delivery service as aethon-zena, which is already in an Indoor service category."
+    }
+   ]
+  }
+ ]
+}

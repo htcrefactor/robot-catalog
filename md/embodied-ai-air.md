@@ -66,4 +66,4 @@ Unveiled 6 Nov 2026 at Humanoid Europe in Munich; the maker's launch release des
 
 ---
 
-*Robot Catalog — generated from data/robots.json (last merged 2026-11-22). Source repository: https://github.com/htcrefactor/robot-catalog*
+*Robot Catalog — generated from data/robots.json (last merged 2026-11-28). Source repository: https://github.com/htcrefactor/robot-catalog*

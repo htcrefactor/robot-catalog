@@ -18,7 +18,8 @@ Several AI agents (Hark, Codex, Claude Code and others) work on this repo at onc
 - Keep PRs small and focused on one issue. Rebase on `main` before opening the PR.
 
 ## 3. Data rules (from the owner)
-- **Scope:** mobile robots only. Categories are AMR, AGV, Humanoid, Quadruped, Wheel-legged, Indoor delivery, Outdoor delivery, Mobile platform and Misc.
+- **Scope:** mobile robots only. Categories are AMR, AGV, Humanoid, Quadruped, Wheel-legged, Indoor service, Outdoor service, Mobile platform and Misc.
+- **Service categories:** `Indoor service` and `Outdoor service` hold a robot whose job is a service task - item delivery, serving, reception and guidance, security patrol, disinfection - and its records live in `data/parts/service.json`. A humanoid or an arm-carrying mobile manipulator stays `Humanoid`; a factory or warehouse logistics AMR/AGV stays `AMR`/`AGV`; a bare chassis sold to builders stays `Mobile platform`.
 - **Excluded:** arms, cobots, hands, exoskeletons, vacuums, lawn, pool and window robots, drones, toys, cars and robotaxis, and static or companion robots.
 - **Misc:** a robot a competitor lists that isn't a standalone mobile robot goes to `misc.json` with `original_category` and `misc_reason`. Don't delete it.
 - **Include every in-scope model any competitor lists**, even if its spec fields stay empty.

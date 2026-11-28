@@ -8,10 +8,10 @@ body:
       value: |
         **Scope — mobile robots only / 범위 — 모바일 로봇만**
 
-        In scope: AMR · AGV · Humanoid · Quadruped · Wheel-legged · Indoor delivery · Outdoor delivery · Mobile platform.
+        In scope: AMR · AGV · Humanoid · Quadruped · Wheel-legged · Indoor service · Outdoor service · Mobile platform.
         Out of scope: arms, cobots, hands, exoskeletons, vacuums, lawn/pool/window robots, drones, toys, cars and robotaxis, and static or companion robots.
 
-        범위에 포함: AMR · AGV · 휴머노이드 · 4족 보행 · 바퀴-다리형 · 실내 배송 · 실외 배송 · 모바일 플랫폼.
+        범위에 포함: AMR · AGV · 휴머노이드 · 4족 보행 · 바퀴-다리형 · 실내 서비스 · 실외 서비스 · 모바일 플랫폼.
         범위에서 제외: 로봇팔, 코봇, 핸드, 외골격, 청소기, 잔디·수영장·창문 로봇, 드론, 장난감, 자동차·로보택시, 고정형·반려 로봇.
 
         **Sources — the maker only / 출처 — 제조사만**
@@ -49,8 +49,8 @@ body:
         - "Humanoid"
         - "Quadruped"
         - "Wheel-legged"
-        - "Indoor delivery"
-        - "Outdoor delivery"
+        - "Indoor service"
+        - "Outdoor service"
         - "Mobile platform"
         - "Not sure / 잘 모르겠음"
     validations:

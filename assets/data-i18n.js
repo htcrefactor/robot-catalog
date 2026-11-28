@@ -54,7 +54,7 @@ const DATA_FIELDS=[
 {k:"name",t:"text",u:"",g:"identity",en:"Model name as the maker writes it.",ko:"제조사가 표기하는 모델명."},
 {k:"manufacturer",t:"text",u:"",g:"identity",en:"Maker or company, in the catalog's own spelling.",ko:"제조사 또는 회사명."},
 {k:"country",t:"text",u:"",g:"identity",en:"Country of the maker's headquarters.",ko:"제조사 본사 국가."},
-{k:"category",t:"enum",u:"",g:"identity",en:"AMR, AGV, Humanoid, Quadruped, Wheel-legged, Indoor delivery, Outdoor delivery, Mobile platform or Misc.",ko:"AMR, AGV, 휴머노이드, 4족 보행, 바퀴-다리형, 실내 배송, 실외 배송, 모바일 플랫폼, 기타 중 하나."},
+{k:"category",t:"enum",u:"",g:"identity",en:"AMR, AGV, Humanoid, Quadruped, Wheel-legged, Indoor service, Outdoor service, Mobile platform or Misc.",ko:"AMR, AGV, 휴머노이드, 4족 보행, 바퀴-다리형, 실내 서비스, 실외 서비스, 모바일 플랫폼, 기타 중 하나."},
 {k:"locomotion",t:"enum",u:"",g:"identity",en:"Wheeled, Tracked, Legged or Wheel-legged.",ko:"바퀴형, 궤도형, 보행형, 바퀴-다리형 중 하나."},
 {k:"release_year",t:"number",u:"year",g:"identity",en:"Year the maker released or announced it, where stated.",ko:"제조사가 출시·발표한 연도(밝힌 경우)."},
 {k:"status",t:"enum",u:"",g:"identity",en:"Commercial, Pre-order, Pilot, Research or Discontinued.",ko:"상용, 사전 주문, 시범 운영, 연구용, 단종 중 하나."},

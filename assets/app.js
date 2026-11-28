@@ -1,5 +1,5 @@
-const CATS=["AMR","AGV","Humanoid","Quadruped","Wheel-legged","Indoor delivery","Outdoor delivery","Mobile platform","Misc"];
-const CAT_COLORS={"AMR":"#2f5bea","AGV":"#7a5af8","Humanoid":"#e04f16","Quadruped":"#16b364","Wheel-legged":"#0ba5ec","Indoor delivery":"#ee46bc","Outdoor delivery":"#eaaa08","Mobile platform":"#8a94a6","Misc":"#667085"};
+const CATS=["AMR","AGV","Humanoid","Quadruped","Wheel-legged","Indoor service","Outdoor service","Mobile platform","Misc"];
+const CAT_COLORS={"AMR":"#2f5bea","AGV":"#7a5af8","Humanoid":"#e04f16","Quadruped":"#16b364","Wheel-legged":"#0ba5ec","Indoor service":"#ee46bc","Outdoor service":"#eaaa08","Mobile platform":"#8a94a6","Misc":"#667085"};
 // ---- theme (set before paint) ----
 const THEME=localStorage.getItem("theme")||(matchMedia("(prefers-color-scheme: dark)").matches?"dark":"light");
 document.documentElement.dataset.theme=THEME;

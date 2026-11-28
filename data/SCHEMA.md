@@ -4,7 +4,7 @@
   "name": "Go2 Pro",
   "manufacturer": "Unitree Robotics",
   "country": "China",                  // manufacturer HQ country
-  "category": "Quadruped",             // one of: AMR, AGV, Humanoid, Quadruped, Wheel-legged, Indoor delivery, Outdoor delivery, Mobile platform
+  "category": "Quadruped",             // one of: AMR, AGV, Humanoid, Quadruped, Wheel-legged, Indoor service, Outdoor service, Mobile platform
   "locomotion": "Legged",              // one of: Wheeled, Tracked, Legged, Wheel-legged
   "release_year": 2023,
   "status": "Commercial",              // Commercial, Pre-order, Pilot, Research, Discontinued
@@ -67,6 +67,10 @@
   "summary": ""                        // one plain sentence, what it is for
 }
 Rules: never guess; unknown = null. Prefer manufacturer spec pages/datasheets. Numbers as numbers.
+`Indoor service` / `Outdoor service` hold a robot whose job is a service task — item delivery, serving,
+reception and guidance, security patrol, disinfection — and their records live in `data/parts/service.json`.
+A humanoid or an arm-carrying mobile manipulator is `Humanoid`; a factory or warehouse logistics AMR/AGV is
+`AMR`/`AGV`; a bare chassis sold to builders is `Mobile platform`.
 
 ## Dated price observations (`price_observations`)
 A price is a dated observation, not a standing fact: maker prices change, and a number without the

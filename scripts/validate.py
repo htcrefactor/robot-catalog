@@ -5,7 +5,7 @@ sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from catalog_data import CSV_COLUMNS, csv_row  # noqa: E402
 
 root = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-CATS = {"AMR","AGV","Humanoid","Quadruped","Wheel-legged","Indoor delivery","Outdoor delivery","Mobile platform","Misc"}
+CATS = {"AMR","AGV","Humanoid","Quadruped","Wheel-legged","Indoor service","Outdoor service","Mobile platform","Misc"}
 KINDS = {"list","from","rental","edu"}
 PRECISIONS = {"INT8","INT4","FP8","FP4","FP16","BF16","FP32"}
 err, ids, records, warn = [], {}, {}, []

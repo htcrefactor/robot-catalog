@@ -3,7 +3,7 @@
 > Outdoor autonomous security patrol robot with onboard Jetson Orin NX for running third-party video analytics and AI applications.
 
 - Catalog page: https://htcrefactor.github.io/robot-catalog/robot.html?id=smp-robotics-argus-s5-4
-- Category: Mobile platform
+- Category: Outdoor service
 - Locomotion: Wheeled
 - Manufacturer: SMP Robotics (United States)
 - Verification: official — checked against a maker source
@@ -29,7 +29,7 @@ The full spec sheet for this robot is still being researched; the catalog core f
 
 ## Notes
 
-Shipping from March 2026; NVIDIA Jetson Orin NX for third-party AI apps (SMP Store), dual-system design, API. Speed 4-6 km/h and IP65 are stated for the Argus outdoor patrol platform generally (max 6 km/h used).
+Shipping from March 2026; NVIDIA Jetson Orin NX for third-party AI apps (SMP Store), dual-system design, API. Speed 4-6 km/h and IP65 are stated for the Argus outdoor patrol platform generally (max 6 km/h used). Category moved from Mobile platform to Outdoor service on 2026-11-28 (issue #109): a complete outdoor security patrol robot, not a chassis for builders.
 
 ## Sources
 
@@ -43,4 +43,4 @@ Listed by these directories (discovery only, never used as a spec source):
 
 ---
 
-*Robot Catalog — generated from data/robots.json (last merged 2026-11-22). Source repository: https://github.com/htcrefactor/robot-catalog*
+*Robot Catalog — generated from data/robots.json (last merged 2026-11-28). Source repository: https://github.com/htcrefactor/robot-catalog*
