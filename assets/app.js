@@ -32,19 +32,23 @@ function footer(meta){return `<footer>${t("footer")} ${meta&&meta.updated?t("upd
 async function loadData(){return (await fetch("data/robots.json",{cache:"no-cache"})).json();}
 // ---- data completeness and per-value provenance (issue #26) ----
 // Core fields: the values this catalog keeps for every robot. A core field is a group of record
-// keys that count as one: 'dims' needs all three of L/W/H, 'price' is a USD figure or a stated
-// price note. Fields that cannot apply to a robot are left out of that robot's denominator, so a
+// keys that count as one: 'dims' needs all three of L/W/H (every); 'price' is any one of a USD
+// figure, a stated price note or a dated price observation (some), because a record migrated to
+// dated observations carries price_usd: null / price_note: null by rule. Fields that cannot apply
+// to a robot are left out of that robot's denominator, so a
 // legged robot is not marked down for having no wheel size: wheel diameter and wheel count apply
 // to Wheeled / Tracked / Wheel-legged robots, DoF to Legged / Wheel-legged robots.
-const CORE_BASE=[["dims",["length_mm","width_mm","height_mm"]],["weight_kg"],["payload_kg"],["max_speed_mps"],["runtime_h"],["battery_wh"],["ip_rating"],["release_year"],["price",["price_usd","price_note"]],["api_support"],["sdk_available"],["ros_support"],["onboard_compute"],["sensors"]];
+const CORE_BASE=[["dims",["length_mm","width_mm","height_mm"]],["weight_kg"],["payload_kg"],["max_speed_mps"],["runtime_h"],["battery_wh"],["ip_rating"],["release_year"],["price",["price_usd","price_note","price_observations"],"any"],["api_support"],["sdk_available"],["ros_support"],["onboard_compute"],["sensors"]];
 const CORE_WHEEL=[["wheel_diameter_mm"],["wheel_count"]];
 const CORE_LEG=[["dof"]];
 const hasVal=v=>v!==null&&v!==undefined&&!(Array.isArray(v)&&!v.length)&&!(typeof v==="string"&&!v.trim());
 function coreFields(r){const f=CORE_BASE.slice(),l=r.locomotion||"";
  if(l==="Wheeled"||l==="Tracked"||l==="Wheel-legged")f.push(...CORE_WHEEL);
  if(l==="Legged"||l==="Wheel-legged")f.push(...CORE_LEG);return f;}
+// A group is full when every listed key has a value, or when the group is marked 'any' and at least
+// one key has one (the third element of a CORE_* entry).
 function completeness(r){const f=coreFields(r);let n=0;
- f.forEach(g=>{const keys=g[1]||[g[0]];if(keys.every(k=>hasVal(r[k])))n++;});
+ f.forEach(g=>{const keys=g[1]||[g[0]],hit=g[2]==="any"?keys.some(k=>hasVal(r[k])):keys.every(k=>hasVal(r[k]));if(hit)n++;});
  return {n:n,d:f.length,pct:f.length?Math.round(100*n/f.length):0};}
 // A value is 'derived' when the record's own note says it was computed rather than stated by the
 // maker (e.g. "battery_wh computed from 48V×30Ah"). Only explicit wording counts, so a note that
