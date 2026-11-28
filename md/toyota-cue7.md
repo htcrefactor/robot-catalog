@@ -6,7 +6,7 @@
 - Category: Humanoid
 - Locomotion: Legged
 - Manufacturer: Toyota (Japan)
-- Verification: official — checked against a maker source
+- Verification: unconfirmed — no maker source found yet
 
 ## Core specs
 
@@ -25,7 +25,7 @@ The full spec sheet for this robot is still being researched; the catalog core f
 
 ## Notes
 
-Checked 2026-11-28: Toyota Times (Toyota Motor Corporation) confirms CUE7 as the newest CUE model, debuted 2026-04-12 at TOYOTA ARENA TOKYO, a full model change with court movement and dribbling added. Toyota's own article publishes no spec table; the height and weight come from Toyota Alvark Tokyo's official signing release, which gives the roster profile 219 cm / 74 kg, and B.League coverage reports the mass dropping from CUE6's 120 kg to 74 kg. DoF, speed, battery and price are not published. Research/demonstration platform, not a product for sale.
+Checked 2026-11-28: Toyota Times (Toyota Motor Corporation) confirms CUE7 as the newest CUE model, debuted 2026-04-12 at TOYOTA ARENA TOKYO, a full model change with court movement and dribbling added. Toyota's own pages publish no spec table, so no maker-stated height or weight exists; the 219 cm / 74 kg figures come from Toyota Alvark Tokyo's signing release (the club's roster profile, not a Toyota Motor spec sheet), and B.League coverage reports the mass dropping from CUE6's 120 kg to 74 kg. Because the numbers rest on a club announcement rather than a maker spec source, the record is kept as unconfirmed (owner decision 2026-11-28) with those figures retained and attributed here. DoF, speed, battery and price are not published. Research/demonstration platform, not a product for sale.
 
 ## Sources
 
