@@ -187,4 +187,4 @@ Maker figures: about 180 cm, about 47 kg, (1520+285) x 570 x 220 mm, 5 DoF per l
 
 ---
 
-*Robot Catalog — generated from data/robots.json (last merged 2026-11-22). Source repository: https://github.com/htcrefactor/robot-catalog*
+*Robot Catalog — generated from data/robots.json (last merged 2026-11-28). Source repository: https://github.com/htcrefactor/robot-catalog*

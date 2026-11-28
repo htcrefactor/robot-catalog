@@ -1,13 +1,13 @@
 # Robot Catalog
 
-> Open catalog of 1004 mobile robots in 9 categories — humanoids, quadrupeds, AMRs, AGVs, wheel-legged robots, delivery robots and development platforms — each with its published specs and the maker source behind every value.
+> Open catalog of 1006 mobile robots in 9 categories — humanoids, quadrupeds, AMRs, AGVs, wheel-legged robots, delivery robots and development platforms — each with its published specs and the maker source behind every value.
 
-Robot Catalog is a static, bilingual (English/Korean) catalog of mobile robots by 453 makers. Every value comes from the maker's own page, datasheet, manual, press release or lab paper and is linked on the robot's page; where the maker states nothing the field stays empty rather than being estimated. The catalog records published specs only — there is no scoring, no rating and no ranking.
+Robot Catalog is a static, bilingual (English/Korean) catalog of mobile robots by 454 makers. Every value comes from the maker's own page, datasheet, manual, press release or lab paper and is linked on the robot's page; where the maker states nothing the field stays empty rather than being estimated. The catalog records published specs only — there is no scoring, no rating and no ranking.
 
-- Robots: 1004. 869 records are verified against a maker source, 208 carry a full spec sheet.
+- Robots: 1006. 871 records are verified against a maker source, 208 carry a full spec sheet.
 - One page per robot: https://htcrefactor.github.io/robot-catalog/robot.html?id=<id>
 - One Markdown file per robot, with the full spec sheet and a source on every value: https://htcrefactor.github.io/robot-catalog/md/<id>.md
-- Data last merged: 2026-11-22.
+- Data last merged: 2026-11-28.
 - To cite a spec, link the robot's page and the maker document printed next to the value in its Markdown file.
 - Attribution: some humanoid prices and sales status come from HumanoidStore open data (CC BY 4.0, humanoidstore.co); the records that use it say so in their Markdown file.
 
@@ -140,7 +140,7 @@ Robot Catalog is a static, bilingual (English/Korean) catalog of mobile robots b
 - [VisionNav Robotics VNR 20](https://htcrefactor.github.io/robot-catalog/md/visionnav-vnr-20.md): Autonomous reach-truck forklift rated for 2,000 kg with a 7 m standard lift (up to 11.4 m optional).
 - [VisionNav Robotics VNST 20](https://htcrefactor.github.io/robot-catalog/md/visionnav-vnst-20.md): Slim autonomous pallet mover carrying 2,000 kg at up to 1.8 m/s for ground-to-ground pallet moves.
 
-### Humanoid (565)
+### Humanoid (567)
 
 - [1X Technologies EVE](https://htcrefactor.github.io/robot-catalog/md/1x-technologies-eve.md): Wheeled (bimanual torso on a wheeled base) humanoid from 1X Technologies; b2b only, sold to businesses.
 - [1X Technologies NEO](https://htcrefactor.github.io/robot-catalog/md/1x-neo.md): Soft-bodied, tendon-driven home humanoid for chores with a voice interface and remote 'Expert Mode'; hands…
@@ -220,6 +220,7 @@ Robot Catalog is a static, bilingual (English/Korean) catalog of mobile robots b
 - [Booster Robotics K1](https://htcrefactor.github.io/robot-catalog/md/booster-k1.md): Compact humanoid from Booster Robotics; shipping now, anyone can order.
 - [Booster Robotics T1](https://htcrefactor.github.io/robot-catalog/md/booster-t1.md): Booster Robotics' 1.18 m developer humanoid that won the RoboCup AdultSize 2025 title and is now superseded…
 - [Booster Robotics T2](https://htcrefactor.github.io/robot-catalog/md/booster-t2.md): Booster Robotics' 1.4 m flagship embodied-development humanoid (31 DoF, 3 m/s walking, 375 TOPS) sold with an…
+- [Bosch Rexroth RoXi](https://htcrefactor.github.io/robot-catalog/md/bosch-rexroth-roxi.md): Bosch Rexroth's mobile humanoid demonstrator: a wheeled mobile platform from its ctrlX AUTOMATION "Mobile…
 - [BOSHIAC DexBot](https://htcrefactor.github.io/robot-catalog/md/boshiac-dexbot.md): A humanoid platform that BOSHIAC (Harbin Boshi Automation) and Harbin Institute of Technology were credited…
 - [Boston Dynamics Atlas (electric)](https://htcrefactor.github.io/robot-catalog/md/boston-dynamics-atlas.md): Boston Dynamics' electric Atlas: a 1.9 m, 56-DoF humanoid built for factory part sequencing, machine tending…
 - [Boston Dynamics Atlas (hydraulic, 2013)](https://htcrefactor.github.io/robot-catalog/md/boston-dynamics-atlas-hydraulic.md): The original hydraulic Atlas that Boston Dynamics built for DARPA's Robotics Challenge in 2013, retired in…
@@ -392,6 +393,7 @@ Robot Catalog is a static, bilingual (English/Korean) catalog of mobile robots b
 - [JAKA Robotics JAKA π (Pi)](https://htcrefactor.github.io/robot-catalog/md/jaka-pi.md): Small 1.22 m humanoid for university education, new retail, entertainment and elderly-care companionship.
 - [JAKA Robotics K1](https://htcrefactor.github.io/robot-catalog/md/jaka-k1.md): JAKA's K1 seven-axis dual-arm platform for dual-arm assembly and embodied-AI data collection.
 - [JAKA Robotics Kargo](https://htcrefactor.github.io/robot-catalog/md/jaka-kargo.md): Wheeled dual-arm humanoid with 7-axis arms and lifting/pitching waist for sorting, handling and loading in…
+- [JAKA Robotics Kargo50](https://htcrefactor.github.io/robot-catalog/md/jaka-kargo50.md): JAKA's heavy-duty wheeled humanoid: two 7-DoF arms rated 25 kg each and 50 kg together on a lifting, pitching…
 - [JAKA Robotics Lumi](https://htcrefactor.github.io/robot-catalog/md/jaka-lumi.md): Humanoid
 - [JiangHuai Advanced Technology Center Qijiang humanoid](https://htcrefactor.github.io/robot-catalog/md/jianghuai-qijiang-humanoid.md): The JiangHuai (JAC) Advanced Technology Center's Qijiang humanoid, a 1.8 m, 38-DoF biped aimed at home…
 - [K-Scale Labs K-Bot](https://htcrefactor.github.io/robot-catalog/md/k-scale-labs-k-bot.md): K-Scale Labs' open-source full-size humanoid reference design, built from 20 Robstride actuators on a 48 V…
