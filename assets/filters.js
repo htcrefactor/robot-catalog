@@ -71,13 +71,18 @@ function makeFilters({el,robots,onChange,defaultSort="manufacturer",sortKeys=[]}
   const feat=RF_FEAT.filter(f=>S.feat.has(f[0]));const rng=RF_NUM.filter(([k])=>S.rng[k][0]!==""||S.rng[k][1]!=="");
   const out=robots.filter(r=>{
    if(S.cat&&r.category!==S.cat)return false;if(S.status&&r.status!==S.status)return false;if(S.country&&r.country!==S.country)return false;if(S.loco&&r.locomotion!==S.loco)return false;
-   if((S.price==="has"||S.pmax!=="")&&r.price_usd==null)return false;if(S.pmax!==""&&!(r.price_usd<S.pmax))return false;
+   // "has price" means any published price signal: a USD figure, a stated price note or a dated
+   // observation (a migrated record carries price_usd: null). The max-price box compares USD only.
+   if(S.price==="has"&&!(r.price_usd!=null||hasVal(r.price_note)||hasVal(r.price_observations)))return false;
+   if(S.pmax!==""&&!(r.price_usd<S.pmax))return false;
    for(const [,f] of feat){if(f==="image_url"?!r.image_url:r[f]!==true)return false;}
    for(const [k,f] of rng){const v=r[f],[lo,hi]=S.rng[k];if(v==null)return false;if(lo!==""&&v<lo)return false;if(hi!==""&&v>hi)return false;}
    for(const w of q)if(!r._hay.includes(w))return false;return true;});
   const k=S.sort,m=S.dir==="asc"?1:-1,str=v=>Array.isArray(v)?v.join(", "):v;
   const tie=(a,b)=>(a.manufacturer||"").localeCompare(b.manufacturer||"")||(a.name||"").localeCompare(b.name||"");
-  out.sort((a,b)=>{let x=str(a[k]),y=str(b[k]);const nx=x==null||x==="",ny=y==null||y==="";
+  // 'completeness' is computed, not a record key: sort on the percentage completeness() returns.
+  const sv=r=>k==="completeness"?completeness(r).pct:str(r[k]);
+  out.sort((a,b)=>{let x=sv(a),y=sv(b);const nx=x==null||x==="",ny=y==null||y==="";
    if(nx&&ny)return tie(a,b);if(nx)return 1;if(ny)return -1;// unknown values always last
    const c=typeof x==="string"||typeof y==="string"?String(x).localeCompare(String(y)):typeof x==="boolean"?(x===y?0:x?1:-1):x-y;return c*m||tie(a,b);});
   const n=$("rfN");if(n)n.textContent=t("n_of",{n:out.length,m:robots.length});return out;}
