@@ -1,0 +1,25 @@
+{
+ "id": "kompai-autonav-10",
+ "name": "KOMPAÏ AutoNAV 10",
+ "manufacturer": "Kompai Robotics",
+ "updated": "2026-11-28",
+ "events": [
+  {
+   "date": "2026-11-28",
+   "type": "updated",
+   "source": null,
+   "changes": [
+    {
+     "field": "note",
+     "from": null,
+     "to": "Checked 2026-11-28: kompai.com and kompairobotics.com both returned HTTP 500, so the maker's AutoNAV 10 page could not be read and no field is filled in. Re-check on a later batch."
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "unconfirmed"
+    }
+   ]
+  }
+ ]
+}

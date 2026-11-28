@@ -1,0 +1,146 @@
+{
+ "id": "pollen-microduck",
+ "name": "Microduck",
+ "manufacturer": "Pollen Robotics",
+ "updated": "2026-11-28",
+ "events": [
+  {
+   "date": "2026-11-28",
+   "type": "updated",
+   "source": "https://pollen-robotics.com/microduck/",
+   "changes": [
+    {
+     "field": "compute_detail",
+     "from": null,
+     "to": "Rockchip RK3566 with AI accelerator, 1 GB RAM, 32 GB storage"
+    },
+    {
+     "field": "compute_memory_gb",
+     "from": null,
+     "to": 1
+    },
+    {
+     "field": "compute_soc",
+     "from": null,
+     "to": "Rockchip RK3566"
+    },
+    {
+     "field": "dof",
+     "from": null,
+     "to": 15
+    },
+    {
+     "field": "height_mm",
+     "from": null,
+     "to": 250
+    },
+    {
+     "field": "note",
+     "from": null,
+     "to": "Maker press kit and store checked 2026-11-28: 25 cm tall, 14 cm wide, under 800 g (store: 780 g), 15 DoF across legs, head and neck, Rockchip RK3566 with AI accelerator, 1 GB RAM and 32 GB storage, front camera, 8 x 8 ToF LiDAR, two IMUs, microphones and speaker, two NFC antennas, articulated grasping beak, Wi-Fi and Bluetooth, removable NP-F550 2600 mAh battery with about 1 h runtime, 50 Hz onboard policy loop. Pre-orders opened 2026-08-27; the maker calls the open-source statement a software-only one (design files are not open hardware). Body length is not published, so length stays empty. Camera resolution, LiDAR range and radio versions are explicitly marked provisional by the maker and are not recorded. ROS support is not stated."
+    },
+    {
+     "field": "official_url",
+     "from": null,
+     "to": "https://pollen-robotics.com/microduck/"
+    },
+    {
+     "field": "onboard_compute",
+     "from": null,
+     "to": true
+    },
+    {
+     "field": "open_source_repos",
+     "from": null,
+     "to": [
+      {
+       "name": "pollen-robotics/microduck",
+       "url": "https://github.com/pollen-robotics/microduck",
+       "license": "Apache-2.0"
+      }
+     ]
+    },
+    {
+     "field": "price_observations",
+     "from": null,
+     "to": [
+      {
+       "date": "2026-11-28",
+       "amount": 399,
+       "currency": "USD",
+       "kind": "list",
+       "source": "https://store.pollen-robotics.com/products/microduck",
+       "note": "Pre-order introductory price, before taxes and shipping"
+      }
+     ]
+    },
+    {
+     "field": "release_year",
+     "from": null,
+     "to": 2026
+    },
+    {
+     "field": "runtime_h",
+     "from": null,
+     "to": 1.0
+    },
+    {
+     "field": "sdk_available",
+     "from": null,
+     "to": true
+    },
+    {
+     "field": "sdk_name",
+     "from": null,
+     "to": "Microduck open-source SDK (robot control, MuJoCo simulation, RL training)"
+    },
+    {
+     "field": "sensors",
+     "from": [],
+     "to": [
+      "Front camera",
+      "8 x 8 ToF LiDAR matrix",
+      "Two IMUs (body and head)",
+      "Microphones and speaker",
+      "Two NFC antennas (head and beak)",
+      "Articulated grasping beak"
+     ]
+    },
+    {
+     "field": "sources",
+     "from": [],
+     "to": [
+      "https://pollen-robotics.com/microduck/",
+      "https://pollen-robotics.com/microduck/press-kit/",
+      "https://store.pollen-robotics.com/products/microduck"
+     ]
+    },
+    {
+     "field": "status",
+     "from": null,
+     "to": "Pre-order"
+    },
+    {
+     "field": "summary",
+     "from": "",
+     "to": "Pollen Robotics' 25 cm open-source biped for physical AI: 15 motors, a ToF LiDAR, two IMUs and a grasping beak, shipped with seven learned moves and a reinforcement-learning sim-to-real stack."
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "official"
+    },
+    {
+     "field": "weight_kg",
+     "from": null,
+     "to": 0.78
+    },
+    {
+     "field": "width_mm",
+     "from": null,
+     "to": 140
+    }
+   ]
+  }
+ ]
+}

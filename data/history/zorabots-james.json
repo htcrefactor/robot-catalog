@@ -1,0 +1,109 @@
+{
+ "id": "zorabots-james",
+ "name": "James",
+ "manufacturer": "Zora Robotics",
+ "updated": "2026-11-28",
+ "events": [
+  {
+   "date": "2026-11-28",
+   "type": "updated",
+   "source": "https://docs.talemate.co/robot-james/latest/manual/hardware.html",
+   "changes": [
+    {
+     "field": "battery_wh",
+     "from": null,
+     "to": 187.2
+    },
+    {
+     "field": "compute_detail",
+     "from": null,
+     "to": "10-inch tablet head unit (Qualcomm MSM8953, 8 cores, 3 GB RAM, 32 GB storage)"
+    },
+    {
+     "field": "compute_memory_gb",
+     "from": null,
+     "to": 3
+    },
+    {
+     "field": "compute_soc",
+     "from": null,
+     "to": "Qualcomm MSM8953"
+    },
+    {
+     "field": "height_mm",
+     "from": null,
+     "to": 800
+    },
+    {
+     "field": "length_mm",
+     "from": null,
+     "to": 420
+    },
+    {
+     "field": "note",
+     "from": null,
+     "to": "Specs are from ZoraBots' own James manual (revision 2019-11-12, support@zorabots.com), hosted on the ZBOS documentation portal: 420 x 420 x 800 mm (L x W x H), 17 kg INCLUDING packaging, omnidirectional tripod wheel configuration (three wheels), 14.4 V 13 Ah Li-ion 18650 pack (187.2 Wh as the manual states it), 10-inch tablet head unit (Qualcomm MSM8953, 8 cores, 2.0 GHz, 3 GB RAM, 32 GB storage, 13 MP camera), 6-microphone ring array and two 5 W speakers, 2.4/5 GHz Wi-Fi and Bluetooth 4.0, LiDAR SLAM with a 0.15-8 m range. Operating time is given as 9-12 h (range, not a single figure) and is left empty. zorabots.com returned HTTP 500 when checked on 2026-11-28, so the manual copy on the ZBOS documentation portal is the source used."
+    },
+    {
+     "field": "official_url",
+     "from": null,
+     "to": "https://docs.talemate.co/robot-james/latest/manual/hardware.html"
+    },
+    {
+     "field": "onboard_compute",
+     "from": null,
+     "to": true
+    },
+    {
+     "field": "sensors",
+     "from": [],
+     "to": [
+      "LiDAR (SLAM in the base)",
+      "6-microphone ring array",
+      "13 MP head camera",
+      "Two 5 W speakers",
+      "2 side bumpers",
+      "IR detector for docking"
+     ]
+    },
+    {
+     "field": "sources",
+     "from": [],
+     "to": [
+      "https://docs.talemate.co/robot-james/latest/manual/hardware.html"
+     ]
+    },
+    {
+     "field": "status",
+     "from": null,
+     "to": "Commercial"
+    },
+    {
+     "field": "summary",
+     "from": "",
+     "to": "ZoraBots' wheeled guidance robot (hardware built by Siasun) that runs the ZBOS operating system to greet visitors, talk through its tablet and lead them to a point of interest."
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "official"
+    },
+    {
+     "field": "weight_kg",
+     "from": null,
+     "to": 17
+    },
+    {
+     "field": "wheel_count",
+     "from": null,
+     "to": 3
+    },
+    {
+     "field": "width_mm",
+     "from": null,
+     "to": 420
+    }
+   ]
+  }
+ ]
+}

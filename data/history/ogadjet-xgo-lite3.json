@@ -1,0 +1,151 @@
+{
+ "id": "ogadjet-xgo-lite3",
+ "name": "XGO-Lite3",
+ "manufacturer": "Ogadjet (XGO)",
+ "updated": "2026-11-28",
+ "events": [
+  {
+   "date": "2026-11-28",
+   "type": "updated",
+   "source": "https://www.xgorobot.com/lite3.html",
+   "changes": [
+    {
+     "field": "api_support",
+     "from": null,
+     "to": true
+    },
+    {
+     "field": "battery_wh",
+     "from": null,
+     "to": 18.5
+    },
+    {
+     "field": "compute_detail",
+     "from": null,
+     "to": "Raspberry Pi CM5 (2 GB) + ESP32 motion controller"
+    },
+    {
+     "field": "compute_memory_gb",
+     "from": null,
+     "to": 2
+    },
+    {
+     "field": "compute_soc",
+     "from": null,
+     "to": "Raspberry Pi CM5"
+    },
+    {
+     "field": "dof",
+     "from": null,
+     "to": 15
+    },
+    {
+     "field": "height_mm",
+     "from": null,
+     "to": 170
+    },
+    {
+     "field": "length_mm",
+     "from": null,
+     "to": 250
+    },
+    {
+     "field": "note",
+     "from": null,
+     "to": "Maker pages checked 2026-11-28: 250 x 145 x 170 mm default standing, 610 g, 15 DoF (12 leg joints + 3-DoF arm with gripper), 18650 2S 2500 mAh pack (18.5 Wh computed as 7.4 V x 2.5 Ah), Raspberry Pi CM5 2 GB with ESP32 motion controller, 5 MP OV5647 camera, dual MEMS microphones, 2 W speaker, 2.0-inch 320 x 240 IPS screen, IMU and joint position sensors, Python and ROS development via xgolib, open serial protocol for secondary development. Runtime is stated as about 2 hours. Top speed and payload are not published. Store price observed 2026-11-28: USD 479.20, a sale price (list USD 599.00)."
+    },
+    {
+     "field": "official_url",
+     "from": null,
+     "to": "https://www.xgorobot.com/lite3.html"
+    },
+    {
+     "field": "onboard_compute",
+     "from": null,
+     "to": true
+    },
+    {
+     "field": "price_observations",
+     "from": null,
+     "to": [
+      {
+       "date": "2026-11-28",
+       "amount": 479.2,
+       "currency": "USD",
+       "kind": "list",
+       "source": "https://shop.xgorobot.com/products/xgo-3-world-s-first-raspberry-pi-robotic-dog-with-an-arm",
+       "note": "Sale price on the maker's own store; list price USD 599.00"
+      }
+     ]
+    },
+    {
+     "field": "ros_support",
+     "from": null,
+     "to": true
+    },
+    {
+     "field": "runtime_h",
+     "from": null,
+     "to": 2.0
+    },
+    {
+     "field": "sdk_available",
+     "from": null,
+     "to": true
+    },
+    {
+     "field": "sdk_name",
+     "from": null,
+     "to": "xgolib (Python) / open serial protocol"
+    },
+    {
+     "field": "sensors",
+     "from": [],
+     "to": [
+      "5 MP OV5647 camera",
+      "Dual MEMS microphone array",
+      "8 ohm 2 W speaker",
+      "6-axis IMU",
+      "Joint position sensors",
+      "2.0-inch IPS display (320 x 240)"
+     ]
+    },
+    {
+     "field": "sources",
+     "from": [],
+     "to": [
+      "https://www.xgorobot.com/lite3.html",
+      "https://www.xgorobot.com/manual-lite3.html",
+      "https://wiki.xgorobot.com/kb/the-xgo-series-robot/cmpidwcrq000jhjqr5awou1iy?model=lite3",
+      "https://shop.xgorobot.com/products/xgo-3-world-s-first-raspberry-pi-robotic-dog-with-an-arm"
+     ]
+    },
+    {
+     "field": "status",
+     "from": null,
+     "to": "Commercial"
+    },
+    {
+     "field": "summary",
+     "from": "",
+     "to": "Luwu Intelligence's 15-DoF desktop quadruped with a 3-DoF arm and gripper, built on a Raspberry Pi CM5 for Python/Blockly, ROS and AI teaching."
+    },
+    {
+     "field": "verification",
+     "from": null,
+     "to": "official"
+    },
+    {
+     "field": "weight_kg",
+     "from": null,
+     "to": 0.61
+    },
+    {
+     "field": "width_mm",
+     "from": null,
+     "to": 145
+    }
+   ]
+  }
+ ]
+}

@@ -5,8 +5,104 @@
   <link rel="self" type="application/atom+xml" href="https://htcrefactor.github.io/robot-catalog/feed.xml"/>
   <link rel="alternate" type="text/html" href="https://htcrefactor.github.io/robot-catalog/"/>
   <id>tag:htcrefactor.github.io,2026:robot-catalog/feed</id>
-  <updated>2026-11-22T00:00:00Z</updated>
+  <updated>2026-11-28T00:00:00Z</updated>
   <author><name>Robot Catalog</name><uri>https://github.com/htcrefactor/robot-catalog</uri></author>
+  <entry>
+    <id>tag:htcrefactor.github.io,2026:robot-catalog/zorabots-james/updated/2026-11-28</id>
+    <title>Zora Robotics James: 17 fields changed</title>
+    <updated>2026-11-28T00:00:00Z</updated>
+    <link rel="alternate" type="text/html" href="https://htcrefactor.github.io/robot-catalog/robot.html?id=zorabots-james"/>
+    <category term="updated"/>
+    <summary type="html">&lt;ul&gt;&lt;li&gt;battery_wh: &lt;em&gt;—&lt;/em&gt; → 187.2 Wh&lt;/li&gt;&lt;li&gt;compute_detail: &lt;em&gt;—&lt;/em&gt; → 10-inch tablet head unit (Qualcomm MSM8953, 8 cores, 3 GB RAM, 32 GB storage)&lt;/li&gt;&lt;li&gt;compute_memory_gb: &lt;em&gt;—&lt;/em&gt; → 3&lt;/li&gt;&lt;li&gt;compute_soc: &lt;em&gt;—&lt;/em&gt; → Qualcomm MSM8953&lt;/li&gt;&lt;li&gt;height_mm: &lt;em&gt;—&lt;/em&gt; → 800 mm&lt;/li&gt;&lt;li&gt;length_mm: &lt;em&gt;—&lt;/em&gt; → 420 mm&lt;/li&gt;&lt;li&gt;note: &lt;em&gt;—&lt;/em&gt; → Specs are from ZoraBots' own James manual (revision 2019-11-12, support@zorabots.com), hosted on the ZBOS documentation portal: 420 x 420 x 800 mm (L x W x H), 17 kg INCLUDING packaging, omnidirectional tripod wheel configuration (three wheels), 14.4 V 13 Ah Li-ion 18650 pack (187.2 Wh as the manual states it), 10-inch tablet head unit (Qualcomm MSM8953, 8 cores, 2.0 GHz, 3 GB RAM, 32 GB storage, 13 MP camera), 6-microphone ring array and two 5 W speakers, 2.4/5 GHz Wi-Fi and Bluetooth 4.0, LiDAR SLAM with a 0.15-8 m range. Operating time is given as 9-12 h (range, not a single figure) and is left empty. zorabots.com returned HTTP 500 when checked on 2026-11-28, so the manual copy on the ZBOS documentation portal is the source used.&lt;/li&gt;&lt;li&gt;official_url: &lt;em&gt;—&lt;/em&gt; → https://docs.talemate.co/robot-james/latest/manual/hardware.html&lt;/li&gt;&lt;li&gt;onboard_compute: &lt;em&gt;—&lt;/em&gt; → YES&lt;/li&gt;&lt;li&gt;sensors:  → LiDAR (SLAM in the base); 6-microphone ring array; 13 MP head camera; Two 5 W speakers; 2 side bumpers; IR detector f…&lt;/li&gt;&lt;li&gt;sources:  → https://docs.talemate.co/robot-james/latest/manual/hardware.html&lt;/li&gt;&lt;li&gt;status: &lt;em&gt;—&lt;/em&gt; → Commercial&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;5 more field(s) changed.&lt;/p&gt;&lt;p&gt;&lt;a href="https://htcrefactor.github.io/robot-catalog/robot.html?id=zorabots-james"&gt;Zora Robotics James — robot page&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Source: &lt;a href="https://docs.talemate.co/robot-james/latest/manual/hardware.html"&gt;https://docs.talemate.co/robot-james/latest/manual/hardware.html&lt;/a&gt;&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <id>tag:htcrefactor.github.io,2026:robot-catalog/yahboom-rosmaster-m3-pro/updated/2026-11-28</id>
+    <title>Yahboom ROSMASTER M3 Pro: 13 fields changed</title>
+    <updated>2026-11-28T00:00:00Z</updated>
+    <link rel="alternate" type="text/html" href="https://htcrefactor.github.io/robot-catalog/robot.html?id=yahboom-rosmaster-m3-pro"/>
+    <category term="updated"/>
+    <summary type="html">&lt;ul&gt;&lt;li&gt;compute_detail: &lt;em&gt;—&lt;/em&gt; → Raspberry Pi 5, Jetson Nano B01, Jetson Orin Nano Super or Jetson Orin NX Super (configuration chosen at order)&lt;/li&gt;&lt;li&gt;note: &lt;em&gt;—&lt;/em&gt; → Maker store checked 2026-11-28: four 80 mm Mecanum wheels on an aluminium chassis with rear-wheel pendulum suspension, 6-DoF arm with gripper and MoveIt support, two ToF LiDAR units (front-left, rear-right) for 360 deg scans, binocular structured-light depth camera, voice module with speaker, ROS 2 Humble, and a choice of Raspberry Pi 5 / Jetson Nano B01 / Jetson Orin Nano Super / Jetson Orin NX Super as controller. Dimensions, weight, battery and runtime are shown only in parameter images on the store page, so they stay empty. Store price observed 2026-11-28: USD 1,444.00 for the base configuration.&lt;/li&gt;&lt;li&gt;official_url: &lt;em&gt;—&lt;/em&gt; → https://www.yahboom.store/products/rosmaster-m3-pro&lt;/li&gt;&lt;li&gt;onboard_compute: &lt;em&gt;—&lt;/em&gt; → YES&lt;/li&gt;&lt;li&gt;price_observations: &lt;em&gt;—&lt;/em&gt; → {'date': '2026-11-28', 'amount': 1444, 'currency': 'USD', 'kind': 'list', 'source': 'https://www.yahboom.store/produc…&lt;/li&gt;&lt;li&gt;ros_support: &lt;em&gt;—&lt;/em&gt; → YES&lt;/li&gt;&lt;li&gt;sensors:  → Dual ToF LiDAR (front-left and rear-right); Binocular structured-light depth camera; 6-DoF robotic arm with gripper; …&lt;/li&gt;&lt;li&gt;sources:  → https://www.yahboom.store/products/rosmaster-m3-pro; https://www.yahboom.net/study/ROSMASTER-M3PRO&lt;/li&gt;&lt;li&gt;status: &lt;em&gt;—&lt;/em&gt; → Commercial&lt;/li&gt;&lt;li&gt;summary: &lt;em&gt;—&lt;/em&gt; → Yahboom's ROS 2 Humble teaching platform: a four-wheel Mecanum chassis with a 6-DoF arm, dual ToF LiDAR, a structured-light depth camera and multimodal LLM voice interaction.&lt;/li&gt;&lt;li&gt;verification: &lt;em&gt;—&lt;/em&gt; → official&lt;/li&gt;&lt;li&gt;wheel_count: &lt;em&gt;—&lt;/em&gt; → 4&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;1 more field(s) changed.&lt;/p&gt;&lt;p&gt;&lt;a href="https://htcrefactor.github.io/robot-catalog/robot.html?id=yahboom-rosmaster-m3-pro"&gt;Yahboom ROSMASTER M3 Pro — robot page&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Source: &lt;a href="https://www.yahboom.store/products/rosmaster-m3-pro"&gt;https://www.yahboom.store/products/rosmaster-m3-pro&lt;/a&gt;&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <id>tag:htcrefactor.github.io,2026:robot-catalog/toyota-cue7/updated/2026-11-28</id>
+    <title>Toyota CUE7: 10 fields changed</title>
+    <updated>2026-11-28T00:00:00Z</updated>
+    <link rel="alternate" type="text/html" href="https://htcrefactor.github.io/robot-catalog/robot.html?id=toyota-cue7"/>
+    <category term="updated"/>
+    <summary type="html">&lt;ul&gt;&lt;li&gt;height_mm: &lt;em&gt;—&lt;/em&gt; → 2190 mm&lt;/li&gt;&lt;li&gt;locomotion: &lt;em&gt;—&lt;/em&gt; → Legged&lt;/li&gt;&lt;li&gt;note: &lt;em&gt;—&lt;/em&gt; → Checked 2026-11-28: Toyota Times (Toyota Motor Corporation) confirms CUE7 as the newest CUE model, debuted 2026-04-12 at TOYOTA ARENA TOKYO, a full model change with court movement and dribbling added. Toyota's own article publishes no spec table; the height and weight come from Toyota Alvark Tokyo's official signing release, which gives the roster profile 219 cm / 74 kg, and B.League coverage reports the mass dropping from CUE6's 120 kg to 74 kg. DoF, speed, battery and price are not published. Research/demonstration platform, not a product for sale.&lt;/li&gt;&lt;li&gt;official_url: &lt;em&gt;—&lt;/em&gt; → https://toyotatimes.jp/newscast/188.html&lt;/li&gt;&lt;li&gt;release_year: &lt;em&gt;—&lt;/em&gt; → 2026&lt;/li&gt;&lt;li&gt;sources:  → https://toyotatimes.jp/newscast/188.html; https://prtimes.jp/main/html/rd/p/000000524.000035222.html&lt;/li&gt;&lt;li&gt;status: &lt;em&gt;—&lt;/em&gt; → Research&lt;/li&gt;&lt;li&gt;summary: &lt;em&gt;—&lt;/em&gt; → Toyota's seventh-generation AI basketball humanoid: a 2.19 m biped that walks, dribbles and shoots, debuted at a Toyota Alvark Tokyo home game in April 2026.&lt;/li&gt;&lt;li&gt;verification: &lt;em&gt;—&lt;/em&gt; → official&lt;/li&gt;&lt;li&gt;weight_kg: &lt;em&gt;—&lt;/em&gt; → 74 kg&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://htcrefactor.github.io/robot-catalog/robot.html?id=toyota-cue7"&gt;Toyota CUE7 — robot page&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Source: &lt;a href="https://toyotatimes.jp/newscast/188.html"&gt;https://toyotatimes.jp/newscast/188.html&lt;/a&gt;&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <id>tag:htcrefactor.github.io,2026:robot-catalog/pollen-microduck/updated/2026-11-28</id>
+    <title>Pollen Robotics Microduck: 21 fields changed</title>
+    <updated>2026-11-28T00:00:00Z</updated>
+    <link rel="alternate" type="text/html" href="https://htcrefactor.github.io/robot-catalog/robot.html?id=pollen-microduck"/>
+    <category term="updated"/>
+    <summary type="html">&lt;ul&gt;&lt;li&gt;compute_detail: &lt;em&gt;—&lt;/em&gt; → Rockchip RK3566 with AI accelerator, 1 GB RAM, 32 GB storage&lt;/li&gt;&lt;li&gt;compute_memory_gb: &lt;em&gt;—&lt;/em&gt; → 1&lt;/li&gt;&lt;li&gt;compute_soc: &lt;em&gt;—&lt;/em&gt; → Rockchip RK3566&lt;/li&gt;&lt;li&gt;dof: &lt;em&gt;—&lt;/em&gt; → 15&lt;/li&gt;&lt;li&gt;height_mm: &lt;em&gt;—&lt;/em&gt; → 250 mm&lt;/li&gt;&lt;li&gt;note: &lt;em&gt;—&lt;/em&gt; → Maker press kit and store checked 2026-11-28: 25 cm tall, 14 cm wide, under 800 g (store: 780 g), 15 DoF across legs, head and neck, Rockchip RK3566 with AI accelerator, 1 GB RAM and 32 GB storage, front camera, 8 x 8 ToF LiDAR, two IMUs, microphones and speaker, two NFC antennas, articulated grasping beak, Wi-Fi and Bluetooth, removable NP-F550 2600 mAh battery with about 1 h runtime, 50 Hz onboard policy loop. Pre-orders opened 2026-08-27; the maker calls the open-source statement a software-only one (design files are not open hardware). Body length is not published, so length stays empty. Camera resolution, LiDAR range and radio versions are explicitly marked provisional by the maker and are not recorded. ROS support is not stated.&lt;/li&gt;&lt;li&gt;official_url: &lt;em&gt;—&lt;/em&gt; → https://pollen-robotics.com/microduck/&lt;/li&gt;&lt;li&gt;onboard_compute: &lt;em&gt;—&lt;/em&gt; → YES&lt;/li&gt;&lt;li&gt;open_source_repos: &lt;em&gt;—&lt;/em&gt; → {'name': 'pollen-robotics/microduck', 'url': 'https://github.com/pollen-robotics/microduck', 'license': 'Apache-2.0'}&lt;/li&gt;&lt;li&gt;price_observations: &lt;em&gt;—&lt;/em&gt; → {'date': '2026-11-28', 'amount': 399, 'currency': 'USD', 'kind': 'list', 'source': 'https://store.pollen-robotics.com…&lt;/li&gt;&lt;li&gt;release_year: &lt;em&gt;—&lt;/em&gt; → 2026&lt;/li&gt;&lt;li&gt;runtime_h: &lt;em&gt;—&lt;/em&gt; → 1.0 h&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;9 more field(s) changed.&lt;/p&gt;&lt;p&gt;&lt;a href="https://htcrefactor.github.io/robot-catalog/robot.html?id=pollen-microduck"&gt;Pollen Robotics Microduck — robot page&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Source: &lt;a href="https://pollen-robotics.com/microduck/"&gt;https://pollen-robotics.com/microduck/&lt;/a&gt;&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <id>tag:htcrefactor.github.io,2026:robot-catalog/orionstar-mini/updated/2026-11-28</id>
+    <title>OrionStar OrionStar Mini: 19 fields changed</title>
+    <updated>2026-11-28T00:00:00Z</updated>
+    <link rel="alternate" type="text/html" href="https://htcrefactor.github.io/robot-catalog/robot.html?id=orionstar-mini"/>
+    <category term="updated"/>
+    <summary type="html">&lt;ul&gt;&lt;li&gt;api_support: &lt;em&gt;—&lt;/em&gt; → YES&lt;/li&gt;&lt;li&gt;compute_detail: &lt;em&gt;—&lt;/em&gt; → Qualcomm Snapdragon 845 octa-core + industrial MCU, Android-based RobotOS&lt;/li&gt;&lt;li&gt;compute_memory_gb: &lt;em&gt;—&lt;/em&gt; → 8&lt;/li&gt;&lt;li&gt;compute_soc: &lt;em&gt;—&lt;/em&gt; → Qualcomm Snapdragon 845&lt;/li&gt;&lt;li&gt;height_mm: &lt;em&gt;—&lt;/em&gt; → 1000 mm&lt;/li&gt;&lt;li&gt;length_mm: &lt;em&gt;—&lt;/em&gt; → 410 mm&lt;/li&gt;&lt;li&gt;max_speed_mps: &lt;em&gt;—&lt;/em&gt; → 1.2 m/s&lt;/li&gt;&lt;li&gt;min_speed_mps: &lt;em&gt;—&lt;/em&gt; → 0.5 m/s&lt;/li&gt;&lt;li&gt;note: &lt;em&gt;—&lt;/em&gt; → Maker pages checked 2026-11-28. Official name is GreetingBot Mini (CN: 豹小秘 mini). English page: 410 x 410 x 1000 mm, 21 kg, 14-inch FHD screen, 13 MP head camera, 6-microphone array with 360 deg source localisation, 30 W audio, 12 h typical cruising, charging 4.5 h, 55 cm minimum passable width. Chinese page adds 0.5-1.2 m/s adjustable speed, 5 deg slope, Snapdragon 845 with 8 GB RAM / 64 GB storage on RobotOS, 240 deg LiDAR, 41 cm minimum chassis diameter and development ports (Type-C, 12 V 3 A DC). CONFLICT: the Chinese page states 9 h working time after a 4.5 h charge; the English page states 12 h typical cruising — the English figure is recorded and both are noted. Battery capacity is not published.&lt;/li&gt;&lt;li&gt;official_url: &lt;em&gt;—&lt;/em&gt; → https://en.orionstar.com/mini.html&lt;/li&gt;&lt;li&gt;onboard_compute: &lt;em&gt;—&lt;/em&gt; → YES&lt;/li&gt;&lt;li&gt;runtime_h: &lt;em&gt;—&lt;/em&gt; → 12.0 h&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;7 more field(s) changed.&lt;/p&gt;&lt;p&gt;&lt;a href="https://htcrefactor.github.io/robot-catalog/robot.html?id=orionstar-mini"&gt;OrionStar OrionStar Mini — robot page&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Source: &lt;a href="https://en.orionstar.com/mini.html"&gt;https://en.orionstar.com/mini.html&lt;/a&gt;&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <id>tag:htcrefactor.github.io,2026:robot-catalog/ogadjet-xgo-mini2s/updated/2026-11-28</id>
+    <title>Ogadjet (XGO) XGO-Mini2S: 22 fields changed</title>
+    <updated>2026-11-28T00:00:00Z</updated>
+    <link rel="alternate" type="text/html" href="https://htcrefactor.github.io/robot-catalog/robot.html?id=ogadjet-xgo-mini2s"/>
+    <category term="updated"/>
+    <summary type="html">&lt;ul&gt;&lt;li&gt;api_support: &lt;em&gt;—&lt;/em&gt; → YES&lt;/li&gt;&lt;li&gt;battery_wh: &lt;em&gt;—&lt;/em&gt; → 28.12 Wh&lt;/li&gt;&lt;li&gt;compute_detail: &lt;em&gt;—&lt;/em&gt; → Raspberry Pi CM5 (4 GB) + ESP32 motion controller&lt;/li&gt;&lt;li&gt;compute_memory_gb: &lt;em&gt;—&lt;/em&gt; → 4&lt;/li&gt;&lt;li&gt;compute_soc: &lt;em&gt;—&lt;/em&gt; → Raspberry Pi CM5&lt;/li&gt;&lt;li&gt;dof: &lt;em&gt;—&lt;/em&gt; → 16&lt;/li&gt;&lt;li&gt;height_mm: &lt;em&gt;—&lt;/em&gt; → 180 mm&lt;/li&gt;&lt;li&gt;length_mm: &lt;em&gt;—&lt;/em&gt; → 270 mm&lt;/li&gt;&lt;li&gt;note: &lt;em&gt;—&lt;/em&gt; → Maker wiki checked 2026-11-28 (shared lite3/mini2S page): 270 x 150 x 180 mm default standing, 915 g, 16 DoF (12 leg joints + 4-DoF arm), 18650 2S 3800 mAh pack (28.12 Wh computed as 7.4 V x 3.8 Ah), 4.5 kg.cm magnetic-encoder servos with 0-360 deg range and 0.01 deg control resolution, Raspberry Pi CM5 4 GB with ESP32, silicone + ABS feet, supplied 8.4 V 4 A DC charger (USB-C charging is not allowed), about 2 hours runtime, Python and ROS development. Top speed and payload are not published. The maker has no separate mini2S product page on xgorobot.com (404); the wiki is the current source.&lt;/li&gt;&lt;li&gt;official_url: &lt;em&gt;—&lt;/em&gt; → https://wiki.xgorobot.com/kb/the-xgo-series-robot/cmpidwcrq000jhjqr5awou1iy?model=lite3&lt;/li&gt;&lt;li&gt;onboard_compute: &lt;em&gt;—&lt;/em&gt; → YES&lt;/li&gt;&lt;li&gt;ros_support: &lt;em&gt;—&lt;/em&gt; → YES&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;10 more field(s) changed.&lt;/p&gt;&lt;p&gt;&lt;a href="https://htcrefactor.github.io/robot-catalog/robot.html?id=ogadjet-xgo-mini2s"&gt;Ogadjet (XGO) XGO-Mini2S — robot page&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Source: &lt;a href="https://wiki.xgorobot.com/kb/the-xgo-series-robot/cmpidwcrq000jhjqr5awou1iy?model=lite3"&gt;https://wiki.xgorobot.com/kb/the-xgo-series-robot/cmpidwcrq000jhjqr5awou1iy?model=lite3&lt;/a&gt;&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <id>tag:htcrefactor.github.io,2026:robot-catalog/ogadjet-xgo-lite3/updated/2026-11-28</id>
+    <title>Ogadjet (XGO) XGO-Lite3: 23 fields changed</title>
+    <updated>2026-11-28T00:00:00Z</updated>
+    <link rel="alternate" type="text/html" href="https://htcrefactor.github.io/robot-catalog/robot.html?id=ogadjet-xgo-lite3"/>
+    <category term="updated"/>
+    <summary type="html">&lt;ul&gt;&lt;li&gt;api_support: &lt;em&gt;—&lt;/em&gt; → YES&lt;/li&gt;&lt;li&gt;battery_wh: &lt;em&gt;—&lt;/em&gt; → 18.5 Wh&lt;/li&gt;&lt;li&gt;compute_detail: &lt;em&gt;—&lt;/em&gt; → Raspberry Pi CM5 (2 GB) + ESP32 motion controller&lt;/li&gt;&lt;li&gt;compute_memory_gb: &lt;em&gt;—&lt;/em&gt; → 2&lt;/li&gt;&lt;li&gt;compute_soc: &lt;em&gt;—&lt;/em&gt; → Raspberry Pi CM5&lt;/li&gt;&lt;li&gt;dof: &lt;em&gt;—&lt;/em&gt; → 15&lt;/li&gt;&lt;li&gt;height_mm: &lt;em&gt;—&lt;/em&gt; → 170 mm&lt;/li&gt;&lt;li&gt;length_mm: &lt;em&gt;—&lt;/em&gt; → 250 mm&lt;/li&gt;&lt;li&gt;note: &lt;em&gt;—&lt;/em&gt; → Maker pages checked 2026-11-28: 250 x 145 x 170 mm default standing, 610 g, 15 DoF (12 leg joints + 3-DoF arm with gripper), 18650 2S 2500 mAh pack (18.5 Wh computed as 7.4 V x 2.5 Ah), Raspberry Pi CM5 2 GB with ESP32 motion controller, 5 MP OV5647 camera, dual MEMS microphones, 2 W speaker, 2.0-inch 320 x 240 IPS screen, IMU and joint position sensors, Python and ROS development via xgolib, open serial protocol for secondary development. Runtime is stated as about 2 hours. Top speed and payload are not published. Store price observed 2026-11-28: USD 479.20, a sale price (list USD 599.00).&lt;/li&gt;&lt;li&gt;official_url: &lt;em&gt;—&lt;/em&gt; → https://www.xgorobot.com/lite3.html&lt;/li&gt;&lt;li&gt;onboard_compute: &lt;em&gt;—&lt;/em&gt; → YES&lt;/li&gt;&lt;li&gt;price_observations: &lt;em&gt;—&lt;/em&gt; → {'date': '2026-11-28', 'amount': 479.2, 'currency': 'USD', 'kind': 'list', 'source': 'https://shop.xgorobot.com/produ…&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;11 more field(s) changed.&lt;/p&gt;&lt;p&gt;&lt;a href="https://htcrefactor.github.io/robot-catalog/robot.html?id=ogadjet-xgo-lite3"&gt;Ogadjet (XGO) XGO-Lite3 — robot page&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Source: &lt;a href="https://www.xgorobot.com/lite3.html"&gt;https://www.xgorobot.com/lite3.html&lt;/a&gt;&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <id>tag:htcrefactor.github.io,2026:robot-catalog/ogadjet-xgo-duck/updated/2026-11-28</id>
+    <title>Ogadjet (XGO) XGO-Duck: 3 fields changed</title>
+    <updated>2026-11-28T00:00:00Z</updated>
+    <link rel="alternate" type="text/html" href="https://htcrefactor.github.io/robot-catalog/robot.html?id=ogadjet-xgo-duck"/>
+    <category term="updated"/>
+    <summary type="html">&lt;ul&gt;&lt;li&gt;note: &lt;em&gt;—&lt;/em&gt; → Checked 2026-11-28: the maker's site (xgorobot.com, Luwu Intelligence) lists XGO-lite3, XGO-mini2S, XGO-mini2SW and XGO-Rider2, plus the RIG line (Puppy, Arm, Hover) — no XGO-Duck model and no 'Duck' product page or datasheet. The name comes only from the aggregator listing this record was seeded from, so nothing is filled in.&lt;/li&gt;&lt;li&gt;sources:  → https://www.xgorobot.com/&lt;/li&gt;&lt;li&gt;verification: &lt;em&gt;—&lt;/em&gt; → unconfirmed&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://htcrefactor.github.io/robot-catalog/robot.html?id=ogadjet-xgo-duck"&gt;Ogadjet (XGO) XGO-Duck — robot page&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Source: &lt;a href="https://www.xgorobot.com/"&gt;https://www.xgorobot.com/&lt;/a&gt;&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <id>tag:htcrefactor.github.io,2026:robot-catalog/kompai-autonav-10/updated/2026-11-28</id>
+    <title>Kompai Robotics KOMPAÏ AutoNAV 10: 2 fields changed</title>
+    <updated>2026-11-28T00:00:00Z</updated>
+    <link rel="alternate" type="text/html" href="https://htcrefactor.github.io/robot-catalog/robot.html?id=kompai-autonav-10"/>
+    <category term="updated"/>
+    <summary type="html">&lt;ul&gt;&lt;li&gt;note: &lt;em&gt;—&lt;/em&gt; → Checked 2026-11-28: kompai.com and kompairobotics.com both returned HTTP 500, so the maker's AutoNAV 10 page could not be read and no field is filled in. Re-check on a later batch.&lt;/li&gt;&lt;li&gt;verification: &lt;em&gt;—&lt;/em&gt; → unconfirmed&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://htcrefactor.github.io/robot-catalog/robot.html?id=kompai-autonav-10"&gt;Kompai Robotics KOMPAÏ AutoNAV 10 — robot page&lt;/a&gt;&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <id>tag:htcrefactor.github.io,2026:robot-catalog/kompai-assist/updated/2026-11-28</id>
+    <title>Kompai Robotics KOMPAÏ assist: 2 fields changed</title>
+    <updated>2026-11-28T00:00:00Z</updated>
+    <link rel="alternate" type="text/html" href="https://htcrefactor.github.io/robot-catalog/robot.html?id=kompai-assist"/>
+    <category term="updated"/>
+    <summary type="html">&lt;ul&gt;&lt;li&gt;note: &lt;em&gt;—&lt;/em&gt; → Checked 2026-11-28: kompai.com and kompairobotics.com both returned HTTP 500, so no maker page could be read and nothing is filled in. Third-party listings quote 118.6 cm, 45 kg, 8.3 km/h and 6 h runtime, which are not maker figures and are not used here. Re-check the maker site on a later batch.&lt;/li&gt;&lt;li&gt;verification: &lt;em&gt;—&lt;/em&gt; → unconfirmed&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://htcrefactor.github.io/robot-catalog/robot.html?id=kompai-assist"&gt;Kompai Robotics KOMPAÏ assist — robot page&lt;/a&gt;&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <id>tag:htcrefactor.github.io,2026:robot-catalog/dogu-iroi/updated/2026-11-28</id>
+    <title>DOGU IROI: 14 fields changed</title>
+    <updated>2026-11-28T00:00:00Z</updated>
+    <link rel="alternate" type="text/html" href="https://htcrefactor.github.io/robot-catalog/robot.html?id=dogu-iroi"/>
+    <category term="updated"/>
+    <summary type="html">&lt;ul&gt;&lt;li&gt;height_mm: &lt;em&gt;—&lt;/em&gt; → 1440 mm&lt;/li&gt;&lt;li&gt;length_mm: &lt;em&gt;—&lt;/em&gt; → 578 mm&lt;/li&gt;&lt;li&gt;max_speed_mps: &lt;em&gt;—&lt;/em&gt; → 1.2 m/s&lt;/li&gt;&lt;li&gt;min_speed_mps: &lt;em&gt;—&lt;/em&gt; → 0.5 m/s&lt;/li&gt;&lt;li&gt;note: &lt;em&gt;—&lt;/em&gt; → Maker page checked 2026-11-28: W 695.5 x D 578 x H 1440 mm (recorded as length 578, width 695.5), 100 kg, 0.5 m/s nominal with 1.2 m/s maximum, 100 W x 2 motors, Full HD front display, maximum operating time 8 h and charging 6 h. The page writes the power pack as "1,536W x 2"; the unit is ambiguous (W, Wh or mAh are all implausible as written), so battery_wh is left empty rather than converted. Sensors per the page: 3D LiDAR scanning a radius of about 50 m, 2D LiDAR, ultrasonic sensors, five cameras plus thermal camera and fire sensor, UVA/UVC lamps, and SOS/Planner remote software.&lt;/li&gt;&lt;li&gt;official_url: &lt;em&gt;—&lt;/em&gt; → https://www.dogu.xyz/product-iroi&lt;/li&gt;&lt;li&gt;runtime_h: &lt;em&gt;—&lt;/em&gt; → 8.0 h&lt;/li&gt;&lt;li&gt;sensors:  → 3D LiDAR (about 50 m radius); 2D LiDAR; Ultrasonic sensors; Five cameras (front, rear, left, right and top); Thermal …&lt;/li&gt;&lt;li&gt;sources:  → https://www.dogu.xyz/product-iroi&lt;/li&gt;&lt;li&gt;status: &lt;em&gt;—&lt;/em&gt; → Commercial&lt;/li&gt;&lt;li&gt;summary: &lt;em&gt;—&lt;/em&gt; → DOGU's indoor AI security and guidance robot: a 1.44 m wheeled patrol platform with 3D/2D LiDAR, five cameras, gas and fire sensing and UVC disinfection, used for night patrol and daytime guidance.&lt;/li&gt;&lt;li&gt;verification: &lt;em&gt;—&lt;/em&gt; → official&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;2 more field(s) changed.&lt;/p&gt;&lt;p&gt;&lt;a href="https://htcrefactor.github.io/robot-catalog/robot.html?id=dogu-iroi"&gt;DOGU IROI — robot page&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Source: &lt;a href="https://www.dogu.xyz/product-iroi"&gt;https://www.dogu.xyz/product-iroi&lt;/a&gt;&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <id>tag:htcrefactor.github.io,2026:robot-catalog/csjbot-catcop/updated/2026-11-28</id>
+    <title>CSJBot (Alpha Robotics) CatCop: 16 fields changed</title>
+    <updated>2026-11-28T00:00:00Z</updated>
+    <link rel="alternate" type="text/html" href="https://htcrefactor.github.io/robot-catalog/robot.html?id=csjbot-catcop"/>
+    <category term="updated"/>
+    <summary type="html">&lt;ul&gt;&lt;li&gt;battery_wh: &lt;em&gt;—&lt;/em&gt; → 960 Wh&lt;/li&gt;&lt;li&gt;height_mm: &lt;em&gt;—&lt;/em&gt; → 1420 mm&lt;/li&gt;&lt;li&gt;length_mm: &lt;em&gt;—&lt;/em&gt; → 750 mm&lt;/li&gt;&lt;li&gt;locomotion: &lt;em&gt;—&lt;/em&gt; → Wheeled&lt;/li&gt;&lt;li&gt;max_speed_mps: &lt;em&gt;—&lt;/em&gt; → 1.0 m/s&lt;/li&gt;&lt;li&gt;note: &lt;em&gt;—&lt;/em&gt; → Maker page (Alpha Robotics, the international brand of Suzhou Pangolin / CSJBot) checked 2026-11-28: 750 x 705 x 1420 mm (L x W x H), about 75 kg, four-wheel differential chassis, 1.0 m/s maximum flat-ground speed, 10 deg maximum climb, 50 mm ditch and wading limits, turn-in-place steering, 50 mm positioning accuracy, 48 V 20 Ah battery (960 Wh computed as 48 V x 20 Ah), 8 h endurance, 4 h charging, head pan +/-180 deg, aluminium alloy and sheet metal body, 4G/5G/Wi-Fi, -10 to 60 C, 5-95% humidity without condensation. Functions listed by the maker: face recognition, voice intercom, autonomous patrol, early-warning handling and 360 deg monitoring. FLAG: this record arrived with category 'Humanoid' from the aggregator list it was seeded from, but the maker describes a wheeled patrol robot - the category needs an owner decision (AMR?) and was not changed in this batch.&lt;/li&gt;&lt;li&gt;official_url: &lt;em&gt;—&lt;/em&gt; → https://www.alpharobotics.ai/product-detail2/catcop-security-patrol-robot.html&lt;/li&gt;&lt;li&gt;runtime_h: &lt;em&gt;—&lt;/em&gt; → 8.0 h&lt;/li&gt;&lt;li&gt;sensors:  → 360 deg starlight video surveillance camera; Face-recognition camera; Microphone and speaker for two-way voice intercom&lt;/li&gt;&lt;li&gt;sources:  → https://www.alpharobotics.ai/product-detail2/catcop-security-patrol-robot.html&lt;/li&gt;&lt;li&gt;status: &lt;em&gt;—&lt;/em&gt; → Commercial&lt;/li&gt;&lt;li&gt;summary: &lt;em&gt;—&lt;/em&gt; → Alpha Robotics' four-wheel security patrol robot (formerly sold as CSJBot): autonomous mapping, path planning and obstacle avoidance with 360-degree starlight surveillance, two-way voice intercom and self-charging.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;4 more field(s) changed.&lt;/p&gt;&lt;p&gt;&lt;a href="https://htcrefactor.github.io/robot-catalog/robot.html?id=csjbot-catcop"&gt;CSJBot (Alpha Robotics) CatCop — robot page&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Source: &lt;a href="https://www.alpharobotics.ai/product-detail2/catcop-security-patrol-robot.html"&gt;https://www.alpharobotics.ai/product-detail2/catcop-security-patrol-robot.html&lt;/a&gt;&lt;/p&gt;</summary>
+  </entry>
   <entry>
     <id>tag:htcrefactor.github.io,2026:robot-catalog/zebra-fetch-freight1500/updated/2026-11-22</id>
     <title>Zebra Technologies (Fetch Robotics) Freight1500: 2 fields changed</title>
@@ -710,101 +806,5 @@
     <link rel="alternate" type="text/html" href="https://htcrefactor.github.io/robot-catalog/robot.html?id=weilan-alphadog-c500"/>
     <category term="added"/>
     <summary type="html">&lt;p&gt;&lt;a href="https://htcrefactor.github.io/robot-catalog/robot.html?id=weilan-alphadog-c500"&gt;WEILAN AlphaDog C500 — robot page&lt;/a&gt;&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <id>tag:htcrefactor.github.io,2026:robot-catalog/waseda-twendy-one/added/2026-11-14</id>
-    <title>New robot: Waseda University TWENDY-ONE</title>
-    <updated>2026-11-14T00:00:00Z</updated>
-    <link rel="alternate" type="text/html" href="https://htcrefactor.github.io/robot-catalog/robot.html?id=waseda-twendy-one"/>
-    <category term="added"/>
-    <summary type="html">&lt;p&gt;&lt;a href="https://htcrefactor.github.io/robot-catalog/robot.html?id=waseda-twendy-one"&gt;Waseda University TWENDY-ONE — robot page&lt;/a&gt;&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <id>tag:htcrefactor.github.io,2026:robot-catalog/walden-robotics-walden/added/2026-11-14</id>
-    <title>New robot: Walden Robotics Walden</title>
-    <updated>2026-11-14T00:00:00Z</updated>
-    <link rel="alternate" type="text/html" href="https://htcrefactor.github.io/robot-catalog/robot.html?id=walden-robotics-walden"/>
-    <category term="added"/>
-    <summary type="html">&lt;p&gt;&lt;a href="https://htcrefactor.github.io/robot-catalog/robot.html?id=walden-robotics-walden"&gt;Walden Robotics Walden — robot page&lt;/a&gt;&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <id>tag:htcrefactor.github.io,2026:robot-catalog/vstone-tichno/added/2026-11-14</id>
-    <title>New robot: Vstone Vstone Tichno</title>
-    <updated>2026-11-14T00:00:00Z</updated>
-    <link rel="alternate" type="text/html" href="https://htcrefactor.github.io/robot-catalog/robot.html?id=vstone-tichno"/>
-    <category term="added"/>
-    <summary type="html">&lt;p&gt;&lt;a href="https://htcrefactor.github.io/robot-catalog/robot.html?id=vstone-tichno"&gt;Vstone Vstone Tichno — robot page&lt;/a&gt;&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <id>tag:htcrefactor.github.io,2026:robot-catalog/vlai-robotics-k1/added/2026-11-14</id>
-    <title>New robot: VLAI Robotics K1</title>
-    <updated>2026-11-14T00:00:00Z</updated>
-    <link rel="alternate" type="text/html" href="https://htcrefactor.github.io/robot-catalog/robot.html?id=vlai-robotics-k1"/>
-    <category term="added"/>
-    <summary type="html">&lt;p&gt;&lt;a href="https://htcrefactor.github.io/robot-catalog/robot.html?id=vlai-robotics-k1"&gt;VLAI Robotics K1 — robot page&lt;/a&gt;&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <id>tag:htcrefactor.github.io,2026:robot-catalog/vizum-xiaowei-agv/added/2026-11-14</id>
-    <title>New robot: Vizum Xiaowei (AGV version)</title>
-    <updated>2026-11-14T00:00:00Z</updated>
-    <link rel="alternate" type="text/html" href="https://htcrefactor.github.io/robot-catalog/robot.html?id=vizum-xiaowei-agv"/>
-    <category term="added"/>
-    <summary type="html">&lt;p&gt;&lt;a href="https://htcrefactor.github.io/robot-catalog/robot.html?id=vizum-xiaowei-agv"&gt;Vizum Xiaowei (AGV version) — robot page&lt;/a&gt;&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <id>tag:htcrefactor.github.io,2026:robot-catalog/vizum-humanoid-picking-robot/added/2026-11-14</id>
-    <title>New robot: Vizum Humanoid picking robot</title>
-    <updated>2026-11-14T00:00:00Z</updated>
-    <link rel="alternate" type="text/html" href="https://htcrefactor.github.io/robot-catalog/robot.html?id=vizum-humanoid-picking-robot"/>
-    <category term="added"/>
-    <summary type="html">&lt;p&gt;&lt;a href="https://htcrefactor.github.io/robot-catalog/robot.html?id=vizum-humanoid-picking-robot"&gt;Vizum Humanoid picking robot — robot page&lt;/a&gt;&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <id>tag:htcrefactor.github.io,2026:robot-catalog/visionnav-vnst-20/added/2026-11-14</id>
-    <title>New robot: VisionNav Robotics VNST 20</title>
-    <updated>2026-11-14T00:00:00Z</updated>
-    <link rel="alternate" type="text/html" href="https://htcrefactor.github.io/robot-catalog/robot.html?id=visionnav-vnst-20"/>
-    <category term="added"/>
-    <summary type="html">&lt;p&gt;&lt;a href="https://htcrefactor.github.io/robot-catalog/robot.html?id=visionnav-vnst-20"&gt;VisionNav Robotics VNST 20 — robot page&lt;/a&gt;&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <id>tag:htcrefactor.github.io,2026:robot-catalog/visionnav-vnr-20/added/2026-11-14</id>
-    <title>New robot: VisionNav Robotics VNR 20</title>
-    <updated>2026-11-14T00:00:00Z</updated>
-    <link rel="alternate" type="text/html" href="https://htcrefactor.github.io/robot-catalog/robot.html?id=visionnav-vnr-20"/>
-    <category term="added"/>
-    <summary type="html">&lt;p&gt;&lt;a href="https://htcrefactor.github.io/robot-catalog/robot.html?id=visionnav-vnr-20"&gt;VisionNav Robotics VNR 20 — robot page&lt;/a&gt;&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <id>tag:htcrefactor.github.io,2026:robot-catalog/visionnav-vnp-15/added/2026-11-14</id>
-    <title>New robot: VisionNav Robotics VNP 15</title>
-    <updated>2026-11-14T00:00:00Z</updated>
-    <link rel="alternate" type="text/html" href="https://htcrefactor.github.io/robot-catalog/robot.html?id=visionnav-vnp-15"/>
-    <category term="added"/>
-    <summary type="html">&lt;p&gt;&lt;a href="https://htcrefactor.github.io/robot-catalog/robot.html?id=visionnav-vnp-15"&gt;VisionNav Robotics VNP 15 — robot page&lt;/a&gt;&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <id>tag:htcrefactor.github.io,2026:robot-catalog/visionnav-vnk15/added/2026-11-14</id>
-    <title>New robot: VisionNav Robotics VNK 15</title>
-    <updated>2026-11-14T00:00:00Z</updated>
-    <link rel="alternate" type="text/html" href="https://htcrefactor.github.io/robot-catalog/robot.html?id=visionnav-vnk15"/>
-    <category term="added"/>
-    <summary type="html">&lt;p&gt;&lt;a href="https://htcrefactor.github.io/robot-catalog/robot.html?id=visionnav-vnk15"&gt;VisionNav Robotics VNK 15 — robot page&lt;/a&gt;&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <id>tag:htcrefactor.github.io,2026:robot-catalog/visionnav-vne40-66/added/2026-11-14</id>
-    <title>New robot: VisionNav Robotics VNE40-66</title>
-    <updated>2026-11-14T00:00:00Z</updated>
-    <link rel="alternate" type="text/html" href="https://htcrefactor.github.io/robot-catalog/robot.html?id=visionnav-vne40-66"/>
-    <category term="added"/>
-    <summary type="html">&lt;p&gt;&lt;a href="https://htcrefactor.github.io/robot-catalog/robot.html?id=visionnav-vne40-66"&gt;VisionNav Robotics VNE40-66 — robot page&lt;/a&gt;&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <id>tag:htcrefactor.github.io,2026:robot-catalog/vinrobotics-vr-m3/added/2026-11-14</id>
-    <title>New robot: VinRobotics (Vingroup) VR-M3</title>
-    <updated>2026-11-14T00:00:00Z</updated>
-    <link rel="alternate" type="text/html" href="https://htcrefactor.github.io/robot-catalog/robot.html?id=vinrobotics-vr-m3"/>
-    <category term="added"/>
-    <summary type="html">&lt;p&gt;&lt;a href="https://htcrefactor.github.io/robot-catalog/robot.html?id=vinrobotics-vr-m3"&gt;VinRobotics (Vingroup) VR-M3 — robot page&lt;/a&gt;&lt;/p&gt;</summary>
   </entry>
 </feed>
