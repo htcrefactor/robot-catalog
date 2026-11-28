@@ -1,11 +1,11 @@
 # Robot Catalog — full catalog
 
-> Every robot in Robot Catalog (1004) with its core specs and sources, in one file. Values are as the maker publishes them; fields the maker does not publish are left out rather than estimated.
+> Every robot in Robot Catalog (1006) with its core specs and sources, in one file. Values are as the maker publishes them; fields the maker does not publish are left out rather than estimated.
 
 - Canonical site: https://htcrefactor.github.io/robot-catalog/
 - Index for agents: https://htcrefactor.github.io/robot-catalog/llms.txt
 - Per-robot Markdown with the full spec sheet and a source on every value: https://htcrefactor.github.io/robot-catalog/md/<id>.md
-- Generated from data/robots.json, last merged 2026-11-22. No scoring, no ranking.
+- Generated from data/robots.json, last merged 2026-11-28. No scoring, no ranking.
 
 ## AMR (96)
 
@@ -1105,7 +1105,7 @@
 - Specs: Length 1,620 mm; Width 800 mm; Height 1,830 mm; Weight 520 kg; Payload 2,000 kg; Max speed 1.8 m/s (6.5 km/h); Released 2023; Status Commercial
 - Sources: https://www.visionnav.com/product/detail/VNST20-Pallet-Stacker-AGV, https://www.visionnav.com/news/detail/detail298.html
 
-## Humanoid (565)
+## Humanoid (567)
 
 ### 1X Technologies EVE
 
@@ -1861,6 +1861,16 @@
 - Summary: Booster Robotics' 1.4 m flagship embodied-development humanoid (31 DoF, 3 m/s walking, 375 TOPS) sold with an education configuration.
 - Specs: Height 1,400 mm; Weight 42 kg; Payload 10 kg; Max speed 3 m/s (10.8 km/h); Degrees of freedom 31; Runtime 2 h; Battery 480 Wh; Status Commercial; On-board compute yes; Compute High-performance ARM processor, 375 TOPS AI compute; Sensors Binocular camera (head), Binocular camera (waist), Microphone array, Speaker, LiDAR (optional)
 - Sources: https://www.booster.tech/booster-t2/, https://docs.booster.tech/zh-CN/docs/product-manual/t2/getting-started/specifications, https://humanoidstore.co/robots/booster-t2
+
+### Bosch Rexroth RoXi
+
+- id: `bosch-rexroth-roxi`
+- Page: https://htcrefactor.github.io/robot-catalog/robot.html?id=bosch-rexroth-roxi
+- Markdown: https://htcrefactor.github.io/robot-catalog/md/bosch-rexroth-roxi.md
+- Humanoid · Wheeled · Research · Germany · released 2026
+- Summary: Bosch Rexroth's mobile humanoid demonstrator: a wheeled mobile platform from its ctrlX AUTOMATION "Mobile Robots" set carrying two Kassow Robots 7-axis cobots, shown tending machines and handling parts.
+- Specs: Released 2026; Status Research
+- Sources: https://apps.boschrexroth.com/microsites/ctrlx-automation/en/news-stories/story/agentic-ai-mobile-humanoid-robotics-sps-2026/, https://www.boschrexroth.com/en/de/company/press/ctrlx-automation-48384.html
 
 ### BOSHIAC DexBot
 
@@ -3545,6 +3555,16 @@
 - Summary: Wheeled dual-arm humanoid with 7-axis arms and lifting/pitching waist for sorting, handling and loading in factories.
 - Specs: Length 841 mm; Width 641 mm; Height 1,750 mm; Weight 250 kg; Payload 5 kg; Degrees of freedom 20; Status Commercial; ROS yes; On-board compute yes; Compute Intel Core i5 12th Gen controller, 128 GB SSD; Sensors Vision cameras ×2 (EN) / ×4 (CN)
 - Sources: https://www.jaka.com/en/productDetails/JAKA_Kargo, https://www.jaka.com/zh/productDetails/JAKA_Kargo, https://github.com/JAKARobotics/JAKA_KARGO/blob/main/jaka_kargo_ros2/README.md
+
+### JAKA Robotics Kargo50
+
+- id: `jaka-kargo50`
+- Page: https://htcrefactor.github.io/robot-catalog/robot.html?id=jaka-kargo50
+- Markdown: https://htcrefactor.github.io/robot-catalog/md/jaka-kargo50.md
+- Humanoid · Wheeled · Commercial · China
+- Summary: JAKA's heavy-duty wheeled humanoid: two 7-DoF arms rated 25 kg each and 50 kg together on a lifting, pitching body, for heavy tote handling and machine tending.
+- Specs: Weight 320 kg; Payload 50 kg; IP rating IP20; Status Commercial; On-board compute yes; Compute Control cabinet: Intel Core Ultra 7 255H, 32 GB RAM, 96 TOPS, EtherCAT; Sensors Obstacle-avoidance sensor, Emergency-stop button
+- Sources: https://www.jaka.com/zh/productDetails/JAKA%20Kargo50
 
 ### JAKA Robotics Lumi
 

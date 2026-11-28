@@ -79,4 +79,4 @@ Maker figures for the current KHR-3HV Ver.3.1: 401.05 x 194.4 x 129 mm, 1.8 kg, 
 
 ---
 
-*Robot Catalog — generated from data/robots.json (last merged 2026-11-22). Source repository: https://github.com/htcrefactor/robot-catalog*
+*Robot Catalog — generated from data/robots.json (last merged 2026-11-28). Source repository: https://github.com/htcrefactor/robot-catalog*

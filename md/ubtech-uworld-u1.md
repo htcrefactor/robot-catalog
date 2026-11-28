@@ -82,4 +82,4 @@ Maker launch (2026-06-30, Shenzhen): 88 DoF across the series, a dual-pivot biom
 
 ---
 
-*Robot Catalog — generated from data/robots.json (last merged 2026-11-22). Source repository: https://github.com/htcrefactor/robot-catalog*
+*Robot Catalog — generated from data/robots.json (last merged 2026-11-28). Source repository: https://github.com/htcrefactor/robot-catalog*
